@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 100%
 >title="Erstellen von Entscheidungsregeln"
 >abstract="Entscheidungsregeln ermöglichen es, die Zielgruppe für Entscheidungselemente zu definieren, indem Einschränkungen angewendet werden, entweder direkt auf der Entscheidungselementebene oder innerhalb einer bestimmten Auswahlstrategie. Dadurch kann genauer gesteuert werden, welche Artikel wem präsentiert werden sollen."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl
-   * **[Erstellen von Entscheidungsregeln](rules.md)**
-   * [Erstellen von Rangfolgemethoden](ranking.md)
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: **[Entscheidungsregeln erstellen](rules.md)** - [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 

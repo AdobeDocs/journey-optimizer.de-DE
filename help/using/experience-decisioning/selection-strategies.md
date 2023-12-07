@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 96%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl
-   * [Erstellen von Entscheidungsregeln](rules.md)
-   * [Erstellen von Rangfolgemethoden](ranking.md)
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
 * **[Erstellen von Auswahlstrategien](selection-strategies.md)**
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
@@ -83,6 +76,8 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
    ![](assets/strategy-create-screen.png)
 
 1. Wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+
+1. Wählen Sie die [Angebotssammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
 1. Verwenden Sie das Feld **[!UICONTROL Eignung]**, um die Auswahl der Angebote für diese Platzierung zu beschränken.
 

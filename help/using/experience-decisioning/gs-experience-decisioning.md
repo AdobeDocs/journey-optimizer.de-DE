@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit Offer Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * **[Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)**
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl
-   * [Erstellen von Entscheidungsregeln](rules.md)
-   * [Erstellen von Rangfolgemethoden](ranking.md)
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 100%
 >title="Erstellen von Ranglistenformeln"
 >abstract="Mithilfe von Formeln kann festgelegt werden, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen. Nachdem eine Rangfolgenmethode erstellt wurde, kann sie einer Entscheidungsstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl
-   * [Erstellen von Entscheidungsregeln](rules.md)
-   * **[Erstellen von Rangfolgemethoden](ranking.md)**
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - **[Erstellen von Ranking-Methoden](ranking.md)**
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 

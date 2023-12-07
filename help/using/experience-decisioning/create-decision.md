@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 100%
 >abstract="Entscheidungsrichtlinien nutzen die Experience Decisioning-Engine, um je nach Zielgruppe die besten bereitzustellenden Inhalte auswählen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=de" text="Über Experience Decisioning"
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl
-   * [Erstellen von Entscheidungsregeln](rules.md)
-   * [Erstellen von Rangfolgemethoden](ranking.md)
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * **[Erstellen von Entscheidungsrichtlinien](create-decision.md)**
 

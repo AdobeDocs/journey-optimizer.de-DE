@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 100%
 >title="Wählen Sie eine Sammlung aus"
 >abstract="Wählen Sie die Sammlung aus, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Beispielsweise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im benutzerdefinierten Attribut „Kategorie“ enthält."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
+>[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
 
 * [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente
-   * [Konfigurieren des Elementkatalogs](catalogs.md)
-   * [Erstellen von Entscheidungselementen](items.md)
-   * **[Verwalten von Elementsammlungen](collections.md)**
-* Konfigurieren der Elementauswahl
-   * [Erstellen von Entscheidungsregeln](rules.md)
-   * [Erstellen von Rangfolgemethoden](ranking.md)
+* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - **[Verwalten von Elementsammlungen](collections.md)**
+* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
