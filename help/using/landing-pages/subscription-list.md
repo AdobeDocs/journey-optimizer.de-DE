@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer Abonnementliste
+title: Erstellen einer Abonnement-Liste
 description: Erfahren Sie, wie in Journey Optimizer eine Abonnement-Liste eingerichtet wird.
 feature: Subscriptions
 topic: Content Management
@@ -11,7 +11,7 @@ keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
->title="Einrichten einer Abonnementliste"
->abstract="Erstellen Sie eine Abonnementliste, um Profile zu erfassen, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=de#define-subscription-list" text="Erstellen einer Abonnementliste"
+>title="Einrichten einer Abonnement-Liste"
+>abstract="Erstellen Sie eine Abonnement-Liste, um Profile zu erfassen, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=de#define-subscription-list" text="Erstellen einer Abonnement-Liste"
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
@@ -38,7 +38,7 @@ Beispiele für einen Anmeldedienst:
 
 Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnement-Liste hinzugefügt werden. Ein Beispiel dazu finden Sie in [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
-## Erstellen einer Abonnementliste {#define-subscription-list}
+## Erstellen einer Abonnement-Liste {#define-subscription-list}
 
 Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 
    >[!CAUTION]
    >
-   >Derzeit können Sie im Feld **[!UICONTROL Titel]** keine Leerzeichen verwenden oder einen Namen eingeben, der bereits für eine andere Abonnementliste existiert.
+   >Derzeit können Sie im Feld **[!UICONTROL Titel]** keine Leerzeichen verwenden oder einen Namen eingeben, der bereits für eine andere Abonnement-Liste existiert.
 
 1. Sie können ein Start- und Enddatum definieren.
 
@@ -72,7 +72,7 @@ In der Liste werden alle erstellten Abonnement-Listen angezeigt. Sie können sie
 
 Folgende Status sind möglich:
 
-* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Datum liegt. Die angemeldeten Profile erhalten noch keine Nachrichten, die für diese Abonnementliste bestimmt sind.
+* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Datum liegt. Die angemeldeten Profile erhalten noch keine Nachrichten, die für diese Abonnement-Liste bestimmt sind.
 * **[!UICONTROL Live]**: Das aktuelle Datum liegt zwischen dem Start- und dem Enddatum der Abonnement-Liste oder Sie haben kein Start-/Enddatum definiert, was bedeutet, dass die Abonnement-Liste immer live ist.
 * **[!UICONTROL Abgelaufen]**: Das Enddatum wurde überschritten, sodass die Abonnement-Liste nicht mehr gültig ist. Profile mit Abonnements erhalten keine weiteren Mitteilungen mehr, die für diese Abonnement-Liste bestimmt sind.
 
