@@ -1,5 +1,5 @@
 ---
-title: Ihre In-App-Inhalte gestalten
+title: Gestalten der App-Inhalte
 description: Erfahren Sie, wie Sie In-App-Inhalte in Journey Optimizer erstellen
 feature: In App
 topic: Content Management
@@ -9,12 +9,12 @@ keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
-source-wordcount: '1147'
+source-wordcount: '1148'
 ht-degree: 100%
 
 ---
 
-# Gestalten Ihrer In-App-Inhalte {#design-content}
+# Gestalten der App-Inhalte {#design-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -171,7 +171,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 
 +++
 
-## Einstellungen  Registerkarte {#settings-tab}
+## Registerkarte „Einstellungen“ {#settings-tab}
 
 Auf der Registerkarte **Einstellungen** können Sie das Nachrichten-Layout definieren und eine Vorschau Ihrer In-App-Nachricht anzeigen. Sie können auch auf erweiterte Formatierungsoptionen zugreifen.
 
