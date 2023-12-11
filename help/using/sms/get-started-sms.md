@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Textnachrichten (SMS/MMS)
-description: Erfahren Sie, wie Sie in Journey Optimizer Textnachrichten erstellen und senden.
+description: Erfahren Sie, wie Sie in Journey Optimizer Textnachrichten erstellen, testen und veröffentlichen.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Textnachrichten {#get-started-sms}
 
-Verwendung [!DNL Journey Optimizer] , um Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS/MMS) zu senden. Sie können Nachrichten im Textformat im SMS-/MMS-Editor erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten (SMS/MMS) an die mobilen Geräte Ihrer Kundinnen und Kunden zu senden. Mit dem SMS/MMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Textnachrichten können in einer Journey oder Kampagne erstellt und gesendet werden. Verwenden Sie für SMS und MMS die SMS-Aktion.
+Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für MMS und SMS verwenden Sie die SMS-Aktion.
 
-* In **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu, definieren Sie die grundlegenden Einstellungen und navigieren Sie zum **[!UICONTROL Aktionen: SMS]** den Inhalt der SMS/MMS-Nachricht erstellen. Erfahren Sie, wie Sie eine Journey erstellen in [diese Seite](../building-journeys/journey-gs.md).
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS/MMS-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
 
-* In **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und definieren Sie die grundlegenden Einstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende SMS/MMS-Nachricht zu definieren. Erfahren Sie, wie Sie eine Kampagne in [diese Seite](../campaigns/create-campaign.md#configure).
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende SMS/MMS-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
 
-Adobe Journey Optimizer sendet Textnachrichten über SMS-Dienstleister (oder SMS Gateway Provider). Konfigurieren Sie vor der Erstellung Ihrer SMS/MMS-Nachricht Ihren Dienstleister für Textnachrichten mit Journey Optimizer. [Weitere Informationen](sms-configuration.md).
+Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder SMS-Gateway-Anbieter). Bevor Sie Ihre SMS/MMS-Nachricht erstellen, konfigurieren Sie Ihren Dienstanbieter bezüglich Textnachrichten mit Journey Optimizer. [Weitere Informationen](sms-configuration.md).
 
 >[!IMPORTANT]
 >
-> Das Senden von Multimedia Message Service (MMS) mit Adobe Journey Optimizer wird nur bei der Integration mit **Sinch**.
+> Der Versand von Multimedia Message Service (MMS) mit Adobe Journey Optimizer wird nur bei der Integration mit **Sinch** unterstützt.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -37,7 +37,7 @@ Adobe Journey Optimizer sendet Textnachrichten über SMS-Dienstleister (oder SMS
 <a href="create-sms.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Textnachricht erstellen</strong>
+<div><a href="create-sms.md"><strong>Erstellen Ihrer ersten Nachricht</strong>
 </div>
 <p>
 </td>
@@ -46,7 +46,7 @@ Adobe Journey Optimizer sendet Textnachrichten über SMS-Dienstleister (oder SMS
 <img alt="Gelegentlich" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>Textnachricht senden</strong></a>
+<a href="send-sms.md"><strong>Senden einer Textnachricht</strong></a>
 </div>
 <p></td>
 <td>
