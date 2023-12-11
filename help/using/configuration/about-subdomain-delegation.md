@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 
 >[!NOTE]
 >
->Wenden Sie sich zur Implementierung von DMARC für Ihre Subdomains an [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Um DMARC für Ihre Subdomains zu implementieren, wenden Sie sich an die [Kundenunterstützung von Adobe](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Methoden der Subdomain-Konfiguration {#subdomain-delegation-methods}
 
