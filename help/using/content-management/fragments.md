@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
-workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1569'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ So nutzen Sie Fragmente am besten:
 
 >[!NOTE]
 >
->**Visuelle Fragmente** kann in der [Email Designer](../email/get-started-email-design.md)in der Erwägung, **Ausdrucksfragmente** über [Ausdruckseditor](../personalization/personalization-build-expressions.md).
+>**Visuelle Fragmente** können im [E-Mail-Designer](../email/get-started-email-design.md) verwendet werden, während **Ausdrucksfragmente** über den [Ausdruckseditor](../personalization/personalization-build-expressions.md) zugänglich sind.
 
 Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
