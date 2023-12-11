@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
-workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1752'
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-## Limits für Fragmente {#fragments-guardrails}
+## Fragmentleitlinien {#fragments-guardrails}
 
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
-* Ausdrucksfragmente sind nicht für Web- und In-App-Kanäle verfügbar.
+* Ausdrucksfragmente sind nicht für den Web- und den In-App-Kanal verfügbar.
 
 ## Leitlinien für Journeys {#journeys-guardrails}
 
@@ -144,7 +144,7 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ### Leistungsgarantien {#performance-guardrails}
 
-Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
+Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs-Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
 
 | API | Entscheidungen pro Sekunde |
 |---------|----------|
