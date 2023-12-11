@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 97%
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
-   + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
+   + [Gestalten der App-Inhalte](using/in-app/design-in-app.md)
    + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
 + Push-Benachrichtigungs-Kanal{#push}
    + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
@@ -216,12 +216,12 @@ ht-degree: 97%
       + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
       + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
       + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
-+ SMS-/MMS-Kanal{#sms}
++ SMS/MMS-Kanal{#sms}
    + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
-   + [Textnachrichten erstellen](using/sms/create-sms.md)
+   + [Erstellen einer Textnachricht](using/sms/create-sms.md)
    + [Erstellen einer MMS-Nachricht](using/sms/create-mms.md)
-   + [Textnachrichten überprüfen und senden](using/sms/send-sms.md)
-   + [Opt-out für Textnachrichten verwalten](using/sms/sms-opt-out.md)
+   + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
+   + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
    + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
@@ -235,7 +235,7 @@ ht-degree: 97%
       + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
       + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
-   + Autoren-Webseiten {#author-web-pages}
+   + Verfassen von Web-Seiten{#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
       + [Überwachen Ihrer Web-Kampagnen](using/web/monitor-web-campaigns.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
-      + Integration mit externen Systemen {#external-systems}
+      + Integrieren mit externen Systemen {#external-systems}
          + [Journey-Integration in externe Systeme](using/configuration/external-systems.md)
          + [Capping-API](using/configuration/capping.md)
          + [Einschränkungs-API](using/configuration/throttling.md)
@@ -568,7 +568,7 @@ ht-degree: 97%
          + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
    + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
-   + Zugriffskontrolle - Übersicht {#privacy}
+   + Zugriffskontrolle – Übersicht{#privacy}
       + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
       + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
       + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
