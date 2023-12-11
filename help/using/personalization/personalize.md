@@ -10,9 +10,9 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Jo
 
 ## Nutzen von Profildaten, um Ihre Nachrichten zu personalisieren {#data}
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Kontaktprofil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Kontaktprofil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 >[!CAUTION]
 >Das Schema **XDM-Kontaktprofil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
@@ -56,7 +56,7 @@ Darüber hinaus können Sie auch **berechnete Attribute** nutzen, um Ihre Inhalt
 
 [!DNL Journey Optimizer] bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um eine individuelle Personalisierung für Ihre Inhalte zu erstellen.
 
-Es stehen verschiedene Tools zur Verfügung, mit denen Sie Ihren Personalisierungsinhalt erstellen können, z. B.: Funktionen für Stipendiaten, Bibliothek mit vordefinierten Ausdrücken, beliebte Attribute und mehr.
+Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (wie Hilfsfunktionen, Bibliothek mit vordefinierten Ausdrücken, Favorisierung von Attributen und viele weitere).
 
 Weitere Informationen zum [!DNL Journey Optimizer] Ausdruckseditor finden Sie in [diesem Abschnitt](personalization-build-expressions.md)
 
