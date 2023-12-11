@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
 
@@ -168,9 +168,9 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
    ![](assets/email_designer_image_content.png)
 
-1. Aus dem **[!UICONTROL Einstellungen]** Registerkarte, klicken **[!UICONTROL Durchsuchen]** zur Auswahl einer Bilddatei aus Ihren Assets oder **[!UICONTROL Medien importieren]** , um ein Asset in Adobe Experience Manager Assets hochzuladen.
+1. Klicken Sie in der Registerkarte **[!UICONTROL Einstellungen]** auf **[!UICONTROL Durchsuchen]**, um Ihre Assets nach einer Bilddatei zu durchsuchen, oder auf **[!UICONTROL Medien importieren]**, um ein Asset in Adobe Experience Manager Assets hochzuladen.
 
-   Weitere Informationen zu [!DNL Adobe Experience Manager Assets] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
+   Weitere Informationen zu [!DNL Adobe Experience Manager Assets] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
 
    >[!NOTE]
    >
