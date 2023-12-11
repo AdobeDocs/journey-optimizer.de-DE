@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
-workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ Wenn die Batch-Zielgruppe neu erstellt und in einer Journey unmittelbar verwende
 
 Bei Verwendung der Zielgruppen-Qualifizierung für Streaming-Zielgruppen besteht aufgrund der kontinuierlichen Auswertung der Zielgruppe ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Zielgruppendefinition dazu führt, dass sich eine große Zahl von Kundinnen und Kunden gleichzeitig qualifiziert, sind jedoch ebenfalls Spitzen möglich.
 
-Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen mit Streaming-Segmentierung. Verwenden Sie stattdessen reale Benutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für Häufigkeit oder Unterdrückungslogik Geschäftsregeln, anstatt Ereignisse zu senden. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
+Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
+Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
