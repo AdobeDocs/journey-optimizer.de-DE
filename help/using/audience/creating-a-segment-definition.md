@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
      >[!NOTE]
      >
-     >Adobe empfiehlt, keine offenen und Sendeereignisse mit Streaming-Segmentierung zu verwenden. Verwenden Sie stattdessen reale Benutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für Häufigkeit oder Unterdrückungslogik Geschäftsregeln, anstatt Ereignisse zu senden. [Weitere Informationen](about-audiences.md#open-and-send-event-guardrails)
+     >Adobe empfiehlt, bei der Streaming-Segmentierung keine Öffnungs- und Sendeereignisse zu verwenden. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](about-audiences.md#open-and-send-event-guardrails)
 
 1. Wenn Sie im Arbeitsbereich neue Felder hinzufügen und konfigurieren, wird der Bereich **[!UICONTROL Zielgruppeneigenschaften]** automatisch mit Informationen zur geschätzten Anzahl der zur Zielgruppe gehörenden Profile aktualisiert.
 
