@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Eine Nachricht zu einer Journey hinzufügen
+title: Hinzufügen einer Nachricht zu einer Journey
 description: Erfahren Sie, wie Sie ein Nachricht zu einer Journey hinzufügen können
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Nachrichtenaktivität"
->abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-Benachrichtigung (SMS/MMS), eine In-App- oder E-Mail-Nachricht in Ihre Journey einfügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, Text- (SMS/MMS), In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-/MMS-, In-App- oder E-Mail-Nachricht-Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS/MMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -74,14 +74,14 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
    <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>SMS/MMS erstellen</strong></a>
+   <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
    </tr>
    </table>
 
-## Live-Inhalt aktualisieren{#update-live-content}
+## Aktualisieren von Live-Inhalten{#update-live-content}
 
 Sie können den Inhalt einer Nachricht (E-Mail, In-App, Push, SMS) in einer Live-Journey aktualisieren.
 
