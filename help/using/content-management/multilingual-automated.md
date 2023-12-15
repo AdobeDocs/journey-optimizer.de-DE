@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 94%
+source-wordcount: '1370'
+ht-degree: 90%
 
 ---
 
@@ -182,9 +182,17 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 1. Folgen Sie auf dieser Seite dem Status Ihres Übersetzungsprojekts:
 
    * **[!UICONTROL Übersetzung in Bearbeitung]**: Ihr Dienstleister arbeitet aktiv an der Übersetzung.
+
+     Wenn Sie die Option **Interne Übersetzung** bei der Konfiguration **Spracheinstellungen** können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen. [Weitere Informationen](#manage-ht-project)
+
    * **[!UICONTROL Bereit zur Überprüfung]**: Der Überprüfungsprozess kann jetzt gestartet werden, sodass Sie auf die Übersetzung zugreifen und sie ablehnen oder genehmigen können.
-   * **[!UICONTROL Überprüft]**: Die Übersetzung wurde genehmigt und kann an die Kampagne gesendet werden.
+
+     Wenn Sie die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** in **[!UICONTROL Übersetzungsprojekt]** können Sie die Übersetzung direkt in Journey Optimizer überprüfen, nachdem Sie von Ihrem ausgewählten Übersetzungsanbieter fertig gestellt wurden. [Weitere Informationen](#review-translation-project)
+
+   * **[!UICONTROL Überarbeitet]**: Die Übersetzung wurde genehmigt und kann veröffentlicht und an die Kampagne gesendet werden.
+
    * **[!UICONTROL Bereit zur Veröffentlichung]**: Die maschinelle Übersetzung wurde abgeschlossen und kann jetzt an Ihre Kampagne gesendet werden.
+
    * **[!UICONTROL Abgeschlossen]**: Die Übersetzung ist jetzt in Ihrer Kampagne verfügbar.
 
    ![](assets/multilingual-campaign-automated-6.png)
