@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="E-Mail-Erstellung"
->abstract="Definieren Sie die Betreffzeile Ihrer E-Mail und öffnen Sie Email Designer , um den Inhalt der E-Mail zu erstellen."
+>abstract="Definieren Sie die Betreffzeile Ihrer E-Mail und öffnen Sie den E-Mail-Designer, um den Inhalt der E-Mail zu erstellen."
 
 
-## E-Mail-Aktion hinzufügen {#email-action}
+## Hinzufügen einer E-Mail-Aktion {#email-action}
 
-So erstellen Sie eine E-Mail in [!DNL Journey Optimizer], fügen Sie eine **[!UICONTROL Email]** -Aktion auf eine Journey oder eine Kampagne. Führen Sie dann je nach Fall die folgenden Schritte aus.
+Um eine E-Mail in [!DNL Journey Optimizer] zu erstellen, fügen Sie eine **[!UICONTROL E-Mail-Aktion]** auf eine Journey oder eine Kampagne. Führen Sie dann je nach Fall die folgenden Schritte aus.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ So erstellen Sie eine E-Mail in [!DNL Journey Optimizer], fügen Sie eine **[!UI
 
 >[!NOTE]
 >
->Sie können die Option Sendezeitoptimierung verwenden, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/journeys-message.md#send-time-optimization)
+>Sie können die Option „Optimierung des Versandzeitpunkt“ verwenden, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/journeys-message.md#send-time-optimization)
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
@@ -85,13 +85,13 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_campaign_edit_content.png)
 
-   Im **[!UICONTROL Kopfzeile]** Abschnitt **[!UICONTROL Inhalt bearbeiten]** -Bildschirm, **[!UICONTROL Name des Empfängers]**, **[!UICONTROL Aus E-Mail]** und **[!UICONTROL BCC]** -Feld in der von Ihnen ausgewählten E-Mail-Oberfläche konfiguriert werden. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+   Im Abschnitt **[!UICONTROL Kopfzeile]** des Bildschirms **[!UICONTROL Inhalt bearbeiten]** entsprechen die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]** der von Ihnen ausgewählten E-Mail-Oberfläche. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Fügen Sie eine Betreffzeile für Ihre Nachricht hinzu. Um die Betreffzeile mit dem Ausdruckseditor zu konfigurieren und zu personalisieren, klicken Sie auf das **[!UICONTROL Personalisierungsdialogfeld öffnen]** Symbol. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Fügen Sie eine Betreffzeile für Ihre Nachricht hinzu. Um die Betreffzeile mit dem Ausdruckseditor zu konfigurieren und zu personalisieren, klicken Sie auf das Symbol **[!UICONTROL Personalisierungsdialogfeld öffnen]**. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** auf Email Designer zugreifen und mit der Erstellung Ihres Inhalts beginnen. [Weitere Informationen](get-started-email-design.md)
+1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um auf den E-Mail-Designer zugreifen und mit der Erstellung Ihres Inhalts zu beginnen. [Weitere Informationen](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
