@@ -7,12 +7,12 @@ feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimierer, Quarantäne
+keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, Quarantäne
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste fi
 >
 >Adobe führt eine aktualisierte Liste bekannter schlechter Adressen, die nachweislich die Interaktion und die Sender-Reputation beeinträchtigen, und stellt sicher, dass E-Mails an diese Adressen nicht zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-Darüber hinaus können Sie die Journey Optimizer **Unterdrückungs-REST-API** um Ihre ausgehenden Nachrichten mithilfe von Unterdrückung und Zulassungslisten zu steuern. [Erfahren Sie, wie Sie mit der Unterdrückungs-REST-API arbeiten](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
 
