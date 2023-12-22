@@ -13,9 +13,9 @@ hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
 source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -91,13 +91,13 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
 
 1. Wählen Sie aus der Liste Ihr(e) **[!UICONTROL Zielgebietsschema(ta)]** und den **[!UICONTROL Übersetzungsanbieter]** aus, die Sie für das jeweilige Gebietsschema verwenden möchten.
 
-   **[!UICONTROL Übersetzungsanbieter]** Die Einstellungen können über **[!UICONTROL Übersetzung]** im Menü **[!UICONTROL Administration]** Menüabschnitt.
+   Einstellungen für **[!UICONTROL Übersetzungsanbieter]** können über das Menü **[!UICONTROL Übersetzung]** im Menüabschnitt **[!UICONTROL Administration]** aufgerufen werden.
 
    >[!NOTE]
    >
    >Die Vertragsverwaltung mit dem Übersetzungsanbieter fällt nicht in den Anwendungsbereich dieser Funktion. Bitte stellen Sie sicher, dass Sie über einen gültigen und aktiven Vertrag mit dem dafür vorgesehenen Übersetzungspartner verfügen.
    >
-   ></br>Der Übersetzungsanbieter ist Eigentümer der Qualität der übersetzten Inhalte.
+   ></br>Der Übersetzungsanbieter ist verantwortlich für die Qualität der übersetzten Inhalte.
 
 1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, wenn Sie Ihr Zielgebietsschema mit dem richtigen Übersetzungsanbieter verknüpft haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
@@ -111,7 +111,7 @@ Ihr Übersetzungsprojekt ist jetzt erstellt und kann in einer mehrsprachigen Kam
 
 ## Erstellen von Spracheinstellungen {#language-settings}
 
-In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie Informationen zur Profilsprache nachschlagen möchten.
+In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten
 
 1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
 
@@ -183,13 +183,13 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    * **[!UICONTROL Übersetzung in Bearbeitung]**: Ihr Dienstleister arbeitet aktiv an der Übersetzung.
 
-     Wenn Sie die Option **Interne Übersetzung** bei der Konfiguration **Spracheinstellungen** können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen. [Weitere Informationen](#manage-ht-project)
+     Wenn Sie bei der Konfiguration Ihrer **Spracheinstellungen** die Option **Interne Übersetzung** ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen. [Weitere Informationen](#manage-ht-project)
 
-   * **[!UICONTROL Bereit zur Überprüfung]**: Der Überprüfungsprozess kann jetzt gestartet werden, sodass Sie auf die Übersetzung zugreifen und sie ablehnen oder genehmigen können.
+   * **[!UICONTROL Bereit zur Überprüfung]**: Der Überprüfungsprozess kann jetzt gestartet werden, sodass Sie auf die Übersetzung zugreifen und sie entweder ablehnen oder genehmigen können.
 
-     Wenn Sie die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** in **[!UICONTROL Übersetzungsprojekt]** können Sie die Übersetzung direkt in Journey Optimizer überprüfen, nachdem Sie von Ihrem ausgewählten Übersetzungsanbieter fertig gestellt wurden. [Weitere Informationen](#review-translation-project)
+     Wenn Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** gewählt haben, können Sie die Übersetzung nach der Fertigstellung durch den von Ihnen gewählten Übersetzungsanbieter direkt in Journey Optimizer überprüfen. [Weitere Informationen](#review-translation-project)
 
-   * **[!UICONTROL Überarbeitet]**: Die Übersetzung wurde genehmigt und kann veröffentlicht und an die Kampagne gesendet werden.
+   * **[!UICONTROL Überprüft]**: Die Übersetzung wurde genehmigt, ist bereit für die Veröffentlichung und kann an die Kampagne gesendet werden.
 
    * **[!UICONTROL Bereit zur Veröffentlichung]**: Die maschinelle Übersetzung wurde abgeschlossen und kann jetzt an Ihre Kampagne gesendet werden.
 
