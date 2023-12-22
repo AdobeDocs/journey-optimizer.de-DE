@@ -13,7 +13,7 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
 ht-degree: 100%
 
@@ -337,7 +337,7 @@ Nehmen wir ein Beispiel:
 
 * Im ursprünglichen IP-Aufwärmplan hatte Phase 2 neun Ausführungen.
 
-* Es gab vier Ausführungen (unabhängig davon, ob fehlgeschlagen, abgeschlossen oder abgebrochen)<!--as long as a run has been attempted, it is an executed run-->).
+* Es gab vier Ausführungen (unabhängig davon, ob fehlgeschlagen, abgeschlossen oder abgebrochen<!--as long as a run has been attempted, it is an executed run-->).
 
 * Wenn ein neuer Plan erneut hochgeladen wird, wird Phase 2 mit den ersten vier ausgeführten Läufen in den schreibgeschützten Modus versetzt.
 
