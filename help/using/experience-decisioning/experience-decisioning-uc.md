@@ -1,5 +1,5 @@
 ---
-title: Anwendungsfall für Offer Decisioning
+title: Anwendungsfall für Experience Decisioning
 description: Erfahren Sie, wie Sie Entscheidungen mithilfe von Experimenten mit dem Code-basierten Kanal erstellen.
 feature: Experience Decisioning
 topic: Integrations
@@ -9,19 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall für Offer Decisioning {#experience-decisioning-uc}
+# Anwendungsfall für Experience Decisioning {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
+>[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
 
-* [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) -[Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
+* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
+* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
@@ -33,7 +33,7 @@ In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils ei
 
 Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln einrichten und Rangfolgenmethoden festlegen. Mit diesen Elementen können Sie Auswahlstrategien erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Offer Decisioning]** > **[!UICONTROL Elemente]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
+1. Navigieren Sie zu **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elemente]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
