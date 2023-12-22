@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-
 >
 >Adobe führt eine aktualisierte Liste bekannter schlechter Adressen, die nachweislich die Interaktion und die Sender-Reputation beeinträchtigen, und stellt sicher, dass E-Mails an diese Adressen nicht zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie Sie mit der Unterdrückungs-REST-API arbeiten](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Wozu eine Unterdrückungsliste? {#why-suppression-list}
 
