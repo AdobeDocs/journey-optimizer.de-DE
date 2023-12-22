@@ -10,25 +10,25 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Elementkatalog {#catalog}
 
->[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
+>[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
 
-* [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Sie Ihre Entscheidungselemente: **[Konfigurieren des Elementkatalogs](catalogs.md)** - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
+* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
+* Verwalten Ihrer Entscheidungselemente: **[Konfigurieren des Elementkatalogs](catalogs.md)** – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
-In Offer Decisioning dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
+In Experience Decisioning dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
 
 Zunächst werden alle erstellten Entscheidungselemente in einem einzigen „Angebote“-Katalog konsolidiert, auf den über das Menü **[!UICONTROL Elemente]** zugegriffen werden kann.
 
@@ -53,7 +53,7 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
    >[!CAUTION]
    >
-   >Derzeit unterstützt Offer Decisioning ausschließlich die unten aufgeführten Datentypen. Felder, die nicht zu diesen Datentypen gehören, können beim Erstellen eines Entscheidungselements nicht verwendet werden.
+   >Derzeit unterstützt Experience Decisioning ausschließlich die unten aufgeführten Datentypen. Felder, die nicht zu diesen Datentypen gehören, können beim Erstellen eines Entscheidungselements nicht verwendet werden.
    >* Zeichenfolge
    >* Boolesch
    >* Zahl
