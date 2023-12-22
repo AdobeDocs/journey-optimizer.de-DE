@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Offer Decisioning
-description: Weitere Informationen zu Offer Decisioning
+title: Erste Schritte mit Experience Decisioning
+description: Weitere Informationen zu Experience Decisioning
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -10,42 +10,42 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Offer Decisioning {#get-started-experience-decisioning}
+# Erste Schritte mit Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
+>[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
 
-* **[Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)**
-* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - [Erstellen von Entscheidungselementen](items.md) - [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
+* **[Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)**
+* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
-## Was ist Offer Decisioning? {#about}
+## Was ist Experience Decisioning? {#about}
 
 >[!AVAILABILITY]
 >
->Die Offer Decisioning-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die Experience Decisioning-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-Offer Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
+Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
 Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
 
 **Einschränkungen:**
 
 * Entscheidungsrichtlinien sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
-* Derzeit ist die Frequenzlimitierung in Offer Decisioning nicht verfügbar.
+* Derzeit ist die Frequenzlimitierung in Experience Decisioning nicht verfügbar.
 
-## Wichtige Schritte bei Offer Decisioning {#steps}
+## Wichtige Schritte bei Experience Decisioning {#steps}
 
-Die wichtigsten Schritte für die Arbeit mit Offer Decisioning sind:
+Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Entscheidungselemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
