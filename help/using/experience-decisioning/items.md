@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 97%
 >abstract="Mit Journey Optimizer können Sie Marketing-Angebote, die als Entscheidungselemente bezeichnet werden, erstellen und in einem zentralen Katalog und in Sammlungen organisieren. Derzeit sind alle erstellten Entscheidungselemente in einem einzigen „Angebote“-Katalog konsolidiert. Über diesen Bildschirm können Sie auch mithilfe der Schaltfläche **Schema bearbeiten** auf das Schema des Katalogs zugreifen und benutzerdefinierte Attribute für Ihre Entscheidungselemente erstellen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=de" text="Konfigurieren des Elementkatalogs"
 
->[!BEGINSHADEBOX &quot;Was Sie in diesem Handbuch finden werden&quot;]
+>[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden werden“]
 
-* [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
-* Verwalten Sie Ihre Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) - **[Erstellen von Entscheidungselementen](items.md)** - [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Entscheidungsregeln erstellen](rules.md) - [Erstellen von Ranking-Methoden](ranking.md)
+* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
+* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – **[Erstellen von Entscheidungselementen](items.md)** – [Verwalten von Elementsammlungen](collections.md)
+* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
@@ -60,7 +60,7 @@ Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine 
 
 Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Offer Decisioning]** > **[!UICONTROL Elemente]**.
+1. Navigieren Sie zu **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elemente]**.
 
 1. Definieren Sie die Standardattribute des Entscheidungselements:
 
