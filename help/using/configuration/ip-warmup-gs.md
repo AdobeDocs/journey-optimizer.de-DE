@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Inhalt dieses Dokumentationshandbuchs:
 
 Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benutzeroberfläche aus auf standardisierte und effiziente Weise durchführen, die den Best Practices für optimale Zustellbarkeit folgt.
 
-➡️ [In diesem Video erfahren Sie, wie Sie einen IP-Warmup-Plan erstellen und ausführen.](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
 
 >[!CAUTION]
 >
@@ -74,6 +74,6 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie einen IP-Warmup-Plan erstellen und ausführen.
+Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
