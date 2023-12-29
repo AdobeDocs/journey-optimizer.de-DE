@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Erste Schritte mit dem In-App-Kanal {#gs-in-app}
 
-In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Audience interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
+In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Zielgruppe interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
 
 Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen.
 

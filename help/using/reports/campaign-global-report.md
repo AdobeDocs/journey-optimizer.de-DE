@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: ht
-source-wordcount: '3357'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '3359'
+ht-degree: 99%
 
 ---
 
@@ -341,7 +341,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
-Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen.:
+Die **[!UICONTROL Push-Benachrichtigung - Versandstatistiken]** -Tabelle enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen:
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 

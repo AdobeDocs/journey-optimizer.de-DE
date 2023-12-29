@@ -9,7 +9,7 @@ keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1939'
 ht-degree: 100%
 
 ---
@@ -75,9 +75,9 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      +++Sehen Sie sich die verfügbaren Eigenschaften an.
+      +++Sehen Sie sich die verfügbaren Merkmale an.
 
-      | Paket | Eigenschaften  | Definition |
+      | Paket | Merkmale  | Definition |
       |---|---|---|
       | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
       | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |
@@ -173,9 +173,9 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      +++Sehen Sie sich die verfügbaren Eigenschaften an.
+      +++Sehen Sie sich die verfügbaren Merkmale an.
 
-      | Paket | Eigenschaften  | Definition |
+      | Paket | Merkmale  | Definition |
       |---|---|---|
       | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
       | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |

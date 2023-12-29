@@ -11,8 +11,8 @@ keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 100%
+source-wordcount: '1716'
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   Wenn diese Option aktiviert ist und ein Profil sich bereits für eine An-/Abmeldung entschieden hat oder bereits einer Abonnementliste hinzugefügt wurde, wird seine Auswahl bei der Anzeige der Landingpage berücksichtigt.
+   Wenn diese Option aktiviert ist und ein Profil sich bereits für eine An-/Abmeldung entschieden hat oder bereits einer Abonnement-Liste hinzugefügt wurde, wird seine Auswahl bei der Anzeige der Landingpage berücksichtigt.
 
    Wenn sich beispielsweise ein Profil für den Empfang von Nachrichten zu künftigen Ereignissen entschieden hat, ist die entsprechende Checkbox bereits aktiviert, wenn diesem Profil die Landingpage das nächste Mal angezeigt wird.
 
@@ -233,7 +233,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
    >
    >Die Schaltfläche **[!UICONTROL Inhalt simulieren]** kann auch über den Content Designer aufgerufen werden.
 
-1. Wählen Sie auf dem Bildschirm **[!UICONTROL Vorschau und Test]** ein oder mehrere Testprofile aus.
+1. Wählen Sie auf dem Bildschirm **[!UICONTROL Simulieren]** ein oder mehrere Testprofile aus.
 
    ![](assets/lp_test-profiles.png)
 
@@ -263,7 +263,7 @@ Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
 
 Es können zwei Arten von Warnhinweisen auftreten:
 
-* **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. <!--For example, a message will display if -->
+* **Warnungen** Siehe Empfehlungen und Best Practices. <!--For example, a message will display if -->
 
 * **Fehler** verhindern, dass Sie die Landingpage veröffentlichen, solange nicht alle Fehler behoben sind. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
 

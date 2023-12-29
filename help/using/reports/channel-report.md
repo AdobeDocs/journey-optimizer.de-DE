@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
-workflow-type: ht
-source-wordcount: '2664'
+workflow-type: tm+mt
+source-wordcount: '2665'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Greifen Sie auf die Kanalberichte zu, indem Sie im Abschnitt **Journey-Managemen
 Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 
 * [E-Mail](#email)
-* [Push-Benachrichtigung Benachrichtigungen](#push)
+* [Push-Benachrichtigungen ](#push)
 * [SMS](#sms)
 * [In-App](#inapp)
 * [Web](#web)

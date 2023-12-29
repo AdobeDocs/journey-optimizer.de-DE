@@ -11,8 +11,8 @@ keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 100%
+source-wordcount: '1624'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
 1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu überprüfen, ob die Konfiguration korrekt ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
    > Beim Erstellen einer E-Mail-Oberfläche für eine Subdomain variiert die Verarbeitungszeit, wie im Folgenden beschrieben:

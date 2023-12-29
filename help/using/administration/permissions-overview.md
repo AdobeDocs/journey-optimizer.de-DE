@@ -11,8 +11,8 @@ keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf drei Konzepten:
 
 * **[!UICONTROL Berechtigungen]**: Einzelrechte, mit denen Sie die Autorisierungen definieren können, die **[!UICONTROL Rollen]** zugewiesen sind. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Siehe Abschnitt [Berechtigungsebenen](high-low-permissions.md).
 
-* **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe [Verwenden von Sandboxes](sandboxes.md).
+* **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe Abschnitt [Verwenden von Sandboxes](sandboxes.md).
 
 ![](assets/do-not-localize/permissions_2.png)
 

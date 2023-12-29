@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1265'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Verwalten Sie Ihre Zielgruppen und Profildaten aus diesem Abschnitt.
 
 * **[!UICONTROL Zielgruppen]**: Erstellen und verwalten Sie Adobe Experience Platform-Zielgruppen und nutzen Sie diese in Ihren Journeys. [Weitere Informationen](../audience/about-audiences.md)
 
-* **[!UICONTROL Abonnementlisten]** – In [!DNL Journey Optimizer] werden Kundinnen und Kunden, die sich für einen Abonnementdienst angemeldet haben, in einer Abonnementliste erfasst. [Weitere Informationen](../landing-pages/subscription-list.md)
+* **[!UICONTROL Abonnement-Listen]** – In [!DNL Journey Optimizer] werden Kundinnen und Kunden, die sich für einen Abonnementdienst angemeldet haben, in einer Abonnement-Liste erfasst. [Weitere Informationen](../landing-pages/subscription-list.md)
 
 * **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen](../audience/get-started-profiles.md)
 

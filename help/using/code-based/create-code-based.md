@@ -11,7 +11,7 @@ badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,7 @@ Sobald Sie Ihre Code-basierte Kampagne definiert und Ihren Inhalt wie gewünscht
 
    ![](assets/code-based-campaign-review.png)
 
-1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Audience und Zeitplan.
+1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Zielgruppe und Zeitplan.
 
 1. Wählen Sie **[!UICONTROL Aktivieren]** aus.
 
@@ -171,7 +171,7 @@ Wenn eine Code-basierte Kampagne live ist, kann sie gestoppt werden, um zu verhi
 
    ![](assets/code-based-campaign-stop.png)
 
-1. Die hinzugefügten Änderungen sind dann für die von Ihnen definierte Audience nicht mehr sichtbar.
+1. Die hinzugefügten Änderungen sind dann für die von Ihnen definierte Zielgruppe nicht mehr sichtbar.
 
 >[!NOTE]
 >

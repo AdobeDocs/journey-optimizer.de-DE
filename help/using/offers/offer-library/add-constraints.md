@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: ht
-source-wordcount: '2396'
+workflow-type: tm+mt
+source-wordcount: '2405'
 ht-degree: 100%
 
 ---
@@ -266,7 +266,7 @@ Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurü
 
 >[!CAUTION]
 >
->Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
+>Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
 >
 >Sie können die Frequenzlimitierung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzlimitierung veröffentlicht wurde.
 

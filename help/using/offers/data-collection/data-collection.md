@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Feedback zu Impressionen und Klicks wird je nach verwendetem [!DNL Journey Optim
 
 Allerdings müssen bei den **meisten Kanälen** Impressions- und Klick-Daten als ein **Erlebnisereignis** an Adobe Experience Platform gesendet werden. Dazu gehören:
 
-* Web-Seiten die das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} verwenden, um Angebote zu rendern
+* Webseiten, die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} Angebote rendern
 
 * Mobile Apps, die das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"} verwenden
 * Kiosks

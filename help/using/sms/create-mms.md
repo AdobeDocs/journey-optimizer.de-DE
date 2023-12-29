@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
 source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 100%
+source-wordcount: '1084'
+ht-degree: 98%
 
 ---
 
@@ -90,7 +90,7 @@ Bevor Sie Ihre SMS-Nachricht erstellen, müssen Sie zunächst Ihren SMS-Anbieter
 
       >[!NOTE]
       >
-      >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen](sms-subdomains.md)
+      >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine SMS-Subdomain konfiguriert haben. [Weitere Informationen](sms-subdomains.md)
 
    1. Geben Sie die **[!UICONTROL Opt-out-Nummer]** ein, die Sie für diese Oberfläche verwenden möchten. Wenn sich Profile von dieser Telefonnummer abmelden, können Sie ihnen immer noch Nachrichten von anderen Nummern senden, die Sie für den Versand von SMS-Nachrichten mit [!DNL Journey Optimizer] verwenden.
 
@@ -196,7 +196,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** verwenden, um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
 
-Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
+Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Zielgruppe senden. [Weitere Infos](send-sms.md)
 Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]

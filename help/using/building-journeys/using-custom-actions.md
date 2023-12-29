@@ -11,8 +11,8 @@ keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Die verkettete URL sieht folgendermaßen aus:
 
 ![](assets/journey-custom-action-url.png)
 
-### Header und Abfrageparameter {#headers}
+### Kopfzeilen und Abfrageparameter {#headers}
 
 Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen, jedoch nicht die konstanten Header- und Abfrageparameter-Felder angezeigt. Dynamische Header- und Abfrageparameter-Felder werden im Aktionskonfigurationsbildschirm als Variable definiert. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 

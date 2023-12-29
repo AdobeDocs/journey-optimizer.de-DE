@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2078'
 ht-degree: 100%
 
 ---
@@ -125,7 +125,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <thead>
 <tr>
 
-<th><strong>Reporting – Bessere Einblicke in die Audience</strong><br/></th>
+<th><strong>Reporting – Bessere Einblicke in die Zielgruppe</strong><br/></th>
 </thead>
 <tbody>
 <tr>

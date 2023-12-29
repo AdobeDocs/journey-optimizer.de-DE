@@ -6,7 +6,7 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 100%
 
@@ -253,7 +253,7 @@ ht-degree: 100%
       + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
       + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
       + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
-   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
+   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
    + Konfigurieren von Landingpages {#lp-configuration}
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)

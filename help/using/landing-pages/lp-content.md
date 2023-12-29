@@ -11,7 +11,7 @@ keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1308'
 ht-degree: 100%
 
 ---
@@ -126,7 +126,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-error.png)
 
-1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
+1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnement-Liste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
@@ -152,7 +152,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen, z. B. die Farbe des Titels der Schaltfläche, wenn der Mauszeiger darüber bewegt wird, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Vorschau]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
+   Sie können einige Ihrer Einstellungen, z. B. die Farbe des Titels der Schaltfläche, wenn der Mauszeiger darüber bewegt wird, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -168,9 +168,9 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
 Sie können kontextuelle Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
 
-Wenn Sie zum Beispiel ein Kontrollkästchen<!-- or the submission of the page--> mit einer [Abonnementliste](subscription-list.md) auf der primären Landingpage verknüpfen, können Sie diese Abonnementliste auf der Unterseite „Vielen Dank“ verwenden.
+Wenn Sie zum Beispiel ein Kontrollkästchen<!-- or the submission of the page--> mit einer [Abonnement-Liste](subscription-list.md) auf der primären Landingpage verknüpfen, können Sie diese Abonnement-Liste auf der Unterseite „Vielen Dank“ verwenden.
 
-Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn ein Benutzer eine dieser Listen abonniert, möchten Sie beim Absenden des Formulars eine bestimmte Nachricht anzeigen, je nachdem, welches Kästchen die Person ausgewählt hat.
+Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnement-Listen. Wenn ein Benutzer eine dieser Listen abonniert, möchten Sie beim Absenden des Formulars eine bestimmte Nachricht anzeigen, je nachdem, welches Kästchen die Person ausgewählt hat.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -184,7 +184,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** wählen Sie **[!UICONTROL Kontextuelle Attribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
 
-1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol „+“ die entsprechenden Elemente aus.
+1. Alle Abonnement-Listen, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol „+“ die entsprechenden Elemente aus.
 
    ![](assets/lp_designer-form-add-subscription.png)
 

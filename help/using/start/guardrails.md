@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 ## Schutzmaßnahmen bei Nachrichten {#message-guardrails}
 
-* Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail hinzufügen.
+* Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
 

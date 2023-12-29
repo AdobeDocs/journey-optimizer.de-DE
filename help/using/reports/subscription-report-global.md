@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Abonnementbericht
-description: Erfahren Sie, wie Daten von den Abonnement-Services   für den globalen Abonnementbericht verwendet werden können
+description: Erfahren Sie, wie Sie Daten aus Ihren Anmeldediensten mit dem globalen Abonnementbericht verwenden können.
 feature: Journeys, Subscriptions
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Globale Berichte, auf die über die Registerkarte „Gesamte Zeit“ zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Im Vergleich dazu konzentrieren sich Live-Berichte auf Ereignisse, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten.
 
-Um auf Ihre Berichte zuzugreifen, klicken Sie auf das Symbol **[!UICONTROL Bericht]** der von Ihnen gewählten Abonnementliste.
+Um auf Ihre Berichte zuzugreifen, klicken Sie auf das Symbol **[!UICONTROL Bericht]** der von Ihnen gewählten Abonnement-Liste.
 
 ![](assets/subscription_report_7.png)
 

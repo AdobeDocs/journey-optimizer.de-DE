@@ -9,7 +9,7 @@ keywords: toDateTime, Funktion, Ausdruck, Journey
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Konversion
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 

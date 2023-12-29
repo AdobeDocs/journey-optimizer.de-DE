@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3602'
 ht-degree: 100%
 
 ---
@@ -230,7 +230,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Landingpages**
 
-* Sie können jetzt kontextuelle Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen. Wenn Sie beispielsweise ein Kontrollkästchen mit einer Abonnementliste auf der primären Landingpage verknüpfen, können Sie diese Abonnementliste auf der Unterseite „Vielen Dank“ verwenden. [Weitere Informationen](../landing-pages/lp-content.md#use-primary-page-context)
+* Sie können jetzt kontextuelle Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen. Wenn Sie beispielsweise ein Kontrollkästchen mit einer Abonnement-Liste auf der primären Landingpage verknüpfen, können Sie diese Abonnement-Liste auf der Unterseite „Vielen Dank“ verwenden. [Weitere Informationen](../landing-pages/lp-content.md#use-primary-page-context)
 
 <!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 

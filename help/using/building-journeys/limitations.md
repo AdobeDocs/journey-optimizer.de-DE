@@ -11,7 +11,7 @@ keywords: Journey, Einschränkung
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Zielgruppe lesen** beginnt, kann in Folgeversionen nicht mit einem anderen Ereignis beginnen.
 
-## Benutzerdefinierte Aktionen  Einschränkungen {#custom-actions-limitations}
+## Einschränkungen bei benutzerdefinierten Aktionen {#custom-actions-limitations}
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
@@ -47,7 +47,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 
-## Datenquellen  Einschränkungen {#data-sources-limitations}
+## Einschränkungen bei Datenquellen {#data-sources-limitations}
 
 * Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 

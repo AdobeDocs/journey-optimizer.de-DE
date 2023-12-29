@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemata in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
+>Erfahren Sie mehr über das Erstellen von Schemata in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 

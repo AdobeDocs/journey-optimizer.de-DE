@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „sort“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: sort, Funktion, Ausdruck, Journey
+keywords: sort, function, expression, Journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

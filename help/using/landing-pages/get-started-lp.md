@@ -11,7 +11,7 @@ keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er auf eine E-Mail, eine Website, eine Anzeige oder einen anderen digitalen Ort geklickt hat.
 
-[!DNL Journey Optimizer] ermöglicht die Erstellung und den Entwurf von Landingpages, um deren Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
+ ermöglicht die Erstellung und den Entwurf von Landingpages, um deren Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.[!DNL Journey Optimizer]
 
 ➡️ [Weiterführende Informationen zur Konfiguration von Abonnements und zur Erstellung von Landingpages finden Sie in diesem Video.](#video)
 

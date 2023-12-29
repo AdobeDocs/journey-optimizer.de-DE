@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „function“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: intersect, Funktion, Ausdruck, Journey
+keywords: Schnittmenge, Funktion, Ausdruck, Journey
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '85'
+ht-degree: 95%
 
 ---
 
