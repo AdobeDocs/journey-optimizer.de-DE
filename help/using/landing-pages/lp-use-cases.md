@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,9 @@ Alle Benutzer, die sich für Ihre Veranstaltung registriert haben, erhalten die 
 
 Damit Ihre Empfänger das Abonnement stornieren können, können Sie in Ihre E-Mails einen Link zu einer Ausschluss-Landingpage einfügen.
 
-In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwaltung des Einverständnisses Ihrer Empfänger und darüber, warum dies wichtig ist.
+>[!NOTE]
+>
+>In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwaltung des Einverständnisses Ihrer Empfänger und darüber, warum dies wichtig ist.
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
@@ -103,7 +105,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 * Durch das Klicken auf diesen Link werden die Empfänger zu einer Landingpage mit einer Schaltfläche zur Bestätigung weitergeleitet.
 * Nach dem Klicken auf die Ausschluss-Schaltfläche werden die Profildaten mit diesen Informationen aktualisiert.
 
-### Konfigurieren des Ausschlusses {#configure-opt-out}
+### Konfigurieren des E-Mail-Opt-outs {#configure-opt-out}
 
 Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses Abonnement über eine Landingpage zu stornieren.
 
