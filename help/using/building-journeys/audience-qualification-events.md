@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,8 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen.
 
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
+
+* Als Best Practice empfehlen wir, nur Streaming-Zielgruppen für **Zielgruppenqualifikation** -Aktivität. Für Batch-Anwendungsfälle verwenden Sie bitte **[Audience lesen](read-audience.md)** -Aktivität.
 
 ### Konfigurieren der Aktivität{#cnfigure-segment-qualification}
 

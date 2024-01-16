@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1398'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,8 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 * Bei Journeys, die eine Aktivität vom Typ „Zielgruppe lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Es werden zwar weitere Wiederholungsversuche vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Zielgruppe lesen“, geplant oder „so bald wie möglich“) exakt zur gleichen Zeit beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen.
+
+* Als Best Practice wird empfohlen, nur Batch-Zielgruppen in einer **Audience lesen** -Aktivität. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. Die Lesen-Audience wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte **[Zielgruppenqualifikation](audience-qualification-events.md)** -Aktivität.
 
 * Derzeit ist in Journeys die Verwendung von Zielgruppen, [die aus einer CSV-Datei importiert werden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) resultieren, als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 
