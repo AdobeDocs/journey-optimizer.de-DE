@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2060b18bfcc62e02127776f05de1448378a7a06a
+source-git-commit: 93e29ac1d81ef51c7031e9d37bc05cfc21cfce08
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1557'
 ht-degree: 97%
 
 ---
@@ -82,9 +82,9 @@ Diese Aktivität wird in der Regel mithilfe von Zustellbarkeitsfachleuten durchg
 
 Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie eine Excel-Vorlage mit allen Daten ausfüllen, die in Ihren Plan gespeist werden.
 
-* Hier können Sie die leere Datei herunterladen [Vorlage für den Excel IP-Warmup-Plan](assets/ip-warmup-csv.zip) auszufüllen.
+* Hier können Sie die leere Excel-Datei herunterladen [Vorlage für IP-Warmup-Plan](assets/ip-warmup-plan-template.zip) auszufüllen.
 
-* Sie können auch eine [Beispiel-Vorlage für IP-Warmup-Plan](assets/sample-ip-warmup-plan.zip) bereits mit einigen Daten gefüllt sind, die Sie als Beispiel verwenden können.
+* Sie können auch eine [Beispiel-IP-Warmup-Plan](assets/ip-warmup-plan-sample.zip) bereits mit einigen Daten gefüllt sind, die Sie als Beispiel verwenden können.
 
 >[!CAUTION]
 >
@@ -314,7 +314,7 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 
    >[!NOTE]
    >
-   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die [sample](assets/ip-warmup-csv.zip) bereitgestellt durch Adobe.
+   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die [template](assets/ip-warmup-plan-template.zip) bereitgestellt durch Adobe.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalte, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt.
 
