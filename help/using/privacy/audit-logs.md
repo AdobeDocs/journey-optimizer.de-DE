@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,6 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 | AJO-Landingpage-HTML-Vorlage | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage-Voreinstellung | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage-Subdomain | Erstellen/Löschen/Aktualisieren |
-| AJO-Nachricht | Erstellen/Löschen/Aktualisieren/Veröffentlichen |
 | AJO-Nachrichtenvoreinstellung | Erstellen/Löschen/Aktualisieren |
 | AJO-PTR-Eintrag | Erstellen/Löschen/Aktualisieren |
 | AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
