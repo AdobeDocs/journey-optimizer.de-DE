@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
+source-git-commit: 4b1de4d1c62c917ce760b3739242671e5c274357
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,8 @@ Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Produktbeschreibung</a> – <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Sicherheitsübersicht (PDF)</a> – <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API-Referenz</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Produktbeschreibung</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Sicherheitsübersicht (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API-Referenz</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer-Schema-Wörterbuch</a>
+
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
