@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 94%
+source-wordcount: '970'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 94%
 >title="Auswählen der Kampagnenzielgruppe"
 >abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
-Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Sie können von Adobe Experience Platform mithilfe von Segmentdefinitionen oder Zielgruppenzusammensetzungen generiert oder aus einer CSV-Datei importiert werden. Weitere Informationen zu Zielgruppen finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
+Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Weitere Informationen zu Zielgruppen finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 [!DNL Journey Optimizer] ermöglicht Ihnen, Adobe Experience Platform-Zielgruppen direkt über die **[!UICONTROL Zielgruppen]** und nutzen Sie sie in Ihren Journey oder Kampagnen.
+
+Zielgruppen können auf unterschiedliche Weise erstellt werden:
+
+* **Segmentdefinitionen**: Erstellen Sie eine neue Zielgruppendefinition mithilfe des Adobe Experience Platform Segmentation Service. [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
+* **CSV-Dateiimport**: Import einer Audience mithilfe einer CSV-Datei. Erfahren Sie, wie Sie Zielgruppen in Adobe Experience Platform importieren [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
+* **Zielgruppenzusammensetzung**: Erstellen Sie einen Arbeitsablauf für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss..) zu nutzen, um neue Zielgruppen zu erstellen. [Erste Schritte mit der Zielgruppen-Komposition](get-started-audience-orchestration.md)
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
