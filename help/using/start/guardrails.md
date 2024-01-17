@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
+source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1860'
+ht-degree: 94%
 
 ---
 
@@ -59,6 +59,8 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. Dies unterstützt Lesbarkeit, Qualitätssicherung und Fehlerbehebung.
 * Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
+* Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher sind Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. werden in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die maximale Größe dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. unter 800 KB), um zu verhindern, dass diese Grenze nach einigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn diese Grenze erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
+
 
 ### Allgemeine Aktionen {#general-actions-g}
 
