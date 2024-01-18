@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 97%
+source-wordcount: '1577'
+ht-degree: 95%
 
 ---
 
@@ -82,9 +82,14 @@ Diese Aktivität wird in der Regel mithilfe von Zustellbarkeitsfachleuten durchg
 
 Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie eine Excel-Vorlage mit allen Daten ausfüllen, die in Ihren Plan gespeist werden.
 
-* Über die Benutzeroberfläche können Sie das leere Excel herunterladen [Vorlage für IP-Warmup-Plan](assets/IPWarmupPlan-Template.xlsx) auszufüllen.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* Sie können auch eine [Beispiel-IP-Warmup-Plan](assets/IPWarmupPlan-Sample.xlsx) bereits mit einigen Daten gefüllt sind, die Sie als Beispiel verwenden können.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* Von der Benutzeroberfläche aus können Sie die leere Vorlage Excel IP-Warmup-Plan zum Ausfüllen herunterladen.
+
+* Sie können auch einen Beispiel-IP-Warmup-Plan herunterladen, der bereits mit einigen Daten ausgefüllt ist, die Sie als Beispiel verwenden können.
 
 >[!CAUTION]
 >
@@ -280,7 +285,8 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP-Aufwärmplan angeben"
->abstract="Die CSV-Vorlage herunterladen und sie mit Daten für IP-Aufwärmphasen und die Zielanzahl der Profile ausfüllen."
+>abstract="Füllen Sie die Excel-Vorlage mit allen Daten aus, die für Ihren Plan infrage kommen, wie IP-Warmup-Phasen und die Zielanzahl der Profile, und laden Sie sie hier hoch."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Vorbereiten der Datei mit dem IP-Aufwärmplan"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
