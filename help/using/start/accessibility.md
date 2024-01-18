@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
     <td>UMSCHALT+PFEILtasten</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Konfigurationsbereich dieser Elemente:
 <ul>
   <li>Aktivität in einer Journey</li>
@@ -97,8 +96,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
   <li>Datenquelle</li>
   <li>Aktion</li>
 </ul>
-
-</td>
+  </td>
     <td>Wechseln zum nächsten zu konfigurierenden Feld</td>
     <td>Tabulatortaste</td>
   </tr>
@@ -120,11 +118,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Auslösen eines Ereignisses in einer zielgruppenbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
-
-</td>
+    <td>Trigger eines Ereignisses in einer zielgruppenbasierten Journey, für das die Option **[!UICONTROL Einfaches Profil gleichzeitig]** aktiviert ist</td>
     <td>P</td>
   </tr>
   <tr>

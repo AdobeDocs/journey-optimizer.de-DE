@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * Über die Benutzeroberfläche können Sie das leere Excel herunterladen [Vorlage für IP-Warmup-Plan](assets/IPWarmupPlan-Template.xlsx) auszufüllen.
 
 * Sie können auch eine [Beispiel-IP-Warmup-Plan](assets/IPWarmupPlan-Sample.xlsx) bereits mit einigen Daten gefüllt sind, die Sie als Beispiel verwenden können.
-
