@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '4247'
+source-wordcount: '4258'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Schutzschild über die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Die Verwaltung von Journey-Timeouts wurde detailliert beschrieben. [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [Dokumentation-Startseite](../../ajo-home.md) wurde neu entworfen.
-
+* Recommendations zur Aktivität Profile aktualisieren wurde hinzugefügt - [Weitere Informationen](../building-journeys/update-profiles.md)
 
 ## November 2023 {#nov-2023}
 
