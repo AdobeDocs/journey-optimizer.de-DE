@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 96%
+source-wordcount: '746'
+ht-degree: 95%
 
 ---
 
@@ -40,6 +40,6 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Journeys | **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</br>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Zum Lesen und Bearbeiten des Berichts Journey .</br> |
 | Profilverwaltung | **[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen, die für Kundenprofile verwendet werden. Schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View profiles]**: Nur-Lese-Zugriff auf verfügbare Profile.</br>**[!DNL Export audience segments]**: Exportieren eines ausgewerteten Zielgruppensegments in einen Datensatz.</br>**[!DNL View segments]**: Schreibgeschützter Zugriff auf verfügbare Zielgruppen.</br>**[!DNL Evaluate a segment to an audience]**: Generieren von Profilen für eine Zielgruppe, indem eine Segmentdefinition ausgewertet wird.</br>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</br>**[!DNL View merge policies]**: Nur-Lese-Zugriff auf verfügbare Zusammenführungsrichtlinien. |
 | Abfrage-Service | **[!DNL Manage queries]**: Lesen, Erstellen, Bearbeiten und Löschen strukturierter SQL-Abfragen für Platform-Daten.</br>**[!DNL Manage query service integration]**: Erstellen, Aktualisieren und Löschen nicht ablaufender Anmeldedaten für den Zugriff auf den Abfrage-Service. |
-| Sandbox-Administration | **[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox.</br>**[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox. |
+| Sandbox-Administration | **[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox.</br>**[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: liest, erstellt, bearbeitet und löscht Pakete. |
 
 {style="table-layout:fixed"}

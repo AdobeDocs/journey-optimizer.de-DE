@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Jo
 
 >[!NOTE]
 >
->Diese Funktion erfordert folgende Berechtigungen: manage-sandbox (oder view-sandbox) und manage-package.
+>Diese Funktion erfordert die folgenden Berechtigungen von der **Sandbox-Verwaltung** Funktion: Sandboxes verwalten (oder Sandboxes anzeigen) und Pakete verwalten. [Weitere Informationen](../administration/ootb-permissions.md)
 
 ## Erste Schritte mit Sandbox-Werkzeugen{#sandbox-gs}
 
