@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 3%
 
 Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung beginnt am **1. Februar 2024**.
 
+Erfahren Sie mehr über die Anforderungen von Google und Yahoo in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+
 >[!CAUTION]
 >
 >Wenn diese neue Anforderung von Gmail und Yahoo nicht erfüllt wird, wird erwartet, dass E-Mails in den Spam-Ordner gelangen oder blockiert werden.
-
-Weitere Informationen zu den Anforderungen von Google und Yahoo finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
 Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie zum Adobe in [!DNL Journey Optimizer]. Führen Sie eine der beiden folgenden Optionen aus:
 
@@ -36,7 +36,7 @@ Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für
 
 * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **über die bevorstehende Funktion in der [!DNL Journey Optimizer] Administration-Benutzeroberfläche** - ohne zusätzliche Arbeit an Ihrer Hosting-Lösung.
 
-  >[!WARNING]
+  >[!CAUTION]
   >
   >Wenn Sie [CNAME-Zuweisung](delegate-subdomain.md#cname-subdomain-delegation) Für Ihre sendenden Subdomains ist auch ein Eintrag in Ihre Hosting-Lösung erforderlich. Stellen Sie sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann [!DNL Journey Optimizer] ist verfügbar (am 30. Januar 2024). <!--and be ready on February 1st, 2024-->
 
@@ -73,4 +73,4 @@ Die neuesten Zeitpläne, die von Google und Yahoo gemeinsam genutzt werden, laut
 
 >[!NOTE]
 >
->Weitere Informationen zu DMARC finden Sie im Abschnitt [Best Practices für die Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} , um die Auswirkungen der Implementierung von DMARC auf die E-Mail-Zustellbarkeit besser zu verstehen.
+>Erfahren Sie mehr über die Implementierung von DMARC im [Best Practices für die Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} , um die Auswirkungen auf die Zustellbarkeit von E-Mails besser zu verstehen.
