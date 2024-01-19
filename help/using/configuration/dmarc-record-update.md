@@ -1,59 +1,76 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: DMARC-Eintrag
-description: Erfahren Sie, wie Sie DMARC-Datensätze in Journey Optimizer festlegen.
+title: Obligatorische DMARC-Aktualisierung
+description: Erfahren Sie, warum und wann Sie DMARC-Datensätze in Journey Optimizer festlegen müssen
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-hide: true
-hidefromtoc: true
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 19%
+source-wordcount: '468'
+ht-degree: 3%
 
 ---
 
-# Wichtige Aktualisierung des DMARC-Datensatzes{#dmarc-record}
+# Obligatorische DMARC-Aktualisierung {#dmarc-record-update}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_dmarc_banner_link"
+>title="Weitere Informationen zur obligatorischen DMARC-Aktualisierung"
+>abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung beginnt am **1. Februar 2024**. <br>Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie an Adobe in Journey Optimizer delegiert haben."
+
+Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung beginnt am **1. Februar 2024**.
 
 >[!CAUTION]
 >
->Nach den jüngsten Ankündigungen von Gmail und Yahoo für Massen-Absender unterstützt Journey Optimizer jetzt die DMARC-Authentifizierungstechnologie.
+>Wenn diese neue Anforderung von Gmail und Yahoo nicht erfüllt wird, wird erwartet, dass E-Mails in den Spam-Ordner gelangen oder blockiert werden.
 
-Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo, dass Sie über einen DMARC-Datensatz für jede Domäne verfügen, mit der Sie E-Mails an sie senden. Diese neue Anforderung beginnt am **1. Februar 2024**.
+Weitere Informationen zu den Anforderungen von Google und Yahoo finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-Erfahren Sie mehr über die Anforderungen von Google und Yahoo an DMARC-Einträge in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie zum Adobe in [!DNL Journey Optimizer]. Führen Sie eine der beiden folgenden Optionen aus:
 
-Erfahren Sie mehr über die angekündigten Änderungen in Google und Yahoo unter [diese Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Richten Sie DMARC in Ihren Subdomains oder in der übergeordneten Domäne Ihrer Subdomains ein. **in Ihrer Hosting-Lösung**.
 
-Als Nächstes haben Sie noch eine Aktion oder die nächsten Schritte für Ihren Abschnitt, in dem Folgendes aufgeführt wird:
+* Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **über die bevorstehende Funktion in der [!DNL Journey Optimizer] Administration-Benutzeroberfläche** - ohne zusätzliche Arbeit an Ihrer Hosting-Lösung.
 
-Sie müssen sie für alle Ihre Subdomains einrichten
-* Wenn Sie uns die Domain vollständig zugewiesen haben, haben Sie zwei Möglichkeiten
-   * Richten Sie DMARC in der übergeordneten Domäne der delegierten Domäne in Ihrer Hosting-Lösung ein, ODER
-   * Richten Sie DMARC in delegierter Domäne mithilfe unserer anstehenden Funktion in der Administrator-Benutzeroberfläche ein, ohne dass zusätzliche Arbeit bei der Hosting-Lösung erforderlich ist.
-* Wenn Sie CNAME für Ihre Versanddomänen eingerichtet haben, haben Sie zwei Optionen
-   * Richten Sie DMARC in der Subdomain ODER der übergeordneten Domäne der Subdomain in Ihrer Hosting-Lösung ein, ODER
-   * Richten Sie DMARC mithilfe unserer anstehenden Funktion in der Administrator-Benutzeroberfläche ein. Es erfordert jedoch nicht nur unsere Benutzeroberfläche, sondern auch die Eingabe in die Hosting-Lösung.
+  >[!WARNING]
+  >
+  >Wenn Sie [CNAME-Zuweisung](delegate-subdomain.md#cname-subdomain-delegation) Für Ihre sendenden Subdomains ist auch ein Eintrag in Ihre Hosting-Lösung erforderlich. Stellen Sie sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann [!DNL Journey Optimizer] ist verfügbar (am 30. Januar 2024). <!--and be ready on February 1st, 2024-->
 
-Weitere Details zu unserer kommenden Funktion werden bald angezeigt.
+  Weitere Informationen über [!DNL Journey Optimizer] Die bevorstehende DMARC-Funktion wird in Kürze verfügbar sein.
 
-Darüber hinaus können Sie die Auswirkung einbeziehen, wenn nicht festgelegt, indem Sie den für DMARC relevanten Abschnitt aus dem folgenden Abschnitt kopieren (kopiert aus dem obigen Link). Entweder ziehen wir einfach DMARC-bezogene Dinge heraus. Oder hier können Sie erklären, dass die Ankündigung für DMARC und einen Klick unsub ist und hier ist die neuesten über Zeitpläne für beide Funktionen.
+<!--
+* If you have [fully delegated](delegate-subdomain.md#full-subdomain-delegation) your sending subdomains to Adobe, follow either one of the two options below:
 
-Seit der ursprünglichen Ankündigung im Oktober wurden Aktualisierungen an den Zeitplänen vorgenommen.
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
 
-Die neuesten Zeitpläne sehen wie folgt aus:
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution.
 
-Gmail:
+* If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, follow either one of the two options below:
+    * Set up DMARC on your subdomains or on the parent domain of your subdomains **in your hosting solution**.
+    * Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI**. However, it will also require entry in your hosting solution. Consequently, make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January, 30) - and be ready on February 1st, 2024.
+    
+-->
 
-* Februar 2024 – Beginn von temporären Bounces, die eine Warnung bei Nichterfüllung der Anforderungen bieten sollen. E-Mails werden nach kurzer Verzögerung wie gewohnt zugestellt, wenn Sie die Anforderungen noch nicht erfüllen. Wenn Sie die Anforderungen vollständig erfüllen, gibt es keine temporären Bounces und Sie werden nichts bemerken.
-* April 2024 – Beginn der Blockierung von Absendern und Absenderinnen, die nicht die Anforderungen erfüllen, mit Ausnahme der Abmeldung von Listen mit einem Klick. Zunächst wird nur ein Teil der nicht-konformen E-Mails blockiert, wobei der Prozentsatz der blockierten E-Mails im Laufe der Zeit steigt.
-* 1. Juni 2024 – Absenderinnen und Absender, die den Anforderungen nicht in vollem Umfang entsprechen, werden blockiert, einschließlich der Abmeldung von Listen mit einem Klick.
+>[!NOTE]
+>
+>Wenden Sie sich bei Fragen oder Support an Ihren Adobe Deliverability Consultant oder Ihren Adobe-Support-Mitarbeiter.
 
-Yahoo:
+Die neuesten Zeitpläne, die von Google und Yahoo gemeinsam genutzt werden, lauten wie folgt:
 
-Hat keine genauen Daten angegeben, aber hat gesagt, &quot;die Einführung der Durchsetzung wird im Februar 2024 beginnen. Die Durchsetzung wird schrittweise eingeführt.&quot;
+* Google:
+
+   * **Februar 2024** - Vorübergehende Bounces, die eine Warnung vor Nichteinhaltung enthalten sollen, beginnen. E-Mails werden nach kurzer Verzögerung wie gewohnt zugestellt, wenn Sie die Anforderungen noch nicht erfüllen. Wenn Sie die Anforderungen vollständig erfüllen, gibt es keine temporären Bounces und Sie werden nicht betroffen sein.
+
+   * **April 2024** - Für Absender, die nicht den DMARC-Anforderungen entsprechen, werden Blöcke gestartet. Zunächst wird nur ein Teil der nicht kompatiblen E-Mails blockiert, wobei der Prozentsatz der blockierten E-Mails im Laufe der Zeit steigt.
+
+   * **1. Juni 2024** - Bei allen Absendern, die nicht der vollen Compliance entsprechen, kommt es zu Blockierungen.
+
+* Yahoo hat keine genauen Termine angegeben, hat aber gesagt: &quot;Die Einführung der Durchsetzung wird im Februar 2024 beginnen. Die Durchsetzung wird schrittweise eingeführt.&quot;
+
+>[!NOTE]
+>
+>Weitere Informationen zu DMARC finden Sie im Abschnitt [Best Practices für die Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} , um die Auswirkungen der Implementierung von DMARC auf die E-Mail-Zustellbarkeit besser zu verstehen.

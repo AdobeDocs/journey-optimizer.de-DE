@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC, das für **Domänenbasierte Nachrichtenauthentifizierung, Berichterstellu
 
 Das Einrichten eines DMARC-Eintrags umfasst das Hinzufügen eines DNS-TXT-Eintrags zu den DNS-Einstellungen Ihrer Domain. Dieser Datensatz gibt Ihre DMARC-Richtlinie an, z. B. ob Nachrichten, bei denen die Authentifizierung fehlschlägt, unter Quarantäne gestellt oder abgelehnt werden. Die Implementierung von DMARC ist ein proaktiver Schritt zur Verbesserung der E-Mail-Sicherheit und zum Schutz sowohl Ihrer Organisation als auch Ihrer Empfänger vor E-Mail-basierten Bedrohungen.
 
-[Weitere Informationen zu DMARC finden Sie im Best Practices-Handbuch zur Zustellbarkeit .](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de){target="_blank"} , um die Auswirkungen von DMARC auf die E-Mail-Zustellbarkeit besser zu verstehen.
+[Weitere Informationen zu DMARC finden Sie im Best Practices-Handbuch zur Zustellbarkeit .](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} , um die Auswirkungen von DMARC auf die E-Mail-Zustellbarkeit besser zu verstehen.
 
 Wenn Sie DMARC nicht hinzufügen, werden Sie (zumindest) unter Quarantäne gestellt.
 
