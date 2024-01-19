@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 95%
+source-wordcount: '1749'
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
    >
    >Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
-1. Wenn die Subdomain keine DMARC-Einträge enthält, können Sie sie hier festlegen. Wenn die Subdomain über vorhandene DMARC-Einträge verfügt und ob sie von abgerufen wurden [!DNL Journey Optimizer]können Sie dieselben Werte verwenden oder nach Bedarf ändern. Weitere Informationen
-
 1. Nachdem die Subdomain-Delegierung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -156,8 +154,6 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
    >[!NOTE]
    >
    >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Einträge später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
-
-1. Wenn die Subdomain keine DMARC-Einträge enthält, können Sie sie hier festlegen. Wenn die Subdomain über vorhandene DMARC-Einträge verfügt und ob sie von abgerufen wurden [!DNL Journey Optimizer]können Sie dieselben Werte verwenden oder nach Bedarf ändern. Weitere Informationen
 
 1. Warten Sie, bis Adobe prüft, ob diese Einträge in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
 
