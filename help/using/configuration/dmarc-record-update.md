@@ -8,9 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-hide: true
-hidefromtoc: true
-source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
+source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 3%
@@ -33,18 +31,6 @@ Erfahren Sie mehr über die Anforderungen von Google und Yahoo in [diesem Abschn
 >Wenn diese neue Anforderung von Gmail und Yahoo nicht erfüllt wird, wird erwartet, dass E-Mails in den Spam-Ordner gelangen oder blockiert werden.
 
 Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie zum Adobe in [!DNL Journey Optimizer]. Führen Sie die folgenden Schritte aus, die auf Ihren Fall zutreffen:
-
-<!--
-* Set up DMARC on your subdomains, or on the parent domain of your subdomains, **in your hosting solution**. You can do it as of now.
-
-* Set up DMARC on your delegated subdomains **using the upcoming feature in the [!DNL Journey Optimizer] administration UI** - with no extra work on your hosting solution. This feature will be available on January 30, 2024.
-
-    >[!CAUTION]
-    >
-    >If you have set up [CNAME delegation](delegate-subdomain.md#cname-subdomain-delegation) for your sending subdomains, it will also require some entry into your hosting solution. Make sure you coordinate with your IT department so that they can perform the update as soon as the [!DNL Journey Optimizer] feature is available (on January 30, 2024). (and be ready on February 1st, 2024)
-
-    More details on the [!DNL Journey Optimizer] DMARC upcoming feature will come soon.
--->
 
 * Wenn Sie [vollständig delegiert](delegate-subdomain.md#full-subdomain-delegation) Führen Sie eine der beiden folgenden Optionen aus, um Ihre Subdomains an Adobe zu senden:
 
