@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
-* Als Best Practice empfehlen wir, nur Streaming-Zielgruppen für **Zielgruppenqualifikation** -Aktivität. Für Batch-Anwendungsfälle verwenden Sie bitte **[Audience lesen](read-audience.md)** -Aktivität.
+* Als Best Practice empfehlen wir, nur Streaming-Zielgruppen für die Aktivität **Zielgruppenqualifikation** zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
 
 ### Konfigurieren der Aktivität{#cnfigure-segment-qualification}
 
