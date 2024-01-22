@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 * Durch das Klicken auf diesen Link werden die Empfänger zu einer Landingpage mit einer Schaltfläche zur Bestätigung weitergeleitet.
 * Nach dem Klicken auf die Ausschluss-Schaltfläche werden die Profildaten mit diesen Informationen aktualisiert.
 
-### Konfigurieren des E-Mail-Opt-outs {#configure-opt-out}
+### Konfigurieren des Opt-out von E-Mails {#configure-opt-out}
 
 Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses Abonnement über eine Landingpage zu stornieren.
 
