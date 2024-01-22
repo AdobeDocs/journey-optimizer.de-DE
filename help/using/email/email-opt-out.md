@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Um Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten
 
 Dafür haben Sie folgende Möglichkeiten:
 
-* Einfügen einer **Link zu einer Landingpage** in eine E-Mail eingeben, damit sich Benutzer von der Anmeldung für den Erhalt von Nachrichten Ihrer Marke abmelden können. Er kann:
+* Fügen Sie einen **Link zu einer Landingpage** in eine E-Mail ein, damit sich Benutzende vom Erhalt von Nachrichten von Ihrer Marke abmelden können. Dies kann sein:
 
-   * A **[!DNL Journey Optimizer]Landingpage**. [Erfahren Sie, wie Sie eine Opt-out-Landingpage hinzufügen](../landing-pages/lp-use-cases.md#opt-out)
+   * Eine **[!DNL Journey Optimizer]Landingpage**. [Erfahren Sie, wie Sie eine Landingpage zum Opt-out hinzufügen](../landing-pages/lp-use-cases.md#opt-out)
 
-   * A **eine externe Landingpage**. [Erfahren Sie, wie Sie einen externen Ausschluss-Link hinzufügen.](#opt-out-external-lp)
+   * **Eine externe Landingpage**. [Erfahren Sie, wie Sie einen externen Ausschluss-Link hinzufügen.](#opt-out-external-lp)
 
 * Fügen Sie in Ihren E-Mail-Inhalt einen **Link zum Abmelden mit einem Klick** ein. Dieser Link ermöglicht es Ihren Empfängern, sich schnell von Ihren Mitteilungen abzumelden, ohne erst auf eine Landingpage umgeleitet zu werden, auf der sie ihre Wahl bestätigen müssen, was den Abmeldeprozess beschleunigt. [Erfahren Sie, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
-* Fügen Sie im E-Mail-Header einen Abmelde-Link hinzu. Wenn die Variable **[!UICONTROL List-Unsubscribe]** auf der Kanaloberfläche aktiviert ist, enthalten die entsprechenden mit Journey Optimizer gesendeten E-Mails einen Abmelde-Link im E-Mail-Header. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
+* Fügen Sie im E-Mail-Header einen Abmelde-Link hinzu. Wenn die Option **[!UICONTROL Abmelden]** auf der Ebene der Kanaloberfläche aktiviert ist, sollten die entsprechenden E-Mails, die mit Journey Optimizer gesendet werden, außerdem einen Abmelde-Link in der E-Mail-Kopfzeile enthalten. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
 
 >[!NOTE]
 >
