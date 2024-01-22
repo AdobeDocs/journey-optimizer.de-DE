@@ -22,8 +22,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 ## Januar 2024 {#jan-2024}
 
 * Es wurde ein Schutzschild über die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-* Die Verwaltung von Journey-Timeouts wurde detailliert beschrieben. [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [Dokumentation-Startseite](../../ajo-home.md) wurde neu entworfen.
+* Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout) detailliert beschrieben.
+* Die [Dokumentations-Startseite](../../ajo-home.md) von Journey Optimizer wurde neu gestaltet.
 * Recommendations zur Aktivität Profile aktualisieren wurde hinzugefügt - [Weitere Informationen](../building-journeys/update-profiles.md)
 
 ## November 2023 {#nov-2023}

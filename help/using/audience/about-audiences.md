@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 85%
 >title="Auswählen der Kampagnenzielgruppe"
 >abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
-Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Weitere Informationen zu Zielgruppen finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
+Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
-[!DNL Journey Optimizer] ermöglicht Ihnen, Adobe Experience Platform-Zielgruppen direkt über die **[!UICONTROL Zielgruppen]** und nutzen Sie sie in Ihren Journey oder Kampagnen.
+Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen direkt im Menü **[!UICONTROL Zielgruppen]** erstellen und diese in Ihren Journeys oder Kampagnen verwenden.
 
 Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
