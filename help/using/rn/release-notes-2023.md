@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4121'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,9 +118,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie festlegen. [Weitere Infos](../building-journeys/journey-gs.md#uplicate-a-Journey)
+* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie festlegen. [Mehr erfahren](../building-journeys/journey-gs.md#uplicate-a-Journey
 
-* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey auf Grundlage dieser Antworten koordinieren. Zusätzlich wird eine [neuer Begrenzungsrahmen](../start/guardrails.md#custom-actions-g) wurde hinzugefügt, um benutzerdefinierte Aktionsaufrufe automatisch zu begrenzen. [Weitere Informationen](../action/action-response.md)
+* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey auf Grundlage dieser Antworten koordinieren. Darüber hinaus wurde ein [neuer Schutzmechanismus zur Begrenzung](../start/guardrails.md#custom-actions-g) hinzugefügt, um benutzerdefinierte Aktionsaufrufe automatisch zu begrenzen. [Weitere Informationen](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
