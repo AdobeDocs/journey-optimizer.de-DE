@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -140,9 +140,9 @@ Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweise
 
 ![](assets/journeys-manage-access.png)
 
-### Journey- und Profilzeitzonen {#timezone}
+### Zeitzonen von Journeys und Profilen {#timezone}
 
-Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey zu definieren. Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
+Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen. Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
 
 Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
@@ -150,7 +150,7 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum [globales Journey-Timeout](#global_timeout) (die im Allgemeinen 30 Tage beträgt und mit dem &quot;Healthcare Shield&quot;-Zusatzangebot auf 7 Tage reduziert wird). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 30 Tage, kann mit dem Zusatzangebot „Healthcare Shield“ auf 7 Tage reduziert werden). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
@@ -164,9 +164,9 @@ Bei Journeys wird auch eine maximale globale Wartezeit verwendet. Siehe [nächst
 
 ### Maximale globale Wartezeit der Journey {#global_timeout}
 
-Zusätzlich zu den [timeout](#timeout_and_error) in Journey-Aktivitäten verwendet wird, gibt es auch eine globale Journey-Zeitüberschreitung, die nicht in der Benutzeroberfläche angezeigt wird und nicht geändert werden kann.
+Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann.
 
-Diese globale Zeitüberschreitung stoppt den Fortschritt von Einzelpersonen in der Journey **30 Tage** nach ihrer Eingabe. Diese Zeitüberschreitung wird auf **7 Tage** mit dem Angebot des Health Care Shield-Zusatzmoduls. Das bedeutet, dass die Journey einer Person nicht länger als 30 Tage (oder 7 Tage) dauern kann. Nach diesem Timeout-Zeitraum werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
+Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **30 Tage** nach ihrem Eintritt. Diese maximale Wartezeit wird mit dem Zusatzangebot „Healthcare Shield“ auf **7 Tage** reduziert. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage (bzw. 7 Tage) dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
 
 >[!NOTE]
 >
