@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
+source-git-commit: 5812ca4974ca52073ede993063217ab4453ba2b7
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -171,8 +171,7 @@ The result will be:
 >
 >**[!UICONTROL currentEventField]** nur verfügbar ist, wenn Ereigniskollektionen bearbeitet werden, **[!UICONTROL currentDataPackField]** bei der Bearbeitung von Datenquellenkollektionen und **[!UICONTROL currentActionField]** bei der Bearbeitung von benutzerdefinierten Aktionsereignissen.
 >
->Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
->jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]**, **currentDataPackField** und **[!UICONTROL currentActionField]** entsprechen dem Element, das in der Schleife vorhanden ist.
+>Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]**, wird jedes Kollektionselement einzeln wiederholt. **[!UICONTROL currentEventField]**, **currentDataPackField** und **[!UICONTROL currentActionField]** entsprechen dem Element, das in der Schleife vorhanden ist.
 
 **Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“**
 
