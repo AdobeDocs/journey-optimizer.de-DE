@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '619'
+ht-degree: 96%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-Weitere Informationen zu den Feldverweisen finden Sie in [diesem Abschnitt](../building-journeys/expression/field-references.md).
+## Zusätzliche Ressourcen
+
+Weitere Informationen finden Sie auf folgenden Seiten:
+
+* [Feldverweise](../building-journeys/expression/field-references.md).
+* [Funktionen zur Verwaltung von Sammlungen](../building-journeys/expression/collection-management-functions.md)
