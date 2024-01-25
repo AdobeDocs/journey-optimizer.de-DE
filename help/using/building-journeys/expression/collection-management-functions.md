@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** ist nur verfügbar, wenn Ereignissammlungen bearbeitet werden, und **currentDataPackField**,
->wenn Datenquellensammlungen bearbeitet werden. Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
->jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]** und **currentDataPackField**
->entsprechen dem Element, das in der Schleife verarbeitet wird.
+>**[!UICONTROL currentEventField]** nur verfügbar ist, wenn Ereigniskollektionen bearbeitet werden, **[!UICONTROL currentDataPackField]**
+bei der Bearbeitung von Datenquellenkollektionen und **[!UICONTROL currentActionField]** bei der Bearbeitung von benutzerdefinierten Aktionsereignissen.
+>
+>Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** wird
+>jedes Element der Sammlung einzeln durchlaufen. **[!UICONTROL currentEventField]**, **currentDataPackField** und **[!UICONTROL currentActionField]** entsprechen dem Element, das in der Schleife vorhanden ist.
 
 **Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“**
 
