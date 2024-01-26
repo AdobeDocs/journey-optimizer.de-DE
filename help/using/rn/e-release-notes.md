@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
+source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 21%
+source-wordcount: '470'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 ## Frühzeitige Versionshinweise für Januar 2024 {#oct-jan-2024}
 
-**Veröffentlichungsdatum**: 20.-31. Januar 2024
+**Veröffentlichungsdatum**: 30.-31. Januar 2024
 
 ### Neue Funktionen{#jan-2024-features}
 
@@ -57,7 +57,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Reporting**
 
-* **Kanalberichte nach Domain** - Es wurden neue Widgets hinzugefügt, um Ihre Kampagnen- und Journey-Berichte zu verbessern. Die **Bounce-Gründe nach Domain**, **Gesendet und von Domänen bereitgestellt**, **Öffnungen und Klicks nach Domain** und **Bounce und Fehler nach Domain** -Widgets bieten eine detaillierte Aufschlüsselung auf Domänenebene für wichtige E-Mail-Versand- und Tracking-Metriken. [Weitere Informationen](../reports/channel-report.md)
+* **Kanalberichte nach Domain** - Es wurden neue Widgets hinzugefügt, um Ihre Kampagnen- und Journey-Berichte zu verbessern. Die **Bounce-Gründe nach Domain**, **Gesendet und von Domänen bereitgestellt**, **Öffnungen und Klicks nach Domain** und **Bounce und Fehler nach Domain** -Widgets bieten eine detaillierte Aufschlüsselung auf Domänenebene für wichtige E-Mail-Versand- und Tracking-Metriken.
 
 **SMS-Kanal**
 
@@ -67,7 +67,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* **Dauer der Reaktionsereignisse** - Die maximale Dauer, die Sie im **Reaktionsereignisse** ist jetzt 29 Tage anstelle von 30. [Weitere Informationen](../building-journeys/reaction-events.md)
+* **Dauer der Reaktionsereignisse** - Die maximale Dauer, die Sie im **Reaktionsereignisse** ist jetzt 29 Tage anstelle von 30.
 
 * **Datumsfilter** - Sie können jetzt benutzerdefinierte Datumswerte verwenden, um das Journey-Inventar zusätzlich zu den bereits vordefinierten Datumsfiltern zu filtern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
 
