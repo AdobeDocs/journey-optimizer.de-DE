@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Datumsfilter** - Sie können jetzt benutzerdefinierte Datumswerte verwenden, um das Journey-Inventar zusätzlich zu den bereits vordefinierten Datumsfiltern zu filtern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
 
-* **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal am Tag nach Ausführung des geplanten täglichen Batch-Auftrags generiert wird.
+* **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach Ausführung des geplanten täglichen Batch-Auftrags generiert wird.
 
 **Häufigkeitsregeln**
 
