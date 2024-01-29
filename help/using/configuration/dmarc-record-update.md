@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Obligatorische DMARC-Aktualisierung
+title: Einhalten der neuen DMARC-Anforderung
 description: Erfahren Sie, warum und wann Sie DMARC-Datensätze in Journey Optimizer festlegen müssen
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 3%
+source-wordcount: '526'
+ht-degree: 4%
 
 ---
 
-# Obligatorische DMARC-Aktualisierung {#dmarc-record-update}
+# Einhalten der neuen DMARC-Anforderung {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Weitere Informationen zur obligatorischen DMARC-Aktualisierung"
->abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. <br>Daher müssen Sie sicherstellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie an Adobe in Journey Optimizer delegiert haben."
+>abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**.<br>Daher müssen Sie sicherstellen, dass Sie DMARC-Datensätze für alle Subdomains eingerichtet haben, die Sie an Adobe in Journey Optimizer delegiert haben."
 
 Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung beginnt am **1. Februar 2024**.
 
@@ -36,13 +36,15 @@ Daher empfiehlt Adobe dringend, sicherzustellen, dass Sie DMARC-Datensätze für
 
    * Richten Sie DMARC in der übergeordneten Domäne Ihrer delegierten Subdomains ein **in Ihrer Hosting-Lösung**.
 
-   * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **über die bevorstehende Funktion in der [!DNL Journey Optimizer] Administration-Benutzeroberfläche** - ohne zusätzliche Arbeit an Ihrer Hosting-Lösung.
+   * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **im [!DNL Journey Optimizer] Administration-Benutzeroberfläche** - ohne zusätzliche Arbeit an Ihrer Hosting-Lösung. [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-* Wenn Sie [CNAME-Zuweisung](delegate-subdomain.md#cname-subdomain-delegation) Befolgen Sie für Ihre sendenden Subdomains eine der beiden folgenden Optionen:
+* Wenn Sie Ihre Versandsubdomains mit [CNAME](delegate-subdomain.md#cname-subdomain-delegation)führen Sie eine der beiden folgenden Optionen aus:
    * Richten Sie DMARC auf Ihren Subdomains oder in der übergeordneten Domäne Ihrer Subdomains ein **in Ihrer Hosting-Lösung**.
-   * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **über die bevorstehende Funktion in der [!DNL Journey Optimizer] Administration-Benutzeroberfläche**. Sie erfordert jedoch auch die Eingabe in Ihre Hosting-Lösung. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann. [!DNL Journey Optimizer] ist verfügbar (am 30. Januar). <!--and be ready on February 1st, 2024-->
+   * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **im [!DNL Journey Optimizer] Administration-Benutzeroberfläche**. [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-**Weitere Informationen über [!DNL Journey Optimizer] Die bevorstehende DMARC-Funktion wird in Kürze verfügbar sein.**
+     Mit der CNAME-Zuweisung ist jedoch auch ein Eintrag in Ihrer Hosting-Lösung erforderlich. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann. [!DNL Journey Optimizer] ist verfügbar (am 30. Januar). [Weitere Informationen](dmarc-record.md#implement-dmarc)
+
+**Weitere Informationen über [!DNL Journey Optimizer] Anstehende DMARC-Funktion ist in verfügbar [diesem Abschnitt](dmarc-record.md).**
 
 >[!NOTE]
 >
