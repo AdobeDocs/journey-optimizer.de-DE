@@ -84,13 +84,13 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ![](assets/experimentation_report_3.png)
 
-Die Registerkarte **[!UICONTROL Experimentieren]** bietet wichtige Einblicke in die Leistung der einzelnen Varianten und ermittelt die erfolgreichste Variante.
+Die Registerkarte **[!UICONTROL Experimentieren]** bietet wichtige Einblicke in die Performance der einzelnen Varianten und ermittelt die erfolgreichste Variante.
 
 Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln. Sie wird durch das Symbol ![](assets/experimentation_report_1.png) gekennzeichnet.
 
 +++Erfahren Sie mehr über die verschiedenen Kennzahlen und Widgets, die für den Experimentierbericht verfügbar sind.
 
-Die Widget **[!UICONTROL Experimentergebnis]** liefert Details zur Leistung der einzelnen Varianten. Sie können Ihre Baseline ändern, indem Sie eine der Abwandlungen aus der Dropdown-Liste **[!UICONTROL Baseline]** auswählen. Die beste Abwandlung wird mit einem Sternsymbol gekennzeichnet.
+Die Widget **[!UICONTROL Experimentergebnis]** liefert Details zur Performance der einzelnen Varianten. Sie können Ihre Baseline ändern, indem Sie eine der Abwandlungen aus der Dropdown-Liste **[!UICONTROL Baseline]** auswählen. Die beste Abwandlung wird mit einem Sternsymbol gekennzeichnet.
 
 Die Tabelle enthält die folgenden Metriken:
 
@@ -104,7 +104,7 @@ Die Tabelle enthält die folgenden Metriken:
 
 * **[!UICONTROL Eindeutige ausgehende Klicks/Profile]**: Gesamtwert der Erfolgskennzahl, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile.
 
-Der Graph **[!UICONTROL Konfidenzintervall]** misst die Unsicherheit im Zusammenhang mit Verbesserungen. Er beschreibt den prozentualen Leistungsunterschied zwischen der Baseline und der Abwandlung mit der besten Leistung. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
+Der Graph **[!UICONTROL Konfidenzintervall]** misst die Unsicherheit im Zusammenhang mit Verbesserungen. Er beschreibt den prozentualen Performance-Unterschied zwischen der Baseline und der Abwandlung mit der besten Performance. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
 
 ![](assets/experimentation_report_4.png)
 
@@ -132,8 +132,8 @@ Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="E-Mail – Versandleistung"
->abstract="Der Graph „E-Mail – Versandleistung“ enthält umfassende Daten zu gesendeten E-Mails und bietet Einblicke in wichtige Metriken wie Sendungen und Bounces, sodass eine detaillierte Analyse des E-Mail-Versandprozesses möglich ist."
+>title="E-Mail – Versand-Performance"
+>abstract="Der Graph „E-Mail – Versand-Performance“ enthält umfassende Daten zu gesendeten E-Mails und bietet Einblicke in wichtige Metriken wie Sendungen und Bounces, sodass eine detaillierte Analyse des E-Mail-Versandprozesses möglich ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
@@ -215,7 +215,7 @@ Das Widget **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügba
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
-Das Diagramm **[!UICONTROL Versandleistung]** enthält die Daten, die für gesendete E-Mails verfügbar sind, z. B.:
+Das Diagramm **[!UICONTROL Versand-Performance]** enthält die Daten, die für gesendete E-Mails verfügbar sind, z. B.:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -271,8 +271,8 @@ Die Details **[!UICONTROL E-Mail - Versandzeitoptimierung]** zeigt den Erfolg Ih
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
->title="In-App-Leistung"
->abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besuchenden mit In-App-Nachrichten."
+>title="In-App-Performance"
+>abstract="Die KPIs zur In-App-Performance bieten wichtige Einblicke in die Interaktion Ihrer Besuchenden mit In-App-Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
@@ -290,7 +290,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
+Die KPIs der **[!UICONTROL In-App-Performance]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
 
 * **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Nutzer, an die die In-App-Nachricht gesendet wurde.
 
@@ -337,7 +337,7 @@ Der Graph **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In
 
 Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den im Rahmen Ihrer Kampagne gesendeten Push-Sendungen.
 
-![](assets/campaign_report_global_3.png)Die KPIs der In-App-Leistung geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an.
+![](assets/campaign_report_global_3.png)Die KPIs der In-App-Performance geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an.
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
@@ -428,8 +428,8 @@ Der Graph und die Tabelle **[!UICONTROL Aufschlüsselung nach Plattform]** zeige
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
->title="SMS – Leistung nach Datum"
->abstract="Das Widget „SMS – Leistung nach Datum“ liefert wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
+>title="SMS – Performance nach Datum"
+>abstract="Das Widget „SMS – Performance nach Datum“ liefert wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
@@ -466,7 +466,7 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 
 * **[!UICONTROL Fehler]**: Gesamtzahl der aufgetretenen Fehler, die die Zustellung an Profile verhindert haben.
 
-Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Informationen zu Ihrer Nachricht in Form eines Graphen:
+Das Widget **[!UICONTROL SMS-Performance nach Datum]** enthält die wichtigsten Informationen zu Ihrer Nachricht in Form eines Graphen:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für Ihre SMS-Nachrichten.
 
@@ -484,8 +484,8 @@ Das Widget **[!UICONTROL SMS – Klicks nach Links]** enthält die wichtigsten I
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
->title="Web-Leistung"
->abstract="Die Web-Leistungs-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Erlebnissen."
+>title="Web-Performance"
+>abstract="Die Web-Performance-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Erlebnissen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_summary"

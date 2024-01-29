@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="Live-Bericht zu Landingpages"
->abstract="Mit dem Live-Bericht zu Landingpages kann die Wirkung und Leistung einer Landingpage nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
+>abstract="Mit dem Live-Bericht zu Landingpages kann die Wirkung und Performance einer Landingpage nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich globale Berichte auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
@@ -32,7 +32,7 @@ Der **[!UICONTROL Live-Bericht]** zu Landingpages ist in verschiedene Widgets un
 
 +++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht zur Landingpage verfügbar sind.
 
-Das Widget **[!UICONTROL Leistung der Landingpage]** zeigt die wichtigsten Informationen in Form von KPIs an, die in den letzten 24 Stunden zu Ihrer Nachricht erfasst wurden:
+Das Widget **[!UICONTROL Performance der Landingpage]** zeigt die wichtigsten Informationen in Form von KPIs an, die in den letzten 24 Stunden zu Ihrer Nachricht erfasst wurden:
 
 * **[!UICONTROL Besuche insgesamt]**: Gesamtzahl der Besuche auf Ihrer Landingpage ausgehend von einer Journey oder anderen Quellen, einschließlich mehrerer Besuche eines Empfängers.
 

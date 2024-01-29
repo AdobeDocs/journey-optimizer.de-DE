@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="Kampagnen-Live-Bericht"
->abstract="Mit dem Kampagnen-Live-Bericht kann die Wirkung und Leistung von Kampagnen nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
+>abstract="Mit dem Kampagnen-Live-Bericht kann die Wirkung und Performance von Kampagnen nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich globale Berichte auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
@@ -73,8 +73,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
->title="E-Mail – Leistung nach Datum"
->abstract="Der Graph „E-Mail – Leistung nach Datum“ präsentiert umfassende Daten aus den letzten 24 Stunden zu gesendeten E-Mails und bietet Einblicke in wichtige Metriken wie Sendungen und Bounces, sodass eine detaillierte Analyse des E-Mail-Versandprozesses möglich ist."
+>title="E-Mail – Performance nach Datum"
+>abstract="Der Graph „E-Mail – Performance nach Datum“ präsentiert umfassende Daten aus den letzten 24 Stunden zu gesendeten E-Mails und bietet Einblicke in wichtige Metriken wie Sendungen und Bounces, sodass eine detaillierte Analyse des E-Mail-Versandprozesses möglich ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"
@@ -145,8 +145,8 @@ Der Graph und die Tabelle **[!UICONTROL E-Mail – beste Empfänger-Domain]** z
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
->title="In-App-Leistung"
->abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit In-App-Nachrichten in den letzten 24 Stunden."
+>title="In-App-Performance"
+>abstract="Die KPIs zur In-App-Performance bieten wichtige Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit In-App-Nachrichten in den letzten 24 Stunden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_interactions"
@@ -162,7 +162,7 @@ Im **[!UICONTROL Live-Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
+Die KPIs der **[!UICONTROL In-App-Performance]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
 
 * **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzenden gesendeten In-App-Nachrichten.
 
@@ -178,8 +178,8 @@ Das Diagramm und die Tabelle **[!UICONTROL Interaktionen nach Typ]** beschrieben
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
->title="Push-Benachrichtigung – Versandleistung"
->abstract="Der Graph „Push-Benachrichtigung – Versandleistung“ fasst wichtige Daten zu Ihrer Push-Benachrichtigung zusammen, z. B. „Fehler“ oder „Zugestellte Nachrichten“ aus den letzten 24 Stunden."
+>title="Push-Benachrichtigung – Versand-Performance"
+>abstract="Der Graph „Push-Benachrichtigung – Versand-Performance“ fasst wichtige Daten zu Ihrer Push-Benachrichtigung zusammen, z. B. „Fehler“ oder „Zugestellte Nachrichten“ aus den letzten 24 Stunden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
@@ -212,7 +212,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
-Die Widgets **[!UICONTROL Push-Benachrichtigung – Versandleistung]**, **[!UICONTROL Push-Benachrichtigung – Zusammenfassung]** und **[!UICONTROL Push-Benachrichtigung – Statistiken]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
+Die Widgets **[!UICONTROL Push-Benachrichtigung – Versand-Performance]**, **[!UICONTROL Push-Benachrichtigung – Zusammenfassung]** und **[!UICONTROL Push-Benachrichtigung – Statistiken]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -244,8 +244,8 @@ Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTR
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
->title="SMS – Leistung nach Datum"
->abstract="Das Widget „SMS – Leistung nach Datum“ liefert wichtige Informationen aus den letzten 24 Stunden über Ihre Nachrichten in einer grafischen Darstellung."
+>title="SMS – Performance nach Datum"
+>abstract="Das Widget „SMS – Performance nach Datum“ liefert wichtige Informationen aus den letzten 24 Stunden über Ihre Nachrichten in einer grafischen Darstellung."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -282,7 +282,7 @@ Die Tabelle **[!UICONTROL SMS – Statistik]** gibt Auskunft über den Erfolg Ih
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der URL-Besuche.
 
-Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Informationen zu Ihrer Nachricht in Form eines Graphen:
+Das Widget **[!UICONTROL SMS-Performance nach Datum]** enthält die wichtigsten Informationen zu Ihrer Nachricht in Form eines Graphen:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -297,8 +297,8 @@ In den Graphen und Tabellen **[!UICONTROL Ausschlussgründe]**, **[!UICONTROL Bo
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
->title="Web-Leistung"
->abstract="Die Web-Leistungs-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Erlebnissen aus den letzten 24 Stunden."
+>title="Web-Performance"
+>abstract="Die Web-Performance-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Erlebnissen aus den letzten 24 Stunden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_summary"
