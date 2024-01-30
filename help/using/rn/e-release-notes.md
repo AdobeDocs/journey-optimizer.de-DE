@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
+source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 17%
@@ -57,7 +57,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um gängige Anwendungsfälle zu behandeln, die Sie mit Adobe Experience Platform und Adobe Journey Optimiser durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journey, Nachrichten, Schemas oder Segmente, und diese für eine schnellere Wertschöpfungszeit an Ihr Schema anpassen.</p>
-<img src="assets/playbooks-detail.png"/>
+<img src="assets/do-not-localize/playbooks.gif"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
