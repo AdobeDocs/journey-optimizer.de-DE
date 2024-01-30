@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 Domain-based Message Authentication, Reporting and Conformance (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Inhaber ihre Domain vor nicht autorisierter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass böswillige Akteure E-Mails versenden, die behaupten, von Ihrer Domäne zu sein. Die Implementierung von DMARC verringert das Risiko, dass E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mail.
 
 
-Im Rahmen ihrer branchenüblichen Best Practices erzwingen Google und Yahoo! müssen beide **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung gilt ab **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Im Rahmen ihrer branchenüblichen Best Practices erzwingen Google und Yahoo! müssen beide **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung gilt ab **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ oder
 
      Mit der CNAME-Zuweisung ist jedoch auch ein Eintrag in Ihrer Hosting-Lösung erforderlich. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann. [!DNL Journey Optimizer] ist verfügbar (am 30. Januar). [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-**Eine Self-Service-Schnittstelle für die DMARC-Implementierung steht Ihnen ab dem 30. Januar zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](dmarc-record.md#implement-dmarc).**.
+**Ab dem 30. Januar steht Ihnen eine Self-Service-Oberfläche für die DMARC-Implementierung zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](dmarc-record.md#implement-dmarc).**.
 
 Die neuesten Zeitpläne, die von Google und Yahoo gemeinsam genutzt werden, lauten wie folgt:
 
