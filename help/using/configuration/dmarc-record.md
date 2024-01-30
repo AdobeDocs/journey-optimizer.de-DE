@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Um sicherzustellen, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet h
 
 1. Speichern Sie Ihre Änderungen.
 
-## Einrichten von DMARC für neue Subdomains {#set-up-dmarc}
+### Einrichten von DMARC für neue Subdomains {#set-up-dmarc}
 
 Beim Zuweisen neuer Subdomains zum Adobe in [!DNL Journey Optimizer], wird ein DMARC-Eintrag im DNS für Ihre Domäne erstellt. Gehen Sie wie folgt vor, um DMARC zu implementieren.
 
