@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
-workflow-type: ht
-source-wordcount: '1769'
-ht-degree: 100%
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 91%
 
 ---
 
@@ -50,6 +50,8 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 >title="Journeys"
 >abstract="Entwerfen Sie Customer Journeys, um Ihren Kundinnen und Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit Journey Optimizer können Sie anhand von in Ereignissen oder Datenquellen gespeicherten kontextbezogenen Daten Echtzeit-Orchestrierungsfälle erstellen. In der Registerkarte **Übersicht** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt. Auf der Registerkarte **Durchsuchen** wird eine Liste der vorhandenen Journeys angezeigt."
 
+### Schlüsselmetriken und Journey-Liste {#access-metrics}
+
 Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar:
 
 **Überblick**: Auf dieser Registerkarte wird ein Dashboard mit Schlüsselmetriken für Ihre Journeys angezeigt:
@@ -69,15 +71,27 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 
 ![](assets/journeys-browse.png)
 
-In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
+### Journey filtern {#filter}
 
-Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie außerdem ein Veröffentlichungsdatum oder Benutzende auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
+In der Liste der Journey können Sie verschiedene Filter nutzen, um die Liste der Journey zur besseren Lesbarkeit zu verfeinern.
 
 ![](assets/filter-journeys.png)
 
-Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
+Folgende Filtervorgänge können Sie durchführen:
 
-In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+* Filtern von Journey nach Status, Typ, Version und zugewiesenen Tags aus der **[!UICONTROL Status- und Versionsfilter]**.
+
+  Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
+
+* Verwenden Sie die **[!UICONTROL Erstellungsfilter]** , um die Journey nach ihrem Erstellungsdatum oder dem Erstellungsbenutzer zu filtern.
+
+* Anzeigen von Journey, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus dem **[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**.
+
+* Verwenden Sie die **[!UICONTROL Veröffentlichungsfilter]** um ein Veröffentlichungsdatum oder einen Benutzer auszuwählen. Sie können beispielsweise die neuesten Versionen von Live-Journey anzeigen lassen, die gestern veröffentlicht wurden.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+Darüber hinaus wird in den Konfigurationsbereichen Ereignis, Datenquelle und Aktion die **[!UICONTROL Verwendet in]** zeigt die Anzahl der Journey an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 In [diesem Abschnitt](entry-management.md) erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen.
 
-### Verwalten des Zugriffs {#access}
+### Verwalten des Zugriffs {#manage-access}
 
 Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
 
