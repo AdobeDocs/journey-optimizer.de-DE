@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Datumsfilter** - Sie können jetzt benutzerdefinierte Datumswerte verwenden, um das Journey-Inventar zusätzlich zu den bereits vordefinierten Datumsfiltern zu filtern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
 
-* **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach Ausführung des geplanten täglichen Batch-Auftrags generiert wird.
+* **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert.
 
 **Häufigkeitsregeln**
 
