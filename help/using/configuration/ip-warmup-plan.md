@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -87,9 +87,9 @@ Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] 
 
 * You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
 
-* Von der Benutzeroberfläche aus können Sie die leere Vorlage Excel IP-Warmup-Plan zum Ausfüllen herunterladen.
+* Hier können Sie die leere Excel-Vorlage für den IP-Aufwärmplan zum Ausfüllen herunterladen.
 
-* Sie können auch einen Beispiel-IP-Warmup-Plan herunterladen, der bereits mit einigen Daten ausgefüllt ist, die Sie als Beispiel verwenden können.
+* Sie können auch ein Beispiel für einen IP-Aufwärmplan herunterladen, der schon mit einigen Daten gefüllt ist, und ihn als ein Beispiel verwenden.
 
 >[!CAUTION]
 >
@@ -285,8 +285,8 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP-Aufwärmplan angeben"
->abstract="Füllen Sie die Excel-Vorlage mit allen Daten aus, die für Ihren Plan infrage kommen, wie IP-Warmup-Phasen und die Zielanzahl der Profile, und laden Sie sie hier hoch."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Vorbereiten der Datei mit dem IP-Aufwärmplan"
+>abstract="Füllen Sie die Excel-Vorlage mit allen Daten aus, die in Ihren Plan einfließen, z. B. IP-Aufwärmphasen und die Zielanzahl von Profilen, und laden Sie sie hier hoch."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=de#prepare-file" text="Vorbereiten der Datei mit dem IP-Aufwärmplan"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
@@ -320,7 +320,7 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 
    >[!NOTE]
    >
-   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Vorlage verwenden<!--assets/IPWarmupPlan-Template.xlsx--> bereitgestellt durch Adobe.
+   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die von Adobe bereitgestellte Vorlage <!--assets/IPWarmupPlan-Template.xlsx-->.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalte, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt.
 
