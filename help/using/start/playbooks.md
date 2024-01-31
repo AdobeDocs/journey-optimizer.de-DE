@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Anwendungsbeispiele für Playbooks {#playbooks}
+
+>[!PREREQUISITES]
+>
+>Die folgenden Konfigurationsschritte sind erforderlich, bevor Sie mit &quot;Use Case Playbooks&quot;arbeiten. Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Dokumentation zu den Nutzungsszenarios-Playbooks . [Erste Schritte](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} Seite.
+>
+>* Sandbox erstellen
+>* Benutzerberechtigungen konfigurieren
+>* Konfigurieren von Journey Optimizer-Kanaloberflächen für E-Mail-, Push- und SMS-Benachrichtigungen
 
 Anwendungsfall-Playbooks sind vordefinierte Workflows, die häufige Anwendungsfälle behandeln, die Sie mit Adobe Experience Platform und Journey Optimizer ausführen können.
 
