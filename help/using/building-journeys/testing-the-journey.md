@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Wichtige Hinweise {#important_notes}
 
-* Im Testmodus können Sie Ereignisse über die -Oberfläche auslösen. Ereignisse können nicht von externen Systemen mithilfe einer API ausgelöst werden.
+* Im Testmodus können Sie Ereignisse über die Oberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
 * Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
-* Um die Leistung zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
+* Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 * Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
@@ -126,7 +126,7 @@ Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Defin
 >title="Testmodusprotokolle"
 >abstract="Mit der Schaltfläche „Protokoll anzeigen“ können Sie Testergebnisse im JSON-Format anzeigen. Diese Ergebnisse geben die Anzahl der Kontakte innerhalb der Journey sowie ihren Status an."
 
-Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Journey-Informationen im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey manuell zu aktualisieren.
+Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 
 ![](assets/journeytest3.png)
 
@@ -137,9 +137,9 @@ Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Tester
 
 Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Außerdem finden Sie hier nützliche Informationen zu jedem Kontakt:
 
-* _ID_: die interne ID des Kontakts im Journey. Diese kann zum Debugging verwendet werden.
+* _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
 * _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel zu geben, damit Sie sie leichter identifizieren können.
-* _currentstep_ > phase: der Status der Journey des Kontakts (läuft, beendet, Fehler oder Zeitüberschreitung). Weitere Informationen finden Sie unten.
+* _currentstep_ > phase: der Status der Journey des Kontakts (Läuft, Abgeschlossen, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
 * _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextuelle Informationen.
 * _currentstep_ > _fetchErrors_: Informationen zu Datenfehlern beim Abrufen, die während dieses Schritts aufgetreten sind.
 * _externalKeys_: der Wert für die im Ereignis definierte Schlüsselformel.
