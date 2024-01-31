@@ -7,20 +7,20 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen eines Sammlungskennzeichners {#create-tag}
 
-Sie können einen Sammlungsbezeichner (früher als &quot;Tag&quot;bezeichnet) erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
+Sie können einen Sammlungskennzeichner (ehemals als „Tag“ bezeichnet) erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API richten.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Felder in der Anfragekopfzeile:
+Folgende Tabelle zeigt die gültigen Werte mit den Felder *Inhaltstyp* im Anfrageheader:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungsbezeichner zurückgegeben, einschließlich des eindeutigen `id`. Sie können die `id` in späteren Schritten, um Ihren Sammlungsbezeichner zu aktualisieren oder zu löschen. Sie können die eindeutige `id` Ihres Sammlungsqualifizierers in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungskennzeichner zurückgegeben, einschließlich der eindeutigen `id`. Sie können die `id` in späteren Schritten verwenden, um Ihren Sammlungskennzeichner zu aktualisieren oder zu löschen. Sie können die eindeutige `id` Ihres Sammlungsqualifizierers in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
 
 ```json
 {
