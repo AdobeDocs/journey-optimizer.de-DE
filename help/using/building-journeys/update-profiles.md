@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 * Wie bei jeder anderen Aktion können Sie einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung definieren, und Sie können nicht zwei Aktionen parallel platzieren.
 * Die an Adobe Experience Platform gesendete Aktualisierungsanfrage erfolgt unmittelbar bzw. innerhalb einer Sekunde. Normalerweise dauert sie ein paar Sekunden, manchmal aber auch länger, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch die davor positionierte Aktion **Profil aktualisieren** aktualisiert wurde, sollte daher nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
 * Die Aktivität **Profil aktualisieren** unterstützt keine XDM-Felder, die als Aufzählung definiert sind.
-* Die **[!UICONTROL Profil aktualisieren]** -Aktivität aktualisiert nur die [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, nicht den Data Lake.
-* Beim Auswählen eines Datensatzes im **[!UICONTROL Profil aktualisieren]** -Aktivität verwenden, wird empfohlen, eine nicht für Datenerfassungsflüsse bestimmte zu verwenden. **[!UICONTROL Profil aktualisieren]** nur im Abschnitt [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}besteht die Gefahr, dass eine solche Änderung durch einen Datenerfassungsfluss überschrieben wird.
+* Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
+* Beim Auswählen eines Datensatzes in der Aktivität **[!UICONTROL Profil aktualisieren]** wird empfohlen, einen nicht für Datenerfassungsflüsse bestimmten zu verwenden. Aktualisierungen von **[!UICONTROL Profil aktualisieren]** werden nur im Abschnitt [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} gespeichert, daher besteht ein Risiko, dass eine solche Änderung durch einen Datenaufnahmefluss überschrieben wird.
 
 ## Verwenden der Profilaktualisierung
 
