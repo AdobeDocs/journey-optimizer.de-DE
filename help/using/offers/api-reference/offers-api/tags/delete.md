@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # Löschen eines Sammlungsqualifizierers {#delete-tag}
 
-Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu entfernen (DELETE). Dies geschieht, indem Sie mit der ID des Kollektionqualifikators, den Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API richten.
+Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu entfernen (DELETE). Führen Sie dazu mithilfe der ID des Sammlungskennzeichners, den Sie löschen möchten, eine DELET-Anfrage an die Angebotsbibliotheks-API aus.
 
 **API-Format**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
 
-Sie können die Löschung bestätigen, indem Sie eine Nachschlageanfrage (GET) an den Sammlungsqualifizierer versuchen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da der Sammlungsbezeichner entfernt wurde.
+Sie können die Löschung bestätigen, indem Sie eine Nachschlageanfrage (GET) an den Sammlungsqualifizierer versuchen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da der Sammlungskennzeichner entfernt wurde.
