@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01f1a8d27fcc22ad38d4a8d7714c7afdc84e9726
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -359,9 +359,9 @@ ht-degree: 99%
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
       + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
-   + [Fehlerursachen](using/reports/error-list.md)
    + [Warnhinweise](using/reports/alerts.md)
    + [Arbeiten mit Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Ausschlussgründe](using/reports/exclusion-list.md)
 + Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)

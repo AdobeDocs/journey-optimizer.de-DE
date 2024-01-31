@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
-   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Gesamtzahl der über den Versandvorgang hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Bounce-Rate<br/> </td> 
@@ -84,16 +84,16 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
+   <td> Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.<br/> </td> 
 </tr> 
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während des Versands auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.<br/> </td> 
+   <td> Prozentsatz der Fehler, die während des Versandvorgangs aufgetreten sind und den Versand der Nachricht verhinderten, in Bezug auf die gesendeten E-Mails.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Fehlerursache<br/> </td> 
-   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="error-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
+   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="exclusion-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
@@ -282,11 +282,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Prozentsatz der In-App-Nachrichten, die von Empfängerinnen und Empfängern verworfen wurden.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Impressionen<br/> </td> 
+   <td>Impressions<br/> </td> 
    <td> Gesamtzahl der an alle Benutzenden gesendeten In-App-Nachrichten.<br/> </td>
 </tr>
   <tr> 
-   <td>Einzelimpressionen<br/> </td> 
+   <td>Einzel-Impressions<br/> </td> 
    <td>Anzahl der eindeutigen Benutzenden, an die die In-App-Nachricht gesendet wurde.<br/> </td>
 </tr>
  </tbody> 
@@ -340,7 +340,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Fehlerursache<br/> </td> 
-   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="error-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
+   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="exclusion-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
