@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Erstellen einer Regel"
->abstract="Mit der Erstellungsmethode für Regeln erstellen können Sie eine neue Zielgruppendefinition mithilfe des Segmentierungsdiensts von Adobe Experience Platform erstellen."
+>abstract="Die Methode zum Erstellen von Regeln ermöglicht Ihnen, mithilfe des Segmentierungs-Service von Adobe Experience Platform eine neue Zielgruppendefinition zu erstellen."
 
 In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle wohnen und nach 1980 geboren wurden. Alle diese Kundinnen und Kunden sollten das Programm Luma innerhalb der letzten 7 Tage geöffnet und dann innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
