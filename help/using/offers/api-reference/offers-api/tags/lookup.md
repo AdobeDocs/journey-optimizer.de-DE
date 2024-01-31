@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # Nachschlagen eines Sammlungsqualifizierers {#look-up-tag}
 
-Sie können bestimmte Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die Sammlungsqualifizierer-ID im Anfragepfad enthält.
+Sie können einzelne Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die Angebotsbibliotheks-API richten, die die ID des Sammlungsqualifizierers im Anfragepfad enthält.
 
 **API-Format**
 
