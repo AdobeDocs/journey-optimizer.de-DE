@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4574'
+source-wordcount: '4586'
 ht-degree: 93%
 
 ---
@@ -22,10 +22,10 @@ Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokum
 ## Januar 2024 {#jan-2024}
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Januar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Es wurde ein Schutzschild über die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+* Es wurde ein Schutzmechanismus im Hinblick auf die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout) detailliert beschrieben.
 * Die [Dokumentations-Startseite](../../ajo-home.md) von Journey Optimizer wurde neu gestaltet.
-* Recommendations zur Aktivität Profile aktualisieren wurde hinzugefügt - [Weitere Informationen](../building-journeys/update-profiles.md)
+* Empfehlungen zur Aktivität „Profile aktualisieren“ wurde hinzugefügt.  [Weitere Informationen](../building-journeys/update-profiles.md)
 * Es wurden Informationen zum Verhalten von Timeouts bei Ereignisaktivitäten in Journey hinzugefügt. Wenn während des angegebenen Timeout-Zeitraums kein Ereignis empfangen wird, setzen Einzelpersonen die Journey fort, wenn kein Timeout-Pfad definiert ist. [Weitere Informationen](../building-journeys/general-events.md#events-specific-time)
 * Die Voraussetzungen für die Konfiguration von In-App-Kanälen wurden mit einem Hinweis zur Verwendung einer benutzerdefinierten Zusammenführungsrichtlinie für Datensatzpräferenzen aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Es wurden weitere Details zum Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort hinzugefügt. [Weitere Informationen](../action/action-response.md#exp-syntax).
@@ -41,6 +41,7 @@ Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokum
 * Aktualisieren Sie die **duration** -Parameter in der `toString` -Funktion. [Weitere Informationen](../building-journeys/functions/functiontostring.md)
 * Für einige Anwendungsfälle externer Datenquellen wird die Verwendung benutzerdefinierter Aktionen empfohlen.
 * Die Syntax für Ereignisfelder wurde aktualisiert. Die folgende Syntax wird nicht mehr unterstützt `@(my_event.myfield}` und ersetzt durch `@event{my_event.myfield}`. [Weitere Informationen](../building-journeys/expression/field-references.md)
+* Die Handbücher für globale Berichte und Live-Berichte wurden umstrukturiert - [Weitere Informationen](../reports/campaign-global-report.md)
 
 
 ## November 2023 {#nov-2023}
