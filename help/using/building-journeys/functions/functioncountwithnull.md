@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countWithNull, Funktion, Ausdruck, Journey
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 100%
+source-wordcount: '57'
+ht-degree: 68%
 
 ---
 
 # countWithNull {#countWithNull}
 
 Zählt alle Elemente der Liste, einschließlich Nullwerten.
+
+Beachten Sie, dass der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 ## Kategorie
 
@@ -30,14 +32,7 @@ Aggregation
 
 | Parameter | Typ |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Signatur und zurückgegebener Typ
 

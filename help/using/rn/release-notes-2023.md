@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: ht
-source-wordcount: '4121'
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
+workflow-type: tm+mt
+source-wordcount: '4398'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 100%
 # Versionshinweise 2023 {#release-notes-2023}
 
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2023 veröffentlicht wurden.
+
+
+## Versionshinweise für Oktober 2023 {#oct-rn-2023}
+
+### Neue Funktionen{#oct-2023-features}
+
+Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
+
+<table>
+<thead>
+<tr>
+<th><strong>Sandbox-Werkzeuge</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Sandbox-Werkzeugen können Sie Objekte über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#mms-content">ausführlichen Dokumentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#oct-2023-improvements}
+
+Diese Version enthält die unten aufgeführten Verbesserungen.
+
+**Zielgruppen**
+
+* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journeys und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenkomposition erstellt wurden, und Anreicherungsattribute in Journeys nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>Diese Funktionen sind als private Betaversion verfügbar.
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**Kampagnen**
+
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
+* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt. [Weitere Informationen](../campaigns/modify-stop-campaign.md#statuses)
+
+**Journeys**
+
+* Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Diese Verbesserung wurde eingeführt, um zu verhindern, dass Wartezeiten die Journey-Lebensdauer von 30 Tagen überschreiten. Dies gilt für:
+
+   * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
+   * das Feld **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
+   * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
+
+<!--
+**Consent in channel configuration**
+
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+
+**Entscheidungs-Management**
+
+* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Benutzeroberfläche für das Entscheidungs-Management wurden aktualisiert. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+
+
 
 ## Versionshinweise für September 2023 {#sept-rn-2023}
 
@@ -98,7 +182,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* Es sind neue APIs für die Erstellung und Verwaltung von Entscheidungs-Management-Objekten verfügbar. Diese APIs bieten eine höhere Leistung und ein verbessertes Benutzererlebnis. Die alten APIs werden noch bis zum 27.03.2024 unterstützt. [Weitere Informationen](../offers/api-reference/getting-started.md)
+* Es sind neue APIs für die Erstellung und Verwaltung von Entscheidungs-Management-Objekten verfügbar. Diese APIs bieten eine höhere Performance und ein verbessertes Benutzererlebnis. Die alten APIs werden noch bis zum 27.03.2024 unterstützt. [Weitere Informationen](../offers/api-reference/getting-started.md)
 
 **Personalisierung**
 
@@ -503,7 +587,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebotsleistung.</p>
+<p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebots-Performance.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -644,7 +728,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Content Designer**
 
-* Adobe Journey Optimizer Content Designer wurde aktualisiert und der Zugriff auf Design-Stile und -Komponenten ist jetzt einfacher. Diese neue Version bietet ein verbessertes Benutzererlebnis und verbesserte Leistung, teilweise Kompatibilität im Dunkelmodus und neue Unterstützung für Barrierefreiheitsstandards.
+* Adobe Journey Optimizer Content Designer wurde aktualisiert und der Zugriff auf Design-Stile und -Komponenten ist jetzt einfacher. Diese neue Version bietet ein verbessertes Benutzererlebnis und verbesserte Performance, teilweise Kompatibilität im Dunkelmodus und neue Unterstützung für Barrierefreiheitsstandards.
 
 
 
@@ -677,7 +761,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Mit dem Klick-Tracking für SMS können Sie die Ergebnisse Ihrer gekürzten URLs überwachen, feststellen, wer auf sie geklickt hat, und diese Daten verwenden, um Kundinnen und Kunden mit nachfolgenden Kampagnen erneut anzusprechen.</p>
+<p>Mit dem Klick-Tracking für SMS können Sie die Performance Ihrer gekürzten URLs überwachen, feststellen, wer auf sie geklickt hat, und diese Daten verwenden, um Kundinnen und Kunden mit nachfolgenden Kampagnen erneut anzusprechen.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#sms-content">ausführlichen Dokumentation</a>.</p>
 </td>

@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
 
   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
+
+  >[!NOTE]
+  >
+  >Bei Verwendung eines benutzerdefinierten **[!UICONTROL Datensatzvoreinstellung]** Zusammenführungsrichtlinie, stellen Sie sicher, dass Sie die **[!UICONTROL Journey Inbound]** Datensatz innerhalb der angegebenen Zusammenführungsrichtlinie.
 
   ![](assets/inapp_config_8.png)
 

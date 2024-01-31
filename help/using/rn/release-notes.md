@@ -8,15 +8,14 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 27%
 
 ---
 
 # Versionshinweise {#release-notes}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
@@ -25,104 +24,80 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert.
 
-Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2023.md). Auf der Seite [Letzte Dokumentations-Updates](documentation-updates.md) finden Sie weitere Änderungsmöglichkeiten.
-
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Versionshinweise für Oktober 2023 {#oct-rn-2023}
+## Frühzeitige Versionshinweise für Januar 2024 {#jan-2024}
 
-### Neue Funktionen{#oct-2023-features}
+**Veröffentlichungsdatum**: 30.-31. Januar 2024
+
+### Neue Funktionen{#jan24-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
-<table>
-<thead>
-<tr>
-<th><strong>Sandbox-Werkzeuge</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit Sandbox-Werkzeugen können Sie Objekte über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS</strong><br/></th>
+<th><strong>Zustellbarkeits-Updates</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
-<img src="assets/do-not-localize/mms.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#mms-content">ausführlichen Dokumentation</a>.</p>
+<p>Journey Optimizer unterstützt jetzt die DMARC-Authentifizierungstechnologie.</p>
+<p>Ab dem 1. Februar 2024, Google und Yahoo! erfordert, dass Sie über einen DMARC-Datensatz für jede Domäne verfügen, mit der Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder delegieren.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/dmarc-record-update.md">ausführlichen Dokumentation</a>.</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
 
-### Verbesserungen {#oct-2023-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>Anwendungsbeispiele für Playbooks</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um gängige Anwendungsfälle zu behandeln, die Sie mit Adobe Experience Platform und Adobe Journey Optimiser durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journey, Nachrichten, Schemas oder Segmente, und diese für eine schnellere Wertschöpfungszeit an Ihr Schema anpassen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/playbooks.md">ausführlichen Dokumentation</a>.</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#jan24-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Zielgruppen**
+**Reporting**
 
-* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journeys und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenkomposition erstellt wurden, und Anreicherungsattribute in Journeys nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
+* **Neue domänenbasierte Aufschlüsselungs-Widgets** - Es wurden neue Widgets hinzugefügt, um Ihre Kampagnen- und Journey-Berichte zu verbessern. Die **Bounce-Gründe nach Domain**, **Gesendet und von Domänen bereitgestellt**, **Öffnungen und Klicks nach Domain** und **Bounce und Fehler nach Domain** -Widgets bieten eine detaillierte Aufschlüsselung auf Domänenebene für wichtige E-Mail-Versand- und Tracking-Metriken. [Weitere Informationen](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->Diese Funktionen sind als private Betaversion verfügbar.
+**SMS-Kanal**
 
-<!--
-**Spam scoring for emails**
+* **Double Opt-in** - Der Workflow für die Anmeldung mit zweifacher Bestätigung für SMS garantiert, dass Benutzer sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzer starten den Genehmigungsprozess durch Senden einer eingehenden SMS. Nach Bestätigung der Zustimmung wird eine Folgenachricht gesendet, in der eine endgültige Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../sms/sms-configuration.md#create-api)
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**Kampagnen**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt. [Weitere Informationen](../campaigns/modify-stop-campaign.md#statuses)
+  Beachten Sie, dass diese Funktion bei Sinch- und Infobip-SMS-Anbietern verfügbar ist.
 
 **Journeys**
 
-* Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Diese Verbesserung wurde eingeführt, um zu verhindern, dass Wartezeiten die Journey-Lebensdauer von 30 Tagen überschreiten. Dies gilt für:
+* **Dauer der Reaktionsereignisse** - Die maximale Dauer, die Sie im **Reaktionsereignisse** ist jetzt 29 Tage anstelle von 30. [Weitere Informationen](../building-journeys/reaction-events.md)
 
-   * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
-   * das Feld **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
-   * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-<!--
-**Consent in channel configuration**
+* **Audience lesen**  - die **Audience lesen** -Aktivität basiert nun auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert.
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* **Feldergruppen** - Diese Version behebt ein Problem, das die Speicherung von Feldergruppen in bestimmten Fällen verhinderte.
+
+**Häufigkeitsregeln**
+
+* **Häufigkeitsgrenze pro Woche und Tag** - Sie können jetzt zusätzlich zum Monat die maximale Anzahl an Nachrichten festlegen, die an ein Kundenprofil in einer Woche oder an einem Tag gesendet werden. Die Frequenzlimitierung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. [Weitere Informationen](../configuration/frequency-rules.md#create-new-rule)
 
 **Entscheidungs-Management**
 
-* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Benutzeroberfläche für das Entscheidungs-Management wurden aktualisiert. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-
+* **Frequenzlimitierung an Edge** - Der Frequenzlimitierungszähler wird jetzt aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar.

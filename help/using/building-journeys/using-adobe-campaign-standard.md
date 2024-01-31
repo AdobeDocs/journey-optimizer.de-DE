@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Integration, Standard, Kampagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
@@ -102,7 +102,7 @@ In diesem Abschnitt müssen Sie die **[!UICONTROL Push-Plattform]** definieren. 
 Sie müssen auch das **[!UICONTROL Anmeldetoken]** definieren. Der Ausdruck hängt davon ab, wie das Token in der Ereignis-Payload oder in anderen [!DNL Journey Optimizer]-Informationen definiert wird. Es kann sich um ein einfaches Feld oder einen komplexeren Ausdruck handeln, wenn das Token beispielsweise in einer Sammlung definiert ist:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Personalisierungsdaten]**

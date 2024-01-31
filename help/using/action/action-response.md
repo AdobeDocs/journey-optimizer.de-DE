@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 96%
 
 ---
@@ -199,10 +199,10 @@ Im Folgenden finden Sie einige Beispiele:
  // action response field
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
- @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+ @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Beim Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort können Sie sich für den Zugriff auf das aktuelle Element auf &quot;currentActionField&quot;verlassen:
+Beim Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort können Sie sich auf `currentActionField` , um auf das aktuelle Element zuzugreifen:
 
 ```json
 count(

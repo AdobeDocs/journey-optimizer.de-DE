@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull, Funktion, Ausdruck, Journey
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 97%
+source-wordcount: '123'
+ht-degree: 79%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 Gibt die unterschiedlichen Werte oder Objekte einer angegebenen Liste zurück. Wenn die Liste mindestens einen Nullwert enthält, wird ein Nullwert in der zurückgegebenen Liste angezeigt.
+
+Beachten Sie, dass der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 ## Kategorie
 
@@ -30,8 +32,7 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
-| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als doppelt betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als doppelt betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Zu verarbeitende Liste. |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -66,12 +67,6 @@ Gibt eine Liste mit booleschen Werten zurück.
 `distinctWithNull(<listDuration>)`
 
 Gibt eine Liste der Dauer zurück.
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-Gibt eine Liste mit Objekten zurück.
 
 ## Beispiele
 

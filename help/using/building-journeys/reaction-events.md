@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Ereignisse, Reaktion, Tracking, Plattform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 1. Fügen Sie der Reaktion einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
 1. Wählen Sie aus der Dropdown-Liste die Aktionsaktivität aus, auf die Sie reagieren möchten. Sie können jede Aktionsaktivität auswählen, die in den vorherigen Schritten des Pfades platziert wurde.
 1. Wählen Sie je nach ausgewählter Aktion, auf was Sie reagieren möchten.
-1. Sie können die maximale Wartezeit für ein Ereignis (zwischen 40 Sekunden und 30 Tagen) und einen Pfad für die maximale Wartezeit definieren. Dadurch wird ein zweiter Pfad für Personen erstellt, die nicht während der festgelegten Zeitspanne reagiert haben. Beim Testen einer Journey, die ein Reaktionseeignis verwendet, beträgt der Standard- und Mindestwert für die **[!UICONTROL Wartezeit]** im Testmodus 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+1. Sie können die maximale Wartezeit für ein Ereignis (zwischen 40 Sekunden und 29 Tagen) und einen Pfad für die maximale Wartezeit definieren. Dadurch wird ein zweiter Pfad für Personen erstellt, die nicht innerhalb der definierten Dauer reagiert haben. Beim Testen einer Journey, die ein Reaktionseeignis verwendet, beträgt der Standard- und Mindestwert für die **[!UICONTROL Wartezeit]** im Testmodus 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

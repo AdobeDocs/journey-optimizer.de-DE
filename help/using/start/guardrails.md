@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
 # Leitlinien und Einschränkungen {#limitations}
 
-Berechtigungen, Produkteinschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
+Berechtigungen, Produkteinschränkungen und die Performance betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
 Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
 
@@ -87,6 +87,10 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
 * Integrierte benutzerdefinierte Aktionen können nicht entfernt werden.
+* Stellen Sie bei der Auswahl eines Endpunkts für das Targeting mithilfe einer benutzerdefinierten Aktion sicher, dass:
+
+   * Dieser Endpunkt kann mithilfe von Konfigurationen aus dem Journey-Durchsatz unterstützen. [Einschränkungs-API](../configuration/throttling.md) oder [Capping-API](../configuration/capping.md) , um sie zu begrenzen. Seien Sie vorsichtig, wenn eine Einschränkungskonfiguration nicht unter 200 TPS liegen darf. Jeder Zielpunkt muss mindestens 200 TPS unterstützen.
+   * Dieser Endpunkt muss eine so niedrige Antwortzeit wie möglich haben. Abhängig von Ihrem erwarteten Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
 
 ### Ereignisse {#events-g}
 
@@ -99,6 +103,10 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
+
+>[!NOTE]
+>
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle aus externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
 
 ### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
 
@@ -144,7 +152,7 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ## Leitlinien beim Entscheidungs-Management {#decision-management}
 
-### Leistungsgarantien {#performance-guardrails}
+### Performance-Garantien {#performance-guardrails}
 
 Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs-Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
 

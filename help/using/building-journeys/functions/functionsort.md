@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, function, expression, Journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 97%
+source-wordcount: '144'
+ht-degree: 90%
 
 ---
 
 # sort {#sort}
 
 Sortiert eine Liste von Werten oder Objekten in ihrer natürlichen Reihenfolge.
-
->[!NOTE]
->
->Wenn die Zielliste ein listObject ist, kann diese Funktion nur in benutzerdefinierten Aktionsausdrücken verwendet werden.
 
 ## Kategorie
 
@@ -81,4 +77,8 @@ Gibt `["A","B","C"]` zurück.
 `sort([1, 3, 2], false)`
 
 Gibt `[3, 2, 1]` zurück.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Gibt das listObject, geordnet nach SKU-Attribut (aufsteigende Reihenfolge), zurück
 

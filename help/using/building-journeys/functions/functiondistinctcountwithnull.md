@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCountWithNull, Funktion, Ausdruck, Journey
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '57'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 Zählt die Anzahl verschiedener Werte einschließlich der Nullwerte.
 
->[!NOTE]
->
->Wenn die Zielliste ein listObject ist, kann diese Funktion nur in benutzerdefinierten Aktionsausdrücken verwendet werden.
+Beachten Sie, dass der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 ## Kategorie
 
@@ -34,14 +32,7 @@ Aggregation
 
 | Parameter | Typ |
 |-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Signatur und zurückgegebener Typ
 

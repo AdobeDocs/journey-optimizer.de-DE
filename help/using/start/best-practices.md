@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 100%
+source-wordcount: '982'
+ht-degree: 95%
 
 ---
 
@@ -65,3 +65,5 @@ Es gibt eine Reihe bewährter Methoden, die Sie anwenden können, um innerhalb d
 * Wenn dieselben Bedingungen über mehrere Journeys hinweg wiederholt werden (Einverständnisprüfungen, Unterdrückungen), sollten Sie erwägen, sie als Teil der Segmentdefinition zu verschieben. Wenn Sie beispielsweise in mehreren Journeys die Bedingung haben, dass „E-Mail-Adresse ist nicht leer“ überprüft werden soll, sollten Sie diese Bedingung als Teil der Segmentdefinition einbeziehen.
 * Wenn Ihre Journey mehrere Bedingungen hat, die die Zielgruppe aufteilen, sollten Sie, um die Zahlen bei jedem Schritt zu sehen, Customer Journey Analytics oder eine andere Reporting-Lösung in Erwägung ziehen, die für die Analyse besser geeignet ist.
 * Wenn Sie sich der Höchstgrenze für Knoten auf der Arbeitsfläche nähern, sollten Sie die Konsolidierung von Aktionen mit dynamischen Parametern oder Inhalten erwägen, um den richtigen Inhalt anstelle expliziter Knoten bereitzustellen.
+
+* Wenn Sie eine **Audience lesen** Journey mit Batch-Segment (A) und wenn Sie innerhalb der Journey in Audience Streaming Segment (B) verwenden, um auszuschließen (d. h. A-B durchführen), sollten Sie erwägen, diese Logik in die Segmentierungslogik zu verschieben und den Ausschluss als Teil der Segmentierungslogik selbst zu verwenden.

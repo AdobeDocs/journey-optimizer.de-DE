@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 81%
 
 ---
 
@@ -79,13 +79,27 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
    >
    >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** verfügbar.
 
-1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl von Nachrichten, die monatlich an ein einzelnes Benutzerprofil gesendet werden kann.
+1. Wählen Sie einen Zeitraum für die Anwendung der Begrenzung aus.
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   Die Begrenzung der Häufigkeit basiert auf dem ausgewählten Kalenderzeitraum. Er wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
+
+   Der Zähler läuft für jeden Zeitraum wie folgt ab:
+
+   * **[!UICONTROL Täglich]**: Die Frequenzlimitierung gilt für den Tag bis 23.:59:59 UTC und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+
+   * **[!UICONTROL Wöchentlich]**: Die Frequenzlimitierung gilt bis Samstag, 23.:59:59 UTC dieser Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+
+   * **[!UICONTROL Monatlich]**: Die Frequenzlimitierung gilt bis zum letzten Tag des Monats bei 23:59:59 UTC. Beispielsweise beträgt die monatliche Ablauffrist für den 31. Januar 23.:59:59 UTC.
 
    >[!NOTE]
    >
-   >Die Häufigkeitsbegrenzung basiert auf einem monatlichen Kalenderzeitraum. Sie wird zu Beginn jedes Monats zurückgesetzt.
+   >Wenn Sie [Stapelsegmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} wird empfohlen. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl von Nachrichten, die an ein einzelnes Benutzerprofil jeden Monat, jede Woche oder jeden Tag gesendet werden können - entsprechend Ihrer obigen Auswahl.
+
+   ![](assets/message-rules-capping.png)
 
 1. Wählen Sie den Kanal aus, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]** oder **[!UICONTROL Push-Benachrichtigung]**.
 
@@ -97,7 +111,7 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
 1. Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
 
-   Legen Sie beispielsweise die Begrenzung auf 15 fest und wählen Sie dann den E-Mail- und Push-Kanal aus. Wenn ein Profil bereits 10 Marketing-E-Mails und 5 Marketing-Push-Benachrichtigungen erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder Push-Benachrichtigung ausgeschlossen.
+   Legen Sie beispielsweise die Begrenzung auf 15 fest und wählen Sie dann den E-Mail- und Push-Kanal aus. Wenn ein Profil im ausgewählten Zeitraum bereits 10 Marketing-E-Mails und 5 Marketing-Push-Benachrichtigungen erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder Push-Benachrichtigung ausgeschlossen.
 
 1. Klicken Sie auf **[!UICONTROL Als Entwurf speichern]**, um die Regelerstellung zu bestätigen. Ihre Nachricht wird der Regelliste mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 

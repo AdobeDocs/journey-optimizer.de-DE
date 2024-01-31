@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -36,6 +36,11 @@ In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfa
 Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein bestimmtes Format erwartet wird (Beispiel: Zeichenfolge, Dezimalwert usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie in diesem [Anwendungsfall](../building-journeys/collections.md).
 
 ## Best Practices{#custom-action-enhancements-best-practices}
+
+Stellen Sie bei der Auswahl eines Endpunkts für das Targeting mithilfe einer benutzerdefinierten Aktion sicher, dass:
+
+* Dieser Endpunkt kann mithilfe von Konfigurationen aus dem Journey-Durchsatz unterstützen. [Einschränkungs-API](../configuration/throttling.md) oder [Capping-API](../configuration/capping.md) , um sie zu begrenzen. Seien Sie vorsichtig, wenn eine Einschränkungskonfiguration nicht unter 200 TPS liegen darf. Jeder Zielpunkt muss mindestens 200 TPS unterstützen.
+* Dieser Endpunkt muss eine so niedrige Antwortzeit wie möglich haben. Abhängig von Ihrem erwarteten Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
 
 Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen über eine Minute festgelegt. Darüber hinaus wird die Standardbegrenzung pro Host und Sandbox angewendet. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B. `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host adobe.com. „Endpunkt1“ und „Endpunkt2“ verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt diesen Wert erreicht, wirkt sich dies auch auf den anderen Endpunkt aus.
 

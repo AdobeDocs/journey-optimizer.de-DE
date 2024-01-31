@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 96%
+source-wordcount: '1266'
+ht-degree: 82%
 
 ---
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
    ![](assets/sms_7.png)
 
-   * Für **[!DNL Sinch]**:
+   * +++ Für **[!DNL Sinch]**
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
@@ -77,15 +77,24 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
       * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
+      * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **[!UICONTROL Opt-out-Nachricht]**.
+
       * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-   * Für **[!DNL Sinch MMS]**:
+      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+
+      * **[!UICONTROL Anmeldung mit zweifacher Bestätigung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Anmeldung mit zweifacher Bestätigung gesendet wird.
++++
+
+   * +++ Für **[!DNL Sinch MMS]**
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
       * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü „Konversations-API“ können Sie Ihre Anmeldedaten im App-Menü finden.  Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * Für **[!DNL Twilio]**:
++++
+
+   * +++ Für **[!DNL Twilio]**
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
@@ -93,12 +102,26 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
       * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in der [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * Für **[!DNL Infobip]**:
++++
+
+   * +++ Für **[!DNL Infobip]**
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
       * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+
+      * **[!UICONTROL Anmeldung mit zweifacher Bestätigung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double Opt-in-Bestätigung gesendet wird.
+
+      * **[!UICONTROL Prinzipalentitäts-ID]**: Geben Sie Ihre zugewiesene DLT-Prinzipal-Entitäts-ID ein.
+
+      * **[!UICONTROL Inhaltsvorlagen-ID]**: Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein.
+
+      * **[!UICONTROL Gültigkeitszeitraum]**: Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden an. Falls Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden.
+
+      * **[!UICONTROL Callback-Daten]**: Geben Sie die zusätzlichen Client-Daten ein, die an die Benachrichtigungs-URL gesendet werden.
++++
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 

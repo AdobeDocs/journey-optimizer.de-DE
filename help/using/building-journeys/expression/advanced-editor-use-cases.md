@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
@@ -105,7 +105,7 @@ Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das 
 Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot; ausgelöst wurden:
 
 ```json
-        @{GeofenceEntry
+        @event{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
@@ -117,7 +117,7 @@ Erklärung: Dies ist ein strikter Zeichenfolgenvergleich (Groß-/Kleinschreibung
 Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den folgenden Ausdruck im erweiterten Modus:
 
 ```json
-        equalIgnoreCase(@{GeofenceEntry
+        equalIgnoreCase(@event{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
@@ -130,13 +130,13 @@ Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionsperso
 
 ```json
 substr(
-   @{MobileAppLaunch
+   @event{MobileAppLaunch
    ._myorganization
    .identification
    .crmid},
    1, 
    lastIndexOf(
-     @{MobileAppLaunch
+     @event{MobileAppLaunch
      ._myorganization
      .identification
      .crmid},

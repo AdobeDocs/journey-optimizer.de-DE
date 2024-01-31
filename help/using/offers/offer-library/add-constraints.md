@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 100%
+source-wordcount: '2424'
+ht-degree: 99%
 
 ---
 
@@ -258,9 +258,12 @@ Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Beg
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >Das Zurücksetzen erfolgt um 12 Uhr UTC an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats. Der erste Tag der Woche ist der Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
+>
+>Der Frequenzlimitierungszähler wird aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar.
 
 Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie **[!UICONTROL Wöchentlich]** aus der entsprechenden Dropdown-Liste und geben Sie **2** in das andere Feld ein. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
 

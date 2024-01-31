@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 59%
 
 ---
 
@@ -20,23 +20,27 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
+>[!TAB Die Januar-Version ist live!]
+
+Entdecken Sie neue Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.1.
+
+[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB Obligatorische DMARC-Aktualisierung]
 
 Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
 
 [![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Sandbox-Werkzeuge]
+>[!TAB Anwendungsbeispiele für Playbooks]
 
-Mit Sandbox-Werkzeugen können Sie Objekte über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
+Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um gängige Anwendungsfälle zu behandeln, die Sie mit Adobe Experience Platform und Adobe Journey Optimiser durchführen können.
 
-[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journey, Nachrichten, Schemas oder Segmente, und diese für eine schnellere Wertschöpfungszeit an Ihr Schema anpassen.
 
->[!TAB SMS-MMS]
+![animiertes Bild, das Nutzungsszenario-Playbooks zeigt](using/rn/assets/do-not-localize/playbooks.gif)
 
-Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.
-
-[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

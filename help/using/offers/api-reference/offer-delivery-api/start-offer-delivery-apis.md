@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 92%
 
 ---
 
@@ -121,6 +121,10 @@ Beim Übermitteln von Kontextdaten mit einer Edge Decisioning-API-Anfrage werden
 >[!NOTE]
 >
 >Damit Kontextdaten gespeichert werden können, muss ein dediziertes XDM-Schema konfiguriert sein.
+
+**Aktualisierung des Frequenzlimitierungszählers**
+
+Wenn für einige Ihrer Angebote die Frequenzbegrenzung aktiviert wurde, um zu definieren, wie oft ihre Begrenzungsanzahl zurückgesetzt wird, wird der Zähler aktualisiert und steht in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API zur Verfügung. [Erfahren Sie, wie Sie einem Angebot Begrenzungen hinzufügen.](../../offer-library/add-constraints.md)
 
 ## Funktionen der Decisioning-API {#decisioning}
 

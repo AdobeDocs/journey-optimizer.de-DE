@@ -8,24 +8,40 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
 workflow-type: tm+mt
-source-wordcount: '4295'
-ht-degree: 98%
+source-wordcount: '4574'
+ht-degree: 93%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
-Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokumentation.
 
 ## Januar 2024 {#jan-2024}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Januar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein Schutzschild über die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout) detailliert beschrieben.
 * Die [Dokumentations-Startseite](../../ajo-home.md) von Journey Optimizer wurde neu gestaltet.
 * Recommendations zur Aktivität Profile aktualisieren wurde hinzugefügt - [Weitere Informationen](../building-journeys/update-profiles.md)
 * Es wurden Informationen zum Verhalten von Timeouts bei Ereignisaktivitäten in Journey hinzugefügt. Wenn während des angegebenen Timeout-Zeitraums kein Ereignis empfangen wird, setzen Einzelpersonen die Journey fort, wenn kein Timeout-Pfad definiert ist. [Weitere Informationen](../building-journeys/general-events.md#events-specific-time)
+* Die Voraussetzungen für die Konfiguration von In-App-Kanälen wurden mit einem Hinweis zur Verwendung einer benutzerdefinierten Zusammenführungsrichtlinie für Datensatzpräferenzen aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
+* Es wurden weitere Details zum Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort hinzugefügt. [Weitere Informationen](../action/action-response.md#exp-syntax).
+* Ein Link zum [Schema-Wörterbuch für Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) wurde der Startseite hinzugefügt.
+* Ein veralteter Verweis auf die AJO Message-Ressource wurde aus der Liste der im Auditprotokoll verfügbaren Ressourcen entfernt. Wenn eine Aktualisierung einer Nachricht in einer Journey durchgeführt wird, wird ein **Journey** -Protokoll erstellt. [Weitere Informationen](../privacy/audit-logs.md)
+* Zusätzliche Empfehlungen zur Verwendung der **Audience lesen** -Aktivität. [Weitere Informationen](../building-journeys/read-audience.md#must-read)
+* Die Seite Erste Schritte mit Adobe Experience Platform-Zielgruppen wurde mit einer Liste von Methoden zur Zielgruppenerstellung verbessert. [Weitere Informationen](../audience/about-audiences.md)
+* Bei der Auswahl eines Endpunkts für das Targeting mithilfe einer benutzerdefinierten Aktion wurden Best Practices hinzugefügt. [Weitere Informationen](../action/about-custom-action-configuration.md)
+* Es wurde ein Hinweis hinzugefügt, der Benutzer darauf hinweist, dass Ereignisse nicht mithilfe einer API aus externen Systemen ausgelöst werden können. [Weitere Informationen](../building-journeys/testing-the-journey.md#important-notes)
+* Informationen über **currentActionField** zur Liste der [Sammlungsverwaltungsfunktionen](../building-journeys/expression/collection-management-functions.md). Ein Ausdruck-Beispiel, das die Funktion nutzt, wurde im [API-Aufrufantworten in benutzerdefinierten Aktionen verwenden](../action/action-response.md) Seite.
+* Aktualisieren Sie das benutzerdefinierte Authentifizierungsdokument bezüglich der Aufbewahrungsfrist im Cache. [Mehr dazu] (../datasource/external-data-sources.md)
+* Unterstützung `<listObject>` wurde in mehreren Funktionen geändert.
+* Aktualisieren Sie die **duration** -Parameter in der `toString` -Funktion. [Weitere Informationen](../building-journeys/functions/functiontostring.md)
+* Für einige Anwendungsfälle externer Datenquellen wird die Verwendung benutzerdefinierter Aktionen empfohlen.
+* Die Syntax für Ereignisfelder wurde aktualisiert. Die folgende Syntax wird nicht mehr unterstützt `@(my_event.myfield}` und ersetzt durch `@event{my_event.myfield}`. [Weitere Informationen](../building-journeys/expression/field-references.md)
+
 
 ## November 2023 {#nov-2023}
 

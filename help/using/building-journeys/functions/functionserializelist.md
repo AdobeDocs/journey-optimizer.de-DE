@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, Funktion, Ausdruck, Journey
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 39%
 
 ---
 
 # serializeList {#serializeList}
 
-Konvertiert die im ersten Parameter angegebene Liste (beliebiger Typ) in eine Zeichenfolge. Der zweite Parameter stellt das zu verwendende Trennzeichen dar. Der dritte Parameter ist ein boolescher Wert, der angibt, ob die einzelnen Elemente des Ausdrucks Anführungszeichen umfassen sollen.
+Konvertiert eine angegebene Liste (alle Typen außer listObject) in eine Zeichenfolge.
 
 ## Kategorie
 
@@ -28,19 +28,11 @@ Liste
 
 ## Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Zeichenfolge | Zeichenfolge |
-| Boolesch | Boolesch |
-| DateTimeOnly | DateTimeOnly |
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listPoint |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Parameter | Typ | Beschreibung |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste zur Konvertierung in eine Zeichenfolge. |
+| Trennzeichen | Zeichenfolge | Trennzeichen zwischen den einzelnen Listenelementen in der Ausgabestruktur. |
+| addQuotes | boolean | Dieser Parameter gibt an, ob jedes Element in der Ausgabezeichenfolge Anführungszeichen (true) oder nicht (false) enthalten soll. |
 
 ## Signatur und zurückgegebener Typ
 
@@ -59,8 +51,6 @@ Liste
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Gibt eine Zeichenfolge zurück.
 

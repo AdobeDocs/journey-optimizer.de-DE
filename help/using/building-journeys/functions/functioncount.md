@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: count, Funktion, Ausdruck, Journey
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '90'
+ht-degree: 62%
 
 ---
 
@@ -26,18 +26,13 @@ Aggregation
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Parameter | Typ | Beschreibung |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. Ein listObject darf kein null -Objekt enthalten. |
 
 ## Signaturen und zurückgegebener Typ
 
@@ -50,3 +45,7 @@ Gibt eine Ganzzahl zurück.
 `count([10,2,10,null])`
 
 Gibt 3 zurück.
+
+`count(@event{my_event.productListItems})`
+
+Gibt die Anzahl der Objekte im angegebenen Array von Objekten zurück (listObject-Typ). Bemerkung: Ein listObject darf kein null -Objekt enthalten

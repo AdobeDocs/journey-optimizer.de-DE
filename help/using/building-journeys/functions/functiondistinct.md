@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinct, function, expression, Journey
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '155'
 ht-degree: 97%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 97%
 # distinct {#distinct}
 
 Gibt die unterschiedlichen Werte oder Objekte einer angegebenen Liste zurück. Einträge mit Null werden ignoriert.
-
->[!NOTE]
->
->Wenn die Zielliste ein listObject ist, kann diese Funktion nur in benutzerdefinierten Aktionsausdrücken verwendet werden.
 
 ## Kategorie
 

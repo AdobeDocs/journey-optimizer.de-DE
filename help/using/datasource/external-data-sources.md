@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1489'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen h
 >[!NOTE]
 >
 >Schutzmechanismen bei der Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
+
+>[!NOTE]
+>
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle aus externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel, einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 
@@ -122,9 +126,12 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
 1. Rufen Sie den Endpunkt auf, um das Zugriffstoken zu generieren.
 1. Rufen Sie die REST-API auf, indem Sie das Zugriffstoken ordnungsgemäß einfügen.
 
-Diese Authentifizierung besteht aus zwei Teilen.
 
-Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken zu generieren:
+>[!NOTE]
+>
+>**Diese Authentifizierung besteht aus zwei Teilen.**
+
+### Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken zu generieren
 
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
@@ -133,7 +140,7 @@ Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken z
    * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel-Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
    * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
-Die Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt werden muss:
+### Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt werden muss
 
 * authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
@@ -150,8 +157,6 @@ Das Format dieser Authentifizierung ist:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ Das Format dieser Authentifizierung ist:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

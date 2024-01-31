@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 5%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
@@ -45,9 +45,8 @@ oder
 oder
    * Richten Sie DMARC auf Ihren zugewiesenen Subdomains ein **im[!DNL Journey Optimizer]** Konfigurationsoberfläche. [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-     Mit der CNAME-Zuweisung ist jedoch auch ein Eintrag in Ihrer Hosting-Lösung erforderlich. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die Aktualisierung so bald wie möglich durchführen kann. [!DNL Journey Optimizer] ist verfügbar (am 30. Januar). [Weitere Informationen](dmarc-record.md#implement-dmarc)
+  Mit der CNAME-Zuweisung ist jedoch auch ein Eintrag in Ihrer Hosting-Lösung erforderlich. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die unter [diesem Abschnitt](dmarc-record.md#implement-dmarc).
 
-**Ab dem 30. Januar steht Ihnen eine Self-Service-Oberfläche für die DMARC-Implementierung zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](dmarc-record.md#implement-dmarc).**.
 
 Die neuesten Zeitpläne, die von Google und Yahoo gemeinsam genutzt werden, lauten wie folgt:
 

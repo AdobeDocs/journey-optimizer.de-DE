@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: filtern, Funktion, Ausdruck, Journey
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 100%
 # filter{#filter}
 
 Gibt ein listObject mit Objekten zurück, deren Schlüsselattribut einem der angegebenen Schlüsselwerte entspricht.
-
->[!NOTE]
->
->Wenn die Zielliste ein listObject ist, kann diese Funktion nur in benutzerdefinierten Aktionsausdrücken verwendet werden.
 
 ## Kategorie
 
@@ -82,7 +78,7 @@ Sie können den folgenden Ausdruck verwenden:
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -155,9 +155,7 @@ Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../d
 
 >[!NOTE]
 >
->Doppelte Zeilen werden automatisch entfernt.
->
->Wenn die Anzahl der Datensätze (d. h. Zeilen) für eine Datei mit Profildaten das Maximum überschreitet, wird automatisch eine weitere Datei für die verbleibenden Datensätze erstellt.
+>Duplizierte Zeilen, bei denen alle Werte in der Zeile identisch sind, werden automatisch aus der Datei entfernt.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

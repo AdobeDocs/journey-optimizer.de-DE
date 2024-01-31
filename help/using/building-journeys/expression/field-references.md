@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
@@ -29,8 +29,8 @@ Wenn Ihr Feld zum Beispiel folgendermaßen lautet: _3h_: _#{OpenWeather.weatherD
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id}
+@event{<event name>.<XDM path to the field>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
@@ -47,8 +47,8 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Sy
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+@event{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
@@ -56,7 +56,7 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Sy
 
 >[!NOTE]
 >
->Der Feldtyp und der Standardwert müssen übereinstimmen. Beispiel: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge ist.
+>Der Feldtyp und der Standardwert müssen übereinstimmen. Beispiel: `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge sein sollte.
 
 Beispiele:
 
@@ -67,9 +67,9 @@ Beispiele:
 }
  
 expression example:
-- @{OrderEvent.orderId}                                    -> "12345"
-- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
-- @{OrderEvent.productId}                                  -> null
+- @event{OrderEvent.orderId}                                    -> "12345"
+- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId}                                  -> null
  
  
 // for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
@@ -104,7 +104,7 @@ Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `a
 Beispiel:
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
 ## Verweis auf ein in einer Zuordnung definiertes Feld
@@ -114,10 +114,10 @@ Beispiel:
 Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise verwendet, wenn der Schlüssel eines Ereignisses entsprechend dem ausgewählten Namespace definiert wird. Weitere Informationen finden Sie auf [dieser Seite](../../event/about-creating.md#select-the-namespace).
 
 ```json
-@{MyEvent.identityMap.entry('Email').first().id}
+@event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Weitere Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
+In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel &quot;E-Mail&quot;des Felds &quot;IdentityMap&quot;eines Ereignisses. Der Eintrag &#39;Email&#39; ist eine Kollektion, aus der wir die &#39;id&#39; im ersten Element mit &#39;first()&#39; nehmen. Weitere Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
 ### `firstEntryKey`-Funktion
 
@@ -163,6 +163,6 @@ Verwenden Sie die folgende Syntax:
 Beispiel:
 
 ```json
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+#{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
+#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
