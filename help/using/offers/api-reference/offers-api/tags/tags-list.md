@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 85%
 
 Mit Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Sammlungsqualifizierer „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek nutzen, um alle Angebote mit diesem Sammlungsqualifizierer einfach zu finden.
 
-Sammlungsbezeichner können auch verwendet werden, um Angebote in Kollektionen zu gruppieren.
+Sammlungsqualifizierer können auch dazu dienen, Angebote in Sammlungen zu gruppieren.
 
-Sie können eine Liste aller Sammlungsbezeichner in einem Container anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliothek-API richten.
+Sie können eine Liste aller Sammlungsqualifizierer in einem Container anzeigen, indem Sie eine einzelne GET-Anfrage an die Angebotsbibliotheks-API durchführen.
 
 **API-Format**
 
