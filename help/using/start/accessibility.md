@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
     <td>E</td>
   </tr>
   <tr>
-    <td>Trigger eines Ereignisses in einer zielgruppenbasierten Journey, für das die Option **[!UICONTROL Einfaches Profil gleichzeitig]** aktiviert ist</td>
+    <td>Auslösen eines Ereignisses in einer zielgruppenbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist</td>
     <td>P</td>
   </tr>
   <tr>
