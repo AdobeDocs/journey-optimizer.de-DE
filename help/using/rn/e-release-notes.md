@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert.
 
 * **Feldergruppen** - Es wurde ein Problem behoben, durch das Feldergruppen in bestimmten Fällen blockiert wurden, um gespeichert zu werden.
+
+* **Ausdruckseditor** - Der listObject -Datentyp wird jetzt in allen Ausdrücken und in zusätzlichen Funktionen unterstützt. [Weitere Infos](../building-journeys/expression/functions.md)
 
 **Häufigkeitsregeln**
 
