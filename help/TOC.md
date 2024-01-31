@@ -536,7 +536,7 @@ ht-degree: 99%
       + [Erstellen von IP-Aufwärmkampagnen](using/configuration/ip-warmup-campaign.md)
       + [Erstellen eines IP-Aufwärmplans](using/configuration/ip-warmup-plan.md)
       + [Ausführen des IP-Aufwärmplans](using/configuration/ip-warmup-execution.md)
-      + [IP-Warmup-Programmdateien](using/configuration/ip-warmup-plan-files.md)
+      + [Dateien für den IP-Aufwärmplan](using/configuration/ip-warmup-plan-files.md)
    + Überwachen von E-Mail-Adressen {#monitor-reputation}
       + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
       + [Weitere Zustellversuche](using/configuration/retries.md)

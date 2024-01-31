@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 59%
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ Entdecken Sie neue Funktionen und Verbesserungen der Adobe Journey Optimizer-Ver
 
 >[!TAB Obligatorische DMARC-Aktualisierung]
 
-Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
+Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie ab dem **1. Februar 2024** einen **DMARC-Eintrag** für alle Domains haben, die Sie zum Senden von E-Mails an sie verwenden. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
 
 [![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -111,7 +111,7 @@ Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten en
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Produktbeschreibung</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Sicherheitsübersicht (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API-Referenz</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer-Schema-Wörterbuch</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Produktbeschreibung</a> – <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Sicherheitsübersicht (PDF)</a> – <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API-Referenz</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer-Schemawörterbuch</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: DMARC-Eintrag
-description: Erfahren Sie, wie Sie DMARC-Datensätze in Journey Optimizer festlegen.
+description: Erfahren Sie, wie Sie einen DMARC-Eintrag in Journey Optimizer festlegen
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: Subdomain, Domäne, E-Mail, Dmarc, Datensatz
+keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -32,9 +32,9 @@ DMARC bietet außerdem Berichte zu Nachrichten, die bei der Authentifizierung fe
 
 Um Probleme bei der Zustellbarkeit zu vermeiden und gleichzeitig die Kontrolle über E-Mails zu erhalten, die nicht authentifiziert werden können, [!DNL Journey Optimizer] wird in Kürze die DMARC-Technologie direkt in der Administrationsoberfläche unterstützen. [Weitere Informationen](#implement-dmarc)
 
-### Wie wirkt DMARC? {#how-dmarc-works}
+### Wie funktioniert DMARC? {#how-dmarc-works}
 
-SPF und DKIM werden beide verwendet, um eine E-Mail mit einer Domäne zu verknüpfen und um E-Mails zu authentifizieren. DMARC geht noch einen Schritt weiter und hilft, das Spoofing zu verhindern, indem die von DKIM und SPF überprüfte Domain abgeglichen wird.
+SPF und DKIM werden verwendet, um eine E-Mail mit einer Domain zu verknüpfen und gemeinsam E-Mails zu authentifizieren. DMARC geht noch einen Schritt weiter und hilft, das Spoofing zu verhindern, indem die von DKIM und SPF überprüfte Domain abgeglichen wird.
 
 >[!NOTE]
 >
@@ -53,9 +53,9 @@ Wenn beide oder eine dieser Authentifizierungsfehler auftritt, schlägt DMARC fe
 
 Wenn die DMARC-Authentifizierung einer E-Mail fehlschlägt, können Sie entscheiden, welche Aktion auf diese Nachricht angewendet wird. DMARC verfügt über drei Richtlinienoptionen:
 
-* Überwachen (p=none): Weist den Postfachanbieter/ISP an, alles zu tun, was er normalerweise für die Nachricht tun würde.
-* Quarantäne (p=quarantine): Weist den Postfachanbieter/ISP an, E-Mails zu senden, die DMARC nicht an den Spam- oder Junk-Ordner des Empfängers weitergeben.
-* Ablehnen (p=reject): Weist den Postfachanbieter/ISP an, E-Mails zu blockieren, die DMARC nicht übergeben und zu einem Absprung führen.
+* Überwachen (p=none): Weist den Postfachanbieter/ISP an, mit der Nachricht zu verfahren, wie er es normalerweise tun würde.
+* Quarantäne (p=quarantine): Weist den Postfachanbieter/ISP an, E-Mails zu senden, die DMARC nicht an den Spam- oder Junk-Ordner des Empfangenden weitergeben.
+* Ablehnen (p=reject): Weist den Postfachanbieter/ISP an, E-Mails zu blockieren, die DMARC nicht weiterleiten und zu einem Bounce führen.
 
 >[!NOTE]
 >
@@ -63,9 +63,9 @@ Wenn die DMARC-Authentifizierung einer E-Mail fehlschlägt, können Sie entschei
 
 ## Aktualisierung der DMARC-Anforderungen {#dmarc-update}
 
-Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung beginnt am **1. Februar 2024**.
+Zur Umsetzung der Best Practices in der Branche verlangen Google und Yahoo, dass Sie einen **DMARC-Eintrag** für jede Domain haben, die Sie zum Senden von E-Mails an sie verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**.
 
-Erfahren Sie mehr über die Anforderungen von Google und Yahoo in [diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Erfahren Sie mehr über die Anforderungen von Google und Yahoo [in diesem Abschnitt](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >

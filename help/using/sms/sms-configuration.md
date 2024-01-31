@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -40,13 +40,13 @@ Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen d
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="SMS-Provider mit Journey Optimizer konfigurieren"
->abstract="Adobe Journey Optimizer sendet Textnachrichten über SMS-Dienstleister. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
+>title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
+>abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
->title="MMS-Provider mit Journey Optimizer konfigurieren"
->abstract="Adobe Journey Optimizer sendet Medieninhalte über MMS-Dienstleister. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
+>title="Konfigurieren Ihres MMS-Anbieters mit Journey Optimizer"
+>abstract="Adobe Journey Optimizer versendet Medieninhalte über MMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
