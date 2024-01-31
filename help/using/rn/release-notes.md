@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### Neue Funktionen{#jan24-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Audience lesen**  - die **Audience lesen** -Aktivität basiert nun auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert.
+* **Audience lesen**  - die **Audience lesen** -Aktivität basiert nun auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert. [Weitere Informationen](../building-journeys/read-audience.md)
 
 * **Feldergruppen** - Diese Version behebt ein Problem, das die Speicherung von Feldergruppen in bestimmten Fällen verhinderte.
 
@@ -100,4 +99,4 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* **Frequenzlimitierung an Edge** - Der Frequenzlimitierungszähler wird jetzt aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar.
+* **Frequenzlimitierung an Edge** - Der Frequenzlimitierungszähler wird jetzt aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar. [Weitere Informationen](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
