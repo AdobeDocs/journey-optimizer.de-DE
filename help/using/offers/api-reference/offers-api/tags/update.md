@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
 # Aktualisieren eines Sammlungsqualifizierers {#update-collection-qualifier}
 
-Sie können einen Sammlungsbezeichner (früher als &quot;Tag&quot;bezeichnet) ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
+Sie können einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliotheks-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details des Sammlungsqualifizierers zurückgegeben, einschließlich der eindeutigen `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Sammlungsqualifizierer zurückgegeben, einschließlich der eindeutigen `id`.
 
 ```json
 {
