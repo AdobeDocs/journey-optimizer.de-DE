@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: cdcce470481393c821d1c5df95639602510a690a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,19 +33,19 @@ Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und
 
 Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
-* **Segmentdefinitionen**: Erstellen Sie eine neue Zielgruppendefinition mithilfe des Adobe Experience Platform Segmentation Service. [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
-* **CSV-Dateiimport**: Import einer Audience mithilfe einer CSV-Datei. Erfahren Sie, wie Sie Zielgruppen in Adobe Experience Platform importieren [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
-* **Zielgruppenzusammensetzung**: Erstellen Sie einen Arbeitsablauf für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss..) zu nutzen, um neue Zielgruppen zu erstellen. [Erste Schritte mit der Zielgruppen-Komposition](get-started-audience-orchestration.md)
+* **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
+* **CSV-Dateiimport**: Importiert eine Zielgruppe mithilfe einer CSV-Datei. In der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} erfahren Sie, wie Sie Zielgruppen in Adobe Experience Platform importieren.
+* **Zielgruppenkomposition**: Erstellt einen Kompositions-Workflow, der vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zusammenführt und verschiedene Aktivitäten (Teilen, Ausschließen …) zur Erstellung neuer Zielgruppen ausführt. [Erste Schritte mit der Zielgruppen-Komposition](get-started-audience-orchestration.md)
 
-## Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Sie können in Kampagnen und Journeys eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
 
 >[!NOTE]
 >
->Derzeit resultieren Zielgruppen aus [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) kann nur in Kampagnen als Ziel ausgewählt werden. Diese Funktion ist als private Beta-Version für Journey verfügbar.
+>Derzeit können Zielgruppen aus [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) nur in Kampagnen als Zielgruppe ausgewählt werden. Diese Funktion ist als private Betaversion für Journeys verfügbar.
 >
->Verwendung von Zielgruppen [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} in Kampagnen und Journey ist derzeit als private Beta-Version verfügbar.
+>Um Zielgruppen, die [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience),{target="_blank"} in Kampagnen und Journeys zu verwenden, ist derzeit eine private Beta-Version verfügbar.
 >
 >Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -113,20 +113,20 @@ Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden daue
 
 Die Streaming-Segmentierung ist nützlich für die Echtzeit-Personalisierung bei hochwertigen Anwendungsfällen. Es ist jedoch wichtig, die richtigen [Ereignisse](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} zu wählen, die als Segmentierungskriterien verwendet werden.
 
-Um eine optimale Leistung der Streaming-Segmentierung zu erreichen, sollten Sie daher die folgenden Ereignisse nicht verwenden:
+Um eine optimale Performance der Streaming-Segmentierung zu erreichen, sollten Sie daher die folgenden Ereignisse nicht verwenden:
 
 * Interaktionsereignis des Typs **Nachricht geöffnet**
 
-  Beim Aufbau Ihrer Zielgruppe ist die Verwendung des Interaktionsereignisses **Nachricht geöffnet** unzuverlässig geworden, da es kein tatsächlicher Indikator für die Nutzeraktivität ist und die Segmentierungsleistung negativ beeinflussen kann. Erfahren Sie in diesem [Blog-Beitrag von Adobe](https://blog.adobe.com/de/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers), warum dies so ist{target="_blank"}.
+  Beim Aufbau Ihrer Zielgruppe ist die Verwendung des Interaktionsereignisses **Nachricht geöffnet** unzuverlässig geworden, da es kein tatsächlicher Indikator für die Nutzeraktivität ist und die Segmentierungs-Performance negativ beeinflussen kann. Erfahren Sie in diesem [Blog-Beitrag von Adobe](https://blog.adobe.com/de/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers), warum dies so ist{target="_blank"}.
 
   Adobe empfiehlt daher, die Interaktionsereignisse des Typs **Nachricht geöffnet** nicht für die Streaming-Segmentierung zu verwenden. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten.
 
 * Feedback-Status-Ereignis **Nachricht gesendet**
 
-  Das Feedback-Ereignis **Nachricht gesendet** wird häufig zur Überprüfung der Häufigkeit oder Unterdrückung vor dem Versand einer E-Mail verwendet. Adobe empfiehlt, dieses zu vermeiden, da es die Leistung belastet und zu einer Beeinträchtigung des Systems führen kann.
+  Das Feedback-Ereignis **Nachricht gesendet** wird häufig zur Überprüfung der Häufigkeit oder Unterdrückung vor dem Versand einer E-Mail verwendet. Adobe empfiehlt, dieses zu vermeiden, da es die Performance belastet und zu einer Beeinträchtigung des Systems führen kann.
 
   Verwenden Sie daher für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Feedback-Ereignisse des Typs **Nachricht gesendet**. Beachten Sie, dass bald tägliche Obergrenzen für die Häufigkeit einzelner Profile möglich sein werden, die den bestehenden monatlichen Rhythmus für Geschäftsregeln ergänzen.
 
 >[!NOTE]
 >
->Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Leistungsprobleme verwenden.
+>Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Performance-Probleme verwenden.
