@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
    >[!NOTE]
    >
-   >Beachten Sie, dass die Felder im linken Bereich je nach Konfiguration der Schemas **XDM Individual Profile** und **XDM ExperienceEvent** für Ihr Unternehmen abweichen.  Weitere Informationen finden Sie in der [Dokumentation zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+   >Beachten Sie, dass die Felder im linken Bereich je nach Konfiguration der Schemata **XDM Individual Profile** und **XDM ExperienceEvent** für Ihr Unternehmen abweichen.  Weitere Informationen finden Sie in der [Dokumentation zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
