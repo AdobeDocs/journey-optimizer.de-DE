@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 41%
+source-wordcount: '2866'
+ht-degree: 42%
 
 ---
 
@@ -46,11 +46,21 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerka
 
 ### Journey {#journey-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance_live"
+>title="Journey"
+>abstract="XX"
+
 ![](assets/journey_live_performance.png)
 
 Mit **[!UICONTROL Journey-Performance]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
 ### Journey {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics_live"
+>title="Journey"
+>abstract="XX"
 
 ![](assets/journey_live_statistics.png)
 
@@ -67,6 +77,11 @@ Die **[!UICONTROL Journey-Statistiken]** Key Performance Indicators (KPIs) fungi
 
 ### Aktion, die in den letzten 24 Stunden ausgeführt wurde {#action-executed}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_executed_live"
+>title="Aktion, die in den letzten 24 Stunden ausgeführt wurde"
+>abstract="XX"
+
 ![](assets/journey_live_executed_24hours.png)
 
 Die **[!UICONTROL Aktion, die in den letzten 24 Stunden ausgeführt wurde]** Widget stellt die erfolgreichste Aktion dar, die beim Auslösen Ihrer Aktionen aufgetreten ist.
@@ -80,6 +95,11 @@ Die **[!UICONTROL Aktion, die in den letzten 24 Stunden ausgeführt wurde]** Wid
 +++
 
 ### Ausgeführte Aktionen und Fehler {#actions-errors}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_executed__errors_live"
+>title="Ausgeführte Aktionen und Fehler"
+>abstract="XX"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -95,11 +115,21 @@ Die **[!UICONTROL Ausgeführte Aktionen und Fehler]** Widget stellt die erfolgre
 
 ### Gründe für Aktionsfehler {#actions-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_errors_live"
+>title="Gründe für Aktionsfehler"
+>abstract="XX"
+
 ![](assets/journey_live_error_reasons.png)
 
 Die **[!UICONTROL Gründe für Aktionsfehler]** -Tabelle und -Diagramm bieten einen umfassenden Überblick über Fehler, die während der Ausführung Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind.
 
 ### Fehlertyp nach Aktionen {#error-type-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_type_live"
+>title="Fehlertyp nach Aktionen"
+>abstract="XX"
 
 ![](assets/journey_live_error_type.png)
 
@@ -107,17 +137,32 @@ Die **[!UICONTROL Fehlertyp nach Aktionen]** -Tabelle und -Diagramm bieten einen
 
 ### Ereignis, das in den letzten 24 Stunden ausgeführt wurde {#event-executed-24hours}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_24hours_live"
+>title="Ereignis, das in den letzten 24 Stunden ausgeführt wurde"
+>abstract="XX"
+
 ![](assets/journey_live_event_24hours.png)
 
 Die **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** -Widget ermöglicht es Ihnen zu identifizieren, welche Ihrer Ereignisse innerhalb der letzten 24 Stunden erfolgreich ausgeführt wurde.
 
-### Events {#events}
+### Ereignisse {#events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_live"
+>title="Ereignisse"
+>abstract="XX"
 
 ![](assets/journey_live_events.png)
 
 Die **[!UICONTROL Veranstaltungen]** -Widget können Sie anhand der Zusammenfassungsnummer, des Diagramms und der Tabelle anzeigen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde.
 
 ### Ereignisse nach Ursprung {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin_live"
+>title="Ereignisse nach Ursprung"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -127,7 +172,12 @@ Die **[!UICONTROL Ereignisse nach Ursprung]** Tabellen und Grafiken bieten einen
 
 Von Ihrer Journey **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Email]** im Tab werden die wichtigsten Informationen zu den auf Ihrer Journey gesendeten E-Mails aufgeführt.
 
-### E-Mail-Versandleistung {#email-sending-performance}
+### E-Mail – Versand-Performance {#email-sending-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance_live"
+>title="E-Mail – Versand-Performance"
+>abstract="XX"
 
 ![](assets/journey_live_email_performance.png)
 
@@ -146,6 +196,11 @@ Die **[!UICONTROL E-Mail - Versandleistung]** -Diagramm bietet einen umfassenden
 +++
 
 ### E-Mail – Statistiken {#email-stat}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_statistics_live"
+>title="E-Mail – Statistiken"
+>abstract="XX"
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -179,6 +234,11 @@ Die **[!UICONTROL E-Mail - Statistiken]** -Tabelle enthält eine umfassende Zusa
 
 ### E-Mail – Performance nach Datum {#email-perf-date}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_performance_bydate_live"
+>title="E-Mail – Performance nach Datum"
+>abstract="XX"
+
 ![](assets/journey_live_email_performance_date.png)
 
 Die **[!UICONTROL E-Mail - Leistung nach Datum]** -Widget bietet einen detaillierten Überblick über die wichtigsten Informationen zu Ihren E-Mails, der in einem Diagramm dargestellt wird und Einblicke in die Leistungstrends der letzten 24 Stunden bietet.
@@ -205,6 +265,11 @@ Die **[!UICONTROL E-Mail - Leistung nach Datum]** -Widget bietet einen detaillie
 
 ### E-Mail - Bounce-Kategorien und -Gründe {#email-bounce-categories}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_live"
+>title="E-Mail - Bounce-Kategorien und -Gründe"
+>abstract="XX"
+
 ![](assets/journey_live_email_bounce.png)
 
 Die **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** Widgets kompilieren die verfügbaren Daten zu Bounce Messages und bieten detaillierte Einblicke in die spezifischen Gründe und Kategorien hinter E-Mail-Bounces in den letzten 24 Stunden.
@@ -223,11 +288,21 @@ Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungsliste
 
 ### E-Mail – Fehlerursachen {#email-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_errors_live"
+>title="E-Mail – Fehlerursachen"
+>abstract="XX"
+
 ![](assets/journey_live_email_error_reasons.png)
 
 Die **[!UICONTROL Fehlerursachen]** Grafiken und Tabellen bieten einen Überblick über die spezifischen Fehler, die während des Versandvorgangs der letzten 24 Stunden aufgetreten sind. Sie enthalten wertvolle Informationen über Art und Auftreten von Fehlern.
 
 ### E-Mail – Ausgeschlossene Gründe {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_live"
+>title="E-Mail – Ausgeschlossene Gründe"
+>abstract="XX"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -237,11 +312,21 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 
 ### E-Mail – Beste Empfänger-Domain {#email-best-recipient}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_best_recipient_live"
+>title="E-Mail – Beste Empfänger-Domain"
+>abstract="XX"
+
 ![](assets/journey_live_email_best_recipient.png)
 
 Die **[!UICONTROL E-Mail - Beste Empfänger-Domain]** Diagramm und Tabelle bieten eine detaillierte Aufschlüsselung der Domänen, die Profile in den letzten 24 Stunden am häufigsten zum Öffnen Ihrer E-Mails verwenden. Dies bietet wertvolle Einblicke in das Profilverhalten und hilft Ihnen, die bevorzugten Plattformen zu verstehen.
 
 ### E-Mail - Angebote {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers_live"
+>title="E-Mail - Angebote"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -259,11 +344,65 @@ Die **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken i
 
 +++
 
+### E-Mail - Optimierung {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization_live"
+>title="E-Mail - Optimierung"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
+
+>[!NOTE]
+>
+>Die **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** -Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+
+Die **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** Widgets zeigen den Erfolg Ihrer E-Mails nach der Versandmethode an: optimiert oder normal.
+
++++ Erfahren Sie mehr über die Sendezeitoptimierung und optimierte und nicht optimierte Metriken
+
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der für die Journey gesendeten E-Mails.
+
+* **[!UICONTROL Öffnungen]**: Gibt an, wie oft Ihre E-Mails auf dem Journey geöffnet wurden.
+
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
+
++++
+
 ## Registerkarte „Push-Benachrichtigung“ {#push-live}
 
 Von Ihrer Journey **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Push-Benachrichtigung]** im Tab werden die wichtigsten Informationen bezüglich der auf Ihrer Journey gesendeten Push-Benachrichtigung aufgeführt.
 
+### Push-Benachrichtigung – Versand-Performance {#push-sending-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_performance_live"
+>title="Push-Benachrichtigung – Versand-Performance"
+>abstract="Der Graph „Push-Benachrichtigung – Versand-Performance“ fasst wichtige Daten zu Ihrer Push-Benachrichtigung zusammen, z. B. „Fehler“ oder „Zugestellte Nachrichten“ aus den letzten 24 Stunden."
+
+![](assets/campain_push_live_sending_performance.png)
+
+Die **[!UICONTROL Versandleistung von Push-Benachrichtigungen]** -Diagramm bietet einen umfassenden Überblick über Daten zu Push-Benachrichtigungen, die innerhalb der letzten 24 Stunden gesendet wurden. Er bietet Einblicke in wichtige Metriken wie zugestellt und Bounces, sodass eine detaillierte Prüfung des Versandprozesses für Push-Benachrichtigungen möglich ist.
+
++++ Weitere Informationen zu Push-Benachrichtigungen - Leistungsmetriken senden
+
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
+
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+
++++
+
 ### Push-Benachrichtigung – Statistiken {#push-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_statistics_live"
+>title="Push-Benachrichtigung – Statistiken"
+>abstract="XX"
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -288,11 +427,21 @@ Von Ihrer Journey **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Push-Benachri
 
 ### Push-Benachrichtigung – Aufschlüsselung nach Plattform {#push-breakdown}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_live"
+>title="Push-Benachrichtigung – Aufschlüsselung nach Plattform"
+>abstract="XX"
+
 ![](assets/journey_push_breakdown.png)
 
 Die **[!UICONTROL Push-Benachrichtigung - Verteilung nach Plattform]** Diagramme und Tabellen enthalten eine detaillierte Analyse des Erfolgs Ihrer Push-Benachrichtigungen und bieten Einblicke auf der Basis des Betriebssystems Ihres Profils. Diese Aufschlüsselung verbessert Ihr Verständnis der Leistung Ihrer Push-Benachrichtigungen auf verschiedenen Plattformen.
 
 ### Push-Benachrichtigung – Sendezusammenfassung {#push-sending-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary_live"
+>title="Push-Benachrichtigung – Sendezusammenfassung"
+>abstract="XX"
 
 ![](assets/journey_live_push_sending.png)
 
@@ -316,11 +465,21 @@ Die **[!UICONTROL Zusammenfassung für Push-Benachrichtigungen]** -Diagramm biet
 
 ### Push-Benachrichtigung – Fehlerursachen {#push-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons_live"
+>title="Push-Benachrichtigung – Fehlerursachen"
+>abstract="XX"
+
 ![](assets/journey_live_push_error.png)
 
 Die **[!UICONTROL Fehlerursachen]** Tabellen und Diagramme bieten Ihnen die Möglichkeit, spezifische Fehler zu identifizieren, die während des Versandvorgangs Ihrer Push-Benachrichtigungen aufgetreten sind. So erhalten Sie detaillierte Einblicke in alle in den letzten 24 Stunden aufgetretenen Probleme.
 
 ### Push-Benachrichtigung – Ausschlussursachen {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons_live"
+>title="Push-Benachrichtigung – Ausschlussursachen"
+>abstract="XX"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -331,6 +490,11 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 ## Registerkarte „SMS“ {#sms-live}
 
 ### SMS – Statistiken {#sms-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_statistics_live"
+>title="SMS – Statistiken"
+>abstract="XX"
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -356,6 +520,11 @@ Die **[!UICONTROL SMS - Statistiken]** bietet eine kurze Zusammenfassung wichtig
 
 ### SMS – Performance nach Datum {#sms-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_performance_live"
+>title="SMS – Performance nach Datum"
+>abstract="XX"
+
 ![](assets/journey_live_sms_performance.png)
 
 Die **[!UICONTROL SMS - Leistung nach Datum]** -Widget bietet einen detaillierten Überblick über die wichtigsten Informationen zu Ihren Nachrichten, die in einem Diagramm dargestellt werden und Einblicke in die Leistungstrends der letzten 24 Stunden bieten.
@@ -372,11 +541,21 @@ Die **[!UICONTROL SMS - Leistung nach Datum]** -Widget bietet einen detaillierte
 
 ### SMS – Bounce-Ursachen {#sms-bounces}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_live"
+>title="SMS – Bounce-Ursachen"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 Die **[!UICONTROL SMS - Bounces-Gründe]** Grafiken und Tabellen bieten einen umfassenden Überblick über Daten zu Bounce-SMS-Nachrichten und liefern wertvolle Einblicke in die spezifischen Ursachen von SMS-Bounces in den letzten 24 Stunden.
 
 ### SMS – Fehlerursachen {#sms-error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_live"
+>title="SMS – Fehlerursachen"
+>abstract="XX"
 
 ![](assets/journey_sms_error.png)
 
@@ -384,21 +563,33 @@ Die **[!UICONTROL SMS - Fehlerursachen]** Grafiken und Tabellen ermöglichen es 
 
 ### SMS – Ausschlussursachen {#sms-excluded}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_live"
+>title="SMS – Ausschlussursachen"
+>abstract="XX"
+
 ![](assets/journey_live_sms_excluded.png)
 
 Die **[!UICONTROL SMS - Ausgeschlossene Gründe]** Grafiken und Tabellen zeigen visuell die verschiedenen Faktoren an, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine SMS-Nachrichten erhalten können.
 
 Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der Ausschlussgründe.
 
-### SMS – Klicks nach Links {#sms-clicks}
+<!--
+### SMS - Clicks by links {#sms-clicks}
 
 ![](assets/journey_sms_clicks.png)
 
-Die **[!UICONTROL SMS - Klicks nach Links]** Widget bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit den in Ihren Nachrichten enthaltenen URLs und liefert wertvolle Informationen darüber, welche Links innerhalb der letzten 24 Stunden die meiste Interaktion hervorrufen.
+The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into your visitors' engagement with the URLs included in your messages, providing valuable information about which links attract the most interaction within the last 24 hours.
+-->
 
 ## Registerkarte „In-App“ {#in-app-live}
 
 ### In-App-Performance {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance_live"
+>title="In-App-Performance"
+>abstract="XX"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -422,6 +613,11 @@ Die **[!UICONTROL In-App-Leistung]** KPIs bieten wichtige Einblicke in die Inter
 
 ### In-App-Zusammenfassung {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary_live"
+>title="In-App-Zusammenfassung"
+>abstract="XX"
+
 ![](assets/journey_live_inapp_summary.png)
 
 Die **[!UICONTROL In-App-Zusammenfassung]** Das Diagramm zeigt den Verlauf Ihrer In-App-Impressionen und -Interaktionen in den letzten 24 Stunden und bietet einen umfassenden Überblick über die Leistung Ihrer In-App-Nachrichten.
@@ -443,6 +639,11 @@ Die **[!UICONTROL In-App-Zusammenfassung]** Das Diagramm zeigt den Verlauf Ihrer
 +++
 
 ### Interaktionen nach Typ {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions_live"
+>title="Interaktionen nach Typ"
+>abstract="XX"
 
 ![](assets/journey_live_inapp_interactions.png)
 
