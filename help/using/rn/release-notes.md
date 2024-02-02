@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 283983d98905b8e36d41823d1fae5d7a3c269ba3
+source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Journey Optimizer unterstützt jetzt die DMARC-Authentifizierungstechnologie.</p>
-<p>Ab dem 1. Februar 2024, Google und Yahoo! erfordert, dass Sie über einen DMARC-Datensatz für jede Domäne verfügen, mit der Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder delegieren.</p>
+<p>Ab dem 1. Februar 2024, Google und Yahoo! Sie benötigen einen DMARC-Datensatz für jede Domäne, mit der Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder delegieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/dmarc-record-update.md">ausführlichen Dokumentation</a>.</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
