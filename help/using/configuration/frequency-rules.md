@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
+source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 81%
+source-wordcount: '1137'
+ht-degree: 80%
 
 ---
 
@@ -174,14 +174,14 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 1. [](#create-new-rule)Erstellen Sie eine Regel mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
    * Wählen Sie die Kanäle „E-Mail“ und „Push“ aus.
-   * Legen Sie die Begrenzung auf 12 fest.
+   * Legen Sie die Begrenzung auf 12 Monate fest.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. Erstellen Sie eine zweite Regel namens *Begrenzung von Push-Marketing*, um die Anzahl der an einen Benutzer gesendeten Marketing-Push-Benachrichtigungen weiter einzuschränken:
 
    * Wählen Sie den Push-Kanal aus.
-   * Legen Sie die Begrenzung auf 4 fest.
+   * Legen Sie die Begrenzung auf 4 Monate fest.
 
    ![](assets/message-rules-ex-push-cap.png)
 
