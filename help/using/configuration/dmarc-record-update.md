@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
-source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 41%
+source-wordcount: '575'
+ht-degree: 36%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Erfahren Sie mehr über die obligatorische DMARC-Aktualisierung"
->abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo von Ihnen, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**.<br>Daher müssen Sie unbedingt für alle Subdomains, die Sie in Journey Optimizer an Adobe delegiert haben, einen DMARC-Eintrag einrichten."
+>abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**.<br>Daher müssen Sie unbedingt für alle Subdomains, die Sie in Journey Optimizer an Adobe delegiert haben, einen DMARC-Eintrag einrichten."
 
 Domain-based Message Authentication, Reporting and Conformance (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Inhaber ihre Domain vor nicht autorisierter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass böswillige Akteure E-Mails versenden, die behaupten, von Ihrer Domäne zu sein. Die Implementierung von DMARC verringert das Risiko, dass E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mail.
-
 
 Im Rahmen ihrer branchenüblichen Best Practices erzwingen Google und Yahoo! müssen beide **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung gilt ab **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -48,7 +47,7 @@ oder
   Mit der CNAME-Zuweisung ist jedoch auch ein Eintrag in Ihrer Hosting-Lösung erforderlich. Stellen Sie daher sicher, dass Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die unter [diesem Abschnitt](dmarc-record.md#implement-dmarc).
 
 
-Die aktuellen von Google und Yahoo veröffentlichten Zeitpläne lauten wie folgt:
+Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
 
 * Google:
 
@@ -58,7 +57,7 @@ Die aktuellen von Google und Yahoo veröffentlichten Zeitpläne lauten wie folgt
 
    * **1. Juni 2024** – Absenderinnen und Absender, die den Anforderungen nicht in vollem Umfang entsprechen, werden blockiert.
 
-* Yahoo hat keine genauen Daten angegeben, sagt aber aus, dass „die Einführung der Durchsetzung im Februar 2024 beginnen wird. Die Durchsetzung wird schrittweise eingeführt.“
+* Yahoo! hat keine genauen Daten angegeben, hat aber gesagt, &quot;die Einführung der Durchsetzung wird im Februar 2024 beginnen. Die Durchsetzung wird schrittweise eingeführt.“
 
 >[!NOTE]
 >
