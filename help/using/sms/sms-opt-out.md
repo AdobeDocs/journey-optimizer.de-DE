@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '471'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,18 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
 ## Video {#video-sms}
 
-Weiterführende Informationen über die Unterstützung nativer eingehender Keywords (START, STOP und UNSTOP) für SMS finden Sie in dem folgenden Video:
+* Das folgende Video zeigt, wie die Unterstützung von nativen eingehenden Keywords (START, STOP und UNSTOP) für SMS funktioniert.
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ Video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* Im folgenden Video erfahren Sie, wie Sie die Anmeldung mit zweifacher Bestätigung für SMS konfigurieren.
+
++++ Video
+
+  >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+
++++

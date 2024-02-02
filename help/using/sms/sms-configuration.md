@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 84%
 
 ---
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
       * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
 
       * **[!UICONTROL Anmeldung mit zweifacher Bestätigung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Anmeldung mit zweifacher Bestätigung gesendet wird.
 +++
