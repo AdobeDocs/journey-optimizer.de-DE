@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 
 Zu den Vorteilen zählen:
 
-* Verbesserte Kampagnenleistung durch Unterbreitung personalisierter Angebote über verschiedene Kanäle hinweg.
+* Verbesserte Kampagnen-Performance durch Unterbreitung personalisierter Angebote über verschiedene Kanäle hinweg.
 * Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen erstellen zu müssen, können Marketing-Teams Workflows optimieren, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
 * Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
@@ -106,10 +106,6 @@ Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Ents
 * **Darstellungen**: Eine Darstellung besteht aus Informationen, die von einem Kanal verwendet werden (z. B. Ort oder Sprache), um ein Angebot zu unterbreiten.
 
 ## Anleitungsvideos{#video}
-
->[!NOTE]
->
->Diese Videos erläutern den auf Adobe Experience Platform aufbauenden Offer Decisioning-Anwendungs-Service und beziehen sich nicht ausschließlich auf [!DNL Adobe Journey Optimizer]. Sie bieten aber allgemeine Informationen über die Verwendung des Entscheidungs-Managements mit [!DNL Journey Optimizer].
 
 ### Was ist Entscheidungs-Management? {#what-is-offer-decisioning}
 
