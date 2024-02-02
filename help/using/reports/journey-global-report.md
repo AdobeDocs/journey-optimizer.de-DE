@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 41%
+source-wordcount: '4368'
+ht-degree: 39%
 
 ---
 
@@ -49,7 +49,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Regi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="Journey-Performance"
->abstract="XX"
+>abstract="Mit dem Journey Performance-Widget können Sie den Pfad Ihrer Zielprofile visuell verfolgen, während sie durch Ihre Journey laufen."
 
 ![](assets/journey_performance.png)
 
@@ -60,7 +60,7 @@ Die **[!UICONTROL Journey-Performance]** -Widget ermöglicht es Ihnen, während 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="Journey-Statistiken"
->abstract="XX"
+>abstract="Die Journey Statistics Key Performance Indicators (KPIs) dienen als umfassendes Dashboard, das eine umfassende Analyse der wichtigsten Metriken im Zusammenhang mit Ihrer Journey ermöglicht."
 
 ![](assets/journey_statistics.png)
 
@@ -81,7 +81,7 @@ Die **[!UICONTROL Journey-Statistiken]** Key Performance Indicators (KPIs) diene
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="Aktionsleistung"
->abstract="XX"
+>abstract="Das Widget Aktionsleistung veranschaulicht die erfolgreichsten Aktionen, die beim Initiieren Ihrer Aktionen stattgefunden haben."
 
 ![](assets/journey_action_performance.png)
 
@@ -92,7 +92,7 @@ Die **[!UICONTROL Aktionsleistung]** Widget stellt die erfolgreichsten Aktionen 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="Top-Aktionen"
->abstract="XX"
+>abstract="Die Tabelle Top-Aktionen enthält wichtige Informationen zu Ihren Aktionen und bietet kurze Beobachtungen zur Häufigkeit und Wirksamkeit jeder Aktion."
 
 ![](assets/journey_top_actions.png)
 
@@ -111,40 +111,40 @@ Die **[!UICONTROL Top-Aktionen]** -Tabelle wichtige Daten zu Ihrer **[!UICONTROL
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="Gründe für Aktionsfehler"
->abstract="XX"
+>abstract="Die Tabelle mit den Ursachen für Aktionsfehler und das Diagramm enthalten eine ausführliche Zusammenfassung der bei der Ausführung Ihrer Aktionen aufgetretenen Fehler und einen umfassenden Überblick über möglicherweise aufgetretene Probleme."
 
 ![](assets/journey_action_error.png)
 
-Die **[!UICONTROL Gründe für Aktionsfehler]**  Tabellen und Grafiken bieten einen umfassenden Überblick über Fehler, die während der Ausführung Ihrer **[!UICONTROL Aktionen]**.
+Die **[!UICONTROL Gründe für Aktionsfehler]** Tabellen und Grafiken bieten einen umfassenden Überblick über Fehler, die während der Ausführung Ihrer **[!UICONTROL Aktionen]**.
 
 ### Ereignisse nach Ursprung {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="Ereignisse nach Ursprung"
->abstract="XX"
+>abstract="Die Tabelle Events by Origin und die Diagramme bieten einen Überblick über den erfolgreichen Empfang Ihrer Veranstaltungen. Diese visuellen Darstellungen ermöglichen es Ihnen, die tatsächlich erhaltenen Ereignisse genau zu identifizieren und wertvolle Einblicke in die Leistung und Wirkung der einzelnen Ereignisse innerhalb Ihrer Journey zu erhalten."
 
 ![](assets/journey_events_origin.png)
 
-Die **[!UICONTROL Ereignisse nach Ursprung]** Tabellen und Grafiken bieten einen detaillierten Überblick über den erfolgreichen Empfang Ihrer **[!UICONTROL Veranstaltungen]**. Durch diese visuellen Darstellungen können Sie genau erkennen, welche Ihrer **[!UICONTROL Veranstaltungen]** wurden effektiv empfangen und bieten wertvolle Einblicke in die Performance und Wirkung einzelner Veranstaltungen innerhalb Ihrer Journey.
+Die **[!UICONTROL Ereignisse nach Ursprung]** Tabellen und Grafiken bieten einen detaillierten Überblick über den erfolgreichen Empfang Ihrer **[!UICONTROL events]**. Durch diese visuellen Darstellungen können Sie genau erkennen, welche Ihrer **[!UICONTROL events]** wurden effektiv empfangen und bieten wertvolle Einblicke in die Performance und Wirkung einzelner Veranstaltungen innerhalb Ihrer Journey.
 
 ### Vom Ereignis empfangene Ereignisse {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="Vom Ereignis empfangene Ereignisse"
->abstract="XX"
+>abstract="Mit dem Ereignisdiagramm Erhalten von Ereignissen können Sie die spezifischen Ereignisse innerhalb Ihrer Journey identifizieren und analysieren, die effektiv ausgeführt wurden. So erhalten Sie wertvolle Einblicke in die Performance und Erfolgsraten einzelner Ereignisse."
 
 ![](assets/journey_event_received.png)
 
-Die **[!UICONTROL Vom Ereignis empfangene Ereignisse]** -Diagramm ermöglicht es Ihnen, die spezifischen **[!UICONTROL Ereignis]** innerhalb Ihrer Journey effektiv ausgeführt wurde, was wertvolle Einblicke in die Performance und Erfolgsraten einzelner Ereignisse bietet.
+Die **[!UICONTROL Vom Ereignis empfangene Ereignisse]** -Diagramm ermöglicht es Ihnen, die spezifischen **[!UICONTROL event]** innerhalb Ihrer Journey effektiv ausgeführt wurde, was wertvolle Einblicke in die Performance und Erfolgsraten einzelner Ereignisse bietet.
 
 ### Top-Ereignisse {#top-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="Top-Ereignisse"
->abstract="XX"
+>abstract="Die Tabelle Top-Ereignisse fasst wichtige Daten zu Ihren Ereignissen zusammen und bietet präzise Beobachtungen zur Häufigkeit und Leistung jedes einzelnen Ereignisses."
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ Die **[!UICONTROL Top-Ereignisse]** -Tabelle wichtige Daten zu Ihrer **[!UICONTR
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="Einverständnisrichtlinien"
->abstract="XX"
+>abstract="Die Tabelle &quot;Einwilligungsrichtlinien&quot;und das Diagramm zeigen die Anzahl der Profile an, die von den einzelnen Richtlinien in Ihren benutzerdefinierten Aktionen ausgeschlossen sind. Diese Präsentation bietet einen klaren Einblick in den Einfluss der einzelnen Zustimmungsrichtlinien auf Profilausschlüsse."
 
 ![](assets/journey_consent.png)
 
@@ -174,7 +174,7 @@ Von Ihrer Journey **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL Email]** 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
 >title="E-Mail - Versandstatistiken"
->abstract="XX"
+>abstract="Die Tabelle „E-Mail – Versandstatistik“ enthält wichtige Daten zu Ihrem E-Mail-Kanal, z. B. „Angesprochen“ oder „Zugestellt“."
 
 ![](assets/journey_email_statistics.png)
 
@@ -211,7 +211,7 @@ Die **[!UICONTROL Statistiken zum E-Mail-Versand]** bietet eine umfassende Zusam
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="E-Mail – Tracking-Statistik"
->abstract="XX"
+>abstract="Die Tabelle „E-Mail – Tracking-Statistik“ enthält Daten zur Profilaktivität für Ihre E-Mail."
 
 ![](assets/journey_email_tracking.png)
 
@@ -244,7 +244,7 @@ Die **[!UICONTROL E-Mail - Trackingstatistiken]** bietet eine detaillierte Über
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="E-Mail – Versand-Performance"
->abstract="XX"
+>abstract="Das Leistungsdiagramm E-Mail - Versand enthält umfassende Daten zu gesendeten E-Mails und bietet Einblicke in wichtige Metriken wie zugestellt und Bounces, sodass eine detaillierte Analyse des E-Mail-Versandprozesses möglich ist."
 
 ![](assets/journey_email_performance.png)
 
@@ -267,7 +267,7 @@ Die **[!UICONTROL E-Mail - Versandleistung]** -Diagramm bietet einen umfassenden
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="E-Mail - Bounce-Kategorien und -Gründe"
->abstract="XX"
+>abstract="Die Widgets E-Mail - Bounce-Kategorien und -Gründe aggregieren die Daten zu Bounce Messages und bieten tiefgründige Einblicke in die spezifischen Gründe und Kategorien, die zu E-Mail-Bounces beitragen"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -290,7 +290,7 @@ Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungsliste
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_error_reasons"
 >title="E-Mail – Fehlerursachen"
->abstract="XX"
+>abstract="Anhand der Graphen und der Tabelle „E-Mail – Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 ![](assets/journey_email_error.png)
 
@@ -301,7 +301,7 @@ Die **[!UICONTROL Fehlerursachen]** Grafiken und Tabellen bieten einen Überblic
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="E-Mail – Ausgeschlossene Gründe"
->abstract="XX"
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 ![](assets/journey_email_excluded.png)
 
@@ -314,11 +314,11 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="Von Domains gesendet und bereitgestellt"
->abstract="XX"
+>abstract="Die Tabelle Gesendet und zugestellt nach Domains liefert eine Aufschlüsselung der E-Mails, die nach Domains kategorisiert sind, und bietet umfassende Einblicke in die Gesamtleistung Ihrer E-Mail-Kommunikation."
 
 ![](assets/journey_email_sent_domains.png)
 
-Die  **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagramme enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domänenebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
+Die **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagramme enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domänenebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
 
 +++ Weitere Informationen zu den Metriken Gesendet und Von Domänen bereitgestellt
 
@@ -333,11 +333,11 @@ Die  **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diag
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="Aufrufe und Klicks nach Domains"
->abstract="XX"
+>abstract="Das Diagramm &quot;Öffnungen und Klicks nach Domänen&quot;und die Tabelle bieten eine detaillierte Aufschlüsselung auf Domänenebene, die einen umfassenden Überblick darüber bietet, wie Ihre Zielgruppe mit Ihren E-Mails interagiert."
 
 ![](assets/journey_email_open_domains.png)
 
-Die  **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle zeigen eine Aufschlüsselung der Interaktion Ihrer Profile mit Ihrer E-Mail auf Domänenebene, die wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt bietet.
+Die **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle zeigen eine Aufschlüsselung der Interaktion Ihrer Profile mit Ihrer E-Mail auf Domänenebene, die wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt bietet.
 
 +++ Weitere Informationen zu den Metriken &quot;Öffnungen und Klicks nach Domänen&quot;
 
@@ -352,11 +352,11 @@ Die  **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle z
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="Bounces und Fehler nach Domains"
->abstract="XX"
+>abstract="Das Diagramm und die Tabelle &quot;Bounces &amp; Fehler nach Domänen&quot;bieten eine granulare Aufschlüsselung auf Domänenebene und bieten Einblicke in spezifische Fehler, die beim E-Mail-Versand aufgetreten sind."
 
 ![](assets/journey_email_bounce_domains.png)
 
-Die  **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle bieten eine Aufschlüsselung der spezifischen Fehler, die während des Versandvorgangs auf Domänenebene aufgetreten sind, und enthalten eine detaillierte Analyse der aufgetretenen Probleme.
+Die **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle bieten eine Aufschlüsselung der spezifischen Fehler, die während des Versandvorgangs auf Domänenebene aufgetreten sind, und enthalten eine detaillierte Analyse der aufgetretenen Probleme.
 
 +++ Weitere Informationen zu den Metriken &quot;Absprünge und Fehler nach Domänen&quot;
 
@@ -371,18 +371,18 @@ Die  **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle biet
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="Bounces-Gründe nach Domänen"
->abstract="XX"
+>abstract="Die Absprunggründe nach Domänendiagramm und Tabelle bieten eine Aufschlüsselung auf Domänenebene, die umfassende Einblicke in temporäre und permanente Fehler bietet. Diese detaillierte Analyse liefert Ihnen wertvolle Informationen über die spezifischen Gründe für nicht zugestellte Nachrichten."
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
-Die  **[!UICONTROL Bounce-Gründe nach Domain]** Diagramme und Tabellen bieten eine Aufschlüsselung der Daten auf Domänenebene bezüglich temporärer und permanenter Fehler und bieten detaillierte Einblicke in die Ursachen für abgespeckte Nachrichten.
+Die **[!UICONTROL Bounce-Gründe nach Domain]** Diagramme und Tabellen bieten eine Aufschlüsselung der Daten auf Domänenebene bezüglich temporärer und permanenter Fehler und bieten detaillierte Einblicke in die Ursachen für abgespeckte Nachrichten.
 
 ### E-Mail – Beste URL {#email-top}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_top_url"
 >title="E-Mail – Beste URL"
->abstract="XX"
+>abstract="Der Graph und die Tabelle „E-Mail – Beste URL“ bieten einen umfassenden Überblick über die URLs in Ihrer E-Mail, die den höchsten Besucher-Traffic erhalten, sodass Sie die beliebtesten Links identifizieren können."
 
 ![](assets/journey_email_top.png)
 
@@ -393,7 +393,7 @@ Die **[!UICONTROL Email - Top-URL]** Diagramm und Tabelle bieten einen umfassend
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="E-Mail - Optimierung"
->abstract="XX"
+>abstract="Die Widgets Sendezeitoptimierung und Optimierte bzw. Nicht-optimierte Sendungen enthalten detaillierte Informationen zu Ihren Nachrichten und heben hervor, ob sie optimiert wurden oder nicht."
 
 ![](assets/journey_email_sto.png)
 
@@ -421,7 +421,7 @@ Die **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nich
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="E-Mail - Angebote"
->abstract="XX"
+>abstract="Die Widgets Angebotsstatistik und Angebote bieten umfassende Statistiken über die Leistung Ihrer Angebote, eine detaillierte Analyse ihrer Wirkung im Zeitverlauf und detaillierte Statistiken für ein tieferes Verständnis."
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Von Ihrer Journey **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL Push-Bena
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_statistics"
 >title="Push-Benachrichtigung – Sendestatistik"
->abstract="XX"
+>abstract="Die Tabelle „Push-Benachrichtigung – Sendestatistik“ fasst wesentliche Daten über Ihre Push-Benachrichtigungen zusammen, z. B. „Angesprochen“ oder „Zugestellte Nachrichten“."
 
 ![](assets/journey_push_sending.png)
 
@@ -493,7 +493,7 @@ Die **[!UICONTROL Push-Benachrichtigung - Versandstatistiken]** bietet eine kurz
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="Push-Benachrichtigung – Tracking-Statistik"
->abstract="XX"
+>abstract="Die Tracking-Statistik für Push-Benachrichtigungen bietet Daten zur Profilaktivität für Ihre Push-Benachrichtigung."
 
 Die **[!UICONTROL Push - Trackingstatistiken]** Widget bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Push-Benachrichtigungen verknüpft ist, und bietet wichtige Einblicke in die Interaktion und die Effektivität von Push-Benachrichtigungen.
 
@@ -512,7 +512,7 @@ Die **[!UICONTROL Push - Trackingstatistiken]** Widget bietet eine detaillierte 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary"
 >title="Push-Benachrichtigung – Sendezusammenfassung"
->abstract="XX"
+>abstract="Der Graph „Push-Benachrichtigung – Sendezusammenfassung“ zeigt die Daten an, die für gesendete Push-Benachrichtigungen verfügbar sind."
 
 ![](assets/journey_push_summary.png)
 
@@ -537,7 +537,7 @@ Die **[!UICONTROL Push-Benachrichtigung - Versandzusammenfassung]** -Diagramm bi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="Push-Benachrichtigung – Fehlerursachen"
->abstract="XX"
+>abstract="Anhand der Diagramme und Tabellen mit Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind"
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ Die **[!UICONTROL Fehlerursachen]** Tabellen und Diagramme bieten Ihnen die Mög
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="Push-Benachrichtigung – Ausschlussursachen"
->abstract="XX"
+>abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die den Empfang von Nachrichten durch aus der Zielgruppe ausgeschlossene Benutzerprofile verhindert haben."
 
 ![](assets/journey_push_excluded.png)
 
@@ -560,8 +560,8 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
->title="Push-Benachrichtigung - Aufschlüsselung nach Plattform"
->abstract="XX"
+>title="Push-Benachrichtigung – Aufschlüsselung nach Plattform"
+>abstract="Die Tabelle Push-Benachrichtigung - Aufschlüsselung nach Platform-Diagrammen und -Tabellen enthält eine Aufschlüsselung des Erfolgs Ihrer Push-Benachrichtigungen nach dem Betriebssystem des Profils."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -571,9 +571,9 @@ Die **[!UICONTROL Verteilung nach Plattform]** Diagramme und Tabellen enthalten 
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** -Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
 
-Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]**  Widgets zeigen die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht.
+Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** Widgets zeigen die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht.
 
 +++ Weitere Informationen zu Push-Benachrichtigungen - Optimierungsmetriken
 
@@ -596,7 +596,7 @@ Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeit
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="SMS – Sendestatistik"
->abstract="XX"
+>abstract="Die Tabelle SMS - Versandstatistiken enthält eine Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten, z. B. Zielgerichtete oder zugestellte Nachrichten."
 
 ![](assets/journey_sms_sending.png)
 
@@ -623,7 +623,7 @@ Die **[!UICONTROL SMS - Versandstatistiken]** bietet eine kurze Zusammenfassung 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="SMS - Trackingstatistiken"
->abstract="XX"
+>abstract="Das Widget SMS - Trackingstatistiken bietet einen umfassenden Überblick über die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihrer URL."
 
 ![](assets/journey_sms_tracking.png)
 
@@ -638,7 +638,7 @@ Die **[!UICONTROL SMS - Trackingstatistiken]** Widget bietet einen detaillierten
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="SMS – Performance nach Datum"
->abstract="XX"
+>abstract="Das Widget SMS - Leistung nach Datum bietet wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
 
 ![](assets/journey_sms_performance.png)
 
@@ -659,7 +659,7 @@ Die **[!UICONTROL SMS - Leistung nach Datum]** -Widget bietet einen detaillierte
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_reasons"
 >title="SMS – Bounce-Ursachen"
->abstract="XX"
+>abstract="Die Graphen und die Tabelle „Bounce-Gründe“ enthalten die verfügbaren Daten zu Bounce-Nachrichten."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -670,7 +670,7 @@ Die **[!UICONTROL Bounces-Gründe]** Grafiken und Tabellen bieten einen umfassen
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_reasons"
 >title="SMS – Fehlerursachen"
->abstract="XX"
+>abstract="Anhand der Graphen und der Tabelle „SMS – Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 ![](assets/journey_sms_error.png)
 
@@ -681,7 +681,7 @@ Die **[!UICONTROL Fehlerursachen]** Anhand von Diagrammen und Tabellen können S
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="SMS – Ausschlussursachen"
->abstract="XX"
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 ![](assets/journey_sms_excluded.png)
 
@@ -694,7 +694,7 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="SMS – Klicks nach Links"
->abstract="XX"
+>abstract="Das Widget SMS - Klicks nach Links bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit den URLs in Ihren Nachrichten."
 
 ![](assets/journey_sms_clicks.png)
 
@@ -709,11 +709,11 @@ Von Ihrer Journey **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL In-App]**
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="In-App-Performance"
->abstract="XX"
+>abstract="Die KPIs zur In-App-Performance bieten wichtige Einblicke in die Interaktion Ihrer Besuchenden mit In-App-Nachrichten."
 
 ![](assets/journey_inapp_performance.png)
 
-Die **[!UICONTROL In-App-Leistung]**  KPIs bieten wichtige Einblicke in die Interaktion Ihrer Profile mit In-App-Nachrichten und liefern wichtige Metriken, mit denen Sie die Effektivität und die Wirkung der in Ihrer Journey enthaltenen In-App-Nachrichten bewerten können.
+Die **[!UICONTROL In-App-Leistung]** KPIs bieten wichtige Einblicke in die Interaktion Ihrer Profile mit In-App-Nachrichten und liefern wichtige Metriken, mit denen Sie die Effektivität und die Wirkung der in Ihrer Journey enthaltenen In-App-Nachrichten bewerten können.
 
 +++ Erfahren Sie mehr über In-App - Leistung nach Datumsmetriken
 
@@ -737,7 +737,7 @@ Die **[!UICONTROL In-App-Leistung]**  KPIs bieten wichtige Einblicke in die Inte
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary"
 >title="In-App-Zusammenfassung"
->abstract="XX"
+>abstract="Der Graph „In-App – Zusammenfassung“ zeigt die Entwicklung Ihrer In-App-Impressions und -Interaktionen für den jeweiligen Zeitraum an."
 
 ![](assets/journey_inapp_summary.png)
 
@@ -748,7 +748,7 @@ Die **[!UICONTROL In-App-Zusammenfassung]** Das Diagramm zeigt den Verlauf Ihrer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions"
 >title="Interaktionen nach Typ"
->abstract="XX"
+>abstract="Der Graph und die Tabelle „Interaktionen nach Typ“ beschreiben, wie Benutzende mit Ihrer In-App-Nachricht interagiert haben, indem Klicks, Abbrechen oder Interaktionen verfolgt werden."
 
 ![](assets/journey_inapp_interactions.png)
 

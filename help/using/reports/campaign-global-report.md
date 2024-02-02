@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 55%
+source-wordcount: '4806'
+ht-degree: 51%
 
 ---
 
@@ -270,9 +270,14 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 
 ### Von Domains gesendet und bereitgestellt {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="Von Domains gesendet und bereitgestellt"
+>abstract="Die Tabelle Gesendet und zugestellt nach Domains liefert eine Aufschlüsselung der E-Mails, die nach Domains kategorisiert sind, und bietet umfassende Einblicke in die Gesamtleistung Ihrer E-Mail-Kommunikation."
+
 ![](assets/campaign_email_sent_domains.png)
 
-Die  **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagramme enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domänenebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
+Die **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagramme enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domänenebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
 
 +++ Weitere Informationen zu den Metriken Gesendet und Von Domänen bereitgestellt
 
@@ -284,9 +289,14 @@ Die  **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diag
 
 ### Bounces und Fehler nach Domains {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="Bounces und Fehler nach Domains"
+>abstract="Das Diagramm und die Tabelle &quot;Bounces &amp; Fehler nach Domänen&quot;bieten eine granulare Aufschlüsselung auf Domänenebene und bieten Einblicke in spezifische Fehler, die beim E-Mail-Versand aufgetreten sind."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-Die  **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle bieten eine Aufschlüsselung der spezifischen Fehler, die während des Versandvorgangs auf Domänenebene aufgetreten sind, und enthalten eine detaillierte Analyse der aufgetretenen Probleme.
+Die **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle bieten eine Aufschlüsselung der spezifischen Fehler, die während des Versandvorgangs auf Domänenebene aufgetreten sind, und enthalten eine detaillierte Analyse der aufgetretenen Probleme.
 
 +++ Weitere Informationen zu den Metriken &quot;Absprünge und Fehler nach Domänen&quot;
 
@@ -298,9 +308,14 @@ Die  **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle biet
 
 ### Aufrufe und Klicks nach Domains {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="Aufrufe und Klicks nach Domains"
+>abstract="Das Diagramm &quot;Öffnungen und Klicks nach Domänen&quot;und die Tabelle bieten eine detaillierte Aufschlüsselung auf Domänenebene, die einen umfassenden Überblick darüber bietet, wie Ihre Zielgruppe mit Ihren E-Mails interagiert."
+
 ![](assets/campaign_email_open_domains.png)
 
-Die  **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle zeigen eine Aufschlüsselung der Interaktion Ihrer Profile mit Ihrer E-Mail auf Domänenebene, die wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt bietet.
+Die **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle zeigen eine Aufschlüsselung der Interaktion Ihrer Profile mit Ihrer E-Mail auf Domänenebene, die wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt bietet.
 
 +++ Weitere Informationen zu den Metriken &quot;Öffnungen und Klicks nach Domänen&quot;
 
@@ -312,9 +327,14 @@ Die  **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle z
 
 ### Bounce-Gründe nach Domain {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="Bounce-Gründe nach Domain"
+>abstract="Die Absprunggründe nach Domänendiagramm und Tabelle bieten eine Aufschlüsselung auf Domänenebene, die umfassende Einblicke in temporäre und permanente Fehler bietet. Diese detaillierte Analyse liefert Ihnen wertvolle Informationen über die spezifischen Gründe für nicht zugestellte Nachrichten."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-Die  **[!UICONTROL Bounce-Gründe nach Domain]** Diagramme und Tabellen bieten eine Aufschlüsselung der Daten auf Domänenebene bezüglich temporärer und permanenter Fehler und bieten detaillierte Einblicke in die Ursachen für abgespeckte Nachrichten.
+Die **[!UICONTROL Bounce-Gründe nach Domain]** Diagramme und Tabellen bieten eine Aufschlüsselung der Daten auf Domänenebene bezüglich temporärer und permanenter Fehler und bieten detaillierte Einblicke in die Ursachen für abgespeckte Nachrichten.
 
 +++ Weitere Informationen zu Bounce-Gründen nach Domain-Metriken
 
@@ -366,7 +386,7 @@ Die **[!UICONTROL E-Mail - Beste Empfänger-Domain]** Diagramm und Tabelle biete
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihre E-Mail aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihre E-Mail aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
 
 Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** Widgets zeigen die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht.
 
@@ -554,7 +574,7 @@ Die **[!UICONTROL Push-Benachrichtigung - Versandzusammenfassung]** -Diagramm bi
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihre Push-Benachrichtigung aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** -Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihre Push-Benachrichtigung aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
 
 Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** Widgets zeigen die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht.
 
@@ -599,7 +619,7 @@ Siehe Abschnitt [diese Seite](exclusion-list.md) für die umfassende Liste der A
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Push-Benachrichtigung – Aufschlüsselung nach Plattform"
->abstract="Die Graphen und die Tabelle „Aufschlüsselung nach Platform“ enthalten eine Aufschlüsselung des Erfolgs Ihrer Push-Benachrichtigungen nach dem Betriebssystem des Profils."
+>abstract="Die Tabelle Push-Benachrichtigung - Aufschlüsselung nach Platform-Diagrammen und -Tabellen enthält eine Aufschlüsselung des Erfolgs Ihrer Push-Benachrichtigungen nach dem Betriebssystem des Profils."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ In Ihrer Kampagne **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL SMS]** im
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS – Sendestatistik"
->abstract="Die Tabelle „SMS – Sendestatistik“ enthält eine Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten, wie z. B. „Angesprochen“ oder „Zugestellt“."
+>abstract="Die Tabelle SMS - Versandstatistiken enthält eine Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten, z. B. Zielgerichtete oder zugestellte Nachrichten."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ Die **[!UICONTROL SMS - Versandstatistiken]** bietet eine kurze Zusammenfassung 
 
 ### SMS - Trackingstatistiken {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS - Trackingstatistiken"
+>abstract="Das Widget SMS - Trackingstatistiken bietet einen umfassenden Überblick über die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihrer URL."
+
 ![](assets/campaign_sms_tracking.png)
 
 Die **[!UICONTROL SMS - Trackingstatistiken]** Widget bietet einen detaillierten Überblick über wichtige Informationen zur Interaktion Ihrer Besucher mit Ihren URLs und bietet Einblicke in die Effektivität Ihrer SMS-Nachrichten.
@@ -673,7 +698,7 @@ Die **[!UICONTROL SMS - Trackingstatistiken]** Widget bietet einen detaillierten
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS – Performance nach Datum"
->abstract="Das Widget „SMS – Performance nach Datum“ liefert wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
+>abstract="Das Widget - SMS-Leistung nach Datum liefert wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ Die **[!UICONTROL Bounces-Gründe]** Grafiken und Tabellen bieten einen umfassen
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS – Klicks nach Links"
->abstract="Das Widget „SMS – Klicks nach Links“ bietet wichtige Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit den URLs in Ihren Nachrichten"
+>abstract="Das Widget SMS - Klicks nach Links bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit den URLs in Ihren Nachrichten."
 
 ![](assets/campaign_sms_clicks.png)
 
