@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 86%
 
 ---
 
@@ -136,3 +136,42 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
    >
    >Nur die Quellen **[!UICONTROL Profilattribute]**, **[!UICONTROL Zielgruppen]** und **[!UICONTROL Helper-Funktionen]** sind für das Entscheidungs-Management verfügbar.
 
+## Personalisieren von Darstellungen basierend auf Kontextdaten{#context-data}
+
+Wenn Kontextdaten in der [Edge-Entscheidung](../api-reference/offer-delivery-api/edge-decisioning-api.md) aufrufen, können Sie diese Daten nutzen, um Darstellungen dynamisch zu personalisieren. Sie können beispielsweise die Darstellung eines Angebots auf Basis von Echtzeitfaktoren wie aktuellen Wetterbedingungen zum Zeitpunkt der Entscheidungsfindung anpassen.
+
+Integrieren Sie dazu die Kontextdatenvariable direkt in den Darstellungsinhalt, indem Sie die `profile.timeSeriesEvents.` Namespace.
+
+Im Folgenden finden Sie ein Syntaxbeispiel, mit dem die Darstellung eines Angebots basierend auf den Betriebssystemen der Benutzer personalisiert wird:
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+Die entsprechende Edge-Entscheidungsanfrage einschließlich der Kontextdaten lautet wie folgt:
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
