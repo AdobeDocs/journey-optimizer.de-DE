@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 16%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in den [Versionshinweisen](release-notes.md) konsolidiert.
 
-Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden im [Versionshinweise](release-notes.md), am Veröffentlichungsdatum.
+Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise für Januar 2024 {#e-2024}
+## Frühzeitige Versionshinweise Januar 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 20.-31. Januar 2024
+**Veröffentlichungsdatum**: 20.–31. Jan. 2024
 
 ### Neue Funktionen{#e-features}
 
@@ -42,7 +42,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Journey Optimizer unterstützt jetzt die DMARC-Authentifizierungstechnologie.</p>
-<p>Ab dem 1. Februar 2024, Google und Yahoo! erfordert, dass Sie über einen DMARC-Datensatz für jede Domäne verfügen, mit der Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie DMARC-Datensatz für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder delegieren.</p>
+<p>Ab dem 1. Februar 2024 verlangen Google und Yahoo!, dass Sie einen DMARC-Eintrag für jede Domain haben, über die Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder an Adobe delegieren.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>Weitere Informationen finden Sie in der <a href="../configuration/dmarc-record.md">ausführlichen Dokumentation</a>.</p>
 </tr>
@@ -52,13 +52,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Anwendungsbeispiele für Playbooks</strong><br/></th>
+<th><strong>Anwendungsfall-Playbooks</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um gängige Anwendungsfälle zu behandeln, die Sie mit Adobe Experience Platform und Adobe Journey Optimiser durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journey, Nachrichten, Schemas oder Segmente, und diese für eine schnellere Wertschöpfungszeit an Ihr Schema anpassen.</p>
+<p>Nutzen Sie einen Katalog mit branchenspezifischen Anwendungsfall-Playbooks in Real-Time CDP und Journey Optimizer für gängige Anwendungsfälle, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 <!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
 </tr>
@@ -71,30 +71,30 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Reporting**
 
-* **Neue domänenbasierte Aufschlüsselungs-Widgets** - Es wurden neue Widgets hinzugefügt, um Ihre Kampagnen- und Journey-Berichte zu verbessern. Die **Bounce-Gründe nach Domain**, **Gesendet und von Domänen bereitgestellt**, **Öffnungen und Klicks nach Domain** und **Bounce und Fehler nach Domain** -Widgets bieten eine detaillierte Aufschlüsselung auf Domänenebene für wichtige E-Mail-Versand- und Tracking-Metriken. [Weitere Informationen](../reports/channel-report.md)
+* **Neue Domain-basierte Widgets zur Aufschlüsselung** – Es wurden neue Widgets hinzugefügt, mit denen Sie Ihre Campaign- und Journey-Berichte optimieren können. Die Widgets **Bounce-Gründe nach Domain**, **Gesendet und zugestellt nach Domains**, **Öffnungen und Klicks nach Domains** und **Bounces und Fehler nach Domains** bieten eine detaillierte Aufschlüsselung für wichtige E-Mail-Versand- und Tracking-Metriken auf Domain-Ebene. [Weitere Informationen](../reports/channel-report.md)
 
 **SMS-Kanal**
 
-* **Double Opt-in** - Der Workflow für die Anmeldung mit zweifacher Bestätigung für SMS garantiert, dass Benutzer sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzer starten den Genehmigungsprozess durch Senden einer eingehenden SMS. Nach Bestätigung der Zustimmung wird eine Folgenachricht gesendet, in der eine endgültige Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+* **Double-Opt-in** – Der Workflow „Double-Opt-in“ für SMS garantiert, dass Benutzende sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzende starten den Einverständnisprozess durch Senden einer eingehenden SMS. Nach der Bestätigung des Einverständnisses wird eine Folgenachricht gesendet, in der eine letzte Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../sms/sms-configuration.md#create-api)
 
   Beachten Sie, dass dies nur für die SMS-Anbieter Sinch und Infobip gilt.
 
 **Journeys**
 
-* **Dauer der Reaktionsereignisse** - Die maximale Dauer, die Sie im **Reaktionsereignisse** ist jetzt 29 Tage anstelle von 30. [Weitere Informationen](../building-journeys/reaction-events.md)
+* **Dauer von Reaktionsereignissen** – Die maximale Dauer, die Sie in den **Reaktionsereignissen** definieren können, beträgt jetzt 29 Tage statt 30 Tage. [Weitere Informationen](../building-journeys/reaction-events.md)
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Audience lesen**  - Die Aktivität Audience lesen basiert jetzt auf dem Profil-Snapshot-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Auftrags generiert wird. Daher werden die Daten bis zum letzten täglichen Batch-Auftrag aktualisiert.
+* **Zielgruppe lesen** – Die Aktivität „Zielgruppe lesen“ basiert jetzt auf dem Profil-Schnappschuss-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Vorgangs generiert wird. Die Daten sind also bis zum letzten täglichen Batch-Vorgang aktuell.
 
-* **Feldergruppen** - Es wurde ein Problem behoben, durch das Feldergruppen in bestimmten Fällen blockiert wurden, um gespeichert zu werden.
+* **Feldergruppen** – Es wurde ein Problem behoben, durch das Feldergruppen in bestimmten Fällen nicht gespeichert werden konnten.
 
-* **Ausdruckseditor** - Der listObject -Datentyp wird jetzt in allen Ausdrücken und in zusätzlichen Funktionen unterstützt. [Weitere Infos](../building-journeys/expression/functions.md)
+* **Ausdruckseditor** – Der listObject-Datentyp wird jetzt in allen Ausdrücken und in zusätzlichen Funktionen unterstützt. [Weitere Infos](../building-journeys/expression/functions.md)
 
 **Häufigkeitsregeln**
 
-* **Häufigkeitsgrenze pro Woche und Tag** - Sie können jetzt zusätzlich zum Monat die maximale Anzahl an Nachrichten festlegen, die an ein Kundenprofil in einer Woche oder an einem Tag gesendet werden. Die Frequenzlimitierung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. [Weitere Informationen](../configuration/frequency-rules.md#create-new-rule)
+* **Wöchentliche und tägliche Frequenzbegrenzung** – Sie können jetzt neben der monatlichen Anzahl auch die maximale Anzahl an Nachrichten festlegen, die in einer Woche oder an einem Tag an ein Kundenprofil gesendet werden. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitraums zurückgesetzt. [Weitere Informationen](../configuration/frequency-rules.md#create-new-rule)
 
 **Entscheidungs-Management**
 
-* **Frequenzlimitierung an Edge** - Der Frequenzlimitierungszähler wird jetzt aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar.
+* **Frequenzbegrenzung für Edge** – Der Frequenzbegrenzungszähler wird jetzt in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
