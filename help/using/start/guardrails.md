@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1960'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -87,9 +87,9 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
 * Integrierte benutzerdefinierte Aktionen können nicht entfernt werden.
-* Stellen Sie bei der Auswahl eines Endpunkts für das Targeting mithilfe einer benutzerdefinierten Aktion sicher, dass:
+* Stellen Sie bei der Auswahl Endpunkts, den Sie mit einer benutzerdefinierten Aktion ansprechen möchten, Folgendes sicher:
 
-   * Dieser Endpunkt kann mithilfe von Konfigurationen aus dem Journey-Durchsatz unterstützen. [Einschränkungs-API](../configuration/throttling.md) oder [Capping-API](../configuration/capping.md) , um sie zu begrenzen. Seien Sie vorsichtig, wenn eine Einschränkungskonfiguration nicht unter 200 TPS liegen darf. Jeder Zielpunkt muss mindestens 200 TPS unterstützen.
+   * Dieser Endpunkt kann den Journey-Durchsatz unterstützen, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder angesprochene Endpunkt muss mindestens 200 TPS unterstützen.
    * Dieser Endpunkt muss eine so niedrige Antwortzeit wie möglich haben. Abhängig von Ihrem erwarteten Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
 
 ### Ereignisse {#events-g}
@@ -106,7 +106,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 >[!NOTE]
 >
->Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle aus externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
 
 ### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
 
