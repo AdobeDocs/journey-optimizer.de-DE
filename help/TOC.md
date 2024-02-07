@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
    + [Barrierefreiheit](using/start/accessibility.md)
-   + [Anwendungsbeispiele für Playbooks](using/start/playbooks.md)
+   + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Integrationen](using/start/ajo-integrations.md)
    + [Leitplanken](using/start/guardrails.md)
    + [Best Practices](using/start/best-practices.md)
@@ -527,7 +527,7 @@ ht-degree: 99%
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
       + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
-      + [Einrichten des DMARC-Datensatzes](using/configuration/dmarc-record.md)
+      + [Festlegen des DMARC-Eintrags](using/configuration/dmarc-record.md)
       + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
       + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)
       + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
