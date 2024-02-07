@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -20,25 +20,25 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Die Januar-Version ist live!]
+>[!TAB Die Version Januar ist live!]
 
-Entdecken Sie neue Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.1.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.1.
 
 [![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Obligatorische DMARC-Aktualisierung]
 
-Im Rahmen ihrer branchenüblichen Best Practices erzwingen Google und Yahoo! Sie benötigen beide eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
+Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! Sie benötigen beide eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
 
 [![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Anwendungsbeispiele für Playbooks]
+>[!TAB Anwendungsfall-Playbooks]
 
-Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um gängige Anwendungsfälle zu behandeln, die Sie mit Adobe Experience Platform und Adobe Journey Optimiser durchführen können.
+Nutzen Sie einen Katalog mit branchenspezifischen Anwendungsfall-Playbooks in Real-Time CDP und Journey Optimizer für gängige Anwendungsfälle, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.
 
-Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journey, Nachrichten, Schemas oder Segmente, und diese für eine schnellere Wertschöpfungszeit an Ihr Schema anpassen.
+Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.
 
-![animiertes Bild, das Nutzungsszenario-Playbooks zeigt](using/rn/assets/do-not-localize/playbooks.gif)
+![Animiertes Bild, das Anwendungsfall-Playbooks zeigt](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
