@@ -8,9 +8,9 @@ level: Experienced
 keywords: distinctCountWithNull, Funktion, Ausdruck, Journey
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 Zählt die Anzahl verschiedener Werte einschließlich der Nullwerte.
 
-Beachten Sie, dass der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+Beachten Sie, dass der Parameter `<listObject>` in dieser Funktion nicht unterstützt wird.
 
 ## Kategorie
 
