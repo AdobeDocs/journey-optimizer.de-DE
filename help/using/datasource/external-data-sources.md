@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
 >
 >**Diese Authentifizierung besteht aus zwei Teilen.**
 
-### Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken zu generieren
+### Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffs-Token zu generieren
 
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
@@ -140,7 +140,7 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
    * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel-Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
    * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
-### Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt werden muss
+### Die Definition der Art und Weise, wie das Zugriffs-Token in die HTTP-Anfrage der Aktion eingefügt werden muss
 
 * authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
