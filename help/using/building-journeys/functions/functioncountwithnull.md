@@ -8,9 +8,9 @@ level: Experienced
 keywords: countWithNull, Funktion, Ausdruck, Journey
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 Zählt alle Elemente der Liste, einschließlich Nullwerten.
 
-Beachten Sie, dass der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+Beachten Sie, dass der Parameter `<listObject>` in dieser Funktion nicht unterstützt wird.
 
 ## Kategorie
 
