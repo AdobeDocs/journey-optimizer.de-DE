@@ -8,9 +8,9 @@ level: Experienced
 keywords: serializeList, Funktion, Ausdruck, Journey
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ Liste
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste zur Konvertierung in eine Zeichenfolge. |
-| Trennzeichen | Zeichenfolge | Trennzeichen zwischen den einzelnen Listenelementen in der Ausgabestruktur. |
-| addQuotes | boolean | Dieser Parameter gibt an, ob jedes Element in der Ausgabezeichenfolge Anführungszeichen (true) oder nicht (false) enthalten soll. |
+| Trennzeichen | Zeichenfolge | Trennzeichen zwischen den einzelnen Listenelementen in der Ausgabezeichenfolge. |
+| addQuotes | Boolescher Wert | Dieser Parameter gibt an, ob jedes Element der Ausgabezeichenfolge Anführungszeichen enthalten soll (true) oder nicht (false). |
 
 ## Signatur und zurückgegebener Typ
 
