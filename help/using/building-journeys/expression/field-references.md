@@ -9,9 +9,9 @@ level: Experienced
 keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Sy
 
 >[!NOTE]
 >
->Der Feldtyp und der Standardwert müssen übereinstimmen. Beispiel: `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge sein sollte.
+>Der Feldtyp und der Standardwert müssen übereinstimmen. Beispielsweise ist `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge ist.
 
 Beispiele:
 
@@ -117,7 +117,7 @@ Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion m
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel &quot;E-Mail&quot;des Felds &quot;IdentityMap&quot;eines Ereignisses. Der Eintrag &#39;Email&#39; ist eine Kollektion, aus der wir die &#39;id&#39; im ersten Element mit &#39;first()&#39; nehmen. Weitere Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
+In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „Email“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „Email“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element übernehmen. Weitere Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
 ### `firstEntryKey`-Funktion
 
