@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -28,13 +28,13 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 >[!NOTE]
 >
-> Nur Sinch und Infobip unterstützen native Keywords bei Verwendung mit Journey Optimizer.
+> Nur Sinch und Infobip unterstützen native Schlüsselwörter, wenn sie mit Journey Optimizer verwendet werden.
 
-Standardmäßig verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für Kurzwahlnummern, gebührenfreie Nachrichten und Nachrichten mit langer Code:
+Standardmäßig verarbeitet Adobe Journey Optimizer folgende standardmäßige englischsprachige Antwortnachrichten für Kurzwahlnummern, gebührenfreie Nummern und lange Nummern:
 
-* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO.
-* **Opt-in**: ABONNIEREN, JA, AUFHEBEN, START, FORTFAHREN, WIEDERAUFNEHMEN, BEGINN.
-* **Hilfe**: HILFE.
+* **Opt-Out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO.
+* **Opt-In**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN.
+* **Hilfe**: HELP.
 
 Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter ausgelöst. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 

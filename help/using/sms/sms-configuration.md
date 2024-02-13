@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
 source-wordcount: '1273'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -77,13 +77,13 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
       * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-      * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **[!UICONTROL Opt-out-Nachricht]**.
+      * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
 
       * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
+      * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
 
-      * **[!UICONTROL Anmeldung mit zweifacher Bestätigung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Anmeldung mit zweifacher Bestätigung gesendet wird.
+      * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird.
 +++
 
    * +++ Für **[!DNL Sinch MMS]**
@@ -110,15 +110,15 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
       * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Doppelte Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den doppelten Anmeldeprozess Trigger haben. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+      * **[!UICONTROL Double-Opt-in-Schlüsselwörter]**: Geben Sie die Schlüsselwörter ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
 
-      * **[!UICONTROL Anmeldung mit zweifacher Bestätigung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double Opt-in-Bestätigung gesendet wird.
+      * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double-Opt-in-Bestätigung gesendet wird.
 
-      * **[!UICONTROL Prinzipalentitäts-ID]**: Geben Sie Ihre zugewiesene DLT-Prinzipal-Entitäts-ID ein.
+      * **[!UICONTROL Prinzipalentitäts-ID]**: Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein.
 
       * **[!UICONTROL Inhaltsvorlagen-ID]**: Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein.
 
-      * **[!UICONTROL Gültigkeitszeitraum]**: Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden an. Falls Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden.
+      * **[!UICONTROL Gültigkeitszeitraum]**: Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden an. Wenn Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden.
 
       * **[!UICONTROL Callback-Daten]**: Geben Sie die zusätzlichen Client-Daten ein, die an die Benachrichtigungs-URL gesendet werden.
 +++
