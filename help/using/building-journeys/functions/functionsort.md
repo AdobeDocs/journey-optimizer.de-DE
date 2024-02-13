@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „sort“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: sort, function, expression, Journey
+keywords: sort, Funktion, Ausdruck, Journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Liste
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | keyAttributeName | Zeichenfolge | Dieser Parameter ist nur für listObject. Der Attributname in den Objekten der angegebenen Liste wird als Schlüssel zum Filtern verwendet. |
-| sortingOrder | boolean | Aufsteigend (true) oder absteigend (false) |
+| sortingOrder | Boolescher Wert | Aufsteigend (true) oder absteigend (false) |
 
 ## Signatur und zurückgegebener Typ
 
