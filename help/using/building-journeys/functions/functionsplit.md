@@ -30,8 +30,8 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|------------------|
-| Eingabezeichenfolge | string |
-| Trennzeichenfolge | string |
+| Eingabezeichenfolge | Zeichenfolge |
+| Trennzeichenfolge | Zeichenfolge |
 
 ## Signaturen und zurückgegebener Typ
 
