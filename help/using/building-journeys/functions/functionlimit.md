@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „limit“.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: limit, function, expression, Journey
+keywords: Limit, Funktion, Ausdruck, Journey
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Liste
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
-| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
+| firstOrLastItems | Boolescher Wert | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 
 ## Signatur und zurückgegebener Typ
 
