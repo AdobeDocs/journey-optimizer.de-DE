@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, eins
 
 Es gibt zwei Möglichkeiten, Entscheidungs-Management mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
 
-Weitere Informationen finden Sie in der Adobe Experience Platform-Dokumentation unter [Entscheidungsmanagement](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de) für weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Adobe Experience Platform Web SDK.
+Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Adobe Experience Platform Web SDK finden Sie in der Adobe Experience Platform-Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de).
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
