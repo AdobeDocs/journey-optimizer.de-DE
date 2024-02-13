@@ -8,9 +8,9 @@ level: Experienced
 keywords: distinctCount, Funktion, Ausdruck, Journey
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -58,4 +58,4 @@ Gibt die Anzahl der eindeutig voneinander unabhängigen Objekte im angegebenen A
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-Gibt die Anzahl der Objekte mit einem eindeutigen &quot;SKU&quot;-Attributwert aus{}.
+Gibt die Anzahl der Objekte mit einem eindeutigen „SKU“-Attributwert{} zurück.
