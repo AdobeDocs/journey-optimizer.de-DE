@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -247,12 +247,12 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 
   Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
-### Frequenzlimitierung {#frequency-capping}
+### Frequenzbegrenzung {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Festlegen der Begrenzungsfrequenz"
->abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzlimitierung die festgelegte Frequenz nicht mehr ändern können."
+>abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzbegrenzung die festgelegte Frequenz nicht mehr ändern können."
 
 Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
 
@@ -263,7 +263,7 @@ Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Beg
 >
 >Das Zurücksetzen erfolgt um 12 Uhr UTC an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats. Der erste Tag der Woche ist der Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
 >
->Der Frequenzlimitierungszähler wird aktualisiert und ist in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API verfügbar.
+>Der Frequenzbegrenzungszähler wird in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
 
 Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie **[!UICONTROL Wöchentlich]** aus der entsprechenden Dropdown-Liste und geben Sie **2** in das andere Feld ein. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
 
@@ -271,7 +271,7 @@ Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurü
 >
 >Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
 >
->Sie können die Frequenzlimitierung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzlimitierung veröffentlicht wurde.
+>Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
 
 ### Begrenzung und Platzierungen {#placements}
 
