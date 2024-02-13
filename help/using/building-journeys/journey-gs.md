@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1787'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -71,27 +71,27 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 
 ![](assets/journeys-browse.png)
 
-### Journey filtern {#filter}
+### Filtern von Journeys {#filter}
 
-In der Liste der Journey können Sie verschiedene Filter nutzen, um die Liste der Journey zur besseren Lesbarkeit zu verfeinern.
+In der Liste der Journeys können Sie verschiedene Filter nutzen, um diese Liste zur besseren Lesbarkeit zu verfeinern.
 
 ![](assets/filter-journeys.png)
 
 Folgende Filtervorgänge können Sie durchführen:
 
-* Filtern von Journey nach Status, Typ, Version und zugewiesenen Tags aus der **[!UICONTROL Status- und Versionsfilter]**.
+* Filtern von Journeys nach Status, Typ, Version und zugewiesenen Tags aus den Filtern für **[!UICONTROL Status und Version]**.
 
   Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
 
-* Verwenden Sie die **[!UICONTROL Erstellungsfilter]** , um die Journey nach ihrem Erstellungsdatum oder dem Erstellungsbenutzer zu filtern.
+* Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
-* Anzeigen von Journey, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus dem **[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**.
+* Zeigen Sie etwa nur Journeys an, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden.
 
-* Verwenden Sie die **[!UICONTROL Veröffentlichungsfilter]** um ein Veröffentlichungsdatum oder einen Benutzer auszuwählen. Sie können beispielsweise die neuesten Versionen von Live-Journey anzeigen lassen, die gestern veröffentlicht wurden.
+* Die **[!UICONTROL Veröffentlichungsfilter]** erlauben die Auswahl eines Veröffentlichungsdatum oder einer Person. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die gestern veröffentlicht wurden, angezeigt werden sollen.
 
   <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
 
-Darüber hinaus wird in den Konfigurationsbereichen Ereignis, Datenquelle und Aktion die **[!UICONTROL Verwendet in]** zeigt die Anzahl der Journey an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die das betreffende Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
 ![](assets/journey3bis.png)
 
