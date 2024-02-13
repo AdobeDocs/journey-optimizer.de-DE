@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1627'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvo
 >
 > * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung zur [Verwaltung von Nachrichtenvoreinstellungen](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Sie müssen [E-Mail-Konfiguration](../email/get-started-email-config.md), [Push-Konfiguration](../push/push-configuration.md), [SMS-Konfiguration](../sms/sms-configuration.md) und [Briefpost-Konfiguration](../direct-mail/direct-mail-configuration.md) Schritte vor dem Erstellen von Kanaloberflächen.
+> * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](../email/get-started-email-config.md), [Push-Benachrichtigungen](../push/push-configuration.md), [SMS](../sms/sms-configuration.md) und [Briefpost](../direct-mail/direct-mail-configuration.md) ausführen.
 
 Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
 1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu überprüfen, ob die Konfiguration korrekt ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+   Während dieses Schrittes werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist.<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
    > Beim Erstellen einer E-Mail-Oberfläche für eine Subdomain variiert die Verarbeitungszeit, wie im Folgenden beschrieben:
