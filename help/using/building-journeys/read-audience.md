@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 ## Wichtige Informationen {#must-read}
 
-* Für Journey mit einer **Audience lesen** -Aktivität, gibt es eine maximale Anzahl von Journey, die zur selben Zeit beginnen können. Wiederholungen werden vom System durchgeführt, es werden jedoch nicht mehr als fünf Journey (mit **Audience lesen**, geplant oder &quot;so bald wie möglich&quot; beginnen), die exakt zur gleichen Zeit beginnen. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. zwischen 5 und 10 Minuten.
+* Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Das System führt Wiederholungsversuche durch. Vermeiden Sie jedoch, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder „so bald wie möglich“ beginnend) genau zur gleichen Zeit starten. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. mit Abständen zwischen 5 und 10 Minuten.
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit einer **Audience lesen** -Aktivität, eine **[Zielgruppenqualifikation](audience-qualification-events.md)** oder einer Geschäftsereignisaktivität.
+* Erlebnisfeldgruppen können nicht in Journeys verwendet werden, die mit einer **Zielgruppe lesen**-Aktivität, einer **[Zielgruppenqualifikation](audience-qualification-events.md)**-Aktivität oder einer Geschäftsereignis-Aktivität beginnen.
 
 * Als Best Practice wird empfohlen, in einer Aktivität **Zielgruppe lesen** nur Batch-Zielgruppen zu verwenden. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte die Aktivität **[Zielgruppenqualifikation](audience-qualification-events.md)**.
 
