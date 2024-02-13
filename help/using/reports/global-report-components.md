@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
-   <td> Gesamtzahl der über den Versandvorgang hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Summe der kumulierten Fehler während des Sendevorgang und der automatischen Rücksendeverarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Bounce-Rate<br/> </td> 
@@ -84,11 +84,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.<br/> </td> 
+   <td> Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an die Profile verhindert haben.<br/> </td> 
 </tr> 
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während des Versandvorgangs aufgetreten sind und den Versand der Nachricht verhinderten, in Bezug auf die gesendeten E-Mails.<br/> </td> 
+   <td> Prozentualer Anteil der Fehler, die während des Sendevorgangs aufgetreten sind und das Senden verhindert haben, im Vergleich zu den gesendeten E-Mails.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
