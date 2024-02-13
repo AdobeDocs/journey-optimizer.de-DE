@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Hier finden Sie die möglichen Werte für dieses Feld:
 * Begrenzungsfehler: **capped**
 * Interner Fehler: **internalError**
 
-Ein Aktionsaufruf wird als fehlerhaft betrachtet, wenn der zurückgegebene HTTP-Code größer als 2xx ist oder wenn ein Fehler auftritt. In solchen Fällen wird die Journey an die dedizierte Verzweigung „Timeout“ oder „Fehler“ geleitet.
+Ein Aktionsaufruf wird als fehlerhaft betrachtet, wenn der zurückgegebene HTTP-Code größer als 2xx ist oder wenn ein Fehler auftritt. In solchen Fällen führt die Journey in den speziellen Timeout oder Fehlerzweig.
 
 >[!WARNING]
 >
@@ -202,7 +202,7 @@ Im Folgenden finden Sie einige Beispiele:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Beim Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort können Sie sich auf `currentActionField` , um auf das aktuelle Element zuzugreifen:
+Beim Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort können Sie sich auf `currentActionField` verlassen, um auf das aktuelle Element zuzugreifen:
 
 ```json
 count(
