@@ -8,9 +8,9 @@ level: Experienced
 keywords: count, Funktion, Ausdruck, Journey
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Aggregation
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. Ein listObject darf kein null -Objekt enthalten. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. Ein listObject kann kein Null-Objekt enthalten. |
 
 ## Signaturen und zurückgegebener Typ
 
@@ -48,4 +48,4 @@ Gibt 3 zurück.
 
 `count(@event{my_event.productListItems})`
 
-Gibt die Anzahl der Objekte im angegebenen Array von Objekten zurück (listObject-Typ). Bemerkung: Ein listObject darf kein null -Objekt enthalten
+Gibt die Anzahl der Objekte im angegebenen Array von Objekten zurück (listObject-Typ). Anmerkung: Ein listObject kann kein Null-Objekt enthalten.
