@@ -7,9 +7,9 @@ level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
   >[!NOTE]
   >
-  >Bei Verwendung eines benutzerdefinierten **[!UICONTROL Datensatzvoreinstellung]** Zusammenführungsrichtlinie, stellen Sie sicher, dass Sie die **[!UICONTROL Journey Inbound]** Datensatz innerhalb der angegebenen Zusammenführungsrichtlinie.
+  >Wenn Sie eine Zusammenführungsrichtlinie mit einer benutzerdefinierten **[!UICONTROL Datensatzpräferenz]** verwenden, stellen Sie sicher, dass Sie den Datensatz **[!UICONTROL Journey Inbound]** innerhalb der angegebenen Zusammenführungsrichtlinie hinzufügen.
 
   ![](assets/inapp_config_8.png)
 
