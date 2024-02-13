@@ -9,9 +9,9 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -169,9 +169,9 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** nur verfügbar ist, wenn Ereigniskollektionen bearbeitet werden, **[!UICONTROL currentDataPackField]** bei der Bearbeitung von Datenquellenkollektionen und **[!UICONTROL currentActionField]** bei der Bearbeitung von benutzerdefinierten Aktionsereignissen.
+>**[!UICONTROL currentEventField]** ist nur bei der Bearbeitung von Ereignissammlungen verfügbar, **[!UICONTROL currentDataPackField]** bei der Bearbeitung von Datenquellensammlungen und **[!UICONTROL currentActionField]** bei der Bearbeitung von benutzerdefinierten Aktionsantwortsammlungen.
 >
->Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]**, wird jedes Kollektionselement einzeln wiederholt. **[!UICONTROL currentEventField]**, **currentDataPackField** und **[!UICONTROL currentActionField]** entsprechen dem Element, das in der Schleife vorhanden ist.
+>Bei der Verarbeitung von Sammlungen mit **[!UICONTROL all]**, **[!UICONTROL first]** und **[!UICONTROL last]** durchlaufen wir eine Schleife über jedes Element der Sammlung, eins nach dem anderen. **[!UICONTROL currentEventField]**, **currentDataPackField** und **[!UICONTROL currentActionField]** entsprechen dem Element, das in einer Schleife läuft.
 
 **Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“**
 
