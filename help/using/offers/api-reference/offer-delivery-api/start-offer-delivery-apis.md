@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -122,9 +122,9 @@ Beim Übermitteln von Kontextdaten mit einer Edge Decisioning-API-Anfrage werden
 >
 >Damit Kontextdaten gespeichert werden können, muss ein dediziertes XDM-Schema konfiguriert sein.
 
-**Aktualisierung des Frequenzlimitierungszählers**
+**Aktualisierung des Frequenzbegrenzungszählers**
 
-Wenn für einige Ihrer Angebote die Frequenzbegrenzung aktiviert wurde, um zu definieren, wie oft ihre Begrenzungsanzahl zurückgesetzt wird, wird der Zähler aktualisiert und steht in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning API zur Verfügung. [Erfahren Sie, wie Sie einem Angebot Begrenzungen hinzufügen.](../../offer-library/add-constraints.md)
+Wenn für einige Ihrer Angebote die Frequenzbegrenzung aktiviert wurde, um zu definieren, wie oft ihre Begrenzungsanzahl zurückgesetzt wird, wird der Zähler aktualisiert und steht in weniger als 3 Sekunden in einer Entscheidung der Edge Decisioning-API zur Verfügung. [Hinzufügen von Begrenzungen zu einem Angebot](../../offer-library/add-constraints.md)
 
 ## Funktionen der Decisioning-API {#decisioning}
 
@@ -133,5 +133,5 @@ Die folgenden Funktionen sind nur mit der Decisioning-API verfügbar. Wenn Sie e
 * **Angebotsinhalt und -merkmale**: Sie können festlegen, dass Inhalt und Merkmale eines Angebots nicht über eine eigene Option zurückgegeben werden.
 * **Angebotsmetadaten**: Aktivieren Sie eine Option, um die Metadaten eines Angebots zurückzugeben.
 * **Zusammenführungsrichtlinie**: Verwenden Sie in Ihrer Anfrage eine andere Zusammenführungsrichtlinie als die Ihrer Sandbox zugeordnete.
-* **Entscheidungsereignisse und Frequenzlimitierung**: Hiermit verhindern Sie, dass Entscheidungsereignisse durch eine Frequenzlimitierung gezählt werden.
+* **Entscheidungsereignisse und Frequenzbegrenzung**: Hiermit verhindern Sie, dass Entscheidungsereignisse durch eine Frequenzbegrenzung gezählt werden.
 * **Vorschläge duplizieren**: Aktivieren Sie diese Option, damit Vorschläge nicht dedupliziert werden.
