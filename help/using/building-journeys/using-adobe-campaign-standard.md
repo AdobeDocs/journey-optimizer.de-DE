@@ -83,7 +83,7 @@ Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet wer
 
 ## Push-Benachrichtigung {#section_im3_hvf_nhb}
 
-Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html?lang=de), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
+Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
 
 Wählen Sie zunächst eine App aus der Dropdown-Liste und eine Transaktionsnachricht aus.
 
