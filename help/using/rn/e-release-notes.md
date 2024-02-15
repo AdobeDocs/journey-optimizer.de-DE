@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Bei Verwendung von **Testadressen**. Wie jedes Profil aus der Zielgruppe erhalten auch die Testadressen eine Kopie aller Varianten derselben Nachricht (z. B. der unterschiedlichen Behandlungen eines Inhaltserprobungs).
+* **Testadressen** - Bei Verwendung von **Testadressen**. Wie jedes Profil aus der Zielgruppe erhalten auch die Testadressen eine Kopie aller Varianten derselben Nachricht (z. B. der unterschiedlichen Behandlungen eines Inhaltserprobungs).
 
 Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für alle Benutzer verfügbar:
 
@@ -80,25 +80,25 @@ Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für al
 
 **Journeys**
 
-* Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
-* Sie können jetzt die Kopfzeile &quot;content-type&quot;in **benutzerdefinierte Aktionen**.
-* Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert.
-* Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
+* **Journey filtern** - Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
+* **Benutzerdefinierte Aktionen** - Sie können jetzt die Kopfzeile &quot;content-type&quot;in **benutzerdefinierte Aktionen**.
+* **Konfiguration** - Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert.
+* **Benutzeroberfläche** - Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
 
 
 **SMS-Kanal**
 
-* Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** gemäß Ihren Voreinstellungen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter.
+* **Opt-in-/Opt-out-Keywords** - Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** gemäß Ihren Voreinstellungen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter.
 
 **Kampagnen**
 
-* Im Abschnitt &quot;cURL-Anfrage&quot;von **API-gesteuerte Kampagnen** die sich im Status &quot;Entwurf&quot;befinden, um anzugeben, dass die Beispiel-cURL-Anforderung erst sichtbar ist, nachdem die Kampagne veröffentlicht und ausgeführt wurde.
+* **API-gesteuerte Kampagnen** - Informationen wurden im **cURL-Anfrage** Abschnitt **API-gesteuerte Kampagnen** in **Entwurf** -Status, um anzugeben, dass die Beispiel-cURL-Anforderung erst sichtbar ist, nachdem die Kampagne veröffentlicht und ausgeführt wurde.
 
 **Entscheidungs-Management**
 
-* Sie können jetzt **Mehrfachbegrenzungsregeln** für ein Angebot. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
+* **Begrenzungsregeln** - Sie können jetzt **Mehrfachbegrenzungsregeln** für ein Angebot. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
 
 **Inhaltsvorlagen**
 
-* A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
-* Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
+* **Miniatur** - A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
+* **Kanäle** - Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
