@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 90%
 
 ---
 
@@ -31,8 +31,14 @@ W채hlen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsf�
 
 * Ich bin **Datentechniker**
 
-  Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemas und Datens채tzen. [Weitere Informationen](path/data-engineer.md)
+  Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemata und Datens채tzen. [Weitere Informationen](path/data-engineer.md)
 
 * Ich bin **Marketing-Experte**
 
   Erstellen von Nachrichten, Hinzuf체gen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)
+
+## Anleitungsvideo {#video}
+
+Machen Sie sich mit den wichtigsten Funktionen und Rollen der Journey Optimizer vertraut. Erfahren Sie, wie Sie je nach Rolle in der Benutzeroberfl채che navigieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
