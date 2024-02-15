@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 95%
 
 ---
@@ -90,6 +90,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Zielgruppe lesen** – Die Aktivität **Zielgruppe lesen** basiert jetzt auf dem Profil-Schnappschuss-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Vorgangs generiert wird. Die Daten sind also bis zum letzten täglichen Batch-Vorgang aktuell. [Weitere Informationen](../building-journeys/read-audience.md)
 
 * **Feldergruppen** – Mit dieser Version wird ein Problem behoben, das die Speicherung von Feldergruppen in bestimmten Fällen verhinderte.
+
+* Die Unterstützung für `<listObject>` wurde in mehreren Funktionen geändert.
 
 **Häufigkeitsregeln**
 
