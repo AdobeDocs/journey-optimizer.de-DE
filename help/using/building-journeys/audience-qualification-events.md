@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: ht
-source-wordcount: '1011'
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+workflow-type: tm+mt
+source-wordcount: '1043'
 ht-degree: 100%
 
 ---
@@ -30,6 +30,8 @@ Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in A
 Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ### Wichtige Hinweise{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Jour
 Bevor Sie die Zielgruppe in einer Produktions-Journey verwenden, sollten Sie immer zuerst die Anzahl der Personen auswerten, die sich für diese Zielgruppe täglich qualifizieren. Wählen Sie dazu das Menü **[!UICONTROL Zielgruppen]** aus, öffnen Sie die Zielgruppe und sehen Sie sich dann das Diagramm **[!UICONTROL Profile im Zeitverlauf]** an.
 
 ![](assets/segment-overload.png)
+
+## Anleitungsvideo {#video}
+
+Machen Sie sich mit den entsprechenden Anwendungsfällen für Journeys mit Zielgruppenqualifikation vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

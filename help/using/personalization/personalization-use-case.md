@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 92%
@@ -111,4 +111,3 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
-
