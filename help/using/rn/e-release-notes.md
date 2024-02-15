@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise Januar 2024 {#e-2024}
+## Frühzeitige Versionshinweise für Februar 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 20.–31. Jan. 2024
+**Veröffentlichungsdatum**: 20.-21. Februar 2024
 
 ### Neue Funktionen{#e-features}
 
@@ -35,66 +35,71 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Zustellbarkeits-Updates</strong><br/></th>
+<th><strong>Web-In-App-Nachrichten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer unterstützt jetzt die DMARC-Authentifizierungstechnologie.</p>
-<p>Ab dem 1. Februar 2024 verlangen Google und Yahoo!, dass Sie einen DMARC-Eintrag für jede Domain haben, über die Sie E-Mails an sie senden. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben oder an Adobe delegieren.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Weitere Informationen finden Sie in der <a href="../configuration/dmarc-record.md">ausführlichen Dokumentation</a>.</p>
+<p>Sie können jetzt die neue Web-In-App-Messaging-Funktion verwenden, um personalisierte Inhalte direkt auf Websites über modale Überlagerungsnachrichten anzuzeigen. Diese Funktion ermöglicht es Ihnen, effektiv mit Webbesuchern zu interagieren und die Benutzerinteraktion, -bindung und Konversionsraten zu verbessern.<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Anwendungsfall-Playbooks</strong><br/></th>
+<th><strong>Geschäftsregeln (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nutzen Sie einen Katalog mit branchenspezifischen Anwendungsfall-Playbooks in Real-Time CDP und Journey Optimizer für gängige Anwendungsfälle, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.</p>
-<br/><img src="assets/do-not-localize/playbooks.gif"/>
-<!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
+<p>Sie können jetzt Regeln für die Frequenzlimitierung erstellen, die für SMS- und Briefpost-Kanäle gelten. Darüber hinaus können Sie Frequenzlimitierungsregeln nach Kommunikationstyp festlegen.<br/><!--br/>
+Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
 </table>
+
+
 
 ### Verbesserungen {#e-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Reporting**
+**Zielgruppen**
 
-* **Neue Domain-basierte Widgets zur Aufschlüsselung** – Es wurden neue Widgets hinzugefügt, mit denen Sie Ihre Campaign- und Journey-Berichte optimieren können. Die Widgets **Bounce-Gründe nach Domain**, **Gesendet und zugestellt nach Domains**, **Öffnungen und Klicks nach Domains** und **Bounces und Fehler nach Domains** bieten eine detaillierte Aufschlüsselung für wichtige E-Mail-Versand- und Tracking-Metriken auf Domain-Ebene. [Weitere Informationen](../reports/channel-report.md)
+* Bei Verwendung von **Testadressen**. Wie jedes Profil aus der Zielgruppe erhalten auch die Testadressen eine Kopie aller Varianten derselben Nachricht (z. B. der unterschiedlichen Behandlungen eines Inhaltserprobungs).
 
-**SMS-Kanal**
+Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für alle Benutzer verfügbar:
 
-* **Double-Opt-in** – Der Workflow „Double-Opt-in“ für SMS garantiert, dass Benutzende sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzende starten den Einverständnisprozess durch Senden einer eingehenden SMS. Nach der Bestätigung des Einverständnisses wird eine Folgenachricht gesendet, in der eine letzte Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../sms/sms-configuration.md#create-api)
-
-  Beachten Sie, dass dies nur für die SMS-Anbieter Sinch und Infobip gilt.
+* Sie können jetzt **aus einer CSV-Datei hochgeladene Zielgruppen** in Journey und Kampagnen. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Sie können jetzt **Zielgruppen, die durch die Zielgruppenzusammensetzung erstellt wurden** und nutzen Anreicherungsattribute in Journey. [Weitere Informationen](../building-journeys/read-audience.md)
 
 **Journeys**
 
-* **Dauer von Reaktionsereignissen** – Die maximale Dauer, die Sie in den **Reaktionsereignissen** definieren können, beträgt jetzt 29 Tage statt 30 Tage. [Weitere Informationen](../building-journeys/reaction-events.md)
+* Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
+* Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
+* Sie können jetzt die Kopfzeile &quot;content-type&quot;in **benutzerdefinierte Aktionen**.
+* Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert.
 
-<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
+**SMS-Kanal**
 
-* **Zielgruppe lesen** – Die Aktivität „Zielgruppe lesen“ basiert jetzt auf dem Profil-Schnappschuss-Datensatz für Batch-Segmente, der nur einmal täglich nach der Ausführung des geplanten täglichen Batch-Vorgangs generiert wird. Die Daten sind also bis zum letzten täglichen Batch-Vorgang aktuell.
+* Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** gemäß Ihren Voreinstellungen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter.
 
-* **Feldergruppen** – Es wurde ein Problem behoben, durch das Feldergruppen in bestimmten Fällen nicht gespeichert werden konnten.
+**Kampagnen**
 
-* **Ausdruckseditor** – Der listObject-Datentyp wird jetzt in allen Ausdrücken und in zusätzlichen Funktionen unterstützt. [Weitere Infos](../building-journeys/expression/functions.md)
-
-**Häufigkeitsregeln**
-
-* **Wöchentliche und tägliche Frequenzbegrenzung** – Sie können jetzt neben der monatlichen Anzahl auch die maximale Anzahl an Nachrichten festlegen, die in einer Woche oder an einem Tag an ein Kundenprofil gesendet werden. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitraums zurückgesetzt. [Weitere Informationen](../configuration/frequency-rules.md#create-new-rule)
+* Im Abschnitt &quot;cURL-Anfrage&quot;von **API-gesteuerte Kampagnen** die sich im Status &quot;Entwurf&quot;befinden, um anzugeben, dass die Beispiel-cURL-Anforderung erst sichtbar ist, nachdem die Kampagne veröffentlicht und ausgeführt wurde.
 
 **Entscheidungs-Management**
 
-* **Frequenzbegrenzung für Edge** – Der Frequenzbegrenzungszähler wird jetzt in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
+* Sie können jetzt **Mehrfachbegrenzungsregeln** für ein Angebot. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
+
+**Inhaltsvorlagen**
+
+* A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
+* Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
