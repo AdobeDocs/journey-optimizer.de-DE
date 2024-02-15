@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 19%
 
 ---
@@ -85,7 +85,6 @@ Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für al
 * **Konfiguration** - Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert.
 * **Benutzeroberfläche** - Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
 
-
 **SMS-Kanal**
 
 * **Opt-in-/Opt-out-Keywords** - Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** gemäß Ihren Voreinstellungen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter.
@@ -101,4 +100,4 @@ Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für al
 **Inhaltsvorlagen**
 
 * **Miniatur** - A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
-* **Kanäle** - Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
+* **Mehrkanalvorlagen** - Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
