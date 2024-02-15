@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,8 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 * Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
 * Informationen zum Erstellen einer Entscheidung finden Sie in diesem [Abschnitt](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Ein ähnliches Anwendungsbeispiel finden Sie im Video](#video)
 
 ## Schritt 1 – Journey erstellen {#create-journey}
 
@@ -103,3 +105,10 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
    ![](assets/perso-uc19.png)
 
 1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie die Journey.
+
+## Anleitungsvideo {#video}
+
+Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
