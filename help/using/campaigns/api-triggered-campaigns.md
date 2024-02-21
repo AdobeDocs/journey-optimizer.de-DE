@@ -5,11 +5,11 @@ title: Auslösen von Kampagnen mit APIs
 description: Auslösen von Kampagnen mit Journey Optimizer-APIs
 feature: Campaigns, API
 topic: Content Management
-role: Developer, Admin
+role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Um eine API-ausgelöste Kampagne zu erstellen, gehen Sie wie folgt vor. Detailli
    >
    >Sie können an die API-Payload zusätzliche Daten zur Nachrichtenpersonalisierung übergeben. [Weitere Informationen](#contextual)
    >
-   >Die Verwendung einer großen Zahl oder umfangreicher kontextuelle Daten in Ihren Inhalten kann die Leistung beeinträchtigen.
+   >Die Verwendung einer großen Zahl oder umfangreicher kontextuelle Daten in Ihren Inhalten kann die Performance beeinträchtigen.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Zielgruppe]** den Namespace an, der zur Identifizierung der Kontakte verwendet werden soll.
 

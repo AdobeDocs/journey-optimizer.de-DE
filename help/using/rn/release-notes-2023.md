@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
-workflow-type: ht
-source-wordcount: '4398'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '4346'
 ht-degree: 100%
 
 ---
@@ -43,8 +43,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
-
-
+<!--
 <table>
 <thead>
 <tr>
@@ -54,12 +53,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
+<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available with Sinch only.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#mms-content">ausführlichen Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#mms-content">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 ### Verbesserungen {#oct-2023-improvements}
 

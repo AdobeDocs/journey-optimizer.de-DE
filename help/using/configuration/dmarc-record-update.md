@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 88%
+source-wordcount: '577'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) und ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Besitzende ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
 
-Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de#dmarc){target="_blank"}
+Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! benötigen beide **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -44,8 +44,9 @@ oder
 oder
    * Richten Sie DMARC auf Ihren delegierten Subdomains **in der[!DNL Journey Optimizer]** Konfigurations-Benutzeroberfläche ein. [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-  Allerdings ist für die CNAME-Delegierung auch ein Eintrag in Ihre Hosting-Lösung erforderlich. Daher sollten Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die in [diesem Abschnitt](dmarc-record.md#implement-dmarc) beschriebene Aktualisierung durchführen kann.
-
+  >[!IMPORTANT]
+  >
+  >Für die Einrichtung des CNAME ist jedoch auch ein zusätzlicher Eintrag in Ihrer Hosting-Lösung erforderlich. Daher sollten Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die in [diesem Abschnitt](dmarc-record.md#implement-dmarc) beschriebene Aktualisierung durchführen kann.
 
 Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
 
@@ -67,5 +68,5 @@ Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
 
 * Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de#about){target="_blank"} erfahren Sie mehr über DMARC
 * Weitere Informationen zu diesen Änderungen finden Sie im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de){target="_blank"}
-* Die [Ankündigung von Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} lesen
-* Die [Yahoo- Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen
+* Lesen Sie die [Google Gmail-Mitteilung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Lesen Sie die [Yahoo! Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen

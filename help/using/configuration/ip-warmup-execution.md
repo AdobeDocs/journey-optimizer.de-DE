@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2152'
+ht-degree: 97%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Sie können nur eine (standardmäßige oder benutzerdefinierte) Domain-Gruppe ausschließen, die zur [Vorlage für IP-Aufwärmplan](ip-warmup-plan.md#prepare-file) hinzugefügt wurde. Andernfalls müssen Sie die Vorlage mit der Domain-Gruppe aktualisieren, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
+      >Sie können nur eine benutzerdefinierte Domain-Gruppe ausschließen, die zum [Vorlage für IP-Warmup-Plan](ip-warmup-plan.md#prepare-file). Ist dies nicht der Fall, aktualisieren Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
 
 1. Bei Bedarf können Sie die Kampagne über die Option **[!UICONTROL Kampagne ersetzen]** austauschen.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. Optional können Sie ein Zeitfenster definieren, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls sich die [Zielgruppenbewertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#how-segmentation-works){target="_blank"} verzögert. Klicken Sie dazu auf das Symbol „Eigenschaften“ oben links neben dem Namen des Plans und verwenden Sie die Dropdown-Liste **[!UICONTROL Zeit bis zu erneuter Ausführung]**, um eine Dauer auszuwählen – bis zu 240 Minuten (4 Stunden).
+
+   >[!NOTE]
+   >
+   >Wiederholungen werden alle 30 Minuten bis zum Ende des definierten Zeitfensters durchgeführt.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
@@ -287,7 +291,7 @@ Eine Ausführung kann folgende Status haben:
 
 ### Arbeiten mit Berichten {#reports}
 
-Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Leistung Ihrer IP-Aufwärmkampagnen mithilfe der [!DNL Journey Optimizer]-Kampagnenberichte überprüfen. Dazu können Sie für jede abgeschlossene Ausführung auf die Schaltfläche **[!UICONTROL Berichte anzeigen]** klicken. Weitere Informationen zu den [Live-Berichten](../reports/campaign-live-report.md#email-live) und den [globalen Berichten](../reports/campaign-global-report.md#email-global) von Kampagnen-E-Mails.
+Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Performance Ihrer IP-Aufwärmkampagnen mithilfe der [!DNL Journey Optimizer]-Kampagnenberichte überprüfen. Dazu können Sie für jede abgeschlossene Ausführung auf die Schaltfläche **[!UICONTROL Berichte anzeigen]** klicken. Weitere Informationen zu den [Live-Berichten](../reports/campaign-live-report.md#email-live) und den [globalen Berichten](../reports/campaign-global-report.md#email-global) von Kampagnen-E-Mails.
 
 ![](assets/ip-warmup-plan-reports.png)
 

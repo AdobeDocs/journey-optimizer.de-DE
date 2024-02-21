@@ -5,15 +5,11 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '609'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 ## Frühzeitige Versionshinweise für Februar 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 20.-21. Februar 2024
+**Veröffentlichungsdatum**: 21.-22. Februar 2024
 
 ### Neue Funktionen{#e-features}
 
@@ -51,19 +47,17 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Geschäftsregeln (Beta)</strong><br/></th>
+<th><strong>Frequenzregeln für SMS und Briefpost</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Regeln für die Frequenzlimitierung erstellen, die für SMS- und Briefpost-Kanäle gelten. Darüber hinaus können Sie Frequenzlimitierungsregeln nach Kommunikationstyp festlegen.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>Sie können nun Frequenzregeln für SMS- und Briefpost-Kanäle erstellen. Häufigkeitsregeln schließen automatisch zu oft angeforderte Profile aus Nachrichten und Aktionen aus, wenn die Frequenzlimitierung erreicht wird. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Verbesserungen {#e-improvements}
 
@@ -75,17 +69,19 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für alle Benutzer verfügbar:
 
-* Sie können jetzt **aus einer CSV-Datei hochgeladene Zielgruppen** in Journey und Kampagnen. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Sie können jetzt **Zielgruppen, die durch die Zielgruppenzusammensetzung erstellt wurden** und nutzen Anreicherungsattribute in Journey. [Weitere Informationen](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar.
+* Sie können jetzt **aus einer CSV-Datei hochgeladene Zielgruppen** in Journey und Kampagnen. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar.
+  >* Bitte beachten Sie, dass der Zielgruppen-Upload aus einer CSV-Dateiverbesserung im Laufe von mehreren Tagen nach der ersten Veröffentlichung schrittweise durchgeführt wird. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es jedoch zu einer Verzögerung kommen, bevor sie in ihren Konten verfügbar werden.
 
 **Journeys**
 
-* **Journey filtern** - Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums veröffentlicht wurden.
-* **Benutzerdefinierte Aktionen** - Sie können jetzt die Kopfzeile &quot;content-type&quot;in **benutzerdefinierte Aktionen**.
+* **Journey filtern** - Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums erstellt oder veröffentlicht wurden.
+* **Benutzerdefinierte Aktionen** - Sie können jetzt die **content-type** -Kopfzeile. Diese neue **content-type** sollte auf JSON-Inhalte verweisen.
 * **Konfiguration** - Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert.
 * **Benutzeroberfläche** - Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
 
@@ -95,7 +91,7 @@ Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für al
 
 **Kampagnen**
 
-* **API-gesteuerte Kampagnen** - Informationen wurden im **cURL-Anfrage** Abschnitt **API-gesteuerte Kampagnen** in **Entwurf** -Status, um anzugeben, dass die Beispiel-cURL-Anforderung erst sichtbar ist, nachdem die Kampagne veröffentlicht und ausgeführt wurde.
+* **API-gesteuerte Kampagnen** - Der cURL-Code, der nach der Aktivierung einer API-gesteuerten Kampagne generiert wurde, wurde verbessert. Es enthält jetzt alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden.
 
 **Entscheidungs-Management**
 
@@ -104,4 +100,9 @@ Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für al
 **Inhaltsvorlagen**
 
 * **Miniatur** - A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
-* **Mehrkanalvorlagen** - Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web.
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wurde unter &quot;Eingeschränkte Verfügbarkeit&quot;(LA) für eine kleine Gruppe von Kunden veröffentlicht.
+
+* **Mehrkanalvorlagen** - Inhaltsvorlagen sind jetzt verfügbar für **alle Kanäle**, außer Web. Für E-Mail können Sie jetzt den Typ (HTML oder Inhalt) auswählen.
