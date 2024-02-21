@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
 source-wordcount: '1797'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -81,17 +81,17 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
 
    ![](assets/subdomain-submit.png)
 
-1. Richten Sie den DMARC-Datensatz ein. Wenn die Subdomain über einen vorhandenen DMARC-Datensatz verfügt und von abgerufen wird [!DNL Journey Optimizer]können Sie dieselben Werte verwenden oder nach Bedarf ändern. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Weitere Informationen](dmarc-record.md)
+1. Richten Sie einen DMARC-Eintrag ein. Wenn die Subdomain über einen bestehenden DMARC-Eintrag verfügt und dieser von [!DNL Journey Optimizer] abgerufen wird, können Sie dieselben Werte verwenden oder sie nach Bedarf ändern. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Weitere Informationen](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
-1. Klicken Sie auf **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Absenden]**.
 
    >[!NOTE]
    >
    >Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
-1. Die Subdomäne wird in der Liste mit der **[!UICONTROL Verarbeitung]** -Status. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#access-delegated-subdomains).
+1. Die Subdomain wird in der Liste mit dem Status **[!UICONTROL Bearbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wir
 >
 >Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] derzeit nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während eine andere den Status **[!UICONTROL Verarbeitung läuft]** hat, erhalten Sie eine Fehlermeldung.
 
-## Einrichten der CNAME-Subdomain {#cname-subdomain-delegation}
+## Einrichten einer CNAME-Subdomain {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wir
 
 Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass Adobe nur eine teilweise Kontrolle über den DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
 
-Mit der Einrichtung von CNAME-Subdomains können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
+Mit der Einrichtung einer CNAME-Subdomain können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ Mit der Einrichtung von CNAME-Subdomains können Sie eine Subdomain erstellen un
 
 ➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen](#video)
 
-Gehen Sie wie folgt vor, um eine Subdomain mit CNAME einzurichten:
+Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte aus:
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
@@ -157,7 +157,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME einzurichten:
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Richten Sie den DMARC-Datensatz ein. Wenn die Subdomain über einen vorhandenen DMARC-Datensatz verfügt und von abgerufen wird [!DNL Journey Optimizer]können Sie dieselben Werte verwenden oder nach Bedarf ändern. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Weitere Informationen](dmarc-record.md)
+1. Richten Sie den DMARC-Eintrag ein. Wenn die Subdomain über einen bestehenden DMARC-Eintrag verfügt und dieser von [!DNL Journey Optimizer] abgerufen wird, können Sie dieselben Werte verwenden oder sie nach Bedarf ändern. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Weitere Informationen](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME einzurichten:
    >
    >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Einträge später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
-1. Warten Sie, bis Adobe überprüft, ob die Datensätze in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
+1. Warten Sie, bis Adobe prüft, ob diese Einträge in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
 
    >[!NOTE]
    >
