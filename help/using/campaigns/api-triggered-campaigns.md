@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 96%
 
 ---
 
 # Auslösen von Kampagnen mit APIs {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="Kampagnentyp"
->abstract="Damit eine Funktion mit eingeschränkter Verfügbarkeit Nachrichten senden kann, ohne Profile zu erstellen, führen Sie die in der Dokumentation beschriebenen Schritte aus."
 
 ## Über von einer API ausgelöste Kampagnen {#about}
 
@@ -79,7 +74,7 @@ Sie können die Kampagne jetzt über die APIs ausführen. [Weitere Informationen
 
 Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-Anfrage abrufen und in der API verwenden, um Ihre Payload zu erstellen und die Kampagne auszulösen.
 
-1. Öffnen Sie die Kampagne und kopieren Sie dann die Beispielanfrage aus dem Abschnitt **[!UICONTROL cURL-Anfrage]**.
+1. Öffnen Sie die Kampagne und kopieren Sie dann die Payload-Anfrage aus dem **[!UICONTROL cURL-Anfrage]** Abschnitt. Diese Payload enthält alle in der Nachricht verwendeten Personalisierungsvariablen (Profil und Kontext). Sie ist verfügbar, sobald die Kampagne aktiv ist.
 
    ![](assets/api-triggered-curl.png)
 

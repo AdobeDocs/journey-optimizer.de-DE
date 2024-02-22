@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 92%
+source-wordcount: '1518'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,73 @@ Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen d
 >title="Wählen Sie die Konfiguration des SMS-Anbieters aus."
 >abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldeinformationen aus."
 
-Gehen Sie wie folgt vor, um Ihren SMS-Provider mit Journey Optimizer zu konfigurieren:
+### Sinch {#sinch-api}
+
+Gehen Sie wie folgt vor, um Sinch mit Journey Optimizer zu konfigurieren:
+
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
+
+   ![](assets/sms_6.png)
+
+1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben:
+
+   * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
+
+   * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+
+   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+
+   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
+
+   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+
+   * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
+
+   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+
+   * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
+
+   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird.
+
+1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+Gehen Sie wie folgt vor, um Twilio mit Journey Optimizer zu konfigurieren:
+
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
+
+   ![](assets/sms_6.png)
+
+1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben:
+
+   * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
+
+   * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Zugriff auf die **Kontoinformationen** auf Ihrer Twilio Console Dashboard-Seite, um Ihre Anmeldedaten zu finden.
+
+   * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in der [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.
+
+### Infobip {#infobip-api}
+
+Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -67,63 +133,34 @@ Gehen Sie wie folgt vor, um Ihren SMS-Provider mit Journey Optimizer zu konfigur
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben.
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-   * +++ Für **[!DNL Sinch]**
+   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Homepage Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf, um Ihre Anmeldeinformationen zu finden. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
+   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
 
-      * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-      * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
+   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die Standardeinstellung bzw. die Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
 
-      * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
+   * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
 
-      * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
+   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
 
-      * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-      * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird.
-+++
+   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
 
-   * +++ Für **[!DNL Twilio]**
+   * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double-Opt-in-Bestätigung gesendet wird.
 
-      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
+   * **[!UICONTROL Prinzipalentitäts-ID]**: Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein.
 
-      * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Rufen Sie den Bereich mit den Kontoinformationen Ihrer Twilio Console-Dashboard-Seite auf. Dort finden Sie Ihre Anmeldedaten.
+   * **[!UICONTROL Inhaltsvorlagen-ID]**: Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein.
 
-      * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in der [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Gültigkeitszeitraum]**: Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden an. Wenn Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden.
 
-+++
+   * **[!UICONTROL Callback-Daten]**: Geben Sie die zusätzlichen Client-Daten ein, die an die Benachrichtigungs-URL gesendet werden.
 
-   * +++ Für **[!DNL Infobip]**
-
-      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
-
-      * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL Double-Opt-in-Schlüsselwörter]**: Geben Sie die Schlüsselwörter ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
-
-      * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double-Opt-in-Bestätigung gesendet wird.
-
-      * **[!UICONTROL Prinzipalentitäts-ID]**: Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein.
-
-      * **[!UICONTROL Inhaltsvorlagen-ID]**: Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein.
-
-      * **[!UICONTROL Gültigkeitszeitraum]**: Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden an. Wenn Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden.
-
-      * **[!UICONTROL Callback-Daten]**: Geben Sie die zusätzlichen Client-Daten ein, die an die Benachrichtigungs-URL gesendet werden.
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.

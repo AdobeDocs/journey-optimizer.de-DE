@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerdefiniert
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,7 @@ Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelem
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Sie können eine Zeitzone auswählen oder die Zeitzone verwenden, die im Benutzerprofil definiert ist.
-
->[!NOTE]
->
->Die Zeitzone des Profils verwendet das Feld **timeZone** in der Feldergruppe **Voreinstellungsdetails**.
+Sie können eine [feste Zeitzone](#fixed-timezone) oder die Zeitzone verwenden [im Benutzerprofil definiert](#timezone-from-profiles).
 
 ## Definieren einer festen Zeitzone {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Wenn das Eintrittsereignis der Journey einen Namespace hat, was bedeutet, dass d
 Wenn für ein Profil eine Zeitzone definiert wurde, wird diese abgerufen und von der Journey verwendet. Ist dies nicht der Fall, wird die im Zeitzonenfeld definierte Zeitzone verwendet.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>Die Zeitzone des Profils verwendet das Feld **timeZone** in der Feldergruppe **Voreinstellungsdetails**.
 
 ## Verwenden von Zeitzonen in Ausdrücken {#timezone-in-expressions}
 

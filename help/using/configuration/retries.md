@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 70%
 
 ---
 
 # Weitere Zustellversuche {#retries}
 
-Wenn eine Nachricht aufgrund eines temporären Fehlers des Typs **Softbounce** fehlschlägt, werden weitere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
+Wenn eine E-Mail-Nachricht aufgrund eines temporären **Softbounce** -Fehler für eine bestimmte Adresse, werden mehrere weitere Versuche durchgeführt. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Grenzwert erreicht, wird die E-Mail-Adresse der Unterdrückungsliste hinzugefügt.
 
 >[!NOTE]
 >
@@ -28,9 +28,17 @@ In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
 * Beim fünften Fehler bei demselben Versand innerhalb des [Wiederholungszeitraums](#retry-duration) wird die Adresse unterdrückt.
 
-* Wenn es unterschiedliche Sendungen gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim fünften Versuch unterdrückt.
+* Bei unterschiedlichen Sendungen und zwei Fehlern im Abstand von mindestens 24 Stunden wird der Fehlerzähler bei jedem Fehler inkrementiert und die Adresse beim fünften Versuch ebenfalls unterdrückt. Fehler werden für jede Adresse kumulativ angezeigt.
 
 Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich ist, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
+
+Beispiel:
+
+* Sie senden am Montag eine E-Mail mit einem Wiederholungszeitraum von 24 Stunden. Die Adresse emma.jones@mail.com kann nicht zugestellt werden. Die E-Mail wird bis zu dreimal wiederholt und versucht nicht mehr, den 24-Stunden-Wiederholungszeitraum zu erreichen.
+
+* Sie senden am Mittwoch eine weitere E-Mail. Auch die Datei emma.jones@mail.com, die bereits eine Fehleranzahl von drei Fehlern aufweist, wird angesprochen und kann erneut nicht - zweimal - bereitgestellt werden. Zwei weitere Fehler werden berücksichtigt.
+
+Wenn kein anderer Versand zwischen diesen beiden E-Mails durchgeführt und erfolgreich durchgeführt wurde, wird die Adresse emma.jones@mail.com aufgrund der kumulativen Auswirkung von 3 + 2 Fehlern der Unterdrückungsliste hinzugefügt.
 
 ## Bearbeitung des Schwellenwerts für Wiederholungsversuche {#edit-retry-threshold}
 

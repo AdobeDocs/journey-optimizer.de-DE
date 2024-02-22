@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
-workflow-type: ht
-source-wordcount: '746'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Identitätsverwaltung | **[!DNL Manage identity namespaces]**: Lesen, Erstellen und Bearbeiten von Identity-Namespaces.</br>**[!DNL View identity namespaces]**: Nur-Lese-Zugriff auf Identity-Namespaces.</br>**[!DNL Manage identity settings]**: Lesen, Erstellen und Bearbeiten von Identitätseinstellungen.</br>**[!DNL View identity settings]**: Nur-Lese-Zugriff auf Identitätseinstellungen.</br>**[!DNL View identity graph]**: Nur-Lese-Zugriff für Identitätsdiagramme. |
 | Journey Optimizer-Bibliothek | **[!DNL Manage Library Items]**: Hinzufügen und Löschen gespeicherter Ausdrücke in der [!DNL Journey Optimizer] Bibliothek.</br>**[!DNL Simulate content]**: Zugriff auf die Option „Inhalt simulieren“ für Vorschau und Testversand. |
 | Journey Optimizer-Regeln | **[!DNL View frequency rules]**: Nur-Lese-Zugriff auf Regeln.</br>**[!DNL Manage frequency rules]**: Zugreifen auf und Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten. |
-| Journeys | **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</br>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</br> |
+| Journeys | **[!DNL Manage journeys]**: Journey lesen, erstellen, bearbeiten und löschen. Um auf Journey zuzugreifen und diese zu verwalten, kombinieren Sie diese Berechtigung mit **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</br> |
 | Profilverwaltung | **[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen, die für Kundenprofile verwendet werden. Schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View profiles]**: Nur-Lese-Zugriff auf verfügbare Profile.</br>**[!DNL Export audience segments]**: Exportieren eines ausgewerteten Zielgruppensegments in einen Datensatz.</br>**[!DNL View segments]**: Schreibgeschützter Zugriff auf verfügbare Zielgruppen.</br>**[!DNL Evaluate a segment to an audience]**: Generieren von Profilen für eine Zielgruppe, indem eine Segmentdefinition ausgewertet wird.</br>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</br>**[!DNL View merge policies]**: Nur-Lese-Zugriff auf verfügbare Zusammenführungsrichtlinien. |
 | Abfrage-Service | **[!DNL Manage queries]**: Lesen, Erstellen, Bearbeiten und Löschen strukturierter SQL-Abfragen für Platform-Daten.</br>**[!DNL Manage query service integration]**: Erstellen, Aktualisieren und Löschen nicht ablaufender Anmeldedaten für den Zugriff auf den Abfrage-Service. |
 | Sandbox-Administration | **[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox.</br>**[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen. |

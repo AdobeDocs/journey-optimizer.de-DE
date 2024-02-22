@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 94%
+source-wordcount: '1119'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 94%
 
 Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder in eine Journey eintreten, indem Sie kanalübergreifende Regeln festlegen, mit denen zu oft angesprochene Profile automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
-So könnte es beispielsweise für eine Marke eine Regel sein, ihren Kundinnen und Kunden pro Monat maximal drei Marketing-Nachrichten zu senden. Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+So kann es beispielsweise für eine Marke vorkommen, dass pro Monat maximal vier Marketing-Nachrichten an ihre Kunden gesendet werden. Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    ![](assets/message-rules-create.png)
 
-1. Definieren Sie den Namen der Regel.
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. Wählen Sie die Kategorie der Nachrichtenregel aus.
+1. Definieren Sie den Regelnamen und wählen Sie die Kategorie der Nachrichtenregel aus.
 
    >[!NOTE]
    >
    >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** verfügbar.
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. Aus dem **[!UICONTROL Dauer]** Dropdownliste einen Zeitrahmen für die Anwendung der Begrenzung auswählen.
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
 
@@ -101,7 +99,7 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. Wählen Sie den Kanal aus, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]** oder **[!UICONTROL Push-Benachrichtigung]**.
+1. Wählen Sie den Kanal aus, den Sie für diese Regel verwenden möchten: **[!UICONTROL Email]**, **[!UICONTROL Push-Benachrichtigung]**, **[!UICONTROL SMS]** oder **[!UICONTROL Briefpost]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. [](#create-new-rule)Erstellen Sie eine Regel mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
-   * Wählen Sie die Kanäle „E-Mail“ und „Push“ aus.
+   * Alle Kanäle auswählen.
    * Legen Sie die Begrenzung auf 12 Monate fest.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. Speichern und [aktivieren](#activate-rule) Sie die Regel.
 
-1. Erstellen Sie eine E-Mail und wählen Sie die Kategorie **[!UICONTROL Marketing]** für diese Nachricht aus. [Weitere Informationen](../email/create-email.md)
+1. [Nachricht erstellen](../building-journeys/journeys-message.md) für jeden Kanal, über den Sie kommunizieren möchten, und wählen Sie die **[!UICONTROL Marketing]** Kategorie für jede Nachricht. [Erfahren Sie, wie Sie eine Frequenzregel anwenden](#apply-frequency-rule)
 
-1. Erstellen Sie eine Push-Benachrichtigung und wählen Sie die Kategorie **[!UICONTROL Marketing]** für diese Nachricht aus. [Weitere Informationen](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 In diesem Szenario kann ein einzelnes Profil:
 * monatlich bis zu 12 Marketing-Nachrichten erhalten;

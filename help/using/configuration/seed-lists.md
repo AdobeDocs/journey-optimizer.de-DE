@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ Testadressenlisten in [!DNL Journey Optimizer] ermöglichen es Ihnen, automatisc
 >[!CAUTION]
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
->
->Varianten werden derzeit nicht unterstützt. Genauso wie jedes Profil aus der Zielgruppe erhalten die Testadressen eine Kopie jeder Nachricht, jedoch nicht alle Varianten derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../campaigns/get-started-experiment.md)).
 
 Testadressen ermöglichen den Versand an Empfängerinnen und Empfänger, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb des Versandumfangs liegen, die Nachricht so erhalten, wie es jede andere Person innerhalb der Zielgruppe würde.
 
@@ -47,6 +45,10 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 +++
 
 * Ein weiterer Grund für die Verwendung von Testadressenlisten ist der Schutz Ihrer Mailing-Liste. Wenn Sie Testadressen in Ihre Mailing-Liste einfügen, können Sie feststellen, ob letztere von einem Drittanbieter verwendet wird. Die Testadressen, die darin enthalten sind, erhalten nämlich die Sendungen, die an Ihre Mailing-Liste gesendet werden.
+
+>[!NOTE]
+>
+>Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen einer [Inhaltsexperiment](../campaigns/get-started-experiment.md)).
 
 ## Zugreifen auf Testadressenlisten {#access-seed-lists}
 
@@ -128,7 +130,7 @@ Nachdem Sie Ihre Testadressenliste erstellt haben, können Sie sie in jeder Kamp
 
 >[!CAUTION]
 >
->Nachrichten, die an Testadressen gesendet werden, sind nicht in Berichten enthalten.
+>Nachrichten, die an Testadressen gesendet werden, sind nicht in Journey- oder Kampagnenberichten enthalten.
 
 1. Erstellen Sie eine Oberfläche und wählen Sie dann den Kanal **[!UICONTROL E-Mail]** aus. [Weitere Informationen](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an 
 
 >[!NOTE]
 >
->Bei Journeys wird der E-Mail-Versand an die Testadressen nur bei der ersten Ausführung der Journey durchgeführt.
+>Bei Journey wird der E-Mail-Versand nur bei der ersten Ausführung der Journey an die Testadressen gesendet.

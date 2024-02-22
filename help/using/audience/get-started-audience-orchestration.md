@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,15 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Zielgruppen zu erstellen.
 
-Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden**, um Kunden anzusprechen. [Mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
+Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen und -Journey für die Kundenansprache genutzt werden. [Erfahren Sie, wie Sie in Journey Optimizer Zielgruppen auswählen](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Derzeit ist in Journeys die Verwendung von Zielgruppen, die aus Kompositions-Workflows resultieren, als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Verwendung von Zielgruppen und Attributen aus Zielgruppenzusammensetzung und benutzerspezifischem Upload ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 >
->Kampagnen in Adobe Journey Optimizer sind noch nicht mit dem Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
+>Anreicherungsattribute sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, nicht in Journey Optimizer-Kampagnen oder -Journey erzwungen.
 
 Auf die Zielgruppenkomposition kann über das Menü **[!UICONTROL Zielgruppen]** von Adobe Journey Optimizer zugegriffen werden:
 

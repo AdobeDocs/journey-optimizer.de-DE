@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 99%
+source-wordcount: '969'
+ht-degree: 94%
 
 ---
 
@@ -126,9 +126,9 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die
 
 >[!IMPORTANT]
 >
->Derzeit ist die Verwendung von Zielgruppen, [die aus einer CSV-Datei in Kampagnen importiert werden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience), als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Verwendung von Zielgruppen und Attributen aus [Zielgruppenzusammensetzung](../audience/get-started-audience-orchestration.md) und [benutzerdefinierter Upload (CSV-Datei)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutzschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 >
->Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
+>Für API-gesteuerte Kampagnen muss die Zielgruppe über API-Aufruf festgelegt werden.
 
 Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll.
 

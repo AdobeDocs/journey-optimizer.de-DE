@@ -8,44 +8,51 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 92%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
-Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokumentation.
+Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
 
 ## Februar 2024 {#feb-2024}
 
 * Es wurden Informationen hinzugefügt, wie die Darstellungen von Angeboten basierend auf Kontextdaten personalisiert werden können. [Weitere Informationen](../offers/offer-library/add-representations.md#context-data)
+* Die Seite &quot;Limits&quot;wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
+* Es wurden zusätzliche Informationen zum grundlegenden Authentifizierungstyp in externen Datenquellen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md)
+* Es wurde ein Hinweis hinzugefügt, in dem die [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) aus dem [Personalisierungseditor](../personalization/functions/functions.md).
+* Die Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen wurde aktualisiert - [Weitere Informationen](../building-journeys/expression/functions.md)
+* Die Seite der Aufspaltungsfunktion wurde aktualisiert - [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
+* Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
+* Die Seite mit den Regeln für die Nachrichtenhäufigkeit wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich). [Weitere Informationen](../configuration/frequency-rules.md)
 
 ## Januar 2024 {#jan-2024}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Januar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Januar 2024 werden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein Schutzmechanismus im Hinblick auf die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout) detailliert beschrieben.
 * Die [Dokumentations-Startseite](../../ajo-home.md) von Journey Optimizer wurde neu gestaltet.
 * Empfehlungen zur Aktivität „Profile aktualisieren“ wurde hinzugefügt.  [Weitere Informationen](../building-journeys/update-profiles.md)
-* Es wurden Informationen zum Verhalten von Timeouts bei Ereignisaktivitäten in Journey hinzugefügt. Wenn während des angegebenen Timeout-Zeitraums kein Ereignis empfangen wird, setzen Einzelpersonen die Journey fort, wenn kein Timeout-Pfad definiert ist. [Weitere Informationen](../building-journeys/general-events.md#events-specific-time)
+* Informationen zum Verhalten von Timeouts bei Ereignisaktivitäten in Journeys wurden hinzugefügt. Wenn während des angegebenen Timeout-Zeitraums kein Ereignis empfangen wird, setzen Einzelpersonen die Journey fort, wenn kein Timeout-Pfad definiert ist. [Weitere Informationen](../building-journeys/general-events.md#events-specific-time)
 * Die Voraussetzungen für die Konfiguration von In-App-Kanälen wurden mit einem Hinweis zur Verwendung einer benutzerdefinierten Zusammenführungsrichtlinie für Datensatzpräferenzen aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
-* Es wurden weitere Details zum Bearbeiten von Sammlungen in einer benutzerdefinierten Aktionsantwort hinzugefügt. [Weitere Informationen](../action/action-response.md#exp-syntax).
+* Es wurden weitere Details zum Bearbeiten von Sammlungen in einer Antwort mit einer benutzerdefinierten Aktion hinzugefügt. [Weitere Informationen](../action/action-response.md#exp-syntax).
 * Ein Link zum [Schema-Wörterbuch für Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) wurde der Startseite hinzugefügt.
-* Ein veralteter Verweis auf die AJO Message-Ressource wurde aus der Liste der im Auditprotokoll verfügbaren Ressourcen entfernt. Wenn eine Aktualisierung einer Nachricht in einer Journey durchgeführt wird, wird ein **Journey** -Protokoll erstellt. [Weitere Informationen](../privacy/audit-logs.md)
-* Zusätzliche Empfehlungen zur Verwendung der **Audience lesen** -Aktivität. [Weitere Informationen](../building-journeys/read-audience.md#must-read)
-* Die Seite Erste Schritte mit Adobe Experience Platform-Zielgruppen wurde mit einer Liste von Methoden zur Zielgruppenerstellung verbessert. [Weitere Informationen](../audience/about-audiences.md)
-* Bei der Auswahl eines Endpunkts für das Targeting mithilfe einer benutzerdefinierten Aktion wurden Best Practices hinzugefügt. [Weitere Informationen](../action/about-custom-action-configuration.md)
-* Es wurde ein Hinweis hinzugefügt, der Benutzer darauf hinweist, dass Ereignisse nicht mithilfe einer API aus externen Systemen ausgelöst werden können. [Weitere Informationen](../building-journeys/testing-the-journey.md#important-notes)
-* Informationen über **currentActionField** zur Liste der [Sammlungsverwaltungsfunktionen](../building-journeys/expression/collection-management-functions.md). Ein Ausdruck-Beispiel, das die Funktion nutzt, wurde im [API-Aufrufantworten in benutzerdefinierten Aktionen verwenden](../action/action-response.md) Seite.
-* Aktualisieren Sie das benutzerdefinierte Authentifizierungsdokument bezüglich der Aufbewahrungsfrist im Cache. [Mehr dazu] (../datasource/external-data-sources.md)
-* Unterstützung `<listObject>` wurde in mehreren Funktionen geändert.
-* Aktualisieren Sie die **duration** -Parameter in der `toString` -Funktion. [Weitere Informationen](../building-journeys/functions/functiontostring.md)
+* Ein veralteter Verweis auf die AJO-Nachrichten-Ressource wurde aus der Liste der im Administrationsprotokoll verfügbaren Ressourcen entfernt. Wenn eine Aktualisierung einer Nachricht in einer Journey durchgeführt wird, wird ein **Journey-Protokoll** erstellt. [Weitere Informationen](../privacy/audit-logs.md)
+* Zusätzliche Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** wurden hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md#must-read)
+* Die Seite „Erste Schritte mit Adobe Experience Platform-Zielgruppen“ wurde mit einer Liste von Methoden zur Erstellung von Zielgruppen verbessert. [Weitere Informationen](../audience/about-audiences.md)
+* Bei der Auswahl eines mit einer benutzerdefinierten Aktion anzusprechenden Endpunkts wurden Best Practices hinzugefügt. [Weitere Informationen](../action/about-custom-action-configuration.md)
+* Es wurde ein Hinweis hinzugefügt, der Benutzende darauf hinweist, dass Ereignisse nicht mithilfe einer API aus externen Systemen ausgelöst werden können. [Weitere Informationen](../building-journeys/testing-the-journey.md#important-notes)
+* Informationen über die Funktion **currentActionField** wurden der Liste der [Funktionen zur Verwaltung von Sammlungen](../building-journeys/expression/collection-management-functions.md) hinzugefügt. Ein Ausdruck-Beispiel, das die Funktion nutzt, wurde zur Seite [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](../action/action-response.md) hinzugefügt.
+* Aktualisierung des benutzerdefinierte Authentifizierungsdokuments bezüglich der Aufbewahrungsfrist im Cache. [Weitere Informationen] (../datasource/external-data-sources.md)
+* Die Unterstützung für `<listObject>` wurde in mehreren Funktionen geändert.
+* Aktualisierung des Parameters **Dauer** in der Funktion `toString`. [Weitere Informationen](../building-journeys/functions/functiontostring.md)
 * Für einige Anwendungsfälle externer Datenquellen wird die Verwendung benutzerdefinierter Aktionen empfohlen.
-* Die Syntax für Ereignisfelder wurde aktualisiert. Die folgende Syntax wird nicht mehr unterstützt `@(my_event.myfield}` und ersetzt durch `@event{my_event.myfield}`. [Weitere Informationen](../building-journeys/expression/field-references.md)
-* Die Handbücher für globale Berichte und Live-Berichte wurden umstrukturiert - [Weitere Informationen](../reports/campaign-global-report.md)
+* Die Syntax für Ereignisfelder wurde aktualisiert. Die Syntax `@(my_event.myfield}` wird nicht mehr unterstützt und wird ersetzt durch `@event{my_event.myfield}`. [Weitere Informationen](../building-journeys/expression/field-references.md)
+* Die Handbücher „Globaler Bericht“ und „Live-Bericht“ wurden neu angeordnet. [Weitere Informationen](../reports/campaign-global-report.md)
 
 
 ## November 2023 {#nov-2023}
@@ -187,7 +194,7 @@ Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokum
 ## November 2022 {#november-2022}
 
 * Es wurde eine neue Seite über Journey Optimizer-Integrationen hinzugefügt. [Mehr dazu](../start/ajo-integrations.md)
-* Es wurde eine Empfehlung zur Länge der URLs von Mirror-Seiten hinzugefügt. [Mehr dazu](../email/message-tracking.md)
+* Es wurde eine Empfehlung zur Länge der URLs von Mirrorseiten hinzugefügt. [Mehr dazu](../email/message-tracking.md)
 * In der Konfiguration der E-Mail-Einstellungen wurde ein neuer Unterabschnitt über die E-Mail-Adresse, an die geantwortet werden soll, hinzugefügt, der Empfehlungen für eine ordnungsgemäße Antwortverwaltung enthält. [Mehr dazu](../email/email-settings.md#reply-to-email)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie der Inhalt einer Nachricht in einer Live-Journey geändert werden kann. [Mehr dazu](../building-journeys/journeys-message.md#update-live-content)
 
@@ -321,7 +328,7 @@ Auf dieser Seite werden alle aktuellen Updates in [!DNL Journey Optimizer] Dokum
 
 ## September 2021 {#september-2021}
 
-* Die folgenden Funktionsseiten wurden aktualisiert: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* Die folgenden Funktionsseiten wurden aktualisiert: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * Die folgenden Funktionen wurden hinzugefügt: [filter](../building-journeys/functions/functionfilter.md), [intersect](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

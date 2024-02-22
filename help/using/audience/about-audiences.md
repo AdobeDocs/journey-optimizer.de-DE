@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
-workflow-type: ht
-source-wordcount: '991'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 85%
 
 ---
 
@@ -39,15 +39,11 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Sie können in Kampagnen und Journeys eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
+Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, CSV-Dateiimport oder Komprimierungs-Workflows generiert wurde.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Derzeit können Zielgruppen aus [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) nur in Kampagnen als Zielgruppe ausgewählt werden. Diese Funktion ist als private Betaversion für Journeys verfügbar.
->
->Um Zielgruppen, die [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience),{target="_blank"} in Kampagnen und Journeys zu verwenden, ist derzeit eine private Beta-Version verfügbar.
->
->Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -62,6 +58,18 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
   So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. Weitere Informationen zum Verwenden dieser Aktivität finden Sie unter [Erfahren Sie, wie Sie eine Zielgruppen-Qualifizierungsaktivität konfigurieren](../building-journeys/audience-qualification-events.md).
 
 * Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
+
+## Verwenden von Zielgruppen-Anreicherungsattributen in Journey Optimizer {#enrichment}
+
+Beim Targeting einer Audience, die mithilfe von Komposition-Workflows oder benutzerdefiniertem Upload (CSV-Datei) generiert wurde, können Sie Anreicherungsattribute aus diesen Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+
+* Erstellen Sie in einer Journey mehrere Pfade basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Wählen Sie dazu die Zielgruppe mithilfe einer [Audience lesen](../building-journeys/read-audience.md) -Aktivität erstellen und dann Regeln in einer [Bedingung](../building-journeys/condition-activity.md) Aktivität, die auf den Anreicherungsattributen der Zielgruppe basiert.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* Personalisieren Sie Ihre Nachrichten in Journey oder Kampagnen, indem Sie im Ausdruckseditor Anreicherungsattribute aus der Zielgruppe hinzufügen. [Erfahren Sie, wie Sie mit dem Ausdruckseditor arbeiten.](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 

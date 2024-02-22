@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 38f85467256b22a6f05fee8137bc76b0d99c4e6e
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '1140'
+ht-degree: 56%
 
 ---
 
@@ -25,6 +25,102 @@ ht-degree: 95%
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
+
+## Februar 2024 – Versionshinweise {#feb-2024}
+
+**Veröffentlichungsdatum**: 21.-22. Februar 2024
+
+### Neue Funktionen{#feb-features}
+
+Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Web-In-App-Nachrichten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt die neue Web-In-App-Messaging-Funktion verwenden, um personalisierte Inhalte direkt auf Websites über modale Überlagerungsnachrichten anzuzeigen. Diese Funktion ermöglicht es Ihnen, effektiv mit Webbesuchern zu interagieren und die Benutzerinteraktion, -bindung und Konversionsraten zu verbessern.<br/><br/></p>
+<p>Weitere Informationen finden Sie in der <a href="../in-app/create-in-app-web.md">ausführlichen Dokumentation</a>.<br></br></p>
+<img src="assets/do-not-localize/web_inapp.gif">
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhaltsvorlagen für mehrere Kanäle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Neben E-Mail stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: Push, In-App, SMS und Briefpost, wobei jeder Kanal über dedizierte Vorlagentypen verfügt. Für E-Mail können Sie jetzt den Inhaltstyp auswählen, mit dem Sie die Betreffzeile als Teil Ihrer E-Mail-Vorlage speichern können. <br/><br/></p>
+<p>Weitere Informationen finden Sie in der <a href="../content-management/content-templates.md">ausführlichen Dokumentation</a>.<br></br></p>
+<img src="assets/do-not-localize/multi-chan-templates.gif">
+</tr>
+</tbody>
+</table>
+
+
+### Verbesserungen {#feb-improvements}
+
+Diese Version enthält die unten aufgeführten Verbesserungen.
+
+**Zielgruppen**
+
+* **Testadressen** - Bei Verwendung von **Testadressen**. Die Testadressen erhalten eine Kopie aller Varianten der gleichen Nachricht (z. B. die verschiedenen Behandlungen eines Inhaltserprobungs). [Weitere Informationen](../configuration/seed-lists.md)
+
+Zuvor als Beta-Version verfügbar, sind nun die folgenden Verbesserungen für alle Benutzer verfügbar:
+
+* Sie können jetzt **Zielgruppen, die durch die Zielgruppenzusammensetzung erstellt wurden** und nutzen Anreicherungsattribute in Journey. [Weitere Informationen](../building-journeys/read-audience.md)
+
+* Sie können jetzt **aus einer CSV-Datei hochgeladene Zielgruppen** in Journey und Kampagnen. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar.
+  >* Die **Zielgruppen-Upload aus einer CSV-Datei** Die Verbesserung wird im Laufe von mehreren Tagen nach der ersten Veröffentlichung schrittweise eingeführt. Einige Benutzer haben zwar sofortigen Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihrer Umgebung verfügbar sind.
+
+**Journeys**
+
+* **Journey filtern** - Sie können jetzt **Benutzerdefinierte Datumswerte zum Filtern der Journey** Inventar, zusätzlich zu den vorhandenen vordefinierten Datumsfiltern. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums erstellt oder veröffentlicht wurden. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
+* **Benutzerdefinierte Aktionen** - Sie können jetzt die **content-type** -Kopfzeile. Diese neue **content-type** sollte auf JSON-Inhalte verweisen. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
+* **Konfiguration** - Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert. [Weitere Informationen](../reports/sharing-field-list.md)
+* **Benutzeroberfläche** - Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird. [Weitere Informationen](../building-journeys/journey-gs.md#change-properties)
+
+**SMS-Kanal**
+
+* **Opt-in-/Opt-out-Keywords** - Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** gemäß Ihren Voreinstellungen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+
+**Kampagnen**
+
+* **API-gesteuerte Kampagnen** - Der cURL-Code, der nach der Aktivierung einer API-gesteuerten Kampagne generiert wurde, wurde verbessert. Es enthält jetzt alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#execute)
+
+**Frequenzregeln**
+
+* Zusätzlich zu E-Mail und Push können Sie jetzt Frequenzregeln für SMS- und Briefpost-Kanäle erstellen. Häufigkeitsregeln schließen automatisch zu oft angeforderte Profile aus Nachrichten und Aktionen aus, wenn die Frequenzlimitierung erreicht wird. [Weitere Informationen](../configuration/frequency-rules.md)
+
+<!--**Decision management**
+
+* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
+
+<!--
+**Content templates**
+
+* **Thumbnails** - A **Grid view** is now available for content templates for improved visual access.
+
+   >[!AVAILABILITY]
+   >
+   >This capability is released in Limited Availability (LA) for a small set of customers.
+-->
+
 
 ## Januar 2024 – Versionshinweise {#jan-2024}
 
@@ -96,6 +192,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Häufigkeitsregeln**
 
 * **Wöchentliche und tägliche Frequenzbegrenzung** – Sie können jetzt neben der monatlichen Anzahl auch die maximale Anzahl an Nachrichten festlegen, die in einer Woche oder an einem Tag an ein Kundenprofil gesendet werden. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitraums zurückgesetzt. [Weitere Informationen](../configuration/frequency-rules.md#create-new-rule)
+
 
 **Entscheidungs-Management**
 

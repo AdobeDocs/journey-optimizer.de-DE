@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 91%
 
 ---
 
@@ -44,6 +44,10 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 Klicken Sie auf die Schaltfläche „+“, um Ihrem Personalisierungsausdruck ein Attribut hinzuzufügen.
 
 Über das Menü mit den Auslassungspunkten neben dem Symbol „+“ können Sie weitere Details für jede Variable abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. [Erfahren Sie, wie Sie Attribute zu den Favoriten hinzufügen können](personalization-favorites.md)
+
+>[!NOTE]
+>
+>Wenn Sie eine Audience mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Nachricht zu personalisieren. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute verwenden](../audience/about-audiences.md#enrichment)
 
 Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 

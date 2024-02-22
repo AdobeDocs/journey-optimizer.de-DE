@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,8 +53,7 @@ Verstehen Sie anhand der folgenden Tabelle, welche Journey Optimizer-Datensätze
 | AJO-Push-Tracking-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. | Prime |
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Journey Optimizer-Schema „Eingehende Oberflächen“ | Prime |
 | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die zu UPS zurückgeschrieben werden sollen | Prime |
-| Profildatensatz für Zielgruppenorchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Zielgruppen der Zielgruppenkomposition, ihre Attribute und Anreicherungsdaten | Prime |
-| Entscheidungsobjekt-Repository – Aktivitäten | Auch als „Entscheidungen“ in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll. | Ultimate |
+| Profildatensatz für Zielgruppenorchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Zielgruppen &quot;Zielgruppenkomposition&quot;, deren Attribute und Anreicherungsdaten | Prime | | Decision Object Repository - Aktivitäten | auch als Entscheidungen in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll. | Ultimate |
 | Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, der von Benutzenden erstellt wird. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp | Ultimate |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, der von Benutzenden erstellt wird. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp | Ultimate |
 | Entscheidungsobjekt-Repository – Platzierungen | Dies ist das Repository von Objekten, die die Position definieren, an der ein Angebot angezeigt werden soll. | Ultimate |

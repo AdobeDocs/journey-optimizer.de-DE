@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1736'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
       + Funktionen {#main-functions-journey}
          + [Hauptfunktionen](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Aggregation {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,7 +205,8 @@ ht-degree: 100%
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
-   + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
+   + [Mobile In-App-Nachricht erstellen](using/in-app/create-in-app.md)
+   + [Web-In-App-Nachricht erstellen](using/in-app/create-in-app-web.md)
    + [Gestalten der App-Inhalte](using/in-app/design-in-app.md)
    + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
 + Push-Benachrichtigungs-Kanal{#push}

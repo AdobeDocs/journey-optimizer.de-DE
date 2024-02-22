@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Ausdrücke werden von links nach rechts ausgewertet. Die Assoziativität bei ari
 Im Folgenden finden Sie die verschiedenen Regeln zur Groß- und Kleinschreibung:
 
 * Alle Operatoren (and, or usw.) müssen in Kleinbuchstaben geschrieben werden. Beispiel: _`<expression1>`and`<expression2>`_ ist ein gültiger Ausdruck, _`<expression1>`AND`<expression2>`_ hingegen nicht.
-* Bei allen Funktionsnamen ist die Groß-/Kleinschreibung zu berücksichtigen. Beispielsweise ist _inSegment()_ gültig, die Funktion _INSEGMENT()_ dagegen nicht.
+* Bei allen Funktionsnamen ist die Groß-/Kleinschreibung zu berücksichtigen. Beispiel: _inAudience()_ ist gültig, während die Funktion _INAUDIENCE()_ ist nicht.
 * Bei Feldverweisen und konstanten Werten wird zwischen Groß- und Kleinschreibung unterschieden: Sie sind keine integrierten Elemente der Sprache (im Gegensatz zu Operatoren und Funktionen), sondern werden vom Endbenutzer verfasst.
 
 ## Zurückgegebener Ausdruckstyp{#returned-expression-type}

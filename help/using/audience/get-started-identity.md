@@ -7,35 +7,26 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 10%
 
 ---
 
 # Erste Schritte mit Identitäten {#identities-gs}
 
-Eine Identität besteht aus Daten, die für eine Entität (normalerweise eine Person) eindeutig sind. Eine Identität wie z. B. eine Anmeldekennung, eine ECID oder eine Treueprogramm-ID wird als bekannte Identität bezeichnet.
+Eine Identität sind Daten, die für eine Entität eindeutig sind, normalerweise ein echtes Objekt, wie eine Person, ein Hardwaregerät oder ein Webbrowser. Eine voll qualifizierte Identität besteht aus zwei Elementen:
 
-Personenbezogene Daten (PII) wie E-Mail-Adresse und Telefonnummer dienen zur direkten Identifizierung eines Kunden. Infolgedessen werden personenbezogene Daten dazu verwendet, um verschiedene Identitäten eines Kunden systemübergreifend abzugleichen.
+* Die **Identitäts-Namespace** dient als Indikator für den Kontext, auf den sich eine Identität bezieht.
+* Die **Identitätswert** ist eine Zeichenfolge, die eine Entität darstellt.
 
-In [!DNL Adobe Journey Optimizer] verknüpfen **Identitäten** Verbraucher geräteübergreifend und kanalübergreifend. Das Ergebnis ist ein [Identitätsdiagramm](#id-graph). Das verknüpfte Identitätsdiagramm wird verwendet, um auf Erlebnissen basierende Interaktionen an allen Ihren Touchpoints zu personalisieren.
+Nehmen wir die Telefonnummer 555-555-1234. In diesem Beispiel ist die Zeichenfolge &quot;555-555-1234&quot;eine **Identitätswert**, die in eine **Telefon** Identitäts-Namespace.
+
+Die **Identitäten** Menü in [!DNL Adobe Journey Optimizer] ermöglicht Ihnen, die verschiedenen Kennungen, aus denen sich die Kunden in Ihrer Datenbank zusammensetzen, effizient zu durchsuchen.
 
 ![](assets/identities-home.png)
 
-Weitere Informationen zum **Identity Service** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
+Sie bietet eine **Identitätsdiagramm**: Hierbei handelt es sich um eine Zusammenstellung der Beziehungen zwischen verschiedenen Identitäten für einen bestimmten Kunden, die eine visuelle Darstellung der Interaktion Ihres Kunden mit Ihrer Marke über verschiedene Kanäle hinweg bietet. Alle Diagramme zur Kundenidentität werden als Reaktion auf Kundenaktivitäten vom Adobe Experience Platform Identity Service gemeinsam verwaltet und aktualisiert.
 
-## Identity-Namespaces {#identity-namespaces}
-
-**** Identity-Namespaces sind Komponenten des Identity Service, die als Indikatoren für den Kontext dienen, auf den sich eine Identität bezieht. Sie identifizieren beispielsweise den Wert `name@email.com` als E-Mail-Adresse oder `443522` als numerische CRM-ID. Das Verwenden von Identitäts-Namespaces setzt ein Verständnis der verschiedenen beteiligten Adobe Experience Platform-Dienste voraus. Bevor Sie Namespaces nutzen, lesen Sie bitte die Dokumentation für folgende Dienste:
-
-Weitere Informationen zu **Identity-Namespaces** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target="_blank"}.
-
-## Identitätsdiagramm{#id-graph}
-
-Im **Identitätsdiagramm** werden die Beziehungen zwischen den verschiedenen Identitäten eines Kunden zusammengefasst. Dort wird visuell veranschaulicht, wie der Kunde auf unterschiedlichen Kanälen mit Ihrer Marke interagiert. Alle Identitätsdiagramme werden von Adobe Experience Platform Identity Service bei Kundenaktivität nahezu in Echtzeit verwaltet und aktualisiert.
-
-Mit dem Identitätsdiagramm-Viewer in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche können Sie visualisieren und besser verstehen, welche Kundenidentitäten auf welche Weise miteinander verknüpft sind. Mit dem Viewer können Sie verschiedene Teile des Diagramms per Drag-and-drop verschieben und mit ihnen interagieren, sodass Sie komplexe Identitätsbeziehungen untersuchen, Fehler effizient beheben und von einer erhöhten Transparenz bei der Verwendung von Informationen profitieren können. 
-
-Weitere Informationen zum **Identitätsdiagramm** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=de){target="_blank"}.
+Detaillierte Informationen zum Arbeiten mit Identitäten finden Sie im Abschnitt [Dokumentation zu Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.

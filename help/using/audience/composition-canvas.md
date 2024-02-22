@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 99%
+source-wordcount: '1521'
+ht-degree: 97%
 
 ---
 
@@ -151,6 +151,7 @@ Beachten Sie die folgenden Einschränkungen bei der Aktivität **[!UICONTROL Anr
 * **Datensätze** für die Anreicherung müssen vom Eintragstyp (und nicht vom Ereignistyp) sein. Sie dürfen weder Systemdatensätze sein noch für ein Profil markiert sein. Sie müssen kleiner sein als 1 GB.
 * **Die Anreicherung unterstützt 1:1-Joins**. Wenn es für die Join-Schlüssel mehr als eine Übereinstimmung im Anreicherungsdatensatz gibt, wählt das System eine Übereinstimmung aus und verwendet diese für den 1:1-Join.
 * **Zielgruppen können in RTCDP-Zielen aktiviert werden**, aber für ihre Anreicherungsattribute, sofern vorhanden, ist dies nicht möglich.
+* Anreicherungsattribute sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, nicht in Journey Optimizer-Kampagnen oder -Journey erzwungen.
 
 Gehen Sie wie folgt vor, um die Aktivität zu konfigurieren:
 
