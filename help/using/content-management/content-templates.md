@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 50%
@@ -41,7 +41,7 @@ Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weit
 
 Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** aus dem linken Menü aus.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Alle Vorlagen, die in der aktuellen Sandbox erstellt wurden - entweder von einer Journey oder aus einer Kampagne, die die **[!UICONTROL Als Vorlage speichern]** entweder über die **[!UICONTROL Inhaltsvorlagen]** Menü - angezeigt. [Erfahren Sie, wie Sie Vorlagen erstellen](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und wählen Sie **[!UICONTROL Inhalt bearbeiten]** aus.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Um eine Vorlage zu löschen, wählen Sie die **[!UICONTROL Mehr Aktionen]** neben der gewünschten Vorlage und wählen Sie **[!UICONTROL Löschen]**.
 
@@ -202,7 +202,7 @@ Sie können das Rendering Ihrer E-Mail-Vorlagen testen, unabhängig davon, ob si
 
 1. Klicks **[!UICONTROL Inhalt simulieren]** und wählen Sie ein Testprofil aus, um Ihr Rendering zu überprüfen. [Weitere Informationen](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. Sie können einen Testversand durchführen, um Ihren Inhalt zu testen und ihn von einigen internen Benutzern genehmigen zu lassen, bevor Sie ihn in einer Journey oder Kampagne verwenden.
 
@@ -210,7 +210,7 @@ Sie können das Rendering Ihrer E-Mail-Vorlagen testen, unabhängig davon, ob si
 
    * Vor dem Testversand müssen Sie die [E-Mail-Oberfläche](../configuration/channel-surfaces.md) auswählen, die zum Testen Ihres Inhalts verwendet wird.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
