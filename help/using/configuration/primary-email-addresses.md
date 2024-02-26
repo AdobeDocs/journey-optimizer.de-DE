@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definieren der zu verwendenden Adresse"
->abstract="Bearbeiten der E-Mail-Adressen oder Telefonnummern der Profile, um zu bestimmen, welche vorrangig für den Versand verwendet werden sollen."
+>abstract="Bearbeiten Sie die Felder, die zur Bestimmung der E-Mail-Adresse oder Telefonnummer des Profils verwendet werden, um den Versand zu priorisieren."
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen oder Telefonnummern zur Verfügung (berufliche E-Mail-Adresse, persönliche Telefonnummer usw.).
 
