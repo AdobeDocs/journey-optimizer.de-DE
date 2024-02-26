@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '385'
+ht-degree: 75%
 
 ---
 
@@ -20,27 +20,27 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Die Version Januar ist live!]
+>[!TAB Die Februar-Version ist live!]
 
-Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.1.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.2.
 
-[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Obligatorische DMARC-Aktualisierung]
+>[!TAB Web-In-App-Nachrichten]
 
-Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! Sie benötigen beide eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**. Stellen Sie sicher, dass Sie den DMARC-Eintrag für alle Subdomains eingerichtet haben, die Sie in Journey Optimizer an Adobe delegiert haben.
+Sie können jetzt die neue Web-In-App-Messaging-Funktion verwenden, um personalisierte Inhalte direkt auf Websites über modale Überlagerungsnachrichten anzuzeigen. Diese Funktion ermöglicht es Ihnen, effektiv mit Webbesuchern zu interagieren und die Benutzerinteraktion, -bindung und Konversionsraten zu verbessern.
 
-[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB Anwendungsfall-Playbooks]
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-Nutzen Sie einen Katalog mit branchenspezifischen Anwendungsfall-Playbooks in Real-Time CDP und Journey Optimizer für gängige Anwendungsfälle, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.
+>[!TAB Inhaltsvorlagen für mehrere Kanäle]
 
-Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.
+Neben E-Mail stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: Push, In-App, SMS und Briefpost, wobei jeder Kanal über dedizierte Vorlagentypen verfügt. Für E-Mail können Sie jetzt den Inhaltstyp auswählen, mit dem Sie die Betreffzeile als Teil Ihrer E-Mail-Vorlage speichern können.
 
-![Animiertes Bild, das Anwendungsfall-Playbooks zeigt](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![Bild](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
