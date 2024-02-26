@@ -89,7 +89,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
    >
    >Es ist mindestens eine Strategie erforderlich. Es können nicht mehr als 10 Strategien hinzugefügt werden.
 
-1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** leitet weiter zum Menü **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Konfigurationen]**. [Weitere Informationen](selection-strategies.md)
+1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** leitet um zum Menü **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Konfigurationen]**. [Weitere Informationen](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 

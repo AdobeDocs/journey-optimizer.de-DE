@@ -31,7 +31,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|------------------|
 | string | string |
-| string searched | string |
+| string searched | Zeichenfolge |
 
 ## Signatur und zurückgegebener Typ
 

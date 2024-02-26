@@ -10,7 +10,7 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1535'
 ht-degree: 100%
 

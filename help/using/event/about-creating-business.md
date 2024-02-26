@@ -35,7 +35,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 
 ## Wichtige Hinweise {#important-notes}
 
-* Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar.
+* Es sind nur Schemata für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemata sind nicht verfügbar.
 * Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
@@ -88,7 +88,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    ![](assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. `Experience Events`-, `Decision Events`- und `Journey Step Events`-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
+   Es sind nur Schemata für Zeitreihen verfügbar. `Experience Events`-, `Decision Events`- und `Journey Step Events`-Schemata sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 
    ![](assets/test-profiles-4.png)
 

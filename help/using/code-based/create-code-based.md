@@ -189,7 +189,7 @@ Im **[!UICONTROL Live-Bericht]** der Kampagne werden auf der Registerkarte **[!U
 
 +++Weitere Informationen zu verschiedenen Metriken und Widgets, die für den Code-basierten Erlebnisbericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL Code-basierten Erlebnisleistung]** geben die wichtigsten Informationen bezüglich der Interaktion der Besucherinnen und Besucher mit den Code-basierten Erlebnissen an, z. B.:
+Die KPIs der **[!UICONTROL Code-basierten Erlebnis-Performance]** geben die wichtigsten Informationen bezüglich der Interaktion der Besucherinnen und Besucher mit den Code-basierten Erlebnissen an, z. B.:
 
 * **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzenden bereitgestellten Erlebnisse.
 
@@ -212,7 +212,7 @@ Im **[!UICONTROL globalen Bericht]** der Kampagne werden auf der Registerkarte *
 
 +++Weitere Informationen zu verschiedenen Metriken und Widgets, die für den Code-basierten Erlebnisbericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL Code-basierten Erlebnisleistung]** geben die wichtigsten Informationen bezüglich der Interaktion der Besucherinnen und Besucher mit den Erlebnissen an, z. B.:
+Die KPIs der **[!UICONTROL Code-basierten Erlebnis-Performance]** geben die wichtigsten Informationen bezüglich der Interaktion der Besucherinnen und Besucher mit den Erlebnissen an, z. B.:
 
 * **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Benutzenden, denen das Erlebnis bereitgestellt wurde.
 

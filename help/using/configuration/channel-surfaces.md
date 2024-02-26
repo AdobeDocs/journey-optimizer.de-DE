@@ -10,7 +10,7 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 

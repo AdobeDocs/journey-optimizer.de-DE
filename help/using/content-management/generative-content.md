@@ -72,7 +72,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benac
 
    Aktivieren Sie die Option **[!UICONTROL Mit aktuellen Inhalten verbessern]**, damit der Inhaltsassistent neue Inhalte basierend auf der Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe personalisiert.
 
-1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um den Inhalt zu ändern oder mehrere **[!UICONTROL Varianten]** auszuwählen, um mit **X Behandlung(en) hinzufügen** **[!UICONTROL Behandlungen]** für Experimente zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um den Inhalt zu ändern oder mehrere **[!UICONTROL Varianten]** auszuwählen, um mit **X Abwandlung(en) hinzufügen** **[!UICONTROL Abwandlungen]** für Experimente zu erstellen.
 
    ![](assets/gen-ai-title-6.png)
 

@@ -93,7 +93,7 @@ Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihr Einverstä
 
 Gehen Sie dazu wie folgt vor.
 
-1. Gehen Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** aus.
+1. Gehen Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** aus.
 
    ![](assets/preset-bcc-schema.png)
 

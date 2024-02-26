@@ -40,7 +40,7 @@ Die Widgets **[!UICONTROL Anzahl der Besuche]** und **[!UICONTROL Anzahl der Bes
 
 * **[!UICONTROL Unique Visitors]**: Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrere Besuche eines Empfängers nicht berücksichtigt werden.
 
-Das Widget **[!UICONTROL Leistung der Landingpage]** stellt anhand von KPIs die wichtigsten Informationen bezüglich Ihrer Nachricht dar:
+Das Widget **[!UICONTROL Performance der Landingpage]** stellt anhand von KPIs die wichtigsten Informationen bezüglich Ihrer Nachricht dar:
 
 * **[!UICONTROL Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich über ein Formular angemeldet haben, bezogen auf die Gesamtzahl der Besuche.
 

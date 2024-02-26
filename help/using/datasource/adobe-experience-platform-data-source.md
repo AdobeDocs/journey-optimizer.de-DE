@@ -47,7 +47,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
    ![](assets/journey24.png)
 
-1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in Adobe Experience Platform verfügbaren Profil- und Erlebnisereignisschemas aufgelistet. Die Schemaerstellung wird nicht in [!DNL Journey Optimizer] durchgeführt. Sie wird in Adobe Experience Platform durchgeführt.
+1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in Adobe Experience Platform verfügbaren Profil- und Erlebnisereignisschemata aufgelistet. Die Schemaerstellung wird nicht in [!DNL Journey Optimizer] durchgeführt. Sie wird in Adobe Experience Platform durchgeführt.
 1. Wählen Sie die Felder aus, die Sie verwenden möchten.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

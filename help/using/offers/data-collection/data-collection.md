@@ -32,13 +32,13 @@ Jedes Mal, wenn das Entscheidungs-Management eine Entscheidung trifft, werden In
 
 ### Impressions- und Klickereignisse
 
-Impressionen und Klicks für das Entscheidungs-Management werden wie folgt definiert:
+Impressions und Klicks für das Entscheidungs-Management werden wie folgt definiert:
 
 * Ein **Impressions**-Ereignis liegt vor, wenn einer Benutzerin bzw. einem Benutzer ein Angebot angezeigt wird.
 
 * Ein **Klick**-Ereignis liegt vor, wenn eine Benutzerin bzw. ein Benutzer auf ein Angebot klickt oder mit ihm interagiert.
 
-Feedback zu Impressionen und Klicks wird je nach verwendetem [!DNL Journey Optimizer]-Kanal erfasst.
+Feedback zu Impressions und Klicks wird je nach verwendetem [!DNL Journey Optimizer]-Kanal erfasst.
 
 **E-Mails**, die von [!DNL Journey Optimizer] verfasst werden, verfolgen Impressionen und Klicks **automatisch** nach.
 

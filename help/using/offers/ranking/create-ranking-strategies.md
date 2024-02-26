@@ -38,8 +38,8 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das KI-Modell an und wählen Sie dann die Art des KI-Modells, das Sie erstellen möchten:
 
-   * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebotsleistung. [Weitere Informationen](auto-optimization-model.md)
-   * Die **[!UICONTROL personalisierte Optimierung]** optimiert und personalisiert Angebote auf Grundlage von Zielgruppen und Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
+   * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebots-Performance. [Weitere Informationen](auto-optimization-model.md)
+   * Die **[!UICONTROL personalisierte Optimierung]** optimiert und personalisiert Angebote auf Grundlage von Zielgruppen und Angebots-Performance. [Weitere Informationen](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
    >[!CAUTION]
    >
-   >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemas erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
+   >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemata erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
 
 1. Wenn Sie ein KI-Modell für die **[!UICONTROL personalisierte Optimierung]** erstellen, wählen Sie ein oder mehrere Segmente aus, die für das Training des KI-Modells verwendet werden sollen.
 

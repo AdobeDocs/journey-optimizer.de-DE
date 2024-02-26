@@ -53,6 +53,6 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirror-Seiten- und Abmelde-Links hinzufügen und Ihren Inhalt codieren können.
+Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirrorseiten- und Abmelde-Links hinzufügen und Ihren Inhalt codieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

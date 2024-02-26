@@ -107,4 +107,4 @@ Wenn mehr als zwei Varianten vorhanden sind, wird die Bonferonni-Korrektur angew
 
 ## Testverzweigung mit dem besten Ergebnis
 
-Wenn ein Experiment als schlüssig erklärt wird, wird die Testverzweigung mit dem besten Ergebnis angezeigt. Dies ist die Testverzweigung mit dem besten Ergebnis (höchster Mittelwert oder höchste Konversionsrate) aus dem Satz, der die Kontrolle enthält, und aus allen Testverzweigungen mit einem `p`-Wert unterhalb des Bonferroni-Schwellenwerts.
+Wenn ein Experiment als schlüssig erklärt wird, wird die Testverzweigung mit dem besten Ergebnis angezeigt. Dies ist die Testverzweigung mit der besten Performance (höchster Mittelwert oder höchste Konversionsrate) aus dem Satz, der die Kontrolle enthält, und aus allen Testverzweigungen mit einem `p`-Wert unterhalb des Bonferroni-Schwellenwerts.

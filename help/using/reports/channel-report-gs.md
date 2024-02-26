@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Erste Schritte mit Kanalberichten {#channel-report-gs}
 
-Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Bericht einen umfassenden Überblick über Traffic- und Interaktionsmetriken für jeden Kanal bietet und alle Aktionen aller Kampagnen und Journeys umfasst. Es ist in verschiedene Widgets unterteilt, von denen jedes einen bestimmten Überblick über die Leistung der Kampagne oder Journey bietet.
+Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Bericht einen umfassenden Überblick über Traffic- und Interaktionsmetriken für jeden Kanal bietet und alle Aktionen aller Kampagnen und Journeys umfasst. Es ist in verschiedene Widgets unterteilt, von denen jedes einen bestimmten Überblick über die Performance der Kampagne oder Journey bietet.
 
 Die Kanalberichte sind vollständig anpassbar, sodass Widgets in der Größe geändert oder entfernt werden können, um ein Dashboard zu erstellen, das spezifischen Anforderungen entspricht. Die Berichtsdaten können auch zur weiteren Analyse in eine PDF- oder CSV-Datei exportiert werden.
 

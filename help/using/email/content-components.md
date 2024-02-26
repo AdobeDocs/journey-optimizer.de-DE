@@ -79,7 +79,7 @@ Fügen Sie beispielsweise die Komponente **[!UICONTROL Container]** hinzu, und f
 
 ## Schaltfläche {#button}
 
-Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrere Schaltflächen in Ihre E-Mail einzufügen und Ihre E-Mail-Zielgruppe auf eine andere Seite weiterzuleiten.
+Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrere Schaltflächen in Ihre E-Mail einzufügen und Ihre E-Mail-Zielgruppe auf eine andere Seite umzuleiten.
 
 1. Platzieren Sie in **[!UICONTROL Inhaltskomponenten]** die Komponente **[!UICONTROL Schaltfläche]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
@@ -87,7 +87,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
    ![](assets/email_designer_button_component.png)
 
-1. Fügen Sie aus dem Feld **[!UICONTROL Link]** die URL hinzu, zu der Sie beim Anklicken der Schaltfläche weiterleiten möchten.
+1. Fügen Sie aus dem Feld **[!UICONTROL Link]** die URL hinzu, zu der Sie beim Anklicken der Schaltfläche umleiten möchten.
 
 1. Wählen Sie mit der Dropdown-Liste **[!UICONTROL Zielgruppe]** aus, wie Ihre Audience umgeleitet werden soll:
 
@@ -187,7 +187,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Sie können auch **[!UICONTROL Nach ähnlichen Stockfotos suchen]**. [Weitere Informationen](../content-management/stock.md)
 
-1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Zielgruppe zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** weiterzuleiten.
+1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Zielgruppe zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** umzuleiten.
 
 ## Social Media {#social}
 

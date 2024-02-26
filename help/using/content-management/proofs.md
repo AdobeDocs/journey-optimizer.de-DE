@@ -46,4 +46,4 @@ Es wird empfohlen, nach jeder Änderung am Nachrichteninhalt Testsendungen durch
 
 >[!NOTE]
 >
->Bei Testsendungen ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+>Bei Testsendungen ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.

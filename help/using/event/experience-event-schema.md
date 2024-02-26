@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Über ExperienceEvent-Schemas für Journey-Ereignisse
-description: Erfahren Sie mehr über ExperienceEvent-Schemas für Journey-Ereignisse
+title: Über ExperienceEvent-Schemata für Journey-Ereignisse
+description: Erfahren Sie mehr über ExperienceEvent-Schemata für Journey-Ereignisse
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Informationen zu ExperienceEvent-Schemasa für [!DNL Journey Optimizer]-Ereignisse {#about-experienceevent-schemas}
+# Informationen zu ExperienceEvent-Schemata für [!DNL Journey Optimizer]-Ereignisse {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer]-Ereignisse sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
 
@@ -56,7 +56,7 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
 ## Nutzen von Schemabeziehungen{#leverage_schema_relationships}
 
-Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
+Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemata definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
 
 Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen weiterhin über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise eine Zielgruppe für alle Kundinnen und Kunden erstellen, die einen Laptop gekauft haben, ohne explizit alle Laptop-IDs auflisten oder alle Produktdetails in Transaktionssystemen erfassen zu müssen.
 

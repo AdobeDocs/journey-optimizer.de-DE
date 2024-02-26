@@ -32,8 +32,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="Erstellen einer Matching-Regel für Seiten"
->abstract="Eine Matching-Regel für Seiten macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn Sie die Änderungen an einem Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
+>title="Erstellen einer Regel zum Seitenabgleich"
+>abstract="Eine Regel zum Seitenabgleich macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn die Änderungen an einem Hero-Banner auf einer ganzen Website angewendet oder oben ein Bild hinzugefügt werden soll, das auf allen Produktseiten einer Website angezeigt wird."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 

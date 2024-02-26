@@ -141,17 +141,17 @@ Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequen
 
 ### 3. Verstehen von Steigerungen {#understand-lift}
 
-In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Baseline]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Abwandlung gegenüber der Baseline darstellt. Genauer gesagt handelt es sich um den Unterschied in der Leistung zwischen einer bestimmten Abwandlung und der Baseline, geteilt durch die Leistung der Baseline, ausgedrückt in Prozent.
+In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Baseline]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Abwandlung gegenüber der Baseline darstellt. Genauer gesagt handelt es sich um den Unterschied in der Performance zwischen einer bestimmten Abwandlung und der Baseline, geteilt durch die Performance der Baseline, ausgedrückt in Prozent.
 
 ### 3. Verstehen von Konfidenz {#understand-confidence}
 
-Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Leistung der einzelnen Abwandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Baseline- und die Nicht-Baseline-Abwandlung die gleiche Leistung aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Abwandlung und der Baseline beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
+Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Performance der einzelnen Abwandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Baseline- und die Nicht-Baseline-Abwandlung die gleiche Performance aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Abwandlung und der Baseline beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 
 Adobe verwendet „jederzeit gültige“ Konfidenz und „jederzeit gültige“ p-Werte, die mit den oben beschriebenen Konfidenzsequenzen übereinstimmen.
 
 ### 4. Statistische Signifikanz
 
-Bei der Durchführung von Experimenten wird ein Ergebnis als statistisch signifikant eingestuft, wenn es sehr unwahrscheinlich ist, dass es bei der Nullhypothese, dass eine bestimmte Abwandlung und die Baseline identische zugrunde liegende Konversionsraten/Leistungen aufweisen, beobachtet worden wäre.
+Bei der Durchführung von Experimenten wird ein Ergebnis als statistisch signifikant eingestuft, wenn es sehr unwahrscheinlich ist, dass es bei der Nullhypothese, dass eine bestimmte Abwandlung und die Baseline identische zugrunde liegende Konversionsraten/Performances aufweisen, beobachtet worden wäre.
 
 Adobe stuft ein Experiment als schlüssig ein, wenn die Konfidenz über 95 % liegt.
 
@@ -174,7 +174,7 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
 
   Die Abwandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Abwandlung für eine andere Zielgruppe. Vertiefende Analysen darüber, wie sich die Abwandlungen in verschiedenen Zielgruppen ausgewirkt haben, helfen dabei, Ideen für neue Tests zu entwickeln.
 
-  Ebenso kann die Untersuchung der Leistung der einzelnen Abwandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
+  Ebenso kann die Untersuchung der Performance der einzelnen Abwandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
 
   >[!CAUTION]
   >

@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Modelle für die automatische Optimierung {#auto-optimization-model}
 
-Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote.
+Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Performance der Angebote.
 
 ## Einschränkungen {#limitations}
 
@@ -31,7 +31,7 @@ Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
 * **Mehrarmiger Bandit**: Der Ansatz [Mehrarmiger Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target="_blank"} für die Optimierung bringt entdeckendes Lernen und die Nutzung des Erlernten miteinander in Einklang.
 
-* **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Leistung zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Leistung verbessern können. [Weitere Informationen](#thompson-sampling)
+* **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Performance zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Performance verbessern können. [Weitere Informationen](#thompson-sampling)
 
 * [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Set of continuous [probability distributions](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"} defined on the interval [0, 1] [parameterized](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
@@ -90,7 +90,7 @@ Um einen tieferen Einblick in das Thompson-Stichprobenverfahren zu erhalten, les
 
 ## „Kaltstart“-Problem {#cold-start}
 
-Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne hinzugefügt wird und keine Daten zur Konversionsrate des neuen Angebots verfügbar sind. Während dieses Zeitraums müssen wir eine Strategie dafür entwickeln, wie oft dieses neue Angebot ausgewählt wird, damit der Leistungsabfall minimiert wird, während wir Informationen über die Konversionsrate dieses neuen Angebots sammeln. Es gibt mehrere Lösungen, um dieses Problem zu beheben. Wichtig dabei ist, ein Gleichgewicht zu finden, sodass die Exploration dieses neuen Angebots nicht zu stark auf Kosten der Exploitation geht. Derzeit verwenden wir als anfängliche Schätzung der Konversionsrate des neuen Angebots (A-priori-Verteilung) eine „einheitliche Verteilung“. Das bedeutet, dass wir allen Konversionsratenwerten die gleiche Wahrscheinlichkeit zuweisen aufzutreten.
+Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne hinzugefügt wird und keine Daten zur Konversionsrate des neuen Angebots verfügbar sind. Während dieses Zeitraums müssen wir eine Strategie dafür entwickeln, wie oft dieses neue Angebot ausgewählt wird, damit der Performance-Abfall minimiert wird, während wir Informationen über die Konversionsrate dieses neuen Angebots sammeln. Es gibt mehrere Lösungen, um dieses Problem zu beheben. Wichtig dabei ist, ein Gleichgewicht zu finden, sodass die Exploration dieses neuen Angebots nicht zu stark auf Kosten der Exploitation geht. Derzeit verwenden wir als anfängliche Schätzung der Konversionsrate des neuen Angebots (A-priori-Verteilung) eine „einheitliche Verteilung“. Das bedeutet, dass wir allen Konversionsratenwerten die gleiche Wahrscheinlichkeit zuweisen aufzutreten.
 
 
 ![](../assets/ai-ranking-cold-start-strategies.png)
@@ -99,7 +99,7 @@ Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne 
 
 ## Steigerungsmessung {#lift}
 
-Mit der Metrik „Steigerung“ wird die Leistung einer Strategie im Rangfolgen-Service gegenüber einer Basisstrategie (d. h. nur zufällig bereitgestellte Angebote) gemessen.
+Mit der Metrik „Steigerung“ wird die Performance einer Strategie im Rangfolgen-Service gegenüber einer Basisstrategie (d. h. nur zufällig bereitgestellte Angebote) gemessen.
 
 Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahren) im Rangfolgen-Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die „Steigerung“ der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
 

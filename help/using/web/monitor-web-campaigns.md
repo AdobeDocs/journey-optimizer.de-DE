@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Überprüfen der Web-Berichte {#check-web-reports}
 
-Sobald Ihre Kampagne live ist, können Sie die Registerkarte **[!UICONTROL Web]** der Kampagnenberichte überprüfen, um Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Interaktionen mit Ihrer Web-Seite zu vergleichen. Erfahren Sie mehr über den Web-[Live-Bericht](../reports/campaign-live-report.md#web-tab) und den [globalen Bericht](../reports/campaign-global-report.md#web-tab) der Kampagne.
+Sobald Ihre Kampagne live ist, können Sie die Registerkarte **[!UICONTROL Web]** der Kampagnenberichte überprüfen, um Elemente wie die Anzahl der Impressions, die Klickrate und die Anzahl der Interaktionen mit Ihrer Web-Seite zu vergleichen. Erfahren Sie mehr über den Web-[Live-Bericht](../reports/campaign-live-report.md#web-tab) und den [globalen Bericht](../reports/campaign-global-report.md#web-tab) der Kampagne.
 
 Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Web-Berichten anzeigen. [Weitere Informationen](#use-click-tracing)
 

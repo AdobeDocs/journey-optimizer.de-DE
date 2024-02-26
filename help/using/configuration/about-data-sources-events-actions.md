@@ -53,4 +53,4 @@ Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld als `<friendly-
 
 >[!NOTE]
 >
->Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemas auswählen.
+>Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemata auswählen.

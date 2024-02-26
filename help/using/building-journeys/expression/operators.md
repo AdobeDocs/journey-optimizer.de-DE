@@ -9,7 +9,7 @@ level: Experienced
 keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -172,7 +172,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 

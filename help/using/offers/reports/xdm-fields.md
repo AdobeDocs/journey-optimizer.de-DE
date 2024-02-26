@@ -24,7 +24,7 @@ Um weitere Informationen zu einem bestimmten Feld zu erhalten, wählen Sie es au
 
 ![](../assets/schema-fields.png)
 
-Detaillierte Informationen zur Arbeit mit XDM-Schemas und -Feldern finden Sie in der Dokumentation zum Experience-Datenmodell:
+Detaillierte Informationen zur Arbeit mit XDM-Schemata und -Feldern finden Sie in der Dokumentation zum Experience-Datenmodell:
 
 * [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
 * [XDM-Ressourcen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=de)
