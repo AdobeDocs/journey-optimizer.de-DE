@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
 workflow-type: tm+mt
 source-wordcount: '4778'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite der Aufspaltungsfunktion wurde aktualisiert - [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
 * Die Seite mit den Regeln für die Nachrichtenhäufigkeit wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich). [Weitere Informationen](../configuration/frequency-rules.md)
-* Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Datensätze nicht manuell erstellt werden können und dass PTR-Datensätze bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](using/configuration/ptr-records.md#edit-ptr-record)
+* Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Datensätze nicht manuell erstellt werden können und dass PTR-Datensätze bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Januar 2024 {#jan-2024}
 
