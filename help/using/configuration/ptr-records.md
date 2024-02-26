@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,11 @@ Sie können einen PTR-Eintrag aus der Liste öffnen, um den zugehörigen Subdoma
 
 ## Bearbeiten eines PTR-Eintrags {#edit-ptr-record}
 
-Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte Subdomain zu bearbeiten.
+In [!DNL Journey Optimizer], können Sie keine PTR-Datensätze manuell erstellen. Stattdessen, sobald Sie [delegate](delegate-subdomain.md) Als erste Subdomain werden PTR-Einträge automatisch für Ihre IPs erstellt.
+
+Jede Ihrer IPs erhält einen einzigen PTR-Datensatz. Alle PTR-Datensätze haben das folgende Format: &quot;rxx.subdomain&quot;, wobei &quot;subdomain&quot;die erste Subdomain ist, für die Sie eine Zuweisung vorgenommen haben [!DNL Journey Optimizer].
+
+Wenn Sie zusätzliche Subdomains erstellen, müssen Sie einen oder mehrere PTR-Datensätze ändern und ihnen diese neuen Subdomains zuweisen. Gehen Sie dazu wie folgt vor.
 
 >[!CAUTION]
 >
