@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 91%
+source-wordcount: '453'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Klicken Sie auf die Schaltfläche „+“, um Ihrem Personalisierungsausdruck ei
 
 >[!NOTE]
 >
->Wenn Sie eine Audience mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Nachricht zu personalisieren. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute verwenden](../audience/about-audiences.md#enrichment)
+>Wenn Sie eine Audience mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Nachricht zu personalisieren. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute verwenden](../audience/about-audiences.md#enrichment)
 
 Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 

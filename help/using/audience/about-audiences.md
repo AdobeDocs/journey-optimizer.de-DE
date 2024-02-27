@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 85%
 
 ---
@@ -43,7 +43,7 @@ Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die m
 
 >[!AVAILABILITY]
 >
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und benutzerdefinierten Upload-Zielgruppen (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -61,7 +61,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 ## Verwenden von Zielgruppen-Anreicherungsattributen in Journey Optimizer {#enrichment}
 
-Beim Targeting einer Audience, die mithilfe von Komposition-Workflows oder benutzerdefiniertem Upload (CSV-Datei) generiert wurde, können Sie Anreicherungsattribute aus diesen Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+Beim Targeting einer Audience, die mithilfe von Komposition-Workflows generiert wurde, können Sie Anreicherungsattribute aus diesen Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
 * Erstellen Sie in einer Journey mehrere Pfade basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Wählen Sie dazu die Zielgruppe mithilfe einer [Audience lesen](../building-journeys/read-audience.md) -Aktivität erstellen und dann Regeln in einer [Bedingung](../building-journeys/condition-activity.md) Aktivität, die auf den Anreicherungsattributen der Zielgruppe basiert.
 

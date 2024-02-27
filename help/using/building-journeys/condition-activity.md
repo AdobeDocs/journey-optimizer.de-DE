@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1484'
 ht-degree: 97%
 
 ---
@@ -76,7 +76,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
-Wenn Sie beispielsweise eine Zielgruppe mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+Wenn Sie beispielsweise eine Zielgruppe mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
 

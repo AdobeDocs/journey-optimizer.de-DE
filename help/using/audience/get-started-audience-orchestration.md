@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '311'
+ht-degree: 69%
 
 ---
 
@@ -36,7 +36,7 @@ Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen
 
 >[!IMPORTANT]
 >
->Die Verwendung von Zielgruppen und Attributen aus Zielgruppenzusammensetzung und benutzerspezifischem Upload ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition und benutzerdefinierten Upload-Zielgruppen ist derzeit nicht für die Verwendung mit dem Health Care Shield oder Privacy and Security Shield verfügbar.
 >
 >Anreicherungsattribute sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, nicht in Journey Optimizer-Kampagnen oder -Journey erzwungen.
 
