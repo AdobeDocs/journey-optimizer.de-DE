@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    <!--![](assets/message-rules-details.png)-->
 
-1. Aus dem **[!UICONTROL Dauer]** Dropdownliste einen Zeitrahmen für die Anwendung der Begrenzung auswählen.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Dauer]** einen Zeitraum aus, in dem die Begrenzung angewendet werden soll.
 
    ![](assets/message-rules-capping-duration.png)
 
@@ -93,9 +93,9 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01. 23:59:59 UTC.
 
-   &lt;!—HINWEIS: Bei der Bearbeitung von [Stapelsegmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} wird empfohlen. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;!--HINWEIS: Beim Umgang mit der [Batch-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch) wird Folgendes empfohlen: {target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"}. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl von Nachrichten, die monatlich oder wöchentlich an ein einzelnes Benutzerprofil gesendet werden können. <!--or day--> - entsprechend Ihrer obigen Auswahl.
+1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat oder Woche <!--or day--> an ein einzelnes Benutzerprofil gesendet werden können – je nach Ihrer Auswahl oben.
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -172,14 +172,14 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 1. [](#create-new-rule)Erstellen Sie eine Regel mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
    * Alle Kanäle auswählen.
-   * Legen Sie die Begrenzung auf 12 Monate fest.
+   * Legen Sie die Begrenzung auf 12 x monatlich fest.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. Erstellen Sie eine zweite Regel namens *Begrenzung von Push-Marketing*, um die Anzahl der an einen Benutzer gesendeten Marketing-Push-Benachrichtigungen weiter einzuschränken:
 
    * Wählen Sie den Push-Kanal aus.
-   * Legen Sie die Begrenzung auf 4 Monate fest.
+   * Legen Sie die Begrenzung auf 4 x monatlich fest.
 
    ![](assets/message-rules-ex-push-cap.png)
 

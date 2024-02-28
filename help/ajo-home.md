@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 75%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimize
 
 >[!TAB Web-In-App-Nachrichten]
 
-Sie können jetzt die neue Web-In-App-Messaging-Funktion verwenden, um personalisierte Inhalte direkt auf Websites über modale Überlagerungsnachrichten anzuzeigen. Diese Funktion ermöglicht es Ihnen, effektiv mit Webbesuchern zu interagieren und die Benutzerinteraktion, -bindung und Konversionsraten zu verbessern.
+Sie können jetzt die neue Web-In-App-Nachrichten-Funktion verwenden, um personalisierte Inhalte direkt auf Websites über modale Überlagerungsnachrichten anzuzeigen. Diese Funktion ermöglicht es Ihnen, effektiv mit Besucherinnen und Besuchern im Web zu interagieren und die Benutzerinteraktion, -bindung und Konversionsraten zu verbessern.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
