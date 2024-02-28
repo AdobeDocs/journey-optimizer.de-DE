@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4806'
 ht-degree: 100%
 
@@ -277,7 +277,7 @@ Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Aussc
 
 ![](assets/campaign_email_sent_domains.png)
 
-Der Graph und das Diagramm **[!UICONTROL Gesendet und zugestellt nach Domains]** enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domain-Ebene und bieten umfassende Einblicke in die Performance Ihrer E-Mails.
+Die Tabelle und der Graph **[!UICONTROL Gesendet und zugestellt nach Domains]** enthalten eine detaillierte Aufschlüsselung der E-Mails auf Domain-Ebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
 
 +++ Weitere Informationen zu den Metriken zu „Gesendet und zugestellt nach Domains“
 

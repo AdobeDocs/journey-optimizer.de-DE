@@ -10,26 +10,26 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
 # Konfigurieren des SMS-Kanals {#sms-configuration}
 
-Vor dem SMS-Versand müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
+Bevor Sie Ihre SMS versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
 * [Integrieren der Anbietereinstellungen](#create-api) mit Journey Optimizer
-* [SMS-Oberfläche erstellen](#message-preset-sms) (d. h. SMS-Vorgabe)
+* [Erstellen einer SMS-Oberfläche](#message-preset-sms) (d. h. SMS-Voreinstellung)
 
 Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/administrator.md) durchgeführt werden.
 
 ## Voraussetzungen{#sms-prerequisites}
 
-Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Folgende Anbieter werden für Textnachrichten unterstützt: **Sinch**, **Twilio** und **Infobip**.
+Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten sind: **Sinch**, **Twilio** und **Infobip**.
 
 Vor der Konfiguration des SMS-Kanals müssen Sie bei einem dieser Anbieter ein Konto erstellen, um das **API-Token** und die **Service-ID** zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden Anbieter herstellen können.
 
-Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Lösungen von Drittanbietern stehen den Benutzerinnen und Benutzern von Adobe Journey Optimizer Sinch, Twilio und Infobip über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Hilfeanfragen im Zusammenhang mit den Textnachrichtendiensten an Ihren Provider.
+Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Lösungen von Drittanbietern stehen den Benutzerinnen und Benutzern von Adobe Journey Optimizer Sinch, Twilio und Infobip über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Hilfeanfragen im Zusammenhang mit den Textnachrichtendiensten an Ihren Anbieter.
 
 >[!CAUTION]
 >
@@ -46,12 +46,12 @@ Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen d
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Konfigurieren Ihres MMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer versendet Medieninhalte über MMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten."
+>abstract="Adobe Journey Optimizer versendet Medieninhalte über MMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Bevor Sie Textnachrichten senden, müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS-Oberfläche erstellen. Diese Schritte müssen von Adobe Journey Optimizer-Systemadmins durchgeführt werden."
+>abstract="Vor dem Versand von Textnachrichten müssen Sie die Anbietereinstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS-Oberfläche erstellen. Diese Schritte müssen von Adobe Journey Optimizer-Systemadmins durchgeführt werden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=de#message-preset-sms" text="Erstellen einer SMS-Kanaloberfläche"
 
 >[!CONTEXTUALHELP]
@@ -73,19 +73,19 @@ Gehen Sie wie folgt vor, um Sinch mit Journey Optimizer zu konfigurieren:
 
    * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
 
-   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS Double Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird.
 
@@ -137,19 +137,19 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
    * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Homepage Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf, um Ihre Anmeldeinformationen zu finden. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
 
-   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die Standardeinstellung bzw. die Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die Standardeinstellung bzw. die Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
 
-   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Schlüsselwörter durch Kommas getrennte Werte.
+   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
 
    * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double-Opt-in-Bestätigung gesendet wird.
 
