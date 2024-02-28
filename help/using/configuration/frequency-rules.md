@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 93%
+source-wordcount: '1125'
+ht-degree: 89%
 
 ---
 
@@ -58,7 +58,7 @@ Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt]
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Festlegen der Begrenzung für Ihre Regel"
->abstract="Geben Sie an, wie viele Nachrichten maximal jeden Monat an ein Kundenprofil gesendet werden sollen. Die Begrenzung der Häufigkeit basiert auf dem Zeitraum eines Kalendermonats und wird am Anfang jedes Monats zurückgesetzt."
+>abstract="Geben Sie die maximale Anzahl von Nachrichten an, die innerhalb des ausgewählten Zeitraums an ein Kundenprofil gesendet werden. Die Frequenzlimitierung basiert auf dem ausgewählten Kalenderzeitraum und wird zu Beginn des entsprechenden Zeitrahmens zurückgesetzt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
