@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
 
-Beachten Sie, dass In-App-Nachrichten nicht durch die Entscheidung des Benutzers beeinflusst werden, Push-Benachrichtigungen unter dem Betriebssystem an- oder abzumelden.
+Beachten Sie, dass In-App-Nachrichten nicht durch die Entscheidung der Benutzenden beeinflusst werden, sich über das Betriebssystem für Push-Benachrichtigungen an- oder abzumelden.
 
 >[!BEGINTABS]
 

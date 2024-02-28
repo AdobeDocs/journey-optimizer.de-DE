@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Erfahren Sie mehr über die obligatorische DMARC-Aktualisierung"
->abstract="Im Rahmen ihrer branchenüblichen Best Practices verlangen Google und Yahoo, dass Sie über eine **DMARC-Eintrag** für alle Domänen, die Sie zum Senden von E-Mails an sie verwenden, beginnend mit **1. Februar 2024**.<br>Daher müssen Sie unbedingt für alle Subdomains, die Sie in Journey Optimizer an Adobe delegiert haben, einen DMARC-Eintrag einrichten."
+>abstract="Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo ab dem **1. Februar 2024** einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden.<br>Daher müssen Sie unbedingt für alle Subdomains, die Sie in Journey Optimizer an Adobe delegiert haben, einen DMARC-Eintrag einrichten."
 
 Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) und ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Besitzende ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
 
-Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! benötigen beide **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de#dmarc){target="_blank"}
+Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ oder
   >
   >Für die Einrichtung des CNAME ist jedoch auch ein zusätzlicher Eintrag in Ihrer Hosting-Lösung erforderlich. Daher sollten Sie sich mit Ihrer IT-Abteilung abstimmen, damit diese die in [diesem Abschnitt](dmarc-record.md#implement-dmarc) beschriebene Aktualisierung durchführen kann.
 
-Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
+Die aktuellen von Google und Yahoo veröffentlichten Zeitpläne lauten wie folgt: 
 
 * Google:
 
@@ -58,7 +58,7 @@ Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
 
    * **1. Juni 2024** – Absenderinnen und Absender, die den Anforderungen nicht in vollem Umfang entsprechen, werden blockiert.
 
-* Yahoo! hat keine genauen Daten angegeben, hat aber gesagt, &quot;die Einführung der Durchsetzung wird im Februar 2024 beginnen. Die Durchsetzung wird schrittweise eingeführt.“
+* Yahoo! hat keine genauen Daten genannt, aber gesagt, dass die Einführung der Durchsetzung im Februar 2024 beginnen werde. Die Durchsetzung wird schrittweise eingeführt.“
 
 >[!NOTE]
 >
@@ -68,5 +68,5 @@ Die neuesten Zeitpläne, die von Google und Yahoo! wie folgt aussehen:
 
 * Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de#about){target="_blank"} erfahren Sie mehr über DMARC
 * Weitere Informationen zu diesen Änderungen finden Sie im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de){target="_blank"}
-* Lesen Sie die [Google Gmail-Mitteilung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Lesen Sie die [Yahoo! Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen
+* Die [Google Gmail-Ankündigung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} lesen
+* Die [Yahoo!- Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen

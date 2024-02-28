@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3668'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerka
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="Journey-Leistung"
->abstract="Mit dem Journey Performance-Widget können Sie den Pfad Ihrer Zielprofile visuell verfolgen, während sie während der letzten 24 Stunden durch Ihre Journey laufen."
+>abstract="Mit dem Journey-Performance-Widget können Sie den Pfad Ihrer Zielprofile in den letzten 24 Stunden visuell verfolgen."
 
 ![](assets/journey_live_performance.png)
 
@@ -80,7 +80,7 @@ Die Key Performance Indicators (KPIs) **[!UICONTROL Journey-Statistiken]** fungi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="In den letzten 24 Stunden ausgeführte Aktion"
->abstract="Das Widget Aktion, die in den letzten 24 Stunden ausgeführt wurde, zeigt die aktuelle Leistung an und zeigt die Effektivität Ihrer ausgeführten Aktionen innerhalb der letzten 24 Stunden."
+>abstract="Das Widget „In den letzten 24 Stunden ausgeführte Aktion“, zeigt die aktuelle Leistung an und gibt Aufschluss über die Effektivität Ihrer ausgeführten Aktionen innerhalb der letzten 24 Stunden."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ Das Widget **[!UICONTROL In den letzten 24 Stunden ausgeführte Aktion]** stellt
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="Ausgeführte Aktionen und Fehler"
->abstract="Das Widget Ausgeführte Aktionen und Fehler zeigt die erfolgreichsten Aktionen und Fehler an, die während der Auslösung von Aktionen in den letzten 24 Stunden aufgetreten sind. Dieses Widget bietet einen umfassenden Überblick über erfolgreiche Ausführungen und aufgetretene Fehler und bietet wertvolle Einblicke in die aktuelle Leistung Ihrer Aktionen."
+>abstract="Das Widget „Ausgeführte Aktionen und Fehler“ zeigt die erfolgreichsten Aktionen und Fehler an, die während der Auslösung von Aktionen in den letzten 24 Stunden aufgetreten sind. Dieses Widget bietet einen umfassenden Überblick über erfolgreiche Ausführungen und aufgetretene Fehler und erlaubt wertvolle Einblicke in die aktuelle Leistung Ihrer Aktionen."
 
 ![](assets/journey_live_actions_errors.png)
 
-Die **[!UICONTROL Ausgeführte Aktionen und Fehler]** Widget stellt die erfolgreichste Aktion und Fehler dar, die beim Auslösen Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind.
+Das Widget **[!UICONTROL Ausgeführte Aktionen und Fehler]** stellt die erfolgreichste Aktion und die Fehler dar, die beim Auslösen Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind.
 
 +++ Weitere Informationen zu den Metriken von ausgeführten Aktionen und Fehlern
 
@@ -118,7 +118,7 @@ Die **[!UICONTROL Ausgeführte Aktionen und Fehler]** Widget stellt die erfolgre
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="Gründe für Aktionsfehler"
->abstract="Die Tabelle mit den Gründe für Fehler in Aktionen und das Diagramm enthalten eine ausführliche Zusammenfassung der Fehler, die bei der Ausführung Ihrer Aktionen aufgetreten sind. Sie bieten einen umfassenden Überblick über die Probleme, die in den letzten 24 Stunden aufgetreten sein können."
+>abstract="Die Tabelle und der Graph „Fehlerursachen für Aktionen“ bieten eine ausführliche Zusammenfassung der Fehler, die bei der Ausführung Ihrer Aktionen aufgetreten sind, und geben einen umfassenden Überblick über die Probleme, die in den letzten 24 Stunden aufgetreten sein könnten."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ Die Tabelle und der Graph **[!UICONTROL Gründe für Aktionsfehler]** bieten ein
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Fehlertyp nach Aktionen"
->abstract="Die Tabelle mit den Aktionstypen und das Diagramm &quot;Fehlertyp nach Aktionen&quot;bieten einen umfassenden Überblick über Fehler, die bei jeder Ausführung Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind."
+>abstract="Die Tabelle und der Graph „Fehlertyp nach Aktionen“ bieten einen umfassenden Überblick über die Fehler, die bei jeder Ausführung Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind."
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ Die Tabelle und der Graph **[!UICONTROL Fehlertyp nach Aktionen]** bieten einen 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="In den letzten 24 Stunden ausgeführtes Ereignis"
->abstract="Mit dem Widget Ereignis , das in den letzten 24 Stunden ausgeführt wurde, können Sie ermitteln, welches Ihrer Ereignisse innerhalb der letzten 24 Stunden erfolgreich ausgeführt wurde. "
+>abstract="Das Widget „In den letzten 24 Stunden ausgeführtes Ereignis“ ermöglicht es Ihnen zu identifizieren, welche Ihrer Ereignisse innerhalb der letzten 24 Stunden erfolgreich ausgeführt wurden. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ Das Widget **[!UICONTROL In den letzten 24 Stunden ausgeführtes Ereignis]** erm
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Ereignisse"
->abstract="Das Ereignis-Widget bietet eine umfassende Übersicht darüber, welche Ihrer Ereignisse erfolgreich ausgeführt wurden, und bietet eine Zusammenfassungsnummer, ein Diagramm und eine Tabelle mit detaillierten Einblicken aus den letzten 24 Stunden."
+>abstract="Das Widget „Ereignisse“ bietet eine umfassende Übersicht darüber, welche Ihrer Ereignisse erfolgreich ausgeführt wurden, und bietet eine Zusammenfassungsnummer, ein Diagramm und eine Tabelle mit detaillierten Einblicken aus den letzten 24 Stunden."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ Mit dem Widget **[!UICONTROL Ereignisse]** können Sie anhand der Zusammenfassun
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Ereignisse nach Herkunft"
->abstract="Die Tabelle Events by Origin und die Diagramme bieten einen Überblick über den erfolgreichen Empfang Ihrer Veranstaltungen in den letzten 24 Stunden. Diese visuellen Darstellungen ermöglichen es Ihnen, die tatsächlich erhaltenen Ereignisse genau zu identifizieren und wertvolle Einblicke in die Leistung und Wirkung der einzelnen Ereignisse innerhalb Ihrer Journey zu erhalten."
+>abstract="Die Tabelle und Diagramme „Ereignisse nach Herkunft“ bieten einen Überblick über den erfolgreichen Empfang Ihrer Ereignisse in den letzten 24 Stunden. Anhand dieser visuellen Darstellungen können Sie genau erkennen, welche Ereignisse effektiv empfangen wurden, und erhalten so wertvolle Einblicke in die Leistung und die Auswirkungen der einzelnen Ereignisse innerhalb Ihrer Journey."
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ Im **[!UICONTROL Live-Bericht]** Ihrer Journey enthält die Registerkarte **[!UI
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="E-Mail – Versandleistung"
->abstract="Der Graph „E-Mail – Versandstatistik“ fasst wichtige Daten zu Ihren E-Mails, z. B. „Angesprochen“ oder „Zugestellt“, aus den letzten 24 Stunden zusammen."
+>abstract="Der Graph „E-Mail – Versandstatistiken“ fasst wichtige Daten zu Ihren E-Mails, z. B. „Angesprochen“ oder „Zugestellt“, aus den letzten 24 Stunden zusammen."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -326,7 +326,7 @@ Der Graph und die Tabelle **[!UICONTROL E-Mail – beste Empfänger-Domain]** bi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="E-Mail – Angebote"
->abstract="Die Widgets Angebotsstatistik und Angebote bieten umfassende Statistiken über die Leistung Ihrer Angebote in den letzten 24 Stunden, eine detaillierte Analyse ihrer Wirkung im Zeitverlauf und detaillierte Statistiken für ein tieferes Verständnis."
+>abstract="Die Widgets „Angebotsstatistiken“ und „Detaillierte Statistiken zu Angeboten“ bieten umfassende Statistiken über die Leistung Ihrer Angebote in den letzten 24 Stunden, eine detaillierte Analyse ihrer Wirkung im Zeitverlauf und detaillierte Statistiken für ein tieferes Verständnis."
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="E-Mail – Optimierung"
->abstract="Die Widgets Sendezeitoptimierung und Optimierte bzw. Nicht-optimierte Sendungen enthalten detaillierte Informationen aus den letzten 24 Stunden zu Ihren Nachrichten und heben hervor, ob sie optimiert wurden oder nicht."
+>abstract="Die Widgets „Versandzeitoptimierung“ und „Optimiert vs. nicht optimiert“ enthalten detaillierte Informationen aus den letzten 24 Stunden zu Ihren Nachrichten und heben hervor, ob sie optimiert wurden oder nicht."
 
 ![](assets/journey_email_sto.png)
 
@@ -512,7 +512,7 @@ Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zus
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der Fehler, die während des Versandvorgangs, des Versandvorgangs und der automatischen Bounce-Verarbeitung kumuliert wurden.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
 * **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="In-App-Leistung"
->abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besucher mit In-App-Nachrichten in den letzten 24 Stunden.&quot;"
+>abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit In-App-Nachrichten in den letzten 24 Stunden."
 
 ![](assets/journey_live_inapp_performance.png)
 

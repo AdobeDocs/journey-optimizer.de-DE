@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -214,7 +214,7 @@ Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Aussc
 
 ![](assets/channel_email_sent_domains.png)
 
-Die **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagramme enthalten eine detaillierte Aufschlüsselung der E-Mail-Sendungen auf Domänenebene und bieten umfassende Einblicke in die Leistung Ihrer E-Mails.
+Die Tabelle und der Graph **[!UICONTROL Von Domains gesendet und bereitgestellt]** liefern eine detaillierte Aufschlüsselung der E-Mail-Sendungen auf Domain-Ebene und bieten einen umfassenden Einblick in die Leistung Ihrer E-Mails.
 
 +++ Weitere Informationen zu den Metriken zu „Gesendet und zugestellt nach Domains“
 
@@ -233,7 +233,7 @@ Die **[!UICONTROL Gesendet und von Domänen bereitgestellt]** Tabellen und Diagr
 
 ![](assets/channel_email_bounces_domain.png)
 
-Die **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle bieten eine Aufschlüsselung der spezifischen Fehler, die während des Versandvorgangs auf Domänenebene aufgetreten sind, und enthalten eine detaillierte Analyse der aufgetretenen Probleme.
+Der Graph und die Tabelle **[!UICONTROL Bounces und Fehler nach Domains]** bieten eine genaue Aufschlüsselung der Fehler auf Domain-Ebene, die während des Sendevorgangs aufgetreten sind, sowie eine detaillierte Analyse der aufgetretenen Probleme.
 
 +++ Weitere Informationen zu den Metriken zu „Bounces und Fehler nach Domains“
 
@@ -252,7 +252,7 @@ Die **[!UICONTROL Bounces und Fehler nach Domänen]** Diagramm und Tabelle biete
 
 ![](assets/channel_email_open_domains.png)
 
-Die **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle zeigen eine Aufschlüsselung der Interaktion Ihrer Besucher mit Ihrer E-Mail auf Domänenebene, die wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt bietet.
+Der Graph und die Tabelle **[!UICONTROL Öffnungen und Klicks nach Domains]** zeigen eine Aufschlüsselung der Interaktion der Besucherinnen und Besucher mit Ihren E-Mails auf Domain-Ebene, die wertvolle Einblicke in die Interaktion verschiedener Domains mit Ihren Inhalten bietet.
 
 +++ Weitere Informationen zu den Metriken zu „Öffnungen und Klicks nach Domains“
 
@@ -271,7 +271,7 @@ Die **[!UICONTROL Öffnungen und Klicks nach Domänen]** Diagramm und Tabelle ze
 
 ![](assets/channel_email_bounce_domain.png)
 
-Die **[!UICONTROL Bounce-Gründe nach Domain]** Diagramme und Tabellen bieten eine Aufschlüsselung der Daten auf Domänenebene bezüglich temporärer und permanenter Fehler und bieten detaillierte Einblicke in die Ursachen für abgespeckte Nachrichten.
+Der Graph und die Tabelle **[!UICONTROL Bounce-Gründe nach Domain]** bieten eine Aufschlüsselung der Daten auf Domain-Ebene sowohl in Bezug auf temporäre als auch auf permanente Fehler, was einen detaillierten Einblick in die Gründe für nicht erfolgreich zugestellte Nachrichten ermöglicht.
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungsliste](../reports/suppression-list.md).
 

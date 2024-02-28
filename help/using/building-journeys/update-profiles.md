@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 * Die an Adobe Experience Platform gesendete Aktualisierungsanfrage erfolgt unmittelbar bzw. innerhalb einer Sekunde. Normalerweise dauert sie ein paar Sekunden, manchmal aber auch länger, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch die davor positionierte Aktion **Profil aktualisieren** aktualisiert wurde, sollte daher nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
 * Die Aktivität **Profil aktualisieren** unterstützt keine XDM-Felder, die als Aufzählung definiert sind.
 * Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
-* Beim Auswählen eines Datensatzes in der Aktivität **[!UICONTROL Profil aktualisieren]** wird empfohlen, einen nicht für Datenerfassungsflüsse bestimmten zu verwenden. weil **Profil aktualisieren** -Aktualisierungen werden nur im [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}besteht die Gefahr, dass solche Änderungen durch einen Datenerfassungsfluss überschrieben werden.
+* Beim Auswählen eines Datensatzes in der Aktivität **[!UICONTROL Profil aktualisieren]** wird empfohlen, einen nicht für Datenerfassungsflüsse bestimmten zu verwenden.Da die Aktualisierungen **Profil aktualisieren** nur im [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} gespeichert werden, besteht die Gefahr, dass solche Änderungen mit einem Datenaufnahmefluss überschrieben werden.
 
-  Darüber hinaus wird die **Profil aktualisieren** Für die Aktivitätskonfiguration ist kein Identitäts-Namespace erforderlich. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben Identitäts-Namespace verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie einen Datensatz mit dem richtigen Namespace oder einem Datensatz, der die Identitätszuordnung verwendet, nicht auswählen, führt dies dazu, dass **Profil aktualisieren** -Aktivität fehlschlagen.
+  Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** keinen Identity-Namespace. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben Identity-Namespace verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Namespace auswählen oder einen, der eine Identitätszuordnung verwendet, schlägt die Aktivität **Profil aktualisieren** fehl.
 
 
 

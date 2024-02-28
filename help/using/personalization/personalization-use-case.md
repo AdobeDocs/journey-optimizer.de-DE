@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anwendungsfall Personalisierung&colon; Bestellstatus-Benachrichtigung
-description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebots- und Kontextinformationen personalisieren.
+title: Anwendungsfall Personalisierung und Bestellstatus-Benachrichtigung
+description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebotsentscheidungs- und Kontextinformationen personalisieren.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

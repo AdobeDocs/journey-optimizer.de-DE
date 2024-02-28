@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -60,15 +60,15 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
 * Das folgende Video zeigt, wie die Unterstützung von nativen eingehenden Keywords (START, STOP und UNSTOP) für SMS funktioniert.
 
-+++ Video
++++ Siehe Video
 
   >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 +++
 
-* Im folgenden Video erfahren Sie, wie Sie die Anmeldung mit zweifacher Bestätigung für SMS konfigurieren.
+* Im folgenden Video erfahren Sie, wie Sie das Double-Opt-in für SMS konfigurieren.
 
-+++ Video
++++ Siehe Video
 
   >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 

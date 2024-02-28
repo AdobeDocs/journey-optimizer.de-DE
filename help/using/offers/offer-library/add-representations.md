@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -138,17 +138,17 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
 ## Personalisieren von Darstellungen basierend auf Kontextdaten{#context-data}
 
-Wenn Kontextdaten in der [Edge-Entscheidung](../api-reference/offer-delivery-api/edge-decisioning-api.md) aufrufen, können Sie diese Daten nutzen, um Darstellungen dynamisch zu personalisieren. Sie können beispielsweise die Darstellung eines Angebots auf Basis von Echtzeitfaktoren wie aktuellen Wetterbedingungen zum Zeitpunkt der Entscheidungsfindung anpassen.
+Wenn Kontextdaten im Aufruf von [Edge Decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) übergeben werden, können Sie diese Daten nutzen, um Darstellungen dynamisch zu personalisieren. Sie können beispielsweise die Darstellung eines Angebots auf Basis von Echtzeitfaktoren wie aktuellen Wetterbedingungen zum Zeitpunkt der Entscheidungsfindung anpassen.
 
-Integrieren Sie dazu die Kontextdatenvariable direkt in den Darstellungsinhalt, indem Sie die `profile.timeSeriesEvents.` Namespace.
+Binden Sie dazu die Kontextdatenvariable direkt in den Inhalt der Darstellung ein, indem Sie den Namespace `profile.timeSeriesEvents.` verwenden.
 
-Im Folgenden finden Sie ein Syntaxbeispiel, mit dem die Darstellung eines Angebots basierend auf den Betriebssystemen der Benutzer personalisiert wird:
+Im Folgenden finden Sie ein Syntaxbeispiel, mit dem die Darstellung eines Angebots basierend auf den Betriebssystemen der Benutzenden personalisiert wird:
 
 ```
  {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
 ```
 
-Die entsprechende Edge-Entscheidungsanfrage einschließlich der Kontextdaten lautet wie folgt:
+Die entsprechende Edge Decisioning-Anfrage einschließlich der Kontextdaten lautet wie folgt:
 
 ```
 {

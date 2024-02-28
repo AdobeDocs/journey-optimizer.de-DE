@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Sie können nur eine benutzerdefinierte Domain-Gruppe ausschließen, die zum [Vorlage für IP-Warmup-Plan](ip-warmup-plan.md#prepare-file). Ist dies nicht der Fall, aktualisieren Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
+      >Sie können nur eine benutzerdefinierte Domain-Gruppe ausschließen, die der [IP-Aufwärmplan-Vorlage](ip-warmup-plan.md#prepare-file) hinzugefügt wurde. Andernfalls müssen Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe aktualisieren, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
 
 1. Bei Bedarf können Sie die Kampagne über die Option **[!UICONTROL Kampagne ersetzen]** austauschen.
 
@@ -165,7 +165,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Wiederholungen werden alle 30 Minuten bis zum Ende des definierten Zeitfensters durchgeführt.
+   >Weitere Zustellversuche werden alle 30 Minuten bis zum Ende des definierten Zeitfensters durchgeführt.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
