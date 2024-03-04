@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
+source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 100%
+source-wordcount: '1576'
+ht-degree: 98%
 
 ---
 
@@ -82,14 +82,15 @@ Diese Aktivität wird in der Regel mithilfe von Zustellbarkeitsfachleuten durchg
 
 Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie eine Excel-Vorlage mit allen Daten ausfüllen, die in Ihren Plan gespeist werden.
 
+* Über die Benutzeroberfläche können Sie die leere Excel-Vorlage [IP-Aufwärmplan](assets/IPWarmupPlan-Template.xlsx) zum Ausfüllen herunterladen.
+
+* Sie können auch eine [Beispiel-IP-Warmup-Plan](assets/IPWarmupPlan-Sample.xlsx) bereits mit einigen Daten ausgefüllt, die Sie als Beispiel verwenden können.
+
 <!--
-* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
+* From the user interface you can download the blank Excel IP warmup plan template to fill in.
 
-* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
-
-* Hier können Sie die leere Excel-Vorlage für den IP-Aufwärmplan zum Ausfüllen herunterladen.
-
-* Sie können auch ein Beispiel für einen IP-Aufwärmplan herunterladen, der schon mit einigen Daten gefüllt ist, und ihn als ein Beispiel verwenden.
+* You can also download a sample IP warmup plan already filled in with some data you can use as an example.
+-->
 
 >[!CAUTION]
 >
@@ -316,7 +317,7 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 
    >[!NOTE]
    >
-   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die von Adobe bereitgestellte Vorlage <!--assets/IPWarmupPlan-Template.xlsx-->.
+   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die [template](assets/IPWarmupPlan-Template.xlsx) bereitgestellt durch Adobe.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalte, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt.
 
