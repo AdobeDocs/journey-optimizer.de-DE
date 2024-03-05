@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) und ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Besitzende ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
 
-Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden. Diese neue Anforderung gilt ab dem **1. Februar 2024**. [Weitere Informationen](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de#dmarc){target="_blank"}
+Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo! einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden. Diese neue Anforderung gilt seit dem **1. Februar 2024**.
 
 >[!CAUTION]
 >
@@ -67,6 +67,7 @@ Die aktuellen von Google und Yahoo veröffentlichten Zeitpläne lauten wie folgt
 **Nützliche Links**
 
 * Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de#about){target="_blank"} erfahren Sie mehr über DMARC
-* Weitere Informationen zu diesen Änderungen finden Sie im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de){target="_blank"}
 * Die [Google Gmail-Ankündigung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} lesen
 * Die [Yahoo!- Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen
+
+<!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
