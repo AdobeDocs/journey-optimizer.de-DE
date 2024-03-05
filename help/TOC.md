@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
+source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 99%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 99%
       + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
       + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
       + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
-+ SMS-Kanal{#sms}
++ SMS/MMS-Kanal{#sms}
    + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
    + [Erstellen einer Textnachricht](using/sms/create-sms.md)
    + [Erstellen einer MMS-Nachricht](using/sms/create-mms.md)
