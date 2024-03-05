@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer SMS-Nachricht
-description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS-Nachricht erstellen.
+title: Erstellen einer SMS/MMS-Nachricht
+description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS/MMS-Nachricht erstellen
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 89%
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
-# Erstellen einer Textnachricht {#create-sms}
+# Erstellen einer Textnachricht (SMS/MMS) {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer Textnachricht"
->abstract="Um eine Textnachricht zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder Kampagne ein und beginnen Sie mit der Personalisierung mit dem Ausdruckseditor."
+>abstract="Um eine Textnachricht (SMS/MMS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Ausdruckseditor zu personalisieren."
 
-Sie können Text (SMS) mit Adobe Journey Optimizer entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
+Mit Adobe Journey Optimizer können Sie Text- (SMS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
 >[!NOTE]
 >
->In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS/MMS-Marketing-Nachrichten eine Möglichkeit für die Empfängerinnen und Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## Hinzufügen einer Textnachricht {#create-sms-journey-campaign}
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Textnachricht zu einer Kampagne oder einer Journey hinzufügen.
+Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine Textnachricht (SMS/MMS) in einer Kampagne oder Journey hinzufügen können.
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definieren Ihres SMS-Inhalts"
->abstract="Passen Sie Ihre Textnachrichten mithilfe des Ausdruckseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
+>abstract="Passen Sie Ihre Textnachrichten (SMS/MMS) mithilfe des Ausdruckseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
 
-Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren.
+Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Textnachricht zu konfigurieren.
 
@@ -121,37 +121,33 @@ Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](#sms-mms-test) beschrieben.
 
-<!--
-## Define your MMS content{#mms-content}
+## Definieren Ihrer MMS-Inhalte{#mms-content}
 
-You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
-
+Sie können Ihre Kommunikation verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) versenden, was das Weitergeben von Medien wie Videos, Fotos, Audioclips, GIFs und vielem mehr ermöglicht. Außerdem können Sie mit MMS bis zu 1.600 Zeichen Text in Ihre Nachricht einfügen.
 
 >[!NOTE]
 >
->* This feature is currently available with **Sinch** only.
+>* Diese Funktion ist derzeit nur mit **Sinch** verfügbar.
 >
->* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
->
+>* Der MMS-Kanal ist mit einigen Einschränkungen verbunden, die auf [dieser Seite](../start/guardrails.md#sms-guardrails) aufgeführt sind.
 
-To create MMS content, follow these steps:
+Gehen Sie wie folgt vor, um MMS-Inhalte zu erstellen:
 
-1. Create a SMS as described in [this section](#create-sms-journey-campaign).
+1. Erstellen Sie eine SMS wie in [diesem Abschnitt](#create-sms-journey-campaign) beschrieben.
 
-1. Edit your SMS content as detailed in [this section](#sms-content).
+1. Bearbeiten Sie Ihren SMS-Inhalt wie in [diesem Abschnitt](#sms-content) beschrieben.
 
-1. Enable the MMS option to add media to your SMS content.
+1. Aktivieren Sie die MMS-Option, um Medien zu Ihrem SMS-Inhalt hinzuzufügen.
 
-    ![](assets/sms_create_6.png)
+   ![](assets/sms_create_6.png)
 
-1. Add a **[!UICONTROL Title]** to your media.
+1. Fügen Sie einen **[!UICONTROL Titel]** zu Ihrem Medium hinzu.
 
-1. Enter the URL of your media in the **[!UICONTROL Media]** field.
+1. Geben Sie die URL des Mediums in das Feld **[!UICONTROL Medien]** ein.
 
-    ![](assets/sms_create_7.png)
+   ![](assets/sms_create_7.png)
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
--->
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht wie unten beschrieben testen und überprüfen.
 
 ## Testen und senden Ihrer Nachrichten {#sms-mms-test}
 
@@ -167,6 +163,6 @@ Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journe
 
 * [Vorschau, Test und Versand Ihrer Textnachricht](send-sms.md)
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
-* [SMS-Berichte](../reports/journey-global-report.md#sms-global)
+* [SMS- und MMS-Berichte](../reports/journey-global-report.md#sms-global)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
 * [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 97%
+source-wordcount: '1169'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Nachrichtenaktivität"
->abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-Benachrichtigung, eine Textnachricht, eine In-App- oder E-Mail-Nachricht in Ihre Journey einfügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, Text- (SMS/MMS), In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS/MMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
    <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Textnachrichten erstellen</strong></a>
+   <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
