@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 96%
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
-# Textnachrichten überprüfen und senden {#send-sms}
+# Überprüfen und Senden Ihrer Textnachricht (SMS/MMS){#send-sms}
 
 ## Anzeigen einer Vorschau der Textnachricht {#preview-sms}
 
@@ -49,6 +49,6 @@ Wenn Ihre Textnachricht fertig ist, schließen Sie die Konfiguration Ihrer [Jour
 **Verwandte Themen**
 
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
-* [SMSS-Berichte](../reports/journey-global-report.md#sms-global)
+* [SMS- und MMS-Berichte](../reports/journey-global-report.md#sms-global)
 * [Erstellen einer Textnachricht](create-sms.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)

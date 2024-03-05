@@ -1,37 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit Textnachrichten
+title: Erste Schritte mit Textnachrichten (SMS/MMS)
 description: Erfahren Sie, wie Sie in Journey Optimizer Textnachrichten erstellen, testen und veröffentlichen.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Textnachrichten {#get-started-sms}
 
-Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten an die mobilen Geräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten (SMS/MMS) an die mobilen Geräte Ihrer Kundinnen und Kunden zu senden. Mit dem SMS/MMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für SMS verwenden Sie die SMS-Aktion.
+Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für MMS und SMS verwenden Sie die SMS-Aktion.
 
-* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS/MMS-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende SMS-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende SMS/MMS-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
 
-Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder SMS-Gateway-Anbieter). Bevor Sie Ihre SMS-Nachricht erstellen, konfigurieren Sie Ihren Dienstanbieter bezüglich Textnachrichten mit Journey Optimizer. [Weitere Informationen](sms-configuration.md).
+Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder SMS-Gateway-Anbieter). Bevor Sie Ihre SMS/MMS-Nachricht erstellen, konfigurieren Sie Ihren Dienstanbieter bezüglich Textnachrichten mit Journey Optimizer. [Weitere Informationen](sms-configuration.md).
 
-<!--
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
-> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
--->
+> Der Versand von Multimedia Message Service (MMS) mit Adobe Journey Optimizer wird nur bei der Integration mit **Sinch** unterstützt.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

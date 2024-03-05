@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1975'
 ht-degree: 99%
 
 ---
@@ -40,14 +40,12 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
-<!--
-## SMS guardrails {#sms-guardrails}
+## SMS-Leitlinien {#sms-guardrails}
 
-* MMS Capability is only available for Sinch.
-* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
-* Message feedback syncing is not currently available for MMS.
-* Consent management operates at the SMS channel level for MMS.
--->
+* Die MMS-Funktion ist nur für Sinch verfügbar.
+* Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
+* Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
+* Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
 ## Fragmentleitlinien {#fragments-guardrails}
 
