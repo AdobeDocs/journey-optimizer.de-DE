@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="E-Mail-Erstellung"
->abstract="Definieren Sie die Betreffzeile Ihrer E-Mail und öffnen Sie den E-Mail-Designer, um den Inhalt der E-Mail zu erstellen."
+>abstract="Die Betreffzeile der E-Mail erstellen und den E-Mail-Designer öffnen, um den Inhalt der E-Mail zu erstellen."
 
 
 ## Hinzufügen einer E-Mail-Aktion {#email-action}
