@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3cb1a06b200961030ff22c2ee6f42173f83606f
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +164,7 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-wobei das Format des Datums wie folgt lautet: JJJJ-MM-TT HH:MM:SS.
+wobei das Datumsformat: `YYYY-MM-DD HH:MM:SS`.
 
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
