@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 71%
+ht-degree: 96%
 
 ---
 
@@ -55,13 +55,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsvorlagen für mehrere Kanäle</strong><br/></th>
+<th><strong>Multi-Channel-Inhaltsvorlagen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Neben E-Mail stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: Push, In-App, SMS und Briefpost, wobei jeder Kanal über dedizierte Vorlagentypen verfügt. Für E-Mail können Sie jetzt den Inhaltstyp auswählen, mit dem Sie die Betreffzeile als Teil Ihrer E-Mail-Vorlage speichern können. <br/><br/></p>
+<p>Neben „E-Mail“ stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: „Push“, „In-App“, „SMS“ und „Briefpost“. Dabei verfügt jeder Kanal über dedizierte Vorlagentypen. Für „E-Mail“ können Sie nun den Inhaltstyp auswählen, mit dem Sie den Betreff als Teil Ihrer E-Mail-Vorlage speichern können. <br/><br/></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/content-templates.md">ausführlichen Dokumentation</a>.<br></br></p>
 <img src="assets/do-not-localize/multi-chan-templates.gif">
 </tr>
@@ -75,7 +75,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* **Testadressenlisten**: bei der Verwendung von **Testadressenlisten** werden jetzt Varianten unterstützt. Die Testadressen erhalten eine Kopie aller Varianten der gleichen Nachricht (z. B. die verschiedenen Behandlungen eines Inhaltserprobungs). [Weitere Informationen](../configuration/seed-lists.md)
+* **Testadressenlisten**: bei der Verwendung von **Testadressenlisten** werden jetzt Varianten unterstützt. Die Testadressen erhalten eine Kopie aller Varianten derselben Nachricht (z. B. die verschiedenen Behandlungen eines Inhaltsexperiments). [Weitere Informationen](../configuration/seed-lists.md)
 
 Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, stehen jetzt allen Benutzenden zur Verfügung:
 
@@ -86,26 +86,26 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
   >[!AVAILABILITY]
   >
   >* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition und dem benutzerdefinierten Upload (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder dem Privacy and Security Shield verfügbar.
-  >* Die **Zielgruppen-Upload aus einer CSV-Datei** Die Verbesserung wird im Laufe von mehreren Tagen nach der ersten Veröffentlichung schrittweise eingeführt. Einige Benutzer haben zwar sofortigen Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihrer Umgebung verfügbar sind.
+  >* Der **Zielgruppen-Upload aus einer CSV-Dateiverbesserung** wird im Laufe von mehreren Tagen nach der ersten Veröffentlichung schrittweise durchgeführt. Einige Benutzerinnen und Benutzer haben zwar sofort Zugriff, bei anderen kann es jedoch zu einer Verzögerung kommen, bevor dies in ihrer Umgebung verfügbar wird.
 
 **Journeys**
 
-* **Filtern von Journeys**: Sie können jetzt zusätzlich zu den vorhandenen vordefinierten Datumsfiltern **eigene Daten zum Filtern des Inventars von Journeys** verwenden. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums erstellt oder veröffentlicht wurden. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
-* **Benutzerdefinierte Aktionen** - Sie können jetzt die **content-type** -Kopfzeile. Diese neue **content-type** sollte auf JSON-Inhalte verweisen. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
-* **Konfiguration**: Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als &quot;primary = true&quot;definiert. [Weitere Informationen](../reports/sharing-field-list.md)
-* **Benutzeroberfläche**: Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das &quot;Stiftsymbol&quot;, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird. [Weitere Informationen](../building-journeys/journey-gs.md#change-properties)
+* **Filtern von Journeys**: Sie können jetzt zusätzlich zu den vorhandenen vordefinierten Datumsfiltern **eigene Daten zum Filtern des Inventars von Journeys** verwenden. Sie können die Liste verfeinern, indem Sie sich Journeys anzeigen lassen, die an einem bestimmten Datum, in einem bestimmten Monat, in einem ganzen Jahr oder in bestimmten Zeiträumen erstellt oder veröffentlicht wurden. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
+* **Benutzerdefinierte Aktionen**: Sie können jetzt den **Content-Typ**-Header aktualisieren. Dieser neue **Content-Typ** sollte auf JSON-Inhalte verweisen. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
+* **Konfiguration**: Das Attribut „identityMap“ in „stepEvents“ ist jetzt vorausgefüllt. Die primäre Identität wird als „primary = true“ definiert. [Weitere Informationen](../reports/sharing-field-list.md)
+* **Benutzeroberfläche**: Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umgestaltet. Unter den verschiedenen Updates sehen Sie, dass das Stiftsymbol, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, nun links in der oberen Leiste neben dem Journey-Namen angezeigt wird. [Weitere Informationen](../building-journeys/journey-gs.md#change-properties)
 
 **SMS-Kanal**
 
-* **Opt-in/Opt-out-Keywords**: Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** nach Ihren Wünschen anpassen. Journey Optimizer Trigger die Antwort anhand dieser angegebenen Schlüsselwörter. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+* **Opt-in/Opt-out-Keywords**: Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** nach Ihren Wünschen anpassen. Journey Optimizer löst die Antwort anhand dieser angegebenen Keywords aus. [Weitere Informationen](../sms/sms-configuration.md#create-api)
 
 **Kampagnen**
 
-* **API-ausgelöste Kampagnen**: Der cURL-Code, der nach der Aktivierung einer API-ausgelösten Kampagne generiert wurde, wurde verbessert. Es enthält jetzt alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#execute)
+* **API-ausgelöste Kampagnen**: Der cURL-Code, der nach der Aktivierung einer API-ausgelösten Kampagne generiert wurde, wurde verbessert. Er enthält jetzt alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#execute)
 
-**Frequenzregeln**
+**Häufigkeitsregeln**
 
-* Zusätzlich zu E-Mail und Push können Sie jetzt Frequenzregeln für SMS- und Briefpost-Kanäle erstellen. Häufigkeitsregeln schließen automatisch zu oft angeforderte Profile aus Nachrichten und Aktionen aus, wenn die Frequenzlimitierung erreicht wird. [Weitere Informationen](../configuration/frequency-rules.md)
+* Zusätzlich zu „E-Mail“ und „Push“ können Sie nun Häufigkeitsregeln für SMS- und Briefpost-Kanäle erstellen. Häufigkeitsregeln schließen automatisch die zu oft angeforderten Profile aus Nachrichten und Aktionen aus, wenn die Frequenzbegrenzung erreicht wird. [Weitere Informationen](../configuration/frequency-rules.md)
 
 <!--**Decision management**
 
@@ -156,7 +156,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Nutzen Sie einen Katalog branchenspezifischer Anwendungsfallbücher in Real-Time CDP und Journey Optimizer, um häufige Anwendungsfälle zu beheben, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.</p>
+<p>Nutzen Sie einen Katalog mit branchenspezifischen Anwendungsfall-Playbooks in Real-Time CDP und Journey Optimizer für gängige Anwendungsfälle, die Sie mit Adobe Experience Platform und Adobe Journey Optimizer durchführen können.</p><p>Nachdem Sie das Playbook ausgewählt haben, das Ihren Anforderungen am besten entspricht, können Sie es aktivieren, um die Assets zu generieren, die zur Unterstützung Ihres Anwendungsfalls benötigt werden, wie z. B. Journeys, Nachrichten, Schemata oder Segmente, und diese für eine schnellere Amortisierungszeit an Ihr Schema anpassen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../start/playbooks.md">ausführlichen Dokumentation</a>.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>

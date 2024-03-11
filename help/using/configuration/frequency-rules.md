@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 81%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder in eine Journey eintreten, indem Sie kanalübergreifende Regeln festlegen, mit denen zu oft angesprochene Profile automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
-So kann es beispielsweise für eine Marke vorkommen, dass pro Monat maximal vier Marketing-Nachrichten an ihre Kunden gesendet werden. Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+Für eine Marke könnte eine Regel beispielsweise lauten, ihren Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
@@ -58,7 +58,7 @@ Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt]
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Festlegen der Begrenzung für Ihre Regel"
->abstract="Geben Sie die maximale Anzahl von Nachrichten an, die innerhalb des ausgewählten Zeitraums an ein Kundenprofil gesendet werden. Die Frequenzlimitierung basiert auf dem ausgewählten Kalenderzeitraum und wird zu Beginn des entsprechenden Zeitrahmens zurückgesetzt."
+>abstract="Geben Sie an, wie viele Nachrichten innerhalb des ausgewählten Zeitrahmens maximal an ein Kundenprofil gesendet werden sollen. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. Wählen Sie den Kanal aus, den Sie für diese Regel verwenden möchten: **[!UICONTROL Email]**, **[!UICONTROL Push-Benachrichtigung]**, **[!UICONTROL SMS]** oder **[!UICONTROL Briefpost]**.
+1. Wählen Sie den Kanal aus, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]**, **[!UICONTROL Push-Benachrichtigung]**, **[!UICONTROL SMS]** oder **[!UICONTROL Briefpost]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -185,7 +185,7 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. [](#create-new-rule)Erstellen Sie eine Regel mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
-   * Alle Kanäle auswählen.
+   * Wählen Sie alle Kanäle aus.
    * Legen Sie die Begrenzung auf 12 x monatlich fest.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -199,7 +199,7 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. Speichern und [aktivieren](#activate-rule) Sie die Regel.
 
-1. [Nachricht erstellen](../building-journeys/journeys-message.md) für jeden Kanal, über den Sie kommunizieren möchten, und wählen Sie die **[!UICONTROL Marketing]** Kategorie für jede Nachricht. [Erfahren Sie, wie Sie eine Frequenzregel anwenden](#apply-frequency-rule)
+1. [Erstellen Sie eine Nachricht](../building-journeys/journeys-message.md) für jeden Kanal, über den Sie kommunizieren möchten, und wählen Sie für jede Nachricht die Kategorie **[!UICONTROL Marketing]** aus. [Erfahren Sie, wie Sie eine Häufigkeitsregel anwenden.](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
