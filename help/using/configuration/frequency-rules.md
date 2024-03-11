@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 89%
+source-wordcount: '1213'
+ht-degree: 81%
 
 ---
 
@@ -77,23 +77,9 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
    >
    >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** verfügbar.
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Dauer]** einen Zeitraum aus, in dem die Begrenzung angewendet werden soll.
-
-   ![](assets/message-rules-capping-duration.png)
-
-   Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
-
-   Der Zähler läuft für jeden Zeitraum wie folgt ab:
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
-
-   * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01. 23:59:59 UTC.
-
-   &lt;!--HINWEIS: Beim Umgang mit der [Batch-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch) wird Folgendes empfohlen: {target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"}. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. Aus dem **[!UICONTROL Dauer]** Dropdownliste einen Zeitrahmen für die Anwendung der Begrenzung auswählen. [Weitere Informationen](#frequency-cap)
 
 1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat oder Woche <!--or day--> an ein einzelnes Benutzerprofil gesendet werden können – je nach Ihrer Auswahl oben.
 
@@ -114,6 +100,34 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Als Entwurf speichern]**, um die Regelerstellung zu bestätigen. Ihre Nachricht wird der Regelliste mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
    ![](assets/message-rules-created.png)
+
+### Frequenzlimitierung {#frequency-cap}
+
+Aus dem **[!UICONTROL Dauer]** Dropdownliste auswählen, ob die Begrenzung monatlich oder wöchentlich angewendet werden soll.
+
+>[!NOTE]
+>
+>Tägliche Frequenzlimitierung ist auch bei Bedarf verfügbar. [Weitere Informationen](#daily-frequency-cap)
+
+Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
+
+![](assets/message-rules-capping-duration.png)
+
+Der Zähler läuft für jeden Zeitraum wie folgt ab:
+
+* **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01. 23:59:59 UTC.
+
+* **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+
+### Tägliche Häufigkeitsbegrenzung {#daily-frequency-cap}
+
+Neben der monatlichen und wöchentlichen Frequenzlimitierung ist auch eine tägliche Frequenzlimitierung auf Anfrage erhältlich. Wenden Sie sich diesbezüglich an Ihren Adobe-Support-Mitarbeiter.
+
+Die tägliche Frequenzbegrenzung gilt für den Tag bis 23:59:59 UTC und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+
+>[!NOTE]
+>
+>Wenn Sie [Stapelsegmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} wird empfohlen. Erfahren Sie mehr über die Methoden zur Zielgruppenbewertung in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Regel {#activate-rule}
 
