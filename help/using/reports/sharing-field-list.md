@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 * Profilfelder
 * Service-Ereignisfelder
 
-Für das Attribut identityMap wird die primäre Identität standardmäßig als &quot;primary = true&quot;definiert.
+Für das Attribut „identityMap“ wird die primäre Identität standardmäßig als „primary = true“ definiert.
 
 ## debugInfo {#debuginfo-field}
 

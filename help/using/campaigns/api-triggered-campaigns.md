@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Sie können die Kampagne jetzt über die APIs ausführen. [Weitere Informationen
 
 Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-Anfrage abrufen und in der API verwenden, um Ihre Payload zu erstellen und die Kampagne auszulösen.
 
-1. Öffnen Sie die Kampagne und kopieren Sie dann die Payload-Anfrage aus dem **[!UICONTROL cURL-Anfrage]** Abschnitt. Diese Payload enthält alle in der Nachricht verwendeten Personalisierungsvariablen (Profil und Kontext). Sie ist verfügbar, sobald die Kampagne aktiv ist.
+1. Öffnen Sie die Kampagne, kopieren Sie dann die Payload-Anfrage aus dem Abschnitt **[!UICONTROL cURL-Anfrage]** und fügen Sie diese ein. Diese Payload enthält nun alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. Sie ist verfügbar, sobald die Kampagne aktiv ist.
 
    ![](assets/api-triggered-curl.png)
 

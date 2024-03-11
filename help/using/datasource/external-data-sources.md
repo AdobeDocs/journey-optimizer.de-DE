@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,15 +69,15 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
    ![](assets/journey27.png)
 
-1. Konfigurieren Sie die Authentifizierung entsprechend der Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Allgemein]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**.
+1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. 
 
    Für den einfachen Authentifizierungsmodus müssen Sie einen Benutzernamen und ein Kennwort eingeben.
 
    >[!NOTE]
    >
-   >Wenn der Authentifizierungsaufruf ausgeführt wird, wird die `<username>:<password>` -Zeichenfolge, die in base64 kodiert ist, wird im Authentifizierungs-Header hinzugefügt.
+   >Wenn der Authentifizierungsaufruf erfolgt, wird die in base64 kodierte Zeichenfolge `<username>:<password>` in den Authentifizierungs-Header eingefügt.
 
-   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den API-Schlüssel-Authentifizierungsmodus:
+   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den Authentifizierungsmodus „API-Schlüssel“:
 
    * **[!UICONTROL Typ]**: „API-Schlüssel“
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)

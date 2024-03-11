@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
-Wenn Sie beispielsweise eine Zielgruppe mit Anreicherungsattributen auswählen, die mithilfe eines Kompositionsarbeitsablaufs oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
+Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
 
@@ -166,4 +166,4 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
 
    >[!NOTE]
    >
-   >Hinweis: Nur Personen mit den Zielgruppenzugehörigkeitsstatus **Realisiert** und **Vorhanden** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target="_blank"}.
+   >Hinweis: Nur Personen mit den Zielgruppenzugehörigkeitsstatus **Realisiert** und **Vorhanden** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.

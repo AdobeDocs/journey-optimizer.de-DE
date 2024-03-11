@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Februar 2024 {#feb-2024}
 
-* Die Integration von Journey Optimizer und Workfront wurde der Integrationsseite hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
+* Die Journey Optimizer- und Workfront-Integration wurde zur Integrationsseite hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
 * Es wurden Informationen hinzugefügt, wie die Darstellungen von Angeboten basierend auf Kontextdaten personalisiert werden können. [Weitere Informationen](../offers/offer-library/add-representations.md#context-data)
-* Die Seite &quot;Limits&quot;wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
-* Es wurden zusätzliche Informationen zum grundlegenden Authentifizierungstyp in externen Datenquellen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md)
-* Es wurde ein Hinweis hinzugefügt, in dem die [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) aus dem [Personalisierungseditor](../personalization/functions/functions.md).
-* Die Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen wurde aktualisiert - [Weitere Informationen](../building-journeys/expression/functions.md)
-* Die Seite der Aufspaltungsfunktion wurde aktualisiert - [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
+* Die Seite für Schutzmechanismen wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
+* Es wurden zusätzliche Informationen zum einfachen Authentifizierungstyp in externen Datenquellen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md)
+* Es wurde ein Hinweis hinzugefügt, um klar zwischen dem [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) und dem [Personalisierungseditor](../personalization/functions/functions.md) zu unterscheiden.
+* Die Liste verfügbarer Funktionen wurde im erweiterten Ausdruckseditor aktualisiert. [Weitere Informationen](../building-journeys/expression/functions.md)
+* Die Seite der Aufspaltungsfunktion wurde aktualisiert. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
-* Die Seite mit den Regeln für die Nachrichtenhäufigkeit wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich). [Weitere Informationen](../configuration/frequency-rules.md)
-* Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Datensätze nicht manuell erstellt werden können und dass PTR-Datensätze bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
+* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich). [Weitere Informationen](../configuration/frequency-rules.md)
+* Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Einträge nicht manuell erstellt werden können und dass PTR-Einträge bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Januar 2024 {#jan-2024}
 

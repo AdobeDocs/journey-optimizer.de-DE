@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,8 +205,8 @@ ht-degree: 99%
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
-   + [Mobile In-App-Nachricht erstellen](using/in-app/create-in-app.md)
-   + [Web-In-App-Nachricht erstellen](using/in-app/create-in-app-web.md)
+   + [Erstellen einer Mobile-In-App-Nachricht](using/in-app/create-in-app.md)
+   + [Erstellen einer Web-In-App-Nachricht](using/in-app/create-in-app-web.md)
    + [Gestalten der App-Inhalte](using/in-app/design-in-app.md)
    + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
 + Push-Benachrichtigungs-Kanal{#push}
@@ -553,7 +553,7 @@ ht-degree: 99%
          + [Capping-API](using/configuration/capping.md)
          + [Einschränkungs-API](using/configuration/throttling.md)
       + Ereigniskonfiguration {#events-journeys}
-         + [Journey-Ereignisse verwenden](using/event/about-events.md)
+         + [Arbeiten mit Journey-Ereignissen](using/event/about-events.md)
          + Konfigurieren eines unitären Ereignisses {#unitary-events}
             + [Erste Schritte mit unitären Ereignissen](using/event/about-creating.md)
             + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1451'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfa
 
 Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein bestimmtes Format erwartet wird (Beispiel: Zeichenfolge, Dezimalwert usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie in diesem [Anwendungsfall](../building-journeys/collections.md).
 
-Benutzerdefinierte Aktionen unterstützen nur das JSON-Format bei Verwendung von [Anfrage](../action/about-custom-action-configuration.md#define-the-message-parameters) oder [Antwort-Payloads](../action/action-response.md).
+Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von [Anfrage](../action/about-custom-action-configuration.md#define-the-message-parameters)- oder [Antwort-Payloads](../action/action-response.md).
 
 ## Best Practices{#custom-action-enhancements-best-practices}
 
@@ -119,7 +119,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
 1. Definieren Sie die Header und Abfrageparameter:
 
-   * Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Header-Feld hinzufügen]**, um die HTTP-Header-Zeilen der Anfragenachricht zu definieren, die an den externen Service gesendet werden soll. Die Header-Felder **[!UICONTROL Content-Typ]** und **[!UICONTROL Charset]** werden standardmäßig festgelegt. Diese Felder können nicht gelöscht werden. Nur die **[!UICONTROL Content-Type]** -Kopfzeile kann geändert werden. Der Wert sollte dem JSON-Format entsprechen. Der Standardwert lautet:
+   * Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Header-Feld hinzufügen]**, um die HTTP-Header-Zeilen der Anfragenachricht zu definieren, die an den externen Service gesendet werden soll. Die Header-Felder **[!UICONTROL Content-Typ]** und **[!UICONTROL Charset]** werden standardmäßig festgelegt. Sie können diese Felder nicht löschen. Es kann nur der **[!UICONTROL Content-Typ]**-Header geändert werden. Sein Wert sollte dem JSON-Format entsprechen. Dies ist der Standardwert:
 
    ![](assets/content-type-header.png)
 

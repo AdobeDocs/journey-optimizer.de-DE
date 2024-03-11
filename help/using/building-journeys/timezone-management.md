@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerdefiniert
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelem
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Sie können eine [feste Zeitzone](#fixed-timezone) oder die Zeitzone verwenden [im Benutzerprofil definiert](#timezone-from-profiles).
+Sie können eine [feste Zeitzone](#fixed-timezone) auswählen oder die Zeitzone verwenden, die [im Benutzerprofil definiert ist](#timezone-from-profiles).
 
 ## Definieren einer festen Zeitzone {#fixed-timezone}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 >[!ENDSHADEBOX]
 
-Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Zielgruppen zu erstellen.
+Mit der Zielgruppenkomposition können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschließen ...) nutzen können, um neue Zielgruppen zu erstellen.
 
-Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen und -Journey für die Kundenansprache genutzt werden. [Erfahren Sie, wie Sie in Journey Optimizer Zielgruppen auswählen](../audience/about-audiences.md#segments-in-journey-optimizer)
+Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Kampagnen und Journeys von Journey Optimizer genutzt werden, um Kundinnen und Kunden anzusprechen. [Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen.](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition und benutzerdefinierten Upload-Zielgruppen ist derzeit nicht für die Verwendung mit dem Health Care Shield oder Privacy and Security Shield verfügbar.
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition und dem benutzerdefinierten Zielgruppen-Upload ist derzeit nicht für Health Care Shield oder Privacy and Security Shield verfügbar.
 >
->Anreicherungsattribute sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, nicht in Journey Optimizer-Kampagnen oder -Journey erzwungen.
+>Anreicherungsattribute sind noch nicht im Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, in Journey Optimizer-Kampagnen oder -Journeys nicht durchgesetzt.
 
-Auf die Zielgruppenkomposition kann über das Menü **[!UICONTROL Zielgruppen]** von Adobe Journey Optimizer zugegriffen werden:
+Die Zielgruppenkomposition ist über das Menü **[!UICONTROL Zielgruppen]** von Adobe Journey Optimizer erreichbar:
 
 ![](assets/audiences-browse.png)
 

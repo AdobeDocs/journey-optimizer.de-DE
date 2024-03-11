@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="Kanaloberfläche"
->abstract="Eine Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wurde. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
+>abstract="Eine Kanaloberfläche ist eine Konfiguration, die durch eine oder einen Systemadmin definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
 
 Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.
 

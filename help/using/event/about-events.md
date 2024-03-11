@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey-Ereignisse verwenden
-description: Erfahren Sie, wie Sie mit Ereignissen in Ihren Journey arbeiten.
+title: Arbeiten mit Journey-Ereignissen
+description: Erfahren Sie, wie Sie mit Ereignissen in Ihren Journeys arbeiten.
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Journey-Ereignisse verwenden {#about-events}
+# Arbeiten mit Journey-Ereignissen {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
@@ -64,7 +64,7 @@ Bei unitären Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 
 ## Datenzyklus {#data-cycle}
 
-Ereignisse sind POST-API-Aufrufe. Ereignisse werden über Streaming-Aufnahme-APIs an Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als &quot;Inlet&quot;bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
+Ereignisse sind POST-API-Aufrufe. Ereignisse werden über Streaming-Aufnahme-APIs an Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
 
 Die Payload enthält Informationen, die von Streaming-Aufnahme-APIs benötigt werden, um zu funktionieren (im Header), Informationen, die [!DNL Journey Optimizer] benötigt, um zu funktionieren, und Informationen, die in Journeys verwendet werden (im Hauptteil z. B. der Betrag eines Transaktionsabbruchs). Es gibt zwei Modi für die Streaming-Aufnahme: authentifiziert und nicht authentifiziert. Weitere Informationen zu Streaming-Aufnahme-APIs finden Sie unter [diesem Link](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 

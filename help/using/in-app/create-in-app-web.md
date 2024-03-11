@@ -1,5 +1,5 @@
 ---
-title: Web-In-App-Kanal konfigurieren
+title: Konfigurieren des Web-In-App-Kanals
 description: Erfahren Sie, wie Sie den Web-In-App-Kanal in der Datenerfassung konfigurieren
 feature: In App
 topic: Content Management
@@ -7,21 +7,21 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Web-In-App-Nachricht erstellen {#create-in-app-web}
+# Erstellen einer Web-In-App-Nachricht {#create-in-app-web}
 
-## Web-In-App-Kanal konfigurieren {#configure-web-inapp}
+## Konfigurieren des Web-In-App-Kanals {#configure-web-inapp}
 
 Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
-* Installieren Sie die Web SDK-Tag-Erweiterung, um Web-In-App-Nachrichten zu unterstützen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* Installieren Sie die Web SDK-Tag-Erweiterung, um Web-In-App-Nachrichten zu unterstützen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=de)
 
-* Passen Sie Ihre Trigger an. Web In-App Messaging unterstützt zwei Arten von Triggern: Daten an Platform-Trigger und manuelle Nachrichten. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
+* Passen Sie Ihre Trigger an. Web-In-App-Nachrichten unterstützen zwei Arten von Triggern: „Daten an Platform gesendet“ und „Manuell“. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=de)
 
 ## Erstellen einer Web-In-App-Nachrichtenkampagne {#create-inapp-web-campaign}
 
@@ -29,27 +29,27 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Eigenschaften]** den Ausführungstyp der Kampagne aus: Geplant oder API-ausgelöst. Weitere Informationen zu Kampagnentypen finden Sie auf [dieser Seite](../campaigns/create-campaign.md#campaigntype).
 
-1. Im **[!UICONTROL Aktionen]** wählen Sie die **[!UICONTROL In-App-Nachricht]**. Aus dem **[!UICONTROL Senden an]** Dropdown-Liste wählen Sie Web aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL In-App-Nachricht]** aus. Wählen Sie im Dropdown-Menü **[!UICONTROL Senden an]** die Option „Web“ aus.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Definieren Sie eine App-Oberfläche. Sie haben zwei Möglichkeiten, Änderungen vorzunehmen:
+1. Definieren Sie eine Mobile-App-Oberfläche. Sie haben zwei Möglichkeiten, Änderungen vorzunehmen:
 
-   * Sie können entweder **[!UICONTROL Seiten-URL]** , um Änderungen auf eine bestimmte Seite anzuwenden.
+   * Sie können entweder eine **[!UICONTROL Seiten-URL]** eingeben, um Änderungen auf eine bestimmte Seite anzuwenden.
 
-   * Sie können eine Regel erstellen, um mehrere URLs als Ziel festzulegen, die demselben Muster entsprechen.
+   * Sie können eine Regel erstellen, um mehrere URLs, die demselben Muster entsprechen, als Ziel festzulegen.
 
-+++ So erstellen Sie eine Seitenvergleichsregel.
++++ Erstellen einer Regel zum Seitenabgleich
 
-      1. Auswählen **[!UICONTROL Seitenübereinstimmungsregel]** als App-Oberfläche.
-      1. Klicks **[!UICONTROL Regel erstellen]**.
+      1. Wählen Sie unter „Mobile-App-Oberfläche“ die Option **[!UICONTROL Regel zum Seitenabgleich]** aus.
+      1. Klicken Sie auf **[!UICONTROL Regel erstellen]**.
 
          ![](assets/in_app_web_surface_3.png)
 
-      1. Im **[!UICONTROL Oberflächenregel bearbeiten]** definieren Sie Ihre Kriterien für die **[!UICONTROL Domäne]** und **[!UICONTROL Seite]** -Felder.
-      1. Personalisieren Sie Ihre Kriterien in den Dropdown-Listen Bedingung weiter.
+      1. Definieren Sie im Fenster **[!UICONTROL Oberflächenregel bearbeiten]** die Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
+      1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
 
-         Wenn Sie hier beispielsweise Elemente bearbeiten möchten, die auf allen Verkaufsproduktseiten Ihrer Luma-Website angezeigt werden, wählen Sie Domäne > Starts mit > Luma und Seite > Enthält > Vertrieb.
+         Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
 
          ![](assets/in_app_web_surface_4.png)
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
    ![](assets/in_app_web_surface_2.png)
 
-1. Nachdem Sie die Oberfläche Ihrer App ausgewählt und konfiguriert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Nachdem Sie die Mobile-App-Oberfläche ausgewählt und konfiguriert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
 ## Definieren der Web-In-App-Nachrichtenkampagne {#configure-inapp}
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen in der ausgewählten Zielgruppe verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
-1. Im **[!UICONTROL Aktion]** Menü, können Sie die zuvor konfigurierten Einstellungen wie **[!UICONTROL Anwendungsoberfläche]**. Sie können hier bei Bedarf Änderungen vornehmen oder Ihre Regel aktualisieren, indem Sie auf **[!UICONTROL Regel bearbeiten]**.
+1. Im Menü **[!UICONTROL Aktion]** finden Sie die zuvor unter **[!UICONTROL Mobile-App-Oberfläche]** konfigurierten Einstellungen. Sie können hier bei Bedarf Änderungen vornehmen oder Ihre Regel aktualisieren, indem Sie auf **[!UICONTROL Regel bearbeiten]** klicken.
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen und Abwandlungen zu erstellen, deren Performance zu messen und die beste Option für Ihre Zielgruppe zu ermitteln. [Weitere Informationen](../campaigns/content-experiment.md)
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
       | Paket | Auslöser | Definition |
       |---|---|---|
       | Plattform | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
-      | Manuell | Manueller Trigger | Zwei verknüpfte Datenelemente: ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (z. B. Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). |
+      | Manuell | Manueller Trigger | Zwei verknüpfte Datenelemente: ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (beispielsweise Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). |
 
 +++
 
@@ -96,14 +96,14 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
       ![](assets/in_app_web_surface_8.png)
 
-   1. Wählen Sie die **[!UICONTROL und]** -Bedingung, wenn Sie eine benutzerdefinierte **[!UICONTROL Eigenschaft]** und passen Sie Ihre Regel besser an.
+   1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie ein benutzerdefiniertes **[!UICONTROL Merkmal]** hinzufügen und Ihre Regel besser anpassen möchten.
 
       +++Sehen Sie sich die verfügbaren Merkmale an.
 
       | Paket | Merkmal | Definition |
       |---|---|---|
-      | Plattform | XDM-Ereignistyp | Wird ausgelöst, wenn der angegebene Ereignistyp erfüllt ist. |
-      | Plattform | XDM-Wert | Wird ausgelöst, wenn der angegebene XDM-Wert erfüllt ist. |
+      | Plattform | XDM-Ereignistyp | Wird ausgelöst, wenn der angegebene Ereignistyp vorliegt. |
+      | Plattform | XDM-Wert | Wird ausgelöst, wenn der angegebene XDM-Wert vorliegt. |
 +++
 
       ![](assets/in_app_web_surface_9.png)

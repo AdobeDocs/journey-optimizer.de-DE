@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,8 +82,8 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 
 **Journeys**
 
-* **Filtern von Journeys**: Sie können jetzt zusätzlich zu den vorhandenen vordefinierten Datumsfiltern **eigene Daten zum Filtern des Inventars von Journeys** verwenden. Auf diese Weise können Sie die Liste verfeinern, indem Sie Journey anzeigen, die an einem bestimmten Datum, innerhalb eines bestimmten Monats, über ein ganzes Jahr oder innerhalb eines bestimmten Zeitraums erstellt oder veröffentlicht wurden.
-* **Benutzerdefinierte Aktionen** - Sie können jetzt die **content-type** -Kopfzeile. Diese neue **content-type** sollte auf JSON-Inhalte verweisen.
+* **Filtern von Journeys**: Sie können jetzt zusätzlich zu den vorhandenen vordefinierten Datumsfiltern **eigene Daten zum Filtern des Inventars von Journeys** verwenden. Sie können die Liste verfeinern, indem Sie sich Journeys anzeigen lassen, die an einem bestimmten Datum, in einem bestimmten Monat, in einem ganzen Jahr oder in bestimmten Zeiträumen erstellt oder veröffentlicht wurden.
+* **Benutzerdefinierte Aktionen**: Sie können nun den **Content-Typ**-Header aktualisieren. Dieser neue **Content-Typ** sollte auf JSON-Inhalte verweisen.
 * **Konfiguration**: Das Attribut identityMap in stepEvents ist jetzt vorausgefüllt. Die primäre Identität wird als „primary = true“ definiert.
 * **Benutzeroberfläche**: Die obere Leiste in den Journey-Bildschirmen wurde für ein besseres Erlebnis umstrukturiert. Unter den verschiedenen Updates sehen Sie, dass das Stiftsymbol, das Ihnen den Zugriff auf die Journey-Eigenschaften ermöglicht, jetzt links in der oberen Leiste neben dem Journey-Namen angezeigt wird.
 
@@ -105,6 +105,6 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 
   >[!AVAILABILITY]
   >
-  >Diese Funktion wurde unter &quot;Eingeschränkte Verfügbarkeit&quot;(LA) für eine kleine Gruppe von Kunden veröffentlicht.
+  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
 
 * **Multi-Channel-Vorlagen**: Inhaltsvorlagen sind jetzt für **alle Kanäle**, außer dem Web, verfügbar. Für E-Mail können Sie jetzt den Typ (HTML oder Inhalt) auswählen.

@@ -1,16 +1,16 @@
 ---
 product: journey optimizer
 title: inAudience
-description: Erfahren Sie mehr über die Funktion in Audience
+description: Erfahren Sie mehr über die Funktion „inAudience“.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inAudience, function, expression, Journey
+keywords: inAudience, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Zielgruppen können drei Status aufweisen:
 
 Nur Personen mit den Zielgruppenteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
-`inAudience('audienceName') == true` bedeutet, dass Sie über eine segmentMembership mit dem eingegebenen/vorhandenen Status verfügen.
+`inAudience('audienceName') == true` bedeutet, dass Sie eine segmentMembership mit dem Status „eingetreten/vorhanden“ haben. 
 
-`inAudience('audienceName') == false` bedeutet, dass Sie über eine segmentMembership des Status &quot;Exited&quot;verfügen.
+`inAudience('audienceName') == false` bedeutet, dass Sie eine segmentMembership mit dem Status „ausgestiegen“ haben.
 
 ## Kategorie
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 * Als Best Practice wird empfohlen, in einer Aktivität **Zielgruppe lesen** nur Batch-Zielgruppen zu verwenden. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte die Aktivität **[Zielgruppenqualifikation](audience-qualification-events.md)**.
 
-* Zielgruppen [aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder [Zusammensetzungs-Workflows](../audience/get-started-audience-orchestration.md) kann im **Audience lesen** -Aktivität. Diese Zielgruppen sind nicht verfügbar in der **Zielgruppenqualifikation** -Aktivität.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
+   >Darüber hinaus können Sie auch Adobe Experience Platform-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. 
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 

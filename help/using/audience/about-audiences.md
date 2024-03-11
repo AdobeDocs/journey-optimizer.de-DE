@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, CSV-Dateiimport oder Komprimierungs-Workflows generiert wurde.
+Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, CSV-Dateiimport oder Kompositions-Workflows generiert wurde.
 
 >[!AVAILABILITY]
 >
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und benutzerdefinierten Upload-Zielgruppen (CSV-Datei) ist derzeit nicht für die Verwendung mit dem Health Care Shield oder Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition und dem benutzerdefinierten Zielgruppen-Upload (CSV-Datei) ist derzeit nicht für Health Care Shield oder Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -61,13 +61,13 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 ## Verwenden von Zielgruppen-Anreicherungsattributen in Journey Optimizer {#enrichment}
 
-Beim Targeting einer Audience, die mithilfe von Komposition-Workflows generiert wurde, können Sie Anreicherungsattribute aus diesen Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows generiert wurde, können Sie Anreicherungsattribute von diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
-* Erstellen Sie in einer Journey mehrere Pfade basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Wählen Sie dazu die Zielgruppe mithilfe einer [Audience lesen](../building-journeys/read-audience.md) -Aktivität erstellen und dann Regeln in einer [Bedingung](../building-journeys/condition-activity.md) Aktivität, die auf den Anreicherungsattributen der Zielgruppe basiert.
+* Erstellen Sie in einer Journey mehrere Pfade basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe einer Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in einer Aktivität [Bedingung](../building-journeys/condition-activity.md), die auf den Anreicherungsattributen der Zielgruppe basiert.
 
   ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
 
-* Personalisieren Sie Ihre Nachrichten in Journey oder Kampagnen, indem Sie im Ausdruckseditor Anreicherungsattribute aus der Zielgruppe hinzufügen. [Erfahren Sie, wie Sie mit dem Ausdruckseditor arbeiten.](../personalization/personalization-build-expressions.md)
+* Personalisieren Sie Ihre Nachrichten in Journeys oder Kampagnen, indem Sie im Ausdruckseditor Anreicherungsattribute aus der Zielgruppe hinzufügen. [Erfahren Sie, wie Sie mit dem Ausdruckseditor arbeiten.](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 

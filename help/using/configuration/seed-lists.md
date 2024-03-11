@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
 >[!NOTE]
 >
->Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen einer [Inhaltsexperiment](../campaigns/get-started-experiment.md)).
+>Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../campaigns/get-started-experiment.md)).
 
 ## Zugreifen auf Testadressenlisten {#access-seed-lists}
 
@@ -156,4 +156,4 @@ Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an 
 
 >[!NOTE]
 >
->Bei Journey wird der E-Mail-Versand nur bei der ersten Ausführung der Journey an die Testadressen gesendet.
+>Bei Journeys wird der E-Mail-Versand an die Testadressen nur bei der ersten Ausführung der Journey durchgeführt.

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -50,11 +50,11 @@ Sie können einen PTR-Eintrag aus der Liste öffnen, um den zugehörigen Subdoma
 
 ## Bearbeiten eines PTR-Eintrags {#edit-ptr-record}
 
-In [!DNL Journey Optimizer], können Sie keine PTR-Datensätze manuell erstellen. Stattdessen, sobald Sie [delegate](delegate-subdomain.md) Als erste Subdomain werden PTR-Einträge automatisch für Ihre IPs erstellt.
+In [!DNL Journey Optimizer] können Sie PTR-Einträge nicht manuell erstellen. Sobald Sie Ihre erste Subdomain an Adobe [delegiert](delegate-subdomain.md) haben, werden automatisch PTR-Einträge für Ihre IP erstellt. 
 
-Jede Ihrer IPs erhält einen einzigen PTR-Datensatz. Alle PTR-Datensätze haben das folgende Format: &quot;rxx.subdomain&quot;, wobei &quot;subdomain&quot;die erste Subdomain ist, für die Sie eine Zuweisung vorgenommen haben [!DNL Journey Optimizer].
+Jede Ihrer IPs erhält einen einzigen PTR-Eintrag. Alle PTR-Einträge haben das folgende Format: „rxx.subdomain“. Dabei entspricht „subdomain“ der ersten Subdomain, die Sie in [!DNL Journey Optimizer] delegiert haben.
 
-Wenn Sie zusätzliche Subdomains erstellen, müssen Sie einen oder mehrere PTR-Datensätze ändern und ihnen diese neuen Subdomains zuweisen. Gehen Sie dazu wie folgt vor.
+Wenn Sie zusätzliche Subdomains erstellen, müssen Sie einen oder mehrere PTR-Einträge ändern und ihnen diese neuen Subdomains zuweisen. Gehen Sie dazu wie folgt vor.
 
 >[!CAUTION]
 >

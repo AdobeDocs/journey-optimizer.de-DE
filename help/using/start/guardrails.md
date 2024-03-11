@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
 * Integrierte benutzerdefinierte Aktionen können nicht entfernt werden.
-* Benutzerdefinierte Aktionen unterstützen nur das JSON-Format bei Verwendung von Anfrage- oder Antwort-Payloads. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#custom-actions-limitations).
+* Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Stellen Sie bei der Auswahl eines mit einer benutzerdefinierten Aktion anzusprechenden Endpunkts sicher, dass:
 
    * Dieser Endpunkt den Journey-Durchsatz unterstützen kann, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder angesprochene Endpunkt muss mindestens 200 TPS unterstützen.

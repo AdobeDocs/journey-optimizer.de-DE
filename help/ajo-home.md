@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Sie können jetzt die neue Web-In-App-Nachrichten-Funktion verwenden, um persona
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
->[!TAB Inhaltsvorlagen für mehrere Kanäle]
+>[!TAB Erstellen von Multi-Channel-Inhaltsvorlagen]
 
-Neben E-Mail stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: Push, In-App, SMS und Briefpost, wobei jeder Kanal über dedizierte Vorlagentypen verfügt. Für E-Mail können Sie jetzt den Inhaltstyp auswählen, mit dem Sie die Betreffzeile als Teil Ihrer E-Mail-Vorlage speichern können.
+Neben „E-Mail“ stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: „Push“, „In-App“, „SMS“ und „Briefpost“. Dabei verfügt jeder Kanal über dedizierte Vorlagentypen. Für „E-Mail“ können Sie nun den Inhaltstyp auswählen, mit dem Sie den Betreff als Teil Ihrer E-Mail-Vorlage speichern können.
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 

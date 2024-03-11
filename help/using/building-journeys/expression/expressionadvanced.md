@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Informationen zum erweiterten Ausdruckseditor"
->abstract="Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Datenquellenbedingung definieren."
+>abstract="Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Bedingung für die Datenquelle definieren."
 
-Verwenden Sie den erweiterten Ausdruckseditor von Journey, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Datenquellenbedingung definieren.
+Verwenden Sie den erweiterten Journey-Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Bedingung für die Datenquelle definieren.
 
 >[!NOTE]
 >
->Die im erweiterten Ausdruckseditor verfügbaren Funktionen und Funktionen des Journey unterscheiden sich von den im Abschnitt [Personalisierungseditor](../../personalization/functions/functions.md).
+>Die im erweiterten Journey-Ausdruckseditor verfügbaren Funktionen und Fähigkeiten unterscheiden sich von denen im [Personalisierungseditor](../../personalization/functions/functions.md).
 
 Der Editor steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter definieren müssen, die eine bestimmte Datenbearbeitung erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen nutzen, die aus der Datenquelle abgerufen wurden. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextuell und variiert je nach den Ereignissen, die in der Journey hinzugefügt werden.
 

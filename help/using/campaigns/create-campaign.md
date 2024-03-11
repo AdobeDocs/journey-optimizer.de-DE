@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 
 1. Um der Kampagne benutzerdefinierte oder Core-Bezeichnungen für die Datennutzung zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
 
-## Nachricht erstellen und Tracking konfigurieren {#content}
+## Erstellen der Nachricht und Konfigurieren der Tracking-Funktion {#content}
 
 Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Kampagne gesendet werden soll.
 
@@ -126,9 +126,9 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die
 
 >[!IMPORTANT]
 >
->Verwendung von Zielgruppen und Attributen aus [Zielgruppenzusammensetzung](../audience/get-started-audience-orchestration.md) und [benutzerdefinierte Upload-Zielgruppen (CSV-Datei)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutzschild verfügbar.
+>Die Verwendung von Zielgruppen und Attributen aus der [Zielgruppenkomposition](../audience/get-started-audience-orchestration.md) und dem [benutzerdefinierten Zielgruppen-Upload (CSV-Datei)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) ist derzeit nicht für Health Care Shield oder Privacy and Security Shield verfügbar.
 >
->Für API-gesteuerte Kampagnen muss die Zielgruppe über API-Aufruf festgelegt werden.
+>Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden.
 
 Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll.
 

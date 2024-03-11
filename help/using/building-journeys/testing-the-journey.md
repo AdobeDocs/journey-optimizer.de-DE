@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Testmodusprotokolle"
->abstract="Die **Protokoll anzeigen** -Schaltfläche zeigt die Testergebnisse im JSON-Format an. Diese Ergebnisse geben die Anzahl der Kontakte innerhalb der Journey sowie ihren Status an."
+>abstract="Mit der Schaltfläche **Protokoll anzeigen** können Sie Testergebnisse im JSON-Format anzeigen. Diese Ergebnisse geben die Anzahl der Kontakte innerhalb der Journey sowie ihren Status an."
 
 Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 

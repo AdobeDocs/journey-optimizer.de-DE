@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1676'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -67,21 +67,21 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
    ![](assets/sms_6.png)
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten, wie unten beschrieben.
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
    * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-in-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **[!UICONTROL Opt-in-Nachricht]** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
    * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-out-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **[!UICONTROL Opt-out-Nachricht]** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
-   * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
+   * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-out-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Hilfe-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **Hilfenachricht** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
    * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
@@ -93,25 +93,25 @@ Gehen Sie wie folgt vor, um Ihren SMS/MMS-Anbieter in Journey Optimizer zu konfi
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.
 
-### Einzelne MMS {#sinch-mms}
+### Sinch MMS {#sinch-mms}
 
-Gehen Sie wie folgt vor, um Single MMS mit Journey Optimizer zu konfigurieren:
+Gehen Sie wie folgt vor, um Sinch MMS mit Journey Optimizer zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
    ![](assets/sms_6.png)
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten, wie unten beschrieben.
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
    * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü „Konversations-API“ können Sie Ihre Anmeldedaten im App-Menü finden.  Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * **[!UICONTROL Dienstplan-ID]** und **[!UICONTROL SMS-API-Token]**: Ihr **[!UICONTROL Dienstplan-ID]** und **[!UICONTROL SMS-API-Token]** befinden sich auf der Registerkarte SMS auf der Seite APIs .
+   * **[!UICONTROL Service-Plan-ID]** und **[!UICONTROL SMS-API-Token]**: Ihre **[!UICONTROL Service-Plan-ID]** und Ihr **[!UICONTROL SMS-API-Token]** befinden sich auf der Registerkarte „SMS“ der API-Seite.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. eine Nachrichtenvorgabe) für MMS-Nachrichten erstellen.
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für MMS-Nachrichten einrichten.
 
 ### Twilio {#twilio-api}
 
@@ -121,11 +121,11 @@ Gehen Sie wie folgt vor, um Twilio mit Journey Optimizer zu konfigurieren:
 
    ![](assets/sms_6.png)
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen, wie unten beschrieben:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten, wie unten beschrieben.
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-   * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Zugriff auf die **Kontoinformationen** auf Ihrer Twilio Console Dashboard-Seite, um Ihre Anmeldedaten zu finden.
+   * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Rufen Sie den Bereich mit den **Kontoinformationen** Ihrer Twilio Console-Dashboard-Seite auf. Dort finden Sie Ihre Anmeldedaten.
 
    * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in der [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
@@ -135,7 +135,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 ### Infobip {#infobip-api}
 
-Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
+Gehen Sie wie folgt vor, um Infobi mit Journey Optimizer zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -145,21 +145,21 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Homepage Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf, um Ihre Anmeldeinformationen zu finden. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
 
-   * **[!UICONTROL Opt-in-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-in-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-in-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **[!UICONTROL Opt-in-Nachricht]** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
-   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
+   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **[!UICONTROL Opt-in-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Ausschluss-Suchbegriffe]**: Geben Sie die Standardeinstellung bzw. die Suchbegriffe ein, die automatisch zum Trigger Ihrer **[!UICONTROL Opt-out-Nachricht]**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Opt-out-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **[!UICONTROL Opt-out-Nachricht]** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
-   * **[!UICONTROL Ausschlussnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Ausschlussnachricht]** gesendet wird.
+   * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **[!UICONTROL Opt-out-Nachricht]** gesendet wird.
 
-   * **[!UICONTROL Hilfe-Suchbegriffe]**: Geben Sie die standardmäßigen oder benutzerdefinierten Suchbegriffe ein, die automatisch zum Trigger Ihrer **Hilfemeldung**. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Hilfe-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **Hilfenachricht** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
    * **[!UICONTROL Hilfenachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird.
 
-   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords durch Kommas getrennte Werte.
+   * **[!UICONTROL Double-Opt-in-Suchbegriffe]**: Geben Sie die Suchbegriffe ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 
    * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Double-Opt-in-Bestätigung gesendet wird.
 
@@ -208,7 +208,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    * Wählen Sie **Marketing** für Werbetextnachrichten aus. Diese Nachrichten erfordern das Einverständnis der Benutzerin bzw. des Benutzers.
    * Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
-   Bei der Erstellung einer SMS/MMS müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre Nachricht ausgewählten Kategorie entspricht.
+   Wenn Sie eine SMS-/MMS-Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche wählen, die der Kategorie entspricht, die Sie für Ihre Nachricht ausgewählt haben.
 
    >[!CAUTION]
    >

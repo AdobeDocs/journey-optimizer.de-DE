@@ -1,6 +1,6 @@
 ---
-title: Web-In-App-Inhalte erstellen
-description: Erfahren Sie, wie Sie Ihren Web-In-App-Inhalt erstellen
+title: Gestalten Ihrer Web-In-App-Inhalte
+description: Erfahren Sie, wie Sie Web-In-App-Inhalte gestalten
 feature: In App
 topic: Content Management
 role: User
@@ -9,25 +9,25 @@ keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Web-In-App-Inhalte erstellen {#in-app-web-design}
+# Gestalten Ihrer Web-In-App-Inhalte {#in-app-web-design}
 
 >[!BEGINSHADEBOX]
 
 **Inhaltsverzeichnis**
 
-* [Web-In-App-Kanal konfigurieren](configure-in-app-web.md)
+* [Konfigurieren des Web-In-App-Kanals](configure-in-app-web.md)
 * [Erstellen einer Web-In-App-Nachrichtenkampagne](create-in-app-web.md)
-* **[Web-In-App-Inhalte erstellen](#in-app-web-design)**
+* **[Gestalten Ihrer Web-In-App-Inhalte](#in-app-web-design)**
 
 >[!ENDSHADEBOX]
 
-Um den Inhalt der In-App-Nachricht zu bearbeiten, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche in der **[!UICONTROL Aktion]** in Ihrer Kampagne.
+Um den Inhalt einer In-App-Nachricht zu bearbeiten, klicken Sie im Menü **[!UICONTROL Aktion]** Ihrer Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
 ![](assets/in_app_web_surface_7.png)
 
