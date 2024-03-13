@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
 source-wordcount: '4831'
 ht-degree: 99%
@@ -23,6 +23,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die Seite mit den Regeln für die Nachrichtenhäufigkeit wurde um einen neuen Unterabschnitt zur Begrenzung der Tagesfrequenz erweitert, der zusätzlich zur wöchentlichen oder monatlichen Begrenzung bei Bedarf verfügbar ist. [Weitere Informationen](../configuration/frequency-rules.md#daily-frequency-cap)
 * Die Seite mit Richtlinien zur Einwilligungsverwaltung wurde verbessert und mit nützlichen Links zur Experience Platform-Dokumentation aktualisiert. [Weitere Informationen](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## Februar 2024 {#feb-2024}
 

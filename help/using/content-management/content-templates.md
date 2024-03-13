@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 96%
 
 ---
 
@@ -55,16 +55,6 @@ Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten E
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und wählen Sie **[!UICONTROL Inhalt bearbeiten]** aus.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journeys, einschließlich mit dieser Vorlage erstellter Inhalte, nicht betroffen.
+
+### Vorlagen als Miniaturansichten anzeigen {#template-thumbnails}
+
+Wählen Sie die **[!UICONTROL Rasteransicht]** -Modus, um jede Vorlage als Miniaturansicht anzuzeigen.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>Derzeit können geeignete Miniaturansichten nur für E-Mail-Inhaltsvorlagen vom Typ HTML erstellt werden.
+
+Wenn Sie einen Inhalt aktualisieren, müssen Sie möglicherweise einige Sekunden warten, bis die Änderungen in der Miniaturansicht angezeigt werden.
 
 ## Erstellen von Inhaltsvorlagen {#create-content-templates}
 
