@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -172,7 +172,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 
@@ -434,13 +434,13 @@ Beispiel:
 "the current time is " + (now())
 ```
 
-Gibt „Die aktuelle Zeit lautet 2019-09-23T09:30:06.693Z“ zurück.
+Gibt &quot;die aktuelle Zeit ist 2023-09-23T09&quot;zurück:30:06.693 Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Gibt „2019-09-23T09:30:06.693Z ist die aktuelle Zeit“ zurück.
+Gibt &quot;2023-09-23T09&quot;zurück:30:06.693Z ist die aktuelle Zeit&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -461,16 +461,16 @@ Anhängen einer Dauer an einen „dateTime“, einen „dateTimeOnly“ oder ein
 Beispiel:
 
 ```json
-(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
+(toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Gibt den _dateTime_-Wert 2011-12-03T15:30:30Z zurück.
+Gibt eine _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
-(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
+(toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Gibt den _dateTimeOnly_-Wert 2011-12-03T15:30:30 zurück.
+Gibt eine _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))

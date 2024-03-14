@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastYears, Funktion, Ausdruck, Journey
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
@@ -41,6 +41,6 @@ Gibt einen booleschen Wert zurück.
 
 ## Beispiele
 
-`inLastYears(toDateTime('2010-12-12T01:11:00Z'), 4)`
+`inLastYears(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
 Gibt „true“ zurück.

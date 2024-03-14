@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: setDays, Funktion, Ausdruck, Journey
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -46,8 +46,8 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 ## Beispiele
 
-`setDays(toDateTime('2010-12-12T01:11:00Z'), 25)`
+`setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-Gibt 2010-25-12T01:11:00Z zurück.
+Gibt 2023-12-25T01 zurück:11:00Z.
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`
