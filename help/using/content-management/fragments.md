@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
+source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 100%
@@ -80,8 +80,6 @@ Sie können auch die **[!UICONTROL archivierten]** Fragmente anzeigen. [Weitere 
 * Duplizieren Sie ein Fragment.
 
 * Verwenden Sie die Option **[!UICONTROL Verweise erkunden]**, um die Journeys, Kampagnen oder Vorlagen anzuzeigen, in denen es verwendet wird. [Weitere Informationen](#explore-references)
-
-<!--Copy a fragment to another sandbox.-->
 
 * Archivieren Sie ein Fragment. [Weitere Informationen](#archive-fragments)
 
