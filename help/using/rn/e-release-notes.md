@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 67%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -32,14 +32,17 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Codebasiertes Erlebnis</strong><br/></th>
+<th><strong>Codebasierte Erlebnisse</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Erlebnisse, die Sie Ihren Kunden bereitstellen möchten, für alle Touchpoints personalisieren und testen, z. B. Web-Apps, mobile Apps, Desktop-Apps, Video-Konsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, Sprachassistenten, IoT-Geräte und mehr.</p>
-<p>Mit der code-basierten Erlebnisfunktion können Sie eingehende Erlebnisse mit einem einfachen und intuitiven, nicht visuellen Editor definieren. Sie können damit unabhängig vom Anwendungstyp bestimmte Elemente an einzelnen und detaillierteren Stellen Ihrer Apps oder Web-Seiten einfügen und bearbeiten, anstatt Änderungen an einem gesamten Inhalt vorzunehmen.</p><br/><br/></p>
+<p>Mit dem neuen code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für Ihre eingehenden Eigenschaften durchführen, um eine nahtlose Bereitstellung maßgeschneiderter Erlebnisse für verschiedene Touchpoints wie Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr zu ermöglichen.</p>
+<P>Die wichtigsten Funktionen ermöglichen Folgendes:</p>
+<ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Journey für Benutzer gewährleistet ist</li>
+<li>&gt;Präzise Bearbeitungsgenauigkeit: Bearbeiten Sie bestimmte Inhalte an einzelnen Stellen in Ihren Apps oder Webseiten.</li>
+<li>Vielseitige Implementierung: Unterstützung für serverseitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung.</li></ul></p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/get-started-code-based.md">ausführlichen Dokumentation</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Inhaltsvorlagen**
 
-* **Miniaturansicht**: Eine **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern.
+* **Miniatur** - A **Miniaturansicht** ist jetzt für Inhaltsvorlagen und Fragmente verfügbar, um den visuellen Zugriff zu verbessern. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
 
+**Journeys**
+
+Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
+
+* **Publishing** Status zwischen **Entwurf** und **Live** status
+* **Anhalten** Status zwischen **Live** und **Angehalten** status
+* **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** Status zwischen den **Entwurf** und **Entwurf (Test)** status
