@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
+source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 27%
@@ -44,7 +44,7 @@ Mit dieser Version wird die neue Funktion im Folgenden beschrieben.
 <li>Präzise Bearbeitungsgenauigkeit: Bearbeiten Sie bestimmte Inhalte an einzelnen Stellen in Ihren Apps oder Webseiten</li>
 <li>Vielseitige Implementierung: Unterstützung für serverseitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung.</li></ul></p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/get-started-code-based.md">ausführlichen Dokumentation</a>.</p>
-<!--img src="assets/do-not-localize/web_inapp.gif"-->
+<img src="assets/do-not-localize/code-based.gif">
 </tr>
 </tbody>
 </table>
