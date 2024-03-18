@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '289'
+ht-degree: 26%
 
 ---
 
@@ -64,3 +64,5 @@ Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 * **Publishing** Status zwischen **Entwurf** und **Live** status
 * **Anhalten** Status zwischen **Live** und **Angehalten** status
 * **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** Status zwischen den **Entwurf** und **Entwurf (Test)** status
+
+Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt.
