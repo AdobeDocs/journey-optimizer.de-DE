@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
->title="Ihre zugewiesenen Subdomains werden hier angezeigt."
->abstract="Weisen Sie Ihre erste Subdomain zu. Nach Abschluss der Zuweisung werden PTR-Datensätze erstellt und E-Mail-Kanäle aktiviert."
+>title="Ihre delegierten Subdomains werden hier angezeigt."
+>abstract="Delegieren Sie Ihre erste Subdomain. Nach Abschluss der Delegierung werden PTR-Einträge erstellt und E-Mail-Kanäle aktiviert."
 
 Durch die Erstellung einer Subdomain für E-Mail-Kampagnen können Marken verschiedene Traffic-Typen (z. B. Marketing oder Unternehmen) in bestimmte IP-Pools und mit bestimmten Domänen isolieren, was den IP-Warming-Prozess beschleunigt und die Zustellbarkeit insgesamt verbessert.
 
