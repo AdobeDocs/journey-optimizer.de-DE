@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 100%
+source-wordcount: '2378'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 100%
 
 Zu Beginn der Erstellung einer E-Mail müssen Sie Oberflächen für E-Mail-Kanäle einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie man Oberflächen erstellt](../configuration/channel-surfaces.md)
 
-Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest.
+>[!NOTE]
+>
+>Richten Sie vor der Erstellung einer E-Mail-Oberfläche die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+
+Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration, wie unten beschrieben.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche au
 
 ## Subdomain- und IP-Pools {#subdomains-and-ip-pools}
 
-Im Abschnitt **Subdomain- und IP-Pools** müssen Sie folgendermaßen vorgehen:
+Im **Subdomain- und IP-Pools** füllen Sie die erforderlichen Felder wie unten beschrieben aus.
 
-1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
+
+   Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
 1. Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
+   Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
->[!NOTE]
->
->Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](../configuration/delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
+   >[!NOTE]
+   >
+   >Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](../configuration/delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
 
-Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste „IP-Pool“ angezeigt werden. [Weitere Informationen zu PTR-Einträgen](../configuration/ptr-records.md)
+1. Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste „IP-Pool“ angezeigt werden. [Weitere Informationen zu PTR-Einträgen](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
+   >[!NOTE]
+   >
+   >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

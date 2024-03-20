@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
       <th>Tastaturbefehl</th>
     </tr>
   </thead>
-  <tr>
-    <td>Liste der Journeys, Aktionen, Datenquellen oder Ereignisse</td>
-    <td>Erstellen einer Journey, Aktion, Datenquelle oder eines Ereignisses</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Journey-Arbeitsfläche im Entwurfsstatus</td>
     <td>Hinzufügen einer Aktivität aus der linken Palette an der ersten verfügbaren Position von oben nach unten</td>
@@ -107,23 +102,6 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
   <tr>
     <td>Verwerfen von Änderungen und Schließen des Konfigurationsbereichs</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Journey im Testmodus</td>
-    <td>Aktivieren oder Deaktivieren des Testmodus</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Auslösen eines Ereignisses in einer ereignisbasierten Journey</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Auslösen eines Ereignisses in einer zielgruppenbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Anzeigen der Testprotokolle</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

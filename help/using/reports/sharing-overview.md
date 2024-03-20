@@ -7,10 +7,11 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 89%
 
 ---
 
@@ -25,6 +26,11 @@ Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Funktionen 
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Optimizer]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften mit Daten aus Adobe Experience Platform kombiniert werden, um eine umfassendere Ansicht der Performance zu ermöglichen.
 
 [!DNL Journey Optimizer] erstellt für jeden Schritt, den ein Kontakt bei einer Journey unternimmt, automatisch die erforderlichen Schemata und streamt die Daten in Datensätze zu Adobe Experience Platform. Ein Schrittereignis entspricht einem Kontakt, der bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Journey, die über ein Ereignis, eine Bedingung und eine Aktion verfügt, drei Schrittereignisse an Adobe Experience Platform gesendet.
+
+Es gibt Fälle, in denen mehrere Ereignisse für denselben Knoten erstellt werden können. Beispielsweise im Falle der Warten -Aktivität:
+
+* Ein Ereignis wird generiert, wenn das Profil in die Wartezeit eintritt (Attribut journeyNodeProcessed ist gleich false)
+* Ein Ereignis wird generiert, wenn das Profil es verlässt (Attribut journeyNodeProcessed ist gleich true)
 
 Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Journey-Aktivität und der Schrittstatus: wie oft eine Aktion die Zeit überschritten hat oder fehlerhaft endete.
 
@@ -45,7 +51,7 @@ Die folgenden Schemata werden erstellt:
 
 Die folgenden Datensätze werden übergeben:
 
-* Journey-Schrittereignisse
+* Journey-Schritt-Ereignisse
 * Journeys
 
 ![](assets/sharing3.png)
@@ -66,4 +72,3 @@ Der allgemeine Workflow ist:
 * Informationen zur Verwendung dieses Datensatzes in [!DNL Customer Journey Analytics] zur kanalübergreifenden Journey-Analyse finden Sie in der [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de){target="_blank"}.
 
 ➡️ [Arbeiten mit Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

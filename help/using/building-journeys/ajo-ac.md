@@ -9,27 +9,27 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
-# Anwendungsfall: Senden einer Nachricht mit Campaign v7/v8 {#campaign-classic-use-case}
+# Anwendungsfall: Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign Classic v7 und Adobe Campaign v8 erforderlich sind.
+In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign v7 und Adobe Campaign v8 erforderlich sind.
 
 >[!NOTE]
 >
->Um diese Integration verwenden zu können, benötigen Sie Campaign Classic Build 9125 oder höher.
+>Um diese Integration nutzen zu können, ist Campaign v7/v8 Build 9125 oder höher erforderlich.
 
 Zunächst wird in Campaign eine Transaktions-E-Mail-Vorlage erstellt. Anschließend werden in Journey Optimizer das Ereignis, die Aktion und die Journey erstellt.
 
 Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Seiten:
 
 * [Erstellen einer Campaign-Aktion](../action/acc-action.md)
-* [Verwenden der Aktion in einer Journey](../building-journeys/using-adobe-campaign-classic.md).
+* [Verwenden der Aktion in einer Journey](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 **Adobe Campaign**
 

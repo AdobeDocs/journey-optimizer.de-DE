@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '3602'
-ht-degree: 100%
+source-wordcount: '3603'
+ht-degree: 99%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Journeys**
 
 * Um die Performance zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
-* Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Performance zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.    [Weitere Informationen](../action/acc-action.md#important-notes)
+* Die Integration zwischen Journey Optimizer und Adobe Campaign v7/v8 wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/acc-action.md#important-notes)
 
 **Reporting**
 

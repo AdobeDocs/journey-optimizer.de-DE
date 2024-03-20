@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,10 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
 1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Außerhalb dieses Datumsbereichs wird das Angebot nicht von der Entscheidungs-Engine ausgewählt.
 
+   >[!NOTE]
+   >
+   >Bei der Zeitauswahl wird Ihre aktuelle Zeitzone berücksichtigt.
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >Die Größe eines Angebots einschließlich aller Darstellungen darf 300 KB nicht überschreiten.
 
 1. Fügen Sie Einschränkungen hinzu, um die Bedingungen für das anzuzeigende Angebot festzulegen. [Weitere Informationen](add-constraints.md)
 

@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 89%
 
 ---
 
 # Erste Schritte mit dem Code-basierten Kanal {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
-
-* **[Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)**
-* [Code-basierte Voraussetzungen](code-based-prerequisites.md)
-* [Code-basierte Implementierungsbeispiele](code-based-implementation-samples.md)
-* [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Dieser Code-basierte Kanal ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Derzeit ist der code-basierte Erlebniskanal nicht für Organisationen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
 
 Mit [!DNL Journey Optimizer] können Sie die Erlebnisse, die Sie Ihren Kundinnen und Kunden bereitstellen möchten, für alle Touchpoints personalisieren und testen, z. B. Web-Apps, Mobile Apps, Desktop-Apps, Video-Konsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, Geldautomaten, Sprachassistenten, IoT-Geräte usw.
 
@@ -39,11 +25,15 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-Wählen Sie unter [Kampagne erstellen](../campaigns/create-campaign.md#configure) die Option **Code-basiertes Erlebnis (Beta)** als Aktion und legen Sie die Grundeinstellungen fest.
+>[!CAUTION]
+>
+>Derzeit können Code-basierte Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellt werden.
+
+Wenn Sie [Kampagne erstellen](../campaigns/create-campaign.md#configure)auswählen **Codebasiertes Erlebnis** als Aktion definieren und grundlegende Einstellungen definieren.
 
 >[!NOTE]
 >
->Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die in [diesem Abschnitt](code-based-prerequisites.md) beschriebenen Voraussetzungen befolgen.
+>Wenn Sie zum ersten Mal ein code-basiertes Erlebnis erstellen, stellen Sie sicher, dass Sie die unter [diesem Abschnitt](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ Wählen Sie unter [Kampagne erstellen](../campaigns/create-campaign.md#configure
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="Validierung" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>Code bearbeiten</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Implementierungsbeispiele</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieeben
 * Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
 
 Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
-1. **Typ**: Web, Mobile App, Dienst, Kiosk, tvcd usw.
-1. **Eigenschaft**: Domain oder App-Paket
-1. **Pfad**: Seite/App-Aktivität ± Position auf der Seite/App-Aktivität <!--to clarify-->
+1. **Typ**: Web, iOS, Android, ATM, Kiosk, tvcd, Service usw.
+1. **Eigenschaft**: Seiten-URL oder App-Paket
+1. **Container**: Speicherort auf der Seite/App-Aktivität
 
-In der folgenden Tabelle sind einige beispielhafte Definitionen von Oberflächen-URI für verschiedene Geräte aufgeführt.
+Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberflächen-URIs für verschiedene Geräte.
+
+**Web und Mobil**
 
 | Typ | URI | Beschreibung |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | Stellt einen einzelnen Pfad und eine einzelne Seite einer Website dar. |
 | Web | web://domain.com/path/page.html#element | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar. |
 | Web | web://domain.com/*#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| Desktop | desktop://com.vendor.bundle | Stellt eine bestimmte Desktop-Anwendung dar. |
-| Desktop | desktop://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
 | iOS-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte mobile App für eine Plattform dar, in diesem Fall die iOS-App. |
 | iOS-App | mobileapp://com.vendor.bundle/activity | Stellt eine bestimmte Aktivität (Ansicht) in einer mobilen App dar. |
 | iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
 | Android-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine einzelne Plattform dar, in diesem Fall eine Android-App. |
+
+**Andere Gerätetypen**
+
+| Typ | URI | Beschreibung |
+| --------- | ----------- | ------- | 
+| Desktop | desktop://com.vendor.bundle | Stellt eine bestimmte Desktop-Anwendung dar. |
+| Desktop | desktop://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
 | tvOS-App | tvos://com.vendor.bundle | Stellt eine bestimmte tvOS-App dar. |
 | TV-App | tvcd://com.vendor.bundle | Stellt eine bestimmte mit einem Smart TV- oder TV-Gerät verbundene Geräteanwendung dar – Bundle-ID. |
 | Service | service://servicename | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
 | Kiosk | kiosk://location/screen | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 | ATM | atm://location/screen | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
+
+**Platzhalterflächen**
+
+| Typ | URI | Beschreibung |
+| --------- | ----------- | ------- | 
+| Platzhalterweb | Platzhalter:web://domain.com/`*`#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
+| Platzhalterweb | Platzhalter:web://`*`domain.com/`*`#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter allen Domänen dar, die auf &quot;domain.com&quot;enden. |
+
+
+

@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 94%
 
 ---
 
 # Erstellen von Code-basierten Erlebnissen {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
-
-* [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
-* [Code-basierte Voraussetzungen](code-based-prerequisites.md)
-* [Code-basierte Implementierungsbeispiele](code-based-implementation-samples.md)
-* **[Erstellen von Code-basierten Erlebnissen](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Dieser Code-basierte Kanal ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Derzeit ist der code-basierte Erlebniskanal nicht für Organisationen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
 
 ## Erstellen einer Code-basierten Kampagne {#create-code-based-campaign}
 
@@ -43,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
-1. Wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis (Beta)]** aus.
+1. Wählen Sie die **[!UICONTROL Codebasiertes Erlebnis]** Aktion.
 
 1. Geben Sie die Oberfläche des Code-basierten Erlebnisses ein. [Weitere Informationen](#surface-definition)
 
@@ -81,21 +67,27 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Der Authoring-Modus kann von HTML auf JSON umgestellt werden und umgekehrt.
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Stellen Sie daher sicher, dass Sie den Modus wechseln, bevor Sie mit dem Authoring beginnen.
 
 1. Geben Sie Ihren Code nach Bedarf ein. Der [!DNL Journey Optimizer] Ausdruckseditor kann mit allen Personalisierungs- und Bearbeitungsfunktionen genutzt werden. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. Sie können bei Bedarf HTML- oder JSON-Ausdrucksfragmente hinzufügen. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
-1. In Code-basierten Kampagnen kann die Entscheidungsfunktion für Erlebnisse verwendet werden. Wählen Sie das Symbol **[!UICONTROL Entscheidungen]** in der linken Leiste und klicken Sie auf **[!UICONTROL Entscheidung erstellen]**. [Weitere Informationen](../experience-decisioning/create-decision.md)
+   Sie können auch einen Teil Ihres Code-Inhalts als Fragment speichern. [Weitere Informationen](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >Die Offer Decisioning-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 

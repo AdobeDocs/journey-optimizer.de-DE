@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vo
 
 Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
 
-* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste.
+* Alle **Hardbounces** und **Spam-Beschwerden** automatisch die entsprechenden Adressen an die Unterdrückungsliste senden, nachdem sie nur einmal aufgetreten sind. Weitere Informationen zu Spam-Beschwerden finden Sie unter [diesem Abschnitt](#spam-complaints).
 
 * **Softbounces** senden eine Adresse nicht sofort an die Unterdrückungsliste, sondern bewirken, dass der Fehlerzähler erhöht wird. Anschließend werden [weitere Zustellversuche](../configuration/retries.md) unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
@@ -81,3 +81,5 @@ Die Unterdrückungsliste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam ke
 Das Senden an Empfänger, nachdem sie eine Spam-Beschwerde eingereicht haben, kann sich sehr auf Ihren Ruf auswirken, da es den ISPs mitteilt, dass Sie unerwünschte E-Mails senden und möglicherweise nicht auf Ihre Empfänger hören.
 
 Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domain blockiert wird. Das kann vermieden werden, wenn diese Adressen auf der Unterdrückungsliste vorhanden sind.
+
+Einige ISPs bieten eine Feedback Loop (FBL), mit der der E-Mail-Absender automatisch benachrichtigt werden kann, wenn der Benutzer, der eine E-Mail erhält, diese als Spam kennzeichnet. [Weitere Informationen](deliverability.md#feedback-loops)

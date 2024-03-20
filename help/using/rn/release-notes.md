@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
+
+## März 2024 – Versionshinweise {#mar-2024}
+
+**Veröffentlichungsdatum**: 19.-20. März 2024
+
+### Neue Funktion {#mar-features}
+
+Mit dieser Version wird die neue Funktion im Folgenden beschrieben.
+
+<table>
+<thead>
+<tr>
+<th><strong>Codebasierte Erlebnisse</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem neuen code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für Ihre eingehenden Eigenschaften durchführen, um eine nahtlose Bereitstellung maßgeschneiderter Erlebnisse für verschiedene Touchpoints wie Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr zu ermöglichen.</p>
+<P>Die wichtigsten Funktionen ermöglichen Folgendes:</p>
+<ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Journey für Benutzer gewährleistet ist</li>
+<li>Präzise Bearbeitungsgenauigkeit: Bearbeiten Sie bestimmte Inhalte an einzelnen Stellen in Ihren Apps oder Webseiten</li>
+<li>Vielseitige Implementierung: Unterstützung für serverseitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung.</li></ul></p>
+<p>Weitere Informationen finden Sie in der <a href="../code-based/get-started-code-based.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#mar-improvements}
+
+Diese Version enthält die unten aufgeführten Verbesserungen.
+
+**Inhaltsvorlagen**
+
+* **Miniaturen** - A **Rasteransicht** ist jetzt für Inhaltsvorlagen verfügbar und zeigt Miniaturansichten an, um den visuellen Zugriff zu verbessern. Derzeit werden nur E-Mail-HTML-Vorlagen unterstützt. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+
+**Journeys**
+
+Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
+
+* **Publishing** Status zwischen **Entwurf** und **Live** status
+* **Anhalten** Status zwischen **Live** und **Angehalten** status
+* **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** Status zwischen den **Entwurf** und **Entwurf (Test)** status
+
+Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
 
 ## Februar 2024 – Versionshinweise {#feb-2024}
 

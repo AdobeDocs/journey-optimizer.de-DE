@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Limit, Funktion, Ausdruck, Journey
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Liste zu berücksichtigen. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
 | firstOrLastItems | Boolescher Wert | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 

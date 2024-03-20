@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
-source-wordcount: '1803'
-ht-degree: 100%
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '1977'
+ht-degree: 92%
 
 ---
 
@@ -79,17 +79,30 @@ In der Liste der Journeys können Sie verschiedene Filter nutzen, um diese Liste
 
 Folgende Filtervorgänge können Sie durchführen:
 
-* Filtern von Journeys nach Status, Typ, Version und zugewiesenen Tags aus den Filtern für **[!UICONTROL Status und Version]**.
+Filtern von Journeys nach Status, Typ, Version und zugewiesenen Tags aus den Filtern für **[!UICONTROL Status und Version]**.
 
-  Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
+Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
 
-* Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
+Der Status kann wie folgt lauten:
 
-* Zeigen Sie etwa nur Journeys an, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden.
+* **Geschlossen**: Die Journey wurde mithilfe der **Für neue Eintritte schließen** Schaltfläche. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits im Journey befinden, können das Journey normal beenden.
+* **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
+* **Entwurf (Test)**: Der Testmodus wurde mit der Funktion **Testmodus** Schaltfläche.
+* **Abgeschlossen**: Die Journey wechselt nach der standardmäßigen globalen Zeitüberschreitung von 30 Tagen automatisch in diesen Status. Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten.
+* **Live**: Die Journey wurde mithilfe der **Veröffentlichen** Schaltfläche.
+* **Angehalten**: die Journey mit der **Anhalten** Schaltfläche. Alle Personen verlassen die Journey sofort.
 
-* Die **[!UICONTROL Veröffentlichungsfilter]** erlauben die Auswahl eines Veröffentlichungsdatum oder einer Person. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die gestern veröffentlicht wurden, angezeigt werden sollen.
+>[!NOTE]
+>
+>Der Journey Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: &quot;Publishing&quot;(zwischen &quot;Entwurf&quot; und &quot;Live&quot;), &quot;Activating test mode&quot; oder &quot;Deactivate test mode&quot;(zwischen &quot;Entwurf&quot; und &quot;Entwurf (Test)&quot;) und &quot;Stopping&quot; zwischen &quot;Live&quot; und &quot;Stoppt&quot;). Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt.
 
-  Um Journeys nach einem bestimmten Datumsbereich zu filtern, wählen Sie aus der Dropdown-Liste **[!UICONTROL Veröffentlicht]** die Option **[!UICONTROL Benutzerdefiniert]** aus.
+Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
+
+Zeigen Sie etwa nur Journeys an, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden.
+
+Die **[!UICONTROL Veröffentlichungsfilter]** erlauben die Auswahl eines Veröffentlichungsdatum oder einer Person. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die gestern veröffentlicht wurden, angezeigt werden sollen.
+
+Um Journeys nach einem bestimmten Datumsbereich zu filtern, wählen Sie aus der Dropdown-Liste **[!UICONTROL Veröffentlicht]** die Option **[!UICONTROL Benutzerdefiniert]** aus.
 
 In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die das betreffende Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 

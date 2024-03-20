@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 95%
 
 ---
 
 # Beispiele für Implementierungsmethoden für Code-basierte Erlebnisse {#implementation-samples}
-
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
-
-* [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
-* [Code-basierte Voraussetzungen](code-based-prerequisites.md)
-* **[Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)**
-* [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf dieser Seite finden Sie Beispiele für die einzelnen Implementierungsmethoden:
 
@@ -35,7 +21,9 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf d
 * [Server-seitig](#server-side-implementation)
 * [Hybrid](#hybrid-implementation)
 
-Sie können auch [diesem Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} folgen, um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
+>[!IMPORTANT]
+>
+>Folgen [dieser Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
 
 ## Client-seitige Implementierung {#client-side-implementation}
 
@@ -77,6 +65,38 @@ function sendDisplayEvent(decision) {
               scopeDetails: scopeDetails,
             },
           ],
+        },
+      },
+    },
+  });
+}
+```
+
+1. Bei code-basierten Erlebniskampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann ein Benutzer mit dem Inhalt interagiert hat. Dies geschieht über den Befehl `sendEvent`.
+
+```javascript
+function sendInteractEvent(label, proposition) {
+  const { id, scope, scopeDetails = {} } = proposition;
+
+  alloy("sendEvent", {
+    
+    xdm: {
+      eventType: "decisioning.propositionInteract",
+      _experience: {
+        decisioning: {
+          propositions: [
+            {
+              id: id,
+              scope: scope,
+              scopeDetails: scopeDetails,
+            },
+          ],
+          propositionEventType: {
+            interact: 1
+          },
+          propositionAction: {
+            label: label
+          },
         },
       },
     },
