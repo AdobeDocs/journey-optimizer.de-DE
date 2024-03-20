@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Die Februar-Version ist live!]
+>[!TAB Die Version vom März ist live!]
 
-Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.2.
+Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.3.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Codebasierte Erlebnisse]
+
+Mit dem neuen code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für Ihre eingehenden Eigenschaften durchführen, um eine nahtlose Bereitstellung maßgeschneiderter Erlebnisse für verschiedene Touchpoints wie Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr zu ermöglichen.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Web-In-App-Nachrichten]
 
@@ -33,14 +41,6 @@ Sie können jetzt die neue Web-In-App-Nachrichten-Funktion verwenden, um persona
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Erstellen von Multi-Channel-Inhaltsvorlagen]
-
-Neben „E-Mail“ stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: „Push“, „In-App“, „SMS“ und „Briefpost“. Dabei verfügt jeder Kanal über dedizierte Vorlagentypen. Für „E-Mail“ können Sie nun den Inhaltstyp auswählen, mit dem Sie den Betreff als Teil Ihrer E-Mail-Vorlage speichern können.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
