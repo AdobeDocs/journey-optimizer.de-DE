@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 60%
+source-wordcount: '864'
+ht-degree: 48%
 
 ---
 
@@ -67,7 +67,7 @@ Machen Sie sich mit der Tabelle vertraut, unter welchen Journey Optimizer-Datens
 
 ## Voraussetzungen {#prerequisites}
 
-Zum Exportieren von Datensätzen werden die unten aufgeführten [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions) benötigt. Lesen Sie die [Übersicht über die Zugriffssteuerung](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihre Produktadmins, um die erforderlichen Berechtigungen zu erhalten.
+Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de){target="_blank"} oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
 
 | Kategorie | Berechtigung |
 |--|--|
@@ -75,15 +75,15 @@ Zum Exportieren von Datensätzen werden die unten aufgeführten [Zugriffssteueru
 | Daten-Management | Anzeigen von Datensätzen |
 | Ziele | Anzeigen von Zielen |
 
-## Die wichtigsten Schritte zum Exportieren von Datensätzen {#main-steps}
+## Wichtige Schritte zum Exportieren von Datensätzen {#main-steps}
 
 Die wichtigsten Schritte zum Exportieren eines Datensatzes in einen Cloud-Speicherort sind:
 
 ![](assets/dataset-export-process.png)
 
-Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Adobe Experience Platform-Dokumentation [Exportieren von Datensätzen zu Cloud-Speicher-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de).
+Detaillierte Informationen zu den einzelnen Schritten finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de){target="_blank"}.
 
-1. **Einrichten des Cloud-Speicher-Ziels**. Falls Sie dies noch nicht getan haben, stellen Sie eine Verbindung zu einem Cloud-Speicher-Ziel aus dem Zielkatalog her. [Erfahren Sie, wie Sie eine neue Zielverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de#setup)
+1. **Einrichten des Cloud-Speicher-Ziels**. Falls Sie dies noch nicht getan haben, stellen Sie eine Verbindung zu einem Cloud-Speicher-Ziel aus dem Zielkatalog her. Erfahren Sie, wie Sie eine neue Zielverbindung erstellen in [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Adobe Ex
 
    >[!NOTE]
    >
-   >Wenn Sie Adobe Journey Optimizer zusammen mit Echtzeit-Kundenprofilen verwenden, wird auf den Zielkarten die Schaltfläche „Aktivieren“ angezeigt, mit der Sie abhängig von den aktivierten Berechtigungen sowohl Datensätze exportieren als auch Zielgruppen für dieses Ziel aktivieren können.
+   >Wenn Sie Adobe Journey Optimizer zusammen mit Echtzeit-Kundenprofilen verwenden, zeigen die Zielkarten eine **Aktivieren** -Schaltfläche, über die Sie Datensätze exportieren und Zielgruppen für dieses Ziel aktivieren können, hängt von den Berechtigungen ab, die Sie aktiviert haben.
 
 1. **Wählen Sie die Datensätze aus**, die Sie an das ausgewählte Ziel exportieren möchten. [Weitere Informationen zu für den Export verfügbare Journey Optimizer-Datensätze](#datasets)
 
@@ -107,4 +107,4 @@ Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Adobe Ex
 
    <!--![](assets/dataset-export-review.png)-->
 
-Sobald der Export abgeschlossen ist, wird der Inhalt des Datensatzes gemäß dem konfigurierten Zeitplan am Cloud-Speicherort abgelegt. [Informationen zum erfolgreichen Überprüfen eines Datensatzexports](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de#verify)
+Sobald der Export abgeschlossen ist, wird der Inhalt des Datensatzes gemäß dem konfigurierten Zeitplan am Cloud-Speicherort abgelegt. [Erfahren Sie, wie Sie einen erfolgreichen Datensatzexport überprüfen.](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de#verify){target="_blank"}.
