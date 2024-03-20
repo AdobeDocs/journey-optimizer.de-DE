@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 89%
+source-wordcount: '1138'
+ht-degree: 81%
 
 ---
 
@@ -144,37 +144,31 @@ Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieeben
 * Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
 
 Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
-1. **Typ**: Web, iOS, Android, ATM, Kiosk, tvcd, Service usw.
+1. **Typ**: Web, mobileApp, atm, kiosk, tvcd, service usw.
 1. **Eigenschaft**: Seiten-URL oder App-Paket
 1. **Container**: Speicherort auf der Seite/App-Aktivität
 
 Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberflächen-URIs für verschiedene Geräte.
 
-**Web und Mobil**
+### Web und Mobil
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Stellt einen einzelnen Pfad und eine einzelne Seite einer Website dar. |
-| Web | web://domain.com/path/page.html#element | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar. |
-| Web | web://domain.com/*#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| iOS-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte mobile App für eine Plattform dar, in diesem Fall die iOS-App. |
-| iOS-App | mobileapp://com.vendor.bundle/activity | Stellt eine bestimmte Aktivität (Ansicht) in einer mobilen App dar. |
-| iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
-| Android-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine einzelne Plattform dar, in diesem Fall eine Android-App. |
+| Web | web://domain.com/path/page.html#element | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domäne dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer usw. |
+| iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer nativen App-Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
+| Android-App | mobileapp://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer nativen App dar. |
 
-**Andere Gerätetypen**
+### Andere Gerätetypen
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle | Stellt eine bestimmte Desktop-Anwendung dar. |
 | Desktop | desktop://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| tvOS-App | tvos://com.vendor.bundle | Stellt eine bestimmte tvOS-App dar. |
-| TV-App | tvcd://com.vendor.bundle | Stellt eine bestimmte mit einem Smart TV- oder TV-Gerät verbundene Geräteanwendung dar – Bundle-ID. |
-| Service | service://servicename | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
-| Kiosk | kiosk://location/screen | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
-| ATM | atm://location/screen | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
+| TV-App | tvcd://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer mit Smart TV oder TV verbundenen Geräteanwendung dar - Bundle-ID. |
+| Service | service://servicename#element | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
+| Kiosk | kiosk://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
+| ATM | atm://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 
-**Platzhalterflächen**
+### Platzhalterflächen
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
