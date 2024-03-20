@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 60%
 
 ---
 
@@ -37,30 +37,33 @@ Detaillierte Informationen zu den einzelnen Zielen finden Sie in der Adobe Exper
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=de)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=de)
 
-## Für den Export verfügbare Journey Optimizer-Datensätze {#datasets}
+## Verfügbare Datensätze für den Export {#datasets}
 
-Verstehen Sie anhand der folgenden Tabelle, welche Journey Optimizer-Datensätze Sie je nach Ihrer Produktstufe exportieren können (siehe [Produktbeschreibung für Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) 
-|Datensatz|Beschreibung|Stufe|
-| ------- | ------- | ------- |
-| AJO-BCC-Feedback-Ereignisdatensatz | AJO-BCC-Feedback-Ereignisdatensatz | Prime |
-| AJO-Klassifizierungsdatensatz | Datensatz für die Aufnahme von Feedback-Ereignissen von E-Mail- und Push-Anwendungen aus Journey Optimizer. Erstellt über SDK. | Prime |
-| AJO-Einverständnis-Service-Datensatz | Speichert die Einverständnisinformationen eines Profils. | Prime | 
-| AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. | Prime | 
-| AJO-Entitätsdatensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an die Endbenutzerin bzw. den Endbenutzer gesendet werden. | Prime |
-| AJO-Ereignisdatensatz für eingehende Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse. | Prime | 
-|  AJO-Profildatensatz für interaktives Messaging | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen. | Prime | |  AJO-Ereignisdatensatz für Nachrichten-Feedback | Versandlogs für Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. | Prime | 
-| AJO-Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „iryDate“ enthalten und nach „counter_id“ geordnet sind | Prime | | AJO-Push-Profil-Datensatz | Speichert Push-Token eines Profils. | Prime |
-| AJO-Push-Tracking-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. | Prime |
-| AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Journey Optimizer-Schema „Eingehende Oberflächen“ | Prime |
-| AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die zu UPS zurückgeschrieben werden sollen | Prime |
-| Profildatensatz für Zielgruppenorchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Zielgruppen der Zielgruppenkomposition, ihre Attribute und Anreicherungsdaten | Prime |
-| Entscheidungsobjekt-Repository – Aktivitäten | Auch als „Entscheidungen“ in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll. | Ultimate |
-| Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, der von Benutzenden erstellt wird. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp | Ultimate |
-| Entscheidungsobjekt-Repository – Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, der von Benutzenden erstellt wird. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp | Ultimate |
-| Entscheidungsobjekt-Repository – Platzierungen | Dies ist das Repository von Objekten, die die Position definieren, an der ein Angebot angezeigt werden soll. | Ultimate |
-| Journey-Schrittereignis: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. | Prime |
-| Journeys | Informationen zum Metadaten-Datensatz für jeden Schritt in einer Journey | Prime |
-| ODE DecisionEvents – Entscheidungsfindung für Produktion | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis | Ultimate |
+Machen Sie sich mit der Tabelle vertraut, unter welchen Journey Optimizer-Datensätzen Sie exportieren können.
+
+| Datensatz | Beschreibung |
+| ------- | ------- | 
+| AJO BCC Feedback-Ereignis-Datensatz | AJO BCC Feedback-Ereignis-Datensatz |
+| AJO-Klassifizierungsdatensatz | Datensatz zur Aufnahme von E-Mail- und Push-App-Feedback-Ereignissen aus Journey Optimizer. Erstellt über SDK. |
+| Datensatz des AJO Consent Service | Speichert Zustimmungsinformationen eines Profils. |
+| Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | Interaktionsprotokolle für den E-Mail-Kanal, der für Berichte und die Erstellung von Zielgruppen verwendet wird.  |
+| AJO-Entitäts-Datensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an den Endbenutzer gesendet werden.  |
+| Ereignisdatensatz für eingehende AJO-Aktivitäten | Datensatz für Journey Optimizer-Web- und In-App-Kanäle für Bereitstellungs- und Interaktionsereignisse. |
+| AJO-Profildatensatz für interaktive Nachrichten | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen |
+| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Versandlogs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. |
+| AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die &quot;counter_value&quot;und &quot;iryDate&quot;enthalten, die von &quot;counter_id&quot;eingegeben wurden |
+| AJO Push Profile DataSet | Speichert Push-Token eines Profils. |
+| Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | Interaktionsprotokolle für den Push-Kanal, die für Berichte und die Erstellung von Zielgruppen verwendet werden.  |
+| AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema &quot;Eingehende Journey Optimizer-Oberflächen&quot; |
+| AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die in UPS zurückgeschrieben werden sollen |
+| Zielgruppen-Orchestrierung Profil-Datensatz | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Zielgruppen &quot;Zielgruppenkomposition&quot;, deren Attribute und Anreicherungsdaten |
+| Decision Object Repository - Aktivitäten | auch als Entscheidungen in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise für eine bestimmte Platzierung (Position), welche Angebote (Angebotskollektion) berücksichtigt werden sollen und welche Rangmethode für diese Angebote verwendet werden soll. |
+| Decision Object Repository - Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
+| Decision Object Repository - Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, den ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp | Ultimate |
+| Entscheidungsobjekt-Repository - Platzierungen | Dies ist das Repository von Objekten, die den Speicherort definieren, an dem ein Angebot angezeigt werden soll. |
+| Journey-Schritt-Ereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Diensten wie Reporting genutzt werden können. |
+| Journeys | Informationen zur Speicherung von Metadaten-Datensätzen für jeden Schritt in einer Journey |
+| ODE DecisionEvents - prod decisioning | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis |
 
 ## Voraussetzungen {#prerequisites}
 
