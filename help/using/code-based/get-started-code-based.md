@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 81%
@@ -150,7 +150,7 @@ Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
 
 Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberflächen-URIs für verschiedene Geräte.
 
-### Web und Mobil
+**Web und Mobil**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberfl
 | iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer nativen App-Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
 | Android-App | mobileapp://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer nativen App dar. |
 
-### Andere Gerätetypen
+**Andere Gerätetypen**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberfl
 | Kiosk | kiosk://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 | ATM | atm://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 
-### Platzhalterflächen
+**Platzhalterflächen**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 

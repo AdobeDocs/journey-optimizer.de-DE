@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,6 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
-
 >[!NOTE]
 >
 >Leitlinien und Einschränkungen für Journeys werden auf [dieser Seite](../start/guardrails.md) detailliert behandelt.
@@ -40,6 +39,8 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 Verwenden Sie Adobe Journey Optimizer, um personalisierte Journeys auf einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren. Die wichtigsten Schritte zum Erstellen einer Journey sind wie folgt:
 
 ![](assets/journey-creation-process.png)
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen.
 
@@ -103,3 +104,9 @@ Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen 
 Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
 
 Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
+
+## Anleitungsvideo {#video}
+
+Entdecken Sie die Komponenten eines Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 92%
 >id="ajo_homepage_card2"
 >title="Erstellen von Journeys"
 >abstract="Erstellen Sie mit **Adobe Journey Optimizer** anhand von in Ereignissen oder Datenquellen gespeicherten kontexbezogenen Daten Echtzeit-Orchestrierungsfälle."
+
+
 
 ## Voraussetzungen{#start-prerequisites}
 
@@ -111,6 +113,8 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 ## Erstellen Ihrer Journey{#jo-build}
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
+
+➡️ [Entdecken Sie diese Funktion im Video](journey.md#video)
 
 Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journeys:
 
