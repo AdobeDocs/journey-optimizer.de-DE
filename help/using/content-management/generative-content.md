@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generieren von Inhalten mit dem Inhaltsassistenten
-description: Erste Schritte mit dem Inhaltsassistenten
+title: Inhaltserstellung mit dem AI-Assistenten
+description: Erste Schritte mit dem KI-Assistenten
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 68%
 
 ---
 
-# Generieren von Inhalten mit dem Inhaltsassistenten {#title-content-assistant}
+# Inhaltserstellung mit dem AI-Assistenten {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Inhaltsverzeichnis**
 
-* [Erste Schritte mit dem Inhaltsassistenten](gs-generative.md)
-* **[Generieren von Inhalten mit dem Inhaltsassistenten](generative-content.md)**
-* [Generieren von Bildern mit dem Inhaltsassistenten](generative-image.md)
+* [Erste Schritte mit dem KI-Assistenten](gs-generative.md)
+* **[Generieren von Inhalten mit dem KI-Assistenten](generative-content.md)**
+* [Generieren von Bildern mit dem AI-Assistenten](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihre Inhalte mit dem Inhaltsassistenten auf die nächste Stufe bringen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, stellen Sie mit dem Journey Optimizer AI Assistant Ihren Inhalt auf die nächste Stufe.
 
-Mithilfe des Inhaltsassistenten können Sie die Wirkung Ihrer Nachricht optimieren, indem Sie mit verschiedenen Inhalten experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Inhalt effektiv mehr Klicks generiert.
+Mithilfe des KI-Assistenten können Sie die Wirkung Ihrer Nachricht durch Experimente mit verschiedenen Inhalten optimieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Inhalt effektiv mehr Klicks generiert.
 
 In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benachrichtigung mithilfe des Inhaltsexperiments senden. Führen Sie folgende Schritte aus:
 
@@ -48,7 +48,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benac
 
    * **[!UICONTROL Zusammenfassen]**: Verwenden Sie diese Option, um einen Text zu kürzen und das Wesentliche beizubehalten.
 
-   * **[!UICONTROL Elaborieren]**: Verwenden Sie diese Option, um Ihren Inhalt mit zusätzlichen kreativen Varianten aus dem Inhaltsassistenten zu erweitern.
+   * **[!UICONTROL Laborate]**: Verwenden Sie diese Option, um Ihren Inhalt mit zusätzlichen kreativen Varianten des AI-Assistenten zu erweitern.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benac
 
    ![](assets/gen-ai-title-4.png)
 
-1. Wählen Sie nach der Personalisierung des **[!UICONTROL Hauptteils]** der Push-Benachrichtigung **[!UICONTROL Inhaltsassistent anzeigen]** aus.
+1. Nach der Personalisierung des **[!UICONTROL body]** Ihrer Push-Benachrichtigung, wählen Sie **[!UICONTROL AI-Assistenten anzeigen]**.
 
    Hier ist bereits eine Liste mit Varianten mit dem Originalinhalt verfügbar.
 
@@ -70,7 +70,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benac
 
 1. Beschreiben Sie, was generiert werden soll, um den Inhalt anzupassen.
 
-   Aktivieren Sie die Option **[!UICONTROL Mit aktuellen Inhalten verbessern]**, damit der Inhaltsassistent neue Inhalte basierend auf der Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe personalisiert.
+   Aktivieren Sie die **[!UICONTROL Erweiterung mit aktuellem Inhalt]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrer Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe zu personalisieren.
 
 1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um den Inhalt zu ändern oder mehrere **[!UICONTROL Varianten]** auszuwählen, um mit **X Abwandlung(en) hinzufügen** **[!UICONTROL Abwandlungen]** für Experimente zu erstellen.
 
