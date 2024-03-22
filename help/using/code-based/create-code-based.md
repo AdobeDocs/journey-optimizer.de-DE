@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 89%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 Zurzeit in [!DNL Journey Optimizer] Sie können nur code-basierte Erlebnisse in **Kampagnen**.
 
-Die Limits und Empfehlungen werden im Abschnitt [diese Seite](code-based-prerequisites.md).
+Spezifische Limits und Empfehlungen für code-basierte Erlebnisse werden im Abschnitt [diese Seite](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >

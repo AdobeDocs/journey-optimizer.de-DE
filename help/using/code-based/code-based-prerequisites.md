@@ -1,15 +1,15 @@
 ---
-title: Voraussetzungen für Code-basierte Erlebnisse
+title: Limits und Voraussetzungen für codebasierte Erlebnisse
 description: Um Apps und Web-Seiten mit der Code-basierten Funktion von Journey Optimizer bearbeiten zu können, befolgen Sie die Voraussetzungen auf dieser Seite
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 93%
+source-wordcount: '427'
+ht-degree: 87%
 
 ---
 
@@ -17,18 +17,16 @@ ht-degree: 93%
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-* Um Änderungen an Ihren Anwendungen hinzuzufügen, benötigen Sie eine bestimmte Implementierung. [Weitere Informationen](#implementation-prerequisites)
+* Um Änderungen an Ihren Anwendungen hinzuzufügen, müssen Sie über eine bestimmte Implementierung verfügen. [Weitere Informationen](#implementation-prerequisites)
 
 * Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen definieren, die [hier](#delivery-prerequisites) im Detail beschrieben werden.
 
-
-## Warnhinweise {#caution-notes-web}
-
-* Derzeit können Sie Code-basierte Erlebnisse in [!DNL Journey Optimizer] nur in **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Derzeit ist der code-basierte Erlebniskanal nicht für Organisationen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>* Der code-basierte Erlebniskanal ist nicht für Unternehmen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>
+>* Sie können nur code-basierte Erlebnisse in **Kampagnen**. [Weitere Infos](../campaigns/create-campaign.md#configure
+
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
