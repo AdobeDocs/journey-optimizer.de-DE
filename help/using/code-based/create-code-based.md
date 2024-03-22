@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 89%
+source-wordcount: '980'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 89%
 Zurzeit in [!DNL Journey Optimizer] Sie können nur code-basierte Erlebnisse in **Kampagnen**.
 
 Spezifische Limits und Empfehlungen für code-basierte Erlebnisse werden im Abschnitt [diese Seite](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->Derzeit ist der code-basierte Erlebniskanal nicht für Organisationen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
 
 ## Erstellen einer Code-basierten Kampagne {#create-code-based-campaign}
 
