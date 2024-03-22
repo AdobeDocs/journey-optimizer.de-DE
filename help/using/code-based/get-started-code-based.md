@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 82%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -21,13 +21,10 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* Wenn Sie zum ersten Mal ein code-basiertes Erlebnis erstellen, stellen Sie sicher, dass Sie die unter [diesem Abschnitt](code-based-prerequisites.md).
->
->* Derzeit können Code-basierte Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellt werden.
->
->* Der code-basierte Erlebniskanal lautet **nicht verfügbar** für Unternehmen, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Spezifische Limits und Empfehlungen für code-basierte Erlebnisse werden im Abschnitt [diese Seite](code-based-prerequisites.md).
+
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
