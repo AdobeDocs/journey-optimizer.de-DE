@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit IP-Aufwärmen](ip-warmup-gs.md)
+* [Erste Schritte mit IP-Aufwärmplänen](ip-warmup-gs.md)
 * **[Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)**
 * [Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)
 * [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
