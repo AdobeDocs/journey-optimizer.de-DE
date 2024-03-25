@@ -9,37 +9,85 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
+source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 82%
+source-wordcount: '956'
+ht-degree: 87%
 
 ---
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
 
-<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
+Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de) konform sind{target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"} Sie für Daten durchführen dürfen.
 
-In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
-
-Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} Sie dürfen Daten bearbeiten.
-
-Eine Art von Datennutzungsrichtlinien ist verfügbar: **Einverständnisrichtlinien**. Damit können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Zustimmungsvoreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen zur Durchsetzung von Richtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+Ein Typ verfügbarer Datennutzungsrichtlinien sind **Einverständnisrichtlinien**. Mit diesen können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnispräferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen zur Durchsetzung von Richtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=de){target="_blank"}
 
 >[!IMPORTANT]
 >
->Die Einverständnisrichtlinien sind derzeit nur für Unternehmen verfügbar, die die Adobe erworben haben **Gesundheitsschild** oder **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Einverständnisrichtlinien sind derzeit nur für Organisationen verfügbar, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben.
 
-Sie können beispielsweise [Einverständnisrichtlinien erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"} in Experience Platform, um Kunden auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Nachrichten nicht zugestimmt haben.
+Beispielsweise können Sie [Einverständnisrichtlinien in Experience Platform erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}, um Kundinnen und Kunden auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Kommunikationen nicht zugestimmt haben.
 
-In Journey Optimizer ist die Zustimmung auf mehreren Ebenen definiert. Sie können Einwilligungsrichtlinien auf Ihre benutzerdefinierten Journey-Aktionen anwenden:
+<!--* For the native outbound channels (Email, Push, SMS, Direct mail), the logic is as follows:
 
-* Wann **Konfigurieren einer benutzerdefinierten Aktion** können Sie einen Kanal und eine Marketing-Aktion definieren. [Weitere Informationen](#consent-custom-action)
-* Beim Hinzufügen von **Benutzerdefinierte Aktion in einer Journey** können Sie eine zusätzliche Marketing-Aktion definieren. [Weitere Informationen](#consent-journey)
+    * By default, if a profile has opted out from receiving communications from you, the corresponding profile is excluded from subsequent deliveries.
 
-## Wichtige Hinweise {#important-notes}
+    * If you have the Adobe **Healthcare Shield** or **Privacy and Security Shield**, you can create a custom consent policy that overrides the default logic. For example, you can define a policy to only send email messages to all individuals who have opted in. In the absence of a custom policy, the default policy applies.
+    
+    To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-In Journey Optimizer kann das Einverständnis in benutzerdefinierten Aktionen genutzt werden. Wenn Sie es mit den integrierten Nachrichtenfunktionen verwenden möchten, müssen Sie eine Bedingungsaktivität verwenden, um Kunden in Ihrer Journey zu filtern.
+Auf Journey-Ebene können Sie Einwilligungsrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden:
+
+* Beim **Konfigurieren einer benutzerdefinierten Aktion** können Sie einen Kanal und eine Marketing-Aktion definieren. [Weitere Informationen](#consent-custom-action)
+* Beim Hinzufügen der **benutzerdefinierten Aktion in einer Journey** können Sie eine zusätzliche Marketing-Aktion definieren. [Weitere Informationen](#consent-journey)
+
+<!--
+
+## Leverage consent policies through channel surfaces {#marketing-actions}
+
+In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+
+To modify the consent field value, you can create a custom consent policy in which you define a marketing action and the conditions under which that action is performed. [Learn more on marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
+
+For example, if you want to create a consent policy to target only profiles who have consented to receive email communications, follow the steps below.
+
+1. Make sure your organization has purchased the Adobe **Healthcare Shield** or **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+1. In Adobe Experience Platform, create a custom policy (from the **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** menu). [Learn how](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+
+    ![](assets/consent-policy-create.png)
+
+1. Choose the **[!UICONTROL Consent policy]** type and configure a condition as follows. [Learn how to configure consent policies](https://experienceleague-review.corp.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+
+    1. Under the **[!UICONTROL If]** section, select the **[!UICONTROL Email Targeting]** default marketing action.
+
+        ![](assets/consent-policy-marketing-action.png)
+
+        >[!NOTE]
+        >
+        >The core marketing actions provided out-of-the-box by Adobe are listed in [this table](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+
+    1. Select what happens when the marketing action applies. In this example, select **[!UICONTROL Email Marketing Consent]**.
+
+    ![](assets/consent-policy-then.png)
+
+1. Save and [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} this policy.
+
+1. In Journey Optimizer, create an email surface. [Learn how](../configuration/channel-surfaces.md#create-channel-surface)
+
+1. In the email surface details, select the **[!UICONTROL Email Targeting]** marketing action.
+
+    ![](assets/surface-marketing-action.png)
+
+All consent policies associated with that marketing action are automatically leveraged in order to respect the preferences of your customers.
+
+Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
+
+## Verwenden von Zustimmungsrichtlinien durch benutzerdefinierte Aktionen {#journey-custom-actions}
+
+### Wichtige Hinweise {#important-notes}
+
+In Journey Optimizer kann die Zustimmung <!--also -->in benutzerdefinierten Aktionen genutzt werden. Wenn Sie es mit den integrierten Nachrichtenfunktionen verwenden möchten, müssen Sie eine Bedingungsaktivität verwenden, um Kunden in Ihrer Journey zu filtern.
 
 Mit der Einverständnisverwaltung werden zwei Journey-Aktivitäten analysiert:
 
@@ -61,7 +109,7 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-## Konfigurieren der benutzerdefinierten Aktion {#consent-custom-action}
+### Konfigurieren der benutzerdefinierten Aktion {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action"
@@ -70,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 Beim Konfigurieren einer benutzerdefinierten Aktion können zwei Felder für die Einverständnisverwaltung verwendet werden.
 
-Im Feld **Kanal** können Sie den Kanal für diese benutzerdefinierte Aktion auswählen: **E-Mail**, **SMS** oder **Push-Benachrichtigung**. Dadurch wird die **Erforderliche Marketing-Aktion** mit der standardmäßigen Marketing-Aktion für den ausgewählten Kanal vorausgefüllt. Wenn Sie **Sonstige** auswählen, wird standardmäßig keine Marketing-Aktion definiert.
+Im Feld **Kanal** können Sie den Kanal für diese benutzerdefinierte Aktion auswählen: **E-Mail**, **SMS** oder **Push-Benachrichtigung**. Die **Erforderliche Marketing-Aktion** mit der standardmäßigen Marketing-Aktion für den ausgewählten Kanal. Wenn Sie **other** festgelegt ist, ist keine Marketing-Aktion standardmäßig definiert.
 
 ![](assets/consent1.png)
 
-Mit der **Erforderlichen Marketing-Aktion** können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie **E-Mail-Targeting** auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Einverständniserklärungen abgerufen und genutzt. Es wird eine standardmäßige Marketing-Aktion ausgewählt, Sie können jedoch auf den Abwärtspfeil klicken, um alle verfügbaren Marketing-Aktionen aus der Liste auszuwählen.
+Mit der **Erforderlichen Marketing-Aktion** können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie **E-Mail-Targeting** auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien abgerufen und genutzt. Es wird eine standardmäßige Marketing-Aktion ausgewählt, Sie können jedoch auf den Abwärtspfeil klicken, um alle verfügbaren Marketing-Aktionen aus der Liste auszuwählen.
 
 ![](assets/consent2.png)
 
@@ -105,7 +153,7 @@ Der **Kanal** und die **Erforderliche Marketing-Aktion**, die bei der Konfigurat
 
 ![](assets/consent4.png)
 
-Sie können eine **Zusätzliche Marketing-Aktion** definieren, um den Typ der benutzerdefinierten Aktion festzulegen. Auf diese Weise können Sie den Zweck der benutzerdefinierten Aktion in dieser Journey definieren. Zusätzlich zur erforderlichen Marketing-Aktion, die normalerweise kanalspezifisch ist, können Sie eine zusätzliche Marketing-Aktion definieren, die speziell für die benutzerdefinierte Aktion in dieser bestimmten Journey gilt. Beispiel: eine Workout-Nachricht, Newsletter, Fitness-Nachricht usw. Sowohl die erforderliche Marketing-Aktion als auch die zusätzliche Marketing-Aktion kommen zur Anwendung.
+Sie können eine **Zusätzliche Marketing-Aktion** definieren, um den Typ der benutzerdefinierten Aktion festzulegen. Auf diese Weise können Sie den Zweck der benutzerdefinierten Aktion in dieser Journey definieren. Zusätzlich zur erforderlichen Marketing-Aktion, die normalerweise kanalspezifisch ist, können Sie eine zusätzliche Marketing-Aktion definieren, die speziell für die benutzerdefinierte Aktion auf dieser bestimmten Journey gilt. Beispiel: eine Workout-Nachricht, Newsletter, Fitness-Nachricht usw. Es gelten sowohl die erforderliche Marketing-Aktion als auch die zusätzliche Marketing-Aktion.
 
 ![](assets/consent3.png)
 
