@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 48%
@@ -56,7 +56,7 @@ Machen Sie sich mit der Tabelle vertraut, unter welchen Journey Optimizer-Datens
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | Interaktionsprotokolle für den Push-Kanal, die für Berichte und die Erstellung von Zielgruppen verwendet werden.  |
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema &quot;Eingehende Journey Optimizer-Oberflächen&quot; |
 | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die in UPS zurückgeschrieben werden sollen |
-| Zielgruppen-Orchestrierung Profil-Datensatz | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Zielgruppen &quot;Zielgruppenkomposition&quot;, deren Attribute und Anreicherungsdaten |
+| Zielgruppen-Orchestrierung Profil-Datensatz | Wird durch die Zielgruppenzusammensetzung für Zielgruppen zur Zielgruppenzusammensetzung generiert. Enthält alle Zielgruppen zur Zielgruppenzusammensetzung, ihre Attribute und Anreicherungsdaten |
 | Decision Object Repository - Aktivitäten | auch als Entscheidungen in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise für eine bestimmte Platzierung (Position), welche Angebote (Angebotskollektion) berücksichtigt werden sollen und welche Rangmethode für diese Angebote verwendet werden soll. |
 | Decision Object Repository - Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
 | Decision Object Repository - Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, den ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp | Ultimate |

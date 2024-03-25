@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 92%
 
 ---
 
@@ -37,13 +37,18 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 * Denken Sie daran, dass Adobe Experience Platform-Zielgruppen entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (**Streaming**-Zielgruppen unter Verwendung der Option „Hochfrequenz-Zielgruppen“ von Adobe Experience Platform) berechnet werden.
 
-* Wenn die ausgewählte Zielgruppe gestreamt wird, treten die zu dieser Zielgruppe gehörenden Personen in Echtzeit in die Journey ein. Bei einer Batch-Zielgruppe treten für diese Zielgruppe neu qualifizierte Personen in die Journey ein, wenn die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+   * Wenn die ausgewählte Audience gestreamt wird, treten die Kontakte, die zu dieser Audience gehören, möglicherweise in Echtzeit in die Journey ein.
+   * Bei einer Batch-Zielgruppe treten für diese Zielgruppe neu qualifizierte Personen in die Journey ein, wenn die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+
+  Als Best Practice empfehlen wir daher, nur Streaming-Zielgruppen in einer **Zielgruppenqualifikation** -Aktivität. Für Batch-Anwendungsfälle verwenden Sie bitte eine **[Audience lesen](read-audience.md)** -Aktivität.
+
+  >[!NOTE]
+  >
+  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositionsarbeitsabläufen und benutzerdefiniertem Upload erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität &quot;Zielgruppenqualifikation&quot;auswählen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen.
 
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
-
-* Als Best Practice empfehlen wir, nur Streaming-Zielgruppen für die Aktivität **Zielgruppenqualifikation** zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
 
 ### Konfigurieren der Aktivität{#cnfigure-segment-qualification}
 

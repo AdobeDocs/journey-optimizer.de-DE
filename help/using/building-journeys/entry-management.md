@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 27%
+source-wordcount: '680'
+ht-degree: 25%
 
 ---
 
@@ -78,6 +78,10 @@ Lesen Sie Audience-Journey können wiederkehrend oder einmalig sein:
 Für wiederkehrende Lesen der Audience-Journey stehen zwei Optionen zur Verfügung:
 
 * Option **Inkrementelles Lesen**: Wenn eine Journey mit einer wiederkehrenden Aktion vom Typ **Zielgruppe lesen** zum ersten Mal ausgeführt wird, treten alle Profile in der Zielgruppe in die Journey ein. Mit dieser Option können Sie nach dem ersten Vorkommen nur die Kontakte auswählen, die seit der letzten Ausführung der Journey in die Audience eingestiegen sind.
+
+  >[!NOTE]
+  >
+  >Wenn Sie eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#segments-in-journey-optimizer) in Ihrer Journey werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen korrigiert wurden.
 
 * **Wiedereintritt erzwingen bei Wiederholung**: Mit dieser Option können Sie festlegen, dass alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beendet werden. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann (z. B. wenn Sie Warteaktivitäten verwenden), aktivieren Sie diese Option nicht, um sicherzustellen, dass Profile ihre Journey abschließen können.
 
