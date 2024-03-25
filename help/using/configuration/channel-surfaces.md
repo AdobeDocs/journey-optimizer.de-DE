@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 98%
+source-wordcount: '1651'
+ht-degree: 97%
 
 ---
 
@@ -49,6 +49,11 @@ Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen
 >title="Kanaloberflächeneinstellungen"
 >abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten von Nachrichtenvoreinstellungen verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="Marketing-Aktion auswählen"
+>abstract="Wählen Sie eine Marketing-Aktion auf der Oberfläche aus, um eine Zustimmungsrichtlinie mit der Nachricht zu verknüpfen."
+
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]** auf, und klicken Sie dann auf **[!UICONTROL Kanaloberfläche erstellen]**.
@@ -82,6 +87,19 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    >[!NOTE]
    >
    >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
