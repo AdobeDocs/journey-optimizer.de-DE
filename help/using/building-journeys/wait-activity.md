@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
-Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2023 um 17 Uhr, indem Sie einen erweiterten Ausdruck verwenden, der auf einem Feld basiert, das von einem Ereignis oder einer Datenquelle stammt. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie auf [dieser Seite](expression/data-types.md).
+Mit dieser Option können Sie eine benutzerdefinierte Datums- und Zeitangabe definieren, z. B. den 12. Juli 2023 um 17 Uhr. Dabei verwenden Sie einen erweiterten Ausdruck, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie auf [dieser Seite](expression/data-types.md).
 
 >[!NOTE]
 >
->Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), das Feld im Ereignis weist die Form 2023-08-12T09 auf:46:06Z.
+>Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}). Das Feld im Ereignis hat folgende Form: 2023-08-12T09:46:06Z.
 >
->Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine vollständige ISO-8601-Zeitstempelmischzeit und einen Zeitzonenversatz wie 2023-08-12T09 zu verweisen:46:06.982-05. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz wie 2023-08-12T09:46:06.982-05 zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

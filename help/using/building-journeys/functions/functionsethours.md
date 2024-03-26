@@ -8,9 +8,9 @@ level: Experienced
 keywords: setHours, Funktion, Ausdruck, Journey
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `setHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-Gibt 2023-12-12T04 zurück:11:00Z.
+Gibt 2023-12-12T04:11:00Z zurück.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 

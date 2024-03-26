@@ -8,9 +8,9 @@ level: Experienced
 keywords: toDateOnly, Funktion, Ausdruck, Journey
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Gibt einen Wert vom Typ dateOnly zurück.
 
 `toDateOnly("2023-08-18T00:00:00")`
 
-alle geben ein dateOnly -Objekt zurück, das 18.08.2023 darstellt.
+alle geben ein dateOnly-Objekt zurück, das den 18.08.2023 darstellt.
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

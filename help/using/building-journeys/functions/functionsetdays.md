@@ -8,9 +8,9 @@ level: Experienced
 keywords: setDays, Funktion, Ausdruck, Journey
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,6 +48,6 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-Gibt 2023-12-25T01 zurück:11:00Z.
+Gibt 2023-12-25T01:11:00Z zurück.
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

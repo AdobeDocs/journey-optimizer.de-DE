@@ -8,9 +8,9 @@ level: Experienced
 keywords: toDateTime, Funktion, Ausdruck, Journey
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -74,15 +74,15 @@ Return a datetime.
 
 `toDateTime ("2023-08-18T23:17:59.123Z")`
 
-Gibt 2023-08-18T23 zurück:17:59.123 Z
+Gibt 2023-08-18T23:17:59.123Z zurück.
 
 `toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
 
-Gibt 2023-08-18T23 zurück:17:59.123 Z
+Gibt 2023-08-18T23:17:59.123Z zurück.
 
 `toDateTime(1560762190189)`
 
-Gibt 2023-06-17T09 zurück:03:10.189 Z
+Gibt 2023-06-17T09:03:10.189Z zurück.
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

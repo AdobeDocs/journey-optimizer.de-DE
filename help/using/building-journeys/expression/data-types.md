@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruck, Daten, Datentyp, Journey
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Kann in einer toDateTimeOnly-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
 
 **Wörtliche Darstellung**
 
@@ -186,7 +186,7 @@ date("2024-02-19T00.00")
 
 Datums-/Zeitkonstante, die auch die Zeitzone berücksichtigt. Es wird Datum + Uhrzeit mit einem Versatz relativ zur UTC dargestellt.
 
-Mit den zusätzlichen Informationen zum Versatz kann ein bestimmter Zeitpunkt dargestellt werden. Es ist eine Möglichkeit, einen bestimmten &quot;Moment&quot;an einem bestimmten Ort der Welt darzustellen.
+Mit den zusätzlichen Informationen zum Versatz kann ein bestimmter Zeitpunkt dargestellt werden. Sie bieten die Möglichkeit, einen bestimmten Zeitpunkt an einem bestimmten Ort der Welt darzustellen.
 
 JSON-Format: Zeichenfolge.
 
@@ -194,9 +194,9 @@ Kann in einer toDateTime-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Verwendet das DateTimeFormatter ISO_OFFSET_DATE_TIME zur Deserialisierung und Serialisierung des Wertes. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
+Verwendet das DateTimeFormatter ISO_OFFSET_DATE_TIME zur Deserialisierung und Serialisierung des Wertes. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
-Sie können auch eine Ganzzahl übergeben, die einen Epochenwert übergibt. [Mehr dazu](https://www.epochconverter.com){_blank}.
+Sie können auch eine Ganzzahl übergeben, die einen Epochenwert übergibt. [Weitere Informationen](https://www.epochconverter.com){_blank}.
 
 Die Zeitzone kann durch einen Versatz oder einen Zeitzonen-Code angegeben werden (Beispiel: Europa/Paris, Z – bedeutet UTC).
 
@@ -258,7 +258,7 @@ Muss in einer toDuration-Funktion gekapselt sein.
 
 Serialisierungsformat: Zur Deserialisierung einer Zeitzonen-ID wird die Java-Funktion java.time verwendet.
 
-Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat „PnDTnHnMn.nS“, wobei Tage als genau 24 Stunden angesehen werden. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
+Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat „PnDTnHnMn.nS“, wobei Tage als genau 24 Stunden angesehen werden. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
 **Wörtliche Darstellung**
 

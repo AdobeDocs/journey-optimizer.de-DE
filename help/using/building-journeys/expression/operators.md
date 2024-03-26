@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -434,13 +434,13 @@ Beispiel:
 "the current time is " + (now())
 ```
 
-Gibt &quot;die aktuelle Zeit ist 2023-09-23T09&quot;zurück:30:06.693 Z&quot;
+Gibt „Die aktuelle Zeit lautet 2023-09-23T09:30:06.693Z“ zurück.
 
 ```json
 (now()) + " is the current time"
 ```
 
-Gibt &quot;2023-09-23T09&quot;zurück:30:06.693Z ist die aktuelle Zeit&quot;
+Gibt „2023-09-23T09:30:06.693Z ist die aktuelle Zeit“ zurück.
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,13 +464,13 @@ Beispiel:
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Gibt eine _dateTime_ 2023-12-03T15:30:30Z
+Gibt den _dateTime_-Wert 2023-12-03T15:30:30Z zurück.
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Gibt eine _dateTimeOnly_ 2023-12-03T15:30:30
+Gibt den _dateTimeOnly_-Wert 2023-12-03T15:30:30 zurück.
 
 ```json
 (now()) + (toDuration("PT1H"))

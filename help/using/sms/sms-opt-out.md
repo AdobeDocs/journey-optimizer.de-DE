@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Standardmäßig verarbeitet Adobe Journey Optimizer folgende standardmäßige en
 
 Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter ausgelöst. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 
-Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktion die Konfiguration Pull ausgewählt ist.
+Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktion die Pull-Konfiguration ausgewählt ist.
 
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 

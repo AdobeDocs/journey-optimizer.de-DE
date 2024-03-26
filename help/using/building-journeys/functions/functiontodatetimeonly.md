@@ -8,9 +8,9 @@ level: Experienced
 keywords: toDateTimeOnly, Funktion, Ausdruck, Journey
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
 
 `toDateTimeOnly ("2023-08-18")`
 
-gibt eine dateTime zurück, die 2023-08-18T00 entspricht.:00:00 000
+Gibt einen Datum/Uhrzeit-Wert zurück, der 2023-08-18T00:00:00.000 entspricht.
 
 `toDateTimeOnly(now())`
 

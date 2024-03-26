@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -75,11 +75,11 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    >[!NOTE]
    >
-   >Nur die **[!UICONTROL Marketing]** -Kategorie verfügbar ist.
+   >Es ist nur die Kategorie **[!UICONTROL Marketing]** verfügbar.
 
    ![](assets/message-rules-details.png)
 
-1. Aus dem **[!UICONTROL Dauer]** Dropdownliste einen Zeitrahmen für die Anwendung der Begrenzung auswählen. [Weitere Informationen](#frequency-cap)
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Dauer]** einen Zeitrahmen aus, auf den die Begrenzung angewendet werden soll. [Weitere Informationen](#frequency-cap)
 
 1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat oder Woche <!--or day--> an ein einzelnes Benutzerprofil gesendet werden können – je nach Ihrer Auswahl oben.
 
@@ -101,13 +101,13 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
    ![](assets/message-rules-created.png)
 
-### Frequenzlimitierung {#frequency-cap}
+### Frequenzbegrenzung {#frequency-cap}
 
-Aus dem **[!UICONTROL Dauer]** Dropdownliste auswählen, ob die Begrenzung monatlich oder wöchentlich angewendet werden soll.
+Legen Sie über die Dropdown-Liste **[!UICONTROL Dauer]** fest, ob die Begrenzung monatlich oder wöchentlich angewendet werden soll.
 
 >[!NOTE]
 >
->Tägliche Frequenzlimitierung ist auch bei Bedarf verfügbar. [Weitere Informationen](#daily-frequency-cap)
+>Auf Anfrage ist auch eine tägliche Frequenzbegrenzung möglich. [Weitere Informationen](#daily-frequency-cap)
 
 Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
 
@@ -119,15 +119,15 @@ Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
 * **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
 
-### Tägliche Häufigkeitsbegrenzung {#daily-frequency-cap}
+### Tägliche Frequenzbegrenzung {#daily-frequency-cap}
 
-Neben der monatlichen und wöchentlichen Frequenzlimitierung ist auch eine tägliche Frequenzlimitierung auf Anfrage erhältlich. Wenden Sie sich diesbezüglich an Ihren Adobe-Support-Mitarbeiter.
+Neben der monatlichen und wöchentlichen Frequenzbegrenzung ist auf Anfrage auch eine tägliche Frequenzbegrenzung verfügbar. Weiterführende Informationen dazu erhalten Sie beim Adobe-Support.
 
-Die tägliche Frequenzbegrenzung gilt für den Tag bis 23:59:59 UTC und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
 
 >[!NOTE]
 >
->Wenn Sie [Stapelsegmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} wird empfohlen. Erfahren Sie mehr über die Methoden zur Zielgruppenbewertung in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Beim Umgang mit der [Batch-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} wird empfohlen. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Regel {#activate-rule}
 
