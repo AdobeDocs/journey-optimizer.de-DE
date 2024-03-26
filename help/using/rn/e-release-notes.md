@@ -11,38 +11,38 @@ hidefromtoc: true
 source-git-commit: f957737aa741cc8b854912414d15154489d1b0b0
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # Frühzeitige Versionshinweise {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats im [Versionshinweise](release-notes.md).
+[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise vom März 2024 {#e-2024}
+## Frühzeitige Versionshinweise März 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 19.-20. März 2024
+**Veröffentlichungsdatum**: 19.–20. März 2024
 
 ### Neue Funktion {#e-features}
 
-Mit dieser Version wird die neue Funktion im Folgenden beschrieben.
+Mit dieser Version wird die unten aufgeführte neue Funktion eingeführt.
 
 <table>
 <thead>
 <tr>
-<th><strong>Codebasierte Erlebnisse</strong><br/></th>
+<th><strong>Code-basierte Erlebnisse</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dem neuen code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für Ihre eingehenden Eigenschaften durchführen, um eine nahtlose Bereitstellung maßgeschneiderter Erlebnisse für verschiedene Touchpoints wie Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr zu ermöglichen.</p>
+<p>Mit dem neuen Code-basierten Erlebniskanal ermöglicht Ihnen Adobe Journey Optimizer, eine erweiterte Personalisierung und Tests für Inbound-Eigenschaften durchzuführen. Auf diese Weise können Sie maßgeschneiderte Erlebnisse für verschiedene Touchpoints wie Web-Apps, Mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte usw. nahtlos bereitstellen.</p>
 <P>Die wichtigsten Funktionen ermöglichen Folgendes:</p>
-<ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Journey für Benutzer gewährleistet ist</li>
-<li>Präzise Bearbeitungsgenauigkeit: Bearbeiten Sie bestimmte Inhalte an einzelnen Stellen in Ihren Apps oder Webseiten</li>
-<li>Vielseitige Implementierung: Unterstützung für serverseitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung.</li></ul></p>
+<ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Benutzer-Journey sichergestellt ist</li>
+<li>Präzise Bearbeitungsgenauigkeit: Bearbeitung bestimmter Inhalte an einzelnen Stellen in Apps oder auf Web-Seiten</li>
+<li>Vielseitige Implementierung: Unterstützung für Server-seitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung</li></ul></p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/get-started-code-based.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/code-based.gif">
 </tr>
@@ -55,7 +55,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Inhaltsvorlagen**
 
-* **Miniaturen** - A **Rasteransicht** ist jetzt für Inhaltsvorlagen verfügbar und zeigt Miniaturansichten an, um den visuellen Zugriff zu verbessern. Derzeit werden nur E-Mail-HTML-Vorlagen unterstützt. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
+* **Miniaturansicht**: Für Inhaltsvorlagen ist jetzt der Modus **Rasteransicht** verfügbar, um den visuellen Zugriff durch die Anzeige von Miniaturansichten zu verbessern. Derzeit werden nur HTML-Vorlagen für E-Mails unterstützt. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -65,8 +65,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 
-* **Publishing** Status zwischen **Entwurf** und **Live** status
-* **Anhalten** Status zwischen **Live** und **Angehalten** status
-* **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** Status zwischen den **Entwurf** und **Entwurf (Test)** status
+* der Status **Wird veröffentlicht** zwischen dem Status **Entwurf** und dem Status **Live**
+* der Status **Wird gestoppt** zwischen dem Status **Live** und dem Status **Gestoppt**
+* der Status **Testmodus wird aktiviert** oder **Testmodus wird deaktiviert** zwischen dem Status **Entwurf** und dem Status **Entwurf (Test)**
 
-Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt.
+Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.

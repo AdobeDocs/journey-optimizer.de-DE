@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ---
 
-# Subdomain-Erstellung in [!DNL Journey Optimizer] {#subdomain-delegation}
+# Subdomain-Delegierung in [!DNL Journey Optimizer] {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
