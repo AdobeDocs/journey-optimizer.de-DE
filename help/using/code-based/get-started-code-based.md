@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberfl
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domäne dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer usw. |
 | iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer nativen App-Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
-| Android-App | mobileapp://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer nativen App dar. |
+| Android-App | mobileapp://com.vendor.bundle/#element | Stellt ein bestimmtes Element in einer nativen App dar. |
 
 **Andere Gerätetypen**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| TV-App | tvcd://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer mit Smart TV oder TV verbundenen Geräteanwendung dar - Bundle-ID. |
-| Service | service://servicename#element | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
+| Desktop | desktop://com.vendor.bundle/#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
+| TV-App | tvcd://com.vendor.bundle/#element | Stellt ein bestimmtes Element in einer mit Smart TV oder TV verbundenen Geräteanwendung dar - Bundle-ID. |
+| Service | service://servicename/#element | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
 | Kiosk | kiosk://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 | ATM | atm://location/screen#element | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 
@@ -163,7 +163,5 @@ Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberfl
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Platzhalterweb | Platzhalter:web://domain.com/`*`#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| Platzhalterweb | Platzhalter:web://`*`domain.com/`*`#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter allen Domänen dar, die auf &quot;domain.com&quot;enden. |
-
-
+| Platzhalterweb | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
+| Platzhalterweb | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter allen Domänen dar, die auf &quot;domain.com&quot;enden. |

@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,12 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 >Derzeit werden Rangfolgemodelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
 
 ## KI-Modelltypen {#ai-model-types}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_type"
+>title="Modelltyp auswählen"
+>abstract="Wählen Sie den Typ des AI-Modells aus, das Sie erstellen möchten: **Automatische Optimierung** Optimierung von Angeboten basierend auf der bisherigen Angebotsleistung bei gleichzeitiger **Personalisierte Optimierung** optimiert und personalisiert Angebote auf der Basis von Zielgruppen und Angebotsleistung."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Erstellen eines KI-Modells"
 
 In [!DNL Journey Optimizer] sind zwei Arten von KI-Modellen verfügbar:
 
