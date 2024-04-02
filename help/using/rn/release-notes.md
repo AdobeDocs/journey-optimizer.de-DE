@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 99%
@@ -49,7 +49,7 @@ Mit dieser Version wird die unten aufgeführte neue Funktion eingeführt.
 <li>Präzise Bearbeitungsgenauigkeit: Bearbeitung bestimmter Inhalte an einzelnen Stellen in Apps oder auf Web-Seiten</li>
 <li>Vielseitige Implementierung: Unterstützung für Server-seitige, API-basierte oder SDK-basierte Implementierungsmethoden zur nahtlosen Integration in Ihre Entwicklungsumgebung</li></ul></p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/get-started-code-based.md">ausführlichen Dokumentation</a>.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Neben „E-Mail“ stehen nun auch Inhaltsvorlagen für die folgenden Kanäle zur Verfügung: „Push“, „In-App“, „SMS“ und „Briefpost“. Dabei verfügt jeder Kanal über dedizierte Vorlagentypen. Für „E-Mail“ können Sie nun den Inhaltstyp auswählen, mit dem Sie den Betreff als Teil Ihrer E-Mail-Vorlage speichern können. <br/><br/></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/content-templates.md">ausführlichen Dokumentation</a>.<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif">
+<img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
 </table>
