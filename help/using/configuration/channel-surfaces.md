@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="Marketing-Aktion auswählen"
->abstract="Wählen Sie eine Marketing-Aktion auf der Oberfläche aus, um eine Zustimmungsrichtlinie mit der Nachricht zu verknüpfen."
+>title="Auswählen einer Marketing-Aktion"
+>abstract="Wählen Sie eine Marketing-Aktion auf der Oberfläche aus, um eine Einverständnisrichtlinie mit der Nachricht zu verknüpfen."
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
