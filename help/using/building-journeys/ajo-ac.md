@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden ei
 
 >[!NOTE]
 >
->Um diese Integration nutzen zu können, ist Campaign v7/v8 Build 9125 oder höher erforderlich.
+>Um diese Integration verwenden zu können, benötigen Sie Campaign v7/v8 Build 9125 oder höher.
 
 Zunächst wird in Campaign eine Transaktions-E-Mail-Vorlage erstellt. Anschließend werden in Journey Optimizer das Ereignis, die Aktion und die Journey erstellt.
 

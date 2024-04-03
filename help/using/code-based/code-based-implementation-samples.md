@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf d
 
 >[!IMPORTANT]
 >
->Folgen [dieser Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
+>Folgen Sie [diesem Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}, um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
 
 ## Client-seitige Implementierung {#client-side-implementation}
 
@@ -72,7 +72,7 @@ function sendDisplayEvent(decision) {
 }
 ```
 
-1. Bei code-basierten Erlebniskampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann ein Benutzer mit dem Inhalt interagiert hat. Dies geschieht über den Befehl `sendEvent`.
+1. Bei Code-basierten Erlebniskampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann die Benutzerin oder der Benutzer mit dem Inhalt interagiert hat.  Dies geschieht über den Befehl `sendEvent`.
 
 ```javascript
 function sendInteractEvent(label, proposition) {

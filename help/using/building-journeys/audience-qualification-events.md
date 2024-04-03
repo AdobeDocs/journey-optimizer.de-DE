@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 * Denken Sie daran, dass Adobe Experience Platform-Zielgruppen entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (**Streaming**-Zielgruppen unter Verwendung der Option „Hochfrequenz-Zielgruppen“ von Adobe Experience Platform) berechnet werden.
 
-   * Wenn die ausgewählte Audience gestreamt wird, treten die Kontakte, die zu dieser Audience gehören, möglicherweise in Echtzeit in die Journey ein.
-   * Bei einer Batch-Zielgruppe treten für diese Zielgruppe neu qualifizierte Personen in die Journey ein, wenn die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+   * Wenn die ausgewählte Zielgruppe gestreamt wird, treten die zu dieser Zielgruppe gehörenden Personen in Echtzeit in die Journey ein. 
+   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Personen in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
 
-  Als Best Practice empfehlen wir daher, nur Streaming-Zielgruppen in einer **Zielgruppenqualifikation** -Aktivität. Für Batch-Anwendungsfälle verwenden Sie bitte eine **[Audience lesen](read-audience.md)** -Aktivität.
+  Als Best Practice empfehlen wir daher, für die Aktivität **Zielgruppen-Qualifizierung** nur Streaming-Zielgruppen zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
 
   >[!NOTE]
   >
-  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositionsarbeitsabläufen und benutzerdefiniertem Upload erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität &quot;Zielgruppenqualifikation&quot;auswählen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
+  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositions-Workflows und benutzerdefiniertem Upload erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität „Zielgruppen-Qualifizierung“ auswählen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen.
 

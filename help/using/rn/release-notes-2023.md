@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4398'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -426,7 +426,7 @@ Kontextbezogene Ereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü „
 
 **Zielgruppen**
 
-Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen. Mit der Veröffentlichung des Zielgruppen-Kompositionsportalportals haben Adobe Experience Platform und Adobe Journey Optimizer die Verwendung von &quot;Zielgruppen&quot;und &quot;Segmenten&quot;im System und in der Dokumentation aktualisiert.
+Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen. Mit der Veröffentlichung des Portals „Zielgruppenkomposition“ haben Adobe Experience Platform und Adobe Journey Optimizer die Verwendung der Begriffe „Zielgruppen“ und „Segment“ im System und in der Dokumentation aktualisiert.
 
 * Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
 * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.

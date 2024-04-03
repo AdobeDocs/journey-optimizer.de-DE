@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Zu Beginn der Erstellung einer E-Mail müssen Sie Oberflächen für E-Mail-Kanä
 >
 >Richten Sie vor der Erstellung einer E-Mail-Oberfläche die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
-Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration, wie unten beschrieben.
+Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest, wie unten beschrieben.
 
 ![](assets/preset-email-settings.png)
 
@@ -55,7 +55,7 @@ Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche au
 
 ## Subdomain- und IP-Pools {#subdomains-and-ip-pools}
 
-Im **Subdomain- und IP-Pools** füllen Sie die erforderlichen Felder wie unten beschrieben aus.
+Füllen Sie im Abschnitt **Subdomain- und IP-Pools** die erforderlichen Felder wie unten beschrieben aus.
 
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 

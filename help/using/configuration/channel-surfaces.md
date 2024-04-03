@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
    >[!NOTE]
    >
-   >Sie können nicht mit der Erstellung der E-Mail-Oberfläche fortfahren, während sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und wurde noch nie mit der ausgewählten Subdomain verknüpft. [Weitere Informationen](#subdomains-and-ip-pools)
+   >Sie können nicht mit der Erstellung der E-Mail-Oberfläche fortfahren, während sich der ausgewählte IP-Pool in [Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
    >
    >Speichern Sie die Oberfläche als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat, um mit der Erstellung der Oberfläche fortzufahren.
 

@@ -1,5 +1,5 @@
 ---
-title: Limits und Voraussetzungen für codebasierte Erlebnisse
+title: Schutzmechanismen und Voraussetzungen für Code-basierte Erlebnisse
 description: Um Apps und Web-Seiten mit der Code-basierten Funktion von Journey Optimizer bearbeiten zu können, befolgen Sie die Voraussetzungen auf dieser Seite
 feature: Code-based Experiences
 topic: Content Management
@@ -7,25 +7,25 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Limits und Voraussetzungen {#web-prerequisites}
+# Schutzmechanismen und Voraussetzungen {#web-prerequisites}
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-* Um Änderungen an Ihren Anwendungen hinzuzufügen, müssen Sie über eine bestimmte Implementierung verfügen. [Weitere Informationen](#implementation-prerequisites)
+* Um Änderungen an Ihren Anwendungen hinzuzufügen, benötigen Sie eine bestimmte Implementierung. [Weitere Informationen](#implementation-prerequisites)
 
 * Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen definieren, die [hier](#delivery-prerequisites) im Detail beschrieben werden.
 
 >[!CAUTION]
 >
->* Der code-basierte Erlebniskanal ist nicht für Unternehmen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>* Der Code-basierte Erlebniskanal ist nicht für Organisationen verfügbar, die Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben.
 >
->* Sie können nur code-basierte Erlebnisse in **Kampagnen**. [Weitere Informationen](../campaigns/create-campaign.md#configure).
+>* Sie können Code-basierte Erlebnisse nur in **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure).
 
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}

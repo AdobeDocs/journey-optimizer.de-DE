@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Einen tieferen Einblick in das Thema der Zustellbarkeit und weitere Informatione
 
 ## Verringern der Beschwerderate {#reduce-complaint-rate}
 
-ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch ist es möglich, unzuverlässige Quellen zu identifizieren. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Erfahren Sie mehr über die Opt-out-Verwaltung](../privacy/opt-out.md#opt-out-management)
+ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch ist es möglich, unzuverlässige Quellen zu identifizieren. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Weitere Informationen zum Opt-out-Management](../privacy/opt-out.md#opt-out-management)
 
 Generell empfehlen wir, Empfänger nicht darin zu behindern, sich abzumelden, indem Sie von ihnen verlangen, Felder wie beispielsweise ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Landingpage für die Abmeldung sollte nur eine einzige Validierungs-Schaltfläche aufweisen.
 
@@ -71,7 +71,7 @@ Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails
 
 * **Abmelde-Link und -Landingpage**: Der Link zum Abmelden ist unverzichtbar. Er muss sichtbar und gültig sein und das Formular muss funktionsfähig sein.
 
-[Erfahren Sie mehr über die Erstellung von E-Mail-Inhalten](../email/get-started-email-design.md)
+[Weitere Informationen zum Entwerfen von E-Mail-Inhalten](../email/get-started-email-design.md)
 
 ## Reputation als Absender etablieren {#reputation}
 
@@ -81,23 +81,23 @@ Um die Reputation Ihrer IP-Adresse zu verbessern, können Sie die Anzahl Ihrer S
 
 ## Implementieren von DMARC {#dmarc}
 
-Um das Risiko zu verringern, dass E-Mails als Spam gekennzeichnet oder abgelehnt werden, und Probleme mit der Zustellbarkeit zu vermeiden, [!DNL Journey Optimizer] ermöglicht Ihnen, den DMARC-Datensatz für alle Subdomains einzurichten, die Sie an Adobe delegieren.
+Um das Risiko zu verringern, dass E-Mails als Spam gekennzeichnet oder abgelehnt werden, und Probleme mit der Zustellbarkeit zu vermeiden, ermöglicht [!DNL Journey Optimizer] Ihnen, den DMARC-Eintrag für alle Subdomains einzurichten, die Sie an Adobe delegieren.
 
-Domain-based Message Authentication, Reporting and Conformance (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Inhaber ihre Domain vor nicht autorisierter Verwendung durch böswillige Akteure schützen können.
+Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung durch boshafte Akteure schützen können. 
 
-[Weitere Informationen zu DMARC-Datensätzen](../configuration/dmarc-record.md)
+[Weitere Informationen zu DMARC-Einträgen](../configuration/dmarc-record.md)
 
-## Feedback-Schleifen {#feedback-loops}
+## Informationen zu Feedback-Schleifen {#feedback-loops}
 
-Eine Feedback Loop (FBL) ist ein von einigen ISPs angebotener Dienst, mit dem der E-Mail-Absender automatisch benachrichtigt werden kann, wenn der Benutzer, der eine E-Mail erhält, diese als Spam kennzeichnet (auch als &quot;Beschwerde&quot;bezeichnet).
+Eine Feedback-Schleife (Feedback Loop, FBL) ist ein von einigen ISPs angebotener Dienst, mit dem die Absenderin bzw. der Absender einer E-Mail automatisch benachrichtigt werden kann, wenn Benutzende, die eine E-Mail erhalten, diese als Spam kennzeichnen (auch als „Beschwerde“ bezeichnet).
 
-Nachdem ein Endbenutzer eine Beschwerde generiert hat, die vom ISP an die Adobe zurückgesendet wurde, wird die E-Mail-Adresse automatisch zum [Unterdrückungsliste](../reports/suppression-list.md) und von künftigen Sendungen ausgeschlossen sind. Der Versand von E-Mails an Benutzer, die sie als Spam gekennzeichnet haben, wirkt sich negativ auf die Reputation des Absenders aus und kann Probleme bei der Zustellbarkeit verursachen. [Weitere Informationen zu Spam-Beschwerden](../reports/suppression-list.md#spam-complaints)
+Nachdem eine Endbenutzerin oder ein Endbenutzer eine Beschwerde generiert hat, die vom ISP an Adobe zurückgesendet wurde, wird die E-Mail-Adresse automatisch zur [Unterdrückungsliste](../reports/suppression-list.md) hinzugefügt und von künftigen Sendungen ausgeschlossen. Der Versand von E-Mails an Benutzende, die sie als Spam gekennzeichnet haben, wirkt sich negativ auf die Reputation der Absenderin oder des Absenders aus und kann Probleme bei der Zustellbarkeit verursachen. [Weitere Informationen zu Spam-Beschwerden](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
->Nicht alle ISPs bieten eine herkömmliche FBL, z. B. Gmail. Gmail bietet kein Feedback auf individueller Ebene und kann nicht dazu verwendet werden, Spam-Beschwerden an einzelne Empfänger zu verfolgen, sondern sich stattdessen auf die Berichterstellung auf aggregierter Ebene in den Google Postmaster Tools zu konzentrieren. [Weitere Informationen](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>Nicht alle ISPs bieten eine herkömmliche FBL, z. B. Gmail. Gmail bietet kein Feedback auf individueller Ebene und kann nicht dazu verwendet werden, Spam-Beschwerden bis hin zu einzelnen Empfängerinnen oder Empfängern nachzuverfolgen, sondern konzentriert sich stattdessen auf die Berichterstellung auf aggregierter Ebene in den Google Postmaster Tools. [Weitere Informationen](https://support.google.com/a/answer/6254652?hl=de){target="_blank"}
 
-Alle Adobe-Kunden werden automatisch in die herkömmlichen FBLs der folgenden ISPs eingeschrieben:
+Alle Adobe-Kundinnen und -Kunden werden automatisch in die herkömmlichen FBLs der folgenden ISPs eingeschrieben:
 
 * 1&amp;1
 
@@ -117,7 +117,7 @@ Alle Adobe-Kunden werden automatisch in die herkömmlichen FBLs der folgenden IS
 
 * Liberty Global (Chello, UPC, Unity Media)
 
-* locaweb
+* Locaweb
 
 * Mail.RU
 
@@ -125,7 +125,7 @@ Alle Adobe-Kunden werden automatisch in die herkömmlichen FBLs der folgenden IS
 
 * OpenSRS
 
-* rackspace
+* Rackspace
 
 * SEZNM
 

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,9 +56,9 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 * Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
 * Nach dem letzten Vorkommen einer wiederkehrenden zielgruppenbasierten Journey.
 
-Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits im Journey befinden, können das Journey normal beenden.
+Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 
-Nach 30 Tagen wechselt eine Audience lesen -Journey zum **Abgeschlossen** -Status. Dieses Verhalten wird nur für 30 Tage eingestellt (d. h. Journey-Timeout-Standardwert), da alle Informationen zu Profilen, die an der Journey teilgenommen haben, 30 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch im Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach der 30-tägigen Zeitüberschreitung.
+Nach 30 Tagen wird der Status der Zielgruppen-lesen-Journey in **Beendet** geändert. Dieses Verhalten wird nur für 30 Tage festgelegt (d. h. für den Standardwert des Journey-Timeouts), da alle Informationen zu Profilen, die an der Journey teilgenommen haben, 30 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach der 30-tägigen maximalen Wartezeit.
 
 Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 

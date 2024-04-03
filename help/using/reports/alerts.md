@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Warnhinweise zu benutzerdefinierten Aktionen werden aufgelöst, wenn in den letz
 
 Der Name des E/A-Ereignissabonnements, der dem Warnhinweis für benutzerdefinierte Aktionen entspricht, lautet: **Benutzerdefinierte Journey-Aktion fehlgeschlagen**.
 
-## Lesen von Audience Trigger fehlgeschlagen {#alert-read-audiences}
+## Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
 
 Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden.
 
@@ -71,21 +71,22 @@ Der Name des E/A-Ereignisabonnements, der dem Warnhinweis **Segmentauslöser kon
 
 ## Fehlerbehebung {#alert-troubleshooting}
 
-Fehlerbehebung **Audience lesen** Warnhinweise verwenden, überprüfen Sie die Anzahl Ihrer Zielgruppen in der Experience Platform-Oberfläche.
+Überprüfen Sie zur Fehlerbehebung von Warnhinweisen bei **Zielgruppe lesen** die Anzahl Ihrer Zielgruppen auf der Experience Platform-Oberfläche.
 
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
 
-Fehlerbehebung **Benutzerdefinierte Aktion** Warnhinweise:
+Fehlerbehebung von Warnhinweisen bei **benutzerdefinierten Aktionen**:
 
-* Überprüfen Sie Ihre benutzerdefinierte Aktion mithilfe des Testmodus auf einer anderen Journey:
+* Prüfen Sie Ihre benutzerdefinierte Aktion mithilfe des Testmodus in einer anderen Journey:
 
   ![](assets/alert-troubleshooting-2.png)
 
-* Überprüfen Sie Ihren Journey-Bericht, um die Fehlerursachen zu sehen.
+* Prüfen Sie Ihren Journey-Bericht, um die Fehlerursachen für die Aktion zu sehen.
 
   ![](assets/alert-troubleshooting-3.png)
 
-* Überprüfen Sie Ihre Journey stepEvents , um weitere Informationen zum &quot;failureReason&quot;zu erhalten.
-* Überprüfen Sie Ihre benutzerdefinierte Aktionskonfiguration und überprüfen Sie, ob die Authentifizierung weiterhin korrekt ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.
+* Prüfen Sie Ihre Journey-stepEvents, um weitere Informationen zu „failureReason“ zu erhalten.
+* Prüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und überprüfen Sie, ob die Authentifizierung weiterhin korrekt ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman 
+durch.

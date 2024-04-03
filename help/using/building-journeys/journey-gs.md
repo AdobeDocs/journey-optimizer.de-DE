@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -87,16 +87,16 @@ Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICO
 
 Der Status kann wie folgt lauten:
 
-* **Geschlossen**: Die Journey wurde mithilfe der **Für neue Eintritte schließen** Schaltfläche. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits im Journey befinden, können das Journey normal beenden.
+* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
-* **Entwurf (Test)**: Der Testmodus wurde mit der Funktion **Testmodus** Schaltfläche.
-* **Abgeschlossen**: Die Journey wechselt nach der standardmäßigen globalen Zeitüberschreitung von 30 Tagen automatisch in diesen Status. Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten.
-* **Live**: Die Journey wurde mithilfe der **Veröffentlichen** Schaltfläche.
-* **Angehalten**: die Journey mit der **Anhalten** Schaltfläche. Alle Personen verlassen die Journey sofort.
+* **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert.
+* **Beendet**: Die Journey wechselt nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
+* **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht.
+* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Einzelpersonen verlassen die Journey sofort.
 
 >[!NOTE]
 >
->Der Journey Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: &quot;Publishing&quot;(zwischen &quot;Entwurf&quot; und &quot;Live&quot;), &quot;Activating test mode&quot; oder &quot;Deactivate test mode&quot;(zwischen &quot;Entwurf&quot; und &quot;Entwurf (Test)&quot;) und &quot;Stopping&quot; zwischen &quot;Live&quot; und &quot;Stoppt&quot;). Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt.
+>Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
@@ -116,7 +116,7 @@ Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ih
 
 ➡️ [Entdecken Sie diese Funktion im Video](journey.md#video)
 
-Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journeys:
+Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten durch Journeys:
 
 1. Klicken Sie auf der Registerkarte **Durchsuchen** auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
 

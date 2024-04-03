@@ -7,17 +7,17 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Erstellen von Code-basierten Erlebnissen {#create-code-based}
 
-Zurzeit in [!DNL Journey Optimizer] Sie können nur code-basierte Erlebnisse in **Kampagnen**.
+Derzeit können Sie in [!DNL Journey Optimizer] Code-basierte Erlebnisse nur in **Kampagnen** erstellen. 
 
-Spezifische Limits und Empfehlungen für code-basierte Erlebnisse werden im Abschnitt [diese Seite](code-based-prerequisites.md).
+Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Schutzmechanismen und Empfehlungen für Code-basierte Erlebnisse ausführlich beschrieben.
 
 ## Erstellen einer Code-basierten Kampagne {#create-code-based-campaign}
 
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
-1. Wählen Sie die **[!UICONTROL Codebasiertes Erlebnis]** Aktion.
+1. Wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus.
 
 1. Geben Sie die Oberfläche des Code-basierten Erlebnisses ein. [Weitere Informationen](#surface-definition)
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
-1. Führen Sie die Schritte zur Erstellung einer Kampagne aus, z. B. die Kampagneneigenschaften, [audience](../audience/about-audiences.md), und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
+1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. Bearbeiten Sie den Inhalt wie gewünscht mit dem Ausdruckseditor. [Weitere Informationen](#edit-code)
 
@@ -92,7 +92,7 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 >title="Vorschau des Code-basierten Erlebnisses"
 >abstract="Eine Simulation, die zeigt, wie das Code-basierte Erlebnis aussehen wird."
 
-Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-basierten Erlebnisses anzuzeigen. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Vorschau erstellen und Inhaltsseite testen](../content-management/preview-test.md).
+Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-basierten Erlebnisses anzuzeigen. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie auf der Seite [Vorschau und Test Ihrer Inhalte](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

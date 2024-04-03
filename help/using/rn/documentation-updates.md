@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## März 2024 {#march-2024}
 
-* Es wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt, in dem häufig gestellte Fragen zur Verwendung der Zielgruppenzusammensetzung und zum benutzerdefinierten Hochladen von Zielgruppen in Journey Optimizer beantwortet werden - [Weitere Informationen](../audience/about-audiences.md#faq)
-* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 24. März werden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Die Seite über die Verwaltung des Profileintritts wurde verbessert. [Weitere Informationen](../building-journeys/entry-management.md)
-* Informationen zur Fehlerbehebung wurden zur Seite &quot;Warnungen&quot;hinzugefügt. [Weitere Informationen](../reports/alerts.md#alert-troubleshooting)
-* Informationen zur Warteaktivität wurden der Seite in Journey-Berichten hinzugefügt. [Weitere Informationen](../reports/sharing-overview.md)
-* Für Journey im Testmodus wurden die folgenden Tastaturbefehle deaktiviert:
+* Es wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt, in dem häufig gestellte Fragen zur Verwendung der Zielgruppenkomposition und zu benutzerdefinierten Upload-Zielgruppen in Journey Optimizer beantwortet werden.  [Weitere Informationen](../audience/about-audiences.md#faq)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 24. März werden in der Dokumentation detailliert beschrieben. [Weitere Informationen](release-notes.md)
+* Die Seite zur Profileinstiegsverwaltung wurde verbessert. [Weitere Informationen](../building-journeys/entry-management.md)
+* Informationen zur Fehlerbehebung wurden zur Seite „Warnhinweise“ hinzugefügt. [Weitere Informationen](../reports/alerts.md#alert-troubleshooting)
+* Informationen zur Warteaktivität wurden der Seite zu Journey-Berichten hinzugefügt. [Weitere Informationen](../reports/sharing-overview.md)
+* Für Journeys im Testmodus wurden die folgenden Tastaturbefehle deaktiviert:
    * T: Tastaturbefehl, um den Testmodus ein- oder auszuschalten.
-   * E: Kurzbefehl zum Trigger eines Ereignisses in einer ereignisbasierten Journey.
-   * P: Kurzbefehl zum Trigger eines Ereignisses in einer zielgruppenbasierten Journey, für das die Option Jeweils ein Einzelprofil aktiviert ist.
-   * L: Tastaturbefehl zur Anzeige der Testprotokolle.
+   * E: Tastaturbefehl, um ein Ereignis in einer ereignisbasierten Journey auszulösen.
+   * P: Tastaturbefehl, um ein Ereignis in einer zielgruppenbasierten Journey auszulösen, für die die Option „Jeweils ein Einzelprofil“ aktiviert ist.
+   * L: Tastaturbefehl, um Testprotokolle anzuzeigen.
 * Die Seite mit den Häufigkeitsregeln für Nachrichten wurde um einen neuen Unterabschnitt zur täglichen Frequenzbegrenzung erweitert, die auf Anfrage zusätzlich zur wöchentlichen oder monatlichen Begrenzung verfügbar ist. [Weitere Informationen](../configuration/frequency-rules.md#daily-frequency-cap)
 * Die Seite zum Arbeiten mit Einverständnisrichtlinien wurde verbessert und mit nützlichen Links zur Experience Platform-Dokumentation aktualisiert. [Weitere Informationen](../action/consent.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, der widerspiegelt, dass Sie mit dem Raster-Ansichtsmodus (eingeschränkte Verfügbarkeit) HTML-E-Mail-Inhaltsvorlagen als Miniaturansichten anzeigen können. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
-* Auf der Seite Zustellbarkeit wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, welche Feedback-Schleifen vorhanden sind und wie sie genutzt werden können - [Weitere Informationen](../reports/deliverability.md#feedback-loops)
-* Im Abschnitt Personalisierte Angebote erstellen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die Größe eines Angebots einschließlich aller Darstellungen 300 KB nicht überschreiten darf. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* Es wurde ein neuer Abschnitt hinzugefügt, um der Tatsache Rechnung zu tragen, dass Sie mit dem Raster-Ansichtsmodus (eingeschränkte Verfügbarkeit) HTML-E-Mail-Inhaltsvorlagen als Miniaturansichten anzeigen können. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
+* Auf der Seite „Zustellbarkeit“ wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, welche Feedback-Schleifen vorhanden sind und wie sie genutzt werden können.  [Weitere Informationen](../reports/deliverability.md#feedback-loops)
+* Im Abschnitt „Erstellen von personalisierten Angeboten“ wurde ein Hinweis hinzugefügt, der angibt, dass die Größe eines Angebots einschließlich aller Darstellungen 300 KB nicht überschreiten darf. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Februar 2024 {#feb-2024}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Februar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Februar 2024 werden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Die Journey Optimizer- und Workfront-Integration wurde zur Integrationsseite hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
 * Es wurden Informationen hinzugefügt, wie die Darstellungen von Angeboten basierend auf Kontextdaten personalisiert werden können. [Weitere Informationen](../offers/offer-library/add-representations.md#context-data)
 * Die Seite für Schutzmechanismen wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)

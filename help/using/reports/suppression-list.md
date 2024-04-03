@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vo
 
 Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
 
-* Alle **Hardbounces** und **Spam-Beschwerden** automatisch die entsprechenden Adressen an die Unterdrückungsliste senden, nachdem sie nur einmal aufgetreten sind. Weitere Informationen zu Spam-Beschwerden finden Sie unter [diesem Abschnitt](#spam-complaints).
+* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste. In [diesem Abschnitt](#spam-complaints) erfahren Sie mehr über Spam-Beschwerden.
 
 * **Softbounces** senden eine Adresse nicht sofort an die Unterdrückungsliste, sondern bewirken, dass der Fehlerzähler erhöht wird. Anschließend werden [weitere Zustellversuche](../configuration/retries.md) unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
@@ -82,4 +82,4 @@ Das Senden an Empfänger, nachdem sie eine Spam-Beschwerde eingereicht haben, ka
 
 Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domain blockiert wird. Das kann vermieden werden, wenn diese Adressen auf der Unterdrückungsliste vorhanden sind.
 
-Einige ISPs bieten eine Feedback Loop (FBL), mit der der E-Mail-Absender automatisch benachrichtigt werden kann, wenn der Benutzer, der eine E-Mail erhält, diese als Spam kennzeichnet. [Weitere Informationen](deliverability.md#feedback-loops)
+Einige ISPs bieten eine Feedback-Schleife (Feedback Loop, FBL), mit der die Absenderin bzw. der Absender einer E-Mail automatisch benachrichtigt werden kann, wenn Benutzende, die eine E-Mail erhalten, diese als Spam kennzeichnen. [Weitere Informationen](deliverability.md#feedback-loops)

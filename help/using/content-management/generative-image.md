@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generieren von Bildern mit dem AI-Assistenten
+title: Bildgenerierung mit dem KI-Assistenten
 description: Erste Schritte mit dem KI-Assistenten
 feature: Content Assistant
 topic: Content Management
@@ -12,31 +12,31 @@ hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# Generieren von Bildern mit dem AI-Assistenten {#image-content-assistant}
+# Bildgenerierung mit dem KI-Assistenten {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Inhaltsverzeichnis**
 
 * [Erste Schritte mit dem KI-Assistenten](gs-generative.md)
-* [Generieren von Text mit dem AI-Assistenten](generative-content.md)
-* **[Generieren von Bildern mit dem AI-Assistenten](generative-image.md)**
+* [Generieren von Text mit dem KI-Assistenten](generative-content.md)
+* **[Generieren von Bildern mit dem KI-Assistenten](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails oder Webseiten erstellt und personalisiert haben, stellen Sie mit dem Journey Optimizer AI-Assistenten den nächsten Schritt in Ihrem Inhalt dar. Mit diesem leistungsstarken Tool können Sie Ihre Inhalte mühelos personalisieren und erweitern.
+Nachdem Sie Ihre E-Mails oder Web-Seiten erstellt und personalisiert haben, können Sie Ihre Inhalte mit dem KI-Assistenten von Journey Optimizer auf die nächste Stufe bringen.  Mit diesem leistungsstarken Tool können Sie Ihre Inhalte mühelos personalisieren und erweitern.
 
-Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Assets aktualisieren und verbessern können, um ein besseres Benutzererlebnis zu erzielen. Führen Sie folgende Schritte aus:
+Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets aktualisieren und verbessern können, um ein besseres Benutzererlebnis zu erzielen. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie nach dem Erstellen und Konfigurieren Ihrer Nachricht auf **[!UICONTROL Inhalt erstellen]** und personalisieren Sie sie nach Bedarf.
 
-1. Wählen Sie mit dem AI-Assistenten das Asset aus, das Sie ändern möchten.
+1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
 
 1. Wählen Sie aus dem Kontextmenü die Option **[!UICONTROL Erlebnisgenerierung]** aus.
 
@@ -44,7 +44,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Assets aktual
 
 1. Fügen Sie eine Eingabeaufforderung hinzu, um Ihre Ergebnisse besser anzupassen, und klicken Sie auf **[!UICONTROL Generieren]**.
 
-   Aktivieren Sie die **[!UICONTROL Erweiterung mit aktuellem Inhalt]** Option für den KI-Assistenten, um neue Assets basierend auf Ihrer Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe zu personalisieren.
+   Aktivieren Sie die Option **[!UICONTROL Mit aktuellen Inhalten verbessern]**, damit der KI-Assistent neue Assets basierend auf Ihrer Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe personalisieren kann.
 
    ![](assets/gen-ai-image-2.png)
 

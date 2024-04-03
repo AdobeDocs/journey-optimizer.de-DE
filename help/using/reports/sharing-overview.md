@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. 
 
 [!DNL Journey Optimizer] erstellt für jeden Schritt, den ein Kontakt bei einer Journey unternimmt, automatisch die erforderlichen Schemata und streamt die Daten in Datensätze zu Adobe Experience Platform. Ein Schrittereignis entspricht einem Kontakt, der bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Journey, die über ein Ereignis, eine Bedingung und eine Aktion verfügt, drei Schrittereignisse an Adobe Experience Platform gesendet.
 
-Es gibt Fälle, in denen mehrere Ereignisse für denselben Knoten erstellt werden können. Beispielsweise im Falle der Warten -Aktivität:
+Es gibt Fälle, in denen mehrere Ereignisse für denselben Knoten erstellt werden können. Beispielsweise im Falle der Warten-Aktivität:
 
-* Ein Ereignis wird generiert, wenn das Profil in die Wartezeit eintritt (Attribut journeyNodeProcessed ist gleich false)
-* Ein Ereignis wird generiert, wenn das Profil es verlässt (Attribut journeyNodeProcessed ist gleich true)
+* Ein Ereignis wird generiert, wenn das Profil in die Wartezeit eintritt (Das Attribut „journeyNodeProcessed“ ist gleich „false“)
+* Ein Ereignis wird generiert, wenn das Profil es verlässt (Das Attribut „journeyNodeProcessed“ ist gleich „true“)
 
 Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Journey-Aktivität und der Schrittstatus: wie oft eine Aktion die Zeit überschritten hat oder fehlerhaft endete.
 
@@ -51,7 +51,7 @@ Die folgenden Schemata werden erstellt:
 
 Die folgenden Datensätze werden übergeben:
 
-* Journey-Schritt-Ereignisse
+* Journey-Schrittereignisse
 * Journeys
 
 ![](assets/sharing3.png)
