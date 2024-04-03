@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Mit dieser Version wird die unten aufgeführte neue Funktion eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit dem neuen Code-basierten Erlebniskanal ermöglicht Ihnen Adobe Journey Optimizer, eine erweiterte Personalisierung und Tests für Inbound-Eigenschaften durchzuführen. Auf diese Weise können Sie maßgeschneiderte Erlebnisse für verschiedene Touchpoints wie Web-Apps, Mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte usw. nahtlos bereitstellen.</p>
+<p>Mit dem neuen Code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für jede Ihrer Inbound-Eigenschaften durchführen. Dies ermöglicht den nahtlosen Versand von maßgeschneiderten Erlebnissen über verschiedene Touchpoints wie Web-Apps, Mobile-Apps, Desktop-Apps, Videokonsolen, mit dem Fernseher verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte und mehr.</p>
 <P>Die wichtigsten Funktionen ermöglichen Folgendes:</p>
 <ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Benutzer-Journey sichergestellt ist</li>
 <li>Präzise Bearbeitungsgenauigkeit: Bearbeitung bestimmter Inhalte an einzelnen Stellen in Apps oder auf Web-Seiten</li>
@@ -74,7 +74,7 @@ Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 * der Status **Wird gestoppt** zwischen dem Status **Live** und dem Status **Gestoppt**
 * der Status **Testmodus wird aktiviert** oder **Testmodus wird deaktiviert** zwischen dem Status **Entwurf** und dem Status **Entwurf (Test)**
 
-Wenn eine Journey in einem Zwischenzustand ist, ist sie schreibgeschützt. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
+Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.  [Weitere Informationen](../building-journeys/journey-gs.md#filter)
 
 ## Februar 2024 – Versionshinweise {#feb-2024}
 

@@ -49,7 +49,7 @@ ht-degree: 99%
    + Verwalten von Journeys{#manage-journey}
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
-      + [Profil-Eintrittsverwaltung](using/building-journeys/entry-management.md)
+      + [Profileintrittsverwaltung](using/building-journeys/entry-management.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
@@ -245,7 +245,7 @@ ht-degree: 99%
       + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
-   + [Limits und Voraussetzungen](using/code-based/code-based-prerequisites.md)
+   + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
    + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
    + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
 + Landingpages {#landing-pages}

@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 >[!IMPORTANT]
 >
->Spezifische Limits und Empfehlungen für code-basierte Erlebnisse werden im Abschnitt [diese Seite](code-based-prerequisites.md).
+>Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Schutzmechanismen und Empfehlungen für Code-basierte Erlebnisse ausführlich beschrieben.
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -42,7 +42,7 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 <img alt="Validierung" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Limits und Voraussetzungen</strong></a>
+<a href="code-based-prerequisites.md"><strong>Schutzmechanismen und Voraussetzungen</strong></a>
 </div>
 <p>
 </td>
@@ -135,18 +135,18 @@ Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieeben
 * Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
 
 Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
-1. **Typ**: Web, mobileApp, atm, kiosk, tvcd, service usw.
+1. **Typ**: Web, Mobile App, ATM, Kiosk, tvcd, Dienst
 1. **Eigenschaft**: Seiten-URL oder App-Paket
 1. **Container**: Speicherort auf der Seite/App-Aktivität
 
-Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberflächen-URIs für verschiedene Geräte.
+In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberflächen-URI für verschiedene Geräte aufgeführt.
 
 **Web und Mobil**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domäne dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer usw. |
-| iOS-App | `mobileapp://com.vendor.bundle/activity#element` | Stellt ein bestimmtes Element innerhalb einer nativen App-Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
+| Web | `web://domain.com/path/page.html#element` | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer. |
+| iOS-App | `mobileapp://com.vendor.bundle/activity#element` | Stellt ein bestimmtes Element innerhalb der Aktivität einer nativen App dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
 | Android-App | `mobileapp://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer nativen App dar. |
 
 **Andere Gerätetypen**
@@ -154,14 +154,14 @@ Die folgenden Tabellen enthalten einige Beispiele für die Definition von Oberfl
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
 | Desktop | `desktop://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| TV-App | `tvcd://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer mit Smart TV oder TV verbundenen Geräteanwendung dar - Bundle-ID. |
+| TV-App | `tvcd://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer mit einem Smart TV- oder TV-Gerät verbundenen Geräteanwendung dar – Bundle-ID. |
 | Service | `service://servicename/#element` | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
 | Kiosk | `kiosk://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 | ATM | `atm://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
 
-**Platzhalterflächen**
+**Platzhalteroberfläche**
 
 | Typ | URI | Beschreibung |
 | --------- | ----------- | ------- | 
-| Platzhalterweb | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| Platzhalterweb | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter allen Domänen dar, die auf &quot;domain.com&quot;enden. |
+| Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
+| Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |
