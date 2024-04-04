@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
+source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 100%
+source-wordcount: '2617'
+ht-degree: 87%
 
 ---
 
@@ -254,24 +254,32 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 >title="Festlegen der Begrenzungsfrequenz"
 >abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzbegrenzung die festgelegte Frequenz nicht mehr ändern können."
 
-Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
+Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an. Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** aus der entsprechenden Dropdown-Liste aus und geben Sie **2** im anderen Feld.
 
 ![](../assets/offer-capping-frequency.png)
 
-
 >[!NOTE]
 >
->Das Zurücksetzen erfolgt um 12 Uhr UTC an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats. Der erste Tag der Woche ist der Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
+>Das Zurücksetzen des Frequenzlimitierungszählers erfolgt bei **12 Uhr UTC**, an dem von Ihnen definierten Tag oder gegebenenfalls am ersten Tag der Woche/des Monats. Der Wochentag ist **Sonntag**.
 >
->Der Frequenzbegrenzungszähler wird in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
+>Die gewählte Dauer darf nicht länger sein als **2 Jahre** (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
 
-Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie **[!UICONTROL Wöchentlich]** aus der entsprechenden Dropdown-Liste und geben Sie **2** in das andere Feld ein. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
+Nach der Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Frequenz ausgewählt haben, nicht mehr ändern. Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
 
->[!CAUTION]
->
->Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
->
->Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
++++ **Must-read: Frequenzlimitierung und Edge Decisioning-API**
+
+* Der Frequenzbegrenzungszähler wird in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
+
+* Jeder Hub-Bereich ist mit einem oder mehreren Edge-Regionen verknüpft. Frequenzlimitierungsregeln werden aus jedem Hub-Bereich generiert und in die zugehörigen Edge-Regionen exportiert. Immer wenn eine Entscheidung mithilfe der Edge Decisioning-API getroffen wird, erzwingt das System die Regeln, die im selben Edge-Bereich verfügbar sind:
+
+   * Wenn es eine passende Regel gibt, wird der Frequenzlimitierungszähler des Profils inkrementiert.
+   * Andernfalls wird kein Zähler für das Profil erstellt und die Frequenzlimitierungsregel gilt nicht. Folglich erhält das Profil auch dann weiterhin personalisierte Angebote, wenn die Begrenzungsschwelle überschritten wird.
+
+  Nehmen wir beispielsweise die zentrale Region Ihres Unternehmens als *NLD2* und senden Sie eine Entscheidungsanfrage aus Europa (*IRL1* Kantenbereich). In diesem Szenario erhöht die Entscheidungsanfrage den Zähler des Profils, da die Regeln in der (Irland) verfügbar sind. *IRL1* Region. Wenn der Entscheidungsantrag jedoch aus einer Region wie Japan stammt (*JPN3*), der kein an (Niederlande) gebundener Randbereich ist *NLD2* Hub-Region, wird kein Zähler erstellt und die Frequenzlimitierungsregeln werden nicht erzwungen.
+
+  Weitere Informationen darüber, welche Hub- und Edge-Regionen mit Ihrem Unternehmen verbunden sind, erhalten Sie von Ihrem Adobe-Support-Mitarbeiter.
+
++++
 
 ### Begrenzung und Platzierungen {#placements}
 
