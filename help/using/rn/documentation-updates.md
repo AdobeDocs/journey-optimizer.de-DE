@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## April 2024 {#april-2024}
 
+* Die Konfigurationsschritte für In-App-Nachrichten wurden ausführlich beschrieben. [Weitere Informationen](../in-app/inapp-configuration.md)
+* Dokumentation für [Offer decisioning-APIs](../offers/api-reference/offer-delivery-api/decisioning-api.md) und [Batch Decisioning-APIs](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) wurden aktualisiert.
 * In der Dokumentation zur Entscheidungsverwaltung wurden Informationen zum Edge- und Hub-Regionalmanagement bei der Verwendung der Frequenzbegrenzung mit der Edge Decisioning-API hinzugefügt. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## März 2024 {#march-2024}
 
