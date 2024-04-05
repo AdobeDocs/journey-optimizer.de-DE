@@ -6,20 +6,23 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 86%
 
 ---
 
 # Voraussetzungen und Konfiguration {#inapp-configuration}
 
-So können Sie In-App-Nachrichten und -Kampagnen in senden [!DNL Journey Optimizer]müssen Sie die folgenden Konfigurationsschritte ausführen.
+## Konfigurationsschritte {#inapp-steps}
 
-1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+So senden Sie In-App-Nachrichten in Ihren Journey und Kampagnen mit [!DNL Journey Optimizer]müssen Sie die folgenden Konfigurationsschritte ausführen.
+
+1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
+Für den Zugriff auf die **App-Oberflächen** in der Adobe Experience Platform-Datenerfassung. Weiterführende Informationen finden Sie in [diesem Video](#video).
 1. Aktivieren Sie Adobe Journey Optimizer in Ihrem Adobe Experience Platform-Datenerfassungsdatenstrom und überprüfen Sie Ihre standardmäßige Zusammenführungsrichtlinie in Adobe Experience Platform, wie im Abschnitt [Versandvoraussetzungen](#delivery-prerequisites) unten.
-1. Erstellen und konfigurieren Sie eine App-Oberfläche in der Adobe Experience Platform-Datenerfassung, wie im Abschnitt [diesem Abschnitt](#channel-prerequisites). Für den Zugriff auf die **App-Oberflächen** in der Adobe Experience Platform-Datenerfassung. Weiterführende Informationen finden Sie in [diesem Video](#video).
+1. Erstellen und konfigurieren Sie eine App-Oberfläche in der Adobe Experience Platform-Datenerfassung, wie im Abschnitt [diesem Abschnitt](#channel-prerequisites).
 1. Wenn Sie Inhaltsexperimente verwenden, stellen Sie sicher, dass Sie die in [diesem Abschnitt](#experiment-prerequisite).
 
 Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
@@ -135,10 +138,9 @@ Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experien
 >
 >Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen ein Experiment ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
 
-## Anleitungsvideos{#video}
+## Anleitungsvideo{#video}
 
 Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zuzugreifen.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
