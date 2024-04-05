@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -127,7 +127,6 @@ Weitere Informationen zu den wichtigsten Konzepten und Eigenschaften finden Sie 
 | -------- | ----------- | ------- |
 | `@id` | Die vom Entscheidungs-Management generierte UUID, die eine einzelne Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | Die Organisations-ID. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | Die Container-ID. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648078924834` |
 | `ode:status` | Der Status des Workloads. | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | Die vom Entscheidungs-Management generierte UUID, die eine einzelne Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | Die Organisations-ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | Die Container-ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648076994405` |
 | `ode:status` | Der Workload-Status ist zu Beginn „IN DIE WARTESCHLANGE GESTELLT“ und ändert sich dann in „VERARBEITUNG LÄUFT“, „AUFNAHME“, „ABGESCHLOSSEN“ oder „FEHLER“. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Wenn der Status „VERARBEITUNG LÄUFT“ oder „AUFNAHME“ lautet, werden weitere Details wie sparkJobId und batchID angezeigt. Wenn der Status „FEHLER“ lautet, werden die Fehlerdetails angezeigt. |  |
