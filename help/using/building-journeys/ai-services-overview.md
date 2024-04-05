@@ -7,8 +7,9 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: künstlich, KI, intelligent, Journey, Service
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -29,4 +30,3 @@ Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- od
 Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Optimizer (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 
 ![](assets/customer-ai.png)
-

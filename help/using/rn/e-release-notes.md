@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
 source-git-commit: f957737aa741cc8b854912414d15154489d1b0b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Mit dieser Version wird die unten aufgeführte neue Funktion eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit dem neuen Code-basierten Erlebniskanal ermöglicht Ihnen Adobe Journey Optimizer, eine erweiterte Personalisierung und Tests für Inbound-Eigenschaften durchzuführen. Auf diese Weise können Sie maßgeschneiderte Erlebnisse für verschiedene Touchpoints wie Web-Apps, Mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte usw. nahtlos bereitstellen.</p>
+<p>Mit dem neuen Code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für jede Ihrer Inbound-Eigenschaften durchführen. Dies ermöglicht den nahtlosen Versand von maßgeschneiderten Erlebnissen über verschiedene Touchpoints wie Web-Apps, Mobile-Apps, Desktop-Apps, Videokonsolen, mit dem Fernseher verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte und mehr.</p>
 <P>Die wichtigsten Funktionen ermöglichen Folgendes:</p>
 <ul><li> Universelle Personalisierung: Erweiterung personalisierter Erlebnisse über alle Touchpoints hinweg, sodass eine kohärente und maßgeschneiderte Benutzer-Journey sichergestellt ist</li>
 <li>Präzise Bearbeitungsgenauigkeit: Bearbeitung bestimmter Inhalte an einzelnen Stellen in Apps oder auf Web-Seiten</li>
