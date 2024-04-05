@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,10 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
 Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
+>[!NOTE]
+>
+>Standardmäßig ist [!DNL Journey Optimizer] ermöglicht die Zuweisung von insgesamt bis zu 10 Subdomains (sowohl für E-Mail- als auch für Web-Kanäle). Je nach Lizenzvertrag können Sie jedoch bis zu 100 Subdomains zuweisen. Wenden Sie sich an Ihren Adobe-Ansprechpartner, um mehr über die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Channels]** auf und wählen Sie dann **[!UICONTROL Webkonfiguration]** > **[!UICONTROL Web-Subdomains]**.
 
 1. Klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
@@ -152,7 +156,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann zur Erstellung von Oberflächen für Web-Kanäle verwendet werden.
 
    Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

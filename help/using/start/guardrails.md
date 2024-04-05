@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,6 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
-
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
@@ -46,6 +45,12 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
+
+## Limits bei Subdomains {#subdomain-guardrails}
+
+Standardmäßig ist [!DNL Journey Optimizer] ermöglicht die Zuweisung von insgesamt bis zu 10 Subdomains (sowohl für E-Mail- als auch für Web-Kanäle).
+
+Je nach Lizenzvertrag können Sie jedoch bis zu 100 Subdomains zuweisen. Wenden Sie sich an Ihren Adobe-Ansprechpartner, um mehr über die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 ## Fragmentleitlinien {#fragments-guardrails}
 
