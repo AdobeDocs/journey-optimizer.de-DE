@@ -1,19 +1,29 @@
 ---
-title: Voraussetzungen für In-App-Kanäle
+title: Voraussetzungen und Konfiguration des In-App-Kanals
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von In-App-Nachrichten mit Journey Optimizer konfigurieren können
 role: Admin
 feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 86%
 
 ---
 
-# Voraussetzungen für In-App-Kanäle {#inapp-configuration}
+# Voraussetzungen und Konfiguration {#inapp-configuration}
+
+So können Sie In-App-Nachrichten und -Kampagnen in senden [!DNL Journey Optimizer]müssen Sie die folgenden Konfigurationsschritte ausführen.
+
+1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Aktivieren Sie Adobe Journey Optimizer in Ihrem Adobe Experience Platform-Datenerfassungsdatenstrom und überprüfen Sie Ihre standardmäßige Zusammenführungsrichtlinie in Adobe Experience Platform, wie im Abschnitt [Versandvoraussetzungen](#delivery-prerequisites) unten.
+1. Erstellen und konfigurieren Sie eine App-Oberfläche in der Adobe Experience Platform-Datenerfassung, wie im Abschnitt [diesem Abschnitt](#channel-prerequisites). Für den Zugriff auf die **App-Oberflächen** in der Adobe Experience Platform-Datenerfassung. Weiterführende Informationen finden Sie in [diesem Video](#video).
+1. Wenn Sie Inhaltsexperimente verwenden, stellen Sie sicher, dass Sie die in [diesem Abschnitt](#experiment-prerequisite).
+
+Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
+
 
 ## Versandvoraussetzungen {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experien
 
 ## Anleitungsvideos{#video}
 
-* Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zuzugreifen.
+Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zuzugreifen.
 
-  +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **Verwandte Themen:**
 
