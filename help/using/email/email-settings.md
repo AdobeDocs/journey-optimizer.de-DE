@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 100%
@@ -60,6 +60,8 @@ Füllen Sie im Abschnitt **Subdomain- und IP-Pools** die erforderlichen Felder w
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 
    Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+
+<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 1. Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
@@ -112,6 +114,8 @@ Der Abmelde-Link besteht aus zwei Elementen:
   >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
 
 Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Nachrichten finden Sie in [diesem Abschnitt](../privacy/opt-out.md#unsubscribe-header).
+
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 100%
+source-wordcount: '1053'
+ht-degree: 99%
 
 ---
 
@@ -162,7 +162,7 @@ Mit [E-Mail-Designer](content-from-scratch.md) können Sie die verfolgten URLs v
 
 Das Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Globalen Bericht](../reports/global-report.md) verfügbar.
 
-## URL-Tracking {#url-tracking}
+## URL-Tracking personalisieren {#url-tracking}
 
 Normalerweise wird das [URL-Tracking](email-settings.md#url-tracking) auf Oberflächenebene verwaltet, Profilattribute werden jedoch nicht unterstützt. Die einzige Möglichkeit hierfür besteht derzeit darin, URLs im E-Mail-Designer zu [personalisieren](../personalization/personalization-syntax.md#perso-urls).
 

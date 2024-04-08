@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 100%
@@ -175,7 +175,7 @@ Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 >
 >Um den Abmelde-Link in der E-Mail-Kopfzeile anzuzeigen, muss der E-Mail-Client der Empfänger diese Funktion unterstützen.
 
-Die Abmelde-Adresse ist die Standardadresse **[!UICONTROL Mailto (unsubscribe)]**, die in der entsprechenden Kanaloberfläche angezeigt wird. [Weitere Informationen](../configuration/channel-surfaces.md#list-unsubscribe).
+Die Abmelde-Adresse ist die Standardadresse **[!UICONTROL Mailto (unsubscribe)]**, die in der entsprechenden Kanaloberfläche angezeigt wird. [Weitere Informationen](email-settings.md#list-unsubscribe)
 
 Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein und geben Sie die gewünschte URL ein. [Weitere Informationen](#one-click-opt-out)
 
