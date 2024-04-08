@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2373'
 ht-degree: 100%
 
 ---
@@ -239,8 +239,6 @@ Wenn diese Option aktiviert ist, kann eine Kundin bzw. ein Kunde zwar Ihre Marke
 >title="Testadressenliste hinzufügen"
 >abstract="Wählen Sie die Testadressenliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#create-seed-list" text="Erstellen einer Testadressenliste"
-
 
 Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
 
