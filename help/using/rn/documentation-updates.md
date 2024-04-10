@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '5123'
+source-wordcount: '5140'
 ht-degree: 99%
 
 ---
@@ -23,8 +23,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die Konfigurationsschritte für In-App-Nachrichten wurden ausführlich beschrieben. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Dokumentation für [Offer decisioning-APIs](../offers/api-reference/offer-delivery-api/decisioning-api.md) und [Batch Decisioning-APIs](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) wurden aktualisiert.
-* In der Dokumentation zur Entscheidungsverwaltung wurden Informationen zum Edge- und Hub-Regionalmanagement bei der Verwendung der Frequenzbegrenzung mit der Edge Decisioning-API hinzugefügt. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
-
+* In der Dokumentation zum Entscheidungs-Management wurden Informationen zur Verwaltung von Edge- und Hub-Regionen bei Verwendung der Frequenzbegrenzung mit der Edge Decisioning-API hinzugefügt. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
+* Es wurden Informationen zur Identitätserstellung mit benutzerdefinierten Namespaces beim Arbeiten mit API-ausgelösten Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
 
 ## März 2024 {#march-2024}
 

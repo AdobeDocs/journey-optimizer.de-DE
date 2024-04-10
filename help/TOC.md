@@ -44,7 +44,7 @@ ht-degree: 99%
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
-      + [Journey simulieren](using/building-journeys/journey-simulation.md)
+      + [Simulieren der Journey](using/building-journeys/journey-simulation.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publishing-the-journey.md)
    + Verwalten von Journeys{#manage-journey}
       + [Beenden der Journey](using/building-journeys/end-journey.md)
