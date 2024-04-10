@@ -7,7 +7,7 @@ topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1392'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 * der Status **Wird gestoppt** zwischen dem Status **Live** und dem Status **Gestoppt**
 * der Status **Testmodus wird aktiviert** oder **Testmodus wird deaktiviert** zwischen dem Status **Entwurf** und dem Status **Entwurf (Test)**
 
-Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.  [Weitere Informationen](../building-journeys/journey-gs.md#filter)
+Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
 
 ## Februar 2024 – Versionshinweise {#feb-2024}
 

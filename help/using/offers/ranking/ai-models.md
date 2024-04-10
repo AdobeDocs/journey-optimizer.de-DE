@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
->title="Modelltyp auswählen"
->abstract="Wählen Sie den Typ des AI-Modells aus, das Sie erstellen möchten: **Automatische Optimierung** Optimierung von Angeboten basierend auf der bisherigen Angebotsleistung bei gleichzeitiger **Personalisierte Optimierung** optimiert und personalisiert Angebote auf der Basis von Zielgruppen und Angebotsleistung."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Erstellen eines KI-Modells"
+>title="Auswählen des Modelltyps"
+>abstract="Wählen Sie den Typ des KI-Modells aus, das Sie erstellen möchten: Die **automatische Optimierung** optimiert Angebote entsprechend der Leistung früherer Angebote. Die **personalisierte Optimierung** optimiert und personalisiert Angebote hingegen basierend auf Zielgruppen und der Angebotsleistung."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Erstellen eines KI-Modells"
 
 In [!DNL Journey Optimizer] sind zwei Arten von KI-Modellen verfügbar:
 
