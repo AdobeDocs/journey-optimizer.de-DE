@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 851812f94214b2045d792251ad458733c313ce58
+source-git-commit: 31bc5a42897d19871737b1d07e1337b888f29461
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -24,3 +24,5 @@ ht-degree: 100%
 >id="ajo_journey_simulation"
 >title="Simulieren der Journey"
 >abstract="Eine Journey-Simulation ermöglicht es Ihnen, Ihre Journeys zu validieren und zu sehen, wie sie funktionieren, bevor sie aktiviert werden. Dabei werden Daten eines trainierten Modells verwendet, um Zahlen über die gesamte Journey hinweg bereitzustellen, um festzustellen, wie sich die Journey in einem realen Szenario verhalten wird."
+
+Eine Journey-Simulation ermöglicht es Ihnen, Ihre Journeys zu validieren und zu sehen, wie sie funktionieren, bevor sie aktiviert werden. Dabei werden Daten eines trainierten Modells verwendet, um Zahlen über die gesamte Journey hinweg bereitzustellen, um festzustellen, wie sich die Journey in einem realen Szenario verhalten wird.
