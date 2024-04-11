@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2005'
+ht-degree: 98%
 
 ---
 
@@ -146,6 +146,11 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten durch Journe
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
 >abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Journey-Ausstiegskriterien"
+>abstract="In diesem Abschnitt werden die Optionen für Ausstiegskriterien angezeigt. Sie können eine oder mehrere Ausstiegskriterien für Ihre Journey erstellen."
 
 Klicken Sie auf das Stiftsymbol neben dem Journey-Namen, um auf die Eigenschaften der Journey zuzugreifen.
 
