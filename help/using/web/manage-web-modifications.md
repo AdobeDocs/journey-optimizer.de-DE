@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="Einfaches Verwalten aller Änderungen"
->abstract="Mithilfe dieses Bereichs können Sie alle Anpassungen und Stile, die Sie Ihrer Web-Seite hinzugefügt haben, durchsuchen und verwalten."
+>abstract="Mithilfe dieses Bereichs können alle Anpassungen und Stile, die einer Web-Seite hinzugefügt wurden, durchsucht und verwaltet werden."
 
 Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie Ihrer Web-Seite hinzugefügt haben. Sie können Änderungen auch direkt über den dedizierten Bereich hinzufügen.
 

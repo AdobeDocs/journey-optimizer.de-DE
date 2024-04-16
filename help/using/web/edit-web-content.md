@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="Hinzufügen von Komponenten zu einer Web-Seite"
->abstract="Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nach Bedarf bearbeiten."
+>abstract="Einer Web-Seite können eine Reihe von Komponenten hinzugefügt werden. Diese können nach Bedarf bearbeitet werden."
 
 1. Wählen Sie im Bereich **[!UICONTROL Komponenten]** auf der linken Seite ein Element aus. Sie können Ihrer Web-Seite die folgenden Komponenten hinzufügen und diese nach Bedarf bearbeiten:
 
@@ -157,7 +157,7 @@ In diesem Abschnitt werden die verschiedenen Methoden beschrieben, wie Sie durch
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Verwenden des Durchsuchen-Modus"
->abstract="Im Durchsuchen-Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, direkt zur gewünschten Seite navigieren."
+>abstract="Im Durchsuchen-Modus kann von der ausgewählten Oberfläche, die personalisiert werden soll, direkt zur gewünschten Seite navigiert werden."
 
 Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]**-Modus wechseln.
 

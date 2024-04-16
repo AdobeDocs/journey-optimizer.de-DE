@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Eine Web-Oberfläche definieren"
+>title="Definieren einer Web-Oberfläche"
 >abstract="Eine Web-Oberfläche kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass inhaltliche Änderungen auf einer oder mehreren Web-Seiten vorgenommen werden können."
 
 >[!CONTEXTUALHELP]
