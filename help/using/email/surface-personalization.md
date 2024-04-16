@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -27,22 +27,22 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen [!DNL Jour
 >
 >Diese Funktion ist derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Dynamische Subdomains hinzufügen {#dynamic-subdomains}
+## Hinzufügen dynamischer Subdomains {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalisierung nicht verfügbar"
->abstract="Diese Oberfläche wurde ohne Personalisierungsattribute erstellt. In der Dokumentation finden Sie Schritte, um zu beheben, ob eine Personalisierung erforderlich ist."
+>abstract="Diese Oberfläche wurde ohne Personalisierungsattribute erstellt. In der Dokumentation finden Sie Schritte zur Problembehebung, falls eine Personalisierung erforderlich ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Dynamische Subdomains aktivieren"
->abstract="Beim Erstellen einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mit dem Ausdruckseditor definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
+>title="Aktivieren dynamischer Subdomains"
+>abstract="Beim Erstellen einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mit dem Ausdruckseditor definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Einige Subdomains sind möglicherweise nicht verfügbar"
->abstract="Bestimmte Subdomains sind aufgrund der Registrierung einer ausstehenden Feedback-Schleife derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen."
+>abstract="Bestimmte Subdomains können derzeit nicht ausgewählt werden, da die Registrierung einer Feedback-Schleife aussteht. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen."
 
 Bei der Erstellung einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf bestimmten Bedingungen einrichten.
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um dynamische Subdomains in einer E-Mail-Kanal-Oberflä
 
    >[!NOTE]
    >
-   >Bestimmte Subdomains stehen aufgrund von ausstehenden [Feedback Loop](../reports/deliverability.md#feedback-loops) registrieren. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Bestimmte Subdomains stehen aufgrund von ausstehenden [Feedback Loop](../reports/deliverability.md#feedback-loops) registrieren. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
