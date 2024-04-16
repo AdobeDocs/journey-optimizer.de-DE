@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="Überprüfen des Inhalt-Renderings"
->abstract="Sobald Ihr Inhalt definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau davon anzeigen und überprüfen, ob das Rendering je nach verwendetem Kanal korrekt ist."
+>abstract="Sobald der Inhalt definiert wurde, kann mithilfe von Testprofilen eine Vorschau davon angezeigt und überprüft werden, ob das Rendering je nach verwendetem Kanal korrekt ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
