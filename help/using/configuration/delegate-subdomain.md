@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1816'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 97%
 >title="Zuweisung von Subdomains"
 >abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
-Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. [Weitere Informationen zur Delegierung von Subdomains](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
->Standardmäßig ist [!DNL Journey Optimizer] ermöglicht die Zuweisung von bis zu 10 Subdomains. Je nach Lizenzvertrag können Sie jedoch bis zu 100 Subdomains zuweisen. Wenden Sie sich an Ihren Adobe-Ansprechpartner, um mehr über die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+>Standardmäßig können Sie mit [!DNL Journey Optimizer] bis zu 10 Subdomains delegieren. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 

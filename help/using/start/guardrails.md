@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-## Limits bei Subdomains {#subdomain-guardrails}
+## Leitlinien für Subdomains {#subdomain-guardrails}
 
-Standardmäßig ist [!DNL Journey Optimizer] ermöglicht die Zuweisung von insgesamt bis zu 10 Subdomains (sowohl für E-Mail- als auch für Web-Kanäle).
+Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt bis zu 10 Subdomains delegieren (die sowohl E-Mail- als auch Web-Kanäle abdecken).
 
-Je nach Lizenzvertrag können Sie jedoch bis zu 100 Subdomains zuweisen. Wenden Sie sich an Ihren Adobe-Ansprechpartner, um mehr über die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 ## Fragmentleitlinien {#fragments-guardrails}
 

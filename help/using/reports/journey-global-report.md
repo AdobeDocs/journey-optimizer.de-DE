@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Regi
 
 Mit dem Widget **[!UICONTROL Journey-Performance]** können Sie den Weg Ihrer Zielprofile durch Ihre Journey visuell verfolgen.
 
-Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, nachdem das Profil den Knoten abgeschlossen hat, nicht jedoch nach seiner Eingabe. Beispiel: ein Profil auf einem **Warten** wird nur gezählt, wenn das angegebene Datum erreicht und das Profil den Knoten verlassen hat.
+Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, nachdem das Profil den Knoten abgeschlossen hat, nicht wenn es eintritt. Beispiel: Ein Profil auf einem **Warten**-Knoten wird nur gezählt, wenn das angegebene Datum erreicht wird und das Profil den Knoten verlassen hat.
 
 ### Journey-Statistiken {#journey-statistics}
 

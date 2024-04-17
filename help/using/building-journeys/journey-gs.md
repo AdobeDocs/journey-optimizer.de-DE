@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,8 +149,8 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten durch Journe
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Journey-Ausstiegskriterien"
->abstract="In diesem Abschnitt werden die Optionen für Ausstiegskriterien angezeigt. Sie können eine oder mehrere Ausstiegskriterien für Ihre Journey erstellen."
+>title="Kriterien für den Journey-Austritt"
+>abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Sie können ein oder mehrere Austrittskriterien für Ihre Journey erstellen."
 
 Klicken Sie auf das Stiftsymbol neben dem Journey-Namen, um auf die Eigenschaften der Journey zuzugreifen.
 

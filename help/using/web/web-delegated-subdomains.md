@@ -9,9 +9,9 @@ level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 >[!NOTE]
 >
->Standardmäßig ist [!DNL Journey Optimizer] ermöglicht die Zuweisung von insgesamt bis zu 10 Subdomains (sowohl für E-Mail- als auch für Web-Kanäle). Je nach Lizenzvertrag können Sie jedoch bis zu 100 Subdomains zuweisen. Wenden Sie sich an Ihren Adobe-Ansprechpartner, um mehr über die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+>Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt bis zu 10 Subdomains delegieren (die sowohl E-Mail- als auch Web-Kanäle abdecken). Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Channels]** auf und wählen Sie dann **[!UICONTROL Webkonfiguration]** > **[!UICONTROL Web-Subdomains]**.
 

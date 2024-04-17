@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, schalten Sie
 
 >[!NOTE]
 >
->Unbekannte Profile werden im **AJO-Profildatensatz für interaktive Nachrichten** Datensatz, in drei Standard-Namespace (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push). Wenn Sie jedoch einen benutzerdefinierten Namespace verwenden, wird die Identität mit demselben benutzerdefinierten Namespace erstellt.
+>Unbekannte Profile werden im **Profil-Datensatz von AJO Interactive Messaging** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push). Wenn Sie jedoch einen benutzerdefinierten Namespace verwenden, wird die Identität mit demselben benutzerdefinierten Namespace erstellt.
 
 ## Anleitungsvideo {#video}
 

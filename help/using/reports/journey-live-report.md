@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerka
 
 ![](assets/journey_live_performance.png)
 
-Mit **[!UICONTROL Journey-Leistung]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
+Mit **[!UICONTROL Journey-Performance]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
-Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, nachdem das Profil den Knoten abgeschlossen hat, nicht jedoch nach seiner Eingabe. Beispiel: ein Profil auf einem **Warten** wird nur gezählt, wenn das angegebene Datum erreicht und das Profil den Knoten verlassen hat.
+Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, nachdem das Profil den Knoten abgeschlossen hat, nicht wenn es eintritt. Beispiel: Ein Profil auf einem **Warten**-Knoten wird nur gezählt, wenn das angegebene Datum erreicht wird und das Profil den Knoten verlassen hat.
 
 ### Journey-Statistiken {#journey-statistics}
 
