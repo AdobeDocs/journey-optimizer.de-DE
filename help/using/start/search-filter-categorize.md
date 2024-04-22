@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
+source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
@@ -67,7 +67,6 @@ Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. 
 * [Fragmente](../content-management/fragments.md)
 * [Abonnement-Listen](../landing-pages/subscription-list.md)
 * [Landingpages](../landing-pages/create-lp.md)
-* 
 
 Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.
 
