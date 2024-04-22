@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 97%
 
 ---
 
@@ -67,6 +67,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
    1. Geben Sie einen Namen und eine Beschreibung ein.
    1. Geben Sie Start- und Enddatum an. Das Element wird von der Entscheidungs-Engine nur innerhalb dieser Daten berücksichtigt.
    1. Legen Sie die **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest, wenn ein Profil für mehrere Elemente qualifiziert ist. Eine höhere Priorität gewährt dem Element Vorrang vor anderen.
+   1. Die **Tags** -Feld können Sie Ihren Entscheidungselementen Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche verbessern. [Erfahren Sie, wie Sie mit Tags arbeiten.](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
