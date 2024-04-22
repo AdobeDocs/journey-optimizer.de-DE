@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 100%
+source-wordcount: '1600'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ So können Sie einer bestimmten **[!UICONTROL Rolle]** entsprechende Berechtigun
 
 1. Verschieben Sie die Ressource **[!UICONTROL IP-Aufwärmkonfigurationen]** per Drag-and-Drop, um Berechtigungen zuzuweisen.
 
-1. Legen Sie über die Dropdown-Liste der Ressource **[!UICONTROL IP-Aufwärmkonfigurationen]** fest, welche Berechtigung(en) Ihre Benutzerin bzw. Ihr Benutzer benötigt.
+1. Aus dem **[!UICONTROL IP-Warmup-Konfigurationen]** Ressource-Dropdown auswählen, welche Berechtigung(en) Ihr Benutzer benötigt: **[!UICONTROL IP-Warmhaltepläne anzeigen]**, **[!UICONTROL Verwalten von IP-Warmup-Plänen]**, und/oder **[!UICONTROL IP-Warmup-Berichte anzeigen]**. Sie können sie bei Bedarf alle gleichzeitig auswählen.
 
    ![](assets/ip_permissions_2.png)
 
