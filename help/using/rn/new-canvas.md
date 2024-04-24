@@ -8,7 +8,7 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Wir haben eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Ve
 * A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächenerlebnis entwickelt
 * A **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Beachten Sie, dass der Rollout für diese Funktion progressiv sein wird. Möglicherweise sehen Sie die Änderungen nicht sofort.
 
