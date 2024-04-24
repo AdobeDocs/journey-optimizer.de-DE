@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 41%
@@ -141,10 +141,6 @@ Mit dieser Version werden die neuen Funktionen eingeführt, die nachfolgend besc
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **Zielgruppen**
 
 * Sie können jetzt Zielgruppen und Attribute aus der Zielgruppenkomposition mit dem Gesundheitsschild und dem Datenschutz- und Sicherheitsschild verwenden.
@@ -175,9 +171,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Von der Beta- bis zur LA-Version wurden folgende Verbesserungen vorgenommen:
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln mit der **Kontextdaten** Registerkarte.
 * Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten.
 * Sie können jetzt mehrere Begrenzungsregeln für ein Angebot hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
