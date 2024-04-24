@@ -8,9 +8,9 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Wir haben eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Ve
 
 * A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächenerlebnis entwickelt
 * A **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
+
+>[!AVAILABILITY]
+>
+>Beachten Sie, dass der Rollout für diese Funktion progressiv sein wird. Möglicherweise sehen Sie die Änderungen nicht sofort.
 
 ## Aktualisierungen des Journey-Modells
 
@@ -74,20 +78,28 @@ Außerdem kann das Produktteam mehr Informationen auf der Arbeitsfläche mit wen
 
 ## Live-Reporting auf der Journey-Arbeitsfläche
 
-Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, **Berichtsmetriken der letzten 24 Stunden** (als &quot;Live-Reporting&quot;bezeichnet) direkt auf der Journey-Arbeitsfläche.
+Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, **für jede Aktivität**, die Anzahl der Profile, die an dieser Aktivität teilgenommen haben, und die Anzahl der Profile, die aufgrund eines Fehlers beendet wurden:
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-Bei jeder Live-Journey auf dem neuen Modell können Sie zwei Arten von &quot;letzten 24 Stunden&quot;Berichtsdaten sehen:
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* Auf **neue einfügen** angezeigt wird:
-   * Die Anzahl der Profile, die für zielgruppengesteuerte Journey exportiert wurden. Die Anzahl der im letzten Exportauftrag verfügbaren Profile wird zusammen mit dem Zeitpunkt angezeigt, zu dem dieser Export durchgeführt wurde.
-   * Die Anzahl der Profile, die die Journey verlassen haben
-   * Fehlerprozentsatz
-     ![](assets/new-canvas7.png)
-* **Bei jeder Aktivität**angezeigt, sehen Sie die Anzahl der Profile, die in diese Aktivität eingestiegen sind, und die Anzahl der Profile, die aufgrund eines Fehlers beendet wurden:
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 Die Benutzeroberfläche wird jede Minute automatisch aktualisiert.
 
-Beachten Sie, dass sich die Anzahl der exportierten Profile und die Anzahl der Profile, die durch die Journey geleitet werden, unterscheiden können. Die Anzahl der exportierten Profile liefert nur Informationen zum letzten Exportauftrag, während die Anzahl der Profile, die eine Aktivität aufrufen, nur Profile enthält, die diesen Vorgang in den letzten 24 Stunden ausgeführt haben. Dies ist insbesondere bei wiederkehrenden täglichen Journey sichtbar, da es zwischen zwei Tagen zu einer Datenüberlappung kommen kann.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
