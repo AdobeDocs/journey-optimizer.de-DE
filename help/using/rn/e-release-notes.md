@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
+source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 41%
@@ -175,6 +175,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Von der Beta- bis zur LA-Version wurden folgende Verbesserungen vorgenommen:
 
+<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
+    * "Items" is now "Catalogs"
+    * "Configuration" is now "Strategy setup"-->
 * Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln mit der **Kontextdaten** Registerkarte.
 * Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten.
 * Sie können jetzt mehrere Begrenzungsregeln für ein Angebot hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
