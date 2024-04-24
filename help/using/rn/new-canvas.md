@@ -8,9 +8,9 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
+source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -78,13 +78,15 @@ Außerdem kann das Produktteam mehr Informationen auf der Arbeitsfläche mit wen
 
 ## Live-Reporting auf der Journey-Arbeitsfläche
 
-Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, **für jede Aktivität**, die Anzahl der Profile, die an dieser Aktivität teilgenommen haben, und die Anzahl der Profile, die aufgrund eines Fehlers beendet wurden:
+Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, **Berichtsmetriken der letzten 24 Stunden** (als &quot;Live-Reporting&quot;bezeichnet) direkt auf der Journey-Arbeitsfläche.
 
-<!--
-**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
+![](assets/new-canvas6bis.png)
 
-![](assets/new-canvas6.png)
+Mit jeder Live-Journey auf dem neuen Modell können Sie sehen, **für jede Aktivität**, die Anzahl der Profile, die an dieser Aktivität teilgenommen haben, und die Anzahl der Profile, die aufgrund eines Fehlers beendet wurden:
 
+![](assets/new-canvas8.png)
+
+<!--`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
 * On a **new insert**, you will see:
@@ -92,11 +94,9 @@ With every live journey on the new model, you will be able to see two types of "
     * The number of profiles who exited the journey
     * The percentage of errors
     ![](assets/new-canvas7.png)
-
 * **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+    ![](assets/new-canvas8.png)
 -->
-
-![](assets/new-canvas8.png)
 
 Die Benutzeroberfläche wird jede Minute automatisch aktualisiert.
 
