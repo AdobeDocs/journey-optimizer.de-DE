@@ -8,7 +8,7 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 1%
@@ -26,7 +26,8 @@ Herzlich Willkommen beim verbesserten Journey Designer!
 
 Wir haben eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Verfahren. Obwohl dieses neue Modell eine Backend-Verbesserung ist, hat unser Team die Gelegenheit genutzt, Funktionen hinzuzufügen, die für Journey Optimizer-Benutzer sichtbar und von Vorteil sind:
 
-A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächen-Erlebnis A erstellt **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
+* A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächenerlebnis entwickelt
+* A **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
 
 ## Aktualisierungen des Journey-Modells
 
