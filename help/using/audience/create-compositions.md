@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
    ![](assets/audiences-properties.png)
 
-1. Konfigurieren Sie Ihre Komposition, indem Sie so viele Aktivitäten für **[!UICONTROL Zielgruppe]** und **[!UICONTROL Speichern]** hinzufügen, wie Sie benötigen. [Erfahren Sie, wie Sie mit der Arbeitsfläche für Kompositionen arbeiten](composition-canvas.md)
+1. Konfigurieren Sie Ihre Komposition, indem Sie zwischen den **[!UICONTROL Zielgruppe]** und **[!UICONTROL Speichern]** Aktivitäten. [Erfahren Sie, wie Sie mit der Arbeitsfläche für Kompositionen arbeiten](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 

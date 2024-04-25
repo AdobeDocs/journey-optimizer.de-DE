@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Erstellen einer Komposition"
->abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Zielgruppen zu erstellen."
+>abstract="Erstellen Sie einen Arbeitsablauf für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten zu nutzen (Aufspaltung, Ausschluss..), um neue Zielgruppen zu erstellen."
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 >[!ENDSHADEBOX]
 
-Mit der Zielgruppenkomposition können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschließen ...) nutzen können, um neue Zielgruppen zu erstellen.
+Mit der Zielgruppenzusammensetzung können Sie **Zusammensetzungs-Workflows**, wo Sie bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss..) nutzen können, um neue Zielgruppen zu erstellen.
 
 Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Kampagnen und Journeys von Journey Optimizer genutzt werden, um Kundinnen und Kunden anzusprechen. [Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen.](../audience/about-audiences.md#segments-in-journey-optimizer)
 
