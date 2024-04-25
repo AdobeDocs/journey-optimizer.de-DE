@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 43%
+source-wordcount: '502'
+ht-degree: 44%
 
 ---
 
@@ -164,7 +164,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Erlebnisentscheidung**
 
-Von der Beta- bis zur LA-Version wurden folgende Verbesserungen vorgenommen:
+Von Beta bis LA wurden die folgenden Verbesserungen hinzugefügt:
 
 * Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln mit der **Kontextdaten** Registerkarte.
 * Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten.
@@ -174,12 +174,12 @@ Von der Beta- bis zur LA-Version wurden folgende Verbesserungen vorgenommen:
 
 **Journeys**
 
-* **Verbesserter Journey Designer**:
+* **Verbesserter Journey Designer**
 
    * Die verbesserte Arbeitsfläche bietet ein intuitiveres und effizienteres Benutzererlebnis.
    * Aktivitäten sind klarer und enthalten mehr Informationen auf der Journey-Arbeitsfläche mit weniger Klicks.
 
-* **Neue Live-Berichterstellung**: Die Berichterstellung für Journey ist jetzt über die Anwendung Live-Berichte verfügbar. Dies ist eine Anwendung, die viele Einblicke in die Journey-Ausführung bietet.
+* **Neue Live-Berichterstellung**: Die letzten 24 Stunden Journey-Berichte sind jetzt direkt auf der Journey-Arbeitsfläche verfügbar.
 
 **Konfiguration**
 
