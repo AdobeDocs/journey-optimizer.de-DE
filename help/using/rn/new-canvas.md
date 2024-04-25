@@ -8,9 +8,9 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Wie Sie im folgenden Screenshot sehen, sind die Knoten rund, was der alten Benut
 
 ![](assets/new-canvas.png)
 
-Wenn Sie **Erstellen einer neuen Journey** oder **Duplizieren einer vorhandenen**, wird es eine v2-Journey sein.  Wir planen, die Journey von v1 weiterhin zu unterstützen, bis die Mehrheit der Kunden auf v2-Journey umgestellt wird.
+Wenn Sie **eine neue Journey erstellen** oder **Duplizieren einer vorhandenen**, wird es eine v2-Journey sein.  Wir planen, die Journey von v1 weiterhin zu unterstützen, bis die Mehrheit der Kunden auf v2-Journey umgestellt wird.
 
 Es gibt eine Einschränkung für das neue Journey-Modell; es wird **Es ist nicht möglich, Aktivitäten von einer v1-Journey in eine v2 zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies wünschen, empfehlen wir Ihnen, Ihre v1-Journey zu duplizieren, um sie zu einer v2 zu machen, und dann Ihre Aktivitäten zu kopieren.
 
