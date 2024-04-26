@@ -6,10 +6,10 @@ description: Frühzeitige Versionshinweise zu Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 44%
+source-wordcount: '478'
+ht-degree: 43%
 
 ---
 
@@ -166,7 +166,6 @@ Von Beta bis LA wurden die folgenden Verbesserungen hinzugefügt:
 
 * Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln mit der **Kontextdaten** Registerkarte.
 * Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten.
-* Sie können jetzt mehrere Begrenzungsregeln für ein Angebot hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
 * Sie können jetzt mehrere Begrenzungsregeln für ein bestimmtes Entscheidungselement in Experience Decisioning hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
 * Sie können jetzt benutzerdefinierte Berichterstellungs-Dashboards von Experience Decisioning-Kampagnen erstellen, indem Sie [!DNL Customer Journey Analytics].
 
