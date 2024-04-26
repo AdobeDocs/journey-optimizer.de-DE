@@ -8,9 +8,9 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Journey Optimizer bietet jetzt eine **vereinfachtes Journey-Modell** zur Verbess
 Das neue Journey-Modell wird neben dem vorhandenen Modell existieren, was bedeutet, dass Journey mit **zwei verschiedene Modelle**:
 
 * Das alte Modell
-* Und das neue Modell
+* Das neue Modell
 
 Alle Journey im alten Modell bleiben darin. Sie können sie weiterhin bearbeiten, testen oder veröffentlichen. Jede neue Version, die von einer Journey auf dem Legacy-Modell erstellt wurde, bleibt dabei erhalten. Es gibt **keine funktionalen Änderungen** um diese Journey herum.
 
@@ -39,9 +39,9 @@ Wie Sie im folgenden Screenshot sehen, sind die Knoten rund, was die alte Benutz
 
 ![](assets/new-canvas.png)
 
-Wenn Sie **eine neue Journey erstellen** oder **Duplizieren einer vorhandenen**, wird es eine neue Modell-Journey sein. Journey zum alten Modell werden weiterhin unterstützt, bis die Mehrheit der Kunden zum neuen Modell übergeht.
+Wenn Sie **eine neue Journey erstellen** oder **Duplizieren einer vorhandenen**, wird es sich auf dem neuen Modell. Journey zum alten Modell werden weiterhin unterstützt, bis die Mehrheit der Kunden zum neuen Modell übergeht.
 
-Es gibt eine Einschränkung für das neue Journey-Modell; es wird **Es ist nicht möglich, Aktivitäten aus dem alten Modell in das neue zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies tun möchten, empfehlen wir Ihnen, die Journey auf dem alten Modell zu duplizieren, um zum neuen Modell zu wechseln, und dann Ihre Aktivitäten zu kopieren.
+Es gibt eine Einschränkung für das neue Journey-Modell; es wird **Es ist nicht möglich, Aktivitäten aus dem alten Modell in das neue zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies wünschen, empfehlen wir Ihnen, Ihre alte Journey zu duplizieren, um sie in das neue Modell zu wechseln, und dann Ihre Aktivitäten zu kopieren.
 
 Im folgenden Screenshot sehen Sie die neu entworfene Benutzeroberfläche für die Journey-Arbeitsfläche (nur mit dem neuen Modell verfügbar):
 
@@ -51,7 +51,7 @@ Im folgenden Screenshot sehen Sie die neu entworfene Benutzeroberfläche für di
 
 ## Verbessertes Journey-Arbeitsflächendesign
 
-Mit dem neuen Journey-Modell führen wir ein neues und verbessertes Modell ein **Benutzeroberfläche für Journey-Arbeitsfläche**, das nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und so eine intuitive und effiziente Benutzererfahrung ermöglicht. Jede Journey im neuen Modell wird auf diesem neuen Design stehen.
+Mit dem neuen Journey-Modell führen wir ein neues und verbessertes **Benutzeroberfläche für Journey-Arbeitsfläche**, das nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und so eine intuitive und effiziente Benutzererfahrung ermöglicht. Jede Journey im neuen Modell wird auf diesem neuen Design stehen.
 
 ![](assets/new-canvas3.gif)
 
