@@ -8,16 +8,16 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
 
 # Willkommen beim verbesserten Journey-Designer {#new-canvas}
 
-Journey Optimizer bietet jetzt eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Verfahren. Obwohl dieses neue Modell eine Backend-Verbesserung ist, hat unser Team die Gelegenheit genutzt, Funktionen hinzuzufügen, die für Journey Optimizer-Benutzer sichtbar und von Vorteil sind:
+Journey Optimizer bietet jetzt eine **vereinfachtes Journey-Modell** , um das Benutzererlebnis und interne Prozesse zu verbessern. Ab der April-Version können Sie von den folgenden Funktionen profitieren:
 
 * A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächenerlebnis entwickelt
 * A **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
@@ -57,7 +57,7 @@ Mit dem neuen Journey-Modell führen wir ein neues und verbessertes **Benutzerob
 
 Aktivitäten werden jetzt durch eckige Kästchen mit den folgenden Funktionen dargestellt:
 
-* Die erste Zeile, die den Aktivitätstyp darstellt, der häufig durch kontextbezogene Informationen überschrieben wird (z. B. bei &quot;Zielgruppen lesen&quot;, enthält sie den Namen der ausgewählten Zielgruppe), oder eine benutzerdefinierte Bezeichnung, wenn Sie eine definieren.
+* Die erste Zeile, die den Aktivitätstyp darstellt, der häufig durch mehr Kontextinformationen überschrieben wird (in &quot;Zielgruppen lesen&quot;, sie enthält den Namen der ausgewählten Zielgruppe), oder durch eine benutzerdefinierte Bezeichnung, wenn Sie eine definieren.
 * Die zweite Zeile, die immer den Aktivitätstyp darstellt.
 
 ![](assets/new-canvas4.png)
