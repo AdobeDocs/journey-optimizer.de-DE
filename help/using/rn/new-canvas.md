@@ -8,16 +8,16 @@ description: Neue Journey-Benutzeroberfläche
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
 
 # Willkommen beim verbesserten Journey-Designer {#new-canvas}
 
-Wir haben eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Verfahren. Obwohl dieses neue Modell eine Backend-Verbesserung ist, hat unser Team die Gelegenheit genutzt, Funktionen hinzuzufügen, die für Journey Optimizer-Benutzer sichtbar und von Vorteil sind:
+Journey Optimizer bietet jetzt eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Verfahren. Obwohl dieses neue Modell eine Backend-Verbesserung ist, hat unser Team die Gelegenheit genutzt, Funktionen hinzuzufügen, die für Journey Optimizer-Benutzer sichtbar und von Vorteil sind:
 
 * A **neu entworfene Journey-Arbeitsfläche** wurde für ein modernisiertes Benutzeroberflächenerlebnis entwickelt
 * A **Live-Reporting** Direkt auf der Journey-Arbeitsfläche verfügbare Benutzeroberfläche
@@ -30,28 +30,28 @@ Wir haben eine **vereinfachtes Journey-Modell** zur Verbesserung der internen Ve
 
 Das neue Journey-Modell wird neben dem vorhandenen Modell existieren, was bedeutet, dass Journey mit **zwei verschiedene Modelle**:
 
-* Die alte Version heißt &quot;v1&quot;
-* Und das neue, &quot;v2&quot;genannt
+* Das alte Modell
+* Und das neue Modell
 
-Alle Journey in v1 bleiben in v1. Sie können sie weiterhin bearbeiten, testen oder veröffentlichen. Jede neue Version, die von einer v1 erstellt wurde, verbleibt ebenfalls in v1. Es gibt **keine funktionalen Änderungen** um v1 Journey.
+Alle Journey im alten Modell bleiben darin. Sie können sie weiterhin bearbeiten, testen oder veröffentlichen. Jede neue Version, die von einer Journey auf dem Legacy-Modell erstellt wurde, bleibt dabei erhalten. Es gibt **keine funktionalen Änderungen** um diese Journey herum.
 
-Wie Sie im folgenden Screenshot sehen, sind die Knoten rund, was der alten Benutzeroberfläche für Journey des v1-Modells entspricht.
+Wie Sie im folgenden Screenshot sehen, sind die Knoten rund, was die alte Benutzeroberfläche für Journey auf dem alten Modell ist.
 
 ![](assets/new-canvas.png)
 
-Wenn Sie **eine neue Journey erstellen** oder **Duplizieren einer vorhandenen**, wird es eine v2-Journey sein.  Wir planen, die Journey von v1 weiterhin zu unterstützen, bis die Mehrheit der Kunden auf v2-Journey umgestellt wird.
+Wenn Sie **eine neue Journey erstellen** oder **Duplizieren einer vorhandenen**, wird es eine neue Modell-Journey sein. Journey zum alten Modell werden weiterhin unterstützt, bis die Mehrheit der Kunden zum neuen Modell übergeht.
 
-Es gibt eine Einschränkung für das neue Journey-Modell; es wird **Es ist nicht möglich, Aktivitäten von einer v1-Journey in eine v2 zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies wünschen, empfehlen wir Ihnen, Ihre v1-Journey zu duplizieren, um sie zu einer v2 zu machen, und dann Ihre Aktivitäten zu kopieren.
+Es gibt eine Einschränkung für das neue Journey-Modell; es wird **Es ist nicht möglich, Aktivitäten aus dem alten Modell in das neue zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies tun möchten, empfehlen wir Ihnen, die Journey auf dem alten Modell zu duplizieren, um zum neuen Modell zu wechseln, und dann Ihre Aktivitäten zu kopieren.
 
-Im folgenden Screenshot sehen Sie die neu entworfene Benutzeroberfläche für die Journey-Arbeitsfläche (nur verfügbar mit dem v2-Modell):
+Im folgenden Screenshot sehen Sie die neu entworfene Benutzeroberfläche für die Journey-Arbeitsfläche (nur mit dem neuen Modell verfügbar):
 
 ![](assets/new-canvas2.png)
 
-**Neue Funktionen, die zum Journey-Designer hinzugefügt wurden (einschließlich Live-Reporting), sind ab diesem Zeitpunkt nur für Journey mit v2 verfügbar.**
+**Neue Funktionen, die dem Journey-Designer hinzugefügt wurden (einschließlich Live-Reporting), stehen ab diesem Zeitpunkt nur noch Journey auf dem neuen Modell zur Verfügung.**
 
 ## Verbessertes Journey-Arbeitsflächendesign
 
-Mit dem neuen Journey-Modell führen wir ein neues und verbessertes Modell ein **Benutzeroberfläche für Journey-Arbeitsfläche**, das nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und so eine intuitive und effiziente Benutzererfahrung ermöglicht. Jegliche Journey im v2-Stapel wird in diesem neuen Design verwendet.
+Mit dem neuen Journey-Modell führen wir ein neues und verbessertes Modell ein **Benutzeroberfläche für Journey-Arbeitsfläche**, das nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und so eine intuitive und effiziente Benutzererfahrung ermöglicht. Jede Journey im neuen Modell wird auf diesem neuen Design stehen.
 
 ![](assets/new-canvas3.gif)
 
