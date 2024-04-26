@@ -6,7 +6,7 @@ description: Frühzeitige Versionshinweise zu Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d5fa80ee2823131bb69bae0f366b92bf1fae3020
+source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 56%
@@ -103,7 +103,7 @@ Mit dieser Version werden die neuen Funktionen eingeführt, die nachfolgend besc
 <img src="assets/new-canvas3.gif"/>
 <p>Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, die Berichtsmetriken der letzten 24 Stunden direkt auf der Journey-Arbeitsfläche zu sehen. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><br>Hinweis</br>:Diese Änderung wird schrittweise eingeführt. Möglicherweise werden die Änderungen nicht sofort in Ihrer Umgebung angezeigt.</p>
+<p><strong>Hinweis</strong>:Diese Änderung wird schrittweise eingeführt. Möglicherweise werden die Änderungen nicht sofort in Ihrer Umgebung angezeigt.</p>
 <p>Weitere Informationen finden Sie in der <a href="new-canvas.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
