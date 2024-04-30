@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Einige Subdomains sind möglicherweise nicht verfügbar"
 >abstract="Bestimmte Subdomains sind aufgrund einer ausstehenden Feedback-Schleifen-Registrierung derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Erste Schritte mit der Zuweisung von Subdomains"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Erste Schritte mit der Delegierung von Subdomains"
 
 Bei der Erstellung einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf bestimmten Bedingungen einrichten.
 

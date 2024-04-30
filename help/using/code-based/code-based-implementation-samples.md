@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf d
 
 Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Client-SDKs verwenden: AEP Web SDK oder AEP Mobile SDK.
 
-* Die Schritte [below](#client-side-how) Beschreiben Sie den Prozess des Abrufs der am Edge veröffentlichten Inhalte durch die code-basierten Erlebniskampagnen in einem Beispiel. **Web SDK** Implementierung und Anzeige des personalisierten Inhalts.
+* Die [folgenden Schritte](#client-side-how) beschreiben den Prozess zum Abrufen von Inhalten, die von Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem **Web SDK** veröffentlicht wurden, und zum Anzeigen der personalisierten Inhalte.
 
-* Die Schritte zur Implementierung des code-basierten Kanals mit **Mobile SDK** werden unter [dieses Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* Die Schritte zur Implementierung eines Code-basierten Kanals mit **Mobile SDK** sind in [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} beschrieben.
 
   >[!NOTE]
   >
-  >Beispielimplementierungen für Anwendungsfälle für Mobilgeräte sind verfügbar für [iOS-App](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Beispielimplementierungen für mobile Anwendungsfälle sind für die [iOS-App](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} verfügbar.
 
-### Funktionsweise - Web SDK {#client-side-how}
+### Funktionsweise – Web SDK {#client-side-how}
 
 1. Das [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ist auf der Seite enthalten.
 
@@ -123,7 +123,7 @@ Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen be
 | kndctr_AdobeOrg_identity | Enthält Details zur Benutzeridentität | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | Gibt an, welcher Erlebnis-Edge-Cluster zur Erfüllung der Anfragen verwendet werden soll | Web SDK | Web SDK |
 
-**Anfordern einer Platzierung**
+**Anfrage-Platzierung**
 
 Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer Client-seitigen Implementierung sendet das Web SDK diese Anfragen, wenn der Befehl `sendEvent` verwendet wird.
 
@@ -138,7 +138,7 @@ Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge 
 
 ## Server-seitige Implementierung {#server-side-implementation}
 
-Wenn Sie über eine serverseitige Implementierung verfügen, können Sie eine der AEP Edge Network-API verwenden.
+Bei einer Server-seitigen Implementierung, kann eine der AEP Edge Network-APIs verwendet werden.
 
 Die folgenden Schritte beschreiben den Prozess, um die Inhalte abzurufen, die von den Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem Edge Network-API für eine Web-Seite veröffentlicht wurden und die personalisierten Inhalte anzeigen.
 
@@ -287,7 +287,7 @@ Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen be
 | kndctr_AdobeOrg_identity | Enthält Details zur Benutzeridentität | Anwendungs-Server | Anwendungs-Server |
 | kndctr_AdobeOrg_cluster | Gibt an, welcher Erlebnis-Edge-Cluster zur Erfüllung der Anfragen verwendet werden soll | Anwendungs-Server | Anwendungs-Server |
 
-**Anfordern einer Platzierung**
+**Anfrage-Platzierung**
 
 Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer Client-seitigen Implementierung sendet das Web SDK diese Anfragen, wenn der Befehl `sendEvent` verwendet wird.
 
