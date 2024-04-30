@@ -501,12 +501,12 @@ ht-degree: 99%
                + [Aktualisieren von Entscheidungen](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                + [Löschen von Entscheidungen](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + Unterbreiten von Angeboten mithilfe von APIs {#offer-delivery-api}
-         + [Erste Schritte mit APIs für die Angebotsbereitstellung](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [Erste Schritte mit APIs für den Angebotsversand](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning {#experience-decisioning}
-   + [Erste Schritte mit Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + [Erste Schritte mit Erlebnis-Entscheidung](using/experience-decisioning/gs-experience-decisioning.md)
    + Verwalten von Entscheidungselementen {#decision-items}
       + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
       + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
@@ -529,7 +529,7 @@ ht-degree: 99%
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanaloberflächen](using/configuration/channel-surfaces.md)
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
-      + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
+      + [Erste Schritte mit der Delegierung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
       + [Festlegen des DMARC-Eintrags](using/configuration/dmarc-record.md)
       + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)

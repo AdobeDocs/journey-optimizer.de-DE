@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: a93dd80a15087a4ce7737757d5552ea1fc4f2a2a
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -21,11 +21,11 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 ## Frühzeitige Versionshinweise April 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: Mittwoch, 30. April 2024
+**Veröffentlichungsdatum**: 30. April 2024
 
 ### Neue Funktionen {#e-features}
 
-Mit dieser Version werden die neuen Funktionen eingeführt, die nachfolgend beschrieben werden.
+Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 <!--table>
 <thead>
@@ -99,7 +99,7 @@ Mit dieser Version werden die neuen Funktionen eingeführt, die nachfolgend besc
 <tbody>
 <tr>
 <td>
-<p>Diese Version enthält eine verbesserte Arbeitsfläche für Journey und bietet ein intuitiveres und effizienteres Benutzererlebnis. Aktivitäten sind klarer und enthalten mehr Informationen auf der Journey-Arbeitsfläche mit weniger Klicks.</p>
+<p>Diese Version enthält eine verbesserte Arbeitsfläche für Journey und bietet ein intuitiveres und effizienteres Benutzererlebnis. Die Aktivitäten sind übersichtlicher und enthalten auf der Journey-Arbeitsfläche mehr Informationen mit weniger Klicks.</p>
 <img src="assets/new-canvas3.gif"/>
 <p>Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, die Berichtsmetriken der letzten 24 Stunden direkt auf der Journey-Arbeitsfläche zu sehen. </p>
 <img src="assets/new-canvas6bis.png"/>
