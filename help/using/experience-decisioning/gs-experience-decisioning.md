@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 83%
 
 ---
 
@@ -43,6 +43,28 @@ Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, d
 ## Wichtige Schritte bei Experience Decisioning {#steps}
 
 Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
+
+1. **Zuweisen ordnungsgemäßer Berechtigungen**. Entscheidungen stehen nur Benutzern mit Zugriff auf Experience Decisioning-bezogene **[!UICONTROL Rolle]** z. B. Entscheidungsträger. Wenn Sie nicht auf Entscheidungen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+
+   +++ Erfahren Sie, wie Sie die Rolle &quot;Entscheidungsmanager&quot;zuweisen
+
+   1. So weisen Sie Benutzern eine Rolle im [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** Registerkarte und wählen Sie Entscheidungsmanager aus.
+
+      ![](assets/decision_permission_1.png)
+
+   1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+      Wenn der Benutzer zuvor nicht erstellt wurde, lesen Sie den Abschnitt [Benutzerhandbuch hinzufügen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
+
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Entscheidungselemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
