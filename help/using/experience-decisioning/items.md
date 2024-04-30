@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
-workflow-type: ht
-source-wordcount: '1039'
-ht-degree: 100%
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+workflow-type: tm+mt
+source-wordcount: '1786'
+ht-degree: 72%
 
 ---
 
-# Entscheidungselemente {#items}
+# Erstellen Ihres ersten Entscheidungselements {#items}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -38,7 +38,9 @@ Mit Journey Optimizer können Sie Marketing-Angebote, die als Entscheidungseleme
 
 Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine **Entscheidungsregel** erstellt haben, wenn Sie Bedingungen festlegen möchten, um zu bestimmen, wem das Entscheidungselement angezeigt werden kann. [Erfahren Sie, wie Sie Entscheidungsregeln erstellen können](rules.md).
 
-## Erstellen Ihres ersten Entscheidungselements
+Navigieren Sie zum Erstellen eines Entscheidelements zu **[!UICONTROL Erlebnisentscheidungen]** > **[!UICONTROL Elemente]** Klicken Sie auf **[!UICONTROL Element erstellen]** folgen Sie dann den in den folgenden Abschnitten beschriebenen Schritten.
+
+## Definieren der Attribute des Entscheidungselements {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -51,6 +53,25 @@ Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine 
 >abstract="Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente erstellt. Dieser Abschnitt wird nur angezeigt, wenn Sie dem Katalogschema mindestens ein benutzerdefiniertes Attribut hinzugefügt haben."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=de" text="Konfigurieren des Elementkatalogs"
 
+Definieren Sie zunächst die standardmäßigen und benutzerdefinierten Attribute des Entscheidselements:
+
+![](assets/item-attributes.png)
+
+1. Geben Sie einen Namen und eine Beschreibung ein.
+1. Geben Sie Start- und Enddatum an. Das Element wird von der Entscheidungs-Engine nur innerhalb dieser Daten berücksichtigt.
+1. Legen Sie die **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest, wenn ein Profil für mehrere Elemente qualifiziert ist. Eine höhere Priorität gewährt dem Element Vorrang vor anderen.
+1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+
+   >[!NOTE]
+   >
+   >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
+
+1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
+
+1. Sobald die Attribute des Entscheidungspunkts definiert sind, klicken Sie auf **[!UICONTROL Nächste]**.
+
+## Berechtigung des Entscheidungselements konfigurieren {#eligibility}
+
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Hinzufügen von Zielgruppen oder Entscheidungsregeln"
@@ -58,58 +79,88 @@ Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine 
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
 
-Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
+Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken, wobei die beiden Lösungen unterschiedlichen Verwendungszwecken entsprechen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-1. Navigieren Sie zu **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elemente]**.
++++Verwenden von Zielgruppen im Vergleich zu Entscheidungsregeln
 
-1. Definieren Sie die Standardattribute des Entscheidungselements:
+Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich bei einer Entscheidungsregel um eine Funktion handelt, die während des Entscheidungsprozesses bei Bedarf für ein einzelnes Profil ausgeführt wird.
 
-   1. Geben Sie einen Namen und eine Beschreibung ein.
-   1. Geben Sie Start- und Enddatum an. Das Element wird von der Entscheidungs-Engine nur innerhalb dieser Daten berücksichtigt.
-   1. Legen Sie die **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest, wenn ein Profil für mehrere Elemente qualifiziert ist. Eine höhere Priorität gewährt dem Element Vorrang vor anderen.
-   1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+* **Zielgruppen**: Zielgruppen sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Jedoch wird beim Prozess der Angebotsentscheidung die Zielgruppe nicht neu berechnet, weshalb sie zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
 
-   ![](assets/item-attributes.png)
-
-   >[!NOTE]
-   >
-   >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
-
-1. Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
-
-1. Sobald die Attribute des Entscheidungspunkts definiert sind, klicken Sie auf **[!UICONTROL Weiter]**, um Profileinschränkungen für das Element festzulegen.
-
-   Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken, wobei die beiden Lösungen unterschiedlichen Verwendungszwecken entsprechen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
-
-   +++Verwenden von Zielgruppen im Vergleich zu Entscheidungsregeln
-
-   Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich bei einer Entscheidungsregel um eine Funktion handelt, die während des Entscheidungsprozesses bei Bedarf für ein einzelnes Profil ausgeführt wird.
-
-   * **Zielgruppen**: Zielgruppen sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Jedoch wird beim Prozess der Angebotsentscheidung die Zielgruppe nicht neu berechnet, weshalb sie zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
-
-   * **Entscheidungsregeln**: Dagegen basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nachdem die Entscheidungsregel in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung ausgewählt wurde, wird sie bei jedem Entscheidungsvorgang erneut ausgeführt. Dadurch wird jedem Profil immer ein aktuelles, optimales Angebot angezeigt.
+* **Entscheidungsregeln**: Dagegen basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nachdem die Entscheidungsregel in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung ausgewählt wurde, wird sie bei jedem Entscheidungsvorgang erneut ausgeführt. Dadurch wird jedem Profil immer ein aktuelles, optimales Angebot angezeigt.
 
 +++
 
-   ![](assets/item-constraints.png)
+* Um die Präsentation des Entscheidungselements auf die Mitglieder einer oder mehrerer Adobe Experience Platform-Zielgruppen zu beschränken, wählen Sie die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]** aus, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md).
 
-   * Um die Präsentation des Entscheidungselements auf die Mitglieder einer oder mehrerer Adobe Experience Platform-Zielgruppen zu beschränken, wählen Sie die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]** aus, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md).
+* Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Erfahren Sie mehr über Entscheidungsregeln](rules.md),
 
-   * Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Erfahren Sie mehr über Entscheidungsregeln](rules.md),
+![](assets/item-constraints.png)
 
-   Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+
+>[!NOTE]
+>
+>Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
+
+## Begrenzungsregeln festlegen {#capping}
+
+Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen. Durch die Begrenzung der Anzahl der Besucherangebote auf bestimmte Angebote können Sie vermeiden, dass Ihre Kunden überfordert werden, und so jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Zuordnungen für ein bestimmtes Entscheidungselement erstellen.
+
+![](assets/item-capping.png)
+
+>[!NOTE]
+>
+>
+>Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen ein Webbanner an, das ein Angebot auf Ihrer Website präsentiert. Wenn ein bestimmter Benutzer in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diesen Benutzer nicht inkrementiert.
+
+Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die **[!UICONTROL Begrenzung erstellen]** und führen Sie die folgenden Schritte aus:
+
+1. Definieren Sie, **[!UICONTROL Begrenzungsereignis]** berücksichtigt werden, um den Zähler zu erhöhen.
+
+   * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
+   * **[!UICONTROL Impression]** (Nur eingehende Kanäle): Maximale Anzahl der Wiedergaben des Angebots für einen Benutzer.
+   * **[!UICONTROL Klicks]**: Maximale Anzahl der Klicks auf das Entscheidungselement durch einen Benutzer.
+   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerdefiniertes Ereignis definieren, mit dem die Anzahl der gesendeten Elemente begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
 
    >[!NOTE]
    >
-   >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
+   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zur Entscheidungsverwaltung in Journey Optimizer:
+   >* [Entscheidungsmanagement-Datenerfassung](../offers/data-collection/data-collection.md)
+   >* [Datenerfassung konfigurieren](../offers/data-collection/schema-requirement.md)
 
-1. Sobald die Einschränkungen des Entscheidungselements definiert sind, klicken Sie auf **[!UICONTROL Weiter]**, um das Element zu überprüfen und zu speichern.
+1. Wählen Sie den Begrenzungstyp aus:
+
+   * Auswählen **[!UICONTROL Insgesamt]** , um festzulegen, wie oft das Element für die kombinierte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzer. Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
+
+* Auswählen **[!UICONTROL Pro Profil]** , um festzulegen, wie oft das Angebot demselben Benutzer vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+
+1. Im **[!UICONTROL Begrenzung der Anzahl]** festlegen, wie oft das Angebot je nach ausgewähltem Begrenzungstyp allen Benutzern oder Profilen angezeigt werden kann. Der Wert muss eine Ganzzahl größer 0 sein.
+
+   Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** 10 eingeben, werden nach 10 Checkouts keine Angebote mehr gesendet.
+
+1. Im **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** die Häufigkeit festlegen, mit der der Begrenzungszähler zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
+
+   >[!NOTE]
+   >
+   >Der Frequenzbegrenzungszähler wird um **12 Uhr UTC** an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats zurückgesetzt. Der erste Tag der Woche ist der **Sonntag**. Die von Ihnen gewählte Dauer darf **2 Jahre** (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen) nicht überschreiten.
+   >
+   >Nach der Veröffentlichung Ihres Entscheidungselements können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht ändern. Sie können die Frequenzlimitierung weiterhin bearbeiten, wenn das Element die **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war.
+
+1. Klicks **[!UICONTROL Erstellen]** , um die Erstellung der Begrenzungsregel zu bestätigen. Sie können bis zu 10 Regeln für ein einzelnes Entscheidungselement erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und wiederholen Sie die oben beschriebenen Schritte.
+
+   ![](assets/item-capping-rules.png)
+
+1. Sobald die Eignungs- und Begrenzungsregeln des Entscheidungselements definiert sind, klicken Sie auf **[!UICONTROL Nächste]** , um das Element zu überprüfen und zu speichern.
 
 1. Das Entscheidungselement wird jetzt in der Liste angezeigt und hat den Status **[!UICONTROL Entwurf]**. Wenn es bereit ist, in Profilen präsentiert zu werden, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen Sie **[!UICONTROL Genehmigen]** aus.
 
    ![](assets/item-approve.png)
 
-## Verwalten von Entscheidungselementen
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You’ll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. “Ce” custom event-->
+
+## Verwalten von Entscheidungselementen {#manage}
 
 In der Liste der Entscheidungselemente können Sie ein Entscheidungselement bearbeiten und seinen Status ändern (**Entwurf**, **Genehmigt**, **Archiviert**), es duplizieren oder löschen.
 
