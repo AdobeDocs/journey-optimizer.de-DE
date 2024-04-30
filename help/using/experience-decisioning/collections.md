@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -47,11 +47,11 @@ Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen k
 
 Angenommen, Sie haben dem Katalogschema Ihrer Entscheidungselemente das benutzerdefinierte Attribut „Kategorie“ hinzugefügt. Auf diese Weise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im Attribut „Kategorie“ enthält.
 
-Die Liste der Sammlungen ist über das Menü **[!UICONTROL Elemente]** zugänglich.
+Die Liste der Sammlungen kann über die **[!UICONTROL Kataloge]** Menü.
 
 Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Elemente]** > **[!UICONTROL Sammlungen]** und klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
+1. Navigieren Sie zu **[!UICONTROL Kataloge]** > **[!UICONTROL Sammlungen]** und klicken **[!UICONTROL Sammlung erstellen]**.
 1. Geben Sie einen Namen und eine Beschreibung für die Sammlung ein.
 1. Fügen Sie eine oder mehrere Regeln hinzu, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Gehen Sie dazu folgendermaßen vor:
 

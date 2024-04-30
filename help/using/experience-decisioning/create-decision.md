@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 89%
+source-wordcount: '1444'
+ht-degree: 88%
 
 ---
 
@@ -89,7 +89,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
    >
    >Es ist mindestens eine Strategie erforderlich. Es können nicht mehr als 10 Strategien hinzugefügt werden.
 
-1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** leitet um zum Menü **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Konfigurationen]**. [Weitere Informationen](selection-strategies.md)
+1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die **[!UICONTROL Auswahlstrategie erstellen]** Die Schaltfläche leitet Sie zum **[!UICONTROL Erlebnisentscheidung]** > **[!UICONTROL Strategiekonfiguration]** Menü. [Weitere Informationen](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
