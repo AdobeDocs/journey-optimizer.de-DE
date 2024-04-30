@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 89%
 
 ---
 
@@ -209,3 +209,15 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Ausdruckseditor](../cod
 1. Sie können auch jedes beliebige Attribut hinzufügen, das im Ausdruckseditor verfügbar ist, z. B. Profilattribute.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+## Reporting in Customer Journey Analytics {#cja}
+
+Wenn Sie mit Customer Journey Analytics arbeiten, können Sie benutzerdefinierte Berichterstellungs-Dashboards für Ihre code-basierten Kampagnen erstellen, indem Sie Erlebnisentscheidungen nutzen.
+
+Die wichtigsten Schritte sind unten aufgeführt. Detaillierte Informationen zur Verwendung von Customer Journey Analytics finden Sie im Abschnitt [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+
+1. Erstellen und konfigurieren Sie eine **connection** in Customer Journey Analytics. Auf diese Weise können Sie eine Verbindung zu dem Datensatz herstellen, für den Berichte erstellt werden sollen. [Erfahren Sie, wie Sie eine Verbindung erstellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+
+1. Erstellen Sie eine **Datenansicht** und verknüpfen sie mit der zuvor erstellten Verbindung. Im **[!UICONTROL Komponenten]** die entsprechenden Schemafelder auswählen, die in Berichten angezeigt werden sollen. Stellen Sie bei Experience Decisioning sicher, dass Sie die **propositioninteract** und **propositiondisplay** -Felder. [Erfahren Sie, wie Sie Datenansichten erstellen und konfigurieren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+
+1. Kombinieren von Datenkomponenten, Tabellen und Visualisierungen in **Workspace-Projekte** , um Berichte für Ihre code-basierte Kampagne zu erstellen und freizugeben.[Erfahren Sie, wie Sie Workspace-Projekte erstellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
