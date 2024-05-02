@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -202,7 +202,7 @@ Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die s
 
 **Beispiel**
 
-Das folgende Beispiel ruft alle Beträge von Produktsummen mit einer Transaktion in USD ab, wobei sich die Beträge auf mehr als 100 $ und weniger als 1.000 $ belaufen.
+Im folgenden Beispiel wird die Gesamtsumme der Preise für Produkte im Warenkorb mit Preisen zwischen 100 und 1000 berechnet.
 
 ```sql
 {% let sum = 0%}
