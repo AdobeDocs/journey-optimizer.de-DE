@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
 Die Syntax des Helpers ist ```{{#each ArrayName}}``` YourContent {{/each}}
-Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Array-Elements kann mithilfe von {{@index}} abgerufen werden.
+Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Elements des Arrays kann mithilfe von {{@index}}.
 
 **Syntax**
 
@@ -205,5 +205,11 @@ Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die s
 Das folgende Beispiel ruft alle Beträge von Produktsummen mit einer Transaktion in USD ab, wobei sich die Beträge auf mehr als 100 $ und weniger als 1.000 $ belaufen.
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
