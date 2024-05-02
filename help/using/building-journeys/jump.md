@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, w
 
 ## Fehlerbehebung
 
-Wenn die Journey veröffentlicht wird oder sich im Testmodus befindet, treten Fehler auf, wenn:
+Fehler treten auf, wenn:
 * die Ziel-Journey nicht mehr existiert,
 * der Zustand der Ziel-Journey „Entwurf“, „geschlossen“ oder „gestoppt“ ist,
 * wenn sich das erste Ereignis der Ziel-Journey geändert hat und die Zuordnung unterbrochen ist.

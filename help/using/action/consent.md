@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '1330'
+ht-degree: 72%
 
 ---
 
@@ -28,66 +28,64 @@ Ein Typ verfügbarer Datennutzungsrichtlinien sind **Einverständnisrichtlinien*
 
 Beispielsweise können Sie [Einverständnisrichtlinien in Experience Platform erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}, um Kundinnen und Kunden auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Kommunikationen nicht zugestimmt haben.
 
-<!--* For the native outbound channels (Email, Push, SMS, Direct mail), the logic is as follows:
+* Für die nativen ausgehenden Kanäle (E-Mail, Push, SMS, Briefpost) lautet die Logik wie folgt:
 
-    * By default, if a profile has opted out from receiving communications from you, the corresponding profile is excluded from subsequent deliveries.
+   * Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen.
 
-    * If you have the Adobe **Healthcare Shield** or **Privacy and Security Shield**, you can create a custom consent policy that overrides the default logic. For example, you can define a policy to only send email messages to all individuals who have opted in. In the absence of a custom policy, the default policy applies.
-    
-    To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
+   * Wenn Sie über Adobe verfügen **Gesundheitsschild** oder **Datenschutz und Sicherheitsschild** können Sie eine benutzerdefinierte Einwilligungsrichtlinie erstellen, die die Standardlogik außer Kraft setzt. Sie können beispielsweise eine Richtlinie definieren, die nur E-Mail-Nachrichten an alle Personen sendet, die sich für den Erhalt entschieden haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
+
+  Um eine benutzerdefinierte Richtlinie anzuwenden, müssen Sie eine Marketing-Aktion in dieser Richtlinie definieren und sie mit einer Kanaloberfläche verknüpfen. [Weitere Informationen](#surface-marketing-actions)
 
 Auf der Journey-Ebene können Sie Einverständnisrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden:
 
 * Beim **Konfigurieren einer benutzerdefinierten Aktion** können Sie einen Kanal und eine Marketing-Aktion definieren. [Weitere Informationen](#consent-custom-action)
 * Beim Hinzufügen der **benutzerdefinierten Aktion in einer Journey** können Sie eine zusätzliche Marketing-Aktion definieren. [Weitere Informationen](#consent-journey)
 
-<!--
+## Verwenden von Zustimmungsrichtlinien über Kanaloberflächen {#surface-marketing-actions}
 
-## Leverage consent policies through channel surfaces {#marketing-actions}
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} von Experience Platform verarbeitet.
 
-In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+Um den Wert des Einwilligungsfelds zu ändern, können Sie eine benutzerdefinierte Einwilligungsrichtlinie erstellen, in der Sie eine Marketing-Aktion und die Bedingungen definieren, unter denen diese Aktion ausgeführt wird. [Weitere Informationen zu Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"}
 
-To modify the consent field value, you can create a custom consent policy in which you define a marketing action and the conditions under which that action is performed. [Learn more on marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
+Wenn Sie z. B. eine Zustimmungsrichtlinie erstellen möchten, um nur Profile anzusprechen, die dem Empfang von E-Mail-Nachrichten zugestimmt haben, führen Sie die folgenden Schritte aus.
 
-For example, if you want to create a consent policy to target only profiles who have consented to receive email communications, follow the steps below.
+1. Stellen Sie sicher, dass Ihr Unternehmen die Adobe erworben hat. **Gesundheitsschild** oder **Datenschutz und Sicherheitsschild** Add-On-Angebote. [Weitere Informationen](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=de){target="_blank"}
 
-1. Make sure your organization has purchased the Adobe **Healthcare Shield** or **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+1. Erstellen Sie in Adobe Experience Platform eine benutzerdefinierte Richtlinie (aus dem **[!UICONTROL Datenschutz]** > **[!UICONTROL Richtlinien]** Menü). [Erfahren Sie mehr](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
 
-1. In Adobe Experience Platform, create a custom policy (from the **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** menu). [Learn how](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+   <!--![](assets/consent-policy-create.png)-->
 
-    ![](assets/consent-policy-create.png)
+1. Wählen Sie die **[!UICONTROL Einverständnisrichtlinie]** Geben Sie eine Bedingung ein und konfigurieren Sie sie wie folgt. [Erfahren Sie, wie Sie Einwilligungsrichtlinien konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}
 
-1. Choose the **[!UICONTROL Consent policy]** type and configure a condition as follows. [Learn how to configure consent policies](https://experienceleague-review.corp.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+   1. Unter dem **[!UICONTROL Wenn]** auswählen, wählen Sie die **[!UICONTROL E-Mail-Targeting]** Standard-Marketing-Aktion.
 
-    1. Under the **[!UICONTROL If]** section, select the **[!UICONTROL Email Targeting]** default marketing action.
+      <!--![](assets/consent-policy-marketing-action.png)-->
 
-        ![](assets/consent-policy-marketing-action.png)
+      >[!NOTE]
+      >
+      >Die nativen Marketingaktionen von Adobe finden Sie in [diese Tabelle](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
 
-        >[!NOTE]
-        >
-        >The core marketing actions provided out-of-the-box by Adobe are listed in [this table](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+   1. Wählen Sie aus, was passiert, wenn die Marketing-Aktion angewendet wird. Wählen Sie in diesem Beispiel **[!UICONTROL E-Mail-Marketing-Zustimmung]**.
 
-    1. Select what happens when the marketing action applies. In this example, select **[!UICONTROL Email Marketing Consent]**.
+   ![](assets/consent-policy-then.png)
 
-    ![](assets/consent-policy-then.png)
+1. Speichern und [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} diese Richtlinie.
 
-1. Save and [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} this policy.
+1. Erstellen Sie in Journey Optimizer eine E-Mail-Oberfläche. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. In Journey Optimizer, create an email surface. [Learn how](../configuration/channel-surfaces.md#create-channel-surface)
+1. Wählen Sie in den Details der E-Mail-Oberfläche die **[!UICONTROL E-Mail-Targeting]** Marketing-Aktion.
 
-1. In the email surface details, select the **[!UICONTROL Email Targeting]** marketing action.
+   ![](assets/surface-marketing-action.png)
 
-    ![](assets/surface-marketing-action.png)
+Alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien werden automatisch genutzt, um die Voreinstellungen Ihrer Kunden zu respektieren.
 
-All consent policies associated with that marketing action are automatically leveraged in order to respect the preferences of your customers.
-
-Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
+Daher wird in diesem Beispiel [email](../email/create-email.md) die Verwendung dieser Oberfläche in einer Kampagne oder einer Journey wird nur an die Profile gesendet, die dem Erhalt von E-Mails von Ihnen zugestimmt haben. Profile, die dem Erhalt von E-Mail-Nachrichten nicht zugestimmt haben, sind ausgeschlossen.
 
 ## Verwenden von Einverständnisrichtlinien durch benutzerdefinierte Aktionen {#journey-custom-actions}
 
 ### Wichtige Hinweise {#important-notes}
 
-In Journey Optimizer kann das Einverständnis <!--also -->in benutzerdefinierten Aktionen genutzt werden.  Wenn Sie es mit den integrierten Nachrichtenfunktionen verwenden möchten, müssen Sie eine Bedingungsaktivität verwenden, um Kunden in Ihrer Journey zu filtern.
+In Journey Optimizer kann die Zustimmung auch in benutzerdefinierten Aktionen genutzt werden. Wenn Sie es mit den integrierten Nachrichtenfunktionen verwenden möchten, müssen Sie eine Bedingungsaktivität verwenden, um Kunden in Ihrer Journey zu filtern.
 
 Mit der Einverständnisverwaltung werden zwei Journey-Aktivitäten analysiert:
 

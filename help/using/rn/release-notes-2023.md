@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende Antworten für eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende Antworten für eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md)
 
-* Das Opt-out von SMS wird nicht mehr auf Kanalebene verwaltet. Es ist jetzt nummernspezifisch, d. h. wenn Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer**, die Sie für eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md#message-preset-sms)
+* Das Opt-out von SMS wird nicht mehr auf Kanalebene verwaltet. Es ist jetzt nummernspezifisch, d. h. wenn Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer**, die Sie für eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md)
 
 **Briefpost-Kanal**
 

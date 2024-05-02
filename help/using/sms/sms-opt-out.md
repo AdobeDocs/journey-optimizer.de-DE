@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 90%
+source-wordcount: '467'
+ht-degree: 89%
 
 ---
 
@@ -59,14 +59,6 @@ Allerdings unterstützt Journey Optimizer globale Opt-outs, die auf eingehenden 
 Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und können keine eingehenden Nachrichten empfangen. Daher sind die SMS-Keywords „STOP“, „START“, „HELP“ von Adobe Journey Optimizer für alphanumerische Sender IDs nicht anwendbar. Sie müssen andere Anweisungen geben, wie z. B. an das Support-Team zu schreiben, eine Support-Telefonnummer anzurufen oder eine andere Telefonnummer oder einen Code per SMS zu senden, damit die Benutzenden sich von den über die alphanumerische Sender ID gesendeten Nachrichten abmelden können.
 
 ## Video {#video-sms}
-
-* Das folgende Video zeigt, wie die Unterstützung von nativen eingehenden Keywords (START, STOP und UNSTOP) für SMS funktioniert.
-
-+++ Siehe Video
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * Im folgenden Video erfahren Sie, wie Sie das Double-Opt-in für SMS konfigurieren.
 

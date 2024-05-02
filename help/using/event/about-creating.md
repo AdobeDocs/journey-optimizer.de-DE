@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 100%
+source-wordcount: '1605'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
    >[!NOTE]
    >
-   >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
+   >Nur alphanumerische Zeichen und Unterstriche sind zulässig. Die maximale Länge beträgt 30 Zeichen.
 
 1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitär**.
 

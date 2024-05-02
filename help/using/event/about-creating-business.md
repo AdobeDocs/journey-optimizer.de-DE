@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    >[!NOTE]
    >
-   >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
+   >Nur alphanumerische Zeichen und Unterstriche sind zulässig. Die maximale Länge beträgt 30 Zeichen.
 
 1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Geschäftlich**.
 

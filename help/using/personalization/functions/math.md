@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 86%
 
 ---
 
@@ -95,6 +95,24 @@ Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, also 9e.
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## In {#to-int}
+
+Die `toInt` -Funktion wird verwendet, um einen dieser Typen (Zahl, Doppel, int, lang, Gleitkommazahl, kurz, Byte, boolescher Wert, Zeichenfolge) in eine Ganzzahl zu konvertieren.
+
+**Syntax**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**Beispiel**
+
+Diese Abfrage gibt den ganzzahligen Wert von 42,6, d. h. 42 zurück.
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## Zu Prozentwert {#to-percentage}

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -93,5 +93,7 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
-   ![](assets/finish_drop_down_list.png)
+
+   ![](assets/finish_drop_down_list2.png)
+
 1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.

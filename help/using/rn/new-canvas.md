@@ -5,17 +5,15 @@ title: Neue Journey-Benutzeroberfläche
 feature: Release Notes
 topic: Content Management
 description: Neue Journey-Benutzeroberfläche
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Willkommen beim verbesserten Journey-Designer {#new-canvas}
+# Willkommen beim verbesserten Journey Designer {#new-canvas}
 
 Journey Optimizer bietet jetzt eine **vereinfachtes Journey-Modell** , um das Benutzererlebnis und interne Prozesse zu verbessern. Ab der April-Version können Sie von den folgenden Funktionen profitieren:
 
@@ -68,12 +66,12 @@ Außerdem kann das Produktteam mehr Informationen auf der Arbeitsfläche mit wen
 
 ![](assets/new-canvas5.png)
 
-
 ## Live-Reporting auf der Journey-Arbeitsfläche
 
 Zusätzlich zum verbesserten Journey-Arbeitsflächenlayout wurde eine neue Funktion eingeführt, mit der Benutzer Echtzeitberichtsmetriken aus **die letzten 24 Stunden**, auch als Live-Reporting bezeichnet, direkt auf der Journey-Arbeitsfläche.
 
 Für jede Aktivität in jeder Live-Journey mit dem neuen Modell haben Sie Zugriff auf:
+
 
 * Die Anzahl der Profile, die an dieser Aktivität teilnehmen.
 * Die Anzahl der Profile, die diese Aktivität aufgrund eines Fehlers verlassen haben.

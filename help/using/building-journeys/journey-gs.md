@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 100%
+source-wordcount: '2004'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ Folgende Filtervorgänge können Sie durchführen:
 
 Filtern von Journeys nach Status, Typ, Version und zugewiesenen Tags aus den Filtern für **[!UICONTROL Status und Version]**.
 
-Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
+Der Typ kann: **[!UICONTROL Einzelereignis]**, **[!UICONTROL Zielgruppenqualifikation]**, **[!UICONTROL Audience lesen]** oder **[!UICONTROL Geschäftsereignis]**.
 
 Der Status kann wie folgt lauten:
 

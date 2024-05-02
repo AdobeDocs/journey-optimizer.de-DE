@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -96,8 +96,6 @@ Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journe
    >Sie können nur aus der aktuellen Version einer Journey eine neue Journey erstellen.
 
 1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
-
-   ![](assets/journeyversions3.png)
 
 Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben in ihr, bis sie die Journey beenden. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die aktuelle Version.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
-workflow-type: ht
-source-wordcount: '2373'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '2415'
+ht-degree: 94%
 
 ---
 
@@ -38,62 +38,60 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 >
 >Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
-## E-Mail-Typ {#email-type}
+## Email type {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definieren der E-Mail-Kategorie"
+>title="E-Mail-Typ definieren"
 >abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
-Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
+Im **Email Type** wählen Sie den Nachrichtentyp für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**.
 
-* Wählen Sie **Marketing** für Werbe-E-Mails aus, z. B. für wöchentliche Werbeaktionen eines Einzelhandelsgeschäfts. Diese Nachrichten erfordern die Zustimmung der Benutzerin bzw. des Benutzers.
+* Auswählen **Marketing** für Werbe-E-Mails, z. B. wöchentliche Promotions für einen Einzelhandelsgeschäft. Diese Nachrichten erfordern die Zustimmung der Benutzerin bzw. des Benutzers.
 
-* Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails aus, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Passworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **storniert** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+* Auswählen **Transactional** für nicht kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **storniert** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
 Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
-## Subdomain- und IP-Pools {#subdomains-and-ip-pools}
+## Subdomain {#subdomains}
 
-Füllen Sie im Abschnitt **Subdomain- und IP-Pools** die erforderlichen Felder wie unten beschrieben aus.
+Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 
-1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
-
-   Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## IP-Pooldetails {#ip-pools}
 
-   Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
-   >[!NOTE]
-   >
-   >Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](../configuration/delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
+Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
-1. Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste „IP-Pool“ angezeigt werden. [Weitere Informationen zu PTR-Einträgen](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
-   >[!NOTE]
-   >
-   >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
+>[!NOTE]
+>
+>Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](../configuration/delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
 
-## List-Unsubscribe {#list-unsubscribe}
+Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste „IP-Pool“ angezeigt werden. [Weitere Informationen zu PTR-Einträgen](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
+
+## List unsubscribe {#list-unsubscribe}
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
-![](assets/preset-list-unsubscribe.png)
-
-Standardmäßig ist diese Option aktiviert.
-
-Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
+Diese Option ist standardmäßig aktiviert. Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile kein Abmelde-Link angezeigt.
+Wenn Sie diese Option deaktivieren, wird kein Abmelde-Link im E-Mail-Header angezeigt.
+
+Sie können die Einverständnisebene aus der **Einverständnisebene** Dropdown-Liste. Sie kann spezifisch für den Kanal oder die Profilidentität sein. Wenn sich ein Benutzer anhand dieser Einstellung über den Link zum Abmelden vom Listenkopf einer E-Mail abmeldet, wird die Zustimmung in Adobe Journey Optimizer entweder auf der Kanalebene oder auf der ID-Ebene aktualisiert.
 
 Der Abmelde-Link besteht aus zwei Elementen:
 
@@ -101,7 +99,7 @@ Der Abmelde-Link besteht aus zwei Elementen:
 
   Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
 
@@ -124,13 +122,9 @@ Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Na
 Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name der Marke.
-
 * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
-
 * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
-
 * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. [Weitere Informationen](#reply-to-email)
-
 * **[!UICONTROL Fehler-E-Mail-Adresse]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und Challenge-Responses werden ebenfalls an diese Adresse gesendet.
 
   Wenn Sie die Abwesenheitsbenachrichtigungen und Challenge-Responses auf Anfragen an eine bestimmte E-Mail-Adresse erhalten möchten, die nicht an Adobe delegiert ist, müssen Sie einen [Weiterleitungsprozess](#forward-email) einrichten. Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.

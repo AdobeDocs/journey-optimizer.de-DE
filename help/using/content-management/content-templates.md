@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 100%
 
 ---
@@ -197,10 +197,6 @@ Sie können diese Vorlage nun beim Erstellen von Inhalten in [!DNL Journey Optim
 ## Testen von E-Mail-Inhaltsvorlagen {#test-template}
 
 Sie können das Rendering einiger Ihrer E-Mail-Vorlagen testen, unabhängig davon, ob diese von Grund auf neu oder aus vorhandenen Inhalten erstellt wurde. Gehen Sie dazu wie folgt vor.
-
->[!CAUTION]
->
->Derzeit können Inhaltsvorlagen nur für **[!UICONTROL E-Mail]**-Vorlagen vom Typ **[!UICONTROL HTML]** getestet werden.
 
 1. Rufen Sie die Inhaltsvorlagenliste über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** auf und wählen Sie eine beliebige E-Mail-Vorlage aus.
 

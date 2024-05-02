@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 74%
 
 ---
 
@@ -45,17 +45,20 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll. Die maximale Wartezeit beträgt 29 Tage.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, falls innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt fortgesetzt, sobald die maximale Wartezeit erreicht wird.
+1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, falls innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für die Person fortgesetzt, sobald die Zeitüberschreitung erreicht ist. Wir empfehlen, dass Sie immer die **Zeitüberschreitungspfad festlegen** -Option.
 
    ![](assets/event-timeout.png)
 
-In diesem Beispiel sendet die Journey einen ersten Willkommens-Push an einen Kunden. Es wird nur dann ein Essensrabatt-Push gesendet, wenn der Kunde das Restaurant innerhalb des nächsten Tages betritt. Deshalb wurde das Restaurantereignis mit einer maximalen Wartezeit von 1 Tag konfiguriert:
+In diesem Beispiel sendet die Journey eine erste Begrüßungs-E-Mail an einen Kunden, nachdem er die Lobby betritt. Es wird dann nur dann eine E-Mail mit einem Rabatt für Mahlzeiten gesendet, wenn der Kunde innerhalb des nächsten Tages das Restaurant betritt. Deshalb wurde das Restaurantereignis mit einer maximalen Wartezeit von 1 Tag konfiguriert:
 
-* Wenn das Restaurantereignis in weniger als 1 Tag nach der Begrüßungs-Push-Benachrichtigung eingeht, wird die Push-Aktivität für den Rabatt gesendet.
+* Wenn das Restaurantereignis weniger als 1 Tag nach der Begrüßungs-E-Mail empfangen wird, wird die E-Mail mit dem Rabatt für die Mahlzeit gesendet.
 * Wenn innerhalb des nächsten Tages kein Restaurantereignis eingeht, wird die Person durch den Zeitüberschreitungspfad geleitet.
 
 Wenn Sie eine maximale Wartezeit für mehrere Ereignisse konfigurieren möchten, die sich hinter einer **[!UICONTROL Warteaktivität]** befinden, müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
 
-Die maximale Wartezeit gilt für alle Ereignisse, die hinter der **[!UICONTROL Warteaktivität]** positioniert wurden. Wenn vor der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, gelangen die Personen in einen einzigen Pfad für die maximale Wartezeit oder fahren mit der Journey über die Verzweigung fort, die die Aktivität verlässt, in der diese Einstellungen für die maximale Wartezeit definiert wurden.
+Die definierte Zeitüberschreitung gilt für alle Ereignisse, die nach der **[!UICONTROL Warten]** Aktivität:
+
+* Wenn ein Ereignis innerhalb der Zeitüberschreitungsdauer erneut ausgeführt wird, fließt der Kontakt in den Pfad des empfangenen Ereignisses.
+* Wenn innerhalb der Timeout-Dauer kein Ereignis empfangen wird, fließt der Kontakt in den Timeout-Zweig des Ereignisses, in dem die Zeitüberschreitung definiert wurde.
 
 ![](assets/event-timeout-group.png)

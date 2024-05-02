@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [Frühzeitige Versionshinweise](using/rn/early-release-notes.md)
    + [Neueste Versionshinweise](using/rn/release-notes.md)
    + Frühere Versionshinweise {#previous-rn-new}
+      + [Versionshinweise für 2024](using/rn/release-notes-2024.md)
       + [Versionshinweise für 2023](using/rn/release-notes-2023.md)
       + [Versionshinweise für 2022](using/rn/release-notes-2022.md)
       + [Versionshinweise für 2021](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
          + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
+         + [Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Kampagnen{#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
 + SMS/MMS-Kanal{#sms}
    + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
-   + [Erstellen einer Textnachricht](using/sms/create-sms.md)
-   + [Erstellen einer MMS-Nachricht](using/sms/create-mms.md)
+   + [Erstellen einer Textnachricht (SMS/MMS)](using/sms/create-sms.md)
    + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
    + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
-   + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
    + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
+   + SMS-/MMS-Kanal konfigurieren{#configure-sms}
+      + [Erste Schritte mit der SMS-Konfiguration](using/sms/sms-configuration.md)
+      + [Konfigurieren eines einzelnen Anbieters](using/sms/sms-configuration-sinch.md)
+      + [Konfigurieren des Informationsanbieters](using/sms/sms-configuration-infobip.md)
+      + [Twilio-Provider konfigurieren](using/sms/sms-configuration-twilio.md)
+      + [Erstellen einer SMS-Oberfläche](using/sms/sms-configuration-surface.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
