@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 23%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, heben Sie Ihre Inhalte mit dem Journey Optimizer AI-Assistenten auf, der die Funktion &quot;Inhaltserstellung&quot;enthält. Mit diesem Tool können Sie mehrere Versandbehandlungen mit unterschiedlichem Inhalt definieren, um die Leistung Ihrer Zielgruppe zu messen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, heben Sie Ihren Inhalt mit dem AI-Assistenten in Adobe Journey Optimizer auf, der die Funktion &quot;Inhaltserstellung&quot;enthält. Mit diesem Tool können Sie mehrere Versandbehandlungen mit unterschiedlichem Inhalt definieren, um die Leistung Ihrer Zielgruppe zu messen.
 
 1. Erstellen Sie Ihre Kampagne und generieren Sie Ihre Varianten mit dem KI-Assistenten.
 

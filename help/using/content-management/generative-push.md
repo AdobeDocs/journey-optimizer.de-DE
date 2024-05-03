@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 63%
+source-wordcount: '976'
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](gs-generative.md#generative-guardrails).
 
-Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, stellen Sie mit dem Journey Optimizer AI-Assistenten den Inhalt Ihrer Push-Benachrichtigung auf die nächste Stufe.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, stellen Sie mit dem KI-Assistenten in Adobe Journey Optimizer den Inhalt Ihrer Push-Benachrichtigung auf die nächste Stufe.
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Journey Optimizer verwenden.
 

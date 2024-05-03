@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 95%
+source-wordcount: '1319'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten von Journey Optimizer in Campaign mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
+Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Adobe Journey Optimizer mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
 
 Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 

@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 98ce21578d30ac50665561438715d19d1723f4a7
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 89%
+source-wordcount: '497'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Erstellen des E-Mail-Inhalts"
->abstract="Der KI-Assistent von Adobe Journey Optimizer bietet proaktiv Inhaltsvariantenvorschläge für Text und Bilder. Er ist für die Kanäle E-Mail, Push, SMS und Web verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung."
+>abstract="Der AI-Assistent in Adobe Journey Optimizer bietet proaktive Varianten von Inhalten für Text und Bilder. Er ist für die Kanäle E-Mail, Push, SMS und Web verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung."
 
 >[!BEGINSHADEBOX]
 
@@ -39,9 +39,9 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->Der KI-Assistent von Adobe Journey Optimizer ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Der KI-Assistent in Adobe Journey Optimizer ist derzeit als Beta-Version verfügbar, über die nur ausgewählte Benutzer ausgewählt werden können.
 
-Der KI-Assistent von Adobe Journey Optimizer bietet proaktiv Inhaltsvariantenvorschläge für Text und Bilder. Sie ist für die Kanäle E-Mail, Push und SMS verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
+Der AI-Assistent in Adobe Journey Optimizer bietet proaktive Varianten von Inhalten für Text und Bilder. Sie ist für die Kanäle E-Mail, Push und SMS verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
 
 Sie können den KI-Assistenten in Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../campaigns/content-experiment.md).
 
