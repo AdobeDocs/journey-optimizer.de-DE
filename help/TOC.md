@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1794'
 ht-degree: 97%
 
 ---
@@ -271,10 +271,12 @@ ht-degree: 97%
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
-   + Arbeiten mit dem Inhaltsassistenten{#content-assistant}
-      + [Erste Schritte mit dem Inhaltsassistenten](using/content-management/gs-generative.md)
-      + [Inhaltsgenerierung](using/content-management/generative-content.md)
-      + [Bildgenerierung](using/content-management/generative-image.md)
+   + Zusammenarbeit mit der KI-Assistenzkraft{#ai-assistant}
+      + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
+      + [Generierung von E-Mails](using/content-management/generative-email.md)
+      + [Generierung von Push-Benachrichtungen](using/content-management/generative-push.md)
+      + [Generierung von SMS](using/content-management/generative-sms.md)
+      + [Inhaltsexperiment mit dem KI-Assistenten](using/content-management/generative-experimentation.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
