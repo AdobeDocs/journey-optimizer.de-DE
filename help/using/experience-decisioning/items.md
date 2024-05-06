@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -70,7 +70,7 @@ Definieren Sie zunächst die standardmäßigen und benutzerdefinierten Attribute
 
 1. Sobald die Attribute des Entscheidungspunkts definiert sind, klicken Sie auf **[!UICONTROL Nächste]**.
 
-## Berechtigung des Entscheidungselements konfigurieren {#eligibility}
+## Konfigurieren der Berechtigung des Entscheidungselements {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"

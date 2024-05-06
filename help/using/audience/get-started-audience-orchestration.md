@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Erstellen einer Komposition"
->abstract="Erstellen Sie einen Arbeitsablauf für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten zu nutzen (Aufspaltung, Ausschluss..), um neue Zielgruppen zu erstellen."
+>abstract="Erstellen Sie einen Kompositions-Workflow, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) zum Erstellen neuer Zielgruppen zu nutzen."
 
 >[!BEGINSHADEBOX]
 
