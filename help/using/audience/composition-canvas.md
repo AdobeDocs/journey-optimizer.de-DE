@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 >[!ENDSHADEBOX]
 
-Die Zielgruppenzusammensetzung bietet eine visuelle Arbeitsfläche, auf der Sie Zielgruppen erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
+Die Zielgruppenkomposition bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 
 Gehen Sie wie folgt vor, um eine Zielgruppe auf der Arbeitsfläche zu erstellen:
 
@@ -58,13 +58,13 @@ Nach Auswahl der Zielgruppen wird die geschätzte Anzahl der Profile am unteren 
 
 ## Hinzufügen von Aktivitäten {#action-activities}
 
-Fügen Sie Aktivitäten hinzu, nachdem Sie Ihre Zielgruppe ausgewählt haben, um Ihre Auswahl zu verfeinern.
+Fügen Sie Aktivitäten hinzu, nachdem Sie Ihre Start-Zielgruppe ausgewählt haben, um Ihre Auswahl zu verfeinern.
 
 Klicken Sie dazu auf die Schaltfläche „+“ im Kompositionspfad und wählen Sie dann die gewünschte Aktivität aus. Es öffnet sich der rechte Bereich, in dem Sie die neu hinzugefügte Aktivität konfigurieren können.
 
 ![](assets/audiences-select-activity.png)
 
-Verfügbare Aktivitäten sind:
+Die verfügbaren Aktivitäten sind:
 
 * [Zielgruppe](#audience): Schließt zusätzliche Profile ein, die zu einer oder mehreren bestehenden Zielgruppen gehören,
 * [Ausschließen](#exclude): Schließt Profile aus, die zu einer bestehenden Zielgruppe gehören, oder schließt Profile auf der Grundlage bestimmter Attribute aus,
@@ -72,9 +72,9 @@ Verfügbare Aktivitäten sind:
 * [Rang](#rank): Sortiert Profile nach einem bestimmten Attribut, gibt die Anzahl der Profile an, die beibehalten werden sollen, und fügt sie in Ihre Komposition ein,
 * [Aufspaltung](#split): Teilt Ihre Komposition in mehrere Pfade, die auf zufälligen Prozentsätzen oder auf Attributen basieren.
 
-Sie können so viele **[!UICONTROL Zielgruppen]** und **[!UICONTROL Ausschließen]**-Aktivitäten hinzufügen, wie Sie in Ihrer Komposition benötigen. Es kann jedoch keine zusätzliche Aktivität hinzugefügt werden, nachdem **[!UICONTROL Rang]** und **[!UICONTROL Aufspaltung]** Aktivitäten.
+Sie können so viele **[!UICONTROL Zielgruppen]** und **[!UICONTROL Ausschließen]**-Aktivitäten hinzufügen, wie Sie in Ihrer Komposition benötigen. Nach den Aktivitäten **[!UICONTROL Rang]** und **[!UICONTROL Aufspaltung]** kann jedoch keine weitere Aktivität hinzugefügt werden.
 
-Sie können eine Aktivität jederzeit aus der Arbeitsfläche entfernen, indem Sie im rechten Bereich auf die Schaltfläche „Löschen“ klicken.  Wenn die Aktivität, die Sie löschen möchten, über andere Aktivitäten in der Komposition verfügt, wird eine Meldung angezeigt, mit der Sie angeben können, ob Sie nur die ausgewählte Aktivität oder alle untergeordneten Aktivitäten löschen möchten.
+Sie können eine Aktivität jederzeit aus der Arbeitsfläche entfernen, indem Sie im rechten Bereich auf die Schaltfläche „Löschen“ klicken.  Wenn die zu löschende Aktivität eine übergeordnete Aktivität in der Komposition ist, wird eine Nachricht angezeigt, in der Sie angeben können, ob Sie nur die ausgewählte Aktivität oder alle ihre untergeordneten Aktivitäten löschen möchten.
 
 ### Zielgruppen-Aktivität {#audience}
 
