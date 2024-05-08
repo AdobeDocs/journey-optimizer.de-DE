@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -212,12 +212,12 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Ausdruckseditor](../cod
 
 ## Reporting in Customer Journey Analytics {#cja}
 
-Wenn Sie mit Customer Journey Analytics arbeiten, können Sie benutzerdefinierte Berichterstellungs-Dashboards für Ihre code-basierten Kampagnen erstellen, indem Sie Erlebnisentscheidungen nutzen.
+Wenn Sie mit Customer Journey Analytics arbeiten, können Sie benutzerdefinierte Reporting-Dashboards für Ihre Code-basierten Kampagnen erstellen, die Erlebnis-Entscheidung nutzen.
 
-Die wichtigsten Schritte sind unten aufgeführt. Detaillierte Informationen zur Verwendung von Customer Journey Analytics finden Sie im Abschnitt [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+Die wichtigsten Schritte sind unten aufgeführt. Ausführliche Informationen über die Arbeit mit Customer Journey Analytics finden Sie in der [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing){target="_blank"}.
 
-1. Erstellen und konfigurieren Sie eine **connection** in Customer Journey Analytics. Auf diese Weise können Sie eine Verbindung zu dem Datensatz herstellen, für den Berichte erstellt werden sollen. [Erfahren Sie, wie Sie eine Verbindung erstellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Erstellen und konfigurieren Sie eine **Verbindung** in Customer Journey Analytics. So können Sie eine Verbindung zu dem Datensatz herstellen, für den Sie Berichte erstellen möchten. [Erfahren Sie, wie Sie eine Verbindung herstellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. Erstellen Sie eine **Datenansicht** und verknüpfen sie mit der zuvor erstellten Verbindung. Im **[!UICONTROL Komponenten]** die entsprechenden Schemafelder auswählen, die in Berichten angezeigt werden sollen. Stellen Sie bei Experience Decisioning sicher, dass Sie die **propositioninteract** und **propositiondisplay** -Felder. [Erfahren Sie, wie Sie Datenansichten erstellen und konfigurieren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. Erstellen Sie eine **Datenansicht** und verknüpfen Sie sie mit der zuvor erstellten Verbindung. Wählen Sie auf der Registerkarte **[!UICONTROL Komponenten]** die entsprechenden Schemafelder aus, die im Reporting angezeigt werden sollen. Stellen Sie sicher, dass Sie für die Erlebnis-Entscheidung die Felder **propositioninteract** und **propositiondisplay** einschließen. [Erfahren Sie, wie Sie Datenansichten erstellen und konfigurieren können](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Kombinieren von Datenkomponenten, Tabellen und Visualisierungen in **Workspace-Projekte** , um Berichte für Ihre code-basierte Kampagne zu erstellen und freizugeben.[Erfahren Sie, wie Sie Workspace-Projekte erstellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Kombinieren Sie Datenkomponenten, Tabellen und Visualisierungen in **Workspace-Projekten**, um Berichte für Ihre Code-basierte Kampagne zu erstellen und gemeinsam zu nutzen.[Erfahren Sie, wie Sie Workspace-Projekte erstellen können](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

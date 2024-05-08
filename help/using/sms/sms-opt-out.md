@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Fu
 
 ## Blockierungslisten {#sms-blocklists}
 
-Zusätzlich zum Anhalten des Versands durch Adobe Journey Optimizer basierend auf dem Opt-out-Status (für direkte Integrationen mit Twilio, Infobip oder Sinch) verfügen die meisten SMS-Gateway-Anbieter über eine Blockierungsliste, die sicherstellt, dass keine SMS-Nachricht an eine Person gesendet wird, die sich für eine Abmeldung entschieden hat. Wenn Sie einen anderen Anbieter als Sinch oder Twilio verwenden und eine SMS-Nachricht über einen [benutzerdefinierten Kanal](../building-journeys/using-custom-actions.md) senden, müssen Sie dies von Ihrem Anbieter bestätigen lassen.
+Zusätzlich zum Stoppen des Versands durch Adobe Journey Optimizer auf der Grundlage des Opt-out-Status (bei direkten Integrationen mit Twilio, Infobip oder Sinch) führen die meisten SMS-Gateway-Anbieter auch eine Blockierungsliste, um sicherzustellen, dass eine SMS-Nachricht nicht an einen Kontakt gesendet wird, die sich für ein Opt-out entschieden hat. Wenn Sie einen anderen Anbieter als Sinch oder Twilio verwenden und eine SMS-Nachricht über einen [benutzerdefinierten Kanal](../building-journeys/using-custom-actions.md) senden, müssen Sie dies von Ihrem Anbieter bestätigen lassen.
 
 
 ## Kurzwahlnummern {#short-codes}

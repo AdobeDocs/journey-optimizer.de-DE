@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Navigieren Sie zum Erstellen eines Entscheidelements zu **[!UICONTROL Erlebnisen
 >abstract="Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente erstellt. Dieser Abschnitt wird nur angezeigt, wenn Sie dem Katalogschema mindestens ein benutzerdefiniertes Attribut hinzugefügt haben."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=de" text="Konfigurieren des Elementkatalogs"
 
-Definieren Sie zunächst die standardmäßigen und benutzerdefinierten Attribute des Entscheidselements:
+Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attribute des Entscheidungselements:
 
 ![](assets/item-attributes.png)
 
@@ -68,9 +68,9 @@ Definieren Sie zunächst die standardmäßigen und benutzerdefinierten Attribute
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
-1. Sobald die Attribute des Entscheidungspunkts definiert sind, klicken Sie auf **[!UICONTROL Nächste]**.
+1. Sobald die Attribute des Entscheidungselements definiert sind, klicken Sie auf **[!UICONTROL Weiter]**.
 
-## Konfigurieren der Berechtigung des Entscheidungselements {#eligibility}
+## Konfigurieren der Eignung des Entscheidungselements {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
@@ -103,55 +103,55 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informatio
 >
 >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
 
-## Begrenzungsregeln festlegen {#capping}
+## Festlegen von Begrenzungsregeln {#capping}
 
-Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen. Durch die Begrenzung der Anzahl der Besucherangebote auf bestimmte Angebote können Sie vermeiden, dass Ihre Kunden überfordert werden, und so jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Zuordnungen für ein bestimmtes Entscheidungselement erstellen.
+Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
 
 ![](assets/item-capping.png)
 
 >[!NOTE]
 >
 >
->Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen ein Webbanner an, das ein Angebot auf Ihrer Website präsentiert. Wenn ein bestimmter Benutzer in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diesen Benutzer nicht inkrementiert.
+>Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen auf Ihrer Website ein Webbanner an, in dem ein Angebot vorgestellt wird. Wenn eine bestimmte Person in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diese Person nicht erhöht.
 
-Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die **[!UICONTROL Begrenzung erstellen]** und führen Sie die folgenden Schritte aus:
+Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie die folgenden Schritte aus:
 
-1. Definieren Sie, **[!UICONTROL Begrenzungsereignis]** berücksichtigt werden, um den Zähler zu erhöhen.
+1. Legen Sie fest, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird.
 
    * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
-   * **[!UICONTROL Impression]** (Nur eingehende Kanäle): Maximale Anzahl der Wiedergaben des Angebots für einen Benutzer.
-   * **[!UICONTROL Klicks]**: Maximale Anzahl der Klicks auf das Entscheidungselement durch einen Benutzer.
-   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerdefiniertes Ereignis definieren, mit dem die Anzahl der gesendeten Elemente begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
+   * **[!UICONTROL Impression]** (nur eingehende Kanäle): Die maximale Häufigkeit, mit der das Angebot einer Person angezeigt werden kann.
+   * **[!UICONTROL Klicks]**: Die maximale Anzahl der Klicks auf das Entscheidungselement durch eine Person.
+   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, das verwendet wird, um die Anzahl der Sendevorgänge des Elements zu begrenzen. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
 
    >[!NOTE]
    >
-   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zur Entscheidungsverwaltung in Journey Optimizer:
-   >* [Entscheidungsmanagement-Datenerfassung](../offers/data-collection/data-collection.md)
-   >* [Datenerfassung konfigurieren](../offers/data-collection/schema-requirement.md)
+   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zum Entscheidungs-Management in Journey Optimizer:
+   >* [Datenerfassung für das Entscheidungs-Management](../offers/data-collection/data-collection.md)
+   >* [Konfigurieren der Datenerfassung](../offers/data-collection/schema-requirement.md)
 
-1. Wählen Sie den Begrenzungstyp aus:
+1. So wählen Sie den Begrenzungstyp:
 
-   * Auswählen **[!UICONTROL Insgesamt]** , um festzulegen, wie oft das Element für die kombinierte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzer. Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
+   * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Element für die gesamte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzenden. Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
-* Auswählen **[!UICONTROL Pro Profil]** , um festzulegen, wie oft das Angebot demselben Benutzer vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+* Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
-1. Im **[!UICONTROL Begrenzung der Anzahl]** festlegen, wie oft das Angebot je nach ausgewähltem Begrenzungstyp allen Benutzern oder Profilen angezeigt werden kann. Der Wert muss eine Ganzzahl größer 0 sein.
+1. Geben Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** an, wie oft das Angebot allen Benutzenden oder pro Profil präsentiert werden kann, je nach gewählter Begrenzungsart. Der Wert muss eine Ganzzahl größer 0 sein.
 
    Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** 10 eingeben, werden nach 10 Checkouts keine Angebote mehr gesendet.
 
-1. Im **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** die Häufigkeit festlegen, mit der der Begrenzungszähler zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
+1. Legen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** die Frequenz fest, mit der der Begrenzungszähler zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
 
    >[!NOTE]
    >
    >Der Frequenzbegrenzungszähler wird um **12 Uhr UTC** an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats zurückgesetzt. Der erste Tag der Woche ist der **Sonntag**. Die von Ihnen gewählte Dauer darf **2 Jahre** (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen) nicht überschreiten.
    >
-   >Nach der Veröffentlichung Ihres Entscheidungselements können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht ändern. Sie können die Frequenzlimitierung weiterhin bearbeiten, wenn das Element die **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war.
+   >Nach Veröffentlichung Ihres Entscheidungselements können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern. Sie können die Frequenzlbegrenzung auch dann bearbeiten, wenn das Element den Status **[!UICONTROL Entwurf]** aufweist und noch nie mit aktivierter Frequenzlimitierung veröffentlicht wurde.
 
-1. Klicks **[!UICONTROL Erstellen]** , um die Erstellung der Begrenzungsregel zu bestätigen. Sie können bis zu 10 Regeln für ein einzelnes Entscheidungselement erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und wiederholen Sie die oben beschriebenen Schritte.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Erstellung der Begrenzungsregel zu bestätigen. Sie können bis zu 10 Regeln für ein einziges Entscheidungselement erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und wiederholen Sie die oben beschriebenen Schritte.
 
    ![](assets/item-capping-rules.png)
 
-1. Sobald die Eignungs- und Begrenzungsregeln des Entscheidungselements definiert sind, klicken Sie auf **[!UICONTROL Nächste]** , um das Element zu überprüfen und zu speichern.
+1. Sobald die Eignungs- und Begrenzungsregeln für das Entscheidungselement definiert sind, klicken Sie auf **[!UICONTROL Weiter]**, um das Element zu überprüfen und zu speichern.
 
 1. Das Entscheidungselement wird jetzt in der Liste angezeigt und hat den Status **[!UICONTROL Entwurf]**. Wenn es bereit ist, in Profilen präsentiert zu werden, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen Sie **[!UICONTROL Genehmigen]** aus.
 

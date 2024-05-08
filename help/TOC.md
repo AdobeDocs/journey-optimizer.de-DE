@@ -432,7 +432,7 @@ ht-degree: 97%
          + Entscheidungsregeln {#decision-rules}
             + [Auflisten von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [Nachschlagen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Erstellen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Erstellen einer Entscheidungsregel](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Sammlungsqualifizierer {#tags}
@@ -476,7 +476,7 @@ ht-degree: 97%
             + Entscheidungsregeln {#decision-rules}
                + [Auflisten von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                + [Nachschlagen von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
-               + [Erstellen von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [Erstellen einer Entscheidungsregel](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
             + Sammlungsqualifizierer {#tags}
@@ -558,7 +558,7 @@ ht-degree: 97%
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
-   + [Arbeiten mit Geschäftsregeln](using/configuration/business-rules.md)
+   + [Arbeiten mit Verfahrensregeln](using/configuration/business-rules.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Integrieren mit externen Systemen {#external-systems}
