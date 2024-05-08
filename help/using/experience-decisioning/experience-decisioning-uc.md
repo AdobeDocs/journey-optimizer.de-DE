@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="Eingeschränkte Verfügbarkeit"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 97%
+source-wordcount: '330'
+ht-degree: 94%
 
 ---
 
 # Anwendungsfall für Experience Decisioning {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
-
-* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
-* [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
-
->[!ENDSHADEBOX]
 
 In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
@@ -52,11 +40,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten.
 
-1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis (Beta)]** aus. [Weitere Informationen](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >Die Funktion „Code-basiertes Erlebnis“ ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+1. Erstellen Sie eine Kampagne und wählen Sie die **[!UICONTROL Codebasiertes Erlebnis]** Aktion. [Weitere Informationen](../code-based/create-code-based.md)
 
 1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../campaigns/content-experiment.md)
 

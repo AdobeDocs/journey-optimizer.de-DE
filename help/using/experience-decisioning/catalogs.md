@@ -1,32 +1,20 @@
 ---
-title: Elementkatalog
-description: Weitere Informationen dazu, wie Sie mit dem Elementkatalog arbeiten
+title: Artikelkatalog
+description: Erfahren Sie, wie Sie mit dem Elementkatalog arbeiten.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 94%
+source-wordcount: '307'
+ht-degree: 69%
 
 ---
 
-# Elementkatalog {#catalog}
-
->[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
-
-* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente: **[Konfigurieren des Elementkatalogs](catalogs.md)** – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
-* [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
-
->[!ENDSHADEBOX]
+# Artikelkatalog {#catalog}
 
 In Experience Decisioning dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
 
@@ -53,10 +41,9 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
    >[!CAUTION]
    >
-   >Derzeit unterstützt Experience Decisioning ausschließlich die unten aufgeführten Datentypen. Felder, die nicht zu diesen Datentypen gehören, können beim Erstellen eines Entscheidungselements nicht verwendet werden.
-   >* Zeichenfolge
-   >* Boolesch
-   >* Zahl
+   >Derzeit unterstützt Experience Decisioning ausschließlich die folgenden Datentypen: String, Integer, Boolesch, Date, DateTime und Decisioning Asset. Felder, die nicht zu diesen Datentypen gehören, stehen beim Verfassen eines Entscheidungselements oder Katalogs nicht zur Verfügung.
+
+   Der Wert, der für ein Attribut mit dem Entscheidungsasset-Attribut eingegeben wird, ist eine öffentliche URL. Meistens würde dies auf ein Bild verweisen.
 
    Detaillierte Informationen zum Arbeiten mit Adobe Experience Platform-Schemata sind im Abschnitt [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) zu finden.
 

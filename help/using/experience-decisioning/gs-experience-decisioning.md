@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 63%
 
 ---
 
-# Erste Schritte mit Experience Decisioning {#get-started-experience-decisioning}
-
->[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
-
-* **[Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)**
-* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
-* [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
-
->[!ENDSHADEBOX]
-
-## Was ist Experience Decisioning? {#about}
+# Erste Schritte mit Erlebnis-Entscheidung {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->Die Experience Decisioning-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.
 >
->Entscheidungsrichtlinien sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
+>Die Funktion steht derzeit Kunden, die die Adobe erworben haben, nicht zur Verfügung **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+
+## Was ist Experience Decisioning? {#about}
 
 Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
+Diese Entscheidungselemente sind über den neuen code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für Erlebnisentscheidungen stehen nur in code-basierten Erlebniskampagnen zur Verfügung.
 
 ## Wichtige Schritte bei Experience Decisioning {#steps}
 
 Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
-1. **Zuweisen ordnungsgemäßer Berechtigungen**. Entscheidungen stehen nur Benutzern mit Zugriff auf Experience Decisioning-bezogene **[!UICONTROL Rolle]** z. B. Entscheidungsträger. Wenn Sie nicht auf Entscheidungen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Zuweisen ordnungsgemäßer Berechtigungen**. Experience Decisioning steht nur Benutzern mit Zugriff auf eine Experience Decisioning-Komponente zur Verfügung **[!UICONTROL Rolle]** z. B. Entscheidungsträger. Wenn Sie nicht auf Experience Decisioning zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
    +++ Erfahren Sie, wie Sie die Rolle &quot;Entscheidungsmanager&quot;zuweisen
 
@@ -66,7 +54,7 @@ Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
 +++
 
-1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Entscheidungselemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
+1. **Benutzerdefinierte Attribute konfigurieren**: Passen Sie den Elementkatalog an Ihre spezifischen Anforderungen an, indem Sie benutzerdefinierte Attribute im Schema des Katalogs einrichten.
 
 1. **Entscheidungselemente erstellen**, um die Zielgruppe anzuzeigen.
 

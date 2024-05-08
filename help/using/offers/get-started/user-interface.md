@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
@@ -88,8 +88,4 @@ Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine Entscheidung dupli
 
 ## Änderungsprotokolle für Angebote und Entscheidungen {#changes-logs}
 
-In der Angebotsbibliothek können Sie sich alle Änderungen anzeigen lassen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Öffnen Sie dazu das Angebot oder die Entscheidung, indem Sie in der Liste auf den entsprechenden Namen klicken, und wählen Sie dann die Registerkarte **[!UICONTROL Änderungsprotokoll]** aus.
-
-In diesem Bildschirm werden alle vorgenommenen Änderungen sowie der Name des Benutzers angezeigt, der die Änderungen vorgenommen hat.
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] ermöglicht Ihnen die Visualisierung aller Änderungen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Rufen Sie dazu die **[!UICONTROL Prüfungen]** Menü im linken Menü. [Erfahren Sie, wie Sie Aktionen auf Ressourcen prüfen können.](../../privacy/audit-logs.md)

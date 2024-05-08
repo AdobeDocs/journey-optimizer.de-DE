@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definieren von Auswahlstrategien"
->abstract="Eine Auswahlstrategie ist ein wiederverwendbares Element, das sich zusammensetzt aus einer Sammlung, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer Entscheidungsrichtlinie ausgewählt sind."
+>abstract="Eine Auswahlstrategie kann wiederverwendet werden. Sie besteht aus einer Kollektion, die einer Eignungsbegrenzung zugeordnet ist, und einer Rangliste, mit der die in einer Entscheidungsrichtlinie anzuzeigenden Angebote bestimmt werden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=de" text="Erstellen von Entscheidungsrichtlinien"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
 
->[!BEGINSHADEBOX „Was Sie in diesem Dokumentationshandbuch finden“]
-
-* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
-* Verwalten Ihrer Entscheidungselemente: [Konfigurieren des Elementkatalogs](catalogs.md) – [Erstellen von Entscheidungselementen](items.md) – [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Elementauswahl: [Erstellen von Entscheidungsregeln](rules.md) – [Erstellen von Ranking-Methoden](ranking.md)
-* **[Erstellen von Auswahlstrategien](selection-strategies.md)**
-* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Eine Auswahlstrategie ist ein wiederverwendbares Element, das aus einer Sammlung besteht, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer [Entscheidungsrichtlinie](create-decision.md) ausgewählt sind.
+Eine Auswahlstrategie kann wiederverwendet werden. Sie besteht aus einer Kollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der bestimmt wird, welche Angebote bei Auswahl in einem [Entscheidungspolitik](create-decision.md).
 
 ## Zugreifen auf und Verwalten von Auswahlstrategien
 
-1. Navigieren Sie zu **[!UICONTROL Erlebnisentscheidungen]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Auswahlstrategien]**.
+1. Navigieren Sie zu **[!UICONTROL Erlebnisentscheidungen]** > **[!UICONTROL Strategiekonfiguration]** > **[!UICONTROL Auswahlstrategien]**.
 
 1. Es werden alle Auswahlstrategien aufgelistet, die bisher erstellt wurden. Es stehen Filter zur Verfügung, mit denen Sie Strategien gemäß der Rangfolgenmethode abrufen können.
 
@@ -77,8 +65,6 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 
 1. Wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. Wählen Sie die [Angebotssammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
-
 1. Verwenden Sie das Feld **[!UICONTROL Eignung]**, um die Auswahl der Angebote für diese Platzierung zu beschränken.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 
    * Wenn Sie ein bestimmtes berechnetes Ergebnis verwenden möchten, um zu entscheiden, welches geeignete Angebot geliefert werden soll, wählen Sie [Formel](#ranking-formula) oder [KI-Modell](#ai-ranking).
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Es kann jetzt in einer [Entscheidung](create-decision.md) verwendet werden
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Sie kann jetzt in einer [Entscheidungspolitik](create-decision.md)
 
 ## Auswählen einer Rangfolgenmethode {#select-ranking-method}
 
@@ -113,7 +99,7 @@ Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Si
 
 ### Angebotspriorität {#offer-priority}
 
-Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidung infrage kommen, werden standardmäßig die Angebote mit der höchsten **Priorität** zuerst an die Kundinnen und Kunden gesendet.
+Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidungsrichtlinie infrage kommen, sind die Artikel mit den höchsten **priority** werden zuerst an die Kunden geliefert.
 
 ![](assets/item-priority.png)
 
