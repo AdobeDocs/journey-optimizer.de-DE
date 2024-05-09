@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 84%
@@ -20,14 +20,14 @@ ht-degree: 84%
 >id="ajo_exd_config_strategies"
 >title="Definieren von Auswahlstrategien"
 >abstract="Eine Auswahlstrategie kann wiederverwendet werden. Sie besteht aus einer Kollektion, die einer Eignungsbegrenzung zugeordnet ist, und einer Rangliste, mit der die in einer Entscheidungsrichtlinie anzuzeigenden Angebote bestimmt werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=de" text="Erstellen von Entscheidungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Eingrenzen der qualifizierten Profile"
 >abstract="Sie können die Auswahl der Angebote für diese Auswahlstrategie einschränken. Standardmäßig sind alle Profile qualifiziert. Sie können jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Verwenden von Entscheidungsregeln"
 
 Eine Auswahlstrategie kann wiederverwendet werden. Sie besteht aus einer Kollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der bestimmt wird, welche Angebote bei Auswahl in einem [Entscheidungspolitik](create-decision.md).
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 >id="ajo_exd_strategy_ranking"
 >title="Festlegen der Rangfolge von Angeboten"
 >abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt: Priorität oder Ranglistenformel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=de" text="Erstellen von Entscheidungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 
