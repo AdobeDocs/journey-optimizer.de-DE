@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **Inhaltsverzeichnis**
 
-* **[Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)**
+* Erste Schritte mit mehrsprachigen Inhalten
 * [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
 * [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)
 * [Mehrsprachiger Kampagnenbericht](multilingual-report.md)

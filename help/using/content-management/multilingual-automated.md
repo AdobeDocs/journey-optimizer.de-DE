@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit mehrsprachigen Inhalten
+title: Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
 description: Weitere Informationen zu mehrsprachigen Inhalten in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1371'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
 * [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
-* **[Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)**
+* Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
 * [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
 
 >[!ENDSHADEBOX]

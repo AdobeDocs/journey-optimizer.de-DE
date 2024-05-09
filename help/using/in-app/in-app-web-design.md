@@ -8,7 +8,7 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 * [Konfigurieren des Web-In-App-Kanals](configure-in-app-web.md)
 * [Erstellen einer Web-In-App-Nachrichtenkampagne](create-in-app-web.md)
-* **[Gestalten Ihrer Web-In-App-Inhalte](#in-app-web-design)**
+* Gestalten Ihrer Web-In-App-Inhalte
 
 >[!ENDSHADEBOX]
 

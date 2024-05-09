@@ -10,14 +10,14 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1320'
 ht-degree: 93%
 
 ---
 
-# Web-Generierung mit dem AI-Assistenten {#generative-web}
+# Generieren von Webseiten mit dem AI-Assistenten {#generative-web}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-email.md)
 * [Generierung von SMS mit dem KI-Assistenten](generative-SMS.md)
 * [Push-Generierung mit dem AI-Assistenten](generative-push.md)
-* **[Generieren von Webseiten mit dem AI-Assistenten](generative-web.md)**
+* Generieren von Webseiten mit dem AI-Assistenten
 * [Inhaltsexperiment mit dem KI-Assistenten](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
