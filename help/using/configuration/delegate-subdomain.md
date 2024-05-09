@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: ht
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAME
 >id="ajo_admin_subdomain_dns"
 >title="Erstellen der passenden DNS-Einträge."
 >abstract="Um eine neue Subdomain vollständig an Adobe zu delegieren, müssen die in der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopiert und in die Domain-Hosting-Lösung eingefügt werden, um die passenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAMEs zu delegieren, muss auch der SSL-CDN-URL-Validierungeintrag kopiert und eingefügt werden. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html?lang=de#cname-subdomain-delegation" text="CNAME-Subdomain-Delegierung"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-Subdomain-Delegierung"
 
 [!DNL Journey Optimizer] ermöglicht die vollständige Delegation Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
