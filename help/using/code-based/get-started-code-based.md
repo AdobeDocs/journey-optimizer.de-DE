@@ -7,7 +7,7 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Die wichtigsten Schritte zur Implementierung einer Code-basierten Kampagne:
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definieren einer Code-basierten Erlebnisoberfläche"
+>title="Definieren einer Oberfläche für ein Code-basiertes Erlebnis"
 >abstract="Eine Code-basierte Oberfläche ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen URI eindeutig gekennzeichnet ist."
 
 Eine **Code-basierte Erlebnisoberfläche** ist jede Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde.<!--ask Robert to explain further--> und durch einen **URI** eindeutig gekennzeichnet ist.
