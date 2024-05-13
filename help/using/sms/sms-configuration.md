@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 84%
@@ -43,7 +43,7 @@ Bevor Sie Ihre SMS oder MMS versenden, müssen Sie Ihre Adobe Journey Optimizer-
    * [Mit Sinch](sms-configuration-sinch.md)
    * [Mit Infobip](sms-configuration-infobip.md)
    * [Mit Twilio](sms-configuration-twilio.md)
-1. [SMS-Oberfläche erstellen](#message-preset-sms)
+1. [SMS-Oberfläche erstellen](sms-configuration-surface.md)
 
 Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/administrator.md) durchgeführt werden.
 
