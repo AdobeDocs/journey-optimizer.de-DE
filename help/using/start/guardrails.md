@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '2022'
-ht-degree: 100%
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 ## Fragmentleitlinien {#fragments-guardrails}
 
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
-* Ausdrucksfragmente sind nicht für den Web- und den In-App-Kanal verfügbar.
+* Ausdrucksfragmente sind für den In-App-Kanal nicht verfügbar.
 
 ## Leitlinien für Journeys {#journeys-guardrails}
 
