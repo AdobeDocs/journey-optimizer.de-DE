@@ -10,11 +10,11 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
-# Erste Schritte mit der SMS-Konfiguration {#sms-configuration}
+# Erste Schritte bei der SMS-Konfiguration {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -30,7 +30,7 @@ ht-degree: 84%
 >id="ajo_admin_sms_api"
 >title="Konfigurieren eines SMS/MMS-Anbieters mit Journey Optimizer"
 >abstract="Vor dem Versand von Textnachrichten (SMS/MMS) müssen Sie die Anbietereinstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS/MMS-Oberfläche erstellen. Diese Schritte müssen von Adobe Journey Optimizer-Systemadmins durchgeführt werden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Kanaloberfläche"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Kanaloberfläche"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

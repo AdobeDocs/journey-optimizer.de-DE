@@ -6,14 +6,15 @@ description: Erfahren Sie, wie Sie Ihre SMS-/MMS-Oberfläche so konfigurieren, d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
-# SMS/MMS-Oberfläche erstellen {#message-preset-sms}
+# Erstellen einer SMS-/MMS-Oberfläche {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -87,4 +88,3 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    ![](assets/preset-active.png)
 
 Sie können jetzt mit Journey Optimizer Textnachrichten senden.
-

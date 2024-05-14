@@ -38,11 +38,11 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 >
 >Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
-## Email type {#email-type}
+## E-Mail-Typ {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="E-Mail-Typ definieren"
+>title="Definieren des E-Mail-Typs"
 >abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
 Im **Email Type** wählen Sie den Nachrichtentyp für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**.

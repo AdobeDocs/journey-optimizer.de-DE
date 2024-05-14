@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 >id="ajo_admin_subdomain_sms"
 >title="Delegieren einer SMS/MMS-Subdomain"
 >abstract="Sie müssen eine Subdomain einrichten, die für Ihre Textnachrichten verwendet wird, da diese Subdomain für die Erstellung einer SMS-Oberfläche benötigt wird. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine neue Subdomain konfiguriert werden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen von SMS-Oberflächen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen von SMS-Oberflächen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="Auswählen einer SMS/MMS-Subdomain"
 >abstract="Um eine SMS-Oberfläche erstellen zu können, müssen Sie zuvor mindestens eine SMS-Subdomain konfiguriert haben, die aus der Liste der Subdomain-Namen ausgewählt werden kann."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen von SMS-Oberflächen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen von SMS-Oberflächen"
 
 Um die URLs zu Ihren SMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie dann auswählen, wenn Sie [eine SMS-Oberfläche erstellen](sms-configuration.md#message-preset-sms).
 
