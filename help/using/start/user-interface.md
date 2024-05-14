@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 97%
 
 ---
 
@@ -193,3 +193,66 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
   ![](assets/select-language.png)
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_name"
+>title="Name der Mobile- und Web-Konfiguration"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_add"
+>title="Abhängigkeiten hinzufügen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_initialization_code"
+>title="Initialisierungscode hinzufügen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance"
+>title="Validierung mit Versicherung"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_code"
+>title="JavaScript-Code"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_site"
+>title="Launch-Site und Validierung"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token"
+>title="Abrufen des Geräte-Tokens"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_xcode"
+>title="Starten der Anwendung aus Xcode"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_certificate"
+>title="Push-Zertifikat bereitstellen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_key_id"
+>title="Schlüssel-ID"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_team_id"
+>title="Team-ID"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_inapp_tag_property"
+>title="Tag-Eigenschaft auswählen"
+>abstract="TBC"
+
+
