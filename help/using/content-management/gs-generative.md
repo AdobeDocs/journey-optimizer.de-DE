@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '658'
 ht-degree: 85%
 
 ---
@@ -21,9 +21,22 @@ ht-degree: 85%
 # Erste Schritte mit dem KI-Assistenten {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="Erstellen des E-Mail-Inhalts"
->abstract="Der KI-Assistent in Adobe Journey Optimizer liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Er ist für die Kanäle E-Mail, Push, SMS und Web verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung."
+>id="ajo_ai_generation_settings"
+>title="KI-Assistent"
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da der Inhalt durch eine Beschreibung dessen, was generieret werden soll, angepasst werden kann."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="Kontext mit dem AI-Assistenten definieren"
+>abstract="Um den ausgewählten Inhalt als Eingabe für die Inhaltserstellung zu verwenden, aktivieren Sie die **Originalinhalt verwenden** umschalten. Es können auch Marken-Assets hochgeladen werden, um sie als Quelle zu verwenden. Wenn der ausgewählte Inhalt nicht verwendet wird, ist das Hochladen und Auswählen von Marken-Assets obligatorisch."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Adobe-Begriffe zu generativer KI"
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Adobe Experience Cloud-Benutzerrichtlinien für generative KI. Eingabeaufforderungen, Kontext, zusätzliche Informationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen an einen bestimmten Kontext gebunden sein, der Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente umfassen kann und keine personenbezogenen Daten enthalten darf („personenbezogenen Daten“ umfasst alles, was mit einer bestimmten Person in Verbindung gebracht werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind"
+>additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
 
 >[!BEGINSHADEBOX]
 
