@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 32%
+source-wordcount: '778'
+ht-degree: 31%
 
 ---
 
@@ -91,7 +91,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Datenwerte in Adobe Experience Platform-Datensätzen suchen und abrufen und diese Werte zum Erstellen von Bedingungen in Adobe Journey Optimizer verwenden. Sie können Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Die Suchwerte stehen in Ihren Journey, benutzerdefinierten Aktionen und der Nachrichtenpersonalisierung zur Verfügung.</p>
+<p>Sie können jetzt Datenwerte in Adobe Experience Platform-Datensätzen suchen und abrufen und diese Werte zum Erstellen von Bedingungen in Adobe Journey Optimizer verwenden. Sie können Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Sie können nicht profilaktivierte Datensätze für die Suche angeben. Nach der Aktivierung können Sie ein Profilattribut als Join-Schlüssel für den angegebenen Datensatz verwenden, um weitere Daten zur Personalisierung abzurufen.</p>
 </td>
 </tr>
 </tbody>
