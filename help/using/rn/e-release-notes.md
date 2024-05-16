@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 31%
+source-wordcount: '836'
+ht-degree: 27%
 
 ---
 
@@ -75,7 +75,9 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Regeln für die detaillierte Frequenzlimitierung erstellen und diese über Regelsätze auf verschiedene Arten der Marketing-Kommunikation anwenden. </p>
+<p>Sie können jetzt Regeln für die detaillierte Frequenzlimitierung erstellen und diese über Regelsätze auf verschiedene Arten der Marketing-Kommunikation anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
+<p>Die Funktion für Geschäftsregeln ist derzeit nur als öffentliche Beta-Version verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/business-rules.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Erlebnisentscheidungen**
 
-Von Beta bis LA wurden die folgenden Verbesserungen hinzugefügt:
+Von der Beta-Version zu dieser Version wurden die folgenden Verbesserungen hinzugefügt:
 
-* **Erlebnisentscheidungen + Code-basierte Erlebnisse (LA)**: Sie können jetzt die Experience Decisioning-Funktion nutzen, um Entscheidungselemente in Ihren code-basierten Kampagnen zu verwenden. Hinweis: Der code-basierte Erlebniskanal und die Erlebnisentscheidung stehen nicht für Organisationen zur Verfügung, die das Adobe Healthcare Shield und das Datenschutz- und Sicherheitsschild-Add-On-Angebot erworben haben. [Weitere Informationen](../code-based/get-started-code-based.md)
-* Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln und Ranglisten-Formeln nutzen. [Weitere Informationen](../experience-decisioning/context-data.md)
-* Für die Entscheidungs-Management-Ressource ist jetzt die neue Berechtigung „Erlebnis-Entscheidung verwalten“ verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
-* Sie können jetzt mehrere Begrenzungsregeln für ein bestimmtes Entscheidungselement in Erlebnis-Entscheidung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen. [Weitere Informationen](../experience-decisioning/items.md#capping)
-* Sie können jetzt benutzerdefinierte Berichterstellungs-Dashboards von Experience Decisioning-Kampagnen erstellen, indem Sie [!DNL Customer Journey Analytics]. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
+* **Erlebnisentscheidungen + Code-basierte Erlebnisse (LA)** - Sie können jetzt die Experience Decisioning-Funktion nutzen, um Entscheidungselemente in Ihren code-basierten Kampagnen zu verwenden. Hinweis: Der code-basierte Erlebniskanal und die Erlebnisentscheidung stehen nicht für Organisationen zur Verfügung, die das Adobe Healthcare Shield und das Datenschutz- und Sicherheitsschild-Add-On-Angebot erworben haben. [Weitere Informationen](../code-based/get-started-code-based.md)
+* **Kontextdaten** - Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln und Ranglisten-Formeln nutzen. [Weitere Informationen](../experience-decisioning/context-data.md)
+* **Neue Berechtigung** - Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit Experience Decisioning verwalten. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+* **Begrenzungsregeln** - Sie können jetzt mehrere Begrenzungsregeln für ein bestimmtes Entscheidungselement in Experience Decisioning hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen. [Weitere Informationen](../experience-decisioning/items.md#capping)
+* **Berichterstellung** - Sie können jetzt benutzerdefinierte Reporting-Dashboards von Experience Decisioning-Kampagnen erstellen, indem Sie [!DNL Customer Journey Analytics]. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
 
 
-**Offer Decisioning**
+**Entscheidungs-Management**
 
 * **Unterstützung mehrerer Regeln** - Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot in der Entscheidungsverwaltung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.
 * **Prüfungen** - die **Änderungsprotokoll** -Tab, in dem alle Änderungen angezeigt werden, die an einem Angebot oder einer entfernten Entscheidung vorgenommen wurden. Änderungen in Bezug auf Angebote und Entscheidungen können jetzt im Menü **Audits** eingesehen werden.
@@ -134,6 +136,6 @@ Von Beta bis LA wurden die folgenden Verbesserungen hinzugefügt:
 
 **Journeys**
 
-* **Zusammenführungsrichtlinien** - Zusammenführungsrichtlinien können jetzt in Ihren Journey konfiguriert und verwendet werden.
+* **Zusammenführungsrichtlinien** (Eingeschränkte Verfügbarkeit) - Zusammenführungsrichtlinien, die von einer Journey verwendet werden, sind jetzt auf der gesamten Journey sichtbar und konsistent.
 * **Unterstützung von mTLS** - Das mTLS-Protokoll wird jetzt in Journey Optimizer-APIs und benutzerdefinierten Aktionen unterstützt.
 * **Suchtabellen in Ereignissen** - Sie können jetzt Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Die Suchwerte stehen in Journey zur Verfügung (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
