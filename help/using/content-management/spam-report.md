@@ -4,49 +4,36 @@ description: Erfahren Sie, wie Sie den Spam-Bericht verwenden
 feature: Preview
 role: User
 level: Beginner
+badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 34%
 
 ---
 
-# Verwenden eines Spam-Berichts {#spam-report}
-
->[!AVAILABILITY]
->
->Die Spam-Bericht-Funktion ist derzeit nur als Betaversion für ausgewählte Benutzende verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+# E-Mail-Spam-Bericht {#spam-report}
 
 Mit [!DNL Journey Optimizer] können Sie die Leistung Ihres Inhalts gegen Spam-Filterung überprüfen und sicherstellen, dass Ihre Nachrichten in den Postfächern Ihrer Kundschaft landen und nicht im Spam.
 
+Bei der Bearbeitung oder Vorschau Ihres E-Mail-Inhalts wird die **[!UICONTROL Spam-Bericht]** bietet eine Bewertung und Ratschläge zur Verbesserung der Bewertungen für jedes aufgelistete Element.
+
+Auf diese Weise können Sie feststellen, ob eine Nachricht von den Anti-Spam-Tools, die bei Erhalt verwendet werden, als Spam eingestuft wird, und Maßnahmen ergreifen, falls dies nicht der Fall ist. Viele E-Mail-Posteingangsanbieter verwenden Tools als Teil ihres Spam-Filtervorgangs. Der Versand von E-Mails mit einer schlechten Punktzahl kann die Zustellbarkeit erheblich beeinträchtigen.
+
+
 >[!CAUTION]
 >
->* Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
+>* Diese Funktion ist derzeit nur als private Beta-Version verfügbar.
 >
 >* Derzeit kann die Spam-Berichtsanalyse nur für englischsprachige Inhalte durchgeführt werden.
-
-Wenn Sie Inhalte bearbeiten oder in der Vorschau anzeigen, bietet die Option **[!UICONTROL Spam-Bericht]** eine Bewertung und Ratschläge zur Verbesserung der Bewertungen für jedes aufgelistete Element.
-
-Auf diese Weise können Sie feststellen, ob eine Nachricht von den Anti-Spam-Tools, die bei Erhalt verwendet werden, als Spam eingestuft wird, und Maßnahmen ergreifen, falls dies nicht der Fall ist.
-
->[!CAUTION]
 >
->Der Spam-Bericht enthält nur Hinweise und Warnungen. Beachten Sie, dass Sie nicht daran gehindert werden, Nachrichten zu senden, wenn der Spam-Bericht anzeigt, dass Ihr Inhalt als Spam gilt. Es ist Ihre Entscheidung, ob Sie die Bewertung und die Verbesserungsvorschläge befolgen.
+>* >
+>Der Spam-Bericht ist informativ und verhindert nicht, dass Nachrichten mit einem schlechten Ergebnis gesendet werden.
 
-Zur Verwendung der Funktion für **[!UICONTROL Spam-Berichte]** gehen Sie wie folgt vor.
-
-<!--For example spam scoring tool can tell that there are too many Images compared to the text. Retailers tend to do this even though the spam score gets worse because the content is more engaging.-->
-
-<!--Michael, who is a marketer with NIKE works along with Tara from testing team to ensure that the emails being sent as part of the campaign/journey don't get categorised as SPAM.
-
-They need an integration within AJO's marketing system to show how the curated content is doing against different SPAM compliance pillars like for SPAM trigger words, HTML Body content and layout, subject line etc.
-
-They should be able to get scores for each individual items as shown by market standard SPAM filtering tools like Spam Assassin, Symantec etc.
-
-They should also get suggestions on how to improve the score better to be confident that the messages don't get categorised as spam.-->
+So greifen Sie auf die **[!UICONTROL Spam-Bericht]** führen Sie die folgenden Schritte aus.
 
 1. Klicken Sie auf dem Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Spam-Bericht]**.
 
@@ -64,11 +51,11 @@ They should also get suggestions on how to improve the score better to be confid
 
 1. Überprüfen Sie die Bewertungen und Beschreibungen für jedes Element.
 
-   Wenn der Wert größer als 5 ist, wird eine Warnung angezeigt. Sie weist darauf hin, dass beim Empfang manche Nachrichten von Anti-Spam-Tools blockiert oder als Spam gekennzeichnet werden können.
+   Je niedriger die Punktzahl, desto besser. Wenn der Wert größer als 5 ist, wird ein Warnhinweis angezeigt, der anzeigt, dass manche Nachrichten beim Empfang blockiert oder als Spam gekennzeichnet werden können.
 
-1. Basierend auf dieser Bewertung können Sie, wenn Sie der Ansicht sind, dass einige Elemente verbessert werden können, in Ihren Inhalten mithilfe von [E-Mail-Designer](../email/content-from-scratch.md) die erforderlichen Aktualisierungen vornehmen.
+1. Wenn Sie auf der Grundlage dieser Auswertung der Ansicht sind, dass einige Elemente verbessert werden können, bearbeiten Sie Ihren Inhalt im [Email Designer](../email/content-from-scratch.md) und nehmen die notwendigen Aktualisierungen vor.
 
-1. Sobald Sie Ihre Änderungen vorgenommen haben, kehren Sie zum Bildschirm **[!UICONTROL Spam-Bericht]** zurück, um sicherzustellen, dass sich Ihre Bewertung verbessert hat.
+1. Nachdem Sie Ihre Änderungen vorgenommen haben, wechseln Sie zurück zum **[!UICONTROL Spam-Bericht]** angezeigt, um sicherzustellen, dass Ihr Ergebnis verbessert wurde.
 
    ![](assets/spam-report-low-score.png)
 
