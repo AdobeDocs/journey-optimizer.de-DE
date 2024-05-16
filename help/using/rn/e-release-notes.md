@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 27%
+source-wordcount: '844'
+ht-degree: 26%
 
 ---
 
@@ -76,7 +76,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt Regeln für die detaillierte Frequenzlimitierung erstellen und diese über Regelsätze auf verschiedene Arten der Marketing-Kommunikation anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
-<p>Die Funktion für Geschäftsregeln ist derzeit nur als öffentliche Beta-Version verfügbar.</p>
+<p>Die Funktion für Geschäftsregeln ist derzeit als öffentliche Beta-Version verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/business-rules.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt Datenwerte in Adobe Experience Platform-Datensätzen suchen und abrufen und diese Werte zum Erstellen von Bedingungen in Adobe Journey Optimizer verwenden. Sie können Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Sie können nicht profilaktivierte Datensätze für die Suche angeben. Nach der Aktivierung können Sie ein Profilattribut als Join-Schlüssel für den angegebenen Datensatz verwenden, um weitere Daten zur Personalisierung abzurufen.</p>
+<p>Diese Funktion ist derzeit als öffentliche Beta-Version verfügbar.</p>
 </td>
 </tr>
 </tbody>
