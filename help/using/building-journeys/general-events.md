@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 74%
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll. Die maximale Wartezeit beträgt 29 Tage.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, falls innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für die Person fortgesetzt, sobald die Zeitüberschreitung erreicht ist. Wir empfehlen, dass Sie immer die **Zeitüberschreitungspfad festlegen** -Option.
+1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, falls innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für die Person fortgesetzt, sobald die Zeitüberschreitung erreicht ist. Es wird empfohlen, immer die **Zeitüberschreitungspfad festlegen** -Option.
 
    ![](assets/event-timeout.png)
 
@@ -58,7 +58,7 @@ Wenn Sie eine maximale Wartezeit für mehrere Ereignisse konfigurieren möchten,
 
 Die definierte Zeitüberschreitung gilt für alle Ereignisse, die nach der **[!UICONTROL Warten]** Aktivität:
 
-* Wenn ein Ereignis innerhalb der Zeitüberschreitungsdauer erneut ausgeführt wird, fließt der Kontakt in den Pfad des empfangenen Ereignisses.
+* Wenn ein Ereignis innerhalb der Timeout-Dauer empfangen wird, fließt der Kontakt in den Pfad des empfangenen Ereignisses.
 * Wenn innerhalb der Timeout-Dauer kein Ereignis empfangen wird, fließt der Kontakt in den Timeout-Zweig des Ereignisses, in dem die Zeitüberschreitung definiert wurde.
 
 ![](assets/event-timeout-group.png)
