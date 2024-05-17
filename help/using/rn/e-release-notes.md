@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Wenn Sie E-Mails an eine brandneue IP-Adresse senden, können Sie jetzt einfach IP-Warmup-Workflows direkt über die Benutzeroberfläche durchführen. Adobe Journey Optimizer bietet eine standardisierte und effiziente Möglichkeit, Ihre IP-Adressen aufzuwärmen, die den Best Practices für eine optimale Zustellbarkeit entsprechen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/ip-warmup-gs.md">ausführlichen Dokumentation</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <td>
 <p>Sie können jetzt Regeln für die detaillierte Frequenzlimitierung erstellen und diese über Regelsätze auf verschiedene Arten der Marketing-Kommunikation anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
 <p>Die Funktion für Geschäftsregeln ist derzeit als öffentliche Beta-Version verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/business-rules.md">ausführlichen Dokumentation</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ Von der Beta-Version zu dieser Version wurden die folgenden Verbesserungen hinzu
 **E-Mail-Kanal**
 
 * **List-unsubscribe** - Nach den jüngsten Ankündigungen von Gmail und Yahoo für Massen-Absender unterstützt Journey Optimizer die Option &quot;Post/1-Click&quot; List-Unsubscribe .
-* **Spam-Bewertung** (Beta) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem speziellen Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihren E-Mail-Inhalt testen und eine Punktzahl angeben, um anzugeben, ob ISP-Anbieter ihn als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
+* **Spam-Bewertung** (Beta) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem speziellen Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihren E-Mail-Inhalt testen und eine Punktzahl angeben, um anzugeben, ob ISP-Anbieter ihn als Spam betrachten oder nicht.
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **Zielgruppen**
@@ -133,10 +134,11 @@ Von der Beta-Version zu dieser Version wurden die folgenden Verbesserungen hinzu
 
 **Personalisierung**
 
-* **Ausdrucksfragment** - Ausdrucksfragmente sind jetzt für die **In-App-Kanal**. [Weitere Informationen](../personalization/use-expression-fragments.md)
+* **Ausdrucksfragment** - Ausdrucksfragmente sind jetzt für die **In-App-Kanal**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **Journeys**
 
-* **Zusammenführungsrichtlinien** (Eingeschränkte Verfügbarkeit) - Zusammenführungsrichtlinien, die von einer Journey verwendet werden, sind jetzt auf der gesamten Journey sichtbar und konsistent.
-* **Unterstützung von mTLS** - Das mTLS-Protokoll wird jetzt in Journey Optimizer-APIs und benutzerdefinierten Aktionen unterstützt.
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **Unterstützung von mTLS** - Die mTLS-Authentifizierung wird jetzt in benutzerdefinierten Aktionen unterstützt. Für die benutzerdefinierte Aktion oder das Journey ist keine zusätzliche Konfiguration erforderlich, um mTLS zu aktivieren. Sie erfolgt automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird.
 * **Suchtabellen in Ereignissen** - Sie können jetzt Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Die Suchwerte stehen in Journey zur Verfügung (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
