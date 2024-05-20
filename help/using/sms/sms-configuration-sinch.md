@@ -1,29 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren eines einzelnen Anbieters
-description: Erfahren Sie, wie Sie Ihre Umgebung so konfigurieren, dass mit Journey Optimizer mit Sinch Textnachrichten gesendet werden
+title: Konfigurieren eines Sinch-Anbieters
+description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten mit Journey Optimizer mit Sinch konfigurieren.
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# Konfigurieren eines einzelnen Anbieters {#sms-configuration-sinch}
+# Konfigurieren eines Sinch-Anbieters {#sms-configuration-sinch}
 
-Bei Verwendung des Sinch-Providers mit Journey Optimizer stehen Ihnen zwei verschiedene Optionen zur Verfügung:
+Wenn Sie den Sinch-Anbieter mit Journey Optimizer verwenden, können Sie zwischen zwei verschiedenen Optionen wählen:
 
-* **SMS-Konfiguration**: Richten Sie Ihre Single API-Anmeldeinformationen ein, um SMS-Nachrichten nahtlos zu senden.
+* **SMS-Konfiguration**: Richten Sie Ihre Sinch-API-Anmeldedaten ein, um nahtlos SMS-Nachrichten zu versenden.
 
-* **MMS-Konfiguration**: Konfigurieren Sie für Multimedia-Messaging (MMS) Ihre Single-MMS-API-Anmeldeinformationen. Beachten Sie, dass das Tracking und die Reaktion auf eingehende Nachrichten von der SMS-Konfiguration verarbeitet werden. MMS-Setup dient nur der ausgehenden Bereitstellung der MMS-Nachricht.
+* **MMS-Konfiguration**: Konfigurieren Sie für Multimedia Messaging (MMS) Ihre Sinch-MMS-API-Anmeldedaten. Beachten Sie, dass das Tracking und Beantworten von eingehenden Nachrichten über die SMS-Konfiguration erfolgt. Die MMS-Einrichtung ist nur für den ausgehenden Versand der MMS-Nachricht vorgesehen.
 
-## Single-API-Anmeldeinformationen{#create-api}
+## Sinch-API-Anmeldedaten{#create-api}
 
-Gehen Sie wie folgt vor, um Ihren Sinch-Provider so zu konfigurieren, dass SMS-Nachrichten und MMS mit Journey Optimizer gesendet werden:
+Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten und MMS in Journey Optimizer zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -53,15 +54,15 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Provider so zu konfigurieren, dass SMS-N
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
 
-## Einmalige MMS-API-Anmeldeinformationen {#sinch-mms}
+## Sinch-MMS-API-Anmeldedaten {#sinch-mms}
 
 >[!IMPORTANT]
 >
-> Neben der MMS-Einrichtung müssen Sie auch Single API-Anmeldeinformationen erstellen, die speziell für die Verfolgung eingehender Nachrichten und die Verwaltung von Zustimmungsanfragen verwendet werden.
+> Neben der MMS-Einrichtung müssen Sie auch Sinch-API-Anmeldedaten speziell für das Tracking eingehender Nachrichten und die Verwaltung von Zustimmungsanfragen erstellen.
 
-Gehen Sie wie folgt vor, um Sinch MMS so zu konfigurieren, dass MMS mit Journey Optimizer gesendet wird:
+Gehen Sie wie folgt vor, um Sinch MMS mit Journey Optimizer für das Senden von MMS zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 

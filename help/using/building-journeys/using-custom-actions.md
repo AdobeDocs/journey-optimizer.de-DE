@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Die folgende Tabelle zeigt ein Beispiel für die Konfiguration:
 
 Die verkettete URL sieht folgendermaßen aus:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 

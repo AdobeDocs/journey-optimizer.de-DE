@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Experience Decisioning
+title: Erste Schritte mit der Erlebnis-Entscheidung
 description: Weitere Informationen zu Experience Decisioning
 feature: Experience Decisioning
 topic: Integrations
@@ -8,35 +8,35 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Erlebnis-Entscheidung {#get-started-experience-decisioning}
+# Erste Schritte mit der Erlebnis-Entscheidung {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
 >Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.
 >
->Die Funktion steht derzeit Kunden, die die Adobe erworben haben, nicht zur Verfügung **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Für Kundinnen und Kunden, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist die Funktion derzeit nicht verfügbar.
 
-## Was ist Experience Decisioning? {#about}
+## Was ist eine Erlebnis-Entscheidung? {#about}
 
 Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den neuen code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für Erlebnisentscheidungen stehen nur in code-basierten Erlebniskampagnen zur Verfügung.
+Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
 
 ## Wichtige Schritte bei Experience Decisioning {#steps}
 
 Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
-1. **Zuweisen ordnungsgemäßer Berechtigungen**. Experience Decisioning steht nur Benutzern mit Zugriff auf eine Experience Decisioning-Komponente zur Verfügung **[!UICONTROL Rolle]** z. B. Entscheidungsträger. Wenn Sie nicht auf Experience Decisioning zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Zuweisen entsprechender Berechtigungen**. Die Erlebnis-Entscheidung steht nur Benutzenden mit Zugriff auf eine Erlebnis-Entscheidungs-bezogene **[!UICONTROL Rolle]** zur Verfügung, z. B. Entscheidungsträgern. Wenn Sie nicht auf die Erlebnis-Entscheidung zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
-   +++ Erfahren Sie, wie Sie die Rolle &quot;Entscheidungsmanager&quot;zuweisen
+   +++Erfahren Sie, wie Sie die Rolle „Entscheidungsträger“ zuweisen
 
-   1. So weisen Sie Benutzern eine Rolle im [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** Registerkarte und wählen Sie Entscheidungsmanager aus.
+   1. Um Benutzenden eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie „Entscheidungsträger“ aus.
 
       ![](assets/decision_permission_1.png)
 
@@ -46,7 +46,7 @@ Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
    1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-      Wenn der Benutzer zuvor nicht erstellt wurde, lesen Sie den Abschnitt [Benutzerhandbuch hinzufügen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Wenn die Person vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
       ![](assets/decision_permission_3.png)
 
@@ -54,7 +54,7 @@ Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
 +++
 
-1. **Benutzerdefinierte Attribute konfigurieren**: Passen Sie den Elementkatalog an Ihre spezifischen Anforderungen an, indem Sie benutzerdefinierte Attribute im Schema des Katalogs einrichten.
+1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
 1. **Entscheidungselemente erstellen**, um die Zielgruppe anzuzeigen.
 

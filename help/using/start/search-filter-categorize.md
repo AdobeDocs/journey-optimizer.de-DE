@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. 
 * [Fragmente](../content-management/fragments.md)
 * [Journeys](../building-journeys/journey-gs.md#change-properties)
 * [Landingpages](../landing-pages/create-lp.md)
-* [Abonnement-Listen](../landing-pages/subscription-list.md)
+* [Abonnementlisten](../landing-pages/subscription-list.md)
 * [Vorlagen](../content-management/content-templates.md)
 
 Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.

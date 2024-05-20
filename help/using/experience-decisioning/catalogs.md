@@ -1,5 +1,5 @@
 ---
-title: Artikelkatalog
+title: Elementkatalog
 description: Erfahren Sie, wie Sie mit dem Elementkatalog arbeiten.
 feature: Experience Decisioning
 topic: Integrations
@@ -8,17 +8,17 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Artikelkatalog {#catalog}
+# Elementkatalog {#catalog}
 
 In Experience Decisioning dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
 
-Zunächst werden alle erstellten Entscheidungselemente in einem einzigen &quot;Angebote&quot;-Katalog konsolidiert, auf den über die **[!UICONTROL Kataloge]** Menü.
+Zunächst werden alle erstellten Entscheidungselemente in einem einzigen Katalog „Angebote“ konsolidiert, auf den über das Menü **[!UICONTROL Kataloge]** zugegriffen werden kann.
 
 ![](assets/catalogs-list.png)
 
@@ -41,9 +41,9 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
    >[!CAUTION]
    >
-   >Derzeit unterstützt Experience Decisioning ausschließlich die folgenden Datentypen: String, Integer, Boolesch, Date, DateTime und Decisioning Asset. Felder, die nicht zu diesen Datentypen gehören, stehen beim Verfassen eines Entscheidungselements oder Katalogs nicht zur Verfügung.
+   >Derzeit unterstützt die Erlebnis-Entscheidung ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime und Decisioning Asset. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
 
-   Der Wert, der für ein Attribut mit dem Entscheidungsasset-Attribut eingegeben wird, ist eine öffentliche URL. Meistens würde dies auf ein Bild verweisen.
+   Der Wert, der in ein Attribut mit einem Entscheidungs-Asset-Attribut eingegeben wird, ist eine öffentliche URL. In den meisten Fällen würde dies auf ein Bild hinweisen.
 
    Detaillierte Informationen zum Arbeiten mit Adobe Experience Platform-Schemata sind im Abschnitt [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) zu finden.
 

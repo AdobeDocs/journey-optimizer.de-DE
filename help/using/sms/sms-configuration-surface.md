@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-Oberfläche konfigurieren
-description: Erfahren Sie, wie Sie Ihre SMS-/MMS-Oberfläche so konfigurieren, dass Textnachrichten mit Journey Optimizer gesendet werden
+title: Konfigurieren der SMS-Oberfläche
+description: Erfahren Sie, wie Sie Ihre SMS-/MMS-Umgebung für das Senden von Textnachrichten mit Journey Optimizer konfigurieren.
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >abstract="Wählen Sie über diese Oberfläche die Art der Textnachrichten aus: Marketing für Werbenachrichten, die die Zustimmung der Benutzenden erfordern, oder Transaktionsnachrichten für nicht-kommerzielle Nachrichten, wie z. B. das Zurücksetzen eines Passworts."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#sms-opt-out-management" text="Abmeldung von Marketing-Textnachrichten"
 
-Nachdem Ihr SMS-/MMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, über die Sie SMS- und MMS-Nachrichten senden können. **[!DNL Journey Optimizer]**.
+Sobald Ihr SMS/MMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, um SMS- und MMS-Nachrichten von **[!DNL Journey Optimizer]** aus versenden zu können.
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 

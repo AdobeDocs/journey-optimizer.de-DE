@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generierung von SMS mit dem KI-Assistenten
-description: SMS-Inhalte mit dem KI-Assistenten generieren
+title: SMS-Generierung mit dem KI-Assistenten
+description: Starten der Generierung von SMS-Inhalten mit dem KI-Assistenten
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -12,13 +12,13 @@ hide: true
 hidefromtoc: true
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Generierung von SMS mit dem KI-Assistenten {#generative-sms}
+# SMS-Generierung mit dem KI-Assistenten {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
@@ -26,31 +26,31 @@ ht-degree: 59%
 
 * [Erste Schritte mit dem KI-Assistenten](gs-generative.md)
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-email.md)
-* Generierung von SMS mit dem KI-Assistenten
-* [Push-Generierung mit dem AI-Assistenten](generative-push.md)
+* SMS-Generierung mit dem KI-Assistenten
+* [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 * [Inhaltsexperiment mit dem KI-Assistenten](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
 Nach der Erstellung und Anpassung Ihrer SMS-Nachrichten an die Vorlieben Ihrer Zielgruppe sollten Sie Ihre Kommunikation mit dem KI-Assistenten in Journey Optimizer intensivieren.
 
-Diese Ressource bietet aufschlussreiche Empfehlungen zur Feinabstimmung Ihres Inhalts, die dazu beitragen, dass Ihre Nachrichten Resonanz finden und maximale Interaktion fördern.
+Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ihres Inhalts, die dazu beitragen, dass Ihre Nachrichten Resonanz finden und maximale Interaktion fördern.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Journey Optimizer verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
 
 >[!NOTE]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Begrenzungen](gs-generative.md#generative-guardrails).
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 
 >[!BEGINTABS]
 
 >[!TAB Vollständige SMS-Generierung]
 
-1. Klicken Sie nach der Erstellung und Konfiguration Ihrer SMS-Kampagne auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Nachdem Sie Ihre SMS-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   Weiterführende Informationen zur Konfiguration Ihrer SMS-Kampagne finden Sie im Abschnitt [diese Seite](../sms/create-sms.md).
+   Weitere Informationen zur Konfiguration Ihrer SMS-Kampagne finden Sie auf [dieser Seite](../sms/create-sms.md).
 
-1. Füllen Sie die **[!UICONTROL Grundlegende Details]** für Ihre Kampagne. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihre Kampagne aus. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre SMS-Nachricht nach Bedarf. [Weitere Informationen](../sms/create-sms.md)
 
@@ -58,13 +58,13 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Aktivieren Sie die **[!UICONTROL Originalinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Kampagneninhalt, Ihrem Namen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
    Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+1. Passen Sie den Inhalt genauer an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabebibliothek]** , die eine Vielzahl von schnellen Ideen zur Verbesserung Ihrer Kampagnen bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
@@ -89,13 +89,13 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   Sie können auch Experimente für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
+   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre SMS-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
@@ -105,25 +105,25 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
 >[!TAB Textgenerierung]
 
-1. Klicken Sie nach der Erstellung und Konfiguration Ihrer SMS-Kampagne auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Nachdem Sie Ihre SMS-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   Weiterführende Informationen zur Konfiguration Ihrer SMS-Kampagne finden Sie im Abschnitt [diese Seite](../sms/create-sms.md).
+   Weitere Informationen zur Konfiguration Ihrer SMS-Kampagne finden Sie auf [dieser Seite](../sms/create-sms.md).
 
-1. Füllen Sie die **[!UICONTROL Grundlegende Details]** für Ihre Kampagne. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Geben Sie die **[!UICONTROL grundlegenden Details]** für Ihre Kampagne ein. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre SMS-Nachricht nach Bedarf. [Weitere Informationen](../sms/create-sms.md)
 
-1. Zugriff auf **[!UICONTROL Text mit dem KI-Assistenten bearbeiten]** Menü neben Ihrem **[!UICONTROL Nachricht]** -Feld.
+1. Greifen Sie auf das Menü **[!UICONTROL Mit KI-Assistent bearbeiten]** neben dem Feld **[!UICONTROL Nachricht]** zu.
 
    ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Aktivieren Sie die **[!UICONTROL Referenzinhalt verwenden]** Option für den KI-Assistenten, um neuen Inhalt basierend auf Ihrem Kampagneninhalt, Ihrem Namen und der ausgewählten Zielgruppe zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
    Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabebibliothek]** , die eine Vielzahl von schnellen Ideen zur Verbesserung Ihrer Kampagnen bietet.
+   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
    ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
 
@@ -148,17 +148,17 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und für eine breitere Zielgruppe Klarheit und Barrierefreiheit zu gewährleisten.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
    ![](assets/sms-text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   Sie können auch Experimente für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
+   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihre SMS-Inhalte auf der Grundlage von Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
-1. Klicken Sie nach der Definition des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen.
+1. Klicken Sie nach dem Definieren des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen.
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in Journey Optimizer beginnen:
 
-1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzern mit Zugriff auf kampagnenbezogene **[!UICONTROL Produktprofil]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung, beispielsweise Kampagnen-Admins, Kampagnen-Genehmigende, Kampagnen-Manager und/oder Kampagnen-Betrachtende. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
-   +++Erfahren Sie, wie Sie eine kampagnenbezogene Rolle zuweisen
+   +++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
 
-   1. So weisen Sie Benutzern eine Rolle im [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** und wählen Sie eine der nativen Kampagnen aus. **[!UICONTROL Rollen]**: Campaign-Administrator, Campaign Genehmiger, Campaign-Manager oder Campaign-Viewer.
+   1. Um einer Person eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der nativen kampagnenbezogenen **[!UICONTROL Rollen]** aus: Kampagnen-Admin, Kampagnen-Genehmigende, Kampagnen-Manager oder Kampagnen-Betrachtende.
 
    1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
    1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-      Wenn der Benutzer zuvor nicht erstellt wurde, lesen Sie den Abschnitt [Benutzerhandbuch hinzufügen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 

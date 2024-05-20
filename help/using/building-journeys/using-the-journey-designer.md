@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, 
 
 ![](assets/journey59bis.png)
 
-Abhängig vom Status Journey können Sie mithilfe der oben rechts verfügbaren Schaltflächen verschiedene Aktionen auf Ihrem Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Testmodus]**, **[!UICONTROL Zugriff verwalten]**, **[!UICONTROL Warnhinweise]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
+Abhängig vom Status der Journey können Sie mithilfe der verfügbaren Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Testmethode]**, **[!UICONTROL Zugriff verwalten]**, **[!UICONTROL Warnhinweise]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![](assets/journey41.png)
 

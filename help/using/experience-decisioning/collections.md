@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,18 +35,18 @@ Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen k
 
 Angenommen, Sie haben dem Katalogschema Ihrer Entscheidungselemente das benutzerdefinierte Attribut „Kategorie“ hinzugefügt. Auf diese Weise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im Attribut „Kategorie“ enthält.
 
-Die Liste der Sammlungen kann über die **[!UICONTROL Kataloge]** Menü.
+Die Liste der Sammlungen ist über das Menü **[!UICONTROL Kataloge]** zugänglich.
 
 Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Kataloge]** > **[!UICONTROL Sammlungen]** und klicken **[!UICONTROL Sammlung erstellen]**.
+1. Navigieren Sie zu **[!UICONTROL Kataloge]** > **[!UICONTROL Sammlungen]** und klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 1. Geben Sie einen Namen und eine Beschreibung für die Sammlung ein.
 1. Fügen Sie eine oder mehrere Regeln hinzu, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Gehen Sie dazu folgendermaßen vor:
 
    1. Wählen Sie ein Elementattribut aus, das als Kriterium verwendet werden soll. Die Attributliste enthält alle im Katalogschema definierten standardmäßigen und benutzerdefinierten Attribute. [Weitere Informationen zum Elementkatalog](catalogs.md)
    1. Wählen Sie den gewünschten Operator aus und geben Sie den Wert ein, nach dem gefiltert werden soll.
    1. Wiederholen Sie diese Schritte gegebenenfalls, bis Sie die gewünschte Anzahl an Regeln hinzugefügt haben. Wenn mehrere Regeln hinzugefügt werden, können Sie zwischen den Operatoren **Und** und **Oder** wählen, um die Regeln zu kombinieren. Klicken Sie dazu auf das Operatorzeichen, um zwischen den beiden Optionen zu wechseln.
-   1. Klicken Sie auf **[!UICONTROL Vorschau der Sammlung]** -Schaltfläche, um die Elemente anzuzeigen, die den von Ihnen definierten Regeln entsprechen.
+   1. Klicken Sie auf die Schaltfläche **[!UICONTROL Sammlung in der Vorschau anzeigen]**, um die Elemente anzuzeigen, die den von Ihnen definierten Regeln entsprechen.
 
    ![](assets/collection-create.png)
 

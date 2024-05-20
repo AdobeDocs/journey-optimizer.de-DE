@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Twilio-Provider konfigurieren
-description: Erfahren Sie, wie Sie Ihre Umgebung für den Versand von Textnachrichten mit Journey Optimizer mit Twilio konfigurieren.
+title: Konfigurieren eines Twilio-Anbieters
+description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten mit Journey Optimizer mit Twilio konfigurieren
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: d6f74566-c913-4727-83b9-473a798a0158
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Twilio-Provider konfigurieren {#sms-configuration-twilio}
+# Konfigurieren eines Twilio-Anbieters {#sms-configuration-twilio}
 
-Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeinformationen erstellen, die für Twilio verwendet werden:
+Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldedaten für Twilio erstellen:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -31,5 +32,4 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldein
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS- und MMS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
-
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanaloberfläche für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)

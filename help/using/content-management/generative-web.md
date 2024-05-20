@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generieren von Webseiten mit dem AI-Assistenten
-description: Beginnen Sie mit der Generierung von Webseiteninhalt und -asset mit dem KI-Assistenten.
+title: Generierung von Web-Seiten mit dem KI-Assistenten
+description: Starten der Generierung des Web-Seiteninhalts und -Assets mit dem KI-Assistenten
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Generieren von Webseiten mit dem AI-Assistenten {#generative-web}
+# Generierung von Web-Seiten mit dem KI-Assistenten {#generative-web}
 
 >[!BEGINSHADEBOX]
 
@@ -25,14 +25,14 @@ ht-degree: 93%
 
 * [Erste Schritte mit dem KI-Assistenten](gs-generative.md)
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-email.md)
-* [Generierung von SMS mit dem KI-Assistenten](generative-SMS.md)
-* [Push-Generierung mit dem AI-Assistenten](generative-push.md)
-* Generieren von Webseiten mit dem AI-Assistenten
+* [SMS-Generierung mit dem KI-Assistenten](generative-SMS.md)
+* [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
+* Generierung von Web-Seiten mit dem KI-Assistenten
 * [Inhaltsexperiment mit dem KI-Assistenten](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Adobe Journey Optimizer mit generativer KI, um Ihren Inhalt auf die nächste Stufe zu bringen.
+Sobald Sie Ihre E-Mails erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer, der auf generativer KI basiert, auf die nächste Stufe bringen.
 
 Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem Ihnen verschiedene Inhalte vorgeschlagen werden, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
 
@@ -42,7 +42,7 @@ Der KI-Assistenten kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optim
 
 >[!BEGINTABS]
 
->[!TAB Vollständige Erstellung von Webseiten]
+>[!TAB Vollständige Generierung von Web-Seiten]
 
 Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail zu verfeinern und für ein besonderes Ereignis anzupassen.
 
@@ -99,7 +99,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail z
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
->[!TAB Texterstellung für Webseiten]
+>[!TAB Generierung von Text für Web-Seiten]
 
 Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer E-Mail-Einladung für unsere bevorstehende Veranstaltung zu verbessern.
 
@@ -160,7 +160,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie den E-Mail-Versand vorbereiten. [Weitere Informationen](../monitor/prepare-send.md)
 
->[!TAB Bildgenerierung von Webseiten]
+>[!TAB Bildgenerierung für Web-Seiten]
 
 Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 

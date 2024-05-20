@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung
-description: Erfahren Sie, wie Sie mehrsprachige Inhalte mit manueller Übersetzung in Journey Optimizer erstellen
+description: Erfahren Sie, wie Sie in Journey Optimizer mehrsprachige Inhalte mit manueller Übersetzung erstellen.
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Start, Inhalt, Experiment
+keywords: erste Schritte, Starten, Inhalt, Experiment
 hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beta" type="Informative"
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

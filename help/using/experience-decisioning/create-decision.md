@@ -1,6 +1,6 @@
 ---
-title: Entscheidungsrichtlinien erstellen
-description: Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen
+title: Erstellen von Entscheidungsrichtlinien
+description: Informationen dazu, wie Sie Entscheidungsrichtlinien erstellen
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -8,9 +8,9 @@ level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1481'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Was ist eine Entscheidung?"
->abstract="Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählen kann. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Experience Decisioning"
+>abstract="Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, mit der die Entscheidungs-Engine den besten Inhalt auswählt. Entscheidungsrichtlinen sind kampagnenspezifisch. Ihr Ziel ist es, die besten Angebote für jedes Profil auszuwählen, während Sie bei der Kampagnenerstellung angeben können, wie die ausgewählten Entscheidungselemente dargestellt werden sollen, einschließlich der in die Nachricht aufzunehmenden Elemente."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über die Erlebnis-Entscheidung"
 
-Entscheidungsrichtlinien sind Container für Angebote, die die Experience Decisioning-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
+Entscheidungsrichtlinien sind Container für Angebote, die die Erlebnis-Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
 
-Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählen kann. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen.
+Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, mit der die Entscheidungs-Engine den besten Inhalt auswählt. Entscheidungsrichtlinen sind kampagnenspezifisch. Ihr Ziel ist es, die besten Angebote für jedes Profil auszuwählen, während Sie bei der Kampagnenerstellung angeben können, wie die ausgewählten Entscheidungselemente dargestellt werden sollen, einschließlich der in die Nachricht aufzunehmenden Elemente.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheid
 
 Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer Code-basierten Kampagne eine Entscheidungsrichtlinie hinzu. Gehen Sie dazu wie folgt vor.
 
-1. Erstellen Sie eine Kampagne und wählen Sie die **[!UICONTROL Codebasiertes Erlebnis]** Aktion. [Weitere Informationen](../code-based/create-code-based.md)
+1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Aus dem [Code-Editor](../code-based/create-code-based.md#edit-code), wählen Sie die **[!UICONTROL Entscheidungspolitik]** Symbol und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
+1. Wählen Sie im [Code-Editor](../code-based/create-code-based.md#edit-code) das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -67,7 +67,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 1. Wählen Sie die Anzahl der Elemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise „2“ auswählen, werden die zwei am besten geeigneten Angebote für die aktuelle Oberfläche angezeigt. Klicken Sie auf **[!UICONTROL Weiter]**
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Strategie hinzufügen]**, um die Auswahlstrategien für Ihre Entscheidungsrichtlinie zu definieren. Jede Strategie besteht aus einer Angebotskollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangmethode zur Bestimmung der anzuzeigenden Angebote. [Weitere Informationen](selection-strategies.md)
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Strategie hinzufügen]**, um die Auswahlstrategien für Ihre Entscheidungsrichtlinie zu definieren. Jede Strategie besteht aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist und einer Rangfolgenmethode, mit der die anzuzeigenden Angebote bestimmt werden. [Weitere Informationen](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -75,7 +75,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
    >
    >Es ist mindestens eine Strategie erforderlich. Es können nicht mehr als 10 Strategien hinzugefügt werden.
 
-1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die **[!UICONTROL Auswahlstrategie erstellen]** Die Schaltfläche leitet Sie zum **[!UICONTROL Erlebnisentscheidung]** > **[!UICONTROL Strategiekonfiguration]** Menü. [Weitere Informationen](selection-strategies.md)
+1. Vom Bildschirm **[!UICONTROL Strategie hinzufügen]** aus können Sie ebenfalls eine Strategie erstellen. Die Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** leitet um zum Menü **[!UICONTROL Erlebnis-Entscheidung]** > **[!UICONTROL Strategie-Setup]**. [Weitere Informationen](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
@@ -168,7 +168,7 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Ausdruckseditor](../cod
 >
 >Code-basiertes Erlebnis nutzt den [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-1. Klicken Sie auf **[!UICONTROL Richtlinie einfügen]** Schaltfläche. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -176,13 +176,13 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Ausdruckseditor](../cod
    >
    >Diese Sequenz wird so oft wiederholt, wie Sie die Entscheidungsrichtlinie zurückgeben möchten. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
 
-1. Jetzt können Sie alle Entscheidungsattribute hinzufügen, die Sie in diesem Code hinzufügen möchten. Die verfügbaren Attribute werden im **[!UICONTROL Angebote]** -Schema des Katalogs. Benutzerdefinierte Attribute werden im Ordner **`_<imsOrg`>** und Standardattribute im Ordner **`_experience`** gespeichert. [Weitere Informationen zum Schema des Angebotskatalogs](catalogs.md)
+1. Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzufügen.  Die verfügbaren Attribute werden im Schema des Katalogs **[!UICONTROL Angebote]** gespeichert. Benutzerdefinierte Attribute werden im Ordner **`_<imsOrg`>** und Standardattribute im Ordner **`_experience`** gespeichert. [Weitere Informationen zum Schema des Angebotskatalogs](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
    >[!NOTE]
    >
-   >Bei der Entscheidungsrichtlinienelement-Verfolgung wird die `trackingToken`-Attribut für den Inhalt der Entscheidungsrichtlinie wie folgt hinzugefügt werden:
+   >Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken`wie folgt für den Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
    >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klicken Sie auf den gewünschten Ordner, um ihn zu erweitern. Platzieren Sie den Cursor an der gewünschten Position und klicken Sie auf das Symbol „+“ neben dem Attribut, das Sie hinzufügen möchten. Sie können beliebig viele Attribute zum Code hinzufügen.

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 >[!AVAILABILITY]
 >
->Diese Funktionen sind derzeit als Beta-Version verfügbar.
+>Diese Funktionen sind derzeit als Betaversion verfügbar.
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **Journeys**
 
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist derzeit als Beta-Version verfügbar. [Weitere Informationen](../action/action-response.md).
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist derzeit als Betaversion verfügbar. [Weitere Informationen](../action/action-response.md).
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 

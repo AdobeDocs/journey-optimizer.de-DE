@@ -1,27 +1,28 @@
 ---
-title: Kontextdaten in Experience Decisioning nutzen
-description: Erfahren Sie, wie Sie Kontextdaten in Experience Decisioning nutzen können.
+title: Nutzung von Kontextdaten in der Erlebnis-Entscheidung
+description: Erfahren Sie, wie Sie Kontextdaten in der Erlebnis-Entscheidung nutzen.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# Kontextdaten in Experience Decisioning nutzen {#context}
+# Nutzung von Kontextdaten in der Erlebnis-Entscheidung {#context}
 
-Mit Experience Decisioning können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen auszuführen, z. B. die Erstellung von [Entscheidungsregeln](rules.md) oder [Ranking-Formeln](ranking.md). Sie können beispielsweise eine Entscheidungsregel entwerfen, für die das aktuelle Wetter zum Zeitpunkt der Entscheidungsanforderung 80 Grad Celsius beträgt.
+Mit der Erlebnis-Entscheidung können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen auszuführen, wie z. B. die Erstellung von [Entscheidungsregeln](rules.md) oder [Rangfolgeformeln](ranking.md). Sie können zum Beispiel eine Entscheidungsregel entwerfen, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage  wärmer als 25 °C sein muss.
 
 >[!NOTE]
 >
->Kontextdaten werden in Adobe Experience Platform definiert und zum Zeitpunkt einer Entscheidungsanfrage gesendet. Sie enthält keine historischen Daten.
+>Kontextdaten werden in Adobe Experience Platform definiert und zum Zeitpunkt einer Entscheidungsanfrage gesendet. Historische Daten werden nicht berücksichtigt.
 
-Um Kontextdaten zu verwenden, müssen Sie zunächst die Daten definieren, die Sie in Experience Decisioning zur Verfügung stellen möchten. Danach werden diese Daten nahtlos in Experience Decisioning in der **[!UICONTROL Kontextdaten]** beim Erstellen einer Entscheidungsregel verfügbar. Sie können die Daten auch bei der Bearbeitung einer Rangformel nutzen.
+Für die Verwendung von Kontextdaten müssen Sie zunächst definieren, welche Daten Sie in der Erlebnis-Entscheidung zur Verfügung stellen möchten. Sobald dies geschehen ist, werden diese Daten nahtlos in die Erlebnis-Entscheidung auf der Registerkarte **[!UICONTROL Kontextdaten]** integriert, die beim Erstellen einer Entscheidungsregel verfügbar ist. Sie können die Daten auch bei der Bearbeitung einer Rangfolgeformel nutzen.
 
 ![](assets/decision-rules-context.png)
 

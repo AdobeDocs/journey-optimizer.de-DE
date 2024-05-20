@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,4 +88,4 @@ Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine Entscheidung dupli
 
 ## Änderungsprotokolle für Angebote und Entscheidungen {#changes-logs}
 
-[!DNL Journey Optimizer] ermöglicht Ihnen die Visualisierung aller Änderungen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Rufen Sie dazu die **[!UICONTROL Prüfungen]** Menü im linken Menü. [Erfahren Sie, wie Sie Aktionen auf Ressourcen prüfen können.](../../privacy/audit-logs.md)
+[!DNL Journey Optimizer] ermöglicht Ihnen das Anzeigen aller Änderungen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Rufen Sie dazu das Menü **[!UICONTROL Audits]** im linken Menü auf. [Erfahren Sie, wie Sie Aktionen auf Ressourcen prüfen.](../../privacy/audit-logs.md)

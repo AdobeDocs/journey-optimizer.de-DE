@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Nehmen wir beispielsweise ein Szenario, in dem Entscheidungselemente mit Yoga-be
 >
 >Zusätzlich zu den Entscheidungsregeln auf Element- und Auswahlstrategieebene können Sie auch Ihre gewünschte Zielgruppe auf Kampagnenebene definieren. [Weitere Informationen](../campaigns/create-campaign.md#audience)
 
-Die Liste der Entscheidungsregeln ist im **[!UICONTROL Strategiekonfiguration]** Menü.
+Die Liste der Entscheidungsregeln ist im Menü **[!UICONTROL Strategie-Setup]** verfügbar.
 
 ![](assets/decision-rules-list.png)
 
@@ -39,11 +39,11 @@ Die Liste der Entscheidungsregeln ist im **[!UICONTROL Strategiekonfiguration]**
 
 Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
-1. Navigieren Sie zu **[!UICONTROL Strategiekonfiguration]** / **[!UICONTROL Entscheidungsregeln]** Klicken Sie dann auf **[!UICONTROL Regel erstellen]** Schaltfläche.
+1. Navigieren Sie zu **[!UICONTROL Strategie-Setup]** > **[!UICONTROL Entscheidungsregeln]** und klicken Sie auf die Schaltfläche **[!UICONTROL Regel erstellen]**.
 
 1. Der Bildschirm zur Erstellung von Entscheidungsregeln wird geöffnet. Benennen Sie Ihre Regel und geben Sie eine Beschreibung an.
 
-1. Erstellen Sie die Entscheidungsregel nach Ihren Bedürfnissen mit dem Adobe Experience Platform Segment Builder. Zu diesem Zweck können Sie verschiedene Datenquellen wie Profilattribute, Zielgruppen oder Kontextdaten aus Adobe Experience Platform nutzen. [Erfahren Sie, wie Sie Kontextdaten nutzen](#context-data)
+1. Erstellen Sie die Entscheidungsregel nach Ihren Bedürfnissen mit dem Adobe Experience Platform Segment Builder. Zu diesem Zweck können Sie verschiedene Datenquellen wie Profilattribute, Zielgruppen oder Kontextdaten aus Adobe Experience Platform nutzen. [Erfahren Sie, wie Sie Kontextdaten nutzen](#context-data).
 
    ![](assets/decision-rules-build.png)
 

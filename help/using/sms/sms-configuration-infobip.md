@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren des Informationsanbieters
-description: Erfahren Sie, wie Sie Ihre Umgebung so konfigurieren, dass Textnachrichten und MMS mit Journey Optimizer mit Infobip gesendet werden.
+title: Konfigurieren eines Infobip-Anbieters
+description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten und MMS mit Journey Optimizer mit Infobip konfigurieren
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Konfigurieren des Informationsanbieters {#sms-configuration-infobip}
+# Konfigurieren eines Infobip-Anbieters {#sms-configuration-infobip}
 
-Gehen Sie wie folgt vor, um Infobi mit Journey Optimizer zu konfigurieren:
+Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]** und wählen Sie die **[!UICONTROL API-Anmeldeinformationen]** Menü. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]** aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
    ![](assets/sms_6.png)
 
-1. Konfigurieren Sie Ihre API-Anmeldeinformationen, wie unten beschrieben.
+1. Konfigurieren Sie Ihre API-Anmeldedaten, wie unten beschrieben.
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
@@ -53,4 +54,4 @@ Gehen Sie wie folgt vor, um Infobi mit Journey Optimizer zu konfigurieren:
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS- und MMS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanaloberfläche für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)

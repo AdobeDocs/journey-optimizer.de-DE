@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Jede Aktion wird mit Metadaten in „Audit-Protokollen“ aufgezeichnet, die in 
 
 ## Von Audit-Protokollen erfasste Ereignistypen {#events}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimizer-Ressourcen in Auditprotokollen aufgezeichnet werden. Die vollständige Liste der in den Audit-Protokollen erfassten Aktionen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de#category).
+In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimizer-Ressourcen in Audit-Protokollen aufgezeichnet werden.  Die vollständige Liste der in den Audit-Protokollen erfassten Aktionen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de#category).
 
 >[!NOTE]
 >
->Auditprotokolle zu **Entscheidungsmanagement** sind nur in der CSV-Datei sichtbar, die mit dem **[!UICONTROL Protokoll herunterladen]** Schaltfläche.
+>Auditprotokolle zum **Entscheidungs-Management** sind nur in der CSV-Datei sichtbar, die mit der Schaltfläche **[!UICONTROL Protokoll herunterladen]** heruntergeladen werden kann.
 
 | Ressource | Aktion |
 |-----------|------------------|

@@ -1,5 +1,5 @@
 ---
-title: Anwendungsfall für Experience Decisioning
+title: Anwendungsfall für die Erlebnis-Entscheidung
 description: Erfahren Sie, wie Sie Entscheidungen mithilfe von Experimenten mit dem Code-basierten Kanal erstellen.
 feature: Experience Decisioning
 topic: Integrations
@@ -7,13 +7,13 @@ role: User
 level: Intermediate, Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall für Experience Decisioning {#experience-decisioning-uc}
+# Anwendungsfall für die Erlebnis-Entscheidung {#experience-decisioning-uc}
 
 In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
@@ -21,7 +21,7 @@ In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils ei
 
 Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln einrichten und Rangfolgenmethoden festlegen. Mit diesen Elementen können Sie Auswahlstrategien erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Erlebnisentscheidungen]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
+1. Navigieren Sie zu **[!UICONTROL Erlebnis-Entscheidung]** > **[!UICONTROL Katalog]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -40,7 +40,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten.
 
-1. Erstellen Sie eine Kampagne und wählen Sie die **[!UICONTROL Codebasiertes Erlebnis]** Aktion. [Weitere Informationen](../code-based/create-code-based.md)
+1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis (Beta)]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
 1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../campaigns/content-experiment.md)
 

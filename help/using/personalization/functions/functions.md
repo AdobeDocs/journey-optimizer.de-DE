@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1872'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>konvertiert eine beliebige Zahl in ihre hexadezimale Zeichenfolge.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-int">ToInt</a></td><td>Konvertiert einen dieser Typen (Zahl, Doppel, int, lang, Gleitkommazahl, kurz, Byte, Boolescher Wert, Zeichenfolge) in eine Ganzzahl.</td>
+    <td><a href="math.md#to-int">ToInt</a></td><td>Konvertiert jeden dieser Typen (number, double, int, long, float, short, byte, boolean, string) in eine Ganzzahl.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">Zu Prozentwert</a></td><td>Diese Funktion wandelt eine Zahl in einen Prozentwert um.</td>

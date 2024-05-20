@@ -10,9 +10,9 @@ level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 
-## E-Mail-Tracking-Erfahrung-Ereignisdatensatz{#email-tracking-experience-event-dataset}
+## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
 
-_Name in der Benutzeroberfläche : AJO-E-Mail-Tracking-Erlebnis-Ereignisdatensatz_
+_Name in der Benutzeroberfläche: AJO Email Tracking Experience Event Dataset_
 
 Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
 
-Das zugehörige Schema ist das AJO-E-Mail-Tracking-Erlebnisereignis-Schema.
+Das zugehörige Schema ist das AJO Email Tracking Experience Event Schema.
 
 Diese Abfrage zeigt die Anzahl der verschiedenen E-Mail-Interaktionen (Öffnungen, Klicks) für eine bestimmte Nachricht:
 
@@ -72,11 +72,11 @@ limit 100;
 
 ## Nachrichten-Feedback-Ereignisdatensatz{#message-feedback-event-dataset}
 
-_Name in der Benutzeroberfläche: Datensatz des AJO-Nachrichten-Feedback-Ereignisses_
+_Name in der Benutzeroberfläche: AJO-Nachrichten-Feedback-Ereignisdatensatz_
 
 Datensatz zur Aufnahme von E-Mail- und Push-Anwendungs-Feedback-Ereignissen aus Journey Optimizer.
 
-Das zugehörige Schema ist das AJO Message Feedback-Ereignisschema.
+Das zugehörige Schema ist das AJO-Nachrichten-Feedback-Ereignis-Schema.
 
 Diese Abfrage zeigt die Anzahl unterschiedlicher E-Mail-Feedback-Status (gesendet, gebounct usw.) für eine bestimmte Nachricht:
 
@@ -168,13 +168,13 @@ Das Datumsformat lautet dabei: `YYYY-MM-DD HH:MM:SS`.
 
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
-## Push-Tracking-Erlebnisereignis-Datensatz {#push-tracking-experience-event-dataset}
+## Push Tracking Experience Event Dataset {#push-tracking-experience-event-dataset}
 
-_Name in der Benutzeroberfläche: AJO Push Tracking Experience Event Datensatz_
+_Name in der Benutzeroberfläche: AJO Push Tracking Experience Event Dataset_
 
 Datensatz für die Aufnahme von Mobile-Tracking-Erlebnisereignissen für Push von Journey Optimizer.
 
-Das zugehörige Schema ist das AJO Push Tracking Experience Event-Schema.
+Das zugehörige Schema ist das AJO-Push-Tracking-Erlebnisereignis-Schema.
 
 Abfragebeispiel:
 

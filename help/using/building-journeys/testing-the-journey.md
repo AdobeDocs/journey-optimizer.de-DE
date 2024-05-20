@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
-1. Um den Testmodus zu aktivieren, klicken Sie auf die Schaltfläche **[!UICONTROL Testmodus]** -Schaltfläche in der oberen rechten Ecke.
+1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf die Schaltfläche **[!UICONTROL Testmodus]**.
 
    ![](assets/journeytest1.png)
 

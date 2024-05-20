@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -97,9 +97,9 @@ Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, also 9e.
 {%= toHexString(158) %}
 ```
 
-## In {#to-int}
+## To Int {#to-int}
 
-Die `toInt` -Funktion wird verwendet, um einen dieser Typen (Zahl, Doppel, int, lang, Gleitkommazahl, kurz, Byte, boolescher Wert, Zeichenfolge) in eine Ganzzahl zu konvertieren.
+Die Funktion `toInt` wird verwendet, um einen dieser Typen (number, double, int, long, float, short, byte, boolean, string) in eine Ganzzahl zu konvertieren.
 
 **Syntax**
 
@@ -109,7 +109,7 @@ Die `toInt` -Funktion wird verwendet, um einen dieser Typen (Zahl, Doppel, int, 
 
 **Beispiel**
 
-Diese Abfrage gibt den ganzzahligen Wert von 42,6, d. h. 42 zurück.
+Diese Abfrage gibt den Ganzzahlanteil von 42,6 zurück, also 42.
 
 ```sql
 {%= toInt(42.6) %}: integer

@@ -1,18 +1,18 @@
 ---
 title: Reporting in Customer Journey Analytics
-description: Erfahren Sie, wie Sie Reporting unter Customer Journey Analytics durchführen.
+description: Erfahren Sie, wie Sie Berichte in Customer Journey Analytics erstellen.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # Reporting in Customer Journey Analytics {#cja}
 

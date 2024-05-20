@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgeno
 
 >[!NOTE]
 >
->Diese Funktion ist standardmäßig nicht aktiviert. Sie können sich an Ihren Adobe-Kundenbetreuer wenden, um ihn zu aktivieren.
+>Diese Funktion ist standardmäßig nicht aktiviert. Sie können sich an den Adobe-Support wenden, um sie zu aktivieren.
 
 ### Anmerkungen zur Optimierung des Versandzeitpunkts {#about-send-time}
 

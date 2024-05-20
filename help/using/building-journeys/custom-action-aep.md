@@ -1,33 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in AEP
-description: Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in AEP
+title: Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in AEP
+description: Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in AEP
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Anwendungsfall: Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform{#custom-action-aep}
 
-# Anwendungsbeispiel: Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform{#custom-action-aep}
-
-In diesem Anwendungsbeispiel wird beschrieben, wie Sie benutzerdefinierte Ereignisse mithilfe von benutzerdefinierten Aktionen und authentifizierten Aufrufen aus Journey in Adobe Experience Platform schreiben.
+In diesem Anwendungsfall wird erläutert, wie Sie mithilfe von benutzerdefinierten Aktionen und authentifizierten Aufrufen benutzerdefinierte Ereignisse aus Journeys in Adobe Experience Platform schreiben.
 
 ## Konfigurieren eines IO-Projekts
 
 1. Klicken Sie in der Adobe Developer Console auf **Projekt** und öffnen Sie Ihr IO-Projekt.
 
-1. Im **Anmeldeinformationen** Abschnitt, klicken Sie auf **OAuth Server-zu-Server**.
+1. Klicken Sie im Abschnitt **Anmeldedaten** auf **OAuth Server-to-Server**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Klicks **cURL anzeigen, Befehl**.
+1. Klicken Sie auf **cURL-Befehl anzeigen**.
 
    ![](assets/custom-action-aep-2.png)
 
@@ -37,23 +37,23 @@ In diesem Anwendungsbeispiel wird beschrieben, wie Sie benutzerdefinierte Ereign
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
 
-## Konfigurieren der Quelle mithilfe des HTTP-API-Inlets
+## Konfigurieren der Quelle mit dem HTTP-API-Inlet
 
-1. Erstellen Sie einen Endpunkt in Adobe Experience Platform, um die Daten aus Journey zu schreiben.
+1. Erstellen Sie einen Endpunkt in Adobe Experience Platform, um die Daten aus Journeys zu schreiben.
 
-1. Klicken Sie in Adobe Experience Platform auf **Quellen**, unter **Verbindungen** im linken Menü. under **HTTP-API** klicken **Daten hinzufügen**.
+1. Klicken Sie in Adobe Experience Platform im linken Menü unter **Verbindungen** auf **Quellen**. Klicken Sie unter **HTTP API** auf **Daten hinzufügen**.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Auswählen **Neues Konto** und aktivieren Sie die Authentifizierung. Klicken Sie auf **Verbindung mit Quelle herstellen**.
+1. Wählen Sie **Neues Konto** aus und aktivieren Sie die Authentifizierung. Klicken Sie auf **Mit der Quelle verbinden**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Klicken Sie auf **Nächste** und wählen Sie den Datensatz aus, in den Sie die Daten schreiben möchten. Klicks **Nächste** und **Beenden**.
+1. Klicken Sie auf **Weiter** und wählen Sie den Datensatz aus, in den Sie die Daten schreiben möchten. Klicken Sie auf **Weiter** und **Beenden**.
 
    ![](assets/custom-action-aep-5.png)
 
-1. Öffnen Sie den neu erstellten Datenfluss. Kopieren Sie die Schema-Payload und speichern Sie sie in Ihrem Notebook.
+1. Öffnen Sie den neu erstellten Datenfluss. Kopieren Sie die Schema-Payload und speichern Sie sie in Ihrem Notepad.
 
 ```
 {
@@ -90,21 +90,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Benutzerdefinierte Aktion konfigurieren
+## Konfigurieren einer benutzerdefinierten Aktion
 
-1. Öffnen Sie Adobe Journey Optimizer und klicken Sie auf **Konfigurationen**, unter **Administration** im linken Menü. under **Aktionen** klicken **Verwalten** und klicken **Aktion erstellen**.
+1. Öffnen Sie Adobe Journey Optimizer und klicken Sie im linken Menü unter **Administration** auf **Konfigurationen**. Klicken Sie unter **Aktionen** auf **Verwalten** und dann auf **Aktion erstellen**.
 
-1. Legen Sie die URL fest und wählen Sie die Methode Post aus.
+1. Legen Sie die URL fest und wählen Sie die POST-Methode.
 
    `https://dcs.adobedc.net/collection/<collection_id>?syncValidation=false`
 
-1. Stellen Sie sicher, dass die Kopfzeilen (Inhaltstyp, Zeichensatz, Sandbox-Name) konfiguriert sind.
+1. Stellen Sie sicher, dass die Kopfzeilen (Content-Type, Charset, sandbox-name) konfiguriert sind.
 
    ![](assets/custom-action-aep-7bis.png)
 
 ### Einrichten der Authentifizierung
 
-1. Wählen Sie die **Typ** as **Benutzerdefiniert** mit der folgenden Payload.
+1. Wählen Sie den **Typ** als **Benutzerdefiniert** mit der folgenden Payload.
 
 1. Fügen Sie client_secret, client_id, scope und grant_type (aus der zuvor verwendeten IO-Projekt-Payload) ein.
 
@@ -132,13 +132,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Verwenden Sie die **Klicken Sie auf , um die Authentifizierung zu testen** Schaltfläche zum Testen der Verbindung.
+1. Verwenden Sie die Schaltfläche **Zum Testen der Authentifizierung hier klicken**, um die Verbindung zu testen.
 
    ![](assets/custom-action-aep-8.png)
 
 ### Einrichten der Payload
 
-1. Im **Anfrage** und **Reaktion** -Felder die Payload aus der zuvor verwendeten Quellverbindung einfügen.
+1. Fügen Sie die Payload aus der zuvor verwendeten Quellverbindung in die Felder **Anfrage** und **Antwort** ein.
 
    ```
    {
@@ -163,14 +163,12 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Ändern Sie die Feldkonfiguration unter **Konstante** nach **Variable** für Felder, die dynamisch ausgefüllt werden. Speichern Sie die benutzerdefinierte Aktion.
+1. Ändern Sie die Feldkonfiguration von **Konstant** in **Variabel** für Felder, die dynamisch ausgefüllt werden. Speichern Sie die benutzerdefinierte Aktion.
 
 ## Journey
 
-1. Verwenden Sie abschließend diese benutzerdefinierte Aktion in einer Journey, um die benutzerdefinierten Journey-Ereignisse zu schreiben.
+1. Verwenden Sie schließlich diese benutzerdefinierte Aktion in einer Journey, um die benutzerdefinierten Journey-Ereignisse zu schreiben.
 
-1. Füllen Sie die Journey-Version-ID, Knoten-ID, Knotenname und andere Attribute gemäß Ihrem Anwendungsfall aus.
+1. Füllen Sie Attribute wie Journey Version Id, Node Id, Node Name und andere entsprechend Ihrem Anwendungsfall aus.
 
    ![](assets/custom-action-aep-9.png)
-
-

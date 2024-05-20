@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
    >[!NOTE]
    >
-   >Nur alphanumerische Zeichen und Unterstriche sind zulässig. Die maximale Länge beträgt 30 Zeichen.
+   >Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.
 
 1. Fügen Sie Ihrer Datenquelle eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Fügen Sie die URL des externen Dienstes hinzu. In unserem Beispiel: _https://api.adobeweather.org/weather_.
@@ -86,7 +86,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
    ![](assets/journey28.png)
 
-1. Fügen Sie für jeden API-Parametersatz eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Im Namen der Feldergruppe sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
+1. Fügen Sie für jeden API-Parametersatz eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Im Namen der Feldergruppe sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.  In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
 
 Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den folgenden Informationen:
 
