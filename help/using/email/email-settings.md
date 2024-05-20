@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -45,11 +45,11 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 >title="Definieren des E-Mail-Typs"
 >abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
-Im **Email Type** wählen Sie den Nachrichtentyp für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**.
+Wählen Sie im Abschnitt **Email-Typ** die Art der Nachricht für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
 
-* Auswählen **Marketing** für Werbe-E-Mails, z. B. wöchentliche Promotions für einen Einzelhandelsgeschäft. Diese Nachrichten erfordern die Zustimmung der Benutzerin bzw. des Benutzers.
+* Wählen Sie **Marketing** für Werbe-E-Mails aus, z. B. für wöchentliche Werbeaktionen eines Einzelhandelsgeschäfts. Diese Nachrichten erfordern die Zustimmung der Person.
 
-* Auswählen **Transactional** für nicht kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **storniert** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+* Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails aus, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Passworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **storniert** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
 Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
@@ -62,7 +62,7 @@ Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunige
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 
-## IP-Pooldetails {#ip-pools}
+## Details des IP-Pools {#ip-pools}
 
 
 Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
@@ -81,17 +81,17 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 >
 >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
-## List unsubscribe {#list-unsubscribe}
+## Abmelden von der Liste {#list-unsubscribe}
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
-Diese Option ist standardmäßig aktiviert. Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
+Diese Option ist standardmäßig aktiviert. Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird kein Abmelde-Link im E-Mail-Header angezeigt.
+Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile kein Abmelde-Link angezeigt.
 
-Sie können die Einverständnisebene aus der **Einverständnisebene** Dropdown-Liste. Sie kann spezifisch für den Kanal oder die Profilidentität sein. Wenn sich ein Benutzer anhand dieser Einstellung über den Link zum Abmelden vom Listenkopf einer E-Mail abmeldet, wird die Zustimmung in Adobe Journey Optimizer entweder auf der Kanalebene oder auf der ID-Ebene aktualisiert.
+Sie können die Einverständnisstufe aus der Dropdown-Liste **Einverständnisstufe** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über den Link zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
 Der Abmelde-Link besteht aus zwei Elementen:
 

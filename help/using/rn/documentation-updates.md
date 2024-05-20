@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Mai 2024 {#may-2024}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. April wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version April 2024 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 
 
 ## April 2024 {#april-2024}
@@ -30,10 +30,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Dokumentationen für [Angebotsentscheidungs-APIs](../offers/api-reference/offer-delivery-api/decisioning-api.md) und [Batch-Entscheidungsfindungs-APIs](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) wurden aktualisiert.
 * In der Dokumentation zum Entscheidungs-Management wurden Informationen zur Verwaltung von Edge- und Hub-Regionen bei Verwendung der Frequenzbegrenzung mit der Edge Decisioning-API hinzugefügt. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 * Es wurden Informationen zur Identitätserstellung mit benutzerdefinierten Namespaces beim Arbeiten mit von APIs ausgelösten Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
-* Screenshots wurden aktualisiert, um die verbesserte Journey-Arbeitsfläche widerzuspiegeln.
-* Namensbeschränkungen wurden auf der folgenden Seite aktualisiert: [Einzelereignisse konfigurieren](../event/about-creating.md), [Business-Ereignis konfigurieren](../event/about-creating-business.md#gs-business-events), [Benutzerdefinierte Aktion konfigurieren](../action/about-custom-action-configuration.md#configuration-steps), [Externe Datenquellen](../datasource/external-data-sources.md)
+* Die Screenshots wurden aktualisiert, um die verbesserte Journey-Arbeitsfläche widerzuspiegeln.
+* Die Namensbeschränkungen wurden auf den folgenden Seiten aktualisiert: [Konfigurieren eines unitären Ereignisses](../event/about-creating.md), [Konfigurieren eines Geschäftsereignisses](../event/about-creating-business.md#gs-business-events), [Konfigurieren einer benutzerdefinierten Aktion](../action/about-custom-action-configuration.md#configuration-steps), [Externe Datenquellen](../datasource/external-data-sources.md)
 * Es wurde ein Hinweis zur Verfügbarkeit der Sendezeitoptimierung hinzugefügt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
-* Ein neues technisches Anwendungsbeispiel wurde hinzugefügt, in dem beschrieben wird, wie eine benutzerdefinierte Aktion zum Senden von Daten an Experience Platform erstellt wird - [Weitere Informationen](../building-journeys/custom-action-aep.md)
+* Es wurde ein neuer technischer Anwendungsfall hinzugefügt, in dem beschrieben wird, wie eine benutzerdefinierte Aktion zum Senden von Daten an Experience Platform erstellt wird.  [Weitere Informationen](../building-journeys/custom-action-aep.md)
 
 ## März 2024 {#march-2024}
 

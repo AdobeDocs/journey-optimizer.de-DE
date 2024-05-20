@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 97%
          + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
          + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
-         + [Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Kampagnen{#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
@@ -230,11 +230,11 @@ ht-degree: 97%
    + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
    + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
    + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
-   + SMS-/MMS-Kanal konfigurieren{#configure-sms}
+   + Konfigurieren des SMS-/MMS-Kanals{#configure-sms}
       + [Erste Schritte bei der SMS-Konfiguration](using/sms/sms-configuration.md)
-      + [Konfigurieren eines einzelnen Anbieters](using/sms/sms-configuration-sinch.md)
-      + [Konfigurieren des Informationsanbieters](using/sms/sms-configuration-infobip.md)
-      + [Twilio-Provider konfigurieren](using/sms/sms-configuration-twilio.md)
+      + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
+      + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
+      + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
       + [Erstellen einer SMS-Oberfläche](using/sms/sms-configuration-surface.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
@@ -271,7 +271,7 @@ ht-degree: 97%
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
-   + Zusammenarbeit mit der KI-Assistenzkraft{#ai-assistant}
+   + Arbeiten mit dem KI-Assistenten{#ai-assistant}
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
       + [Generierung von E-Mails](using/content-management/generative-email.md)
       + [Generierung von Push-Benachrichtungen](using/content-management/generative-push.md)
@@ -375,7 +375,7 @@ ht-degree: 97%
    + [Warnhinweise](using/reports/alerts.md)
    + [Arbeiten mit Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Ausschlussgründe](using/reports/exclusion-list.md)
-+ Entscheidungsfindung {#decisioning}
++ Decisioning {#decisioning}
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -515,16 +515,16 @@ ht-degree: 97%
             + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
-      + [Erste Schritte mit Erlebnis-Entscheidung](using/experience-decisioning/gs-experience-decisioning.md)
+   + Erlebnis-Entscheidung (LA) {#experience-decisioning}
+      + [Erste Schritte mit der Erlebnis-Entscheidung](using/experience-decisioning/gs-experience-decisioning.md)
       + Verwalten von Entscheidungselementen {#decision-items}
-         + [Elementkatalog konfigurieren](using/experience-decisioning/catalogs.md)
+         + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
          + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
-         + [Verwalten von Elementkollektionen](using/experience-decisioning/collections.md)
-      + Elementauswahl konfigurieren {#selection}
+         + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
+      + Konfigurieren der Elementauswahl {#selection}
          + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
-         + [Erstellen von Rangfolgemethoden](using/experience-decisioning/ranking.md)
-         + [Kontextdaten nutzen](using/experience-decisioning/context-data.md)
+         + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking.md)
+         + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
       + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
       + [Reporting in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
@@ -593,7 +593,7 @@ ht-degree: 97%
       + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
       + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
       + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
-      + [Berechtigungsebenen](using/administration/high-low-permissions.md)
+      + [Berechtigungsstufen](using/administration/high-low-permissions.md)
    + [Verwalten von Benutzenden und Produkten](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)

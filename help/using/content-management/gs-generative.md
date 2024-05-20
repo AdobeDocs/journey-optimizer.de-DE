@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 85%
 
 * Erste Schritte mit dem KI-Assistenten
 * [Generierung von E-Mails mit dem KI-Assistenten](generative-email.md)
-* [Generierung von SMS mit dem KI-Assistenten](generative-sms.md)
-* [Push-Generierung mit dem AI-Assistenten](generative-push.md)
+* [SMS-Generierung mit dem KI-Assistenten](generative-sms.md)
+* [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
 * [Inhaltsexperiment mit dem KI-Assistenten](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Der KI-Assistent in Adobe Journey Optimizer ist derzeit als Beta-Version verfügbar, über die nur ausgewählte Benutzer ausgewählt werden können.
+>Der KI-Assistent in Adobe Journey Optimizer ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
 
-Der KI-Assistent in Adobe Journey Optimizer liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Sie ist für die Kanäle E-Mail, Push und SMS verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
+Der KI-Assistent in Adobe Journey Optimizer liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
 
 Sie können den KI-Assistenten in Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../campaigns/content-experiment.md).
 
 ## Leitlinien und Einschränkungen {#generative-guardrails}
 
-Die allgemeinen Richtlinien für die Verwendung des AI-Assistenten in Journey Optimizer zur E-Mail-Generierung sind unten aufgeführt:
+Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten in Journey Optimizer für die E-Mail-Generierung aufgeführt:
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie eine gut definierte Eingabeaufforderung, damit das generative KI-Modell korrekt implementiert wird. 
 * Laden Sie Marken-Assets hoch, um genaue Informationen zu Markeninhalten zu haben. Andernfalls basieren Inhalte auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann folgende Formate haben: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
@@ -69,7 +69,7 @@ Die allgemeinen Richtlinien für die Verwendung des AI-Assistenten in Journey Op
 * Denken Sie daran, problematische Ausgaben zu melden, indem Sie bei der Auswahl von Varianten die Symbole mit dem Daumen nach oben, dem Daumen nach unten oder andere Kennzeichnungssymbole verwenden.
 * Ihre Nutzung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
-Die folgenden Einschränkungen gelten für den AI-Assistenten in Journey Optimizer:
+Die folgenden Einschränkungen gelten für den KI-Assistenten in Journey Optimizer:
 
 * Unterstützte Sprache ist nur Englisch.
 * Nur für den E-Mail-, Push- und SMS-Kanal verfügbar.
@@ -82,7 +82,7 @@ Die folgenden Einschränkungen gelten für den AI-Assistenten in Journey Optimiz
 <img alt="Generierung von E-Mails" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>E-Mail-Erzeugung</strong></a>
+<a href="generative-email.md"><strong>Generierung von E-Mails</strong></a>
 </div>
 <p>
 </td>
@@ -90,7 +90,7 @@ Die folgenden Einschränkungen gelten für den AI-Assistenten in Journey Optimiz
 <a href="generative-sms.md">
 <img alt="Generierung von SMS" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>SMS-Generierung</strong>
+<div><a href="generative-sms.md"><strong>Generierung von SMS</strong>
 </div>
 <p>
 </td>
@@ -99,7 +99,7 @@ Die folgenden Einschränkungen gelten für den AI-Assistenten in Journey Optimiz
 <img alt="Generierung von Push-Benachrichtungen" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generieren von Push-Benachrichtigungen</strong></a>
+<a href="generative-push.md"><strong>Generierung von Push-Benachrichtigungen</strong></a>
 </div>
 <p></td>
 </tr></table>
