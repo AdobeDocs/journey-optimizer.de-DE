@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Was ist eine Entscheidung?"
->abstract="Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählt. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen, während das Kampagnen-Authoring Ihnen ermöglicht, anzugeben, wie die ausgewählten Entscheidungselemente präsentiert werden sollen, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Experience Decisioning"
+>abstract="Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählen kann. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Experience Decisioning"
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Experience Decisioning-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
 
-Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählt. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen, während das Kampagnen-Authoring Ihnen ermöglicht, anzugeben, wie die ausgewählten Entscheidungselemente präsentiert werden sollen, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen.
+Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheidungs-Engine den besten Inhalt auswählen kann. Entscheidungsrichtlinien sind kampagnenspezifisch. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen.
 
 >[!NOTE]
 >
@@ -46,8 +46,8 @@ Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, damit die Entscheid
 >id="ajo_code_based_strategy"
 >title="Was ist eine Strategie?"
 >abstract="Die Abfolge der Auswahlstrategie bestimmt, welche Strategie zuerst bewertet wird. Es ist mindestens eine Strategie erforderlich. Entscheidungspunkte in kombinierten Strategien werden gemeinsam bewertet."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Erstellen von Strategien"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Bewertungsreihenfolge"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Erstellen von Strategien"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Bewertungsreihenfolge"
 
 Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer Code-basierten Kampagne eine Entscheidungsrichtlinie hinzu. Gehen Sie dazu wie folgt vor.
 

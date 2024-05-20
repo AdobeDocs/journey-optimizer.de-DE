@@ -10,7 +10,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 37%
+ht-degree: 51%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Erstellen von Ranglistenformeln"
->abstract="Mithilfe von Formeln kann festgelegt werden, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen. Nachdem eine Rangmethode erstellt wurde, können Sie sie einer Auswahlstrategie zuweisen, um festzulegen, welche Elemente zuerst ausgewählt werden sollen."
+>abstract="Mithilfe von Formeln kann festgelegt werden, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen. Nachdem eine Rangfolgenmethode erstellt wurde, kann sie einer Auswahlstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen."
 
-Mit Rangfolgemethoden können Elemente nach Rang geordnet werden, die für ein bestimmtes Profil angezeigt werden sollen. Nachdem eine Rangmethode erstellt wurde, können Sie sie einer Auswahlstrategie zuweisen, um festzulegen, welche Elemente zuerst ausgewählt werden sollen.
+Mit Rangfolgemethoden können Elemente nach Rang geordnet werden, die für ein bestimmtes Profil angezeigt werden sollen. Nachdem eine Rangfolgenmethode erstellt wurde, kann sie einer Auswahlstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen.
 
 Es stehen zwei Arten von Rangfolgemethoden zur Verfügung:
 

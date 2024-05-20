@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definieren von Auswahlstrategien"
->abstract="Eine Auswahlstrategie kann wiederverwendet werden. Sie besteht aus einer Kollektion, die einer Eignungsbegrenzung zugeordnet ist, und einer Rangliste, mit der die in einer Entscheidungsrichtlinie anzuzeigenden Angebote bestimmt werden."
+>abstract="Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist sowie auch mit einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer Entscheidungsrichtlinie ausgewählt sind."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
 
 >[!CONTEXTUALHELP]
