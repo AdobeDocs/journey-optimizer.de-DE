@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,19 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Die April-Version ist live!]
+>[!TAB Die Version vom Mai ist live!]
 
-Entdecken Sie die neuen Funktionen und Verbesserungen der Adobe Journey Optimizer-Version 24.3.
+Entdecken Sie neue Funktionen und Verbesserungen der Adobe Journey Optimizer-Mai-Version.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Erlebnisentscheidung]
+
+Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als &quot;Entscheidungselemente&quot;bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet.
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
 
 >[!TAB Neues Journey-Erlebnis]
 
@@ -33,14 +41,6 @@ Diese Version enthält eine verbesserte Benutzeroberfläche der Arbeitsfläche f
 ![](using/rn/assets/new-canvas3.gif)
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB MMS für alle Anbieter]
-
-Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. MMS war ursprünglich nur mit Sinch verfügbar, aber ist jetzt auch mit Infobip und Twilio verfügbar.
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
