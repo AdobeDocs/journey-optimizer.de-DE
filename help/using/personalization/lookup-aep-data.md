@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Ausdruc
 
 1. Öffnen Sie den Ausdruckseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie mehr über die Arbeit mit dem Ausdruckseditor](../personalization/personalization-build-expressions.md)
 
-1. Navigieren Sie zur Liste der Hilfsfunktionen und fügen Sie die **MultiEntity** Hilfsfunktion zum Codebereich hinzu.
+1. Navigieren Sie zur Liste der Hilfsfunktionen und fügen Sie die **datasetLookup** Hilfsfunktion zum Codebereich hinzu.
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Ausdruc
 
    * **entity.datasetId** ist die ID des Datensatzes, mit dem Sie arbeiten,
    * **id** ist das Feld, das als primäre Identität im Datensatz verwendet wird;
+
+     >[!NOTE]
+     >
+     >Der für dieses Feld eingegebene Wert kann entweder die Feld-ID (*profile.couponValue*), ein Feld, das in einem Journey-Ereignis (*context.Journey.events.event_ID.couponValue*) oder einem statischen Wert (*couponAbcd*). In jedem Fall verwendet das System den Wert und sucht in den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
+
    * **result** ist ein beliebiger Name, den Sie bereitstellen müssen, um auf alle Feldwerte zu verweisen, die Sie aus dem Datensatz abrufen werden. Dieser Wert wird in Ihrem Code verwendet, um jedes Feld aufzurufen.
 
    +++ Wo kann ich eine Datensatz-ID abrufen?
