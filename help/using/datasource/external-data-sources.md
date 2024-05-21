@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1531'
-ht-degree: 100%
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+workflow-type: tm+mt
+source-wordcount: '1541'
+ht-degree: 99%
 
 ---
 
@@ -139,7 +139,7 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
 >
 >**Diese Authentifizierung besteht aus zwei Teilen.**
 
-### Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffs-Token zu generieren
+### Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffs-Token zu generieren{#custom-authentication-endpoint}
 
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
@@ -148,7 +148,7 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
    * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel-Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
    * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
-### Die Definition der Art und Weise, wie das Zugriffs-Token in die HTTP-Anfrage der Aktion eingefügt werden muss
+### Die Definition der Art und Weise, wie das Zugriffs-Token in die HTTP-Anfrage der Aktion eingefügt werden muss{#custom-authentication-access-token}
 
 * authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
@@ -189,6 +189,10 @@ Das Format dieser Authentifizierung ist:
 }
 ```
 
+>[!NOTE]
+>
+>Encode64 ist die einzige Funktion, die in der Authentifizierungs-Payload verfügbar ist.
+
 Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter „cacheDuration“ definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
 
 Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
@@ -198,7 +202,7 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

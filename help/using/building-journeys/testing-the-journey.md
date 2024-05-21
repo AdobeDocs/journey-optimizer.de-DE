@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 100%
 
@@ -71,6 +71,10 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
 * Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 * Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 

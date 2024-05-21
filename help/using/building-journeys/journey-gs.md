@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
+workflow-type: tm+mt
+source-wordcount: '2086'
+ht-degree: 96%
 
 ---
 
@@ -211,6 +211,21 @@ Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Jou
 Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
 Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
+
+### Zusammenführungsrichtlinien {#merge-policies}
+
+Journey verwendet beim Abrufen von Profildaten aus Adobe Experience Platform Zusammenführungsrichtlinien. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
+
+* In Journey Lesen der Audience- oder Audience-Qualifizierung wird die Zusammenführungsrichtlinie aus der Audience verwendet
+* In ereignisgesteuerten Journey: Die standardmäßige Zusammenführungsrichtlinie wird verwendet.
+
+Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie.
+
+>[!NOTE]
+>
+>Diese Funktion ist nur für ausgewählte Kunden mit eingeschränkter Verfügbarkeit (LA) verfügbar.
+
+Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie in diesem Abschnitt [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
 

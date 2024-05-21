@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1605'
-ht-degree: 100%
+source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 97%
 
 ---
 
@@ -61,14 +61,18 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
    >
    >Wenn Sie den Typ **[!UICONTROL Systemgeneriert]** auswählen, sind nur Schemata mit dem Feld vom Typ „eventID“ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
 
-1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
+1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Definieren Sie mithilfe des einfachen oder erweiterten Ausdruckseditors die Bedingung, die vom System verwendet wird, um die Ereignisse zu identifizieren, die auf Ihre Journey Trigger werden.
    ![](assets/jo-event6.png)
+
+   >[!NOTE]
+   >
+   >Der erweiterte Ausdruckseditor in der Ereigniskonfiguration ist in der eingeschränkten Verfügbarkeit für ausgewählte Kunden verfügbar.
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils verwendet. Dies bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (Feld **[!UICONTROL Stadt]** und Wert **[!UICONTROL Paris]**), dieses an Journeys weiterleitet.
 
    >[!NOTE]
    >
-   >Der erweiterte Ausdruckseditor ist beim Definieren der **[!UICONTROL Ereignis-ID-Bedingung]** nicht verfügbar. Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar. Sie hängen vom Datentyp ab. Beispielsweise können Sie für ein Feld vom Typ Zeichenfolge „enthält“ oder „ist gleich“ verwenden.
+   >Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar. Sie hängen vom Datentyp ab. Beispielsweise können Sie für ein Feld vom Typ Zeichenfolge „enthält“ oder „ist gleich“ verwenden.
    >
    >Wenn Sie Ihr Schema nach der Erstellung des Ereignisses durch neue Auflistungswerte ändern, müssen Sie die folgenden Schritte ausführen, um die Änderungen auf das vorhandene Ereignis anzuwenden: Deaktivieren Sie das Auflistungsfeld in den Ereignisfeldern, bestätigen Sie die Auswahl und wählen Sie das Auflistungsfeld erneut aus. Der neue Auflistungswert wird jetzt angezeigt.
 

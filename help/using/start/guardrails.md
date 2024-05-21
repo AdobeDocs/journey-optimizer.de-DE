@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2065'
+ht-degree: 97%
 
 ---
 
@@ -64,6 +64,7 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 * Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 * Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
+* Zusätzlich zu der Zeitüberschreitung, die in Journey-Aktivitäten verwendet wird, gibt es auch eine globale Journey-Zeitüberschreitung, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese globale Zeitüberschreitung stoppt den Fortschritt von Individuen in der Journey 30 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-gs.md#global_timeout)
 
 
 ### Allgemeine Aktionen {#general-actions-g}

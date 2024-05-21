@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 91%
 
 ---
 
@@ -69,11 +69,15 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
 1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, wie z. B. das Definieren der Kampagneneigenschaften, der [Zielgruppe](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> und des [Inhalts](../email/get-started-email-design.md#key-steps).
 
+   Beachten Sie, dass Sie eine regelbasierte Zielgruppe für Ihre IP-Warmup-Kampagne auswählen müssen. [Weitere Informationen](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie die Kampagne. Der Status ändert sich in **[!UICONTROL Live]**
+
+   Beachten Sie, dass Geschäftsregeln nicht für IP-Aufwärmspläne verwendet werden sollten. Die Anwendung dieser Regeln könnte das Erreichen der gewünschten Anzahl von Zielgruppenprofilen für Kampagnen behindern.
 
    >[!NOTE]
    >

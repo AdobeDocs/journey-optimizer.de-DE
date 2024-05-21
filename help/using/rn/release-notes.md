@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
-source-wordcount: '675'
-ht-degree: 100%
+source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 47%
 
 ---
 
@@ -26,9 +26,15 @@ ht-degree: 100%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Aktualisierungen im Mai {#may-updates}
 
-**Verfügbarkeitsdatum**: 7. Mai 2024
+## Versionshinweise Mai 2024 {#may-2024}
+
+**Veröffentlichungsdatum**: 21.-22. Mai 2024
+
+### Neue Funktionen {#e-features}
+
+Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
+
 
 <table>
 <thead>
@@ -49,30 +55,18 @@ ht-degree: 100%
 </tbody>
 </table>
 
-Von der Beta-Version bis zur LA-Version wurden die folgenden Verbesserungen hinzugefügt:
-
-* **Erlebnis-Entscheidung und Code-basierte Erlebnisse (LA)**: Sie können jetzt die Funktion „Erlebnis-Entscheidung“ nutzen, um Entscheidungselemente in Ihren Code-basierten Kampagnen zu verwenden. Hinweis: Der Code-basierte Erlebniskanal und die Erlebnis-Entscheidung sind nicht für Organisationen verfügbar, die die Zusatzangebote Adobe Healthcare Shield und Privacy and Security Shield erworben haben.  [Weitere Informationen](../code-based/get-started-code-based.md)
-* Sie können jetzt die Kontextdaten von Adobe Experience Platform in Ihren Entscheidungsregeln und Ranfolgeformeln nutzen. [Weitere Informationen](../experience-decisioning/context-data.md)
-* Für die Entscheidungs-Management-Ressource ist jetzt die neue Berechtigung „Erlebnis-Entscheidung verwalten“ verfügbar. Sie können damit Berechtigungen im Zusammenhang mit der Erlebnis-Entscheidung verwalten.  [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
-* Sie können jetzt mehrere Begrenzungsregeln für ein bestimmtes Entscheidungselement in der Erlebnis-Entscheidung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.  [Weitere Informationen](../experience-decisioning/items.md#capping)
-* Sie können jetzt benutzerdefinierte Berichts-Dashboards von Erlebnis-Entscheidungs-Kampagnen mit [!DNL Customer Journey Analytics] erstellen. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
-
-## Versionshinweise April 2024 {#apr-2024}
-
-**Veröffentlichungsdatum**: 02. Mai 2024
-
-### Neue Funktionen {#apr-features}
 
 <!--table>
 <thead>
 <tr>
-<th><strong>Business rules - Private Beta</strong><br/></th>
+<th><strong>IP Warmup Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>It is now possible to create and apply rule sets to your marketing communications.  </p>
+<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -81,129 +75,90 @@ Von der Beta-Version bis zur LA-Version wurden die folgenden Verbesserungen hinz
 <!--table>
 <thead>
 <tr>
-<th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
+<th><strong>Business rules - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>TBD</p>
+<p>You can now create granular frequency capping rules, and apply them to different types of marketing communications through rule sets. This new capability lets you control how often your audiences receive a message by setting cross-channel rules, that automatically exclude over-solicited profiles from messages and actions.</p>
+<p>Business rules capability is currently available as a beta. To join the beta program, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table-->
 
-Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
-
-<table>
-<thead>
-<tr>
-<th><strong>Multimedia Message Service (MMS) – alle Anbieter</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. MMS war ursprünglich nur mit Sinch verfügbar, aber ist jetzt auch mit Infobip und Twilio verfügbar.</p>
-<img src="assets/do-not-localize/mms.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Verbesserter Journey Designer und Live-Reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Diese Version enthält eine verbesserte Benutzeroberfläche der Arbeitsfläche für Journeys und bietet ein intuitiveres und effizienteres Anwendererlebnis. Die Aktivitäten sind übersichtlicher und enthalten auf der Journey-Arbeitsfläche mehr Informationen mit weniger Klicks.</p>
-<img src="assets/new-canvas3.gif"/>
-<p>Neben dem verbesserten Design der Journey-Arbeitsfläche führen wir die Möglichkeit ein, die Berichtsmetriken der letzten 24 Stunden direkt in der Journey-Arbeitsfläche anzuzeigen. </p>
-<img src="assets/new-canvas6bis.png"/>
-<p><strong>Hinweis</strong>: Diese Änderungen werden ab April schrittweise auf alle Umgebungen ausgeweitet.</p>
-<p>Weitere Informationen finden Sie in der <a href="new-canvas.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
 <tr>
-<th><strong>IP Warmup Workflow - LA</strong><br/></th>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now easily perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability.</p>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
 </td>
 </tr>
 </tbody>
 </table-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-### Verbesserungen {#apr-improvements}
+### Verbesserungen {#e-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
+**Erlebnisentscheidungen** (Eingeschränkte Verfügbarkeit)
+
+Von der Beta-Version zu dieser Version wurden die folgenden Verbesserungen hinzugefügt:
+
+* **Erlebnisentscheidungen + code-basierte Erlebnisse** - Sie können jetzt die Experience Decisioning-Funktion nutzen, um Entscheidungselemente in Ihren code-basierten Kampagnen zu verwenden. Hinweis: Der Code-basierte Erlebniskanal und die Erlebnis-Entscheidung sind nicht für Organisationen verfügbar, die die Zusatzangebote Adobe Healthcare Shield und Privacy and Security Shield erworben haben.  [Weitere Informationen](../code-based/get-started-code-based.md)
+* **Kontextdaten** - Sie können jetzt Kontextdaten aus Adobe Experience Platform in Ihren Entscheidungsregeln und Ranglisten-Formeln nutzen. [Weitere Informationen](../experience-decisioning/context-data.md)
+* **Neue Berechtigung** - Für die Ressource &quot;Entscheidungsverwaltung&quot;ist jetzt die neue Berechtigung &quot;Erlebnisentscheidungen verwalten&quot;verfügbar. Sie können damit Berechtigungen im Zusammenhang mit der Erlebnis-Entscheidung verwalten.  [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+* **Begrenzungsregeln** - Sie können jetzt mehrere Begrenzungsregeln für ein bestimmtes Entscheidungselement in Experience Decisioning hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.  [Weitere Informationen](../experience-decisioning/items.md#capping)
+* **Berichterstellung** - Sie können jetzt benutzerdefinierte Reporting-Dashboards von Experience Decisioning-Kampagnen erstellen, indem Sie [!DNL Customer Journey Analytics]. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
+
+
+<!--**Decision Management**
+
+* **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
+
+
+**E-Mail-Kanal**
+
 <!--
-* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
+* **Spam-Bewertung** (Beta) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem speziellen Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihren E-Mail-Inhalt testen und eine Punktzahl angeben, um anzugeben, ob ISPs oder Mailbox-Anbieter ihn als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 <!--
-* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
--->
+**Audiences**
+
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
+
+<!--**Personalization**
+
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
+
+**Journeys**
+
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **Unterstützung von mTLS** - Die mTLS-Authentifizierung wird jetzt in benutzerdefinierten Aktionen unterstützt. Für die benutzerdefinierte Aktion oder das Journey ist keine zusätzliche Konfiguration erforderlich, um mTLS zu aktivieren. Sie erfolgt automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird. [Weitere Informationen](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **Suchtabellen in Ereignissen** - Sie können jetzt Daten aus einem Lookup-Datensatz nutzen, wenn eine Beziehung mithilfe eines Attributs innerhalb eines Arrays von Objekten definiert wurde. Die Suchwerte stehen in Journey zur Verfügung (Bedingungen, benutzerdefinierte Aktionen usw.) und Nachrichtenpersonalisierung. [Weitere Informationen](../event/experience-event-schema.md#relationships_limitations)
+* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** (LA) - Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. [Weitere Informationen](../event/about-creating.md)
+* **Zusammenführungsrichtlinien** (LA) - Zusammenführungsrichtlinien, die von einer Journey verwendet werden, sind jetzt auf der gesamten Journey sichtbar und konsistent. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. [Weitere Informationen](../building-journeys/journey-gs.md#merge-policies)
+
+**Globalisierung**
+
+Im Rahmen unserer laufenden Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die Terminologie der Adobe Experience Cloud-Produkte und -Apps. Dies wirkt sich auf den deutschen Begriff &quot;Titel&quot; aus, der in &quot;Titel&quot; geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation bereitgestellt.
 
 
-<!--
-* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
--->
 
-**Konfiguration**
-
-* Jetzt können Sie eine Marketing-Aktion auf der Ebene der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Vorlieben Ihrer Kundinnen und Kunden zu respektieren.  [Weitere Informationen](../action/consent.md#surface-marketing-actions)
-* Die Verwendung der Zugriffssteuerung auf Objektebene ist jetzt für Kanaloberflächen verfügbar. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
-* Wenn Sie die Abmeldung von Listen in einer Kanaloberfläche aktivieren, können Sie jetzt die Einverständnisebene so definieren, dass sie mit der Verwaltung von Einverständniserklärungen aus allen anderen Quellen übereinstimmt. [Weitere Informationen](../email/email-settings.md#list-unsubscribe)
-
-**Content-Management**
-
-* Sie können jetzt Inhaltsvorlagen für alle Kanäle simulieren. [Weitere Informationen](../content-management/content-templates.md#test-templates)
-
-**Personalisierung**
-
-* Die neue Hilfsfunktion **toInt** ist im Ausdruckseditor verfügbar. Damit können Sie jeden dieser Typen (number, double, int, long, float, short, byte, boolean, string) in eine Ganzzahl umwandeln. [Weitere Informationen](../personalization/functions/math.md#to-int)

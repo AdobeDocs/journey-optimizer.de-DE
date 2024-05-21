@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '945'
+ht-degree: 97%
 
 ---
 
@@ -156,4 +156,4 @@ Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an 
 
 >[!NOTE]
 >
->Bei Journeys wird der E-Mail-Versand an die Testadressen nur bei der ersten Ausführung der Journey durchgeführt.
+>Bei wiederkehrenden Journey wird der E-Mail-Versand bei jeder Journey-Ausführung an die Testadressen gesendet, sofern mindestens ein Profil den E-Mail-Knoten erreicht.

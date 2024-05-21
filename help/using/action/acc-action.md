@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 89%
 
 ---
 
@@ -25,11 +25,24 @@ ht-degree: 100%
 
 Diese Integration ist für Adobe Campaign v7/v8 ab Version 7.1 und Adobe Campaign v8 verfügbar.  Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign.
 
-Die Verbindung zwischen der Journey Optimizer- und der Campaign-Instanz wird bei der Bereitstellung von Adobe hergestellt.
-
 In diesem [Abschnitt](../building-journeys/ajo-ac.md) wird ein Anwendungsfall schrittweise beschrieben.
 
 Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designer-Palette verfügbar. Siehe diesen [Abschnitt](../building-journeys/using-adobe-campaign-v7-v8.md).
+
+## Zugriff auf {#access}
+
+Die Verbindung zwischen den Journey Optimizer- und Campaign-Instanzen wird bei Bedarf vom Adobe zur Bereitstellungszeit eingerichtet. Wenn Sie die Verbindung zum Bereitstellungszeitpunkt nicht angefordert haben, wenden Sie sich an den Adobe Journey Optimizer-Support und geben Sie die folgenden Informationen an, um die Aktivierung anzufordern:
+
+In Adobe Journey Optimizer:
+
+* Organisations-ID (Adobe OrgID)
+* Sandbox
+
+In Adobe Campaign:
+
+* Kampagnen-URL
+* RT URL
+* Campaign-Version
 
 ## Wichtige Hinweise {#important-notes}
 

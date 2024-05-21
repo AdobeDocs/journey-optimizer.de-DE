@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 94%
+source-wordcount: '605'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 94%
 >id="ajo_journey_event_custom"
 >title="Unitäre Ereignisse"
 >abstract="Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten. Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Die Ereigniskonfiguration wird von einem Datentechniker vorgenommen und kann nicht bearbeitet werden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="Geschäftsereignisse"
+>abstract="Mit diesen Ereignissen können Sie eine Journey mit einem nicht profilbezogenen Ereignis starten. Wenn dieses Ereignis ausgelöst wird, können Sie Nachrichten an eine Audience von Profilen senden. Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Die Ereigniskonfiguration wird von einem technischen Anwender vorgenommen und kann nicht bearbeitet werden."
 
 Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.
 
