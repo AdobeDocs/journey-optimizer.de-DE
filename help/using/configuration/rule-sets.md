@@ -1,0 +1,270 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Arbeiten mit Regelsätzen
+description: Erfahren Sie, wie Sie Regelsätze erstellen und anwenden
+feature: Rules
+topic: Content Management
+role: User
+level: Intermediate
+keywords: Nachricht, Häufigkeit, Regeln, Druck
+badge: label="Beta"
+hide: true
+hidefromtoc: true
+exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 57%
+
+---
+
+# Arbeiten mit Regelsätzen {#rule-sets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="Regelsätze"
+>abstract="Verwenden Sie Regelsätze, um die Frequenzlimitierung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können beispielsweise einen Regelsatz erstellen, um die Anzahl der **Werbenachrichten** an Ihre Kunden gesendet werden, und erstellen Sie einen weiteren Regelsatz, um die Anzahl der **Newsletter** an sie gesendet. Regelsätze sind derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen."
+
+>[!AVAILABILITY]
+>
+>Regelsätze sind derzeit nur ausgewählten Benutzern als Beta-Version verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um in die Beta-Version aufgenommen zu werden.
+
+## Was sind Regelsätze? {#what}
+
+Neben den globalen Geschäftsregeln, die die Anzahl der E-Mails durch Benutzer über einen oder mehrere Kanäle beschränken, können Sie mit Regelsätzen Folgendes tun: **mehrere Regeln zu Regelsätzen gruppieren** und wenden Sie sie auf die gewünschten Kampagnen an. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzer je nach Kommunikationsart eine Nachricht erhalten.
+
+Sie können beispielsweise einen Regelsatz erstellen, um die Anzahl der **Werbenachrichten** an Ihre Kunden gesendet werden, und ein anderer Regelsatz, der die Anzahl der **Newsletter** an sie gesendet. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder die Werbe-Kommunikation oder den Newsletter-Regelsatz anwenden.
+
+## Globale und benutzerdefinierte Regelsätze {#global-custom}
+
+Beim erstmaligen Zugriff auf Regelsätze aus dem **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln (Beta)]** -Menü ein standardmäßiger Regelsatz vorab erstellt und aktiv ist: **Globaler Standardregelsatz**.
+
+Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzer Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Geschäftsregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie Sie mit Geschäftsregeln arbeiten.](frequency-rules.md)
+
+Zusätzlich zu diesem Regelsatz &quot;Globaler Standardregelsatz&quot;können Sie **benutzerspezifische Regel** Sätze, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb der Kampagne gesendeten Nachrichten zu begrenzen. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
+
+![](assets/rule-sets-default.png)
+
+>[!IMPORTANT]
+>
+>Derzeit können benutzerdefinierte Regelsätze auf **Kampagnen** nur. Nur die im Regelsatz &quot;Globaler Standardregelsatz&quot;definierten Regeln gelten für die Kommunikation mit Journey und Kampagnen.
+
+## Erstellen Sie den ersten benutzerdefinierten Regelsatz {#create-rule-set}
+
+### Regelsatz erstellen {#create}
+
+Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
+
+>[!NOTE]
+>
+>Sie können bis zu 3 benutzerspezifische Regelsätze erstellen.
+
+1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
+
+   ![](assets/rule-sets-create-button.png)
+
+1. Legen Sie den Namen des Regelsatzes fest, fügen Sie bei Bedarf eine Beschreibung hinzu und klicken Sie auf **[!UICONTROL Speichern]**.
+
+   ![](assets/rule-sets-create.png)
+
+   >[!NOTE]
+   >
+   >Der Regelsatzname muss eindeutig sein.
+
+1. Jetzt können Sie [Regeln definieren](#create-new-rule) Sie diesem Regelsatz hinzufügen möchten.
+
+### Hinzufügen von Regeln zum Regelsatz {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_category"
+>title="Wählen Sie die Kategorie der Nachrichtenregel aus"
+>abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie Marketing verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_capping"
+>title="Festlegen der Begrenzung für Ihre Regel"
+>abstract="Geben Sie an, wie viele Nachrichten innerhalb des ausgewählten Zeitrahmens maximal an ein Kundenprofil gesendet werden sollen. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_channel"
+>title="Definieren der Kanäle, für die die Regel gilt"
+>abstract="Wählen Sie mindestens einen Kanal aus. Die Begrenzung gilt als Gesamtanzahl für alle Kanäle."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_duration"
+>title="Wählen Sie die Kategorie der Nachrichtenregel aus"
+>abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie Marketing verfügbar."
+
+Gehen Sie wie folgt vor, um eine Regel zu einem Regelsatz hinzuzufügen:
+
+1. Klicken Sie in dem soeben erstellten Regelsatz auf **[!UICONTROL Regel hinzufügen]**.
+
+   ![](assets/rule-sets-create-rule-button.png)
+
+1. Eindeutige Definition **Regelname**.
+
+1. Die **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Derzeit ist dieses Feld schreibgeschützt, da nur der **[!UICONTROL Marketing]** -Kategorie verfügbar ist.
+
+1. Aus dem **[!UICONTROL Dauer]** Dropdownliste auswählen, ob die Begrenzung monatlich, wöchentlich oder täglich angewendet werden soll. Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
+
+   ![](assets/rule-set-capping-duration.png)
+
+   Der Zähler läuft für jeden Zeitraum wie folgt ab:
+
+   * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01. 23:59:59 UTC.
+
+   * **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+
+   * **[!UICONTROL Täglich]**: Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+
+     >[!CAUTION]
+     >
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+
+   Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Nachricht aktualisiert wird. Beachten Sie dies beim Versand großer Kommunikationsvolumen, da der Durchsatz dazu führen kann, dass der Empfänger die E-Mail innerhalb von Minuten oder sogar Stunden nach dem Start der Nachricht erhält (im Fall, dass Sie gleichzeitig Millionen von Nachrichten senden).
+
+   Dies ist wichtig, wenn ein Empfänger zwei Nachrichten nahe beieinander erhält. Es wird empfohlen, die Kommunikation zwischen zwei Stunden zu trennen, um dem Empfänger ausreichend Zeit zu geben, die Nachricht zu empfangen, und den Zählerwert entsprechend zu aktualisieren.
+
+1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat, Woche oder Tag – entsprechend Ihrer Auswahl oben – an ein individuelles Benutzerprofil gesendet werden können.
+
+1. Wählen Sie den Kanal, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung]** oder **[!UICONTROL Briefpost]**.
+
+   ![](assets/rule-set-channels.png)
+
+   >[!NOTE]
+   >
+   >Sie müssen mindestens einen Kanal auswählen, um die Regel erstellen zu können.
+
+1. Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
+
+   Legen Sie beispielsweise die Begrenzung auf 5 fest und wählen Sie dann den E-Mail- und SMS-Kanal aus. Wenn ein Profil im ausgewählten Zeitraum bereits 3 Marketing-E-Mails und 2 SMS erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS ausgeschlossen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
+
+   ![](assets/rule-set-rule-created.png)
+
+1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
+
+Nun müssen Sie jede Regel aktivieren, bevor sie auf eine Nachricht angewendet werden kann. [Weitere Informationen](#activate-rule)
+
+### Aktivieren der Regeln und des Regelsatzes {#activate-rule}
+
+Wenn eine Regel erstellt wird, verfügt sie über den Status **[!UICONTROL Entwurf]** und wirkt sich noch auf keine Nachricht aus. Um sie zu aktivieren, klicken Sie auf die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben der Regel und wählen Sie **[!UICONTROL Aktivieren]**.
+
+![](assets/rule-set-activate-rule.png)
+
+Außerdem müssen Sie den Regelsatz aktivieren, damit Sie in Kampagnen/Journeys darauf zugreifen und ihn auf Ihre Nachrichten anwenden können.
+
+![](assets/rule-set-activate-set.png)
+
+Die Aktivierung eines Regelsatzes wirkt sich bei der nächsten Ausführung auf alle Nachrichten aus, für die dieser Regelsatz gilt. Erfahren Sie, wie Sie [einen Regelsatz auf eine Nachricht anwenden](#apply-rule-set).
+
+>[!NOTE]
+>
+>Es kann bis zu 10 Minuten dauern, bis eine Regel oder ein Regelsatz vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journeys erneut veröffentlichen, damit eine Regel wirksam wird.
+
+<!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
+
+Um eine Regel oder einen Regelsatz zu deaktivieren, klicken Sie auf die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben dem gewünschten Element und wählen Sie **[!UICONTROL Deaktivieren]**.
+
+![](assets/rule-set-inactive-rule.png)
+
+Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht mehr auf zukünftige Nachrichtenausführungen angewendet. Alle aktuell ausgeführten Nachrichten sind davon nicht betroffen.
+
+>[!NOTE]
+>
+>Das Deaktivieren eines Regelsatzes wirkt sich weder auf die Zählung für einzelne Profile aus, noch wird die Zählung zurückgesetzt.
+
+## Regelsätze aufrufen und verwalten {#access-rule-sets}
+
+Alle erstellten Regelsätze werden im **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln (Beta)]** Menü. Sie werden nach dem Datum der letzten Änderung sortiert.
+
+![](assets/rule-sets-list.png)
+
+Klicken Sie auf den Namen eines Regelsatzes, um dessen Inhalt anzuzeigen und zu bearbeiten. Alle in diesem Regelsatz enthaltenen Regeln werden aufgelistet. Über das Kontextmenü oben rechts können Sie Folgendes tun:
+
+* Bearbeiten des Namens und der Beschreibung des Regelsatzes
+* Aktivieren des Regelsatzes – [mehr erfahren](#activate-rule)
+* Löschen des Regelsatzes
+
+![](assets/rule-set-example.png)
+
+Für jede Regel im Regelsatz können Sie über die Schaltfläche **[!UICONTROL Weitere Aktionen]** folgende Aktionen durchführen:
+
+* Bearbeiten der Regel
+* Aktivieren der Regel – [mehr erfahren](#activate-rule)
+* Löschen der Regel
+
+![](assets/rule-set-example-rules.png)
+
+<!--### Permissions{#permissions-frequency-rules}
+
+To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
+
+Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
+
+![](assets/message-rules-access.png)
+
+Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
+
+## Regelsatz auf eine Nachricht anwenden {#apply-frequency-rule}
+
+Gehen Sie wie folgt vor, um eine Geschäftsregel auf eine Nachricht anzuwenden.
+
+1. Wenn Sie eine [Kampagne](../campaigns/create-campaign.md) erstellen, wählen Sie einen der Kanäle, die Sie für Ihren Regelsatz festgelegt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+
+1. Klicken Sie im Bildschirm für die Bearbeitung von Inhalten auf die Schaltfläche **[!UICONTROL Verfahrensregel hinzufügen]**.
+
+1. Wählen Sie den [Regelsatz, den Sie festgelegt haben](#create-rule-set).
+
+   ![](assets/rule-set-campaign-add-rule-button.png)
+
+   >[!NOTE]
+   >
+   >In der Liste werden nur [aktivierte](#activate-rule) Regelsätze angezeigt.
+
+   <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
+
+1. Bevor Sie Ihre Kampagne aktivieren, stellen Sie sicher, dass Sie die Ausführung mindestens 10 Minuten in die Zukunft planen.
+
+   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfänger angezeigt und die Nachricht wird nicht in Bezug auf die Frequenzlimitierungsregeln für die benutzerdefinierten Regelsätze gezählt.
+
+   ![](assets/rule-set-schedule-campaign.png)
+
+1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [globalen Bericht](../reports/global-report.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Häufigkeitsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
+
+>[!NOTE]
+>
+>Für denselben Kanal können mehrere Regeln angewendet werden, aber sobald die untere Begrenzung erreicht ist, wird das Profil von den nächsten Sendungen ausgeschlossen.
+
+<!--
+## Example: combine several rules {#frequency-rule-example}
+
+You can combine several message frequency rules, such as described in the example below.
+
+1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
+
+   * Select all channels.
+   * Set capping to 12 monthly.
+
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Push Marketing Cap*:
+
+   * Select Push channel.
+   * Set capping to 4 monthly.
+
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Save and [activate](#activate-rule) the rule.
+
+1. [Create a message](../building-journeys/journeys-message.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
+
+   ![](assets/journey-message-category.png)
+
+In this scenario, an individual profile:
+* can receive up to 12 marketing messages per month;
+* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+
+Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zur nächsten Periode nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
