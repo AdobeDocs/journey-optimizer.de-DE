@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Wenn ein Fehler auftritt, können Sie im Journey Optimizer-Benachrichtigungszent
 
 Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
 
-Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Es stehen zwei vorkonfigurierte Warnhinweise für Journey Optimizer zur Verfügung: [Benutzerdefinierte Journey-Aktion fehlgeschlagen](#alert-custom-actions) und [Segmentauslöser konnte nicht gelesen werden](#alert-read-audiences). Diese Warnhinweise werden nachfolgend beschrieben.
+Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Es stehen zwei vorkonfigurierte Warnhinweise für Journey Optimizer zur Verfügung: die [Journey Benutzerdefinierter Aktionsfehler](#alert-custom-actions) und [Lesen von Audience Trigger fehlgeschlagen](#alert-read-audiences) Warnhinweis. Diese Warnhinweise werden nachfolgend beschrieben.
 
 Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die Option **Abonnieren** im Dashboard **Warnhinweise** auswählen. Auf dieselbe Weise können Sie sich auch wieder abmelden.
 
@@ -67,7 +67,7 @@ Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Akt
 
 Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** erreicht.
 
-Der Name des E/A-Ereignisabonnements, der dem Warnhinweis **Segmentauslöser konnte nicht gelesen werden** entspricht, lautet **Verzögerungen und Fehler beim Lesen des Journey-Segments**.
+Der Anmeldename für das E/A-Ereignis, der dem **Lesen von Audience Trigger fehlgeschlagen** Warnhinweis **Journey Lesen von Audience-Verzögerungen, -Fehlern und -Fehlern**.
 
 ## Fehlerbehebung {#alert-troubleshooting}
 
