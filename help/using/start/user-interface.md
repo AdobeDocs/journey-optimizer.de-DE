@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 94%
+source-wordcount: '1359'
+ht-degree: 93%
 
 ---
 
@@ -128,7 +128,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
   Sie können auch auf den Abschnitt **Reporting** zur Konfiguration des Reportings für das Experimentieren mit Kampagnen zugreifen. [Weitere Informationen](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Regeln]** – Verwenden Sie diesen Abschnitt, um kanalübergreifende Häufigkeitsregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder eine Journey eingeben. [Weitere Informationen](../configuration/frequency-rules.md)
+* **[!UICONTROL Geschäftsregeln]** - Verwenden Sie diesen Abschnitt, um kanalübergreifende Geschäftsregeln zu erstellen, um zu steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey eingeben. [Weitere Informationen](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
