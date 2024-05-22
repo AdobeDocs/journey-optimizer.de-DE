@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1348'
 ht-degree: 93%
 
 ---
@@ -266,6 +266,11 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_import"
+>title="Importabhängigkeiten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importabhängigkeiten"
 >abstract="TBC"
@@ -275,10 +280,6 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >title="Initialisierungscode hinzufügen"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance_android"
->title="Validierung mit Versicherung"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
@@ -288,14 +289,4 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Starten Sie die Anwendung von Android Studio aus."
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_load_library"
->title="Bibliothek asynchron laden"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_library_code"
->title="Head-Tag Ihres Dokuments"
 >abstract="TBC"
