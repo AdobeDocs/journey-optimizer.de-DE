@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Informationen zu Aktionen"
->abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung."
+>abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie Aktion zur Verfügung."
 
 Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
@@ -33,15 +33,15 @@ Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integra
 
 Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem (z. B. Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target="_blank"}, Firebase) verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
+Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
 >[!CAUTION]
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+Die Aktionen sind in der linken Palette Ihrer Journey im **[!UICONTROL Aktion]** Kategorie. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
-Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../start/user-interface.md).
+Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Siehe [diese Seite](../start/user-interface.md) für weitere Informationen zur Benutzeroberfläche.
 
 ![](assets/custom1.png)
 
@@ -49,4 +49,4 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
