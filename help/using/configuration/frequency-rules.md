@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1252'
 ht-degree: 71%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 71%
 >id="ajo_business_rules_message_frequency_rules"
 >title="Geschäftsregeln"
 >abstract="Verwenden Sie Geschäftsregeln, um zu steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey eingeben, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden."
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_message_frequency_rules"
->title="Geschäftsregeln"
->abstract="Beschreibung der Geschäftsregeln"
 
 Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder in eine Journey eintreten, indem Sie kanalübergreifende Regeln festlegen, mit denen zu oft angesprochene Profile automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
