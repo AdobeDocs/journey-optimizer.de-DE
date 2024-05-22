@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 74%
+source-wordcount: '2513'
+ht-degree: 72%
 
 ---
 
@@ -238,7 +238,9 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
 
    * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * Es wird eine weitere Zielgruppe für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit der folgenden Benennungskonvention erstellt: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * Für die ausgeschlossenen Journey-Zielgruppen wird eine weitere Zielgruppe (sofern vorhanden) mit der folgenden Benennungskonvention erstellt: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
      >Für jede Ausführung wird eine neue Zielgruppenzusammensetzung erstellt. Mit einer Beschränkung von 10 müssen Benutzer, die mehrere Kampagnen, Journey und IP-Aufwärmspläne gleichzeitig mit veröffentlichten Zielgruppenkompositionen ausführen, vorausplanen, um bei parallelen Vorgängen diese Grenze zu erreichen.
      >
      >Die Zielgruppenkomposition (und damit die Ausgabe-Zielgruppe) wird bei der Aktivierung der nächsten Iteration bereinigt.
+
+   * Eine Ausgabe-Audience wird mit der folgenden Namenskonvention erstellt: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
