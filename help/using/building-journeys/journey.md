@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 71%
 
 ---
 
@@ -70,14 +70,13 @@ Geschäftliche Anwendungsfälle:
 Technische Anwendungsfälle:
 
 * [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](collections.md)
-* [Steigern der Versandaktivität](ramp-up-deliveries-uc.md)
 * [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
 
 ## Journey-Versionen{#journey-versions}
 
 In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
 
-Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
+Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt.
 
 ![](assets/journeyversions1.png)
 
@@ -87,21 +86,21 @@ Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die
 
 Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
 
-1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
+1. Öffnen Sie die neueste Version Ihrer Live-Journey und klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
    ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Sie können nur aus der aktuellen Version einer Journey eine neue Journey erstellen.
+   >Sie können nur eine neue Version von der neuesten Version einer Journey erstellen.
 
 1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
 
-Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben in ihr, bis sie die Journey beenden. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die aktuelle Version.
+Ab dem Zeitpunkt der Veröffentlichung der Journey wird der Kontakt in die neueste Version der Journey fließen. Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Wenn sie später wieder dieselbe Journey eingeben, werden sie in die neueste Version aufgenommen.
 
-Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
+Journey-Versionen können einzeln angehalten werden. Alle Versionen von Journey haben denselben Namen.
 
-Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
+Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt zur **Geschlossen** -Status. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
 
 ## Anleitungsvideo {#video}
 
