@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 96%
+source-wordcount: '834'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +23,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. <!--To join the beta program, contact Adobe Customer Care.-->
+>Die Personalisierung der E-Mail-Oberfläche ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.
 
 ## Hinzufügen von dynamischen Subdomains {#dynamic-subdomains}
 
