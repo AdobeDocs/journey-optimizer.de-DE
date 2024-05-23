@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 99%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ So nutzen Sie Fragmente am besten:
 
 >[!NOTE]
 >
->**Visuelle Fragmente** können im [E-Mail-Designer](../email/get-started-email-design.md) verwendet werden, während **Ausdrucksfragmente** über den [Ausdruckseditor](../personalization/personalization-build-expressions.md) zugänglich sind.
+>**Visuelle Fragmente** kann in der [Email Designer](../email/get-started-email-design.md)in der Erwägung, **Ausdrucksfragmente** über [Personalisierungseditor](../personalization/personalization-build-expressions.md).
 
 Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -199,7 +199,7 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Auswählen des Ausdruckstyps"
->abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
+>abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Personalisierungs-Editors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=de" text="Nutzen von Ausdrucksfragmenten"
 
 1. Wählen Sie die Option [Fragment erstellen](#create-from-scratch) im linken Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** und dann den Typ **[!UICONTROL Ausdrucksfragment]**.
@@ -210,9 +210,9 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 
    <!--Expression fragments can be used in any channel.-->
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Ausdruckseditor wird geöffnet.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Personalisierungs-Editor wird geöffnet.
 
-1. Sie können den Ausdruckseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Bearbeitungsfunktionen nutzen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Sie können die [!DNL Journey Optimizer] Personalisierungs-Editor mit allen Personalisierungs- und Authoring-Funktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 
 1. Klicken Sie bei Bedarf auf den Pfeil neben dem Fragmentnamen, um zum Bildschirm **[!UICONTROL Details]** zurückzukehren und das Fragment zu bearbeiten.
 
-Dieses Fragment kann jetzt zur Erstellung von Inhalten im Ausdruckseditor von [!DNL Journey Optimizer] verwendet werden. [Weitere Informationen](../personalization/use-expression-fragments.md)
+Dieses Fragment kann jetzt beim Erstellen von Inhalten im [!DNL Journey Optimizer] Personalisierungseditor. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
 ## Speichern als Fragment {#save-as-fragment}
 
@@ -265,13 +265,13 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Speichern als Ausdrucksfragment"
->abstract="Mit dem Ausdruckseditor von [!DNL Journey Optimizer] können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung."
+>abstract="Die [!DNL Journey Optimizer] Mit dem Personalisierungs-Editor können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung."
 
-Mit dem Ausdruckseditor von [!DNL Journey Optimizer] können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung.
+Die [!DNL Journey Optimizer] Mit dem Personalisierungs-Editor können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung.
 
 Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 
-1. Erstellen Sie über die Benutzeroberfläche des [Ausdruckseditors](../personalization/personalization-build-expressions.md) einen Ausdruck und klicken Sie auf **[!UICONTROL Als Fragment speichern]**.
+1. Im [Personalisierungseditor](../personalization/personalization-build-expressions.md) -Schnittstelle, einen Ausdruck erstellen und auf **[!UICONTROL Als Fragment speichern]**.
 
 1. Geben Sie im rechten Bereich einen Titel und eine Beschreibung für den Ausdruck ein, damit Benutzende ihn leichter finden können.
 

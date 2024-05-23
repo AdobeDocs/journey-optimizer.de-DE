@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -38,11 +38,11 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 >
 >Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
-## E-Mail-Typ {#email-type}
+## Email type {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definieren des E-Mail-Typs"
+>title="E-Mail-Typ definieren"
 >abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
 Wählen Sie im Abschnitt **Email-Typ** die Art der Nachricht für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
@@ -296,11 +296,11 @@ Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
-Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
+Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Personalisierungseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Die folgenden vordefinierten Werte sind über den Ausdruckseditor verfügbar:
+Die folgenden vordefinierten Werte sind im Personalisierungs-Editor verfügbar:
 
 * **Quellaktion-ID**: ID der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
@@ -316,7 +316,7 @@ Die folgenden vordefinierten Werte sind über den Ausdruckseditor verfügbar:
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
+>Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Personalisierungs-Editor kombinieren. Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

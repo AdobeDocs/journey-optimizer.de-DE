@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer Textnachricht"
->abstract="Um eine Textnachricht (SMS/MMS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Ausdruckseditor zu personalisieren."
+>abstract="Um eine Textnachricht (SMS/MMS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder Kampagne ein und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
@@ -91,17 +91,17 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definieren Ihres SMS-Inhalts"
->abstract="Passen Sie Ihre Textnachrichten (SMS/MMS) mithilfe des Ausdruckseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
+>abstract="Passen Sie Ihre Textnachrichten (SMS/MMS) mithilfe des Personalisierungseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
 
 Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Textnachricht zu konfigurieren.
 
-1. Klicken Sie auf das Feld **[!UICONTROL Nachricht]**, um den Ausdruckseditor zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Nachricht]** zum Öffnen des Personalisierungseditors.
 
    ![](assets/sms-content.png)
 
-1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Ausdruckseditor.
+1. Verwenden Sie den Personalisierungs-Editor, um Inhalte zu definieren, Personalisierungen und dynamische Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamischer Inhalt](../personalization/get-started-dynamic-content.md) im Personalisierungs-Editor.
 
 1. Nach dem Definieren Ihres Inhalts können Sie das Verfolgen von URLs für Ihre Nachricht aktivieren. Rufen Sie dazu das Menü **[!UICONTROL Hilfsfunktionen]** auf und wählen Sie **[!UICONTROL Helfer]** aus.
 

@@ -10,10 +10,11 @@ level: Intermediate
 keywords: Ausdruck, Editor
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 4%
 >
 >Derzeit ist sie nur zu Testzwecken in der Nicht-Produktions-Sandbox verfügbar, die Sie für Adobe bereitgestellt haben, sowie für die für die Beta-Version angeforderten Datensätze.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Ausdruckseditor für [Personalisieren des Inhalts](../personalization/personalize.md). Zusammenfassend sind folgende Etappen zu durchlaufen:
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungs-Editor in [Personalisieren des Inhalts](../personalization/personalize.md). Gehen Sie wie folgt vor:
 
-1. Öffnen Sie den Ausdruckseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie mehr über die Arbeit mit dem Ausdruckseditor](../personalization/personalization-build-expressions.md)
+1. Öffnen Sie den Personalisierungs-Editor, der in jedem Kontext verfügbar ist und in dem Sie Personalisierungen wie beispielsweise Nachrichten definieren können. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
 
 1. Navigieren Sie zur Liste der Hilfsfunktionen und fügen Sie die **datasetLookup** Hilfsfunktion zum Codebereich hinzu.
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -124,7 +124,7 @@ Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **[!UICONTROL
 
 ![](assets/in_app_web_design_4.png)
 
-Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Weitere Informationen zur Personalisierung im Ausdruckseditor von Adobe Journey Optimizer finden Sie [in diesem Abschnitt](../personalization/personalize.md).
+Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Erfahren Sie mehr über die Personalisierung im Personalisierungseditor von Adobe Journey Optimizer [in diesem Abschnitt](../personalization/personalize.md).
 
 +++Mehr Optionen mit erweiterter Formatierung
 

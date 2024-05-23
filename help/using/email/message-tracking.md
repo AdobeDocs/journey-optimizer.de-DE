@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -174,7 +174,7 @@ Gehen Sie wie folgt vor, um Ihren Links personalisierte URL-Tracking-Parameter h
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Ausdruckseditor das gewünschte Profilattribut aus.
+1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungs-Editor das gewünschte Profilattribut aus.
 
    ![](assets/message-tracking-perso-parameter.png)
 

@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Kontext, Personalisierung
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Personalisierungskontexte{#personalization-areas}
 
-Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in [!DNL Journey Optimizer] zu personalisieren.
-
-Sie können den Personalisierungseditor (auch Ausdruckseditor genannt) in allen Feldern mit dem Editor-Symbol öffnen und die Personalisierung definieren.
+Inhalt und Anzeige der von [!DNL Journey Optimizer] kann auf verschiedene Arten personalisiert werden. In allen Feldern mit dem Editor-Symbol können Sie den Personalisierungs-Editor (auch Personalisierungs-Editor genannt) öffnen und eine Personalisierung definieren.
 
 ![](assets/perso_icon.png)
 

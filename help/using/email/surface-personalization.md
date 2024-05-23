@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Aktivieren dynamischer Subdomains"
->abstract="Beim Erstellen einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mit dem Ausdruckseditor definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
+>abstract="Bei der Erstellung einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mithilfe des Personalisierungs-Editors definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um dynamische Subdomains in einer E-Mail-Kanaloberfläc
 
 1. Klicken Sie auf das Bearbeitungssymbol neben dem ersten Feld **[!UICONTROL Bedingung]**.
 
-1. Der [Ausdruckseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Legen Sie in diesem Beispiel eine Bedingung wie „`Country` ist gleich `US`“ fest.
+1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Legen Sie in diesem Beispiel eine Bedingung wie „`Country` ist gleich `US`“ fest.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 
    ![](assets/surface-email-personalize-header.png)
 
-1. Der [Ausdruckseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Definieren Sie Ihre Bedingung nach Bedarf und speichern Sie Ihre Änderungen.
+1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Definieren Sie Ihre Bedingung nach Bedarf und speichern Sie Ihre Änderungen.
 
    Legen Sie beispielsweise eine Bedingung fest, dass jede Empfängerin und jeder Empfänger eine E-Mail von der Person erhält, die die jeweilige Marke repräsentiert.
 
@@ -137,7 +137,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsri
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. Sie können auch jedes beliebige Attribut hinzufügen, das im Ausdruckseditor verfügbar ist, z. B. Profilattribute.
+1. Sie können auch jedes andere Attribut hinzufügen, das im Personalisierungseditor verfügbar ist, z. B. Profilattribute.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

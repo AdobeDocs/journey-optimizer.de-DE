@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
 ## Hinzufügen von Personalisierung und Angeboten
 
-Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und klicken Sie auf das Personalisierungssymbol in der angezeigten Kontextmenüleiste. Fügen Sie Ihre Änderungen mithilfe des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und klicken Sie auf das Personalisierungssymbol in der angezeigten Kontextmenüleiste. Fügen Sie Ihre Änderungen mithilfe des Personalisierungseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 

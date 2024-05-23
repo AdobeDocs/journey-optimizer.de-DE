@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-1. Bearbeiten Sie den Inhalt wie gewünscht mit dem Ausdruckseditor. [Weitere Informationen](#edit-code)
+1. Bearbeiten Sie den Inhalt nach Bedarf mit dem Personalisierungs-Editor. [Weitere Informationen](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Verwenden des Ausdruckseditors"
+>title="Verwenden des Personalisierungseditors"
 >abstract="Fügen Sie den Code ein, den Sie als Teil dieser Code-basierten Erlebnisaktion bereitstellen möchten, und bearbeiten Sie ihn."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=de" text="Erste Schritte mit dem Ausdruckseditor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=de" text="Erste Schritte mit dem Personalisierungs-Editor"
 
 1. Wählen Sie auf dem Bildschirm zur Kampagnenbearbeitung die Option **[!UICONTROL Code bearbeiten]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. Der [Ausdruckseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
+1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
 
 1. Der Authoring-Modus kann von HTML auf JSON umgestellt werden und umgekehrt.
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
    >
    >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Stellen Sie daher sicher, dass Sie den Modus wechseln, bevor Sie mit dem Authoring beginnen.
 
-1. Geben Sie Ihren Code nach Bedarf ein. Der [!DNL Journey Optimizer] Ausdruckseditor kann mit allen Personalisierungs- und Bearbeitungsfunktionen genutzt werden. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Geben Sie Ihren Code nach Bedarf ein. Sie können die [!DNL Journey Optimizer] Personalisierungs-Editor mit allen Personalisierungs- und Authoring-Funktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 1. Sie können bei Bedarf HTML- oder JSON-Ausdrucksfragmente hinzufügen. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie entweder im Ausdruckseditor oder auf dem Bildschirm zur Inhaltsbearbeitung die Option **[!UICONTROL Inhalt simulieren]** aus.
+1. Wählen Sie entweder im Personalisierungs-Editor oder im Bildschirm &quot;Inhalt bearbeiten&quot;die Option **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

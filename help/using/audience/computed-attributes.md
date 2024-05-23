@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -70,6 +70,6 @@ Detaillierte Informationen zum Hinzufügen von Feldergruppen zur Adobe Experienc
 
 Berechnete Attribute bieten eine Vielzahl von Funktionen innerhalb von Journey Optimizer. Sie können sie für verschiedene Zwecke verwenden, z. B. zum Personalisieren von Nachrichteninhalten, Erstellen neuer Zielgruppen oder Aufteilen von Journeys basierend auf einem bestimmten berechneten Attribut. Beispielsweise können Sie einen Journey-Pfad anhand der Gesamteinkäufe eines Profils in den letzten drei Wochen aufteilen, indem Sie in einer Bedingungsaktivität ein einziges berechnetes Attribut hinzufügen. Sie können eine E-Mail auch personalisieren, indem Sie für jedes Profil das zuletzt angezeigte Element anzeigen.
 
-Da berechnete Attribute Profilattributfelder sind, die in Ihrem Profilvereinigungsschema erstellt wurden, können Sie über den Ausdruckseditor in der Feldergruppe **Vom System berechnete Attribute** auf sie zugreifen. Von dort aus können Sie berechnete Attribute zu Ihren Ausdrücken hinzufügen und sie wie jedes andere Profilattribut behandeln, um die gewünschten Vorgänge auszuführen.
+Da berechnete Attribute Profilattributfelder sind, die in Ihrem Profilvereinigungsschema erstellt wurden, können Sie über den Personalisierungseditor im **SystemComputedAttributes** Feldergruppe. Von dort aus können Sie berechnete Attribute zu Ihren Ausdrücken hinzufügen und sie wie jedes andere Profilattribut behandeln, um die gewünschten Vorgänge auszuführen.
 
 ![](assets/computed-attributes-ajo.png)
