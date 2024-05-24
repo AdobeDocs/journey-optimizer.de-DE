@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 71%
+source-wordcount: '1262'
+ht-degree: 68%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Geschäftsregeln"
->abstract="Verwenden Sie Geschäftsregeln, um zu steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey eingeben, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden."
+>abstract="Regeln zur Nachrichtenhäufigkeit sind eine Art Geschäftsregel, die die Anzahl der Nachrichtenempfänge oder -eingänge von Benutzern über einen oder mehrere Kanäle hinweg begrenzt. Diese kanalübergreifenden Regeln schließen automatisch zu oft angeforderte Profile aus Nachrichten und Aktionen aus."
 
-Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder in eine Journey eintreten, indem Sie kanalübergreifende Regeln festlegen, mit denen zu oft angesprochene Profile automatisch von Nachrichten und Aktionen ausgeschlossen werden.
+[!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey über einen oder mehrere Kanäle eingeben. Regeln zur Nachrichtenhäufigkeit, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
 Für eine Marke könnte eine Regel beispielsweise lauten, ihren Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Dazu können Sie eine Geschäftsregel verwenden, die die Anzahl der gesendeten Nachrichten auf der Grundlage eines oder mehrerer Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
 
