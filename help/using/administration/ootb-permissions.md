@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 95%
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,6 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Entscheidungs-Management | **[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</br>**[!DNL Manage offers]**: Lesen, Erstellen, Bearbeiten und Löschen aller Angebote, Komponenten, Leseentscheidungen und Sammlungen.</br>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Berichten und Verwenden von Aktionsfunktionen.</br>**[!DNL View decisions]**: Schreibgeschützter Zugriff auf Angebotentitäten.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | Ziele | **[!DNL Activate destinations]**: ermöglicht Benutzenden, Zielgruppen für vorhandene Ziele zu aktivieren.</br>**[!DNL Activate segment without mapping]**: ermöglicht Benutzenden, Zielgruppen für vorhandene Ziele zu aktivieren, ohne den Zuordnungsschritt anzuzeigen. Benutzende können Zielgruppen zu Aktivierungs-Workflows hinzufügen und welche daraus entfernen, jedoch keine zugeordneten Attribute oder Identitäten.</br>**[!DNL Destination authoring]**: Verfassen von Zielen mit Adobe Experience Platform Destination SDK.</br>**[!DNL Manage and activate dataset destination]**: Lesen, Erstellen, Bearbeiten und Deaktivieren von Datensatz-Exportflüssen. Außerdem die Fähigkeit zum Aktivieren von Daten an aktive Datensätze, die erstellt wurden.</br>**[!DNL Manage destinations]**: Lesen, Erstellen und Löschen von Zielaktivierungsflüssen und Zielkonten.</br>**[!DNL View destinations]**: Nur-Lese-Zugriff auf verfügbare Ziele auf der Registerkarte „Katalog“ und auf authentifizierte Ziele auf der Registerkarte „Durchsuchen“. |
 | Identitätsverwaltung | **[!DNL Manage identity namespaces]**: Lesen, Erstellen und Bearbeiten von Identity-Namespaces.</br>**[!DNL Manage identity settings]**: Lesen, Erstellen und Bearbeiten von Identitätseinstellungen.</br>**[!DNL View identity namespaces]**: Nur-Lese-Zugriff auf Identity-Namespaces.</br>**[!DNL View identity settings]**: Nur-Lese-Zugriff auf Identitätseinstellungen.</br>**[!DNL View identity graph]**: Nur-Lese-Zugriff für Identitätsdiagramme. |
-| IP-Warmup-Konfigurationen | **[!DNL Manage IP warmup plans]**: zum Lesen, Erstellen und Bearbeiten von IP-Aufwärmsplänen.</br>**[!DNL View IP warmup plans]**: Schreibgeschützter Zugriff auf IP-Aufwärmspläne.</br>**[!DNL View IP warmup reports]**: liest und bearbeitet IP-Warmup-Berichte. |
 | Journey Optimizer-Bibliothek | **[!DNL Manage Library Items]**: Hinzufügen und Löschen gespeicherter Ausdrücke in der [!DNL Journey Optimizer] Bibliothek.</br>**[!DNL Simulate content]**: Zugriff auf die Option „Inhalt simulieren“ für Vorschau und Testversand. |
 | Journey Optimizer-Regeln | **[!DNL Manage frequency rules]**: Zugreifen auf und Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten.</br>**[!DNL View frequency rules]**: Nur-Lese-Zugriff auf Regeln. |
 | Journeys | **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys. Um auf Journeys zuzugreifen und diese zu verwalten, kombinieren Sie diese Berechtigung mit **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</br>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</br> |
@@ -44,3 +43,5 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox. |
 
 {style="table-layout:fixed"}
+
+<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->
