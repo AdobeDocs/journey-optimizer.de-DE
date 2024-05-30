@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 98%
+source-wordcount: '1817'
+ht-degree: 97%
 
 ---
 
@@ -311,9 +311,12 @@ ht-degree: 98%
       + Anwendungsfälle für die Personalisierung{#personalization-use-cases}
          + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
-   + Verwalten von wiederverwendbaren Inhalten {#reusable-content}
-      + [Arbeiten mit Inhaltsvorlagen](using/content-management/content-templates.md)
-      + [Arbeiten mit Fragmenten](using/content-management/fragments.md)
+   + [Inhaltsvorlagen](using/content-management/content-templates.md)
+   + Wiederverwendbare Inhaltsfragmente {#fragments}
+      + [Erste Schritte mit Fragmenten](using/content-management/fragments.md)
+      + [Fragment erstellen](using/content-management/create-fragments.md)
+      + [Vorhandenen Inhalt als Fragment speichern](using/content-management/save-fragments.md)
+      + [Fragmente verwalten](using/content-management/manage-fragments.md)
    + Dynamische Inhalte {#dynamic}
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
