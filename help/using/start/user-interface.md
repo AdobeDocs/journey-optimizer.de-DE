@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
   Sie können auch auf den Abschnitt **Reporting** zur Konfiguration des Reportings für das Experimentieren mit Kampagnen zugreifen. [Weitere Informationen](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Geschäftsregeln]** - Verwenden Sie diesen Abschnitt, um kanalübergreifende Geschäftsregeln zu erstellen, um zu steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey eingeben. [Weitere Informationen](../configuration/frequency-rules.md)
+* **[!UICONTROL Verfahrensregeln]**: Verwenden Sie diesen Abschnitt, um kanalübergreifende Verfahrensregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder in eine Journey eintreten. [Weitere Informationen](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
@@ -197,22 +197,22 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="Name der Mobile- und Web-Konfiguration"
+>title="Name der Web- und Mobilgeräte-Konfiguration"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Abhängigkeiten hinzufügen"
+>title="Hinzufügen von Abhängigkeiten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
->title="Initialisierungscode hinzufügen"
+>title="Hinzufügen von Initialisierungs-Code"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Validierung mit Versicherung"
+>title="Mit Assurance validieren"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -222,7 +222,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="Launch-Site und Validierung"
+>title="Starten und Validieren einer Website"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -237,7 +237,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="Push-Zertifikat bereitstellen"
+>title="Bereitstellen eines Push-Zertifikats"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -252,32 +252,32 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Tag-Eigenschaft auswählen"
+>title="Auswählen einer Tag-Eigenschaft"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="Push-Zertifikat bereitstellen"
+>title="Bereitstellen eines Push-Zertifikats"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
->title="Abhängigkeiten hinzufügen"
+>title="Hinzufügen von Abhängigkeiten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Importabhängigkeiten"
+>title="Importieren von Abhängigkeiten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
->title="Importabhängigkeiten"
+>title="Importieren von Abhängigkeiten"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
->title="Initialisierungscode hinzufügen"
+>title="Hinzufügen von Initialisierungs-Code"
 >abstract="TBC"
 
 
@@ -288,5 +288,5 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="Starten Sie die Anwendung von Android Studio aus."
+>title="Starten der Anwendung aus Android Studio"
 >abstract="TBC"
