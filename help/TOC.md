@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -290,7 +290,7 @@ ht-degree: 97%
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
-      + [Adobe Experience Platform-Daten für die Personalisierung verwenden](using/personalization/lookup-aep-data.md)
+      + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](using/personalization/lookup-aep-data.md)
       + Arbeiten mit dem Personalisierungs-Editor {#expression-editor}
          + [Über den Personalisierungs-Editor](using/personalization/personalization-build-expressions.md)
          + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
@@ -327,7 +327,7 @@ ht-degree: 97%
       + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
       + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
       + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
-      + [Email Spam-Bericht](using/content-management/spam-report.md)
+      + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
@@ -565,7 +565,7 @@ ht-degree: 97%
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
-   + [Geschäftsregeln konfigurieren](using/configuration/frequency-rules.md)
+   + [Konfigurieren von Verfahrensregeln](using/configuration/frequency-rules.md)
    + [Arbeiten mit Regelsätzen](using/configuration/rule-sets.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)

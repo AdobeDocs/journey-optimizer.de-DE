@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Mai 2024 {#may-2024}
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Mai wurde in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
-* Der Abschnitt zu Testlisten wurde hinsichtlich wiederkehrender Journey aktualisiert - [Weitere Informationen](../configuration/seed-lists.md#use-seed-list)
-* Der Abschnitt zu externen Datenquellen wurde aktualisiert - [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-access-token)
-* Die globale Journey-Zeitüberschreitung von 30 Tagen wurde auf der Seite Schutzschild und Begrenzung hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-* Der Abschnitt zur Adobe Campaign v7/v8-Integration wurde mit Informationen zur Bereitstellung aktualisiert. [Weitere Informationen](../action/acc-action.md#access)
+* Der Abschnitt zu Testadressenlisten wurde hinsichtlich wiederkehrender Journey aktualisiert. [Weitere Informationen](../configuration/seed-lists.md#use-seed-list)
+* Der Abschnitt zu externen Datenquellen wurde aktualisiert. [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-access-token)
+* Das globale Journey-Zeitlimit von 30 Tagen wurde auf der Seite zu Schutzmechanismen und Begrenzungen hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+* Der Abschnitt zur Integration von Adobe Campaign v7/v8 wurde mit Informationen zur Bereitstellung aktualisiert. [Weitere Informationen](../action/acc-action.md#access)
 * Der Ausdruckseditor zur Personalisierung von Inhalten wurde in der Dokumentation in &quot;Personalisierungs-Editor&quot;umbenannt, um ihn deutlich von der [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md). [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 ## April 2024 {#april-2024}
