@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit dem KI-Assistenten in Adobe Journey Optimizer
-description: Erfahren Sie, wie Sie den Adobe Experience Platform AI-Assistenten in Adobe Journey Optimizer nutzen können.
+title: Arbeiten mit dem KI-Assistenten
+description: Erfahren Sie, wie Sie den KI-Assistenten nutzen
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Arbeiten mit dem KI-Assistenten in Adobe Journey Optimizer {#ai-assistant}
+# Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
 Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke in Ihre spezifische Umgebung erhalten können. Es ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
 
@@ -26,7 +27,7 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 
 In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
-* Konzeptfragen (Allgemeine Verfügbarkeit) Bei Konzeptfragen geht es um Adobe-Konzepte zu Adobe Journey Optimizer-Aspekten. Zu den Beispielen für Konzeptfragen gehören:
+* Produktkenntnis (Allgemeine Verfügbarkeit) Produktwissensfragen beziehen sich auf Adobe-Konzepte zu Adobe Journey Optimizer-Aspekten. Beispiele für Produktwissensfragen:
 
    * Wie viele Live-Aktivitäten kann ich in einer Adobe Journey Optimizer-Sandbox haben?
    * Wie richte ich eine Kampagne in Adobe Journey Optimizer ein?
@@ -54,4 +55,4 @@ Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Bildschirmrand ei
 
 Benutzen Sie den Daumen nach oben oder halten Sie den Daumen runter, um die Antwort zu bewerten.
 
-Informationen zur Verwendung der KI-Assistenzkraft, Beispiele für Ziele, die Sie mit der KI-Assistenzkraft erreichen können, und Informationen zur Funktionsweise der KI-Assistenzkraft finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und in der Funktionsweise des KI-Assistenten, siehe [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
