@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -158,7 +158,7 @@ Mit [E-Mail-Designer](content-from-scratch.md) können Sie die verfolgten URLs v
    * **[!UICONTROL Verfolgt]**: Aktiviert das Tracking dieser URL.
    * **[!UICONTROL Opt-out]**: Diese URL wird als Opt-out- oder Abmelde-URL behandelt.
    * **[!UICONTROL Mirrorseite]**: Diese URL wird als Mirror-Seite behandelt.
-   * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Nie]**: Aktiviert nie das Tracking dieser URL.
 
 Das Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Globalen Bericht](../reports/global-report.md) verfügbar.
 
