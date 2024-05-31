@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 32%
@@ -31,7 +31,6 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 * Aktivieren Sie die **Ausschluss-Link mit einem Klick** für Ihre E-Mail.  [Erfahren Sie, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
 * Einfügen einer **Link zu einer Landingpage**. [Erfahren Sie, wie Sie eine Landingpage zum Opt-out hinzufügen](#opt-out-external-lp)
-
 
 ## Opt-out in einem Schritt {#opt-out-one-step}
 
