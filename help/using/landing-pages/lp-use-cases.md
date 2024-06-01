@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 93%
@@ -166,6 +166,8 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 >Wenn die Zusammenführungsmethode für Ihre Standardeinstellung [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} **[!UICONTROL Profile]** Zusammenführungsrichtlinie ist **[!UICONTROL Datensatzpriorität]** müssen Sie die **[!UICONTROL Datensatz des AJO Consent Service]** und sie in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
+
+
 
 **Siehe auch:**
 
