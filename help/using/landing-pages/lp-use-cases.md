@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 93%
+source-wordcount: '968'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer]-Landingpages zum kundenseitigen Opt-in/Opt-out für bestimmte oder alle Ihre Nachrichten.
 
-## Dienstanmeldung {#subscription-to-a-service}
+## Abonnement eines Services {#subscription-to-a-service}
 
 Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Landingpage zum [Abonnieren eines Services](subscription-list.md) (z. B. eines Newsletters oder einer Veranstaltung) aufzufordern. Die wichtigsten Schritte werden im unten stehenden Diagramm dargestellt:
 
@@ -88,7 +88,7 @@ Alle Benutzer, die sich für Ihre Veranstaltung registriert haben, erhalten die 
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Opt-out-Landingpage {#opt-out}
+## Ausschluss (Opt-out) {#opt-out}
 
 Damit Ihre Empfänger das Abonnement stornieren können, können Sie in Ihre E-Mails einen Link zu einer Ausschluss-Landingpage einfügen.
 
@@ -107,7 +107,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 ### Konfigurieren des Opt-out von E-Mails {#configure-opt-out}
 
-Gehen Sie wie folgt vor, damit sich Empfänger einer E-Mail über eine Landingpage von Ihrer Nachricht abmelden können:
+Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses Abonnement über eine Landingpage zu stornieren.
 
 1. Erstellen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md)
 
@@ -167,12 +167,6 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 
-
-
-**Siehe auch:**
-
-* [Opt-out mit einem Klick](../email/email-opt-out.md#one-click-opt-out-link)
-* [Ausschluss-Link in der E-Mail-Kopfzeile](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
