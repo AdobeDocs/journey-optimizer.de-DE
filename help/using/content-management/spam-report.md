@@ -9,7 +9,7 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können die Spam-Bewertung Ihres E-Mail-Inhalts in einem speziellen Spam-Ber
 
 >[!AVAILABILITY]
 >
->Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kundschaft zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 Bei der Bearbeitung oder Vorschau Ihres E-Mail-Inhalts wird die **[!UICONTROL Spam-Bericht]** -Schaltfläche bietet Scoring und Ratschläge zur Verbesserung der Punktzahl für jedes aufgelistete Element.
 
