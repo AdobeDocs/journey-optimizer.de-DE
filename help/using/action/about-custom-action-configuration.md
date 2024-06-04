@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1561'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -66,28 +66,28 @@ In Journey Optimizer können Sie Data Governance- und Einverständnisrichtlinien
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
 
-1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Klicken Sie auf **[!UICONTROL Aktion erstellen]**, um eine neue Aktion zu erstellen. Der Konfigurationsbereich für die Aktion wird auf der rechten Seite des Bildschirms geöffnet.
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Klicken Sie auf **[!UICONTROL Aktion erstellen]**, um eine neue Aktion zu erstellen. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](assets/custom2.png)
 
-1. Geben Sie einen Namen für die Aktion ein.
+1. Geben Sie einen Namen für Ihre Aktion ein.
 
    >[!NOTE]
    >
    >Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.
 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
-1. Die Anzahl der Journey, die diese Aktion verwenden, wird im **[!UICONTROL Verwendet in]** -Feld. Sie können auf die **[!UICONTROL Journey anzeigen]** -Schaltfläche, um die Liste der Journey anzuzeigen, die diese Aktion verwenden.
-1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfiguration]** Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
-1. Konfigurieren Sie die **[!UICONTROL Authentifizierung]** Abschnitt. Diese Konfiguration entspricht der für Datenquellen.  Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Die Anzahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys, die diese Aktion verwenden, anzuzeigen.
+1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfigurations]**-Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
+1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Die benutzerdefinierte Aktion ist jetzt konfiguriert und kann in Ihren Journey verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+   Die Aktion ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
    >[!NOTE]
    >
-   >Wenn eine benutzerdefinierte Aktion in einer Journey verwendet wird, sind die meisten Parameter schreibgeschützt. Sie können die **[!UICONTROL Name]**, **[!UICONTROL Beschreibung]**, **[!UICONTROL URL]** und die **[!UICONTROL Authentifizierung]** Abschnitt.
+   >Wenn eine benutzerdefinierte Aktion in einer Journey verwendet wird, sind die meisten Parameter schreibgeschützt. Sie können nur die Felder **[!UICONTROL Name]**, **[!UICONTROL Beschreibung]**, **[!UICONTROL URL]** und den Abschnitt **[!UICONTROL Authentifizierung]** ändern.
 
 ## Endpunktkonfiguration {#url-configuration}
 
@@ -139,11 +139,11 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Header werden gemäß den folgenden Parsing-Regeln validiert. Weitere Informationen finden Sie in [dieser Dokumentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Unterstützung des mTLS-Protokolls {#mtls-protocol-support}
+## mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
 
-Sie können jetzt &quot;Mutual Transport Layer Security (mTLS)&quot;verwenden, um eine höhere Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Aktionen von Adobe Journey Optimizer sicherzustellen. mTLS ist eine durchgängige Sicherheitsmethode für die gegenseitige Authentifizierung, mit der sichergestellt wird, dass beide Parteien, die Informationen teilen, diejenigen sind, die sie angeblich sind, bevor Daten freigegeben werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat des Kunden anfordert und es auf dessen Ende überprüft.
+Sie können jetzt Mutual Transport Layer Security (mTLS) verwenden, um die Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Aktionen von Adobe Journey Optimizer zu erhöhen. mTLS ist eine End-to-End-Sicherheitsmethode zur gegenseitigen Authentifizierung, die sicherstellt, dass beide Parteien, die Informationen austauschen, auch die sind, die sie vorgeben zu sein, bevor die Daten ausgetauscht werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat der Kundin bzw. des Kunden anfordert und überprüft, ob es gültig ist.
 
-Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktionen unterstützt. Für die benutzerdefinierte Aktion oder das Journey ist keine zusätzliche Konfiguration erforderlich, um mTLS zu aktivieren. Sie erfolgt automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktionen unterstützt. Es ist keine zusätzliche Konfiguration in der benutzerdefinierten Aktion oder Journey erforderlich, um mTLS zu aktivieren, sondern dies geschieht automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definieren der Payload-Parameter {#define-the-message-parameters}
 
@@ -161,11 +161,11 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 >
 >Das Payload-Beispiel darf keine Nullwerte enthalten. Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit dem Zeichen „$“ beginnen.
 
-Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
+Sie können den Parametertyp definieren (z. B. Zeichenfolge, Ganzzahl usw.).
 
 Sie können auch angeben, ob ein Parameter eine Konstante oder eine Variable ist:
 
-* **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn die benutzerdefinierte Aktion während der Journey verwendet wird. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben der Umschalter-Konstante/Variablen der übergebene Wert.
+* **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn die benutzerdefinierte Aktion während der Journey verwendet wird. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der übergebene Wert.
 * **Variable** bedeutet, dass der Wert des Parameters variiert. Marketing-Experten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
 
 ![](assets/customactionpayloadmessage2.png)

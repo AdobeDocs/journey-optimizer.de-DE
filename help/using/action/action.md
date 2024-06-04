@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Informationen zu Aktionen
-description: Erfahren Sie, wie Sie eine Aktion konfigurieren
+description: Erfahren Sie, wie Sie eine Aktion konfigurieren können
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Informationen zu Aktionen"
->abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie Aktion zur Verfügung."
+>abstract="Hier legen Sie die Verbindung zum System fest, über die die Nachrichten versendet werden sollen. Die hier definierten Aktionen werden dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ verfügbar sein."
 
 Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
@@ -39,9 +39,9 @@ Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbieters
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-Die Aktionen sind in der linken Palette Ihrer Journey im **[!UICONTROL Aktion]** Kategorie. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+Die Aktionen sind in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** verfügbar. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
-Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Siehe [diese Seite](../start/user-interface.md) für weitere Informationen zur Benutzeroberfläche.
+Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Schnittstelle finden Sie auf [dieser Seite](../start/user-interface.md).
 
 ![](assets/custom1.png)
 

@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
->title="Unitäres Ereignis"
+>title="Unitäre Ereignisse"
 >abstract="Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen Journey Optimizer als Ereignisse erhält. Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden. Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein."
 
 Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein.  Mehr über unitäre Ereignisse erfahren Sie [in diesem Abschnitt](../event/about-events.md).
@@ -61,12 +61,12 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
    >
    >Wenn Sie den Typ **[!UICONTROL Systemgeneriert]** auswählen, sind nur Schemata mit dem Feld vom Typ „eventID“ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
 
-1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Definieren Sie mithilfe des einfachen oder erweiterten Ausdruckseditors die Bedingung, die vom System verwendet wird, um die Ereignisse zu identifizieren, die auf Ihre Journey Trigger werden.
+1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen oder erweiterten Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
    ![](assets/jo-event6.png)
 
    >[!NOTE]
    >
-   >Der erweiterte Ausdruckseditor in der Ereigniskonfiguration ist in der eingeschränkten Verfügbarkeit für ausgewählte Kunden verfügbar.
+   >Der erweiterte Ausdruckseditor in der Ereigniskonfiguration befindet sich in eingeschränkter Verfügbarkeit für ausgewählte Kundinnen und Kunden.
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils verwendet. Dies bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (Feld **[!UICONTROL Stadt]** und Wert **[!UICONTROL Paris]**), dieses an Journeys weiterleitet.
 

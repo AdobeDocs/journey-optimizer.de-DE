@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2513'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -94,30 +94,30 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Sie können nur eine benutzerdefinierte Domain-Gruppe ausschließen, die der [IP-Aufwärmplan-Vorlage](ip-warmup-plan.md#prepare-file) hinzugefügt wurde. Andernfalls müssen Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe aktualisieren, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
 
-   1. Aus dem **[!UICONTROL Kampagne zum Ausschluss von Profilen]** auswählen, welche Zielgruppen Sie aus der aktuellen Phase ausschließen möchten.
+   1. Wählen Sie im Abschnitt **[!UICONTROL Kampagne zum Ausschluss von Profilen]** die Kampagnen, deren Zielgruppen Sie aus der aktuellen Phase ausschließen möchten.
 
       ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
       Zum Beispiel: Sie mussten bei der Ausführung von Phase 1 aus irgendeinem Grund die Phase [aufteilen](#split-phase). Daher können Sie die in Phase 1 verwendete Kampagne ausschließen, sodass die zuvor kontaktierten Profile aus Phase 1 nicht in Phase 2 eingeschlossen sind. Sie können auch Kampagnen aus anderen IP-Aufwärmplänen ausschließen.
 
-   1. Aus dem **[!UICONTROL Journey zum Ausschluss von Profilen]** Wählen Sie die Journey mit den Zielgruppen aus, die Sie aus der aktuellen Phase ausschließen möchten.
+   1. Wählen Sie im Abschnitt **[!UICONTROL Journeys zum Ausschluss von Profilen]** die Journeys mit den Zielgruppen aus, die Sie aus der aktuellen Phase ausschließen möchten.
 
-+++ Um die Option Journey zum Ausschluss von Profilen zu verwenden, müssen Sie eine Beziehung zwischen den Schemas &quot;AJO Message Feedback Event&quot;und &quot;AJO Entity Record&quot;herstellen.
++++ Um die Option „Journeys zum Ausschluss von Profilen“ zu verwenden, müssen Sie eine Beziehung zwischen den Schemata „AJO Message Feedback Event“ und „AJO Entity Record“ herstellen.
 
-      1. Benutzerdefiniert erstellen **Namespace** , der als Identitätstyp für die folgenden Schritte dient.
+      1. Erstellen Sie einen benutzerdefinierten **Namespace**, der als Identitätstyp für die folgenden Schritte dient.
 
-      1. Zugriff auf Adobe Experience Platform über das **Schemas** auswählen, wählen Sie die **AJO-Entitätsdatensatzschema** und legen Sie die **_id** als primäre Identität festzulegen und den zuvor erstellten Namespace als **Identitäts-Namespace**.
+      1. Greifen Sie über das Menü **Schemata** auf Adobe Experience Platform zu, wählen Sie das Schema **AJO Entity Record**, legen Sie das Feld **_id** als primäre Identität fest und wählen Sie den zuvor erstellten Namespace als **Identity-Namespace**.
 
-      1. Aus dem **Schemas** auswählen, wählen Sie die **AJO-Nachrichten-Feedback-Ereignisschema** und navigieren Sie zum **_messageID** -Feld. Auswählen **Beziehung hinzufügen** und wählen **AJO-Entitätsdatensatzschema** als **Referenzschema** und Ihrem zuvor erstellten Namespace als **Referenz-Identitäts-Namespace**.
+      1. Wählen Sie im Menü **Schemata** das Schema **AJO Message Feedback Event** und navigieren Sie zum Feld **_messageID**. Wählen Sie **Beziehung hinzufügen** und wählen Sie das Schema **AJO Entity Record Schema** als **Referenzschema** und Ihren zuvor erstellten Namespace als **Referenz-Identity-Namespace**.
 +++
 
-   1. Im **[!UICONTROL Profile, die in vorherigen Ausführungen ausgewählt wurden]** -Abschnitt, können Sie sehen, dass die Profile aus den vorherigen Ausführungen dieser Phase immer ausgeschlossen sind. Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
+   1. Im Abschnitt **[!UICONTROL In vorherigen Ausführungen angesprochene Profile]** können Sie sehen, dass die Profile aus den früheren Durchläufen dieser Phase immer ausgeschlossen werden. Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4.800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
 
       >[!NOTE]
       >
       >Dieser Abschnitt kann nicht bearbeitet werden.
 
-1. Bei Bedarf können Sie die Kampagne durch die Variable **[!UICONTROL Ersetzen]** Schaltfläche. Sie können die ausgewählte Kampagne auch mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Sie können dann entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
+1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können die ausgewählte Kampagne auch über die Schaltfläche **[!UICONTROL Löschen]** löschen. Sie können dann entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -133,7 +133,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >Sie können die **[!UICONTROL Löschphase]** Aktion.
+   >Sie können die Aktion **[!UICONTROL Phase löschen]** nicht rückgängig machen.
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -156,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
 >title="Festlegen eines Zeitfensters"
->abstract="Sie können ein Zeitfenster definieren, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls sich der Segmentierungsvorgang verzögert."
+>abstract="Sie können ein Zeitfenster definieren, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls sich der Segmentierungsauftrag verzögert."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
@@ -166,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Anzeigen der qualifizierten Profile"
->abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Audience für eine Ausführung ausgewertet wurde und mehr Zielgruppenprofile als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin ausgeführt, es sei denn, die **Abbrechen von aktivierten Ausführungen bei Fehlern** aktiviert ist. In diesem Fall wird die Ausführung abgebrochen."
+>abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Zielgruppe für eine Ausführung ausgewertet wurde und mehr angesprochene als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin durchgeführt, es sei denn, die Option **Aktivierte Ausführungen im Falle von Fehlern abbrechen** ist aktiviert. In diesem Fall wird die Ausführung abgebrochen."
 
 1. Wählen Sie für jede Ausführung einen Zeitplan aus, um sicherzustellen, dass sie zum angegebenen Zeitpunkt durchgeführt wird.
 
@@ -186,19 +186,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Wenn kein Zeitfenster angegeben ist, wird die Ausführung zum Versandzeitpunkt gestartet und schlägt fehl, falls die Bewertung der Zielgruppe nicht abgeschlossen ist.
 
-1. Wählen Sie bei Bedarf **[!UICONTROL Ausführen bearbeiten]** über das Symbol „Mehr Aktionen“ aus. Dort können Sie die Anzahl der Adressen in jeder Spalte aktualisieren. Sie können auch die **[!UICONTROL Zuletzt aktiviert]** -Feld, um beispielsweise nur die Benutzer anzusprechen, die in den letzten 20 Tagen mit Ihrer Marke interagiert haben.
+1. Wählen Sie bei Bedarf **[!UICONTROL Ausführen bearbeiten]** über das Symbol „Mehr Aktionen“ aus. Dort können Sie die Anzahl der Adressen in jeder Spalte aktualisieren. Sie können auch das Feld **[!UICONTROL Letzte Interaktion]** aktualisieren, um beispielsweise nur die Benutzerinnen und Benutzer anzusprechen, die in den letzten 20 Tagen mit Ihrer Marke interagiert haben.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, diese Zahlen in Absprache mit Ihren Zustellbarkeitsfachleuten zu ändern.
+   >Es wird empfohlen, diese Zahlen in Absprache mit Ihrer Zustellbarkeitsfachkraft zu ändern.
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
    >[!NOTE]
    >
-   >Wenn Sie keinen Interaktionszeitraum auf einen Lauf anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Zuletzt aktiviert]** -Feld.
+   >Wenn Sie keinen Interaktionszeitraum auf eine Ausführung anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Letzte Interaktion]** ein.
 
-1. Wählen Sie die **[!UICONTROL Abbrechen von aktivierten Ausführungen bei Fehlern]** -Option, um einen Lauf abzubrechen, wenn die qualifizierten Profile kleiner als die Zielgruppenprofile sind, nachdem die Audience für diesen Lauf ausgewertet wurde. In diesem Fall hat die Ausführung den Status **[!UICONTROL Fehlgeschlagen]** .
+1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen im Falle von Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn es weniger qualifizierte Profile als Zielgruppenprofile gibt, nachdem die Zielgruppe für diese Ausführung ausgewertet wurde. In diesem Fall hat die Ausführung den Status **[!UICONTROL Fehlgeschlagen]** .
 
    ![](assets/ip-warmup-plan-pause.png)
 
@@ -210,11 +210,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt](#monitor-plan) aufgeführt.
 
-1. Wenn die Ausführung der Kampagne noch nicht gestartet wurde, können Sie einen Live-Lauf abbrechen. Durch diese Aktion wird der Ausführungsplan tatsächlich abgebrochen - der Versand wird nicht gestoppt.
+1. Wenn die Ausführung der Kampagne noch nicht gestartet wurde, können Sie eine Live-Ausführung abbrechen. Mit dieser Aktion wird der Ausführungsplan abgebrochen, der Versand jedoch nicht gestoppt.
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-1. Um einen Entwurf, eine Live- oder eine abgeschlossene Ausführung zu duplizieren, wählen Sie **[!UICONTROL Duplizieren]**. Nach der Duplizierung wird das Menü &quot;Ausführen bearbeiten&quot;angezeigt, über das Benutzer die **[!UICONTROL Gesamtzahl der Zielprofile]** und **[!UICONTROL Sendezeit]** nach Bedarf.
+1. Um einen Entwurf, eine Live- oder eine abgeschlossene Ausführung zu duplizieren, wählen Sie **[!UICONTROL Ausführung duplizieren]**. Nach der Duplizierung erscheint das Menü „Ausführung bearbeiten“, in dem Sie die **[!UICONTROL Gesamtzahl der Zielgruppenprofile]** und die **[!UICONTROL Versandzeit]** nach Bedarf anpassen können.
 
    ![](assets/ip-warmup-duplicate.png)
 
@@ -222,7 +222,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Um eine Ausführung zu aktivieren, wählen Sie die Schaltfläche **[!UICONTROL Aktivieren]** aus. Dann können Sie die nächsten Ausführungen täglich aktivieren.
 
-Wenn Sie mehrere IP-Aufwärmspläne gleichzeitig ausführen, die alle auf denselben IP-Pool und dieselben Domänen abzielen, ist es entscheidend, die potenziellen Auswirkungen vorherzusehen. Wenn beispielsweise ein ISP eine tägliche Beschränkung von 100 E-Mails durchsetzt, könnte die Ausführung mehrerer Pläne, die auf dieselben Domänen abzielen, diesen Schwellenwert überschreiten.
+Wenn Sie mehrere IP-Aufwärmpläne gleichzeitig ausführen, die alle auf denselben IP-Pool und dieselben Domains abzielen, ist es entscheidend, die potenziellen Auswirkungen vorherzusehen. Wenn beispielsweise ein ISP eine tägliche Beschränkung von 100 E-Mails durchsetzt, könnte die Ausführung mehrerer Pläne, die auf dieselben Domains abzielen, diesen Schwellenwert überschreiten.
 
 Achten Sie darauf, dass Sie ausreichend Zeit für die Ausführung der [Zielgruppenbewertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#how-segmentation-works){target="_blank"} eingeplant haben.
 
@@ -238,9 +238,9 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
 
    * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit der folgenden Benennungskonvention erstellt: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
 
-   * Für die ausgeschlossenen Journey-Zielgruppen wird eine weitere Zielgruppe (sofern vorhanden) mit der folgenden Benennungskonvention erstellt: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
+   * Es wird eine weitere Zielgruppe für die ausgeschlossenen Journey-Zielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -262,11 +262,11 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
 
      >[!NOTE]
      >
-     >Für jede Ausführung wird eine neue Zielgruppenzusammensetzung erstellt. Mit einer Beschränkung von 10 müssen Benutzer, die mehrere Kampagnen, Journey und IP-Aufwärmspläne gleichzeitig mit veröffentlichten Zielgruppenkompositionen ausführen, vorausplanen, um bei parallelen Vorgängen diese Grenze zu erreichen.
+     >Für jede Ausführung wird eine neue Zielgruppenkomposition erstellt. Bei einem Limit von 10 müssen Benutzende, die mehrere Kampagnen, Journeys und IP-Aufwärmpläne gleichzeitig ausführen und dabei veröffentlichte Zielgruppenkompositionen verwenden, im Voraus planen, um dieses Limit für parallele Vorgänge einzuhalten.
      >
      >Die Zielgruppenkomposition (und damit die Ausgabe-Zielgruppe) wird bei der Aktivierung der nächsten Iteration bereinigt.
 
-   * Eine Ausgabe-Audience wird mit der folgenden Namenskonvention erstellt: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Eine Ausgabe-Zielgruppe wird mit der folgenden Namenskonvention erstellt: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -297,9 +297,9 @@ Der IP-Aufwärmplan selbst dient auch als zentraler konsolidierter Bericht. Sie 
 Eine Ausführung kann folgende Status haben:
 
 * **[!UICONTROL Entwurf]** : Sobald eine Ausführung erstellt wurde, entweder durch [Einen neuen Plan erstellen](ip-warmup-plan.md) oder durch [Einen Vorgang hinzufügen](#define-runs) von der Benutzeroberfläche aus, erhält sie den Status **[!UICONTROL Entwurf]**.
-* **[!UICONTROL Live]**: Sobald eine Ausführung aktiviert wurde, erhält sie den Status **[!UICONTROL Live]**. Das bedeutet, dass das System die Anfrage zur Planung der Ausführung akzeptiert hat, nicht dass der Versand gestartet wurde. In dieser Phase können Sie den Status der Live-Ausführung beobachten, indem Sie auf **[!UICONTROL Status anzeigen]** in der Tabelle. Auf diese Weise können Sie verfolgen, wie viele Zielgruppenprofile sich tatsächlich qualifiziert haben.
-* **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Lauf ist abgeschlossen. Sie können auf einen detaillierten Ausführungsbericht zugreifen, indem Sie auf **[!UICONTROL Bericht anzeigen]** in der Tabelle. Mit dieser Option können Sie den E-Mail-Versandstatus des Vorgangs verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. [Weitere Informationen](#reports)
-* **[!UICONTROL Abgebrochen]**: a **[!UICONTROL Live]** wurde mit der **[!UICONTROL Anhalten]** oder Sie haben die **[!UICONTROL Abbrechen von aktivierten Ausführungen bei Fehlern]** und ein Fehler aufgetreten ist. [Weitere Informationen](#define-runs)
+* **[!UICONTROL Live]**: Sobald eine Ausführung aktiviert wurde, erhält sie den Status **[!UICONTROL Live]**. Das bedeutet, dass das System die Anfrage zur Planung der Ausführung akzeptiert hat, aber nicht, dass der Versand gestartet wurde. In dieser Phase können Sie den Status der Live- Ausführung beobachten, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Status anzeigen]** klicken. Auf diese Weise können Sie verfolgen, wie viele Zielgruppenprofile sich tatsächlich qualifiziert haben.
+* **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Durchlauf ist abgeschlossen. Sie können einen detaillierten Ausführungsbericht aufrufen, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. Mit dieser Option können Sie den E-Mail-Versandstatus des Vorgangs verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. [Weitere Informationen](#reports)
+* **[!UICONTROL Abgebrochen]**: Eine **[!UICONTROL Live]**-Ausführung wurde über die Schaltfläche **[!UICONTROL Anhalten]** abgebrochen, oder Sie haben die Option **[!UICONTROL Aktivierte Ausführungen im Falle von Fehlern abbrechen]** aktiviert und es ist ein Fehler aufgetreten. [Weitere Informationen](#define-runs)
 * **[!UICONTROL Fehlgeschlagen]**: Beim System ist ein Fehler aufgetreten oder die in der aktuellen Phase verwendete Kampagne wurde gestoppt. Wenn eine Ausführung fehlschlägt, können Sie eine weitere Ausführung für den nächsten Tag planen.
 
 ### Arbeiten mit Berichten {#reports}
@@ -317,7 +317,7 @@ Wenn Ihr IP-Aufwärmplan nicht die erwartete Leistung erzielt, können Sie die f
 
 ### Aufspalten einer Phase {#split-phase}
 
-Wenn Sie eine neue Phase hinzufügen möchten, die von einem bestimmten Ausführen aus beginnt, wählen Sie die **[!UICONTROL Aufspaltung läuft in eine neue Phase]** -Option über das Symbol Mehr Aktionen .
+Wenn Sie eine neue Phase hinzufügen möchten, die ab einer bestimmten Ausführung beginnt, wählen Sie die Option **[!UICONTROL Ausführungen in neue Phase aufteilen]** über das Symbol „Weitere Aktionen“ aus.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -327,7 +327,7 @@ Wenn Sie beispielsweise diese Option für die Ausführung Nr. 4 auswählen, werd
 
 Führen Sie die [obigen](#define-phases) Schritte aus, um die neue Phase zu definieren.
 
-* Sie können die **[!UICONTROL Ersetzen]** oder **[!UICONTROL Löschen]** Optionen für diese neue Phase.
+* Sie können für diese neue Phase die Optionen **[!UICONTROL Ersetzen]** oder **[!UICONTROL Löschen]** verwenden.
 
 * Sie können auch die vorherige Kampagne oder eine Domain ausschließen, die nicht gut abschneidet. Mehr dazu erfahren Sie in [diesem Abschnitt](#define-phases).
 

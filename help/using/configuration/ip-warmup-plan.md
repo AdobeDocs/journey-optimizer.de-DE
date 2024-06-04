@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit 
 
 Um auf die IP-Aufwärmspläne zugreifen, sie erstellen, bearbeiten und löschen zu können, benötigen Sie die Rolle **[!UICONTROL Zustellbarkeitsberater]** oder entsprechende Berechtigungen für IP-Aufwärmpläne.
 
-+++ Erfahren Sie, wie Sie die Rolle des Zustellbarkeitsberaters oder entsprechende Berechtigungen für IP-Aufwärmspläne zuweisen.
++++Erfahren Sie, wie Sie die Rolle des Zustellbarkeitsberaters oder entsprechende Berechtigungen für IP-Aufwärmspläne zuweisen.
 
-Mit der Zugriffskontrolle auf Objektebene können Sie Daten schützen und spezifischen Zugriff gewähren, um Ihre Pläne anzuzeigen und zu verwalten. Wenn Ihrem IP-Warmup-Plan kein Titel zugewiesen ist, kann er von allen Benutzern angezeigt und bearbeitet werden.
+Mit der Zugriffskontrolle auf Objektebene können Sie Daten schützen und spezifischen Zugriff gewähren, um Ihre Pläne anzuzeigen und zu verwalten. Wenn Ihrem IP-Aufwärmplan kein Label zugewiesen ist, kann er von allen Benutzenden eingesehen und bearbeitet werden.
 
-Zuweisen der **[!UICONTROL IP-Aufwärmspläne anzeigen]** -Berechtigung schränkt den Zugriff auf die Anzeige und Veröffentlichung ein, während die **[!UICONTROL IP-Aufwärmspläne verwalten]** -Berechtigung ermöglicht es Benutzern, den Plan anzuzeigen und zu bearbeiten.
+Wenn Sie die Berechtigung **[!UICONTROL IP- Aufwärmpläne anzeigen]** erteilen, ist der Zugriff nur auf das Anzeigen und Veröffentlichen beschränkt. Wenn Sie die Berechtigung **[!UICONTROL IP-Aufwärmpläne verwalten]** erteilen, können die Benutzenden den Plan sowohl anzeigen als auch bearbeiten.
 
 So können Sie einer bestimmten **[!UICONTROL Rolle]** entsprechende Berechtigungen zuweisen:
 
@@ -80,11 +80,11 @@ So weisen Sie die entsprechende Rolle einer **[!UICONTROL Benutzerin bzw. einem 
 
 IP-Aufwärmen ist eine Aktivität, die darin besteht, die Anzahl der E-Mails, die von Ihren IPs und Ihrer Domain an die wichtigsten Internet-Dienstanbieter (ISPs) gesendet werden, schrittweise zu erhöhen, um Ihre Reputation als legitimer Absender zu etablieren.
 
-Diese Aktivität wird in der Regel mithilfe eines Zustellbarkeitsexperten durchgeführt, der bei der Erstellung eines gut durchdachten Plans auf der Basis von Branchendomänen, Anwendungsfällen, Regionen, ISPs und verschiedenen anderen Faktoren unterstützt.
+Diese Aktivität wird in der Regel mithilfe von einer Zustellbarkeitsfachkraft durchgeführt, die bei der Erstellung eines gut durchdachten Plans auf der Basis von Branchen-Domains, Anwendungsfällen, Regionen, ISPs und verschiedenen anderen Faktoren hilft.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie eine Excel-Vorlage mit allen Daten ausfüllen, die in Ihren Plan gespeist werden.
+Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie eine Excel-Vorlage mit allen Daten ausfüllen, die in Ihren Plan einfließen sollen.
 
 * Über die Benutzeroberfläche können Sie die leere [Excel-Vorlage für einen IP-Aufwärmplan](assets/IPWarmupPlan-Template.xlsx) zum Ausfüllen herunterladen.
 
@@ -110,7 +110,7 @@ Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 * In diesem Beispiel wurde ein Plan (mit dem Titel „**Ausführungen**“) erstellt, der sich über einen Zeitraum von 17 Tagen erstreckt, um ein Zielvolumen von über einer Million Profilen zu erreichen.
 
-* Dieser Plan wird in 6 **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
+* Dieser Plan wird in sechs **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
 * Sie können für die Domains, an die Sie versenden möchten, beliebig viele Spalten haben. In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
 
@@ -202,9 +202,9 @@ Sie können Ihrem Plan auch weitere Spalten hinzufügen, indem Sie benutzerdefin
 
 Verwenden Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, um eine neue Domain-Gruppe zu definieren. Für jede Domain können Sie alle von ihr abgedeckten Subdomains hinzufügen.<!--TBC-->
 
-Stellen Sie sicher, dass jede Domäne für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen Domänengruppen überschneidet. Da globale Domänengruppen automatisch definiert werden, sollten Benutzer dies bei der Erstellung benutzerdefinierter Domänengruppen berücksichtigen.
+Stellen Sie sicher, dass jede Domain für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen Domain-Gruppen überschneidet. Da globale Domain-Gruppen automatisch definiert werden, sollten die Benutzenden dies bei der Erstellung benutzerdefinierter Domain-Gruppen berücksichtigen.
 
-Zum Beispiel: Wenn Sie die benutzerdefinierte Domain „Luma“ hinzufügen, sollen die folgenden Subdomains eingeschlossen sein: luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw.
+Wenn Sie zum Beispiel die benutzerdefinierte Domain „Luma“ hinzufügen, sollten Subdomains wie luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw. einbezogen werden.
 
 ![](assets/ip-warmup-sample-file-custom.png)
 

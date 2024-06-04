@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -214,18 +214,18 @@ Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch g
 
 ### Zusammenführungsrichtlinien {#merge-policies}
 
-Journey verwendet beim Abrufen von Profildaten aus Adobe Experience Platform Zusammenführungsrichtlinien. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
+Eine Journey verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten von Adobe Experience Platform. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
 
-* In Journey Lesen der Audience- oder Audience-Qualifizierung wird die Zusammenführungsrichtlinie aus der Audience verwendet
-* In ereignisgesteuerten Journey: Die standardmäßige Zusammenführungsrichtlinie wird verwendet.
+* In den Journeys „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
+* In ereignisgesteuerten Journeys wird die standardmäßige Zusammenführungsrichtlinie verwendet
 
-Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie.
+Eine Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie.
 
 >[!NOTE]
 >
->Diese Funktion ist nur für ausgewählte Kunden mit eingeschränkter Verfügbarkeit (LA) verfügbar.
+>Diese Funktion ist nur für ausgewählte Kundinnen und Kunden mit eingeschränkter Verfügbarkeit (LA) verfügbar.
 
-Weiterführende Informationen zu Zusammenführungsrichtlinien finden Sie in diesem Abschnitt [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+Weitere Informationen zu den Zusammenführungsrichtlinien finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview)
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
 

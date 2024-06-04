@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Optimizer
 
 Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
 
-* Das Schema muss der ExperienceEvent-XDM-Klasse angehören.
+* Das Schema muss der XDM-Klasse „ExperienceEvent“ angehören.
 
   ![](assets/schema2.png)
 
@@ -38,17 +38,17 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
   ![](assets/schema3.png)
 
-* Deklarieren Sie ein Identitätsfeld zur Identifizierung einzelner Profile im Ereignis. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
+* Deklarieren Sie ein Identitätsfeld zur Identifizierung einzelner Profile im Ereignis. Wenn keine Identität angegeben wird, kann eine Identitätszuordnung verwendet werden. Dies wird nicht empfohlen.
 
   ![](assets/schema4.png)
 
-* Damit diese Daten später in einer Journey zur Suche verfügbar sind, markieren Sie das Schema und den Datensatz für das Profil.
+* Wenn Sie möchten, dass diese Daten später in einer Journey abrufbar sind, markieren Sie das Schema und den Datensatz für das Profil.
 
   ![](assets/schema5.png)
 
   ![](assets/schema6.png)
 
-* Sie können auch Datenfelder einschließen, um andere Kontextdaten zu erfassen, die Sie in das Ereignis aufnehmen möchten, z. B. Informationen zum Benutzer, zum Gerät, von dem das Ereignis generiert wurde, zum Ort oder andere aussagekräftige Umstände in Zusammenhang mit dem Ereignis.
+* Sie können Datenfelder einfügen, um andere Kontextdaten zu erfassen, die Sie mit dem Ereignis verknüpfen möchten, z. B. Informationen über die Person, das Gerät, von dem das Ereignis erzeugt wurde, den Standort oder andere aussagekräftige Umstände im Zusammenhang mit dem Ereignis.
 
   ![](assets/schema7.png)
 
@@ -87,7 +87,7 @@ Sie können eine Schemabeziehung für ein Zeichenfolgen-Array definieren, z. B. 
 
 ![](assets/schema15.png)
 
-Sie können auch eine Schemabeziehung mit einem -Attribut innerhalb einer Gruppe von Objekten definieren, z. B. eine Liste mit Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte stehen in Journey zur Verfügung (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
+Sie können auch eine Schemabeziehung mit einem Attribut innerhalb eines Arrays von Objekten definieren, z. B. eine Liste von Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journeys (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
 
 ![](assets/schema16.png)
 
