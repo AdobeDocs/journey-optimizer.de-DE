@@ -178,7 +178,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 >id="ajo_lp_subpage"
 >title="Definieren der Unterseiteneinstellungen"
 >abstract="Sie können bis zu 2 Unterseiten hinzufügen. Sie können beispielsweise eine „Danke“-Seite erstellen, die angezeigt wird, sobald Benutzer das Formular übermitteln, und Sie können eine Fehlerseite definieren, die erscheint, wenn ein Problem mit der Landingpage auftritt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Erstellen der Landingpage-Inhalte"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Erstellen der Landingpage-Inhalte"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
@@ -263,7 +263,7 @@ Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
 
 Es können zwei Arten von Warnhinweisen auftreten:
 
-* **Warnungen** Siehe Empfehlungen und Best Practices. <!--For example, a message will display if -->
+* **Warnungen** beziehen sich auf Empfehlungen und Best Practices. <!--For example, a message will display if -->
 
 * **Fehler** verhindern, dass Sie die Landingpage veröffentlichen, solange nicht alle Fehler behoben sind. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
 

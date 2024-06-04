@@ -34,7 +34,7 @@ Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum 
 * Statische Angebotssammlung
 * Angebotsentscheidung
 * Kanaloberfläche
-* IP-Warmup-Plan
+* IP-Aufwärmplan
 
 Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
