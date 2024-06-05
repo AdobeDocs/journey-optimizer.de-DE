@@ -2,28 +2,28 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Warteaktivität
-description: Erfahren Sie mehr über die Warteaktivität
+description: Erfahren Sie, wie Sie die Warteaktivität konfigurieren
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 37%
 
 ---
 
-# Warteaktivität{#wait-activity}
+# Warteaktivität {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Warteaktivität"
 >abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
-Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Die folgenden Optionen sind verfügbar:
+Sie können eine **[!UICONTROL Warten]** -Aktivität, um eine Dauer zu definieren, bevor die nächste Aktivität ausgeführt wird. Die folgenden Optionen sind verfügbar:
 
 * [Dauer](#duration)
 * [Benutzerspezifisch](#custom)
@@ -33,21 +33,21 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 * [Fixed date](#fixed_date) 
 -->
 
-## Informationen zur Warteaktivität{#about_wait}
+## Informationen zur Warteaktivität {#about_wait}
 
-Die maximale Wartezeit beträgt 29 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+Die maximale Wartezeit beträgt 29 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
+Gehen Sie bei der Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, da das globale Journey-Timeout 30 Tage beträgt, d. h., ein Profil verlässt die Journey immer 30 Tage nach seiner Eingabe. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
 
-Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Wenn Sie beispielsweise zwei Warteaktivitäten hinzufügen, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite Wartezeit nach dem 30-Tage-Timeout endet. Die zweite Wartezeit wird daher ignoriert und der Kontakt verlässt die Journey, bevor er sie beginnt. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
+Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem 30-tägigen Journey-Timeout abzuschließen. Wenn Sie beispielsweise zwei **Warten** Aktivitäten, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite **Warten** -Aktivität endet nach der 30-tägigen Zeitüberschreitung. Die zweite **Warten** -Aktivität ignoriert werden und der Kontakt die Journey verlässt, bevor er sie startet. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
 
-Es ist Best Practice, keine Wartezeiten zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#entrance).
+Eine Best Practice, nicht zu verwenden **Warten** Aktivitäten, um den Wiedereintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#entrance).
 
-## Dauer der Wartezeit{#duration}
+## Dauer der Wartezeit {#duration}
 
 Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus. Die maximale Wartezeit beträgt 29 Tage.
 
-![](assets/journey55.png)
+![Definieren der Wartezeit](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -58,19 +58,25 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Benutzerdefinierte Wartezeit{#custom}
+## Benutzerdefinierte Wartezeit {#custom}
 
-Mit dieser Option können Sie eine benutzerdefinierte Datums- und Zeitangabe definieren, z. B. den 12. Juli 2023 um 17 Uhr. Dabei verwenden Sie einen erweiterten Ausdruck, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie auf [dieser Seite](expression/data-types.md).
+Verwenden Sie die **Benutzerdefiniert** Typ : definiert ein benutzerdefiniertes Datum mithilfe eines erweiterten Ausdrucks basierend auf einem Feld, das von einem Ereignis oder einer benutzerdefinierten Aktionsantwort stammt. Sie können eine relative Dauer nicht direkt definieren, z. B. 7 Tage, aber Sie können Funktionen verwenden, um sie bei Bedarf zu berechnen (z. B. 2 Tage nach Kauf).
+
+![Definieren einer benutzerdefinierten Wartezeit mit einem Ausdruck](assets/journey57.png)
+
+Der Ausdruck im Editor sollte eine `dateTimeOnly` Format. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum &quot;dateTimeOnly&quot;-Format finden Sie unter [diese Seite](expression/data-types.md).
+
+Es empfiehlt sich, benutzerdefinierte Daten zu verwenden, die spezifisch für Ihre Profile sind, und zu vermeiden, dass für alle dasselbe Datum verwendet wird. Definieren Sie beispielsweise nicht `toDateTimeOnly('2024-01-01T01:11:00Z')` aber `toDateTimeOnly(@event{Event.productDeliveryDate})` die für jedes Profil spezifisch ist. Beachten Sie, dass die Verwendung von festen Datumsangaben Probleme bei der Ausführung des Journey verursachen kann.
+
 
 >[!NOTE]
 >
->Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}). Das Feld im Ereignis hat folgende Form: 2023-08-12T09:46:06Z.
+>Sie können `dateTimeOnly` Ausdruck verwenden oder eine Funktion zum Konvertieren in eine `dateTimeOnly`. Beispiel: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, das Feld im Ereignis weist die Form 2023-08-12T09 auf:46:06Z.
 >
->Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz wie 2023-08-12T09:46:06.982-05 zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es in der Benutzeroberfläche nicht möglich, direkt auf eine vollständige ISO-8601-Zeitstempelmischzeit und einen Zeitzonenversatz wie 2023-08-12T09 zu verweisen:46:06.982-05. [Weitere Informationen](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
 
-Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. Weitere Informationen finden Sie auf [dieser Seite](../reports/query-examples.md#common-queries).
+Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. [Weitere Informationen](../reports/query-examples.md#common-queries).
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
