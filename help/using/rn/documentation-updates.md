@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die Seite **Schnellstart** mit Schritten für verschiedene Personas wurde verbessert. [Mehr dazu](../start/quick-start.md)
 
-*  Alle im entsprechenden Abschnitt beschriebenen Funktionen des Entscheidungs-Managements gelten nun auch für Benutzende der Adobe Experience Platform, die den Anwendungsdienst „Offer Decisioning“ nutzen. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
+* Jetzt gelten alle im entsprechenden Abschnitt beschriebenen Entscheidungsverwaltungsfunktionen auch für die Adobe Experience Platform-Benutzer, die die Offer decisioning-Anwendung nutzen. [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md)
 
 * Es wurde ein Unterabschnitt hinzugefügt, in dem die Unterschiede zwischen der Verwendung von Zielgruppen und Entscheidungsregeln erläutert werden, wenn eine Einschränkung angewendet wird, mit der die Auswahl von Angeboten für eine bestimmte Platzierung eingeschränkt wird. [Mehr dazu](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
