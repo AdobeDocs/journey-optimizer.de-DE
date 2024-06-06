@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 93%
+source-wordcount: '788'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 93%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
+## Aktualisierungen vom Juni 2024
+
+Sie können jetzt mit dem Adobe Experience Platform AI Assistant in Adobe Journey Optimizer arbeiten. [Weitere Informationen](../start/ai-assistant.md)
 
 ## Versionshinweise Mai 2024 {#may-2024}
 
