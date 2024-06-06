@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 
 In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
-* Produktkenntnis (Allgemeine Verfügbarkeit) Produktwissensfragen beziehen sich auf Adobe-Konzepte zu Adobe Journey Optimizer-Aspekten. Beispiele für Produktwissensfragen:
+* **Produktwissen** (Allgemeine Verfügbarkeit)
+
+  Produktwissensfragen beziehen sich auf Adobe-Konzepte zu Adobe Journey Optimizer-Aspekten. Beispiele für Produktwissensfragen:
 
    * Wie viele Live-Aktivitäten kann ich in einer Adobe Journey Optimizer-Sandbox haben?
    * Wie richte ich eine Kampagne in Adobe Journey Optimizer ein?
    * Wie erstelle ich eine benutzerdefinierte Aktion zur Verwendung in Adobe Journey Optimizer Journey?
 
 
-* Operative Einblicke in Journey (Beta) Operative Einblicke beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Beispiele für betriebliche Insight-Fragen oder -Aufforderungen:
+* **Operative Einblicke** in Journey (Beta)
+
+  Operative Insight-Fragen beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Beispiele für betriebliche Insight-Fragen oder -Aufforderungen:
 
    * Wie viele lebende Journey habe ich in Adobe Journey Optimizer?
    * Geben Sie mir eine Liste aller geplanten Journey
@@ -50,11 +54,11 @@ In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
 Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Bildschirmrand ein und drücken Sie die Eingabetaste.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Überprüfen Sie die Antwort und verwenden Sie die **Quellen anzeigen** -Schaltfläche, um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Benutzen Sie den Daumen nach oben oder halten Sie den Daumen runter, um die Antwort zu bewerten.
 
