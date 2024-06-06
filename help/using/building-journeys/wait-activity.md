@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '566'
 ht-degree: 26%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 26%
 
 Sie können eine **[!UICONTROL Warten]** -Aktivität, um eine Dauer zu definieren, bevor die nächste Aktivität ausgeführt wird.  Die maximale Wartezeit ist **29 Tage**.
 
-Die folgenden Typen sind verfügbar:
+Sie können zwei Arten von **Warten** Aktivität:
 
-* [Dauer](#duration)
-* [Benutzerspezifisch](#custom)
+* Eine Wartezeit basierend auf einer Fixdauer. [Weitere Informationen](#duration)
+* Eine benutzerdefinierte Wartezeit, bei der Funktionen zur Berechnung verwendet werden. [Weitere Informationen](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ Eine Best Practice, nicht zu verwenden **Warten** Aktivitäten, um den Wiederein
 
 Im Testmodus wird die **[!UICONTROL Wartezeit im Test]** -Parameter ermöglicht es Ihnen, die **Warten** -Aktivität endet. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
+## Konfiguration {#wait-configuration}
 
-## Dauer der Wartezeit {#duration}
+### Dauer der Wartezeit {#duration}
 
 Wählen Sie die **Dauer** type , um die Wartezeit vor der Ausführung der nächsten Aktivität festzulegen. Die maximale Dauer beträgt **29 Tage**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Benutzerdefinierte Wartezeit {#custom}
+### Benutzerdefinierte Wartezeit {#custom}
 
-Wählen Sie die **Benutzerdefiniert** Typ : definiert ein benutzerdefiniertes Datum mithilfe eines erweiterten Ausdrucks basierend auf einem Feld, das von einem Ereignis oder einer benutzerdefinierten Aktionsantwort stammt. Sie können eine relative Dauer nicht direkt definieren, z. B. 7 Tage, aber Sie können Funktionen verwenden, um sie bei Bedarf zu berechnen (z. B. 2 Tage nach Kauf).
+Wählen Sie die **Benutzerdefiniert** Typ : Hier können Sie mithilfe eines erweiterten Ausdrucks, das auf einem Feld aus einem Ereignis oder einer benutzerdefinierten Aktionsantwort basiert, eine benutzerdefinierte Dauer definieren. Sie können eine relative Dauer nicht direkt definieren, z. B. 7 Tage, aber Sie können Funktionen verwenden, um sie bei Bedarf zu berechnen (z. B. 2 Tage nach Kauf).
 
 ![Definieren einer benutzerdefinierten Wartezeit mit einem Ausdruck](assets/journey57.png)
 
