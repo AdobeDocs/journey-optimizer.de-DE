@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 
 >[!CAUTION]
 >
->Bevor Sie den AI-Assistenten verwenden können, müssen Sie die Adobe Experience Cloud Generative AI-Benutzerrichtlinien akzeptieren. Weitere Informationen zur Vereinbarung finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>Bevor Sie den AI-Assistenten verwenden können, müssen Sie die Adobe Experience Cloud Generative AI-Benutzerrichtlinien akzeptieren. Weitere Informationen zur Vereinbarung finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
@@ -58,4 +58,4 @@ Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Bildschirmrand ei
 
 Benutzen Sie den Daumen nach oben oder halten Sie den Daumen runter, um die Antwort zu bewerten.
 
-Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und in der Funktionsweise des KI-Assistenten, siehe [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und in der Funktionsweise des KI-Assistenten, siehe [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
