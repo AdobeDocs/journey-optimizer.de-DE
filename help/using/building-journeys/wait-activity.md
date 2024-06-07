@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 26%
 
 ---
@@ -27,8 +27,8 @@ Sie können eine **[!UICONTROL Warten]** -Aktivität, um eine Dauer zu definiere
 
 Sie können zwei Arten von **Warten** Aktivität:
 
-* Eine Wartezeit basierend auf einer Fixdauer. [Weitere Informationen](#duration)
-* Eine benutzerdefinierte Wartezeit, bei der Funktionen zur Berechnung verwendet werden. [Weitere Informationen](#custom)
+* Eine Wartezeit basierend auf einer relativen Dauer. [Weitere Informationen](#duration)
+* Ein benutzerdefiniertes Datum, das mithilfe von Funktionen berechnet wird. [Weitere Informationen](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ Im Testmodus wird die **[!UICONTROL Wartezeit im Test]** -Parameter ermöglicht 
 
 ### Dauer der Wartezeit {#duration}
 
-Wählen Sie die **Dauer** type , um die Wartezeit vor der Ausführung der nächsten Aktivität festzulegen. Die maximale Dauer beträgt **29 Tage**.
+Wählen Sie die **Dauer** type , um die relative Dauer der Wartezeit vor der Ausführung der nächsten Aktivität festzulegen. Die maximale Dauer beträgt **29 Tage**.
 
 ![Definieren der Wartezeit](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### Benutzerdefinierte Wartezeit {#custom}
 
-Wählen Sie die **Benutzerdefiniert** Typ : Hier können Sie mithilfe eines erweiterten Ausdrucks, das auf einem Feld aus einem Ereignis oder einer benutzerdefinierten Aktionsantwort basiert, eine benutzerdefinierte Dauer definieren. Sie können eine relative Dauer nicht direkt definieren, z. B. 7 Tage, aber Sie können Funktionen verwenden, um sie bei Bedarf zu berechnen (z. B. 2 Tage nach Kauf).
+Wählen Sie die **Benutzerdefiniert** Typ : definiert ein benutzerdefiniertes Datum mithilfe eines erweiterten Ausdrucks basierend auf einem Feld, das von einem Ereignis oder einer benutzerdefinierten Aktionsantwort stammt. Sie können eine relative Dauer nicht direkt definieren, z. B. 7 Tage, aber Sie können Funktionen verwenden, um sie bei Bedarf zu berechnen (z. B. 2 Tage nach Kauf).
 
 ![Definieren einer benutzerdefinierten Wartezeit mit einem Ausdruck](assets/journey57.png)
 
