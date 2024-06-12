@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1157'
+ht-degree: 79%
 
 ---
 
@@ -44,7 +44,7 @@ Derzeit werden zwei Arten von Implementierungen unterstützt, um die Erstellung 
   >
   >Stellen Sie sicher, dass Ihre AEP Web SDK-Version 2.16 oder höher ist.
 
-* Hybridmodus – Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} verwenden.
+* Hybridmodus - Sie können den [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} , um eine serverseitige Personalisierung anzufordern. Die Antwort wird dem Adobe Experience Platform Web SDK bereitgestellt, um die Änderungen Client-seitig zu rendern. Weitere Informationen in der Adobe Experience Platform [Dokumentation zur Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. Weitere Informationen zum Hybridmodus finden Sie in den Implementierungsbeispielen unter [Dieser Blogpost](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -92,9 +92,9 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 >
 >Einige Websites werden möglicherweise aus einem der folgenden Gründe nicht zuverlässig im [!DNL Journey Optimizer]-Web-Designer geöffnet:
 >
-> * Die Website hat strikte Sicherheitsrichtlinien.
+> * Die Website hat strenge Sicherheitsrichtlinien.
 > * Die Website befindet sich in einem iFrame.
-> * Die QA- oder Status-Site von Kundinnen und Kunden kann extern nicht abgerufen werden (interne Site).
+> * Die QA- oder Staging-Site des Kunden ist nicht für die Außenwelt verfügbar (die Site ist intern).
 
 ### Fehlerbehebung beim Laden einer Website {#troubleshooting}
 
@@ -120,11 +120,17 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, stellen Sie sicher, dass eine Zusammenführungsrichtlinie mit der **[!UICONTROL Richtlinie zur aktiven Zusammenführung auf Edge]** aktiviert ist. Wählen Sie dazu unter dem Experience Platform-Menü **[!UICONTROL Kunde]** > **[!UICONTROL Profile]** > **[!UICONTROL Zusammenführungsrichtlinien]** eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
 
   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+* Zur Fehlerbehebung bei der Bereitstellung von Journey Optimizer-Web-Erlebnissen können Sie die **Edge-Bereitstellung** Ansicht innerhalb **Adobe Experience Platform Assurance**. Mit diesem Plug-in können Sie Anforderungsaufrufe detailliert untersuchen, überprüfen, ob die erwarteten Edge-Aufrufe erwartungsgemäß erfolgen, und Profildaten untersuchen, einschließlich Identitätszuordnungen, Segmentmitgliedschaften und Zustimmungseinstellungen. Darüber hinaus können Sie die Aktivitäten, für die die Anfrage qualifiziert wurde, überprüfen und diejenigen identifizieren, für die sie nicht ausgeführt wurde.
+
+  Verwenden der **Edge-Bereitstellung** -Plug-in hilft Ihnen dabei, Einblicke zu gewinnen, die Sie benötigen, um Ihre eingehenden Implementierungen effektiv zu verstehen und zu beheben.
+
+  [Weitere Informationen zur Ansicht &quot;Edge Delivery&quot;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 
@@ -138,7 +144,7 @@ In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfa
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
-Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} verwenden, stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
+Wenn Sie **not** Verwendung der folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} für Ihr Datensatzschema: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (definiert in [diese Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"}), stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
 
 >[!NOTE]
 >

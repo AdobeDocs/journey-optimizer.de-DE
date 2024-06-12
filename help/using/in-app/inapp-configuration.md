@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: ht
-source-wordcount: '820'
-ht-degree: 100%
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
   ![](assets/inapp_config_6.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, stellen Sie sicher, dass Sie über die standardmäßige Zusammenführungsrichtlinie mit der **[!UICONTROL Richtlinie zur aktiven Zusammenführung auf Edge]** aktiviert ist. Wählen Sie dazu unter dem Experience Platform-Menü **[!UICONTROL Kunde]** > **[!UICONTROL Profile]** > **[!UICONTROL Zusammenführungsrichtlinien]** eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
 
   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
 
@@ -47,6 +47,12 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
   >Wenn Sie eine Zusammenführungsrichtlinie mit einer benutzerdefinierten **[!UICONTROL Datensatzpräferenz]** verwenden, stellen Sie sicher, dass Sie den Datensatz **[!UICONTROL Journey Inbound]** innerhalb der angegebenen Zusammenführungsrichtlinie hinzufügen.
 
   ![](assets/inapp_config_8.png)
+
+* Zur Fehlerbehebung bei der Bereitstellung mobiler Journey Optimizer-Erlebnisse können Sie die **Edge-Bereitstellung** Ansicht innerhalb **Adobe Experience Platform Assurance**. Mit diesem Plug-in können Sie Anforderungsaufrufe detailliert untersuchen, überprüfen, ob die erwarteten Edge-Aufrufe erwartungsgemäß erfolgen, und Profildaten untersuchen, einschließlich Identitätszuordnungen, Segmentmitgliedschaften und Zustimmungseinstellungen. Darüber hinaus können Sie die Aktivitäten, für die die Anfrage qualifiziert wurde, überprüfen und diejenigen identifizieren, für die sie nicht ausgeführt wurde.
+
+  Verwenden der **Edge-Bereitstellung** -Plug-in hilft Ihnen dabei, Einblicke zu gewinnen, die Sie benötigen, um Ihre eingehenden Implementierungen effektiv zu verstehen und zu beheben.
+
+  [Weitere Informationen zur Ansicht &quot;Edge Delivery&quot;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voraussetzungen für die Kanalkonfiguration {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfa
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
-Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} verwenden, stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
+Wenn Sie **not** Verwendung der folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} für Ihr Datensatzschema: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (definiert in [diese Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"}), stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
 
 >[!NOTE]
 >
