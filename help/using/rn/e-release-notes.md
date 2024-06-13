@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 16812ed5a3f4a4626387d7f21be91c31530eb7cc
+source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 23%
 
 ---
@@ -49,7 +49,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Anpassung von Inhaltsfragmenten und Lebenszyklus</strong><br/></th>
+<th><strong>Anpassung von Inhaltsfragmenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
