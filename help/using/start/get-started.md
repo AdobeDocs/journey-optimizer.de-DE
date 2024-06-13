@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL
 
 >[!MORELIKETHIS]
 >
->* [Die wichtigsten Schritte zum Starten](quick-start.md)
->* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md)
+>* [Wichtige Schritte für den Start](quick-start.md)
+>* [Entwerfen von Journeys und Senden von Nachrichten](../building-journeys/journey-gs.md)
 >* [Live-Berichte](../reports/live-report.md)
 >* [Sicherheitsübersicht für Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

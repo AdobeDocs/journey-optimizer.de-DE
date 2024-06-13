@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Verfahrensregeln"
->abstract="Regeln zur Nachrichtenhäufigkeit sind eine Art Geschäftsregel, die die Anzahl der Nachrichtenempfänge oder -eingänge von Benutzern über einen oder mehrere Kanäle hinweg begrenzt. Diese kanalübergreifenden Regeln schließen automatisch zu oft angeforderte Profile aus Nachrichten und Aktionen aus."
+>abstract="Regeln zur Nachrichtenhäufigkeit sind eine Art Geschäftsregel, die die Anzahl der Nachrichtenempfänge durch Benutzende bzw. ihre Eintritte in Journeys über einen oder mehrere Kanäle hinweg begrenzt. Diese kanalübergreifenden Regeln schließen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen aus."
 
-[!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder eine Journey über einen oder mehrere Kanäle eingeben. Regeln zur Nachrichtenhäufigkeit, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden.
+Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzende über einen oder mehrere Kanäle eine Nachricht erhalten oder in eine Journey eintreten. Regeln zur Nachrichtenhäufigkeit, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
-Für eine Marke könnte eine Regel beispielsweise lauten, ihren Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Hierfür können Sie eine Verfahrensregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+Für eine Marke könnte eine Regel beispielsweise lauten, Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Hierfür können Sie eine Verfahrensregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht pers
 
 >[!NOTE]
 >
->Wenn Sie im Personalisierungs-Editor eine personalisierte URL bearbeiten, sind Hilfsfunktionen und die Zugehörigkeit zu Zielgruppen aus Sicherheitsgründen deaktiviert.
+>Wenn Sie im Personalisierungseditor eine personalisierte URL bearbeiten, sind Hilfsfunktionen und die Zielgruppenzugehörigkeit aus Sicherheitsgründen deaktiviert.
 >
 
 **Beispiele für personalisierte URLs**

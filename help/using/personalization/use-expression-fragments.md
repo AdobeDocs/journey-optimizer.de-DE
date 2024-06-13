@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden von Ausdrucksfragmenten
-description: Erfahren Sie, wie Sie Ausdrucksfragmente im [!DNL Journey Optimizer] Personalisierungseditor.
+description: Erfahren Sie, wie Sie im Personalisierungseditor von  [!DNL Journey Optimizer]  Ausdrucksfragmente verwenden können.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
@@ -10,15 +10,15 @@ level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Nutzen von Ausdrucksfragmenten {#use-expression-fragments}
 
-Bei Verwendung von **Personalisierungseditor** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
+Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
 In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie Fragmente erstellen und verwalten.
 
@@ -28,7 +28,7 @@ In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie 
 
 Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen vor.
 
-1. Öffnen Sie die [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die **[!UICONTROL Fragmente]** im linken Bereich.
+1. Öffnen Sie den [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die Schaltfläche **[!UICONTROL Fragmente]** im linken Bereich aus.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
    ![](assets/expression-fragment-open.png)
 
-1. Anschließend können Sie Ihren Inhalt wie gewohnt anpassen und validieren, indem Sie alle Personalisierungs- und Authoring-Funktionen der [Personalisierungseditor](personalization-build-expressions.md).
+1. Anschließend können Sie Ihre Inhalte wie gewohnt mit allen Personalisierungs- und Authoring-Funktionen des [Personalisierungseditors](personalization-build-expressions.md) anpassen und validieren.
 
 >[!NOTE]
 >

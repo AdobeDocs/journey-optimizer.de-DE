@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhalt als Fragment speichern
-description: Erfahren Sie, wie Sie Inhalte als Fragmente speichern, um sie in Journey Optimizer-Kampagnen und -Journey wiederzuverwenden
+title: Speichern von Inhalten als Fragment
+description: Erfahren Sie, wie Sie Inhalte als Fragmente speichern, um Inhalte in Journey Optimizer-Kampagnen und -Journeys wiederzuverwenden.
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Inhalt als Fragment speichern {#save-as-fragment}
+# Speichern von Inhalten als Fragment {#save-as-fragment}
 
 Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden.
 
-## Inhalt als visuelles Fragment speichern {#save-as-visual-fragment}
+## Speichern von Inhalten als visuelles Fragment {#save-as-visual-fragment}
 
 Beim Entwurf einer [Inhaltsvorlage](content-templates.md) oder [E-Mail](../email/get-started-email-design.md) in Kampagnen oder Journeys können Sie einen Teil des Inhalts zur späteren Wiederverwendung als visuelles Fragment speichern. Gehen Sie dazu wie folgt vor.
 
@@ -53,18 +53,18 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 >
 >Änderungen an diesem neuen Fragment werden nicht auf die E-Mail oder Vorlage übertragen, aus der das Fragment hervorgegangen ist. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment ebenfalls nicht geändert.
 
-## Inhalt speichern als Ausdrucksfragment {#save-as-expression-fragment}
+## Speichern von Inhalten als Ausdrucksfragment {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Speichern als Ausdrucksfragment"
->abstract="Die [!DNL Journey Optimizer] Mit dem Personalisierungs-Editor können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung."
+>abstract="Mit dem Personalisierungseditor von [!DNL Journey Optimizer] können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung."
 
-Die [!DNL Journey Optimizer] Mit dem Personalisierungs-Editor können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung.
+Mit dem Personalisierungseditor von [!DNL Journey Optimizer] können Sie Inhalte als Ausdrucksfragmente speichern. Diese Ausdrücke stehen dann zur Erstellung personalisierter Inhalte zur Verfügung.
 
 Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 
-1. Im [Personalisierungseditor](../personalization/personalization-build-expressions.md) -Schnittstelle, einen Ausdruck erstellen und auf **[!UICONTROL Als Fragment speichern]**.
+1. Erstellen Sie über die Benutzeroberfläche des [Personalisierungseditors](../personalization/personalization-build-expressions.md) einen Ausdruck und klicken Sie dann auf **[!UICONTROL Als Fragment speichern]**.
 
 1. Geben Sie im rechten Bereich einen Titel und eine Beschreibung für den Ausdruck ein, damit Benutzende ihn leichter finden können.
 

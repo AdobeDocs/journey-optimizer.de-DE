@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalisieren von Inhalten in Journey Optimizer
-description: Erste Schritte mit der Personalisierung.
+description: Erste Schritte mit der Personalisierung
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,9 +10,9 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experienc
 
 Darüber hinaus können Sie auch **berechnete Attribute** nutzen, um Ihre Inhalte zu personalisieren. Berechnete Attribute basieren auf profilaktivierten Erlebnisereignis-Datensätzen, die in Adobe Experience Platform aufgenommen werden, und dienen als aggregierte Datenpunkte, die in Kundenprofilen gespeichert sind und einzelne Verhaltensereignisse zusammenfassen. [Erfahren Sie, wie Sie mit berechneten Attributen arbeiten.](../audience/computed-attributes.md)
 
-## Arbeiten mit dem Personalisierungs-Editor {#editor}
+## Arbeiten mit dem Personalisierungseditor {#editor}
 
-[!DNL Journey Optimizer] bietet einen Personalisierungseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Inhalt zu erstellen. Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (wie Hilfsfunktionen, Bibliothek mit vordefinierten Ausdrücken, Favorisierung von Attributen und viele weitere).
+[!DNL Journey Optimizer] bietet einen Personalisierungseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um eine individuelle Personalisierung für Ihre Inhalte zu erstellen. Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (wie Hilfsfunktionen, Bibliothek mit vordefinierten Ausdrücken, Favorisierung von Attributen und viele weitere).
 
-* [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](personalization-build-expressions.md)
+* [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](personalization-build-expressions.md)
 * [Erfahren Sie, wo Sie Personalisierungen durchführen können](personalization-contexts.md).
 
 ## Anleitungsvideos{#video-perso}

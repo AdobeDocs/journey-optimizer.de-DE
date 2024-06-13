@@ -9,9 +9,9 @@ keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **[!UICONTROL
 
 ![](assets/in_app_web_design_4.png)
 
-Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Erfahren Sie mehr über die Personalisierung im Personalisierungseditor von Adobe Journey Optimizer [in diesem Abschnitt](../personalization/personalize.md).
+Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Weitere Informationen zur Personalisierung im Personalisierungseditor von Adobe Journey Optimizer finden Sie [in diesem Abschnitt](../personalization/personalize.md).
 
 +++Mehr Optionen mit erweiterter Formatierung
 

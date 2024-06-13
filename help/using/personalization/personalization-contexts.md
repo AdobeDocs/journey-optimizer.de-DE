@@ -10,15 +10,15 @@ level: Intermediate
 keywords: Ausdruck, Editor, Kontext, Personalisierung
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Personalisierungskontexte{#personalization-areas}
 
-Inhalt und Anzeige der von [!DNL Journey Optimizer] kann auf verschiedene Arten personalisiert werden. In allen Feldern mit dem Editor-Symbol können Sie den Personalisierungs-Editor (auch Personalisierungs-Editor genannt) öffnen und eine Personalisierung definieren.
+Es gibt verschiedene Möglichkeiten, den Inhalt und die Darstellung von Nachrichten in [!DNL Journey Optimizer] zu personalisieren. In allen Feldern mit dem Editorsymbol können Sie den Personalisierungseditor öffnen und die Personalisierung definieren.
 
 ![](assets/perso_icon.png)
 

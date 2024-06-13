@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Fügen Sie eine Betreffzeile für Ihre Nachricht hinzu. Um die Betreffzeile mit dem Personalisierungseditor zu konfigurieren und zu personalisieren, klicken Sie auf das **[!UICONTROL Personalisierungsdialogfeld öffnen]** Symbol. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Fügen Sie eine Betreffzeile für Ihre Nachricht hinzu. Um die Betreffzeile mit dem Personalisierungseditor zu konfigurieren und zu personalisieren, klicken Sie auf das Symbol **[!UICONTROL Personalisierungsdialog öffnen]**. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um auf den E-Mail-Designer zugreifen und mit der Erstellung Ihres Inhalts zu beginnen. [Weitere Informationen](get-started-email-design.md)
 

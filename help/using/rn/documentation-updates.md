@@ -9,28 +9,28 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Dokumentation – Aktualisierungen {#latest-updates}
+# Dokumentationsaktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
 
 ## Juni 2024 {#june-2024}
 
-* Die Seite über die Konfiguration einer **Warten** Die Aktivitäten in einer Journey wurden neu organisiert und verbessert. [Weitere Informationen](../building-journeys/wait-activity.md)
+* Die Seite über die Konfiguration einer Aktivität vom Typ **Warten** in einer Journey wurde umstrukturiert und verbessert. [Weitere Informationen](../building-journeys/wait-activity.md)
 
 ## Mai 2024 {#may-2024}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Mai wurde in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Mai 2024 werden in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
 * Der Abschnitt zu Testadressenlisten wurde hinsichtlich wiederkehrender Journey aktualisiert. [Weitere Informationen](../configuration/seed-lists.md#use-seed-list)
 * Der Abschnitt zu externen Datenquellen wurde aktualisiert. [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-access-token)
 * Das globale Journey-Zeitlimit von 30 Tagen wurde auf der Seite zu Schutzmechanismen und Begrenzungen hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Der Abschnitt zur Integration von Adobe Campaign v7/v8 wurde mit Informationen zur Bereitstellung aktualisiert. [Weitere Informationen](../action/acc-action.md#access)
-* Der Ausdruckseditor zur Personalisierung von Inhalten wurde in der Dokumentation in &quot;Personalisierungs-Editor&quot;umbenannt, um ihn deutlich von der [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md). [Weitere Informationen](../personalization/personalization-build-expressions.md)
+* Der Ausdruckseditor zur Personalisierung von Inhalten wurde in der Dokumentation in „Personalisierungseditor“ umbenannt, um ihn deutlich vom [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) abzugrenzen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 ## April 2024 {#april-2024}
 
@@ -69,7 +69,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurden Informationen hinzugefügt, wie die Darstellungen von Angeboten basierend auf Kontextdaten personalisiert werden können. [Weitere Informationen](../offers/offer-library/add-representations.md#context-data)
 * Die Seite für Schutzmechanismen wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
 * Es wurden zusätzliche Informationen zum einfachen Authentifizierungstyp in externen Datenquellen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md)
-* Es wurde ein Hinweis hinzugefügt, in dem die [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) aus dem [Personalisierungseditor](../personalization/functions/functions.md).
+* Es wurde ein Hinweis hinzugefügt, um klar zwischen dem [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) und dem [Personalisierungseditor](../personalization/functions/functions.md) zu unterscheiden.
 * Die Liste verfügbarer Funktionen wurde im erweiterten Ausdruckseditor aktualisiert. [Weitere Informationen](../building-journeys/expression/functions.md)
 * Die Seite der Aufspaltungsfunktion wurde aktualisiert. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
@@ -395,7 +395,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die Seite **Schnellstart** mit Schritten für verschiedene Personas wurde verbessert. [Mehr dazu](../start/quick-start.md)
 
-* Jetzt gelten alle im entsprechenden Abschnitt beschriebenen Entscheidungsverwaltungsfunktionen auch für die Adobe Experience Platform-Benutzer, die die Offer decisioning-Anwendung nutzen. [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md)
+*  Alle im entsprechenden Abschnitt beschriebenen Funktionen des Entscheidungs-Managements gelten nun auch für Benutzende von Adobe Experience Platform, die die Anwendung Offer Decisioning nutzen.  [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md)
 
 * Es wurde ein Unterabschnitt hinzugefügt, in dem die Unterschiede zwischen der Verwendung von Zielgruppen und Entscheidungsregeln erläutert werden, wenn eine Einschränkung angewendet wird, mit der die Auswahl von Angeboten für eine bestimmte Platzierung eingeschränkt wird. [Mehr dazu](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

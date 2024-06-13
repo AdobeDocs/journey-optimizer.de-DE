@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke in Ihre spezifische Umgebung erhalten können. Es ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen Leiste. Der KI-Assistent wird rechts im Bildschirm angezeigt.
 
@@ -26,40 +26,40 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 
 >[!CAUTION]
 >
->Bevor Sie den AI-Assistenten verwenden können, müssen Sie die Adobe Experience Cloud Generative AI-Benutzerrichtlinien akzeptieren. Weitere Informationen zur Vereinbarung finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Zustimmung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
-* **Produktwissen** (Allgemeine Verfügbarkeit)
+* **Produktwissen** (allgemeine Verfügbarkeit)
 
-  Produktwissensfragen beziehen sich auf Adobe-Konzepte zu Adobe Journey Optimizer-Aspekten. Beispiele für Produktwissensfragen:
+  Fragen zu Produktwissen beziehen sich auf Adobe-Konzepte zu Aspekten von Adobe Journey Optimizer. Einige Beispiele für Fragen zu Produktwissen:
 
    * Wie viele Live-Aktivitäten kann ich in einer Adobe Journey Optimizer-Sandbox haben?
    * Wie richte ich eine Kampagne in Adobe Journey Optimizer ein?
-   * Wie erstelle ich eine benutzerdefinierte Aktion zur Verwendung in Adobe Journey Optimizer Journey?
+   * Wie erstelle ich eine benutzerdefinierte Aktion zur Verwendung in Adobe Journey Optimizer-Journeys?
 
 
-* **Operative Einblicke** in Journey (Beta)
+* **Operative Erkenntnisse** in Journeys (Beta)
 
-  Operative Insight-Fragen beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Beispiele für betriebliche Insight-Fragen oder -Aufforderungen:
+  Fragen zu operativen Erkenntnissen beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Einige Beispiele für Fragen oder Prompts zu operativen Erkenntnissen:
 
-   * Wie viele lebende Journey habe ich in Adobe Journey Optimizer?
-   * Geben Sie mir eine Liste aller geplanten Journey
+   * Wie viele Live-Journeys habe ich in Adobe Journey Optimizer?
+   * Erstelle eine Liste aller geplanten Journeys
    * Wie viele Journey wurden in den letzten sieben Tagen erstellt?
 
   >[!NOTE]
   >
-  >Das einzige Adobe Journey Optimizer-Objekt, über das Sie Zugriff haben, um Fragen zu den operativen Einblicken des AI-Assistenten zu stellen, ist **Journey**. Es enthält nur Daten für die Sandbox, in der Sie sich derzeit befinden.
+  >Das einzige Adobe Journey Optimizer-Objekt, zu dem Sie dem KI-Assistenten Fragen zu operativen Erkenntnissen stellen können, ist **Journeys**. Es enthält nur Daten für die Sandbox, in der Sie sich derzeit befinden.
 
 
 Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Bildschirmrand ein und drücken Sie die Eingabetaste.
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
-Überprüfen Sie die Antwort und verwenden Sie die **Quellen anzeigen** -Schaltfläche, um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
+Überprüfen Sie die Antwort und verwenden Sie die Schaltfläche **Quellen anzeigen**, um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
-Benutzen Sie den Daumen nach oben oder halten Sie den Daumen runter, um die Antwort zu bewerten.
+Bewerten Sie die Antwort mit dem Daumen nach oben oder Daumen nach unten.
 
-Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und in der Funktionsweise des KI-Assistenten, siehe [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können. Weitere Informationen zur Funktionsweise des KI-Assistenten finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1365'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 >title="Personalisieren Sie Ihre Push-Benachrichtigung."
 >abstract="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder „Titel“ und „Hauptteil“ ein. Um Personalisierungs-Token einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungs-Editor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere Informationen [Personalisierung](../personalization/personalize.md) und [dynamischer Inhalt](../personalization/get-started-dynamic-content.md) im Personalisierungs-Editor.
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Erfahren Sie mehr zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
 Im Bereich für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
 

@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 86%
 >
 >Diese Funktion ist derzeit nur in einer privaten Beta-Version verfügbar.
 >
->Derzeit ist sie nur für die **E-Mail-Kanal** und zu Testzwecken in der Nicht-Produktions-Sandbox, die Sie der Adobe und den für die Beta-Version angeforderten Datensätzen bereitgestellt haben.
+>Sie ist derzeit nur für den **E-Mail-Kanal** und Testzwecke in der Nicht-Produktions-Sandbox verfügbar, die Sie Adobe zur Verfügung gestellt haben, sowie für die Datensätze, die für die Beta-Version angefordert wurden.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungs-Editor in [Personalisieren des Inhalts](../personalization/personalize.md). Gehen Sie dazu wie folgt vor:
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Gehen Sie dazu wie folgt vor:
 
-1. Öffnen Sie den Personalisierungs-Editor, der in jedem Kontext verfügbar ist und in dem Sie Personalisierungen wie beispielsweise Nachrichten definieren können. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
+1. Öffnen Sie den Personalisierungseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
 
 1. Navigieren Sie zur Liste der Hilfsfunktionen und fügen Sie die Hilfsfunktion **datasetLookup** in den Code-Bereich ein.
 

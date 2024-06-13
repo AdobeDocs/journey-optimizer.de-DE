@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivit
 
 ## Ereignisaktivitäten {#event-activities}
 
-Personalisierte Journey werden durch Ereignisse wie einen Online-Kauf ausgelöst. Sobald ein Profil eine Journey betritt, bewegt es sich als Einzelperson, und keine zwei Personen bewegen sich in derselben Geschwindigkeit oder auf demselben Pfad. Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis eintritt. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Personalisierte Journeys werden durch Ereignisse ausgelöst, z. B. durch einen Online-Kauf.  Wenn ein Profil in eine Journey eintritt, durchläuft es sie als Individuum. Jedes Individuum bewegt sich in einer anderen Geschwindigkeit und auf einem anderen Pfad. Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis eintritt. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
 Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
 

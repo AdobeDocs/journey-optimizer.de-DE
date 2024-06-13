@@ -8,9 +8,9 @@ level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1481'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -162,11 +162,11 @@ Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, A
 
 ## Entscheidungsrichtlinie im Code-Editor verwenden {#use-decision-policy}
 
-Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor](../code-based/create-code-based.md#edit-code). Gehen Sie dazu wie folgt vor.
+Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor](../code-based/create-code-based.md#edit-code) verwendet werden. Gehen Sie dazu wie folgt vor.
 
 >[!NOTE]
 >
->Codebasiertes Erlebnis nutzt die [!DNL Journey Optimizer] Personalisierungs-Editor mit allen Personalisierungs- und Authoring-Funktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+>Ein Code-basiertes Erlebnis nutzt den Personalisierungseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt.
 
@@ -189,7 +189,7 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Sie können auch jedes andere Attribut hinzufügen, das im Personalisierungseditor verfügbar ist, z. B. Profilattribute.
+1. Sie können auch jedes beliebige Attribut hinzufügen, das im Personalisierungseditor verfügbar ist, z. B. Profilattribute.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

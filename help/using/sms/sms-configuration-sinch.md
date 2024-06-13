@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -66,18 +66,18 @@ Gehen Sie wie folgt vor, um Sinch MMS mit Journey Optimizer für das Senden von 
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
-1. Konfigurieren Sie Ihre MMS-API-Anmeldeinformationen, wie unten beschrieben:
+1. Konfigurieren Sie Ihre MMS-API-Anmeldedaten, wie unten beschrieben.
 
-   * **[!UICONTROL SMS-Anbieter]**: Einzel-MMS.
+   * **[!UICONTROL SMS-Anbieter]**: Sinch MMS.
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
    * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Führen Sie die folgenden Schritte aus, um Ihre MMS-API-Anmeldeinformationen zu erfassen.
 
-      * Für **[!UICONTROL Projekt-ID]** und **[!UICONTROL App-ID]**: Greifen Sie auf die [Übersicht über die Konversations-API](https://dashboard.sinch.com/convapi/overview) Seite Ihres Sinch-Projekts auf Ihrem Single Dashboard anzeigen.
-      * Für **[!UICONTROL API-Token]**: Rufen Sie die [Zugriffsschlüssel](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) für Ihr Einzelprojekt und generieren Sie eine **Base64-API-Token** aus Ihrem Einzelprojekt **Zugriffsschlüssel**.
+      * Für **[!UICONTROL Projekt-ID]** und **[!UICONTROL App-ID]**: Greifen Sie auf die Seite [Überblick über die Konversations-API](https://dashboard.sinch.com/convapi/overview) Ihres Sinch-Projekts in Ihrem Sinch-Dashboard zu.
+      * Für **[!UICONTROL API-Token]**: Rufen Sie die [Zugriffsschlüssel](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) für Ihr Sinch-Pojekt auf und generieren Sie einen **Base64-API-Token** aus den **Zugriffsschlüsseln** Ihres Sinch-Projekts.
 
-   * **[!UICONTROL Dienstplan-ID]** und **[!UICONTROL SMS-API-Token]**: your **[!UICONTROL Dienstplan-ID]** und **[!UICONTROL SMS-API-Token]** befinden sich auf der Registerkarte SMS auf der Seite APIs .
+   * **[!UICONTROL Service-Plan-ID]** und **[!UICONTROL SMS-API-Token]**: Ihre **[!UICONTROL Service-Plan-ID]** und Ihr **[!UICONTROL SMS-API-Token]** befinden sich auf der Registerkarte „SMS“ der API-Seite.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 

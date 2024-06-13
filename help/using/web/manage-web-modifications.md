@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,11 +118,11 @@ Um eine Typänderung der **Seite`<head>`** hinzuzufügen,gehen Sie wie folgt vor
    >
    >Sie können nur `<script>`- und `<style>`-Elemente zum Abschnitt `<head>` hinzufügen. Das Hinzufügen von `<div>`-Tags und anderen Elementen kann dazu führen, dass die verbleibenden `<head>`-Elemente in den Abschnitt `<body>` springen. 
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erweiterte Bearbeitungsoptionen]**. Der Personalisierungs-Editor wird geöffnet.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erweiterte Bearbeitungsoptionen]**. Der Personalisierungseditor wird geöffnet.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Sie können die [!DNL Journey Optimizer] Personalisierungs-Editor mit allen Personalisierungs- und Authoring-Funktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+   Sie können den Personalisierungseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Bearbeitungsfunktionen nutzen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 #### Beispiele für benutzerdefinierten Code {#custom-code-examples}
 

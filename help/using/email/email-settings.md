@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -296,11 +296,11 @@ Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
-Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Personalisierungseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
+Mithilfe des [Personalisierungseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes Feld **[!UICONTROL Wert]** bearbeiten.  Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Die folgenden vordefinierten Werte sind im Personalisierungs-Editor verfügbar:
+Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfügbar:
 
 * **Quellaktion-ID**: ID der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
@@ -316,7 +316,7 @@ Die folgenden vordefinierten Werte sind im Personalisierungs-Editor verfügbar:
 
 >[!NOTE]
 >
->Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Personalisierungs-Editor kombinieren. Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Personalisierungseditor kombinieren.  Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

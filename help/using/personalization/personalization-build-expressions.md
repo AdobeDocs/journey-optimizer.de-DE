@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Über den Personalisierungs-Editor
-description: Erfahren Sie, wie Sie mit dem Personalisierungs-Editor arbeiten.
+title: Über den Personalisierungseditor
+description: Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,22 +10,22 @@ level: Intermediate
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit dem Personalisierungs-Editor {#build-personalization-expressions}
+# Erste Schritte mit dem Personalisierungseditor {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Über den Personalisierungs-Editor"
->abstract="Mit dem Personalisierungs-Editor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Inhalt zu erstellen."
+>title="Über den Personalisierungseditor"
+>abstract="Mit dem Personalisierungseditor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen."
 
-Der Personalisierungs-Editor ist das Kernstück der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
+Der Personalisierungseditor ist die Kernkomponente der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
 
-In der Benutzeroberfläche des Personalisierungs-Editors werden Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Inhalt zu erstellen.
+In der Benutzeroberfläche des Personalisierungseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, de
 
 ![](assets/attribute-details.png)
 
-Im folgenden Beispiel können Sie mit dem Personalisierungs-Editor die Profile auswählen, die heute Geburtstag haben, und dann die Anpassung abschließen, indem Sie ein spezifisches Angebot für diesen Tag einfügen.
+Im folgenden Beispiel können Sie mit dem Personalisierungseditor die Profile auswählen, die heute Geburtstag haben, und dann die Anpassung vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
 
 ![](assets/perso_ee2.png)
 
-Sobald Ihr Personalisierungsausdruck fertig ist, muss er vom Personalisierungseditor validiert werden. Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-validation.md).
+Wenn Ihr Personalisierungsausdruck fertig ist, müssen Sie ihn vom Personalisierungseditor validieren lassen.  Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-validation.md).

@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="Formatieren der Extraktionsdatei"
->abstract="Geben Sie für jedes Feld einen Titel und die mithilfe des Personalisierungseditors anzuzeigenden Informationen an. <br/><br/> Die Option <b>Sortieren nach</b> ermöglicht es Ihnen, die Spalten der Extraktionsdatei mithilfe des ausgewählten Feldes zu sortieren."
+>abstract="Legen Sie mit dem Personalisierungseditor für jedes Feld ein Label und die Informationen fest, die angezeigt werden sollen. <br/><br/> Die Option <b>Sortieren nach</b> ermöglicht es Ihnen, die Spalten der Extraktionsdatei mithilfe des ausgewählten Feldes zu sortieren."
 
 1. Konfigurieren Sie die Spalten und die Informationen, die in der Extraktionsdatei angezeigt werden sollen:
 
@@ -75,7 +75,7 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 
    1. Der Bereich **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie einen **[!UICONTROL Titel]** für die Spalte an.
 
-   1. Im **[!UICONTROL Daten]** Wählen Sie die Profilattribute aus, die mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md).
+   1. Wählen Sie im Feld **[!UICONTROL Daten]** mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md) die Profilattribute aus, die angezeigt werden sollen.
 
    1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben der Spaltenbeschriftung im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
 
@@ -105,7 +105,7 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
    1. Der Bereich **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie einen **[!UICONTROL Titel]** für die Spalte an.
 
-   1. Im **[!UICONTROL Daten]** Wählen Sie die Profilattribute aus, die mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md).
+   1. Wählen Sie im Feld **[!UICONTROL Daten]** mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md) die Profilattribute aus, die angezeigt werden sollen.
 
    1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben der Spaltenbeschriftung im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
 

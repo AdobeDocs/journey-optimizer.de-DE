@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -28,22 +28,22 @@ Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 
 Zu den Vorteilen zählen:
 
-* Verbesserte Kampagnenleistung durch die Bereitstellung personalisierter Angebote über mehrere Kanäle hinweg,
-* Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen zu erstellen, können Marketing-Teams Workflows verbessern, indem sie einen einzigen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
-* Kontrolle darüber, wie oft ein Angebot in Kampagnen und Kunden angezeigt wird.
+* Verbesserte Kampagnen-Performance durch die Bereitstellung personalisierter Angebote über mehrere Kanäle hinweg,
+* Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen zu erstellen, können Marketing-Teams den Workflow verbessern, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Vorlagenbereichen variieren.
+* Steuern Sie, wie oft ein Angebot in Kampagnen und für Kundschaft angezeigt wird.
 
 ➡️ [Weitere Informationen zum Entscheidungs-Management finden Sie in diesen Videos](#video)
 
 
 >[!NOTE]
 >
->Wenn Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} Benutzer nutzen die **Offer decisioning** Anwendung, gelten auch alle in diesem Abschnitt beschriebenen Funktionen zur Entscheidungsverwaltung für Sie.
+>Wenn Sie in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} die Anwendung **Offer Decisioning** nutzen, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
-Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Einschränkungen, die die Bedingungen definieren, unter denen sie Ihren Kunden präsentiert werden.
+Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Begrenzungen. Diese definieren die Bedingungen, unter denen das Angebot Ihren Kundinnen und Kunden präsentiert wird.
 
-Sie wird mithilfe der Variablen **Angebotsbibliothek**, bietet einen zentralen Angebotskatalog, in dem Sie Eignungsregeln und Einschränkungen mit mehreren Inhaltselementen verknüpfen können, um Angebote zu erstellen und zu veröffentlichen (siehe [Benutzeroberfläche der Angebotsbibliothek](../get-started/user-interface.md)).
+Es wird mithilfe der **Angebotsbibliothek** erstellt, die einen zentralen Angebotskatalog bietet. In diesem können Sie Eignungsregeln und Begrenzungen mehreren Inhaltselementen zuordnen, um Angebote zu erstellen und zu veröffentlichen (siehe [Benutzeroberfläche der Angebotsbibliothek](../get-started/user-interface.md)).
 
 ![](../assets/offer_structure.png)
 
@@ -55,11 +55,11 @@ Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engi
 
 Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Experience Platform können Sie zahlreiche Anwendungsfälle abdecken, um die Interaktion und Konversion von Kunden zu verbessern.
 
-* Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform dem Zielpunkt des Besuchers entsprechen.
+* Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform dem Point of Interest der Besucherinnen und Besucher entsprechen.
 
   ![](../assets/website.png)
 
-* Wenn Kunden in der Nähe eines Ihrer Geschäfte gehen, senden Sie ihnen Push-Benachrichtigungen, um sie an verfügbare Angebote zu erinnern, die ihren Attributen entsprechen (Treuestufe, Geschlecht, frühere Käufe usw.).
+* Wenn sich Kundinnen und Kunden in der Nähe eines Ihrer Geschäfte aufhalten, senden Sie ihnen Push-Benachrichtigungen, um sie an verfügbare Angebote zu erinnern, die ihren Attributen entsprechen (Treuestufe, Geschlecht, frühere Käufe).
 
   ![](../assets/push_sample.png)
 
@@ -79,29 +79,29 @@ Die für das Entscheidungs-Management spezifischen Berechtigungen sind in [diese
 
 Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Entscheidungs-Managements.
 
-* **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot für die kombinierte Zielgruppe vorgeschlagen werden kann, auch &quot;Gesamtbeschränkungen&quot;genannt, und wie oft ein Angebot demselben Endbenutzer vorgeschlagen werden kann, auch als &quot;Profilbegrenzung&quot;bezeichnet.
+* **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot für die kombinierte Zielgruppe vorgeschlagen werden kann (Gesamtbeschränkungen) und wie oft ein Angebot derselben Endbenutzerin bzw. demselben Endbenutzer vorgeschlagen werden kann (Profilbegrenzung).
 
 * **Sammlungen**: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
 * **Entscheidung**: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots bestimmt.
 
-* **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
+* **Entscheidungsregel**: Entscheidungsregeln sind Begrenzungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 
-* **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Bedingungen, die einem Profil auf kohärente Weise unterbreitet werden können.
+* **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Begrenzungen, die einem Profil konsistent unterbreitet werden können.
 
 * **Entscheidungs-Management**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebotserlebnisse für Endbenutzer über verschiedene Kanäle und Anwendungen mithilfe von Business-Logik und Entscheidungsregeln.
 
-* **Fallback-Angebote**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote in der Sammlung qualifiziert ist.
+* **Fallback-Angebote**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn eine Endanwenderin oder ein Endanwender für keines der personalisierten Angebote in der verwendeten Sammlung qualifiziert ist.
 
 * **Angebot**: Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer sich zum Anzeigen des Angebots eignet.
 
 * **Angebotsbibliothek**: Die Angebotsbibliothek ist eine zentrale Bibliothek, die zum Verwalten von personalisierten Angeboten sowie Fallback-Angeboten, Entscheidungsregeln und Entscheidungen dient.
 
-* **Personalisierte Angebote**: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
+* **Personalisierte Angebote**: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Begrenzungen basiert.
 
-* **Praktika**: Eine Platzierung ist der Ort und/oder Kontext, in dem ein Angebot für einen Endbenutzer angezeigt wird.
+* **Platzierungen**: Eine Platzierung ist der Speicherort und/oder Kontext, in dem ein Angebot für Endbenutzende erscheint.
 
-* **Priorität**: Die Priorität dient der Einstufung von Angeboten, die alle Einschränkungen wie Eignung, Kalender und Begrenzung erfüllen.
+* **Priorität**: Die Priorität ist eine Zahl, die zur Einstufung von Angeboten verwendet wird, die alle Begrenzungen wie Berechtigungen, Termine und Obergrenzen erfüllen.
 
 * **Darstellungen**: Eine Darstellung besteht aus Informationen, die von einem Kanal verwendet werden, z. B. Ort oder Sprache zur Anzeige eines Angebots.
 

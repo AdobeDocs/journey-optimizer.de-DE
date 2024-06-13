@@ -9,9 +9,9 @@ level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Erfahren Sie, wie Sie ein Schema erstellen, Feldergruppen hinzufügen, benutzerd
 
 >[!MORELIKETHIS]
 >
->* [Erstellen eines Schemas, eines Datensatzes und Erfassen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
+>* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}
 >* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target="_blank"}
 >* [Erstellen eines Schemata mithilfe der Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=de){target="_blank"}

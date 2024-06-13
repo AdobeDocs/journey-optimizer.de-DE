@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
 >[!NOTE]
 >
-> Arbeiten mit [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}, müssen Sie [!DNL Assets Essentials] für Ihre Organisation verwenden und sicherstellen, dass Benutzer Teil der **Assets Essentials - Verbraucherbenutzer** oder/und **Assets Essentials Anwender** Produktprofile. Weitere Informationen unter [diese Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=de){target="_blank"}.
+> Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzerinnen und Benutzer Teil der Produktprofile **Assets Essentials-Endbenutzende** oder/und **Assets Essentials-Benutzende** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=de){target="_blank"}.
 
 1. Wählen Sie die Option **[!UICONTROL Assets-Bibliothek]** aus.
 
@@ -100,13 +100,13 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
-Sie können URLs mithilfe des Personalisierungs-Editors personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+Sie können URLs mit dem Personalisierungseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 Sie möchten zum Beispiel das Bild, das als Angebot angezeigt wird, personalisieren. Sie möchten, dass Benutzende, die einen Stadturlaub bevorzugen, die Skyline von New York sehen und Benutzende, die einen Strandurlaub bevorzugen, die Nordküste von Hawaii sehen.
 
-Verwenden Sie den Personalisierungs-Editor, um in der Adobe Experience Platform gespeicherte Profilattribute mithilfe von Vereinigungsschemas abzurufen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"}
+Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
    ![](../assets/offer-text-content.png)
 
-   Sie können Ihren Inhalt mit dem Personalisierungseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+   Sie können Ihre Inhalte mit dem Personalisierungseditor personalisieren.  Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

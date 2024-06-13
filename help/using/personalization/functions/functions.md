@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1872'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperatio
 
 ➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
 
-Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste der Personalisierungsfelder des Personalisierungs-Editors verfügbar sind, wie unten dargestellt:
+Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Personalisierungseditors verfügbar sind, wie unten gezeigt:
 
 ![](../assets/access-helper-functions.png)
 
 >[!NOTE]
 >
->Die im Personalisierungs-Editor verfügbaren Funktionen und Funktionen unterscheiden sich von den im [Journey des erweiterten Ausdruckseditors](../../building-journeys/expression/expressionadvanced.md).
+>Die im Personalisierungseditor verfügbaren Funktionen und Fähigkeiten unterscheiden sich von denen im [erweiterten Journey-Ausdruckseditor](../../building-journeys/expression/expressionadvanced.md).
 
-Im [!DNL Journey Optimizer] Personalisierungseditor und Hilfsfunktionen sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helfer](#helper-helper) und [Operatoren](#operators-helper).
+Im Personalisierungseditor von [!DNL Journey Optimizer] sind die Hilfsfunktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
 
 Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreifen.
 

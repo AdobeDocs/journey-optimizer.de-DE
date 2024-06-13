@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1716'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_expiry-date.png)
 
-1. Definieren Sie im Abschnitt **[!UICONTROL Zusätzliche Daten]** einen oder mehrere Schlüssel und die zugehörigen Parameterwerte. Sie können diese Schlüssel im Inhalt Ihrer primären Seite und Unterseiten mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md). Weiterführende Informationen finden Sie in [diesem Abschnitt](lp-content.md#use-form-component#use-additional-data).
+1. Definieren Sie im Abschnitt **[!UICONTROL Zusätzliche Daten]** einen oder mehrere Schlüssel und die zugehörigen Parameterwerte. Sie können diese Schlüssel im Inhalt Ihrer primären Seite und der Unterseiten mithilfe des [Personalisierungseditors](../personalization/personalization-build-expressions.md) verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 

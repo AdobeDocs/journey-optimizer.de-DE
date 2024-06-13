@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
       + [2023](using/rn/release-notes-2023.md)
       + [2022](using/rn/release-notes-2022.md)
       + [2021](using/rn/release-notes-2021.md)
-   + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
+   + [Dokumentationsaktualisierungen](using/rn/documentation-updates.md)
    + [Verbesserte Journey-Arbeitsfläche](using/rn/new-canvas.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
@@ -164,7 +164,7 @@ ht-degree: 98%
          + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
          + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
       + Technische Anwendungsfälle {#technical-use-cases}
-         + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+         + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
          + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
          + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
@@ -291,8 +291,8 @@ ht-degree: 98%
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](using/personalization/lookup-aep-data.md)
-      + Arbeiten mit dem Personalisierungs-Editor {#expression-editor}
-         + [Über den Personalisierungs-Editor](using/personalization/personalization-build-expressions.md)
+      + Arbeiten mit dem Personalisierungseditor {#expression-editor}
+         + [Über den Personalisierungseditor](using/personalization/personalization-build-expressions.md)
          + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
          + [Verwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
          + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
@@ -314,9 +314,9 @@ ht-degree: 98%
    + [Inhaltsvorlagen](using/content-management/content-templates.md)
    + Wiederverwendbare Inhaltsfragmente {#fragments}
       + [Erste Schritte mit Fragmenten](using/content-management/fragments.md)
-      + [Fragment erstellen](using/content-management/create-fragments.md)
-      + [Vorhandenen Inhalt als Fragment speichern](using/content-management/save-fragments.md)
-      + [Fragmente verwalten](using/content-management/manage-fragments.md)
+      + [Erstellen eines Fragments](using/content-management/create-fragments.md)
+      + [Speichern des vorhandenen Inhalts als Fragment](using/content-management/save-fragments.md)
+      + [Verwalten von Fragmenten](using/content-management/manage-fragments.md)
    + Dynamische Inhalte {#dynamic}
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)

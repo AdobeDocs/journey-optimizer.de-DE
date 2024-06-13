@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1855'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Nachdem Anreicherungsattribute zu einer Feldergruppe hinzugefügt wurden, könne
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Nachrichten personalisieren** in Journey oder Kampagnen durch Hinzufügen von Anreicherungsattributen aus der Zielgruppe im Personalisierungs-Editor. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
+* **Personalisieren Sie Ihre Nachrichten** in Journeys oder Kampagnen, indem Sie im Personalisierungseditor Anreicherungsattribute aus der Zielgruppe hinzufügen. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die al
 
 +++ Edge-Segmentierung
 
-Mit der Edge-Segmentierung können Segmente in Adobe Experience Platform sofort ausgewertet werden. [am Rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"}, wodurch Anwendungsfälle für die Personalisierung von derselben Seite und der nächsten Seite aktiviert werden. Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}
+Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort [am Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ausgewertet, was Anwendungsfälle mit Personalisierung auf derselben Seite und auf der nächsten Seite ermöglicht.  Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Zielgruppen aus einer Zielgruppenkomposition und einem benutzerdefinierten Uploa
   >
   >Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
 
-Darüber hinaus stehen diese Zielgruppen im Personalisierungs-Editor zur Verfügung, um Ihre Nachrichten in Journey und Kampagnen zu personalisieren. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
+Darüber hinaus stehen diese Zielgruppen für die Verwendung im Personalisierungseditor zur Verfügung, um Ihre Nachrichten in Journeys und Kampagnen zu personalisieren. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
 
 +++
 

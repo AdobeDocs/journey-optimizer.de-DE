@@ -10,9 +10,9 @@ level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Zugriffssteuerung auf Objektebene"
->abstract="Um den Zugriff auf dieses Objekt zu erhalten, wenden Sie nur Beschriftungen an, für die Sie über Berechtigungen verfügen."
+>abstract="Um den Zugriff auf dieses Objekt zu aufrechtzuerhalten, wenden Sie nur Labels an, für die Sie über Berechtigungen verfügen."
 
 Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
 

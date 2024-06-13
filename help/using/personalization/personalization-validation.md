@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Validierung, Fehler, Personalisierung
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 87%
 
 ## Mechanismen der Validierung {#validation-mechanisms}
 
-Im **Personalisierungseditor** -Bildschirm verwenden, verwenden Sie die **Bestätigen** -Schaltfläche, um die Syntax Ihrer Personalisierung zu überprüfen.
+Verwenden Sie im Bildschirm **Personalisierungseditor** die Schaltfläche **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
 
 >[!NOTE]
-> Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
+> Die Validierung wird automatisch durchgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, wodurch das Editorfenster geschlossen wird.
 >
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Personalisierungs-Editors nicht schließen.
+> Wenn die Personalisierungssyntax ungültig ist, können Sie das Personalisierungseditor-Fenster nicht schließen.
 >
 
 ## Häufige Fehler {#common-errors}
@@ -80,7 +80,7 @@ Die Fehler bei der Integration von Angeboten in eine E-Mail-Nachricht oder Push-
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-Die Validierung erfolgt während der Validierung des Personalisierungsinhalts im Personalisierungs-Editor.
+Die Validierung erfolgt während der Validierung des Personalisierungsinhalts im Personalisierungseditor.
 
 <table> 
  <thead> 

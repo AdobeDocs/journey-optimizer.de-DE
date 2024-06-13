@@ -11,9 +11,9 @@ keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 
 >[!AVAILABILITY]
 >
->Die Personalisierung der E-Mail-Oberfläche ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.
+>Die Personalisierung der E-Mail-Oberfläche ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Hinzufügen von dynamischen Subdomains {#dynamic-subdomains}
 
@@ -35,7 +35,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Aktivieren dynamischer Subdomains"
->abstract="Bei der Erstellung einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mithilfe des Personalisierungs-Editors definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
+>abstract="Beim Erstellen einer E-Mail-Oberfläche können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mit dem Personalisierungseditor definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um dynamische Subdomains in einer E-Mail-Kanaloberfläc
 
 1. Klicken Sie auf das Bearbeitungssymbol neben dem ersten Feld **[!UICONTROL Bedingung]**.
 
-1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Legen Sie in diesem Beispiel eine Bedingung wie „`Country` ist gleich `US`“ fest.
+1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Legen Sie in diesem Beispiel eine Bedingung wie „`Country` ist gleich `US`“ fest.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 
    ![](assets/surface-email-personalize-header.png)
 
-1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Definieren Sie Ihre Bedingung nach Bedarf und speichern Sie Ihre Änderungen.
+1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Definieren Sie Ihre Bedingung nach Bedarf und speichern Sie Ihre Änderungen.
 
    Legen Sie beispielsweise eine Bedingung fest, dass jede Empfängerin und jeder Empfänger eine E-Mail von der Person erhält, die die jeweilige Marke repräsentiert.
 

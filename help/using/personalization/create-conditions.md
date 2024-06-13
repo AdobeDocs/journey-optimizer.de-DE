@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 Bedingte Regeln sind Reihen von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextbezogenen Ereignissen.
 
-Bedingte Regeln werden mithilfe des Personalisierungs-Editors erstellt und können gespeichert werden, wenn Sie sie für alle Inhalte wiederverwenden möchten. [Erfahren Sie, wie Sie eine bedingte Regel in der Bibliothek speichern](#save)
+Bedingte Regeln werden mit dem Personalisierungseditor erstellt und können gespeichert werden, wenn Sie sie für Ihre Inhalte wiederverwenden möchten. [Erfahren Sie, wie Sie eine bedingte Regel in der Bibliothek speichern](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Bedingte Regeln werden mithilfe des Personalisierungs-Editors erstellt und könn
 
 ## Zugreifen auf den Builder für bedingte Regeln {#access}
 
-Bedingte Regeln werden aus dem **[!UICONTROL Bedingungen]** im Personalisierungs-Editor, auf das Sie zugreifen können:
+Bedingte Regeln werden im Menü **[!UICONTROL Bedingungen]** im Personalisierungseditor erstellt, auf das Sie wie folgt zugreifen können:
 
 * In Email Designer beim Aktivieren von dynamischen Inhalten für eine Komponente im E-Mail-Textkörper. [Erfahren Sie, wie Sie dynamische Inhalte zu E-Mails hinzufügen](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* In allen Feldern, in denen Sie mithilfe der [Personalisierungseditor](personalization-build-expressions.md).
+* In allen Feldern, in denen Sie mithilfe des [Personalisierungseditors](personalization-build-expressions.md) eine Personalisierung hinzufügen können.
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Bedingte Regeln werden aus dem **[!UICONTROL Bedingungen]** im Personalisierungs
 
 Die Schritte zum Erstellen einer bedingten Regel sind:
 
-1. Zugriff auf **[!UICONTROL Bedingungen]** im Personalisierungs-Editor oder in Email Designer auf und klicken Sie auf **[!UICONTROL Neu erstellen]**.
+1. Greifen Sie auf das Menü **[!UICONTROL Bedingungen]** im Personalisierungseditor oder im E-Mail-Designer zu und klicken Sie dann auf **[!UICONTROL Neu erstellen]**.
 
 1. Erstellen Sie die bedingte Regel entsprechend Ihren Anforderungen. Ziehen Sie dazu die gewünschten Attribute aus dem linken Menü per Drag-and-Drop auf die Arbeitsfläche und ordnen Sie sie an.
 

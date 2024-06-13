@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, erste Schritte, Bedingungen, Starten
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 64%
 >title="Bedingungen"
 >abstract="Bedingte Regeln ermöglichen basierend auf Profilattributen, kontextbezogenen Ereignissen oder Zielgruppen das Anzeigen mehrerer Inhaltsvarianten in Ihren Nachrichten."
 
-Dynamische Inhalte ermöglichen es Ihnen, den Inhalt Ihrer Nachrichten auf Grundlage von **bedingten Regeln**, die aus Profilattributen, kontextuellen Ereignissen oder Zielgruppen bestehen können, anzupassen. Bedingte Regeln werden mit einem visuellen Regel-Builder im Personalisierungseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journey und Kampagnen speichern können.
+Dynamische Inhalte ermöglichen es Ihnen, den Inhalt Ihrer Nachrichten auf Grundlage von **bedingten Regeln**, die aus Profilattributen, kontextuellen Ereignissen oder Zielgruppen bestehen können, anzupassen. Bedingte Regeln werden mit einem visuellen Regel-Builder im Personalisierungseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journeys und Kampagnen speichern können.
 
-Bedingte Regeln können in Email Designer und im Personalisierungs-Editor genutzt werden, um **Erstellen dynamischer Inhalte** die sich an die in Ihren Nachrichten enthaltenen Profile anpasst.
+Bedingte Regeln können im E-Mail-Designer und im Personalisierungseditor verwendet werden, um **dynamische Inhalte zu erstellen**, die an die Profile angepasst werden, an die sich Ihre Nachrichten richten.
 
 ![](assets/conditions-overview.png)
 

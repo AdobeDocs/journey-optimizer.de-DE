@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Mit dem Inhaltseditor für Landingpages können auch kontextbezogene Daten aus d
 >id="ac_lp_formfield"
 >title="Festlegen der Formularkomponentenfelder"
 >abstract="Hier kann definiert werden, wie die Empfängerinnen und Empfänger ihre Auswahl auf der Landingpage sehen und übermitteln."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definieren von Formularstilen für Landingpages"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definieren von Formularstilen für Landingpages"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -188,7 +188,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Fügen Sie mithilfe der Hilfsfunktionen des Personalisierungseditors die entsprechenden Bedingungen hinzu. [Weitere Informationen](../personalization/functions/functions.md)
+1. Fügen Sie die entsprechenden Bedingungen über die Hilfsfunktionen des Personalisierungseditors hinzu. [Weitere Informationen](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-1. Bearbeiten Sie den Inhalt nach Bedarf mit dem Personalisierungs-Editor. [Weitere Informationen](#edit-code)
+1. Bearbeiten Sie den Inhalt wie gewünscht mit dem Personalisierungseditor. [Weitere Informationen](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -49,13 +49,13 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 >id="ajo_code_based_experience"
 >title="Verwenden des Personalisierungseditors"
 >abstract="Fügen Sie den Code ein, den Sie als Teil dieser Code-basierten Erlebnisaktion bereitstellen möchten, und bearbeiten Sie ihn."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=de" text="Erste Schritte mit dem Personalisierungs-Editor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=de" text="Erste Schritte mit dem Personalisierungseditor"
 
 1. Wählen Sie auf dem Bildschirm zur Kampagnenbearbeitung die Option **[!UICONTROL Code bearbeiten]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
+1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
 
 1. Der Authoring-Modus kann von HTML auf JSON umgestellt werden und umgekehrt.
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
    >
    >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Stellen Sie daher sicher, dass Sie den Modus wechseln, bevor Sie mit dem Authoring beginnen.
 
-1. Geben Sie Ihren Code nach Bedarf ein. Sie können die [!DNL Journey Optimizer] Personalisierungs-Editor mit allen Personalisierungs- und Authoring-Funktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Geben Sie Ihren Code nach Bedarf ein. Der Personalisierungseditor von [!DNL Journey Optimizer] kann mit allen Personalisierungs- und Bearbeitungsfunktionen genutzt werden. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 1. Sie können bei Bedarf HTML- oder JSON-Ausdrucksfragmente hinzufügen. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie entweder im Personalisierungs-Editor oder im Bildschirm &quot;Inhalt bearbeiten&quot;die Option **[!UICONTROL Inhalt simulieren]**.
+1. Wählen Sie entweder im Personalisierungseditor oder im Bildschirm zur Inhaltsbearbeitung die Option **[!UICONTROL Inhalt simulieren]** aus.
 
    ![](assets/code-based-campaign-simulate.png)
 

@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 Wann sollte anstelle der anderen [!DNL Journey Optimizer]-Kanäle ein Code-basierter Kanal verwendet werden?
 
-* Sie können Code-basierte Erlebnisse jederzeit verwenden, wenn nicht über einen Webbrowser oder eine mobile App auf Ihre digitale Eigenschaft zugegriffen wird - in Fällen, in denen Sie die [!DNL Journey Optimizer] [Webkanal](../web/get-started-web.md){target="_blank"} oder [!DNL Journey Optimizer] [In-App-Messaging](../in-app/get-started-in-app.md){target="_blank"} -Kanal.
+* Sie können Code-basierte Erlebnisse jederzeit verwenden, wenn nicht über einen Webbrowser oder eine Mobile App auf Ihre digitale Eigenschaft zugegriffen wird. In den letzteren Fällen sollten Sie lieber den Kanal [!DNL Journey Optimizer] [Web-Kanal](../web/get-started-web.md){target="_blank"} oder [!DNL Journey Optimizer] [In-App-Messaging](../in-app/get-started-in-app.md){target="_blank"} verwenden.
 
-* Sie können den code-basierten Kanal als Alternative zum [!DNL Journey Optimizer] Webkanal , wenn Ihre Website nicht in die [Webdesigner](../web/edit-web-content.md#work-with-web-designer){target="_blank"} Visual Editor oder wenn Sie die [Browsererweiterung](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} , das visuelles Authoring für den Webkanal ermöglicht.
+* Sie können den Code-basierten Kanal als Alternative zum Web-Kanal von [!DNL Journey Optimizer] verwenden, wenn Ihre Website nicht in den visuellen Editor für [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} geladen werden kann oder wenn Sie die [Browser-Erweiterung](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} nicht verwenden können, der bzw. die das visuelle Authoring für den Web-Kanal ermöglicht
 
 * Sie können den Code-basierten Kanal auch als Alternative zu den Web- oder In-App-Kanälen von [!DNL Journey Optimizer] verwenden, falls Sie über eine API-basierte Headless- oder Server-seitige Implementierung verfügen.
 
@@ -85,13 +85,13 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 
 **Web**
 * Bearbeiten Sie Ihre Inhalte mithilfe des Visual Editors [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* Sie benötigen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} und [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installierte Erweiterung. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
+* Sie müssen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}-Implementierung und die Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
 * Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Er lässt sich schnell einrichten und ausführen.
 * Er ist auf Marketing-Fachleute ausgerichtet.
 
 **Code-basiertes Erlebnis**
-* Bearbeiten Sie den Inhalt mithilfe der [Personalisierungseditor](create-code-based.md#edit-code).
+* Bearbeiten Sie Ihren Inhalt mit dem [Personalisierungseditor](create-code-based.md#edit-code).
 * Das Code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Oberflächen die von [!DNL Journey Optimizer] für diese Oberflächen veröffentlichten Inhalte interpretieren und bereitstellen können. [Weitere Informationen](#surface-definition)
 * Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero-Bild, Menüleiste usw.) auf den Oberflächen, die für die Personalisierung oder Tests geändert werden müssen, unbedingt festgelegt werden. Erstellen Sie zusammen mit Ihrem Entwicklungs-Team die für diese Änderungen erforderliche Implementierung.
 * So können Sie JSON-Code-Inhalte verwenden.
@@ -113,7 +113,7 @@ Die wichtigsten Schritte zur Implementierung einer Code-basierten Kampagne:
 
 1. Definieren Sie eine [Oberfläche](#surface-definition); also den Ort, zu dem Sie Ihr Code-basiertes Erlebnis hinzufügen möchten, und erstellen Sie mithilfe dieser Oberfläche eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
-1. Erstellen Sie mithilfe der [!DNL Journey Optimizer] Personalisierungseditor. [Weitere Informationen](create-code-based.md#edit-code)
+1. Erstellen Sie ein Erlebnis, indem Sie mit dem Personalisierungseditor von [!DNL Journey Optimizer] Inhalte für die ausgewählte Oberfläche angeben. [Weitere Informationen](create-code-based.md#edit-code)
 
 1. Ihr App-Implementierungs-Team erstellt explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. In diesem Fall ist das Implementierungs-Team für das Rendern oder die anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

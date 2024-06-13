@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Opt-out-Verfahren in E-Mails 
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding auf einen der möglichen Werte ändern [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
+>In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} aufgelisteten Werte ändern.
 
 ## Implementieren der Personalisierungszustimmung {#opt-out-personalization}
 
@@ -100,7 +100,7 @@ Haben Benutzende:
 
 ### Im Personalisierungseditor {#opt-out-expression-editor}
 
-Die [Personalisierungseditor](../personalization/personalization-build-expressions.md) selbst führt keine Einwilligungsüberprüfungen oder Durchsetzungsmaßnahmen durch, da diese nicht an der Zustellung von Nachrichten beteiligt sind.
+Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) selbst führt keine Einverständnisprüfung oder -durchsetzung durch, da er nicht am Versand von Nachrichten beteiligt ist.
 
 Die Verwendung von berechtigungsbasierten Zugriffssteuerungskennzeichnungen ermöglicht jedoch die Beschränkung der für die Personalisierung verwendbaren Felder. Die [Nachrichtenvorschau](../content-management/preview.md) und der [E-Mail-Rendering-Service](../content-management/rendering.md) maskieren die Felder, in denen sensible Informationen identifiziert wurden.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 
 >[!NOTE]
 >
->Wenn die Zusammenführungsmethode für Ihre Standardeinstellung [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} **[!UICONTROL Profile]** Zusammenführungsrichtlinie ist **[!UICONTROL Datensatzpriorität]** müssen Sie die **[!UICONTROL Datensatz des AJO Consent Service]** und sie in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
+>Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform-Profilzusammenführungsrichtlinie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}**** **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den Datensatz des **[!UICONTROL AJO-Einverständis-Service]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 
