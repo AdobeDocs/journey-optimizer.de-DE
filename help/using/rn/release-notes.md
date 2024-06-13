@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 88%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Aktualisierungen vom Juni 2024
+## Aktualisierungen von Juni 2024
 
-* Sie können jetzt mit dem Adobe Experience Platform AI Assistant in Adobe Journey Optimizer arbeiten. [Weitere Informationen](../start/ai-assistant.md)
+* Sie können jetzt mit dem KI-Assistenten von Adobe Experience Platform in Adobe Journey Optimizer arbeiten. [Weitere Informationen](../start/ai-assistant.md)
 
 * **Unterstützung mehrerer Regeln in der Entscheidungsverwaltung** - Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot in der Entscheidungsverwaltung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.  [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
@@ -51,7 +51,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <td>
 <p>Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.</p>
 <p>Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.</p>
-<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.</p>
+<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/gs-experience-decisioning.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -68,8 +68,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt beim Erstellen von E-Mail-Kanal-Oberflächen dynamische Subdomains und personalisierte Header-Parameter definieren, um mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhalten.</p>
-<p>Die Personalisierung der E-Mail-Oberfläche ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.</p>
+<p>Sie können jetzt beim Erstellen von E-Mail-Kanal-Oberflächen dynamische Subdomains und personalisierte Kopfzeilenparameter definieren, um mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhalten.</p>
+<p>Die Personalisierung der E-Mail-Oberfläche ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 
   >[!AVAILABILITY]
   >
-  >Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kundschaft zur Verfügung. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um am Betaprogramm teilzunehmen.
+  >Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.
 
 <!--
 **Audiences**

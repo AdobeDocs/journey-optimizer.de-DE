@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fragmente verwalten
+title: Verwalten von Fragmenten
 description: Erfahren Sie, wie Sie Ihre Inhaltsfragmente verwalten
 feature: Fragments
 topic: Content Management
@@ -11,18 +11,18 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
-# Fragmente verwalten {#manage-fragments}
+# Verwalten von Fragmenten {#manage-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Status neuer Fragmente"
 >abstract="Seit **Entwurf** und **Live** -Status mit der Journey Optimizer-Version vom Juni eingeführt wurden, haben alle vor dieser Version erstellten Fragmente den Status &quot;Entwurf&quot;, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie &quot;live&quot;zu schalten und die Änderungen an den zugehörigen Kampagnen und Journey zu übertragen. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist eine Benutzerberechtigung erforderlich."
 
-Um Ihre Fragmente zu verwalten, greifen Sie auf die Fragmentliste über **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]** Menü links.
+Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
 
 ![](assets/fragment-list.png)
 
