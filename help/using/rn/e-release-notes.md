@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 30%
 
 ---
@@ -167,7 +167,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Journeys**
 
 * Die globale Zeitüberschreitung bei der Journey wurde von 30 auf 91 Tage erhöht.
-* Adobe Journey Optimizer unterstützt jetzt Datenschutz-Löschungs-/Zugriffsanfragen.
+* Adobe Journey Optimizer unterstützt jetzt Datenschutz-Lösch-/Zugriffsanfragen sowie Data Life Cycle Management-Anfragen.
 * Sie können nun die Spaltengröße im Journey-Inventar ändern.
 * **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist jetzt allgemein verfügbar - Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. [Weitere Informationen](../event/about-creating.md)
 * **Zusammenführungsrichtlinien** sind jetzt allgemein verfügbar - Zusammenführungsrichtlinien, die von einem Journey verwendet werden, sind jetzt auf dem gesamten Journey sichtbar und konsistent. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. [Weitere Informationen](../building-journeys/journey-gs.md#merge-policies)
