@@ -5,11 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 feature: Release Notes
 topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
+source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 31%
+source-wordcount: '456'
+ht-degree: 35%
 
 ---
 
@@ -150,7 +149,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* **Unterstützung mehrerer Regeln in der Entscheidungsverwaltung** - Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot in der Entscheidungsverwaltung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* **Unterstützung mehrerer Regeln in der Entscheidungsverwaltung** - Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot in der Entscheidungsverwaltung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.  [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
