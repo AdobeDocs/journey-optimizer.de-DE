@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
+source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 30%
+source-wordcount: '470'
+ht-degree: 41%
 
 ---
 
@@ -46,21 +46,21 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </table>
 
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Anpassung von Inhaltsfragmenten</strong><br/></th>
+<th><strong>Content Fragments customization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt bestimmte Felder in einem Fragment definieren, die bearbeitet werden können, wenn das Fragment einer Kampagne oder Journey hinzugefügt wird. Dies ermöglicht die Anpassung der Inhaltsabschnitte zum Zeitpunkt der Verwendung und bietet Flexibilität, Standardwerte mit kontextspezifischen Details zu überschreiben.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 
 <table>
@@ -156,13 +156,13 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**Inhaltsfragmente**
+<!--**Content fragments**
 
-* Fragmente können jetzt bearbeitet werden und Änderungen können über alle Live-Journey und Kampagnen hinweg übernommen werden, in denen sie verwendet werden.
-* Es wurden neue Status für Inhaltsfragmente eingeführt: **Entwurf**, **Live**, **Publishing**, und **Archiviert**.
-* Um ein Fragment in einer Journey oder Kampagne zu verwenden, muss es sich jetzt in der **Live** -Status. Dem Fragmenterstellungsprozess wurde ein neuer Schritt hinzugefügt, mit dem das Fragment veröffentlicht und für die Verwendung in Journey und Kampagnen verfügbar gemacht werden kann - Beachten Sie, dass für die Fragmentveröffentlichung eine neue Berechtigung erforderlich ist.
-
-  **VORSICHT** - seit **Entwurf** und **Live** -Status mit der Journey Optimizer-Version vom Juni eingeführt wurden, haben alle vor dieser Version erstellten Fragmente die **Entwurf** Status, auch wenn sie in einer Journey oder Kampagne verwendet werden. In diesem Abschnitt erfahren Sie, wie Sie Ihre vorhandenen Fragmente aktualisieren.
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
 
 **Journeys**
 
