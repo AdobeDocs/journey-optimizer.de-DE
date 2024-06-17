@@ -19,19 +19,19 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collections"
 >title="Erstellen von Sammlungen"
->abstract="Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen."
+>abstract="Mit Sammlungen kann man Entscheidungselemente nach eigenen Vorstellungen kategorisieren und gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collection_rules"
->title="Definieren von Regeln für Ihre Sammlung"
+>title="Definieren von Regeln für die eigene Sammlung"
 >abstract="Fügen Sie eine oder mehrere Regeln hinzu, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Wählen Sie ein Elementattribut aus, das als Kriterium verwendet werden soll. Wählen Sie den gewünschten Operator aus und geben Sie den Wert ein, nach dem gefiltert werden soll. Fügen Sie so viele Regeln wie nötig hinzu."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
 >title="Wählen Sie eine Sammlung aus"
->abstract="Wählen Sie die Sammlung aus, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Beispielsweise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im benutzerdefinierten Attribut „Kategorie“ enthält."
+>abstract="Die Sammlung auswählen, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen kann man Entscheidungselemente nach eigenen Vorstellungen kategorisieren und gruppieren. Beispielsweise kann man eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im benutzerdefinierten Attribut „Kategorie“ enthält."
 
-Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen.
+Mit Sammlungen können Entscheidungselemente nach den eigenen Vorstellungen kategorisiert und gruppiert werden. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen.
 
 Angenommen, Sie haben dem Katalogschema Ihrer Entscheidungselemente das benutzerdefinierte Attribut „Kategorie“ hinzugefügt. Auf diese Weise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im Attribut „Kategorie“ enthält.
 
