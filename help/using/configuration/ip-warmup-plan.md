@@ -13,7 +13,7 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1674'
 ht-degree: 100%
 
@@ -283,7 +283,7 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="IP-Aufwärmplan angeben"
->abstract="Füllen Sie die Excel-Vorlage mit allen Daten aus, die in Ihren Plan einfließen, z. B. IP-Aufwärmphasen und die Zielanzahl von Profilen, und laden Sie sie hier hoch."
+>abstract="Die Excel-Vorlage mit allen Daten ausfüllen, die in den Plan einfließen, z. B. IP-Aufwärmphasen und die Zielanzahl von Profilen, und hier hochladen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=de#prepare-file" text="Vorbereiten der Datei mit dem IP-Aufwärmplan"
 
 >[!CONTEXTUALHELP]

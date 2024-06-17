@@ -41,12 +41,12 @@ Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Ausschließen von Kampagnenzielgruppen"
->abstract="Wählen Sie Kampagnen aus, um ihre Zielgruppen aus der aktuellen Phase auszuschließen. Dadurch soll verhindert werden, dass zuvor kontaktierte Profile aus anderen Phasen oder anderen IP-Aufwärmplänen erneut angesprochen werden."
+>abstract="Kampagnen auswählen, um ihre Zielgruppen aus der aktuellen Phase auszuschließen. Dadurch soll verhindert werden, dass zuvor kontaktierte Profile aus anderen Phasen oder anderen IP-Aufwärmplänen erneut angesprochen werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Ausschließen von Domain-Gruppen"
->abstract="Wählen Sie die Domains aus, die Sie aus der aktuellen Phase ausschließen möchten. Der Ausschluss von Domains erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise eine laufende Phase aufteilen, um Ausschlüsse hinzuzufügen."
+>abstract="Die Domains auswählen, die aus der aktuellen Phase ausgeschlossen werden sollen. Der Ausschluss von Domains erfordert eine nicht ausgeführte Phase, daher muss möglicherweise eine laufende Phase aufgeteilt werden, um Ausschlüsse hinzuzufügen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=de#split-phase" text="Aufspalten einer Phase"
 
 >[!CONTEXTUALHELP]

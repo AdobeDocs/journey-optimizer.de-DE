@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Eingrenzen der qualifizierten Profile"
->abstract="Sie können die Auswahl der Angebote für diese Auswahlstrategie einschränken. Standardmäßig sind alle Profile qualifiziert. Sie können jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
+>abstract="Die Auswahl der Angebote für diese Auswahlstrategie kann eingeschränkt werden. Standardmäßig sind alle Profile qualifiziert. Man kann jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
 
@@ -88,7 +88,7 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="Festlegen der Rangfolge von Angeboten"
->abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt: Priorität oder Ranglistenformel."
+>abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, kann beim Erstellen einer Entscheidungsstrategie die Methode gewählt werden, die für jedes Profil das beste Angebot auswählt: Priorität oder Ranglistenformel."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=de" text="Erstellen von Entscheidungsrichtlinien"
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
