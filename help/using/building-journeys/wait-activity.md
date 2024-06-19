@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
-workflow-type: ht
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,9 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
-Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., Profile werden immer 30 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
+Bei Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, beachten Sie, dass die [globales Journey-Timeout](journey-gs.md#global_timeout) 91 Tage beträgt, d. h. Profile werden immer 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
 
-Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Wenn Sie beispielsweise zwei Aktivitäten vom Typ **Warten** hinzufügen, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite Aktivität vom Typ **Warten** nach der 30-tägigen maximalen Wartezeit endet. Die zweite Aktivität vom Typ **Warten** wird daher ignoriert und der Kontakt verlässt die Journey, bevor sie oder er diese beginnt. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
+Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem Journey-Timeout von 91 Tagen abzuschließen. Wenn Sie beispielsweise zwei **Warten** Aktivitäten, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite **Warten** -Aktivität endet nach Ablauf der 91 Tage. Die zweite Aktivität vom Typ **Warten** wird daher ignoriert und der Kontakt verlässt die Journey, bevor sie oder er diese beginnt. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
 
 ### Warten und Wiedereintritt {#wait-re-entrance}
 

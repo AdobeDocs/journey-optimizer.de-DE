@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
-In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie Fragmente erstellen und verwalten.
+Ein Fragment ist eine wiederverwendbare Komponente, auf die über mehrere [!DNL Journey Optimizer] Kampagnen und Journey. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um Inhalte schnell in einem verbesserten Designprozess zusammenzustellen. [Erfahren Sie, wie Sie Fragmente erstellen und verwalten](../content-management/fragments.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie 
 
 Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen vor.
 
+>[!NOTE]
+>
+>Sie können bis zu 30 Fragmente in einem Versand hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
+
 1. Öffnen Sie den [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die Schaltfläche **[!UICONTROL Fragmente]** im linken Bereich aus.
+
+   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. Sie werden nach Erstellungsdatum sortiert: Kürzlich hinzugefügte Ausdrucksfragmente werden zuerst in der Liste angezeigt. [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >Fragmente werden nach Erstellungsdatum sortiert, wobei die zuletzt hinzugefügten Ausdrucksfragmente in der Liste zuerst angezeigt werden.
-
-1. Sie können die Liste auch aktualisieren.
+   Sie können diese Liste auch aktualisieren.
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
    ![](assets/expression-fragment-add.png)
 
-   Wenn die Fragment-ID hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle **[!UICONTROL Entwürfe]** von Journeys/Kampagnen übertragen, die diese Fragment-ID enthalten.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Die Änderungen werden nicht auf die in **[!UICONTROL Live]**-Journeys oder -Kampagnen verwendeten E-Mails übertragen.
+   >Sie können jede **Entwurf** oder **Live** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status Entwurf darin verwendet wird. Bei der Journey- oder Kampagnenveröffentlichung wird ein Fehler bei Fragmententwürfen angezeigt, die Sie zur Veröffentlichung validieren müssen.
+   >
+   > Beachten Sie, dass die Fragmentstatus über mehrere Tage nach der Journey Optimizer-Version vom Juni schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie, dass Fragmente nicht **Live** zur Verwendung in Ihren Journey und Kampagnen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben einem Fragment.
+1. Wenn die Fragment-ID hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle Entwürfe oder Live-Journey/Kampagnen weitergeleitet, die diese Fragment-ID enthalten.
 
-1. Wählen Sie aus dem sich öffnenden Kontextmenü die Option **[!UICONTROL Fragment anzeigen]** aus, um weitere Informationen zu diesem Fragment zu erhalten. Die **[!UICONTROL Fragment-ID]** wird ebenfalls angezeigt und kann von hier aus kopiert werden.
+1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** neben einem Fragment. Wählen Sie aus dem sich öffnenden Kontextmenü die Option **[!UICONTROL Fragment anzeigen]** aus, um weitere Informationen zu diesem Fragment zu erhalten. Die **[!UICONTROL Fragment-ID]** wird ebenfalls angezeigt und kann von hier aus kopiert werden.
 
    ![](assets/expression-fragment-view.png)
 

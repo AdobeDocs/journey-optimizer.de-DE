@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 45%
 
 ---
 
 # Speichern von Inhalten als Fragment {#save-as-fragment}
 
-Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden.
+Beim Bearbeiten von Inhalt in [!DNL Journey Optimizer], können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden. Sie können Inhalte entweder als Fragment speichern [in Email Designer](#save-as-visual-fragment)oder [im Ausdruckseditor](#save-as-expression-fragment).
 
-## Speichern von Inhalten als visuelles Fragment {#save-as-visual-fragment}
+## Speichern als visuelles Fragment {#save-as-visual-fragment}
 
-Beim Entwurf einer [Inhaltsvorlage](content-templates.md) oder [E-Mail](../email/get-started-email-design.md) in Kampagnen oder Journeys können Sie einen Teil des Inhalts zur späteren Wiederverwendung als visuelles Fragment speichern. Gehen Sie dazu wie folgt vor.
+Gehen Sie wie folgt vor, um Inhalt aus Email Designer als Fragment zu speichern:
 
 1. Klicken Sie im [E-Mail-Designer](../email/get-started-email-design.md) oben rechts im Bildschirm auf die Ellipse.
 
@@ -31,29 +31,31 @@ Beim Entwurf einer [Inhaltsvorlage](content-templates.md) oder [E-Mail](../email
 
 1. Der Bildschirm **[!UICONTROL Als Fragment speichern]** wird angezeigt. Hier können Sie die Elemente auswählen, die Sie in Ihr Fragment aufnehmen möchten, darunter Personalisierungsfelder und dynamische Inhalte. Beachten Sie, dass kontextuelle Attribute in Fragmenten nicht unterstützt werden.
 
+   ![](assets/fragment-save-as-screen.png)
+
    >[!CAUTION]
    >
    >Sie können nur nebeneinander liegende Abschnitte auswählen. Sie können keine leere Struktur und auch kein anderes Fragment auswählen.
 
-   ![](assets/fragment-save-as-screen.png)
+1. Klicks **[!UICONTROL Erstellen]** und geben Sie bei Bedarf den Fragmentnamen und die Beschreibung ein.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Füllen Sie die Fragmentdetails aus, d. h., geben Sie den Namen und (falls erforderlich) eine Beschreibung ein.
-
-1. Um dem Fragment benutzerdefinierte oder zentrale Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um dem Fragment benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf das **[!UICONTROL Zugriff verwalten]** im oberen Bereich des Bildschirms. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags im Feld **Tags**, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Klicken Sie erneut auf **[!UICONTROL Erstellen]**. Das Fragment wird zur [Fragmentliste](#access-manage-fragments) hinzugefügt, auf die Sie über das spezielle [!DNL Journey Optimizer]-Menü zugreifen können.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Das Fragment wird zum [Fragmentliste](#access-manage-fragments) mit dem **Entwurf** -Status. Es wird zu einem eigenständigen Fragment, das wie jedes andere visuelle Fragment aus dieser Liste verwendet werden kann.
 
-   Es wird zu einem eigenständigen Fragment, für das [Zugriff](#access-manage-fragments), [Bearbeitung](#edit-fragments) und [Archivierung](#archive-fragments) wie für jedes andere Element in dieser Liste möglich sind.
+   >[!NOTE]
+   >
+   >Änderungen an diesem neuen Fragment werden nicht auf die E-Mail oder Vorlage übertragen, aus der das Fragment hervorgegangen ist. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment ebenfalls nicht geändert.
 
-Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email-design.md) oder [Inhaltsvorlagen](content-templates.md) in [!DNL Journey Optimizer] verwendet werden. [Weitere Informationen](../email/use-visual-fragments.md)
+1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Änderungen an diesem neuen Fragment werden nicht auf die E-Mail oder Vorlage übertragen, aus der das Fragment hervorgegangen ist. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment ebenfalls nicht geändert.
+>Die Veröffentlichung von Fragmenten wird im Laufe von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise eingeführt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie bitte, dass Fragmente nicht zur Verwendung in Journey und Kampagnen veröffentlicht werden müssen.
 
-## Speichern von Inhalten als Ausdrucksfragment {#save-as-expression-fragment}
+## Speichern als Ausdrucksfragment {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -66,6 +68,10 @@ Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 
 1. Erstellen Sie über die Benutzeroberfläche des [Personalisierungseditors](../personalization/personalization-build-expressions.md) einen Ausdruck und klicken Sie dann auf **[!UICONTROL Als Fragment speichern]**.
 
+   >[!NOTE]
+   >
+   >Ausdrücke dürfen 200 KB nicht überschreiten.
+
 1. Geben Sie im rechten Bereich einen Titel und eine Beschreibung für den Ausdruck ein, damit Benutzende ihn leichter finden können.
 
    ![](assets/expression-fragment-save-as.png)
@@ -74,8 +80,10 @@ Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Das Ausdrucksfragment wird zur [Fragmentliste](#access-manage-fragments) hinzugefügt. Jetzt können Sie damit personalisierte Inhalte erstellen.
+1. Das Fragment wird zum [Fragmentliste](#access-manage-fragments) mit dem **Entwurf** -Status. Es wird zu einem eigenständigen Fragment, das als jedes andere Ausdrucksfragment aus dieser Liste verwendet werden kann.
+
+1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Ausdrücke dürfen 200 KB nicht überschreiten.
+>Die Veröffentlichung von Fragmenten wird im Laufe von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise eingeführt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie bitte, dass Fragmente nicht zur Verwendung in Journey und Kampagnen veröffentlicht werden müssen.

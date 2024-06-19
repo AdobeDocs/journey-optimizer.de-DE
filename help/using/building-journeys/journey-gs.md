@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
-workflow-type: ht
-source-wordcount: '2086'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '2623'
+ht-degree: 74%
 
 ---
 
@@ -90,13 +90,13 @@ Der Status kann wie folgt lauten:
 * **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
 * **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert.
-* **Beendet**: Die Journey wechselt nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
+* **Abgeschlossen**: Die Journey wechselt nach 91 Tagen automatisch auf diesen Status [Standard-Timeout](journey-gs.md#global_timeout). Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
 * **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht.
 * **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Einzelpersonen verlassen die Journey sofort.
 
 >[!NOTE]
 >
->Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
+>Der Journey Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: &quot;Publishing&quot;(zwischen &quot;Entwurf&quot; und &quot;Live&quot;), &quot;Activating test mode&quot; oder &quot;Deactivate test mode&quot;(zwischen &quot;Entwurf&quot; und &quot;Entwurf (Test)&quot;) und &quot;Stopping&quot; (zwischen &quot;Live&quot; und &quot;Stoppt&quot;). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
@@ -186,7 +186,7 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 30 Tage, kann mit dem Zusatzangebot „Healthcare Shield“ auf 7 Tage reduziert werden). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage, kann mit dem Zusatzangebot „Healthcare Shield“ auf 7 Tage reduziert werden). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
@@ -202,15 +202,123 @@ Bei Journeys wird auch eine maximale globale Wartezeit verwendet. Siehe [nächst
 
 Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann.
 
-Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **30 Tage** nach ihrem Eintritt. Diese maximale Wartezeit wird mit dem Zusatzangebot „Healthcare Shield“ auf **7 Tage** reduziert. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage (bzw. 7 Tage) dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
+Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Diese maximale Wartezeit wird mit dem Zusatzangebot „Healthcare Shield“ auf **7 Tage** reduziert. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage (bzw. 7 Tage) dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
 
 >[!NOTE]
 >
->Journeys reagieren nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
+>Journeys reagieren nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 91 Tage in der Journey bleiben.
 
-Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
+Aufgrund der 91-tägigen Journey-Zeitüberschreitung können wir nicht sicherstellen, dass die Sperrung des erneuten Eintritts von Journey mehr als 91 Tage in Kraft tritt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
-Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
+Eine Person kann nur dann in eine Warteaktivität eintreten, wenn sie genügend Zeit im Journey hat, um die Wartezeit vor dem Journey-Timeout von 91 Tagen abzuschließen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
+
+
+#### Häufig gestellte Fragen zur Time-to-Live (TTL) und zur Datenausgabe {#timeout-faq}
+
+**Für Journey**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit Journey, das veröffentlicht wird, nachdem die TTL-Erweiterung ausgerollt wurde?</p>
+    </td>
+    <td>
+      <p>Profile, die in die neue Journey eintreten, haben automatisch eine TTL von 91 Tagen.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit der Eingabe eines Profils, das vor dem Start der TTL-Erweiterung veröffentlicht wurde?</p>
+    </td>
+    <td>
+      <p>Das Profil verfügt über eine TTL von 91 Tagen (7 Tage für HIPAA), die dem Zeitpunkt entspricht, zu dem die Journey ursprünglich veröffentlicht wurde.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem Profil, das bereits eine Journey eingegeben hat, wenn die TTL-Erweiterung gestartet wird?</p>
+    </td>
+    <td>
+      <p>Das Profil behält gemäß der ursprünglichen Publikationszeit der Journey eine TTL von 91 Tagen (7 Tage für HIPAA) bei.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem Profil in einer früheren Journey-Version, die nach dem Start der TTL-Erweiterung erneut veröffentlicht wird?</p>
+    </td>
+    <td>
+      <p>Das Profil behält eine TTL von 91 Tagen (7 Tage für HIPAA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem neuen Profil, das nach dem Start der TTL-Erweiterung eine erneut veröffentlichte Journey-Version eingibt?</p>
+    </td>
+    <td>
+      <p>Das Profil verfügt über eine TTL von 91 Tagen, die der TTL der neu veröffentlichten Journey-Version entspricht.</p>
+    </td>
+  </tr>
+</table>
+
+**Für Segment-Trigger-Journey**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit neuen einmaligen Journey, die nach der TTL-Erweiterung veröffentlicht werden?</p>
+    </td>
+    <td>
+      <p>Profile, die in die neue Journey eintreten, haben automatisch eine TTL von 91 Tagen.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit neuen wiederkehrenden Journey ohne erzwungenen erneuten Eintritt, die nach der TTL-Erweiterung veröffentlicht werden?</p>
+    </td>
+    <td>
+      <p>Profile, die in die neue Journey eintreten, haben automatisch eine TTL von 91 Tagen.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit neuen wiederkehrenden Journey mit erzwungener Wiedereinreise, die nach der TTL-Erweiterung veröffentlicht werden?</p>
+    </td>
+    <td>
+      <p>Profile, die die neue Journey eingeben, haben eine TTL, die der Wiederholungszeit entspricht. Wenn die Journey beispielsweise täglich ausgeführt wird, beträgt die TTL 1 Tag.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit der Eingabe eines Profils, das vor dem Start der TTL-Erweiterung veröffentlicht wurde?</p>
+    </td>
+    <td>
+      <p>Das Profil verfügt über eine TTL von 91 Tagen (7 Tage für HIPAA), die der ursprünglichen Veröffentlichungszeit entspricht. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem Profil, das über eine Journey läuft, wenn die TTL-Erweiterung gestartet wird?</p>
+    </td>
+    <td>
+      <p>Das Profil behält gemäß der ursprünglichen Publikationszeit der Journey eine TTL von 91 Tagen (7 Tage für HIPAA) bei. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem laufenden Profil in einer vorherigen Journey-Version, die nach dem Start der TTL-Erweiterung erneut veröffentlicht wird?</p>
+    </td>
+    <td>
+      <p>Das Profil behält eine TTL von 91 Tagen (7 Tage für HIPPA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was passiert mit einem neuen Profil, das nach dem Start der TTL-Erweiterung eine erneut veröffentlichte Journey-Version eingibt?</p>
+    </td>
+    <td>
+      <p>Das Profil verfügt über eine TTL von 91 Tagen, die der TTL der neu veröffentlichten Journey-Version entspricht. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+    </td>
+  </tr>
+</table>
 
 ### Zusammenführungsrichtlinien {#merge-policies}
 
@@ -219,13 +327,9 @@ Eine Journey verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten
 * In den Journeys „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
 * In ereignisgesteuerten Journeys wird die standardmäßige Zusammenführungsrichtlinie verwendet
 
-Eine Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie.
+Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in &quot;inAudience&quot;-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler erzeugt und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis erzeugt. Daher wird dringend empfohlen, die mit Ihrer Audience verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Audience bei der Nachrichtenpersonalisierung verwendet wird.
 
->[!NOTE]
->
->Diese Funktion ist nur für ausgewählte Kundinnen und Kunden mit eingeschränkter Verfügbarkeit (LA) verfügbar.
-
-Weitere Informationen zu den Zusammenführungsrichtlinien finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview)
+Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
 

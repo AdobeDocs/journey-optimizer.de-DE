@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Die Mai-Version ist live!]
+>[!TAB Die Version vom Juni ist live!]
 
 Entdecken Sie die neuen Funktionen und Verbesserungen der Mai-Version von Adobe Journey Optimizer.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Erlebnis-Entscheidung]
+>[!TAB Berichterstellung mit Customer Journey Analytics (Beta)]
 
-Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet.
+Die Journey Optimizer-Berichterstellung ist nun vollständig in Customer Journey Analytics-Funktionen integriert, wodurch die Berichterstellung plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB KI-Assistent]
 
->[!TAB Neues Journey-Erlebnis]
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke in Ihre spezifische Umgebung erhalten können.
 
-Diese Version enthält eine verbesserte Benutzeroberfläche der Arbeitsfläche für Journeys und bietet ein intuitiveres und effizienteres Anwendererlebnis. Die Aktivitäten sind übersichtlicher und enthalten auf der Journey-Arbeitsfläche mehr Informationen mit weniger Klicks.
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB Inhaltsfragmente]
 
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+Fragmente können nun bearbeitet werden und Änderungen können in allen Live-Journeys und Kampagnen, in denen sie verwendet werden, übernommen werden.
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

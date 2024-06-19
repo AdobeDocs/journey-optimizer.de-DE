@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 23%
 
 ---
 
@@ -26,3 +26,223 @@ Weitere Informationen zu Privacy Service und zum Erstellen und Verwalten von Dat
 
 * [Übersicht über den Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
 * [Verwalten von Datenschutzaufträgen in der Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de)
+
+
+
+## Verwalten einzelner Datenschutzanfragen, die Sie an Adobe Journey Optimizer senden können {#data-privacy-requests}
+
+Sie können individuelle Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus Adobe Journey Optimizer auf zwei Arten senden:
+
+* Durch die **Privacy Service-Benutzeroberfläche**. Siehe die Dokumentation . [here](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
+* Durch die **Privacy Service-API**. Siehe die Dokumentation . [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) und API-Informationen [here](https://developer.adobe.com/experience-platform-apis/#_blank).
+
+Der Privacy Service unterstützt zwei Anforderungstypen: **Datenzugriff** und **Datenlöschung**.
+
+>[!NOTE]
+>
+>In diesem Handbuch wird nur beschrieben, wie Sie Datenschutzanfragen für Adobe Journey Optimizer stellen. Wenn Sie auch Datenschutzanfragen für den Platform Data Lake planen, lesen Sie dies [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) zusätzlich zu diesem Tutorial. Informationen zum Echtzeit-Kundenprofil finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) und Identity-Dienst siehe diesen Abschnitt [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). Für Lösch- und Zugriffsanfragen müssen Sie diese einzelnen Systeme aufrufen, um sicherzustellen, dass die Anforderungen von jedem einzelnen System verarbeitet werden. Durch eine Datenschutzanfrage an Adobe Journey Optimizer werden keine Daten aus all diesen Systemen entfernt.
+
+Für **Zugriffsanforderungen**, geben Sie &quot;Adobe Journey Optimizer&quot;über die Benutzeroberfläche an (oder &quot;CJM&quot;als Produktcode in der API).
+
+Für **Löschanfragen** Zusätzlich zur &quot;Adobe Journey Optimizer&quot;-Anfrage müssen Sie auch Löschanfragen an drei vorgelagerte Dienste senden, um zu verhindern, dass Journey Optimizer die gelöschten Daten erneut sendet. Wenn diese Upstream-Dienste nicht angegeben werden, bleibt die &quot;Adobe Journey Optimizer&quot;-Anfrage im Verarbeitungsstatus, bis Löschanfragen für die Upstream-Dienste erstellt werden.
+
+Die drei vorgelagerten Dienste sind:
+
+* Profil (Produktcode: &quot;profileService&quot;)
+* AEP Data Lake (Produktcode: &quot;AdobeCloudPlatform&quot;)
+* Identität (Produktcode: &quot;identity&quot;)
+
+## Erstellen von Zugriffs- und Löschanfragen
+
+### Voraussetzungen
+
+Für Anfragen zum Zugriff auf und zum Löschen von Daten für Adobe Journey Optimizer benötigen Sie Folgendes:
+
+* Kennung der IMS-Organisation
+* Identitätskennung der Person, auf die Sie reagieren möchten, und der entsprechenden Namespace(s). Weitere Informationen zu Identitäts-Namespaces in Adobe Journey Optimizer und Experience Platform finden Sie im Abschnitt [Übersicht über Identitäts-Namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+
+### Erforderliche Feldwerte in Adobe Journey Optimizer für API-Anforderungen
+
+```json
+"companyContexts":
+    "namespace": imsOrgID
+    "value": <Your IMS Org ID Value>
+
+"users":
+    "action": either access or delete
+
+    "userIDs":
+        "namespace": e.g. email, aaid, ecid, etc.
+        "type": standard
+        "value": <Data Subject's Identity Identifier>
+
+"include":
+    CJM (which is the Adobe product code for Adobe Journey Optimizer)
+    profileService (product code for Profile)
+    AdobeCloudPlatform (product code for AEP Data Lake)
+    identity (product code for Identity)
+
+"regulation":
+    gdpr, ccpa, pdpa, lgpd_bra, or nzpa_nzl (which is the privacy regulation that applies to the request)
+```
+
+
+### Beispiel für DSGVO-Zugriffsanfrage:
+
+In der Benutzeroberfläche:
+
+![](assets/accessrequest.png)
+
+Über die API:
+
+```json
+// JSON Request
+{
+   "companyContexts":[
+      {
+         "namespace":"imsOrgID",
+         "value":"745F37C35E4B776E0A49421B@AdobeOrg"
+      }
+   ],
+   "users":[
+      {
+         "action":[
+            "access"
+         ],
+         "userIDs":[
+            {
+               "namespace":"ecid",
+               "value":"38400000-8cf0-11bd-b23e-10b96e40000d",
+               "type":"standard"
+            },
+            {
+               "namespace":"email",
+               "value":"johndoe4@gmail.com",
+               "type":"standard"
+            }
+         ]
+      }
+   ],
+   "include":[
+      "CJM"
+   ],
+   "regulation":"gdpr"
+}
+```
+
+```json
+// JSON Response
+{
+    "requestId": "17163122360480365RX-705",
+    "totalRecords": 1,
+    "jobs": [
+        {
+            "jobId": "e709b1f4-1796-11ef-b422-eddd0aebc40d",
+            "customer": {
+                "user": {
+                    "key": "John Doe",
+                    "action": [
+                        "access"
+                    ],
+                    "userIDs": [
+                        {
+                            "namespace": "ecid",
+                            "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+                            "type": "standard",
+                            "namespaceId": 4,
+                            "isDeletedClientSide": false
+                        },
+                        {
+                            "namespace": "email",
+                            "value": "johndoe4@gmail.com",
+                            "type": "standard",
+                            "namespaceId": 6,
+                            "isDeletedClientSide": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+```
+
+### Beispiel für DSGVO-Löschanfrage:
+
+In der Benutzeroberfläche:
+
+![](assets/deleterequest.png)
+
+Über die API:
+
+```json
+// JSON Request
+{
+  "companyContexts": [
+    {
+      "namespace": "imsOrgID",
+      "value": "745F37C35E4B776E0A49421B@AdobeOrg"
+    }
+  ],
+  "users": [
+    {
+      "action": [
+          "delete"
+      ],
+      "userIDs": [
+        {
+          "namespace": "ecid",
+          "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+          "type": "standard"
+        },
+                {
+          "namespace": "email",
+          "value": "johndoe4@gmail.com",
+          "type": "standard"
+        }
+      ]
+    }
+  ],
+  "include": [
+    "CJM", "profileService", "AdobeCloudPlatform", "identity"
+  ],
+  "regulation": "gdpr"
+}
+```
+
+```json
+// JSON Response
+{
+    "requestId": "17163122360480365RX-705",
+    "totalRecords": 1,
+    "jobs": [
+        {
+            "jobId": "e709b1f4-1796-11ef-b422-eddd0aebc40d",
+            "customer": {
+                "user": {
+                    "key": "John Doe",
+                    "action": [
+                        "delete"
+                    ],
+                    "userIDs": [
+                        {
+                            "namespace": "ecid",
+                            "value": "38400000-8cf0-11bd-b23e-10b96e40000d",
+                            "type": "standard",
+                            "namespaceId": 4,
+                            "isDeletedClientSide": false
+                        },
+                        {
+                            "namespace": "email",
+                            "value": "johndoe4@gmail.com",
+                            "type": "standard",
+                            "namespaceId": 6,
+                            "isDeletedClientSide": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+```

@@ -8,70 +8,97 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 84%
+source-wordcount: '968'
+ht-degree: 48%
 
 ---
 
 # Verwalten von Fragmenten {#manage-fragments}
 
->[!CONTEXTUALHELP]
->id="ajo_fragment_statuses"
->title="Status neuer Fragmente"
->abstract="Seit **Entwurf** und **Live** -Status mit der Journey Optimizer-Version vom Juni eingeführt wurden, haben alle vor dieser Version erstellten Fragmente den Status &quot;Entwurf&quot;, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie &quot;live&quot;zu schalten und die Änderungen an den zugehörigen Kampagnen und Journey zu übertragen. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist eine Benutzerberechtigung erforderlich."
-
 Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
-
-![](assets/fragment-list.png)
 
 Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](#create-fragments) die Option [Als Fragment speichern](#save-as-fragment) erstellten Fragmente angezeigt. 
 
+![](assets/fragment-list-filters.png)
+
 Fragmente können nach folgenden Kriterien gefiltert werden:
 
-* Typ: **[!UICONTROL Visuell]** oder **[!UICONTROL Ausdruck]**
-* Tags
+* Status (Entwurf oder Live)
+* Typ (visuell oder Ausdruck)
 * Erstellungs- oder Änderungsdatum
+* Status (archiviert oder nicht)
+* Tags
 
-Sie können wählen, ob alle Fragmente angezeigt werden sollen oder nur die Elemente, die von der Person, die aktuell daran arbeitet, erstellt oder geändert wurden.
-
-Sie können auch die **[!UICONTROL archivierten]** Fragmente anzeigen. [Weitere Informationen](#archive-fragments)
-
-![](assets/fragment-list-filters.png)
+Sie können auch festlegen, dass alle Fragmente oder nur die Elemente angezeigt werden, die der aktuelle Benutzer erstellt oder geändert hat.
 
 Über die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben jedem Fragment können Sie Folgendes ausführen:
 
 * Duplizieren Sie ein Fragment.
-
 * Verwenden Sie die Option **[!UICONTROL Verweise erkunden]**, um die Journeys, Kampagnen oder Vorlagen anzuzeigen, in denen es verwendet wird. [Weitere Informationen](#explore-references)
-
 * Archivieren Sie ein Fragment. [Weitere Informationen](#archive-fragments)
-
-* Die [Tags](../start/search-filter-categorize.md#tags) eines Fragments bearbeiten.
+* Bearbeiten der Tags eines Fragments [Erfahren Sie, wie Sie mit einheitlichen Tags arbeiten.](../start/search-filter-categorize.md#tags).
 
 ![](assets/fragment-list-more-actions.png)
+
+## Status von Fragmenten
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="Status neuer Fragmente"
+>abstract="Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status „Entwurf“, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie diese veröffentlichen, um sie „live“ zu schalten und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist eine Benutzerberechtigung erforderlich."
+
+>[!AVAILABILITY]
+>
+> Beachten Sie, dass die Fragmentstatus über mehrere Tage nach der Journey Optimizer-Version vom Juni schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie, dass Fragmente nicht **Live** zur Verwendung in Ihren Journey und Kampagnen.
+
+Fragmente können mehrere Status haben:
+
+* **[!UICONTROL Entwurf]**: Das Fragment wird bearbeitet und wurde nicht genehmigt.
+
+* **[!UICONTROL Live]**: Das Fragment wurde genehmigt und ist live. [Erfahren Sie, wie Sie ein Fragment veröffentlichen](../content-management/create-fragments.md#publish)
+
+  Wenn ein Live-Fragment bearbeitet wird, wird ein spezifisches Symbol neben seinem Status angezeigt. Klicken Sie auf dieses Symbol, um die Entwurfsversion des Fragments zu öffnen.
+
+* **[!UICONTROL Publishing]**: Das Fragment wurde genehmigt und wird veröffentlicht.
+* **[!UICONTROL Archiviert]**: Das Fragment wurde archiviert. [Informationen zum Archivieren von Fragmenten](#archive-fragments)
+
+>[!CAUTION]
+>
+>Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status „Entwurf“, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie diese veröffentlichen, um sie „live“ zu schalten und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist eine Benutzerberechtigung erforderlich.
 
 ## Bearbeiten von Fragmenten {#edit-fragments}
 
 Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
-1. Klicken Sie auf das gewünschte Element in der Liste **[!UICONTROL Fragmente]**.
-1. Über die Fragmenteigenschaften können Sie [Verweise erkunden](#explore-references), den [Zugriff verwalten](../administration/object-based-access.md) und die Fragmentdetails einschließlich [Tags](../start/search-filter-categorize.md#tags) aktualisieren.
+1. Klicken Sie im **[!UICONTROL Fragmente]** Liste.
 
-   ![](../email/assets/fragment-edit-content.png)
+1. Die Fragmenteigenschaften werden mit einer Vorschau des zugehörigen Inhalts geöffnet.
 
-1. Wählen Sie die entsprechende Schaltfläche aus, um den Inhalt zu bearbeiten, wie Sie es bei der kompletten Neuerstellung eines Fragments tun würden. [Weitere Informationen](#create-from-scratch)
+1. Wenn das zu bearbeitende Fragment die Variable **Live** Status, klicken Sie auf die **Ändern** -Schaltfläche, um eine Entwurfsversion des Fragments zu erstellen. Die aktuelle Version des Fragments ist weiterhin aktiv, bis Sie den Entwurf veröffentlichen.
 
->[!NOTE]
+1. Nehmen Sie die gewünschten Änderungen am Fragment vor. Um den Inhalt zu bearbeiten, klicken Sie auf das **Bearbeiten** und bearbeiten Sie dann den Inhalt wie beim Erstellen eines neuen Fragments. [Informationen zum Erstellen eines Fragments](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Beim Bearbeiten eines Ausdrucksfragments können Sie jedes Personalisierungsfeld entfernen, dem Fragmentinhalt jedoch keine neuen hinzufügen. Wenn Sie Personalisierungsfelder hinzufügen möchten, duplizieren Sie das Fragment, um ein neues zu erstellen.
+
+   Sie können auch die Liste der Journey, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird, indem Sie die Option **Explorer-Verweise** -Option. [Weitere Informationen](#explore-references)
+
+   ![](assets/fragment-edit.png)
+
+1. Sobald Ihre Änderungen fertig sind, klicken Sie auf die **Veröffentlichen** -Schaltfläche, um Ihre Änderungen live zu stellen.
+
+Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journey und Kampagnen, mit Ausnahme von Inhalten, in denen die Vererbung vom ursprünglichen Fragment unterbrochen wurde. Erfahren Sie, wie Sie die Vererbung in der [Hinzufügen visueller Fragmente zu E-Mails](../email/use-visual-fragments.md#break-inheritance) und [Ausdrucksfragmente nutzen](../personalization/use-expression-fragments.md#break-inheritance) Abschnitte.
+
+>[!AVAILABILITY]
 >
->Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle E-Mails und Vorlagen übertragen, die dieses Fragment enthalten, mit Ausnahme der für **[!UICONTROL Live]**-Journeys und -Kampagnen verwendeten E-Mails. Sie können auch die Vererbung vom ursprünglichen Fragment unterbrechen. Weitere Informationen finden Sie unter [Hinzufügen visueller Fragmente zu Ihren E-Mails](../email/use-visual-fragments.md#break-inheritance) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md#break-inheritance).
+>Beachten Sie, dass die Verbreitung von Fragmentänderungen in Live-Journey und -Kampagnen über einen Zeitraum von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise erfolgt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, werden Ihre Änderungen nicht an in Live-Journey oder Kampagnen verwendeten Inhalten weitergegeben.
 
 ## Verweise erkunden {#explore-references}
 
-Sie können die Liste der Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden.
-
-Wählen Sie dazu entweder über das Menü **[!UICONTROL Mehr Aktionen]** in der Fragmentliste oder über den Bildschirm mit den Fragmenteigenschaften die Option **[!UICONTROL Verweise erkunden]** aus.
+Sie können die Liste der Journey, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden. Wählen Sie dazu entweder über das Menü **[!UICONTROL Mehr Aktionen]** in der Fragmentliste oder über den Bildschirm mit den Fragmenteigenschaften die Option **[!UICONTROL Verweise erkunden]** aus.
 
 ![](assets/fragment-explore-references.png)
 

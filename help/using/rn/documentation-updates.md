@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: ht
-source-wordcount: '5355'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '5389'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Juni 2024 {#june-2024}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Juni wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Ein Hinweis zur Verwendung von Zusammenführungsrichtlinien in Journey wurde hinzugefügt in [diese Seite](../building-journeys/journey-gs.md#merge-policies).
 * Die Seite über die Konfiguration einer Aktivität vom Typ **Warten** in einer Journey wurde umstrukturiert und verbessert. [Weitere Informationen](../building-journeys/wait-activity.md)
 
 ## Mai 2024 {#may-2024}

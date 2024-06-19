@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 
-Nach 30 Tagen wird der Status der Zielgruppen-lesen-Journey in **Beendet** geändert. Dieses Verhalten wird nur für 30 Tage festgelegt (d. h. für den Standardwert des Journey-Timeouts), da alle Informationen zu Profilen, die an der Journey teilgenommen haben, 30 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach der 30-tägigen maximalen Wartezeit.
+Nach den 91 Tagen [Standard-Timeout](journey-gs.md#global_timeout), wechselt eine Audience lesen -Journey zu **Abgeschlossen** -Status. Dieses Verhalten ist nur für 91 Tage eingestellt (d. h. [Standardwert für Journey-Timeout](journey-gs.md#global_timeout)), da alle Informationen über Profile, die an der Journey teilgenommen haben, 91 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach Ablauf der 91 Tage.
 
 Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 

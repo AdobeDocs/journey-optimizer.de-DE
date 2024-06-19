@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 88%
 
 ---
 
@@ -46,9 +46,7 @@ So nutzen Sie Fragmente am besten:
 
 ## Bevor Sie beginnen {#fragment-prerequisites}
 
->[!NOTE]
->
->Zum Erstellen, Bearbeiten und Archivieren von Fragmenten benötigen Sie die Berechtigung **[!DNL Manage library items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+Zum Erstellen, Bearbeiten und Archivieren von Fragmenten benötigen Sie die Berechtigung **[!DNL Manage library items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
 In dieser Version gelten folgende Einschränkungen:
 
@@ -62,17 +60,16 @@ Es stehen zwei Arten von Fragmenten zur Verfügung:
 * **Visuelle Fragmente** sind vordefinierte visuelle Bausteine, die Sie über mehrere E-Mail-Sendungen hinweg mithilfe des [E-Mail-Designers](../email/get-started-email-design.md) oder in [Inhaltsvorlagen](../email/use-email-templates.md) wiederverwenden können.
 * **Ausdrucksfragmente** sind vordefinierte Ausdrücke, die über einen dedizierten Eintrag im [Personalisierungseditor](../personalization/personalization-build-expressions.md) verfügbar sind.
 
-
-Alle Fragmente sind links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** zugänglich.
+Alle erstellten Fragmente können über die **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]**  Menü links. [Erfahren Sie, wie Sie Fragmente verwalten](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## Anleitungsvideo {#video-fragments}
 
-Erfahren Sie, wie Sie in [!DNL Journey Optimizer] visuelle Fragmente verwalten, erstellen und verwenden können.
+Erfahren Sie, wie Sie verwalten, verfassen und verwenden **visuelle Fragmente** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Erfahren Sie, wie Sie in [!DNL Journey Optimizer] Ausdrucksfragmente verwalten, erstellen und verwenden können.
+Erfahren Sie, wie Sie verwalten, verfassen und verwenden **Ausdrucksfragmente** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '1272'
+ht-degree: 81%
 
 ---
 
@@ -58,11 +58,19 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >title="Auswählen der AWS-Region"
 >abstract="Wählen Sie die geografische Region des AWS-Servers aus, auf den Sie Ihre Briefpostdateien exportieren möchten. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt."
 
+>[!NOTE]
+>
+>Derzeit werden Amazon S3, SFTP und Azure in [!DNL Journey Optimizer] unterstützt.
+
 Zum Versand einer Briefpostnachricht generiert [!DNL Journey Optimizer] die Datei mit den Daten der anvisierten Zielgruppe und exportiert sie auf einen Server.
 
 Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefen verwenden kann.
 
 Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Datei-Routing-Konfiguration]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
@@ -70,33 +78,89 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Wählen Sie den **[!UICONTROL Server-Typ]** aus, den Sie zum Exportieren der Briefpostdateien verwenden möchten.
+1. Auswählen **Amazon S3** als **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >Derzeit werden Amazon S3, SFTP und Azure in [!DNL Journey Optimizer] unterstützt.
+1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus.
 
-1. Geben Sie die Details und Anmeldedaten für Ihren Server ein, z. B. Server-Adresse, Zugriffsschlüssel usw.
+   * **AWS-Behältername**:Informationen darüber, wo Sie Ihren AWS-Behälternamen finden, erfahren Sie unter [diese Seite](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **AWS-Zugriffsschlüssel**: Informationen darüber, wo Sie Ihre AWS-Zugriffsschlüssel-ID finden, erfahren Sie unter [diese Seite](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. Wenn Sie **[!UICONTROL Amazon S3]** ausgewählt haben, müssen Sie die **[!UICONTROL AWS-Region]** auswählen, in der sich die Server-Infrastruktur befinden wird.
+   * **AWS-Geheimschlüssel**: Informationen darüber, wo Sie Ihren geheimen AWS-Schlüssel finden, erfahren Sie unter [diese Seite](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** wo sich die Serverinfrastruktur befindet. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
 1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Briefpost-Oberfläche](#direct-mail-surface) verwendet werden.
 
-   >[!NOTE]
-   >
-   >Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann auf einer Oberfläche auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann auf einer Oberfläche auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
+
+>[!TAB SFTP]
+
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Datei-Routing-Konfiguration]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Legen Sie einen Namen für Ihre Konfiguration fest.
+
+1. SFTP auswählen als **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus:
+
+   * **Konto**: Kontoname, der für die Verbindung zum SFTP-Server verwendet wird.
+
+   * **Server-Adresse**: &#x200B; URL des SFTP-Servers.
+
+   * **Port**: Nummer des FTP-Verbindungsports.
+
+   * **Passwort**: &#x200B; Passwort, das für die Verbindung mit dem SFTP-Server verwendet wird.
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
+
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Briefpost-Oberfläche](#direct-mail-surface) verwendet werden.
+
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann auf einer Oberfläche auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
+
+>[!TAB Azure]
+
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Datei-Routing-Konfiguration]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Legen Sie einen Namen für Ihre Konfiguration fest.
+
+1. Azure auswählen **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus:
+
+   * **Azure Connection String**: Suchen Sie Ihre **Azure Connection String**, siehe [diese Seite](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     Die **Azure Connection String** sollte dem folgenden Format entsprechen:
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **Container-Name**: Suchen Sie Ihre **Container-Name**, siehe [diese Seite](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     Die **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den Dateinamen der Briefpost-Kampagne, um den gewünschten Pfad einzuschließen.
+
+1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
+
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Briefpost-Oberfläche](#direct-mail-surface) verwendet werden.
+
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann auf einer Oberfläche auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
+
+>[!ENDTABS]
 
 ## Erstellen einer Briefpost-Oberfläche {#direct-mail-surface}
 

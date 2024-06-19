@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: ht
-source-wordcount: '1817'
-ht-degree: 100%
+source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+workflow-type: tm+mt
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -380,6 +380,14 @@ ht-degree: 100%
    + [Warnhinweise](using/reports/alerts.md)
    + [Arbeiten mit Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Ausschlussgründe](using/reports/exclusion-list.md)
++ Neue Reporting-Oberfläche (Beta){#channel-report}
+   + [Erste Schritte mit der neuen Reporting-Oberfläche](using/reports/report-gs-cja.md)
+   + [Berichte verwalten](using/reports/report-cja-manage.md)
+   + [Journey-Bericht](using/reports/journey-global-report-cja.md)
+   + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
+   + [Übersichtsbericht](using/reports/channel-report-cja.md)
+   + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
+   + [Abonnementlistenbericht](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
