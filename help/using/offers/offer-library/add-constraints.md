@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -141,12 +141,12 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Verwenden der Begrenzung"
->abstract="Um zu vermeiden, dass Ihre Kunden übermäßig angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann. Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot erstellen."
+>abstract="Um zu vermeiden, dass Ihre Kundinnen und Kunden zu oft umworben werden, legen Sie mit einer Begrenzung fest, wie oft ein Angebot maximal unterbreitet werden kann. Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot erstellen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=de#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
 
-Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot hinzufügen. Um eine Begrenzungsregel festzulegen, klicken Sie auf die **[!UICONTROL Begrenzung erstellen]** und gehen Sie dann wie folgt vor:
+Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot hinzufügen. Um eine Begrenzungsregel festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und gehen Sie dann wie folgt vor:
 
 >[!CAUTION]
 >
@@ -179,7 +179,7 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 >title="Impression"
 >abstract="Die Verwendung von Impressions als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
 
-Die **[!UICONTROL Begrenzungsereignis auswählen]** -Feld können Sie definieren, welches Ereignis zur Erhöhung des Zählers berücksichtigt werden soll:
+Mit dem Feld **[!UICONTROL Begrenzungsereignis auswählen]** können Sie festlegen, welches Ereignis bei der Erhöhung des Zählers berücksichtigt werden soll:
 
 ![](../assets/offer-capping-event.png)
 
@@ -217,7 +217,7 @@ Die **[!UICONTROL Begrenzungsereignis auswählen]** -Feld können Sie definieren
 
 ### Begrenzungstyp {#capping-type}
 
-Sie können angeben, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
+Sie können festlegen, ob die Begrenzung auf alle Benutzerinnen und Benutzer oder auf ein bestimmtes Profil angewendet werden soll:
 
 ![](../assets/offer-capping-total.png)
 
@@ -248,7 +248,7 @@ Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsere
 >title="Festlegen der Begrenzungsfrequenz"
 >abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzbegrenzung die festgelegte Frequenz nicht mehr ändern können."
 
-Die **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** -Feld können Sie definieren, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die gewünschte Anzahl der Tage/Wochen/Monate ein. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
+Im Feld **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt werden soll. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die gewünschte Anzahl der Tage/Wochen/Monate ein. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
 
 ![](../assets/offer-capping-frequency.png)
 
