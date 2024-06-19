@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '971'
-ht-degree: 100%
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 96%
 
 ---
 
@@ -59,6 +59,10 @@ Um eine API-ausgelöste Kampagne zu erstellen, gehen Sie wie folgt vor. Detailli
 1. Geben Sie im Abschnitt **[!UICONTROL Zielgruppe]** den Namespace an, der zur Identifizierung der Kontakte verwendet werden soll.
 
    * Wenn Sie eine Kampagne des Typs **Transaktion** erstellen, müssen die Zielgruppenprofile im API-Aufruf definiert werden. Die Option **[!UICONTROL Erstellen neuer Profile]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
+
+     >[!NOTE]
+     >
+     >Ein einzelner API-Aufruf unterstützt bis zu 20 eindeutige Empfänger. Jeder Empfänger muss über eine eindeutige Benutzer-ID verfügen, doppelte Benutzer-IDs sind nicht zulässig. Weitere Informationen finden Sie unter [Dokumentation zur API für die Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * Klicken Sie bei Kampagnen des Typs **Marketing** auf die Schaltfläche **[!UICONTROL Zielgruppe]**, um die Zielgruppe auszuwählen, die angesprochen werden soll.
 
