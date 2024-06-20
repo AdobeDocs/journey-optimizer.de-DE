@@ -7,10 +7,11 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: fdfdafbecf938c300a866bdf95a8ac6492fbdcb8
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 36%
+ht-degree: 92%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 36%
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise für Juni 2024 {#e-2024}
+## Frühzeitige Versionshinweise Juli 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 18.-19. Juni 2024
+**Veröffentlichungsdatum**: 18.–19. Juni 2024
 
 ### Neue Funktionen {#e-features}
 
@@ -31,13 +32,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>IP-Warmup-Workflow</strong><br/></th>
+<th><strong>IP-Aufwärm-Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Wenn Sie E-Mails an eine brandneue IP-Adresse senden, können Sie jetzt einfach IP-Warmup-Workflows direkt über die Benutzeroberfläche durchführen. Adobe Journey Optimizer bietet eine standardisierte und effiziente Möglichkeit, Ihre IP-Adressen aufzuwärmen, die den Best Practices für eine optimale Zustellbarkeit entsprechen.</p>
+<p>Beim Versenden von E-Mails an eine brandneue IP-Adresse können Sie nun einfach IP-Aufwärm-Workflows direkt über die Benutzeroberfläche ausführen. Adobe Journey Optimizer bietet eine standardisierte und effiziente Methode zum Aufwärmen von IP-Adressen, die den Best Practices für optimale Zustellbarkeit entspricht.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -151,7 +152,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* **Unterstützung mehrerer Regeln in der Entscheidungsverwaltung** - Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot in der Entscheidungsverwaltung hinzufügen. Auf diese Weise können Sie die Kontrolle über die Art und Weise, wie Angebote gesendet werden, erhöhen.  [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* **Unterstützung mehrerer Regeln im Entscheidungs-Management**: Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot im Entscheidungs-Management hinzufügen. Dadurch wird eine bessere Kontrolle über die Art und Weise ermöglicht, wie die Angebote gesendet werden. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -165,17 +166,17 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* Die globale Zeitüberschreitung bei der Journey wurde von 30 auf 91 Tage erhöht.
-* Adobe Journey Optimizer unterstützt jetzt Datenschutz-Lösch-/Zugriffsanfragen sowie Data Life Cycle Management-Anfragen.
+* Der globale Timout für Journeys wurde von 30 auf 91 Tage erhöht.
+* Adobe Journey Optimizer unterstützt jetzt Datenschutzanfragen zum Löschen/Zugriff auf Daten sowie Anfragen zur Verwaltung des Datenlebenszyklus.
 * Sie können nun die Spaltengröße im Journey-Inventar ändern.
-* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist jetzt allgemein verfügbar - Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../event/about-creating.md)-->
-* **Zusammenführungsrichtlinien** sind jetzt allgemein verfügbar - Zusammenführungsrichtlinien, die von einem Journey verwendet werden, sind jetzt auf dem gesamten Journey sichtbar und konsistent. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist nun allgemein verfügbar: Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../event/about-creating.md)-->
+* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
 **Kampagnen**
 
-* Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie jetzt den Kampagnentyp (geplant oder ausgelöst) in einem neuen Modal auswählen.
+* Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie nun in einem neuen Modal den Kampagnentyp (geplant oder ausgelöst) auswählen.
 
 <!--**Email channel**
 
@@ -184,7 +185,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* Sie können jetzt eindeutige Kurzwahlnummern für jede Sandbox mit einer einzelnen API-Konfiguration hinzufügen, wodurch der Prozess effizienter und rationeller wird.
+* Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und schlanker macht.
   <!--* You can now modify existing SMS configurations.-->
 
 **In-App-Kanal**
@@ -192,6 +193,4 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Ausdrucksfragment** - Ausdrucksfragmente sind jetzt für die **In-App-Kanal**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* Sie können jetzt das Edge-Bereitstellungs-Plug-in verwenden, um Informationen zu erhalten, die zum Verständnis und zur Fehlerbehebung bei Ihren eingehenden Implementierungen erforderlich sind.
-
-
+* Sie können jetzt das Edge-Delivery-Plug-in verwenden, um Informationen zu erhalten, die Sie zum Verständnis und zur Fehlerbehebung Ihrer eingehenden Implementierungen benötigen.
