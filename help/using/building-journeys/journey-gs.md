@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 74%
+source-wordcount: '2642'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 74%
 >id="ajo_homepage_card2"
 >title="Erstellen von Journeys"
 >abstract="Erstellen Sie mit **Adobe Journey Optimizer** anhand von in Ereignissen oder Datenquellen gespeicherten kontexbezogenen Daten Echtzeit-Orchestrierungsfälle."
-
 
 
 ## Voraussetzungen{#start-prerequisites}
@@ -326,6 +325,7 @@ Eine Journey verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten
 
 * In den Journeys „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
 * In ereignisgesteuerten Journeys wird die standardmäßige Zusammenführungsrichtlinie verwendet
+* In Business Event Journey: Die Zusammenführungsrichtlinie aus der Zielgruppe wird in der folgenden Lesen der Audience -Aktivität verwendet
 
 Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in &quot;inAudience&quot;-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler erzeugt und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis erzeugt. Daher wird dringend empfohlen, die mit Ihrer Audience verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Audience bei der Nachrichtenpersonalisierung verwendet wird.
 
