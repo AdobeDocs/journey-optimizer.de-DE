@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 100%
+source-wordcount: '2558'
+ht-degree: 90%
 
 ---
 
@@ -41,7 +41,7 @@ Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Ausschließen von Kampagnenzielgruppen"
->abstract="Kampagnen auswählen, um ihre Zielgruppen aus der aktuellen Phase auszuschließen. Dadurch soll verhindert werden, dass zuvor kontaktierte Profile aus anderen Phasen oder anderen IP-Aufwärmplänen erneut angesprochen werden."
+>abstract="Kampagnen auswählen, um ihre Zielgruppen aus der aktuellen Phase auszuschließen. Dadurch wird verhindert, dass zuvor kontaktierte Profile erneut angesprochen werden. Nur diejenigen, die über die Journey kommuniziert haben, werden ausgeschlossen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. Wählen Sie für jede Phase die Kampagne aus, die Sie mit dieser Phase des IP-Aufwärmplans verbinden möchten.
+1. Wählen Sie die Kampagne aus, die Sie mit der ersten Phase des IP-Warmup-Plans verbinden möchten.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Nur Kampagnen, für die die Option **[!UICONTROL Aktivierung des IP-Aufwärmplans]** aktiviert ist, stehen zur Auswahl zur Verfügung. [Weitere Informationen](#create-ip-warmup-campaign)
    >
-   >* Sie müssen eine Kampagne auswählen, die dieselbe Oberfläche wie die für den aktuellen IP-Aufwärmplan ausgewählte Oberfläche verwendet.
+   >* Zur Auswahl stehen nur Kampagnen, die dieselbe Oberfläche wie der ausgewählte IP-Warmup-Plan verwenden.
 
 1. Sobald eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnenzielgruppen und Domain-Gruppen angezeigt.
 
@@ -84,7 +84,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Der Ausschluss von Domains erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise [eine laufende Phase aufteilen](#split-phase), um Ausschlüsse hinzuzufügen.
+      >Der Domänenausschluss erfordert eine nicht ausgeführte Phase. Möglicherweise müssen Sie [Aufteilen einer Laufphase](#split-phase) um Ausschlüsse hinzuzufügen.
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Dieser Abschnitt kann nicht bearbeitet werden.
 
-1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können die ausgewählte Kampagne auch über die Schaltfläche **[!UICONTROL Löschen]** löschen. Sie können dann entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
+1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können auch **[!UICONTROL Löschen]** die ausgewählte Kampagne mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Durch diese Aktion werden nicht nur die Kampagne gelöscht, sondern auch andere Eigenschaften auf Phasenebene wie Domain Group Exclusion, Campaign, Journey Exclusion und andere. Nach dem Löschen können Sie entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Dieser Vorgang kann nur vor der ersten Ausführung der Phase ausgeführt werden. Nach der Aktivierung einer Ausführung kann die Kampagne nur ersetzt werden, wenn Sie [die Ausführung in eine neue Phase aufteilen](#split-phase).
 
-1. Sie können bei Bedarf eine Phase hinzufügen. Sie wird nach der letzten aktuellen Phase hinzugefügt.
+1. Sie können bei Bedarf eine Phase hinzufügen. Sie wird nach der letzten Phase hinzugefügt.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -236,9 +236,9 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
 
 * Wenn Sie die erste Ausführung einer Phase aktivieren:
 
-   * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
-   * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
    * Es wird eine weitere Zielgruppe für die ausgeschlossenen Journey-Zielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
@@ -246,11 +246,11 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
   >
   >Die Zielgruppen werden bereinigt, nachdem der Aufwärmplan als abgeschlossen markiert wurde.
   >
-  >Das System erstellt keine neue Zielgruppe, wenn sich die ausgeschlossenen Kampagnenzielgruppen oder Domain-Gruppen in den nachfolgenden Phasen nicht ändern.
+  >Das System erstellt keine neue Zielgruppe, falls sich die ausgeschlossenen Kampagnenzielgruppen, ausgeschlossenen Journey-Zielgruppen oder Domain-Gruppen für nachfolgende Phasen nicht ändern.
 
 * Beim Aktivieren einer Ausführung:
 
-   * Für den letzten Interaktionsfilter wird eine weitere Zielgruppe mit folgender Namenskonvention erstellt: `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * Für den letzten Interaktionsfilter wird eine weitere Zielgruppe mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ Eine Ausführung kann folgende Status haben:
 
 * **[!UICONTROL Entwurf]** : Sobald eine Ausführung erstellt wurde, entweder durch [Einen neuen Plan erstellen](ip-warmup-plan.md) oder durch [Einen Vorgang hinzufügen](#define-runs) von der Benutzeroberfläche aus, erhält sie den Status **[!UICONTROL Entwurf]**.
 * **[!UICONTROL Live]**: Sobald eine Ausführung aktiviert wurde, erhält sie den Status **[!UICONTROL Live]**. Das bedeutet, dass das System die Anfrage zur Planung der Ausführung akzeptiert hat, aber nicht, dass der Versand gestartet wurde. In dieser Phase können Sie den Status der Live- Ausführung beobachten, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Status anzeigen]** klicken. Auf diese Weise können Sie verfolgen, wie viele Zielgruppenprofile sich tatsächlich qualifiziert haben.
-* **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Durchlauf ist abgeschlossen. Sie können einen detaillierten Ausführungsbericht aufrufen, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. Mit dieser Option können Sie den E-Mail-Versandstatus des Vorgangs verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. [Weitere Informationen](#reports)
-* **[!UICONTROL Abgebrochen]**: Eine **[!UICONTROL Live]**-Ausführung wurde über die Schaltfläche **[!UICONTROL Anhalten]** abgebrochen, oder Sie haben die Option **[!UICONTROL Aktivierte Ausführungen im Falle von Fehlern abbrechen]** aktiviert und es ist ein Fehler aufgetreten. [Weitere Informationen](#define-runs)
-* **[!UICONTROL Fehlgeschlagen]**: Beim System ist ein Fehler aufgetreten oder die in der aktuellen Phase verwendete Kampagne wurde gestoppt. Wenn eine Ausführung fehlschlägt, können Sie eine weitere Ausführung für den nächsten Tag planen.
+* **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Durchlauf ist abgeschlossen. Sie können einen detaillierten Ausführungsbericht aufrufen, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. Mit dieser Option können Sie den E-Mail-Versandstatus des Vorgangs verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. Beachten Sie, dass die damit verknüpfte Kampagne als angehalten eingestellt eingestellt eingestellt wird.[Weitere Informationen](#reports)
+* **[!UICONTROL Abgebrochen]**: a **[!UICONTROL Live]** wurde mit der **[!UICONTROL Abbrechen]** Schaltfläche.[Weitere Informationen](#define-runs)
+* **[!UICONTROL Fehlgeschlagen]**: Beim System ist ein Fehler aufgetreten, oder die für die aktuelle Phase verwendete Kampagne wurde angehalten, oder Sie haben die **[!UICONTROL Abbrechen von aktivierten Ausführungen bei Fehlern]** und ein Fehler aufgetreten ist. Wenn eine Ausführung fehlschlägt, können Sie eine weitere Ausführung für den nächsten Tag planen.
 
 ### Arbeiten mit Berichten {#reports}
 
@@ -363,7 +363,7 @@ Nehmen wir ein Beispiel:
 
 ### Markieren eines Plans als abgeschlossen {#mark-as-completed}
 
-Wenn das Ergebnis Ihres Plans nicht gut genug ist oder wenn Sie einen anderen Plan erstellen möchten, können Sie ihn als abgeschlossen markieren.
+Wenn Ihre IPs mit dem gewünschten Volumen aufgewärmt wurden, Ihr Plan nicht gut genug läuft oder Sie ihn fallen lassen möchten, um eine weitere zu erstellen, können Sie ihn als abgeschlossen markieren.
 
 Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Mehr]** oben rechts im IP-Aufwärmplan und wählen Sie **[!UICONTROL Als abgeschlossen markieren]** aus.
 

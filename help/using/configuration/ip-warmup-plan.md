@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 * Dieser Plan wird in sechs **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
-* Sie können für die Domains, an die Sie versenden möchten, beliebig viele Spalten haben. In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
+* Sie können über bis zu 6 Spalten verfügen (5 Spalten für Domain-Gruppen und eine für die **sonstige** Spalte). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
 
    * Vier davon entsprechen **vordefinierten Domain-Gruppen** zur Verwendung in Ihrem Plan (Gmail, Microsoft, Yahoo und Orange).
    * Eine entspricht einer benutzerspezifischen Domain-Gruppe (die Sie mithilfe der Registerkarte [Benutzerspezifische Domain-Gruppe](#custom-domain-group-tab) hinzufügen müssen).
@@ -202,7 +202,7 @@ Sie können Ihrem Plan auch weitere Spalten hinzufügen, indem Sie benutzerdefin
 
 Verwenden Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, um eine neue Domain-Gruppe zu definieren. Für jede Domain können Sie alle von ihr abgedeckten Subdomains hinzufügen.<!--TBC-->
 
-Stellen Sie sicher, dass jede Domain für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen Domain-Gruppen überschneidet. Da globale Domain-Gruppen automatisch definiert werden, sollten die Benutzenden dies bei der Erstellung benutzerdefinierter Domain-Gruppen berücksichtigen.
+Stellen Sie bei in diesem Plan verwendeten Domain-Gruppen sicher, dass jede Domäne für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen Domänengruppen überschneidet. Da globale Domain-Gruppen automatisch definiert werden, sollten die Benutzenden dies bei der Erstellung benutzerdefinierter Domain-Gruppen berücksichtigen.
 
 Wenn Sie zum Beispiel die benutzerdefinierte Domain „Luma“ hinzufügen, sollten Subdomains wie luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw. einbezogen werden.
 
@@ -215,7 +215,7 @@ Angenommen, Sie möchten zwei benutzerdefinierte Domain-Gruppen haben:
 * Eine nur für Hotmail-Domains.
 * Und eine für alle anderen Domains aus der Domain-Gruppe Microsoft (also ohne alle Hotmail-Domains).
 
-Beachten Sie, dass alle anderen Domains in der Spalte **[!UICONTROL Sonstige]** erfasst werden.
+Domänen außerhalb von Hotmail und aus der Domain-Gruppe Microsoft werden in der **[!UICONTROL sonstige]** Spalte.
 
 1. Erstellen Sie in der Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, eine **Hotmail**-Domain-Gruppe.
 
@@ -234,10 +234,6 @@ Beachten Sie, dass alle anderen Domains in der Spalte **[!UICONTROL Sonstige]** 
 1. Erstellen Sie drei Spalten: eine für **Hotmail**, eine für **Microsoft_X** und eine für **Sonstige**.
 
 1. Füllen Sie die Spalten entsprechend Ihren Anforderungen aus.
-
->[!NOTE]
->
->Sobald der IP-Aufwärmplan in [!DNL Journey Optimizer] hochgeladen wurde, müssen Sie die Microsoft Domain-Gruppen nicht ausschließen.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
