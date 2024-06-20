@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 57%
+source-wordcount: '737'
+ht-degree: 47%
 
 ---
 
@@ -74,6 +74,22 @@ Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
 1. Bei Bedarf können Sie die Vererbung vom ursprünglichen Fragment unterbrechen. [Weitere Informationen](#break-inheritance)
 
 1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
+
+## Anpassen bearbeitbarer Felder {#customize-fields}
+
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment zum Inhalt hinzugefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassen können.](../content-management/customizable-fragments.md)
+
+Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
+
+1. Fügen Sie das Fragment zum Inhalt hinzu und wählen Sie es aus, um den Eigenschaftenbereich auf der rechten Seite zu öffnen.
+
+1. Alle bearbeitbaren Felder im Fragment werden im **Einstellungen** Registerkarte unter **Fragment** Abschnitt.
+
+   Bearbeitbare Felder werden im Vorschaufenster grün hervorgehoben, wenn sie im rechten Bereich ausgewählt wurden. So können Sie die Position der Felder in Ihrem Inhalt leicht identifizieren.
+
+   Im folgenden Beispiel wird das Bild **source** und **Alternativtext** kann bearbeitet werden, sowie die Schaltfläche &quot;Hier klicken&quot; **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 

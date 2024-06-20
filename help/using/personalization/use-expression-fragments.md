@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 62%
+source-wordcount: '750'
+ht-degree: 51%
 
 ---
 
@@ -69,6 +69,22 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 >[!NOTE]
 >
 >Wenn Sie ein Ausdrucksfragment erstellen, das mehrere Zeilenumbrüche enthält, und dieses in [SMS](../sms/create-sms.md#sms-content)- oder [Push](../push/design-push.md)-Inhalten verwenden, bleiben die Zeilenumbrüche erhalten. Testen Sie daher Ihre [SMS](../sms/send-sms.md)- oder [Push](../push/send-push.md)-Nachricht vor dem Versand.
+
+## Anpassen bearbeitbarer Felder {#customize-fields}
+
+Wenn bestimmte Teile eines Ausdrucksfragments mithilfe von Variablen bearbeitbar gemacht wurden, können Sie deren Standardwerte mithilfe einer bestimmten Syntax überschreiben. [Erfahren Sie, wie Sie Ihre Fragmente anpassen können.](../content-management/customizable-fragments.md)
+
+Gehen Sie wie folgt vor, um die Felder anzupassen:
+
+1. Fügen Sie das Fragment aus dem **Fragmente** Menü.
+
+1. Verwenden Sie die `<fieldId>="<value>"` -Code am Ende der Syntax, um den Standardwert der -Variablen zu überschreiben.
+
+   Im folgenden Beispiel wird der Wert einer Variablen überschrieben, deren ID &quot;sports&quot;mit dem Wert &quot;yoga&quot;lautet. Dadurch wird &quot;Yoga&quot;in Ihrem Fragmentinhalt überall dort angezeigt, wo auf die Variable &quot;sport&quot;verwiesen wird.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Ein Beispiel für das Hinzufügen von bearbeitbaren Feldern zu Ausdrucksfragmenten und deren Außerkraftsetzen beim Erstellen einer E-Mail finden Sie unter [diesem Abschnitt](../content-management/customizable-fragments.md#example).
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
