@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
 ## Hinzufügen von Personalisierung
 
-Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und klicken Sie auf das Personalisierungssymbol in der angezeigten Kontextmenüleiste. Fügen Sie Ihre Änderungen mithilfe des Personalisierungseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+Um Personalisierung hinzuzufügen, wählen Sie einen Container aus und klicken Sie auf das Personalisierungssymbol in der angezeigten Kontextmenüleiste. Fügen Sie Ihre Änderungen mithilfe des Personalisierungseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
