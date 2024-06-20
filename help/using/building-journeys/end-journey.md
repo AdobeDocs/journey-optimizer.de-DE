@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 92%
@@ -22,7 +22,7 @@ Eine Journey kann für eine Person auf zwei Weisen enden:
 * Die Person kommt bei der letzten Aktivität eines Pfades an.
 * Die Person kommt bei einer **Bedingungs**-Aktivität (oder einer **Warte**-Aktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
-Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#change-properties)
+Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance)
 
 Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden und Kundinnen in die Journey wird dann blockiert. Kunden und Kundinnen, die bereits in die Journey eingetreten sind, bleiben bis zu deren Ende darin. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 
-Nach den 91 Tagen [Standard-Timeout](journey-gs.md#global_timeout), wechselt eine Audience lesen -Journey zu **Abgeschlossen** -Status. Dieses Verhalten ist nur für 91 Tage eingestellt (d. h. [Standardwert für Journey-Timeout](journey-gs.md#global_timeout)), da alle Informationen über Profile, die an der Journey teilgenommen haben, 91 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach Ablauf der 91 Tage.
+Nach den 91 Tagen [globale Zeitüberschreitung](journey-properties.md#timeout), wechselt eine Audience lesen -Journey zu **Abgeschlossen** -Status. Dieses Verhalten ist nur für 91 Tage eingestellt (d. h. [Journey globaler Timeout-Wert](journey-properties.md#global_timeout)), da alle Informationen über Profile, die an der Journey teilgenommen haben, 91 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach Ablauf der 91 Tage.
 
-Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-properties.md#global_timeout).
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 

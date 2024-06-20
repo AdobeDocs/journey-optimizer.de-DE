@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ Weitere Informationen finden Sie unter [Inhaltsfragment](../content-management/f
 
 **Journeys**
 
-* Die globale Zeitüberschreitung für Journey wurde auf 91 Tage verlängert. [Weitere Informationen](../building-journeys/journey-gs.md#global_timeout)
+* Die globale Zeitüberschreitung für Journey wurde auf 91 Tage verlängert. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
-  Bei allen neuen Journey wird diese neue Zeitüberschreitung angezeigt. Bitte beachten Sie dies [FAQ-Abschnitt](../building-journeys/journey-gs.md#timeout-faq) , um mehr zu erfahren. Bitte beachten Sie, dass diese Änderungen im Laufe des Monats Juni schrittweise eingeführt werden.
+  Bei allen neuen Journey wird diese neue Zeitüberschreitung angezeigt. Bitte beachten Sie dies [FAQ-Abschnitt](../building-journeys/journey-properties.md#timeout-faq) , um mehr zu erfahren. Bitte beachten Sie, dass diese Änderungen im Laufe des Monats Juni schrittweise eingeführt werden.
 
 
 * Adobe Journey Optimizer unterstützt jetzt Datenschutz-Lösch-/Zugriffsanfragen sowie Data Life Cycle Management-Anfragen. [Weitere Informationen](../privacy/requests.md)
 * Sie können nun die Spaltengröße im Journey-Inventar ändern.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. [Weitere Informationen](../building-journeys/journey-gs.md#merge-policies)
+* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. [Weitere Informationen](../building-journeys/journey-properties.md#merge-policies)
 
 
 

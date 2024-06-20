@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Juni 2024 {#june-2024}
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 24. Juni wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Ein Hinweis zur Verwendung von Zusammenführungsrichtlinien in Journey wurde hinzugefügt in [diese Seite](../building-journeys/journey-gs.md#merge-policies).
+* Ein Hinweis zur Verwendung von Zusammenführungsrichtlinien in Journey wurde hinzugefügt in [diese Seite](../building-journeys/journey-properties.md#merge-policies).
 * Die Seite über die Konfiguration einer Aktivität vom Typ **Warten** in einer Journey wurde umstrukturiert und verbessert. [Weitere Informationen](../building-journeys/wait-activity.md)
 
 ## Mai 2024 {#may-2024}
@@ -82,7 +82,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Januar 2024 werden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein Schutzmechanismus im Hinblick auf die Journey-Größe hinzugefügt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-* Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-gs.md#global_timeout) detailliert beschrieben.
+* Die Verwaltung von Journey-Timeouts wird [im folgenden Abschnitt](../building-journeys/journey-properties.md#global_timeout) detailliert beschrieben.
 * Die [Dokumentations-Startseite](../../ajo-home.md) von Journey Optimizer wurde neu gestaltet.
 * Empfehlungen zur Aktivität „Profile aktualisieren“ wurde hinzugefügt.  [Weitere Informationen](../building-journeys/update-profiles.md)
 * Informationen zum Verhalten von Timeouts bei Ereignisaktivitäten in Journeys wurden hinzugefügt. Wenn während des angegebenen Timeout-Zeitraums kein Ereignis empfangen wird, setzen Einzelpersonen die Journey fort, wenn kein Timeout-Pfad definiert ist. [Weitere Informationen](../building-journeys/general-events.md#events-specific-time)
