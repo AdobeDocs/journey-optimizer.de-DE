@@ -7,32 +7,23 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Start, Inhalt, Experiment
-hide: true
-hidefromtoc: true
+keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
 # Erste Schritte mit mehrsprachigen Inhalten {#multilingual-gs}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-**Inhaltsverzeichnis**
-
-* Erste Schritte mit mehrsprachigen Inhalten
-* [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
-* [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)
-* [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne mühelos Inhalte in mehreren Sprachen erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
+Die mehrsprachige Funktion ermöglicht es Ihnen, mühelos Inhalte in mehreren Sprachen innerhalb einer Kampagne oder Journey zu erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
 
 Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedliche Arten erstellen:
 

@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
-hide: true
-hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 78%
 
 ---
 
 # Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung {#multilingual-manual}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
-* Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung
-* [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)
-* [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-Mithilfe des manuellen Flusses können Sie Ihren Inhalt mühelos direkt in Ihre E-Mail-, Push-Benachrichtigung- oder SMS-Kampagne übersetzen. So erhalten Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten. Darüber hinaus können Sie mit der Option „HTML importieren“ bereits vorhandene mehrsprachige Inhalte ganz einfach importieren.
+Mithilfe des manuellen Workflows können Sie mühelos Ihren Inhalt direkt in Ihre E-Mail-, Push-Benachrichtigungs- oder SMS-Kampagne und -Journey übersetzen, sodass Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten erhalten. Darüber hinaus können Sie mit der Option „HTML importieren“ bereits vorhandene mehrsprachige Inhalte ganz einfach importieren.
 
 Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der manuellen Übersetzung zu erstellen:
 
@@ -40,15 +31,13 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der ma
 
 1. [Erstellen Sie Spracheinstellungen](#create-language-settings).
 
-1. [Erstellen Sie eine mehrsprachige Kampagne](#create-a-multilingual-campaign).
+1. [Mehrsprachige Inhalte erstellen](#create-a-multilingual-campaign).
 
 ## Erstellen eines Gebietsschemas {#create-locale}
 
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
-
-   Über das Menü „Übersetzungen“ können Sie auf die Liste der aktivierten Gebietsschemata zugreifen.
+1. Aus dem **[!UICONTROL Content Management]** Menü, Zugriff **[!UICONTROL Übersetzung]**.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 
@@ -104,15 +93,15 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Erstellen einer mehrsprachigen Kampagne {#create-multilingual-campaign}
+## Mehrsprachige Inhalte erstellen {#create-multilingual-campaign}
 
-Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne gestalten und den Inhalt für jedes Ihrer ausgewählten Gebietsschemata anpassen.
+Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne oder Journey erstellen und den Inhalt für jedes Ihrer Gebietsschemas anpassen.
 
-1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
+1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail, SMS oder Push-Benachrichtigung [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
 
-1. Wählen Sie im Menü **[!UICONTROL Aktionen]** die Option **[!UICONTROL Inhalt bearbeiten]**.
-
-   ![](assets/multilingual-campaign-1.png)
+   >[!AVAILABILITY]
+   >
+   >Es wird empfohlen, pro Journey nur ein Übersetzungsprojekt einzuschließen.
 
 1. Erstellen oder importieren Sie Ihren ursprünglichen Inhalt und personalisieren Sie ihn nach Bedarf.
 
@@ -148,11 +137,7 @@ Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne gest
 
    ![](assets/multilingual-campaign-8.png)
 
-1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
-
-Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht wird sofort bzw. zum angegebenen Datum versendet. Beachten Sie, dass Ihre Kampagne nicht mehr geändert werden kann, sobald sie live ist. Um Inhalte wiederzuverwenden, können Sie Ihre Kampagne duplizieren.
-
-Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten ermitteln.
+Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagne in Berichten messen.
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

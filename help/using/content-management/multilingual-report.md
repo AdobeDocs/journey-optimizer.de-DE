@@ -7,30 +7,16 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Starten, Inhalt, Experiment
-hide: true
-hidefromtoc: true
+keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '215'
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+workflow-type: tm+mt
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
 # Mehrsprachiger Kampagnenbericht {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
-* [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
-* [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)
-* Mehrsprachiger Kampagnenbericht
-
->[!ENDSHADEBOX]
 
 Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 

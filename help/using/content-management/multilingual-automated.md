@@ -8,29 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
-hide: true
-hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 91%
 
 ---
 
 # Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung {#multilingual-automated}
 
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
-* [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
-* Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
-* [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Mithilfe des automatisierten Fluss können Sie einfach Ihre Zielsprache und Ihren Sprachdienstleister auswählen. Ihre Inhalte werden dann direkt an die Übersetzung weitergeleitet, die sie nach der Fertigstellung einer Endkontrolle unterzieht.
 
@@ -42,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der au
 
 1. [Erstellen Sie Spracheinstellungen](#create-language-settings).
 
-1. [Erstellen Sie eine mehrsprachige Kampagne](#create-a-multilingual-campaign).
+1. [Mehrsprachige Inhalte erstellen](#create-a-multilingual-campaign).
 
 1. [Überprüfen Sie Ihre Übersetzungsaufgabe (optional)](#review-translation-project).
 
@@ -50,9 +41,7 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der au
 
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
-
-   Über das Menü „Übersetzungen“ können Sie auf die Liste der aktivierten Gebietsschemata zugreifen.
+1. Aus dem **[!UICONTROL Content Management]** Menü, Zugriff **[!UICONTROL Übersetzung]**.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 
@@ -68,7 +57,7 @@ Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen 
 
 Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben und dabei die spezifische Sprache oder Region für Ihren Inhalt angeben. Sie können dann Ihren Übersetzungsanbieter auswählen.
 
-1. Klicken Sie im Menü **[!UICONTROL Übersetzungsprojekte]** unter **[!UICONTROL Content-Management]** auf **[!UICONTROL Projekt erstellen]**.
+1. Aus dem **[!UICONTROL Übersetzung]** Menü unter **[!UICONTROL Content Management]** klicken **[!UICONTROL Projekt erstellen]** im **[!UICONTROL Projekte]** Registerkarte.
 
    ![](assets/translation_project_1.png)
 
@@ -149,11 +138,11 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Erstellen einer mehrsprachigen Kampagne {#create-multilingual-campaign}
+## Mehrsprachige Inhalte erstellen {#create-multilingual-campaign}
 
-Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne erstellen und Ihren Inhalt für die verschiedenen Gebietsschemata anpassen.
+Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne oder Journey erstellen und Ihre Inhalte für die verschiedenen Gebietsschemata anpassen.
 
-1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
+1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail, SMS oder Push-Benachrichtigung [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
 
 1. Sobald Sie Ihre Hauptinhalte erstellt haben, klicken Sie auf **[!UICONTROL Speichern]** und gehen Sie zurück zum Kampagnenkonfigurationsbildschirm.
 
@@ -211,9 +200,7 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
-Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht wird sofort bzw. zum angegebenen Datum versendet. Beachten Sie, dass Ihre Kampagne nicht mehr geändert werden kann, sobald sie live ist. Um Inhalte wiederzuverwenden, können Sie Ihre Kampagne duplizieren.
-
-Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten ermitteln.
+Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagne in Berichten messen.
 
 ## Verwalten eines internen Übersetzungsprojekts {#manage-ht-project}
 
