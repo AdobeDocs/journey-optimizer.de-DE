@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 39%
+source-wordcount: '1726'
+ht-degree: 38%
 
 ---
 
@@ -50,7 +51,23 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ## Eintritt und Wiedereintritt {#entrance}
 
+### Wiedereintritt erlauben  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="Wiedereintritt erlauben"
+>abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
+
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+
+### Wartezeit beim erneuten Eintritt  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="Wartezeit beim erneuten Eintritt"
+>abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey aufzurufen. Dadurch wird verhindert, dass Benutzer während eines bestimmten Zeitraums erneut auf die Journey zugreifen. Maximale Dauer: 29 Tage."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 29 Tage.
 
@@ -70,6 +87,17 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 ## Start- und Enddatum {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="Startdatum"
+>abstract="Wählen Sie den Datumseintrag in die Journey aus. Wenn kein Startdatum angegeben ist, wird es automatisch zum Zeitpunkt der Veröffentlichung festgelegt."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="Enddatum"
+>abstract="Wählen Sie das Enddatum Ihres Journey aus. Wenn dieses Datum erreicht ist, werden die Profile in dieser Journey automatisch beendet und neue können nicht mehr in die Datenbank aufgenommen werden."
+
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
 Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage, kann mit dem Zusatzangebot „Healthcare Shield“ auf 7 Tage reduziert werden). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
@@ -77,6 +105,12 @@ Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim
 ## Zeitüberschreitung {#timeout}
 
 ### Zeitüberschreitung oder Fehler in Journey-Aktivitäten {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="Zeitüberschreitung"
+>abstract="Definieren Sie die Zeitdauer, die die Journey versuchen wird, eine Aktion auszuführen oder eine Bedingung zu überprüfen, bevor sie sie als Zeitüberschreitung betrachtet."
+
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in **[!UICONTROL Zeitüberschreitung oder Fehler]** -Feld der Journey-Eigenschaften ausgewählt wird, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
@@ -221,4 +255,3 @@ Eine Journey verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten
 Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in &quot;inAudience&quot;-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler erzeugt und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis erzeugt. Daher wird dringend empfohlen, die mit Ihrer Audience verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Audience bei der Nachrichtenpersonalisierung verwendet wird.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-
