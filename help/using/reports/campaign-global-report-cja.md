@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 15%
@@ -134,7 +135,7 @@ Die **[!UICONTROL Experimentieren]** Key Performance Indicators (KPIs) dienen al
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zum Ausgangswert.
 
-* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ Die **[!UICONTROL Experimentieren]** Key Performance Indicators (KPIs) dienen al
 ![](assets/cja-experimentation-variants.png)
 
 Die **[!UICONTROL Variante nach eingehenden Klicks]** Widget erläutert die Leistung der einzelnen Varianten.
-Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../campaigns/get-started-experiment.md#interpret-results).
+Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Erfahren Sie mehr über die Variante der Metriken nach eingehenden Klicks
 
@@ -155,7 +156,7 @@ Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zum Ausgangswert.
 
-* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf
 
 ![](assets/cja-experimentation-conversion.png)
 
-Der Graph **[!UICONTROL Konfidenzintervall]** misst die Unsicherheit im Zusammenhang mit Verbesserungen. Er beschreibt den prozentualen Performance-Unterschied zwischen der Baseline und der Abwandlung mit der besten Performance. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
+Der Graph **[!UICONTROL Konfidenzintervall]** misst die Unsicherheit im Zusammenhang mit Verbesserungen. Er beschreibt den prozentualen Performance-Unterschied zwischen der Baseline und der Abwandlung mit der besten Performance. [Weitere Informationen](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## E-Mail {#email-global}
 
@@ -784,4 +785,3 @@ Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick üb
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
 
 +++
-

@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
 >[!NOTE]
 >
->Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../campaigns/get-started-experiment.md)).
+>Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../content-management/get-started-experiment.md)).
 
 ## Zugreifen auf Testadressenlisten {#access-seed-lists}
 

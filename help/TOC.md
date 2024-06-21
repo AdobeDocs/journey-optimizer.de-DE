@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
    + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
-   + Inhaltsexperiment {#content-experiment}
-      + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
-      + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
-      + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
-      + Technotes {#technotes}
-         + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
-         + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/campaigns/experiment-report-calculations.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
+   + Arbeiten mit einem Inhaltsexperiment {#content-experiment}
+      + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
+      + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
+      + [Konfigurieren von Experimentberichten](using/content-management/reporting-configuration.md)
+      + Technotes {#technotes}
+         + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
+         + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
    + Assets/Bilder {#assets-images}
       + [Arbeiten mit Experience Manager Assets](using/content-management/assets.md)
       + [Arbeiten mit Adobe Stock](using/content-management/stock.md)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 100%
@@ -126,7 +126,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Konfigurationen]** – Verwenden Sie dieses Menü, um [Ereignisse](../event/about-events.md), [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) zu konfigurieren, die Sie in Ihren Journeys verwenden können.
 
-  Sie können auch auf den Abschnitt **Reporting** zur Konfiguration des Reportings für das Experimentieren mit Kampagnen zugreifen. [Weitere Informationen](../campaigns/reporting-configuration.md)
+  Sie können auch auf den Abschnitt **Reporting** zur Konfiguration des Reportings für das Experimentieren mit Kampagnen zugreifen. [Weitere Informationen](../content-management/reporting-configuration.md)
 
 * **[!UICONTROL Verfahrensregeln]**: Verwenden Sie diesen Abschnitt, um kanalübergreifende Verfahrensregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder in eine Journey eintreten. [Weitere Informationen](../configuration/frequency-rules.md)
 

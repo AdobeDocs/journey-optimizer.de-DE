@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Um Inhaltsexperimente für den Code-basierten Kanal zu aktivieren, müssen Sie s
 
 Anders ausgedrückt: Wenn Sie beim Konfigurieren des Reportings für Experimente einen Datensatz hinzufügen, der nicht in Ihrem App-Datenstrom vorhanden ist, werden keine App-Daten in den Inhaltsexperimentberichten angezeigt.
 
-In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
+In [diesem Abschnitt](../content-management/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
 
 >[!NOTE]
 >

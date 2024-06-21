@@ -11,8 +11,8 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -52,11 +52,11 @@ Nachdem Sie Ihre Nachrichten erstellt und angepasst haben, können Sie Ihren Inh
 
    ![](assets/experiment-genai-3.png)
 
-1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zu Inhaltsexperimenten](../campaigns/content-experiment.md)
+1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zu Inhaltsexperimenten](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf der Seite mit der Kampagnenübersicht auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Es werden Warnhinweise angezeigt, wenn Parameter falsch sind oder fehlen.  [Weitere Informationen](../campaigns/content-experiment.md#treatment-experiment)
+1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf der Seite mit der Kampagnenübersicht auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Es werden Warnhinweise angezeigt, wenn Parameter falsch sind oder fehlen.  [Weitere Informationen](../content-management/content-experiment.md#treatment-experiment)
 
 1. Überprüfen Sie vor dem Start Ihrer Kampagne, ob alle Konfigurationen korrekt sind, und klicken Sie auf **[!UICONTROL Aktivieren]**.
 

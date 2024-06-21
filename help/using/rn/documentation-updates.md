@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5371'
 ht-degree: 99%
@@ -114,7 +114,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Oktober 2023 {#oct-2023}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Oktober 2023 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Es wurden GIFs hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für das Entscheidungs-Management](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md) und [Inhaltsexperimente](../campaigns/content-experiment.md).
+* Es wurden GIFs hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für das Entscheidungs-Management](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md) und [Inhaltsexperimente](../content-management/content-experiment.md).
 * Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Änderungen an Adobe Experience Platform eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
 * Auf der Seite „Limits und Einschränkungen“ wurden Leitlinien für das Entscheidungs-Management hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
 * Der Abschnitt zu Kopfzeilenparametern wurde aktualisiert, um die Handhabung von Abwesenheitsbenachrichtigungen und Challenge-Responses widerzuspiegeln (sie werden an der **[!UICONTROL Fehler-E-Mail-Adresse]** empfangen). [Weitere Informationen](../email/email-settings.md#email-header)

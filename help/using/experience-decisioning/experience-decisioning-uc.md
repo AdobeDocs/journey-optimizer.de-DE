@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsri
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis (Beta)]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../campaigns/content-experiment.md)
+1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
 
 1. Wählen Sie das Symbol **[!UICONTROL Entscheidungen]** aus, klicken Sie auf **[!UICONTROL Entscheidung erstellen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md)
 
