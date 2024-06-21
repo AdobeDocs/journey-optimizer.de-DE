@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: ht
-source-wordcount: '2415'
-ht-degree: 100%
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+workflow-type: tm+mt
+source-wordcount: '2532'
+ht-degree: 86%
 
 ---
 
@@ -26,17 +26,17 @@ Zu Beginn der Erstellung einer E-Mail müssen Sie Oberflächen für E-Mail-Kanä
 
 Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest, wie unten beschrieben.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
+* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden bei der nächsten Wiederholung oder der nächsten Ausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
 >[!NOTE]
 >
->Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
+>Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journey(en) oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 
@@ -67,7 +67,7 @@ Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunige
 
 Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
@@ -81,41 +81,48 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 >
 >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
-## Abmelden von der Liste {#list-unsubscribe}
+## Header zum Abmelden von Listen{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
-Diese Option ist standardmäßig aktiviert. Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
+Diese Option ist standardmäßig aktiviert, um eine 1-Klick-URL zum Abmelden in den E-Mail-Header einzuschließen, z. B.:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile kein Abmelde-Link angezeigt.
+Wenn Sie diese Option deaktivieren, wird im E-Mail-Header keine URL zum Abmelden von einem Klick angezeigt.
 
-Sie können die Einverständnisstufe aus der Dropdown-Liste **Einverständnisstufe** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über den Link zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
+Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Wenn sich ein Benutzer anhand dieser Einstellung über die URL zum Abmelden von Listen im Header einer E-Mail abmeldet, wird die Zustimmung in Adobe Journey Optimizer entweder auf Kanalebene oder auf ID-Ebene aktualisiert.
 
-Der Abmelde-Link besteht aus zwei Elementen:
+Der List Unsubscribe Header bietet zwei Funktionen (Mailto und One-Click-URL, wie unten beschrieben), die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
 
-* Einer **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
+* A **Mailto (unsubscribe)** address ist die Zieladresse, an die Abmeldeanfragen zur automatischen Verarbeitung an weitergeleitet werden.
 
-  Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
+  In Journey Optimizer ist die Abmelde-E-Mail-Adresse die Standardeinstellung **Mailto (unsubscribe)** Adresse, die auf der Kanaloberfläche angezeigt wird, basierend auf Ihrer [ausgewählte Subdomain](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
 
-  Wenn Sie einen [Ein-Klick-Opt-out-Link](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
+* Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um den 1-Klick-Opt-out-Header der von unserer URL generierten List Unsubscribe-Kopfzeile handelt, der auf der Subdomain basiert, die Sie in den Kanaloberflächeneinstellungen festgelegt und konfiguriert haben.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
+Die **[!UICONTROL Mailto (unsubscribe)]** und der **[!UICONTROL 1-Klick-URL abmelden]** -Funktion ist optional. Wenn Sie die standardmäßig generierte URL zum Abmelden eines Klicks nicht verwenden möchten, können Sie die Funktion deaktivieren. Im Szenario mit der **[!UICONTROL Opt-out-Konfiguration]** aktiviert ist und die **[!UICONTROL 1-Klick-URL abmelden]** -Funktion deaktiviert ist, wenn Sie eine [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) auf eine Nachricht zu setzen, die auf diese Weise erstellt wurde, nimmt der Header zum Abmelden von Listen den 1-Klick-Abmelde-Link auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als URL-Wert zum Abmelden mit einem Klick.
 
-Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Nachrichten finden Sie in [diesem Abschnitt](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>Wenn Sie keinen Ausschluss-Link mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige Abmelde-URL mit einem Klick in den Einstellungen für die Kanaloberfläche deaktiviert ist, wird im Header &quot;List Unsubscribe&quot;keine URL an den E-Mail-Header übergeben.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+Erfahren Sie mehr über die Verwaltung der Abmeldefunktionen in Ihren Nachrichten in [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header).
 
 ## Kopfzeilenparameter {#email-header}
 
