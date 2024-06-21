@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 38%
+source-wordcount: '1722'
+ht-degree: 36%
 
 ---
 
@@ -56,7 +56,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Wiedereintritt erlauben"
->abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt."
+>abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die **Wiedereintritt erlauben** beispielsweise, wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Laden betritt."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
@@ -107,7 +107,7 @@ Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim
 ### Zeitüberschreitung oder Fehler in Journey-Aktivitäten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Zeitüberschreitung"
 >abstract="Definieren Sie die Zeitdauer, die die Journey versuchen wird, eine Aktion auszuführen oder eine Bedingung zu überprüfen, bevor sie sie als Zeitüberschreitung betrachtet."
 
