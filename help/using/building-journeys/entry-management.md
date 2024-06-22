@@ -8,23 +8,23 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 98%
+source-wordcount: '701'
+ht-degree: 75%
 
 ---
 
 
 # Profileintrittsverwaltung {#entry-management}
 
-Es stehen vier Journey-Typen zur Auswahl:
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. In Adobe Journey Optimizer sind die folgenden Typen von Journey verfügbar:
 
 * **Unitäres Ereignis**-Journeys: Diese Journeys beginnen mit einem unitären Ereignis. Wenn das Ereignis empfangen wird, tritt das verknüpfte Profil in die Journey ein. [Weitere Informationen](#entry-unitary)
 
-* **Geschäftsereignis**-Journeys: Diese Journeys beginnen mit einem Geschäftsereignis, unmittelbar gefolgt von „Zielgruppe lesen“. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
+* **Geschäftsereignis** Journey: Diese Journey beginnen mit einem Geschäftsereignis, unmittelbar gefolgt von einem **Audience lesen** -Aktivität. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
 
-* **Zielgruppe lesen**-Journeys: Diese Journeys beginnen mit „Zielgruppe lesen“. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journeys können wiederkehrend oder einmalig sein. [Weitere Informationen](#entry-read-audience)
+* **Audience lesen** Journey: Diese Journey beginnen mit einer **Audience lesen** -Aktivität. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journey können wiederkehrend oder &quot;einmalig&quot;sein. [Weitere Informationen](#entry-read-audience)
 
 * **Zielgruppen-Qualifizierungs**-Journeys: Diese Journeys beginnen mit einem Zielgruppen-Qualifizierungsereignis. Diese Journeys überwachen die Ein- und Austritte von Profilen in Zielgruppen. In diesem Fall tritt das verknüpfte Profil die Journey ein. [Weitere Informationen](#entry-unitary)
 
@@ -32,7 +32,7 @@ Für alle Journey-Typen gilt, dass ein Profil nicht mehrmals zur gleichen Zeit i
 
 ## Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen{#entry-unitary}
 
-In den Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen können Sie den erneuten Eintritt aktivieren oder deaktivieren:
+In **Einzelereignis** und **Zielgruppenqualifikation** Journey können Sie den Wiedereintritt aktivieren oder deaktivieren:
 
 * Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
 
@@ -51,13 +51,13 @@ Nach diesem Zeitraum für den erneuten Eintritt können Profile erneut in die Jo
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## Geschäfts-Journeys{#entry-business}
+## Geschäfts-Journeys {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Um mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
+In **Journey für Unternehmen**, um die Ausführung mehrerer Geschäftsereignisse zu ermöglichen, aktivieren Sie die entsprechende Option im **[!UICONTROL Ausführung]** -Abschnitt der Journey-Eigenschaften.
 
 ![](assets/business-entry.png)
 
@@ -67,13 +67,13 @@ Ein Profil kann mehrmals gleichzeitig in derselben Journey vorhanden sein, aber 
 
 Weitere Informationen hierzu finden Sie in diesem [Abschnitt](../event/about-creating-business.md).
 
-## „Zielgruppe lesen“-Journeys{#entry-read-audience}
+## „Zielgruppe lesen“-Journeys {#entry-read-audience}
 
-Zielgruppe-lesen-Journeys können wiederkehrend oder einmalig sein:
+**Audience lesen** Journey können wiederkehrend oder &quot;einmalig&quot;sein:
 
-* Für nicht wiederkehrende Journeys: Das Profil tritt nur einmal in die Journey ein.
+* Bei einmaligen/&quot;einmaligen&quot; Journey: Das Profil wird ein- und einmal in die Journey eingetragen.
 
-* Für wiederkehrende Journeys: Standardmäßig treten bei jeder Wiederholung alle Profile der Zielgruppe in die Journey ein. Sie müssen die Journey beenden, bevor sie in einer anderen Instanz wieder eintreten können.
+* Für wiederkehrende Journeys: Standardmäßig treten bei jeder Wiederholung alle Profile der Zielgruppe in die Journey ein. Sie müssen die Journey beenden, bevor sie in einem anderen Vorkommen wieder eintreten können.
 
 Für wiederkehrende Zielgruppe-lesen-Journeys stehen zwei Optionen zur Verfügung. 
 
@@ -83,7 +83,7 @@ Für wiederkehrende Zielgruppe-lesen-Journeys stehen zwei Optionen zur Verfügun
   >
   >Wenn Sie auf eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#segments-in-journey-optimizer) in Ihrer Journey abzielen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
 
-* **Erneuten Eintritt bei Wiederholung erzwingen**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann (zum Beispiel, wenn Sie Warteaktivitäten verwenden), aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+* **Wiedereintritt bei Wiederauftreten erzwingen**: Mit dieser Option können Sie festlegen, dass alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beendet werden. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann (zum Beispiel, wenn Sie Warteaktivitäten verwenden), aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
 
 ![](assets/read-audience-options.png)
 

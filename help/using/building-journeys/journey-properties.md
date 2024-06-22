@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 36%
+source-wordcount: '1756'
+ht-degree: 35%
 
 ---
 
@@ -28,10 +28,12 @@ ht-degree: 36%
 >title="Kriterien für den Journey-Austritt"
 >abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Sie können ein oder mehrere Austrittskriterien für Ihre Journey erstellen."
 
-Journey-Eigenschaften werden in der rechten Leiste des Journey zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt. Klicken Sie für bestehende Journey auf das Stiftsymbol neben dem Journey-Namen, um auf die Eigenschaften zuzugreifen.
 
+## Zugriff auf die Eigenschaften eines Journey {#access-properties}
 
-Verwenden Sie diesen Abschnitt, um den Namen der Journey festzulegen, eine Beschreibung hinzuzufügen und:
+Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt. Für bestehende Journey klicken Sie auf das Stiftsymbol neben dem Journey, um es zu öffnen.
+
+In diesem Abschnitt können Sie den Namen der Journey definieren, eine Beschreibung hinzufügen und:
 
 * verwalten [Eintritt und Wiedereintritt](#entrance),
 * Start und Ende auswählen [dates](#dates),
@@ -50,6 +52,10 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 
 ## Eintritt und Wiedereintritt {#entrance}
+
+Der Profileingabemodus wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden unten beschrieben.
+
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen in [diese Seite](entry-management.md).
 
 ### Wiedereintritt erlauben  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 29 Tage.
 
-In [diesem Abschnitt](entry-management.md) erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen.
 
 ## Verwalten des Zugriffs {#manage-access}
 
