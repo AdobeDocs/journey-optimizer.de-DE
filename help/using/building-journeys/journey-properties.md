@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 35%
 
 ---
@@ -49,6 +49,8 @@ In diesem Abschnitt können Sie den Namen der Journey definieren, eine Beschreib
 >Bei Live-Journey werden in diesem Bildschirm nur das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat.
 
 Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+Erfahren Sie mehr über technische Felder, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und wie Sie sie verwenden können. [auf dieser Seite](expression/journey-properties.md).
 
 
 ## Eintritt und Wiedereintritt {#entrance}

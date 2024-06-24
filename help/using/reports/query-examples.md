@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journey die Verwendung von journeyVersionID anstelle von journeyVersionName . Weitere Informationen zu Attributen für Journey-Eigenschaften [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 

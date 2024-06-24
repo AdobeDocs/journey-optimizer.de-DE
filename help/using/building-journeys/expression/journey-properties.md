@@ -8,31 +8,29 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Journey, Ausdruck, Editor, Eigenschaften
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 86%
 
 ---
 
 # Attribute der Journey-Eigenschaften {#journey-properties}
 
-Im erweiterten Ausdruckseditor finden Sie die Kategorie **Journey-Eigenschaften** unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler.
-
->[!NOTE]
->
->Attribute von Journey-Eigenschaften sind auch im einfachen Ausdruckseditor verfügbar. Weitere Informationen finden Sie in [diesem Abschnitt](../condition-activity.md#about_condition)
+Im [Einfacher Ausdruckseditor](../condition-activity.md#about_condition)und in der [Ausdruckseditor](../expression/expressionadvanced.md), unterhalb der **Ereignis** und **Datenquelle** Kategorien, können Sie auf die **Journey-Eigenschaften** Kategorie. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dies sind die Informationen, die vom System von Live-Journey abgerufen werden, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
 
 ![](../assets/journey-properties.png)
 
-Sie finden hier beispielsweise Informationen zu folgenden Themen:
+Er enthält beispielsweise Informationen zu:
 
 * Journey-Version: Journey-UID, Journey-Versions-UID, Instanz-UID usw.
 * Fehler: Datenabruf, Aktionsausführung usw.
 * aktueller Schritt, letzter aktueller Schritt usw.
 * verworfene Profile
 
-Sie können diese Felder zum Erstellen von Ausdrücken verwenden. Während der Ausführung einer Journey werden die Werte direkt von der Journey abgerufen.
+  Die Liste der Felder ist verfügbar [in diesem Abschnitt](#journey-properties-fields).
+
+Sie können diese Felder zum Erstellen von Ausdrücken verwenden. Während der Journey-Ausführung werden die Werte direkt von der Journey abgerufen.
 
 Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 

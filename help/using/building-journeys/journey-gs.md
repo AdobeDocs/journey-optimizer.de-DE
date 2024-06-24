@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 91%
@@ -123,7 +123,7 @@ Entwerfen Sie Journey, um personalisierte, kontextbezogene Erlebnisse bereitzust
 
 ➡️ [Entdecken Sie diese Funktion im Video](journey.md#video)
 
-Die Schritte zum Senden von Nachrichten über Journey sind unten aufgeführt.
+Die folgenden Schritte zum Senden von Nachrichten über Journey sind aufgeführt:
 
 1. Klicken Sie auf der Registerkarte **Durchsuchen** auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
 

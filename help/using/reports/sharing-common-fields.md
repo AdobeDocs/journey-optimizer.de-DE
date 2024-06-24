@@ -8,20 +8,26 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 96%
 
 ---
 
 # Gemeinsame Felder für journeySteps-Ereignisse {#sharing-common-fields}
 
-Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
+Diese Feldergruppe wird von den folgenden Ereignissen gemeinsam genutzt: **journeyStepEvent** und **journeyStepProfileEvent**.
 
 Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] an Adobe Experience Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
 Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.), um die Größe von Ereignissen zu begrenzen.
+
+
+>[!NOTE]
+>
+>Weitere Informationen zu Attributen für Journey-Eigenschaften [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## entrance {#entrance-field}
 
