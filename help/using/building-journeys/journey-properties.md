@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 35%
+source-wordcount: '1724'
+ht-degree: 32%
 
 ---
 
@@ -77,7 +77,7 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 >abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey aufzurufen. Dadurch wird verhindert, dass Benutzer während eines bestimmten Zeitraums erneut auf die Journey zugreifen. Maximale Dauer: 29 Tage."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
-Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 29 Tage.
+Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
 
 
 ## Verwalten des Zugriffs {#manage-access}
@@ -107,7 +107,7 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage, kann mit dem Zusatzangebot „Healthcare Shield“ auf 7 Tage reduziert werden). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum [globales Journey-Timeout](#global_timeout) (in der Regel 91 Tage). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
 ## Zeitüberschreitung {#timeout}
 
@@ -131,11 +131,7 @@ Journey verwenden auch eine globale Zeitüberschreitung, wie unten beschrieben.
 
 Zusätzlich zu den [timeout](#timeout_and_error) wird in Journey-Aktivitäten verwendet, wird ein globales Journey-Timeout angewendet. Sie wird nicht in der Benutzeroberfläche angezeigt und kann nicht geändert werden.
 
-Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Diese maximale Wartezeit wird mit dem Zusatzangebot „Healthcare Shield“ auf **7 Tage** reduziert. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage (bzw. 7 Tage) dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
-
->[!NOTE]
->
->Journeys reagieren nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 91 Tage in der Journey bleiben.
+Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
 
 Aufgrund der 91-tägigen Journey-Zeitüberschreitung können wir nicht sicherstellen, dass die Sperrung des erneuten Eintritts von Journey mehr als 91 Tage in Kraft tritt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 83%
+source-wordcount: '508'
+ht-degree: 87%
 
 ---
 
@@ -39,9 +39,9 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
-Bei Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, beachten Sie, dass die [globale Zeitüberschreitung](journey-properties.md#global_timeout) für Journey beträgt 91 Tage, d. h. Profile werden immer 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
+Bei Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, beachten Sie, dass die [globale Zeitüberschreitung](journey-properties.md#global_timeout) für Journey beträgt 90 Tage, d. h. Profile werden immer 90 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
 
-Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem Journey-Timeout von 91 Tagen abzuschließen. Wenn Sie beispielsweise zwei **Warten** Aktivitäten, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite **Warten** -Aktivität endet nach Ablauf der 91 Tage. Die zweite Aktivität vom Typ **Warten** wird daher ignoriert und der Kontakt verlässt die Journey, bevor sie oder er diese beginnt. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
+Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem Journey-Timeout von 90 Tagen abzuschließen.
 
 ### Warten und Wiedereintritt {#wait-re-entrance}
 
