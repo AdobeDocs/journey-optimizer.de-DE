@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 6%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 6%
 >
 > Um zur herkömmlichen Berichterstellung von Journey Optimizer zurückzukehren, müssen Sie einfach die **[!UICONTROL Neues Erlebnis verwenden]** -Option.
 
-Die Journey Optimizer-Berichterstellung ist nun vollständig in Customer Journey Analytics-Funktionen integriert, wodurch die Berichterstellung plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzern, fundiertere Entscheidungen zu treffen.
+Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzern, fundiertere Entscheidungen zu treffen.
 
 * Wenn Sie eine Journey oder Sendungen im Kontext einer Journey auswählen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche.
 
@@ -47,4 +48,3 @@ Die Journey Optimizer-Berichterstellung ist nun vollständig in Customer Journey
 * Um auf das Customer Journey Analytics-Dashboard in Journey Optimizer zuzugreifen, aktivieren Sie einfach die **[!UICONTROL Neues Erlebnis verwenden]** in Ihrem Bericht ein-/ausschalten.
 
   ![](assets/cja-option.png)
-
