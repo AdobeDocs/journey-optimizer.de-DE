@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -155,9 +155,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Der globale Timout für Journeys wurde von 30 auf 91 Tage erhöht.
 * Adobe Journey Optimizer unterstützt jetzt Datenschutzanfragen zum Löschen/Zugriff auf Daten sowie Anfragen zur Verwaltung des Datenlebenszyklus.
-* Sie können nun die Spaltengröße im Journey-Inventar ändern.
-* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist nun allgemein verfügbar: Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../event/about-creating.md)-->
-* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. Diese Funktion ist unter Eingeschränkte Verfügbarkeit für ausgewählte Kunden verfügbar. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* Sie können nun die Spaltenbreite im Journey-Inventar ändern.
+* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist nun allgemein verfügbar: Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. <!--[Read more](../event/about-creating.md)-->
+* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -177,7 +177,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **In-App-Kanal**
 
-* **Ausdrucksfragment** - Ausdrucksfragmente sind jetzt für die **In-App-Kanal**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **Ausdrucksfragment** – Ausdrucksfragmente sind jetzt für den **In-App-Kanal** verfügbar. <!--[Read more](../personalization/use-expression-fragments.md)--> 
 
 
-* Sie können jetzt das Edge-Delivery-Plug-in verwenden, um Informationen zu erhalten, die Sie zum Verständnis und zur Fehlerbehebung Ihrer eingehenden Implementierungen benötigen.
+* Sie können jetzt das Edge Delivery-Plug-in verwenden, um Informationen abzurufen, die Sie zum Verständnis Ihrer eingehenden Implementierungen und zur Fehlerbehebung bei diesen benötigen. 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -383,12 +383,12 @@ ht-degree: 98%
    + [Ausschlussgründe](using/reports/exclusion-list.md)
 + Neue Reporting-Oberfläche (Beta){#channel-report}
    + [Erste Schritte mit der neuen Reporting-Oberfläche](using/reports/report-gs-cja.md)
-   + [Berichte verwalten](using/reports/report-cja-manage.md)
+   + [Verwalten von Berichten](using/reports/report-cja-manage.md)
    + [Journey-Bericht](using/reports/journey-global-report-cja.md)
    + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
    + [Übersichtsbericht](using/reports/channel-report-cja.md)
    + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
-   + [Abonnementlistenbericht](using/reports/subscription-report-global-cja.md)
+   + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}

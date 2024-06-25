@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## Versionshinweise für Juni 2024 {#24-6-2024}
 
-**Frühe Versionshinweise unten können ohne vorherige Ankündigung bis zum Verfügbarkeitsdatum der Version geändert werden**.
+**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**.
 
 **Veröffentlichungsdatum**: 18.–19. Juni 2024
 
@@ -77,13 +77,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Berichterstellung mit Customer Journey Analytics (Beta)</strong><br/></th>
+<th><strong>Reporting mit Customer Journey Analytics (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzern, fundiertere Entscheidungen zu treffen.</p>
+<p>Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen besseren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../reports/report-gs-cja.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -170,7 +170,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 >[!AVAILABILITY]
 >
->Bitte beachten Sie, dass diese Verbesserungen im Laufe von mehreren Tagen nach der ersten Veröffentlichung schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden.
+>Bitte beachten Sie, dass diese Verbesserungen im Laufe der auf die erste Veröffentlichung folgenden Tage schrittweise eingeführt werden. Während einige Benutzende sofortigen Zugriff haben, kann es bei anderen einige Zeit dauern, bis die Verbesserungen in ihrer Umgebung verfügbar sind.
 
 * Fragmente können nun bearbeitet werden und Änderungen können in allen Live-Journeys und Kampagnen, in denen sie verwendet werden, übernommen werden.
 * Es wurden neue Status für Inhaltsfragmente eingeführt: **Entwurf**, **Live**, **Wird veröffentlicht** und **Archiviert**.
@@ -178,17 +178,17 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
   **ACHTUNG:** Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**, auch wenn sie in einer Journey oder Kampagne verwendet werden. In diesem Abschnitt erfahren Sie, wie Sie vorhandene Fragmente aktualisieren können.
 
-Weitere Informationen finden Sie unter [Inhaltsfragment](../content-management/fragments.md) Dokumentation.
+Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../content-management/fragments.md).
 
 **Journeys**
 
-* Die globale Zeitüberschreitung für Journey wurde auf 91 Tage verlängert. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
+* Die globale maximale Wartezeit für Journeys wurde auf 91 Tage verlängert. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
-  Bei allen neuen Journey wird diese neue Zeitüberschreitung angezeigt. Bitte beachten Sie dies [FAQ-Abschnitt](../building-journeys/journey-properties.md#timeout-faq) , um mehr zu erfahren. Bitte beachten Sie, dass diese Änderungen im Laufe des Monats Juni schrittweise eingeführt werden.
+  Bei allen neu erstellten Journeys wird diese neue maximale Wartezeit angezeigt. Weitere Informationen finden Sie in diesem [FAQ-Abschnitt](../building-journeys/journey-properties.md#timeout-faq). Bitte beachten Sie, dass diese Änderungen im Laufe des Monats Juni schrittweise eingeführt werden. 
 
 
-* Adobe Journey Optimizer unterstützt jetzt Datenschutz-Lösch-/Zugriffsanfragen sowie Data Life Cycle Management-Anfragen. [Weitere Informationen](../privacy/requests.md)
-* Sie können nun die Spaltengröße im Journey-Inventar ändern.
+* Adobe Journey Optimizer unterstützt jetzt Datenschutzanfragen zum Löschen von bzw. für den Zugriff auf Daten sowie Anfragen zur Verwaltung des Datenlebenszyklus. [Weitere Informationen](../privacy/requests.md)
+* Sie können nun die Spaltenbreite im Journey-Inventar ändern.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. [Weitere Informationen](../building-journeys/journey-properties.md#merge-policies)
 
@@ -196,7 +196,7 @@ Weitere Informationen finden Sie unter [Inhaltsfragment](../content-management/f
 
 **Kampagnen**
 
-* Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie jetzt den Kampagnentyp (geplant oder ausgelöst) in einem neuen Modal auswählen. [Weitere Informationen](../campaigns/create-campaign.md)
+* Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie nun in einem neuen Modal den Kampagnentyp (geplant oder ausgelöst) auswählen. [Weitere Informationen](../campaigns/create-campaign.md)
 
 **E-Mail-Kanal**
 
@@ -205,9 +205,9 @@ Weitere Informationen finden Sie unter [Inhaltsfragment](../content-management/f
 
 **SMS-Kanal**
 
-* Sie können jetzt eindeutige Kurzwahlnummern für jede Sandbox mit einer einzelnen API-Konfiguration hinzufügen, wodurch der Prozess effizienter und rationeller wird. [Weitere Informationen](../sms/sms-configuration.md)
+* Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und einfacher macht. [Weitere Informationen](../sms/sms-configuration.md)
 
-* Nach der Erstellung wird die **API-Token** im Feld **API-Anmeldedetails** -Seite wird nun maskiert.
+* Nach der Erstellung wird das Feld **API-Token** auf der Seite **Details zu API-Anmeldedaten** jetzt maskiert.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,9 +215,9 @@ Weitere Informationen finden Sie unter [Inhaltsfragment](../content-management/f
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Sie können jetzt das Edge-Bereitstellungs-Plug-in verwenden, um Informationen zu erhalten, die zum Verständnis und zur Fehlerbehebung bei Ihren eingehenden Implementierungen erforderlich sind. [Weitere Informationen zur Ansicht &quot;Edge Delivery&quot;](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Sie können jetzt das Edge Delivery-Plug-in verwenden, um Informationen abzurufen, die Sie zum Verständnis Ihrer eingehenden Implementierungen und zur Fehlerbehebung bei diesen benötigen. [Weitere Informationen zur Ansicht „Edge Delivery“](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**Briefpost-Kanal**
+**Direkt-Mail-Kanal**
 
 * Der Briefpost-Kanal ist jetzt für alle Kunden verfügbar. [Weitere Informationen](../direct-mail/get-started-direct-mail.md)
