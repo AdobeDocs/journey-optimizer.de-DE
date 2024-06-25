@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 86%
@@ -102,7 +102,7 @@ Der List Unsubscribe Header bietet zwei Funktionen (Mailto und One-Click-URL, wi
 
   In Journey Optimizer ist die Abmelde-E-Mail-Adresse die Standardeinstellung **Mailto (unsubscribe)** Adresse, die auf der Kanaloberfläche angezeigt wird, basierend auf Ihrer [ausgewählte Subdomain](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um den 1-Klick-Opt-out-Header der von unserer URL generierten List Unsubscribe-Kopfzeile handelt, der auf der Subdomain basiert, die Sie in den Kanaloberflächeneinstellungen festgelegt und konfiguriert haben.
