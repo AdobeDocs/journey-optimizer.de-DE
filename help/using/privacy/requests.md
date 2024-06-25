@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -33,35 +33,35 @@ Weitere Informationen zu Privacy Service und zum Erstellen und Verwalten von Dat
 
 Sie können individuelle Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus Adobe Journey Optimizer auf zwei Arten senden:
 
-* Durch die **Privacy Service-Benutzeroberfläche**. Siehe die Dokumentation . [here](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Durch die **Privacy Service-API**. Siehe die Dokumentation . [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) und API-Informationen [here](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Über die **Privacy Service-Benutzeroberfläche**. Informationen finden Sie in der Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/ui/user-guide#_blank).
+* Über das **Privacy Service-API**. Informationen finden Sie in der Dokumentation [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) und in den API-Informationen [hier](https://developer.adobe.com/experience-platform-apis/#_blank).
 
-Der Privacy Service unterstützt zwei Anforderungstypen: **Datenzugriff** und **Datenlöschung**.
+Der Privacy Service unterstützt zwei Arten von Anfragen: **Datenzugriff** und **Datenlöschung**.
 
 >[!NOTE]
 >
->In diesem Handbuch wird nur beschrieben, wie Sie Datenschutzanfragen für Adobe Journey Optimizer stellen. Wenn Sie auch Datenschutzanfragen für den Platform Data Lake planen, lesen Sie dies [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) zusätzlich zu diesem Tutorial. Informationen zum Echtzeit-Kundenprofil finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) und Identity-Dienst siehe diesen Abschnitt [Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). Für Lösch- und Zugriffsanfragen müssen Sie diese einzelnen Systeme aufrufen, um sicherzustellen, dass die Anforderungen von jedem einzelnen System verarbeitet werden. Durch eine Datenschutzanfrage an Adobe Journey Optimizer werden keine Daten aus all diesen Systemen entfernt.
+>In diesem Handbuch wird nur beschrieben, wie Sie Datenschutzanfragen für Adobe Journey Optimizer stellen. Wenn Sie auch Datenschutzanfragen für den Platform-Data-Lake planen, lesen Sie dieses [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/privacy) zusätzlich zu diesem Tutorial. Informationen zum Echtzeit-Kundenprofil finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy). Informationen zum Identity Service finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/identity/privacy). Bei Anfragen zum Löschen und für den Zugriff müssen Sie diese einzelnen Systeme aufrufen, um sicherzustellen, dass die Anfragen von jedem einzelnen System bearbeitet werden. Durch eine Datenschutzanfrage an Adobe Journey Optimizer werden die Daten nicht aus all diesen Systemen entfernt.
 
-Für **Zugriffsanforderungen**, geben Sie &quot;Adobe Journey Optimizer&quot;über die Benutzeroberfläche an (oder &quot;CJM&quot;als Produktcode in der API).
+Für **Anfragen für den Zugriff** geben Sie „Adobe Journey Optimizer“ über die Benutzeroberfläche an (oder „CJM“ als Produkt-Code im API).
 
-Für **Löschanfragen** Zusätzlich zur &quot;Adobe Journey Optimizer&quot;-Anfrage müssen Sie auch Löschanfragen an drei vorgelagerte Dienste senden, um zu verhindern, dass Journey Optimizer die gelöschten Daten erneut sendet. Wenn diese Upstream-Dienste nicht angegeben werden, bleibt die &quot;Adobe Journey Optimizer&quot;-Anfrage im Verarbeitungsstatus, bis Löschanfragen für die Upstream-Dienste erstellt werden.
+Für **Anfragen zum Löschen** müssen Sie zusätzlich zur Anfrage „Adobe Journey Optimizer“ auch Anfragen zum Löschen an drei vorgelagerte Services senden, um zu verhindern, dass Journey Optimizer die gelöschten Daten wieder aufnimmt. Wenn diese vorgelagerten Services nicht angegeben werden, bleibt die Anfrage „Adobe Journey Optimizer“ im Verarbeitungsstatus, bis Anfragen zum Löschen für die vorgelagerten Services erstellt werden.
 
-Die drei vorgelagerten Dienste sind:
+Bei den drei vorgelagerten Services handelt es sich um:
 
-* Profil (Produktcode: &quot;profileService&quot;)
-* AEP Data Lake (Produktcode: &quot;AdobeCloudPlatform&quot;)
-* Identität (Produktcode: &quot;identity&quot;)
+* Profile (Produkt-Code: „profileService“)
+* AEP Data Lake (Produkt-Code: „AdobeCloudPlatform“)
+* Identity (Produkt-Code: „identity“)
 
-## Erstellen von Zugriffs- und Löschanfragen
+## Erstellen von Anfragen für den Zugriff und zum Löschen
 
 ### Voraussetzungen
 
-Für Anfragen zum Zugriff auf und zum Löschen von Daten für Adobe Journey Optimizer benötigen Sie Folgendes:
+Um Anfragen für den Zugriff auf und zum Löschen von Daten in Adobe Journey Optimizer zu stellen, ist Folgendes erforderlich:
 
-* Kennung der IMS-Organisation
-* Identitätskennung der Person, auf die Sie reagieren möchten, und der entsprechenden Namespace(s). Weitere Informationen zu Identitäts-Namespaces in Adobe Journey Optimizer und Experience Platform finden Sie im Abschnitt [Übersicht über Identitäts-Namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* eine IMS-Organisations-ID
+* eine Identitätskennung der Person, auf die Sie reagieren möchten, und die entsprechenden Namespaces. Weitere Informationen zu Identity-Namespaces in Adobe Journey Optimizer und Experience Platform finden Sie im Abschnitt [Übersicht zu Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces).
 
-### Erforderliche Feldwerte in Adobe Journey Optimizer für API-Anforderungen
+### Erforderliche Feldwerte in Adobe Journey Optimizer für API-Anfragen
 
 ```json
 "companyContexts":
@@ -87,13 +87,13 @@ Für Anfragen zum Zugriff auf und zum Löschen von Daten für Adobe Journey Opti
 ```
 
 
-### Beispiel für DSGVO-Zugriffsanfrage:
+### Beispiel für eine DSGVO-Zugriffsanfrage:
 
-In der Benutzeroberfläche:
+Über die Benutzeroberfläche:
 
 ![](assets/accessrequest.png)
 
-Über die API:
+Über das API:
 
 ```json
 // JSON Request
@@ -167,13 +167,13 @@ In der Benutzeroberfläche:
 }
 ```
 
-### Beispiel für DSGVO-Löschanfrage:
+### Beispiel für eine DSGVO-Anfrage zum Löschen:
 
-In der Benutzeroberfläche:
+Über die Benutzeroberfläche:
 
 ![](assets/deleterequest.png)
 
-Über die API:
+Über das API:
 
 ```json
 // JSON Request

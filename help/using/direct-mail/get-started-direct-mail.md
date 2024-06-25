@@ -8,21 +8,21 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 6d11c78f78a4af13b8886e5d06a7b8de466714dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Briefpost {#create-direct}
 
-Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die von externen Briefpost-Dienstleistern benötigt werden, um E-Mails an Ihre Kunden zu senden.
+Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kunden und Kundinnen benötigen.
 
-Bei der Erstellung einer Briefpost-Kampagne generiert Journey Optimizer automatisch eine Datei, die alle Zielgruppenprofile und ausgewählten Daten enthält, z. B. Postanschriften und Profilattribute. Diese Datei wird an den Server Ihrer Wahl gesendet, damit sie von Ihrem ausgewählten externen Briefpost-Dienstleister zugänglich ist, der den eigentlichen Mailing-Prozess für Sie handhabt.
+Bei der Erstellung einer Direkt-Mail-Kampagne generiert Journey Optimizer automatisch eine Datei, die alle Zielgruppenprofile und ausgewählten Daten enthält, z. B. Postanschriften und Profilattribute. Diese Datei wird an den Server Ihrer Wahl gesendet, sodass der von Ihnen gewählte Direkt-Mail-Anbieter darauf zugreifen kann, der den eigentlichen Mailing-Prozess für Sie übernimmt.
 
-Sie müssen ggf. mit Ihrem ausgewählten Drittanbieter für Briefpost zusammenarbeiten, um die erforderliche Zustimmung von Ihren Kunden zu erhalten, damit Ihre Kunden E-Mails von Ihnen erhalten können.
+Sie müssen ggf. mit Ihrem ausgewählten Direkt-Mail-Drittanbieter zusammenarbeiten, um die erforderliche Zustimmung von Ihren Kundinnen und Kunden zu erhalten, damit diese E-Mails von Ihnen erhalten können.
 
-Ihre Nutzung von Mailingdiensten unterliegt zusätzlichen Bedingungen des jeweiligen Drittversandanbieters.  Adobe kontrolliert nicht und ist nicht für die Verwendung von Produkten von Drittanbietern verantwortlich. Wenden Sie sich bei Fragen oder Ersuchen um Unterstützung im Zusammenhang mit dem Versand Ihrer Briefpost-Kampagne an Ihren ausgewählten externen Briefpost-Dienstleister.
+Die Nutzung von Mailing-Services unterliegt den zusätzlichen Bedingungen des jeweiligen Direkt-Mail-Drittanbieters.  Adobe hat keine Kontrolle über die Produkte von Drittanbietern und ist nicht für Ihre Nutzung dieser Produkte verantwortlich. Bei Problemen oder Fragen im Zusammenhang mit dem Versand Ihrer Direkt-Mail-Kampagne wenden Sie sich bitte an den von Ihnen gewählten Direkt-Mail-Anbieter.
 
 Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
