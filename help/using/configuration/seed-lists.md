@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
 >[!NOTE]
 >
->Varianten werden unterstützt. Die Testadressen erhalten eine Kopie jeder Variante derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../content-management/get-started-experiment.md)).
+>Es werden Varianten unterstützt, darunter mehrsprachige und experimentelle Varianten. Jede Testadresse erhält eine Kopie jeder Variante derselben Nachricht, z. B. verschiedene Versionen einer [Inhaltsexperiment](../content-management/get-started-experiment.md). Beachten Sie, dass für bedingte Inhalte keine separaten Seed-E-Mails gesendet werden.
 
 ## Zugreifen auf Testadressenlisten {#access-seed-lists}
 
