@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 83%
+source-wordcount: '1050'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 83%
 
 
 ## Versionshinweise für Juni 2024 {#24-6-2024}
-
-**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**.
 
 **Veröffentlichungsdatum**: 18.–19. Juni 2024
 
@@ -53,6 +51,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table-->
 
+#### Anpassen von Inhaltsfragmenten
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </table>
 
 
-
+#### Reporting mit Customer Journey Analytics
 
 <table>
 <thead>
@@ -91,6 +90,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
+#### KI-Assistent
+
 <table>
 <thead>
 <tr>
@@ -106,6 +107,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tr>
 </tbody>
 </table>
+
+#### Mehrsprachige Nachrichten in Journey und Kampagnen
 
 <table>
 <thead>
@@ -123,6 +126,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
+#### Experimente in Journey
 
 <table>
 <thead>
@@ -160,13 +164,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Entscheidungs-Management**
+#### Entscheidungs-Management
 
 * **Unterstützung mehrerer Regeln im Entscheidungs-Management**: Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot im Entscheidungs-Management hinzufügen. Dadurch wird eine bessere Kontrolle über die Art und Weise ermöglicht, wie die Angebote gesendet werden. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**Inhaltsfragmente**
+#### Inhaltsfragmente
 
 >[!AVAILABILITY]
 >
@@ -180,7 +184,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../content-management/fragments.md).
 
-**Journeys**
+#### Journeys
 
 * Die globale maximale Wartezeit für Journeys wurde auf 91 Tage verlängert. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +198,17 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 
 
-**Kampagnen**
+#### Kampagnen
 
 * Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie nun in einem neuen Modal den Kampagnentyp (geplant oder ausgelöst) auswählen. [Weitere Informationen](../campaigns/create-campaign.md)
 
-**E-Mail-Kanal**
+#### E-Mail-Kanal
 
 * **List-unsubscribe** - Nach den jüngsten Ankündigungen von Gmail und Yahoo für Massen-Absender unterstützt Journey Optimizer die Option &quot;Post/1-Click&quot; List-Unsubscribe . Siehe folgende Seiten: [Opt-out-Verwaltung für E-Mails](../email/email-opt-out.md#unsubscribe-header) und [E-Mail-Einstellungen konfigurieren](../email/email-settings.md#list-unsubscribe).
 
+  **NOTE** - Bei jeder neuen Kanaloberfläche ist standardmäßig die Option Header zum Abmelden von Listen aktiviert. Bei vorhandenen Oberflächen ist standardmäßig die Option URL-Abmeldung mit einem Klick in den Einstellungen für die Kanaloberfläche deaktiviert. Wenn Sie zuvor eine Ausschluss-URL mit einem Klick im Text der E-Mail verwendet haben, ist diese Einstellung weiterhin gültig. Wenn die URL zum Abmelden von einem Klick in den Einstellungen für die Kanaloberfläche aktiviert ist, verwendet Adobe Journey Optimizer stattdessen die standardmäßig generierte URL zum Abmelden von einem Klick in den Einstellungen für die Kanaloberfläche.
 
-**SMS-Kanal**
+#### SMS-Kanal
 
 * Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und einfacher macht. [Weitere Informationen](../sms/sms-configuration.md)
 
@@ -211,13 +216,13 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 <!--* You can now modify existing SMS configurations.-->
 
-**In-App-Kanal**
+#### In-App-Kanal
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * Sie können jetzt das Edge Delivery-Plug-in verwenden, um Informationen abzurufen, die Sie zum Verständnis Ihrer eingehenden Implementierungen und zur Fehlerbehebung bei diesen benötigen. [Weitere Informationen zur Ansicht „Edge Delivery“](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**Direkt-Mail-Kanal**
+#### Briefpost-Kanal
 
 * Der Briefpost-Kanal ist jetzt für alle Kunden verfügbar. [Weitere Informationen](../direct-mail/get-started-direct-mail.md)
