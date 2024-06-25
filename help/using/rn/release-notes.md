@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
+source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 75%
+source-wordcount: '1031'
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table-->
 
-#### Anpassen von Inhaltsfragmenten
 
 <table>
 <thead>
@@ -71,7 +70,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </table>
 
 
-#### Reporting mit Customer Journey Analytics
 
 <table>
 <thead>
@@ -90,7 +88,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-#### KI-Assistent
 
 <table>
 <thead>
@@ -108,7 +105,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-#### Mehrsprachige Nachrichten in Journey und Kampagnen
 
 <table>
 <thead>
@@ -126,7 +122,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-#### Experimente in Journey
 
 <table>
 <thead>
