@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 >title="Warteaktivität"
 >abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
-Mit einer Aktivität vom Typ **[!UICONTROL Warten]** können Sie eine Dauer definieren, nach deren Ablauf die nächste Aktivität ausgeführt wird.  Die maximale Wartezeit beträgt **30 Tage**.
+Mit einer Aktivität vom Typ **[!UICONTROL Warten]** können Sie eine Dauer definieren, nach deren Ablauf die nächste Aktivität ausgeführt wird.  Die maximale Wartezeit ist **90 Tage**.
 
 Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
@@ -55,7 +55,7 @@ Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** di
 
 ### Dauer der Wartezeit {#duration}
 
-Wählen Sie den Typ **Dauer**, um die relative Dauer der Wartezeit vor der Ausführung der nächsten Aktivität auszuwählen. Die maximale Wartezeit beträgt **29 Tage**.
+Wählen Sie den Typ **Dauer**, um die relative Dauer der Wartezeit vor der Ausführung der nächsten Aktivität auszuwählen. Die maximale Wartezeit beträgt **90 Tage**.
 
 ![Definieren der Wartezeit](assets/journey55.png)
 
