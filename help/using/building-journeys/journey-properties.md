@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 32%
@@ -157,7 +157,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit der Eingabe eines Profils, das vor dem Start der TTL-Erweiterung veröffentlicht wurde?</p>
     </td>
     <td>
-      <p>Das Profil verfügt über eine TTL von 91 Tagen (7 Tage für HIPAA), die dem Zeitpunkt entspricht, zu dem die Journey ursprünglich veröffentlicht wurde.</p>
+      <p>Das Profil verfügt über eine TTL von 30 Tagen (7 Tage für HIPAA), die dem Zeitpunkt entspricht, zu dem die Journey ursprünglich veröffentlicht wurde.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit einem Profil, das bereits eine Journey eingegeben hat, wenn die TTL-Erweiterung gestartet wird?</p>
     </td>
     <td>
-      <p>Das Profil behält gemäß der ursprünglichen Publikationszeit der Journey eine TTL von 91 Tagen (7 Tage für HIPAA) bei.</p>
+      <p>Das Profil behält eine TTL von 30 Tagen (7 Tage für HIPAA) gemäß der ursprünglichen Publikationszeit der Journey bei.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit einem Profil in einer früheren Journey-Version, die nach dem Start der TTL-Erweiterung erneut veröffentlicht wird?</p>
     </td>
     <td>
-      <p>Das Profil behält eine TTL von 91 Tagen (7 Tage für HIPAA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist.</p>
+      <p>Das Profil behält eine TTL von 30 Tagen (7 Tage für HIPAA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit der Eingabe eines Profils, das vor dem Start der TTL-Erweiterung veröffentlicht wurde?</p>
     </td>
     <td>
-      <p>Das Profil verfügt über eine TTL von 91 Tagen (7 Tage für HIPAA), die der ursprünglichen Veröffentlichungszeit entspricht. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+      <p>Das Profil verfügt über eine TTL von 30 Tagen (7 Tage für HIPAA), die der ursprünglichen Veröffentlichungszeit entspricht. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit einem Profil, das über eine Journey läuft, wenn die TTL-Erweiterung gestartet wird?</p>
     </td>
     <td>
-      <p>Das Profil behält gemäß der ursprünglichen Publikationszeit der Journey eine TTL von 91 Tagen (7 Tage für HIPAA) bei. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+      <p>Das Profil behält eine TTL von 30 Tagen (7 Tage für HIPAA) gemäß der ursprünglichen Publikationszeit der Journey bei. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde das globale Zeitlimit fü
       <p>Was passiert mit einem laufenden Profil in einer vorherigen Journey-Version, die nach dem Start der TTL-Erweiterung erneut veröffentlicht wird?</p>
     </td>
     <td>
-      <p>Das Profil behält eine TTL von 91 Tagen (7 Tage für HIPPA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
+      <p>Das Profil behält eine TTL von 30 Tagen (7 Tage für HIPPA), die mit der Veröffentlichungszeit der ursprünglichen Journey-Version abgestimmt ist. Bei wiederkehrenden Journey mit erzwungenem Wiedereintritt entspricht die TTL der Wiederholungszeit.</p>
     </td>
   </tr>
   <tr style="border: 1;">
