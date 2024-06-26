@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 33%
@@ -21,7 +21,7 @@ ht-degree: 33%
 >id="ajo_create_visual_fragment"
 >title="Auswählen des visuellen Typs"
 >abstract="Erstellen Sie ein eigenständiges visuelles Fragment, um Ihren Inhalt in einer E-Mail innerhalb einer Journey, einer Kampagne oder in einer Inhaltsvorlage wiederzuverwenden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=de" text="Hinzufügen visueller Fragmente zu Ihren E-Mails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Hinzufügen visueller Fragmente zu Ihren E-Mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu erstellen.
 
 ## Fragmentinhalt erstellen {#content}
 
-Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ des Fragments, das Sie erstellen, der Email Designer oder der Personalisierungseditor geöffnet.
+Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ des Fragments, das Sie erstellen, die E-Mail-Designer oder der Personalisierungseditor geöffnet.
 
 * Bearbeiten Sie den Inhalt für visuelle Fragmente nach Bedarf auf die gleiche Weise wie für jede E-Mail innerhalb einer Journey oder Kampagne. [Weitere Informationen](../email/get-started-email-design.md)
 
@@ -81,17 +81,17 @@ Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern** Scha
 
 >[!NOTE]
 >
->Um ein Fragment zu veröffentlichen, muss die **Fragment veröffentlichen** verwandte Berechtigung. [Weitere Informationen zu Berechtigungen](../administration/ootb-permissions.md)
+>Um ein Fragment zu veröffentlichen, muss die **Publish Fragment** verwandte Berechtigung. [Weitere Informationen zu Berechtigungen](../administration/ootb-permissions.md)
 
 Wenn Ihr Fragment für die Live-Schaltung bereit ist, können Sie es in der Vorschau anzeigen und veröffentlichen, um es in Ihren Journey und Kampagnen verfügbar zu machen. Gehen Sie dazu wie folgt vor:
 
 1. Kehren Sie nach dem Erstellen des Inhalts zum Bildschirm zur Fragmenterstellung zurück oder öffnen Sie ihn in der Liste der Fragmente.
 
-1. Eine Vorschau des Fragments finden Sie unter **Tags** -Feld, um dessen Rendering zu überprüfen. Wenn Sie Änderungen vornehmen müssen, klicken Sie auf die Schaltfläche **Bearbeiten** im oberen Bereich des Bildschirms, um Email Designer oder den Personalisierungseditor je nach Fragmenttyp zu öffnen.
+1. Eine Vorschau des Fragments finden Sie unter **Tags** -Feld, um dessen Rendering zu überprüfen. Wenn Sie Änderungen vornehmen müssen, klicken Sie auf die Schaltfläche **Bearbeiten** im oberen Bereich des Bildschirms, um die E-Mail-Designer oder den Personalisierungseditor je nach Fragmenttyp zu öffnen.
 
    ![](assets/fragment-preview.png)
 
-1. Klicken Sie auf **Veröffentlichen** in der oberen rechten Ecke, um das Fragment zu veröffentlichen.
+1. Klicken Sie auf **Publish** in der oberen rechten Ecke, um das Fragment zu veröffentlichen.
 
    Wenn das Fragment in einer Live-Journey oder Kampagne verwendet wird, wird eine entsprechende Nachricht angezeigt. Klicken Sie auf **Weitere Informationen** -Link, um auf die Liste der Journey und/oder Kampagnen zuzugreifen, auf die verwiesen wird. [Erfahren Sie, wie Sie die Verweise eines Fragments durchsuchen](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ Wenn Ihr Fragment für die Live-Schaltung bereit ist, können Sie es in der Vors
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Das Fragment ist jetzt **Live** und ist verfügbar, wenn Sie Inhalte innerhalb der [!DNL Journey Optimizer] Email Designer oder Personalisierungseditor:
+Das Fragment ist jetzt **Live** und ist verfügbar, wenn Sie Inhalte innerhalb der [!DNL Journey Optimizer] Email Designer oder Personalisierungs-Editor:
 
 * [Erfahren Sie, wie Sie visuelle Fragmente verwenden](../email/use-visual-fragments.md)
 * [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../personalization/use-expression-fragments.md)
