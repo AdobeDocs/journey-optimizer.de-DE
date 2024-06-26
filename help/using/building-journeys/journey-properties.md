@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 32%
@@ -74,7 +74,7 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit beim erneuten Eintritt"
->abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey aufzurufen. Dadurch wird verhindert, dass Benutzer während eines bestimmten Zeitraums erneut auf die Journey zugreifen. Maximale Dauer: 29 Tage."
+>abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey aufzurufen. Dadurch wird verhindert, dass Benutzer während eines bestimmten Zeitraums erneut auf die Journey zugreifen. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 87%
@@ -39,9 +39,9 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
-Bei Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, beachten Sie, dass die [globale Zeitüberschreitung](journey-properties.md#global_timeout) für Journey beträgt 90 Tage, d. h. Profile werden immer 90 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
+Bei Verwendung mehrerer **Warten** -Aktivitäten in einer Journey, beachten Sie, dass die [globale Zeitüberschreitung](journey-properties.md#global_timeout) für Journey beträgt 91 Tage, d. h. Profile werden immer 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
 
-Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem Journey-Timeout von 90 Tagen abzuschließen.
+Eine Person kann **Warten** nur dann aktiviert werden, wenn genügend Zeit im Journey verbleibt, um die Wartezeit vor dem Journey-Timeout von 91 Tagen abzuschließen.
 
 ### Warten und Wiedereintritt {#wait-re-entrance}
 
