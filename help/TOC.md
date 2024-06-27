@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 98%
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [Warnhinweise](using/reports/alerts.md)
    + [Arbeiten mit Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Ausschlussgründe](using/reports/exclusion-list.md)
-+ Neue Reporting-Oberfläche (Beta){#channel-report}
++ Neue Reporting-Oberfläche (LA){#channel-report}
    + [Erste Schritte mit der neuen Reporting-Oberfläche](using/reports/report-gs-cja.md)
    + [Verwalten von Berichten](using/reports/report-cja-manage.md)
    + [Journey-Bericht](using/reports/journey-global-report-cja.md)

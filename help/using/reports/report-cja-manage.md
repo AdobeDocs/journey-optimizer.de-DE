@@ -7,15 +7,16 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 34%
+source-wordcount: '312'
+ht-degree: 35%
 
 ---
 
-# Berichte verwalten {#channel-cja-manage}
+# Verwalten von Berichten {#channel-cja-manage}
 
 ## Analysieren in Customer Journey Analytics {#analyze}
 
@@ -70,5 +71,3 @@ Sie können Ihre Berichte einfach in PDF- oder CSV-Format exportieren, sodass Si
 Ihr Bericht steht nun zum Anzeigen, Herunterladen oder Freigeben in einer PDF-Datei zur Verfügung.
 
 >[!ENDTABS]
-
-

@@ -7,12 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 13%
 
 ---
 
@@ -51,6 +51,6 @@ Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilit�
 
 ## Anleitungsvideo{#video}
 
-Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zugreifen zu können.
+Im folgenden Video erfahren Sie, wie Sie die erweiterte Journey Optimizer-Berichterstellung mit Customer Journey Analytics verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

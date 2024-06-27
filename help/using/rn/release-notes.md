@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 76%
+source-wordcount: '1032'
+ht-degree: 75%
 
 ---
 
@@ -74,7 +74,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Reporting mit Customer Journey Analytics (Beta)</strong><br/></th>
+<th><strong>Berichterstellung mit Customer Journey Analytics (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
