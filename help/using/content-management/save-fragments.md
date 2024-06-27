@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 45%
+source-wordcount: '460'
+ht-degree: 57%
 
 ---
 
 # Speichern von Inhalten als Fragment {#save-as-fragment}
 
-Beim Bearbeiten von Inhalt in [!DNL Journey Optimizer], können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden. Sie können Inhalte entweder als Fragment speichern [in Email Designer](#save-as-visual-fragment)oder [im Ausdruckseditor](#save-as-expression-fragment).
+Beim Bearbeiten von Inhalt in [!DNL Journey Optimizer], können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden. Sie können Inhalte entweder als Fragment speichern [von Email Designer](#save-as-visual-fragment)oder [im Ausdruckseditor](#save-as-expression-fragment).
 
 ## Speichern als visuelles Fragment {#save-as-visual-fragment}
 
-Gehen Sie wie folgt vor, um Inhalt aus Email Designer als Fragment zu speichern:
+Gehen Sie wie folgt vor, um Inhalte aus E-Mail-Designer als Fragment zu speichern:
 
 1. Klicken Sie im [E-Mail-Designer](../email/get-started-email-design.md) oben rechts im Bildschirm auf die Ellipse.
 
@@ -51,10 +51,6 @@ Gehen Sie wie folgt vor, um Inhalt aus Email Designer als Fragment zu speichern:
 
 1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
 
->[!NOTE]
->
->Die Veröffentlichung von Fragmenten wird im Laufe von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise eingeführt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie bitte, dass Fragmente nicht zur Verwendung in Journey und Kampagnen veröffentlicht werden müssen.
-
 ## Speichern als Ausdrucksfragment {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
@@ -83,7 +79,3 @@ Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 1. Das Fragment wird zum [Fragmentliste](#access-manage-fragments) mit dem **Entwurf** -Status. Es wird zu einem eigenständigen Fragment, das als jedes andere Ausdrucksfragment aus dieser Liste verwendet werden kann.
 
 1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->Die Veröffentlichung von Fragmenten wird im Laufe von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise eingeführt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie bitte, dass Fragmente nicht zur Verwendung in Journey und Kampagnen veröffentlicht werden müssen.

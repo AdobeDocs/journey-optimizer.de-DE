@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 44%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -49,10 +49,6 @@ Sie können auch festlegen, dass alle Fragmente oder nur die Elemente angezeigt 
 >title="Status neuer Fragmente"
 >abstract="Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status „Entwurf“, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie diese veröffentlichen, um sie „live“ zu schalten und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist die Benutzerberechtigung für Publish Fragment erforderlich."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Weitere Informationen zu Berechtigungen für Inhaltsfragmente"
-
->[!AVAILABILITY]
->
-> Beachten Sie, dass die Fragmentstatus über mehrere Tage nach der Journey Optimizer-Version vom Juni schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie, dass Fragmente nicht **Live** zur Verwendung in Ihren Journey und Kampagnen.
 
 Fragmente können mehrere Status haben:
 
@@ -102,10 +98,6 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 1. Sobald Ihre Änderungen fertig sind, klicken Sie auf die **Publish** -Schaltfläche, um Ihre Änderungen live zu stellen.
 
 Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journey und Kampagnen, mit Ausnahme von Inhalten, in denen die Vererbung vom ursprünglichen Fragment unterbrochen wurde. Erfahren Sie, wie Sie die Vererbung in der [Hinzufügen visueller Fragmente zu E-Mails](../email/use-visual-fragments.md#break-inheritance) und [Ausdrucksfragmente nutzen](../personalization/use-expression-fragments.md#break-inheritance) Abschnitte.
-
->[!AVAILABILITY]
->
->Beachten Sie, dass die Verbreitung von Fragmentänderungen in Live-Journey und -Kampagnen über einen Zeitraum von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise erfolgt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, werden Ihre Änderungen nicht an in Live-Journey oder Kampagnen verwendeten Inhalten weitergegeben.
 
 ## Verweise erkunden {#explore-references}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 33%
+source-wordcount: '646'
+ht-degree: 36%
 
 ---
 
@@ -72,10 +72,6 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
   ![](assets/fragment-expression-editor.png)
 
 Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern** Schaltfläche. Das Fragment wird erstellt und mit der **Entwurf** -Status. Sie können eine Vorschau davon anzeigen und sie veröffentlichen, um sie in Journey und Kampagnen verfügbar zu machen.
-
->[!NOTE]
->
->Die Veröffentlichung von Fragmenten wird im Laufe von mehreren Tagen nach der Journey Optimizer-Version vom Juni schrittweise eingeführt. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie bitte, dass Fragmente nicht zur Verwendung in Journey und Kampagnen veröffentlicht werden müssen.
 
 ## Vorschau erstellen und Fragment veröffentlichen {#publish}
 

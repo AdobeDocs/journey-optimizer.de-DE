@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 51%
+source-wordcount: '682'
+ht-degree: 56%
 
 ---
 
@@ -51,8 +51,6 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
    >[!CAUTION]
    >
    >Sie können jede **Entwurf** oder **Live** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status Entwurf darin verwendet wird. Bei der Journey- oder Kampagnenveröffentlichung wird ein Fehler bei Fragmententwürfen angezeigt, die Sie zur Veröffentlichung validieren müssen.
-   >
-   > Beachten Sie, dass die Fragmentstatus über mehrere Tage nach der Journey Optimizer-Version vom Juni schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie, dass Fragmente nicht **Live** zur Verwendung in Ihren Journey und Kampagnen.
 
 1. Wenn die Fragment-ID hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle Entwürfe oder Live-Journey/Kampagnen weitergeleitet, die diese Fragment-ID enthalten.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 47%
+source-wordcount: '669'
+ht-degree: 52%
 
 ---
 
@@ -54,8 +54,6 @@ Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
    >[!CAUTION]
    >
    >Sie können jede **Entwurf** oder **Live** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status Entwurf darin verwendet wird. Bei der Journey- oder Kampagnenveröffentlichung wird ein Fehler bei Fragmententwürfen angezeigt, die Sie zur Veröffentlichung validieren müssen.
-   >
-   > Beachten Sie, dass die Fragmentstatus über mehrere Tage nach der Journey Optimizer-Version vom Juni schrittweise eingeführt werden. Einige Benutzer haben zwar sofort Zugriff, bei anderen kann es aber zu einer Verzögerung kommen, bevor sie in ihren Umgebungen verfügbar werden. Wenn diese Verbesserung noch nicht in Ihrer Umgebung verfügbar ist, beachten Sie, dass Fragmente nicht **Live** zur Verwendung in Ihren Journey und Kampagnen.
 
 1. Wie jede andere Komponente können Sie das Fragment in Ihrem Inhalt verschieben.
 
