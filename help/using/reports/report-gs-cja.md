@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >
 > Um zur herkömmlichen Berichterstellung von Journey Optimizer zurückzukehren, müssen Sie einfach die **[!UICONTROL Neues Erlebnis verwenden]** -Option.
 
-Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzern, fundiertere Entscheidungen zu treffen.
+Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen besseren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen.
 
 * Wenn Sie eine Journey oder Sendungen im Kontext einer Journey auswählen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche.
 
@@ -48,3 +48,9 @@ Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilit�
 * Um auf das Customer Journey Analytics-Dashboard in Journey Optimizer zuzugreifen, aktivieren Sie einfach die **[!UICONTROL Neues Erlebnis verwenden]** in Ihrem Bericht ein-/ausschalten.
 
   ![](assets/cja-option.png)
+
+## Anleitungsvideo{#video}
+
+Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zugreifen zu können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
