@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1873'
 ht-degree: 98%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 98%
       + [Simulieren der Journey](using/building-journeys/journey-simulation.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publishing-the-journey.md)
    + Verwalten von Journeys{#manage-journey}
-      + [Beenden der Journey](using/building-journeys/end-journey.md)
-      + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Profileintrittsverwaltung](using/building-journeys/entry-management.md)
+      + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
@@ -73,9 +73,9 @@ ht-degree: 98%
       + [Sprung](using/building-journeys/jump.md)
       + [Aktualisieren von Profilen](using/building-journeys/update-profiles.md)
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
-      + [Übersicht](using/building-journeys/expression/expressionadvanced.md)
+      + [Arbeiten mit dem erweiterten Ausdruckseditor](using/building-journeys/expression/expressionadvanced.md)
       + Syntax {#syntax}
-         + [Allgemeines](using/building-journeys/expression/generalities.md)
+         + [Aufbau des erweiterten Ausdruckseditors](using/building-journeys/expression/generalities.md)
          + [Bedingte Anweisung](using/building-journeys/expression/conditional-instruction.md)
          + [Datentypen](using/building-journeys/expression/data-types.md)
          + [Feldverweise](using/building-journeys/expression/field-references.md)

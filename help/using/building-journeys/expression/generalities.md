@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aufbau
-description: Informationen zum erweiterten Ausdruckseditor
+title: Aufbau des erweiterten Ausdruckseditors
+description: Erfahren Sie mehr über die im erweiterten Ausdruckseditor verwendete Syntax.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 87%
 
 ---
 
 # Aufbau des erweiterten Ausdruckseditors {#syntax}
 
-## Klammern und Priorität von Ausdrücken{#parentheses-and-expression-priority}
+Syntaxgrundlagen bei der Verwendung der [Ausdruckseditor](expressionadvanced.md) sind unten aufgeführt. Beispiele für die Verwendung des erweiterten Ausdruckseditors finden Sie unter [diese Seite](advanced-editor-use-cases.md).
+
+## Klammern und Priorität von Ausdrücken {#parentheses-and-expression-priority}
 
 Klammern können verwendet werden, um einen komplexen Ausdruck lesbarer zu machen. _(&lt;Ausdruck>)_ entspricht _&lt;Ausdruck>_. Außerdem können mit Klammern die Auswertungsreihenfolge und die Assoziativität definiert werden.
 
@@ -30,7 +32,7 @@ Ausdrücke werden von links nach rechts ausgewertet. Die Assoziativität bei ari
 | `4 + 2 * 10` | <ul><li>„*“ hat Vorrang vor „+“: 2 * 10 wird ausgewertet als → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Klammern ändern die Priorität: (4 + 2) wird ausgewertet als → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Groß-/Kleinschreibung{#case-sensitivity}
+## Groß-/Kleinschreibung {#case-sensitivity}
 
 Im Folgenden finden Sie die verschiedenen Regeln zur Groß- und Kleinschreibung:
 
@@ -38,7 +40,7 @@ Im Folgenden finden Sie die verschiedenen Regeln zur Groß- und Kleinschreibung:
 * Bei allen Funktionsnamen ist die Groß-/Kleinschreibung zu berücksichtigen. Beispielsweise ist _inAudience()_ gültig, die Funktion _INAUDIENCE()_ dagegen nicht.
 * Bei Feldverweisen und konstanten Werten wird zwischen Groß- und Kleinschreibung unterschieden: Sie sind keine integrierten Elemente der Sprache (im Gegensatz zu Operatoren und Funktionen), sondern werden vom Endbenutzer verfasst.
 
-## Zurückgegebener Ausdruckstyp{#returned-expression-type}
+## Zurückgegebener Ausdruckstyp {#returned-expression-type}
 
 Je nach Verwendungskontext kann der Ausdruckseditor verschiedene Werte zurückgeben.
 

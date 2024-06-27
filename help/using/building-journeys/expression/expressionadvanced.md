@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informationen zum erweiterten Ausdruckseditor
+title: Arbeiten mit dem erweiterten Ausdruckseditor
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 97%
 
 ---
 
-# Informationen zum erweiterten Ausdruckseditor {#about-the-advanced-expression-editor}
+# Arbeiten mit dem erweiterten Ausdruckseditor {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
@@ -24,17 +24,18 @@ ht-degree: 100%
 
 Verwenden Sie den erweiterten Journey-Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Bedingung für die Datenquelle definieren.
 
+Er ist auch immer dann verfügbar, wenn Sie Aktionsparameter definieren müssen, die bestimmte Datenmanipulationen erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen aus der Datenquelle nutzen. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert entsprechend den Ereignissen, die in der Journey hinzugefügt werden.
+
+![](../assets/journey65.png)
+
+
+Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Sammlungen bearbeiten, z. B. Erlebnisereignisse.
+
 >[!NOTE]
 >
 >Die im erweiterten Journey-Ausdruckseditor verfügbaren Funktionen und Fähigkeiten unterscheiden sich von denen im [Personalisierungseditor](../../personalization/functions/functions.md).
 
-Er ist auch immer dann verfügbar, wenn Sie Aktionsparameter definieren müssen, die bestimmte Datenmanipulationen erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen aus der Datenquelle nutzen. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert entsprechend den Ereignissen, die in der Journey hinzugefügt werden.
-
-Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Sammlungen bearbeiten, z. B. Erlebnisereignisse.
-
-![](../assets/journey65.png)
-
-_Benutzeroberfläche des erweiterten Ausdruckseditors_
+## Zugriff auf den erweiterten Ausdruckseditor {#accessing-the-advanced-expression-editor}
 
 Der erweiterte Ausdruckseditor kann für folgende Aufgaben verwendet werden:
 
@@ -50,8 +51,6 @@ Wenn möglich, können Sie mithilfe der Schaltfläche **[!UICONTROL Erweiterter 
 >
 >Aktionsparameter können durch die Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben je nach Ausdruck einen bestimmten Datentyp zurück.
 
-## Zugreifen auf den erweiterten Ausdruckseditor {#accessing-the-advanced-expression-editor}
-
 Sie können auf verschiedene Weise auf den erweiterten Ausdruckseditor zugreifen:
 
 * Wenn Sie eine Bedingung für die Datenquelle erstellen, können Sie auf den erweiterten Editor zugreifen, indem Sie auf **[!UICONTROL Erweiterter Modus]** klicken.
@@ -61,7 +60,7 @@ Sie können auf verschiedene Weise auf den erweiterten Ausdruckseditor zugreifen
 * Wenn Sie einen benutzerdefinierten Timer erstellen, wird der erweiterte Editor direkt angezeigt.
 * Wenn Sie Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
 
-## Vorstellung der Benutzeroberfläche{#discovering-the-interface}
+## Entdecken Sie die Benutzeroberfläche {#discovering-the-interface}
 
 In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
