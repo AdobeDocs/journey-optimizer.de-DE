@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 36%
 
 ---
@@ -77,7 +77,7 @@ Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern** Scha
 
 >[!NOTE]
 >
->Um ein Fragment zu veröffentlichen, muss die **Publish Fragment** verwandte Berechtigung. [Weitere Informationen zu Berechtigungen](../administration/ootb-permissions.md)
+>Um ein Fragment zu veröffentlichen, muss die [Publish Fragment](../administration/ootb-product-profiles.md#content-library-manager) Benutzerberechtigungen.
 
 Wenn Ihr Fragment für die Live-Schaltung bereit ist, können Sie es in der Vorschau anzeigen und veröffentlichen, um es in Ihren Journey und Kampagnen verfügbar zu machen. Gehen Sie dazu wie folgt vor:
 
