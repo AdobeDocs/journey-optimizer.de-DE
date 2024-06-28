@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1613'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
    >
    >Wenn Sie den Typ **[!UICONTROL Systemgeneriert]** auswählen, sind nur Schemata mit dem Feld vom Typ „eventID“ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
 
-1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Verwenden der <!--simple or advanced--> Ausdruckseditor die Bedingung definieren, die vom System verwendet wird, um die Ereignisse zu identifizieren, die Ihre Journey Trigger werden.
+1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem <!--simple or advanced--> Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
 
 ![](assets/jo-event6.png)
 
@@ -156,23 +156,23 @@ Wenn Sie einen anderen Schlüssel verwenden müssen, z. B. eine CRM-ID oder ein
 
    ![](assets/journey16.png)
 
-1. Wählen Sie in der Liste der Payload-Felder das Feld aus, das als Schlüssel ausgewählt wurde.
+1. Wählen Sie das als Schlüssel ausgewählte Feld in der Liste der Payload-Felder aus. 
 
 Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Mit dem Schlüssel, der einem Namespace zugeordnet ist (siehe [diesen Abschnitt](../event/about-creating.md#select-the-namespace)), können Abfragen in Adobe Experience Platform durchgeführt werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
 Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
 
-### Ausdruckseditor {#adv-exp-editor}
+### Der erweiterte Ausdruckseditor {#adv-exp-editor}
 
 
-Beim Definieren der Profilkennung können Sie zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung aus zwei Ereignisfeldern).
+Sie können beim Definieren der Profilkennung auch zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung zweier Felder der Ereignisse).
 
 ![](assets/journey20.png)
 
-Sie haben Zugriff auf die erweiterten Ausdrucksfunktionen über die **[!UICONTROL Erweiterter Modus]** -Schaltfläche, wenn Sie zusätzliche Manipulationen durchführen möchten. Mit diesen Funktionen können Sie die Werte bearbeiten, die für bestimmte Abfragen wie das Ändern von Formaten verwendet werden, indem Sie Feldverkettungen durchführen, wobei nur ein Teil eines Felds (z. B. die 10 ersten Zeichen) berücksichtigt wird. Weitere Informationen finden Sie auf dieser [Seite](../building-journeys/expression/expressionadvanced.md).
+Über die Schaltfläche **[!UICONTROL Erweiterter Modus]** haben Sie Zugriff auf die erweiterten Ausdrucksfunktionen, wenn Sie zusätzliche Manipulationen durchführen möchten. Mit diesen Funktionen können Sie die Werte bearbeiten, die für bestimmte Abfragen wie das Ändern von Formaten verwendet werden, indem Sie Feldverkettungen durchführen, wobei nur ein Teil eines Felds (z. B. die 10 ersten Zeichen) berücksichtigt wird. Weitere Informationen finden Sie auf dieser [Seite](../building-journeys/expression/expressionadvanced.md).
 
 >[!AVAILABILITY]
 >
->Der erweiterte Ausdruckseditor ist nur für eine Reihe von Organisationen verfügbar (LA).
+>Der erweiterte Ausdruckseditor ist nur für ausgewählte Organisationen verfügbar (LA).
 
 ## Vorschau der Payload {#preview-the-payload}
 

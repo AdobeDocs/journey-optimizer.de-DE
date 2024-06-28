@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Direkt-Mails
+title: Konfigurieren von Direkt-Mail
 description: Erfahren Sie, wie Sie einen Briefpostkanal in Journey Optimizer konfigurieren
 feature: Direct Mail, Surface
 topic: Content Management
@@ -8,13 +8,13 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Konfigurieren von Briefpost {#direct-mail-configuration}
+# Konfigurieren von Direkt-Mail {#direct-mail-configuration}
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, die von Briefpostanbietern benötigten Dateien zu personalisieren und zu generieren, um Briefe an Ihre Kunden zu senden.
 
@@ -78,19 +78,19 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Auswählen **Amazon S3** als **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
+1. Wählen Sie **Amazon S3** als **[!UICONTROL Server-Typ]** zum Exportieren der Direkt-Mail-Dateien.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus.
+1. Geben Sie die Details und Anmeldedaten für Ihren Server ein.
 
-   * **AWS-Behältername**:Informationen darüber, wo Sie Ihren AWS-Behälternamen finden, erfahren Sie unter [diese Seite](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **Name des AWS-Buckets**: Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **AWS-Zugriffsschlüssel**: Informationen darüber, wo Sie Ihre AWS-Zugriffsschlüssel-ID finden, erfahren Sie unter [diese Seite](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **AWS-Zugriffsschlüssel**: Informationen dazu, wo Sie die ID Ihres AWS-Zugangsschlüssels finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **AWS-Geheimschlüssel**: Informationen darüber, wo Sie Ihren geheimen AWS-Schlüssel finden, erfahren Sie unter [diese Seite](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **Geheimer AWS-Schlüssel**: Informationen dazu, wo Sie Ihren geheimen AWS-Schlüssel finden, erhalten Sie auf [dieser Seite](https://aws.amazon.com/de/blogs/security/wheres-my-secret-access-key/).
 
-   * **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** wo sich die Serverinfrastruktur befindet. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
+   * **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** in der sich die Server-Infrastruktur befinden wird. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -108,19 +108,19 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. SFTP auswählen als **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
+1. Wählen Sie SFTP als **[!UICONTROL Server-Typ]** zum Exportieren der Direkt-Mail-Dateien.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
-1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus:
+1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
-   * **Konto**: Kontoname, der für die Verbindung zum SFTP-Server verwendet wird.
+   * **Konto**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
 
-   * **Server-Adresse**: &#x200B; URL des SFTP-Servers.
+   * **Server-Adresse**: URL des SFTP-Servers.
 
-   * **Port**: Nummer des FTP-Verbindungsports.
+   * **Port**: Port-Nummer der FTP-Verbindung.
 
-   * **Passwort**: &#x200B; Passwort, das für die Verbindung mit dem SFTP-Server verwendet wird.
+   * **Passwort**: Passwort, das für die Verbindung zum SFTP-Server verwendet wird.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
@@ -138,21 +138,21 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Azure auswählen **[!UICONTROL Servertyp]** zum Exportieren der Briefpost-Dateien.
+1. Wählen Sie den Azure-**[!UICONTROL Server-Typ]** aus, den Sie zum Exportieren der Direkt-Mail-Dateien verwenden möchten.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
-1. Füllen Sie die Details und Anmeldedaten für Ihren Server aus:
+1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
-   * **Azure Connection String**: Suchen Sie Ihre **Azure Connection String**, siehe [diese Seite](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Azure-Verbindungszeichenfolge**: Informationen dazu, wie Sie Ihre **Azure-Verbindungszeichenfolge** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-     Die **Azure Connection String** sollte dem folgenden Format entsprechen:
+     Die **Azure-Verbindungszeichenfolge** sollte dem folgenden Format entsprechen:
 
      `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-   * **Container-Name**: Suchen Sie Ihre **Container-Name**, siehe [diese Seite](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
 
-     Die **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den Dateinamen der Briefpost-Kampagne, um den gewünschten Pfad einzuschließen.
+     Der **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den Dateinamen der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen.
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 

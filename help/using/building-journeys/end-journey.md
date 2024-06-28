@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 
-Nach den 91 Tagen [globale Zeitüberschreitung](journey-properties.md#timeout), wechselt eine Audience lesen -Journey zu **Abgeschlossen** -Status. Dieses Verhalten ist nur für 91 Tage eingestellt (d. h. [Journey globaler Timeout-Wert](journey-properties.md#global_timeout)), da alle Informationen über Profile, die an der Journey teilgenommen haben, 91 Tage nach ihrer Eingabe entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach Ablauf der 91 Tage.
+Nach der [maximalen globalen Wartezeit](journey-properties.md#timeout) von 91 Tagen wird der Status der Zielgruppen-lesen-Journey in **Beendet** geändert. Dieses Verhalten wird nur für 91 Tage festgelegt (d. h. für den [Standardwert der maximalen globalen Wartezeit der Journey](journey-properties.md#global_timeout)), da alle Informationen zu Profilen, die in die Journey eingetreten sind, 91 Tage nach ihrem Eintritt entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach der 91-tägigen maximalen Wartezeit.
 
 Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-properties.md#global_timeout).
 

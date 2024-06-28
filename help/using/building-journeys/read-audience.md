@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Journey mit einmaliger Leserichtung wechseln zur **Abgeschlossen** Status 91 Tage ([Journey global timeout](journey-properties.md#global_timeout)) nach der Journey-Ausführung. Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 91 Tage nach dem letzten Auftreten beendet.
+>Einmalige „Zielgruppe lesen“-Journeys wechseln 91 Tage nach der Ausführung der Journey in den Status **Beendet** ([maximale globale Wartezeit der Journey](journey-properties.md#global_timeout)).  Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 91 Tage nach dem letzten Auftreten beendet.
 
 ## Testen und Veröffentlichen der Journey {#testing-publishing}
 
