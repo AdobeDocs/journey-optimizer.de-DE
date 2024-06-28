@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Globaler Bericht zur Journey
-description: Erfahren Sie, wie Sie Daten aus dem Journey-Bericht verwenden
+title: Globaler Journey-Bericht
+description: Informationen zum Verwenden von Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
@@ -12,19 +12,19 @@ exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '4176'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Journey-Bericht {#journey-global-report}
 
-Die **Journey-Bericht** fungiert als allumfassendes Dashboard, das eine Analyse wichtiger Metriken im Zusammenhang mit Ihrer Journey bereitstellt. Dies umfasst Details wie die Anzahl der eingegebenen Profile und Instanzen fehlgeschlagener Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
+Der **Journey-Bericht** dient als allumfassendes Dashboard, das eine Analyse der wichtigsten Metriken bereitstellt, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingetretenen Profile und Instanzen fehlgeschlagener individueller Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
 
-**Journey-Bericht** können direkt von Ihrer Journey mit der **[!UICONTROL Bericht anzeigen]** Schaltfläche.
+Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den **Journey-Bericht** zugreifen.
 
 ![](assets/gs-cja-report-3.png)
 
-Die **[!UICONTROL Journey-Bericht]** -Seite mit den folgenden Registerkarten angezeigt, je nach den Nachrichtenaktivitäten in Ihrer Journey:
+Die Seite **[!UICONTROL Journey-Bericht]** wird je nach den Nachrichtenaktivitäten in Ihrer Journey mit den folgenden Registerkarten angezeigt:
 
 * [Journey](#journey-global)
 * [E-Mail](#email-global)
@@ -32,53 +32,53 @@ Die **[!UICONTROL Journey-Bericht]** -Seite mit den folgenden Registerkarten ang
 * [SMS](#sms-global)
 * [In-App](#in-app-global)
 * [Web](#web-cja)
-* [Briefpost](#direct-mail-cja)
+* [Direkt-Mail](#direct-mail-cja)
 
-Weitere Informationen zum Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
 ## Journey-Überblick {#journey-global}
 
-Die **[!UICONTROL Journey]** gibt Ihnen einen klaren Überblick über die wichtigsten Tracking-Daten zu Ihrer Journey.
+Mit dem **[!UICONTROL Journey-Bericht]** erhalten Sie einen klaren Überblick über die wichtigsten Tracking-Daten zu Ihrer Journey.
 
 ### Journey-KPIs {#journey-perfomance}
 
 ![](assets/cja-journey-kpis.png)
 
-Die **[!UICONTROL Journey]** Key Performance Indicators (KPIs) dienen als allumfassendes Dashboard und liefern eine Analyse der wesentlichen Metriken, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingegebenen Profile und die Anzahl der fehlgeschlagenen einzelnen Journeys und bietet einen umfassenden Einblick in die Effektivität und den Grad der Interaktion Ihrer Journeys.
+Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumfassendes Dashboard und liefern eine Analyse der wichtigsten Metriken, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingegebenen Profile und die Anzahl der fehlgeschlagenen individuellen Journeys und bietet einen umfassenden Einblick in die Effektivität und den Grad der Interaktion Ihrer Journeys.
 
-+++ Weitere Informationen zu Journey-KPI-Metriken
++++ Weitere Informationen zu den Metriken für die Journey-KPIs
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben
 
-* **[!UICONTROL Journey]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
-* **[!UICONTROL Journey beendet]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
+* **[!UICONTROL Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
 
-* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
 +++
 
-### Journey stats {#journey-stats}
+### Journey-Statistiken {#journey-stats}
 
 ![](assets/cja-journey-stats.png)
 
-Die **[!UICONTROL Journey-Statistiken]** -Tabelle bietet eine detaillierte Zusammenfassung wichtiger Daten zu Ihren Journey. Er enthält wichtige Metriken wie die Anzahl der Fehler und erfolgreichen Einträge und bietet wertvolle Einblicke in die Leistung und Reichweite Ihrer E-Mails und Journey.
+Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusammenfassung wichtiger Daten zu Ihren Journeys. Sie enthält Schlüsselmetriken wie die Anzahl der Fehler und erfolgreichen Eintritte und bietet wertvolle Erkenntnisse zur Performance und Reichweite Ihrer E-Mails und Journeys.
 
 +++ Weitere Informationen zu den Journey-Statistik-Metriken
 
-* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben.
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben
 
-* **[!UICONTROL Journey]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
-* **[!UICONTROL Journey beendet]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
+* **[!UICONTROL Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
 
-* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-* **[!UICONTROL Eindeutige Journey-Zentren]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+* **[!UICONTROL Eindeutige Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Eindeutige Journey-Ausstiege]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+* **[!UICONTROL Eindeutige Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Einzelne Journey-Fehler]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Eindeutige Journey-Fehler]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
@@ -86,72 +86,72 @@ Die **[!UICONTROL Journey-Statistiken]** -Tabelle bietet eine detaillierte Zusam
 
 ![](assets/cja-journey-canvas.png)
 
-Die **[!UICONTROL Journey Canvas]** -Widget ermöglicht es Ihnen, während der Navigation durch Ihre Journey visuell den Verlauf Ihrer Zielprofile zu verfolgen.
+Mit dem Widget **[!UICONTROL Journey-Arbeitsfläche]** können Sie den Weg Ihrer Zielprofile durch die Journey visuell verfolgen.
 
-Verbessern Sie die Anpassung der Arbeitsfläche mit den folgenden Optionen:
+Verbessern Sie die Anpassung Ihrer Arbeitsfläche mit den folgenden Optionen:
 
-* Fügen Sie den gewünschten Aktivitätstyp, z. B. Nachrichten oder Bedingungen, hinzu oder entfernen Sie ihn aus dem **[!UICONTROL Knotentyp]** Dropdown-Menü.
-* Passen Sie die **[!UICONTROL Prozentwert]** um die Flussverteilung zwischen verschiedenen Journey-Pfaden zu bestimmen.
-* Anpassen Ihrer **[!UICONTROL Pfeileinstellungen]** , um Beschriftungen, Bedingungen einzuschließen oder sich für eine saubere Anzeige zu entscheiden.
-* Aktivieren Sie die **[!UICONTROL Fallout anzeigen]** zur Visualisierung von Profilen, die Ihre Journey direkt auf der Arbeitsfläche verlassen haben.
+* Fügen Sie den gewünschten Aktivitätstyp, z. B. Nachrichten oder Bedingungen, hinzu oder entfernen Sie ihn aus dem Dropdown-Menü **[!UICONTROL Knotentyp]**.
+* Passen Sie den **[!UICONTROL Prozentwert]** an, um die Flussverteilung zwischen verschiedenen Journey-Pfaden zu bestimmen.
+* Passen Sie Ihre **[!UICONTROL Pfeileinstellungen]** an, um Labels und Bedingungen einzuschließen, oder entscheiden Sie sich für eine saubere Anzeige.
+* Aktivieren Sie die Option **[!UICONTROL Fallout anzeigen]**, um direkt auf der Arbeitsfläche Profile zu visualisieren, die Ihre Journey verlassen haben.
 
-## Aktionsleistung {#action-performance}
+## Aktions-Performance {#action-performance}
 
-### Leistung im Zeitverlauf {#action-overtime}
+### Performance im Zeitverlauf {#action-overtime}
 
 ![](assets/cja-journey-action-performance.png)
 
-Die **[!UICONTROL Leistung im Zeitverlauf]** Mit diesem Diagramm können Sie die Anzahl der Profile identifizieren und analysieren, die den Kriterien entsprechen, damit sie für Ihre Aktionen als Zielprofile gelten. Diese Visualisierung bietet wertvolle Einblicke in die Effektivität Ihrer Strategien und hilft Ihnen bei datengesteuerten Entscheidungen zur Leistungsoptimierung.
+Anhand des Graphs **[!UICONTROL Performance im Zeitverlauf]** können Sie die Anzahl der Profile identifizieren und analysieren, die den Kriterien entsprechen, damit sie für Ihre Aktionen als Zielprofile gelten. Diese Visualisierung bietet wertvolle Erkenntnisse zur Effektivität Ihrer Strategien und hilft Ihnen, datengesteuerte Entscheidungen zur Leistungsoptimierung zu treffen.
 
-### Aktionsübersicht {#action-overview}
+### Aktionsüberblick {#action-overview}
 
 ![](assets/cja-journey-action-overview.png)
 
-Die **[!UICONTROL Aktionsübersicht]** -Tabelle dient als umfassendes Dashboard, das eine Analyse der Schlüsselmetriken im Zusammenhang mit den Aktionen in Ihrer Journey anbietet. Dazu gehören wichtige Details wie die Anzahl der Interaktionen und die Clickthrough-Rate.
+Die Tabelle **[!UICONTROL Aktionsüberblick]** dient als umfassendes Dashboard, das eine Analyse der Schlüsselmetriken im Zusammenhang mit den Aktionen in Ihrer Journey bietet. Dazu gehören wichtige Details wie die Anzahl der Interaktionen und die Klickrate.
 
-+++ Weitere Informationen zu den Metriken mit Aktionsübersicht
++++ Weitere Informationen zu Aktionsüberblickmetriken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die für Ihre Aktionen als Zielprofile gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Aktionen eignen.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Aktion interagiert haben.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Aktion interagiert haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Aktionen.
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Aktionen in Bezug auf die Gesamtzahl der gesendeten Aktionen.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Aktionen im Verhältnis zur Gesamtzahl der gesendeten Aktionen.
 
 +++
 
-## Ereignisleistung {#events-performance}
+## Ereignis-Performance {#events-performance}
 
-### Leistung im Zeitverlauf {#event-overtime}
+### Performance im Zeitverlauf {#event-overtime}
 
 ![](assets/cja-journey-performance-event.png)
 
-Die **[!UICONTROL Leistung im Zeitverlauf]** -Diagramm ermöglicht es Ihnen, die Anzahl der Profile zu identifizieren und zu analysieren, die als Zielprofile für Ihre Ereignisse gelten. Mit diesem leistungsstarken Tool können Sie Trends und Muster im Zeitverlauf verfolgen und erhalten wertvolle Einblicke zur Optimierung Ihrer Ereignisstrategien.
+Anhand des Graphen **[!UICONTROL Performance im Zeitverlauf]** können Sie die Anzahl der Profile identifizieren und analysieren, die sich als Zielprofile für Ihre Ereignisse eignen. Mit diesem leistungsstarken Tool können Sie Trends und Muster im Zeitverlauf verfolgen und erhalten wertvolle Erkenntnisse zur Optimierung Ihrer Ereignisstrategien.
 
-### Ereignisübersicht {#event-overview}
+### Ereignisüberblick {#event-overview}
 
 ![](assets/cja-journey-events-overview.png)
 
-Die **[!UICONTROL Ereignisübersicht]** zeigt an, wie viele Profile im Zeitverlauf Ihren Ereigniskriterien entsprechen. Mit diesem Tool können Sie Muster in Qualifizierungsraten identifizieren, um Ihre Ereignisstrategie zu verfeinern.
+Die Tabelle **[!UICONTROL Ereignisüberblick]** zeigt an, wie viele Profile im Zeitverlauf Ihren Ereigniskriterien entsprechen. Mit diesem Tool können Sie Muster in Qualifizierungsraten identifizieren, um Ihre Ereignisstrategie zu verfeinern.
 
 +++ Weitere Informationen zu den Journey-Statistik-Metriken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Ereignisse gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Ereignisse eignen.
 
 +++
 
 ## E-Mail-Details {#email-global}
 
-In Ihrem Journey-Bericht wird die **[!UICONTROL Email]** im Tab werden die wichtigsten Informationen zu den auf Ihrer Journey gesendeten E-Mails aufgeführt.
+In Ihrem Journey-Bericht enthält die Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mails, die in Ihrer Journey gesendet wurden.
 
-### Zugestellt vs. Klick-Trend {#delivered-click}
+### Versand- vs. Klick-Trend {#delivered-click}
 
 ![](assets/cja-journey-email-delivered.png)
 
-Die **[!UICONTROL Zugestellt vs. Klick-Trend]** Das Diagramm zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren E-Mails und bietet wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt.
+Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren E-Mails und bietet wertvolle Erkenntnisse zur Interaktion verschiedener Domains mit Ihren Inhalten.
 
-+++ Weitere Informationen zu den Metriken Zugestellt vs. Klick-Trend
++++ Weitere Informationen zu den Metriken, die den Versand- vs. Klick-Trend betreffen
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
@@ -163,15 +163,15 @@ Die **[!UICONTROL Zugestellt vs. Klick-Trend]** Das Diagramm zeigt eine detailli
 
 ![](assets/cja-journey-email-delivery-stat.png)
 
-Die **[!UICONTROL Versandstatus]** -Diagramm zeigt die Leistung Ihrer E-Mails auf einen Blick. Verfolgen Sie wichtige Metriken wie Sendungen und Bounces, um einen schnellen Überblick über die Effizienz Ihrer E-Mail-Journey zu erhalten.
+Der Graph **[!UICONTROL Versandstatus]** zeigt die Performance Ihrer E-Mails auf einen Blick. Verfolgen Sie Schlüsselmetriken wie Sendungen und Bounces, um einen schnellen Überblick über die Effizienz Ihrer E-Mail-Journey zu erhalten.
 
-+++ Weitere Informationen zu Versandstatus-Metriken
++++ Weitere Informationen zu den Versandstatus-Metriken
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Versandvorgangs kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
@@ -181,23 +181,23 @@ Die **[!UICONTROL Versandstatus]** -Diagramm zeigt die Leistung Ihrer E-Mails au
 
 ![](assets/cja-journey-email-sending-stat.png)
 
-Die **[!UICONTROL Versandstatistiken]** bietet einen klaren Überblick über die Leistung Ihrer E-Mails in Ihren Journey. Sie verfolgt wichtige Metriken wie Versandraten und Interaktionen und bietet Ihnen wertvolle Einblicke zur Optimierung Ihrer E-Mail-Strategie für eine bessere Reichweite und Interaktion.
+Die Tabelle **[!UICONTROL Versandstatistikzn]** bietet einen klaren Überblick über die Leistung Ihrer E-Mails in Ihren Journeys. Sie enthält Schlüsselmetriken wie die Versandrate und die Zielgruppengröße und bietet Ihnen wertvolle Erkenntnisse zur Effektivität und Reichweite Ihrer Journeys.
 
-+++ Weitere Informationen zu Versandstatistiken-Metriken
++++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der während des Sendevorgangs verarbeiteten E-Mails.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten E-Mails.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der von Adobe Journey Optimizer ausgeschlossenen Profile.
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
@@ -208,19 +208,19 @@ Die **[!UICONTROL Versandstatistiken]** bietet einen klaren Überblick über die
 
 Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detaillierten Überblick über die Profilaktivität in Bezug auf E-Mails, die in Ihrer Journey enthalten sind. Dazu gehören Metriken zu Öffnungen, Klicks und andere relevante Interaktionsindikatoren, die einen umfassenden Überblick darüber bieten, wie Profile mit Ihrem E-Mail-Inhalt interagieren.
 
-+++ Weitere Informationen zu Trackingstatistiken - Metriken
++++ Weitere Informationen zu Metriken für „Tracking-Statistiken“
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit der E-Mail interagiert haben.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der E-Mail interagiert haben.
 
-* **[!UICONTROL Clickthrough-Öffnungsrate (CTOR)]**: Gibt an, wie oft die E-Mail geöffnet wurde.
+* **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der E-Mail.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 
-* **[!UICONTROL E-Mail wird geöffnet]**: Gibt an, wie oft Ihre E-Mails auf einem Journey geöffnet wurden.
+* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Journey.
 
-* **[!UICONTROL Einzelöffnungen einer E-Mail]**: Prozentsatz der geöffneten E-Mails.
+* **[!UICONTROL Eindeutige E-Mail-Öffnungen]**: Prozentsatz der geöffneten E-Mails.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
@@ -232,30 +232,30 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 ![](assets/cja-journey-email-domain.png)
 
-Die **[!UICONTROL E-Mail-Domänen]** bietet eine detaillierte Aufschlüsselung der E-Mails nach Domain, die umfassende Einblicke in die Leistungsmetriken Ihrer E-Mail-Journey bietet. Diese umfassende Analyse ermöglicht Ihnen, das Verhalten verschiedener Domänen als Reaktion auf Ihren E-Mail-Inhalt zu verstehen.
+Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüsselung der E-Mails nach Domain, die umfassende Erkenntnisse zu Performance-Metriken Ihrer E-Mail-Journeys bietet. Mit dieser umfassenden Analyse können Sie das Verhalten verschiedener Domains als Reaktion auf Ihre E-Mail-Inhalte nachvollziehen.
 
-+++ Weitere Informationen zu E-Mail-Domainmetriken
++++ Weitere Informationen zu Metriken für E-Mail-Domains
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten E-Mails.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL E-Mail wird geöffnet]**: Gibt an, wie oft Ihre E-Mails auf einem Journey geöffnet wurden.
+* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Journey.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der Fehler, die während des Versandvorgangs kumuliert wurden, und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten E-Mails.
+* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 +++
 
-### Labels getrackter Links {#track-link-label}
+### Bezeichnungen für verfolgten Link {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
-Die **[!UICONTROL Getrackte Linkbeschriftungen]** bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren E-Mails, in denen diejenigen hervorgehoben werden, die den höchsten Besuchertraffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren E-Mails, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über die Metriken zu Getrackten Linkbeschriftungen
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 
@@ -263,55 +263,55 @@ Die **[!UICONTROL Getrackte Linkbeschriftungen]** bietet einen umfassenden Über
 
 +++
 
-### Getrackte Link-URLs {#track-link-url}
+### Nachverfolgte Link-URLs {#track-link-url}
 
 ![](assets/cja-journey-tracked-link-urls.png)
 
-Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihrer E-Mail, die den höchsten Besuchertraffic aufweisen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren E-Mails verbessern.
+Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihrer E-Mail, die den meisten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren E-Mails verbessern.
 
-+++ Weitere Informationen zu den Metriken für getrackte Link-URLs
++++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
-### E-Mail-Betreffe {#email-subject}
+### E-Mail-Betreff {#email-subject}
 
 ![](assets/cja-journey-email-subjects.png)
 
-Die **[!UICONTROL E-Mail-Betreff]**  -Tabelle bietet einen umfassenden Überblick über E-Mail-Themen, die den höchsten Besucher-Traffic erzielt haben. Diese Ressource bietet wertvolle Einblicke in die Interaktionsdynamik von Zielgruppen.
+Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick über E-Mail-Betreffzeilen, die den höchsten Besucher-Traffic angezogen haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu Metriken zu E-Mail-Themen
++++ Weitere Informationen zu Metriken für den E-Mail-Betreff
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre E-Mails gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre E-Mails eignen.
 
 +++
 
 ### Bounce-Gründe {#email-bounce-reasons}
 
-Die **[!UICONTROL Bounce-Gründe]** -Tabelle werden die verfügbaren Daten zu Bounce Messages kompiliert und bietet detaillierte Einblicke in die spezifischen Gründe für E-Mail-Bounces.
+Die Tabelle **[!UICONTROL Bounce-Gründe]** kompiliert die verfügbaren Daten zu nicht zugestellten Nachrichten und bietet detaillierte Einblicke in die spezifischen Ursachen von nicht zugestellten E-Mails.
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
 
-### Ausschlussgründe {#email-excluded}
+### Gründe für Ausschluss {#email-excluded}
 
-Die **[!UICONTROL Ausgeschlossene Gründe]** -Tabelle zeigt eine umfassende Übersicht der verschiedenen Faktoren, die dazu geführt haben, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden, sodass die Nachricht nicht empfangen wurde.
+Die Tabelle **[!UICONTROL Gründe für Ausschluss]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass die Nachricht nicht empfangen wurde.
 
 Auf [dieser Seite](exclusion-list.md) finden Sie die umfassende Liste der Gründe für den Ausschluss.
 
 ### Fehlergründe {#email-errors}
 
-Die **[!UICONTROL Fehlerursachen]** bietet Einblick in die spezifischen Fehler, die während des Versandvorgangs aufgetreten sind. Diese Tabelle bietet wertvolle Informationen über Art und Auftreten von Fehlern.
+Die Tabelle **[!UICONTROL Fehlergründe]** bietet einen detaillierten Überblick über die Fehler, die während des Sendevorgangs aufgetreten sind, mit wichtigen Informationen über Art und Auftreten von Fehlern.
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-global}
 
-In Ihrem Journey-Bericht wird die **[!UICONTROL Push-Benachrichtigung]** im Tab werden die wichtigsten Informationen zu den auf Ihrer Journey gesendeten Push-Benachrichtigungen aufgeführt.
+In Ihrem Journey-Bericht enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Benachrichtigungen, die in Ihrer Journey gesendet wurden.
 
 ## Push-Benachrichtigung {#push-notification}
 
@@ -319,23 +319,23 @@ In Ihrem Journey-Bericht wird die **[!UICONTROL Push-Benachrichtigung]** im Tab 
 
 ![](assets/cja-campaign-push-sending-stat.png)
 
-Die **[!UICONTROL Versandstatistiken]** -Tabelle zeigt Ihnen, wie Ihre Push-Benachrichtigungen funktionieren. Er enthält wichtige Metriken wie die Zustellrate und die Zielgruppengröße und bietet Ihnen wertvolle Einblicke in die Effektivität und Reichweite Ihrer Journey.
+Anhand der Tabelle **[!UICONTROL Versandstatistiken]** können Sie die Performance Ihrer Push-Benachrichtigungen nachvollziehen. Sie enthält Schlüsselmetriken wie die Versandrate und die Zielgruppengröße und bietet Ihnen wertvolle Erkenntnisse zur Effektivität und Reichweite Ihrer Journeys.
 
-+++ Weitere Informationen zu Versandstatistiken-Metriken
++++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre SMS-Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der während der Analyse verarbeiteten Push-Benachrichtigungen.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten Push-Benachrichtigungen.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für die Push-Benachrichtigung.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Push-Benachrichtigungen im Verhältnis zur Gesamtzahl der gesendeten Push-Benachrichtigungen
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Versandvorgangs kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der Push-Benachrichtigungen.
+* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der Push-Benachrichtigungen.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die den Versand an Profile verhinderten.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der von Adobe Journey Optimizer ausgeschlossenen Profile.
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
@@ -343,46 +343,46 @@ Die **[!UICONTROL Versandstatistiken]** -Tabelle zeigt Ihnen, wie Ihre Push-Bena
 
 ![](assets/cja-campaign-push-track-stat.png)
 
-Die **[!UICONTROL Trackingstatistiken]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Push-Benachrichtigungen verknüpft ist, und bietet wichtige Einblicke in die Interaktion und die Effektivität von Push-Benachrichtigungen.
+Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Push-Benachrichtigungen und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Push-Benachrichtigungen.
 
-+++ Weitere Informationen zu Trackingstatistiken - Metriken
++++ Weitere Informationen zu Metriken für „Tracking-Statistiken“
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit der Push-Benachrichtigung interagiert haben.
+* **[!UICONTROL Durchklickrate]**: Prozentsatz der Benutzenden, die mit der Push-Benachrichtigung interagiert haben.
 
-* **[!UICONTROL Clickthrough-Öffnungsrate (CTOR)]**: Anzahl der Öffnungen der Push-Benachrichtigung.
+* **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der Push-Benachrichtigung.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Push-Benachrichtigung.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihrer Push-Benachrichtigung geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer Push-Benachrichtigung geklickt haben.
 
 <!--
 * **[!UICONTROL Push custom actions]**: 
 -->
 +++
 
-### Labels getrackter Links {#track-link-label-push}
+### Bezeichnungen für verfolgten Link {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 
-Die **[!UICONTROL Getrackte Linkbeschriftungen]** -Tabelle bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren Push-Benachrichtigungen und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren Push-Benachrichtigungen und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über die Metriken zu Getrackten Linkbeschriftungen
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft ein Inhalt in Ihren Push-Benachrichtigungen angeklickt wurde.
 
 +++
 
-### Getrackte Link-URLs {#track-link-url-push}
+### Nachverfolgte Link-URLs {#track-link-url-push}
 
 ![](assets/cja-campaign-push-link-urls.png)
 
-Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren Push-Benachrichtigungen, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und so Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Push-Benachrichtigungen verbessern.
+Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren Push-Benachrichtigungen, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Push-Benachrichtigungen verbessern.
 
-+++ Weitere Informationen zu den Metriken für getrackte Link-URLs
++++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft ein Inhalt in Ihren Push-Benachrichtigungen angeklickt wurde.
 
@@ -390,29 +390,29 @@ Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick üb
 
 ### Bounce-Gründe {#bounce-reasons-push}
 
-Die **[!UICONTROL Bounces-Gründe]** -Tabelle bietet einen umfassenden Überblick über Daten zu Bounce-Push-Benachrichtigungen und liefert wertvolle Einblicke in die spezifischen Ursachen für Bounces bei Push-Benachrichtigungen.
+Die Tabelle **[!UICONTROL Bounce-Gründe]** bietet einen umfassenden Überblick über Daten zu nicht zugestellten Push-Benachrichtigungen und liefert wertvolle Erkenntnisse zu den spezifischen Ursachen von nicht zugestellten Push-Benachrichtigungen.
 
 ### Fehlergründe {#error-reasons-push}
 
-Die **[!UICONTROL Fehlerursachen]** -Tabelle können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs Ihrer Push-Benachrichtigungen aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
+Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen Fehler identifizieren, die während des Sendevorgangs Ihrer Push-Benachrichtigungen aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
 
-### Ausschlussgründe {#exclude-reasons-push}
+### Gründe für Ausschluss {#exclude-reasons-push}
 
 ![](assets/cja-campaign-push-excluded.png)
 
-Die **[!UICONTROL Ausschlussgründe]** zeigt visuell die verschiedenen Faktoren an, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Push-Benachrichtigungen erhalten können.
+Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Push-Benachrichtigungen von Ihnen erhalten konnten.
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.
 
 ## SMS {#sms}
 
-### Zugestellt vs. Klick-Trend {#delivered-click-sms}
+### Versand- vs. Klick-Trend {#delivered-click-sms}
 
-Die **[!UICONTROL Zugestellt vs. Klick-Trend]** Das Diagramm zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren SMS-Nachrichten und bietet wertvolle Einblicke in die Interaktion verschiedener Domänen mit Ihrem Inhalt.
+Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren SMS-Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion der Profile mit Ihrem Inhalt.
 
-+++ Weitere Informationen zu den Metriken Zugestellt vs. Klick-Trend
++++ Weitere Informationen zu den Metriken, die den Versand- vs. Klick-Trend betreffen
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS in Bezug auf die Gesamtzahl der SMS-Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
 
@@ -420,153 +420,153 @@ Die **[!UICONTROL Zugestellt vs. Klick-Trend]** Das Diagramm zeigt eine detailli
 
 ### Versandstatus {#delivery-status-sms}
 
-Die **[!UICONTROL Versandstatus]** bietet einen detaillierten Überblick über die auf Ihre SMS bezogenen Profilaktivitäten. Dazu gehören Metriken zu zugestellten Nachrichten, Klicks und andere relevante Interaktionsindikatoren, die einen umfassenden Überblick darüber bieten, wie Profile mit Ihrem SMS-Inhalt interagieren.
+Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht über die Profilaktivitäten im Zusammenhang mit Ihren SMS-Nachrichten. Dazu gehören Metriken zu gesendeten SMS-Nachrichten, Klicks und andere relevante Interaktionsindikatoren, die einen umfassenden Überblick darüber bieten, wie Profile mit Ihrem SMS-Inhalt interagieren.
 
-+++ Weitere Informationen zu Versandstatus-Metriken
++++ Weitere Informationen zu den Versandstatus-Metriken
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS in Bezug auf die Gesamtzahl der SMS-Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der im Versand- und automatischen Bounce-Prozesse kumulierten Fehler in Bezug auf die Gesamtzahl der gesendeten SMS-Nachrichten.
+* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten SMS-Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die den Versand an Profile verhinderten.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der von Adobe Journey Optimizer ausgeschlossenen Profile.
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
-### Labels getrackter Links {#track-link-label-sms}
+### Bezeichnungen für verfolgten Link {#track-link-label-sms}
 
-Die **[!UICONTROL Getrackte Linkbeschriftungen]** bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren SMS-Nachrichten, in denen diejenigen hervorgehoben werden, die den höchsten Besuchertraffic erzeugen. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren SMS-Nachrichten, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über die Metriken zu Getrackten Linkbeschriftungen
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihrer SMS geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
 
 +++
 
-### Getrackte Link-URLs {#track-link-url-sms}
+### Nachverfolgte Link-URLs {#track-link-url-sms}
 
-Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren SMS-Nachrichten, die den höchsten Besuchertraffic aufweisen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und so Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren SMS-Nachrichten verbessern.
+Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren SMS-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren SMS-Nachrichten verbessern.
 
-+++ Weitere Informationen zu den Metriken für getrackte Link-URLs
++++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihrer SMS geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
 ### Eingehende SMS-Nachricht {#sms-inbound}
 
-Die **[!UICONTROL SMS-Empfang]** bietet einen umfassenden Überblick darüber, welche SMS-Nachrichten den meisten Besucher-Traffic erfahren haben. Diese Ressource bietet wertvolle Einblicke in die Interaktionsdynamik von Zielgruppen.
+Die Tabelle **[!UICONTROL Eingehende SMS-Nachricht]** bietet einen umfassenden Überblick über die SMS-Nachrichten, die den meisten Besucher-Traffic angezogen haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu den Metriken von SMS-eingehenden Nachrichten
++++ Weitere Informationen zu Metriken für eingehende SMS-Nachrichten
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre SMS-Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
 +++
 
 ### SMS-Nachrichtentyp {#sms-message-type}
 
-Die **[!UICONTROL SMS-Nachrichtentyp]** bietet einen umfassenden Überblick darüber, welcher SMS-Nachrichtentyp den meisten Besucher-Traffic erfahren hat. Diese Ressource bietet wertvolle Einblicke in die Interaktionsdynamik von Zielgruppen.
+Die Tabelle **[!UICONTROL SMS-Nachrichtentyp]** bietet einen umfassenden Überblick darüber, welcher SMS-Nachrichtentyp den höchsten Besucher-Traffic angezogen hat. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu Metriken zum SMS-Nachrichtentyp
++++ Weitere Informationen zu Metriken für den SMS-Nachrichtentyp
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre SMS-Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
 +++
 
 ### SMS-Anbieter {#sms-providers}
 
-Die **[!UICONTROL SMS-Provider]** -Tabelle bietet einen umfassenden Überblick darüber, welche SMS-Anbieter den höchsten Besuchertraffic erzielt haben. Diese Ressource bietet wertvolle Einblicke in die Interaktionsdynamik von Zielgruppen.
+Die Tabelle **[!UICONTROL SMS-Anbieter]** bietet einen umfassenden Überblick über die SMS-Anbieter, die den höchsten Besucher-Traffic erzielt haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu SMS-Anbietermetriken
++++ Weitere Informationen zu Metriken für SMS-Anbieter
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre SMS-Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
 +++
 
 ### Bounce-Gründe {#bounce-reasons-sms}
 
-Die **[!UICONTROL Bounces-Gründe]** bietet einen umfassenden Überblick über Daten zu Bounce-SMS-Nachrichten und liefert wertvolle Einblicke in die spezifischen Ursachen von SMS-Bounces.
+Die Tabelle **[!UICONTROL Bounce-Gründe]** bietet einen umfassenden Überblick über Daten zu nicht zugestellten SMS-Nachrichten und liefert wertvolle Erkenntnisse zu den spezifischen Ursachen von nicht zugestellten SMS-Nachrichten.
 
 ### Fehlergründe {#error-reasons-sms}
 
-Die **[!UICONTROL Fehlerursachen]** -Tabelle können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs Ihrer SMS aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
+Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen Fehler identifizieren, die während des Sendevorgangs Ihrer SMS-Nachrichten aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
 
-### Ausschlussgründe {#excluded-reasons-sms}
+### Gründe für Ausschluss {#excluded-reasons-sms}
 
-Die **[!UICONTROL Ausschlussgründe]** zeigt visuell die verschiedenen Faktoren an, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine SMS-Nachrichten erhalten können.
+Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine SMS-Nachrichten von Ihnen erhalten konnten.
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.
 
 ## In-App
 
-### Impressions- und Klicktrend {#impression-click-trend}
+### Impression- und Klick-Trend {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-Die **[!UICONTROL Impressions- und Klicktrend]** Das Diagramm zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren In-App-Nachrichten und bietet wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
+Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren In-App-Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Impressions- und Klicktrendmetriken
++++ Weitere Informationen zu den Metriken für „Impression- und Klick-Trend“
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren In-App-Nachrichten auf einen Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 +++
 
 ### Klicks {#clicks-inapp}
 
-Die **[!UICONTROL Klicks]** Das Diagramm zeigt In-App-Klickmetriken an, die sowohl die Gesamtanzahl der Inhaltsklicks als auch die Anzahl der eindeutigen Profile, die auf den Inhalt geklickt haben, darstellen.
+Der Graph **[!UICONTROL Klicks]** zeigt Metriken für In-App-Klicks an, die sowohl die Gesamtanzahl der Klicks auf einen Inhalt als auch die Anzahl der einzelnen Profile darstellen, die auf den Inhalt geklickt haben.
 
-+++ Weitere Informationen zu Klickmetriken
++++ Weitere Informationen zu Metriken für Klicks
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren In-App-Nachrichten auf einen Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
 +++
 
 ### Anzeige {#display-inapp}
 
-Die **[!UICONTROL Anzeigen]** Anhand des Diagramms können Sie sowohl die GesamtReichweite der Nachricht als auch die Anzahl der eindeutigen Profile, die mit der Nachricht interagieren, nachvollziehen.
+Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der einzelnen Profile nachvollziehen, die mit der Nachricht interagieren.
 
 +++ Weitere Informationen zu Anzeigemetriken
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
 ### Tracking-Daten {#tracking-data-inapp}
 
-Die **[!UICONTROL Tracking-Daten]** -Tabelle bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren In-App-Nachrichten verknüpft ist, und bietet wichtige Einblicke in die Interaktion und die Effektivität von In-App-Nachrichten.
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren In-App-Nachrichten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von In-App-Nachrichten.
 
-+++ Weitere Informationen zum Verfolgen von Datenmetriken
++++ Weitere Informationen zu Metriken für Tracking-Daten
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre In-App-Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre In-App-Nachrichten eignen.
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit In-App-Nachrichten interagiert haben.
+* **[!UICONTROL Durchklickrate]**: Prozentsatz der Benutzenden, die mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Durchklicken der Öffnungsrate (CTOR)]**: Gibt an, wie oft In-App-Nachrichten geöffnet wurden.
+* **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der In-App-Nachrichten.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren In-App-Nachrichten auf einen Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten In-App-Nachrichten.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre In-App-Nachrichten.
 
 <!--
 * **[!UICONTROL Inbound triggered]**: 
@@ -575,51 +575,51 @@ Die **[!UICONTROL Tracking-Daten]** -Tabelle bietet eine detaillierte Momentaufn
 -->
 +++
 
-### Labels getrackter Links {#track-link-label-inapp}
+### Bezeichnungen für verfolgten Link {#track-link-label-inapp}
 
 ![](assets/cja-inapp-tracked-link-labels.png)
 
-Die **[!UICONTROL Getrackte Linkbeschriftungen]** -Tabelle bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren In-App-Nachrichten und zeigt diejenigen, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren In-App-Nachrichten und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über die Metriken zu Getrackten Linkbeschriftungen
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren In-App-Nachrichten auf einen Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
-### Getrackte Link-URLs {#track-link-url-inapp}
+### Nachverfolgte Link-URLs {#track-link-url-inapp}
 
 ![](assets/cja-inapp-tracked-link-urls.png)
 
-Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren In-App-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und so Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren In-App-Nachrichten verbessern.
+Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren In-App-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren In-App-Nachrichten verbessern.
 
-+++ Weitere Informationen zu den Metriken für getrackte Link-URLs
++++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren In-App-Nachrichten auf einen Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
 +++
 
 ## Web {#web-cja}
 
-### Impressions- und Klicktrend {#impressions-web}
+### Impression- und Klick-Trend {#impressions-web}
 
 ![](assets/cja-web-impression.png)
 
-Die **[!UICONTROL Impressions- und Klicktrend]** Das Diagramm zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Webseiten und bietet wertvolle Einblicke in die Interaktion der Profile mit Ihrem Inhalt.
+Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Web-Seiten und bietet wertvolle Erkenntnisse zur Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Impressions- und Klicktrendmetriken
++++ Weitere Informationen zu den Metriken für „Impression- und Klick-Trend“
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Webseiten.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 +++
 
@@ -627,13 +627,13 @@ Die **[!UICONTROL Impressions- und Klicktrend]** Das Diagramm zeigt eine detaill
 
 ![](assets/cja-web-clicks.png)
 
-Die **[!UICONTROL Klicks]** -Diagramm zeigt Metriken zu Webseitenklick an, die sowohl die Gesamtanzahl der Inhaltsklicks als auch die Anzahl der eindeutigen Profile, die auf den Inhalt geklickt haben, darstellen.
+Der Graph **[!UICONTROL Klicks]** zeigt Metriken für Klicks auf Web-Seiten an, die sowohl die Gesamtanzahl der Klicks auf Inhalte als auch die Anzahl der einzelnen Profile darstellen, die auf den Inhalt geklickt haben.
 
-+++ Weitere Informationen zu Klickmetriken
++++ Weitere Informationen zu Metriken für Klicks
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt auf Ihren Webseiten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Webseiten.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
 +++
 
@@ -641,13 +641,13 @@ Die **[!UICONTROL Klicks]** -Diagramm zeigt Metriken zu Webseitenklick an, die s
 
 ![](assets/cja-web-displays.png)
 
-Die **[!UICONTROL Anzeigen]** Anhand des Diagramms können Sie sowohl die GesamtReichweite der Nachricht als auch die Anzahl der eindeutigen Profile, die mit der Nachricht interagieren, nachvollziehen.
+Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der einzelnen Profile nachvollziehen, die mit der Nachricht interagieren.
 
 +++ Weitere Informationen zu Anzeigemetriken
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
@@ -656,81 +656,81 @@ Die **[!UICONTROL Anzeigen]** Anhand des Diagramms können Sie sowohl die Gesamt
 
 ![](assets/cja-web-tracking-data.png)
 
-Die **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Webseiten verknüpft ist, und bietet wichtige Einblicke in die Interaktion und die Effektivität von Webseiten.
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Web-Seiten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Web-Seiten.
 
-+++ Weitere Informationen zum Verfolgen von Datenmetriken
++++ Weitere Informationen zu Metriken für Tracking-Daten
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Webseiten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Web-Seiten eignen.
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit den Webseiten interagiert haben.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit den Web-Seiten interagiert haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Webseiten.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt auf Ihren Webseiten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Webseite geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Web-Seite.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Webseite, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Web-Seite, wobei mehrfache Interaktionen eines Profils nicht berücksichtigt werden.
 
 +++
 
-### Labels getrackter Links {#track-link-web}
+### Bezeichnungen für verfolgten Link {#track-link-web}
 
 ![](assets/cja-web-tracked-link-labels.png)
 
-Die **[!UICONTROL Getrackte Linkbeschriftungen]** -Tabelle bietet einen umfassenden Überblick über die Linkbeschriftungen auf Ihren Webseiten, in denen diejenigen hervorgehoben werden, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels auf Ihren Web-Seiten und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über die Metriken zu Getrackten Linkbeschriftungen
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt auf Ihren Webseiten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Webseiten.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
-### Getrackte Link-URLs {#track-url-web}
+### Nachverfolgte Link-URLs {#track-url-web}
 
 ![](assets/cja-web-tracked-link-urls.png)
 
-Die **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Webseiten, die den höchsten Besuchertraffic erzielen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und so Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten auf Ihren Webseiten erweitern.
+Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Web-Seiten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten auf Ihren Web-Seiten verbessern.
 
-+++ Weitere Informationen zu den Metriken für getrackte Link-URLs
++++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt auf Ihren Webseiten geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Webseiten.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht berücksichtigt werden.
 
 +++
 
-## Briefpost {#direct-mail-cja}
+## Direkt-Mail {#direct-mail-cja}
 
 ### Versandstatistiken {#sending-statistics-directmail}
 
 ![](assets/cja-direct-sending-stat.png)
 
-Die **[!UICONTROL Versandstatistiken]** gibt Ihnen einen Einblick in die Performance Ihrer Briefpost-Journey. Sehen Sie sich wichtige Metriken wie die Anzahl der Zielgruppenempfänger und erfolgreich zugestellten Teile an, damit Sie die Reichweite und Effektivität Ihrer Mailings messen können.
+Die Tabelle **[!UICONTROL Versandstatistiken]** bietet Ihnen Erkenntnisse zur Performance Ihrer Direkt-Mail-Journey. Sehen Sie sich die Schlüsselmetriken wie die Anzahl der Zielgruppenempfängerinnen und -empfänger und erfolgreich zugestellten Teile an, damit Sie die Reichweite und Effektivität Ihrer Mailings messen können.
 
-+++ Weitere Informationen zu Versandstatistiken-Metriken
++++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Targeting]**: Gesamtzahl der während des Versandvorgangs verarbeiteten Briefpost-Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Sendevorgang verarbeiteten Direkt-Mail-Nachrichten.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten Briefpost-Nachrichten.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre Direkt-Mail-Nachrichten.
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Briefpost-Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Direkt-Mail-Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der Fehler, die während des Versandvorgangs aufgetreten sind und die Versendung an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der von Adobe Journey Optimizer ausgeschlossenen Profile.
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
@@ -738,26 +738,26 @@ Die **[!UICONTROL Versandstatistiken]** gibt Ihnen einen Einblick in die Perform
 
 ![](assets/cja-direct-delivery-status.png)
 
-Die **[!UICONTROL Versandstatus]** -Diagramm bietet einen umfassenden Überblick über Daten zu gesendeten Briefpost-Nachrichten in Ihrer Journey und bietet Einblicke in wichtige Metriken wie Zugestellt und Fehler. Dies ermöglicht eine detaillierte Analyse des Versandprozesses von Briefpost-Nachrichten und liefert wertvolle Informationen über die Effizienz und Leistung Ihrer Journey.
+Der Graph **[!UICONTROL Versandstatus]** bietet einen umfassenden Überblick über Daten zu gesendeten Direkt-Mail-Nachrichten in Ihrer Journey und liefert Erkenntnisse zu Schlüsselmetriken wie zugestellte Nachrichten und Fehler. Dies ermöglicht eine detaillierte Analyse des Sendevorgangs von Direkt-Mail-Nachrichten und liefert wertvolle Informationen über die Effizienz und Performance Ihrer Journeys.
 
-+++ Weitere Informationen zu Versandstatus-Metriken
++++ Weitere Informationen zu den Versandstatus-Metriken
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Briefpost-Nachrichten in Bezug auf die Gesamtzahl der gesendeten Briefpost-Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Direkt-Mail-Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Direkt-Mail-Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der Fehler, die während eines Versandvorgangs aufgetreten sind und die Senden Ihrer Briefpost-Nachrichten an Profile verhinderten.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden Ihrer Direkt-Mail-Nachrichten an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der von Adobe Journey Optimizer ausgeschlossenen Profile.
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
 ### Fehlergründe {#error-reasons-directmail}
 
-Die **[!UICONTROL Fehlerursachen]** -Tabelle können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs Ihrer Briefpost-Nachrichten aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
+Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen Fehler identifizieren, die während des Sendevorgangs Ihrer Direkt-Mail-Nachrichten aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
 
-### Ausschlussgründe {#exclude-reasons-directmail}
+### Gründe für Ausschluss {#exclude-reasons-directmail}
 
 [](assets/cja-direct-excluded.png)
 
-Die **[!UICONTROL Ausschlussgründe]** zeigt visuell die verschiedenen Faktoren an, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Briefpost-Nachrichten erhalten können.
+Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Direkt-Mail-Nachrichten von Ihnen erhalten konnten.
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.

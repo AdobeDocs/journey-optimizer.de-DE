@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Globaler Bericht zu Landingpages
-description: Erfahren Sie, wie Sie Daten aus Ihrem Landingpage-Bericht verwenden.
+description: Informationen zum Verwenden von Daten aus dem globalen Bericht zu Landingpages
 feature: Reporting, Landing Pages
 topic: Content Management
 role: User
@@ -12,106 +12,106 @@ exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Landingpage-Bericht {#lp-report-global-cja}
 
-Die **Landingpage** bietet wertvolle Einblicke in Benutzerverhalten, Interaktionsmuster, Konversionsraten und andere wichtige Metriken, sodass Sie fundierte Entscheidungen treffen und Ihre Landingpage-Leistung effektiv optimieren können.
+Der Bericht zu **Landingpages** bietet wertvolle Einblicke in Benutzerverhalten, Interaktionsmuster, Konversionsraten und andere Schlüsselmetriken, sodass Sie fundierte Entscheidungen treffen und die Performance Ihrer Landingpage effektiv optimieren können.
 
 Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/cja-lp.png)
 
-Weitere Informationen zum Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
 ## Konversionsrate der Landingpage {#lp-conversion}
 
 ![](assets/cja-lp-conversion-rate.png)
 
-Die **[!UICONTROL Konversionsrate der Landingpage]** Mit KPI können Sie die Effektivität Ihrer Landingpage anhand der Anzahl der Besuche und Interaktionen bewerten.
+Mit der KPI **[!UICONTROL Konversionsrate der Landingpage]** können Sie die Effektivität Ihrer Landingpage anhand der Anzahl der Besuche und Interaktionen bewerten.
 
-* **[!UICONTROL Konversionsrate der Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular abonniert haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Konversionsrate der Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzende, die sich über ein Formular angemeldet haben, im Verhältnis zur Gesamtzahl der Besuche.
 
 ## Absprungrate der Landingpage {#lp-bounce-rate}
 
 ![](assets/cja-lp-bounce-rate.png)
 
-Die **[!UICONTROL Absprungrate der Landingpage]** KPI bietet Informationen zu Profilen, die Ihre Landingpage angesehen haben, ohne Elemente zu interagieren oder darauf zu klicken.
+Die KPI **[!UICONTROL Absprungrate der Landingpage]** bietet Informationen zu Profilen, die sich Ihre Landingpage angesehen haben, ohne mit Elementen zu interagieren oder darauf zu klicken.
 
-* **[!UICONTROL Absprungrate der Landingpage]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion des Abonnements nicht abgeschlossen haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Absprungrate der Landingpage]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, im Verhältnis zur Gesamtzahl der Besuche.
 
 ## Landingpage-Ansichten {#lp-views}
 
 ![](assets/cja-lp-views.png)
 
-Die **[!UICONTROL Landingpage-Ansichten]** Mit KPI können Sie die Auswirkungen Ihrer Landingpage anzeigen.
+Mit der KPI **[!UICONTROL Landingpage-Ansichten]** können Sie die Auswirkungen Ihrer Landingpage anzeigen.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
 ## Eindeutige Landingpage-Ansichten {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 
-Die **[!UICONTROL Eindeutige Landingpage-Ansichten]** Mit KPI können Sie die Wirkung Ihrer Landingpage messen, indem Sie mehrere Ansichten desselben Profils ausschließen.
+Mit der KPI **[!UICONTROL Eindeutige Landingpage-Ansichten]** können Sie die Wirkung Ihrer Landingpage messen, indem Sie mehrfache Ansichten desselben Profils ausschließen.
 
-* **[!UICONTROL Eindeutige Landingpage-Ansichten]**: Anzahl der Personen, die Ihre Landingpage besucht haben, mehrere Besuche eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Eindeutige Landingpage-Ansichten]**: Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Profils nicht gezählt werden.
 
-## Leistung der Landingpage im Zeitverlauf {#lp-performance-overtime}
+## Landingpage-Performance im Zeitverlauf {#lp-performance-overtime}
 
 ![](assets/cja-lp-performance-overtime.png)
 
-Die **[!UICONTROL Leistung der Landingpage im Zeitverlauf]** -Diagramm misst den Erfolg Ihrer Landingpages und die Auswirkungen auf Ihre Zielgruppe.
+Der Graph **[!UICONTROL Landingpage-Performance im Zeitverlauf]** misst den Erfolg Ihrer Landingpages und die Auswirkungen auf Ihre Zielgruppe.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Konversionsrate der Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular abonniert haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Landingpage-Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzende, die sich über ein Formular angemeldet haben, im Verhältnis zur Gesamtzahl der Besuche.
 
-## Performance der Landingpage {#lp-performance}
+## Landingpage-Performance {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
-Die **[!UICONTROL Leistung der Landingpage]** -Tabelle dient als umfassendes Dashboard, in dem die Schlüsselmetriken für Ihre Landingpage detailliert aufgeschlüsselt werden.
+Die Tabelle **[!UICONTROL Landingpage-Performance]** dient als umfassendes Dashboard, das eine detaillierte Aufschlüsselung der Schlüsselmetriken für Ihre Landingpage bietet.
 
-* **[!UICONTROL Konversionsrate der Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular abonniert haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Landingpage-Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzende, die sich über ein Formular angemeldet haben, im Verhältnis zur Gesamtzahl der Besuche.
 
-* **[!UICONTROL Absprungrate der Landingpage]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion des Abonnements nicht abgeschlossen haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Landingpage-Absprungrate]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, im Verhältnis zur Gesamtzahl der Besuche.
 
-* **[!UICONTROL Eindeutige Landingpage-Ansichten]**: Anzahl der Personen, die Ihre Landingpage besucht haben, mehrere Besuche eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Eindeutige Landingpage-Ansichten]**: Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Eindeutige Konversionsrate der Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Eindeutige Landingpage-Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.
+* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular für ein Abonnement ausgefüllt haben.
 
 ## Journeys {#lp-journeys}
 
-Die **[!UICONTROL Journey]** bietet einen umfassenden Überblick, in dem die Häufigkeit der Besuche auf Ihrer Landingpage im Kontext der Journey eines Benutzers detailliert beschrieben wird. Diese aufschlussreiche Darstellung bietet wertvolle Daten zu Benutzerinteraktionen, sodass Sie verstehen können, wie Besucher durch Ihre Site navigieren und mit Ihren Inhalten interagieren.
+Die Tabelle **[!UICONTROL Journey]** bietet einen umfassenden Überblick mit einer detaillierten Beschreibung der Häufigkeit der Besuche auf Ihrer Landingpage im Kontext der Journey einer Benutzerin oder eines Benutzers. Diese aufschlussreiche Darstellung bietet wertvolle Daten zu Benutzerinteraktionen, sodass Sie nachvollziehen können, wie Besuchende durch Ihre Site navigieren und mit Ihren Inhalten interagieren.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.
+* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular für ein Abonnement ausgefüllt haben.
 
 ## Kampagnen {#lp-campaigns}
 
-Die **[!UICONTROL Kampagnen]** bietet Einblicke in die Anzahl der Besuche, die infolge spezifischer Kampagnen an Ihre Landingpage geleitet werden. So erhalten Sie einen umfassenden Überblick über die Effektivität der Kampagne und die Interaktion mit dem Inhalt Ihrer Landingpage.
+Die Tabelle **[!UICONTROL Kampagnen]** bietet Einblicke in die Anzahl der Besuche, die infolge spezifischer Kampagnen an Ihre Landingpage geleitet wurden. So erhalten Sie einen umfassenden Überblick über die Effektivität der Kampagne und die Interaktion mit dem Inhalt Ihrer Landingpage.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.
+* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular für ein Abonnement ausgefüllt haben.
 
 ## Kanal {#lp-channels}
 
-Die **[!UICONTROL Kanal]** zeigt die Anzahl der Besuche auf Ihrer Landingpage an, die nach Kanälen kategorisiert sind.
+Die Tabelle **[!UICONTROL Kanal]** zeigt die Anzahl der Besuche auf Ihrer Landingpage kategorisiert nach Kanälen an.
 
-* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche Ihrer Landingpage aus Journey und externen Quellen, einschließlich mehrerer Besuche eines Profils.
+* **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.
+* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular für ein Abonnement ausgefüllt haben.
 
-## Am häufigsten angeklickte Links {#lp-top-clicked}
+## Links mit den meisten Klicks {#lp-top-clicked}
 
-Die **[!UICONTROL Am häufigsten angeklickte Links]** -Tabelle bietet Einblicke in die Interaktion der Besucher mit dem Versand und hebt hervor, welche Links von Ihrer Zielgruppe am meisten Interaktion und Aufmerksamkeit erhalten.
+Die Tabelle **[!UICONTROL Links mit den meisten Klicks]** bietet Einblicke in die Interaktion der Besuchenden mit dem Versand und hebt hervor, welche Links von Ihrer Zielgruppe am meisten Interaktion und Aufmerksamkeit erhalten.
 
-* **[!UICONTROL Landingpage-Klicks]**: Gibt an, wie oft auf einen Inhalt in der Landingpage geklickt wurde.
+* **[!UICONTROL Landingpage-Klicks]**: Anzahl der Klicks auf einen Inhalt auf der Landingpage.

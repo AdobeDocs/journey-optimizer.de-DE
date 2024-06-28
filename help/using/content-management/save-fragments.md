@@ -11,17 +11,17 @@ exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Speichern von Inhalten als Fragment {#save-as-fragment}
 
-Beim Bearbeiten von Inhalt in [!DNL Journey Optimizer], können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden. Sie können Inhalte entweder als Fragment speichern [von Email Designer](#save-as-visual-fragment)oder [im Ausdruckseditor](#save-as-expression-fragment).
+Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden.  Sie können Inhalte entweder [über den E-Mail-Designer](#save-as-visual-fragment) oder [über den Ausdruckseditor](#save-as-expression-fragment) als Fragment speichern.
 
 ## Speichern als visuelles Fragment {#save-as-visual-fragment}
 
-Gehen Sie wie folgt vor, um Inhalte aus E-Mail-Designer als Fragment zu speichern:
+Gehen Sie wie folgt vor, um Inhalte aus dem E-Mail-Designer als Fragment zu speichern:
 
 1. Klicken Sie im [E-Mail-Designer](../email/get-started-email-design.md) oben rechts im Bildschirm auf die Ellipse.
 
@@ -37,19 +37,19 @@ Gehen Sie wie folgt vor, um Inhalte aus E-Mail-Designer als Fragment zu speicher
    >
    >Sie können nur nebeneinander liegende Abschnitte auswählen. Sie können keine leere Struktur und auch kein anderes Fragment auswählen.
 
-1. Klicks **[!UICONTROL Erstellen]** und geben Sie bei Bedarf den Fragmentnamen und die Beschreibung ein.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** und geben Sie bei Bedarf den Namen und eine Beschreibung des Fragments ein.
 
-1. Um dem Fragment benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf das **[!UICONTROL Zugriff verwalten]** im oberen Bereich des Bildschirms. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um dem Fragment benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, klicken Sie oben im Bildschirm auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags im Feld **Tags**, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Das Fragment wird zum [Fragmentliste](#access-manage-fragments) mit dem **Entwurf** -Status. Es wird zu einem eigenständigen Fragment, das wie jedes andere visuelle Fragment aus dieser Liste verwendet werden kann.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Das Fragment wird der [Fragmentliste](#access-manage-fragments) mit dem Status **Entwurf** hinzugefügt. Es wird zu einem eigenständigen Fragment, das wie jedes andere visuelle Fragment aus dieser Liste verwendet werden kann.
 
    >[!NOTE]
    >
    >Änderungen an diesem neuen Fragment werden nicht auf die E-Mail oder Vorlage übertragen, aus der das Fragment hervorgegangen ist. Wenn der ursprüngliche Inhalt in dieser E-Mail oder Vorlage bearbeitet wird, wird das neue Fragment ebenfalls nicht geändert.
 
-1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
+1. Um das Fragment in Ihren Journeys und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Informationen zum Anzeigen der Vorschau und Veröffentlichen eines Fragments](../content-management/create-fragments.md#publish)
 
 ## Speichern als Ausdrucksfragment {#save-as-expression-fragment}
 
@@ -76,6 +76,6 @@ Gehen Sie wie folgt vor, um Inhalte als Ausdrucksfragment zu speichern.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Das Fragment wird zum [Fragmentliste](#access-manage-fragments) mit dem **Entwurf** -Status. Es wird zu einem eigenständigen Fragment, das als jedes andere Ausdrucksfragment aus dieser Liste verwendet werden kann.
+1. Das Fragment wird der [Fragmentliste](#access-manage-fragments) mit dem Status **Entwurf** hinzugefügt. Es wird zu einem eigenständigen Fragment, das wie jedes andere visuelle Fragment aus dieser Liste verwendet werden kann.
 
-1. Um das Fragment in Ihren Journey und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Erfahren Sie, wie Sie ein Fragment in der Vorschau anzeigen und veröffentlichen.](../content-management/create-fragments.md#publish)
+1. Um das Fragment in Ihren Journeys und Kampagnen verwenden zu können, müssen Sie es aktivieren. [Informationen zum Anzeigen der Vorschau und Veröffentlichen eines Fragments](../content-management/create-fragments.md#publish)

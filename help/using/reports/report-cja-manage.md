@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Neue Benutzeroberfläche erstellen
+title: Neue Reporting-Benutzeroberfläche
 description: Erste Schritte mit der neuen Reporting-Oberfläche
 feature: Reporting
 topic: Content Management
@@ -12,33 +12,33 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Verwalten von Berichten {#channel-cja-manage}
+# Verwalten Ihrer Berichte {#channel-cja-manage}
 
-## Analysieren in Customer Journey Analytics {#analyze}
+## Durchführen von Analysen in Customer Journey Analytics {#analyze}
 
 ![](assets/cja-analyze.png)
 
-Verbessern Sie Ihr Datenanalyseerlebnis mit Ihrer **[!DNL Customer Journey Analytics]** Lizenz durch Nutzung der **[!UICONTROL Analysieren in CJA]** in allen Berichten verfügbar sind.
+Verbessern Sie Ihr Datenanalyseerlebnis mit Ihrer **[!DNL Customer Journey Analytics]**-Lizenz durch Nutzung der Funktion **[!UICONTROL In CJA analysieren]**, die in allen Berichten verfügbar ist.
 
-Diese leistungsstarke Option leitet Sie nahtlos zu Ihrem **[!DNL Customer Journey Analytics]** Umgebung, sodass Sie Ihre Berichte umfassend personalisieren können. Sie können Ihre Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichern, sodass Sie Ihre Einblicke auf eine völlig neue Ebene bringen.
+Diese leistungsstarke Option leitet Sie nahtlos zu Ihrer **[!DNL Customer Journey Analytics]**-Umgebung weiter, sodass Sie Ihre Berichte umfassend personalisieren können. Sie können Ihre Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichern, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen.
 
-[Erfahren Sie mehr über die Customer Journey Analytics-Oberfläche.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Weitere Informationen zur Customer Journey Analytics-Oberfläche](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
-## Berichtszeitraum definieren {#report-period}
+## Definieren des Berichtszeitraums {#report-period}
 
 ![](assets/cja-time-period.png)
 
 Beim Zugriff auf einen Bericht können Sie einen Zeitraumfilter anwenden, der sich oben rechts im Bericht befindet.
 
-Standardmäßig ist der Filterzeitraum für eine Kampagne oder Journey auf das Start- und Enddatum eingestellt. Wenn kein Enddatum vorhanden ist, wird der Filter standardmäßig auf das aktuelle Datum festgelegt.
+Standardmäßig wird für den Filterzeitraum einer Kampagne oder Journey das Anfangs- und Enddatum herangezogen. Wenn kein Enddatum vorhanden ist, verwendet der Filter standardmäßig das aktuelle Datum.
 
-Um den Filter zu ändern, können Sie ein benutzerdefiniertes Startdatum und eine benutzerdefinierte Startdauer auswählen oder aus vordefinierten Optionen wie letzte Woche oder vor zwei Monaten auswählen.
+Um den Filter zu ändern, können Sie ein benutzerdefiniertes Anfangsdatum und eine benutzerdefinierte Dauer auswählen oder aus vordefinierten Optionen wie „Letzte Woche“ oder „Vor zwei Monaten“ wählen.
 
-Der Bericht wird automatisch aktualisiert, sobald der Filter angewendet oder geändert wurde.
+Der Bericht wird automatisch aktualisiert, sobald ein Filter angewendet oder geändert wird.
 
 ## Exportieren Ihrer Berichte {#export-reports}
 
@@ -68,6 +68,6 @@ Sie können Ihre Berichte einfach in PDF- oder CSV-Format exportieren, sodass Si
 
 1. Ihre Datei wird automatisch in Ihrem Browser geöffnet.
 
-Ihr Bericht steht nun zum Anzeigen, Herunterladen oder Freigeben in einer PDF-Datei zur Verfügung.
+Ihr Bericht kann jetzt in einer PDF-Datei angezeigt, heruntergeladen oder freigegeben werden.
 
 >[!ENDTABS]

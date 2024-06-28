@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berichte auf Kanalebene
-description: Erfahren Sie, wie Sie Daten aus dem Übersichtsbericht verwenden
+description: Informationen zum Verwenden von Daten aus dem Übersichtsbericht
 feature: Reporting
 topic: Content Management
 role: User
@@ -12,15 +12,15 @@ exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Übersichtsbericht {#channel-report-cja}
 
-Der Übersichtsbericht bietet Benutzern eine gründliche Zusammenfassung des Traffics und der Interaktionsmetriken für alle Kampagnen und Journey in Ihrer Umgebung. Diese Metriken werden kombiniert, um einheitliche Werte für Aktionen aus verschiedenen Kanälen bereitzustellen, die verschiedene Kampagnen und Journey umfassen.
+Der Übersichtsbericht bietet Benutzenden eine gründliche Zusammenfassung von Traffic- und Interaktionsmetriken für alle Kampagnen und Journeys in Ihrer Umgebung. Diese Metriken werden kombiniert, um einheitliche Werte für Aktionen aus verschiedenen Kanälen zu liefern, die verschiedene Kampagnen und Journeys umfassen.
 
-Sie können auf den Übersichtsbericht zugreifen, indem Sie zur **Berichte** innerhalb des **Journey-Management** Abschnitt.
+Greifen Sie auf den Übersichtsbericht zu, indem Sie im Abschnitt **Journey-Management** zum Menü **Berichte** navigieren. 
 
 Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 
@@ -28,27 +28,27 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 * [Kampagnen](#campaign)
 * [Kanäle](#channel)
 
-Weitere Informationen zum Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie unter [diese Seite](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
 ## Highlights {#highlights}
 
 ![](assets/cja-highlights.png)
 
-Die **[!UICONTROL Highlights]** KPIs dienen als umfassendes Dashboard, das eine detaillierte Aufschlüsselung der Schlüsselmetriken für alle Kampagnen und Journey in Ihrer Umgebung bietet und es Ihnen ermöglicht, die Leistung schnell zu bewerten und Verbesserungsbereiche zu identifizieren.
+Die KPIs **[!UICONTROL Highlights]** dienen als umfassendes Dashboard, das eine detaillierte Aufschlüsselung der Schlüsselmetriken für alle Kampagnen und Journey in Ihrer Umgebung bietet und es Ihnen ermöglicht, die Performance schnell zu bewerten und Verbesserungsbereiche zu identifizieren.
 
-+++ Weitere Informationen zu den Metriken &quot;Highlights&quot;
++++ Weitere Informationen zu Metriken für Highlights
 
-* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben.
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben
 
-* **[!UICONTROL Journey Enters]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
-* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene Journeys]**: Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-* **[!UICONTROL Durchklickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
 
-* **[!UICONTROL Clickthrough-Öffnungsrate (CTOR)]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der Nachricht.
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
 
@@ -62,17 +62,17 @@ Die **[!UICONTROL Highlights]** KPIs dienen als umfassendes Dashboard, das eine 
 
 ![](assets/cja-channel-journeys.png)
 
-Die **[!UICONTROL Journey]** -Tabelle dient als umfassendes Dashboard, das eine Analyse der Schlüsselmetriken im Zusammenhang mit Ihrer Journey ermöglicht. Sie enthält Details wie die Anzahl der eingegebenen Profile und Instanzen fehlgeschlagener einzelner Journey. So erhalten Sie ein genaues Verständnis Ihrer Journey- und Interaktionsraten.
+Die Tabelle **[!UICONTROL Journey]** dient als umfassendes Dashboard, das eine Analyse der Schlüsselmetriken im Zusammenhang mit Ihrer Journey bietet. Sie umfasst Details wie die Anzahl der eingegebenen Profile und Instanzen von fehlgeschlagenen individuellen Journeys und bietet einen umfassenden Einblick in die Effektivität und Interaktionsgrade Ihrer Journey.
 
-Durch Anklicken des Namens einer in dieser Tabelle aufgelisteten Journey können Sie jede Journey einfach einzeln untersuchen und sofort auf ihren umfassenden Bericht in einem neuen Tab zugreifen.
+Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Journey können Sie jede Journey problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Journey-Metriken
++++ Weitere Informationen zu Metriken für Journeys
 
-* **[!UICONTROL Journey Enters]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
-* **[!UICONTROL Journey Exits]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
+* **[!UICONTROL Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
 
-* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene Journeys]**: Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.
 
 +++
 
@@ -80,17 +80,17 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgelisteten Journey können
 
 ![](assets/cja-channel-campaigns.png)
 
-Die **[!UICONTROL Kampagne]** -Tabelle dient als allumfassendes Dashboard, das eine detaillierte Übersicht der wichtigsten Metriken für Ihre Kampagne bietet. Er enthält wichtige Daten wie die Anzahl der Profile und Sendungen und bietet Ihnen einen umfassenden Einblick in die Leistung und Interaktionsstufen Ihrer Kampagne.
+Die Tabelle **[!UICONTROL Kampagne]** dient als allumfassendes Dashboard, das eine detaillierte Übersicht der wichtigsten Metriken für Ihre Kampagne bereitstellt. Sie enthält wichtige Daten wie die Anzahl der Profile und Sendungen und bietet Ihnen einen umfassenden Einblick in die Performance und Interaktionsgrade Ihrer Kampagne.
 
-Wenn Sie auf den Namen einer in dieser Tabelle aufgelisteten Kampagne klicken, können Sie jede Kampagne einzeln untersuchen und so in einem neuen Tab sofort auf ihren umfassenden Bericht zugreifen.
+Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne können Sie jede Kampagne problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Campaign-Metriken
++++ Weitere Informationen zu Metriken für Kampagnen
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten Nachrichten für jede Kampagne.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für jede Kampagne.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
 
@@ -102,17 +102,17 @@ Wenn Sie auf den Namen einer in dieser Tabelle aufgelisteten Kampagne klicken, k
 
 ![](assets/cja-channels.png)
 
-Die **[!UICONTROL Kanäle]** bietet eine detaillierte Aufschlüsselung der Interaktion Ihrer Profile mit Ihren Nachrichten auf Kanalebene. Auf diese Weise erhalten Sie genauere Einblicke in die Leistung verschiedener Kanäle.
+Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung der Interaktion Ihrer Profile mit Ihren Nachrichten auf Kanalebene an. Auf diese Weise erhalten Sie genauere Erkenntnisse zur Performance verschiedener Kanäle.
 
-+++ Weitere Informationen zu Kanalmetriken
++++ Weitere Informationen zu Metriken für Kanäle
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Nachrichten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Durchklickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der gesendeten Nachrichten für jede Kampagne.
+* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für jede Kampagne.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
 
@@ -122,10 +122,10 @@ Die **[!UICONTROL Kanäle]** bietet eine detaillierte Aufschlüsselung der Inter
 
 ![](assets/cja-channels-outbound-errors.png)
 
-Die **[!UICONTROL Ausgehende Fehler]** -Tabelle ermöglicht es Ihnen, die genauen Fehler zu ermitteln, die während des Versandvorgangs aufgetreten sind. Dies erleichtert ein klares Verständnis der aufgetretenen Probleme.
+Anhand der Tabelle **[!UICONTROL Ausgehende Fehler]** können Sie die genauen Fehler ermitteln, die während des Sendevorgangs aufgetreten sind, was ein klares Verständnis der aufgetretenen Probleme ermöglicht.
 
 ### Ausgehende Ausschlüsse
 
 ![](assets/cja-channels-outbound-excluded.png)
 
-Die **[!UICONTROL Ausgehende Ausschlüsse]** -Tabelle zeigt eine umfassende Übersicht der verschiedenen Faktoren, die dazu geführt haben, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden, sodass die Nachricht nicht empfangen wurde.
+Die Tabelle **[!UICONTROL Ausgehende Ausschlüsse]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass die Nachricht nicht empfangen wurde.
