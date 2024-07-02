@@ -12,7 +12,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 77%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
 >title="Zeitzone"
->abstract="Wählen Sie die Zeitzone des Journey aus. Wenn eine feste Zeitzone verwendet wird, ist sie für alle Einzelpersonen gleich, die die Journey betreten."
+>abstract="Wählen Sie die Zeitzone der Journey aus. Wenn Sie eine feste Zeitzone verwenden, ist diese für alle Kontakte gleich, die in die Journey eintreten."
 
 
 Sie können eine Zeitzone in den [Eigenschaften](../building-journeys/journey-properties.md#timezone) Ihrer Journey festlegen.
@@ -53,7 +53,7 @@ Wählen Sie dazu im Bereich **[!UICONTROL Journey-Eigenschaften]** eine Zeitzone
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Zeitzone des Profils verwenden"
->abstract="Aktivieren Sie das Kontrollkästchen, um die Zeitzone des Echtzeit-Profils in Warteaktivitäten und Bedingungsaktivitäten zu verwenden. Wenn für ein Profil eine Zeitzone definiert wurde, wird diese abgerufen und von der Journey verwendet. Andernfalls ist die Zeitzone die im obigen Zeitzonenfeld definierte Zeitzone."
+>abstract="Aktivieren Sie das Kontrollkästchen, um bei Warte- und Bedingungsaktivitäten die Zeitzone des Profils in Echtzeit zu verwenden. Wenn für ein Profil eine Zeitzone definiert wurde, wird diese abgerufen und von der Journey verwendet. Andernfalls wird die im Zeitzonenfeld definierte Zeitzone verwendet."
 
 Wenn das Eintrittsereignis der Journey einen Namespace hat, was bedeutet, dass die Journey Zugriff auf den Echtzeit-Kundenprofil-Service von Adobe Experience Platform hat, könnten Sie die auf Profilebene definierte Zeitzone verwenden. Aktivieren Sie dazu in den **Eigenschaften** die Option **Zeitzone des Profils für Wartezeiten und Bedingungen verwenden**. Diese Option ist nicht standardmäßig aktiviert.
 

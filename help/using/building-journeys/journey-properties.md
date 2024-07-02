@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Der Profileingabemodus wird auf der Journey-Ebene im rechten Konfigurationsberei
 
 Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen in [diese Seite](entry-management.md).
 
-### Wiedereintritt erlauben  {#allow-re-entrance}
+### Erneuten Eintritt erlauben  {#allow-re-entrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Wiedereintritt erlauben"
->abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die **Wiedereintritt erlauben** beispielsweise, wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Laden betritt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
+>title="Erneuten Eintritt erlauben"
+>abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** deaktivieren, wenn Sie zum Beispiel ein einmaliges Geschenk anbieten möchten, sobald eine Person ein Geschäft betritt."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
@@ -74,8 +74,8 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit beim erneuten Eintritt"
->abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey aufzurufen. Dadurch wird verhindert, dass Benutzer während eines bestimmten Zeitraums erneut auf die Journey zugreifen. Maximale Dauer: 90 Tage."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
+>abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, in einheitlichen Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
 
@@ -97,13 +97,13 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Startdatum"
->abstract="Wählen Sie den Datumseintrag in die Journey aus. Wenn kein Startdatum angegeben ist, wird es automatisch zum Zeitpunkt der Veröffentlichung festgelegt."
+>abstract="Wählen Sie das Datum, an dem der Eintritt in die Journey beginnen kann. Wenn kein Startdatum angegeben wird, wird automatisch der Zeitpunkt der Veröffentlichung festgelegt."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Wählen Sie das Enddatum Ihres Journey aus. Wenn dieses Datum erreicht ist, werden die Profile in dieser Journey automatisch beendet und neue können nicht mehr in die Datenbank aufgenommen werden."
+>abstract="Wählen Sie das Enddatum der Journey aus. Wenn dieses Datum erreicht ist, treten die Profile in dieser Journey automatisch aus, und es können keine neuen mehr in sie eintreten."
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
@@ -116,7 +116,7 @@ Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="Maximale Wartezeit"
->abstract="Definieren Sie die Zeitdauer, die die Journey versuchen wird, eine Aktion auszuführen oder eine Bedingung zu überprüfen, bevor sie sie als Zeitüberschreitung betrachtet."
+>abstract="Legen Sie fest, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung zu überprüfen, bevor dies als Zeitüberschreitung betrachtet wird."
 
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung der maximalen Wartezeit einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegte Dauer der maximalen Wartezeit der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
