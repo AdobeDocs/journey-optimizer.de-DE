@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >title="Kampagnenkategorie"
 >abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Für API-ausgelöste Kampagnen wählen Sie, ob Sie eine **Marketing-Nachricht** (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder eine **Transaktionsnachricht** (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an Profile mit storniertem Abo gesendet werden können) senden möchten."
 
-1. Wählen Sie den Kampagnentyp aus, den Sie ausführen möchten
+1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
 
-   * **[!UICONTROL Geplant - Marketing]**: Führen Sie die Kampagne sofort oder an einem bestimmten Datum aus. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+   * **[!UICONTROL Geplant – Marketing]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **[!UICONTROL API-ausgelöst - Marketing/Transaktion]**: Führen Sie die Kampagne mithilfe eines API-Aufrufs aus. API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+   * **[!UICONTROL API-ausgelöst – Marketing/Transaktion]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
@@ -59,9 +59,9 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 
 1. Um der Kampagne benutzerdefinierte oder Core-Bezeichnungen für die Datennutzung zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
 
-## Kampagnenzielgruppe definieren {#audience}
+## Definieren der Zielgruppe einer Kampagne {#audience}
 
-Definieren Sie die Zielgruppe der Kampagne. Gehen Sie wie folgt vor:
+Um die Zielgruppe der Kampagne zu definieren, gehen Sie folgendermaßen vor:
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Definieren Sie die Zielgruppe der Kampagne. Gehen Sie wie folgt vor:
 >
 >Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden.
 
-1. Im **Zielgruppe** klicken Sie auf die **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
+1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll.
 
@@ -81,7 +81,7 @@ Definieren Sie die Zielgruppe der Kampagne. Gehen Sie wie folgt vor:
 
 ## Erstellen der Nachricht und Konfigurieren der Tracking-Funktion {#content}
 
-1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Oberfläche aus, die für den Nachrichtenversand verwendet werden sollen.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** den Kanal und die Oberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten.
 
    Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
@@ -93,7 +93,7 @@ Definieren Sie die Zielgruppe der Kampagne. Gehen Sie wie folgt vor:
    >
    >Wenn Sie eine Push-Benachrichtigungskampagne erstellen, können Sie den **[!UICONTROL Schnellversandmodus]** verwenden, ein Add-on zu Journey Optimizer, das den sehr schnellen Versand großer Mengen von Push-Nachrichten ermöglicht. [Weitere Informationen](../push/create-push.md#rapid-delivery)
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche, um Ihre Nachricht zu erstellen und zu entwerfen. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um Ihre Nachricht zu erstellen und zu gestalten. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
