@@ -35,7 +35,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Position auf Seite"
+>title="Speicherort auf Seite"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -45,12 +45,12 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="Standard-URL"
+>title="Standardmäßig URL"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="Surface URI"
+>title="Oberflächen-URI"
 >abstract="TBC"
 
 Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.

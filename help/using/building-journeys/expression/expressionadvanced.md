@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit dem erweiterten Ausdruckseditor
+title: Arbeiten mit erweiterten Ausdruckseditor
 description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 feature: Journeys
 role: Data Engineer, Architect
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 ---
 
-# Arbeiten mit dem erweiterten Ausdruckseditor {#about-the-advanced-expression-editor}
+# Arbeiten mit erweiterten Ausdruckseditor {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
@@ -35,7 +35,7 @@ Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Ope
 >
 >Die im erweiterten Journey-Ausdruckseditor verfügbaren Funktionen und Fähigkeiten unterscheiden sich von denen im [Personalisierungseditor](../../personalization/functions/functions.md).
 
-## Zugriff auf den erweiterten Ausdruckseditor {#accessing-the-advanced-expression-editor}
+## Greifen Sie auf die erweiterten Ausdruckseditor zu {#accessing-the-advanced-expression-editor}
 
 Der erweiterte Ausdruckseditor kann für folgende Aufgaben verwendet werden:
 

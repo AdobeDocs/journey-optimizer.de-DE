@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 Diese Vorlage kann nun beim Erstellen von Inhalten in [!DNL Journey Optimizer] verwendet werden. [Weitere Informationen](#use-content-templates)
 
-## Inhalt als Inhaltsvorlage speichern {#save-as-template}
+## Speichern Inhalte wie Inhalte Vorlage {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"

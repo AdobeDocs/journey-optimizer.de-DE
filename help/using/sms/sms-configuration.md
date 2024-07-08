@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -19,17 +19,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten."
+>abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Anbieter auswählen und API-Anmeldedaten eingeben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="Konfigurieren Ihres MMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer versendet Medieninhalte über MMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldeinformationen ein."
+>abstract="Adobe Journey Optimizer versendet Medieninhalte über MMS-Dienstanbieter. Anbieter auswählen und API-Anmeldedaten eingeben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Konfigurieren eines SMS/MMS-Anbieters mit Journey Optimizer"
->abstract="Vor dem Versand von Textnachrichten (SMS/MMS) müssen Sie die Anbietereinstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS/MMS-Oberfläche erstellen. Diese Schritte müssen von Adobe Journey Optimizer-Systemadmins durchgeführt werden."
+>abstract="Vor dem Versand von Textnachrichten (SMS/MMS) müssen die Anbietereinstellungen in Journey Optimizer integriert werden. Danach muss eine SMS/MMS-Oberfläche erstellt werden. Diese Schritte müssen von Adobe Journey Optimizer-Systemadmins durchgeführt werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Kanaloberfläche"
 
 >[!CONTEXTUALHELP]
