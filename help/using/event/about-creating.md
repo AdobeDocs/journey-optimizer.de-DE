@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 97%
+source-wordcount: '1610'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können reg
 
 Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereignisses:
 
-1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
+1. Navigieren Sie im Menü ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und in der  **[!UICONTROL Veranstaltungen]** Abschnitt, klicken Sie auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
    ![](assets/jo-event1.png)
 
