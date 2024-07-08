@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
+source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -163,7 +163,7 @@ Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in e
 
 ### Der erweiterte Ausdruckseditor {#adv-exp-editor}
 
-Sie können beim Definieren der Profilkennung auch zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung zweier Felder der Ereignisse).
+Bei der Definition der Profilkennung können Sie zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung zweier Ereignisfelder).
 
 ![](assets/journey20.png)
 
