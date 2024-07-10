@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 70%
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Berichterstellung mit Customer Journey Analytics (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Reporting mit Customer Journey Analytics (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Journey Optimizer-Berichterstellung bietet eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung über beide Plattformen hinweg und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen besseren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen.</p>
+<p>Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit Customer Journey Analytics-Funktionen, wodurch die Berichterstellung plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen besseren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../reports/report-gs-cja.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -115,14 +115,14 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Mehrsprachige Nachrichten in Journey und Kampagnen (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Mehrsprachige Nachrichten in Journeys und Kampagnen (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt mühelos Inhalte in mehreren Sprachen in einer einzigen Kampagne oder Journey erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne oder Ihrer Journey zwischen verschiedenen Sprachen wechseln, wodurch der gesamte Bearbeitungsvorgang optimiert und Ihre Fähigkeit zur effizienten Verwaltung mehrsprachiger Inhalte verbessert wird.</p>
-<p>Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Sie können jetzt im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.  Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne oder Journey zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.</p>
+<p>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Experimentieren in Journey (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Experimentieren in Journeys (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ist bereits in Kampagnen verfügbar und unterstützt jetzt Experimente in Journey. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
-<p>Experimente in Journey sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Adobe Journey Optimizer ist bereits in Kampagnen verfügbar und unterstützt jetzt Experimente in Journeys. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
+<p>Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 #### E-Mail-Kanal
 
-* **List-unsubscribe** - Nach den jüngsten Ankündigungen von Gmail und Yahoo für Massen-Absender unterstützt Journey Optimizer die Option &quot;Post/1-Click&quot; List-Unsubscribe . Siehe folgende Seiten: [Opt-out-Verwaltung für E-Mails](../email/email-opt-out.md#unsubscribe-header) und [E-Mail-Einstellungen konfigurieren](../email/email-settings.md#list-unsubscribe).
+* **Abmelde-Link:** Nach den jüngsten Ankündigungen von Gmail und Yahoo für Massenversender unterstützt Journey Optimizer die Option „Post/1-Klick“ für Abmelde-Links. Sehen Sie sich die folgenden Seiten an: [Opt-out-Verwaltung für E-Mails](../email/email-opt-out.md#unsubscribe-header) und [Konfigurieren von E-Mail-Einstellungen](../email/email-settings.md#list-unsubscribe).
 
-  **NOTE** - Bei jeder neuen Kanaloberfläche ist standardmäßig die Option Header zum Abmelden von Listen aktiviert. Bei vorhandenen Oberflächen ist standardmäßig die Option URL-Abmeldung mit einem Klick in den Einstellungen für die Kanaloberfläche deaktiviert. Wenn Sie zuvor eine Ausschluss-URL mit einem Klick im Text der E-Mail verwendet haben, ist diese Einstellung weiterhin gültig. Wenn die URL zum Abmelden von einem Klick in den Einstellungen für die Kanaloberfläche aktiviert ist, verwendet Adobe Journey Optimizer stattdessen die standardmäßig generierte URL zum Abmelden von einem Klick in den Einstellungen für die Kanaloberfläche.
+  **HINWEIS** – Bei jeder neuen Kanaloberfläche ist standardmäßig die Option „Abmelde-Link in Kopfzeile“ aktiviert. Bei vorhandenen Oberflächen ist die Option „URL zum Abmelden mit einem Klick“ in den Einstellungen für die Kanaloberfläche standardmäßig deaktiviert. Wenn Sie zuvor eine URL zum Abmelden mit einem Klick im Text der E-Mail verwendet haben, ist diese Einstellung weiterhin gültig. Wenn in den Einstellungen der Kanaloberfläche die URL zum Abmelden mit einem Klick aktiviert ist, verwendet Adobe Journey Optimizer stattdessen die standardmäßig generierte URL zum Abmelden mit einem Klick in den Einstellungen der Kanaloberfläche.
 
 #### SMS-Kanal
 
@@ -224,6 +224,6 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 * Sie können jetzt das Edge Delivery-Plug-in verwenden, um Informationen abzurufen, die Sie zum Verständnis Ihrer eingehenden Implementierungen und zur Fehlerbehebung bei diesen benötigen. [Weitere Informationen zur Ansicht „Edge Delivery“](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-#### Briefpost-Kanal
+#### Direkt-Mail-Kanal
 
-* Der Briefpost-Kanal ist jetzt für alle Kunden verfügbar. [Weitere Informationen](../direct-mail/get-started-direct-mail.md)
+* Der Direkt-Mail-Kanal ist jetzt für alle Kundinnen und Kunden verfügbar.  [Weitere Informationen](../direct-mail/get-started-direct-mail.md)

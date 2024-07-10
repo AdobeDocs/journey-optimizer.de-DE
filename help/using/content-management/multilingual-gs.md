@@ -13,7 +13,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 70%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 70%
 
 >[!AVAILABILITY]
 >
->Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Die mehrsprachige Funktion ermöglicht es Ihnen, mühelos Inhalte in mehreren Sprachen innerhalb einer Kampagne oder Journey zu erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
+Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
 
 Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedliche Arten erstellen:
 
