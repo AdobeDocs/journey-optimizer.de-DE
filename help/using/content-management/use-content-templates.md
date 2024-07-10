@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden von Inhaltsvorlagen
-description: Erfahren Sie, wie Sie Inhaltsvorlagen bei der Erstellung von Inhalten für beliebige Kanäle (außer Web) in [!DNL Journey Optimizer]
+description: Erfahren Sie, wie Sie Inhaltsvorlagen bei der Erstellung von Inhalten für beliebige Kanäle (außer Web) in [!DNL Journey Optimizer] verwenden
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

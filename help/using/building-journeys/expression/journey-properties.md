@@ -9,28 +9,28 @@ level: Experienced
 keywords: Journey, Ausdruck, Editor, Eigenschaften
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Attribute der Journey-Eigenschaften {#journey-properties}
 
-Im [Einfacher Ausdruckseditor](../condition-activity.md#about_condition)und in der [Ausdruckseditor](../expression/expressionadvanced.md), unterhalb der **Ereignis** und **Datenquelle** Kategorien, können Sie auf die **Journey-Eigenschaften** Kategorie. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dies sind die Informationen, die vom System von Live-Journey abgerufen werden, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
+Im [einfachen Ausdruckseditor](../condition-activity.md#about_condition)und im [erweiterten Ausdruckseditor](../expression/expressionadvanced.md) können Sie unterhalb der Kategorien **Ereignis** und **Datenquelle** auf die Kategorie **Journey-Eigenschaften** zugreifen. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
 
 ![](../assets/journey-properties.png)
 
-Er enthält beispielsweise Informationen zu:
+Sie enthält beispielsweise Informationen zu:
 
 * Journey-Version: Journey-UID, Journey-Versions-UID, Instanz-UID usw.
 * Fehler: Datenabruf, Aktionsausführung usw.
 * aktueller Schritt, letzter aktueller Schritt usw.
 * verworfene Profile
 
-  Die Liste der Felder ist verfügbar [in diesem Abschnitt](#journey-properties-fields).
+  Die Liste der Felder ist [in diesem Abschnitt](#journey-properties-fields) verfügbar.
 
-Sie können diese Felder zum Erstellen von Ausdrücken verwenden. Während der Journey-Ausführung werden die Werte direkt von der Journey abgerufen.
+Sie können diese Felder zum Erstellen von Ausdrücken verwenden. Während der Ausführung einer Journey werden die Werte direkt von der Journey abgerufen.
 
 Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 

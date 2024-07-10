@@ -11,9 +11,9 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 78%
 
 >[!AVAILABILITY]
 >
->Mehrsprachige Inhalte sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Mithilfe des manuellen Workflows können Sie mühelos Ihren Inhalt direkt in Ihre E-Mail-, Push-Benachrichtigungs- oder SMS-Kampagne und -Journey übersetzen, sodass Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten erhalten. Darüber hinaus können Sie mit der Option „HTML importieren“ bereits vorhandene mehrsprachige Inhalte ganz einfach importieren.
+Mithilfe des manuellen Flusses können Sie Inhalte mühelos direkt in Ihrer E-Mail-, Push-Benachrichtigung- oder SMS-Kampagne und Journey übersetzen. So erhalten Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten. Darüber hinaus können Sie mit der Option „HTML importieren“ bereits vorhandene mehrsprachige Inhalte ganz einfach importieren.
 
 Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der manuellen Übersetzung zu erstellen:
 
@@ -31,13 +31,13 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der ma
 
 1. [Erstellen Sie Spracheinstellungen](#create-language-settings).
 
-1. [Mehrsprachige Inhalte erstellen](#create-a-multilingual-campaign).
+1. [Erstellen von mehrsprachigen Inhalten](#create-a-multilingual-campaign).
 
 ## Erstellen eines Gebietsschemas {#create-locale}
 
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Aus dem **[!UICONTROL Content Management]** Menü, Zugriff **[!UICONTROL Übersetzung]**.
+1. Greifen Sie im Menü **[!UICONTROL Content Management]** auf **[!UICONTROL Übersetzung]** zu.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 
@@ -94,15 +94,15 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Mehrsprachige Inhalte erstellen {#create-multilingual-campaign}
+## Erstellen von mehrsprachigen Inhalten {#create-multilingual-campaign}
 
-Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne oder Journey erstellen und den Inhalt für jedes Ihrer Gebietsschemas anpassen.
+Nach der Einrichtung Ihrer mehrsprachigen Inhalte können Sie Ihre Kampagne oder Journey gestalten und die Inhalte für jedes Ihrer ausgewählten Gebietsschemata anpassen.
 
-1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail, SMS oder Push-Benachrichtigung [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
+1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-[Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
 
    >[!AVAILABILITY]
    >
-   >Es wird empfohlen, pro Journey nur ein Übersetzungsprojekt einzuschließen.
+   >Wir empfehlen, pro Journey nur ein Übersetzungsprojekt einzuschließen.
 
 1. Erstellen oder importieren Sie Ihren ursprünglichen Inhalt und personalisieren Sie ihn nach Bedarf.
 
@@ -138,7 +138,7 @@ Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne oder
 
    ![](assets/multilingual-campaign-8.png)
 
-Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagne in Berichten messen.
+Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagnen in den Berichten ermitteln.
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

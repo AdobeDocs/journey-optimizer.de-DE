@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
+      + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Aktivitäten {#about-journey-building}
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
@@ -75,7 +75,7 @@ ht-degree: 98%
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
       + [Arbeiten mit dem erweiterten Ausdruckseditor](using/building-journeys/expression/expressionadvanced.md)
       + Syntax {#syntax}
-         + [Aufbau des erweiterten Ausdruckseditors](using/building-journeys/expression/generalities.md)
+         + [Syntax des erweiterten Ausdruckseditors](using/building-journeys/expression/generalities.md)
          + [Bedingte Anweisung](using/building-journeys/expression/conditional-instruction.md)
          + [Datentypen](using/building-journeys/expression/data-types.md)
          + [Feldverweise](using/building-journeys/expression/field-references.md)
@@ -276,7 +276,7 @@ ht-degree: 98%
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
-   + Arbeiten mit einem Inhaltsexperiment {#content-experiment}
+   + Arbeiten mit dem Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
       + [Konfigurieren von Experimentberichten](using/content-management/reporting-configuration.md)

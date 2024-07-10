@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >id="ajo_create_visual_fragment"
 >title="Auswählen des visuellen Typs"
 >abstract="Erstellen Sie ein eigenständiges visuelles Fragment, um Ihren Inhalt in einer E-Mail innerhalb einer Journey, einer Kampagne oder in einer Inhaltsvorlage wiederzuverwenden."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Hinzufügen visueller Fragmente zu Ihren E-Mails"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Hinzufügen visueller Fragmente zu Ihren E-Mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -77,7 +77,7 @@ Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern**. Das
 
 >[!NOTE]
 >
->Um ein Fragment zu veröffentlichen, muss die [Publish Fragment](../administration/ootb-product-profiles.md#content-library-manager) Benutzerberechtigungen.
+>Um ein Fragment veröffentlichen zu können, müssen Sie über die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) verfügen.
 
 Wenn Ihr Fragment für die Aktivierung bereit ist, können Sie es in der Vorschau anzeigen und veröffentlichen, um es in Ihren Journeys und Kampagnen verfügbar zu machen. Gehen Sie dazu wie folgt vor:
 

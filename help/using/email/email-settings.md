@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflä
 
 Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden bei der nächsten Wiederholung oder der nächsten Ausführung übernommen.
+* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden beim nächsten Wiederkehren oder bei der nächsten Neuausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
 >[!NOTE]
 >
->Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journey(en) oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
+>Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 
@@ -81,31 +81,31 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 >
 >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
-## Header zum Abmelden von Listen{#list-unsubscribe}
+## Abmelde-Link in Kopfzeile{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
 
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
-Diese Option ist standardmäßig aktiviert, um eine 1-Klick-URL zum Abmelden in den E-Mail-Header einzuschließen, z. B.:
+Diese Option ist standardmäßig aktiviert, um eine URL zum Abmelden mit einem Klick in die E-Mail-Kopfzeile einzufügen, z. B.:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird im E-Mail-Header keine URL zum Abmelden von einem Klick angezeigt.
+Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile keine URL zum Abmelden mit einem Klick angezeigt.
 
-Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Wenn sich ein Benutzer anhand dieser Einstellung über die URL zum Abmelden von Listen im Header einer E-Mail abmeldet, wird die Zustimmung in Adobe Journey Optimizer entweder auf Kanalebene oder auf ID-Ebene aktualisiert.
+Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
-Der List Unsubscribe Header bietet zwei Funktionen (Mailto und One-Click-URL, wie unten beschrieben), die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
+„Abmelde-Link in Kopfzeile“ bietet zwei Funktionen („Mailto“ und URL zum Abmelden mit einem Klick, wie unten beschrieben), die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
 
-* A **Mailto (unsubscribe)** address ist die Zieladresse, an die Abmeldeanfragen zur automatischen Verarbeitung an weitergeleitet werden.
+* Eine Adresse **Mailto (abmelden)**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
 
-  In Journey Optimizer ist die Abmelde-E-Mail-Adresse die Standardeinstellung **Mailto (unsubscribe)** Adresse, die auf der Kanaloberfläche angezeigt wird, basierend auf Ihrer [ausgewählte Subdomain](#subdomains-and-ip-pools).
+  In Journey Optimizer ist die E-Mail-Adresse für Abmeldungen die Standardadresse **Mailto (abmelden)**, die basierend auf Ihrer [ausgewählten Subdomain](#subdomains-and-ip-pools) in der Kanaloberfläche angezeigt wird.
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um den 1-Klick-Opt-out-Header der von unserer URL generierten List Unsubscribe-Kopfzeile handelt, der auf der Subdomain basiert, die Sie in den Kanaloberflächeneinstellungen festgelegt und konfiguriert haben.
+* Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um die Option „Abmelde-Link in Kopfzeile“ handelt, die von der Opt-out-URL mit einem Klick basierend auf der Subdomain generiert wurde, die Sie in den Einstellungen der Kanaloberfläche festgelegt und konfiguriert haben.
 
 <!--
     >[!AVAILABILITY]
@@ -114,15 +114,15 @@ Der List Unsubscribe Header bietet zwei Funktionen (Mailto und One-Click-URL, wi
     >
 -->
 
-Die **[!UICONTROL Mailto (unsubscribe)]** und der **[!UICONTROL 1-Klick-URL abmelden]** -Funktion ist optional. Wenn Sie die standardmäßig generierte URL zum Abmelden eines Klicks nicht verwenden möchten, können Sie die Funktion deaktivieren. Im Szenario mit der **[!UICONTROL Opt-out-Konfiguration]** aktiviert ist und die **[!UICONTROL 1-Klick-URL abmelden]** -Funktion deaktiviert ist, wenn Sie eine [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) auf eine Nachricht zu setzen, die auf diese Weise erstellt wurde, nimmt der Header zum Abmelden von Listen den 1-Klick-Abmelde-Link auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als URL-Wert zum Abmelden mit einem Klick.
+Die Funktionen **[!UICONTROL Mailto (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. Wenn Sie in einem Szenario, in dem die **[!UICONTROL Opt-out-Konfiguration]** aktiviert ist und die Funktion **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert ist, einen [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, nimmt die Option „Abmelde-Link in Kopfzeile“ den Link zum Abmelden mit einem Klick auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als den URL-Wert zum Abmelden mit einem Klick.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Wenn Sie keinen Ausschluss-Link mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige Abmelde-URL mit einem Klick in den Einstellungen für die Kanaloberfläche deaktiviert ist, wird im Header &quot;List Unsubscribe&quot;keine URL an den E-Mail-Header übergeben.
+>Wenn Sie keinen Link zum Abmelden mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige URL zum Abmelden mit einem Klick in den Einstellungen der Kanaloberfläche deaktiviert ist, wird keine URL als Teil der Option „Abmelde-Link in Kopfzeile“ in die E-Mail-Kopfzeile übergeben.
 
-Erfahren Sie mehr über die Verwaltung der Abmeldefunktionen in Ihren Nachrichten in [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header).
+In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen in Ihren Nachrichten.
 
 ## Kopfzeilenparameter {#email-header}
 

@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 76%
 
 ## Zugreifen auf Inhaltsvorlagen {#access}
 
-Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** aus dem linken Menü aus.
+Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** aus.
 
 ![](assets/content-template-list.png)
 
@@ -34,9 +34,9 @@ Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten E
 
 ![](assets/content-template-list-filters.png)
 
-## Inhaltsvorlagen bearbeiten und löschen {#edit}
+## Bearbeiten und Löschen von Inhaltsvorlagen {#edit}
 
-* Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und nehmen Sie die gewünschten Änderungen vor. Sie können auch die Eigenschaften der Inhaltsvorlage bearbeiten, indem Sie auf die Schaltfläche &quot;Bearbeiten&quot;neben dem Namen der Vorlage klicken.
+* Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und nehmen Sie die gewünschten Änderungen vor.  Sie können auch die Eigenschaften der Inhaltsvorlage bearbeiten, indem Sie auf die Schaltfläche „Bearbeiten“ neben dem Namen der Vorlage klicken.
 
   ![](assets/content-template-edit.png)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
-Ein Fragment ist eine wiederverwendbare Komponente, auf die über mehrere [!DNL Journey Optimizer] Kampagnen und Journey. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um Inhalte schnell in einem verbesserten Designprozess zusammenzustellen. [Erfahren Sie, wie Sie Fragmente erstellen und verwalten](../content-management/fragments.md).
+Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zum Erstellen und Verwenden von Fragmenten](../content-management/fragments.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
 
@@ -30,11 +30,11 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
 >[!NOTE]
 >
->Sie können bis zu 30 Fragmente in einem Versand hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
+>Sie können für einen Versand bis zu 30 Fragmente hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
 
 1. Öffnen Sie den [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die Schaltfläche **[!UICONTROL Fragmente]** im linken Bereich aus.
 
-   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. Sie werden nach Erstellungsdatum sortiert: Kürzlich hinzugefügte Ausdrucksfragmente werden zuerst in der Liste angezeigt. [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
+   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. Sie werden nach Erstellungsdatum sortiert, wobei die zuletzt hinzugefügten Ausdrucksfragmente in der Liste zuerst angezeigt werden.  [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
@@ -50,11 +50,11 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
    >[!CAUTION]
    >
-   >Sie können jede **Entwurf** oder **Live** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status Entwurf darin verwendet wird. Bei der Journey- oder Kampagnenveröffentlichung wird ein Fehler bei Fragmententwürfen angezeigt, die Sie zur Veröffentlichung validieren müssen.
+   >Sie können jeden **Entwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status „Entwurf“ darin verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
 
-1. Wenn die Fragment-ID hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle Entwürfe oder Live-Journey/Kampagnen weitergeleitet, die diese Fragment-ID enthalten.
+1. Wenn die Fragment-ID einmal hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle Entwürfe oder Live-Journeys/Kampagnen übertragen, die diese Fragment-ID enthalten.
 
-1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** neben einem Fragment. Wählen Sie aus dem sich öffnenden Kontextmenü die Option **[!UICONTROL Fragment anzeigen]** aus, um weitere Informationen zu diesem Fragment zu erhalten. Die **[!UICONTROL Fragment-ID]** wird ebenfalls angezeigt und kann von hier aus kopiert werden.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben einem Fragment. Wählen Sie aus dem sich öffnenden Kontextmenü die Option **[!UICONTROL Fragment anzeigen]** aus, um weitere Informationen zu diesem Fragment zu erhalten. Die **[!UICONTROL Fragment-ID]** wird ebenfalls angezeigt und kann von hier aus kopiert werden.
 
    ![](assets/expression-fragment-view.png)
 
@@ -70,19 +70,19 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile eines Ausdrucksfragments mithilfe von Variablen bearbeitbar gemacht wurden, können Sie deren Standardwerte mithilfe einer bestimmten Syntax überschreiben. [Erfahren Sie, wie Sie Ihre Fragmente anpassen können.](../content-management/customizable-fragments.md)
+Wenn bestimmte Teile eines Ausdrucksfragments mithilfe von Variablen bearbeitbar gemacht wurden, können Sie deren Standardwerte mithilfe einer speziellen Syntax überschreiben. [Informationen dazu, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
 
 Gehen Sie wie folgt vor, um die Felder anzupassen:
 
-1. Fügen Sie das Fragment aus dem **Fragmente** Menü.
+1. Fügen Sie das Fragment über das Menü **Fragmente** in ihren Code ein.
 
-1. Verwenden Sie die `<fieldId>="<value>"` -Code am Ende der Syntax, um den Standardwert der -Variablen zu überschreiben.
+1. Verwenden Sie den Code `<fieldId>="<value>"` am Ende der Syntax, um den Standardwert der Variablen zu überschreiben.
 
-   Im folgenden Beispiel wird der Wert einer Variablen überschrieben, deren ID &quot;sports&quot;mit dem Wert &quot;yoga&quot;lautet. Dadurch wird &quot;Yoga&quot;in Ihrem Fragmentinhalt überall dort angezeigt, wo auf die Variable &quot;sport&quot;verwiesen wird.
+   Im folgenden Beispiel wird der Wert einer Variablen, deren ID „sports“ lautet, mit dem Wert „Yoga“ überschrieben. Dadurch wird „Yoga“ überall dort in Ihrem Fragmentinhalt angezeigt, wo auf die Variable „sport“ verwiesen wird.
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-Ein Beispiel für das Hinzufügen von bearbeitbaren Feldern zu Ausdrucksfragmenten und deren Außerkraftsetzen beim Erstellen einer E-Mail finden Sie unter [diesem Abschnitt](../content-management/customizable-fragments.md#example).
+Ein Beispiel für das Hinzufügen von bearbeitbaren Feldern zu einem Ausdrucksfragment und zum Überschreiben ihrer Werte beim Erstellen einer E-Mail finden Sie in [diesem Abschnitt](../content-management/customizable-fragments.md#example).
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 

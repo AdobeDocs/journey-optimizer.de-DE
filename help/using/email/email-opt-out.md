@@ -10,56 +10,56 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 # Opt-out-Verwaltung für E-Mails {#email-opt-out}
 
-Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets sicherstellen, dass sich Kunden von der künftigen Kommunikation abmelden können. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.  [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
+Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets sicherstellen, dass sich Kundinnen und Kunden von der künftigen Kommunikation abmelden können.  Nach der Abmeldung werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt.   [Weitere Informationen zu Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 
 >[!NOTE]
 >
->Alle Ihre Marketing-Nachrichten müssen einen Ausschluss-Link enthalten. Dies ist für Transaktionsnachrichten nicht erforderlich. Die Nachrichtenkategorie - **[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]** - definiert wird im [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) und beim Erstellen der Nachricht.
+>Alle Ihre Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten.  Dies ist für Transaktionsnachrichten nicht erforderlich. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) und bei der Erstellung der Nachricht definiert.
 
 Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Möglichkeiten:
 
-* Fügen Sie im E-Mail-Header eine URL zum Abmelden mit einem Klick hinzu. Aktivieren der **[!UICONTROL List-Unsubscribe-Header]** -Option auf der Kanaloberfläche wird ein Ausschluss-Link im E-Mail-Header hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
+* Hinzufügen einer URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail  Durch Aktivieren der Option **[!UICONTROL Abmelde-Link in Kopfzeile]** auf der Ebene der Kanaloberfläche wird ein Ausschluss-Link in der Kopfzeile der E-Mail hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
 
-* Aktivieren Sie die **Ausschluss-Link mit einem Klick** für Ihre E-Mail.  [Erfahren Sie, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
+* Aktivieren Sie den **Ausschluss-Link mit einem Klick** für Ihre E-Mail.  [Informationen dazu, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
-* Einfügen einer **Link zu einer Landingpage**. [Erfahren Sie, wie Sie eine Landingpage zum Opt-out hinzufügen](#opt-out-external-lp)
+* Fügen Sie einen **Link in eine Landingpage** ein.  [Informationen dazu, wie Sie eine Landingpage zum Abmelden hinzufügen](#opt-out-external-lp)
 
 
 ## Opt-out in einem Schritt {#opt-out-one-step}
 
-### URL zum Abbestellen mit einem Klick in der Kopfzeile der E-Mail {#unsubscribe-header}
+### URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen einer Abmelde-URL in der Kopfzeile der E-Mail"
->abstract="Aktivieren Sie „Abmelde-Link in Kopfzeile“, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Ausschluss-Link in den Inhalt der E-Mail ein."
+>abstract="Aktivieren Sie „Abmelde-Link in Kopfzeile“, um eine Abmelde-URL zur Kopfzeile der E-Mail hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen Link zum Abmelden mit einem Klick in den Inhalt der E-Mail ein."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#one-click-opt-out" text="Opt-out mit einem Klick"
 
-Die URL zur Abmeldung von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es Empfängern ermöglicht, sich mit einem Klick von Ihren Mailinglisten abzumelden. Wenn in Adobe Journey Optimizer die Variable **List-Unsubscribe aktivieren** aktiviert ist, enthält der E-Mail-Header standardmäßig sowohl ein Mailto als auch eine URL, über die sich Empfänger von Ihrer Mailingliste abmelden können.
+Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. Wenn in Adobe Journey Optimizer die Option **Abmelde-Link aktivieren** aktiviert ist, enthält die Kopfzeile der E-Mail standardmäßig sowohl einen Mailto-Link als auch eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.
 
-Die [List-Unsubscribe aktivieren](email-settings.md#list-unsubscribe) Der Umschalter muss auf der Kanaloberfläche aktiviert sein, damit E-Mails, die diese Oberfläche verwenden, die URL zum Abmelden mit einem Klick in den E-Mail-Header aufnehmen.
+Der Schalter für [Abmelde-Link aktivieren](email-settings.md#list-unsubscribe) muss auf der Ebene der Kanaloberfläche aktiviert sein, damit für E-Mails, die diese Oberfläche verwenden, die URL zum Abmelden mit einem Klick in die Kopfzeile der E-Mail aufgenommen wird.
 
 >[!NOTE]
 >
->Um die URL zur Abmeldung von einem Klick im E-Mail-Header anzuzeigen, muss der E-Mail-Client des Empfängers diese Funktion unterstützen.
+>Um die URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail anzuzeigen, muss der E-Mail-Client der Empfängerinnen und Empfänger diese Funktion unterstützen.
 
 
-Beispielsweise zeigt die 1-Klick-URL zum Abmelden einen Abmelde-Link wie in Gmail an:
+Die URL zum Abmelden mit einem Klick zeigt beispielsweise in Gmail einen Abmelde-Link wie diesen an:
 
 ![](assets/unsubscribe-header.png)
 
 
-Mit Adobe Journey Optimizer können Sie Ihre E-Mail-Oberflächeneinstellungen mit einer automatisch generierten 1-Klick-URL für die Abmeldung und die E-Mail-Adresse im E-Mail-Header konfigurieren oder eine 1-Klick-Ausschluss-URL in Ihren E-Mail-Textkörper einfügen: Wenn ein Empfänger auf den 1-Klick-Abmelde-Link klickt, wird die Abmeldeanforderung des Empfängers entsprechend verarbeitet.
+Mit Adobe Journey Optimizer können Sie die Einstellungen Ihrer E-Mail-Oberfläche mit einer automatisch generierten URL zum Abmelden mit einem Klick und der Mailto-Adresse in der Kopfzeile der E-Mail konfigurieren oder eine Ausschluss-URL mit einem Klick in Ihren E-Mail-Textkörper einfügen: Wenn eine Person auf den Link zum Abmelden mit einem Klick klickt, wird ihre Abmeldeanfrage entsprechend verarbeitet.
 
 <!--
 >[!AVAILABILITY]
@@ -68,30 +68,30 @@ Mit Adobe Journey Optimizer können Sie Ihre E-Mail-Oberflächeneinstellungen mi
 >
 -->
 
-Je nach E-Mail-Client und [Abmeldeeinstellungen der E-Mail-Oberfläche](email-settings.md#list-unsubscribe)hat das Klicken auf den Abmelde-Link im E-Mail-Header folgende Auswirkungen:
+Je nach E-Mail-Client und den [Abmeldeeinstellungen der E-Mail-Oberfläche](email-settings.md#list-unsubscribe) hat das Klicken auf den Abmelde-Link in der Kopfzeile der E-Mail folgende Auswirkungen:
 
-* Wenn die Variable **Mailto (unsubscribe)** aktiviert ist, wird die Abmeldeanforderung an die Standardadresse zur Abmeldung gesendet, die auf der von Ihnen erstellten Subdomain basiert.
-* Wenn die Variable **1-Klick-URL abmelden** aktiviert ist - oder wenn Sie eine Abmelde-URL in den Inhalt Ihres E-Mail-Hauptinhalts eingefügt haben -, wird der Empfänger direkt abgemeldet, entweder auf Kanalebene oder auf ID-Ebene (je nachdem, wie die Zustimmung eingerichtet wird), wenn der Empfänger auf die URL zum Abmelden mit einem Klick klickt, die auf der von Ihnen erstellten Subdomain basiert.
+* Wenn die Funktion **E-Mail an (abmelden)** aktiviert ist, wird die Abmeldeanfrage an die Standardadresse zur Abmeldung gesendet, die auf der von Ihnen erstellten Subdomain basiert.
+* Wenn die Funktion **URL zum Abmelden mit einem Klick** aktiviert ist – oder wenn Sie eine Abmelde-URL in den Inhalt Ihres E-Mail-Textkörpers eingefügt haben – werden Empfängerinnen und Empfänger direkt abgemeldet, und zwar entweder auf Kanalebene oder auf ID-Ebene (je nachdem, wie die Zustimmung eingerichtet wird), wenn sie auf die URL zum Abmelden mit einem Klick klicken, die auf der von Ihnen erstellten Subdomain basiert.
 
-In beiden Fällen wird das entsprechende Empfängerprofil sofort abgemeldet und diese Auswahl im Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
+In beiden Fällen wird das entsprechende Profil für die Empfängerin bzw. den Empfänger sofort abgemeldet und diese Wahl in Experience Platform aktualisiert.  Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
-Wenn Sie auf die **[!UICONTROL List-Unsubscribe aktivieren]** -Option in Bezug auf den Header &quot;List Unsubscribe&quot;empfehlen wir, beide Methoden zu aktivieren - **Mailto (unsubscribe)** und **URL für Abmeldung mit einem Klick**. Nicht alle E-Mail-Clients unterstützen die HTTP-Methode. Mit der Funktion Mailto list-unsubscribe , die Ihnen die Auswahl einer Alternative ermöglicht, kann Ihre Reputation des Absenders besser geschützt werden und alle Empfänger können auf die Abmeldefunktion zugreifen. [Weitere Informationen](email-settings.md#list-unsubscribe)
+Wenn Sie die Option **[!UICONTROL Abmelde-Link aktivieren]** in Bezug auf die Option „Abmelde-Link in Kopfzeile“ aktiviert haben, empfehlen wir, beide Methoden zu aktivieren – sowohl **E-Mail an (abmelden)** als auch **URL zum Abmelden mit einem Klick**. Nicht alle E-Mail-Clients unterstützen die HTTP-Methode. Indem wir Ihnen die Funktion zum Abmelden per E-Mail bereitstellen, die Sie als Alternative auswählen können, kann Ihr Ruf als Absender besser geschützt werden und all Ihre Empfängerinnen und Empfänger können auf die Abmeldefunktion zugreifen. [Weitere Informationen](email-settings.md#list-unsubscribe)
 
 
-### Opt-out aus dem E-Mail-Inhalt mit einem Klick {#one-click-opt-out}
+### Abmelden mit einem Klick über den E-Mail-Inhalt {#one-click-opt-out}
 
-Um eine personalisierte Abmelde-URL festzulegen, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein und geben Sie die URL Ihrer Wahl ein, wie unten beschrieben:
+Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen Link zum Abmelden mit einem Klick in den Inhalt der E-Mail-Nachricht ein und geben Sie die gewünschte URL wie unten beschrieben ein:
 
-1. Zugriff auf E-Mail-Inhalte und [Link einfügen](../email/message-tracking.md#insert-links).
-1. Auswählen **[!UICONTROL Opt-out mit einem Klick]** als Typ des Links.
+1. Greifen Sie auf Ihren E-Mail-Inhalt zu und [fügen Sie einen Link ein](../email/message-tracking.md#insert-links).
+1. Wählen Sie **[!UICONTROL Opt-out mit einem Klick]** als Link-Typ aus.
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Geben Sie die URL der Landingpage ein, auf die der Benutzer nach der Abmeldung weitergeleitet wird. Auf dieser Seite können Sie bestätigen, dass die Abmeldung erfolgreich war.
+1. Geben Sie die URL der Landingpage ein, zu der Benutzende weitergeleitet werden sollen, sobald sie sich abgemeldet haben.  Diese Seite dient nur Bestätigung, dass die Abmeldung erfolgreich war.
 
    >[!NOTE]
    >
-   >Wenn Sie die **[!UICONTROL List-Unsubscribe]** -Option am [Kanaloberflächen](email-settings.md#list-unsubscribe) und lassen Sie die standardmäßige Option für die Ausschluss-URL mit einem Klick deaktiviert. Diese URL wird verwendet, wenn Benutzer auf den Link zum Abmelden im E-Mail-Header klicken. [Weitere Informationen](#unsubscribe-header)
+   >Wenn Sie die Option **[!UICONTROL Abmelde-Link aktivieren]** auf der [Ebene der Kanaloberfläche](email-settings.md#list-unsubscribe) aktiviert und die standardmäßige Option für die URL zum Abmelden mit einem Klick deaktiviert haben, wird diese URL verwendet, wenn Benutzende auf den Abmelde-Link in der Kopfzeile der E-Mail klicken. [Weitere Informationen](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -109,22 +109,22 @@ Um eine personalisierte Abmelde-URL festzulegen, fügen Sie einen 1-Klick-Abmeld
 
 
 
-## zweistufiger Ausschluss {#opt-out-external-lp}
+## Opt-out in zwei Schritten {#opt-out-external-lp}
 
-Der Standard-Abmeldemechanismus besteht aus zwei Schritten: Der Abonnent klickt in einer E-Mail auf den Abmelde-Link und wird dann zu einer Opt-out-Landingpage weitergeleitet, um seine Abmeldung zu bestätigen.
+Der standardmäßige Opt-out-Mechanismus besteht aus zwei Schritten: Die Abonnentin oder der Abonnent klickt in einer E-Mail auf den Abmelde-Link und wird dann zu einer Opt-out-Landingpage weitergeleitet, um ihre bzw. seine Abmeldung zu bestätigen.
 
-Um diesen Abmeldemodus zu implementieren, müssen Sie eine Opt-out-Landingpage erstellen und veröffentlichen sowie einen Abmelde-Link in Ihren E-Mail-Nachrichten mit einem Link zur Landingpage hinzufügen. Diese Schritte werden nachfolgend beschrieben.
+Um diesen Abmeldemodus zu implementieren, müssen Sie eine Opt-out-Landingpage erstellen und veröffentlichen sowie einen Abmelde-Link in Ihren E-Mail-Nachrichten mit einem Link zur Landingpage hinzufügen. Diese Schritte werden nachfolgend beschrieben. 
 
 
 ### Voraussetzungen {#prereq-lp}
 
-Um einen zweistufigen Opt-out-Mechanismus einzurichten, müssen Sie eigene Abmelde-Landingpages erstellen. Die erste Landingpage wird von Ihrer Nachricht aus mit einer Aktionsaufruf-Schaltfläche verknüpft. Wenn der Benutzer auf die Schaltfläche klickt, sollte eine Bestätigungsmeldung angezeigt werden.
+Um einen zweischrittigen Opt-out-Mechanismus einzurichten, müssen Sie eigene Abmelde-Landingpages erstellen. Die erste Landingpage wird in Ihrer Nachricht verlinkt und muss eine Aktionsaufruf-Schaltfläche enthalten.  Wenn Benutzende auf die Schaltfläche klicken, sollte eine Bestätigungsmeldung angezeigt werden.
 
-Erfahren Sie, wie Sie in Adobe Journey Optimizer eine Landingpage erstellen, um Abmeldungen zu verwalten in [diese Seite](../landing-pages/lp-use-cases.md#opt-out).
+Wie Sie in Adobe Journey Optimizer eine Landingpage erstellen, um Abmeldungen zu verwalten, erfahren Sie auf [dieser Seite](../landing-pages/lp-use-cases.md#opt-out).
 
-Sie können auch eine externe Landingpage verwenden. Konfigurieren Sie in diesem Fall die API so, dass die Informationen an Adobe Journey Optimizer gesendet werden, wenn sich ein Empfänger abgemeldet hat.
+Sie können auch eine externe Landingpage verwenden. Konfigurieren Sie in diesem Fall die API so, dass die Informationen an Adobe Journey Optimizer gesendet werden, wenn sich eine Empfängerin oder ein Empfänger abgemeldet hat.
 
-+++ Erfahren Sie, wie Sie einen Ausschluss-API-Aufruf implementieren
++++ Erfahren Sie, wie Sie einen Opt-out-API-Aufruf implementieren
 
 Damit Ihre Empfangenden abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
 
@@ -163,7 +163,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](https://developer.adobe.com){target="_blank"} API-Aufruf.
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den [Adobe Developer](https://developer.adobe.com){target="_blank"}-API-Aufruf zu aktualisieren
 
 +++
 
@@ -172,13 +172,13 @@ Hauptteil der Anfrage:
 
 Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Nachricht und [Link einfügen](../email/message-tracking.md#insert-links) über die dedizierte Symbolleiste.
+1. Verwenden Sie die kontextbezogene Symbolleiste, um eine Nachricht zu erstellen und einen [Link einzufügen](../email/message-tracking.md#insert-links).
 
    ![](assets/opt-out-insert-link.png)
 
-1. Wählen Sie die **[!UICONTROL Landingpage]** aus dem **[!UICONTROL Typ]** und wählen Sie Ihre Opt-out-Landingpage im **[!UICONTROL Landingpage]** -Feld.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option **[!UICONTROL Landingpage]** aus und legen Sie Ihre Opt-out-Landingpage im Feld **[!UICONTROL Landingpage]** fest.
 
-   Wenn Sie eine externe Landingpage verwenden, wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus dem **[!UICONTROL Typ]** Dropdown-Liste.
+   Wenn Sie eine externe Landingpage verwenden, wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option **[!UICONTROL Externes Opt-out/Abmeldung]** aus.
 
    ![](assets/opt-out-link-type.png)
 
@@ -193,13 +193,13 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert haben, können Sie Ihre Nachricht erstellen und senden.
 
-1. Konfigurieren Sie Ihre Nachricht mit einem Abmelde-Link und senden Sie sie an Ihre Abonnenten.
+1. Konfigurieren Sie Ihre Nachricht mit einem Abmelde-Link und senden Sie sie an Ihre Abonnentinnen und Abonnenten.
 
-1. Wenn der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
+1. Wenn die Empfängerin bzw. der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
 
    ![](assets/opt-out-lp-example.png)
 
-1. Wenn der Empfänger das Formular sendet, klicken Sie hier auf die Schaltfläche **[!UICONTROL Abmelden]** in Ihrer Landingpage - die Profildaten werden über den API-Aufruf aktualisiert.
+1. Wenn die Person das Formular abschickt (in diesem Fall durch Klicken auf die Schaltfläche **[!UICONTROL Abmelden]** auf Ihrer Landingpage), werden die Profildaten durch den API-Aufruf aktualisiert.
 
 1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 

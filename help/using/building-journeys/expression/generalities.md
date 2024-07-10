@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aufbau des erweiterten Ausdruckseditors
-description: Erfahren Sie mehr über die im erweiterten Ausdruckseditor verwendete Syntax.
+title: Syntax des erweiterten Ausdruckseditors
+description: Weitere Informationen zur im erweiterten Ausdruckseditor verwendete Syntax
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Aufbau des erweiterten Ausdruckseditors {#syntax}
+# Syntax des erweiterten Ausdruckseditors {#syntax}
 
-Syntaxgrundlagen bei der Verwendung der [Ausdruckseditor](expressionadvanced.md) sind unten aufgeführt. Beispiele für die Verwendung des erweiterten Ausdruckseditors finden Sie unter [diese Seite](advanced-editor-use-cases.md).
+Die Grundlagen der Syntax bei der Verwendung des [erweiterten Ausdruckseditors](expressionadvanced.md) sind unten aufgeführt. Beispiele für die Verwendung des erweiterten Ausdruckseditors finden Sie auf [dieser Seite](advanced-editor-use-cases.md).
 
 ## Klammern und Priorität von Ausdrücken {#parentheses-and-expression-priority}
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer]-Landingpages zum kundenseitigen Opt-in/Opt-out für bestimmte oder alle Ihre Nachrichten.
 
-## Für einen Service anmelden {#subscription-to-a-service}
+## Anmelden für einen Service {#subscription-to-a-service}
 
 Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Landingpage zum [Abonnieren eines Services](subscription-list.md) (z. B. eines Newsletters oder einer Veranstaltung) aufzufordern. Die wichtigsten Schritte werden im unten stehenden Diagramm dargestellt:
 
@@ -88,7 +88,7 @@ Alle Benutzer, die sich für Ihre Veranstaltung registriert haben, erhalten die 
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Opt-out-Landingpage {#opt-out}
+## Landingpage zum Opt-out {#opt-out}
 
 Damit Ihre Empfänger das Abonnement stornieren können, können Sie in Ihre E-Mails einen Link zu einer Ausschluss-Landingpage einfügen.
 
@@ -107,7 +107,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 ### Konfigurieren des Opt-out von E-Mails {#configure-opt-out}
 
-Gehen Sie wie folgt vor, damit sich Empfänger einer E-Mail über eine Landingpage von Ihrer Nachricht abmelden können:
+Gehen Sie wie folgt vor, um den Empfängerinnen und Empfängern einer Nachricht zu ermöglichen, dieses Abonnement über eine Landingpage zu stornieren:
 
 1. Erstellen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md)
 
@@ -172,7 +172,7 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 **Siehe auch:**
 
 * [Opt-out mit einem Klick](../email/email-opt-out.md#one-click-opt-out-link)
-* [Ausschluss-Link in der E-Mail-Kopfzeile](../email/email-opt-out.md#unsubscribe-header)
+* [Ausschluss-Link in der Kopfzeile der E-Mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

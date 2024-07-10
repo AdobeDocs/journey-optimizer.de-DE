@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen visueller Fragmente zu Ihren E-Mails {#use-visual-fragments}
 
-Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in allen Journey Optimizer-Kampagnen, -Journey oder -Inhaltsvorlagen referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen. [Erfahren Sie, wie Sie Fragmente erstellen und verwalten](../content-management/fragments.md).
+Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in Journey Optimizer-Kampagnen, -Journeys oder -Inhaltsvorlagen referenziert werden kann.  Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zum Erstellen und Verwalten von Fragmenten](../content-management/fragments.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
 
 ## Verwenden eines Fragments {#use-fragment}
 
-Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
+Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 
 >[!NOTE]
 >
->Sie können bis zu 30 Fragmente in einem Versand hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
+>Sie können für einen Versand bis zu 30 Fragmente hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
 
 
 1. Öffnen Sie eine beliebige E-Mail oder Inhaltsvorlage mit dem [E-Mail-Designer](get-started-email-design.md).
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
 
    ![](assets/fragments-in-designer.png)
 
-1. Es wird eine Liste aller in der aktuellen Sandbox erstellten Fragmente angezeigt. Sie werden nach Erstellungsdatum sortiert: Kürzlich hinzugefügte visuelle Fragmente werden zuerst in der Liste angezeigt. Sie haben folgende Möglichkeiten:
+1. Es wird eine Liste aller in der aktuellen Sandbox erstellten Fragmente angezeigt. Sie werden nach Erstellungsdatum sortiert, wobei die kürzlich hinzugefügten visuellen Fragmente zuerst in der Liste angezeigt werden.  Sie haben folgende Möglichkeiten:
 
    * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe der zugehörigen Kennzeichnung beginnen.
    * Sortieren Sie Fragmente in auf- oder absteigender Reihenfolge.
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
 
    >[!CAUTION]
    >
-   >Sie können jede **Entwurf** oder **Live** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status Entwurf darin verwendet wird. Bei der Journey- oder Kampagnenveröffentlichung wird ein Fehler bei Fragmententwürfen angezeigt, die Sie zur Veröffentlichung validieren müssen.
+   >Sie können jeden **Fragmententwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status „Entwurf“ darin verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
 
 1. Wie jede andere Komponente können Sie das Fragment in Ihrem Inhalt verschieben.
 
@@ -75,25 +75,25 @@ Gehen Sie wie folgt vor, um ein Fragment in eine E-Mail zu integrieren.
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment zum Inhalt hinzugefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassen können.](../content-management/customizable-fragments.md)
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment zum Inhalt hinzugefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
 
 Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 
-1. Fügen Sie das Fragment zum Inhalt hinzu und wählen Sie es aus, um den Eigenschaftenbereich auf der rechten Seite zu öffnen.
+1. Fügen Sie das Fragment zu Ihrem Inhalt hinzu und wählen Sie es aus, um den Bereich „Eigenschaften“ auf der rechten Seite zu öffnen.
 
-1. Alle bearbeitbaren Felder im Fragment werden im **Einstellungen** Registerkarte unter **Fragment** Abschnitt.
+1. Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **Einstellungen** im Abschnitt **Fragment** angezeigt.
 
    Bearbeitbare Felder werden im Vorschaufenster grün hervorgehoben, wenn sie im rechten Bereich ausgewählt wurden. So können Sie die Position der Felder in Ihrem Inhalt leicht identifizieren.
 
-   Im folgenden Beispiel wird das Bild **source** und **Alternativtext** kann bearbeitet werden, sowie die Schaltfläche &quot;Hier klicken&quot; **URL**.
+   Im folgenden Beispiel können die **Bildquelle** und der **alternative Text** sowie die **URL** der Schaltfläche „Hier klicken“ bearbeitet werden.
 
    ![](assets/fragment-editable.png)
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
-Wenn Sie ein visuelles Fragment bearbeiten, werden die Änderungen synchronisiert. Sie werden automatisch an alle Entwürfe oder Live-Journey und Inhaltsvorlagen weitergeleitet, die dieses Fragment enthalten.
+Wenn Sie ein visuelles Fragment bearbeiten, werden die Änderungen synchronisiert. Sie werden automatisch an alle Journey-Entwürfe oder Live-Journeys/Kampagnen und Inhaltsvorlagen übertragen, die dieses Fragment enthalten.
 
-Wenn Fragmente zu einer E-Mail oder einer Inhaltsvorlage hinzugefügt werden, werden sie standardmäßig synchronisiert. Sie können allerdings die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in das aktuelle Design kopiert, die Änderungen jedoch nicht mehr synchronisiert.
+Wenn Fragmente zu einer E-Mail oder Inhaltsvorlage hinzugefügt werden, werden sie standardmäßig synchronisiert.  Sie können allerdings die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in das aktuelle Design kopiert, die Änderungen jedoch nicht mehr synchronisiert.
 
 Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
 

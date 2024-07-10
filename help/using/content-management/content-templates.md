@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Inhaltsvorlagen
-description: Erfahren Sie, wie Sie mit Inhaltsvorlagen arbeiten, um Inhalte in Journey Optimizer-Kampagnen und -Journey wiederzuverwenden.
+description: Erfahren Sie, wie Sie mit Inhaltsvorlagen arbeiten, um Inhalte in Journey Optimizer-Kampagnen und -Journeys wiederzuverwenden
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig u
 
 Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
-➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen definieren und verwenden](#video-templates).
+➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen definieren und verwenden](#video-templates)
 
 >[!CAUTION]
 >

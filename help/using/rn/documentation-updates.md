@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5383'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Alle neuen Funktionen und Verbesserungen der  [!DNL Journey Optimizer]-Version Juni 2024 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Auf [dieser Seite](../building-journeys/journey-properties.md#merge-policies) wurde ein Hinweis auf die Verwendung von Zusammenführungsrichtlinien in Journeys hinzugefügt.
 * Die Seite über die Konfiguration einer Aktivität vom Typ **Warten** in einer Journey wurde umstrukturiert und verbessert. [Weitere Informationen](../building-journeys/wait-activity.md)
-* Eine neue Seite wurde erstellt, um die Eigenschaften von Journey zu detaillieren. [Weitere Informationen](../building-journeys/journey-properties.md)
+* Es wurde eine neue Seite erstellt, um die Eigenschaften der Journey detailliert aufzuführen. [Weitere Informationen](../building-journeys/journey-properties.md)
 
 ## Mai 2024 {#may-2024}
 

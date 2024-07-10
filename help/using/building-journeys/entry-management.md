@@ -9,22 +9,22 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Profileintrittsverwaltung {#entry-management}
 
-Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. In Adobe Journey Optimizer sind die folgenden Typen von Journey verfügbar:
+Die Verwaltung des Profileintritts hängt von der Art der Journey ab. In Adobe Journey Optimizer sind die folgenden Arten von Journeys verfügbar:
 
 * **Unitäres Ereignis**-Journeys: Diese Journeys beginnen mit einem unitären Ereignis. Wenn das Ereignis empfangen wird, tritt das verknüpfte Profil in die Journey ein. [Weitere Informationen](#entry-unitary)
 
-* **Geschäftsereignis** Journey: Diese Journey beginnen mit einem Geschäftsereignis, unmittelbar gefolgt von einem **Audience lesen** -Aktivität. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
+* **Geschäftsereignis**-Journeys: Diese Journeys beginnen mit einem Geschäftsereignis, unmittelbar gefolgt von einer Aktivität **Zielgruppe lesen**. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
 
-* **Audience lesen** Journey: Diese Journey beginnen mit einer **Audience lesen** -Aktivität. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journey können wiederkehrend oder &quot;einmalig&quot;sein. [Weitere Informationen](#entry-read-audience)
+* **Zielgruppe lesen**-Journeys: Diese Journeys beginnen mit einer Aktivität **Zielgruppe lesen**. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journeys können wiederkehrend oder einmalig sein. [Weitere Informationen](#entry-read-audience)
 
 * **Zielgruppen-Qualifizierungs**-Journeys: Diese Journeys beginnen mit einem Zielgruppen-Qualifizierungsereignis. Diese Journeys überwachen die Ein- und Austritte von Profilen in Zielgruppen. In diesem Fall tritt das verknüpfte Profil die Journey ein. [Weitere Informationen](#entry-unitary)
 
@@ -32,13 +32,13 @@ Für alle Journey-Typen gilt, dass ein Profil nicht mehrmals zur gleichen Zeit i
 
 ## Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen{#entry-unitary}
 
-In **Einzelereignis** und **Zielgruppenqualifikation** Journey können Sie den Wiedereintritt aktivieren oder deaktivieren:
+In den Journeys für **unitäre Ereignisse** und **Zielgruppen-Qualifizierungen** können Sie den erneuten Eintritt aktivieren oder deaktivieren:
 
 * Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
 
 * Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals innerhalb des globalen Journey-Timeout-Zeitraums in dieselbe Journey eintreten.  Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/journey-properties.md#global_timeout).
 
-Standardmäßig ist bei Journeys der erneute Eintritt erlaubt. Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. Damit können Sie die Wartezeit definieren, bevor ein Profil erneut in die Journey eintreten kann.  Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Dauer beträgt 91 Tage ([globale Zeitüberschreitung](journey-properties.md#global_timeout)).
+Standardmäßig ist bei Journeys der erneute Eintritt erlaubt. Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. Damit können Sie die Wartezeit definieren, bevor ein Profil erneut in die Journey eintreten kann.  Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 91 Tage ([maximale globale Wartezeit](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -57,7 +57,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-In **Journey für Unternehmen**, um die Ausführung mehrerer Geschäftsereignisse zu ermöglichen, aktivieren Sie die entsprechende Option im **[!UICONTROL Ausführung]** -Abschnitt der Journey-Eigenschaften.
+Um in **Geschäfts-Journeys** mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
 
 ![](assets/business-entry.png)
 
@@ -69,11 +69,11 @@ Weitere Informationen hierzu finden Sie in diesem [Abschnitt](../event/about-cre
 
 ## „Zielgruppe lesen“-Journeys {#entry-read-audience}
 
-**Audience lesen** Journey können wiederkehrend oder &quot;einmalig&quot;sein:
+**Zielgruppe-lesen**-Journeys können wiederkehrend oder einmalig sein:
 
-* Bei einmaligen/&quot;einmaligen&quot; Journey: Das Profil wird ein- und einmal in die Journey eingetragen.
+* Für nicht wiederkehrende/einmalige Journeys: Das Profil tritt nur einmal in die Journey ein.
 
-* Für wiederkehrende Journeys: Standardmäßig treten bei jeder Wiederholung alle Profile der Zielgruppe in die Journey ein. Sie müssen die Journey beenden, bevor sie in einem anderen Vorkommen wieder eintreten können.
+* Für wiederkehrende Journeys: Standardmäßig treten bei jeder Wiederholung alle Profile der Zielgruppe in die Journey ein. Sie müssen die Journey beenden, bevor sie in einer anderen Instanz wieder eintreten können.
 
 Für wiederkehrende Zielgruppe-lesen-Journeys stehen zwei Optionen zur Verfügung. 
 
@@ -83,7 +83,7 @@ Für wiederkehrende Zielgruppe-lesen-Journeys stehen zwei Optionen zur Verfügun
   >
   >Wenn Sie auf eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#segments-in-journey-optimizer) in Ihrer Journey abzielen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
 
-* **Wiedereintritt bei Wiederauftreten erzwingen**: Mit dieser Option können Sie festlegen, dass alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beendet werden. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann (zum Beispiel, wenn Sie Warteaktivitäten verwenden), aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+* **Erneuten Eintritt bei Wiederholung erzwingen**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann (zum Beispiel, wenn Sie Warteaktivitäten verwenden), aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
 
 ![](assets/read-audience-options.png)
 
