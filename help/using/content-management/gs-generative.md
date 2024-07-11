@@ -23,7 +23,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den KI-Assistenten verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, indem sie es Ihnen ermöglicht, die Inhalte durch eine Beschreibung dessen, was Sie generieren möchten, genauer anzupassen."
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da der Inhalt durch eine Beschreibung dessen, was generieret werden soll, angepasst werden kann."
 
 
 >[!CONTEXTUALHELP]
