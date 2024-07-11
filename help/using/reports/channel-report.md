@@ -37,7 +37,7 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 * [SMS](#sms)
 * [In-App](#inapp)
 * [Web](#web)
-* [Briefpost](#direct-mail)
+* [Direkt-Mail](#direct-mail)
 
 ➡️ [Entdecken Sie diese Funktion im Video](#channel-report-video)
 
