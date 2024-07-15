@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,9 +132,9 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Durchsuchen Sie diesen Abschnitt, um Ihre Sandboxes zu verwalten. [Weitere Informationen](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Verwalten Sie Ihre Sandboxes in diesem Abschnitt. [Weitere Informationen](../administration/sandboxes.md)
 
-* **[!UICONTROL Kanäle]** - Konfigurieren Sie in diesem Abschnitt Ihre Kanäle, einschließlich Subdomains, Oberflächen und Zustellbarkeitseinstellungen. [Weitere Informationen](../configuration/get-started-configuration.md)
+* **[!UICONTROL Kanäle]** – Konfigurieren Sie in diesem Abschnitt Ihre Kanäle, einschließlich Subdomains, Oberflächen und Zustellbarkeitseinstellungen. [Weitere Informationen](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Tags]** – Mit einheitlichen Tags können Sie Ihre Journeys und Kampagnen einfach klassifizieren, um die Suche über die Listen zu verbessern. [Weitere Informationen](../start/search-filter-categorize.md#work-with-unified-tags)
 

@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1610'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein.  Mehr über unitäre Ereignisse erfahren Sie [in diesem Abschnitt](../event/about-events.md).
 
-Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereignisses:
+Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereignisses:
 
-1. Navigieren Sie im Menü ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und in der  **[!UICONTROL Veranstaltungen]** Abschnitt, klicken Sie auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
+1. Navigieren Sie im Menüabschnitt „VERWALTUNG“ zu **[!UICONTROL Konfigurationen]** und klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
    ![](assets/jo-event1.png)
 
@@ -163,7 +163,7 @@ Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in e
 
 ## Der erweiterte Ausdruckseditor {#adv-exp-editor}
 
-Beim Definieren der Ereignis-ID-Bedingung oder der Profil-ID können Sie zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung aus zwei Ereignisfeldern).
+Sie können beim Definieren der Ereignis-ID-Bedingung oder der Profilkennung auch zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung zweier Felder der Ereignisse).
 
 ![](assets/journey20.png)
 

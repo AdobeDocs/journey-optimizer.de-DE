@@ -11,9 +11,9 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie in einer Kampagne oder Journey Inhalte in mehreren Sprachen erstellen.
+Erfahren Sie, wie Sie im Rahmen einer einzelnen Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430921/)
