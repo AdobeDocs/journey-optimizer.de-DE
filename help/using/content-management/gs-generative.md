@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="KI-Assistent"
->abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den KI-Assistenten verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, indem sie es Ihnen ermöglicht, die Inhalte durch eine Beschreibung dessen, was Sie generieren möchten, genauer anzupassen."
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, da der Inhalt durch eine Beschreibung dessen, was generieret werden soll, angepasst werden kann."
 
 
 >[!CONTEXTUALHELP]
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe-Begriffe zu generativer KI"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Prompts, Kontext- oder Zusatzinformationen oder andere Eingaben, die Sie für diese Funktion bereitstellen, müssen mit einem bestimmten Kontext verknüpft sein, wozu Ihre Branding-Materialien, Website-Inhalte, Daten, Schemata für solche Daten, Vorlagen oder andere vertrauenswürdige Dokumente gehören können, und dürfen keine personenbezogenen Informationen enthalten (personenbezogene Informationen umfassen alles, was mit einer bestimmten Person in Verbindung gebracht werden kann). Sie sollten alle Ausgaben dieser Funktion auf ihre Richtigkeit hin überprüfen und sicherstellen, dass sie für Ihren Anwendungsfall geeignet sind"
+>abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI in Adobe"
 
 >[!BEGINSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >Der KI-Assistent in Adobe Journey Optimizer ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
 
-Der KI-Assistent in Adobe Journey Optimizer, der von Azure OpenAI und Azure Vision unterstützt wird, liefert proaktive Vorschläge zur Variation von Text- und Bildinhalten. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
+Der AI-Assistent in Adobe Journey Optimizer, der von Azure OpenAI unterstützt wird, bietet vorausschauende Vorschläge für Inhaltsvarianten für Text und Bilder. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
 
 Sie können den KI-Assistenten in Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
 
