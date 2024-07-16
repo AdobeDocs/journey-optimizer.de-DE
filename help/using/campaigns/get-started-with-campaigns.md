@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Kampagnen"
->abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über verschiedene Kanäle hinweg bereitzustellen. Bevor Sie eine neue Kampagne erstellen, überprüfen Sie, ob Sie über eine einsatzbereite Kanaloberfläche (d. h. Nachrichtenvoreinstellung) und Adobe Experience Platform-Zielgruppe verfügen."
+>abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über verschiedene Kanäle hinweg bereitzustellen. Stellen Sie vor der Erstellung Ihrer Kampagne sicher, dass Sie über eine Kanaloberfläche und eine Adobe Experience Platform-Zielgruppe verfügen."
 
 Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für eine bestimmte Zielgruppe bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
