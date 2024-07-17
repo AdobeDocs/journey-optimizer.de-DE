@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 

@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 
    Wenn zum Beispiel die URL der Landingpage „pages.mail.luma.com“ und die Tracking-URL „data.mail.luma.com“ lautet, können Sie „pages.mail.luma.com“ als Tracking-Subdomain wählen.
 
-1. Klicks **[!UICONTROL Einsenden]** , um die Erstellung der Landingpage-Vorgabe zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Klicken Sie auf **[!UICONTROL Senden]** , um die Erstellung der Landingpage-Vorgabe zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 

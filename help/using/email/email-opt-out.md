@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%
 

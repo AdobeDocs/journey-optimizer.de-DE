@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
 * **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Performance zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Performance verbessern können. [Weitere Informationen](#thompson-sampling)
 
-* [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Set of continuous [probability distributions](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"} defined on the interval [0, 1] [parameterized](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Satz kontinuierlicher [Wahrscheinlichkeitsverteilungen](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"}, definiert im Intervall [0, 1] [parametrisiert](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} durch zwei positive [Formparameter](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Thompson-Stichprobenverfahren {#thompson-sampling}
 
@@ -59,7 +59,7 @@ Wenn ein Angebot (z. B. Angebot 1) ein eindeutiger Gewinner ist, wird seine A-po
 
 +++**Technische Details**
 
-Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | data)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert **𝛍i** auf der Basis der bisher für dieses Angebot gesammelten Daten ist.
+Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(??i | data)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert **??i** auf der Basis der bisher für dieses Angebot gesammelten Daten ist.
 
 Nach dem Satz von Bayes:
 
@@ -71,7 +71,7 @@ Die automatische Optimierung ist so konzipiert, dass binäre Belohnungen (Klick/
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konversionen) und f Misserfolgen (keine Konversionen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target="_blank"} with a [beta distribution](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}.
+Die oben erläuterte Funktion &quot;Wahrscheinlichkeit&quot;wird von einer Binomial-Distribution modelliert, die die Erfolge (Konversionen) und Fehler (keine Konversionen) aufweist und q eine [zufällige Variable](https://de.wikipedia.org/wiki/Zufallsvariable){target="_blank"} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"} enthält.
 
 Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilung hat die folgende Form:
 

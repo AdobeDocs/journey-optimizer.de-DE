@@ -10,8 +10,8 @@ level: Intermediate
 keywords: Daten, Management, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---

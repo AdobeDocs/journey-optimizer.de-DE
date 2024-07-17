@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 

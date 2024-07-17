@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 100%
 

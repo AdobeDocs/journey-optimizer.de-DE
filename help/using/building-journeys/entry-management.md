@@ -9,7 +9,7 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 100%
 

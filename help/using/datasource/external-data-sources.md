@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 100%
 

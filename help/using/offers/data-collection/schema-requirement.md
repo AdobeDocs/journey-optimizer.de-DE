@@ -9,8 +9,8 @@ level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 92%
 
 ---
 
@@ -107,4 +107,4 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Wenn Sie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.
+>Wenn Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} oder das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.

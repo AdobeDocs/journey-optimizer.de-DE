@@ -11,7 +11,7 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1331'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der au
 
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Greifen Sie im Menü **[!UICONTROL Content-Management]** auf **[!UICONTROL Übersetzung]** zu.
+1. Greifen Sie im Menü **[!UICONTROL Content Management]** auf **[!UICONTROL Übersetzung]** zu.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 

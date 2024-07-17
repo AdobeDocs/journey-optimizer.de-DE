@@ -40,7 +40,7 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
 
 1. Wählen Sie **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt.
 
-1. Wählen Sie die integrierte **[!UICONTROL AdobeCampaignStandard]**-Aktion aus. Der Bereich für die Konfiguration der Aktion wird auf der rechten Seite des Bildschirms geöffnet.
+1. Wählen Sie die integrierte **[!UICONTROL AdobeCampaignStandard]**-Aktion aus. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](assets/actioncampaign.png)
 

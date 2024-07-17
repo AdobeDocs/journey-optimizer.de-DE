@@ -9,7 +9,7 @@ level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 100%
 

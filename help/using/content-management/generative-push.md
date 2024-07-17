@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '976'
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Führen Sie folgende Schritte aus:
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
-   ![](assets/push-genai-full-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
@@ -68,7 +68,7 @@ Führen Sie folgende Schritte aus:
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![](assets/push-genai-full-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -80,7 +80,7 @@ Führen Sie folgende Schritte aus:
    * **[!UICONTROL Sprache]**: Wählen Sie die Sprache aus, in der Sie Ihre Inhalte generieren möchten.
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
-   ![](assets/push-genai-full-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -94,7 +94,7 @@ Führen Sie folgende Schritte aus:
 
    * **[!UICONTROL Einfache Sprache]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und den Inhalt auf diese Weise für eine breitere Zielgruppe verständlich und zugänglich zu machen.
 
-   ![](assets/push-genai-full-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -118,21 +118,21 @@ In diesem Beispiel lernen Sie, wie Sie den KI-Assistenten für bestimmte Inhalte
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistent anzeigen]** neben den Feldern **[!UICONTROL Titel]** oder **[!UICONTROL Nachricht]** auf.
 
-   ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
    Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+1. Passen Sie den Inhalt genauer an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
-   ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-3.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit den verschiedenen Optionen an:
 
@@ -141,7 +141,7 @@ In diesem Beispiel lernen Sie, wie Sie den KI-Assistenten für bestimmte Inhalte
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-4.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -159,7 +159,7 @@ In diesem Beispiel lernen Sie, wie Sie den KI-Assistenten für bestimmte Inhalte
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

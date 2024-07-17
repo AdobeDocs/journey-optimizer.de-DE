@@ -11,8 +11,8 @@ keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 98%
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](assets/ajo-aa_4.png)
 
-Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"} .
 
 ## Aktivieren dieser Konfiguration {#activate-analytics-data}
 

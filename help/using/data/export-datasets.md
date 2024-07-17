@@ -10,8 +10,8 @@ keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 
 ## Voraussetzungen {#prerequisites}
 
-Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de){target="_blank"} oder wenden Sie sich an Ihre Produktadmins, um die erforderlichen Berechtigungen zu erhalten.
+Um Datensätze zu exportieren, benötigen Sie die unten aufgeführten [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions){target="_blank"}. Lesen Sie die [Zugriffskontrolle - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de){target="_blank"} oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
 
 | Kategorie | Berechtigung |
 |--|--|

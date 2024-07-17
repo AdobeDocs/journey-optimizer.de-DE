@@ -10,15 +10,15 @@ level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1388'
+ht-degree: 95%
 
 ---
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
 
-Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de) konform sind{target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"} Sie für Daten durchführen dürfen.
+Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"} konform sind. Diese Richtlinien sind Adobe Experience Platform-Regeln, die festlegen, welche [Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"} Sie für Daten ausführen dürfen.
 
 Ein Typ verfügbarer Datennutzungsrichtlinien sind **Einverständnisrichtlinien**. Mit diesen können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnispräferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen zur Durchsetzung von Richtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=de){target="_blank"}
 
@@ -43,7 +43,7 @@ Auf der Journey-Ebene können Sie Einverständnisrichtlinien auf Ihre benutzerde
 
 ## Verwenden von Einverständnisrichtlinien durch Kanaloberflächen {#surface-marketing-actions}
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} von Experience Platform verarbeitet.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} aufgelisteten Werte ändern.
 
 Um den Wert des Felds „Einverständnis“ zu ändern, können Sie eine benutzerdefinierte Einverständnisrichtlinie erstellen, in der Sie eine Marketing-Aktion und die Bedingungen definieren, unter denen diese Aktion ausgeführt wird. [Weitere Informationen zu Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"}
 
@@ -63,7 +63,7 @@ Wenn Sie z. B. eine Einverständnisrichtlinie erstellen möchten, um nur Profil
 
       >[!NOTE]
       >
-      >Die wichtigsten von Adobe nativ bereitgestellten Marketing-Aktionen finden Sie in [dieser Tabelle](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-marketing-action){target="_blank"}.
+      >Die nativen Marketingaktionen von Adobe sind in [dieser Tabelle](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions){target="_blank"} aufgeführt. Die Schritte zum Erstellen einer benutzerdefinierten Marketing-Aktion finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-marketing-action){target="_blank"}.
 
    1. Wählen Sie aus, was passiert, wenn die Marketing-Aktion angewendet wird. Wählen Sie in diesem Beispiel **[!UICONTROL Zustimmung zum E-Mail-Marketing]**.
 

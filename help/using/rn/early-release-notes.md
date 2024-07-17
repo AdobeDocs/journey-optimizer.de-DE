@@ -5,10 +5,11 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 ## Frühzeitige Versionshinweise April 2024 {#early-2024}
 
-**Veröffentlichungsdatum**: 2. Mai 2024
+**Veröffentlichungsdatum**: 02. Mai 2024
 
 ### Neue Funktionen {#early-features}
 
@@ -76,13 +77,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) - alle Anbieter</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) – alle Anbieter</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Anfangs nur mit Sinch verfügbar, MMS ist jetzt auch mit Infobip und Twilio verfügbar.</p>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. MMS war ursprünglich nur mit Sinch verfügbar, aber ist jetzt auch mit Infobip und Twilio verfügbar.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -92,17 +93,17 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Verbesserte Journey Designer- und Live-Berichterstellung</strong><br/></th>
+<th><strong>Verbesserter Journey Designer und Live-Reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Diese Version enthält eine verbesserte Arbeitsfläche für Journey und bietet ein intuitiveres und effizienteres Benutzererlebnis. Die Aktivitäten sind übersichtlicher und enthalten auf der Journey-Arbeitsfläche mehr Informationen mit weniger Klicks.</p>
+<p>Diese Version enthält eine verbesserte Benutzeroberfläche der Arbeitsfläche für Journeys und bietet ein intuitiveres und effizienteres Anwendererlebnis. Die Aktivitäten sind übersichtlicher und enthalten auf der Journey-Arbeitsfläche mehr Informationen mit weniger Klicks.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Neben dem verbesserten Journey-Canvas-Design bieten wir die Möglichkeit, die Berichtsmetriken der letzten 24 Stunden direkt auf der Journey-Arbeitsfläche zu sehen. </p>
+<p>Neben dem verbesserten Design der Journey-Arbeitsfläche führen wir die Möglichkeit ein, die Berichtsmetriken der letzten 24 Stunden direkt in der Journey-Arbeitsfläche anzuzeigen. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Hinweis</strong>: Diese Änderungen werden ab der April-Version schrittweise für alle Umgebungen eingeführt.</p>
+<p><strong>Hinweis</strong>: Diese Änderungen werden ab April schrittweise auf alle Umgebungen ausgeweitet.</p>
 <p>Weitere Informationen finden Sie in der <a href="new-canvas.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>

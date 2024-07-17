@@ -8,7 +8,7 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an Ihren Adobe-Support.
+>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 >
 >Für Kundinnen und Kunden, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist die Funktion derzeit nicht verfügbar.
 
 ## Was ist eine Erlebnis-Entscheidung? {#about}
 
-Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
+Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
 Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
 
@@ -46,7 +46,7 @@ Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 
    1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-      Wenn die Person vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+      Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
       ![](assets/decision_permission_3.png)
 

@@ -37,7 +37,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
 1. Wählen Sie in der Liste der Datenquellen die integrierte Datenquelle von Adobe Experience Platform aus.
 
-   Dadurch wird der Konfigurationsbereich für die Datenquellen auf der rechten Seite des Bildschirms geöffnet.
+   Dadurch wird der Konfigurationsbereich für die Datenquelle auf der rechten Seite des Bildschirms geöffnet.
 
    ![](assets/journey23.png)
 

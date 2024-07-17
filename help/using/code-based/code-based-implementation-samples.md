@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
 
   >[!NOTE]
   >
-  >Beispielimplementierungen für mobile Anwendungsfälle sind für die [iOS-App](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} verfügbar.
+  >Beispielimplementierungen für mobile Anwendungsfälle sind für [iOS-App](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} und [Android-App](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} verfügbar.
 
 ### Funktionsweise – Web SDK {#client-side-how}
 

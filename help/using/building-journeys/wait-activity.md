@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 

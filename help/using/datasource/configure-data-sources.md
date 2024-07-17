@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Gehen Sie wie folgt vor, um eine neue Datenquelle zu konfigurieren:
 
-1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../start/user-interface.md).
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Schnittstelle finden Sie auf [dieser Seite](../start/user-interface.md).
 
    ![](assets/journey18.png)
 

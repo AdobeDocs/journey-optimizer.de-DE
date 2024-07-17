@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '889'
+workflow-type: tm+mt
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
@@ -66,7 +66,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -77,11 +77,11 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die erstellten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
@@ -91,7 +91,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -109,23 +109,23 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    Weitere Informationen zur Konfiguration Ihrer SMS-Kampagne finden Sie auf [dieser Seite](../sms/create-sms.md).
 
-1. Geben Sie die **[!UICONTROL grundlegenden Details]** für Ihre Kampagne ein. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihre Kampagne aus. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre SMS-Nachricht nach Bedarf. [Weitere Informationen](../sms/create-sms.md)
 
 1. Greifen Sie auf das Menü **[!UICONTROL Mit KI-Assistent bearbeiten]** neben dem Feld **[!UICONTROL Nachricht]** zu.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem Inhalt Ihrer Kampagne, dem Namen und der ausgewählten Zielgruppe zu personalisieren.
 
    Ihr Prompt muss immer an einen bestimmten Kontext gebunden sein.
 
-1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
+1. Passen Sie den Inhalt genauer an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Marken-Asset hochladen]** aus, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können.
 
@@ -136,11 +136,11 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/sms-text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die erstellten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
+1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen.
 
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
@@ -150,7 +150,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   ![](assets/sms-text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

@@ -172,7 +172,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 

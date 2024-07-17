@@ -31,7 +31,7 @@ Funktionen zur Barrierefreiheit in Adobe Experience Platform werden [in dieser D
 
 Die folgenden gängigen Tastaturbefehle sind in [!DNL Journey Optimizer] verfügbar:
 
-| Aktion | Tastaturbefehl |
+| Aktion | Tastenkombination |
 | --- | --- |
 | Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
 | Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
@@ -46,7 +46,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
     <tr>
       <th>Element der Benutzeroberfläche</th>
       <th>Aktion</th>
-      <th>Tastaturbefehl</th>
+      <th>Tastenkombination</th>
     </tr>
   </thead>
   <tr>
