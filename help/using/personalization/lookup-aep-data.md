@@ -11,10 +11,10 @@ keywords: Ausdruck, Editor
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 81%
 
 ---
 
@@ -40,12 +40,12 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Persona
    {{entity.datasetId="datasetId" id="key" result="store"}}
    ```
 
-   * **entity.datasetId** ist die ID des Datensatzes, mit dem Sie arbeiten,
-   * **id** ist das Feld, das als primäre Identität im Datensatz verwendet wird.
+   * **entity.datasetId** ist die ID des Datensatzes, mit dem Sie arbeiten.
+   * **id** ist die ID der Quellspalte, die mit der primären Identität des Nachschlagedatensatzes verknüpft werden soll.
 
      >[!NOTE]
      >
-     >Der für dieses Feld eingegebene Wert kann entweder die Feld-ID (*profile.couponValue*), ein in einem Journey-Ereignis übergebenes Feld (*context.journey.events.event_ID.couponValue*) oder ein statischer Wert (*couponAbcd*) sein. In jedem Fall verwendet das System den Wert und sucht in dem Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
+     >Der für dieses Feld eingegebene Wert kann entweder eine Feld-ID (*profile.couponValue*), ein Feld, das in einem Journey-Ereignis (*context.Journey.events.event_ID.couponValue*) übergeben wird, oder ein statischer Wert (*couponAbcd*) sein. In jedem Fall verwendet das System den Wert und sucht in den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
 
    * **result** ist ein beliebiger Name, den Sie angeben müssen, um auf alle Feldwerte zu verweisen, die Sie aus dem Datensatz abrufen wollen. Dieser Wert wird in Ihrem Code verwendet, um jedes Feld aufzurufen.
 
@@ -57,22 +57,14 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Persona
 
 +++
 
-   +++Wie lässt sich ein primäres Identitätsfeld in einem Datensatz identifizieren?
-
-   Das Feld, das als primäre Identität für einen bestimmten Datensatz definiert wurde, befindet sich im mit dem Datensatz verknüpften Schema. Erfahren Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/identity){target="_blank"}, wie Sie mit Identitätsfeldern arbeiten können.
-
-   ![](assets/aep-data-identity.png)
-
-+++
-
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id="profile.personalEmail.address" result="flight"}}
+   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * Wir arbeiten mit dem Datensatz, dessen ID „1234567890abcdtId“ lautet.
-   * Das in diesem Datensatz als Primärschlüssel verwendete Feld ist die E-Mail-Adresse,
+   * Das Feld, das wir verwenden möchten, um eine Verknüpfung mit dem Suchdatensatz herzustellen, lautet *profile.bevorstehendeFlightId*,
    * Wir möchten alle Feldwerte unter der Referenz „Flug“ einbeziehen.
 
 1. Nachdem die im Adobe Experience Platform-Datensatz aufzurufende Syntax konfiguriert wurde, können Sie angeben, welche Felder Sie abrufen möchten. Es gilt folgende Syntax:
