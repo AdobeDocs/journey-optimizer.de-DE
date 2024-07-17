@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Frühzeitige Versionshinweise Juli 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 18.–19. Juni 2024
+**Veröffentlichungsdatum**: 30.-31. Juli 2024
 
 ### Neue Funktionen {#e-features}
 
@@ -32,7 +32,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>IP-Aufwärm-Workflow</strong><br/></th>
+<th><strong>IP-Warmup-Workflow (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,34 +46,17 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </table>
 
 
-<!--<table>
-<thead>
-<tr>
-<th><strong>Content Fragments customization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 <table>
 <thead>
 <tr>
-<th><strong>KI-Assistent in Adobe Journey Optimizer</strong><br/></th>
+<th><strong>SMS-Kanal mit beliebigen Anbietern</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.</p>
-<p>Weitere Informationen finden Sie in der <a href="../start/ai-assistant.md">ausführlichen Dokumentation</a>.</p>
+<p>Zusätzlich zu den Standardanbietern Sinch, Infobip und Twilio können Sie jetzt weitere SMS-Anbieter in Journey Optimizer konfigurieren.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -81,39 +64,44 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 
 
-
-
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns  (Limited Availability)</strong><br/></th>
+<th><strong>Benutzerdefinierte Aktion Marketo Engage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>Sie können jetzt Adobe Journey Optimizer in Adobe Marketo Engage integrieren, um Ihre B2B-Anwendungsfälle zu erstellen. Eine neue benutzerdefinierte Aktion ermöglicht es Ihnen, von einer Journey aus Daten in Marketo aufzunehmen.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>Verbesserte Kanalkonfigurationen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>Die aktuellen Kanaloberflächenfunktionen wurden für einen konsistenten Ansatz über alle Kanäle hinweg verbessert. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden.</p>
+<p><ul>
+<li>Kanaloberflächen werden jetzt in <strong>Kanalkonfigurationen</strong> umbenannt.</li>
+<li>Aus dem Inventar der Kanalkonfigurationen können Sie jetzt wiederverwendbare Kanalkonfigurationen für alle Kanäle erstellen, einschließlich jetzt Web-, In-App-Messaging- oder Code-basiertem Erlebnis</li>
+<li>Die Zugriffskontrolle auf Objektebene (OLAC) ist jetzt für jede Kanalkonfiguration verfügbar, sodass Sie entscheiden können, welche Ihrer Benutzer bestimmte Konfigurationen erstellen oder verwenden darf</li>
+<li>Für einige Kanäle können Sie Kanalkonfigurationen erstellen, die auf mehrere Plattformen ausgerichtet sind. Ein Beispiel hierfür wäre eine In-App-Messaging-Kanalkonfiguration, die auf eine Webseite, eine iOS-App und eine Android-App ausgerichtet sein kann.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
-
+</table>
 
 
 <!--table>
@@ -136,48 +124,24 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-
-**Entscheidungs-Management**
-
-* **Unterstützung mehrerer Regeln im Entscheidungs-Management**: Sie können jetzt bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot im Entscheidungs-Management hinzufügen. Dadurch wird eine bessere Kontrolle über die Art und Weise ermöglicht, wie die Angebote gesendet werden. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-
-<!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
-
-<!--**Content fragments**
-
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
-
 **Journeys**
 
-* Der globale Timout für Journeys wurde von 30 auf 91 Tage erhöht.
-* Adobe Journey Optimizer unterstützt jetzt Datenschutzanfragen zum Löschen/Zugriff auf Daten sowie Anfragen zur Verwaltung des Datenlebenszyklus.
-* Sie können nun die Spaltenbreite im Journey-Inventar ändern.
-* **Erweiterter Ausdruckseditor in der Ereigniskonfiguration** ist nun allgemein verfügbar: Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. <!--[Read more](../event/about-creating.md)-->
-* **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine ausgewählte Gruppe von Kundinnen und Kunden veröffentlicht. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* (Verfügbarkeit: 8. Juli) Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
 
-
-
-**Kampagnen**
-
-* Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie nun in einem neuen Modal den Kampagnentyp (geplant oder ausgelöst) auswählen.
-
-<!--**Email channel**
-
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
-
+* Die `event-id` -Bedingung wird jetzt während des Testmodus automatisch ausgefüllt.
 
 **SMS-Kanal**
 
-* Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und schlanker macht.
-  <!--* You can now modify existing SMS configurations.-->
+* Sie können jetzt bestehende SMS-Konfigurationen ändern.
 
 **In-App-Kanal**
 
-* **Ausdrucksfragment** – Ausdrucksfragmente sind jetzt für den **In-App-Kanal** verfügbar. <!--[Read more](../personalization/use-expression-fragments.md)--> 
+* Ausdrucksfragmente sind jetzt für den In-App-Kanal verfügbar.
 
+**Push-Kanal**
 
-* Sie können jetzt das Edge Delivery-Plug-in verwenden, um Informationen abzurufen, die Sie zum Verständnis Ihrer eingehenden Implementierungen und zur Fehlerbehebung bei diesen benötigen. 
+* Sie können jetzt Ihre Push-Anmeldedaten für Mobile Apps in den Adobe Journey Optimizer-Kanalkonfigurationseinstellungen hinzufügen. Das Erstellen einer App-Oberfläche in der Adobe Experience Platform-Datenerfassung ist nicht mehr erforderlich.
+
+**Zielgruppen**
+
+* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist jetzt für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar.
