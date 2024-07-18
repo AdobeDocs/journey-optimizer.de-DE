@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
 
    * **[!UICONTROL Double-Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird.
 
-   * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl verfügt.
+   * **[!UICONTROL Eingehende Nummer]**: Fügen Sie Ihre eindeutige Eingehende-Nummer oder Ihre Kurzwahlnummer hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Nummer oder Kurzwahlnummer verfügt.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
