@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 31%
+source-wordcount: '446'
+ht-degree: 32%
 
 ---
 
@@ -128,7 +128,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * (Verfügbarkeit: 8. Juli) Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
 
-* Die `event-id` -Bedingung wird jetzt während des Testmodus automatisch ausgefüllt.
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **SMS-Kanal**
 
