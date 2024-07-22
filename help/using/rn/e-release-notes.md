@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1cbc5512fe23db22eca4fe1a2cb512a154b01844
+source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 32%
+source-wordcount: '321'
+ht-degree: 45%
 
 ---
 
@@ -81,27 +81,27 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Verbesserte Kanalkonfigurationen</strong><br/></th>
+<th><strong>Improved channel configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die aktuellen Kanaloberflächenfunktionen wurden für einen konsistenten Ansatz über alle Kanäle hinweg verbessert. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden.</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
 <p><ul>
-<li>Kanaloberflächen werden jetzt in <strong>Kanalkonfigurationen</strong> umbenannt.</li>
-<li>Aus dem Inventar der Kanalkonfigurationen können Sie jetzt wiederverwendbare Kanalkonfigurationen für alle Kanäle erstellen, einschließlich jetzt Web-, In-App-Messaging- oder Code-basiertem Erlebnis</li>
-<li>Die Zugriffskontrolle auf Objektebene (OLAC) ist jetzt für jede Kanalkonfiguration verfügbar, sodass Sie entscheiden können, welche Ihrer Benutzer bestimmte Konfigurationen erstellen oder verwenden darf</li>
-<li>Für einige Kanäle können Sie Kanalkonfigurationen erstellen, die auf mehrere Plattformen ausgerichtet sind. Ein Beispiel hierfür wäre eine In-App-Messaging-Kanalkonfiguration, die auf eine Webseite, eine iOS-App und eine Android-App ausgerichtet sein kann.</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
@@ -144,4 +144,4 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist jetzt für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar.
+* Die Verwendung von Audiences und Attributen aus der Zielgruppenzusammensetzung und dem benutzerdefinierten Upload (CSV-Datei) ist jetzt für die Verwendung mit den Add-ons &quot;Healthcare Shield&quot;und &quot;Privacy &amp; Security Shield&quot;verfügbar.
