@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Anbieter auswählen und API-Anmeldedaten eingeben."
+>abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
 >title="Wählen Sie die Konfiguration des SMS-Anbieters aus."
->abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldeinformationen aus."
+>abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldedaten aus."
 
 Bevor Sie eine SMS oder MMS versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Um dies durchzuführen:
 
