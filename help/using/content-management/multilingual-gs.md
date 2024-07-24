@@ -10,10 +10,10 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 60%
 
 ---
 
@@ -31,10 +31,19 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 
 * **Automatisierte Übersetzung**: Senden Sie Inhalte für die automatisierte Übersetzung an Ihren bevorzugten Sprachdienstleister. [Weitere Informationen](multilingual-automated.md)
 
-
 </br>
 
 ![](assets/translation_schema.png)
+
+## Voraussetzungen {#prerequisites}
+
+Adobe Journey Optimizer ist derzeit mit Übersetzungsanbietern integriert, die unabhängig von Adobe Journey Optimizer Übersetzungsdienstleistungen von Drittanbietern (maschinelle Übersetzung oder menschliche Übersetzung) anbieten.
+
+Bevor Sie Ihren ausgewählten Übersetzungsanbieter hinzufügen, müssen Sie ein Konto bei diesem entsprechenden Anbieter erstellen.
+
+Ihre Nutzung der Übersetzungsdienstleistungen eines Übersetzungsdienstleisters unterliegt zusätzlichen Bedingungen dieses Anbieters.  Als Drittanbieterlösungen stehen Adobe Journey Optimizer-Benutzern Übersetzungsdienste über eine Integration zur Verfügung.  Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+
+Wenden Sie sich bei Problemen oder Hilfeanfragen im Zusammenhang mit Ihren Übersetzungen an den entsprechenden Übersetzungsanbieter.
 
 ## Anleitungsvideo {#video}
 
