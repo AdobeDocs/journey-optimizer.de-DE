@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 ## Frühzeitige Versionshinweise Juli 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 30.-31. Juli 2024
+**Veröffentlichungsdatum**: 30.–31. Juli 2024
 
 ### Neue Funktionen {#e-features}
 
@@ -32,7 +32,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>IP-Warmup-Workflow (GA)</strong><br/></th>
+<th><strong>IP-Aufwärm-Workflow (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,7 +49,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>SMS-Kanal mit beliebigem Provider (Beta)</strong><br/></th>
+<th><strong>SMS-Kanal mit beliebigem Anbieter (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -136,7 +136,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Die Verwendung von Zielgruppen aus benutzerdefiniertem Upload (CSV-Datei) ist jetzt für die Verwendung mit Privacy und Security Shield verfügbar.
+* Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit Privacy und Security Shield zur Verfügung.
 <!--
 **Push channel**
 
