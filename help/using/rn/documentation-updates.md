@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Juli 2024 {#july-2024}
 
-* Es wurde ein Anwendungsbeispiel für eine Personalisierung hinzugefügt, in dem beschrieben wird, wie eine E-Mail mit Informationen zu Gesundheitsplänen und -verschreibungen personalisiert werden kann - [Weitere Informationen](../personalization/perso-uc-plan-prescriptions.md)
+* Es wurde ein Anwendungsfall für eine Personalisierung hinzugefügt, in dem beschrieben wird, wie eine E-Mail mit Informationen zu Gesundheitsplänen und Rezepte personalisiert werden kann. [Weitere Informationen](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Juni 2024 {#june-2024}
 

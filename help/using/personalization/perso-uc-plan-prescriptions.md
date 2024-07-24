@@ -1,57 +1,57 @@
 ---
-title: Beispiele für Vorlagen-Personalization
-description: Beispiele für Journey Optimizer Personalization
+title: Beispiele für die Personalisierung von Vorlagen
+description: Beispiele für die Personalisierung von Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# E-Mail zur Verschreibungen von Gesundheitsplänen {#plan-prescription}
+# E-Mail mit den Rezepten eines Gesundheitsplans {#plan-prescription}
 
-Ein Profil enthält Gesundheitspläne, und jeder Plan enthält Verschreibungen. Verschreibungen haben verschiedene Status, z. B. &quot;bereit&quot;, &quot;Rückruf&quot;oder &quot;aufgenommen&quot;.
+Ein Profil enthält Gesundheitspläne, und jeder Plan enthält Rezepte. Rezepte haben verschiedene Status, z. B. „Bereit“, „Rückruf“ oder„Abgeholt“.
 
-In diesem Anwendungsfall möchten wir jedem Profil eine einzelne E-Mail senden, einschließlich aller Rezepte, die entweder abgeholt oder zurückgerufen werden können. Klicken Sie auf die einzelnen Registerkarten unten, um weitere Informationen zur Syntax zu erhalten, die für die Implementierung dieses Anwendungsfalls verwendet werden soll.
+In diesem Anwendungsfall möchten wir jedem Profil eine einzelne E-Mail senden, einschließlich aller verschriebenen Medikamente, die entweder abgeholt werden können oder zurückgerufen wurden. Klicken Sie auf die einzelnen Registerkarten unten, um weitere Informationen zur Syntax zu erhalten, die für die Implementierung dieses Anwendungsfalls verwendet werden soll.
 
 >[!BEGINTABS]
 
->[!TAB Rendered Message]
+>[!TAB Gerenderte Nachricht]
 
-<p>Hallo John Doe,</p>
-<p>Im Folgenden finden Sie die Verschreibungen, die entweder abgeholt werden können oder zurückgerufen wurden:</p>
+<p>Hallo Herr Müller,</p>
+<p>Im Folgenden finden Sie die Rezepte, die entweder abgeholt werden können oder zurückgerufen wurden:</p>
 
-**Health Plan A**
+**Gesundheitsplan A**
 
 <ul>
 
 <li>
       <strong>Rezept-ID:</strong> pres1<br>
-      <strong>Name:</strong> Mediation A<br>
-      <strong>Status:</strong> ready
+      <strong>Name:</strong> Medikament A<br>
+      <strong>Status:</strong> Bereit
    </li>
 
 <li>
       <strong>Rezept-ID:</strong> pres2<br>
-      <strong>Name:</strong> Mediation B<br>
-      <strong>state:</strong> recall
+      <strong>Name:</strong> Medikament B<br>
+      <strong>Status:</strong> Rückruf
    </li>
 
 </ul>
 
-**Health Plan B**
+**Gesundheitsplan B**
 
 <ul>
 
 <li>
       <strong>Rezept-ID:</strong> pres4<br>
-      <strong>Name:</strong> medication d<br>
-      <strong>Status:</strong> ready
+      <strong>Name:</strong> Medikament D<br>
+      <strong>Status:</strong> Breit
    </li>
 
 </ul>
