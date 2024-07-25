@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
+source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>IP-Aufwärm-Workflow (GA)</strong><br/></th>
+<th><strong>IP-Aufwärm-Workflow</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -57,6 +57,23 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <td>
 <p>Zusätzlich zu den Standardanbietern Sinch, Infobip und Twilio können Sie jetzt weitere SMS-Anbieter in Journey Optimizer konfigurieren.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Zusammengestellte Zielgruppenkomposition (begrenzte Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Zusammengestellte Zielgruppenkomposition ist jetzt in Adobe Journey Optimizer verfügbar. Sie ermöglicht es Unternehmen, Daten zusammenzustellen, um sie in verschiedenen Anwendungsfällen besser zu nutzen. Mit diesem neuen Ansatz können Sie als Adobe Real-time Customer Data Platform- und/oder Adobe Journey Optimizer-Benutzer Datensätze direkt aus Ihrem vorhandenen Data Warehouse verbinden, um Adobe Experience Platform-Zielgruppen und -Attribute in einem System anzureichern.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
