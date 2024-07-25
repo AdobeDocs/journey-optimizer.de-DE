@@ -6,7 +6,7 @@ description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ From beta to LA, the following improvements that have been added:
 
 * Jetzt können Sie eine Marketing-Aktion auf der Ebene der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren.
 * Die Verwendung der Zugriffssteuerung auf Objektebene ist jetzt für Kanaloberflächen verfügbar.
+
