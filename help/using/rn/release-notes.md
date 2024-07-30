@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1274'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 90%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Frühzeitige Versionshinweise Juli 2024 {#27-4-2024}
+## Versionshinweise vom Juli 2024 {#27-4-2024}
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden am Veröffentlichungsdatum auf dieser Seite veröffentlicht.
 
@@ -94,9 +94,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * (Verfügbarkeitsdatum: 8. Juli) **Erweiterter Ausdruckseditor in der Journey-Ereigniskonfiguration** - Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines-Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
 
-**Zielgruppen**
+<!--**Audiences**
 
-* Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit Privacy und Security Shield zur Verfügung.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Versionshinweise für Juni 2024 {#24-6-2024}
 
