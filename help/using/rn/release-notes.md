@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 90%
+source-wordcount: '1244'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,7 @@ ht-degree: 90%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-
 ## Versionshinweise vom Juli 2024 {#27-4-2024}
-
-**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden am Veröffentlichungsdatum auf dieser Seite veröffentlicht.
 
 **Veröffentlichungsdatum**: 30.–31. Juli 2024
 
