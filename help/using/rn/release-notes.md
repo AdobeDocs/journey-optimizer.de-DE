@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d0ada10308665049bffd7630272654988a6236a4
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1295'
 ht-degree: 90%
 
 ---
@@ -63,7 +63,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Zusätzlich zu den Standardanbietern Sinch, Infobip und Twilio können Sie jetzt weitere SMS-Anbieter in Journey Optimizer konfigurieren.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
