@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
-workflow-type: ht
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Definieren von Kontext mit dem KI-Assistenten"
->abstract="Um den ausgewählten Inhalt als Eingabe für die Inhaltserstellung zu verwenden, aktivieren Sie den Umschalter **Originalinhalt verwenden**. Sie können Ihre Marken-Assets auch hochladen, um sie als Quelle zu verwenden. Wenn Sie den ausgewählten Inhalt nicht verwenden, ist das Hochladen und Auswählen von Marken-Assets notwendig."
+>title="Hochladen von Marken-Assets"
+>abstract="Im Menü Marken-Asset hochladen können Sie beliebige Marken-Assets mit Inhalten hinzufügen, die zusätzlichen Kontext für den AI-Assistenten bieten können, oder ein zuvor hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
 
 
 >[!CONTEXTUALHELP]
