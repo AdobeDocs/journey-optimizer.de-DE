@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Starten der Anwendung aus Android Studio"
 >abstract="TBC"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorität"
+>abstract="Weisen Sie der Kampagne eine Priorität von 0 bis 100 zu. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Priorität aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorität"
+>abstract="&quot;Weisen Sie dem Journey eine Prioritätsbewertung zu, die zwischen 0 und 100 liegt. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Journey dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höchsten Prioritätswert aus. Wenn die Journey den gleichen Wert haben, wird die Journey ausgewählt, die zuletzt geändert wurde."
