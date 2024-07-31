@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="&quot;Weisen Sie dem Journey eine Prioritätsbewertung zu, die zwischen 0 und 100 liegt. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Journey dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höchsten Prioritätswert aus. Wenn die Journey den gleichen Wert haben, wird die Journey ausgewählt, die zuletzt geändert wurde."
+>abstract="Weisen Sie dem Journey eine Prioritätsbewertung im Bereich von 0 bis 100 zu. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Journey dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höchsten Prioritätswert aus. Wenn die Journey den gleichen Wert haben, wird die Journey ausgewählt, die zuletzt geändert wurde."
