@@ -7,9 +7,9 @@ topic: Content Management
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Versionshinweise vom Juli 2024 {#27-4-2024}
+## Versionshinweise Juli 2024 {#27-4-2024}
 
 **Veröffentlichungsdatum**: 30.–31. Juli 2024
 
@@ -70,14 +70,14 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Zusammengestellte Zielgruppenkomposition (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Komposition föderierter Zielgruppen (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zusammengestellte Zielgruppenkomposition ist jetzt in Adobe Journey Optimizer verfügbar. Sie ermöglicht es Unternehmen, Daten zusammenzustellen, um sie in verschiedenen Anwendungsfällen besser zu nutzen. Mit diesem neuen Ansatz können Sie als Adobe Real-time Customer Data Platform- und/oder Adobe Journey Optimizer-Benutzer Datensätze direkt aus Ihrem vorhandenen Data Warehouse verbinden, um Adobe Experience Platform-Zielgruppen und -Attribute in einem System zu erstellen und anzureichern.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Die Komposition föderierter Zielgruppen ist jetzt in Adobe Journey Optimizer verfügbar. Sie ermöglicht es Unternehmen, Daten für eine bessere Nutzung in verschiedenen Anwendungsfällen zusammenzustellen. Mit diesem neuen Ansatz können Benutzende von Adobe Real-Time Customer Data Platform bzw. Adobe Journey Optimizer Datensätze direkt aus ihrem vorhandenen Data Warehouse zusammenführen, um Zielgruppen und Attribute von Adobe Experience Platform in einem einzigen System anzureichern.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home"  target="_blank">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* (Verfügbarkeitsdatum: 8. Juli) **Erweiterter Ausdruckseditor in der Journey-Ereigniskonfiguration** - Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines-Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
+* (Verfügbarkeitsdatum: 8. Juli) **Erweiterter Ausdruckseditor bei der Konfiguration von Journey-Ereignissen**: Sie können jetzt bei der Konfiguration eines Ereignisses den erweiterten Ausdruckseditor nutzen und komplexere Ausdrücke definieren oder Funktionen in der Bedingung der Ereignis-ID verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 

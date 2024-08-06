@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +65,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Zusammengestellte Zielgruppenkomposition (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Komposition föderierter Zielgruppen (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zusammengestellte Zielgruppenkomposition ist jetzt in Adobe Journey Optimizer verfügbar. Sie ermöglicht es Unternehmen, Daten zusammenzustellen, um sie in verschiedenen Anwendungsfällen besser zu nutzen. Mit diesem neuen Ansatz können Sie als Adobe Real-time Customer Data Platform- und/oder Adobe Journey Optimizer-Benutzer Datensätze direkt aus Ihrem vorhandenen Data Warehouse verbinden, um Adobe Experience Platform-Zielgruppen und -Attribute in einem System zu erstellen und anzureichern.</p>
+<p>Die Komposition föderierter Zielgruppen ist jetzt in Adobe Journey Optimizer verfügbar. Sie ermöglicht es Unternehmen, Daten für eine bessere Nutzung in verschiedenen Anwendungsfällen zusammenzustellen. Mit diesem neuen Ansatz können Benutzende von Adobe Real-Time Customer Data Platform bzw. Adobe Journey Optimizer Datensätze direkt aus ihrem vorhandenen Data Warehouse zusammenführen, um Zielgruppen und Attribute von Adobe Experience Platform in einem einzigen System anzureichern.</p>
 <!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -138,7 +138,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* (Verfügbarkeit: 8. Juli) Sie können jetzt den erweiterten Ausdruckseditor beim Konfigurieren eines Ereignisses nutzen, um komplexere Ausdrücke zu definieren oder Funktionen in der Ereignis-ID-Bedingung zu verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
+* (Verfügbarkeit: 8. Juli) Sie können jetzt bei der Konfiguration eines Ereignisses den erweiterten Ausdruckseditor nutzen und komplexere Ausdrücke definieren oder Funktionen in der Bedingung der Ereignis-ID verwenden. [Weitere Informationen](../event/about-creating.md#adv-exp-editor)
 
 **Zielgruppen**
 

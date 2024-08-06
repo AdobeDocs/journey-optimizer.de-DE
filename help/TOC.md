@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
       + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
       + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
       + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
-      + [Benutzerdefinierten Anbieter konfigurieren (Beta)](using/sms/sms-configuration-custom.md)
+      + [Konfigurieren eines benutzerdefinierten Anbieters (Beta)](using/sms/sms-configuration-custom.md)
       + [Erstellen einer SMS-Oberfläche](using/sms/sms-configuration-surface.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
@@ -341,11 +341,11 @@ ht-degree: 99%
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
       + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
       + Erstellen von Zielgruppen {#audience-orchestration}
-         + [Erste Schritte mit der Zielgruppen-Komposition](using/audience/get-started-audience-orchestration.md)
+         + [Erste Schritte mit der Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
          + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
          + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
          + [Zugreifen auf und Verwalten von Zielgruppen](using/audience/access-audiences.md)
-      + [Zusammengestellte Zielgruppenkomposition (begrenzte Verfügbarkeit)](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [Komposition föderierter Zielgruppen (begrenzte Verfügbarkeit)](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)

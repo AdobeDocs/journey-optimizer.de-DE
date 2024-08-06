@@ -11,9 +11,9 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 
 ## Voraussetzungen {#prerequisites}
 
-Adobe Journey Optimizer ist derzeit mit Übersetzungsanbietern integriert, die unabhängig von Adobe Journey Optimizer Übersetzungsdienstleistungen von Drittanbietern (maschinelle Übersetzung oder menschliche Übersetzung) anbieten.
+Adobe Journey Optimizer arbeitet derzeit mit Übersetzungsanbietern zusammen, die unabhängig von Adobe Journey Optimizer als Drittanbieter Übersetzungsdienste (maschinelle oder menschliche Übersetzung) anbieten.
 
-Bevor Sie Ihren ausgewählten Übersetzungsanbieter hinzufügen, müssen Sie ein Konto bei diesem entsprechenden Anbieter erstellen.
+Bevor Sie den von Ihnen ausgewählten Übersetzungsanbieter hinzufügen können, müssen Sie ein Konto bei diesem Anbieter erstellen.
 
-Ihre Nutzung der Übersetzungsdienstleistungen eines Übersetzungsdienstleisters unterliegt zusätzlichen Bedingungen dieses Anbieters.  Als Drittanbieterlösungen stehen Adobe Journey Optimizer-Benutzern Übersetzungsdienste über eine Integration zur Verfügung.  Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+Die Nutzung der Übersetzungsdienste eines Übersetzungsanbieters unterliegt den zusätzlichen Bedingungen des jeweiligen Anbieters.  Die Übersetzungsdienste sind Lösungen von Drittanbietern, die Benutzenden von Adobe Journey Optimizer über eine Integration zur Verfügung stehen.  Adobe hat keine Kontrolle über Produkte von Drittanbietern und ist nicht für diese verantwortlich.
 
-Wenden Sie sich bei Problemen oder Hilfeanfragen im Zusammenhang mit Ihren Übersetzungen an den entsprechenden Übersetzungsanbieter.
+Bei Problemen oder Anfragen zu Ihren Übersetzungen wenden Sie sich bitte an den jeweiligen Übersetzungsanbieter.
 
 ## Anleitungsvideo {#video}
 

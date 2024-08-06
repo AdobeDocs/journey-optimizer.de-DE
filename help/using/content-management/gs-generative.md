@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Hochladen von Marken-Assets"
->abstract="Im Menü Marken-Asset hochladen können Sie beliebige Marken-Assets mit Inhalten hinzufügen, die zusätzlichen Kontext für den AI-Assistenten bieten können, oder ein zuvor hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
+>abstract="Über das Menü „Marken-Asset hochladen“ können Sie ein beliebiges Marken-Asset mit Inhalten hinzufügen, die dem KI-Assistenten zusätzlichen Kontext liefern, oder ein bereits hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
 
 
 >[!CONTEXTUALHELP]

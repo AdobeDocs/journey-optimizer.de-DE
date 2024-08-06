@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,20 +133,20 @@ Bei der Optimierung des Versandzeitpunkts wird versucht, den besten Zeitpunkt f�
 
 +++
 
-+++ Wo kann ich die erwartete Sendezeit für jedes Profil sehen?
++++Wo kann ich die erwartete Sendezeit für jedes Profil sehen?
 
 Sie können das Gesamtergebnis in der Schnittstelle **Profile** einsehen. Für jeden der drei Sätze mit 168 Punktzahlen liegt die Rangliste zwischen -83 und 84. Je höher der Rang ist, desto besser wurde die Zeit für die Interaktion mit der Empfängerin bzw. dem Empfänger ausgewählt. Da Sie den Start und die Dauer einer Journey frei bestimmen können, fällt der beste Rang (84) möglicherweise nicht in dieses Zeitfenster. In diesem Fall wird empfohlen, eine Stunde mit dem höchsten Rangwert auszuwählen.
 
 +++
 
 
-++ Welche Berichte sind verfügbar?
++++Welche Berichte stehen zur Verfügung?
 
 Wählen Sie die Journey aus, klicken Sie auf die Schaltfläche **Bericht anzeigen** rechts oben und wählen Sie abschließend die Registerkarte **Journey** auf der linken Seite aus. [Weitere Informationen](../reports/journey-global-report.md)
 
 +++
 
-++ Wie wirken sich die Sendezeitoptimierungsdaten auf den Profilreichtum aus?
++++Wie wirken sich die Daten der Optimierung des Versandzeitpunkts auf den Profilumfang aus?
 
 Bei einer Optimierung des Versandzeitpunkts werden die Punktzahl/Attribute zu jedem Profil hinzugefügt, es wird jedoch kein neues Profil erstellt.
 

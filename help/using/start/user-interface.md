@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -296,9 +296,9 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorität"
->abstract="Weisen Sie der Kampagne eine Priorität von 0 bis 100 zu. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Priorität aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
+>abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit dem höheren Prioritätswert aus. Wenn die Kampagnen den gleichen Wert aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie dem Journey eine Prioritätsbewertung im Bereich von 0 bis 100 zu. Eine höhere Zahl weist auf eine höhere Priorität hin. Wenn zwei Journey dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höchsten Prioritätswert aus. Wenn die Journey den gleichen Wert haben, wird die Journey ausgewählt, die zuletzt geändert wurde."
+>abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Journeys dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höheren Prioritätswert aus. Wenn die Journeys den gleichen Wert aufweisen, wird die Journey ausgewählt, die zuletzt geändert wurde."
