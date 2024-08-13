@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 100%
+source-wordcount: '1665'
+ht-degree: 95%
 
 ---
 
 # Erstellen eines IP-Aufwärmplans {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
-
-* [Erste Schritte mit IP-Aufwärmplänen](ip-warmup-gs.md)
-* [Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)
-* **[Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)**
-* [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 
@@ -112,11 +98,12 @@ Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 * Dieser Plan wird in sechs **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
-* Sie können über bis zu 6 Spalten verfügen (5 Spalten für Domain-Gruppen und eine für die Spalte **Sonstige**). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
+* Sie können über bis zu 6 Spalten verfügen (4 Spalten für Domänengruppen, eine für die Spalte **Sonstige** und eine für die Spalte **Interaktionstage**). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
 
-   * Vier davon entsprechen **vordefinierten Domain-Gruppen** zur Verwendung in Ihrem Plan (Gmail, Microsoft, Yahoo und Orange).
+   * Drei davon entsprechen **nativen Domänengruppen**, die Sie in Ihrem Plan verwenden können (Gmail, Microsoft und Orange).
    * Eine entspricht einer benutzerspezifischen Domain-Gruppe (die Sie mithilfe der Registerkarte [Benutzerspezifische Domain-Gruppe](#custom-domain-group-tab) hinzufügen müssen).
-   * Die sechste Spalte, **Sonstige**, enthält alle verbleibenden Adressen aus anderen Domains, die nicht explizit im Plan behandelt werden. Diese Spalte ist optional: Wenn sie weggelassen wird, werden E-Mails nur an die angegebenen Domains gesendet.
+   * Die fünfte Spalte, **Sonstige**, enthält alle verbleibenden Adressen aus anderen Domänen, die nicht explizit im Plan enthalten sind. Diese Spalte ist optional: Wenn sie weggelassen wird, werden E-Mails nur an die angegebenen Domains gesendet.
+   * In der letzten Spalte **Interaktionstage** können Sie die Anzahl der Tage angeben, über die Interaktionen verfolgt oder bewertet werden sollen.
 
 Die Idee besteht darin, die Anzahl der Zieladressen in jeder Ausführung schrittweise zu erhöhen und gleichzeitig die Anzahl der Ausführungen in jeder Phase zu reduzieren.
 

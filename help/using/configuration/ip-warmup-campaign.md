@@ -8,13 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
@@ -26,17 +23,6 @@ ht-degree: 100%
 >title="Aktivieren der Option IP-Aufwärmplan"
 >abstract="Wenn diese Option ausgewählt wurde, kann die Kampagne in einem IP-Aufwärmplan verwendet werden. Der Kampagnenzeitplan wird dann durch den IP-Aufwärmplan gesteuert, mit dem er verbunden ist."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieses Dokumentationshandbuchs:
-
-* [Erste Schritte mit IP-Aufwärmplänen](ip-warmup-gs.md)
-* **[Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)**
-* [Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)
-* [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 Bevor Sie den eigentlichen IP-Warmup-Plan in [!DNL Journey Optimizer] erstellen, müssen Sie zunächst eine oder mehrere Kampagnen erstellen, die speziell für die Verwendung in einem IP-Warmup-Plan<!--through a dedicated option--> konzipiert sind.
 
 Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus.
@@ -45,9 +31,9 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >Weitere Informationen dazu, wie die Domäne und IPs ausgewählt werden können, die auf einer E-Mail-Oberfläche verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Weitere Informationen dazu, wie die Domäne und IPs ausgewählt werden können, die auf einer E-Mail-Oberfläche verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
+   >* Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
 
 1. Erstellen Sie eine geplante [Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 
@@ -71,17 +57,13 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    Beachten Sie, dass Sie eine regelbasierte Zielgruppe für Ihre IP-Aufwärmkampagne auswählen müssen. [Weitere Informationen](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
+   Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie die Kampagne. Der Status ändert sich in **[!UICONTROL Live]**
 
    Beachten Sie, dass Verfahrensregeln nicht für IP-Aufwärmplane verwendet werden sollten. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
 
-   >[!NOTE]
-   >
-   >Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
+   Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 
 1. Die Kampagne wird in der Liste **[!UICONTROL Kampagnen]** angezeigt. Um alle in der aktuellen Sandbox erstellten IP-Aufwärmkampagnen einfach abzurufen, können Sie nach der Kampagnenoption **[!UICONTROL IP-Aufwärmen]** filtern.
 
