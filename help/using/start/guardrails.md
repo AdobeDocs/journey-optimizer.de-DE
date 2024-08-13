@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,8 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 | API | Entscheidungen pro Sekunde |
 |---------|----------|
 | Decisioning-API-Anfragen | 500 pro Sekunde |
-| Edge Decisioning-API-Anfragen | 1.500 pro Sekunde |
+| Edge Decisioning API-Anfragen mit Edge-Segmentierung | 1.500 pro Sekunde |
+| Edge Decisioning API-Anfragen ohne Edge-Segmentierung | 5.000 pro Sekunde |
 
 ### Einschränkungen {#offers-limitations}
 
