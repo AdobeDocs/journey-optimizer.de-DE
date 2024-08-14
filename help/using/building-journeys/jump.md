@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Fügen Sie in der Ursprungs-Journey einfach eine **[!UICONTROL Sprungaktivität]
 
 In der Ziel-Journey leitet das erste Ereignis, das intern durch die **[!UICONTROL Sprungaktivität]** ausgelöst wurde, den Kontakt in die Journey.
 
-## Lebenszyklus
+## Lebenszyklus {#jump-lifecycle}
 
 Nehmen wir an, Sie haben in einer Journey A eine **[!UICONTROL Sprungaktivität]** zu einer Journey B hinzugefügt. Journey A ist dann die **Ursprungs-Journey** und Journey B die **Ziel-Journey**.
 Im Folgenden finden Sie die verschiedenen Schritte des Ausführungsprozesses:
@@ -52,9 +52,9 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 >
 >Journey B kann auch über ein externes Ereignis ausgelöst werden.
 
-## Best Practices und Einschränkungen
+## Best Practices und Einschränkungen {#jump-limitations}
 
-### Authoring
+### Authoring {#jump-limitations-authoring}
 
 * Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
@@ -65,12 +65,12 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 * Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
 * Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Journeys miteinander zu verbinden, die eine Endlosschleife erzeugen würden. Der Konfigurationsbildschirm für **[!UICONTROL Sprungaktivitäten]** verhindert dies.
 
-### Ausführung
+### Ausführung {#jump-limitations-exec}
 
 * Wenn die **[!UICONTROL Sprungaktivität]** ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
 * Wie üblich darf sich ein eindeutiger Kontakt nur einmal in einer Journey befinden. Wenn sich der Kontakt, der aus der Ursprungs-Journey bewegt wurde, bereits in der Ziel-Journey befindet, tritt der Kontakt also nicht mehr in die Ziel-Journey ein. Bei der **[!UICONTROL Sprungaktivität]** wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
 
-## Konfigurieren der Sprungaktivität
+## Konfigurieren der Sprungaktivität {#jump-configure}
 
 1. Konfigurieren Sie die **Ursprungs-Journey**.
 
@@ -110,7 +110,7 @@ Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, w
 
 ![](assets/jump7.png)
 
-## Fehlerbehebung
+## Fehlerbehebung {#jump-troubleshoot}
 
 Fehler auftreten auf, wenn:
 * die Ziel-Journey nicht mehr existiert,
