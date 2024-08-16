@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
+source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 70%
+source-wordcount: '252'
+ht-degree: 71%
 
 ---
 
@@ -52,14 +52,11 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-execution.md)
 
-<!--Old UI
-## How-to video {#video}
+## Anleitungsvideo {#video}
 
-Learn how to create and execute an IP warmup plan.
+Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
--->
-
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
