@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
+source-git-commit: a326d0869f5d195c4a2b4be930e981c11a15afd9
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 47%
@@ -48,7 +48,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Die Einrichtung des geführten Kanals ermöglicht es Ihnen, die Einrichtung mobiler Kanäle in einem einheitlichen Erlebnis zu automatisieren, um mit Journey Optimizer schneller zu beginnen. Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam sofort mit der Erstellung von Kampagnen und Journey beginnen.</p>
+<p>Die Einrichtung des geführten Kanals ermöglicht die Automatisierung der Kanaleinrichtung in einem einheitlichen Erlebnis, wodurch die ersten Schritte mit Journey Optimizer beschleunigt werden. Dieses neue geleitete Setup optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen innerhalb von Experience Platform, Journey Optimizer und der Datenerfassung verfügbar sind. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journey beginnen.</p>
 </td>
 </tr>
 </tbody>
