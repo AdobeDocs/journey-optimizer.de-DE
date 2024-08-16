@@ -10,10 +10,10 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
@@ -173,7 +173,7 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    * **[!UICONTROL Übersetzung in Bearbeitung]**: Ihr Dienstleister arbeitet aktiv an der Übersetzung.
 
-     Wenn Sie bei der Konfiguration Ihrer **Spracheinstellungen** die Option **Interne Übersetzung** ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen. [Weitere Informationen](#manage-ht-project)
+     Wenn Sie bei der Konfiguration Ihrer **Spracheinstellungen** die Option **Insourcing** ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen. [Weitere Informationen](#manage-ht-project)
 
    * **[!UICONTROL Bereit zur Überprüfung]**: Der Überprüfungsprozess kann jetzt gestartet werden, sodass Sie auf die Übersetzung zugreifen und sie entweder ablehnen oder genehmigen können.
 
@@ -203,11 +203,11 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
 Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagnen in den Berichten ermitteln.
 
-## Verwalten eines internen Übersetzungsprojekts {#manage-ht-project}
+## Verwalten des Übersetzungsprojekts &quot;Insourcing&quot; {#manage-ht-project}
 
-Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option „Interne Übersetzung“ ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
+Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen &quot;Insourcing&quot;ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
 
-1. Rufen Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Weitere Aktionen]** auf und wählen Sie **[!UICONTROL Interne Übersetzung]**.
+1. Rufen Sie im Menü **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Mehr Aktionen]** auf und wählen Sie **[!UICONTROL Insourcing]** aus.
 
    ![](assets/inhouse-translation-1.png)
 
