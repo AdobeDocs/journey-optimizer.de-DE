@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Die aktuellen Kanaloberflächenfunktionen wurden für einen konsistenten Ansatz über alle Kanäle hinweg verbessert. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden.</p>
+<p>Die aktuellen Kanaloberflächenfunktionen wurden für einen konsistenten Ansatz über alle Kanäle hinweg verbessert. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden, einschließlich Web-, In-App-Nachrichten- oder Code-basierter Erlebnisse.</p>
 <p><ul>
 <li>Kanaloberflächen werden jetzt in <strong>Kanalkonfigurationen</strong> umbenannt.</li>
-<li>Aus dem Inventar der Kanalkonfigurationen können Sie jetzt wiederverwendbare Kanalkonfigurationen für alle Kanäle erstellen, einschließlich jetzt Web-, In-App-Messaging- oder Code-basiertem Erlebnis</li>
+<li>Sie können eine oder mehrere Marketing-Aktionen anhängen, um Zustimmungs- und Data Governance-Richtlinien zu erzwingen.</li>
 <li>Die Zugriffskontrolle auf Objektebene (OLAC) ist jetzt für jede Kanalkonfiguration verfügbar, sodass Sie entscheiden können, welche Ihrer Benutzer bestimmte Konfigurationen erstellen oder verwenden darf</li>
 <li>Für einige Kanäle können Sie Kanalkonfigurationen erstellen, die auf mehrere Plattformen ausgerichtet sind. Ein Beispiel hierfür wäre eine In-App-Messaging-Kanalkonfiguration, die auf eine Webseite, eine iOS-App und eine Android-App ausgerichtet sein kann.</li>
 </ul></p>
@@ -91,7 +91,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
