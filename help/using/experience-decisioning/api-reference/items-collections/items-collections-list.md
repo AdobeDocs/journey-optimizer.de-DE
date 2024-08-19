@@ -1,0 +1,119 @@
+---
+title: Listenelementkollektionen
+description: Mit Sammlungen können Sie Entscheidungselemente nach Ihren Voreinstellungen kategorisieren und gruppieren.
+feature: Decision Management, API, Collections
+topic: Integrations
+role: Data Engineer
+level: Experienced
+source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 66%
+
+---
+
+
+# Listenelementkollektionen {#list-decision-items}
+
+Sammlungen, auch als Artikelkollektionen bezeichnet, ermöglichen es Ihnen, Ihre Entscheidungselemente nach Ihren Voreinstellungen zu kategorisieren und zu gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen.
+
+Sie können eine Liste aller Elementkollektionen anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliothek-API richten.
+
+**API-Format**
+
+```http
+GET /{ENDPOINT_PATH}/item-collections?{QUERY_PARAMS}
+```
+
+| Parameter | Beschreibung | Beispiel |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
+
+## Verwenden von Abfrageparametern {#using-query-parameters}
+
+Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
+
+### Paging {#paging}
+
+Zu den häufigsten Abfrageparametern für das Paging gehören:
+
+| Parameter | Beschreibung | Beispiel |
+| --------- | ----------- | ------- |
+| `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, wobei reguläre Ausdrücke unterstützt werden.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines „-“ vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z–A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Begrenzt die Anzahl der zurückgegebenen Entitäten. | `limit=5` |
+
+**Anfrage**
+
+```shell
+curl -X GET 'https://platform.adobe.io/data/core/dps/item-collections?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**Antwort**
+
+Eine erfolgreiche Antwort gibt eine Liste von Elementkollektionen zurück, auf die Sie Zugriff haben.
+
+```json
+{
+    "results": [
+        {
+            "created": "2024-01-31T18:28:52.888Z",
+            "modified": "2024-06-28T19:44:13.112Z",
+            "etag": 7,
+            "schemas": [
+                "https://ns.adobe.com/experience/decisioning/item-collection;version=1.2"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "itemCollection1234",
+            "name": "Item collection One",
+            "description": "Item collection",
+            "constraints": [
+                {
+                    "itemCatalogId": "itemCatalog1234",
+                    "uiModel": "{\"operator\":\"equals\",\"value\":{\"left\":\"_experience.decisioning.decisionitem.itemName\",\"right\":\"Some offer item\"}}"
+                }
+            ],
+            "tags": []
+        },
+        {
+            "created": "2024-06-10T16:02:57.878Z",
+            "modified": "2024-06-10T16:02:57.878Z",
+            "etag": 1,
+            "schemas": [
+                "https://ns.adobe.com/experience/decisioning/item-collection;version=1.2"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "itemCollection5678",
+            "name": "Item collection One",
+            "description": "Item collection",
+            "constraints": [
+                {
+                    "itemCatalogId": "itemCatalog1234",
+                    "uiModel": "{\"operator\":\"greater than\",\"value\":{\"left\":\"_<imsOrg>.some_integer\",\"right\":100}}"
+                }
+            ],
+            "tags": []
+        }
+    ],
+    "count": 2,
+    "total": 166,
+    "_links": {
+        "self": {
+            "href": "/item-collections?orderby=-modified&limit=2",
+            "type": "application/json"
+        },
+        "next": {
+            "href": "/item-collections?orderby=-modified&limit=2&start=2024-06-04T23:37:33.980Z",
+            "type": "application/json"
+        }
+    }
+}
+```
