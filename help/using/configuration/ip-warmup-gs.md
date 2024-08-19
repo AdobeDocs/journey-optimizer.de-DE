@@ -12,13 +12,13 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit IP-Aufwärmplänen {#ip-warmup-gs}
 
-Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows einfach direkt über die Benutzeroberfläche auf standardisierte und effiziente Weise durchführen, die den Best Practices für eine optimale Zustellbarkeit entspricht. Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
+Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benutzeroberfläche aus auf standardisierte und effiziente Weise durchführen, die den Best Practices für optimale Zustellbarkeit folgt. Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
 
 Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe der IP-Aufwärmplan-Funktion schrittweise erhöhen. Mit dieser neuen Option im Menü **[!UICONTROL Administration]** können Sie dies einfach und konsolidiert tun, anstatt komplexe tägliche Journeys zu erstellen.
 
@@ -26,9 +26,9 @@ Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe 
 
 >[!AVAILABILITY]
 >
->Diese Funktion kann nur für Sandboxes vom Typ Produktion aktiviert werden.
+>Diese Funktion kann nur für Sandboxes vom Typ „Produktion“ aktiviert werden.
 >
->Sie steht nicht für Organisationen zur Verfügung, die das Zusatzangebot Adobe **Gesundheitsschild** oder **Datenschutz- und Sicherheitsschild** erworben haben.
+>Sie ist nicht verfügbar für Organisationen, welche die Zusatzangebote Adobe **Healthcare Shield** oder **Privacy and Security Shield** erworben haben.
 
 
 
@@ -60,4 +60,4 @@ Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
 >[!NOTE]
 >
->Weitere Informationen zur Erhöhung der Reputation Ihrer E-Mail mit IP-Warming finden Sie im [Best Practice-Handbuch zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de).
+>Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de) finden sich Informationen dazu, wie die E-Mail-Reputation mit einer IP-Aufwärmung verbessert werden kann.
