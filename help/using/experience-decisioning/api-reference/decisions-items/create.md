@@ -1,13 +1,13 @@
 ---
 title: Entscheidungselement erstellen
-description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
+description: Erfahren Sie, wie Sie mit der API für Angebotsbibliothek ein Entscheidungselement erstellen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '79'
 ht-degree: 16%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 16%
 # Entscheidungselement erstellen {#create-decision-items}
 
 Sie können ein Entscheidungselement erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
-
-**Accept- und Content-Type-Kopfzeilen**
-
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder Content-Type im Anfrageheader enthalten:
-
-| Header-Name | Wert |
-| ----------- | ----- |
-| Inhaltstyp | `application/json` |
 
 **API-Format**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

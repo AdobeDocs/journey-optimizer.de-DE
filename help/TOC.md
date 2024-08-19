@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: ht
-source-wordcount: '1889'
-ht-degree: 100%
+source-git-commit: f0a131313eb96ef50b5a27011d67e59eb730b108
+workflow-type: tm+mt
+source-wordcount: '1942'
+ht-degree: 97%
 
 ---
 
@@ -538,6 +538,25 @@ ht-degree: 100%
             + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Erlebnis-Entscheidung (LA) {#experience-decisioning}
       + [Erste Schritte mit der Erlebnis-Entscheidung](using/experience-decisioning/gs-experience-decisioning.md)
+      + [API-Referenz]{#api-reference}
+         + [Entscheidungselemente]{#decision-items}
+            + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Liste der Entscheidungselemente](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Entscheidungselemente löschen](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Entscheidungselemente nachschlagen](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Entscheidungselemente aktualisieren](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
+         + [Elementsammlungen]{#items-collections}
+            + [Erstellen von Sammlungen von Elementen](/help/using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Löschen von Sammlungen von Elementen](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Sammlungsliste für Elemente](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Suchen nach Sammlungen von Elementen](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Aktualisieren von Elementsammlungen](/help/using/experience-decisioning/api-reference/items-collections/update.md)
+         + [Auswahlstrategien]{#selection-strategies}
+            + [Erstellen von Auswahlstrategien](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Löschen von Auswahlstrategien](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Suchauswahlstrategien](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Liste der Auswahlstrategien](/help/using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Aktualisieren von Auswahlstrategien](/help/using/experience-decisioning/api-reference/selection-strategies/update.md)
       + Verwalten von Entscheidungselementen {#decision-items}
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
          + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)

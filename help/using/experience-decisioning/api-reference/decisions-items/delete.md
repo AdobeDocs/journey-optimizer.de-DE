@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 27%
+source-wordcount: '112'
+ht-degree: 29%
 
 ---
 
 
 # Entscheidungselement löschen {#delete-decision-item}
 
-Gelegentlich kann es erforderlich sein, einen Entscheidungspunkt zu entfernen (DELETE). Dies geschieht, indem Sie mit der ID des Entscheidungselements, das Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API richten.
+Um ein Entscheidungselement zu entfernen, senden Sie eine DELETE-Anfrage an die Angebotsbibliothek-API mit der Kennung des Entscheidungselements, das Sie löschen möchten.
 
 **API-Format**
 

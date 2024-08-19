@@ -1,12 +1,14 @@
 ---
 title: Aktualisieren einer Elementsammlung
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 56%
+source-wordcount: '132'
+ht-degree: 70%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 56%
 Sie können eine Elementsammlung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
-
-**Accept- und Content-Type-Kopfzeilen**
-
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder Content-Type im Anfrageheader enthalten:
-
-| Header-Name | Wert |
-| ----------- | ----- |
-| Inhaltstyp | `application/json` |
 
 **API-Format**
 

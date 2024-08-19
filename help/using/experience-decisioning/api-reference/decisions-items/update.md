@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 46%
+source-wordcount: '137'
+ht-degree: 44%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 46%
 Sie können ein Entscheidungselement ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
-
-**Accept- und Content-Type-Kopfzeilen**
-
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder Content-Type im Anfrageheader enthalten:
-
-| Header-Name | Wert |
-| ----------- | ----- |
-| Inhaltstyp | `application/json` |
 
 **API-Format**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Die Art des auszuführenden Vorgangs. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des neu erstellten Entscheidungselements zurückgegeben, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
+Eine erfolgreiche Antwort gibt die Details des aktualisierten Elements zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
 
 ```json
 {

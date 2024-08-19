@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '81'
+ht-degree: 25%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 23%
 # Erstellen einer Auswahlstrategie {#create-selection-strategy}
 
 Sie können eine Auswahlstrategie erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
-
-**Accept- und Content-Type-Kopfzeilen**
-
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder Content-Type im Anfrageheader enthalten:
-
-| Header-Name | Wert |
-| ----------- | ----- |
-| Inhaltstyp | `application/json` |
 
 **API-Format**
 
