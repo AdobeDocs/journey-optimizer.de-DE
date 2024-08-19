@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1665'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,11 +98,11 @@ Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 * Dieser Plan wird in sechs **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
-* Sie können über bis zu 6 Spalten verfügen (4 Spalten für Domänengruppen, eine für die Spalte **Sonstige** und eine für die Spalte **Interaktionstage**). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
+* Sie können über bis zu 6 Spalten verfügen (4 Spalten für Domain-Gruppen, eine für die Spalte **Sonstige** und eine für die Spalte **Interaktionstage**). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
 
-   * Drei davon entsprechen **nativen Domänengruppen**, die Sie in Ihrem Plan verwenden können (Gmail, Microsoft und Orange).
+   * Drei davon entsprechen **vordefinierten Domain-Gruppen** zur Verwendung in Ihrem Plan (Gmail, Microsoft und Orange).
    * Eine entspricht einer benutzerspezifischen Domain-Gruppe (die Sie mithilfe der Registerkarte [Benutzerspezifische Domain-Gruppe](#custom-domain-group-tab) hinzufügen müssen).
-   * Die fünfte Spalte, **Sonstige**, enthält alle verbleibenden Adressen aus anderen Domänen, die nicht explizit im Plan enthalten sind. Diese Spalte ist optional: Wenn sie weggelassen wird, werden E-Mails nur an die angegebenen Domains gesendet.
+   * Die fünfte Spalte, **Sonstige**, enthält alle verbleibenden Adressen aus anderen Domains, die nicht explizit im Plan behandelt werden. Diese Spalte ist optional: Wenn sie weggelassen wird, werden E-Mails nur an die angegebenen Domains gesendet.
    * In der letzten Spalte **Interaktionstage** können Sie die Anzahl der Tage angeben, über die Interaktionen verfolgt oder bewertet werden sollen.
 
 Die Idee besteht darin, die Anzahl der Zieladressen in jeder Ausführung schrittweise zu erhöhen und gleichzeitig die Anzahl der Ausführungen in jeder Phase zu reduzieren.

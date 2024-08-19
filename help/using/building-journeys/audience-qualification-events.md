@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 ### Wichtige Hinweise{#important-notes-segment-qualification}
 
-* Beachten Sie, dass Adobe Experience Platform-Zielgruppen entweder einmal täglich (**Batch** -Zielgruppen) oder in Echtzeit (für **gestreamte** -Zielgruppen unter Verwendung der Option &quot;Zielgruppen mit hoher Häufigkeit&quot;von Adobe Experience Platform) berechnet werden.
+* Denken Sie daran, dass Adobe Experience Platform-Zielgruppen entweder einmal täglich (**Batch-Zielgruppen**) oder in Echtzeit (**Streaming-Zielgruppen** mithilfe der Option „Hochfrequenz-Zielgruppen“ von Adobe Experience Platform) berechnet werden.
 
    * Wenn die ausgewählte Zielgruppe gestreamt wird, treten die zu dieser Zielgruppe gehörenden Personen in Echtzeit in die Journey ein. 
    * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Personen in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
@@ -52,7 +52,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 ### Konfigurieren der Aktivität{#cnfigure-segment-qualification}
 
-Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppenqualifikation]** zu konfigurieren:
+Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** zu konfigurieren:
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
 
