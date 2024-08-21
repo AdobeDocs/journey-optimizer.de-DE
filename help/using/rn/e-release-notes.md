@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 34%
+source-wordcount: '325'
+ht-degree: 61%
 
 ---
 
@@ -23,82 +23,11 @@ ht-degree: 34%
 
 ## Frühzeitige Versionshinweise August 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 20.-21. August 2024
+**Veröffentlichungsdatum**: 20.–21. August 2024
 
 ### Neue Funktionen {#e-features}
 
 Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Geführte Kanaleinrichtung</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Einrichtung des geführten Kanals ermöglicht es Ihnen, die Einrichtung mobiler Kanäle in einem einheitlichen Erlebnis zu automatisieren, um mit Journey Optimizer schneller zu beginnen. Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam sofort mit der Erstellung von Kampagnen und Journey beginnen.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Inhaltskarten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Inhaltskarte ist eine neue Funktion für digitale Nachrichten in Adobe Journey Optimizer, die personalisierte und ansprechende Inhalte direkt in mobilen Apps und Websites bereitstellt. Im Gegensatz zu herkömmlichen Push-Benachrichtigungen integrieren Inhaltskarten nahtlos in die Benutzeroberfläche und bieten dauerhafte, nicht störende Aktualisierungen, die die Benutzerinteraktion und das Benutzererlebnis verbessern.</p>
-<p>Diese Funktion ermöglicht es Marketingexperten, relevante Rich-Media-Inhalte Benutzern präsentieren zu können, wodurch die Interaktion gesteigert und wichtige Nachrichten ohne Unterbrechung der Journey angezeigt werden.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Verbesserte Kanalkonfigurationen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die aktuellen Kanaloberflächenfunktionen wurden für einen konsistenten Ansatz über alle Kanäle hinweg verbessert. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden.</p>
-<p><ul>
-<li>Kanaloberflächen werden jetzt in <strong>Kanalkonfigurationen</strong> umbenannt.</li>
-<li>Aus dem Inventar der Kanalkonfigurationen können Sie jetzt wiederverwendbare Kanalkonfigurationen für alle Kanäle erstellen, einschließlich jetzt Web-, In-App-Messaging- oder Code-basiertem Erlebnis</li>
-<li>Die Zugriffskontrolle auf Objektebene (OLAC) ist jetzt für jede Kanalkonfiguration verfügbar, sodass Sie entscheiden können, welche Ihrer Benutzer bestimmte Konfigurationen erstellen oder verwenden darf</li>
-<li>Für einige Kanäle können Sie Kanalkonfigurationen erstellen, die auf mehrere Plattformen ausgerichtet sind. Ein Beispiel hierfür wäre eine In-App-Messaging-Kanalkonfiguration, die auf eine Webseite, eine iOS-App und eine Android-App ausgerichtet sein kann.</li>
-</ul></p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/ip-warmup-gs.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Marketo Engage-Benutzerdefinierte Aktion</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können Adobe Journey Optimizer jetzt in Adobe Marketo Engage integrieren, um Ihre B2B-Anwendungsfälle zu erstellen. Eine neue benutzerdefinierte Aktion ermöglicht es Ihnen, von einer Journey aus Daten in Marketo aufzunehmen.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -155,7 +84,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* In der Aktivität **Bedingung** ist die Bedingung &quot;Zeit&quot;standardmäßig nach Stunde (von 00:00 Uhr bis 12:00 Uhr) festgelegt. [Weitere Informationen](../building-journeys/condition-activity.md#time_condition)
+* In der Aktivität **Bedingung** ist die Bedingung „Zeit“ jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00 Uhr. [Weitere Informationen](../building-journeys/condition-activity.md#time_condition)
 * Beim Erstellen Ihrer Journey werden Warnhinweise jetzt in einer Dropdown-Liste angezeigt, um sie mit Kampagnenwarnungen abzustimmen und ein einheitliches Benutzererlebnis zu gewährleisten. [Weitere Informationen](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar und Sie können den Zoomwert jetzt einfach auf 100 % zurücksetzen.
 
@@ -163,6 +92,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit Privacy und Security Shield zur Verfügung.
 * Beim Targeting einer benutzerdefinierten Upload-Zielgruppe (CSV-Datei) können Sie jetzt Attribute aus der Datei in Ihren Kampagnen und Journey verwenden. Diese Attribute sind im Personalisierungseditor verfügbar, um Ihre Nachrichten zu personalisieren, sowie im erweiterten Ausdruckseditor von Journey.
+
 
 <!--
 **Push channel**

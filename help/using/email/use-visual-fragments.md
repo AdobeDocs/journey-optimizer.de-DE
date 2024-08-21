@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 100%
+source-wordcount: '713'
+ht-degree: 93%
 
 ---
 
@@ -72,6 +72,12 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 1. Bei Bedarf können Sie die Vererbung vom ursprünglichen Fragment unterbrechen. [Weitere Informationen](#break-inheritance)
 
 1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
+
+## Implizite Variablen verwenden {#implicit-variables-in-fragments}
+
+Die impliziten Variablen verbessern die vorhandene Fragmentfunktion, um die Effizienz bei der Wiederverwendbarkeit von Inhalten und Skripterstellung zu verbessern. Fragmente können Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können.
+
+Erfahren Sie, wie Sie in [diesem Abschnitt](../personalization/use-expression-fragments.md#implicit-variables) implizite Variablen verwenden.
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 

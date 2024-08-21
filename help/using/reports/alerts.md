@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 89%
 
 ---
 
 # Erste Schritte mit Warnhinweisen {#alerts}
+
+Verwenden Sie beim Erstellen Ihrer Journey und Kampagnen die Schaltfläche **Warnhinweise** , um Fehler zu überprüfen und zu beheben, bevor Sie sie ausführen oder veröffentlichen. Informationen zur Fehlerbehebung bei Journey-Fehlern finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md). Erfahren Sie, wie Sie Ihre Kampagnen auf [dieser Seite](../campaigns/review-activate-campaign.md) überprüfen.
+
+Sie können auch Adobe Journey Optimizer-Systemwarnungen abonnieren, wie auf dieser Seite beschrieben.
 
 ## Abrufen und Abonnieren von Warnhinweisen {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ Fehlerbehebung von Warnhinweisen bei **benutzerdefinierten Aktionen**:
   ![](assets/alert-troubleshooting-3.png)
 
 * Prüfen Sie Ihre Journey-stepEvents, um weitere Informationen zu „failureReason“ zu erhalten.
-* Prüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und überprüfen Sie, ob die Authentifizierung weiterhin korrekt ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman 
-durch.
+
+* Prüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und überprüfen Sie, ob die Authentifizierung weiterhin korrekt ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.

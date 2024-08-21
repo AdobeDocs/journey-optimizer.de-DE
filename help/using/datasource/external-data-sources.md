@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 84%
 
 ---
 
@@ -102,7 +102,7 @@ Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Fe
 * die beim Zeitpunkt des Aufrufs zu übergebenden Parameter im Feld **[!UICONTROL Dynamische Werte]** auflisten (im Beispiel unten: „identifier“).
 * diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der unten stehenden Syntax:
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
 
 ### Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffs-Token zu generieren{#custom-authentication-endpoint}
 
-* endpoint: URL zum Generieren des Endpunkts
-* Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
-* headers: Schlüssel-Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
-* body: beschreibt den Haupttextteil des Aufrufs, wenn die Methode POST ist. Für den Haupttextteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel-Wert-Paare). Der bodyType beschreibt Format und Codierung des Haupttextteils (body) im Aufruf:
-   * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel-Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
-   * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
+* `endpoint`: URL zum Generieren des Endpunkts
+* -Methode der HTTP-Anforderung am -Endpunkt (`GET` oder `POST`)
+* `headers`: Schlüssel-Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
+* `body`: beschreibt den Hauptteil des Aufrufs, wenn die Methode POST ist. Für den Haupttextteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel-Wert-Paare). Der bodyType beschreibt Format und Codierung des Haupttextteils (body) im Aufruf:
+   * `form`: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt serialisiert werden: key1=value1&amp;key2=value2&amp;..
+   * `json`: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Die Definition der Art und Weise, wie das Zugriffs-Token in die HTTP-Anfrage der Aktion eingefügt werden muss{#custom-authentication-access-token}
 
-* authorizationType: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
+* **authorizationType**: definiert, wie das generierte Zugriffstoken in den HTTP-Aufruf für die Aktion eingefügt werden muss. Die möglichen Werte sind:
 
-   * bearer: gibt an, dass das Zugriffstoken in der Autorisierungskopfzeile eingefügt werden muss, z. B.: _Authorization: Bearer &lt;access token>_
-   * header: gibt an, dass das Zugriffstoken als Kopfzeile eingefügt werden muss, wobei der Kopfzeilenname durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget z. B. myHeader ist, wird das Zugriffstoken wie folgt als Kopfzeile eingefügt: _myHeader: &lt;access token>_
-   * queryParam: gibt an, dass das Zugriffstoken als queryParam eingefügt werden muss, wobei der Abfrageparametername durch die Eigenschaft „tokenTarget“ definiert wird. Wenn das tokenTarget beispielsweise myQueryParam ist, lautet die URL des Aktionsaufrufs: _&lt;url>?myQueryParam=&lt;access token>_
+   * `bearer`: gibt an, dass das Zugriffstoken in die Autorisierungskopfzeile eingefügt werden muss, z. B.: _Autorisierung: Träger &lt;Zugriffstoken>_
+   * `header`: gibt an, dass das Zugriffstoken als Kopfzeile eingefügt werden muss, der Kopfzeilenname wird durch die Eigenschaft `tokenTarget` definiert. Wenn der `tokenTarget` beispielsweise `myHeader` ist, wird das Zugriffstoken als Kopfzeile wie folgt eingefügt: _myHeader: &lt;Zugriffstoken>_
+   * `queryParam`: gibt an, dass das Zugriffstoken als queryParam eingefügt werden muss, der Abfrageparametername, der durch die Eigenschaft tokenTarget definiert wird. Wenn das tokenTarget beispielsweise myQueryParam ist, lautet die URL des Aktionsaufrufs: _&lt;url>?myQueryParam=&lt;access token>_
 
-* tokenInResponse: Gibt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
-   * &#39;response&#39;: gibt an, dass die HTTP-Antwort das Zugriffstoken ist
-   * eine Auswahl in einer JSON-Datei (es wird vorausgesetzt, die Antwort ist eine JSON-Datei, und andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein: _json: //access_token_
+* **tokenInResponse**: Gibt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
+   * `response`: gibt an, dass die HTTP-Antwort das Zugriffstoken ist
+   * einen Selektor in einer JSON-Datei (vorausgesetzt, die Antwort ist eine JSON-Datei, werden andere Formate wie XML nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein: _json: //access_token_
 
 Das Format dieser Authentifizierung lautet:
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ Das Format dieser Authentifizierung lautet:
 >
 >Encode64 ist die einzige Funktion, die in der Authentifizierungs-Payload verfügbar ist.
 
-Sie können die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter „cacheDuration“ definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
+Sie können die Aufbewahrungsfrist im Cache des Tokens für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter `cacheDuration` definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
 
 Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs:
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

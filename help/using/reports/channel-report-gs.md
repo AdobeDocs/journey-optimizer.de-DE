@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
 # Erste Schritte mit Kanalberichten {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>Die aktuelle Berichtserfahrung wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Berichtserlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionen vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Journey Optimizer-Berichtsoberfläche.](report-gs-cja.md)
 
 Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Bericht einen umfassenden Überblick über Traffic- und Interaktionsmetriken für jeden Kanal bietet und alle Aktionen aller Kampagnen und Journeys umfasst. Es ist in verschiedene Widgets unterteilt, von denen jedes einen bestimmten Überblick über die Performance der Kampagne oder Journey bietet.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
+Verwenden Sie eine **[!UICONTROL Data Source-Bedingung]** , um eine Bedingung anhand von Feldern aus den Datenquellen oder den zuvor auf der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
 Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
 
@@ -82,13 +82,15 @@ Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearb
 
 ![](assets/journey50.png)
 
-## Bedingung für die Uhrzeit{#time_condition}
+## Bedingung für die Uhrzeit {#time_condition}
 
-Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber Push-Benachrichtigung und nachts E-Mails zu versenden.
+Verwenden Sie eine **[!UICONTROL Zeitbedingung]** , um je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen auszuführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber Push-Benachrichtigung und nachts E-Mails zu versenden.
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>
+>* Standardmäßig wird die **[!UICONTROL Zeitbedingung]** stündlich festgelegt, von 00:00 Uhr bis 12:00 Uhr.
 
 ![](assets/journey51.png)
 
