@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: Marketo, Integration von Marketo Engage
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 76%
 
 ---
 
@@ -28,13 +26,13 @@ Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engag
 ## Voraussetzungen {#prerequisites}
 
 * Die Kundeninstanz von Marketo Engage muss IMS-fähig sein.
-* Die Marketo Engage-Instanz und AEP-/AJO-Instanz müssen sich in derselben IMS-Organisation befinden. +Link
-* Der Kundin bzw. dem Kunden muss Zugriff auf den MktoSync: Ingestion Service bereitgestellt werden (HINWEIS HIER HINZUFÜGEN + Link).
+* Marketo Engage-Instanz und AEP-/AJO-Instanz müssen sich in derselben IMS-Organisation befinden.
+* Der Kunde muss über **MktoSync: Zugriff auf den Erfassungsdienst** verfügen
 
 ## Konfigurieren der Aktion {#configure-marketo-action}
 
 * Navigieren Sie zu „Administration“ > „Konfigurationen“ > „Aktionen“ und klicken Sie auf „Verwalten“.
-* Klicken Sie in der Liste „Aktionen“ auf die Aktion „Erstellen“. Weitere Informationen zur Erstellung einer benutzerdefinierten Aktion finden Sie hier (+Link).
+* Klicken Sie in der Liste „Aktionen“ auf die Aktion „Erstellen“. Weitere Informationen zu [benutzerdefinierten Aktionen](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Geben Sie den Namen und die Beschreibung ein und wählen Sie „Adobe Marketo Engage“ als Aktionstyp aus.
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Sie können Ihre benutzerdefinierte Aktion jetzt auf Ihrer eigenen Arbeitsfläch
 
 ## Verwenden der Aktion {#engage-using}
 
-* Ziehen Sie die benutzerdefinierte Aktion auf die Journey-Arbeitsfläche. (Siehe „Verwendung einer benutzerdefinierten Aktion/eines Links“)
-* Klicken Sie unter „Anfrageparameter“ für jeden Parameter mit dynamischen Werten, die Sie in der Payload konfiguriert haben, auf „Bearbeiten“.
+* Ziehen Sie die benutzerdefinierte Aktion auf die Journey-Arbeitsfläche.
+* Klicken Sie im Abschnitt **Anforderungsparameter** für jeden Parameter mit dynamischen Werten, die Sie in der Payload konfiguriert haben, auf Bearbeiten .
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
