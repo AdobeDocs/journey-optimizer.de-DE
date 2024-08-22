@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '747'
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Definieren einer Web-Oberfläche"
->abstract="Eine Web-Oberfläche kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass inhaltliche Änderungen auf einer oder mehreren Web-Seiten vorgenommen werden können."
+>title="Webkonfiguration definieren"
+>abstract="Eine Webkonfiguration kann mit einer einzelnen Seiten-URL oder mehreren Seiten übereinstimmen, sodass Sie Inhaltsänderungen auf einer oder mehreren Webseiten bereitstellen können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 >
 >Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die in [diesem Abschnitt](web-prerequisites.md) beschriebenen Voraussetzungen befolgen.
 
-1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
+1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.[Weitere Informationen](../campaigns/create-campaign.md)
+
+
+1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
+
+   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketingnachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+
+   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-gesteuerte Kampagnen zielen darauf ab, entweder Marketing- oder Transaktionsnachrichten zu senden, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Kennwortrücksetzung, Warenkorbkauf usw.
+
+1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
 1. Wählen Sie die Aktion **[!UICONTROL Web]**.
 
-1. Definieren Sie eine Web-Oberfläche.
-
-   >[!NOTE]
-   >
-   >Eine Web-Oberfläche ist eine Web-Eigenschaft, die durch eine URL identifiziert wird, über die die Inhalte bereitgestellt werden. Sie kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass Sie Änderungen auf einer oder mehreren Web-Seiten vornehmen können.
-
-   Wenn Sie die Änderungen nur auf eine einzelne Seite anwenden möchten, können Sie eine **[!UICONTROL Seiten-URL]** eingeben.
-
-   ![](assets/web-campaign-surface.png)
-
-1. Sie können aber auch eine **[!UICONTROL Matching-Regel für Seiten]** festlegen, um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen. Dies ist zum Beispiel sinnvoll, wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Web-Site angezeigt wird.
-
-   Wählen Sie dazu **[!UICONTROL Matching-Regel für Seiten]** aus und klicken Sie auf **[!UICONTROL Regel erstellen]**.
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. Definieren Sie Ihre Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
-
-   Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Damenproduktseiten Ihrer Luma-Website angezeigt werden, wählen Sie **[!UICONTROL Domain]** > **[!UICONTROL Beginnt mit]** > `luma` und **[!UICONTROL Seite]** > **[!UICONTROL Enthält]** > `women`.
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. Speichern Sie Ihre Änderungen. Die Regel wird auf dem Bildschirm **[!UICONTROL Kampagne erstellen]** angezeigt.
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. Nachdem Sie die Web-Oberfläche definiert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
-
-1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Wählen Sie eine neue Konfiguration aus oder erstellen Sie sie. [Weitere Informationen zur Webkonfiguration](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgeleg
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 
-1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Zielgruppe und Zeitplan.
+1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Konfiguration, Zielgruppe und Zeitplan.
 
 1. Wählen Sie **[!UICONTROL Aktivieren]** aus.
 

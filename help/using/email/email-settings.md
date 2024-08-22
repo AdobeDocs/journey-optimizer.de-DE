@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren von E-Mail-Einstellungen
-description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf Kanaloberflächen-Ebene konfigurieren.
+description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf der Kanalkonfigurationsebene konfigurieren
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 100%
+source-wordcount: '2530'
+ht-degree: 72%
 
 ---
 
 # Konfigurieren von E-Mail-Einstellungen {#email-settings}
 
-Zu Beginn der Erstellung einer E-Mail müssen Sie Oberflächen für E-Mail-Kanäle einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie man Oberflächen erstellt](../configuration/channel-surfaces.md)
+Um eine E-Mail zu erstellen, müssen Sie E-Mail-Kanalkonfigurationen einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie Sie Konfigurationen erstellen](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
->Richten Sie vor der Erstellung einer E-Mail-Oberfläche die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+>Richten Sie vor der Erstellung einer E-Mail-Konfiguration die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
-Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest, wie unten beschrieben.
+Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration, wie unten beschrieben.
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
+Die E-Mail-Konfiguration wird für den Versand von Nachrichten nach der folgenden Logik erfasst:
 
 * Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden beim nächsten Wiederkehren oder bei der nächsten Neuausführung übernommen.
 
@@ -36,22 +36,22 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 
 >[!NOTE]
 >
->Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
+>Die aktualisierten E-Mail-Konfigurationseinstellungen werden automatisch in den Journey(en) oder Kampagnen abgerufen, in denen die Konfiguration verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definieren des E-Mail-Typs"
->abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
+>abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Konfiguration gesendet werden sollen: Marketing für Werbe-E-Mails, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktion für nicht kommerzielle E-Mails, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
 
-Wählen Sie im Abschnitt **Email-Typ** die Art der Nachricht für die Oberfläche aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
+Wählen Sie im Abschnitt **E-Mail-Typ** den Nachrichtentyp für die Konfiguration aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
 
 * Wählen Sie **Marketing** für Werbe-E-Mails aus, z. B. für wöchentliche Werbeaktionen eines Einzelhandelsgeschäfts. Diese Nachrichten erfordern die Zustimmung der Person.
 
 * Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails aus, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Passworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **abgemeldet** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
-Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
+Bei der Erstellung einer Nachricht müssen Sie eine gültige Kanalkonfiguration auswählen, die der für die E-Mail ausgewählten Kategorie entspricht.
 
 ## Subdomain {#subdomains}
 
@@ -65,11 +65,11 @@ Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunige
 ## Details des IP-Pools {#ip-pools}
 
 
-Wählen Sie den IP-Pool aus, der mit der Oberfläche verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
+Wählen Sie den IP-Pool aus, der mit der Konfiguration verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
+Sie können nicht mit der Konfigurationserstellung fortfahren, solange sich der ausgewählte IP-Pool unter dem Status [Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** ) befindet und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Konfiguration als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolg]** aufweist.
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einver
 
 * Eine Adresse **Mailto (abmelden)**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
 
-  In Journey Optimizer ist die E-Mail-Adresse für Abmeldungen die Standardadresse **Mailto (abmelden)**, die basierend auf Ihrer [ausgewählten Subdomain](#subdomains-and-ip-pools) in der Kanaloberfläche angezeigt wird.
+  In Journey Optimizer ist die E-Mail-Adresse zum Abmelden die standardmäßige **Mailto (unsubscribe)** -Adresse, die in der Kanalkonfiguration basierend auf Ihrer [ausgewählten Subdomain](#subdomains-and-ip-pools) angezeigt wird.
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um die Option „Abmelde-Link in Kopfzeile“ handelt, die von der Opt-out-URL mit einem Klick basierend auf der Subdomain generiert wurde, die Sie in den Einstellungen der Kanaloberfläche festgelegt und konfiguriert haben.
+* Die **URL zum Abmelden mit einem Klick**, bei der es sich standardmäßig um die 1-Klick-Option für die von unserer URL generierte Kopfzeile zum Abmelden von Listen handelt, basierend auf der Subdomain, die Sie in den Kanalkonfigurationseinstellungen festgelegt und konfiguriert haben.
 
 <!--
     >[!AVAILABILITY]
@@ -114,19 +114,19 @@ Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einver
     >
 -->
 
-Die Funktionen **[!UICONTROL Mailto (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. Wenn Sie in einem Szenario, in dem die **[!UICONTROL Opt-out-Konfiguration]** aktiviert ist und die Funktion **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert ist, einen [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, nimmt die Option „Abmelde-Link in Kopfzeile“ den Link zum Abmelden mit einem Klick auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als den URL-Wert zum Abmelden mit einem Klick.
+Die Funktionen **[!UICONTROL Mailto (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. In dem Szenario, in dem die Option **[!UICONTROL Opt-out-Konfiguration]** aktiviert und die Funktion **[!UICONTROL URL-Abmeldung mit einem Klick]** deaktiviert ist, nimmt der Header zur Abmeldung von der Liste den 1-Klick-Abmelde-Link, den Sie im Textkörper der E-Mail eingefügt haben, auf, wenn Sie einer Nachricht, die mit dieser Konfiguration erstellt wurde, einen 1-Klick-Abmelde-Link hinzuzufügen. Klicken Sie auf den Wert URL abmelden .[](../privacy/opt-out.md#one-click-opt-out)
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Wenn Sie keinen Link zum Abmelden mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige URL zum Abmelden mit einem Klick in den Einstellungen der Kanaloberfläche deaktiviert ist, wird keine URL als Teil der Option „Abmelde-Link in Kopfzeile“ in die E-Mail-Kopfzeile übergeben.
+>Wenn Sie keinen Ausschluss-Link mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige Abmelde-URL mit einem Klick in den Kanalkonfigurationseinstellungen deaktiviert ist, wird im Header &quot;List Unsubscribe&quot;keine URL an den E-Mail-Header übergeben.
 
 In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen in Ihren Nachrichten.
 
 ## Kopfzeilenparameter {#email-header}
 
-Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
+Geben Sie im Abschnitt **[!UICONTROL Header-Parameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind.
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name der Marke.
 * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
@@ -154,15 +154,15 @@ Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails
 
 Befolgen Sie die nachstehenden Empfehlungen, um eine ordnungsgemäße Antwortverwaltung sicherzustellen:
 
-* Bitte sicherstellen, dass der dedizierte Posteingang über genügend Aufnahmekapazität verfügt, um alle Antwort-E-Mails zu empfangen, die über die E-Mail-Oberfläche gesendet werden. Wenn der Posteingang Bounce-Nachrichten zurückgibt, werden manche Antworten von den Kunden möglicherweise nicht empfangen.
+* Stellen Sie sicher, dass der dedizierte Posteingang über genügend Aufnahmekapazität verfügt, um alle Antwort-E-Mails zu erhalten, die mit der E-Mail-Konfiguration gesendet werden. Wenn der Posteingang Bounce-Nachrichten zurückgibt, werden manche Antworten von den Kunden möglicherweise nicht empfangen.
 
 * Die Antworten müssen unter Berücksichtigung der Datenschutz- und Compliance-Verpflichtungen verarbeitet werden, da sie personenbezogene Daten (PII) enthalten können.
 
 * Bitte im Posteingang für Antworten keine Nachrichten als Spam markieren, da sich das auf alle anderen an diese Adresse gesendeten Antworten auswirken würde.
 
-Darüber hinaus ist bei der Definition der **[!UICONTROL Antwortadresse (E-Mail)]** sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Oberfläche fehl.
+Stellen Sie außerdem bei der Definition der Adresse **[!UICONTROL Antwort an (E-Mail)]** sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Konfigurationsverarbeitung fehl.
 
-Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
+Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
 >[!NOTE]
 >
@@ -180,12 +180,12 @@ Sie müssen Folgendes angeben:
 
 * Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adress-Domain für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen darf.
 * Ihren Sandbox-Namen.
-* Den Namen der Oberfläche oder die Subdomain, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
+* Der Konfigurationsname oder die Subdomain, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Oberflächen dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
+>Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Konfigurationen dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
 
 Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
 
@@ -195,13 +195,13 @@ Nach Abschluss des Vorgangs werden alle Nachrichten, die an der **[!UICONTROL An
 
 Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](../configuration/archiving-support.md#bcc-email)
+Aktivieren Sie dazu die optionale Funktion **[!UICONTROL BCC email]** auf der Kanalkonfigurationsebene. [Weitere Informationen](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Oberfläche fehl.
+Stellen Sie außerdem bei der Definition der **[!UICONTROL Bcc-E-Mail-1}-Adresse sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Konfigurationsverarbeitung fehl.]**
 
-Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
+Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
 ## Senden an unterdrückte E-Mail-Adressen {#send-to-suppressed-email-addresses}
 
@@ -231,7 +231,7 @@ Um E-Mail-Adressen, die aufgrund von Spam-Beschwerden unterdrückt wurden, in Ih
 
 Als Best Practice für die Zustellbarkeit ist diese Option standardmäßig deaktiviert, um sicherzustellen, dass Ihre Kundinnen und Kunden, die sich abgemeldet haben, nicht kontaktiert werden. Sie können diese Standardoption jedoch ändern, sodass Sie dann Transaktionsnachrichten an Ihre Kundinnen und Kunden senden können.
 
-Wenn diese Option aktiviert ist, kann eine Kundin bzw. ein Kunde zwar Ihre Marketing-E-Mail als Spam gekennzeichnet haben, wird jedoch Ihre Transaktionsnachrichten unter Verwendung der aktuellen Oberfläche empfangen können. Achten Sie immer darauf, Opt-out-Voreinstellungen gemäß den Best Practices für die Zustellbarkeit zu verwalten.
+Wenn diese Option aktiviert ist, kann ein Kunde zwar Ihre Marketing-E-Mail als Spam gekennzeichnet haben, aber mithilfe der aktuellen Konfiguration Transaktionsnachrichten empfangen. Achten Sie immer darauf, Opt-out-Voreinstellungen gemäß den Best Practices für die Zustellbarkeit zu verwalten.
 
 ## Testadressenliste {#seed-list}
 
@@ -255,7 +255,7 @@ Wählen Sie die Liste, die für Sie relevant ist, im Abschnitt **[!UICONTROL Tes
 >
 >Es kann jeweils nur eine Testadressenliste ausgewählt werden.
 
-Wenn die aktuelle Oberfläche in einer Kampagne oder einer Journey verwendet wird, werden zum Zeitpunkt der Versandausführung die E-Mail-Adressen in der ausgewählten Testadressenliste einbezogen, d. h. sie erhalten zu Sicherheitszwecken eine Kopie des Versands.
+Wenn die aktuelle Konfiguration in einer Kampagne oder einer Journey verwendet wird, werden die E-Mail-Adressen auf der ausgewählten Testliste zum Zeitpunkt der Versandausführung einbezogen, d. h. sie erhalten zur Gewährleistung eine Kopie des Versands.
 
 In [diesem Abschnitt](../configuration/seed-lists.md#use-seed-list) erfahren Sie, wie Sie eine Testadressenliste in einer Kampagne oder einer Journey verwenden.
 
@@ -339,4 +339,4 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 
 >[!NOTE]
 >
->Sie können auch dynamische, personalisierte Tracking-Parameter zu den Links im E-Mail-Inhalt hinzufügen. Auf Oberflächenebene ist dies jedoch nicht möglich. Diesen Schritt müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer durchführen. [Weitere Informationen](message-tracking.md#url-tracking)
+>Sie können den Links in Ihrem E-Mail-Inhalt auch dynamische personalisierte Tracking-Parameter hinzufügen, dies ist jedoch auf Konfigurationsebene nicht möglich. Diesen Schritt müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer durchführen. [Weitere Informationen](message-tracking.md#url-tracking)

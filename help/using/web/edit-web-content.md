@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,7 @@ In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Bestätigen der URL zum Bearbeiten"
->abstract="Die URL der spezifischen Web-Seite bestätigen, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Oberfläche angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>abstract="Bestätigen Sie die URL der Web-Seite, die zur Bearbeitung des Inhalts verwendet werden soll, der in der oben definierten Web-Konfiguration angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
    >[!NOTE]
    >
-   >Wenn Sie eine einzelne URL als Web-Oberfläche eingegeben haben, ist die zu personalisierende URL bereits ausgefüllt.
+   >Wenn Sie eine einzelne URL als Webkonfiguration eingegeben haben, ist die zu personalisierende URL bereits ausgefüllt.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ In diesem Abschnitt werden die verschiedenen Methoden beschrieben, wie Sie durch
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Verwenden des Durchsuchen-Modus"
->abstract="Im Durchsuchen-Modus kann von der ausgewählten Oberfläche, die personalisiert werden soll, direkt zur gewünschten Seite navigiert werden."
+>abstract="In diesem Modus können Sie in der ausgewählten Konfiguration, die Sie personalisieren möchten, zur gewünschten Seite navigieren."
 
 Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]**-Modus wechseln.
 
 ![](assets/web-designer-browse-mode.png)
 
-Im **[!UICONTROL Durchsuchen]**-Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren.
+Im Modus **[!UICONTROL Durchsuchen]** können Sie in der ausgewählten Konfiguration, die Sie personalisieren möchten, zur gewünschten Seite navigieren.
 
 Dies ist besonders nützlich, wenn es um Seiten geht, die sich hinter der Authentifizierung befinden oder nicht von Anfang an über eine bestimmte URL verfügbar sind. Sie können sich beispielsweise authentifizieren, zu Ihrer Kontoseite oder zu Ihrer Warenkorbseite navigieren und dann zurück in den **[!UICONTROL Design]**-Modus wechseln, um die Änderungen auf der gewünschten Seite durchzuführen.
 

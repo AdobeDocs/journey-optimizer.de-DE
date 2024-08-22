@@ -1,96 +1,71 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Einrichten von Kanaloberflächen
-description: Erfahren Sie, wie Sie Kanaloberflächen konfigurieren und überwachen
+title: Einrichten von Kanalkonfigurationen
+description: Erfahren Sie, wie Sie Kanalkonfigurationen konfigurieren und überwachen
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1691'
+ht-degree: 38%
 
 ---
 
-# Einrichten von Kanaloberflächen {#set-up-channel-surfaces}
+# Einrichten von Kanalkonfigurationen {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Kanaloberfläche"
->abstract="Eine Kanaloberfläche ist eine Konfiguration, die durch eine oder einen Systemadmin definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
+>title="Kanalkonfiguration"
+>abstract="Eine Kanalkonfiguration ist eine Konfiguration, die von einem Systemadministrator definiert wurde. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Marketing-Aktion"
->abstract="TBC"
+>abstract="Wählen Sie die Marketing-Aktionen aus, um die Einwilligungsrichtlinien mit den Nachrichten zu verknüpfen, die diese Einrichtung verwenden. Alle mit der Marketing-Aktion verbundenen Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_app_id"
->title="App-ID"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_location"
->title="Stelle auf der Seite"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regel zum Seitenabgleich"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="Standard-URL"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="Oberflächen-URI"
->abstract="TBC"
-
-Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.
+Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (d. h. Nachrichtenvorgaben) einrichten, die alle technischen Parameter definieren, die für Ihre Nachrichten erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >
-> * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung zur [Verwaltung von Nachrichtenvoreinstellungen](../administration/high-low-permissions.md#administration-permissions).
+> * Um Kanalkonfigurationen zu erstellen, zu bearbeiten und zu löschen, müssen Sie über die Berechtigung [Nachrichtenvorgaben verwalten](../administration/high-low-permissions.md#administration-permissions) verfügen.
 >
-> * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](../email/get-started-email-config.md), [Push-Benachrichtigungen](../push/push-configuration.md), [SMS](../sms/sms-configuration.md) und [Briefpost](../direct-mail/direct-mail-configuration.md) ausführen.
+> * Sie müssen die Schritte [E-Mail-Konfiguration](../email/get-started-email-config.md), [Push-Konfiguration](../push/push-configuration.md), [SMS-Konfiguration](../sms/sms-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierte Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Briefpost-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen, bevor Sie Kanalkonfigurationen erstellen.
 
-Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
+Sobald die Kanalkonfigurationen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus einer Journey oder einer Kampagne auswählen.
 
 <!--
-➡️ [Learn how to create and use email surfaces in this video](#video-presets)
+➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Erstellen einer Kanaloberfläche {#create-channel-surface}
+## Erstellen einer Kanalkonfiguration {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Kanaloberflächeneinstellungen"
->abstract="Beim Einrichten einer Kanaloberfläche den entsprechenden Kanal auswählen und alle technischen Parameter definieren, die für den Versand erforderlich sind, beispielsweise E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+>title="Kanalkonfigurationseinstellungen"
+>abstract="Wählen Sie bei der Einrichtung einer Kanalkonfiguration den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihren Versand erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Kanaloberflächeneinstellungen"
->abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten von Nachrichtenvoreinstellungen verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
+>title="Kanalkonfigurationseinstellungen"
+>abstract="Um Aktionen wie E-Mails von einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanalkonfiguration erstellen, in der alle für Ihre Nachrichten erforderlichen technischen Parameter definiert sind. Sie müssen über die Berechtigung Nachrichtenvorgaben verwalten verfügen, um Kanalkonfigurationen erstellen, bearbeiten und löschen zu können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="Auswählen einer Marketing-Aktion"
->abstract="Wählen Sie eine Marketing-Aktion auf der Oberfläche aus, um eine Einverständnisrichtlinie mit der Nachricht zu verknüpfen."
+>abstract="Wählen Sie in der Konfiguration eine Marketing-Aktion aus, um eine Zustimmungsrichtlinie mit der Nachricht zu verknüpfen."
 
-Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
+Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]** auf, und klicken Sie dann auf **[!UICONTROL Kanaloberfläche erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/preset-create.png)
 
-1. Geben Sie einen Namen und eine Beschreibung (optional) für die Oberfläche ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Konfiguration ein und wählen Sie dann den zu konfigurierenden Kanal aus.
 
    ![](assets/preset-general.png)
 
@@ -98,29 +73,11 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Oberfläche benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Wenn Sie den **[!UICONTROL E-Mail]**-Kanal ausgewählt haben, konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](../email/email-settings.md) beschrieben.
+1. Wählen Sie Ihren Kanal aus.
 
-   ![](assets/preset-email.png)
-
-1. Wählen Sie für den Kanal **[!UICONTROL Push-Benachrichtigung]** mindestens eine Plattform – **iOS** und/oder **Android** – und die Mobile Apps aus, die für jede Plattform verwendet werden sollen.
-
-   ![](assets/preset-push.png)
-
-   >[!NOTE]
-   >
-   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push/push-gs.md).
-
-1. Definieren Sie Ihre Einstellungen für den **[!UICONTROL SMS]**-Kanal wie in [diesem Abschnitt](../sms/sms-configuration.md) beschrieben.
-
-   ![](assets/preset-sms.png)
-
-   >[!NOTE]
-   >
-   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](../sms/sms-configuration.md).
-
-1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Oberfläche verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
@@ -128,29 +85,25 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
    ![](assets/surface-marketing-action.png)
 
-   >[!NOTE]
-   >
-   >Sie können nur eine Marketing-Aktion auswählen.
-
-1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
+1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und die Konfiguration später fortsetzen.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Sie können nicht mit der Erstellung der E-Mail-Oberfläche fortfahren, während sich der ausgewählte IP-Pool in [Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
+   >Sie können nicht mit der E-Mail-Konfigurationserstellung fortfahren, während sich der ausgewählte IP-Pool unter dem Status [Bearbeitung](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** ) befindet und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
    >
-   >Speichern Sie die Oberfläche als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat, um mit der Erstellung der Oberfläche fortzufahren.
+   >Speichern Sie die Konfiguration als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolg]** aufweist, um die Konfigurationserstellung fortzusetzen.
 
-1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt.
+1. Nachdem die Kanalkonfiguration erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
    Während dieses Schrittes werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist.<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Beim Erstellen einer E-Mail-Oberfläche für eine Subdomain variiert die Verarbeitungszeit, wie im Folgenden beschrieben:
+   > Beim Erstellen einer E-Mail-Konfiguration für eine Subdomain variiert die Verarbeitungszeit wie unten beschrieben:
    >
-   > * Bei **neuen Subdomains** kann der Prozess zur Erstellung der ersten Kanaloberfläche **10 Minuten bis 10 Tage** dauern.
-   > * Bei **Nicht-Produktions-Sandboxes**, oder wenn die ausgewählte Subdomain in einer anderen genehmigten Kanaloberfläche **bereits verwendet** wird, nimmt der Prozess nur bis zu **3 Stunden** in Anspruch.
+   > * Für **neue Subdomains** kann der Prozess zum Erstellen der ersten Kanalkonfiguration **10 Minuten bis 10 Tage dauern**.
+   > * Bei **Nicht-Produktions-Sandboxes** oder wenn die ausgewählte Subdomain **bereits** in einer anderen genehmigten Kanalkonfiguration verwendet hat, dauert der Prozess nur bis zu **3 Stunden**.
 
 
    Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
@@ -162,31 +115,31 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    * Helo-Host-Prüfung
    * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
-   * FBL-Registrierung (diese Prüfung wird nur bei der ersten Erstellung einer E-Mail-Oberfläche für eine bestimmte Subdomain durchgeführt)
+   * FBL-Registrierung (diese Prüfung wird nur durchgeführt, wenn eine E-Mail-Konfiguration für eine bestimmte Subdomain zum ersten Mal erstellt wird)
 
    >[!NOTE]
    >
    >In [diesem Abschnitt](#monitor-channel-surfaces) erfahren Sie mehr über die möglichen Fehlerursachen, wenn die Prüfungen nicht erfolgreich sind.
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Kanaloberfläche den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich sind, erhält die Kanalkonfiguration den Status **[!UICONTROL Aktiv]** . Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    ![](assets/preset-active.png)
 
-## Überwachen von Kanaloberflächen {#monitor-channel-surfaces}
+## Kanalkonfigurationen überwachen {#monitor-channel-surfaces}
 
-Alle Kanaloberflächen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Kanaloberflächen]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
+Alle Kanalkonfigurationen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Kanalkonfigurationen]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
 ![](assets/preset-filters.png)
 
-Nach ihrer Erstellung können Kanaloberflächen die folgenden Status aufweisen:
+Nach der Erstellung können Kanalkonfigurationen die folgenden Status aufweisen:
 
-* **[!UICONTROL Entwurf]**: Die Kanaloberfläche wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
-* **[!UICONTROL Verarbeitung läuft]**: Die Kanaloberfläche wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
-* **[!UICONTROL Aktiv]**: Die Kanaloberfläche wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Kanaloberfläche fehlgeschlagen.
-* **[!UICONTROL Deaktiviert]**: Die Kanaloberfläche ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
+* **[!UICONTROL Entwurf]**: Die Kanalkonfiguration wurde als Entwurf gespeichert und wurde noch nicht übermittelt. Öffnen Sie sie, um die Konfiguration fortzusetzen.
+* **[!UICONTROL Verarbeitung]**: Die Kanalkonfiguration wurde gesendet und durchläuft mehrere Überprüfungsschritte.
+* **[!UICONTROL Aktiv]**: Die Kanalkonfiguration wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind während der Überprüfung der Kanalkonfiguration fehlgeschlagen.
+* **[!UICONTROL Deaktiviert]**: Die Kanalkonfiguration ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
-Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Kanaloberfläche fehlschlägt.
+Wenn die Erstellung eines Kanals fehlschlägt, werden die Details zu den möglichen Fehlerursachen nachfolgend beschrieben.
 
 Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}, um Hilfe zu erhalten.
 
@@ -199,18 +152,18 @@ Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstü
 * **Zustellbarkeitskonfigurationen fehlgeschlagen**: Zustellbarkeitskonfigurationsfehler können aus einem der folgenden Gründe auftreten:
    * Blockierungsauflistung der zugewiesenen IPs
    * Ungültiger `helo`-Name
-   * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Oberfläche angegebenen gesendet werden
+   * E-Mails, die von anderen als den im IP-Pool der entsprechenden Konfiguration angegebenen IP-Adressen gesendet werden
    * E-Mails können nicht an die Postfächer von wichtigen ISPs zugestellt werden
 
-## Bearbeiten einer Kanaloberfläche {#edit-channel-surface}
+## Bearbeiten einer Kanalkonfiguration {#edit-channel-surface}
 
-Gehen Sie wie folgt vor, um eine Kanaloberfläche zu bearbeiten.
+Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 
 >[!NOTE]
 >
->Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanaloberfläche nur für den Kanal „Push-Benachrichtigung“ konfiguriert ist, kann sie nicht bearbeitet werden.
+>Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanalkonfiguration nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
 
-1. Klicken Sie in der Liste auf den Namen einer Kanaloberfläche, um sie zu öffnen.
+1. Klicken Sie in der Liste auf einen Kanal-Konfigurationsnamen, um ihn zu öffnen.
 
    ![](assets/preset-name.png)
 
@@ -218,15 +171,15 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu bearbeiten.
 
    >[!NOTE]
    >
-   >Wenn eine Kanaloberfläche den Status **[!UICONTROL Aktiv]** hat, sind die Felder **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** grau dargestellt und können nicht bearbeitet werden.
+   >Wenn eine Kanalkonfiguration den Status &quot;**[!UICONTROL Aktiv]**&quot; hat, sind die Felder &quot;**[!UICONTROL Name]**&quot;, &quot;**[!UICONTROL Kanal auswählen]**&quot;und &quot;**[!UICONTROL Subdomäne]**&quot; grau ausgeblendet und können nicht bearbeitet werden.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
    >[!NOTE]
    >
-   >Sie können die Kanaloberfläche auch als Entwurf speichern und die Aktualisierung später fortsetzen.
+   >Sie können die Kanalkonfiguration auch als Entwurf speichern und die Aktualisierung später fortsetzen.
 
-Sobald die Änderungen übermittelt wurden, durchläuft die Kanaloberfläche einen ähnlichen Validierungszyklus wie beim [Erstellen einer Kanaloberfläche](#create-channel-surface). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
+Sobald die Änderungen übermittelt wurden, durchläuft die Kanalkonfiguration einen Validierungszyklus, der dem beim [Erstellen einer Kanalkonfiguration](#create-channel-surface) vorhandenen ähnelt. Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
 
 >[!NOTE]
 >
@@ -234,13 +187,13 @@ Sobald die Änderungen übermittelt wurden, durchläuft die Kanaloberfläche ein
 
 ### Details zur Aktualisierung {#update-details}
 
-Hat eine Kanaloberfläche den Status **[!UICONTROL Aktiv]**, können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
+Bei Kanalkonfigurationen mit dem Status **[!UICONTROL Aktiv]** können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
 
-Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Oberfläche angezeigt wird.
+Klicken Sie auf das Symbol **[!UICONTROL Letztes Update]** , das neben dem aktiven Konfigurationsnamen angezeigt wird.
 
 ![](assets/preset-recent-update-icon.png)
 
-<!--You can also access the update details from an active channel surface while update is in progress.-->
+<!--You can also access the update details from an active channel configuration while update is in progress.-->
 
 Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus und die Liste der angeforderten Änderungen sehen.
 
@@ -248,17 +201,17 @@ Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informatio
 
 ### Aktualisieren des Status {#update-statuses}
 
-Eine Aktualisierung einer Kanaloberfläche kann die folgenden Status aufweisen:
+Eine Aktualisierung der Kanalkonfiguration kann die folgenden Status aufweisen:
 
-* **[!UICONTROL Verarbeitung läuft]**: Die Aktualisierung der Kanaloberfläche wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
-* **[!UICONTROL Aktiv]**: Die aktualisierte Kanaloberfläche wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Kanaloberflächenaktualisierung fehlgeschlagen.
+* **[!UICONTROL Verarbeitung]**: Die Aktualisierung der Kanalkonfiguration wurde eingereicht und durchläuft zurzeit mehrere Überprüfungsschritte.
+* **[!UICONTROL Erfolg]**: Die aktualisierte Kanalkonfiguration wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind während der Überprüfung der Aktualisierung der Kanalkonfiguration fehlgeschlagen.
 
 Jeder Status wird nachfolgend beschrieben.
 
 #### Verarbeitung läuft {#surface-processing}
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustellen, dass die Kanaloberfläche ordnungsgemäß aktualisiert wurde.
+Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die Konfiguration ordnungsgemäß aktualisiert wurde.
 
 >[!NOTE]
 >
@@ -266,43 +219,43 @@ Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustell
 
 Die Verarbeitungszeit kann bis **3 Stunden** dauern. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie in [diesem Abschnitt](#create-channel-surface).
 
-Wenn Sie eine bereits aktive Oberfläche bearbeiten:
+Wenn Sie eine bereits aktive Konfiguration bearbeiten:
 
 * Ihr Status **[!UICONTROL Aktiv]** bleibt erhalten, während der Validierungsprozess ausgeführt wird.
 
-* Das Symbol **[!UICONTROL Letzte Aktualisierung]** wird neben dem Namen der Oberfläche in der Liste der Kanaloberflächen angezeigt.
+* In der Liste der Kanalkonfigurationen wird neben dem Namen der Konfiguration das Symbol **[!UICONTROL Letzte Aktualisierung]** angezeigt.
 
-* Während des Validierungsprozesses verwenden die mit dieser Oberfläche konfigurierten Nachrichten weiterhin die ältere Version der Oberfläche.
+* Während des Validierungsprozesses verwenden die mit dieser Konfiguration konfigurierten Nachrichten weiterhin die ältere Version der Konfiguration.
 
 >[!NOTE]
 >
->Sie können eine Kanaloberfläche während des Aktualisierungsprozesses nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+>Während der Aktualisierung können Sie die Kanalkonfiguration nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
 
 #### Erfolgreich {#success}
 
-Nach erfolgreicher Überprüfung wird die neue Version der Oberfläche automatisch in allen Nachrichten verwendet, die diese Oberfläche verwenden. Sie müssen jedoch möglicherweise warten:
+Sobald der Validierungsprozess erfolgreich ist, wird die neue Version der Konfiguration automatisch in allen Nachrichten verwendet, die diese Konfiguration verwenden. Sie müssen jedoch möglicherweise warten:
 * einige Minuten, bevor sie von den unitären Nachrichten genutzt wird,
-* bis zum nächsten Batch, damit die Oberfläche in Batch-Nachrichten wirksam wird.
+* bis zum nächsten Batch, damit die Konfiguration in Batch-Nachrichten wirksam ist.
 
 #### Fehlgeschlagen {#failed}
 
-Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Oberfläche verwendet.
+Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Konfiguration verwendet.
 
 Weitere Informationen zu möglichen Fehlerursachen finden Sie in [diesem Abschnitt](#monitor-channel-surfaces).
 
-Wenn die Aktualisierung fehlschlägt, kann die Oberfläche erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
+Wenn die Aktualisierung fehlschlägt, kann die Konfiguration erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
 
-## Deaktivieren einer Kanaloberfläche {#deactivate-a-surface}
+## Deaktivieren der Kanalkonfiguration {#deactivate-a-surface}
 
-Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanaloberfläche nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Nachrichten von Journeys, die diese Oberfläche verwenden, sind jedoch nicht betroffen und funktionieren weiterhin.
+Um die Konfiguration eines **[!UICONTROL aktiven]** Kanals zum Erstellen neuer Nachrichten nicht verfügbar zu machen, können Sie sie deaktivieren. Journey, die diese Konfiguration verwenden, sind jedoch nicht betroffen und funktionieren weiterhin.
 
 >[!NOTE]
 >
->Sie können eine Kanaloberfläche nicht deaktivieren, während eine Aktualisierung im Gange ist. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Weitere Informationen finden Sie unter [Bearbeiten von Kanaloberflächen](#edit-channel-surface) und [Aktualisierungsstatus](#update-statuses).
+>Sie können eine Kanalkonfiguration nicht deaktivieren, während eine Aktualisierung verarbeitet wird. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Erfahren Sie mehr über [Bearbeiten von Kanalkonfigurationen](#edit-channel-surface) und die [Aktualisierungsstatus](#update-statuses).
 
-1. Rufen Sie die Liste der Kanaloberflächen auf.
+1. Rufen Sie die Liste der Kanalkonfigurationen auf.
 
-1. Klicken Sie für die aktive Oberfläche Ihrer Wahl auf die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
+1. Klicken Sie für die aktive Konfiguration Ihrer Wahl auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** .
 
 1. Wählen Sie **[!UICONTROL Deaktivieren]** aus.
 
@@ -310,16 +263,16 @@ Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanaloberfläche nicht verf
 
 >[!NOTE]
 >
->Deaktivierte Kanaloberflächen können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Oberflächen zum Senden von Nachrichten verwenden.
+>Deaktivierte Kanalkonfigurationen können nicht gelöscht werden, um Probleme in Journey zu vermeiden, die diese Konfigurationen zum Senden von Nachrichten verwenden.
 
-Eine deaktivierte Kanaloberfläche kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
+Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
 
 ![](assets/preset-activate.png)
 
 <!--
 ## How-to video{#video-presets}
 
-Learn how to create channel surfaces, how to use them and how to delegate a subdomain and create an IP pool.
+Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
 -->

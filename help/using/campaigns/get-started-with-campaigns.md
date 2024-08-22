@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Kampagnen"
->abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über verschiedene Kanäle hinweg bereitzustellen. Bevor Sie eine neue Kampagne erstellen, überprüfen Sie, ob Sie über eine einsatzbereite Kanaloberfläche und eine Adobe Experience Platform-Zielgruppe verfügen."
+>abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über verschiedene Kanäle hinweg bereitzustellen. Stellen Sie vor der Erstellung Ihrer Kampagne sicher, dass Sie über eine Kanalkonfiguration und eine Adobe Experience Platform-Zielgruppe verfügen."
 
 Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für eine bestimmte Zielgruppe bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
@@ -63,7 +63,7 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 +++
 
 1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../audience/about-audiences.md).
-1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen finden Sie [auf dieser Seite](../configuration/channel-surfaces.md).
+1. **Sie benötigen eine Kanalkonfiguration**. Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. die Vorgabe) erstellt und verfügbar sein. Weitere Informationen zu Kanalkonfigurationen [finden Sie auf dieser Seite](../configuration/channel-surfaces.md).
 
 ## Anleitungsvideo {#video}
 

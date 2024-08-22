@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, mit der die Entsche
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Festlegen der Anzahl der zurückzugebenden Elemente"
->abstract="Wählen Sie die Anzahl der Entscheidungselemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise „2“ auswählen, werden die zwei am besten geeigneten Angebote für die aktuelle Oberfläche angezeigt."
+>abstract="Wählen Sie die Anzahl der Entscheidungselemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise 2 auswählen, werden die 2 besten geeigneten Angebote für die aktuelle Konfiguration angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
    ![](assets/decision-code-based-details.png)
 
-1. Wählen Sie die Anzahl der Elemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise „2“ auswählen, werden die zwei am besten geeigneten Angebote für die aktuelle Oberfläche angezeigt. Klicken Sie auf **[!UICONTROL Weiter]**
+1. Wählen Sie die Anzahl der Elemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise 2 auswählen, werden die 2 besten geeigneten Angebote für die aktuelle Konfiguration angezeigt. Klicken Sie auf **[!UICONTROL Weiter]**
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Strategie hinzufügen]**, um die Auswahlstrategien für Ihre Entscheidungsrichtlinie zu definieren. Jede Strategie besteht aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist und einer Rangfolgenmethode, mit der die anzuzeigenden Angebote bestimmt werden. [Weitere Informationen](selection-strategies.md)
 
