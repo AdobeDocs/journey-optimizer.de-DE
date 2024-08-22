@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + Konfigurieren eines E-Mail-Kanals {#configure-email}
       + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
-      + [Konfigurieren der Oberflächen-Einstellungen von E-Mails](using/email/email-settings.md)
-      + [Personalisieren der Oberflächen-Einstellungen von E-Mails](using/email/surface-personalization.md)
+      + [E-Mail-Konfigurationseinstellungen konfigurieren](using/email/email-settings.md)
+      + [E-Mail-Konfiguration personalisieren](using/email/surface-personalization.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
       + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
       + [Konfigurieren eines benutzerdefinierten Anbieters (Beta)](using/sms/sms-configuration-custom.md)
-      + [Erstellen einer SMS-Oberfläche](using/sms/sms-configuration-surface.md)
+      + [SMS-Konfiguration erstellen](using/sms/sms-configuration-surface.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 97%
    + [Abfragen](using/data/get-started-queries.md)
 + Konfiguration {#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Einrichten von Kanaloberflächen](using/configuration/channel-surfaces.md)
+   + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
       + [Erste Schritte mit der Delegierung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
