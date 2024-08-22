@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ Mit [!DNL Journey Optimizer] können Sie die Erlebnisse, die Sie Ihren Kundinnen
 
 Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse mit einem einfachen und intuitiven, nicht visuellen Editor definieren. Sie können damit unabhängig vom Anwendungstyp bestimmte Elemente an einzelnen und detaillierteren Stellen Ihrer Apps oder Web-Seiten einfügen und bearbeiten, anstatt Änderungen an einem gesamten Inhalt vorzunehmen.
 
-<!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
+<!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound device in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
 >[!IMPORTANT]
 >
@@ -84,6 +84,7 @@ Wann sollte anstelle der anderen [!DNL Journey Optimizer]-Kanäle ein Code-basie
 Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder das Code-basierte Erlebnis verwenden. Je nach Kontext eignet sich ein Erlebnis jedoch meist besser als das andere. Die wichtigsten Unterschiede sind unten aufgeführt, sodass Sie eine fundierte Entscheidung darüber treffen können, wann Sie was verwenden.
 
 **Web**
+
 * Bearbeiten Sie Ihre Inhalte mithilfe des Visual Editors [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
 * Sie müssen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}-Implementierung und die Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
 * Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
@@ -91,9 +92,10 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 * Er ist auf Marketing-Fachleute ausgerichtet.
 
 **Code-basiertes Erlebnis**
+
 * Bearbeiten Sie Ihren Inhalt mit dem [Personalisierungseditor](create-code-based.md#edit-code).
-* Das Code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Oberflächen die von [!DNL Journey Optimizer] für diese Oberflächen veröffentlichten Inhalte interpretieren und bereitstellen können. [Weitere Informationen](#surface-definition)
-* Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero-Bild, Menüleiste usw.) auf den Oberflächen, die für die Personalisierung oder Tests geändert werden müssen, unbedingt festgelegt werden. Erstellen Sie zusammen mit Ihrem Entwicklungs-Team die für diese Änderungen erforderliche Implementierung.
+* Das code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Anwendungen die Inhalte interpretieren und bereitstellen können, die von [!DNL Journey Optimizer] am Edge für diese Orte veröffentlicht wurden. [Weitere Informationen](code-based-configuration.md#surface-definition)
+* Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero-Bild, Menüleiste usw.) Informationen zu den Anwendungen, die für Personalisierung oder Tests geändert werden müssen, und erarbeiten Sie gemeinsam mit Ihrem Entwicklungsteam die für die Bearbeitung dieser Änderungen erforderliche Implementierung.
 * So können Sie JSON-Code-Inhalte verwenden.
 * Es ist auf Entwicklungspersonen ausgerichtet.
 
@@ -103,65 +105,16 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 >
 >Diese Funktion richtet sich an Entwicklungspersonen und/oder erfahrene Benutzerinnen und Benutzer. Sie kann von Marketing-Fachleuten mit einiger Erfahrung im Schreiben von Code verwendet werden, sofern die Implementierungen und die Ersteinrichtung der Oberflächen von Ihrem Entwicklungs-Team durchgeführt werden.
 
-Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes Erlebnis bearbeiten können, müssen Ihre Seiten oder Apps entsprechend ausgerüstet sein. Dazu müssen Sie zuerst die einzelnen Stellen („[Oberflächen](#surface-definition)“ genannt) festlegen, an denen Sie Inhalte einfügen oder ersetzen möchten<!--HOW??-->.
+Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes Erlebnis bearbeiten können, müssen Ihre Seiten oder Apps entsprechend ausgerüstet sein. Dazu müssen Sie zuerst die einzelnen Stellen („[Oberflächen](code-based-configuration.md#surface-definition)“ genannt) festlegen, an denen Sie Inhalte einfügen oder ersetzen möchten<!--HOW??-->.
 
 >[!NOTE]
 >
->Derzeit können nur HTML- und JSON-Inhalte mit einer Oberfläche verknüpft werden. <!--WILL COME LATER: text, image or another format depending on the application-->
+>Derzeit kann der mit einer Konfiguration verknüpfte Inhalt nur HTML oder JSON sein.<!--WILL COME LATER: text, image or another format depending on the application-->
 
 Die wichtigsten Schritte zur Implementierung einer Code-basierten Kampagne:
 
-1. Definieren Sie eine [Oberfläche](#surface-definition); also den Ort, zu dem Sie Ihr Code-basiertes Erlebnis hinzufügen möchten, und erstellen Sie mithilfe dieser Oberfläche eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
+1. Definieren Sie eine [Oberfläche](code-based-configuration.md#surface-definition) in Ihrer Anwendungsimplementierung, d. h. im Grunde den Ort, an dem Sie Ihr code-basiertes Erlebnis hinzufügen möchten, erstellen Sie dann eine code-basierte Erlebniskanalkonfiguration, die auf diesen Ort verweist, und erstellen Sie dann mit dieser Konfiguration eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
-1. Erstellen Sie ein Erlebnis, indem Sie mit dem Personalisierungseditor von [!DNL Journey Optimizer] Inhalte für die ausgewählte Oberfläche angeben. [Weitere Informationen](create-code-based.md#edit-code)
+1. Erstellen Sie ein Erlebnis, indem Sie mithilfe des Personalisierungseditors [!DNL Journey Optimizer] Inhalte für die ausgewählte Konfiguration angeben. [Weitere Informationen](create-code-based.md#edit-code)
 
 1. Ihr App-Implementierungs-Team erstellt explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. In diesem Fall ist das Implementierungs-Team für das Rendern oder die anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
-
-## Was ist eine Oberfläche? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_code_based_surface"
->title="Definieren einer Oberfläche für ein Code-basiertes Erlebnis"
->abstract="Eine Code-basierte Oberfläche ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen URI eindeutig gekennzeichnet ist."
-
-Eine **Code-basierte Erlebnisoberfläche** ist jede Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde.<!--ask Robert to explain further--> und durch einen **URI** eindeutig gekennzeichnet ist.
-
-Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhandenen Entität (Touchpoint) betrachtet werden.<!--good idea to illustrate how it can be seen, but to clarify-->
-
-* Dabei kann es sich um eine Webseite, eine Mobile App, eine Desktop-App, einen bestimmten Inhaltsspeicherort innerhalb einer größeren Entität (z. B. eine `div`) oder ein nicht standardmäßiges Anzeigemuster (z. B. ein Kiosk oder ein Desktop-Programm-Banner) handeln.<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* Für Nicht-Anzeigen oder abstrakte Anzeigen (z. B. für Dienste bereitgestellte JSON-Blobs) kann sie auch auf bestimmte Teile von Inhalts-Containern erweitert werden.
-
-* Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
-
-Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
-1. **Typ**: Web, Mobile App, ATM, Kiosk, tvcd, Dienst
-1. **Eigenschaft**: Seiten-URL oder App-Paket
-1. **Container**: Speicherort auf der Seite/App-Aktivität
-
-In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberflächen-URI für verschiedene Geräte aufgeführt.
-
-**Web und Mobil**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer. |
-| iOS-App | `mobileapp://com.vendor.bundle/activity#element` | Stellt ein bestimmtes Element innerhalb der Aktivität einer nativen App dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
-| Android-App | `mobileapp://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer nativen App dar. |
-
-**Andere Gerätetypen**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| TV-App | `tvcd://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer mit einem Smart TV- oder TV-Gerät verbundenen Geräteanwendung dar – Bundle-ID. |
-| Service | `service://servicename/#element` | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
-| Kiosk | `kiosk://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
-| ATM | `atm://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
-
-**Platzhalteroberfläche**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |

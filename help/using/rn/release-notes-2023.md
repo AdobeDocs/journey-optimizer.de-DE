@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Entscheidungs-Management**
 
@@ -162,13 +162,13 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 <table>
 <thead>
 <tr>
-<th><strong>Speicherung von Mobile App-Anmeldeinformationen per Sandbox</strong><br/></th>
+<th><strong>Speicherung von Mobile App-Anmeldedaten per Sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit dieser neuen Funktion können Sie Push-Anmeldeinformationen einfach in App-Oberflächen verwalten und mit einer dedizierten Sandbox verknüpfen.</p>
+<p>Mit dieser neuen Funktion können Sie Push-Anmeldedaten einfach in App-Oberflächen verwalten und mit einer dedizierten Sandbox verknüpfen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../in-app/inapp-configuration.md#channel-prerequisites">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS-Kanal**
 
-* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieterfirma hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
+* Bei der Konfiguration Ihrer SMS-Kanalkonfigurationen wurde Infobip als Anbieter hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
 * Twillio – Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging-Service-SID für eine nahtlose Integration in Ihr Twillio-Konto hinzuzufügen. [Weitere Informationen](../sms/sms-configuration.md)
 
 **In-App-Kanal**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * Beim Erstellen oder Bearbeiten von **IP-Pools** werden die zugehörigen PTR-Einträge jetzt in der IP-Liste angezeigt, und ebenfalls, wenn Sie den Mauszeiger über die ausgewählten IP-Adressen bewegen. [Weitere Informationen](../configuration/ip-pools.md#create-ip-pool)
 
-* Nachdem ein IP-Pool auf einer Kanaloberfläche ausgewählt wurde, sind jetzt Informationen zum PTR-Eintrag sichtbar, wenn Sie den Mauszeiger über die IP-Adressen bewegen. [Weitere Informationen](../email/email-settings.md#subdomains-and-ip-pools)
+* Nachdem ein IP-Pool in einer Kanalkonfiguration ausgewählt wurde, sind jetzt PTR-Datensatzinformationen sichtbar, wenn Sie den Mauszeiger über die IP-Adressen bewegen. [Weitere Informationen](../email/email-settings.md#subdomains-and-ip-pools)
 
 * Die Benutzeroberfläche zur Bearbeitung von [PTR-Einträgen](../configuration/ptr-records.md#edit-ptr-record) und [Ausführungsfeldern](../configuration/primary-email-addresses.md) wurde aktualisiert.
 

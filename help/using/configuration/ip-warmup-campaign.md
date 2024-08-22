@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: ht
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -27,11 +27,11 @@ Bevor Sie den eigentlichen IP-Warmup-Plan in [!DNL Journey Optimizer] erstellen,
 
 Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus.
 
-1. Erstellen Sie eine [E-Mail](../email/email-settings.md)-Kanal-[Oberfläche](channel-surfaces.md) für die Domain und die IPs, die für den Aufwärmplan identifiziert wurden.
+1. Erstellen Sie eine [E-Mail](../email/email-settings.md)-Kanal [Konfiguration](channel-surfaces.md) für die Domäne und die IPs, die Sie für Ihren Aufwärmsplan identifiziert haben.
 
    >[!NOTE]
    >
-   >* Weitere Informationen dazu, wie die Domäne und IPs ausgewählt werden können, die auf einer E-Mail-Oberfläche verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   >In [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools) erfahren Sie, wie Sie die Domäne und IPs auswählen, die in einer E-Mail-Konfiguration verwendet werden sollen.
    >
    >* Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
 
@@ -39,11 +39,11 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. Wählen Sie die Oberfläche aus, die Sie für das IP-Aufwärmen erstellt haben.
+1. Wählen Sie die Konfiguration aus, die Sie für die IP-Wärme-Kopplung erstellt haben.
 
    ![](assets/ip-warmup-campaign-surface.png)
 
-   <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
+   <!--You must use the same configuration as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 

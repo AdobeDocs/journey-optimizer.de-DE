@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
 ## Zugreifen auf Testadressenlisten {#access-seed-lists}
 
-Um auf die bereits erstellten Testadressenlisten zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und wählen Sie **[!UICONTROL Testadressenliste]** aus.
+Um auf die bereits erstellten Testlisten zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Testliste]** aus.
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Löschen]**, um einen Eintrag daue
 
 >[!CAUTION]
 >
->Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publishing-the-journey.md) verwendet wird. Sie müssen die Kampagne/Journey erst deaktivieren oder sie bearbeiten, um eine andere Oberfläche zu verwenden, für die die Testadressenliste nicht ausgewählt wurde. [Mehr erfahren über die Verwendung einer Testadressenliste](#use-seed-list)
+>Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publishing-the-journey.md) verwendet wird. Sie müssen die Kampagne/Journey deaktivieren oder sie bearbeiten, um eine andere Konfiguration zu verwenden, für die die Testliste nicht ausgewählt wurde. [Mehr erfahren über die Verwendung einer Testadressenliste](#use-seed-list)
 
 Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten.
 
 Gehen Sie wie folgt vor, um eine Testadressenliste zu erstellen.
 
-1. Öffnen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Testadressenliste]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Testliste]** auf.
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Testadressenliste erstellen]** aus.
 
@@ -132,7 +132,7 @@ Nachdem Sie Ihre Testadressenliste erstellt haben, können Sie sie in jeder Kamp
 >
 >Nachrichten, die an Testadressen gesendet werden, sind nicht in Journey- oder Kampagnenberichten enthalten.
 
-1. Erstellen Sie eine Oberfläche und wählen Sie dann den Kanal **[!UICONTROL E-Mail]** aus. [Weitere Informationen](../email/email-settings.md)
+1. Erstellen Sie eine Konfiguration und wählen Sie den Kanal **[!UICONTROL E-Mail]** aus. [Weitere Informationen](../email/email-settings.md)
 
 1. Wählen Sie die Testadressenliste Ihrer Wahl im [entsprechenden Abschnitt](../email/email-settings.md#seed-list).
 
@@ -142,11 +142,11 @@ Nachdem Sie Ihre Testadressenliste erstellt haben, können Sie sie in jeder Kamp
 
    ![](assets/seed-list-surface.png)
 
-1. Senden Sie die Oberfläche ab.
+1. Senden Sie die Konfiguration.
 
 1. Erstellen Sie eine [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-gs.md).
 
-1. Wählen Sie die Aktion **[!UICONTROL E-Mail]** und dann die [Oberfläche](channel-surfaces.md) aus, einschließlich der für Sie relevanten Testadressenliste.
+1. Wählen Sie die Aktion **[!UICONTROL E-Mail]** aus und wählen Sie die Konfiguration [3} einschließlich der für Sie relevanten Testliste aus.](channel-surfaces.md)
 
    ![](assets/seed-list-campaign-email.png)
 

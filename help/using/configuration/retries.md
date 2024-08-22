@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ Wenn zwischen diesen beiden E-Mails keine andere Sendung erfolgreich durchgefüh
 
 Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie unten beschrieben ändern.
 
-1. Gehen Sie zu **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Unterdrückungsliste]**.
+1. Wechseln Sie zu **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Unterdrückungsliste]**.
 
 1. Klicken Sie auf den Button **[!UICONTROL Unterdrückungsregeln bearbeiten]**.
 
@@ -72,7 +72,7 @@ Der **Zeitraum für weitere Zustellversuche** ist der Zeitraum, in dem alle E-Ma
 
 Standardmäßig werden weitere Zustellversuche **3,5 Tage** (oder **84 Stunden**) lang ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
 
-Um jedoch sicherzustellen, dass Zustellversuche nur so lange durchgeführt werden, wie sie benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanaloberfläche](channel-surfaces.md) (d. h. Nachrichtenvoreinstellung) einrichten oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
+Um jedoch sicherzustellen, dass Wiederholungsversuche nicht mehr durchgeführt werden, wenn sie nicht mehr benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanalkonfiguration](channel-surfaces.md) (d. h. eine Nachrichtenvorgabe) erstellen oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
 
 Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Transaktions-E-Mail, die sich auf das Zurücksetzen eines Passworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Analog dazu könnten Sie für einen Midnight Sale den Zeitraum für weitere Zustellversuche auf 6 Stunden festlegen.
 
@@ -80,5 +80,5 @@ Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Trans
 >
 >Der Zeitraum für weitere Zustellversuche darf 84 Stunden nicht überschreiten. Der Mindestzeitraum für weitere Zustellversuche beträgt 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
 
-In [diesem Abschnitt](../email/email-settings.md#email-retry) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Kanaloberfläche definieren.
+In [diesem Abschnitt](../email/email-settings.md#email-retry) erfahren Sie, wie Sie die E-Mail-Wiederholungsparameter beim Erstellen einer Kanalkonfiguration anpassen.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ Beispielsweise können Sie [Einverständnisrichtlinien in Experience Platform er
 
    * Wenn Sie über Adobe **Healthcare Shield** oder **Privacy and Security Shield** verfügen, können Sie eine benutzerdefinierte Einverständnisrichtlinie erstellen, die die Standardlogik außer Kraft setzt. Sie können z. B. eine Richtlinie definieren, um nur E-Mail-Nachrichten an alle Personen zu senden, die sich für den Empfang angemeldet haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
 
-  Um eine benutzerdefinierte Richtlinie anzuwenden, müssen Sie eine Marketing-Aktion in dieser Richtlinie definieren und sie mit einer Kanaloberfläche verknüpfen. [Weitere Informationen](#surface-marketing-actions)
+  Um eine benutzerdefinierte Richtlinie anzuwenden, müssen Sie eine Marketing-Aktion in dieser Richtlinie definieren und sie mit einer Kanalkonfiguration verknüpfen. [Weitere Informationen](#surface-marketing-actions)
 
 Auf der Journey-Ebene können Sie Einverständnisrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden:
 
 * Beim **Konfigurieren einer benutzerdefinierten Aktion** können Sie einen Kanal und eine Marketing-Aktion definieren. [Weitere Informationen](#consent-custom-action)
 * Beim Hinzufügen der **benutzerdefinierten Aktion in einer Journey** können Sie eine zusätzliche Marketing-Aktion definieren. [Weitere Informationen](#consent-journey)
 
-## Verwenden von Einverständnisrichtlinien durch Kanaloberflächen {#surface-marketing-actions}
+## Verwenden von Zustimmungsrichtlinien über Kanalkonfigurationen {#surface-marketing-actions}
 
 In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} aufgelisteten Werte ändern.
 
@@ -73,13 +73,13 @@ Wenn Sie z. B. eine Einverständnisrichtlinie erstellen möchten, um nur Profil
 
 1. Erstellen Sie eine E-Mail-Oberfläche in Journey Optimizer. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. Wählen Sie in den Details der E-Mail-Oberfläche die Marketing-Aktion **[!UICONTROL E-Mail-Targeting]** aus.
+1. Wählen Sie in den E-Mail-Konfigurationsdetails die Marketing-Aktion **[!UICONTROL E-Mail-Targeting]** aus.
 
    ![](assets/surface-marketing-action.png)
 
 Alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien werden automatisch verwendet, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren.
 
-Daher wird in diesem Beispiel jede [E-Mail](../email/create-email.md), die diese Oberfläche in einer Kampagne oder einer Journey verwendet, nur an die Profile gesendet, die dem Empfang von E-Mails von Ihnen zugestimmt haben. Profile, die dem Empfang von E-Mail-Nachrichten nicht zugestimmt haben, werden ausgeschlossen.
+Daher wird in diesem Beispiel jede [E-Mail](../email/create-email.md), die diese Konfiguration in einer Kampagne oder einer Journey verwendet, nur an die Profile gesendet, die dem Empfang von E-Mails von Ihnen zugestimmt haben. Profile, die dem Empfang von E-Mail-Nachrichten nicht zugestimmt haben, werden ausgeschlossen.
 
 ## Verwenden von Einverständnisrichtlinien durch benutzerdefinierte Aktionen {#journey-custom-actions}
 

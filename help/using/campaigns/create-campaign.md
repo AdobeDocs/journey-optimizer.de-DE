@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 93%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Bevor Sie eine neue Kampagne erstellen, überprüfen Sie, ob Sie über eine einsatzbereite Kanaloberfläche (d. h. Nachrichtenvoreinstellung) und Adobe Experience Platform-Zielgruppe verfügen. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über eine Kanalkonfiguration (d. h. eine Nachrichtenoberfläche) und eine Adobe Experience Platform-Zielgruppe verfügen, die einsatzbereit sind. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >
->* [Erstellen von Kanaloberflächen](../configuration/channel-surfaces.md)
+>* [Erstellen von Kanalkonfigurationen](../configuration/channel-surfaces.md)
 >* [Erste Schritte mit Zielgruppen](../audience/about-audiences.md)
 
 Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen]** auf **[!UICONTROL Kampagne erstellen]**. Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ Um die Zielgruppe der Kampagne zu definieren, gehen Sie folgendermaßen vor:
 
 ## Erstellen der Nachricht und Konfigurieren der Tracking-Funktion {#content}
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** den Kanal und die Oberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** eine neue Konfiguration aus oder erstellen Sie sie.
 
-   Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
+   Eine Konfiguration wird von einem [Systemadministrator](../start/path/administrator.md) definiert. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
-   In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
+   In der Dropdown-Liste werden nur Kanalkonfigurationen aufgelistet, die mit dem Marketing-Kampagnentyp kompatibel sind.
 
    ![](assets/create-campaign-action.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * **Moderne Omnichannel-Orchestrierung und -Ausführung**: Über eine einzige Arbeitsfläche kann die Customer Journey durch 1:1-Kundeninteraktionen und Marketing-Maßnahmen harmonisiert und optimiert werden, um Marken dabei zu helfen, im gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an einen Kunde gesendet werden.
 
-* **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe von Decisioning auf allen Kanälen zentralisierte Angebote im großen Maßstab.
+* **Intelligente Entscheidungsfindung und Personalization** - Marken können zentralisierte Entscheidungen treffen und künstliche Intelligenz und maschinelles Lernen in die Konfigurations-Prognoseeinblicke des gesamten Kundenerlebnisses integrieren, wodurch Entscheidungen einfacher automatisiert und das Erlebnis skaliert wird. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe von Decisioning auf allen Kanälen zentralisierte Angebote im großen Maßstab.
 
 ## Architektur {#architecture}
 

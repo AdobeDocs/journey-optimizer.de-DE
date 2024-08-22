@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -22,11 +22,11 @@ Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets siche
 
 >[!NOTE]
 >
->Alle Ihre Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten.  Dies ist für Transaktionsnachrichten nicht erforderlich. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) und bei der Erstellung der Nachricht definiert.
+>Alle Ihre Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten.  Dies ist für Transaktionsnachrichten nicht erforderlich. Die Nachrichtenkategorie - **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktionstyp]** - wird auf der Ebene [Kanalkonfiguration](../configuration/channel-surfaces.md#email-type) und beim Erstellen der Nachricht definiert.
 
 Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Möglichkeiten:
 
-* Hinzufügen einer URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail  Durch Aktivieren der Option **[!UICONTROL Abmelde-Link in Kopfzeile]** auf der Ebene der Kanaloberfläche wird ein Ausschluss-Link in der Kopfzeile der E-Mail hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
+* Hinzufügen einer URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail  Durch Aktivierung der Option **[!UICONTROL List-Unsubscribe Header]** auf der Kanalkonfigurationsebene wird ein Ausschluss-Link in der E-Mail-Kopfzeile hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
 
 * Aktivieren Sie den **Ausschluss-Link mit einem Klick** für Ihre E-Mail.  [Informationen dazu, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
@@ -47,7 +47,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. Wenn in Adobe Journey Optimizer die Option **Abmelde-Link aktivieren** aktiviert ist, enthält die Kopfzeile der E-Mail standardmäßig sowohl einen Mailto-Link als auch eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.
 
-Der Schalter für [Abmelde-Link aktivieren](email-settings.md#list-unsubscribe) muss auf der Ebene der Kanaloberfläche aktiviert sein, damit für E-Mails, die diese Oberfläche verwenden, die URL zum Abmelden mit einem Klick in die Kopfzeile der E-Mail aufgenommen wird.
+Der Umschalter [Liste-Abmeldung aktivieren](email-settings.md#list-unsubscribe) muss auf der Kanalkonfigurationsebene aktiviert sein, damit E-Mails, die diese Konfiguration verwenden, die URL zum Abmelden mit einem Klick in den E-Mail-Header aufnehmen.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Die URL zum Abmelden mit einem Klick zeigt beispielsweise in Gmail einen Abmelde
 ![](assets/unsubscribe-header.png)
 
 
-Mit Adobe Journey Optimizer können Sie die Einstellungen Ihrer E-Mail-Oberfläche mit einer automatisch generierten URL zum Abmelden mit einem Klick und der Mailto-Adresse in der Kopfzeile der E-Mail konfigurieren oder eine Ausschluss-URL mit einem Klick in Ihren E-Mail-Textkörper einfügen: Wenn eine Person auf den Link zum Abmelden mit einem Klick klickt, wird ihre Abmeldeanfrage entsprechend verarbeitet.
+Mit Adobe Journey Optimizer können Sie Ihre E-Mail-Konfigurationseinstellungen mit einer automatisch generierten 1-Klick-URL für die Abmeldung und die Postadresse im E-Mail-Header konfigurieren oder eine 1-Klick-Opt-out-URL in Ihren E-Mail-Textkörper einfügen: Wenn ein Empfänger auf den 1-Klick-Opt-out-Link klickt, wird die Abmeldeanforderung des Empfängers entsprechend verarbeitet.
 
 <!--
 >[!AVAILABILITY]
@@ -68,7 +68,7 @@ Mit Adobe Journey Optimizer können Sie die Einstellungen Ihrer E-Mail-Oberfläc
 >
 -->
 
-Je nach E-Mail-Client und den [Abmeldeeinstellungen der E-Mail-Oberfläche](email-settings.md#list-unsubscribe) hat das Klicken auf den Abmelde-Link in der Kopfzeile der E-Mail folgende Auswirkungen:
+Je nach E-Mail-Client und den Einstellungen zur Abmeldung der E-Mail-Konfiguration ](email-settings.md#list-unsubscribe) kann das Klicken auf den Abmelde-Link im E-Mail-Header folgende Auswirkungen haben:[
 
 * Wenn die Funktion **E-Mail an (abmelden)** aktiviert ist, wird die Abmeldeanfrage an die Standardadresse zur Abmeldung gesendet, die auf der von Ihnen erstellten Subdomain basiert.
 * Wenn die Funktion **URL zum Abmelden mit einem Klick** aktiviert ist – oder wenn Sie eine Abmelde-URL in den Inhalt Ihres E-Mail-Textkörpers eingefügt haben – werden Empfängerinnen und Empfänger direkt abgemeldet, und zwar entweder auf Kanalebene oder auf ID-Ebene (je nachdem, wie die Zustimmung eingerichtet wird), wenn sie auf die URL zum Abmelden mit einem Klick klicken, die auf der von Ihnen erstellten Subdomain basiert.
@@ -91,7 +91,7 @@ Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen Link zum Abme
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **[!UICONTROL Abmelde-Link aktivieren]** auf der [Ebene der Kanaloberfläche](email-settings.md#list-unsubscribe) aktiviert und die standardmäßige Option für die URL zum Abmelden mit einem Klick deaktiviert haben, wird diese URL verwendet, wenn Benutzende auf den Abmelde-Link in der Kopfzeile der E-Mail klicken. [Weitere Informationen](#unsubscribe-header)
+   >Wenn Sie die Option **[!UICONTROL List-Unsubscribe]** auf der [Kanalkonfigurationsebene](email-settings.md#list-unsubscribe) aktiviert haben und die standardmäßige URL-Option für das einmalige Abmelden deaktiviert ist, wird diese URL verwendet, wenn Benutzer auf den Link zum Abmelden im E-Mail-Header klicken. [Weitere Informationen](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 

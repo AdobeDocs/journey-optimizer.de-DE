@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Um eine API-ausgelöste Kampagne zu erstellen, gehen Sie wie folgt vor. Detailli
 
 1. Wählen Sie die Kategorie **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]** je nach dem Typ der Kommunikation aus, die Sie versenden möchten.
 
-1. Wählen Sie einen der unterstützten Kanäle und die zugehörige Kanaloberfläche aus, die zum Senden Ihrer Nachricht verwendet werden soll, und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie einen der unterstützten Kanäle und die zugehörige Kanalkonfiguration aus, die zum Senden der Nachricht verwendet werden sollen, und klicken Sie dann auf **[!UICONTROL Erstellen]** .
 
    ![](assets/api-triggered-type.png)
 

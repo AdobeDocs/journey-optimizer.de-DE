@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >* Erstellen einer Sandbox
 >* Konfigurieren von Benutzerberechtigungen
->* Konfigurieren von Journey Optimizer-Kanaloberflächen für E-Mail-, Push- und SMS-Benachrichtigungen
+>* Konfigurieren von Journey Optimizer-Kanalkonfigurationen für E-Mail-, Push- und SMS-Benachrichtigungen
 
 Anwendungsfall-Playbooks sind vordefinierte Workflows, die häufige Anwendungsfälle behandeln, die Sie mit Adobe Experience Platform und Journey Optimizer ausführen können.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -21,13 +21,13 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## August 2024 {#aug-2024}
 
-* Die Leistungsgarantien für die Entscheidungsverwaltung wurden aktualisiert und enthalten jetzt Informationen zu den Versanddurchsätzen von Decisioning-APIs mit/ohne Edge-Segmentierung. [Weitere Informationen](../start/guardrails.md#decision-management)
+* Die Performance-Schutzmechanismen für das Entscheidungs-Management wurden aktualisiert und enthalten jetzt Informationen zu den Versanddurchsätzen von Decisioning-APIs mit/ohne Edge-Segmentierung. [Weitere Informationen](../start/guardrails.md#decision-management)
 * Journey-Limits wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Juli 2024 {#july-2024}
 
-* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juli &#39;24 wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen, die mit der Version Juli 2024 von [!DNL Journey Optimizer] eingeführt werden, sind in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein Anwendungsfall für eine Personalisierung hinzugefügt, in dem beschrieben wird, wie eine E-Mail mit Informationen zu Gesundheitsplänen und Rezepte personalisiert werden kann. [Weitere Informationen](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Juni 2024 {#june-2024}
@@ -205,7 +205,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurde ein Hinweis hinzugefügt, dass Sie bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen müssen. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 * Erläuterungen dazu, wie sichergestellt werden kann, dass Ereignisse im Begrenzungszähler korrekt berücksichtigt werden, werden im Entscheidungs-Management-Abschnitt **Begrenzungsereignis** klargestellt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-event)
 * Es wurde ein neuer Abschnitt zur Seite **Ändern von Ausführungsadressen** hinzugefügt. Dort wird angegeben, dass das in den erweiterten Journey-Parametern festgelegte Ausführungsfeld global überschrieben werden kann. Das Überschreiben von E-Mail-Adressen sollte jedoch nur für bestimmte Anwendungsfälle verwendet werden. Meistens ist der Wert, der als primäre Adresse in den **Ausführungsfeldern** definiert ist, derjenige, der verwendet werden sollte. [Mehr dazu](../configuration/primary-email-addresses.md#journey-parameters)
-* Der Abschnitt **URL-Tracking** bietet nun die Liste und Beschreibung aller kontextbezogenen Attribute, die für das URL-Tracking auf einer E-Mail-Kanal-Oberfläche festgelegt werden können. [Weitere Informationen](../email/email-settings.md#url-tracking)
+* Der Abschnitt **URL-Tracking** enthält jetzt die Liste und Beschreibung aller kontextbezogenen Attribute, die in einer E-Mail-Kanalkonfiguration für das URL-Tracking festgelegt werden können. [Weitere Informationen](../email/email-settings.md#url-tracking)
 
 ## März 2023 {#march-2023}
 
@@ -296,7 +296,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Juli 2022 {#july-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juli &#39;22 wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Der Abschnitt **Kanaloberflächen einrichten** wurde präzisiert und mit Links zu der Seite aktualisiert, die beschreibt, wie der SMS-Kanal konfiguriert wird. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
+* Der Abschnitt **Einrichten von Kanalkonfigurationen** wurde geklärt und mit Links zur Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 * In den Journey-Eigenschaften ist die Option **Profil-Zeitzone** jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
 * In der Aktivität **Warten** ist die Option **Festes Datum** nicht mehr verfügbar. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Es wurden weitere Informationen über die Option **Inkrementelles Lesen** in der Aktivität **Zielgruppe lesen** hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey O
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
-Um auf die detaillierte Liste der zugelassenen E-Mail-Adressen und Domains zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und klicken Sie auf **[!UICONTROL Zulassungsliste]**.
+Um auf die detaillierte Liste der zulässigen E-Mail-Adressen und Domänen zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Zulassungsliste]** aus.
 
 ![](assets/allow-list-access.png)
 

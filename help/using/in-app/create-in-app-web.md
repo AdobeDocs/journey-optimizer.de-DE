@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
-workflow-type: ht
-source-wordcount: '760'
-ht-degree: 100%
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 93%
 
 ---
 
@@ -24,43 +24,19 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
 * Passen Sie Ihre Trigger an. Web-In-App-Nachrichten unterstützen zwei Arten von Triggern: „Daten an Platform gesendet“ und „Manuell“. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=de)
 
+* Erstellen Sie Ihre Web-In-App-Konfiguration. [Weitere Informationen](inapp-configuration.md)
+
 ## Erstellen einer Web-In-App-Nachrichtenkampagne {#create-inapp-web-campaign}
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Eigenschaften]** den Ausführungstyp der Kampagne aus: Geplant oder API-ausgelöst. Weitere Informationen zu Kampagnentypen finden Sie auf [dieser Seite](../campaigns/create-campaign.md#campaigntype).
+1. Wählen Sie den Ausführungstyp Ihrer Kampagne aus: Geplant oder API-ausgelöst. Weitere Informationen zu Kampagnentypen finden Sie auf [dieser Seite](../campaigns/create-campaign.md#campaigntype).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL In-App-Nachricht]** aus. Wählen Sie im Dropdown-Menü **[!UICONTROL Senden an]** die Option „Web“ aus.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Aktionen]** die **[!UICONTROL In-App-Nachricht]** aus.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Definieren Sie eine Mobile-App-Oberfläche. Sie haben zwei Möglichkeiten, Änderungen vorzunehmen:
-
-   * Sie können entweder eine **[!UICONTROL Seiten-URL]** eingeben, um Änderungen auf eine bestimmte Seite anzuwenden.
-
-   * Sie können eine Regel erstellen, um mehrere URLs, die demselben Muster entsprechen, als Ziel festzulegen.
-
-+++ Erstellen einer Regel zum Seitenabgleich
-
-      1. Wählen Sie unter „Mobile-App-Oberfläche“ die Option **[!UICONTROL Regel zum Seitenabgleich]** aus.
-      1. Klicken Sie auf **[!UICONTROL Regel erstellen]**.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. Definieren Sie im Fenster **[!UICONTROL Oberflächenregel bearbeiten]** die Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
-      1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
-
-         Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. Speichern Sie Ihre Änderungen. Die Regel wird auf dem Bildschirm **[!UICONTROL Kampagne erstellen]** angezeigt.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. Nachdem Sie die Mobile-App-Oberfläche ausgewählt und konfiguriert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie Ihre App-Konfiguration aus oder erstellen Sie sie. [Weitere Informationen](inapp-configuration.md#channel-prerequisites)
 
 ## Definieren der Web-In-App-Nachrichtenkampagne {#configure-inapp}
 
@@ -74,7 +50,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen in der ausgewählten Zielgruppe verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
-1. Im Menü **[!UICONTROL Aktion]** finden Sie die zuvor unter **[!UICONTROL Mobile-App-Oberfläche]** konfigurierten Einstellungen. Sie können hier bei Bedarf Änderungen vornehmen oder Ihre Regel aktualisieren, indem Sie auf **[!UICONTROL Regel bearbeiten]** klicken.
+1. Im Menü **[!UICONTROL Aktion]** finden Sie die Einstellungen, die zuvor als **[!UICONTROL App-Konfiguration]** konfiguriert wurden. Sie können hier bei Bedarf Änderungen vornehmen oder Ihre Regel aktualisieren, indem Sie auf **[!UICONTROL Regel bearbeiten]** klicken.
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen und Abwandlungen zu erstellen, deren Performance zu messen und die beste Option für Ihre Zielgruppe zu ermitteln. [Weitere Informationen](../content-management/content-experiment.md)
 

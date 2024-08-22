@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1820'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe stellt sicher, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die 
 
 Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegieren:
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]** auf und klicken Sie dann auf **[!UICONTROL Subdomain einrichten]** .
 
    ![](assets/subdomain-delegate.png)
 
@@ -137,7 +137,7 @@ Mit der Einrichtung einer CNAME-Subdomain können Sie eine Subdomain erstellen u
 
 Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte aus:
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]** auf und klicken Sie dann auf **[!UICONTROL Subdomain einrichten]** .
 
 1. Wählen Sie die Methode **[!UICONTROL CNAME-Einrichtung]** aus.
 

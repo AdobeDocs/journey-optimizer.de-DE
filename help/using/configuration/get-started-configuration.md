@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Um Journeys zu erstellen und Nachrichten zu versenden, müssen Sie die folgenden
 
    * Für den **SMS**-Kanal müssen Sie Ihre Instanz so konfigurieren, dass SMS gesendet werden, einschließlich der Integration der Provider-Einstellungen in [!DNL Journey Optimizer]. [Weitere Informationen](../sms/sms-configuration.md)
 
-1. Anschließend müssen Sie **Kanaloberflächen** erstellen, um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Weitere Informationen](channel-surfaces.md)
+1. Anschließend müssen Sie **Kanalkonfigurationen** erstellen, um alle technischen Parameter zu konfigurieren, die zum Senden von Nachrichten erforderlich sind. [Weitere Informationen](channel-surfaces.md)
 
 1. Alternativ können Sie auch folgendermaßen vorgehen:
 

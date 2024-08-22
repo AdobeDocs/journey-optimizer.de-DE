@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '681'
+ht-degree: 77%
 
 ---
 
@@ -110,3 +110,49 @@ ht-degree: 100%
 
    ![](assets/configure_web_inapp_14.png)
 
+## In-App-Webkonfiguration erstellen {#in-app-config}
+
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+
+   ![](assets/in-app-web-config-1.png)
+
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Konfiguration ein und wählen Sie dann den zu konfigurierenden Kanal aus.
+
+   >[!NOTE]
+   >
+   > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
+
+1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+
+1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+
+1. Wählen Sie den Kanal **In-App-Messaging** aus.
+
+1. Definieren Sie eine App-Konfiguration. Sie haben zwei Möglichkeiten, Änderungen vorzunehmen:
+
+   * Sie können entweder eine **[!UICONTROL Seiten-URL]** eingeben, um Änderungen auf eine bestimmte Seite anzuwenden.
+
+   * Sie können eine Regel erstellen, um mehrere URLs, die demselben Muster entsprechen, als Ziel festzulegen.
+
++++ Erstellen einer Regel zum Seitenabgleich
+
+      1. Wählen Sie **[!UICONTROL Seiten, die der Regel entsprechen]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
+
+      1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** Ihre Kriterien für die Felder **[!UICONTROL Domäne]** und **[!UICONTROL Seite]** .
+      1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
+
+         Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. Klicken Sie auf **[!UICONTROL Hinzufügen einer weiteren Seitenregel]** , um bei Bedarf eine weitere Regel zu erstellen.
+
+      1. Wählen Sie die **[!UICONTROL Standard-Authoring- und Vorschau-URL]** aus.
+
+      1. Speichern Sie Ihre Änderungen. Die Regel wird auf dem Bildschirm **[!UICONTROL Kampagne erstellen]** angezeigt.
+
++++
+
+1. Senden Sie Ihre In-App-Web-Konfiguration.
+
+Jetzt können Sie [ eine Web-In-App-Nachricht erstellen](../in-app/create-in-app-web.md) in einer Kampagne.

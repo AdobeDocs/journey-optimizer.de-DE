@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 100%
+source-wordcount: '1083'
+ht-degree: 91%
 
 ---
 
@@ -23,21 +23,21 @@ Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Schutzmechani
 
 Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch eine Kampagne zu erstellen.
 
-1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
+1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie dann auf **[!UICONTROL Kampagne erstellen]**. [Weitere Informationen](../campaigns/create-campaign.md)
+
+1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
+
+   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketingnachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+
+   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-gesteuerte Kampagnen zielen darauf ab, entweder Marketing- oder Transaktionsnachrichten zu senden, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Kennwortrücksetzung, Warenkorbkauf usw.
+
+1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. Wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus.
 
-1. Geben Sie die Oberfläche des Code-basierten Erlebnisses ein. [Weitere Informationen](#surface-definition)
+1. Wählen oder erstellen Sie die code-basierte Erlebniskonfiguration. [Weitere Informationen](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >Stellen Sie sicher, dass der in Ihrer Code-basierten Kampagne verwendete Oberflächen-URI mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt. Andernfalls werden die Änderungen nicht bereitgestellt.
-
-1. Wählen Sie **[!UICONTROL Erstellen]** aus.
-
-1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. Bearbeiten Sie den Inhalt wie gewünscht mit dem Personalisierungseditor. [Weitere Informationen](#edit-code)
 
@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
-Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die ausgewählte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
+Sobald Ihr Entwickler nun einen API- oder SDK-Aufruf startet, um Inhalte für die in Ihrer Kanalkonfiguration definierte Oberfläche abzurufen, werden die Änderungen auf Ihre Web-Seite oder App angewendet.
 
 ## Testen der Code-basierten Kampagne {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ Sobald Sie Ihre Code-basierte Kampagne definiert und Ihren Inhalt wie gewünscht
 
    ![](assets/code-based-campaign-review.png)
 
-1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Zielgruppe und Zeitplan.
+1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Konfiguration, Zielgruppe und Zeitplan.
 
 1. Wählen Sie **[!UICONTROL Aktivieren]** aus.
 

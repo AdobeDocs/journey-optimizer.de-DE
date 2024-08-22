@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, Quarantäne
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey O
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
 
-Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domains zuzugreifen, wechseln Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]**, und wählen Sie **[!UICONTROL Unterdrückungsliste]**.
+Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domänen zuzugreifen, navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Unterdrückungsliste]** aus.
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ Die Unterdrückungskategorien lauten wie folgt:
 * **Manuell**: Manuelle Fehler wurden manuell zur Unterdrückungsliste hinzugefügt. [Weitere Informationen](#add-addresses-and-domains)
 
 Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Typ]** (E-Mail oder Domain), den **[!UICONTROL Grund]**, der zum Ausschluss führte, die Person, die die E-Mail-Adresse zur Unterdrückungsliste hinzufügte, und das Datum mit Uhrzeit, zu dem die Adresse der Unterdrückungsliste hinzugefügt wurde, überprüfen.
-
-![](assets/suppression-list.png)
 
 Mögliche Ursachen für einen fehlgeschlagenen Versand sind:
 
@@ -230,8 +228,6 @@ Um diese Adressen abzurufen, führen Sie eine spezielle Abfrage mit benutzerdefi
 
 Sobald die betroffenen E-Mail-Adressen identifiziert sind, filtern Sie die Unterdrückungsliste, um sie anzuzeigen. Wenn zum Beispiel ein ISP-Ausfall vom 11. November 2022 bis zum 13. November 2022 auf der Domain **test.com** stattgefunden hat, filtern Sie die Adressen, die in diesem Zeitraum zur Unterdrückungsliste hinzugefügt wurden, wie unten dargestellt:
 
-![](assets/remove-from-supp-list.png)
-
 Sie können dann die unter Quarantäne gestellten E-Mail-Adressen über die Schaltfläche **[!UICONTROL Löschen]** aus der Unterdrückungsliste entfernen.
 
 ## Herunterladen der Unterdrückungsliste {#download-suppression-list}
@@ -250,8 +246,6 @@ Gehen Sie wie folgt vor, um die Unterdrückungsliste als CSV-Datei zu exportiere
    ![](assets/suppression-list-download-csv.png)
 
 1. Warten Sie, bis die Datei generiert wurde.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

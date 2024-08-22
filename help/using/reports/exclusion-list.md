@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 100%
 | DomainNotAllowed | 050106 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die Zulassungsliste aktiviert ist und die Domain der angeschriebenen E-Mail-Adresse von der Zulassungsliste ausgeschlossen ist. |
 | EmailNoSubscriberIdFoundInProfile | 050025 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die Abonnenten-ID im Profil einer Abonnement-E-Mail nicht gefunden wird. |
 | EmailNoAddressFoundInProfile | 050020 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die E-Mail-Adresse in der Ausführungsadresse nicht gefunden wird. |
-| EmailNoAddressDefinedInPreset | 050021 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die Ausführungsadresse in der Oberfläche nicht definiert ist. |
+| EmailNoAddressDefinedInPreset | 050021 | E-Mail | Wenn die Ausführungsadresse in der Konfiguration nicht definiert ist, wird ein Ausschlussereignis generiert. |
 | EmailNoVariantDefined | 050026 | E-Mail | Ein Ausschlussereignis wird generiert, wenn in der E-Mail-Nachricht keine Variante definiert ist. |
 | EmailNoMessageFoundForTreatment | 050027 | E-Mail | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | EmailMalformedAddress | 050024 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die E-Mail eine fehlerhafte Adresse enthält. |
 | InAppNoVariantDefined | 050041 | InApp | Ein Ausschlussereignis wird generiert, wenn für In-App-Nachrichten keine Variante definiert ist. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | PushNoTokenFoundInProfile | 050030 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn das Profil keine Push-Token aufweist. |
-| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn auf der Oberfläche kein gültiges Token für die Zielanwendungen gefunden wird. |
+| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn in der Konfiguration für die zielgerichteten Apps kein gültiges Token gefunden wird. |
 | PushMalformedProfile | 050034 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn pushNotificationDetails im Profil fehlerhaft ist. |
 | PushNoConsent | 050111 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Person sich von Marketing-Push-Benachrichtigungen abgemeldet hat. |
-| PushNoApplicationDefinedInPreset | 050033 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Oberfläche keine Zielanwendung enthält. |
+| PushNoApplicationDefinedInPreset | 050033 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Konfiguration keine Anwendung für das Targeting enthält. |
 | PushNoVariantDefined | 050035 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn keine Variante definiert ist. |
 | PushNoMessageFoundForTreatment | 050036 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | SMSNoConsent | 050104 | SMS | Ein Ausschlussereignis wird generiert, wenn sich der Benutzer von Marketing-SMS abgemeldet hat. |
-| SMSFromNumberNotDefinedInPreset | 050152 | SMS | Ein Ausschlussereignis wird generiert, wenn „FromNumber“ nicht in der Oberfläche definiert ist. |
-| SMSNoToNumberDefinedInProfile | 050153 | SMS | Ein Ausschlussereignis wird generiert, wenn „ToNumber“ nicht in der Oberfläche definiert ist. |
+| SMSFromNumberNotDefinedInPreset | 050152 | SMS | Ein Ausschlussereignis wird generiert, wenn &quot;FromNumber&quot;nicht in der Konfiguration definiert ist. |
+| SMSNoToNumberDefinedInProfile | 050153 | SMS | Ein Ausschlussereignis wird generiert, wenn &quot;ToNumber&quot;nicht in der Konfiguration definiert ist. |
 | SMSNoVariantDefined | 050154 | SMS | Ein Ausschlussereignis wird generiert, wenn keine Variante definiert ist. |
 | SMSNoMessageFoundForTreatment | 050155 | SMS | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | WebNoVariantDefined | 050041 | Web | Ein Ausschlussereignis wird generiert, wenn für eine Web-Nachricht keine Variante definiert ist. |
