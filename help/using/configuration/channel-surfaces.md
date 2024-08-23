@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 38%
+source-wordcount: '1721'
+ht-degree: 37%
 
 ---
 
@@ -37,6 +37,8 @@ Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (d. h. Nachrichten
 > * Sie müssen die Schritte [E-Mail-Konfiguration](../email/get-started-email-config.md), [Push-Konfiguration](../push/push-configuration.md), [SMS-Konfiguration](../sms/sms-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierte Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Briefpost-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen, bevor Sie Kanalkonfigurationen erstellen.
 
 Sobald die Kanalkonfigurationen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus einer Journey oder einer Kampagne auswählen.
+
+Sie können auch die Einrichtung geführter Kanäle verwenden, um die Kanaleinrichtung in einem einheitlichen Erlebnis zu automatisieren und zu validieren und so die ersten Schritte mit Journey Optimizer zu beschleunigen. [Weitere Informationen](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
