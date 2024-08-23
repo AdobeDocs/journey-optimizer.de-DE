@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Dieses iOS-Setup vereinfacht die schnelle Konfiguration von Marketing-Kanälen, 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Hinzufügen von Initialisierungs-Code"
->abstract="TBC"
+>abstract="Um Ihre App ordnungsgemäß zu initialisieren, fügen Sie den bereitgestellten Initialisierungscode in die Methode **didFinishLaunchingWithOptions** Ihrer AppDelegate-Datei ein. Dadurch wird sichergestellt, dass sie zum richtigen Zeitpunkt während des Startvorgangs der App ausgeführt wird."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
