@@ -1,21 +1,21 @@
 ---
-title: Entscheidungselement nachschlagen
+title: Nachschlagen eines Entscheidungselements
 description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
-# Entscheidungselement nachschlagen {#lookup-decision-items}
+# Nachschlagen eines Entscheidungselements {#lookup-decision-items}
 
-Um nach bestimmten Entscheidungselementen zu suchen, senden Sie eine GET-Anfrage an die Angebotsbibliothek-API, die die ID im Anfragepfad enthält.
+Um nach bestimmten Entscheidungselementen zu suchen, stellen Sie eine GET-Anfrage an die Angebotsbibliothek-API, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -42,7 +42,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234' 
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details des Entscheidungselements zurück.
+Bei einer erfolgreichen Antwort werden die Details des Entscheidungselements zurückgegeben.
 
 ```json
 {

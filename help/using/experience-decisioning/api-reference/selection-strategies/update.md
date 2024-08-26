@@ -1,19 +1,19 @@
 ---
 title: Aktualisieren von Auswahlstrategien
-description: Auswahlstrategien bestehen aus Kollektionen, die mit Begrenzungen und Rangmethoden zur Bestimmung von Angeboten verknüpft sind.
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 
-# Auswahlstrategie aktualisieren {#update-selection-strategy}
+# Aktualisieren einer Auswahlstrategie {#update-selection-strategy}
 
 Sie können eine Auswahlstrategie ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
@@ -57,7 +57,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/selection-strategies/sele
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 

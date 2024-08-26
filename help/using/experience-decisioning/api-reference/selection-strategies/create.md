@@ -1,14 +1,14 @@
 ---
 title: Erstellen einer Auswahlstrategie
-description: Auswahlstrategien bestehen aus Kollektionen, die mit Begrenzungen und Rangmethoden zur Bestimmung von Angeboten verknüpft sind.
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/selection-strategies' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der neu erstellten Auswahlstrategie einschließlich der ID zurück. Sie können die ID in späteren Schritten verwenden, um Ihre Auswahlstrategie zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten Auswahlstrategie zurückgegeben, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihre Auswahlstrategie zu aktualisieren oder zu löschen.
 
 ```json
 {

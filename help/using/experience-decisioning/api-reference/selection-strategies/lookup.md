@@ -1,21 +1,21 @@
 ---
-title: Auswahlstrategie nachschlagen
-description: Auswahlstrategien bestehen aus Kollektionen, die mit Begrenzungen und Rangmethoden zur Bestimmung von Angeboten verknüpft sind.
+title: Nachschlagen einer Auswahlstrategie
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
-# Auswahlstrategie nachschlagen {#list-selection-strategy}
+# Nachschlagen einer Auswahlstrategie {#list-selection-strategy}
 
-Sie können eine bestimmte Auswahlstrategie nachschlagen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
+Sie können nach einer bestimmten Auswahlstrategie suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/selection-strategies/select
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der Auswahlstrategie zurück.
+Bei einer erfolgreichen Antwort werden die Details der Auswahlstrategie zurückgegeben.
 
 ```json
 {

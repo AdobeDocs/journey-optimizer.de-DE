@@ -1,19 +1,19 @@
 ---
-title: Entscheidungselement aktualisieren
+title: Aktualisieren eines Entscheidungselements
 description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
-# Entscheidungselement aktualisieren {#update-decision-items}
+# Aktualisieren eines Entscheidungselements {#update-decision-items}
 
 Sie können ein Entscheidungselement ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
@@ -58,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Die Art des auszuführenden Vorgangs. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Die Art des auszuführenden Vorgangs. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details des aktualisierten Elements zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details des aktualisierten Elements, einschließlich der ID, zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen. 
 
 ```json
 {

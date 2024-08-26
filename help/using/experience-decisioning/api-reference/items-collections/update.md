@@ -1,14 +1,14 @@
 ---
 title: Aktualisieren einer Elementsammlung
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+description: Sammlungen sind Teilmengen von Angeboten, die auf von Marketing-Fachleuten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Elementsammlung zurück, einschließlich der `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Elementsammlung zurückgegeben, einschließlich der `id`.
 
 ```json
 {

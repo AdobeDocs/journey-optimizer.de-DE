@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
 # Löschen einer Elementsammlung {#delete-decision-item}
 
-Gelegentlich kann es erforderlich sein, eine Artikelsammlung zu entfernen (DELETE). Dies geschieht, indem Sie mit der ID der Elementsammlung, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API richten.
+Gelegentlich kann es erforderlich sein, eine Elementsammlung zu entfernen (DELETE). Führen Sie dazu mithilfe der ID der Elementsammlung, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API aus.
 
 **API-Format**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/item-collections/itemCol
 
 Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für die Elementerfassung ausführen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da die Artikelsammlung entfernt wurde.
+Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für die Elementsammlung ausführen. Sie sollten einen HTTP-Status 404 (Nicht gefunden) erhalten, da die Elementsammlung entfernt wurde.

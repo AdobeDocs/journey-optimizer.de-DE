@@ -1,23 +1,23 @@
 ---
-title: Entscheidungselemente auflisten
+title: Auflisten von Entscheidungselementen
 description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# Entscheidungselemente auflisten {#list-decision-items}
+# Auflisten von Entscheidungselementen {#list-decision-items}
 
 Mit Journey Optimizer können Sie Marketing-Angebote erstellen, die als Entscheidungselemente bezeichnet werden, und in einem zentralen Katalog und in Sammlungen organisieren. Sie bestehen aus standardmäßigen und benutzerdefinierten Attributen, die genau auf Ihre Bedürfnisse abgestimmt sind. Darüber hinaus enthalten sie Profileinschränkungen, mit denen Sie definieren können, wem ein Entscheidungselement angezeigt werden kann.
 
-Sie können eine Liste aller Entscheidungselemente anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliothek-API richten.
+Durch Ausführen einer einzelnen GET-Anfrage an die Angebotsbibliothek-API können Sie eine Liste aller Entscheidungselemente anzeigen.
 
 **API-Format**
 
@@ -58,7 +58,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Angebotselementen zurück, auf die Sie Zugriff haben. Der Knoten `_<imsOrg>` enthält benutzerdefinierte Entscheidungselemente.
+Bei einer erfolgreichen Antwort wird eine Liste von Angebotselementen zurückgegeben, auf die Sie Zugriff haben. Der Knoten `_<imsOrg>` enthält benutzerdefinierte Entscheidungselement-Attribute.
 
 ```json
 {

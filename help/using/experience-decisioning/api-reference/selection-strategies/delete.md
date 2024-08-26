@@ -1,21 +1,21 @@
 ---
 title: Löschen einer Auswahlstrategie
-description: Auswahlstrategien bestehen aus Kollektionen, die mit Begrenzungen und Rangmethoden zur Bestimmung von Angeboten verknüpft sind.
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
 
 # Löschen einer Auswahlstrategie {#delete-selection-strategy}
 
-Gelegentlich kann es erforderlich sein, eine Auswahlstrategie zu entfernen (DELETE). Dies geschieht, indem Sie mithilfe der ID der Auswahlstrategie, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API richten.
+Gelegentlich kann es erforderlich sein, eine Auswahlstrategie zu entfernen (DELETE). Führen Sie dazu mithilfe der ID der Auswahlstrategie, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliotheks-API aus.
 
 **API-Format**
 

@@ -1,23 +1,23 @@
 ---
-title: Auswahlstrategien auflisten
-description: Auswahlstrategien bestehen aus Kollektionen, die mit Begrenzungen und Rangmethoden zur Bestimmung von Angeboten verknüpft sind.
+title: Liste von Auswahlstrategien
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 
-# Auswahlstrategien auflisten {#list-selection-strategies}
+# Liste von Auswahlstrategien {#list-selection-strategies}
 
-Eine Auswahlstrategie besteht aus einer Kollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der bestimmt wird, welche Angebote angezeigt werden sollen, wenn sie in einer [Entscheidungsrichtlinie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision) ausgewählt werden.
+Eine Auswahlstrategie setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer [Entscheidungsrichtlinie](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision) ausgewählt sind.
 
-Sie können eine Liste aller Auswahlstrategien anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliothek-API richten.
+Durch Ausführung einer einzelnen GET-Anfrage an die Angebotsbibliothek-API können Sie eine Liste aller Auswahlstrategien anzeigen.
 
 **API-Format**
 
@@ -57,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/selection-strategies?limit=
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Auswahlstrategien zurück, auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Auswahlstrategien zurückgegeben, auf die Sie Zugriff haben.
 
 ```json
 {

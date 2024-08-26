@@ -1,21 +1,21 @@
 ---
-title: Suchen nach einer Elementsammlung
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Nachschlagen einer Elementsammlung
+description: Sammlungen sind Teilmengen von Angeboten, die auf von Marketing-Fachleuten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 
-# Suchen nach einer Elementsammlung {#lookup-item-collection}
+# Nachschlagen einer Elementsammlung {#lookup-item-collection}
 
-Sie können nach einer bestimmten Elementerfassung suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
+Sie können nach einer bestimmten Elementsammlung suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/item-collections/itemCollec
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der Elementkollektionen zurück.
+Eine erfolgreiche Antwort gibt die Details der Elementsammlungen zurück.
 
 ```json
 {

@@ -1,23 +1,23 @@
 ---
-title: Listenelementkollektionen
-description: Mit Sammlungen können Sie Entscheidungselemente nach Ihren Voreinstellungen kategorisieren und gruppieren.
+title: Liste von Elementsammlungen
+description: Mit Sammlungen können Entscheidungselemente nach Ihren eigenen Vorstellungen kategorisiert und gruppiert werden.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
-# Listenelementkollektionen {#list-decision-items}
+# Liste von Elementsammlungen {#list-decision-items}
 
-Sammlungen, auch als Artikelkollektionen bezeichnet, ermöglichen es Ihnen, Ihre Entscheidungselemente nach Ihren Voreinstellungen zu kategorisieren und zu gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen.
+Mit Sammlungen, auch Elementsammlungen genannt, können Entscheidungselemente nach Ihren eigenen Vorstellungen kategorisiert und gruppiert werden. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen.
 
-Sie können eine Liste aller Elementkollektionen anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliothek-API richten.
+Durch Ausführung einer einzelnen GET-Anfrage an die Angebotsbibliothek-API können Sie eine Liste aller Elementsammlungen anzeigen.
 
 **API-Format**
 
@@ -57,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/item-collections?limit=2' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Elementkollektionen zurück, auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Elementsammlungen zurückgegeben, auf die Sie Zugriff haben.
 
 ```json
 {
