@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -102,7 +102,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage-Benutzerdefinierte Aktion</strong><br/></th>
+<th><strong>Benutzerdefinierte Marketo Engage-Aktion</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Globale Fragmentvariablen verbessern die vorhandene Fragmentfunktion, um die Wiederverwendbarkeit und Skripterstellung von Inhalten zu verbessern. Fragmente können jetzt Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können. Fragmente können Eingabevariablen verwenden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um Ihren Nachrichteninhalt und Ihre Nachrichtenparameter in Ihren Kampagnen und Journey zu personalisieren.</p>
+<p>Globale Fragmentvariablen verbessern die vorhandene Fragmentfunktion, um die Wiederverwendbarkeit und Skripterstellung von Inhalten zu verbessern. Fragmente können jetzt Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können. Fragmente können Eingabevariablen verwenden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um die Inhalte und Parameter der Nachrichten in Ihren Kampagnen und Journeys zu personalisieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/use-expression-fragments.md">ausführlichen Dokumentation</a>.</p>
 </p>
 </td>
@@ -152,12 +152,12 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 ### Verbesserungen {#8-improvements}
 
-Diese Version bringt die unten aufgeführten Verbesserungen.
+Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* In der Aktivität **Bedingung** wird die **[!UICONTROL Zeitbedingung]** standardmäßig nach Stunde (von 00:00 bis 12:00 Uhr) festgelegt. [Weitere Informationen](../building-journeys/condition-activity.md#time_condition)
-* Beim Erstellen Ihrer Journey werden Warnhinweise jetzt über die Schaltfläche **Warnhinweise** angezeigt, um sie mit anderen Warnhinweisen abzustimmen und ein einheitliches Benutzererlebnis zu gewährleisten. [Weitere Informationen](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* In der Aktivität **Bedingung** wird die **[!UICONTROL Zeitbedingung]** standardmäßig nach Stunde (von 00:00 bis 12:00 Uhr) festgelegt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
+* Beim Erstellen Ihrer Journey werden Warnhinweise jetzt über die Schaltfläche **Warnhinweise** angezeigt, um sie mit anderen Warnhinweisen abzustimmen und ein einheitliches Benutzererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar und Sie können den Zoom-Wert jetzt einfacher zurücksetzen.
 
 <!--**Audiences and Profiles**-->

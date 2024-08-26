@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Fragmente können jetzt Eingabevariablen verwenden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um Ihren Nachrichteninhalt und Ihre Nachrichtenparameter in Ihren Kampagnen und Journey zu personalisieren.</p>
+<p>In Fragmenten können jetzt Eingabevariablen verwendet werden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um die Inhalte und Parameter der Nachrichten in Ihren Kampagnen und Journeys zu personalisieren.</p>
 </p>
 </td>
 </tr>
@@ -85,13 +85,13 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Journeys**
 
 * In der Aktivität **Bedingung** ist die Bedingung „Zeit“ jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00 Uhr. [Weitere Informationen](../building-journeys/condition-activity.md#time_condition)
-* Beim Erstellen Ihrer Journey werden Warnhinweise jetzt in einer Dropdown-Liste angezeigt, um sie mit Kampagnenwarnungen abzustimmen und ein einheitliches Benutzererlebnis zu gewährleisten. [Weitere Informationen](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar und Sie können den Zoomwert jetzt einfach auf 100 % zurücksetzen.
+* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt in einer Dropdown-Liste angezeigt, um sie mit Kampagnenwarnungen abzugleichen und ein einheitliches Benutzererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar, und der Zoom-Wert kann leicht auf 100 % zurückgesetzt werden.
 
 **Zielgruppen**
 
 * Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit Privacy und Security Shield zur Verfügung.
-* Beim Targeting einer benutzerdefinierten Upload-Zielgruppe (CSV-Datei) können Sie jetzt Attribute aus der Datei in Ihren Kampagnen und Journey verwenden. Diese Attribute sind im Personalisierungseditor verfügbar, um Ihre Nachrichten zu personalisieren, sowie im erweiterten Ausdruckseditor von Journey.
+* Beim Targeting einer benutzerdefinierten Upload-Zielgruppe (CSV-Datei) können Sie jetzt Attribute aus der Datei in Ihren Kampagnen und Journeys verwenden. Diese Attribute sind im Personalisierungseditor verfügbar, um Ihre Nachrichten zu personalisieren, sowie im erweiterten Journey-Ausdruckseditor.
 
 
 <!--

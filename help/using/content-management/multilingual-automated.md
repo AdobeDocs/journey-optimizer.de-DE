@@ -13,7 +13,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1328'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -203,11 +203,11 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
 Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagnen in den Berichten ermitteln.
 
-## Verwalten des Übersetzungsprojekts &quot;Insourcing&quot; {#manage-ht-project}
+## Verwalten eines Insourcing-Übersetzungsprojekts {#manage-ht-project}
 
-Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen &quot;Insourcing&quot;ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
+Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option „Insourcing“ ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
 
-1. Rufen Sie im Menü **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Mehr Aktionen]** auf und wählen Sie **[!UICONTROL Insourcing]** aus.
+1. Rufen Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Weitere Aktionen]** auf und wählen Sie **[!UICONTROL Insourcing]**.
 
    ![](assets/inhouse-translation-1.png)
 

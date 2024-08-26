@@ -22,7 +22,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## August 2024 {#aug-2024}
 
 * Die Performance-Schutzmechanismen für das Entscheidungs-Management wurden aktualisiert und enthalten jetzt Informationen zu den Versanddurchsätzen von Decisioning-APIs mit/ohne Edge-Segmentierung. [Weitere Informationen](../start/guardrails.md#decision-management)
-* Journey-Limits wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+* Journey-Leitlinien wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Juli 2024 {#july-2024}
