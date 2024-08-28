@@ -10,10 +10,10 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '479'
+ht-degree: 14%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript-Code"
->abstract="Das Tag `<head>` enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Webseite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er frühzeitig initialisiert und ausgeführt wird, sodass Ihre Webseite effizient geladen und funktioniert. Durch Hinzufügen von Code zum Abschnitt `<head>` können Sie die Struktur, die Leistung und das gesamte Benutzererlebnis Ihrer Site verbessern."
+>abstract="Die Menüauswahlmöglichkeiten für die  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> -Tag enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Webseite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er frühzeitig initialisiert und ausgeführt wird, sodass Ihre Webseite effizient geladen und funktioniert. Durch Hinzufügen von Code zum <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> können Sie die Struktur, Leistung und das gesamte Benutzererlebnis Ihrer Site verbessern."
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Starten und Validieren einer Website"
->abstract="Nachdem der Code erfolgreich implementiert wurde und auf Ihrer Website live ist, geben Sie Ihre Basis-URL an. Bei Bedarf können Sie zu einem späteren Zeitpunkt zu dieser Seite zurückkehren, um zu überprüfen, ob die Einrichtung erwartungsgemäß funktioniert."
-
-Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam sofort mit der Erstellung von Kampagnen und Journey beginnen.
+Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
 ## Neue Webeinrichtung erstellen {#new-setup}
 

@@ -10,10 +10,10 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 10%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Mit Assurance validieren"
->abstract="Stellen Sie die Qualität der Datenerfassung und des Benutzererlebnisses Ihrer mobilen App mit Assurance sicher. Dieses Tool bietet eine gründliche Analyse, Validierung und Optimierung. Darüber hinaus können Sie Ihre App direkt verbinden, um die genaue SDK-Integration zu überprüfen."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Siehe Zuverlässigkeitsdokumentation"
+>abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und überprüfen können."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Überblick über die Adobe Experience Platform-Assetbildung"
 
 
-Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam sofort mit der Erstellung von Kampagnen und Journey beginnen.
+Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
 Um dies effektiv zu implementieren, ist es wichtig, dass ein Mitglied der Organisation mit der Befugnis und technischen Fähigkeit, Website- oder Mobilcode zu ändern, die Einrichtung überwacht.
 

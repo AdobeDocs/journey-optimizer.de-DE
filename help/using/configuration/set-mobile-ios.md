@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '958'
 ht-degree: 5%
 
 ---
@@ -29,23 +29,6 @@ ht-degree: 5%
 Dieses iOS-Setup vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Experience Platform-, Journey Optimizer- und Datenerfassungs-Apps verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journey beginnen.
 
 ## Erstellen eines neuen iOS-Setups {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Hinzufügen von Abhängigkeiten"
->abstract="Fügen Sie in Xcode das Assurance-Paket hinzu, um die Datenerfassung und Erlebnisse in Ihrer App zu überprüfen, zu testen, zu simulieren und zu überprüfen. Fügen Sie außerdem AEP Messaging hinzu, um Push-Benachrichtigungstoken und Clickthrough-Feedback an Adobe Experience Platform zu senden."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="Siehe Datenerfassungsdokumentation"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="Hinzufügen von Initialisierungs-Code"
->abstract="Um Ihre App ordnungsgemäß zu initialisieren, fügen Sie den bereitgestellten Initialisierungscode in die Methode **didFinishLaunchingWithOptions** Ihrer AppDelegate-Datei ein. Dadurch wird sichergestellt, dass sie zum richtigen Zeitpunkt während des Startvorgangs der App ausgeführt wird."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Importieren von Abhängigkeiten"
->abstract="Importieren Sie in der Klasse **AppDelegate** Ihrer Anwendung die folgenden Abhängigkeiten: AEPCore, AEPAsurance, AEPEdge, AEPEdgeIdentity und AGPessaging."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="Siehe Datenerfassungsdokumentation"
 
 1. Klicken Sie auf der Journey Optimizer-Homepage auf **[!UICONTROL Starten]** auf der Karte **[!UICONTROL Mobil- und Webkanäle einrichten]** .
 
