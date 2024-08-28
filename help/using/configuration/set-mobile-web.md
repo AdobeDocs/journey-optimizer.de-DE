@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
+source-git-commit: 7a1f337e2bc257d8f0fa9bda17abdaff92a86de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '481'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript-Code"
->abstract="Die Menüauswahlmöglichkeiten für die  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> -Tag enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Webseite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er frühzeitig initialisiert und ausgeführt wird, sodass Ihre Webseite effizient geladen und funktioniert. Durch Hinzufügen von Code zum <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> können Sie die Struktur, Leistung und das gesamte Benutzererlebnis Ihrer Site verbessern."
+>abstract="Das head -Tag enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Webseite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er frühzeitig initialisiert und ausgeführt wird, sodass Ihre Webseite effizient geladen und funktioniert. Durch Hinzufügen von Code zum Kopfabschnitt können Sie die Struktur, die Leistung und das gesamte Benutzererlebnis Ihrer Site verbessern."
 
 Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
