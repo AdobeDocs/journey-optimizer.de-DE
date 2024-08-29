@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 63%
+source-wordcount: '665'
+ht-degree: 59%
 
 ---
 
@@ -177,3 +177,11 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * Die aktuelle Berichtserfahrung wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Berichtserlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionen vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
 
 [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
+
+* Neue Anwendungsfälle wurden zum neuen Berichtserlebnis hinzugefügt:
+
+   * Erstellen Sie benutzerdefinierte berechnete Metriken direkt in Ihren Berichten.
+   * Erstellen einer Zielgruppe aus Berichtsdaten.
+   * Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen.
+
+  Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../reports/report-cja-manage.md).
