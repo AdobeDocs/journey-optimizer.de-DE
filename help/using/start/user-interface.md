@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1376'
 ht-degree: 98%
 
 ---
@@ -194,3 +194,14 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorität"
+>abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Journeys dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höheren Prioritätswert aus. Wenn die Journeys den gleichen Wert aufweisen, wird die Journey ausgewählt, die zuletzt geändert wurde."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorität"
+>abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit dem höheren Prioritätswert aus. Wenn die Kampagnen den gleichen Wert aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
