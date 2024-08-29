@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 45%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 45%
 >id="ajo_admin_default_mobile_url"
 >title="Standard-Authoring- und Vorschau-URL"
 >abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder übereinstimmenden Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="Standard-Authoring- und Vorschau-URL"
+>abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder übereinstimmenden Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="Vorschau-URL"
+>abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts direkt auf Ihrem Gerät in Ihrer Anwendung erforderlich."
 
 ## Erstellen einer Kanalkonfiguration {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    * Geben Sie Ihre **[!UICONTROL App-ID]** und Ihren **[!UICONTROL Standort oder Pfad innerhalb der App]** ein.
 
+     ![](assets/code_config_3.png)
+
 1. Wählen Sie Sonstige als Plattform aus, wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder wenn Sie bestimmte URIs als Ziel auswählen müssen. Wenn Sie mehrere Plattformen auswählen oder mehrere URIs hinzufügen, wird der Inhalt für alle ausgewählten Seiten oder Apps bereitgestellt.
 
    * Geben Sie den **[!UICONTROL Oberflächen-URI]** ein.
@@ -75,6 +87,35 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
    >[!CAUTION]
    >
    >Stellen Sie sicher, dass der in Ihrer Code-basierten Kampagne verwendete Oberflächen-URI mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt. Andernfalls werden die Änderungen nicht bereitgestellt.
+
+1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen einer Vorschau verwendet werden soll.
+
+   * Für Web:
+
+      * Wenn eine einseitige URL eingegeben wird, wird diese URL für die Vorschau verwendet.
+      * Wenn eine Seitenübereinstimmungsregel ausgewählt ist, müssen Sie eine Standard-Vorschau-URL eingeben, die zur Vorschau des Erlebnisses im Browser verwendet wird.
+
+   * Für mobile Plattformen (iOS/Android):
+
+      * Vorschau-URL ist ein Deeplink, der vom App-Entwickler in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deeplink-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihren App-Entwickler, um das für Ihre App konfigurierte Deeplink-Schema zu erhalten.
+
++++  Die folgenden Ressourcen können Ihnen beim Konfigurieren von Deep-Links für Ihre App-Implementierung helfen
+
+      * Für Android:
+
+         * [Erstellen von Deep-Links zum App-Kontext](https://developer.android.com/training/app-links/deep-linking)
+
+      * Für iOS:
+
+         * [Definieren eines benutzerdefinierten URL-Schemas für Ihre App](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [Unterstützung universeller Links in Ihrer App](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >Sollten bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Wählen Sie das Format aus, das von der Anwendung an diesem bestimmten Ort erwartet wird. Dies wird beim Authoring des code-basierten Erlebnisses in Kampagnen und Journey verwendet.
 

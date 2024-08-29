@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
 * Verwenden Sie eine in Adobe Campaign erstellte E-Mail-Vorlage, vorzugsweise [eine integrierte E-Mail-Vorlage](../email/use-email-templates.md), eine markenspezifische Vorlage oder eine benutzerdefinierte Vorlage, um Ihre E-Mail-Inhalte zu erstellen. Es wird eine E-Mail-Vorlage mit bis zu 8 bis 10 Bildern empfohlen.
 * Vergewissern Sie sich, dass Sie problematische Ausgaben melden, indem Sie bei der Auswahl von Varianten die Symbole Daumen nach oben, Daumen nach unten oder Flagge verwenden.
-* Ihre Verwendung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* Ihre Verwendung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 Die folgenden Einschränkungen gelten für den KI-Assistenten in Journey Optimizer:
 
