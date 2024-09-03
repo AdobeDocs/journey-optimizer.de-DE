@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 36%
@@ -78,7 +79,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    * Geben Sie Ihre **[!UICONTROL App-ID]** und Ihren **[!UICONTROL Standort oder Pfad innerhalb der App]** ein.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Wählen Sie Sonstige als Plattform aus, wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder wenn Sie bestimmte URIs als Ziel auswählen müssen. Wenn Sie mehrere Plattformen auswählen oder mehrere URIs hinzufügen, wird der Inhalt für alle ausgewählten Seiten oder Apps bereitgestellt.
 
@@ -174,4 +175,3 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 | --------- | ----------- | ------- | 
 | Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
 | Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |
-
