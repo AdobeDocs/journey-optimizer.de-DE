@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
@@ -205,3 +207,33 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_campaigns_campaign_priority"
 >title="Priorität"
 >abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit dem höheren Prioritätswert aus. Wenn die Kampagnen den gleichen Wert aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Konflikt-Viewer in Kampagnen"
+>abstract="Konflikt-Viewer in Kampagnen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Viewer in Journey konfigurieren"
+>abstract="Viewer in Journey konfigurieren"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="Objekttyp"
+>abstract="Objekttyp"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="Regelsatz auf Journey anwenden"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="Regelsatz auf Kampagnen anwenden"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Faktor bei der Priorisierung"
+>abstract="TBD"
