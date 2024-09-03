@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
+source-git-commit: 6fc3e27f11fa95d9ee705c8a3aff8649f66dc44d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 59%
+source-wordcount: '744'
+ht-degree: 54%
 
 ---
 
@@ -26,6 +26,26 @@ ht-degree: 59%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
+## September-Updates {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Anleitung zur Kanaleinrichtung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Einrichtung des geführten Kanals ermöglicht es Ihnen, die Einrichtung von Kanälen in einem einheitlichen Erlebnis zu automatisieren und zu validieren, wodurch die ersten Schritte mit Journey Optimizer beschleunigt werden. Dieses neue geleitete Setup optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort installiert und verwendet werden. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journey beginnen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/set-mobile-config.md">ausführlichen Dokumentation</a>.</p>
+</br>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Versionshinweise für August 2024 {#8-2024}
 
 **Veröffentlichungsdatum**: 20.–21. August 2024
@@ -41,24 +61,7 @@ ht-degree: 59%
 
 Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Guided Channel Setup</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
-<p>For more information, refer to the <a href="../configuration/set-mobile-config.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
+<!--
 <table>
 <thead>
 <tr>
