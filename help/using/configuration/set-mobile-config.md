@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
@@ -48,6 +48,7 @@ Die Einrichtung des Guided Channel unterstützt die folgenden Plattformen und Ka
    * Mobile Push-Nachricht
 
    * Web Basic
+
 
 Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separate Konfiguration erstellt werden muss. Dies liegt daran, dass jede App eine eindeutige Kanalkonfiguration erfordert und so flexibel festgelegt werden kann, welche Kanäle Sie für jede Plattform wünschen.
 

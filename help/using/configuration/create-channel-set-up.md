@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 4%
@@ -51,6 +51,7 @@ ht-degree: 4%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="Team-ID"
 >abstract="Die Team-ID, ein string -Wert, der zur Identifizierung Ihres Teams verwendet wird, befindet sich auf der Registerkarte **Mitgliedschaft** in Ihrem Entwicklerkonto."
+
 
 Diese Konfiguration vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Experience Platform-, Journey Optimizer- und Datenerfassungs-Apps verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journey beginnen.
 
