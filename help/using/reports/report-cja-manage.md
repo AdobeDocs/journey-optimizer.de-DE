@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 37%
+source-wordcount: '889'
+ht-degree: 36%
 
 ---
 
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## Erstellen einer Zielgruppe aus Berichtsdaten {#create-audience}
+
+>[!IMPORTANT]
+>
+>Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Außerdem können Benutzer maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 
