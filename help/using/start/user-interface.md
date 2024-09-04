@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
 source-wordcount: '1412'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -134,7 +134,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Verwalten Sie Ihre Sandboxes in diesem Abschnitt. [Weitere Informationen](../administration/sandboxes.md)
 
-* **[!UICONTROL Kanäle]** - In diesem Abschnitt können Sie Ihre Kanäle konfigurieren, einschließlich Subdomains, Konfigurationen und Zustellbarkeitseinstellungen. [Weitere Informationen](../configuration/get-started-configuration.md)
+* **[!UICONTROL Kanäle]**: Verwenden Sie diesen Abschnitt, um Ihre Kanäle, einschließlich Subdomains, Konfigurationen und Zustellbarkeitseinstellungen, zu konfigurieren. [Weitere Informationen](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Tags]** – Mit einheitlichen Tags können Sie Ihre Journeys und Kampagnen einfach klassifizieren, um die Suche über die Listen zu verbessern. [Weitere Informationen](../start/search-filter-categorize.md#work-with-unified-tags)
 

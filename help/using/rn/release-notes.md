@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 54%
+ht-degree: 85%
 
 ---
 
@@ -88,10 +88,10 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Die aktuellen Kanaloberflächenfunktionen wurden verbessert, um einen einheitlichen Ansatz für alle Kanäle zu gewährleisten. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden, einschließlich Web-, In-App-Nachrichten- oder Code-basierter Erlebnisse.</p>
+<p>Die aktuellen Kanaloberflächenfunktionen wurden verbessert, um einen einheitlichen Ansatz für alle Kanäle zu gewährleisten. Sie können diese Konfigurationen jetzt für jeden Ihrer Kanäle definieren, verwalten und wiederverwenden, einschließlich Web, In-App-Nachrichten oder Code-basierter Erlebnisse.</p>
 <p><ul>
 <li>Kanaloberflächen sind jetzt in <strong>Kanalkonfigurationen</strong> umbenannt.</li>
-<li>Sie können eine oder mehrere Marketing-Aktionen anhängen, um Zustimmungs- und Data Governance-Richtlinien zu erzwingen.</li>
+<li>Sie können eine oder mehrere Marketing-Aktionen anhängen, um Einverständnis- und Data Governance-Richtlinien durchzusetzen.</li>
 <li>Die Zugriffskontrolle auf Objektebene (OLAC) ist jetzt für jede Kanalkonfiguration verfügbar, sodass Sie entscheiden können, welche Ihrer Benutzenden bestimmte Konfigurationen erstellen oder verwenden dürfen.</li>
 <li>Für einige Kanäle können Sie Kanalkonfigurationen erstellen, die auf mehrere Plattformen abzielt. Ein Beispiel hierfür wäre eine In-App-Messaging-Kanalkonfiguration, die auf eine Webseite, eine iOS-App und eine Android-App abzielt.</li>
 </ul></p>
@@ -127,7 +127,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Globale Fragmentvariablen verbessern die vorhandene Fragmentfunktion, um die Wiederverwendbarkeit und Skripterstellung von Inhalten zu verbessern. Fragmente können jetzt Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können. Fragmente können Eingabevariablen verwenden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um die Inhalte und Parameter der Nachrichten in Ihren Kampagnen und Journeys zu personalisieren.</p>
+<p>Globale Fragmentvariablen verbessern die vorhandene Fragmentfunktion, um die Effizienz der Wiederverwendbarkeit und Skripterstellung von Inhalten zu verbessern. Fragmente können jetzt Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können. In Fragmenten können Eingabevariablen verwendet werden, sowohl in <a href="../personalization/use-expression-fragments.md">Ausdrucksfragmenten</a> als auch in <a href="../email/use-visual-fragments.md">visuellen Fragmenten</a>. Sie können diese Variablen verwenden, um die Inhalte und Parameter der Nachrichten in Ihren Kampagnen und Journeys zu personalisieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/use-expression-fragments.md">ausführlichen Dokumentation</a>.</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* In der Aktivität **Bedingung** wird die **[!UICONTROL Zeitbedingung]** standardmäßig nach Stunde (von 00:00 bis 12:00 Uhr) festgelegt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
-* Beim Erstellen Ihrer Journey werden Warnhinweise jetzt über die Schaltfläche **Warnhinweise** angezeigt, um sie mit anderen Warnhinweisen abzustimmen und ein einheitliches Benutzererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar und Sie können den Zoom-Wert jetzt einfacher zurücksetzen.
+* In der Aktivität **Bedingung** ist die **[!UICONTROL Zeit-Bedingung]** jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00 Uhr. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
+* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt über die Schaltfläche **Warnungen** angezeigt, um sie mit anderen Warnungen abzugleichen und ein einheitliches Anwendererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar, und der Zoom-Wert kann leichter zurückgesetzt werden.
 
 <!--**Audiences and Profiles**-->
 
@@ -170,13 +170,13 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Push-Kanal**
 
-* Sie können jetzt Ihre Push-Anmeldedaten für Mobile Apps in den Adobe Journey Optimizer-Kanalkonfigurationseinstellungen hinzufügen. Das Erstellen einer App-Oberfläche in der Adobe Experience Platform-Datenerfassung ist nicht mehr erforderlich.
+* Sie können die Push-Anmeldedaten Ihrer App jetzt in den Konfigurationseinstellungen des Adobe Journey Optimizer-Kanals hinzufügen. Das Erstellen einer App-Oberfläche in der Adobe Experience Platform-Datenerfassung ist nicht mehr erforderlich.
 
 ### Weitere Änderungen {#changes}
 
 **Reporting**
 
-* Die aktuelle Berichtserfahrung wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Berichtserlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionen vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
+* Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
 
 [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
 

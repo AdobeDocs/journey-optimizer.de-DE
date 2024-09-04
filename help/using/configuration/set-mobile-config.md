@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mobile und Web einrichten
-description: Erfahren Sie, wie Sie mobile und Web-Kanäle konfigurieren und überwachen.
+title: Einrichten von Mobile und Web
+description: Erfahren Sie, wie Sie Mobile- und Web-Kanäle konfigurieren und überwachen.
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
@@ -12,22 +12,22 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 50%
 
 ---
 
-# Erste Schritte mit der Einrichtung von geführten Kanälen {#set-mobile-config}
+# Erste Schritte mit der Anleitung zur Kanaleinrichtung {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Name der Web- und Mobilgeräte-Konfiguration"
->abstract="Geben Sie den Namen Ihrer Mobile- oder Web-Konfiguration ein. Dieser Name wird für jede Ressource verwendet, die automatisch mit der Konfiguration des geführten Kanals erstellt wird."
+>abstract="Geben Sie den Namen Ihrer Mobile- oder Web-Konfiguration ein. Dieser Name wird für jede Ressource verwendet, die automatisch mit der Anleitung zur Kanaleinrichtung erstellt wird."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Mit Assurance validieren"
 >abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und überprüfen können."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Überblick über die Adobe Experience Platform-Assetbildung"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home" text="Überblick über die Adobe Experience Platform-Assetbildung"
 
 Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam mit der Erstellung von Kampagnen und Journey beginnen.
 
@@ -54,9 +54,9 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
 ## Voraussetzungen {#prereq}
 
-* Um dies effektiv zu implementieren, ist es wichtig, dass ein Mitglied der Organisation mit der Befugnis und technischen Fähigkeit, Website- oder Mobilcode zu ändern, die Einrichtung überwacht.
+* Für eine effektive Implementierung ist es wichtig, dass ein Mitglied der Organisation mit der Befugnis und den technischen Fertigkeiten zum Ändern von Website- oder Mobile Code das Setup überwacht.
 
-  Im Folgenden finden Sie die Berechtigungen, die zum Ausführen der Einrichtung des geführten Kanals erforderlich sind.
+  Im Folgenden finden Sie die Berechtigungen, die zum Ausführen der Anleitung zur Kanaleinrichtung erforderlich sind.
 
 +++ Erforderliche Berechtigungen
 
@@ -74,9 +74,9 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
         </td>
         <td>
           <ul>
-            <li>Unternehmensrechte &gt; Eigenschaften</li>
-            <li>Eigenschaftsrechte: Entwickeln, Veröffentlichen, Verwalten von Erweiterungen und Umgebungen</li>
-            <li>App-Oberflächen: App-Konfiguration verwalten</li>
+            <li>„Unternehmensrechte“ &gt; „Eigenschaften“</li>
+            <li>Eigentumsrechte: Entwickeln, Veröffentlichen, Verwalten von Erweiterungen und Umgebungen</li>
+            <li>App-Oberflächen: Verwalten der App-Konfiguration</li>
          </ul>
         </td>
       </tr>
@@ -86,13 +86,13 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
         </td>
         <td>
         <ul>
-            <li>Datenerfassung: Verwalten von Datenspeichern</li>
-           <li>Sandbox: Zugriff auf Sandboxes gewähren</li>
-            <li>Segmente verwalten: Segmentdefinitionen lesen, erstellen, bearbeiten und löschen</li>
-            <li>Profile verwalten: Profile lesen, erstellen, bearbeiten und löschen</li>
-            <li>Datensätze lesen: schreibgeschützter Zugriff auf Datensätze</li>
-            <li>Schemas lesen: schreibgeschützter Zugriff auf Schemas</li>
-            <li>Identitäts-Namespace lesen: schreibgeschützter Zugriff auf Identitäts-Namespace</li>
+            <li>Datenerfassung: Verwalten von Datenströmen</li>
+           <li>Sandbox: Gewähren des Zugriffs auf Sandboxes</li>
+            <li>Segmente verwalten: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten</li>
+            <li>Profile verwalten: Lesen, Erstellen, Bearbeiten und Löschen von Profilen</li>
+            <li>Datensätze Lesen: Nur-Lese-Zugriff auf Datensätze</li>
+            <li>Schemata lesen: Nur-Lese-Zugriff auf Schemata</li>
+            <li>Identity-Namespace lesen: Nur-Lese-Zugriff auf Identity-Namespace</li>
           </ul>
         </td>
       </tr>
@@ -101,7 +101,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
          <p>Adobe Journey Optimizer</p>
         </td>
         <td>
-          <p>Kampagnen: Kampagnen verwalten und veröffentlichen</p>
+          <p>Kampagnen: Verwalten und Veröffentlichen von Kampagnen</p>
         </td>
       </tr>
     </tbody>
@@ -164,8 +164,8 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP-Sicherheit</li>
-  <li>Einverständnis (mit aktivierten standardmäßigen Zustimmungsrichtlinien)</li>
-  <li>Identität (mit Standard-ECID, mit standardmäßigen Stitching-Regeln)</li>
+  <li>Einverständnis (mit aktivierten standardmäßigen Einverständnisrichtlinien)</li>
+  <li>Identität (mit Standard-ECID, mit standardmäßigen Zuordnungsregeln)</li>
   <li>Core für Mobilgeräte</li>
   </ul>
   </td>
@@ -183,7 +183,7 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <p>Datenströme</p>
   </td>
   <td>
-  <p>Datenspeicher mit Diensten</p>
+  <p>Datenstrom mit Diensten</p>
   </td>
   </tr>
   <tr>
@@ -259,8 +259,8 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP-Sicherheit</li>
-  <li>Einverständnis (mit aktivierten standardmäßigen Zustimmungsrichtlinien)</li>
-  <li>Identität (mit Standard-ECID, mit standardmäßigen Stitching-Regeln)</li>
+  <li>Einverständnis (mit aktivierten standardmäßigen Einverständnisrichtlinien)</li>
+  <li>Identität (mit Standard-ECID, mit standardmäßigen Zuordnungsregeln)</li>
   <li>Core für Mobilgeräte</li>
   </ul>
   </td>
@@ -278,7 +278,7 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <p>Datenströme</p>
   </td>
   <td>
-  <p>Datenspeicher mit Diensten</p>
+  <p>Datenstrom mit Diensten</p>
   </td>
   </tr>
   <tr>
@@ -354,8 +354,8 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>AEP-Sicherheit</li>
-  <li>Einverständnis (mit aktivierten standardmäßigen Zustimmungsrichtlinien)</li>
-  <li>Identität (mit Standard-ECID, mit standardmäßigen Stitching-Regeln)</li>
+  <li>Einverständnis (mit aktivierten standardmäßigen Einverständnisrichtlinien)</li>
+  <li>Identität (mit Standard-ECID, mit standardmäßigen Zuordnungsregeln)</li>
   <li>Core für Mobilgeräte</li>
   </ul>
   </td>
@@ -373,7 +373,7 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   <p>Datenströme</p>
   </td>
   <td>
-  <p>Datenspeicher mit Diensten</p>
+  <p>Datenstrom mit Diensten</p>
   </td>
   </tr>
   <tr>

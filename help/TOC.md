@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
 source-wordcount: '1963'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 98%
    + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + Konfigurieren eines E-Mail-Kanals {#configure-email}
       + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
-      + [E-Mail-Konfigurationseinstellungen konfigurieren](using/email/email-settings.md)
-      + [E-Mail-Konfiguration personalisieren](using/email/surface-personalization.md)
+      + [Festlegen von E-Mail-Konfigurationseinstellungen](using/email/email-settings.md)
+      + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 98%
       + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
       + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
       + [Konfigurieren eines benutzerdefinierten Anbieters (Beta)](using/sms/sms-configuration-custom.md)
-      + [SMS-Konfiguration erstellen](using/sms/sms-configuration-surface.md)
+      + [Erstellen einer SMS-Konfiguration](using/sms/sms-configuration-surface.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
    + Konfigurieren des Webkanals {#configure-web-channel}
       + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
       + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
-      + [Webkanalkonfiguration erstellen](using/web/web-configuration.md)
+      + [Erstellen einer Web-Kanalkonfiguration](using/web/web-configuration.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + Verfassen von Web-Seiten{#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
@@ -251,7 +251,7 @@ ht-degree: 98%
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
    + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
-   + [Codebasierte Erlebniskonfiguration erstellen](using/code-based/code-based-configuration.md)
+   + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
    + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
    + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
 + Landingpages {#landing-pages}
@@ -582,8 +582,8 @@ ht-degree: 98%
 + Konfiguration {#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
-   + Einrichtung geführter Kanäle {#guided-setup}
-      + [Erste Schritte mit der Einrichtung von geführten Kanälen](using/configuration/set-mobile-config.md)
+   + Anleitung zur Kanaleinrichtung{#guided-setup}
+      + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)
       + [Einrichten eines Kanals](using/configuration/create-channel-set-up.md)
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
       + [Erste Schritte mit der Delegierung von Subdomains](using/configuration/about-subdomain-delegation.md)
