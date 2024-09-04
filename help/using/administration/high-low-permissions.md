@@ -10,9 +10,9 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -360,7 +360,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* Mit der Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene können Benutzer Kanalkonfigurationen kanalübergreifend auf Sandbox-Ebene lesen, erstellen, bearbeiten und löschen.
+* Mit der Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene können Benutzende Kanalkonfigurationen kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

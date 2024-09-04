@@ -7,9 +7,9 @@ level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Um In-App-Nachrichten in Ihren Journeys und Kampagnen mit [!DNL Journey Optimize
 
 1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
 1. Aktivieren Sie Adobe Journey Optimizer in Ihrem Datenstrom der Datenerfassung in Adobe Experience Platform und überprüfen Sie Ihre Standard-Zusammenführungsrichtlinie in Adobe Experience Platform, wie nachfolgend unter [Versandvoraussetzungen](#delivery-prerequisites) beschrieben.
-1. Erstellen Sie eine Konfiguration des In-App-Nachrichtenkanals unter Administration > Kanäle > Kanalkonfigurationen, wie in [diesem Abschnitt](#channel-prerequisites) beschrieben.
+1. Erstellen Sie eine Konfiguration des In-App-Nachrichtenkanals unter „Administration“ > „Kanäle“ > „Kanalkonfigurationen“, wie in [diesem Abschnitt](#channel-prerequisites) beschrieben.
 1. Wenn Sie Inhaltsexperimente verwenden, stellen Sie sicher, dass Sie die [in diesem Abschnitt](#experiment-prerequisite) aufgeführten Anforderungen erfüllen.
 
 Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
@@ -52,7 +52,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
   [Weitere Informationen zur Ansicht „Edge Delivery“](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery)
 
-## In-App-Konfiguration erstellen {#channel-prerequisites}
+## Erstellen einer In-App-Konfiguration {#channel-prerequisites}
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
@@ -64,9 +64,9 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Wählen Sie den Kanal **In-App-Messaging** aus.
 
@@ -76,7 +76,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
    ![](assets/inapp_config_10.png)
 
-1. Für Web:
+1. Beim Web:
 
    * Sie können entweder eine **[!UICONTROL Seiten-URL]** eingeben, um Änderungen auf eine bestimmte Seite anzuwenden.
 
@@ -84,16 +84,16 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
 +++ Erstellen einer Regel zum Seitenabgleich
 
-      1. Wählen Sie **[!UICONTROL Seiten, die der Regel entsprechen]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
+      1. Wählen Sie **[!UICONTROL Regel zum Seitenabgleich]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
 
-      1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** Ihre Kriterien für die Felder **[!UICONTROL Domäne]** und **[!UICONTROL Seite]** .
+      1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** die Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
       1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
 
          Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
 
          ![](assets/in_app_web_surface_4.png)
 
-      1. Klicken Sie auf **[!UICONTROL Hinzufügen einer weiteren Seitenregel]** , um bei Bedarf eine weitere Regel zu erstellen.
+      1. Klicken Sie auf **[!UICONTROL Eine weitere Seitenregel hinzufügen]**, um bei Bedarf eine weitere Regel zu erstellen.
 
       1. Wählen Sie die **[!UICONTROL Standard-Authoring- und Vorschau-URL]** aus.
 
@@ -105,9 +105,9 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
    * Geben Sie Ihre **[!UICONTROL App-ID]** ein.
 
-1. Übermitteln Sie Ihre Änderungen.
+1. Senden Sie Ihre Änderungen ab.
 
-Sie können jetzt Ihre Konfiguration beim Erstellen Ihrer In-App-Nachricht auswählen.
+Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer In-App-Nachricht auswählen.
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Schutzmechani
 
 Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch eine Kampagne zu erstellen.
 
-1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie dann auf **[!UICONTROL Kampagne erstellen]**. [Weitere Informationen](../campaigns/create-campaign.md)
+1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf, und klicken Sie auf **[!UICONTROL Kampagne erstellen]**. [Weitere Informationen](../campaigns/create-campaign.md)
 
 1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
 
-   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketingnachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketing-Nachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-gesteuerte Kampagnen zielen darauf ab, entweder Marketing- oder Transaktionsnachrichten zu senden, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Kennwortrücksetzung, Warenkorbkauf usw.
+   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs „Marketing“ oder „Transaktion“ ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts und Verlassen des Warenkorbs.
 
 1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. Wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus.
 
-1. Wählen oder erstellen Sie die code-basierte Erlebniskonfiguration. [Weitere Informationen](code-based-configuration.md)
+1. Wählen Sie die Code-basierte Erlebniskonfiguration aus oder erstellen Sie sie. [Weitere Informationen](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
 
@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch ein
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
-Sobald Ihr Entwickler nun einen API- oder SDK-Aufruf startet, um Inhalte für die in Ihrer Kanalkonfiguration definierte Oberfläche abzurufen, werden die Änderungen auf Ihre Web-Seite oder App angewendet.
+Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
 
 ## Testen der Code-basierten Kampagne {#test-code-based-campaign}
 

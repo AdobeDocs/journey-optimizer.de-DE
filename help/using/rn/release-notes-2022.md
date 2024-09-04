@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 * Beim Aktivieren oder Deaktivieren der Zulassungsliste wird nun eine neue Warnung mit Details zu den Auswirkungen jeder Aktion angezeigt. [Weitere Informationen](../configuration/allow-list.md#enable-allow-list)
 * Die Benutzeroberfläche zum Erstellen von Kanalkonfigurationen, zum Erstellen von IP-Pools, zum Verwalten der Unterdrückungsliste und der Zulassungsliste sowie zum Konfigurieren des SMS-Kanals wurde aktualisiert.
-* Beim Erstellen der ersten Kanalkonfiguration für eine bestimmte Subdomain dauert die Verarbeitungszeit 10 Minuten bis 10 Tage und bei nachfolgenden Oberflächen, die diese Subdomain verwenden, nur bis zu 3 Stunden. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
+* Beim Erstellen der ersten Kanalkonfiguration für eine bestimmte Subdomain beträgt die Verarbeitungszeit 10 Minuten bis 10 Tage und bei nachfolgenden Oberflächen, die diese Subdomain verwenden, nur noch bis zu 3 Stunden. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 * Die Benutzeroberfläche zum Erstellen von Landingpage-Voreinstellungen und Landingpage-Subdomains wurde aktualisiert. [Weitere Informationen](../landing-pages/lp-subdomains.md)
 
 **Audit-Kontrollen**
@@ -399,7 +399,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Nachrichten**
 
-* Nachrichtenvorgaben sind jetzt **Kanalkonfigurationen**. [Weitere Informationen](../configuration/channel-surfaces.md)
+* Nachrichtenvoreinstellungen sind jetzt **Kanalkonfigurationen**. [Weitere Informationen](../configuration/channel-surfaces.md)
 
 **Administration**
 

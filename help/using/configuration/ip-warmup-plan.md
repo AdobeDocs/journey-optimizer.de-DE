@@ -10,15 +10,15 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Erstellen eines IP-Aufwärmplans {#ip-warmup}
 
-Nachdem Sie eine oder mehrere [IP-Aufwärmekampagnen](ip-warmup-campaign.md) mit einer dedizierten Konfiguration und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmungsplans beginnen.
+Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Konfiguration und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 
 Um auf die IP-Aufwärmspläne zugreifen, sie erstellen, bearbeiten und löschen zu können, benötigen Sie die Rolle **[!UICONTROL Zustellbarkeitsberater]** oder entsprechende Berechtigungen für IP-Aufwärmpläne.
 
@@ -238,7 +238,7 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 
 ## Aufrufen und Verwalten von IP-Aufwärmplänen {#manage-ip-warmup-plans}
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL IP-Aufwärmspläne]** auf. Es werden alle bisher erstellten IP-Aufwärmpläne angezeigt.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL IP-Aufwärmpläne]** auf. Es werden alle bisher erstellten IP-Aufwärmpläne angezeigt.
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Marketingkonfiguration auswählen"
->abstract="Sie müssen dieselbe Konfiguration auswählen wie die in der Kampagne, die Sie mit Ihrem IP-Warmup-Plan verbinden möchten."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Einrichten von Kanalkonfigurationen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmkampagnen"
+>title="Auswählen einer Marketing-Konfiguration"
+>abstract="Es muss dieselbe Konfiguration ausgewählt werden wie die in der Kampagne, die mit Ihrem IP-Aufwärmplan verbunden werden soll."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces" text="Einrichten von Kanalkonfigurationen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces" text="Erstellen von IP-Aufwärmkampagnen"
 
 Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]**> **[!UICONTROL IP-Aufwärmspläne]** auf und klicken Sie dann auf **[!UICONTROL IP-Warmup-Plan erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]**> **[!UICONTROL IP-Aufwärmpläne]** auf und klicken Sie auf **[!UICONTROL IP-Aufwärmplan erstellen]**.
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -290,7 +290,7 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 
    >[!NOTE]
    >
-   >Die Kampagnen, die Sie mit Ihrem IP-Warmup-Plan verbinden möchten, müssen dieselbe Konfiguration verwenden. [Informationen zum Erstellen einer IP-Aufwärmkampagne](ip-warmup-campaign.md)
+   >Die Kampagnen, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten, müssen dieselbe Konfiguration verwenden. [Informationen zum Erstellen einer IP-Aufwärmkampagne](ip-warmup-campaign.md)
 
 1. Laden Sie die Excel-Datei hoch, die Ihren IP-Aufwärmplan enthält. [Weitere Informationen](#prepare-file)
 

@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 
 Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde.
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Subdomains der Landingpage]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Subdomains der Landingpage]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
 Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Subdomains der Landingpage]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Subdomains der Landingpage]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 

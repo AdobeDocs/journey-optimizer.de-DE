@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um auf Landingpage-Voreinstellungen zuzugreifen.
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf.
 
-1. Wählen Sie **[!UICONTROL Einstellungen der Landingpage]** > **[!UICONTROL Vorgaben für Landingpages]** aus.
+1. Wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Landingpage-Voreinstellungen]** aus.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 >
 >Um eine Voreinstellung erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen dazu](lp-subdomains.md)
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Landingpage-Vorgaben]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Landingpage-Voreinstellungen]** aus.
 
 1. Wählen Sie **[!UICONTROL Landingpage-Voreinstellung erstellen]** aus.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 
    Wenn zum Beispiel die URL der Landingpage „pages.mail.luma.com“ und die Tracking-URL „data.mail.luma.com“ lautet, können Sie „pages.mail.luma.com“ als Tracking-Subdomain wählen.
 
-1. Klicken Sie auf **[!UICONTROL Senden]** , um die Erstellung der Landingpage-Vorgabe zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Klicken Sie auf **[!UICONTROL Senden]**, um die Erstellung der Landingpage-Voreinstellung zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 

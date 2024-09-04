@@ -10,9 +10,9 @@ level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Sie können eine Blindkopie (BCC) einer von [!DNL Journey Optimizer] gesendeten 
 
 ### Aktivieren von BCC-E-Mails {#enable-bcc}
 
-Um die Option **[!UICONTROL BCC email]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das entsprechende Feld der [Kanalkonfiguration](channel-surfaces.md) (d. h. der Nachrichtenvorgabe) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
+Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das dafür vorgesehene Feld der [Kanalkonfiguration](channel-surfaces.md) (d. h. der Nachrichtenvoreinstellung) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
 
 >[!CAUTION]
 >
->Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über ausreichend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Kanalkonfiguration gesendet werden.
+>Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Kanalkonfiguration gesendet werden.
 >
 >Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
 
@@ -55,13 +55,13 @@ Um die Option **[!UICONTROL BCC email]** zu aktivieren, geben Sie die E-Mail-Adr
 
 ![](assets/preset-bcc.png)
 
-Nach der Konfiguration werden alle auf dieser Konfiguration basierenden E-Mail-Nachrichten blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können Nachrichten mithilfe eines externen Systems verarbeitet und archiviert werden.
+Nach der Konfiguration wird für alle auf dieser Konfiguration basierenden E-Mail-Nachrichten eine Blindkopie an die von Ihnen eingegebene BCC-E-Mail-Adresse gesendet. Von dort aus können Nachrichten mithilfe eines externen Systems verarbeitet und archiviert werden.
 
 >[!CAUTION]
 >
->Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie daher nur in den Konfigurationen, die für kritische Kommunikationen verwendet werden, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
+>Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Konfigurationen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
-Die Einstellung der BCC-E-Mail-Adresse wird sofort auf Konfigurationsebene gespeichert und verarbeitet. Wenn Sie mit dieser Konfiguration eine neue Nachricht erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
+Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Konfiguration gespeichert und verarbeitet. Wenn Sie mit dieser Konfiguration eine neue Nachricht erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
 ![](assets/preset-bcc-in-msg.png)
 

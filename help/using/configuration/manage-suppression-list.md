@@ -10,9 +10,9 @@ level: Experienced
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, Quarantäne
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey O
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
 
-Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domänen zuzugreifen, navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Unterdrückungsliste]** aus.
+Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domains zuzugreifen, wechseln Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Unterdrückungsliste]**.
 
 
 ![](assets/suppression-list-access.png)

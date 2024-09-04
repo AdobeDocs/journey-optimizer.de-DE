@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Darüber hinaus müssen Sie Benutzer, die Zugriff auf Assets Essentials benötig
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Gehen Sie zum Menü **[!UICONTROL Kanäle]** , um Ihre Nachrichten und Kanalkonfigurationen (d. h. Nachrichtenvorgaben) zu konfigurieren.
+Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Gehen Sie das Menü **[!UICONTROL Kanäle]** durch, um Ihre Nachrichten- und Kanalkonfigurationen (d. h. Nachrichtenvoreinstellungen) festzulegen.
 
 >[!NOTE]
 >Wenn Sie als **Systemadministrator** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen in der [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Auf [dieser Seite](../../administration/permissions.md#edit-product-profile) erfahren Sie, wie Sie Ihr Produktprofil aktualisieren können.
@@ -50,11 +50,11 @@ Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **A
 
 Führen Sie dazu folgende Schritte durch:
 
-1. **Nachrichten und Kanäle konfigurieren**: Konfigurationen definieren, E-Mail-, SMS- und Push-Nachrichten-Einstellungen anpassen und anpassen
+1. **Konfigurieren von Nachrichten und Kanälen**: Definieren von Konfigurationen und Anpassen der Einstellungen für E-Mails, SMS und Push-Benachrichtigungen
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../push/push-gs.md)
 
-   * Erstellen Sie **Kanalkonfigurationen** (d. h. Nachrichtenvorgaben), um alle technischen Parameter zu konfigurieren, die für E-Mails, SMS und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
+   * Erstellen Sie **Kanalkonfigurationen** (d. h. Nachrichtenvoreinstellungen) zum Konfigurieren aller technischen Parameter, die für E-Mails, SMS und Push-Benachrichtigungen erforderlich sind.  [Weitere Informationen](../../configuration/channel-surfaces.md)
 
    * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../sms/sms-configuration.md)
 

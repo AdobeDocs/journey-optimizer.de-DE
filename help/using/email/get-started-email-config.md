@@ -10,9 +10,9 @@ topic: Administration
 keywords: E-Mail, Konfiguration, Oberfläche, Subdomains
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](../configuration/assets/preset-general.png)
 
-1. Konfigurieren Sie in jeder E-Mail-Kanal-Konfiguration alle technischen Parameter, die für den Versand von E-Mails erforderlich sind. [Weitere Informationen](email-settings.md)
+1. Konfigurieren Sie auf jeder E-Mail-Kanalkonfiguration alle technischen Parameter, die für die Zustellung von E-Mails erforderlich sind. [Weitere Informationen](email-settings.md)
 
    * Hier wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll, sowie die IP-Pools, die mit der Konfiguration verknüpft werden sollen. [Weitere Informationen](email-settings.md#subdomains-and-ip-pools)
 

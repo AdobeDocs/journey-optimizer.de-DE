@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
    >
    >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. Eine [Briefpost-Konfiguration](#direct-mail-configuration) , die auf die Dateirouting-Konfiguration verweist. Wenn Sie keine Dateirouting-Option konfiguriert haben, können Sie keine Briefpost-Konfiguration erstellen.
+1. Eine [Direkt-Mail-Konfiguration](#direct-mail-configuration), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
 
 ## Konfigurieren des Datei-Routings {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 >[!TAB Amazon S3]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Briefpost-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie dann auf **[!UICONTROL Routing-Konfiguration erstellen]** .
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Es kann jetzt in einer [Briefpost-Konfiguration](#direct-mail-surface) verwendet werden.
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
-   Sie können auch &quot;**[!UICONTROL Als Entwurf speichern]**&quot;auswählen, um die Konfiguration für das Datei-Routing zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
 
 >[!TAB SFTP]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Briefpost-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie dann auf **[!UICONTROL Routing-Konfiguration erstellen]** .
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Es kann jetzt in einer [Briefpost-Konfiguration](#direct-mail-surface) verwendet werden.
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
-   Sie können auch &quot;**[!UICONTROL Als Entwurf speichern]**&quot;auswählen, um die Konfiguration für das Datei-Routing zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
 
 >[!TAB Azure]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Briefpost-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie dann auf **[!UICONTROL Routing-Konfiguration erstellen]** .
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Es kann jetzt in einer [Briefpost-Konfiguration](#direct-mail-surface) verwendet werden.
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
-   Sie können auch &quot;**[!UICONTROL Als Entwurf speichern]**&quot;auswählen, um die Konfiguration für das Datei-Routing zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
 
 >[!ENDTABS]
 
-## Erstellen einer Briefpost-Konfiguration {#direct-mail-surface}
+## Erstellen einer Direkt-Mail-Konfiguration {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
->title="Definieren der Briefpost-Einstellungen"
->abstract="Eine Briefpost-Konfiguration enthält die Formatierungseinstellungen der Datei, die die Zielgruppendaten enthält, und wird vom E-Mail-Anbieter verwendet. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
+>title="Definieren der Direkt-Mail-Einstellungen"
+>abstract="Eine Direkt-Mail-Konfiguration enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Zielgruppe enthält und vom Direkt-Mail-Anbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=de#file-routing-configuration" text="Konfigurieren des Datei-Routings"
 
 <!--
@@ -181,11 +181,11 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >title="Festlegen des Schwellenwerts zur Dateiaufspaltung"
 >abstract="Für jede Datei, die Zielgruppen-Daten enthält, müssen Sie die maximale Anzahl von Datensätzen festlegen. Sie können eine beliebige Zahl zwischen 1 und 200.000 auswählen. Nachdem der festgelegte Schwellenwert erreicht wurde, wird eine neue Datei für die verbleibenden Datensätze erstellt."
 
-Um Briefpost mit [!DNL Journey Optimizer] versenden zu können, müssen Sie eine Kanalkonfiguration erstellen, um die Formatierungseinstellungen für die Datei zu definieren, die vom E-Mail-Anbieter verwendet wird.
+Um über [!DNL Journey Optimizer] Direkt-Mail senden zu können, müssen Sie eine Kanalkonfiguration erstellen. Darin können Sie die Formatierungseinstellungen für die Datei festlegen, die vom Direkt-Mail-Anbieter verwendet werden soll.
 
-Eine Briefpost-Konfiguration muss auch die Konfiguration des Datei-Routing enthalten, die den Server definiert, auf dem Ihre Briefpost-Datei exportiert wird.
+Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalten, die den Server definiert, auf den Ihre Direkt-Mail-Datei exportiert werden soll.
 
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Kanalkonfiguration erstellen]** . [Weitere Informationen](../configuration/channel-surfaces.md)
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Kanalkonfiguration erstellen]**. [Weitere Informationen](../configuration/channel-surfaces.md)
 
    ![](assets/direct-mail-config-1.png)
 
@@ -195,15 +195,15 @@ Eine Briefpost-Konfiguration muss auch die Konfiguration des Datei-Routing entha
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Wählen Sie den Kanal **[!UICONTROL Briefpost]** aus.
+1. Wählen Sie den Kanal **[!UICONTROL Direkt-Mail]** aus.
 
    ![](assets/direct-mail-config-2.png)
 
-1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
-1. Definieren Sie die Briefpost-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration.
+1. Legen Sie die Direkt-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -215,17 +215,17 @@ Eine Briefpost-Konfiguration muss auch die Konfiguration des Datei-Routing entha
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. Wählen Sie abschließend die gewünschte **[!UICONTROL Datei-Routing-Konfiguration]** unter den von Ihnen erstellten Konfigurationen aus. Darin wird definiert, wohin die Datei für Ihren Briefpostanbieter exportiert wird.
+1. Wählen Sie abschließend die gewünschte **[!UICONTROL Datei-Routing-Konfiguration]** unter den von Ihnen erstellten Konfigurationen aus. Darin wird definiert, wohin die Datei für Ihren Direkt-Mail-Anbieter exportiert wird.
 
    >[!CAUTION]
    >
-   >Wenn Sie keine Dateirouting-Option konfiguriert haben, können Sie keine Briefpost-Konfiguration erstellen. [Weitere Informationen](#file-routing-configuration)
+   >Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen. [Weitere Informationen](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Senden Sie die Briefpost-Konfiguration.
+1. Senden Sie die Direkt-Mail-Konfiguration ab.
 
 Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../direct-mail/create-direct-mail.md). Nach Beginn der Kampagne wird die Datei mit den Daten der ausgewählten Zielgruppe dann automatisch auf den von Ihnen definierten Server exportiert. Der Briefpostanbieter kann dann diese Datei abrufen und sie zum Versand der Briefpost verwenden.
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Nachdem ein IP-Pool erstellt wurde, werden PTR-Informationen angezeigt, wenn Sie
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können es auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanalkonfiguration (d. h. die Nachrichtenvorgabe) anzuzeigen. Weitere Informationen zum Verknüpfen einer Kanalkonfiguration mit einem IP-Pool finden Sie in [diesem Abschnitt](channel-surfaces.md).
+Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanalkonfiguration anzuzeigen (d. h. Nachrichtenvoreinstellung). Weiterführende Informationen zum Verknüpfen einer Kanalkonfiguration mit einem IP-Pool finden Sie in [diesem Abschnitt](channel-surfaces.md).
 
 ## Bearbeiten eines IP-Pools {#edit-ip-pool}
 
@@ -96,14 +96,14 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu bearbeiten.
 
 1. Speichern Sie Ihre Änderungen.
 
-Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, welcher IP-Pool mit einer [Kanalkonfiguration](channel-surfaces.md) verknüpft ist oder nicht:
+Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool mit einer [Kanalkonfiguration](channel-surfaces.md) verknüpft ist oder nicht:
 
-* Wenn der IP-Pool mit einer Kanalkonfiguration **nicht** verknüpft ist, ist die Aktualisierung sofort (**[!UICONTROL Erfolgsstatus]**).
-* Wenn der IP-Pool **** mit einer Kanalkonfiguration verknüpft ist, kann die Aktualisierung bis zu 3 Stunden dauern (**[!UICONTROL Verarbeitungsstatus]**).
+* Wenn der IP-Pool **nicht** mit einer Kanalkonfiguration verknüpft ist, erfolgt die Aktualisierung sofort (Status **[!UICONTROL Erfolgreich]**).
+* Wenn der IP-Pool mit einer Kanalkonfiguration verknüpft **ist**, kann die Aktualisierung bis zu 3 Stunden dauern (Status **[!UICONTROL Verarbeitung läuft]**).
 
 >[!NOTE]
 >
->Wenn Sie beim [ Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitungsstatus]**) und noch nie mit der für diese Konfiguration ausgewählten Subdomain verknüpft wurde, können Sie die Konfigurationserstellung nicht fortsetzen. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
+>Wenn Sie beim [Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Konfiguration ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Konfiguration fortfahren. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 

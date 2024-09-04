@@ -10,9 +10,9 @@ level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1143'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey O
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
-Um auf die detaillierte Liste der zulässigen E-Mail-Adressen und Domänen zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Zulassungsliste]** aus.
+Um auf die detaillierte Liste der zugelassenen E-Mail-Adressen und Domains zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** und wählen Sie **[!UICONTROL Zulassungsliste]** aus.
 
 ![](assets/allow-list-access.png)
 
@@ -146,7 +146,7 @@ Gehen Sie dazu wie folgt vor.
 
 ### Hinzufügen von Entitäten mithilfe eines API-Aufrufs {#api-call-allowed-list}
 
-Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückungs-API mit dem Wert `ALLOWED` für das `listType`-Attribut aufrufen. Beispiel:
+Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückungs-API mit dem Wert `ALLOWED` für das `listType`-Attribut aufrufen. Zum Beispiel:
 
 ![](assets/allow-list-api.png)
 

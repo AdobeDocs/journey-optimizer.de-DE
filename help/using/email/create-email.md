@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Um eine E-Mail in [!DNL Journey Optimizer] zu erstellen, fügen Sie eine **[!UIC
 
    ![](assets/email_journey.png)
 
-   Das Feld ist standardmäßig mit der letzten Konfiguration vorausgefüllt, die der Benutzer für diesen Kanal verwendet hat.
+   Das Feld wird standardmäßig mit der letzten Konfiguration ausgefüllt, die die Benutzenden für diesen Kanal verwendet haben.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_campaign_edit_content.png)
 
-   Im Abschnitt **[!UICONTROL Kopfzeile]** des Bildschirms **[!UICONTROL Inhalt bearbeiten]** werden die Felder **[!UICONTROL Aus Name]**, **[!UICONTROL Aus E-Mail]** und **[!UICONTROL BCC]** in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+   Im Abschnitt **[!UICONTROL Kopfzeile]** des Bildschirms **[!UICONTROL Inhalt bearbeiten]** sind die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]** in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -122,7 +122,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
      >[!NOTE]
      >
-     >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktionstyp]**) wird auf der Ebene [Kanalkonfiguration](email-settings.md#email-type) und beim [Erstellen der Nachricht](#create-email-journey-campaign) von einer Journey oder Kampagne definiert.
+     >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf der Ebene der [Kanalkonfiguration](email-settings.md#email-type) und beim [Erstellen der Nachricht](#create-email-journey-campaign) über eine Journey oder Kampagne definiert.
 
    * **[!UICONTROL Textversion von HTML ist leer]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können. In [diesem Abschnitt](text-version-email.md) erfahren Sie, wie Sie die Textversion erstellen.
 
@@ -138,11 +138,11 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
    * **[!UICONTROL Die E-Mail-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](get-started-email-design.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
 
-   * **[!UICONTROL Konfiguration existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Konfiguration nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie eine andere Konfiguration in der Meldung **[!UICONTROL Eigenschaften]** aus. Weitere Informationen zu Kanalkonfigurationen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Konfiguration ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die gewählte Konfiguration nach der Erstellung der Nachricht gelöscht wurde. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Konfiguration aus. Weitere Informationen zu Kanalkonfigurationen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >
->Um die Journey bzw. Kampagne mithilfe der E-Mail testen oder aktivieren zu können, müssen Sie zunächst alle **Fehler** beheben.
+>Um die Journey bzw. Kampagne mithilfe der E-Mail testen oder aktivieren zu können, müssen Sie zunächst alle **Fehler-Warnungen** beheben.
 
 ## Überprüfen und Senden der E-Mail
 

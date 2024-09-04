@@ -9,9 +9,9 @@ level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-
 
 ## Zugriff und Verwaltung von Web-Subdomains {#access-web-subdomains}
 
-1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie dann **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]** aus. Alle mit der aktuellen Sandbox eingerichteten Subdomains werden angezeigt.
+1. Navigieren Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]**. Alle mit der aktuellen Sandbox eingerichteten Subdomains werden angezeigt.
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-
 
 Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde.
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]**.
 
 1. Klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
@@ -109,7 +109,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 >
 >Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt bis zu 10 Subdomains delegieren (die sowohl E-Mail- als auch Web-Kanäle abdecken). Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]**.
 
 1. Klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
@@ -153,7 +153,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
    >
    >Bevor Sie diese Subdomain zum Senden von Web-Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu 4 Stunden dauern kann.
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Es kann verwendet werden, um Webkanalkonfigurationen zu erstellen.
+1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann zur Erstellung von Oberflächen für Web-Kanalkonfigurationen verwendet werden.
 
    Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.
 

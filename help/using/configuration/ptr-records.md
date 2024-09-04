@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Sobald Sie Ihre erste Subdomain in [!DNL Journey Optimizer] an Adobe  [delegiert](delegate-subdomain.md) haben, werden automatisch PTR-Einträge für Ihre IP erstellt. Sie können über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL PTR-Datensätze]** darauf zugreifen.
+Sobald Sie Ihre erste Subdomain in [!DNL Journey Optimizer] an Adobe  [delegiert](delegate-subdomain.md) haben, werden automatisch PTR-Einträge für Ihre IP erstellt. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](assets/ptr-records.png)
 

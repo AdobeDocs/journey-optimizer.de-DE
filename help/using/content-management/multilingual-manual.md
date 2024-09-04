@@ -11,9 +11,9 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen 
 
 In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten
 
-1. Rufen Sie im Menü **[!UICONTROL Administration]** die Optionen **[!UICONTROL Kanal]** > **[!UICONTROL Allgemeine Einstellungen]** auf.
+1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]** > **[!UICONTROL Allgemeine Einstellungen]**.
 
 1. Klicken Sie im Menü **[!UICONTROL Spracheinstellungen]** auf **[!UICONTROL Spracheinstellungen erstellen]**.
 

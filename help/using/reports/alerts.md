@@ -9,17 +9,17 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Warnhinweisen {#alerts}
 
-Verwenden Sie beim Erstellen Ihrer Journey und Kampagnen die Schaltfläche **Warnhinweise** , um Fehler zu überprüfen und zu beheben, bevor Sie sie ausführen oder veröffentlichen. Informationen zur Fehlerbehebung bei Journey-Fehlern finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md). Erfahren Sie, wie Sie Ihre Kampagnen auf [dieser Seite](../campaigns/review-activate-campaign.md) überprüfen.
+Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um vor der Ausführung oder Veröffentlichung der Journeys und Kampagnen Fehler zu überprüfen und zu beheben. Auf [dieser Seite](../building-journeys/troubleshooting.md) erfahren Sie, wie Sie Fehler in Journeys beheben können. Auf [dieser Seite](../campaigns/review-activate-campaign.md) erfahren Sie, wie Sie Kampagnen überprüfen können.
 
-Sie können auch Adobe Journey Optimizer-Systemwarnungen abonnieren, wie auf dieser Seite beschrieben.
+Sie können auch Adobe Journey Optimizer-Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
 
 ## Abrufen und Abonnieren von Warnhinweisen {#alerting-capabilities}
 

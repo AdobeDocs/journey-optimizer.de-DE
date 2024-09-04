@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 77%
 
    ![](assets/configure_web_inapp_14.png)
 
-## In-App-Webkonfiguration erstellen {#in-app-config}
+## Erstellen einer In-App-Web-Konfiguration {#in-app-config}
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/in-app-web-config-1.png)
 
@@ -122,9 +122,9 @@ ht-degree: 77%
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Wählen Sie den Kanal **In-App-Messaging** aus.
 
@@ -136,16 +136,16 @@ ht-degree: 77%
 
 +++ Erstellen einer Regel zum Seitenabgleich
 
-      1. Wählen Sie **[!UICONTROL Seiten, die der Regel entsprechen]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
+      1. Wählen Sie **[!UICONTROL Regel zum Seitenabgleich]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
 
-      1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** Ihre Kriterien für die Felder **[!UICONTROL Domäne]** und **[!UICONTROL Seite]** .
+      1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** die Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
       1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
 
          Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
 
          ![](assets/in_app_web_surface_4.png)
 
-      1. Klicken Sie auf **[!UICONTROL Hinzufügen einer weiteren Seitenregel]** , um bei Bedarf eine weitere Regel zu erstellen.
+      1. Klicken Sie auf **[!UICONTROL Eine weitere Seitenregel hinzufügen]**, um bei Bedarf eine weitere Regel zu erstellen.
 
       1. Wählen Sie die **[!UICONTROL Standard-Authoring- und Vorschau-URL]** aus.
 
@@ -153,6 +153,6 @@ ht-degree: 77%
 
 +++
 
-1. Senden Sie Ihre In-App-Web-Konfiguration.
+1. Übermitteln Sie Ihre In-App-Web-Konfiguration.
 
-Jetzt können Sie [ eine Web-In-App-Nachricht erstellen](../in-app/create-in-app-web.md) in einer Kampagne.
+Sie können jetzt innerhalb einer Kampagne [eine Web-In-App erstellen](../in-app/create-in-app-web.md).

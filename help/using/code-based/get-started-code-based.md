@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 **Web**
 
 * Bearbeiten Sie Ihre Inhalte mithilfe des Visual Editors [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* Sie müssen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}-Implementierung und die Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
+* Sie müssen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"}-Implementierung und die Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
 * Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Er lässt sich schnell einrichten und ausführen.
 * Er ist auf Marketing-Fachleute ausgerichtet.
@@ -94,8 +94,8 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 **Code-basiertes Erlebnis**
 
 * Bearbeiten Sie Ihren Inhalt mit dem [Personalisierungseditor](create-code-based.md#edit-code).
-* Das code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Anwendungen die Inhalte interpretieren und bereitstellen können, die von [!DNL Journey Optimizer] am Edge für diese Orte veröffentlicht wurden. [Weitere Informationen](code-based-configuration.md#surface-definition)
-* Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero-Bild, Menüleiste usw.) Informationen zu den Anwendungen, die für Personalisierung oder Tests geändert werden müssen, und erarbeiten Sie gemeinsam mit Ihrem Entwicklungsteam die für die Bearbeitung dieser Änderungen erforderliche Implementierung.
+* Das Code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Anwendungen die von [!DNL Journey Optimizer] für diese Speicherorte veröffentlichten Inhalte interpretieren und bereitstellen können. [Weitere Informationen](code-based-configuration.md#surface-definition)
+* Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero-Bild, Menüleiste usw.) in den Anwendungen, die für die Personalisierung oder Tests geändert werden müssen, unbedingt festgelegt werden. Erstellen Sie zusammen mit Ihrem Entwicklungs-Team die für diese Änderungen erforderliche Implementierung.
 * So können Sie JSON-Code-Inhalte verwenden.
 * Es ist auf Entwicklungspersonen ausgerichtet.
 
@@ -109,12 +109,12 @@ Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes 
 
 >[!NOTE]
 >
->Derzeit kann der mit einer Konfiguration verknüpfte Inhalt nur HTML oder JSON sein.<!--WILL COME LATER: text, image or another format depending on the application-->
+>Derzeit können nur HTML- und JSON-Inhalte mit einer Konfiguration verknüpft werden. <!--WILL COME LATER: text, image or another format depending on the application-->
 
 Die wichtigsten Schritte zur Implementierung einer Code-basierten Kampagne:
 
-1. Definieren Sie eine [Oberfläche](code-based-configuration.md#surface-definition) in Ihrer Anwendungsimplementierung, d. h. im Grunde den Ort, an dem Sie Ihr code-basiertes Erlebnis hinzufügen möchten, erstellen Sie dann eine code-basierte Erlebniskanalkonfiguration, die auf diesen Ort verweist, und erstellen Sie dann mit dieser Konfiguration eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
+1. Definieren Sie eine [Oberfläche](code-based-configuration.md#surface-definition) in Ihrer Anwendungsimplementierung; also den Ort, zu dem Sie Ihr Code-basiertes Erlebnis hinzufügen möchten. Erstellen Sie dann eine Kanalkonfiguration für das Code-basierte Erlebnis, die auf diesen Ort verweist, und erstellen Sie mithilfe dieser Konfiguration eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
-1. Erstellen Sie ein Erlebnis, indem Sie mithilfe des Personalisierungseditors [!DNL Journey Optimizer] Inhalte für die ausgewählte Konfiguration angeben. [Weitere Informationen](create-code-based.md#edit-code)
+1. Erstellen Sie ein Erlebnis, indem Sie mit dem Personalisierungseditor von [!DNL Journey Optimizer] Inhalte für die ausgewählte Konfiguration angeben. [Weitere Informationen](create-code-based.md#edit-code)
 
 1. Ihr App-Implementierungs-Team erstellt explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. In diesem Fall ist das Implementierungs-Team für das Rendern oder die anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich.<!--TBC with Robert - should link to a new section with API/SDK call samples-->

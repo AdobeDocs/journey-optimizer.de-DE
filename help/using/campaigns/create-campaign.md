@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über eine Kanalkonfiguration (d. h. eine Nachrichtenoberfläche) und eine Adobe Experience Platform-Zielgruppe verfügen, die einsatzbereit sind. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>Bevor Sie eine neue Kampagne erstellen, überprüfen Sie, ob Sie über eine einsatzbereite Kanalkonfiguration (d. h. Nachrichtenoberfläche) und Adobe Experience Platform-Zielgruppe verfügen. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >
 >* [Erstellen von Kanalkonfigurationen](../configuration/channel-surfaces.md)
 >* [Erste Schritte mit Zielgruppen](../audience/about-audiences.md)
@@ -81,11 +81,11 @@ Um die Zielgruppe der Kampagne zu definieren, gehen Sie folgendermaßen vor:
 
 ## Erstellen der Nachricht und Konfigurieren der Tracking-Funktion {#content}
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** eine neue Konfiguration aus oder erstellen Sie sie.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Eine Konfiguration wird von einem [Systemadministrator](../start/path/administrator.md) definiert. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
+   Eine Konfiguration wird durch [Systemadmins](../start/path/administrator.md) definiert. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
-   In der Dropdown-Liste werden nur Kanalkonfigurationen aufgelistet, die mit dem Marketing-Kampagnentyp kompatibel sind.
+   In der Dropdown-Liste werden nur Kanalkonfigurationen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
 
    ![](assets/create-campaign-action.png)
 

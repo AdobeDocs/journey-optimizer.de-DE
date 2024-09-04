@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Webkonfiguration definieren"
->abstract="Eine Webkonfiguration kann mit einer einzelnen Seiten-URL oder mehreren Seiten übereinstimmen, sodass Sie Inhaltsänderungen auf einer oder mehreren Webseiten bereitstellen können."
+>title="Definieren einer Web-Konfiguration"
+>abstract="Eine Web-Konfiguration kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass inhaltliche Änderungen auf einer oder mehreren Web-Seiten vorgenommen werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -46,15 +46,15 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
 
-   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketingnachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketing-Nachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-gesteuerte Kampagnen zielen darauf ab, entweder Marketing- oder Transaktionsnachrichten zu senden, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Kennwortrücksetzung, Warenkorbkauf usw.
+   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs „Marketing“ oder „Transaktion“ ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts und Verlassen des Warenkorbs.
 
 1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
 1. Wählen Sie die Aktion **[!UICONTROL Web]**.
 
-1. Wählen Sie eine neue Konfiguration aus oder erstellen Sie sie. [Weitere Informationen zur Webkonfiguration](web-configuration.md)
+1. Wählen Sie eine Konfiguration aus oder erstellen Sie eine neue Konfiguration. [Weitere Informationen zur Web-Konfiguration](web-configuration.md).
 
    ![](assets/web-campaign-steps.png)
 

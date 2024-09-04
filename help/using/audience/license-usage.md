@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 # Lizenznutzungs-Dashboard {#license-usage}
 
-Die [!DNL Adobe Journey Optimizer] [Benutzeroberfläche](../start/user-interface.md) bietet ein Dashboard, das wichtige Informationen zur Lizenznutzung Ihres Unternehmens anzeigt, wie sie in einem täglichen Schnappschuss erfasst werden.
+Die [!DNL Adobe Journey Optimizer] [Benutzeroberfläche](../start/user-interface.md) bietet ein Dashboard, das wichtige Informationen zur Lizenznutzung Ihrer Organisation anzeigt, wie sie bei einem täglichen Snapshot erfasst werden.
 
 Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Lizenznutzung]**. Dadurch wird die Registerkarte **[!UICONTROL Überblick]** mit dem Dashboard angezeigt.
 
@@ -27,7 +27,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 >
 >Damit Sie das Dashboard anzeigen können, muss Ihnen die Berechtigung zum [Anzeigen des Lizenznutzungs-Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=de#available-permissions){target="_blank"} gewährt worden sein.
 
-Für [!DNL Adobe Journey Optimizer] können Sie die Anzahl der **einbindbaren Profile** in diesem Dashboard überprüfen. Ein interagierbares Profil ist ein Datensatz mit Informationen, die eine Person repräsentieren und im Profil-Dienst dargestellt werden. Diese Datensätze sind Profile, mit denen Sie in den letzten 12 Monaten mithilfe der Authoring-, Entscheidungs-, Versand-, Experimentierungs- oder Orchestrierungsfunktionen von Journey Optimizer interagiert haben.
+Für [!DNL Adobe Journey Optimizer] können Sie die Anzahl der **ansprechbaren Profile** in diesem Dashboard überprüfen. Ein ansprechbares Profil ist ein Eintrag mit Informationen, die einen Kontakt repräsentieren und im Profil-Service dargestellt werden. Diese Einträge sind Profile, mit denen Sie in den letzten 12 Monaten mithilfe der Authoring-, Entscheidungs-, Versand-, Experimentierungs- oder Orchestrierungsfunktionen von Journey Optimizer interagiert haben.
 
 Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform:
 

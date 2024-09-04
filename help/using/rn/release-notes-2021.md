@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -285,7 +285,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 **E-Mail-Konfiguration**
 
 * **Zulassungsliste** – Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](../configuration/allow-list.md#enable-allow-list)
-* **Navigation** - Die Unterdrückungsliste, auf die über das Menü **Administration > Kanäle > E-Mail-Einstellungen > Allgemein** zugegriffen werden konnte, wurde in das neue Untermenü **Unterdrückungsliste** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigation**: Die Unterdrückungsliste, auf die zuvor über das Menü **„Administration“ > „Kanäle“ > „E-Mail-Konfiguration“ > „Allgemein“** zugegriffen werden konnte, wurde in das neue Untermenü **Unterdrückungsliste** verschoben. Dort sind alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst. [Weitere Informationen](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Entscheidungs-Management**
 

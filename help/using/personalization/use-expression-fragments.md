@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -68,37 +68,37 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 >
 >Wenn Sie ein Ausdrucksfragment erstellen, das mehrere Zeilenumbrüche enthält, und dieses in [SMS](../sms/create-sms.md#sms-content)- oder [Push](../push/design-push.md)-Inhalten verwenden, bleiben die Zeilenumbrüche erhalten. Testen Sie daher Ihre [SMS](../sms/send-sms.md)- oder [Push](../push/send-push.md)-Nachricht vor dem Versand.
 
-## Implizite Variablen verwenden {#implicit-variables}
+## Verwenden implizierter Variablen {#implicit-variables}
 
-Die impliziten Variablen verbessern die vorhandene Fragmentfunktionalität, um die Wiederverwendbarkeit von Inhalten und Skripterstellungs-Anwendungsfällen zu verbessern. Fragmente können Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können.
+Die impliziten Variablen verbessern die vorhandene Fragmentfunktion, um die Effizienz der Wiederverwendbarkeit und Skripterstellung von Inhalten zu verbessern. Fragmente können Eingabevariablen verwenden und Ausgabevariablen erstellen, die in Kampagnen- und Journey-Inhalten verwendet werden können.
 
 Diese Funktion kann beispielsweise verwendet werden, um Tracking-Parameter Ihrer E-Mails basierend auf der aktuellen Kampagne oder Journey zu initialisieren und diese Parameter in den personalisierten Links zu verwenden, die zum E-Mail-Inhalt hinzugefügt werden.
 
-Die folgenden Anwendungsfälle sind möglich:
+Folgende Anwendungsfälle sind möglich:
 
 1. Verwenden von Eingabevariablen in einem Fragment
 
-   Wenn ein Fragment in einem Kampagnen-/Journey-Aktionsinhalt verwendet wird, kann es Variablen nutzen, die außerhalb des Fragments deklariert wurden. Nachfolgend finden Sie ein Beispiel:
+   Wenn ein Fragment im Inhalt einer Kampagnen-/Journey-Aktion verwendet wird, kann es Variablen nutzen, die außerhalb des Fragments deklariert wurden. Es folgt ein Beispiel:
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
-   Oben sehen Sie, dass die Variable `utm_content` im Kampagneninhalt deklariert ist. Wenn das Fragment **Hero block** verwendet wird, wird ein Link angezeigt, an den der Parameterwert `utm_content` angehängt wird. Das Endergebnis lautet: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+   Oben sehen Sie, dass die Variable `utm_content` im Kampagneninhalt deklariert ist. Wenn das Fragment **Hero block** verwendet wird, wird ein Link angezeigt, an den der Parameterwert `utm_content` angehängt wird. Das Ergebnis lautet: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
-1. Ausgabevariablen aus einem Fragment verwenden
+1. Verwenden von Ausgabevariablen aus einem Fragment
 
    In einem Fragment berechnete oder definierte Variablen können in Ihren Inhalten verwendet werden. Im folgenden Beispiel deklariert ein Fragment **F1** einen Variablensatz:
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   In E-Mail-Inhalten können wir die folgende Personalisierung verwenden:
+   Ein E-Mail-Inhalt kann die folgende Personalisierung aufweisen:
 
    ![](../personalization/assets/use-fragment-variable.png)
 
-   Das Fragment F1 initialisiert die folgenden Variablen: `utm_campaign`und `utm_content`. An den Link im Nachrichteninhalt werden diese Parameter angehängt. Das Endergebnis lautet: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+   Das Fragment F1 initialisiert die folgenden Variablen: `utm_campaign`und `utm_content`. Dann werden dem Link im Nachrichteninhalt diese Parameter angehängt. Das Ergebnis lautet: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
 >[!NOTE]
 >
->Zur Laufzeit erweitert das System, was sich in Fragmenten befindet, und interpretiert dann den Personalisierungscode von oben nach unten. Unter Berücksichtigung dieser Tatsache können komplexere Anwendungsfälle erreicht werden. Beispielsweise können Sie ein Fragment F1 erstellen, das Variablen an ein anderes Fragment F2 übergibt, das unten sitzt. Sie können auch ein visuelles Fragment F1 haben, das Variablen an ein verschachteltes Ausdrucksfragment F2 übergibt.
+>Zur Laufzeit erweitert das System, was sich in Fragmenten befindet, und interpretiert dann den Personalisierungs-Code von oben nach unten. Unter Berücksichtigung dieser Tatsache können komplexere Anwendungsfälle erreicht werden. Sie können beispielsweise ein Fragment F1 Variablen an ein anderes Fragment F2 übergeben lassen, das darunter sitzt. Sie können auch ein visuelles Fragment F1 Variablen an ein verschachteltes Ausdrucksfragment F2 übergeben lassen.
 
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}

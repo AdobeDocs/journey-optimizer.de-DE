@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
    * **[!UICONTROL Mobile-App-Konfigurationen verwalten]**
    * **[!UICONTROL Eigenschaften verwalten]**
 
-   Diese Berechtigungen sind erforderlich, damit der Entwickler der mobilen App Push-Anmeldeinformationen in der **Adobe Experience Platform-Datenerfassung** einrichten und die Kanalkonfigurationen für Push-Benachrichtigungen (d. h. Nachrichtenvorgaben) in **Adobe Journey Optimizer** definieren kann.
+   Diese Berechtigungen sind für die Entwicklerin oder den Entwickler der App erforderlich, um Push-Anmeldedaten für die **Datenerfassung in Adobe Experience Platform** einzurichten und Konfigurationen für Push-Benachrichtigungskanäle (d. h. Nachrichtenvoreinstellungen) in **Adobe Journey Optimizer** zu definieren.
 
    ![](assets/push_product_5.png)
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
 
 ### App konfigurieren {#configure-app}
 
-Die technische Einrichtung erfordert eine enge Zusammenarbeit zwischen dem App-Entwickler und dem Business-Administrator. Bevor Sie mit dem Versand von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie Push-Anmeldeinformationen, eine Push-Kanal-Konfiguration in Adobe Journey Optimizer erstellen und Ihre Mobile App mit Adobe Experience Platform Mobile SDKs integrieren.
+Die technische Einrichtung erfordert eine enge Zusammenarbeit zwischen dem App-Entwickler und dem Business-Administrator. Bevor Sie mit dem Versand von Push-Benachrichtigungen über [!DNL Journey Optimizer] beginnen, müssen Sie push-Anmeldedaten sowie eine Push-Kanalkonfiguration in Adobe Journey Optimizer erstellen und Ihre App mit Adobe Experience Platform Mobile SDKs integrieren.
 
 Folgen Sie den Implementierungsschritten, die in den folgenden Links beschrieben werden:
 
@@ -126,15 +126,15 @@ Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatibl
 Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
 
 
-## Schritt 1: Hinzufügen Ihrer Push-Anmeldedaten für Ihre App in Journey Optimizer {#push-credentials-launch}
+## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
-Nachdem Sie die richtigen Benutzerberechtigungen erteilt haben, müssen Sie jetzt Ihre Push-Anmeldedaten für Mobile Apps in Journey Optimizer hinzufügen.
+Nachdem Sie die richtigen Benutzerberechtigungen erteilt haben, müssen Sie jetzt Ihre Push-Anmeldedaten für Apps in Journey Optimizer hinzufügen.
 
 Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Adobe zu erlauben, Push-Benachrichtigungen in Ihrem Namen zu senden. Gehen Sie wie folgt vor:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Push-Einstellungen]** > **[!UICONTROL Push-Anmeldedaten]** auf.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Push-Einstellungen]** > **[!UICONTROL Push-Anmeldedaten]**.
 
-1. Klicken Sie auf **[!UICONTROL Push-Berechtigung erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Push-Anmeldedaten erstellen]**.
 
 1. Wählen Sie aus der Dropdownliste **[!UICONTROL Plattform]** das Betriebssystem aus:
 
@@ -142,11 +142,11 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
      ![](assets/add-app-config-ios.png)
 
-      1. Geben Sie die App **[!UICONTROL App-ID]** ein.
+      1. Geben Sie die **[!UICONTROL App-ID]** der App ein.
 
-      1. Aktivieren Sie die Option **[!UICONTROL Auf alle Sandboxes anwenden]** , um diese Push-Anmeldedaten für alle Sandboxes verfügbar zu machen. Wenn eine bestimmte Sandbox über eigene Anmeldeinformationen für dasselbe Platform- und App-ID-Paar verfügt, haben diese sandbox-spezifischen Anmeldeinformationen Vorrang.
+      1. Aktivieren Sie die Option **[!UICONTROL Auf alle Sandboxes anwenden]**, um diese Push-Anmeldedaten für alle Sandboxes verfügbar zu machen. Wenn eine bestimmte Sandbox über eigene Anmeldedaten für dasselbe Platform- und App-ID-Paar verfügt, haben diese Sandbox-spezifischen Anmeldedaten Vorrang.
 
-      1. Aktiviert die Schaltfläche **[!UICONTROL Push-Anmeldedaten manuell eingeben]** , um Ihre Anmeldedaten hinzuzufügen.
+      1. Aktivieren Sie die Schaltfläche **[!UICONTROL Push-Anmeldedaten manuell eingeben]**, um Ihre Anmeldedaten hinzuzufügen.
 
       1. Ziehen Sie die p8-Datei mit dem Apple-Authentifizierungsschlüssel für Push-Benachrichtigungen per Drag-and-Drop in den Arbeitsbereich. Dieser Schlüssel kann von der Seite **Zertifikate**, **Kennungen** und **Profile** abgerufen werden.
 
@@ -158,16 +158,16 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
      ![](assets/add-app-config-android.png)
 
-      1. Geben Sie die **[!UICONTROL App-ID]** an, normalerweise ist der Paketname die App-ID in Ihrer `build.gradle` -Datei.
+      1. Geben Sie die **[!UICONTROL App-ID]** an: Normalerweise ist der Package-Name die App-ID in Ihrer `build.gradle`-Datei.
 
-      1. Aktivieren Sie die Option **[!UICONTROL Auf alle Sandboxes anwenden]** , um diese Push-Anmeldedaten für alle Sandboxes verfügbar zu machen. Wenn eine bestimmte Sandbox über eigene Anmeldeinformationen für dasselbe Platform- und App-ID-Paar verfügt, haben diese sandbox-spezifischen Anmeldeinformationen Vorrang.
+      1. Aktivieren Sie die Option **[!UICONTROL Auf alle Sandboxes anwenden]**, um diese Push-Anmeldedaten für alle Sandboxes verfügbar zu machen. Wenn eine bestimmte Sandbox über eigene Anmeldedaten für dasselbe Platform- und App-ID-Paar verfügt, haben diese Sandbox-spezifischen Anmeldedaten Vorrang.
 
-      1. Aktiviert die Schaltfläche **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** , um Ihre Anmeldeinformationen hinzuzufügen.
+      1. Aktivieren sie die Schaltfläche **[!UICONTROL Push-Anmeldedaten manuell eingeben]**, um Ihre Anmeldedaten hinzuzufügen.
 
       1. Legen Sie die FCM-Push-Anmeldedaten per Drag-and-Drop ab. Weitere Informationen zum Abrufen der Push-Anmeldedaten finden Sie in der [Google-Dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 
-1. Klicken Sie auf **[!UICONTROL Senden]** , um Ihre App-Konfiguration zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre App-Konfiguration zu erstellen.
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -189,34 +189,34 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Schritt 2: Erstellen einer Kanalkonfiguration für Push-Benachrichtigungen{#message-preset}
 
-Nachdem Sie Ihre Push-Anmeldedaten erstellt haben, müssen Sie eine Konfiguration erstellen, um Push-Benachrichtigungen von **[!DNL Journey Optimizer]** senden zu können.
+Nachdem Ihre Push-Anmeldedaten erstellt haben, müssen Sie eine Konfiguration erstellen, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/push-config-9.png)
 
-1. Geben Sie einen Namen und eine Beschreibung (optional) für die Konfiguration ein.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Konfiguration an.
 
    >[!NOTE]
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
 
-1. Um der Konfiguration benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Wählen Sie den Kanal **Push** aus.
+1. Wählen Sie den **Push**-Kanal aus.
 
    ![](assets/push-config-10.png)
 
-1. Wählen Sie **[!UICONTROL Marketing-Aktion]**(en) aus, um den Nachrichten mithilfe dieser Konfiguration Einwilligungsrichtlinien zuzuordnen. Alle mit der Marketing-Aktion verknüpften Zustimmungsrichtlinien werden verwendet, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Wählen Sie Ihre **[!UICONTROL Plattform]** aus.
 
-1. Wählen Sie dieselbe **[!UICONTROL App-ID]** wie für Ihre oben konfigurierte [Push-Berechtigung](#push-credentials-launch) aus.
+1. Wählen Sie dieselbe **[!UICONTROL App-ID]** wie für Ihre oben konfigurierten [Push-Anmeldedaten](#push-credentials-launch) aus.
 
 1. Speichern Sie Ihre Änderungen.
 
-Jetzt können Sie Ihre Konfiguration bei der Erstellung Ihrer Push-Benachrichtigungen auswählen.
+Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigungen auswählen.
 
 ## Schritt 3: Adobe Journey Optimizer-Erweiterung in Ihrer Mobile-Eigenschaft konfigurieren {#configure-journey-optimizer-extension}
 
