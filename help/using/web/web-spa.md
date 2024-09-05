@@ -21,7 +21,7 @@ ht-degree: 100%
 >id="ajo_web_designer_modifications_views"
 >title="Anwenden von Änderungen auf ausgewählte Ansichten"
 >abstract="Die Änderungen werden nur für ausgewählte Ansichten angewendet. Mit dem Modus **Durchsuchen** können Sie Ansichten entdecken und zu ihnen navigieren. Ist die gewünschte Ansicht nicht verfügbar?"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
 
 **Einzelseitenanwendungen** (Single Page Applications, SPAs) können jetzt im visuellen Web-Designer-Editor erstellt werden. Auf diese Weise können Sie auswählen, auf welche **Ansichten** Sie Ihre Änderungen an der Web-Seite anwenden möchten.
 
