@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
+source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 97%
+source-wordcount: '1471'
+ht-degree: 94%
 
 ---
 
@@ -237,3 +237,45 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_rule_set_prioritization"
 >title="Faktor bei der Priorisierung"
 >abstract="TBD"
+
+<!--CONTENT LOCKING-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Governance"
+>abstract="Governance"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Modus"
+>abstract="Modus"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Inhaltszusatz aktivieren"
+>abstract="Inhaltszusatz aktivieren"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Inhaltssperrung in Struktur"
+>abstract="Inhaltssperrung in Struktur"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Verwenden der spezifischen Sperre in der Komponente"
+>abstract="Verwenden der spezifischen Sperre in der Komponente"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Bearbeitbare Bereiche markieren"
+>abstract="Bearbeitbare Bereiche markieren"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Governance aktiviert"
+>abstract="Die Inhaltssperrung ist aktiviert und kann Änderungen verhindern."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Schreibgeschützt"
+>abstract="Dieser Inhalt ist schreibgeschützt und kann nicht geändert werden."
