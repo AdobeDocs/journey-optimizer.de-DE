@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfl√§che, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 99%
 
 ---
 
@@ -271,10 +271,9 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k√
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## Anleitungsvideo{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+Erfahren Sie, was Kanalkonfigurationen sind und wie sie in Adobe Journey Optimizer verwendet werden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
