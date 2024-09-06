@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 92%
 
 ---
 
@@ -48,9 +48,9 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 1. Aktivieren Sie die Option **[!UICONTROL Maximale Wartezeit für das Ereignis definieren]** in den Eigenschaften des Ereignisses.
 
-1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll. Die maximale Wartezeit beträgt 29 Tage.
+1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll. Die maximale Wartezeit beträgt **90 Tage**.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, falls innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt fortgesetzt, sobald die maximale Wartezeit erreicht wird.  Wir empfehlen Ihnen, immer die Option **Zeitüberschreitungspfad einrichten** zu aktivieren.
+1. Wenn innerhalb der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, empfiehlt es sich, die Kontakte in einen Zeitüberschreitungspfad zu senden. Aktivieren Sie dazu die Option **[!UICONTROL Pfad für die Zeitüberschreitung festlegen]** . In diesem Fall wird die Journey für die Person fortgesetzt, sobald die Zeitüberschreitung erreicht ist. Wir empfehlen Ihnen, immer die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]** zu aktivieren.
 
    ![](assets/event-timeout.png)
 
