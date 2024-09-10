@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>Mit der Anleitung zur Kanaleinrichtung können Sie die Kanaleinrichtung in einem einheitlichen Erlebnis automatisieren und validieren und so schneller mit Journey Optimizer beginnen. Diese Anleitung zur Kanaleinrichtung optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und Datenerfassung sofort installiert und verwendet werden. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journeys beginnen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/set-mobile-config.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>Verfügbarkeitsdatum: 3. September</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**Journeys**
+
+(Verfügbarkeitsdatum: 10. September) **Wiederholungsfunktion** - Beim Abrufen des Exportauftrags werden nun standardmäßig Wiederholungen auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Leserichtung** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten erneute Versuche unternommen, höchstens jedoch für eine Stunde. Danach werden wir es als Fehler betrachten. Diese Journey können daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
 
 ## Versionshinweise für August 2024 {#8-2024}
 
