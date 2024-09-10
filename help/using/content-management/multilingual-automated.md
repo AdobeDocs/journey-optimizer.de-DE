@@ -10,14 +10,24 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 82%
 
 ---
 
 # Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="Anbieter hinzufügen"
+>abstract="Fügen Sie bei Bedarf Übersetzungsanbieter und Gebietsschemata hinzu. Auf diese Weise können Sie verwalten, welche Anbieter und Gebietsschemata für Ihr Projekt aktiv sind, und Sie können so flexibel Ressourcen anpassen und Zielgruppen auf der Grundlage Ihrer aktuellen Anforderungen und des Projektumfangs auswählen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="Dienstleister bearbeiten"
+>abstract="Ändern Sie vorhandene Übersetzungsanbieter und fügen Sie nach Bedarf Gebietsschemata hinzu. Mit dieser Funktion können Sie steuern, welche Anbieter und Gebietsschemas für Ihr Projekt aktiv sind. So können Sie flexibel Ressourcen anpassen und spezifische Zielgruppen an Ihre aktuellen Anforderungen und Projektziele anpassen."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der au
 
 ## Erstellen eines Gebietsschemas {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="Gebietsschema hinzufügen"
+>abstract="Bei der Konfiguration Ihrer Sprachvoreinstellungen haben Sie die Möglichkeit, zusätzliche Gebietsschemata zu erstellen, wenn die gewünschte Sprache nicht für Ihre mehrsprachigen Inhalte verfügbar ist."
+
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
 1. Greifen Sie im Menü **[!UICONTROL Content Management]** auf **[!UICONTROL Übersetzung]** zu.
@@ -54,6 +69,16 @@ Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen 
    ![](assets/locale_2.png)
 
 ## Erstellen eines Übersetzungsprojekts {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="Projekt erstellen"
+>abstract="Um mit der Erstellung mehrsprachiger Inhalte zu beginnen, starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema identifizieren und die entsprechende Sprache oder den regionalen Dialog für Ihre Zielgruppe auswählen. Wählen Sie anschließend einen Übersetzungsanbieter aus, der den Anforderungen Ihres Projekts entspricht."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="Projekt bearbeiten"
+>abstract="Aktualisieren Sie Ihr Übersetzungsprojekt, um zusätzliche Gebietsschemata zu integrieren, sodass Sie Ihre Inhalte erweitern können, um eine breitere Zielgruppe zu erreichen."
 
 Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben und dabei die spezifische Sprache oder Region für Ihren Inhalt angeben. Sie können dann Ihren Übersetzungsanbieter auswählen.
 
@@ -205,6 +230,11 @@ Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand könne
 
 ## Verwalten eines Insourcing-Übersetzungsprojekts {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="Insourcing von Übersetzungsprojekten"
+>abstract="Durch die Integration von Übersetzungsprojekten können Sie Übersetzungen direkt in Ihrem Übersetzungsprojekt verwalten und ausführen, den Prozess optimieren und die Übersetzungsqualität und -konsistenz besser kontrollieren."
+
 Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option „Insourcing“ ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
 
 1. Rufen Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Weitere Aktionen]** auf und wählen Sie **[!UICONTROL Insourcing]**.
@@ -222,6 +252,16 @@ Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option „Insourcin
 1. Wenn Sie bereit sind, den übersetzten Text zu veröffentlichen, klicken Sie auf **[!UICONTROL Fertigstellen]**.
 
 ## Überprüfen Ihres Übersetzungsprojekts {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="Überprüfen Ihres Übersetzungsprojekts"
+>abstract="Sobald Ihr Übersetzungsanbieter die Übersetzung abgeschlossen hat, können Sie die Ergebnisse direkt in Journey Optimizer überprüfen. Auf diese Weise können Sie die Genauigkeit und Qualität der Übersetzung beurteilen und sicherstellen, dass sie Ihren Erwartungen und Projektanforderungen entspricht, bevor Sie sie abschließen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="Anzeigen einer Vorschau Ihres Übersetzungsprojekts"
+>abstract="Im Vorschaufenster können Sie sehen, wie der übersetzte Inhalt in den einzelnen Sprachen dargestellt wird. Mithilfe dieser Funktion können Sie das Rendering untersuchen und sicherstellen, dass der Inhalt in allen ausgewählten Sprachen korrekt und effektiv angezeigt wird."
 
 Wenn Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** gewählt haben, können Sie die Übersetzung nach der Fertigstellung durch den von Ihnen gewählten Übersetzungsanbieter direkt in Journey Optimizer überprüfen.
 
