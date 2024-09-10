@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a7234350c0ca66d033bbbd77c1b14063147468cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 100%
 
