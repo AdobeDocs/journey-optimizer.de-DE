@@ -225,7 +225,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
->title="Regelsatz auf Journey anwenden"
+>title="Anwenden des Regelsatzes auf Journeys"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -252,12 +252,12 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Inhaltszusatz aktivieren"
+>title="Aktivieren von Inhaltszusätzen"
 >abstract="Inhaltszusatz aktivieren"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
->title="Inhaltssperrung in Struktur"
+>title="Inhaltssperre in Struktur"
 >abstract="Inhaltssperrung in Struktur"
 
 >[!CONTEXTUALHELP]
@@ -267,13 +267,13 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
->title="Bearbeitbare Bereiche markieren"
+>title="Markieren bearbeitbarer Bereiche"
 >abstract="Bearbeitbare Bereiche markieren"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Governance aktiviert"
->abstract="Die Inhaltssperrung ist aktiviert und kann Änderungen verhindern."
+>abstract="Die Inhaltssperre ist aktiviert und kann das Vornehmen von Änderungen verhindern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
