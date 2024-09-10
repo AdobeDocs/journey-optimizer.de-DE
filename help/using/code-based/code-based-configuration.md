@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
 >title="Vorschau-URL"
->abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts direkt auf Ihrem Gerät in Ihrer Anwendung erforderlich."
+>abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts in Ihrer Anwendung direkt auf Ihrem Gerät erforderlich."
 
 ## Erstellen einer Kanalkonfiguration {#reatte-code-based-configuration}
 
@@ -93,12 +93,12 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    * Beim Web:
 
-      * Wenn eine einseitige URL eingegeben wird, wird diese URL für die Vorschau verwendet.
-      * Wenn eine Seitenübereinstimmungsregel ausgewählt ist, müssen Sie eine Standard-Vorschau-URL eingeben, die zur Vorschau des Erlebnisses im Browser verwendet wird.
+      * Wenn die URL einer einzelnen Seite eingegeben wird, wird diese URL für die Vorschau verwendet.
+      * Wenn eine Regel zum Seitenabgleich ausgewählt ist, müssen Sie eine Standard-Vorschau-URL eingeben, die zur Vorschau des Erlebnisses im Browser verwendet wird.
 
    * Für mobile Plattformen (iOS/Android):
 
-      * Vorschau-URL ist ein Deeplink, der vom App-Entwickler in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deeplink-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihren App-Entwickler, um das für Ihre App konfigurierte Deeplink-Schema zu erhalten.
+      * Die Vorschau-URL ist ein Deeplink, der von der App-Entwicklerinnen und -Entwicklern in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deeplink-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihre App-Entwicklerin oder an Ihren App-Entwickler, um das für Ihre App konfigurierte Deeplink-Schema zu erhalten.
 
 +++  Die folgenden Ressourcen können Ihnen beim Konfigurieren von Deep-Links für Ihre App-Implementierung helfen
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    >[!NOTE]
    >
-   >Sollten bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Sollten bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Wählen Sie das Format aus, das von der Anwendung an diesem bestimmten Speicherort erwartet wird. Dies wird beim Authoring des Code-basierten Erlebnisses in Kampagnen und Journeys verwendet.
 

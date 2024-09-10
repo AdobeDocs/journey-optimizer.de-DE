@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -72,15 +72,15 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt, heruntergeladen oder freige
 
 >[!ENDTABS]
 
-## Einfache Metrik erstellen {#create-simple-metric}
+## Erstellen einer einfachen Metrik {#create-simple-metric}
 
-Sie können benutzerdefinierte berechnete Metriken direkt in Ihren Berichten erstellen. Sie können stärker auf Ihre Bedürfnisse zugeschnittene Einblicke generieren und Ihre Daten besser analysieren, indem Sie zwei vorhandene Metriken so kombinieren, dass sie Ihren jeweiligen Berichtsanforderungen entsprechen.
+Sie können benutzerdefiniert berechnete Metriken direkt in Ihren Berichten erstellen. Sie können zielgerichtetere Einblicke generieren und Ihre Daten besser analysieren, indem Sie zwei vorhandene Metriken so kombinieren, dass sie Ihren jeweiligen Berichtsanforderungen entsprechen.
 
 1. Greifen Sie zunächst auf den Bericht zu, dem Sie eine neue Metrik hinzufügen möchten.
 
-1. Wählen Sie in der Tabelle Ihres Berichts die gewünschten Metriken aus, indem Sie die Tasten `Shift` oder `CTRL/CMD` gedrückt halten, während Sie darauf klicken. Klicken Sie dann mit der rechten Maustaste und wählen Sie **[!UICONTROL Metrik aus Auswahl erstellen]** aus.
+1. Wählen Sie in der Tabelle in Ihrem Bericht die gewünschten Metriken aus, indem Sie die Tasten `Shift` oder `CTRL/CMD` gedrückt halten, während Sie auf die Metriken klicken. Klicken Sie dann mit der rechten Maustaste und wählen Sie **[!UICONTROL Metrik aus Auswahl erstellen]** aus.
 
-   Wenn Sie mehr als zwei Metriken auswählen, werden nur die ersten beiden im Metrikaufbau verwendet.
+   Wenn Sie mehr als zwei Metriken auswählen, werden nur die ersten beiden im Generator für Metriken verwendet.
 
    ![](assets/cja-create-metric_2.png)
 
@@ -88,31 +88,31 @@ Sie können benutzerdefinierte berechnete Metriken direkt in Ihren Berichten ers
 
    >[!NOTE]
    >
-   >Wenn Sie Customer Journey Analytics besitzen, können Sie Ihre Metriken mit zusätzlichen Optionen weiter personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Wenn Sie Customer Journey Analytics besitzen, können Sie Ihre Metriken mit zusätzlichen Optionen weiter personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
-1. Wählen Sie die entsprechenden **[!UICONTROL Dezimalstellen]** aus und wählen Sie je nachdem, wie Ihre Metrik angezeigt werden soll, ein **[!UICONTROL Format]** (Dezimal, Zeit, Prozent oder Währung).
+1. Wählen Sie die entsprechenden **[!UICONTROL Dezimalstellen]** und je nachdem, wie Ihre Metrik angezeigt werden soll, ein **[!UICONTROL Format]** (Dezimal, Zeit, Prozent oder Währung) aus.
 
-1. Wählen Sie den Operator aus, der bestimmt, wie die Metrik berechnet wird, z. B. Addition, Subtraktion, Multiplikation oder Division.
+1. Wählen Sie den Operator aus, der bestimmt, wie die Metrik berechnet wird, z. B. Addition, Subtraktion, Multiplikation oder Division.
 
    ![](assets/cja-create-metric.png)
 
 1. Sie können die Komponenten bei Bedarf neu anordnen.
 
-1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]** , um die neue Metrik abzuschließen.
+1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]**, um die neue Metrik abzuschließen.
 
 1. Ihre neue Metrik wird neben den ursprünglichen Metriken in Ihrem Bericht angezeigt.
 
    ![](assets/cja-create-metric_3.png)
 
-Ihre neu erstellte Metrik wird beim Export des Berichts als PDF oder CSV-Datei einbezogen. Er wird jedoch aus dem Bericht entfernt, sobald Sie ihn beenden.
+Ihre neu erstellte Metrik wird beim Export des Berichts als PDF oder CSV-Datei einbezogen. Sie wird jedoch aus dem Bericht entfernt, sobald Sie ihn schließen.
 
-## Daten mit der Sondierungsanalyse durchsuchen {#exploratory}
+## Durchsuchen von Daten mit der Sondierungsanalyse {#exploratory}
 
-Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenexploration und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenforschung und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Öffnen Sie zunächst den Bericht, in dem Sie die Sondierungsanalyse verwenden möchten.
+1. Greifen Sie zunächst auf den Bericht zu, in dem Sie die neue Sondierungsanalyse verwenden möchten.
 
-1. Wählen Sie im Menü links in der Leiste das Menü Sondierungsanalyse aus.
+1. Wählen Sie im Menü in der linken Leiste das Menü „Sondierungsanalyse“ aus.
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -120,13 +120,13 @@ Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Vis
 
    ![](assets/exploratory_analysis_2.png)
 
-1. Definieren Sie den Datumsbereich für Ihre Analyse, um den Zeitraum anzugeben, auf den Sie sich konzentrieren möchten. Standardmäßig wird der Datumsbereich auf den im Berichtbereich verwendeten eingestellt.
+1. Definieren Sie den Datumsbereich für Ihre Analyse, um den Zeitraum anzugeben, auf den Sie sich konzentrieren möchten. Der Datumsbereich wird standardmäßig auf den Bereich eingestellt, der im Panel „Bericht“ verwendet wird.
 
-1. Verwenden Sie die Optionen **[!UICONTROL Aufschlüsselung hinzufügen]** oder **[!UICONTROL Metrik hinzufügen]** , um zusätzliche Dimensionen einzuschließen, sodass eine detailliertere Datenaufschlüsselung möglich ist.
+1. Verwenden Sie die Optionen **[!UICONTROL Aufschlüsselung hinzufügen]** oder **[!UICONTROL Metrik hinzufügen]**, um zusätzliche Dimensionen einzubeziehen, sodass eine detailliertere Datenaufschlüsselung möglich ist.
 
    Beachten Sie, dass Sie nur bis zu drei **[!UICONTROL Dimensionen]**, **[!UICONTROL Metriken]** und **[!UICONTROL Segmente]** hinzufügen können.
 
-Sie können Ihre Daten jetzt mit Ihren benutzerdefinierten Tabellen- und Visualisierungswerkzeugen analysieren.
+Sie können Ihre Daten jetzt mit Ihren benutzerdefinierten Tabellen- und Visualisierungs-Tools analysieren.
 
 <!--## Create a down-funnel metric {#down-funnel}
 
@@ -143,7 +143,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Außerdem können Benutzer maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen
+>Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 
@@ -151,17 +151,17 @@ Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswa
 
 1. Klicken Sie mit der rechten Maustaste auf die gewünschte Zelle und wählen Sie **[!UICONTROL Zielgruppe erstellen]** aus.
 
-   Alternativ können Sie die Erstellung einer Zielgruppe über das Widget **[!UICONTROL Journey Canvas]** starten, indem Sie einen Knoten auswählen und mit der rechten Maustaste darauf klicken.
+   Alternativ können Sie die Erstellung einer Zielgruppe über das Widget **[!UICONTROL Journey-Arbeitsfläche]** starten, indem Sie einen Knoten auswählen und mit der rechten Maustaste darauf klicken.
 
 1. Geben Sie im Fenster **[!UICONTROL Zielgruppe erstellen]** einen **[!UICONTROL Namen]** ein und legen Sie einen **[!UICONTROL einmaligen Datumsbereich]** für die Zielgruppe fest, die Sie veröffentlichen möchten.
 
    >[!NOTE]
    >
-   >Wenn Sie Customer Journey Analytics besitzen, können Sie Ihre Metriken mit zusätzlichen Optionen weiter personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Wenn Sie Customer Journey Analytics besitzen, können Sie Ihre Metriken mit zusätzlichen Optionen weiter personalisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]** , um die Erstellung der Audience abzuschließen. Beachten Sie, dass dieser Vorgang möglicherweise einige Zeit in Anspruch nehmen kann.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]**, um die Erstellung der Zielgruppe fertigzustellen. Beachten Sie, dass dieser Vorgang möglicherweise einige Zeit in Anspruch nehmen kann.
 
-Jetzt können Sie die neu erstellte Audience mit einer Journey oder Kampagne verwenden.
+Sie können jetzt die neu erstellte Zielgruppe mit einer Journey oder Kampagne verwenden.
 

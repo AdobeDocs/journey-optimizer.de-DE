@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Einrichten eines Kanals
-description: Erfahren Sie, wie Sie einen Kanal einrichten
+title: Erstellen einer Kanaleinrichtung
+description: Erfahren Sie, wie Sie eine Kanaleinrichtung erstellen
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Einrichten eines Kanals {#set-mobile-ios}
+# Erstellen einer Kanaleinrichtung {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript-Code"
->abstract="Das head -Tag enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Webseite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er frühzeitig initialisiert und ausgeführt wird, sodass Ihre Web-Seite effizient geladen werden und funktionieren kann. Durch Hinzufügen von Code zum Kopfabschnitt können Sie die Struktur, die Leistung und das gesamte Benutzererlebnis Ihrer Site verbessern."
+>abstract="Das Head-Tag enthält wichtige Metadaten und Ressourcen, die vor dem Hauptinhalt Ihrer Web-Seite geladen werden. Durch die Platzierung von Code in diesem Abschnitt wird sichergestellt, dass er ordnungsgemäß initialisiert und frühzeitig ausgeführt wird, sodass Ihre Web-Seite effizient geladen werden und funktionieren kann. Durch Hinzufügen von Code zum Head-Abschnitt können Sie die Struktur, die Leistung und das gesamte Anwendererlebnis Ihrer Website verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
@@ -53,7 +53,7 @@ ht-degree: 76%
 >abstract="Die Team-ID, ein Zeichenfolgewert, der zur Identifizierung Ihres Teams verwendet wird, befindet sich auf der Registerkarte **Abonnement** in Ihrem Entwicklerkonto."
 
 
-Diese Konfiguration vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Experience Platform-, Journey Optimizer- und Datenerfassungs-Apps verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journeys beginnen.
+Dieses Setup vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Apps Experience Platform, Journey Optimizer und Datenerfassung verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journeys beginnen.
 
 1. Klicken Sie auf der Homepage von Journey Optimizer auf **[!UICONTROL Starten]** auf der Karte **[!UICONTROL Mobil- und Web-Kanäle einrichten]**.
 
@@ -69,19 +69,19 @@ Diese Konfiguration vereinfacht die schnelle Konfiguration von Marketing-Kanäle
 
 1. Wenn Ihr Unternehmen über mehrere Datenströme verfügt, wählen Sie einen aus den vorhandenen Optionen aus. Wenn Sie über keinen Datenstrom verfügen, wird für Sie automatisch einer erstellt.
 
-1. Wählen Sie Ihre Plattform aus und klicken Sie auf **[!UICONTROL Ressourcen automatisch erstellen]**.
+1. Wählen Sie die Plattform aus und klicken Sie auf **[!UICONTROL Ressourcen automatisch erstellen]**.
 
 1. Zur Optimierung des Setup-Prozesses werden die erforderlichen Ressourcen automatisch erstellt, um Ihnen die ersten Schritte zu erleichtern. Dazu gehören die Erstellung einer neuen **[!UICONTROL Mobile Tag-Eigenschaft]** und die Installation von Erweiterungen.
 
-[Erfahren Sie mehr über die automatisch generierten Ressourcen](set-mobile-config.md#auto-create-resources)
+[Weitere Informationen zu automatisch erstellten Ressourcen](set-mobile-config.md#auto-create-resources)
 
-1. Nachdem die Ressourcengenerierung abgeschlossen ist, befolgen Sie die Anweisungen in der Benutzeroberfläche, um Ihre SDKs und Kanäle einzurichten und zu validieren.
+1. Nachdem die Erstellung von Ressourcen abgeschlossen ist, befolgen Sie die Anweisungen auf der Benutzeroberfläche, um Ihre SDKs und Kanäle einzurichten und zu validieren.
 
 1. Geben Sie nach Abschluss der Konfiguration die automatisch generierte **[!UICONTROL Kanalkonfiguration]** für die Teammitglieder frei, die für die Erstellung von Journeys und Kampagnen verantwortlich sind.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. Sie können jetzt auf der Kampagnen- oder Journey-Oberfläche auf die **[!UICONTROL Kanalkonfiguration]** verweisen, was eine nahtlose Verbindung zwischen Ihrer Einrichtung und der Ausführung von zielgerichteten Journey und Kampagnen für Ihre Zielgruppe ermöglicht.
+1. Sie können jetzt in der Kampagnen- oder Journey-Benutzeroberfläche auf die **[!UICONTROL Kanalkonfiguration]** verweisen, sodass eine nahtlose Verbindung zwischen Ihrem Setup und der Ausführung von zielgerichteten Journeys und Kampagnen für Ihre Zielgruppe hergestellt werden kann.
 
 ## Ändern einer vorhandenen mobilen Konfiguration {#reconnect}
 

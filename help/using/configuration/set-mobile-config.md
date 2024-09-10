@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -26,31 +26,31 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Mit Assurance validieren"
->abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und überprüfen können."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home" text="Überblick über die Adobe Experience Platform-Assetbildung"
+>abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und validieren können."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home" text="Überblick über Adobe Experience Platform Assurance"
 
-Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketingteam mit der Erstellung von Kampagnen und Journey beginnen.
+Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
-Die Einrichtung des Guided Channel unterstützt die folgenden Plattformen und Kanäle.
+Die Anleitung zur Kanaleinrichtung unterstützt die folgenden Plattformen und Kanäle.
 
-* Plattformen und SDK:
+* Plattformen und SDKs:
 
-   * Swift by Apple, iOS
+   * Swift von Apple, iOS
 
    * Kotlin, Android
 
    * JavaScript, Web
 
-* Kanäle:
+* Kanäle
 
    * Mobile In-App
 
-   * Mobile Push-Nachricht
+   * Push-Nachrichten für Mobilgeräte
 
    * Web Basic
 
 
-Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separate Konfiguration erstellt werden muss. Dies liegt daran, dass jede App eine eindeutige Kanalkonfiguration erfordert und so flexibel festgelegt werden kann, welche Kanäle Sie für jede Plattform wünschen.
+Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separate Konfiguration erstellt werden muss. Dies liegt daran, dass jede App eine eindeutige Kanalkonfiguration erfordert. So können Sie flexibel festlegen, welche Kanäle Sie für jede Plattform wünschen.
 
 ## Voraussetzungen {#prereq}
 
@@ -109,7 +109,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
 +++
 
-* Wenn Sie die Option Vorhandene Konfiguration verwenden, stellen Sie sicher, dass Sie die folgenden Adobe Experience Platform Mobile SDK-Erweiterungsversionen verwenden. Weitere Informationen zum SDK-Setup, einschließlich der erforderlichen Abhängigkeiten und des Initialisierungscodes, finden Sie in der [folgenden Dokumentation](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en).
+* Wenn Sie die Option „Vorhandene Konfiguration“ verwenden, stellen Sie sicher, dass Sie die folgenden Adobe Experience Platform Mobile SDK-Erweiterungsversionen verwenden. Weitere Informationen zum SDK-Setup, einschließlich der erforderlichen Abhängigkeiten und des Initialisierungs-Codes, finden Sie in der [folgenden Dokumentation](https://experienceleague.adobe.com/de/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Für Android
 
@@ -123,7 +123,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
 ## Automatisch erstellte Ressourcen {#auto-create-resources}
 
-Die Einrichtung geführter Kanäle vereinfacht die schnelle Konfiguration von Marketingkanälen, sodass alle wichtigen Ressourcen in den Experience Platform-, Journey Optimizer- und Datenerfassungs-Apps verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journey beginnen. Im Folgenden finden Sie eine Liste der Ressourcen, die im Rahmen der Einrichtung des geführten Kanals automatisch generiert und konfiguriert werden.
+Die Anleitung zur Kanaleinrichtung vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Apps Experience Platform, Journey Optimizer und Datenerfassung verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journeys beginnen. Nachfolgend finden Sie eine Liste der Ressourcen, die im Rahmen der Anleitung zur Kanaleinrichtung automatisch generiert und konfiguriert werden.
 
 Durchsuchen Sie die folgenden Registerkarten, um auf die umfassenden Listen aller automatisch generierten Ressourcen zuzugreifen:
 
@@ -131,7 +131,7 @@ Durchsuchen Sie die folgenden Registerkarten, um auf die umfassenden Listen alle
 
 >[!TAB iOS]
 
-Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen, die auf dem Bildschirm **Konfigurationsdetails** erstellt wurden, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
+Für die **Erstkonfiguration** finden Sie unten auf dem Bildschirm **Konfigurationsdetails** eine umfassende Liste aller erstellten Ressourcen, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
 
 <table>
   <thead>
@@ -200,7 +200,7 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   </tbody>
   </table>
 
-Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die auf dem Bildschirm **Kanäle hinzufügen** erstellt wurden.
+Für die **Kanaleinrichtung** finden Sie unten auf dem Bildschirm **Kanäle hinzufügen** eine umfassende Liste aller erstellten Ressourcen.
 
 <table>
   <thead>
@@ -217,7 +217,7 @@ Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die a
   <td>
   <ul>
   <li>Kanalkonfiguration</li>
-  <li>Push-Anmeldedaten hochladen (nur mobile Push-Nachrichten)</li>
+  <li>Hochladen von Push-Anmeldedaten (nur Push-Nachrichten für Mobilgeräte)</li>
   </ul>
   </td>
   </tr>
@@ -226,7 +226,7 @@ Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die a
 
 >[!TAB Android]
 
-Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen, die auf dem Bildschirm **Konfigurationsdetails** erstellt wurden, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
+Für die **Erstkonfiguration** finden Sie unten auf dem Bildschirm **Konfigurationsdetails** eine umfassende Liste aller erstellten Ressourcen, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
 
 <table>
   <thead>
@@ -295,7 +295,7 @@ Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen,
   </tbody>
   </table>
 
-Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die auf dem Bildschirm **Kanäle hinzufügen** erstellt wurden.
+Für die **Kanaleinrichtung** finden Sie unten auf dem Bildschirm **Kanäle hinzufügen** eine umfassende Liste aller erstellten Ressourcen.
 
 <table>
   <thead>
@@ -312,7 +312,7 @@ Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die a
   <td>
   <ul>
   <li>Kanalkonfiguration</li>
-  <li>Push-Anmeldedaten hochladen (nur mobile Push-Nachrichten)</li>
+  <li>Hochladen von Push-Anmeldedaten (nur Push-Nachrichten für Mobilgeräte)</li>
   </ul>
   </td>
   </tr>
@@ -321,7 +321,7 @@ Für das **Kanal-Setup** ist unten eine umfassende Liste aller Ressourcen, die a
 
 >[!TAB Web]
 
-Für die **Erstkonfiguration** ist unten eine umfassende Liste aller Ressourcen, die auf dem Bildschirm **Konfigurationsdetails** erstellt wurden, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
+Für die **Erstkonfiguration** finden Sie unten auf dem Bildschirm **Konfigurationsdetails** eine umfassende Liste aller erstellten Ressourcen, wenn Sie auf **Ressourcen automatisch erstellen** klicken.
 
 <table>
   <thead>

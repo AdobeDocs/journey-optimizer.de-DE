@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -112,14 +112,14 @@ Verfügbare Operatoren zum Erstellen von Regeln zum Seitenabgleich:
         <td></td>
     </tr>
     <tr>
-        <td>Wildcard-Übereinstimmung</td>
-        <td>Mit dem Operator "Wildcard Matching"kann der Benutzer einen internen Platzhalter im Pfad definieren, z. B. "/products/*/detail".  Das Platzhalterzeichen * in der Komponente Pfad ** gleicht alle Zeichenfolgen ab, bis das erste /-Zeichen gefunden wird.  /*/ stimmt mit jeder Folge von Zeichen überein (einschließlich Unterpfaden)</td>
-        <td>Beispiel: "Wildcard match: /products/*/detail", stimmt mit allen Pfaden überein, wie: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Beispiel: "Stimmt überein mit: /prod*/detail, stimmt mit allen Pfaden überein, wie: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>Entspricht nicht Pfaden wie: <ul><li>example.com/products/yoga/detail</li></ul></td>
+        <td>Platzhalterabgleich</td>
+        <td>Mit dem Operator „Platzhalterabgleich“ können Benutzende einen internen Platzhalterabgleich im Pfad definieren, z. B. „/products/*/detail“.  Das Platzhalterzeichen * in der Komponente Pfad ** gleicht alle Zeichenfolgen ab, bis das erste /-Zeichen gefunden wird.  /*/ gleicht alle Zeichenfolgen ab (einschließlich Nebenpfaden) </td>
+        <td>Beispiel: „Wildcard matching: /products/*/detail“, gleicht alle Pfade ab, wie: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Beispiel: „Matches: /prod*/detail, stimmt mit allen Pfaden überein, wie: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>Gleicht keine Pfade ab wie: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Enthält</td>
         <td>„Enthält“ wird in einen Platzhalter wie „mystring“ übersetzt und gleicht alle Pfade ab, die diese Zeichenfolge enthalten.</td>
-        <td>Beispiel: "Enthält: Produkt", stimmt mit allen Pfaden überein, die das Zeichenfolgenprodukt enthalten, z. B.: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
+        <td>Beispiel: „Contains: product“ gleicht alle Pfade ab, die das Zeichenfolgenprodukt enthalten, z. B.: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
