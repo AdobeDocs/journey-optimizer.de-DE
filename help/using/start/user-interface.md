@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Viewer in Journey konfigurieren"
->abstract="Viewer in Journey konfigurieren"
+>title="Konflikt-Viewer in Journeys"
+>abstract="Konflikt-Viewer in Journeys"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -230,7 +230,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
->title="Regelsatz auf Kampagnen anwenden"
+>title="Anwenden des Regelsatzes auf Kampagnen"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -253,12 +253,12 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
 >title="Aktivieren von Inhaltszusätzen"
->abstract="Inhaltszusatz aktivieren"
+>abstract="Aktivieren von Inhaltszusätzen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="Inhaltssperre in Struktur"
->abstract="Inhaltssperrung in Struktur"
+>abstract="Inhaltssperre in Struktur"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
@@ -268,7 +268,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
 >title="Markieren bearbeitbarer Bereiche"
->abstract="Bearbeitbare Bereiche markieren"
+>abstract="Markieren bearbeitbarer Bereiche"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"

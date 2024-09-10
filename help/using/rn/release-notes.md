@@ -8,8 +8,8 @@ description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 85%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## September-Updates {#9-2024}
+## Aktualisierungen für September {#9-2024}
 
 <table>
 <thead>
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>Die Einrichtung des geführten Kanals ermöglicht es Ihnen, die Einrichtung von Kanälen in einem einheitlichen Erlebnis zu automatisieren und zu validieren, wodurch die ersten Schritte mit Journey Optimizer beschleunigt werden. Dieses neue geleitete Setup optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort installiert und verwendet werden. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journey beginnen.</p>
+<p>Mit der Anleitung zur Kanaleinrichtung können Sie die Kanaleinrichtung in einem einheitlichen Erlebnis automatisieren und validieren und so schneller mit Journey Optimizer beginnen. Diese Anleitung zur Kanaleinrichtung optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und Datenerfassung sofort installiert und verwendet werden. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journeys beginnen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/set-mobile-config.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -181,10 +181,10 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
 
-* Neue Anwendungsfälle wurden zum neuen Berichtserlebnis hinzugefügt:
+* Es wurden neue Anwendungsfälle zum neuen Berichtserlebnis hinzugefügt:
 
    * Erstellen Sie benutzerdefinierte berechnete Metriken direkt in Ihren Berichten.
-   * Erstellen einer Zielgruppe aus Berichtsdaten.
+   * Erstellen Sie eine Zielgruppe aus Berichtsdaten.
    * Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen.
 
   Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../reports/report-cja-manage.md).
