@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '2295'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '2361'
+ht-degree: 93%
 
 ---
 
@@ -142,11 +142,12 @@ Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Sch
 Für die Aktivität **[!UICONTROL Zielgruppe lesen]** gelten die folgenden Schutzmechanismen:
 
 * Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.
-* Bei Journeys, die eine Aktivität vom Typ „Zielgruppe lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Es werden zwar weitere Wiederholungsversuche vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Zielgruppe lesen“, geplant oder „so bald wie möglich“) exakt zur gleichen Zeit beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
-* Die Aktivität „Zielgruppe lesen“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
-* Die Aktivität „Zielgruppe lesen“ kann nur als erste Aktivität in einer Journey nach einer Geschäftsereignisaktivität verwendet werden.
-* Eine Journey kann nur über eine Aktivität „Zielgruppe lesen“ verfügen.
-* Zusätzliche Empfehlungen zur Verwendung der Aktivität „Zielgruppe lesen“ finden Sie auf [dieser Seite](../building-journeys/read-audience.md).
+* Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit **Audience lesen**, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
+* Die Aktivität **Audience lesen** kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
+* Die Aktivität **Audience lesen** kann nur als erste Aktivität in einer Journey verwendet werden, die auf eine Geschäftsereignisaktivität folgt.
+* Eine Journey kann nur eine **Audience lesen** -Aktivität haben.
+* Siehe auch Empfehlungen zur Verwendung der Aktivität **Audience lesen** auf [dieser Seite](../building-journeys/read-audience.md).
+* Beim Abrufen des Exportauftrags werden standardmäßig Wiederholungen auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Audience lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten erneute Versuche unternommen, höchstens jedoch für eine Stunde. Danach werden wir es als Fehler betrachten. Diese Journey können daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden.
 
 
 ### Zielgruppen-Qualifizierung {#audience-qualif-g}

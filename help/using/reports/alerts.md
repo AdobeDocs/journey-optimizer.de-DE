@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ Der Name des E/A-Ereignissabonnements, der dem Warnhinweis für benutzerdefinier
 
 ## Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
 
-Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden.
+Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme verursacht werden oder weil die Zielgruppe leer ist. Wenn dieser Fehler durch technische Probleme verursacht wird, beachten Sie, dass je nach Problemtyp weitere Zustellversuche möglich sind (z. B. wenn die Erstellung eines Exportauftrags fehlgeschlagen ist, versuchen wir es alle 10 Minuten für max. 1 Stunde erneut.
 
 ![](assets/alerts1.png)
 
