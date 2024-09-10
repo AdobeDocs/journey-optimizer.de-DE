@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 100%
    + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
++ Testen Ihrer Sendungen {#test}
+   + Vorschau und Test des Inhalts {#preview-test}
+      + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
+      + [Auswählen der Testprofile](using/content-management/test-profiles.md)
+      + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
+      + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
+      + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
+      + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
    + [Erstellen einer E-Mail](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
-   + Vorschau und Testen der Inhalte {#preview-test}
-      + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
-      + [Auswählen der Testprofile](using/content-management/test-profiles.md)
-      + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
-      + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
-      + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
-      + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
