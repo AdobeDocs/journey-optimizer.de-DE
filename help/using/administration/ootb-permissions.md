@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 98%
 
 ---
 
@@ -22,8 +22,8 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 
 | Funktion | Berechtigungen |
 |-|-|
+| KI-Assistent | **[!DNL Generate content]**: Zugriff auf den KI-Assistenten in Journey Optimizer zur Beschleunigung des Inhalts. |
 | Kampagnen | **[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen. </br>**[!DNL Publish campaigns]**: Berechtigung zur Veröffentlichung von Kampagnen.</br>**[!DNL View campaigns]**: Nur-Lese-Zugriff auf Kampagnen. </br>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten. |
-| Berichte | **[!DNL View channel reports]**: Lesen und Bearbeiten von Kanalberichten. |
 | Kanalkonfigurationen | **[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</br>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</br> **[!DNL Manage file routing]**: Lesen, Erstellen, Bearbeiten und Löschen von Datei-Routing-Konfigurationen. </br> **[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools. </br>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</br> **[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</br>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</br>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen. </br>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</br>**[!DNL Manage SMS subdomains]**: Lesen, Erstellen, Bearbeiten und Löschen von SMS-Subdomains. </br> **[!DNL Manage Seedlist]**: Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten. </br> **[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen. </br>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</br> **[!DNL View channel surfaces]**: schreibgeschützter Zugriff auf Kanaloberflächen.</br>**[!DNL View file routing]**: schreibgeschützter Zugriff auf Datei-Routing-Konfigurationen.</br>**[!DNL View messages general settings]**: Nur-Lese-Zugriff auf allgemeine Nachrichteneinstellungen. </br> **[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen. </br> **[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</br>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste. |
 | Dashboards | **[!DNL View license usage dashboards]**: Nur-Lese-Zugriff auf das [Dashboard zur Lizenznutzung](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: Ermöglicht Ihnen, ein neues Dashboard zu erstellen oder ein vorhandenes Dashboard zu bearbeiten.</br>**[!DNL Manage standard dashboards]**: Ermöglicht Ihnen, benutzerdefinierte Widgets zu erstellen und das Widget-Schema über die Widget-Bibliothek zu bearbeiten.</br>**[!DNL View custom dashboards]**: schreibgeschützter Zugriff auf benutzerdefinierte Dashboards.</br>**[!DNL View standard dashboards]**: schreibgeschützter Zugriff auf die Dashboards „Profile“, „Ziele“ und „Zielgruppen“. |
 | Datenerfassung | **[!DNL Manage datastream]**: Lesen, Erstellen und Bearbeiten von Datenströmen.</br>**[!DNL View datastream]**: Nur-Lese-Zugriff auf Datenströme. |
@@ -40,6 +40,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Journeys | **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys. Um auf Journeys zuzugreifen und diese zu verwalten, kombinieren Sie diese Berechtigung mit **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL View journeys]**: schreibgeschützter Zugriff auf Journeys.</br>**[!DNL View journeys events, data sources and actions]**: schreibgeschützter Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</br> |
 | Profilverwaltung | **[!DNL Evaluate a segment to an audience]**: Generieren von Profilen für eine Zielgruppe, indem eine Segmentdefinition ausgewertet wird.</br>**[!DNL Export audience segments]**: Exportieren eines ausgewerteten Zielgruppensegments in einen Datensatz.</br>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</br>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen, die für Kundenprofile verwendet werden. Schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View merge policies]**: schreibgeschützter Zugriff auf verfügbare Zusammenführungsrichtlinien.</br>**[!DNL View profiles]**: schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View segments]**: Schreibgeschützter Zugriff auf verfügbare Zielgruppen. |
 | Abfrage-Service | **[!DNL Manage queries]**: Lesen, Erstellen, Bearbeiten und Löschen strukturierter SQL-Abfragen für Platform-Daten.</br>**[!DNL Manage query service integration]**: Erstellen, Aktualisieren und Löschen nicht ablaufender Anmeldedaten für den Zugriff auf den Abfrage-Service. |
+| Berichte | **[!DNL View channel reports]**: Lesen und Bearbeiten von Kanalberichten. |
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox. |
 
 {style="table-layout:fixed"}

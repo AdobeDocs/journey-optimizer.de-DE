@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1971'
 ht-degree: 99%
 
 ---
@@ -281,7 +281,9 @@ ht-degree: 99%
       + [Generierung von E-Mails](using/content-management/generative-email.md)
       + [Generierung von Push-Benachrichtungen](using/content-management/generative-push.md)
       + [Generierung von SMS](using/content-management/generative-sms.md)
+      + [Webgenerierung](using/content-management/generative-web.md)
       + [Inhaltsexperiment mit dem KI-Assistenten](using/content-management/generative-experimentation.md)
+      + [Anwendungsbeispiele für den AI-Assistenten](using/content-management/generative-uc.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)

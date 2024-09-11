@@ -1,40 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhaltsexperiment mit dem KI-Assistenten
-description: Inhaltsexperiment mit dem KI-Assistenten
+title: Inhaltsexperiment mit dem AI-Assistenten in Journey Optimizer - Content Accelerator
+description: Inhaltsexperiment mit dem AI-Assistenten in Journey Optimizer für Inhaltsbeschleunigung
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 63%
 
 ---
 
-# Inhaltsexperiment mit dem KI-Assistenten {#generative-experimentation}
+# Inhaltsexperiment mit dem AI-Assistenten in Journey Optimizer - Content Accelerator {#generative-experimentation}
 
->[!BEGINSHADEBOX]
+>[!IMPORTANT]
+>
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
+></br>
+>
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Journey Optimizer für Inhaltsbeschleunigung verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-**Inhaltsverzeichnis**
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, erweitern Sie Ihren Inhalt mit dem AI-Assistenten in Adobe Journey Optimizer für Inhaltsbeschleunigung, der die Funktion &quot;Inhaltserstellung&quot;enthält. Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
 
-* [Erste Schritte mit dem KI-Assistenten](gs-generative.md)
-* [Generierung von E-Mails mit dem KI-Assistenten](generative-email.md)
-* [SMS-Generierung mit dem KI-Assistenten](generative-sms.md)
-* [Generierung von Push-Benachrichtigungen mit dem KI-Assistenten](generative-push.md)
-* Inhaltsexperiment mit dem KI-Assistenten
-
->[!ENDSHADEBOX]
-
-Nachdem Sie Ihre Nachrichten erstellt und angepasst haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer, der die Inhaltsexperiment-Funktion umfasst, auf die nächste Stufe bringen.  Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
-
-1. Erstellen Sie Ihre Kampagne und generieren Sie Varianten mit dem KI-Assistenten.
+1. Erstellen Sie Ihre Kampagne und generieren Sie Ihre Varianten mit dem KI-Assistenten für Inhaltsbeschleunigung .
 
    In diesem Beispiel haben wir eine Bestätigungs-E-Mail für ein Abonnement mit einem Angebots-Code generiert.
 
@@ -48,7 +40,7 @@ Nachdem Sie Ihre Nachrichten erstellt und angepasst haben, können Sie Ihren Inh
 
 1. Wählen Sie die Varianten aus, die Sie in Ihr Experiment aufnehmen möchten.
 
-1. Klicken Sie auf **X Behandlung(en) hinzufügen**.
+1. Klicken Sie auf **Zum Experiment hinzufügen**.
 
    ![](assets/experiment-genai-3.png)
 
