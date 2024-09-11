@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 43%
@@ -35,7 +35,7 @@ ht-degree: 43%
 
 >[!INFO]
 >
->Machen Sie sich mit [unserer interaktiven Demo](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) vertraut, die es Ihnen ermöglicht, die Funktionen selbst zu erforschen und deren Funktionen vollständig zu verstehen.
+>Machen Sie sich mit [unserer interaktiven Demo](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} vertraut, die es Ihnen ermöglicht, die Funktionen selbst zu entdecken und ihre Funktionen vollständig zu verstehen.
 
 
 Der AI-Assistent in Adobe Journey Optimizer for Content Acceleration, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, bietet vorausschauende Vorschläge für Inhaltsvarianten für Text und Bilder. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
@@ -47,7 +47,7 @@ Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer for Content Accelera
 >* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](#generative-guardrails).
 >
 >
->* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Adobe Journey Optimizer für Inhaltsbeschleunigung verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den AI-Assistenten in Adobe Journey Optimizer für Inhaltsbeschleunigung verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Zugriff auf den Inhaltsbeschleuniger des AI-Assistenten {#generative-access}
 
