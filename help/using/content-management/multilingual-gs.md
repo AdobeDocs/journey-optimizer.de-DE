@@ -10,10 +10,10 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 60%
 
 ---
 
@@ -37,6 +37,11 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 
 ## Voraussetzungen {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="Übersetzungsfehler
+>abstract="Wenn Sie nicht auf die Seite Übersetzung zugreifen können, liegt dies wahrscheinlich daran, dass die Übersetzungsfunktion nicht aktiviert ist. Um dieses Problem zu beheben, müssen Sie sicherstellen, dass die Übersetzungsfunktion von Ihrem Unternehmen und Sandbox-Administrator aktiviert wird."
+
 Adobe Journey Optimizer arbeitet derzeit mit Übersetzungsanbietern zusammen, die unabhängig von Adobe Journey Optimizer als Drittanbieter Übersetzungsdienste (maschinelle oder menschliche Übersetzung) anbieten.
 
 Bevor Sie den von Ihnen ausgewählten Übersetzungsanbieter hinzufügen können, müssen Sie ein Konto bei diesem Anbieter erstellen.
@@ -44,6 +49,22 @@ Bevor Sie den von Ihnen ausgewählten Übersetzungsanbieter hinzufügen können,
 Die Nutzung der Übersetzungsdienste eines Übersetzungsanbieters unterliegt den zusätzlichen Bedingungen des jeweiligen Anbieters.  Die Übersetzungsdienste sind Lösungen von Drittanbietern, die Benutzenden von Adobe Journey Optimizer über eine Integration zur Verfügung stehen.  Adobe hat keine Kontrolle über Produkte von Drittanbietern und ist nicht für diese verantwortlich.
 
 Bei Problemen oder Anfragen zu Ihren Übersetzungen wenden Sie sich bitte an den jeweiligen Übersetzungsanbieter.
+
+Wenn Sie nicht auf die Seite &quot;Übersetzung&quot;zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren.
+
++++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
+
+1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die Funktion **[!UICONTROL Übersetzung]** noch nicht aktiviert wurde. Wenden Sie sich an Ihren Organisations- und Sandbox-Administrator. , um Zugriff anzufordern.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. Ihr Administrator muss in der linken Seitenleiste zum Menü **[!UICONTROL Übersetzung]** navigieren. Das System aktiviert automatisch die Übersetzungsfunktion.
+
+1. Sobald die Funktion erfolgreich aktiviert wurde, können Sie auf die Seite **[!UICONTROL Übersetzung]** zugreifen, zusammen mit den Registerkarten **[!UICONTROL Projekte]**, **[!UICONTROL Anbieter]** und **[!UICONTROL Gebietsschema]**.
+
+1. Wenn dieses Verfahren fehlgeschlagen ist, wird weiterhin dieselbe Fehlerseite angezeigt. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter.
+
++++
 
 ## Anleitungsvideo {#video}
 
