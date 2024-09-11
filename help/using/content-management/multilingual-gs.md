@@ -10,7 +10,7 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -58,7 +58,9 @@ Wenn Sie nicht auf die Seite &quot;Übersetzung&quot;zugreifen können, müssen 
 
    ![](assets/multi-troubleshoot.png)
 
-1. Ihr Administrator muss in der linken Seitenleiste zum Menü **[!UICONTROL Übersetzung]** navigieren. Das System aktiviert automatisch die Übersetzungsfunktion.
+1. Ihr Administrator muss in der linken Seitenleiste zum Menü **[!UICONTROL Übersetzung]** navigieren.
+
+   Das System aktiviert automatisch die Übersetzungsfunktion.
 
 1. Sobald die Funktion erfolgreich aktiviert wurde, können Sie auf die Seite **[!UICONTROL Übersetzung]** zugreifen, zusammen mit den Registerkarten **[!UICONTROL Projekte]**, **[!UICONTROL Anbieter]** und **[!UICONTROL Gebietsschema]**.
 
