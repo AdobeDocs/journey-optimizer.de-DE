@@ -10,7 +10,7 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -39,7 +39,7 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="Übersetzungsfehler
+>title="Übersetzungsfehler"
 >abstract="Wenn Sie nicht auf die Seite Übersetzung zugreifen können, liegt dies wahrscheinlich daran, dass die Übersetzungsfunktion nicht aktiviert ist. Um dieses Problem zu beheben, müssen Sie sicherstellen, dass die Übersetzungsfunktion von Ihrem Unternehmen und Sandbox-Administrator aktiviert wird."
 
 Adobe Journey Optimizer arbeitet derzeit mit Übersetzungsanbietern zusammen, die unabhängig von Adobe Journey Optimizer als Drittanbieter Übersetzungsdienste (maschinelle oder menschliche Übersetzung) anbieten.
