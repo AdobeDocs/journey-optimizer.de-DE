@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 84%
 
 ---
 
@@ -107,3 +107,13 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ![](assets/journey57bis.png)-->
+
+## Automatischer Warteknoten  {#auto-wait-node}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_auto_wait_node "
+>title="Über den automatischen Warteknoten"
+>abstract="Nach dieser Aktivität wird automatisch die Aktivität **Warten** hinzugefügt. Er ist auf 3 Tage eingestellt. Sie können sie entfernen oder nach Bedarf konfigurieren."
+
+Jede eingehende Nachrichtenaktivität (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) verfügt über eine 3-tägige **Warten** -Aktivität. Da eingehende Nachrichten automatisch enden, wenn ein Profil das Ende der Journey erreicht, gehen wir davon aus, dass Sie möchten, dass Ihre Benutzer sie mindestens 3 Tage lang sehen. Sie können diese **Warten** -Aktivität entfernen oder bei Bedarf ihre Konfiguration ändern.

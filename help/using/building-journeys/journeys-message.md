@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: ht
-source-wordcount: '1177'
-ht-degree: 100%
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,9 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
 1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, eine **In-App**-, eine **SMS-** oder eine **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
 
-1. Konfigurieren Sie Ihre Aktivität. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
+1. Konfigurieren Sie Ihre Aktivität.
+
+   Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Jede eingehende Nachrichtenaktivität (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) verfügt über eine 3-tägige **Warten** -Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Aktualisieren von Live-Inhalten{#update-live-content}
 
