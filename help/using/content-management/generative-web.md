@@ -7,14 +7,14 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 47%
 
 ---
 
-# Generieren von Webseiten mit dem AI-Assistenten - Content Accelerator {#generative-web}
+# Generieren von Webseiten mit dem AI Assistant Content Accelerator {#generative-web}
 
 >[!IMPORTANT]
 >
