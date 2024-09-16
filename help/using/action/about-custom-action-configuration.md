@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
+source-git-commit: b86a459681cda66596e0658b9f703185821aceea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1552'
+ht-degree: 92%
 
 ---
 
@@ -141,11 +141,13 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
 ## mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
 
-Sie können jetzt Mutual Transport Layer Security (mTLS) verwenden, um die Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Aktionen von Adobe Journey Optimizer zu erhöhen. mTLS ist eine End-to-End-Sicherheitsmethode zur gegenseitigen Authentifizierung, die sicherstellt, dass beide Parteien, die Informationen austauschen, auch die sind, die sie vorgeben zu sein, bevor die Daten ausgetauscht werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat der Kundin bzw. des Kunden anfordert und überprüft, ob es gültig ist.
+Sie können &quot;Mutual Transport Layer Security (mTLS)&quot;verwenden, um eine höhere Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Adobe Journey Optimizer-Aktionen sicherzustellen. mTLS ist eine End-to-End-Sicherheitsmethode zur gegenseitigen Authentifizierung, die sicherstellt, dass beide Parteien, die Informationen austauschen, auch die sind, die sie vorgeben zu sein, bevor die Daten ausgetauscht werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat der Kundin bzw. des Kunden anfordert und überprüft, ob es gültig ist.
 
 Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktionen unterstützt. Es ist keine zusätzliche Konfiguration in der benutzerdefinierten Aktion oder Journey erforderlich, um mTLS zu aktivieren, sondern dies geschieht automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Definieren der Payload-Parameter {#define-the-message-parameters}
+
+Sie können den Payload-Parameter wie unten beschrieben definieren:
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für die Aufrufmethoden „POST“ und „PUT“ verfügbar.
 
@@ -157,11 +159,15 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 >
 >Das Payload-Beispiel darf keine Nullwerte enthalten. Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit dem Zeichen „$“ beginnen.
 
-Sie können den Parametertyp definieren (z. B. Zeichenfolge, Ganzzahl usw.).
-
-Sie können auch angeben, ob ein Parameter eine Konstante oder eine Variable ist:
-
-* **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn die benutzerdefinierte Aktion während der Journey verwendet wird. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der übergebene Wert.
-* **Variable** bedeutet, dass der Wert des Parameters variiert. Marketing-Experten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
-
 ![](assets/customactionpayloadmessage2.png)
+
+In der Feldkonfiguration müssen Sie:
+
+* Wählen Sie den Parametertyp aus, z. B.: Zeichenfolge, Ganzzahl usw.
+
+* Definieren Sie eine Konstante oder einen Variablenparameter:
+
+   * **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Sie variiert nicht und der Marketingexperte kann sie nicht sehen, wenn die benutzerdefinierte Aktion im Journey verwendet wird. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall wird der konstante Wert auf das Feld rechts neben der Umschalter-Konstante/-Variablen gesetzt.
+
+   * **Variable** bedeutet, dass der Wert des Parameters variiert. Marketingexperten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis, von Adobe Experience Platform usw.). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
+
