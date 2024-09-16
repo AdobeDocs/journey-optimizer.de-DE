@@ -1,0 +1,149 @@
+---
+title: Erstellen von Inhaltskarten
+description: Erfahren Sie, wie Sie Inhaltskarten erstellen und ihren Inhalt in Journey Optimizer bearbeiten.
+topic: Content Management
+role: User
+level: Beginner
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+hide: true
+hidefromtoc: true
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 68%
+
+---
+
+# Erstellen von Inhaltskarten {#create-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Inhaltsverzeichnis**
+
+* [Erste Schritte mit Inhaltskarten](get-started-content-card.md)
+* [Voraussetzungen für Inhaltskarten](content-card-configuration-prereq.md)
+* [Inhaltskartenkanal in Journey Optimizer konfigurieren](content-card-configuration.md)
+* **Erstellen von Inhaltskarten**
+* [Inhaltskarten erstellen](design-content-card.md)
+* [Inhaltskarten-Bericht](content-card-report.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Inhaltskarten sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+
+>[!BEGINTABS]
+
+>[!TAB Hinzufügen von Inhaltskarten zu einer Journey]
+
+Gehen Sie wie folgt vor, um einer Journey eine Inhaltskarte hinzuzufügen:
+
+1. Öffnen Sie Ihre Journey und ziehen Sie dann eine **[!UICONTROL Karte]** -Aktivität aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
+
+   ![](assets/content-card-jo-1.png)
+
+1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+
+1. Wählen Sie die zu verwendende [Inhaltskartenkonfiguration](content-card-configuration.md) aus.
+
+   ![](assets/content-card-jo-2.png)
+
+1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-content-card.md)
+
+1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]** . Bearbeiten Sie dann **[!UICONTROL Regeln]** , um die Ereignisse und Kriterien auszuwählen, die Ihre Nachricht Trigger werden sollen. Mit Regel-Builder können Benutzer Kriterien und Werte angeben, die, wenn sie erfüllt sind, eine Reihe von Aktionen Trigger geben.
+
+   ![](assets/content-card-jo-3.png)
+
+   1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** , um Ihr Ereignis auszuwählen.
+
+      ++ + Anzeigen des verfügbaren Ereignisses.
+
+      | Paket | Auslöser | Definition |
+      |---|---|---|
+      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
+      | Core-Tracking | Aktion nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
+      | Core-Tracking | Status nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
+      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
+      | Anwendungslebenszyklus | Anwendungsstart | Wird bei jeder Ausführung ausgelöst, einschließlich Abstürzen und Installationen. Wird auch bei einer Wiederaufnahme aus dem Hintergrund ausgelöst, wenn das Sitzungs-Timeout des Lebenszyklus überschritten wurde. |
+      | Anwendungslebenszyklus | Anwendungsinstallation | Wird beim ersten Ausführen nach einer Installation oder Neuinstallation ausgelöst. |
+      | Anwendungslebenszyklus | Anwendungsaktualisierung | Wird beim ersten Start nach einem Upgrade oder bei Änderung der Versionsnummer ausgelöst. |
+      | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
+      | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
+
++++
+
+   1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
+
+   1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
+
+      +++Sehen Sie sich die verfügbaren Merkmale an.
+
+      | Paket | Merkmale  | Definition |
+      |---|---|---|
+      | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
+      | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |
+      | Geräteinformationen | Gebietsschema | Wird ausgelöst, wenn eine der Sprachen aus der Liste vorliegt. |
+      | Geräteinformationen | Betriebssystemversion | Wird ausgelöst, wenn eine der angegebenen Betriebssystemversionen vorliegt. |
+      | Geräteinformationen | Vorherige Betriebssystemversion | Wird ausgelöst, wenn eine der angegebenen vorherigen Betriebssystemversionen vorliegt. |
+      | Geräteinformationen | Betriebsmodus | Wird ausgelöst, wenn der Betriebsmodus entweder eine Anwendung oder eine Erweiterung ist. |
+      | Anwendungslebenszyklus | App-ID | Wird ausgelöst, wenn die angegebene App-ID vorliegt. |
+      | Anwendungslebenszyklus | Wochentag | Wird ausgelöst, wenn der angegebene Wochentag vorliegt. |
+      | Anwendungslebenszyklus | Tag seit der ersten Verwendung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der ersten Verwendung erreicht ist. |
+      | Anwendungslebenszyklus | Tag seit der letzten Verwendung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der letzten Verwendung erreicht ist. |
+      | Anwendungslebenszyklus | Tage seit Aktualisierung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der letzten Aktualisierung erreicht ist. |
+      | Anwendungslebenszyklus | Installationsdatum | Wird ausgelöst, wenn das angegebene Installationsdatum erreicht ist. |
+      | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
+      | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
+
++++
+
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
+
+1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
+
+1. Sobald Ihre Inhaltskarte fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Sie Ihre Journey, um sie zu aktivieren.
+
+Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+
+>[!TAB Hinzufügen von Inhaltskarten zu einer Kampagne]
+
+Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Inhaltskarten über eine Kampagne zu beginnen.
+
+1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
+
+1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
+
+   * **[!UICONTROL Geplant – Marketing]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
+
+   * **[!UICONTROL API-ausgelöst – Marketing/Transaktion]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](../campaigns/api-triggered-campaigns.md)
+
+   ![](assets/content-card-create-1.png)
+
+1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** einen Namen und eine Beschreibung für die Kampagne an.
+
+1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
+
+1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace)
+
+1. Wählen Sie die Aktion **[!UICONTROL Inhaltskarte]** aus.
+
+   ![](assets/content-card-create-2.png)
+
+1. Wählen oder erstellen Sie eine neue [Inhaltskartenkonfiguration](content-card-configuration.md).
+
+1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Erfahren Sie mehr über das Inhaltsexperiment](../content-management/content-experiment.md).
+
+1. Wenn zusätzliche Trigger erforderlich sind, verwenden Sie den Umschalter **[!UICONTROL Zusätzliche Versandregeln aktivieren]** . Zusätzliche Versandregeln sind nicht erforderlich.
+
+   Klicken Sie auf **[!UICONTROL Trigger bearbeiten]** , um die Ereignisse und Kriterien für den Nachrichtenversand auszuwählen. Mit dem Regel-Builder können Sie Bedingungen und Werte angeben, die bei Erfüllung der Bedingungen Trigger-Aktionen ausführen.
+
+   ![](assets/content-card-create-3.png)
+
+1. Sie können Ihre Kampagne auf ein bestimmtes Datum planen oder in regelmäßigen Abständen wiederholen lassen. [Weitere Informationen](../campaigns/create-campaign.md#schedule)
+
+1. Sie können jetzt mit der Erstellung Ihres Inhalts mit dem **[!UICONTROL Inhalt bearbeiten]** beginnen. [Weitere Informationen](design-content-card.md)
+
+   ![](assets/content-card-create-4.png)
+
+>[!ENDTABS]

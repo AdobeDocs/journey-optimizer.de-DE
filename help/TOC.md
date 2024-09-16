@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 98%
+source-wordcount: '2010'
+ht-degree: 96%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 98%
    + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
    + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
    + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
++ Inhaltskarten (LA){#content-card}
+   + [Erste Schritte mit Inhaltskarten](using/content-card/get-started-content-card.md)
+   + Kanal der Inhaltskarte konfigurieren {#configure}
+      + [Voraussetzungen für Inhaltskarten](using/content-card/content-card-configuration-prereq.md)
+      + [Inhaltskartenkanal in Journey Optimizer konfigurieren](using/content-card/content-card-configuration.md)
+   + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
+   + [Inhaltskarten erstellen](using/content-card/design-content-card.md)
+   + [Inhaltskarten-Bericht](using/content-card/content-card-report.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
