@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 83%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 ## Aktualisierungen für September {#9-2024}
+
+>[!IMPORTANT]
+>
+>Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
+> [Erste Schritte mit der neuen Journey Optimizer-Berichtsoberfläche](../reports/report-gs-cja.md)
 
 <table>
 <thead>
@@ -200,10 +205,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 ### Weitere Änderungen {#changes}
 
 **Reporting**
-
-* Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
-
-[Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
 
 * Es wurden neue Anwendungsfälle zum neuen Berichtserlebnis hinzugefügt:
 
