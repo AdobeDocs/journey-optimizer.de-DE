@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**Zielgruppen**
+
+(Verfügbarkeitsdatum: 17. September) **Lizenzverwendung** - Im Dashboard zur Lizenznutzung werden jetzt die interagierbaren Profile anstelle der interagierbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
+
 **Journeys**
 
 (Verfügbarkeitsdatum: 10. September) **Wiederholungsfunktion** - Beim Abrufen des Exportauftrags werden nun standardmäßig Wiederholungen auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Leserichtung** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten erneute Versuche unternommen, höchstens jedoch für eine Stunde. Danach werden wir es als Fehler betrachten. Diese Journey können daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
+
+
 
 ## Versionshinweise für August 2024 {#8-2024}
 
