@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
+source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 >abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criteria"
+>id="ajo_journey_exit_criterias"
 >title="Kriterien für den Journey-Austritt"
 >abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Es können ein oder mehrere Austrittskriterien für eine Journey erstellt werden."
 
