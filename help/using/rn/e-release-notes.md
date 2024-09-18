@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -189,7 +189,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Die [Adobe Journey Optimizer API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Erkunden Sie die API-Endpunkte direkt auf den Dokumentationsseiten, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
 
-  Alle API-Referenzseiten verfügen jetzt über die Funktion &quot;**Probieren Sie es**&quot;, mit der Sie API-Aufrufe direkt auf der Dokumentations-Website testen können. [Rufen Sie die erforderlichen Authentifizierungsberechtigungen ab](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} und beginnen Sie mit der Verwendung der Funktion zum Durchsuchen der API-Endpunkte.
+  Alle API-Referenzseiten verfügen jetzt über die Funktion &quot;**Probieren Sie es**&quot;, mit der Sie API-Aufrufe direkt auf der Dokumentations-Website testen können. [Rufen Sie die erforderlichen Authentifizierungsberechtigungen ab](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und beginnen Sie mit der Verwendung der Funktion zum Durchsuchen der API-Endpunkte.
 
   Verwenden Sie diese neue Funktion, um die Anfragen an und Antworten von API-Endpunkten zu untersuchen, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
 
