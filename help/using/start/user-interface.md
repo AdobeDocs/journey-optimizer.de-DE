@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Journeys dieselbe Oberfläche verwenden, wählt Journey Optimizer die Journey mit dem höheren Prioritätswert aus. Wenn die Journeys den gleichen Wert aufweisen, wird die Journey ausgewählt, die zuletzt geändert wurde."
+>abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen (wie In-App-Aktionen) übernommen, die in dieser Journey enthalten sind. Wenn dieselbe eingehende Oberfläche in anderen Kampagnen oder Journey verwendet wird, wird dem Empfänger die eingehende Aktion mit der höchsten Prioritätsstufe angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorität"
->abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen dieselbe Oberfläche verwenden, wählt Journey Optimizer die Kampagne mit dem höheren Prioritätswert aus. Wenn die Kampagnen den gleichen Wert aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde."
+>abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. In Fällen, in denen dieselbe eingehende Oberfläche (z. B. In-App-Nachrichten) in anderen Kampagnen oder Journey verwendet wird, wird dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Konflikt-Viewer in Kampagnen"
->abstract="Konflikt-Viewer in Kampagnen"
+>abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journey, Kampagnen oder Oberflächen feststellen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Konflikt-Viewer in Journeys"
->abstract="Konflikt-Viewer in Journeys"
+>abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journey, Kampagnen oder Oberflächen feststellen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Anwenden des Regelsatzes auf Journeys"
->abstract="TBD"
+>abstract="Wenden Sie einen Regelsatz an, um diese Journey basierend auf Frequenzlimitierungsregeln auf einen Teil Ihrer Audience auszuschließen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Vorschau der Priorisierung"
->abstract="Vorschau der Priorisierung"
+>abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird der Kunde von der Teilnahme an dieser Journey ausgeschlossen. Für Situationen, in denen Journey nach dem Windhundverfahren erfasst werden sollen, empfehlen wir, den täglichen Look-Ahead-Zeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journey an diesem Tag unter dem Prioritätswert für die Journey liegt. Eine Journey mit einer Prioritätsstufe von 100 würde ebenfalls sicherstellen, dass sie eingeht."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
