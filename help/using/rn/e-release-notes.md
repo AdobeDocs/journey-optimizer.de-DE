@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 43%
+source-wordcount: '1008'
+ht-degree: 41%
 
 ---
 
@@ -89,7 +89,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ausstiegskriterien für Ihre Journey definieren und kombinieren.</p>
+<p>Jetzt definieren Sie Ausstiegskriterien auf Journey-Ebene. Durch Hinzufügen von Ausstiegskriterien können Sie die Profile dazu bringen, die Journey zu verlassen, sobald ein Ereignis eintritt (z. B. Kauf) oder sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass der Benutzer weitere Nachrichten von der Journey erhält.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
