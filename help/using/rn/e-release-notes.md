@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
+source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 47%
+source-wordcount: '973'
+ht-degree: 43%
 
 ---
 
@@ -186,9 +186,11 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Maximale Anzahl Live-Journey** - Journey Optimizer verfügt jetzt über einen Schutzmechanismus von 500 Live-Journey auf Produktions-Sandboxes anstelle von 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar.
 
-* **Journey Live-Reporting** - Live-Berichte bieten Einblicke in die Performance Ihrer Journey in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen.
+* **Verbesserungen bei der Live-Berichterstellung** - Die Live-Berichterstellung bietet Einblicke in die Leistung Ihrer Journey in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen.
 
-* (Verfügbarkeitsdatum: 10. September) **Wiederholungsfunktion**: Beim Abrufen des Exportauftrags werden nun standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
+* **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt.
+
+* (Verfügbarkeitsdatum: 10. September) **Automatische erneute Zustellversuche für &quot;Audience lesen&quot;** - Wiederholungen werden jetzt standardmäßig auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Audience lesen** oder einem **Geschäftsereignis**), während der Exportauftrag abgerufen wird. Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
 
 **E-Mail-Kanal**
 
