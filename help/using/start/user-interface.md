@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1591'
 ht-degree: 95%
 
 ---
@@ -235,8 +235,8 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
->title="Vorhersehbare Priorisierung"
->abstract="Vorhersehbare Priorisierung"
+>title="Vorschau der Priorisierung"
+>abstract="Vorschau der Priorisierung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -298,15 +298,15 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="Verletzung der Data Governance-Richtlinie"
->abstract="Verletzung der Data Governance-Richtlinie"
+>title="Verstöße gegen Data Governance-Richtlinien"
+>abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Verwenden Sie das Datenherstellungsdiagramm in diesem Dialogfeld, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können."
 
 <!--APPROVAL POLICIES-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
->title="Validierungspolitik"
->abstract="Validierungspolitik"
+>title="Genehmigungsrichtlinie"
+>abstract="Genehmigungsrichtlinie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -326,7 +326,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_edit_disabled"
 >title="Deaktivierte Bearbeitung"
->abstract="Deaktivierte Bearbeitung (Journey)"
+>abstract="Deaktivierte Bearbeitung (Journeys)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_approval_status"
@@ -341,7 +341,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_approve"
 >title="Genehmigen"
->abstract="Genehmigen (Journey)"
+>abstract="Genehmigen (Journeys)"
 
 <!--Multilingual-->
 
