@@ -13,7 +13,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedlich
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="Übersetzungsfehler"
->abstract="Wenn Sie nicht auf die Seite Übersetzung zugreifen können, liegt dies wahrscheinlich daran, dass die Übersetzungsfunktion nicht aktiviert ist. Um dieses Problem zu beheben, müssen Sie sicherstellen, dass die Übersetzungsfunktion von Ihrem Unternehmen und Sandbox-Administrator aktiviert wird."
+>abstract="Wenn Sie nicht auf die Seite „Übersetzung“ zugreifen können, liegt dies wahrscheinlich daran, dass die Übersetzungsfunktion nicht aktiviert ist. Um dieses Problem zu beheben, müssen Sie sicherstellen, dass die Übersetzungsfunktion von Ihrem Unternehmen und Sandbox-Admin aktiviert wird."
 
 Adobe Journey Optimizer arbeitet derzeit mit Übersetzungsanbietern zusammen, die unabhängig von Adobe Journey Optimizer als Drittanbieter Übersetzungsdienste (maschinelle oder menschliche Übersetzung) anbieten.
 
@@ -50,21 +50,21 @@ Die Nutzung der Übersetzungsdienste eines Übersetzungsanbieters unterliegt den
 
 Bei Problemen oder Anfragen zu Ihren Übersetzungen wenden Sie sich bitte an den jeweiligen Übersetzungsanbieter.
 
-Wenn Sie nicht auf die Seite &quot;Übersetzung&quot;zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren.
+Wenn Sie nicht auf die Seite „Übersetzung“ zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren.
 
 +++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
 
-1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die Funktion **[!UICONTROL Übersetzung]** noch nicht aktiviert wurde. Wenden Sie sich an Ihren Organisations- und Sandbox-Administrator. , um Zugriff anzufordern.
+1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die **[!UICONTROL Übersetzungsfunktion]** noch nicht aktiviert wurde. Wenden Sie sich an die Administratorin oder den Administrator Ihrer Organisation und Sandbox, um Zugriff anzufordern.
 
    ![](assets/multi-troubleshoot.png)
 
-1. Ihr Administrator muss in der linken Seitenleiste zum Menü **[!UICONTROL Übersetzung]** navigieren.
+1. Ihre Administratorin oder Ihr Administrator muss in der linken Seitenleiste zum Menü **[!UICONTROL Übersetzung]** navigieren.
 
    Das System aktiviert automatisch die Übersetzungsfunktion.
 
-1. Sobald die Funktion erfolgreich aktiviert wurde, können Sie auf die Seite **[!UICONTROL Übersetzung]** zugreifen, zusammen mit den Registerkarten **[!UICONTROL Projekte]**, **[!UICONTROL Anbieter]** und **[!UICONTROL Gebietsschema]**.
+1. Sobald die Funktion erfolgreich aktiviert wurde, können Sie auf die Seite **[!UICONTROL Übersetzung]** sowie auf die Registerkarten **[!UICONTROL Projekte]**, **[!UICONTROL Anbieter]** und **[!UICONTROL Gebietsschema]** zugreifen.
 
-1. Wenn dieses Verfahren fehlgeschlagen ist, wird weiterhin dieselbe Fehlerseite angezeigt. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter.
+1. Wenn dieses Verfahren fehlgeschlagen ist, wird weiterhin dieselbe Fehlerseite angezeigt. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter, um weitere Unterstützung zu erhalten.
 
 +++
 
