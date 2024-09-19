@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 45%
+source-wordcount: '956'
+ht-degree: 47%
 
 ---
 
@@ -193,6 +193,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **E-Mail-Kanal**
 
 * **BCC-Nachrichtenkopf** - Allen E-Mail-Nachrichten wurde ein neuer Header hinzugefügt. Der Wert dieses Headers ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Dieser Header wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, wodurch die BCC-Kopie und die entsprechenden gesendeten E-Mail-Informationen abgestimmt werden können.
+* **Spam-Scoring** (GA) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem dedizierten Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
 
 **SMS-Kanal**
 
