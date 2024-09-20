@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
 
@@ -174,8 +174,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit dem Privacy und Security Shield-Add-on zur Verfügung.
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
+* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Verfügbarkeitsdatum: 17. September) **Lizenzverwendung** - Im Dashboard zur Lizenznutzung werden jetzt die interagierbaren Profile anstelle der interagierbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
 
 **Data Governance**
@@ -210,9 +210,12 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* Sie können jetzt bestehende SMS-Konfigurationen ändern
+* **API-Anmeldeinformationen bearbeiten** - Sie können jetzt Einstellungen in SMS-API-Anmeldeinformationen bearbeiten, einschließlich Aktualisierungen von Anmelde-/Abmelde-Keywords und Antworten.
+* Sie können jetzt bestehende SMS-Konfigurationen ändern.
 
 **APIs**
+
+* **Kampagnensimulation-API** - Verwenden Sie diese API, um den Testauftrag einer Kampagne Trigger. Der Campaign-Testversand ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * Die [Adobe Journey Optimizer API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Erkunden Sie die API-Endpunkte direkt auf den Dokumentationsseiten, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
 
@@ -223,9 +226,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
   >[!CAUTION]
   >
   >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktion auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte durchführen. Beachten Sie dies beim Experimentieren mit Produktions-Sandboxes.
-
-
-* **Kampagnensimulation-API** - Verwenden Sie diese API, um den Testauftrag einer Kampagne Trigger. Der Campaign-Testversand ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## Versionshinweise für August 2024 {#8-2024}
