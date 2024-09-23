@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 6229f295b961b0535139b64928216e40c3759947
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2016'
 ht-degree: 96%
 
 ---
@@ -175,7 +175,8 @@ ht-degree: 96%
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Testen Ihrer Sendungen {#test}
-   + Vorschau und Test des Inhalts {#preview-test}
+   + Vorschau und Testen der Inhalte {#preview-test}
+      + [Testen Sie Ihren Inhalt mit benutzerdefinierten Profilen.](using/test-approve/test-custom-profiles.md)
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen der Testprofile](using/content-management/test-profiles.md)
       + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
@@ -291,7 +292,7 @@ ht-degree: 96%
       + [SMS-Generierung mit KI](using/content-management/generative-sms.md)
       + [Webgenerierung mit KI](using/content-management/generative-web.md)
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
-      + [Anwendungsbeispiele für den AI-Assistenten](using/content-management/generative-uc.md)
+      + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
