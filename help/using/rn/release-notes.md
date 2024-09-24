@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
+source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 62%
@@ -34,7 +34,7 @@ ht-degree: 62%
 >**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Veröffentlichungsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
 >
 
-**Veröffentlichungsdatum**: 24.-25. September 2024
+**Veröffentlichungsdatum**: 24.-26. September 2024
 
 ### Neue Funktionen {#24-9-features}
 
