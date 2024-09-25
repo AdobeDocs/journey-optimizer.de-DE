@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '771'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulieren mit Beispieleingabe"
->abstract="In diesem Bildschirm können Sie verschiedene Varianten Ihres E-Mail-Inhalts testen, indem Sie Werte für Personalisierungsfelder über eine CSV-Vorlage (CSV herunterladen) bereitstellen oder die Werte manuell eingeben.
+>abstract="In diesem Bildschirm können Sie verschiedene Varianten Ihres E-Mail-Inhalts testen, indem Sie Werte für Personalisierungsfelder über eine CSV-Vorlage (CSV herunterladen) bereitstellen oder die Werte manuell eingeben."
 
 >[!AVAILABILITY]
 >
@@ -46,7 +46,7 @@ Die wichtigsten Schritte zum Testen Ihres Inhalts sind:
 
 Bevor Sie mit dem Testen Ihres Inhalts mithilfe von Beispieleingabedaten beginnen, sollten Sie die folgenden Limits und Voraussetzungen beachten.
 
-* Derzeit ist der Test mit Beispieleingabedaten nur für den E-Mail-Kanal verfügbar.
+* Derzeit ist der Test mit Beispieleingabedaten nur für den E-Mail-Kanal verfügbar. Auf das Erlebnis kann nicht über die Schaltfläche &quot;Inhalt simulieren&quot;in der E-Mail-Designer zugegriffen werden.
 * Die folgenden Funktionen sind im aktuellen Erlebnis nicht verfügbar: Inbox Rendering, Spam-Berichte, mehrsprachige Inhalte und Inhaltsexperimente. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus, um auf die vorherige Benutzeroberfläche zuzugreifen.
 * Derzeit werden nur Profilattribute unterstützt. Wenn in Ihrem Inhalt für die Personalisierung kontextbezogene Attribute verwendet werden, können Sie Ihren Inhalt nicht mit diesen Attributen testen.
 * Nur die folgenden Datentypen werden bei der Eingabe von Daten für Ihre Varianten unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenfolge, Boolescher Wert und Datentyp. Bei allen anderen Datentypen wird ein Fehler angezeigt.
