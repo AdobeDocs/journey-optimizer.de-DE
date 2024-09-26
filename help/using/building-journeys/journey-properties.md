@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 100%
+source-wordcount: '1983'
+ht-degree: 78%
 
 ---
 
@@ -23,19 +23,13 @@ ht-degree: 100%
 >title="Journey-Eigenschaften"
 >abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
 
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Kriterien für den Journey-Austritt"
->abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Es können ein oder mehrere Austrittskriterien für eine Journey erstellt werden."
-
-
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
 Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie für bestehende Journeys auf das Stiftsymbol neben dem Journey-Namen, um sie zu öffnen.
 
 Über diesen Abschnitt haben Sie die Möglichkeit, den Namen der Journey festzulegen, eine Beschreibung hinzuzufügen und:
 
-* den [Eintritt und Wiedereintritt](#entrance) zu verwalten,
+* Verwalten von [Eintritt und Wiedereintritt](#entrance),
 * [Start- und Enddatum](#dates) anzugeben,
 * den [Zugriff auf Daten](#manage-access) zu verwalten,
 * eine [Dauer für die maximale Wartezeit](#timeout) in Journey-Aktivitäten zu definieren (nur für Admins),
@@ -57,27 +51,27 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen erfahren Sie auf [dieser Seite](entry-management.md).
+Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen auf [dieser Seite](entry-management.md).
 
-### Erlauben eines erneuten Eintritts  {#allow-re-entrance}
+### Wiedereintritt erlauben  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Erlauben eines erneuten Eintritts"
->abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt.  Sie können die Option **Erneuten Eintritt erlauben** deaktivieren, wenn Sie zum Beispiel ein einmaliges Geschenk anbieten möchten, sobald eine Person ein Geschäft betritt."
+>title="Wiedereintritt erlauben"
+>abstract="Standardmäßig ist der erneute Eintritt in neue Journey zulässig. Sie können die Option **Wiedereintritt erlauben** deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt.  Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+Standardmäßig ist der erneute Eintritt in neue Journey zulässig. Sie können die Option **Wiedereintritt erlauben** für &quot;einen Journey&quot;deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-### Wartezeit beim erneuten Eintritt  {#re-entrance-wait}
+### Retenter Wartezeit  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Wartezeit beim erneuten Eintritt"
->abstract=" Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, bei unitären Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
+>title="Retenter Wartezeit"
+>abstract="Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, bei unitären Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzer die Journey für eine bestimmte Dauer erneut aufrufen. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
-Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
+Wenn die Option **Wiedereintritt erlauben** aktiviert ist, wird das Feld **Wartezeit für den erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
 
 
 ## Verwalten des Zugriffs {#manage-access}
@@ -107,7 +101,7 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Bei wiederholter Ausführung erneuten Eintritt erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage). Die einzige Ausnahme sind wiederkehrende Lese-Zielgruppen-Journey mit aktiviertem **Eintritt beim Wiederholen erzwingen** , die am Startdatum des nächsten Vorkommens enden.
 
 ## Maximale Wartezeit {#timeout}
 
@@ -133,7 +127,7 @@ Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit]
 
 Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
 
-Aufgrund der maximalen Journey-Wartezeit von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
+Aufgrund der 91-tägigen Journey-Zeitüberschreitung können wir nicht sicherstellen, dass die Sperrung des erneuten Journey-Imports mehr als 91 Tage dauert. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
 Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
 
@@ -258,3 +252,55 @@ Eine Journey verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten
 Eine Journey berücksichtigt die auf der gesamten Journey verwendete Zusammenführungsrichtlinie.  Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in „inAudience“-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+
+
+## Ausstiegskriterien {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Kriterien für den Journey-Austritt"
+>abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Es können ein oder mehrere Austrittskriterien für eine Journey erstellt werden."
+
+### Beschreibung
+
+Häufig möchten Marketer Profile aus einer Journey entfernen, wenn sie den Journey nicht mehr erfüllen. Dies wird durch **globale Ausstiegskriterien** erreicht, die eng mit der Zielverwaltung verbunden sind.
+
+**Beispielanwendungsfall:**
+
+Ein Marketer verfügt über eine Werbe-Journey, die eine Reihe von Mitteilungen enthält. Jede dieser Mitteilungen zielt darauf ab, den Kunden zum Kauf zu bewegen. Sobald der Kauf getätigt wurde, sollte der Kunde die restlichen Nachrichten der Serie nicht erhalten. Durch Definition eines Exitkriteriums werden alle Profile, die einen Kauf getätigt haben, aus der Journey entfernt.
+
+### Konfiguration und Verwendung
+
+Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann über mehrere Ausstiegskriterien verfügen. Wenn mehrere Ausstiegskriterien festgelegt sind, erfolgt die Auswertung von oben nach unten mit einer ODER-Logik. Wenn Sie also Ausstiegskriterien Nr. 1 und Ausstiegskriterien Nr. 2 haben, wird sie als n°1 **oder** n°2 ausgewertet. Die Kriterien werden bei jedem Schritt des Journey ausgewertet.
+
+So erstellen Sie **ein Ausstiegskriterium:**
+
+* Klicken Sie in der rechten Leiste auf das folgende Symbol ![](assets/exitcriteria_icon.png){width="40%" align="left"}.
+* Klicken Sie auf die Schaltfläche **Ausstiegskriterien hinzufügen** .
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* Sie können mehrere Ausstiegskriterien hinzufügen.
+* Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem Ereignis oder einer Zielgruppe basiert.
+
+### Ausstiegskriterien, die auf einem Ereignis basieren
+
+Nur einzelnes Ereignis auswählen.
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### Ausstiegskriterien basierend auf einer Zielgruppe
+
+Auswählen einer Zielgruppe.
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien mit einer Zielgruppe funktionieren.
+
+### Einschränkungen und Einschränkungen
+
+* Ausstiegskriterien werden im Entwurfsstatus definiert
+* Journey der Namespace-Kohärenz zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
+
+
+
