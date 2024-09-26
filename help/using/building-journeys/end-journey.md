@@ -6,12 +6,12 @@ description: So endet eine Journey in Journey Optimizer
 feature: Journeys
 role: User
 level: Intermediate
-keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
+keywords: reenter, Journey, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Eine Journey kann für eine Person auf zwei Weisen enden:
 * Die Person kommt bei der letzten Aktivität eines Pfades an.
 * Die Person kommt bei einer **Bedingungs**-Aktivität (oder einer **Warte**-Aktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
-Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance)
+Die Person kann dann erneut in die Journey eintreten, wenn der erneute Eintritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance)
 
 Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden und Kundinnen in die Journey wird dann blockiert. Kunden und Kundinnen, die bereits in die Journey eingetreten sind, bleiben bis zu deren Ende darin. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md#close-journey)
 
