@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
+source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 95%
@@ -48,12 +48,7 @@ In diesem Abschnitt erfahren Sie, wie Sie die Skalierung – mit den folgenden b
 
 * Journey Optimizer verfügt über eine Richtlinie von maximal 50 Aktivitäten in einer Journey-Arbeitsfläche. Diese Schutzmechanismen sollen die Lesbarkeit, Qualitätssicherung und Fehlerbehebung unterstützen. Die Anzahl der Aktivitäten in einer Journey wird oben links in der Journey-Arbeitsfläche angezeigt, wenn Sie bis auf 10 Aktivitäten an diesen Grenzwert herankommen.
 
-* Während Sie Journeys veröffentlichen, werden diese von Journey Optimizer automatisch skaliert und angepasst, um maximalen Durchsatz und Stabilität zu gewährleisten. Wenn Sie sich dem Meilenstein von 100 gleichzeitigen Live-Journeys in einer Sandbox nähern, erscheinen eine orangefarbene Überlagerung und ein Warnzeichen auf der Benutzeroberfläche zu dieser Errungenschaft. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
-
-<!--DOCAC-10977
-
-* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
-
+* Während Sie Journeys veröffentlichen, werden diese von Journey Optimizer automatisch skaliert und angepasst, um maximalen Durchsatz und Stabilität zu gewährleisten. Wenn Sie sich dem Meilenstein von 500 gleichzeitigen Live-Journeys in einer Sandbox nähern, erscheinen eine orangefarbene Überlagerung und ein Warnzeichen auf der Benutzeroberfläche zu dieser Errungenschaft. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 500 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 
 Es gibt eine Reihe bewährter Methoden, die Sie anwenden können, um innerhalb der Grenzwerte zu bleiben und das System effizient zu nutzen.
 
