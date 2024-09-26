@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 64%
+source-wordcount: '1571'
+ht-degree: 66%
 
 ---
 
@@ -211,7 +211,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* **Maximale Anzahl Live-Journey** - Journey Optimizer verfügt jetzt über einen Schutzmechanismus von 500 Live-Journey auf Produktions-Sandboxes anstelle von 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar. Weitere Informationen zu Journey-Limits finden Sie auf [dieser Seite](../start/guardrails.md#journeys-guardrails) .
+<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **Verbesserungen bei der Live-Berichterstellung** - Die Live-Berichterstellung bietet Einblicke in die Leistung Ihrer Journey in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen. [Weitere Informationen](../building-journeys/report-journey.md)
 
