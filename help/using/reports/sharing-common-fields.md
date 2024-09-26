@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -218,5 +218,17 @@ Typ: Zeichenfolge
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, unitäre Verzweigungs-ID.
+
+Typ: Zeichenfolge
+
+## exitCriteriaID
+
+ID der exitCriteria
+
+Typ: Zeichenfolge
+
+## exitCriteriaName
+
+Name der exitCriteria
 
 Typ: Zeichenfolge

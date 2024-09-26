@@ -4,12 +4,11 @@ description: Erfahren Sie, wie Sie den E-Mail-Spam-Bericht verwenden.
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 93%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 100%
 >abstract="Mit dem Spam-Bericht können Sie die Spam-Bewertung Ihres E-Mail-Inhalts überprüfen. Dieser Wert gibt an, ob ISPs oder Mailbox-Anbieter Ihre Nachricht als Spam betrachten oder nicht. Dabei gilt: je niedriger der Wert, desto besser. Wenn Ihre Bewertung des E-Mail-Inhalts höher als 2 ist, sollten Sie die Probleme beheben, die zum Nichtbestehen der Tests geführt haben."
 
 Sie können die Spam-Bewertung Ihres E-Mail-Inhalts in einem speziellen Spam-Bericht überprüfen. Mit [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} kann Adobe Journey Optimizer Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht.
-
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 Wenn Sie Ihre E-Mail-Inhalte bearbeiten oder in der Vorschau anzeigen, können Sie über die Schaltfläche **[!UICONTROL Spam-Bericht]** für jedes einzelne Element, das aufgelistet wird, eine Bewertung und Hinweise zur Verbesserung der Bewertung abrufen.
 
@@ -49,6 +44,11 @@ Um auf den **[!UICONTROL Spam-Bericht]** zuzugreifen, folgen Sie den nachstehend
 1. Überprüfen Sie die Bewertungen und Beschreibungen für jedes Element.
 
    Dabei gilt: je niedriger der Wert, desto besser. Wenn der Wert größer als 5 ist, wird ein Warnhinweis angezeigt, der anzeigt, dass manche Nachrichten beim Empfang blockiert oder als Spam gekennzeichnet werden könnten. Es empfiehlt sich als Best Practice, einen Wert unter 2 zu erzielen.
+
+   >[!NOTE]
+   >
+   >Spam-Punktzahl wird über [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} abgeleitet, Regeln gehören nicht Adobe. Weitere Informationen zu diesen Regeln finden Sie in der SpamAssassin-Dokumentation.
+   >
 
 1. Wenn Sie auf der Grundlage dieser Bewertung der Meinung sind, dass einige Elemente verbessert werden können, bearbeiten Sie Ihren Inhalt im [E-Mail-Designer](../email/content-from-scratch.md) und nehmen Sie die erforderlichen Aktualisierungen vor.
 

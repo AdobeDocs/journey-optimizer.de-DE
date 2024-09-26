@@ -4,34 +4,14 @@ description: Erfahren Sie, wie Sie Inhalte für Inhaltskarten erstellen
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 18%
+source-wordcount: '511'
+ht-degree: 17%
 
 ---
 
 # Inhalte von Inhaltskarten erstellen {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit Inhaltskarten](get-started-content-card.md)
-* [Voraussetzungen für Inhaltskarten](content-card-configuration-prereq.md)
-* [Inhaltskartenkanal in Journey Optimizer konfigurieren](content-card-configuration.md)
-* [Erstellen von Inhaltskarten](create-content-card.md)
-* **Entwerfen von Inhaltskarten**
-* [Inhaltskarten-Bericht](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Inhaltskarten sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Das Authoring-Konstrukt für Karten bietet ein formularbasiertes Authoring-Erlebnis, das Marketing-Experten grundlegende Eingaben bereitstellt, die vom Entwickler zur Wiedergabe verwendet werden können.
 

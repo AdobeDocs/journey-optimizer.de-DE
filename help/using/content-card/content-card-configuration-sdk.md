@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 4%
+source-wordcount: '485'
+ht-degree: 2%
 
 ---
 
 # Unterstützung für Inhaltskarten im Web SDK konfigurieren {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->Inhaltskarten sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 In diesem Beispiel erfahren Sie, wie Sie mit Adobe Experience Platform Inhaltskarten aus Adobe Journey Optimizer (AJO) abrufen. Mit dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) wird der Personalisierungsinhalt vollständig abgerufen und auf der Clientseite wiedergegeben.
 

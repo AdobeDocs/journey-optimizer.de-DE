@@ -4,34 +4,14 @@ description: Informationen zur Inhaltskarte in Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 41%
+source-wordcount: '104'
+ht-degree: 49%
 
 ---
 
 # Erste Schritte mit Inhaltskarten {#get-started-content-card}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* **Erste Schritte mit Inhaltskarten**
-* [Voraussetzungen für Inhaltskarten](content-card-configuration-prereq.md)
-* [Inhaltskartenkanal in Journey Optimizer konfigurieren](content-card-configuration.md)
-* [Erstellen von Inhaltskarten](create-content-card.md)
-* [Inhaltskarten erstellen](design-content-card.md)
-* [Inhaltskarten-Bericht](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Inhaltskarten sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Inhaltskarten sind eine neue Funktion für digitale Nachrichten in Adobe Journey Optimizer, die personalisierte und ansprechende Inhalte direkt in mobilen Apps und Websites bereitstellt. Im Gegensatz zu herkömmlichen Push-Benachrichtigungen integrieren sich Inhaltskarten nahtlos in die Benutzeroberfläche und bieten dauerhafte, nicht störende Aktualisierungen, die die Benutzerinteraktion und das Benutzererlebnis verbessern.
 

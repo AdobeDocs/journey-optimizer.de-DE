@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -50,9 +50,14 @@ In diesem Abschnitt erfahren Sie, wie Sie die Skalierung – mit den folgenden b
 
 * Während Sie Journeys veröffentlichen, werden diese von Journey Optimizer automatisch skaliert und angepasst, um maximalen Durchsatz und Stabilität zu gewährleisten. Wenn Sie sich dem Meilenstein von 100 gleichzeitigen Live-Journeys in einer Sandbox nähern, erscheinen eine orangefarbene Überlagerung und ein Warnzeichen auf der Benutzeroberfläche zu dieser Errungenschaft. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Es gibt eine Reihe bewährter Methoden, die Sie anwenden können, um innerhalb der Grenzwerte zu bleiben und das System effizient zu nutzen.
 
-* Wenn Sie sich Ihrem Grenzwert für Live-Journeys nähern, sollten Sie als Erstes die Registerkarte **Übersicht** unter **Journey** öffnen, um zu sehen, wie viele Journeys in den letzten 24 Stunden aktiv waren (Journeys mit aktiven Profilen). Dazu können Sie in diesem Abschnitt die Anzahl der Profile überprüfen, die die Journey starten und beenden.
+* Wenn Sie sich Ihrer Liveschränkung nähern, können Sie als ersten Schritt auf die Registerkarte **Übersicht** unter **Journey** zugreifen, um zu sehen, wie viele Journey in den letzten 24 Stunden aktiv waren, in denen Journey aktiv waren. Dazu können Sie in diesem Abschnitt die Anzahl der Profile überprüfen, die die Journey starten und beenden.
 
   ![](assets/journey-guardrails2.png)
 

@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 71%
+source-wordcount: '595'
+ht-degree: 74%
 
 ---
 
 # Inhaltskarten konfigurieren {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit Inhaltskarten](get-started-content-card.md)
-* [Voraussetzungen für Inhaltskarten](content-card-configuration-prereq.md)
-* **Kanal für Inhaltskarten konfigurieren**
-* [Erstellen von Inhaltskarten](create-content-card.md)
-* [Inhaltskarten erstellen](design-content-card.md)
-* [Inhaltskarten-Bericht](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## Was ist eine Konfiguration? {#surface-definition}
 

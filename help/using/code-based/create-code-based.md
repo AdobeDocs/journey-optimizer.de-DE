@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 96%
 
 ---
 
@@ -113,6 +113,10 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## Aktivieren der Code-basierten Kampagne {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>Ab der Septemberversion können Sie mit einer neuen Kampagnen- und Journey-Aktivierungserfahrung den gesamten Validierungsprozess verwalten. So können Sie sicherstellen, dass Kampagnen und Journey von den entsprechenden Stakeholdern gründlich geprüft und genehmigt werden, bevor sie live geschaltet werden. Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Sobald Sie Ihre Code-basierte Kampagne definiert und Ihren Inhalt wie gewünscht mit dem [Code-basierten Editor](#edit-code) bearbeitet haben, können Sie sie überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
 

@@ -5,40 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 19%
+source-wordcount: '265'
+ht-degree: 17%
 
 ---
 
 # Voraussetzungen für Inhaltskarten {#content-card-configuration-prereq}
 
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit Inhaltskarten](get-started-content-card.md)
-* **Voraussetzungen für Inhaltskarten**
-* [Inhaltskartenkanal in Journey Optimizer konfigurieren](content-card-configuration.md)
-* [Erstellen von Inhaltskarten](create-content-card.md)
-* [Inhaltskarten erstellen](design-content-card.md)
-* [Inhaltskarten-Bericht](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Inhaltskarten sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
-
 Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die folgenden Adobe Experience Platform-Einstellungen konfigurieren:
 
 * **Adobe Experience Platform-Datenerfassung**
 
-  [Erstellen Sie einen Datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) und [fügen Sie den Experience Platform-Dienst](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) hinzu. Aktivieren Sie die Optionen **[!UICONTROL Edge Segmentation]** und **[!UICONTROL Adobe Journey Optimizer]** . Dadurch wird sichergestellt, dass Journey Optimizer-Ereignisse vom Adobe Experience Platform-Edge Network verarbeitet werden. Weitere Informationen zum Konfigurieren eines Datenspeichers finden Sie in der Dokumentation zu [datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) .
+  [Erstellen Sie einen Datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) und [fügen Sie den Experience Platform-Dienst](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep) hinzu. Aktivieren Sie die Optionen **[!UICONTROL Edge Segmentation]** und **[!UICONTROL Adobe Journey Optimizer]** . Dadurch wird sichergestellt, dass Journey Optimizer-Ereignisse vom Adobe Experience Platform-Edge Network verarbeitet werden.
+Fügen Sie die Feldergruppe **Erlebnisereignis - Vorschlagsinteraktion** zu Ihrem Datensatz hinzu, um diese Daten in Ihre Berichte aufzunehmen. [Weitere Informationen zu Datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

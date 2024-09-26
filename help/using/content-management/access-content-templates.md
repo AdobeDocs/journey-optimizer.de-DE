@@ -6,13 +6,13 @@ description: Erfahren Sie, wie Sie auf Inhaltsvorlagen zugreifen und diese verwa
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 75%
 
 ---
-
 
 # Zugreifen auf und Verwalten von Inhaltsvorlagen {#access-manage-templates}
 
@@ -63,3 +63,9 @@ Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorla
 >Derzeit können geeignete Miniaturansichten nur für HTML-Inhaltsvorlagen von E-Mails erstellt werden.
 
 Wenn Sie Inhalte aktualisieren, müssen Sie möglicherweise einige Sekunden warten, bis die Änderungen in der Miniaturansicht angezeigt werden.
+
+## Inhaltsvorlagen in eine andere Sandbox exportieren {#export}
+
+Mit Journey Optimizer können Sie eine Inhaltsvorlage von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Vorlage aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
+
+Der Kopiervorgang wird über einen **Package-Export und -Import** zwischen den Quell- und Ziel-Sandboxes durchgeführt. Ausführliche Informationen zum Exportieren und Importieren von Objekten in eine Ziel-Sandbox finden Sie in diesem Abschnitt: [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md)

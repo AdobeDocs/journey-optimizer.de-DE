@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 92%
 
 ---
 
-# Anwendungsfall: Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform{#custom-action-aep}
+# Anwendungsfall: Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform {#custom-action-aep}
 
 In diesem Anwendungsfall wird erläutert, wie Sie mithilfe von benutzerdefinierten Aktionen und authentifizierten Aufrufen benutzerdefinierte Ereignisse aus Journeys in Adobe Experience Platform schreiben.
 
-## Konfigurieren eines IO-Projekts
+## Konfigurieren eines IO-Projekts {#custom-action-aep-IO}
 
 1. Klicken Sie in der Adobe Developer Console auf **Projekt** und öffnen Sie Ihr IO-Projekt.
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Konfigurieren einer benutzerdefinierten Aktion
+## Konfigurieren einer benutzerdefinierten Aktion {#custom-action-config}
+
+Die Konfiguration benutzerdefinierter Aktionen wird auf [dieser Seite](../action/about-custom-action-configuration.md) beschrieben.
+
+Gehen Sie für dieses Beispiel wie folgt vor:
 
 1. Öffnen Sie Adobe Journey Optimizer und klicken Sie im linken Menü unter **Administration** auf **Konfigurationen**. Klicken Sie unter **Aktionen** auf **Verwalten** und dann auf **Aktion erstellen**.
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Einrichten der Authentifizierung
+### Einrichten der Authentifizierung {#custom-action-aep-authentication}
 
 1. Wählen Sie den **Typ** als **Benutzerdefiniert** mit der folgenden Payload.
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### Einrichten der Payload
+### Einrichten der Payload {#custom-action-aep-payload}
 
 1. Fügen Sie die Payload aus der zuvor verwendeten Quellverbindung in die Felder **Anfrage** und **Antwort** ein.
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Ändern Sie die Feldkonfiguration von **Konstant** in **Variabel** für Felder, die dynamisch ausgefüllt werden. Speichern Sie die benutzerdefinierte Aktion.
+1. Ändern Sie die Feldkonfiguration für dynamisch ausgefüllte Felder von **Konstante** in **Variable** .
+
+1. Speichern Sie die benutzerdefinierte Aktion.
 
 ## Journey
 

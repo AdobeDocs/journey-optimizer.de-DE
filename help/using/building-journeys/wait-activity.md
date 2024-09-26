@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 90%
+ht-degree: 86%
 
 ---
 
@@ -43,9 +43,9 @@ Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer 
 
 Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden.
 
-### Warten und Wiedereintritt {#wait-re-entrance}
+### Warten und erneutes Eintreten {#wait-reentrance}
 
-Eine Best Practice, um keine Aktivitäten vom Typ **Warten** zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance).
+Es empfiehlt sich, keine **Warten** -Aktivitäten zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Wiedereintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance).
 
 ### Warten und Testmodus {#wait-test-modd}
 
