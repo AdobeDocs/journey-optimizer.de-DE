@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Diese Verbesserung wurde eingeführt, um zu verhindern, dass Wartezeiten die Journey-Lebensdauer von 30 Tagen überschreiten. Dies gilt für:
 
    * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
-   * das Feld **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-properties.md#entrance)
+   * die **Wartezeit für den erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-properties.md#entrance)
    * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-properties.md#entrance)
+* Den Journey-Eigenschaften wurde das Feld **Wartezeit für den erneuten Eintritt** hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-properties.md#entrance)
 
 * Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Zielgruppe lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
