@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Testen Sie den Inhalt mithilfe von Beispieleingabedaten.
-description: Erfahren Sie, wie Sie mit Beispieleingaben eine Vorschau von E-Mail-Inhalten anzeigen und Testsendungen durchführen können.
+description: Erfahren Sie, wie Sie mit Beispieleingabedaten eine Vorschau von E-Mail-Inhalten anzeigen und Testsendungen durchführen können.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -44,15 +44,12 @@ Die wichtigsten Schritte zum Testen Ihres Inhalts sind:
 
 ## Leitlinien und Einschränkungen {#limitations}
 
-Bevor Sie mit dem Testen Ihres Inhalts mithilfe von Beispieleingabedaten beginnen, sollten Sie die folgenden Limits und Voraussetzungen beachten.
+Bevor Sie mit dem Testen Ihres Inhalts mit Beispieleingabedaten beginnen, sollten Sie die folgenden Limits und Voraussetzungen beachten.
 
 * Derzeit ist der Test mit Beispieleingabedaten nur für den E-Mail-Kanal verfügbar. Auf das Erlebnis kann nicht über die Schaltfläche &quot;Inhalt simulieren&quot;in der E-Mail-Designer zugegriffen werden.
 * Die folgenden Funktionen sind im aktuellen Erlebnis nicht verfügbar: Inbox Rendering, Spam-Berichte, mehrsprachige Inhalte und Inhaltsexperimente. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus, um auf die vorherige Benutzeroberfläche zuzugreifen.
 * Derzeit werden nur Profilattribute unterstützt. Wenn in Ihrem Inhalt für die Personalisierung kontextbezogene Attribute verwendet werden, können Sie Ihren Inhalt nicht mit diesen Attributen testen.
 * Nur die folgenden Datentypen werden bei der Eingabe von Daten für Ihre Varianten unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenfolge, Boolescher Wert und Datentyp. Bei allen anderen Datentypen wird ein Fehler angezeigt.
-
-
-nicht von Akriten
 
 ## Varianten hinzufügen {#profiles}
 
