@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_email_locking_read_only"
 >title="Schreibgeschützt"
 >abstract="Dieser Inhalt ist schreibgeschützt und kann nicht geändert werden."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Verstöße gegen Data Governance-Richtlinien"
->abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Verwenden Sie das Datenherstellungsdiagramm in diesem Dialogfeld, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können."
 
 <!--APPROVAL POLICIES-->
 
