@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 50%
+source-wordcount: '1103'
+ht-degree: 49%
 
 ---
 
@@ -243,3 +243,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
   >[!CAUTION]
   >
   >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktion auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte durchführen. Beachten Sie dies beim Experimentieren mit Produktions-Sandboxes.
+
+**Konfiguration**
+
+* IP-Aufwärmspläne - Diese Funktion steht nun allen Kunden zur Verfügung, einschließlich Organisationen, die das Zusatzangebot Adobe **Gesundheitsschild** oder **Datenschutz- und Sicherheitsschild** erworben haben. [Weitere Informationen](../configuration/ip-warmup-gs.md)

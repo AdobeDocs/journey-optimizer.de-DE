@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
-workflow-type: ht
-source-wordcount: '252'
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+workflow-type: tm+mt
+source-wordcount: '246'
 ht-degree: 100%
 
 ---
@@ -22,15 +22,11 @@ Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benu
 
 Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe der IP-Aufwärmplan-Funktion schrittweise erhöhen. Mit dieser neuen Option im Menü **[!UICONTROL Administration]** können Sie dies einfach und konsolidiert tun, anstatt komplexe tägliche Journeys zu erstellen.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️ [In diesem Video erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
 
 >[!AVAILABILITY]
 >
 >Diese Funktion kann nur für Sandboxes vom Typ „Produktion“ aktiviert werden.
->
->Sie ist nicht verfügbar für Organisationen, welche die Zusatzangebote Adobe **Healthcare Shield** oder **Privacy and Security Shield** erworben haben.
-
-
 
 <!--
 Benefits
