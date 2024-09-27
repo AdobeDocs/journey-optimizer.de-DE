@@ -11,7 +11,7 @@ keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Ri
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 30%
@@ -90,7 +90,7 @@ Vor der Aktivierung der Journey oder Kampagne überprüft das System, ob die Mar
 
 Wenn das System ein eingeschränktes Feld identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung der Journey oder der Kampagne verhindert. [Erfahren Sie, wie Sie Verstöße gegen die Governance-Richtlinien erkennen](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *Analysieren von Richtlinienverstößen für Journey und Kampagnen*
 
@@ -126,7 +126,7 @@ Nehmen wir als Beispiel das Feld Bluttyp , dessen Export durch benutzerdefiniert
 
 Wenn eines der Felder mit der Bezeichnung _ePHI1_ (im vorliegenden Beispiel das Feld für den Bluttyp) in den Aktionsparametern erkannt wird, wird ein Fehler angezeigt, der die Veröffentlichung der Journey verhindert. [Erfahren Sie, wie Sie Verstöße gegen die Governance-Richtlinien erkennen](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *Analysieren von Richtlinienverstößen für benutzerdefinierte Aktionen von Journey*
 
