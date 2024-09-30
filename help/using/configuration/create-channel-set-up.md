@@ -35,12 +35,12 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="Bereitstellen eines Push-Zertifikats"
+>title="Push-Zertifikat angeben"
 >abstract="Ziehen Sie die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop. Diese Datei enthält Authentifizierungsinformationen, die für die sichere Integration und Kommunikation zwischen Ihrer Anwendung und dem Server erforderlich sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="Bereitstellen eines Push-Zertifikats"
+>title="Push-Zertifikat angeben"
 >abstract="Die .p8-Schlüsseldatei enthält einen privaten Schlüssel, mit dem Ihre App auf den Servern von Apple für sichere Push-Benachrichtigungen authentifiziert wird. Sie können diesen Schlüssel über die Seite „Zertifikate“, „Kennungen“ und „Profile“ in Ihrem Entwicklerkonto erwerben."
 
 >[!CONTEXTUALHELP]
