@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 27%
 
 ---
@@ -53,7 +53,7 @@ Mit Journey Optimizer können Sie überprüfen, wann immer Überschneidungen mit
 
    >[!NOTE]
    >
-   >Die Schaltfläche **[!UICONTROL Potenzielle Konflikte anzeigen]** kann ausgewählt werden, sobald Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**.
+   >Die Schaltfläche **[!UICONTROL Potenzielle Konflikte anzeigen]** steht zur Auswahl, sobald Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**. Stellen Sie sicher, dass Sie nach dem Zuweisen dieser Einstellungen **[!UICONTROL Speichern]** auswählen, da die Schaltfläche erst ausgewählt werden kann, wenn die Änderungen gespeichert wurden.
 
 1. Das Fenster **[!UICONTROL Potenzielle Konflikte]** wird geöffnet und ermöglicht Ihnen die Visualisierung aller Elemente, die sich mit der aktuellen Journey/Kampagne überschneiden.
 
@@ -91,7 +91,7 @@ Mit Journey Optimizer können Sie einer Journey oder Kampagne eine Prioritätsbe
 
 >[!NOTE]
 >
->Die Prioritätsbewertung ist für eingehende Kanäle verfügbar: Web-, In-App- und code-basierte Kanäle. Unter Journey ist die Prioritätsbewertung nur für den Kanal **in der App** verfügbar.
+>Die Prioritätsbewertung ist für eingehende Kanäle verfügbar: Web-, In-App- und code-basierte Kanäle. Unter Journey ist die Prioritätsbewertung nur für die Kanäle **in der App** und **code-basiert** verfügbar.
 
 Die Zuweisung eines Prioritätswerts ist für die eingehende Kommunikation wie Web, Mobile und In-App-Nachrichten von entscheidender Bedeutung. Wenn mehrere Kampagnen dieselbe Kanalkonfiguration verwenden (z. B. ein Banner oben auf Ihrer Webseite), kann dies problematisch sein, da nur Inhalte einer Kampagne angezeigt werden können. In der Prioritätsbewertung legen Sie Ihre Voreinstellung fest, für welche Kampagne angezeigt werden soll, wenn sich der Empfänger für mehr als eine Kampagne qualifizieren kann.
 
@@ -99,4 +99,4 @@ Um einer Journey oder Kampagne eine Prioritätsbewertung zuzuweisen, geben Sie e
 
 ![](assets/priority-score.png)
 
-In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die zuletzt aktivierte Kampagne angezeigt.
+In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die am wenigsten aktivierte Kampagne angezeigt.
