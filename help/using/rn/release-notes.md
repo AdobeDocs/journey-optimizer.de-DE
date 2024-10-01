@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
+source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 49%
@@ -71,6 +71,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <p>Mit Validierungsrichtlinien können Sie jetzt einen Validierungsprozess in Journey Optimizer einrichten, der es Marketing-Teams ermöglicht, sicherzustellen, dass Kampagnen und Journey von den jeweiligen Interessenträgern geprüft und signiert werden, bevor sie live geschaltet werden.</p>
 <p>Genehmigungsrichtlinien sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../test-approve/gs-approval.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
