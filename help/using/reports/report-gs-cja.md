@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 86%
 
 ---
 
@@ -42,9 +42,18 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 ## Voraussetzungen {#prerequisites}
 
-* Wenn Sie **nicht** im Besitz von Customer Journey Analytics sind oder wenn Sie es besitzen, aber **keinen** Zugriff auf Customer Journey Analytics-Produktprofile haben, werden die Berechtigungen in Journey Optimizer verwaltet. In diesem Fall benötigen Sie nur die Berechtigungen für das **[!UICONTROL Anzeigen von Kanalberichten]** oder verwandte Rollen. [Weitere Informationen zu den Berechtigungen in Journey Optimizer](../administration/permissions.md)
-* Wenn Sie im Besitz von Customer Journey Analytics sind und Zugriff auf ein Customer Journey Analytics-Produktprofil haben, gelten die standardmäßigen Berechtigungen von Customer Journey Analytics.  Die Customer Journey Analytics-Admins sind für die Aufrechterhaltung des ordnungsgemäßen Benutzerzugriffs verantwortlich. [Weitere Informationen zu Berechtigungen in Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control)
+* Wenn Sie **nicht** im Besitz von Customer Journey Analytics sind oder wenn Sie es besitzen, aber **keinen** Zugriff auf Customer Journey Analytics-Produktprofile haben, werden die Berechtigungen in Journey Optimizer verwaltet. In diesem Fall benötigen Sie:
+
+   * **[!UICONTROL Berechtigung zum Anzeigen von Kanalberichten]** oder verwandten Rollen. [Weitere Informationen](../administration/permissions.md)
+
+* Wenn Sie **Inhaber**-Customer Journey Analytics sind und Zugriff auf ein Customer Journey Analytics-Produktprofil haben, benötigen Sie:
+
+   * **[!UICONTROL Berechtigungen zur Zielgruppenerstellung]** und **[!UICONTROL Zielgruppenansicht]** für Customer Journey Analytics. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control)
+
+   * **[!UICONTROL Berechtigung &quot;Profile verwalten&quot;]** für Adobe Journey Optimizer. [Weitere Informationen](../administration/permissions.md)
+
 * Ihre Customer Journey Analytics-Datenansichten müssen mit der folgenden Einstellung konfiguriert werden: **Als Standarddatenansicht in Adobe Journey Optimizer festlegen**. [Weitere Informationen zur Datenansichten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
 * Um auf das Customer Journey Analytics-Dashboard in Journey Optimizer zuzugreifen, aktivieren Sie einfach den Umschalter **[!UICONTROL Neues Erlebnis verwenden]** in Ihrem Bericht.
 
   ![](assets/cja-option.png)
