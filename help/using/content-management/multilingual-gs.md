@@ -13,7 +13,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Übersetzungen"
->abstract="Die mehrsprachige Funktion ermöglicht es Ihnen, innerhalb einer Kampagne oder Journey problemlos mehrsprachige Inhalte zu erstellen. Auf der Seite Übersetzungen können Sie Projekte einrichten, Übersetzungsanbieter auswählen oder Gebietsschemaspezifische Wörterbücher verwalten."
+>abstract="Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen. Auf der Seite Übersetzungen können Sie Projekte einrichten, Übersetzungsanbieter auswählen oder Wörterbücher einrichten, die jeweils für spezifische Gebietsschemata gelten."
 
 >[!AVAILABILITY]
 >

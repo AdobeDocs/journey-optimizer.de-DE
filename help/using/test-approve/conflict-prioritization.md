@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 6%
+ht-degree: 27%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 6%
 
 In Journey Optimizer ist die Verwaltung von Umfang und zeitlichem Verlauf von Kampagnen und Journey unverzichtbar, um zu verhindern, dass überwältigende Kunden mit zu vielen Interaktionen auf diese Weise ansprechen. In den folgenden beiden Abschnitten werden Schlüsselwerkzeuge vorgestellt, die Ihnen helfen, ein Gleichgewicht zu wahren und die Kommunikation effektiv zu priorisieren.
 
-## Potenzielle Konflikte in Journey und Kampagnen anzeigen {#conflict}
+## Anzeigen potenzieller Konflikte in Journeys und Kampagnen {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Konflikt-Viewer in Kampagnen"
->abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journey, Kampagnen oder Kanalkonfigurationen feststellen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen."
+>abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journeys, Kampagnen oder Kanalkonfigurationen ermitteln. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Konflikt-Viewer in Journeys"
->abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journey, Kampagnen oder Kanalkonfigurationen feststellen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen."
+>abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journeys, Kampagnen oder Kanalkonfigurationen ermitteln. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen."
 
 Wenn Marketing-Experten das Kampagnen- und Journey-Volumen in Journey Optimizer steigern, wird es für Marketing-Experten immer schwieriger zu wissen, ob sie Kunden mit zu vielen Marketinginteraktionen bombardieren. Es ist daher von wesentlicher Bedeutung, einfach festzustellen, wann es Überschneidungen bei Kampagnen und Journey gibt, um sicherzustellen, dass sie das richtige Gleichgewicht zwischen Marketingkommunikation erreichen und gleichzeitig das Risiko der Kundenermüdung verringern.
 
@@ -75,17 +75,17 @@ Sobald mögliche Überschneidungen festgestellt wurden, bietet Journey Optimizer
 
 Mithilfe dieser Funktionen können Sie sicherstellen, dass Ihre Marketing-Maßnahmen aufeinander abgestimmt sind und dass Sie bei Ihrer Kommunikationsstrategie das richtige Gleichgewicht wahren.
 
-## Zuweisen von Prioritätsbewertungen zu Journey und Kampagnen {#priority}
+## Zuweisen von Prioritätswerten zu Journeys und Kampagnen {#priority}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen (wie In-App-Aktionen) übernommen, die in dieser Journey enthalten sind. In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journey verwendet wird, wird dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
+>abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorität"
->abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. In Fällen, in denen dieselbe eingehende Kanalkonfiguration (z. B. In-App-Konfiguration) in anderen Kampagnen oder Journey verwendet wird, wird dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
+>abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. In Fällen, in denen dieselbe eingehende Kanalkonfiguration (beispielsweise In-App-Konfiguration) in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
 
 Mit Journey Optimizer können Sie einer Journey oder Kampagne eine Prioritätsbewertung zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Einschränkung vorliegt (z. B. eine Frequenzbegrenzung). Wenn ein Kunde für viele Journey, Kampagnen oder Mitteilungen qualifiziert ist und Sie selektiv sein möchten, in welche Bereiche er eintreten und welche er empfangen soll, sollten Sie dieses Feld nutzen.
 

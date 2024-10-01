@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testen Sie den Inhalt mithilfe von Beispieleingabedaten.
+title: Testen von Inhalten mit Beispieleingabedaten
 description: Erfahren Sie, wie Sie mit Beispieleingabedaten eine Vorschau von E-Mail-Inhalten anzeigen und Testsendungen durchführen können.
 feature: Overview, Get Started
 topic: Content Management
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 
-# Testen Sie den Inhalt mithilfe von Beispieleingabedaten. {#custom-profiles}
+# Testen von Inhalten mit Beispieleingabedaten {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
->title="Simulieren mit Beispieleingabe"
->abstract="In diesem Bildschirm können Sie verschiedene Varianten Ihres E-Mail-Inhalts testen, indem Sie Werte für Personalisierungsfelder über eine CSV-Vorlage (CSV herunterladen) bereitstellen oder die Werte manuell eingeben."
+>title="Simulationen mit Beispieleingaben"
+>abstract="Auf diesem Bildschirm können Sie verschiedene Varianten Ihrer E-Mail-Inhalte testen, indem Sie Werte für Personalisierungsfelder über eine CSV-Vorlage bereitstellen (CSV herunterladen) oder die Werte manuell eingeben."
 
 >[!AVAILABILITY]
 >

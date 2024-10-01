@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Verstöße gegen Data Governance-Richtlinien"
->abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Verwenden Sie das Datenherstellungsdiagramm in diesem Dialogfeld, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können."
+>abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Verwenden Sie das Datenherkunftsdiagramm in diesem Dialogfeld, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können."
 
 >[!AVAILABILITY]
 >

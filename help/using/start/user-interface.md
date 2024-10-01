@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Anwenden des Regelsatzes auf Journeys"
->abstract="Wenden Sie einen Regelsatz an, um diese Journey basierend auf Frequenzlimitierungsregeln auf einen Teil Ihrer Audience auszuschließen."
+>abstract="Wenden Sie einen Regelsatz an, um diese Journey basierend auf Regeln für die Frequenzbegrenzung für einen Teil der Zielgruppe auszuschließen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Vorschau der Priorisierung"
->abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird der Kunde von der Teilnahme an dieser Journey ausgeschlossen. Für Situationen, in denen Journey nach dem Windhundverfahren erfasst werden sollen, empfehlen wir, den täglichen Look-Ahead-Zeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journey an diesem Tag unter dem Prioritätswert für die Journey liegt. Eine Journey mit einer Prioritätsstufe von 100 würde ebenfalls sicherstellen, dass sie eingeht."
+>abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird die Kundin bzw. der Kunde vom Eintritt in diese Journey ausgeschlossen. Für Situationen, in denen Journeys nach dem Windhundverfahren erfasst werden sollen, empfehlen wir, den täglichen Look-Ahead-Zeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journeys an diesem Tag unter dem Prioritätswert für die Journey liegt. Eine Journey mit einem Prioritätswert von 100 würde ebenfalls sicherstellen, dass ein Eintritt erfolgt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
