@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1068'
+ht-degree: 95%
 
 ---
 
 # Bearbeiten von Web-Inhalten {#edit-web-content}
 
-Nachdem Sie eine [Web-Aktion](create-web.md#create-web-campaign) zu Ihrer Kampagne hinzugefügt haben, können Sie den Inhalt Ihrer Site mit dem Web-Designer bearbeiten.
+Nachdem Sie [ ein Web-Erlebnis](create-web.md#create-web-experience) zu einer Journey oder Kampagne hinzugefügt haben, können Sie den Inhalt Ihrer Site mit dem Webdesigner bearbeiten.
 
 [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne verfassen](#video)
 
@@ -29,7 +29,7 @@ In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen 
 
 * [Verwalten von Änderungen](manage-web-modifications.md)
 
-* [Überwachen Ihrer Web-Kampagnen](monitor-web-campaigns.md)
+* [Überwachen Ihrer Web-Kampagnen](monitor-web-experiences.md)
 
 ## Arbeiten mit dem Web-Designer {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen 
 >abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
+Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der [Kampagne](create-web.md#create-web-campaign) die Option **[!UICONTROL Inhalt bearbeiten]** aus.<!--change screen with rule-->
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne oder der Web-Erlebnisaktivität auf der Journey die Option **[!UICONTROL Inhalt bearbeiten]**<!--change screen with rule--> aus.
 
    ![](assets/web-campaign-edit-content.png)
 

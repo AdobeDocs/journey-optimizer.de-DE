@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -29,17 +29,17 @@ Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebn
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen.
 
-Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
-
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem (z. B. Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target="_blank"}, Firebase) verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
-
 Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
+
+* Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
+
+* Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem (z. B. Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target="_blank"}, Firebase) verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
 >[!CAUTION]
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
-Die Aktionen sind in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** verfügbar. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+Benutzerdefinierte Aktionen sind in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** verfügbar. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Schnittstelle finden Sie auf [dieser Seite](../start/user-interface.md).
 

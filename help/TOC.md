@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [Bedingung](using/building-journeys/condition-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Lesen der Zielgruppe](using/building-journeys/read-audience.md)
-      + [E-Mail, In-App, Push, SMS](using/building-journeys/journeys-message.md)
+      + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 98%
    + Verfassen von Web-Seiten{#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
-      + [Überwachen Ihrer Web-Kampagnen](using/web/monitor-web-campaigns.md)
+      + [Weberlebnisse überwachen](using/web/monitor-web-experiences.md)
       + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)

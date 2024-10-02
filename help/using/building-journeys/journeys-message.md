@@ -1,98 +1,137 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hinzufügen einer Nachricht zu einer Journey
-description: Erfahren Sie, wie Sie ein Nachricht zu einer Journey hinzufügen können
+title: Hinzufügen einer integrierten Kanalaktion zu einer Journey
+description: Erfahren Sie, wie Sie einer Journey eine integrierte Kanalaktion hinzufügen.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
+keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
-workflow-type: ht
-source-wordcount: '1195'
-ht-degree: 100%
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 77%
 
 ---
 
-# Senden von E-Mail-, In-App-, Push- und Textnachrichten {#add-a-message-in-a-journey}
+# Verwenden integrierter Kanalaktionen {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="Nachrichtenaktivität"
->abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, Text- (SMS/MMS), In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>title="Integrierte Kanalaktion"
+>abstract="Journey Optimizer verfügt über integrierte Kanalaktionsfunktionen. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende (In-App-, Web-, Code-basierte Erlebnis-, Inhaltskarten-) Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS/MMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Aktionsfunktionen für Kanäle. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende (In-App-, Web-, Code-basierte Erlebnis-, Inhaltskarten-) Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
-Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
+>[!NOTE]
+>
+>Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
 
-* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md).
+Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzufügen.
+
+1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
+
+1. Ziehen Sie aus dem Bereich **Aktionen** der Palette ein ausgehendes (**E-Mail**, **Push**, **SMS**) oder ein eingehendes (**In-App**, **Web**, **code-basiertes Erlebnis**, **Inhaltskarte**). -Aktivität in die Arbeitsfläche.
+
+   ![](assets/journey-web-activity.png)
+
+1. Konfigurieren Sie Ihre Aktivität. 
+
+   * Gehen Sie wie folgt vor, um den Inhalt einer Nachricht detailliert zu erstellen:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Erstellen von E-Mails</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Gelegentlich" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Push-Benachrichtigungen erstellen<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Gehen Sie wie folgt vor, um eine eingehende Aktion zu erstellen:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Erstellen von In-App-Nachrichten</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Erstellen von Web-Erlebnissen</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Erstellen von Inhaltskarten</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Gelegentlich" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Erstellen von Code-basierten Erlebnissen<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >Jede eingehende Nachrichtenaktivität verfügt über eine 3-tägige **Warten** -Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+
+### Empfehlung {#recommendation}
+
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie jedoch die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden.
+
+* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
 
 * Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
 
    * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
 
-Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
-
-1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
-
-1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, **In-App**-, **SMS-** oder **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
-
-1. Konfigurieren Sie Ihre Aktivität. 
-
-   Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="Lead" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong>Erstellen von E-Mails</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong>Erstellen von In-App-Nachrichten</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="Gelegentlich" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong>Push-Benachrichtigungen erstellen<strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->Jede eingehende Nachrichtenaktivität (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) ist mit einer 3-tägigen **Warteaktivität** verbunden. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## Aktualisieren von Live-Inhalten{#update-live-content}
 
-Sie können den Inhalt einer Nachricht (E-Mail, In-App, Push, SMS) in einer Live-Journey aktualisieren.
+Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktualisieren.
 
-Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Nachrichtenaktivität aus und klicken Sie auf **Inhalt bearbeiten**.
+Öffnen Sie dazu die Live-Journey, wählen Sie die Kanalaktivität aus und klicken Sie auf **Inhalt bearbeiten**.
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +153,12 @@ Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgeno
 >[!NOTE]
 >
 >Diese Funktion ist standardmäßig nicht aktiviert. Sie können sich an den Adobe-Support wenden, um sie zu aktivieren.
+>
+>Die Funktion zur Sendezeitoptimierung gilt nur für E-Mail- und Push-Kanäle.
 
 ### Anmerkungen zur Optimierung des Versandzeitpunkts {#about-send-time}
 
-Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
+Die Sendezeitoptimierungs-Funktion von Adobe Journey Optimizer, unterstützt von Adobe Optimization AI-Diensten, kann die beste Sendezeit für den Versand einer **E-Mail** oder **Push-Nachricht** vorhersagen, um die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
 
 Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Mithilfe der folgenden Punktwerte wählt das System für jeden Benutzer automatisch die beste Zeit aus:
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Aktionen sind das Ergebnis eines Auslösers, wie das Senden einer Nachricht. Sie
 
 In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
-* [E-Mail, SMS, Push-Benachrichtigung](../building-journeys/journeys-message.md)
+* [Integrierte Kanalaktionen](../building-journeys/journeys-message.md)
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
 * [Sprung](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTR
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
-Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier ebenfalls angezeigt. [Weitere Informationen](../building-journeys/using-custom-actions.md).
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
+
+* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine bestimmte benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
+
+* Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
+
+   * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
 
 ## Best Practices {#best-practices}
 
@@ -92,6 +101,6 @@ In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimm
 
 ### Hinzufügen eines alternativen Pfads
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)
