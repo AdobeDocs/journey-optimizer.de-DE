@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 77%
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzuf�
      >
      >Jede eingehende Nachrichtenaktivität verfügt über eine 3-tägige **Warten** -Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
-### Empfehlung {#recommendation}
+## Empfehlung {#recommendation}
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie jedoch die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden.
 
