@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 49%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 49%
 >
 -->
 
-**Veröffentlichungsdatum**: 24.-26. September 2024
+**Veröffentlichungsdatum**: 24.–26. September 2024
 
 ### Neue Funktionen {#24-9-features}
 
@@ -68,7 +68,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit Validierungsrichtlinien können Sie jetzt einen Validierungsprozess in Journey Optimizer einrichten, der es Marketing-Teams ermöglicht, sicherzustellen, dass Kampagnen und Journey von den jeweiligen Interessenträgern geprüft und signiert werden, bevor sie live geschaltet werden.</p>
+<p>Mit Genehmigungsrichtlinien können Sie nun einen Genehmigungsprozess in Journey Optimizer einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholdern geprüft und abgezeichnet werden.</p>
 <p>Genehmigungsrichtlinien sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../test-approve/gs-approval.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -97,13 +97,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Globale Ausstiegskriterien in Journey</strong><br/></th>
+<th><strong>Globale Ausstiegskriterien in Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Jetzt definieren Sie Ausstiegskriterien auf Journey-Ebene. Durch Hinzufügen von Ausstiegskriterien können Sie die Profile dazu bringen, die Journey zu verlassen, sobald ein Ereignis eintritt (z. B. Kauf) oder sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass der Benutzer weitere Nachrichten von der Journey erhält.</p>
+<p>Es ist nun möglich, Ausstiegskriterien auf Journey-Ebene zu definieren. Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Journey verlassen, sobald ein Ereignis eintritt (z. B. ein Kauf) oder sie sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-properties.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -143,7 +143,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>KI-Assistent zur Beschleunigung von Inhalten </strong><br/></th>
+<th><strong>KI-Assistent – Content Accelerator </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -153,7 +153,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> auf praktische Weise vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/gs-generative.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Verfügbarkeitsdatum: 12. September</p>
+<p>Verfügbarkeitsdatum: 12. September</p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Zielgruppen**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Verfügbarkeitsdatum: 17. September) **Lizenzverwendung** - Im Dashboard zur Lizenznutzung werden jetzt die interagierbaren Profile anstelle der interagierbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
+* (Verfügbarkeitsdatum: 17. September) **Lizenznutzung**: Im Dashboard zur Lizenznutzung werden nun ansprechbare Profile anstelle von ansprechbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
 
 **Content-Management**
 
@@ -214,36 +214,36 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Verbesserungen bei der Live-Berichterstellung** - Die Live-Berichterstellung bietet Einblicke in die Leistung Ihrer Journey in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen. [Weitere Informationen](../building-journeys/report-journey.md)
+* **Verbesserungen beim Live-Reporting**: Das Live-Reporting liefert Erkenntnisse zur Performance Ihrer Journeys in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen. [Weitere Informationen](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* (Verfügbarkeitsdatum: 10. September) **Automatische erneute Zustellversuche für &quot;Audience lesen&quot;** - Wiederholungen werden jetzt standardmäßig auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Audience lesen** oder einem **Geschäftsereignis**), während der Exportauftrag abgerufen wird. Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
+* (Verfügbarkeitsdatum: 10. September) **Automatische Wiederholung bei „Zielgruppe lesen“**: Beim Abrufen des Exportauftrags werden nun standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
 
 **E-Mail-Kanal**
 
-* **Nachrichtenkopf in gesendeter E-Mail und BCC Copy** - Allen E-Mail-Nachrichten wurde ein neuer Header hinzugefügt. Der Wert dieses Headers ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Dieser Header wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, wodurch die BCC-Kopie und die entsprechenden gesendeten E-Mail-Informationen abgestimmt werden können. [Mehr dazu](../configuration/archiving-support.md#bcc-header)
+* **Nachrichtenkopf in gesendeter E-Mail und BCC Copy** - Allen E-Mail-Nachrichten wurde ein neuer Header hinzugefügt. Der Wert dieser Kopfzeile ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Dieser Header wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, wodurch die BCC-Kopie und die entsprechenden gesendeten E-Mail-Informationen abgestimmt werden können. [Mehr dazu](../configuration/archiving-support.md#bcc-header)
 
 * **Spam-Scoring** (GA) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem dedizierten **Spam-Bericht** überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
 
 **SMS-Kanal**
 
-* **API-Anmeldeinformationen bearbeiten** - Sie können jetzt Einstellungen in SMS-API-Anmeldeinformationen bearbeiten, einschließlich Aktualisierungen von Anmelde-/Abmelde-Keywords und Antworten.
+* **Bearbeiten von API-Anmeldeinformationen**: Sie können nun Einstellungen in SMS-API-Anmeldeinformationen bearbeiten, einschließlich Aktualisierungen von Opt-in-/Opt-out-Keywords und Antworten.
 
 **APIs**
 
-* **Kampagnensimulation-API** - Verwenden Sie diese API, um den Testauftrag einer Kampagne Trigger. Der Campaign-Testversand ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **Campaign Simulation-API**: Verwenden Sie diese API, um einen Testversand für eine Kampagne auszulösen. Das Senden eines Kampagnen-Testversands ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (Verfügbarkeitsdatum: 10. September) Die [Adobe Journey Optimizer API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Erkunden Sie die API-Endpunkte direkt auf den Dokumentationsseiten, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
+* (Verfügbarkeitsdatum: 10. September) Die [Adobe Journey Optimizer API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Sie können die API-Endpunkte direkt auf den Dokumentationsseiten sondieren, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
 
-  Alle API-Referenzseiten verfügen jetzt über die Funktion &quot;**Probieren Sie es**&quot;, mit der Sie API-Aufrufe direkt auf der Dokumentations-Website testen können. [Rufen Sie die erforderlichen Authentifizierungsberechtigungen ab](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und beginnen Sie mit der Verwendung der Funktion zum Durchsuchen der API-Endpunkte.
+  Alle API-Referenzseiten verfügen jetzt über eine Funktion zum **Ausprobieren**, mit der Sie API-Aufrufe direkt auf der Dokumentationsseite der Website testen können. [Beschaffen Sie sich die erforderlichen Authentifizierungsberechtigungen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und nutzen Sie die Funktion, um die API-Endpunkte zu sondieren.
 
-  Verwenden Sie diese neue Funktion, um die Anfragen an und Antworten von API-Endpunkten zu untersuchen, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
+  Untersuchen Sie mithilfe dieser neuen Funktion die Anfragen an und Antworten von API-Endpunkten, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
   >[!CAUTION]
   >
-  >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktion auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte durchführen. Beachten Sie dies beim Experimentieren mit Produktions-Sandboxes.
+  >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktionen auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte tätigen. Denken Sie daran, wenn Sie mit Produktions-Sandboxes experimentieren.
 
 **Konfiguration**
 

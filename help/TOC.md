@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -176,9 +176,9 @@ ht-degree: 95%
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Test &amp; Validierung {#test}
-   + [Konfliktmanagement und Priorisierung](using/test-approve/conflict-prioritization.md)
+   + [Konflikt-Management und Priorisierung](using/test-approve/conflict-prioritization.md)
    + Vorschau und Testen der Inhalte {#preview-test}
-      + [Testen Sie den Inhalt mithilfe von Beispieleingabedaten.](using/test-approve/simulate-sample-input.md)
+      + [Testen von Inhalten mit Beispieleingabedaten](using/test-approve/simulate-sample-input.md)
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen der Testprofile](using/content-management/test-profiles.md)
       + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
@@ -272,12 +272,12 @@ ht-degree: 95%
    + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
 + Inhaltskarten{#content-card}
    + [Erste Schritte mit Inhaltskarten](using/content-card/get-started-content-card.md)
-   + Kanal der Inhaltskarte konfigurieren {#configure}
+   + Konfigurieren des Inhaltskartenkanals {#configure}
       + [Voraussetzungen für Inhaltskarten](using/content-card/content-card-configuration-prereq.md)
-      + [Inhaltskartenkanal in Journey Optimizer konfigurieren](using/content-card/content-card-configuration.md)
+      + [Konfigurieren eines Inhaltskartenkanals in Journey Optimizer](using/content-card/content-card-configuration.md)
       + [Unterstützung für Inhaltskarten im Web SDK konfigurieren](using/content-card/content-card-configuration-sdk.md)
    + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
-   + [Inhaltskarten erstellen](using/content-card/design-content-card.md)
+   + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -293,11 +293,11 @@ ht-degree: 95%
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
    + Arbeiten mit dem KI-Assistenten{#ai-assistant}
-      + [Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten](using/content-management/gs-generative.md)
-      + [E-Mail-Generierung mit KI](using/content-management/generative-email.md)
-      + [Push-Generierung mit KI](using/content-management/generative-push.md)
-      + [SMS-Generierung mit KI](using/content-management/generative-sms.md)
-      + [Webgenerierung mit KI](using/content-management/generative-web.md)
+      + [Erste Schritte mit dem Content Accelerator des KI-Assistenten](using/content-management/gs-generative.md)
+      + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
+      + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
+      + [Generierung von SMS mit KI](using/content-management/generative-sms.md)
+      + [Generierung von Web-Seiten mit KI](using/content-management/generative-web.md)
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}

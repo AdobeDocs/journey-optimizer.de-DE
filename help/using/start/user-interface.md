@@ -206,7 +206,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Anwenden des Regelsatzes auf Journeys"
->abstract="Wenden Sie einen Regelsatz an, um diese Journey basierend auf Regeln für die Frequenzbegrenzung für einen Teil der Zielgruppe auszuschließen."
+>abstract="Regelsatz anwenden, damit ein Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von dieser Journey ausgeschlossen wird."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Vorschau der Priorisierung"
->abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird die Kundin bzw. der Kunde vom Eintritt in diese Journey ausgeschlossen. Für Situationen, in denen Journeys nach dem Windhundverfahren erfasst werden sollen, empfehlen wir, den täglichen Look-Ahead-Zeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journeys an diesem Tag unter dem Prioritätswert für die Journey liegt. Eine Journey mit einem Prioritätswert von 100 würde ebenfalls sicherstellen, dass ein Eintritt erfolgt."
+>abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird der Eintritt der Kundin bzw. des Kunden in die Journey unterbunden. Für Situationen, in denen der Journey-Eintritt nach dem Windhundverfahren erfolgen soll, wird empfohlen, den täglichen Vorschauzeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journeys an diesem Tag unter dem Prioritätswert für die Journey liegt. Wenn eine Journey einen Prioritätswert von 100 erhält, würde das ebenfalls einen Eintritt in die Journey sicherstellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -332,5 +332,5 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Aktivieren von Erlebnis-Entscheidung"
->abstract="Aktivieren von Erlebnis-Entscheidung"
+>title="Aktivieren der Erlebnis-Entscheidung"
+>abstract="Aktivieren der Erlebnis-Entscheidung"

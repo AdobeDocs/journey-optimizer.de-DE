@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile A
 
 >[!TAB KI-Assistent]
 
-✨ Sie sich mit unserer Live-Funktionsvorschau für den [AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md) vertraut machen, mit der Sie die Funktionen des Assistenten selbst erkunden und vollständig verstehen können.
+✨ Machen Sie sich auf praktische Weise mit unserer Live-Funktionsvorschau [KI-Assistent – Content Accelerator](../help/using/content-management/gs-generative.md) vertraut, die Ihnen die Möglichkeit gibt, die Funktionen des Assistenten selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.
 
 [![Weitere Informationen](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
