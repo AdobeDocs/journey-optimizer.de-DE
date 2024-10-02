@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus einem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren.
 
-## Empfehlungen
+## Schlüsselkonzepte {#key-concepts}
 
 * Die Aktion **Profil aktualisieren** kann nur in Journeys verwendet werden, die über einen Namespace verfügen.
 * Die Aktion aktualisiert nur die vorhandenen Felder, sie erstellt keine neuen Profilfelder.
@@ -34,11 +34,12 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 * Die an Adobe Experience Platform gesendete Aktualisierungsanfrage erfolgt unmittelbar bzw. innerhalb einer Sekunde. Normalerweise dauert sie ein paar Sekunden, manchmal aber auch länger, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch die davor positionierte Aktion **Profil aktualisieren** aktualisiert wurde, sollte daher nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
 * Die Aktivität **Profil aktualisieren** unterstützt keine XDM-Felder, die als Aufzählung definiert sind.
 * Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
-* Beim Auswählen eines Datensatzes in der Aktivität **[!UICONTROL Profil aktualisieren]** wird empfohlen, einen nicht für Datenerfassungsflüsse bestimmten zu verwenden.Da die Aktualisierungen **Profil aktualisieren** nur im [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} gespeichert werden, besteht die Gefahr, dass solche Änderungen mit einem Datenaufnahmefluss überschrieben werden.
 
-  Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** keinen Identity-Namespace. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben Identity-Namespace verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Namespace auswählen oder einen, der eine Identitätszuordnung verwendet, schlägt die Aktivität **Profil aktualisieren** fehl.
+## Datensatz-Auswahl {#dataset-selection}
 
+Für die Aktivität **Profil aktualisieren** ist ein spezieller Datensatz erforderlich, um Aktualisierungen zu speichern. Da diese Aktivität nur den Profilspeicher aktualisiert (nicht den Datalake), sollten alle Aktualisierungen in einem für Profile aktivierten Datensatz gespeichert werden, der speziell für Aktionen vom Typ **Profil aktualisieren** bestimmt ist. Die Verwendung eines für die Batch- oder Streaming-Erfassung verwendeten Datensatzes führt dazu, dass neu integrierte Daten die Änderungen überschreiben, die von der Aktion **Profil aktualisieren** vorgenommen wurden.
 
+Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** keinen Identity-Namespace. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **Identitäts-Namespace** verwendet, der von der Aktion verwendet wurde, die die Journey gestartet hat, da es sich um diesen Namespace handelt, den diese Aktualisierungen verwenden. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Namespace oder einen Datensatz auswählen, der die Identitätszuordnung verwendet, schlägt die Aktivität Profil aktualisieren fehl.
 
 ## Verwenden der Profilaktualisierung
 
