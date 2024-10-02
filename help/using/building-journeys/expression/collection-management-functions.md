@@ -9,9 +9,9 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdruck
 <listExpression>.all(<condition>)
 ```
 
-Beispielsweise können Sie von allen App-Benutzern diejenigen abrufen, die IOS 13 verwenden (boolescher Ausdruck &quot;app used == IOS 13&quot;). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
+Beispielsweise können Sie von allen App-Benutzenden diejenigen abfragen, die iOS 13 nutzen (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
 
 In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können die Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../condition-activity.md#data_source_condition).
 
@@ -243,7 +243,7 @@ Dieser Ausdruck gibt die Produktnamen basierend auf dem SKU-Wert zurück. Die Li
 _aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
 
-Dieser Ausdruck ruft den Namen des letzten Produkts in der Produktliste eines Commerce-Ereignisses ab, bei dem der Ereignistyp &quot;productListAdds&quot;ist und der Gesamtpreis größer oder gleich 150 ist.
+Dieser Ausdruck ruft den Namen des letzten Produkts in der Produktliste eines Commerce-Ereignisses ab, bei dem der Ereignistyp „productListAdds“ lautet und der Gesamtpreis größer oder gleich 150 ist.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(

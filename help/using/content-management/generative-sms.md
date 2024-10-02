@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS-Generierung mit dem KI-Assistenten
-description: Beginnen Sie mit der Generierung von SMS-Inhalten mit dem AI-Assistenten in Journey Optimizer for Content Acceleration.
+description: Beginnen Sie mit der Generierung von SMS-Inhalten mit dem KI-Assistenten in Journey Optimizer für Content Acceleration.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# SMS-Generierung mit dem AI-Assistenten in Journey Optimizer Content Accelerator  {#generative-sms}
+# Generierung von SMS mit dem KI-Assistenten in Journey Optimizer – Content Accelerator  {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI-Assistenten in Journey Optimizer für Inhaltsbeschleunigung verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nach der Erstellung und Anpassung Ihrer SMS-Nachrichten an die Vorlieben Ihrer Zielgruppe sollten Sie Ihre Kommunikation mit dem AI-Assistenten in Journey Optimizer for Content Acceleration verbessern.
+Nach der Erstellung und Anpassung Ihrer SMS-Nachrichten an die Vorlieben Ihrer Zielgruppe sollten Sie Ihre Kommunikation mit dem KI-Assistenten in Journey Optimizer für Content Acceleration intensivieren.
 
 Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ihres Inhalts, die dazu beitragen, dass Ihre Nachrichten Resonanz finden und maximale Interaktion fördern.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Journey Optimizer für Content Acceleration verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden.
 
 >[!BEGINTABS]
 
@@ -52,7 +52,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
    ![](assets/sms-genai-2.png){zoomable="yes"}
 
-1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an:
+1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den erstellten Text.
    * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante.
@@ -61,9 +61,9 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]** , um ein Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den AI-Assistenten bieten können, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie einfach die Assets um, die Sie in Ihre Generierung aufnehmen möchten.
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -77,7 +77,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
-   Sie können auch die **[!UICONTROL Tone]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
+   Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
    ![](assets/sms-genai-4.png){zoomable="yes"}
 
@@ -91,7 +91,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI-Assistenten in Jou
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
 
->[!TAB Nur Texterstellung]
+>[!TAB Nur Textgenerierung]
 
 1. Nachdem Sie Ihre SMS-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -105,7 +105,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den AI-Assistenten für Inhaltsbeschleunigung, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten für Content Acceleration die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -113,7 +113,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    ![](assets/sms-text-genai-2.png){zoomable="yes"}
 
-1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an:
+1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den erstellten Text.
    * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante.
@@ -122,9 +122,9 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]** , um ein Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den AI-Assistenten bieten können, oder wählen Sie ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Schalten Sie einfach die Assets um, die Sie in Ihre Generierung aufnehmen möchten.
+   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 

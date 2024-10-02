@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 41%
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## September 2024 – frühzeitige Versionshinweise {#e-2024}
+## Frühzeitige Versionshinweise September 2024 {#e-2024}
 
-**Veröffentlichungsdatum**: 24.-25. September 2024
+**Veröffentlichungsdatum**: 24.–25. September 2024
 
 ### Neue Funktionen {#e-features}
 
@@ -48,13 +48,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Genehmigungen in Journey und Kampagnen</strong><br/></th>
+<th><strong>Genehmigungen in Journeys und Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Validierungsrichtlinien können Sie jetzt einen Validierungsprozess in Journey Optimizer einrichten, der es Marketing-Teams ermöglicht, sicherzustellen, dass Kampagnen und Journey von den jeweiligen Interessenträgern geprüft und signiert werden, bevor sie live geschaltet werden.</p>
+<p>Mit Genehmigungsrichtlinien können Sie nun einen Genehmigungsprozess in Journey Optimizer einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholdern geprüft und abgezeichnet werden.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -66,13 +66,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Sperren von E-Mail-Inhalt</strong><br/></th>
+<th><strong>Sperren von E-Mail-Inhalten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ermöglicht es Ihnen jetzt, Inhalte in E-Mail-Vorlagen zu sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, die Vorlagenanpassung besser steuern und die Effizienz und Zuverlässigkeit Ihrer E-Mail-Kampagnen verbessern.</p>
+<p>Journey Optimizer ermöglicht es nun, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -83,13 +83,13 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Globale Ausstiegskriterien in Journey</strong><br/></th>
+<th><strong>Globale Ausstiegskriterien in Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Jetzt definieren Sie Ausstiegskriterien auf Journey-Ebene. Durch Hinzufügen von Ausstiegskriterien können Sie die Profile dazu bringen, die Journey zu verlassen, sobald ein Ereignis eintritt (z. B. Kauf) oder sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass der Benutzer weitere Nachrichten von der Journey erhält.</p>
+<p>Es ist nun möglich, Ausstiegskriterien auf Journey-Ebene zu definieren. Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Journey verlassen, sobald ein Ereignis eintritt (z. B. ein Kauf) oder sie sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -116,7 +116,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant Content Accelerator </strong><br/></th>
+<th><strong>KI-Assistent – Content Accelerator </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> auf praktische Weise vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/gs-generative.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Verfügbarkeitsdatum: 12. September</p>
+<p>Verfügbarkeitsdatum: 12. September</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 >[!IMPORTANT]
 >
 >Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
-> [Erste Schritte mit der neuen Journey Optimizer-Berichtsoberfläche](../reports/report-gs-cja.md)
+> [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
 
 
 ### Verbesserungen {#e-improvements}
@@ -165,11 +165,11 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Zielgruppen aus benutzerdefinierten Uploads (CSV-Datei) stehen jetzt zur Verwendung mit dem Privacy und Security Shield-Add-on zur Verfügung.
   <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (Verfügbarkeitsdatum: 17. September) **Lizenzverwendung** - Im Dashboard zur Lizenznutzung werden jetzt die interagierbaren Profile anstelle der interagierbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
+* (Verfügbarkeitsdatum: 17. September) **Lizenznutzung**: Im Dashboard zur Lizenznutzung werden nun ansprechbare Profile anstelle von ansprechbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
 
 **Data Governance**
 
-* Sie können jetzt neben benutzerdefinierten Aktionen in Journey auch Data Governance-Richtlinien auf Journey Optimizer-Kanäle anwenden. Diese Verbesserung verhindert die Verwendung sensibler Felder in der Kommunikation, indem Marketing-Aktionen direkt in Ihren Kanalkonfigurationen angewendet werden.
+* Sie können nun neben benutzerdefinierten Aktionen in Journeys auch Data-Governance-Richtlinien auf Journey Optimizer-Kanäle anwenden. Im Rahmen dieser Verbesserung wird die Verwendung sensibler Felder in der Kommunikation verhindert, indem Marketing-Aktionen direkt in Ihren Kanalkonfigurationen angewendet werden.
 
 <!--
 **Frequency and priority management**
@@ -184,35 +184,35 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* **Maximale Anzahl Live-Journey** - Journey Optimizer verfügt jetzt über einen Schutzmechanismus von 500 Live-Journey auf Produktions-Sandboxes anstelle von 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar.
+* **Maximale Anzahl von Live-Journeys**: In Journey Optimizer gibt es nun ein Limit von 500 Live-Journeys bei Produktions-Sandboxes. Zuvor waren es 100. Die Anzahl der Live-Journeys wird in der Journey-Arbeitsfläche angezeigt.
 
-* **Verbesserungen bei der Live-Berichterstellung** - Die Live-Berichterstellung bietet Einblicke in die Leistung Ihrer Journey in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen.
+* **Verbesserungen beim Live-Reporting**: Das Live-Reporting liefert Erkenntnisse zur Performance Ihrer Journeys in den letzten 24 Stunden. Die entsprechenden Berichte wurden durch neue Metriken (eingetretene, ausgestiegene, verworfene und fehlerhafte Profile) erweitert, die Ihnen ein tieferes Verständnis für Benutzerverhalten und Performance direkt über die Journey-Arbeitsfläche ermöglichen.
 
-* **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt.
+* **Parameter in benutzerdefinierten Aktionen**: NULL und optionale Parameter werden nun in benutzerdefinierten Aktionen unterstützt.
 
-* (Verfügbarkeitsdatum: 10. September) **Automatische erneute Zustellversuche für &quot;Audience lesen&quot;** - Wiederholungen werden jetzt standardmäßig auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Audience lesen** oder einem **Geschäftsereignis**), während der Exportauftrag abgerufen wird. Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
+* (Verfügbarkeitsdatum: 10. September) **Automatische Wiederholung bei „Zielgruppe lesen“**: Beim Abrufen des Exportauftrags werden nun standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
 
 **E-Mail-Kanal**
 
-* **BCC-Nachrichtenkopf** - Allen E-Mail-Nachrichten wurde ein neuer Header hinzugefügt. Der Wert dieses Headers ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Dieser Header wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, wodurch die BCC-Kopie und die entsprechenden gesendeten E-Mail-Informationen abgestimmt werden können.
-* **Spam-Scoring** (GA) - Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem dedizierten Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
+* **BCC-Nachrichtenkopf**: Alle E-Mail-Nachrichten haben nun eine neue Kopfzeile. Der Wert dieser Kopfzeile ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Diese Kopfzeile wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, was eine Abstimmung zwischen der BCC-Kopie und den entsprechenden gesendeten E-Mail-Informationen ermöglicht.
+* **Spam-Bewertung** (allgemein verfügbar): Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem speziellen Spam-Bericht überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
 
 **SMS-Kanal**
 
-* Sie können jetzt bestehende SMS-Konfigurationen ändern
+* Sie können jetzt bestehende SMS-Konfigurationen ändern.
 
 **APIs**
 
-* Die [Adobe Journey Optimizer API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Erkunden Sie die API-Endpunkte direkt auf den Dokumentationsseiten, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
+* Die [Adobe Journey Optimizer-API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist nun interaktiv. Sie können die API-Endpunkte direkt auf den Dokumentationsseiten sondieren, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
-  Alle API-Referenzseiten verfügen jetzt über die Funktion &quot;**Probieren Sie es**&quot;, mit der Sie API-Aufrufe direkt auf der Dokumentations-Website testen können. [Rufen Sie die erforderlichen Authentifizierungsberechtigungen ab](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und beginnen Sie mit der Verwendung der Funktion zum Durchsuchen der API-Endpunkte.
+  Alle API-Referenzseiten verfügen jetzt über eine Funktion zum **Ausprobieren**, mit der Sie API-Aufrufe direkt auf der Dokumentationsseite der Website testen können. [Beschaffen Sie sich die erforderlichen Authentifizierungsberechtigungen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und nutzen Sie die Funktion, um die API-Endpunkte zu sondieren.
 
-  Verwenden Sie diese neue Funktion, um die Anfragen an und Antworten von API-Endpunkten zu untersuchen, um sofort Feedback zu erhalten und Ihre technische Implementierung zu beschleunigen.
+  Untersuchen Sie mithilfe dieser neuen Funktion die Anfragen an und Antworten von API-Endpunkten, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
   >[!CAUTION]
   >
-  >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktion auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte durchführen. Beachten Sie dies beim Experimentieren mit Produktions-Sandboxes.
+  >Beachten Sie, dass Sie durch die Verwendung der interaktiven API-Funktionen auf den Dokumentationsseiten echte API-Aufrufe an die Endpunkte tätigen. Denken Sie daran, wenn Sie mit Produktions-Sandboxes experimentieren.
 
 
-* **Kampagnensimulation-API** - Verwenden Sie diese API, um den Testauftrag einer Kampagne Trigger. Der Campaign-Testversand ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **Campaign Simulation-API**: Verwenden Sie diese API, um einen Testversand für eine Kampagne auszulösen. Das Senden eines Kampagnen-Testversands ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 

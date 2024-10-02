@@ -11,7 +11,7 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Übersetzungen"
->abstract="Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen. Auf der Seite Übersetzungen können Sie Projekte einrichten, Übersetzungsanbieter auswählen oder Wörterbücher einrichten, die jeweils für spezifische Gebietsschemata gelten."
+>abstract="Mit der Funktion „Mehrsprachig“ können Sie Inhalte in mehreren Sprachen innerhalb einer einzigen Kampagne oder Journey auf einfache Weise erstellen. Auf der Seite „Übersetzungen“ können Sie Projekte einrichten, Übersetzungsanbieter auswählen oder gebietsschemaspezifische Wörterbücher verwalten."
 
 >[!AVAILABILITY]
 >

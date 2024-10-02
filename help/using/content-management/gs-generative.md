@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit dem AI-Assistenten in Journey Optimizer Content Accelerator
-description: Erfahren Sie, wie Sie auf den AI-Assistenten in Journey Optimizer Content Accelerator zugreifen und mit ihm arbeiten können
+title: Erste Schritte mit dem KI-Assistenten in Journey Optimizer – Content Accelerator
+description: Erfahren Sie, wie Sie auf den KI-Assistenten in Journey Optimizer Content Accelerator zugreifen und damit arbeiten.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit dem KI-Assistenten zur Beschleunigung von Inhalten {#gs-content-assistant}
+# Erste Schritte mit dem Content Accelerator des KI-Assistenten {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->Machen Sie sich mit [unserer Live-Funktionsvorschau](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} vertraut, die Ihnen ermöglicht, die Funktionen selbst zu entdecken und ihre Funktionen vollständig zu verstehen.
+>Machen Sie sich auf praktische Weise mit [unserer Live-Funktionsvorschau](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.
 
 
 Der KI-Assistent in Adobe Journey Optimizer für Content Acceleration, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktive Vorschläge zur Variation von Text- und Bildinhalten. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
