@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 91%
@@ -153,7 +153,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]** , um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass Arrays von int, string usw. gesendet werden. mit Nullwerten in wird nicht vollständig unterstützt. Beispielsweise wird das folgende Array von Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, selbst wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../action/action-response.md).
 
