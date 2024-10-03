@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ Durch diese Aktualisierung werden die neuen Funktionen im Folgenden beschrieben.
 <p>Mit dem code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung durchführen und für jede Ihrer eingehenden Eigenschaften testen. So können Sie nahtlos auf verschiedene Touchpoints zugeschnittene Erlebnisse bereitstellen, z. B. Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr. Der code-basierte Erlebniskanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/create-code-based.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Verfügbarkeitsdatum: 1. Oktober</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Durch diese Aktualisierung werden die neuen Funktionen im Folgenden beschrieben.
 <p>Mit dem Webkanal können Sie mit Adobe Journey Optimizer das Web-Erlebnis personalisieren, das Sie Ihren Kunden über eingehende Web-Journey bereitstellen. Der Webkanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../web/create-web.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Verfügbarkeitsdatum: 1. Oktober</p>
 </tr>
 </tbody>
 </table>
+
+
+**Journey-Verbesserungen**
+
+* (Verfügbarkeitsdatum: 3. Oktober) **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Versionshinweise für September 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Verbesserungen beim Live-Reporting**: Das Live-Reporting liefert Erkenntnisse zur Performance Ihrer Journeys in den letzten 24 Stunden. Wir haben sie durch das Hinzufügen neuer Metriken verbessert (eingegebene, ausgeschlossene, verworfene Profile und fehlerhafte Profile), die Ihnen ein tieferes Verständnis des Benutzerverhaltens und der Leistung direkt auf der Journey-Arbeitsfläche ermöglichen. [Weitere Informationen](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (Verfügbarkeitsdatum: 10. September) **Automatische Wiederholung bei „Zielgruppe lesen“**: Beim Abrufen des Exportauftrags werden nun standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden. [Weitere Informationen](../building-journeys/read-audience.md#retries)
 

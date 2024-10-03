@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 97%
+source-wordcount: '1671'
+ht-degree: 91%
 
 ---
 
@@ -149,7 +149,9 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 
 Sie können den Payload-Parameter wie unten beschrieben definieren:
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für POST- und PUT-Aufrufmethoden verfügbar. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für die Aufrufmethoden „POST“ und „PUT“ verfügbar.
+
+   Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]** , um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass Arrays von int, string usw. gesendet werden. mit Nullwerten in wird nicht vollständig unterstützt. Beispielsweise wird das folgende Array von Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, selbst wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../action/action-response.md).
 
@@ -170,9 +172,9 @@ Bei der Feldkonfiguration müssen Sie folgendermaßen vorgehen:
 
    * **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn sie die benutzerdefinierte Aktion während der Journey verwenden. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall wird der Wert für die Konstante im Feld rechts neben dem Umschalter „Konstante/Variable“ festgelegt.
 
-   * **Variable** bedeutet, dass der Wert des Parameters variiert. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den die Marketing-Fachkraft in der Journey sieht, um diesen Parameter zu benennen.
+   * **Variable** bedeutet, dass der Wert des Parameters variieren kann. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den die Marketing-Fachkraft in der Journey sieht, um diesen Parameter zu benennen.
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  Für optionale Parameter aktivieren Sie die Option **[!UICONTROL Ist optional]** am Ende der Zeile. Durch Aktivierung dieser Option markieren Sie den Parameter als nicht obligatorisch und lassen die Journey-Anwender ihn beim Authoring dieser benutzerdefinierten Aktion in einer Journey ausfüllen oder nicht.
 
 >[!NOTE]
 >
