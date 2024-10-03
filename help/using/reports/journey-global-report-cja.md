@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
 workflow-type: tm+mt
-source-wordcount: '4176'
-ht-degree: 100%
+source-wordcount: '4184'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusamm
 
 ![](assets/cja-journey-canvas.png)
 
-Mit dem Widget **[!UICONTROL Journey-Arbeitsfläche]** können Sie den Weg Ihrer Zielprofile durch die Journey visuell verfolgen.
+Das Widget **[!UICONTROL Journey Canvas]** ermöglicht es Ihnen, den Verlauf Ihrer Zielprofile während der Navigation durch Ihre Journey visuell zu verfolgen. [Weitere Informationen finden Sie in der Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Verbessern Sie die Anpassung Ihrer Arbeitsfläche mit den folgenden Optionen:
 
