@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Erstellen Sie Kampagnen und Journeys in diesem Abschnitt.
 * **[!UICONTROL Landingpages]** - Landingpages erstellen, entwerfen, testen und veröffentlichen: Senden Sie Ihren Benutzenden Links zu Online-Formularen, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder spezifische Dienste abonnieren können. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL ENTSCHEIDUNGS-MANAGEMENT] {#left-nav-offers}
+### [!UICONTROL ENTSCHEIDUNGS-MANAGEMENT] {#left-nav-decision}
 
 Erstellen Sie Angebote und Komponenten aus diesem Abschnitt.
 
