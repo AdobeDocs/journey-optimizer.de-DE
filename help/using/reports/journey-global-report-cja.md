@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 99%
+source-wordcount: '4802'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,8 @@ Die Seite **[!UICONTROL Journey-Bericht]** wird je nach den Nachrichtenaktivitä
 * [In-App](#in-app-global)
 * [Web](#web-cja)
 * [Direkt-Mail](#direct-mail-cja)
+* [Codebasiert](#code-based)
+* [Inhaltskarte](#content-card)
 
 Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ Der Graph **[!UICONTROL Klicks]** zeigt Metriken für Klicks auf Web-Seiten an, 
 
 ![](assets/cja-web-displays.png)
 
-Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der einzelnen Profile nachvollziehen, die mit der Nachricht interagieren.
+Mit dem Diagramm **[!UICONTROL Anzeigen]** können Sie sowohl die GesamtReichweite des code-basierten Erlebnisses als auch die Anzahl der eindeutigen Profile, die damit interagieren, verstehen.
 
 +++ Weitere Informationen zu Anzeigemetriken
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft das code-basierte Erlebnis geöffnet wurde.
 
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
+* **[!UICONTROL Eindeutige Anzeigen]**: Gibt an, wie oft das code-basierte Erlebnis geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
 
 +++
-
 
 ### Tracking-Daten {#track-data-web}
 
@@ -761,3 +762,119 @@ Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen F
 Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Direkt-Mail-Nachrichten von Ihnen erhalten konnten.
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.
+
+## Code-basiertes Erlebnis
+
+### Anzeigen und Klicken {#impressions-code}
+
+![](assets/code-based-display.png)
+
+Die Diagramme **[!UICONTROL Anzeigen und Klicken]** enthalten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren code-basierten Erlebnissen und bieten wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
+
++++ Weitere Informationen zu Impressions- und Klickmetriken
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Erlebnissen geklickt haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren Erlebnissen auf einen Inhalt geklickt wurde.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft das Erlebnis geöffnet wurde.
+
+* **[!UICONTROL Einzelne Anzeigen]**: Gibt an, wie oft das Erlebnis geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+
++++
+
+### Tracking-Daten {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren code-basierten Erlebnissen verknüpft ist, und bietet so wichtige Einblicke in Interaktion und Erlebniseffektivität.
+
++++ Weitere Informationen zu Metriken für Tracking-Daten
+
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Erlebnisse gelten.
+
+* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit Ihren Erlebnissen interagiert haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren Erlebnissen auf einen Inhalt geklickt wurde.
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Erlebnissen geklickt haben.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft Ihr Erlebnis geöffnet wurde.
+
+* **[!UICONTROL Eindeutige Anzeigen]**: Gibt an, wie oft Ihr Erlebnis geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+
++++
+
+### Bezeichnungen für verfolgten Link {#track-link-code}
+
+Die Tabelle **[!UICONTROL Getrackte Link-Bezeichnungen]** bietet einen umfassenden Überblick über die Link-Bezeichnungen in Ihren code-basierten Erlebnissen und hebt hervor, welche die meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren code-basierten Erlebnissen geklickt haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft in Ihren code-basierten Erlebnissen auf einen Inhalt geklickt wurde.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft das Erlebnis geöffnet wurde.
+
+* **[!UICONTROL Einzelne Anzeigen]**: Gibt an, wie oft das Erlebnis geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+
++++
+
+## Inhaltskarte {#content-card}
+
+### Anzeigen und Klicken {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+Die Diagramme **[!UICONTROL Anzeigen und Klicken]** enthalten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Inhaltskarten und bieten wertvolle Einblicke in die Interaktion der Profile mit Ihrem Inhalt.
+
++++ Weitere Informationen zu Anzeigen- und Klickmetriken
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde.
+
+* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+
++++
+
+### Tracking-Daten {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Inhaltskarten verknüpft ist und wichtige Einblicke in die Interaktion und Erlebniseffektivität bietet.
+
++++ Weitere Informationen zu Metriken für Tracking-Daten
+
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten gelten.
+
+* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit Ihren Inhaltskarten interagiert haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde.
+
+* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+
++++
+
+### Bezeichnungen für verfolgten Link {#track-link-content}
+
+Die Tabelle **[!UICONTROL Getrackte Link-Beschriftungen]** bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren Inhaltskarten und zeigt diejenigen, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+
++++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
+
+* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde.
+
+* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+
++++

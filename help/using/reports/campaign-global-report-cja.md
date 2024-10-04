@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 94%
+source-wordcount: '4540'
+ht-degree: 95%
 
 ---
 
@@ -844,14 +844,3 @@ Die Tabelle **[!UICONTROL Getrackte Bezeichnungen]** bietet einen umfassenden Ü
 
 +++
 
-### Nachverfolgte Link-URLs {#tracked-link-url}
-
-Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Inhaltskarten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und so Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Inhaltskarten verbessern.
-
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
-
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
-
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
-
-+++
