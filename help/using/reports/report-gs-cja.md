@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 86%
+source-wordcount: '389'
+ht-degree: 81%
 
 ---
 
 # Erste Schritte mit der neuen Reporting-Oberfläche {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Um zum herkömmlichen Reporting von Journey Optimizer zurückzukehren, schalten Sie einfach die Option **[!UICONTROL Neues Erlebnis verwenden]** wieder aus.
+>Die Berichterstellung in Adobe Journey Optimizer ist derzeit auf UTC standardisiert. Die Möglichkeit, die Zeitzone der Berichterstellung anzupassen, wird in einer zukünftigen Version eingeführt.
 
 Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit Customer Journey Analytics-Funktionen, wodurch die Berichterstellung plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, besser fundierte Entscheidungen zu treffen.
 
@@ -39,6 +39,10 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 * Wenn Sie Metriken für alle Kampagnen und Journeys in Ihrer Umgebung als Ziel auswählen möchten, navigieren Sie im Abschnitt **[!UICONTROL Journey-Management]** zum Menü **[!UICONTROL Berichte]** und greifen Sie auf den **Übersichtsbericht** zu. [Weitere Informationen zum Übersichtsbericht](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Um zum herkömmlichen Reporting von Journey Optimizer zurückzukehren, schalten Sie einfach die Option **[!UICONTROL Neues Erlebnis verwenden]** wieder aus.
 
 ## Voraussetzungen {#prerequisites}
 
