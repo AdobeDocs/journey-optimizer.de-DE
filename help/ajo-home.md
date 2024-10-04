@@ -5,9 +5,9 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
+source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 91%
 
 ---
@@ -20,7 +20,7 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB September-Version]
+>[!TAB Version vom 24. September]
 
 Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile Apps und Websites, Richtlinien für Genehmigungen in Journey und Kampagnen (LA), globalen Ausstiegskriterien in Journey und mehr.
 
