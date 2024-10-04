@@ -3,8 +3,9 @@ title: Erstellen und Verwalten von Validierungsrichtlinien
 description: Erfahren Sie, wie Sie Genehmigungsrichtlinien erstellen und verwalten.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%

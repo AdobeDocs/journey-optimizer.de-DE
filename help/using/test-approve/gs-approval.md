@@ -3,8 +3,9 @@ title: Erste Schritte mit der Genehmigung von Journey und Kampagnen
 description: Erfahren Sie, wie Sie einen Validierungsprozess für Ihre Journey und Kampagnen einrichten.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
