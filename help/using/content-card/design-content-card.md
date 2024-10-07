@@ -1,13 +1,13 @@
 ---
-title: Inhaltskarten erstellen
+title: Entwerfen von Inhaltskarten
 description: Erfahren Sie, wie Sie Inhalte für Inhaltskarten erstellen
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 17%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
@@ -39,17 +39,19 @@ Geben Sie zum Erstellen Ihrer Nachricht Ihren Text in die Felder **[!UICONTROL T
 
 ![](assets/content-card-design-2.png)
 
-+++Mehr Optionen mit erweiterter Formatierung
-
-Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie folgende Parameter für Ihre **[!UICONTROL Kopfzeile]** und Ihren **[!UICONTROL Hauptteil]** wählen:
-
-* die **[!UICONTROL Schriftart]**
-* die **[!UICONTROL Punkt-Größe]**
-* die **[!UICONTROL Schriftfarbe]**
-* die **[!UICONTROL Ausrichtung]**
-+++
-
 Wenn Sie Ihre Nachricht weiter anpassen möchten, verwenden Sie das Symbol **[!UICONTROL Personalization]** , um personalisierte Elemente hinzuzufügen. Detaillierte Anweisungen zur Verwendung der Personalisierungsfunktionen finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### Medien {#add-media}
 
@@ -59,11 +61,13 @@ Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen
 
 Um Medien einzubeziehen, geben Sie entweder die URL des Mediums ein, das Sie verwenden möchten, oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]** , um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../content-management/assets.md)
 
-+++Mehr Optionen mit erweiterter Formatierung
+<!--
++++More options with advanced formatting
 
-Wenn der erweiterte Formatierungsmodus **** aktiviert ist, können Sie einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen-Anwendungen und ein weiteres Asset im Feld **[!UICONTROL Medien-URL für dunklen Modus]** hinzufügen.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### Schaltflächen        {#add-buttons}
 
@@ -79,16 +83,18 @@ Fügen Sie Schaltflächen hinzu, über die Benutzer mit Ihren Inhaltskarten inte
 
 1. Geben Sie im Feld **[!UICONTROL Ziel]** die Web-URL oder den Deeplink ein, zu dem Benutzer weitergeleitet werden, nachdem sie mit der Schaltfläche interagiert haben.
 
-+++Mehr Optionen mit erweiterter Formatierung
+<!--
++++More options with advanced formatting
 
-Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie für Ihre **[!UICONTROL Schaltflächen]** Folgendes auswählen:
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL Schriftart]**
-* die **[!UICONTROL Punkt-Größe]**
-* die **[!UICONTROL Schriftfarbe]**
-* die **[!UICONTROL Ausrichtung]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### Verhalten bei Klick
 
