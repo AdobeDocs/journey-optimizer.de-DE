@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+workflow-type: tm+mt
+source-wordcount: '918'
+ht-degree: 95%
 
 ---
 
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen
+>Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Darüber hinaus können Benutzer maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
+> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn daher innerhalb dieses Zeitrahmens 25 Zielgruppen veröffentlicht werden, können zusätzliche Zielgruppen erst veröffentlicht werden, nachdem der 48-Stunden-Zeitraum abgelaufen ist.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

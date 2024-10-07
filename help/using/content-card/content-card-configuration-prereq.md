@@ -5,10 +5,10 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -45,4 +45,4 @@ Fügen Sie die Feldergruppe **Erlebnisereignis - Vorschlagsinteraktion** zu Ihre
 
   Stellen Sie sicher, dass der Datensatz, der im [Datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) Ihrer App verwendet wird, auch in Ihrer Konfiguration für die Berichterstellung zu Inhaltsexperimenten enthalten ist. App-Daten werden in Berichten nicht angezeigt, wenn Datensätze nicht übereinstimmen.
 
-  In [diesem Abschnitt](../content-management/reporting-configuration.md) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
+  In [diesem Abschnitt](../reports/reporting-configuration.md) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
