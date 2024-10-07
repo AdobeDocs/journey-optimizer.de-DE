@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 72%
 
 ## Aktualisierungen vom Oktober 2024 {#24-10-rn}
 
+### Neue Funktionen {#24-10-features}
+
 Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufgeführt.
 
 <table>
@@ -39,6 +41,7 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 <tbody>
 <tr>
 <td>
+<p>Verfügbarkeitsdatum: 1. Oktober</p>
 <p>Mit dem code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung durchführen und für jede Ihrer eingehenden Eigenschaften testen. So können Sie nahtlos auf verschiedene Touchpoints zugeschnittene Erlebnisse bereitstellen, z. B. Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr. Der code-basierte Erlebniskanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/create-code-based.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 <tbody>
 <tr>
 <td>
+<p>Verfügbarkeitsdatum: 1. Oktober</p>
 <p>Mit dem Webkanal können Sie mit Adobe Journey Optimizer das Web-Erlebnis personalisieren, das Sie Ihren Kunden über eingehende Web-Journey bereitstellen. Der Webkanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../web/create-web.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 </tbody>
 </table>
 
+### Verbesserungen {#24-10-improvements}
 
-**Journey-Verbesserungen**
+**Journeys**
 
 * (Verfügbarkeitsdatum: 3. Oktober) **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
