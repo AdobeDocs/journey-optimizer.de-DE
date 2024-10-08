@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
-workflow-type: ht
-source-wordcount: '1910'
-ht-degree: 100%
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+workflow-type: tm+mt
+source-wordcount: '2272'
+ht-degree: 78%
 
 ---
 
@@ -67,25 +67,15 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 ## Verwenden von Zielgruppen-Anreicherungsattributen {#enrichment}
 
-Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows generiert wurde, können Sie Anreicherungsattribute von diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+Beim Targeting einer Audience, die mithilfe von Komposition-Workflows oder einer benutzerdefinierten Audience (CSV-Datei) erstellt wurde, können Sie Anreicherungsattribute dieser Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
-Um Anreicherungsattribute in einer Journey zu verwenden, stellen Sie sicher, dass sie in der „ExperiencePlatform“-Datenquelle zu einer Feldgruppe hinzugefügt wurden.
+>[!NOTE]
+>
+>Zielgruppen, die vor dem 1. Oktober 2024 über den benutzerdefinierten Upload einer CSV-Datei erstellt wurden, können nicht personalisiert werden. Um Attribute aus diesen Zielgruppen zu verwenden und die Vorteile dieser Funktion voll auszuschöpfen, erstellen Sie eine externe CSV-Zielgruppe, die vor diesem Datum importiert wurde, und laden Sie sie erneut hoch.
+>
+>Einverständnisrichtlinien unterstützen keine Anreicherungsattribute. Daher sollten Regeln für Einwilligungsrichtlinien nur auf Attributen basieren, die im Profil gefunden werden.
 
-+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.
-
-1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
-1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
-1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
-1. Speichern Sie Ihre Änderungen.
-
-Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
-
-* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
-* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
-
-+++
-
-Nachdem Anreicherungsattribute zu einer Feldergruppe hinzugefügt wurden, können Sie sie an verschiedenen Stellen in Journey Optimizer nutzen:
+Im Folgenden finden Sie die Aktionen, die Sie mit den Anreicherungsattributen von Zielgruppen ausführen können:
 
 * **Erstellen Sie in einer Journey mehrere Pfade** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe einer Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in einer Aktivität [Bedingung](../building-journeys/condition-activity.md), die auf den Anreicherungsattributen der Zielgruppe basiert.
 
@@ -95,9 +85,41 @@ Nachdem Anreicherungsattribute zu einer Feldergruppe hinzugefügt wurden, könne
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Benutzerdefinierte Upload-Anreicherungsattribute stehen noch nicht zur Verwendung in Journey Optimizer zur Verfügung.
+>Um Anreicherungsattribute aus Zielgruppen zu verwenden, die mithilfe von Komprimierungs-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldergruppe in der Data Source von &quot;Experience Platform&quot;hinzugefügt werden.
+>
++++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
+>
+1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
+1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
+1. Wählen Sie in der Schemaauswahl das entsprechende Schema aus. Der Name des Schemas weist folgendes Format auf: &#39;Schema for audienceId:&#39; + die Kennung der Audience. Die Kennung der Zielgruppe finden Sie auf dem Bildschirm mit den Zielgruppendetails im Zielgruppeninventar.
+1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
+1. Speichern Sie Ihre Änderungen.
+1. Nachdem einer Feldergruppe Anreicherungsattribute hinzugefügt wurden, können Sie sie in Journey Optimizer an den oben aufgeführten Speicherorten nutzen.
+>
+Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
+>
+* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
+* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
+>
++++
+
+## Benutzerdefinierte Upload-Zielgruppen (CSV-Datei) {#csv}
+
+Dieser Abschnitt enthält wichtige Informationen, die Sie beim Arbeiten mit benutzerdefinierten Upload-Zielgruppen (CSV-Dateien) beachten sollten:
+
+* **Vorschau- und Testversandunterstützung für CSV-Zielgruppen:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Upload erstellt wurden, nicht unterstützt. Beachten Sie dies bei der Planung Ihrer Kampagnen.
+
+* **Schnelle Aktivierungs- und Identitätszusammenfügungsverzögerungen:** Die Adobe Experience Platform-Architektur verzögert die Identitätszuordnung, um benutzerdefinierte Upload-Zielgruppen sofort für die Aktivierung in Journey Optimizer verfügbar zu machen, mit folgenden Auswirkungen:
+
+   * Zielgruppen können direkt nach Abschluss der Erfassung in Journey Optimizer verwendet werden. Dies erfolgt normalerweise innerhalb einer Stunde, kann jedoch variabel sein.
+   * Die Anzahl der aktivierten Datensätze kann von der Anzahl der Profile nach der Identitätszusammenfügung abweichen.
+   * Jeder Datensatz in der CSV-Datei wird aktiviert, einschließlich aller Duplikate. Beim nächsten UPS-Profilexport durchlaufen diese Datensätze die Identitätszuordnung.
+
+* **Targeting neuer Profile aus CSV-Uploads:** Wenn zwischen einem CSV-Datensatz und einem UPS-Profil keine Übereinstimmung gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind die in Journey Optimizer normalerweise verwendeten Zielgruppenfelder (z. B. personalEmail.address, mobilePhone.number) leer und können daher nicht für das Targeting verwendet werden.
+
+  Um dies zu beheben, können Sie in der Kanalkonfiguration das &quot;Ausführungsfeld&quot;(oder je nach Kanal &quot;Ausführungsadresse&quot;) als &quot;identityMap&quot;(identityMap) angeben. Dadurch wird sichergestellt, dass das beim Hochladen von CSV-Dateien als Identität ausgewählte Attribut für das Targeting in Journey Optimizer verwendet wird.
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 >[!NOTE]
 >
->Achten Sie darauf, dass Sie die richtigen Ereignisse als Kriterien für die Streaming-Segmentierung verwenden. [Weitere Informationen](#streaming-segmentation-events-guardrails)
+Achten Sie darauf, dass Sie die richtigen Ereignisse als Kriterien für die Streaming-Segmentierung verwenden. [Weitere Informationen](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Um eine optimale Performance der Streaming-Segmentierung zu erreichen, sollten S
 
 >[!NOTE]
 >
->Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Performance-Probleme verwenden.
+Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Performance-Probleme verwenden.
 
 
 ## Häufig gestellte Fragen zur Zielgruppenkomposition und zum benutzerdefinierten Upload {#faq}
@@ -178,7 +200,7 @@ Zielgruppen aus einer Zielgruppenkomposition und einem benutzerdefinierten Uploa
 
   >[!NOTE]
   >
-  >Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
+  Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
 
 Darüber hinaus stehen diese Zielgruppen für die Verwendung im Personalisierungseditor zur Verfügung, um Ihre Nachrichten in Journeys und Kampagnen zu personalisieren. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Anreicherungsattribute aus der Zielgruppenkomposition können in den folgenden B
 * Benutzerdefinierte Aktionsattribute (Journeys)
 * Nachrichtenpersonalisierung (Journeys und Kampagnen)
 
->[!AVAILABILITY]
->
->Benutzerdefinierte Upload-Anreicherungsattribute stehen noch nicht zur Verwendung in Journey Optimizer zur Verfügung.
-
 +++
 
 +++ Wie aktiviere ich Anreicherungsattribute in Journeys?
 
-Um Anreicherungsattribute in einer Journey zu verwenden, stellen Sie sicher, dass sie in der „ExperiencePlatform“-Datenquelle zu einer Feldgruppe hinzugefügt wurden. Informationen zum Hinzufügen von Anreicherungsattributen zu einer Feldgruppe finden Sie in [diesem Abschnitt](#enrichment)
+Um Anreicherungsattribute aus Zielgruppen zu verwenden, die mithilfe von Komprimierungs-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldergruppe in der Data Source &quot;Experience Platform&quot;hinzugefügt werden. Informationen zum Hinzufügen von Anreicherungsattributen zu einer Feldgruppe finden Sie in [diesem Abschnitt](#enrichment)
 
 +++
 
