@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 81%
 
 ---
@@ -278,18 +278,15 @@ Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann über 
 Gehen Sie wie folgt vor, um **ein Ausstiegskriterium zu erstellen:**
 
 1. Öffnen Sie Ihre Journey.
+
 1. Klicken Sie auf das Symbol **[!UICONTROL Ausstiegskriterien anzeigen]** oben rechts auf der Journey-Arbeitsfläche.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ausstiegskriterien hinzufügen]** .
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem Ereignis oder einer Zielgruppe basiert.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 
 * Wählen Sie für Ausstiegskriterien, die auf einem Ereignis basieren, nur ein einzelnes Ereignis aus.
-* Wählen Sie für auf einer Zielgruppe basierende Ausstiegskriterien eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien mit einer Zielgruppe funktionieren.
+* Wählen Sie für auf einer Zielgruppe basierende Ausstiegskriterien eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien mit einer Zielgruppe effektiv sind.
 
 Sie können mehrere Ausstiegskriterien hinzufügen.
 
