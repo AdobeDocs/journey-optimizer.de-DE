@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reenter, Journey, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 97%
+source-wordcount: '689'
+ht-degree: 92%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 * Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
-* Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
+* Eine auf einem Segment basierende einmalige Journey, die die Ausführung abgeschlossen und die globale Zeitüberschreitung von 91 Tagen erreicht hat.
 * Nach dem letzten Vorkommen einer wiederkehrenden zielgruppenbasierten Journey.
 
-Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
+Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen Zeitüberschreitung von 91 Tagen wechselt die Journey in den Status Abgeschlossen . Weitere Informationen finden Sie in [diesem Abschnitt](journey-properties.md#timeout).
 
 Nach der [maximalen globalen Wartezeit](journey-properties.md#timeout) von 91 Tagen wird der Status der Zielgruppen-lesen-Journey in **Beendet** geändert. Dieses Verhalten wird nur für 91 Tage festgelegt (d. h. für den [Standardwert der maximalen globalen Wartezeit der Journey](journey-properties.md#global_timeout)), da alle Informationen zu Profilen, die in die Journey eingetreten sind, 91 Tage nach ihrem Eintritt entfernt werden. Personen, die sich noch in der Journey befinden, sind automatisch betroffen. Sie beenden die Journey nach der 91-tägigen maximalen Wartezeit.
 
