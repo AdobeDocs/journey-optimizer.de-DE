@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1333'
 ht-degree: 69%
 
 ---
@@ -74,7 +74,7 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 
 * (Verfügbarkeitsdatum: 3. Oktober) **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Zielgruppen**
+**Zielgruppen** - Verfügbarkeitsdatum: 8. Oktober
 
 * Beim Targeting einer CSV-Datei-Audience können Sie jetzt Attribute aus der Datei im Personalisierungs-Editor und in der Regelerstellung für Journey und Kampagnen verwenden. [Weitere Informationen](../audience/about-audiences.md)
 
