@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>Ab dem 1. November 2024 wird für systemgenerierte Journey Optimizer-Datensätze ein TTL-Schutzschild (Time-to-Live) wie folgt erzwungen:
+>
+>* 90 Tage für Daten im Profilspeicher
+>* 13 Monate für Daten im Data Lake
+>
+>Außerdem unterstützt Streaming-Segmentierung zu diesem Zeitpunkt nicht mehr die Verwendung von Sende- und Öffnungs-Ereignissen aus Tracking- und Feedback-Datensätzen.
+
+
+
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
 Die Systemdatensätze für Adobe Journey Optimizer sind im Folgenden aufgeführt.
 
-
 >[!CAUTION]
 >
 > Systemdatensätze **dürfen nicht geändert werden**. Jede Änderung wird bei jeder Produktaktualisierung automatisch rückgängig gemacht.
->
 
 **Reporting**
 
