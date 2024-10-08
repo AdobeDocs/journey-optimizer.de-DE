@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -53,22 +53,22 @@ Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurati
 
 Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen auf [dieser Seite](entry-management.md).
 
-### Wiedereintritt erlauben  {#allow-reentrance}
+### Erneuten Eintritt erlauben  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Wiedereintritt erlauben"
->abstract="Standardmäßig ist der erneute Eintritt in neue Journey zulässig. Sie können die Option **Wiedereintritt erlauben** deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt."
+>title="Erneuten Eintritt erlauben"
+>abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** deaktivieren, wenn Sie zum Beispiel ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop aufruft."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
-Standardmäßig ist der erneute Eintritt in neue Journey zulässig. Sie können die Option **Wiedereintritt erlauben** für &quot;einen Journey&quot;deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Wiedereintritt erlauben** für &quot;einen Journey&quot;deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-### Retenter Wartezeit  {#reentrance-wait}
+### Wartezeit bis zum erneuten Eintritt  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Retenter Wartezeit"
->abstract="Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, bei unitären Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzer die Journey für eine bestimmte Dauer erneut aufrufen. Maximale Dauer: 90 Tage."
+>title="Wartezeit bis zum erneuten Eintritt"
+>abstract="Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, bei unitären Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Wiedereintritt erlauben** aktiviert ist, wird das Feld **Wartezeit für den erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
