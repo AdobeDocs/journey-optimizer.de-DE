@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 100%
 
 ---
 
@@ -245,8 +245,6 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * schemas.read
       * segment.read
       * datasets.read
-      * datasets.write
-      * datasets.delete
 
 +++
 
@@ -511,11 +509,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
   +++ It includes the following low-level permissions: 
 -->
 
-## KI-Unterstützungsressource {#ai-permissions}
+## KI-Assistent-Ressource {#ai-permissions}
 
-* **[!DNL Generate content]** Berechtigung auf hoher Ebene ermöglicht Benutzern den Zugriff auf den KI-Assistenten in Journey Optimizer für die Inhaltsbeschleunigung.
+* Die Berechtigung auf hoher Ebene **[!DNL Generate content]** ermöglicht Benutzenden den Zugriff auf den KI-Assistenten in Journey Optimizer für Content Acceleration.
 
-+++ Sie enthält die folgende Berechtigung auf niedriger Ebene:
++++ Er umfasst die folgende Berechtigung auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * ai-assistant-generated-content.generate
