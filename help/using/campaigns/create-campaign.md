@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Um die Zielgruppe der Kampagne zu definieren, gehen Sie folgendermaßen vor:
 
 >[!IMPORTANT]
 >
->Die Verwendung von Zielgruppen und Attributen aus der [Zielgruppenkomposition](../audience/get-started-audience-orchestration.md) und dem [benutzerdefinierten Zielgruppen-Upload (CSV-Datei)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) ist derzeit nicht für Health Care Shield oder Privacy and Security Shield verfügbar.
+>Die Verwendung von Zielgruppen und Attributen aus der [Zielgruppenzusammensetzung](../audience/get-started-audience-orchestration.md) ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar.
 >
 >Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden.
 

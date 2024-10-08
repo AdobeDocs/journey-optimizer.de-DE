@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '1329'
+ht-degree: 69%
 
 ---
 
@@ -77,6 +77,8 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 **Zielgruppen**
 
 * Beim Targeting einer CSV-Datei-Audience können Sie jetzt Attribute aus der Datei im Personalisierungs-Editor und in der Regelerstellung für Journey und Kampagnen verwenden. [Weitere Informationen](../audience/about-audiences.md)
+
+* Die Verwendung von Zielgruppen und Attributen aus dem benutzerdefinierten Upload (CSV-Datei) ist jetzt für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar.
 
 ## Versionshinweise für September 2024 {#24-9-rn}
 
