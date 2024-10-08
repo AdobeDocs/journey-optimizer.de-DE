@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2049'
 ht-degree: 78%
 
 ---
@@ -261,45 +261,45 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumen
 >title="Kriterien für den Journey-Austritt"
 >abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Es können ein oder mehrere Austrittskriterien für eine Journey erstellt werden."
 
-### Beschreibung
+### Beschreibung {#exit-criteria-desc}
 
-Häufig möchten Marketer Profile aus einer Journey entfernen, wenn sie den Journey nicht mehr erfüllen. Dies wird durch **globale Ausstiegskriterien** erreicht, die eng mit der Zielverwaltung verbunden sind.
+Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Journey verlassen, sobald ein Ereignis eintritt (z. B. ein Kauf) oder sie sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.
 
-**Beispielanwendungsfall:**
+Möglicherweise möchten Sie Profile aus einer Journey entfernen, wenn sie die Journey nicht mehr erfüllen. Dies kann durch **globale Ausstiegskriterien** erreicht werden, die eng mit der Zielverwaltung verbunden sind.
+
+**Beispielanwendungsfall**
 
 Ein Marketer verfügt über eine Werbe-Journey, die eine Reihe von Mitteilungen enthält. Jede dieser Mitteilungen zielt darauf ab, den Kunden zum Kauf zu bewegen. Sobald der Kauf getätigt wurde, sollte der Kunde die restlichen Nachrichten der Serie nicht erhalten. Durch Definition eines Exitkriteriums werden alle Profile, die einen Kauf getätigt haben, aus der Journey entfernt.
 
-### Konfiguration und Verwendung
+### Konfiguration und Verwendung {#exit-criteria-config}
 
-Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann über mehrere Ausstiegskriterien verfügen. Wenn mehrere Ausstiegskriterien festgelegt sind, erfolgt die Auswertung von oben nach unten mit einer ODER-Logik. Wenn Sie also Ausstiegskriterien Nr. 1 und Ausstiegskriterien Nr. 2 haben, wird sie als n°1 **oder** n°2 ausgewertet. Die Kriterien werden bei jedem Schritt des Journey ausgewertet.
+Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann über mehrere Ausstiegskriterien verfügen. Wenn mehrere Ausstiegskriterien festgelegt sind, erfolgt die Auswertung von oben nach unten mit einer `OR` -Logik. Wenn Sie also Ausstiegskriterien A und Ausstiegskriterien B haben, wird sie als A **ODER** B ausgewertet. Die Kriterien werden bei jedem Schritt des Journey ausgewertet.
 
-So erstellen Sie **ein Ausstiegskriterium:**
+Gehen Sie wie folgt vor, um **ein Ausstiegskriterium zu erstellen:**
 
-* Klicken Sie in der rechten Leiste auf das folgende Symbol ![](assets/exitcriteria_icon.png){width="40%" align="left"}.
-* Klicken Sie auf die Schaltfläche **Ausstiegskriterien hinzufügen** .
+1. Öffnen Sie Ihre Journey.
+1. Klicken Sie auf das Symbol **[!UICONTROL Ausstiegskriterien anzeigen]** oben rechts auf der Journey-Arbeitsfläche.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ausstiegskriterien hinzufügen]** .
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* Sie können mehrere Ausstiegskriterien hinzufügen.
-* Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem Ereignis oder einer Zielgruppe basiert.
+1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem Ereignis oder einer Zielgruppe basiert.
 
-### Ausstiegskriterien, die auf einem Ereignis basieren
+* Wählen Sie für Ausstiegskriterien, die auf einem Ereignis basieren, nur ein einzelnes Ereignis aus.
+* Wählen Sie für auf einer Zielgruppe basierende Ausstiegskriterien eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien mit einer Zielgruppe funktionieren.
 
-Nur einzelnes Ereignis auswählen.
+Sie können mehrere Ausstiegskriterien hinzufügen.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Ausstiegskriterien basierend auf einer Zielgruppe
+### Schutzmechanismen und Einschränkungen {#exit-criteria-guardrails}
 
-Auswählen einer Zielgruppe.
+Die folgenden Limits und Einschränkungen gelten für die Funktion zum Beenden von Journey-Kriterien:
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien mit einer Zielgruppe funktionieren.
-
-### Einschränkungen und Einschränkungen
-
-* Ausstiegskriterien werden im Entwurfsstatus definiert
+* Ausstiegskriterien werden nur im Entwurfsstatus definiert
 * Journey der Namespace-Kohärenz zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
 
 
