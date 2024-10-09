@@ -1,5 +1,5 @@
 ---
-title: Konfliktmanagement und Priorisierung
+title: Konflikt-Management und Priorisierung
 description: Erfahren Sie, wie Sie Ihren Inhalt in der Vorschau darstellen und testen können.
 feature: Preview, Proofs
 role: User
@@ -7,23 +7,23 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
+source-git-commit: ff529c9319a6eb5fe6762f30b739f2c39c3d5685
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 27%
+source-wordcount: '1186'
+ht-degree: 22%
 
 ---
 
 
-# Konfliktmanagement und Priorisierung {#conflict-prioritization}
+# Konflikt-Management und Priorisierung {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
 >Die Tools zur Konfliktverwaltung und Priorisierung sind derzeit nur ausgewählten Benutzern als Beta-Version verfügbar.
 
-In Journey Optimizer ist die Verwaltung von Umfang und zeitlichem Verlauf von Kampagnen und Journey unverzichtbar, um zu verhindern, dass überwältigende Kunden mit zu vielen Interaktionen auf diese Weise ansprechen. In den folgenden beiden Abschnitten werden Schlüsselwerkzeuge vorgestellt, die Ihnen helfen, ein Gleichgewicht zu wahren und die Kommunikation effektiv zu priorisieren.
+In Journey Optimizer ist die Verwaltung von Umfang und zeitlichem Verlauf von Kampagnen und Journey unverzichtbar, um zu verhindern, dass überwältigende Kunden mit zu vielen Interaktionen auf diese Weise ansprechen. In den folgenden beiden Abschnitten werden Schlüsselwerkzeuge vorgestellt, mit denen Sie ein ausgewogenes Verhältnis gewährleisten und die Kommunikation effektiv priorisieren können
 
-## Anzeigen potenzieller Konflikte in Journeys und Kampagnen {#conflict}
+## Potenzielle Konflikte in Journey und Kampagnen identifizieren {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
@@ -43,9 +43,21 @@ Die wichtigsten Bereiche, die auf potenzielle Überschneidungen zu überwachen s
 * **Audience**: Welcher Anteil meiner Journey-Audience ist auch Teil anderer Journey?
 * **Kanal**: Sind für denselben Zeitraum andere Kommunikationen geplant, und wenn ja, wie viele?
 * **Begrenzungsregelsatz**: Welche Journey kann ich begrenzen und gibt es Überschneidungen?
-* **Kanalkonfiguration**: Gibt es andere Journey oder Kampagnen, die diese Kanalkonfiguration verwenden, die verhindern könnten, dass diese Kampagne dem Benutzer angezeigt wird?
+* **Kanalkonfiguration**: Gibt es andere Journey oder Kampagnen, die eine Kanalkonfiguration verwenden, die in derselben Journey oder Kampagne verwendet wird, die verhindern könnte, dass dem Endbenutzer die Journey oder Kampagne angezeigt wird?
 
-Mit Journey Optimizer können Sie überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen möglich sind. Gehen Sie dazu wie folgt vor:
+### So erkennt Journey Optimizer Konflikte {#detection}
+
+Nachstehend finden Sie eine Zusammenfassung dazu, wie Journey Optimizer potenzielle Konflikte für Journey und Kampagnen identifiziert:
+
+* **Perimeter zur Identifizierung von Konflikten**: Konflikte werden nur für Live- oder geplante Kampagnen und Journey angezeigt.
+* **Eindeutige Journey**: Wenn die ausgewählte Journey unitär ist, werden andere Journey angezeigt, die mit demselben Ereignis beginnen, da dieses Ereignis alle diese Journey Trigger.
+* **Zielgruppenqualifizierung und Journey Lesen von Zielgruppen-/Geschäftsereignissen**: Wenn es sich bei der ausgewählten Journey um eine Zielgruppenqualifikation oder eine Journey zum Lesen von Zielgruppen-/Geschäftsereignissen handelt, werden alle anderen Journey desselben Typs mit einer gültigen Zielgruppe angezeigt, da es zu Überschneidungen zwischen den Zielgruppen kommen kann.
+* **Kampagnen**: Da alle Kampagnen auf Zielgruppen ausgerichtet sind und kein Ereigniskonzept existiert, kollidieren alle Kampagnen möglicherweise mit segmentausgelösten Journey (angefangen mit der Aktivität Audience lesen ).
+* **Live-/Geplante Kampagnen**: Live- und geplante Kampagnen können aufgrund möglicher Zielgruppenüberschneidungen miteinander in Konflikt geraten. Für jede Kampagne werden alle Live- oder geplanten Kampagnen in der Konfliktanzeige aufgelistet.
+
+### Identifizierte Konflikte für bestimmte Journey oder Kampagnen anzeigen {#view}
+
+Bei der Erstellung einer Journey oder Kampagne können Sie mit Journey Optimizer überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen möglich sind. Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie zum Zeitpunkt der Erstellung einer Journey oder Kampagne in den Journey- oder Kampagneneigenschaften auf die Schaltfläche **[!UICONTROL Potenzielle Konflikte anzeigen]** .
 
@@ -61,11 +73,15 @@ Mit Journey Optimizer können Sie überprüfen, wann immer Überschneidungen mit
 
    ![](assets/potential-conflicts.png)
 
->[!NOTE]
->
->Um die Suche nach potenziellen Überschneidungen weiter zu verfeinern, können Sie Ihre Kampagnen- und Journey-Liste nach den relevanten Feldern filtern. Wählen Sie dazu das Filtersymbol in der Lagerbestandsansicht aus. [Erfahren Sie, wie Sie mit Filtern arbeiten](../start/search-filter-categorize.md#filter-lists)
+   >[!NOTE]
+   >
+   >Die Anzeige neu veröffentlichter Kampagnen im Konflikt-Viewer kann bis zu 5 Minuten dauern, da die Zwischenspeicherung implementiert ist
 
-Sobald mögliche Überschneidungen festgestellt wurden, bietet Journey Optimizer mehrere Möglichkeiten, diese zu beheben.
+Um die Suche nach potenziellen Überschneidungen weiter zu verfeinern, können Sie Ihre Kampagnen- und Journey-Liste nach den relevanten Feldern filtern. Wählen Sie dazu das Filtersymbol in der Lagerbestandsansicht aus. [Erfahren Sie, wie Sie mit Filtern arbeiten](../start/search-filter-categorize.md#filter-lists)
+
+### Konflikte lösen {#resolve}
+
+Im Folgenden finden Sie einige Tipps zur Reduzierung möglicher Konflikte, sobald diese erkannt wurden:
 
 * Passen Sie die **Start-/Enddaten** an, um überlappende Kampagnen oder Journey zu vermeiden.
 * Verfeinern Sie das **Zielgruppen-Targeting**, um Überschneidungen zwischen Journey zu minimieren.
@@ -99,4 +115,4 @@ Um einer Journey oder Kampagne eine Prioritätsbewertung zuzuweisen, geben Sie e
 
 ![](assets/priority-score.png)
 
-In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die am wenigsten aktivierte Kampagne angezeigt.
+In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die zuvor aktivierte Kampagne angezeigt.
