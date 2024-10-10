@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 69%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Aktualisierungen vom Oktober 2024 {#24-10-rn}
+## Aktualisierungen vom Oktober 24 {#24-10-rn}
 
 ### Neue Funktionen {#24-10-features}
 
-Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufgeführt.
+Die in Adobe Journey Optimizer verfügbaren neuen Funktionen sind unten aufgeführt.
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 <tbody>
 <tr>
 <td>
-<p>Verfügbarkeitsdatum: 1. Oktober</p>
 <p>Mit dem code-basierten Erlebniskanal können Sie mit Adobe Journey Optimizer eine erweiterte Personalisierung durchführen und für jede Ihrer eingehenden Eigenschaften testen. So können Sie nahtlos auf verschiedene Touchpoints zugeschnittene Erlebnisse bereitstellen, z. B. Web-Apps, mobile Apps, Desktop-Apps, Videokonsolen, TV-verbundene Geräte, Smart-TVs, Kiosks, ATMs, IoT-Geräte und mehr. Der code-basierte Erlebniskanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/create-code-based.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Verfügbarkeitsdatum: 1. Oktober</p>
+<p>Verfügbarkeitsdatum: 1. Oktober 2024</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ Die neuesten in Adobe Journey Optimizer verfügbaren Funktionen sind unten aufge
 <tbody>
 <tr>
 <td>
-<p>Verfügbarkeitsdatum: 1. Oktober</p>
 <p>Mit dem Webkanal können Sie mit Adobe Journey Optimizer das Web-Erlebnis personalisieren, das Sie Ihren Kunden über eingehende Web-Journey bereitstellen. Der Webkanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../web/create-web.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Verfügbarkeitsdatum: 1. Oktober</p>
+<p>Verfügbarkeitsdatum: 1. Oktober 2024</p>
 </tr>
 </tbody>
 </table>
 
 ### Verbesserungen {#24-10-improvements}
 
-**Journeys**
+**Journey** - Verfügbarkeitsdatum: 3. Oktober 2024
 
-* (Verfügbarkeitsdatum: 3. Oktober) **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Zielgruppen** - Verfügbarkeitsdatum: 8. Oktober
+**Zielgruppen** - Verfügbarkeitsdatum: 8. Oktober 2024
 
 * Beim Targeting einer CSV-Datei-Audience können Sie jetzt Attribute aus der Datei im Personalisierungs-Editor und in der Regelerstellung für Journey und Kampagnen verwenden. [Weitere Informationen](../audience/about-audiences.md)
 
 * Die Verwendung von Zielgruppen und Attributen aus dem benutzerdefinierten Upload (CSV-Datei) ist jetzt für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar.
 
-## Versionshinweise für September 2024 {#24-9-rn}
+## Version vom 24. September {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> auf praktische Weise vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/gs-generative.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Verfügbarkeitsdatum: 12. September</p>
+<p>Verfügbarkeitsdatum: 12. September 2024</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <p>Mit der Anleitung zur Kanaleinrichtung können Sie die Kanaleinrichtung in einem einheitlichen Erlebnis automatisieren und validieren und so schneller mit Journey Optimizer beginnen. Diese Anleitung zur Kanaleinrichtung optimiert die schnelle Kanalkonfiguration und stellt sicher, dass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und Datenerfassung sofort installiert und verwendet werden. Dadurch können Marketing-, Produkt- und Datenentwicklungsteams schnell mit der Erstellung von Kampagnen und Journeys beginnen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/set-mobile-config.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Verfügbarkeitsdatum: 3. September</p>
+<p>Verfügbarkeitsdatum: 3. September 2024</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Zielgruppen**
+**Zielgruppen** - Verfügbarkeitsdatum: 17. September 2024
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Verfügbarkeitsdatum: 17. September) **Lizenznutzung**: Im Dashboard zur Lizenznutzung werden nun ansprechbare Profile anstelle von ansprechbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
+* **Lizenzverwendung** - Im Dashboard zur Lizenznutzung werden jetzt die interagierbaren Profile anstelle der interagierbaren Zielgruppen angezeigt. [Weitere Informationen](../audience/license-usage.md)
 
 **Content-Management**
 
