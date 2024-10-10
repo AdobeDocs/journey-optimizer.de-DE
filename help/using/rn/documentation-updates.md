@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
 
+## September 2024 {#sept-2024}
+
+* Alle neuen Funktionen und Verbesserungen der Version [!DNL Journey Optimizer] vom 24. September wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Es wurde ein Abschnitt über die Verwaltung von Journey-Wiederholungen hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
+* Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und enthalten nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
+* Der Abschnitt Zugriff steuern wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator für den AI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
+* Es wurde ein Video über die Generierung von AI Assistant Content Generator für die E-Mail-Erstellung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
+
+
 ## August 2024 {#aug-2024}
 
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 24. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Die Performance-Schutzmechanismen für das Entscheidungs-Management wurden aktualisiert und enthalten jetzt Informationen zu den Versanddurchsätzen von Decisioning-APIs mit/ohne Edge-Segmentierung. [Weitere Informationen](../start/guardrails.md#decision-management)
 * Journey-Leitlinien wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
