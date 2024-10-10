@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 96%
+source-wordcount: '3842'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2024 veröffentlicht wurden.
 
 
-## Versionshinweise für August 2024 {#8-2024}
+## Version vom 24. August {#8-2024}
 
 **Veröffentlichungsdatum**: 20.–21. August 2024
 
@@ -148,7 +148,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Versionshinweise Juli 2024 {#24-7-2024}
+## Version vom 24. Juli {#24-7-2024}
 
 **Veröffentlichungsdatum**: 30.–31. Juli 2024
 
@@ -199,7 +199,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Versionshinweise für Juni 2024 {#24-6-2024}
+## Version vom 24. Juni {#24-6-2024}
 
 **Veröffentlichungsdatum**: 18.–19. Juni 2024
 
@@ -344,7 +344,6 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 * **Zusammenführungsrichtlinien** sind nun allgemein verfügbar: Die von einer Journey verwendeten Zusammenführungsrichtlinien sind jetzt im gesamten Verlauf der Journey sichtbar und konsistent. [Weitere Informationen](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### Kampagnen
 
 * Beim Erstellen einer Kampagne in Adobe Journey Optimizer können Sie nun in einem neuen Modal den Kampagnentyp (geplant oder ausgelöst) auswählen. [Weitere Informationen](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 
 
-## Versionshinweise Mai 2024 {#may-2024}
+## Version vom 24. Mai {#may-2024}
 
 **Veröffentlichungsdatum**: 21.–22. Mai 2024
 
@@ -525,9 +524,7 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 Im Rahmen unserer laufenden Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die Terminologie der Adobe Experience Cloud-Produkte und -Apps. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation angewendet.
 
 
-
-
-## Versionshinweise April 2024 {#apr-2024}
+## Version vom 24. April {#apr-2024}
 
 **Veröffentlichungsdatum**: 02. Mai 2024
 
@@ -636,7 +633,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## März 2024 – Versionshinweise {#mar-2024}
+## Version März 24 {#mar-2024}
 
 **Veröffentlichungsdatum**: 19.–20. März 2024
 
@@ -686,7 +683,7 @@ Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 
 Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
 
-## Februar 2024 – Versionshinweise {#feb-2024}
+## Version vom 24. Februar {#feb-2024}
 
 **Veröffentlichungsdatum**: 21.–22. Feb. 2024
 
@@ -772,7 +769,7 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Januar 2024 – Versionshinweise {#jan-2024}
+## Version Januar 24 {#jan-2024}
 
 **Veröffentlichungsdatum**: 30.–31. Jan. 2024
 

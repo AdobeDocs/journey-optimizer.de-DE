@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '4394'
-ht-degree: 99%
+source-wordcount: '4384'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2023 veröffentlicht wurden.
 
 
-## Versionshinweise für Oktober 2023 {#oct-rn-2023}
+## Version Oktober 23 {#oct-rn-2023}
 
 ### Neue Funktionen{#oct-2023-features}
 
@@ -101,7 +101,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Versionshinweise für September 2023 {#sept-rn-2023}
+## Version September 23 {#sept-rn-2023}
 
 ### Neue Funktionen{#sept-2023-features}
 
@@ -233,7 +233,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## Versionshinweise für August 2023 {#aug-rn-2023}
+## Version vom 23. August {#aug-rn-2023}
 
 ### Neue Funktionen{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## Versionshinweise vom Juli 2023 {#july-rn-2023}
+## Version vom 23. Juli {#july-rn-2023}
 
 ### Neue Funktionen{#july-2023-features}
 
@@ -446,7 +446,7 @@ Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt 
 
 
 
-## Versionshinweise für Juni 2023 {#june-rn-2023}
+## Version vom 23. Juni {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## Versionshinweise Mai 2023 {#may-rn-2023}
+## Version vom 23. Mai {#may-rn-2023}
 
 ### Neue Funktionen{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * In-App-Nachrichten – Es wurde ein Problem behoben, bei dem die Planung von Kampagnen mit den Häufigkeitseinstellungen für Nachrichten in Konflikt stand.
 
 
-## Versionshinweise April 2023 {#apr-rn-2023}
+## Version vom 23. April {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## März 2023 – Versionshinweise {#mar-2023}
+## Version März 23 {#mar-2023}
 
 ### Neue Funktionen{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der [entsprechenden Dokumentation](../reports/global-report.md#modify-dashboard).
 
-## Februar 2023 – Versionshinweise {#feb-2023}
+## Version vom 23. Februar {#feb-2023}
 
 ### Neue Funktionen{#feb-2023-features}
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL-Personalisierung** – Beim Hinzufügen von URLs als Inhalt zu den Darstellungen von Angeboten können diese URLs jetzt mit dem Ausdruckseditor personalisiert werden. [Weitere Informationen](../offers/offer-library/add-representations.md)
 
-## Januar 2023 – Versionshinweise{#jan-2023-release}
+## Version Januar 23 {#jan-2023-release}
 
 ### Neue Funktionen{#jan-2023-features}
 
