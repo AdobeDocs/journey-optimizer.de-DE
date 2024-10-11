@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '858'
 ht-degree: 97%
 
 ---
@@ -33,11 +33,6 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
 >abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. Sie dienen dem Versand von Marketing-Nachrichten (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder von Transaktionsnachrichten (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an Profile mit storniertem Abo gesendet werden können)."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Kampagnenkategorie"
->abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Für API-ausgelöste Kampagnen wählen Sie, ob Sie eine **Marketing-Nachricht** (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder eine **Transaktionsnachricht** (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an Profile mit storniertem Abo gesendet werden können) senden möchten."
 
 1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
 
