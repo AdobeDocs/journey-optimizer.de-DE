@@ -8,38 +8,35 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
-exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 99%
+source-wordcount: '1242'
+ht-degree: 79%
 
 ---
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
 
-Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"} konform sind. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche [Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"} Sie für Daten ausführen dürfen.
+Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"} konform sind. Diese Richtlinien sind Adobe Experience Platform-Regeln, die definieren, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
 
-Ein Typ verfügbarer Datennutzungsrichtlinien sind **Einverständnisrichtlinien**. Mit diesen können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnispräferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen zur Durchsetzung von Richtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=de){target="_blank"}
+Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen. Sie können eine **Zustimmungsrichtlinie** erstellen, die diese Standardlogik außer Kraft setzt. Sie können beispielsweise Einwilligungsrichtlinien in Experience Platform erstellen, um Kunden auszuschließen, die dem Erhalt von Nachrichten für einen bestimmten Kanal nicht zugestimmt haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
 
 >[!IMPORTANT]
 >
 >Einverständnisrichtlinien sind derzeit nur für Organisationen verfügbar, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben.
 
-Beispielsweise können Sie [Einverständnisrichtlinien in Experience Platform erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}, um Kundinnen und Kunden auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Kommunikationen nicht zugestimmt haben.
+Die wichtigsten Schritte zur Anwendung von Zustimmungsrichtlinien sind:
 
-* Für die nativen ausgehenden Kanäle (E-Mail, Push-Benachrichtigung, SMS, Briefpost) lautet die Logik wie folgt:
+1. Erstellen Sie eine Einwilligungsrichtlinie in Adobe Experience Platform mit einer zugehörigen Marketing-Aktion. [Erfahren Sie, wie Sie eine Zustimmungsrichtlinie erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}
 
-   * Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen.
+2. Wenden Sie Einwilligungsrichtlinien in Adobe Journey Optimizer mithilfe von Kanalkonfigurationen oder benutzerdefinierten Aktionen von Journey an.
 
-   * Wenn Sie über Adobe **Healthcare Shield** oder **Privacy and Security Shield** verfügen, können Sie eine benutzerdefinierte Einverständnisrichtlinie erstellen, die die Standardlogik außer Kraft setzt. Sie können z. B. eine Richtlinie definieren, um nur E-Mail-Nachrichten an alle Personen zu senden, die sich für den Empfang angemeldet haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
+   * Erstellen Sie eine Kanalkonfiguration mit einer zugehörigen Marketing-Aktion. Bei der Erstellung einer Kommunikation mithilfe der Kanalkonfiguration übernimmt diese die zugeordnete Marketing-Aktion und wendet die entsprechenden in Adobe Experience Platform definierten Zustimmungsrichtlinien an. [Erfahren Sie, wie Sie Einwilligungsrichtlinien über Kanalkonfigurationen nutzen](#surface-marketing-actions)
 
-  Um eine benutzerdefinierte Richtlinie anzuwenden, müssen Sie eine Marketing-Aktion in dieser Richtlinie definieren und sie mit einer Kanalkonfiguration verknüpfen. [Weitere Informationen](#surface-marketing-actions)
+   * Auf Journey-Ebene können Sie entweder:
 
-Auf der Journey-Ebene können Sie Einverständnisrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden:
-
-* Beim **Konfigurieren einer benutzerdefinierten Aktion** können Sie einen Kanal und eine Marketing-Aktion definieren. [Weitere Informationen](#consent-custom-action)
-* Beim Hinzufügen der **benutzerdefinierten Aktion in einer Journey** können Sie eine zusätzliche Marketing-Aktion definieren. [Weitere Informationen](#consent-journey)
+      * Verknüpfen Sie bei der Konfiguration einen Kanal und eine Marketing-Aktion mit einer benutzerdefinierten Aktion. [Erfahren Sie, wie Sie bei der Konfiguration einer benutzerdefinierten Aktion Einwilligungsrichtlinien nutzen](#consent-custom-action)
+      * Definieren Sie beim Hinzufügen einer benutzerdefinierten Aktion zu einer Journey eine zusätzliche Marketing-Aktion. [Erfahren Sie, wie Sie Einwilligungsrichtlinien beim Hinzufügen einer benutzerdefinierten Aktion in einer Journey verwenden.](#consent-journey)
 
 ## Verwenden von Einverständnisrichtlinien durch Kanalkonfigurationen {#surface-marketing-actions}
 
@@ -107,16 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### Konfigurieren der benutzerdefinierten Aktion {#consent-custom-action}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action"
->title="Definieren einer erforderlichen Marketing-Aktion"
->abstract="Mit der „Erforderlichen Marketing-Aktion“ können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie E-Mail-Targeting auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Einverständniserklärungen abgerufen und genutzt. Dies kann nicht in der Arbeitsfläche geändert werden."
+### Verwenden von Zustimmungsrichtlinien beim Konfigurieren einer benutzerdefinierten Aktion{#consent-custom-action}
 
 Beim Konfigurieren einer benutzerdefinierten Aktion können zwei Felder für die Einverständnisverwaltung verwendet werden.
 
-Im Feld **Kanal** können Sie den Kanal für diese benutzerdefinierte Aktion auswählen: **E-Mail**, **SMS** oder **Push-Benachrichtigung**. Dadurch wird das Feld **Erforderliche Marketing-Aktion** mit der standardmäßigen Marketing-Aktion für den ausgewählten Kanal vorausgefüllt. Wenn Sie **Sonstige** auswählen, wird standardmäßig keine Marketing-Aktion definiert. 
+Im Feld **Kanal** können Sie den mit dieser benutzerdefinierten Aktion verbundenen Kanal auswählen. Dadurch wird das Feld **Erforderliche Marketing-Aktion** mit der standardmäßigen Marketing-Aktion für den ausgewählten Kanal vorausgefüllt. Wenn Sie **Sonstige** auswählen, wird standardmäßig keine Marketing-Aktion definiert. 
 
 ![](assets/consent1.png)
 
@@ -128,22 +120,7 @@ Bei bestimmten wichtigen Kommunikationsarten, z. B. Transaktionsnachrichten, di
 
 Die anderen Schritte zum Konfigurieren einer benutzerdefinierten Aktion werden in [diesem Abschnitt](../action/about-custom-action-configuration.md#consent-management) ausführlicher behandelt.
 
-### Erstellen der Journey {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="Erforderliche Marketing-Aktion"
->abstract="Eine erforderliche Marketing-Aktion wird beim Erstellen einer benutzerdefinierten Aktion definiert. Diese erforderliche Marketing-Aktion kann nicht aus der Aktion entfernt oder geändert werden."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="Zusätzliche Marketing-Aktion"
->abstract="Fügen Sie zusätzlich zur erforderlichen Marketing-Aktion eine weitere Marketing-Aktion hinzu. Für beide Marketing-Aktionen werden Einverständniserklärungen erzwungen."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="Visualisieren von Einverständniserklärungen, die zur Laufzeit gelten"
->abstract="Marketing-Aktionen beinhalten Einverständniserklärungen, die Aktionsparameter und individuelle Einverständniswerte des Profils kombinieren, um Benutzer herauszufiltern. Rufen Sie die neueste Definition dieser Erklärungen ab, indem Sie auf den Button klicken, um sie zu aktualisieren."
+### Verwenden von Zustimmungsrichtlinien beim Hinzufügen einer benutzerdefinierten Aktion in einer Journey {#consent-journey}
 
 Beim Hinzufügen der benutzerdefinierten Aktion zu einer Journey können Sie mit verschiedenen Optionen das Einverständnis verwalten. Klicken Sie auf **Schreibgeschützte Felder anzeigen**, um alle Parameter anzuzeigen.
 
@@ -172,9 +149,3 @@ The following data is taken into account for consent:
 -->
 
 Die anderen Schritte zum Konfigurieren einer benutzerdefinierten Aktion in einem Journey werden in [diesem Abschnitt](../building-journeys/using-custom-actions.md) ausführlicher behandelt.
-
-## Anleitungsvideo {#video}
-
-Erfahren Sie, wie die Datennutzungsbeschriftung in Journey Optimizer-Kanälen durchgesetzt wird.
-
->[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)

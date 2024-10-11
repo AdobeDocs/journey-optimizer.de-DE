@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ Die in Adobe Journey Optimizer verfügbaren neuen Funktionen sind unten aufgefü
 **Journey** - Verfügbarkeitsdatum: 3. Oktober 2024
 
 * **Parameter in benutzerdefinierten Aktionen** - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Richtlinien für Data Governance und Einverständniserklärungen** - Verfügbarkeitsdatum: 7. Oktober 2024
+
+* Die Durchsetzung der Data Governance-Richtlinien **erfolgt jetzt über alle Kanäle in Journey Optimizer.** Kunden, die Richtlinien in Adobe Experience Platform erstellt haben, werden diese im Rahmen der Einrichtung der Kanalkonfigurationen auf Marketing-Aktionen angewendet. Wenn Sie Inhalte mithilfe einer Konfiguration erstellen, prüft das System alle Personalisierungsfelder auf Verstöße gegen Data Governance. Wenn eine Verletzung festgestellt wird, ist die Veröffentlichung einer Journey oder Kampagne nicht möglich. [Weitere Informationen](../action/action-privacy.md)
+
+* **Benutzerdefinierte Zustimmungsrichtlinien** gelten jetzt für alle Journey Optimizer-Kanäle. Bei der Durchsetzung vor dem Versand einer Nachricht oder dem Versand eines eingehenden Erlebnisses prüft das System, ob der Benutzer seine Zustimmung zur Verwendung von Personalisierungsfeldern in den Inhalten erteilt hat, die er erhält. Wenn keine Zustimmung erteilt wird, wird das Erlebnis nicht angezeigt. [Weitere Informationen](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >Einverständnisrichtlinien sind derzeit nur für Organisationen verfügbar, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben.
 
 **Zielgruppen** - Verfügbarkeitsdatum: 8. Oktober 2024
 
