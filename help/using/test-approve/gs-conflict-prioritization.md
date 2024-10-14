@@ -1,15 +1,15 @@
 ---
 title: Konflikt-Management und Priorisierung
-description: Erfahren Sie, wie Sie xxxx verwenden.
+description: Erfahren Sie, wie Sie Journey Optimizer-Konflikt- und Priorisierungs-Tools nutzen können.
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 3438a5edceacab13c7241e18454d84228579ebc4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 6%
+source-wordcount: '351'
+ht-degree: 5%
 
 ---
 
