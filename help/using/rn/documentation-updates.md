@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
+source-wordcount: '5626'
 ht-degree: 97%
 
 ---
@@ -21,9 +21,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Oktober 2024 {#oct-2024}
 
-* Die Seite &quot;Code-basiertes Erlebnis konfigurieren&quot;wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
+* Die Seite **Konfigurieren des code-basierten Erlebnisses** wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
+* Die Seite **Webkanalkonfiguration erstellen** wurde aktualisiert, um die Schritte beim Erstellen einer Seitenvergleichsregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
+* Es wurde ein Hinweis zur bevorstehenden TTL-Schutzdauer (Time-to-Live) für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
 
-* Die Seite zur Konfiguration von Webkanälen erstellen wurde aktualisiert, um die Schritte beim Erstellen einer Seitenabgleichregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 
 ## September 2024 {#sept-2024}
 
@@ -31,7 +32,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurde ein Abschnitt über die Verwaltung von Journey-Wiederholungen hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
 * Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und enthalten nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
 * Der Abschnitt Zugriff steuern wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator für den AI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
-* Es wurde ein Video über die Generierung von AI Assistant Content Generator für die E-Mail-Erstellung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
+* Es wurde ein Video zum AI Assistant Content Generator für die E-Mail-Generierung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
 
 
 ## August 2024 {#aug-2024}
