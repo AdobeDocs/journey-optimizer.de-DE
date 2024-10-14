@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5555'
-ht-degree: 98%
+source-wordcount: '5610'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,13 @@ ht-degree: 98%
 
 Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
 
-## September 2024 {#sept-2024}
+## Oktober 2024 {#oct-2024}
+
+* Die Seite &quot;Code-basiertes Erlebnis konfigurieren&quot;wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
+
+* Die Seite zur Konfiguration von Webkanälen erstellen wurde aktualisiert, um die Schritte beim Erstellen einer Seitenabgleichregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
+
+## September 2024 {#sept-2024}
 
 * Alle neuen Funktionen und Verbesserungen der Version [!DNL Journey Optimizer] vom 24. September wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Es wurde ein Abschnitt über die Verwaltung von Journey-Wiederholungen hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 52%
+source-wordcount: '1215'
+ht-degree: 50%
 
 ---
 
@@ -167,6 +167,8 @@ Sie können auch eine Vorschau Ihres code-basierten Erlebnisinhalts anzeigen, be
 >Wenn Sie eine code-basierte Journey/Kampagne aktivieren, die sich auf dieselben Seiten auswirkt wie eine andere Journey oder Kampagne, die bereits live ist, werden alle Änderungen auf Ihren Inhalt angewendet.
 >
 >Wenn mehrere codebasierte Journey oder Kampagnen dieselben Elemente Ihres Inhalts aktualisieren, hat die Journey/Kampagne mit der höchsten Priorität Vorrang.
+
+Sobald Ihre code-basierte Journey oder Kampagne live ist, führt Ihr App-Implementierungsteam dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten [code-basierten Erlebniskonfiguration](code-based-configuration.md) definierten Oberflächen abzurufen. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
 ### Publish - Codebasierte Journey {#publish-code-based-journey}
 

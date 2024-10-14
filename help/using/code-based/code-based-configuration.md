@@ -6,48 +6,37 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1514'
+ht-degree: 42%
 
 ---
 
 # Konfigurieren des Code-basierten Erlebnisses {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_app_id"
->title="App-ID"
->abstract="Geben Sie die App-ID für eine genaue Identifizierung und Konfiguration in der Betriebsumgebung der App an, um eine nahtlose Integration und Funktionalität sicherzustellen."
+>id="ajo_code_based_surface"
+>title="Definieren einer Konfiguration von Code-basierten Erlebnissen"
+>abstract="Eine Code-basierte Konfiguration definiert den Pfad und Speicherort in Ihrer Anwendung, der durch einen URI in der Anwendungsimplementierung eindeutig identifiziert wird und an dem der Inhalt bereitgestellt und verwendet wird."
+
+Bevor Sie [Ihr Erlebnis erstellen](create-code-based.md), müssen Sie eine code-basierte Erlebniskonfiguration erstellen, in der Sie definieren, wo die Inhalte in Ihrer Anwendung bereitgestellt und genutzt werden.
+
+Eine code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die im Wesentlichen der Ort ist, an dem Sie Ihre Änderungen rendern möchten. Je nach ausgewählter Plattform müssen Sie einen Standort/Pfad oder den vollständigen URI für die Oberfläche eingeben. [Weitere Informationen](#surface-definition)
+
+## Codebasierte Erlebniskonfiguration erstellen {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Speicherort auf der Seite"
->abstract="Der Speicherort oder Pfad im Feld „App“ gibt das genaue Ziel innerhalb der App an, auf das Benutzende zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der App sein."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="Oberflächen-URI"
->abstract="Ein Oberflächen-URI dient als präzise Kennung, die innerhalb einer Anwendung zu unterschiedlichen Benutzeroberflächen-Elementen oder -Komponenten führt."
+>title="Spezifischen Speicherort eingeben"
+>abstract="Dieses Feld gibt das genaue Ziel auf der Seite oder in der App an, auf das Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur sein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="Standard-Authoring- und Vorschau-URL"
+>title="Definieren einer URL für die Inhaltserstellung und -vorschau"
 >abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_default_web_url"
->title="Standard-Authoring- und Vorschau-URL"
->abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_mobile_url_preview"
->title="Vorschau-URL"
->abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts in Ihrer Anwendung direkt auf Ihrem Gerät erforderlich."
-
-## Erstellen einer Kanalkonfiguration {#reatte-code-based-configuration}
-
-Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
+Gehen Sie wie folgt vor, um eine code-basierte Erlebniskanalkonfiguration zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf, und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
@@ -59,7 +48,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
 
 1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
@@ -67,50 +56,97 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    ![](assets/code_config_2.png)
 
-1. Wählen Sie die Plattform aus, auf das Code-basierte Erlebnis angewendet werden soll.
+1. Wählen Sie die Plattform aus, auf die das code-basierte Erlebnis angewendet werden soll:
 
-1. Beim Web:
+   * [Web](#web)
+   * [iOS und/oder Android](#mobile)
+   * [Sonstiges](#other)
 
-   * Geben Sie eine **[!UICONTROL Seiten-URL]** an, um Änderungen ausschließlich auf eine einzelne Seite anzuwenden.
-
-   * Oder erstellen Sie eine **[!UICONTROL Regel für den Seitenabgleich]**, um mehrere URLs als Ziel festzulegen, die mit der angegebenen Regel übereinstimmen. Dies könnte beispielsweise verwendet werden, um Änderungen universell auf eine Website anzuwenden, z. B. ein Hero-Banner über alle Seiten hinweg zu aktualisieren oder ein Top-Bild hinzufügen, das auf jeder Produktseite angezeigt werden soll. [Weitere Informationen](../web/web-configuration.md)
-
-1. Für iOS und Android:
-
-   * Geben Sie Ihre **[!UICONTROL App-ID]** und den **[!UICONTROL Speicherort oder Pfad innerhalb der App]** ein.
-
-     ![](assets/code_config_3.png){width="500"}
-
-1. Wählen Sie „Sonstige“ als Plattform aus, wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder wenn Sie bestimmte URIs als Ziel auswählen müssen. Wenn Sie mehrere Plattformen auswählen oder mehrere URIs hinzufügen, wird der Inhalt für alle ausgewählten Seiten oder Apps bereitgestellt.
-
-   * Geben Sie den **[!UICONTROL Oberflächen-URI]** ein.
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Stellen Sie sicher, dass der in Ihrer Code-basierten Kampagne verwendete Oberflächen-URI mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt. Andernfalls werden die Änderungen nicht bereitgestellt.
+   >Sie können mehrere Plattformen auswählen. Bei der Auswahl mehrerer Plattformen wird der Inhalt für alle ausgewählten Seiten oder Apps bereitgestellt.
 
-1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen einer Vorschau verwendet werden soll.
+1. Wählen Sie das Format aus, das von der Anwendung für diesen bestimmten Speicherort erwartet wird. Dies wird beim Authoring des Code-basierten Erlebnisses in Kampagnen und Journeys verwendet.
 
-   * Beim Web:
+   ![](assets/code_config_4.png)
 
-      * Wenn die URL einer einzelnen Seite eingegeben wird, wird diese URL für die Vorschau verwendet.
-      * Wenn eine Regel zum Seitenabgleich ausgewählt ist, müssen Sie eine Standard-Vorschau-URL eingeben, die zur Vorschau des Erlebnisses im Browser verwendet wird.
+1. Klicken Sie auf **[!UICONTROL Senden]** , um Ihre Änderungen zu speichern.
 
-   * Für mobile Plattformen (iOS/Android):
+Sie können diese Konfiguration jetzt beim [ Erstellen eines code-basierten Erlebnisses](create-code-based.md) in Ihren Kampagnen und Journey auswählen.
 
-      * Die Vorschau-URL ist ein Deeplink, der von der App-Entwicklerinnen und -Entwicklern in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deeplink-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihre App-Entwicklerin oder an Ihren App-Entwickler, um das für Ihre App konfigurierte Deeplink-Schema zu erhalten.
+>[!NOTE]
+>
+>Ihr App-Implementierungsteam ist dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die Oberflächen abzurufen, die in der ausgewählten code-basierten Erlebniskonfiguration definiert sind. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
+
+### Webplattformen {#web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="Definieren einer URL für die Inhaltserstellung und -vorschau"
+>abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
+
+Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellungen für Webplattformen zu definieren.
+
+1. Wählen Sie eine der folgenden Optionen aus:
+
+   * **[!UICONTROL Einzelseite]** - Wenn Sie die Änderungen ausschließlich auf eine Seite anwenden möchten, geben Sie eine **[!UICONTROL Seiten-URL]** ein.
+
+     ![](assets/code_config_single_page.png)
+
+   * **[!UICONTROL Seiten, die mit der Regel übereinstimmen]** - Um mehrere URLs als Ziel festzulegen, die derselben Regel entsprechen, erstellen Sie eine oder mehrere Regeln. [Weitere Informationen](../web/web-configuration.md#web-page-matching-rule)
+
+     <!--This could be used to apply changes universally across a website, such as updating a hero banner across all pages or adding a top image to display on every product page.-->
+
+     Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Damenproduktseiten Ihrer Luma-Website angezeigt werden, wählen Sie **[!UICONTROL Domain]** > **[!UICONTROL Beginnt mit]** > `luma` und **[!UICONTROL Seite]** > **[!UICONTROL Enthält]** > `women`.
+
+     ![](assets/code_config_matching_rules.png)
+
+1. Folgendes gilt für die Vorschau-URL:
+
+   * Wenn eine einseitige URL eingegeben wird, wird diese URL für die Vorschau verwendet - es ist nicht erforderlich, eine andere URL einzugeben.
+   * Wenn eine [Seite ausgewählt ist, die mit der Regel](../web/web-configuration.md#web-page-matching-rule) übereinstimmt, müssen Sie eine **[!UICONTROL Standard-Authoring- und Vorschau-URL]** eingeben, die für die Vorschau des Erlebnisses im Browser verwendet wird.
+
+     ![](assets/code_config_matching_rules_preview.png)
+
+1. Das Feld **[!UICONTROL Position auf Seite]** gibt das genaue Ziel innerhalb der Website an, auf die Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der Site sein.
+
+   ![](assets/code_config_location_on_page.png)
+
+### Mobilplattformen (iOS und Android) {#mobile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="App-ID angeben"
+>abstract="Geben Sie die App-ID ein, um eine genaue Identifizierung und Konfiguration innerhalb der Betriebsumgebung der Anwendung zu erhalten und so eine nahtlose Integration und Funktionalität sicherzustellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="Geben Sie die URL für die Vorschau des Inhalts ein."
+>abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts in Ihrer Anwendung direkt auf Ihrem Gerät erforderlich."
+
+Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellungen für mobile Plattformen zu definieren.
+
+1. Geben Sie Ihre **[!UICONTROL App-ID]** ein. Dies ermöglicht eine genaue Identifizierung und Konfiguration innerhalb der Betriebsumgebung der App und stellt eine nahtlose Integration und Funktionalität sicher.
+
+1. Geben Sie den **[!UICONTROL Standort oder Pfad innerhalb der App]** an. Dieses Feld gibt das genaue Ziel innerhalb der App an, auf das Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der App sein.
+
+   ![](assets/code_config_3.png){width="500"}
+
+1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen einer Vorschau verwendet werden soll<!--on device. Learn more-->.
+
+   Vorschau-URL ist ein Deep Link, der vom App-Entwickler in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deep-Link-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihren App-Entwickler, um das für Ihre App konfigurierte Deep-Link-Schema zu erhalten.
 
 +++  Die folgenden Ressourcen können Ihnen beim Konfigurieren von Deep-Links für Ihre App-Implementierung helfen
 
-      * Für Android:
+   * Für Android:
 
-         * [Erstellen von Deep-Links zum App-Kontext](https://developer.android.com/training/app-links/deep-linking)
+      * [Erstellen von Deep-Links zum App-Kontext](https://developer.android.com/training/app-links/deep-linking)
 
-      * Für iOS:
+   * Für iOS:
 
-         * [Definieren eines benutzerdefinierten URL-Schemas für Ihre App](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [Definieren eines benutzerdefinierten URL-Schemas für Ihre App](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-         * [Unterstützung universeller Links in Ihrer App](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [Unterstützung universeller Links in Ihrer App](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
@@ -118,25 +154,37 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
    >
    >Sollten bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
-1. Wählen Sie das Format aus, das von der Anwendung an diesem bestimmten Speicherort erwartet wird. Dies wird beim Authoring des Code-basierten Erlebnisses in Kampagnen und Journeys verwendet.
+### Andere Plattformen {#other}
 
-1. Senden Sie Ihre Änderungen ab.
+Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellungen für andere Plattformen zu definieren (z. B. Videokonsolen, TV-verbundene Geräte, Smart TVs, Kiosks, ATMs, Sprachassistenten, IoT-Geräte usw.).
 
-Sie können Ihre Konfiguration jetzt beim Erstellen Ihres Code-basierten Erlebnisses auswählen.
+1. Wählen Sie &quot;**[!UICONTROL Sonstige]**&quot;als Plattform aus, wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder wenn Sie bestimmte URIs abrufen müssen.
 
+1. Geben Sie den **[!UICONTROL Oberflächen-URI]** ein. [Weitere Informationen](#surface-definition)
 
-## Was ist eine Oberfläche? {#surface-definition}
+   ![](assets/code_config_5.png)
+
+   >[!CAUTION]
+   >
+   >Vergewissern Sie sich, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt. Andernfalls können die Änderungen nicht bereitgestellt werden.
+
+1. **[!UICONTROL Fügen Sie bei Bedarf einen weiteren Oberflächen-URI]** hinzu. Sie können bis zu 10 URIs hinzufügen.
+
+   >[!NOTE]
+   >
+   >Beim Hinzufügen mehrerer URIs wird der Inhalt für alle aufgelisteten Komponenten bereitgestellt.
+
+## Was ist ein Oberflächen-URI? {#surface-definition}
 
 >[!CONTEXTUALHELP]
->id="ajo_code_based_surface"
->title="Definieren einer Konfiguration von Code-basierten Erlebnissen"
->abstract="Eine Code-basierte Konfiguration definiert den Pfad und Speicherort in Ihrer Anwendung, der durch einen URI in der Anwendungsimplementierung eindeutig identifiziert wird und an dem der Inhalt bereitgestellt und verwendet wird."
+>id="ajo_admin_surface_uri"
+>title="Hinzufügen des Oberflächen-URI für Ihre Komponente"
+>abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, an der Sie Ihr Erlebnis bereitstellen möchten. Vergewissern Sie sich, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Codebasierte Erlebniskonfiguration für andere Plattformen erstellen"
 
-Eine **Code-basierte Erlebnisoberfläche** ist jede Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde. Sie ist durch einen URI eindeutig gekennzeichnet. Die Oberfläche wird in der Implementierung der Anwendung angegeben und sollte mit der in der Code-basierten Erlebniskanalkonfiguration zusammengesetzten Oberfläche übereinstimmen.
+Ein code-basiertes Erlebnis **Oberfläche** ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen **URI** eindeutig identifiziert wird. Die Oberfläche wird in der Implementierung der Anwendung angegeben und muss mit der in Ihrer Code-basierten Konfiguration des Erlebniskanals referenzierten Oberfläche übereinstimmen.
 
-Beim Erstellen einer Code-basierten Erlebniskanalkonfiguration – für Web-, iOS- und Android-Plattformen müssen Sie einen Pfad und einen Speicherort eingeben, um die Oberfläche zu erstellen. Wenn die Plattform „Sonstige“ lautet, müssen Sie den vollständigen URI eingeben, wie in den Beispielen unten dargestellt.
-
-Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhandenen Entität (Touchpoint) betrachtet werden.<!--good idea to illustrate how it can be seen, but to clarify-->
+Eine Oberfläche kann auf jeder Hierarchieebene als Container mit einer vorhandenen Entität (Touchpoint) betrachtet werden.
 
 * Dabei kann es sich um eine Webseite, eine Mobile App, eine Desktop-App, einen bestimmten Inhaltsspeicherort innerhalb einer größeren Entität (z. B. eine `div`) oder ein nicht standardmäßiges Anzeigemuster (z. B. ein Kiosk oder ein Desktop-Programm-Banner) handeln.<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
 
@@ -144,7 +192,14 @@ Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieeben
 
 * Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
 
-Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
+Beim Erstellen einer code-basierten Konfiguration eines Erlebniskanals haben Sie zwei Möglichkeiten, die Oberfläche entsprechend der ausgewählten Plattform anzugeben:
+
+* Bei den Plattformen **[!UICONTROL Web]**, **[!UICONTROL iOS]** und **[!UICONTROL Android]** müssen Sie einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen.
+
+* Wenn die Plattform **[!UICONTROL Sonstige]** ist, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen unten dargestellt.
+
+Ein Oberflächen-URI dient als präziser Bezeichner, der innerhalb einer Anwendung zu unterschiedlichen Benutzeroberflächen-Elementen oder -Komponenten führt. Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
+
 1. **Typ**: Web, Mobile App, ATM, Kiosk, tvcd, Dienst
 1. **Eigenschaft**: Seiten-URL oder App-Paket
 1. **Container**: Speicherort auf der Seite/App-Aktivität

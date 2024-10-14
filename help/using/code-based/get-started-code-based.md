@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,7 @@ Wann sollte anstelle der anderen [!DNL Journey Optimizer]-Kanäle ein Code-basie
 
 * Sie können den Code-basierten Kanal auch als Alternative zu den Web- oder In-App-Kanälen von [!DNL Journey Optimizer] verwenden, falls Sie über eine API-basierte Headless- oder Server-seitige Implementierung verfügen.
 
-### Code-basierte Kanäle und Web-Kanäle im Vergleich
+### Code-basierte Kanäle und Web-Kanäle im Vergleich {#code-based-vs-web}
 
 Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder das Code-basierte Erlebnis verwenden. Je nach Kontext eignet sich ein Erlebnis jedoch meist besser als das andere. Die wichtigsten Unterschiede sind unten aufgeführt, sodass Sie eine fundierte Entscheidung darüber treffen können, wann Sie was verwenden.
 
@@ -103,18 +103,20 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 
 >[!CAUTION]
 >
->Diese Funktion richtet sich an Entwicklungspersonen und/oder erfahrene Benutzerinnen und Benutzer. Sie kann von Marketing-Fachleuten mit einiger Erfahrung im Schreiben von Code verwendet werden, sofern die Implementierungen und die Ersteinrichtung der Oberflächen von Ihrem Entwicklungs-Team durchgeführt werden.
+>Diese Funktion richtet sich an Entwicklungspersonen und/oder erfahrene Benutzerinnen und Benutzer. Sie kann von Marketing-Experten mit einigen Fähigkeiten zum Schreiben von Code verwendet werden, sofern die Kanalkonfigurationen und die Ersteinrichtung vom Entwicklungsteam verarbeitet werden.
 
-Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes Erlebnis bearbeiten können, müssen Ihre Seiten oder Apps entsprechend ausgerüstet sein. Dazu müssen Sie zuerst die einzelnen Stellen („[Oberflächen](code-based-configuration.md#surface-definition)“ genannt) festlegen, an denen Sie Inhalte einfügen oder ersetzen möchten<!--HOW??-->.
+Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes Erlebnis bearbeiten können, müssen Ihre Seiten oder Apps entsprechend ausgerüstet sein. Dazu müssen Sie vorab die einzelnen Positionen (mit der Bezeichnung &quot;[Oberflächen](code-based-configuration.md#surface-definition)&quot;) angeben, an denen Sie Inhalte einfügen oder ersetzen möchten.
 
 >[!NOTE]
 >
->Derzeit können nur HTML- und JSON-Inhalte mit einer Konfiguration verknüpft werden. <!--WILL COME LATER: text, image or another format depending on the application-->
+>Derzeit kann der mit einer Konfiguration verknüpfte Inhalt nur HTML oder JSON sein.
 
 Die wichtigsten Schritte zur Implementierung einer Code-basierten Kampagne:
 
-1. Definieren Sie eine [Oberfläche](code-based-configuration.md#surface-definition) in Ihrer Anwendungsimplementierung; also den Ort, zu dem Sie Ihr Code-basiertes Erlebnis hinzufügen möchten. Erstellen Sie dann eine Kanalkonfiguration für das Code-basierte Erlebnis, die auf diesen Ort verweist, und erstellen Sie mithilfe dieser Konfiguration eine Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
+1. Definieren Sie eine [Oberfläche](code-based-configuration.md#surface-definition) in Ihrer Anwendungsimplementierung, d. h. im Grunde den Ort, an dem Sie Ihr code-basiertes Erlebnis hinzufügen möchten, und erstellen Sie eine code-basierte Erlebniskanalkonfiguration, die auf diesen Ort verweist. [Weitere Informationen](code-based-configuration.md#create-code-based-configuration)
+
+1. Erstellen Sie mit dieser Konfiguration eine Journey oder Kampagne in [!DNL Journey Optimizer] . [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
 1. Erstellen Sie ein Erlebnis, indem Sie mit dem Personalisierungseditor von [!DNL Journey Optimizer] Inhalte für die ausgewählte Konfiguration angeben. [Weitere Informationen](create-code-based.md#edit-code)
 
-1. Ihr App-Implementierungs-Team erstellt explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. In diesem Fall ist das Implementierungs-Team für das Rendern oder die anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+1. Ihr App-Implementierungs-Team erstellt explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. In diesem Fall ist das Implementierungsteam für das Rendern oder anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich. [Weitere Informationen](code-based-implementation-samples.md)

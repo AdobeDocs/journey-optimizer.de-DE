@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 62%
 
 ---
 
-# Erstellen einer Web-Kanalkonfiguration {#web-configuration}
+# Weberfahrungen konfigurieren {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="Regel zum Seitenabgleich"
->abstract="Erstellen Sie eine Regel zum Seitenabgleich, um eine Gruppe von URLs, die dieselben Kriterien aufweisen, effizient zu verwalten und als Ziel festzulegen. Mit dieser Regel können Sie mehrere URLs unter einer Richtlinie zusammenfassen, wodurch die Anwendung konsistenter Einstellungen und Aktionen auf diesen Seiten vereinfacht wird."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="Standard-Authoring- und Vorschau-URL"
->abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
+## Webkanalkonfiguration erstellen {#create-web-configuration}
 
 Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifiziert wird, über die die Inhalte bereitgestellt werden. Sie kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass Sie Änderungen auf einer oder mehreren Web-Seiten vornehmen können.
+
+Gehen Sie wie folgt vor, um eine Webkanalkonfiguration zu erstellen.
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf, und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
@@ -37,37 +31,65 @@ Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifizier
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
 
-1. Wählen Sie den **Web**-Kanal aus.
+1. Wählen Sie den Kanal **Web** aus.
 
    ![](assets/web_config_2.png)
 
 1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
-1. Wenn Sie die Änderungen nur auf eine einzelne Seite anwenden möchten, können Sie eine **[!UICONTROL Seiten-URL]** eingeben.
+1. Wählen Sie im Abschnitt **[!UICONTROL Webeinstellungen]** eine der folgenden Optionen aus:
 
-1. Sie können aber auch eine **[!UICONTROL Matching-Regel für Seiten]** festlegen, um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen. Dies ist zum Beispiel sinnvoll, wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Web-Site angezeigt wird.
+   * **[!UICONTROL Einzelseite]** - Wenn Sie die Änderungen nur auf eine Seite anwenden möchten, geben Sie eine **[!UICONTROL Seiten-URL]** ein.
 
-   Wählen Sie dazu **[!UICONTROL Regel zum Seitenabgleich]** aus.
+   * **[!UICONTROL Seiten, die mit der Regel übereinstimmen]** - Um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen, erstellen Sie eine Seitenabgleichregel und geben Sie eine **[!UICONTROL Standard-URL für die Bearbeitung und Vorschau]** ein. [Weitere Informationen](#web-page-matching-rule)
 
-1. Definieren Sie Ihre Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
+1. Klicken Sie auf **[!UICONTROL Senden]** , um Ihre Änderungen zu speichern.
+
+Sie können diese Konfiguration jetzt bei der Verwendung des Webkanals in Ihren Kampagnen oder Journey auswählen.
+
+## Erstellen einer Regel zum Seitenabgleich {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Erstellen einer Regel zum Seitenabgleich"
+>abstract="Erstellen Sie eine Regel zum Seitenabgleich, um eine Gruppe von URLs, die dieselben Kriterien aufweisen, effizient zu verwalten und als Ziel festzulegen. Mit dieser Regel können Sie mehrere URLs unter einer Richtlinie zusammenfassen, wodurch die Anwendung konsistenter Einstellungen und Aktionen auf diesen Seiten vereinfacht wird."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="Definieren einer URL für die Inhaltserstellung und -vorschau"
+>abstract="Dieses Feld stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL verfügen, die sowohl für die effektive Erstellung als auch Vorschau von Inhalten erforderlich ist."
+
+Beim Erstellen einer Web- oder [code-basierten Erlebniskonfiguration](../code-based/get-started-code-based.md) können Sie eine **[!UICONTROL Seiten passende Regel]** erstellen, um mehrere URLs als Ziel festzulegen, die derselben Regel entsprechen. Sie können daher die gleichen Inhaltsänderungen auf mehrere Seiten gleichzeitig anwenden.
+
+Sie können beispielsweise die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden oder ein oberstes Bild hinzufügen, das auf allen Produktseiten einer Website angezeigt wird.
+
+1. Wählen Sie beim Konfigurieren Ihres [Web](#web-configuration)- oder [code-basierten Erlebnisses](../code-based/code-based-configuration.md) die Option **[!UICONTROL Seiten, die der Regel entsprechen]**.
+
+1. Definieren Sie Ihre Kriterien für die Felder **[!UICONTROL Domäne]** und **[!UICONTROL Seite]** . Überprüfen Sie die verfügbaren Operatoren in [diesem Abschnitt](#available-operators).
 
    Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Damenproduktseiten Ihrer Luma-Website angezeigt werden, wählen Sie **[!UICONTROL Domain]** > **[!UICONTROL Beginnt mit]** > `luma` und **[!UICONTROL Seite]** > **[!UICONTROL Enthält]** > `women`.
 
    ![](assets/web_config_3.png)
 
-1. Wenn Sie eine **[!UICONTROL Regel zum Seitenabgleich]** erstellt haben, müssen Sie die **Standard**-Authoring- und Vorschau-URL eingeben. Dieser Schritt stellt sicher, dass die von der Regel generierten oder abgeglichenen Seiten über eine bestimmte URL für die Erstellung und Vorschau von Inhalten verfügen. Weitere Informationen zur Regel zum Seitenabgleich finden Sie im [folgenden Abschnitt](#web-page-matching-rule).
+1. Wenn Ihr Anwendungsfall nicht mit einer Regel modelliert werden kann, können Sie mehrere Regeln hinzufügen. Klicken Sie auf **[!UICONTROL Hinzufügen einer weiteren Seitenregel]** und wiederholen Sie den obigen Schritt.
 
-1. Speichern Sie Ihre Änderungen.
+   >[!NOTE]
+   >
+   >Sie können bis zu 10 Regeln hinzufügen.
 
-Sie können Ihre Konfiguration jetzt beim Verwenden des Web-Kanals in Kampagnen oder Journeys auswählen.
+1. Sie können die Operatoren **[!UICONTROL Oder]** oder **[!UICONTROL Ausschließen]** zwischen den verschiedenen Regeln verwenden.
 
-## Regel zum Seitenabgleich {#web-page-matching-rule}
+   **[!UICONTROL Ausschließen]** ist nützlich, wenn eine der Seiten, die der definierten Regel entsprechen, nicht als Ziel ausgewählt werden sollte. Sie können beispielsweise alle `luma.com` Seiten mit `product` als Ziel auswählen, mit Ausnahme der folgenden Seite: `https://luma.com/blogs/productinfo`.
 
-Beim Erstellen einer Regel, die mehrere Seiten abgleicht, sodass Sie dieselben Inhaltsänderungen auf mehreren Seiten gleichzeitig anwenden können, können Sie verschiedene Operatoren in den Abschnitten **Domain** und **Pfad** verwenden, um die gewünschte Regel zu erstellen. Sehen Sie sich die unten aufgeführten, verfügbaren Operatoren an.
+   ![](assets/web_config_4.png)
 
-Verfügbare Operatoren zum Erstellen von Regeln zum Seitenabgleich:
+1. Geben Sie die **[!UICONTROL Standard-URL für Authoring und Vorschau]** ein. Dieser Schritt stellt sicher, dass die von der Regel generierten oder übereinstimmenden Seiten über eine bestimmte URL verfügen, die sowohl für die Inhaltserstellung als auch für die Vorschau verwendet werden kann.
+
+### Verfügbare Operatoren zum Erstellen von Seitenübereinstimmungsregeln {#available-operators}
+
+Beim Erstellen einer [Regel, die mit mehreren Seiten übereinstimmt](#web-page-matching-rule), können Sie verschiedene Operatoren in den Abschnitten **[!UICONTROL Domäne]** und **[!UICONTROL Pfad]** verwenden, um Ihre gewünschte Regel zu erstellen. Die verfügbaren Operatoren sind unten aufgeführt.
 
 * **Domain**
 
@@ -123,5 +145,3 @@ Verfügbare Operatoren zum Erstellen von Regeln zum Seitenabgleich:
     </tr>
     </tbody>
 </table>
-
-Wenn Ihr Anwendungsfall nicht mit einer Regel modelliert werden kann, können Sie mehrere Seitenregeln hinzufügen und die Operatoren „Oder“ oder „Ausschließen“ verwenden. „Ausschließen“ ist nützlich, wenn eine der Seiten, die mit der definierten Regel übereinstimmen, nicht als Ziel ausgewählt werden sollte, z. B. alle „example.com“-Seiten, die „product“ enthalten, mit Ausnahme der folgenden Seite: `https://example.com/blogs/productinfo`.
