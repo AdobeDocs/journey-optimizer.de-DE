@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -20,17 +20,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="KI-Assistent in Journey Optimizer für Content Acceleration"
->abstract="Nachdem Sie Ihren Versand erstellt und personalisiert haben, können Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, indem sie es Ihnen ermöglicht, die Inhalte durch eine Beschreibung dessen, was Sie generieren möchten, genauer anzupassen."
+>abstract="Nach der Erstellung und Personalisierung des Versands können die Inhalte mit dem KI-Assistenten in Journey Optimizer für Content Acceleration verbessert werden. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Hochladen von Marken-Assets"
->abstract="Mit dem Menü „Marken-Asset hochladen“ können Sie ein beliebiges Marken-Asset hinzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten in Journey Optimizer für Content Acceleration bieten können. Sie können auch ein zuvor hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
+>abstract="Mit dem Menü „Marken-Asset hochladen“ kann ein beliebiges Marken-Asset hingezufügt werden, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten in Journey Optimizer für Content Acceleration bieten können. Die Auswahl eines zuvor hochgeladenen Assets ist ebenfalls möglich. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe-Begriffe zu generativer KI"
->abstract="Der Zugriff auf diese Funktion unterliegt Ihrer Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Ausgaben dieser Funktion auf ihre Richtigkeit überprüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI in Adobe"
 
 >[!INFO]
