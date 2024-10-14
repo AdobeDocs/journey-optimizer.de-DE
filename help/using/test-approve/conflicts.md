@@ -1,7 +1,6 @@
 ---
-title: Konflikt-Management und Priorisierung
-description: Erfahren Sie, wie Sie Ihren Inhalt in der Vorschau darstellen und testen können.
-feature: Preview, Proofs
+title: Potenzielle Konflikte in Journey und Kampagnen identifizieren
+description: Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagnen identifizieren können.
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
@@ -9,31 +8,28 @@ hide: true
 hidefromtoc: true
 source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 22%
+source-wordcount: '691'
+ht-degree: 3%
 
 ---
 
 
-# Konflikt-Management und Priorisierung {#conflict-prioritization}
+# Potenzielle Konflikte in Journey und Kampagnen erkennen {#conflict}
+
+>[!BEGINSHADEBOX]
+
+Inhalt dieses Dokumentationshandbuchs:
+
+* [Erste Schritte mit Konfliktmanagement und Priorisierung](gs-conflict-prioritization.md)
+* **[Potenzielle Konflikte in Journey und Kampagnen erkennen](conflicts.md)**
+* [Zuweisen von Prioritätswerten zu Journeys und Kampagnen](priority-scores.md)
+* [Journey-Begrenzung und Schlichtung](journey-capping.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Die Tools zur Konfliktverwaltung und Priorisierung sind derzeit nur ausgewählten Benutzern als Beta-Version verfügbar.
-
-In Journey Optimizer ist die Verwaltung von Umfang und zeitlichem Verlauf von Kampagnen und Journey unverzichtbar, um zu verhindern, dass überwältigende Kunden mit zu vielen Interaktionen auf diese Weise ansprechen. In den folgenden beiden Abschnitten werden Schlüsselwerkzeuge vorgestellt, mit denen Sie ein ausgewogenes Verhältnis gewährleisten und die Kommunikation effektiv priorisieren können
-
-## Potenzielle Konflikte in Journey und Kampagnen identifizieren {#conflict}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Konflikt-Viewer in Kampagnen"
->abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journeys, Kampagnen oder Kanalkonfigurationen ermitteln. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Konflikt-Viewer in Journeys"
->abstract="Mit diesem Tool können Sie Überschneidungen mit anderen Journeys, Kampagnen oder Kanalkonfigurationen ermitteln. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen."
+>Die Tools zur Konfliktverwaltung und Priorisierung sind derzeit nur für ausgewählte Benutzer verfügbar, da sie nur über eingeschränkte Verfügbarkeit verfügen.
 
 Wenn Marketing-Experten das Kampagnen- und Journey-Volumen in Journey Optimizer steigern, wird es für Marketing-Experten immer schwieriger zu wissen, ob sie Kunden mit zu vielen Marketinginteraktionen bombardieren. Es ist daher von wesentlicher Bedeutung, einfach festzustellen, wann es Überschneidungen bei Kampagnen und Journey gibt, um sicherzustellen, dass sie das richtige Gleichgewicht zwischen Marketingkommunikation erreichen und gleichzeitig das Risiko der Kundenermüdung verringern.
 
@@ -45,7 +41,7 @@ Die wichtigsten Bereiche, die auf potenzielle Überschneidungen zu überwachen s
 * **Begrenzungsregelsatz**: Welche Journey kann ich begrenzen und gibt es Überschneidungen?
 * **Kanalkonfiguration**: Gibt es andere Journey oder Kampagnen, die eine Kanalkonfiguration verwenden, die in derselben Journey oder Kampagne verwendet wird, die verhindern könnte, dass dem Endbenutzer die Journey oder Kampagne angezeigt wird?
 
-### So erkennt Journey Optimizer Konflikte {#detection}
+## So erkennt Journey Optimizer Konflikte {#detection}
 
 Nachstehend finden Sie eine Zusammenfassung dazu, wie Journey Optimizer potenzielle Konflikte für Journey und Kampagnen identifiziert:
 
@@ -55,7 +51,7 @@ Nachstehend finden Sie eine Zusammenfassung dazu, wie Journey Optimizer potenzie
 * **Kampagnen**: Da alle Kampagnen auf Zielgruppen ausgerichtet sind und kein Ereigniskonzept existiert, kollidieren alle Kampagnen möglicherweise mit segmentausgelösten Journey (angefangen mit der Aktivität Audience lesen ).
 * **Live-/Geplante Kampagnen**: Live- und geplante Kampagnen können aufgrund möglicher Zielgruppenüberschneidungen miteinander in Konflikt geraten. Für jede Kampagne werden alle Live- oder geplanten Kampagnen in der Konfliktanzeige aufgelistet.
 
-### Identifizierte Konflikte für bestimmte Journey oder Kampagnen anzeigen {#view}
+## Identifizierte Konflikte für bestimmte Journey oder Kampagnen anzeigen {#view}
 
 Bei der Erstellung einer Journey oder Kampagne können Sie mit Journey Optimizer überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen möglich sind. Gehen Sie dazu wie folgt vor:
 
@@ -79,7 +75,7 @@ Bei der Erstellung einer Journey oder Kampagne können Sie mit Journey Optimizer
 
 Um die Suche nach potenziellen Überschneidungen weiter zu verfeinern, können Sie Ihre Kampagnen- und Journey-Liste nach den relevanten Feldern filtern. Wählen Sie dazu das Filtersymbol in der Lagerbestandsansicht aus. [Erfahren Sie, wie Sie mit Filtern arbeiten](../start/search-filter-categorize.md#filter-lists)
 
-### Konflikte lösen {#resolve}
+## Konflikte lösen {#resolve}
 
 Im Folgenden finden Sie einige Tipps zur Reduzierung möglicher Konflikte, sobald diese erkannt wurden:
 
@@ -90,29 +86,3 @@ Im Folgenden finden Sie einige Tipps zur Reduzierung möglicher Konflikte, sobal
 * Legen Sie **Prioritäten** für eingehende Aktionen fest, um sicherzustellen, dass den Kunden die wichtigste Aktion angezeigt wird.
 
 Mithilfe dieser Funktionen können Sie sicherstellen, dass Ihre Marketing-Maßnahmen aufeinander abgestimmt sind und dass Sie bei Ihrer Kommunikationsstrategie das richtige Gleichgewicht wahren.
-
-## Zuweisen von Prioritätswerten zu Journeys und Kampagnen {#priority}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Priorität"
->abstract="Weisen Sie der Journey einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Priorität"
->abstract="Weisen Sie der Kampagne einen Prioritätswert von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. In Fällen, in denen dieselbe eingehende Kanalkonfiguration (beispielsweise In-App-Konfiguration) in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde."
-
-Mit Journey Optimizer können Sie einer Journey oder Kampagne eine Prioritätsbewertung zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Einschränkung vorliegt (z. B. eine Frequenzbegrenzung). Wenn ein Kunde für viele Journey, Kampagnen oder Mitteilungen qualifiziert ist und Sie selektiv sein möchten, in welche Bereiche er eintreten und welche er empfangen soll, sollten Sie dieses Feld nutzen.
-
->[!NOTE]
->
->Die Prioritätsbewertung ist für eingehende Kanäle verfügbar: Web-, In-App- und code-basierte Kanäle. Unter Journey ist die Prioritätsbewertung nur für die Kanäle **in der App** und **code-basiert** verfügbar.
-
-Die Zuweisung eines Prioritätswerts ist für die eingehende Kommunikation wie Web, Mobile und In-App-Nachrichten von entscheidender Bedeutung. Wenn mehrere Kampagnen dieselbe Kanalkonfiguration verwenden (z. B. ein Banner oben auf Ihrer Webseite), kann dies problematisch sein, da nur Inhalte einer Kampagne angezeigt werden können. In der Prioritätsbewertung legen Sie Ihre Voreinstellung fest, für welche Kampagne angezeigt werden soll, wenn sich der Empfänger für mehr als eine Kampagne qualifizieren kann.
-
-Um einer Journey oder Kampagne eine Prioritätsbewertung zuzuweisen, geben Sie einen numerischen Wert (von 0-100) in das Feld **[!UICONTROL Prioritätsbewertung]** ein, das sich in den Journey- oder Kampagneneigenschaften befindet. Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass dieser Kampagneninhalt angezeigt wird, erhalten Sie eine Punktzahl von 100.
-
-![](assets/priority-score.png)
-
-In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die zuvor aktivierte Kampagne angezeigt.
