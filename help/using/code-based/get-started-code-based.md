@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 83%
 
 ---
@@ -103,7 +103,7 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 
 >[!CAUTION]
 >
->Diese Funktion richtet sich an Entwicklungspersonen und/oder erfahrene Benutzerinnen und Benutzer. Sie kann von Marketing-Experten mit einigen Fähigkeiten zum Schreiben von Code verwendet werden, sofern die Kanalkonfigurationen und die Ersteinrichtung vom Entwicklungsteam verarbeitet werden.
+>Diese Funktion richtet sich an Entwicklungspersonen und/oder erfahrene Benutzerinnen und Benutzer. Sie kann von Marketing-Experten mit einigen Fähigkeiten zum Schreiben von Code verwendet werden, sofern die Kanalkonfigurationen und die Ersteinrichtung von Ihrem Entwicklungsteam verarbeitet werden.
 
 Damit Sie Ihren Inhalt mit der Funktion [!DNL Journey Optimizer] Code-basiertes Erlebnis bearbeiten können, müssen Ihre Seiten oder Apps entsprechend ausgerüstet sein. Dazu müssen Sie vorab die einzelnen Positionen (mit der Bezeichnung &quot;[Oberflächen](code-based-configuration.md#surface-definition)&quot;) angeben, an denen Sie Inhalte einfügen oder ersetzen möchten.
 
