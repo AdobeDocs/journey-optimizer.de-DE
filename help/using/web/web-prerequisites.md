@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 91%
@@ -19,7 +19,7 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 * Um Änderungen an Ihrer Website hinzuzufügen, benötigen Sie eine bestimmte Implementierung. [Weitere Informationen](#implementation-prerequisites)
 
-* Um auf den Web-Designer von [!DNL Journey Optimizer] zuzugreifen, müssen Sie eine bestimmte Browser-Erweiterung für Google Chrome installiert haben. [Weitere Informationen](#visual-authoring-prerequesites)
+* Um auf den Web-Designer von [!DNL Journey Optimizer] zuzugreifen, müssen Sie eine bestimmte Browser-Erweiterung für Google Chrome installiert haben. [Weitere Informationen](#visual-authoring-prerequisites)
 
 * Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen [hier](#delivery-prerequisites) detailliert definieren.
 
