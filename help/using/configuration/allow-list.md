@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -140,7 +140,7 @@ Gehen Sie dazu wie folgt vor.
 
    >[!NOTE]
    >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
