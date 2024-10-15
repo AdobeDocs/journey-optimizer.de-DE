@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1731'
 ht-degree: 35%
 
 ---
@@ -213,7 +213,7 @@ Beim Erstellen code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Bei der Auswahl eines anderen Testprofils oder einer anderen Behandlung ändert sich der Vorschau-Link, sodass Sie einen Link für jedes Testprofil und/oder jede Behandlung erstellen und die Erlebnisse vergleichen können.
+   Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Behandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Registerkarten kopieren und die Erlebnisse vergleichen.
 
 ## Gestalten Sie Ihr code-basiertes Erlebnis live {#code-based-experience-live}
 
