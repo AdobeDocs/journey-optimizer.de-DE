@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 86%
 
 ---
 
-# Anzeigen Ihres Inhalts in der Vorschau {#preview}
+# Überprüfen des Inhalts {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie eine Vorschau des E-Mail-Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
 
@@ -37,3 +39,8 @@ Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie eine Vorschau 
    ![](../email/assets/preview-test-profile.png)
 
 1. Wählen Sie andere Testprofile aus, um Ihre E-Mail für jede Variante Ihrer Nachricht in der Vorschau anzuzeigen.
+
+>[!NOTE]
+>
+>Bei der Erstellung von code-basierten Erlebnissen können Sie Ihre personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten für eine Echtzeit-Simulation in der Vorschau anzeigen. [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
+

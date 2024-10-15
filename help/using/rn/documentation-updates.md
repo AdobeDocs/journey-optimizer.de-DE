@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
-ht-degree: 97%
+source-wordcount: '5667'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite **Webkanalkonfiguration erstellen** wurde aktualisiert, um die Schritte beim Erstellen einer Seitenvergleichsregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zur bevorstehenden TTL-Schutzdauer (Time-to-Live) für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
 
+
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option Vorschau auf Gerät anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/create-code-based.md#preview-on-device)
 
 ## September 2024 {#sept-2024}
 
