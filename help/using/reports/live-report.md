@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 95%
+source-wordcount: '512'
+ht-degree: 87%
 
 ---
 
@@ -20,17 +20,13 @@ ht-degree: 95%
 Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
 Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
 
-* Wenn Sie eine Journey im Kontext einer Journey anpeilen möchten, rufen Sie über das Menü **[!UICONTROL Journeys]** Ihre Journey auf und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]**.
+* Wenn Sie eine Journey im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf das Menü Journey **[!UICONTROL Mehr Aktionen]** zu und klicken Sie auf die Schaltfläche **[!UICONTROL Letzten 24-Stunden-Bericht anzeigen]** .
 
   ![](assets/report_journey.png)
 
-* Wenn Sie eine Kampagne als Ziel wählen möchten, rufen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne auf und klicken auf die Schaltfläche **[!UICONTROL Berichte]**.
+* Wenn Sie eine Kampagne als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Kampagnen]** auf Ihre Kampagne zu und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und dann auf **[!UICONTROL Letzten 24-Stunden-Bericht anzeigen]**.
 
   ![](assets/report_campaign.png)
-
-* Wenn Sie von den **Customer Journey Analytics-Berichten** zum **[!UICONTROL Live-Bericht]** für Ihren Versand wechseln möchten, klicken Sie im Tab-Umschalter auf **[!UICONTROL Letzte 24 Stunden]** .
-
-  ![](assets/report_3.png)
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-live).
 
@@ -92,7 +88,7 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
    ![](assets/export_4.png)
 
-1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie auf **[!UICONTROL Widget-Daten in CSV exportieren]** neben dem ausgewählten Widget.
+1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie neben dem ausgewählten Widget auf **[!UICONTROL CSV-Datei herunterladen]** .
 
    ![](assets/export_5.png)
 
