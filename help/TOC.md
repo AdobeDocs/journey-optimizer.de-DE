@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
-   + Globaler Bericht {#global-report}
-      + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
-      + [Liste von Komponenten](using/reports/global-report-components.md)
-      + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
-      + [Globaler Bericht zu Kampagnen](using/reports/campaign-global-report.md)
-      + [Zielbericht](using/reports/objective-report.md)
-      + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
-      + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
-   + Kanalberichte {#channel-report}
-      + [Erste Schritte mit Kanalberichten](using/reports/channel-report-gs.md)
-      + [Kanalberichte](using/reports/channel-report.md)
+   + Customer Journey Analytics reports{#channel-report}
+      + [Erste Schritte mit Customer Journey Analytics-Berichten](using/reports/report-gs-cja.md)
+      + [Customer Journey Analytics manuell konfigurieren](using/reports/cja-ajo.md)
+      + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
+      + [Reporting- und Experimentiervoraussetzungen](using/reports/reporting-configuration.md)
+      + Kampagnenberichte{#reporting}
+         + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
+         + [Codebasierter Kampagnenbericht](using/reports/campaign-global-report-cja-code.md)
+         + [Kampagnenbericht zur Inhaltskarte](using/reports/campaign-global-report-cja-content.md)
+         + [Briefpost-Kampagnenbericht](using/reports/campaign-global-report-cja-direct.md)
+         + [E-Mail-Kampagnenbericht](using/reports/campaign-global-report-cja-email.md)
+         + [Experimentkampagnenbericht](using/reports/campaign-global-report-cja-experimentation.md)
+         + [In-App-Kampagnenbericht](using/reports/campaign-global-report-cja-inapp.md)
+         + [Kampagnenbericht für Push-Benachrichtigungen](using/reports/campaign-global-report-cja-push.md)
+         + [SMS-Kampagnenbericht](using/reports/campaign-global-report-cja-sms.md)
+         + [Webkampagnenbericht](using/reports/campaign-global-report-cja-web.md)
+      + Journey reports{#reporting}
+         + [Journey-Bericht](using/reports/journey-global-report-cja.md)
+         + [Codebasierter Journey-Bericht](using/reports/journey-global-report-cja-code.md)
+         + [Journey-Bericht zur Inhaltskarte](using/reports/journey-global-report-cja-content.md)
+         + [Briefpost-Journey-Bericht](using/reports/journey-global-report-cja-direct.md)
+         + [Email Journey-Bericht](using/reports/journey-global-report-cja-email.md)
+         + [In-App-Journey-Bericht](using/reports/journey-global-report-cja-inapp.md)
+         + [Push-Journey-Bericht](using/reports/journey-global-report-cja-push.md)
+         + [SMS-Journey-Bericht](using/reports/journey-global-report-cja-sms.md)
+         + [Web-Journey-Bericht](using/reports/journey-global-report-cja-web.md)
+      + [Übersichtsbericht](using/reports/channel-report-cja.md)
+      + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
+      + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
+   + Ehemaliges Berichts-Dashboard {#reports}
+      + Globaler Bericht {#global-report}
+         + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
+         + [Liste von Komponenten](using/reports/global-report-components.md)
+         + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
+         + [Globaler Bericht zu Kampagnen](using/reports/campaign-global-report.md)
+         + [Zielbericht](using/reports/objective-report.md)
+         + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
+         + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
+      + Kanalberichte {#channel-report}
+         + [Erste Schritte mit Kanalberichten](using/reports/channel-report-gs.md)
+         + [Kanalberichte](using/reports/channel-report.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
       + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
    + [Warnhinweise](using/reports/alerts.md)
-   + [Arbeiten mit Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Ausschlussgründe](using/reports/exclusion-list.md)
-+ Neue Reporting-Oberfläche (LA){#channel-report}
-   + [Erste Schritte mit der neuen Reporting-Oberfläche](using/reports/report-gs-cja.md)
-   + [Reporting- und Experimentiervoraussetzungen](using/reports/reporting-configuration.md)
-   + [Verwalten von Berichten](using/reports/report-cja-manage.md)
-   + [Journey-Bericht](using/reports/journey-global-report-cja.md)
-   + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
-   + [Übersichtsbericht](using/reports/channel-report-cja.md)
-   + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
-   + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
