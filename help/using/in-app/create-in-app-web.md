@@ -7,8 +7,8 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -108,5 +108,5 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 **Verwandte Themen:**
 
 * [Testen und Senden der In-App-Nachricht](send-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 * [In-App-Konfiguration](inapp-configuration.md)

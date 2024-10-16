@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 91%
@@ -134,5 +134,5 @@ Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.ado
 * [Erstellen einer In-App-Nachricht](create-in-app.md)
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 

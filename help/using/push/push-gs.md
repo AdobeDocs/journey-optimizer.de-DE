@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 1. Personalisierte Push-Payloads werden an einen internen Push-Messaging-Versand-Service weitergeleitet.
 1. Dieser interne Service überprüft dann die Anmeldedaten der Mobile App, die mit der Nachricht verknüpft ist, und
 1. sendet die Nachricht zum endgültigen Versand an die Messaging-Services von Apple und Google.
-1. Feedback von Messaging-Services wird zum Reporting in Live-Berichten und globalen Berichten zur Journey aufgeführt. Fehler und Erfolge werden dort protokolliert.
+1. Feedback von Messaging-Services wird zur Berichterstellung im Journey Live &amp; Customer Journey Analytics-Bericht protokolliert, Fehler und Erfolge werden protokolliert
 1. Push-Benachrichtigungen werden an Endbenutzergeräte gesendet.
 1. Push-Benachrichtigungs-Interaktionen für Endbenutzer werden über die SDK-Integration als Erlebnisereignisse vom Endbenutzer-Client gesendet.
 
@@ -75,7 +75,7 @@ Die folgende Abbildung zeigt die verschiedenen Schritte zur Konfiguration der Ko
 **Verwandte Themen**
 
 * [Konfigurieren des Push-Kanals](push-configuration.md)
-* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report.md#push-global)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md)
 * [Erstellen einer Push-Benachrichtigung](create-push.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
 * [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)

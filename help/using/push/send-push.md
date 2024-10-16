@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 89%
@@ -59,7 +59,7 @@ Wenn Ihre Push-Benachrichtigung fertig ist, vervollständigen Sie die Konfigurat
 **Verwandte Themen**
 
 * [Konfigurieren des Push-Kanals](push-configuration.md)
-* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report.md#push-global)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md)
 * [Erstellen einer Push-Benachrichtigung](create-push.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
 * [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)

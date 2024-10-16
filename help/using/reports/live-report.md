@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 95%
 
 ---
 
 # Erste Schritte mit dem Live-Bericht {#live-report}
-
->[!AVAILABILITY]
->
->Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
 
 Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
 Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
@@ -32,7 +28,7 @@ Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand e
 
   ![](assets/report_campaign.png)
 
-* Wenn Sie vom **[!UICONTROL globalen Bericht]** zum **[!UICONTROL Live-Bericht]** für Ihren Versand wechseln möchten, klicken Sie auf **[!UICONTROL Letzte 24 Std.]** im Registerkarten-Umschalter.
+* Wenn Sie von den **Customer Journey Analytics-Berichten** zum **[!UICONTROL Live-Bericht]** für Ihren Versand wechseln möchten, klicken Sie im Tab-Umschalter auf **[!UICONTROL Letzte 24 Stunden]** .
 
   ![](assets/report_3.png)
 

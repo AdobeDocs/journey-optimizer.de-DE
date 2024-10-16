@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -150,12 +150,6 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
-> [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Verbesserungen {#e-improvements}
 

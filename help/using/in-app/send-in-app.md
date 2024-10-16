@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -64,11 +64,11 @@ Gehen Sie dazu wie folgt vor:
 
 Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte In-App-Benachrichtigung wird sofort oder zum angegebenen Datum versendet.
 
-Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Kampagnen- oder Journey-Bericht messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#inapp-report).
+Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Kampagnen- oder Journey-Bericht messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-inapp.md).
 
 **Verwandte Themen:**
 
 * [Erstellen einer In-App-Nachricht](create-in-app.md)
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 * [In-App-Konfiguration](inapp-configuration.md)

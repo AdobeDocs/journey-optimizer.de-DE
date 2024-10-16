@@ -8,7 +8,7 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
@@ -183,5 +183,5 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 **Verwandte Themen:**
 
 * [Testen und Senden der In-App-Nachricht](send-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 * [In-App-Konfiguration](inapp-configuration.md)

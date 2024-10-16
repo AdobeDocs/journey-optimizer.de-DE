@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 85%
@@ -48,6 +48,6 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte 
 
 1. Nach der Aktivierung einer Kampagne können Sie jederzeit ihre Informationen überprüfen, indem Sie sie öffnen. In der Zusammenfassung finden Sie Statistiken über die Anzahl der Zielgruppenprofile sowie der bereitgestellten und fehlgeschlagenen Aktionen.
 
-   Sie können auch zusätzliche Statistiken in speziellen Berichten einsehen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken. [Weitere Informationen](../reports/campaign-global-report.md)
+   Sie können auch zusätzliche Statistiken in speziellen Berichten einsehen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken. [Weitere Informationen](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -75,5 +75,5 @@ Die automatisierte Einrichtung ist abgeschlossen. Sie können jetzt Ihre mobile 
 * [Erste Schritte mit Push-Benachrichtigungen](get-started-push.md)
 * [Datenfluss und Komponenten von Push-Benachrichtigungen](push-gs.md)
 * [Kanal der Push-Benachrichtigung konfigurieren](push-configuration.md)
-* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report.md#push-global)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md#push-global)
 * [Erstellen einer Push-Benachrichtigung](create-push.md)

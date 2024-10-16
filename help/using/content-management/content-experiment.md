@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
-workflow-type: ht
-source-wordcount: '755'
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '734'
 ht-degree: 100%
 
 ---
@@ -45,10 +45,6 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 
 1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-[Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
-
-   >[!AVAILABILITY]
-   >
-   >Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 1. Beginnen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** mit der Personalisierung der Abwandlung A.
 
@@ -128,4 +124,4 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 1. Sobald Sie den Inhalt Ihrer Nachricht definiert haben, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering Ihres Versands zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../content-management/preview-test.md)
 
-Nach der Konfiguration Ihrer Experimente können Sie mit dem Bericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report.md#experimentation-report)
+Nach der Konfiguration Ihrer Experimente können Sie mit dem Bericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report-cja-experimentation.md)

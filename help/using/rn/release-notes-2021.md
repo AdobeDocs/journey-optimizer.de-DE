@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <td>
 <p>In Berichten sind neue Metriken verfügbar: „Zielgruppe“ und „Ausgeschlossen“ für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die unterschiedlichen Reporting-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der <a href="../reports/live-report.md">entsprechenden Dokumentation</a>.</p>
 <p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
-<p>Weitere Informationen finden Sie in der <a href="../reports/global-report.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/report-gs-cja.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

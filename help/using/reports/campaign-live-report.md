@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '3529'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '3485'
+ht-degree: 99%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 100%
 >title="Kampagnen-Live-Bericht"
 >abstract="Mit dem Kampagnen-Live-Bericht kann die Wirkung und Performance von Kampagnen nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
->[!AVAILABILITY]
->
->Das aktuelle Reporting wird mit der Oktober-Version eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
-
-Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich globale Berichte auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
+Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Customer Journey Analytics-Berichte auf Ereignisse, die mindestens vor zwei Stunden aufgetreten sind, und decken Ereignisse über einen bestimmten Zeitraum ab.
 
 Über die Schaltfläche **[!UICONTROL Live-Ansicht]** können Sie direkt in Ihrer Campaign-Instanz auf den Live-Bericht in Campaign zugreifen.
 
@@ -610,4 +606,4 @@ Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Aussc
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Erstellen von API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Ändern oder Stoppen einer Kampagne](../campaigns/modify-stop-campaign.md)
-* [Globaler Bericht zu Kampagnen](campaign-global-report.md)
+* [Kampagnenbericht](campaign-global-report-cja.md)

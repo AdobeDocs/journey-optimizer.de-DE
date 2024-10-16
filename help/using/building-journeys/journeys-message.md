@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 77%
@@ -190,7 +190,7 @@ Sie können das Gesamtergebnis in der Schnittstelle **Profile** einsehen. Für j
 
 +++Welche Berichte stehen zur Verfügung?
 
-Wählen Sie die Journey aus, klicken Sie auf die Schaltfläche **Bericht anzeigen** rechts oben und wählen Sie abschließend die Registerkarte **Journey** auf der linken Seite aus. [Weitere Informationen](../reports/journey-global-report.md)
+Wählen Sie die Journey aus, klicken Sie auf die Schaltfläche **Bericht anzeigen** rechts oben und wählen Sie abschließend die Registerkarte **Journey** auf der linken Seite aus. [Weitere Informationen](../reports/journey-global-report-cja.md)
 
 +++
 

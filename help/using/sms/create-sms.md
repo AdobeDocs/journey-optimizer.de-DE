@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1016'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -159,12 +159,12 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vors
 
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Textnachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite](send-sms.md) im Detail beschrieben.
 
-Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#sms-tab).
+Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-sms.md).
 
 **Verwandte Themen**
 
 * [Vorschau, Test und Versand Ihrer Textnachricht](send-sms.md)
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
-* [SMS- und MMS-Berichte](../reports/journey-global-report.md#sms-global)
+* [SMS- und MMS-Berichte](../reports/journey-global-report-cja-sms.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
 * [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)

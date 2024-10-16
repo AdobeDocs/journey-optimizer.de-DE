@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -48,4 +48,4 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
    Näheres dazu, wie Sie Journeys erstellen und ausführen, finden Sie [in diesem Abschnitt](../../building-journeys/journey-gs.md).
 
-1. **Nachrichten und Journeys überwachen**. Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Näheres dazu, wie Sie die Performance überwachen können, erfahren Sie [in diesem Abschnitt](../../reports/global-report.md).
+1. **Nachrichten und Journeys überwachen**. Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Näheres dazu, wie Sie die Performance überwachen können, erfahren Sie [in diesem Abschnitt](../../reports/report-gs-cja.md).

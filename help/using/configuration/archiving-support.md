@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: de90083d67787495a28ee45f5912d2cbb0c0ff0c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 83%
@@ -79,7 +79,7 @@ Die BCC-Adresse wird jedoch gemäß der [hier](../email/email-settings.md) besch
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/global-report.md) zu falschen Berechnungen führen.
+* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/report-gs-cja.md) zu falschen Berechnungen führen.
 
 * Markieren Sie im BCC-Posteingang keine Nachrichten als Spam, da sich das auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 

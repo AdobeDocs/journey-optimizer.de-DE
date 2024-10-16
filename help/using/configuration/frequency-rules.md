@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -176,7 +176,7 @@ Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
    >
    >Nachrichten, bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln ausgewertet.
 
-1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [globalen Bericht](../reports/global-report.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Verfahrensregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
+1. Sie können die Anzahl der vom Versand ausgeschlossenen Profile im Bericht [Customer Journey Analytics](../reports/report-gs-cja.md) und im Bericht [Live Report](../reports/live-report.md) anzeigen, in dem Geschäftsregeln als möglicher Grund für vom Versand ausgeschlossene Benutzer aufgeführt werden.
 
 >[!NOTE]
 >

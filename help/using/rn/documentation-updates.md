@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5655'
 ht-degree: 96%
 
 ---
@@ -131,7 +131,6 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Aktualisierung des Parameters **Dauer** in der Funktion `toString`. [Weitere Informationen](../building-journeys/functions/functiontostring.md)
 * Für einige Anwendungsfälle externer Datenquellen wird die Verwendung benutzerdefinierter Aktionen empfohlen.
 * Die Syntax für Ereignisfelder wurde aktualisiert. Die Syntax `@(my_event.myfield}` wird nicht mehr unterstützt und wird ersetzt durch `@event{my_event.myfield}`. [Weitere Informationen](../building-journeys/expression/field-references.md)
-* Die Handbücher „Globaler Bericht“ und „Live-Bericht“ wurden neu angeordnet. [Weitere Informationen](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +178,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Der Hinweis zur **Verwaltung des Authentifizierungs-Caches** in einer Journey wurde aktualisiert, um zu präzisieren, dass das Token nicht zwischen verschiedenen Journeys geteilt wird. [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-mode)
 * Die Seite zur **Eintragsverwaltung** für Journeys wurde aktualisiert, um das Verhalten besser zu verdeutlichen. [Weitere Informationen](../building-journeys/entry-management.md)
 * **Export-Datensätze** für Offer Decisioning sind jetzt standardmäßig aktiviert. Der Hinweis zum vorherigen Verhalten wurde entfernt.  [Weitere Informationen](../offers/export-catalog/get-started-export.md)
-* Verschiedene **Kampagnenberichtsmetriken** wurden sowohl in den Live-Berichten als auch in den globalen Berichten umbenannt. [Weitere Informationen](../reports/campaign-global-report.md)
+* Verschiedene **Kampagnenberichtsmetriken** wurden sowohl in den Live-Berichten als auch in den globalen Berichten umbenannt. [Weitere Informationen](../reports/campaign-live-report.md)
 * Es wurde ein neuer Abschnitt zu den Voraussetzungen für Inhaltsexperimente für den Web-Kanal hinzugefügt. [Weitere Informationen](../web/web-prerequisites.md#experiment-prerequisites)
 * Es wurde ein Warnhinweis zur Seite **Arbeiten mit Inhaltsvorlagen** hinzugefügt, um anzugeben, dass Tracking beim Testen von E-Mail-Inhaltsvorlagen derzeit nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../content-management/content-templates.md#test-template)
 * Es wurden mehrere Warnungen im Abschnitt **Erstellen und Veröffentlichen von Landingpages** hinzugefügt, um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie die bei der Erstellung der Seite definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
@@ -297,9 +296,9 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seiten zu den Funktionen [toDateOnly](../building-journeys/functions/functiontodateonly.md) und [toString](../building-journeys/functions/functiontostring.md) wurden aktualisiert.
 * Details zu den Zeitbedingungsparametern hinzugefügt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
 * Informationen über integrierte Datensätze wurden hinzugefügt. [Mehr dazu](../data/get-started-datasets.md#access-datasets)
-* Die Abschnitte „Globaler Bericht“ und „Live-Bericht“ wurden verbessert und neu angeordnet. [Mehr dazu](../reports/global-report.md)
+* Die Abschnitte „Globaler Bericht“ und „Live-Bericht“ wurden verbessert und neu angeordnet. [Mehr dazu](../reports/report-gs-cja.md)
 * Eine Liste aller in Adobe Journey Optimizer verfügbaren Berichtsmetriken wurde hinzugefügt -
-  [Mehr dazu](../reports/global-report.md#email-and-sms-metrics)
+  [Mehr dazu](../reports/report-gs-cja.md#email-and-sms-metrics)
 * Der Abschnitt zur BCC-E-Mail wurde auf die neue Seite „Support für Archivierung“ verschoben. [Mehr dazu](../configuration/archiving-support.md)
 
 ## August 2022 {#august-2022}
@@ -444,7 +443,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](../action/about-custom-action-configuration.md#url-configuration)
 * Es wurde ein Abschnitt über barrierefreie Funktionen und Tastaturbefehle hinzugefügt. [Mehr dazu](../start/user-interface.md#accessibility)
 * Es wurde ein Abschnitt über Methoden zur Zielgruppenauswertung hinzugefügt. [Mehr dazu](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Es wurden Hinweise zu den Abschnitten „Unterdrückungsliste“, „Zulassungsliste“ und „Globaler/Live-Bericht zum E-Mail-Versand“ hinzugefügt, in denen erläutert wird, dass Profile mit dem Status „Unterdrückt“ und „Nicht erlaubt“ aus der Metrik „Gesendet“ des E-Mail-Berichts ausgeschlossen werden. [Mehr dazu](../reports/global-report.md)
+* Es wurden Hinweise zu den Abschnitten „Unterdrückungsliste“, „Zulassungsliste“ und „Globaler/Live-Bericht zum E-Mail-Versand“ hinzugefügt, in denen erläutert wird, dass Profile mit dem Status „Unterdrückt“ und „Nicht erlaubt“ aus der Metrik „Gesendet“ des E-Mail-Berichts ausgeschlossen werden. [Mehr dazu](../reports/report-gs-cja.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domains abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](../configuration/allow-list.md#reporting)
 * Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](../configuration/allow-list.md#enable-allow-list)
 * Der Abschnitt „Überwachen von Nachrichtenvoreinstellungen“ wurde mit möglichen Ursachen für eine fehlgeschlagene Durchführung von Voreinstellungen sowie den Fehlerdetails ergänzt. [Mehr dazu](../configuration/channel-surfaces.md#monitor-channel-surfaces)

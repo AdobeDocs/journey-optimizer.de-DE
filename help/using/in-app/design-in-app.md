@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -243,7 +243,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 **Verwandte Themen:**
 
 * [Erstellen einer In-App-Nachricht](create-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 * [In-App-Konfiguration](inapp-configuration.md)
 
 ## Anleitungsvideo{#video}

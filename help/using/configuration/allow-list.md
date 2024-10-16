@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 99%
+source-wordcount: '1145'
+ht-degree: 98%
 
 ---
 
@@ -201,7 +201,7 @@ Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende 
 >
 >Die Profile mit dem Status **[!UICONTROL Nicht zugelassen]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Zielgruppe lesen](../building-journeys/read-audience.md) und [Nachrichten](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [globalen Bericht](../reports/global-report.md).
+>Erfahren Sie mehr über den Bericht [Live-Bericht](../reports/live-report.md) und den Bericht [Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list) ist, werden alle E-Mails, die Sie aus der aktuellen Sandbox senden, an alle Empfänger gesendet (sofern sie nicht auf der Unterdrückungsliste stehen), einschließlich der tatsächlichen Kundenadressen.
 

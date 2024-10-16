@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '2009'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -256,5 +256,5 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
 * [Testen und Senden der In-App-Nachricht](send-in-app.md)
-* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+* [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
 * [In-App-Konfiguration](inapp-configuration.md)
