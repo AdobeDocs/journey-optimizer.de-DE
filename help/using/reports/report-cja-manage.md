@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 92%
+source-wordcount: '1089'
+ht-degree: 78%
 
 ---
 
@@ -72,51 +72,51 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt, heruntergeladen oder freige
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## Export planen {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+Mit dem Befehl **Export planen** können Sie die Bereitstellung von bis zu 10 Berichten in wöchentlichen, monatlichen oder jährlichen Abständen automatisieren. Sie können Ihre terminierten Berichte auch einfach verwalten, mit Optionen zum Aktualisieren, Bearbeiten, Abbrechen oder Löschen Ihrer geplanten Exporte.
+
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigabe]** und wählen Sie **[!UICONTROL Export planen]** aus.
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. Wählen Sie Ihren **[!UICONTROL Dateityp]** zwischen CSV und PDF aus.
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. Bei Bedarf können Sie Ihrem Export eine **[!UICONTROL Beschreibung]** hinzufügen.
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. Geben Sie den Namen der Empfänger an, die diesen automatisierten Versand erhalten.
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. Wählen Sie die **[!UICONTROL Häufigkeit]** aus.
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. Geben Sie je nach ausgewählter Häufigkeit die entsprechenden Planungsdetails an, z. B.:
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * Start- und Enddatum
 
-   * Specific day of the week
-   
-   * Week within the month
+   * Intervall (z. B. alle paar Wochen)
 
-   * Day within the month
-   
-   * Month of the year
+   * Bestimmter Wochentag
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * Woche innerhalb des Monats
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * Tag innerhalb des Monats
+
+   * Monat des Jahres
+
+1. Klicken Sie auf **[!UICONTROL Planmäßig senden]**.
+
+1. Um den zuvor erstellten geplanten Export zu bearbeiten, klicken Sie auf **[!UICONTROL Freigabe]** und wählen Sie **[!UICONTROL Zeitpläne verwalten]** aus.
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. Wählen Sie aus der Liste der geplanten Exporte den zu aktualisierenden aus und nehmen Sie die erforderlichen Änderungen vor.
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. Um einen terminierten Bericht zu löschen, wählen Sie einen aus der Liste der verwalteten Zeitpläne aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## Erstellen einer einfachen Metrik {#create-simple-metric}
 
