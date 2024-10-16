@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5672'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite **Konfigurieren des code-basierten Erlebnisses** wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Webkanalkonfiguration erstellen** wurde aktualisiert, um die Schritte beim Erstellen einer Seitenvergleichsregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zur bevorstehenden TTL-Schutzdauer (Time-to-Live) für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
-
-
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option Vorschau auf Gerät anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/create-code-based.md#preview-on-device)
+* Eine neue Seite wurde hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für Entscheidungen genutzt werden können - [Mehr dazu](../offers/custom-upload-decisioning.md)
 
 ## September 2024 {#sept-2024}
 
