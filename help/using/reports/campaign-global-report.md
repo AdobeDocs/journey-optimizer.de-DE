@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '4539'
+source-wordcount: '4552'
 ht-degree: 99%
 
 ---
@@ -47,6 +47,10 @@ Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unt
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](global-report.md#list-of-components-global.md)
 
 ## Registerkarte „Kampagne“ {#campaign-global}
+
+>[!NOTE]
+>
+>Der Experimentationsbericht ist ausschließlich in Customer Journey Analytics-Berichten verfügbar. [Weitere Informationen](campaign-global-report-cja-experimentation.md)
 
 ### Versand {#delivery-global}
 
