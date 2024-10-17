@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
 
 Mit [!DNL Journey Optimizer] können Sie das Web-Erlebnis personalisieren, das Sie Ihren Kunden über eingehende Journey oder Kampagnen bereitstellen.
 
-## Hinzufügen eines Web-Erlebnisses über eine Journey oder Kampagne {#create-web-experience}
+## Hinzufügen eines Web-Erlebnisses über eine Journey oder eine Kampagne {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -97,7 +97,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
 >[!ENDTABS]
 
-## Weberlebnis testen {#test-web-experience}
+## Testen des Web-Erlebnisses {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"

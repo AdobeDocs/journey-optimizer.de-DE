@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 77%
+ht-degree: 83%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Integrierte Kanalaktion"
->abstract="Journey Optimizer verfügt über integrierte Kanalaktionsfunktionen. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende (In-App-, Web-, Code-basierte Erlebnis-, Inhaltskarten-) Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>abstract="Journey Optimizer verfügt über integrierte Kanalaktionsfunktionen. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende Aktivität (In-App-Nachricht, Web-Aktivität, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrer Journey hinzufügen und Einstellungen und Inhalt festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
-[!DNL Journey Optimizer] verfügt über integrierte Aktionsfunktionen für Kanäle. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende (In-App-, Web-, Code-basierte Erlebnis-, Inhaltskarten-) Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Aktionsfunktionen für Kanäle. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende Aktivität (In-App-Nachricht, Web-Aktivität, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrer Journey hinzufügen und Einstellungen und Inhalt festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 >[!NOTE]
 >

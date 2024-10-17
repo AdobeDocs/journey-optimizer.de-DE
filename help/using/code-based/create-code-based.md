@@ -124,7 +124,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
 Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
 
-## Testen des code-basierten Erlebnisses {#test-code-based-experience}
+## Testen des Code-basierten Erlebnisses {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
