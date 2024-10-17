@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version vom 24. September]
+>[!TAB Version September 2024]
 
-Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile Apps und Websites, Richtlinien für Genehmigungen in Journey und Kampagnen (LA), globalen Ausstiegskriterien in Journey und mehr.
+Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile Apps und Websites, Genehmigungsrichtlinien in Journeys und Kampagnen (LA), globalen Ausstiegskriterien in Journeys und mehr.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -32,7 +32,7 @@ Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile A
 
 [![Weitere Informationen](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Berichterstellung mit CJA]
+>[!TAB Reporting mit CJA]
 
 Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit Customer Journey Analytics-Funktionen, wodurch die Berichterstellung plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. 
 

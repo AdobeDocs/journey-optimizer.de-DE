@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die
 
 >[!NOTE]
 >
->In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies jedoch erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
+>In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
 Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
 
@@ -96,7 +96,7 @@ Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journe
 
 1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
 
-Ab dem Zeitpunkt der Veröffentlichung der Journey treten Personen in die neueste Version der Journey ein.  Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Wenn sie später wieder dieselbe Journey eingeben, werden sie in die neueste Version aufgenommen.
+Ab dem Zeitpunkt der Veröffentlichung der Journey treten Personen in die neueste Version der Journey ein.  Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Bei einem späteren erneuten Eintritt in dieselbe Journey treten sie in die neueste Version ein.
 
 Journey-Versionen können einzeln angehalten werden. Alle Versionen einer Journey haben denselben Namen.
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
@@ -24,36 +24,36 @@ ht-degree: 34%
 
 ## Erste Schritte mit Data Governance-Richtlinien {#gs}
 
-Mit dem DULE-Framework (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){_blank} können Sie mit Adobe Experience Platform kanalübergreifende Data Governance-Richtlinien verwalten und durchsetzen, indem Sie Ihre Felder **beschriften und** Marketing-Aktionen **für jeden Kanal erstellen.[**
+Mit dem Governance-Framework [Data Usage Labelling and Enforcement (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){_blank} ermöglicht Ihnen Adobe Experience Platform die Verwaltung und Durchsetzung kanalübergreifender Data Governance-Richtlinien, indem Sie **Ihre Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
 
-Sobald Beschriftungen und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die eine ePHI-Bezeichnung mit einer Marketing-Aktion &quot;E-Mail-Zielgruppenbestimmung&quot;verknüpft, um sicherzustellen, dass keine mit &quot;ePHI&quot;gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Erfahren Sie, wie Sie Data Governance-Richtlinien erstellen](#governance-policies)
+Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#governance-policies)
 
-Nachdem Sie die Governance-Richtlinien erstellt haben, können Sie die Marketing-Aktionen auf Ihre Journey/Kampagnen und benutzerdefinierten Aktionen für Journey anwenden.
-[Erfahren Sie, wie Sie Marketing-Aktionen in Journey Optimizer anwenden](#apply-marketing-actions)
+Nachdem Sie die Governance-Richtlinien erstellt haben, können Sie die Marketing-Aktionen auf Ihre Journeys/Kampagnen und benutzerdefinierten Journey-Aktionen anwenden.
+[Informationen zur Anwendung von Marketing-Aktionen in Journey Optimizer](#apply-marketing-actions)
 
-Beim Erstellen einer Journey oder Kampagne überprüft das System nach Auswahl einer Kanalkonfiguration oder Hinzufügen einer benutzerdefinierten Aktion, ob die Marketing-Aktion in der Konfiguration des Nachrichtenkanals oder die benutzerdefinierte Aktion Teil einer Data Governance-Richtlinie ist. In diesem Fall prüft das System, ob Felder aus der Zielgruppe oder der Nachrichtenpersonalisierung durch die Richtlinie gekennzeichnet und eingeschränkt werden. Wenn eine solche Bezeichnung erkannt wird, wird die Veröffentlichung der Journey oder Kampagne blockiert. [Erfahren Sie, wie Sie Verstöße gegen Data Governance-Richtlinien erkennen](#violation)
+Beim Erstellen einer Journey oder Kampagne überprüft das System nach Auswahl einer Kanalkonfiguration oder nach Hinzufügen einer benutzerdefinierten Aktion, ob die Marketing-Aktion in der Nachrichtenkanalkonfiguration oder die benutzerdefinierte Aktion Teil einer Data Governance-Richtlinie ist. In diesem Fall prüft das System, ob Felder aus der Zielgruppe oder der Nachrichtenpersonalisierung durch die Richtlinie gekennzeichnet und eingeschränkt werden. Wenn ein solches Label erkannt wird, wird die Veröffentlichung der Journey oder Kampagne blockiert. [Informationen zur Erkennung von Verstößen gegen Data Governance-Richtlinien](#violation)
 
-## Erstellen von Bezeichnungen und Marketing-Aktionen {#labels-marketing-actions}
+## Erstellen von Labels und Marketing-Aktionen {#labels-marketing-actions}
 
-Der erste Schritt zur Durchsetzung von Data Governance-Richtlinien besteht darin, Beschriftungen zu erstellen und sie an Felder anzuhängen, für die Sie die Nutzung einschränken möchten, sowie Marketing-Aktionen für jeden Ihrer Kanäle.
+Der erste Schritt zur Durchsetzung von Data Governance-Richtlinien besteht darin, Labels zu erstellen und sie an Felder anzuhängen, für die Sie die Nutzung einschränken möchten, sowie Marketing-Aktionen für jeden Ihrer Kanäle zu erstellen.
 
 1. Klicken Sie im linken Menü unter **Datenschutz** auf **Richtlinien**.
 
 1. Wählen Sie die Registerkarte **Bezeichnungen** und klicken Sie auf **Bezeichnung erstellen**.
 
-1. Definieren Sie einen Namen und einen Anzeigenamen für Ihre Bezeichnung. Beispiel: _ePHI1_.
+1. Legen Sie einen Namen und einen Anzeigenamen für das Label fest. Beispiel: _ePHI1_.
 
-1. Klicken Sie im linken Menü unter **Daten-Management** auf **Schemata** und dann auf die Schaltfläche **Anwenden von Zugriffs- und Data Governance-Beschriftungen**. Wählen Sie Ihr Schema und Ihr Feld aus (z. B. &quot;Bluttyp&quot;) und wählen Sie die zuvor erstellte Bezeichnung _ePHI1_ in unserem Beispiel aus.
+1. Klicken Sie im linken Menü unter **Daten-Management** auf **Schemata** und dann auf die Schaltfläche **Anwenden von Zugriffs- und Data Governance-Beschriftungen**. Wählen Sie Ihr Schema und Ihr Feld (z. B. „Blutgruppe“) aus sowie das zuvor erstellte Label, in unserem Beispiel _ePHI1_.
 
    ![](assets/action-privacy3.png)
 
-1. Gehen Sie zurück zum Menü **Richtlinien**, wählen Sie die Registerkarte **Marketing-Aktion** und klicken Sie auf **Marketing-Aktion erstellen**. Es wird empfohlen, für jeden Kanal eine Marketing-Aktion und für jede benutzerdefinierte Aktion eines Drittanbieters zu erstellen, die in Ihren Journey verwendet wird. Erstellen wir beispielsweise eine _Slack-Marketing-Aktion_, die für Ihre benutzerdefinierte Slack-Aktion verwendet wird.
+1. Gehen Sie zurück zum Menü **Richtlinien**, wählen Sie die Registerkarte **Marketing-Aktion** und klicken Sie auf **Marketing-Aktion erstellen**. Es wird empfohlen, für jeden Kanal und jede benutzerdefinierte Aktion eines Drittanbieters, die in Ihren Journeys verwendet wird, eine Marketing-Aktion zu erstellen. Erstellen wir beispielsweise eine _Slack-Marketing-Aktion_, die für Ihre benutzerdefinierte Slack-Aktion verwendet wird.
 
    ![](assets/action-privacy4.png)
 
 ## Erstellen einer Data Governance-Richtlinie {#policy}
 
-Nachdem Bezeichnungen und Marketing-Aktionen erstellt wurden, können Sie sie mit Data Governance-Richtlinien verknüpfen. Wählen Sie dazu die Registerkarte **Durchsuchen**, klicken Sie auf **Richtlinie erstellen** und wählen Sie **Data Governance-Richtlinie** aus. Wählen Sie Ihre Bezeichnung (_ePHI1_) und Marketing-Aktion (_Slack-Marketing-Aktion_) aus.
+Nachdem Labels und Marketing-Aktionen erstellt wurden, können Sie sie gemeinsam zu Data Governance-Richtlinien verknüpfen. Wählen Sie dazu die Registerkarte **Durchsuchen** aus, klicken Sie auf **Richtlinie erstellen** und wählen Sie **Data Governance-Richtlinie** aus. Wählen Sie Ihre Bezeichnung (_ePHI1_) und Marketing-Aktion (_Slack-Marketing-Aktion_) aus.
 
 ![](assets/action-privacy5.png)
 
@@ -61,17 +61,17 @@ Wenn Sie in einer Journey Ihre benutzerdefinierte Aktion für Slack verwenden, d
 
 ## Anwenden von Marketing-Aktionen in Journey Optimizer {#apply-marketing-actions}
 
-Damit Data Governance-Richtlinien in Journey Optimizer durchgesetzt werden können, müssen Sie Marketing-Aktionen auf Ihre Journey, Kampagnen oder benutzerdefinierten Aktionen anwenden.
+Damit Data Governance-Richtlinien in Journey Optimizer durchgesetzt werden können, müssen Sie Marketing-Aktionen auf Ihre Journeys, Kampagnen oder benutzerdefinierten Aktionen anwenden.
 
-### Anwenden von Marketing-Aktionen auf Journey und Kampagnen {#journeys-campaigns}
+### Anwenden von Marketing-Aktionen auf Journeys und Kampagnen {#journeys-campaigns}
 
-Nachdem Sie Governance-Richtlinien erstellt haben, müssen Sie die entsprechenden Marketing-Aktionen in Ihren Journey Optimizer **Kanalkonfigurationen** anwenden. Gehen Sie dazu wie folgt vor:
+Nachdem Sie Governance-Richtlinien erstellt haben, müssen Sie die entsprechenden Marketing-Aktionen in Ihren **Kanalkonfigurationen** in Journey Optimizer anwenden. Gehen Sie dazu wie folgt vor:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf.
+1. Greifen Sie auf das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** zu.
 
 1. Öffnen Sie eine vorhandene Kanalkonfiguration oder erstellen Sie eine neue.
 
-1. Wählen Sie im Feld **[!UICONTROL Marketing-Aktion]** die Marketing-Aktion(n) aus, die den Journey/Kampagnen, die diese Konfiguration verwenden, zugeordnet werden sollen. Alle Einverständniserklärungen und Data Governance-Richtlinien, die mit der Marketing-Aktion verknüpft sind, werden genutzt, um die Voreinstellungen Ihrer Kunden und die für sensible Felder festgelegten Einschränkungen zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie im Feld **[!UICONTROL Marketing-Aktion]** die Marketing-Aktion(en) aus, die mit den Journeys/Kampagnen, die diese Konfiguration verwenden, verknüpft werden soll(en). Alle Einverständnis- und Data Governance-Richtlinien, die mit der Marketing-Aktion verknüpft sind, werden genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden und die für Felder mit sensiblen Daten festgelegten Einschränkungen zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
    ![](../privacy/assets/governance-channel-configuration.png)
 
@@ -81,19 +81,19 @@ Nachdem Sie Governance-Richtlinien erstellt haben, müssen Sie die entsprechende
 
 Vor der Aktivierung der Journey oder Kampagne überprüft das System, ob die Marketing-Aktion in der ausgewählten Kanalkonfiguration Teil einer Data Governance-Richtlinie ist. In diesem Fall prüft das System, ob Felder aus der Zielgruppe oder der Nachrichtenpersonalisierung durch die Richtlinie gekennzeichnet und eingeschränkt werden.
 
-Wenn das System ein eingeschränktes Feld identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung der Journey oder der Kampagne verhindert. [Erfahren Sie, wie Sie Verstöße gegen die Governance-Richtlinien erkennen](#violation)
+Wenn das System ein eingeschränktes Feld identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung der Journey oder der Kampagne verhindert. [Informationen zur Erkennung von Verstößen gegen Governance-Richtlinien](#violation)
 
 ![](assets/governance-policy-schema.png){zoomable="yes"}
 
-*Analysieren von Richtlinienverstößen für Journey und Kampagnen*
+*Analyseschritte für Richtlinienverstößen für Journeys und Kampagnen*
 
 ### Anwenden von Marketing-Aktionen auf benutzerdefinierte Aktionen {#custom-actions}
 
 >[!NOTE]
 >
->Aktionen vom Typ Campaign v7/v8 und Campaign Standard-Journey werden nicht unterstützt.
+>Journey-Aktionen von Campaign v7/v8 und Campaign Standard werden nicht unterstützt.
 
-Nehmen wir als Beispiel das Feld Bluttyp , dessen Export durch benutzerdefinierte Aktionen auf einen Drittanbieter beschränkt werden soll. Dazu müssen Sie die Marketing-Aktion auf Ihre benutzerdefinierte Aktion anwenden, dann Ihre Journey erstellen und Ihre benutzerdefinierte Aktion darin hinzufügen.
+Nehmen wir als Beispiel das Feld „Bluttyp“, dessen Export auf einen Drittanbieter durch benutzerdefinierte Aktionen beschränkt werden soll. Dazu müssen Sie die Marketing-Aktion auf Ihre benutzerdefinierte Aktion anwenden, dann Ihre Journey erstellen und Ihre benutzerdefinierte Aktion dort hinzufügen.
 
 1. Klicken Sie im linken Menü unter **Administration** auf **Konfigurationen** und wählen Sie **Aktionen** aus.
 
@@ -107,30 +107,30 @@ Nehmen wir als Beispiel das Feld Bluttyp , dessen Export durch benutzerdefiniert
 
    Die anderen Schritte zum Konfigurieren einer benutzerdefinierten Aktion werden in [diesem Abschnitt](../action/about-custom-action-configuration.md#consent-management) ausführlicher behandelt.
 
-1. Klicken Sie im linken Menü unter **Journey-Verwaltung** auf **Journey**.
+1. Klicken Sie im linken Menü unter **Journey-Management** auf **Journeys**.
 
-1. Erstellen Sie Ihre Journey und fügen Sie Ihre benutzerdefinierte Aktion hinzu. Beim Hinzufügen der benutzerdefinierten Aktion zu einer Journey können Sie die Data Governance mit verschiedenen Optionen verwalten. Klicken Sie auf **Schreibgeschützte Felder anzeigen**, um alle Parameter anzuzeigen.
+1. Erstellen Sie eine Journey und fügen Sie Ihre benutzerdefinierte Aktion hinzu. Beim Hinzufügen der benutzerdefinierten Aktion zu einer Journey können Sie die Data Governance mit verschiedenen Optionen verwalten. Klicken Sie auf **Schreibgeschützte Felder anzeigen**, um alle Parameter anzuzeigen.
 
    ![](assets/action-privacy7.png)
 
    * Der **Kanal** und die **Erforderliche Marketing-Aktion**, die bei der Konfiguration der benutzerdefinierten Aktion definiert wurden, werden oben im Bildschirm angezeigt. Sie können diese Felder nicht ändern.
 
-   * Sie können eine **Zusätzliche Marketing-Aktion** definieren, um den Typ der benutzerdefinierten Aktion festzulegen. Auf diese Weise können Sie den Zweck der benutzerdefinierten Aktion in dieser Journey definieren. Zusätzlich zur erforderlichen Marketing-Aktion, die normalerweise kanalspezifisch ist, können Sie eine zusätzliche Marketing-Aktion definieren, die speziell für die benutzerdefinierte Aktion in dieser bestimmten Journey gilt. Beispiel: eine Workout-Kommunikation, ein Newsletter, eine Fitness-Kommunikation usw. Es gelten sowohl die erforderliche Marketing-Aktion als auch die zusätzliche Marketing-Aktion. In unserem Beispiel verwenden wir keine zusätzliche Marketing-Aktion.
+   * Sie können eine **Zusätzliche Marketing-Aktion** definieren, um den Typ der benutzerdefinierten Aktion festzulegen. Auf diese Weise können Sie den Zweck der benutzerdefinierten Aktion in dieser Journey definieren. Zusätzlich zur erforderlichen Marketing-Aktion, die normalerweise kanalspezifisch ist, können Sie eine zusätzliche Marketing-Aktion definieren, die speziell für die benutzerdefinierte Aktion in dieser bestimmten Journey gilt. Beispiel: eine Workout-Kommunikation, ein Newsletter, eine Fitness-Kommunikation usw. Sowohl die erforderliche Marketing-Aktion als auch die zusätzliche Marketing-Aktion kommen zur Anwendung. In unserem Beispiel verwenden wir keine zusätzliche Marketing-Aktion.
 
-Wenn eines der Felder mit der Bezeichnung _ePHI1_ (im vorliegenden Beispiel das Feld für den Bluttyp) in den Aktionsparametern erkannt wird, wird ein Fehler angezeigt, der die Veröffentlichung der Journey verhindert. [Erfahren Sie, wie Sie Verstöße gegen die Governance-Richtlinien erkennen](#violation)
+Wenn eines der mit _ePHI1_ gekennzeichneten Felder (im vorliegenden Beispiel das Feld „Blutgruppe“) in den Aktionsparametern erkannt wird, wird ein Fehler angezeigt, der die Veröffentlichung der Journey verhindert. [Informationen zur Erkennung von Verstößen gegen Governance-Richtlinien](#violation)
 
 ![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
-*Analysieren von Richtlinienverstößen für benutzerdefinierte Aktionen von Journey*
+*Analyseschritte für Richtlinienverstößen für Journeys und Kampagnen*
 
-## Richtlinienverstoß erkennen {#violation}
+## Erkennung von Richtlinienverstößen {#violation}
 
-Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion identifiziert, wird ein Fehler angezeigt, der die Veröffentlichung verhindert.
+Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion erkennt, wird ein Fehler angezeigt, der die Veröffentlichung verhindert.
 
-Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Klicken Sie auf den Fehler, um detaillierte Informationen über die Verstöße gegen Data Governance-Richtlinien anzuzeigen.
+Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Klicken Sie auf den Fehler, um detaillierte Informationen zu den Verstößen gegen Data Governance-Richtlinien anzuzeigen.
 
 ![](assets/action-privacy8.png)
 
-Dieses Dialogfeld weist darauf hin, dass die aktuelle Journey-/Kampagnenkonfiguration eine bestehende Data Governance-Richtlinie verletzt. Verwenden Sie das Datenherstellungsdiagramm, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können.
+Dieses Dialogfeld weist darauf hin, dass die aktuelle Journey-/Kampagnenkonfiguration gegen eine bestehende Data Governance-Richtlinie verstößt. Verwenden Sie das Datenherkunftsdiagramm, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können.
 
-Detaillierte Informationen finden Sie in der Dokumentation zu [Verstößen gegen Datennutzungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Detaillierte Informationen finden Sie in der [Dokumentation zu Verstößen gegen Datennutzungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

@@ -1,13 +1,13 @@
 ---
-title: Erste Schritte mit der Inhaltskarte
-description: Informationen zur Inhaltskarte in Journey Optimizer
+title: Erste Schritte mit Inhaltskarten
+description: Informationen zu Inhaltskarten in Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 <a href="content-card-configuration.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
 </a>
-<div><a href="content-card-configuration.md"><strong>Kanal für Inhaltskarten konfigurieren</strong>
+<div><a href="content-card-configuration.md"><strong>Konfigurieren des Inhaltskartenkanals</strong>
 </div>
 <p>
 </td>

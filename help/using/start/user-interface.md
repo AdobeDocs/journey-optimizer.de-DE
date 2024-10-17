@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Konfigurationen]** – Verwenden Sie dieses Menü, um [Ereignisse](../event/about-events.md), [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) zu konfigurieren, die Sie in Ihren Journeys verwenden können.
 
-  Sie können auch auf den Abschnitt **Berichterstellung** zugreifen, um die Berichterstellung für die Kampagnenexperimentierung und das Web/Mobilgerät zu konfigurieren. [Weitere Informationen](../reports/reporting-configuration.md)
+  Sie können auch auf den Abschnitt **Reporting** zugreifen, um das Reporting für das Experimentieren mit Kampagnen und für Web/Mobile zu konfigurieren. [Weitere Informationen](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Verfahrensregeln]**: Verwenden Sie diesen Abschnitt, um kanalübergreifende Verfahrensregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder in eine Journey eintreten. [Weitere Informationen](../configuration/frequency-rules.md)
 
@@ -281,8 +281,8 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
->title="Genehmigung anfordern"
->abstract="Genehmigung anfordern"
+>title="Anfragen einer Genehmigung"
+>abstract="Anfragen einer Genehmigung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"
