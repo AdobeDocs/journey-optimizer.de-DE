@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
+source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1674'
 ht-degree: 47%
 
 ---
@@ -238,7 +238,7 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 
 * **Frequenzlimitierung nach Kampagne oder Journey** - Sie können jetzt Frequenzregeln erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.
 
-* **Prioritätsbewertung** - Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey dieselbe Oberfläche verwenden, wählt Journey Optimizer die mit der höchsten Priorität aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde. Die Prioritätsbewertung ist für alle eingehenden Kanäle in Kampagnen und für den In-App-Kanal in Journey verfügbar.
+* **Prioritätsbewertung** - Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde. Die Prioritätsbewertung ist für alle eingehenden Kanäle in Kampagnen und für den In-App-Kanal in Journey verfügbar.
 
 * **Konflikte anzeigen** - Mit der neuen Schaltfläche **Konflikte anzeigen** in Journey und Kampagnen können Sie jetzt überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen wie dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration auftreten können.
 
@@ -249,7 +249,7 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 
 **Konfiguration**
 
-* **Personalisierung der Benutzeroberfläche** - Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie jetzt eine Vorschau Ihres E-Mail-Inhalts anzeigen, um mit den von Ihnen definierten dynamischen Einstellungen nach potenziellen Fehlern zu suchen.
+* **Personalisierung der Kanalkonfiguration** - Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie jetzt eine Vorschau Ihres E-Mail-Inhalts anzeigen, um mit den von Ihnen definierten dynamischen Einstellungen nach potenziellen Fehlern zu suchen.
 
 **Journeys**
 
