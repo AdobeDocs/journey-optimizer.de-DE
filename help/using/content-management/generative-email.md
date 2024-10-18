@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generierung von E-Mails mit dem KI-Assistenten in Journey Optimizer – Content Accelerator
-description: Generieren Sie E-Mail-Inhalte und -Assets mit dem KI-Assistenten in Journey Optimizer für Content Acceleration
+description: Beginnen Sie mit der Generierung von E-Mail-Inhalten und -Assets mit dem AI Assistant Content Accelerator in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: ht
-source-wordcount: '1606'
-ht-degree: 100%
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 83%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 100%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI Assistant Content Accelerator in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nachdem Sie Ihre E-Mails erstellt und personalisiert haben, können Sie die Leistung des KI-Assistenten im Journey Optimizer zur Content Acceleration nutzen, der von generativer KI angetrieben wird, um Ihre Inhalte zu verbessern.
+Nachdem Sie Ihre E-Mails erstellt und angepasst haben, nutzen Sie die Funktionen des AI Assistant Content Accelerator in Journey Optimizer, der durch generative KI unterstützt wird, um Ihre Inhalte zu verbessern.
 
-Verwenden Sie den KI-Assistenten in Journey Optimizer für Content Acceleration, um die Effektivität Ihrer Kampagnen zu steigern, indem Sie vollständige E-Mails, maßgeschneiderte Textfragmente und benutzerdefinierte Bilder erstellen, die direkt Ihre Zielgruppe ansprechen, wodurch Interaktionen gefördert werden.
+Verwenden Sie den AI Assistant Content Accelerator in Journey Optimizer, um die Effektivität Ihrer Kampagnen zu steigern, indem Sie vollständige E-Mails, maßgeschneiderte Textausschnitte und benutzerdefinierte Bilder erstellen, die direkt zu Ihrer Zielgruppe sprechen, und so die Interaktion und Interaktion fördern.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI Assistant Content Accelerator in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Vollständige E-Mail-Generierung]
 
-Im folgenden Beispiel nutzen wir den KI-Assistenten für Content Acceleration, um eine vorhandene E-Mail-Vorlage zu verfeinern.
+Im folgenden Beispiel wird der AI Assistant Content Accelerator verwendet, um eine vorhandene E-Mail-Vorlage zu verfeinern.
 
 1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -44,7 +44,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten für Content Acceleration, u
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten für Content Acceleration die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Ursprünglichen Inhalt verwenden]** für den Inhaltsbeschleuniger des AI-Assistenten, um neuen Inhalt basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -101,7 +101,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 >[!TAB Nur Textgenerierung]
 
-Im folgenden Beispiel werden wir den KI-Assistenten für Content Acceleration nutzen, um den Inhalt unserer E-Mail zu verbessern.
+Im folgenden Beispiel wird der AI Assistant Content Accelerator verwendet, um den Inhalt unserer E-Mail zu verbessern.
 
 1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -111,7 +111,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten für Content Acceleration nu
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Originalinhalt verwenden]** für den KI-Assistenten für Content Acceleration, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Ursprünglichen Inhalt verwenden]** für den Inhaltsbeschleuniger des AI-Assistenten, um neuen Inhalt basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -163,19 +163,19 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 >[!TAB Nur Bildgenerierung]
 
-Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten für Content Acceleration nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
+Im folgenden Beispiel erfahren Sie, wie Sie den AI Assistant Content Accelerator nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
 1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
    Weitere Informationen zur Konfiguration Ihrer E-Mail-Kampagne finden Sie auf [dieser Seite](../email/create-email.md).
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten für Content Acceleration ändern möchten.
+1. Wählen Sie mit dem AI Assistant Content Accelerator das Asset aus, das Sie ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den KI-Assistenten für Content Acceleration, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den AI Assistant Content Accelerator, um neuen Inhalt basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -219,6 +219,6 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten für Content Acce
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für Content Acceleration nutzen können, um ganze E-Mails, Texte oder Bilder zu erstellen.
+Erfahren Sie, wie Sie mit dem AI Assistant Content Accelerator in Journey Optimizer vollständige E-Mails, Texte oder Bilder generieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

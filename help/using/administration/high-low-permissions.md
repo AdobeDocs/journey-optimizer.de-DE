@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## KI-Assistent-Ressource {#ai-permissions}
 
-* Die Berechtigung auf hoher Ebene **[!DNL Generate content]** ermöglicht Benutzenden den Zugriff auf den KI-Assistenten in Journey Optimizer für Content Acceleration.
+* **[!DNL Generate content]** Berechtigung auf hoher Ebene ermöglicht Benutzern den Zugriff auf den AI Assistant Content Accelerator in Journey Optimizer.
 
 +++ Er umfasst die folgende Berechtigung auf niedriger Ebene:
 

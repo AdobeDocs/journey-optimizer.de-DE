@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 95%
 
 ---
 
@@ -122,7 +122,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sobald Sie Ihre Nachricht erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer für Content Acceleration auf die nächste Stufe führen. Sie können jetzt den KI-Assistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
+<p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, stellen Sie mit dem AI Assistant Content Accelerator in Journey Optimizer Ihren Inhalt auf die nächste Stufe. Sie können jetzt den KI-Assistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
 <p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> auf praktische Weise vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/gs-generative.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inhaltsexperiment mit dem KI-Assistenten in Journey Optimizer – Content Accelerator
-description: Inhaltsexperiment mit dem KI-Assistenten in Journey Optimizer für Content Acceleration
+description: Inhaltsexperiment mit dem AI Assistant Content Accelerator in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '267'
+ht-degree: 73%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI Assistant Content Accelerator in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer für Content Acceleration, der die Inhaltsexperiment-Funktion umfasst, auf die nächste Stufe bringen.  Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, heben Sie Ihre Inhalte mit dem AI Assistant Content Accelerator in Adobe Journey Optimizer auf, der die Funktion &quot;Inhaltserstellung&quot;enthält. Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
 
-1. Erstellen Sie Ihre Kampagne und generieren Sie Varianten mit dem KI-Assistenten zur Content Acceleration.
+1. Erstellen Sie Ihre Kampagne und generieren Sie mit dem AI Assistant Content Accelerator Ihre Varianten.
 
    In diesem Beispiel haben wir eine Bestätigungs-E-Mail für ein Abonnement mit einem Angebots-Code generiert.
 

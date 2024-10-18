@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS-Generierung mit dem KI-Assistenten
-description: Beginnen Sie mit der Generierung von SMS-Inhalten mit dem KI-Assistenten in Journey Optimizer für Content Acceleration.
+description: Beginnen Sie mit der Generierung von SMS-Inhalten mit dem AI Assistant Content Accelerator in Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den AI Assistant Content Accelerator in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nach der Erstellung und Anpassung Ihrer SMS-Nachrichten an die Vorlieben Ihrer Zielgruppe sollten Sie Ihre Kommunikation mit dem KI-Assistenten in Journey Optimizer für Content Acceleration intensivieren.
+Nachdem Sie Ihre SMS-Nachrichten erstellt und an die Vorlieben Ihrer Zielgruppe angepasst haben, verbessern Sie Ihre Kommunikation mit dem AI Assistant Content Accelerator in Journey Optimizer.
 
 Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ihres Inhalts, die dazu beitragen, dass Ihre Nachrichten Resonanz finden und maximale Interaktion fördern.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für Content Acceleration verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den AI Assistant Content Accelerator in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten für Content Acceleration die Option **[!UICONTROL Referenzinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den AI Assistant Content Accelerator, um neuen Inhalt basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
