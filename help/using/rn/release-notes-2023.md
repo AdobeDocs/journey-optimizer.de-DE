@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2023 veröffentlicht wurden.
 
 
-## Version Oktober 23 {#oct-rn-2023}
+## Version Oktober 2023 {#oct-rn-2023}
 
 ### Neue Funktionen{#oct-2023-features}
 
@@ -87,7 +87,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Diese Verbesserung wurde eingeführt, um zu verhindern, dass Wartezeiten die Journey-Lebensdauer von 30 Tagen überschreiten. Dies gilt für:
 
    * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
-   * die **Wartezeit für den erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-properties.md#entrance)
+   * die **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-properties.md#entrance)
    * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -101,7 +101,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Version September 23 {#sept-rn-2023}
+## Version September 2023 {#sept-rn-2023}
 
 ### Neue Funktionen{#sept-2023-features}
 
@@ -233,7 +233,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## Version vom 23. August {#aug-rn-2023}
+## Version August 2023 {#aug-rn-2023}
 
 ### Neue Funktionen{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## Version vom 23. Juli {#july-rn-2023}
+## Version Juli 2023 {#july-rn-2023}
 
 ### Neue Funktionen{#july-2023-features}
 
@@ -446,7 +446,7 @@ Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt 
 
 
 
-## Version vom 23. Juni {#june-rn-2023}
+## Version Juni 2023 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## Version vom 23. Mai {#may-rn-2023}
+## Version Mai 2023 {#may-rn-2023}
 
 ### Neue Funktionen{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * In-App-Nachrichten – Es wurde ein Problem behoben, bei dem die Planung von Kampagnen mit den Häufigkeitseinstellungen für Nachrichten in Konflikt stand.
 
 
-## Version vom 23. April {#apr-rn-2023}
+## Version April 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## Version März 23 {#mar-2023}
+## Version März 2023 {#mar-2023}
 
 ### Neue Funktionen{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der [entsprechenden Dokumentation](../reports/report-gs-cja.md).
 
-## Version vom 23. Februar {#feb-2023}
+## Version Februar 2023 {#feb-2023}
 
 ### Neue Funktionen{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Den Journey-Eigenschaften wurde das Feld **Wartezeit für den erneuten Eintritt** hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-properties.md#entrance)
+* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-properties.md#entrance)
 
 * Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Zielgruppe lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL-Personalisierung** – Beim Hinzufügen von URLs als Inhalt zu den Darstellungen von Angeboten können diese URLs jetzt mit dem Ausdruckseditor personalisiert werden. [Weitere Informationen](../offers/offer-library/add-representations.md)
 
-## Version Januar 23 {#jan-2023-release}
+## Version Januar 2023 {#jan-2023-release}
 
 ### Neue Funktionen{#jan-2023-features}
 

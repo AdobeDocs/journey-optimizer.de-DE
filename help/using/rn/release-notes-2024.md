@@ -11,7 +11,7 @@ exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3842'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2024 veröffentlicht wurden.
 
 
-## Version vom 24. August {#8-2024}
+## Version August 2024 {#8-2024}
 
 **Veröffentlichungsdatum**: 20.–21. August 2024
 
@@ -148,7 +148,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Version vom 24. Juli {#24-7-2024}
+## Version Juli 2024 {#24-7-2024}
 
 **Veröffentlichungsdatum**: 30.–31. Juli 2024
 
@@ -199,7 +199,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Version vom 24. Juni {#24-6-2024}
+## Version Juni 2024 {#24-6-2024}
 
 **Veröffentlichungsdatum**: 18.–19. Juni 2024
 
@@ -268,7 +268,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.  Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne oder Journey zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.</p>
-<p>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -285,7 +285,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ist bereits in Kampagnen verfügbar und unterstützt jetzt Experimente in Journeys. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
-<p>Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -375,7 +375,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 
 
-## Version vom 24. Mai {#may-2024}
+## Version Mai 2024 {#may-2024}
 
 **Veröffentlichungsdatum**: 21.–22. Mai 2024
 
@@ -393,8 +393,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.</p>
-<p>Diese Entscheidungselemente sind über den neuen code-basierten Erlebniskanal, auf den jetzt in Journey Optimizer-Kampagnen zugegriffen werden kann, nahtlos in eine breite Palette eingehender Konfigurationen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.</p>
-<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Konfigurationen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.</p>
+<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/gs-experience-decisioning.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -405,14 +405,14 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Personalisierung der E-Mail-Konfiguration - Eingeschränkte Verfügbarkeit</strong><br/></th>
+<th><strong>Personalisierung der E-Mail-Konfiguration – Eingeschränkte Verfügbarkeit</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt beim Erstellen von E-Mail-Kanalkonfigurationen dynamische Subdomains und personalisierte Header-Parameter definieren, um die Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhöhen.</p>
-<p>Die Personalisierung der E-Mail-Konfiguration ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Sie können jetzt beim Erstellen von E-Mail-Kanal-Konfigurationen dynamische Subdomains und personalisierte Kopfzeilenparameter definieren, um mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhalten.</p>
+<p>Die Personalisierung der E-Mail-Konfiguration ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -524,7 +524,7 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 Im Rahmen unserer laufenden Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die Terminologie der Adobe Experience Cloud-Produkte und -Apps. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation angewendet.
 
 
-## Version vom 24. April {#apr-2024}
+## Version April 2024 {#apr-2024}
 
 **Veröffentlichungsdatum**: 02. Mai 2024
 
@@ -619,9 +619,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Konfiguration**
 
-* Jetzt können Sie eine Marketing-Aktion auf der Ebene der Kanalkonfiguration auswählen. Bei Verwendung in einer Konfiguration werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kunden zu berücksichtigen. [Mehr dazu](../action/consent.md#surface-marketing-actions)
+* Sie können jetzt eine Marketing-Aktion auf der Kanalkonfigurationsebene auswählen. Bei Verwendung in einer Konfiguration werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Mehr dazu](../action/consent.md#surface-marketing-actions)
 * Die Verwendung der Zugriffssteuerung auf Objektebene ist jetzt für Kanalkonfigurationen verfügbar. [Mehr dazu](../configuration/channel-surfaces.md#create-channel-surface)
-* Während Sie die Abmeldung von Listen in einer Kanalkonfiguration aktivieren, können Sie jetzt die Zustimmungsstufe so definieren, dass sie mit der Verwaltung der Zustimmung aus allen anderen Quellen übereinstimmt. [Weitere Informationen](../email/email-settings.md#list-unsubscribe)
+* Wenn Sie die Abmeldung von Listen in einer Kanalkonfiguration aktivieren, können Sie jetzt die Einverständnisebene so definieren, dass sie mit der Verwaltung von Einverständniserklärungen aus allen anderen Quellen übereinstimmt. [Weitere Informationen](../email/email-settings.md#list-unsubscribe)
 
 **Content-Management**
 
@@ -633,7 +633,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-## Version März 24 {#mar-2024}
+## Version März 2024 {#mar-2024}
 
 **Veröffentlichungsdatum**: 19.–20. März 2024
 
@@ -683,7 +683,7 @@ Dem Journey-Authoring-Lebenszyklus wurden neue Zwischenstatus hinzugefügt:
 
 Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt. [Weitere Informationen](../building-journeys/journey-gs.md#filter)
 
-## Version vom 24. Februar {#feb-2024}
+## Version Februar 2024 {#feb-2024}
 
 **Veröffentlichungsdatum**: 21.–22. Feb. 2024
 
@@ -769,7 +769,7 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Version Januar 24 {#jan-2024}
+## Version Januar 2024 {#jan-2024}
 
 **Veröffentlichungsdatum**: 30.–31. Jan. 2024
 

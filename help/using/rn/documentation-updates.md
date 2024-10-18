@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
 source-wordcount: '5672'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,10 +29,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## September 2024 {#sept-2024}
 
-* Alle neuen Funktionen und Verbesserungen der Version [!DNL Journey Optimizer] vom 24. September wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Es wurde ein Abschnitt über die Verwaltung von Journey-Wiederholungen hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
-* Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und enthalten nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
-* Der Abschnitt Zugriff steuern wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator für den AI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
+* Alle neuen Funktionen und Verbesserungen, die mit der Version September 2024 von [!DNL Journey Optimizer] eingeführt werden, sind in der Dokumentation ausführlich beschrieben. [Mehr dazu](release-notes.md)
+* Ein Abschnitt über die Verwaltung von Wiederholungsversuchen in Journey wurde hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
+* Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und erwähnen nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
+* Der Abschnitt über die Zugriffskontrolle wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator des KI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
 * Es wurde ein Video zum AI Assistant Content Generator für die E-Mail-Generierung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
 
 
@@ -186,7 +186,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Juli 2023 {#july-2023}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juli 2023 wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Die Dokumentationsseite zur Warteaktivität wurde um zusätzliche Informationen und Best Practices im Zusammenhang mit der globalen Zeitüberschreitung und der Verwendung von Wiedereintritten erweitert. [Weitere Informationen](../building-journeys/wait-activity.md)
+* Die Seite mit der Dokumentation zur Warteaktivität wurde um zusätzliche Informationen und Best Practices im Zusammenhang mit der globalen Zeitüberschreitung und der Verwendung von erneuten Eintritten erweitert. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Die Seite zur Einstiegsverwaltung wurde verbessert. [Weitere Informationen](../building-journeys/entry-management.md)
 * In der Dokumentation zur Aktivität „Zielgruppe lesen“ wurden zusätzliche Informationen zur Drosselungsrate hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md)
 * Es wurden zusätzliche Informationen zu erneuten Zustellversuchen hinzugefügt. [Weitere Informationen](../start/guardrails.md#general-actions-g)

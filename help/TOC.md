@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
 source-wordcount: '2136'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
-+ Test &amp; Validierung {#test}
++ Testen und Genehmigen {#test}
    + [Konflikt-Management und Priorisierung](using/test-approve/conflict-prioritization.md)
    + Konfliktverwaltung und Priorisierung {#conflict-prioritization}
       + [Erste Schritte mit Konfliktmanagement und Priorisierung](using/test-approve/gs-conflict-prioritization.md)
@@ -190,11 +190,11 @@ ht-degree: 93%
       + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
       + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
-   + Journey und Kampagnen genehmigen {#approve}
+   + Genehmigen von Journeys und Kampagnen {#approve}
       + [Erste Schritte mit Genehmigungen](using/test-approve/gs-approval.md)
-      + [Erstellen und Verwalten von Validierungsrichtlinien](using/test-approve/approval-policies.md)
-      + [Genehmigung anfordern](using/test-approve/request-approval.md)
-      + [Anfrage genehmigen](using/test-approve/review-approve-request.md)
+      + [Erstellen und Verwalten von Genehmigungsrichtlinien](using/test-approve/approval-policies.md)
+      + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
+      + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
    + [Erstellen einer E-Mail](using/email/create-email.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + Verfassen von Web-Seiten{#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
-      + [Weberlebnisse überwachen](using/web/monitor-web-experiences.md)
+      + [Überwachen Ihrer Web-Erlebnisse](using/web/monitor-web-experiences.md)
       + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
@@ -280,7 +280,7 @@ ht-degree: 93%
    + Konfigurieren des Inhaltskartenkanals {#configure}
       + [Voraussetzungen für Inhaltskarten](using/content-card/content-card-configuration-prereq.md)
       + [Konfigurieren eines Inhaltskartenkanals in Journey Optimizer](using/content-card/content-card-configuration.md)
-      + [Unterstützung für Inhaltskarten im Web SDK konfigurieren](using/content-card/content-card-configuration-sdk.md)
+      + [Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK](using/content-card/content-card-configuration-sdk.md)
    + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
    + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
 + Landingpages {#landing-pages}
@@ -679,7 +679,7 @@ ht-degree: 93%
          + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
          + [Integrieren mit Marketo Engage](using/action/marketo-engage.md)
    + [Quellen](using/start/get-started-sources.md)
-   + [Objekte in eine andere Sandbox exportieren](using/configuration/copy-objects-to-sandbox.md)
+   + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Zugriffskontrolle {#access-control}
    + Zugriffskontrolle – Übersicht{#privacy}
       + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
