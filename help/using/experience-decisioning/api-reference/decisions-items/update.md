@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: ht
+exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
 ---
 
-
 # Aktualisieren eines Entscheidungselements {#update-decision-items}
 
 Sie können ein Entscheidungselement ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
-Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
 **API-Format**
 

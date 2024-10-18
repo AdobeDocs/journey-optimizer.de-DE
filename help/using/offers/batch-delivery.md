@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Bevor Sie eine Vorgangsanfrage konfigurieren, stellen Sie sicher, dass Sie Folge
 
 * **Einen Datensatz** in Adobe Experience Platform. Dieser Datensatz wird verwendet, um das Entscheidungsergebnis mithilfe des Schemas „ODE DecisionEvents“ zu speichern. Weitere Informationen finden Sie in der [Dokumentation zu Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de).
 
-* **Eine Zielgruppe** in Adobe Experience Platform. Die Zielgruppe sollte ausgewertet und dann aktualisiert werden. Informationen zum Aktualisieren der Auswertung der Zielgruppenzugehörigkeit finden Sie in der [Dokumentation zum Segmentierungs-Service](http://www.adobe.com/go/segmentation-overview-en_de).
+* **Eine Zielgruppe** in Adobe Experience Platform. Die Zielgruppe sollte ausgewertet und dann aktualisiert werden. Informationen zum Aktualisieren der Auswertung der Zielgruppenzugehörigkeit finden Sie in der [Dokumentation zum Segmentierungs-Service](https://www.adobe.com/go/segmentation-overview-en_de).
 
   >[!NOTE]
   >

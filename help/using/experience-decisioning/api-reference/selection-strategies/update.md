@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: ht
+exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
 ---
 
-
 # Aktualisieren einer Auswahlstrategie {#update-selection-strategy}
 
 Sie können eine Auswahlstrategie ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliothek-API richten.
 
-Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
 **API-Format**
 

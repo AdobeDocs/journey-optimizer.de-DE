@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 41%
@@ -130,7 +130,7 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 
 1. Geben Sie den **[!UICONTROL Standort oder Pfad innerhalb der App]** an. Dieses Feld gibt das genaue Ziel innerhalb der App an, auf das Benutzer zugreifen sollen. Es kann sich um einen bestimmten Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der App handeln, z. B. &quot;Hero-Banner&quot;oder &quot;Produktleiste&quot;.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen der Vorschau auf dem Gerät verwendet werden soll. [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
 
