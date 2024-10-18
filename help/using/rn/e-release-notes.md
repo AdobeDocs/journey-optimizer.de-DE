@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1672'
 ht-degree: 47%
 
 ---
@@ -100,26 +100,6 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Integration von Wechselfarben und Adobe Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Movable Ink Da Vinci und Adobe Journey Optimizer integrieren. Mit dieser neuen Integration können Sie: </p>
-<p><ul><li>Nutzen Sie die leistungsstarken Funktionen von Movable Ink's Da Vinci, um E-Mail-Varianten für Batch-Kampagnen zusammenzustellen und zu personalisieren.</li>
-<li>Beschleunigen Sie Workflows für Journey Optimizer-Kunden, die Da Vinci für die Bearbeitung und AJO für die Optimierung und Bereitstellung verwenden.</li>
-<li>Optimieren Sie Da Vinci-Modelle mit Adobe-Daten.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Aktualisiertes Berichtserlebnis (Allgemeine Verfügbarkeit)</strong><br/>Seit dem 16. Oktober 2024 verfügbar<br/></th>
+<th><strong>Integration von Wechselfarben und Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Sie können jetzt Movable Ink Da Vinci und Adobe Journey Optimizer integrieren. Mit dieser neuen Integration können Sie: </p>
+<p><ul><li>Nutzen Sie die leistungsstarken Funktionen von Movable Ink's Da Vinci, um E-Mail-Varianten für Batch-Kampagnen zusammenzustellen und zu personalisieren.</li>
+<li>Beschleunigen Sie Workflows für Journey Optimizer-Kunden, die Da Vinci für die Bearbeitung und AJO für die Optimierung und Bereitstellung verwenden.</li>
+<li>Optimieren Sie Da Vinci-Modelle mit Adobe-Daten.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aktualisiertes Berichtserlebnis (Allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verfügbar seit dem 16. Oktober 2024</p>
 <p>Journey Optimizer Reporting ist jetzt allgemein verfügbar (GA) und verfügt über eine verbesserte Interoperabilität mit Customer Journey Analytics-Funktionen, Standardisierung der Berichterstellung auf beiden Plattformen und Verbesserung der Datenkonsistenz und -zuverlässigkeit. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, besser fundierte Entscheidungen zu treffen.</p>
 <p>Mit der allgemeinen Verfügbarkeit werden vier neue Funktionen eingeführt: die Möglichkeit, einfache Metriken zu erstellen, Zielgruppen zu erstellen und zu veröffentlichen, Ad-hoc-Fragen mit Insight Builder zu stellen und Berichte so zu planen, dass sie automatisch per E-Mail an wichtige Empfänger gesendet werden.</p>
 <p>Weitere Informationen finden Sie in der <a href="../reports/report-cja-manage.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Wichtig: Die aktuelle Berichtserfahrung wird ab Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. <a href="../reports/report-gs-cja.md">Informationen zu den ersten Schritten mit der neuen Reporting-Oberfläche von Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <tbody>
 <tr>
 <td>
+<p>Verfügbar seit dem 1. Oktober 2024</p>
 <p>Mit dem Code-basierten Erlebniskanal ermöglicht Ihnen Adobe Journey Optimizer eine erweiterte Personalisierung und Tests für jede Ihrer eingehenden Eigenschaften durchzuführen. Dies ermöglicht den nahtlosen Versand von maßgeschneiderten Erlebnissen über verschiedene Touchpoints wie Web-Apps, Mobile-Apps, Desktop-Apps, Videokonsolen, mit dem Fernseher verbundene Geräte, Smart-TVs, Kioske, Geldautomaten, IoT-Geräte und mehr. Der Code-basierte Erlebniskanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../code-based/create-code-based.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Verfügbarkeitsdatum: 1. Oktober 2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <tbody>
 <tr>
 <td>
+<p>Verfügbar seit dem 1. Oktober 2024</p>
 <p>Mit dem Webkanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../web/create-web.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Verfügbarkeitsdatum: 1. Oktober 2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->Die aktuelle Berichtserfahrung wird ab Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten.
->
-> [Informationen zu den ersten Schritten mit der neuen Reporting-Oberfläche von Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Verbesserungen {#e-improvements}
 
@@ -270,11 +262,11 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
    * 90 Tage für Daten im Profilspeicher
    * 13 Monate für Daten im Data Lake
 
-Außerdem unterstützt Streaming-Segmentierung zu diesem Zeitpunkt nicht mehr die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen. Wir empfehlen seit einiger Zeit, diese Ereignisse nicht mehr für Streaming-Segmentierung zu verwenden, und werden sie jetzt ganz deaktivieren.
+  Außerdem unterstützt Streaming-Segmentierung zu diesem Zeitpunkt nicht mehr die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen. Wir empfehlen seit einiger Zeit, diese Ereignisse nicht mehr für Streaming-Segmentierung zu verwenden, und werden sie jetzt ganz deaktivieren.
 
-* Diese Änderung beschränkt nur die Verwendung von Sende-/Öffnungs-Ereignissen in der Streaming-Segmentierung. Klickereignisse können weiterhin in einem Streaming-Segment verwendet werden. Außerdem können Ereignisse zum Senden/Öffnen weiterhin in einem Batch-Segment verwendet werden.
-* Tracking-Daten werden weiterhin erfasst. Diese Änderung wirkt sich nicht auf das Tracking aus. Sie können weiterhin verfolgen, an wen eine E-Mail gesendet wurde und wer auf eine E-Mail geklickt hat.
-* Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
+   * Diese Änderung beschränkt nur die Verwendung von Sende-/Öffnungs-Ereignissen in der Streaming-Segmentierung. Klickereignisse können weiterhin in einem Streaming-Segment verwendet werden. Außerdem können Ereignisse zum Senden/Öffnen weiterhin in einem Batch-Segment verwendet werden.
+   * Tracking-Daten werden weiterhin erfasst. Diese Änderung wirkt sich nicht auf das Tracking aus. Sie können weiterhin verfolgen, an wen eine E-Mail gesendet wurde und wer auf eine E-Mail geklickt hat.
+   * Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
 
 * **Parameter in benutzerdefinierten Aktionen** (Verfügbarkeitsdatum: 3. Oktober 2024) - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
