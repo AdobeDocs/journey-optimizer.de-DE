@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2135'
 ht-degree: 95%
 
 ---
@@ -384,8 +384,8 @@ ht-degree: 95%
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
-   + Customer Journey Analytics reports{#channel-report}
-      + [Erste Schritte mit Customer Journey Analytics-Berichten](using/reports/report-gs-cja.md)
+   + Aktualisiertes Berichtserlebnis{#channel-report}
+      + [Erste Schritte mit der aktualisierten Berichterstellung](using/reports/report-gs-cja.md)
       + [Customer Journey Analytics manuell konfigurieren](using/reports/cja-ajo.md)
       + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
       + [Reporting- und Experimentiervoraussetzungen](using/reports/reporting-configuration.md)
@@ -413,7 +413,7 @@ ht-degree: 95%
       + [Übersichtsbericht](using/reports/channel-report-cja.md)
       + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
       + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
-   + Ehemaliges Berichts-Dashboard {#reports}
+   + Ehemaliges Berichtserlebnis {#reports}
       + Globaler Bericht {#global-report}
          + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
          + [Liste von Komponenten](using/reports/global-report-components.md)
