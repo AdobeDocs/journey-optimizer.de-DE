@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 41%
 
 ---
 
@@ -28,8 +28,8 @@ Eine code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Spezifischen Speicherort eingeben"
->abstract="Dieses Feld gibt das genaue Ziel auf der Seite oder in der App an, auf das Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur sein."
+>title="Bestimmten Ort innerhalb Ihrer Seite oder App angeben"
+>abstract="Dieses Feld gibt das genaue Ziel innerhalb einer Seite oder innerhalb der App an, auf das Benutzer zugreifen sollen. Es kann sich um einen bestimmten Abschnitt innerhalb einer Webseite oder eine Seite innerhalb der Navigationsstruktur der App handeln."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. Das Feld **[!UICONTROL Position auf Seite]** gibt das genaue Ziel innerhalb der Website an, auf die Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der Site sein.
+1. Das Feld **[!UICONTROL Position auf Seite]** gibt das genaue Ziel innerhalb der Seite an, auf die Benutzer zugreifen sollen. Es kann sich um einen bestimmten Abschnitt auf einer Seite innerhalb der Navigationsstruktur der Site handeln, z. B. &quot;Hero-Banner&quot;oder &quot;Produktleiste&quot;.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 
 1. Geben Sie Ihre **[!UICONTROL App-ID]** ein. Dies ermöglicht eine genaue Identifizierung und Konfiguration innerhalb der Betriebsumgebung der App und stellt eine nahtlose Integration und Funktionalität sicher.
 
-1. Geben Sie den **[!UICONTROL Standort oder Pfad innerhalb der App]** an. Dieses Feld gibt das genaue Ziel innerhalb der App an, auf das Benutzer zugreifen sollen. Dies kann ein bestimmter Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der App sein.
+1. Geben Sie den **[!UICONTROL Standort oder Pfad innerhalb der App]** an. Dieses Feld gibt das genaue Ziel innerhalb der App an, auf das Benutzer zugreifen sollen. Es kann sich um einen bestimmten Abschnitt oder eine bestimmte Seite innerhalb der Navigationsstruktur der App handeln, z. B. &quot;Hero-Banner&quot;oder &quot;Produktleiste&quot;.
 
    ![](assets/code_config_3.png){width="500"}
 

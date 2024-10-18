@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '799'
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf d
 
 Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Client-SDKs verwenden: AEP Web SDK oder AEP Mobile SDK.
 
-* Die [folgenden Schritte](#client-side-how) beschreiben den Prozess zum Abrufen von Inhalten, die von Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem **Web SDK** veröffentlicht wurden, und zum Anzeigen der personalisierten Inhalte.
+* Die Schritte [unter ](#client-side-how) beschreiben den Prozess, den Inhalt abzurufen, der von den code-basierten Erlebnis-Journey und Kampagnen am Edge veröffentlicht wurde, und zwar in einer Beispielimplementierung des **Web SDK** und mit der Anzeige des personalisierten Inhalts.
 
 * Die Schritte zur Implementierung eines Code-basierten Kanals mit **Mobile SDK** sind in [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} beschrieben.
 
@@ -54,7 +54,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
 
 1. Elemente von Code-basierten Erlebnissen sollten vom Implementierungs-Code manuell angewendet werden (unter Verwendung der Methode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}), um das DOM basierend auf der Entscheidung zu aktualisieren.
 
-1. Bei Code-basierten Erlebniskampagnen müssen Anzeigeereignisse manuell gesendet werden, um anzugeben, wann der Inhalt angezeigt wurde. Dies geschieht über den Befehl `sendEvent`.
+1. Bei code-basierten Journey und Kampagnen müssen Anzeigeereignisse manuell gesendet werden, um anzugeben, wann der Inhalt angezeigt wurde. Dies geschieht über den Befehl `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
    }
    ```
 
-1. Bei Code-basierten Erlebniskampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann die Benutzerin oder der Benutzer mit dem Inhalt interagiert hat.  Dies geschieht über den Befehl `sendEvent`.
+1. Bei code-basierten Journey und Kampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann ein Benutzer mit dem Inhalt interagiert hat. Dies geschieht über den Befehl `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge 
 
 Bei einer Server-seitigen Implementierung, kann eine der AEP Edge Network-APIs verwendet werden.
 
-Die folgenden Schritte beschreiben den Prozess, um die Inhalte abzurufen, die von den Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem Edge Network-API für eine Web-Seite veröffentlicht wurden und die personalisierten Inhalte anzeigen.
+Die folgenden Schritte beschreiben den Prozess des Abrufs von Inhalten, die von den code-basierten Erlebnis-Journey und Kampagnen in einer Edge Network-API-Beispielimplementierung für eine Webseite veröffentlicht wurden, und der Anzeige der personalisierten Inhalte.
 
 ### Funktionsweise
 
@@ -226,8 +226,9 @@ Die folgenden Schritte beschreiben den Prozess, um die Inhalte abzurufen, die vo
    ).then((res) => res.json());
    ```
 
-1. Das JSON-Erlebnis aus der Code-basierten Erlebniskampagne wird aus der Antwort gelesen und beim Erstellen der HTML-Antwort verwendet.
-1. Bei Code-basierten Erlebniskampagnen müssen Anzeigeereignisse manuell in der Implementierung gesendet werden, um anzugeben, wann der Kampagneninhalt angezeigt wurde. In diesem Beispiel wird die Benachrichtigung Server-seitig während des Lebenszyklus der Anfrage gesendet.
+1. Das JSON-Erlebnis aus den code-basierten Erlebnis-Journey und Kampagnen wird aus der Antwort gelesen und bei der Erstellung der HTML-Antwort verwendet.
+
+1. Bei code-basierten Journey und Kampagnen müssen Anzeigeereignisse in der Implementierung manuell gesendet werden, um anzugeben, wann der Journey- oder Kampagneninhalt angezeigt wurde. In diesem Beispiel wird die Benachrichtigung während des Anfragelebenszyklus serverseitig gesendet.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
