@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +37,7 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Ab dem 1. November 2024 wird für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live-Schutzmechanismus (TTL) wie folgt erzwungen:
->
->* 90 Tage für Daten im Profilspeicher
->* 13 Monate für Daten im Data Lake
->
->Außerdem unterstützt die Streaming-Segmentierung zu diesem Zeitpunkt die Verwendung von Sende- und Öffnungs-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr.
+>Ab dem 1. November 2024 wird für systemgenerierte Journey Optimizer-Datensätze eine TTL-Schutzmaßnahme (Time-to-Live) erzwungen. Außerdem unterstützt Streaming-Segmentierung zu diesem Zeitpunkt nicht mehr die Verwendung von Sende- und Öffnungs-Ereignissen aus Tracking- und Feedback-Datensätzen. [Weitere Informationen](datasets-ttl.md)
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
