@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informationen zum neuen Schutzschild für die Time-to-Live (TTL)
-description: Neue TTL-Garantie (Time-to-Live) für Adobe Journey Optimizer
+title: Änderungen der Time-to-Live (TTL)- und Streaming-Segmentierung
+description: Änderungen der Live-Zeit und Streaming-Segmentierung in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 7%
 
 ---
 
 
-# Aktualisierungen der Time-to-Live (TTL)- und Streaming-Segmentierung {#ttl-guardrail}
+# Änderungen der Streaming-Segmentierung (Time-to-Live) {#ttl-guardrail}
 
 ## TTL-Limits (Time-to-Live) {#ttl}
 
@@ -49,7 +49,7 @@ Daten in CJA werden mit Experience Platform synchronisiert. Daher wirkt sich ein
 
 ## Aktualisierungen der Streaming-Segmentierung {#segmentation-update}
 
-Darüber hinaus unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr. Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+Darüber hinaus unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr.  Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 
 **Häufig gestellte Fragen**
