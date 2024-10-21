@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 91%
+source-wordcount: '866'
+ht-degree: 87%
 
 ---
 
@@ -121,13 +121,13 @@ Wenn Sie also beim Konfigurieren von Berichten einen Datensatz hinzufügen, der 
 
 In [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für die Berichterstellung hinzufügen.
 
-Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
+Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden für die Berichterstellung von [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journey jedes Profil teilnimmt.
 
 [Weitere Informationen zur Berichtskonfiguration](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen ein Experiment ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
+>Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, auf denen eine Kampagne oder Journey ausgeführt wird, sodass alle anderen Tracking-Aktivitäten unberührt bleiben.
 
 **Verwandte Themen:**
 

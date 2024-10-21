@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 86%
+source-wordcount: '1183'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,8 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 * Um auf den Web-Designer von [!DNL Journey Optimizer] zuzugreifen, müssen Sie eine bestimmte Browser-Erweiterung für Google Chrome installiert haben. [Weitere Informationen](#visual-authoring-prerequisites)
 
 * Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen [hier](#delivery-prerequisites) detailliert definieren.
+
+* Um die Berichterstellung für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass der in Ihrem Webimplementierungsdatenstrom verwendete Datensatz auch in Ihrer Berichtskonfiguration enthalten ist. [Weitere Informationen](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ In [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets) erfahr
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
-Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Abwandlungen die einzelnen Profile teilnehmen.
+Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden für die Berichterstellung von [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journey jedes Profil teilnimmt.
 
 [Weitere Informationen zur Berichtskonfiguration](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen ein Experiment ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
+>Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, auf denen eine Kampagne oder Journey ausgeführt wird, sodass alle anderen Tracking-Aktivitäten unberührt bleiben.
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 
