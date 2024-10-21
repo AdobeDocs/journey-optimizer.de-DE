@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
-ht-degree: 77%
+source-wordcount: '2279'
+ht-degree: 75%
 
 ---
 
@@ -45,11 +45,12 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
 ## Ansprechen von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, einem benutzerdefinierten Upload oder Kompositions-Workflows generiert wurde.
+Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, benutzerdefiniertem Upload, Komprimierungs-Workflows oder Federated Audience Komposition generiert wurde.
 
 >[!AVAILABILITY]
 >
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+>
+Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -63,11 +64,11 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
   >[!NOTE]
   >
-  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositions-Workflows und benutzerdefiniertem Upload erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität „Zielgruppen-Qualifizierung“ auswählen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
+  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositionsarbeitsabläufen, benutzerdefinierten Uploads oder Federated Audience Komposition erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität &quot;Zielgruppenqualifikation&quot;ansprechen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 ## Verwenden von Zielgruppen-Anreicherungsattributen {#enrichment}
 
-Beim Targeting einer Audience, die mithilfe von Komposition-Workflows oder einer benutzerdefinierten Audience (CSV-Datei) erstellt wurde, können Sie Anreicherungsattribute dieser Audiences nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+Beim Targeting einer Zielgruppe, die mithilfe von Kompositionsarbeitsabläufen, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder einer Federated Audience-Komposition generiert wurde, können Sie Anreicherungsattribute aus diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 >
 +++
 
-## Benutzerdefinierte Upload-Zielgruppen (CSV-Datei) {#csv}
+## Benutzerdefinierte Uploads und Zielgruppen für die Zusammenstellung von Zielgruppen {#csv}
 
-Dieser Abschnitt enthält wichtige Informationen, die Sie beim Arbeiten mit benutzerdefinierten Upload-Zielgruppen (CSV-Dateien) beachten sollten:
+Dieser Abschnitt enthält wichtige Informationen, die Sie beim Arbeiten mit benutzerdefinierten Upload-Zielgruppen (CSV-Dateien) und Federated Audience Komposition beachten sollten:
 
-* **Vorschau- und Testversandunterstützung für CSV-Zielgruppen:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Upload erstellt wurden, nicht unterstützt. Beachten Sie dies bei der Planung Ihrer Kampagnen.
+* **Vorschau- und Testversandunterstützung:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Upload oder Federated Audience Komposition erstellt wurden, nicht unterstützt. Beachten Sie dies bei der Planung Ihrer Kampagnen.
 
-* **Schnelle Aktivierungs- und Identitätszusammenfügungsverzögerungen:** Die Adobe Experience Platform-Architektur verzögert die Identitätszuordnung, um benutzerdefinierte Upload-Zielgruppen sofort für die Aktivierung in Journey Optimizer verfügbar zu machen, mit folgenden Auswirkungen:
+* **Schnelle Aktivierungs- und Identitätszusammenfügungsverzögerungen:** Die Adobe Experience Platform-Architektur verzögert die Identitätszuordnung, damit benutzerdefinierte Upload- und Zusammenführungszielgruppen sofort für die Aktivierung in Journey Optimizer verfügbar sind. Dies hat folgende Auswirkungen:
 
    * Zielgruppen können direkt nach Abschluss der Erfassung in Journey Optimizer verwendet werden. Dies erfolgt normalerweise innerhalb einer Stunde, kann jedoch variabel sein.
    * Die Anzahl der aktivierten Datensätze kann von der Anzahl der Profile nach der Identitätszusammenfügung abweichen.
-   * Jeder Datensatz in der CSV-Datei wird aktiviert, einschließlich aller Duplikate. Beim nächsten UPS-Profilexport durchlaufen diese Datensätze die Identitätszuordnung.
+   * Jeder Datensatz in der Audience wird aktiviert, einschließlich aller Duplikate. Beim nächsten UPS-Profilexport durchlaufen diese Datensätze die Identitätszuordnung.
 
-* **Targeting neuer Profile aus CSV-Uploads:** Wenn zwischen einem CSV-Datensatz und einem UPS-Profil keine Übereinstimmung gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind die in Journey Optimizer normalerweise verwendeten Zielgruppenfelder (z. B. personalEmail.address, mobilePhone.number) leer und können daher nicht für das Targeting verwendet werden.
+* **Targeting neuer Profile:** Wenn zwischen einem Datensatz und einem UPS-Profil keine Übereinstimmung gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind die in Journey Optimizer normalerweise verwendeten Zielgruppenfelder (z. B. personalEmail.address, mobilePhone.number) leer und können daher nicht für das Targeting verwendet werden.
 
-  Um dies zu beheben, können Sie in der Kanalkonfiguration das &quot;Ausführungsfeld&quot;(oder je nach Kanal &quot;Ausführungsadresse&quot;) als &quot;identityMap&quot;(identityMap) angeben. Dadurch wird sichergestellt, dass das beim Hochladen von CSV-Dateien als Identität ausgewählte Attribut für das Targeting in Journey Optimizer verwendet wird.
+  Um dies zu beheben, können Sie in der Kanalkonfiguration das &quot;Ausführungsfeld&quot;(oder je nach Kanal &quot;Ausführungsadresse&quot;) als &quot;identityMap&quot;(identityMap) angeben. Dadurch wird sichergestellt, dass das bei der Zielgruppenerstellung als Identität gewählte Attribut für das Targeting in Journey Optimizer verwendet wird.
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 
