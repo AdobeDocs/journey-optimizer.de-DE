@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
 1. Aktivieren Sie den gesamten Regelsatz, indem Sie in der oberen rechten Ecke des Bildschirms auf die Suchschaltfläche neben der Schaltfläche Regel hinzufügen klicken.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Begrenzungsregeln auf Journey anwenden {#apply-capping}
 
