@@ -7,10 +7,10 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,8 +49,7 @@ Daten in CJA werden mit Experience Platform synchronisiert. Daher wirkt sich ein
 
 ## Aktualisierungen der Streaming-Segmentierung {#segmentation-update}
 
-Darüber hinaus unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr.  Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
-
+Darüber hinaus unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr.  Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen zu diesem Zeitpunkt.
 
 **Häufig gestellte Fragen**
 
