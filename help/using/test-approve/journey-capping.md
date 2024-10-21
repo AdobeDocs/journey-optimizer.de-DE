@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: ea947514012c342fd28155e6610b2eb13547b465
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,10 @@ Inhalt dieses Dokumentationshandbuchs:
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journey einschränken, in die sich ein Profil eintragen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
-* **Einstiegsbegrenzung** begrenzt die Anzahl der Einstiege in eine Journey über einen bestimmten Zeitraum für ein Profil.
-* **Parallele Begrenzungen** beschränken, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann. Diese Art der Begrenzung nutzt Journey-Prioritätsbewertungen, um Einträge zu schlichten, wenn Profile für mehrere Journey gleichzeitig während eines bestimmten Zeitraums berechtigt sind.
+* **Einstiegsbegrenzung** begrenzt die Anzahl der Journey-Einträge für einen Profilzeitraum.
+* **Parallele Begrenzungen** beschränken, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann.
+
+Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Einträge zu schlichten.
 
 ## Erstellen einer Journey-Begrenzungsregel {#create-rule}
 
@@ -67,21 +69,28 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      +++Journey-Einstiegsbegrenzungsregel konfigurieren
 
-      1. Legen Sie im Feld **[!UICONTROL Begrenzung]** fest, wie oft ein Profil maximal auf die Journey zugreifen darf.
-      1. Definieren Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum.
+      1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journey fest, die ein Profil eingeben kann.
+      1. Definieren Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Beispielsweise wird die tägliche Obergrenze um Mitternacht UTC zurückgesetzt.
 
-     In diesem Beispiel möchten wir verhindern, dass Profile diese Journey mehr als &quot;5&quot;-mal im Monat aufrufen.
+     In diesem Beispiel möchten wir verhindern, dass Profile in einem Monat mehr als &quot;5&quot; Journey erreichen.
 
      ![](assets/journey-capping-entry-example.png)
+
+     >[!NOTE]
+     >
+     >Das System berücksichtigt die Priorität bevorstehender geplanter Journey, auf die dieselbe Regel angewendet wird.
+     >
+     >Wenn der Marketingspezialist in diesem Beispiel bereits vier Journey erreicht hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, werden die Kunden daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
 +++
 
      +++Journey-Begrenzungsregel konfigurieren
 
       1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journey fest, an denen ein Profil gleichzeitig angemeldet werden kann.
+
       1. Verwenden Sie das Feld **[!UICONTROL Priorization look ahead]** , um Journey-Einträge basierend auf Prioritätsbewertungen über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu schlichten. Dies hilft bei der Priorisierung der Eingabe in Journey mit höherem Wert, wenn ein Profil für mehrere Journey qualifiziert ist.
 
-     In diesem Beispiel möchten wir die Eingabe von Profilen auf die Journey beschränken, wenn diese bereits für eine andere Journey angemeldet sind. Wenn eine weitere Journey innerhalb der nächsten sieben Tage eine höhere Priorität hat, wird das Profil diese Journey eingeben.
+     In diesem Beispiel möchten wir die Eingabe von Profilen auf die Journey beschränken, wenn diese bereits in einer anderen Journey mit demselben Regelsatz angemeldet sind. Wenn eine weitere Journey innerhalb der nächsten sieben Tage eine höhere Priorität hat, wird das Profil diese Journey nicht eingeben.
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
@@ -98,6 +107,11 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 ## Begrenzungsregeln auf Journey anwenden {#apply-capping}
 
 Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus.
+
 Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
 
 ![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System mit der Unterdrückung von Kunden beginnt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in die Zukunft beginnt, um dies zu verhindern.
