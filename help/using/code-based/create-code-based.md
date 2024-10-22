@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 35%
+ht-degree: 44%
 
 ---
 
@@ -151,22 +151,22 @@ Ausführliche Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="Codebasierte Erlebnisse auf einem echten Gerät in der Vorschau anzeigen"
->abstract="Verschaffen Sie sich eine Vorschau Ihrer personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten, um zu sehen, wie sie auf echten Geräten aussehen."
+>title="Anzeigen der Vorschau Ihres Code-basierten Erlebnisses auf einem echten Gerät"
+>abstract="Erhalten Sie eine Vorschau Ihrer personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten, um zu sehen, wie sie auf echten Geräten aussehen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="Codebasierte Web-Erlebnisse auf dem Gerät in der Vorschau anzeigen"
+>title="Anzeigen der Vorschau Ihrer Code-basierten Web-Erlebnisse auf dem Gerät"
 >abstract="Überprüfen Sie den QR-Code oder kopieren Sie den Link zur Vorschau auf dem Gerät."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Vorschau Ihres code-basierten mobilen Erlebnisses auf dem Gerät"
->abstract="Überprüfen Sie den QR-Code oder kopieren Sie den Link zur Vorschau auf dem Gerät. Geben Sie nach der Verbindung den Pin auf dem Gerät ein. Möglicherweise müssen Sie Ihre App neu starten, damit die Änderungen bei jedem Aktualisieren der Vorschau-Links angezeigt werden."
+>title="Anzeigen der Vorschau Ihres Code-basierten mobilen Erlebnisses auf dem Gerät"
+>abstract="Überprüfen Sie den QR-Code oder kopieren Sie den Link zur Vorschau auf dem Gerät. Wenn eine Verbindung besteht, geben Sie die PIN auf dem Gerät ein. Möglicherweise müssen Sie Ihre App neu starten, damit die Änderungen bei jedem Aktualisieren der Vorschau-Links angezeigt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="Aktualisieren Sie den Vorschau-Link, um die aktuelle Ansicht widerzuspiegeln."
+>title="Aktualisieren des Vorschau-Links, um die aktuelle Ansicht widerzuspiegeln."
 >abstract="In der Vorschau auf dem Gerät wird der Inhalt ab dem Zeitpunkt angezeigt, zu dem Sie den Vorschau-Link erstellt oder aktualisiert haben. Wenn Sie den Inhalt geändert oder ein anderes Testprofil oder eine andere Behandlung ausgewählt haben, aktualisieren Sie die Vorschau, damit sie die aktuelle Ansicht widerspiegelt."
 
 Beim Erstellen code-basierter Erlebnisse für Web-Seiten oder mobile Apps können Sie Ihre personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten in der Vorschau anzeigen, um zu sehen, wie diese Erlebnisse auf echten Geräten aussehen.

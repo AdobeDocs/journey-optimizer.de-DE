@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 41%
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ Bevor Sie [Ihr Erlebnis erstellen](create-code-based.md), müssen Sie eine code-
 
 Eine code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die im Wesentlichen der Ort ist, an dem Sie Ihre Änderungen rendern möchten. Je nach ausgewählter Plattform müssen Sie einen Standort/Pfad oder den vollständigen URI für die Oberfläche eingeben. [Weitere Informationen](#surface-definition)
 
-## Codebasierte Erlebniskonfiguration erstellen {#create-code-based-configuration}
+## Definieren einer Konfiguration von Code-basierten Erlebnissen {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -78,7 +78,7 @@ Sie können diese Konfiguration jetzt beim [ Erstellen eines code-basierten Erle
 >
 >Ihr App-Implementierungsteam ist dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die Oberflächen abzurufen, die in der ausgewählten code-basierten Erlebniskonfiguration definiert sind. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
-### Webplattformen {#web}
+### Web-Plattformen {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
@@ -116,12 +116,12 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="App-ID angeben"
->abstract="Geben Sie die App-ID ein, um eine genaue Identifizierung und Konfiguration innerhalb der Betriebsumgebung der Anwendung zu erhalten und so eine nahtlose Integration und Funktionalität sicherzustellen."
+>title="Angeben der App-ID"
+>abstract="Geben Sie die App-ID für eine genaue Identifizierung und Konfiguration in der Betriebsumgebung der App an, um nahtlose Integration und Funktionalität sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Geben Sie die URL für die Vorschau des Inhalts ein."
+>title="Eingeben der URL, um Inhalte in der Vorschau anzuzeigen"
 >abstract="Dieses Feld ist für die Aktivierung der Simulation und Vorschau Ihres Inhalts in Ihrer Anwendung direkt auf Ihrem Gerät erforderlich."
 
 Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellungen für mobile Plattformen zu definieren.
@@ -179,8 +179,8 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="Hinzufügen des Oberflächen-URI für Ihre Komponente"
->abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, an der Sie Ihr Erlebnis bereitstellen möchten. Vergewissern Sie sich, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten übereinstimmt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Codebasierte Erlebniskonfiguration für andere Plattformen erstellen"
+>abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, bei der Sie Ihr Erlebnis bereitstellen möchten. Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
 
 Ein code-basiertes Erlebnis **Oberfläche** ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen **URI** eindeutig identifiziert wird. Die Oberfläche wird in der Implementierung der Anwendung angegeben und muss mit der in Ihrer Code-basierten Konfiguration des Erlebniskanals referenzierten Oberfläche übereinstimmen.
 

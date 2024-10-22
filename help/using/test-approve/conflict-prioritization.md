@@ -23,7 +23,7 @@ ht-degree: 22%
 
 In Journey Optimizer ist die Verwaltung von Umfang und zeitlichem Verlauf von Kampagnen und Journey unverzichtbar, um zu verhindern, dass überwältigende Kunden mit zu vielen Interaktionen auf diese Weise ansprechen. In den folgenden beiden Abschnitten werden Schlüsselwerkzeuge vorgestellt, mit denen Sie ein ausgewogenes Verhältnis gewährleisten und die Kommunikation effektiv priorisieren können
 
-## Potenzielle Konflikte in Journey und Kampagnen identifizieren {#conflict}
+## Identifizieren potenzieller Konflikte in Journeys und Kampagnen {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
