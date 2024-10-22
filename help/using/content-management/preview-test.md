@@ -1,5 +1,5 @@
 ---
-title: Vorschau und Test des Inhalts
+title: Anzeigen einer Vorschau und Testen der Inhalte
 description: Erfahren Sie, wie Sie Ihren Inhalt in der Vorschau darstellen und testen können.
 feature: Preview, Proofs
 role: User
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Vorschau und Test des Inhalts {#preview-test}
+# Anzeigen einer Vorschau und Testen der Inhalte {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"

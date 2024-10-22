@@ -58,10 +58,10 @@ Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Erfahr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Erneuten Eintritt erlauben"
->abstract="Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** deaktivieren, wenn Sie zum Beispiel ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop aufruft."
+>abstract="Standardmäßig ist der erneute Eintritt in neue Journeys zulässig. Die Option **Erneuten Eintritt erlauben** kann deaktiviert werden, z. B. wenn ein einmaliges Geschenk angeboten werden soll, wenn eine Person einen Shop betritt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Wiedereintritt erlauben** für &quot;einen Journey&quot;deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+Standardmäßig ist der erneute Eintritt in neue Journeys zulässig. Sie können die Option **Wiedereintritt erlauben** für &quot;einen Journey&quot;deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
 ### Wartezeit bis zum erneuten Eintritt  {#reentrance-wait}
 
