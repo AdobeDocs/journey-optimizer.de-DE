@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1652'
 ht-degree: 89%
 
 ---
@@ -29,6 +29,23 @@ Bevorstehende **Veröffentlichungsdatum**: 28.-30. Oktober 2024
 Die unten aufgeführten [Funktionen](#24-10-features) und [Verbesserungen](#24-10-improvements) wurden diesen Monat veröffentlicht.
 
 ### Neue Funktionen {#24-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Genehmigungen in Journey und Kampagnen (Allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Genehmigungsrichtlinien können Sie nun einen Genehmigungsprozess in Journey Optimizer einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholdern geprüft und abgezeichnet werden.</p>
+<p>Weitere Informationen finden Sie in der <a href="../test-approve/gs-approval.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/approval.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

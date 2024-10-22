@@ -4,20 +4,19 @@ description: Erfahren Sie, wie Sie Genehmigungsrichtlinien erstellen und verwalt
 role: User
 level: Beginner
 feature: Approval
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # Erstellen und Verwalten von Validierungsrichtlinien {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> Genehmigungsrichtlinien sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Zum Erstellen von Genehmigungsrichtlinien benötigen Sie in Adobe Experience Platform über System- oder Produktadministratorberechtigungen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Genehmigungsrichtlinien ermöglichen es Administratoren, einen Validierungsprozess für Journey und Kampagnen einzurichten. In diesem System werden spezifische Bedingungen beschrieben, die bestimmen, ob eine Journey oder Kampagne genehmigt werden muss. Diese Richtlinien können sich hinsichtlich der Komplexität unterscheiden, von der bloßen Anforderung, dass alle Kampagnen von einem bestimmten Benutzer oder Team überprüft werden müssen, bis hin zur Festlegung von Kriterien, anhand derer die Kampagne erstellt wurde.
 

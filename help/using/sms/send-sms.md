@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 86%
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
 >[!IMPORTANT]
 >
->Ab der Septemberversion können Sie mit einer neuen Kampagnen- und Journey-Aktivierungserfahrung den gesamten Validierungsprozess verwalten. So können Sie sicherstellen, dass Kampagnen und Journey von den entsprechenden Stakeholdern gründlich geprüft und genehmigt werden, bevor sie live geschaltet werden. Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Textnachrichten versenden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Wenn Ihre Textnachricht fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab, um sie zu versenden.
 

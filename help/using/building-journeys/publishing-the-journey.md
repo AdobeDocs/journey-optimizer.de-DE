@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,13 @@ Wenn Sie eine veröffentlichte Journey ändern möchten, müssen Sie eine neue V
 Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die sich in der Journey aufhalten, werden dauerhaft gestoppt und die Journey lässt keine neuen Eintritte mehr zu. Wenn Sie die Journey erneut verwenden möchten, müssen Sie sie duplizieren und veröffentlichen.
 
 1. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Sie können keine fehlerbehafteten Journeys veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Es wird auch empfohlen, die Journey vor der Veröffentlichung zu testen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
+
+   >[!NOTE]
+   >
+   > Wenn Ihre Journey einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 

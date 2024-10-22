@@ -4,20 +4,15 @@ description: Erfahren Sie, wie Sie einen Genehmigungsprozess für Ihre Journeys 
 role: User
 level: Beginner
 feature: Approval
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Journey- und Kampagnengenehmigungen {#send-proofs}
-
->[!AVAILABILITY]
->
-> Genehmigungsrichtlinien sind derzeit nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Erste Schritte mit Genehmigungsrichtlinien {#gs}
 

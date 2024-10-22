@@ -1,23 +1,18 @@
 ---
-title: Genehmigung anfordern
+title: Anfragen einer Genehmigung
 description: Erfahren Sie, wie Sie vor der Veröffentlichung Ihrer Journey und Kampagnen eine Genehmigung anfordern können.
 role: User
 level: Beginner
 feature: Approval
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
-# Genehmigung anfordern {#request-approval}
-
->[!AVAILABILITY]
->
-> Genehmigungsrichtlinien sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+# Anfragen einer Genehmigung {#request-approval}
 
 Wenn die Genehmigungs-Workflow-Funktion für Ihr Unternehmen aktiviert wurde, werden Sie feststellen, dass die Schaltflächen **[!UICONTROL Aktivieren]** und **[!UICONTROL Publish]** nicht mehr in den Arbeitsabläufen zum Erstellen von Kampagnen bzw. zum Erstellen von Journey-Workflows verfügbar sind. Diese Schaltflächen wurden durch die Schaltfläche **[!UICONTROL Genehmigung anfordern]** ersetzt.
 

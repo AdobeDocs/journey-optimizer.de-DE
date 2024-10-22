@@ -10,10 +10,10 @@ level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 95%
 
 ---
 
@@ -142,7 +142,7 @@ Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand könne
 
 >[!IMPORTANT]
 >
->Ab der Septemberversion können Sie mit einer neuen Kampagnen- und Journey-Aktivierungserfahrung den gesamten Validierungsprozess verwalten. So können Sie sicherstellen, dass Kampagnen und Journey von den entsprechenden Stakeholdern gründlich geprüft und genehmigt werden, bevor sie live geschaltet werden. Diese Funktion ist in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre mehrsprachige Kampagne oder Journey senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

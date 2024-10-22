@@ -4,20 +4,15 @@ description: Erfahren Sie, wie Sie eine Anforderung für die Veröffentlichung v
 role: User
 level: Beginner
 feature: Approval
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # Anfrage überprüfen und genehmigen {#approve-requests}
-
->[!AVAILABILITY]
->
-> Genehmigungsrichtlinien sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Wenn eine Validierungsrichtlinie für eine Journey oder Kampagne gilt, muss sie zur Validierung unterbreitet werden, damit sie veröffentlicht werden kann. Dazu sendet der Ersteller einer Journey/Kampagne eine Anfrage an den/die Genehmiger, der/die in der Validierungsrichtlinie definiert ist/sind, und die Journey/Kampagne erhält den Status **[!UICONTROL In Überprüfung]** .
 
@@ -51,3 +46,7 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Änderungen anfordern]** . 
 ![](assets/request-changes.png)
 
 Nach dem Versand der Anfrage wird der Ersteller der Journey/Kampagne über eine E-Mail und einen Journey Optimizer-Warnhinweis benachrichtigt. Die Kampagne wechselt in den Status &quot;Entwurf&quot;. Sobald die Änderungen integriert wurden, kann der Ersteller der Journey/Kampagne sie erneut zur Genehmigung einreichen.
+
+>[!NOTE]
+>
+> Wenn Sie keine Validierungsbenachrichtigung per E-Mail erhalten, müssen Sie Ihre Abonnementvoreinstellungen in Ihren Experience Cloud-Profilen aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences)
