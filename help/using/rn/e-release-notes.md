@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 43%
+source-wordcount: '1854'
+ht-degree: 41%
 
 ---
 
@@ -111,6 +111,26 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <td>
 <p>Adobe Journey Optimizer ist bereits in Kampagnen verfügbar und unterstützt jetzt Experimente in Journeys. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
 <p>Bisher für eine Reihe von Organisationen (LA) verfügbar, sind nun Experimente in Journey verfügbar (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Entscheidungsfindung (Allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Entscheidungsfindung, die zuvor für eine Reihe von Organisationen (LA) verfügbar war und als Experience Decisioning bezeichnet wurde, steht nun allen Benutzern zur Verfügung (GA). Sie vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten anbietet, der als "Entscheidungselemente"bezeichnet wird, und eine ausgereifte Entscheidungs-Engine. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jede Person auszuwählen und darzustellen. Diese Entscheidungselemente sind über den code-basierten Erlebniskanal nahtlos in eine breite Palette von eingehenden Oberflächen integriert.</p>
+
+<p>Vorerst ist Decisioning nicht für Kunden verfügbar, die das Zusatzangebot Adobe Healthcare Shield und Privacy and Security Shield erworben haben.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 >[!AVAILABILITY]
 >
 >Funktionen zur Verwaltung von Konflikten und Prioritäten sind in der eingeschränkten Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.
-
-**Entscheidungs-Management**
-
-* **Audits** - Die Registerkarte **Änderungsprotokoll** , auf der Sie alle Änderungen sehen können, die an einem Angebot vorgenommen wurden oder an einer Entscheidung entfernt wurden. Änderungen in Bezug auf Angebote und Entscheidungen können jetzt im Menü **Audits** eingesehen werden.
-
 
 **Konfiguration**
 
