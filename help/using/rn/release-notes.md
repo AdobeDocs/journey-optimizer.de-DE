@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1717'
+ht-degree: 86%
 
 ---
 
@@ -127,6 +127,10 @@ Die unten aufgeführten [Funktionen](#24-10-features) und [Verbesserungen](#24-1
 * Beim Targeting einer CSV-Datei-Zielgruppe können Sie jetzt Attribute aus der Datei im Personalisierungseditor und im Regel-Builder für Journeys und Kampagnen verwenden. [Weitere Informationen](../audience/about-audiences.md)
 
 * Zielgruppen und Attribute aus benutzerdefinierten Uploads (CSV-Dateien) stehen jetzt zur Verwendung mit Healthcare Shield oder Privacy and Security Shield zur Verfügung.
+
+**Decisioning** - Verfügbarkeitsdatum: 8. Oktober 2024
+
+Beim Hinzufügen einer Entscheidungsrichtlinie zu einer code-basierten Kampagne mit Decisioning (früher als Experience Decisioning bekannt) können Sie jetzt zusätzlich zu den Auswahlstrategien manuell einzelne Entscheidungselemente auswählen. Darüber hinaus können Sie jetzt mehr als ein Fallback-Angebot auswählen. Dadurch wird sichergestellt, dass eine bestimmte Anzahl von zurückgegebenen Entscheidungselementen vorhanden ist. [Weitere Informationen](../experience-decisioning/create-decision.md)
 
 ## Version September 2024 {#24-9-rn}
 
