@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 44%
+source-wordcount: '1793'
+ht-degree: 43%
 
 ---
 
@@ -273,6 +273,10 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
    * Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
 
 * **Parameter in benutzerdefinierten Aktionen** (Verfügbarkeitsdatum: 3. Oktober 2024) - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Reporting**
+
+* **Berichte zu Erlebnisentscheidungen** ist jetzt verfügbar und bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit Ihren Erlebnissen.
 
 **Richtlinien für Data Governance und Einverständnis** – Verfügbarkeitsdatum: 7. Oktober 2024
 
