@@ -9,7 +9,7 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 ## Überprüfen der Web-Berichte {#check-web-reports}
 
-Sobald Ihr Web-Erlebnis live ist, können Sie auf der Registerkarte **[!UICONTROL Web]** des [Journey-Berichts](../reports/journey-global-report-cja-web.md) und des [Kampagnenberichts](../reports/campaign-global-report-cja-web.md) Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Interaktionen mit Ihrer Webseite vergleichen.
+Sobald Ihr Web-Erlebnis live ist, können Sie auf der Registerkarte **[!UICONTROL Web]** des [Journey-Berichts](../reports/journey-global-report-cja-web.md) und des [Kampagnenberichts](../reports/campaign-global-report-cja-web.md) Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Zugriffe auf Ihre Web-Seite vergleichen.
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 

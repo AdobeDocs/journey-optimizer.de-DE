@@ -9,37 +9,37 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 44%
+ht-degree: 73%
 
 ---
 
 # Erstellen von Code-basierten Erlebnissen {#create-code-based}
 
-In [!DNL Journey Optimizer] können Sie code-basierte Erlebnisse in einer Journey oder Kampagne erstellen.
+In [!DNL Journey Optimizer] können Sie Code-basierte Erlebnisse in einer Journey oder Kampagne erstellen.
 
 Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Schutzmechanismen und Empfehlungen für Code-basierte Erlebnisse ausführlich beschrieben.
 
-## Codebasiertes Erlebnis über eine Journey oder Kampagne hinzufügen {#create-code-based-experience}
+## Hinzufügen von Code-basierten Erlebnissen über eine Journey oder Kampagne {#create-code-based-experience}
 
-Gehen Sie wie folgt vor, um mit der Erstellung eines code-basierten Erlebnisses über eine Journey oder eine Kampagne zu beginnen.
+Führen Sie die folgenden Schritte aus, um Ihr Code-basiertes Erlebnis durch eine Journey oder Kampagne zu erstellen.
 
 >[!BEGINTABS]
 
->[!TAB Hinzufügen eines code-basierten Erlebnisses zu einer Journey]
+>[!TAB  Hinzufügen eines Code-basierten Erlebnisses zu einer Journey]
 
-Gehen Sie wie folgt vor, um eine **code-basierte Erlebnis** -Aktivität zu einer Journey hinzuzufügen:
+Gehen Sie wie folgt vor, um die Aktivität **Code-basiertes Erlebnis** zu einer Journey hinzuzufügen:
 
-1. [Erstellen Sie eine Journey](../building-journeys/journey-gs.md).
+1. [Erstellen einer Journey](../building-journeys/journey-gs.md)
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](../building-journeys/read-audience.md).
 
-1. Ziehen Sie die Aktivität **[!UICONTROL Code-basiertes Erlebnis]** aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
+1. Ziehen Sie aus dem Bereich **[!UICONTROL Aktionen]** der Palette die Aktivität **[!UICONTROL Code-basiertes Erlebnis]**.
 
    ![](assets/code-based-activity-journey.png)
 
    >[!NOTE]
    >
-   >Da **code-basiertes Erlebnis** eine eingehende Nachrichtenaktivität ist, ist sie mit einer 3-Tage-Aktivität vom Typ **Warten** ausgestattet. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+   >Da es sich bei **Code-basiertes Erlebnis** um eine Aktivität für eingehende Nachrichten handelt, ist sie mit einer 3-tägigen Aktivität **Wartezeit** verbunden. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
@@ -47,17 +47,17 @@ Gehen Sie wie folgt vor, um eine **code-basierte Erlebnis** -Aktivität zu einer
 
    ![](assets/code-based-activity-config.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** aus und bearbeiten Sie den Inhalt mit dem Personalisierungs-Editor nach Bedarf. [Weitere Informationen](#edit-code)
+1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** aus und bearbeiten Sie Ihren Inhalt wie gewünscht mit dem Personalisierungseditor. [Weitere Informationen](#edit-code)
 
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
-1. Sobald Ihr code-basiertes Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Sie Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+1. Sobald Ihr Code-Basis-Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
 >[!TAB Erstellen einer Code-basierten Erlebniskampagne]
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihres **code-basierten Erlebnisses** durch eine Kampagne zu beginnen.
+Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne zu erstellen.
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
@@ -91,7 +91,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >abstract="Fügen Sie den Code ein, den Sie als Teil dieser Code-basierten Erlebnisaktion bereitstellen möchten, und bearbeiten Sie ihn."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=de" text="Erste Schritte mit dem Personalisierungseditor"
 
-1. Wählen Sie im Bildschirm Journey-Aktivität oder Kampagnenbearbeitung die Option **[!UICONTROL Code bearbeiten]** aus.
+1. Wählen Sie in der Aktivität „Journey“ oder im Bildschirm „Kampagnenbearbeitung“ die Option **[!UICONTROL Code bearbeiten]** aus.
 
    ![](assets/code-based-campaign-edit-code.png)
 
@@ -111,7 +111,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    Sie können auch einen Teil Ihres Code-Inhalts als Fragment speichern. [Weitere Informationen](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Bei code-basierten Erlebnissen können Sie die Entscheidungsfunktion für Erlebnisse verwenden. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md)
+1. In Code-basierten Erlebnissen kann die Entscheidungsfunktion für Erlebnisse verwendet werden. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -137,7 +137,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie auf der Journey oder Kampagne entweder im Personalisierungs-Editor oder im Bildschirm zum Bearbeiten von Inhalten die Option **[!UICONTROL Inhalt simulieren]** aus.
+1. Wählen Sie in der Journey oder Kampagne entweder im Personalisierungseditor oder im Bildschirm „Inhalt bearbeiten“ die Option **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -215,45 +215,45 @@ Beim Erstellen code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 
    Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Behandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Registerkarten kopieren und die Erlebnisse vergleichen.
 
-## Gestalten Sie Ihr code-basiertes Erlebnis live {#code-based-experience-live}
+## Live-Schalten Ihres Code-basierten Erlebnisses {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
 > Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre code-basierten Erlebnisse aktivieren zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-Nachdem Sie Ihr code-basiertes Erlebnis definiert und Ihren Inhalt mit dem [code-basierten Editor](#edit-code) nach Bedarf bearbeitet haben, können Sie Ihre Journey oder Kampagne aktivieren, um Ihre Änderungen für Ihre Zielgruppe sichtbar zu machen.
+Nachdem Sie Ihr Code-basiertes Erlebnis definiert und Ihren Inhalt mit dem [Code-basierten Editor](#edit-code) nach Bedarf bearbeitet haben, können Sie Ihre Journey oder Kampagne aktivieren, um Ihre Änderungen für Ihre Zielgruppe sichtbar zu machen.
 
-Sie können auch eine Vorschau Ihres code-basierten Erlebnisinhalts anzeigen, bevor Sie es aktivieren. [Weitere Informationen](#test-code-based-experience)
+Sie können auch eine Vorschau Ihrer Code-basierten Erlebnisinhalte anzeigen, bevor Sie sie live schalten. [Weitere Informationen](#test-code-based-experience)
 
 >[!NOTE]
 >
->Wenn Sie eine code-basierte Journey/Kampagne aktivieren, die sich auf dieselben Seiten auswirkt wie eine andere Journey oder Kampagne, die bereits live ist, werden alle Änderungen auf Ihren Inhalt angewendet.
+>Wenn Sie eine Code-basierte Journey/Kampagne aktivieren, die sich auf dieselben Seiten wie eine andere Journey oder Kampagne auswirkt, die bereits live ist, werden alle Änderungen auf Ihre Inhalte angewendet.
 >
->Wenn mehrere codebasierte Journey oder Kampagnen dieselben Elemente Ihres Inhalts aktualisieren, hat die Journey/Kampagne mit der höchsten Priorität Vorrang.
+>Wenn mehrere Code-basierte Journeys oder Kampagnen dieselben Elemente Ihres Inhalts aktualisieren, hat die Journey/Kampagne mit der höchsten Priorität Vorrang.
 
 Sobald Ihre code-basierte Journey oder Kampagne live ist, ist Ihr App-Implementierungsteam dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten [code-basierten Erlebniskonfiguration](code-based-configuration.md) definierten Oberflächen abzurufen. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
-### Publish - Codebasierte Journey {#publish-code-based-journey}
+### Veröffentlichen einer Code-basierten Journey {#publish-code-based-journey}
 
-Gehen Sie wie folgt vor, um das code-basierte Erlebnis von einer Journey live zu machen.
+Gehen Sie wie folgt vor, um das Code-basierte Erlebnis von einer Journey live zu schalten.
 
 1. Stellen Sie sicher, dass Ihre Journey gültig ist und kein Fehler vorliegt. [Weitere Informationen](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Wählen Sie auf der Journey die Option **[!UICONTROL Publish]** aus, die sich oben rechts in der Dropdown-Liste befindet.
+1. Wählen Sie in der Journey im Dropdown-Menü oben rechts die Option **[!UICONTROL Veröffentlichen]** aus.
 
    ![](assets/code-based-journey-publish.png)
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Veröffentlichen von Journey finden Sie in [diesem Abschnitt](../building-journeys/publishing-the-journey.md).
+   >Erfahren Sie mehr über die Veröffentlichung von Journeys in [diesem Abschnitt](../building-journeys/publishing-the-journey.md).
 
-Ihre code-basierte Journey erhält den Status **[!UICONTROL Live]** und ist nun für die ausgewählte Zielgruppe sichtbar. Jeder Empfänger Ihrer Journey kann Ihre Änderungen sehen.
+Ihre Code-basierte Journey erhält den Status **[!UICONTROL Live]** und ist nun für die ausgewählte Zielgruppe sichtbar. Jede Empfängerin und jeder Empfänger der Journey kann die Änderungen sehen.
 
 >[!NOTE]
 >
->Nachdem Sie auf **[!UICONTROL Publish]** geklickt haben, kann es bis zu 15 Minuten dauern, bis die Änderungen verfügbar sind.
+>Nachdem Sie auf **[!UICONTROL Veröffentlichen]** geklickt haben, kann es bis zu 15 Minuten dauern, bis die Änderungen live verfügbar sind.
 
-### Codebasierte Kampagne aktivieren {#activate-code-based-campaign}
+### Aktivieren einer Code-basierten Kampagne {#activate-code-based-campaign}
 
 1. Wählen Sie in Ihrer Code-basierten Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]**.
 
@@ -269,27 +269,27 @@ Ihre code-basierte Journey erhält den Status **[!UICONTROL Live]** und ist nun 
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Die Code-basierte Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Jeder Empfänger Ihrer Kampagne kann die Änderungen sehen, die Sie zu Ihrem Inhalt hinzugefügt haben.
+Die Code-basierte Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänger Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrem Inhalt vorgenommen haben.
 
 >[!NOTE]
 >
->Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Ihre Änderungen verfügbar sind.
+>Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Ihre Änderungen live verfügbar sind.
 >
 >Wenn ein Zeitplan für die Code-basierte Kampagne definiert wurde, hat sie den Status **[!UICONTROL Geplant]**, bis das Startdatum und die Startzeit erreicht werden.
 
-## Codebasierte Journey oder Kampagne stoppen {#stop-code-based-experience}
+## Stoppen einer Code-basierten Journey oder Kampagne {#stop-code-based-experience}
 
-Wenn ein code-basiertes Erlebnis live ist, können Sie es stoppen, um zu verhindern, dass Ihre Zielgruppe Ihre Änderungen sieht. Führen Sie dazu folgende Schritte durch.
+Wenn ein Code-basiertes Erlebnis live ist, können Sie es stoppen, um zu verhindern, dass Ihre Zielgruppe Ihre Änderungen sieht. Führen Sie dazu folgende Schritte durch.
 
-1. Wählen Sie eine Live-Journey oder Kampagne aus der entsprechenden Liste aus.
+1. Wählen Sie eine Live-Journey oder -Kampagne aus der entsprechenden Liste aus.
 
-1. Führen Sie die entsprechende Aktion entsprechend Ihrem Fall aus:
+1. Führen Sie je nach Fall die entsprechende Aktion aus:
 
-   * Wählen Sie im oberen Kampagnenmenü die Option **[!UICONTROL Kampagne stoppen]**.
+   * Wählen Sie im oberen Menü der Kampagne **[!UICONTROL Kampagne stoppen]**.
 
      ![](assets/code-based-campaign-stop.png)
 
-   * Klicken Sie im oberen Menü auf die Schaltfläche **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Stoppen]** aus.
+   * Klicken Sie im oberen Menü der Journey auf die Schaltfläche **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Stoppen]**.
 
      ![](assets/code-based-journey-stop.png)
 
@@ -297,7 +297,7 @@ Wenn ein code-basiertes Erlebnis live ist, können Sie es stoppen, um zu verhind
 
 >[!NOTE]
 >
->Nachdem eine code-basierte Journey oder Kampagne beendet wurde, können Sie sie nicht mehr bearbeiten oder erneut aktivieren. Sie können sie nur duplizieren und die duplizierte Journey/Kampagne aktivieren.
+>Sobald eine Code-basierte Journey oder Kampagne gestoppt wurde, können Sie sie nicht mehr bearbeiten oder aktivieren. Sie können sie nur duplizieren und die duplizierte Journey/Kampagne aktivieren.
 
 <!--Reporting TBC
 

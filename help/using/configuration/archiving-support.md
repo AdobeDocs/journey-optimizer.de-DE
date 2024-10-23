@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkei
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] bietet keine Unterstützung für die Anforderung zur SMS-Archivierung. Arbeiten Sie für dedizierten Archivierungssupport mit Ihrem SMS-Anbieter (Sinch, Infobip oder Twilio) zusammen.
+>[!DNL Journey Optimizer] bietet keine Unterstützung für die Anforderung zur SMS-Archivierung. Für eine dedizierte Archivierungsunterstützung wenden Sie sich an Ihren SMS-Anbieter (Sinch, Infobip oder Twilio).
 
 ## So verwenden Sie BCC in E-Mails {#bcc-email}
 
@@ -119,7 +119,7 @@ Gehen Sie dazu wie folgt vor.
 
 Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]** gespeichert. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
 
-Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Datenverwaltung]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
+Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -224,23 +224,23 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
 
-### Nachrichten-Header verwenden, um BCC-Kopien abzustimmen und E-Mail-Informationen zu senden {#bcc-header}
+### Verwenden des Nachrichten-Headers, um BCC-Kopien und gesendete E-Mail-Informationen abzugleichen {#bcc-header}
 
 Wenn Ihre E-Mail-BCC-Kopien beispielsweise auf einem externen System archiviert werden, können Sie die Informationen zu den entsprechenden gesendeten E-Mails mithilfe eines in der Nachricht enthaltenen Headers abrufen.
 
-Jede E-Mail-Nachricht enthält jetzt einen Header mit dem Namen `x-message-profile-id`. Der Wert dieses Headers ist für jedes Profil anders: Er ist für jede gesendete E-Mail und die entsprechende BCC-E-Mail-Kopie eindeutig.
+Jede E-Mail-Nachricht enthält jetzt einen Header mit dem Namen `x-message-profile-id`. Der Wert dieses Headers ist für jedes Profil unterschiedlich: Er ist für jede gesendete E-Mail und die entsprechende BCC-E-Mail-Kopie eindeutig.
 
-Die Kopfzeile `x-message-profile-id` wird auch in den folgenden Systemdatensätzen gespeichert: [AJO Message Feedback Event Datensatz](../data/datasets-query-examples.md#message-feedback-event-dataset) (gesendete E-Mails) und [AJO BCC Feedback Event Datensatz](#bcc-reporting) (BCC-Kopien). Sie können diese Datensätze abfragen, um die BCC-Kopie mit der entsprechenden tatsächlichen E-Mail abzustimmen.
+Der Header `x-message-profile-id` wird auch in den folgenden Systemdatensätzen gespeichert: [AJO-Nachrichten-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#message-feedback-event-dataset) (gesendete E-Mails) und [AJO-BCC-Feedback-Ereignisdatensatz](#bcc-reporting) (BCC-Kopien). Sie können diese Datensätze abfragen, um die BCC-Kopie und die entsprechende tatsächliche E-Mail abzugleichen.
 
-* Um über die Benutzeroberfläche auf diese Datensätze zuzugreifen, wählen Sie **[!UICONTROL Datenverwaltung]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
+* Um über die Benutzeroberfläche auf diese Datensätze zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
 
-* Verwenden Sie den Abfrage-Editor, der vom [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
+* Verwenden Sie den Abfrage-Editor, der vom [Abfragedienst von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de) bereitgestellt wird{target="_blank"}. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 
-Im Folgenden finden Sie einige Beispielabfragen, mit denen Sie Informationen abrufen können, die Ihren BCC-Kopien entsprechen.
+Nachfolgend finden Sie einige Beispielabfragen, die Sie ausführen können, um Informationen zu Ihren BCC-Kopien abzurufen.
 
 **Abfrage 1**
 
-Um das BCC-Ereignis mit dem entsprechenden Feedback-Ereignis für die tatsächliche E-Mail mit den Details der Kampagnenaktion zu verknüpfen:
+So verknüpfen Sie das BCC-Ereignis mit dem entsprechenden Feedback-Ereignis für die tatsächliche E-Mail mit den Details der Kampagnenaktion:
 
 ```
 SELECT
@@ -265,7 +265,7 @@ ORDER BY mfe.timestamp DESC;
 
 **Abfrage 2**
 
-Um das BCC-Ereignis mit dem entsprechenden Feedback-Ereignis für die eigentliche E-Mail mit den Journey-Aktionsdetails zu verknüpfen:
+So verknüpfen Sie das BCC-Ereignis mit dem entsprechenden Feedback-Ereignis für die eigentliche E-Mail mit den Details der Journey-Aktion:
 
 ```
 SELECT

@@ -9,7 +9,7 @@ exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -130,11 +130,11 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
 ## Reporting-Voraussetzungen {#experiment-prerequisites}
 
-Um die Berichterstellung für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der in Ihrer Web-Implementierung verwendet wird [Datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"}, auch in Ihrer Berichtskonfiguration enthalten ist.
+Um das Reporting für den Web-Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der im [Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de) Ihrer Web-Implementierung verwendet wird, {target="_blank"} auch in Ihrer Reporting-Konfiguration enthalten ist.
 
-Anders ausgedrückt: Wenn Sie bei der Konfiguration der Berichterstellung einen Datensatz hinzufügen, der nicht in Ihrem Webdatenspeicher vorhanden ist, werden keine Webdaten in Ihren Berichten angezeigt.
+Mit anderen Worten: Wenn Sie bei der Konfiguration des Reportings einen Datensatz hinzufügen, der nicht in Ihrem Web-Datenstrom enthalten ist, werden die Web-Daten nicht in Ihren Berichten angezeigt.
 
-In [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für die Berichterstellung hinzufügen.
+Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets), wie Sie Datensätze für das Reporting hinzufügen.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ In [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets) erfahr
 
 Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden für die Berichterstellung von [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journey jedes Profil teilnimmt.
 
-[Weitere Informationen zur Berichtskonfiguration](../reports/reporting-configuration.md)
+[Erfahren Sie mehr über die Reporting-Konfiguration](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

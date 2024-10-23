@@ -11,7 +11,7 @@ exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
 workflow-type: tm+mt
 source-wordcount: '1083'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -188,8 +188,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Darüber hinaus können Benutzer maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
-> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn daher innerhalb dieses Zeitrahmens 25 Zielgruppen veröffentlicht werden, können zusätzliche Zielgruppen erst veröffentlicht werden, nachdem der 48-Stunden-Zeitraum abgelaufen ist.
+>Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
+> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

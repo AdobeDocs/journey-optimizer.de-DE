@@ -1,51 +1,51 @@
 ---
-title: Anfrage überprüfen und genehmigen
-description: Erfahren Sie, wie Sie eine Anforderung für die Veröffentlichung von Journey und Kampagnen überprüfen und genehmigen können.
+title: Überprüfen und Genehmigen einer Anfrage
+description: Erfahren Sie, wie Sie eine Anfrage zur Veröffentlichung von Journeys und Kampagnen prüfen und genehmigen.
 role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
-# Anfrage überprüfen und genehmigen {#approve-requests}
+# Überprüfen und Genehmigen einer Anfrage {#approve-requests}
 
-Wenn eine Validierungsrichtlinie für eine Journey oder Kampagne gilt, muss sie zur Validierung unterbreitet werden, damit sie veröffentlicht werden kann. Dazu sendet der Ersteller einer Journey/Kampagne eine Anfrage an den/die Genehmiger, der/die in der Validierungsrichtlinie definiert ist/sind, und die Journey/Kampagne erhält den Status **[!UICONTROL In Überprüfung]** .
+Falls für eine Journey oder Kampagne eine Genehmigungsrichtlinie gilt, muss sie zur Genehmigung vorgelegt werden, damit sie veröffentlicht werden kann. Zu diesem Zweck sendet die erstellende Person der Journey/Kampagne eine Anfrage an die in der Genehmigungsrichtlinie definierten genehmigenden Personen und die Journey/Kampagne erhält den Status **[!UICONTROL In Überprüfung]**.
 
-Wenn Sie als Genehmiger ausgewählt wurden, werden Sie über eine E-Mail und einen Journey Optimizer-Warnhinweis benachrichtigt, auf den Sie durch Klicken auf das Glockensymbol oben rechts im Bildschirm auf der Registerkarte **[!UICONTROL Anforderungen]** zugreifen können.
+Wenn Sie als genehmigende Person ausgewählt wurden, werden Sie durch eine E-Mail und eine Journey Optimizer-Benachrichtigung benachrichtigt, auf die Sie zugreifen können, wenn Sie auf das Glockensymbol oben rechts im Bildschirm auf der Registerkarte **[!UICONTROL Anfragen]** klicken.
 
 ![](assets/request-notification.png)
 
-Um die Journey/Kampagne zu überprüfen, öffnen Sie sie über die E-Mail oder den Warnhinweis und überprüfen Sie die Einstellungen wie Zielgruppe, Inhalt oder Einstellungen.
-Danach können Sie entweder [die Journey/Kampagne](#approve) genehmigen und veröffentlichen oder [Änderungen anfordern, bevor Sie sie aktivieren](#changes).
+Um die Journey/Kampagne zu überprüfen, öffnen Sie sie aus der E-Mail oder der Benachrichtigung heraus und überprüfen Sie die Einstellungen wie Zielgruppe, Inhalt oder Einstellungen.
+Danach können Sie entweder [die Journey/Kampagne genehmigen und veröffentlichen](#approve) oder [Änderungen anfordern, bevor Sie sie aktivieren](#changes).
 
 >[!NOTE]
 >
->Die Überprüfung einer Kampagne ist schreibgeschützt: Sie können alle Einstellungen visualisieren, jedoch keine Aktionen daran durchführen.
+>Die Überprüfung einer Kampagne ist ein schreibgeschützter Vorgang: Sie können alle Einstellungen einsehen, aber keine Maßnahmen ergreifen.
 >
->Bevor Sie eine Journey oder Kampagne überprüfen, stellen Sie sicher, dass Sie über die erforderlichen Berechtigungen verfügen.
+>Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen verfügen, bevor Sie eine Journey oder Kampagne überprüfen.
 
-## Journey/Kampagne genehmigen und veröffentlichen {#approve}
+## Genehmigen und Veröffentlichen einer Journey/Kampagne {#approve}
 
-Wenn eine Journey oder Kampagne live geschaltet werden kann, können Sie sie durch Klicken auf die Schaltfläche **[!UICONTROL Genehmigen]** genehmigen.
+Wenn eine Journey oder Kampagne bereit ist, live geschaltet zu werden, können Sie sie genehmigen, indem Sie auf die Schaltfläche **[!UICONTROL Genehmigen]** klicken.
 
-Klicken Sie im sich öffnenden Fenster auf **[!UICONTROL Genehmigen und aktivieren]** , um die Journey/Kampagne zu aktivieren.
+Klicken Sie im sich öffnenden Fenster auf **[!UICONTROL Genehmigen und aktivieren]**, um die Journey/Kampagne live zu schalten.
 
 ![](assets/approve-request.png)
 
-## Anforderungsänderungen an einer Journey/Kampagne {#changes}
+## Beantragen von Änderungen an einer Journey/Kampagne {#changes}
 
-Wenn Änderungen an einer Journey oder Kampagne erforderlich sind, die zur Genehmigung gesendet wurde, können Sie eine Anfrage an den Ersteller senden, damit er die erforderlichen Änderungen vornimmt.
+Wenn in einer Journey oder Kampagne, die zur Genehmigung gesendet wurde, Änderungen erforderlich sind, können Sie eine Anfrage an die erstellende Person senden, damit diese die notwendigen Änderungen vornimmt.
 
-Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Änderungen anfordern]** . Geben Sie in den sich öffnenden Bereichen eine Meldung mit Details zu Ihrer Anfrage ein und klicken Sie auf **[!UICONTROL Senden]** , um Ihre Anfrage zu senden.
+Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Änderungen anfordern]**. Geben Sie in dem sich öffnenden Fenster eine Nachricht ein, in der Sie Ihre Anfrage beschreiben, und klicken Sie auf **[!UICONTROL Senden]**, um Ihre Anfrage zu übermitteln.
 
 ![](assets/request-changes.png)
 
-Nach dem Versand der Anfrage wird der Ersteller der Journey/Kampagne über eine E-Mail und einen Journey Optimizer-Warnhinweis benachrichtigt. Die Kampagne wechselt in den Status &quot;Entwurf&quot;. Sobald die Änderungen integriert wurden, kann der Ersteller der Journey/Kampagne sie erneut zur Genehmigung einreichen.
+Nach dem Absenden der Anfrage wird die erstellende Person, die die Journey/Kampagne erstellt hat, durch eine E-Mail und eine Benachrichtigung von Journey Optimizer informiert. Die Kampagne kehrt in den Status „Entwurf“ zurück. Sobald die Änderungen integriert sind, kann die erstellende Person die Journey/Kampagne erneut zur Genehmigung einreichen.
 
 >[!NOTE]
 >

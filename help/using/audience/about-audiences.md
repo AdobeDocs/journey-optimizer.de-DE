@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 75%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die m
 
 >[!AVAILABILITY]
 >
->Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht für die Verwendung mit dem Gesundheitsschild oder dem Datenschutz- und Sicherheitsschild verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
+>Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in Journey Optimizer verwenden.](../audience/about-audiences.md#enrichment)
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -71,11 +71,11 @@ Beim Targeting einer Zielgruppe, die mithilfe von Kompositionsarbeitsabläufen, 
 
 >[!NOTE]
 >
->Zielgruppen, die vor dem 1. Oktober 2024 über den benutzerdefinierten Upload einer CSV-Datei erstellt wurden, können nicht personalisiert werden. Um Attribute aus diesen Zielgruppen zu verwenden und die Vorteile dieser Funktion voll auszuschöpfen, erstellen Sie eine externe CSV-Zielgruppe, die vor diesem Datum importiert wurde, und laden Sie sie erneut hoch.
+>Zielgruppen, die vor dem 1. Oktober 2024 über den benutzerdefinierten Upload einer CSV-Datei erstellt wurden, können nicht personalisiert werden. Um Attribute aus diesen Zielgruppen zu verwenden und diese Funktion voll auszunutzen, erstellen Sie bitte alle externen CSV-Zielgruppen, die vor diesem Datum importiert wurden, neu und laden Sie sie erneut hoch.
 >
->Einverständnisrichtlinien unterstützen keine Anreicherungsattribute. Daher sollten Regeln für Einwilligungsrichtlinien nur auf Attributen basieren, die im Profil gefunden werden.
+>Einverständnisrichtlinien unterstützen keine Anreicherungsattribute. Daher sollten sich alle Regeln für Einverständnisrichtlinien nur auf Attribute stützen, die im Profil zu finden sind.
 
-Im Folgenden finden Sie die Aktionen, die Sie mit den Anreicherungsattributen von Zielgruppen ausführen können:
+Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgruppen durchführen können:
 
 * **Erstellen Sie in einer Journey mehrere Pfade** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe einer Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in einer Aktivität [Bedingung](../building-journeys/condition-activity.md), die auf den Anreicherungsattributen der Zielgruppe basiert.
 
@@ -87,16 +87,16 @@ Im Folgenden finden Sie die Aktionen, die Sie mit den Anreicherungsattributen vo
 
 >[!IMPORTANT]
 >
->Um Anreicherungsattribute aus Zielgruppen zu verwenden, die mithilfe von Komprimierungs-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldergruppe in der Data Source von &quot;Experience Platform&quot;hinzugefügt werden.
+>Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden.
 >
 +++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
 >
 1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
 1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
-1. Wählen Sie in der Schemaauswahl das entsprechende Schema aus. Der Name des Schemas weist folgendes Format auf: &#39;Schema for audienceId:&#39; + die Kennung der Audience. Die Kennung der Zielgruppe finden Sie auf dem Bildschirm mit den Zielgruppendetails im Zielgruppeninventar.
+1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
 1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
 1. Speichern Sie Ihre Änderungen.
-1. Nachdem einer Feldergruppe Anreicherungsattribute hinzugefügt wurden, können Sie sie in Journey Optimizer an den oben aufgeführten Speicherorten nutzen.
+1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
 >
 Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 >
@@ -109,17 +109,17 @@ Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 
 Dieser Abschnitt enthält wichtige Informationen, die Sie beim Arbeiten mit benutzerdefinierten Upload-Zielgruppen (CSV-Dateien) und Federated Audience Komposition beachten sollten:
 
-* **Vorschau- und Testversandunterstützung:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Upload oder Federated Audience Komposition erstellt wurden, nicht unterstützt. Beachten Sie dies bei der Planung Ihrer Kampagnen.
+* **Vorschau- und Testversandunterstützung:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Upload oder Federated Audience Komposition erstellt wurden, nicht unterstützt. Berücksichtigen Sie dies bei der Planung Ihrer Kampagnen.
 
 * **Schnelle Aktivierungs- und Identitätszusammenfügungsverzögerungen:** Die Adobe Experience Platform-Architektur verzögert die Identitätszuordnung, damit benutzerdefinierte Upload- und Zusammenführungszielgruppen sofort für die Aktivierung in Journey Optimizer verfügbar sind. Dies hat folgende Auswirkungen:
 
-   * Zielgruppen können direkt nach Abschluss der Erfassung in Journey Optimizer verwendet werden. Dies erfolgt normalerweise innerhalb einer Stunde, kann jedoch variabel sein.
-   * Die Anzahl der aktivierten Datensätze kann von der Anzahl der Profile nach der Identitätszusammenfügung abweichen.
-   * Jeder Datensatz in der Audience wird aktiviert, einschließlich aller Duplikate. Beim nächsten UPS-Profilexport durchlaufen diese Datensätze die Identitätszuordnung.
+   * Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in Journey Optimizer bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren.
+   * Die Anzahl der aktivierten Einträge kann von der Anzahl der Profile nach der Identitätszuordnung abweichen.
+   * Jeder Datensatz in der Audience wird aktiviert, einschließlich aller Duplikate. Beim nächsten Export des UPS-Profils werden diese Einträge einer Identitätszuordnung unterzogen.
 
-* **Targeting neuer Profile:** Wenn zwischen einem Datensatz und einem UPS-Profil keine Übereinstimmung gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind die in Journey Optimizer normalerweise verwendeten Zielgruppenfelder (z. B. personalEmail.address, mobilePhone.number) leer und können daher nicht für das Targeting verwendet werden.
+* **Targeting neuer Profile:** Wenn zwischen einem Datensatz und einem UPS-Profil keine Übereinstimmung gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind auch die Targeting-Felder, die normalerweise in Journey Optimizer verwendet werden (wie z. B. personalEmail.address, mobilePhone.number), leer und können daher nicht für das Targeting verwendet werden. 
 
-  Um dies zu beheben, können Sie in der Kanalkonfiguration das &quot;Ausführungsfeld&quot;(oder je nach Kanal &quot;Ausführungsadresse&quot;) als &quot;identityMap&quot;(identityMap) angeben. Dadurch wird sichergestellt, dass das bei der Zielgruppenerstellung als Identität gewählte Attribut für das Targeting in Journey Optimizer verwendet wird.
+  Um dieses Problem zu lösen, können Sie das „Ausführungsfeld“ (oder je nach Kanal die „Ausführungsadresse“) in der Kanalkonfiguration als „identityMap“ angeben. Dadurch wird sichergestellt, dass das bei der Zielgruppenerstellung als Identität gewählte Attribut für das Targeting in Journey Optimizer verwendet wird.
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 
@@ -226,7 +226,7 @@ Anreicherungsattribute aus der Zielgruppenkomposition können in den folgenden B
 
 +++ Wie aktiviere ich Anreicherungsattribute in Journeys?
 
-Um Anreicherungsattribute aus Zielgruppen zu verwenden, die mithilfe von Komprimierungs-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldergruppe in der Data Source &quot;Experience Platform&quot;hinzugefügt werden. Informationen zum Hinzufügen von Anreicherungsattributen zu einer Feldgruppe finden Sie in [diesem Abschnitt](#enrichment)
+Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden. Informationen zum Hinzufügen von Anreicherungsattributen zu einer Feldgruppe finden Sie in [diesem Abschnitt](#enrichment)
 
 +++
 

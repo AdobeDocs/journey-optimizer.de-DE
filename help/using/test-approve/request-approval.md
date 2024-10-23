@@ -1,35 +1,35 @@
 ---
-title: Anfragen einer Genehmigung
-description: Erfahren Sie, wie Sie vor der Veröffentlichung Ihrer Journey und Kampagnen eine Genehmigung anfordern können.
+title: Anfordern einer Genehmigung
+description: Erfahren Sie, wie Sie vor der Veröffentlichung Ihrer Journeys und Kampagnen eine Genehmigung anfordern können.
 role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Anfragen einer Genehmigung {#request-approval}
+# Anfordern einer Genehmigung  {#request-approval}
 
-Wenn die Genehmigungs-Workflow-Funktion für Ihr Unternehmen aktiviert wurde, werden Sie feststellen, dass die Schaltflächen **[!UICONTROL Aktivieren]** und **[!UICONTROL Publish]** nicht mehr in den Arbeitsabläufen zum Erstellen von Kampagnen bzw. zum Erstellen von Journey-Workflows verfügbar sind. Diese Schaltflächen wurden durch die Schaltfläche **[!UICONTROL Genehmigung anfordern]** ersetzt.
+Wenn der Genehmigungs-Workflow für Ihre Organisation aktiviert wurde, werden Sie feststellen, dass die Schaltflächen **[!UICONTROL Aktivieren]** und **[!UICONTROL Veröffentlichen]** in den Workflows „Kampagne erstellen“ und „Journey erstellen“ nicht mehr verfügbar sind. Diese Schaltflächen wurden durch die Schaltfläche **[!UICONTROL Genehmigung anfordern]** ersetzt.
 
-Nachdem Sie die Kampagne oder Journey erstellt haben, müssen Sie auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** klicken. Dadurch wird geprüft, ob in Ihrer Sandbox eine aktive Validierungsrichtlinie für die Kampagne oder Journey vorhanden ist. Wenn eine relevante Validierungsrichtlinie gefunden wird, beginnt der Genehmigungsprozess. Wenn keine gültige Validierungsrichtlinie existiert, wird die Kampagne oder Journey automatisch validiert und aktiviert oder veröffentlicht.
+Nachdem Sie die Kampagne oder Journey erstellt haben, müssen Sie auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** klicken. Dadurch wird geprüft, ob es in Ihrer Sandbox eine aktive Genehmigungsrichtlinie gibt, die für die Kampagne oder Journey gilt. Wenn eine entsprechende Genehmigungsrichtlinie gefunden wird, beginnt der Genehmigungsprozess. Wenn keine entsprechende Genehmigungsrichtlinie vorhanden ist, wird die Kampagne oder Journey automatisch genehmigt und entweder aktiviert oder veröffentlicht.
 
-Der Bereich **[!UICONTROL Genehmigung anfordern]** wird geöffnet. Geben Sie bei Bedarf eine Nachricht für die Genehmiger ein und klicken Sie auf **[!UICONTROL Senden]** , um Ihre Anfrage zu senden.
+Der Bereich **[!UICONTROL Genehmigung anfordern]** wird geöffnet. Geben Sie ggf. eine Nachricht für die genehmigende(n) Person(en) ein und klicken Sie auf **[!UICONTROL Senden]**, um Ihre Anfrage zu übermitteln.
 
 ![](assets/approval-request.png)
 
-Während die Kampagne oder Journey den Status **[!UICONTROL In Review]** aufweist, haben Sie die Möglichkeit, die Genehmigungsanfrage abzubrechen. Wenn Sie auf die Schaltfläche **[!UICONTROL Anfrage abbrechen]** klicken, kehrt die Kampagne bzw. Journey zur Entwurfsstufe zurück und die Validierer werden über den Abbruch der Anforderung informiert. Anschließend können Sie die erforderlichen Änderungen vornehmen und die Kampagne oder Journey erneut zur Genehmigung einreichen.
+Während sich die Kampagne oder Journey im Status **[!UICONTROL In Überprüfung]** befindet, haben Sie die Möglichkeit, die Genehmigungsanfrage zu stornieren. Wenn Sie auf die Schaltfläche **[!UICONTROL Anfrage stornieren]** klicken, kehrt die Kampagne oder Journey in die Entwurfsphase zurück, und die prüfenden Personen erhalten eine Benachrichtigung, dass die Anfrage storniert wurde. Sie können dann die erforderlichen Änderungen vornehmen und die Kampagne oder Journey erneut zur Genehmigung einreichen.
 
 ![](assets/approval-cancel.png)
 
-Nachdem die Validierungsanfrage an die Validierungsverantwortlichen gesendet wurde, können sie sie überprüfen und entweder die Journey/Kampagne aktivieren, um sie zu aktivieren oder bei Bedarf Änderungen anfordern. [Erfahren Sie, wie Sie eine Anforderung überprüfen und genehmigen](review-approve-request.md)
+Sobald die Genehmigungsanfrage an die genehmigenden Personen gesendet wurde, können diese sie überprüfen und entweder die Journey/Kampagne aktivieren, um sie live zu schalten, oder bei Bedarf Änderungen anfordern. [Erfahren Sie, wie Sie eine Anfrage überprüfen und genehmigen](review-approve-request.md)
 
-Wenn sich die Validierungsanfrage ändert, werden Sie über eine E-Mail und einen Journey Optimizer-Warnhinweis benachrichtigt, auf den Sie durch Klicken auf das Glockensymbol oben rechts im Bildschirm auf der Registerkarte **[!UICONTROL Anforderungen]** zugreifen können.
+Wenn die genehmigenden Personen Änderungen beantragen, werden Sie durch eine E-Mail und eine Journey Optimizer-Benachrichtigung benachrichtigt, die Sie durch Klicken auf das Glockensymbol oben rechts im Bildschirm auf der Registerkarte **[!UICONTROL Anfragen]** aufrufen können.
 
 ![](assets/changes-requested.png)
 
-Um die Änderungsanforderung zu durchlaufen, öffnen Sie sie in der E-Mail oder im Warnhinweis, um auf die Journey oder Kampagne zuzugreifen und die angeforderten Änderungen vorzunehmen. Wenn Ihre Journey/Kampagne erneut geprüft werden kann, senden Sie mit der Schaltfläche **[!UICONTROL Genehmigung anfordern]** eine neue Genehmigungsanfrage.
+Öffnen Sie die Änderungsanforderung über die E-Mail oder die Benachrichtigung, um auf die Journey oder Kampagne zuzugreifen und die gewünschten Änderungen vorzunehmen. Wenn Ihre Journey/Kampagne zur erneuten Prüfung bereit ist, senden Sie eine neue Genehmigungsanfrage über die Schaltfläche **[!UICONTROL Genehmigung anfordern]**.

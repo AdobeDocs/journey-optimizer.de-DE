@@ -9,7 +9,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, mü
 
 ## Reporting-Voraussetzungen {#experiment-prerequisites}
 
-Um die Berichterstellung für den code-basierten Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der in Ihrer App-Implementierung verwendet wird [Datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"}, auch in Ihrer Berichtskonfiguration enthalten ist.
+Um das Reporting für den Code-basierten Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der im [Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de) Ihrer App-Implementierung verwendet wird, {target="_blank"} auch in Ihrer Reporting-Konfiguration enthalten ist.
 
-Wenn Sie also beim Konfigurieren von Berichten einen Datensatz hinzufügen, der in Ihrem App-Datastream nicht vorhanden ist, werden App-Daten nicht in Ihren Berichten angezeigt.
+Mit anderen Worten: Wenn Sie beim Konfigurieren des Reportings einen Datensatz hinzufügen, der nicht in Ihrem App-Datenstrom vorhanden ist, werden die App-Daten nicht in Ihren Berichten angezeigt.
 
-In [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für die Berichterstellung hinzufügen.
+Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets), wie Sie Datensätze für das Reporting hinzufügen.
 
 >[!NOTE]
 >

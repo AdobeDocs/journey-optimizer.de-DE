@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Hinzufügen einer integrierten Kanalaktion zu einer Journey
-description: Erfahren Sie, wie Sie einer Journey eine integrierte Kanalaktion hinzufügen.
+description: Erfahren Sie, wie Sie einer Journey eine integrierte Kanalaktion hinzufügen
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, code-basiertes Erlebnis
+keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Integrierte Kanalaktion"
->abstract="Journey Optimizer verfügt über integrierte Kanalaktionsfunktionen. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende Aktivität (In-App-Nachricht, Web-Aktivität, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrer Journey hinzufügen und Einstellungen und Inhalt festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine ausgehende Aktivität (E-Mail, Textnachricht (SMS/MMS), Push) oder eine eingehende Aktivität (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versandt."
 
-[!DNL Journey Optimizer] verfügt über integrierte Aktionsfunktionen für Kanäle. Sie können einfach eine ausgehende (E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigung) oder eingehende Aktivität (In-App-Nachricht, Web-Aktivität, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrer Journey hinzufügen und Einstellungen und Inhalt festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine ausgehende Aktivität (E-Mail, Textnachricht (SMS/MMS), Push) oder eine eingehende Aktivität (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versandt.
 
 >[!NOTE]
 >
 >Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
 
-Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzufügen.
+Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
 
-1. Ziehen Sie aus dem Bereich **Aktionen** der Palette ein ausgehendes (**E-Mail**, **Push**, **SMS**) oder ein eingehendes (**In-App**, **Web**, **code-basiertes Erlebnis**, **Inhaltskarte**). -Aktivität in die Arbeitsfläche.
+1. Ziehen Sie aus dem Bereich **Aktionen** der Palette eine ausgehende Aktivität (**E-Mail**, **Push**, **SMS**) oder eine eingehende Aktivität (**In-App**, **Web**, **Code-basiertes Erlebnis**, **Inhaltskarte**) auf die Arbeitsfläche.
 
    ![](assets/journey-web-activity.png)
 
 1. Konfigurieren Sie Ihre Aktivität. 
 
-   * Gehen Sie wie folgt vor, um den Inhalt einer Nachricht detailliert zu erstellen:
+   * Erfahren Sie im Detail, wie Sie Ihre Nachrichteninhalte erstellen:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzuf�
       </tr>
       </table>
 
-   * Gehen Sie wie folgt vor, um eine eingehende Aktion zu erstellen:
+   * Erfahren Sie im Detail, wie Sie Ihre eingehende Aktion erstellen:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -114,11 +114,11 @@ Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzuf�
 
      >[!NOTE]
      >
-     >Jede eingehende Nachrichtenaktivität verfügt über eine 3-tägige **Warten** -Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+     >Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
 ## Empfehlung {#recommendation}
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie jedoch die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie jedoch die Verbindung zu einem Drittsystem konfigurieren, um Nachrichten oder API-Aufrufe zu versenden.
 
 * Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um einer Journey eine integrierte Kanalaktion hinzuzuf�
 
 Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktualisieren.
 
-Öffnen Sie dazu die Live-Journey, wählen Sie die Kanalaktivität aus und klicken Sie auf **Inhalt bearbeiten**.
+Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Aktivität „Kanal“ aus und klicken Sie auf **Inhalt bearbeiten**.
 
 ![](assets/add-a-message2.png)
 
@@ -154,11 +154,11 @@ Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgeno
 >
 >Diese Funktion ist standardmäßig nicht aktiviert. Sie können sich an den Adobe-Support wenden, um sie zu aktivieren.
 >
->Die Funktion zur Sendezeitoptimierung gilt nur für E-Mail- und Push-Kanäle.
+>Die Funktion zur Optimierung der Versandzeit gilt nur für E-Mail- und Push-Kanäle.
 
 ### Anmerkungen zur Optimierung des Versandzeitpunkts {#about-send-time}
 
-Die Sendezeitoptimierungs-Funktion von Adobe Journey Optimizer, unterstützt von Adobe Optimization AI-Diensten, kann die beste Sendezeit für den Versand einer **E-Mail** oder **Push-Nachricht** vorhersagen, um die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
+Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Diensten von Adobe und kann den besten Zeitpunkt für den Versand einer **E-Mail** oder **Push-Nachricht** vorhersagen, um die Interaktion auf der Basis von früheren Öffnungs- und Klickraten zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
 
 Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Mithilfe der folgenden Punktwerte wählt das System für jeden Benutzer automatisch die beste Zeit aus:
 

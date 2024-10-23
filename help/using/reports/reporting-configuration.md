@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
-# Reporting- und Experimentiervoraussetzungen {#reporting-configuration}
+# Voraussetzungen für Reporting und Experimente {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -30,13 +30,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Die Berichtskonfiguration muss von einem technischen Anwender vorgenommen werden.
+>Die Konfiguration des Reportings muss von technischen Benutzenden vorgenommen werden.
 
 Mit der Konfiguration von Berichtsdatenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Berichten abzurufen.
 
 Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen, die die zusätzlichen Elemente enthalten, die Sie für Ihre Berichte verwenden möchten. Gehen Sie dazu [wie folgt](#add-datasets) vor.
 
-Beachten Sie, dass Sie bei Web-, Code- und In-App-Kanälen sicherstellen müssen, dass der für die Datenerfassung konfigurierte [Datensatz](../data/get-started-datasets.md) auch zu dieser Berichtskonfiguration hinzugefügt wird. Andernfalls werden Web- und In-App-Daten nicht in den Inhaltsexperimentberichten angezeigt.
+Beachten Sie, dass Sie beim Web-, Code-basierten und beim In-App-Kanal sicherstellen müssen, dass der [Datensatz](../data/get-started-datasets.md), der für die Datenerfassung konfiguriert wurde, auch zu dieser Reporting-Konfiguration hinzugefügt wird. Andernfalls werden Web- und In-App-Daten nicht in den Inhaltsexperimentberichten angezeigt.
 
 ## Voraussetzungen
 
