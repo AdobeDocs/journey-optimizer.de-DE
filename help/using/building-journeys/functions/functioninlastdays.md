@@ -8,15 +8,15 @@ level: Experienced
 keywords: inLastDays, Funktion, Ausdruck, Journey
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # inLastDays {#inLastDays}
 
-Gibt &quot;true&quot;zurück, wenn die angegebene dateTime zwischen jetzt und jetzt - delta Tagen liegt.
+Gibt „true“ zurück, wenn ein bestimmtes „dateTime“ zwischen jetzt und jetzt-Delta-Tage liegt.
 
 ## Kategorie
 

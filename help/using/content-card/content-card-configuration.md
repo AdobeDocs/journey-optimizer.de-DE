@@ -1,26 +1,26 @@
 ---
-title: Konfiguration der Inhaltskarten
+title: Konfiguration von Inhaltskarten
 description: Kanalkonfiguration für Inhaltskarten
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Inhaltskarten konfigurieren {#content-card-configuration}
+# Konfigurieren von Inhaltskarten {#content-card-configuration}
 
 ## Was ist eine Konfiguration? {#surface-definition}
 
-Eine **Erlebniskonfiguration für Inhaltskarten** ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen **URI** eindeutig identifiziert wird.
+Eine **Konfiguration des Inhaltskarten-Erlebnisses** ist eine beliebige Entität, die für die Interaktion mit Benutzenden oder Systemen bestimmt ist und die durch eine **URI** eindeutig gekennzeichnet ist.
 
-Mit anderen Worten, eine Oberfläche kann auf jeder Hierarchieebene als Container mit einer vorhandenen Entität (Touchpoint) betrachtet werden.
+Mit anderen Worten, eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhandenen Entität (Touchpoint) betrachtet werden.
 
-* Dabei kann es sich um eine Webseite, eine mobile App, ein Desktop-Programm, einen bestimmten Inhaltsspeicherort innerhalb einer größeren Entität (z. B. einen `div`) oder ein nicht standardmäßiges Anzeigemuster (z. B. einen Kiosk oder ein Desktop-Programm-Banner) handeln.
+* Dabei kann es sich um eine Web-Seite, eine Mobile App, eine Desktop-App, eine bestimmte Inhaltsposition innerhalb einer größeren Einheit (z. B. ein `div`) oder ein nicht standardisiertes Anzeigemuster (z. B. ein Kiosk oder ein Desktop-App-Banner) handeln.
 
 * Für Nicht-Anzeigen oder abstrakte Anzeigen (z. B. für Dienste bereitgestellte JSON-Blobs) kann sie auch auf bestimmte Teile von Inhalts-Containern erweitert werden.
 
@@ -59,9 +59,9 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 | Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
 | Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |
 
-## Erstellen einer Inhaltskartenkonfiguration {#create-config}
+## Erstellen einer Konfiguration für eine Inhaltskarte {#create-config}
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanalkonfigurationen]** und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/content_card_config_1.png)
 
@@ -79,7 +79,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 
 1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
-1. Wählen Sie die Plattform aus, auf die das Erlebnis der Inhaltskarte angewendet werden soll.
+1. Wählen Sie die Plattform aus, auf die das Erlebnis mit der Inhaltskarte angewendet werden soll.
 
    ![](assets/content_card_config_3.png)
 
@@ -91,9 +91,9 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 
 1. Für iOS und Android:
 
-   * Geben Sie Ihre **[!UICONTROL App-ID]**, Ihren **[!UICONTROL Standort oder Pfad innerhalb der App]** und Ihre **[!UICONTROL Vorschau-URL]** ein oder wählen Sie sie aus.
+   * Geben Sie Ihre **[!UICONTROL App-ID]**, den **[!UICONTROL Speicherort oder Pfad innerhalb der App]** und die **[!UICONTROL Vorschau-URL]** ein oder wählen Sie sie aus.
 
 1. Senden Sie Ihre Änderungen ab.
 
-Sie können jetzt Ihre Konfiguration beim Erstellen Ihrer Inhaltskarte auswählen.
+Sie können jetzt Ihre Konfiguration beim Erstellen Ihres Inhaltskarten-Erlebnisses auswählen.
 

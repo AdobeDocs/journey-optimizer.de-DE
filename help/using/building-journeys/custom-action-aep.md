@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -96,9 +96,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Konfigurieren einer benutzerdefinierten Aktion {#custom-action-config}
 
-Die Konfiguration benutzerdefinierter Aktionen wird auf [dieser Seite](../action/about-custom-action-configuration.md) beschrieben.
+Die Konfiguration der benutzerdefinierten Aktion wird auf [dieser Seite](../action/about-custom-action-configuration.md) ausführlich beschrieben.
 
-Gehen Sie für dieses Beispiel wie folgt vor:
+Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Öffnen Sie Adobe Journey Optimizer und klicken Sie im linken Menü unter **Administration** auf **Konfigurationen**. Klicken Sie unter **Aktionen** auf **Verwalten** und dann auf **Aktion erstellen**.
 
@@ -171,7 +171,7 @@ Gehen Sie für dieses Beispiel wie folgt vor:
    }
    ```
 
-1. Ändern Sie die Feldkonfiguration für dynamisch ausgefüllte Felder von **Konstante** in **Variable** .
+1. Ändern Sie die Feldkonfiguration von **Konstant** in **Variabel** für Felder, die dynamisch befüllt werden sollen.
 
 1. Speichern Sie die benutzerdefinierte Aktion.
 

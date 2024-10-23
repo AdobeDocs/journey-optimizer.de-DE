@@ -1,22 +1,22 @@
 ---
-title: Web SDK für die Konfiguration von Inhaltskarten
-description: Unterstützung für Inhaltskarten im Web SDK konfigurieren
+title: Konfiguration von Inhaltskarten im Web SDK
+description: Konfigurieren der Unterstützung für Inhaltskarten im Web SDK
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Unterstützung für Inhaltskarten im Web SDK konfigurieren {#content-card-configuration-sdk}
+# Konfigurieren der Unterstützung für Inhaltskarten im Web SDK {#content-card-configuration-sdk}
 
-In diesem Beispiel erfahren Sie, wie Sie mit Adobe Experience Platform Inhaltskarten aus Adobe Journey Optimizer (AJO) abrufen. Mit dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) wird der Personalisierungsinhalt vollständig abgerufen und auf der Clientseite wiedergegeben.
+Dieses Beispiel zeigt, wie Inhaltskarten aus Adobe Journey Optimizer (AJO) mithilfe von Adobe Experience Platform abgerufen werden. Mit dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home) werden die Personalisierungsinhalte vollständig auf der Client-Seite abgerufen und gerendert.
 
-Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie jedoch mit den Schaltflächen **Einlagenfonds** oder **In Social Media freigeben** interagieren, werden zusätzliche Inhaltskarten angezeigt. Diese Karten werden durch Client-seitige Bedingungen ausgelöst, die sicherstellen, dass sie nur angezeigt werden, wenn bestimmte Aktionen durchgeführt werden.
+Beim ersten Laden der Seite wird der Standardzustand der Seite angezeigt. Wenn Sie jedoch mit den Schaltflächen **Mittel einzahlen** oder **In Social Media freigeben** interagieren, werden zusätzliche Inhaltskarten angezeigt. Diese Karten werden durch Client-seitige Bedingungen ausgelöst, sodass sie nur angezeigt werden, wenn bestimmte Aktionen ausgeführt werden.
 
 ![](assets/content-card-web-1.png)
 
@@ -27,13 +27,13 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
 >Sie müssen node und npm installieren. [Weitere Informationen finden Sie in dieser Dokumentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-1. Einrichten lokaler SSL-Zertifikate für HTTPS. Diese Beispiele erfordern lokal signierte SSL-Zertifikate, um Inhalte über HTTPS bereitzustellen:
+1. Richten Sie lokale SSL-Zertifikate für HTTPS ein. Diese Beispiele erfordern lokal signierte SSL-Zertifikate, um Inhalte über HTTPS bereitzustellen:
 
    1. Installieren Sie `mkcert` auf Ihrem Computer.
 
    1. Führen Sie nach der Installation `mkcert -install` aus, um das `mkcert root`-Zertifikat zu installieren.
 
-1. Klonen Sie das Repository auf Ihrem lokalen Computer.
+1. Klonen Sie das Repository auf Ihren lokalen Computer.
 
 1. Öffnen Sie ein Terminal und navigieren Sie zum Ordner des Beispiels.
 
@@ -45,7 +45,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
 
 ## Funktionsweise {#setup}
 
-1. Fügen Sie das [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) auf der Seite ein und konfigurieren Sie es mithilfe der Einstellungen aus der Datei `.env` im Beispielordner.
+1. Fügen Sie das [Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home) auf der Seite ein und konfigurieren Sie es mithilfe der Einstellungen aus der Datei `.env` im Beispielordner.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -60,7 +60,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
    });
    ```
 
-1. Verwenden Sie den Befehl `sendEvent` , um personalisierten Inhalt abzurufen.
+1. Verwenden Sie den Befehl `sendEvent`, um personalisierten Inhalt abzurufen.
 
    ```
    alloy("sendEvent", {
@@ -71,7 +71,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
    });
    ```
 
-1. Abonnieren Sie mit dem Befehl `subscribeRulesetItems` Inhaltskarten für eine bestimmte Oberfläche. Verarbeiten Sie jedes Mal, wenn Regelsätze ausgewertet werden, das Ergebnisobjekt im Callback, das `propositions` mit Inhaltskartendaten enthält.
+1. Abonnieren Sie Inhaltskarten für eine bestimmte Oberfläche mit dem Befehl `subscribeRulesetItems`. Handhaben Sie bei jeder Auswertung von Regelsätzen das Ergebnisobjekt im Callback, das `propositions` mit Inhaltskartendaten enthält.
 
    ```
    const contentCardManager = createContentCardManager("content-cards");
@@ -86,7 +86,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
    });
    ```
 
-1. Verwalten Sie das Rendering von Inhaltskarten und senden Sie `interact` - und `display` -Ereignisse mit dem in `script.js` gefundenen `contentCardsManager` -Objekt. Extrahieren, sortieren und verarbeiten Sie Inhaltskarten aus den empfangenen Vorschlägen.
+1. Verwalten Sie die Darstellung von Inhaltskarten und senden Sie die Ereignisse `interact` und `display` mithilfe des Objekts `contentCardsManager` in `script.js`. Extrahieren, sortieren und verarbeiten Sie Inhaltskarten aus den empfangenen Vorschlägen.
 
    ```
    const createContentCard = (proposition, item) => {
@@ -128,7 +128,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
    const contentCards = extractContentCards(propositions);
    ```
 
-1. Rendern Sie die Inhaltskarten anhand der für die einzelnen Kampagnen definierten Details. Jede Karte enthält einen `title`, `body`, `imageUrl` und andere benutzerdefinierte Datenwerte.
+1. Rendern Sie die Inhaltskarten basierend auf den für jede Kampagne definierten Details. Jede Karte enthält einen `title`, einen `body`, eine `imageUrl` und andere benutzerdefinierte Datenwerte.
 
    ```
    const renderContentCards = () => {
@@ -163,7 +163,7 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
    };
    ```
 
-1. Wenn der Rückruf `subscribeRulesetItems` aufgerufen wird, wird auch eine Convenience-Funktion namens `collectEvent` bereitgestellt. Diese Funktion wird zum Senden von Experience Edge-Ereignissen verwendet, um Interaktionen, Anzeigen und andere Benutzeraktionen zu verfolgen. In diesem Beispiel verfolgt collectEvent, wenn auf eine Inhaltskarte geklickt wird. Wenn auf die Schaltfläche auf der Inhaltskarte geklickt wird, wird der Browser außerdem zu dem von der Kampagne angegebenen `actionUrl` weitergeleitet.
+1. Wenn der Rückruf `subscribeRulesetItems` aufgerufen wird, wird auch eine Hilfsfunktion namens `collectEvent` bereitgestellt. Diese Funktion wird zum Senden von Experience Edge-Ereignissen verwendet, um Interaktionen, Anzeigen und andere Benutzeraktionen zu verfolgen. In diesem Beispiel verfolgt collectEvent, wenn auf eine Inhaltskarte geklickt wird. Wenn außerdem auf die Schaltfläche auf der Inhaltskarte geklickt wird, wird der Browser zu der `actionUrl` weitergeleitet, die von der Kampagne angegeben wurde.
 
    ```
    const handleContentCardClick = (evt) => {
@@ -197,11 +197,11 @@ Beim ersten Laden der Seite zeigt die Seite ihren Standardstatus an. Wenn Sie je
 
 ### personalizationStorageEnabled
 
-Die Option `personalizationStorageEnabled` ist im Befehl `configure` auf `true` gesetzt. Dadurch wird sichergestellt, dass zuvor qualifizierte Inhaltskarten gespeichert und auch weiterhin über Benutzersitzungen hinweg angezeigt werden.
+Die Option `personalizationStorageEnabled` ist im Befehl `configure` auf `true` gesetzt. Dadurch wird sichergestellt, dass zuvor qualifizierte Inhaltskarten gespeichert werden und weiterhin über Benutzersitzungen hinweg angezeigt werden.
 
 ### Trigger
 
-Inhaltskarten unterstützen benutzerdefinierte Trigger, die clientseitig ausgewertet werden. Wenn eine Trigger-Regel erfüllt ist, werden zusätzliche Inhaltskarten angezeigt. In diesem Beispiel werden vier verschiedene Kampagnen verwendet, eine für jede Inhaltskarte, die alle dieselbe Oberfläche aufweisen: `web://alloy-samples.adobe.com/#content-cards-sample`. In der folgenden Tabelle werden die Regeln für die Trigger der einzelnen Kampagnen und deren Erfüllung erläutert.
+Inhaltskarten unterstützen benutzerdefinierte Trigger, die auf der Client-Seite ausgewertet werden. Wenn eine Trigger-Regel erfüllt ist, werden zusätzliche Inhaltskarten angezeigt. In diesem Beispiel werden vier verschiedene Kampagnen verwendet, eine für jede Inhaltskarte, die alle dieselbe Oberfläche aufweisen: `web://alloy-samples.adobe.com/#content-cards-sample`. In der folgenden Tabelle werden die Trigger-Regeln für jede einzelnen Kampagnen und deren Erfüllung erläutert.
 
 <table>
     <tr>
@@ -212,12 +212,12 @@ Inhaltskarten unterstützen benutzerdefinierte Trigger, die clientseitig ausgewe
     <tr>
         <td>Keine</td>
         <td><img src="assets/content-card-web-2.png"></td>
-        <td>sendEvent-Befehl. Keine clientseitige Regel, die erfüllt werden muss.</td>
+        <td>sendEvent command. Keine Client-seitige Regel zu erfüllen.</td>
     </tr>
     <tr>
         <td>Keine</td>
         <td><img src="assets/content-card-web-3.png"></td>
-        <td>sendEvent-Befehl. Keine clientseitige Regel, die erfüllt werden muss.</td>
+        <td>sendEvent command. Keine Client-seitige Regel zu erfüllen.</td>
     </tr>
     <tr>
         <td><img src="assets/content-card-web-4.png"></td>
@@ -231,7 +231,7 @@ Inhaltskarten unterstützen benutzerdefinierte Trigger, die clientseitig ausgewe
     </tr>
 </table>
 
-Der Befehl `evaluateRulesets` wird beim Klicken auf die Schaltflächen &quot;Einlagenfonds&quot;und &quot;Social Media freigeben&quot;ausgelöst. Jede Schaltfläche gibt den relevanten `decisionContext` an, um die für die jeweiligen Kampagnen definierten Regeln zu erfüllen.
+Der Befehl `evaluateRulesets` wird durch Klicken auf die Schaltflächen „Mittel einzahlen“ und „In Social Media freigeben“ ausgelöst. Jede Schaltfläche gibt den relevanten `decisionContext` an, um die für die jeweiligen Kampagnen definierten Regeln zu erfüllen.
 
 ```
 document.getElementById("action-button-1").addEventListener("click", () => {

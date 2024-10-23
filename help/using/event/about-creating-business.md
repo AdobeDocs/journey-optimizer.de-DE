@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Im Folgenden finden Sie einige wichtige Hinweise für den Fall, dass mehrere Ges
 
 **Was passiert, wenn ein Geschäftsereignis während der Verarbeitung der Journey empfangen wird?**
 
-Geschäftsereignisse folgen den Regeln für den Wiedereintritt auf die gleiche Weise wie für Einzelereignisse. Wenn eine Journey den erneuten Eintritt erlaubt, wird das nächste Geschäftsereignis verarbeitet.
+Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt wie für unitäre Ereignisse. Wenn eine Journey den erneuten Eintritt erlaubt, wird das nächste Geschäftsereignis verarbeitet.
 
 **Welche Schutzmechanismen gibt es, um zu verhindern, dass materialisierte Zielgruppen überlastet werden?**
 

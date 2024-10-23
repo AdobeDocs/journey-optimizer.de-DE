@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
@@ -42,6 +42,6 @@ ht-degree: 32%
 
 Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
 
-Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Zielgruppen, Schemata, Ereignisse und Aktionen.
+Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Zielgruppen, Schemata, Ereignisse und Aktionen. 
 
-Der Kopiervorgang wird über einen **Package-Export und -Import** zwischen den Quell- und Ziel-Sandboxes durchgeführt. Ausführliche Informationen zum Exportieren und Importieren von Objekten in eine Ziel-Sandbox finden Sie in diesem Abschnitt: [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md)
+Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen darüber, wie Sie Objekte exportieren und in eine Ziel-Sandbox importieren, finden Sie in diesem Abschnitt: [Kopieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)

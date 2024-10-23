@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -64,8 +64,8 @@ Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorla
 
 Wenn Sie Inhalte aktualisieren, müssen Sie möglicherweise einige Sekunden warten, bis die Änderungen in der Miniaturansicht angezeigt werden.
 
-## Inhaltsvorlagen in eine andere Sandbox exportieren {#export}
+## Exportieren von Inhaltsvorlagen in eine andere Sandbox {#export}
 
 Mit Journey Optimizer können Sie eine Inhaltsvorlage von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Vorlage aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
 
-Der Kopiervorgang wird über einen **Package-Export und -Import** zwischen den Quell- und Ziel-Sandboxes durchgeführt. Ausführliche Informationen zum Exportieren und Importieren von Objekten in eine Ziel-Sandbox finden Sie in diesem Abschnitt: [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md)
+Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen darüber, wie Sie Objekte exportieren und in eine Ziel-Sandbox importieren, finden Sie in diesem Abschnitt: [Kopieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbieters
 
 >[!CAUTION]
 >
->Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
+>Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Benutzenden** durchgeführt.
 
 Benutzerdefinierte Aktionen sind in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** verfügbar. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 

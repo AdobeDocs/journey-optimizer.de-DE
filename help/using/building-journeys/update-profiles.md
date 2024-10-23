@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 * Sie können die Aktion **Profil aktualisieren** nicht verwenden, um Erlebnisereignisse zu generieren, z. B. einen Kauf.
 * Wie bei jeder anderen Aktion können Sie einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung definieren, und Sie können nicht zwei Aktionen parallel platzieren.
 * Die an Adobe Experience Platform gesendete Aktualisierungsanfrage erfolgt unmittelbar bzw. innerhalb einer Sekunde. Normalerweise dauert sie ein paar Sekunden, manchmal aber auch länger, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch die davor positionierte Aktion **Profil aktualisieren** aktualisiert wurde, sollte daher nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
-* Die Aktivität **Profil aktualisieren** unterstützt keine XDM-Felder, die als Auflistungen oder vorgeschlagene Werte definiert sind.
+* Die Aktivität **Profil aktualisieren** unterstützt keine XDM-Felder, die als Aufzählungen oder Vorschlagswerte definiert sind.
 * Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
 
-## Datensatz-Auswahl {#dataset-selection}
+## Auswahl der Datensätze {#dataset-selection}
 
-Für die Aktivität **Profil aktualisieren** ist ein spezieller Datensatz erforderlich, um Aktualisierungen zu speichern. Da diese Aktivität nur den Profilspeicher aktualisiert (nicht den Datalake), sollten alle Aktualisierungen in einem für Profile aktivierten Datensatz gespeichert werden, der speziell für Aktionen vom Typ **Profil aktualisieren** bestimmt ist. Die Verwendung eines für die Batch- oder Streaming-Erfassung verwendeten Datensatzes führt dazu, dass neu integrierte Daten die Änderungen überschreiben, die von der Aktion **Profil aktualisieren** vorgenommen wurden.
+Die Aktivität **Profil aktualisieren** erfordert einen eigenen Datensatz, um Aktualisierungen zu speichern. Da diese Aktivität nur den Profilspeicher aktualisiert (nicht Data Lake), sollten alle Aktualisierungen in einem für Profile aktivierten Datensatz gespeichert werden, der speziell für Aktionen vom Typ **Profil aktualisieren** bestimmt ist. Wenn Sie einen Datensatz verwenden, der für die Batch- oder Streaming-Aufnahme verwendet wird, werden die Änderungen, die durch die Aktion **Profil aktualisieren** vorgenommen wurden, durch neu hinzugefügte Daten überschrieben.
 
-Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** keinen Identity-Namespace. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **Identitäts-Namespace** verwendet, der von der Aktion verwendet wurde, die die Journey gestartet hat, da es sich um diesen Namespace handelt, den diese Aktualisierungen verwenden. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Namespace oder einen Datensatz auswählen, der die Identitätszuordnung verwendet, schlägt die Aktivität Profil aktualisieren fehl.
+Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** keinen Identity-Namespace. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **Identity-Namespace** verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Namespace auswählen oder einen, der eine Identitätszuordnung verwendet, schlägt die Aktivität „Profil aktualisieren“ fehl.
 
 ## Verwenden der Profilaktualisierung
 

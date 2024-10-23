@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie 
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
-* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine bestimmte benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
+* Wenn Sie zum Versenden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine bestimmte benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
 
 * Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
 

@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Bearbeiten von Web-Inhalten {#edit-web-content}
 
-Nachdem Sie [ ein Web-Erlebnis](create-web.md#create-web-experience) zu einer Journey oder Kampagne hinzugefügt haben, können Sie den Inhalt Ihrer Site mit dem Webdesigner bearbeiten.
+Sobald Sie einer Journey oder einer Kampagne ein [Web-Erlebnis](create-web.md#create-web-experience) hinzugefügt haben, können Sie den Inhalt Ihrer Seite mit dem Web-Designer bearbeiten.
 
 [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne verfassen](#video)
 
@@ -47,7 +47,7 @@ In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen 
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne oder der Web-Erlebnisaktivität auf der Journey die Option **[!UICONTROL Inhalt bearbeiten]**<!--change screen with rule--> aus.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne oder der Aktivität des Web-Erlebnisses in der Journey die Option **[!UICONTROL Inhalt bearbeiten]** aus.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

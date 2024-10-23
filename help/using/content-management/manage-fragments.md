@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -133,4 +133,4 @@ Um die Archivierung eines Fragments aufzuheben, filtern Sie nach **[!UICONTROL a
 
 Mit Journey Optimizer können Sie ein Fragment von einer Sandbox in eine andere kopieren. Sie können beispielsweise ein Fragment aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
 
-Der Kopiervorgang wird über einen **Package-Export und -Import** zwischen den Quell- und Ziel-Sandboxes durchgeführt. Ausführliche Informationen zum Exportieren und Importieren von Objekten in eine Ziel-Sandbox finden Sie in diesem Abschnitt: [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md)
+Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen darüber, wie Sie Objekte exportieren und in eine Ziel-Sandbox importieren, finden Sie in diesem Abschnitt: [Kopieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)

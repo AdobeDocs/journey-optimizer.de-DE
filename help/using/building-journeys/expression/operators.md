@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
-* Bei Verwendung des Operators `+` muss der Ausdruck in Klammern eingeschlossen sein. Beispiel:
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` ist korrekt
+* Wenn Sie den Operator `+` verwenden, muss der Ausdruck zwischen Klammern eingekapselt sein. Beispiel:
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` Ist richtig
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` führt zu einem Fehler
 
 ## Logisch        {#logical}

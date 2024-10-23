@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Inhaltskarten
-description: Erfahren Sie, wie Sie Inhaltskarten erstellen und ihren Inhalt in Journey Optimizer bearbeiten.
+description: Erfahren Sie, wie Sie in Journey Optimizer eine Inhaltskarte erstellen und ihren Inhalt bearbeiten
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -17,27 +17,27 @@ ht-degree: 70%
 
 >[!TAB Hinzufügen von Inhaltskarten zu einer Journey]
 
-Gehen Sie wie folgt vor, um einer Journey eine Inhaltskarte hinzuzufügen:
+Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
-1. Öffnen Sie Ihre Journey und ziehen Sie dann eine **[!UICONTROL Karte]** -Aktivität aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine Aktivität **[!UICONTROL Karte]** per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
    ![](assets/content-card-jo-1.png)
 
 1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
-1. Wählen Sie die zu verwendende [Inhaltskartenkonfiguration](content-card-configuration.md) aus.
+1. Wählen Sie die [Inhaltskartenkonfiguration](content-card-configuration.md) aus, die verwendet werden soll.
 
    ![](assets/content-card-jo-2.png)
 
 1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-content-card.md)
 
-1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]** . Bearbeiten Sie dann **[!UICONTROL Regeln]** , um die Ereignisse und Kriterien auszuwählen, die Ihre Nachricht Trigger werden sollen. Mit Regel-Builder können Benutzer Kriterien und Werte angeben, die, wenn sie erfüllt sind, eine Reihe von Aktionen Trigger geben.
+1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]**. Wählen Sie dann **[!UICONTROL Regeln bearbeiten]**, um die Ereignisse und die Kriterien auszuwählen, die Ihre Nachricht auslösen sollen. Mithilfe von Regel-Buildern können Benutzerinnen und Benutzer Kriterien und Werte angeben, die, wenn sie erfüllt sind, eine Reihe von Aktionen auslösen.
 
    ![](assets/content-card-jo-3.png)
 
-   1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** , um Ihr Ereignis auszuwählen.
+   1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um Ihr Ereignis auszuwählen.
 
-      ++ + Anzeigen des verfügbaren Ereignisses.
+      +++Siehe verfügbares Ereignis.
 
       | Paket | Auslöser | Definition |
       |---|---|---|
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um einer Journey eine Inhaltskarte hinzuzufügen:
 
 +++
 
-   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
@@ -88,7 +88,7 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 >[!TAB Hinzufügen von Inhaltskarten zu einer Kampagne]
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Inhaltskarten über eine Kampagne zu beginnen.
+Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kampagne zu beginnen.
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
@@ -112,17 +112,17 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Inhaltskarten über eine Ka
 
 1. Wählen oder erstellen Sie eine neue [Inhaltskartenkonfiguration](content-card-configuration.md).
 
-1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Erfahren Sie mehr über das Inhaltsexperiment](../content-management/content-experiment.md).
+1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Weitere Informationen zu Inhaltskomponenten](../content-management/content-experiment.md)
 
-1. Wenn zusätzliche Trigger erforderlich sind, verwenden Sie den Umschalter **[!UICONTROL Zusätzliche Versandregeln aktivieren]** . Zusätzliche Versandregeln sind nicht erforderlich.
+1. Wenn zusätzliche Trigger erforderlich sind, verwenden Sie den Umschalter **[!UICONTROL Zusätzliche Versandregeln aktivieren]**. Zusätzliche Versandregeln sind nicht erforderlich.
 
-   Klicken Sie auf **[!UICONTROL Trigger bearbeiten]** , um die Ereignisse und Kriterien für den Nachrichtenversand auszuwählen. Mit dem Regel-Builder können Sie Bedingungen und Werte angeben, die bei Erfüllung der Bedingungen Trigger-Aktionen ausführen.
+   Klicken Sie auf **[!UICONTROL Trigger bearbeiten]**, um die Ereignisse und Kriterien für den Nachrichtenversand auszuwählen. Mit dem Regel-Builder können Sie Bedingungen und Werte festlegen, die bei Erfüllung Aktionen auslösen.
 
    ![](assets/content-card-create-3.png)
 
-1. Sie können Ihre Kampagne auf ein bestimmtes Datum planen oder in regelmäßigen Abständen wiederholen lassen. [Weitere Informationen](../campaigns/create-campaign.md#schedule)
+1. Sie können Ihre Kampagne auf ein bestimmtes Datum festlegen oder so einstellen, dass sie in regelmäßigen Abständen wiederholt werden. [Weitere Informationen](../campaigns/create-campaign.md#schedule)
 
-1. Sie können jetzt mit der Erstellung Ihres Inhalts mit dem **[!UICONTROL Inhalt bearbeiten]** beginnen. [Weitere Informationen](design-content-card.md)
+1. Mit **[!UICONTROL Inhalt bearbeiten]** können Sie nun mit der Gestaltung Ihres Inhalts beginnen. [Weitere Informationen](design-content-card.md)
 
    ![](assets/content-card-create-4.png)
 

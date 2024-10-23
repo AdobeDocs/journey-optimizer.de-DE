@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1670'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für die Aufrufmethoden „POST“ und „PUT“ verfügbar.
 
-   Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]** , um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass Arrays von int, string usw. gesendet werden. mit Nullwerten in wird nicht vollständig unterstützt. Beispielsweise wird das folgende Array von Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, selbst wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
+   Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]**, um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass das Senden von Arrays aus int, string usw. mit Null-Werten darin nicht vollständig unterstützt wird. Zum Beispiel wird das folgende Array mit den Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, auch wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
 
    ![](assets/null-values.png){width="70%" align="left"}
 
@@ -159,7 +159,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen weder einen Punkt `.` enthalten noch mit einem `$` -Zeichen beginnen.
+>Feldnamen in der Payload dürfen weder einen `.` Punkt enthalten noch mit einem `$`-Zeichen beginnen.
 >
 
 ![](assets/customactionpayloadmessage2.png)
@@ -172,11 +172,11 @@ Bei der Feldkonfiguration müssen Sie folgendermaßen vorgehen:
 
    * **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn sie die benutzerdefinierte Aktion während der Journey verwenden. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall wird der Wert für die Konstante im Feld rechts neben dem Umschalter „Konstante/Variable“ festgelegt.
 
-   * **Variable** bedeutet, dass der Wert des Parameters variieren kann. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den die Marketing-Fachkraft in der Journey sieht, um diesen Parameter zu benennen.
+   * **Variabel** bedeutet, dass der Wert des Parameters variieren kann. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den die Marketing-Fachkraft in der Journey sieht, um diesen Parameter zu benennen.
 
-  Für optionale Parameter aktivieren Sie die Option **[!UICONTROL Ist optional]** am Ende der Zeile. Durch Aktivierung dieser Option markieren Sie den Parameter als nicht obligatorisch und lassen die Journey-Anwender ihn beim Authoring dieser benutzerdefinierten Aktion in einer Journey ausfüllen oder nicht.
+  Für optionale Parameter aktivieren Sie die Option **[!UICONTROL Ist optional]** am Ende der Zeile. Wenn Sie diese Option aktivieren, markieren Sie den Parameter als nicht obligatorisch und überlassen es den Journey-Anwenderinnen und -Anwendern, ob sie ihn bei der Erstellung dieser benutzerdefinierten Aktion in einer Journey ausfüllen oder nicht.
 
 >[!NOTE]
 >
->Wenn Sie optionale Parameter konfigurieren und dabei Nullwerte zulassen, werden von einem Journey-Anwender nicht ausgefüllte Parameter als Null gesendet.
+>Wenn Sie optionale Parameter konfigurieren und dabei Nullwerte zulassen, werden Parameter, die von Journey-Anwenderinnen und -Anwendern nicht ausgefüllt werden, als Null gesendet.
 >
