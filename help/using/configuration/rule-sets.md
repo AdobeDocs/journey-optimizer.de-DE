@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 97%
+source-wordcount: '1960'
+ht-degree: 74%
 
 ---
 
@@ -30,13 +30,15 @@ ht-degree: 97%
 >
 >Die Regelsätze sind derzeit nur als Beta-Version für ausgewählte Benutzende verfügbar. Wenden Sie sich an den Adobe-Support, um in die Beta-Version aufgenommen zu werden.
 
-## Was sind Regelsätze? {#what}
+## Erste Schritte mit Regelsätzen {#gs}
 
-Zusätzlich zu den globalen Verfahrensregeln, die die Anzahl der Nachrichten einschränken, die die Benutzenden über einen oder mehrere Kanäle erhalten, können Sie mit Regelsätzen **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
+### Was sind Regelsätze? {#what}
+
+Neben den globalen Geschäftsregeln, die die Anzahl der Nachrichten, die Benutzer über einen oder mehrere Kanäle erhalten, einschränken, können Sie mithilfe von Regelsätzen **mehrere Regeln in Regelsätze gruppieren** und sie auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
-## Globale und benutzerdefinierte Regelsätze {#global-custom}
+### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
 Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Verfahrensregeln (Beta)]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
 
@@ -50,9 +52,18 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdef
 >
 >Derzeit können benutzerdefinierte Regelsätze nur auf **Kampagnen** angewendet werden. Nur die im Regelsatz „Globaler Standardregelsatz“ definierten Regeln gelten für die Kommunikation in Journeys und Kampagnen.
 
+### Begrenzungsregeln für Kanal und Journey {#domain}
+
+Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind.
+
+Wählen Sie dazu bei der Erstellung eine Kanal- oder Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen]
+
+* **Kanal**-Domäne: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+* Domäne **Journey**: Wenden Sie Einstiegs- und gleichzeitige Begrenzungsregeln auf eine Journey an. Geben Sie beispielsweise nicht mehrere Profile gleichzeitig auf einer Journey ein.
+
 ## Erstellen Ihres ersten benutzerdefinierten Regelsatzes {#create-rule-set}
 
-### Erstellen des Regelsatzes {#create}
+### Erstellen Sie den Regelsatz und wählen Sie seine Domäne aus {#create}
 
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
@@ -64,13 +75,16 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    ![](assets/rule-sets-create-button.png)
 
-1. Legen Sie den Namen des Regelsatzes fest, fügen Sie bei Bedarf eine Beschreibung hinzu und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Definieren Sie einen eindeutigen Namen für den Regelsatz und fügen Sie eine Beschreibung hinzu.
+
+1. Wählen Sie die Domäne des Regelsatzes aus. Über die Domäne können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journey spezifisch sind:
+
+   * **Kanal**: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+   * **Journey**: Wenden Sie Einstiegs- und gleichzeitige Begrenzungsregeln auf eine Journey an. Geben Sie beispielsweise nicht mehrere Profile gleichzeitig auf einer Journey ein.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >Der Regelsatzname muss eindeutig sein.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 1. Sie können nun [die Regeln festlegen](#create-new-rule), die Sie zu diesem Regelsatz hinzufügen möchten.
 
@@ -96,13 +110,15 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 >title="Wählen Sie die Kategorie der Nachrichtenregel aus"
 >abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie „Marketing“ verfügbar."
 
-Gehen Sie wie folgt vor, um eine Regel zu einem Regelsatz hinzuzufügen:
+Um einem Regelsatz eine Regel hinzuzufügen, greifen Sie auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]** .
 
-1. Klicken Sie in dem soeben erstellten Regelsatz auf **[!UICONTROL Regel hinzufügen]**.
+Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatzdomäne ab.
 
-   ![](assets/rule-sets-create-rule-button.png)
++ + + Konfigurieren der Kanalbegrenzungsregeln (**Kanal**-Domäne)
 
-1. Definieren Sie einen eindeutigen **Regelnamen**.
+![](assets/rule-set-channels.png)
+
+1. Definieren Sie einen eindeutigen Namen für die Regel.
 
 1. Das Feld **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Im Moment ist dieses Feld schreibgeschützt, da nur die Kategorie **[!UICONTROL Marketing]** verfügbar ist.
 
@@ -130,8 +146,6 @@ Gehen Sie wie folgt vor, um eine Regel zu einem Regelsatz hinzuzufügen:
 
 1. Wählen Sie den Kanal, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung]** oder **[!UICONTROL Briefpost]**.
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >Sie müssen mindestens einen Kanal auswählen, um die Regel erstellen zu können.
@@ -139,6 +153,23 @@ Gehen Sie wie folgt vor, um eine Regel zu einem Regelsatz hinzuzufügen:
 1. Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
 
    Legen Sie beispielsweise die Begrenzung auf 5 fest und wählen Sie dann den E-Mail- und SMS-Kanal aus. Wenn ein Profil im ausgewählten Zeitraum bereits drei Marketing-E-Mails und 2 SMS erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS ausgeschlossen.
+
++++
+
+++ + Journey-Begrenzungsregeln konfigurieren (**Journey** -Domäne)
+
+![](assets/rule-set-journey.png)
+
+1. Geben Sie einen eindeutigen Namen für die Regel an.
+
+1. Geben Sie in der Dropdownliste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
+
+   * **[!UICONTROL Journey Entry Cap]**: Beschränkt die Anzahl der Einträge in die Journey über einen bestimmten Zeitraum für ein Profil.
+   * **[!UICONTROL Journey Concurrency Cap]**: Beschränkt, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann.
+
+1. Detaillierte Informationen zum Konfigurieren von Journey-Begrenzungsregeln finden Sie im Abschnitt [Journey-Begrenzung und -Schlichtung](../test-approve/journey-capping.md) .
+
++++
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Anwenden eines Regelsatzes auf eine Nachricht {#apply-frequency-rule}
+## Regelsätze auf Nachrichten oder Journey anwenden {#apply-frequency-rule}
 
-Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
+Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausgewählten Domain auf eine Nachricht oder eine Journey anwenden. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+
++++ Anwenden eines Regelsatzes auf eine Nachricht
 
 1. Wenn Sie eine [Kampagne](../campaigns/create-campaign.md) erstellen, wählen Sie einen der Kanäle, die Sie für Ihren Regelsatz festgelegt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zur nächsten Periode nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+
++++
+
++++ Anwenden eines Regelsatzes auf eine Journey
+
+Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System mit der Unterdrückung von Kunden beginnt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in die Zukunft beginnt, um dies zu verhindern.
+
++++
