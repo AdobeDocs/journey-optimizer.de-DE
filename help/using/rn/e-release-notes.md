@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 47%
+source-wordcount: '1775'
+ht-degree: 44%
 
 ---
 
@@ -120,14 +120,14 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <table>
 <thead>
 <tr>
-<th><strong>Geschäftsregeln (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Regelsätze (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Regeln für die detaillierte Frequenzlimitierung erstellen und diese über Regelsätze auf verschiedene Arten der Marketing-Kommunikation anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
-<p>Zuvor für eine Reihe von Organisationen (LA) verfügbar, sind nun Regelsätze für alle Benutzer verfügbar (GA).</p>
+<p>Sie können jetzt Regeln für eine detaillierte Frequenzbegrenzung erstellen und diese über Regelsätze auf Ihre Nachrichten oder Journey anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p><p>Außerdem können Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen sowie die Anzahl der gleichzeitig ausgeführten Journey steuern.</p>
+<p> Regelsätze sind in eingeschränkter Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 * Sie können eindeutige Suchbegriffe für Ihre SMS-Kampagnen und Journey definieren und verwalten, um eine personalisiertere und effizientere Kommunikation zu ermöglichen.
 * Sie können eine Standard-SMS-Nachricht erstellen und versenden, wenn ein Schlüsselwort nicht erkannt wird.
 
-**Häufigkeit und Prioritätsverwaltung**
+**Verwaltung von Konflikten und Prioritäten**
 
-* **Frequenzlimitierung nach Kampagne oder Journey** - Sie können jetzt Frequenzregeln erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.
+* **Frequenzlimitierung nach Journey** - Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.
 
 * **Prioritätsbewertung** - Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde. Die Prioritätsbewertung ist für alle eingehenden Kanäle in Kampagnen und für den In-App-Kanal in Journey verfügbar.
 
 * **Konflikte anzeigen** - Mit der neuen Schaltfläche **Konflikte anzeigen** in Journey und Kampagnen können Sie jetzt überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen wie dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration auftreten können.
+
+>[!AVAILABILITY]
+>
+>Funktionen zur Verwaltung von Konflikten und Prioritäten sind in der eingeschränkten Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.
 
 **Entscheidungs-Management**
 
