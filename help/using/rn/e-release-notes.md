@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 40%
+source-wordcount: '1853'
+ht-degree: 43%
 
 ---
 
@@ -83,6 +83,29 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Konfliktmanagement und Prioritätensetzung (begrenzte Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung.</p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
+<li><b>Prioritätsbewertung</b>: Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey-Aktionen dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde.</li>
+<li><b>Potenzielle Konflikte anzeigen</b>: Mit der neuen Schaltfläche "Potenzielle Konflikte anzeigen"in Journey und Kampagnen können Sie jetzt Überschneidungen mit anderen Journey oder Kampagnen identifizieren, z. B. mit dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration.</li>
+<li><b>Journey Arbitration</b>: Mit dieser neuen Funktion können Sie die wichtigsten Journey für Ihre Kunden priorisieren. Sie können eine Regel erstellen, um die Einsendung in eine Journey mit niedrigerer Priorität zu unterdrücken, wenn ein Kunde für eine bevorstehende Journey mit höherer Priorität qualifiziert ist.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Funktionen zur Verwaltung von Konflikten und Prioritäten sind in der eingeschränkten Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf diese Funktionen gesetzt zu werden.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <tr>
 <td>
 <p>Sie können jetzt Regeln für eine detaillierte Frequenzbegrenzung erstellen und diese über Regelsätze auf Ihre Nachrichten oder Journey anwenden. Mit dieser neuen Funktion können Sie steuern, wie oft Ihre Zielgruppen eine Nachricht erhalten, indem Sie kanalübergreifende Regeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p><p>Außerdem können Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen sowie die Anzahl der gleichzeitig ausgeführten Journey steuern.</p>
-<p> Regelsätze sind in eingeschränkter Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.</p>
+<p>Regelsätze sind in eingeschränkter Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 * Sie können eindeutige Suchbegriffe für Ihre SMS-Kampagnen und Journey definieren und verwalten, um eine personalisiertere und effizientere Kommunikation zu ermöglichen.
 * Sie können eine Standard-SMS-Nachricht erstellen und versenden, wenn ein Schlüsselwort nicht erkannt wird.
 
-**Verwaltung von Konflikten und Prioritäten**
-
-* **Frequenzlimitierung nach Journey** - Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.
-
-* **Prioritätsbewertung** - Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde. Die Prioritätsbewertung ist für alle eingehenden Kanäle in Kampagnen und für den In-App-Kanal in Journey verfügbar.
-
-* **Konflikte anzeigen** - Mit der neuen Schaltfläche **Konflikte anzeigen** in Journey und Kampagnen können Sie jetzt überprüfen, wann immer Überschneidungen mit anderen Journey oder Kampagnen wie dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration auftreten können.
-
->[!AVAILABILITY]
->
->Funktionen zur Verwaltung von Konflikten und Prioritäten sind in der eingeschränkten Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste für diese Funktion gesetzt zu werden.
-
 **Konfiguration**
 
 * **Personalisierung der Kanalkonfiguration** - Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie jetzt eine Vorschau Ihres E-Mail-Inhalts anzeigen, um mit den von Ihnen definierten dynamischen Einstellungen nach potenziellen Fehlern zu suchen.
@@ -276,16 +287,14 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 
 * **Maximale Anzahl von Live-Journeys**: In Journey Optimizer gibt es nun ein Limit von 500 Live-Journeys bei Produktions-Sandboxes. Zuvor waren es 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar. <!-- DOCAC-10977-->
 
-* **Schutz der Live-Zeit** - Ab dem 1. November 2024 wird für vom Journey Optimizer-System erstellte Datensätze eine TTL-Schutzmaßnahme (Time-to-Live) erzwungen:
+* **Schutzdauer für die Live-Schaltung** - Ab dem 1. November 2024 wird in Journey Optimizer-systemgenerierten Datensätzen in neuen Sandboxes und neuen Organisationen ein TTL-Schutzschild (Time-to-Live) bereitgestellt:
 
-   * 90 Tage für Daten im Profilspeicher
-   * 13 Monate für Daten im Data Lake
+   * 90 Tage für Daten im Profilspeicher
+   * 13 Monate für Daten im Data Lake
 
-  Außerdem unterstützt Streaming-Segmentierung zu diesem Zeitpunkt nicht mehr die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen. Wir empfehlen seit einiger Zeit, diese Ereignisse nicht mehr für Streaming-Segmentierung zu verwenden, und werden sie jetzt ganz deaktivieren.
+  Diese Änderung wird in einer zweiten Phase in bestehenden Kunden-Sandboxes eingeführt.
 
-   * Diese Änderung beschränkt nur die Verwendung von Sende-/Öffnungs-Ereignissen in der Streaming-Segmentierung. Klickereignisse können weiterhin in einem Streaming-Segment verwendet werden. Außerdem können Ereignisse zum Senden/Öffnen weiterhin in einem Batch-Segment verwendet werden.
-   * Tracking-Daten werden weiterhin erfasst. Diese Änderung wirkt sich nicht auf das Tracking aus. Sie können weiterhin verfolgen, an wen eine E-Mail gesendet wurde und wer auf eine E-Mail geklickt hat.
-   * Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
+  Außerdem unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Öffnungs-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr. Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen zu diesem Zeitpunkt. [Weitere Informationen](../data/datasets-ttl.md)
 
 * **Parameter in benutzerdefinierten Aktionen** (Verfügbarkeitsdatum: 3. Oktober 2024) - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -308,7 +317,3 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 * Beim Targeting einer CSV-Datei-Zielgruppe können Sie jetzt Attribute aus der Datei im Personalisierungseditor und im Regel-Builder für Journeys und Kampagnen verwenden. [Weitere Informationen](../audience/about-audiences.md)
 
 * Zielgruppen und Attribute aus benutzerdefinierten Uploads (CSV-Dateien) stehen jetzt zur Verwendung mit Healthcare Shield oder Privacy and Security Shield zur Verfügung.
-
-**Codebasierter Kanal**
-
-Beim Bearbeiten einer code-basierten Erlebniskampagne werden die verfügbaren Vorlagen nun basierend auf der zuvor ausgewählten Kanalkonfiguration auf HTML oder JSON übertragen.
