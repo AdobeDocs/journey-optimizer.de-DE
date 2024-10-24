@@ -12,7 +12,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 74%
@@ -56,9 +56,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdef
 
 ### Begrenzungsregeln für Kanal und Journey {#domain}
 
-Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind.
-
-Wählen Sie dazu bei der Erstellung eine Kanal- oder Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen]
+Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind.  Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen](#create)
 
 * **Kanal**-Domäne: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * Domäne **Journey**: Wenden Sie Einstiegs- und gleichzeitige Begrenzungsregeln auf eine Journey an. Geben Sie beispielsweise nicht mehrere Profile gleichzeitig auf einer Journey ein.
