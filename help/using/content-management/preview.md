@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 86%
+source-wordcount: '213'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 <!--## Preview your content {#preview-content}-->
 
-Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie eine Vorschau des E-Mail-Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
+Sobald [Testprofile](test-profiles.md) definiert sind, können Sie eine Vorschau Ihres Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
 
 1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
@@ -42,5 +42,7 @@ Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie eine Vorschau 
 
 >[!NOTE]
 >
->Bei der Erstellung von code-basierten Erlebnissen können Sie Ihre personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten für eine Echtzeit-Simulation in der Vorschau anzeigen. [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
+>Wenn in den Konfigurationsdetails ein Fehler gefunden wird, klicken Sie auf die Schaltfläche **[!UICONTROL Konfigurationsdetails anzeigen]** . [Weitere Informationen](../email/surface-personalization.md#check-configuration)
+
+Bei der Erstellung von code-basierten Erlebnissen können Sie Ihre personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten für eine Echtzeit-Simulation in der Vorschau anzeigen. [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
 

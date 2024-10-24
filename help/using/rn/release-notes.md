@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 57%
+source-wordcount: '3162'
+ht-degree: 56%
 
 ---
 
@@ -51,6 +51,25 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalisierung der E-Mail-Konfiguration (Allgemeine Verfügbarkeit) </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie beim Erstellen von E-Mail-Kanalkonfigurationen dynamische Subdomains und personalisierte Header-Parameter definieren.
+</p>
+<p>Zuvor für eine Reihe von Organisationen (LA) verfügbar, ist jetzt die Personalisierung der E-Mail-Konfiguration für alle Benutzer verfügbar (GA).</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>Verfügbarkeitsdatum: 23. Oktober 2024</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 
 * Zielgruppen und Attribute aus benutzerdefinierten Uploads (CSV-Dateien) stehen jetzt zur Verwendung mit Healthcare Shield oder Privacy and Security Shield zur Verfügung.
 
-**Codebasierter Kanal**
+**Konfiguration** - Verfügbarkeitsdatum: 23. Oktober 2024
+
+* Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie jetzt eine Vorschau Ihres E-Mail-Inhalts anzeigen, um nach potenziellen Fehlern mit den von Ihnen definierten dynamischen Einstellungen zu suchen. [Weitere Informationen](../email/surface-personalization.md#check-configuration)
+  **Codebasierter Kanal**
 
 * Inhaltsvorlagen sind jetzt verfügbar. Sie können das Authoring Ihrer code-basierten Erlebnisse beschleunigen, ausgehend von einer Inhaltsvorlage, die von Ihren Entwicklern erstellt wurde. Durch Verwendung einer Inhaltsvorlage kann der Marketing-Experte nur einige Werte oder Felder ändern, anstatt die gesamte HTML- oder JSON-Inhalts-Payload zusammenzustellen.
 
