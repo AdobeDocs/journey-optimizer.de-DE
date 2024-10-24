@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -26,15 +26,19 @@ Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlage
 
 Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journeys. Diese Person kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
 
-Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+Sie können Inhaltsvorlagen für die Kanäle E-Mail, Push, In-App, SMS und Briefpost erstellen.
+
+>[!AVAILABILITY]
+>
+>Derzeit sind keine Inhaltsvorlagen für den Web-Kanal verfügbar.
+
+Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen benötigen Sie die Berechtigung **[!DNL Manage library items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen definieren und verwenden](#video-templates)
 
->[!CAUTION]
+>[!NOTE]
 >
->Derzeit sind keine Inhaltsvorlagen für den Web-Kanal verfügbar.
->
->Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen benötigen Sie die Berechtigung **[!DNL Manage library items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+>Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Anleitungsvideo {#video-templates}
 
