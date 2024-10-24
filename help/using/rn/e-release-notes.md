@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 42%
 
 ---
@@ -206,7 +206,7 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <tr>
 <td>
 <p>Sie können jetzt im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.  Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne oder Journey zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.</p>
-<p>Bisher für eine Reihe von Organisationen verfügbar (LA), sind jetzt mehrsprachige Nachrichten für alle Benutzer verfügbar (GA).</p>
+<p>Aufgrund der allgemeinen Verfügbarkeit sind jetzt mehrsprachige Inhalte über alle Kanäle verfügbar. </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbessern:
 
 * Sie können eindeutige Suchbegriffe für Ihre SMS-Kampagnen und Journey definieren und verwalten, um eine personalisiertere und effizientere Kommunikation zu ermöglichen.
+
 * Sie können eine Standard-SMS-Nachricht erstellen und versenden, wenn ein Schlüsselwort nicht erkannt wird.
+
+* Jetzt können Sie eine SMS-API-Kanalkonfiguration bearbeiten oder löschen.
 
 <!--**Journeys**-->
 
