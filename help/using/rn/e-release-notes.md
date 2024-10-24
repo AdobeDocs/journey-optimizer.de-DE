@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1937'
 ht-degree: 42%
 
 ---
@@ -111,7 +111,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung.</p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung.</p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
 <li><b>Prioritätsbewertung</b>: Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey-Aktionen dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde.</li>
 <li><b>Potenzielle Konflikte anzeigen</b>: Mit der neuen Schaltfläche "Potenzielle Konflikte anzeigen"in Journey und Kampagnen können Sie jetzt Überschneidungen mit anderen Journey oder Kampagnen identifizieren, z. B. mit dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration.</li>
 <li><b>Journey Arbitration</b>: Mit dieser neuen Funktion können Sie die wichtigsten Journey für Ihre Kunden priorisieren. Sie können eine Regel erstellen, um die Einsendung in eine Journey mit niedrigerer Priorität zu unterdrücken, wenn ein Kunde für eine bevorstehende Journey mit höherer Priorität qualifiziert ist.</li></ul></p>
@@ -144,7 +144,7 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 <table>
 <thead>
 <tr>
-<th><strong>Experimentieren in Journey (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Inhaltsexperimentierung in Journey (Allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 * Sie können eindeutige Suchbegriffe für Ihre SMS-Kampagnen und Journey definieren und verwalten, um eine personalisiertere und effizientere Kommunikation zu ermöglichen.
 * Sie können eine Standard-SMS-Nachricht erstellen und versenden, wenn ein Schlüsselwort nicht erkannt wird.
 
-**Journeys**
+<!--**Journeys**-->
 
-* **Pfadexperiment in Journey** - Mit dem Journey-Pfadexperiment können Sie jetzt Schlüsselmetriken für Ihre Journey-Pfade definieren und verfolgen, sodass Sie die Wirkung Ihrer Aktivitäten messen und genauere Einblicke in Ihre Leistung erhalten.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **Maximale Anzahl von Live-Journeys**: In Journey Optimizer gibt es nun ein Limit von 500 Live-Journeys bei Produktions-Sandboxes. Zuvor waren es 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar. <!-- DOCAC-10977-->
+&lt;!—* **Maximale Anzahl Live-Journey** - Journey Optimizer verfügt jetzt über einen Schutzmechanismus von 500 Live-Journey auf Produktions-Sandboxes anstelle von 100. Die Anzahl der Live-Journey ist auf der Journey-Arbeitsfläche sichtbar. <!-- DOCAC-10977-->
+
+**Datensätze**
 
 * **Schutzdauer für die Live-Schaltung** - Ab dem 1. November 2024 wird in Journey Optimizer-systemgenerierten Datensätzen in neuen Sandboxes und neuen Organisationen ein TTL-Schutzschild (Time-to-Live) bereitgestellt:
 
