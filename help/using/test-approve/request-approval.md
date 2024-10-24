@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie vor der Veröffentlichung Ihrer Journeys und 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 41%
+source-wordcount: '466'
+ht-degree: 39%
 
 ---
 
@@ -24,9 +24,11 @@ Der Zugriff auf den Validierungs-Workflow hängt von Ihrem Anwendungsfall ab:
 
 * **Aktive Validierungsrichtlinien sind vorhanden**
 
-   * **Kampagnen**: Wenn eine oder mehrere aktive Validierungsrichtlinien für das Campaign-Objekt in einer Sandbox vorhanden sind, wird für alle Kampagnen in dieser Sandbox die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt. Das bedeutet, dass Kampagnen nicht ohne Genehmigung direkt aktiviert werden können.
+   * **Kampagnen**: Wenn eine oder mehrere aktive Validierungsrichtlinien für das Campaign-Objekt in einer Sandbox vorhanden sind, wird für alle Kampagnen in dieser Sandbox die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt.
+Wenn beim Klicken auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** keine Genehmigungsrichtlinie für das ausgewählte Objekt gilt, wird der Arbeitsablauf für die automatische Genehmigung ausgelöst.
 
-   * **Journey**: Wenn eine oder mehrere aktive Genehmigungsrichtlinien für das Journey-Objekt in einer Sandbox vorhanden sind, zeigen alle Journey die Schaltfläche **[!UICONTROL Genehmigung anfordern]** an. Ähnlich wie bei Kampagnen können Journey nicht direkt veröffentlicht werden, wenn eine Validierungsrichtlinie aktiv ist.
+   * **Journey**: Wenn eine oder mehrere aktive Genehmigungsrichtlinien für das Journey-Objekt in einer Sandbox vorhanden sind, zeigen alle Journey die Schaltfläche **[!UICONTROL Genehmigung anfordern]** an.
+Wenn beim Klicken auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** keine Genehmigungsrichtlinie für das ausgewählte Objekt gilt, wird der Arbeitsablauf für die automatische Genehmigung ausgelöst.
 
 ## Genehmigungsanfrage senden
 
