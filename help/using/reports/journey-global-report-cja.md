@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -82,6 +82,12 @@ Verbessern Sie die Anpassung Ihrer Arbeitsfläche mit den folgenden Optionen:
 * Passen Sie den **[!UICONTROL Prozentwert]** an, um die Flussverteilung zwischen verschiedenen Journey-Pfaden zu bestimmen.
 * Passen Sie Ihre **[!UICONTROL Pfeileinstellungen]** an, um Labels und Bedingungen einzuschließen, oder entscheiden Sie sich für eine saubere Anzeige.
 * Aktivieren Sie die Option **[!UICONTROL Fallout anzeigen]**, um direkt auf der Arbeitsfläche Profile zu visualisieren, die Ihre Journey verlassen haben.
+
+Die folgenden Regeln gelten bei Verwendung des Filters **[!UICONTROL Knotentyp]** :
+
+* Beim Erstellen eines Segments auf einem Knoten umfasst es weiterhin Knoten aus früheren Phasen des Journey, selbst wenn diese Knoten über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden.
+
+* Es ist nicht möglich, aus einem Pfeil geformte Segmente zu erstellen, wenn Knoten in früheren Phasen der Journey über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden. In diesem Fall wird die Rechtsklickfunktion für diese Pfeile deaktiviert.
 
 ## Aktions-Performance {#action-performance}
 
