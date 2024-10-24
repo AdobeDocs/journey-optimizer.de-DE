@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 6%
+source-wordcount: '321'
+ht-degree: 85%
 
 ---
 
@@ -31,16 +31,22 @@ Inhalt dieses Dokumentationshandbuchs:
 >
 >Die Tools zur Konfliktverwaltung und Priorisierung sind derzeit nur für ausgewählte Benutzer verfügbar, da sie nur über eingeschränkte Verfügbarkeit verfügen.
 
-Mit Journey Optimizer können Sie einer Journey oder Kampagne eine Prioritätsbewertung zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Einschränkung vorliegt (z. B. eine Frequenzbegrenzung). Wenn ein Kunde für viele Journey, Kampagnen oder Mitteilungen qualifiziert ist und Sie selektiv sein möchten, in welche Bereiche er eintreten und welche er empfangen soll, sollten Sie dieses Feld nutzen.
+Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätswert zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeittsbegrenzung). In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mitteilungen infrage kommt und Sie selektiv auswählen möchten, welche sie betreten und erhalten soll, sollten Sie dieses Feld verwenden.
 
 >[!NOTE]
 >
->Die Prioritätsbewertung ist für eingehende Kanäle verfügbar: Web-, In-App- und code-basierte Kanäle. Unter Journey ist die Prioritätsbewertung nur für die Kanäle **in der App** und **code-basiert** verfügbar.
+>Der Prioritätswert ist für eingehende Kanäle verfügbar: Web-, In-App- und Code-basierte Kanäle. In Journeys ist der Prioritätswert nur für die Kanäle **In-App** und **Code-basiert** verfügbar.
 
-Die Zuweisung eines Prioritätswerts ist für die eingehende Kommunikation wie Web, Mobile und In-App-Nachrichten von entscheidender Bedeutung. Wenn mehrere Kampagnen dieselbe Kanalkonfiguration verwenden (z. B. ein Banner oben auf Ihrer Webseite), kann dies problematisch sein, da nur Inhalte einer Kampagne angezeigt werden können. In der Prioritätsbewertung legen Sie Ihre Voreinstellung fest, für welche Kampagne angezeigt werden soll, wenn sich der Empfänger für mehr als eine Kampagne qualifizieren kann.
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Um einer Journey oder Kampagne eine Prioritätsbewertung zuzuweisen, geben Sie einen numerischen Wert (von 0-100) in das Feld **[!UICONTROL Prioritätsbewertung]** ein, das sich in den Journey- oder Kampagneneigenschaften befindet. Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass dieser Kampagneninhalt angezeigt wird, erhalten Sie eine Punktzahl von 100.
+Die Zuweisung eines Prioritätswerts ist für eingehende Kommunikation wie Web, Mobile und In-App entscheidend. Wenn Sie mehrere Kampagnen haben, die dieselbe Kanalkonfiguration verwenden (z. B. ein Banner oben auf Ihrer Webseite), könnte dies problematisch sein, da nur Inhalte aus einer Kampagne angezeigt werden können. Bei dem Prioritätswert geben Sie an, welche Kampagne angezeigt werden soll, wenn die empfangende Person für mehr als eine Kampagne infrage kommt.
+
+Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen numerischen Wert (von 0 bis 100) in das Feld **[!UICONTROL Prioritätswert]** ein, das sich in den Journey- oder Kampagneneigenschaften befindet. Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass der Inhalt dieser Kampagne angezeigt wird, sollten Sie ihr den Wert 100 geben.
 
 ![](assets/priority-score.png)
 
-In Situationen, in denen zwei Kampagnen dieselbe Prioritätsbewertung aufweisen, wird die zuvor aktivierte Kampagne angezeigt.
+Wenn zwei Kampagnen die gleiche Priorität haben, wird die Kampagne angezeigt, die zuerst aktiviert wurde.
+
+## Anleitungsvideo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

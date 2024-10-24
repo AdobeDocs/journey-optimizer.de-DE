@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 74%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 74%
 Neben den globalen Geschäftsregeln, die die Anzahl der Nachrichten, die Benutzer über einen oder mehrere Kanäle erhalten, einschränken, können Sie mithilfe von Regelsätzen **mehrere Regeln in Regelsätze gruppieren** und sie auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
@@ -313,3 +315,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 >Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System mit der Unterdrückung von Kunden beginnt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in die Zukunft beginnt, um dies zu verhindern.
 
 +++
+
+## Anleitungsvideo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

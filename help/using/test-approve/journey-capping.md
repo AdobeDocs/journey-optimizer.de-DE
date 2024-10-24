@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ Mit der Journey-Begrenzung können Sie die Anzahl der Journey einschränken, in 
 * **Parallele Begrenzungen** beschränken, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann.
 
 Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Einträge zu schlichten.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Erstellen einer Journey-Begrenzungsregel {#create-rule}
 
@@ -115,3 +117,7 @@ Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzung
 >[!IMPORTANT]
 >
 >Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System mit der Unterdrückung von Kunden beginnt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in die Zukunft beginnt, um dies zu verhindern.
+
+## Anleitungsvideo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
