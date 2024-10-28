@@ -7,49 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
-source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 6%
 
 ---
 
 
 # Änderungen der Streaming-Segmentierung (Time-to-Live) {#ttl-guardrail}
 
-## TTL-Limits (Time-to-Live) {#ttl}
-
-Ab dem 1. November 2024 wird in den vom Journey Optimizer-System erstellten Datensätzen in **neuen Sandboxes und neuen Organisationen** ein TTL-Schutzschild (Time-to-Live) bereitgestellt:
-
-* 90 Tage für Daten im Profilspeicher
-* 13 Monate für Daten im Data Lake
-
-Diese Änderung wird in einer späteren Phase in **vorhandene Kunden-Sandboxes** eingeführt.
-
-**Häufig gestellte Fragen**
-
-+++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
-
-Diese Änderung gilt für alle Sandbox-Typen.
-
-+++
-
-
-+++ Sind Profile selbst betroffen während der 90-Tage-TTL im Profilspeicher?
-
-Die vom System generierten Datensatzdaten im Profil werden nach 90 Tagen und nicht aus den Profilen selbst abgelegt.
-
-+++
-
-+++ Wenn systemgenerierte Datensatzdaten an Customer Journey Analytics (CJA) gesendet werden, werden dann auch die Daten in CJA von der TTL beeinflusst?
-
-Daten in CJA werden mit Experience Platform synchronisiert. Daher wirkt sich eine Entfernung von Daten aufgrund einer TTL auf systemgenerierte Datensatzdaten auch auf die Daten in CJA aus.
-
-+++
-
 ## Aktualisierungen der Streaming-Segmentierung {#segmentation-update}
 
-Darüber hinaus unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Feedback-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr.  Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen zu diesem Zeitpunkt.
+Ab dem 1. November 2024 bietet Streaming-Segmentierung keine Unterstützung mehr für das Senden und Öffnen von Ereignissen aus Journey Optimizer-Tracking und Feedback-Datensätzen. Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen. Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Häufig gestellte Fragen**
 
@@ -82,5 +52,40 @@ Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
 +++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
 
 Diese Änderung gilt für alle Sandbox-Typen.
+
++++
+
++++ Beeinflusst die Änderung auch Feedback-Ereignisse, die aus dem Versandereignis resultieren?
+
+Diese Änderung gilt auch für Ausschlussereignisse und Bounce/Delay-Ereignisse, die aus dem Versand resultieren.
+
++++
+
+## Schrittweise Time-to-Live (TTL)-Aktualisierung {#ttl}
+
+Ab Februar 2025 wird ein TTL-Limits (Time-to-Live) wie folgt an vom Journey Optimizer-System erstellte Datensätze in **neuen Sandboxes und neuen Organisationen** bereitgestellt:
+
+* 90 Tage für Daten im Profilspeicher
+* 13 Monate für Daten im Data Lake
+
+Diese Änderung wird in einer nachfolgenden Phase in **vorhandene Kunden-Sandboxes** eingeführt.
+
+**Häufig gestellte Fragen**
+
++++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
+
+Diese Änderung gilt für alle Sandbox-Typen.
+
++++
+
++++ Sind Profile selbst betroffen während der 90-Tage-TTL im Profilspeicher?
+
+Die vom System generierten Datensatzdaten im Profil werden nach 90 Tagen und nicht aus den Profilen selbst abgelegt.
+
++++
+
++++ Wenn systemgenerierte Datensatzdaten an Customer Journey Analytics (CJA) gesendet werden, werden dann auch die Daten in CJA von der TTL beeinflusst?
+
+Daten in CJA werden mit Experience Platform synchronisiert. Daher wirkt sich eine Entfernung von Daten aufgrund einer TTL auf systemgenerierte Datensatzdaten auch auf die Daten in CJA aus.
 
 +++

@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 58%
 
 ---
@@ -309,14 +309,14 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 
 **Datensätze**
 
-* **Schutzdauer für die Live-Schaltung** - Ab dem 1. November 2024 wird in Journey Optimizer-systemgenerierten Datensätzen in neuen Sandboxes und neuen Organisationen ein TTL-Schutzschild (Time-to-Live) bereitgestellt:
+* **Ereignisse senden und öffnen** - Ab dem 1. November 2024 bietet Streaming-Segmentierung keine Unterstützung mehr für das Senden und Öffnen von Ereignissen aus Journey Optimizer-Tracking und Feedback-Datensätzen. Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen. [Weitere Informationen](../data/datasets-ttl.md#segmentation-update)
+
+* **Datensatzzeit bis zur Live-Schaltung (TTL)** - Ab Februar 2025 wird ein TTL-Schutzmechanismus (Time-to-Live) in systemgenerierten Journey Optimizer-Datensätzen in neuen Sandboxes und neuen Organisationen wie folgt bereitgestellt:
 
    * 90 Tage für Daten im Profilspeicher
    * 13 Monate für Daten im Data Lake
 
-  Diese Änderung wird in einer zweiten Phase in bestehenden Kunden-Sandboxes eingeführt.
-
-  Außerdem unterstützt Streaming-Segmentierung ab dem 1. November die Verwendung von Sende- und Öffnungs-Ereignissen aus Tracking- und Feedback-Datensätzen nicht mehr. Diese Änderung gilt für alle Kunden-Sandboxes und -Organisationen zu diesem Zeitpunkt. [Weitere Informationen](../data/datasets-ttl.md)
+  Diese Änderung wird in einer nachfolgenden Phase auf bestehende Kunden-Sandboxes übertragen. [Weitere Informationen](../data/datasets-ttl.md#ttl)
 
 * **Parameter in benutzerdefinierten Aktionen** (Verfügbarkeitsdatum: 3. Oktober 2024) - NULL und optionale Parameter werden jetzt in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
