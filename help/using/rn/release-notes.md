@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
+source-git-commit: bfd0c7c976146c0cccdb51a720c27653b3e5a7b4
 workflow-type: tm+mt
 source-wordcount: '3104'
 ht-degree: 58%
@@ -343,7 +343,8 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 **Konfiguration** - Verfügbarkeitsdatum: 23. Oktober 2024
 
 * Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie jetzt eine Vorschau Ihres E-Mail-Inhalts anzeigen, um nach potenziellen Fehlern mit den von Ihnen definierten dynamischen Einstellungen zu suchen. [Weitere Informationen](../email/surface-personalization.md#check-configuration)
-  **Codebasierter Kanal**
+
+**Codebasierter Kanal**
 
 * Inhaltsvorlagen sind jetzt verfügbar. Sie können das Authoring Ihrer code-basierten Erlebnisse beschleunigen, ausgehend von einer Inhaltsvorlage, die von Ihren Entwicklern erstellt wurde. Durch Verwendung einer Inhaltsvorlage kann der Marketing-Experte nur einige Werte oder Felder ändern, anstatt die gesamte HTML- oder JSON-Inhalts-Payload zusammenzustellen.
 
