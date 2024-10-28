@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Datei-Routing-Konfiguration"
 >abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Zielgruppe generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/create-direct-mail" text="Erstellen einer Briefpostnachricht"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Erstellen einer Briefpostnachricht"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >id="ajo_dm_surface_settings"
 >title="Definieren der Direkt-Mail-Einstellungen"
 >abstract="Eine Direkt-Mail-Konfiguration enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Zielgruppe enthält und vom Direkt-Mail-Anbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Konfigurieren des Datei-Routings"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Konfigurieren des Datei-Routings"
 
 <!--
 >[!CONTEXTUALHELP]

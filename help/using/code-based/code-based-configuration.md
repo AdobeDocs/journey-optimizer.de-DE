@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 49%
+ht-degree: 52%
 
 ---
 
@@ -28,8 +28,8 @@ Eine code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Bestimmten Ort innerhalb Ihrer Seite oder App angeben"
->abstract="Dieses Feld gibt das genaue Ziel innerhalb einer Seite oder innerhalb der App an, auf das Benutzer zugreifen sollen. Es kann sich um einen bestimmten Abschnitt innerhalb einer Webseite oder eine Seite innerhalb der Navigationsstruktur der App handeln."
+>title="Angeben des spezifischen Speicherorts auf Ihrer Seite oder in Ihrer App"
+>abstract="Dieses Feld gibt das genaue Ziel auf einer Seite oder in der App an, auf das Benutzende zugreifen sollen. Es kann sich um einen bestimmten Abschnitt innerhalb einer Web-Seite oder eine Seite tief innerhalb der Navigationsstruktur der App handeln."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -180,7 +180,7 @@ Gehen Sie wie folgt vor, um die code-basierten Erlebniskonfigurationseinstellung
 >id="ajo_admin_surface_uri"
 >title="Hinzufügen des Oberflächen-URI für Ihre Komponente"
 >abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, bei der Sie Ihr Erlebnis bereitstellen möchten. Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
 
 Ein code-basiertes Erlebnis **Oberfläche** ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen **URI** eindeutig identifiziert wird. Die Oberfläche wird in der Implementierung der Anwendung angegeben und muss mit der in Ihrer Code-basierten Konfiguration des Erlebniskanals referenzierten Oberfläche übereinstimmen.
 
