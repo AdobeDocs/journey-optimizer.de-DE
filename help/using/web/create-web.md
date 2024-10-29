@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 97%
+source-wordcount: '1363'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, das Web-Erlebnis, das Sie Ihrer Kundschaft bieten, durch eingehende Journeys oder Kampagnen zu personalisieren.
 
-## Hinzufügen eines Web-Erlebnisses über eine Journey oder Kampagne {#create-web-experience}
+## Weberlebnis über eine Journey oder Kampagne definieren {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
 
    ![](assets/web-activity-configuration.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** und bearbeiten Sie Ihren Inhalt wie gewünscht mit dem Web-Designer. [Weitere Informationen](edit-web-content.md)
+1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** aus und bearbeiten Sie den Inhalt nach Bedarf. [Weitere Informationen](#edit-web-content)
 
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
    ![](assets/web-campaign-steps.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um Ihren Inhalt wie gewünscht mit dem Web-Designer zu bearbeiten. [Weitere Informationen](edit-web-content.md)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** , um den Inhalt nach Bedarf zu bearbeiten. [Weitere Informationen](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
 >[!ENDTABS]
 
+## Bearbeiten von Web-Inhalten {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="Bestätigen der URL zum Bearbeiten"
+>abstract="Bestätigen Sie die URL der spezifischen Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Konfiguration angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Geben Sie die zu bearbeitende URL ein"
+>abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+
+Nachdem Sie [eine Webaktion](#create-web-experience) zu einer Journey oder Kampagne hinzugefügt haben, können Sie den Inhalt Ihrer Site bearbeiten, indem Sie eine der folgenden Optionen verwenden:
+
+* den [Web-Designer](web-visual-editor.md) verwenden, um Ihr Erlebnis mit einem visuellen Editor zu erstellen;
+* oder dem [ nicht visuellen Editor](web-non-visual-editor.md).
+
+Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen.
+
+1. Wählen Sie im Tab **[!UICONTROL Aktion]** der Kampagne oder im Tab **[!UICONTROL Web]** der Journey die Option **[!UICONTROL Inhalt bearbeiten]** aus.
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. Der Bearbeitungsbildschirm wird angezeigt. Sie haben die Möglichkeit zum:
+
+   * Klicken Sie auf die Schaltfläche **[!UICONTROL Web-Seite bearbeiten]** , um mit der Bearbeitung Ihres Inhalts mit dem Webdesigner für ein visuelles Erlebnis zu beginnen. [Weitere Informationen](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * Deaktivieren Sie die Option **[!UICONTROL Visual Editor]** , um stattdessen den nicht visuellen Bearbeitungsmodus zu verwenden, und klicken Sie auf **[!UICONTROL Änderung hinzufügen]** , um mit der Bearbeitung des Webinhalts zu beginnen, ohne den Visual Editor zu laden. [Weitere Informationen](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## Testen des Web-Erlebnisses {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >title="Vorschau des Web-Erlebnisses"
 >abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
-Sobald Sie mit dem Web-Designer [das Web-Erlebnis erstellt haben](edit-web-content.md), können Sie mithilfe der Testprofile eine Vorschau der geänderten Web-Seiten anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte angezeigt werden.
+Sobald Sie mit dem Web-Designer [das Web-Erlebnis erstellt haben](web-visual-editor.md), können Sie mithilfe der Testprofile eine Vorschau der geänderten Web-Seiten anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte angezeigt werden.
 
 Klicken Sie dazu entweder im Bildschirm zur Inhaltsbearbeitung einer Journey oder einer Kampagne auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Web-Seite mithilfe der Testprofildaten zu überprüfen.
 
@@ -124,7 +159,7 @@ Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres I
 >
 > Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Web-Erlebnisse aktivieren zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-Sobald Sie Ihr Web-Erlebnis definiert und Ihre Inhalte wie gewünscht mit dem [Web-Designer](edit-web-content.md#work-with-web-designer) bearbeitet haben, können Sie Ihre Journey oder Kampagne aktivieren, um die Änderungen für Ihre Zielgruppe sichtbar zu machen.
+Nachdem Sie Ihr Web-Erlebnis definiert und den Inhalt nach Bedarf bearbeitet haben, können Sie Ihre Journey oder Kampagne aktivieren, um Ihre Änderungen für Ihre Zielgruppe sichtbar zu machen.
 
 Sie können auch eine Vorschau Ihrer Web-Erlebnis-Inhalte anzeigen, bevor Sie sie live schalten. [Weitere Informationen](#test-web-experience)
 
@@ -156,7 +191,7 @@ Ihre Web-Journey erhält den Status **[!UICONTROL Live]** und ist jetzt schreibg
 
 ### Aktivieren einer Web-Kampagne {#activate-web-campaign}
 
-Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht mit dem [Web-Designer](edit-web-content.md#work-with-web-designer) bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
+Nachdem Sie Ihre Webkampagneneinstellungen definiert und den Inhalt nach Bedarf bearbeitet haben, können Sie Ihre Webkampagne überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 
@@ -177,6 +212,8 @@ Ihre Web-Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun fü
 >Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Web-Kampagnenänderungen auf Ihrer Website live sind.
 >
 >Wenn Sie einen Zeitplan für Ihre Web-Kampagne definiert haben, hat sie den Status **[!UICONTROL Geplant]**, bis das Startdatum und die Startzeit erreicht werden.
+
+Sobald Ihr Erlebnis live ist, können Sie Ihre Web-Journey und -Kampagnen überwachen. [Weitere Informationen](monitor-web-experiences.md)
 
 ## Stoppen einer Web-Journey oder Kampagne {#stop-web-experience}
 
