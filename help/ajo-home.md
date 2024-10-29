@@ -5,9 +5,9 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
+source-git-commit: c2403c04d1e881d3da7528aa3460bae47f001c36
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '379'
 ht-degree: 86%
 
 ---
@@ -22,7 +22,7 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!TAB Version vom 24. Oktober]
 
-Die Oktober-Version ist jetzt verfügbar, einschließlich E-Mail-Inhaltssperrung, Konflikt- und Prioritätsverwaltung (LA) sowie Integration mit Wechselfarben. Zuvor waren in der eingeschränkten Verfügbarkeit (LA) die folgenden Funktionen für alle verfügbar: Personalisierung der E-Mail-Konfiguration, Validierungsrichtlinien, Inhaltserprobung in Journey und verbesserte Berichtserfahrung.
+Die Oktober-Version ist jetzt live, einschließlich E-Mail-Inhaltssperrung, Integration mit anpassbaren Tinten, Code-basierten und Web-Erlebnissen in Journey. Zuvor waren in der eingeschränkten Verfügbarkeit (LA) die folgenden Funktionen für alle verfügbar: Personalisierung der E-Mail-Konfiguration, Validierungsrichtlinien, Inhaltserprobung in Journey und verbesserte Berichtserfahrung.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
