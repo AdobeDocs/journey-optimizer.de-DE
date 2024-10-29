@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 2fb8113f4ae85b661a3ea967327e6a0b532fc48f
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 49%
+source-wordcount: '1428'
+ht-degree: 48%
 
 ---
 
@@ -283,6 +283,8 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbesse
 * Sie können eine Standard-SMS-Nachricht erstellen und versenden, wenn ein Schlüsselwort nicht erkannt wird.
 
 * Jetzt können Sie eine SMS-API-Kanalkonfiguration bearbeiten oder löschen.
+
+Weitere Informationen zu diesen Verbesserungen finden Sie in der Dokumentation zur SMS-Konfiguration für [Infobip](../sms/sms-configuration-infobip.md) und [Sinch](../sms/sms-configuration-sinch.md).
 
 <!--**Journeys**-->
 
