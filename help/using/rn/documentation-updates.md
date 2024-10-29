@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
-source-wordcount: '5672'
+source-wordcount: '5707'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Oktober 2024 {#oct-2024}
 
+* Alle neuen Funktionen und Verbesserungen der Version vom 24. Oktober 2010 wurden in der Dokumentation beschrieben. [!DNL Journey Optimizer] [Mehr dazu](release-notes.md)
+* Alle in [!DNL Journey Optimizer] verfügbaren Kommunikationskanäle sind jetzt in einem speziellen Abschnitt der Dokumentation gruppiert. [Mehr dazu](../channels/gs-channels.md)
 * Die Seite **Konfigurieren des code-basierten Erlebnisses** wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Webkanalkonfiguration erstellen** wurde aktualisiert, um die Schritte beim Erstellen einer Seitenvergleichsregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zur bevorstehenden TTL-Schutzdauer (Time-to-Live) für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)

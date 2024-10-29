@@ -5,7 +5,7 @@ title: Erste Schritte mit Kommunikationskanälen in  [!DNL Adobe Journey Optimiz
 description: Erfahren Sie, wie Sie mit [!DNL Adobe Journey Optimizer] Kommunikationskanälen arbeiten.
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -17,32 +17,35 @@ ht-degree: 2%
 
 ## [!DNL Adobe Journey Optimizer] Kanäle {#overview}
 
-In der heutigen dynamischen Marketinglandschaft ist es entscheidend, dass Sie Ihre Zielgruppe über verschiedene Plattformen hinweg effektiv erreichen, um dauerhafte Beziehungen zu knüpfen und die Interaktion zu fördern. In diesem Abschnitt erhalten Sie einen umfassenden Überblick über die in [!DNL Adobe Journey Optimizer] verfügbaren Kommunikationskanäle. So können Sie erkennen, wie die einzelnen Kanäle effektiv in Ihren Marketing-Strategien eingesetzt werden.
+In der heutigen dynamischen Marketinglandschaft ist es entscheidend, Ihre Zielgruppe über verschiedene Plattformen hinweg effektiv zu erreichen, um dauerhafte Beziehungen zu knüpfen und die Interaktion zu fördern. In diesem Abschnitt erhalten Sie einen umfassenden Überblick über die in [!DNL Adobe Journey Optimizer] verfügbaren Kommunikationskanäle. So können Sie erkennen, wie die einzelnen Kanäle effektiv in Ihren Marketing-Strategien eingesetzt werden.
 
 ## Eingehende und ausgehende Kanäle {#inbound-outbound}
 
 Der Unterschied zwischen eingehenden und ausgehenden Kanälen zu verstehen ist für die Optimierung Ihrer Kommunikationsstrategie von entscheidender Bedeutung:
+
 * Eingehende Kanäle: Diese Kanäle ermöglichen es Kunden, Interaktionen zu initiieren. Beispiele sind In-App-Nachrichten und webbasierte Interaktionen, bei denen Benutzer Inhalte zu ihren eigenen Bedingungen bearbeiten können.
+
 * Ausgehende Kanäle: Hierzu gehören der Versand von Nachrichten an Kunden ohne vorherige Interaktion. Beispiele sind E-Mail-Kampagnen und Push-Benachrichtigungen, in denen Sie proaktiv auf Ihre Zielgruppe zuzugreifen.
+
 Die effektive Nutzung beider Kanäle kann Kundenerlebnisse verbessern und die Interaktion fördern.
 
 ## Verfügbare Kanäle {#channels}
 
 Adobe Journey Optimizer bietet eine Vielzahl von Kommunikationskanälen, über die Sie effektiv mit Ihrer Zielgruppe interagieren können. Im Folgenden finden Sie eine Liste der Kanäle, die Sie nutzen können:
 
-Ausgehende Kanäle:
+* Ausgehende Kanäle
 
-* **E-Mail**: Stellen Sie personalisierte Nachrichten direkt an die Postfächer Ihrer Kunden bereit.
-* **SMS/MMS**: Senden Sie Textnachrichten, um Benutzer auf ihren Mobilgeräten zu erreichen.
-* **Push-Benachrichtigung**: Kontaktieren Sie Benutzer mit sofortigen Benachrichtigungen auf ihren Geräten, wodurch sofortige Maßnahmen ergriffen werden.
-* **Briefpost**: Verwenden Sie physische E-Mails, um eine greifbare Verbindung mit Ihrer Zielgruppe herzustellen.
+   * **E-Mail**: Stellen Sie personalisierte Nachrichten direkt an die Postfächer Ihrer Kunden bereit.
+   * **SMS/MMS**: Senden Sie Textnachrichten, um Benutzer auf ihren Mobilgeräten zu erreichen.
+   * **Push-Benachrichtigung**: Kontaktieren Sie Benutzer mit sofortigen Benachrichtigungen auf ihren Geräten, wodurch sofortige Maßnahmen ergriffen werden.
+   * **Briefpost**: Verwenden Sie physische E-Mails, um eine greifbare Verbindung mit Ihrer Zielgruppe herzustellen.
 
-Eingehende Kanäle:
+* Eingehende Kanäle
 
-* **In-App**: Kommunikation mit Benutzern in Ihren mobilen oder Web-Anwendungen, um deren Erlebnis zu verbessern.
-* **Web**: Verwenden Sie webbasierte Nachrichten, um mit Benutzern zu interagieren, die Ihre Site durchsuchen.
-* **Codebasiertes Erlebnis**: Implementieren Sie benutzerdefinierte Erlebnisse durch Kodierung für einzigartige Interaktionsmöglichkeiten.
-* **Inhaltskarten**: Geben Sie dynamische Inhalte direkt in Ihren Anwendungen oder Websites frei, um Benutzer auf dem Laufenden zu halten.
+   * **In-App**: Kommunikation mit Benutzern in Ihren mobilen oder Web-Anwendungen, um deren Erlebnis zu verbessern.
+   * **Web**: Verwenden Sie webbasierte Nachrichten, um mit Benutzern zu interagieren, die Ihre Site durchsuchen.
+   * **Codebasiertes Erlebnis**: Implementieren Sie benutzerdefinierte Erlebnisse durch Kodierung für einzigartige Interaktionsmöglichkeiten.
+   * **Inhaltskarten**: Geben Sie dynamische Inhalte direkt in Ihren Anwendungen oder Websites frei, um Benutzer auf dem Laufenden zu halten.
 
 ## Nutzung von Kanälen in Journey und Kampagnen {#leverage}
 
