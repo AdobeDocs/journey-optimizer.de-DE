@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,9 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version September 2024]
+>[!TAB Version vom 24. Oktober]
 
-Die Septemberversion ist jetzt live, einschließlich Inhaltskarten für mobile Apps und Websites, Genehmigungsrichtlinien in Journeys und Kampagnen (LA), globalen Ausstiegskriterien in Journeys und mehr.
+Die Oktober-Version ist jetzt verfügbar, einschließlich E-Mail-Inhaltssperrung, Konflikt- und Prioritätsverwaltung (LA) sowie Integration mit Wechselfarben. Zuvor waren in der eingeschränkten Verfügbarkeit (LA) die folgenden Funktionen für alle verfügbar: Personalisierung der E-Mail-Konfiguration, Validierungsrichtlinien, Inhaltserprobung in Journey und verbesserte Berichtserfahrung.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,11 +38,11 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Inhaltsfragmente]
+>[!TAB Web-Erlebnisse in Journey]
 
-Fragmente können nun bearbeitet werden und Änderungen können in allen Live-Journeys und Kampagnen, in denen sie verwendet werden, übernommen werden.
+Mit dem Webkanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.
 
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -121,5 +121,5 @@ Fragmente können nun bearbeitet werden und Änderungen können in allen Live-Jo
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Bleiben Sie auf dem Laufenden und verbessern Sie Ihr Erlebnis von Adobe Journey Optimizer!</b><br/>Melden Sie sich für unseren vierteljährlichen Newsletter an. Sie erhalten exklusiven Zugang zu den neuesten Produkt-Updates, fesselnden Geschichten, realen Anwendungsfällen, wertvollen Tipps und vielem mehr – und das alles vierteljährlich direkt in Ihren Posteingang. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Melden Sie sich noch heute an!</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
