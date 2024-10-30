@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 100%
+source-wordcount: '1745'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Mit Journey Optimizer können Sie Marketing-Angebote erstellen, die als Entschei
 
 Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine **Entscheidungsregel** erstellt haben, wenn Sie Bedingungen festlegen möchten, um zu bestimmen, wem das Entscheidungselement angezeigt werden kann. [Erfahren Sie, wie Sie Entscheidungsregeln erstellen können](rules.md).
 
-Um ein Entscheidungselement zu erstellen, navigieren Sie zu **[!UICONTROL Erlebnis-Entscheidung]** > **[!UICONTROL Kataloge]**, klicken Sie auf **[!UICONTROL Element erstellen]** und befolgen Sie dann die in den folgenden Abschnitten beschriebenen Schritte.
+Um ein Entscheidungselement zu erstellen, navigieren Sie zu &quot;**[!UICONTROL Decisioning]**&quot;> &quot;**[!UICONTROL Kataloge]**&quot;, klicken Sie auf &quot;**[!UICONTROL Element erstellen]**&quot; und führen Sie dann die in den folgenden Abschnitten beschriebenen Schritte aus.
 
 ## Definieren der Attribute des Entscheidungselements {#attributes}
 

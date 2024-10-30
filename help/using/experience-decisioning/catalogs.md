@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 90%
 
 ---
 
 # Elementkatalog {#catalog}
 
-In Experience Decisioning dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
+Bei der Entscheidungsfindung dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
 
 Zunächst werden alle erstellten Entscheidungselemente in einem einzigen Katalog „Angebote“ konsolidiert, auf den über das Menü **[!UICONTROL Kataloge]** zugegriffen werden kann.
 
@@ -41,7 +41,7 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
    >[!CAUTION]
    >
-   >Derzeit unterstützt die Erlebnis-Entscheidung ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime und Decisioning Asset. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
+   >Derzeit unterstützt Decisioning ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime und Decisioning Asset. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
 
    Der Wert, der in ein Attribut mit einem Entscheidungs-Asset-Attribut eingegeben wird, ist eine öffentliche URL. In den meisten Fällen würde dies auf ein Bild hinweisen.
 

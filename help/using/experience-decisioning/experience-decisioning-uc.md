@@ -1,19 +1,19 @@
 ---
-title: Anwendungsfall für die Erlebnis-Entscheidung
+title: Anwendungsfall für Entscheidungen
 description: Erfahren Sie, wie Sie Entscheidungen mithilfe von Experimenten mit dem Code-basierten Kanal erstellen.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 95%
 
 ---
 
-# Anwendungsfall für die Erlebnis-Entscheidung {#experience-decisioning-uc}
+# Anwendungsfall für Entscheidungen {#experience-decisioning-uc}
 
 In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
@@ -21,7 +21,7 @@ In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils ei
 
 Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln einrichten und Rangfolgenmethoden festlegen. Mit diesen Elementen können Sie Auswahlstrategien erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Erlebnis-Entscheidung]** > **[!UICONTROL Katalog]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
+1. Navigieren Sie zu **[!UICONTROL Decisioning]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2156'
 ht-degree: 94%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 94%
       + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
    + [Warnhinweise](using/reports/alerts.md)
    + [Ausschlussgründe](using/reports/exclusion-list.md)
-+ Decisioning {#decisioning}
++ Entscheidungsfunktionen {#decisioning}
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -587,8 +587,8 @@ ht-degree: 94%
             + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Erlebnis-Entscheidung (LA) {#experience-decisioning}
-      + [Erste Schritte mit der Erlebnis-Entscheidung](using/experience-decisioning/gs-experience-decisioning.md)
+   + Decisioning (LA) {#experience-decisioning}
+      + [Erste Schritte mit Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + API-Verweis{#api-reference}
          + Entscheidungselemente{#decision-items}
             + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)

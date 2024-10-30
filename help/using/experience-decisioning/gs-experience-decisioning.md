@@ -1,39 +1,39 @@
 ---
-title: Erste Schritte mit der Erlebnis-Entscheidung
-description: Weitere Informationen zu Experience Decisioning
+title: Erste Schritte mit Decisioning
+description: Weitere Informationen zu Entscheidungsfindungen
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 75%
 
 ---
 
-# Erste Schritte mit der Erlebnis-Entscheidung {#get-started-experience-decisioning}
+# Erste Schritte mit Decisioning {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Die Entscheidungsfindung ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 >
 >Für Kundinnen und Kunden, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist die Funktion derzeit nicht verfügbar.
 
-## Was ist eine Erlebnis-Entscheidung? {#about}
+## Was ist Entscheidungsfindung {#about}
 
-Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
+Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten anbietet, der als &quot;Entscheidungselemente&quot;bezeichnet wird, sowie eine ausgereifte Entscheidungs-Engine. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
+Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien sind nur zur Verwendung in code-basierten Erlebniskampagnen verfügbar.
 
 
-## Wichtige Schritte bei Experience Decisioning {#steps}
+## Wichtige Schritte bei der Entscheidung {#steps}
 
-Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
+Die wichtigsten Schritte für die Arbeit mit Decisioning sind:
 
-1. **Zuweisen entsprechender Berechtigungen**. Die Erlebnis-Entscheidung steht nur Benutzenden mit Zugriff auf eine Erlebnis-Entscheidungs-bezogene **[!UICONTROL Rolle]** zur Verfügung, z. B. Entscheidungsträgern. Wenn Sie nicht auf die Erlebnis-Entscheidung zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Zuweisen entsprechender Berechtigungen**. Die Entscheidungsfindung ist nur für Benutzer verfügbar, die Zugriff auf eine Decisioning-bezogene **[!UICONTROL Rolle]** haben, z. B. Entscheidungsmanager. Wenn Sie nicht auf Decisioning zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
    +++Erfahren Sie, wie Sie die Rolle „Entscheidungsträger“ zuweisen
 

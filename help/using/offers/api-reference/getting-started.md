@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Exper
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}: Das standardisierte Framework, mit dem Kundenerlebnisdaten von [!DNL Experience Platform] organisiert werden.
    * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}: Erfahren Sie mehr über die Grundbausteine von XDM-Schemata.
-* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten der Erlebnis-Entscheidungsfindung im Allgemeinen und insbesondere des Entscheidungs-Managements. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt werden soll.
+* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für die Entscheidungsfindung im Allgemeinen und für das Entscheidungsmanagement im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt werden soll.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de){target="_blank"}: PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken auf XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen {#reading-sample-api-calls}
