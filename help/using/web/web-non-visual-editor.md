@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '401'
 ht-degree: 11%
 
 ---
@@ -66,8 +66,8 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
    Sie können bei Bedarf auch zum Webdesigner wechseln. Alle Ihre Änderungen bleiben erhalten.
 
 
-1. Sie können das Klick-Tracking aktivieren und die Aktionen definieren, die über das zweite Symbol in der linken Leiste verfolgt werden sollen, wie unten dargestellt:
+1. Sie können ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die verfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
 
    ![](assets/web-campaign-click.png)
 
-   Klicken Sie auf die Schaltfläche **Komponente hinzufügen** , um eine neue zu verfolgende Aktion auszuwählen.
+   Verwenden Sie die Schaltfläche **Komponente hinzufügen** , um eine neue zu verfolgende Aktion auszuwählen. Weitere Informationen zur Verwendung von Klick-Tracking finden Sie in [diesem Abschnitt](monitor-web-experiences.md#use-click-tracking).
