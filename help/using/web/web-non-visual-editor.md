@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 7%
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
    Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben Ihrer Änderung und wählen Sie **[!UICONTROL Info]** aus, um deren Details anzuzeigen. Sie können die Änderung bei Bedarf auch **[!UICONTROL löschen]**.
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
 1. Darüber hinaus können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die verfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    Verwenden Sie die Schaltfläche **Komponente hinzufügen** , um eine neue zu verfolgende Aktion auszuwählen. Weitere Informationen zur Verwendung von Klick-Tracking finden Sie in [diesem Abschnitt](monitor-web-experiences.md#use-click-tracking).
 
