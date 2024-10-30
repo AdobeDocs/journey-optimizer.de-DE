@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+workflow-type: tm+mt
+source-wordcount: '2233'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,7 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 * eine [Dauer für die maximale Wartezeit](#timeout) in Journey-Aktivitäten zu definieren (nur für Admins),
 * [Zeitzonen](#timezone) für die Journey und das Profil auszuwählen,
 * Ihrer Journey Adobe Experience Platform Unified Tags zuzuweisen, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+* Sie können Konflikte überwachen und Ihre Journey mithilfe von [Konfliktmanagement-Tools](#conflict) Prioritäten setzen.
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, um dem Support-Team bei der Problembehebung zu helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 [Auf dieser Seite](expression/journey-properties.md) erfahren Sie mehr über technische Felder, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und wie Sie sie verwenden können.
-
 
 ## Eintritt und Wiedereintritt {#entrance}
 
@@ -58,7 +58,7 @@ Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Mehr �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Erneuten Eintritt erlauben"
->abstract="Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die Option **Erneuten Eintritt erlauben** deaktivieren, wenn Sie zum Beispiel ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop aufruft."
+>abstract="Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Die Option **Erneuten Eintritt erlauben** kann deaktiviert werden, z. B. wenn ein einmaliges Geschenk angeboten werden soll, wenn eine Person einen Shop betritt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
@@ -299,3 +299,14 @@ Die folgenden Leitlinien und Einschränkungen gelten für die Ausstiegskriterien
 * Die Ausstiegskriterien sind nur im Entwurfsstadium definiert
 * Kohärenz des Journey-Namespace zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
 
+## Konflikt-Management {#conflict}
+
+Im Abschnitt **[!UICONTROL Konfliktverwaltung]** in den Eigenschaften von Journey können Sie Konflikte überwachen und Ihre Journey priorisieren. Sie haben folgende Möglichkeiten:
+
+* Wenden Sie einen **Regelsatz** an, um diese Journey basierend auf Begrenzungsregeln für einen Teil Ihrer Audience auszuschließen. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../configuration/rule-sets.md)
+
+* Weisen Sie dem Journey eine **Prioritätsbewertung** zu, die zwischen 0 und 100 liegt. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. [Erfahren Sie, wie Sie mit Prioritätswerten arbeiten](../conflict-prioritization/priority-scores.md)
+
+  In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde.
+
+* **Konflikte anzeigen** mit anderen Journey, Kampagnen oder Kanalkonfigurationen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen. [Erfahren Sie, wie Sie potenzielle Konflikte in Journey](../conflict-prioritization/conflicts.md) identifizieren.

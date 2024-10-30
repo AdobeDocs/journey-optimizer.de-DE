@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
++ Konfliktverwaltung und Priorisierung {#conflict-prioritization}
+   + [Erste Schritte mit Konfliktmanagement und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Potenzielle Konflikte identifizieren](using/conflict-prioritization/conflicts.md)
+   + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
+   + [Journey-Begrenzung und Schlichtung](using/conflict-prioritization/journey-capping.md)
 + Testen und Genehmigen {#test}
-   + [Konflikt-Management und Priorisierung](using/test-approve/conflict-prioritization.md)
-   + Konfliktverwaltung und Priorisierung {#conflict-prioritization}
-      + [Erste Schritte mit Konfliktmanagement und Priorisierung](using/test-approve/gs-conflict-prioritization.md)
-      + [Potenzielle Konflikte identifizieren](using/test-approve/conflicts.md)
-      + [Zuweisen von Prioritätswerten](using/test-approve/priority-scores.md)
-      + [Journey-Begrenzung und Schlichtung](using/test-approve/journey-capping.md)
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Testen von Inhalten mit Beispieleingabedaten](using/test-approve/simulate-sample-input.md)
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Verfahrensregeln](using/configuration/frequency-rules.md)
-   + [Arbeiten mit Regelsätzen](using/configuration/rule-sets.md)
+   + [Arbeiten mit Regelsätzen (LA)](using/configuration/rule-sets.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Integrieren mit externen Systemen {#external-systems}

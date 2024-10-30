@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit Regelsätzen
+title: Arbeiten mit Regelsätzen (LA)
 description: Erfahren Sie, wie Sie Regelsätze erstellen und anwenden können
 feature: Rules
 topic: Content Management
@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 74%
+source-wordcount: '1988'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->Die Regelsätze sind derzeit nur als Beta-Version für ausgewählte Benutzende verfügbar. Wenden Sie sich an den Adobe-Support, um in die Beta-Version aufgenommen zu werden.
+>Regelsätze sind derzeit in eingeschränkter Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktion in Zukunft schrittweise für weitere Benutzer eingeführt wird. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste gesetzt zu werden.
 
 ## Erste Schritte mit Regelsätzen {#gs}
 
@@ -167,7 +167,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
    * **[!UICONTROL Journey Entry Cap]**: Beschränkt die Anzahl der Einträge in die Journey über einen bestimmten Zeitraum für ein Profil.
    * **[!UICONTROL Journey Concurrency Cap]**: Beschränkt, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann.
 
-1. Detaillierte Informationen zum Konfigurieren von Journey-Begrenzungsregeln finden Sie im Abschnitt [Journey-Begrenzung und -Schlichtung](../test-approve/journey-capping.md) .
+1. Detaillierte Informationen zum Konfigurieren von Journey-Begrenzungsregeln finden Sie im Abschnitt [Journey-Begrenzung und -Schlichtung](../conflict-prioritization/journey-capping.md) .
 
 +++
 
@@ -306,7 +306,7 @@ Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstell
 
 Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
