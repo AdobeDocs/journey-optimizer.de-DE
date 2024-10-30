@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -41,13 +41,13 @@ Um auf die Ansichten in der Benutzeroberfläche von [!DNL Journey Optimizer] zug
 
 Nachdem das Setup des SPAs in der Adobe Experience Platform Web SDK-Implementierung durchgeführt wurde, müssen Sie durch alle Ansichten Ihrer Website navigieren, auf die Sie Änderungen anwenden möchten. Führen Sie dazu folgende Schritte durch.
 
-1. [Erstellen Sie eine Web-Kampagne](create-web.md) und rufen Sie den [Web-Designer](edit-web-content.md) auf.
+1. [Erstellen Sie eine Web-Journey oder Kampagne](create-web.md) und greifen Sie auf den [Webdesigner](web-visual-editor.md) zu.
 
    Die aktuelle Ansicht wird oben links angezeigt.
 
    ![](assets/web-designer-view-home.png)
 
-1. Wechseln Sie in den Modus **[!UICONTROL Durchsuchen]**. [Weitere Informationen](../web/edit-web-content.md#browse-mode)
+1. Wechseln Sie in den Modus **[!UICONTROL Durchsuchen]**. [Weitere Informationen](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

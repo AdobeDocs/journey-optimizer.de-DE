@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,8 @@ Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie 
    >[!CAUTION]
    >
    >Gehen Sie beim Löschen einer Aktion vorsichtig vor, da sich dies auf nachfolgende Aktionen auswirken kann.
+
+1. Wenn Sie eine [Einzelseitenanwendung](web-spa.md) erstellen, können Sie jede Änderung auf andere Ansichten anwenden. [Weitere Informationen](web-spa.md#apply-modifications-views)
 
 1. Um mehrere Änderungen gleichzeitig zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Auswählen]** am oberen Rand des Bereichs **[!UICONTROL Änderungen]**, überprüfen Sie dann die gewünschten Änderungen und klicken Sie anschließend auf das Symbol **[!UICONTROL Löschen]**.
 

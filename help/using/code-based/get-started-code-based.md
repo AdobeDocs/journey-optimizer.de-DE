@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ Wann sollte anstelle der anderen [!DNL Journey Optimizer]-Kanäle ein Code-basie
 
 * Sie können Code-basierte Erlebnisse jederzeit verwenden, wenn nicht über einen Webbrowser oder eine Mobile App auf Ihre digitale Eigenschaft zugegriffen wird. In den letzteren Fällen sollten Sie lieber den Kanal [!DNL Journey Optimizer] [Web-Kanal](../web/get-started-web.md){target="_blank"} oder [!DNL Journey Optimizer] [In-App-Messaging](../in-app/get-started-in-app.md){target="_blank"} verwenden.
 
-* Sie können den Code-basierten Kanal als Alternative zum Web-Kanal von [!DNL Journey Optimizer] verwenden, wenn Ihre Website nicht in den visuellen Editor für [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} geladen werden kann oder wenn Sie die [Browser-Erweiterung](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} nicht verwenden können, der bzw. die das visuelle Authoring für den Web-Kanal ermöglicht
+* Sie können den Code-basierten Kanal als Alternative zum Web-Kanal von [!DNL Journey Optimizer] verwenden, wenn Ihre Website nicht in den visuellen Editor für [Web-Designer](../web/web-visual-editor.md){target="_blank"} geladen werden kann oder wenn Sie die [Browser-Erweiterung](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} nicht verwenden können, der bzw. die das visuelle Authoring für den Web-Kanal ermöglicht
 
 * Sie können den Code-basierten Kanal auch als Alternative zu den Web- oder In-App-Kanälen von [!DNL Journey Optimizer] verwenden, falls Sie über eine API-basierte Headless- oder Server-seitige Implementierung verfügen.
 
@@ -85,9 +85,9 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 
 **Web**
 
-* Bearbeiten Sie Ihre Inhalte mithilfe des Visual Editors [Web-Designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
+* Bearbeiten Sie Ihre Inhalte mithilfe des Visual Editors [Web-Designer](../web/web-visual-editor.md){target="_blank"}.
 * Sie müssen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"}-Implementierung und die Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben. [Weitere Informationen](../web/web-prerequisites.md){target="_blank"}
-* Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/web-visual-editor.md){target="_blank"}
 * Er lässt sich schnell einrichten und ausführen.
 * Er ist auf Marketing-Fachleute ausgerichtet.
 

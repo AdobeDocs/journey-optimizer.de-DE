@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -54,7 +54,15 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
 
    * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl oder ihren Kurz-Code hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl oder einen eigenen Kurz-Code verfügt.
 
+   * **[!UICONTROL Benutzerdefinierte eingehende Suchbegriffe]**: Definieren Sie eindeutige Suchbegriffe für bestimmte Aktionen, z. B. DISCOUNT, ANGEBOTE, ENROLL. Diese Suchbegriffe werden als Profilattribute erfasst und gespeichert, sodass Sie eine Streaming-Segmentqualifizierung innerhalb der Journey Trigger und eine benutzerdefinierte Antwort oder Aktion bereitstellen können.
+
+   * **[!UICONTROL Standardmäßige eingehende Antwortnachricht]**: Geben Sie die Standardantwort ein, die gesendet wird, wenn ein Endbenutzer eine eingehende SMS sendet, die keinem der definierten Schlüsselwörter entspricht.
+
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Klicken Sie im Menü **[!UICONTROL API-Anmeldeinformationen]** auf das Papierkorbsymbol, um Ihre API-Anmeldeinformationen zu löschen.
+
+1. Um vorhandene Anmeldeinformationen zu ändern, suchen Sie die gewünschten API-Anmeldeinformationen und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanalkonfiguration für SMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ Gehen Sie wie folgt vor, um Sinch MMS mit Journey Optimizer für das Senden von 
    * **[!UICONTROL Service-Plan-ID]** und **[!UICONTROL SMS-API-Token]**: Ihre **[!UICONTROL Service-Plan-ID]** und Ihr **[!UICONTROL SMS-API-Token]** befinden sich auf der Registerkarte „SMS“ der API-Seite.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Klicken Sie im Menü **[!UICONTROL API-Anmeldeinformationen]** auf das Papierkorbsymbol, um Ihre API-Anmeldeinformationen zu löschen.
+
+1. Um vorhandene Anmeldeinformationen zu ändern, suchen Sie die gewünschten API-Anmeldeinformationen und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanalkonfiguration für MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)

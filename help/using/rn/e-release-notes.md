@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
+source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 41%
+source-wordcount: '2000'
+ht-degree: 40%
 
 ---
 
@@ -289,6 +289,10 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browsererw
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
+
+>[!AVAILABILITY]
+>
+>Folgende Verbesserungen sind nur bei Sinch- und Infobip-Anbietern verfügbar.
 
 SMS-Verbesserungen wurden eingeführt, um Ihre Nachrichtenfunktionen zu verbessern:
 

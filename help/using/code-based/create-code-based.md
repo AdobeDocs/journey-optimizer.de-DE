@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 73%
+source-wordcount: '1804'
+ht-degree: 70%
 
 ---
 
@@ -49,6 +49,8 @@ Gehen Sie wie folgt vor, um die Aktivität **Code-basiertes Erlebnis** zu einer 
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** aus und bearbeiten Sie Ihren Inhalt wie gewünscht mit dem Personalisierungseditor. [Weitere Informationen](#edit-code)
 
+   Sie können auch eine vorhandene Inhaltsvorlage als Grundlage für Ihren Code-Inhalt verwenden. Beachten Sie, dass die zur Auswahl stehenden Vorlagen je nach zuvor ausgewählter Kanalkonfiguration auf HTML oder JSON übertragen werden. [Erfahren Sie, wie Sie Inhaltsvorlagen verwenden](../content-management/use-content-templates.md)
+
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
 1. Sobald Ihr Code-Basis-Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
@@ -76,6 +78,8 @@ Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne 
    ![](assets/code-based-campaign-surface.png)
 
 1. Bearbeiten Sie den Inhalt wie gewünscht mit dem Personalisierungseditor. [Weitere Informationen](#edit-code)
+
+   Sie können auch eine vorhandene Inhaltsvorlage als Grundlage für Ihren Code-Inhalt verwenden. Beachten Sie, dass die zur Auswahl stehenden Vorlagen je nach zuvor ausgewählter Kanalkonfiguration auf HTML oder JSON übertragen werden. [Erfahren Sie, wie Sie Inhaltsvorlagen verwenden](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 

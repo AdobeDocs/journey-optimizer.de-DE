@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachric
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 88%
 
 ---
 
@@ -50,6 +51,10 @@ Um Nachrichten in Journey Optimizer mit einem benutzerdefinierten Anbieter zu ve
      Stellen Sie sicher, dass die Payload `{{toNumber}}`, `{{fromNumber}}`, `{{message}}` enthält.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Klicken Sie im Menü **[!UICONTROL API-Anmeldeinformationen]** auf das Papierkorbsymbol, um Ihre API-Anmeldeinformationen zu löschen.
+
+1. Um vorhandene Anmeldeinformationen zu ändern, suchen Sie die gewünschten API-Anmeldeinformationen und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
 

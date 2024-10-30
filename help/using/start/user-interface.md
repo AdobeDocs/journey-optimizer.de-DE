@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '1505'
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+workflow-type: tm+mt
+source-wordcount: '1446'
 ht-degree: 100%
 
 ---
@@ -232,45 +232,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="Governance"
->abstract="Governance"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="Modus"
->abstract="Modus"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="Aktivieren von Inhaltszusätzen"
->abstract="Aktivieren von Inhaltszusätzen"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="Inhaltssperre in Struktur"
->abstract="Inhaltssperre in Struktur"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="Verwenden der spezifischen Sperre in der Komponente"
->abstract="Verwenden der spezifischen Sperre in der Komponente"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="Markieren bearbeitbarer Bereiche"
->abstract="Markieren bearbeitbarer Bereiche"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="Governance aktiviert"
->abstract="Die Inhaltssperre ist aktiviert und kann das Vornehmen von Änderungen verhindern."
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="Schreibgeschützt"
->abstract="Dieser Inhalt ist schreibgeschützt und kann nicht geändert werden."
 
 <!--APPROVAL POLICIES-->
 

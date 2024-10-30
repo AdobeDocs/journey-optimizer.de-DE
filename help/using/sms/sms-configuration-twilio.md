@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 84%
 
 ---
 
@@ -33,5 +33,9 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
    * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl verfügt.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Klicken Sie im Menü **[!UICONTROL API-Anmeldeinformationen]** auf das Papierkorbsymbol, um Ihre API-Anmeldeinformationen zu löschen.
+
+1. Um vorhandene Anmeldeinformationen zu ändern, suchen Sie die gewünschten API-Anmeldeinformationen und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)

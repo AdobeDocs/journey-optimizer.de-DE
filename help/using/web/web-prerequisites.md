@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 87%
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[](edit-web-content.md#work-with-web-designer)
+Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[](web-visual-editor.md)
 
 Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 

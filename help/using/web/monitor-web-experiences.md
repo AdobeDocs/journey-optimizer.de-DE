@@ -1,19 +1,19 @@
 ---
-title: Überwachen Ihrer Web-Kampagnen
-description: Erfahren Sie, wie Sie Ihre Web-Kampagnen in Journey Optimizer überwachen.
+title: Überwachen Ihrer Web-Erlebnisse
+description: Erfahren Sie, wie Sie Ihre Web-Erlebnisse in Journey Optimizer überwachen.
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
-# Überwachen Ihrer Web-Kampagnen {#monitor-web-experiences}
+# Überwachen Ihrer Web-Erlebnisse {#monitor-web-experiences}
 
 ## Überprüfen der Web-Berichte {#check-web-reports}
 
@@ -23,7 +23,7 @@ Sobald Ihr Web-Erlebnis live ist, können Sie auf der Registerkarte **[!UICONTRO
 
 Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Web-Berichten anzeigen. [Weitere Informationen](#use-click-tracing)
 
-## Verwenden von Klick-Tracking {#use-click-tracing}
+## Verwenden von Klick-Tracking {#use-click-tracking}
 
 Mit dem Web-Designer können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen.
 
