@@ -7,13 +7,12 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Starten, Inhalt, Experiment
+keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 100%
 >title="Übersetzungen"
 >abstract="Mit der Funktion „Mehrsprachig“ können Sie Inhalte in mehreren Sprachen innerhalb einer einzigen Kampagne oder Journey auf einfache Weise erstellen. Auf der Seite „Übersetzungen“ können Sie Projekte einrichten, Übersetzungsanbieter auswählen oder gebietsschemaspezifische Wörterbücher verwalten."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Um mehrsprachige Inhalte zu erstellen, müssen Benutzer über die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** verfügen.
+>Für den automatisierten Ablauf benötigen Benutzer auch Berechtigungen im Zusammenhang mit den Funktionen des **[!UICONTROL Übersetzungsdienstes]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
 Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
 
@@ -55,7 +55,9 @@ Die Nutzung der Übersetzungsdienste eines Übersetzungsanbieters unterliegt den
 
 Bei Problemen oder Anfragen zu Ihren Übersetzungen wenden Sie sich bitte an den jeweiligen Übersetzungsanbieter.
 
-Wenn Sie nicht auf die Seite „Übersetzung“ zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren.
+Um die Übersetzungsfunktion in Journey Optimizer zu verwenden, müssen Sie die API der entsprechenden Rolle zuweisen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+Wenn Sie nicht auf die Seite &quot;Übersetzung&quot;zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren und über die Berechtigungen für den **[!UICONTROL Übersetzungsdienst]** verfügen. [Weitere Informationen](../administration/ootb-permissions.md)
 
 +++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
 
