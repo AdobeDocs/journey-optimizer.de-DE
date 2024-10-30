@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 11%
+source-wordcount: '419'
+ht-degree: 7%
 
 ---
 
@@ -32,12 +32,14 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
    ![](assets/web-non-visual-editor.png)
 
-1. Wählen Sie den Änderungstyp aus:
+1. Wählen Sie in der Dropdown-Liste den Änderungstyp aus.
+
+   Es sind zwei Typen verfügbar. Sie bieten verschiedene Möglichkeiten. Weitere Informationen finden Sie unter den folgenden Links:
 
    * **[!UICONTROL CSS-Auswahl]** – [Weitere Informationen](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL Seite`<Head>`]** – [Weitere Informationen](manage-web-modifications.md#page-head)
+   * **[!UICONTROL Seite`<head>`]** – [Weitere Informationen](manage-web-modifications.md#page-head)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Erweiterte Bearbeitungsoptionen]**. Der Personalisierungseditor wird geöffnet.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Personalisierung hinzufügen]** . Der Personalisierungseditor wird geöffnet.
 
    Sie können den Personalisierungseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Bearbeitungsfunktionen nutzen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
@@ -47,7 +49,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
 1. Ihre erste Änderung wird über dem Bereich **[!UICONTROL Änderungen]** angezeigt.
 
-   Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben Ihrer Änderung und wählen Sie **[!UICONTROL Info]** aus, um deren Details anzuzeigen. Sie können die Änderung auch **[!UICONTROL bearbeiten]** oder **[!UICONTROL löschen]**.
+   Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben Ihrer Änderung und wählen Sie **[!UICONTROL Info]** aus, um deren Details anzuzeigen. Sie können die Änderung bei Bedarf auch **[!UICONTROL löschen]**.
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
@@ -55,19 +57,18 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
    >
    >Der Bereich **[!UICONTROL Änderungen]** entspricht dem Bereich für den [Webdesigner](web-visual-editor.md). Alle Aktionen, die Sie damit ausführen können, werden in [diesem Abschnitt](manage-web-modifications.md#use-modifications-pane) beschrieben.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** oben im Bereich **[!UICONTROL Änderungen]** auf **[!UICONTROL Änderung hinzufügen]** und wiederholen Sie die obigen Schritte. [Weitere Informationen](manage-web-modifications.md#add-modifications)
-
-   ![](assets/web-non-visual-editor-more.png)
-
-1. Wählen Sie den Pfeil links oben im Bildschirm aus, um zum Bildschirm zur Journey- oder Kampagnenbearbeitung zurückzukehren. Sie können die aktuelle Anzahl der Änderungen sehen und weitere Änderungen hinzufügen.
-
-   ![](assets/web-campaign-modifications.png)
-
-   Sie können bei Bedarf auch zum Webdesigner wechseln. Alle Ihre Änderungen bleiben erhalten.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** oberhalb des Bereichs **[!UICONTROL Änderungen]**, um eine weitere Änderung hinzuzufügen, und wiederholen Sie die oben beschriebenen Schritte.
 
 
-1. Sie können ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die verfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
+1. Darüber hinaus können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die verfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
 
    ![](assets/web-campaign-click.png)
 
    Verwenden Sie die Schaltfläche **Komponente hinzufügen** , um eine neue zu verfolgende Aktion auszuwählen. Weitere Informationen zur Verwendung von Klick-Tracking finden Sie in [diesem Abschnitt](monitor-web-experiences.md#use-click-tracking).
+
+
+1. Klicken Sie oben links im Bildschirm auf den Pfeil, um zum Bildschirm zur Journey- oder Kampagnenbearbeitung zurückzukehren. Sie können die aktuelle Anzahl der Änderungen sehen und weitere Änderungen hinzufügen.
+
+   ![](assets/web-campaign-modifications.png)
+
+   Sie können bei Bedarf auch zum Webdesigner wechseln. Alle Ihre Änderungen bleiben erhalten.
