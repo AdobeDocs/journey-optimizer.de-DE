@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
+source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 43%
@@ -311,7 +311,7 @@ Weitere Informationen zu diesen Verbesserungen finden Sie in der Dokumentation z
 
 **Reporting**
 
-* **Berichte zu Erlebnisentscheidungen** ist jetzt verfügbar und bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit Ihren Erlebnissen. [Weitere Informationen](../reports/campaign-global-report-cja-code.md##decisioning-kpis)
+* **Berichte zu Erlebnisentscheidungen** ist jetzt verfügbar und bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit Ihren Erlebnissen. [Weitere Informationen](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **Richtlinien für Data Governance und Einverständnis** – Verfügbarkeitsdatum: 7. Oktober 2024
 
