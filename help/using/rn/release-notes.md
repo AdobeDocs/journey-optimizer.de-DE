@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1904'
 ht-degree: 43%
 
 ---
@@ -92,7 +92,7 @@ Mit dieser Version werden die folgenden neuen Funktionen eingeführt:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung. <p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p></p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung. <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p></p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
 <li><b>Prioritätsbewertung</b>: Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey-Aktionen dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde.</li>
 <li><b>Potenzielle Konflikte anzeigen</b>: Mit der neuen Schaltfläche "Potenzielle Konflikte anzeigen"in Journey und Kampagnen können Sie jetzt Überschneidungen mit anderen Journey oder Kampagnen identifizieren, z. B. mit dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration.</li>
 <li><b>Journey Arbitration</b>: Mit dieser neuen Funktion können Sie die wichtigsten Journey für Ihre Kunden priorisieren. Sie können eine Regel erstellen, um die Einsendung in eine Journey mit niedrigerer Priorität zu unterdrücken, wenn ein Kunde für eine bevorstehende Journey mit höherer Priorität qualifiziert ist.</li>
@@ -233,25 +233,24 @@ Zuvor für eine Reihe von Organisationen (LA) verfügbar, sind jetzt die folgend
 </tbody>
 </table>
 
-
-<!--The following capabilities are available to all customers in public beta:
-
 <table>
 <thead>
 <tr>
-<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
+<th><strong>Testen Sie Ihren Inhalt mit Beispieleingabedaten (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a file or added manually. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
+<p>Mit Journey Optimizer können Sie nun verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mithilfe von Beispieleingabedaten durchführen, die aus einer Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
+<p>Diese Funktion steht derzeit allen Kunden als öffentliche Beta-Version für die Benachrichtigungskanäle E-Mail, SMS und Push-Benachrichtigung zur Verfügung.</p>
+<p>Weitere Informationen finden Sie in der <a href="../test-approve/simulate-sample-input.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+
+<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
