@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Inhalte in Ihren E-Mail-Vorlagen sperren kön
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Mit Journey Optimizer können Sie Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Benutzer mit der Berechtigung zum Erstellen von Inhaltsvorlagen können die Inhaltssperrung aktivieren.
+>Die Inhaltssperrung ist eine Funktion auf Editorebene für Autoren und garantiert nicht, dass der Inhalt beim Importieren oder Erstellen über die API nicht bearbeitet wird.
 
 Die Inhaltssperrung kann entweder auf Ebene **Struktur** oder auf Ebene **Komponente** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipale, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage angewendet werden.
 
@@ -59,6 +59,10 @@ Die Inhaltssperrung kann entweder auf Ebene **Struktur** oder auf Ebene **Kompon
 
    * Einzelne Inhaltskomponenten können innerhalb dieser Struktur gesperrt werden.
    * Eine Komponente kann standardmäßig nicht gelöscht werden, wenn sie gesperrt ist oder die Option &quot;Nur bearbeitbarer Inhalt&quot; ausgewählt ist. Sie können diese Einschränkung überschreiben, indem Sie die Option &quot;Löschen zulassen&quot;aktivieren.
+
+>[!AVAILABILITY]
+>
+>Benutzer mit der Berechtigung zum Erstellen von Inhaltsvorlagen können die Inhaltssperrung aktivieren.
 
 ## E-Mail-Vorlage sperren {#define}
 
