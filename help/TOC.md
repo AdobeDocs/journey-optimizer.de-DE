@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 93%
@@ -182,12 +182,12 @@ ht-degree: 93%
    + [Journey-Begrenzung und Schlichtung](using/conflict-prioritization/journey-capping.md)
 + Testen und Genehmigen {#test}
    + Vorschau und Testen der Inhalte {#preview-test}
-      + [Testen von Inhalten mit Beispieleingabedaten](using/test-approve/simulate-sample-input.md)
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen der Testprofile](using/content-management/test-profiles.md)
       + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
       + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
       + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
+      + [Testen von Inhalten mit Beispieleingabedaten (Beta)](using/test-approve/simulate-sample-input.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
       + [Erste Schritte mit Genehmigungen](using/test-approve/gs-approval.md)

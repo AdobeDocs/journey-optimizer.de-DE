@@ -1,73 +1,95 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testen von Inhalten mit Beispieleingabedaten
-description: Erfahren Sie, wie Sie E-Mail-Inhalte in der Vorschau anzeigen und Testsendungen mit Beispiel-Eingabedaten versenden.
+title: Testen Sie Ihren Inhalt mit Beispieleingabedaten (Beta)
+description: Erfahren Sie, wie Sie mithilfe von Beispieleingabedaten eine Vorschau von Inhalten anzeigen und E-Mail-Testsendungen durchführen können.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 50%
 
 ---
 
 
-# Testen von Inhalten mit Beispieleingabedaten {#custom-profiles}
+# Testen Sie Ihren Inhalt mit Beispieleingabedaten (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulationen mit Beispieleingaben"
->abstract="Auf diesem Bildschirm können Sie verschiedene Varianten Ihrer E-Mail-Inhalte testen, indem Sie Werte für Personalisierungsfelder über eine CSV-Vorlage bereitstellen (CSV herunterladen) oder die Werte manuell eingeben."
+>abstract="In diesem Bildschirm können Sie verschiedene Varianten Ihres Inhalts testen, indem Sie Werte für Personalisierungsfelder über eine CSV- oder JSON-Vorlage bereitstellen oder die Werte manuell eingeben."
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+>Diese Funktionen stehen derzeit allen Kunden als öffentliche Beta-Version zur Verfügung.
 
-Mit Journey Optimizer können Sie verschiedene Varianten Ihrer E-Mail-Inhalte testen, indem Sie eine Vorschau anzeigen und Testsendungen mit Beispiel-Eingabedaten senden, die aus einer CSV-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
+Mit Journey Optimizer können Sie verschiedene Varianten Ihres Inhalts testen, indem Sie ihn in der Vorschau anzeigen und mithilfe von Beispieleingabedaten, die aus einer Datei hochgeladen oder manuell hinzugefügt wurden, Testsendungen durchführen. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
 
-Um auf dieses Erlebnis zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Mit CSV (Beta) simulieren]** aus.
+>[!NOTE]
+>
+>Derzeit ist die Simulation von Inhaltsvarianten nur für die Kanäle E-Mail, SMS und Push-Benachrichtigung verfügbar.
+
+Um auf dieses Erlebnis zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhaltsvarianten simulieren (Beta)]**.
 
 ![](assets/simulate-sample.png)
 
 Die wichtigsten Schritte zum Testen Ihrer Inhalte sind:
 
-1. Fügen Sie bis zu 30 Varianten mit Beispiel-Eingabedaten hinzu, entweder durch Hochladen einer CSV-Datei oder durch manuelles Hinzufügen von Daten. [Erfahren Sie, wie Sie Varianten hinzufügen](#profiles)
+1. Fügen Sie bis zu 30 Varianten mit Beispieleingabedaten hinzu, entweder durch Hochladen einer Datei oder durch manuelles Hinzufügen von Daten. [Erfahren Sie, wie Sie Varianten hinzufügen](#profiles)
 1. Überprüfen Sie die Vorschau Ihres Inhalts mit den verschiedenen Varianten. [Erfahren Sie, wie Sie eine Vorschau Ihrer Inhalte anzeigen können](#preview)
-1. Senden Sie bis zu 10 Testsendungen an E-Mail-Adressen unter Verwendung der verschiedenen Varianten. [Durchführen eines Testversands](#proofs)
+1. Für E-Mail-Inhalte können Sie mit den verschiedenen Varianten bis zu 10 Testsendungen an E-Mail-Adressen durchführen. [Durchführen eines Testversands](#proofs)
 
 
 ## Leitlinien und Einschränkungen {#limitations}
 
 Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedaten beginnen, sollten Sie die folgenden Leitlinien und Voraussetzungen berücksichtigen.
 
-* Derzeit ist das Testen unter Verwendung von Beispiel-Eingabedaten nur für den E-Mail-Kanal verfügbar. Das Erlebnis kann nicht über die Schaltfläche „Inhalt simulieren“ im E-Mail-Designer aufgerufen werden.
+* Derzeit sind Tests mit Beispieleingabedaten nur für die Kanäle E-Mail, SMS und Push-Benachrichtigung verfügbar. Das Erlebnis kann nicht über die Schaltfläche „Inhalt simulieren“ im E-Mail-Designer aufgerufen werden.
 * Die folgenden Funktionen sind im aktuellen Erlebnis nicht verfügbar: Inbox-Rendering, Spam-Berichte, mehrsprachige Inhalte und Inhaltsexperimente. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus, um auf die vorherige Benutzeroberfläche zuzugreifen.
 * Derzeit werden nur Profilattribute unterstützt. Wenn in Ihren Inhalten kontextbezogene Attribute zur Personalisierung verwendet werden, können Sie Ihre Inhalte nicht mit diesen Attributen testen.
 * Bei der Dateneingabe für Ihre Varianten werden nur die folgenden Datentypen unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenkette, boolescher Wert und Datum. Bei allen anderen Datentypen wird eine Fehlermeldung angezeigt.
 
 ## Hinzufügen von Varianten {#profiles}
 
-Sie können bis zu 30 Varianten hinzufügen, um Ihre Inhalte zu testen, entweder mithilfe einer CSV-Datei oder manuell:
-
-* Um Beispiel-Eingabedaten aus einer CSV-Datei hochzuladen, klicken Sie auf die Verknüpfung ]**CSV herunterladen**[!UICONTROL , um eine CSV-Dateivorlage abzurufen. Diese Vorlagen enthalten eine Spalte für jedes Profilattribut, das in Ihrem Inhalt zur Personalisierung verwendet wird.
-
-  Füllen Sie die CSV-Datei aus und klicken Sie dann auf **[!UICONTROL Eingabedaten hochladen]**, um sie zum Testen Ihres Inhalts zu laden.
-
-* Um eine Variante manuell hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Beispieleingabe erstellen]** und geben Sie die Beispiel-Eingabedaten für die Variante ein. Für jedes Profilattribut, das in Ihren personalisierten Inhalten verwendet wird, wird ein Feld angezeigt.
-
-  ![](assets/simulate-custom-add.png)
-
-Nach Auswahl der Profile wird für jede Variante auf der linken Bildschirmseite ein Feld angezeigt. Sie können diese Profile verwenden, um Ihre Inhalte in der Vorschau anzuzeigen und Testsendungen durchzuführen.
+Sie können bis zu 30 Varianten hinzufügen, um Ihren Inhalt zu testen, entweder mithilfe einer Datei oder manuell.
 
 >[!NOTE]
 >
->Die hinzugefügten Varianten dienen nur zu Testzwecken für Ihre aktuellen Inhalte. Sie werden nicht in Adobe Experience Platform, sondern in Ihrer Benutzersitzung im Browser gespeichert, d. h. sie werden nicht angezeigt, wenn Sie sich abmelden oder von einem anderen Gerät aus arbeiten.
+>Die hinzugefügten Varianten dienen nur zu Testzwecken für Ihre aktuellen Inhalte. Die werden nicht in Adobe Experience Platform gespeichert, sondern in Ihrer Browser-Benutzersitzung, d. h. sie werden nicht angezeigt, wenn Sie sich abmelden oder von einem anderen Gerät aus arbeiten.
+
+### Variante mithilfe einer Datei hinzufügen {#file}
+
+Gehen Sie wie folgt vor, um eine Variante aus einer Datei hinzuzufügen:
+
+1. Klicken Sie auf den Link **[!UICONTROL Beispiel herunterladen]** , um eine Dateivorlage abzurufen, und wählen Sie dann das Dateiformat aus, das Sie verwenden möchten (CSV, JSON oder JSONLINES).
+
+1. Klicken Sie auf **[!UICONTROL Herunterladen]** und speichern Sie dann die Vorlage am gewünschten Speicherort.
+
+1. Öffnen Sie die Datei und füllen Sie die Vorlage entsprechend Ihren Anforderungen aus. Die Vorlage enthält eine Spalte für jedes Profilattribut, das in Ihrem Inhalt zur Personalisierung verwendet wird.
+
+1. Wenn Ihre Datei fertig ist, klicken Sie auf **[!UICONTROL Eingabedaten hochladen]** , um sie zum Testen Ihres Inhalts zu laden.
+
+1. Nach dem Hochladen der Datei wird im linken Bereich für jede Zeile der Datei ein Feld hinzugefügt. Jedes Feld enthält alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden. Sie können nun die Varianten verwenden, um Ihre Inhalte im rechten Bereich in der Vorschau anzuzeigen und Testsendungen durchzuführen.
+
+   ![](assets/simulate-custom-variants.png)
+
+### Varianten manuell hinzufügen {#manual}
+
+Gehen Sie wie folgt vor, um eine Variante manuell hinzuzufügen:
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Beispieleingabe erstellen]** .
+
+   Im linken Bereich wird ein Feld mit allen Profilattributen hinzugefügt, die in Ihrem Inhalt zur Personalisierung verwendet werden.
+
+1. Füllen Sie die Beispieleingabedaten für die Variante aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+   ![](assets/simulate-custom-add.png)
+
+1. Sobald Varianten hinzugefügt wurden, können Sie diese verwenden, um im rechten Bereich eine Vorschau Ihres Inhalts anzuzeigen und Testsendungen durchzuführen.
 
 ## Vorschau Ihrer Inhaltsvarianten {#preview}
 
