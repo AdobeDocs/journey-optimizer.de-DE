@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62bc99bcd4bd3174ffc93c3ae604f901fa0f1570
+source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 43%
@@ -92,12 +92,12 @@ Mit dieser Version werden die folgenden neuen Funktionen eingeführt:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung.</p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Instrumente für Konfliktbewältigung und Priorisierung. <p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p></p><p><ul><li><b>Journey-Frequenzlimitierung</b>: Sie können jetzt Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journey für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl der gleichzeitig ausgeführten Journey steuern können.</li>
 <li><b>Prioritätsbewertung</b>: Sie können einer Kampagne oder einer Journey jetzt eine Prioritätsbewertung im Bereich von 0 bis 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journey-Aktionen dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne mit der höchsten Prioritätsbewertung aus. Wenn die Kampagnen dasselbe Ergebnis aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde.</li>
 <li><b>Potenzielle Konflikte anzeigen</b>: Mit der neuen Schaltfläche "Potenzielle Konflikte anzeigen"in Journey und Kampagnen können Sie jetzt Überschneidungen mit anderen Journey oder Kampagnen identifizieren, z. B. mit dem Startdatum, der Zielgruppe oder der ausgewählten Kanalkonfiguration.</li>
 <li><b>Journey Arbitration</b>: Mit dieser neuen Funktion können Sie die wichtigsten Journey für Ihre Kunden priorisieren. Sie können eine Regel erstellen, um die Einsendung in eine Journey mit niedrigerer Priorität zu unterdrücken, wenn ein Kunde für eine bevorstehende Journey mit höherer Priorität qualifiziert ist.</li>
 <li><b>Frequenzlimitierung nach Kommunikationstyp: </b>Mit Regelsätzen können Sie jetzt granulare Regeln nach Kommunikationstyp festlegen (z. B. Vertrieb, Verkaufsförderung), um zu verhindern, dass Kunden mit ähnlichen Nachrichten überladen werden. Sie können die Häufigkeit über mehrere Kanäle hinweg steuern und automatisch Profile ausschließen, die zu oft angesprochen wurden, um ein besseres Kundenerlebnis zu gewährleisten.</li></ul>
-<p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p>
+
 <p>Funktionen zur Verwaltung von Konflikten und Prioritäten sind in der eingeschränkten Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf diese Funktionen gesetzt zu werden.</p>
 </td>
 </tr>
