@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testen Sie Ihren Inhalt mit Beispieleingabedaten (Beta)
+title: Testen von Inhalten mit Beispieleingabedaten (Beta)
 description: Erfahren Sie, wie Sie mithilfe von Beispieleingabedaten aus einer CSV- oder JSON-Datei eine Vorschau des Inhalts anzeigen und den E-Mail-Testversand durchführen oder manuell hinzufügen.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Beta"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
 
-# Testen Sie Ihren Inhalt mit Beispieleingabedaten (Beta) {#custom-profiles}
+# Testen von Inhalten mit Beispieleingabedaten (Beta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -27,7 +27,7 @@ ht-degree: 49%
 >
 >Diese Funktionen stehen derzeit allen Kunden als öffentliche Beta-Version zur Verfügung.
 
-Mit Journey Optimizer können Sie verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mithilfe von Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
+Mit Journey Optimizer können Sie verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mithilfe von Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
 
 >[!NOTE]
 >
