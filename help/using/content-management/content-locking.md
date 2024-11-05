@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 8%
+ht-degree: 32%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="Governance"
->abstract="Schalten Sie die Governance um, um Inhalte in der Vorlage zu sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können."
+>abstract="Aktivieren Sie Governance, um Inhalte in der Vorlage zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
 >title="Modus"
->abstract="Wählen Sie den gewünschten Sperrmodus für die Vorlage aus. Mit der **Inhaltssperrung** können Sie bestimmte Inhaltsabschnitte in der Vorlage sperren. Mit **Schreibgeschützt** können Sie den gesamten Inhalt der Vorlage sperren, um Änderungen zu vermeiden."
+>abstract="Wählen Sie den gewünschten Sperrmodus für die Vorlage aus. Mit **Inhaltssperre** können Sie bestimmte Inhaltsabschnitte in der Vorlage sperren. Mit der Funktion **Schreibgeschützt** können Sie den gesamten Inhalt der Vorlage sperren, um Änderungen zu vermeiden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
 >title="Aktivieren von Inhaltszusätzen"
->abstract="Aktivieren Sie diese Option, um festzulegen, wie Benutzer mit der Vorlage interagieren können. Wählen Sie **Hinzufügen von Struktur und Inhalt zulassen** aus, damit Benutzer Strukturen zwischen vorhandenen Strukturen hinzufügen und Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen können. Mit **Nur Inhaltszusätze zulassen** können Benutzer Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen, ohne Strukturen hinzufügen oder duplizieren zu können."
+>abstract="Schalten Sie diese Option ein, um festzulegen, wie Benutzende mit der Vorlage interagieren können. Wählen Sie **Hinzufügen von Struktur und Inhalten zulassen** aus, damit Benutzende Strukturen zwischen vorhandenen Strukturen und Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen können. Mit **Nur Hinzufügen von Inhalten zulassen** können Benutzende Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen, ohne Strukturen hinzufügen oder duplizieren zu können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
@@ -103,7 +103,7 @@ Sie können die Einstellungen für **[!UICONTROL Governance]** jederzeit beim En
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="Inhaltssperre in Struktur"
->abstract="Um die Struktur in der Vorlage zu sperren, wählen Sie **Gesperrt** aus der Dropdownliste **Sperrtyp** aus. Standardmäßig können Benutzer gesperrte Strukturen nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren."
+>abstract="Um die Struktur in der Vorlage zu sperren, wählen Sie **Gesperrt** aus dem Dropdown-Menü **Sperrtyp** aus. Standardmäßig können Benutzende gesperrte Strukturen nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren."
 
 So sperren Sie eine Struktur in Ihrer Vorlage:
 
@@ -115,7 +115,7 @@ So sperren Sie eine Struktur in Ihrer Vorlage:
 
    >[!NOTE]
    >
-   >Standardmäßig können Benutzer gesperrte Strukturen nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
+   >Standardmäßig können Benutzende gesperrte Strukturen nicht löschen. Sie können diese Einschränkung überschreiben, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
 
 Nach dem Sperren einer Struktur können keine weiteren Inhaltskomponenten oder -fragmente dupliziert oder darin hinzugefügt werden. Alle Komponenten innerhalb einer gesperrten Struktur sind ebenfalls standardmäßig gesperrt. So bearbeiten Sie eine Komponente in einer gesperrten Struktur:
 
@@ -127,12 +127,12 @@ Nach dem Sperren einer Struktur können keine weiteren Inhaltskomponenten oder -
 
    ![](assets/template-lock-editable-component.png)
 
-### Komponenten sperren {#lock-components}
+### Sperren von Komponenten {#lock-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
 >title="Verwenden der spezifischen Sperre in der Komponente"
->abstract="Um die Komponente in der Vorlage zu sperren, aktivieren Sie die Option **Spezifisches Sperren verwenden** . Wählen Sie in der Dropdownliste **[!UICONTROL Sperrtyp]** Ihre bevorzugte Sperroption aus: **Nur bearbeitbare Inhaltssperre** ermöglicht es Ihnen, die Stile der Komponente zu sperren, ermöglicht jedoch die Inhaltsbearbeitung, während **Gesperrter Inhalt** sowohl den Inhalt als auch die Stile der Komponente vollständig sperrt."
+>abstract="Um die Komponente in der Vorlage zu sperren, aktivieren Sie die Option **Spezifische Sperre verwenden**. Wählen Sie im Dropdown-Menü **[!UICONTROL Sperrtyp]** Ihre bevorzugte Sperroption aus: **Nur bearbeitbare Inhalte** ermöglicht es, die Stile der Komponente zu sperren, lässt jedoch die Inhaltsbearbeitung zu, während **Gesperrt** sowohl den Inhalt als auch die Stile der Komponente vollständig sperrt."
 
 So sperren Sie eine bestimmte Komponente in einer Struktur:
 
@@ -164,11 +164,11 @@ Im folgenden Beispiel ist Governance für den Vorlagentext aktiviert. *Struktur 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
 >title="Markieren bearbeitbarer Bereiche"
->abstract="Je nach Typ der auf die Vorlage angewendeten Sperrung können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, aktivieren Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ."
+>abstract="Je nach Typ der auf die Vorlage angewendeten Sperre können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein."
 
 Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich die Meldung **[!UICONTROL Für Governance aktiviert]** angezeigt.
 
-Je nach Typ der auf die Vorlage angewendeten Sperrung können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, aktivieren Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** .
+Je nach Typ der auf die Vorlage angewendeten Sperre können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein.
 
 In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des obersten Bildes, das gesperrt wurde. Das bedeutet, dass Sie es weder bearbeiten noch entfernen können.
 
@@ -177,7 +177,7 @@ In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden,
 Detaillierte Informationen zu den verschiedenen Arten der Sperre, die angewendet werden können, finden Sie in diesen Abschnitten:
 
 * [Sperren von Strukturen](#lock-structures)
-* [Komponenten sperren](#lock-components)
+* [Sperren von Komponenten](#lock-components)
 
 Im Folgenden finden Sie einige Beispiele für die Bearbeitung von E-Mails und die zugehörige Konfiguration für die Sperrung von Inhalten, die eingerichtet wurde:
 

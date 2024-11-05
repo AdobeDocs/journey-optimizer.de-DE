@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 >id="ac_lp_components"
 >title="Verwenden von Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können. Um spezifische Inhalte zu definieren, die es Benutzenden ermöglichen, ihre Auswahl zu treffen und abzusenden, können Sie die Formularkomponente nutzen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Hinzufügen von Inhaltskomponenten"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Hinzufügen von Inhaltskomponenten"
 
 Um den Inhalt Ihrer Landingpage zu entwerfen, können dieselben Komponenten wie für eine E-Mail verwendet werden. [Weitere Informationen](../email/content-components.md#add-content-components)
 

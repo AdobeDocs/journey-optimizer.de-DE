@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
 source-wordcount: '1434'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,5 +280,5 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Entscheidungsfindung aktivieren"
->abstract="Entscheidungsfindung aktivieren"
+>title="Aktivieren der Entscheidungsfindung"
+>abstract="Aktivieren der Entscheidungsfindung"
