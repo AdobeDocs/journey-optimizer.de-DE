@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,16 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 >id="ajo_decisioning_offer_attributes"
 >title="Angebotsattribute"
 >abstract="Mit Angebotsattributen können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="Personalisiertes Angebot"
+>abstract="Ein personalisiertes Angebot ist eine anpassbare Nachricht, die auf Eignungsregeln und Beschränkungen basiert."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Fallback-Angebot"
+>abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote geeignet ist."
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 100%
+source-wordcount: '2511'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,11 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 ## Erstellen einer Entscheidung {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="Details zur Angebotsentscheidung"
+>abstract="Geben Sie den Namen der Entscheidung an und definieren Sie bei Bedarf Start- und Enddatum sowie -zeit. Um der Entscheidung benutzerdefinierte oder Kerndatennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus."
+
 1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
 
 1. Geben Sie den Namen der Entscheidung an.
@@ -43,6 +48,21 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 1. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../../administration/object-based-access.md)
 
 ## Definieren von Entscheidungsumfängen {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="Entscheidungsumfänge"
+>abstract="Konfigurieren Sie einen oder mehrere Bereiche für die Angebotsentscheidung, um die anzuzeigenden Angebote zu bestimmen. Dies geschieht durch Auswahl einer Platzierung und eines zugehörigen Bewertungskriteriums für diese Platzierung."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="Platzierung"
+>abstract="Platzierung wählen, in der die Angebote unterbreitet werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="Auswertungskriterien"
+>abstract="Bewertungskriterien bestehen aus einer Angebotskollektion, die mit einer Eignungsbegrenzung und einer Rangliste verknüpft ist, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden. Die Reihenfolge der Bewertungskriterien bestimmt, welche Sammlung zuerst bewertet wird. Es ist mindestens ein Bewertungskriterium erforderlich."
 
 1. Wählen Sie eine Platzierung aus der Dropdown-Liste aus. Sie wird zum ersten Entscheidungsumfang in Ihrer Entscheidung hinzugefügt.
 
@@ -285,6 +305,11 @@ Die findet folgendermaßen statt:
 +++
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="Hinzufügen eines Facebook-Angebots"
+>abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird."
 
 Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird.
 

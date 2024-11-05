@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 100%
 >id="ajo_decisioning_placement"
 >title="Platzierung"
 >abstract="Eine Platzierung ist ein Container, der zur Präsentation von Angeboten verwendet wird. Sie hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Platzierungen werden im Menü „Komponenten“ definiert."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Anfrageeinstellungen"
+>abstract="Aktivieren Sie die Option **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** , damit das System dasselbe Angebot für mehrere Platzierungen berücksichtigt. Passen Sie mithilfe des Felds **[!UICONTROL Angebot anfordern]** die Anzahl der zurückgegebenen Angebote an. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Antwortformat"
+>abstract="Mit den Optionen **[!UICONTROL Inhalt einschließen]** und **[!UICONTROL Metadaten einschließen]** können Sie angeben, ob der Inhalt und die Metadaten des Angebots in der API-Antwort zurückgegeben werden sollen. Sie können alle Metadaten oder nur bestimmte Felder einschließen. Standardmäßig ist der Wert „Metadaten einschließen“ auf „true“ gesetzt."
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
@@ -46,7 +56,6 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
    * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. Die Abschnitte **[!UICONTROL Anfrageeinstellungen]** und **[!UICONTROL Antwortformat]** enthalten weitere Parameter:
 

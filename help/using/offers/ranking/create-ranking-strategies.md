@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 90%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 >Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die Berechtigung zur **Verwaltung von Rangfolgestrategien**. [Weitere Informationen](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## Erstellen eines KI-Modells {#create-ranking-strategy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_ai_model_metric"
+>title="Optimierungsmetrik"
+>abstract="[!DNL Journey Optimizer] erstellt die Rangfolge von Angeboten anhand der **Konversionsrate** (Konversionsrate = Gesamtanzahl der Konversionsereignisse / Gesamtzahl der Impression-Ereignisse). Die Konversionsrate wird anhand von zwei Metriktypen berechnet: **Impressionsereignisse** (angezeigte Angebote) und **Konversionsereignisse** (Angebote, die zu Klicks über E-Mail oder Web führen). Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst."
 
 Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
