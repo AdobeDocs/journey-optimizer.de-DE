@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Journey und Kampagnen Prioritätsbewertungen 
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 76%
+source-wordcount: '438'
+ht-degree: 72%
 
 ---
 
@@ -32,7 +32,7 @@ Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätsw
 
 >[!NOTE]
 >
->Der Prioritätswert ist für eingehende Kanäle verfügbar: Web-, In-App- und Code-basierte Kanäle. In Journeys ist der Prioritätswert nur für die Kanäle **In-App** und **Code-basiert** verfügbar.
+>In Kampagnen ist die Prioritätsbewertung nur für die Web-, In-App- und code-basierten eingehenden Kanäle verfügbar.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

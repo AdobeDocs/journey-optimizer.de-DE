@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagne
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 84%
+source-wordcount: '817'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,10 @@ Wichtige Bereiche, die auf mögliche Überschneidungen hin überwacht werden sol
 * **Kanal**: Sind für denselben Zeitraum weitere Kommunikationsmaßnahmen geplant, und wenn ja, wie viele?
 * **Regelwerk für Begrenzungen**: Welche Arten von Journeys werden von mir begrenzt und kommt es innerhalb dieser zu Überschneidungen?
 * **Kanalkonfiguration**: Gibt es andere Journeys oder Kampagnen, die eine Kanalkonfiguration verwenden, die in derselben Journey oder Kampagne verwendet wird, was dazu führen könnte, dass die Journey oder Kampagne den Endbenutzenden nicht angezeigt wird?
+
+>[!NOTE]
+>
+>In Kampagnen ist die Prioritätsbewertung nur für die Web-, In-App- und code-basierten eingehenden Kanäle verfügbar.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
