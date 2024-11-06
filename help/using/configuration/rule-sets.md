@@ -10,34 +10,19 @@ level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 71%
+source-wordcount: '1950'
+ht-degree: 67%
 
 ---
 
 # Arbeiten mit Regelsätzen {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Objekttyp"
->abstract="Objekttyp"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Regeltyp"
->abstract="Regeltyp"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Regelbegrenzung"
->abstract="Regelbegrenzung"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsätze"
->abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können beispielsweise eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine weitere Regel festlegen, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden."
+>abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können auch Regelsätze erstellen, um Journey für einen Teil Ihrer Audience basierend auf Frequenzlimitierungsregeln auszuschließen."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Zusätzlich zu diesem Regelsatz &quot;Globaler Standardregelsatz&quot;können Si
 
 ### Begrenzungsregeln für Kanal und Journey {#domain}
 
-Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind.  Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Domain des Regelsatzes"
+>abstract="Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind."
+
+Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind. Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen](#create)
 
 * **Kanal**-Domäne: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * Domäne **Journey**: Wenden Sie Einstiegs- und gleichzeitige Begrenzungsregeln auf eine Journey an. Geben Sie beispielsweise nicht mehrere Profile gleichzeitig auf einer Journey ein.
@@ -101,10 +91,11 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 >title="Wählen Sie die Kategorie der Nachrichtenregel aus"
 >abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie „Marketing“ verfügbar."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Festlegen der Begrenzung für Ihre Regel"
->abstract="Geben Sie an, wie viele Nachrichten innerhalb des ausgewählten Zeitrahmens maximal an ein Kundenprofil gesendet werden sollen. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. "
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 >id="ajo_rule_sets_duration"
 >title="Wählen Sie die Kategorie der Nachrichtenregel aus"
 >abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie „Marketing“ verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Regelbegrenzung"
+>abstract="Legen Sie die Begrenzung für Ihre Regel fest. Abhängig von der Regelsatzdomäne und der Auswahl im Feld Regeltyp kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journey, die das Profil eingeben oder gleichzeitig anmelden kann."
 
 Um einem Regelsatz eine Regel hinzuzufügen, greifen Sie auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]** .
 

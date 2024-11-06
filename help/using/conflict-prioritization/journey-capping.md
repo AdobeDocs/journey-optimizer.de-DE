@@ -4,30 +4,15 @@ description: Erfahren Sie, wie Sie Begrenzungsregeln für Ihre Journey erstellen
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # Journey-Begrenzung und Arbitration {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Anwenden des Regelsatzes auf Journeys"
->abstract="Regelsatz anwenden, damit ein Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von dieser Journey ausgeschlossen wird."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Vorschau der Priorisierung"
->abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird der Eintritt der Kundin bzw. des Kunden in die Journey unterbunden. Für Situationen, in denen der Journey-Eintritt nach dem Windhundverfahren erfolgen soll, wird empfohlen, den täglichen Vorschauzeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journeys an diesem Tag unter dem Prioritätswert für die Journey liegt. Wenn eine Journey einen Prioritätswert von 100 erhält, würde das ebenfalls einen Eintritt in die Journey sicherstellen."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Faktor bei der Priorisierung"
->abstract="TBD"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Einträge zu sc
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Erstellen einer Journey-Begrenzungsregel {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Vorschau der Priorisierung"
+>abstract=" Wenn eine Journey mit höherer Priorität innerhalb des hier angegebenen Zeitraums geplant ist, wird der Eintritt der Kundin bzw. des Kunden in die Journey unterbunden. Für Situationen, in denen der Journey-Eintritt nach dem Windhundverfahren erfolgen soll, wird empfohlen, den täglichen Vorschauzeitraum auszuwählen und sicherzustellen, dass der Prioritätswert aller anderen Journeys an diesem Tag unter dem Prioritätswert für die Journey liegt. Wenn eine Journey einen Prioritätswert von 100 erhält, würde das ebenfalls einen Eintritt in die Journey sicherstellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Regeltyp"
+>abstract="Geben Sie den Begrenzungstyp für die Regel an. **[!UICONTROL Journey Entry Cap]** begrenzt die Anzahl der Einträge in der Journey über einen bestimmten Zeitraum für ein Profil, während **[!UICONTROL Journey Concurrency Cap]** begrenzt, wie viele Journey ein Profil gleichzeitig anmelden kann."
 
 Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
@@ -109,6 +104,11 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Begrenzungsregeln auf Journey anwenden {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Anwenden des Regelsatzes auf Journeys"
+>abstract="Regelsatz anwenden, damit ein Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von dieser Journey ausgeschlossen wird."
 
 Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus. Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
 
