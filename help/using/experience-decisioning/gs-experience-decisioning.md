@@ -5,26 +5,19 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 75%
+source-wordcount: '365'
+ht-degree: 81%
 
 ---
 
 # Erste Schritte mit Decisioning {#get-started-experience-decisioning}
 
->[!AVAILABILITY]
->
->Die Entscheidungsfindung ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
->
->Für Kundinnen und Kunden, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist die Funktion derzeit nicht verfügbar.
-
 ## Was ist Entscheidungsfindung {#about}
 
-Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten anbietet, der als &quot;Entscheidungselemente&quot;bezeichnet wird, sowie eine ausgereifte Entscheidungs-Engine. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
+Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
 Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien sind nur zur Verwendung in code-basierten Erlebniskampagnen verfügbar.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1802'
-ht-degree: 68%
+source-wordcount: '1783'
+ht-degree: 69%
 
 ---
 
@@ -118,11 +118,6 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 1. Bei code-basierten Erlebnissen können Sie die Entscheidungsfunktion verwenden. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
-
-   >[!NOTE]
-   >
-   >Die Entscheidungsfindung ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
-
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
