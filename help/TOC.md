@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2166'
 ht-degree: 98%
 
 ---
@@ -368,6 +368,7 @@ ht-degree: 98%
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
+      + [Benutzerdefinierter Upload (CSV) und Zusammengestellte Zielgruppenkomposition](using/audience/custom-upload-fac.md)
       + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
       + Erstellen von Zielgruppen {#audience-orchestration}
          + [Erste Schritte mit der Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
