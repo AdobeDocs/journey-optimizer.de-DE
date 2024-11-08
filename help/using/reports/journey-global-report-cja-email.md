@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Bericht
-description: Erfahren Sie, wie Sie E-Mail-Daten aus dem Journey-Bericht verwenden
+description: Informationen zum Verwenden von E-Mail-Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Email Journey-Bericht {#journey-global-report}
+# E-Mail-Journey-Bericht {#journey-global-report}
 
 ## Versand- vs. Klick-Trend {#delivered-click}
 
@@ -119,7 +119,7 @@ Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüss
 * **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-label}
+## Labels getrackter Links {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
@@ -139,7 +139,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihrer E-Mail, die den meisten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren E-Mails verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 

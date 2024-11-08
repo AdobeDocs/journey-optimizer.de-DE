@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Push-Daten aus dem Campaign-Bericht verwenden
+description: Informationen zum Verwenden von Push-Daten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Kampagnenbericht für Push-Benachrichtigungen {#campaign-global-report-cja-push}
+# Kampagnenbericht zu Push-Benachrichtungen {#campaign-global-report-cja-push}
 
 ## Versandstatistiken {#sending-statistics-push}
 
@@ -61,7 +61,7 @@ Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Üb
 -->
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-label-push}
+## Labels getrackter Links {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 
@@ -81,7 +81,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren Push-Benachrichtigungen, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Push-Benachrichtigungen verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 

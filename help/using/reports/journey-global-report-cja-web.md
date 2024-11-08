@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Bericht
-description: Erfahren Sie, wie Sie Webdaten aus dem Journey-Bericht verwenden
+description: Informationen zum Verwenden von Web-Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Der Graph **[!UICONTROL Klicks]** zeigt Metriken für Klicks auf Web-Seiten an, 
 
 ![](assets/cja-web-displays.png)
 
-Mit dem Diagramm **[!UICONTROL Anzeigen]** können Sie sowohl die GesamtReichweite des code-basierten Erlebnisses als auch die Anzahl der eindeutigen Profile, die damit interagieren, verstehen.
+Das Diagramm **[!UICONTROL Anzeigen]** hilft Ihnen, sowohl die Gesamtreichweite des Code-basierten Erlebnisses als auch die Anzahl der eindeutigen Profile, die mit der Nachricht interagieren, zu verstehen.
 
 +++ Weitere Informationen zu Anzeigemetriken
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft das code-basierte Erlebnis geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen des Code-basierten Erlebnisses.
 
-* **[!UICONTROL Eindeutige Anzeigen]**: Gibt an, wie oft das code-basierte Erlebnis geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen des Code-basierten Erlebnisses, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
 
@@ -80,7 +80,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-web}
+## Labels getrackter Links {#track-link-web}
 
 ![](assets/cja-web-tracked-link-labels.png)
 
@@ -104,7 +104,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Web-Seiten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten auf Ihren Web-Seiten verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 

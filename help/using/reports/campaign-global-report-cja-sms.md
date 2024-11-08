@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie SMS-Daten aus dem Campaign-Bericht verwenden
+description: Informationen zum Verwenden von SMS-Daten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# SMS-Kampagnenbericht {#campaign-global-report-cja-sms}
+# Kampagnenbericht zu SMS-Daten {#campaign-global-report-cja-sms}
 
 ## Versand- vs. Klick-Trend {#delivered-click-sms}
 
@@ -44,7 +44,7 @@ Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht �
 
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-label-sms}
+## Labels getrackter Links {#track-link-label-sms}
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren SMS-Nachrichten, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
@@ -60,7 +60,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren SMS-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren SMS-Nachrichten verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
 

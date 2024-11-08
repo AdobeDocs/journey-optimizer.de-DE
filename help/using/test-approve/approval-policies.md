@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Zum Erstellen von Genehmigungsrichtlinien benötigen Sie in Adobe Experience Platform über System- oder Produktadministratorberechtigungen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>Zum Erstellen von Genehmigungsrichtlinien müssen Sie in Adobe Experience Platform über System- oder Produktadministratorberechtigungen verfügen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home)
 
 Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für Journeys und Kampagnen einzurichten. Dieses System legt spezifische Bedingungen fest, die bestimmen, ob eine Journey oder Kampagne genehmigt werden muss. Diese Richtlinien können unterschiedlich komplex sein, von der einfachen Anforderung, dass alle Kampagnen von bestimmten Benutzenden oder Teams überprüft werden müssen, bis hin zur Festlegung von Kriterien, die darauf basieren, wer die Kampagne erstellt hat.
 
 ## Erstellen von Genehmigungsrichtlinien {#create-policies}
 
-1. Rufen Sie im Menü **[!UICONTROL Administration]** in Journey Optimizer **[!UICONTROL Berechtigungen]** und dann **[!UICONTROL Richtlinien]** auf.
+1. Greifen Sie in Journey Optimizer über das Menü **[!UICONTROL Administration]** auf **[!UICONTROL Berechtigungen]** und dann auf **[!UICONTROL Richtlinien]** zu.
 
    ![](assets/policy_create_1.png)
 

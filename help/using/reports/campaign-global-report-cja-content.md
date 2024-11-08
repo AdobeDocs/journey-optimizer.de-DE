@@ -2,29 +2,29 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie mit den Daten der Inhaltskarte aus dem Campaign-Bericht arbeiten.
+description: Informationen zum Verwenden von Inhaltskartendaten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
-# Kampagnenbericht zur Inhaltskarte {#campaign-global-report-cja-content}
+# Inhaltskarten-Kampagnenbericht {#campaign-global-report-cja-content}
 
-## Anzeige- und Klicktrend {#display-click}
+## Anzeigen- und Klick-Trend {#display-click}
 
 ![](assets/content-card-report-1.png)
 
-Die Diagramme **[!UICONTROL Anzeige- und Klicktrend]** helfen Ihnen dabei, sowohl die GesamtReichweite der Nachricht als auch die Anzahl der eindeutigen Profile zu verstehen, die damit interagieren.
+Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der eindeutigen Profile zu verstehen, die mit der Nachricht interagieren.
 
-+++ Weitere Informationen zu Anzeige- und Klickmetriken
++++ Weitere Informationen zu Anzeige- und Klick-Metriken
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt auf der Karte Inhalt geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in der Inhaltskarte.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
@@ -36,17 +36,17 @@ Die Diagramme **[!UICONTROL Anzeige- und Klicktrend]** helfen Ihnen dabei, sowoh
 
 ![](assets/content-card-report-2.png)
 
-Die Tabelle **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Inhaltskarten verknüpft ist, und bietet wichtige Einblicke in die Interaktion und die Effektivität der Inhaltskarte.
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Inhaltskarten.
 
 +++ Weitere Informationen zu Metriken für Tracking-Daten
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten infrage kommen.
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit der Inhaltskarte interagiert haben.
+* **[!UICONTROL Klickrate (CTR)]**: Prozentsatz der Benutzenden, die mit der Inhaltskarte interagiert haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt auf Ihrer Inhaltskarte geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Inhaltskarte.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt auf Ihrer Inhaltskarte geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer Inhaltskarte geklickt haben.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
@@ -54,15 +54,15 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufna
 
 +++
 
-## Getrackte Bezeichnungen {#tracked-labels}
+## Getrackte Labels {#tracked-labels}
 
-Die Tabelle **[!UICONTROL Getrackte Bezeichnungen]** bietet einen umfassenden Überblick über die Link-Bezeichnungen in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblick über die Linklabels in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu den Metriken für verfolgte Bezeichnungen
++++ Weitere Informationen zu Metriken für getrackte Labels
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Inhaltskarte.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 

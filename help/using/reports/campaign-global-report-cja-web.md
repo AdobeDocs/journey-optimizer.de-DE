@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Webdaten aus dem Campaign-Bericht verwenden
+description: Informationen zum Verwenden von Web-Daten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Webkampagnenbericht {#campaign-global-report-cja-web}
+# Web-Kampagnenbericht {#campaign-global-report-cja-web}
 
 ## Impression- und Klick-Trend {#impressions-web}
 
@@ -81,7 +81,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-web}
+## Labels getrackter Links {#track-link-web}
 
 ![](assets/cja-web-tracked-link-labels.png)
 
@@ -105,7 +105,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Web-Seiten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten auf Ihren Web-Seiten verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Bericht
-description: Erfahren Sie, wie Sie In-App-Daten aus dem Journey-Bericht verwenden
+description: Informationen zum Verwenden von In-App-Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 -->
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-label-inapp}
+## Labels getrackter Links {#track-link-label-inapp}
 
 ![](assets/cja-inapp-tracked-link-labels.png)
 
@@ -107,7 +107,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren In-App-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren In-App-Nachrichten verbessern.
 
-+++ Weitere Informationen zu den Metriken der nachverfolgten Link-URLs
++++ Weitere Informationen zu den Metriken der getrackten Link-URLs
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 

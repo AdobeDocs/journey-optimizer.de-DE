@@ -1,48 +1,48 @@
 ---
-title: Verwenden benutzerdefinierter Upload-Zielgruppen für Entscheidungen
-description: Erfahren Sie, wie Sie benutzerdefinierte Upload-Zielgruppen für Entscheidungen nutzen können.
+title: Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
+description: Erfahren Sie, wie Sie benutzerdefinierte Upload-Zielgruppen zur Entscheidungsfindung nutzen.
 feature: Decision Management
 role: User
 level: Intermediate
 source-git-commit: 1e46321de543196277613889c438dc6756e45652
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Verwenden benutzerdefinierter Upload-Zielgruppen für Entscheidungen {#custom-upload-decisioning}
+# Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung {#custom-upload-decisioning}
 
-Mit Journey Optimizer können Sie Daten aus Zielgruppen nutzen, die mit benutzerdefiniertem Upload (CSV-Datei) in Adobe Experience Platform erstellt wurden, um Ihre Entscheidungsmanagement-Workflows zu unterstützen. Dies ist besonders nützlich, wenn die Daten nicht im Profil benötigt werden, aber dennoch für Entscheidungszwecke unerlässlich sind.
+Mit Journey Optimizer können Sie Daten aus Zielgruppen nutzen, die mit benutzerdefiniertem Upload (CSV-Datei) in Adobe Experience Platform erstellt wurden, um Ihre Entscheidungs-Management-Workflows zu unterstützen. Dies ist besonders nützlich, wenn die Daten nicht im Profil benötigt werden, aber dennoch für Entscheidungszwecke unerlässlich sind.
 
-Daten aus benutzerdefinierten Upload-Zielgruppen können im Entscheidungsmanagement für Folgendes genutzt werden:
+Daten aus benutzerdefinierten Upload-Zielgruppen können beim Entscheidungs-Management für Folgendes genutzt werden:
 
-1. Eignungskriterien in Angeboten und Entscheidungen.
-2. Personalisieren von Inhalten in Angebotsdarstellungen.
+1. Eignungskriterien in Angeboten und Entscheidungen
+2. Personalisieren von Inhalten in Angebotsdarstellungen
 
 Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden Sie in den folgenden Abschnitten:
 * [Erste Schritte mit Zielgruppen und Journey Optimizer](../audience/about-audiences.md)
-* [Importieren einer Zielgruppe in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Zugreifen auf eine Zielgruppe in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Wichtige Informationen {#must-read}
 
-* Diese Funktion wird nur in **Entscheidungsverwaltung** unterstützt, nicht in Decisioning (ehemals &quot;Experience Decisioning&quot;).
-* Sie ist ausschließlich über **Decisioning API (Hub)** -Anfragen verfügbar und wird nicht von der **Edge Decisioning API** oder der **Batch Decisioning** unterstützt.
+* Diese Funktion wird nur beim **Entscheidungs-Management** unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
+* Sie ist ausschließlich über **Decisioning-API(Hub)**-Anfragen verfügbar und wird nicht vom **Edge Decisioning-API** oder **Batch-Entscheidungen** unterstützt.
  
-## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Berechtigungskriterien {#eligibilty}
+## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Eignungskriterium {#eligibilty}
 
-Sie können eine benutzerdefinierte Upload-Zielgruppe als Eignungskriterien sowohl auf Angebots- als auch auf Entscheidungsebene verwenden. Nach dem Hinzufügen können diese Kriterien Angebote oder Kollektionen von Angeboten von der Eignung ausschließen. Hier finden Sie die verschiedenen Stellen, an denen Sie benutzerdefinierte Upload-Zielgruppen nutzen können, um die Eignung von Angeboten und Entscheidungen zu verfeinern:
+Sie können eine benutzerdefinierte Upload-Zielgruppe als Eignungskriterium sowohl auf Angebots- als auch auf Entscheidungsebene verwenden. Nach dem Hinzufügen können Angebote oder Sammlungen von Angeboten anhand dieses Kriteriums von der Eignung ausgeschlossen werden. Hier erfahren Sie, wo Sie benutzerdefinierte Upload-Zielgruppen nutzen können, um die Eignung von Angeboten und Entscheidungen einzuschränken:
 
-* Erstellen Sie eine Entscheidungsregel mit einer benutzerdefinierten Upload-Zielgruppe:
+* Erstellen Sie eine Entscheidungsregel mithilfe einer benutzerdefinierten Upload-Zielgruppe:
 
    1. Rufen Sie beim Erstellen einer Regel die Registerkarte **Zielgruppen** auf und suchen Sie in der Liste nach Ihrer CSV-Zielgruppe. Ziehen Sie die Zielgruppe in die Arbeitsfläche der Regel.
-   1. Verwenden Sie die Registerkarte **Attribute** und navigieren Sie zu den mit der ausgewählten Zielgruppe verknüpften Anreicherungsschemata, um auf alle Daten aus der CSV-Datei zuzugreifen und sie in Ihrer Regel zu verwenden. Auf diese Weise können Sie ein Feld aus der CSV-Datei verwenden, um Ihre Regel zu verfeinern. [Erfahren Sie, wie Sie eine Entscheidungsregel erstellen](../offers/offer-library/creating-decision-rules.md)
-   1. Speichern Sie die Regel. Nach der Erstellung der Regel kann sie sowohl auf Angebots- als auch auf Entscheidungsebene verwendet werden, um ihre Eignung einzuschränken.
+   1. Rufen Sie die Registerkarte **Attribute** auf und navigieren Sie zu den mit der ausgewählten Zielgruppe verknüpften Anreicherungsschemata, um auf alle Daten aus der CSV-Datei zuzugreifen und sie in Ihrer Regel zu verwenden. Auf diese Weise können Sie Ihre Regel mithilfe eines Felds aus der CSV-Datei verfeinern. [Erfahren Sie, wie Sie eine Entscheidungsregel erstellen können](../offers/offer-library/creating-decision-rules.md).
+   1. Speichern Sie die Regel. Nach der Erstellung der Regel kann sie sowohl auf Angebots- als auch auf Entscheidungsebene verwendet werden, um die Eignung einzuschränken.
 
   ![](assets/csv-rule.png)
 
-* Verwenden Sie benutzerdefinierte Upload-Zielgruppen als Angebotsbegrenzung. [Hinzufügen von Begrenzungen zu einem Angebot](../offers/offer-library/add-constraints.md)
+* Verwenden Sie benutzerdefinierte Upload-Zielgruppen als Angebotseinschränkung. [Hinzufügen von Begrenzungen zu einem Angebot](../offers/offer-library/add-constraints.md)
 
   Beim Erstellen eines Angebots können Sie im Schritt **Einschränkungen hinzufügen** eine der folgenden Aktionen ausführen:
 
@@ -53,18 +53,18 @@ Sie können eine benutzerdefinierte Upload-Zielgruppe als Eignungskriterien sowo
 
 * Verwenden Sie benutzerdefinierte Upload-Zielgruppen auf Entscheidungsebene.
 
-  Beim Einrichten einer Entscheidung können Sie im Schritt **Entscheidungsbereich hinzufügen** benutzerdefinierte Upload-Zielgruppen als Bewertungskriterium für eine Angebotskollektion verwenden. [Erfahren Sie, wie Sie den Entscheidungsbereich definieren](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+  Beim Einrichten einer Entscheidung können Sie im Schritt **Entscheidungsumfang hinzufügen** benutzerdefinierte Upload-Zielgruppen als Bewertungskriterium für eine Sammlung von Angeboten verwenden. [Erfahren Sie, wie Sie Entscheidungsumfänge definieren](../offers/offer-activities/create-offer-activities.md#add-decision-scopes).
 
   ![](assets/csv-decision.png)
 
-## Verwenden einer benutzerdefinierten Upload-Zielgruppe, um Angebotsdarstellungen zu personalisieren
+## Personalisieren von Angebotsdarstellungen mit einer benutzerdefinierten Upload-Zielgruppe
 
-Benutzerdefinierte Upload-Zielgruppen können auch verwendet werden, um den Inhalt von Angebotsdarstellungen zu personalisieren, indem auf Daten aus der CSV-Datei verwiesen wird. [Erfahren Sie, wie Sie einem Angebot Darstellungen hinzufügen](../offers/offer-library/add-representations.md)
+Benutzerdefinierte Upload-Zielgruppen können ebenfalls verwendet werden, um den Inhalt von Angebotsdarstellungen zu personalisieren, indem auf Daten aus der CSV-Datei verwiesen wird. [Erfahren Sie, wie Sie Darstellungen zu einem Angebot hinzufügen](../offers/offer-library/add-representations.md).
 
-Um die Attribute einer benutzerdefinierten Upload-Zielgruppe für die Personalisierung nutzen zu können, müssen Sie zunächst die benutzerdefinierte Zielgruppe als Einschränkung hinzufügen. Fügen Sie dazu beim Erstellen eines Angebots im Schritt **Einschränkungen hinzufügen** die Zielgruppe als Begrenzungen hinzu oder wählen Sie eine Regel aus, die die benutzerdefinierte Upload-Zielgruppe nutzt.
+Um die Attribute einer benutzerdefinierten Upload-Zielgruppe zur Personalisierung zu nutzen, müssen Sie zunächst die benutzerdefinierte Zielgruppe als Einschränkung hinzufügen. Fügen Sie hierzu beim Erstellen eines Angebots im Schritt **Einschränkungen hinzufügen** die Zielgruppe als Einschränkung hinzu oder wählen Sie eine Regel aus, die die benutzerdefinierte Upload-Zielgruppe nutzt.
 
 ![](assets/csv-offer.png)
 
-Nachdem die Zielgruppe als Einschränkung hinzugefügt wurde, können Sie ihre Attribute verwenden, um den Darstellungsinhalt zu personalisieren. Rufen Sie dazu die Registerkarte **Profilattribute** auf und suchen Sie nach der benutzerdefinierten Upload-Zielgruppe. Wählen Sie die relevanten Attribute aus der Audience aus, um den Angebotsinhalt zu personalisieren.
+Nachdem die Zielgruppe als Einschränkung hinzugefügt wurde, können Sie ihre Attribute verwenden, um den Darstellungsinhalt zu personalisieren. Rufen Sie hierzu die Registerkarte **Profilattribute** auf und suchen Sie nach der benutzerdefinierten Upload-Zielgruppe. Wählen Sie die relevanten Attribute aus der Zielgruppe aus, um den Angebotsinhalt zu personalisieren.
 
 ![](assets/csv-perso.png)

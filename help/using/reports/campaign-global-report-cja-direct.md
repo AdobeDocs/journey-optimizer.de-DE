@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Briefpost-Daten aus dem Campaign-Bericht verwenden
+description: Informationen zum Verwenden von Direkt-Mail-Daten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Briefpost-Kampagnenbericht {#campaign-global-report-cja-direct}
+# Kampagnenbericht zu Direkt-Mail {#campaign-global-report-cja-direct}
 
 ## Versandstatistiken {#sending-statistics-directmail}
 

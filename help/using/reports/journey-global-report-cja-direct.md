@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Bericht
-description: Erfahren Sie, wie Sie direkte Daten aus dem Journey-Bericht verwenden.
+description: Informationen zum Verwenden von Direkt-Mail-Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Briefpost-Journey-Bericht {#journey-global-report}
+# Journey-Bericht zu Direkt-Mail {#journey-global-report}
 
 ## Versandstatistiken {#sending-statistics-directmail}
 

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Nach dem Absenden der Anfrage wird die erstellende Person, die die Journey/Kampa
 
 >[!NOTE]
 >
-> Wenn Sie keine Validierungsbenachrichtigung per E-Mail erhalten, müssen Sie Ihre Abonnementvoreinstellungen in Ihren Experience Cloud-Profilen aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences)
+> Wenn Sie keine Genehmigungsbenachrichtigung per E-Mail erhalten, müssen Sie Ihre Abonnementvoreinstellungen in Ihren Experience Cloud-Profilen aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences)

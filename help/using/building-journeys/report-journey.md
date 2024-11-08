@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die angezeigten Ereignisse sind innerhalb der letzten 24 Stunden eingetreten, w
 
 Für Ihre Live-Journey haben Sie Zugriff auf:
 
-* **[!UICONTROL Eingegebene Profile]**: Gesamtzahl der Kontakte, die die Journey verlassen haben (einschließlich Fehler).
+* **[!UICONTROL Eingetretene Profile]**: Gesamtzahl der Kontakte, die die Journey verlassen haben (einschließlich Fehlern).
 * **[!UICONTROL Ausgetretene Profile]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
 * **[!UICONTROL Fehlerhafte Profile]**: Gesamtzahl der Kontakte, bei denen während ihrer Journey ein Fehler aufgetreten ist.
 * **[!UICONTROL Verworfene Profile]**: Gesamtzahl der Kontakte, die aus einem der folgenden Gründe von der Journey verworfen wurden:
@@ -41,6 +41,6 @@ Für Ihre Live-Journey haben Sie Zugriff auf:
 
 Für jede Aktivität innerhalb jeder Live-Journey haben Sie Zugriff auf:
 
-* **[!UICONTROL Eingestiegen]**: Gesamtzahl der Kontakte, die an dieser Aktivität teilgenommen haben.
-* **[!UICONTROL Ausstieg (entspricht den Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die die Journey aufgrund eines Ausstiegskriteriums aus dieser Aktivität beendet haben.
+* **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind.
+* **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.

@@ -2,35 +2,35 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Bericht
-description: Erfahren Sie, wie Sie Inhaltskartendaten aus dem Journey-Bericht verwenden
+description: Informationen zum Verwenden von Inhaltskartendaten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Journey-Bericht zur Inhaltskarte {#journey-global-report}
+# Journey-Bericht zu Inhaltskarten {#journey-global-report}
 
 ## Anzeigen und Klicken {#displays-content-card}
 
 ![](assets/content-card-jo-display.png)
 
-Die Diagramme **[!UICONTROL Anzeigen und Klicken]** enthalten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Inhaltskarten und bieten wertvolle Einblicke in die Interaktion der Profile mit Ihrem Inhalt.
+Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Inhaltskarten und liefern wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Anzeigen- und Klickmetriken
++++ Weitere Informationen zu Anzeige- und Klick-Metriken
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Inhaltskarte.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen Ihrer Inhaltskarte.
 
-* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Inhaltskarte, wobei mehrfache Interaktionen eines Profils nicht berücksichtigt werden.
 
 +++
 
@@ -38,36 +38,36 @@ Die Diagramme **[!UICONTROL Anzeigen und Klicken]** enthalten eine detaillierte 
 
 ![](assets/code-based-tracking-data.png)
 
-Die Tabelle **[!UICONTROL Tracking-Daten]** bietet eine detaillierte Momentaufnahme der Profilaktivität, die mit Ihren Inhaltskarten verknüpft ist und wichtige Einblicke in die Interaktion und Erlebniseffektivität bietet.
+Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Erlebnissen.
 
 +++ Weitere Informationen zu Metriken für Tracking-Daten
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten gelten.
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Inhaltskarten eignen.
 
-* **[!UICONTROL Durchklickrate (CTR)]**: Prozentsatz der Benutzer, die mit Ihren Inhaltskarten interagiert haben.
+* **[!UICONTROL Klickrate (CTR)]**: Prozentsatz der Benutzenden, die mit Ihren Inhaltskarten interagiert haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Inhaltskarte.
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen Ihrer Inhaltskarte.
 
-* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft Ihre Inhaltskarte geöffnet wurde. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen Ihrer Inhaltskarte, wobei mehrfache Interaktionen eines Profils nicht berücksichtigt werden.
 
 +++
 
-## Bezeichnungen für verfolgten Link {#track-link-content}
+## Labels getrackter Links {#track-link-content}
 
-Die Tabelle **[!UICONTROL Getrackte Link-Beschriftungen]** bietet einen umfassenden Überblick über die Linkbeschriftungen in Ihren Inhaltskarten und zeigt diejenigen, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblick über die Linklabels in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
 +++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Gibt an, wie oft auf einen Inhalt in Ihren Inhaltskarten geklickt wurde.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Inhaltskarte.
 
-* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde.
+* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Inhaltskarte.
 
-* **[!UICONTROL Einzelanzeigen]**: Gibt an, wie oft die Inhaltskarte geöffnet wurde, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Inhaltskarte, wobei mehrfache Interaktionen eines Profils nicht berücksichtigt werden.
 
 +++
