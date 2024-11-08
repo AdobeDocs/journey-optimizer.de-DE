@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 67%
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 67%
 
 ### Was sind Regelsätze? {#what}
 
-Neben den globalen Geschäftsregeln, die die Anzahl der Nachrichten, die Benutzer über einen oder mehrere Kanäle erhalten, einschränken, können Sie mithilfe von Regelsätzen **mehrere Regeln in Regelsätze gruppieren** und sie auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
+Zusätzlich zu den globalen Verfahrensregeln, die die Anzahl der Nachrichten einschränken, die Benutzende über einen oder mehrere Kanäle erhalten, können Sie mit Regelsätzen **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
@@ -48,21 +48,21 @@ Zusätzlich zu diesem Regelsatz &quot;Globaler Standardregelsatz&quot;können Si
 
 ![](assets/rule-sets-default.png)
 
-### Begrenzungsregeln für Kanal und Journey {#domain}
+### Begrenzungsregeln für Kanäle und Journeys {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="Domain des Regelsatzes"
 >abstract="Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind."
 
-Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind. Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domäne für den Regelsatz aus. [Erfahren Sie, wie Sie einen Regelsatz erstellen](#create)
+Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind. Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domain für den Regelsatz aus. [Informationen zum Erstellen eines Regelsatzes](#create)
 
-* **Kanal**-Domäne: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
-* Domäne **Journey**: Wenden Sie Einstiegs- und gleichzeitige Begrenzungsregeln auf eine Journey an. Geben Sie beispielsweise nicht mehrere Profile gleichzeitig auf einer Journey ein.
+* **Kanal**-Domain: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+* **Journey**-Domain: Wenden Sie Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
 ## Erstellen Ihres ersten benutzerdefinierten Regelsatzes {#create-rule-set}
 
-### Erstellen Sie den Regelsatz und wählen Sie seine Domäne aus {#create}
+### Erstellen des Regelsatzes und Auswählen seiner Domain {#create}
 
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
@@ -74,9 +74,9 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    ![](assets/rule-sets-create-button.png)
 
-1. Definieren Sie einen eindeutigen Namen für den Regelsatz und fügen Sie eine Beschreibung hinzu.
+1. Legen Sie einen eindeutigen Namen für den Regelsatz fest und fügen Sie eine Beschreibung hinzu.
 
-1. Wählen Sie die Domäne des Regelsatzes aus. Über die Domäne können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journey spezifisch sind. [Weitere Informationen zu Kanal- und Journey-Begrenzungsregeln](#domain)
+1. Wählen Sie die Domain des Regelsatzes aus. Über die Domäne können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journey spezifisch sind. [Weitere Informationen zu Kanal- und Journey-Begrenzungsregeln](#domain)
 
    ![](assets/rule-sets-create.png)
 
@@ -112,15 +112,15 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 >title="Regelbegrenzung"
 >abstract="Legen Sie die Begrenzung für Ihre Regel fest. Abhängig von der Regelsatzdomäne und der Auswahl im Feld Regeltyp kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journey, die das Profil eingeben oder gleichzeitig anmelden kann."
 
-Um einem Regelsatz eine Regel hinzuzufügen, greifen Sie auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]** .
+Um einem Regelsatz eine Regel hinzuzufügen, greifen Sie auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
 
-Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatzdomäne ab.
+Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatz-Domain ab.
 
-+ + + Konfigurieren der Kanalbegrenzungsregeln (**Kanal**-Domäne)
++++Konfigurieren von Kanalbegrenzungsregeln (**Kanal**-Domain)
 
 ![](assets/rule-set-channels.png)
 
-1. Definieren Sie einen eindeutigen Namen für die Regel.
+1. Legen Sie einen eindeutigen Namen für die Regel fest.
 
 1. Das Feld **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Im Moment ist dieses Feld schreibgeschützt, da nur die Kategorie **[!UICONTROL Marketing]** verfügbar ist.
 
@@ -158,18 +158,18 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
 +++
 
-++ + Journey-Begrenzungsregeln konfigurieren (**Journey** -Domäne)
++++Konfigurieren von Journey-Begrenzungsregeln (**Journey**-Domain)
 
 ![](assets/rule-set-journey.png)
 
 1. Geben Sie einen eindeutigen Namen für die Regel an.
 
-1. Geben Sie in der Dropdownliste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
+1. Geben Sie in der Dropdown-Liste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
 
-   * **[!UICONTROL Journey Entry Cap]**: Beschränkt die Anzahl der Einträge in die Journey über einen bestimmten Zeitraum für ein Profil.
-   * **[!UICONTROL Journey Concurrency Cap]**: Beschränkt, wie viele Journey ein Profil gleichzeitig eingeschrieben werden kann.
+   * **[!UICONTROL Begrenzung für Journey-Eintritte]**: Beschränkt für ein Profil die Anzahl der Eintritte in die Journey über einen bestimmten Zeitraum.
+   * **[!UICONTROL Begrenzung gleichzeitiger Journeys]**: Beschränkt, für an wie vielen Journeys ein Profil gleichzeitig teilnehmen kann.
 
-1. Detaillierte Informationen zum Konfigurieren von Journey-Begrenzungsregeln finden Sie im Abschnitt [Journey-Begrenzung und -Schlichtung](../conflict-prioritization/journey-capping.md) .
+1. Ausführliche Informationen zum Konfigurieren von Journey-Begrenzungsregeln finden Sie unter [Journey-Begrenzung und -Steuerung](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -239,7 +239,7 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Regelsätze auf Nachrichten oder Journey anwenden {#apply-frequency-rule}
+## Anwenden von Regelsätzen auf eine Nachricht oder Journey {#apply-frequency-rule}
 
 Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausgewählten Domain auf eine Nachricht oder eine Journey anwenden. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
@@ -265,7 +265,7 @@ Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausge
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. Sie können die Anzahl der vom Versand ausgeschlossenen Profile im Bericht [Customer Journey Analytics](../reports/report-gs-cja.md) und im Bericht [Live Report](../reports/live-report.md) anzeigen, in dem die Häufigkeitsregeln als möglicher Grund für vom Versand ausgeschlossene Benutzer aufgeführt werden.
+1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Häufigkeitsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
 
 >[!NOTE]
 >
@@ -312,7 +312,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 >[!IMPORTANT]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System mit der Unterdrückung von Kunden beginnt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in die Zukunft beginnt, um dies zu verhindern.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
 +++
 

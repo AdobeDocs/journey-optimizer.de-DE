@@ -12,7 +12,7 @@ exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -189,7 +189,7 @@ Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand könne
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre mehrsprachige Kampagne oder Journey senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre mehrsprachige Kampagne oder Journey senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

@@ -11,8 +11,8 @@ keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -282,7 +282,7 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    >[!IMPORTANT]
    >
-   > Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, damit Sie Ihre mehrsprachige Kampagne versenden können. [Weitere Informationen](../test-approve/gs-approval.md)
+   > Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre mehrsprachige Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Jetzt können Sie Ihre Kampagne oder Journey aktivieren. Nach dem Versand können Sie die Wirkung Ihrer mehrsprachigen Journey oder Kampagnen in den Berichten ermitteln.
 

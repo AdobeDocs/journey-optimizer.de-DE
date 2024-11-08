@@ -11,8 +11,8 @@ keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie k�
 
 ![](assets/lp_access-list-filter.png)
 
-Aus dieser Liste können Sie für veröffentlichte Elemente auf den Live-Bericht [Landingpage-Live](../reports/lp-report-live.md) oder den Bericht [Landingpage-Bericht](../reports/lp-report-global-cja.md) zugreifen.
+In dieser Liste können Sie auf den [Live-Bericht für die Landingpage](../reports/lp-report-live.md) oder den [Landingpage-Bericht](../reports/lp-report-global-cja.md) für veröffentlichte Elemente zugreifen.
 
 Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung aufheben.
 

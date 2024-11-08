@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, mit der die Entsche
 >
 >In der [!DNL Journey Optimizer]Benutzeroberfläche werden Entscheidungsrichtlinien als Entscheidungen gekennzeichnet<!--but they are decision policies. TBC if this note is needed-->.
 
-Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Code-basierten Kampagnen sind:
+Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Ihren Code-basierten Kampagnen lauten wie folgt:
 
-1. [Entscheidungsrichtlinie in eine code-basierte Kampagne erstellen](#add-decision)
-1. [Verwenden der Entscheidungsrichtlinie in der code-basierten Kampagne](#use-decision-policy)
-1. [Benutzerdefinierte Customer Journey Analytics-Reporting-Dashboards erstellen](#cja)
+1. [Erstellen einer Entscheidungsrichtlinie zu einer Code-basierten Kampagne](#add-decision)
+1. [Verwenden der Entscheidungsrichtlinie in der Code-basierten Kampagne](#use-decision-policy)
+1. [Erstellen benutzerdefinierter Dashboards für das Reporting in Customer Journey Analytics](#cja)
 
 ## Hinzufügen einer Entscheidungsrichtlinie zu einer Code-basierten Kampagne {#add-decision}
 
@@ -56,7 +56,7 @@ Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Code-basier
 
 Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer Code-basierten Kampagne eine Entscheidungsrichtlinie hinzu. Gehen Sie dazu wie folgt vor.
 
-### Entscheidungsrichtlinie erstellen {#add}
+### Erstellen der Entscheidungsrichtlinie {#add}
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
@@ -76,13 +76,13 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 ### Auswählen von Elementen und Auswahlstrategien {#select}
 
-Im Abschnitt **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemente und Auswahlstrategien auswählen, die der Entscheidungsrichtlinie angezeigt werden sollen.
+Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemente und Auswahlstrategien auswählen, die mit der Entscheidungsrichtlinie angezeigt werden sollen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie dann den Typ des Objekts aus, das in die Richtlinie aufgenommen werden soll:
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie anschließend den Objekttyp aus, der in die Richtlinie aufgenommen werden soll:
 
-   * **[!UICONTROL Auswahlstrategie]**: Fügen Sie eine oder mehrere Auswahlstrategien hinzu. Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen verknüpft sind, und Rangmethoden, um die anzuzeigenden Elemente zu bestimmen. Sie können eine vorhandene Auswahlstrategie auswählen oder mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** eine neue erstellen.[Erfahren Sie, wie Sie Auswahlstrategien erstellen](selection-strategies.md)
+   * **[!UICONTROL Auswahlstrategie]**: Fügen Sie eine oder mehrere Auswahlstrategien hinzu. Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen verknüpft sind, und Rangfolgemethoden, um die anzuzeigenden Elemente zu bestimmen. Sie können eine vorhandene Auswahlstrategie auswählen oder mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** eine neue erstellen.[Informationen zum Erstellen von Auswahlstrategien](selection-strategies.md)
 
-   * **[!UICONTROL Entscheidungselement]**: Fügen Sie einzelne Entscheidungselemente hinzu, die angezeigt werden sollen, ohne eine Auswahlstrategie durchlaufen zu müssen. Sie können jeweils nur ein Entscheidungselement auswählen. Alle für das Element festgelegten Eignungsbegrenzungen gelten.
+   * **[!UICONTROL Entscheidungselement]**: Fügen Sie einzelne Entscheidungselemente hinzu, die angezeigt werden sollen, ohne eine Auswahlstrategie durchlaufen zu müssen. Sie können jeweils nur ein Entscheidungselement auswählen. Es werden alle für das Element festgelegten Eignungsbegrenzungen angewendet.
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
@@ -90,21 +90,21 @@ Im Abschnitt **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselem
    >
    >Es ist mindestens ein Entscheidungselement oder eine Strategie erforderlich. Es können nicht mehr als 10 Strategien hinzugefügt werden.
 
-1. Beim Hinzufügen mehrerer Entscheidungselemente und/oder Strategien werden diese in einer bestimmten Reihenfolge bewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.     Um die Standardreihenfolge zu ändern, können Sie die Objekte und/oder Gruppen per Drag-and-Drop verschieben, um sie nach Bedarf neu anzuordnen. [Erfahren Sie mehr über die Reihenfolge der Entscheidungsrichtlinienauswertung](#evaluation-order)
+1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet und die Auswertung wird in dieser Reihenfolge fortgeführt.      Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz neu anzuordnen.  [Weitere Informationen zur Auswertungsreihenfolge von Entscheidungsrichtlinien](#evaluation-order)
 
-### Verwalten von Auswertungsreihenfolgen in Entscheidungsrichtlinien {#evaluation-order}
+### Verwalten der Auswertungsreihenfolge in einer Entscheidungsrichtlinie {#evaluation-order}
 
-Nachdem Sie Ihrer Richtlinie Entscheidungselemente und Auswahlstrategien hinzugefügt haben, können Sie ihre Reihenfolge so festlegen, dass ihre Auswertungsreihenfolge festgelegt wird, und Auswahlstrategien kombinieren, um sie gemeinsam zu bewerten.
+Sobald Sie Entscheidungselemente und Auswahlstrategien zu Ihrer Richtlinie hinzugefügt haben, können Sie ihre Reihenfolge anpassen, um die Auswertungsreihenfolge festzulegen, und Auswahlstrategien miteinander kombinieren, um sie gemeinsam auszuwerten.
 
-Die **sequenzielle Reihenfolge**, in der Elemente und Strategien ausgewertet werden, wird mit Zahlen links neben jedem Objekt oder jeder Gruppe von Objekten angegeben. Um die Position einer Auswahlstrategie (oder einer Gruppe von Strategien) innerhalb der Sequenz zu verschieben, ziehen Sie sie an eine andere Position.
+Die **sequenzielle Reihenfolge**, in der Elemente und Strategien ausgewertet werden, wird mit Zahlen links neben jedem Objekt oder jeder Objektgruppe angegeben. Um die Position einer Auswahlstrategie (oder einer Gruppe von Strategien) innerhalb der Sequenz zu verschieben, ziehen Sie sie per Drag-and-Drop an eine andere Position.
 
 >[!NOTE]
 >
->Es können nur Auswahlstrategien in eine Sequenz gezogen und dort abgelegt werden. Um die Position eines Entscheidungselements zu ändern, müssen Sie es entfernen und mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** wieder hinzufügen, nachdem Sie die anderen Elemente hinzugefügt haben, die zuvor ausgewertet werden sollen.
+>Nur Auswahlstrategien können per Drag-and-Drop innerhalb einer Sequenz verschoben werden. Um die Position eines Entscheidungselements zu ändern, müssen Sie es entfernen und mithilfe der Schaltfläche **[!UICONTROL Hinzufügen]** wieder hinzufügen, nachdem Sie die anderen Elemente hinzugefügt haben, die vorher ausgewertet werden sollen.
 
 ![](assets/decision-code-based-strategy-groups.png)
 
-Sie können auch **mehrere Auswahlstrategien in Gruppen kombinieren, sodass sie zusammen und nicht getrennt ausgewertet werden.** Klicken Sie dazu unter einer Auswahlstrategie auf die Schaltfläche **`+`** , um sie mit einer anderen zu kombinieren. Sie können auch eine Auswahlstrategie per Drag-and-Drop auf eine andere ziehen, um die beiden Strategien in einer Gruppe zu gruppieren.
+Sie können auch mehrere Auswahlstrategien in Gruppen **kombinieren**, sodass sie zusammen und nicht getrennt ausgewertet werden. Klicken Sie dazu unter einer Auswahlstrategie auf die Schaltfläche **`+`**, um sie mit einer anderen Strategie zu kombinieren. Sie können eine Auswahlstrategie auch per Drag-and-Drop auf eine andere ziehen, um die beiden Strategien zu einer Gruppe zusammenzuführen.
 
 >[!NOTE]
 >
@@ -162,9 +162,9 @@ Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, A
 
 +++
 
-### Fallback-Angebote hinzufügen {#fallback}
+### Hinzufügen von Fallback-Angeboten {#fallback}
 
-Nachdem Sie Entscheidungselemente und/oder Auswahlstrategien ausgewählt haben, können Sie Fallback-Angebote hinzufügen, die Benutzern angezeigt werden, wenn keines der oben genannten Elemente oder Auswahlstrategien qualifiziert ist.
+Sobald Sie Entscheidungselemente und/oder Auswahlstrategien ausgewählt haben, können Sie Fallback-Angebote hinzufügen, die Benutzenden angezeigt werden, wenn keines der oben genannten Elemente oder keine der oben genannten Auswahlstrategien qualifiziert ist.
 
 ![](assets/decision-code-based-strategy-fallback.png)
 
@@ -172,13 +172,13 @@ Es können beliebige Elemente aus der Liste ausgewählt werden, die alle in der 
 
 >[!NOTE]
 >
->Ein Fallback ist optional. Wenn kein Fallback ausgewählt ist und keine Strategie qualifiziert ist, wird nichts von [!DNL Journey Optimizer] angezeigt. Sie können die Anzahl der Elemente addieren, die die Entscheidungsrichtlinie anfordert. Dadurch wird eine bestimmte Anzahl von Artikeln garantiert, die bei Bedarf für den Anwendungsfall zurückgegeben werden.
+>Ein Fallback ist optional. Wenn kein Fallback ausgewählt ist und keine Strategie qualifiziert ist, wird von [!DNL Journey Optimizer] nichts angezeigt.  Sie können die Anzahl der Elemente addieren, die von der Entscheidungsrichtlinie angefordert werden. Dadurch wird sichergestellt, dass eine bestimmte Anzahl von Elementen zurückgegeben wird, sofern dies für den Anwendungsfall gewünscht ist.
 
-Wenn Ihre Entscheidungsrichtlinie fertig ist, speichern Sie sie und klicken Sie auf **[!UICONTROL Erstellen]**. Nachdem die Entscheidungsrichtlinie erstellt wurde, können die Entscheidungsattribute im Code-basierten Erlebnisinhalt verwendet werden. [Weitere Informationen](#use-decision-policy)
+Sobald Ihre Entscheidungsregel fertig ist, speichern Sie sie und klicken Sie auf **[!UICONTROL Erstellen]**.  Nachdem die Entscheidungsrichtlinie erstellt wurde, können die Entscheidungsattribute im Code-basierten Erlebnisinhalt verwendet werden. [Weitere Informationen](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 
-## Entscheidungsrichtlinie im Code-Editor verwenden {#use-decision-policy}
+## Verwenden der Entscheidungsrichtlinie im Code-Editor {#use-decision-policy}
 
 Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor](../code-based/create-code-based.md#edit-code) verwendet werden. Gehen Sie dazu wie folgt vor.
 

@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
 * **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
 
-* **Benutzerdefinierter Upload**: Importieren einer Zielgruppe mithilfe einer CSV-Datei. In der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} erfahren Sie, wie Sie Zielgruppen in Adobe Experience Platform importieren.
+* **Benutzerdefinierter Upload**: Importieren einer Zielgruppe mithilfe einer CSV-Datei. In der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} erfahren Sie, wie Sie Zielgruppen in Adobe Experience Platform importieren.
 
 * **Zielgruppenkomposition**: Erstellt einen Kompositions-Workflow, der vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zusammenführt und verschiedene Aktivitäten (Teilen, Ausschließen …) zur Erstellung neuer Zielgruppen ausführt. [Erste Schritte mit der Zielgruppenkomposition](get-started-audience-orchestration.md)
 
@@ -44,13 +44,13 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
   >[!AVAILABILITY]
   >
-  >Die Komposition föderierter Zielgruppen ist derzeit nur für eine Reihe von Organisationen verfügbar (begrenzte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+  >Die Komposition föderierter Zielgruppen ist derzeit nur für eine Reihe von Organisationen verfügbar (begrenzte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
 Weitere Informationen zur Verwendung von benutzerdefinierten Uploads und Zielgruppen für die Zusammenstellung von Federated-Zielgruppen in [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](custom-upload-fac.md).
 
 ## Ansprechen von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Sie können in Kampagnen und Journey eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, benutzerdefiniertem Upload, Komprimierungs-Workflows oder Federated Audience Komposition generiert wurde.
+Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, einem benutzerdefinierten Upload, Kompositions-Workflows oder der Komposition föderierter Zielgruppen generiert wurde.
 
 >[!AVAILABILITY]
 >
@@ -68,11 +68,11 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
   >[!NOTE]
   >
-  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositionsarbeitsabläufen, benutzerdefinierten Uploads oder Federated Audience Komposition erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität &quot;Zielgruppenqualifikation&quot;ansprechen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
+  >Aufgrund der Batch-Natur von Zielgruppen, die mithilfe von Kompositions-Workflows, einem benutzerdefinierten Upload oder der Komposition föderierter Zielgruppen erstellt wurden, können Sie diese Zielgruppen nicht in einer Aktivität „Zielgruppen-Qualifizierung“ auswählen. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 ## Verwenden von Zielgruppen-Anreicherungsattributen {#enrichment}
 
-Beim Targeting einer Zielgruppe, die mithilfe von Kompositionsarbeitsabläufen, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder einer Federated Audience-Komposition generiert wurde, können Sie Anreicherungsattribute aus diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder der Komposition föderierter Zielgruppen generiert wurde, können Sie Anreicherungsattribute von diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
 >[!NOTE]
 >
