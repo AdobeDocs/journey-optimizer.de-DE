@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_email_enable_experience_decisioning"
 >title="Aktivieren der Entscheidungsfindung"
 >abstract="Aktivieren der Entscheidungsfindung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Entscheidungsattribute aus Katalog auswählen"
+>abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie hier ein Attribut aus dem ausgewählten Katalog aus."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Entscheidungsrichtlinie"
+>abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für jede Zielgruppe bereitstellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Platzierung"
+>abstract="Platzierung"
