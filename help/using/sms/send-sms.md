@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Textnachrichten versenden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Textnachrichten senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Wenn Ihre Textnachricht fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab, um sie zu versenden.
 

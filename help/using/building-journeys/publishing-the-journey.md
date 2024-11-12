@@ -10,9 +10,9 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die
 
    >[!NOTE]
    >
-   > Wenn Ihre Journey einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+   > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)

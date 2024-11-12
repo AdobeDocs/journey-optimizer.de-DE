@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >title="Live-Bericht zu Abonnements"
 >abstract="Mit dem Live-Bericht zu Abonnements können Sie die Aktivität Ihrer Abonnierenden nur in den letzten 24 Stunden in Echtzeit messen und visualisieren. Der Bericht ist in verschiedene Widgets unterteilt, die Ihre Abonnements und die Abmeldungen detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
-Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Customer Journey Analytics-Berichte auf Ereignisse, die mindestens vor zwei Stunden aufgetreten sind, und decken Ereignisse über einen bestimmten Zeitraum ab.
+Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
 Um auf Ihre Berichte zuzugreifen, klicken Sie auf das Symbol **[!UICONTROL Bericht]** der von Ihnen gewählten Abonnement-Liste.
 

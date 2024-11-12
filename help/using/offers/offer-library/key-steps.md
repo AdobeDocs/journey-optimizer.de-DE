@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '326'
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 1. [Konfigurieren Sie die Entscheidung](../offer-activities/create-offer-activities.md#add-decision-scopes). Wählen Sie dazu die Platzierungen aus und wählen Sie für jede Platzierung eine Sammlung und ein Fallback-Angebot aus.
 
-1. Bei Bedarf können Sie bei der Konfiguration der Entscheidung einer Platzierung [eine Rangformel ](../offer-activities/configure-offer-selection.md#assign-ranking-formula) oder einen AI-Rang [3} zuweisen.](../offer-activities/configure-offer-selection.md#use-ranking-strategy)
+1. Bei Bedarf können Sie einer Platzierung eine [Rangfolgenformel](../offer-activities/configure-offer-selection.md#assign-ranking-formula) oder eine [KI-Rangfolge](../offer-activities/configure-offer-selection.md#use-ranking-strategy) zuweisen, wenn Sie eine Entscheidung konfigurieren.
 
 <!--
 <table style="table-layout:fixed">

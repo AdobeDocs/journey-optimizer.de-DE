@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 87%
 Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
 Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
 
-* Wenn Sie eine Journey im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf das Menü Journey **[!UICONTROL Mehr Aktionen]** zu und klicken Sie auf die Schaltfläche **[!UICONTROL Letzten 24-Stunden-Bericht anzeigen]** .
+* Wenn Sie eine Journey im Kontext einer Journey ansprechen möchten, rufen Sie über das Menü **[!UICONTROL Journeys]** das Menü **[!UICONTROL Weitere Aktionen]** Ihrer Journey auf und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**.
 
   ![](assets/report_journey.png)
 
-* Wenn Sie eine Kampagne als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Kampagnen]** auf Ihre Kampagne zu und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und dann auf **[!UICONTROL Letzten 24-Stunden-Bericht anzeigen]**.
+* Wenn Sie eine Kampagne als Ziel wählen möchten, wählen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne aus und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und anschließend auf **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**.
 
   ![](assets/report_campaign.png)
 
@@ -88,7 +88,7 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
    ![](assets/export_4.png)
 
-1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie neben dem ausgewählten Widget auf **[!UICONTROL CSV-Datei herunterladen]** .
+1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie auf **[!UICONTROL CSV-Datei herunterladen]** neben dem ausgewählten Widget.
 
    ![](assets/export_5.png)
 

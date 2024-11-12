@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktualisiertes Berichtserlebnis
-description: Erste Schritte mit der aktualisierten Berichterstellung
+title: Neues Reporting-Erlebnis
+description: Erste Schritte mit dem neuen Reporting-Erlebnis
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit der aktualisierten Berichterstellung {#channel-report-gs-cja}
+# Erste Schritte mit dem neuen Reporting-Erlebnis {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
   ![](assets/gs-cja-report-3.png)
 
-* Wenn Sie eine Kampagne als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Kampagnen]** auf Ihre Kampagne zu und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]**.
+* Wenn Sie eine Kampagne als Ziel wählen möchten, wählen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne aus und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und anschließend auf **[!UICONTROL Bericht für gesamte Zeit anzeigen]**.
 
   In der Liste der vorhandenen Kampagnen können Sie auch **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Kampagne auswählen. [Weitere Informationen zum Kampagnen-Bericht](campaign-global-report-cja.md)
 

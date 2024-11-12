@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 

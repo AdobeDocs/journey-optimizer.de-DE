@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3728'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->Die aktuelle Berichtserfahrung wird ab Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
+>Das aktuelle Reporting-Erlebnis wird im Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
 
 >[!IMPORTANT]
 >

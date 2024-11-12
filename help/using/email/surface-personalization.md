@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 
    ![](assets/surface-email-personalize-header.png)
 
-1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Definieren Sie die gewünschte Bedingung und speichern Sie die Änderungen.
+1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Definieren Sie Ihre Bedingung nach Bedarf und speichern Sie Ihre Änderungen.
 
    <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
@@ -113,11 +113,11 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
    >
    >Sie können nur **[!UICONTROL Profilattribute]** und **[!UICONTROL Hilfsfunktionen]** auswählen.
 
-   Nehmen wir an, Sie möchten dynamische E-Mails verarbeiten, die im Auftrag eines Vertriebsmitarbeiters gesendet werden, wobei der Vertriebsmitarbeiter aus kontextbezogenen Ereignissen oder Kampagnen abgerufen wird. Zum Beispiel:
+   Angenommen, Sie möchten dynamische E-Mails verarbeiten, die im Namen einer Person im Verkauf gesendet werden, wobei diese Person aus kontextbezogenen Ereignis- oder Kampagnenparametern abgerufen wird, z. B.:
 
-   * Wenn in einer [Journey](../building-journeys/journey-gs.md) ein Kaufereignis mit dem Vertriebsassistenten eines bestimmten Geschäfts verknüpft ist, kann der E-Mail-Header (Absendername, Absender-E-Mail, Antwort-Adresse) mit den Parametern des Vertriebsassistenten personalisiert werden, die aus den Ereignisattributen übernommen werden.
+   * Wenn in einer [Journey](../building-journeys/journey-gs.md) ein Kaufereignis mit der Person in einem bestimmten Geschäft verknüpft ist, kann die E-Mail-Kopfzeile (Absendername, Absender-E-Mail, Antwort-Adresse) mit den aus den Ereignisattributen ermittelten Parametern der Person personalisiert werden.
 
-   * In einer [API-gesteuerten Kampagne](../campaigns/api-triggered-campaigns.md), die extern von einem Vertriebsmitarbeiter initiiert wird, kann die ausgelöste E-Mail im Namen des Vertriebsassistenten gesendet werden und die Kopfzeilenpersonalisierungswerte können aus den kontextbezogenen Kampagnenparametern entnommen werden.
+   * In einer [API-ausgelösten Kampagne](../campaigns/api-triggered-campaigns.md), die extern von einer Person im Verkauf initiiert wird, kann die ausgelöste E-Mail im Namen der Person gesendet werden und die Kopfzeilenpersonalisierungswerte können aus den kontextbezogenen Kampagnenparametern abgerufen werden.
 
 1. Wiederholen Sie die obigen Schritte für jeden Parameter, den Sie personalisieren möchten.
 
@@ -139,7 +139,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Anzeigen der Konfigurationsdetails {#view-surface-details}
 
-Bei Verwendung einer Konfiguration mit personalisierten Einstellungen in einer Kampagne oder einer Journey können Sie die Konfigurationsdetails direkt innerhalb der Kampagne oder der Journey anzeigen. Führen Sie dazu folgende Schritte durch.
+Wenn Sie eine Konfiguration mit personalisierten Einstellungen in einer Kampagne oder Journey verwenden, können Sie die Details der Konfiguration direkt innerhalb der Kampagne oder Journey anzeigen. Führen Sie dazu folgende Schritte durch.
 
 1. Erstellen Sie eine E-Mail-[Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-gs.md).
 
@@ -159,32 +159,32 @@ Bei Verwendung einer Konfiguration mit personalisierten Einstellungen in einer K
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
 
-## Überprüfen der Konfiguration {#check-configuration}
+## Überprüfen Ihrer Konfiguration {#check-configuration}
 
-Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder einer Journey können Sie eine Vorschau Ihres E-Mail-Inhalts anzeigen, um nach potenziellen Fehlern mit den von Ihnen definierten dynamischen Einstellungen zu suchen. Führen Sie dazu folgende Schritte durch.
+Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können Sie nun eine Vorschau Ihrer E-Mail-Inhalte anzeigen, um nach potenziellen Fehlern bei den von Ihnen definierten dynamischen Einstellungen zu suchen. Führen Sie dazu folgende Schritte durch.
 
-1. Klicken Sie im Bildschirm &quot;Inhalt bearbeiten&quot;Ihrer Nachricht oder in E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** . [Weitere Informationen](../content-management/preview.md)
+1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**. [Weitere Informationen](../content-management/preview.md)
 
 1. Wählen Sie ein [Testprofil](../content-management/test-profiles.md) aus.
 
-1. Wenn ein Fehler angezeigt wird, klicken Sie auf die Schaltfläche **[!UICONTROL Konfigurationsdetails anzeigen]** .
+1. Wenn ein Fehler angezeigt wird, klicken Sie auf die Schaltfläche **[!UICONTROL Konfigurationsdetails anzeigen]**.
 
    ![](assets/campaign-simulate-config-error.png)
 
-1. Überprüfen Sie den Bildschirm **[!UICONTROL Versandeinstellungen]** auf die Fehlerdetails.
+1. Sehen Sie sich im Bildschirm **[!UICONTROL Versandeinstellungen]** die Fehlerdetails an.
 
    ![](assets/campaign-simulate-config-details.png)
 
 Mögliche Fehler sind:
 
-* Die **Subdomain** wurde für das ausgewählte Testprofil nicht aufgelöst. Ihre Konfiguration verwendet beispielsweise mehrere Subdomains, die unterschiedlichen Ländern entsprechen, aber für das ausgewählte Profil ist kein Wert für das Attribut `Country` definiert oder das Attribut ist auf `France` festgelegt, dieser Wert ist jedoch keiner Subdomain in dieser Konfiguration zugeordnet.
+* Die **Subdomain** wurde für das ausgewählte Testprofil nicht aufgelöst. Ihre Konfiguration verwendet beispielsweise mehrere Versand-Subdomains, die unterschiedlichen Ländern entsprechen, aber für das ausgewählte Profil ist kein Wert für das Attribut `Country` definiert oder das Attribut ist auf `France` eingestellt. Dieser Wert ist jedoch keiner Subdomain in dieser Konfiguration zugeordnet.
 
 * Dem ausgewählten Profil sind keine Werte für einen oder mehrere **Kopfzeilenparameter** zugeordnet.
 
-Bei keinem dieser Fehler wird E-Mail an das ausgewählte Testprofil gesendet.
+Bei jedem dieser Fehler erfolgt kein E-Mail-Versand an das ausgewählte Testprofil.
 
-Um diesen Fehlertyp zu vermeiden, stellen Sie sicher, dass die von Ihnen definierten Header-Parameter personalisierte Attribute mit Werten für die meisten Ihrer Profile verwenden. Fehlende Werte können sich auf Ihre E-Mail-Zustellbarkeit auswirken.
+Um diesen Fehlertyp zu vermeiden, stellen Sie sicher, dass die von Ihnen definierten Kopfzeilenparameter personalisierte Attribute mit Werten für die Mehrzahl Ihrer Profile verwenden. Fehlende Werte können sich auf die E-Mail-Zustellbarkeit auswirken.
 
 >[!NOTE]
 >
->Weiterführende Informationen zur Zustellbarkeit finden Sie in [diesem Abschnitt](../reports/deliverability.md) .
+>Weitere Informationen zur Zustellbarkeit finden Sie in [diesem Abschnitt](../reports/deliverability.md).

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1145'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,13 +140,13 @@ Gehen Sie dazu wie folgt vor.
 
    >[!NOTE]
    >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}.
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 ### Hinzufügen von Entitäten mithilfe eines API-Aufrufs {#api-call-allowed-list}
 
-Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückungs-API mit dem Wert `ALLOWED` für das `listType`-Attribut aufrufen. Zum Beispiel:
+Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückungs-API mit dem Wert `ALLOWED` für das `listType`-Attribut aufrufen. z. B.:
 
 ![](assets/allow-list-api.png)
 
@@ -201,7 +201,7 @@ Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende 
 >
 >Die Profile mit dem Status **[!UICONTROL Nicht zugelassen]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Zielgruppe lesen](../building-journeys/read-audience.md) und [Nachrichten](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über den Bericht [Live-Bericht](../reports/live-report.md) und den Bericht [Customer Journey Analytics](../reports/report-gs-cja.md).
+>Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md).
 
 Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list) ist, werden alle E-Mails, die Sie aus der aktuellen Sandbox senden, an alle Empfänger gesendet (sofern sie nicht auf der Unterdrückungsliste stehen), einschließlich der tatsächlichen Kundenadressen.
 

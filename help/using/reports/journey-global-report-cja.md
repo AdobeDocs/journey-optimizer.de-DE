@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -83,11 +83,11 @@ Verbessern Sie die Anpassung Ihrer Arbeitsfläche mit den folgenden Optionen:
 * Passen Sie Ihre **[!UICONTROL Pfeileinstellungen]** an, um Labels und Bedingungen einzuschließen, oder entscheiden Sie sich für eine saubere Anzeige.
 * Aktivieren Sie die Option **[!UICONTROL Fallout anzeigen]**, um direkt auf der Arbeitsfläche Profile zu visualisieren, die Ihre Journey verlassen haben.
 
-Die folgenden Regeln gelten bei Verwendung des Filters **[!UICONTROL Knotentyp]** :
+Bei Verwendung der Filterung **[!UICONTROL Knotentyp]** gelten die folgenden Regeln:
 
-* Beim Erstellen eines Segments auf einem Knoten umfasst es weiterhin Knoten aus früheren Phasen des Journey, selbst wenn diese Knoten über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden.
+* Beim Erstellen eines Segments auf einem Knoten umfasst es weiterhin Knoten aus früheren Phasen der Journey, selbst wenn diese Knoten über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden.
 
-* Es ist nicht möglich, aus einem Pfeil geformte Segmente zu erstellen, wenn Knoten in früheren Phasen der Journey über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden. In diesem Fall wird die Rechtsklickfunktion für diese Pfeile deaktiviert.
+* Es ist nicht möglich, über einen Pfeil geformte Segmente zu erstellen, wenn Knoten in früheren Phasen der Journey über den Filter **[!UICONTROL Knotentyp]** ausgeschlossen wurden. In diesem Fall wird die Rechtsklickfunktion für diese Pfeile deaktiviert.
 
 ## Aktions-Performance {#action-performance}
 

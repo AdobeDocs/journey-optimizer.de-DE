@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->Die aktuelle Berichtserfahrung wird ab Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
+>Das aktuelle Reporting-Erlebnis wird im Januar 2025 eingestellt. Nach diesem Datum wird das neue Reporting-Erlebnis zum Standard. Wir empfehlen, sich mit den neuen Funktionen und Funktionalitäten vertraut zu machen, um einen reibungslosen Übergang zu gewährleisten. [Erste Schritte mit der neuen Reporting-Oberfläche von Journey Optimizer](report-gs-cja.md)
 
 Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Im Vergleich dazu konzentrieren sich Live-Berichte auf Ereignisse, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten.
 
@@ -50,7 +50,7 @@ Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken f
 
 >[!NOTE]
 >
->Der Experimentationsbericht ist ausschließlich in Customer Journey Analytics-Berichten verfügbar. [Weitere Informationen](campaign-global-report-cja-experimentation.md)
+>Der Experimente-Bericht ist ausschließlich in Customer Journey Analytics-Berichten verfügbar. [Weitere Informationen](campaign-global-report-cja-experimentation.md)
 
 ### Versand {#delivery-global}
 

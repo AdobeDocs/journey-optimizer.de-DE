@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Kampagnendaten aus dem Campaign-Bericht verwenden
+description: Informationen zum Verwenden von Kampagnendaten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlage
 
 Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journeys. Diese Person kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
 
-Sie können Inhaltsvorlagen für die Kanäle E-Mail, Push, In-App, SMS und Briefpost erstellen.
+Sie können Inhaltsvorlagen für die E-Mail-, Push-, In-App-, SMS- und Direkt-Mail-Kanäle erstellen.
 
 >[!AVAILABILITY]
 >

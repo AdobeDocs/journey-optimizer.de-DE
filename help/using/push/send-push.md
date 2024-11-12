@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Push-Benachrichtigung versenden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Push-Benachrichtigung senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Wenn Ihre Push-Benachrichtigung fertig ist, vervollständigen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können Ihre Berichte einfach in PDF- oder CSV-Format exportieren, sodass Si
 
 >[!TAB Exportieren Ihres Berichts als CSV-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf &quot;**[!UICONTROL Freigabe]**&quot;und wählen Sie &quot;**[!UICONTROL CSV herunterladen]**&quot;, um eine CSV-Datei auf Berichtsebene zu generieren.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL CSV herunterladen]** aus, um eine CSV-Datei auf der Ebene des gesamten Berichts zu generieren.
 
    ![](assets/export_cja_csv.png)
 
@@ -57,7 +57,7 @@ Sie können Ihre Berichte einfach in PDF- oder CSV-Format exportieren, sodass Si
 
 >[!TAB Exportieren Ihres Berichts als PDF-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigabe]** und wählen Sie **[!UICONTROL Download-PDF]** aus.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL PDF herunterladen]** aus.
 
    ![](assets/export_cja_pdf.png)
 
@@ -72,19 +72,19 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt, heruntergeladen oder freige
 >[!ENDTABS]
 
 
-## Export planen {#schedule-export}
+## Planen von Exporten {#schedule-export}
 
-Mit dem Befehl **Export planen** können Sie die Bereitstellung von bis zu 10 Berichten in wöchentlichen, monatlichen oder jährlichen Abständen automatisieren. Sie können Ihre terminierten Berichte auch einfach verwalten, mit Optionen zum Aktualisieren, Bearbeiten, Abbrechen oder Löschen Ihrer geplanten Exporte.
+Mit der Option **Export planen** können Sie den Versand von bis zu 10 Berichten in wöchentlichen, monatlichen oder jährlichen Intervallen automatisieren. Sie können Ihre geplanten Berichte auch ganz einfach verwalten. Hierzu stehen Ihnen Optionen zum Aktualisieren, Bearbeiten, Abbrechen oder Löschen Ihrer geplanten Exporte zur Verfügung.
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigabe]** und wählen Sie **[!UICONTROL Export planen]** aus.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Export planen]** aus.
 
    ![](assets/export-schedule-1.png)
 
-1. Wählen Sie Ihren **[!UICONTROL Dateityp]** zwischen CSV und PDF aus.
+1. Wählen Sie Ihren **[!UICONTROL Dateityp]** aus: CSV oder PDF.
 
 1. Bei Bedarf können Sie Ihrem Export eine **[!UICONTROL Beschreibung]** hinzufügen.
 
-1. Geben Sie den Namen der Empfänger an, die diesen automatisierten Versand erhalten.
+1. Geben Sie den Namen der Empfangenden an, die diesen automatisierten Versand erhalten.
 
    ![](assets/export-schedule-2.png)
 
@@ -104,15 +104,15 @@ Mit dem Befehl **Export planen** können Sie die Bereitstellung von bis zu 10 Be
 
    * Monat des Jahres
 
-1. Klicken Sie auf **[!UICONTROL Planmäßig senden]**.
+1. Klicken Sie auf **[!UICONTROL Plangemäß senden]**.
 
-1. Um den zuvor erstellten geplanten Export zu bearbeiten, klicken Sie auf **[!UICONTROL Freigabe]** und wählen Sie **[!UICONTROL Zeitpläne verwalten]** aus.
+1. Um den zuvor erstellten geplanten Export zu bearbeiten, klicken Sie auf **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Zeitpläne verwalten]** aus.
 
    ![](assets/export-schedule-3.png)
 
-1. Wählen Sie aus der Liste der geplanten Exporte den zu aktualisierenden aus und nehmen Sie die erforderlichen Änderungen vor.
+1. Wählen Sie aus der Liste der geplanten Exporte den Export aus, den Sie aktualisieren möchten, und nehmen Sie die erforderlichen Änderungen vor.
 
-1. Um einen terminierten Bericht zu löschen, wählen Sie einen aus der Liste der verwalteten Zeitpläne aus und klicken Sie auf **[!UICONTROL Löschen]**.
+1. Um einen geplanten Bericht zu löschen, wählen Sie einen Bericht aus der Liste der verwalteten Zeitpläne aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
    ![](assets/export-schedule-4.png)
 

@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Sobald der Inhalt der Datei versandbereit ist, schließen Sie den Simulationsbil
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre Briefpost-Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Direkt-Mail-Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampagne und die Extraktionsdatei ordnungsgemäß konfiguriert sind. Überprüfen Sie dazu die Warnhinweise im oberen Bereich des Editors. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 

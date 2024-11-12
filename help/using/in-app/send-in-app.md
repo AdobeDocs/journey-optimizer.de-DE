@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres I
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre In-App-Benachrichtigung versenden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre In-App-Benachrichtigung senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren.
 
