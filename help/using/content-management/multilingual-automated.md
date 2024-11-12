@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Starten, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Für den automatisierten Ablauf benötigen Benutzer Berechtigungen im Zusammenhang mit der Funktion **[!UICONTROL Übersetzungsdienst]** . [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> Der automatisierte Ablauf ist für Benutzer in der EMEA-Region vorübergehend nicht verfügbar.
+
 
 Mithilfe des automatisierten Fluss können Sie einfach Ihre Zielsprache und Ihren Sprachdienstleister auswählen. Ihre Inhalte werden dann direkt an die Übersetzung weitergeleitet, die sie nach der Fertigstellung einer Endkontrolle unterzieht.
 
