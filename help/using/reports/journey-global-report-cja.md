@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
+source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +37,7 @@ Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumf
 
 +++ Weitere Informationen zu den Metriken für die Journey-KPIs
 
-* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Unique Individuen, die über die Journey gesendete Nachrichten erhalten haben, die verschiedene Profile darstellen, die einen festgelegten Aktionspunkt auf der Journey erreicht haben.
 
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -54,7 +55,7 @@ Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusamm
 
 +++ Weitere Informationen zu den Journey-Statistik-Metriken
 
-* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Kontakte, die mit den von der Journey gesendeten Nachrichten interagiert haben
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Unique Individuen, die über die Journey gesendete Nachrichten erhalten haben, die verschiedene Profile darstellen, die einen festgelegten Aktionspunkt auf der Journey erreicht haben.
 
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
