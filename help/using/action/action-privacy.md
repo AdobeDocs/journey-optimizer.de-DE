@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +21,11 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Verstöße gegen Data Governance-Richtlinien"
->abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion erkennt, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Verwenden Sie das Datenherkunftsdiagramm in diesem Dialogfeld, um zu erkennen, welche anderen Konfigurationsänderungen erforderlich sind, damit Sie Ihre Journey oder Kampagne aktivieren können."
+>abstract="Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion erkennt, wird ein Fehler angezeigt, der die Veröffentlichung verhindert. Das Datenherkunftsdiagramm in diesem Dialogfeld verwenden, um zu erkennen, welche anderen Konfigurationsänderungen erforderlich sind, damit die Journey oder Kampagne aktiviert werden kann."
 
 ## Erste Schritte mit Data Governance-Richtlinien {#gs}
 
-Mit dem DULE-Framework (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} können Sie mit Adobe Experience Platform kanalübergreifende Data Governance-Richtlinien verwalten und durchsetzen, indem Sie Ihre Felder **beschriften und** Marketing-Aktionen **für jeden Kanal erstellen.[**
+Mit dem Governance-Framework [Data Usage Labelling and Enforcement (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} ermöglicht Ihnen Adobe Experience Platform die Verwaltung und Durchsetzung kanalübergreifender Data-Governance-Richtlinien, indem Sie **Ihre Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
 
 Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#governance-policies)
 
