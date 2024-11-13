@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 99%
+source-wordcount: '2032'
+ht-degree: 98%
 
 ---
 
@@ -218,10 +218,9 @@ Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Komposi
 
 +++
 
-+++ Wie schnell kann ich eine Zielgruppe nach der Veröffentlichung aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload in Journey Optimizer verwenden?
++++ Wie bald kann ich eine Zielgruppe aus einer Zielgruppenzusammensetzung in Journey Optimizer verwenden?
 
-* Zielgruppen aus der **Zielgruppenkomposition** werden täglich ausgeführt, sodass Sie bis zu 24 Stunden warten müssen, um sie in Journey Optimizer zu verwenden.
-* Zielgruppen aus einem **benutzerdefinierten Upload** werden in Journey Optimizer ca. 2 Stunden nach der Veröffentlichung verfügbar.
+Zielgruppen aus der **Zielgruppenkomposition** werden täglich ausgeführt, sodass Sie bis zu 24 Stunden warten müssen, um sie in Journey Optimizer zu verwenden.
 
 +++
 
