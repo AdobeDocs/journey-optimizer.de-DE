@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2011'
 ht-degree: 98%
 
 ---
@@ -41,10 +41,6 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 * **Zielgruppenkomposition**: Erstellt einen Kompositions-Workflow, der vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zusammenführt und verschiedene Aktivitäten (Teilen, Ausschließen …) zur Erstellung neuer Zielgruppen ausführt. [Erste Schritte mit der Zielgruppenkomposition](get-started-audience-orchestration.md)
 
 * **Komposition föderierter Zielgruppen**: Führen Sie Datensätze direkt aus Ihrem bestehenden Data Warehouse zusammen, um Adobe Experience Platform Zielgruppen und Attribute in einem System aufzubauen und anzureichern. Lesen Sie das Handbuch zu [Komposition föderierter Zielgruppen](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home).
-
-  >[!AVAILABILITY]
-  >
-  >Die Komposition föderierter Zielgruppen ist derzeit nur für eine Reihe von Organisationen verfügbar (begrenzte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
 Weitere Informationen zur Verwendung von benutzerdefinierten Uploads und Zielgruppen für die Zusammenstellung von Federated-Zielgruppen in [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](custom-upload-fac.md).
 
