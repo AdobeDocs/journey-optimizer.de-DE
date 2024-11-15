@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 95%
+source-wordcount: '342'
+ht-degree: 75%
 
 ---
 
 # Anwendungsfall für Entscheidungen {#experience-decisioning-uc}
 
-In diesem Anwendungsfall definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
+In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandbehandlungen definieren, von denen jede eine andere Entscheidungsrichtlinie enthält, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
-## Erstellen von Elementen und Strategien
+## Erstellen von Entscheidungselementen und Auswahlstrategien
 
 Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln einrichten und Rangfolgenmethoden festlegen. Mit diesen Elementen können Sie Auswahlstrategien erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Decisioning]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Angebotselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
+1. Navigieren Sie zu **[!UICONTROL Decisioning]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Entscheidungselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln e
 
 Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer Code-basierten Kampagne eine Entscheidungsrichtlinie hinzu.
 
-Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsrichtlinie enthalten.
+<!--Define two delivery treatments each containing a different decision policy.-->
 
-1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis (Beta)]** aus. [Weitere Informationen](../code-based/create-code-based.md)
+1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
+1. Beginnen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** mit der Personalisierung der Abwandlung A.
 
 1. Wählen Sie das Symbol **[!UICONTROL Entscheidungen]** aus, klicken Sie auf **[!UICONTROL Entscheidung erstellen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md)
 
@@ -61,7 +61,9 @@ Definieren Sie zwei Versandabwandlungen, die jeweils eine andere Entscheidungsri
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Erstellen Sie Abwandlung B und wiederholen Sie die oben beschriebenen Schritte, um eine weitere Entscheidung zu erstellen.
+1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
+
+1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** Ihre Behandlung B aus, um den Inhalt zu ändern, und wiederholen Sie die obigen Schritte, um eine weitere Entscheidung zu erstellen.
 
 1. Speichern Sie Ihren Inhalt.
 
