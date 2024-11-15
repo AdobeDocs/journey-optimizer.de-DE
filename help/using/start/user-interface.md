@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 95%
 
 ---
 
@@ -252,16 +252,16 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >abstract="Aktivieren der Entscheidungsfindung"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="Entscheidungsattribute aus Katalog auswählen"
 >abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie hier ein Attribut aus dem ausgewählten Katalog aus."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="Entscheidungsrichtlinie"
 >abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für jede Zielgruppe bereitstellen."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="Platzierung"
->abstract="Platzierung"
+>abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung bei der Berichterstellung über verschiedene Platzierungen hinweg verfolgen."
