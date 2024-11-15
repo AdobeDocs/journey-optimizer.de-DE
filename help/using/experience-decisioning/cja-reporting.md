@@ -1,20 +1,31 @@
 ---
-title: Reporting in Customer Journey Analytics
-description: Erfahren Sie, wie Sie Berichte in Customer Journey Analytics erstellen.
+title: Bericht zu Entscheidungen
+description: Erfahren Sie, wie Sie Berichte zu Decisioning erstellen.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 81%
+source-wordcount: '221'
+ht-degree: 55%
 
 ---
 
-# Reporting in Customer Journey Analytics {#cja}
+
+# Bericht zu Entscheidungen {#decisioning-report}
+
+## Codebasierte Kampagnenberichte {#campaigns}
+
+Sobald das code-basierte Erlebnis live ist, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) als allumfassendes Dashboard zu überwachen und so eine Analyse der wesentlichen Metriken zu Ihrer Kampagne bereitzustellen.
+
+Dies umfasst Details zu den Leistungselementen und zur Interaktion der Benutzer mit ihnen. [Erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten arbeiten](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Reporting in Customer Journey Analytics {#cja}
 
 Wenn Sie mit Customer Journey Analytics arbeiten, können Sie benutzerdefinierte Berichterstellungs-Dashboards für Ihre code-basierten Kampagnen erstellen, indem Sie Decisioning nutzen.
 
