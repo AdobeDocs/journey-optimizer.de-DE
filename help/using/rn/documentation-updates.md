@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
 workflow-type: tm+mt
-source-wordcount: '5707'
-ht-degree: 97%
+source-wordcount: '5724'
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,12 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Alle neuen Funktionen und Verbesserungen der Version vom 24. Oktober 2010 wurden in der Dokumentation beschrieben. [!DNL Journey Optimizer] [Mehr dazu](release-notes.md)
 * Alle in [!DNL Journey Optimizer] verfügbaren Kommunikationskanäle sind jetzt in einem speziellen Abschnitt der Dokumentation gruppiert. [Mehr dazu](../channels/gs-channels.md)
-* Die Seite **Konfigurieren des code-basierten Erlebnisses** wurde verbessert, um den Prozess klarer zu gestalten, einschließlich des Abschnitts, der erklärt, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
-* Die Seite **Webkanalkonfiguration erstellen** wurde aktualisiert, um die Schritte beim Erstellen einer Seitenvergleichsregel zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gilt. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
-* Es wurde ein Hinweis zur bevorstehenden TTL-Schutzdauer (Time-to-Live) für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option Vorschau auf Gerät anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/create-code-based.md#preview-on-device)
-* Eine neue Seite wurde hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für Entscheidungen genutzt werden können - [Mehr dazu](../offers/custom-upload-decisioning.md)
+* Die Seite **Konfigurieren des Code-basierten Erlebnisses** wurde verbessert, um den Vorgang klarer zu beschreiben. Dazu gehört auch der Abschnitt, in dem erklärt wird, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
+* Die Seite **Erstellen einer Web-Kanalkonfiguration** wurde aktualisiert, um die Schritte beim Erstellen einer Regel zum Seitenabgleich zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gelten. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
+* Es wurde ein Hinweis zum anstehenden Time-to-Live(TTL)-Limit für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option „Vorschau auf Gerät“ anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/create-code-based.md#preview-on-device)
+* Es wurde eine neue Seite hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für die Entscheidungsfindung genutzt werden können. [Mehr dazu](../offers/custom-upload-decisioning.md)
+* Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden - [Mehr dazu](../experience-decisioning/gs-decision.md)
 
 ## September 2024 {#sept-2024}
 
@@ -35,7 +36,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Ein Abschnitt über die Verwaltung von Wiederholungsversuchen in Journey wurde hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
 * Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und erwähnen nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
 * Der Abschnitt über die Zugriffskontrolle wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator des KI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
-* Es wurde ein Video zum AI Assistant Content Generator für die E-Mail-Generierung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
+* Es wurde ein Video über den Inhaltsgenerator des KI-Assistenten für die E-Mail-Erstellung hinzugefügt. [Mehr dazu](../content-management/generative-email.md#video)
 
 
 ## August 2024 {#aug-2024}
