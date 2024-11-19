@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 69%
+ht-degree: 94%
 
 ---
 
@@ -144,7 +144,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 
 1. Es wird eine Vorschau des geänderten Code-basierten Erlebnisses angezeigt.
 
-Ausführliche Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie in [diesem Abschnitt](../content-management/preview.md).
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie in [diesem Abschnitt](../content-management/preview.md).
 
 ### Vorschau auf Gerät {#preview-on-device}
 
@@ -168,43 +168,43 @@ Ausführliche Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres 
 >title="Aktualisieren des Vorschau-Links, um die aktuelle Ansicht widerzuspiegeln."
 >abstract="In der Vorschau auf dem Gerät wird der Inhalt ab dem Zeitpunkt angezeigt, zu dem Sie den Vorschau-Link erstellt oder aktualisiert haben. Wenn Sie den Inhalt geändert oder ein anderes Testprofil oder eine andere Behandlung ausgewählt haben, aktualisieren Sie die Vorschau, damit sie die aktuelle Ansicht widerspiegelt."
 
-Beim Erstellen code-basierter Erlebnisse für Web-Seiten oder mobile Apps können Sie Ihre personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten in der Vorschau anzeigen, um zu sehen, wie diese Erlebnisse auf echten Geräten aussehen.
+Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps können Sie eine Vorschau Ihrer personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten anzeigen, um zu sehen, wie diese Erlebnisse auf echten Geräten aussehen.
 
 >[!WARNING]
 >
->Die Vorschau auf dem Gerät ist nicht verfügbar, wenn die Kontextattribute [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) oder [Personalisierung](../personalization/personalization-build-expressions.md) verwendet werden.
+>Die Vorschau auf dem Gerät ist nicht verfügbar, wenn die kontextuellen Attribute [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) oder [Personalisierung](../personalization/personalization-build-expressions.md) verwendet werden.
 
-1. Klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Vorschauoptionen öffnen]** . Die Vorschauoptionen hängen von der Plattform ab, die in Ihrer [code-basierten Konfiguration](code-based-configuration.md#create-code-based-configuration) ausgewählt wurde.
+1. Klicken Sie auf dem Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Vorschau-Optionen öffnen]**. Die Vorschauoptionen hängen von der Plattform ab, die in Ihrer [Code-basierten Konfiguration](code-based-configuration.md#create-code-based-configuration) ausgewählt wurde.
 
-1. Wenn Sie eine [Webplattform](code-based-configuration.md#web) in Ihrer code-basierten Konfiguration verwenden, wird das schreibgeschützte Feld **[!UICONTROL URL der Gerätevorschau]** mit der für die aktuelle Kanalkonfiguration eingegebenen URL vorausgefüllt.
+1. Wenn Sie eine [Web-Plattform](code-based-configuration.md#web) in Ihrer Code-basierten Konfiguration verwenden, wird das schreibgeschützte Feld **[!UICONTROL URL für die Gerätevorschau]** mit der für die aktuelle Kanalkonfiguration eingegebenen URL vorausgefüllt.
 
    ![](assets/preview-on-device-web.png)
 
-   Sie haben die Möglichkeit zum:
+   Sie haben folgende Möglichkeiten:
 
-   * Wählen Sie die Schaltfläche **[!UICONTROL Link kopieren]** aus und fügen Sie den Link in eine Browser-Registerkarte ein. Sie können den Link auch für Ihr Team und Interessengruppen freigeben, die eine Vorschau des neuen Erlebnisses in einem beliebigen Browser anzeigen können, bevor die Änderungen live gehen.
+   * Wählen Sie die Schaltfläche **[!UICONTROL Link kopieren]** aus und fügen Sie den Link in einen Browser-Tab ein. Sie können den Link auch für Ihr Team und Ihre Stakeholder freigeben, die sich eine Vorschau des neuen Erlebnisses in einem beliebigen Browser ansehen können, bevor die Änderungen live gehen.
 
-   * Klicken Sie auf **[!UICONTROL In neuer Registerkarte öffnen]** , um den Link in Ihrem aktuellen Browser zu öffnen.
+   * Klicken Sie auf **[!UICONTROL Auf neuer Registerkarte öffnen]**, um den Link in Ihrem aktuellen Browser zu öffnen.
 
-   * Überprüfen Sie den QR-Code mit Ihrem Mobilgerät, um den Vorschau-Link in einem mobilen Browser zu öffnen.
+   * Scannen Sie den QR-Code mit Ihrem Mobilgerät, um den Vorschau-Link in einem mobilen Browser zu öffnen.
 
-1. Wenn Sie [Mobilplattformen](code-based-configuration.md#mobile) (iOS/Android) in Ihrer code-basierten Konfiguration verwenden, wird das schreibgeschützte Feld **[!UICONTROL Deeplink]** mit dem Wert **[!UICONTROL Vorschau-URL]** ausgefüllt, der in der Kanalkonfiguration für die ausgewählte Plattform eingegeben wurde.
+1. Wenn Sie [mobile Plattformen](code-based-configuration.md#mobile) (iOS/Android) in Ihrer Code-basierten Konfiguration verwenden, wird das schreibgeschützte Feld **[!UICONTROL Deeplink]** mit dem Wert für **[!UICONTROL Vorschau-URL]** ausgefüllt, der in der Kanalkonfiguration für die ausgewählte Plattform eingegeben wurde.
 
-   Schalten Sie zwischen den Registerkarten **[!UICONTROL iOS]** und **[!DNL Android]** um, um eine Vorschau Ihres Erlebnisses für die Plattform Ihrer Wahl anzuzeigen.
+   Schalten Sie zwischen den Registerkarten **[!UICONTROL iOS]** und **[!DNL Android]** hin und her, um eine Vorschau Ihres Erlebnisses für die Plattform Ihrer Wahl anzuzeigen.
 
    ![](assets/preview-on-device-mobile.png)
 
-   Sie haben die Möglichkeit zum:
+   Sie haben folgende Möglichkeiten:
 
-   * Wählen Sie die Schaltfläche **[!UICONTROL Link kopieren]** aus und geben Sie den Link für Ihr Team und die Interessengruppen frei, die das neue Erlebnis in einem beliebigen mobilen Browser in der Vorschau ansehen können, bevor die Änderungen live gehen.
+   * Wählen Sie die Schaltfläche **[!UICONTROL Link kopieren]** aus und geben Sie den Link für Ihr Team und Ihre Stakeholder frei, die sich eine Vorschau des neuen Erlebnisses in einem beliebigen Browser ansehen können, bevor die Änderungen live gehen.
 
-   * Scannen Sie den QR-Code mit Ihrem Mobilgerät, um den Vorschau-Link direkt in der Mobile App zu öffnen. Sie müssen die PIN auf Ihrem Gerät eingeben, um die [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}-Sitzung einzurichten.
+   * Scannen Sie den QR-Code mit Ihrem Mobilgerät, um den Vorschau-Link direkt in der App zu öffnen.  Sie müssen die PIN auf Ihrem Gerät eingeben, um die [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}-Sitzung einzurichten.
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** ist ein Produkt aus Adobe Experience Cloud, mit dem Sie die Datenerfassung und Bereitstellung von Erlebnissen in Ihrer App überprüfen, testen, simulieren und überprüfen können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance** ist ein Produkt aus Adobe Experience Cloud, mit dem Sie die Datenerfassung und Bereitstellung von Erlebnissen in Ihrer App überprüfen, testen, simulieren und validieren können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
 
-1. Vorschau-Links werden für das ausgewählte Testprofil und, wenn Sie [Inhaltserstellung](../content-management/content-experiment.md) in Ihrer Journey oder Kampagne verwenden, für die ausgewählte Behandlung generiert.
+1. Vorschau-Links werden für das ausgewählte Testprofil und, wenn Sie [Inhaltsexperiment](../content-management/content-experiment.md) in Ihrer Journey oder Kampagne verwenden, für die ausgewählte Abwandlung generiert.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
@@ -212,13 +212,13 @@ Beim Erstellen code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Behandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Registerkarten kopieren und die Erlebnisse vergleichen.
+   Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Abwandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Tabs kopieren und die Erlebnisse vergleichen.
 
 ## Live-Schalten Ihres Code-basierten Erlebnisses {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
-> Wenn Ihre Kampagne einer Validierungsrichtlinie unterliegt, müssen Sie eine Validierung anfordern, um Ihre code-basierten Erlebnisse aktivieren zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+> Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Code-basierten Erlebnisse aktivieren zu können.  [Weitere Informationen](../test-approve/gs-approval.md)
 
 Nachdem Sie Ihr Code-basiertes Erlebnis definiert und Ihren Inhalt mit dem [Code-basierten Editor](#edit-code) nach Bedarf bearbeitet haben, können Sie Ihre Journey oder Kampagne aktivieren, um Ihre Änderungen für Ihre Zielgruppe sichtbar zu machen.
 
@@ -230,7 +230,7 @@ Sie können auch eine Vorschau Ihrer Code-basierten Erlebnisinhalte anzeigen, be
 >
 >Wenn mehrere Code-basierte Journeys oder Kampagnen dieselben Elemente Ihres Inhalts aktualisieren, hat die Journey/Kampagne mit der höchsten Priorität Vorrang.
 
-Sobald Ihre code-basierte Journey oder Kampagne live ist, ist Ihr App-Implementierungsteam dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten [code-basierten Erlebniskonfiguration](code-based-configuration.md) definierten Oberflächen abzurufen. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
+Sobald Ihre Code-basierte Journey oder Kampagne live ist, ist Ihr App-Implementierungs-Team dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten [Code-basierten Erlebniskonfiguration](code-based-configuration.md) definierten Oberflächen abzurufen. Weitere Informationen zu verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
 ### Veröffentlichen einer Code-basierten Journey {#publish-code-based-journey}
 
@@ -332,8 +332,6 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
-
-![](assets/code-based-campaign-global-report.png)
 
 Add image TBC
 

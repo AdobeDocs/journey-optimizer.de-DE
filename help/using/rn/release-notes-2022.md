@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Das Plug-in für die Integration von E-Mail-Designer mit Adobe Stock und Adobe Journey Optimizer bietet Kunden eine einfache Möglichkeit, zur Verwendung bei der Nachrichtenbearbeitung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue Option <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Weitere Informationen finden Sie in der <a href="../content-management/stock.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt die Funktion „E-Mail-BCC“ (Blind Carbon Copy) verwenden, um von Adobe Journey Optimizer gesendete E-Mails zu speichern. Aktivieren Sie diese Option in Ihren E-Mail-Voreinstellungen, damit jede gesendete E-Mail in Blindkopie an Ihre BCC-Adresse gesendet wird.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Weitere Informationen finden Sie in der <a href="../configuration/archiving-support.md#bcc-email">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt kanalübergreifende Geschäftsregeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Weitere Informationen finden Sie in der <a href="../configuration/frequency-rules.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt trainierte Modellsysteme im Entscheidungs-Management verwenden. Mit dieser neuen Funktion wird eine Rangliste der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt Aktionen überwachen, die von Benutzern auf Adobe Journey Optimizer-Ressourcen ausgeführt werden.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Weitere Informationen finden Sie in der <a href="../privacy/audit-logs.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
