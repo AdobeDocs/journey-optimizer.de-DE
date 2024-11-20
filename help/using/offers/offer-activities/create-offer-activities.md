@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 95%
@@ -308,7 +308,7 @@ Die findet folgendermaßen statt:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="Hinzufügen eines Facebook-Angebots"
+>title="Hinzufügen eines Fallback-Angebots"
 >abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird."
 
 Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird.
@@ -384,7 +384,7 @@ Sie können auch den Status mehrerer Entscheidungen gleichzeitig löschen oder �
 
 ![](../assets/decision_multiple-selection.png)
 
-Wenn Sie den Status mehrerer Entscheidungen mit unterschiedlichen Status ändern möchten, werden nur die relevanten Status geändert.
+Wenn Sie den Status mehrerer Entscheidungen mit unterschiedlichen Status ändern möchten, werden nur die entsprechenden Status geändert.
 
 ![](../assets/decision_change-status.png)
 
