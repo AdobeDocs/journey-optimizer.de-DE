@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 90%
+source-wordcount: '320'
+ht-degree: 80%
 
 ---
 
@@ -46,4 +46,8 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
    Detaillierte Informationen zum Arbeiten mit Adobe Experience Platform-Schemata sind im Abschnitt [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) zu finden.
 
-1. Sobald die gewünschten benutzerdefinierten Attribute hinzugefügt sind, speichern Sie das Schema. Das neue Feld ist jetzt im Erstellungsbildschirm zur Entscheidung für Elemente im Abschnitt **[!UICONTROL Benutzerdefinierte Attribute]** verfügbar.
+1. Sobald die gewünschten benutzerdefinierten Attribute hinzugefügt sind, speichern Sie das Schema. Das neue Feld ist jetzt im Bildschirm zur Entscheidungselement-Erstellung im Abschnitt **[!UICONTROL Benutzerdefinierte Attribute]** verfügbar.
+
+>[!NOTE]
+>
+>Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)

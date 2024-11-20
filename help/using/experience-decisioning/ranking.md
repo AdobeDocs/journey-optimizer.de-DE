@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 55%
+source-wordcount: '639'
+ht-degree: 47%
 
 ---
 
@@ -44,6 +44,12 @@ Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
    * [Ranking-Formeln](../offers/ranking/create-ranking-formulas.md)
    * [KI-Modelle](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >Die Verschachtelungstiefe in einer Rangformel ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte). [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+
+Eine Entscheidungspolitik unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
 +++ Optimieren von Modellen für benutzerdefinierte [!DNL Customer Journey Analytics]-Metriken
 

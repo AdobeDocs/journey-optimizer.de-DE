@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 55%
 
 ---
@@ -29,7 +29,7 @@ Um eine optimale Nutzung von Decisioning sicherzustellen, sollten Sie die folgen
 
 * **Angebotselemente**: Jede Artikelsammlung kann bis zu 500 Angebotselemente enthalten.
 * **Benutzerdefinierte Attribute**: Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten.
-* **Auswahlstrategien und manuelle Elemente pro Richtlinie**: Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und manuelle Elemente zusammen.
+* **Auswahlstrategien und Entscheidungselemente pro Richtlinie**: Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen.
 
 ### Eignungsregeln {#eligibility}
 
@@ -39,7 +39,7 @@ Um eine optimale Nutzung von Decisioning sicherzustellen, sollten Sie die folgen
 ### Ranking-Formeln {#ranking}
 
 * **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen.
-* **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies beträgt 8.000 ASCII-Zeichen (1 Byte pro Stück) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte).
+* **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte).
 
 ## Wichtige Schritte bei der Entscheidung {#steps}
 
