@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >Weitere Informationen dazu, wie die Domain und IPs ausgewählt werden können, die in einer E-Mail-Konfiguration verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Weitere Informationen dazu, wie die Domain und IPs ausgewählt werden können, die in einer E-Mail-Konfiguration verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
 
@@ -55,13 +55,17 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
 1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, wie z. B. das Definieren der Kampagneneigenschaften, der [Zielgruppe](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> und des [Inhalts](../email/get-started-email-design.md#key-steps).
 
-   Beachten Sie, dass Sie eine regelbasierte Zielgruppe für Ihre IP-Aufwärmkampagne auswählen müssen. [Weitere Informationen](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >In einer IP-Aufwärmekampagne zulässige Zielgruppen müssen [segmentbasiert](../audience/creating-a-segment-definition.md) sein und mithilfe der [standardmäßigen Zusammenführungsrichtlinie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} erstellt werden.
 
    Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
 1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie die Kampagne. Der Status ändert sich in **[!UICONTROL Live]**
 
-   Beachten Sie, dass Verfahrensregeln nicht für IP-Aufwärmplane verwendet werden sollten. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
+   >[!NOTE]
+   >
+   >[Geschäftsregeln](rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmspläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
 
    Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 
