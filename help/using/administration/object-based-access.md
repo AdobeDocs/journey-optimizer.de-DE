@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '460'
+ht-degree: 60%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >title="Kennzeichnungen zur Zugriffsverwaltung"
 >abstract="Sie können den Zugriff auf diese Kampagne anhand von Zugriffsbeschriftungen einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **Zugriff verwalten** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Beschriftungen auswählen, für die Sie berechtigt sind."
 
-Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
+Mit der Funktion Zugriffskontrolle auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten definieren:
 
 * Journey
 * Campaign
@@ -36,15 +36,13 @@ Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum 
 * Kanalkonfiguration
 * IP-Aufwärmplan
 
-Mit standardisierten Bezeichnungen können Sie Zielgruppen entsprechend ihrer Governance- und Zugriffskontrollrichtlinien kategorisieren. Beispielsweise kann mit einer Zielgruppenbeschriftung verhindert werden, dass eine Marke Mitglieder einer bestimmten Zielgruppe mit Onsite-Werbung anspricht.
-
 Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
 ## Voraussetzungen {#prereq-labels}
 
 Um [Beschriftungen erstellen](#create-labels) zu können, müssen Sie Teil einer Rolle sein, die über die Berechtigung **[!UICONTROL Nutzungsbezeichnungen verwalten]** verfügt.
 
-Um [Beschriftungen zuweisen](#assign-labels) zu können, müssen Sie Teil einer Rolle mit der Berechtigung **Verwalten** sein, d. h. [!DNL Manage journeys], [!DNL Manage Campaigns] oder [!DNL Manage decisions]. Ohne diese Berechtigung wird die Schaltfläche **[!UICONTROL Zugriff verwalten]** ausgegraut.
+Um [Beschriftungen zuweisen](#assign-labels) zu können, müssen Sie Teil einer Rolle mit der Berechtigung **Verwalten** sein, d. h. [!DNL Manage journeys], [!DNL Manage Campaigns] oder [!DNL Manage decisions]. Ohne diese Berechtigung ist die Schaltfläche **[!UICONTROL Zugriff verwalten]** grau ausgeblendet.
 
 Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
 

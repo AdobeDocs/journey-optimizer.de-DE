@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Über von einer API ausgelöste Kampagnen {#about}
 
-Mit [!DNL Journey Optimizer] können Sie Kampagnen erstellen und diese dann in einem externen System über eine [Interactive Message Execution REST-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) auslösen. Auf diese Weise können Sie diversen Bedarf an Marketing- und Transaktionsnachrichten abdecken, wie z. B. das Zurücksetzen von Passwörtern, OTP-Token usw.
+Mit [!DNL Journey Optimizer] können Sie Kampagnen erstellen und diese dann von einem externen System ausführen, das auf dem Trigger des Benutzers basiert, indem Sie die REST-API [Interaktive Nachrichtenausführung](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) verwenden. Auf diese Weise können Sie diversen Bedarf an Marketing- und Transaktionsnachrichten abdecken, wie z. B. das Zurücksetzen von Passwörtern, OTP-Token usw.
 
 Dazu müssen Sie zunächst in Journey Optimizer eine von einer API ausgelöste Kampagne erstellen und deren Ausführung dann über einen API-Aufruf starten.
 
