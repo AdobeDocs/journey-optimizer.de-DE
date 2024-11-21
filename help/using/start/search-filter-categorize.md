@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 >title="Tags"
 >abstract="Über dieses Feld können Sie Ihrer Kampagne einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste."
 
-Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journeys und Kampagnen in Journey Optimizer einfach klassifizieren, um die Suche über Listen zu verbessern.
+Mit Adobe Experience Platform [Einheitliche Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Objekte einfach klassifizieren, um die Listensuche zu verbessern.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+Durch das Hinzufügen aussagekräftiger Tags zu Zielgruppen in Journey Optimizer können Sie Zielgruppen später filtern und suchen, um sie leichter zu finden. Tags können außerdem verwendet werden, um Zielgruppen in relevanten, durchsuchbaren Ordnern zu organisieren, personalisierte Angebote und Erlebnisse zu erstellen und in Erlebnisentscheidungen zu verwenden.
 
-### Hinzufügen von Tags zu einem Objekt
+### Hinzufügen von Tags zu einem Objekt {#add-tags}
 
 Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. Tags sind für die folgenden Objekte verfügbar:
 
@@ -79,7 +80,7 @@ Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Ge
    >
    > Bei Tags wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf **[!UICONTROL „“ erstellen]**, um ein neues Objekt zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und für alle anderen Objekte verfügbar gemacht.
+1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf &quot;&quot;]**&quot;, um ein neues zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und steht für alle anderen Objekte zur Verfügung.**[!UICONTROL 
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Ge
 > 
 > Wenn Sie eine neue Version eines Objekts duplizieren oder erstellen, bleiben Tags erhalten.
 
-### Filtern nach Tags
+### Filtern nach Tags {#filter-on-tags}
 
 Jede Objektliste zeigt eine entsprechende Spalte an, sodass Sie Ihre Tags einfach visualisieren können.
 
@@ -101,7 +102,7 @@ Sie können Tags zu beliebigen Typen von Journeys oder Kampagnen (Live, Entwurf 
 
 ![](assets/tags3.png)
 
-### Verwalten von Tags
+### Verwalten von Tags {#manage-tags}
 
 Admins können Tags löschen und mithilfe des Menüs **[!UICONTROL Tags]** unter **[!UICONTROL ADMINISTRATION]** nach Kategorien organisieren. Weitere Informationen über die Verwaltung von Tags finden Sie in der [Dokumentation zu einheitlichen Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=de).
 
