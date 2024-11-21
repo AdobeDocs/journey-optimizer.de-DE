@@ -11,8 +11,8 @@ keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkei
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definieren einer BCC-E-Mail-Adresse"
->abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass sich die Domain der BCC-Adresse von jeder an Adobe delegierten Subdomain unterscheiden muss.  Diese Funktion ist optional."
+>abstract="Eine Kopie der gesendeten E-Mails kann aufbewahrt werden, indem sie an einen BCC-Posteingang gesendet wird. Gewünschte E-Mail-Adresse eingeben, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Die Domain der BCC-Adresse muss sich von jeder an Adobe delegierten Subdomain unterscheiden.  Diese Funktion ist optional."
 
 Sie können eine Blindkopie (BCC) einer von [!DNL Journey Optimizer] gesendeten E-Mail an eine spezielle BCC-Adresse senden.  Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzerinnen und Benutzern zu Zwecken der Einhaltung der Vorschriften und/oder Archivierung senden. Die BCC-Adresse ist für andere Empfängerinnen und Empfänger der Nachricht nicht sichtbar.
 

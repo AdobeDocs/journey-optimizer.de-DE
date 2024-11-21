@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1341'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen einer Abmelde-URL in der Kopfzeile der E-Mail"
->abstract="Aktivieren Sie „Abmelde-Link in Kopfzeile“, um eine Abmelde-URL zur Kopfzeile der E-Mail hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen Link zum Abmelden mit einem Klick in den Inhalt der E-Mail ein."
+>abstract="„Abmelde-Link in Kopfzeile“ aktivieren, um eine Abmelde-URL zur Kopfzeile der E-Mail hinzuzufügen. Zum Einrichten einer Abmelde-URL einen Link zum Abmelden mit einem Klick in den Inhalt der E-Mail einfügen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#one-click-opt-out" text="Opt-out mit einem Klick"
 
 Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. Wenn in Adobe Journey Optimizer die Option **Abmelde-Link aktivieren** aktiviert ist, enthält die Kopfzeile der E-Mail standardmäßig sowohl einen Mailto-Link als auch eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.

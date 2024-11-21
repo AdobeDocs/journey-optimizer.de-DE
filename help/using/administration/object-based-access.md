@@ -11,8 +11,8 @@ keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierun
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

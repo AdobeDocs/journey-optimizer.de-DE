@@ -11,8 +11,8 @@ keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

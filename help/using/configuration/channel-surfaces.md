@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
-workflow-type: ht
-source-wordcount: '1737'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Sie können auch die Anleitung zur Kanaleinrichtung verwenden, um die Kanaleinri
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Einstellungen der Kanalkonfiguration"
->abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanalkonfiguration erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten von Nachrichtenvoreinstellungen verfügen, um Kanalkonfigurationen zu erstellen, zu bearbeiten und zu löschen."
+>abstract="Damit Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellt werden können, muss zunächst eine Kanalkonfiguration erstellt werden, die alle für die Nachrichten erforderlichen technischen Parameter definiert. Für das Erstellen, Bearbeiten und Löschen von Kanalkonfigurationen wird die Berechtigung zum Verwalten von Nachrichtenvoreinstellungen benötigt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"

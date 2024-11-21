@@ -11,8 +11,8 @@ keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Die E-Mail-Konfiguration wird nach der folgenden Logik für das Senden von Nachr
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definieren des E-Mail-Typs"
->abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Konfiguration gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
+>abstract="Typ der E-Mails auswählen, die bei Verwendung dieser Konfiguration gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
 Wählen Sie im Abschnitt **E-Mail-Typ** die Art der Nachricht für die Konfiguration aus: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
 
@@ -238,7 +238,7 @@ Wenn diese Option aktiviert ist, kann eine Kundin bzw. ein Kunde zwar Ihre Marke
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Testadressenliste hinzufügen"
->abstract="Wählen Sie die Testadressenliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
+>abstract="Gewünschte Testadressenliste auswählen, um den Zielgruppen automatisch bestimmte interne Adressen zu hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
 
 Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
