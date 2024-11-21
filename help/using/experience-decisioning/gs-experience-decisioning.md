@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 55%
+source-wordcount: '609'
+ht-degree: 45%
 
 ---
 
@@ -69,14 +69,28 @@ Die wichtigsten Schritte für die Arbeit mit Decisioning sind:
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
+   ➡️ [Erfahren Sie, wie Sie den Elementkatalog konfigurieren](catalogs.md)
+
 1. **Entscheidungselemente erstellen**, um die Zielgruppe anzuzeigen.
+
+   ➡️ [Erfahren Sie, wie Sie Entscheidungselemente erstellen](items.md) ([API-Dokumentation](api-reference/decisions-items/create.md))
 
 1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 
+   ➡️ [Erfahren Sie, wie Sie Elementkollektionen verwalten](collections.md) ([API-Dokumentation](api-reference/items-collections/create.md))
+
 1. **Entscheidungsregeln erstellen**: Entscheidungsregeln werden in Entscheidungselementen und/oder Auswahlstrategien verwendet, um zu bestimmen, wem ein Entscheidungselement angezeigt werden kann.
+
+   ➡️ [Erfahren Sie, wie Sie Entscheidungsregeln erstellen](rules.md)
 
 1. **Rangfolgemethoden implementieren**: Erstellen Sie Rangfolgemethoden und wenden Sie diese innerhalb von Entscheidungsstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen festzulegen.
 
+   ➡️ [Erfahren Sie, wie Sie Rangmethoden erstellen](ranking.md)
+
 1. **Auswahlstrategien erstellen**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangfolgemethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 
-1. **Eine Entscheidungsrichtlinie in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
+   ➡️ [Erfahren Sie, wie Sie Auswahlstrategien erstellen](selection-strategies.md) ([API-Dokumentation](api-reference/selection-strategies/create.md))
+
+1. **Erstellen Sie eine Entscheidungsrichtlinie und betten Sie sie in Ihre code-basierte Kampagne ein**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden Entscheidungselemente zu bestimmen.
+
+   ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)

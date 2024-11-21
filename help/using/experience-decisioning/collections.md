@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Mit Sammlungen können Entscheidungselemente nach den eigenen Vorstellungen kate
 
 Angenommen, Sie haben dem Katalogschema Ihrer Entscheidungselemente das benutzerdefinierte Attribut „Kategorie“ hinzugefügt. Auf diese Weise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im Attribut „Kategorie“ enthält.
 
-Die Liste der Sammlungen ist über das Menü **[!UICONTROL Kataloge]** zugänglich.
+Auf die Liste der Sammlungen kann über das Menü **[!UICONTROL Kataloge]** zugegriffen werden.
 
 Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
