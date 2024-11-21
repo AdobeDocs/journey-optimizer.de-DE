@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 69%
+ht-degree: 73%
 
 ---
 
@@ -113,12 +113,12 @@ Ihr Übersetzungsprojekt ist jetzt erstellt und kann in einer mehrsprachigen Kam
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Benutzerdefinierte bedingte Einstellungen"
->abstract="Benutzerdefinierte bedingte Einstellungen sind Regelsätze, die basierend auf bestimmten Kriterien festlegen, in welchem Gebietsschema Ihr Inhalt angezeigt wird. Diese Einstellungen geben Ihnen die Kontrolle über die Inhaltsanzeige basierend auf Faktoren wie Standort des Benutzers, Spracheinstellungen oder anderen kontextbezogenen Elementen."
+>abstract="Benutzerdefinierte bedingte Einstellungen sind Regelsätze, die basierend auf bestimmten Kriterien festlegen, in welchem Gebietsschema Ihr Inhalt angezeigt wird. Diese Einstellungen geben Ihnen die Kontrolle über die Inhaltsanzeige basierend auf Faktoren wie Benutzerstandort, Spracheinstellungen oder anderen kontextbezogenen Elementen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Fallback-Einstellungen"
->abstract="Die Auswahl einer Fallback-Voreinstellung ist für die Verbesserung des Benutzererlebnisses von entscheidender Bedeutung. Wenn kein Fallback ausgewählt ist und ein Profil die erforderlichen Anforderungen nicht erfüllt, werden keine Inhalte bereitgestellt. Durch Auswahl eines geeigneten Fallback-Objekts stellen Sie eine konsistente Inhaltsbereitstellung sicher, auch wenn Profile nicht den ursprünglichen Kriterien entsprechen."
+>abstract="Die Auswahl einer Fallback-Voreinstellung ist für die Verbesserung des Benutzererlebnisses von entscheidender Bedeutung. Wenn kein Fallback ausgewählt ist und ein Profil die erforderlichen Anforderungen nicht erfüllt, werden keine Inhalte bereitgestellt. Durch Auswahl eines geeigneten Fallbacks stellen Sie eine konsistente Inhaltsbereitstellung sicher, auch wenn Profile nicht den ursprünglichen Kriterien entsprechen."
 
 In diesem Abschnitt können Sie Ihre unterschiedlichen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten
 

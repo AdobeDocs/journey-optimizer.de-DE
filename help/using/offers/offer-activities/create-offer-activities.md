@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -34,8 +34,8 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Details zur Angebotsentscheidung"
->abstract="Geben Sie den Namen der Entscheidung an und definieren Sie bei Bedarf Start- und Enddatum sowie -zeit. Um der Entscheidung benutzerdefinierte oder Kerndatennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus."
+>title="Details zu Angebotsentscheidungen"
+>abstract="Geben Sie den Namen der Entscheidung an und definieren Sie bei Bedarf Datum und Uhrzeit von Start und Ende. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. "
 
 1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
 
@@ -52,17 +52,17 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Entscheidungsumfänge"
->abstract="Konfigurieren Sie einen oder mehrere Bereiche für die Angebotsentscheidung, um die anzuzeigenden Angebote zu bestimmen. Dies geschieht durch Auswahl einer Platzierung und eines zugehörigen Bewertungskriteriums für diese Platzierung."
+>abstract="Konfigurieren Sie einen oder mehrere Umfänge für die Angebotsentscheidung, um die anzuzeigenden Angebote zu bestimmen. Dies geschieht durch Auswahl einer Platzierung und eines zugehörigen Auswertungskriteriums für diese Platzierung."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Platzierung"
->abstract="Platzierung wählen, in der die Angebote unterbreitet werden sollen."
+>abstract="Wählen Sie eine Platzierung aus, an der Angebote bereitgestellt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Auswertungskriterien"
->abstract="Bewertungskriterien bestehen aus einer Angebotskollektion, die mit einer Eignungsbegrenzung und einer Rangliste verknüpft ist, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden. Die Reihenfolge der Bewertungskriterien bestimmt, welche Sammlung zuerst bewertet wird. Es ist mindestens ein Bewertungskriterium erforderlich."
+>abstract="Ein Auswertungskriterium besteht aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden. Die Abfolge der Auswertungskriterien bestimmt, welche Sammlung zuerst ausgewertet wird. Es ist mindestens ein Auswertungskriterium erforderlich."
 
 1. Wählen Sie eine Platzierung aus der Dropdown-Liste aus. Sie wird zum ersten Entscheidungsumfang in Ihrer Entscheidung hinzugefügt.
 

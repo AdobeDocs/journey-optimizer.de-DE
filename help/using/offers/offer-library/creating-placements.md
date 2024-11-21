@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
->title="Anfrageeinstellungen"
->abstract="Aktivieren Sie die Option **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** , damit das System dasselbe Angebot für mehrere Platzierungen berücksichtigt. Passen Sie mithilfe des Felds **[!UICONTROL Angebot anfordern]** die Anzahl der zurückgegebenen Angebote an. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt."
+>title="Anforderungseinstellungen"
+>abstract="Aktivieren Sie die Option **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]**, damit das System dasselbe Angebot für mehrere Platzierungen berücksichtigt. Passen Sie mithilfe des Felds **[!UICONTROL Angebot anfordern]** die Anzahl der zurückgegebenen Angebote an. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"

@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,12 +42,12 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Personalisiertes Angebot"
->abstract="Ein personalisiertes Angebot ist eine anpassbare Nachricht, die auf Eignungsregeln und Beschränkungen basiert."
+>abstract="Ein personalisiertes Angebot ist eine anpassbare Botschaft, die auf Eignungsregeln und Einschränkungen aufbaut."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="Fallback-Angebot"
->abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote geeignet ist."
+>abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn Endbenutzende für keines der personalisierten Angebote in der Sammlung geeignet sind."
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 

@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Journey-Ereignisse"
->abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person in Verbindung gebracht wird (z. B. eine Person hat 10 000 Treuepunkte erreicht). Diese Ereignisse werden von Journey Optimizer in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren."
+>abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10 000 Treuepunkte erreicht). Diese Ereignisse werden von Journey Optimizer in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren."
 
 Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL Journey Optimizer] als Ereignisse erhält. Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden.
 
