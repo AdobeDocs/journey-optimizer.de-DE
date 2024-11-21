@@ -286,7 +286,7 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="Definieren der URL-Tracking-Parameter"
->abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen URLs anzuhängen. Diese Funktion ist optional."
+>abstract="Diesen Abschnitt verwenden, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen URLs anzuhängen. Diese Funktion ist optional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"

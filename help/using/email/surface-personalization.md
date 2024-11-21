@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglich
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Aktivieren dynamischer Subdomains"
->abstract="Beim Erstellen einer E-Mail-Konfiguration können Sie dynamische Subdomains basierend auf Bedingungen einrichten, die Sie mit dem Personalisierungseditor definieren. Sie können bis zu 50 dynamische Subdomains hinzufügen."
+>abstract="Beim Erstellen einer E-Mail-Konfiguration können dynamische Subdomains basierend auf Bedingungen eingerichtet werden, die mit dem Personalisierungseditor definiert werden. Bis zu 50 dynamische Subdomains können hinzugefügt werden."
 
 Bei der Erstellung einer E-Mail-Konfiguration können Sie dynamische Subdomains basierend auf bestimmten Bedingungen einrichten.
 
