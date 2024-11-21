@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 96%
 
 ---
 
@@ -34,10 +34,11 @@ Zu den Vorteilen zählen:
 
 ➡️ [Weitere Informationen zum Entscheidungs-Management finden Sie in diesen Videos](#video)
 
+## Wichtige Informationen {#must-read}
 
->[!NOTE]
->
->Wenn Sie in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} die Anwendung **Offer Decisioning** nutzen, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
+* Derzeit unterstützt die Entscheidungsverwaltung diese Funktionen nicht: Zugriffskontrolle auf Objektebene, Zugriffskontrolle auf Feldebene und Dienst zur Durchsetzung von Einwilligungsrichtlinien. Wenn Sie eine dieser Funktionen verwenden möchten, sollten Sie die Funktion Journey Optimizer [Decisioning](../../experience-decisioning/gs-experience-decisioning.md) in Erwägung ziehen.
+
+* Wenn Sie in [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} die Anwendung **Offer Decisioning** nutzen, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
