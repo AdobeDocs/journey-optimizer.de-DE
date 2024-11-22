@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform-Daten für die Personalisierung verwenden (Beta)
+title: Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Personalisierung verwenden.
 feature: Personalization, Rules
 topic: Personalization
@@ -10,47 +10,47 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: cb7842209e03c579904979480304e543a6b50f50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1015'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform-Daten für die Personalisierung verwenden (Beta) {#aep-data}
+# Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta) {#aep-data}
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kunden als öffentliche Beta-Version zur Verfügung.
+>Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung.
 >
->Um diese Funktion verwenden zu können, müssen Sie zunächst Beta-Begriffe für Ihre Organisation akzeptieren, die beim Hinzufügen der neuen Hilfsfunktionen &quot;datasetLookup&quot;im Personalisierungs-Editor angezeigt werden.
+>Um diese Funktion verwenden zu können, müssen Sie zunächst die Bedingungen der Beta-Version für Ihre Organisation akzeptieren, die beim Hinzufügen der neuen Hilfsfunktionen „datasetLookup“ im Personalisierungseditor angezeigt werden.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Dazu müssen für die Lookup-Personalisierung benötigte Datensätze zunächst über einen API-Aufruf aktiviert werden, wie unten beschrieben. Danach können Sie ihre Daten verwenden, um Ihren Inhalt in [!DNL Journey Optimizer] zu personalisieren.
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
 
-## Beta-Einschränkungen und -Richtlinien {#guidelines}
+## Einschränkungen und Richtlinien der Beta-Version {#guidelines}
 
-Bevor Sie beginnen, lesen Sie bitte die folgenden Einschränkungen und Richtlinien durch:
+Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
 
 ### Aktivierung von Datensätzen {#enablement}
 
-* **Datensatzgröße** ist für Produktionsdatensätze auf 5 GB und für Entwicklungs-Sandbox-Datensätze auf 1 GB beschränkt
-* **Maximal 50 Datensätze können jederzeit für die Suche pro Organisation aktiviert werden**.
-* **Anzahl der Datensätze** ist in Produktionssätzen auf 5 M und in Entwicklungs-Sandbox-Datensätzen auf 1 M beschränkt.
-* **Beschriftung und Durchsetzung der Datennutzung** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
-* **Datensätze, die für die Suche aktiviert und in der Personalisierung verwendet werden, sind nicht vom Löschen geschützt**. Sie müssen verfolgen, welche Datensätze für die Personalisierung verwendet werden, um sicherzustellen, dass sie nicht gelöscht oder entfernt werden.
+* Die **Datensatzgröße** ist für Produktionsdatensätze auf 5 GB und für Entwicklungs-Sandbox-Datensätze auf 1 GB beschränkt.
+* **Es können jeweils maximal 50 Datensätze** pro Organisation für die Suche aktiviert werden.
+* Die **Anzahl der Einträge** ist in Produktionsdatensätzen auf 5 Millionen und in Entwicklungs-Sandbox-Datensätzen auf 1 Million beschränkt.
+* **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
+* **Datensätze, die für die Suche aktiviert sind und bei der Personalisierung verwendet werden, sind nicht vor Löschvorägngen geschützt**. Sie müssen den Überblick darüber behalten, welche Datensätze für die Personalisierung verwendet werden, um sicherzustellen, dass sie nicht gelöscht oder entfernt werden.
 
-### Personalization mit [!DNL Adobe Experience Platform] -Daten {#perso}
+### Personalisierung mithilfe der Daten aus [!DNL Adobe Experience Platform] {#perso}
 
-* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung in E-Mail-, SMS-, Push- und Briefpost-Kanälen verfügbar.
-* **Beschriftung und Durchsetzung der Datennutzung** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
+* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung in den Kanälen „E-Mail“, „SMS“, „Push-Benachrichtigung“ und „Direkt-Mail“ verfügbar.
+* **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
 * **Ausdrucksfragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten platziert werden.
 
-## Datensatz für die Datensuche aktivieren {#enable}
+## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
-Um Daten aus Ihrem Datensatz zur Personalisierung nutzen zu können, müssen Sie einen API-Aufruf verwenden, um seinen Status abzurufen und den Lookup-Dienst zu aktivieren.
+Um Daten aus Ihrem Datensatz für die Personalisierung nutzen zu können, müssen Sie einen API-Aufruf verwenden, um seinen Status abzurufen und den Suchdienst zu aktivieren.
 
 ### Voraussetzungen {#prerequisites-enable}
 
-* Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) , um Ihre Umgebung zum Senden von API-Befehlen zu konfigurieren.
+* Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/), um Ihre Umgebung für das Senden von API-Befehlen zu konfigurieren.
 * Für das Entwicklerprojekt müssen die Adobe Journey Optimizer- und Adobe Experience Platform-APIs zum Projekt hinzugefügt werden.
 
   ![](assets/aep-data-api.png)
@@ -66,17 +66,17 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 Dabei gilt:
 
-* **URL** ist `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
-* **Datensatz-ID** ist der Datensatz, für den Sie aktivieren möchten.
-* **Aktion** ist aktiviert ODER deaktiviert.
-* **Zugriffstoken** kann aus der Entwicklerkonsole abgerufen werden.
-* **API-Schlüssel** kann aus der Entwicklerkonsole abgerufen werden.
-* **IMS-Organisations-ID** ist Ihre Adobe IMS-ORG.
-* **Sandbox-Name** ist der Sandbox-Name des Datensatzes (d. h. prod, dev usw.).
+* Die **URL** lautet `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* **Dataset ID** ist der Datensatz, den Sie aktivieren möchten.
+* **Action** ist „Aktivieren“ ODER „Deaktivieren“.
+* **Access token** kann aus der Developer Console abgerufen werden.
+* **API Key** kann aus der Developer Console abgerufen werden.
+* **IMS Org ID** ist Ihre Adobe IMS ORG.
+* **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev).
 
-## Datensatz für die Personalisierung nutzen {#leverage}
+## Verwenden eines Datensatzes für die Personalisierung {#leverage}
 
-Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der Suche aktiviert wurde, können Sie seine Daten verwenden, um Ihren Inhalt in [!DNL Journey Optimizer] zu personalisieren.
+Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der Suche aktiviert wurde, können Sie seine Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
 
 1. Öffnen Sie den Personalisierungseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
 
@@ -95,13 +95,13 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      >[!NOTE]
      >
-     >Der für dieses Feld eingegebene Wert kann entweder eine Feld-ID (*profile.packages.packageSKU*), ein Feld, das in einem Journey-Ereignis (*context.Journey.events.event_ID.productSKU*) übergeben wird, oder ein statischer Wert (*sku07653*) sein. In jedem Fall verwendet das System den Wert und sucht in den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
+     >Der für dieses Feld eingegebene Wert kann entweder eine Feld-ID (*profile.packages.packageSKU*), ein in einem Journey-Ereignis übergebenes Feld (*context.journey.events.event_ID.productSKU*) oder ein statischer Wert (*sku007653*) sein. In jedem Fall verwendet das System den Wert und durchsucht den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
      >
-     >Wenn Sie einen Zeichenfolgenwert in Textform für den Schlüssel verwenden, behalten Sie den Text in Anführungszeichen. Beispiel: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Wenn Sie einen Attributwert als dynamischen Schlüssel verwenden, entfernen Sie die Anführungszeichen. Beispiel: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
+     >Wenn Sie einen Zeichenfolgenwert in Textform für den Schlüssel verwenden, lassen Sie den Text in Anführungszeichen stehen. Beispiel: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Wenn Sie einen Attributwert als dynamischen Schlüssel verwenden, entfernen Sie die Anführungszeichen. Beispiel: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
    * **result** ist ein beliebiger Name, den Sie angeben müssen, um auf alle Feldwerte zu verweisen, die Sie aus dem Datensatz abrufen wollen. Dieser Wert wird in Ihrem Code verwendet, um jedes Feld aufzurufen.
 
-   * **required=false**: Wenn &quot;TRUE&quot;erforderlich ist, wird die Nachricht nur gesendet, wenn ein übereinstimmender Schlüssel gefunden wird. Wenn der Wert auf &quot;false&quot;gesetzt ist, ist kein übereinstimmender Schlüssel erforderlich und die Nachricht kann trotzdem zugestellt werden. Beachten Sie, dass bei Festlegung auf &quot;false&quot;empfohlen wird, Fallback- oder Standardwerte in Ihrem Nachrichteninhalt zu berücksichtigen.
+   * **required=false**: Wenn „required“ auf „TRUE“ gesetzt ist, wird die Nachricht nur gesendet, wenn ein übereinstimmender Schlüssel gefunden wird. Wenn der Wert auf „false“ gesetzt ist, ist kein übereinstimmender Schlüssel erforderlich, um die Nachricht zuzustellen.  Beachten Sie, dass bei Festlegung auf „false“ empfohlen wird, Fallback- oder Standardwerte in Ihrem Nachrichteninhalt zu berücksichtigen.
 
    +++Wo kann ich eine Datensatz-ID abrufen?
 
@@ -129,10 +129,10 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    >[!NOTE]
    >
-   >Stellen Sie beim Referenzieren eines Datensatzfelds sicher, dass Sie mit dem vollständigen Feldpfad, der im Schema definiert ist, übereinstimmen.
+   >Stellen Sie bei Verweisen auf ein Datensatzfeld sicher, dass der Verweis mit dem vollständigen Feldpfad, der im Schema definiert ist, übereinstimmt.
 
    * **result** ist der Wert, den Sie dem Parameter **result** in der Hilfsfunktion **MultiEntity** zugewiesen haben. In diesem Beispiel „Flug“.
-   * **fieldID** ist die ID des Feldes, das Sie abrufen möchten. Diese ID ist in der Benutzeroberfläche von [!DNL Adobe Experience Platform] sichtbar, wenn Sie das Datensatzschema durchsuchen, das mit Ihrem Datensatz verknüpft ist:
+   * **fieldID** ist die ID des Feldes, das Sie abrufen möchten. Diese ID ist in der Benutzeroberfläche von [!DNL Adobe Experience Platform] sichtbar, wenn Sie das Eintragschema durchsuchen, das mit Ihrem Datensatz verknüpft ist:
 
      +++Wo kann ich eine Feld-ID abrufen?
 

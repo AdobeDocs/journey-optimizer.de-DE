@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1183'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 * Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen [hier](#delivery-prerequisites) detailliert definieren.
 
-* Um die Berichterstellung für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass der in Ihrem Webimplementierungsdatenstrom verwendete Datensatz auch in Ihrer Berichtskonfiguration enthalten ist. [Weitere Informationen](#experiment-prerequisites)
+* Um das Reporting für den Web-Kanal zu aktivieren, müssen Sie sicherstellen, dass der Datensatz, der im Datenstrom Ihrer Web-Implementierung verwendet wird, auch in Ihrer Reporting-Konfiguration enthalten ist.  [Weitere Informationen](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
->[!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der interagierbaren Profile, was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen interagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket werden auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt. Sie können die Anzahl der interagierbaren Profile im [Dashboard zur Lizenznutzung](../audience/license-usage.md) überprüfen.
+>Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die im Vertrag festgelegte Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Dashboard zur Lizenznutzung](../audience/license-usage.md) überprüfen.
 >
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
@@ -44,7 +44,7 @@ Es werden zwei Arten von Implementierungen unterstützt, um die Erstellung und d
 
 >[!NOTE]
 >
->Die Nur-Server-seitige Implementierung wird derzeit im Webkanal nicht unterstützt. Wenn Sie nur eine serverseitige Implementierung für Ihre Webseiten haben, können Sie stattdessen den [code-basierten Erlebniskanal](../code-based/get-started-code-based.md) verwenden.
+>Die nur Server-seitige Implementierung wird derzeit für den Web-Kanal nicht unterstützt.  Bei einer nur Server-seitigen Implementierung für Ihre Web-Seiten kann stattdessen der [Code-basierte Erlebniskanal](../code-based/get-started-code-based.md) verwendet werden.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
@@ -140,13 +140,13 @@ Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-dat
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
-Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden für die Berichterstellung von [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journey jedes Profil teilnimmt.
+Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} **nicht** für Ihr Datensatzschema verwenden: `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert), dann stellen Sie sicher, dass Sie die folgenden Feldgruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting in [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journeys die einzelnen Profile teilnehmen.
 
 [Erfahren Sie mehr über die Reporting-Konfiguration](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, auf denen eine Kampagne oder Journey ausgeführt wird, sodass alle anderen Tracking-Aktivitäten unberührt bleiben.
+>Das Hinzufügen dieser Feldgruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen eine Kampagne oder Journey ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 

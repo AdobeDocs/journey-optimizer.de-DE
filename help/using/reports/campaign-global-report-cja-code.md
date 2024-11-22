@@ -2,19 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Code-basierte Daten aus dem Campaign-Bericht verwenden.
+description: Informationen zum Verwenden von Code-basierten Daten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
-workflow-type: tm+mt
+exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Codebasierter Kampagnenbericht {#campaign-global-report-cja-code}
+# Code-basierter Kampagnenbericht {#campaign-global-report-cja-code}
 
 ## Anzeigen und Klicken {#impressions-code}
 
@@ -72,19 +73,19 @@ Die Tabelle **[!UICONTROL Labels getrackter Links]** bietet einen umfassenden Ü
 
 +++
 
-## KPIs für Entscheidungen {#decisioning-kpis}
+## Entscheidungsfindungs-KPIs {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
-Die **Entscheidungs-KPIs** bieten wichtige Einblicke in die Interaktion Ihrer Besucher mit Ihren Erlebnissen, einschließlich Metriken wie:
+Die **Entscheidungsfindungs-KPIs** bieten wichtige Einblicke in die Interaktion von Besuchenden mit Ihren Erlebnissen, einschließlich folgender Metriken:
 
 * **[!UICONTROL Elemente insgesamt]**: Gesamtzahl der einzelnen Elemente, die innerhalb eines bestimmten Zeitraums Teil eines personalisierten Erlebnisses oder Entscheidungsprozesses waren.
 
-* **[!UICONTROL Gesamtanzahl der Anzeigen]**:
+* **[!UICONTROL Anzeigen insgesamt]**:
 
-* **[!UICONTROL Klicks insgesamt]**: Gesamtzahl der Klicks auf Elemente, Links, Produkte oder andere interaktive Elemente in einem bestimmten Zeitraum durch Benutzer.
+* **[!UICONTROL Klicks insgesamt]**: Häufigkeit, mit der  Benutzende Klicks in einem bestimmten Zeitraum auf Elemente, Links, Produkte oder andere interaktive Elemente ausgeführt haben.
 
-* **[!UICONTROL Fallback-Rate]**: Prozentsatz der Instanzen, bei denen keine Auswahlstrategien qualifiziert wurden, was zur Anzeige einer generischen oder weniger spezifischen Option führte.
+* **[!UICONTROL Fallback-Rate]**: Prozentsatz der Instanzen, bei denen keine Auswahlstrategien infrage kamen, was zur Anzeige einer generischen oder weniger spezifischen Option führte.
 
 ## Interaktionstrichter {#engagement-funnel}
 
@@ -92,70 +93,70 @@ Die **Entscheidungs-KPIs** bieten wichtige Einblicke in die Interaktion Ihrer Be
 
 Die Tabelle **[!UICONTROL Interaktionstrichter]** überwacht die Leistung personalisierter Erlebnisse, indem sie bewertet, wie effektiv jede Phase des Trichters Benutzerinteraktionen fördert.
 
-* **[!UICONTROL Anzeigen]**: Gesamtzahl der Anzeige oder Präsentation personalisierter Erlebnisse für Benutzer über verschiedene Touchpoints.
+* **[!UICONTROL Anzeigen]**: Häufigkeit, mit der personalisierter Erlebnisse für Benutzende über verschiedene Touchpoints angezeigt oder präsentiert wurden.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf personalisierte Erlebnisse durch Benutzer, die ihnen angezeigt wurden.
+* **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-## Top-Entscheidungselemente nach Clickthrough-Rate {#top-decision}
+## Wichtigste Entscheidungselemente nach Clickthrough-Rate {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
-Die Tabelle **[!UICONTROL Top-Entscheidungselemente nach CTR]** zeigt die Leistung einzelner Elemente basierend auf ihrer Clickthrough-Rate an. Diese Metrik hilft zu beurteilen, welche Elemente am effektivsten sind, um Benutzer zu erreichen und Interaktionen zu fördern.
+Die Tabelle **[!UICONTROL Wichtigste Entscheidungselemente nach CTR]** zeigt die Leistung einzelner Elemente basierend auf ihrer Clickthrough-Rate an. Diese Metrik hilft bei der Beurteilung, welche Elemente am effektivsten sind, um Benutzende zu erreichen und Interaktionen zu fördern.
 
-* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentualer Anteil der Benutzer, die auf einen Link, eine Anzeige oder eine Empfehlung klicken, in Bezug auf die Anzahl der angezeigten Links.
+* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentualer Anteil der Benutzenden, die auf einen Link, eine Werbeanzeige oder eine Empfehlung klicken, verglichen mit der Häufigkeit, mit der Links, Werbeanzeigen oder der Empfehlungen angezeigt wurden.
 
 ## Interaktionstrichter nach Auswahlstrategie {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-Mithilfe der Tabelle **[!UICONTROL Interaktionsrichter nach Auswahlstrategie]** können Sie überwachen und analysieren, wie effektiv verschiedene Auswahlstrategien Benutzer mit personalisierten Erlebnissen ansprechen.
+Mithilfe der Tabelle **[!UICONTROL Interaktionsrichter nach Auswahlstrategie]** können Sie die Effektivität überwachen und analysieren, mit der verschiedene Auswahlstrategien Benutzende mit personalisierten Erlebnissen ansprechen.
 
-* **[!UICONTROL Anzeigen]**: Gesamtzahl der Anzeige oder Präsentation personalisierter Erlebnisse für Benutzer über verschiedene Touchpoints.
+* **[!UICONTROL Anzeigen]**: Häufigkeit, mit der personalisierter Erlebnisse für Benutzende über verschiedene Touchpoints angezeigt oder präsentiert wurden.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf personalisierte Erlebnisse durch Benutzer, die ihnen angezeigt wurden.
+* **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-## Performance von Entscheidungselementen {#decision-items-performance}
+## Leistung der Entscheidungselemente {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
-Die Tabelle **[!UICONTROL Leistung bei Entscheidungselementen]** gibt Aufschluss darüber, wie gut die einzelnen Elemente funktionieren, um Benutzer anzusprechen und die gewünschten Aktionen zu fördern, z. B. Käufe, Klicks oder andere Antworten.
+In der Tabelle **[!UICONTROL Leistung bei Entscheidungselementen]** wird ausgewertet, wie gut die einzelnen Elemente Benutzende ansprechen und die gewünschten Aktionen fördern, z. B. Käufe, Klicks oder andere Reaktionen.
 
-* **[!UICONTROL Anzeigen]**: Gesamtzahl der Anzeige oder Präsentation personalisierter Erlebnisse für Benutzer über verschiedene Touchpoints.
+* **[!UICONTROL Anzeigen]**: Häufigkeit, mit der personalisierter Erlebnisse für Benutzende über verschiedene Touchpoints angezeigt oder präsentiert wurden.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf personalisierte Erlebnisse durch Benutzer, die ihnen angezeigt wurden.
+* **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
 ## Rangfolgestrategie {#ranking-strategy}
 
 >[!NOTE]
 >
->Die Tabelle **[!UICONTROL Rangstrategie]** wird nur verfügbar, wenn ein KI-Modell in die Kampagne integriert ist. [Weitere Informationen](../experience-decisioning/ranking.md)
+>Die Tabelle **[!UICONTROL Rangfolgestrategie]** wird nur verfügbar, wenn ein KI-Modell in die Kampagne integriert ist. [Weitere Informationen](../experience-decisioning/ranking.md)
 
 ![](assets/cja-decision-ranking-strategy.png)
 
-Die Tabelle **[!UICONTROL Ranking Strategy]** bietet Einblicke in die Leistung von KI-gestützten Rangmodellen innerhalb personalisierter Erlebnisse, die zwei Traffic-Typen vergleichen:
+Die Tabelle **[!UICONTROL Rangfolgestrategie]** bietet Einblicke in die Leistung von KI-gestützten Rangfolgemodellen innerhalb personalisierter Erlebnisse, wobei zwei Traffic-Typen miteinander verglichen werden:
 
-* **Modell gesteuert**: Benutzer erhalten Inhalte, die nach dem KI-Modell sortiert sind und für Relevanz und Interaktion optimiert sind.
+* **Modellgesteuert**: Benutzende erhalten für die Relevanz und Interaktion optimierte Inhalte, die vom KI-Modell nach Rang geordnet wurden.
 
-* **Holdout**: Benutzer sehen eine generische Version des Inhalts, die als Kontrollgruppe dient, um die Effektivität des KI-Modells zu messen.
+* **Holdout**: Benutzende sehen eine generische Version des Inhalts, die als Kontrollgruppe dient, um die Effektivität des KI-Modells zu messen.
 
 Zu den angezeigten Schlüsselmetriken gehören:
 
-* **[!UICONTROL Anzeigen]**: Gesamtzahl der Anzeige oder Präsentation personalisierter Erlebnisse für Benutzer über verschiedene Touchpoints.
+* **[!UICONTROL Anzeigen]**: Häufigkeit, mit der personalisierter Erlebnisse für Benutzende über verschiedene Touchpoints angezeigt oder präsentiert wurden.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf personalisierte Erlebnisse durch Benutzer, die ihnen angezeigt wurden.
+* **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-* **[!UICONTROL Konversionsrate]**: Prozentsatz der Anzeigen, die zu Benutzeraktionen führten (z. B. Klicks), was angibt, wie erfolgreich das Modell bei der Interaktion mit Benutzern war.
+* **[!UICONTROL Konversionsrate]**: Prozentsatz der Anzeigen, die zu Benutzeraktionen führten (z. B. Klicks). Er gibt an, wie erfolgreich das Modell bezüglich der Ansprache von Benutzenden war.
 
 ## Konversionsrate für Holdout- und modellgesteuerten Traffic {#conversion-rate}
 
 >[!NOTE]
 >
->Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten Traffic]** wird nur verfügbar, wenn ein AI-Modell in die Kampagne integriert ist. [Weitere Informationen](../experience-decisioning/ranking.md)
+>Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten Traffic]** wird nur verfügbar, wenn ein KI-Modell in die Kampagne integriert ist. [Weitere Informationen](../experience-decisioning/ranking.md)
 
 ![](assets/cja-decisioning-conversion.png)
 
-Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten Traffic]** gibt die Konversionsrate für zwei Traffic-Typen im Zeitverlauf an:
+Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten Traffic]** zeigt die Konversionsrate für zwei Traffic-Typen im Zeitverlauf an:
 
-* **Modell gesteuert**: Benutzer erhalten Inhalte, die nach dem KI-Modell sortiert sind und für Relevanz und Interaktion optimiert sind.
+* **Modellgesteuert**: Benutzende erhalten für die Relevanz und Interaktion optimierte Inhalte, die vom KI-Modell nach Rang geordnet wurden.
 
-* **Holdout**: Benutzer sehen eine generische Version des Inhalts, die als Kontrollgruppe dient, um die Effektivität des KI-Modells zu messen.
+* **Holdout**: Benutzende sehen eine generische Version des Inhalts, die als Kontrollgruppe dient, um die Effektivität des KI-Modells zu messen.

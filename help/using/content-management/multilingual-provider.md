@@ -1,41 +1,42 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen und Konfigurieren von Sprachanbietern
-description: Erfahren Sie, wie Sie in Journey Optimizer Sprachdienstleister erstellen und konfigurieren.
+title: Erstellen und Konfigurieren von Sprachdienstleistern
+description: Erfahren Sie, wie Sie in Journey Optimizer Sprachdienstleister erstellen und konfigurieren
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Starten, Inhalt, Experiment
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+keywords: erste Schritte, Start, Inhalt, Experiment
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
-# Sprachdienstleister hinzufügen {#multilingual-provider}
+# Hinzufügen von Sprachdienstleistern {#multilingual-provider}
 
 >[!IMPORTANT]
 >
-> Die Nutzung der Übersetzungsdienste eines Übersetzungsanbieters unterliegt den zusätzlichen Bedingungen des jeweiligen Anbieters. Als Drittanbieterlösungen stehen Adobe Journey Optimizer-Benutzern Übersetzungsdienste über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+> Die Nutzung der Übersetzungsdienste von Übersetzungsanbietern unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Übersetzungsdienste stehen den Benutzenden von Adobe Journey Optimizer als Lösungen von Drittanbietern über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
 
-Adobe Journey Optimizer ist mit externen Übersetzungsanbietern integriert, die sowohl maschinelle als auch menschliche Übersetzungsdienste anbieten, unabhängig von Adobe Journey Optimizer.
+Adobe Journey Optimizer lässt sich mit Drittanbietern für Übersetzungen integrieren, die unabhängig von Adobe Journey Optimizer von Machine Translation-Übersetzungsdienste sowie Übersetzungsdienste von menschlichen Übersetzern anbieten.
 
 Stellen Sie vor dem Hinzufügen Ihres ausgewählten Übersetzungsanbieters sicher, dass Sie ein Konto beim jeweiligen Anbieter erstellt haben.
 
-1. Navigieren Sie im Menü **[!UICONTROL Content Management]** zu **[!UICONTROL Übersetzung]**.
+1. Navigieren Sie im Menü **[!UICONTROL Content-Management]** zu **[!UICONTROL Übersetzung]**.
 
-1. Rufen Sie die Registerkarte **[!UICONTROL Anbieter]** auf und klicken Sie auf **[!UICONTROL Anbieter hinzufügen]**.
+1. Greifen Sie auf die Registerkarte **[!UICONTROL Anbieter]** zu und klicken Sie auf **[!UICONTROL Anbieter hinzufügen]**.
 
    ![](assets/provider_1.png)
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Anbieter]** den gewünschten Anbieter aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Anbieter]** den gewünschten Anbieter aus.
 
    ![](assets/provider_2.png)
 
-1. Wenn Sie Microsoft Translator als Provider verwenden, geben Sie Ihren **[!UICONTROL Abonnementschlüssel]** und Ihre **[!UICONTROL Endpunkt-URL]** ein.
+1. Wenn Sie Microsoft Translator als Anbieter verwenden, geben Sie Ihren **[!UICONTROL Abonnementschlüssel]** und Ihre **[!UICONTROL Endpunkt-URL]** ein.
 
    ![](assets/provider_3.png)
 
@@ -43,5 +44,4 @@ Stellen Sie vor dem Hinzufügen Ihres ausgewählten Übersetzungsanbieters siche
 
    ![](assets/provider_4.png)
 
-1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Speichern]** , um das Setup abzuschließen.
-
+1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Speichern]**, um die Einrichtung abzuschließen.

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Berichte | **[!DNL View channel reports]**: Lesen und Bearbeiten von Kanalberichten. |
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox. |
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox. |
-| Übersetzungsdienst | **[!DNL Manage translation projects]**: Übersetzungsprojekte lesen, erstellen, bearbeiten und löschen.</br>**[!DNL View translation projects]**: Schreibgeschützter Zugriff für Übersetzungsprojekte.</br>**[!DNL Manage translation tasks]**: Übersetzungsaufgaben lesen, erstellen, bearbeiten und löschen.</br>**[!DNL View translation tasks]**: Schreibgeschützter Zugriff für Übersetzungsaufgaben.</br> **[!DNL Manage translation reviews]**: Übersetzungsüberprüfungen lesen, erstellen, bearbeiten und löschen.</br>**[!DNL View translation reviews]**: Schreibgeschützter Zugriff für Übersetzungsüberprüfungen.</br>**[!DNL Manage translation in house]**: Übersetzungen im Haus lesen, erstellen, bearbeiten und löschen.</br>**[!DNL View translation in house]**: Schreibgeschützter Zugriff für die Übersetzung im Haus.</br>**[!DNL Manage translation settings]**: Übersetzungseinstellungen lesen, erstellen, bearbeiten und löschen. |
+| Übersetzungsdienst | **[!DNL Manage translation projects]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsprojekten.</br>**[!DNL View translation projects]**: Schreibgeschützter Zugriff für Übersetzungsprojekte.</br>**[!DNL Manage translation tasks]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsaufgaben.</br>**[!DNL View translation tasks]**: Schreibgeschützter Zugriff für Übersetzungsaufgaben.</br> **[!DNL Manage translation reviews]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsprüfungen.</br>**[!DNL View translation reviews]**: Schreibgeschützter Zugriff für Übersetzungsprüfungen.</br>**[!DNL Manage translation in house]**: Lesen, Erstellen, Bearbeiten und Löschen von internen Übersetzungen.</br>**[!DNL View translation in house]**: Schreibgeschützter Zugriff für interne Übersetzungen.</br>**[!DNL Manage translation settings]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungseinstellungen. |
 
 {style="table-layout:fixed"}
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,10 +63,10 @@ Die Schritte zum Erstellen einer bedingten Regel sind:
    Attribute sind in drei Registerkarten unterteilt:
 
    * **[!UICONTROL Profil]**:
-      * **[!UICONTROL Zielgruppen]** listet alle Zielgruppenattribute auf (d. h. Status, Version usw.) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
+      * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppenattribute (d. h. Status, Version) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
       * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem [Schema des Experience-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind, das in Adobe Experience Platform definiert ist.
    * **[!UICONTROL Kontextuell]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextuelle Journey-Felder zur Verfügung.
-   * **[!UICONTROL Zielgruppen]**: listet alle Zielgruppen auf, die aus Segmentdefinitionen generiert wurden, die im [Adobe Experience Platform-Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) erstellt wurden.
+   * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppen auf, die aus Segmentdefinitionen generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) erstellt wurden.
 
 1. Wenn Ihre bedingte Regel fertig ist, können Sie sie zu Ihrer Nachricht hinzufügen, um dynamische Inhalte zu erstellen. [Erfahren Sie, wie dynamische Inhalte hinzugefügt werden](dynamic-content.md)
 

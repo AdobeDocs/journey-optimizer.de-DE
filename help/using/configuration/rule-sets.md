@@ -11,9 +11,9 @@ keywords: Nachricht, Häufigkeit, Regeln, Druck
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsätze"
->abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können auch Regelsätze erstellen, um Journey für einen Teil Ihrer Audience basierend auf Frequenzlimitierungsregeln auszuschließen."
+>abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
 
 >[!AVAILABILITY]
 >
->Regelsätze sind derzeit in eingeschränkter Verfügbarkeit für eine ausgewählte Gruppe von Kunden verfügbar. Bitte beachten Sie, dass diese Funktion in Zukunft schrittweise für weitere Benutzer eingeführt wird. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf die Warteliste gesetzt zu werden.
+>Regelsätze sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Diese Funktion wird in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste gesetzt werden möchten.
 
 ## Erste Schritte mit Regelsätzen {#gs}
 
@@ -44,7 +44,7 @@ Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UI
 
 Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Verfahrensregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Verfahrensregeln arbeitet](frequency-rules.md)
 
-Zusätzlich zu diesem Regelsatz &quot;Globaler Standardregelsatz&quot;können Sie **benutzerdefinierte Regelsätze** erstellen, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb dieser Kampagne gesendeten Nachrichten zu begrenzen. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
+Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdefinierte Regelsätze** erstellen, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb dieser Kampagne gesendeten Nachrichten zu beschränken. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
 
 ![](assets/rule-sets-default.png)
 
@@ -53,9 +53,9 @@ Zusätzlich zu diesem Regelsatz &quot;Globaler Standardregelsatz&quot;können Si
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="Domain des Regelsatzes"
->abstract="Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind."
+>abstract="Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journeys spezifisch sind."
 
-Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journey spezifisch sind. Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domain für den Regelsatz aus. [Informationen zum Erstellen eines Regelsatzes](#create)
+Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz Begrenzungsregeln erzwingen, die für Kommunikationskanäle oder Journeys spezifisch sind.  Wählen Sie dazu bei der Erstellung einen Kanal oder eine Journey-Domain für den Regelsatz aus. [Informationen zum Erstellen eines Regelsatzes](#create)
 
 * **Kanal**-Domain: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * **Journey**-Domain: Wenden Sie Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Legen Sie einen eindeutigen Namen für den Regelsatz fest und fügen Sie eine Beschreibung hinzu.
 
-1. Wählen Sie die Domain des Regelsatzes aus. Über die Domäne können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journey spezifisch sind. [Weitere Informationen zu Kanal- und Journey-Begrenzungsregeln](#domain)
+1. Wählen Sie die Domain des Regelsatzes aus. Mithilfe der Domain können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journeys spezifisch sind. [Weitere Informationen zu Begrenzungsregeln für Kanäle und Journeys](#domain)
 
    ![](assets/rule-sets-create.png)
 
@@ -110,7 +110,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Regelbegrenzung"
->abstract="Legen Sie die Begrenzung für Ihre Regel fest. Abhängig von der Regelsatzdomäne und der Auswahl im Feld Regeltyp kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journey, die das Profil eingeben oder gleichzeitig anmelden kann."
+>abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Abhängig von der Regelsatz-Domain und der Auswahl im Feld „Regeltyp“ kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journeys, in die das Profil eintreten oder an denen das Profil gleichzeitig teilnehmen kann."
 
 Um einem Regelsatz eine Regel hinzuzufügen, greifen Sie auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
 
@@ -138,7 +138,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
      >[!CAUTION]
      >
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 

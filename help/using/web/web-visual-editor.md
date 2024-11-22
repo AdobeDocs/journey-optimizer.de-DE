@@ -1,17 +1,17 @@
 ---
-title: Bearbeiten von Inhalten mit dem Webdesigner
-description: Erfahren Sie, wie Sie eine Webseite erstellen und ihren Inhalt mit dem Journey Optimizer-Web-Editor bearbeiten.
+title: Bearbeiten von Inhalten mit dem Web-Designer
+description: Informationen zum Erstellen einer Web-Seite und zum Bearbeiten ihres Inhalts mit dem Web-Editor von Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
-workflow-type: tm+mt
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit dem Web-Designer {#work-with-web-designer}
 
@@ -29,21 +29,21 @@ ht-degree: 83%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
-In [!DNL Journey Optimizer] wird die visuelle Webbearbeitung durch die Chrome-Browsererweiterung **Adobe Experience Cloud Visual Helper** unterstützt. [Weitere Informationen](web-prerequisites.md#visual-authoring-prerequisites)
+In [!DNL Journey Optimizer] basiert das Erstellen visueller Web-Seiten auf der Chrome-Browser-Erweiterung **Adobe Experience Cloud Visual Helper**. [Weitere Informationen](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
 >Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugreifen oder sie dort zu erstellen, müssen Sie den Voraussetzungen in [diesem Abschnitt](web-prerequisites.md) folgen.
 
-## Erstellen Ihres Web-Erlebnisses beginnen
+## Erstellen eines Web-Erlebnisses
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem visuellen Web-Designer zu beginnen.
 
 >[!CAUTION]
 >
->Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} muss in Ihre Webseite aufgenommen werden. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
+>Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} muss in Ihre Webseite integriert sein. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
 
-1. Klicken Sie im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf **[!UICONTROL Webseite bearbeiten]** , um den Webdesigner zu öffnen.
+1. Klicken Sie im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf **[!UICONTROL Webseite bearbeiten]**, um den Web-Designer zu öffnen.
 
    ![](assets/web-campaign-edit-web-page.png)
 
@@ -53,9 +53,9 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
    >
    >Wenn Sie versuchen, eine Web-Site zu laden, die sich nicht laden lässt, wird eine Meldung mit dem Vorschlag angezeigt, die Browser-Erweiterung [Visual Editing Helper](#install-visual-editing-helper) zu installieren. Tipps zur Fehlerbehebung finden Sie in [diesem Abschnitt](web-prerequisites.md#troubleshooting).
    >
-   >Sie können Ihren Webinhalt auch bearbeiten, ohne den Visual Editor zu laden. Deaktivieren Sie dazu die Option **[!UICONTROL Visual Editor]** , um stattdessen den nicht visuellen Bearbeitungsmodus zu verwenden. [Weitere Informationen](web-non-visual-editor.md)
+   >Sie können Ihre Web-Inhalte auch bearbeiten, ohne den visuellen Editor zu laden. Heben Sie dazu die Auswahl der Option **[!UICONTROL Visueller Editor]** auf, um stattdessen den nicht visuellen Bearbeitungsmodus zu verwenden. [Weitere Informationen](web-non-visual-editor.md)
 
-1. Wählen Sie im Webdesigner ein beliebiges Element aus der Arbeitsfläche aus, z. B. Bild, Schaltfläche, Absatz, Text, Container, Überschrift, Link usw. [Weitere Informationen](#content-components)
+1. Wählen Sie im Web-Designer ein beliebiges Element auf der Arbeitsfläche aus, z. B. Bild, Schaltfläche, Absatz, Text, Container, Überschrift oder Link.  [Weitere Informationen](#content-components)
 
 1. Um ein Element zu bearbeiten, können Sie Folgendes verwenden:
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
 >
 >Der Web-Content-Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
-Nachdem Sie Ihren Webinhalt bearbeitet haben, können Sie Ihre Änderungen verwalten. [Weitere Informationen](manage-web-modifications.md)
+Nachdem Sie Ihren Web-Inhalt bearbeitet haben, können Sie Ihre Änderungen verwalten. [Weitere Informationen](manage-web-modifications.md)
 
 ## Verwenden von Komponenten {#content-components}
 

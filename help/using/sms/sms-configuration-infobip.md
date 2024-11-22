@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -54,14 +54,14 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
    * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl verfügt.
 
-   * **[!UICONTROL Benutzerdefinierte eingehende Suchbegriffe]**: Definieren Sie eindeutige Suchbegriffe für bestimmte Aktionen, z. B. DISCOUNT, ANGEBOTE, ENROLL. Diese Suchbegriffe werden als Profilattribute erfasst und gespeichert, sodass Sie eine Streaming-Segmentqualifizierung innerhalb der Journey Trigger und eine benutzerdefinierte Antwort oder Aktion bereitstellen können.
+   * **[!UICONTROL Benutzerdefinierte eingehende Keywords]**: Definieren Sie eindeutige Keywords für bestimmte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Streaming-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können.
 
-   * **[!UICONTROL Standardmäßige eingehende Antwortnachricht]**: Geben Sie die Standardantwort ein, die gesendet wird, wenn ein Endbenutzer eine eingehende SMS sendet, die keinem der definierten Schlüsselwörter entspricht.
+   * **[!UICONTROL Eingehende Standard-Antwortnachricht]**: Geben Sie die Standardantwort ein, die gesendet wird, wenn eine Endanwenderin oder ein Endanwender eine eingehende SMS sendet, die keinem der definierten Keywords entspricht.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-1. Klicken Sie im Menü **[!UICONTROL API-Anmeldeinformationen]** auf das Papierkorbsymbol, um Ihre API-Anmeldeinformationen zu löschen.
+1. Klicken Sie im Menü **[!UICONTROL API-Anmeldedaten]** auf das Papierkorbsymbol, um Ihre API-Anmeldedaten zu löschen.
 
-1. Um vorhandene Anmeldeinformationen zu ändern, suchen Sie die gewünschten API-Anmeldeinformationen und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
+1. Um vorhandene Anmeldedaten zu ändern, suchen Sie die gewünschten API-Anmeldedaten und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)

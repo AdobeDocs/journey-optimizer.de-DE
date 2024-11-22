@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -225,7 +225,7 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browser-Er
 <p>Sie können nun Movable Ink Da Vinci und Adobe Journey Optimizer integrieren. Diese neue Integration ermöglicht Ihnen Folgendes: </p>
 <p><ul><li>Nutzen der leistungsstarken Funktionen von Movable Ink Da Vinci, um E-Mail-Varianten für Batch-Kampagnen zusammenzustellen und zu personalisieren</li>
 <li>Beschleunigen praktischer Workflows für Journey Optimizer-Kundschaft, die Da Vinci zum Authoring und AJO zur Optimierung und Versand verwendet</li>
-<li>Optimieren von Vinci-Modelle mit Adobe-Daten</li></ul></p>
+<li>Optimieren von Da Vinci-Modellen mit Adobe-Daten</li></ul></p>
 <!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
@@ -234,7 +234,7 @@ Dieser nicht visuelle Bearbeitungsmodus ist nützlich, wenn Sie keine Browser-Er
 <table>
 <thead>
 <tr>
-<th><strong>Neues Reporting-Erlebnis (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Aktualisiertes Reporting-Erlebnis (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -323,7 +323,7 @@ SMS-Verbesserungen wurden eingeführt, um Ihre Messaging-Funktionen zu verbesser
 
 **Reporting**
 
-* **Entscheidungsberichte** sind jetzt verfügbar und bieten wichtige Einblicke in die Interaktion Ihrer Besucher mit Ihren Erlebnissen.
+* **Reporting für die Entscheidungsfindung** ist nun verfügbar und bietet wichtige Erkenntnisse zur Besucherinteraktion mit Ihren Erlebnissen.
 
 **Richtlinien für Data Governance und Einverständnis** – Verfügbarkeitsdatum: 7. Oktober 2024
 

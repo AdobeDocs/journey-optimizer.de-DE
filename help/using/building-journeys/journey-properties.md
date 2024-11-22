@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2233'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 * eine [Dauer für die maximale Wartezeit](#timeout) in Journey-Aktivitäten zu definieren (nur für Admins),
 * [Zeitzonen](#timezone) für die Journey und das Profil auszuwählen,
 * Ihrer Journey Adobe Experience Platform Unified Tags zuzuweisen, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
-* Sie können Konflikte überwachen und Ihre Journey mithilfe von [Konfliktmanagement-Tools](#conflict) Prioritäten setzen.
+* Konflikte überwachen und Ihre Journeys mithilfe von [Konflikt-Management-Tools](#conflict) priorisieren.
 
 ![](assets/journey32.png)
 
@@ -301,12 +301,12 @@ Die folgenden Leitlinien und Einschränkungen gelten für die Ausstiegskriterien
 
 ## Konflikt-Management {#conflict}
 
-Im Abschnitt **[!UICONTROL Konfliktverwaltung]** in den Eigenschaften von Journey können Sie Konflikte überwachen und Ihre Journey priorisieren. Sie haben folgende Möglichkeiten:
+Im Abschnitt **[!UICONTROL Konflikt-Management]** in den Eigenschaften der Journey können Sie Konflikte überwachen und Ihre Journeys priorisieren. Sie haben folgende Möglichkeiten:
 
-* Wenden Sie einen **Regelsatz** an, um diese Journey basierend auf Begrenzungsregeln für einen Teil Ihrer Audience auszuschließen. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../configuration/rule-sets.md)
+* Wenden Sie einen **Regelsatz** an, um diese Journey basierend auf Begrenzungsregeln für einen Teil der Zielgruppe auszuschließen. [Informationen zum Arbeiten mit Regelsätzen](../configuration/rule-sets.md)
 
-* Weisen Sie dem Journey eine **Prioritätsbewertung** zu, die zwischen 0 und 100 liegt. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. [Erfahren Sie, wie Sie mit Prioritätswerten arbeiten](../conflict-prioritization/priority-scores.md)
+* Weisen Sie der Journey einen **Prioritätswert** von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. [Informationen zum Arbeiten mit Prioritätswerten](../conflict-prioritization/priority-scores.md)
 
   In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde.
 
-* **Konflikte anzeigen** mit anderen Journey, Kampagnen oder Kanalkonfigurationen. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration, Kanal oder Regelsatz ermitteln möchten, können Sie hier potenzielle Konflikte anzeigen. [Erfahren Sie, wie Sie potenzielle Konflikte in Journey](../conflict-prioritization/conflicts.md) identifizieren.
+* **Zeigen Sie Konflikte** mit anderen Journeys, Kampagnen oder Kanalkonfigurationen an. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration oder Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen. [Informationen zum Identifizieren potenzieller Konflikte in Journeys und Kampagnen](../conflict-prioritization/conflicts.md)

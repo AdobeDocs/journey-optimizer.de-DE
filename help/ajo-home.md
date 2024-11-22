@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version vom 24. Oktober]
+>[!TAB Version Oktober 2024]
 
-Die Oktober-Version ist jetzt live, einschließlich E-Mail-Inhaltssperrung, Integration mit anpassbaren Tinten, Code-basierten und Web-Erlebnissen in Journey. Zuvor waren in der eingeschränkten Verfügbarkeit (LA) die folgenden Funktionen für alle verfügbar: Personalisierung der E-Mail-Konfiguration, Validierungsrichtlinien, Inhaltsexperimentierung, verbesserte Berichterstellung, mehrsprachige Inhalte und mehr.
+Die Oktober-Version ist jetzt live, einschließlich der Inhaltssperre für E-Mails, der Integration mit Movable Ink, Code-basierten Erlebnissen und Web-Erlebnissen in Journey. Die zuvor eingeschränkt verfügbaren Funktionen sind jetzt für alle verfügbar: Personalisierung der E-Mail-Konfiguration, Genehmigungsrichtlinien, Inhaltsexperimente, ein verbessertes Reporting-Erlebnis und mehrsprachige Inhalte.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,7 +38,7 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Web-Erlebnisse in Journey]
+>[!TAB Web-Erlebnisse in Journeys]
 
 Mit dem Webkanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.
 

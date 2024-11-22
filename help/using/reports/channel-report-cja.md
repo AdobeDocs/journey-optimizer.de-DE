@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Die KPIs **[!UICONTROL Highlights]** dienen als umfassendes Dashboard, das eine 
 
 +++ Weitere Informationen zu Metriken für Highlights
 
-* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der Unique Individuen, die über die Journey gesendete Nachrichten erhalten haben, die verschiedene Profile darstellen, die einen festgelegten Aktionspunkt auf der Journey erreicht haben.
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 

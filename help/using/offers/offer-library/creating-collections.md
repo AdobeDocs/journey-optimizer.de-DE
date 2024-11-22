@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -23,22 +23,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
 >title="Dynamische Sammlung"
->abstract="Verwenden Sie Sammlungsqualifizierer, um Angebote dynamisch für eine Sammlung zu qualifizieren."
+>abstract="Verwenden Sie Sammlungskennzeichner, um Angebote dynamisch für eine Sammlung zu qualifizieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static"
 >title="Statische Sammlung"
->abstract="Wählen Sie Angebote manuell aus und gruppieren Sie sie anhand von Kriterien wie Status, Sammlungsqualifizierer, Datum und Kanal."
+>abstract="Wählen Sie Angebote manuell aus und gruppieren Sie sie mithilfe von Kriterien wie Status, Sammlungskennzeichner, Datum und Kanal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
->title="Vorschau einer statischen Sammlung"
->abstract="Statische Sammlungen werden durch manuelles Auswählen einzelner Angebote erstellt, die in die Sammlung aufgenommen werden sollen. Eine solche Sammlung kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden."
+>title="Vorschau der statischen Sammlung"
+>abstract="Statische Sammlungen werden durch das manuelle Auswählen einzelner Angebote erstellt, die in die Sammlung aufgenommen werden sollen. Eine solche Sammlung kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
->title="Vorschau einer dynamischen Sammlung"
->abstract="Dynamische Sammlungen erfassen Angebote basierend auf Sammlungsqualifizierern. Diese Sammlungen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem Sammlungsqualifizierer „Sport“ erstellt wird, wird es automatisch der entsprechenden Sammlung hinzugefügt."
+>title="Vorschau der dynamischen Sammlung"
+>abstract="Dynamische Sammlungen erfassen Angebote basierend auf Sammlungskennzeichnern.  Diese Sammlungen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem Sammlungskennzeichner „Sport“ erstellt wird, wird es automatisch der entsprechenden Sammlung hinzugefügt."
 
 Mit Sammlungen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Sammlung erstellen, die nur sportbezogene Angebote enthält.
 

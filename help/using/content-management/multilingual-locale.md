@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen eines Gebietsschemas
-description: Erfahren Sie, wie Sie ein Gebietsschema für mehrsprachige Inhalte in Journey Optimizer erstellen.
+description: Erfahren Sie, wie Sie in Journey Optimizer ein Gebietsschema für mehrsprachige Inhalte erstellen
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Starten, Inhalt, Experiment
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+keywords: erste Schritte, Start, Inhalt, Experiment
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +36,3 @@ Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihr Gebietsschema zu erstellen.
 
    ![](assets/locale_2.png)
-

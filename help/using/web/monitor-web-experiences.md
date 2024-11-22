@@ -1,15 +1,15 @@
 ---
 title: Überwachen Ihrer Web-Erlebnisse
-description: Erfahren Sie, wie Sie Ihre Web-Erlebnisse in Journey Optimizer überwachen.
+description: Informationen zum Überwachen von Web-Erlebnissen in Journey Optimizer
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Diese Informationen können zur Verbesserung des Benutzererlebnisses auf Ihrer W
 
 1. Um das Klick-Tracking für ein Element zu entfernen, wählen Sie das entsprechende Löschsymbol aus.
 
-Sobald Ihre Kampagne live ist, können Sie die Anzahl der Klicks für jedes Element im Kampagnen-Web überprüfen: [Live-Bericht](../reports/campaign-live-report.md#web-tab) und [Customer Journey Analytics-Bericht](../reports/campaign-global-report-cja-web.md).
+Sobald Ihre Kampagne aktiv ist, können Sie die Anzahl der Klicks für jedes Element im Web-[Live-Bericht](../reports/campaign-live-report.md#web-tab) und im [Customer Journey Analytics-Bericht](../reports/campaign-global-report-cja-web.md) der Kampagne überprüfen.
