@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '775'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
-1. Sobald der Inhalt der Nachricht definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen.
+1. Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen.
 
 1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
-1. Sobald der Inhalt der Nachricht definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen.
+1. Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen.
 
 1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Kampagne](../campaigns/create-campaign.md) ab.
 

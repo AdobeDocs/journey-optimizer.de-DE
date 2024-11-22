@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
-Sobald der Inhalt der Nachricht definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie prüfen, wie dieser Inhalt in der Nachricht dargestellt wird. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu. Sie können den Typ des Geräts auswählen, auf dem Inhalte in der Vorschau angezeigt werden sollen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]**. Sie können den Typ des Geräts auswählen, auf dem Inhalte in der Vorschau angezeigt werden sollen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
-Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
+Ausführliche Informationen zum Anzeigen einer Vorschau und zum Testen von Inhalten finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) .
 
 ## Validieren der Push-Benachrichtigung {#push-validate}
 

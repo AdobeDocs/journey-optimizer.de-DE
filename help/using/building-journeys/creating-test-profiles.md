@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 100%
+source-wordcount: '1367'
+ht-degree: 97%
 
 ---
 
 # Erstellen von Testprofilen {#create-test-profiles}
 
 Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../building-journeys/testing-the-journey.md) verwenden und [eine Vorschau anzeigen und Ihre Inhalte testen möchten](../content-management/preview-test.md).
+
+>[!NOTE]
+>
+>Mit [!DNL Journey optimizer] können Sie auch verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mithilfe von Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
 Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finden Sie Details für Folgendes:
 

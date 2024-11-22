@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 82%
 
 ---
 
@@ -37,4 +37,4 @@ Sie können das Rendering einiger Ihrer E-Mail-Vorlagen testen, unabhängig davo
 
 >[!CAUTION]
 >
->Derzeit wird Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt, d. h. die Nachverfolgung von Ereignissen, UTM-Parametern und Landingpage-Links ist in den Testsendungen, die von einer Vorlage gesendet werden, nicht wirksam. Um Tracking zu testen, [verwenden Sie die Inhaltsvorlage](../email/use-email-templates.md) in einer E-Mail und [führen Sie einen Testversand durch](../content-management/preview-test.md#send-proofs).
+>Derzeit wird Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt, d. h. die Nachverfolgung von Ereignissen, UTM-Parametern und Landingpage-Links ist in den Testsendungen, die von einer Vorlage gesendet werden, nicht wirksam. Verwenden Sie zum Testen des Trackings die Inhaltsvorlage ](../email/use-email-templates.md) in einer E-Mail und senden Sie einen Testversand mit Testprofilen oder Beispieleingabedaten, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [ [Erfahren Sie, wie Sie Ihre Inhalte in der Vorschau anzeigen und testen](../content-management/preview-test.md)

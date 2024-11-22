@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 40%
+source-wordcount: '1235'
+ht-degree: 38%
 
 ---
 
@@ -126,7 +126,7 @@ Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen
 <div align="center"><a href="../content-card/create-content-card.md"><strong>Inhaltskarten</strong></a></div></td>
 </tr></table>
 
-Nachdem Ihr Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und Ihren Inhalt mit Testprofilen zu testen. [Weitere Informationen](../content-management/preview-test.md). Klicken Sie auf den Linkspfeil, um zum Bildschirm zur Erstellung der Kampagne zurückzukehren.
+Sobald Ihr Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** , um Ihren Inhalt mit Testprofilen oder Beispieleingabedaten, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, in der Vorschau anzuzeigen und zu testen. [Weitere Informationen](../content-management/preview-test.md). Klicken Sie auf den Linkspfeil, um zum Bildschirm zur Erstellung der Kampagne zurückzukehren.
 
 ![](assets/create-campaign-design.png)
 

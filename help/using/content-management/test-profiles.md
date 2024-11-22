@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 >abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden."
 
 Vor der Vorschau oder dem Testen Ihres Inhalts müssen Sie zunächst Testprofile auswählen, bei denen es sich um zusätzliche Empfängerinnen und Empfänger handelt, die nicht den definierten Kriterien für die Zielgruppenbestimmung entsprechen. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>Neben Testprofilen können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mit Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
 Gehen Sie wie folgt vor, um Testprofile auszuwählen:
 
