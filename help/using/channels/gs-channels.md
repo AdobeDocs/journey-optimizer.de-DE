@@ -5,17 +5,15 @@ title: Erste Schritte mit Kommunikationskanälen in  [!DNL Adobe Journey Optimiz
 description: Erfahren Sie, wie Sie mit [!DNL Adobe Journey Optimizer] Kommunikationskanälen arbeiten.
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
 
-
 # Erste Schritte mit [!DNL Adobe Journey Optimizer] Kommunikationskanälen {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer] Kanäle {#overview}
 
 In der heutigen dynamischen Marketinglandschaft ist es entscheidend, Ihre Zielgruppe über verschiedene Plattformen hinweg effektiv zu erreichen, um dauerhafte Beziehungen zu knüpfen und die Interaktion zu fördern. In diesem Abschnitt erhalten Sie einen umfassenden Überblick über die in [!DNL Adobe Journey Optimizer] verfügbaren Kommunikationskanäle. So können Sie erkennen, wie die einzelnen Kanäle effektiv in Ihren Marketing-Strategien eingesetzt werden.
 
