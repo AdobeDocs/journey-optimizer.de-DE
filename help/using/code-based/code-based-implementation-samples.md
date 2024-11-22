@@ -6,8 +6,8 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
-workflow-type: ht
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
 
 1. Das [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ist auf der Seite enthalten.
 
-1. Sie müssen den Befehl `sendEvent` verwenden und den [Oberflächen-URI](code-based-configuration.md#surface-definition)<!--( or location/path)--> angeben, um den Personalisierungsinhalt abzurufen.
+1. Sie müssen den Befehl `sendEvent` verwenden und den [Oberflächen-URI](code-based-surface.md)<!--( or location/path)--> angeben, um den Personalisierungsinhalt abzurufen.
 
    ```javascript
    alloy("sendEvent", {

@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
-workflow-type: ht
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -67,7 +67,11 @@ Sie können beispielsweise die Änderungen an einem Hero-Banner auf einer gesamt
 
 1. Wählen Sie beim Konfigurieren Ihres [Web](#web-configuration)- oder [Code-basierten Erlebnisses](../code-based/code-based-configuration.md) die Option **[!UICONTROL Regel zum Seitenabgleich]** aus.
 
-1. Definieren Sie Ihre Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**. Welche Operatoren verfügbar sind, erfahren Sie in [diesem Abschnitt](#available-operators).
+1. Definieren Sie Ihre Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
+
+   >[!NOTE]
+   >
+   >Welche Operatoren verfügbar sind, erfahren Sie in [diesem Abschnitt](#available-operators).
 
    Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Seiten der Luma-Website mit Produkten für Damen angezeigt werden, wählen Sie **[!UICONTROL Domain]** > **[!UICONTROL Beginnt mit]** > `luma` und **[!UICONTROL Seite]** > **[!UICONTROL Enthält]** > `women`.
 

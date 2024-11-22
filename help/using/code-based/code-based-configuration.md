@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 93%
 
 ---
 
@@ -104,11 +104,15 @@ Gehen Sie wie folgt vor, um die Einstellungen der Code-basierten Erlebniskonfigu
 1. Folgendes gilt für die Vorschau-URL:
 
    * Wenn die URL einer einzelnen Seite eingegeben wird, wird diese URL für die Vorschau verwendet. Es muss keine weitere URL eingegeben werden.
-   * Wenn eine [Regel zum Seitenabgleich](../web/web-configuration.md#web-page-matching-rule) ausgewählt ist, müssen Sie eine **[!UICONTROL Standard-Authoring- und Vorschau-URL]** eingeben, die zur Vorschau des Erlebnisses im Browser verwendet wird. [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
+   * Wenn eine [Seite ausgewählt ist, die mit der Regel](../web/web-configuration.md#web-page-matching-rule) übereinstimmt, müssen Sie eine **[!UICONTROL Standard-Authoring- und Vorschau-URL]** eingeben, die für die Vorschau des Erlebnisses in einem Browser verwendet wird. [Weitere Informationen](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. Das Feld **[!UICONTROL Position auf der Seite]** gibt das genaue Ziel innerhalb der Seite an, auf das Benutzende zugreifen sollen. Es kann sich um einen bestimmten Abschnitt auf einer Seite innerhalb der Navigationsstruktur der Site handeln, z. B. „Hero-Banner“ oder „Produktleiste“.
+
+   >[!CAUTION]
+   >
+   >Die in diesem Feld eingegebene Zeichenfolge oder der Pfad muss mit der in Ihrer App- oder Seitenimplementierung deklarierten übereinstimmen. Dadurch wird sichergestellt, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. [Weitere Informationen](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Code-basierten Erlebniskonfigu
 
    ![](assets/code_config_3.png)
 
-1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen der Vorschau auf dem Gerät verwendet werden soll.  [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
+1. Füllen Sie das Feld **[!UICONTROL Vorschau-URL]** aus, um die Vorschau auf dem Gerät zu aktivieren. Diese URL informiert den Vorschaudienst über die spezifische URL, die beim Auslösen der Vorschau auf dem Gerät verwendet werden soll.  [Weitere Informationen](test-code-based.md#preview-on-device)
 
    Die Vorschau-URL ist ein Deeplink, der von den App-Entwicklerinnen und -Entwicklern in Ihrer App konfiguriert wurde. Dadurch wird sichergestellt, dass alle URLs, die mit dem Deeplink-Schema übereinstimmen, in der App und nicht in einem mobilen Webbrowser geöffnet werden. Wenden Sie sich an Ihre App-Entwicklerin oder an Ihren App-Entwickler, um das für Ihre App konfigurierte Deeplink-Schema zu erhalten.
 
@@ -160,73 +164,16 @@ Gehen Sie wie folgt vor, um die Einstellungen der Code-basierten Erlebniskonfigu
 
 1. Wählen Sie **[!UICONTROL Sonstige]** als Plattform aus, wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder wenn Sie bestimmte URIs als Ziel auswählen müssen.
 
-1. Geben Sie den **[!UICONTROL Oberflächen-URI]** ein.  Ein Oberflächen-URI ist eine eindeutige Kennung, die der Entität entspricht, in der Sie Ihr Erlebnis bereitstellen möchten. [Weitere Informationen](#surface-definition)
+1. Geben Sie den **[!UICONTROL Oberflächen-URI]** ein.  Ein Oberflächen-URI ist eine eindeutige Kennung, die der Entität entspricht, in der Sie Ihr Erlebnis bereitstellen möchten. [Weitere Informationen](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt.  Andernfalls können die Änderungen nicht bereitgestellt werden.
+   >Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt.  Andernfalls können die Änderungen nicht bereitgestellt werden. [Weitere Informationen](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL Fügen Sie bei Bedarf einen weiteren Oberflächen-URI hinzu]**. Sie können bis zu 10 URIs hinzufügen.
 
    >[!NOTE]
    >
    >Beim Hinzufügen mehrerer URIs wird der Inhalt für alle aufgelisteten Komponenten bereitgestellt.
-
-## Was ist eine Oberfläche? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="Hinzufügen des Oberflächen-URI für Ihre Komponente"
->abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, bei der Sie Ihr Erlebnis bereitstellen möchten. Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
-
-Eine Code-basierte **Erlebnisoberfläche** ist jede Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde. Sie ist durch einen **URI** eindeutig gekennzeichnet. Die Oberfläche wird in der Implementierung der Anwendung angegeben und muss mit der in der Code-basierten Erlebniskanalkonfiguration referenzierten Oberfläche übereinstimmen.
-
-Eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhandenen Entität (Touchpoint) betrachtet werden.
-
-* Dabei kann es sich um eine Webseite, eine Mobile App, eine Desktop-App, einen bestimmten Inhaltsspeicherort innerhalb einer größeren Entität (z. B. eine `div`) oder ein nicht standardmäßiges Anzeigemuster (z. B. ein Kiosk oder ein Desktop-Programm-Banner) handeln.<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* Für Nicht-Anzeigen oder abstrakte Anzeigen (z. B. für Dienste bereitgestellte JSON-Blobs) kann sie auch auf bestimmte Teile von Inhalts-Containern erweitert werden.
-
-* Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
-
-Beim Erstellen einer Code-basierte Erlebniskanalkonfiguration haben Sie zwei Möglichkeiten, die Oberfläche entsprechend der ausgewählten Plattform anzugeben:
-
-* Bei **[!UICONTROL Web]**-, **[!UICONTROL iOS]**- und **[!UICONTROL Android]**-Plattformen müssen Sie einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen.
-
-* Wenn die Plattform unter **[!UICONTROL Sonstige]** fällt, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen unten dargestellt.
-
-Ein Oberflächen-URI dient als präzise Kennung, die innerhalb einer Anwendung zu unterschiedlichen Benutzeroberflächen-Elementen oder -Komponenten führt.  Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
-
-1. **Typ**: Web, Mobile App, ATM, Kiosk, tvcd, Dienst
-1. **Eigenschaft**: Seiten-URL oder App-Paket
-1. **Container**: Speicherort auf der Seite/App-Aktivität
-
-In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberflächen-URI für verschiedene Geräte aufgeführt.
-
-**Web und Mobil**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar, bei dem ein Element wie in den folgenden Beispielen eine Bezeichnung sein kann: hero_banner, top_nav, menu, footer. |
-| iOS-App | `mobileapp://com.vendor.bundle/activity#element` | Stellt ein bestimmtes Element innerhalb der Aktivität einer nativen App dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
-| Android-App | `mobileapp://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer nativen App dar. |
-
-**Andere Gerätetypen**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Desktop | `desktop://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| TV-App | `tvcd://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer mit einem Smart TV- oder TV-Gerät verbundenen Geräteanwendung dar – Bundle-ID. |
-| Service | `service://servicename/#element` | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
-| Kiosk | `kiosk://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
-| ATM | `atm://location/screen#element` | Beispiel potenzieller zusätzlicher Oberflächentypen, die leicht hinzugefügt werden können. |
-
-**Platzhalteroberfläche**
-
-| Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
-| Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
-| Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |

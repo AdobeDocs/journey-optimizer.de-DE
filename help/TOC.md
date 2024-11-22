@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 99%
+source-wordcount: '2185'
+ht-degree: 98%
 
 ---
 
@@ -273,10 +273,15 @@ ht-degree: 99%
          + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
    + Code-basiertes Erlebnis {#code-based-experience}
       + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
-      + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
-      + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
-      + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
-      + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
+      + Codebasierter Kanal {#configure-code-based-channel} konfigurieren
+         + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
+         + [Codebasierte Erlebnisoberflächen](using/code-based/code-based-surface.md)
+         + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
+         + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
+      + Codebasierte Erlebnisse erstellen {#create-code-based-experiences}
+         + [Codebasierte Erlebnisse erstellen und erstellen](using/code-based/create-code-based.md)
+         + [Codebasierte Erlebnisse testen](using/code-based/test-code-based.md)
+         + [Codebasierte Erlebnisse verwalten](using/code-based/publish-code-based.md)
    + Inhaltskarten{#content-card}
       + [Erste Schritte mit Inhaltskarten](using/content-card/get-started-content-card.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}

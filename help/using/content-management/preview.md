@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 75%
@@ -50,5 +50,5 @@ Gehen Sie wie folgt vor, um mithilfe von Testprofilen eine Vorschau Ihres Inhalt
 >
 >Wenn in den Konfigurationsdetails ein Fehler gefunden wird, klicken Sie auf die Schaltfläche **[!UICONTROL Konfigurationsdetails anzeigen]**. [Weitere Informationen](../email/surface-personalization.md#check-configuration)
 
-Beim Erstellen Code-basierter Erlebnisse können Sie eine Vorschau Ihrer personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten anzeigen, um eine authentische Simulation zu sehen.  [Weitere Informationen](../code-based/create-code-based.md#preview-on-device)
+Beim Erstellen Code-basierter Erlebnisse können Sie eine Vorschau Ihrer personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten anzeigen, um eine authentische Simulation zu sehen.  [Weitere Informationen](../code-based/test-code-based.md#preview-on-device)
 

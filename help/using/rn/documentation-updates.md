@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '5736'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite **Konfigurieren des Code-basierten Erlebnisses** wurde verbessert, um den Vorgang klarer zu beschreiben. Dazu gehört auch der Abschnitt, in dem erklärt wird, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Erstellen einer Web-Kanalkonfiguration** wurde aktualisiert, um die Schritte beim Erstellen einer Regel zum Seitenabgleich zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gelten. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zum anstehenden Time-to-Live(TTL)-Limit für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option „Vorschau auf Gerät“ anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/create-code-based.md#preview-on-device)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option „Vorschau auf Gerät“ anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
 * Es wurde eine neue Seite hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für die Entscheidungsfindung genutzt werden können. [Mehr dazu](../offers/custom-upload-decisioning.md)
 * Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden - [Mehr dazu](../experience-decisioning/gs-decision.md)
 * Der Dokumentation zu Decisioning wurden Schutzmechanismen und Einschränkungen hinzugefügt. [Mehr dazu](../experience-decisioning/gs-experience-decisioning.md#guardrails)
