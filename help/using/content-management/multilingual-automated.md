@@ -7,12 +7,12 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: erste Schritte, Starten, Inhalt, Experiment
+keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -30,23 +30,23 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->Für den automatisierten Ablauf benötigen Benutzer Berechtigungen im Zusammenhang mit der Funktion **[!UICONTROL Übersetzungsdienst]** . [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+>Für den automatisierten Fluss benötigen Benutzende Berechtigungen im Zusammenhang mit der Funktion **[!UICONTROL Übersetzungsdienst]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
 Mithilfe des automatisierten Fluss können Sie einfach Ihre Zielsprache und Ihren Sprachdienstleister auswählen. Ihre Inhalte werden dann direkt an die Übersetzung weitergeleitet, die sie nach der Fertigstellung einer Endkontrolle unterzieht.
 
 Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der automatisierten Übersetzung zu erstellen:
 
-1. [Anbieter hinzufügen](multilingual-provider.md)
+1. [Fügen Sie Ihren Anbieter hinzu.](multilingual-provider.md)
 
-1. [Gebietsschemata hinzufügen (optional)](multilingual-locale.md)
+1. [Fügen Sie Gebietsschemata hinzu (optional).](multilingual-locale.md)
 
-1. [Erstellen eines Sprachprojekts](#create-translation-project)
+1. [Erstellen Sie ein Sprachprojekt.](#create-translation-project)
 
-1. [Erstellen von Spracheinstellungen](#create-language-settings)
+1. [Erstellen Sie Spracheinstellungen.](#create-language-settings)
 
-1. [Erstellen von mehrsprachigen Inhalten](#create-a-multilingual-campaign)
+1. [Erstellen Sie einen mehrsprachigen Inhalt.](#create-a-multilingual-campaign)
 
-1. [Überprüfen Sie Ihre Übersetzungsaufgabe (optional)](#review-translation-project)
+1. [Überprüfen Sie Ihre Übersetzungsaufgabe (optional).](#review-translation-project)
 
 ## Erstellen eines Übersetzungsprojekts {#translation-project}
 
@@ -103,19 +103,19 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
 
 Ihr Übersetzungsprojekt ist jetzt erstellt und kann in einer mehrsprachigen Kampagne verwendet werden.
 
-## Erstellen von Spracheinstellungen {#language-settings}
+## Erstellen Sie Spracheinstellungen. {#language-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Benutzerdefinierte bedingte Einstellungen"
->abstract="Benutzerdefinierte bedingte Einstellungen sind Regelsätze, die basierend auf bestimmten Kriterien festlegen, in welchem Gebietsschema Ihr Inhalt angezeigt wird. Diese Einstellungen geben Ihnen die Kontrolle über die Inhaltsanzeige basierend auf Faktoren wie Benutzerstandort, Spracheinstellungen oder anderen kontextbezogenen Elementen."
+>abstract="Benutzerdefinierte bedingte Einstellungen sind Regelsätze, die basierend auf bestimmten Kriterien festlegen, in welchem Gebietsschema Ihr Inhalt angezeigt wird. Über diese Einstellungen erhalten Sie basierend auf Faktoren wie Benutzerstandort, Sprachvoreinstellungen oder anderen kontextbezogenen Elementen Kontrolle über die Inhaltsanzeige."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Fallback-Einstellungen"
->abstract="Die Auswahl einer Fallback-Voreinstellung ist für die Verbesserung des Benutzererlebnisses von entscheidender Bedeutung. Wenn kein Fallback ausgewählt ist und ein Profil die erforderlichen Anforderungen nicht erfüllt, werden keine Inhalte bereitgestellt. Durch Auswahl eines geeigneten Fallbacks stellen Sie eine konsistente Inhaltsbereitstellung sicher, auch wenn Profile nicht den ursprünglichen Kriterien entsprechen."
+>abstract="Die Auswahl einer Fallback-Einstellung ist für die Verbesserung des Anwendererlebnisses von entscheidender Bedeutung. Wenn kein Fallback ausgewählt wird und ein Profil die erforderlichen Anforderungen nicht erfüllt, werden keine Inhalte bereitgestellt.  Durch Auswahl eines geeigneten Fallbacks sorgen Sie für eine konsistente Inhaltsbereitstellung, selbst wenn Profile nicht den ursprünglichen Kriterien entsprechen."
 
-In diesem Abschnitt können Sie Ihre unterschiedlichen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten
+In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten
 
 1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]** > **[!UICONTROL Allgemeine Einstellungen]**.
 
@@ -123,28 +123,28 @@ In diesem Abschnitt können Sie Ihre unterschiedlichen Gebietsschemata zur Verwa
 
    ![](assets/language_settings_1.png)
 
-1. Geben Sie den Namen Ihrer **[!UICONTROL Spracheinstellungen]** ein und wählen Sie **[!UICONTROL Übersetzungsprojekt]**.
+1. Geben Sie den Namen Ihrer **[!UICONTROL Spracheinstellungen]** ein und wählen Sie **[!UICONTROL Übersetzungsprojekt]** aus.
 
 1. Klicken Sie im Feld **[!UICONTROL Übersetzungsprojekt]** auf **[!UICONTROL Bearbeiten]** und wählen Sie Ihr zuvor erstelltes **[!UICONTROL Übersetzungsprojekt]** aus.
 
-   Ihre zuvor konfigurierten **[!UICONTROL Gebietsschemata]** werden automatisch importiert.
+   Ihre zuvor konfigurierten **[!UICONTROL Gebietsschemata]** werden automatisch importiert.
 
-1. Wählen Sie eine **[!UICONTROL Fallback-Voreinstellungen]** aus, um eine Sicherungsoption für den Fall zu definieren, dass ein Profil die für die Inhaltsbereitstellung erforderlichen Kriterien nicht erfüllt.
+1. Wählen Sie eine **[!UICONTROL Fallback-Einstellung]** aus, um eine Backup-Option für den Fall zu definieren, dass ein Profil die für die Inhaltsbereitstellung erforderlichen Kriterien nicht erfüllt.
 
-   Beachten Sie, dass die Kampagne oder Journey nicht gesendet wird, wenn keine Ausweichoption ausgewählt ist.
+   Beachten Sie, dass die Kampagne oder Journey nicht gesendet wird, wenn keine Fallback-Option ausgewählt ist.
 
    ![](assets/language_settings_2.png)
 
-1. Wählen Sie aus den folgenden Optionen Ihre Versandpräferenz aus:
+1. Wählen Sie Ihre Versandvoreinstellung aus den folgenden Optionen aus:
 
-   * **[!UICONTROL Wählen Sie die Attribute der Sprache der Profilsprache aus]**
-   * **[!UICONTROL Erstellen benutzerdefinierter bedingter Regeln]**
+   * **[!UICONTROL Voreinstellungsattribute für Profilsprache auswählen]**
+   * **[!UICONTROL Benutzerdefinierte bedingte Regeln erstellen]**
 
-1. Wenn Sie &quot;**[!UICONTROL Profilattsprachpräferenzattribute auswählen]**&quot;auswählen, wählen Sie das relevante Attribut aus dem Menü &quot;**[!UICONTROL Profilattribute für Sprachpräferenzen]**&quot;, um nach Informationen zur Profilsprache zu suchen.
+1. Wenn Sie **[!UICONTROL Voreinstellungsattribute für Profilsprache auswählen]** auswählen, wählen Sie das relevante Attribut über das Menü **[!UICONTROL Voreinstellungsattribute für Profilsprache]** aus, um nach Informationen zur Profilsprache zu suchen.
 
    ![](assets/multilingual-settings-3.png)
 
-1. Wenn Sie **[!UICONTROL Benutzerdefinierte bedingte Regeln erstellen]** auswählen, wählen Sie das Gebietsschema aus, für das Sie Bedingungen erstellen möchten. Erstellen Sie dann Regeln basierend auf Faktoren wie Standort des Benutzers, Spracheinstellungen oder anderen kontextbezogenen Elementen.
+1. Wenn Sie **[!UICONTROL Benutzerdefinierte bedingte Regeln erstellen]** auswählen, wählen Sie das Gebietsschema aus, für das Sie Bedingungen erstellen möchten. Erstellen Sie anschließend Regeln basierend auf Faktoren wie Benutzerstandort, Sprachvoreinstellungen oder anderen kontextbezogenen Elementen.
 
    ![](assets/language_settings_3.png)
 
@@ -152,36 +152,36 @@ In diesem Abschnitt können Sie Ihre unterschiedlichen Gebietsschemata zur Verwa
 
    >[!IMPORTANT]
    >
-   >Kontextdaten sind ausschließlich für die Kanäle Web, In-App, Code-basiertes Erlebnis und Inhaltskarten verfügbar. Wenn die Kampagne bzw. die Journey für die Kanäle E-Mail, SMS, Push-Benachrichtigung oder Briefpost ohne zusätzliche Attribute verwendet wird, wird sie in der Sprache der ersten Listenoption versendet.
+   >Kontextbezogene Daten sind ausschließlich für die Kanäle „Web“, „In-App“, „Code-basiertes Erlebnis“ und „Inhaltskarten“ verfügbar. Wenn die Kampagne bzw. die Journey ohne zusätzliche Attribute für die Kanäle „E-Mail“, „SMS“, „Push-Benachrichtigung“ oder „Direkt-Mail“ verwendet, wird sie in der Sprache der ersten Option in der Liste versendet.
 
    ![](assets/multilingual-settings-6.png)
 
-   +++ Voraussetzungen für die Verwendung kontextbezogener Ereignisse in Ihren Bedingungen
+   +++Voraussetzungen für die Verwendung kontextbezogener Ereignisse in Ihren Bedingungen
 
-   Wenn Benutzer Ihren Inhalt anzeigen, wird eine Personalisierungsanfrage zusammen mit dem Erlebnisereignis gesendet. Um Kontextdaten in Ihren Bedingungen zu nutzen, müssen Sie zusätzliche Daten an die Payload der Personalisierungsanfrage anhängen. Erstellen Sie dazu in der Adobe Experience Platform-Datenerfassung eine Regel, um Folgendes anzugeben: Wenn eine Personalisierungsanforderung gesendet wird, fügen Sie der Anforderung DANN zusätzliche Daten hinzu und definieren Sie das Attribut, das mit dem Sprachfeld in Ihrem Schema übereinstimmen soll.
+   Wenn Benutzende Ihren Inhalt anzeigen, wird eine Personalisierungsanfrage zusammen mit dem Erlebnisereignis gesendet. Um kontextbezogene Daten in Ihren Bedingungen zu nutzen, müssen Sie zusätzliche Daten an die Payload der Personalisierungsanfrage anhängen. Dafür müssen Sie eine Regel in der Datenerfassung in Adobe Experience Platform erstellen, um Folgendes anzugeben: WENN eine Personalisierungsanfrage gesendet wird, DANN werden der Anfrage zusätzliche Daten hinzugefügt, die das Attribut so definieren, dass es mit dem Sprachfeld in Ihrem Schema übereinstimmt.
 
    >[!NOTE]
    >
-   >Diese Voraussetzungen sind nur für die Kanäle In-App und Inhaltskarten erforderlich.
+   >Diese Voraussetzungen sind nur für die Kanäle „In-App“ und „Inhaltskarten“ erforderlich.
 
-   1. Rufen Sie in der Adobe Experience Platform-Datenerfassung das Menü **[!UICONTROL Regeln]** auf und erstellen Sie eine neue Regel. Detaillierte Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform] [Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} .
+   1. Rufen Sie in der Datenerfassung in Adobe Experience Platform das Menü **[!UICONTROL Regeln]** auf und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform][Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
    2. Fügen Sie im Abschnitt **[!UICONTROL IF]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
       * Wählen Sie die **[!UICONTROL Erweiterung]** aus, mit der Sie arbeiten.
-      * Wählen Sie im Feld **[!UICONTROL Ereignistyp]** die Option &quot;AEP-Anforderungsereignis&quot;aus.
-      * Wählen Sie im rechten Bereich &quot;XDM Event Type equals personalization.request&quot;
-      * Klicken Sie zur Bestätigung auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]** .
+      * Wählen Sie im Feld **[!UICONTROL Ereignistyp]** die Option „AEP-Anfrageereignis“ aus.
+      * Wählen Sie im rechten Bereich „XDM-Ereignistyp entspricht Personalisierungsanfrage“ aus.
+      * Klicken Sie zur Bestätigung auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]**.
 
    3. Fügen Sie im Abschnitt **[!UICONTROL THEN]** der Regel eine Aktion hinzu, die wie folgt konfiguriert wurde:
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
       * Wählen Sie die **[!UICONTROL Erweiterung]** aus, mit der Sie arbeiten.
-      * Wählen Sie im Feld **[!UICONTROL Aktionstyp]** die Option &quot;Daten anhängen&quot;aus.
-      * Stellen Sie im Abschnitt JSON-Payload sicher, dass das Attribut, mit dem die zu verwendende Sprache abgerufen wird (im Beispiel unter &quot;Sprache&quot;), mit dem Namen des Attributs übereinstimmt, das im Schema angegeben ist, in das Ihr Datenerfassungsdatastream fließt.
+      * Wählen Sie im Feld **[!UICONTROL Aktionstyp]** die Option „Daten anhängen“ aus.
+      * Stellen Sie im Abschnitt „JSON-Payload“ sicher, dass das Attribut, mit dem die zu verwendende Sprache abgerufen wird (im Beispiel unter „Sprache“), mit dem Namen des Attributs übereinstimmt, das in dem Schema angegeben ist, in das der Datenstrom Ihrer Datenerfassung fließt.
 
         ```JSON
         {
@@ -195,15 +195,15 @@ In diesem Abschnitt können Sie Ihre unterschiedlichen Gebietsschemata zur Verwa
         }
         ```
 
-      * Klicken Sie auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]** , um Ihre Regel zu bestätigen und zu speichern.
+      * Klicken Sie auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]**, um Ihre Regel zu bestätigen und zu speichern.
 
 +++
 
-1. Ziehen Sie die Gebietsschemata in den Arbeitsbereich, um sie neu anzuordnen und ihre Priorität in der Liste zu verwalten.
+1. Verschieben Sie die Gebietsschemata per Drag-and-Drop in der Liste, um sie neu anzuordnen und ihre Priorität zu verwalten.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre **[!UICONTROL Spracheinstellungen]** zu erstellen.
 
-Beachten Sie, dass Sie nach der Einrichtung Ihrer Spracheinstellungen nicht mehr die Möglichkeit haben, diese zu bearbeiten.
+Beachten Sie, dass Sie nach der Einrichtung Ihrer Sprachvoreinstellungen nicht mehr die Möglichkeit haben, diese zu bearbeiten.
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -214,11 +214,11 @@ Beachten Sie, dass Sie nach der Einrichtung Ihrer Spracheinstellungen nicht mehr
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Erstellen von mehrsprachigen Inhalten {#create-multilingual-campaign}
+## Erstellen Sie einen mehrsprachigen Inhalt. {#create-multilingual-campaign}
 
 >[!AVAILABILITY]
 >
-> Die Vorschau für code-basierte Erlebnisse und Inhalte von Inhaltskarten ist derzeit mit dem automatisierten Fluss nicht verfügbar.
+> Die Vorschau für Code-basierte Erlebnisse und Inhalte von Inhaltskarten sind derzeit mit dem automatisierten Fluss nicht verfügbar.
 
 Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne oder Journey erstellen und Ihren Inhalt für die verschiedenen Gebietsschemata anpassen.
 

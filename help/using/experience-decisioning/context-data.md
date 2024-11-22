@@ -1,6 +1,6 @@
 ---
-title: Nutzung von Kontextdaten in Decisioning
-description: Erfahren Sie, wie Sie Kontextdaten in Decisioning nutzen können.
+title: Verwendung von Kontextdaten bei der Entscheidungsfindung
+description: Informationen zur Verwendung von Kontextdaten bei der Entscheidungsfindung
 feature: Decisioning
 topic: Integrations
 role: User
@@ -9,23 +9,23 @@ exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Nutzung von Kontextdaten in Decisioning {#context}
+# Verwendung von Kontextdaten bei der Entscheidungsfindung {#context}
 
-Mit Decisioning können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen durchzuführen, z. B. das Erstellen von [Entscheidungsregeln](rules.md) oder [Ranking-Formeln](ranking.md). Sie können zum Beispiel eine Entscheidungsregel entwerfen, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage  wärmer als 25 °C sein muss.
+Mit der Entscheidungsfindung können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen auszuführen, wie z. B. die Erstellung von [Entscheidungsregeln](rules.md) oder [Rangfolgeformeln](ranking.md). Sie können zum Beispiel eine Entscheidungsregel entwerfen, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage  wärmer als 25 °C sein muss.
 
 >[!NOTE]
 >
 >Kontextdaten werden in Adobe Experience Platform definiert und zum Zeitpunkt einer Entscheidungsanfrage gesendet. Historische Daten werden nicht berücksichtigt.
 
-Um Kontextdaten zu verwenden, müssen Sie zunächst die Daten definieren, die Sie in der Entscheidungsfindung zur Verfügung stellen möchten. Anschließend werden diese Daten nahtlos in die Entscheidungsfindung auf der Registerkarte **[!UICONTROL Kontextdaten]** integriert, die beim Erstellen einer Entscheidungsregel verfügbar ist. Sie können die Daten auch bei der Bearbeitung einer Rangfolgeformel nutzen.
+Für die Verwendung von Kontextdaten müssen Sie zunächst definieren, welche Daten Sie in der Entscheidungsfindung zur Verfügung stellen möchten. Sobald dies geschehen ist, werden diese Daten nahtlos in die Entscheidungsfindung auf der Registerkarte **[!UICONTROL Kontextdaten]** integriert, die beim Erstellen einer Entscheidungsregel verfügbar ist. Sie können die Daten auch bei der Bearbeitung einer Rangfolgeformel nutzen.
 
 ![](assets/decision-rules-context.png)
 
-Gehen Sie wie folgt vor, um Decisioning mit Adobe Experience Platform-Daten zu versehen:
+Hier erfahren Sie, wie Sie die Entscheidungsfindung mit Daten aus Adobe Experience Platform versorgen können:
 
 1. Erstellen Sie ein **Erlebnisereignis-Schema** in Adobe Experience Platform und den dazugehörigen **Datensatz**. [Lernen Sie, wie man Schemata erstellt](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um Decisioning mit Adobe Experience Platform-Daten zu v
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Sobald der Datastream gespeichert wurde, werden die Informationen des ausgewählten Datensatzes automatisch abgerufen und in Decisioning integriert, sodass sie in der Regel innerhalb von ca. 24 Stunden verfügbar sind.
+Sobald der Datenstrom gespeichert ist, werden die Informationen des ausgewählten Datensatzes automatisch abgerufen und in die Entscheidungsfindung integriert. In der Regel sind sie innerhalb von etwa 24 Stunden verfügbar.
 
 Weitere Anleitungen für die Arbeit mit Adobe Experience Platform finden Sie in den folgenden Ressourcen:
 

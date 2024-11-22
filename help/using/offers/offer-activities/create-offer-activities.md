@@ -34,8 +34,8 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Details zu Angebotsentscheidungen"
->abstract="Geben Sie den Namen der Entscheidung an und definieren Sie bei Bedarf Datum und Uhrzeit von Start und Ende. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. "
+>title="Details zur Angebotsentscheidung"
+>abstract="Geben Sie den Namen der Entscheidung ein und legen Sie bei Bedarf ein Start- und Enddatum fest. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**."
 
 1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
 
@@ -52,17 +52,17 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Entscheidungsumfänge"
->abstract="Konfigurieren Sie einen oder mehrere Umfänge für die Angebotsentscheidung, um die anzuzeigenden Angebote zu bestimmen. Dies geschieht durch Auswahl einer Platzierung und eines zugehörigen Auswertungskriteriums für diese Platzierung."
+>abstract="Konfigurieren Sie einen oder mehrere Umfänge für die Angebotsentscheidung, um festzulegen, welche Angebote angezeigt werden. Wählen Sie hierzu eine Platzierung und ein zugehöriges Auswertungskriterium für diese Platzierung aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Platzierung"
->abstract="Wählen Sie eine Platzierung aus, an der Angebote bereitgestellt werden sollen."
+>abstract="Platzierung wählen, in der die Angebote unterbreitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Auswertungskriterien"
->abstract="Ein Auswertungskriterium besteht aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden. Die Abfolge der Auswertungskriterien bestimmt, welche Sammlung zuerst ausgewertet wird. Es ist mindestens ein Auswertungskriterium erforderlich."
+>abstract="Auswertungskriterien bestehen aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden.  Die Abfolge der Auswertungskriterien bestimmt, welche Sammlung zuerst bewertet wird. Es ist mindestens ein Auswertungskriterium erforderlich."
 
 1. Wählen Sie eine Platzierung aus der Dropdown-Liste aus. Sie wird zum ersten Entscheidungsumfang in Ihrer Entscheidung hinzugefügt.
 
@@ -309,9 +309,9 @@ Die findet folgendermaßen statt:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Hinzufügen eines Fallback-Angebots"
->abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird."
+>abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Regeln und Einschränkungen der Angebotseignung entsprechen."
 
-Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird.
+Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Regeln und Einschränkungen der Angebotseignung entsprechen.
 
 Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 

@@ -9,7 +9,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zus
 
 ## Zugreifen auf und Verwalten von Auswahlstrategien
 
-1. Gehen Sie zu **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Selection strategy]**.
+1. Navigieren Sie zu **[!UICONTROL Entscheidungsfindung]** > **[!UICONTROL Strategie-Setup]** > **[!UICONTROL Auswahlstrategien]**.
 
 1. Es werden alle Auswahlstrategien aufgelistet, die bisher erstellt wurden. Es stehen Filter zur Verfügung, mit denen Sie Strategien gemäß der Rangfolgenmethode abrufen können.
 

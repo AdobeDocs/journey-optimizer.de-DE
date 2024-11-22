@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
 * **Komposition föderierter Zielgruppen**: Führen Sie Datensätze direkt aus Ihrem bestehenden Data Warehouse zusammen, um Adobe Experience Platform Zielgruppen und Attribute in einem System aufzubauen und anzureichern. Lesen Sie das Handbuch zu [Komposition föderierter Zielgruppen](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home).
 
-Weitere Informationen zur Verwendung von benutzerdefinierten Uploads und Zielgruppen für die Zusammenstellung von Federated-Zielgruppen in [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](custom-upload-fac.md).
+Weitere Informationen zur Verwendung von benutzerdefinierten Uploads und der Komposition föderierter Zielgruppen in [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](custom-upload-fac.md).
 
 ## Ansprechen von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -114,7 +114,7 @@ In Adobe Journey Optimizer werden Zielgruppen aus Segmentdefinitionen mithilfe e
 
 Die Profilliste für die Zielgruppe wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
 
-Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Zielgruppen infolge von Benutzeraktivität aktualisiert. Nachdem eine Segmentdefinition erstellt und die daraus resultierende Zielgruppe gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass bei sich ändernden Profildaten Personen zur Zielgruppe hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"}
+Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Zielgruppen infolge von Benutzeraktivität aktualisiert. Nachdem eine Segmentdefinition erstellt und die daraus resultierende Zielgruppe gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass bei sich ändernden Profildaten Personen zur Zielgruppe hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"}
 
 >[!NOTE]
 >

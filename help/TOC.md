@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -309,8 +309,8 @@ ht-degree: 97%
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
-      + [Gebietsschema erstellen](using/content-management/multilingual-locale.md)
-      + [Erstellen eines Sprachanbieters](using/content-management/multilingual-provider.md)
+      + [Erstellen eines Gebietsschemas](using/content-management/multilingual-locale.md)
+      + [Erstellen eines Sprachdienstleisters](using/content-management/multilingual-provider.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
    + Arbeiten mit dem Inhaltsexperiment {#content-experiment}
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
-      + [Adobe Experience Platform-Daten für die Personalisierung verwenden (Beta)](using/personalization/lookup-aep-data.md)
+      + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/lookup-aep-data.md)
       + Arbeiten mit dem Personalisierungseditor {#expression-editor}
          + [Über den Personalisierungseditor](using/personalization/personalization-build-expressions.md)
          + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
-      + [Benutzerdefinierter Upload (CSV) und Zusammengestellte Zielgruppenkomposition](using/audience/custom-upload-fac.md)
+      + [Benutzerdefinierter Upload (CSV) und Komposition föderierter Zielgruppen](using/audience/custom-upload-fac.md)
       + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
       + Erstellen von Zielgruppen {#audience-orchestration}
          + [Erste Schritte mit der Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
@@ -450,8 +450,8 @@ ht-degree: 97%
    + [Ausschlussgründe](using/reports/exclusion-list.md)
 + Entscheidungsfunktionen {#decisioning}
    + [Erste Schritte mit Entscheidungsfunktionen](using/experience-decisioning/gs-decision.md)
-   + Decisioning {#experience-decisioning}
-      + [Erste Schritte mit Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + Entscheidungsfindung {#experience-decisioning}
+      + [Erste Schritte mit der Entscheidungsfindung](using/experience-decisioning/gs-experience-decisioning.md)
       + API-Verweis{#api-reference}
          + Entscheidungselemente{#decision-items}
             + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)

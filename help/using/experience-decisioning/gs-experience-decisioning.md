@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Decisioning
-description: Weitere Informationen zu Entscheidungsfindungen
+title: Erste Schritte mit der Entscheidungsfindung
+description: Weitere Informationen zur Entscheidungsfindung
 feature: Decisioning
 topic: Integrations
 role: User
@@ -9,17 +9,17 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
-# Erste Schritte mit Decisioning {#get-started-experience-decisioning}
+# Erste Schritte mit der Entscheidungsfindung {#get-started-experience-decisioning}
 
-## Was ist Entscheidungsfindung {#about}
+## Was ist die Entscheidungsfindung? {#about}
 
-Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
+Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien sind nur zur Verwendung in code-basierten Erlebniskampagnen verfügbar.
+Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert. Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
@@ -41,11 +41,11 @@ Um eine optimale Nutzung von Decisioning sicherzustellen, sollten Sie die folgen
 * **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen.
 * **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte).
 
-## Wichtige Schritte bei der Entscheidung {#steps}
+## Wichtige Schritte bei der Entscheidungsfindung {#steps}
 
-Die wichtigsten Schritte für die Arbeit mit Decisioning sind:
+Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
-1. **Zuweisen entsprechender Berechtigungen**. Die Entscheidungsfindung ist nur für Benutzer verfügbar, die Zugriff auf eine Decisioning-bezogene **[!UICONTROL Rolle]** haben, z. B. Entscheidungsmanager. Wenn Sie nicht auf Decisioning zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Zuweisen entsprechender Berechtigungen**. Die Entscheidungsfindung steht nur Benutzenden mit Zugriff auf eine Entscheidungfindungs-bezogene **[!UICONTROL Rolle]** zur Verfügung, z. B. Entscheidungsträgern. Wenn Sie nicht auf die Entscheidungsfindung zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
    +++Erfahren Sie, wie Sie die Rolle „Entscheidungsträger“ zuweisen
 

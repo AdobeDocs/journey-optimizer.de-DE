@@ -1,5 +1,5 @@
 ---
-title: Anwendungsfall für Entscheidungen
+title: Anwendungsfall für die Entscheidungsfindung
 description: Erfahren Sie, wie Sie Entscheidungen mithilfe von Experimenten mit dem Code-basierten Kanal erstellen.
 feature: Decisioning
 topic: Integrations
@@ -8,11 +8,11 @@ level: Intermediate, Experienced
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
-# Anwendungsfall für Entscheidungen {#experience-decisioning-uc}
+# Anwendungsfall für die Entscheidungsfindung {#experience-decisioning-uc}
 
 In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandbehandlungen definieren, von denen jede eine andere Entscheidungsrichtlinie enthält, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 

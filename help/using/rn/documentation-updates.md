@@ -21,7 +21,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Oktober 2024 {#oct-2024}
 
-* Alle neuen Funktionen und Verbesserungen der Version vom 24. Oktober 2010 wurden in der Dokumentation beschrieben. [!DNL Journey Optimizer] [Mehr dazu](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen von [!DNL Journey Optimizer] in der Version Oktober 2024 sind in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Alle in [!DNL Journey Optimizer] verfügbaren Kommunikationskanäle sind jetzt in einem speziellen Abschnitt der Dokumentation gruppiert. [Mehr dazu](../channels/gs-channels.md)
 * Die Seite **Konfigurieren des Code-basierten Erlebnisses** wurde verbessert, um den Vorgang klarer zu beschreiben. Dazu gehört auch der Abschnitt, in dem erklärt wird, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Erstellen einer Web-Kanalkonfiguration** wurde aktualisiert, um die Schritte beim Erstellen einer Regel zum Seitenabgleich zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gelten. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)

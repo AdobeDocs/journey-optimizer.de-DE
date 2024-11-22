@@ -9,7 +9,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 47%
+ht-degree: 87%
 
 ---
 
@@ -51,29 +51,29 @@ Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
 Eine Entscheidungspolitik unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
-+++ Optimieren von Modellen für benutzerdefinierte [!DNL Customer Journey Analytics]-Metriken
++++ Optimieren von Modellen für benutzerdefinierte Metriken in [!DNL Customer Journey Analytics]
 
 >[!NOTE]
 >
->Diese Funktion steht nur [!DNL Customer Journey Analytics] -Kunden mit Administratorrechten zur Verfügung.
+>Diese Funktion steht nur Kundinnen und Kunden von [!DNL Customer Journey Analytics] mit Administratorrechten zur Verfügung.
 >
->Stellen Sie vor dem Start sicher, dass Sie Journey Optimizer mit Customer Journey Analytics integriert haben, um Journey Optimizer-Datensätze in Ihre standardmäßigen Datenansichten zu exportieren. [Erfahren Sie, wie Sie  [!DNL Journey Optmizer] Daten in [!DNL Customer Journey Analytics]](../reports/cja-ajo.md) nutzen
+>Bevor Sie beginnen, stellen Sie sicher, dass Sie Journey Optimizer mit Customer Journey Analytics integriert haben, um Journey Optimizer-Datensätze in Ihre Standard-Datenansichten zu exportieren.  [Informationen zum Verwenden von Daten aus  [!DNL Journey Optmizer]  in  [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
 
-Personalisierte Optimierungsmodelle sind eine Art KI-Modell, mit dem Sie Geschäftsziele definieren und Kundendaten nutzen können, um geschäftsorientierte Modelle zu trainieren, um personalisierte Angebote bereitzustellen und KPIs zu maximieren. Detaillierte Informationen zum Erstellen eines personalisierten AI-Modells finden Sie in der [Dokumentation zur Entscheidungsverwaltung](../offers/ranking/personalized-optimization-model.md).
+Personalisierte Optimierungsmodelle sind ein KI-Modelltyp, mit dem Sie Geschäftsziele definieren und mithilfe von Kundendaten geschäftsorientierte Modelle trainieren können, um personalisierte Angebote bereitzustellen und KPIs zu maximieren.  Ausführliche Informationen zum Erstellen eines personalisierten KI-Modells finden Sie in der [Dokumentation zum Entscheidungs-Management](../offers/ranking/personalized-optimization-model.md).
 
-Standardmäßig verwenden personalisierte Optimierungsmodelle **Angebotsklicks** als Optimierungsmetrik. Wenn Sie mit [!DNL Customer Journey Analytics] arbeiten, können Sie mit [!DNL Decisioning] Ihre eigenen benutzerspezifischen Metriken nutzen, um Ihr Modell zu optimieren.
+Personalisierte Optimierungsmodelle verwenden standardmäßig **Angebot-Klicks** als Optimierungsmetrik. Wenn Sie mit [!DNL Customer Journey Analytics] arbeiten, können Sie mit [!DNL Decisioning] Ihre eigenen benutzerdefinierten Metriken verwenden, um Ihr Modell zu optimieren.
 
-Rufen Sie dazu den Bildschirm zur Erstellung des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]** . Alle Metriken aus Ihrer standardmäßigen [!DNL Customer Journey Analytics] [Datenansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} werden in der Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
+Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. In der Liste werden alle Metriken aus Ihrer standardmäßigen Anzeige [Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in [!DNL Customer Journey Analytics] angezeigt. Wählen Sie die Metrik aus, mit der Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
 >[!NOTE]
 >
->Standardmäßig verwenden Metriken in [!DNL Customer Journey Analytics] ein Attributionsmodell &quot;Letztkontakt&quot;, mit dem 100 % des Guthabens dem Touchpoint zugewiesen wird, der zuletzt vor der Konvertierung auftritt.
+>Standardmäßig verwenden Metriken in [!DNL Customer Journey Analytics] ein Attributionsmodell „Letztkontakt“, mit dem 100 % des Credits dem Touchpoint zugewiesen werden, der zuletzt vor der Konvertierung auftritt.
 >
->Es ist zwar möglich, das Attributionsmodell zu ändern, aber nicht alle Attributionsmodelle eignen sich ideal für die Optimierung des KI-Modells. Es wird empfohlen, ein Attributionsmodell sorgfältig auszuwählen, das Ihren Optimierungszielen entspricht, um die Modellgenauigkeit und -leistung sicherzustellen.
+>Es ist zwar möglich, das Attributionsmodell zu ändern, aber nicht alle Attributionsmodelle eignen sich ideal für die Optimierung von KI-Modellen.  Wir empfehlen, mit Sorgfalt ein Attributionsmodell auszuwählen, das Ihren Optimierungszielen entspricht, um die Genauigkeit und Leistung des Modells sicherzustellen.
 >
->Weitere Informationen zu verfügbaren Attributionsmodellen und Anleitungen zu ihrer Verwendung finden Sie in der [[!DNL Customer Journey Analytics] Dokumentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>Weitere Informationen zu verfügbaren Attributionsmodellen und Anleitungen zu ihrer Verwendung finden Sie in der [[!DNL Customer Journey Analytics] Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 

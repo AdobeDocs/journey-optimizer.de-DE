@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -253,13 +253,13 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
->title="Entscheidungsattribute aus Katalog auswählen"
->abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie hier ein Attribut aus dem ausgewählten Katalog aus."
+>title="Auswählen von Entscheidungsattributen aus dem Katalog"
+>abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie ein Attribut aus dem ausgewählten Katalog aus, das Sie hier verwenden möchten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="Entscheidungsrichtlinie"
->abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für jede Zielgruppe bereitstellen."
+>abstract="Mit der Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und an jede Zielgruppe gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
