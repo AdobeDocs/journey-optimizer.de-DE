@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 55%
+source-wordcount: '438'
+ht-degree: 50%
 
 ---
 
@@ -46,7 +46,7 @@ Sie können Ihre Inhalte wie folgt in der Vorschau anzeigen und testen:
 
 * **Testprofile**
 
-  Verwenden Sie Testprofile, um eine Vorschau Ihres Inhalts anzuzeigen, E-Mail-Testsendungen durchzuführen und das E-Mail-Rendering zu überprüfen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden.
+  Verwenden Sie Testprofile, um eine Vorschau Ihres Inhalts anzuzeigen, E-Mail-Testsendungen durchzuführen und das E-Mail-Rendering zu überprüfen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten prüfen, wie diese angezeigt werden. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
   ➡️ [Testprofile auswählen](test-profiles.md)
 
@@ -56,7 +56,7 @@ Sie können Ihre Inhalte wie folgt in der Vorschau anzeigen und testen:
 
   ➡️ [Prüfen des E-Mail-Renderings](rendering.md)
 
-  ➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen und einen Testversand durchführen können](#video-preview).
+  ➡️ [Vorschau und Testversand Ihrer E-Mail (Video)](#video-preview)
 
 * **Beispieleingabedaten**
 
