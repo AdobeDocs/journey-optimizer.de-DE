@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
-workflow-type: ht
-source-wordcount: '1705'
-ht-degree: 100%
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 94%
 
 ---
 
@@ -30,29 +30,33 @@ Um Ihre Kundinnen und Kunden zu einer definierten Web-Seite zu leiten, die angez
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
-Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Journey-Management]** > **[!UICONTROL Landingpages]** aus.
+Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Content Management]** > **[!UICONTROL Landingpages]** aus.
 
 ![](assets/lp_access-list.png)
 
-Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie können sie nach ihrem Status oder Änderungsdatum filtern.
+Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie können sie nach Status, Änderungsdatum oder Tags filtern.
 
 ![](assets/lp_access-list-filter.png)
 
-In dieser Liste können Sie auf den [Live-Bericht für die Landingpage](../reports/lp-report-live.md) oder den [Landingpage-Bericht](../reports/lp-report-global-cja.md) für veröffentlichte Elemente zugreifen.
-
-Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung aufheben.
-
->[!CAUTION]
->
->Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr, und es wird eine Fehlerseite angezeigt.
-
-Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte Aktion auszuwählen.
+In dieser Liste können Sie auf eine Reihe von Aktionen zugreifen. Klicken Sie auf die drei Punkte neben einer Landingpage, um die gewünschte Aktion auszuwählen:
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->Sie können eine [veröffentlichte](#publish-landing-page) Landingpage nicht löschen. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung aufheben.
+* Für veröffentlichte Elemente können Sie auf den [Landingpage-Bericht](../reports/lp-report-global-cja.md) oder den [letzten 24 Stunden Live-Bericht](../reports/lp-report-live.md) zugreifen.
+
+* Sie können eine Landingpage löschen oder duplizieren.
+
+  >[!NOTE]
+  >
+  >Sie können eine [veröffentlichte](#publish-landing-page) Landingpage nicht löschen. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung aufheben.
+
+* Sie können die Veröffentlichung einer veröffentlichten Landingpage rückgängig machen.
+
+  >[!CAUTION]
+  >
+  >Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr, und es wird eine Fehlerseite angezeigt.
+
+* Sie können auch die zugehörigen [Tags](../start/search-filter-categorize.md#tags) einer Landingpage bearbeiten.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -279,11 +283,6 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}
