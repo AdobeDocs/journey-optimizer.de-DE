@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 95%
 
 ---
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Wenn Sie keinen Interaktionszeitraum auf eine Ausführung anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Letzte Interaktion]** ein.
 
-1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen im Falle von Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn es weniger qualifizierte Profile als Zielgruppenprofile gibt, nachdem die Zielgruppe für diese Ausführung ausgewertet wurde. In diesem Fall hat die Ausführung den Status **[!UICONTROL Fehlgeschlagen]** .
+1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen bei Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn die qualifizierten Profile kleiner als die Zielgruppenprofile sind, nachdem die Zielgruppe für diese Ausführung bewertet wurde.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Sollte die Anzahl der qualifizierten Profile nicht mit der Anzahl der Zielgruppenprofile übereinstimmen (z. B. werden 1500 Gmail-Adressen in der Ausführung angesprochen, es sind jedoch nur 700 Gmail-Profile qualifiziert):
+   Sollte die Anzahl der qualifizierten Profile nicht mit der Anzahl der Zielgruppenprofile übereinstimmen (z. B. werden 1500 Gmail-Adressen in der Ausführung angesprochen, es gibt jedoch nur 700 Gmail-qualifizierte Profile):
 
-   * Wenn die Option aktiviert ist, schlägt die Ausführung fehl. Sie können dann entweder festlegen, dass im nächsten Lauf weniger Profile ausgewählt werden sollen, oder [teilen Sie den Lauf](#split-phase) in eine neue Phase und wählen Sie eine neue Kampagne für die neue Phase aus, um dieselben Profile erneut auszuwählen.
+   * Wenn die Option aktiviert ist, schlägt die Ausführung fehl und die Ausführung erhält den Status **[!UICONTROL Fehlgeschlagen]** . <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * Wenn die Option nicht aktiviert ist, wird die Ausführung ausgeführt, es wird jedoch nur die verfügbare Anzahl von Profilen angesprochen.
 
