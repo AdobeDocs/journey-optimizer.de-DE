@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -264,4 +264,4 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="Platzierung"
->abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung bei der Berichterstellung über verschiedene Platzierungen hinweg verfolgen."
+>abstract="Eine Platzierung bestimmt, wo die zurückgegebenen Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung über verschiedene Platzierungen hinweg in Berichten verfolgen."

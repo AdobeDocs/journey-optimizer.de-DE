@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 60%
+ht-degree: 68%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Kennzeichnungen zur Zugriffsverwaltung"
->abstract="Sie können den Zugriff auf diese Kampagne anhand von Zugriffsbeschriftungen einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **Zugriff verwalten** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Beschriftungen auswählen, für die Sie berechtigt sind."
+>title="Labels zur Zugriffsverwaltung"
+>abstract="Sie können den Zugriff auf diese Kampagne anhand von Zugriffs-Labels einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **Zugriff verwalten** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie die Berechtigung haben."
 
 Mit der Funktion Zugriffskontrolle auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten definieren:
 

@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ Um eine neue Kampagne zu erstellen, navigieren Sie in der linken Leiste zum Men�
 
 Bevor Sie beginnen, lesen Sie die Kampagnenvoraussetzungen auf [dieser Seite](get-started-with-campaigns.md#before-starting-campaign-prerequisites) durch.
 
-## Kampagnentyp auswählen {#campaigntype}
+## Auswählen des Kampagnentyps {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -143,7 +143,7 @@ Zusätzlich zum Nachrichteninhalt selbst können Sie die folgenden Einstellungen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Kampagnenzeitplan"
->abstract="Standardmäßig starten Kampagnen bei manueller Aktivierung und enden unmittelbar nach dem einmaligen Versand der Nachricht. Sie haben die Flexibilität, ein bestimmtes Datum und eine bestimmte Uhrzeit für den Versand der Nachricht festzulegen. Darüber hinaus können Sie ein Enddatum für wiederkehrende oder API-gesteuerte Kampagnen angeben. In den Aktionsauslösern können Sie auch die Versandhäufigkeit der Nachrichten nach eigenen Wünschen konfigurieren."
+>abstract="Standardmäßig starten Kampagnen bei manueller Aktivierung und enden unmittelbar nach dem einmaligen Versand der Nachricht. Sie können ein bestimmtes Datum und eine Uhrzeit für den Versand der Nachricht festlegen. Darüber hinaus können Sie ein Enddatum für wiederkehrende oder API-gesteuerte Kampagnen angeben. In den Aktionsauslösern können Sie auch die Versandhäufigkeit der Nachrichten nach eigenen Wünschen konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

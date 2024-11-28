@@ -8,7 +8,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu st
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="Regeltyp"
->abstract="Geben Sie den Begrenzungstyp für die Regel an. **[!UICONTROL Journey Entry Cap]** begrenzt die Anzahl der Einträge in der Journey über einen bestimmten Zeitraum für ein Profil, während **[!UICONTROL Journey Concurrency Cap]** begrenzt, wie viele Journey ein Profil gleichzeitig anmelden kann."
+>abstract="Geben Sie den Begrenzungstyp für die Regel an. Die **[!UICONTROL Begrenzung für Journey-Eintritte]** begrenzt für ein Profil die Anzahl der Eintritte in die Journey über einen bestimmten Zeitraum, während die **[!UICONTROL Begrenzung gleichzeitiger Journeys]** eingrenzt, in wie viele Journeys ein Profil gleichzeitig eingetreten sein kann."
 
 Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 

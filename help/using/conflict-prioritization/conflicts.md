@@ -1,18 +1,18 @@
 ---
 title: Identifizieren von potenziellen Konflikten in Journeys und Kampagnen
-description: Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagnen identifizieren können.
+description: Erfahren Sie, wie Sie potenzielle Konflikte in Journeys und Kampagnen identifizieren können.
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-
-# Potenzielle Konflikte in Journey und Kampagnen erkennen {#conflict}
+# Erkennen von potenziellen Konflikten in Journeys und Kampagnen {#conflict}
 
 >[!AVAILABILITY]
 >
@@ -48,13 +48,13 @@ Nachfolgend finden Sie eine Zusammenfassung darüber, wie Journey Optimizer pote
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
->title="Potenzielle Konflikte anzeigen"
->abstract="Überprüfen Sie, wann immer Überschneidungen mit anderen Kampagnen möglich sind. Konflikte werden nur für Live- und geplante Kampagnen angezeigt. Beachten Sie, dass die Schaltfläche verfügbar wird, sobald Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**."
+>title="Anzeigen potenzieller Konflikte"
+>abstract="Prüfen Sie dies, wann immer Überschneidungen mit anderen Kampagnen möglich sind. Konflikte werden nur für Live- und geplante Kampagnen angezeigt. Beachten Sie, dass die Schaltfläche verfügbar wird, wenn Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Potenzielle Konflikte anzeigen"
->abstract="Überprüfen Sie, wann immer Überschneidungen mit anderen Journey möglich sind. Konflikte werden nur für Live- und geplante Journey angezeigt. Beachten Sie, dass die Schaltfläche verfügbar wird, sobald Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**."
+>title="Anzeigen potenzieller Konflikte"
+>abstract="Prüfen Sie dies, wann immer Überschneidungen mit anderen Journeys möglich sind. Konflikte werden nur für Live- und geplante Journeys angezeigt. Beachten Sie, dass die Schaltfläche verfügbar wird, wenn Sie eine der folgenden Einstellungen zugewiesen haben: **[!UICONTROL Start-/Enddatum]**, **[!UICONTROL Zielgruppe]**, **[!UICONTROL Kanal]**, **[!UICONTROL Kanalkonfiguration]** und **[!UICONTROL Regelsatz]**."
 
 Wenn Sie eine Journey oder Kampagne erstellen, können Sie mit Journey Optimizer überprüfen, ob es zu Überschneidungen mit anderen Journeys oder Kampagnen kommen kann. Gehen Sie dazu wie folgt vor:
 
