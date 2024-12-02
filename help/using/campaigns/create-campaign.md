@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 42%
@@ -60,7 +60,6 @@ Jetzt können Sie die Audience Ihrer Kampagne auswählen. Eine Zielgruppe ist ei
 >* Zielgruppen und Attribute aus der [Zielgruppenkomposition](../audience/get-started-audience-orchestration.md) stehen derzeit nicht zur Verwendung mit Healthcare Shield oder Privacy und Security Shield zur Verfügung
 >
 >* Bei API-ausgelösten Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden.
-
 
 Gehen Sie wie folgt vor, um die Zielgruppe einer geplanten Marketing-Kampagne zu definieren:
 
