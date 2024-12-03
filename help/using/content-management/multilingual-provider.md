@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,10 @@ Stellen Sie vor dem Hinzufügen Ihres ausgewählten Übersetzungsanbieters siche
    ![](assets/provider_1.png)
 
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Anbieter]** den gewünschten Anbieter aus.
+
+   >[!NOTE]
+   >
+   >Um einen Provider zur Liste hinzuzufügen, können Sie Ihren Provider auffordern, die in [diesem Dokument](https://developer.adobe.com/gcs/partner/) beschriebenen Anweisungen zu befolgen, um den Onboarding-Prozess abzuschließen.
 
    ![](assets/provider_2.png)
 
