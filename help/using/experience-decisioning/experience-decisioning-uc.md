@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 77%
+source-wordcount: '393'
+ht-degree: 67%
 
 ---
 
 # Anwendungsfall für die Entscheidungsfindung {#experience-decisioning-uc}
 
+Sie sind sich nicht sicher, ob eine bestimmte Rangformel bessere Leistungen erbringt als die vorab zugewiesenen Angebotsprioritäten.
+
 In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandbehandlungen definieren, von denen jede eine andere Entscheidungsrichtlinie enthält, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
+
+Richten Sie das Experiment so ein, dass
+
+* Die erste Behandlung enthält eine Auswahlstrategie mit Priorität als Ranking-Methode.
+* Die zweite Behandlung enthält eine andere Auswahlstrategie, für die eine Formel die Rangmethode ist.
+
 
 ## Erstellen von Entscheidungselementen und Auswahlstrategien
 
@@ -68,5 +77,3 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** Ihre Behandlung B aus, um den Inhalt zu ändern, und wiederholen Sie die obigen Schritte, um eine weitere Entscheidung zu erstellen.
 
 1. Speichern Sie Ihren Inhalt.
-
-
