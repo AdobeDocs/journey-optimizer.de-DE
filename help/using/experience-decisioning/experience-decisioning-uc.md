@@ -11,7 +11,7 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 67%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 
 Sie sind sich nicht sicher, ob eine bestimmte Rangformel bessere Leistungen erbringt als die vorab zugewiesenen Angebotsprioritäten.
 
-In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandbehandlungen definieren, von denen jede eine andere Entscheidungsrichtlinie enthält, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
+In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandabwandlungen definieren, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
 Richten Sie das Experiment so ein, dass
 
@@ -31,7 +31,7 @@ Richten Sie das Experiment so ein, dass
 
 Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln einrichten und Rangfolgenmethoden festlegen. Mit diesen Elementen können Sie Auswahlstrategien erstellen.
 
-1. Navigieren Sie zu **[!UICONTROL Decisioning]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Entscheidungselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
+1. Navigieren Sie zu **[!UICONTROL Entscheidungsfindung]** > **[!UICONTROL Kataloge]** und erstellen Sie mehrere Entscheidungselemente. Legen Sie Einschränkungen mithilfe von Zielgruppen oder Regeln fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -74,6 +74,6 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
 
-1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** Ihre Behandlung B aus, um den Inhalt zu ändern, und wiederholen Sie die obigen Schritte, um eine weitere Entscheidung zu erstellen.
+1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** Ihre Abwandlung B aus, um den Inhalt zu ändern, und wiederholen Sie die obigen Schritte, um eine weitere Entscheidung zu erstellen.
 
 1. Speichern Sie Ihren Inhalt.
