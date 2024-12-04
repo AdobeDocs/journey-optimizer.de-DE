@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2589'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Dieser Abschnitt kann nicht bearbeitet werden.
 
-1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können die ausgewählte Kampagne auch über die Schaltfläche **[!UICONTROL Löschen]** **[!UICONTROL löschen]**. Durch diese Aktion werden nicht nur die Kampagnen gelöscht, sondern auch die anderen Eigenschaften auf Phasenebene (Domain-Gruppen schließen aus, Kampagne, Journey-Ausschluss usw.). Nach dem Löschen können Sie entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
+1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können die ausgewählte Kampagne auch über die Schaltfläche **[!UICONTROL Löschen]** **[!UICONTROL löschen]**. Mit dieser Aktion wird nicht nur die Kampagne gelöscht, sondern auch andere Eigenschaften auf Phasenebene wie Domain-Gruppenausschluss, Campaign oder Journey-Ausschluss und weitere. Nach dem Löschen können Sie entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -184,15 +184,15 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Wenn Sie keinen Interaktionszeitraum auf eine Ausführung anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Letzte Interaktion]** ein.
 
-1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen bei Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn die qualifizierten Profile kleiner als die Zielgruppenprofile sind, nachdem die Zielgruppe für diese Ausführung bewertet wurde.
+1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen im Fall von Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn es weniger qualifizierte Profile als Zielgruppenprofile gibt, nachdem die Zielgruppe für diese Ausführung ausgewertet wurde.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Sollte die Anzahl der qualifizierten Profile nicht mit der Anzahl der Zielgruppenprofile übereinstimmen (z. B. werden 1500 Gmail-Adressen in der Ausführung angesprochen, es gibt jedoch nur 700 Gmail-qualifizierte Profile):
+   Sollte die Anzahl der qualifizierten Profile nicht mit der Anzahl der Zielgruppenprofile übereinstimmen (z. B. werden 1.500 Gmail-Adressen in der Ausführung angesprochen, es gibt jedoch nur 700 qualifizierte Gmail-Profile):
 
-   * Wenn die Option aktiviert ist, schlägt die Ausführung fehl und die Ausführung erhält den Status **[!UICONTROL Fehlgeschlagen]** . <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
+   * Wenn die Option aktiviert ist, schlägt die Ausführung fehl und die Ausführung erhält den Status **[!UICONTROL Fehlgeschlagen]**. <!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
-   * Wenn die Option nicht aktiviert ist, wird die Ausführung ausgeführt, es wird jedoch nur die verfügbare Anzahl von Profilen angesprochen.
+   * Wenn die Option nicht aktiviert ist, findet die Ausführung statt, es wird jedoch nur die verfügbare Anzahl von Profilen angesprochen.
 
 1. **[!UICONTROL Aktivieren]** Sie die Ausführung. [Weitere Informationen](#activate-run)
 

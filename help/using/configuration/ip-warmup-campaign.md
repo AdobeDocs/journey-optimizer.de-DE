@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!IMPORTANT]
    >
-   >In einer IP-Aufwärmekampagne zulässige Zielgruppen müssen [segmentbasiert](../audience/creating-a-segment-definition.md) sein und mithilfe der [standardmäßigen Zusammenführungsrichtlinie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} erstellt werden.
+   >In einer IP-Aufwärmkampagne zulässige Zielgruppen müssen [segmentbasiert](../audience/creating-a-segment-definition.md) sein und mithilfe der [standardmäßigen Zusammenführungsrichtlinie](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} erstellt werden.
 
    Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >[Geschäftsregeln](rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmspläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
+   >[Geschäftsregeln](rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmpläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
 
    Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 

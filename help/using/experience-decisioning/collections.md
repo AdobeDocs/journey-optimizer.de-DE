@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Mit Sammlungen können Entscheidungselemente nach den eigenen Vorstellungen kate
 
 Angenommen, Sie haben dem Katalogschema Ihrer Entscheidungselemente das benutzerdefinierte Attribut „Kategorie“ hinzugefügt. Auf diese Weise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im Attribut „Kategorie“ enthält.
 
-Auf die Liste der Sammlungen kann über das Menü **[!UICONTROL Kataloge]** zugegriffen werden.
+Die Liste der Sammlungen ist über das Menü **[!UICONTROL Kataloge]** zugänglich.
 
 Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
@@ -53,4 +53,4 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
 >[!NOTE]
 >
->Jede Artikelsammlung kann bis zu 500 Angebotselemente enthalten. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+>Jede Elementsammlung kann bis zu 500 Angebotselemente enthalten. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)

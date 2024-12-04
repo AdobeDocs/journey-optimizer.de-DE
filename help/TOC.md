@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,15 +273,15 @@ ht-degree: 98%
          + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
    + Code-basiertes Erlebnis {#code-based-experience}
       + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
-      + Codebasierter Kanal {#configure-code-based-channel} konfigurieren
+      + Konfigurieren des Code-basierten Kanals {#configure-code-based-channel}
          + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
-         + [Codebasierte Erlebnisoberflächen](using/code-based/code-based-surface.md)
+         + [Code-basierte Erlebnisoberflächen](using/code-based/code-based-surface.md)
          + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
          + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
-      + Codebasierte Erlebnisse erstellen {#create-code-based-experiences}
-         + [Codebasierte Erlebnisse erstellen und erstellen](using/code-based/create-code-based.md)
-         + [Codebasierte Erlebnisse testen](using/code-based/test-code-based.md)
-         + [Codebasierte Erlebnisse verwalten](using/code-based/publish-code-based.md)
+      + Erstellen von Code-basierten Erlebnissen {#create-code-based-experiences}
+         + [Aufbauen und Entwerfen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
+         + [Testen von Code-basierten Erlebnissen](using/code-based/test-code-based.md)
+         + [Verwalten von Code-basierten Erlebnissen](using/code-based/publish-code-based.md)
    + Inhaltskarten{#content-card}
       + [Erste Schritte mit Inhaltskarten](using/content-card/get-started-content-card.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}
@@ -380,7 +380,7 @@ ht-degree: 98%
          + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
          + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
          + [Zugreifen auf und Verwalten von Zielgruppen](using/audience/access-audiences.md)
-      + [Zusammengestellte Zielgruppenkomposition](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home)
+      + [Komposition föderierter Zielgruppen](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
@@ -486,7 +486,7 @@ ht-degree: 98%
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
       + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
-      + [Bericht zu Entscheidungen](using/experience-decisioning/cja-reporting.md)
+      + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
       + [Anwendungsfall für die Entscheidungsfindung](using/experience-decisioning/experience-decisioning-uc.md)
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
@@ -501,7 +501,7 @@ ht-degree: 98%
          + [Erstellen von Sammlungsqualifizierern](using/offers/offer-library/creating-tags.md)
       + Erstellen von Rankings {#rankings}
          + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
-         + [Ranking-Formeln](using/offers/ranking/create-ranking-formulas.md)
+         + [Rangfolgeformeln](using/offers/ranking/create-ranking-formulas.md)
          + KI-Modelle {#ai-models}
             + [Über KI-Modelle](using/offers/ranking/ai-models.md)
             + KI-Modelltypen {#ai-model-types}

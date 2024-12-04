@@ -1,18 +1,19 @@
 ---
 title: Code-basierte Oberfläche
-description: Erfahren Sie, was eine code-basierte Erlebnisoberfläche ist.
+description: Erfahren Sie, was eine Code-basierte Erlebnisoberfläche ist
 feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
-workflow-type: tm+mt
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
-# Codebasierte Erlebnisoberflächen {#code-based-surface}
+# Code-basierte Erlebnisoberflächen {#code-based-surface}
 
 ## Was ist eine Oberfläche? {#surface-definition}
 
@@ -20,9 +21,9 @@ ht-degree: 56%
 >id="ajo_admin_surface_uri"
 >title="Hinzufügen des Oberflächen-URI für Ihre Komponente"
 >abstract="Wenn Ihre Implementierung nicht für Web, iOS oder Android geeignet ist oder Sie bestimmte URIs als Ziel auswählen müssen, geben Sie einen Oberflächen-URI ein, bei dem es sich um eine eindeutige Kennung handelt, die an die Entität weitergeleitet wird, bei der Sie Ihr Erlebnis bereitstellen möchten. Stellen Sie sicher, dass Sie einen Oberflächen-URI eingeben, der mit dem in Ihrer eigenen Implementierung verwendeten URI übereinstimmt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Erstellen einer Konfiguration für ein Code-basiertes Erlebnis für andere Plattformen"
 
-Ein code-basiertes Erlebnis **Oberfläche** ist eine Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde und durch einen [URI](#surface-uri) eindeutig identifiziert wird. Die Oberfläche wird in der [Implementierung der Anwendung](code-based-prerequisites.md#implementation-prerequisites) angegeben und muss mit der in Ihrer [code-basierten Konfiguration des Erlebniskanals](code-based-configuration.md) referenzierten Oberfläche übereinstimmen.
+Eine Code-basierte **Erlebnisoberfläche** ist jede Entität, die für Benutzer- oder Systeminteraktionen entwickelt wurde. Sie ist durch einen [URI](#surface-uri) eindeutig gekennzeichnet. Die Oberfläche wird in der [Implementierung der Anwendung](code-based-prerequisites.md#implementation-prerequisites) angegeben und muss mit der in der [Code-basierten Erlebniskanalkonfiguration](code-based-configuration.md) referenzierten Oberfläche übereinstimmen.
 
 Eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhandenen Entität (Touchpoint) betrachtet werden.
 
@@ -32,9 +33,9 @@ Eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhande
 
 * Es kann sich auch um eine Platzhalteroberfläche handeln, die einer Vielzahl von Client-Oberflächendefinitionen entspricht (z. B. kann die Position eines Hero-Bilds auf jeder Seite Ihrer Website in einen Oberflächen-URI wie web://mydomain.com/*#hero_image übersetzt werden).
 
-## Surface identifier {#surface-uri}
+## Oberflächenkennung {#surface-uri}
 
-Ein **Oberflächen-URI** dient als präziser Bezeichner, der innerhalb einer Anwendung zu unterschiedlichen Benutzeroberflächen-Elementen oder -Komponenten führt. Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
+Ein **Oberflächen-URI** dient als präzise Kennung, die innerhalb einer Anwendung zu unterschiedlichen Benutzeroberflächen-Elementen oder -Komponenten führt. Grundsätzlich besteht ein Oberflächen-URI aus mehreren Abschnitten:
 
 1. **Typ**: Web, Mobile App, ATM, Kiosk, tvcd, Dienst
 1. **Eigenschaft**: Seiten-URL oder App-Paket
@@ -69,25 +70,25 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 
 ## URI-Komposition {#uri-composition}
 
-In [!DNL Journey Optimizer] unterstützt der code-basierte Erlebniskanal zwei Arten von Kundenimplementierungen:
+In [!DNL Journey Optimizer] unterstützt der Code-basierte Erlebniskanal zwei Arten von Kundenimplementierungen:
 
-* basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} für Ihre mobilen Apps;
-* Serverseitig oder hybrid mit [AEP Edge Network Server APIs](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"}.
+* Basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} für Ihre Apps,
+* Server-seitig oder hybrid mit [AEP Edge Network Server APIs](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"}.
 
 >[!NOTE]
 >
->Weitere Informationen zu den Implementierungsvoraussetzungen finden Sie in [diesem Abschnitt](code-based-prerequisites.md#implementation-prerequisites).
+>Weitere Informationen zu Implementierungsvoraussetzungen finden Sie in [diesem Abschnitt](code-based-prerequisites.md#implementation-prerequisites).
 
-Mithilfe code-basierter Erlebnisse können Sie Inhalte an granularen Positionen <!--(such as a specific location on a page, or inside a mobile native app)--> ändern, die durch [!DNL Journey Optimizer] eindeutig anhand von [Oberflächen-URIs](#surface-uri) identifiziert werden.
+Mithilfe Code-basierter Erlebnisse können Sie Inhalte an granularen Speicherorten ändern, <!--(such as a specific location on a page, or inside a mobile native app)-->die [!DNL Journey Optimizer] anhand von [Oberflächen-URIs](#surface-uri) eindeutig identifiziert werden.
 
 Diese Oberflächen-URIs werden je nach Implementierungsmethode zusammengestellt und verarbeitet:
 
-* **Web/Mobile SDK**: Ihr Web-/Mobilentwickler muss diese granularen Speicherorte als einfache Zeichenfolgen definieren, da das Web/Mobile SDK in der Lage ist, den Oberflächen-URI basierend auf der aktuellen URL/App-ID und der Standortzeichenfolge automatisch zu erstellen.
+* **Web-/Mobile-SDK**: Die Web-/Mobile-Entwicklerinnen bzw. -entwickler müssen diese granularen Speicherorte als einfache Zeichenfolgen definieren, da das Web-/Mobile-SDK in der Lage ist, den Oberflächen-URI basierend auf der aktuellen URL/App-ID und der Speicherortzeichenfolge automatisch zu erstellen.
 
-* **Edge Network-APIs**: Der App-/Seitenentwickler muss vollständige Oberflächen-URIs definieren, die den vollständigen Pfad und Speicherort enthalten, an dem der Inhalt verwendet wird, da die vollständigen URIs für diese Art der Implementierung erforderlich sind.
+* **Edge Network-APIs**: Die App-/Seitenentwicklerinnen bzw. -entwickler müssen vollständige Oberflächen-URIs definieren, die den vollständigen Pfad und Speicherort enthalten, an dem der Inhalt verwendet wird, da die vollständigen URIs für diese Art der Implementierung erforderlich sind.
 
-Daher haben Sie beim Erstellen einer [code-basierten Erlebniskanalkonfiguration](code-based-configuration.md) zwei Möglichkeiten, die Oberfläche entsprechend der ausgewählten Plattform anzugeben:
+Daher haben Sie beim Erstellen einer [Code-basierte Erlebniskanalkonfiguration](code-based-configuration.md) zwei Möglichkeiten, die Oberfläche entsprechend der ausgewählten Plattform anzugeben:
 
-* Bei den Plattformen **[!UICONTROL Web]**, **[!UICONTROL iOS]** und **[!UICONTROL Android]** müssen Sie die **URL/App-ID** und einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen. Erfahren Sie mehr über die Konfiguration code-basierter Erlebnisse für Plattformen [web](code-based-configuration.md#web) und [mobile](code-based-configuration.md#mobile) .
+* Bei den Plattformen **[!UICONTROL Web]**, **[!UICONTROL iOS]** und **[!UICONTROL Android]** müssen Sie die **URL/App-ID** und einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen. Erfahren Sie mehr über die Konfiguration Code-basierter Erlebnisse für die Plattformen [Web](code-based-configuration.md#web) und [Mobile](code-based-configuration.md#mobile).
 
-* Wenn die Plattform **[!UICONTROL Sonstige]** ist, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen [über](#surface-uri) beschrieben. Erfahren Sie mehr über die Konfiguration code-basierter Erlebnisse für [andere](code-based-configuration.md#other) Plattformen
+* Wenn die Plattform unter **[!UICONTROL Sonstige]** fällt, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen [oben](#surface-uri) dargestellt. Erfahren Sie mehr über die Konfiguration Code-basierter Erlebnisse für [sonstige](code-based-configuration.md#other) Plattformen

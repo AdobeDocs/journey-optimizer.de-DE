@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
-1. Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen.
+1. Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen.
 
 1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
-1. Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen.
+1. Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen.
 
 1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Kampagne](../campaigns/create-campaign.md) ab.
 

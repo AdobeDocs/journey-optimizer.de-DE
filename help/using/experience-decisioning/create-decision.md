@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,9 +88,9 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
 
    >[!NOTE]
    >
-   >Eine Entscheidungspolitik unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+   >Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
-1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz neu anzuordnen.  [Weitere Informationen zur Auswertungsreihenfolge von Entscheidungsrichtlinien](#evaluation-order)
+1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet und die Auswertung wird in dieser Reihenfolge fortgeführt. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz neu anzuordnen.  [Weitere Informationen zur Auswertungsreihenfolge von Entscheidungsrichtlinien](#evaluation-order)
 
 ### Verwalten der Auswertungsreihenfolge in einer Entscheidungsrichtlinie {#evaluation-order}
 

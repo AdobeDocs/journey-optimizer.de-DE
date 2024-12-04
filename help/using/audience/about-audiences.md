@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -214,7 +214,7 @@ Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Komposi
 
 +++
 
-+++ Wie bald kann ich eine Zielgruppe aus einer Zielgruppenzusammensetzung in Journey Optimizer verwenden?
++++ Wie schnell nach der Veröffentlichung kann ich eine Zielgruppe aus der Zielgruppenkomposition in Journey Optimizer verwenden?
 
 Zielgruppen aus der **Zielgruppenkomposition** werden täglich ausgeführt, sodass Sie bis zu 24 Stunden warten müssen, um sie in Journey Optimizer zu verwenden.
 

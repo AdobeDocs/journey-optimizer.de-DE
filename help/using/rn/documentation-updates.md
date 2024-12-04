@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurde ein Hinweis zum anstehenden Time-to-Live(TTL)-Limit für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option „Vorschau auf Gerät“ anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
 * Es wurde eine neue Seite hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für die Entscheidungsfindung genutzt werden können. [Mehr dazu](../offers/custom-upload-decisioning.md)
-* Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden - [Mehr dazu](../experience-decisioning/gs-decision.md)
-* Der Dokumentation zu Decisioning wurden Schutzmechanismen und Einschränkungen hinzugefügt. [Mehr dazu](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden. [Weitere Informationen](../experience-decisioning/gs-decision.md)
+* Der Dokumentation zur Entscheidungsfindung wurden Schutzmechanismen und Einschränkungen hinzugefügt. [Mehr dazu](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## September 2024 {#sept-2024}
 

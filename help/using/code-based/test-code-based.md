@@ -1,24 +1,25 @@
 ---
-title: Codebasierte Erlebnisse testen
-description: Erfahren Sie, wie Sie code-basierte Erlebnisse in Journey Optimizer testen können.
+title: Testen von Code-basierten Erlebnissen
+description: Erfahren Sie, wie Sie Code-basierte Erlebnisse in Journey Optimizer testen
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Codebasierte Erlebnisse testen {#test-code-based}
+# Testen von Code-basierten Erlebnissen {#test-code-based}
 
-## Vorschau des Code-basierten Erlebnisses {#preview-code-based}
+## Anzeigen des Code-basierten Erlebnisses in der Vorschau {#preview-code-based}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Vorschau des Code-basierten Erlebnisses"
+>title="Anzeigen des Code-basierten Erlebnisses in der Vorschau"
 >abstract="Eine Simulation, die zeigt, wie das Code-basierte Erlebnis aussehen wird."
 
 Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-basierten Erlebnisses anzuzeigen.
@@ -106,4 +107,3 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
    >[!TIP]
    >
    >Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Abwandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Tabs kopieren und die Erlebnisse vergleichen.
-

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
    Detaillierte Informationen zum Erstellen von Rangfolgeformeln und KI-Modellen finden Sie in der Dokumentation zum Entscheidungs-Management:
 
-   * [Ranking-Formeln](../offers/ranking/create-ranking-formulas.md)
+   * [Rangfolgeformeln](../offers/ranking/create-ranking-formulas.md)
    * [KI-Modelle](../offers/ranking/ai-models.md)
 
    >[!NOTE]
    >
-   >Die Verschachtelungstiefe in einer Rangformel ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte). [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+   >Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30  Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte). [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
-Eine Entscheidungspolitik unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Limits und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
 +++ Optimieren von Modellen für benutzerdefinierte Metriken in [!DNL Customer Journey Analytics]
 

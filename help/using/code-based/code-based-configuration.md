@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Code-basierten Erlebniskonfigu
 1. Folgendes gilt für die Vorschau-URL:
 
    * Wenn die URL einer einzelnen Seite eingegeben wird, wird diese URL für die Vorschau verwendet. Es muss keine weitere URL eingegeben werden.
-   * Wenn eine [Seite ausgewählt ist, die mit der Regel](../web/web-configuration.md#web-page-matching-rule) übereinstimmt, müssen Sie eine **[!UICONTROL Standard-Authoring- und Vorschau-URL]** eingeben, die für die Vorschau des Erlebnisses in einem Browser verwendet wird. [Weitere Informationen](test-code-based.md#preview-on-device)
+   * Wenn eine [Regel zum Seitenabgleich](../web/web-configuration.md#web-page-matching-rule) ausgewählt ist, müssen Sie eine **[!UICONTROL Standard-Authoring- und Vorschau-URL]** eingeben, die zur Vorschau des Erlebnisses in einem Browser verwendet wird. [Weitere Informationen](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Code-basierten Erlebniskonfigu
 
    >[!CAUTION]
    >
-   >Die in diesem Feld eingegebene Zeichenfolge oder der Pfad muss mit der in Ihrer App- oder Seitenimplementierung deklarierten übereinstimmen. Dadurch wird sichergestellt, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. [Weitere Informationen](code-based-surface.md#uri-composition)
+   >Die in dieses Feld eingegebene Zeichenfolge oder der in dieses Feld eingegebene Pfad muss mit der oder dem in Ihrer App- oder Seitenimplementierung deklarierten übereinstimmen. Dadurch wird gewährleistet, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. [Weitere Informationen](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 

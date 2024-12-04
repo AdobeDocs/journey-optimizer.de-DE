@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die 
 
 * Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen definieren, die [hier](#delivery-prerequisites) im Detail beschrieben werden.
 
-* Damit Daten in Ihren code-basierten Erlebnisberichten angezeigt werden können, müssen Sie diese [Berichterstellungsvoraussetzungen](#reporting-prerequisites) befolgen.
+* Damit Daten in Ihren Code-basierten Erlebnisberichten angezeigt werden können, müssen Sie diese [Reporting-Voraussetzungen](#reporting-prerequisites) befolgen.
 
-* Stellen Sie beim Erstellen einer [code-basierten Erlebniskanalkonfiguration](code-based-configuration.md) sicher, dass Sie eine Zeichenfolge/einen Pfad oder einen Oberflächen-URI eingeben, der mit der in Ihrer eigenen Implementierung deklarierten übereinstimmt. Dadurch wird sichergestellt, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. Andernfalls können die Änderungen nicht bereitgestellt werden. [Mehr dazu](code-based-surface.md)
+* Stellen Sie beim Erstellen einer [Code-basierten Erlebniskanal-Konfiguration](code-based-configuration.md) sicher, dass Sie eine Zeichenfolge/einen Pfad oder einen Oberflächen-URI eingeben, die mit der in Ihrer eigenen Implementierung deklarierten übereinstimmt. Dadurch wird gewährleistet, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. Andernfalls können die Änderungen nicht bereitgestellt werden. [Weitere Informationen](code-based-surface.md)
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
 Das Code-basierte Erlebnis unterstützt alle Arten der Kundenimplementierung, wie in den folgenden Optionen dargestellt. Sie können für Ihre Eigenschaften entweder eine Client-seitige, eine Server-seitige oder eine hybride Implementierungsmethode verwenden:
 
-* Nur Client-seitig - Um Änderungen an Ihren Web-Seiten oder Apps hinzuzufügen, müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} auf Ihrer Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} auf Ihren mobilen Apps implementieren.
+* Nur Client-seitig: Um Änderungen an Ihren Web-Seiten oder Apps vorzunehmen, müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} in Ihre Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in Ihre Apps implementieren.
 
 * Hybridmodus: Sie können das [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} verwenden, um die Personalisierung Server-seitig anzufordern. Die Antwort wird an das Adobe Experience Platform Web SDK weitergeleitet, um die Änderungen Client-seitig zu rendern. Weitere Informationen finden Sie in der [Dokumentation zur Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"} von Adobe Experience Platform. Weitere Informationen über den Hybridmodus und einige Implementierungsbeispiele finden Sie in [diesem Blogpost](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 

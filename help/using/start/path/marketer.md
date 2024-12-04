@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testen und Validieren**. Nachdem Ihr Inhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen.
+1. **Testen und Validieren**. Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen.
 
-   Wenn Sie [personalisierten Inhalt](../../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie dieser Inhalt in der Nachricht dargestellt wird. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Näheres dazu, wie Sie Ihre Nachrichten testen und validieren, erfahren Sie [in diesem Abschnitt](../../content-management/preview-test.md).
+   Wenn Sie [personalisierte Inhalte](../../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Näheres dazu, wie Sie Ihre Nachrichten testen und validieren, erfahren Sie [in diesem Abschnitt](../../content-management/preview-test.md).
 
 1. **Entwerfen Sie Customer Journeys**, um Ihren Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit [!DNL Journey Optimizer] können Sie Anwendungsfälle für die Orchestrierung in Echtzeit erstellen und dabei kontextuelle Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1760'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -92,18 +92,18 @@ Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Registerkarte &quot;Warmup-Plan&quot; {#ip-warmup-plan-tab}
+### Registerkarte „Aufwärmplan“ {#ip-warmup-plan-tab}
 
-Um einen IP-Warmup-Plan zu erstellen, geben Sie im ersten Tab die Daten ein, die Sie für Ihren Plan benötigen.
+Um einen IP-Aufwärmplan zu erstellen, geben Sie in der ersten Registerkarte die erforderlichen Daten ein, die in den Plan gespeist werden sollen.
 
-* Im obigen Beispiel wurde ein Plan über einen Zeitraum von 17 Tagen (namens &quot;**Läufe**&quot;) erstellt, um ein Zielvolumen von über einer Million Profilen zu erreichen.
+* Im obigen Beispiel wurde ein Plan (mit dem Titel „**Ausführungen**“) erstellt, der sich über einen Zeitraum von 17 Tagen erstreckt, um ein Zielvolumen von über einer Million Profilen zu erreichen.
 
 * Dieser Plan wird in sechs **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
 * Sie können über bis zu 6 Spalten verfügen (4 Spalten für Domain-Gruppen, eine für die Spalte **Sonstige** und eine für die Spalte **Interaktionstage**). In diesem Beispiel ist der Plan in sechs Spalten unterteilt:
 
-   * Drei davon entsprechen **nativen Domänengruppen**, die in Ihrem Plan verwendet werden sollen (Gmail, Yahoo und Microsoft). Die vordefinierten Domänengruppen sind alle auf der Registerkarte [OOTB-Domänengruppen](#ootb-domain-groups-tab) aufgeführt.
-   * Eine Spalte entspricht einer benutzerspezifischen Domänengruppe (die Sie über die Registerkarte [Benutzerspezifische Domänengruppe](#custom-domain-group-tab) hinzufügen müssen).
+   * Drei davon entsprechen **vorkonfigurierten Domain-Gruppen** zur Verwendung in Ihrem Plan (Gmail, Yahoo und Microsoft). Die vorkonfigurierten Domain-Gruppen sind alle auf der Registerkarte [Vorkonfigurierte Domain-Gruppen](#ootb-domain-groups-tab) aufgeführt.
+   * Eine Spalte entspricht einer benutzerdefinierten Domain-Gruppe (die Sie mithilfe der Registerkarte [Benutzerdefinierte Domain-Gruppe](#custom-domain-group-tab) hinzufügen müssen).
    * Die fünfte Spalte, **Sonstige**, enthält alle verbleibenden Adressen aus anderen Domains, die nicht explizit im Plan behandelt werden. Diese Spalte ist optional: Wenn sie weggelassen wird, werden E-Mails nur an die angegebenen Domains gesendet.
    * In der letzten Spalte **Interaktionstage** können Sie die Anzahl der Tage angeben, über die Interaktionen verfolgt oder bewertet werden sollen.
 
@@ -113,23 +113,23 @@ Die Idee besteht darin, die Anzahl der Zieladressen in jeder Ausführung schritt
 
 Sie können Ihrem Plan auch weitere Spalten hinzufügen, indem Sie benutzerdefinierte Domain-Gruppen hinzufügen.
 
-Verwenden Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, um eine neue Domain-Gruppe zu definieren. Für jede Domäne können Sie alle darin abgedeckten Subdomains hinzufügen.
+Verwenden Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, um eine neue Domain-Gruppe zu definieren. Für jede Domain können Sie alle von ihr abgedeckten Subdomains hinzufügen.
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass jede Domäne für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen Domänengruppen oder [nativen Domänengruppen](#ootb-domain-groups-tab) überschneidet.
+>Stellen Sie sicher, dass jede Domain für ihre Domain-Gruppe eindeutig ist und sich nicht mit anderen [vorkonfigurierten Domain-Gruppen](#ootb-domain-groups-tab) überschneidet.
 
-Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Roadrunner&quot;hinzufügen, sollen die folgenden Subdomains einbezogen werden - wie im folgenden Beispiel: roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com usw.
+Wenn Sie beispielsweise die benutzerdefinierte Domain „Roadrunner“ hinzufügen, sollten wie im nachstehenden Beispiel die folgenden Subdomains einbezogen werden: roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com usw.
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
 >[!NOTE]
 >
->Wenn Sie keine benutzerdefinierten Domänen benötigen, lassen Sie die Registerkarte **[!UICONTROL Benutzerspezifische Domänengruppe]** leer.
+>Wenn Sie keine benutzerdefinierten Domains benötigen, lassen Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppe]** leer.
 
-### Registerkarte OOOTB-Domänengruppen {#ootb-domain-groups-tab}
+### Registerkarte „Vorkonfigurierte Domain-Gruppen“ {#ootb-domain-groups-tab}
 
-Der Tab **OOTB Domain Groups** der Vorlage für den IP-Warmup-Plan enthält alle nativen Haupt-Domain-Gruppen, die Sie Ihrem Plan hinzufügen können.
+Die Registerkarte **Vorkonfigurierte Domain-Gruppen** der Vorlage für den IP-Aufwärmplan enthält alle vorkonfigurierte Haupt-Domain-Gruppen, die Sie Ihrem Plan hinzufügen können.
 
 ![](assets/ip-warmup-sample-file-ootb.png)
 
@@ -137,7 +137,7 @@ Der Tab **OOTB Domain Groups** der Vorlage für den IP-Warmup-Plan enthält alle
 >
 >Wenn eine Domain-Gruppe nicht auf dieser Registerkarte aufgeführt wird, müssen Sie auf der entsprechenden Registerkarte eine benutzerdefinierte Domain-Gruppe erstellen. [Weitere Informationen](#custom-domain-group-tab)
 
-Die vordefinierten Hauptdomänengruppen sind im Folgenden ebenfalls aufgeführt:
+Die vorkonfigurierten Haupt-Domain-Gruppen sind im Folgenden ebenfalls aufgeführt:
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
@@ -208,13 +208,13 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 1. Fügen Sie alle Hotmail-Domains in derselben Zeile hinzu.
 
-   Sie können [ alle im Abschnitt [OOTB-Domänengruppen-Registerkarte](#ootb-domain-groups-tab) aufgelisteten Hotmail-Domänen kopieren und einfügen.](#copy-paste)
+   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [ „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
 
 1. Fügen Sie eine weitere Zeile hinzu.
 
 1. Erstellen Sie eine Domain-Gruppe namens **Microsoft_X**.
 
-1. Fügen Sie alle Microsoft-Domains, die nicht Hotmail sind, in derselben Zeile hinzu. Auf ähnliche Weise können Sie [sie aus der obigen Liste kopieren und einfügen](#copy-paste).
+1. Fügen Sie alle Microsoft-Domains, die nicht Hotmail sind, in derselben Zeile hinzu. Auf ähnliche Weise können Sie sie aus der obigen Liste [kopieren und einfügen](#copy-paste).
 
 1. Gehen Sie zurück zur Registerkarte **[!UICONTROL IP-Aufwärmplan]**.
 
@@ -226,7 +226,7 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 ### Kopieren und Einfügen der Standard-Domains {#copy-paste}
 
-Wenn Sie beispielsweise eine benutzerdefinierte Domain-Gruppe erstellen möchten, die alle Hotmail-Domänen enthält, können Sie die Domänen kopieren und aus der Registerkarte **OOTB-Domänengruppen** der Vorlage für den [IP-Aufwärmungsplan](assets/IPWarmupPlan-Template.xlsx) oder aus der Liste, die über [oben](#ip-warmup-plan-tab) bereitgestellt wird, einfügen.
+Wenn Sie beispielsweise eine benutzerdefinierte Domain-Gruppe erstellen möchten, die alle Hotmail-Domains enthält, können Sie die Domains kopieren und aus der Registerkarte **Vorkonfigurierte Domain-Gruppen** der Vorlage für den [IP-Aufwärmplan](assets/IPWarmupPlan-Template.xlsx) oder aus der [oben](#ip-warmup-plan-tab) angegebenen Liste einfügen.
 
 Verwenden Sie dann das Excel-Konvertierungswerkzeug, um Text in Spalten zu konvertieren:
 

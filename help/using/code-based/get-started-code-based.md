@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -77,18 +77,18 @@ Wann sollte anstelle der anderen [!DNL Journey Optimizer]-Kanäle ein Code-basie
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* Sie können den code-basierten Kanal als Alternative zu den Web- oder In-App-Kanälen von [!DNL Journey Optimizer] verwenden, falls Sie über eine API-basierte, Headless- oder serverseitige Implementierung verfügen.
+* Sie können den Code-basierten Kanal als Alternative zu den Web- oder In-App-Kanälen von [!DNL Journey Optimizer] verwenden, falls Sie über eine API-basierte Headless- oder Server-seitige Implementierung verfügen.
 
-* Sie können den code-basierten Kanal auch in nativen mobilen Anwendungen als Alternative zum In-App-Kanal nutzen, wenn Sie den Inhalt in Ihrer nativen App ändern möchten, anstatt Modale, Popups oder Überlagerungen anzuzeigen.
+* Sie können den Code-basierten Kanal auch in nativen mobilen Anwendungen als Alternative zum In-App-Kanal nutzen, wenn Sie den Inhalt in Ihrer nativen App ändern möchten, anstatt Modale, Popups oder Überlagerungen anzuzeigen.
 
 ### Code-basierte Kanäle und Web-Kanäle im Vergleich {#code-based-vs-web}
 
-Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder das Code-basierte Erlebnis verwenden. Je nach Kontext eignet sich ein Erlebnis jedoch meist besser als das andere. Die wichtigsten Unterschiede sind unten aufgeführt, sodass Sie eine fundierte Entscheidung darüber treffen können, was verwendet werden soll und wann.
+Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder das Code-basierte Erlebnis verwenden. Je nach Kontext eignet sich ein Erlebnis jedoch meist besser als das andere. Die wichtigsten Unterschiede sind unten aufgeführt, sodass Sie eine fundierte Entscheidung darüber treffen können, was Sie wann verwenden.
 
 **Web**
 
-* Bearbeiten Sie Ihren Inhalt mit dem Visual Editor [Web Designer](../web/web-visual-editor.md){target="_blank"} oder dem Web [nicht visuellen Editor](../web/web-non-visual-editor.md).
-* Sie benötigen das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} - eine clientseitige Implementierung.
+* Bearbeiten Sie Ihre Inhalte mit dem visuellen Editor [Web Designer](../web/web-visual-editor.md){target="_blank"} oder dem [nicht visuellen Editor](../web/web-non-visual-editor.md) im Web.
+* Dazu benötigen Sie eine Client-seitige Implementierung des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Mit dem Web-Kanal können Sie alles auf Ihrer Seite ändern. Außerdem bietet er eine vordefinierte Liste von Aktionen, mit denen Sie Änderungen vornehmen können. [Weitere Informationen](../web/web-visual-editor.md){target="_blank"}
 * Er lässt sich schnell einrichten und ausführen.
@@ -97,7 +97,7 @@ Um Web-Anwendungsfälle auszuführen, können Sie entweder den Web-Kanal oder da
 **Code-basiertes Erlebnis**
 
 * Bearbeiten Sie Ihren Inhalt mit dem [Personalisierungseditor](create-code-based.md#edit-code).
-* Sie benötigen entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} - clientseitige Implementierung oder die [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} - serverseitige Implementierung.
+* Sie benötigen entweder die Client-seitige Implementierung des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} oder die Server-seitige Implementierung der [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"}.
 * Das Code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Anwendungen die von [!DNL Journey Optimizer] für diese Speicherorte veröffentlichten Inhalte interpretieren und bereitstellen können. [Weitere Informationen](code-based-surface.md)
 * Dies erfordert mehr Planung, und es können nur die von den Entwicklungspersonen festgelegten Punkte geändert werden. Daher müssen die Komponenten (Startseiten-Banner, Hero Image, Menüleiste) in den Anwendungen, die für die Personalisierung oder Tests geändert werden müssen, unbedingt festgelegt werden. Erstellen Sie zusammen mit Ihrem Entwicklungs-Team die für diese Änderungen erforderliche Implementierung.
 * So können Sie JSON-Code-Inhalte verwenden.
@@ -115,27 +115,27 @@ Um Ihre Inhalte mit der Funktion für Code-basierte Erlebnisse von [!DNL Journey
 >
 >Derzeit können nur HTML- und JSON-Inhalte mit einer Konfiguration verknüpft werden.
 
-Die wichtigsten Schritte zum Erstellen und Bereitstellen eines code-basierten Erlebnisses lauten wie folgt.
+Nachstehend finden Sie die wichtigsten Schritte zur Erstellung und Bereitstellung eines Code-basierten Erlebnisses.
 
 1. Befolgen Sie die kanalspezifischen Voraussetzungen. [Weitere Informationen](code-based-prerequisites.md)
 
-1. Definieren Sie eine [Oberfläche](code-based-surface.md#surface-definition) in Ihrer Anwendungsimplementierung, die im Wesentlichen der Ort ist, an dem Sie Ihr Erlebnis hinzufügen möchten.
+1. Definieren Sie eine [Oberfläche](code-based-surface.md#surface-definition) in Ihrer Anwendungsimplementierung, die im Wesentlichen der Ort ist, zu dem Sie Ihr Erlebnis hinzufügen möchten.
 
-1. Erstellen Sie eine Code-basierte Kanalkonfiguration, die auf diesen Speicherort verweist. [Weitere Informationen](code-based-configuration.md#create-code-based-configuration)
+1. Erstellen Sie eine Code-basierte Kanalkonfiguration, die auf diesen Ort verweist. [Weitere Informationen](code-based-configuration.md#create-code-based-configuration)
 
 1. Erstellen Sie mit dieser Konfiguration eine Journey oder Kampagne in [!DNL Journey Optimizer]. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
 1. Erstellen Sie ein Erlebnis, indem Sie mit dem Personalisierungseditor von [!DNL Journey Optimizer] Inhalte für die ausgewählte Konfiguration angeben. [Weitere Informationen](create-code-based.md#edit-code)
 
-1. Testen Sie Ihr code-basiertes Erlebnis. [Weitere Informationen](test-code-based.md)
+1. Testen Sie das Code-basierte Erlebnis. [Weitere Informationen](test-code-based.md)
 
-1. Publish. [Weitere Informationen](publish-code-based.md)
+1. Veröffentlichen Sie es. [Weitere Informationen](publish-code-based.md)
 
-1. Sobald Ihre code-basierte Erlebnis-Journey oder -Kampagne live ist, muss die App- oder Seitenimplementierung, die Inhalte für die Oberfläche anfordert, vorhanden sein, damit der Inhalt abgerufen und angezeigt werden kann.
+1. Sobald die Code-basierte Erlebnis-Journey oder -Kampagne live ist, muss die App- oder Seitenimplementierung vorhanden sein, die Inhalte für die Oberfläche anfordert, damit die Inhalte abgerufen und angezeigt werden können.
 
    >[!INFO]
    >
-   >Um dies sicherzustellen, sendet Ihr App-Implementierungsteam explizite API- oder SDK-Aufrufe, um Inhalte für die in der code-basierten Konfiguration definierte Oberfläche abzurufen, z. B. &quot;Bannertext&quot;, &quot;Recommendations Tray 1&quot;oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. &quot;Suchalgorithmparameter&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Weitere Informationen](code-based-implementation-samples.md)
+   >Um das zu gewährleisten, erstellt das App-Implementierungs-Team explizite API- oder SDK-Aufrufe, um Inhalte für die in der Code-basierten Konfiguration definierten Oberfläche abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Weitere Informationen](code-based-implementation-samples.md)
 
 
 

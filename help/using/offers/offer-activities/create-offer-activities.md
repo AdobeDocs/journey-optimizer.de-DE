@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -384,7 +384,7 @@ Sie können auch den Status mehrerer Entscheidungen gleichzeitig löschen oder �
 
 ![](../assets/decision_multiple-selection.png)
 
-Wenn Sie den Status mehrerer Entscheidungen mit unterschiedlichen Status ändern möchten, werden nur die entsprechenden Status geändert.
+Wenn Sie den Status mehrerer Entscheidungen mit unterschiedlichen Status ändern möchten, werden nur die relevanten Status geändert.
 
 ![](../assets/decision_change-status.png)
 

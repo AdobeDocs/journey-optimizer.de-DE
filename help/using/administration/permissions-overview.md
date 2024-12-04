@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

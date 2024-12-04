@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
    >
    >Wenn Sie Ihr Schema nach der Erstellung des Ereignisses durch neue Auflistungswerte ändern, müssen Sie die folgenden Schritte ausführen, um die Änderungen auf das vorhandene Ereignis anzuwenden: Deaktivieren Sie das Auflistungsfeld in den Ereignisfeldern, bestätigen Sie die Auswahl und wählen Sie das Auflistungsfeld erneut aus. Der neue Auflistungswert wird jetzt angezeigt.
 
-1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Identitätstyps es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
+1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Identitätstyps es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Schlüsseltyp, den das Ereignis hat. Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
 
-1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber dennoch bearbeitet werden), wenn Sie einen Identitätstyp auswählen. Journey wählt den Schlüssel aus, der dem Identitätstyp entsprechen soll (wenn Sie beispielsweise einen E-Mail-Identitätstyp auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
+1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Identitätstyp auswählen. Journeys wählen den Schlüssel aus, der dem Identitätstyp entsprechen soll (wenn Sie beispielsweise einen E-Mail-Identitätstyp auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -118,25 +118,25 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 >title="Identitätstyp"
 >abstract="Wählen Sie den Schlüssel aus, um das mit dem Ereignis verknüpfte Kundenprofil zu identifizieren."
 
-Mit dem Identitätstyp (zuvor als &quot;Namespace&quot;bezeichnet) können Sie den Typ des Schlüssels definieren, mit dem die mit dem Ereignis verbundene Person identifiziert wird. Die Konfiguration ist optional. Sie ist erforderlich, wenn Sie in Ihren Journeys zusätzliche Informationen aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} abrufen möchten. Die Definition des Identitätstyps ist nicht erforderlich, wenn Sie nur Daten aus einem Drittanbietersystem über eine benutzerdefinierte Datenquelle verwenden.
+Mit dem Identitätstyp (früher als „Namespace“ bezeichnet) können Sie den Schlüsseltyp definieren, mit dem die mit dem Ereignis verbundene Person identifiziert wird. Die Konfiguration ist optional. Sie ist erforderlich, wenn Sie in Ihren Journeys zusätzliche Informationen aus dem [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} abrufen möchten. Der Identitätstyp muss nicht definiert werden, wenn Sie nur Daten aus einem Drittanbietersystem über eine benutzerdefinierte Datenquelle verwenden.
 
-Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit dem Adobe Experience Platform Identity-Dienst einen neuen erstellen. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"} .
+Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit Identity Service einen neuen erstellen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
 
-Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profiler-Kennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Dann müssen Sie einen Identitätstyp auswählen und der Schlüssel wird (unter dem Feld **[!UICONTROL Identitätstyp]** ) mit _identityMap > id_ vorausgefüllt.
+Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Identitätstyp aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Identitätstyp]**) mit _identityMap > id_ vorausgefüllt.
 
-Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
+Bei der Auswahl von Feldern werden primäre Identitätsfelder mit Tags versehen.
 
 ![](assets/primary-identity.png)
 
-Wählen Sie einen Identitätstyp aus der Dropdownliste aus.
+Wählen Sie einen Identitätstyp aus der Dropdown-Liste aus.
 
 ![](assets/journey17.png)
 
-Pro Journey ist nur ein Identitätstyp zulässig. Wenn Sie mehrere Ereignisse im selben Journey verwenden, müssen diese denselben Identitätstyp verwenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
+Pro Journey ist nur ein Identitätstyp zulässig. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Identitätstyp verwenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Sie können nur einen personenbasierten Identitätstyp auswählen. Wenn Sie einen Identitätstyp für eine Suchtabelle definiert haben (z. B. Produkt-ID-Identitätstyp für eine Produktsuche), ist dieser nicht in der Dropdown-Liste **Identitätstyp** verfügbar.
+>Sie können nur einen personenbasierten Identitätstyp auswählen. Wenn Sie einen Identitätstyp für eine Lookup-Tabelle definiert haben (z. B.: Produkt-ID-Identitätstyp für ein Produkt-Lookup), ist er nicht in der Dropdown-Liste **Identitätstyp** verfügbar.
 
 ## Profilkennung definieren {#define-the-event-key}
 
@@ -144,9 +144,9 @@ Der Schlüssel ist das Feld oder die Feldkombination, die Teil der Payload-Ereig
 
 Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwenden, muss der Ereignisschlüssel den Informationen entsprechen, die Sie im [Echtzeit-Kundenprofil-Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} als Profilidentität definiert haben.
 
-Mit der Profilkennung kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > ID_ als Primärschlüssel aus. Dann müssen Sie einen Identitätstyp auswählen und der Schlüssel wird automatisch mit _identityMap > id_ vorausgefüllt.
+Mit der Profilkennung kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > ID_ als Primärschlüssel aus. Wählen Sie dann einen Identitätstyp aus und der Schlüssel wird automatisch mit _identityMap > id_ vorausgefüllt.
 
-Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
+Bei der Auswahl von Feldern werden primäre Identitätsfelder mit Tags versehen.
 
 ![](assets/primary-identity.png)
 
@@ -158,7 +158,7 @@ Wenn Sie einen anderen Schlüssel verwenden müssen, z. B. eine CRM-ID oder ein
 
 1. Wählen Sie das als Schlüssel ausgewählte Feld in der Liste der Payload-Felder aus. 
 
-Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Mit dem Schlüssel, der einem [Identitätstyp](../event/about-creating.md#select-the-namespace) zugeordnet ist, können Abfragen über Adobe Experience Platform durchgeführt werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
+Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Mit dem Schlüssel, der einem [Identitätstyp](../event/about-creating.md#select-the-namespace) zugeordnet ist, können Abfragen auf Adobe Experience Platform durchgeführt werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
 Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
 
 ## Der erweiterte Ausdruckseditor {#adv-exp-editor}

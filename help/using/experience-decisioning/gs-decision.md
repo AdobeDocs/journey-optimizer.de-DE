@@ -1,21 +1,21 @@
 ---
-title: Erste Schritte mit den Entscheidungsfunktionen von [!DNL Journey Optimizer] s
-description: Erfahren Sie, wie Sie mit [!DNL Journey Optimizer] Entscheidungsfunktionen arbeiten.
+title: Erste Schritte mit Entscheidungsfunktionen in  [!DNL Journey Optimizer]
+description: Erfahren Sie, wie Sie mit Entscheidungsfunktionen in  [!DNL Journey Optimizer]  arbeiten.
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit den Entscheidungsfunktionen von [!DNL Journey Optimizer] {#gs-decision}
+# Erste Schritte mit Entscheidungsfunktionen in [!DNL Journey Optimizer] {#gs-decision}
 
-Mit den Entscheidungsfunktionen in [!DNL Journey Optimizer] können Sie Ihren Kunden die besten Angebote und personalisierten Erlebnisse zu genau den richtigen Zeiten über alle Touchpoints hinweg bereitstellen. Diese Funktionen vereinfachen die Personalisierung durch einen zentralisierten Katalog von Marketing-Angeboten und eine erweiterte Entscheidungs-Engine, die Regeln und Ranking-Kriterien verwendet, um die relevantesten Inhalte für jede Person bereitzustellen.
+Mit den Entscheidungsfunktionen in [!DNL Journey Optimizer] können Sie Ihren Kundinnen und Kunden die besten Angebote und personalisierte Erlebnisse zu genau den richtigen Zeiten über alle Touchpoints hinweg bereitstellen. Diese Funktionen vereinfachen die Personalisierung durch einen zentralisierten Katalog von Marketing-Angeboten und eine erweiterte Entscheidungs-Engine, die Regeln und Rangfolgekriterien verwendet, um die relevantesten Inhalte für jeden Kontakt bereitzustellen.
 
 Wichtigste Vorteile:
 
@@ -23,29 +23,29 @@ Wichtigste Vorteile:
 * Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen zu erstellen, können Marketing-Teams den Workflow verbessern, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Vorlagenbereichen variieren.
 * Steuern Sie, wie oft ein Angebot in Kampagnen und für Kundschaft angezeigt wird.
 
-Derzeit bietet [!DNL Journey Optimizer] die beiden unten beschriebenen Kernlösungen.
+Derzeit bietet [!DNL Journey Optimizer] die beiden unten beschriebenen Hauptlösungen.
 
 ## Entscheidungsfindung {#decisioning}
 
 ![](assets/gs-decisioning.png)
 
-Unser Entscheidungsframework der nächsten Generation, das dazu dient, bestehende Journey Optimizer-Workflows zu vereinheitlichen und die Grundlage für die Verwaltung zusätzlicher Inhaltskataloge zu schaffen. Decisioning-Angebote:
+Unser Entscheidungs-Framework der nächsten Generation, das dazu dient, bestehende Journey Optimizer-Workflows zu vereinheitlichen und die Grundlage für die Verwaltung zusätzlicher Inhaltskataloge zu schaffen. Die Entscheidungsfindung bietet:
 
-* Schemabasierte Katalogverwaltung: Erhöhen Sie die Flexibilität, indem Sie jedem Angebot benutzerspezifische Metadaten zuordnen.
-* Flexible Kollektionsregeln: Einfache Gruppierung von Angeboten zur zukünftigen Evaluierung anhand verschiedener Kriterien.
-* Aktualisierung der Entscheidungsrichtlinie und der Konfiguration der Auswahlstrategie: Zulassen der Wiederverwendbarkeit von Entscheidungskomponenten.
-* Experimentierungsfunktionen: Testen Sie die Entscheidungslogik anhand anderer Inhaltskomponenten, um die Leistung zu messen.
+* Schemabasierte Verwaltung des Elementkatalogs: Erhöhen Sie die Flexibilität, indem Sie jedem Angebot benutzerdefinierte Metadaten zuordnen.
+* Flexible Sammlungsregeln: Gruppieren Sie Angebote einfach zur zukünftigen Auswertung anhand verschiedener Kriterien.
+* Aktualisierte Entscheidungsrichtlinie und Konfiguration der Auswahlstrategie: Lassen die Wiederverwendbarkeit von Entscheidungskomponenten zu.
+* Experimentfunktionen: Testen Sie die Entscheidungslogik anhand anderer Inhaltskomponenten, um die Leistung zu messen.
 
-Vorerst wird Experience Decisioning im code-basierten Experience-Kanal unterstützt.
+Vorerst wird die Erlebnis-Entscheidung im Code-basierten Erlebniskanal unterstützt.
 
-➡️ [Erste Schritte mit Decisioning](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [Erste Schritte mit der Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Entscheidungs-Management {#decision-management}
 
 ![](assets/gs-decision-management.png)
 
-Unsere bewährte Funktion in Journey Optimizer, Decision Management, nutzt eine zentrale Bibliothek von Marketing-Angeboten und eine Entscheidungs-Engine, die Regeln und Einschränkungen auf Echtzeit-Kundenprofile anwendet und Adobe Experience Platform-Daten nutzt, um das richtige Angebot zur richtigen Zeit bereitzustellen.
+Unsere bewährte Entscheidungs-Management-Funktion in Journey Optimizer nutzt eine zentrale Bibliothek mit Marketing-Angeboten und eine Entscheidungs-Engine, die Regeln und Einschränkungen auf Echtzeit-Kundenprofile anwendet und Daten aus Adobe Experience Platform nutzt, um das richtige Angebot zur richtigen Zeit bereitzustellen.
 
-Die Entscheidungsverwaltung unterstützt derzeit vier Kanäle: E-Mail, In-App-Nachrichten, Push-Benachrichtigungen und SMS.
+Das Entscheidungs-Management unterstützt derzeit vier Kanäle: E-Mail, In-App-Messaging, Push-Benachrichtigungen und SMS.
 
-➡️ [Erste Schritte mit der Entscheidungsverwaltung](../offers/get-started/starting-offer-decisioning.md)
+➡️ [Erste Schritte mit dem Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)

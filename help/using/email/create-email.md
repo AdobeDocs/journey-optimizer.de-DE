@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofi
 
 >[!NOTE]
 >
->Neben Testprofilen können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mit Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+>Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
 

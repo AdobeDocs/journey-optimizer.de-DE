@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
-Um eine optimale Nutzung von Decisioning sicherzustellen, sollten Sie die folgenden Limits und Einschränkungen beachten:
+Um eine optimale Nutzung der Entscheidungsfindung sicherzustellen, sollten Sie die folgenden Leitlinien und Einschränkungen beachten:
 
-### Allgemeine Limits {#general}
+### Allgemeine Leitlinien {#general}
 
-* **Angebotselemente**: Jede Artikelsammlung kann bis zu 500 Angebotselemente enthalten.
-* **Benutzerdefinierte Attribute**: Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten.
-* **Auswahlstrategien und Entscheidungselemente pro Richtlinie**: Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen.
+* **Angebotselemente**: Jede Elementsammlung kann bis zu 500 Angebotselemente enthalten.
+* **Benutzerdefinierte Attribute**: Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten.
+* **Auswahlstrategien und Entscheidungselemente pro Richtlinie**: Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen.
 
 ### Eignungsregeln {#eligibility}
 
-* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen.
-* **Regelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 15 KB groß sein. Dies entspricht 15.000 ASCII-Zeichen (jeweils 1 Byte) oder 3.750-7.500 Nicht-ASCII-Zeichen (jeweils 2-4 Byte).
+* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen.
+* **Regelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 15 KB groß sein. Das entspricht 15.000 ASCII-Zeichen (jeweils 1 Byte) oder 3.750 bis 7.500 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte).
 
-### Ranking-Formeln {#ranking}
+### Rangfolgeformeln {#ranking}
 
-* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Dies wird durch Zählen der `)` schließenden Klammern in der PQL-Zeichenfolge gemessen.
-* **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000-4.000 Nicht-ASCII-Zeichen (jeweils 2-4 Byte).
+* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen.
+* **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte).
 
 ## Wichtige Schritte bei der Entscheidungsfindung {#steps}
 
@@ -71,13 +71,13 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Erfahren Sie, wie Sie den Elementkatalog konfigurieren](catalogs.md)
 
-1. **Entscheidungselemente erstellen**, um die Zielgruppe anzuzeigen.
+1. **Erstellen Sie Entscheidungselemente**, um die Zielgruppe anzuzeigen.
 
    ➡️ [Erfahren Sie, wie Sie Entscheidungselemente erstellen](items.md) ([API-Dokumentation](api-reference/decisions-items/create.md))
 
 1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 
-   ➡️ [Erfahren Sie, wie Sie Elementkollektionen verwalten](collections.md) ([API-Dokumentation](api-reference/items-collections/create.md))
+   ➡️ [Erfahren Sie, wie Sie Elementsammlungen verwalten](collections.md) ([API-Dokumentation](api-reference/items-collections/create.md))
 
 1. **Entscheidungsregeln erstellen**: Entscheidungsregeln werden in Entscheidungselementen und/oder Auswahlstrategien verwendet, um zu bestimmen, wem ein Entscheidungselement angezeigt werden kann.
 
@@ -85,12 +85,12 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Rangfolgemethoden implementieren**: Erstellen Sie Rangfolgemethoden und wenden Sie diese innerhalb von Entscheidungsstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen festzulegen.
 
-   ➡️ [Erfahren Sie, wie Sie Rangmethoden erstellen](ranking.md)
+   ➡️ [Erfahren Sie, wie Sie Rangfolgemethoden erstellen](ranking.md)
 
 1. **Auswahlstrategien erstellen**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangfolgemethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 
    ➡️ [Erfahren Sie, wie Sie Auswahlstrategien erstellen](selection-strategies.md) ([API-Dokumentation](api-reference/selection-strategies/create.md))
 
-1. **Erstellen Sie eine Entscheidungsrichtlinie und betten Sie sie in Ihre code-basierte Kampagne ein**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden Entscheidungselemente zu bestimmen.
+1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
 
    ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)

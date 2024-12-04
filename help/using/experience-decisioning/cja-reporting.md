@@ -1,6 +1,6 @@
 ---
-title: Bericht zu Entscheidungen
-description: Erfahren Sie, wie Sie Berichte zu Decisioning erstellen.
+title: Berichten über Entscheidungsfindung
+description: Erfahren Sie, wie Sie über Entscheidungsfindung berichten.
 feature: Decisioning
 topic: Integrations
 role: User
@@ -8,20 +8,20 @@ level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
-# Bericht zu Entscheidungen {#decisioning-report}
+# Berichten über Entscheidungsfindung {#decisioning-report}
 
-## Codebasierte Kampagnenberichte {#campaigns}
+## Reporting über codebasierte Kampagnen {#campaigns}
 
-Sobald das code-basierte Erlebnis live ist, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) als allumfassendes Dashboard zu überwachen und so eine Analyse der wesentlichen Metriken zu Ihrer Kampagne bereitzustellen.
+Sobald Code-basierte Erlebnisse live sind, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) als allumfassendes Dashboard zu überwachen und so eine Analyse der wesentlichen Metriken bereitzustellen, die mit Ihrer Kampagne verknüpft sind.
 
-Dies umfasst Details zu den Leistungselementen und zur Interaktion der Benutzer mit ihnen. [Erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten arbeiten](../reports/campaign-global-report-cja-code.md)
+Diese umfasst Details zu den Leistungen der Entscheidungselemente und zur Interaktion der Benutzenden mit diesen. [Erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten arbeiten](../reports/campaign-global-report-cja-code.md)
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 

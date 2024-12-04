@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne 
 
 Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Erfahren Sie in diesem Video, wie Sie eine code-basierte Erlebniskampagne erstellen](#video)
+➡️ [Erfahren Sie in diesem Video, wie Sie eine Code-basierte Erlebniskampagne erstellen](#video)
 
 >[!ENDTABS]
 
@@ -127,6 +127,6 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 ## Anleitungsvideo{#video}
 
-Im folgenden Video erfahren Sie, wie Sie eine code-basierte Erlebniskampagne erstellen, deren Eigenschaften konfigurieren, testen und veröffentlichen.
+Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

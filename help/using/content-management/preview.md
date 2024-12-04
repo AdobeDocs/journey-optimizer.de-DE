@@ -6,23 +6,23 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# Vorschau des Inhalts mit Testprofilen {#preview}
+# Anzeigen des Inhalts in der Vorschau mithilfe von Testprofilen {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-Sobald [Testprofile](test-profiles.md) definiert sind, können Sie eine Vorschau Ihres Inhalts anzeigen.
+Nach der Definition von [Testprofilen](test-profiles.md) können Sie eine Vorschau des Inhalts anzeigen.
 
 >[!NOTE]
 >
->Mit [!DNL Journey optimizer] können Sie auch verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mithilfe von Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+>Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
-Gehen Sie wie folgt vor, um mithilfe von Testprofilen eine Vorschau Ihres Inhalts anzuzeigen:
+Gehen Sie wie folgt vor, um die Vorschau von Inhalten mithilfe von Testprofilen anzuzeigen:
 
 1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie im erweiterten Menü Ihrer ausgewählten Landingpage die Option **[!UICONTROL Letzte 24 Stunden-Bericht anzeigen]** aus.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/landing_page_report.png)
 

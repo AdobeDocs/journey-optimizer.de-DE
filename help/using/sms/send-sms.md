@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 71%
 
 ## Anzeigen einer Vorschau der Textnachricht {#preview-sms}
 
-Nachdem Ihr Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten verwenden, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, um die Vorschau des Inhalts anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie prüfen, wie dieser Inhalt in der Nachricht dargestellt wird. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie Ihre Nachricht mithilfe der Testprofildaten.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
 
 ![](assets/sms_preview_2.png)
 
-Ausführliche Informationen zum Anzeigen einer Vorschau und zum Testen von Inhalten finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) .
+Detaillierte Informationen zur Vorschau und zum Test des Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 ## Validieren Ihres Inhalts {#sms-validate}
 

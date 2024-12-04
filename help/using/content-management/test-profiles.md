@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vor der Vorschau oder dem Testen Ihres Inhalts müssen Sie zunächst Testprofile
 
 >[!NOTE]
 >
->Neben Testprofilen können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihres Inhalts testen, indem Sie eine Vorschau davon anzeigen und Testsendungen mit Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+>Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
 Gehen Sie wie folgt vor, um Testprofile auszuwählen:
 

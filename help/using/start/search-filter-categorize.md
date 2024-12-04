@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 >title="Tags"
 >abstract="Über dieses Feld können Sie Ihrer Kampagne einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste."
 
-Mit Adobe Experience Platform [Einheitliche Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Objekte einfach klassifizieren, um die Listensuche zu verbessern.
+Mit [einheitlichen Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) in Adobe Experience Platform können Sie Ihre Journey Optimizer-Objekte einfach klassifizieren, um die Suche über Listen zu verbessern.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-Durch das Hinzufügen aussagekräftiger Tags zu Zielgruppen in Journey Optimizer können Sie Zielgruppen später filtern und suchen, um sie leichter zu finden. Tags können außerdem verwendet werden, um Zielgruppen in relevanten, durchsuchbaren Ordnern zu organisieren, personalisierte Angebote und Erlebnisse zu erstellen und in Erlebnisentscheidungen zu verwenden.
+Durch das Hinzufügen aussagekräftiger Tags zu Zielgruppen in Journey Optimizer können Sie Zielgruppen später filtern und suchen, um sie leichter zu finden. Tags können außerdem verwendet werden, um Zielgruppen in relevanten, durchsuchbaren Ordnern zu organisieren, personalisierte Angebote und Erlebnisse zu erstellen und in Erlebnisentscheidungsregeln zu verwenden.
 
 ### Hinzufügen von Tags zu einem Objekt {#add-tags}
 
@@ -78,9 +78,9 @@ Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Ge
 
    >[!NOTE]
    >
-   > Bei Tags wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+   > Bei Tags wird nicht wischen Groß- und Kleinschreibung unterschieden.
 
-1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf &quot;&quot;]**&quot;, um ein neues zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und steht für alle anderen Objekte zur Verfügung.**[!UICONTROL 
+1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf **[!UICONTROL „“ erstellen]**, um ein neues zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und für alle anderen Objekte verfügbar gemacht.
 
    ![](assets/tags4.png)
 
