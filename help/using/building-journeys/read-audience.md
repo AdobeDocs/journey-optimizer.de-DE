@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1635'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-## Limits und Best Practices {#must-read}
+## Schutzmechanismen und Best Practices {#must-read}
 
 * Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Das System führt Wiederholungsversuche durch. Vermeiden Sie jedoch, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder „so bald wie möglich“ beginnend) genau zur gleichen Zeit starten. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. mit Abständen zwischen 5 und 10 Minuten.
 
@@ -197,9 +197,9 @@ Nach einer Vereinigung können Sie die Zielgruppe erneut teilen, indem Sie eine 
 
 ## Weitere Zustellversuche {#read-audience-retry}
 
-Beim Abrufen des Exportauftrags werden standardmäßig Wiederholungen auf durch die Zielgruppe ausgelöste Journey angewendet (beginnend mit einer **Audience lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten erneute Versuche unternommen, höchstens jedoch für eine Stunde. Danach werden wir es als Fehler betrachten. Diese Journey können daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden.
+Beim Abrufen des Exportauftrags werden standardmäßig weitere Zustellversuche bei durch die Zielgruppe ausgelösten Journeys angewendet (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
 
-Nicht erfolgreiche **Audience lesen** -Trigger werden erfasst und in den **Warnhinweisen** angezeigt. Der Warnhinweis &quot;**Audience lesen**&quot;warnt Sie, wenn eine Aktivität vom Typ **Audience lesen** kein Profil 10 Minuten nach der geplanten Ausführungszeit verarbeitet hat. Dieser Fehler kann durch technische Probleme verursacht werden oder weil die Zielgruppe leer ist. Wenn dieser Fehler durch technische Probleme verursacht wird, beachten Sie, dass je nach Problemtyp weitere Zustellversuche möglich sind (z. B. wenn die Erstellung eines Exportauftrags fehlgeschlagen ist, versuchen wir es alle 10 Minuten für max. 1 Stunde erneut. [Weitere Informationen](../reports/alerts.md#alert-read-audiences)
+Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **Warnhinweisen** angezeigt. Der **Warnhinweis „Zielgruppe lesen“** erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch). [Weitere Informationen](../reports/alerts.md#alert-read-audiences)
 
 ## Anleitungsvideo {#video}
 
