@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
-workflow-type: ht
-source-wordcount: '1015'
-ht-degree: 100%
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 ### Personalisierung mithilfe der Daten aus [!DNL Adobe Experience Platform] {#perso}
 
-* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung in den Kanälen „E-Mail“, „SMS“, „Push-Benachrichtigung“ und „Direkt-Mail“ verfügbar.
+* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung in E-Mail-, SMS- und Briefpost-Kanälen verfügbar.
 * **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
 * **Ausdrucksfragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten platziert werden.
 
@@ -73,6 +73,17 @@ Dabei gilt:
 * **API Key** kann aus der Developer Console abgerufen werden.
 * **IMS Org ID** ist Ihre Adobe IMS ORG.
 * **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev).
+
+>[!NOTE]
+>
+>Wenn beim Versuch, einen API-Aufruf zum Aktivieren von Datensätzen durchzuführen, der folgende Fehler auftritt, versuchen Sie, die Adobe Journey Optimizer-APIs aus Ihrem Entwicklerkonsolenprojekt zu entfernen und sie dann erneut hinzuzufügen.
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## Verwenden eines Datensatzes für die Personalisierung {#leverage}
 
