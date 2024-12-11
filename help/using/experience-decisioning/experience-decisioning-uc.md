@@ -9,22 +9,22 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Anwendungsfall für die Entscheidungsfindung {#experience-decisioning-uc}
 
-Sie sind sich nicht sicher, ob eine bestimmte Rangformel bessere Leistungen erbringt als die vorab zugewiesenen Angebotsprioritäten.
+Sie sind sich nicht sicher, ob eine bestimmte Rangfolgenformel bessere Leistungen erbringt als die vorab zugewiesenen Angebotsprioritäten.
 
 In diesem Anwendungsfall erstellen Sie eine Kampagne, in der Sie zwei Versandabwandlungen definieren, die jeweils eine andere Entscheidungsrichtlinie enthalten, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt.
 
-Richten Sie das Experiment so ein, dass
+Richten Sie das Experiment folgendermaßen ein:
 
-* Die erste Behandlung enthält eine Auswahlstrategie mit Priorität als Ranking-Methode.
-* Die zweite Behandlung enthält eine andere Auswahlstrategie, für die eine Formel die Rangmethode ist.
+* Die erste Abwandlung enthält eine Auswahlstrategie mit Priorität als Rangfolgenmethode.
+* Die zweite Abwandlung enthält eine andere Auswahlstrategie, die eine Formel als Rangfolgenmethode verwendet.
 
 
 ## Erstellen von Entscheidungselementen und Auswahlstrategien

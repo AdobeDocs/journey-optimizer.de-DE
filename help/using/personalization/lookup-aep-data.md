@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 ### Personalisierung mithilfe der Daten aus [!DNL Adobe Experience Platform] {#perso}
 
-* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung in E-Mail-, SMS- und Briefpost-Kanälen verfügbar.
+* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung auf den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
 * **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
 * **Ausdrucksfragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten platziert werden.
 
@@ -76,7 +76,7 @@ Dabei gilt:
 
 >[!NOTE]
 >
->Wenn beim Versuch, einen API-Aufruf zum Aktivieren von Datensätzen durchzuführen, der folgende Fehler auftritt, versuchen Sie, die Adobe Journey Optimizer-APIs aus Ihrem Entwicklerkonsolenprojekt zu entfernen und sie dann erneut hinzuzufügen.
+>Wenn beim Durchführen eines API-Aufrufs zum Aktivieren von Datensätzen der folgende Fehler auftritt, versuchen Sie, die Adobe Journey Optimizer-APIs aus Ihrem Developer Console-Projekt zu entfernen und sie dann erneut hinzuzufügen.
 >
 >```
 >
