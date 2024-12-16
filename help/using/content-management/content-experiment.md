@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 
-1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-[Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
+1. Journey Erstellen und konfigurieren Sie zunächst Ihre [Kampagne](../campaigns/create-campaign.md) oder [](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen.
 
 1. Beginnen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** mit der Personalisierung der Abwandlung A.
 
