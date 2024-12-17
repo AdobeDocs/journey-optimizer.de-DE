@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: ht
-source-wordcount: '2188'
-ht-degree: 100%
+source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 99%
 
 ---
 
@@ -304,6 +304,7 @@ ht-degree: 100%
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
+   + [Adobe Experience Manager-Inhaltsfragmente](using/content-management/aem-fragments.md)
    + Arbeiten mit dem KI-Assistenten{#ai-assistant}
       + [Erste Schritte mit dem Content Accelerator des KI-Assistenten](using/content-management/gs-generative.md)
       + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
