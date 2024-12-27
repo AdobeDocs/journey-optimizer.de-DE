@@ -1,31 +1,31 @@
 ---
 title: Konflikt-Management und Priorisierung
-description: Erfahren Sie, wie Sie Journey Optimizer-Konflikt- und Priorisierungs-Tools nutzen können.
+description: Erfahren Sie, wie Sie die Tools für Konflikt-Management und Priorisierung in Journey Optimizer nutzen können.
 role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 7%
+ht-degree: 80%
 
 ---
-
 
 # Konflikt-Management und Priorisierung {#conflict-prioritization}
 
 >[!AVAILABILITY]
 >
->Funktionen zur Konflikt- und Priorisierung sind derzeit in eingeschränkter Verfügbarkeit für ausgewählte Kunden verfügbar. Bitte beachten Sie, dass diese Funktionen künftig schrittweise für weitere Benutzer eingeführt werden. Wenden Sie sich an Ihr Account-Team, wenn Sie Interesse haben, auf diese Funktionen gesetzt zu werden.
+>Die Funktionen für Konflikte und Priorisierung stehen derzeit einer ausgewählten Kundengruppe nur eingeschränkt zur Verfügung. Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
-In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet verschiedene Instrumente für Konfliktbewältigung und Priorisierung.
+In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet mehrere Tools zum Konflikt-Management und zur Priorisierung.
 
-Mit dem **Konflikterkennungs-Tool** können Sie potenzielle Überschneidungen in Journey und Kampagnen identifizieren. Dies ist von entscheidender Bedeutung, da zu viele gleichzeitige Kommunikationen zu Kundenmüdigkeit führen können. Mit Journey Optimizer können Sie Elemente wie Zeitleisten, Zielgruppenüberschneidungen und Kanalkonfigurationen überwachen. Durch frühzeitiges Erkennen von Konflikten können Sie Ihre Kampagnen verfeinern, um zu verhindern, dass Kunden mit mehreren Nachrichten gleichzeitig bombardiert werden. [Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagnen erkennen](conflicts.md)
+Mit dem **Konflikterkennungs-Tool** können Sie potenzielle Überschneidungen in Journeys und Kampagnen identifizieren. Dies ist von entscheidender Bedeutung, da zu viele gleichzeitige Mitteilungen zu Kundenermüdung führen können. Mit Journey Optimizer können Sie Elemente wie Timelines, Zielgruppenüberschneidungen und Kanalkonfigurationen überwachen. Durch das frühzeitige Identifizieren von Konflikten können Sie Ihre Kampagnen verfeinern und verhindern, dass Kundinnen und Kunden mehrere Nachrichten gleichzeitig erhalten. [Informationen zum Erkennen potenzieller Konflikte in Journeys und Kampagnen](conflicts.md)
 
-Darüber hinaus können Sie mit den **Prioritätswerten** steuern, welche Kampagnen oder Journey Vorrang haben, wenn sich ein Kunde für mehrere Nachrichten qualifiziert. Dies ist insbesondere bei eingehenden Kanälen wie Web und Mobile nützlich, wo immer nur eine Kampagne angezeigt werden kann. Durch Zuweisung einer Prioritätsbewertung zu jeder Journey oder Kampagne können Sie sicherstellen, dass die wichtigste Nachricht zuerst gesendet wird. [Erfahren Sie, wie Sie Journey und Kampagnen Prioritätswerte zuweisen](priority-scores.md)
+Darüber hinaus können Sie mit den **Prioritätswerten** steuern, welche Kampagnen oder Journeys Vorrang haben, wenn sich eine Kundin oder ein Kunde für mehrere Mitteilungen qualifiziert. Dies ist insbesondere bei eingehenden Kanälen wie Web und Mobile nützlich, in denen immer nur eine Kampagne angezeigt werden kann. Durch Zuweisung eines Prioritätswertes zu jeder Journey oder Kampagne können Sie sicherstellen, dass die wichtigste Nachricht zuerst gesendet wird. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](priority-scores.md)
 
-Mit **Journey capping &amp; Arbitration** können Sie einschränken, wie oft und wie viele Journey ein Kunde in einem bestimmten Zeitraum eingeben kann. Sie können Regeln einrichten, um die Anzahl der Journey-Einträge für ein Profil zu begrenzen oder die Anzahl der Journey zu begrenzen, bei denen sich ein Kunde gleichzeitig anmelden kann. Darüber hinaus können Sie mithilfe von Schlichtungseinstellungen festlegen, welche Journey ein Kunde eingeben soll, wenn er sich für mehrere Journey qualifiziert, und mithilfe von Prioritätswerten die beste Anpassung bestimmen. [Erfahren Sie, wie Sie mit Journey-Begrenzungen und Schlichtungen arbeiten](journey-capping.md)
+**Journey-Begrenzung und Schlichtung** Ermöglicht es Ihnen zu begrenzen, wie oft und wie viele Journey ein Kunde innerhalb eines bestimmten Zeitraums eingeben kann. Sie können Regeln einrichten, um die Anzahl der Journey-Eintritte für ein Profil zu begrenzen oder die Anzahl der Journeys zu begrenzen, an denen eine Kundin bzw. ein Kunde gleichzeitig teilnehmen kann. Darüber hinaus können Sie mithilfe von Steuerungseinstellungen festlegen, in welche Journey eine Kundin bzw. ein Kunde eintreten soll, wenn sie bzw. er sich für mehrere Journeys qualifiziert, und mithilfe von Prioritätswerten die beste Wahl bestimmen. [Informationen zum Arbeiten mit Journey-Begrenzungen und -Steuerung](journey-capping.md)
 
-Schließlich können Sie Regelsätze verwenden, um die **Frequenzbegrenzung nach Kommunikationstyp** festzulegen (z. B. Vertrieb, Werbeaktion), um zu verhindern, dass Kunden mit ähnlichen Nachrichten überladen werden. Sie können die Häufigkeit über mehrere Kanäle hinweg steuern und automatisch Profile ausschließen, die zu oft angesprochen wurden, um ein besseres Kundenerlebnis zu gewährleisten. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../configuration/rule-sets.md)</li></ul>
+Schließlich können Sie auch Regelsätze verwenden, um die **Frequenzlimitierung nach Kommunikationstyp“ (z. B.**, Vertrieb, Werbeaktionen) festzulegen, um zu verhindern, dass Kunden mit ähnlichen Nachrichten überlastet werden. Sie können die Häufigkeit über mehrere Kanäle steuern und zu oft angesprochene Profile automatisch ausschließen, um ein besseres Kundenerlebnis zu gewährleisten. [Informationen zum Arbeiten mit Regelsätzen](../configuration/rule-sets.md)</li></ul>
 
-Mithilfe dieser Funktionen können Sie reibungslosere und zielgerichtetere Marketing-Maßnahmen gewährleisten und gleichzeitig die richtige Botschaft zur richtigen Zeit vermitteln, Konflikte und Überlastungen vermeiden.
+Mithilfe dieser Funktionen können Sie reibungslosere und zielgerichtetere Marketing-Maßnahmen gewährleisten und gleichzeitig die richtige Nachricht zur richtigen Zeit senden, wodurch Konflikte und Überlastungen vermieden werden.

@@ -33,7 +33,7 @@ Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
 * **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Performance zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Performance verbessern können. [Weitere Informationen](#thompson-sampling)
 
-* [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Satz kontinuierlicher [Wahrscheinlichkeitsverteilungen](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"}, definiert im Intervall [0, 1] [parametrisiert](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} durch zwei positive [Formparameter](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
+* [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Satz von stetigen [Wahrscheinlichkeitsverteilungen](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"}, die im Intervall [0, 1] definiert sind [parametrisiert](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} durch zwei positive [Formparameter](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Thompson-Stichprobenverfahren {#thompson-sampling}
 
@@ -71,7 +71,7 @@ Die automatische Optimierung ist so konzipiert, dass binäre Belohnungen (Klick/
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Die oben erläuterte Funktion &quot;Wahrscheinlichkeit&quot;wird von einer Binomial-Distribution modelliert, die die Erfolge (Konversionen) und Fehler (keine Konversionen) aufweist und q eine [zufällige Variable](https://de.wikipedia.org/wiki/Zufallsvariable){target="_blank"} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"} enthält.
+Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target="_blank"} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}.
 
 Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilung hat die folgende Form:
 

@@ -44,9 +44,9 @@ Feedback zu Impressions und Klicks wird je nach verwendetem [!DNL Journey Optimi
 
 Allerdings müssen bei den **meisten Kanälen** Impressions- und Klick-Daten als ein **Erlebnisereignis** an Adobe Experience Platform gesendet werden. Dazu gehören:
 
-* Webseiten, die das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden
+* Web-Seiten, die die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden
 
-* Mobile Apps, die das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, um Angebote zu rendern - [Weitere Informationen](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobile Apps, die die [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden - [Weitere Informationen](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Nachrichten, die über Anwendungen von Drittanbietern gesendet werden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

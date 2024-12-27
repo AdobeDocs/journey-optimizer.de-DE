@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Komponentenliste
+title: Liste von Komponenten
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht verwenden
 feature: Reporting
 topic: Content Management

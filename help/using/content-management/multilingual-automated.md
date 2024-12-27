@@ -10,7 +10,7 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2041'
 ht-degree: 100%
 

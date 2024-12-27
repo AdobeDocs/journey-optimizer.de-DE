@@ -26,13 +26,13 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->Funktionen zur Konflikt- und Priorisierung sind derzeit in eingeschränkter Verfügbarkeit für ausgewählte Kunden verfügbar. Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
+>Die Funktionen für Konflikte und Priorisierung stehen derzeit einer ausgewählten Kundengruppe nur eingeschränkt zur Verfügung. Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätswert zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeittsbegrenzung). In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mitteilungen infrage kommt und Sie selektiv auswählen möchten, welche sie betreten und erhalten soll, sollten Sie dieses Feld verwenden.
 
 >[!NOTE]
 >
->In Kampagnen ist die Prioritätsbewertung nur für die Web-, In-App- und code-basierten eingehenden Kanäle verfügbar.
+>In Kampagnen ist der Prioritätswert nur für die Web-, In-App- und Code-basierten eingehenden Kanäle verfügbar.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

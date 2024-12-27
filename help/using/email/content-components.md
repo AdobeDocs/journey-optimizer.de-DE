@@ -103,7 +103,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
 ## Text {#text}
 
-Verwenden Sie die Komponente **[!UICONTROL Text]** , um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarte **[!UICONTROL Stile]** anzupassen.
+Verwenden Sie die **[!UICONTROL Text]**-Komponente, um Text in Ihre E-Mail einzufügen, und passen Sie den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarte **[!UICONTROL Stile]** an.
 
 ![](assets/email_designer_text_component.png)
 

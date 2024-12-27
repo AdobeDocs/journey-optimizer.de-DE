@@ -4,13 +4,13 @@ description: Erfahren Sie, wie Sie Genehmigungsrichtlinien erstellen und verwalt
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
-
 
 # Erstellen und Verwalten von Genehmigungsrichtlinien {#approval-policies}
 
@@ -133,4 +133,3 @@ Sie können Ihre Genehmigungsrichtlinie jetzt aktivieren, um sie anzuwenden.
 1. Öffnen Sie im Menü **[!UICONTROL Richtlinie]** die erweiterten Optionen, um die Richtlinie nach Bedarf zu **[!UICONTROL Bearbeiten]**, zu **[!UICONTROL Deaktivieren]** oder zu **[!UICONTROL Duplizieren]**.
 
    ![](assets/policy_activate_2.png)
-

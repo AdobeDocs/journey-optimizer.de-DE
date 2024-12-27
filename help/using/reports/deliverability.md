@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit der Zustellbarkeit
-description: Zustellbarkeitsrichtlinien kennenlernen
+description: 'Zustellbarkeitsrichtlinien kennenlernen '
 feature: Deliverability
 topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Einige Subdomains sind möglicherweise nicht verfügbar"
->abstract="Bestimmte Subdomains sind aufgrund einer ausstehenden Feedback-Schleifen-Registrierung derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen."
+>abstract="Bestimmte Subdomains sind aufgrund einer ausstehenden Feedback-Schleifen-Registrierung derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss kann aus allen verfügbaren Subdomains ausgewählt werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Erste Schritte mit der Delegierung von Subdomains"
 
 Eine Feedback-Schleife (Feedback Loop, FBL) ist ein von einigen ISPs angebotener Dienst, mit dem die Absenderin bzw. der Absender einer E-Mail automatisch benachrichtigt werden kann, wenn Benutzende, die eine E-Mail erhalten, diese als Spam kennzeichnen (auch als „Beschwerde“ bezeichnet).

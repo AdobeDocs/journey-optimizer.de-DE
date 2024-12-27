@@ -10,7 +10,7 @@ level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 

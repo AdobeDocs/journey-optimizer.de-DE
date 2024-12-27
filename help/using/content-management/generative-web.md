@@ -7,8 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: ht
+exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 100%
 
@@ -141,4 +142,3 @@ Im folgenden Beispiel erfahren Sie, wie Sie die Content-Beschleunigung des KI-As
 Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht mit dem Web-Designer bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. [Weitere Informationen](../web/create-web.md#activate-web-campaign)
 
 >[!ENDTABS]
-

@@ -1,6 +1,6 @@
 ---
 title: Zugriff auf den exportierten Angebotskatalog
-description: Erfahren Sie, wie Sie auf den Angebotskatalog auf Adobe Experience Platform zugreifen können, nachdem er exportiert wurde.
+description: 'Erfahren Sie, wie Sie auf den Angebotskatalog auf Adobe Experience Platform zugreifen können, nachdem er exportiert wurde. '
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer

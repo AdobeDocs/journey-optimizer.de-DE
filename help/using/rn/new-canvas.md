@@ -19,64 +19,64 @@ ht-degree: 2%
 
 Journey Optimizer bietet jetzt ein **vereinfachtes Journey-Modell**, das das Benutzererlebnis und interne Prozesse verbessern soll. Ab der April-Version können Sie von den folgenden Funktionen profitieren:
 
-* Eine **neu entworfene Journey-Arbeitsfläche**, die für ein modernisiertes Benutzeroberflächen-Erlebnis erstellt wurde
-* Eine direkt auf der Journey-Arbeitsfläche verfügbare **Live-Reporting**-Benutzeroberfläche
+* Eine **neu gestaltete Journey-Arbeitsfläche** die für ein modernisiertes Benutzeroberflächenerlebnis sorgt
+* Eine **Live-Reporting**-Benutzeroberfläche direkt auf der Journey-Arbeitsfläche verfügbar
 
 >[!NOTE]
 >
->Beachten Sie, dass der Rollout für diese Funktion progressiv sein wird. Möglicherweise sehen Sie die Änderungen nicht sofort.
+>Beachten Sie, dass der Rollout für diese Funktion progressiv verläuft. Möglicherweise werden die Änderungen nicht sofort angezeigt.
 
-## Aktualisierungen des Journey-Modells
+## Updates zum Journey-Modell
 
-Das neue Journey-Modell wird neben dem vorhandenen Modell leben, was bedeutet, dass Journey mit **zwei verschiedenen Modellen** arbeiten:
+Das neue Journey-Modell wird neben dem bestehenden Modell verwendet, d. h. es wird Journey-Modelle geben, die **zwei verschiedene Modelle**:
 
-* Das alte Modell
+* Das Legacy-Modell
 * Das neue Modell
 
-Alle Journey im alten Modell bleiben darin. Sie können sie weiterhin bearbeiten, testen oder veröffentlichen. Jede neue Version, die von einer Journey auf dem Legacy-Modell erstellt wurde, bleibt dabei erhalten. Es gibt **keine funktionalen Änderungen** um diese Journey.
+Alle Journey des alten Modells bleiben darin. Sie können sie weiterhin bearbeiten, testen oder veröffentlichen. Jede neue Version, die von einer Journey auf dem alten Modell erstellt wurde, bleibt ebenfalls darin enthalten. Es gibt **keine funktionalen Veränderungen** um diese Journey.
 
-Wie Sie im folgenden Screenshot sehen, sind die Knoten rund, was die alte Benutzeroberfläche für Journey auf dem alten Modell ist.
+Wie Sie im folgenden Screenshot sehen können, sind die -Knoten rund geformt. Dies ist die alte Benutzeroberfläche für Journey im alten Modell.
 
 ![](assets/new-canvas.png)
 
-Wenn Sie jedoch **eine neue Journey** oder **eine bestehende duplizieren,**, befindet sich diese auf dem neuen Modell. Journey zum alten Modell werden weiterhin unterstützt, bis die Mehrheit der Kunden zum neuen Modell übergeht.
+Wenn Sie jedoch **eine neue Journey erstellen** oder **eine vorhandene duplizieren**, befindet sie sich auf dem neuen Modell. Journey mit dem alten Modell werden weiterhin unterstützt, bis eine Mehrheit der Kunden auf das neue Modell umgestellt wird.
 
-Das neue Journey-Modell unterliegt einer einzigen Einschränkung. Es ist **nicht möglich, Aktivitäten aus dem alten zu kopieren und in das neue Modell einzufügen und umgekehrt**. Wenn Sie dies wünschen, empfehlen wir Ihnen, Ihre alte Journey zu duplizieren, um sie in das neue Modell zu wechseln, und dann Ihre Aktivitäten zu kopieren.
+Das neue Journey-Modell unterliegt einer Einschränkung. Es ist **möglich, Aktivitäten aus dem alten Modell in das neue zu kopieren und einzufügen und umgekehrt**. Wenn Sie dies tun möchten, empfehlen wir Ihnen, Ihre alte Journey zu duplizieren, um sie auf das neue Modell umzustellen, und dann Ihre Aktivitäten zu kopieren.
 
-Im folgenden Screenshot sehen Sie die neu entworfene Benutzeroberfläche für die Journey-Arbeitsfläche (nur mit dem neuen Modell verfügbar):
+Im folgenden Screenshot sehen Sie die neu gestaltete Benutzeroberfläche für die Journey-Arbeitsfläche (nur beim neuen Modell verfügbar):
 
 ![](assets/new-canvas2.png)
 
-**Neue Funktionen, die dem Journey-Designer hinzugefügt wurden (einschließlich Live-Berichten), sind ab diesem Zeitpunkt nur noch für Journey verfügbar.**
+**Alle neuen Funktionen, die zum Journey-Designer hinzugefügt werden (einschließlich Live-Berichten), stehen ab diesem Zeitpunkt nur noch für Journeys des neuen Modells zur Verfügung.**
 
-## Verbessertes Journey-Arbeitsflächendesign
+## Verbessertes Journey-Leinwanddesign
 
-Mit dem neuen Journey-Modell führen wir eine neue und verbesserte Benutzeroberfläche **Journey-Arbeitsfläche** ein, die nahtlos in das Adobe Experience Cloud-Lösungen- und App-Ökosystem passt und ein intuitives und effizientes Benutzererlebnis ermöglicht. Jede Journey im neuen Modell wird auf diesem neuen Design stehen.
+Mit dem neuen Journey-Modell führen wir eine neue und verbesserte **Journey-Canvas-Benutzeroberfläche** ein, die nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und ein intuitives und effizientes Anwendererlebnis bietet. Jede Journey des neuen Modells wird dieses neue Design aufweisen.
 
 ![](assets/new-canvas3.gif)
 
-Aktivitäten werden jetzt durch eckige Kästchen mit den folgenden Funktionen dargestellt:
+Aktivitäten werden jetzt durch quadratische Kästchen mit den folgenden Funktionen dargestellt:
 
-* Die erste Zeile, die den Aktivitätstyp darstellt, der häufig durch mehr Kontextinformationen überschrieben wird (in &quot;Zielgruppen lesen&quot;, sie enthält den Namen der ausgewählten Zielgruppe), oder durch eine benutzerdefinierte Bezeichnung, wenn Sie eine definieren.
+* Die erste Zeile für den Aktivitätstyp, die häufig durch kontextuellere Informationen (unter „Zielgruppen lesen“ enthält sie den Namen der ausgewählten Zielgruppe) oder, falls definiert, durch eine benutzerdefinierte Beschriftung überschrieben wird.
 * Die zweite Zeile, die immer den Aktivitätstyp darstellt.
 
 ![](assets/new-canvas4.png)
 
-Diese neue Benutzeroberfläche verbessert die Lesbarkeit der Journey-Arbeitsfläche, indem sie **klarere Aktivitätsbezeichnungen und -typen bereitstellt**.
+Diese neue Benutzeroberfläche verbessert die Lesbarkeit der Journey-Arbeitsfläche, indem sie (**Aktivitätsbeschriftungen und -typen)**.
 
-Außerdem kann das Produktteam mehr Informationen auf der Arbeitsfläche mit weniger Klicks hinzufügen. Ein Beispiel für &quot;weitere Informationen&quot;wäre die Einbeziehung von Live-Berichten in die Journey-Arbeitsfläche, in der Sie sehen können, wie Profile aufgrund von Fehlern in Ihre Aktivitäten eintreten und diese beenden.
+Außerdem kann das Produkt-Team mit weniger Klicks weitere Informationen auf der Arbeitsfläche hinzufügen. Ein Beispiel für „weitere Informationen“ wäre die Aufnahme von Live-Berichten in die Journey-Arbeitsfläche, wo Profile zu sehen sind, die aufgrund von Fehlern in Ihre Aktivitäten eintreten oder diese verlassen.
 
 ![](assets/new-canvas5.png)
 
-## Live-Reporting auf der Journey-Arbeitsfläche
+## Live-Berichte auf der Journey-Arbeitsfläche
 
-Zusätzlich zum verbesserten Arbeitsflächenlayout für Journey wird eine neue Funktion eingeführt, mit der Benutzer Echtzeitberichtsmetriken aus **den letzten 24 Stunden**, so genannte Live-Berichte, direkt auf der Arbeitsfläche des Journey anzeigen können.
+Zusätzlich zum verbesserten Journey-Arbeitsflächen-Layout wird eine neue Funktion eingeführt, mit der Benutzerinnen und Benutzer Echtzeit-Berichtsmetriken aus den **letzten 24 Stunden**, genannt Live-Berichte, direkt auf der Journey-Arbeitsfläche anzeigen können.
 
-Für jede Aktivität in jeder Live-Journey mit dem neuen Modell haben Sie Zugriff auf:
+Für jede Aktivität auf jeder Live-Journey mit dem neuen Modell haben Sie Zugriff auf:
 
 
-* Die Anzahl der Profile, die an dieser Aktivität teilnehmen.
-* Die Anzahl der Profile, die diese Aktivität aufgrund eines Fehlers verlassen haben.
+* Die Anzahl der Profile, die in diese Aktivität eintreten.
+* Anzahl der Profile, die diese Aktivität aufgrund eines Fehlers verlassen haben
 
 ![](assets/new-canvas6bis.png)
 

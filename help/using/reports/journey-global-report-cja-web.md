@@ -7,8 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -115,4 +116,3 @@ Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überb
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
-

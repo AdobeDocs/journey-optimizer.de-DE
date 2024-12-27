@@ -8,13 +8,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
-source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
-workflow-type: ht
+exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
 ---
-
 
 # Integrieren mit Marketo Engage {#integrating-with-marketo-engage}
 
@@ -113,4 +113,3 @@ Sie können Ihre benutzerdefinierte Aktion jetzt auf Ihrer eigenen Arbeitsfläch
 * Klicken Sie unter **Anfrageparameter** für jeden Parameter mit dynamischen Werten, die Sie in der Payload konfiguriert haben, auf „Bearbeiten“.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
-

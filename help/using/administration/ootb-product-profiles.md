@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: In Journey Optimizer integrierte Rollen
+title: 'In Journey Optimizer integrierte Rollen '
 description: Erfahren Sie mehr über die integrierten Rollen.
 feature: Access Management
 topic: Administration
@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 100%
 

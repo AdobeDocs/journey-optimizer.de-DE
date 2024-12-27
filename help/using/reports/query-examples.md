@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -237,7 +237,7 @@ WHERE
 
 **Überprüfen der Details eines serviceEvents**
 
-Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, denn sie beziehen sich auf Aktivitäten (Ereignisse, Aktionen usw.) von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
+Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, da sie sich auf Aktivitäten (Ereignisse, Aktionen usw.) von Profilen in einer Journey beziehen. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
 
 Im Folgenden finden Sie ein Beispiel für eine Abfrage, um die Details eines serviceEvents zu überprüfen:
 

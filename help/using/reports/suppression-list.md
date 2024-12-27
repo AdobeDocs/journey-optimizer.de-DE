@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey O
 
 Um die E-Mail-Nachrichten zu kontrollieren, die von den Inhabern der Posteingänge empfangen werden, und sicherzustellen, dass sie nur die von ihnen gewünschten Nachrichten erhalten, verfügen Internet-Dienstleister (ISPs) und kommerzielle Spam-Filter über eigene Algorithmen, um den allgemeinen Ruf von E-Mail-Versendern anhand der IP-Adressen und der sendenden Domain(s), die sie verwenden, zu verfolgen.
 
-Wenn Sie deren Feedback (z. B. Spam-Beschwerden, Bounces usw.) nicht berücksichtigen, werden sie Ihre Reputation herabstufen. Die Unterdrückungsliste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
+Wenn Sie deren Feedback (z. B. Spam-Beschwerden, Bounces usw.) nicht berücksichtigen, werden sie Ihre Reputation herabstufen. Die Unterdrückungsliste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
 
 Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vom Versand der Nachricht ausgeschlossen. Dies beschleunigt den Versand, da sich die Fehlerrate maßgeblich auf die Versandgeschwindigkeit auswirkt.
 
@@ -53,7 +53,7 @@ Weitere Informationen zu Hardbounces und Softbounces finden Sie in [diesem Absch
 >
 >Die Adressen von abgemeldeten Benutzern können nicht an die Unterdrückungsliste gesendet werden, da sie keine E-Mails von [!DNL Journey Optimizer] erhalten. Ihre Entscheidung wird auf der Ebene von Experience Platform gehandhabt. Weitere Informationen zum [Opt-out](../privacy/opt-out.md)
 
-Für jede Adresse werden der wesentliche Grund für die Unterdrückung und die Unterdrückungskategorie (weich, hart, usw.) in der Unterdrückungsliste angezeigt. Weitere Informationen zum Zugriff auf und zur Verwaltung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../configuration/manage-suppression-list.md).
+Für jede Adresse werden der grundlegende Grund für die Unterdrückung und die Unterdrückungskategorie (weich, hart usw.) in der Unterdrückungsliste angezeigt. Weitere Informationen zum Zugriff auf und zur Verwaltung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >

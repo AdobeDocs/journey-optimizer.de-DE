@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Diese Feldergruppe wird von den folgenden Ereignissen verwendet: **journeyStepEv
 
 Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] an Adobe Experience Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
-Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.), um die Größe von Ereignissen zu begrenzen.
+Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern (Aktionsausführung, Datenabruf usw.) verfügbar, um die Größe von Ereignissen zu begrenzen.
 
 
 >[!NOTE]

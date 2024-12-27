@@ -9,7 +9,7 @@ level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 100%
 

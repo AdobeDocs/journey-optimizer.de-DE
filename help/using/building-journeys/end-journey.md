@@ -9,7 +9,7 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 

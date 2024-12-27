@@ -12,7 +12,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Sie können eine Schemabeziehung für ein Zeichenfolgen-Array definieren, z. B. 
 
 ![](assets/schema15.png)
 
-Sie können auch eine Schemabeziehung mit einem Attribut innerhalb eines Arrays von Objekten definieren, z. B. eine Liste von Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journeys (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
+Sie können auch eine Schemabeziehung mit einem Attribut innerhalb eines Arrays von Objekten definieren, z. B. eine Liste von Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journey (Bedingungen, benutzerdefinierte Aktionen usw.) und in der Nachrichtenpersonalisierung verfügbar.
 
 ![](assets/schema16.png)
 

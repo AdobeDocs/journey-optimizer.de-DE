@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->Funktionen zur Konflikt- und Priorisierung sind derzeit in eingeschränkter Verfügbarkeit für ausgewählte Kunden verfügbar. Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
+>Die Funktionen für Konflikte und Priorisierung stehen derzeit einer ausgewählten Kundengruppe nur eingeschränkt zur Verfügung. Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an denen ein Profil teilnehmen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
@@ -110,7 +110,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 >title="Anwenden des Regelsatzes auf Journeys"
 >abstract="Regelsatz anwenden, damit ein Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von dieser Journey ausgeschlossen wird."
 
-Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus. Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
+Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen **[!UICONTROL in der Dropdown]** Liste Begrenzungsregeln den entsprechenden Regelsatz aus. Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
 
 ![](assets/journey-capping-apply.png)
 
@@ -118,7 +118,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 >
 >Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
-Sobald die Journey live ist, können Sie im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss vom Journey geführt hat, und zwar in der Tabelle **[!UICONTROL Journey Exclusions]** . [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
+Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 

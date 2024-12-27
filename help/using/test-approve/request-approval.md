@@ -4,13 +4,13 @@ description: Erfahren Sie, wie Sie vor der Veröffentlichung Ihrer Journeys und 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
-workflow-type: ht
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # Anfordern einer Genehmigung {#request-approval}
 
@@ -55,6 +55,3 @@ Wenn die genehmigenden Personen Änderungen beantragen, werden Sie durch eine E-
 ![](assets/changes-requested.png)
 
 Öffnen Sie die Änderungsanforderung über die E-Mail oder die Benachrichtigung, um auf die Journey oder Kampagne zuzugreifen und die gewünschten Änderungen vorzunehmen. Wenn Ihre Journey/Kampagne zur erneuten Prüfung bereit ist, senden Sie eine neue Genehmigungsanfrage über die Schaltfläche **[!UICONTROL Genehmigung anfordern]**.
-
-
-

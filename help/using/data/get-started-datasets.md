@@ -11,7 +11,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Ab dem 1. November 2024 bietet Streaming-Segmentierung keine Unterstützung mehr für das Senden und Öffnen von Ereignissen aus Journey Optimizer-Tracking und Feedback-Datensätzen. Darüber hinaus wird ab Februar 2025 ein TTL-Limits (Time-to-Live) für systemgenerierte Journey Optimizer-Datensätze eingeführt. [Weitere Informationen](datasets-ttl.md)
+>Ab dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von Sende- und Öffnungsereignissen aus Tracking- und Feedback-Datensätzen von Journey Optimizer nicht mehr. Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Limit eingeführt. [Weitere Informationen](datasets-ttl.md)
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 

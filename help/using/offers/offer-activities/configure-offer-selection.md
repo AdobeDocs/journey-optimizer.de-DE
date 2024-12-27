@@ -40,7 +40,7 @@ Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Ab
 
 Nachdem Sie eine Formel erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
@@ -66,7 +66,7 @@ Sie können auch ein System mit trainierten Modellen verwenden, das automatisch 
 
 Sobald ein KI-Modell erstellt wurde, können Sie dieses einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 

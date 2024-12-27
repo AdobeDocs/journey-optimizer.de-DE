@@ -61,7 +61,7 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](assets/ajo-aa_4.png)
 
-Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"} .
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
 
 ## Aktivieren dieser Konfiguration {#activate-analytics-data}
 

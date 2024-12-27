@@ -11,8 +11,8 @@ keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,7 @@ Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen könne
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
 Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden / am Ende des Namens.
-Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) and closing ({{/}}).
+Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
 
 
 >[!NOTE]
