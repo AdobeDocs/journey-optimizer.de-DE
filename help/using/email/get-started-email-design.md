@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Beim Senden von E-Mails ist es wichtig zu beachten, dass die Empfängerinnen und
 
 Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent korrekt gerendert werden, unabhängig davon, wie sie von Empfangenden angezeigt oder weitergeleitet werden.
 
-Best Practices für die Gestaltung von E-Mails finden Sie in der folgenden Tabelle:
+Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden Tabelle:
 
-| Empfohlen | Mit Vorsicht verwenden | Nicht empfohlen |
+| Empfohlen | Mit Vorsicht zu verwenden | Nicht empfohlen |
 |-|-|-|
-| <ul><li><b>Statische, tabellenbasierte Layouts</b> für Struktur</li> <li><b>HTML von Tabellen und verschachtelten Tabellen</b> für ein konsistentes Layout</li> <li><b>Vorlagenbreiten</b> zwischen 600 px und 800 px </li> <li><b>Einfaches Inline-CSS</b> für die Formatierung </li> <li><b>Web-sichere Schriftarten</b> für universelle Kompatibilität</li> | <ul><li><b>Hintergrundbilder</b> werden auf bestimmten E-Mail-Plattformen möglicherweise nicht angezeigt.</li><li><b>Benutzerdefinierte Web-Schriftarten</b> verfügen nicht über universelle Unterstützung.</li><li><b>Breites Layout</b> kann auf kleineren Bildschirmen schlecht angezeigt werden.</li><li><b>Imagemaps</b> bieten eingeschränkte Funktionalität.</li><li><b>Eingebettetes CSS</b> wird manchmal während des E-Mail-Versands entfernt.</li> | <ul><li><b>JavaScript</b> wird in E-Mail-Umgebungen im Allgemeinen nicht unterstützt.</li> <li> <b>`<iframe>`</b> Tags sind auf den meisten Plattformen blockiert. </li> <li><b>Flash</b> ist veraltet und wird nicht mehr unterstützt.</li> <li><b>Eingebettetes Audio</b> kann oft nicht abgespielt werden.</li> <li><b>Eingebettetes Video</b> ist mit vielen E-Mail-Plattformen nicht kompatibel.</li> <li> <b>Forms</b> funktioniert nicht in E-Mails.</li> <li> `<div>` Ebenen können zu Rendering-Problemen führen.</li> |
+| <ul><li><b>Statische, tabellenbasierte Layouts</b> für die Struktur</li> <li><b>HTML-Tabellen und verschachtelte Tabellen</b> für ein konsistentes Layout</li> <li><b>Vorlagenbreiten</b> zwischen 600 px und 800 px </li> <li><b>Einfaches Inline-CSS</b> für die Formatierung </li> <li><b>Web-sichere Schriftarten</b> für universelle Kompatibilität</li> | <ul><li><b>Hintergrundbilder</b> werden auf bestimmten E-Mail-Plattformen möglicherweise nicht angezeigt.</li><li><b>Benutzerdefinierte Web-Schriftarten</b> werden nicht universell unterstützt.</li><li><b>Breites Layout</b> wird auf kleineren Bildschirmen möglicherweise schlecht angezeigt.</li><li><b>Image-Maps</b> bieten eingeschränkte Funktionalität.</li><li><b>Eingebettetes CSS</b> wird manchmal während des E-Mail-Versands entfernt.</li> | <ul><li><b>JavaScript</b> wird in E-Mail-Umgebungen im Allgemeinen nicht unterstützt.</li> <li> <b>`<iframe>`</b>-Tags sind auf den meisten Plattformen blockiert. </li> <li><b>Flash</b> ist veraltet und wird nicht mehr unterstützt.</li> <li><b>Eingebettetes Audio</b> kann oft nicht abgespielt werden.</li> <li><b>Eingebettetes Video</b> ist mit vielen E-Mail-Plattformen nicht kompatibel.</li> <li> <b>Formulare</b> funktionieren in E-Mails nicht.</li> <li> `<div>`-Ebenen können zu Problemen beim Rendern führen.</li> |
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 

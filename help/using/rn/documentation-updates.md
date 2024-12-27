@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Dezember 2024 {#nov-2024}
 
-* Es wurde ein Hinweis hinzugefügt, der bei der Fehlerbehebung bei einer potenziellen Fehlermeldung hilft, wenn ein API-Aufruf zur Aktivierung von Datensätzen für die Personalisierung mithilfe von Adobe Experience Platform-Daten durchgeführt wird. [Weitere Informationen](../personalization/lookup-aep-data.md)
+* Es wurde eine Notiz hinzugefügt, die bei der Fehlerbehebung bezüglich einer potenziellen Fehlermeldung hilft, wenn ein API-Aufruf durchgeführt wird, um Datensätze für die Personalisierung mithilfe von Daten der Adobe Experience Platform zu aktivieren. [Weitere Informationen](../personalization/lookup-aep-data.md)
 
 ## Oktober 2024 {#oct-2024}
 
