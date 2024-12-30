@@ -90,21 +90,21 @@ Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgrup
 >
 >Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden.
 >
-+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
+>+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
 >
-1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
-1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
-1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
-1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
-1. Speichern Sie Ihre Änderungen.
-1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
+>1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
+>1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
+>1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
+>1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
+>1. Speichern Sie Ihre Änderungen.
+>1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
 >
-Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
+>Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 >
-* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
-* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
+>* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
+>* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 
@@ -118,7 +118,7 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 >[!NOTE]
 >
-Achten Sie darauf, dass Sie die richtigen Ereignisse als Kriterien für die Streaming-Segmentierung verwenden. [Weitere Informationen](#streaming-segmentation-events-guardrails)
+>Achten Sie darauf, dass Sie die richtigen Ereignisse als Kriterien für die Streaming-Segmentierung verwenden. [Weitere Informationen](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -168,7 +168,7 @@ Um eine optimale Performance der Streaming-Segmentierung zu erreichen, sollten S
 
 >[!NOTE]
 >
-Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Performance-Probleme verwenden.
+>Sie können Ereignisse des Typs **Nachricht geöffnet** und **Nachricht gesendet** in der Batch-Segmentierung ohne Performance-Probleme verwenden.
 
 ## Häufig gestellte Fragen zur Zielgruppenkomposition und zum benutzerdefinierten Upload {#faq}
 
@@ -184,7 +184,7 @@ Zielgruppen aus einer Zielgruppenkomposition und einem benutzerdefinierten Uploa
 
   >[!NOTE]
   >
-  Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
+  >Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
 
 Darüber hinaus stehen diese Zielgruppen für die Verwendung im Personalisierungseditor zur Verfügung, um Ihre Nachrichten in Journeys und Kampagnen zu personalisieren. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten.](../personalization/personalization-build-expressions.md)
 
