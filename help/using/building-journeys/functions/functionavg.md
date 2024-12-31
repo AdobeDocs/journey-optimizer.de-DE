@@ -9,8 +9,8 @@ keywords: avg, Funktion, Ausdruck, Journey
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

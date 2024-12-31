@@ -11,8 +11,8 @@ keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Ri
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

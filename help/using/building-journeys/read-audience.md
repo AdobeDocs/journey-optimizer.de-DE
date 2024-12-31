@@ -11,8 +11,8 @@ keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

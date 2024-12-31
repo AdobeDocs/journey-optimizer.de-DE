@@ -11,8 +11,8 @@ keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
