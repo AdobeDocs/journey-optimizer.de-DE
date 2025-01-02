@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,15 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Überschreiben eines Werts in den Journey-Parametern {#journey-parameters}
+## Standardwert überschreiben {#override-default-execution-address}
+
+### In der E-Mail-Konfiguration
+
+Sie können das standardmäßige Ausführungsfeld ändern, das auf Sandbox-Ebene festgelegt ist, wenn Sie eine E-Mail-Kanal-Konfiguration definieren. [Weitere Informationen](../email/email-settings.md#execution-address)
+
+Wenn die Ausführungsadresse auf Konfigurationsebene definiert wird, wird sie als primäre Adresse verwendet und überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
+
+### In den Journey Parametern {#journey-parameters}
 
 Nur für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren, insbesondere für den E-Mail-Kanal.
 
@@ -84,3 +92,4 @@ Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich 
 
 * Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen, und nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
 * Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
+

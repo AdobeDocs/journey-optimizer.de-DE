@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 84%
 
 ---
 
@@ -27,13 +27,13 @@ Bevor Sie den eigentlichen IP-Warmup-Plan in [!DNL Journey Optimizer] erstellen,
 
 Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus.
 
-1. Erstellen Sie eine [E-Mail](../email/email-settings.md)-Kanal-[Konfiguration](channel-surfaces.md) für die Domain und die IPs, die für den Aufwärmplan identifiziert wurden.
+1. Erstellen Sie einen E[Mail-Kanal ](channel-surfaces.md)Konfiguration) für die Domain und die IPs, die Sie für Ihren Aufwärmplan identifiziert haben.
+
+   Arbeiten Sie mit Ihrem Zustellbarkeitsberater zusammen, um die zu verwendende Domain und IPs zu identifizieren. Wie Sie sie in einer E-Mail-Konfiguration auswählen, erfahren Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Weitere Informationen dazu, wie die Domain und IPs ausgewählt werden können, die in einer E-Mail-Konfiguration verwendet werden sollen, finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
-   >
-   >* Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
+   >Selbst wenn Sie die [Ausführungsadresse](../email/email-settings.md#execution-address) in der E-Mail-Konfiguration ändern, wird das auf Sandbox-Ebene festgelegte Standardfeld weiterhin verwendet. [Weitere Informationen](primary-email-addresses.md)
 
 1. Erstellen Sie eine geplante [Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 

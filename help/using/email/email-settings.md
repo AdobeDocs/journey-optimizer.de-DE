@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 100%
+source-wordcount: '2687'
+ht-degree: 96%
 
 ---
 
@@ -340,3 +340,26 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 >[!NOTE]
 >
 >Sie können auch dynamische, personalisierte Tracking-Parameter zu den Links im E-Mail-Inhalt hinzufügen. Auf Konfigurationsebene ist dies jedoch nicht möglich. Diesen Schritt müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer durchführen. [Weitere Informationen](message-tracking.md#url-tracking)
+
+## Ausführungsadresse {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Definieren der zu verwendenden Adresse"
+>abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank vorhanden sind (privat, beruflich usw.), kann ausgewählt werden, welche Adresse/Nummer für den Versand Vorrang haben soll."
+
+Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (berufliche E-Mail-Adresse, persönliche E-Mail-Adresse usw.).
+
+In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausführungsfeldern) auf Sandbox]** Ebene angegebene Adresse, um zu bestimmen, welche E-Mail-Adresse vom Profildienst vorrangig verwendet werden soll. [Weitere Informationen](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Ausführungsfelder]** auf.
+
+Sie können dieses standardmäßige Ausführungsfeld jedoch auf der Konfigurationsebene des E-Mail-Kanals ändern.
+
+Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
+
+![](assets/email-config-delivery-address.png)
+
+Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse verwendet. Sie überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
