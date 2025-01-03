@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 88%
+source-wordcount: '483'
+ht-degree: 78%
 
 ---
 
@@ -66,17 +66,17 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Standardwert überschreiben {#override-default-execution-address}
+## Überschreiben des standardmäßigen Ausführungsfelds {#override-default-execution-address}
+
+Für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und einen anderen Wert auf E-Mail-Konfigurationsebene oder auf Journey-Ebene definieren.
 
 ### In der E-Mail-Konfiguration
 
-Sie können das standardmäßige Ausführungsfeld ändern, das auf Sandbox-Ebene festgelegt ist, wenn Sie eine E-Mail-Kanal-Konfiguration definieren. [Weitere Informationen](../email/email-settings.md#execution-address)
+Sie können das Standardausführungsfeld, das in den &quot;[ Einstellungen“ festgelegt ist, ](#admin-settings), wenn Sie eine E-Mail-Kanal-Konfiguration definieren. [Weitere Informationen](../email/email-settings.md#execution-address)
 
-Wenn die Ausführungsadresse auf Konfigurationsebene definiert wird, wird sie als primäre Adresse verwendet und überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
+Wenn eine Ausführungsadresse in der E-Mail-Konfiguration definiert ist, wird sie als primäre Adresse verwendet und überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
 
 ### In den Journey Parametern {#journey-parameters}
-
-Nur für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren, insbesondere für den E-Mail-Kanal.
 
 Beim Hinzufügen einer **[!UICONTROL E-Mail]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
 
@@ -90,6 +90,6 @@ In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTR
 
 Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
 
-* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen, und nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen: Nach der Veröffentlichung der Journey wird die E-Mail an Sie gesendet.
 * Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
 

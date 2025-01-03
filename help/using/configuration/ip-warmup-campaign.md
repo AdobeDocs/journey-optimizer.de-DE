@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 84%
+source-wordcount: '441'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >Selbst wenn Sie die [Ausführungsadresse](../email/email-settings.md#execution-address) in der E-Mail-Konfiguration ändern, wird das auf Sandbox-Ebene festgelegte Standardfeld weiterhin verwendet. [Weitere Informationen](primary-email-addresses.md)
+   >Selbst wenn Sie für IP-Aufwärmkampagnen die [Ausführungsadresse](../email/email-settings.md#execution-address) in der E-Mail-Konfiguration ändern, wird das auf Sandbox-Ebene festgelegte Standardfeld weiterhin verwendet. [Weitere Informationen](primary-email-addresses.md)
 
 1. Erstellen Sie eine geplante [Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 
