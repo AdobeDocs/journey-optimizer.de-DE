@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
-ht-degree: 96%
+source-wordcount: '2716'
+ht-degree: 95%
 
 ---
 
@@ -57,9 +57,11 @@ Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanalkonfiguration 
 
 Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 
-Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>Um die Kontrolle über Ihre E-Mail-Einstellungen zu verbessern, können Sie dynamische Subdomains definieren. [Weitere Informationen](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
 
 ## Details des IP-Pools {#ip-pools}
@@ -127,6 +129,10 @@ In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie
 ## Kopfzeilenparameter {#email-header}
 
 Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind.
+
+>[!NOTE]
+>
+>Um die Kontrolle über Ihre E-Mail-Einstellungen zu verbessern, können Sie die Header-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name der Marke.
 * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
