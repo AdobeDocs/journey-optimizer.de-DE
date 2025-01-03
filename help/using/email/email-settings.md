@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 93%
+source-wordcount: '2724'
+ht-degree: 86%
 
 ---
 
@@ -63,9 +63,7 @@ Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 
 Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
-
 ## Details des IP-Pools {#ip-pools}
-
 
 Wählen Sie den IP-Pool aus, der mit der Konfiguration verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 >
 >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
-## Abmelde-Link in Kopfzeile{#list-unsubscribe}
+## Abmelden von Liste{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
@@ -94,20 +91,23 @@ Diese Option ist standardmäßig aktiviert, um eine URL zum Abmelden mit einem K
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile keine URL zum Abmelden mit einem Klick angezeigt.
+>[!NOTE]
+>
+>Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile keine URL zum Abmelden mit einem Klick angezeigt.
 
-Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
+Sie können die Einverständnisebene aus der Dropdown-Liste **[!UICONTROL Einverständnisebene]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
-„Abmelde-Link in Kopfzeile“ bietet zwei Funktionen („Mailto“ und URL zum Abmelden mit einem Klick, wie unten beschrieben), die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
+Die Abmelde-Kopfzeile einer Liste bietet zwei Funktionen, die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * Eine Adresse **Mailto (abmelden)**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
 
   In Journey Optimizer ist die E-Mail-Adresse für Abmeldungen die Standardadresse **Mailto (abmelden)**, die basierend auf Ihrer [ausgewählten Subdomain](#subdomains-and-ip-pools) in der Kanalkonfiguration angezeigt wird.
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* Die **URL zum Abmelden mit einem Klick**, wobei es sich standardmäßig um die Option „Abmelde-Link in Kopfzeile“ handelt, die von der Opt-out-URL mit einem Klick basierend auf der Subdomain generiert wurde, die Sie in den Einstellungen der Kanalkonfiguration festgelegt und konfiguriert haben.
+* Die **1-Klick-Abmelde-URL** ist standardmäßig die Kopfzeile der mit einem Klick-Opt-out-URL generierten Abmeldeliste, basierend auf der Subdomain, die Sie in den Kanalkonfigurationseinstellungen festgelegt und konfiguriert haben.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ Sie können die Einverständnisstufe aus der Dropdown-Liste **[!UICONTROL Einver
     >
 -->
 
-Die Funktionen **[!UICONTROL Mailto (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. Wenn Sie in einem Szenario, in dem die **[!UICONTROL Opt-out-Konfiguration]** aktiviert ist und die Funktion **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert ist, einen [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Konfiguration erstellt wurde, nimmt die Option „Abmelde-Link in Kopfzeile“ den Link zum Abmelden mit einem Klick auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als den URL-Wert zum Abmelden mit einem Klick.
+Die Funktion **[!UICONTROL Mailto (unsubscribe)]** und die Funktion **[!UICONTROL One-Click Unsubscribe URL]** sind optional.
+
+Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. In dem Szenario, in dem die Option **[!UICONTROL Listen-Abmelden aktivieren]** aktiviert ist und die Funktion **[!UICONTROL Ein-Klick-Abmelde-URL]** deaktiviert ist, wenn Sie einen [Ein-Klick-Opt-out-Link](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Konfiguration erstellt wurde, übernimmt die Kopfzeile Abmelden von der Liste den Ein-Klick-Opt-out-Link, den Sie in den Textkörper der E-Mail eingefügt haben, und verwendet diesen als Wert für die Ein-Klick-Abmelde-URL.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Wenn Sie keinen Link zum Abmelden mit einem Klick in Ihren Nachrichteninhalt einfügen und die standardmäßige URL zum Abmelden mit einem Klick in den Einstellungen der Kanalkonfiguration deaktiviert ist, wird keine URL als Teil der Option „Abmelde-Link in Kopfzeile“ in die E-Mail-Kopfzeile übergeben.
+>Wenn Sie keinen Ein-Klick-Opt-out-Link in Ihren Nachrichteninhalt einfügen und die standardmäßige Ein-Klick-Abmelde-URL in den Kanalkonfigurationseinstellungen deaktiviert ist, wird keine URL als Teil der Abmelde-Kopfzeile der Liste an die E-Mail-Kopfzeile übergeben.
 
 In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen in Ihren Nachrichten.
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Kopfzeilenparameter {#email-header}
 
@@ -146,7 +150,7 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 >
 >Die **[!UICONTROL Absender-E-Mail-Adresse]** und **[!UICONTROL Fehler-E-Mail]**-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md) verwenden. Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet, kann *contact@marketing.luma.com* und *error@marketing.luma.com* verwendet werden. 
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automat
 
 Wählen Sie die Liste, die für Sie relevant ist, im Abschnitt **[!UICONTROL Testadressenliste]** aus. In [diesem Abschnitt](../configuration/seed-lists.md#create-seed-list) erfahren Sie, wie Sie eine Testadressenliste erstellen.
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angeh�
 
 Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
