@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 95%
+source-wordcount: '2737'
+ht-degree: 93%
 
 ---
 
@@ -351,8 +351,8 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Definieren der zu verwendenden Adresse"
->abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank vorhanden sind (privat, beruflich usw.), kann ausgewählt werden, welche Adresse/Nummer für den Versand Vorrang haben soll."
+>title="Zu verwendende Standard-Ausführungsadresse überschreiben"
+>abstract="Wenn mehrere E-Mail-Adressen in der Datenbank verfügbar sind (privat, beruflich usw.), können Sie auswählen, welche für den Versand priorisiert werden soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische E-Mail-Konfiguration überschreiben."
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (berufliche E-Mail-Adresse, persönliche E-Mail-Adresse usw.).
 
