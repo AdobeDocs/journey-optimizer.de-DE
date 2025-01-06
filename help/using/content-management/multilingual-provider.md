@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,8 @@ Stellen Sie vor dem Hinzufügen Ihres ausgewählten Übersetzungsanbieters siche
    ![](assets/provider_2.png)
 
 1. Wenn Sie Microsoft Translator als Anbieter verwenden, geben Sie Ihren **[!UICONTROL Abonnementschlüssel]** und Ihre **[!UICONTROL Endpunkt-URL]** ein.
+
+   Klicken Sie auf **[!UICONTROL Anmeldedaten überprüfen]**, um Ihre Verbindung zu testen.
 
    ![](assets/provider_3.png)
 
