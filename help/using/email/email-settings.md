@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 86%
 
 ---
@@ -366,7 +366,7 @@ In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausf�
 >
 >Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Ausführungsfelder]** auf.
 
-Sie können dieses standardmäßige Ausführungsfeld jedoch auf der Konfigurationsebene des E-Mail-Kanals ändern.
+Sie können dieses standardmäßige Ausführungsfeld jedoch auf der Konfigurationsebene des E-Mail-Kanals ändern. Sie können diese Einstellung dann auf bestimmte Kampagnen oder Journey anwenden.
 
 Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
 
