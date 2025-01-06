@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 99%
@@ -168,7 +168,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
    1. Rufen Sie das **[!UICONTROL Regeln]** auf und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform][Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
-   2. Fügen Sie im Abschnitt **[!UICONTROL WENN]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
+   1. Fügen Sie im Abschnitt **[!UICONTROL WENN]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
       * Wählen Sie im rechten Bereich „XDM-Ereignistyp entspricht Personalisierungsanfrage“ aus.
       * Klicken Sie zur Bestätigung auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]**.
 
-   3. Fügen Sie im Abschnitt **[!UICONTROL DANN]** der Regel eine Aktion hinzu, die wie folgt konfiguriert wurde:
+   1. Fügen Sie im Abschnitt **[!UICONTROL DANN]** der Regel eine Aktion hinzu, die wie folgt konfiguriert wurde:
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
