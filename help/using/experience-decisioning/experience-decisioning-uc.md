@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 37%
+source-wordcount: '636'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zur Verwendun
 
 In diesem Anwendungsfall sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt.
 
-Um zu messen, welche Zielgruppe die beste Leistung erzielt, erstellen Sie eine Kampagne, in der Sie zwei Versandmethoden definieren:
+Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
 
 <!--Set up the experiment such that:-->
 
@@ -48,23 +48,23 @@ Wählen Sie in der ersten Auswahlstrategie Priorität als Rangfolgenmethode aus.
    >
    >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
 
-1. Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Erfahren Sie, wie Sie die Eignung des Entscheidungselements festlegen](items.md#eligibility)
+1. Legen Sie die Eignung des Entscheidungselements fest:
 
-1. Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+   * Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+
+1. Wiederholen Sie bei Bedarf die obigen Schritte, um zusätzliche Entscheidungselemente zu erstellen.
 
 1. Erstellen Sie **Sammlung** in der Ihre Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
 
-1. Erstellen Sie **Auswahlstrategie**. [Weitere Informationen](selection-strategies.md#create-selection-strategy)
+1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. Wählen Sie [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen. Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus. [Weitere Informationen](selection-strategies.md#offer-priority)
+   Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Decisioning-Engine den Wert, **[!UICONTROL in den Angeboten]** als „Priorität“ festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
-
-   <!--If multiple offers are eligible for this strategy, the [Offer priority](#offer-priority) method uses the value defined in the offers.-->
 
 ### Erstellen der zweiten Auswahlstrategie
 
@@ -74,51 +74,49 @@ Wählen Sie in der zweiten Auswahlstrategie eine Formel als Rangfolgenmethode au
 
 <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
-1. Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Erfahren Sie, wie Sie die Eignung des Entscheidungselements festlegen](items.md#eligibility)
+1. Legen Sie die Eignung des Entscheidungselements fest:
 
-1. Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+   * Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+
+1. Wiederholen Sie bei Bedarf die obigen Schritte, um zusätzliche Entscheidungselemente zu erstellen.
 
 1. Erstellen Sie **Sammlung** in der Ihre Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
 
-1. Erstellen Sie **Auswahlstrategie**. [Weitere Informationen](selection-strategies.md#create-selection-strategy)
+1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. Wählen Sie [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten. Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um ein bestimmtes berechnetes Ergebnis zu verwenden und auszuwählen, welches geeignete Angebot geliefert werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
+   Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um ein bestimmtes berechnetes Ergebnis zu verwenden und auszuwählen, welches geeignete Angebot geliefert werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
-<!--
-## Create decision items and selection strategies
-
-You first need to create items, group them together in collections, set up rules and ranking methods. These elements will allow you to build selection strategies.
-
-1. Navigate to **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** and create several decision items. Set constraints using audiences or rules to restrict each item to specific profiles only. [Learn more](items.md)
-
-1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)
-
-1. Create **collections** to categorize and group your decision items according to your preferences. [Learn more](collections.md)
-
-1. Create **decision rules** to determine to whom a decision item can be shown. [Learn more](rules.md)
-
-1. Create **ranking methods** and apply them within decision strategies to determine the priority order for selecting decision items. [Learn more](ranking.md)
-
-1. Build **selection strategies** that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles. [Learn more](selection-strategies.md)
--->
-
-## Erstellen von Entscheidungsrichtlinien
+## Erstellen einer Code-basierten Erlebniskampagne
 
 <!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
 Define two delivery treatments each containing a different decision policy.-->
 
+Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine Code-basierte Erlebniskampagne, in der Sie für jede Strategie eine andere Behandlung definieren, um zu vergleichen, welche am besten funktioniert.
+
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Beginnen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** mit der Personalisierung der Abwandlung A.
+1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
 
-1. Wählen Sie das Symbol **[!UICONTROL Entscheidungen]** aus, klicken Sie auf **[!UICONTROL Entscheidung erstellen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md)
+   ![](assets/exd-uc-create-experiment.png)
+
+1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+
+<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+
+    ![](assets/exd-uc-create-treatment-a.png)-->
+
+1. Beginnen Sie im Fenster zur Inhaltsbearbeitung mit der Personalisierung **Abwandlung A**, indem Sie auf **[!UICONTROL Code bearbeiten]** klicken.
+
+   ![](assets/exd-uc-experiment-treatment-a.png)
+
+1. Wählen Sie **[!UICONTROL Entscheidungsrichtlinie]** aus, klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md)
 
    ![](assets/decision-code-based-create.png)
 
@@ -136,10 +134,8 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
+1. Wählen Sie im Fenster zur Inhaltsbearbeitung die Option **Variante B** und wiederholen Sie die obigen Schritte, um eine weitere Entscheidungsrichtlinie zu erstellen, und wählen Sie die zweite von Ihnen erstellte Auswahlstrategie aus.
 
-1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** die Abwandlung B aus und wiederholen Sie die obigen Schritte, um eine weitere Entscheidung zu erstellen.
-
-1. Wählen Sie die zweite Strategie aus, die Sie erstellt haben. Klicken Sie auf **[!UICONTROL Strategie hinzufügen]**.
+   ![](assets/exd-uc-experiment-treatment-b.png)
 
 1. Speichern Sie Ihren Inhalt.
