@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 83%
 
 ---
 
 # Senden von E-Mail-Testsendungen {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>Um Testsendungen durchführen zu können, müssen Benutzende über Berechtigungen **Genehmigen und veröffentlichen** für die spezifische Ressource, Kampagne oder Journey verfügen, die mit der E-Mail verknüpft ist. [Weitere Informationen zu Berechtigungen](../administration/ootb-permissions.md)
+
 Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Zielgruppe gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 
->[!NOTE]
->
->Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+Beachten Sie, dass Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihres Inhalts testen können, indem Sie ihn in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
 Gehen Sie wie folgt vor, um einen E-Mail-Testversand nach der Auswahl von [Testprofilen](test-profiles.md) durchzuführen:
 
