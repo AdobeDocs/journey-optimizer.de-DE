@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 28%
+source-wordcount: '640'
+ht-degree: 22%
 
 ---
 
@@ -19,16 +19,12 @@ ht-degree: 28%
 
 In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zur Verwendung von Decisioning mit dem [!DNL Journey Optimizer] Code-basierten Kanal erforderlich sind.
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-In diesem Anwendungsfall sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt.
+In diesem Beispiel sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt.
 
 Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
 
-<!--Set up the experiment such that:-->
-
-* Die erste Abwandlung enthält eine Auswahlstrategie mit Priorität als Rangfolgenmethode.
-* Die zweite Abwandlung enthält eine andere Auswahlstrategie, die eine Formel als Rangfolgenmethode verwendet.
+* Die erste Abwandlung verwendet Priorität als Rangfolgenmethode.
+* Die zweite Variante verwendet eine Formel, die die Rangfolgenmethode ist.
 
 ## Erstellen von Auswahlstrategien
 
@@ -36,7 +32,7 @@ Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit Priorität als 
 
 ### Erstellen der ersten Auswahlstrategie
 
-Wählen Sie in der ersten Auswahlstrategie Priorität als Rangfolgenmethode aus. Führen Sie dazu folgende Schritte durch.
+Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfolgenmethode zu erstellen.
 
 1. Erstellen Sie ein Entscheidungselement. [Weitere Informationen](items.md)
 
@@ -60,19 +56,17 @@ Wählen Sie in der ersten Auswahlstrategie Priorität als Rangfolgenmethode aus.
 
 1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen.
-
-   Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Decisioning-Engine den Wert, **[!UICONTROL in den Angeboten]** als „Priorität“ festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
+1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen. Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Decisioning-Engine den Wert, **[!UICONTROL in den Angeboten]** als „Priorität“ festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### Erstellen der zweiten Auswahlstrategie
 
-Wählen Sie in der zweiten Auswahlstrategie eine Formel als Rangfolgenmethode aus. Führen Sie dazu folgende Schritte durch.
+Gehen Sie wie folgt vor, um die zweite Auswahlstrategie mit einer Formel als Ranking-Methode zu erstellen.
 
 1. Erstellen Sie ein Entscheidungselement. [Weitere Informationen](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. Legen Sie die Eignung des Entscheidungselements fest:
 
@@ -86,9 +80,7 @@ Wählen Sie in der zweiten Auswahlstrategie eine Formel als Rangfolgenmethode au
 
 1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten.
-
-   Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um ein bestimmtes berechnetes Ergebnis zu verwenden und auszuwählen, welches geeignete Angebot geliefert werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
+1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten. Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um anhand eines bestimmten berechneten Ergebnisses zu bestimmen, welches geeignete Angebot bereitgestellt werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Wählen oder erstellen Sie auf der Übersichtsseite der Kampagne eine Code-basierte Konfiguration und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
