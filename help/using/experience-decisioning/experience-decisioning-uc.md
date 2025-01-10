@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 14%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 14%
 
 In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zur Verwendung von Decisioning mit dem [!DNL Journey Optimizer] Code-basierten Kanal erforderlich sind.
 
-In diesem Beispiel sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt.
-
-Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
+In diesem Beispiel sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt. Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
 
 * Die erste Abwandlung verwendet Priorität als Rangfolgenmethode.
-* Die zweite Variante verwendet eine Formel, die die Rangfolgenmethode ist.
+* Die zweite Abwandlung verwendet eine Formel als Rangfolgenmethode.
 
 ## Erstellen von Auswahlstrategien
 
@@ -34,7 +32,7 @@ Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit Priorität als 
 >
 >Sie können auch einzelne Entscheidungselemente erstellen, ohne eine Auswahlstrategie durchlaufen zu müssen. Es wird die für jedes Element festgelegte Priorität angewendet.
 
-### Erstellen der ersten Auswahlstrategie
+### Erstellen einer Strategie mit Priorität
 
 Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfolgenmethode zu erstellen.
 
@@ -64,7 +62,7 @@ Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfo
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### Erstellen der zweiten Auswahlstrategie
+### Eine andere Strategie mit einer Formel erstellen
 
 Gehen Sie wie folgt vor, um die zweite Auswahlstrategie mit einer Formel als Ranking-Methode zu erstellen.
 
