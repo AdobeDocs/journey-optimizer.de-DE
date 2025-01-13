@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
+source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 14%
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfo
 
 1. Legen Sie **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest. Wenn ein Profil für mehrere Elemente qualifiziert ist, gewährt eine höhere Priorität dem Element Vorrang vor anderen.
 
-   ![](assets/exd-uc-item-priority.png){width="80%"}
+   ![](assets/exd-uc-item-priority.png){width="90%"}
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfo
 
 1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen. Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Decisioning-Engine den Wert, **[!UICONTROL in den Angeboten]** als „Priorität“ festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### Eine andere Strategie mit einer Formel erstellen
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um die zweite Auswahlstrategie mit einer Formel als Ran
 
 1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten. Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um anhand eines bestimmten berechneten Ergebnisses zu bestimmen, welches geeignete Angebot bereitgestellt werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
 
-   ![](assets/exd-uc-strategy-formula.png)
+   ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
 ## Erstellen einer Code-basierten Erlebniskampagne
 
@@ -98,19 +98,19 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png){width="80%"}
+   ![](assets/exd-uc-create-experiment.png){width="90%"}
 
 1. Wählen Sie auf der Übersichtsseite der Kampagne eine Code-basierte Konfiguration aus und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
+   ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
 1. Klicken Sie im Fenster zur Inhaltsbearbeitung auf **Code bearbeiten** **[!UICONTROL , um mit der Personalisierung zu]**.
 
-   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
 1. Wählen Sie im [Code](../code-based/create-code-based.md#edit-code)Editor die Option **[!UICONTROL Entscheidungsrichtlinie]** aus, klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md#add)
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-code-based-create.png){width="90%"}
 
 1. Klicken Sie **[!UICONTROL Abschnitt &quot;]**&quot; auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Auswahlstrategie]**. [Weitere Informationen](create-decision.md#select)
 
@@ -122,19 +122,19 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Wählen Sie die erste erstellte Strategie aus.
 
-   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
 1. Speichern Sie Ihre Änderungen und klicken Sie auf **[!UICONTROL Erstellen]**. Die neue Entscheidung wird unter &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Fügen Sie dann alle Attribute, die Sie dem Code hinzufügen möchten, einschließlich Profilattribute, hinzu. [Weitere Informationen](create-decision.md#use-decision-policy)
 
-   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
+   ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. Speichern Sie Ihre Änderungen.
 
 1. Gehen Sie zurück zum Fenster zur Inhaltsbearbeitung, wählen Sie die Schaltfläche &quot;+&quot; aus, um **Abwandlung B** hinzuzufügen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Code bearbeiten]**.
 
-   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
 1. Wiederholen Sie die obigen Schritte, um eine weitere Entscheidungsrichtlinie zu erstellen und die zweite von Ihnen erstellte Auswahlstrategie auszuwählen. <!--Do you need to create exactly the same content to compare only the ranking method?-->
 
