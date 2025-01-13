@@ -11,22 +11,22 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 14%
+ht-degree: 60%
 
 ---
 
 # Anwendungsfall für die Entscheidungsfindung {#experience-decisioning-uc}
 
-In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zur Verwendung von Decisioning mit dem [!DNL Journey Optimizer] Code-basierten Kanal erforderlich sind.
+In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
 
 In diesem Beispiel sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt. Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
 
-* Die erste Abwandlung verwendet Priorität als Rangfolgenmethode.
+* Die erste Abwandlung verwendet die Priorität als Rangfolgenmethode.
 * Die zweite Abwandlung verwendet eine Formel als Rangfolgenmethode.
 
 ## Erstellen von Auswahlstrategien
 
-Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit Priorität als Ranking-Methode und eine mit einer Formel als Ranking-Methode.
+Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit der Priorität und eine mit einer Formel als Rangfolgenmethode.
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit Priorität als 
 
 ### Erstellen einer Strategie mit Priorität
 
-Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfolgenmethode zu erstellen.
+Erstellen Sie die erste Auswahlstrategie mit der Priorität als Rangfolgenmethode anhand der folgenden Schritte.
 
 1. Erstellen Sie ein Entscheidungselement. [Weitere Informationen](items.md)
 
-1. Legen Sie **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest. Wenn ein Profil für mehrere Elemente qualifiziert ist, gewährt eine höhere Priorität dem Element Vorrang vor anderen.
+1. Legen Sie die **[!UICONTROL Priorität]** des Entscheidungselements im Vergleich zu anderen fest. Wenn ein Profil für mehrere Elemente qualifiziert ist, gewährt eine höhere Priorität dem Element Vorrang vor anderen.
 
    ![](assets/exd-uc-item-priority.png){width="90%"}
 
@@ -48,23 +48,23 @@ Gehen Sie wie folgt vor, um die erste Auswahlstrategie mit Priorität als Rangfo
 
 1. Legen Sie die Eignung des Entscheidungselements fest:
 
-   * Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
+   * Legen Sie mithilfe von Zielgruppen oder Regeln Einschränkungen fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
 
-   * Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+   * Legen Sie mithilfe von Begrenzungsregeln fest, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
 
 1. Wiederholen Sie bei Bedarf die obigen Schritte, um zusätzliche Entscheidungselemente zu erstellen.
 
-1. Erstellen Sie **Sammlung** in der Ihre Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
+1. Erstellen Sie eine **Sammlung**, in der die Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
 
-1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+1. Erstellen Sie eine [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) um das beste Angebot für jedes Profil auszuwählen. Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Decisioning-Engine den Wert, **[!UICONTROL in den Angeboten]** als „Priorität“ festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
+1. [Wählen Sie die Rangfolgenmethode](#select-ranking-method), die zur Auswahl des besten Angebots für jedes Profil verwendet werden soll. Wählen Sie in diesem Fall **[!UICONTROL Angebotspriorität]** aus: Wenn mehrere Angebote für diese Strategie infrage kommen, verwendet die Entscheidungsfindungs-Engine den Wert, der in den Angeboten als **[!UICONTROL Priorität]** festgelegt wurde. [Weitere Informationen](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### Eine andere Strategie mit einer Formel erstellen
 
-Gehen Sie wie folgt vor, um die zweite Auswahlstrategie mit einer Formel als Ranking-Methode zu erstellen.
+Um die zweite Auswahlstrategie mit einer Formel als Rangfolgenmethode zu erstellen, gehen Sie wie folgt vor.
 
 1. Erstellen Sie ein Entscheidungselement. [Weitere Informationen](items.md)
 
@@ -72,17 +72,17 @@ Gehen Sie wie folgt vor, um die zweite Auswahlstrategie mit einer Formel als Ran
 
 1. Legen Sie die Eignung des Entscheidungselements fest:
 
-   * Audiences oder Regeln definieren, um das Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
+   * Legen Sie mithilfe von Zielgruppen oder Regeln Einschränkungen fest, um jedes Element auf bestimmte Profile zu beschränken. [Weitere Informationen](items.md#eligibility)
 
-   * Legen Sie Begrenzungsregeln fest, um festzulegen, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
+   * Legen Sie mithilfe von Begrenzungsregeln fest, wie oft ein Angebot maximal unterbreitet werden kann. [Weitere Informationen](items.md#capping)
 
 1. Wiederholen Sie bei Bedarf die obigen Schritte, um zusätzliche Entscheidungselemente zu erstellen.
 
-1. Erstellen Sie **Sammlung** in der Ihre Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
+1. Erstellen Sie eine **Sammlung**, in der die Entscheidungselemente enthalten sein werden. [Weitere Informationen](collections.md)
 
-1. Erstellen Sie [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+1. Erstellen Sie eine [Auswahlstrategie](selection-strategies.md#create-selection-strategy) und wählen Sie die [Sammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
 
-1. [Wählen Sie die Rangfolgenmethode aus](#select-ranking-method) mit der Sie das beste Angebot für jedes Profil auswählen möchten. Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um anhand eines bestimmten berechneten Ergebnisses zu bestimmen, welches geeignete Angebot bereitgestellt werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
+1. [Wählen Sie die Rangfolgenmethode](#select-ranking-method), die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten. Wählen Sie in diesem Fall **[!UICONTROL Formel]**, um anhand eines bestimmten berechneten Ergebnisses zu bestimmen, welches geeignete Angebot bereitgestellt werden soll. [Weitere Informationen](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
