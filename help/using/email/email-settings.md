@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2735'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll.
 
 >[!NOTE]
 >
->Um die Kontrolle über Ihre E-Mail-Einstellungen zu verbessern, können Sie dynamische Subdomains definieren. [Weitere Informationen](../email/surface-personalization.md#dynamic-subdomains)
+>Um die Kontrolle über die E-Mail-Einstellungen zu verbessern, können Sie dynamische Subdomains definieren. [Weitere Informationen](../email/surface-personalization.md#dynamic-subdomains)
 
 Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunigen und die Zustellbarkeit zu verbessern, delegieren Sie Ihre sendenden Subdomains an Adobe. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
@@ -81,7 +81,7 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 >
 >Wenn kein PTR-Eintrag konfiguriert ist, wenden Sie sich an den Adobe-Support.
 
-## Abmelden von Liste{#list-unsubscribe}
+## Abmelden von der Liste{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
 
@@ -95,19 +95,19 @@ Diese Option ist standardmäßig aktiviert, um eine URL zum Abmelden mit einem K
 >
 >Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile keine URL zum Abmelden mit einem Klick angezeigt.
 
-Sie können die Einverständnisebene aus der Dropdown-Liste **[!UICONTROL Einverständnisebene]** auswählen. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
+Die Einverständnisstufe kann aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** ausgewählt werden. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in Adobe Journey Optimizer entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
-Die Abmelde-Kopfzeile einer Liste bietet zwei Funktionen, die standardmäßig aktiviert sind, es sei denn, Sie deaktivieren eine oder beide Funktionen:
+Die Kopfzeile „Von der Liste abmelden“ bietet zwei Funktionen, die standardmäßig aktiviert sind, sofern Sie nicht eine oder beide Funktionen deaktivieren:
 
 ![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
 <!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
-* Eine Adresse **Mailto (abmelden)**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
+* Eine Adresse **E-Mail an (abmelden)**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
 
   In Journey Optimizer ist die E-Mail-Adresse für Abmeldungen die Standardadresse **Mailto (abmelden)**, die basierend auf Ihrer [ausgewählten Subdomain](#subdomains-and-ip-pools) in der Kanalkonfiguration angezeigt wird.
 
-* Die **1-Klick-Abmelde-URL** ist standardmäßig die Kopfzeile der mit einem Klick-Opt-out-URL generierten Abmeldeliste, basierend auf der Subdomain, die Sie in den Kanalkonfigurationseinstellungen festgelegt und konfiguriert haben.
+* Die **URL zum Abmelden mit einem Klick** ist standardmäßig die Kopfzeile zum Abmelden von der Liste, die basierend auf der Subdomain generiert wurde, die in den Einstellungen der Kanalkonfiguration festgelegt und konfiguriert wurde.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,15 @@ Die Abmelde-Kopfzeile einer Liste bietet zwei Funktionen, die standardmäßig ak
     >
 -->
 
-Die Funktion **[!UICONTROL Mailto (unsubscribe)]** und die Funktion **[!UICONTROL One-Click Unsubscribe URL]** sind optional.
+Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. 
 
-Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. In dem Szenario, in dem die Option **[!UICONTROL Listen-Abmelden aktivieren]** aktiviert ist und die Funktion **[!UICONTROL Ein-Klick-Abmelde-URL]** deaktiviert ist, wenn Sie einen [Ein-Klick-Opt-out-Link](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Konfiguration erstellt wurde, übernimmt die Kopfzeile Abmelden von der Liste den Ein-Klick-Opt-out-Link, den Sie in den Textkörper der E-Mail eingefügt haben, und verwendet diesen als Wert für die Ein-Klick-Abmelde-URL.
+Wenn Sie nicht die standardmäßig generierte URL zum Abmelden mit einem Klick verwenden möchten, können Sie die Funktion deaktivieren. In einem Szenario, in dem die Option **[!UICONTROL Abmelden von der Liste aktivieren]** aktiviert ist und die Funktion **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert ist und ein [Ausschluss-Link mit einem Klick](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzugefügt wird, die mit dieser Konfiguration erstellt wurde, nimmt die Option „Abmelde-Link in Kopfzeile“ den Link zum Abmelden mit einem Klick auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als den URL-Wert zum Abmelden mit einem Klick.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Wenn Sie keinen Ein-Klick-Opt-out-Link in Ihren Nachrichteninhalt einfügen und die standardmäßige Ein-Klick-Abmelde-URL in den Kanalkonfigurationseinstellungen deaktiviert ist, wird keine URL als Teil der Abmelde-Kopfzeile der Liste an die E-Mail-Kopfzeile übergeben.
+>Wenn Sie keinen Link zum Abmelden mit einem Klick in den Nachrichteninhalt einfügen und die standardmäßige URL zum Abmelden mit einem Klick in den Einstellungen der Kanalkonfiguration deaktiviert ist, wird keine URL als Teil der Option „Abmelde-Link in Kopfzeile“ in die E-Mail-Kopfzeile übernommen.
 
 In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen in Ihren Nachrichten.
 
@@ -136,7 +136,7 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 
 >[!NOTE]
 >
->Um die Kontrolle über Ihre E-Mail-Einstellungen zu verbessern, können Sie die Header-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
+>Um die Kontrolle über die E-Mail-Einstellungen zu verbessern, können Sie die Kopzeilen-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name der Marke.
 * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
@@ -355,21 +355,21 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Zu verwendende Standard-Ausführungsadresse überschreiben"
->abstract="Wenn mehrere E-Mail-Adressen in der Datenbank verfügbar sind (privat, beruflich usw.), können Sie auswählen, welche für den Versand priorisiert werden soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische E-Mail-Konfiguration überschreiben."
+>title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
+>abstract="Wenn mehrere E-Mail-Adressen in der Datenbank vorhanden sind (privat, beruflich usw.), können Sie auswählen, welche Adresse für den Versand Vorrang haben soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische E-Mail-Konfiguration überschreiben."
 
-Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (berufliche E-Mail-Adresse, persönliche E-Mail-Adresse usw.).
+Wenn Sie ein Profil als Ziel auswählen, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (private, berufliche E-Mail-Adresse usw.).
 
-In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausführungsfeldern) auf Sandbox]** Ebene angegebene Adresse, um zu bestimmen, welche E-Mail-Adresse vom Profildienst vorrangig verwendet werden soll. [Weitere Informationen](../configuration/primary-email-addresses.md)
+In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene angegebene Adresse, um zu bestimmen, welche E-Mail-Adresse vom Profildienst vorrangig verwendet werden soll. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
 >[!NOTE]
 >
 >Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Ausführungsfelder]** auf.
 
-Sie können dieses standardmäßige Ausführungsfeld jedoch auf der Konfigurationsebene des E-Mail-Kanals ändern. Sie können diese Einstellung dann auf bestimmte Kampagnen oder Journey anwenden.
+Dieses standardmäßige Ausführungsfeld kann jedoch auf der Konfigurationsebene des E-Mail-Kanals geändert werden. Diese Einstellung kann dann auf bestimmte Kampagnen oder Journeys angewendet werden.
 
 Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
 
 ![](assets/email-config-delivery-address.png)
 
-Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse verwendet. Sie überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
+Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse verwendet. Dies überschreibt die allgemeine Einstellung auf Sandbox-Ebene.

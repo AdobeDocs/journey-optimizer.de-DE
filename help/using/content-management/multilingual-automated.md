@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,9 +164,9 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
    >
    >Diese Voraussetzungen sind nur für die Kanäle „In-App“ und „Inhaltskarten“ erforderlich.
 
-   1. Greifen Sie in der Adobe Experience Platform-Datenerfassung auf Ihre Tag-Eigenschaften zu.
+   1. Greifen Sie in der Datenerfassung von Adobe Experience Platform auf die Tag-Eigenschaften zu.
 
-   1. Rufen Sie das **[!UICONTROL Regeln]** auf und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform][Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
+   1. Greifen Sie auf das Menü **[!UICONTROL Regeln]** zu und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform][Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
    1. Fügen Sie im Abschnitt **[!UICONTROL WENN]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
 

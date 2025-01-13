@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets siche
 
 Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Möglichkeiten:
 
-* Hinzufügen einer URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail  Mit **[!UICONTROL Option „Abmelden von]** aktivieren“ auf der Ebene der Kanalkonfiguration wird ein Ausschluss-Link zur E-Mail-Kopfzeile hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
+* Hinzufügen einer URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail  Durch Aktivieren der Option **[!UICONTROL Abmelden von der Liste aktivieren]** auf der Ebene der Kanalkonfiguration wird ein Ausschluss-Link in der Kopfzeile der E-Mail hinzugefügt. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
 
 * Aktivieren Sie den **Ausschluss-Link mit einem Klick** für Ihre E-Mail.  [Informationen dazu, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
 * Fügen Sie einen **Link in eine Landingpage** ein.  [Informationen dazu, wie Sie eine Landingpage zum Abmelden hinzufügen](#opt-out-external-lp)
 
 
-## Opt-out in einem Schritt {#opt-out-one-step}
+## Ausschluss in einem Schritt {#opt-out-one-step}
 
 ### URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail {#unsubscribe-header}
 
@@ -41,9 +41,9 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Hinzufügen einer Abmelde-URL zum E-Mail-Header"
->abstract="Aktivieren Sie Abmelden von einer Liste, um eine Abmelde-URL zum E-Mail-Header hinzuzufügen. Um eine Abmelde-URL in einer Nachricht einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den E-Mail-Inhalt ein."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Abmelden mit einem Klick über den E-Mail-Inhalt"
+>title="Hinzufügen einer Abmelde-URL in der Kopfzeile der E-Mail"
+>abstract="„Abmelden von der Liste aktivieren“ aktivieren, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL in einer Nachricht einzurichten, fügen Sie einen Link zum Abmelden mit einem Klick in den Inhalt der E-Mail ein."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Abmelden mit einem Klick über den E-Mail-Inhalt"
 
 Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. Wenn in Adobe Journey Optimizer die Option **Abmelde-Link aktivieren** aktiviert ist, enthält die Kopfzeile der E-Mail standardmäßig sowohl einen Mailto-Link als auch eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.
 

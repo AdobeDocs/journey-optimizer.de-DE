@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Bevor Sie den eigentlichen IP-Warmup-Plan in [!DNL Journey Optimizer] erstellen,
 
 Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus.
 
-1. Erstellen Sie einen E[Mail-Kanal ](channel-surfaces.md)Konfiguration) für die Domain und die IPs, die Sie für Ihren Aufwärmplan identifiziert haben.
+1. Erstellen Sie eine E-Mail-Kanal-[Konfiguration](channel-surfaces.md) für die Domain und die IPs erstellen, die für den Aufwärmplan identifiziert wurden.
 
-   Arbeiten Sie mit Ihrem Zustellbarkeitsberater zusammen, um die zu verwendende Domain und IPs zu identifizieren. Wie Sie sie in einer E-Mail-Konfiguration auswählen, erfahren Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die verwendet werden sollen. Informationen zu ihrer Auswahl in einer E-Mail-Konfiguration finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >Selbst wenn Sie für IP-Aufwärmkampagnen die [Ausführungsadresse](../email/email-settings.md#execution-address) in der E-Mail-Konfiguration ändern, wird das auf Sandbox-Ebene festgelegte Standardfeld weiterhin verwendet. [Weitere Informationen](primary-email-addresses.md)
+   >Selbst wenn für IP-Aufwärmkampagnen die [Ausführungsadresse](../email/email-settings.md#execution-address) in der E-Mail-Konfiguration geändert wird, wird das auf Sandbox-Ebene festgelegte Standardfeld weiterhin verwendet. [Weitere Informationen](primary-email-addresses.md)
 
-1. Erstellen Sie eine geplante [Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
+1. Erstellen Sie eine geplante Marketing-[Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 

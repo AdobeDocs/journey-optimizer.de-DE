@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
    >
    >Sie können nur **[!UICONTROL Profilattribute]** und **[!UICONTROL Hilfsfunktionen]** auswählen.
 
-   Sie möchten beispielsweise dynamisch E-Mails verarbeiten, die im Namen eines Relationship Managers gesendet werden, dessen Details im Kundenprofil gespeichert sind, sodass jeder Kunde mit einem Relationship Manager verknüpft ist. In einer [Journey](../building-journeys/journey-gs.md) kann die E-Mail-Kopfzeile (Absendername, Absender-E-Mail, Antwortadresse) mit den Parametern des Beziehungs-Managers personalisiert werden, die aus den Profilattributen entnommen werden.
+   Beispiel: Sie möchten dynamische E-Mails im Namen einer Person im Beziehungs-Management senden, deren Details im Kundenprofil hinterlegt sind, sodass jede Kundin und jeder Kunde mit einer Person im Beziehungs-Management verknüpft ist. In einer [Journey](../building-journeys/journey-gs.md) kann die E-Mail-Kopfzeile (Absendername, Absender-E-Mail, Antwortadresse) mit den Parametern der Person im Beziehungs-Management personalisiert werden, die aus den Profilattributen entnommen werden.
 
    <!--The examples below use event parameters, which are currently not available.
     
