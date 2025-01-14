@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Neues Reporting-Erlebnis
-description: Erste Schritte mit dem neuen Reporting-Erlebnis
+description: Erste Schritte mit dem Zeitbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
+source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 96%
 
 ---
 
-# Erste Schritte mit dem neuen Reporting-Erlebnis {#channel-report-gs-cja}
+# Erste Schritte mit dem Zeitbericht {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
