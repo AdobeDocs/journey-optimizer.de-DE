@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 0%
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
-   + Neues Reporting-Erlebnis{#channel-report}
-      + [Erste Schritte mit dem neuen Reporting-Erlebnis](using/reports/report-gs-cja.md)
+   + Gesamter Zeitbericht{#channel-report}
+      + [Erste Schritte mit dem Bericht „Gesamte Zeit“](using/reports/report-gs-cja.md)
       + [Manuelles Konfigurieren von Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
       + [Voraussetzungen für Reporting und Experimente](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 0%
       + [Übersichtsbericht](using/reports/channel-report-cja.md)
       + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
       + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
-   + Früheres Reporting-Erlebnis {#reports}
-      + Globaler Bericht {#global-report}
-         + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
-         + [Liste von Komponenten](using/reports/global-report-components.md)
-         + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
-         + [Globaler Bericht zu Kampagnen](using/reports/campaign-global-report.md)
-         + [Zielbericht](using/reports/objective-report.md)
-         + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
-         + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
-      + Kanalberichte {#channel-report}
-         + [Erste Schritte mit Kanalberichten](using/reports/channel-report-gs.md)
-         + [Kanalberichte](using/reports/channel-report.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
