@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 60%
+source-wordcount: '789'
+ht-degree: 54%
 
 ---
 
@@ -96,7 +96,7 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen. [Weitere Informationen](../content-management/content-experiment.md)
+1. Klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um Ihr Inhaltsexperiment zu konfigurieren. [Weitere Informationen](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Speichern Sie Ihre Änderungen und [veröffentlichen Sie Ihre Code-basierte Erlebniskampagne](../code-based/publish-code-based.md).
 
-Mit dem Experimentierkampagnenbericht und dem [Bericht zur Entscheidungsfindung](../reports/campaign-global-report-cja-experimentation.md) können Sie verfolgen[ wie Ihre Kampagne ](cja-reporting.md). <!--TBC how to check which treatment performs best-->
+Verfolgen Sie nach der Durchführung des Experiments mit dem [Experimentationskampagnenbericht](../reports/campaign-global-report-cja-experimentation.md), wie Ihre Kampagnenbehandlungen funktionieren.<!-- and [report on decisioning](cja-reporting.md).--> Sie können dann die Ergebnisse Ihres Experiments interpretieren. [Weitere Informationen](../content-management/get-started-experiment.md#interpret-results)
+
+Wenn das Ergebnis Ihres Experiments schlüssig ist, können Sie die Behandlung mit dem Ranking mit der besten Leistung an alle Ihre Kunden weiterleiten. Sie können auch eine neue Kampagne mit der Auswahlstrategie erstellen, bei der die Rangfolgenmethode mit der besten Leistung repliziert wird.
