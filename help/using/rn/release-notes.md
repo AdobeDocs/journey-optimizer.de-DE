@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 100%
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Updates Januar &#39;25 {#25-01-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics-Vorlagen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu verbessern. Mit dieser neuen Funktion können Sie Ihren Reporting-Prozess mit vordefinierten Vorlagen optimieren, die auf Ihre Analyseanforderungen zugeschnitten sind.
+</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/report-cja-manage.md#cja-template">ausführlichen Dokumentation</a>.</p>
+<p> Die <b>Vorlage</b>-Funktionalität wird schrittweise in mehreren Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit Ende Januar geplant ist</p>
+</tr>
+</tbody>
+</table>
 
 ## Version Oktober 2024 {#24-10-rn}
 
