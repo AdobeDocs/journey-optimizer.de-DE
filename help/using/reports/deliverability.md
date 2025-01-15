@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 93%
 
 ---
 
@@ -55,11 +55,14 @@ Zum Schutz Ihrer Zustellbarkeit werden die Empfänger, deren Adressen auf dieser
 
 ## Verwenden von Überwachungs-Tools {#monitoring-tools}
 
-Verwenden Sie die von [!DNL Journey Optimizer] bereitgestellten Funktionen zur Überwachung der Zustellbarkeit.
+Verwenden Sie die von [!DNL Journey Optimizer] bereitgestellten Reporting-Funktionen zur Überwachung der Zustellbarkeit.
 
-Auf der Registerkarte **[!UICONTROL Ausführungen]** der Nachrichtenliste können Sie mit einer Reihe von Echtzeitindikatoren überprüfen, wie Ihre Sendungen funktionieren. Auf dieser Registerkarte wird unter anderem Folgendes angezeigt:
+Die Kampagnen- und Journey-Berichte ermöglichen es Ihnen, anhand einer Reihe von Echtzeitindikatoren zu überprüfen, wie Ihre Sendungen funktionieren. Sie zeigen unter anderem:
+
 * Die Anzahl der erfolgreich ausgeführten, gesendeten und zugestellten Nachrichten.
 * Die Anzahl der geöffneten Nachrichten und die Anzahl der Nachrichten/Links, auf die geklickt wurde.
+
+Weitere Informationen zu [Live-Bericht](../reports/live-report.md) und [All-Time-Bericht](../reports/report-gs-cja.md)
 
 ## Anpassen des Nachrichteninhalts {#adapt-message-content}
 
@@ -76,6 +79,12 @@ Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails
 ## Reputation als Absender etablieren {#reputation}
 
 Wenn Sie kürzlich Ihren E-Mail-Dienstleister, Ihre IP-Adresse, Ihre E-Mail-Domain oder Ihre Subdomain gewechselt haben, müssen Sie erst Ihre Reputation als Absender aufbauen. Andernfalls könnten Ihre Sendungen blockiert oder in den Spam-Ordner des Postfachs der Empfänger verschoben werden.
+
+Wenn Sie E-Mails mit einer brandneuen IP-Adresse senden, können Sie jetzt ganz einfach IP-Aufwärm-Workflows direkt über die Benutzeroberfläche durchführen.
+
+Adobe Journey Optimizer bietet eine standardisierte und effiziente Methode zum Aufwärmen von IP-Adressen, die den Best Practices für optimale Zustellbarkeit entspricht.
+
+[Weitere Informationen zu IP-Aufwärmplänen](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
