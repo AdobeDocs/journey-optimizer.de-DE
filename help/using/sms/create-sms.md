@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 100%
+source-wordcount: '1042'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren. Die Einstellungen
 
    Beachten Sie, dass Sie zur Verwendung der URL-Kürzungsfunktion zunächst eine Subdomain konfigurieren müssen, die dann mit Ihrer Konfiguration verknüpft wird. [Weitere Informationen](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren. Die Einstellungen
 
 1. Fügen Sie in das Feld `originalUrl` die URL ein, die gekürzt werden soll, und klicken Sie auf **[!UICONTROL Speichern]**.
 
+   >[!CAUTION]
+   >
+   > Die Lebensdauer kurzer URLs ist auf 15 Tage festgelegt. Nach diesem Zeitraum sind diese kurzen URLs nicht mehr zugänglich und zeigen die folgende Meldung an: `404 short-code not found`.
+
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](#sms-mms-test) beschrieben.
 
 ## Definieren Ihrer MMS-Inhalte{#mms-content}
@@ -131,7 +135,7 @@ Sie können Ihre Kommunikation verbessern, indem Sie MMS-Nachrichten (Multimedia
 
 >[!NOTE]
 >
->* Der MMS-Kanal ist mit einigen Einschränkungen verbunden, die auf [dieser Seite](../start/guardrails.md#sms-guardrails) aufgeführt sind.
+> Der MMS-Kanal ist mit einigen Einschränkungen verbunden, die auf [dieser Seite](../start/guardrails.md#sms-guardrails) aufgeführt sind.
 
 Gehen Sie wie folgt vor, um MMS-Inhalte zu erstellen:
 
