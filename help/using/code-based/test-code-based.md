@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '707'
+ht-degree: 90%
 
 ---
 
@@ -96,6 +96,14 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
      >
      >**Adobe Experience Platform Assurance** ist ein Produkt aus Adobe Experience Cloud, mit dem Sie die Datenerfassung und Bereitstellung von Erlebnissen in Ihrer App überprüfen, testen, simulieren und validieren können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
 
+1. Wenn Sie in Ihrer Code[basierten Konfiguration eine andere Plattform](code-based-configuration.md#other) verwenden, wählen Sie in der Dropdown-Liste den [Oberflächen-URI](code-based-surface.md#surface-uri), den Sie in der Vorschau anzeigen möchten.
+
+   ![](assets/preview-on-device-other.png)
+
+   * Klicken Sie auf die **[!UICONTROL Link kopieren]**, um den Link in eine Browser-Registerkarte einzufügen oder ihn für Ihr Team und Ihre Stakeholder freizugeben.
+
+   * Wenn Sie Ihrer Konfiguration mehrere URIs hinzugefügt haben (bis zu 10), können Sie einen davon für die Vorschau auswählen.
+
 1. Vorschau-Links werden für das ausgewählte Testprofil und, wenn Sie [Inhaltsexperiment](../content-management/content-experiment.md) in Ihrer Journey oder Kampagne verwenden, für die ausgewählte Abwandlung generiert.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -104,6 +112,4 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Abwandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Tabs kopieren und die Erlebnisse vergleichen.
+   Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Abwandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Tabs kopieren und die Erlebnisse vergleichen.
