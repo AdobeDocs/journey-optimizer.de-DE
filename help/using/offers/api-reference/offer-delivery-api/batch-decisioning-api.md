@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 97%
 
 ---
 
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | Der Wert ist ein Array, das die eindeutige Kennung der Zielgruppe enthält. Es darf nur einen einzigen Wert enthalten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | Die eindeutige Kennung der Entscheidung. |
 | `xdm:dataSetId` | Der Ausgabedatensatz, in den Entscheidungsereignisse geschrieben werden können. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Ein Wrapper, der die `placementId` und die `activityId` enthält |  |
-| `xdm:activityId` | Die eindeutige Kennung der Entscheidung. | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | Die eindeutige Platzierungskennung. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | Dies ist ein optionales Feld, das die Anzahl der Elemente anzeigt, wie z. B. die für den Entscheidungsumfang angeforderten Optionen. Standardmäßig gibt die API eine Option pro Umfang zurück. Sie können jedoch durch Spezifizierung dieses Felds explizit zusätzliche Optionen anfordern. Pro Umfang können mindestens 1 und maximal 30 Optionen angefordert werden. | `1` |
+| `xdm:enrichedAudience` | Fügen Sie diesen Parameter hinzu und setzen Sie ihn auf „true“, wenn Sie eine CSV-Zielgruppe ansprechen | `true` |
 | `xdm:includeContent` | Dies ist ein optionales Feld, für das standardmäßig `false` festgelegt ist. Wenn `true` festgelegt wird, wird der Angebotsinhalt in die Entscheidungsereignisse des Datensatzes eingeschlossen. | `false` |
+| `xdm:itemCount` | Dies ist ein optionales Feld, das die Anzahl der Elemente anzeigt, wie z. B. die für den Entscheidungsumfang angeforderten Optionen. Standardmäßig gibt die API eine Option pro Umfang zurück. Sie können jedoch durch Spezifizierung dieses Felds explizit zusätzliche Optionen anfordern. Pro Umfang können mindestens 1 und maximal 30 Optionen angefordert werden. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | Die eindeutige Platzierungskennung. | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | Ein Wrapper, der die `placementId` und die `activityId` enthält |
+| `xdm:segmentIds` | Der Wert ist ein Array, das die eindeutige Kennung der Zielgruppe enthält. Es darf nur einen einzigen Wert enthalten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Weitere Informationen zu den wichtigsten Konzepten und Eigenschaften finden Sie in der [Dokumentation zum Entscheidungs-Management](../../get-started/starting-offer-decisioning.md).
 
