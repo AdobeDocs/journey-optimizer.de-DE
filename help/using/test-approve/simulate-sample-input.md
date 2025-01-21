@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >
 >Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung.
 
-Mit Journey Optimizer können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und Testsendungen mit Beispieleingabedaten senden, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
+Mit Journey Optimizer können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und Testsendungen mit Beispieleingabedaten senden, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests verwendet werden, um mehrere Varianten zu erstellen. Eine Variante bezieht sich auf eine Version des Inhalts mit unterschiedlichen Werten für die Attribute.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Sie können bis zu 30 Varianten entweder mithilfe einer CSV-Datei oder manuell 
 Gehen Sie wie folgt vor, um eine Variante aus einer Datei hinzuzufügen:
 
 1. Klicken Sie auf den Link **[!UICONTROL Beispiel herunterladen]**, um eine Dateivorlage abzurufen, und wählen Sie dann das Dateiformat aus, das Sie verwenden möchten (CSV, JSON oder JSONLINES).
-
 1. Klicken Sie auf **[!UICONTROL Herunterladen]** und speichern Sie die Vorlage dann am gewünschten Speicherort.
-
 1. Öffnen Sie die Datei und füllen Sie die Vorlage entsprechend Ihren Anforderungen aus. Die Vorlage enthält eine Spalte für jedes Profilattribut, das in Ihrem Inhalt zur Personalisierung verwendet wird.
 
-1. Wenn Ihre Datei fertig ist, klicken Sie auf **[!UICONTROL Eingabedaten hochladen]**, um sie zum Testen Ihres Inhalts zu laden.
+   +++Beispiel für eine Datei
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Wenn Ihre Datei fertig ist, klicken Sie auf **[!UICONTROL Eingabedaten hochladen]**, um sie zum Testen Ihres Inhalts zu laden.
 1. Nachdem die Datei hochgeladen wurde, wird im linken Bereich für jede Zeile der Datei aus der Datei ein Feld hinzugefügt. Jedes Feld enthält alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden. Sie können die Varianten jetzt verwenden, um Ihre Inhalte im rechten Bereich in der Vorschau anzuzeigen und Testsendungen durchzuführen.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Gehen Sie wie folgt vor, um eine Variante manuell hinzuzufügen:
 
 Für eine Vorschau Ihrer Inhalte mit einer der Varianten wählen Sie das entsprechende Kästchen zur Aktualisierung der Inhaltsvorschau im rechten Bereich mit den für diese Variante eingegebenen Informationen aus.
 
-Sie können eine Variante jederzeit entfernen, indem Sie auf die Schaltfläche mit den drei Punkten in der oberen rechten Ecke klicken und **[!UICONTROL Entfernen]** auswählen. Um Informationen für eine Variante zu bearbeiten, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen **[!UICONTROL Bearbeiten]** aus.
+Im folgenden Beispiel haben wir zwei Varianten für die E-Mail-Betreffzeile hinzugefügt:
 
-![](assets/simulate-custom-boxes.png)
+| Auswahl von Variante 1 | Auswahl von Variante 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+Sie können eine Variante jederzeit entfernen, indem Sie auf die Schaltfläche mit den drei Punkten in der oberen rechten Ecke klicken und **[!UICONTROL Entfernen]** auswählen. Um Informationen für eine Variante zu bearbeiten, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen **[!UICONTROL Bearbeiten]** aus.
 
 ## Durchführen eines Testversands {#proofs}
 
