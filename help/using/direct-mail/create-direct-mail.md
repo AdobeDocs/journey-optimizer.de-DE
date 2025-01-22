@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '747'
+ht-degree: 94%
 
 ---
 
@@ -75,23 +75,17 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 >title="Formatieren der Extraktionsdatei"
 >abstract="Legen Sie mit dem Personalisierungseditor für jedes Feld ein Label und die Informationen fest, die angezeigt werden sollen. <br/><br/> Die Option <b>Sortieren nach</b> ermöglicht es Ihnen, die Spalten der Extraktionsdatei mithilfe des ausgewählten Feldes zu sortieren."
 
-1. Konfigurieren Sie die Spalten und die Informationen, die in der Extraktionsdatei angezeigt werden sollen:
-
-   1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um eine neue Spalte zu erstellen.
-
-   1. Der Bereich **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie einen **[!UICONTROL Titel]** für die Spalte an.
-
-   1. Wählen Sie im Feld **[!UICONTROL Daten]** mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md) die Profilattribute aus, die angezeigt werden sollen.
-
-   1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben der Spaltenbeschriftung im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
-
 Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden. Gehen Sie wie folgt vor, um die Konfiguration der Extraktionsdatei zu definieren:
 
 1. Klicken Sie zum Konfigurieren des Inhalts der Push-Benachrichtigung im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Passen Sie die Eigenschaften der Extraktionsdatei an:
 
-   1. Geben Sie den gewünschten **[!UICONTROL Dateiname]** für die Extraktionsdatei an.
+   1. Geben **[!UICONTROL im Feld]** einen Namen für die Extraktionsdatei an.
+
+      >[!NOTE]
+      >
+      >Standardmäßig wird die Datei in das Stammverzeichnis geschrieben. Das Feld **[!UICONTROL Dateiname]** akzeptiert das Format &quot;/your/path/here/Filename.csv&quot;, wobei der angegebene Pfad das Zielverzeichnis auf dem ausgewählten Server ist. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Optional können Sie den **[!UICONTROL Zeitstempel an den Dateinamen des Exports anhängen]**, wenn Sie dem angegebenen Dateinamen einen automatischen Zeitstempel hinzufügen möchten.
 
@@ -116,3 +110,4 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
       Um die Position einer Spalte zu ändern, ziehen Sie sie an die gewünschte Position im Abschnitt **[!UICONTROL Datenfeld]**. Um eine Spalte zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL Entfernen]** im Bereich **[!UICONTROL Formatierung]**.
 
 Jetzt können Sie Ihre Briefpost-Nachricht testen und an Ihre Zielgruppe senden. [Erfahren Sie, wie Sie Briefpost-Nachrichten testen und senden.](test-send-direct-mail.md)
+
