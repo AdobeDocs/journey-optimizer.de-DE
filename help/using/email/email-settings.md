@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 100%
+source-wordcount: '2804'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,11 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 ## Abmelden von der Liste{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="Hinzufügen einer Abmelde-URL in der Kopfzeile der E-Mail"
+>abstract="Wenn Sie das Einverständnis außerhalb von Adobe verwalten, wählen Sie die Option **Vom Kunden verwaltet**, um eine benutzerdefinierte Abmelde-E-Mail-Adresse und Ihre eigene Abmelde-URL mit einem Klick einzugeben. Beachten Sie in diesem Fall, dass Adobe keine Abmelde-Informationen speichert. Der Verantwortliche für die Einverständnisinformationen Ihrer Kunden ist für die Verwaltung ihrer Einverständnisdaten und deren Übertragung an Journey Optimizer verantwortlich."
 
 Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
