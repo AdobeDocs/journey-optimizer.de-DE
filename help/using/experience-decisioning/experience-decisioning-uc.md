@@ -11,7 +11,7 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 51%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
 
-In diesem Beispiel sind Sie sich nicht sicher, ob eine bestimmte Rangfolgenformel eine bessere Leistung als die vorab zugewiesenen Angebotsprioritäten erzielt. Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
+In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser funktioniert als die vorab zugewiesenen Angebotsprioritäten. Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
 
 * Die erste Abwandlung verwendet **Priorität** als Rangfolgenmethode.
 * Die zweite Variante verwendet **eine Formel** als Rangfolgenmethode.
@@ -32,7 +32,7 @@ Zunächst müssen Sie zwei Auswahlstrategien erstellen: eine mit der Priorität 
 >
 >Sie können auch einzelne Entscheidungselemente erstellen, ohne eine Auswahlstrategie durchlaufen zu müssen. Es wird die für jedes Element festgelegte Priorität angewendet.
 
-### Erstellen einer Strategie mit Priorität
+### Erstellen einer Strategie mithilfe der Priorität
 
 Erstellen Sie die erste Auswahlstrategie mit der Priorität als Rangfolgenmethode anhand der folgenden Schritte.
 
@@ -62,7 +62,7 @@ Erstellen Sie die erste Auswahlstrategie mit der Priorität als Rangfolgenmethod
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
-### Eine andere Strategie mit einer Formel erstellen
+### Erstellen einer anderen Strategie mithilfe einer Formel
 
 Um die zweite Auswahlstrategie mit einer Formel als Rangfolgenmethode zu erstellen, gehen Sie wie folgt vor.
 
@@ -92,7 +92,7 @@ Um die zweite Auswahlstrategie mit einer Formel als Rangfolgenmethode zu erstell
 
 Define two delivery treatments each containing a different decision policy.-->
 
-Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine Code-basierte Erlebniskampagne, in der Sie für jede Strategie eine andere Behandlung definieren, um zu vergleichen, welche am besten funktioniert.
+Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine Code-basierte Erlebniskampagne, bei der Sie für jede Strategie eine andere Abwandlung definieren, um zu vergleichen, welche am besten funktioniert.
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
@@ -104,35 +104,35 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
    ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
-1. Klicken Sie im Fenster zur Inhaltsbearbeitung auf **Code bearbeiten** **[!UICONTROL , um mit der Personalisierung zu]**.
+1. Um im Fenster zur Inhaltsbearbeitung **Abwandlung A** zu personalisieren, klicken Sie auf **[!UICONTROL Code bearbeiten]**.
 
    ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
-1. Wählen Sie im [Code](../code-based/create-code-based.md#edit-code)Editor die Option **[!UICONTROL Entscheidungsrichtlinie]** aus, klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md#add)
+1. Wählen Sie im [Code-Editor](../code-based/create-code-based.md#edit-code) die Option **[!UICONTROL Entscheidungsrichtlinie]** aus, klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** und geben Sie die Entscheidungsdetails ein. [Weitere Informationen](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png){width="90%"}
 
-1. Klicken Sie **[!UICONTROL Abschnitt &quot;]**&quot; auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Auswahlstrategie]**. [Weitere Informationen](create-decision.md#select)
+1. Klicken Sie im Abschnitt **[!UICONTROL Strategiesequenz]** auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Auswahlstrategie]**. [Weitere Informationen](create-decision.md#select)
 
    ![](assets/decision-code-based-strategy-sequence.png){width="80%"}
 
    >[!NOTE]
    >
-   >Sie können auch &quot;**[!UICONTROL &quot; auswählen]** um einzelne Elemente hinzuzufügen, ohne eine Auswahlstrategie durchlaufen zu müssen. Es wird die für jedes Element festgelegte Priorität angewendet.
+   >Sie können auch **[!UICONTROL Entscheidungselement]** auswählen, um einzelne Elemente hinzuzufügen, ohne eine Auswahlstrategie durchlaufen zu müssen. Es wird die für jedes Element festgelegte Priorität angewendet.
 
 1. Wählen Sie die erste Strategie aus, die Sie erstellt haben - die Strategie mit Priorität als Rangfolgenmethode.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. Speichern Sie Ihre Änderungen und klicken Sie auf **[!UICONTROL Erstellen]**. Die neue Entscheidung wird unter &quot;**[!UICONTROL &quot;]**.
+1. Speichern Sie Ihre Änderungen und klicken Sie auf **[!UICONTROL Erstellen]**. Die neue Entscheidung wird unter **[!UICONTROL Entscheidungsrichtlinie]** hinzugefügt.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Fügen Sie dann alle Attribute, die Sie dem Code hinzufügen möchten, einschließlich Profilattribute, hinzu. [Weitere Informationen](create-decision.md#use-decision-policy)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Fügen Sie dann alle gewünschten Attribute zum Code hinzu, einschließlich Profilattributen. [Weitere Informationen](create-decision.md#use-decision-policy)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Gehen Sie zurück zum Fenster zur Inhaltsbearbeitung, wählen Sie die Schaltfläche &quot;+&quot; aus, um **Abwandlung B** hinzuzufügen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Code bearbeiten]**.
+1. Gehen Sie zurück zum Fenster zur Inhaltsbearbeitung, wählen Sie die Plusschaltfläche (+) aus, um **Abwandlung B** hinzuzufügen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Code bearbeiten]**.
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
@@ -144,9 +144,9 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Speichern Sie Ihre Änderungen und [veröffentlichen Sie Ihre Code-basierte Erlebniskampagne](../code-based/publish-code-based.md).
 
-Verfolgen Sie nach der Durchführung des Experiments mit dem [Experimentationskampagnenbericht](../reports/campaign-global-report-cja-experimentation.md), wie Ihre Kampagnenbehandlungen funktionieren.<!-- and [report on decisioning](cja-reporting.md).--> Sie können dann die Ergebnisse Ihres Experiments interpretieren. [Weitere Informationen](../content-management/get-started-experiment.md#interpret-results)
+Verfolgen Sie nach dem Experiment mit dem [Experimentkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md), wie Ihre Kampagnenabwandlungen funktionieren.<!-- and [report on decisioning](cja-reporting.md).--> Sie können dann die Ergebnisse Ihres Experiments auslegen. [Weitere Informationen](../content-management/get-started-experiment.md#interpret-results)
 
 Wenn das Ergebnis schlüssig ist:
 
 * Sie können die Behandlung mit dem Ranking mit der besten Leistung an alle Ihre Kunden weiterleiten.
-* Sie können auch eine neue Kampagne mit der Auswahlstrategie erstellen, bei der die Rangfolgenmethode mit der besten Leistung repliziert wird.
+* Sie können auch eine neue Kampagne mit der Auswahlstrategie erstellen, bei der die Rangfolgenmethode repliziert wird, die am besten funktioniert.
