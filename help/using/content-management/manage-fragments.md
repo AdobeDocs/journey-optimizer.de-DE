@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
    >[!NOTE]
    >
-   >Beim Bearbeiten eines Fragments können Sie beliebige Personalisierungsfelder entfernen, jedoch keine neuen zum Fragmentinhalt hinzufügen. Wenn Sie Personalisierungsfelder hinzufügen möchten, duplizieren Sie das Fragment, um ein neues zu erstellen.
+   >Beim Bearbeiten eines Fragments können Sie jedes Personalisierungsfeld entfernen, jedoch keine neuen Felder zum Fragmentinhalt hinzufügen. Wenn Sie Personalisierungsfelder hinzufügen möchten, duplizieren Sie das Fragment, um ein neues zu erstellen.
 
    Sie können auch die Liste der Journeys, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird, indem Sie die Option **Explorer-Verweise** auswählen. [Weitere Informationen](#explore-references)
 

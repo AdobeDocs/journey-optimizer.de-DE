@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,14 +55,14 @@ Zum Schutz Ihrer Zustellbarkeit werden die Empfänger, deren Adressen auf dieser
 
 ## Verwenden von Überwachungs-Tools {#monitoring-tools}
 
-Verwenden Sie die von [!DNL Journey Optimizer] bereitgestellten Reporting-Funktionen zur Überwachung der Zustellbarkeit.
+Verwenden Sie die von [!DNL Journey Optimizer] bereitgestellten Funktionen zur Überwachung der Zustellbarkeit.
 
-Die Kampagnen- und Journey-Berichte ermöglichen es Ihnen, anhand einer Reihe von Echtzeitindikatoren zu überprüfen, wie Ihre Sendungen funktionieren. Sie zeigen unter anderem:
+Mithilfe der Kampagnen- und Journey-Berichte können Sie mit einer Reihe von Echtzeitindikatoren überprüfen, wie gut Ihre Sendungen funktionieren. Darin wird unter anderem Folgendes angezeigt:
 
 * Die Anzahl der erfolgreich ausgeführten, gesendeten und zugestellten Nachrichten.
 * Die Anzahl der geöffneten Nachrichten und die Anzahl der Nachrichten/Links, auf die geklickt wurde.
 
-Weitere Informationen zu [Live-Bericht](../reports/live-report.md) und [All-Time-Bericht](../reports/report-gs-cja.md)
+Weitere Informationen zu [Live-Berichten](../reports/live-report.md) und [Berichten für die gesamte Zeit](../reports/report-gs-cja.md)
 
 ## Anpassen des Nachrichteninhalts {#adapt-message-content}
 
@@ -80,7 +80,7 @@ Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails
 
 Wenn Sie kürzlich Ihren E-Mail-Dienstleister, Ihre IP-Adresse, Ihre E-Mail-Domain oder Ihre Subdomain gewechselt haben, müssen Sie erst Ihre Reputation als Absender aufbauen. Andernfalls könnten Ihre Sendungen blockiert oder in den Spam-Ordner des Postfachs der Empfänger verschoben werden.
 
-Wenn Sie E-Mails mit einer brandneuen IP-Adresse senden, können Sie jetzt ganz einfach IP-Aufwärm-Workflows direkt über die Benutzeroberfläche durchführen.
+Beim Versenden von E-Mails an eine brandneue IP-Adresse können Sie nun IP-Aufwärm-Workflows einfach direkt über die Benutzeroberfläche ausführen. 
 
 Adobe Journey Optimizer bietet eine standardisierte und effiziente Methode zum Aufwärmen von IP-Adressen, die den Best Practices für optimale Zustellbarkeit entspricht.
 

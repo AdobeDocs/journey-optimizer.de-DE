@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_11.png)
 
-1. Wenn Sie ein Experiment mit dem In-App- oder Web-Kanal einrichten und die Metriken **[!UICONTROL Eingehende Klicks]**, **[!UICONTROL Eindeutige eingehende Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Eindeutige Seitenansichten]** auswählen, können Sie mit der Dropdown-Liste **[!UICONTROL Klick-Aktion]** Klicks und Ansichten auf bestimmten Seiten präzise verfolgen und überwachen.
+1. Beim Einrichten eines Experiments mit dem In-App- oder Web-Kanal und Auswählen der **[!UICONTROL eingehenden Klicks]**, **[!UICONTROL eindeutigen eingehenden Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Metriken zu individuellen Seitenansichten]** ermöglicht es Ihnen das Dropdown-Menü **[!UICONTROL Klickaktion]**, Klicks und Ansichten auf bestimmten Seiten genau nachzuverfolgen und zu überwachen.
 
    ![](assets/content_experiment_20.png)
 

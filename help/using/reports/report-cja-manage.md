@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1353'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 
 >[!AVAILABILITY]
 >
-> Die **Analysieren in CJA**-Funktion steht nur Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung.
+> Die Funktion **In CJA analysieren** steht nur Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung.
 
 ![](assets/cja-analyze.png)
 
@@ -215,47 +215,47 @@ Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswa
 
 Sie können jetzt die neu erstellte Zielgruppe mit einer Journey oder Kampagne verwenden.
 
-## Vorlagen verwalten {#cja-template}
+## Verwalten von Vorlagen {#cja-template}
 
 >[!AVAILABILITY]
 >
-> Die **Vorlage**-Funktionalität wird schrittweise in Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit Ende Januar geplant ist und ausschließlich Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung steht.
+> Die Funktionalität **Vorlage** wird schrittweise in Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit für Ende Januar geplant ist. Sie steht ausschließlich Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung.
 
-Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu verbessern. [Weitere Informationen zum Customer Journey Analytics von Vorlagen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. [Weitere Informationen zu Customer Journey Analytics-Vorlagen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Beim Zugriff auf Ihre Berichte können Sie im Dropdown-Menü **[!UICONTROL Vorlage auswählen]** zwischen zwei Vorlagentypen wählen:
 
-* Von Adobe bereitgestellte Standardvorlage
-* Kundengenerierte Vorlagen
+* der von Adobe bereitgestellten Standardvorlage
+* kundengenerierten Vorlagen
 
 ![](assets/cja_template_5.png)
 
-Wenn keine Vorlage erstellt wurde, wird die **[!UICONTROL Vorlage auswählen]** Dropdown-Liste in Ihrer Reporting-Oberfläche nicht angezeigt.
+Wenn keine Vorlage erstellt wurde, wird das Dropdown-Menü **[!UICONTROL Vorlage auswählen]** nicht in Ihrer Reporting-Oberfläche angezeigt.
 
 Gehen Sie wie folgt vor, um eine Vorlage zu erstellen:
 
-1. Navigieren Sie in [!DNL Customer Journey Analytics] zum Menü **[!UICONTROL Workspace]** und wählen Sie **[!UICONTROL Adobe-Vorlagen]** aus. [Erfahren Sie mehr über die verfügbaren Vorlagen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. Navigieren Sie in [!DNL Customer Journey Analytics] zum Menü **[!UICONTROL Arbeitsbereich]** und wählen Sie **[!UICONTROL Adobe-Vorlagen]** aus. [Weitere Informationen über verfügbare Vorlagen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
-1. Durchsuchen Sie die verfügbaren vordefinierten Vorlagen und klicken Sie auf **[!UICONTROL Vorlage verwenden]**, um eine auszuwählen.
+1. Durchsuchen Sie die verfügbaren vorkonfigurierten Vorlagen und klicken Sie auf **[!UICONTROL Vorlage verwenden]**, um eine auszuwählen.
 
    ![](assets/cja_template_1.png)
 
-1. Passen Sie Ihren Bericht an Ihre Anforderungen an. Siehe [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
+1. Passen Sie Ihren Bericht an Ihre Anforderungen an. Weitere Informationen finden Sie in der [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
-1. Nachdem die benutzerdefinierte Vorlage fertig ist, öffnen Sie das Menü **[!UICONTROL Projekt]** und wählen Sie **[!UICONTROL Als Vorlage speichern]**.
+1. Öffnen Sie nach Fertigstellung Ihrer benutzerdefinierten Vorlage das Menü **[!UICONTROL Projekt]** und wählen Sie **[!UICONTROL Als Vorlage speichern]** aus.
 
    ![](assets/cja_template_2.png)
 
-1. Geben Sie die erforderlichen Details für Ihre Vorlage an. Detaillierte Informationen finden Sie in der Dokumentation ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) [Customer Journey Analytics.
+1. Geben Sie die erforderlichen Details für Ihre Vorlage an. Ausführliche Informationen finden Sie in der [Customer Journey Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template).
 
    >[!IMPORTANT]
    >
-   > Wählen Sie **Journey Optimizer** unter **[!UICONTROL Anwendungsfälle]** und geben Sie den entsprechenden **Journey Optimizer-Aktivitätstyp** und **Aktivität** an. Dadurch wird Ihr Bericht in Journey Optimizer angezeigt.
+   > Wählen Sie unter **[!UICONTROL Anwendungsfälle]** die Option **Journey Optimizer** aus und geben Sie den entsprechenden **Journey Optimizer-Aktivitätstyp** und die **Aktivität** an. Dadurch kann Ihr Bericht in Journey Optimizer angezeigt werden.
 
    ![](assets/cja_template_3.png)
 
-1. Greifen Sie [!DNL Journey Optimizer] über Ihren Bericht auf Ihren Bericht zu und wählen Sie Ihre zuvor erstellte Vorlage aus der Dropdown-Liste **[!UICONTROL Vorlage auswählen]** aus.
+1. Greifen Sie in [!DNL Journey Optimizer] über Ihren Bericht auf Ihren Bericht zu und wählen Sie Ihre zuvor erstellte Vorlage aus dem Dropdown-Menü **[!UICONTROL Vorlage auswählen]** aus.
 
    ![](assets/cja_template_4.png)
 
-Um eine Vorlage direkt aus Ihrem Journey-Optimizer-Bericht zu erstellen, greifen Sie einfach auf Ihren Kampagnen- oder Journey-Bericht zu, wählen **[!UICONTROL Analysieren in CJA]** und passen Sie die Standardvorlage an, indem Sie die oben beschriebenen Schritte ausführen.
+Um eine Vorlage direkt aus Ihrem Journey Optimizer-Bericht zu erstellen, greifen Sie einfach auf Ihren Kampagnen- oder Journey-Bericht zu, wählen Sie **[!UICONTROL In CJA analysieren]** aus und passen Sie die Standardvorlage an, indem Sie die oben beschriebenen Schritte ausführen.

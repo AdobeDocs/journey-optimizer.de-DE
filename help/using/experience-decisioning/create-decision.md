@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1647'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer Mobile App da
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
-1. Wählen Sie im [Code](../code-based/create-code-based.md#edit-code)Editor die Option **[!UICONTROL Entscheidungsrichtlinie]** und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
+1. Wählen Sie im [Code-Editor](../code-based/create-code-based.md#edit-code) die Option **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -98,9 +98,9 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
    >
    >Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
-1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.
+1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet, dann das zweite usw.
 
-   Um die Standardsequenz zu ändern, können Sie die Objekte und/oder Gruppen per Drag-and-Drop verschieben und so neu anordnen. [Weitere Informationen](#evaluation-order)
+   Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  [Weitere Informationen](#evaluation-order)
 
 ### Verwalten der Auswertungsreihenfolge in einer Entscheidungsrichtlinie {#evaluation-order}
 
@@ -184,7 +184,7 @@ Es können beliebige Elemente aus der Liste ausgewählt werden, die alle in der 
 >
 >Ein Fallback ist optional. Wenn kein Fallback ausgewählt ist und keine Strategie qualifiziert ist, wird von [!DNL Journey Optimizer] nichts angezeigt.  Sie können die Anzahl der Elemente addieren, die von der Entscheidungsrichtlinie angefordert werden. Dadurch wird sichergestellt, dass eine bestimmte Anzahl von Elementen zurückgegeben wird, sofern dies für den Anwendungsfall gewünscht ist.
 
-Wenn Ihre Entscheidungsrichtlinie fertig ist, speichern Sie sie und klicken Sie auf **[!UICONTROL Erstellen]**. Nachdem die Entscheidungsrichtlinie erstellt wurde, können die Entscheidungsattribute im Code-basierten Erlebnisinhalt verwendet werden. [Weitere Informationen](#use-decision-policy)
+Sobald Ihre Entscheidungsregel fertig ist, speichern Sie sie und klicken Sie auf **[!UICONTROL Erstellen]**.  Nachdem die Entscheidungsrichtlinie erstellt wurde, können die Entscheidungsattribute im Code-basierten Erlebnisinhalt verwendet werden. [Weitere Informationen](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 

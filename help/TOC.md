@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 99%
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
-   + Gesamter Zeitbericht{#channel-report}
-      + [Erste Schritte mit dem Zeitbericht](using/reports/report-gs-cja.md)
+   + Bericht für gesamte Zeit{#channel-report}
+      + [Erste Schritte mit dem Bericht für die gesamte Zeit](using/reports/report-gs-cja.md)
       + [Manuelles Konfigurieren von Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
       + [Voraussetzungen für Reporting und Experimente](using/reports/reporting-configuration.md)

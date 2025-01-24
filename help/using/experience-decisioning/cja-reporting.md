@@ -8,9 +8,9 @@ level: Experienced
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Die wichtigsten Schritte sind unten aufgeführt. Ausführliche Informationen üb
 
 1. Erstellen Sie eine **Datenansicht** und verknüpfen Sie sie mit der zuvor erstellten Verbindung. Wählen Sie auf der Registerkarte **[!UICONTROL Komponenten]** die entsprechenden Schemafelder aus, die im Reporting angezeigt werden sollen. Stellen Sie sicher, dass Sie für die Entscheidungsfindung die Felder **propositioninteract** und **propositiondisplay** einschließen. [Erfahren Sie, wie Sie Datenansichten erstellen und konfigurieren können](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Kombinieren Sie Datenkomponenten, Tabellen und Visualisierungen in **Workspace-Projekten** um Berichte für Ihre Code-basierte Kampagne zu erstellen und freizugeben. [Erfahren Sie, wie Sie Workspace-Projekte erstellen können](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Kombinieren Sie Datenkomponenten, Tabellen und Visualisierungen in **Workspace-Projekten**, um Berichte für Ihre Code-basierte Kampagne zu erstellen und freizugeben. [Erfahren Sie, wie Sie Workspace-Projekte erstellen können](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
