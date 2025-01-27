@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
-source-wordcount: '2801'
-ht-degree: 96%
+source-wordcount: '2854'
+ht-degree: 86%
 
 ---
 
@@ -143,17 +143,20 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 >
 >Um die Kontrolle über die E-Mail-Einstellungen zu verbessern, können Sie die Kopzeilen-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
 
-* **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name der Marke.
-* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
-* **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
-* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. [Weitere Informationen](#reply-to-email)
-* **[!UICONTROL Fehler-E-Mail-Adresse]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und Challenge-Responses werden ebenfalls an diese Adresse gesendet.
+* **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
+* **[!UICONTROL Von E-Mail-Präfix]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten.
+* **[!UICONTROL Auf Namen antworten]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E **Mail-Client-Software auf** Schaltfläche „Antworten“ klickt.
+* **[!UICONTROL Auf E-Mail antworten]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail **Client-Software auf** Schaltfläche „Antworten“ klickt. [Weitere Informationen](#reply-to-email)
+* **[!UICONTROL E-Mail-Präfix für Fehler]**: An dieser Adresse werden alle Fehler empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und Challenge-Responses werden ebenfalls an diese Adresse gesendet.
 
   Wenn Sie die Abwesenheitsbenachrichtigungen und Challenge-Responses auf Anfragen an eine bestimmte E-Mail-Adresse erhalten möchten, die nicht an Adobe delegiert ist, müssen Sie einen [Weiterleitungsprozess](#forward-email) einrichten. Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.
 
->[!CAUTION]
+>[!NOTE]
 >
->Die **[!UICONTROL Absender-E-Mail-Adresse]** und **[!UICONTROL Fehler-E-Mail]**-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md) verwenden. Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet, kann *contact@marketing.luma.com* und *error@marketing.luma.com* verwendet werden. 
+>Die **[!UICONTROL Von E-Mail]** Präfix und **[!UICONTROL Fehler-E-Mail]** Präfix verwenden die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md) zum Senden der E-Mail. Wenn die delegierte Subdomain beispielsweise „marketing.luma.com *lautet*:
+>* Geben Sie *Kontakt* als **[!UICONTROL Von E-Mail-Präfix]** ein - die Absender-E-Mail lautet *contact@marketing.luma.com*.
+>* Geben Sie *error* als **[!UICONTROL Fehler-E-Mail-Präfix]** ein - die Fehleradresse lautet *error@marketing.luma.com*.
+
 
 ![](assets/preset-header.png){width="80%"}
 
@@ -163,9 +166,9 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 
 ### Antwort auf E-Mail {#reply-to-email}
 
-Bei der Definition der **[!UICONTROL Antwort an (E-Mail)]**-Adresse kann eine beliebige E-Mail-Adresse angegeben werden, vorausgesetzt es handelt sich um eine gültige Adresse in einem korrekten Format und ohne Tippfehler.
+Bei der Definition der **[!UICONTROL Antwort an E-Mail]**-Adresse können Sie eine beliebige E-Mail-Adresse angeben, vorausgesetzt es handelt sich um eine gültige Adresse in einem korrekten Format und ohne Tippfehler.
 
-Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails, mit Ausnahme der Abwesenheitsbenachrichtigungen und Challenge-Responses, die an der **[!UICONTROL Fehler-E-Mail-Adresse]** empfangen werden.
+Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails, mit Ausnahme der Abwesenheitsbenachrichtigungen und Challenge-Responses, die an der **Fehler-E-Mail-Adresse** empfangen werden.
 
 Befolgen Sie die nachstehenden Empfehlungen, um eine ordnungsgemäße Antwortverwaltung sicherzustellen:
 
@@ -175,7 +178,7 @@ Befolgen Sie die nachstehenden Empfehlungen, um eine ordnungsgemäße Antwortver
 
 * Bitte im Posteingang für Antworten keine Nachrichten als Spam markieren, da sich das auf alle anderen an diese Adresse gesendeten Antworten auswirken würde.
 
-Darüber hinaus ist bei der Definition der **[!UICONTROL Antwortadresse (E-Mail)]** sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Konfiguration fehl.
+Darüber hinaus ist bei der Definition der **[!UICONTROL Antwort an E-Mail]**-Adresse sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Konfiguration fehl.
 
 Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, dass der MX-Eintrag nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
@@ -189,7 +192,7 @@ Um alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfangenen E
 
 >[!NOTE]
 >
->Wenn die Subdomain für die **[!UICONTROL Antwortadresse (E-Mail)]** nicht an Adobe delegiert ist, kann die Weiterleitung für diese Adresse nicht funktionieren.
+>Wenn die für die Adresse **[!UICONTROL Antwort an E-Mail]** verwendete Subdomain nicht an Adobe delegiert ist, kann die Weiterleitung für diese Adresse nicht funktionieren.
 
 Sie müssen Folgendes angeben:
 
@@ -204,7 +207,11 @@ Sie müssen Folgendes angeben:
 
 Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
 
-Nach Abschluss des Vorgangs werden alle Nachrichten, die an der **[!UICONTROL Antwortadresse (E-Mail)]** und der **[!UICONTROL Fehler-E-Mail-Adresse]** empfangen wurden, an die von Ihnen angegebene E-Mail-Adresse weitergeleitet.
+Danach werden alle Nachrichten, die an die E **[!UICONTROL Mail-]**- und **Fehler-E-Mail**-Adressen gesendet werden, sowie alle E-Mails, die an die E-**-**-Adresse gesendet werden, an die von Ihnen angegebene spezifische E-Mail-Adresse weitergeleitet.
+
+>[!NOTE]
+>
+>Wenn die Weiterleitung nicht aktiviert ist, werden standardmäßig alle E-Mails verworfen, die direkt an die **Von-E** Mail-Adresse gesendet werden.
 
 ## BCC-E-Mail-Adresse {#bcc-email}
 
