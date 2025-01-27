@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
 workflow-type: tm+mt
 source-wordcount: '5888'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Der **Kopfzeilenparameter** wurde aktualisiert und enthält jetzt die neuen Beschriftungen und Änderungen an der Benutzeroberfläche. [Weitere Informationen](../email/email-settings.md#email-header)
 
-* Der Abschnitt **Weiterleitungs-E** Mail) wurde aktualisiert und gibt nun an, dass alle an die Adresse **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail angegeben wird, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md##forward-email)
+* Der Abschnitt **Weiterleitungs-E** Mail) wurde aktualisiert und gibt nun an, dass alle an die Adresse **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail angegeben wird, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md#forward-email)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
