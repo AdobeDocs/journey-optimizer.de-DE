@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
 workflow-type: tm+mt
-source-wordcount: '5767'
-ht-degree: 100%
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # Dokumentationsaktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
+
+## Januar 2025 {#jan-2025}
+
+* Es wurde ein neuer Abschnitt zur Option **[!UICONTROL Ausführungsadresse]** in der E-Mail-Konfiguration hinzugefügt. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber die Standardeinstellung kann für eine bestimmte E-Mail-Konfiguration überschrieben werden. [Weitere Informationen](../email/email-settings.md#execution-address)
+
+* Die Seite **Erste Schritte mit der Zustellbarkeit** wurde aktualisiert und bietet nun die Möglichkeit, IP-Aufwärm-Workflows direkt über die Benutzeroberfläche zu erstellen. [Weitere Informationen](../reports/deliverability.md#reputation)
+
+* Der **Kopfzeilenparameter** wurde aktualisiert und enthält jetzt die neuen Beschriftungen und Änderungen an der Benutzeroberfläche. [Weitere Informationen](../email/email-settings.md#email-header)
+
+* Der Abschnitt **Weiterleitungs-E** Mail) wurde aktualisiert und gibt nun an, dass alle an die Adresse **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail angegeben wird, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## Dezember 2024 {#nov-2024}
 
@@ -30,7 +42,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite **Konfigurieren des Code-basierten Erlebnisses** wurde verbessert, um den Vorgang klarer zu beschreiben. Dazu gehört auch der Abschnitt, in dem erklärt wird, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Erstellen einer Web-Kanalkonfiguration** wurde aktualisiert, um die Schritte beim Erstellen einer Regel zum Seitenabgleich zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gelten. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zum anstehenden Time-to-Live(TTL)-Limit für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option „Vorschau auf Gerät“ anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt auf Ihrem Browser oder auf Ihren Mobilgeräten mit der Option **Vorschau auf dem Gerät** in der Vorschau anzeigen können, wenn Sie Inhalte auf einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
 * Es wurde eine neue Seite hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für die Entscheidungsfindung genutzt werden können. [Mehr dazu](../offers/custom-upload-decisioning.md)
 * Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden. [Weitere Informationen](../experience-decisioning/gs-decision.md)
 * Der Dokumentation zur Entscheidungsfindung wurden Schutzmechanismen und Einschränkungen hinzugefügt. [Mehr dazu](../experience-decisioning/gs-experience-decisioning.md#guardrails)
