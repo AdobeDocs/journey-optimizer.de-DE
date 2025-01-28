@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 Fragmente können über das Menü **[!UICONTROL Fragmente]** links von Grund auf neu erstellt werden. Darüber hinaus können Sie beim Entwerfen von Inhalten auch einen Teil des vorhandenen Inhalts als Fragment speichern. [Weitere Informationen](#save-as-fragment)
 
-Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampagne oder Vorlage verfügbar. Sie können dieses Fragment beim Erstellen von Inhalten in Journeys und Kampagnen verwenden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampagne oder Vorlage verfügbar. Sie können dieses Fragment beim Erstellen von Inhalten in Journeys und Kampagnen verwenden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md).
 
 Gehen Sie wie folgt vor, um ein Fragment zu erstellen:
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu erstellen:
 
    >[!NOTE]
    >
-   >Derzeit sind visuelle Fragmente nur für den **E-Mail**-Kanal verfügbar.
+   >Derzeit sind visuelle Fragmente nur für den Kanal **E** verfügbar.
 
 1. Wenn Sie ein Ausdrucksfragment erstellen, wählen Sie den Code-Typ aus, den Sie verwenden möchten: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** oder **[!UICONTROL Text]**.
 
@@ -71,7 +71,7 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
 
   ![](assets/fragment-expression-editor.png)
 
-Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern**. Das Fragment wird erstellt und mit dem Status **Entwurf** zur Fragmentliste hinzugefügt. Sie können eine Vorschau davon anzeigen und es veröffentlichen, um es in Journeys und Kampagnen verfügbar zu machen.
+Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**. Das Fragment wird erstellt und mit dem Status **[!UICONTROL Entwurf]** zur Fragmentliste hinzugefügt. Sie können eine Vorschau davon anzeigen und es veröffentlichen, um es in Journeys und Kampagnen verfügbar zu machen.
 
 ## Erstellen einer Vorschau und Veröffentlichen des Fragments {#publish}
 
@@ -79,23 +79,23 @@ Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **Speichern**. Das
 >
 >Um ein Fragment veröffentlichen zu können, müssen Sie über die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) verfügen.
 
-Wenn Ihr Fragment für die Aktivierung bereit ist, können Sie es in der Vorschau anzeigen und veröffentlichen, um es in Ihren Journeys und Kampagnen verfügbar zu machen. Gehen Sie dazu wie folgt vor:
+Wenn Ihr Fragment bereit für die Live-Schaltung ist, können Sie es in der Vorschau anzeigen und veröffentlichen, um es in Ihren Journey und Kampagnen verfügbar zu machen. Gehen Sie dazu wie folgt vor.
 
 1. Kehren Sie nach dem Entwerfen des Inhalts zum Bildschirm für die Fragmenterstellung zurück oder öffnen Sie es in der Liste der Fragmente.
 
-1. Eine Vorschau des Fragments finden Sie unter dem Feld **Tags**. Anhand dieser können Sie überprüfen, wie es gerendert wird. Wenn Sie Änderungen vornehmen müssen, klicken Sie oben im Bildschirm auf die Schaltfläche **Bearbeiten**, um je nach Fragmenttyp den E-Mail-Designer oder den Personalisierungseditor zu öffnen.
+1. Eine Vorschau des Fragments finden Sie unter dem Feld **[!UICONTROL Tags]**. Anhand dieser können Sie überprüfen, wie es gerendert wird. Wenn Sie Änderungen vornehmen müssen, klicken Sie oben im Bildschirm auf die Schaltfläche **[!UICONTROL Bearbeiten]**, um je nach Fragmenttyp den E-Mail-Designer oder den Personalisierungseditor zu öffnen.
 
    ![](assets/fragment-preview.png)
 
-1. Klicken Sie in der oberen rechten Ecke auf **Veröffentlichen**, um das Fragment zu veröffentlichen.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Veröffentlichen]**, um das Fragment zu veröffentlichen.
 
-   Wenn das Fragment in einer Live-Journey oder Kampagne verwendet wird, wird eine entsprechende Nachricht angezeigt. Klicken Sie auf den Link **Mehr anzeigen**, um auf die Liste der Journeys und/oder Kampagnen zuzugreifen, auf die verwiesen wird. [Informationen zum Durchsuchen von Verweisen eines Fragments](../content-management/manage-fragments.md#explore-references)
-
-   Klicken Sie auf **Bestätigen**, um das Fragment zu veröffentlichen und in den Live-Journeys/Kampagnen zu aktualisieren, die es verwenden.
+1. Wenn das Fragment in einer Live-Journey oder -Kampagne verwendet wird, werden Sie über eine entsprechende Meldung informiert. Klicken Sie auf den Link **[!UICONTROL Mehr anzeigen]**, um auf die Liste der Journeys und/oder Kampagnen zuzugreifen, auf die verwiesen wird. [Informationen zum Durchsuchen von Verweisen eines Fragments](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Das Fragment ist jetzt **live** und bei der Erstellung von Inhalten im [!DNL Journey Optimizer] E-Mail-Designer oder Personalisierungseditor verfügbar:
+   Klicken Sie auf **[!UICONTROL Bestätigen]**, um das Fragment zu veröffentlichen und in den Live-Journeys/Kampagnen zu aktualisieren, die es verwenden.
+
+Das Fragment ist jetzt **[!UICONTROL Live]** und wird beim Erstellen von Inhalten in der E-Mail-Designer oder im Personalisierungseditor von [!DNL Journey Optimizer] verfügbar.
 
 * [Erfahren Sie, wie Sie visuelle Fragmente verwenden](../email/use-visual-fragments.md)
 * [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../personalization/use-expression-fragments.md)
