@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 100%
 
 ---
@@ -20,8 +20,6 @@ Mit dem Entscheidungs-Management können Sie personalisierte Angebotserlebnisse 
 Sie können Angebote erstellen und bereitstellen, indem Sie eine POST-Anfrage an die [!DNL Decisioning]-API senden.
 
 Dieses Tutorial erfordert ein Verständnis von APIs, insbesondere im Hinblick auf das Entscheidungs-Management. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Entscheidungs-Management-API](../getting-started.md). Für dieses Tutorial benötigen Sie außerdem Werte für eine eindeutige Platzierungs- und Entscheidungskennung. Wenn Sie diese Werte nicht erhalten haben, finden Sie in den Tutorials zum [Erstellen einer Platzierung](../offers-api/placements/create.md) und zum [Erstellen einer Entscheidung](../activities-api/activities/create.md) weitere Informationen.
-
-➡️  [Entdecken Sie diese Funktion im Video](#video).
 
 ## Erforderliche Kopfzeilen {#required-headers}
 
