@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 68%
+source-wordcount: '1075'
+ht-degree: 60%
 
 ---
 
@@ -81,27 +81,31 @@ Fragmente können mehrere Status aufweisen:
 
 Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
-1. Klicken Sie in der Liste **[!UICONTROL Fragmente]** auf das gewünschte Fragment.
+1. Klicken Sie in der Liste „Fragmente **[!UICONTROL auf]** gewünschte Fragment. Der Bildschirm mit den Fragmenteigenschaften wird mit einer Vorschau des Inhalts geöffnet.
 
-1. Die Fragmenteigenschaften werden mit einer Vorschau des zugehörigen Inhalts geöffnet.
+1. Sie können die Liste der Journey, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird, indem Sie die Option **[!UICONTROL Verweise erkunden]** auswählen. [Weitere Informationen](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Wenn das bearbeitete Fragment den Status **[!UICONTROL Live]** aufweist, klicken Sie auf die Schaltfläche **[!UICONTROL Ändern]**, um eine Entwurfsversion des Fragments zu erstellen.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >Die aktuelle Version des Fragments ist weiterhin live, bis Sie die Entwurfsversion veröffentlichen.
+   >Die aktuelle Version des Fragments bleibt so lange live, bis Sie die neue aktualisierte Version veröffentlichen.
 
-1. Nehmen Sie die gewünschten Änderungen am Fragment vor. Um den Inhalt zu bearbeiten, klicken Sie auf die **[!UICONTROL Bearbeiten]**-Schaltfläche und aktualisieren Sie Ihren Inhalt so, wie Sie es bei der Neuerstellung eines Fragments tun würden. [Informationen zum Erstellen eines Fragments](#create-from-scratch)
+1. Nehmen Sie die gewünschten Änderungen am Fragment vor.
+
+1. Um den Inhalt zu ändern, klicken Sie auf **[!UICONTROL Bearbeiten]** und aktualisieren Sie Ihren Inhalt so, wie Sie es bei der Neuerstellung eines Fragments tun würden. [Informationen zum Erstellen eines Fragments](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Beim Bearbeiten eines veröffentlichten Fragments können Sie jedes Personalisierungsfeld entfernen, aber keine neuen zum Fragmentinhalt hinzufügen. Wenn Sie personalisierte Attribute hinzufügen möchten, müssen Sie das Fragment duplizieren. [Weitere Informationen](#adding-new-attributes)
 
-1. Sie können auch die Liste der Journeys, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird, indem Sie die Option **Explorer-Verweise** auswählen. [Weitere Informationen](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Sobald Ihre Änderungen fertig sind, klicken Sie auf die Schaltfläche **Veröffentlichen**, um Ihre Änderungen live zu stellen.
+1. Sobald Ihre Änderungen fertig sind, speichern Sie sie und klicken Sie auf die Schaltfläche **Publish**, um Ihre Änderungen live zu schalten.
 
 Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journey und -Kampagnen - mit Ausnahme von Inhalten, bei denen die Vererbung vom Originalfragment unterbrochen wurde.
 
@@ -113,17 +117,19 @@ Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle In
 
 >[!WARNING]
 >
->Das Hinzufügen neuer Attribute zu einem Live-Fragment wird nicht unterstützt.
+>Das Hinzufügen neuer [personalisierter Attribute](../personalization/personalization-build-expressions.md) zu einem Live-Fragment wird nicht unterstützt.
 
 Nach der Veröffentlichung eines Fragments wird der Satz personalisierter oder kontextueller Attribute für alle Kampagnen und Journey gesperrt, die darauf verweisen.
 
 Gehen Sie wie folgt vor, um zusätzliche Attribute in ein Live-Fragment einzubinden.
 
-1. Duplizieren Sie das vorhandene Fragment.
+1. Duplizieren Sie das vorhandene Fragment mithilfe der Schaltfläche **[!UICONTROL Mehr Aktionen]** .
 
-1. Fügen Sie der duplizierten Entwurfsversion die erforderlichen Attribute hinzu.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish die neue Version.
+1. [Fügen Sie die neuen gewünschten Attribute ](../personalization/personalization-build-expressions.md#add) der duplizierten Entwurfsversion hinzu.
+
+1. Publish die neue Version. [Weitere Informationen](create-fragments.md#publish)
 
 1. Aktualisieren Sie alle Kampagnen oder Journey, um auf das aktualisierte Fragment zu verweisen, in dem die neuen Attribute hinzugefügt wurden.
 
