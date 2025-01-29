@@ -6,10 +6,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +25,10 @@ Beim Export wird für jedes Objekt Ihrer Angebotsbibliothek ein Datensatz erstel
 * Entscheidungen
 
 Jedes Mal, wenn eines dieser Objekte in der Angebotsbibliothek geändert wird, wird automatisch ein neuer Exportvorgang ausgeführt, um die Datensätze zu aktualisieren.
+
+>[!NOTE]
+>
+>Diese Funktion ist standardmäßig aktiviert. Sie können ihn ohne zusätzliche Aktivierungsschritte verwenden. Nach der Aktivierung werden die Exportvorgänge automatisiert und erfordern keine Aktion von Ihrer Seite.
 
 <!--
 >[!NOTE]
