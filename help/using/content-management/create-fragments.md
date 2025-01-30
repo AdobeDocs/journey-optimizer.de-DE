@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 87%
 
 ---
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu erstellen:
 
 1. Wählen Sie Adobe Experience Platform-Tags im Feld **[!UICONTROL Tags]** aus oder erstellen Sie welche, um Ihr Fragment für eine verbesserte Suche zu kategorisieren. [Informationen zum Arbeiten mit einheitlichen Tags](../start/search-filter-categorize.md#tags)
 
-1. Wählen Sie den Fragmenttyp aus: **Visuelles Fragment** oder **Ausdrucksfragment**. [Weitere Informationen zu visuellen Fragmenten und Ausdrucksfragmenten](../content-management/fragments.md#visual-expression)
+1. Wählen Sie den Fragmenttyp aus: **Visuelles Fragment** oder **Ausdrucksfragment**. [Weitere Informationen](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
