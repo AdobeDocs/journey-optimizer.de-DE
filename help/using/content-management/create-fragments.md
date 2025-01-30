@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
+source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 85%
+source-wordcount: '631'
+ht-degree: 87%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 85%
 >title="Auswählen des visuellen Typs"
 >abstract="Erstellen Sie ein eigenständiges visuelles Fragment, um Ihren Inhalt in einer E-Mail innerhalb einer Journey, einer Kampagne oder in einer Inhaltsvorlage wiederzuverwenden."
 
-&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments&quot; text=„Visuelle Fragmente zu E-Mails hinzufügen“—>
+<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Add visual fragments to your emails"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Auswählen des Ausdruckstyps"
 >abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Personalisierungseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
 
-&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments&quot; text=„Nutzen Sie Ausdrucksfragmente“—>
+<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 Fragmente können über das Menü **[!UICONTROL Fragmente]** links von Grund auf neu erstellt werden. Darüber hinaus können Sie beim Entwerfen von Inhalten auch einen Teil des vorhandenen Inhalts als Fragment speichern. [Weitere Informationen](#save-as-fragment)
 
