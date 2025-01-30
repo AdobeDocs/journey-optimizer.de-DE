@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 56%
 
 ---
@@ -38,7 +38,7 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 Über die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben jedem Fragment können Sie Folgendes ausführen:
 
 * Fügen Sie es einem Paket für den Export hinzu. [Weitere Informationen](#export)
-* Wenn das Fragment live ist, öffnen Sie eine Entwurfsversion, um sie zu bearbeiten. [Weitere Informationen](#edit-fragments)
+* Wenn ein Live-Fragment bearbeitet wird, öffnen Sie die Entwurfsversion dieses Fragments. [Weitere Informationen](#edit-fragments)
 * Kopieren Sie das Fragment.
 * Verwenden Sie die Option **[!UICONTROL Verweise erkunden]**, um die Journeys, Kampagnen oder Vorlagen anzuzeigen, in denen es verwendet wird. [Weitere Informationen](#explore-references)
 * Archivieren Sie das Fragment. [Weitere Informationen](#archive-fragments)

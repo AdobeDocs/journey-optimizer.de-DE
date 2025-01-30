@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 87%
+source-wordcount: '639'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ Wenn Ihr Fragment bereit für die Live-Schaltung ist, können Sie es in der Vors
 
 1. Kehren Sie nach dem Entwerfen des Inhalts zum Bildschirm für die Fragmenterstellung zurück oder öffnen Sie es in der Liste der Fragmente.
 
-1. Eine Vorschau des Fragments finden Sie unter dem Feld **[!UICONTROL Tags]**. Anhand dieser können Sie überprüfen, wie es gerendert wird. Wenn Sie Änderungen vornehmen müssen, klicken Sie oben im Bildschirm auf die Schaltfläche **[!UICONTROL Bearbeiten]**, um je nach Fragmenttyp den E-Mail-Designer oder den Personalisierungseditor zu öffnen.
+1. Eine Vorschau des Fragments finden Sie unter dem Feld **[!UICONTROL Tags]**. Anhand dieser können Sie überprüfen, wie es gerendert wird. Wenn Sie Änderungen vornehmen müssen, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** im oberen Bereich des Bildschirms, um je nach Fragmenttyp den E-Mail-Designer oder den Personalisierungseditor zu öffnen. [Weitere Informationen](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
