@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 87%
+source-wordcount: '646'
+ht-degree: 85%
 
 ---
 
@@ -21,13 +21,15 @@ ht-degree: 87%
 >id="ajo_create_visual_fragment"
 >title="Auswählen des visuellen Typs"
 >abstract="Erstellen Sie ein eigenständiges visuelles Fragment, um Ihren Inhalt in einer E-Mail innerhalb einer Journey, einer Kampagne oder in einer Inhaltsvorlage wiederzuverwenden."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Hinzufügen visueller Fragmente zu Ihren E-Mails"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments&quot; text=„Visuelle Fragmente zu E-Mails hinzufügen“—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Auswählen des Ausdruckstyps"
 >abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Personalisierungseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Nutzen von Ausdrucksfragmenten"
+
+&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments&quot; text=„Nutzen Sie Ausdrucksfragmente“—>
 
 Fragmente können über das Menü **[!UICONTROL Fragmente]** links von Grund auf neu erstellt werden. Darüber hinaus können Sie beim Entwerfen von Inhalten auch einen Teil des vorhandenen Inhalts als Fragment speichern. [Weitere Informationen](#save-as-fragment)
 
