@@ -5,8 +5,8 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: ht
+source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
+workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -304,7 +304,6 @@ ht-degree: 100%
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
-   + [Inhaltsfragmente in Adobe Experience Manager](using/content-management/aem-fragments.md)
    + Arbeiten mit dem KI-Assistenten{#ai-assistant}
       + [Erste Schritte mit dem Content Accelerator des KI-Assistenten](using/content-management/gs-generative.md)
       + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
@@ -371,6 +370,7 @@ ht-degree: 100%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
+   + [Inhaltsfragmente in Adobe Experience Manager](using/content-management/aem-fragments.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
