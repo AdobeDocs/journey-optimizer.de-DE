@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -96,11 +96,11 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
      >
      >**Adobe Experience Platform Assurance** ist ein Produkt aus Adobe Experience Cloud, mit dem Sie die Datenerfassung und Bereitstellung von Erlebnissen in Ihrer App überprüfen, testen, simulieren und validieren können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
 
-1. Wenn Sie in Ihrer Code[basierten Konfiguration eine andere Plattform](code-based-configuration.md#other) verwenden, wählen Sie in der Dropdown-Liste den [Oberflächen-URI](code-based-surface.md#surface-uri), den Sie in der Vorschau anzeigen möchten.
+1. Wenn Sie in Ihrer Code-basierten Konfiguration eine [andere Plattform](code-based-configuration.md#other) verwenden, wählen Sie in der Dropdown-Liste den [Oberflächen-URI](code-based-surface.md#surface-uri), der in einer Vorschau angezeigt werden soll.
 
    ![](assets/preview-on-device-other.png)
 
-   * Klicken Sie auf die **[!UICONTROL Link kopieren]**, um den Link in eine Browser-Registerkarte einzufügen oder ihn für Ihr Team und Ihre Stakeholder freizugeben.
+   * Klicken Sie auf die Schaltfläche **[!UICONTROL Link kopieren]**, um den Link in einen Browser-Tab einzufügen oder ihn mit Ihrem Team und Ihren Stakeholdern zu teilen.
 
    * Wenn Sie Ihrer Konfiguration mehrere URIs hinzugefügt haben (bis zu 10), können Sie einen davon für die Vorschau auswählen.
 

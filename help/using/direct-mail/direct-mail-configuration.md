@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
    >[!NOTE]
    >
-   >Um einen Pfad auf dem Server zum Speichern der Datei anzugeben, aktualisieren Sie das Feld **[!UICONTROL Dateiname“ der Briefpostkampagne,]** den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
+   >Um einen Pfad auf dem Server zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
@@ -156,7 +156,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
    * **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
 
-     Der **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie das Feld **[!UICONTROL Dateiname“]** Briefpostkampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
+     Der **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 

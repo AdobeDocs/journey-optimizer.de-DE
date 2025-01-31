@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,11 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
 1. Passen Sie die Eigenschaften der Extraktionsdatei an:
 
-   1. Geben **[!UICONTROL im Feld]** einen Namen für die Extraktionsdatei an.
+   1. Geben Sie in das Feld **[!UICONTROL Dateiname]** einen Namen für die Extraktionsdatei an. 
 
       >[!NOTE]
       >
-      >Standardmäßig wird die Datei in das Stammverzeichnis geschrieben. Das Feld **[!UICONTROL Dateiname]** akzeptiert das Format &quot;/your/path/here/Filename.csv&quot;, wobei der angegebene Pfad das Zielverzeichnis auf dem ausgewählten Server ist. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >Standardmäßig wird die Datei in das Stammverzeichnis geschrieben. Das Feld **[!UICONTROL Dateiname]** akzeptiert das Format „/Hier/Ihr/Pfad/Dateiname.csv“, wobei der angegebene Pfad dem Zielverzeichnis auf dem ausgewählten Server entspricht. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Optional können Sie den **[!UICONTROL Zeitstempel an den Dateinamen des Exports anhängen]**, wenn Sie dem angegebenen Dateinamen einen automatischen Zeitstempel hinzufügen möchten.
 

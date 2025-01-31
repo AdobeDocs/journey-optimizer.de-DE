@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 85%
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
 
-In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser funktioniert als die vorab zugewiesenen Angebotsprioritäten. Um zu messen, welche für Ihre Zielgruppe am besten geeignet ist, erstellen Sie eine Kampagne mit [Inhaltsexperiment](../content-management/content-experiment.md) in dem Sie zwei Abwandlungen für den Versand definieren:
+In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser funktioniert als die vorab zugewiesenen Angebotsprioritäten. Um zu messen, welche Option für die Zielgruppe am besten geeignet ist, erstellen Sie mit der Funktion [Inhaltsexperiment](../content-management/content-experiment.md) eine Kampagne, bei der Sie zwei Abwandlungen für den Versand definieren:
 
-* Die erste Abwandlung verwendet **Priorität** als Rangfolgenmethode.
-* Die zweite Variante verwendet **eine Formel** als Rangfolgenmethode.
+* Die erste Abwandlung verwendet die **Priorität** als Rangfolgenmethode.
+* Die zweite Abwandlung verwendet eine **Formel** als Rangfolgenmethode.
 
 ## Erstellen von Auswahlstrategien
 
@@ -120,7 +120,7 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
    >
    >Sie können auch **[!UICONTROL Entscheidungselement]** auswählen, um einzelne Elemente hinzuzufügen, ohne eine Auswahlstrategie durchlaufen zu müssen. Es wird die für jedes Element festgelegte Priorität angewendet.
 
-1. Wählen Sie die erste Strategie aus, die Sie erstellt haben - die Strategie mit Priorität als Rangfolgenmethode.
+1. Wählen Sie die erste Strategie aus, die Sie erstellt haben – die Strategie mit „Priorität“ als Rangfolgenmethode.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,17 +136,17 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. Wiederholen Sie die Schritte 5 und 6 oben, um eine weitere Entscheidungsrichtlinie zu erstellen, und wählen Sie die zweite von Ihnen erstellte Auswahlstrategie aus - die Strategie mit der Formel als Rangfolgenmethode. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. Wiederholen Sie die Schritte 5 und 6 oben, um eine weitere Entscheidungsrichtlinie zu erstellen, und wählen Sie die zweite von Ihnen erstellte Auswahlstrategie aus: die Strategie mit der Formel als Rangfolgenmethode. <!--Do you need to create exactly the same content to compare only the ranking method?-->
 
    ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
 
-1. Bearbeiten Sie Ihre Entscheidungsrichtlinie nach Bedarf (siehe Schritte 8 und 9 oben).
+1. Bearbeiten Sie Ihre Entscheidungsrichtlinie nach Bedarf (siehe Schritte 8 und 9 oben).
 
 1. Speichern Sie Ihre Änderungen und [veröffentlichen Sie Ihre Code-basierte Erlebniskampagne](../code-based/publish-code-based.md).
 
 Verfolgen Sie nach dem Experiment mit dem [Experimentkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md), wie Ihre Kampagnenabwandlungen funktionieren.<!-- and [report on decisioning](cja-reporting.md).--> Sie können dann die Ergebnisse Ihres Experiments auslegen. [Weitere Informationen](../content-management/get-started-experiment.md#interpret-results)
 
-Wenn das Ergebnis schlüssig ist:
+Bei schlüssigem Ergebnis:
 
-* Sie können die Behandlung mit dem Ranking mit der besten Leistung an alle Ihre Kunden weiterleiten.
+* Sie können die Abwandlung mit der Rangfolge veröffentlichen, die für alle Ihre Kundinnen und Kunden am besten funktioniert. 
 * Sie können auch eine neue Kampagne mit der Auswahlstrategie erstellen, bei der die Rangfolgenmethode repliziert wird, die am besten funktioniert.

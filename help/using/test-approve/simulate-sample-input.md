@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 >
 >Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung.
 
-Mit Journey Optimizer können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und Testsendungen mit Beispieleingabedaten senden, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests verwendet werden, um mehrere Varianten zu erstellen. Eine Variante bezieht sich auf eine Version des Inhalts mit unterschiedlichen Werten für die Attribute.
+Mit Journey Optimizer können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und Testsendungen mit Beispieleingabedaten senden, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Profilattribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden. Eine Variante bezieht sich auf eine Version des Inhalts mit unterschiedlichen Werten für die zugehörigen Attribute.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um eine Variante aus einer Datei hinzuzufügen:
 1. Klicken Sie auf **[!UICONTROL Herunterladen]** und speichern Sie die Vorlage dann am gewünschten Speicherort.
 1. Öffnen Sie die Datei und füllen Sie die Vorlage entsprechend Ihren Anforderungen aus. Die Vorlage enthält eine Spalte für jedes Profilattribut, das in Ihrem Inhalt zur Personalisierung verwendet wird.
 
-   +++Beispiel für eine Datei
+   +++Dateibeispiel
 
    ```
    {
