@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 76%
 
 ---
 
@@ -20,6 +20,25 @@ Bei der Entscheidungsfindung dienen Kataloge als zentrale Container für die Org
 Zunächst werden alle erstellten Entscheidungselemente in einem einzigen Katalog „Angebote“ konsolidiert, auf den über das Menü **[!UICONTROL Kataloge]** zugegriffen werden kann.
 
 ![](assets/catalogs-list.png)
+
+## Leitlinien und Einschränkungen
+
+Um eine optimale Leistung und Konsistenz zu gewährleisten, erzwingt Decisioning die folgenden Leitplanken und Einschränkungen:
+
+* **Unterstützte Datentypen**
+
+  Derzeit unterstützt Decisioning ausschließlich die folgenden Datentypen: Zeichenfolge, Ganzzahl, Boolesch, Datum, Datum/Uhrzeit, Decisioning-Asset und Objekt. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
+
+
+* **Benutzerdefinierte Attributbegrenzung**
+
+  Jedes Entscheidungselement kann bis zu 100 benutzerdefinierte Attribute enthalten.
+
+* **Verschachtelungsbeschränkungen**
+
+  Es werden maximal vier Verschachtelungsebenen unterstützt. Bilder werden auf der letzten Ebene nicht unterstützt.
+
+## Zugreifen auf und Bearbeiten des Katalogschemas
 
 Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in dem die Attribute der Entscheidungselemente gespeichert werden:
 
@@ -38,16 +57,14 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 
 1. Füllen Sie die erforderlichen Felder für das hinzugefügte Attribut aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
-   >[!CAUTION]
-   >
-   >Derzeit unterstützt die Entscheidungsfindung ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime und Decisioning Asset. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
-
    Der Wert, der in ein Attribut mit einem Entscheidungs-Asset-Attribut eingegeben wird, ist eine öffentliche URL. In den meisten Fällen würde dies auf ein Bild hinweisen.
 
    Detaillierte Informationen zum Arbeiten mit Adobe Experience Platform-Schemata sind im Abschnitt [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) zu finden.
 
 1. Sobald die gewünschten benutzerdefinierten Attribute hinzugefügt sind, speichern Sie das Schema. Das neue Feld ist jetzt im Bildschirm zur Erstellung von Entscheidungselementen im Abschnitt **[!UICONTROL Benutzerdefinierte Attribute]** verfügbar.
 
->[!NOTE]
->
->Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+
+   Das folgende Beispiel zeigt einen Bildschirm zur Erstellung von Elementen mit benutzerdefinierten Attributen wie Objekten, die im Schema definiert sind.
+
+   ![](assets/custom-attributes.png)
+
