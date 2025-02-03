@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2854'
-ht-degree: 100%
+source-wordcount: '2834'
+ht-degree: 98%
 
 ---
 
@@ -85,8 +85,8 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Eingeben benutzerdefinierter Endpunkte vom Typ „Von der Liste abmelden“"
->abstract="Wählen Sie im Falle einer Einverständnisverwaltung außerhalb von Adobe die Option **Kundenseitig verwaltet** aus, um eine benutzerdefinierte Abmelde-E-Mail-Adresse und Ihre eigene URL zum Abmelden mit einem Klick einzugeben. Beachten Sie hier, dass Adobe keine Abmelde-Informationen speichert. Die verantwortliche Person für die Einverständnisinformationen Ihrer Kundschaft ist für die Verwaltung ihrer Einverständnisdaten und deren Rückübertragung an Journey Optimizer zuständig."
+>title="Definieren, wie Abmeldedaten verwaltet werden"
+>abstract="**Adobe verwaltet**: Einverständnisdaten werden von Ihnen innerhalb des Adobe-Systems verwaltet.<br>**Kundenseitig verwaltet**: Einverständnisdaten werden von Ihnen in einem externen System verwaltet und im Adobe-System wird keine Synchronisierung von Einverständnisdaten aktualisiert, es sei denn, sie werden von Ihnen initiiert."
 
 <!--Do not modify - Legal Review Done -->
 
