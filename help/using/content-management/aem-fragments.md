@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 85%
 
 ---
 
@@ -67,16 +67,9 @@ Nachdem Sie Ihre [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/de/do
 
 1. Wählen Sie ein **[!UICONTROL Inhaltsfragment]** aus der verfügbaren Liste aus, das in Ihren Journey Optimizer-Inhalt importiert werden soll.
 
-   >[!IMPORTANT]
-   >
-   >Es können nur veröffentlichte **[!UICONTROL Inhaltsfragmente]** verwendet werden.
-
 1. Klicken Sie auf **[!UICONTROL Filter anzeigen]**, um Ihre Inhaltsfragmentliste zu optimieren.
 
-   Die Inhaltsfragmentauswahl enthält vorkonfigurierte Filter:
-
-   * **[!UICONTROL Status]**: Veröffentlicht, Geändert
-   * **[!UICONTROL Tag]**: wird automatisch basierend auf Ihrer Journey Optimizer-Umgebung definiert (Organisations-ID und Sandbox)
+   Standardmäßig ist der Inhaltsfragmentfilter so voreingestellt, dass nur genehmigte Inhalte angezeigt werden.
 
    ![](assets/aem_campaign_4.png)
 
@@ -84,7 +77,9 @@ Nachdem Sie Ihre [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/de/do
 
    ![](assets/aem_campaign_5.png)
 
-1. Wählen Sie die gewünschten Felder aus Ihrem **[!UICONTROL Inhaltsfragment]** aus, um sie zu Ihrem Inhalt hinzuzufügen.
+1. Wählen Sie die gewünschten Felder aus Ihrem **[!UICONTROL Inhaltsfragment]** aus, um sie zu Ihrem Inhalt hinzuzufügen. Sie können entweder Ihren Inhalt hinzufügen oder dessen Wert kopieren.
+
+   Beachten Sie, dass zukünftige Aktualisierungen des **[!UICONTROL Inhaltsfragments“ nicht in Ihrer Kampagne oder auf]** Journey widergespiegelt werden, wenn Sie den Wert kopieren.
 
    ![](assets/aem_campaign_6.png)
 
