@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 100%
+source-wordcount: '1593'
+ht-degree: 89%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 >title="Externe Datenquellen"
 >abstract="Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen herstellen, z. B. wenn Sie ein Hotelbuchungssystem verwenden, um zu überprüfen, ob die Person ein Zimmer gebucht hat. Im Gegensatz zur integrierten Adobe Experience Platform-Datenquelle können Sie beliebig viele externe Datenquellen erstellen."
 
+## Arbeiten mit externen Datenquellen {#gs-ext-data-sources}
+
 Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen herstellen, z. B. wenn Sie ein Hotelbuchungssystem verwenden, um zu überprüfen, ob die Person ein Zimmer gebucht hat. Im Gegensatz zur integrierten Adobe Experience Platform-Datenquelle können Sie beliebig viele externe Datenquellen erstellen.
 
 >[!NOTE]
 >
->Schutzmechanismen bei der Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
-
->[!NOTE]
+>* Schutzmechanismen bei der Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 >
->Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
+>* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel sowie einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 
@@ -43,6 +43,9 @@ Im Folgenden finden Sie zwei Beispiele für den API-Aufruf:
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
 Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_), zwei Parametersätzen („city“ für die Stadt und „lat/long“ für den Breiten- und Längengrad) und dem API-Schlüssel (appid).
+
+
+## Erstellen und Konfigurieren einer externen Datenquelle {#create-ext-data-sources}
 
 Im Folgenden finden Sie die wichtigsten Schritte zum Erstellen und Konfigurieren einer neuen externen Datenquelle:
 
@@ -75,9 +78,12 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Erstellen und Konfigurieren
 
    >[!NOTE]
    >
-   >Wenn der Authentifizierungsaufruf erfolgt, wird die in base64 kodierte Zeichenfolge `<username>:<password>` in den Authentifizierungs-Header eingefügt.
+   >* Wenn der Authentifizierungsaufruf erfolgt, wird die in base64 kodierte Zeichenfolge `<username>:<password>` in den Authentifizierungs-Header eingefügt.
+   >
+   >* Adobe Journey Optimizer verschlüsselt in benutzerdefinierten Aktionen definierte geheime Daten automatisch. Die Verschlüsselungsschlüssel jedes Unternehmens werden sicher in einem dedizierten Tresor verwaltet, der mit dem Unternehmen verknüpft ist. Wenn Anmeldeinformationen auf der Benutzeroberfläche angezeigt werden, werden sie standardmäßig maskiert, um versehentliches Offenlegen zu verhindern.
 
-   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den Authentifizierungsmodus „API-Schlüssel“:
+
+   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den Authentifizierungsmodus für den API-Schlüssel wie unten dargestellt:
 
    * **[!UICONTROL Typ]**: „API-Schlüssel“
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)
@@ -108,28 +114,28 @@ Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Fe
 
 ![](assets/journey29.png)
 
-Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden, z. B. in Ihren Bedingungen oder zur Personalisierung einer E-Mail. Wenn die Temperatur über 30 °C liegt, können Sie eine bestimmte Mitteilung versenden.
 
-## Benutzerdefinierter Authentifizierungsmodus{#custom-authentication-mode}
+## Benutzerdefinierter Authentifizierungsmodus {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Über benutzerdefinierte Authentifizierung"
 >abstract="Der benutzerdefinierte Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, um API-Wrapping-Protokolle wie OAuth2 aufzurufen. Die Aktionsausführung erfolgt in zwei Schritten. Zunächst wird der Endpunkt aufgerufen, um das Zugriffstoken zu generieren. Anschließend wird das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt."
 
-Dieser Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, die häufig zum Aufrufen von API-Wrapping-Protokollen wie OAuth2 verwendet wird, um ein Zugriffstoken abzurufen, das in die eigentliche HTTP-Anfrage für die Aktion eingefügt werden soll.
+Der benutzerdefinierte Authentifizierungsmodus wird für die komplexe Authentifizierung verwendet, häufig zum Aufrufen von API-Wrapping-Protokollen wie OAuth2, um ein Zugriffstoken abzurufen, das in die echte HTTP-Anfrage für die Aktion eingefügt werden soll.
 
-Wenn Sie die benutzerdefinierte Authentifizierung konfigurieren, können Sie auf die Schaltfläche unten klicken, um zu überprüfen, ob die Payload der benutzerdefinierten Authentifizierung korrekt konfiguriert ist.
+Wenn Sie die benutzerdefinierte Authentifizierung konfigurieren, verwenden Sie die Schaltfläche **[!UICONTROL Klicken, um die Authentifizierung zu überprüfen]**, um zu steuern, ob die benutzerdefinierte Authentifizierungs-Payload korrekt konfiguriert ist.
 
 ![](assets/journey29-bis.png)
 
-Wenn der Test erfolgreich ist, wird die Schaltfläche grün.
+Nach erfolgreichem Test wird die Schaltfläche grün.
 
 ![](assets/journey29-ter.png)
 
-Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
+Bei diesem Authentifizierungsmodus ist die Ausführung der Aktion ein zweistufiger Prozess:
 
 1. Rufen Sie den Endpunkt auf, um das Zugriffstoken zu generieren.
 1. Rufen Sie die REST-API auf, indem Sie das Zugriffstoken ordnungsgemäß einfügen.
