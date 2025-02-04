@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 92%
 
 ---
 
 # E-Mail-Journey-Bericht {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Seit Apple neue Datenschutzfunktionen für seine native Mail-App eingeführt hat, einschließlich Mail Privacy Protection, können Absender keine Tracking-Pixel mehr verwenden, um Daten von Profilen zu erfassen, die den Mail Privacy Protection von Apple aktiviert haben. Daher kann Adobe Journey Optimizer die Möglichkeit, E-Mail-Öffnungen mithilfe von Tracking-Pixeln zu verfolgen, beeinträchtigen. [Weitere Informationen](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) über die Auswirkungen von Datenschutzänderungen in Apple iOS auf E-Mail-Marketing.
+
+Es wird empfohlen, sich auf Klicks und Konversionsmetriken anstatt auf Öffnungsraten zu konzentrieren, um genauere Einblicke zu erhalten.
+
+>[!ENDSHADEBOX]
 
 ## Versand- vs. Klick-Trend {#delivered-click}
 
