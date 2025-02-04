@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
 # Erste Schritte mit der Entscheidungsfindung {#get-started-experience-decisioning}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="Was ist Entscheidung?"
+>abstract="Die Entscheidungsfindung ist ein neues Tool neben dem Entscheidungs-Management, mit dem Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für jeden Einzelnen bereitstellen können. Für die Verwendung sind zusätzliche Einstellungen erforderlich."
 
 ## Was ist die Entscheidungsfindung? {#about}
 
