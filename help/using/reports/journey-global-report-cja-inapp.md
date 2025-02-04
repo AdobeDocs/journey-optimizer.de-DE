@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 90%
 
 ---
 
 # In-App-Journey-Bericht {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Ihr Journey-Bericht kann Informationen von mehreren Journey gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basierte) in mehreren Journey angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journey teilnimmt, was zu einer Datenüberlappung führen kann.
+
+>[!ENDSHADEBOX]
 
 ## Impression- und Klick-Trend {#impression-click-trend}
 
