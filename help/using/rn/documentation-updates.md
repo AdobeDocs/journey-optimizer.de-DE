@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 97%
+source-wordcount: '5938'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Der Abschnitt **Weiterleitungs-E** Mail) wurde aktualisiert und gibt nun an, dass alle an die Adresse **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail angegeben wird, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md#forward-email)
 
 * Die maximale Größe von kontextuellen Attributen, die an eine API-ausgelöste Kampagnenanfrage übergeben werden, wurde auf 200 KB aktualisiert. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#contextual)
+
+* Es wurde ein neuer Abschnitt zur Seite **Verwalten von Fragmenten** hinzugefügt, in dem beschrieben wird, wie einem Live-Fragment neue Attribute hinzugefügt werden. Auch die gesamte Seite wurde verbessert. [Weitere Informationen](../content-management/manage-fragments.md#adding-new-attributes)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
