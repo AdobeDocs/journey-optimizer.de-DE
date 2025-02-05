@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5938'
+source-wordcount: '5954'
 ht-degree: 96%
 
 ---
@@ -32,6 +32,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die maximale Größe von kontextuellen Attributen, die an eine API-ausgelöste Kampagnenanfrage übergeben werden, wurde auf 200 KB aktualisiert. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#contextual)
 
 * Es wurde ein neuer Abschnitt zur Seite **Verwalten von Fragmenten** hinzugefügt, in dem beschrieben wird, wie einem Live-Fragment neue Attribute hinzugefügt werden. Auch die gesamte Seite wurde verbessert. [Weitere Informationen](../content-management/manage-fragments.md#adding-new-attributes)
+
+* Der Abschnitt „Leitplanken und Einschränkungen“ wurde zur Dokumentation der Tools für Konfliktmanagement und Priorisierung hinzugefügt. [Weitere Informationen](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
