@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Dabei gilt:
 * **Action** ist „Aktivieren“ ODER „Deaktivieren“.
 * **Access token** kann aus der Developer Console abgerufen werden.
 * **API Key** kann aus der Developer Console abgerufen werden.
-* **IMS Org ID** ist Ihre Adobe IMS ORG.
+* **IMS-Organisations** ID: ist Ihre Adobe-Organisation.
 * **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev).
 
 >[!NOTE]
