@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2476'
 ht-degree: 95%
 
 ---
@@ -38,6 +38,15 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
+## Leitplanken für Datensätze {#datasets-guardrails}
+
+Ab Februar 2025 wird in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze das folgende Time-to-Live(TTL)-Limit eingeführt:
+
+* 90 Tage für Daten im Profilspeicher
+* 13 Monate für Daten im Data Lake
+
+Weitere Informationen zu [ Leitplanken finden Sie ](../data/datasets-ttl.md#ttl) Abschnitt „Häufig gestellte Fragen“.
+
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
@@ -54,7 +63,6 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 ### Leitlinien für Web-Kanäle {#web-guardrails}
 
 [!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
-
 
 ## Leitlinien für Subdomains {#subdomain-guardrails}
 

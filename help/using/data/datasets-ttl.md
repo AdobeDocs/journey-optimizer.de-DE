@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
@@ -41,13 +41,11 @@ Diese Änderung betrifft nicht die Erfassung von Tracking-Daten. Versand- und Ö
 
 +++
 
-
 +++ Wirkt sich diese Änderung auf Reaktionsereignisse aus?
 
 Reaktionsereignisse in Journeys sind von dieser Änderung nicht betroffen.
 
 +++
-
 
 +++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
 
