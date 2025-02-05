@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 95%
 
 ---
 
@@ -183,8 +183,11 @@ Bei der Optimierung des Versandzeitpunkts wird versucht, den besten Zeitpunkt f�
 
 +++Wo kann ich die erwartete Sendezeit für jedes Profil sehen?
 
-Sie können das Gesamtergebnis in der Schnittstelle **Profile** einsehen. Für jeden der drei Sätze mit 168 Punktzahlen liegt die Rangliste zwischen -83 und 84. Je höher der Rang ist, desto besser wurde die Zeit für die Interaktion mit der Empfängerin bzw. dem Empfänger ausgewählt. Da Sie den Start und die Dauer einer Journey frei bestimmen können, fällt der beste Rang (84) möglicherweise nicht in dieses Zeitfenster. In diesem Fall wird empfohlen, eine Stunde mit dem höchsten Rangwert auszuwählen.
+Die Ränge in einer „Stunde der Woche“ liegen zwischen -83 und 84, werden jedoch zu einem einzigen Wert zusammengefasst, um das Profil nicht mit 168 verschiedenen Werten zu überladen. Für jede der drei Sätze mit 168 Scores gehen die Ränge von -83 bis 84.
 
+Der Wert wird vom Optimierungsalgorithmus gelesen. Dieser Wert ist nicht für die menschliche Lesbarkeit konzipiert.
+
+Je höher der Rang ist, desto besser wurde die Zeit für die Interaktion mit der Empfängerin bzw. dem Empfänger ausgewählt. Da Sie den Start und die Dauer einer Journey frei bestimmen können, fällt der beste Rang (84) möglicherweise nicht in dieses Zeitfenster. In diesem Fall wird empfohlen, eine Stunde mit dem höchsten Rangwert auszuwählen.
 +++
 
 
