@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
 source-wordcount: '2361'
 ht-degree: 98%
@@ -91,7 +91,7 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
-* Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+* Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5.000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
@@ -207,7 +207,7 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 | API | Entscheidungen pro Sekunde |
 |---------|----------|
 | Decisioning-API-Anfragen | 500 pro Sekunde |
-| Edge Decisioning-API-Anfragen mit Edge-Segmentierung | 1500 pro Sekunde |
+| Edge Decisioning-API-Anfragen mit Edge-Segmentierung | 1.500 pro Sekunde |
 | Edge Decisioning-API-Anfragen ohne Edge-Segmentierung | 5.000 pro Sekunde |
 
 ### Einschränkungen {#offers-limitations}

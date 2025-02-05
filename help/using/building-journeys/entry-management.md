@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Die Verwaltung des Profileintritts hängt von der Art der Journey ab. In Adobe J
 
 * **Zielgruppen-Qualifizierungs**-Journeys: Diese Journeys beginnen mit einem Zielgruppen-Qualifizierungsereignis. Diese Journeys überwachen die Ein- und Austritte von Profilen in Zielgruppen. In diesem Fall tritt das verknüpfte Profil die Journey ein. [Weitere Informationen](#entry-unitary)
 
-Für alle Journey-Typen gilt, dass ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein kann. Um zu überprüfen, ob sich eine Person in einer Journey befindet, wird die Profilidentität als Schlüssel verwendet. Das System lässt nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
+Für alle Journey-Typen gilt, dass ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein kann. Um zu überprüfen, ob sich eine Person in einer Journey befindet, wird die Profilidentität als Schlüssel verwendet. Das System lässt nicht zu, dass sich derselbe Schlüssel, z. B. der `CRMID=3224`, an verschiedenen Stellen auf derselben Journey befindet.
 
 ## Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen{#entry-unitary}
 
