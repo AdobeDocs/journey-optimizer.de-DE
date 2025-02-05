@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe-Begriffe zu generativer KI"
+>title="Bedingungen der generativen KI in Adobe"
 >abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Ausgaben dieser Funktion auf ihre Richtigkeit überprüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI in Adobe"
 
