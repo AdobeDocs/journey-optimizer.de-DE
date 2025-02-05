@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # Schutzmechanismen und Einschränkungen {#limitations}
 
+Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+
 Berechtigungen, Produkteinschränkungen und die Performance betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
 Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} bevor Sie beginnen.
 
-Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+
+>[!NOTE]
+>
+>In seltenen Fällen können temporäre Ausfälle in einer bestimmten Region dazu führen, dass gültige Profile von Journey ausgeschlossen werden oder dass E-Mails fälschlicherweise als Bounces markiert werden. Sobald die Services wiederhergestellt sind, überprüfen Sie die Journey-Protokolle erneut, überprüfen Sie die Einverständnisprofilfelder und veröffentlichen Sie die Journey bei Bedarf erneut. Erfahren Sie in (diesem Abschnitt), wie Sie im Falle eines ISP[Ausfalls Profile aus der Unterdrückungsliste ](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>
 
 ## Unterstützte Browser {#browsers}
 
