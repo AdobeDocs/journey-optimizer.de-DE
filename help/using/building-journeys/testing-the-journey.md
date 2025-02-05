@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1644'
+ht-degree: 91%
 
 ---
 
@@ -61,8 +61,8 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Wichtige Hinweise {#important_notes}
 
-* Im Testmodus können Sie Ereignisse über die Oberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
-* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
+* Im Testmodus können Sie Ereignisse nur über die Benutzeroberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
+* Nur Personen, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen die getestete Journey betreten. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
 * Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
@@ -71,6 +71,8 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
 * Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 * Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
+* Beim Testen von Journey, die mehrere Ereignisse enthalten, müssen Sie jedes Ereignis der Reihe nach mit einem Trigger versehen. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen und das Profil wird an einen maximalen Wartepfad gesendet. Bestätigen Sie immer, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload im definierten Fenster senden
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Erei
 
 >[!NOTE]
 >
->Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
+>* Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
+>
+>*Stellen Sie sicher, dass jedes Ereignis im Testmodus in der richtigen Reihenfolge und innerhalb des konfigurierten Wartefensters ausgelöst wird. Wenn beispielsweise eine Wartezeit von 60 Sekunden vorliegt, muss das zweite Ereignis erst nach Ablauf dieser Wartezeit von 60 Sekunden und vor Ablauf des Timeout-Limits ausgelöst werden.
+>
 
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
+
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
