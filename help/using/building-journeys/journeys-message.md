@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 95%
+source-wordcount: '1324'
+ht-degree: 92%
 
 ---
 
@@ -150,11 +150,14 @@ Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgeno
 >title="Über die Optimierung des Versandzeitpunkts"
 >abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Diese Funktion ist standardmäßig nicht aktiviert. Sie können sich an den Adobe-Support wenden, um sie zu aktivieren.
+>* Die Sendezeitoptimierung ist standardmäßig nicht aktiviert. Sie können sich an den Adobe-Support wenden, um sie zu aktivieren.
 >
->Die Funktion zur Optimierung der Versandzeit gilt nur für E-Mail- und Push-Kanäle.
+>* Für die erstmalige Schulung und Bewertung der Sendezeitoptimierung werden mindestens 1.000 Profile mit aktuellen Messaging-Daten empfohlen.
+>
+>* Die Sendezeitoptimierung gilt nur für die Kanäle **E-Mail** und **Push-Benachrichtigung**.
+
 
 ### Anmerkungen zur Optimierung des Versandzeitpunkts {#about-send-time}
 
