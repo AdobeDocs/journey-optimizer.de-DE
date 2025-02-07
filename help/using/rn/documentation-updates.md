@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Januar 2025 {#jan-2025}
 
-* Es wurde ein neuer Abschnitt zur Option **[!UICONTROL Ausführungsadresse]** in der E-Mail-Konfiguration hinzugefügt. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber die Standardeinstellung kann für eine bestimmte E-Mail-Konfiguration überschrieben werden. [Weitere Informationen](../email/email-settings.md#execution-address)
+* In der E-Mail-Konfiguration wurde ein neuer Abschnitt zur Option **[!UICONTROL Ausführungsadresse]** hinzugefügt. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber die Standardeinstellung kann für eine bestimmte E-Mail-Konfiguration überschrieben werden. [Weitere Informationen](../email/email-settings.md#execution-address)
 
 * Die Seite **Erste Schritte mit der Zustellbarkeit** wurde aktualisiert und bietet nun die Möglichkeit, IP-Aufwärm-Workflows direkt über die Benutzeroberfläche zu erstellen. [Weitere Informationen](../reports/deliverability.md#reputation)
 
-* Der **Kopfzeilenparameter** wurde aktualisiert und enthält jetzt die neuen Beschriftungen und Änderungen an der Benutzeroberfläche. [Weitere Informationen](../email/email-settings.md#email-header)
+* Der Abschnitt **Header-Parameter** wurde aktualisiert und enthält jetzt die neuen Labels und Änderungen an der Benutzeroberfläche. [Weitere Informationen](../email/email-settings.md#email-header)
 
-* Der Abschnitt **Weiterleitungs-E** Mail) wurde aktualisiert und gibt nun an, dass alle an die Adresse **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail angegeben wird, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md#forward-email)
+* Der Abschnitt **Weiterleiten von E-Mails** wurde aktualisiert und gibt nun an, dass alle an die Adresse unter **Von E-Mail** gesendeten E-Mails an die Weiterleitungs-E-Mail-Adresse weitergeleitet werden. Wenn keine Weiterleitungs-E-Mail-Adresse angegeben ist, werden diese E-Mails verworfen. [Weitere Informationen](../email/email-settings.md#forward-email)
 
 * Die maximale Größe von kontextuellen Attributen, die an eine API-ausgelöste Kampagnenanfrage übergeben werden, wurde auf 200 KB aktualisiert. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite **Konfigurieren des Code-basierten Erlebnisses** wurde verbessert, um den Vorgang klarer zu beschreiben. Dazu gehört auch der Abschnitt, in dem erklärt wird, was ein Oberflächen-URI ist. [Mehr dazu](../code-based/code-based-configuration.md)
 * Die Seite **Erstellen einer Web-Kanalkonfiguration** wurde aktualisiert, um die Schritte beim Erstellen einer Regel zum Seitenabgleich zu verdeutlichen, die auch für die Code-basierte Erlebniskonfiguration gelten. [Mehr dazu](../web/web-configuration.md#web-page-matching-rule)
 * Es wurde ein Hinweis zum anstehenden Time-to-Live(TTL)-Limit für systemgenerierte Datensätze hinzugefügt. [Mehr dazu](../data/get-started-datasets.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt auf Ihrem Browser oder auf Ihren Mobilgeräten mit der Option **Vorschau auf dem Gerät** in der Vorschau anzeigen können, wenn Sie Inhalte auf einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie Ihre Code-basierten personalisierten Erlebnisse direkt in Ihrem Browser oder auf Ihren Mobilgeräten mithilfe der Option **Vorschau auf Gerät** anzeigen können, wenn Sie Inhalte in einer Journey oder Kampagne simulieren. [Mehr dazu](../code-based/test-code-based.md#preview-on-device)
 * Es wurde eine neue Seite hinzugefügt, auf der erläutert wird, wie benutzerdefinierte Upload-Zielgruppen für die Entscheidungsfindung genutzt werden können. [Mehr dazu](../offers/custom-upload-decisioning.md)
 * Eine neue Seite wurde hinzugefügt, auf der die in Journey Optimizer verfügbaren Entscheidungsfunktionen vorgestellt werden. [Weitere Informationen](../experience-decisioning/gs-decision.md)
 * Der Dokumentation zur Entscheidungsfindung wurden Schutzmechanismen und Einschränkungen hinzugefügt. [Mehr dazu](../experience-decisioning/gs-experience-decisioning.md#guardrails)
