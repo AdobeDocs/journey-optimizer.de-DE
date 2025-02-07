@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 92%
 
 ---
@@ -152,7 +151,7 @@ Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Z
 
 Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
 
-### [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Flexible Zielgruppenbewertung (Eingeschränkte Verfügbarkeit) {#flexible}
+### [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Flexible Zielgruppenbewertung {#flexible}
 
 >[!AVAILABILITY]
 >
