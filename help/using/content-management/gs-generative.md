@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Bedingungen der generativen KI in Adobe"
+>title="Adobe-Begriffe zu generativer KI"
 >abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Ausgaben dieser Funktion auf ihre Richtigkeit überprüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI in Adobe"
 
@@ -81,7 +81,7 @@ Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff
 
 Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des Content Accelerator des KI-Assistenten in Adobe Journey Optimizer für die E-Mail-Generierung aufgeführt:
 
-* Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel / die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie einen gut definierten Prompt, damit das GenAI-Modell diesen korrekt interpretieren kann. 
+* Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen gut definierten Prompt, damit das GenAI-Modell diesen korrekt interpretieren kann. 
 * Laden Sie Marken-Assets hoch, damit die Informationen über Markeninhalte exakt sind. Andernfalls basieren die Inhalte auf öffentlich verfügbaren Informationen. Die hochgeladenen Inhalte können die folgenden Formate aufweisen: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
 * Verwenden Sie eine markenspezifische oder benutzerdefinierte Vorlage, um E-Mail-Inhalte mit dem Content Accelerator des KI-Assistenten in Adobe Journey Optimizer zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.

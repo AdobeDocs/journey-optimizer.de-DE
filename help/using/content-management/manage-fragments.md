@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Verwalten von Fragmenten {#manage-fragments}
 
-## Zugriff auf Fragmente {#access-fragments}
+## Zugeifen auf Fragmente {#access-fragments}
 
 Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
 
@@ -37,12 +37,12 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 
 Über die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben jedem Fragment können Sie Folgendes ausführen:
 
-* Fügen Sie es einem Paket für den Export hinzu. [Weitere Informationen](#export)
-* Wenn ein Live-Fragment bearbeitet wird, öffnen Sie die Entwurfsversion dieses Fragments. [Weitere Informationen](#edit-fragments)
-* Kopieren Sie das Fragment.
+* Fügen Sie das Fragment einem Paket für den Export hinzu. [Weitere Informationen](#export)
+* Öffnen Sie beim Bearbeiten eines Live-Fragments die Entwurfsversion dieses Fragments. [Weitere Informationen](#edit-fragments)
+* Duplizieren Sie das Fragment.
 * Verwenden Sie die Option **[!UICONTROL Verweise erkunden]**, um die Journeys, Kampagnen oder Vorlagen anzuzeigen, in denen es verwendet wird. [Weitere Informationen](#explore-references)
 * Archivieren Sie das Fragment. [Weitere Informationen](#archive-fragments)
-* Bearbeiten Sie die Tags des Fragments. [Erfahren Sie, wie Sie mit einheitlichen Tags arbeiten](../start/search-filter-categorize.md#tags)
+* Bearbeiten Sie die Tags eines Fragments. [Informationen zum Arbeiten mit einheitlichen Tags](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
@@ -51,7 +51,7 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Status von neuen Fragmenten"
->abstract="Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. <br/>Für die Veröffentlichung ist die Benutzerberechtigung <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Fragment veröffentlichen</a> erforderlich."
+>abstract="Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**. Dies gilt auch dann, wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. <br/>Für die Veröffentlichung ist die Benutzerberechtigung <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Fragment veröffentlichen</a> erforderlich."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Weitere Informationen zu den Berechtigungen für Inhaltsfragmente"
 
 Fragmente können mehrere Status aufweisen:
@@ -67,7 +67,7 @@ Fragmente können mehrere Status aufweisen:
 
 >[!CAUTION]
 >
->Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) erforderlich.
+>Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**. Dies gilt auch dann, wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) erforderlich.
 
 ## Bearbeiten eines Fragments {#edit-fragments}
 
@@ -83,9 +83,9 @@ Fragmente können mehrere Status aufweisen:
 
 Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
-1. Klicken Sie in der Liste „Fragmente **[!UICONTROL auf]** gewünschte Fragment. Der Bildschirm mit den Fragmenteigenschaften wird mit einer Vorschau des Inhalts geöffnet.
+1. Klicken Sie in der Liste **[!UICONTROL Fragmente]** auf das gewünschte Fragment. Der Bildschirm „Fragmenteigenschaften“ wird mit einer Vorschau des zugehörigen Inhalts geöffnet.
 
-1. Sie können die Liste der Journey, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird. Wählen Sie dazu die Option **[!UICONTROL Verweise erkunden]** aus der Schaltfläche Mehr . [Weitere Informationen](#explore-references)
+1. Sie können die Liste der Journeys, Kampagnen und Inhaltsvorlagen überprüfen, in denen das Fragment derzeit verwendet wird. Wählen Sie dazu über die Schaltfläche „Weitere Aktionen“ die Option **[!UICONTROL Verweise durchsuchen]** aus. [Weitere Informationen](#explore-references)
 
 1. Wenn das in Bearbeitung befindliche Fragment den Status **[!UICONTROL Live]** aufweist, klicken Sie auf die Schaltfläche **[!UICONTROL Ändern]**, um eine Entwurfsversion des Fragments zu erstellen. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
@@ -93,21 +93,21 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
    >[!NOTE]
    >
-   >Die aktuelle Version des Fragments bleibt so lange live, bis Sie die neue aktualisierte Version veröffentlichen.
+   >Die aktuelle Version des Fragments ist weiterhin live, bis Sie die neu aktualisierte Version veröffentlichen.
 
 1. Nehmen Sie bei Bedarf die gewünschten Änderungen an den Fragmentdetails vor.
 
-1. Um den Inhalt des Fragments zu ändern, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** und aktualisieren Sie Ihren Inhalt so, wie Sie es bei der Neuerstellung eines Fragments tun würden. [Informationen zum Erstellen eines Fragments](create-fragments.md#content)
+1. Um den Fragmentinhalt zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** und aktualisieren Sie dann den Inhalt wie beim Erstellen eines neuen Fragments. [Informationen zum Erstellen eines Fragments](create-fragments.md#content)
 
    ![](assets/fragment-edit.png){width="70%" align="left"}
 
    >[!NOTE]
    >
-   >Beim Bearbeiten eines veröffentlichten Fragments können Sie jedes Personalisierungsfeld entfernen, aber keine neuen zum Fragmentinhalt hinzufügen. Wenn Sie personalisierte Attribute hinzufügen möchten, müssen Sie das Fragment duplizieren. [Weitere Informationen](#adding-new-attributes)
+   >Beim Bearbeiten eines veröffentlichten Fragments können Sie jedes Personalisierungsfeld entfernen, jedoch keine neuen Felder zum Fragmentinhalt hinzufügen. Wenn Sie personalisierte Attribute hinzufügen möchten, müssen Sie das Fragment duplizieren. [Weitere Informationen](#adding-new-attributes)
 
-1. Sobald Ihre Änderungen fertig sind, speichern Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Publish]**, um Ihre Änderungen live zu schalten. [Weitere Informationen](create-fragments.md#publish)
+1. Sobald Ihre Änderungen fertig sind, speichern Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um Ihre Änderungen live zu schalten. [Weitere Informationen](create-fragments.md#publish)
 
-Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journey und -Kampagnen - mit Ausnahme von Inhalten, bei denen die Vererbung vom Originalfragment unterbrochen wurde.
+Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journeys und Kampagnen. Davon ausgenommen sind Inhalte, bei denen Sie die Vererbung vom ursprünglichen Fragment unterbrochen haben. 
 
 >[!NOTE]
 >
@@ -119,30 +119,30 @@ Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle In
 >
 >Das Hinzufügen neuer [personalisierter Attribute](../personalization/personalization-build-expressions.md) zu einem Live-Fragment wird nicht unterstützt.
 
-Nach der Veröffentlichung eines Fragments wird der Satz personalisierter oder kontextueller Attribute für alle Kampagnen und Journey gesperrt, die darauf verweisen.
+Nach der Veröffentlichung eines Fragments wird der Satz personalisierter oder kontextueller Attribute für alle Kampagnen und Journeys gesperrt, die darauf verweisen.
 
 Gehen Sie wie folgt vor, um zusätzliche Attribute in ein Live-Fragment einzubinden.
 
-1. Duplizieren Sie das vorhandene Fragment mithilfe der Schaltfläche **[!UICONTROL Mehr Aktionen]** .
+1. Duplizieren Sie das vorhandene Fragment mithilfe der Schaltfläche **[!UICONTROL Weitere Aktionen]**.
 
    ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
-1. Wählen Sie das duplizierte Fragment aus, um es zu öffnen, und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie das duplizierte Fragment aus, um es zu öffnen, und klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
-1. [Fügen Sie die neuen gewünschten Attribute](../personalization/personalization-build-expressions.md#add) zum duplizierten Fragment hinzu, z. B. Personalisierungsfelder.
+1. [Fügen Sie die neuen gewünschten Attribute zum duplizierten Fragment hinzu](../personalization/personalization-build-expressions.md#add), z. B. Personalisierungsfelder.
 
    ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
 
 1. Speichern Sie Ihre Änderungen und veröffentlichen Sie das neue Fragment. [Weitere Informationen](create-fragments.md#publish)
 
-1. Aktualisieren Sie alle Kampagnen oder Journey, um auf das aktualisierte Fragment zu verweisen, in dem die neuen Attribute hinzugefügt wurden.
+1. Aktualisieren Sie alle Kampagnen oder Journeys, um auf das aktualisierte Fragment zu verweisen, dem die neuen Attribute hinzugefügt wurden.
 
    * [Erfahren Sie, wie Sie visuelle Fragmente verwenden](../email/use-visual-fragments.md)
    * [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../personalization/use-expression-fragments.md)
 
 ## Erkunden der Verweise {#explore-references}
 
-Sie können die Liste aller Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden.  Wählen Sie dazu **[!UICONTROL Verweise erkunden]** aus dem Menü **[!UICONTROL Mehr Aktionen]** entweder in der Fragmentliste oder im Bildschirm mit den Fragmenteigenschaften.
+Sie können die Liste aller Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden.  Wählen Sie dazu entweder über das Menü **[!UICONTROL Weitere Aktionen]** in der Fragmentliste oder im Bildschirm „Fragmenteigenschaften“ die Option **[!UICONTROL Verweise durchsuchen]** aus.
 
 ![](assets/fragment-explore-references.png){width="70%" align="left"}
 
@@ -174,4 +174,4 @@ Um die Archivierung eines Fragments aufzuheben, filtern Sie nach **[!UICONTROL a
 
 Mit Journey Optimizer können Sie ein Fragment von einer Sandbox in eine andere kopieren. Sie können beispielsweise ein Fragment aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
 
-Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen zum Exportieren von Objekten und Importieren in eine Ziel-Sandbox finden Sie in diesem Abschnitt [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md).
+Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen darüber, wie Sie Objekte exportieren und in eine Ziel-Sandbox importieren, finden Sie in diesem Abschnitt: [Kopieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md).
