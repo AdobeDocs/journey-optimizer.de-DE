@@ -1,21 +1,19 @@
 ---
 title: Anwendungsfall für die Entscheidungsfindung
-description: Erfahren Sie, wie Sie Entscheidungen mithilfe von Experimenten mit dem Code-basierten Kanal erstellen.
+description: Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal Entscheidungen erstellen und in Inhaltsexperimenten verwenden
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 96%
 
 ---
 
-# Anwendungsfall für die Entscheidungsfindung {#experience-decisioning-uc}
+# Verwenden von Decisioning in einem Code-basierten Erlebnis mit Inhaltsexperiment {#experience-decisioning-uc}
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
 

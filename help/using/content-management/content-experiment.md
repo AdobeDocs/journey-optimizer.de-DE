@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,8 @@ Jede Person in der Zielgruppe erhält eine Version der E-Mail mit einer der beid
 Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-Variante interagieren. Wir wählen daher in diesem Inhaltsexperiment **[!UICONTROL Geöffnete E-Mails]** als primäre Zielmetrik aus.
 
 ![](assets/content_experiment.png)
+
+➡️ Erfahren Sie in diesem Anwendungsfall, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit [ Code-basierten Erlebniskanal ](experience-decisioning-uc.md).
 
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 
@@ -125,3 +127,4 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 1. Sobald Sie den Inhalt Ihrer Nachricht definiert haben, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering Ihres Versands zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../content-management/preview-test.md)
 
 Nach der Konfiguration Ihrer Experimente können Sie mit dem Bericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report-cja-experimentation.md)
+
