@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
+
+➡️ Ein Anwendungsfall, der vollständig zeigt, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit dem Code-basierten Erlebniskanal vergleichen können, wird in [diesem Abschnitt](experience-decisioning-uc.md) vorgestellt.
 
 ## Verwendung von Code-basierten anstelle von anderen Kanälen {#code-based-vs-other-channels}
 
@@ -136,6 +138,4 @@ Nachstehend finden Sie die wichtigsten Schritte zur Erstellung und Bereitstellun
    >[!INFO]
    >
    >Um das zu gewährleisten, erstellt das App-Implementierungs-Team explizite API- oder SDK-Aufrufe, um Inhalte für die in der Code-basierten Konfiguration definierten Oberfläche abzurufen, z. B. „Bannertext“ oder „Empfehlungsablage 1“, oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. „Suchalgorithmusparameter“. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [Weitere Informationen](code-based-implementation-samples.md)
-
-
 
