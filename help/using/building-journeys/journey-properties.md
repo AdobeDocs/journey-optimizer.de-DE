@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2232'
+ht-degree: 97%
 
 ---
 
@@ -273,7 +273,7 @@ Eine Marketing-Fachperson hat eine Werbe-Journey, die eine Reihe von Kommunikati
 
 ### Konfiguration und Verwendung {#exit-criteria-config}
 
-Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Ausstiegskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR`-Logik. Wenn Sie also Ausstiegskriterien A und Ausstiegskriterien B haben, wird es als A **ODER** B ausgewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
+Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Beendigungskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR` Logik. Wenn Sie also Ausstiegskriterium A und Ausstiegskriterium B haben, wird es als A **OR** B bewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
 
 Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
@@ -285,8 +285,8 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 
-* Bei Ausstiegskriterien, die auf einem Ereignis basieren, wählen Sie nur ein unitäreres Ereignis aus.
-* Bei Ausstiegskriterien, die auf einer Zielgruppe basieren, wählen Sie eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
+Wählen Sie für Beendigungskriterien, die auf einem Ereignis basieren, nur ein unitäres Ereignis aus.
+Bei Ausstiegskriterien, die auf einer Zielgruppe basieren, wählen Sie eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
 
 Sie können mehrere Ausstiegskriterien hinzufügen.
 
