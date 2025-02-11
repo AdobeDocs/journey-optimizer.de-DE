@@ -1,0 +1,92 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Informationen zu Adobe Experience Platform-Zielgruppen
+description: Erfahren Sie, wie Sie mit Adobe Experience Platform-Zielgruppen arbeiten.
+feature: Audiences, Profiles
+topic: Content Management
+role: User
+level: Beginner
+exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
+source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 96%
+
+---
+
+# Verwenden von Zielgruppen-Anreicherungsattributen {#enrichment}
+
+Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder der Komposition föderierter Zielgruppen generiert wurde, können Sie Anreicherungsattribute von diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
+
+>[!NOTE]
+>
+>Zielgruppen, die vor dem 1. Oktober 2024 über den benutzerdefinierten Upload einer CSV-Datei erstellt wurden, können nicht personalisiert werden. Um Attribute aus diesen Zielgruppen zu verwenden und diese Funktion voll auszunutzen, erstellen Sie bitte alle externen CSV-Zielgruppen, die vor diesem Datum importiert wurden, neu und laden Sie sie erneut hoch.
+>
+>Einverständnisrichtlinien unterstützen keine Anreicherungsattribute. Daher sollten sich alle Regeln für Einverständnisrichtlinien nur auf Attribute stützen, die im Profil zu finden sind.
+
+Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgruppen durchführen können:
+
+* **Erstellen Sie in einer Journey mehrere Pfade** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe einer Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in einer Aktivität [Bedingung](../building-journeys/condition-activity.md), die auf den Anreicherungsattributen der Zielgruppe basiert.
+
+  ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
+
+* **Personalisieren Sie Ihre Nachrichten** in Journeys oder Kampagnen, indem Sie im Personalisierungseditor Anreicherungsattribute aus der Zielgruppe hinzufügen. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden.
+>
++++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
+>
+1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
+1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
+1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
+1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
+1. Speichern Sie Ihre Änderungen.
+1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
+>
+Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
+>
+* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
+* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
+>
++++
+
+
+
+
+
+
+
++++ Was sind Anreicherungsattribute?
+
+Anreicherungsattribute sind zusätzliche Attribute, die kontextuell und spezifisch für eine Zielgruppe sind. Sie sind nicht mit dem Profil verknüpft und werden normalerweise zu Personalisierungszwecken verwendet.
+
+Anreicherungsattribute werden mit einer Zielgruppe über eine Aktivität des Typs Anreicherung in der Zielgruppenkomposition oder über den benutzerdefinierten Upload-Prozess verknüpft.
+
++++
+
++++ Wo kann ich Anreicherungsattribute in Journey Optimizer verwenden?
+
+Anreicherungsattribute aus der Zielgruppenkomposition können in den folgenden Bereichen genutzt werden. [Erfahren Sie, wie Sie Zielgruppenanreicherungsattribute verwenden](#enrichment)
+
+* Bedingungsaktivität (Journeys)
+* Benutzerdefinierte Aktionsattribute (Journeys)
+* Nachrichtenpersonalisierung (Journeys und Kampagnen)
+
++++
+
++++ Wie aktiviere ich Anreicherungsattribute in Journeys?
+
+Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden. Informationen zum Hinzufügen von Anreicherungsattributen zu einer Feldgruppe finden Sie in [diesem Abschnitt](#enrichment)
+
++++
+
++++ Werden Anreicherungsattributwerte aktualisiert, nachdem eine Journey gestartet wurde?
+
+Derzeit nicht. Selbst nach Warten- oder Ereignisknoten bleiben die Anreicherungsattributwerte dieselben wie zum Startzeitpunkt der Journey.
+
++++

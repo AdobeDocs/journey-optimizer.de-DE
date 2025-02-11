@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -374,14 +374,13 @@ ht-degree: 100%
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
-      + [Benutzerdefinierter Upload (CSV) und Komposition föderierter Zielgruppen](using/audience/custom-upload-fac.md)
-      + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
-      + Erstellen von Zielgruppen {#audience-orchestration}
-         + [Erste Schritte mit der Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
-         + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
-         + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
-         + [Zugreifen auf und Verwalten von Zielgruppen](using/audience/access-audiences.md)
-      + [Komposition föderierter Zielgruppen](https://experienceleague.adobe.com/de/docs/federated-audience-composition/using/home)
+      + Erstellen von Zielgruppen {#create}
+         + [Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
+         + [Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
+         + [Benutzerdefinierter Upload](using/audience/custom-upload.md)
+         + [Federated Audience Composition (eingeschränkte Verfügbarkeit)](using/audience/federated-audience-composition.md)
+      + [Zielgruppenaktivierung in Kampagnen und Journey](using/audience/target-audiences.md)
+      + [Anreicherungsattribute nutzen](using/audience/enrichment-attributes.md)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
