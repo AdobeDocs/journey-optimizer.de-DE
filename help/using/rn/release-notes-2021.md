@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <td>
 <p>Senden Sie mit Adobe Journey Optimizer Ihre Push-Benachrichtigung oder E-Mail automatisch zum besten Zeitpunkt für jeden Kunden. Die Optimierung des Versandzeitpunktes basiert auf den KI-Services von Adobe und sagt den besten Versandzeitpunkt für E-Mails oder Push-Benachrichtigungen voraus. Dadurch werden die Interaktionen auf der Grundlage historischer Öffnungs- und Klickraten automatisch maximiert.</p>
 <p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journeys-message.md#send-time-optimization">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/send-time-optimization.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

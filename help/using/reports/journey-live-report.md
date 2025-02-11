@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 100%
@@ -357,7 +357,7 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** sind nur verfügbar, wenn die Option „Versandzeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Versandzeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die Widgets **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** sind nur verfügbar, wenn die Option „Versandzeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Versandzeitoptimierung finden Sie auf [dieser Seite](../building-journeys/send-time-optimization.md).
 
 Die Widgets **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** zeigen den Erfolg Ihrer E-Mails in Abhängigkeit von der Versandmethode an: optimiert oder normal.
 

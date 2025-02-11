@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn Sie eine Push-Benachrichtigung aus einer Journey heraus versenden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um den besten Zeitpunkt für den Versand der Nachricht vorherzusagen und so die Kundenbindung basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie man mit der Sendezeitoptimierung arbeitet](../building-journeys/journeys-message.md#send-time-optimization)
+   >Wenn Sie eine Push-Benachrichtigung aus einer Journey heraus versenden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um den besten Zeitpunkt für den Versand der Nachricht vorherzusagen und so die Kundenbindung basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie man mit der Sendezeitoptimierung arbeitet](../building-journeys/send-time-optimization.md)
 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Um eine E-Mail in [!DNL Journey Optimizer] zu erstellen, fügen Sie eine **[!UIC
 
 >[!NOTE]
 >
->Sie können die Option „Optimierung des Versandzeitpunkt“ verwenden, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/journeys-message.md#send-time-optimization)
+>Sie können die Option „Optimierung des Versandzeitpunkt“ verwenden, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/send-time-optimization.md)
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 

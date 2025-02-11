@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # Dokumentationsaktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgeführt.
+
+
+## Februar 2025 {#feb-2025}
+
+* Die Dokumentation zur **[!UICONTROL Sendezeitoptimierung]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
+* Es wurden neue Schutzmechanismen für Journey-Ereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 
 ## Januar 2025 {#jan-2025}
 
@@ -99,7 +105,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurden Informationen zur Identitätserstellung mit benutzerdefinierten Namespaces beim Arbeiten mit von APIs ausgelösten Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
 * Die Screenshots wurden aktualisiert, um die verbesserte Journey-Arbeitsfläche widerzuspiegeln.
 * Die Namensbeschränkungen wurden auf den folgenden Seiten aktualisiert: [Konfigurieren eines unitären Ereignisses](../event/about-creating.md), [Konfigurieren eines Geschäftsereignisses](../event/about-creating-business.md#gs-business-events), [Konfigurieren einer benutzerdefinierten Aktion](../action/about-custom-action-configuration.md#configuration-steps), [Externe Datenquellen](../datasource/external-data-sources.md)
-* Es wurde ein Hinweis zur Verfügbarkeit der Sendezeitoptimierung hinzugefügt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
+* Es wurde ein Hinweis zur Verfügbarkeit der Sendezeitoptimierung hinzugefügt. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Es wurde ein neuer technischer Anwendungsfall hinzugefügt, in dem beschrieben wird, wie eine benutzerdefinierte Aktion zum Senden von Daten an Experience Platform erstellt wird.  [Weitere Informationen](../building-journeys/custom-action-aep.md)
 
 ## März 2024 {#march-2024}
@@ -358,7 +364,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite mit der Zulassungsliste wurde in den Abschnitt „Konfiguration“ verschoben. [Weitere Informationen](../configuration/allow-list.md)
 * Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu verdeutlichen, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Feld für den Unterdrückungsgrund zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
 * Der Link zu Leitplanken und statischen Limits für das Entscheidungs-Management wurde hinzugefügt. [Weitere Informationen](../start/guardrails.md)
-* Die Sendezeitoptimierung ist jetzt für alle Kundinnen und Kunden verfügbar. Die Erwähnung der Betaversion wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
+* Die Sendezeitoptimierung ist jetzt für alle Kundinnen und Kunden verfügbar. Die Erwähnung der Betaversion wurde entfernt. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Die Batch Decisioning-API wurde zur Liste der verfügbaren APIs für die Bereitstellung personalisierter Angebote hinzugefügt. [Weitere Informationen](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
