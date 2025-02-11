@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 96%
 <p>Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. Mit dieser neuen Funktion können Sie Ihren Reporting-Prozess mit vordefinierten Vorlagen optimieren, die auf Ihre Analyseanforderungen zugeschnitten sind.
 </p>
 <p>Weitere Informationen finden Sie in der <a href="../reports/report-cja-manage.md#cja-template">ausführlichen Dokumentation</a>.</p>
-<p> Die Funktionalität <b>Vorlage</b> wird schrittweise in Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit für Ende Januar geplant ist.</p>
+<p>Verfügbarkeitsdatum: ab 15. Januar 2025</p>
 </tr>
 </tbody>
 </table>
@@ -53,7 +53,8 @@ ht-degree: 96%
 <p>Mit der flexiblen Zielgruppenauswertung können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journey und -Kampagnen aufnehmen.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Weitere Informationen finden Sie in der <a href="../audience/about-audiences.md#flexible">ausführlichen Dokumentation</a>.</p>
-<p> Eine flexible Zielgruppenauswertung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p> Eine flexible Zielgruppenauswertung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Verfügbarkeitsdatum: 28. Januar 2025</p>
 </tr>
 </tbody>
 </table>
