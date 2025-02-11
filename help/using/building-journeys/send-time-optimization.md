@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
+source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 13%
+source-wordcount: '1505'
+ht-degree: 11%
 
 ---
 
 # Optimierung des Versandzeitpunkts{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="Über die Optimierung des Versandzeitpunkts"
->abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
