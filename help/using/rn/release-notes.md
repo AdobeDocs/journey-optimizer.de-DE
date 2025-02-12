@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates für Januar 2025 {#25-01-rn}
+## Neueste Updates &#39;25 {#25-01-rn}
+
+### Verbesserung im Februar {#25-02-improvements}
+
+Die folgende Verbesserung wird mit dem Update vom Februar vorgenommen.
+
+**E-Mail-**: Verfügbarkeitsdatum: 10. Februar 2025
+
+* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+
+### Neue Funktionen {#25-01-features}
+
+Die im Januar veröffentlichten neuen Funktionen werden im Folgenden beschrieben.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### Verbesserungen {#25-01-improvements}
+### Januar-Verbesserungen {#25-01-improvements}
 
-Diese Version enthält die unten aufgeführten Verbesserungen.
+Die im Januar veröffentlichten Verbesserungen sind unten aufgeführt.
 
 **Entscheidungsfindung**
 

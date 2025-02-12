@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Ihre [E-Mail-Konfigurationseinstellungen](email-settings.md#list-unsubscribe) mit einer automatisch generierten URL zum Abmelden mit einem Klick und der Mailto-Adresse in der E-Mail-Kopfzeile konfigurieren oder eine Ein-Klick-Abmelde-URL in Ihren E-Mail-Textkörper einfügen.
 
-Wenn eine Empfängerin oder ein Empfänger auf den Ein-Klick-Ausschluss-Link klickt, wird die Abmeldeanfrage dieser Person entsprechend verarbeitet.
+Wenn ein Empfänger auf den Ein-Klick-Opt-out-Link klickt, wird die Abmeldeanfrage dieses Empfängers entsprechend verarbeitet.
 
 ### URL zum Abmelden mit einem Klick in der E-Mail-Kopfzeile {#unsubscribe-header}
 
@@ -145,7 +145,7 @@ Abfrageparameter:
 * **params**: enthält die verschlüsselte Payload
 * **pid**: verschlüsselte Profil-ID
 
-Diese drei Parameter werden in die URL der Drittanbieter-Landingpage eingefügt, die an Ihren Empfänger gesendet wird:
+Diese beiden Parameter werden in die URL der Drittanbieter-Landingpage eingefügt, die an Ihren Empfänger gesendet wird:
 
 ![](assets/opt-out-parameters.png)
 
