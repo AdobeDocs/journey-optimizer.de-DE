@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 83%
+source-wordcount: '491'
+ht-degree: 58%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 83%
 >title="Integrierte Kanalaktion"
 >abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine ausgehende Aktivität (E-Mail, Textnachricht (SMS/MMS), Push) oder eine eingehende Aktivität (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versandt."
 
-[!DNL Journey Optimizer] verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine ausgehende Aktivität (E-Mail, Textnachricht (SMS/MMS), Push) oder eine eingehende Aktivität (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versandt.
+[!DNL Journey Optimizer] verfügt über integrierte Kanalaktionsfunktionen, mit denen Nachrichten gesendet werden: Wenn ein Profil diese Aktivität beginnt, wird eine Nachricht an es gesendet.
+
+Um eine integrierte Kanalaktion zu Ihrem Journey hinzuzufügen, ziehen Sie eine Kanalaktivität per Drag-and-Drop und definieren Sie deren Einstellungen und Inhalte. Sie wird dann im Rahmen der Journey ausgeführt und versandt.
 
 >[!NOTE]
 >
->Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
+>Sie können auch benutzerdefinierte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
+
+## Hinzufügen einer Nachricht zu einer Journey  {#add-msg-in-journey}
+
+Mit integrierten Kanalaktionen können Sie ausgehende oder eingehende Nachrichten konfigurieren. Unterstützte eingehende Kanäle sind E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigungen. Unterstützte ausgehende Kanäle sind In-App, Web, Code-basiertes Erlebnis, Inhaltskarte.
 
 Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
 
-1. Ziehen Sie aus dem Bereich **Aktionen** der Palette eine ausgehende Aktivität (**E-Mail**, **Push**, **SMS**) oder eine eingehende Aktivität (**In-App**, **Web**, **Code-basiertes Erlebnis**, **Inhaltskarte**) auf die Arbeitsfläche.
+1. Ziehen Sie aus dem **Aktionen** der Palette eine Kanalaktivität in die Arbeitsfläche.
 
    ![](assets/journey-web-activity.png)
 
-1. Konfigurieren Sie Ihre Aktivität. 
 
-   * Erfahren Sie im Detail, wie Sie Ihre Nachrichteninhalte erstellen:
+1. Konfigurieren Sie Ihre Aktivität. Detaillierte Konfigurationsrichtlinien finden Sie unter den folgenden Links.
+
+   * Erfahren Sie wie folgt, wie Sie eine ausgehende Aktion erstellen:
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -121,7 +128,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
      >Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](wait-activity.md#auto-wait-node)
 
 
-## Aktualisieren von Live-Inhalten {#update-live-content}
+## Live-Inhalt aktualisieren {#update-live-content}
 
 Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktualisieren.
 
