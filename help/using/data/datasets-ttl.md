@@ -9,7 +9,7 @@ level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
