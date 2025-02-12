@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 83%
 
 ---
 
@@ -72,6 +72,10 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >Für E-Mails und Push-Benachrichtigungen können Sie die Sendezeitoptimierung aktivieren. [Weitere Informationen](send-time-optimization.md)
+
    * Erfahren Sie im Detail, wie Sie Ihre eingehende Aktion erstellen:
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
      >[!NOTE]
      >
-     >Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+     >Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](wait-activity.md#auto-wait-node)
 
-## Empfehlung {#recommendation}
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie jedoch die Verbindung zu einem Drittsystem konfigurieren, um Nachrichten oder API-Aufrufe zu versenden.
-
-* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
-
-* Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
-
-   * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
-
-## Aktualisieren von Live-Inhalten{#update-live-content}
+## Aktualisieren von Live-Inhalten {#update-live-content}
 
 Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktualisieren.
 
@@ -137,8 +131,19 @@ Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktu
 
 Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
 
-Wenn Sie Kontextdaten geändert haben, wird die folgende Fehlermeldung angezeigt: ERR_AUTHORING_JOURNEYVERSION_201
+Wenn Sie kontextuelle Daten geändert haben, wird die folgende Fehlermeldung angezeigt: `ERR_AUTHORING_JOURNEYVERSION_201`
 
-Wenn Sie Profilattribute geändert haben, wird die folgende Fehlermeldung angezeigt: ERR_AUTHORING_JOURNEYVERSION_202
+Wenn Sie Profilattribute geändert haben, wird die folgende Fehlermeldung angezeigt: `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgenommen werden können, während die Journey live ist. In-App-Trigger können jedoch nicht geändert werden.
+
+## Mit benutzerdefinierten Aktionen senden {#recommendation}
+
+Anstatt die integrierten Nachrichtenfunktionen zu verwenden, können Sie benutzerdefinierte Aktionen verwenden, um die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen zu konfigurieren.
+
+* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
+
+* Wenn Sie mit Adobe Campaign arbeiten, lesen Sie diese Abschnitte:
+
+   * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
