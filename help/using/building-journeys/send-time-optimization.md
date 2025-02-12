@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
+source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1485'
 ht-degree: 11%
 
 ---
@@ -33,30 +33,24 @@ ht-degree: 11%
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
 >abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
 
-
 Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den Journey-KI-Services von Adobe und wählt den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kunden zu maximieren.
 
 Die Sendezeitoptimierung ist nur für die integrierten Aktionstypen E-Mail und Push von Journey Optimizer verfügbar und derzeit nicht für Nachrichten, die über benutzerdefinierte Aktionen oder für andere Aktionstypen gesendet werden. Die Sendezeitoptimierung ist nur für E-Mail- und Push-Aktionen in Journeys verfügbar und derzeit nicht für Nachrichten, die über Kampagnen gesendet werden.
 
 >[!AVAILABILITY]
 >
->* Für die erstmalige Schulung und Bewertung der Sendezeitoptimierung werden mindestens 1.000 Profile mit aktuellen Messaging-Daten empfohlen.
+>* Die Sendezeitoptimierungsfunktion ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Adobe-Kundenunterstützung oder den Adobe-Support, um die Funktion für Ihr Unternehmen zu aktivieren.
 >
 >* Die Sendezeitoptimierung gilt nur für die Kanäle **E-Mail** und **Push-Benachrichtigung**.
-
-## Optimierung des Versandzeitpunkts aktivieren{#enable-send-time-optimization}
-
-Die Sendezeitoptimierungsfunktion ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Adobe-Kundenunterstützung oder den Adobe-Support, um die Funktion für Ihr Unternehmen zu aktivieren.
+>
 
 ## Verwenden der Sendezeitoptimierung{#use-send-time-optimization}
 
 Verwenden Sie die Sendezeitoptimierung für eine E-Mail- oder Push-Aktion, indem Sie den Umschalter Sendezeitoptimierung in den Aktionsparametern aktivieren.
 
-![](assets/sto-use.png)
+![](assets/jo-message5.png)
 
->[!TIP]
->
->Die Sendezeitoptimierung sollte nicht für dringende, zeitkritische Betriebsnachrichten verwendet werden - z. B. eine Bestellbestätigung, eine Benachrichtigung zum Zurücksetzen des Kennworts oder eine Benachrichtigung über eine Änderung des Fluggatters. Die Optimierung des Versandzeitpunkts eignet sich am besten für weniger dringende Marketing-Nachrichten, z. B. eine wöchentliche Anzeige, Werbeinformationen zu einem neuen Produkt oder Informationen zu einem einmonatigen Verkauf.
+Die Sendezeitoptimierung sollte nicht für dringende, zeitkritische Betriebsnachrichten verwendet werden - z. B. eine Bestellbestätigung, eine Benachrichtigung zum Zurücksetzen des Kennworts oder eine Benachrichtigung über eine Änderung des Fluggatters. Die Optimierung des Versandzeitpunkts eignet sich am besten für weniger dringende Marketing-Nachrichten, z. B. eine wöchentliche Anzeige, Werbeinformationen zu einem neuen Produkt oder Informationen zu einem einmonatigen Verkauf.
 
 Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobuttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Click-Throughs optimiert werden sollen. Push-Benachrichtigungen werden immer für Öffnungen optimiert.
 
