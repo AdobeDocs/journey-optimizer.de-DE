@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ Geben Sie beim Konfigurieren einer neuen [E](email-settings.md)Mail-Kanalkonfigu
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-### Antwort auf E-Mail {#reply-to-email}
+## Antwort auf E-Mail {#reply-to-email}
 
 Beim Definieren der Adresse unter **[!UICONTROL Antwort an (E-Mail)]** kann eine beliebige E-Mail-Adresse angegeben werden, sofern es sich um eine gültige Adresse in einem korrekten Format und ohne Tippfehler handelt.
 
@@ -66,7 +66,7 @@ Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, da
 >
 >Wenn die Subdomain der eingegebenen Adresse eine Domain ist, die Adobe [komplett delegiert](../configuration/delegate-subdomain.md#full-subdomain-delegation) wurde, kontaktieren Sie die Adobe-Kundenbetreuung.
 
-### Weiterleiten von E-Mails {#forward-email}
+## Weiterleiten von E-Mails {#forward-email}
 
 Um alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfangenen E-Mails an eine bestimmte E-Mail-Adresse weiterleiten zu lassen, wenden Sie sich an die Kundenunterstützung von Adobe.
 
