@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Der Abschnitt „Leitplanken und Einschränkungen“ wurde zur Dokumentation der Tools für Konfliktmanagement und Priorisierung hinzugefügt. [Weitere Informationen](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * Ein neuer Anwendungsfall wurde hinzugefügt, der alle Schritte umfasst, die zur Verwendung von Decisioning in Inhaltsexperimenten mit dem [!DNL Journey Optimizer] Code-basierten Erlebniskanal erforderlich sind. [Weitere Informationen](../experience-decisioning/experience-decisioning-uc.md)
+
+* Die Seite **E-Mail-** konfigurieren“ wurde zur besseren Lesbarkeit in mehrere Unterseiten unterteilt, einschließlich neuer eigenständiger Seiten für [Listen-Abo](../email/list-unsubscribe.md), [Kopfzeilenparameter](../email/header-parameters.md) und [URL-Tracking](../email/url-tracking.md).
 
 ## Dezember 2024 {#nov-2024}
 
