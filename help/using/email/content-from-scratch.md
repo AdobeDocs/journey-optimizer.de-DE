@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
    ![](assets/email_designer_structure_component.png)
 
-1. Über die **[!UICONTROL Asset-Auswahl]** können Sie direkt Assets auswählen, die in der **[!UICONTROL Asset-Bibliothek]** gespeichert sind. [Weitere Informationen über Asset-Management](../content-management/assets.md)
+1. Über die **[!UICONTROL Asset-Auswahl]** können Sie direkt Assets auswählen, die in der **[!UICONTROL Asset-Bibliothek]** gespeichert sind. [Weitere Informationen über Asset-Management](../integrations/assets.md)
 
    Klicken Sie doppelt auf den Ordner, der Ihre Assets enthält. Ziehen Sie sie per Drag-and-Drop in eine Strukturkomponente.
 

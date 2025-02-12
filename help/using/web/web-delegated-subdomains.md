@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Festlegen einer Web-Subdomain"
 >abstract="Wählen Sie eine Subdomain aus der Liste der an Adobe delegierten Subdomains aus. Sie können diese Web-Subdomain als Standard festlegen. Es kann jedoch jeweils nur eine Standard-Subdomain verwendet werden."
 
-Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adobe Experience Manager Assets](../content-management/assets.md) verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
+Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adobe Experience Manager Assets](../integrations/assets.md) verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
 
 Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 

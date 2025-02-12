@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 99%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
-   + [Integrationen](using/start/ajo-integrations.md)
    + [Leitplanken](using/start/guardrails.md)
    + [Best Practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 99%
             + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
             + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
             + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
-      + [Verwenden von Experience Manager-Vorlagen](using/email/aem-templates.md)
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
       + Konfigurieren eines E-Mail-Kanals {#configure-email}
          + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 99%
       + Technotes {#technotes}
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
-   + Assets/Bilder {#assets-images}
-      + [Arbeiten mit Experience Manager Assets](using/content-management/assets.md)
-      + [Arbeiten mit Adobe Stock](using/content-management/stock.md)
    + Personalisierung {#personalization}
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 99%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
-   + [Inhaltsfragmente in Adobe Experience Manager](using/content-management/aem-fragments.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 99%
       + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
++ Integrationen{#assets-images}
+   + [Integrationen mit anderen Lösungen](using/integrations/ajo-integrations.md)
+   + [Arbeiten mit Experience Manager Assets](using/integrations/assets.md)
+   + [Arbeiten mit Adobe Stock](using/integrations/stock.md)
+   + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
+   + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
+   + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)

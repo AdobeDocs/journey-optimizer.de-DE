@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
@@ -104,7 +104,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 
 ![](assets/in_app_web_design_3.png)
 
-Geben Sie Ihre Medien-URL ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um Ihrer In-App-Nachricht direkt Assets hinzuzufügen, die in Ihrer Assets-Bibliothek gespeichert sind. [Weitere Informationen über Asset-Management](../content-management/assets.md).
+Geben Sie Ihre Medien-URL ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um Ihrer In-App-Nachricht direkt Assets hinzuzufügen, die in Ihrer Assets-Bibliothek gespeichert sind. [Weitere Informationen über Asset-Management](../integrations/assets.md).
 Sie können auch einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen hinzufügen.
 
 +++Mehr Optionen mit erweiterter Formatierung

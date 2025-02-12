@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%
@@ -150,4 +150,4 @@ Wenn Sie die folgenden vordefinierten [Feldgruppen](https://experienceleague.ado
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 
-Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adobe Experience Manager Assets](../content-management/assets.md) verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)
+Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adobe Experience Manager Assets](../integrations/assets.md) verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)

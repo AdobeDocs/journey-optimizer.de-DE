@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
    ![](../assets/perso_ee2.png)
 
-1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weitere Informationen finden Sie [in diesem Abschnitt](../../content-management/assets.md).
+1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weitere Informationen finden Sie [in diesem Abschnitt](../../integrations/assets.md).
 
 1. **Hinzufügen von Angeboten**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden auf allen Kontaktpunkten zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Zielgruppen senden. Weitere Informationen zum Entscheidungs-Management finden Sie [in diesem Abschnitt](../../offers/get-started/starting-offer-decisioning.md).
 

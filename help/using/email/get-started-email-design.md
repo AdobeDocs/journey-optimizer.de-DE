@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,9 +22,9 @@ Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die 
 
 * Sie können die **Funktionen zur E-Mail-Gestaltung** in [!DNL Journey Optimizer] verwenden, um responsive E-Mails zu erstellen bzw. zu importieren. [Weitere Informationen](content-from-scratch.md)
 
-* Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../content-management/assets.md)
+* Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../integrations/assets.md)
 
-* Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern. [Weitere Informationen](../content-management/stock.md)
+* Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern. [Weitere Informationen](../integrations/stock.md)
 
 * Verbessern Sie das Kundenerlebnis, indem Sie personalisierte und dynamische Nachrichten auf der Basis ihrer Kundenprofil-Attribute erstellen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md).
 
@@ -52,7 +52,7 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 
 1. Wählen Sie zum Gestalten Ihrer E-Mail auf der Startseite des E-Mail-Designers unter den folgenden Optionen:
 
-   * **Entwerfen Sie Ihre E-Mail von Grund auf** über die Benutzeroberfläche des E-Mail-Designers und nutzen Sie Bilder aus [Adobe Experience Manager Assets](../content-management/assets.md). In [diesem Abschnitt](content-from-scratch.md) erfahren Sie, wie Sie E-Mail-Inhalte gestalten.
+   * **Entwerfen Sie Ihre E-Mail von Grund auf** über die Benutzeroberfläche des E-Mail-Designers und nutzen Sie Bilder aus [Adobe Experience Manager Assets](../integrations/assets.md). In [diesem Abschnitt](content-from-scratch.md) erfahren Sie, wie Sie E-Mail-Inhalte gestalten.
 
    * **Codieren oder fügen Sie unbearbeitetes HTML** direkt in den E-Mail-Designer ein. In [diesem Abschnitt](code-content.md) erfahren Sie, wie Sie Ihren Inhalt codieren.
 

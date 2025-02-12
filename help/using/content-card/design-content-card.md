@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 7e5dbd6106b8a5ffd9bee8b1364a7bf5b995668c
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen
 
 ![](assets/content-card-design-3.png)
 
-Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../content-management/assets.md)
+Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../integrations/assets.md)
 
 <!--
 +++More options with advanced formatting

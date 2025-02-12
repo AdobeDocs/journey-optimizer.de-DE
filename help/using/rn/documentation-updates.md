@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Februar 2024 {#feb-2024}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Februar 2024 werden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md#feb-2024)
-* Die Journey Optimizer- und Workfront-Integration wurde zur Integrationsseite hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
+* Die Journey Optimizer- und Workfront-Integration wurde zur Integrationsseite hinzugefügt. [Weitere Informationen](../integrations/ajo-integrations.md)
 * Es wurden Informationen hinzugefügt, wie die Darstellungen von Angeboten basierend auf Kontextdaten personalisiert werden können. [Weitere Informationen](../offers/offer-library/add-representations.md#context-data)
 * Die Seite für Schutzmechanismen wurde mit einem Hinweis zu benutzerdefinierten Aktionen aktualisiert, die das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads unterstützen. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
 * Es wurden zusätzliche Informationen zum einfachen Authentifizierungstyp in externen Datenquellen hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurde ein Hinweis hinzugefügt, dass integrierte Aktionen nicht entfernt werden können. [Weitere Informationen](../start/guardrails.md#custom-actions-g)
 * Es wurden Informationen zu serviceEvents sowie ein Abfragebeispiel hinzugefügt, um die Details eines serviceEvent zu überprüfen. [Weitere Informationen](../reports/query-examples.md#common-queries)
 * Es wurde ein Hinweis hinzugefügt, dass Sie keine Abfragen zu Zeitreihen durchführen können. [Weitere Informationen](../building-journeys/condition-activity.md)
-* Adobe Experience Manager Assets Essentials und Adobe Stock wurden zur Seite für lösungsübergreifende Integrationen hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials und Adobe Stock wurden zur Seite für lösungsübergreifende Integrationen hinzugefügt. [Weitere Informationen](../integrations/ajo-integrations.md)
 * Die Warnung, dass E-Mail-Subdomains mit mehreren Ebenen nicht zulässig seien, wurde entfernt, da diese jetzt unterstützt werden. [Weitere Informationen](../configuration/delegate-subdomain.md)
 * Es wurde ein Hinweis hinzugefügt, dass Sie bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen müssen. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 * Erläuterungen dazu, wie sichergestellt werden kann, dass Ereignisse im Begrenzungszähler korrekt berücksichtigt werden, werden im Entscheidungs-Management-Abschnitt **Begrenzungsereignis** klargestellt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## November 2022 {#november-2022}
 
-* Es wurde eine neue Seite über Journey Optimizer-Integrationen hinzugefügt. [Mehr dazu](../start/ajo-integrations.md)
+* Es wurde eine neue Seite über Journey Optimizer-Integrationen hinzugefügt. [Mehr dazu](../integrations/ajo-integrations.md)
 * Es wurde eine Empfehlung zur Länge der URLs von Mirrorseiten hinzugefügt. [Mehr dazu](../email/message-tracking.md)
 * In der Konfiguration der E-Mail-Einstellungen wurde ein neuer Unterabschnitt über die E-Mail-Adresse, an die geantwortet werden soll, hinzugefügt, der Empfehlungen für eine ordnungsgemäße Antwortverwaltung enthält. [Mehr dazu](../email/email-settings.md#reply-to-email)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie der Inhalt einer Nachricht in einer Live-Journey geändert werden kann. [Mehr dazu](../building-journeys/journeys-message.md#update-live-content)
