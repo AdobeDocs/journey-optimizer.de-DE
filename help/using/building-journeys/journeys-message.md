@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 58%
 
 ---
@@ -29,7 +29,7 @@ Um eine integrierte Kanalaktion zu Ihrem Journey hinzuzufügen, ziehen Sie eine 
 
 >[!NOTE]
 >
->Sie können auch benutzerdefinierte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
+>Sie können auch benutzerdefinierte Aktionen zum Senden Ihrer Nachrichten in [!DNL Journey Optimizer] einrichten. [Weitere Informationen](#recommendation)
 
 ## Hinzufügen einer Nachricht zu einer Journey  {#add-msg-in-journey}
 
