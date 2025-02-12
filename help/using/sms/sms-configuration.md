@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Bevor Sie eine SMS oder MMS versenden, müssen Sie Ihre Adobe Journey Optimizer-
    * [Mit Sinch](sms-configuration-sinch.md)
    * [Mit Infobip](sms-configuration-infobip.md)
    * [Mit einem benutzerdefinierten Anbieter](sms-configuration-custom.md)
-1. [Erstellen einer SMS-Oberfläche](sms-configuration-surface.md)
+1. [Erstellen einer SMS-Konfiguration](sms-configuration-surface.md)
 
 Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/administrator.md) durchgeführt werden.
 
