@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 58%
 
 ---
@@ -33,7 +33,7 @@ Um eine integrierte Kanalaktion zu Ihrem Journey hinzuzufügen, ziehen Sie eine 
 
 ## Hinzufügen einer Nachricht zu einer Journey  {#add-msg-in-journey}
 
-Mit integrierten Kanalaktionen können Sie ausgehende oder eingehende Nachrichten konfigurieren. Unterstützte eingehende Kanäle sind E-Mail, Textnachricht (SMS/MMS), Push-Benachrichtigungen. Unterstützte ausgehende Kanäle sind In-App, Web, Code-basiertes Erlebnis, Inhaltskarte.
+Mit integrierten Kanalaktionen können Sie ausgehende oder eingehende Nachrichten konfigurieren. Unterstützte eingehende Kanäle sind E-Mail, Textnachrichten (SMS/MMS) und Push-Benachrichtigungen. Unterstützte ausgehende Kanäle sind In-App, Web, Code-basiertes Erlebnis und Inhaltskarte.
 
 Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
 
@@ -79,10 +79,6 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Für E-Mails und Push-Benachrichtigungen können Sie die Sendezeitoptimierung aktivieren. [Weitere Informationen](send-time-optimization.md)
-
    * Erfahren Sie im Detail, wie Sie Ihre eingehende Aktion erstellen:
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Jede Aktivität für eingehende Nachrichten geht mit einer 3-tägigen Aktivität **Warten** einher. [Weitere Informationen](wait-activity.md#auto-wait-node)
+>
+>* Für E-Mails und Push-Benachrichtigungen können Sie die Sendezeitoptimierung aktivieren. [Weitere Informationen](send-time-optimization.md)
+
 
 
 ## Live-Inhalt aktualisieren {#update-live-content}
