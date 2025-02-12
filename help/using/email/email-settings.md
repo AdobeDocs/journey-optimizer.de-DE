@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folg
 Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschnitt](../configuration/retries.md).
 
 ## URL-Tracking {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="Definieren der URL-Tracking-Parameter"
->abstract="Diesen Abschnitt verwenden, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen URLs anzuhängen. Diese Funktion ist optional."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="Vorschau der URL-Tracking-Parameter"
->abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
 Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. [Weitere Informationen](url-tracking.md)
 
