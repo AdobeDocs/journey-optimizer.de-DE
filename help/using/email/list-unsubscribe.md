@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 32%
@@ -76,7 +76,7 @@ Wenn Sie das Einverständnis außerhalb von Adobe verwalten, wählen Sie die Opt
 >
 >Wenn Sie die Option **[!UICONTROL Vom Kunden verwaltet]** verwenden, speichert Adobe keine Abmelde- oder Einverständnisdaten. Mit der Option **[!UICONTROL Vom Kunden verwaltet]** entscheiden sich Unternehmen für die Verwendung eines externen Systems und sind für die Verwaltung ihrer Einverständnisdaten in diesem externen System verantwortlich. Es gibt keine automatische Synchronisierung von Einverständnisdaten zwischen dem externen System und [!DNL Journey Optimizer]. Jede Synchronisierung von Einverständnisdaten, die aus dem externen System zur Aktualisierung von Benutzereinverständnisdaten in [!DNL Journey Optimizer] stammen, muss von der Organisation als Datenübertragung initiiert werden, um die Einverständnisdaten wieder in [!DNL Journey Optimizer] zu übertragen.
 
-## Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
+### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
 
 Wenn Sie bei ausgewählter Option **[!UICONTROL Vom Kunden verwaltet]** benutzerdefinierte Endpunkte eingeben und in einer Kampagne oder auf einer Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an (<!--sent to the custom endpoint --> Ihre Empfänger auf den Abmelde-Link klicken).
 
