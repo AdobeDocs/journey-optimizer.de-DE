@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 Die folgende Verbesserung wird mit dem Update vom Februar vorgenommen.
 
-**E-Mail-**: Verfügbarkeitsdatum: 10. Februar 2025
+**E-Mail-**: Verfügbarkeitsdatum: 12. Februar 2025
 
 * Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
 
