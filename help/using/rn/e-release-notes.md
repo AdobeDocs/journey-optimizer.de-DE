@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 
+* **Journey** - Sie können jetzt Ihre benutzerdefinierten Journey-Aktionen testen, indem Sie API-Aufrufe über die Administration-Benutzeroberfläche senden. Diese neue Funktion hilft Ihnen bei der Fehlerbehebung bei benutzerdefinierten Aktionen.
+
 * **Datensatz-TTL (Time-to-Live)** - Ab diesem Monat wird eine TTL (Time-to-Live)-Leitplanke wie folgt für Journey Optimizer-systemgenerierte Datensätze in neuen Sandboxes und neuen Organisationen eingeführt:
 
    * 90 Tage für Daten im Profilspeicher
@@ -114,6 +116,12 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 * **Playbooks** - Sie können jetzt Ihre eigenen Anwendungsfall-Playbooks in Journey Optimizer erstellen und veröffentlichen.
 
 * **Briefpost** - DLZ (DAta Landing Zone) wird jetzt als Server-Typ für das Datei-Routing in der Briefpost-Konfiguration unterstützt.
+
+**Personalisierung**
+
+* Der Personalisierungseditor wurde um neue Funktionen wie automatische Vervollständigung, Suche und Filteroptionen erweitert. Sie können auch veraltete Attribute ein- oder ausblenden.
+
+* Verfügbarkeitsdatum: 29. Januar 2025 - Neue Datums-/Uhrzeithilfsfunktionen sind für die Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
 
 **E-Mail-**: Verfügbarkeitsdatum: 12. Februar 2025
 
@@ -128,7 +136,3 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 **Decisioning** - Verfügbarkeitsdatum: 28. Januar 2025
 
 * Decisioning unterstützt jetzt Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs. [Weitere Informationen](../experience-decisioning/catalogs.md)
-
-**Personalization** - Verfügbarkeitsdatum: 29. Januar 2025
-
-* Neue Hilfsfunktionen für Datum/Uhrzeit sind für die Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
