@@ -2,31 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Generierung von Web-Seiten mit dem KI-Assistenten
-description: Generieren Sie Web-Seiteninhalte und Assets mit der Content-Beschleunigung des KI-Assistenten in Journey Optimizer.
+description: Generieren von Webseiteninhalten und Assets mit dem KI-Assistenten in Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 88%
 
 ---
 
-# Generierung von Web-Seiten mit dem Content Accelerator des KI-Assistenten {#generative-web}
+# Generierung von Web-Seiten mit dem KI-Assistenten {#generative-web}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
-Sobald Sie Ihre Web-Seiten erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe der auf generativer KI basierenden Content-Beschleunigung des KI-Assistenten in Journey Optimizer auf die nächste Stufe bringen.
+Nachdem Sie Ihre Web-Seiten erstellt und personalisiert haben, verwenden Sie den KI-Assistenten in Journey Optimizer mit generativer KI, um Ihre Inhalte auf die nächste Ebene zu bringen.
 
-Die Content-Beschleunigung des KI-Assistenten in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren. Hierzu schlägt sie Ihnen verschiedene Inhalte vor, die mit größerer Wahrscheinlichkeit bei Ihrer Zielgruppe ankommen.
+Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er verschiedene Inhalte vorschlägt, die Ihre Audience mit größerer Wahrscheinlichkeit ansprechen.
 
 >[!BEGINTABS]
 
@@ -40,7 +40,7 @@ Die Content-Beschleunigung des KI-Assistenten in Journey Optimizer kann Ihnen da
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Originalinhalt verwenden]** für die Content-Beschleunigung des KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -88,19 +88,19 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
 
 >[!TAB Bildgenerierung für Web-Seiten]
 
-Im folgenden Beispiel erfahren Sie, wie Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
+Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
 1. Nachdem Sie Ihre Web-Seite erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Web-Seite bearbeiten]**.
 
    Weitere Informationen zur Konfiguration Ihrer Web-Seite finden Sie auf [dieser Seite](../web/create-web.md).
 
-1. Wählen Sie das Asset aus, das Sie mit der Content-Beschleunigung des KI-Assistenten ändern möchten.
+1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für die Content-Beschleunigung des KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 

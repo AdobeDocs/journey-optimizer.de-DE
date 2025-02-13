@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generierung von Push-Benachrichtigungen mit der Content-Beschleunigung des KI-Assistenten in Journey Optimizer
-description: Generieren von Push-Inhalten mit der Content-Beschleunigung des KI-Assistenten in Journey Optimizer
+title: Push-Generierung mit dem KI-Assistenten in Journey Optimizer
+description: Generieren von Push-Inhalten mit dem KI-Assistenten in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 100%
+source-wordcount: '1465'
+ht-degree: 90%
 
 ---
 
-# Generierung von Push-Benachrichtigungen mit dem Content Accelerator des KI-Assistenten  {#generative-push}
+# Generierung von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
-Sobald Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie den Inhalt Ihrer Push-Benachrichtigungen mit der Content-Beschleunigung des KI-Assistenten in Adobe Journey Optimizer auf die nächste Stufe führen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, heben Sie mit dem KI-Assistenten in Journey Optimizer Ihren Push-Benachrichtigungsinhalt auf die nächste Stufe.
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Vollständige Generierung von Push-Benachrichtigungen]
 
-In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benachrichtigung mithilfe der Content-Beschleunigung des KI-Assistenten in Journey Optimizer senden. 
+In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benachrichtigung mithilfe des KI-Assistenten in Journey Optimizer senden.
 
 Führen Sie folgende Schritte aus:
 
@@ -48,7 +48,7 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Originalinhalt verwenden]** für die Content-Beschleunigung des KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -105,7 +105,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
 >[!TAB Nur Textgenerierung]
 
-In diesem speziellen Beispiel erfahren Sie, wie Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer für bestimmte Inhalte nutzen können. Führen Sie folgende Schritte aus:
+In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für bestimmte Inhalte verwenden. Führen Sie folgende Schritte aus:
 
 1. Nachdem Sie Ihre Push-Benachrichtigungs-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -119,7 +119,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie die Content-Beschleunigung d
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für die Content-Beschleunigung des KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -179,7 +179,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für die Content-Beschleunigung des KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 

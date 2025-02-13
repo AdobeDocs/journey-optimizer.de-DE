@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Die Oktober-Version ist jetzt live, einschließlich der Inhaltssperre für E-Mai
 
 >[!TAB KI-Assistent]
 
-✨ Machen Sie sich auf praktische Weise mit unserer Live-Funktionsvorschau [KI-Assistent – Content Accelerator](../help/using/content-management/gs-generative.md) vertraut, die Ihnen die Möglichkeit gibt, die Funktionen des Assistenten selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.
+✨ Tauchen Sie mit unserer Live-Funktionsvorschau des [AI Assistant](../help/using/content-management/gs-generative.md) in eine praktische Erfahrung ein, damit Sie die Funktionen des Assistenten aus erster Hand kennenlernen und seine Möglichkeiten voll und ganz verstehen können.
 
 [![Weitere Informationen](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -1,35 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit dem KI-Assistenten in Journey Optimizer – Content Accelerator
-description: Erfahren Sie, wie Sie auf den KI-Assistenten in Journey Optimizer Content Accelerator zugreifen und damit arbeiten.
+title: Erste Schritte mit dem KI-Assistenten in Journey Optimizer
+description: Erfahren Sie, wie Sie in Journey Optimizer auf den KI-Assistenten zugreifen und mit ihm arbeiten können
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: ht
-source-wordcount: '874'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 75%
 
 ---
 
-# Erste Schritte mit dem Content Accelerator des KI-Assistenten {#gs-content-assistant}
+# Erste Schritte mit dem KI-Assistenten {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Content-Beschleunigung des KI-Assistenten in Journey Optimizer"
->abstract="Nachdem der Versand erstellt und personalisiert wurde, kann die Content-Beschleunigung des KI-Assistenten in Journey Optimizer verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
+>title="KI-Assistent in Journey Optimizer"
+>abstract="Nachdem Sie den Versand erstellt und personalisiert haben, können Sie den KI-Assistenten in Journey Optimizer verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Hochladen von Marken-Assets"
->abstract="Mit dem Menü „Marken-Asset hochladen“ kann ein beliebiges Marken-Asset hinzugefügt werden, das Inhalte enthält, die zusätzlichen Kontext für die Content-Beschleunigung des KI-Assistenten in Journey Optimizer bieten können. Die Auswahl eines zuvor hochgeladenen Assets ist ebenfalls möglich. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
+>abstract="Im Menü Marken-Asset hochladen können Sie jedes Marken-Asset hinzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten in Journey Optimizer bieten können, oder ein zuvor hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe-Begriffe zu generativer KI"
+>title="Bedingungen der generativen KI in Adobe"
 >abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Alle Ausgaben dieser Funktion auf ihre Richtigkeit überprüfen und sicherstellen, dass sie für den Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI in Adobe"
 
@@ -38,20 +38,20 @@ ht-degree: 100%
 >Machen Sie sich auf praktische Weise mit [unserer Live-Funktionsvorschau](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.
 
 
-Der Content Accelerator des KI-Assistenten in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktive Vorschläge zur Variation von Text- und Bildinhalten. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
+Der KI-Assistent in Adobe Journey Optimizer, unterstützt durch Microsoft Azure OpenAI und Adobe Firefly, bietet proaktive Inhaltsvariantenvorschläge für Text und Bilder. Er ist für die Kanäle E-Mail, Push-Benachrichtigungen und SMS-Kanäle verfügbar. Diese neue Funktion bietet eine auf Eingabeaufforderungen basierende Text- und Bildgenerierung. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
 
-Sie können den Content Accelerator des KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
+Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](#generative-guardrails).
 >
 >
->* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den Content Accelerator des KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>* Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
-## Zugriff auf den Content Accelerator des KI-Assistenten {#generative-access}
+## Zugriff auf den KI-Assistenten {#generative-access}
 
-Um auf den Content Accelerator des KI-Assistenten in Adobe Journey Optimizer zugreifen zu können, müssen Benutzende über die Berechtigung **Inhalt generieren** verfügen. [Weitere Informationen](../administration/permissions.md)
+Um auf die Funktion des KI-Assistenten in Adobe Journey Optimizer zugreifen zu können, muss Benutzenden die Berechtigung **Inhalt generieren** gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
 +++  Erfahren Sie, wie Sie Berechtigungen zur Inhaltserstellung zuweisen.
 
@@ -79,17 +79,17 @@ Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff
 
 ## Schutzmechanismen und Einschränkungen {#generative-guardrails}
 
-Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des Content Accelerator des KI-Assistenten in Adobe Journey Optimizer für die E-Mail-Generierung aufgeführt:
+Allgemeine Richtlinien zur Verwendung des KI-Assistenten in Adobe Journey Optimizer für die E-Mail-Generierung finden Sie unten:
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen gut definierten Prompt, damit das GenAI-Modell diesen korrekt interpretieren kann. 
 * Laden Sie Marken-Assets hoch, damit die Informationen über Markeninhalte exakt sind. Andernfalls basieren die Inhalte auf öffentlich verfügbaren Informationen. Die hochgeladenen Inhalte können die folgenden Formate aufweisen: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten).
 * Die maximale Größe für hochgeladene Marken-Assets beträgt 50 MB. Größere Dateien oder viele Bilder können funktionieren, aber die Verarbeitungszeit verlängert sich.
-* Verwenden Sie eine markenspezifische oder benutzerdefinierte Vorlage, um E-Mail-Inhalte mit dem Content Accelerator des KI-Assistenten in Adobe Journey Optimizer zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.
+* Verwenden Sie markenspezifische oder benutzerdefinierte Vorlagen, um Ihren E-Mail-Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer zu erstellen. Es werden E-Mail-Vorlagen mit 8 bis 10 Bildern empfohlen.
 * Vergewissern Sie sich, dass Sie problematische Ausgaben melden, indem Sie bei der Auswahl von Varianten die Symbole Daumen nach oben, Daumen nach unten oder Flagge verwenden.
 * Die Verwendung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Im Zuge seiner Selbstverpflichtung zur Förderung von Transparenz bei der Nutzung generativer KI-Tools zur Medienerstellung wendet Adobe Content Credentials an, wenn Inhalte oder Projekte mit einem Firefly-generierten Asset heruntergeladen oder exportiert werden. [Weitere Informationen](https://helpx.adobe.com/de/firefly/using/content-credentials.html)
 
-Die folgenden Einschränkungen gelten für den Content Accelerator des KI-Assistenten in Adobe Journey Optimizer:
+Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey Optimizer:
 
 * Als Sprache wird ausschließlich Englisch unterstützt. Nicht-englische Eingaben können zu inkonsistenten oder fehlerhaften Ergebnissen führen. Probleme, die sich aus nicht-englischen Antworten ergeben, werden derzeit nicht behoben oder verbessert.
 * Der Assistent ist nur für den E-Mail-, Push- und SMS-Kanal verfügbar.

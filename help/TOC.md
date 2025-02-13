@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 98%
 
 ---
@@ -307,7 +307,7 @@ ht-degree: 98%
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
    + Arbeiten mit dem KI-Assistenten{#ai-assistant}
-      + [Erste Schritte mit dem Content Accelerator des KI-Assistenten](using/content-management/gs-generative.md)
+      + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
       + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
       + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
       + [Generierung von SMS mit KI](using/content-management/generative-sms.md)

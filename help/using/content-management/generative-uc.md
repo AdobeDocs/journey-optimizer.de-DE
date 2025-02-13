@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anwendungsfälle für den KI-Assistenten für Content Accelerator
-description: Erfahren Sie anhand von Anwendungsfällen, wie Sie den KI-Assistenten für Content Accelerator verwenden
+title: Anwendungsfälle für den KI-Assistenten
+description: Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 87%
 
 ---
 
-# Anwendungsfälle für den KI-Assistenten für Content Accelerator {#generative-uc}
+# Anwendungsfälle für den KI-Assistenten {#generative-uc}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten für Content Accelerator, um neue Inhalte entsprechend Ihren Kampagnendetails anzupassen, einschließlich des Kampagnennamens und der Zielgruppe.
+1. Aktivieren Sie im KI-Assistenten **[!UICONTROL Funktion]** Verwenden von Originalinhalten&#39;, um neue Inhalte an Ihre Kampagnendetails anzupassen, einschließlich des Kampagnennamens und der Zielgruppe.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anforderung im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -95,11 +95,11 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 1. Nachdem Sie Ihre E-Mail-Kampagne eingerichtet und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten für Content Accelerator ändern möchten
+1. Wählen Sie das Asset, das Sie mit dem KI-Assistenten ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, damit der KI-Assistent für Content Accelerator neue Inhalte mithilfe des Referenzmaterials generieren kann.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** , damit der KI-Assistent mithilfe des Referenzmaterials neue Inhalte generieren kann.
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzubeziehen, das Kontext zu Ihrer Variante hinzufügt.
 

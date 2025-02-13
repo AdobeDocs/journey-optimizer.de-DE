@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhaltsexperiment mit dem KI-Assistenten in Journey Optimizer – Content Accelerator
-description: Inhaltsexperiment mit der Content-Beschleunigung des KI-Assistenten in Journey Optimizer
+title: Inhaltsexperiment mit dem KI-Assistenten in Journey Optimizer
+description: Inhaltsexperiment mit dem KI-Assistenten in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 81%
 
 ---
 
-# Inhaltsexperiment mit dem Content Accelerator des KI-Assistenten {#generative-experimentation}
+# Inhaltsexperiment mit dem KI-Assistenten{#generative-experimentation}
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie die Content-Beschleunigung des KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
-Sobald Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihren Inhalt mit der Content-Beschleunigung des KI-Assistenten in Adobe Journey Optimizer, die die Funktion „Inhaltsexperiment“ umfasst, auf die nächste Stufe bringen.  Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
+Nachdem Sie Ihre Nachrichten erstellt und angepasst haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer, der die Inhaltsexperiment-Funktion umfasst, auf die nächste Stufe bringen.  Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
 
-1. Erstellen Sie Ihre Kampagne und generieren Sie Varianten mit der Content-Beschleunigung des KI-Assistenten.
+1. Erstellen Sie Ihre Kampagne und verwenden Sie den KI-Assistenten, um Ihre Varianten zu generieren.
 
    In diesem Beispiel haben wir eine Bestätigungs-E-Mail für ein Abonnement mit einem Angebots-Code generiert.
 
