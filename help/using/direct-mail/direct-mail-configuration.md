@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Auswählen des Server-Typs für Ihre Datei"
->abstract="Wählen Sie aus, welchen Servertyp Sie für den Export Ihrer Briefpostdateien verwenden möchten: Amazon S3, SFTP oder Azure."
+>abstract="Wählen Sie den Server-Typ aus, der für den Export Ihrer Briefpostdateien verwendet werden soll: Amazon S3, SFTP oder Azure."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"

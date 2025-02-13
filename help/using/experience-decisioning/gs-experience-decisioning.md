@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Was ist Entscheidung?"
->abstract="Die Entscheidungsfindung ist ein neues Tool neben dem Entscheidungs-Management, mit dem Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für jeden Einzelnen bereitstellen können. Für die Verwendung sind zusätzliche Einstellungen erforderlich."
+>title="Was ist die Entscheidungsfindung?"
+>abstract="Die Entscheidungsfindung ist ein neues Tool neben dem Entscheidungs-Management, mit dem Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für einzelne Personen bereitstellen können. Zur Verwendung sind zusätzliche Einstellungen erforderlich."
 
 ## Was ist die Entscheidungsfindung? {#about}
 

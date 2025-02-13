@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -62,8 +62,8 @@ Weitere Informationen zur Verwaltung der Abmeldefunktionen in Ihren Nachrichten 
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Definieren, wie Abmeldedaten verwaltet werden"
->abstract="**Adobe verwaltet**: Einverständnisdaten werden von Ihnen innerhalb des Adobe-Systems verwaltet.<br>**Kundenseitig verwaltet**: Einverständnisdaten werden von Ihnen in einem externen System verwaltet und im Adobe-System wird keine Synchronisierung von Einverständnisdaten aktualisiert, es sei denn, sie werden von Ihnen initiiert."
+>title="Definieren der Verwaltung von Abmeldedaten"
+>abstract="**Von Adobe verwaltet**: Einverständnisdaten werden von Ihnen innerhalb des Adobe-Systems verwaltet.<br>**Kundenseitig verwaltet**: Einverständnisdaten werden von Ihnen in einem externen System verwaltet. Im Adobe-System erfolgt keine Aktualisierung der Synchronisierung von Einverständnisdaten, sofern Sie dies nicht initiieren."
 
 >[!AVAILABILITY]
 >
