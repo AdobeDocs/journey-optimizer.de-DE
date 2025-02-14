@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 72%
+source-wordcount: '981'
+ht-degree: 63%
 
 ---
 
@@ -78,9 +78,14 @@ Die Profilliste für die Zielgruppe wird in Echtzeit auf dem neuesten Stand geha
 
 Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Zielgruppen infolge von Benutzeraktivität aktualisiert. Nachdem eine Segmentdefinition erstellt und die daraus resultierende Zielgruppe gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass bei sich ändernden Profildaten Personen zur Zielgruppe hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Achten Sie darauf, dass Sie die richtigen Ereignisse als Kriterien für die Streaming-Segmentierung verwenden. [Weitere Informationen](#streaming-segmentation-events-guardrails)
+>Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr die Verwendung von **send** und **open**-Ereignissen aus Journey Optimizer-Tracking- und -Feedback-Datensätzen.
+>* Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen.
+>* Nur Sende- und offene Ereignisse sind betroffen: Klicks und andere Tracking-Ereignisse bleiben für die Streaming-Segmentierung verfügbar.
+>* Diese Änderung gilt nur für die Streaming-Segmentierung. Senden- und Öffnen-Ereignisse können weiterhin in Batch-Segmenten verwendet werden, werden jedoch, wenn sie in einem Streaming-Segment enthalten sind, als Batch ausgewertet. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
+>* Die Tracking-Datenerfassung ist nicht betroffen. Die Ereignisse Senden und Öffnen werden weiterhin wie gewohnt erfasst.
+>* Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
 
 +++
 

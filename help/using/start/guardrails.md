@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 95%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 ## Leitplanken für Datensätze {#datasets-guardrails}
 
-Ab Februar 2025 wird in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze das folgende Time-to-Live(TTL)-Limit eingeführt:
+Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Journey Optimizer-systemgenerierte Datensätze in **neuen Sandboxes und neuen** bereitgestellt:
 
-* 90 Tage für Daten im Profilspeicher
-* 13 Monate für Daten im Data Lake
+* 90 Tage für Daten im Profilspeicher,
+* 13 Monate für Daten im Data Lake.
 
-Weitere Informationen zu [ Leitplanken finden Sie ](../data/datasets-ttl.md#ttl) Abschnitt „Häufig gestellte Fragen“.
+Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingeführt. [Weitere Informationen zu Leitplanken für Time-to-Leave (TTL) von Datensätzen](../data/datasets-ttl.md)
 
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 

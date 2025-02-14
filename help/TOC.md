@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 98%
+source-wordcount: '2157'
+ht-degree: 97%
 
 ---
 
@@ -626,7 +626,7 @@ ht-degree: 98%
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
    + Journey Optimizer-Datensätze {#datasets}
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
-      + [Updates zu Time-to-Live und Streaming-Segmentierung](using/data/datasets-ttl.md)
+      + [Schutzmaßnahmen bei der Time-to-Live (TTL) von Datensätzen](using/data/datasets-ttl.md)
       + [Exportieren von Journey Optimizer-Datensätzen](using/data/export-datasets.md)
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
       + [Integrierte Schemata >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)

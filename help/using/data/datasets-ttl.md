@@ -1,89 +1,119 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Über Änderungen bei Time-to-Live (TTL) und Streaming-Segmentierung
-description: Änderungen bei Time-to-Live und Streaming-Segmentierung in Adobe Journey Optimizer
+title: Über Schutzmaßnahmen bei der Time-to-Live (TTL) von Datensätzen
+description: 'Datensätze: Schutzmaßnahmen bei der Time-to-Live [!DNL Adobe Journey Optimizer]'
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 30%
 
 ---
 
-# Änderungen bei Time-to-Live und Streaming-Segmentierung {#ttl-guardrail}
+# Schutzmaßnahmen bei der Time-to-Live (TTL) von Datensätzen {#ttl-guardrail}
 
-## Updates bei der Streaming-Segmentierung {#segmentation-update}
+Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Journey Optimizer-systemgenerierte Datensätze in **neuen Sandboxes und neuen** bereitgestellt:
 
-Ab dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von Sende- und Öffnungsereignissen aus Tracking- und Feedback-Datensätzen aus Journey Optimizer nicht mehr. Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen. Informationen darüber, warum diese Praxis in der Vergangenheit nicht empfohlen wurde, finden Sie [hier](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
-
-**Häufig gestellte Fragen**
-
-+++ Wirken sich diese Änderungen auf die Verwendung von Klicks oder anderen Tracking-Ereignissen aus?
-
-Diese Änderung betrifft nur die Verwendung von Sende- und Öffnungsereignissen. Klicks und andere Tracking-Ereignisse können weiterhin in einem Streaming-Segment verwendet werden.
-
-+++
-
-+++ Wirkt sich diese Änderung auf die Batch-Segmentierung aus?
-
-Diese Änderung betrifft nur die Streaming-Segmentierung. Sende- und Öffnungsereignisse können weiterhin in einem Batch-Segment verwendet werden. Bei Verwendung in einem Streaming-Segment werden sie auf Batch-Weise ausgewertet.
-
-+++
-
-+++ Wirkt sich diese Änderung auf die Erfassung von Tracking-Daten aus?
-
-Diese Änderung betrifft nicht die Erfassung von Tracking-Daten. Versand- und Öffnungsereignisse werden weiterhin erfasst.
-
-+++
-
-+++ Wirkt sich diese Änderung auf Reaktionsereignisse aus?
-
-Reaktionsereignisse in Journeys sind von dieser Änderung nicht betroffen.
-
-+++
-
-+++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
-
-Diese Änderung gilt für alle Sandbox-Typen.
-
-+++
-
-+++ Wirkt sich die Änderung auch auf aus dem Sendeereignis resultierende Feedback-Ereignisse aus?
-
-Diese Änderung gilt auch für Ausschlussereignisse und Bounce-/Verzögerungsereignisse, die auf den Versand zurückzuführen sind.
-
-+++
-
-## Stufenweise Time-to-Live(TTL)-Aktualisierung {#ttl}
-
-Ab Februar 2025 wird in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze das folgende Time-to-Live(TTL)-Limit eingeführt:
-
-* 90 Tage für Daten im Profilspeicher
-* 13 Monate für Daten im Data Lake
+* 90 Tage für Daten im Profilspeicher,
+* 13 Monate für Daten im Data Lake.
 
 Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. 
 
-**Häufig gestellte Fragen**
+## Betroffene Datensätze {#datasets}
 
-+++ Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
+In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Time-to-Live im Data Lake und Profilspeicher aufgeführt.
+
+| Datensatz | Data Lake-TTL | TTL des Profilspeichers |
+|------|-----|-----|
+| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | 13 Monate | 90 Tage |
+| Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | 13 Monate | 90 Tage |
+| Erlebnisereignisdatensatz beim AJO-Push-Tracking | 13 Monate | 90 Tage |
+| AJO-Entitäts-Datensatz | 13 Monate | 90 Tage |
+| AJO-Oberflächen-Datensatz | 13 Monate | n. z. |
+| Ereignisdatensatz für eingehende AJO-Aktivitäten | 13 Monate | 90 Tage |
+| AJO-Klassifizierungs-Datensatz | 13 Monate | n. z. |
+| AJO-E-Mail-BCC-Feedback-Ereignisdatensatz | 13 Monate | n. z. |
+| acpEntity-Ereignisdatensatz | 13 Monate | n. z. |
+| Journeys | 13 Monate | n. z. |
+| Journey-Schrittereignisse | 13 Monate | n. z. |
+| Entscheidungsobjekt-Repository – Personalisierte Angebote | 13 Monate | n. z. |
+| Entscheidungsobjekt-Repository – Fallback-Angebote | 13 Monate | n. z. |
+| Entscheidungsobjekt-Repository – Platzierungen | 13 Monate | n. z. |
+| Entscheidungsobjekt-Repository – Aktivitäten | 13 Monate | n. z. |
+| ODE DecisionEvents – Produktions-Entscheidungsfindung | 13 Monate | n. z. |
+| AJO-Einverständnisdienst-Datensatz | n. z. | 90 Tage |
+| Profildatensatz für interaktive AJO-Nachrichten | n. z. | 90 Tage |
+| AJO Profile Counters-Erweiterung | n. z. | 90 Tage |
+| AJO-Push-Profil-Datensatz | n. z. | 90 Tage |
+| AJO Engageable Profile DataSet | n. z. | 90 Tage |
+
+
+
+## Häufig gestellte Fragen {#faq}
+
+Im Folgenden finden Sie eine Liste von Antworten auf häufig gestellte Fragen zur Datensatz-TTL.
+
++++Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
 
 Diese Änderung gilt für alle Sandbox-Typen.
 
 +++
 
-+++ Sind auch die Profile selbst vom 90-tägigen TTL-Limit für Daten im Profilspeicher betroffen?
++++Sind bei der 90-tägigen TTL im Profilspeicher die Profile selbst betroffen?
 
 Die systemgenerierten Datensatzdaten im Profil werden nach 90 Tagen entfernt, aber nicht die Profile selbst.
 
 +++
 
-+++ Wenn systemgenerierte Datensatzdaten per Push an Customer Journey Analytics (CJA) gesendet werden, wirkt sich die TTL dann auch auf die Daten in CJA aus?
++++Wenn systemgenerierte Datensatzdaten an [!DNL Customer Journey Analytics] (CJA) gepusht werden, sind die Daten in CJA auch von der TTL betroffen?
 
-Daten in CJA werden mit Experience Platform synchronisiert. Daher wirkt sich eine TTL-basierte Entfernung von Daten auf systemgenerierte Datensatzdaten auch auf die Daten in CJA aus.
+Daten in [!DNL Customer Journey Analytics] werden mit Experience Platform synchronisiert. Daher wirkt sich ein Entfernen von Daten aufgrund einer TTL auf systemgenerierte Datensatzdaten auch auf die Daten in [!DNL Customer Journey Analytics] aus.
+
++++
+
++++ Können Kunden die TTL für [!DNL Journey Optimizer] Systemdatensatzdaten im Profilspeicher erhöhen?
+
+TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den TTL-Prozess zu optimieren, damit diese Erweiterungsanfragen irgendwann ab der zweiten Jahreshälfte 2025 berücksichtigt werden können.
+
+>[!NOTE]
+>
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen . Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung auf die Berechtigung für das gesamte Datenvolumen angerechnet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank}
+
++++
+
++++Können Kunden die TTL für [!DNL Journey Optimizer] Systemdatensatzdaten im Data Lake erhöhen?
+
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kunden mit einer Real-Time CDP-Berechtigung können Daten über Ziele exportieren, um Daten länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de){target="_blank}
+
++++
+
++++Sind die folgenden Funktionen von den TTLs betroffen?
+
+* **Lookup Store**: Nein
+* **Journey-Begrenzung**: Nein
+* **Angebotsbegrenzung**: Nein
+* **Sendezeitoptimierung (STO)**: Nein
+* **Begrenzung der Nachrichtenfrequenz** (d. h. Geschäftsregeln): Nein
+* **Berichterstellung**: Nein
+
+  >[!NOTE]
+  >
+  >Eine TTL ist bereits in der [!DNL Customer Journey Analytics]-Verbindung (CJA) implementiert, wodurch der effektive maximale Lookback-Zeitraum der betroffenen Datensatzdaten auf 13 Monate reduziert wird.
+
+* **Experience Platform-Datenquelle**: Ja, der Abruf von Erlebnisereignissen unterliegt der 90-tägigen TTL.
+* **Berechnete Attribute**: Ja - Die anfängliche Aufstockungsberechnung ist auf die Daten der letzten 90 Tage beschränkt. Das berechnete Attribut wird auf der Grundlage von inkrementellen Ereignissen für nachfolgende Aktualisierungen aktualisiert. Sobald die nachfolgenden Aktualisierungen den Lookback-Zeitraum (max. 6 Monate) erreichen, wirkt sich die TTL im Wesentlichen nicht mehr auf das berechnete Attribut aus. Weitere Informationen.
+* **Segmentierung und Retargeting**: Ja - Die Segmentierung hängt von den Daten im Profilspeicher ab. Daher ist der Rückblick auf die betroffenen Datensatzdaten auf 90 Tage beschränkt.
+* **Tracking**: Ja - Verringert den effektiven maximalen Lookback-Zeitraum der betroffenen Datensatzdaten auf 90 Tage. Daten aus betroffenen Datensätzen befinden sich 13 Monate im Data Lake.
+
++++
+
++++Welcher Zeitstempel wird für die TTL-Durchsetzung verwendet (z. B. für Aufstockungs-Anwendungsfälle)?
+
+Der Zeitstempel des Ereignisses wird verwendet (d. h. nicht das Aufnahmedatum).
 
 +++
