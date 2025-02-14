@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Verfahrensregeln</strong><br/></th>
+<th><strong>Erstellen und Verwalten von Geschäftsregeln</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics-Vorlagen</strong><br/></th>
+<th><strong>Generieren von Landingpages mit dem KI-Assistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. Mit dieser neuen Funktion können Sie Ihren Reporting-Prozess mit vordefinierten Vorlagen optimieren, die auf Ihre Analyseanforderungen zugeschnitten sind.
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>Weitere Informationen finden Sie in der <a href="../reports/report-cja-manage.md#cja-template">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: ab 15. Januar 2025</p>
+<p>Der KI-Assistent ist jetzt für Ihre Landingpage-Sendungen verfügbar, sodass Sie Text, Bilder oder vollständige Seiten-Layouts generieren können.</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Markenrichtlinien (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Ihre eigenen Markenrichtlinien festlegen, um die visuelle und verbale Identität Ihrer Marke zu definieren. Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics-Vorlagen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. Mit dieser neuen Funktion können Sie Ihren Reporting-Prozess mit vordefinierten Vorlagen optimieren, die auf Ihre Analyseanforderungen zugeschnitten sind.
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>Weitere Informationen finden Sie in der <a href="../reports/report-cja-manage.md#cja-template">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: ab 15. Januar 2025</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### Verbesserungen {#25-02-improvements}
 
 Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 
-* **Journey** - Sie können jetzt Ihre benutzerdefinierten Journey-Aktionen testen, indem Sie API-Aufrufe über die Administration-Benutzeroberfläche senden. Diese neue Funktion hilft Ihnen bei der Fehlerbehebung bei benutzerdefinierten Aktionen.
+* **Journey** - Sie können jetzt Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt Administration senden. Mit dieser neuen Funktion können Sie Fehler bei benutzerdefinierten Aktionen vor oder nach deren Verwendung auf einer Journey beheben.
 
 * **Datensatz-TTL (Time-to-Live)** - Ab diesem Monat wird eine TTL (Time-to-Live)-Leitplanke wie folgt für Journey Optimizer-systemgenerierte Datensätze in neuen Sandboxes und neuen Organisationen eingeführt:
 
