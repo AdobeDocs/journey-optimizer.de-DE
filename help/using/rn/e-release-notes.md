@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
+source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 26%
+source-wordcount: '632'
+ht-degree: 24%
 
 ---
 
@@ -113,6 +113,8 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 
   Diese Änderung wird in einer nachfolgenden Phase in bestehenden Kunden-Sandboxes bereitgestellt.
 
+  Weitere Informationen zu diesem Update finden Sie in [diesen speziellen FAQ](../data/datasets-ttl.md#frequently-asked-questions).
+
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **Briefpost** - DLZ (DAta Landing Zone) wird jetzt als Server-Typ für das Datei-Routing in der Briefpost-Konfiguration unterstützt.
@@ -129,10 +131,6 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 * Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-  >[!AVAILABILITY]
-  >
-  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
 
 **Decisioning** - Verfügbarkeitsdatum: 28. Januar 2025
 
