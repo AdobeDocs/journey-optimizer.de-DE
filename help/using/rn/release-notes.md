@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ce2c5e26ae4d17898f50f890c146ccfafc93a7c2
+source-git-commit: 501a0ad799b91c41785da44d37cc8bd5d9976740
 workflow-type: tm+mt
-source-wordcount: '2760'
+source-wordcount: '2755'
 ht-degree: 79%
 
 ---
@@ -151,7 +151,7 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **E-Mail** Konfiguration (Verfügbarkeitsdatum: 12. Februar 2025) - Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+* **E-Mail-**: Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
