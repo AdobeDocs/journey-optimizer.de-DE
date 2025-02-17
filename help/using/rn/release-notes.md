@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
+source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 77%
+source-wordcount: '2760'
+ht-degree: 79%
 
 ---
 
@@ -127,41 +127,35 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 
-**Journey** - Sie können jetzt Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt Administration senden. Diese neue Funktion hilft Ihnen bei der Fehlerbehebung bei benutzerdefinierten Aktionen, bevor oder nachdem diese auf einer Journey verwendet werden.
+* **Journey** - Sie können jetzt Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt Administration senden. Diese neue Funktion hilft Ihnen bei der Fehlerbehebung bei benutzerdefinierten Aktionen, bevor oder nachdem diese auf einer Journey verwendet werden.
 
-**Datensatz-TTL (Time-to-Live)** - Ab diesem Monat wird eine TTL (Time-to-Live)-Leitplanke wie folgt für Journey Optimizer-systemgenerierte Datensätze in neuen Sandboxes und neuen Organisationen eingeführt:
+* **Datensatz-TTL (Time-to-Live)** - Ab diesem Monat wird eine TTL (Time-to-Live)-Leitplanke wie folgt für Journey Optimizer-systemgenerierte Datensätze in neuen Sandboxes und neuen Organisationen eingeführt:
 
-    * 90 Tage für Daten im Profilspeicher
-    * 13 Monate für Daten im Data Lake
-    
-    Diese Änderung wird in einer nachfolgenden Phase auf bestehende Kunden-Sandboxes übertragen.
-    
-    Weitere Informationen zu diesem Update finden Sie in [dieser speziellen FAQ](../data/datasets-ttl.md#frequently-asked-questions).
+   * 90 Tage für Daten im Profilspeicher
+   * 13 Monate für Daten im Data Lake
+
+  Diese Änderung wird in einer nachfolgenden Phase in bestehenden Kunden-Sandboxes bereitgestellt.
+
+  Weitere Informationen zu diesem Update finden Sie in [diesen speziellen FAQ](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-**Briefpost** - Ein neuer Servertyp, Data Landing Zone, wird jetzt für das Datei-Routing in der Konfiguration des Briefpostkanals unterstützt.
+* **Briefpost** - Ein neuer Servertyp, Data Landing Zone, wird jetzt für das Datei-Routing in der Konfiguration des Briefpostkanals unterstützt.
 
-**SMS** - Sie können jetzt den SMS-Nachrichtenversand über multiregionale Endpunkte verwalten, indem Sie Versand-, Feedback-, eingehende und Callback-URLs überschreiben. Um dies zu unterstützen, wurde der API-Anmeldedaten-Konfiguration ein neues Feld URL-Überschreibung hinzugefügt. Diese Änderung ist nur beim Sinch-Anbieter verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+* **SMS** - Sie können jetzt den SMS-Nachrichtenversand über multiregionale Endpunkte verwalten, indem Sie Versand-, Feedback-, eingehende und Callback-URLs überschreiben. Um dies zu unterstützen, wurde der API-Anmeldedaten-Konfiguration ein neues Feld URL-Überschreibung hinzugefügt. Diese Änderung ist nur beim Sinch-Anbieter verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
 
-**Personalization** (Verfügbarkeitsdatum: 29. Januar 2025) - Neue Hilfsfunktionen für Datum/Uhrzeit sind zur Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
+* **Personalization** (Verfügbarkeitsdatum: 29. Januar 2025) - Neue Hilfsfunktionen für Datum/Uhrzeit sind zur Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
 
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-**E-Mail-Konfiguration** (Verfügbarkeitsdatum: 12. Februar 2025)
-
-* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+* **E-Mail** Konfiguration (Verfügbarkeitsdatum: 12. Februar 2025) - Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
-
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-**Decisioning** (Verfügbarkeitsdatum: 28. Januar 2025) - Decisioning unterstützt jetzt Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs. [Weitere Informationen](../experience-decisioning/catalogs.md)
+* **Decisioning** (Verfügbarkeitsdatum: 28. Januar 2025) - Decisioning unterstützt jetzt Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs. [Weitere Informationen](../experience-decisioning/catalogs.md)
 
 
 ## Version Oktober 2024 {#24-10-rn}
