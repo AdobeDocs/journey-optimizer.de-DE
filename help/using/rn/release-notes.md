@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
+source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 93%
+source-wordcount: '2807'
+ht-degree: 78%
 
 ---
 
@@ -22,25 +22,68 @@ ht-degree: 93%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Neueste Updates &#39;25 {#25-01-rn}
+## Version Februar &#39;25 {#25-02-rn}
 
-### Verbesserung im Februar {#25-02-improvements}
+**Veröffentlichungsdatum**: 18.-19. Februar 2025
 
-Die folgende Verbesserung wird mit dem Update vom Februar vorgenommen.
 
-**E-Mail-**: Verfügbarkeitsdatum: 12. Februar 2025
+### Neue Funktionen {#25-02-features}
 
-* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+<table>
+<thead>
+<tr>
+<th><strong>Erstellen und Verwalten von Geschäftsregeln</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Geschäftsregeln mithilfe von Regelsätzen erstellen. Regelsätze sind Gruppen von Regeln, mit denen gesendete Nachrichten innerhalb von Kampagnen und Journey-Aktionen kanalübergreifend eingeschränkt und Profileinträge in Journey gesteuert werden können.<p>
+<p><ul><li>Erstellen Sie Kanalregelsätze, um die Anzahl der Nachrichten zu beschränken, die über einen oder mehrere Kanäle gesendet werden. Wenden Sie sie auf Kampagnen oder Journey-Aktionen an, um die im Regelsatz definierten Regeln durchzusetzen. Mit dem Kanalregelsatz können Sie Begrenzungsregeln basierend auf Kommunikationstypen anwenden. Legen Sie beispielsweise einen Regelsatz fest, um „Werbenachrichten“ zu begrenzen, und einen weiteren für „Newsletter“. Wenden Sie den entsprechenden Regelsatz in Ihrer Kampagnen- oder Journey-Aktion an, je nach dem Typ der Kommunikation, die Sie senden.</li>
+<li> Erstellen Sie Journey-Regelsätze, um Profileinträge in Journey zu steuern. Begrenzen Sie, wie oft ein Profil innerhalb eines bestimmten Zeitraums auf eine Journey zugreifen kann oder wie viele Journey ein Profil gleichzeitig registrieren kann. Wenden Sie diese auf der Journey-Ebene an, um eine ordnungsgemäße Zugangsverwaltung sicherzustellen.</li></p>
+<p>Bislang für eine Reihe von Organisationen (LA) verfügbar, stehen Geschäftsregeln jetzt für alle Benutzer (GA) zur Verfügung.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-  >[!AVAILABILITY]
-  >
-  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+<table>
+<thead>
+<tr>
+<th><strong>Generieren von Landingpages mit dem KI-Assistenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und personalisierter Visualisierungen.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
-### Neue Funktionen {#25-01-features}
 
-Die im Januar veröffentlichten neuen Funktionen werden im Folgenden beschrieben.
+<table>
+<thead>
+<tr>
+<th><strong>Markenrichtlinien (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Ihre eigenen Markenrichtlinien festlegen, um die visuelle und verbale Identität Ihrer Marke zu definieren. Beachten Sie, dass die Brands-Funktion als private Betaversion für eine begrenzte Anzahl von Kunden veröffentlicht wird. Es wird in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.</p>
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -77,18 +120,56 @@ Die im Januar veröffentlichten neuen Funktionen werden im Folgenden beschrieben
 </tr>
 </tbody>
 </table>
+</table>
 
-### Januar-Verbesserungen {#25-01-improvements}
 
-Die im Januar veröffentlichten Verbesserungen sind unten aufgeführt.
+### Verbesserungen {#25-02-improvements}
 
-**Entscheidungsfindung**
+Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 
-* Decisioning unterstützt jetzt Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs. [Weitere Informationen](../experience-decisioning/catalogs.md)
+* **Journey** - Sie können jetzt Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt Administration senden. Mit dieser neuen Funktion können Sie Fehler bei benutzerdefinierten Aktionen vor oder nach deren Verwendung auf einer Journey beheben.
+
+* **Datensatz-TTL (Time-to-Live)** - Ab diesem Monat wird eine TTL (Time-to-Live)-Leitplanke wie folgt für Journey Optimizer-systemgenerierte Datensätze in neuen Sandboxes und neuen Organisationen eingeführt:
+
+   * 90 Tage für Daten im Profilspeicher
+   * 13 Monate für Daten im Data Lake
+
+  Diese Änderung wird in einer nachfolgenden Phase in bestehenden Kunden-Sandboxes bereitgestellt.
+
+  Weitere Informationen zu diesem Update finden Sie in [diesen speziellen FAQ](../data/datasets-ttl.md#frequently-asked-questions).
+
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
+
+* **Briefpost** - Ein neuer Servertyp, Data Landing Zone, wird jetzt für das Datei-Routing in der Konfiguration des Briefpostkanals unterstützt.
+
+**SMS** - Sie können jetzt den SMS-Nachrichtenversand über multiregionale Endpunkte verwalten, indem Sie Versand-, Feedback-, eingehende und Callback-URLs überschreiben. Um dies zu unterstützen, wurde der API-Anmeldedaten-Konfiguration ein neues Feld URL-Überschreibung hinzugefügt. Diese Änderung ist nur beim Sinch-Anbieter verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
 
 **Personalisierung**
 
-* Neue Hilfsfunktionen für Datum/Uhrzeit sind für die Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+
+* Verfügbarkeitsdatum: 29. Januar 2025 - Neue Datums-/Uhrzeithilfsfunktionen sind für die Verwendung im Personalisierungseditor verfügbar. [Weitere Informationen](../personalization/functions/dates.md)
+
+
+**E-Mail-**: Verfügbarkeitsdatum: 12. Februar 2025
+
+* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+
+* Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte Abmelde-URL mit einem Klick als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+**Decisioning** - Verfügbarkeitsdatum: 28. Januar 2025
+
+* Decisioning unterstützt jetzt Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs. [Weitere Informationen](../experience-decisioning/catalogs.md)
+
 
 ## Version Oktober 2024 {#24-10-rn}
 
