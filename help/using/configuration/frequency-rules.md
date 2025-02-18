@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verfahrensregeln
-description: Erfahren Sie, wie Sie Häufigkeitsregeln definieren
+title: Konfigurieren von Geschäftsregeln
+description: Erfahren Sie, wie Sie Häufigkeitsregeln für Unternehmen definieren
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
-# Verfahrensregeln {#frequency-rules}
+# Konfigurieren von Verfahrensregeln {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -130,7 +130,7 @@ Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig
 
 >[!NOTE]
 >
->Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} empfohlen. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Verfahrensregel {#activate-rule}
 

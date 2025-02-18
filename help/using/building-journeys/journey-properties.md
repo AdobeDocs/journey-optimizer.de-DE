@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 97%
+source-wordcount: '2261'
+ht-degree: 95%
 
 ---
 
@@ -285,8 +285,8 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 
-Wählen Sie für Beendigungskriterien, die auf einem Ereignis basieren, nur ein unitäres Ereignis aus.
-Bei Ausstiegskriterien, die auf einer Zielgruppe basieren, wählen Sie eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
+* Wählen Sie für Beendigungskriterien, die auf einem Ereignis basieren, wie zum Beispiel das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, nur ein unitäres Ereignis aus.
+* Wählen Sie für Beendigungskriterien, die auf einer Zielgruppe basieren, z. B. einer Zielgruppe, die prüft, ob ein Kunde in den letzten 24 Stunden gekauft hat, eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
 
 Sie können mehrere Ausstiegskriterien hinzufügen.
 

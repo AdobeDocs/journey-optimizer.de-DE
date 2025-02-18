@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Schemata
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemata in Adobe Journey Optimizer verwenden.
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemata in Adobe Journey Optimizer verwenden
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ Schemata sind die Standardmethode zur Beschreibung von Daten in Experience Platf
 
 Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat darstellt und überprüft. Auf hoher Ebene bieten Schemata eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legen dar, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.).
 
-Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}, wie Sie Schemata erstellen
+Erfahren Sie in ([ Dokumentation), wie Sie Schemas ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}.
 
 Der Arbeitsbereich **Schemata** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht Ihnen die Verwaltung von XDM-Ressourcen (Experience-Datenmodell), einschließlich Schemata, Klassen, Schemafeldern und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemata für Ihr Unternehmen erstellen.
 
@@ -31,9 +31,9 @@ Der Arbeitsbereich **Schemata** in der [!DNL Adobe Journey Optimizer]-Benutzerob
 
 Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de){target="_blank"}, wie Sie die Benutzeroberfläche für Schemata verwenden
 
-Eine schrittweise Dokumentation zum Erstellen eines Schemata mit dem Schema-Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}
+Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema-Editor finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}.
 
-Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+Konsultieren Sie das Schemawörterbuch [Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"} um die vollständige Liste der Felder und Attribute für jedes Schema anzuzeigen.
 
 
 ## Anleitungsvideo{#video-schema}

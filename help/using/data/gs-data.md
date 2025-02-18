@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit Daten in Journey Optimizer
+title: Erste Schritte mit der Datenverwaltung in Journey Optimizer
 description: Erfahren Sie, wie Sie mit Daten in Journey Optimizer arbeiten können
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: Daten, Management, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Erste Schritte mit dem Daten-Management in [!DNL Journey Optimizer] {#about-data}
+# Erste Schritte mit dem Daten-Management {#about-data}
 
 Reichhaltigkeit und Abdeckung von Endkundendaten definieren die Stärke und den Erfolg jeder Customer Experience-Lösung. Diese Daten sind für alle Kunden heilig und von höchstem Wert. Die Technologieauswahl ist jetzt inhärent mit einer strengen Auswertung der Datenverwaltungsfunktionen integriert.
 

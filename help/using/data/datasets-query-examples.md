@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 100%
 
 ---
 
-# Anwendungsfälle für Datensätze {#tracking-datasets}
+# Beispiele für Abfragen {#query-examples}
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[E-Mail-Tracking-Erlebnisereignis-Datensatz](#email-tracking-experience-event-dataset)
-[Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
-[Push-Tracking-Erlebnisereignis-Datensatz](#push-tracking-experience-event-dataset)
-[Journey-Step-Ereignis](#journey-step-event)
-[Decisioning-Ereignisdatensatz](#ode-decisionevents)
-[BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
-[Entitätsdatensatz](#entity-dataset)
+* [Email Tracking Experience Event Dataset](#email-tracking-experience-event-dataset)
+* [Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
+* [Push Tracking Experience Event Dataset](#push-tracking-experience-event-dataset)
+* [Journey-Schritt-Ereignis](#journey-step-event)
+* [Decisioning-Ereignisdatensatz](#ode-decisionevents)
+* [BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
+* [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 

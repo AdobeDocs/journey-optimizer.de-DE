@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
-# Kopieren von Journey Optimizer-Objekten in eine andere Sandbox {#copy-to-sandbox}
+# Exportieren von Objekten in eine andere Sandbox {#copy-to-sandbox}
 
-Mit dem Sandbox Tooling können Sie Objekte wie Journeys, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
+Mithilfe von Paketexport- und -importfunktionen können Sie Objekte wie Journeys, Inhaltsvorlagen oder Fragmente in mehrere Sandboxes kopieren. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
 
 Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion sind in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=de) verfügbar.
 

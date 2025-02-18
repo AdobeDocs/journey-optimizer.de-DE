@@ -1,19 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit Regelsätzen (LA)
+title: Arbeiten mit Regelsätzen
 description: Erfahren Sie, wie Sie Regelsätze erstellen und anwenden können
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 100%
+source-wordcount: '1933'
+ht-degree: 97%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 100%
 >id="ajo_business_rules_rule_sets"
 >title="Regelsätze"
 >abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
-
->[!AVAILABILITY]
->
->Regelsätze sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Diese Funktion wird in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste gesetzt werden möchten.
 
 ## Erste Schritte mit Regelsätzen {#gs}
 
@@ -68,7 +63,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 3 benutzerdefinierte Regelsätze erstellen.
+>Sie können bis zu 3 lokale Regelsätze der Kanaldomäne und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -128,6 +123,10 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
    ![](assets/rule-set-capping-duration.png)
 
+   >[!AVAILABILITY]
+   >
+   >Die „Tägliche“ Dauer ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter.
+
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
    * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
@@ -138,7 +137,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
      >[!CAUTION]
      >
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 
@@ -193,7 +192,7 @@ Außerdem müssen Sie den Regelsatz aktivieren, damit Sie in Kampagnen/Journeys 
 
 >[!NOTE]
 >
->Es kann bis zu 10 Minuten dauern, bis eine Regel oder ein Regelsatz vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journeys erneut veröffentlichen, damit eine Regel wirksam wird.
+>Es kann bis zu 20 Minuten dauern, bis eine Regel oder ein Regelsatz vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journeys erneut veröffentlichen, damit eine Regel wirksam wird.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

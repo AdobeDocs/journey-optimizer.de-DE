@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Datensätzen
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adobe Journey Optimizer verwenden.
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adobe Journey Optimizer verwenden
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

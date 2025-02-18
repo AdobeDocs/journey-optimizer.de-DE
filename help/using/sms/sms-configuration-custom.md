@@ -4,17 +4,18 @@ product: journey optimizer
 title: Konfigurieren eines benutzerdefinierten Anbieters
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten mit Journey Optimizer mit einem benutzerdefinierten Anbieter konfigurieren
 feature: SMS, Channel Configuration
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Konfigurieren eines benutzerdefinierten Anbieters (Beta) {#sms-configuration-custom}
+# Konfigurieren eines benutzerdefinierten Anbieters {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >

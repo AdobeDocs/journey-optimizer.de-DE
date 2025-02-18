@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 93%
+source-wordcount: '920'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,10 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
       1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
       1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
+
+     >[!AVAILABILITY]
+     >
+     >Die „Tägliche“ Dauer ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter.
 
      In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
 

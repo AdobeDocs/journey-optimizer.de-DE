@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 94%
 
 ---
 
@@ -48,19 +48,19 @@ Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten E
 >
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journeys, einschließlich mit dieser Vorlage erstellter Inhalte, nicht betroffen.
 
-## Anzeigen von Vorlagen als Miniaturansichten {#template-thumbnails}
+## [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Anzeigevorlagen als Miniaturen {#template-thumbnails}
 
 Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorlagen als Miniaturansicht anzuzeigen.
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Derzeit können geeignete Miniaturansichten nur für HTML-Inhaltsvorlagen von E-Mails erstellt werden.
+Derzeit können richtige Miniaturen nur für den Typ HTML generiert werden email Inhaltsvorlagen.
 
 Wenn Sie Inhalte aktualisieren, müssen Sie möglicherweise einige Sekunden warten, bis die Änderungen in der Miniaturansicht angezeigt werden.
 

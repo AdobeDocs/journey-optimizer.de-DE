@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 90%
+source-wordcount: '1626'
+ht-degree: 81%
 
 ---
 
@@ -50,6 +50,10 @@ Führen Sie folgende Schritte aus:
 
 1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
+
+   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
+
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
@@ -61,6 +65,7 @@ Führen Sie folgende Schritte aus:
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
+   * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
    * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -121,6 +126,10 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
 1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
+
+   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
+
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
@@ -130,6 +139,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
+   * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
    * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
@@ -180,6 +190,10 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
    ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
+
+   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 

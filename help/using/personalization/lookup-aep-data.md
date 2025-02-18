@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Personalisierung verwenden.
+badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 99%
 
 ---
 
-# Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta) {#aep-data}
+# Verwenden von Adobe Experience Platform-Daten für die Personalisierung{#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -71,7 +72,7 @@ Dabei gilt:
 * **Action** ist „Aktivieren“ ODER „Deaktivieren“.
 * **Access token** kann aus der Developer Console abgerufen werden.
 * **API Key** kann aus der Developer Console abgerufen werden.
-* **IMS-Organisations** ID: ist Ihre Adobe-Organisation.
+* **IMS-Org-ID** ist Ihre Adobe-Organisation.
 * **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev).
 
 >[!NOTE]

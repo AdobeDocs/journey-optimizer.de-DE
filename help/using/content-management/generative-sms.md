@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 93%
+source-wordcount: '1000'
+ht-degree: 82%
 
 ---
 
@@ -46,6 +46,10 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
+
+   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
+
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
@@ -55,7 +59,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Jou
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den erstellten Text.
-   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante.
+   * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
@@ -107,6 +111,10 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 
 1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
+
+   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
+
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
@@ -116,7 +124,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre SMS-K
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den gewünschten Kommunikationsansatz für den erstellten Text.
-   * **[!UICONTROL Sprache]**: Wählen Sie die Sprache für den Inhalt der Variante.
+   * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 34%
@@ -30,14 +30,16 @@ ht-degree: 34%
 
 Zielgruppen sind Sammlungen von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Sie werden mithilfe des Segmentierungs-Services von Adobe Experience Platform zentral auf Adobe Experience Platform konfiguriert und gepflegt und stehen in Journey Optimizer zur Verfügung, um in Ihren Journey und Kampagnen aktiviert zu werden.
 
-Adobe Journey Optimizer bietet stabile Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um die Marketing-Maßnahmen zu verbessern. In Kombination mit Adobe Real-time Customer Data Platform können Sie mit Journey Optimizer Zielgruppen für eine komplexere Segmentierung einlagern und Zielgruppen bidirektional für andere Adobe Experience Cloud-Lösungen freigeben.
+Adobe Journey Optimizer bietet stabile Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um die Marketing-Maßnahmen zu verbessern. In Kombination mit Adobe Real-Time Customer Data Platform können Sie mit Journey Optimizer Zielgruppen für eine komplexere Segmentierung einlagern und Zielgruppen bidirektional für andere Adobe Experience Cloud-Lösungen freigeben.
 
 Beim Hochladen von Echtzeit-Datenströmen oder Batch-Vorgängen werden Datensätze aktualisiert und Journey Optimizer verschiebt Personen dynamisch in Echtzeit in Zielgruppen und Journey und wieder heraus.
 
 >[!BEGINSHADEBOX]
 
 Diese Dokumentation enthält Informationen zum Arbeiten mit Audiences in [!DNL Adobe Journey Optimizer]. Detaillierte Informationen zum Zielgruppenportal und zu Zielgruppen finden Sie in der Dokumentation zum Segmentierungs-Service in Adobe Experience Platform. Weitere Informationen finden Sie in diesen Abschnitten:
+
 * [Handbuch zur Benutzeroberfläche des Segmentierungs-Services](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [Segmentierungs-Service - häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

@@ -1,70 +1,63 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: E-Mail-Erstellung mit dem KI-Assistenten in Journey Optimizer
-description: Generieren von E-Mail-Inhalten und Assets mit dem KI-Assistenten in Journey Optimizer
+title: Generieren von Landingpages mit dem KI-Assistenten in Journey Optimizer
+description: Generieren von Inhalten und Assets von Landingpages mit dem KI-Assistenten in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 83%
+source-wordcount: '1545'
+ht-degree: 71%
 
 ---
 
-# Generierung von E-Mails mit dem KI-Assistenten  {#generative-email}
+# Generieren von Landingpages mit dem KI-Assistenten {#generative-lp}
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
-></br>
+>* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
+>
+>* Sie müssen die [Benutzervereinbarung“ akzeptieren](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie bei Ihrer bzw. Ihrem Adobe-Support-Mitarbeitenden.
 
-Nachdem Sie Ihre E-Mails erstellt und angepasst haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Journey Optimizer, der auf generativer KI basiert, auf die nächste Stufe bringen.
+Transformieren Sie Ihre Landingpages mit dem KI-Assistenten in Journey Optimizer, der auf generativer KI basiert.
 
-Verwenden Sie den KI-Assistenten in Journey Optimizer, um die Effektivität Ihrer Kampagnen zu verbessern, indem Sie vollständige E-Mails, maßgeschneiderte Textbausteine und benutzerdefinierte Bilder erstellen, die direkt mit Ihrer Zielgruppe sprechen, und so die Interaktion und Interaktion fördern.
+Erstellen Sie mühelos wirkungsvolle Inhalte, einschließlich vollständiger Seiten, maßgeschneiderter Textausschnitte und benutzerdefinierter Visualisierungen, die Ihre Zielgruppe ansprechen und so mehr Interaktion und Interaktion fördern.
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
->[!TAB Vollständige E-Mail-Generierung]
+>[!TAB Vollständige Landingpage-Erstellung]
 
-Im folgenden Beispiel verwenden wir den KI-Assistenten, um eine vorhandene E-Mail-Vorlage zu verfeinern.
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um eine vorhandene Landingpage-Vorlage zu verfeinern.
 
-1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   Weitere Informationen zur Konfiguration Ihrer E-Mail-Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md).
+   Weitere Informationen zur Konfiguration einer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
 1. Personalisieren Sie Ihr Layout nach Bedarf und öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
-1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
-
-   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
-
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek“ auf]** die eine Vielzahl von Ideen für die Eingabeaufforderung enthält, um Ihre Landingpage zu verbessern.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
-
-1. Schalten Sie die Optionen **[!UICONTROL Betreffzeile]** und **[!UICONTROL Preheader]** ein, um sie in die Variantengenerierung einzubeziehen.
+   ![](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
-   * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Tone]**: Der Ton Ihrer Landingpage sollte bei Ihrer Audience Anklang finden. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
@@ -74,13 +67,13 @@ Im folgenden Beispiel verwenden wir den KI-Assistenten, um eine vorhandene E-Mai
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -94,54 +87,48 @@ Im folgenden Beispiel verwenden wir den KI-Assistenten, um eine vorhandene E-Mai
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
+1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer Landingpage auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../personalization/personalize.md)
+Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page)
 
-Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
+>[!TAB Nur-Text-Generierung]
 
->[!TAB Nur Textgenerierung]
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer Landingpage zu verbessern.
 
-Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer E-Mail zu verbessern.
+1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
-
-   Weitere Informationen zur Konfiguration Ihrer E-Mail-Kampagne finden Sie auf [dieser Seite](../email/create-email.md).
+   Weitere Informationen zur Konfiguration einer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
 1. Wählen Sie eine **[!UICONTROL Textkomponente]**, um nur bestimmte Inhalte zu erfassen. und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
-1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
-
-   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
-
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek“ auf]** die eine Vielzahl von Ideen für die Eingabeaufforderung enthält, um Ihre Landingpages zu verbessern.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Languages]**: Die Sprachoptionen für Spanisch, Italienisch, Schwedisch und Norwegisch werden als private Beta-Version veröffentlicht und werden in zukünftigen Versionen nach und nach allen Kunden zur Verfügung stehen.
-   * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Tone]**: Der Ton Ihrer Landingpage sollte bei Ihrer Audience Anklang finden. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -153,7 +140,7 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
    * **[!UICONTROL Weiter ausführen]**: Der KI-Assistent kann Ihnen dabei helfen, genauer auf bestimmte Themen einzugehen und zusätzliche Details zum besseren Verständnis und für mehr Interaktion zu liefern.
 
-   * **[!UICONTROL Zusammenfassen]**: Zu ausführliche Informationen können die Empfangenden einer E-Mail überfordern. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+   * **[!UICONTROL Zusammenfassen]**: Lange Informationen können Empfänger von Landingpages überlasten. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
 
@@ -161,41 +148,35 @@ Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unsere
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
-   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
+1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer Landingpage auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihre E-Mail-Inhalte auf der Grundlage von Profildaten anzupassen. Klicken Sie danach auf die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um das Rendern zu steuern, und überprüfen Sie die Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../personalization/personalize.md)
+Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page)
 
-Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
-
->[!TAB Nur Bildgenerierung]
+>[!TAB Nur-Bild-Generierung]
 
 Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
 
-1. Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**.
 
-   Weitere Informationen zur Konfiguration Ihrer E-Mail-Kampagne finden Sie auf [dieser Seite](../email/create-email.md).
+   Weitere Informationen zur Konfiguration einer Landingpage finden Sie auf [dieser Seite](../landing-pages/create-lp.md).
 
 1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
 
 1. Wählen Sie im Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
-1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Weitere Informationen](brands.md) zu Marken.
-
-   Beachten Sie, dass die Brands-Funktion als private Betaversion veröffentlicht wird und in zukünftigen Versionen nach und nach für alle Kunden verfügbar sein wird.
-
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
-   Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
+   Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, rufen Sie die **[!UICONTROL Eingabeaufforderungsbibliothek“ auf]** die eine Vielzahl von Ideen für die Eingabeaufforderung enthält, um Ihre Landingpages zu verbessern.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Bildeinstellungen]** an:
 
@@ -206,7 +187,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -220,19 +201,13 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Wählen Sie **[!UICONTROL Ähnliche generieren]**, wenn Sie verwandte Bilder zu dieser Variante anzeigen möchten.
 
-1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
+   ![](assets/lp-image-gen-4.png){zoomable="yes"}
 
-   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
+1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
 1. Klicken Sie nach dem Definieren des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../personalization/personalize.md)
 
-1. Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
+Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page)
+
 
 >[!ENDTABS]
-
-
-## Anleitungsvideo {#video}
-
-Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer vollständige E-Mail, Text oder Bilder generieren können.
-
->[!VIDEO](https://video.tv.adobe.com/v/3433552)
