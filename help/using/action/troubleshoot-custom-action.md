@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
-source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Mit dieser Funktion wird der Test- und Validierungsprozess optimiert, sodass ben
 
 ## Voraussetzungen {#troubleshoot-custom-action-prereq}
 
-Um die Funktion **[!UICONTROL Testanfrage senden]** verwenden zu können, muss **Benutzerdefinierte Aktion** mit einer URL, Kopfzeilen und Authentifizierungseinstellungen vorkonfiguriert werden.
+Um die Funktion **[!UICONTROL Testanfrage senden]** verwenden zu können, muss **benutzerdefinierte Aktion** mit einer URL, Kopfzeilen und Authentifizierungseinstellungen vorkonfiguriert werden.
 
 Damit Admins diese Funktion verwenden können, sind die folgenden Berechtigungen erforderlich:
 
@@ -48,7 +48,7 @@ Weitere Informationen zu Journey-Berechtigungen finden Sie [ (diesem Abschnitt](
 
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Aktion zu testen:
 
-1. Navigieren Sie zum Konfigurationsbildschirm **Benutzerdefinierte Aktionen** und wählen Sie eine benutzerdefinierte Aktion aus.
+1. Navigieren Sie zum Konfigurationsbildschirm **Aktionen** und wählen Sie eine benutzerdefinierte Aktion aus.
 1. Klicken Sie auf die **[!UICONTROL Testanfrage senden]** Schaltfläche unten im Bildschirm für die Aktionskonfiguration.
    ![Schaltfläche „Testanfrage senden“ im Bereich „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
 1. Im Popup-Fenster können Sie Anforderungsparameter angeben:
