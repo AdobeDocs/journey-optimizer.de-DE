@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
    * E: Tastaturbefehl, um ein Ereignis in einer ereignisbasierten Journey auszulösen.
    * P: Tastaturbefehl, um ein Ereignis in einer zielgruppenbasierten Journey auszulösen, für die die Option „Jeweils ein Einzelprofil“ aktiviert ist.
    * L: Tastaturbefehl, um Testprotokolle anzuzeigen.
-* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde um einen neuen Unterabschnitt zur täglichen Frequenzbegrenzung erweitert, die auf Anfrage zusätzlich zur wöchentlichen oder monatlichen Begrenzung verfügbar ist. [Weitere Informationen](../configuration/frequency-rules.md#daily-frequency-cap)
+* Die Seite Häufigkeitsregeln für Nachrichten wurde mit einem neuen Unterabschnitt zur täglichen Häufigkeitsbegrenzung aktualisiert, der auf Anfrage zusätzlich zur wöchentlichen oder monatlichen Begrenzung verfügbar ist.
 * Die Seite zum Arbeiten mit Einverständnisrichtlinien wurde verbessert und mit nützlichen Links zur Experience Platform-Dokumentation aktualisiert. [Weitere Informationen](../action/consent.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, um der Tatsache Rechnung zu tragen, dass Sie mit dem Raster-Ansichtsmodus (eingeschränkte Verfügbarkeit) HTML-E-Mail-Inhaltsvorlagen als Miniaturansichten anzeigen können. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
 * Auf der Seite „Zustellbarkeit“ wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, welche Feedback-Schleifen vorhanden sind und wie sie genutzt werden können.  [Weitere Informationen](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Liste verfügbarer Funktionen wurde im erweiterten Ausdruckseditor aktualisiert. [Weitere Informationen](../building-journeys/expression/functions.md)
 * Die Seite der Aufspaltungsfunktion wurde aktualisiert. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
-* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich). [Weitere Informationen](../configuration/frequency-rules.md)
+* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde aktualisiert und enthält jetzt die Optionen für die Dauer, die in der Benutzeroberfläche verfügbar sind (wöchentlich oder monatlich).
 * Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Einträge nicht manuell erstellt werden können und dass PTR-Einträge bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Januar 2024 {#jan-2024}
@@ -338,7 +338,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## August 2022 {#august-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version August 2022 wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
+* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln.
 * Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
 * Für Journeys, bei denen Aktivitäten vom Typ „Zielgruppe lesen“ verwendet werden, wurde eine Einschränkung hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md)
 * Die Seite mit den Operatoren des Ausdruckseditors wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
