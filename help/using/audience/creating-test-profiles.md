@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
+source-git-commit: 05a882d3dec6b6f62eac432d14bb9ac9ad48257d
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 100%
@@ -178,7 +178,8 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 
 >[!NOTE]
 >
-> Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials){target="_blank"}.
+>Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials){target="_blank"}.
+>
 
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen {#create-test-profiles-api}
