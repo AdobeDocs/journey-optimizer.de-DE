@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
+source-git-commit: 6c99d733b973efd790f8727bf867fbf0a952f6d9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 24%
@@ -26,7 +26,7 @@ Markenrichtlinien sind eine detaillierte Reihe von Regeln und Standards, die die
 
 In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
-## Zugreifen auf Marken {#generative-access}
+## Zugriff auf Marken {#generative-access}
 
 Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Managed Brand Kit]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
