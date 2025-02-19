@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 94%
+source-wordcount: '1317'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Auswählen des Server-Typs für Ihre Datei"
->abstract="Wählen Sie den Server-Typ aus, der für den Export Ihrer Briefpostdateien verwendet werden soll: Amazon S3, SFTP oder Azure."
+>abstract="Wählen Sie aus, welchen Servertyp Sie für den Export Ihrer Briefpostdateien verwenden möchten: Amazon S3, SFTP, Azure oder Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -60,7 +60,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 >[!NOTE]
 >
->Derzeit werden Amazon S3, SFTP, Azure und die Data Landing Zone in [!DNL Journey Optimizer] unterstützt.
+>Derzeit werden Amazon S3, SFTP, Azure und Data Landing Zone in [!DNL Journey Optimizer] unterstützt.
 
 Zum Versand einer Briefpostnachricht generiert [!DNL Journey Optimizer] die Datei mit den Daten der anvisierten Zielgruppe und exportiert sie auf einen Server.
 
@@ -68,19 +68,25 @@ Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Da
 
 Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
->[!BEGINTABS]
-
->[!TAB Amazon S3]
-
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Wählen Sie **Amazon S3** als **[!UICONTROL Server-Typ]** zum Exportieren der Direkt-Mail-Dateien.
+1. Wählen Sie den Servertyp aus, den Sie für den Export Ihrer Briefpostdateien verwenden möchten: Amazon S3, SFTP, Azure oder Data Landing Zone. Die für jeden Server-Typ spezifischen Felder werden auf den folgenden Registerkarten beschrieben.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
+
+1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
+
+   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
+
+1. Wählen Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** aus.
 
 1. Geben Sie die Details und Anmeldedaten für Ihren Server ein.
 
@@ -96,21 +102,9 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
-
-   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
-
 >[!TAB SFTP]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Legen Sie einen Namen für Ihre Konfiguration fest.
-
-1. Wählen Sie SFTP als **[!UICONTROL Server-Typ]** für den Export der Briefpostdateien aus.
-
-   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+1. Wählen Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]**.
 
 1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
@@ -130,21 +124,9 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
-
-   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
-
 >[!TAB Azure]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
-
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Legen Sie einen Namen für Ihre Konfiguration fest.
-
-1. Wählen Sie Azure als **[!UICONTROL Server-Typ]** für den Export der Briefpostdateien aus.
-
-   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+1. Wählen Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** aus.
 
 1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
@@ -156,33 +138,23 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
    * **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
 
-     Der **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten. Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
+     Der **Container-**) sollte nur den Namen des Containers ohne Schrägstriche enthalten.
+
+     >[!NOTE]
+     >
+     >Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
+
+     ![](assets/file-routing-config-azure-detail.png)
 
 1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
-
-   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
-
 >[!TAB Data Landing Zone]
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
+1. Wählen Sie **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server-Typ]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
-
-1. Legen Sie einen Namen für Ihre Konfiguration fest.
-
-1. Wählen Sie als **[!UICONTROL -Typ die Data Landing Zone]**, um die Briefpostdateien zu exportieren.
-
-   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
-
-1. Um die Datei zu verschlüsseln, kopieren Sie Ihren Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-]**&quot;. <!--To find it, ...-->
+1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
    ![](assets/file-routing-config-dlz-detail.png)
-
-1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
-
-   Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
 
 Weitere Informationen zur Data Landing Zone finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
