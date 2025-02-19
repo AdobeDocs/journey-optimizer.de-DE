@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate
 keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 7df2d6a68ce20dbd9d07be3d6cfba9eba5ec0242
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1367'
+ht-degree: 100%
 
 ---
 
@@ -179,6 +179,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
    ![](assets/test-profiles-21.png)
 
 Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+
 >[!NOTE]
 >
 > Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials){target="_blank"}.
