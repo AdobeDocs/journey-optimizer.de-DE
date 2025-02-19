@@ -7,10 +7,10 @@ badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4919c8c749f9216be526bab2437a815da0136df5
+source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 19%
+source-wordcount: '427'
+ht-degree: 22%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 19%
 >[!AVAILABILITY]
 >
 >Diese Funktion wird als private Betaversion veröffentlicht. Es wird in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.
->
 
 Markenrichtlinien sind eine detaillierte Reihe von Regeln und Standards, die die visuelle und verbale Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
 
-In Journey Optimizer haben Sie jetzt die Möglichkeit, Ihre Markendetails manuell einzugeben und zu organisieren oder Dokumente zu Markenrichtlinien hochzuladen, um die Informationen automatisch zu extrahieren.
+In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails manuell einzugeben und zu organisieren oder Dokumente zu Markenrichtlinien hochzuladen, um Informationen automatisch zu extrahieren.
 
 ## Zugreifen auf Marken {#generative-access}
 
-Um auf das Markenmenü in Adobe Journey Optimizer zugreifen zu können, müssen Benutzenden die Berechtigungen **Managed Brand Kit** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
+Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Managed Brand Kit]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
 +++  Erfahren Sie, wie Sie markenbezogene Berechtigungen zuweisen
 
@@ -51,34 +50,41 @@ Um auf das Markenmenü in Adobe Journey Optimizer zugreifen zu können, müssen 
 
 1. Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-
 +++
 
 ## Marke erstellen {#create-brand-kit}
 
 Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details entweder selbst eingeben oder Ihr Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
 
-1. Klicken Sie im Menü **[!UICONTROL Marken]** auf **[!UICONTROL Marke hinzufügen]**.
+1. Klicken Sie im Menü **[!UICONTROL Marken]** auf **[!UICONTROL Marke erstellen]**.
 
    ![](assets/brands-1.png)
 
-1. Geben Sie **[!UICONTROL Markenrichtlinie]** „Name“ und **[!UICONTROL &quot;]**&quot; ein.
+1. Geben Sie einen **[!UICONTROL Namen]** für Ihre Marke ein<!--and a **[!UICONTROL Description]** to your brand guideline-->.
 
-1. Datei per Drag-and-Drop ziehen oder auswählen, um Ihre Markenrichtlinien hochzuladen und automatisch relevante Markeninformationen zu extrahieren. Klicken Sie **[!UICONTROL Marke hinzufügen]**.
+   ![](assets/brands-2-temp.png)
 
-   Der Informationsextraktionsprozess beginnt jetzt. Beachten Sie, dass dieser Vorgang mehrere Minuten dauern kann.
+<!--
 
-   ![](assets/brands-2.png)
+[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
 
-1. Ihre Standards für Inhalt und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen.
+1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
-1. Klicken Sie in **[!UICONTROL Standards zur Inhaltserstellung]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine weitere Richtlinie, ein Beispiel oder einen Ausschluss hinzuzufügen.
+    The information extraction process now begins. Note that it may take several minutes to complete.
+
+    ![](assets/brands-2.png)
+
+1. Your Content and visual creation standards are now automatically populated. Browse through the different tabs to adapt the information as needed.
+
+-->
+
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Schreibstil“ auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine Richtlinie oder einen Ausschluss hinzuzufügen. Sie können auch Beispiele hinzufügen.
 
    ![](assets/brands-3.png)
 
-1. Klicken Sie **[!UICONTROL „Visuelle]**&quot; auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine weitere Richtlinie, ein Beispiel oder einen Ausschluss hinzuzufügen.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller]**) auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine weitere Richtlinie oder einen Ausschluss hinzuzufügen.
 
-1. Um ein Bildbeispiel hinzuzufügen, klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch alle identifizierten falschen Einblicke hinzufügen.
+1. Um ein Bildbeispiel hinzuzufügen, klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild mit falscher Verwendung als Ausschlussbeispiel hinzufügen.
 
    ![](assets/brands-4.png)
 
