@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '583'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Mit dieser Funktion wird der Test- und Validierungsprozess optimiert, sodass ben
 
 Um die Funktion **[!UICONTROL Testanfrage senden]** verwenden zu können, muss **Benutzerdefinierte Aktion** mit einer URL, Kopfzeilen und Authentifizierungseinstellungen vorkonfiguriert werden.
 
-Damit der Administrator diese Funktion verwenden kann, sind die folgenden Berechtigungen erforderlich:
+Damit Admins diese Funktion verwenden können, sind die folgenden Berechtigungen erforderlich:
 
 * Benutzer müssen über die Berechtigung **[!DNL Manage journeys events, data sources and actions]** verfügen.
 * Diese Berechtigung ist in der Rolle *Journey-Administratoren* enthalten.
@@ -44,12 +44,15 @@ Damit der Administrator diese Funktion verwenden kann, sind die folgenden Berech
 
 Weitere Informationen zu Journey-Berechtigungen finden Sie [ (diesem Abschnitt](../administration/high-low-permissions.md#journey-capability).
 
-## Verwenden der Funktion „Testanfrage senden“ {#troubleshoot-custom-action-use}
+## Verwendung der Funktion „Testanfrage senden“ {#troubleshoot-custom-action-use}
 
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Aktion zu testen:
 
-1. Navigieren Sie zum Konfigurationsbildschirm **Benutzerdefinierte Aktionen** .
-1. Klicken Sie auf die **[!UICONTROL Testanfrage senden]**.
+1. Navigieren Sie zum Konfigurationsbildschirm **Benutzerdefinierte Aktionen** und wählen Sie eine benutzerdefinierte Aktion aus.
+1. Klicken Sie auf die **[!UICONTROL Testanfrage senden]** Schaltfläche unten im Bildschirm für die Aktionskonfiguration.
+
+![Schaltfläche „Testanfrage senden“ im Bereich „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
+
 1. Im Popup-Fenster können Sie Anforderungsparameter angeben:
 
    * Wenn die **benutzerdefinierte Aktionsmethode GET** ist, ist keine Payload erforderlich.
