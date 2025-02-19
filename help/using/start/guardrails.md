@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
 
+## Leitlinien für Zielgruppen {#audience}
+
+Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+
+## Leitplanken für Entscheidungs- und Entscheidungs-Management {#decisioning}
+
+Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
+
+* [Leitplanken und Einschränkungen bei Entscheidungen](../experience-decisioning/decisioning-guardrails.md)
+* [Leitplanken und Einschränkungen beim Entscheidungs-Management](../offers/decision-management-guardrails.md)
+
 ## Leitlinien für Journeys {#journeys-guardrails}
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 * Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
 * Zusätzlich zu der in den Journey-Aktivitäten verwendeten maximalen Wartezeit gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### Allgemeine Aktionen {#general-actions-g}
 
@@ -127,7 +137,6 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Über Ereignisse, die in Batches aufgenommen werden, oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) kann eine Journey nicht ausgelöst werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
 
-
 ### Datenquellen {#data-sources-g}
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
@@ -153,7 +162,6 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/update-profiles.md) aufgeführt.
 
-
 ### Lesen der Zielgruppe {#read-segment-g}
 
 Für die Aktivität **[!UICONTROL Zielgruppe lesen]** gelten die folgenden Schutzmechanismen:
@@ -166,18 +174,15 @@ Für die Aktivität **[!UICONTROL Zielgruppe lesen]** gelten die folgenden Schut
 * Zusätzliche Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** finden Sie auf [dieser Seite](../building-journeys/read-audience.md).
 * Beim Abrufen des Exportauftrags werden standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
 
-
 ### Zielgruppen-Qualifizierung {#audience-qualif-g}
 
 Für die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** gilt der folgende Schutzmechanismus:
 
 * Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 
-
 ### Ausdruckseditor {#expression-editor}
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
-
 
 ### In-App-Aktivität {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ Für die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** gilt der folgend
 
 * Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
 
-
-
 ### Aktivität „Springen“ {#jump-g}
 
 Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/jump.md#jump-limitations) aufgeführt.
@@ -209,37 +212,3 @@ Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign
 
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
 * Diese Aktivitäten können nicht mit In-App-Aktivitäten verwendet werden.
-
-## Leitlinien für Zielgruppen {#audience}
-
-Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
-
-## Leitlinien beim Entscheidungs-Management {#decision-management}
-
-### Performance-Garantien {#performance-guardrails}
-
-Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs-Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
-
-| API | Entscheidungen pro Sekunde |
-|---------|----------|
-| Decisioning-API-Anfragen | 500 pro Sekunde |
-| Edge Decisioning-API-Anfragen mit Edge-Segmentierung | 1.500 pro Sekunde |
-| Edge Decisioning-API-Anfragen ohne Edge-Segmentierung | 5.000 pro Sekunde |
-
-### Einschränkungen {#offers-limitations}
-
-Die Einschränkungen des Entscheidungs-Managements sind unten aufgeführt.
-
-* **Genehmigte personalisierte Angebote + Fallback-Angebote** – Bis zu 10.000 kombinierte genehmigte personalisierte Angebote und genehmigte Fallback-Angebote.
-* **Entscheidungen** – bis zu 10.000 Entscheidungen.
-* **Live-Entscheidungen** – Der Offer Decisioning App-Dienst unterstützt bis zu 1.000 Live-Entscheidungen.
-* **Angebote, die pro Antwort zurückgegeben werden** – Offer Decisioning unterstützt bis zu 100 Angebote, die pro Anfrage über alle Entscheidungsbereiche in der Anfrage zurückgegeben werden.
-* **Sammlungen** – Bis zu 10.000 Sammlungen.
-* **Sammlungen pro Entscheidung** – Bis zu 30 Sammlungen pro Entscheidung.
-* **Entscheidungsregeln + Rangfolgefunktionen** – Bis zu 10.000 kombinierte Entscheidungsregeln und Rangfolgefunktionen.
-* **Platzierungen** – Bis zu 1.000 Platzierungen.
-* **Platzierungen pro Entscheidung** – Bis zu 30 Platzierungen pro Entscheidung.
-* **Rangfolgemethode pro Entscheidung** – Der Offer Decisioning App-Dienst unterstützt bis zu 30 Rangfolgefunktionen pro Entscheidung.
-* **KI-Rangfolgemodell** – Der Offer Decisioning App-Dienst unterstützt bis zu 5 KI-Rangfolgemodelle.
-* **Sammlungsqualifikatoren pro Angebot oder Sammlung** – Der Offer Decisioning App-Dienst unterstützt bis zu 20 Sammlungsqualifikatoren in jedem einzelnen personalisierten Angebot oder jeder einzelnen Sammlung.
-* **Gesamtanzahl der Sammlungsqualifikatoren** – Der Offer Decisioning App-Dienst unterstützt bis zu 1.000 Sammlungsqualifikatoren.

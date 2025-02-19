@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 92%
+source-wordcount: '484'
+ht-degree: 89%
 
 ---
 
@@ -31,26 +31,6 @@ Diese Entscheidungselemente werden über den neuen [Code-basierten Erlebniskanal
 >Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
 
 ➡️ In diesem Abschnitt wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Entscheidungen erstellt und in Inhaltsexperimenten mit dem Code-basierten Erlebniskanal verwendet [](experience-decisioning-uc.md).
-
-## Leitlinien und Einschränkungen {#guardrails}
-
-Um eine optimale Nutzung der Entscheidungsfindung sicherzustellen, sollten Sie die folgenden Leitlinien und Einschränkungen beachten:
-
-### Allgemeine Leitlinien {#general}
-
-* **Angebotselemente**: Jede Elementsammlung kann bis zu 500 Angebotselemente enthalten.
-* **Benutzerdefinierte Attribute**: Ein Entscheidungselement kann maximal 100 benutzerdefinierte Attribute enthalten.
-* **Auswahlstrategien und Entscheidungselemente pro Richtlinie**: Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen.
-
-### Eignungsregeln {#eligibility}
-
-* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen.
-* **Regelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 15 KB groß sein. Das entspricht 15.000 ASCII-Zeichen (jeweils 1 Byte) oder 3.750 bis 7.500 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte).
-
-### Rangfolgeformeln {#ranking}
-
-* **Verschachtelungsebenen**: Die Verschachtelungstiefe ist auf 30 Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen.
-* **Formelzeichenfolgengröße**: Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte).
 
 ## Wichtige Schritte bei der Entscheidungsfindung {#steps}
 

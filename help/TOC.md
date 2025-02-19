@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [Erste Schritte mit Entscheidungsfunktionen](using/experience-decisioning/gs-decision.md)
    + Entscheidungsfindung {#experience-decisioning}
       + [Erste Schritte mit der Entscheidungsfindung](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Leitplanken und Einschränkungen bei Entscheidungen](using/experience-decisioning/decisioning-guardrails.md)
       + API-Verweis{#api-reference}
          + Entscheidungselemente{#decision-items}
             + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
+         + [Leitplanken und Einschränkungen beim Entscheidungs-Management](using/offers/decision-management-guardrails.md)
          + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
          + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
          + [Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung](using/offers/custom-upload-decisioning.md)
