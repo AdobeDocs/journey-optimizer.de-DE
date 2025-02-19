@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
+source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 84%
+source-wordcount: '1311'
+ht-degree: 81%
 
 ---
 
@@ -84,79 +84,67 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 >[!TAB Amazon S3]
 
-Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]**:
+Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Servertyp]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
-1. Geben Sie die Details und Anmeldedaten für Ihren Server ein.
+* **Name des AWS-Buckets**: Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Name des AWS-Buckets**: Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
+* **AWS-Zugriffsschlüssel**: Informationen dazu, wo Sie die ID Ihres AWS-Zugangsschlüssels finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **AWS-Zugriffsschlüssel**: Informationen dazu, wo Sie die ID Ihres AWS-Zugangsschlüssels finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+* **Geheimer AWS-Schlüssel**: Informationen dazu, wo Sie Ihren geheimen AWS-Schlüssel finden, erhalten Sie auf [dieser Seite](https://aws.amazon.com/de/blogs/security/wheres-my-secret-access-key/).
 
-   * **Geheimer AWS-Schlüssel**: Informationen dazu, wo Sie Ihren geheimen AWS-Schlüssel finden, erhalten Sie auf [dieser Seite](https://aws.amazon.com/de/blogs/security/wheres-my-secret-access-key/).
+* **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** in der sich die Server-Infrastruktur befinden wird. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
-   * **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** in der sich die Server-Infrastruktur befinden wird. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
-
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
+![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
-Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]**:
+Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
-1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
+* **Konto**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
 
-   * **Konto**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
+* **Server-Adresse**: URL des SFTP-Servers.
 
-   * **Server-Adresse**: URL des SFTP-Servers.
+* **Port**: Port-Nummer der FTP-Verbindung.
 
-   * **Port**: Port-Nummer der FTP-Verbindung.
+* **Passwort**: Passwort, das für die Verbindung zum SFTP-Server verwendet wird.
 
-   * **Passwort**: Passwort, das für die Verbindung zum SFTP-Server verwendet wird.
+![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
-
-   >[!NOTE]
-   >
-   >Um einen Pfad auf dem Server zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
-
-1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
+>[!NOTE]
+>
+>Um einen Pfad auf dem Server zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 
-Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]**:
+Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
-1. Geben Sie die Details und Anmeldedaten für Ihren Server ein:
+* **Azure-Verbindungszeichenfolge**: Informationen dazu, wie Sie Ihre **Azure-Verbindungszeichenfolge** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-   * **Azure-Verbindungszeichenfolge**: Informationen dazu, wie Sie Ihre **Azure-Verbindungszeichenfolge** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+  Die **Azure-Verbindungszeichenfolge** sollte dem folgenden Format entsprechen:
 
-     Die **Azure-Verbindungszeichenfolge** sollte dem folgenden Format entsprechen:
+  `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+* **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
 
-   * **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
+  Der **Container-**) sollte nur den Namen des Containers ohne Schrägstriche enthalten.
 
-     Der **Container-**) sollte nur den Namen des Containers ohne Schrägstriche enthalten.
+  >[!NOTE]
+  >
+  >Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
-
-     ![](assets/file-routing-config-azure-detail.png)
-
-1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
+  ![](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Data Landing Zone]
 
 Wenn Sie **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server-Typ]** ausgewählt haben, sind keine spezifischen Details erforderlich.
-
-Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
 ![](assets/file-routing-config-dlz-detail.png)
 
 Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
+
+Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
 Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Senden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
