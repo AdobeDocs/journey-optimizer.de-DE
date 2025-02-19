@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Dokumentation zur **[!UICONTROL Sendezeitoptimierung]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Es wurden neue Schutzmechanismen für Journey-Ereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 * Die Seite mit den integrierten Kanalaktionen wurde neu angeordnet. [Weitere Informationen](../building-journeys/journeys-message.md)
-* Im Abschnitt Entscheidungs- und Entscheidungs-Management wurden Leitplanken und Einschränkungen hinzugefügt.
+* In den Abschnitten Entscheidungs- und Entscheidungs-Management wurden Leitplanken und Einschränkungen hinzugefügt.
    * [Leitplanken und Einschränkungen bei Entscheidungen](../experience-decisioning/decisioning-guardrails.md)
    * [Leitplanken und Einschränkungen beim Entscheidungs-Management](../offers/decision-management-guardrails.md)
+* In der Dokumentation zum Entscheidungs-Management wurde ein neuer Abschnitt zu Kontextdaten hinzugefügt. Es enthält Informationen zur Nutzung von Kontextdaten in der Entscheidungs-Engine, z. B. zum Entwerfen einer Entscheidungsregel, für die das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage ≥80 Grad betragen muss. [Weitere Informationen](../offers/context-data.md)
 
 ## Januar 2025 {#jan-2025}
 

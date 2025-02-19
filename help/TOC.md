@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 97%
+source-wordcount: '2191'
+ht-degree: 96%
 
 ---
 
@@ -521,6 +521,10 @@ ht-degree: 97%
          + [Erste Schritte mit der Datenerfassung](using/offers/data-collection/data-collection.md)
          + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/data-collection/create-dataset.md)
          + [Konfigurieren der Ereigniserfassung](using/offers/data-collection/schema-requirement.md)
+      + Nutzen von Kontextdaten {#context-data}
+         + [Erste Schritte mit Kontextdaten](using/offers/context-data.md)
+         + [Kontextdaten und Edge-Entscheidungsanfragen](using/offers/context-data-edge.md)
+         + [Kontextdaten und Entscheidungsanfrage](using/offers/context-data-decisioning.md)
       + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
          + [Arbeiten mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
          + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)

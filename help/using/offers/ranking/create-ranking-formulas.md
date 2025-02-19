@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 66%
 
 ---
 
@@ -37,7 +38,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
 1. Geben Sie den Namen und die Beschreibung der Formel sowie die Formel selbst an.
 
-   In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
+   In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Dazu wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. [Erfahren Sie, wie Sie mit Kontextdaten arbeiten](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Kontextdaten
-
-Verstärken Sie bestimmte Angebote auf der Grundlage der Kontextdaten, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
-
-**Rangfolgeformel:**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-Beachten Sie, dass bei Verwendung der Decisioning-API die Kontextdaten im Anfragehauptteil zum Profilelement hinzugefügt werden (siehe folgendes Beispiel).
-
-**Snippet im Anfragehauptteil:**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### Verstärken von Angeboten entsprechend der Neigung der Kunden, das angebotene Produkt zu kaufen
 
 Sie können die Punktzahl für ein Angebot basierend auf einem Tendenzwert für den Kunden erhöhen.
@@ -169,14 +134,100 @@ In diesem Fall für ein Profil wie:
 }
 ```
 
-Die Angebote enthalten ein Attribut für *propensityType*, das mit der Kategorie der Punktwerte übereinstimmt:
+### Verstärken von Angeboten basierend auf Kontextdaten {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer] ermöglicht es, bestimmte Angebote basierend auf den im Aufruf übergebenen Kontextdaten zu optimieren. Wenn beispielsweise der `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden. Detaillierte Informationen zum Übergeben von Kontextdaten mithilfe der APIs **Edge Decisioning** und **Decisioning** finden Sie [diesem Abschnitt](../context-data.md)
 
-Ihre Rangfolgeformel kann dann die Priorität jedes Angebots so festlegen, dass sie dem *propensityScore* des Kunden für diesen *propensityType* entspricht. Wenn kein Punktwert gefunden wird, verwenden Sie die statische Priorität für das Angebot:
+Beachten Sie, dass bei Verwendung der **Decisioning**-API die Kontextdaten im Anfrageinhalt zum Profilelement hinzugefügt werden, wie im folgenden Beispiel.
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Rangfolgeformeln verwendet werden können, um die Priorität von Angeboten zu erhöhen. Erweitern Sie jeden Abschnitt, um Details zur Syntax der Rangfolgenformel zu erhalten.
+
+>[!NOTE]
+>
+>Ersetzen Sie in den Beispielen für die Edge Decisioning-API `<OrgID>` durch Ihre Organisations-Mandanten-ID.
+
++++Erhöhen Sie die Angebotspriorität um 10, wenn der Kanal aus den Kontextdaten mit dem bevorzugten Kanal des Kunden übereinstimmt.
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning-API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB Edge Decisioning-API]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Erhöhen Sie die Priorität aller Angebote mit „attribute=hot“, wenn „contextData.weather=hot“ im Aufruf übergeben wird.
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning-API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB Edge Decisioning-API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Content Origin Boost
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning-API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB Edge Decisioning-API]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Wetterauftrieb
+
+>[!BEGINTABS]
+
+>[!TAB Decisioning-API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB Edge Decisioning-API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++

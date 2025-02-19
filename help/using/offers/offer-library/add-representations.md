@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
 Wenn Kontextdaten im Aufruf von [Edge Decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) übergeben werden, können Sie diese Daten nutzen, um Darstellungen dynamisch zu personalisieren. Sie können beispielsweise die Darstellung eines Angebots auf Basis von Echtzeitfaktoren wie aktuellen Wetterbedingungen zum Zeitpunkt der Entscheidungsfindung anpassen.
 
-Binden Sie dazu die Kontextdatenvariable direkt in den Inhalt der Darstellung ein, indem Sie den Namespace `profile.timeSeriesEvents.` verwenden.
+Um Kontextdaten in Angebotsdarstellungen zu verwenden, integrieren Sie die Kontextdatenvariable direkt in den Darstellungsinhalt, indem Sie den Namespace `profile.timeSeriesEvents.` verwenden.
 
 Im Folgenden finden Sie ein Syntaxbeispiel, mit dem die Darstellung eines Angebots basierend auf den Betriebssystemen der Benutzenden personalisiert wird:
 
