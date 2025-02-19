@@ -9,7 +9,7 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -50,9 +50,7 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Aktion zu testen:
 
 1. Navigieren Sie zum Konfigurationsbildschirm **Benutzerdefinierte Aktionen** und wählen Sie eine benutzerdefinierte Aktion aus.
 1. Klicken Sie auf die **[!UICONTROL Testanfrage senden]** Schaltfläche unten im Bildschirm für die Aktionskonfiguration.
-
-![Schaltfläche „Testanfrage senden“ im Bereich „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
-
+   ![Schaltfläche „Testanfrage senden“ im Bereich „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
 1. Im Popup-Fenster können Sie Anforderungsparameter angeben:
 
    * Wenn die **benutzerdefinierte Aktionsmethode GET** ist, ist keine Payload erforderlich.
