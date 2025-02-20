@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 93%
 
 ---
@@ -97,13 +97,6 @@ ht-degree: 93%
 >title="Andere Profile"
 >abstract="Schalten Sie diese Option ein, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Veröffentlichen Ihrer Zielgruppe"
->abstract="Veröffentlichen Sie Ihre Komposition, um die resultierende(n) Zielgruppe(n) in Adobe Experience Platform zu speichern."
->
-[!BEGINSHADEBOX]
-
 Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie nur Kundin bzw. Kunde des Echtzeit-Kundenprofils sind und Adobe Journey Optimizer nicht verwenden, [klicken Sie hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de){target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 >Zielgruppen aus **Zielgruppenkomposition** werden täglich ausgeführt. Daher müssen Sie möglicherweise bis zu 24 Stunden warten, um sie in Journey Optimizer zu verwenden. Angereicherte Attribute in Zielgruppenkompositions-Zielgruppen sind so aktuell wie die letzte Kompositionsausführung, die bis zu 24 Stunden in der Vergangenheit liegen kann.
 
 ## Zugriff auf Kompositionen {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Veröffentlichen Ihrer Zielgruppe"
->abstract="Veröffentlichen Sie Ihre Komposition, um die resultierende(n) Zielgruppe(n) in Adobe Experience Platform zu speichern."
 
 Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Kompositionen]** verfügbar. Sie können eine bestehende Komposition jederzeit duplizieren oder löschen, indem Sie die Schaltfläche mit den Auslassungspunkten in der Liste verwenden.
 
