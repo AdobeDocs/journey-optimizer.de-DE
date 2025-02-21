@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="KI-Assistent in Journey Optimizer"
->abstract="Nachdem Sie den Versand erstellt und personalisiert haben, können Sie den KI-Assistenten in Journey Optimizer verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
+>abstract="Nachdem der Versand erstellt und personalisiert wurde, kann der KI-Assistent in Journey Optimizer verwendet werden, um die Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Verbesserung der Inhalte, da diese durch eine Beschreibung dessen, was generiert werden soll, genauer angepasst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Hochladen von Marken-Assets"
->abstract="Im Menü Marken-Asset hochladen können Sie jedes Marken-Asset hinzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten in Journey Optimizer bieten können, oder ein zuvor hochgeladenes Asset auswählen. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
+>abstract="Mit dem Menü „Marken-Asset hochladen“ kann ein beliebiges Marken-Asset hinzugefügt werden, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten in Journey Optimizer bieten können. Die Auswahl eines zuvor hochgeladenen Assets ist ebenfalls möglich. Diese Option stellt sicher, dass der KI-Assistent Zugriff auf alle erforderlichen Materialien hat, um seine Funktionalität und Relevanz zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
