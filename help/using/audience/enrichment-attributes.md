@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Verwenden von Zielgruppen-Anreicherungsattributen {#enrichment}
+# Verwenden von Zielgruppenanreicherungsattributen {#enrichment}
 
 Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder der Komposition föderierter Zielgruppen generiert wurde, können Sie Anreicherungsattribute von diesen Zielgruppen nutzen, um Ihre Journey zu erstellen und Ihre Nachrichten zu personalisieren.
 
@@ -65,7 +65,7 @@ Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 
 Anreicherungsattribute sind zusätzliche Attribute, die kontextuell und spezifisch für eine Zielgruppe sind. Sie sind nicht mit dem Profil verknüpft und werden normalerweise zu Personalisierungszwecken verwendet.
 
-Anreicherungsattribute werden mit einer Zielgruppe über eine Aktivität des Typs Anreicherung in der Zielgruppenkomposition oder über den benutzerdefinierten Upload-Prozess verknüpft.
+Anreicherungsattribute werden über eine Anreichern-Aktivität in der Zielgruppenkomposition oder durch den benutzerdefinierten Upload-Prozess mit einer Zielgruppe verknüpft.
 
 +++
 

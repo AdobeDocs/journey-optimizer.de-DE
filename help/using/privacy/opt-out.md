@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Bei der Nutzung von Angeboten werden Personalisierungsvoreinstellungen nicht aut
 >
 >Entscheidungsbereiche, die von in [!DNL Journey Optimizer] verfassten Kanälen verwendet werden, erfüllen diese Anforderung der Journey oder Kampagne, zu der sie gehören.
 
-1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Inhalt personalisieren = Ja (Opt-in)]**, um Benutzende anzusprechen, die sich mit einer Personalisierung einverstanden erklärt haben.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Inhalt personalisieren = Ja (Opt-in)]**, um Benutzende anzusprechen, die sich mit einer Personalisierung einverstanden erklärt haben.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Um das Einverständnis zur Personalisierung in Kampagnen manuell durchzusetzen, 
 
 Sie können den Segment-Regel-Builder verwenden, um eine Zielgruppe mit Opt-out-Profilen zu erstellen.
 
-1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"}.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -143,7 +143,7 @@ Sie können einer Zielgruppe auch eine Einverständnisprüfung für die Personal
 
 1. Fügen Sie Ihre Ausgangszielgruppe über die dedizierte Schaltfläche rechts hinzu.
 
-1. Klicken Sie auf das Symbol **+** und wählen Sie eine Aktivität **[!UICONTROL Aufspaltung]** aus, um eine aufgeteilte Zielgruppe zu erstellen.
+1. Klicken Sie auf das **+**-Symbol und wählen Sie eine **[!UICONTROL Aufspaltungsaktivität]**, um eine geteilte Zielgruppe zu erstellen. 
 
    ![](assets/perso-consent-audience-split.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 691474e332e9c62dd1be8b8b044e0d02781805ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die 
 
 ## Verzögerung der Zielgruppenaktivierung {#activation}
 
-Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in Journey Optimizer bereit. Dies geschieht zwar normalerweise innerhalb einer Stunde, unterliegt aber gewissen Schwankungen. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
+Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in Journey Optimizer bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
 
-## Benutzerdefiniertes Hochladen und Federated Audience-Komposition
+## Benutzerdefinierter Upload und Komposition föderierter Zielgruppen
 
-Beachten Sie die folgenden Leitplanken für das Hochladen benutzerdefinierter und zusammengeführter Zielgruppenkomposition-Zielgruppen:
+Beachten Sie die folgenden Leitlinien für benutzerdefinierte Uploads und Kompositionen föderierter Zielgruppen:
 
 * **Vorschau und Testversand:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mithilfe eines CSV-Uploads oder der Komposition föderierter Zielgruppen erstellt wurden, nicht unterstützt. Berücksichtigen Sie dies bei der Planung Ihrer Kampagnen.
 

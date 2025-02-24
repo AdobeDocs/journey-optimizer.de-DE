@@ -10,19 +10,19 @@ level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Attributbasierte Zugriffssteuerung {#attribute-based-access}
 
-Mit der attributbasierten Zugriffssteuerungsfunktion können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
+Mit der Funktion der attributbasierten Zugriffssteuerung können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
-Verwenden Sie die attributbasierte Zugriffssteuerung in Adobe Journey Optimizer, um Daten zu schützen und spezifischen Zugriff auf bestimmte Feldelemente zu gewähren, einschließlich Experience-Datenmodell (XDM)-Schemata, Profilattribute und Zielgruppen.
+Verwenden Sie die attributbasierte Zuriffssteuerung in Adobe Journey Optimizer, um Daten zu schützen und spezifischen Zugriff auf bestimmte Feldelemente zu gewähren, darunter Experience-Datenmodell(XDM)-Schemata, Profilattribute und Zielgruppen.
 
-Eine detailliertere Liste der bei der attributbasierten Zugriffssteuerung verwendeten Terminologie finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=de){target="_blank"}.
+Eine detailliertere Liste der bei der attributbasierten Zugriffssteuerung verwendeten Begriffe finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=de){target="_blank"}.
 
 In diesem Beispiel möchten wir dem Schemafeld **Staatsangehörigkeit** einen Titel hinzufügen, um nicht autorisierte Benutzer an der Verwendung zu hindern. Damit dies funktioniert, gehen Sie wie folgt vor:
 
@@ -104,11 +104,11 @@ Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemata]**,
 
    ![](assets/label_3.png)
 
-1. Wählen Sie die entsprechenden **[!UICONTROL Titel]** aus. In diesem Fall können die C2-Daten nicht an einen Drittanbieter exportiert werden. Eine detaillierte Liste der verfügbaren Bezeichnungen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de#contract-labels){target="_blank"}.
+1. Wählen Sie die entsprechenden **[!UICONTROL Titel]** aus. In diesem Fall können die C2-Daten nicht an einen Drittanbieter exportiert werden. Eine detaillierte Liste der verfügbaren Titel finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalisieren Sie Ihr Schema bei Bedarf weiter und aktivieren Sie es dann. Die detaillierten Schritte zum Aktivieren Ihres Schemas finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#profile){target="_blank"}.
+1. Personalisieren Sie Ihr Schema bei Bedarf weiter und aktivieren Sie es dann. Die detaillierten Schritte zum Aktivieren Ihres Schemas finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#profile){target="_blank"}.
 
 Das Feld Ihres Schemas ist nun nur noch für Benutzer sichtbar, die Teil eines Rollensets mit dem Titel „C2“ sind, und kann nur von diesen verwendet werden.
 Beachten Sie, dass der **[!UICONTROL Titel]** automatisch auf das Feld **Staatsangehörigkeit** in jedem erstellten Schema angewendet wird, wenn Sie Ihrem **[!UICONTROL Feldnamen]** einen **[!UICONTROL Titel]** zuweisen.

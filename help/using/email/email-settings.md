@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ Nachdem ein IP-Pool ausgewählt wurde, sind PTR-Informationen zu sehen, wenn Sie
 
 ## Abmelden von der Liste {#list-unsubscribe}
 
-Bei der Auswahl einer Subdomain aus der Liste wird die Option **[!UICONTROL Listen-Abonnement kündigen aktivieren]** angezeigt. Sie ist standardmäßig aktiviert.
+Bei der Auswahl einer Subdomain aus der Liste wird die Option **[!UICONTROL Abmelden von der Liste aktivieren]** angezeigt. Diese ist standardmäßig aktiviert.
 
-Damit können Sie eine 1-Klick-Abmelde-URL in die E-Mail-Kopfzeile einfügen. [Weitere Informationen](list-unsubscribe.md)
+Dadurch können Sie eine URL zum Abmelden mit einem Klick in die E-Mail-Kopfzeile einfügen. [Weitere Informationen](list-unsubscribe.md)
 
-## Kopfzeilenparameter {#email-header}
+## Header-Parameter {#email-header}
 
-Geben **[!UICONTROL im Abschnitt]** die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Konfiguration gesendeten E-Mail-Typ verknüpft sind. [Weitere Informationen](header-parameters.md)
+Geben Sie im Abschnitt **[!UICONTROL Header-Parameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind. [Weitere Informationen](header-parameters.md)
 
 ## BCC-E-Mail-Adresse {#bcc-email}
 

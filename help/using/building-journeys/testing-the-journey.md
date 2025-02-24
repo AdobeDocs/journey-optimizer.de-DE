@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -61,8 +61,8 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Wichtige Hinweise {#important_notes}
 
-* Im Testmodus können Sie Ereignisse nur über die Benutzeroberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
-* Nur Personen, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen die getestete Journey betreten. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
+* Im Testmodus können Sie Ereignisse nur über die Oberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
+* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
 * Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
 * Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 * Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
-* Beim Testen von Journey, die mehrere Ereignisse enthalten, müssen Sie jedes Ereignis der Reihe nach mit einem Trigger versehen. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen und das Profil wird an einen maximalen Wartepfad gesendet. Bestätigen Sie immer, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload im definierten Fenster senden
+* Beim Testen von Journeys, die mehrere Ereignisse enthalten, müssen Sie jedes Ereignis der Reihe nach auslösen. Wird ein Ereignis zu früh (vor Abschluss des ersten Warteknotens) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
 
 
 <!--
@@ -91,7 +91,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Erei
 >
 >* Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 >
->* Stellen Sie sicher, dass jedes Ereignis im Testmodus in der richtigen Reihenfolge und innerhalb des konfigurierten Wartefensters ausgelöst wird. Wenn beispielsweise eine Wartezeit von 60 Sekunden vorliegt, muss das zweite Ereignis erst nach Ablauf dieser Wartezeit von 60 Sekunden und vor Ablauf des Timeout-Limits ausgelöst werden.
+>* Stellen Sie sicher, dass jedes Ereignis im Testmodus in der richtigen Reihenfolge und innerhalb des konfigurierten Wartefensters ausgelöst wird. Bei einer Wartezeit von beispielsweise 60 Sekunden darf das zweite Ereignis erst nach Ablauf dieser Wartezeit von 60 Sekunden und vor Ablauf des Timeout-Limits ausgelöst werden.
 >
 
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.

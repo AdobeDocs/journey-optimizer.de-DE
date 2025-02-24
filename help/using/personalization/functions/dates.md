@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Mit Datums- und Uhrzeitfunktionen können Datums- und Uhrzeitvorgänge für Wert
 
 ## Tage hinzufügen {#add-days}
 
-Die `addDays`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Tagen an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
+Die Funktion `addDays` passt ein bestimmtes Datum um eine angegebene Anzahl von Tagen an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -36,7 +36,7 @@ Die `addDays`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von T
 
 ## Stunden hinzufügen {#add-hours}
 
-Die `addHours`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Stunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
+Die Funktion `addHours` passt ein bestimmtes Datum um eine angegebene Anzahl von Stunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -53,7 +53,7 @@ Die `addHours`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von 
 
 ## Minuten hinzufügen {#add-minutes}
 
-Die `addMinutes`-Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden
+Die Funktion `addMinutes` passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -70,7 +70,7 @@ Die `addMinutes`-Funktion passt ein bestimmtes Datum um eine angegebene Anzahl v
 
 ## Monate hinzufügen {#add-months}
 
-Die `addMonths`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Monaten an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.
+Die Funktion `addMonths` passt ein bestimmtes Datum um eine angegebene Anzahl von Monaten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -87,7 +87,7 @@ Die `addMonths`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von
 
 ## Sekunden hinzufügen {#add-seconds}
 
-Der `addSeconds` passt ein bestimmtes Datum um eine bestimmte Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
+Die Funktion `addSeconds` passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -104,7 +104,7 @@ Der `addSeconds` passt ein bestimmtes Datum um eine bestimmte Anzahl von Sekunde
 
 ## Jahre hinzufügen {#add-years}
 
-Der `addYears` passt ein bestimmtes Datum um eine bestimmte Anzahl von Jahren an, wobei positive Werte inkrementiert und negative Werte inkrementiert werden.
+Die Funktion `addYears` passt ein bestimmtes Datum um eine angegebene Anzahl von Jahren an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -141,7 +141,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## Alter in Tagen {#age-days}
 
-Die `ageInDays` berechnet das Alter eines bestimmten Datums in Tagen, d. h. die Anzahl der Tage, die zwischen dem angegebenen Datum und dem aktuellen Datum verstrichen sind, negativ für zukünftige Datumswerte und positiv für vergangene Datumswerte.
+Die Funktion `ageInDays` berechnet das Alter eines bestimmten Datums in Tagen, d. h. die Anzahl der Tage, die zwischen dem angegebenen und dem aktuellen Datum verstrichen sind, wobei für zukünftige Datumswerte ein negativer und für vergangene Datumswerte ein positiver Wert gilt.
 
 **Syntax**
 
@@ -151,7 +151,7 @@ Die `ageInDays` berechnet das Alter eines bestimmten Datums in Tagen, d. h. die 
 
 +++Beispiel
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
+currentDate = 2025-01-07T12:17:10.720122+05:30 (Asien/Kolkata)
 
 * Eingabe: `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Ausgabe: `5`
@@ -160,7 +160,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
 
 ## Alter in Monaten {#age-months}
 
-Die `ageInMonths` berechnet das Alter eines bestimmten Datums in Monaten, d. h. die Anzahl der Monate, die zwischen dem angegebenen Datum und dem aktuellen Datum vergangen sind, negativ für zukünftige Daten und positiv für vergangene Daten.
+Die Funktion `ageInMonths` berechnet das Alter eines bestimmten Datums in Monaten, d. h. die Anzahl der Monate, die zwischen dem angegebenen und dem aktuellen Datum verstrichen sind, wobei für zukünftige Datumswerte ein negativer und für vergangene Datumswerte ein positiver Wert gilt.
 
 **Syntax**
 
@@ -170,7 +170,7 @@ Die `ageInMonths` berechnet das Alter eines bestimmten Datums in Monaten, d. h. 
 
 +++Beispiel
 
-currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
+currentDate = 2025-01-07T12:22:46.993748+05:30 (Asien/Kolkata)
 
 * Eingabe: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Ausgabe: `12`
@@ -179,7 +179,7 @@ currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
 
 ## Daten vergleichen {#compare-dates}
 
-Die `compareDates` vergleicht das erste Eingabedatum mit dem anderen. Gibt 0 zurück, wenn date1 gleich date2 ist, -1, wenn date1 vor date2 liegt, und 1, wenn date1 nach date2 liegt.
+Die Funktion `compareDates` vergleicht das erste Eingabedatum mit einem anderen. Gibt 0 zurück, wenn date1 gleich date2 ist, -1, wenn date1 vor date2 liegt, und 1, wenn date1 nach date2 liegt.
 
 **Syntax**
 
@@ -194,9 +194,9 @@ Die `compareDates` vergleicht das erste Eingabedatum mit dem anderen. Gibt 0 zur
 
 +++
 
-## ZonedDateTime konvertieren {#convert-zoned-date-time}
+## Uhrzeit-/Datumsangabe in eine bestimmte Zeitzone umwandeln {#convert-zoned-date-time}
 
-Die `convertZonedDateTime` konvertiert eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone.
+Die Funktion `convertZonedDateTime` wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.
 
 **Syntax**
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Tag des Monats {#day-month}
 
-Die `dayOfWeek` gibt die Zahl zurück, die den Tag des Monats darstellt.
+Die Funktion `dayOfWeek` gibt die Zahl zurück, die dem Tag des Monats entspricht.
 
 **Syntax**
 
@@ -311,7 +311,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Unterschied in Sekunden {#diff-seconds}
 
-Die `diffInSeconds` gibt die Differenz zwischen zwei Daten in Sekunden zurück.
+Die Funktion `diffInSeconds` gibt den Unterschied zwischen zwei Daten in Form von Sekunden zurück.
 
 **Syntax**
 
@@ -328,7 +328,7 @@ Die `diffInSeconds` gibt die Differenz zwischen zwei Daten in Sekunden zurück.
 
 ## Stunden extrahieren {#extract-hours}
 
-Die Funktion `extractHours` extrahiert die Komponente Stunde aus einem bestimmten Zeitstempel.
+Die Funktion `extractHours` extrahiert die Stundenkomponente aus einem bestimmten Zeitstempel.
 
 **Syntax**
 
@@ -362,7 +362,7 @@ Die Funktion `extractMinutes` extrahiert die Minutenkomponente aus einem bestimm
 
 ## Monate extrahieren {#extract-months}
 
-Die Funktion `extractMonth` extrahiert die Komponente Monat aus einem bestimmten Zeitstempel.
+Die Funktion `extractMonth` extrahiert die Monatskomponente aus einem bestimmten Zeitstempel.
 
 **Syntax**
 
@@ -379,7 +379,7 @@ Die Funktion `extractMonth` extrahiert die Komponente Monat aus einem bestimmten
 
 ## Sekunden extrahieren {#extract-seconds}
 
-Die Funktion `extractSeconds` extrahiert die zweite Komponente aus einem bestimmten Zeitstempel.
+Die Funktion `extractSeconds` extrahiert die Sekundenkomponente aus einem bestimmten Zeitstempel.
 
 **Syntax**
 
@@ -450,7 +450,7 @@ Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ und Gebie
 
 ## CurrentZonedDateTime abrufen {#get-current-zoned-date-time}
 
-Die Funktion `getCurrentZonedDateTime` gibt das aktuelle Datum und die aktuelle Uhrzeit mit Informationen zur Zeitzone zurück.
+Die Funktion `getCurrentZonedDateTime` gibt das aktuelle Datum und die aktuelle Uhrzeit mit Zeitzoneninformationen zurück.
 
 **Syntax**
 
@@ -467,7 +467,7 @@ Die Funktion `getCurrentZonedDateTime` gibt das aktuelle Datum und die aktuelle 
 
 ## Stundendifferenz {#hours-difference}
 
-Die `diffInHours` gibt die Differenz zwischen zwei Daten in Stunden zurück.
+Die Funktion `diffInHours` gibt den Unterschied zwischen zwei Daten in Form von Stunden zurück.
 
 **Syntax**
 
@@ -484,7 +484,7 @@ Die `diffInHours` gibt die Differenz zwischen zwei Daten in Stunden zurück.
 
 ## Minutendifferenz{#diff-minutes}
 
-Die `diffInMinutes`-Funktion wird verwendet, um die Differenz zwischen zwei Daten in Minuten zurückzugeben.
+Die Funktion `diffInMinutes` gibt den Unterschied zwischen zwei Daten in Form von Minuten zurück.
 
 **Syntax**
 
@@ -501,7 +501,7 @@ Die `diffInMinutes`-Funktion wird verwendet, um die Differenz zwischen zwei Date
 
 ## Monatsdifferenz {#months-difference}
 
-Die `diffInMonths` gibt die Differenz zwischen zwei Daten als Monat zurück.
+Die Funktion `diffInMonths` gibt den Unterschied zwischen zwei Daten in Form von Monaten zurück.
 
 **Syntax**
 
@@ -558,7 +558,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Zu Uhrzeit-/Datumsangabe {#to-date-time}
 
-Die `ToDateTime` konvertiert die Zeichenfolge in ein Datum. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben.
+Die Funktion `ToDateTime` wandelt eine Zeichenfolge in ein Datum um. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.
 
 **Syntax**
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Auf Tagesanfang kürzen {#truncate-day}
 
-Mit der Funktion `truncateToStartOfDay` wird eine Datums-/Uhrzeitangabe geändert, indem die Uhrzeit auf den Beginn des Tages mit 00:00 Uhr festgelegt wird.
+Die Funktion `truncateToStartOfDay` wird verwendet, um eine bestimmte Uhrzeit-/Datumsangabe zu ändern, indem sie auf den Tagesanfang gesetzt wird, wobei die Zeit auf 00:00 Uhr eingestellt ist.
 
 **Syntax**
 
@@ -612,7 +612,7 @@ Mit der Funktion `truncateToStartOfDay` wird eine Datums-/Uhrzeitangabe geänder
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-Mit der Funktion `truncateToStartOfQuarter` wird eine Datums-/Uhrzeitangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 0:00 Uhr gekürzt.
+Die Funktion `truncateToStartOfQuarter` wird verwendet, um eine Uhrzeit-/Datumsangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 00:00 Uhr zu kürzen.
 
 **Syntax**
 
@@ -629,7 +629,7 @@ Mit der Funktion `truncateToStartOfQuarter` wird eine Datums-/Uhrzeitangabe auf 
 
 ## truncateToStartOfWeek {#truncate-week}
 
-Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie sie auf den Beginn der Woche (Montag um 00:00 Uhr) setzt.
+Die Funktion `truncateToStartOfWeek` ändert eine bestimmte Uhrzeit-/Datumsangabe, indem sie auf den Wochenanfang (Montag um 00:00 Uhr) gesetzt wird.
 
 **Syntax**
 
@@ -646,7 +646,7 @@ Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangab
 
 ## truncateToStartOfYear {#truncate-year}
 
-Mit der Funktion `truncateToStartOfYear` wird eine Datums-/Uhrzeitangabe geändert, indem sie auf den ersten Tag des Jahres (1. Januar) um 0:00 Uhr gekürzt wird.
+Die Funktion `truncateToStartOfYear` wird zur Änderung einer bestimmten Uhrzeit-/Datumsangabe verwendet, indem sie auf den ersten Tag des Jahres (1. Januar) um 00:00 Uhr gekürzt wird.
 
 **Syntax**
 
@@ -663,7 +663,7 @@ Mit der Funktion `truncateToStartOfYear` wird eine Datums-/Uhrzeitangabe geände
 
 ## Woche des Jahres {#week-of-year}
 
-Die `weekOfYear`-Funktion wird verwendet, um die Woche des Jahres abzurufen.
+Die Funktion `weekOfYear` wird verwendet, um die Woche des Jahres abzurufen.
 
 **Syntax**
 
@@ -683,7 +683,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Jahresdifferenz {#diff-years}
 
-Die `diffInYears`-Funktion wird verwendet, um die Differenz zwischen zwei Daten als Jahre zurückzugeben.
+Die Funktion `diffInYears` wird verwendet, um den Unterschied zwischen zwei Daten in Form von Jahren zurückzugeben.
 
 **Syntax**
 

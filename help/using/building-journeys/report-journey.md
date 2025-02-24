@@ -10,9 +10,9 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Die angezeigten Ereignisse sind innerhalb der letzten 24 Stunden eingetreten, w
 
 Für Ihre Live-Journey haben Sie Zugriff auf:
 
-* **[!UICONTROL Eingetretene Profile]**: Gesamtzahl der Personen, die die Journey betreten haben.
-* **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben (einschließlich Fehler).
+* **[!UICONTROL Eingetretene Profile]**: Gesamtzahl der Kontakte, die in die Journey eingetreten sind.
+* **[!UICONTROL Ausgetretene Profile]**: Gesamtzahl der Kontakte, die die Journey verlassen haben (einschließlich Fehlern).
 * **[!UICONTROL Fehlerhafte Profile]**: Gesamtzahl der Kontakte, bei denen während ihrer Journey ein Fehler aufgetreten ist.
 * **[!UICONTROL Verworfene Profile]**: Gesamtzahl der Kontakte, die aus einem der folgenden Gründe von der Journey verworfen wurden:
 

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
 ## Text {#text}
 
-Verwenden Sie die **[!UICONTROL Text]**-Komponente, um Text in Ihre E-Mail einzufügen, und passen Sie den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarte **[!UICONTROL Stile]** an.
+Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) über die Registerkarte **[!UICONTROL Stile]** anzupassen.
 
 ![](assets/email_designer_text_component.png)
 

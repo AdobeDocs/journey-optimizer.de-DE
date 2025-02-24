@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ![](assets/content_experiment.png)
 
-➡️ Erfahren Sie in diesem Anwendungsfall, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit [ Code-basierten Erlebniskanal ](../experience-decisioning/experience-decisioning-uc.md).
+➡️ In [diesem Anwendungsfall](../experience-decisioning/experience-decisioning-uc.md) erfahren Sie, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit dem Code-basierten Erlebniskanal vergleichen.
 
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 

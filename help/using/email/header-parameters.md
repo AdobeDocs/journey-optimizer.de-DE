@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren von E-Mail-Header-Parametern
-description: Erfahren Sie, wie Sie Ihre E-Mail-Header-Parameter auf der Kanalkonfigurationsebene einrichten
+title: Konfigurieren von Header-Parametern für E-Mails
+description: Erfahren Sie, wie Sie Ihre E-Mail-Header-Parameter auf Ebene der Kanalkonfiguration einrichten.
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Kopfzeilenparameter {#email-header}
+# Header-Parameter {#email-header}
 
-Geben Sie beim Konfigurieren einer neuen [E](email-settings.md)Mail-Kanalkonfiguration) im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind.
+Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-settings.md) im Abschnitt **[!UICONTROL Header-Parameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind.
 
 >[!NOTE]
 >

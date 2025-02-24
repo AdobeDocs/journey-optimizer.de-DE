@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
 source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Ihr Journey-Bericht kann Informationen von mehreren Journey gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basierte) in mehreren Journey angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journey teilnimmt, was zu einer Datenüberlappung führen kann.
+Ihr Journey-Bericht kann Informationen von mehreren Journeys gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basiert) in mehreren Journeys angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journeys teilnimmt, was zu einer Datenüberlappung führen kann.
 
 >[!ENDSHADEBOX]
 

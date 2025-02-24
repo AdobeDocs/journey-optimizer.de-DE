@@ -8,23 +8,23 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '806'
+ht-degree: 100%
 
 ---
 
 # Modell zur personalisierten Optimierung {#personalized-optimization-model}
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
-Durch die Nutzung modernster Technologien im Bereich des überwachten maschinellen Lernens und des Deep Learning ermöglicht es die personalisierte Optimierung einem Business-Anwender (Marketing-Experten), Geschäftsziele zu definieren und seine Kundendaten zu nutzen, um geschäftsorientierte Modelle zu trainieren, um personalisierte Angebote bereitzustellen und KPIs zu maximieren.
+Durch Nutzung modernster Technologien beim überwachten maschinellen Lernen und beim Deep Learning ermöglicht es die personalisierte Optimierung Business-Anwendenden (Marketing-Fachleuten), Geschäftsziele zu definieren und mithilfe ihrer Kundendaten geschäftsorientierte Modelle zu trainieren und so personalisierte Angebote unterbreiten und KPIs maximieren zu können.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
 ## Grundlegende Modellannahmen und -beschränkungen {#key}
 
-Um die Vorteile einer personalisierten Optimierung optimal nutzen zu können, müssen einige wichtige Annahmen und Einschränkungen beachtet werden.
+Um die Vorteile der personalisierten Optimierung zu maximieren, müssen einige wichtige Voraussetzungen und Beschränkungen beachtet werden.
 
 * **Die Angebote sind so unterschiedlich, dass auch die Präferenzen der Benutzenden bezüglich der in Frage kommenden Angebote unterschiedlich sind**. Wenn die Angebote zu ähnlich sind, hat das resultierende Modell weniger Wirkung, da die Reaktionen scheinbar zufällig sind.
 Wenn eine Bank beispielsweise zwei Kreditkarten anbietet, deren einziger Unterschied die Farbe ist, hat die Empfehlung einer Karte weniger Auswirkung. Wenn aber an jede Karte unterschiedliche Bedingungen geknüpft sind, haben Kunden und Kundinnen einen bestimmten Grund, warum sie sich für eine der Karten entscheiden. Dies bietet deshalb einen ausreichenden Unterschied zwischen den Angeboten, sodass ein wirkungsvolleres Modell erstellt werden kann.
@@ -46,9 +46,9 @@ Es gibt drei Arten von Funktionen:
 Das Modell umfasst zwei Phasen:
 
 * In der Phase des **Offline-Modelltrainings** wird ein Modell durch Erlernen und Speichern von in historischen Daten ersichtlichen Merkmalsinteraktionen trainiert.
-* In der Phase der **Online-Schlussfolgerung** werden die Angebote auf der Grundlage der vom Modell in Echtzeit generierten Punktzahlen eingestuft. Im Gegensatz zu herkömmlichen kollaborativen Filtertechniken, bei denen es schwierig ist, Merkmale für Benutzer und Angebote einzuschließen, ist die personalisierte Optimierung eine auf Deep Learning basierende Empfehlungsmethode, die in der Lage ist, komplexe und nichtlineare Interaktionsmuster von Merkmalen einzubeziehen und zu lernen.
+* In der Phase der **Online-Schlussfolgerung** werden die Angebote auf der Grundlage der vom Modell in Echtzeit generierten Punktzahlen eingestuft. Im Gegensatz zu herkömmlichen kollaborativen Filtertechniken, bei denen es schwierig ist, Merkmale für Benutzende und Angebote einzubeziehen, ist die personalisierte Optimierung eine auf Deep Learning basierende Empfehlungsmethode, die in der Lage ist, komplexe und nicht-lineare Interaktionsmuster von Merkmalen einzubeziehen und zu lernen.
 
-Im Folgenden finden Sie ein vereinfachtes Beispiel, um die Grundidee der personalisierten Optimierung zu veranschaulichen. Nehmen wir an, wir haben einen Datensatz, in dem historische Interaktionen zwischen Benutzenden und Angeboten gespeichert sind, wie in Abbildung 1 dargestellt. Es gibt:
+Hier ist ein vereinfachtes Beispiel, um die Grundidee der personalisierten Optimierung zu veranschaulichen. Nehmen wir an, wir haben einen Datensatz, in dem historische Interaktionen zwischen Benutzenden und Angeboten gespeichert sind, wie in Abbildung 1 dargestellt. Es gibt:
 * Zwei Angebote, offer_1 und offer_2,
 * Zwei Funktionen, Feature_1 und Feature_2,
 * Eine Spalte mit der Reaktion.
@@ -61,7 +61,7 @@ Im Grunde werden hierbei frühere Merkmalsinteraktionen erlernt und gespeichert 
 
 ## „Kaltstart“-Problem {#cold-start}
 
-Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um eine Empfehlung bereitzustellen. Für die personalisierte Optimierung gibt es zwei Arten von „Kaltstart“-Problemen.
+Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um eine Empfehlung bereitzustellen. Bei der personalisierten Optimierung gibt es zwei Arten von „Kaltstart“-Problemen.
 
 * **Nachdem ein neues KI-Modell ohne historische Daten erstellt wurde**, werden die Angebote über einen bestimmten Zeitraum nach dem Zufallsprinzip bereitgestellt, um Daten zu sammeln, die dann zum Trainieren des ersten Modells verwendet werden.
 * **Nach der Freigabe des ersten Modells** werden 10 % des gesamten Traffics für die zufällige Bereitstellung von Angeboten verwendet, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote in das KI-Modell aufgenommen werden, würden sie als Teil der 10 % des Traffics bereitgestellt werden. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.

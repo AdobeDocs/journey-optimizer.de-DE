@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: URL-Tracking konfigurieren
-description: Erfahren Sie, wie Sie das URL-Tracking auf der Konfigurationsebene des E-Mail-Kanals einrichten
+title: Konfigurieren von URL-Tracking
+description: Erfahren Sie, wie Sie das URL-Tracking auf E-Mail-Kanalkonfigurationsebene einrichten.
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 >title="Vorschau der URL-Tracking-Parameter"
 >abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
-Bei der Konfiguration einer neuen [E-Mail](email-settings.md)Kanalkonfiguration) können Sie **[!UICONTROL URL-Tracking-Parameter]** definieren, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen.
+Bei der Konfiguration einer neuen [E-Mail-Kanalkonfiguration](email-settings.md) können Sie **[!UICONTROL URL-Tracking-Parameter]** definieren, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen.
 
 >[!NOTE]
 >

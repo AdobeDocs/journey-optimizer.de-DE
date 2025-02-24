@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2390'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -102,43 +102,43 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 
 <table>
     <tr>
-        <td><a href="dates.md#add-days">Tage hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Tagen an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-days">Tage hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Tagen an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-hours">Stunden hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Stunden an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-hours">Stunden hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Stunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-minutes">Minuten hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-minutes">Minuten hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-months">Monate hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Monaten an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-months">Monate hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Monaten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-seconds">Sekunden hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-seconds">Sekunden hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-years">Jahre hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Jahren an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.</td>
+        <td><a href="dates.md#add-years">Jahre hinzufügen</a></td><td>Diese Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Jahren an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.</td>
     </tr>
     <tr>
         <td><a href="dates.md#age">Alter</a></td><td>Diese Funktion ruft das Alter zu einem bestimmten Datum ab.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-days">Alter in Tagen</a></td><td>Diese Funktion berechnet das Alter eines bestimmten Datums in Tagen, d. h. die Anzahl der Tage, die zwischen dem angegebenen Datum und dem aktuellen Datum verstrichen sind, negativ für zukünftige Daten und positiv für vergangene Daten.</td>
+        <td><a href="dates.md#age-days">Alter in Tagen</a></td><td>Diese Funktion berechnet das Alter eines bestimmten Datums in Tagen, d. h. die Anzahl der Tage, die zwischen dem angegebenen und dem aktuellen Datum verstrichen sind, wobei für zukünftige Datumswerte ein negativer und für vergangene Datumswerte ein positiver Wert gilt.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-months">Alter in Monaten</a></td><td>Diese Funktion berechnet das Alter eines bestimmten Datums in Monaten, d. h. die Anzahl der Monate, die zwischen dem angegebenen Datum und dem aktuellen Datum verstrichen sind, negativ für zukünftige Daten und positiv für vergangene Daten.</td>
+        <td><a href="dates.md#age-months">Alter in Monaten</a></td><td>Diese Funktion berechnet das Alter eines bestimmten Datums in Monaten, d. h. die Anzahl der Monate, die zwischen dem angegebenen und dem aktuellen Datum verstrichen sind, wobei für zukünftige Datumswerte ein negativer und für vergangene Datumswerte ein positiver Wert gilt.</td>
     </tr>
     <tr>
         <td><a href="dates.md#compare-dates">Daten vergleichen</a></td><td>Diese Funktion vergleicht das erste Eingabedatum mit dem anderen Datum. Gibt 0 zurück, wenn date1 gleich date2 ist, -1, wenn date1 vor date2 liegt, und 1, wenn date1 nach date2 liegt.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime konvertieren</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.</td>
+        <td><a href="dates.md#convert-zoned-date-time">Uhrzeit-/Datumsangabe in eine bestimmte Zeitzone umwandeln</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochenmillisekunden ab.</td>
+        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochen-Millisekunden ab.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ruft die Differenz zwischen zwei Daten als Anzahl von Tagen ab.</td>
+        <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ermittelt die Differenz zwischen zwei Daten in der Anzahl der Tage.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">Tag des Monats</a></td><td>Diese Funktion gibt die Zahl zurück, die dem Tag des Monats entspricht.</td>
@@ -174,44 +174,44 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#get-current-zoned-date-time">CurrentZonedDateTime abrufen</a></td><td>Diese Funktion gibt das aktuelle Datum und die aktuelle Uhrzeit mit Zeitzoneninformationen zurück.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#hours-difference">Stundendifferenz</a></td><td>Diese Funktion gibt die Differenz zwischen zwei Daten in Stunden zurück.</td>
+        <td><a href="dates.md#hours-difference">Stundendifferenz</a></td><td>Diese Funktion gibt den Unterschied zwischen zwei Daten in Form von Stunden zurück.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-minutes">Minutendifferenz</a></td><td>Diese Funktion gibt die Differenz zwischen zwei Daten in Minuten zurück.</td>
+        <td><a href="dates.md#diff-minutes">Minutendifferenz</a></td><td>Diese Funktion gibt den Unterschied zwischen zwei Daten in Form von Minuten zurück.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#months-difference">Monatsdifferenz</a></td><td>Diese Funktion gibt die Differenz zwischen zwei Daten als Monat zurück.</td>
+        <td><a href="dates.md#months-difference">Monatsdifferenz</a></td><td>Diese Funktion gibt den Unterschied zwischen zwei Daten in Form von Monaten zurück.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">Tage festlegen</a></td><td>Diese Funktion legt den Tag des Monats für die gegebene Datums-/Uhrzeitangabe fest.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Stunden festlegen</a></td><td>Diese Funktion legt die Stunde der Uhrzeit-/Datumsangabe fest.</td>
+        <td><a href="dates.md#set-hours">Stunden festlegen</a></td><td>Diese Funktion legt die Stunde der Datums-/Uhrzeitangabe fest.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wandelt eine Zeichenfolge in ein Datum um. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben.</td>
+        <td><a href="dates.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wandelt eine Zeichenfolge in ein Datum um. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">In UTC</a></td><td>Diese Funktion wandelt eine Uhrzeit-/Datumsangabe in UTC um.</td>
+        <td><a href="dates.md#to-utc">In UTC</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in UTC um.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-day">Auf Tagesanfang kürzen</a></td><td>Diese Funktion ändert eine bestimmte Uhrzeit-/Datumsangabe, indem sie auf den Tagesanfang gesetzt wird, wobei die Zeit auf 00:00 Uhr eingestellt ist.</td>
+        <td><a href="dates.md#truncate-day">Auf Tagesanfang kürzen</a></td><td>Diese Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie auf den Tagesanfang gesetzt wird, wobei die Zeit auf 00:00 Uhr eingestellt ist.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>Diese Funktion kürzt eine Datums-/Uhrzeitangabe auf den ersten Tag ihres Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 0:00 Uhr.
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>Diese Funktion kürzt eine Datums-/Uhrzeitangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 00:00 Uhr.
 </td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Diese Funktion ändert eine bestimmte Uhrzeit-/Datumsangabe, indem sie auf den Wochenanfang (Montag um 00:00 Uhr) gesetzt wird.</td>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>Diese Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie auf den Wochenanfang (Montag um 00:00 Uhr) gesetzt wird.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Diese Funktion ändert eine bestimmte Uhrzeit-/Datumsangabe, indem sie auf den ersten Tag des Jahres (1. Januar) um 00:00 Uhr gekürzt wird.</td>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>Diese Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie auf den ersten Tag des Jahres (1. Januar) um 00:00 Uhr gekürzt wird.</td>
     </tr>
     <tr>
         <td><a href="dates.md#week-of-year">Woche des Jahres</a></td><td>Diese Funktion gibt die Woche des Jahres zurück.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-years">Jahresdifferenz</a></td><td>Diese Funktion gibt die Differenz zwischen zwei Daten als Jahre zurück.</td>
+        <td><a href="dates.md#diff-years">Jahresdifferenz</a></td><td>Diese Funktion gibt den Unterschied zwischen zwei Daten in Form von Jahren zurück.</td>
     </tr>
 </table>
 </table>
@@ -404,10 +404,10 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#to-bool">Zu booleschem Wert</a></td><td>Diese Funktion wandelt einen Argumentwert abhängig vom Typ in einen booleschen Wert um.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
+        <td><a href="string.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">Nur zu Datums-/Uhrzeitangabe</a></td><td>Diese Funktion wandelt einen Argumentwert in einen reinen Datums-/Uhrzeit-Wert um. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
+        <td><a href="string.md#to-date-time-only">Nur zu Datums-/Uhrzeitangabe</a></td><td>Diese Funktion wandelt einen Argumentwert in einen reinen Datums-/Uhrzeit-Wert um. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Kürzen</a></td><td>Diese Funktion entfernt Leerzeichen vom Anfang und vom Ende einer Zeichenfolge</td>

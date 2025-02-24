@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren 
 
 Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Abwandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
-➡️ Ein Anwendungsfall, der vollständig zeigt, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit dem Code-basierten Erlebniskanal vergleichen können, wird in [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) vorgestellt.
+➡️ In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
 
 ## Warum sollten Experimente durchgeführt werden?
 

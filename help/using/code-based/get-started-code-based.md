@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ Ein Anwendungsfall, der vollständig zeigt, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit dem Code-basierten Erlebniskanal vergleichen können, wird in [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) vorgestellt.
+➡️ In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
 
 ## Verwendung von Code-basierten anstelle von anderen Kanälen {#code-based-vs-other-channels}
 

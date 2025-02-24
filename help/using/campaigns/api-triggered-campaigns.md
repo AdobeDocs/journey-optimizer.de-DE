@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Die Syntax `{{context.<contextualAttribute>}}` ist nur einem Zeichenfolgen-Daten
 
 >[!IMPORTANT]
 >
->Die in die Anfrage übergebenen kontextuellen Attribute dürfen 200 KB nicht überschreiten und sind immer vom Typ „Zeichenfolge“.
+>Die in die Anfrage übergebenen Kontextattribute dürfen 200 KB nicht überschreiten und sind stets vom Typ „Zeichenfolge“.
 >
 >Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 ## Wichtige Hinweise {#important-notes}
 
-* Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 4.000 Aufrufen pro 5 Minuten definiert. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard. Weitere Informationen über Service-Level-Vereinbarungen für Transaktionsnachrichten finden Sie in der [Adobe Campaign Standard-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 4.000 Aufrufen pro 5 Minuten definiert. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard. Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * Die Adobe Campaign Standard-Integration wird über eine dedizierte integrierte Aktion in der Aktionsliste eingerichtet. Dies muss für jede Sandbox konfiguriert werden.
 

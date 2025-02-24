@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -23,22 +23,22 @@ Zunächst werden alle erstellten Entscheidungselemente in einem einzigen Katalog
 
 ## Leitlinien und Einschränkungen
 
-Um eine optimale Leistung und Konsistenz zu gewährleisten, erzwingt Decisioning die folgenden Leitplanken und Einschränkungen:
+Um eine optimale Leistung und Konsistenz sicherzustellen, werden bei der Entscheidungsfindung die folgenden Leitlinien und Einschränkungen durchgesetzt:
 
 * **Unterstützte Datentypen**
 
-  Derzeit unterstützt Decisioning ausschließlich die folgenden Datentypen: Zeichenfolge, Ganzzahl, Boolesch, Datum, Datum/Uhrzeit, Decisioning-Asset und Objekt. Felder, die nicht diese Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
+  Derzeit unterstützt die Entscheidungsfindung ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime, Decisioning Asset und Object. Felder, die keinen dieser Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
 
 
 * **Benutzerdefinierte Attributbegrenzung**
 
-  Jedes Entscheidungselement kann bis zu 100 benutzerdefinierte Attribute enthalten.
+  Jedes Entscheidungselement kann bis zu 100 benutzerdefinierte Attribute enthalten.
 
 * **Verschachtelungsbeschränkungen**
 
   Es werden maximal vier Verschachtelungsebenen unterstützt. Bilder werden auf der letzten Ebene nicht unterstützt.
 
-## Zugreifen auf und Bearbeiten des Katalogschemas
+## Abrufen und Bearbeiten des Katalogschemas
 
 Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in dem die Attribute der Entscheidungselemente gespeichert werden:
 

@@ -9,7 +9,7 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 **Wie kann ich eine Begrenzungs- oder Einschränkungsregel konfigurieren? Gibt es eine Standardregel?**
 
-Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5.000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Einschränkungs-API eine höhere Begrenzung oder Einschränkung definieren.
+Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Einschränkungs-API eine höhere Begrenzung oder Einschränkung definieren.
 
 **Wie viele weitere Versuche werden unternommen? Kann ich die Anzahl der weiteren Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?**
 
