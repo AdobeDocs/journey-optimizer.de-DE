@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Abmelde-Liste konfigurieren
-description: Erfahren Sie, wie Sie beim Festlegen der Kanalkonfiguration eine Abmelde-URL mit einem Klick in die Kopfzeile Ihrer E-Mails aufnehmen.
+title: Konfigurieren zum Abmelden von der Liste
+description: Erfahren Sie, wie Sie beim Festlegen der Kanalkonfiguration eine URL zum Abmelden mit einem Klick in der E-Mail-Kopfzeile einfügen.
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-Beim Konfigurieren einer neuen E-Mail-Kanal-Konfiguration wird bei [Auswahl einer Subdomain](email-settings.md#subdomains-and-ip-pools) aus der Liste die Option **[!UICONTROL Abmelden von der Liste aktivieren]** angezeigt.
+Beim Konfigurieren einer neuen E-Mail-Kanalkonfiguration wird bei [Auswahl einer Subdomain](email-settings.md#subdomains-and-ip-pools) aus der Liste die Option **[!UICONTROL Abmelden von der Liste aktivieren]** angezeigt.
 
 ![](assets/preset-list-unsubscribe.png)
 
-## Abmelden von der Liste aktivieren {#enable-list-unsubscribe}
+## Option „Abmelden von der Liste aktivieren“ {#enable-list-unsubscribe}
 
 Diese Option ist standardmäßig aktiviert, um eine URL zum Abmelden mit einem Klick in die E-Mail-Kopfzeile einzufügen, z. B.:
 
@@ -38,7 +38,7 @@ Die Kopfzeile „Von der Liste abmelden“ bietet zwei Funktionen, die standardm
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* Eine Adresse **[!UICONTROL E-Mail an (abmelden)]**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
+* Eine Adresse **[!UICONTROL E-Mail an (abmelden)]**, bei der es sich um die Zieladresse handelt, an welche Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden.
 
   In [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse unter **[!UICONTROL E-Mail an (abmelden)]**, basierend auf der [ausgewählten Subdomain](#subdomains-and-ip-pools). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
@@ -73,11 +73,11 @@ Wählen Sie im Falle einer Einverständnisverwaltung außerhalb von Adobe die Op
 >
 >Wenn Sie die Option **[!UICONTROL Kundenseitig verwaltet]** verwenden, speichert Adobe weder Abmelde- noch Einverständnisdaten. Mit der Option **[!UICONTROL Kundenseitig verwaltet]** entscheiden sich Organisationen für die Verwendung eines externen Systems und sind für die Verwaltung ihrer Einverständnisdaten in diesem externen System verantwortlich. Es erfolgt keine automatische Synchronisierung von Einverständnisdaten zwischen dem externen System und [!DNL Journey Optimizer]. Jede Synchronisierung von Einverständnisdaten, die zur Aktualisierung von Benutzereinverständnisdaten in [!DNL Journey Optimizer] aus dem externen System herangezogen werden, muss von der Organisation als Datenübertragung initiiert werden, um die Einverständnisdaten wieder in [!DNL Journey Optimizer] zu übertragen.
 
-### Konfigurieren des Entschlüsselungs-API {#configure-decrypt-api}
+### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
 
 Sollten Sie bei ausgewählter Option **[!UICONTROL Kundenseitig verwaltet]** benutzerdefinierte Endpunkte eingeben und diese in einer Kampagne oder Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Ereignis zur Einverständnisaktualisierung an, <!--sent to the custom endpoint -->wenn die Empfängerinnen und Empfänger auf den Abmelde-Link klicken.
 
-Diese Parameter werden verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem ein bestimmtes API über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die von Adobe gesendeten Parameter zu entschlüsseln.
+Diese Parameter werden verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem eine bestimmte API über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die von Adobe gesendeten Parameter zu entschlüsseln.
 
 Der GET-Aufruf zum Abrufen dieser Parameter hängt von der von Ihnen verwendeten Option zum Abmelden von der Liste ab: **[!UICONTROL URL zum Abmelden mit einem Klick]** oder **[!UICONTROL E-Mail an (abmelden)]**.
 

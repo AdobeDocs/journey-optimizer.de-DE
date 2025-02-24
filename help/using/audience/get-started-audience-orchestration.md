@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 Mit der Zielgruppenkomposition können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschließen …) nutzen können, um neue Zielgruppen zu erstellen.
 
-Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Kampagnen und Journeys von Journey Optimizer genutzt werden, um Kundinnen und Kunden anzusprechen. Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen
+Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Kampagnen und Journeys von Journey Optimizer genutzt werden, um Kundinnen und Kunden anzusprechen. Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen.
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -138,13 +138,13 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
    * **[!UICONTROL Speichern]**: der letzte Schritt Ihrer Komposition. Mit dieser Aktivität können Sie das Ergebnis Ihres Workflows in einer neuen Zielgruppe speichern.
 
-1. Bitte die Eigenschaften der Komposition öffnen, um einen Titel und eine Beschreibung anzugeben.
+1. Öffnen Sie die Eigenschaften der Komposition, um einen Titel und eine Beschreibung anzugeben.
 
    Wenn in den Eigenschaften kein Titel definiert ist, wird der Titel der Komposition auf „Komposition“ festgelegt, gefolgt vom Erstellungsdatum und der Uhrzeit.
 
    ![](assets/audiences-properties.png)
 
-1. Konfigurieren Sie Ihre Komposition, indem Sie so viele Aktivitäten für **[!UICONTROL Zielgruppe]** und **[!UICONTROL Speichern]** hinzufügen, wie Sie benötigen. Weitere Informationen zum Erstellen einer Komposition finden Sie in der [Dokumentation zur Zielgruppenkomposition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+1. Konfigurieren Sie Ihre Komposition, indem Sie so viele Aktivitäten für **[!UICONTROL Zielgruppe]** und **[!UICONTROL Speichern]** hinzufügen, wie Sie benötigen. Weitere Informationen zum Erstellen einer Komposition finden Sie in der [Dokumentation zur Zielgruppenkomposition](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -162,7 +162,7 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
 >[!NOTE]
 >
->Zielgruppen aus **Zielgruppenkomposition** werden täglich ausgeführt. Daher müssen Sie möglicherweise bis zu 24 Stunden warten, um sie in Journey Optimizer zu verwenden. Angereicherte Attribute in Zielgruppenkompositions-Zielgruppen sind so aktuell wie die letzte Kompositionsausführung, die bis zu 24 Stunden in der Vergangenheit liegen kann.
+>Zielgruppen aus der **Zielgruppenkomposition** werden täglich ausgeführt, sodass Sie bis zu 24 Stunden warten müssen, um sie in Journey Optimizer zu verwenden. Angereicherte Attribute in Zielgruppen aus der Zielgruppenkomposition sind nur so aktuell wie die letzte Kompositionsausführung, die bis zu 24 Stunden in der Vergangenheit liegen kann.
 
 ## Zugriff auf Kompositionen {#access}
 

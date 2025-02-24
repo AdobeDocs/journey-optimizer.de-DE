@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Dabei gilt:
 * **Action** ist „Aktivieren“ ODER „Deaktivieren“.
 * **Access token** kann aus der Developer Console abgerufen werden.
 * **API Key** kann aus der Developer Console abgerufen werden.
-* **IMS-Org-ID** ist Ihre Adobe-Organisation.
-* **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev).
+* **IMS Org ID** ist Ihre Adobe-Organisation.
+* **Sandbox Name** ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev usw.).
 
 >[!NOTE]
 >

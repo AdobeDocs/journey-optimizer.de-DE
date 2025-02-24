@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
 source-wordcount: '2261'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -273,7 +273,7 @@ Eine Marketing-Fachperson hat eine Werbe-Journey, die eine Reihe von Kommunikati
 
 ### Konfiguration und Verwendung {#exit-criteria-config}
 
-Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Beendigungskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR` Logik. Wenn Sie also Ausstiegskriterium A und Ausstiegskriterium B haben, wird es als A **OR** B bewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
+Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Ausstiegskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR`-Logik. Wenn Sie also Ausstiegskriterien A und Ausstiegskriterien B haben, wird es als A **ODER** B ausgewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
 
 Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 

@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 63%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 ## Erstellen einer Segmentdefinition {#create}
 
-In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle wohnen und nach 1980 geboren wurden. Alle diese Kunden sollten innerhalb der letzten sieben Tage einen Kauf getätigt haben.
+In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle wohnen und nach 1980 geboren wurden. Alle diese Kundinnen und Kunden sollten außerdem innerhalb der letzten sieben Tage einen Kauf getätigt haben.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen.](#video-segment)
 
@@ -32,7 +32,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
    ![](assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Weitere Informationen zum Konfigurieren von Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"}.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Weitere Informationen zum Konfigurieren von Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -40,19 +40,19 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
    ![](assets/segment-properties.png)
 
-1. Ziehen Sie per Drag-and-Drop die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie die Felder dann entsprechend Ihren Anforderungen.
+1. Ziehen Sie per Drag-and-Drop die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie sie dann entsprechend Ihren Anforderungen.
 
-   Die grundlegenden Bausteine von Segmentdefinitionen sind **Attribute** und **Ereignisse**. Darüber hinaus können die in bestehenden Zielgruppen enthaltenen Attribute und Ereignisse als Komponenten für neue Definitionen verwendet werden. [Weitere Informationen finden Sie in der Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   Die grundlegenden Bausteine von Segmentdefinitionen sind **Attribute** und **Ereignisse**. Darüber hinaus können die in bestehenden Zielgruppen enthaltenen Attribute und Ereignisse als Komponenten für neue Definitionen verwendet werden. [Weitere Informationen finden Sie in der Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass die Felder im linken Bereich je nach Konfiguration der Schemata **XDM Individual Profile** und **XDM ExperienceEvent** für Ihr Unternehmen abweichen.  Weitere Informationen finden Sie in der [Dokumentation zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+   >Beachten Sie, dass die Felder im linken Bereich je nach Konfiguration der Schemata **XDM Individual Profile** und **XDM ExperienceEvent** für Ihr Unternehmen abweichen können.  Weitere Informationen finden Sie in der [Dokumentation zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
    In diesem Beispiel müssen wir uns auf die Felder **Attribute** und **Ereignisse** stützen, um die Zielgruppe zu erstellen:
 
-   * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980.
+   * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980
 
      ![](assets/add-attributes.png)
 
@@ -115,24 +115,24 @@ Wenn Sie wissen, welche Auswertungsmethode Sie verwenden möchten, wählen Sie d
 >
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
-Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Zielgruppe hinzugefügt, wenn sie sich qualifizieren. Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
+Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Zielgruppe hinzugefügt, wenn sie sich dafür qualifizieren. Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
 
-## [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Flexible Zielgruppenbewertung {#flexible}
+## [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Flexible Zielgruppenauswertung {#flexible}
 
 >[!AVAILABILITY]
 >
-Eine flexible Zielgruppenauswertung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-In Adobe Experience Platform Audience Portal können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journey und -Kampagnen aufnehmen.
+Mit dem Zielgruppenportal von Adobe Experience Platform können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.
 
 Mit der flexiblen Zielgruppenauswertung können Sie:
 
-1. Erstellen Sie ein neues Segment basierend auf Ihren neuesten Daten.
-1. Bewerten Sie die Zielgruppe in Echtzeit, um Genauigkeit zu gewährleisten. Wählen Sie dazu die Zielgruppen aus, die ausgewertet werden sollen, und wählen Sie „Zielgruppen auswerten“, sofern sie bestimmte Kriterien erfüllen (z. B. personenbasiert, Herkunft des Segmentierungs-Services).
-1. Verwenden der evaluierten Zielgruppe in Adobe Journey Optimizer
-Kampagnen oder Journey für eine präzise Zielgruppenbestimmung.
+1. Ein neues Segment basierend auf Ihren neuesten Daten erstellen.
+1. Die Zielgruppe in Echtzeit auswerten, um Genauigkeit zu gewährleisten. Wählen Sie dazu die Zielgruppen aus, die ausgewertet werden sollen, und wählen Sie „Zielgruppen auswerten“, sofern sie bestimmte Kriterien erfüllen (z. B. personenbasiert, Herkunft des Segmentierungs-Services).
+1. Verwenden Sie die ausgewertete Zielgruppe in Adobe Journey Optimizer-
+Kampagnen oder Journeys für eine präzise Zielgruppenbestimmung.
 
-Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zielgruppen werden automatisch ausgeschlossen. Weitere Informationen finden Sie in der [Audience Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zielgruppen werden automatisch ausgeschlossen. Weitere Informationen finden Sie in der [Dokumentation zum Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Anleitungsvideo{#video-segment}
 

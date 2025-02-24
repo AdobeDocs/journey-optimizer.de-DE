@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Februar 2025 {#feb-2025}
 
-* Die Dokumentation zur **[!UICONTROL Sendezeitoptimierung]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
+* Die Dokumentation zur **[!UICONTROL Optimierung des Versandzeitpunkts]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Es wurden neue Schutzmechanismen für Journey-Ereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 * Die Seite mit den integrierten Kanalaktionen wurde neu angeordnet. [Weitere Informationen](../building-journeys/journeys-message.md)
 * In den Abschnitten Entscheidungs- und Entscheidungs-Management wurden Leitplanken und Einschränkungen hinzugefügt.
@@ -42,13 +42,13 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die maximale Größe von kontextuellen Attributen, die an eine API-ausgelöste Kampagnenanfrage übergeben werden, wurde auf 200 KB aktualisiert. [Weitere Informationen](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Es wurde ein neuer Abschnitt zur Seite **Verwalten von Fragmenten** hinzugefügt, in dem beschrieben wird, wie einem Live-Fragment neue Attribute hinzugefügt werden. Auch die gesamte Seite wurde verbessert. [Weitere Informationen](../content-management/manage-fragments.md#adding-new-attributes)
+* Es wurde ein neuer Abschnitt zur Seite **Verwalten von Fragmenten** hinzugefügt, in dem beschrieben wird, wie einem Live-Fragment neue Attribute hinzugefügt werden. Außerdem wurde die gesamte Seite verbessert. [Weitere Informationen](../content-management/manage-fragments.md#adding-new-attributes)
 
-* Der Abschnitt „Leitplanken und Einschränkungen“ wurde zur Dokumentation der Tools für Konfliktmanagement und Priorisierung hinzugefügt. [Weitere Informationen](../conflict-prioritization/gs-conflict-prioritization.md)
+* Der Abschnitt „Leitlinien und Einschränkungen“ wurde zur Dokumentation der Werkzeuge für Konflikt-Management und Priorisierung hinzugefügt. [Weitere Informationen](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* Ein neuer Anwendungsfall wurde hinzugefügt, der alle Schritte umfasst, die zur Verwendung von Decisioning in Inhaltsexperimenten mit dem [!DNL Journey Optimizer] Code-basierten Erlebniskanal erforderlich sind. [Weitere Informationen](../experience-decisioning/experience-decisioning-uc.md)
+* Es wurde ein neuer vollständiger Anwendungsfall hinzugefügt, der alle Schritte umfasst, die zur Verwendung der Entscheidungsfindung in Inhaltsexperimenten mit dem Code-basierten [!DNL Journey Optimizer]-Erlebniskanal erforderlich sind. [Weitere Informationen](../experience-decisioning/experience-decisioning-uc.md)
 
-* Die Seite **E-Mail-** konfigurieren“ wurde zur besseren Lesbarkeit in mehrere Unterseiten unterteilt, einschließlich neuer eigenständiger Seiten für [Listen-Abo](../email/list-unsubscribe.md), [Kopfzeilenparameter](../email/header-parameters.md) und [URL-Tracking](../email/url-tracking.md).
+* Die Seite **Konfigurieren von E-Mail-Einstellungen** wurde zur besseren Lesbarkeit in mehrere Unterseiten unterteilt, einschließlich neuer eigenständiger Seiten für [Von der Liste abmelden](../email/list-unsubscribe.md), [Header-Parameter](../email/header-parameters.md) und [URL-Tracking](../email/url-tracking.md).
 
 ## Dezember 2024 {#nov-2024}
 
