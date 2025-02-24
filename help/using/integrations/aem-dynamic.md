@@ -8,10 +8,12 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+badge: label="Beta" type="Informative"
+exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
+source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 0%
 >
 >Diese Integration ist nur für Kunden verfügbar, die Dynamic Media Manager as a Cloud Service verwenden.
 
-Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynamic Media-Ausgabedarstellungen in Journey Optimizer nahtlos auswählen und verwenden können. Änderungen an Assets in Adobe Experience Manager werden sofort in Ihren Journey Optimizer-Inhalten widergespiegelt, sodass stets die aktuellsten Versionen verwendet werden, ohne dass manuelle Aktualisierungen erforderlich sind.
+Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynamic Media-Ausgabedarstellungen in Journey Optimizer nahtlos auswählen und verwenden können. Änderungen an Assets in Adobe Experience Manager werden sofort in Ihren Journey Optimizer-Inhalten übernommen, sodass stets die aktuellen Versionen verwendet werden, ohne dass manuelle Aktualisierungen erforderlich sind.
 
 Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
@@ -43,33 +45,25 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 
 1. Durchsuchen Sie Ihre AEM-Assets und wählen Sie das Asset aus, das Sie zu Ihren Inhalten hinzufügen möchten.
 
-1. Passen Sie die Bildparameter (z. B. Höhe, Breite) nach Bedarf an Ihre Asset-Anforderungen an.
+1. Passen Sie die Bildparameter (z. B. Höhe, Breite, Drehen, Spiegeln, Helligkeit, Farbton usw.) nach Bedarf an Ihre Asset-Anforderungen an.
+
+   Eine umfassende Liste der Bildparameter, die der URL hinzugefügt werden können, finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+
+   ![](assets/dynamic-media-3.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Ihr Inhalt enthält jetzt Dynamic Media. Alle Aktualisierungen, die Sie in Experience Manager vornehmen, werden automatisch in Journey Optimizer angezeigt.
 
-## Personalization - Verwenden von Bildern mit Textüberlagerung
+## Personalization mit Textüberlagerung
 
-Personalisieren Sie Inhalte einfach mit Bildern mit Textüberlagerung.
-Der Text kann in AJO geändert werden. Ändern Sie die URL wie oben beschrieben
+Passen Sie Dynamic Media einfach an, indem Sie die vorhandene Textüberlagerung durch neuen Text Ihrer Wahl ersetzen, was nahtlose Aktualisierungen und Personalisierung ermöglicht.
 
-1. Ziehen Sie eine **[!UICONTROL HTML-Komponente]** per Drag-and-Drop auf Ihren Inhalt.
+Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Textüberlagerung aktualisieren, indem Sie sie für jede Abwandlung durch einen anderen Text ersetzen und sicherstellen, dass sie für jedes Profil angepasst wird, wenn es seine Nachrichten öffnet.
 
-1. Wählen Sie **[!UICONTROL Quellcode anzeigen]** aus.
+![](assets/dynamic-media-layout-1.png)
 
-1. Greifen Sie über das **[!UICONTROL HTML bearbeiten]** auf **[!UICONTROL Assets]** und dann auf **[!UICONTROL Asset-Wähler öffnen]** zu.
-
-   Sie können Ihre Assets-URL auch einfach kopieren und einfügen.
-
-1. Durchsuchen Sie Ihre AEM-Assets und wählen Sie das Asset aus, das Sie zu Ihren Inhalten hinzufügen möchten.
-
-## Sendezeit-Personalisierung
-
-Parametrisieren Sie DM-Layered-Vorlagen mithilfe der WYSIWYG-Autoreninstanz, um Inhalte zu personalisieren.
-Zuordnung von Profil-/kontextuellen Attributen mithilfe des AJO-Personalisierungseditors
-
-1. Ziehen Sie eine **[!UICONTROL HTML-Komponente]** per Drag-and-Drop auf Ihren Inhalt.
+1. Ziehen Sie eine **[!UICONTROL HTML-Komponente]** per Drag-and-Drop in Ihren Inhalt.
 
 1. Wählen Sie **[!UICONTROL Quellcode anzeigen]** aus.
 
@@ -78,3 +72,81 @@ Zuordnung von Profil-/kontextuellen Attributen mithilfe des AJO-Personalisierung
    Sie können Ihre Assets-URL auch einfach kopieren und einfügen.
 
 1. Durchsuchen Sie Ihre AEM-Assets und wählen Sie das Asset aus, das Sie zu Ihren Inhalten hinzufügen möchten.
+
+1. Ersetzen Sie die Überlagerung durch den gewünschten Text.
+
+   ![](assets/do-not-localize/dynamic_media_layout.gif)
+
+1. Aktualisieren Sie die Bildparameter:
+
+   * **Ebene**: Geben Sie das Basiselement ein, in dem der Text platziert wird.
+   * **Größe**: Aktualisieren Sie die Größe des Textblocks.
+   * **TextAttr**: Passen Sie die Größe Ihrer Textschriftart an.
+   * **Pos**: die Position Ihres Textes im Bild festlegen.
+
+   >[!WARNING]
+   >
+   >Der Ebenenparameter ist erforderlich, um Dynamic Media zu aktualisieren.
+
+   ![](assets/dynamic-media-layout-2.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
+
+![](assets/dynamic-media-layout-3.png)
+
+<!--
+## Personalization with Text Overlay
+
+Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
+
+In this example, our goal is to update the existing text overlay by replacing it with a new validity date and adding a personalization block, ensuring it is customized for each profile when they open their messages.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Replace the overlay with the desired text.
+
+    Here we change the validity date from 31st December 2024 to the 1st July 2025.
+
+1. Add the required personalization fields to your image.
+
+1. Click **[!UICONTROL Save]**.
+
+Your content now includes your updated text overlay and personalization.
+
+## Add Dynamic media conditional content
+
+Enable conditional content in your dynamic media to better target your audience and deliver a more personalized experience.
+
+1. Drag and drop an **[!UICONTROL HTML component]** into your content.
+
+1. Select **[!UICONTROL Show the source code]**.
+
+1. From the **[!UICONTROL Edit HTML]** menu, access **[!UICONTROL Assets]** then **[!UICONTROL Open asset selector]**.
+
+    You can also simply copy and paste your assets URL.
+
+1. Browse through your AEM assets and select the one you want to add to your content.
+
+1. Once your dynamic media is inserted to your content, select **[!UICONTROL Enable conditional]** content from your HTML component toolbar to create your different user experiences. 
+
+1. From the Variant - 1, click **[!UICONTROL Select condition]** to fine tune your audience.
+
+1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
+
+    [Learn more on conditions](../personalization/create-conditions.md)
+
+1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
+
+1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
+
+-->
