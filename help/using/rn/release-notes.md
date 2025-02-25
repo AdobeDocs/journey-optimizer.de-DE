@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 22%
+source-wordcount: '767'
+ht-degree: 27%
 
 ---
 
@@ -114,11 +114,11 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mit der flexiblen Zielgruppenauswertung können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journey und -Kampagnen aufnehmen.</p>
+<p>Mit der flexiblen Zielgruppenauswertung können Sie nach Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die neuesten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Weitere Informationen finden Sie in der <a href="../audience/creating-a-segment-definition.md#flexible">ausführlichen Dokumentation</a>.</p>
 <p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Verfügbarkeitsdatum: 28. Januar 2025</p>
+<p>Verfügbarkeitsdatum: 28. Januar 2025</p>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ Die folgenden Verbesserungen werden mit dem Update vom Februar vorgenommen.
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **E-Mail-**: Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick festlegen. [Mehr dazu](../email/list-unsubscribe.md#custom-managed)
+* **E-Mail-**: Wenn Sie das Einverständnis außerhalb von Adobe verwalten, können Sie jetzt als Teil Ihrer E-Mail-Kanal-Konfigurationseinstellungen eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick festlegen.[Weitere Informationen](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

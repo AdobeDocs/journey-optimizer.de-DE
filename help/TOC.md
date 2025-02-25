@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 93%
 
 ---
 
@@ -173,7 +173,7 @@ ht-degree: 97%
 + Kampagnen{#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
-   + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
+   + [Kampagne überprüfen und aktivieren](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Konflikt-Management und Priorisierung {#conflict-prioritization}
@@ -182,7 +182,7 @@ ht-degree: 97%
    + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
    + [Journey-Begrenzung und Arbitration](using/conflict-prioritization/journey-capping.md)
 + Testen und Genehmigen {#test}
-   + Vorschau und Testen der Inhalte {#preview-test}
+   + Vorschau und Test von {#preview-test}
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen der Testprofile](using/content-management/test-profiles.md)
       + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
@@ -210,14 +210,14 @@ ht-degree: 97%
          + Gestalten von Inhalten {#add-content}
             + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
             + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
-            + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
+            + [Links hinzufügen und Nachrichten verfolgen](using/email/message-tracking.md)
             + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
             + [Generieren der Textversion](using/email/text-version-email.md)
             + [Hinzufügen eines Preheaders](using/email/preheader.md)
          + Bearbeiten des Stils {#edit-style}
             + [Erste Schritte mit E-Mail-Stilen](using/email/get-started-email-style.md)
             + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
-            + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
+            + [Anpassen der senkrechten Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
             + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
       + Konfigurieren eines E-Mail-Kanals {#configure-email}
@@ -233,12 +233,12 @@ ht-degree: 97%
       + [Erstellen einer Mobile-In-App-Nachricht](using/in-app/create-in-app.md)
       + [Erstellen einer Web-In-App-Nachricht](using/in-app/create-in-app-web.md)
       + [Gestalten der App-Inhalte](using/in-app/design-in-app.md)
-      + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
+      + [Überprüfen und Senden Ihrer In-App-Benachrichtigung](using/in-app/send-in-app.md)
    + Push-Benachrichtigungs-Kanal{#push}
       + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
       + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
       + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
-      + [Überprüfen und Senden Ihrer Push-Benachrichtigung](using/push/send-push.md)
+      + [Push-Benachrichtigung überprüfen und senden](using/push/send-push.md)
       + Konfigurieren von Push-Benachrichtigungen{#push-config}
          + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
@@ -246,7 +246,7 @@ ht-degree: 97%
    + SMS/MMS-Kanal{#sms}
       + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
       + [Erstellen einer Textnachricht (SMS/MMS)](using/sms/create-sms.md)
-      + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
+      + [Überprüfen und Senden von Textnachrichten](using/sms/send-sms.md)
       + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
       + Konfigurieren des SMS-/MMS-Kanals{#configure-sms}
@@ -259,7 +259,7 @@ ht-degree: 97%
    + Briefpost {#direct-mail}
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
-      + [Überprüfen und Senden einer Briefpost-Nachricht](using/direct-mail/test-send-direct-mail.md)
+      + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
       + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
    + Web-Kanal {#web}
       + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
@@ -277,12 +277,12 @@ ht-degree: 97%
    + Code-basiertes Erlebnis {#code-based-experience}
       + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
       + Konfigurieren des Code-basierten Kanals {#configure-code-based-channel}
-         + [Schutzmechanismen und Voraussetzungen](using/code-based/code-based-prerequisites.md)
+         + [Leitplanken und Voraussetzungen](using/code-based/code-based-prerequisites.md)
          + [Code-basierte Erlebnisoberflächen](using/code-based/code-based-surface.md)
          + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
          + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
       + Erstellen von Code-basierten Erlebnissen {#create-code-based-experiences}
-         + [Aufbauen und Entwerfen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
+         + [Erstellen und Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
          + [Testen von Code-basierten Erlebnissen](using/code-based/test-code-based.md)
          + [Verwalten von Code-basierten Erlebnissen](using/code-based/publish-code-based.md)
    + Inhaltskarten{#content-card}
@@ -345,7 +345,7 @@ ht-degree: 97%
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
          + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
          + [Datumsfunktionen](using/personalization/functions/dates.md)
-         + [Boolesche Funktionen und Vergleichsfunktionen](using/personalization/functions/operators.md)
+         + [Boolesche und Vergleichsfunktionen](using/personalization/functions/operators.md)
          + [Helper](using/personalization/functions/helpers.md)
          + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
          + [Mathematische Funktionen](using/personalization/functions/math.md)
@@ -395,7 +395,7 @@ ht-degree: 97%
    + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
    + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
    + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
-+ Nachverfolgen und Überwachen {#reporting}
++ {#reporting} verfolgen und überwachen
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
       + [Liste von Komponenten](using/reports/live-report-components.md)
@@ -490,7 +490,7 @@ ht-degree: 97%
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
          + [Leitplanken und Einschränkungen beim Entscheidungs-Management](using/offers/decision-management-guardrails.md)
          + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
-         + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
+         + [Wichtige Schritte zum Erstellen und Verwalten von Angeboten](using/offers/offer-library/key-steps.md)
          + [Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung](using/offers/custom-upload-decisioning.md)
          + [Anwendungsfall: Einfügen von Angeboten in eine E-Mail](using/offers/offers-e2e.md)
       + Erstellen von Komponenten {#create-components}
@@ -506,14 +506,14 @@ ht-degree: 97%
             + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
             + [Modell zur personalisierten Optimierung](using/offers/ranking/personalized-optimization-model.md)
             + [Erstellen von KI-Modellen](using/offers/ranking/create-ranking-strategies.md)
-      + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
+      + Angebote erstellen und verwalten {#managing-offers-in-the-offer-library}
          + Konfigurieren von Angeboten {#configure-offers}
             + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
             + [Hinzufügen von Darstellungen](using/offers/offer-library/add-representations.md)
             + [Hinzufügen von Einschränkungen](using/offers/offer-library/add-constraints.md)
          + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
          + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)
-      + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
+      + Entscheidungen erstellen und verwalten {#create-manage-activities}
          + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
          + [Konfigurieren der Auswahl von Angeboten in Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
          + [Erstellen von Simulationen](using/offers/offer-activities/simulation.md)
@@ -538,7 +538,7 @@ ht-degree: 97%
          + [Fallback-Datensatz](using/offers/export-catalog/export-fallback.md)
       + API-Referenz {#api-reference}
          + [Erste Schritte](using/offers/api-reference/getting-started.md)
-         + Erstellen und Verwalten von Angeboten mit APIs {#offers-api}
+         + Erstellen und Verwalten von Angeboten mithilfe von APIs {#offers-api}
             + Platzierungen {#placements}
                + [Auflisten von Platzierungen](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Nachschlagen von Platzierungen](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -669,7 +669,7 @@ ht-degree: 97%
    + [Konfigurieren von Verfahrensregeln](using/configuration/frequency-rules.md)
    + [Arbeiten mit Regelsätzen](using/configuration/rule-sets.md)
    + Konfigurieren von Journeys {#configure-journeys}
-      + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
+      + [Konfigurieren von Datenquellen, Ereignissen und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Integrieren mit externen Systemen {#external-systems}
          + [Journey-Integration in externe Systeme](using/configuration/external-systems.md)
          + [Capping-API](using/configuration/capping.md)
@@ -703,7 +703,7 @@ ht-degree: 97%
       + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
       + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
       + [Berechtigungsstufen](using/administration/high-low-permissions.md)
-   + [Verwalten von Benutzenden und Produkten](using/administration/permissions.md)
+   + [Verwalten von Benutzern und Rollen](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
    + [Sandbox-Verwaltung](using/administration/sandboxes.md)
@@ -716,4 +716,4 @@ ht-degree: 97%
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)
    + [Data Governance](using/action/action-privacy.md)
-   + [Einrichten und Verwalten von Customer Managed Keys](using/privacy/cmk.md)
+   + [Einrichten und Verwalten von kundenverwalteten Schlüsseln](using/privacy/cmk.md)

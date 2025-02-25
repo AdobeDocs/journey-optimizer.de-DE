@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
-# Wichtigste Schritte bei der Angebotserstellung und -verwaltung {#key-steps-to-manage-offers}
+# Wichtige Schritte zum Erstellen und Verwalten von Angeboten {#key-steps-to-manage-offers}
 
 Nachfolgend werden die wichtigsten Schritte zum Erstellen, Konfigurieren und Verwalten von Angeboten sowie deren Verwendung in einer Entscheidung beschrieben.
 

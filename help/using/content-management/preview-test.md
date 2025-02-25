@@ -5,14 +5,14 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 97%
 
 ---
 
-# Anzeigen einer Vorschau und Testen der Inhalte {#preview-test}
+# Vorschau und Testen von Inhalten {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
@@ -56,7 +56,7 @@ Sie können Ihre Inhalte wie folgt in der Vorschau anzeigen und testen:
 
   ➡️ [Überprüfen von E-Mail-Rendering](rendering.md)
 
-  ➡️ [Vorschau und Durchführen eines Testversands einer E-Mail (Video)](#video-preview)
+  ➡️ [Vorschau und Testversand Ihrer E-Mail (Video)](#video-preview)
 
 * **Beispieleingabedaten**
 

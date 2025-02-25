@@ -6,14 +6,14 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
-# Schutzmechanismen und Voraussetzungen {#code-based-prerequisites}
+# Leitplanken und Voraussetzungen {#code-based-prerequisites}
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 

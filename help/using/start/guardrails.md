@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingefüh
 
 [!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
+### Code-basierte Kanal-Leitplanken {#code-based-guardrails}
+
+Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
+
 ## Leitlinien für Subdomains {#subdomain-guardrails}
 
 Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt bis zu 10 Subdomains delegieren (die sowohl E-Mail- als auch Web-Kanäle abdecken).
@@ -85,6 +89,7 @@ Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- 
 
 * [Leitplanken und Einschränkungen bei Entscheidungen](../experience-decisioning/decisioning-guardrails.md)
 * [Leitplanken und Einschränkungen beim Entscheidungs-Management](../offers/decision-management-guardrails.md)
+
 
 ## Leitlinien für Journeys {#journeys-guardrails}
 
