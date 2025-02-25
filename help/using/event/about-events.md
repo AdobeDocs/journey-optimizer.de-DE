@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: ht
-source-wordcount: '989'
-ht-degree: 100%
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Journey-Ereignisse"
->abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10 000 Treuepunkte erreicht). Diese Ereignisse werden von Journey Optimizer in Journeys überwacht, um die nächsten besten Aktionen zu orchestrieren."
+>abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10 000 Treuepunkte erreicht). Journey Optimizer überwacht unitäre Ereignisse in Journey, um die nächsten besten Aktionen zu orchestrieren."
 
 Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL Journey Optimizer] als Ereignisse erhält. Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden.
 

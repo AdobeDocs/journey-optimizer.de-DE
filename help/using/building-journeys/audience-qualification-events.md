@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
-### Konfigurieren der Aktivität{#cnfigure-segment-qualification}
+### Konfigurieren der Aktivität {#configure-segment-qualification}
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** zu konfigurieren:
 

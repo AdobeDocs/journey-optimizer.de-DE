@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 88%
+source-wordcount: '1124'
+ht-degree: 73%
 
 ---
 
@@ -64,11 +64,19 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 
 ## Journey Typen {#journey-types}
 
-Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]** oder **[!UICONTROL Geschäftsereignis]**.
+Der Typ einer Journey hängt von den auf dieser Journey verwendeten Aktivitäten ab. Dies kann sein:
+
+* **[!UICONTROL Unitäres Ereignis]** - Unitäre Ereignis-Journey sind mit einem bestimmten Profil verknüpft. Ereignisse beziehen sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). [Weitere Informationen](../event/about-events.md).
+* **[!UICONTROL Geschäftsereignis]**. Geschäftsereignis-Journey beginnt mit einem nicht profilbezogenen Ereignis. Die Ereigniskonfiguration wird von einem technischen Anwender durchgeführt und kann nicht bearbeitet werden. [Weitere Informationen](../event/about-events.md).
+* **[!UICONTROL Zielgruppenqualifizierung]** - Zielgruppenqualifizierungs-Journey überwachen die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen, um Personen dazu zu bringen, in eine Journey einzutreten oder in einer Zukunft fortzufahren. [Weitere Informationen](audience-qualification-events.md).
+* **[!UICONTROL Zielgruppe lesen]** - In den Journey-Dateien für die Lesepublikation geben alle Personen in der Zielgruppe die Journey ein und erhalten die in Ihrer Journey enthaltenen Nachrichten.  [Weitere Informationen](read-audience.md).
+
+
+Weitere Informationen zu Journey-Typen und der zugehörigen Eintragsverwaltung finden Sie auf [dieser Seite](entry-management.md).
 
 ## Journey-Status {#journey-statuses}
 
-Der Journey-Status kann wie folgt lauten:
+Der Journey-Status hängt von seinem Lebenszyklus ab. Dies kann sein:
 
 * **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
@@ -79,7 +87,10 @@ Der Journey-Status kann wie folgt lauten:
 
 >[!NOTE]
 >
->Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
+>* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
+>
+>* Wenn Sie eine Live **Journey ändern müssen** erstellen Sie [eine neue Version](#journey-versions) Ihrer Journey.
+
 
 ## Journey-Versionen {#journey-versions}
 
@@ -91,7 +102,9 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 >
 >In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
-Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
+### Erstellen einer neuen Journey-Version {#journey-create-new-version}
+
+Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihrer Journey. Gehen Sie wie folgt vor, um eine neue Version einer bestehenden Journey zu erstellen:
 
 1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
