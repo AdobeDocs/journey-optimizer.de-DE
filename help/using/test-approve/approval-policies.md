@@ -5,14 +5,26 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 85%
 
 ---
 
 # Erstellen und Verwalten von Genehmigungsrichtlinien {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Anfragen einer Genehmigung"
+>abstract="Anfragen einer Genehmigung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Änderung anfordern"
+>abstract="Änderung anfordern"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 100%
 Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für Journeys und Kampagnen einzurichten. Dieses System legt spezifische Bedingungen fest, die bestimmen, ob eine Journey oder Kampagne genehmigt werden muss. Diese Richtlinien können unterschiedlich komplex sein, von der einfachen Anforderung, dass alle Kampagnen von bestimmten Benutzenden oder Teams überprüft werden müssen, bis hin zur Festlegung von Kriterien, die darauf basieren, wer die Kampagne erstellt hat.
 
 ## Erstellen von Genehmigungsrichtlinien {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Neue Genehmigungsrichtlinie"
+>abstract="Geben Sie in diesem Bildschirm den Namen ein, wählen Sie den Kontext für die Genehmigungsrichtlinie aus und erstellen Sie dann die Bedingungen, um zu bestimmen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann."
+
+Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
 1. Greifen Sie in Journey Optimizer über das Menü **[!UICONTROL Administration]** auf **[!UICONTROL Berechtigungen]** und dann auf **[!UICONTROL Richtlinien]** zu.
 
@@ -34,9 +53,11 @@ Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für J
 
    ![](assets/policy_create_2.png)
 
-Sie können nun die Bedingungen verfeinern, um festzulegen, wer die Genehmigungsanfrage initiiert und wer sie validiert.
+Sie können jetzt die Bedingungen verfeinern, um anzugeben, wer die Genehmigungsanfrage initiieren und wer sie validieren kann.
 
 ## Festlegen von Bedingungen für Genehmigungsrichtlinien {#conditions}
+
+Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Bedingungen zu definieren:
 
 1. Greifen Sie auf Ihre **[!UICONTROL Genehmigungsrichtlinie]** zu.
 
