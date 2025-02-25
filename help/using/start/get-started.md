@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe von Decisioning auf allen Kanälen zentralisierte Angebote im großen Maßstab.
 
+
+>[!NOTE]
+>
+> Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen [ von Ihren ](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder Ihren Adobe-Support-Mitarbeiter.
+
+
 ## Architektur {#architecture}
 
 Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL Adobe Journey Optimizer], die Integrationspunkte und die Beziehung zwischen [!DNL Journey Optimizer] und [!DNL Experience Platform].
@@ -63,7 +69,7 @@ Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL
 >[!NOTE]
 >
 > Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und -verfahren von Adobe Experience Cloud. [Weitere Informationen zum Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
-> Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de).
+>
 
 
 >[!MORELIKETHIS]
