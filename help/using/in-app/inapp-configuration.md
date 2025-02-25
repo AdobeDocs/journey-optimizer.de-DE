@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
 ## Erstellen einer In-App-Konfiguration {#channel-prerequisites}
 
+
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/inapp_config_1.png)
@@ -72,7 +73,11 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
    ![](assets/inapp_config_9.png)
 
-1. Wählen Sie die Plattform aus, auf die die In-App-Nachricht angewendet werden soll.
+1. Wählen Sie die Plattform aus, für die Sie die Einstellungen definieren möchten. Auf diese Weise können Sie die Ziel-App für jede Plattform angeben und eine konsistente Inhaltsbereitstellung über mehrere Plattformen hinweg sicherstellen.
+
+   >[!NOTE]
+   >
+   >Bei iOS- und Android-Plattformen basiert die Bereitstellung ausschließlich auf der App-ID. Wenn beide Apps dieselbe App-ID verwenden, werden Inhalte für beide bereitgestellt, unabhängig von der in der **[!UICONTROL Kanalkonfiguration“ ausgewählten Plattform]**.
 
    ![](assets/inapp_config_10.png)
 
