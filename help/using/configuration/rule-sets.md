@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 97%
@@ -258,7 +258,7 @@ Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausge
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Bevor Sie Ihre Kampagne aktivieren, stellen Sie sicher, dass Sie die Ausführung mindestens 10 Minuten im Voraus planen.
+1. Bevor Sie Ihre Kampagne aktivieren, stellen Sie sicher, dass Sie die Ausführung mindestens 20 Minuten im Voraus planen.
 
    Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Verfahrensregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden angezeigt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt.
 
