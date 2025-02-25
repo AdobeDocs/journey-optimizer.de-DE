@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 64%
+source-wordcount: '761'
+ht-degree: 65%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 64%
 >title="Journeys"
 >abstract="Entwerfen Sie Customer Journeys, um Ihren Kundinnen und Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit Journey Optimizer können Sie anhand von in Ereignissen oder Datenquellen gespeicherten kontextbezogenen Daten Echtzeit-Orchestrierungsfälle erstellen. In der Registerkarte **Übersicht** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt. Auf der Registerkarte **Durchsuchen** wird eine Liste der vorhandenen Journeys angezeigt."
 
-Erstellen Sie mehrstufige Kunden-Journey, die in Echtzeit eine Sequenz von Interaktionen, Angeboten und Nachrichten kanalübergreifend initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden.
+Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Die Benutzeroberfläche von Journey wird auf [ Seite beschrieben](journey-ui.md).
 
 ![Beispiel einer Journey-Arbeitsfläche](assets/journey38.png)
 
-Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Die Benutzeroberfläche von Journey wird auf [ Seite beschrieben](journey-ui.md).
+Erstellen Sie mehrstufige Kunden-Journey, die in Echtzeit eine Sequenz von Interaktionen, Angeboten und Nachrichten kanalübergreifend initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden.
 
 Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite beschrieben. Sie werden wie folgt gestrafft:
 
@@ -112,4 +112,6 @@ Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reportin
 
 Weitere Informationen zum Journey von Berichten finden Sie in [Abschnitt](../reports/live-report.md).
 
-Beachten Sie, dass Sie eine bestehende Journey duplizieren oder eine neue Journey erstellen können. Weitere Informationen hierzu finden Sie [ dieser Seite](journey-ui.md)
+>[!NOTE]
+>
+>Wenn Sie eine Live **Journey ändern müssen** erstellen Sie [eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
