@@ -39,21 +39,21 @@ Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgrup
 >
 >Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden.
 >
-+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
+>+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
 >
-1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
-1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
-1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
-1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
-1. Speichern Sie Ihre Änderungen.
-1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
+>1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
+>1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.
+>1. Wählen Sie in der Schema-Auswahl das entsprechende Schema aus. Der Name des Schemas hat folgendes Format: „Schema für audienceId:“ + die ID der Zielgruppe. Die ID der Zielgruppe finden Sie auf dem Bildschirm „Zielgruppendetails“ im Sammlungsbestand der Zielgruppe.
+>1. Öffnen Sie die Feldauswahl, suchen Sie nach den Anreicherungsattributen, die Sie hinzufügen möchten, und wählen Sie das Kontrollkästchen neben ihnen aus.
+>1. Speichern Sie Ihre Änderungen.
+>1. Sobald die Anreicherungsattribute einer Feldgruppe hinzugefügt wurden, können Sie diese in Journey Optimizer an den oben aufgeführten Standorten nutzen.
 >
-Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
+>Detaillierte Informationen zu Datenquellen finden Sie in diesen Abschnitten:
 >
-* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
-* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
+>* [Arbeiten mit der Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md)
+>* [Konfigurieren einer Datenquelle](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 
