@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2335'
 ht-degree: 93%
 
 ---
@@ -33,11 +33,6 @@ Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://exper
 
 Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
-## Schutzmaßnahmen bei Nachrichten {#message-guardrails}
-
-* Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
-* Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
-
 ## Leitlinien für Datensätze {#datasets-guardrails}
 
 Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Journey Optimizer-systemgenerierte Datensätze in **neuen Sandboxes und neuen** bereitgestellt:
@@ -47,20 +42,20 @@ Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Jour
 
 Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingeführt. [Weitere Informationen zu Leitplanken für Time-to-Leave (TTL) von Datensätzen](../data/datasets-ttl.md)
 
-## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
+## Leitplanken für Kanäle {#channel-guardrails}
 
-* Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
-* Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
-* Sie können keine Preheader zu einer Landingpage hinzufügen.
-* Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
+### E-Mail-Leitplanken {#message-guardrails}
 
-## SMS-Leitlinien {#sms-guardrails}
+* Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
+* Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
+
+### SMS-Leitlinien {#sms-guardrails}
 
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-## Leitlinien für Web-Kanäle {#web-guardrails}
+### Leitlinien für Web-Kanäle {#web-guardrails}
 
 Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
 
@@ -69,6 +64,13 @@ Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Prod
 ### Code-basierte Kanal-Leitplanken {#code-based-guardrails}
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
+
+## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
+
+* Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
+* Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
+* Sie können keine Preheader zu einer Landingpage hinzufügen.
+* Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
 ## Leitlinien für Subdomains {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 
 Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
-## Leitplanken für Entscheidungs- und Entscheidungs-Management {#decisioning}
+## Leitplanken für Entscheidungs- und Entscheidungs-Management {#decisioning-guardrails}
 
 Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
 
