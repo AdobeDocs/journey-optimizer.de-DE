@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -60,9 +60,11 @@ Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingefüh
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-### Leitlinien für Web-Kanäle {#web-guardrails}
+## Leitlinien für Web-Kanäle {#web-guardrails}
 
-[!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
+
+Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
 ### Code-basierte Kanal-Leitplanken {#code-based-guardrails}
 
