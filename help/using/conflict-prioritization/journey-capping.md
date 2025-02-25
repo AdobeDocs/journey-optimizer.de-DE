@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 91%
@@ -120,7 +120,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 >[!IMPORTANT]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 15 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 15 Minuten in der Zukunft beginnt, um dies zu verhindern.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
 Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
 
