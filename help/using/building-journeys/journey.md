@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Or
 * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey [ und ](journey-gs.md).
+
+➡️ [Entdecken Sie Journey Optimizer im Video](#video)
 
 ## Anwendungsfälle{#uc-journey}
 
