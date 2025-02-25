@@ -8,19 +8,23 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen zu erstellen.
+Der Journey Optimizer Journey-Designer bietet alles, was Marketer und Journey-Anwender benötigen, um mehrstufige 1:1-Journey kanalübergreifend zu orchestrieren. Dazu gehört eine intuitive Drag-and-Drop-Arbeitsfläche, um jeden Schritt des Journey zu orchestrieren, die Zielgruppe zu definieren und die Nachrichten, Angebote und Inhalte über alle Kanäle hinweg einzuschließen, die die Mitglieder der Zielgruppe basierend auf ihrem Verhalten, kontextuellen Daten und Geschäftsereignissen sehen werden.
 
-Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
+Wir definieren zunächst die Aktion oder das Ereignis, das den Kunden-Journey auslöst, und dann die Touchpoints, in denen Kundenaktionen, -ereignisse,
+Oder kontextuelle Daten leiten sie nahtlos zu ihrem nächsten besten Schritt. Dieser Prozess beginnt mit der Definition der Aktion oder des Ereignisses, die bzw. das den
+Journey gefolgt von der Definition von Touchpoints, über die Kundenaktionen, Ereignisse oder kontextuelle Daten sie nahtlos zum nächstbesten Schritt führen.
+
+Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen zu erstellen. Sie können mehrstufige erweiterte Szenarien mit den folgenden Funktionen entwerfen:
 
 * Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **als Batch** unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
@@ -34,73 +38,21 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 >
 >Leitlinien und Einschränkungen für Journeys werden auf [dieser Seite](../start/guardrails.md) detailliert behandelt.
 
-## Schritte zum Erstellen einer Journey{#steps-journey}
-
-Verwenden Sie Adobe Journey Optimizer, um personalisierte Journeys auf einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren. Die wichtigsten Schritte zum Erstellen einer Journey sind wie folgt:
-
-![](assets/journey-creation-process.png)
-
-➡️ [Entdecken Sie diese Funktion im Video](#video)
-
-Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen.
-
-![](assets/interface-journeys.png)
-
-Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
-
-Der Omnichannel-Journey-Designer hilft bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-&amp;-Drop-Oberfläche.
-
-![](assets/journey38.png)
-
-Weiterführende Informationen finden sich in [diesem Abschnitt](using-the-journey-designer.md).
-
-Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.
-
+Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey [ und ](journey-gs.md).
 
 ## Anwendungsfälle{#uc-journey}
 
-In den folgenden End-to-End-Anwendungsfällen wird das Erstellen von Journeys erläutert.
+Vom Journey-Designer aus können Marketing-Fachleute 1:1-Nachrichten in Echtzeit über jeden Kanal senden, wenn ein Ereignis auftritt. Trigger Wenn sich beispielsweise ein Kunde für einen Service anmeldet, kann [eine Begrüßungs-E-](message-to-subscribers-uc.md) verschickt werden, in der er aufgefordert wird, sich zum ersten Mal bei der App anzumelden und seine Voreinstellungen festzulegen. Aktionen wie der Abschluss des Kaufs, das Öffnen der E-Mail und die Anmeldung bei der App können verwendet werden, um neue Kundinnen und Kunden über ihre Journey voranzubringen.
 
-Geschäftliche Anwendungsfälle:
+Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journeys-message.md) die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/MMS sowie eingehende Kanäle wie mobile Apps, Websites und Code-basierte Erlebnisse unterstützen, die direkt in Journey Optimizer erstellt werden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten zu senden - ob per E-Mail, Text oder über andere Kanäle - Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md) mit denen diese Systeme direkt vom Journey-Designer in Journey integriert werden können.
+
+In den folgenden End-to-End-Anwendungsfällen erfahren Sie, wie Sie Journey erstellen:
 
 * [Senden von Multi-Channel-Nachrichten](journeys-uc.md)
 * [Senden einer Nachricht mit Campaign v7/v8](ajo-ac.md)
 * [Senden einer Nachricht an Abonnenten](message-to-subscribers-uc.md)
-
-Technische Anwendungsfälle:
-
 * [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](collections.md)
 * [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
-
-## Journey-Versionen{#journey-versions}
-
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
-
-Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
-
-Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
-
-1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >Sie können eine neue Version nur über die letzte Version einer Journey erstellen.
-
-1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
-
-Ab dem Zeitpunkt der Veröffentlichung der Journey treten Personen in die neueste Version der Journey ein.  Personen, die bereits in einer früheren Version eingetreten sind, bleiben bis zum Ende der Journey darin. Bei einem späteren erneuten Eintritt in dieselbe Journey treten sie in die neueste Version ein.
-
-Journey-Versionen können einzeln angehalten werden. Alle Versionen einer Journey haben denselben Namen.
-
-Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
 
 ## Anleitungsvideo {#video}
 

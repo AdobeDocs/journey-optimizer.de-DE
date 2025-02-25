@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 96%
+source-wordcount: '2196'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
    + Schnellstartanleitungen{#quick-start}
-      + [Übersicht](using/start/quick-start.md)
+      + [Überblick](using/start/quick-start.md)
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
       + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
@@ -38,10 +38,11 @@ ht-degree: 96%
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
-   + [Leitplanken](using/start/guardrails.md)
+   + [Leitlinien](using/start/guardrails.md)
    + [Best Practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
+   + [Journey durchsuchen und filtern](using/building-journeys/journey-ui.md)
    + Erstellen einer Journey{#create-journey}
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
@@ -53,7 +54,7 @@ ht-degree: 96%
    + Verwalten von Journeys{#manage-journey}
       + [Profileintrittsverwaltung](using/building-journeys/entry-management.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
-      + [Optimierung des Versandzeitpunkts](using/building-journeys/send-time-optimization.md)
+      + [Versandzeitoptimierung](using/building-journeys/send-time-optimization.md)
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
@@ -221,9 +222,9 @@ ht-degree: 96%
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
       + Konfigurieren eines E-Mail-Kanals {#configure-email}
          + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
-         + [E-Mail-Konfigurationseinstellungen definieren](using/email/email-settings.md)
-         + [Abmelden von der Liste aktivieren](using/email/list-unsubscribe.md)
-         + [Kopfzeilenparameter](using/email/header-parameters.md)
+         + [Definieren von E-Mail-Konfigurationseinstellungen](using/email/email-settings.md)
+         + [Option „Abmelden von der Liste aktivieren“](using/email/list-unsubscribe.md)
+         + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
    + In-App-Kanal{#in-app}
@@ -379,8 +380,8 @@ ht-degree: 96%
          + [Zielgruppenkomposition](using/audience/get-started-audience-orchestration.md)
          + [Benutzerdefinierter Upload](using/audience/custom-upload.md)
          + [Komposition föderierter Zielgruppen](using/audience/federated-audience-composition.md)
-      + [Zielgruppenaktivierung in Kampagnen und Journey](using/audience/target-audiences.md)
-      + [Anreicherungsattribute nutzen](using/audience/enrichment-attributes.md)
+      + [Zielgruppenaktivierung in Kampagnen und Journeys](using/audience/target-audiences.md)
+      + [Nutzen von Anreicherungsattributen](using/audience/enrichment-attributes.md)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
@@ -388,7 +389,7 @@ ht-degree: 96%
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
 + Integrationen{#assets-images}
-   + [Integrationen mit anderen Lösungen](using/integrations/ajo-integrations.md)
+   + [Integration mit anderen Lösungen](using/integrations/ajo-integrations.md)
    + [Arbeiten mit Experience Manager Assets](using/integrations/assets.md)
    + [Arbeiten mit Adobe Stock](using/integrations/stock.md)
    + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
