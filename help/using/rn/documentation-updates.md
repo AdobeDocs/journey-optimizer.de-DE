@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
 workflow-type: tm+mt
-source-wordcount: '6152'
+source-wordcount: '6153'
 ht-degree: 97%
 
 ---
@@ -23,7 +23,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Februar 2025 {#feb-2025}
 
 * Die Schritte zum Erstellen Ihrer ersten Journey wurden detailliert beschrieben und Links zum Dokumentationsabschnitt wurden hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
-* Es ist jetzt eine neue Seite verfügbar, auf der die Journey der Benutzeroberfläche für die Journey-Verwaltung beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)
+* Es ist jetzt eine neue Seite verfügbar, auf der das Journey-Dashboard und die Benutzeroberfläche zum Filtern beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)
 * Die Dokumentation zur **[!UICONTROL Optimierung des Versandzeitpunkts]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Es wurden neue Schutzmechanismen für Journey-Ereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 * Die Seite mit den integrierten Kanalaktionen wurde neu angeordnet. [Weitere Informationen](../building-journeys/journeys-message.md)
