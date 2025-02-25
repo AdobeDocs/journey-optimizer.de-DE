@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 94%
+source-wordcount: '950'
+ht-degree: 88%
 
 ---
 
 # Journey durchsuchen und filtern {#browse-journeys}
 
-## Zugreifen auf Journeys {#journey-access}
-
-### Journey-Dashboard {#dashboard-jo}
+## Journey-Dashboard {#dashboard-jo}
 
 Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
 
-* Auf **[!UICONTROL Registerkarte]**&#x200B;Übersicht“ wird ein Dashboard mit Schlüsselmetriken für Ihre Journey angezeigt:
+
+* Auf **[!UICONTROL Registerkarte]**&#x200B;Übersicht“ wird ein Dashboard mit Schlüsselmetriken für Ihre Journey angezeigt.
+
+  ![Journey-Dashboard mit hervorgehobener Registerkarte „Übersicht“](assets/journeys-dashboard.png)
 
    * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
    * **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Zielgruppe lesen).
@@ -34,36 +36,18 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
   >
   >Dieses Dashboard berücksichtigt die Journeys mit Traffic in den letzten 24 Stunden. Es werden nur die Journeys angezeigt, auf die Sie zugreifen können. Metriken werden alle 30 Minuten aktualisiert, aber nur dann, wenn neue Daten verfügbar sind.
 
-  ![](assets/journeys-dashboard.png)
 
 * Auf **[!UICONTROL Registerkarte]** Durchsuchen“ wird die Liste der vorhandenen Journey angezeigt. Sie können nach Journeys suchen, Filter verwenden und grundlegende Aktionen für jedes Element ausführen. Sie können Elemente beispielsweise duplizieren oder löschen.
 
-  ![](assets/journeys-browse.png)
+  ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
 
-### Journey filtern {#filter}
+## Journey filtern {#journey-filter}
 
-In der Liste der Journeys können Sie verschiedene Filter nutzen, um diese Liste zur besseren Lesbarkeit zu verfeinern.
+Verwenden Sie in der Liste der Journey Filter, um die Liste der Journey zu verfeinern.
 
 ![](assets/filter-journeys.png)
 
-Folgende Filtervorgänge können Sie durchführen:
-
-Filtern von Journeys nach Status, Typ, Version und zugewiesenen Tags aus den Filtern für **[!UICONTROL Status und Version]**.
-
-Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]** oder **[!UICONTROL Geschäftsereignis]**.
-
-Der Status kann wie folgt lauten:
-
-* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
-* **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
-* **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert.
-* **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
-* **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht.
-* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Einzelpersonen verlassen die Journey sofort.
-
->[!NOTE]
->
->Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
+Sie können Journey nach ihren [status](#journey-statuses), [type](#journey-types), [version](#journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Status- und Versionsfiltern]** filtern.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
@@ -77,6 +61,25 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 
 ![](assets/journey3bis.png)
 
+
+## Journey Typen {#journey-types}
+
+Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Zielgruppen-Qualifizierung]**, **[!UICONTROL Zielgruppe lesen]** oder **[!UICONTROL Geschäftsereignis]**.
+
+## Journey-Status {#journey-statuses}
+
+Der Journey-Status kann wie folgt lauten:
+
+* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
+* **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
+* **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert.
+* **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
+* **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht.
+* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Einzelpersonen verlassen die Journey sofort.
+
+>[!NOTE]
+>
+>Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
 
 ## Journey-Versionen {#journey-versions}
 
@@ -124,4 +127,3 @@ Gehen Sie dazu wie folgt vor:
    ![](assets/duplicate-jo2.png)
 
 1. Die neue Journey wird erstellt und ist in der Journey-Liste verfügbar.
-
