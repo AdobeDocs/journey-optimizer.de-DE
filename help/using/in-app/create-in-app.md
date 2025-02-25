@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 100%
@@ -240,7 +240,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
@@ -248,7 +248,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
