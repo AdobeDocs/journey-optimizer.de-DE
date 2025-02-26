@@ -9,16 +9,14 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: a5bcd26ff735fc9656814c0df28fb58db5b3ae37
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Abonnement-Listen {#create-subscription-list}
-
-## Was ist eine Abonnement-Liste? {#subscription-list-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
