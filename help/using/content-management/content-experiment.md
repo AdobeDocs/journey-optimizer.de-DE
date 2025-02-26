@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 95%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhaltsexperiment"
->abstract="Der Inhalt der Nachricht, der Betreff oder der Absender kann geändert werden, um mehrfache Abwandlungen zu definieren und die beste Kombination für die Zielgruppen zu ermitteln."
+>abstract="Sie können den Nachrichteninhalt oder den Betreff variieren, um mehrere Varianten zu definieren und die beste Kombination für Ihre Audiences zu ermitteln."
 
 >[!NOTE]
 >
 >Bevor Sie mit dem Inhaltsexperiment beginnen, stellen Sie sicher, dass die Berichtskonfiguration für Ihre benutzerdefinierten Datensätze definiert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](../reports/reporting-configuration.md).
 
-Das Journey Optimizer-Inhaltsexperiment ermöglicht es Ihnen, mehrere Versandabwandlungen zu definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren. Die Zielgruppe wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert.
+Das Journey Optimizer-Inhaltsexperiment ermöglicht es Ihnen, mehrere Versandabwandlungen zu definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie können Inhalt oder Betreff des Versands variieren. Die Zielgruppe wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert.
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
