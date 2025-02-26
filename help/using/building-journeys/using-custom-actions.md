@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 100%
 >title="Benutzerdefinierte Aktionen"
 >abstract="Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann."
 
-Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
+Verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zu einem Drittanbietersystem zum Senden von Nachrichten oder API-Aufrufen zu ermöglichen. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
+
+Weitere Informationen zu benutzerdefinierten Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
+
+Erfahren Sie auf [ Seite , wie Sie eine benutzerdefinierte Aktion erstellen ](../action/about-custom-action-configuration.md) konfigurieren.
 
 ## Einverständnis und Data Governance {#privacy}
 
@@ -67,6 +71,3 @@ Um den Wert der dynamischen Header- und Abfrageparameter-Felder anzugeben, klick
 
 Im Abschnitt **[!UICONTROL Aktionsparameter]** sehen Sie die Nachrichtenparameter, die als _Variable_ definiert sind. Für diese Parameter können Sie festlegen, wo diese Informationen abgerufen werden sollen (Beispiel: Ereignisse, Datenquellen), Werte manuell übergeben oder den erweiterten Ausdruckseditor für erweiterte Anwendungsfälle verwenden. Erweiterte Anwendungsfälle können Datenmanipulationen und andere Funktionen sein. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md).
 
-**Verwandte Themen**
-
-[Konfigurieren einer Aktion](../action/about-custom-action-configuration.md)
