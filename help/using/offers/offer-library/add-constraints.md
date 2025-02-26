@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 * Das Angebot wird nur bei Benutzern berücksichtigt, die die Entscheidungsregel „Gold-Treuekunden“ erfüllen.
 * Die Priorität des Angebots ist mit „50“ festgelegt, d. h. das Angebot wird vor Angeboten mit einer Priorität zwischen 1 und 49 und nach Angeboten mit einer Priorität von mindestens 51 unterbreitet.
-* Das Angebot wird für alle Platzierungen nur einmal monatlich pro Benutzerin bzw. Benutzer angezeigt.
+* Das Angebot wird für alle Platzierungen nur einmal monatlich pro Benutzer angezeigt.
 
 ## Eignung {#eligibility}
 
@@ -217,7 +217,7 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis auswählen]** können Sie festleg
 
 ### Begrenzungstyp {#capping-type}
 
-Sie können festlegen, ob die Begrenzung auf alle Benutzerinnen und Benutzer oder auf ein bestimmtes Profil angewendet werden soll:
+Sie können angeben, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes Profil gelten soll:
 
 ![](../assets/offer-capping-total.png)
 
