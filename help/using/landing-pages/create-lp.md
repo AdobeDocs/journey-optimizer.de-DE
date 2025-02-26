@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 4a9034c0c875cd504e25c8eb22a2715004416ea1
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 100%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
 # Erstellen und Veröffentlichen von Landingpages {#create-lp}
 
->[!CAUTION]
->
->Um Landingpages testen und veröffentlichen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
-
 Um Ihre Kundinnen und Kunden zu einer definierten Web-Seite zu leiten, die angezeigt werden soll, wenn sie auf einen bestimmten Link klicken, erstellen Sie eine Landingpage in [!DNL Journey Optimizer], konfigurieren Sie die primäre Seite und alle Unterseiten, testen Sie sie und veröffentlichen Sie sie.
 
->[!CAUTION]
->
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die URL, die beim [Erstellen der Seite](#create-landing-page) definiert wurde, einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
+Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
+
+![](assets/lp-creation-process.png)
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -71,9 +67,11 @@ In dieser Liste können Sie auf eine Reihe von Aktionen zugreifen. Klicken Sie a
 >abstract="Zum Schutz sensibler digitaler Assets können Sie mithilfe von Kennzeichnungen Berechtigungen definieren, um den Datenzugriff auf Ihre Landingpage zu verwalten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=de" text="Zugriffssteuerung auf Objektebene"
 
-Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
-![](assets/lp-creation-process.png)
+Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, dann die Primärseite und die Unterseiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen. Diese Schritte werden im Folgenden beschrieben:
+
+
+1. Navigieren Sie **[!UICONTROL linken Menü zu]** Content-Management **[!UICONTROL > Landingpages]** .
 
 1. Klicken Sie in der Landingpage-Liste auf **[!UICONTROL Landingpage erstellen]**.
 
@@ -289,7 +287,8 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
->Um Landingpages veröffentlichen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
+>Um Landingpages zu veröffentlichen, müssen Benutzer über die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
+
 
 Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen.
 
