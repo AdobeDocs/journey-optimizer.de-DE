@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 78664bdc8f68aa4cb1ac49719bf738a0727ace7c
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2180'
 ht-degree: 92%
 
 ---
@@ -197,6 +197,7 @@ ht-degree: 92%
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
 + Kommunikationskanäle{#channels}
    + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels.md)
+   + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels-2.md)
    + E-Mail-Kanal {#email}
       + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
       + [Erstellen einer E-Mail](using/email/create-email.md)
