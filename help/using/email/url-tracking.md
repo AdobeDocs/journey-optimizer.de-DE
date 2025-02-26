@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
-
 
 # URL-Tracking {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 100%
 >title="Vorschau der URL-Tracking-Parameter"
 >abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
-Bei der Konfiguration einer neuen [E-Mail-Kanalkonfiguration](email-settings.md) können Sie **[!UICONTROL URL-Tracking-Parameter]** definieren, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen.
-
->[!NOTE]
->
->Diese Funktion ist optional.
+Bei der Konfiguration einer neuen [E-Mail](email-settings.md)Kanalkonfiguration) können Sie **[!UICONTROL URL-Tracking-Parameter]** definieren, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Die Aktivierung dieser Funktion ist optional.
 
 Die im entsprechenden Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Performance-Berichte erstellen.
 
