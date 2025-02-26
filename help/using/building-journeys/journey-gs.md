@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 65%
+source-wordcount: '711'
+ht-degree: 45%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-
 
 ![Beispiel einer Journey-Arbeitsfläche](assets/journey38.png)
 
-Erstellen Sie mehrstufige Kunden-Journey, die in Echtzeit eine Sequenz von Interaktionen, Angeboten und Nachrichten kanalübergreifend initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden.
 
 Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite beschrieben. Sie werden wie folgt gestrafft:
 
 ![Schritte zur Erstellung von Journey: Erstellen, Entwerfen, Testen und Veröffentlichen](assets/journey-creation-process.png)
 
 
-## Voraussetzungen {#start-prerequisites}
+Erstellen Sie mehrstufige Kunden-Journey, um eine Abfolge von Interaktionen, Angeboten und Nachrichten kanalübergreifend in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden. Zielgruppen können basierend auf Verhalten, kontextuellen Daten und Geschäftsereignissen definiert werden. Die Voraussetzungen hängen von Ihrem Anwendungsfall und dem [Typ von Journey](entry-management.md#types-of-journeys) ab, den Sie erstellen. Bevor Sie mit der Entwicklung Ihres Journey beginnen, überprüfen Sie, ob die entsprechenden Konfigurationsschritte ausgeführt wurden:
 
-Um Nachrichten mit Journey zu senden, sind die folgenden Voraussetzungen erforderlich:
+* Wenn Sie Ihre Journey-Trigger beim Empfang eines Ereignisses einheitlich ausführen möchten, müssen Sie **ein Ereignis konfigurieren**. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. [Weitere Informationen](../event/about-events.md).
 
-1. **Ereignis konfigurieren**: Wenn Sie Ihre Journeys beim Empfang eines Ereignisses unitär triggern möchten, müssen Sie zunächst ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* Ihr Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten als Batch an einen bestimmten Profilsatz zu senden. Dazu müssen Sie **Zielgruppen erstellen**. [Weitere Informationen](../audience/about-audiences.md).
 
-1. **Zielgruppe erstellen**: Ihre Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Zielgruppen erstellen. [Weitere Informationen](../audience/about-audiences.md).
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journey abzurufen (z. B. in Ihren Bedingungen). Diese Verbindung beruht auf einer **Datenquelle**. [Weitere Informationen](../datasource/about-data-sources.md)
 
-1. **Konfigurieren einer Datenquelle**: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer verfügt [ integrierte ](../building-journeys/journeys-message.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie **eine benutzerdefinierte Aktion erstellen**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md).
 
-1. **Konfigurieren einer Aktion**: Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwendenden** ausgeführt. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie lediglich eine Kanalaktion zu Ihrer Journey hinzufügen und Inhalte entwerfen.
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.
@@ -68,7 +64,7 @@ Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschli
 >
 >Leitlinien und Einschränkungen für Journeys werden auf [dieser Seite](../start/guardrails.md) detailliert behandelt.
 
-## Erstellen einer mehrstufigen Journey {#jo-build}
+## Erstellen einer Journey {#jo-build}
 
 Gehen Sie wie folgt vor, um eine mehrstufige Journey zu erstellen:
 
