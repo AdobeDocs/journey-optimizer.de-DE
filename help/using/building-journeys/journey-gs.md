@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 45%
@@ -42,19 +42,19 @@ Erstellen Sie mehrstufige Kunden-Journey, um eine Abfolge von Interaktionen, Ang
 
 * Wenn Sie Ihre Journey-Trigger beim Empfang eines Ereignisses einheitlich ausführen möchten, müssen Sie **ein Ereignis konfigurieren**. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. [Weitere Informationen](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * Ihr Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten als Batch an einen bestimmten Profilsatz zu senden. Dazu müssen Sie **Zielgruppen erstellen**. [Weitere Informationen](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journey abzurufen (z. B. in Ihren Bedingungen). Diese Verbindung beruht auf einer **Datenquelle**. [Weitere Informationen](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer verfügt [ integrierte ](../building-journeys/journeys-message.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie **eine benutzerdefinierte Aktion erstellen**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md).
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.

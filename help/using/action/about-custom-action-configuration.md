@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: ht
-source-wordcount: '1651'
-ht-degree: 100%
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
+workflow-type: tm+mt
+source-wordcount: '1692'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,13 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Header werden gemäß den folgenden Parsing-Regeln validiert. Weitere Informationen finden Sie in [dieser Dokumentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
+## Transportsicherheitsschicht {#tls}
+
+### Unterstützung des TLS-Protokolls {#tls-protocol-support}
+
+Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardmäßig TLS 1.3 . Wenn ein Client auch TLS 1.3 unterstützt, erfolgt die Kommunikation über TLS 1.3. Andernfalls kann der TLS-Verhandlungsprozess auf TLS 1.2 zurückfallen.
+
+### mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
 
 Sie können Mutual Transport Layer Security (mTLS) verwenden, um die Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Aktionen von Adobe Journey Optimizer zu erhöhen. mTLS ist eine End-to-End-Sicherheitsmethode zur gegenseitigen Authentifizierung, die sicherstellt, dass beide Parteien, die Informationen austauschen, auch die sind, die sie vorgeben zu sein, bevor die Daten ausgetauscht werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat der Kundin bzw. des Kunden anfordert und überprüft, ob es gültig ist.
 
