@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
+source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -54,11 +54,11 @@ In Adobe Journey Optimizer haben Sie Zugriff auf die folgenden Anwendungsfälle:
 
 Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Bildschirmrand ein und drücken Sie die Eingabetaste.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
 Überprüfen Sie die Antwort und verwenden Sie die Schaltfläche **Quellen anzeigen**, um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
 Bewerten Sie die Antwort mit dem Daumen nach oben oder Daumen nach unten.
 
