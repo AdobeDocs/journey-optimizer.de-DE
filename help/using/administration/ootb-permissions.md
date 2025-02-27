@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 97%
+source-wordcount: '934'
+ht-degree: 94%
 
 ---
 
@@ -39,6 +39,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Journey Optimizer-Bibliothek | **[!DNL Manage Library Items]**: Hinzufügen und Löschen gespeicherter Ausdrücke in der [!DNL Journey Optimizer] Bibliothek.</br>**[!DNL Simulate content]**: Zugriff auf die Option „Inhalt simulieren“ für Vorschau und Testversand.</br>**[!DNL Publish fragments]**: Veröffentlichen von Inhaltsfragmenten. |
 | Journey Optimizer-Regeln | **[!DNL Manage frequency rules]**: Zugreifen auf und Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten.</br>**[!DNL View frequency rules]**: schreibgeschützter Zugriff auf Regeln. |
 | Journeys | **[!DNL Approve & publish Journeys]**: Berechtigung zum Genehmigen und Veröffentlichen von Journeys, wenn eine Richtlinie angewendet ist. </br> **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys. Um auf Journeys zuzugreifen und diese zu verwalten, kombinieren Sie diese Berechtigung mit **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</br>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</br>**[!DNL View journeys]**: schreibgeschützter Zugriff auf Journeys.</br>**[!DNL View journeys events, data sources and actions]**: schreibgeschützter Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Journey-Datenquellen.</br>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</br> |
+| Nachrichten | **[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten. </br>**[!DNL Manage messages preview and test]**: Berechtigung, Nachrichten zu genehmigen und zu veröffentlichen, wenn eine Richtlinie angewendet wird.</br>**[!DNL Publish messages]**: Berechtigung zur Veröffentlichung von Nachrichten.</br>**[!DNL View messages]**: Nur-Lese-Zugriff auf Nachrichten.</br>**[!DNL View messages report]**: Lesen und Bearbeiten von Nachrichtenberichten. |
 | Profilverwaltung | **[!DNL Evaluate a segment to an audience]**: Generieren von Profilen für eine Zielgruppe, indem eine Segmentdefinition ausgewertet wird.</br>**[!DNL Export audience segments]**: Exportieren eines ausgewerteten Zielgruppensegments in einen Datensatz.</br>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</br>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen, die für Kundenprofile verwendet werden. Schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View merge policies]**: schreibgeschützter Zugriff auf verfügbare Zusammenführungsrichtlinien.</br>**[!DNL View profiles]**: schreibgeschützter Zugriff auf verfügbare Profile.</br>**[!DNL View segments]**: Schreibgeschützter Zugriff auf verfügbare Zielgruppen. |
 | Abfrage-Service | **[!DNL Manage queries]**: Lesen, Erstellen, Bearbeiten und Löschen strukturierter SQL-Abfragen für Platform-Daten.</br>**[!DNL Manage query service integration]**: Erstellen, Aktualisieren und Löschen nicht ablaufender Anmeldedaten für den Zugriff auf den Abfrage-Service. |
 | Berichte | **[!DNL View channel reports]**: Lesen und Bearbeiten von Kanalberichten. |
