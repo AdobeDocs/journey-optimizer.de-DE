@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
-
 
 # Fehlerbehebung bei benutzerdefinierten Aktionen {#troubleshoot-a-custom-action}
 
@@ -94,4 +94,3 @@ Wenn die Anfrage fehlschlägt, können Sie Folgendes überprüfen:
 * Die Anfragemethode (GET vs. POST) und die entsprechende Payload.
 * Der API-Endpunkt und die Header, die in der benutzerdefinierten Aktion definiert sind.
 * Verwenden Sie die Antwortdaten, um potenzielle Fehlkonfigurationen zu identifizieren.
-
