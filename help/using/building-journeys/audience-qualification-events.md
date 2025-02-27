@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 100%
 
