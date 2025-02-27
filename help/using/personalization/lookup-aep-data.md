@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung auf den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
 * **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
-* **Ausdrucksfragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten platziert werden.
+* **Fragments**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrücken oder visuellen Fragmenten platziert werden.
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
