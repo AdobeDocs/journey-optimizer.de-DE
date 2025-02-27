@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 573e16c969dd0211513252e98194f18d88396c20
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '2175'
 ht-degree: 92%
@@ -711,7 +711,7 @@ ht-degree: 92%
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
-   + [Durchführen von Datenhygienevorgängen](using/privacy/data-hygiene.md)
+   + [Durchführen von Datenlebenszyklusvorgängen](using/privacy/data-hygiene.md)
    + Einverständnisverwaltung {#consent}
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)

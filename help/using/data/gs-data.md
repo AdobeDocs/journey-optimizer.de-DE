@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Daten, Management, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Sie können die Datenflexibilität von [!DNL Journey Optimizer] nutzen, um Ihre 
 
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in [!DNL Adobe Journey Optimizer] frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.
 
-  Der Arbeitsbereich „Datenhygiene“ ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
+  Der Datenlebenszyklus-Arbeitsbereich ermöglicht Ihnen das Erstellen und Überwachen verschiedener Datenlebenszyklusaufgaben, einschließlich des Löschens von Verbraucheridentitäten und des Planens von Datensatzgültigkeiten. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

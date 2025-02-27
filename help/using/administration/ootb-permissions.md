@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Dashboards | **[!DNL View license usage dashboards]**: Nur-Lese-Zugriff auf das [Dashboard zur Lizenznutzung](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: Ermöglicht Ihnen, ein neues Dashboard zu erstellen oder ein vorhandenes Dashboard zu bearbeiten.</br>**[!DNL Manage standard dashboards]**: Ermöglicht Ihnen, benutzerdefinierte Widgets zu erstellen und das Widget-Schema über die Widget-Bibliothek zu bearbeiten.</br>**[!DNL View custom dashboards]**: schreibgeschützter Zugriff auf benutzerdefinierte Dashboards.</br>**[!DNL View standard dashboards]**: schreibgeschützter Zugriff auf die Dashboards „Profile“, „Ziele“ und „Zielgruppen“. |
 | Datenerfassung | **[!DNL Manage datastream]**: Lesen, Erstellen und Bearbeiten von Datenströmen.</br>**[!DNL View datastream]**: Nur-Lese-Zugriff auf Datenströme. |
 | Data Governance | **[!DNL Manage usage labels]**: Lesen, Erstellen, Bearbeiten und Löschen von Bezeichnungen.</br>**[!DNL Manage data usage policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Datennutzungsrichtlinien.</br>**[!DNL View data usage policies]**: Nur-Lese-Zugriff auf Datennutzungsrichtlinien Ihrer Organisation.</br>**[!DNL View user activity log]**: Nur-Lese-Zugriff zur Anzeige aufgezeichneter Auditlogs zu Platform-Aktivitäten. |
-| Datenhygiene | **[!DNL Manage data hygiene]**: Lesen, Erstellen, Bearbeiten und Löschen der Datenhygiene.</br>**[!DNL View data hygiene]**: schreibgeschützter Zugriff für Datenhygiene. |
+| Datenlebenszyklus | **[!DNL Manage data lifecycle]**: Lesen, Erstellen, Bearbeiten und Löschen des Datenlebenszyklus.</br>**[!DNL View data lifecycle]**: Nur-Lese-Zugriff für den Datenlebenszyklus. |
 | Datenaufnahme | **[!DNL Manage sources]**: Lesen, Erstellen, Bearbeiten und Deaktivieren von Quellen.</br>**[!DNL View sources]**: Nur-Lese-Zugriff auf verfügbare Quellen auf der Registerkarte „Katalog“ und auf authentifizierte Quellen auf der Registerkarte „Durchsuchen“.  |
 | Daten-Management | **[!DNL Data monitoring]**: schreibgeschützter Zugriff auf Monitoring-Datensätze und -Datenströme.</br>**[!DNL Manage datasets]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen. Schreibgeschützter Zugriff auf Schemata.</br>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze und Schemata. |
 | Datenmodellierung | **[!DNL Manage identity metadata]**: Lesen, Erstellen, Bearbeiten und Löschen von Identitätsmetadaten für Schemata.</br> **[!DNL Manage relationships]**: Lesen, Erstellen, Bearbeiten und Löschen von Schemabeziehungen.</br>**[!DNL Manage schemas]**: Lesen, Erstellen und Bearbeiten von Experience-Datenmodell-Schemata (XDM)</br>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata. |
