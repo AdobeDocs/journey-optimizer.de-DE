@@ -1,19 +1,19 @@
 ---
-title: Schutzmechanismen und Voraussetzungen für Code-basierte Erlebnisse
+title: Voraussetzungen für Code-basierte Erlebnisse
 description: Um Apps und Web-Seiten mit der Code-basierten Funktion von Journey Optimizer bearbeiten zu können, befolgen Sie die Voraussetzungen auf dieser Seite
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 99%
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
-# Leitplanken und Voraussetzungen {#code-based-prerequisites}
+# Voraussetzungen für Code-basierte Erlebnisse {#code-based-prerequisites}
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 
