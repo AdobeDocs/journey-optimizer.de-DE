@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1042'
+ht-degree: 97%
 
 ---
 
@@ -30,8 +30,6 @@ Der Kopiervorgang erfolgt über den Export und Import eines Pakets zwischen der 
 
 1. Fügen Sie das zu exportierende Objekt als Paket in der Quell-Sandbox hinzu.
 1. Exportieren Sie das Paket in die Ziel-Sandbox.
-
-Darüber hinaus können Sie Sandbox-Objekte mithilfe der **Objektkopierdienst-REST-API** von Journey Optimizer verwalten. [Erfahren Sie, wie Sie mit der Objektkopierdienst-REST-API arbeiten](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Exportierte Objekte und Best Practices {#objects}
 
