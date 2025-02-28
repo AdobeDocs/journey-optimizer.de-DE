@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Jour
 * 90 Tage für Daten im Profilspeicher,
 * 13 Monate für Daten im Data Lake.
 
-Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingeführt. [Weitere Informationen zu Leitplanken für Time-to-Leave (TTL) von Datensätzen](../data/datasets-ttl.md)
+Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingeführt. [Weitere Informationen zu Leitplanken für die Time-to-Live (TTL) von Datensätzen](../data/datasets-ttl.md)
 
 ## Leitplanken für Kanäle {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanism
 Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
 
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
-* Diese Aktivitäten können nicht mit In-App-Aktivitäten verwendet werden.
+* Kampagnenaktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karten-, Code-basierte Erlebnisse, E-Mail, Push, SMS, In-App-Nachrichten, Web.
