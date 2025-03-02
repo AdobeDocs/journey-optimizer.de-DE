@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 73%
@@ -68,7 +68,7 @@ Der Typ einer Journey hängt von den auf dieser Journey verwendeten Aktivitäten
 
 * **[!UICONTROL Unitäres Ereignis]** - Unitäre Ereignis-Journey sind mit einem bestimmten Profil verknüpft. Ereignisse beziehen sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). [Weitere Informationen](../event/about-events.md).
 * **[!UICONTROL Geschäftsereignis]**. Geschäftsereignis-Journey beginnt mit einem nicht profilbezogenen Ereignis. Die Ereigniskonfiguration wird von einem technischen Anwender durchgeführt und kann nicht bearbeitet werden. [Weitere Informationen](../event/about-events.md).
-* **[!UICONTROL Zielgruppenqualifizierung]** - Zielgruppenqualifizierungs-Journey überwachen die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen, um Personen dazu zu bringen, in eine Journey einzutreten oder in einer Zukunft fortzufahren. [Weitere Informationen](audience-qualification-events.md).
+* **[!UICONTROL Zielgruppen-]**: Journey zur Zielgruppen-Qualifizierung überwachen die Ein- und Ausstiege von Profilen in Adobe Experience Platform-Zielgruppen, um Personen dazu zu bringen, in eine Journey einzutreten oder in einer Zukunft vorzugehen. [Weitere Informationen](audience-qualification-events.md).
 * **[!UICONTROL Zielgruppe lesen]** - In den Journey-Dateien für die Lesepublikation geben alle Personen in der Zielgruppe die Journey ein und erhalten die in Ihrer Journey enthaltenen Nachrichten.  [Weitere Informationen](read-audience.md).
 
 
