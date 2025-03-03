@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '6180'
+source-wordcount: '6193'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## März 2025 {#mar-2025}
 
 * Die Seite über Zielgruppen-Qualifizierungsereignisse wurde mit neuen Empfehlungen aktualisiert. [Weitere Informationen](../building-journeys/audience-qualification-events.md)
+* Die Fehlerbehebungsfunktion für benutzerdefinierte Aktionen ist jetzt für alle Kunden verfügbar (GA). [Weitere Informationen](../action/troubleshoot-custom-action.md)
 
 ## Februar 2025 {#feb-2025}
 

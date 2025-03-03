@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Fehlerbehebung bei benutzerdefinierten Aktionen
 description: Informationen zur Fehlerbehebung bei einer benutzerdefinierten Aktion
-badge: label="Eingeschränkte Verfügbarkeit"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
 # Fehlerbehebung bei benutzerdefinierten Aktionen {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
->
 
 Sie können Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt Administration der Benutzeroberfläche von Journey Optimizer senden. Mit dieser Funktion können Sie Fehler bei benutzerdefinierten Aktionen beheben, bevor oder nachdem diese auf einer Journey verwendet werden.
 
