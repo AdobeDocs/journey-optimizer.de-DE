@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # Marken erstellen und verwalten {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="Marken"
+>abstract="Erstellen und passen Sie Ihre eigenen Marken an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die dem Stil und der Stimme Ihrer Marke entsprechen."
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 +++
 
 ## Marke erstellen {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="Marke erstellen"
+>abstract="Geben Sie Ihren Markennamen ein und laden Sie Ihre Datei mit den Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Pflege der Identität Ihrer Marke erleichtert."
 
 Gehen Sie wie folgt vor, um Ihre Markenrichtlinien zu erstellen und zu verwalten.
 
