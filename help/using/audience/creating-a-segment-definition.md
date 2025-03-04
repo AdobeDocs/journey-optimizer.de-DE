@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
+source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 85%
+source-wordcount: '1017'
+ht-degree: 81%
 
 ---
 
@@ -76,7 +76,7 @@ In Adobe Journey Optimizer werden Zielgruppen aus Segmentdefinitionen mithilfe e
 
 Die Profilliste für die Zielgruppe wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
 
-Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Zielgruppen infolge von Benutzeraktivität aktualisiert. Nachdem eine Segmentdefinition erstellt und die daraus resultierende Zielgruppe gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass bei sich ändernden Profildaten Personen zur Zielgruppe hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"}
+Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Zielgruppen infolge von Benutzeraktivität aktualisiert. Nachdem eine Segmentdefinition erstellt und die daraus resultierende Zielgruppe gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass bei sich ändernden Profildaten Personen zur Zielgruppe hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist. [Weitere Informationen finden Sie unter Adobe Expe](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"}
 
 >[!IMPORTANT]
 >
@@ -93,17 +93,17 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 Die Profilliste für die Zielgruppe wird alle 24 Stunden ausgewertet.
 
-Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Zielgruppe erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess in der Zielgruppe angezeigt. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
+Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Zielgruppe erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess in der Zielgruppe angezeigt. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
 
 +++
 
 +++ Edge-Segmentierung
 
-Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort [am Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ausgewertet, was Anwendungsfälle mit Personalisierung auf derselben Seite und auf der nächsten Seite ermöglicht.  Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}
+Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort [am Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ausgewertet, was Anwendungsfälle mit Personalisierung auf derselben Seite und auf der nächsten Seite ermöglicht.  Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}
 
 +++
 
-Wenn Sie wissen, welche Auswertungsmethode Sie verwenden möchten, wählen Sie diese in der Dropdown-Liste aus. Sie können auch auf das Ordnersymbol mit dem Vergrößerungsglas klicken, um eine Liste der verfügbaren Auswertungsmethoden für die Segmentdefinition anzuzeigen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#segment-properties){target="_blank"}
+Wenn Sie wissen, welche Auswertungsmethode Sie verwenden möchten, wählen Sie diese in der Dropdown-Liste aus. Sie können auch auf das Ordnersymbol mit dem Vergrößerungsglas klicken, um eine Liste der verfügbaren Auswertungsmethoden für die Segmentdefinition anzuzeigen. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#segment-properties){target="_blank"}
 
 ![](assets/evaluation-methods.png)
 
@@ -131,7 +131,7 @@ Mit der flexiblen Zielgruppenauswertung können Sie:
 1. Die Zielgruppe in Echtzeit auswerten, um Genauigkeit zu gewährleisten. Wählen Sie dazu die Zielgruppen aus, die ausgewertet werden sollen, und wählen Sie „Zielgruppen auswerten“, sofern sie bestimmte Kriterien erfüllen (z. B. personenbasiert, Herkunft des Segmentierungs-Services).
 1. Verwenden Sie die ausgewertete Audience in Adobe Journey Optimizer-Kampagnen oder Journey-Kampagnen für eine präzise Zielgruppenbestimmung.
 
-Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zielgruppen werden automatisch ausgeschlossen. Weitere Informationen finden Sie in der [Dokumentation zum Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zielgruppen werden automatisch ausgeschlossen. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Anleitungsvideo{#video-segment}
 
