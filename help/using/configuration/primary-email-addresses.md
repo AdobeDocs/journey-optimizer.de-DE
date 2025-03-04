@@ -9,8 +9,8 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: ht
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -70,6 +70,11 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 Für bestimmte Anwendungsfälle können Sie das global gesetzte Ausführungsfeld überschreiben und einen anderen Wert auf der Ebene der E-Mail-Konfiguration oder der Journey definieren.
 
+Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
+
+* Testen einer E-Mail-Adresse. Sie können ihre eigene E-Mail-Adresse hinzufügen: Nach Veröffentlichung der Journey wird die E-Mail an Sie gesendet.
+* Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
+
 ### In der E-Mail-Konfiguration
 
 Sie können das Standardausführungsfeld, das in den [allgemeinen Einstellungen](#admin-settings) festgelegt ist, bei Definition einer E-Mail-Kanalkonfiguration ändern. [Weitere Informationen](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTR
 >
 >Das Überschreiben von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der Wert, der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** definiert ist, derjenige ist, der verwendet werden sollte.
 
-Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
-
-* Testen einer E-Mail-Adresse. Sie können ihre eigene E-Mail-Adresse hinzufügen: Nach Veröffentlichung der Journey wird die E-Mail an Sie gesendet.
-* Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
 
