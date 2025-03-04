@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -129,8 +129,7 @@ Mit der flexiblen Zielgruppenauswertung können Sie:
 
 1. Ein neues Segment basierend auf Ihren neuesten Daten erstellen.
 1. Die Zielgruppe in Echtzeit auswerten, um Genauigkeit zu gewährleisten. Wählen Sie dazu die Zielgruppen aus, die ausgewertet werden sollen, und wählen Sie „Zielgruppen auswerten“, sofern sie bestimmte Kriterien erfüllen (z. B. personenbasiert, Herkunft des Segmentierungs-Services).
-1. Verwenden Sie die ausgewertete Zielgruppe in Adobe Journey Optimizer-
-Kampagnen oder Journeys für eine präzise Zielgruppenbestimmung.
+1. Verwenden Sie die ausgewertete Audience in Adobe Journey Optimizer-Kampagnen oder Journey-Kampagnen für eine präzise Zielgruppenbestimmung.
 
 Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zielgruppen werden automatisch ausgeschlossen. Weitere Informationen finden Sie in der [Dokumentation zum Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
