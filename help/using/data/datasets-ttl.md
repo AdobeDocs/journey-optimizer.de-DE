@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 30%
+source-wordcount: '655'
+ht-degree: 27%
 
 ---
 
@@ -46,13 +46,6 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Entscheidungsobjekt-Repository – Platzierungen | 13 Monate | n. z. |
 | Entscheidungsobjekt-Repository – Aktivitäten | 13 Monate | n. z. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | 13 Monate | n. z. |
-| AJO-Einverständnisdienst-Datensatz | n. z. | 90 Tage |
-| Profildatensatz für interaktive AJO-Nachrichten | n. z. | 90 Tage |
-| AJO Profile Counters-Erweiterung | n. z. | 90 Tage |
-| AJO-Push-Profil-Datensatz | n. z. | 90 Tage |
-| AJO Engageable Profile DataSet | n. z. | 90 Tage |
-
-
 
 ## Häufig gestellte Fragen {#faq}
 
