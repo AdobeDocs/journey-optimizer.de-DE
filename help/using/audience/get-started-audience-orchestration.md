@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
@@ -96,6 +96,8 @@ ht-degree: 100%
 >id="ajo_ao_split_otherprofiles_text"
 >title="Andere Profile"
 >abstract="Schalten Sie diese Option ein, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen."
+
+>[!BEGINSHADEBOX]
 
 Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie nur Kundin bzw. Kunde des Echtzeit-Kundenprofils sind und Adobe Journey Optimizer nicht verwenden, [klicken Sie hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de){target="_blank"}.
 
