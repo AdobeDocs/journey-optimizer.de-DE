@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 45%
 
 ---
 
@@ -22,29 +22,24 @@ Datenschutzanfragen können über das Menü **[!UICONTROL Anfragen]** erstellt u
 
 ![](assets/requests.png)
 
-Weitere Informationen zu Privacy Service und zum Erstellen und Verwalten von Datenschutzanfragen finden Sie in der Adobe Experience Platform-Dokumentation:
+Weitere Informationen zu Privacy Service und zum Erstellen und Verwalten von Datenschutzanfragen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"}.
 
-* [Übersicht über den Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
-* [Verwalten von Datenschutzaufträgen in der Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de)
+<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
-
-
-## Verwalten einzelner Datenschutzanfragen, die Sie an Adobe Journey Optimizer senden können {#data-privacy-requests}
+## Verwalten Sie individuelle Datenschutzanfragen, die Sie an Adobe Journey Optimizer senden können {#data-privacy-requests}
 
 Sie können individuelle Anfragen zum Zugriff auf und zum Löschen von Verbraucherdaten aus Adobe Journey Optimizer auf zwei Arten senden:
 
-* Über die **Privacy Service-Benutzeroberfläche**. Informationen finden Sie in der Dokumentation [hier](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Über das **Privacy Service-API**. Informationen finden Sie in der Dokumentation [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) und in den API-Informationen [hier](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Über die **Privacy Service-Benutzeroberfläche**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"}
+* Über das **Privacy Service-API**. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+  <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
-Der Privacy Service unterstützt zwei Arten von Anfragen: **Datenzugriff** und **Datenlöschung**.
+Privacy Service unterstützt zwei Arten von Anfragen: **Datenzugriff** und **Datenlöschung**.
 
->[!NOTE]
->
->In diesem Handbuch wird nur beschrieben, wie Sie Datenschutzanfragen für Adobe Journey Optimizer stellen. Wenn Sie auch Datenschutzanfragen für den Platform-Data-Lake planen, lesen Sie dieses [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/privacy) zusätzlich zu diesem Tutorial. Informationen zum Echtzeit-Kundenprofil finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy). Informationen zum Identity Service finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/identity/privacy). Bei Anfragen zum Löschen und für den Zugriff müssen Sie diese einzelnen Systeme aufrufen, um sicherzustellen, dass die Anfragen von jedem einzelnen System bearbeitet werden. Durch eine Datenschutzanfrage an Adobe Journey Optimizer werden die Daten nicht aus all diesen Systemen entfernt.
+Geben Sie **Zugriffsanfragen** &quot;**Adobe Journey Optimizer**&quot; über die Benutzeroberfläche an (oder **CJM** als Produkt-Code in der API).
 
-Für **Anfragen für den Zugriff** geben Sie „Adobe Journey Optimizer“ über die Benutzeroberfläche an (oder „CJM“ als Produkt-Code im API).
-
-Für **Anfragen zum Löschen** müssen Sie zusätzlich zur Anfrage „Adobe Journey Optimizer“ auch Anfragen zum Löschen an drei vorgelagerte Services senden, um zu verhindern, dass Journey Optimizer die gelöschten Daten wieder aufnimmt. Wenn diese vorgelagerten Services nicht angegeben werden, bleibt die Anfrage „Adobe Journey Optimizer“ im Verarbeitungsstatus, bis Anfragen zum Löschen für die vorgelagerten Services erstellt werden.
+Bei **Löschanfragen** müssen Sie zusätzlich zur &quot;**Adobe Journey Optimizer**&quot;-Anfrage auch Löschanfragen an &quot;**drei Upstream-Services“ senden** um zu verhindern, dass Journey Optimizer die gelöschten Daten erneut einfügt. Wenn diese vorgelagerten Services nicht angegeben werden, bleibt die Anfrage „Adobe Journey Optimizer“ im Verarbeitungsstatus, bis Anfragen zum Löschen für die vorgelagerten Services erstellt werden.
 
 Bei den drei vorgelagerten Services handelt es sich um:
 
@@ -52,7 +47,18 @@ Bei den drei vorgelagerten Services handelt es sich um:
 * AEP Data Lake (Produkt-Code: „AdobeCloudPlatform“)
 * Identity (Produkt-Code: „identity“)
 
-## Erstellen von Anfragen für den Zugriff und zum Löschen
+>[!NOTE]
+>
+>In diesem Handbuch wird nur beschrieben, wie Sie Datenschutzanfragen für [!UICONTROL Adobe Journey Optimizer] durchführen.
+>
+>* Wenn Sie auch Datenschutzanfragen für den Data Lake von Platform beabsichtigen, lesen Sie zusätzlich zu diesem Tutorial [dieses ](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/privacy)Handbuch).
+>
+>* Informationen zum Echtzeit-Kundenprofil finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy).
+>* Informationen zu Identity Service finden Sie in diesem [Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/identity/privacy).
+>
+>Bei Löschanfragen und Zugriffsanfragen müssen Sie diese einzelnen Systeme aufrufen, um sicherzustellen, dass die Anfragen von jedem einzelnen System verarbeitet werden. Wenn Sie eine Datenschutzanfrage an [!DNL Adobe Journey Optimizer] stellen, werden keine Daten aus all diesen Systemen entfernt.
+
+## Erstellen von Zugriffs- und Löschanfragen
 
 ### Voraussetzungen
 
@@ -61,7 +67,11 @@ Um Anfragen für den Zugriff auf und zum Löschen von Daten in Adobe Journey Opt
 * eine Adobe-Organisations-ID
 * eine Identitätskennung der Person, auf die Sie reagieren möchten, und die entsprechenden Namespaces. Weitere Informationen zu Identity-Namespaces in Adobe Journey Optimizer und Experience Platform finden Sie im Abschnitt [Übersicht zu Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces).
 
-### Erforderliche Feldwerte in Adobe Journey Optimizer für API-Anfragen
+>[!IMPORTANT]
+>
+>Stellen Sie beim Senden von Datenschutzanfragen sicher, dass Sie &quot;[!DNL '**Adobe Journey Optimizer**]&quot; als Zielproduktnamen und **alle Identity-Namespaces** (z. B. „E-Mail“, „ECID“ oder „Treueprogramm-ID„) angeben, die mit den Profildaten verknüpft sind, auf die zugegriffen werden muss oder die entfernt werden müssen. Insbesondere bleiben bei Löschanfragen die Daten in [!DNL Adobe Journey Optimizer], wenn Sie den Produktnamen und alle anwendbaren Namespaces nicht explizit angeben.
+
+### Erforderliche Feldwerte in Journey Optimizer für API-Anfragen
 
 ```json
 "companyContexts":
@@ -91,7 +101,7 @@ Um Anfragen für den Zugriff auf und zum Löschen von Daten in Adobe Journey Opt
 
 Über die Benutzeroberfläche:
 
-![](assets/accessrequest.png)
+![](assets/accessrequest.png){width="60%" align="center"}
 
 Über das API:
 
@@ -167,11 +177,11 @@ Um Anfragen für den Zugriff auf und zum Löschen von Daten in Adobe Journey Opt
 }
 ```
 
-### Beispiel für eine DSGVO-Anfrage zum Löschen:
+### Beispiel für eine DSGVO-Löschanfrage:
 
 Über die Benutzeroberfläche:
 
-![](assets/deleterequest.png)
+![](assets/deleterequest.png){width="60%" align="center"}
 
 Über das API:
 
