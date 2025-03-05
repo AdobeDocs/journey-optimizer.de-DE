@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,13 @@ Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal finden S
 
 Zielgruppen können auf unterschiedliche Weise erstellt werden:
 
-* **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
+* **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. Zielgruppen werden aus Segmentdefinitionen generiert und je nach Auswertungstyp zu unterschiedlichen Zeiten aktualisiert.
+
+   * Streaming-Segmentierung: Audiences werden in Echtzeit aktualisiert, während neue Daten in fließen, wodurch eine kontinuierliche Relevanz basierend auf der Benutzeraktivität sichergestellt wird.
+   * Batch-Segmentierung: Zielgruppen werden alle 24 Stunden aktualisiert und eine Momentaufnahme der Profile in einem festen Intervall erfasst.
+   * Edge-Segmentierung: Audiences werden am Edge sofort ausgewertet, was eine Echtzeit-Personalisierung ermöglicht.
+
+[Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
 
 * **Benutzerdefinierter Upload**: Importieren einer Zielgruppe mithilfe einer CSV-Datei. [Weitere Informationen zum Erstellen von Zielgruppen aus benutzerdefinierten Uploads](custom-upload.md)
 

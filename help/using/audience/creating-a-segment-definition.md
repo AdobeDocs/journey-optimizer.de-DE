@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 963bf0ae62664a3aa47639b27f0b39b849d51055
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 81%
+source-wordcount: '1041'
+ht-degree: 79%
 
 ---
 
@@ -93,7 +93,9 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 Die Profilliste für die Zielgruppe wird alle 24 Stunden ausgewertet.
 
-Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Zielgruppe erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess in der Zielgruppe angezeigt. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
+Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Zielgruppe erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess in der Zielgruppe angezeigt. Der Versuch, eine sofortige Aktualisierung zu erzwingen, überschreibt den täglichen Zyklus nicht. Für sofortige inkrementelle Aktualisierungen sollten Sie die Verwendung von Streaming- oder On-Demand-Segmentierungsoptionen in Betracht ziehen.
+
+Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
 
 +++
 
