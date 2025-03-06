@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 27%
+source-wordcount: '863'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
+## Updates vom 25. März {#25-03-rn}
+
+**Verbesserungen am Personalization-Editor**
+
+Der Journey Optimizer-Personalisierungseditor wurde um neue Funktionen erweitert:
+* **Aktualisiertes Design für den Code-Editor** - Eine sauberere, moderne Benutzeroberfläche für verbesserte Benutzerfreundlichkeit und Fokus.
+* **Suchen und Ersetzen** - Es wurde eine Funktion hinzugefügt, mit der Inhalte im Editor schnell gesucht und ersetzt werden können.
+* **Unterstützung zum Rückgängigmachen und Wiederholen** - Ermöglicht das einfache Zurücksetzen oder erneute Anwenden von Änderungen.
+* **Anpassbare Schriftgröße** - Ermöglicht die Anpassung der Schriftgröße des Editors, um die Lesbarkeit zu verbessern.
+* **Inline-JSON** Validierung - Client-seitige Validierung von JSON-Inhalten in Echtzeit, um die Fehlererkennung zu beschleunigen.
+* **Automatische Vervollständigung für Profil- und**) - Bietet intelligente Vorschläge zur Optimierung der Inhaltserstellung.
+* **Verbesserte Syntaxhervorhebung** - Verbessert die Lesbarkeit, indem die Code-Struktur visuell besser unterschieden wird.
+
+Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../personalization/personalization-build-expressions.md).
 
 ## Versionshinweise Februar 2025 {#25-02-rn}
 

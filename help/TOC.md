@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2185'
 ht-degree: 91%
 
 ---
@@ -335,8 +335,7 @@ ht-degree: 91%
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/lookup-aep-data.md)
       + Arbeiten mit dem Personalisierungseditor {#expression-editor}
-         + [Über den Personalisierungseditor](using/personalization/personalization-build-expressions.md)
-         + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
+         + [Erste Schritte mit dem Personalisierungseditor](using/personalization/personalization-build-expressions.md)
          + [Verwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
          + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + Helper-Funktionen {#functions}
@@ -407,7 +406,7 @@ ht-degree: 91%
       + [Erste Schritte mit dem Bericht für die gesamte Zeit](using/reports/report-gs-cja.md)
       + [Manuelles Konfigurieren von Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
-      + [Voraussetzungen für Reporting und Experimente](using/reports/reporting-configuration.md)
+      + [Reporting- und Experimentiervoraussetzungen](using/reports/reporting-configuration.md)
       + Kampagnenberichte{#reporting}
          + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
          + [Code-basierter Kampagnenbericht](using/reports/campaign-global-report-cja-code.md)
