@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,10 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Schutzmechanismen und Best Practices {#must-read}
+
+* Auf einer Journey kann nur **[!UICONTROL Aktivität „Zielgruppe lesen]** verwendet werden. Dies muss die erste Aktivität auf der Arbeitsfläche sein.
+
+* Die Aktivität **[!UICONTROL Zielgruppe lesen]** kann nur eine Zielgruppe ansprechen. Wenn mehrere Zielgruppen erforderlich sind, sollten Sie diese Zielgruppen vor der Verwendung zu einer zusammenführen. [Erfahren Sie, wie Sie Audiences mithilfe von Kompositions-Workflows kombinieren](../audience/get-started-audience-orchestration.md)
 
 * Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Das System führt Wiederholungsversuche durch. Vermeiden Sie jedoch, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder „so bald wie möglich“ beginnend) genau zur gleichen Zeit starten. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. mit Abständen zwischen 5 und 10 Minuten.
 

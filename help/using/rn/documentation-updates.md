@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## Februar 2025 {#feb-2025}
 
+* Die Leitplanken für die Aktivität „Zielgruppe lesen“ wurden aktualisiert und geben jetzt an, dass nur eine Aktivität auf einer Journey verwendet werden kann und dass sie nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
 * Die Schutzmechanismen beim Journey bei der Verwendung von Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
 * Die Schritte zum Erstellen Ihrer ersten Journey wurden detailliert beschrieben und Links zum Dokumentationsabschnitt wurden hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
 * Es ist jetzt eine neue Seite verfügbar, auf der das Journey-Dashboard und die Benutzeroberfläche zum Filtern beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)
