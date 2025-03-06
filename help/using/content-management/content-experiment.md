@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhaltsexperiment"
->abstract="Sie können den Nachrichteninhalt oder den Betreff variieren, um mehrere Varianten zu definieren und die beste Kombination für Ihre Audiences zu ermitteln."
+>abstract="Sie können sich dazu entscheiden, den Inhalt der Nachricht oder den Betreff zu ändern, um mehrere Abwandlungen zu definieren und die beste Kombination für die Zielgruppen zu ermitteln."
 
 >[!NOTE]
 >

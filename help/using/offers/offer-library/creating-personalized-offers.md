@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: f30b7c72e98d3676be0885162101c1e9a5eedeaf
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Angebotsdetails"
->abstract="Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum ein. Außerhalb dieses Datumsbereichs wird das Angebot nicht von der Entscheidungs-Engine ausgewählt."
+>abstract="Geben Sie den Namen des Angebots sowie sein Start- und Enddatum ein. Außerhalb dieses Datumsbereichs wird das Angebot nicht von der Entscheidungs-Engine ausgewählt."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
