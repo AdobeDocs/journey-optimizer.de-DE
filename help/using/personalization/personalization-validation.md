@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Validierung, Fehler, Personalisierung
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -24,11 +24,13 @@ Verwenden Sie im Bildschirm **Personalisierungseditor** die Schaltfläche **Vali
 
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, wodurch das Editorfenster geschlossen wird.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Wenn die Personalisierungssyntax ungültig ist, können Sie das Personalisierungseditor-Fenster nicht schließen.
+>
 
 ## Häufige Fehler {#common-errors}
 
