@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 100%
+source-wordcount: '1277'
+ht-degree: 96%
 
 ---
 
@@ -166,6 +166,10 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 ![](assets/create-campaign-schedule.png)
 
 Bei E-Mail-, SMS- und Push-Benachrichtigungs-Kampagnen können Sie festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die Option **[!UICONTROL Aktions-Trigger]** im Bildschirm zur Kampagnenerstellung, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
+
+>[!NOTE]
+>
+>Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen auf den nächsten verfügbaren Zeitschlitz gemäß ihren Wiederholungsregeln verschoben.
 
 ## Weitere Einstellungen {#settings}
 
