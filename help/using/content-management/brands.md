@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="Markenauswahl"
+>abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihre Inhalte in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Identität erstellt werden, wobei Konsistenz und Markenintegrität gewahrt bleiben."
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Bewertung der Markenausrichtung"
->abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut KI-generierte Inhalte den Richtlinien Ihrer Marke entsprechen, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 
 >[!AVAILABILITY]
