@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Um Anfragen für den Zugriff auf und zum Löschen von Daten in Adobe Journey Opt
 
 >[!IMPORTANT]
 >
->Stellen Sie beim Senden von Datenschutzanfragen sicher, dass Sie &quot;[!DNL '**Adobe Journey Optimizer**]&quot; als Zielproduktnamen und **alle Identity-Namespaces** (z. B. „E-Mail“, „ECID“ oder „Treueprogramm-ID„) angeben, die mit den Profildaten verknüpft sind, auf die zugegriffen werden muss oder die entfernt werden müssen. Insbesondere bleiben bei Löschanfragen die Daten in [!DNL Adobe Journey Optimizer], wenn Sie den Produktnamen und alle anwendbaren Namespaces nicht explizit angeben.
+>Stellen Sie beim Senden von Datenschutzanfragen sicher, dass Sie &quot;[!DNL '**Adobe Journey Optimizer**]&quot; als Zielproduktnamen und **alle Identity-Namespaces** (z. B. „E-Mail“, „ECID“ oder „Treueprogramm-ID„) angeben, die mit den Profildaten verknüpft sind, auf die zugegriffen werden muss oder die entfernt werden müssen. Insbesondere werden bei Löschanfragen keine Daten aus [!DNL Adobe Journey Optimizer] entfernt, wenn Sie den Produktnamen und alle anwendbaren Namespaces nicht explizit angeben.
 
 ### Erforderliche Feldwerte in Journey Optimizer für API-Anfragen
 
