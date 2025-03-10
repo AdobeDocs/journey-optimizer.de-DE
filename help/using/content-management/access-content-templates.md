@@ -54,13 +54,13 @@ Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorla
 
 >[!AVAILABILITY]
 >
-Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
+>Diese Funktion wird mit begrenzter Verfügbarkeit (Limited Availability, LA) für eine kleine Gruppe von Kundinnen und Kunden veröffentlicht.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Derzeit können geeignete Miniaturansichten nur für HTML- email Inhaltsvorlagen erstellt werden.
+>Derzeit können geeignete Miniaturansichten nur für HTML- email Inhaltsvorlagen erstellt werden.
 
 Wenn Sie Inhalte aktualisieren, müssen Sie möglicherweise einige Sekunden warten, bis die Änderungen in der Miniaturansicht angezeigt werden.
 
