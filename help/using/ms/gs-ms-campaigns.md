@@ -5,56 +5,40 @@ title: Erste Schritte mit mehrstufigen Kampagnen
 description: Erfahren Sie, wie Sie mit mehrstufigen Kampagnen beginnen
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 32%
+source-wordcount: '434'
+ht-degree: 27%
 
 ---
 
 
 # Erste Schritte mit mehrstufigen Kampagnen {#ms-camp}
 
+Mehrstufige Kampagnen verbessern Adobe Journey Optimizer durch die Einführung robuster, markeninitiierter Batch-Kampagnenfunktionen, mit denen Sie Cross-Channel-Kampagnen mit erweiterten Segmentierungsstrategien planen und koordinieren können.
 
 >[!BEGINSHADEBOX]
 
-**In diesem Abschnitt**
+**Inhaltsverzeichnis**
 
-* Erstellen und Ausführen der ersten mehrstufigen Kampagne
-   * [Grundprinzipien](gs-campaign-creation.md)
-   * [Schutzmechanismen und Einschränkungen](guardrails.md)
-   * [Erstellen der Kampagne](create-ms-campaign.md)
-   * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-   * [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md)
-   * [Starten und Überwachen von Kampagnen](start-monitor-campaigns.md)
-   * [Ereignisvariablen in mehrstufigen Kampagnen](event-variables.md)
+* Erste Schritte mit mehrstufigen Kampagnen
+* [Grundprinzipien](gs-campaign-creation.md)
+* [Schutzmechanismen und Einschränkungen](guardrails.md)
+* [Erstellen der Kampagne](create-ms-campaign.md)
+* [Orchestrieren von Aktivitäten](orchestrate-activities.md)
+* [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md)
+* [Starten und Überwachen von Kampagnen](start-monitor-campaigns.md)
+* [Ereignisvariablen in mehrstufigen Kampagnen](event-variables.md)
 * Arbeiten mit mehrstufigen Kampagnenaktivitäten
-   * [Über mehrstufige Kampagnenaktivitäten](activities/about-activities.md)
-   * [Und-Verknüpfung](activities/and-join.md)
-   * [Zielgruppe erstellen](activities/build-audience.md)
-   * [Dimensionsänderung](activities/change-dimension.md)
-   * [Kombinieren](activities/combine.md)
-   * [Deduplizierung](activities/deduplication.md)
-   * [Kanalaktionen](activities/channels.md)
-   * [Anreicherung](activities/enrichment.md)
-   * [Verzweigung](activities/fork.md)
-   * [Datei laden ](activities/load-file.md)
-   * [Abstimmung](activities/reconciliation.md)
-   * [Zielgruppe speichern](activities/save-audience.md)
-   * [Planung](activities/scheduler.md)
-   * [Aufspaltung](activities/split.md)
-   * [Test](activities/test.md)
-   * [Daten-Update](activities/update-data.md)
-   * [Warten](activities/wait.md)
+   * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
+   * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
 
 >[!ENDSHADEBOX]
 
 
 ## Was ist eine mehrstufige Kampagne?
 
-Kanalübergreifendes Marketing ist für jedes Unternehmen, das seine Kundinnen und Kunden effektiv erreichen möchte, von entscheidender Bedeutung. Adobe Journey Optimizer bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen bei der Verwaltung Ihrer Marketing-Kampagnen helfen.
-
-Mit mehrstufigen Kampagnen können Sie das gesamte Spektrum an Prozessen und Aufgaben koordinieren, die Geschwindigkeit und Skalierung aller Aspekte Ihrer Marketing-Kampagnen verbessern, von der Erstellung von Segmenten und der Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnen-Orchestrierung synchronisieren.
+Kanalübergreifendes Marketing ist für jedes Unternehmen, das seine Kundinnen und Kunden effektiv erreichen möchte, von entscheidender Bedeutung. Adobe Journey Optimizer bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen bei der Verwaltung Ihrer Marketing-Kampagnen helfen. Mit mehrstufigen Kampagnen können Sie das gesamte Spektrum an Prozessen und Aufgaben koordinieren, die Geschwindigkeit und Skalierung aller Aspekte Ihrer Marketing-Kampagnen verbessern, von der Erstellung von Segmenten und der Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnen-Orchestrierung synchronisieren.
 
 Einer der wichtigsten Vorteile mehrstufiger Kampagnen besteht darin, dass es einfach wird, Ihren Kunden personalisierte Inhalte über alle Kanäle hinweg bereitzustellen. Unabhängig davon, ob Ihre Kundinnen und Kunden Nachrichten lieber per E-Mail oder auf einem Mobilgerät erhalten möchten, ermöglicht Ihnen Adobe Journey Optimizer, auf jedem beliebigen Kanal ein konsistentes und kontextuelles Erlebnis bereitzustellen und so den Journey jedes Kunden in ein einzigartiges Erlebnis zu verwandeln.
 
