@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 02f3b545692b7442086d81e22bb6aa2ed6ee006b
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 89%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -172,7 +172,7 @@ ht-degree: 89%
          + [Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Mehrstufige Kampagnen {#ms-campaigns}
    + [Erste Schritte mit mehrstufigen Kampagnen](using/ms/gs-ms-campaigns.md)
-   + Erstellen und Ausführen der ersten mehrstufigen {#create-ms-campaign}
+   + Erstellen Ihres ersten mehrstufigen {#create-ms-campaign}
       + [Grundprinzipien](using/ms/gs-campaign-creation.md)
       + [Schutzmechanismen und Einschränkungen](using/ms/guardrails.md)
       + [Erstellen der Kampagne](using/ms/create-ms-campaign.md)
@@ -180,7 +180,7 @@ ht-degree: 89%
       + [Kampagneneinstellungen konfigurieren](using/ms/ms-campaign-settings.md)
       + [Starten und Überwachen von Kampagnen](using/ms/start-monitor-campaigns.md)
       + [Ereignisvariablen in mehrstufigen Kampagnen](using/ms/event-variables.md)
-   + Arbeiten mit mehrstufigen Kampagnenaktivitäten {#design-campaigns}
+   + Mehrstufige Kampagnenaktivitäten {#design-campaigns}
       + [Über mehrstufige Kampagnenaktivitäten](using/ms/activities/about-activities.md)
       + [Und-Verknüpfung](using/ms/activities/and-join.md)
       + [Zielgruppe erstellen](using/ms/activities/build-audience.md)
@@ -198,12 +198,12 @@ ht-degree: 89%
       + [Test](using/ms/activities/test.md)
       + [Daten-Update](using/ms/activities/update-data.md)
       + [Warten](using/ms/activities/wait.md)
-+ Einzelschritt-Kampagnen {#campaigns}
-   + [Erste Schritte mit Einzelschritt-Kampagnen](using/campaigns/get-started-with-campaigns.md)
-   + [Erstellen einer Kampagne in einem Schritt](using/campaigns/create-campaign.md)
-   + [Überprüfen und Aktivieren einer Kampagne in einem Schritt](using/campaigns/review-activate-campaign.md)
-   + [Verwalten von Einzelschritt-Kampagnen](using/campaigns/modify-stop-campaign.md)
-   + [Trigger-Einzelschrittkampagnen mit -APIs](using/campaigns/api-triggered-campaigns.md)
++ Kampagnen {#campaigns}
+   + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
+   + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
+   + [Kampagne überprüfen und aktivieren](using/campaigns/review-activate-campaign.md)
+   + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
+   + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Konflikt-Management und Priorisierung {#conflict-prioritization}
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
