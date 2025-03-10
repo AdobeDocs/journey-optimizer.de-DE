@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
@@ -95,6 +95,72 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 ![](assets/dynamic-media-layout-3.png)
+
+## Hinzufügen und Verwalten Ihrer Dynamic Media-Vorlage
+
+Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
+
+Weitere Informationen finden Sie unter [Dynamic Media-Vorlage](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+
+### Mit Bildkomponente
+
+Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren Inhalt einfügen:
+
+1. Öffnen Sie Ihre Kampagne oder Journey und greifen Sie auf Ihre Inhalte zu.
+
+1. Ziehen Sie eine **Bildkomponente** per Drag-and-Drop in Ihr Layout.
+
+   Weitere Informationen zur Bildkomponente finden Sie auf [dieser Seite](../email/content-components.md).
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. Durchsuchen Sie Ihre AEM-Assets und wählen Sie die Dynamic Media-Vorlage aus, die Sie zu Ihren Inhalten hinzufügen möchten.
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. Navigieren **in den** Bildeinstellungen“, um auf die Parameter Ihrer Dynamic Media-Vorlage zuzugreifen.
+
+   Die verfügbaren Felder hängen von den Parametern ab, die bei der [Vorlagenerstellung](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager hinzugefügt wurden.
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. Füllen Sie die verschiedenen Felder aus und verwenden Sie den Personalisierungseditor, um personalisierte Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, z. B. den Profilnamen, die Stadt oder andere relevante Details, um ein benutzerfreundlicheres Erlebnis zu schaffen.
+
+   Weitere Informationen zur Personalisierung finden Sie auf [dieser Seite](../personalization/personalize.md).
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. Bedingte Inhalte können auf die Dynamic Media-Komponente angewendet werden, um verschiedene Varianten des Inhalts zu generieren. [Weitere Informationen](../personalization/dynamic-content.md)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Audience senden.
+
+### Mit HTML-Komponente
+
+Sie können Ihre dynamische Vorlage mithilfe der HTML-Komponente direkt in Ihren Inhalt einfügen:
+
+1. Öffnen Sie Ihre Kampagne oder Journey und greifen Sie auf Ihre Inhalte zu.
+
+1. Ziehen Sie eine **HTML-Komponente** per Drag-and-Drop in Ihr Layout.
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. Wählen Sie **[!UICONTROL Quellcode anzeigen]** aus.
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. Greifen Sie über das **[!UICONTROL HTML bearbeiten]** auf **[!UICONTROL Assets]** und dann auf **[!UICONTROL Asset-Wähler öffnen]** zu.
+
+   Sie können Ihre Assets-URL auch einfach kopieren und einfügen.
+
+1. Passen Sie die Bildtextparameter nach Bedarf an Ihre Asset-Anforderungen an.
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Audience senden.
 
 <!--
 ## Personalization with Text Overlay
