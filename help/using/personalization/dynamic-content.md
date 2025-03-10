@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Mit Adobe Journey Optimizer können Sie die in der Bibliothek erstellten bedingten Regeln nutzen, um dynamische Inhalte in Ihre Nachrichten einzufügen.
 
-Dynamische Inhalte können in jedem Feld erstellt werden, dem Sie mithilfe des Personalisierungseditors Personalisierung hinzufügen können. Dazu gehören Betreffzeile, Links, Inhalte von Push-Benachrichtigungen oder die Darstellungen von Angeboten in Textform. [Erfahren Sie mehr über Personalisierungskontexte](personalization-contexts.md)
+Dynamische Inhalte können in jedem Feld erstellt werden, dem Sie mithilfe des Personalisierungseditors Personalisierung hinzufügen können. Dazu gehören Betreffzeile, Links, Inhalte von Push-Benachrichtigungen oder die Darstellungen von Angeboten in Textform. [Weitere Informationen zur Personalisierung](personalize.md)
 
 Zusätzlich können Sie in E-Mail-Designer bedingte Regeln verwenden, um mehrere Varianten einer Inhaltskomponente zu erstellen.
 

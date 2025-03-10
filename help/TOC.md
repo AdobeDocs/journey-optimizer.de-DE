@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,14 +359,10 @@ ht-degree: 96%
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
    + Personalisierung {#personalization}
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
-      + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
+      + [Hinzufügen von Personalisierung](using/personalization/personalization-build-expressions.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
+      + [Wiederverwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/lookup-aep-data.md)
-      + Arbeiten mit dem Personalisierungseditor {#expression-editor}
-         + [Über den Personalisierungseditor](using/personalization/personalization-build-expressions.md)
-         + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
-         + [Verwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
-         + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + Helper-Funktionen {#functions}
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
