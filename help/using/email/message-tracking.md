@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 99%
+source-wordcount: '1193'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking einer E-Mail-Nachricht aktivieren, indem Sie die Optionen **[!UICONTROL Geöffnete E-Mails]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht in einer Journey oder Kampagne erstellen.
+Sie können das Tracking von E-Mail-Nachrichten aktivieren, indem Sie die Optionen **[!UICONTROL Geöffnete E-Mails]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht auf einer Journey oder in einer Kampagne erstellen, wie in den folgenden Registerkarten dargestellt:
 
 >[!BEGINTABS]
 
@@ -40,38 +40,34 @@ Sie können das Tracking einer E-Mail-Nachricht aktivieren, indem Sie die Option
 >
 >Beide Optionen sind standardmäßig aktiviert.
 
-Auf diese Weise können Sie das folgende Verhalten Ihrer Empfänger verfolgen:
+Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfänger Ihrer Nachrichten:
 
-* **[!UICONTROL Geöffnete E-Mails]**: Nachrichten, die geöffnet wurden.
-* **[!UICONTROL Klick in E-Mail]**: Klicks auf Links in einer E-Mail.
+* Die Metrik **[!UICONTROL E-Mail-Öffnungen]** überprüft, wie viele Nachrichten geöffnet wurden.
+* Die Metrik **[!UICONTROL Klick in E]** Mail) berechnet die Anzahl der Klicks auf Links in einer E-Mail.
 
 ## Links einfügen {#insert-links}
 
-Beim Entwerfen einer Nachricht können Sie Links zu Ihren Inhalten hinzufügen.
-
->[!NOTE]
->
->Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
+Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
-1. Wählen Sie zuerst ein Element aus und danach in der kontextuellen Symbolleiste die Option **[!UICONTROL Link einfügen]**.
+1. Wählen Sie ein Element (Text oder Bild) aus und klicken Sie **[!UICONTROL der kontextuellen Symbolleiste auf]** Link einfügen“.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Wählen Sie den gewünschten Link-Typ aus.
 
-   * **[!UICONTROL Externer Link]**: Fügen Sie einen Link auf eine externe URL ein.
+   * Wählen Sie **[!UICONTROL Externer Link]** aus, um einen Link auf eine externe URL einzufügen.
 
-   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. [Weitere Informationen](../landing-pages/get-started-lp.md)
+   * Wählen Sie **[!UICONTROL Landingpage]** aus, um einen Link zu einer Landingpage einzufügen. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, über den die Nutzerinnen und Nutzer Ihre Nachrichten schnell kündigen können, ohne den Kündigungsvorgang bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
+   * Wählen Sie **[!UICONTROL Opt-out mit einem Klick]**, um einen Link einzufügen, über den sich Benutzer schnell von Ihren Nachrichten abmelden können, ohne die Abmeldung bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL Externes Opt-in/Abonnement]**: Einfügen eines Links, um den Erhalt von Nachrichten von Ihrer Marke zu akzeptieren.
+   * Wählen Sie **[!UICONTROL Externes Opt-in/Abonnement]** aus, um einen Link einzufügen, über den der Erhalt von Nachrichten von Ihrer Marke akzeptiert wird.
 
-   * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](email-opt-out.md#opt-out-management).
+   * Wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus, um einen Link einzufügen, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link hinzu, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. [Weitere Informationen](#mirror-page)
+   * Wählen Sie **[!UICONTROL Mirrorseite]** aus, um der E-Mail-Mirrorseite einen Link hinzuzufügen. [Weitere Informationen](#mirror-page)
 
 1. Geben Sie die gewünschte URL in das entsprechende Feld ein oder wählen Sie eine Landingpage aus und definieren Sie die Link-Einstellungen und -Stile. [Weitere Informationen](#adjust-links)
 
@@ -91,13 +87,40 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird beim Erstellen der Nachricht in der [Kanalkonfiguration](../configuration/channel-surfaces.md#email-type) definiert.
 
-## Anpassen von Links {#adjust-links}
 
-Sie können Ihre Links mithilfe der Bereiche **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** auf der rechten Seite anpassen. Sie können einen Link unterstreichen, seine Farbe ändern und sein Ziel auswählen.
+## Link zu einer Mirrorseite {#mirror-page}
+
+Die Mirrorseite ist eine Online-Version Ihrer E-Mail. Es empfiehlt sich, einen Link zur Mirrorseite hinzuzufügen, um E-Mail-Marketing zu ermöglichen. Benutzerinnen und Benutzer können die Mirrorseite einer E-Mail aufrufen, etwa wenn bei der Anzeige in ihrem Posteingang Rendering-Probleme auftreten oder Bilder beschädigt sind. Es wird außerdem empfohlen, aus Gründen der Barrierefreiheit oder um zum Social Sharing zu ermutigen, eine Online-Version bereitzustellen.
+
+Die von Adobe Journey Optimizer generierte Mirrorseite enthält alle Personalisierungsdaten.
+
+Um Ihrer E-Mail einen Link zu einer Mirrorseite hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
+
+![](assets/message-tracking-mirror-page.png)
+
+Die Mirrorseite wird automatisch erstellt. Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
+
+Die Beibehaltungsdauer für eine Mirrorseite beträgt **60 Tage**. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
+
+>[!CAUTION]
+>
+>* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer begrenzten URL-Länge funktioniert.
+>
+>* Im [Testversand](../content-management/proofs.md) an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er ist nur in den endgültigen Nachrichten aktiv.
+
+## Link-Erscheinungsbild und Ziel anpassen {#adjust-links}
+
+Sie können Ihre Links anpassen, z. B. unterstreichen, ihre Farbe ändern oder ihre Zielgruppe auswählen.  Diese Änderungen werden in den Bereichen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** im rechten Abschnitt des Inhaltseditors festgelegt.
+
+### Target {#link-target}
+
+Das **target**-Attribut wird verwendet, um zu steuern, wo eine verknüpfte Seite geöffnet wird. Durch Hinzufügen eines Zielattributs in einem Anker-Tag kann angegeben werden, ob der Link in einer neuen Registerkarte, auf derselben Registerkarte oder in einem anderen Frame geöffnet werden soll.
+
+Gehen Sie wie folgt vor, um das Ziel eines Links zu definieren:
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wie Ihre Zielgruppe umgeleitet werden soll:
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wo der Link geöffnet werden soll:
 
    * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
    * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
@@ -107,37 +130,21 @@ Sie können Ihre Links mithilfe der Bereiche **[!UICONTROL Einstellungen]** und 
 
    ![](assets/link_2.png)
 
-1. Markieren Sie **[!UICONTROL Link unterstreichen]**, damit der Titeltext Ihres Links unterstrichen wird.
-
-   ![](assets/link_1.png)
-
-1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** auf der Registerkarte **[!UICONTROL Stile]**.
-
-   ![](assets/link_3.png)
-
 1. Speichern Sie Ihre Änderungen.
 
-## Link zu einer Mirrorseite {#mirror-page}
 
-Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Der Inhalt entspricht dem Inhalt Ihrer E-Mail.
+### Link unterstreichen {#link-underline}
 
-Um Ihrer E-Mail einen Link zu einer Mirrorseite hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
+Aktivieren Sie die **[!UICONTROL Link unterstreichen]**, um den Titel Ihres Links zu unterstreichen.
 
-![](assets/message-tracking-mirror-page.png)
+![](assets/link_1.png)
 
-Die Mirrorseite wird automatisch erstellt.
+### Link-Farbe {#link-color}
 
->[!IMPORTANT]
->
->Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer begrenzten URL-Länge funktioniert.
+Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** auf der Registerkarte **[!UICONTROL Stile]**.
 
-Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
+![](assets/link_3.png)
 
->[!NOTE]
->
->Im [Testversand](../content-management/proofs.md) an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
-
-Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Frist ist die Mirrorseite nicht mehr verfügbar.
 
 ## Tracking verwalten {#manage-tracking}
 
