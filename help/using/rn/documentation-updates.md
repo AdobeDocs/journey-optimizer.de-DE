@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,16 +27,16 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## Februar 2025 {#feb-2025}
 
 * Die Leitplanken für die Aktivität „Zielgruppe lesen“ wurden aktualisiert und geben jetzt an, dass nur eine Aktivität auf einer Journey verwendet werden kann und dass sie nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
-* Die Schutzmechanismen beim Journey bei der Verwendung von Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
-* Die Schritte zum Erstellen Ihrer ersten Journey wurden detailliert beschrieben und Links zum Dokumentationsabschnitt wurden hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
+* Die Journey-Leitlinien bei der Verwendung von Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
+* Die Schritte zum Erstellen Ihrer ersten Journey wurden ausführlich beschrieben, und zum Dokumentationsabschnitt wurden Links hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
 * Es ist jetzt eine neue Seite verfügbar, auf der das Journey-Dashboard und die Benutzeroberfläche zum Filtern beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)
 * Die Dokumentation zur **[!UICONTROL Optimierung des Versandzeitpunkts]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 * Es wurden neue Schutzmechanismen für Journey-Ereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 * Die Seite mit den integrierten Kanalaktionen wurde neu angeordnet. [Weitere Informationen](../building-journeys/journeys-message.md)
-* In den Abschnitten Entscheidungs- und Entscheidungs-Management wurden Leitplanken und Einschränkungen hinzugefügt.
-   * [Leitplanken und Einschränkungen bei Entscheidungen](../experience-decisioning/decisioning-guardrails.md)
-   * [Leitplanken und Einschränkungen beim Entscheidungs-Management](../offers/decision-management-guardrails.md)
-* In der Dokumentation zum Entscheidungs-Management wurde ein neuer Abschnitt zu Kontextdaten hinzugefügt. Es enthält Informationen zur Nutzung von Kontextdaten in der Entscheidungs-Engine, z. B. zum Entwerfen einer Entscheidungsregel, für die das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage ≥80 Grad betragen muss. [Weitere Informationen](../offers/context-data.md)
+* Den Abschnitten „Entscheidungsfindung“ und „Entscheidungs-Management“ wurden Leitlinien und Einschränkungen hinzugefügt.
+   * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
+   * [Leitlinien und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
+* Der Dokumentation zum Entscheidungs-Management wurde ein neuer Abschnitt zu Kontextdaten hinzugefügt. Er enthält Informationen zur Nutzung von Kontextdaten in der Entscheidungs-Engine, beispielsweise zum Entwerfen einer Entscheidungsregel, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage wärmer als 25 °C sein muss. [Weitere Informationen](../offers/context-data.md)
 
 ## Januar 2025 {#jan-2025}
 
@@ -135,7 +135,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
    * E: Tastaturbefehl, um ein Ereignis in einer ereignisbasierten Journey auszulösen.
    * P: Tastaturbefehl, um ein Ereignis in einer zielgruppenbasierten Journey auszulösen, für die die Option „Jeweils ein Einzelprofil“ aktiviert ist.
    * L: Tastaturbefehl, um Testprotokolle anzuzeigen.
-* Die Seite Häufigkeitsregeln für Nachrichten wurde mit einem neuen Unterabschnitt zur täglichen Häufigkeitsbegrenzung aktualisiert, der auf Anfrage zusätzlich zur wöchentlichen oder monatlichen Begrenzung verfügbar ist.
+* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde um einen neuen Unterabschnitt zur täglichen Frequenzbegrenzung erweitert, die auf Anfrage zusätzlich zur wöchentlichen oder monatlichen Begrenzung verfügbar ist.
 * Die Seite zum Arbeiten mit Einverständnisrichtlinien wurde verbessert und mit nützlichen Links zur Experience Platform-Dokumentation aktualisiert. [Weitere Informationen](../action/consent.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, um der Tatsache Rechnung zu tragen, dass Sie mit dem Raster-Ansichtsmodus (eingeschränkte Verfügbarkeit) HTML-E-Mail-Inhaltsvorlagen als Miniaturansichten anzeigen können. [Weitere Informationen](../content-management/content-templates.md#template-thumbnails)
 * Auf der Seite „Zustellbarkeit“ wurde ein neuer Abschnitt hinzugefügt, in dem erläutert wird, welche Feedback-Schleifen vorhanden sind und wie sie genutzt werden können.  [Weitere Informationen](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Liste verfügbarer Funktionen wurde im erweiterten Ausdruckseditor aktualisiert. [Weitere Informationen](../building-journeys/expression/functions.md)
 * Die Seite der Aufspaltungsfunktion wurde aktualisiert. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurden Informationen zu den Auswirkungen des Opt-ins oder Opt-outs von Push-Benachrichtigungen auf In-App-Nachrichten hinzugefügt. [Weitere Informationen](../in-app/create-in-app.md)
-* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde aktualisiert und enthält jetzt die Optionen für die Dauer, die in der Benutzeroberfläche verfügbar sind (wöchentlich oder monatlich).
+* Die Seite mit den Häufigkeitsregeln für Nachrichten wurde aktualisiert und enthält nun die in der Benutzeroberfläche verfügbaren Optionen für die Dauer (wöchentlich oder monatlich).
 * Der Abschnitt zum Bearbeiten eines PTR-Eintrags wurde aktualisiert, um klarzustellen, dass PTR-Einträge nicht manuell erstellt werden können und dass PTR-Einträge bearbeitet werden müssen, um ihnen neue Subdomains zuzuweisen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Januar 2024 {#jan-2024}
@@ -350,7 +350,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## August 2022 {#august-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version August 2022 wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln.
+* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Fluss für Inline-Messaging widerzuspiegeln.
 * Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
 * Für Journeys, bei denen Aktivitäten vom Typ „Zielgruppe lesen“ verwendet werden, wurde eine Einschränkung hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md)
 * Die Seite mit den Operatoren des Ausdruckseditors wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 19d33bf2d455aaca3fd0e961bebe5dd1d1f5b32c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
->title="Automatisches Vervollständigen"
+>title="Automatisch vervollständigen"
 >abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code automatisch vervollständigen und Vorschläge unterbreiten, während Sie Ihren Ausdruck eingeben. Diese Option ist nur für HTML- und Textformate verfügbar."
 
 Der Personalisierungseditor ist die Kernkomponente der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.

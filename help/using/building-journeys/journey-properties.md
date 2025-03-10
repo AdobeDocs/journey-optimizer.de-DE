@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
 source-wordcount: '2259'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -285,8 +285,8 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 
-   * Wählen Sie für Beendigungskriterien, die auf einem Ereignis basieren, wie zum Beispiel das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, nur ein unitäres Ereignis aus.
-   * Wählen Sie für Beendigungskriterien, die auf einer Zielgruppe basieren, z. B. einer Zielgruppe, die prüft, ob ein Kunde in den letzten 24 Stunden gekauft hat, eine Zielgruppe aus. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
+   * Für Ausstiegskriterien, die auf einem Ereignis basieren, wie z. B. das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, wählen Sie nur ein einziges Ereignis.
+   * Für Ausstiegskriterien, die auf einer Zielgruppe basieren, wie z. B. eine Zielgruppe, die überprüft, ob eine Person in den letzten 24 Stunden einen Kauf getätigt hat, wählen Sie eine Zielgruppe. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
 
 Sie können mehrere Ausstiegskriterien hinzufügen.
 

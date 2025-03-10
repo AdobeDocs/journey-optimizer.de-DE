@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey durchsuchen und filtern
-description: Durchsuchen und Filtern Ihrer Journey in Adobe Journey Optimizer
+title: Durchsuchen und Filtern von Journeys
+description: Durchsuchen und Filtern von Journeys in Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -12,18 +12,18 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
-# Journey durchsuchen und filtern {#browse-journeys}
+# Durchsuchen und Filtern von Journeys {#browse-journeys}
 
 ## Journey-Dashboard {#dashboard-jo}
 
-Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
+Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
 
 
-* Auf **[!UICONTROL Registerkarte]**&#x200B;Übersicht“ wird ein Dashboard mit Schlüsselmetriken für Ihre Journey angezeigt.
+* Auf der Registerkarte **[!UICONTROL Übersicht]** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt.
 
   ![Journey-Dashboard mit hervorgehobener Registerkarte „Übersicht“](assets/journeys-dashboard.png)
 
@@ -37,17 +37,17 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
   >Dieses Dashboard berücksichtigt die Journeys mit Traffic in den letzten 24 Stunden. Es werden nur die Journeys angezeigt, auf die Sie zugreifen können. Metriken werden alle 30 Minuten aktualisiert, aber nur dann, wenn neue Daten verfügbar sind.
 
 
-* Auf **[!UICONTROL Registerkarte]** Durchsuchen“ wird die Liste der vorhandenen Journey angezeigt. Sie können nach Journeys suchen, Filter verwenden und grundlegende Aktionen für jedes Element ausführen. Sie können Elemente beispielsweise duplizieren oder löschen.
+* Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können nach Journeys suchen, Filter verwenden und für jedes Element grundlegende Aktionen ausführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
   ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
 
-## Journey filtern {#journey-filter}
+## Filtern von Journeys {#journey-filter}
 
-Verwenden Sie in der Liste der Journey Filter, um die Liste der Journey zu verfeinern.
+Verwenden Sie in der Liste der Journeys verschiedene Filter zum Verfeinern dieser Liste.
 
 ![](assets/filter-journeys.png)
 
-Sie können Journey nach ihren [status](#journey-statuses), [type](#journey-types), [version](#journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Status- und Versionsfiltern]** filtern.
+Sie können Journeys nach [Status](#journey-statuses), [Typ](#journey-types), [Version](#journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Filtern für Status und Version]** filtern.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
@@ -62,21 +62,21 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 ![](assets/journey3bis.png)
 
 
-## Journey Typen {#journey-types}
+## Journey-Typen {#journey-types}
 
-Der Typ einer Journey hängt von den auf dieser Journey verwendeten Aktivitäten ab. Dies kann sein:
+Der Typ einer Journey hängt von den in dieser Journey verwendeten Aktivitäten ab. Es kann sich handeln um:
 
-* **[!UICONTROL Unitäres Ereignis]** - Unitäre Ereignis-Journey sind mit einem bestimmten Profil verknüpft. Ereignisse beziehen sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). [Weitere Informationen](../event/about-events.md).
-* **[!UICONTROL Geschäftsereignis]**. Geschäftsereignis-Journey beginnt mit einem nicht profilbezogenen Ereignis. Die Ereigniskonfiguration wird von einem technischen Anwender durchgeführt und kann nicht bearbeitet werden. [Weitere Informationen](../event/about-events.md).
+* **[!UICONTROL Unitäres Ereignis]**: Journeys des Typs „Unitäre Ereignisse“ sind mit einem bestimmten Profil verknüpft. Ereignisse beziehen sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). [Weitere Informationen](../event/about-events.md).
+* **[!UICONTROL Geschäftsereignis]**: Eine Journey des Typs „Geschäftsereignis“ beginnt mit einem nicht profilbezogenen Ereignis. Die Konfiguration des Ereignisses wird von technischen Benutzenden vorgenommen und kann nicht bearbeitet werden. [Weitere Informationen](../event/about-events.md).
 * **[!UICONTROL Zielgruppen-]**: Journey zur Zielgruppen-Qualifizierung überwachen die Ein- und Ausstiege von Profilen in Adobe Experience Platform-Zielgruppen, um Personen dazu zu bringen, in eine Journey einzutreten oder in einer Zukunft vorzugehen. [Weitere Informationen](audience-qualification-events.md).
-* **[!UICONTROL Zielgruppe lesen]** - In den Journey-Dateien für die Lesepublikation geben alle Personen in der Zielgruppe die Journey ein und erhalten die in Ihrer Journey enthaltenen Nachrichten.  [Weitere Informationen](read-audience.md).
+* **[!UICONTROL Lesen der Zielgruppe]**: In Journeys des Typs „Lesen der Zielgruppe“ treten alle Personen der Zielgruppe in die Journey ein und empfangen die in Ihrer Journey enthaltenen Nachrichten.  [Weitere Informationen](read-audience.md).
 
 
-Weitere Informationen zu Journey-Typen und der zugehörigen Eintragsverwaltung finden Sie auf [dieser Seite](entry-management.md).
+Mehr über die Journey-Typen und die zugehörige Eintrittsverwaltung erfahren Sie auf [dieser Seite](entry-management.md).
 
 ## Journey-Status {#journey-statuses}
 
-Der Journey-Status hängt von seinem Lebenszyklus ab. Dies kann sein:
+Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 
 * **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
@@ -89,7 +89,7 @@ Der Journey-Status hängt von seinem Lebenszyklus ab. Dies kann sein:
 >
 >* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Veröffentlichen“ (zwischen „Entwurf“ und „Live“), „Testmodus aktivieren“ oder „Testmodus deaktivieren“ (zwischen „Entwurf“ und „Entwurf [Test]“) und „Stoppen“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
 >
->* Wenn Sie eine Live **Journey ändern müssen** erstellen Sie [eine neue Version](#journey-versions) Ihrer Journey.
+>* Wenn Sie eine **Live-Journey** ändern müssen, [erstellen Sie eine neue Version](#journey-versions) Ihrer Journey.
 
 
 ## Journey-Versionen {#journey-versions}
@@ -102,9 +102,9 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 >
 >In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
-### Erstellen einer neuen Journey-Version {#journey-create-new-version}
+### Erstellen einer neuen Version einer Journey {#journey-create-new-version}
 
-Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihrer Journey. Gehen Sie wie folgt vor, um eine neue Version einer bestehenden Journey zu erstellen:
+Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihrer Journey. Gehen Sie wie folgt vor, um eine neue Version einer vorhandenen Journey zu erstellen:
 
 1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 

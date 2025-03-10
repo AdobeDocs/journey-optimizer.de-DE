@@ -12,11 +12,11 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
-# Links hinzufügen und Nachrichten verfolgen {#tracking}
+# Hinzufügen von Links und Verfolgen von Nachrichten {#tracking}
 
 Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen und die gesendeten Nachrichten zu verfolgen, um das Verhalten Ihrer Empfänger zu überwachen.
 

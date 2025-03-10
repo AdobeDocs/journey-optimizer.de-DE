@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch 
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen [ von Ihren ](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder Ihren Adobe-Support-Mitarbeiter.
+>* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
@@ -122,7 +122,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Audit]** – Navigieren Sie zu diesem Abschnitt, um die Aktivitätsprotokolle zu überprüfen. [Weitere Informationen](../privacy/audit-logs.md)
 
-* **[!UICONTROL Datenlebenszyklus]** - In diesem Abschnitt können Sie Datenlebenszyklusvorgänge konfigurieren und planen, um sicherzustellen, dass Ihre Datensätze ordnungsgemäß gepflegt werden. [Weitere Informationen](../privacy/data-hygiene.md)
+* **[!UICONTROL Datenlebenszyklus]** – In diesem Abschnitt können Sie Datenlebenszyklus-Vorgänge konfigurieren und planen, um sicherzustellen, dass Ihre Einträge ordnungsgemäß gepflegt werden. [Weitere Informationen](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
 

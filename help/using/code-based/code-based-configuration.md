@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Code-basierte Erlebniskanalkonfiguration zu ers
    >
    >Sie können mehrere Plattformen auswählen. Wenn Sie mehrere Plattformen auswählen, wird der Inhalt für alle ausgewählten Seiten oder Apps bereitgestellt.
 
-1. Wählen Sie das Format aus, das von der Anwendung für diesen bestimmten Speicherort erwartet wird. Dies wird beim Verfassen des Code-basierten Erlebnisses in -Kampagnen und -Journey verwendet.
+1. Wählen Sie das Format aus, das von der Anwendung für diesen bestimmten Speicherort erwartet wird. Dies wird beim Authoring des Code-basierten Erlebnisses in Kampagnen und Journeys verwendet.
 
    ![](assets/code_config_4.png)
 

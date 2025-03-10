@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Marke verwalten
-description: Erfahren Sie, wie Sie Ihre Markenrichtlinien erstellen und verwalten
+title: Verwalten von Marken
+description: Erfahren Sie, wie Sie Markenrichtlinien erstellen und verwalten
 badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 15%
+ht-degree: 60%
 
 ---
 
-# Marken erstellen und verwalten {#brands}
+# Erstellen und Verwalten Ihrer Marken {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
@@ -40,25 +40,25 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird als private Betaversion veröffentlicht. Es wird in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.
+>Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
 
-Markenrichtlinien sind eine detaillierte Reihe von Regeln und Standards, die die visuelle und verbale Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
+Markenrichtlinien sind ein detaillierter Satz an Regeln und Standards, die die visuelle und sprachliche Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
 
 In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails manuell einzugeben und zu organisieren oder Dokumente zu Markenrichtlinien hochzuladen, um Informationen automatisch zu extrahieren.
 
 ## Zugriff auf Marken {#generative-access}
 
-Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Managed Brand Kit]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
+Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Verwaltetes Marken-Kit]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
-+++  Erfahren Sie, wie Sie markenbezogene Berechtigungen zuweisen
++++  Informationen zur Zuweisung von Markenberechtigungen
 
 1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
 1. Klicken Sie auf **Bearbeiten**, um die Berechtigungen zu ändern.
 
-1. Fügen Sie die Ressource **KI-**) hinzu und wählen Sie dann **Managed Brand Kit** oder **[!UICONTROL KI-Assistent aktivieren]** aus dem Dropdown-Menü aus.
+1. Fügen Sie die Ressource **KI-Assistent** hinzu und wählen Sie dann aus dem Dropdown-Menü die Option **Verwaltetes Marken-Kit** oder **[!UICONTROL KI-Assistenten aktivieren]** aus.
 
-   Beachten Sie **[!UICONTROL dass die Berechtigung]** KI-Assistenten aktivieren“ nur Lesezugriff auf das Menü **[!UICONTROL Marken]** bietet.
+   Beachten Sie, dass die Berechtigung **[!UICONTROL KI-Assistenten aktivieren]** nur schreibgeschützten Zugriff auf das Menü **[!UICONTROL Marken]** bietet.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -74,11 +74,11 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 
 +++
 
-## Marke erstellen {#create-brand-kit}
+## Erstellen Ihrer Marke {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
->title="Marke erstellen"
+>title="Erstellen Ihrer Marke"
 >abstract="Geben Sie Ihren Markennamen ein und laden Sie Ihre Datei mit den Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Pflege der Identität Ihrer Marke erleichtert."
 
 Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details entweder selbst eingeben oder Ihr Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
@@ -97,13 +97,13 @@ Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details
 
 1. Ihre Standards für Inhalt und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen.
 
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Schreibstil“ auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine Richtlinie oder einen Ausschluss einschließlich Beispielen hinzuzufügen.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Schreibstil]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie oder einen Ausschluss einschließlich Beispielen hinzuzufügen.
 
    ![](assets/brands-3.png)
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller]**) auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine weitere Richtlinie oder einen Ausschluss hinzuzufügen.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller Inhalt]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine weitere Richtlinie oder einen Ausschluss hinzuzufügen.
 
-1. Um ein Bild hinzuzufügen, das die korrekte Verwendung zeigt, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild mit falscher Verwendung als Ausschlussbeispiel hinzufügen.
+1. Um ein Bild zum Veranschaulichen der korrekten Verwendung hinzuzufügen, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild zur Veranschaulichung der inkorrekten Verwendung als Ausschlussbeispiel hinzufügen.
 
    ![](assets/brands-4.png)
 
@@ -117,17 +117,17 @@ Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details
 
    ![](assets/brands-8.png)
 
-1. Öffnen Sie im Dashboard **[!UICONTROL Marken]** das erweiterte Menü, indem Sie auf das ![](assets/do-not-localize/Smock_More_18_N.svg) klicken, um Folgendes zu tun:
+1. Öffnen Sie im Dashboard **[!UICONTROL Marken]** das erweiterte Menü, indem Sie auf das Symbol ![](assets/do-not-localize/Smock_More_18_N.svg) klicken:
 
    * Marke anzeigen
    * Bearbeiten
    * Duplizieren
-   * Veröffentlichen Sie
+   * Veröffentlichen
    * Veröffentlichung aufheben
    * Löschen
 
    ![](assets/brands-6.png)
 
-Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar, sodass Inhalte und Assets generiert werden können, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](gs-generative.md)
+Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü des KI-Assistenten verfügbar, sodass Inhalte und Assets generiert werden können, die Ihren Spezifikationen entsprechen. [Weitere Informationen zum KI-Assistenten](gs-generative.md)
 
 ![](assets/brands-7.png)

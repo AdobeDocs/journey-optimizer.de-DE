@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 79%
+ht-degree: 91%
 
 ---
 
@@ -80,12 +80,12 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 >[!IMPORTANT]
 >
->Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr die Verwendung von **send** und **open**-Ereignissen aus Journey Optimizer-Tracking- und -Feedback-Datensätzen.
->* Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen.
->* Nur Sende- und offene Ereignisse sind betroffen: Klicks und andere Tracking-Ereignisse bleiben für die Streaming-Segmentierung verfügbar.
->* Diese Änderung gilt nur für die Streaming-Segmentierung. Senden- und Öffnen-Ereignisse können weiterhin in Batch-Segmenten verwendet werden, werden jedoch, wenn sie in einem Streaming-Segment enthalten sind, als Batch ausgewertet. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
->* Die Tracking-Datenerfassung ist nicht betroffen. Die Ereignisse Senden und Öffnen werden weiterhin wie gewohnt erfasst.
->* Reaktionsereignisse in Journey sind von dieser Änderung nicht betroffen.
+>Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von **Versand**- und **Öffnungsereignissen** aus Tracking- und Feedback-Datensätzen aus Journey Optimizer nicht mehr. 
+>* Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen. 
+>* Nur Versand- und Öffnungsereignisse sind betroffen: Klicks und andere Tracking-Ereignisse bleiben für die Streaming-Segmentierung verfügbar.
+>* Diese Änderung gilt nur für die Streaming-Segmentierung. Versand- und Öffnungsereignisse können weiterhin in Batch-Segmenten verwendet werden. Sie werden jedoch auf Batch-Weise ausgewertet, wenn sie in einem Streaming-Segment enthalten sind. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
+>* Die Tracking-Datenerfassung ist nicht betroffen. Versand- und Öffnungsereignisse werden weiterhin wie gewohnt erfasst.
+>* Reaktionsereignisse in Journeys sind von dieser Änderung nicht betroffen.
 
 +++
 
