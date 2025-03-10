@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 70%
+source-wordcount: '1198'
+ht-degree: 69%
 
 ---
 
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um das Ziel eines Links zu definieren:
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Wählen Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wo der Link geöffnet werden soll:
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wo der Link geöffnet werden soll. Mögliche Werte sind unten aufgeführt:
 
    * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
    * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
