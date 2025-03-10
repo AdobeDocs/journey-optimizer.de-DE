@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '696'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen.
 
-Diese Funktionen werden nachfolgend erläutert. In den folgenden Beispielen verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
+Diese Funktionen werden nachfolgend erläutert. Im folgenden Beispiel verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
 
 ```json
                 { 
