@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
+workflow-type: tm+mt
+source-wordcount: '635'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 100%
 >id="ajo_create_expression_fragment"
 >title="Auswählen des Ausdruckstyps"
 >abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Personalisierungseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Nutzen von Ausdrucksfragmenten"
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 Fragmente können über das Menü **[!UICONTROL Fragmente]** links von Grund auf neu erstellt werden. Darüber hinaus können Sie beim Entwerfen von Inhalten auch einen Teil des vorhandenen Inhalts als Fragment speichern. [Weitere Informationen](#save-as-fragment)
 
