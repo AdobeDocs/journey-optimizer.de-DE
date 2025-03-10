@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynami
 
 Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
 
-## Hinzufügen und Verwalten von Dynamic Media
+## Hinzufügen und Verwalten von Dynamic Media {#dynamic-media}
 
 Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, indem Sie Dynamic Media aus Adobe Experience Manager as a Cloud Service direkt in Ihre Journey Optimizer-Inhalte einfügen.  Anschließend können Sie bei Bedarf die Größe ändern, zuschneiden, verbessern und andere Anpassungen vornehmen.
 
@@ -55,7 +55,7 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 
 Ihr Inhalt enthält jetzt Dynamic Media. Alle Aktualisierungen, die Sie in Experience Manager vornehmen, werden automatisch in Journey Optimizer angezeigt.
 
-## Textüberlagerung personalisieren
+## Textüberlagerung personalisieren {#text-overlay}
 
 Passen Sie Dynamic Media einfach an, indem Sie die vorhandene Textüberlagerung durch neuen Text Ihrer Wahl ersetzen, was nahtlose Aktualisierungen und Personalisierung ermöglicht.
 
@@ -96,13 +96,13 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Hinzufügen und Verwalten Ihrer Dynamic Media-Vorlage
+## Hinzufügen und Verwalten Ihrer Dynamic Media-Vorlage {#dynamic-media-template}
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
 Weitere Informationen finden Sie unter [Dynamic Media-Vorlage](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
-### Mit Bildkomponente
+### Mit Bildkomponente {#image-component}
 
 Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren Inhalt einfügen:
 
@@ -136,7 +136,7 @@ Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren 
 
 Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Audience senden.
 
-### Mit HTML-Komponente
+### Mit HTML-Komponente {#html-component}
 
 Sie können Ihre dynamische Vorlage mithilfe der HTML-Komponente direkt in Ihren Inhalt einfügen:
 
