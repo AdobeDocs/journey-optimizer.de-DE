@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren von Geschäftsregeln
-description: Erfahren Sie, wie Sie Häufigkeitsregeln für Unternehmen definieren
+description: Erfahren Sie, wie Sie Häufigkeitsregeln für Geschäfte definieren
 feature: Rules
 topic: Content Management
 role: User
@@ -14,13 +14,13 @@ googlebot: noindex
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Konfigurieren von Verfahrensregeln {#frequency-rules}
+# Konfigurieren von Geschäftsregeln {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"

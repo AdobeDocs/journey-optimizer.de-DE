@@ -1,5 +1,5 @@
 ---
-title: Ranking-Formeln
+title: Rangfolgeformeln
 description: Erfahren Sie, wie Sie Formeln erstellen, um Angebote zu ordnen
 feature: Ranking, Decision Management
 topic: Integrations
@@ -8,13 +8,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# Ranking-Formeln {#create-ranking-formulas}
+# Rangfolgeformeln {#create-ranking-formulas}
 
 ## Grundlagen zu Rangfolgeformeln {#about-ranking-formulas}
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
 1. Geben Sie den Namen und die Beschreibung der Formel sowie die Formel selbst an.
 
-   In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Dazu wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. [Erfahren Sie, wie Sie mit Kontextdaten arbeiten](../context-data.md)
+   In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. [Weitere Informationen zum Arbeiten mit Kontextdaten](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -136,9 +136,9 @@ In diesem Fall für ein Profil wie:
 
 ### Verstärken von Angeboten basierend auf Kontextdaten {#context-data}
 
-[!DNL Journey Optimizer] ermöglicht es, bestimmte Angebote basierend auf den im Aufruf übergebenen Kontextdaten zu optimieren. Wenn beispielsweise der `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden. Detaillierte Informationen zum Übergeben von Kontextdaten mithilfe der APIs **Edge Decisioning** und **Decisioning** finden Sie [diesem Abschnitt](../context-data.md)
+Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden. Detaillierte Informationen zum Übergeben von Kontextdaten mithilfe der **Edge Decisioning**- und der **Decisioning**-API finden Sie [diesem Abschnitt](../context-data.md)
 
-Beachten Sie, dass bei Verwendung der **Decisioning**-API die Kontextdaten im Anfrageinhalt zum Profilelement hinzugefügt werden, wie im folgenden Beispiel.
+Beachten Sie, dass bei Verwendung der **Decisioning**-API die Kontextdaten zum Profilelement im Anfragehauptteil hinzugefügt werden wie im folgenden Beispiel.
 
 ```
 "xdm:profiles": [
@@ -168,7 +168,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 >
 >Ersetzen Sie in den Beispielen für die Edge Decisioning-API `<OrgID>` durch Ihre Organisations-Mandanten-ID.
 
-+++Erhöhen Sie die Angebotspriorität um 10, wenn der Kanal aus den Kontextdaten mit dem bevorzugten Kanal des Kunden übereinstimmt.
++++Erhöhen Sie die Angebotspriorität um 10, wenn der Kanal aus den Kontextdaten mit dem bevorzugten Kanal der Kundin bzw. des Kunden übereinstimmt
 
 >[!BEGINTABS]
 
@@ -200,7 +200,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 
 +++
 
-+++Content Origin Boost
++++Inhaltsherkunftsverstärkung
 
 >[!BEGINTABS]
 
@@ -216,7 +216,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 
 +++
 
-+++Wetterauftrieb
++++Wetterverstärkung
 
 >[!BEGINTABS]
 

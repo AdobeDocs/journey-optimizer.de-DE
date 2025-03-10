@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!CAUTION]
    >
-   >Bearbeiten Sie nicht die Konfiguration des E-Mail-Kanals, nachdem der IP-Aufwärmplan [gestartet](ip-warmup-execution.md).
+   >Bearbeiten Sie die Konfiguration des E-Mail-Kanals nicht, nachdem der IP-Aufwärmplan [gestartet](ip-warmup-execution.md) wurde.
 
 1. Erstellen Sie eine geplante Marketing-[Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 

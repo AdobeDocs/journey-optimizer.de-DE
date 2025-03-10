@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 61%
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
-Ein Abonnement-Service kann für Folgendes verwendet werden:
+Ein Abonnementdienst kann für Folgendes verwendet werden:
 
 * ein Newsletter, z. B.: „Laufen als Sport“
 * ein Ereignis, z. B.: „Summit 2021“
@@ -64,23 +64,23 @@ Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Abonnement-Liste verwenden {#use-subscription-lists}
+## Verwenden einer Abonnement-Liste {#use-subscription-lists}
 
 Nachdem die Abonnement-Liste erstellt wurde, können Sie:
 
-* Hinzufügen von Profilen zur Abonnement-Liste
+* Profile zur Abonnement-Liste hinzufügen
 
-  Sie können Personen zur Teilnahme **der Liste einladen** indem Sie sich für einen Newsletter anmelden oder sich für eine Veranstaltung registrieren. Sie können auch **personalisierte Nachrichten senden** an Abonnenten senden.
+  Sie können Personen dazu einladen, **der Liste beizutreten**, indem sie einen Newsletter abonnieren oder sich für ein Ereignis registrieren. Sie können auch **personalisierte Nachrichten** an Abonnentinnen und Abonnenten senden.
 
-  Um beispielsweise eine Zielgruppe zur Anmeldung zu einer Veranstaltung einzuladen oder einen Newsletter zu abonnieren, können Sie ihr eine Nachricht mit einem Link zu einer Landingpage senden, auf der sie der Veranstaltung beitreten oder sich abonnieren kann. Profile, die sich über das Landingpage-Formular anmelden, werden der zu diesem Zweck erstellten Abonnement-Liste hinzugefügt.
+  Um beispielsweise eine Zielgruppe dazu einzuladen, sich für ein Ereignis zu registrieren oder einen Newsletter zu abonnieren, können Sie ihr eine Nachricht mit einem Link zu einer Landingpage senden, auf der sie der Veranstaltung beitreten oder sie abonnieren können. Profile, die sich über das Landingpage-Formular anmelden, werden der von Ihnen zu diesem Zweck erstellten Abonnement-Liste hinzugefügt.
 
-* Senden von Nachrichten an Abonnenten
+* Nachrichten an Abonnentinnen und Abonnenten senden
 
-  Abonnement-Listen können auch als Zielgruppen verwendet werden, wenn Journey erstellt und Personalisierungen hinzugefügt werden.
+  Sie können Abonnement-Listen auch als Zielgruppen verwenden, wenn Sie Journeys erstellen und Personalisierung hinzufügen.
 
-  Wenn sich ein Kunde beispielsweise für einen Streaming-Service anmeldet, kann dies den sofortigen Versand einer Begrüßungs-E-Mail-Serie zum Trigger bringen, wodurch der Kunde aufgefordert wird, sich zum ersten Mal bei der App anzumelden und seine Anzeigevoreinstellungen festzulegen.
+  Wenn Kundinnen und Kunden beispielsweise einen Streaming-Dienst abonnieren, kann dies den sofortigen Versand einer Begrüßungs-E-Mail-Serie auslösen, die die Kundinnen und Kunden dazu auffordert, sich zum ersten Mal bei der App anzumelden und ihre Anzeigevoreinstellungen festzulegen.
 
-In diesem Anwendungsfall erfahren Sie, wie Sie [ Abonnement-Liste ](lp-use-cases.md#subscription-to-a-service).
+In [diesem Anwendungsfall](lp-use-cases.md#subscription-to-a-service) erfahren Sie, wie Sie Ihre Abonnement-Liste verwenden.
 
 
 ## Durchsuchen von Abonnement-Listen {#browse-subscription-lists}
@@ -96,14 +96,14 @@ Folgende Status sind möglich:
 * **[!UICONTROL Abgelaufen]**: Das Enddatum wurde überschritten, sodass die Abonnement-Liste nicht mehr gültig ist. Profile mit Abonnements erhalten keine weiteren Mitteilungen mehr, die für diese Abonnement-Liste bestimmt sind.
 
 
-## Abonnement-Listen überwachen {#monitor-subscription-lists}
+## Überwachen von Abonnement-Listen {#monitor-subscription-lists}
 
-Sie können die Wirkung Ihrer Abonnement-Liste mithilfe dedizierter Berichte überwachen. Sie können auf zwei Berichtstypen zugreifen:
+Die Wirkung von Abonnement-Listen kann über entsprechende Berichte überwacht werden. Sie können auf zwei Berichtstypen zugreifen:
 
-* Live-Bericht zur Abonnement-Liste
+* Live-Bericht zu Abonnement-Listen
 
-  Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. [Weitere Informationen](../reports/subscription-report-live.md)
+  Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt dabei mindestens zwei Minuten. [Weitere Informationen](../reports/subscription-report-live.md)
 
-* Abonnement-Liste Alle Zeitberichte, mit Customer Journey Analytics
+* Gesamtzeitberichte zu Abonnement-Listen, mit Customer Journey Analytics
 
-  Diese Berichte konzentrieren sich auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Der **Abonnementbericht** bietet wichtige Einblicke in die An- und Abmeldungen von Profilen, die mit bestimmten Listen verbunden sind, und hilft Ihnen zu verstehen, wie wirksam verschiedene Abonnementkampagnen und Initiativen sind, um die Interaktion und Konversionen zu fördern. [Weitere Informationen](../reports/subscription-report-global-cja.md)
+  Diese Berichte konzentrieren sich auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Der **Abonnementbericht** bietet wichtige Einblicke in Abonnements und Abmeldungen von Profilen, die mit bestimmten Listen verknüpft sind. Er hilft Ihnen dabei, die Effektivität verschiedener Abonnementkampagnen und -initiativen bei der Förderung von Interaktionen und Konversionen zu verstehen. [Weitere Informationen](../reports/subscription-report-global-cja.md)

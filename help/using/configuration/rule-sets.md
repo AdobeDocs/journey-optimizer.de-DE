@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1933'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 3 lokale Regelsätze der Kanaldomäne und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
+>Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -125,7 +125,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
    >[!AVAILABILITY]
    >
-   >Die „Tägliche“ Dauer ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter.
+   >Die Dauer „Täglich“ ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
@@ -137,7 +137,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
      >[!CAUTION]
      >
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=de){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 
@@ -311,7 +311,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 >[!IMPORTANT]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
 +++
 

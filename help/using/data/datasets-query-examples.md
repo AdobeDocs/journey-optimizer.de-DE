@@ -10,7 +10,7 @@ level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -20,17 +20,17 @@ ht-degree: 100%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-* [Email Tracking Experience Event Dataset](#email-tracking-experience-event-dataset)
-* [Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
-* [Push Tracking Experience Event Dataset](#push-tracking-experience-event-dataset)
+* [Erlebnisereignisdatensatz beim E-Mail-Tracking](#email-tracking-experience-event-dataset)
+* [Ereignisdatensatz mit Feedback zu Nachrichten](#message-feedback-event-dataset)
+* [Erlebnisereignisdatensatz beim Push-Tracking](#push-tracking-experience-event-dataset)
 * [Journey-Schritt-Ereignis](#journey-step-event)
-* [Decisioning-Ereignisdatensatz](#ode-decisionevents)
-* [BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
+* [Ereignisdatensatz zur Entscheidungsfindung](#ode-decisionevents)
+* [Ereignisdatensatz mit Feedback zu BCC](#bcc-feedback-event-dataset)
 * [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 
-## Email Tracking Experience Event Dataset{#email-tracking-experience-event-dataset}
+## Erlebnisereignisdatensatz beim E-Mail-Tracking{#email-tracking-experience-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO Email Tracking Experience Event Dataset_
 
@@ -70,7 +70,7 @@ order by
 limit 100;
 ```
 
-## Nachrichten-Feedback-Ereignisdatensatz{#message-feedback-event-dataset}
+## Ereignisdatensatz mit Feedback zu Nachrichten{#message-feedback-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO-Nachrichten-Feedback-Ereignisdatensatz_
 
@@ -168,7 +168,7 @@ Das Datumsformat lautet dabei: `YYYY-MM-DD HH:MM:SS`.
 
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
-## Push Tracking Experience Event Dataset {#push-tracking-experience-event-dataset}
+## Erlebnisereignisdatensatz beim Push-Tracking {#push-tracking-experience-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO Push Tracking Experience Event Dataset_
 
@@ -227,7 +227,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Decisioning-Ereignisdatensatz{#ode-decisionevents}
+## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
 
 _Name in der Benutzeroberfläche: ODE DecisionEvents (Systemdatensatz)_
 
@@ -289,7 +289,7 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## BCC-Feedback-Ereignisdatensatz{#bcc-feedback-event-dataset}
+## Ereignisdatensatz mit Feedback zu BCC{#bcc-feedback-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO-BCC-Feedback-Ereignisdatensatz (Systemdatensatz)_
 

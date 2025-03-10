@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,28 +30,28 @@ Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UI
 
 ![](assets/lp_access-list.png)
 
-Die **[!UICONTROL Landingpages]**-Liste zeigt alle vorhandenen Landingpages an. Sie können sie nach Status, Änderungsdatum oder Tags filtern.
+Die Liste der **[!UICONTROL Landingpages]** zeigt alle vorhandenen Landingpages an. Sie können sie nach Status, Änderungsdatum oder Tags filtern.
 
 ![](assets/lp_access-list-filter.png)
 
-In dieser Liste können Sie auch auf Landingpage-Berichte zugreifen, sie duplizieren, löschen oder deren Veröffentlichung aufheben. Klicken Sie dazu auf die drei Punkte neben einer Landingpage und wählen Sie die gewünschte Aktion aus:
+In dieser Liste können Sie außerdem Landingpages duplizieren, löschen und deren Veröffentlichung aufheben sowie auf Landingpage-Berichte zugreifen. Klicken Sie dafür auf die drei Punkte neben einer Landingpage und wählen Sie die gewünschte Aktion aus:
 
 ![](assets/lp_access-list-actions.png)
 
 
 Sie haben folgende Möglichkeiten:
 
-* Greifen Sie für veröffentlichte Landingpages auf **Berichte** zu: [Landingpage-](../reports/lp-report-global-cja.md) und [Live-Bericht der letzten 24 Stunden](../reports/lp-report-live.md).
+* Greifen Sie auf folgende **Berichte** für veröffentliche Landingpages zu: [Landingpage-Bericht](../reports/lp-report-global-cja.md) und [Live-Bericht der letzten 24 Stunden](../reports/lp-report-live.md).
 
-* **Löschen** oder **Duplizieren** einer Landingpage Sie können eine [veröffentlichte](#publish-landing-page) Landingpage nicht löschen. Um sie zu löschen, müssen Sie zunächst **Veröffentlichung**.
+* **Löschen** oder **duplizieren** Sie eine Landingpage. Sie können eine [veröffentlichte](#publish-landing-page) Landingpage nicht löschen. Um sie zu löschen, müssen Sie zunächst ihre **Veröffentlichung aufheben**.
 
-* **Veröffentlichung aufheben** Landingpage.
+* **Heben Sie die Veröffentlichung** der Landingpage auf.
 
   >[!CAUTION]
   >
-  >Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr, und Benutzern wird eine Fehlerseite angezeigt, wenn sie versuchen, darauf zuzugreifen.
+  >Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr, und Benutzerinnen und Benutzern wird eine Fehlerseite angezeigt, wenn sie auf sie zugreifen versuchen.
 
-* Bearbeiten der zugehörigen ([) ](../start/search-filter-categorize.md#tags) einer Landingpage.
+* Bearbeiten Sie die einer Landingpage zugeordneten [Tags](../start/search-filter-categorize.md#tags).
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -67,10 +67,10 @@ Sie haben folgende Möglichkeiten:
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=de" text="Zugriffssteuerung auf Objektebene"
 
 
-Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, dann die Primärseite und die Unterseiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen. Diese Schritte werden im Folgenden beschrieben:
+Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, dann die primäre Seite und die untergeordneten Seiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen. Diese Schritte werden nachfolgend beschrieben:
 
 
-1. Navigieren Sie **[!UICONTROL linken Menü zu]** Content-Management **[!UICONTROL > Landingpages]** .
+1. Navigieren Sie im linken Menü zu **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]**.
 
 1. Klicken Sie in der Landingpage-Liste auf **[!UICONTROL Landingpage erstellen]**.
 
@@ -286,7 +286,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
->Um Landingpages zu veröffentlichen, müssen Benutzer über die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
+>Um Landingpages zu veröffentlichen, müssen Benutzerinnen und Benutzer über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 
 
 Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen.

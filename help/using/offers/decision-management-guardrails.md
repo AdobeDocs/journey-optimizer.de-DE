@@ -1,41 +1,41 @@
 ---
-title: Leitplanken und Einschränkungen beim Entscheidungs-Management
-description: Erfahren Sie mehr über Leitplanken und Einschränkungen beim Entscheidungs-Management.
+title: Leitlinien und Einschränkungen für das Entscheidungs-Management
+description: Weitere Informationen zu den Leitlinien und Einschränkungen für das Entscheidungs-Management
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
-workflow-type: tm+mt
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
+# Leitlinien und Einschränkungen für das Entscheidungs-Management {#decision-management-guardrails}
 
-# Leitplanken und Einschränkungen beim Entscheidungs-Management {#decision-management-guardrails}
+Um eine optimale Nutzung des Entscheidungs-Managements sicherzustellen, sollten Sie die folgenden Leitlinien und Einschränkungen beachten.
 
-Beachten Sie die folgenden Leitplanken und Einschränkungen, um eine optimale Nutzung des Entscheidungs-Managements sicherzustellen.
-
-Die vollständige Liste der [!DNL Journey Optimizer] und Einschränkungen finden Sie in [diesem Abschnitt](../start/guardrails.md).
+Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](../start/guardrails.md).
 
 ## Entscheidungsanfragen
 
-Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs-Management-App-Service in einer bestimmten Zeit bereitgestellt werden können.
+Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs-Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können.
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | Decisioning-API-Anfragen pro Sekunde | 500 |
-| Edge Decisioning-API-Anfragen pro Sekunde mit Edge-Segmentierung | 1500 |
+| Edge Decisioning-API-Anfragen pro Sekunde mit Edge-Segmentierung | 1.500 |
 | Edge Decisioning-API-Anfragen pro Sekunde ohne Edge-Segmentierung | 5.000 |
 | Pro Antwort zurückgegebene Angebote | Bis zu 30 pro Entscheidungsumfang oder insgesamt 100 |
-| Maximale Anzahl an beteiligten Angebotsregeln pro Anfrage | 100 |
+| Maximale Anzahl der pro Anfrage beteiligten Angebotsregeln | 100 |
 
 ## Entscheidungen
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Entscheidungen insgesamt | 10 K |
-| Live-Entscheidungen | 1K |
+| Entscheidungen insgesamt | 10.000 |
+| Live-Entscheidungen | 1.000 |
 | Platzierungen pro Entscheidung | 30 |
 
 ## Sammlungen
@@ -43,48 +43,48 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 | Leitplanke | Limit |
 | ------- | ------- |
 | Angebote pro Sammlung | 500 |
-| Sammlungen | 10 K |
+| Sammlungen | 10.000 |
 | Sammlungen pro Entscheidung | 30 |
 
 ## Sammlungsqualifizierer
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Sammlungskennzeichner pro Angebot oder Sammlung | 20 |
-| Gesamtzahl der Sammlungskennzeichner | 1000 |
+| Sammlungsqualifizierer pro Angebot oder Sammlung | 20 |
+| Sammlungsqualifizierer insgesamt | 1.000 |
 
 ## Angebote
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Angebote insgesamt | 10 K |
-| Maximale Anzahl von **aktiven** Angeboten pro Sandbox | 10 K |
-| Maximale Größe von Angeboten einschließlich Attributen (1 KB), maximal 30 Attribute | 1KB |
-| Max. Größe der Angebotsdarstellung (insgesamt für alle Platzierungen) | 1KB |
+| Angebote insgesamt | 10.000 |
+| Maximale Anzahl der **aktiven** Angebote pro Sandbox | 10.000 |
+| Maximale Größe der Angebote einschließlich Attributen (1 KB), maximal 30 Attribute | 1 KB |
+| Maximale Größe der Angebotsdarstellung (insgesamt für alle Platzierungen) | 1 KB |
 
 ## Eignungsregeln
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Entscheidungsregeln und Rangfolgeformeln insgesamt | 10 K kombiniert |
-| Maximale Anzahl von Profilattributen pro Regel | 25 |
-| Maximale Anzahl von Kontextdatenattributen pro Regel | 30 |
-| Maximale Größe der PQL-Regel | 15K (UTF-8) |
-| Maximale Anzahl von Verschachtelungsebenen | 30 |
+| Entscheidungsregeln und Rangfolgeformeln insgesamt | 10.000 (zusammen) |
+| Maximale Anzahl an Profilattributen pro Regel | 25 |
+| Maximale Anzahl an Kontextdatenattributen pro Regel | 30 |
+| Maximale Größe der PQL-Regel | 15.000 (UTF-8) |
+| Maximale Anzahl an Verschachtelungsebenen | 30 |
 
 ## Rangfolgeformeln
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Maximale Größe der Rangfolgenformel PQL | 8 KB (UTF-8) |
+| Maximale Größe der Rangfolgeformel-PQL | 8.000 (UTF-8) |
 | Maximale Anzahl an Profilattributen | 25 |
-| Maximale Anzahl von Kontextdatenattributen | 30 |
-| Maximale Anzahl von Verschachtelungsebenen | 30 |
+| Maximale Anzahl an Kontextdatenattributen | 30 |
+| Maximale Anzahl an Verschachtelungsebenen | 30 |
 
 ## Sonstige
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Platzierungen | 1000 |
+| Platzierungen | 1.000 |
 | KI-Rangfolgemodell | 5 |
-| Frequenzlimitierung : Maximale Anzahl von Begrenzungsregeln pro Angebot | 10 |
+| Frequenzbegrenzung: Maximale Anzahl an Begrenzungsregeln pro Angebot | 10 |

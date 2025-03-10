@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Abhängig vom Status der Journey können Sie mithilfe der verfügbaren Schaltfl�
 
 ## Starten der Journey {#start-your-journey}
 
-Wenn Sie Ihren Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden.
+Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden.
 
 Es gibt zwei Möglichkeiten:
 

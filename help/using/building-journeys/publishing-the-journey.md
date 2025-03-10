@@ -10,37 +10,37 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren, und sie für neue Profile verfügbar machen, damit diese sie eingeben können. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass diese gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Die Schritte zum Veröffentlichen einer Journey werden im Folgenden beschrieben:
+Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
-1. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Sie können dann keine fehlerhafte Journey veröffentlichen.
+1. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass diese gültig ist und keine Fehler vorliegen. Sie können keine fehlerhaften Journeys veröffentlichen.
 
-   * Auf [ Seite erfahren Sie, wie Sie Ihren Journey testen ](testing-the-journey.md).
-   * Informationen zur Behebung von Journey-Fehlern finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
+   * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
 
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
 
    >[!NOTE]
    >
-   > Wenn für Ihren Journey eine Genehmigungsrichtlinie gilt, müssen Sie eine Genehmigung anfordern, um Ihren Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+   > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
 
-Wenn die Journey veröffentlicht wird, befindet sie sich **schreibgeschützten**. Wenn eine Journey schreibgeschützt ist, können Sie nur die Aktivitätsbeschriftungen und -beschreibungen, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie weitere Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
+Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Wenn eine Journey schreibgeschützt ist, können Sie nur die Titel und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [ eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
 
-Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt: Alle Personen, die in der Journey fließen, werden dauerhaft gestoppt, und die Journey erlaubt keine neuen Eintritte mehr. Wenn Sie die Journey erneut ausführen müssen, müssen Sie sie duplizieren und die neue Journey veröffentlichen.
+Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt: Alle Personen, die die Journey durchlaufen, werden dauerhaft gestoppt, und die Journey erlaubt keine neuen Eintritte mehr. Wenn Sie die Journey erneut ausführen müssen, müssen Sie sie duplizieren und die neue Journey veröffentlichen.
 
 
 >[!IMPORTANT]

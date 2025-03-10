@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für J
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
 >title="Neue Genehmigungsrichtlinie"
->abstract="Geben Sie in diesem Bildschirm den Namen ein, wählen Sie den Kontext für die Genehmigungsrichtlinie aus und erstellen Sie dann die Bedingungen, um zu bestimmen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann."
+>abstract="Geben Sie in diesem Bildschirm den Namen ein, wählen Sie den Kontext für die Genehmigungsrichtlinie aus und erstellen Sie dann die Bedingungen, die bestimmen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann."
 
 Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
    ![](assets/policy_create_2.png)
 
-Sie können jetzt die Bedingungen verfeinern, um anzugeben, wer die Genehmigungsanfrage initiieren und wer sie validieren kann.
+Sie können nun die Bedingungen verfeinern, um festzulegen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann.
 
 ## Festlegen von Bedingungen für Genehmigungsrichtlinien {#conditions}
 
@@ -141,7 +141,7 @@ Sie können Ihre Genehmigungsrichtlinie jetzt aktivieren, um sie anzuwenden.
 
 ## Aktivieren und Verwalten von Genehmigungsrichtlinien {#activate-policies}
 
-Um Ihre Genehmigungsrichtlinie anzuwenden, müssen Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
+Um Ihre Genehmigungsrichtlinie anwenden zu können, müssen Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 
 1. Greifen Sie auf Ihre **[!UICONTROL Genehmigungsrichtlinie]** zu.
 

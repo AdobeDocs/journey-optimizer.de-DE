@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!CAUTION]
       >
-      >Wenn Sie nach Ausführung des IP-Aufwärmplans die [Ausführungsadresse](../email/email-settings.md#execution-address) im E-Mail-Kanal [Konfiguration](channel-surfaces.md) aktualisieren, der in der IP-Aufwärmkampagne verwendet wird, kann der Domain-Ausschluss fehlschlagen. Bearbeiten Sie nicht die Konfiguration des E-Mail-Kanals, nachdem der IP-Aufwärmplan gestartet wurde.
+      >Wenn Sie nach Ausführung des IP-Aufwärmplans die [Ausführungsadresse](../email/email-settings.md#execution-address) im in der IP-Aufwärmkampagne verwendeten E-Mail-Kanal [Konfiguration](channel-surfaces.md) aktualisieren, kann der Domain-Ausschluss fehlschlagen. Bearbeiten Sie die Konfiguration des E-Mail-Kanals nicht, nachdem der IP-Aufwärmplan gestartet wurde.
 
    1. Wählen Sie im Abschnitt **[!UICONTROL Kampagne zum Ausschluss von Profilen]** die Kampagnen, deren Zielgruppen Sie aus der aktuellen Phase ausschließen möchten.
 

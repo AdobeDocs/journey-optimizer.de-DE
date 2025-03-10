@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -132,13 +132,13 @@ Gehen Sie wie folgt vor, um die Standardeinstellungen für Ihre Simulationen zu 
 
    ![](../assets/offers_simulation-settings.png)
 
-1. Im Abschnitt **[!UICONTROL Deduplizierung]** können Sie festlegen, dass Angebote für alle Entscheidungen und/oder Platzierungen dupliziert werden können. Dies bedeutet, dass mehreren Entscheidungen/Platzierungen möglicherweise dasselbe Angebot zugewiesen wird.
+1. Im Abschnitt **[!UICONTROL Deduplizierung]** können Sie auswählen, ob Angebote für alle Entscheidungen und/oder Platzierungen dupliziert werden dürfen. Dies bedeutet, dass möglicherweise mehreren Entscheidungen/Platzierungen dasselbe Angebot zugewiesen wird.
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisioning] API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisioning] API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. Im Bereich **[!UICONTROL Antwortformat]** können Sie wählen, ob Metadaten in die Code-Ansicht aufgenommen werden sollen. Aktivieren Sie die entsprechende Option und wählen Sie die gewünschten Metadaten aus. Sie werden in den Anfrage- und Antwort-Payloads angezeigt, wenn Sie **[!UICONTROL Code anzeigen]** auswählen. Weitere Informationen finden Sie im Abschnitt [Anzeigen von Simulationsergebnissen](#simulation-results).
 

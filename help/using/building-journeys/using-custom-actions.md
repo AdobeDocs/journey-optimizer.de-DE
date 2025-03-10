@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 91%
 >title="Benutzerdefinierte Aktionen"
 >abstract="Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann."
 
-Verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zu einem Drittanbietersystem zum Senden von Nachrichten oder API-Aufrufen zu ermöglichen. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
+Verwenden Sie benutzerdefinierte Aktionen zum Konfigurieren der Verbindung zu einem Drittanbietersystem, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
 Weitere Informationen zu benutzerdefinierten Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
 
-Erfahren Sie auf [ Seite , wie Sie eine benutzerdefinierte Aktion erstellen ](../action/about-custom-action-configuration.md) konfigurieren.
+In [diesem Abschnitt](../action/about-custom-action-configuration.md) erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren.
 
 ## Einverständnis und Data Governance {#privacy}
 

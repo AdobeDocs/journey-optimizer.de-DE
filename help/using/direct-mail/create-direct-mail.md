@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
       >[!NOTE]
       >
-      >Standardmäßig wird die Datei in das Stammverzeichnis auf dem Server geschrieben. Das **[!UICONTROL Dateiname]**-Feld akzeptiert auch das Format &quot;/your/path/here/Filename.csv&quot;, wobei der angegebene Pfad das Zielverzeichnis auf dem ausgewählten Server ist. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >Standardmäßig wird die Datei in das Stammverzeichnis des Servers geschrieben. Das Feld **[!UICONTROL Dateiname]** akzeptiert auch das Format „/Hier/Ihr/Pfad/Dateiname.csv“, wobei der angegebene Pfad dem Zielverzeichnis auf dem ausgewählten Server entspricht. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Optional können Sie den **[!UICONTROL Zeitstempel an den Dateinamen des Exports anhängen]**, wenn Sie dem angegebenen Dateinamen einen automatischen Zeitstempel hinzufügen möchten.
 

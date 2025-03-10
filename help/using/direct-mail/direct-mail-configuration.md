@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Bei der [Erstellung von Briefpostnachrichten](../direct-mail/create-direct-mail.
 
 Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
-1. [Eine Datei-Routing](#file-routing-configuration)-Konfiguration, um den Server anzugeben, auf den die Datei exportiert werden soll, und die Datei bei Bedarf zu verschlüsseln.
+1. [Eine Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll. Verschlüsseln Sie die Datei bei Bedarf.
 
    >[!CAUTION]
    >
    >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. [Eine Briefpost-Konfiguration](#direct-mail-configuration) die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
+1. [Eine Briefpost-Konfiguration](#direct-mail-configuration), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
 
 ## Konfigurieren des Datei-Routings {#file-routing-configuration}
 
@@ -60,7 +60,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 >[!NOTE]
 >
->Derzeit werden Amazon S3, SFTP, Azure und Data Landing Zone in [!DNL Journey Optimizer] unterstützt.
+>Derzeit werden Amazon S3, SFTP, Azure und Data Landing Zone in [!DNL Journey Optimizer] unterstützt.
 
 Zum Versand einer Briefpostnachricht generiert [!DNL Journey Optimizer] die Datei mit den Daten der anvisierten Zielgruppe und exportiert sie auf einen Server.
 
@@ -68,13 +68,13 @@ Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Da
 
 Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
-1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Briefpost-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie dann auf **[!UICONTROL Datei-Routing-Konfiguration erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Wählen Sie den Servertyp aus, den Sie für den Export Ihrer Briefpostdateien verwenden möchten: Amazon S3, SFTP, Azure oder Data Landing Zone.
+1. Wählen Sie den Server-Typ aus, der für den Export Ihrer Direkt-Mail-Dateien verwendet werden soll: Amazon S3, SFTP, Azure oder Data Landing Zone.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
@@ -84,7 +84,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 >[!TAB Amazon S3]
 
-Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Servertyp]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
+Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
 * **Name des AWS-Buckets**: Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
 
@@ -98,7 +98,7 @@ Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Servertyp]** ausgewählt h
 
 >[!TAB SFTP]
 
-Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
+Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
 * **Konto**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
 
@@ -116,7 +116,7 @@ Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben
 
 >[!TAB Azure]
 
-Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
+Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
 * **Azure-Verbindungszeichenfolge**: Informationen dazu, wie Sie Ihre **Azure-Verbindungszeichenfolge** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
@@ -126,7 +126,7 @@ Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** ausgewählt habe
 
 * **Container-Name**: Informationen dazu, wie Sie Ihren **Container-Namen** finden, erhalten Sie auf [dieser Seite](https://learn.microsoft.com/de-de/azure/storage/blobs/blob-containers-portal).
 
-  Der **Container-**) sollte nur den Namen des Containers ohne Schrägstriche enthalten.
+  Der **Container-Name** sollte nur den Namen des Containers ohne Schrägstriche enthalten.
 
   >[!NOTE]
   >
@@ -140,13 +140,13 @@ Wenn Sie **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server-Typ]** ausg
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
 Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
-Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Senden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
+Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Absenden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
 Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
 

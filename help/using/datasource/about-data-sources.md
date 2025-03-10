@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Datenquellen
-description: Erfahren Sie mehr über die ersten Schritte mit Datenquellen
+description: Erfahren Sie, wie Sie die ersten Schritte mit Datenquellen machen
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten 
 
 Es gibt zwei Arten von Datenquellen:
 
-* Die **vorkonfigurierte** Adobe Experience Platform-Datenquelle, die die Verbindung zum Echtzeit-Kundenprofil-Service definiert. Dies ist eine integrierte Datenquelle. Weitere Informationen finden Sie auf [dieser Seite](../datasource/adobe-experience-platform-data-source.md).
+* Die **vorkonfigurierte** Datenquelle von Adobe Experience Platform, die die Verbindung zum Echtzeit-Kundenprofildienst definiert. Dies ist eine integrierte Datenquelle. Weitere Informationen finden Sie auf [dieser Seite](../datasource/adobe-experience-platform-data-source.md).
 * Die **externen** Datenquellen, mit denen Sie eine Verbindung zu externen Systemen definieren können. Diese können Sie erstellen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
 >[!NOTE]

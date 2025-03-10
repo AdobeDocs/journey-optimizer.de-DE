@@ -6,21 +6,21 @@ description: Erfahren Sie, wie Sie Kontextdaten in Entscheidungsanfragen überge
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-
 # Kontextdaten und Entscheidungsanfragen {#context-data-decisioning}
 
-Dieser Abschnitt führt Sie durch die Übergabe von Kontextdaten in Entscheidungsanfragen und deren Verwendung in Eignungsregeln.
+Dieser Abschnitt erläutert das Übergeben von Kontextdaten in Entscheidungsanfragen und deren Verwendung in Eignungsregeln.
 
 >[!BEGINSHADEBOX]
 
-Darüber hinaus können Sie auch den Kontext in **Rangfolgeformeln** nutzen, um Ihre Angebote zu optimieren. Detaillierte Beispiele für Rangfolgeformeln, die Kontextdaten nutzen, finden Sie in [diesem Abschnitt](../offers/ranking/create-ranking-formulas.md#context-data).
+Darüber hinaus können Sie auch den Kontext in **Rangfolgeformeln** nutzen, um Ihre Angebote zu verstärken. Detaillierte Beispiele für Rangfolgeformeln, die Kontextdaten nutzen, finden Sie in [diesem Abschnitt](../offers/ranking/create-ranking-formulas.md#context-data).
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +30,7 @@ Kontextdaten in Entscheidungsanfragen werden mithilfe des Schlüssels `xdm:Conte
 
 Kontextdatenattribute werden nicht vom XDM-Schema gesteuert. Sie können beliebige Kontextdaten in JSON als Teil der Payload der Entscheidungsanfrage übergeben.
 
-Im Folgenden finden Sie eine Beispiel-Entscheidungsanfrage mit Kontextdaten (siehe `xdm:ContextData`):
+Im Folgenden finden Sie ein Beispiel für eine Entscheidungsanfrage mit Kontextdaten (siehe `xdm:ContextData`):
 
 ```
 curl --location 'https://platform-stage.adobe.io/data/core/ods/decisions' \
@@ -102,15 +102,15 @@ curl --location 'https://platform-stage.adobe.io/data/core/ods/decisions' \
 
 ## Verwenden von Kontextdaten in Eignungsregeln
 
-Im Folgenden finden Sie Beispiele zur Verwendung von Kontextdaten, die in Entscheidungsanfragen in Eignungsregeln übergeben werden.
+Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten verwendet werden, die in Entscheidungsanfragen in Eignungsregeln übergeben werden.
 
-* Eignet sich, wenn die Kontextdatenfunktionen einen bestimmten Wert enthalten:
+* Geeignet, wenn die Kontextdatenfunktionen einen bestimmten Wert enthalten:
 
   ```
   select contextData from @{_xdm.context.additionalParameters;version=1} where contextData.features AND (select personetic from contextData.features where personetic.contains("123"))
   ```
 
-* Möglich, wenn der Kanal nicht leer und mit „Mobil“ identisch ist:
+* Geeignet, wenn der Kanal nicht leer und mit „Mobile“ identisch ist:
 
   ```
   select contextData from @{_xdm.context.additionalParameters;version=1} where !contextData.channel.isNull() AND contextData.channel!="" AND contextData.channel="mobile"

@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,15 +54,15 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 * Um die Übersetzungsfunktion in Journey Optimizer zu verwenden, müssen Sie die API der entsprechenden Rolle zuweisen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* Um mehrsprachige Inhalte erstellen zu können, muss den Benutzern die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** gewährt werden. Für den automatisierten Fluss benötigen die Benutzer auch Berechtigungen im Zusammenhang mit den Funktionen **[!UICONTROL Übersetzungs-Service]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+* Um mit der Erstellung mehrsprachiger Inhalte zu beginnen, muss Benutzenden die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** gewährt werden. Für einen automatisierten Fluss benötigen Benutzende außerdem Berechtigungen für die Funktion **[!UICONTROL Übersetzungsdienst]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-+++ Erfahren Sie, wie Sie mehrsprachige Berechtigungen zuweisen
++++ Informationen zur Zuweisung von Berechtigungen für mehrsprachige Inhalte
 
    1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
    1. Klicken Sie auf **Bearbeiten**, um die Berechtigungen zu ändern.
 
-   1. Fügen Sie die Ressource **Übersetzungsdienst** hinzu und wählen Sie dann die entsprechenden mehrsprachigen Berechtigungen aus dem Dropdown-Menü aus.
+   1. Fügen Sie die Ressource **Übersetzungsdienst** hinzu und wählen Sie dann die entsprechenden Berechtigungen für mehrsprachige Inhalte aus dem Dropdown-Menü aus.
 
       ![](assets/multilingual-permission.png){zoomable="yes"}
 
@@ -82,7 +82,7 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 +++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
 
-   1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die **[!UICONTROL Übersetzungsfunktion]** noch nicht aktiviert wurde. Wenden Sie sich an Ihre Organisation und Ihren Sandbox-Administrator, um Zugriff anzufordern.
+   1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die **[!UICONTROL Übersetzungsfunktion]** noch nicht aktiviert wurde. Wenden Sie sich an die Administratorin oder den Administrator Ihrer Organisation und Sandbox, um Zugriff anzufordern.
 
   ![](assets/multi-troubleshoot.png)
 

@@ -8,13 +8,13 @@ role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Einrichten und Verwalten von kundenverwalteten Schlüsseln {#cmk}
+# Einrichten und Verwalten von kundenseitig verwalteten Schlüsseln {#cmk}
 
 >[!AVAILABILITY]
 >
@@ -24,7 +24,7 @@ Mit Adobe Journey Optimizer können Kundinnen und Kunden von [Healthcare Shield]
 
 Der Einrichtungsprozess für Journey Optimizer umfasst zwei Teile, wobei die Technologie von Adobe Experience Platform und Customer Journey Analytics (CJA) genutzt wird:
 
-* Befolgen Sie die in der Dokumentation [Kundenseitig verwaltete Schlüssel in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html) beschriebenen Schritte.
+* Befolgen Sie die in der Dokumentation [Kundenseitig verwaltete Schlüssel in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview) beschriebenen Schritte.
 * Befolgen Sie die in der Dokumentation [Kundenseitig verwaltete Schlüssel in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=de) beschriebenen Schritte.
 
   Der Abschluss dieses Einrichtungsprozesses ist erforderlich, auch wenn Sie nicht Customer Journey Analytics (CJA) erworben haben, da bestimmte Komponenten von CJA im Hintergrund verwendet werden.

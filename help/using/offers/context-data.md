@@ -6,27 +6,26 @@ description: Erfahren Sie, wie Sie Kontextdaten im Entscheidungs-Management nutz
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-
 # Erste Schritte mit Kontextdaten {#context-data}
 
-Daten, die im Rahmen der Entscheidungsanfrage gesendet werden, werden als Kontextdaten betrachtet. Sie können Kontextdaten in der Entscheidungs-Engine nutzen, um z. B. eine Entscheidungsregel zu entwerfen, für die das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage ≥80 Grad betragen muss.
+Daten, die im Rahmen der Entscheidungsanfrage gesendet werden, werden als Kontextdaten betrachtet. Sie können Kontextdaten in der Entscheidungs-Engine nutzen, beispielsweise zum Entwerfen einer Entscheidungsregel, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage wärmer als 25 °C sein muss.
 
-Kontextdaten werden zwischen {**}- und {**}Edge Decisioning **-API-Anfragen unterschiedlich definiert.** Für beide Anfragetypen können Kontextdaten in Eignungsregeln oder in Rangfolgeformeln verwendet werden, aber nur Edge Decisioning-API-Anfragen können Kontextdaten verwenden, um Inhalte zu personalisieren.
+Kontextdaten werden in API-Anfragen zwischen **Decisioning** und **Edge Decisioning** unterschiedlich definiert. Für beide Anfragetypen können Kontextdaten in Eignungsregeln oder in Rangfolgeformeln verwendet werden, aber nur Edge Decisioning-API-Anfragen können Kontextdaten verwenden, um Inhalte zu personalisieren.
 
-Bevor Sie beginnen, überprüfen Sie die folgenden Leitplanken und Einschränkungen:
+Bevor Sie beginnen, überprüfen Sie die folgenden Leitlinien und Einschränkungen:
 
-* Aufgrund der unterschiedlichen Art der Kontextübergabe zwischen Decisioning- und Edge Decisioning-Aufrufen sind kontextbasierte Eignungsregeln und Rangfolgeformeln zwischen Decisioning- und Edge Decisioning-Aufrufen nicht austauschbar.
-* Tests mit dem `dryrun` Parameter sind nur mit der Decisioning-API möglich. Sie ist nicht mit der Edge Decisioning-API verfügbar. Beachten Sie, dass sich die Festlegung dieses Parameters auf `true` mit der Decisioning-API nicht auf Obergrenzen und die Anzahl der Vorschläge auswirkt.
+* Aufgrund der unterschiedlichen Art der Kontextübergabe in Decisioning- und Edge Decisioning-Aufrufen sind kontextbasierte Eignungsregeln und Rangfolgeformeln nicht zwischen Decisioning- und Edge Decisioning-Aufrufen austauschbar.
+* Tests mit dem Parameter `dryrun` sind nur mit der Decisioning-API möglich. Dies ist mit der Edge Decisioning-API nicht verfügbar. Beachten Sie, dass sich das Festlegen dieses Parameters mit der Decisioning-API auf `true` weder auf Begrenzungen noch auf die Anzahl der Vorschläge auswirkt.
 
 Ausführliche Informationen zur Verwendung von Kontextdaten in den einzelnen APIs finden Sie in den folgenden Abschnitten:
 
 * [Verwenden von Kontextdaten in Edge Decisioning-Anfragen](context-data-edge.md)
-* [Verwenden von Kontextdaten in Entscheidungsanfragen](context-data-decisioning.md)
-
+* [Verwenden von Kontextdaten in Decisioning-Anfragen](context-data-decisioning.md)

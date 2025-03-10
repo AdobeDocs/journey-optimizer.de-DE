@@ -1,82 +1,82 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Kontextdaten und Edge-Entscheidungsanfragen
+title: Kontextdaten und Edge Decisioning-Anfragen
 description: Erfahren Sie, wie Sie Kontextdaten in Edge Decisioning-Anfragen übergeben.
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# Kontextdaten und Edge Decisioning-Anfragen {#edge}
 
-# Kontextdaten und Edge-Entscheidungsanfragen {#edge}
-
-Dieser Abschnitt führt Sie durch die Übergabe von Kontextdaten in Edge-Entscheidungsanfragen und deren Verwendung in Eignungsregeln. Wir werden uns einen End-to-End-Anwendungsfall ansehen, der zeigt, wie Sie personalisierte Angebote basierend auf der Art der Geräte bereitstellen, die Kundinnen und Kunden verwenden.
+Dieser Abschnitt erläutert das Übergeben von Kontextdaten in Edge Decisioning-Anfragen und deren Verwendung in Eignungsregeln. Es wird ein End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Sie personalisierte Angebote basierend auf dem Gerätetyp bereitstellen, den Kundinnen und Kunden verwenden.
 
 Dieser Anwendungsfall umfasst mehrere wichtige Schritte:
 
-1. [Voraussetzungen einrichten](#prerequisites): Stellen Sie sicher, dass alle erforderlichen Schritte ausgeführt wurden, um Kontextdaten in Ihren Anfragen zu übergeben.
-1. [Kontextdaten in Eignungsregeln verwenden](#rule): Erstellen Sie Regeln, die basierend auf dem Gerätetyp des Benutzers bestimmen, welche Angebote angezeigt werden sollen.
+1. [Einrichten der Voraussetzungen](#prerequisites): Stellen Sie sicher, dass alle erforderlichen Schritte ausgeführt wurden, um Kontextdaten in Ihren Anfragen zu übergeben.
+1. [Verwenden von Kontextdaten in Eignungsregeln](#rule): Erstellen Sie Regeln, die basierend auf dem Gerätetyp der Benutzerinnen und Benutzer bestimmen, welche Angebote angezeigt werden sollen.
 1. [Entwerfen von gerätespezifischen Angeboten](#offers): Erstellen Sie für jeden Gerätetyp maßgeschneiderte Angebote und verknüpfen Sie sie mit den entsprechenden Regeln.
 1. [Erstellen einer Angebotssammlung](#collection): Gruppieren Sie alle Angebote in einer statischen Sammlung.
-1. [Entscheidung konfigurieren](#decision) : Erstellen Sie eine neue Entscheidung, die die Offer-Decisioning-Engine nutzt, um das beste Angebot auszuwählen, das Benutzenden je nach Gerätetyp unterbreitet werden kann.
-1. [Kontextdaten in der Edge-Entscheidungsanfrage übergeben](#request): Kontextdaten über Ihre API-Anfrage übergeben, um die entsprechenden Angebote abzurufen und sie Benutzern zu präsentieren.
+1. [Konfigurieren einer Entscheidung](#decision) : Erstellen Sie eine neue Entscheidung, die die Angebotsentscheidungs-Engine nutzt, um basierend auf ihrem Gerätetyp das beste Angebot für Benutzerinnen und Benutzer auszuwählen.
+1. [Übergeben von Kontextdaten in der Edge Decisioning-Anfrage](#request): Übergeben Sie Kontextdaten über die API-Anfrage, um die entsprechenden Angebote abzurufen und sie Benutzerinnen und Benutzern zu präsentieren.
 
 >[!BEGINSHADEBOX]
 
-Darüber hinaus können Sie Kontextdaten auch in (Rangfolgeformeln **nutzen** Ihre **dynamisch**. Sie können beispielsweise ein einzelnes Angebot erstellen und Personalisierungsfelder verwenden, um seine Darstellung auf der Grundlage der Kontextdaten anzupassen. Zeigen Sie beispielsweise ein bestimmtes Bild an, wenn der Benutzer über ein iPhone verfügt, und ein anderes für iPad-Benutzer. Weiterführende Informationen hierzu finden Sie in diesen Abschnitten:
+Darüber hinaus können Sie Kontextdaten auch in **Rangfolgeformeln** nutzen, oder um Ihre **Angebotsdarstellungen dynamisch zu personalisieren**. Sie können beispielsweise ein einzelnes Angebot erstellen und Personalisierungsfelder verwenden, um seine Darstellung basierend auf Kontextdaten anzupassen. Zeigen Sie beispielsweise ein bestimmtes Bild für iPhone-Benutzerinnen und -Benutzer an und ein anderes für iPad-Benutzerinnen und -Benutzer. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Rangfolgeformeln - Verstärken von Angeboten basierend auf Kontextdaten](../offers/ranking/create-ranking-formulas.md#context-data)
+* [Rangfolgeformeln – Verstärken von Angeboten basierend auf Kontextdaten](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalisieren von Darstellungen basierend auf Kontextdaten](../offers/offer-library/add-representations.md#context-data)
 
 >[!ENDSHADEBOX]
 
-## Voraussetzungen für die Übergabe von Kontextdaten in Edge-Entscheidungsanfragen {#prerequisites}
+## Voraussetzungen für die Übergabe von Kontextdaten in Edge Decisioning-Anfragen {#prerequisites}
 
-Anstatt den Kontext in einem eher freien Format mithilfe der Decisioning-API zu übergeben, muss die Payload des Edge Decisioning-Kontexts XDM Experience Event-kompatibel sein. Dazu muss der Kontext als Teil des „XDM-Erlebnisereignisses“ definiert werden, das für die Datenerfassung verwendet wird.
+Anstatt den Kontext in einem eher freien Format mithilfe der Decisioning-API zu übergeben, muss die Payload des Edge Decisioning-Kontexts kompatibel mit dem XDM-Erlebnisereignis sein. Dazu muss der Kontext als Teil des „XDM-Erlebnisereignisses“ definiert werden, das für die Datenerfassung verwendet wird.
 
-1. Definieren eines Erlebnisereignis-Schemas. Für diesen Anwendungsfall wird ein Schema „Angebotskontext“ erstellt und die Felder des Angebotskontexts sind Teil einer Feldergruppe „Angebotskontext“. In Wirklichkeit würde die Feldergruppe zum Erlebnisereignisschema hinzugefügt, das für die Datenerfassung verwendet wird, die mit dem Datenstrom &quot;Edge Collection Network“ verknüpft ist.
+1. Definieren Sie ein Erlebnisereignis-Schema. Für diesen Anwendungsfall wird ein „Angebotskontext“-Schema erstellt und die Felder des Angebotskontexts sind Teil einer „Angebotskontext“-Feldergruppe. In Wirklichkeit würde die Feldergruppe zum Erlebnisereignis-Schema hinzugefügt werden, das für die mit dem Datenstrom „Edge-Erfassungsnetzwerk“ verknüpfte Datenerfassung verwendet wird.
 
    >[!NOTE]
    >
    >Das Erlebnisereignis-Schema des Angebotskontexts muss Teil des Profils sein, wobei ein Feld „CUSTOMER_ID“ als primäre Identität verwendet wird.
 
-   In diesem Beispiel hat die Feldergruppe „Angebotskontext“ zwei Eigenschaften: language und deviceType. Diese Eigenschaften werden in der Ranking- und Eignungsregel des Angebots verwendet.
+   In diesem Beispiel weist die Feldergruppe „Angebotskontext“ zwei Eigenschaften auf: „language“ und „deviceType“. Diese Eigenschaften werden in den Rangfolge- und Eignungsregeln des Angebots verwendet.
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Erfahren Sie im Handbuch zum Experience-Datenmodell ([) in Adobe Experience Platform, wie Sie mit Schemas arbeiten](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
+   Im [Handbuch zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home){target="_blank"} erfahren Sie, wie Sie in Adobe Experience Platform mit Schemata arbeiten
 
-1. Erstellen Sie einen Datensatz (hier „Angebotskontext„) und stellen Sie sicher, dass er für das Profil aktiviert ist.
+1. Erstellen Sie einen Datensatz (hier „Angebotskontext“) und stellen Sie sicher, dass er für das Profil aktiviert ist.
 
-1. Erstellen Sie einen neuen Datenstrom aus dem Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** . Im Handbuch zu Datenströmen in Adobe Experience Platform erfahren Sie[ wie Sie einen Datenstrom erstellen und ](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im [Handbuch zu Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"} erfahren Sie, wie Sie Datenströme in Adobe Experience Platform erstellen und konfigurieren
 
-   Hier haben wir einen Datenstrom „Angebotskontext“ erstellt, in dem das Ereignisschema „Angebotsinhalt“ ausgewählt ist.
+   Hier wurde ein „Angebotskontext“-Datenstrom erstellt, in dem das Ereignisschema „Angebotsinhalt“ ausgewählt ist.
 
    ![](assets/context-edge-datastream.png)
 
-1. Bearbeiten Sie den neu erstellten Datenstrom und wählen Sie &quot;Adobe Experience Platform&quot; als Service und „Angebotskontext“ als Ereignisdatensatz aus.
+1. Bearbeiten Sie den neu erstellten Datenstrom und wählen Sie „Adobe Experience Platform“ als Service sowie „Angebotskontext“ als Ereignisdatensatz aus.
 
    ![](assets/context-edge-datastream-new.png)
 
-1. Speichern Sie den Datenstrom und kopieren Sie seine ID. Diese ID wird in Ihrem API-Anfrage-Endpunkt verwendet. [Erfahren Sie, wie Sie den API-Aufruf erstellen](#request)
+1. Speichern Sie den Datenstrom und kopieren Sie seine ID. Diese ID wird im Endpunkt Ihrer API-Anfrage verwendet. [Weiter Informationen zum Erstellen des API-Aufrufs](#request)
 
    ![](assets/context-edge-datastream-copy.png)
 
 ## Verwenden von Kontextdaten in Eignungsregeln {#rules}
 
-Erstellen Sie Eignungsregeln, die basierend auf dem Gerätetyp des Benutzers bestimmen, welche Angebote angezeigt werden sollen:
+Erstellen Sie Eignungsregeln, die basierend auf dem Gerätetyp der Benutzerinnen und Benutzer bestimmen, welche Angebote angezeigt werden sollen:
 
 ![](assets/context-edge-device.png)
 
 * iPhone-Geräteregel:
 
-   * Regelname: &quot;Edge Context Rule - iPhone“
+   * Regelname: „Edge-Kontextregel – iPhone“
    * Konfiguration: deviceType = &#39;iphone&#39;
    * PQL-Syntax:
 
@@ -86,7 +86,7 @@ Erstellen Sie Eignungsregeln, die basierend auf dem Gerätetyp des Benutzers bes
 
 * iPad-Geräteregel:
 
-   * Regelname: &quot;Edge Context Rule - iPad“
+   * Regelname: „Edge-Kontextregel – iPad“
    * Konfiguration: deviceType = &#39;ipad&#39;
    * PQL-Syntax
 
@@ -94,54 +94,54 @@ Erstellen Sie Eignungsregeln, die basierend auf dem Gerätetyp des Benutzers bes
      select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
      ```
 
-## Angebote erstellen {#offers}
+## Erstellen der Angebote {#offers}
 
 Erstellen Sie für jeden Gerätetyp ein Angebot und verknüpfen Sie es mit der entsprechenden zuvor erstellten Eignungsregel:
 
-* Angebot für iPhone-Benutzer:
+* Angebot für iPhone-Benutzende:
 
-   * Angebotsname : &quot;Edge-Kontext - iPhone-Angebotsinhalt“
-   * Zugeordnete Regel: &quot;Edge-Kontextregel - iPhone“
+   * Angebotsname: „Edge-Kontext – iPhone-Angebotsinhalt“
+   * Verknüpfte Regel: „Edge-Kontextregel – iPhone“
 
-* Angebot für iPad-Benutzer:
+* Angebot für iPad-Benutzende:
 
-   * Angebotsname: Edge-Kontext - iPad-Angebotsinhalt :
-   * Zugeordnete Regel: &quot;Edge-Kontextregel - iPad“
+   * Angebotsname: Edge-Kontext – iPad-Angebotsinhalt :
+   * Verknüpfte Regel: „Edge-Kontextregel – iPad“
 
-Erstellen Sie außerdem ein Fallback-Angebot (hier „Kontext-Fallback-Inhalt„), das angezeigt wird, wenn keine bestimmten Gerätekriterien erfüllt sind.
+Erstellen Sie außerdem ein Fallback-Angebot (hier „Kontext-Fallback-Inhalt“), das angezeigt wird, wenn keine bestimmten Gerätekriterien erfüllt sind.
 
 ## Hinzufügen von Angeboten in einer Sammlung {#collection}
 
-Fügen Sie die zuvor erstellten Angebote zu einer statischen Sammlung mit dem Namen hier &quot;Edge Device Context“ hinzu. In dieser Sammlung wählt die Angebotsentscheidung die geeigneten Angebote aus, die Kunden unterbreitet werden sollen.
+Fügen Sie die zuvor erstellten Angebote zu einer statischen Sammlung hinzu, die hier „Edge-Gerätekontext“ heißt. In dieser Sammlung wählt die Angebotsentscheidung die geeigneten Angebote aus, die Kundinnen und Kunden unterbreitet werden sollen.
 
 ![](assets/context-edge-collection.png)
 
-## Angebotsentscheidung erstellen {#decision}
+## Erstellen der Angebotsentscheidung {#decision}
 
-Erstellen Sie eine neue Entscheidung, die die Offer-Decisioning-Engine nutzt, um das beste Angebot auszuwählen, das Benutzenden basierend auf ihrem Gerätetyp unterbreitet werden soll, wobei das Angebot „Kontext-Fallback“ als Fallback-Angebot ausgewählt wurde.
+Erstellen Sie eine neue Entscheidung, die die Angebotsentscheidungs-Engine nutzt, um den Benutzerinnen und Benutzern basierend auf ihrem Gerätetyp mit dem als Fallback-Angebot ausgewähltem Angebot „Kontext-Fallback“ das beste Angebot zu unterbreiten.
 
 ![](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
->Darüber hinaus können Sie Kontextdaten in Rangfolgeformeln einsetzen und sie Ihrer Entscheidung zuweisen. ADD INFORMATION
+>Darüber hinaus können Sie Kontextdaten in Rangfolgeformeln nutzen und sie Ihrer Entscheidung zuweisen. INFORMATIONEN HINZUFÜGEN
 
 ## Übergeben von Kontextdaten in der Edge Decisioning-Anfrage {#request}
 
 ### Endpunkt
 
-Verwenden Sie im Endpunkt die ID des zuvor [Datenstroms](#prerequisites).
+Verwenden Sie im Endpunkt die ID des zuvor erstellten [Datenstroms](#prerequisites).
 
 `https://edge.adobedc.net/ee/irl1/v1/interact?configId=f3c47f2a-c484-4908-87a5-a82b55039e22`
 
 ### Payload
 
-Im Folgenden finden Sie ein Beispiel für eine Anfrage zur Übergabe von Kontextdaten.
+Im Folgenden finden Sie ein Beispiel für eine Anfrage, die Kontextdaten übergibt.
 
-* Informationen über den Gerätetyp werden im `xdm:ContextData` Knoten übergeben.
-* Kopieren Sie im Knoten `decisionScopes` den zuvor konfigurierten Entscheidungsumfang der [Angebotsentscheidung](#decision) und fügen Sie ihn ein.
+* Informationen über den Gerätetyp werden im Knoten `xdm:ContextData` übergeben.
+* Kopieren Sie im Knoten `decisionScopes` den Entscheidungsumfang der zuvor konfigurierten [Angebotsentscheidung](#decision) und fügen Sie ihn ein.
 
-  +++Wo der Entscheidungsumfang abgerufen werden soll
+  +++Wo der Entscheidungsumfang abgerufen werden kann
 
   ![](assets/context-edge-copy-scope.png)
 
@@ -181,7 +181,7 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage zur Übergabe von Kontext
 
 ### Antwort
 
-Hier finden Sie eine Beispielantwort:
+Im Folgenden finden Sie eine Beispielantwort:
 
 ```
 {

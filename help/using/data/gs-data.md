@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Datenverwaltung in Journey Optimizer
+title: Erste Schritte mit Daten-Management in Journey Optimizer
 description: Erfahren Sie, wie Sie mit Daten in Journey Optimizer arbeiten können
 feature: Journeys
 topic: Content Management
@@ -10,13 +10,13 @@ level: Intermediate
 keywords: Daten, Management, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit dem Daten-Management {#about-data}
+# Erste Schritte mit Daten-Management {#about-data}
 
 Reichhaltigkeit und Abdeckung von Endkundendaten definieren die Stärke und den Erfolg jeder Customer Experience-Lösung. Diese Daten sind für alle Kunden heilig und von höchstem Wert. Die Technologieauswahl ist jetzt inhärent mit einer strengen Auswertung der Datenverwaltungsfunktionen integriert.
 
@@ -77,7 +77,7 @@ Sie können die Datenflexibilität von [!DNL Journey Optimizer] nutzen, um Ihre 
 
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in [!DNL Adobe Journey Optimizer] frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.
 
-  Der Datenlebenszyklus-Arbeitsbereich ermöglicht Ihnen das Erstellen und Überwachen verschiedener Datenlebenszyklusaufgaben, einschließlich des Löschens von Verbraucheridentitäten und des Planens von Datensatzgültigkeiten. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
+  Der Arbeitsbereich „Datenlebenszyklus“ ermöglicht Ihnen, verschiedene Aufgaben zum Datenlebenszyklus zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

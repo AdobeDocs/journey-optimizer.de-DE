@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Push-Benachrichtigung überprüfen und senden {#send-push}
+# Überprüfen und Senden Ihrer Push-Benachrichtigung {#send-push}
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## Suche {#unified-search}
 
-Verwenden Sie in der Adobe Journey Optimizer-Benutzeroberfläche die Funktion Einheitliche Adobe Experience Cloud-Suche in der Mitte der oberen Leiste, um Assets, Journey, Datensätze und mehr in Ihren Sandboxes zu finden.
+Sie können auf der Benutzeroberfläche von Adobe Journey Optimizer die einheitliche Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys, Datensätze und mehr in Ihren Sandboxes zu finden.
 
 Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. In den Ergebnissen werden auch Hilfeartikel zu den eingegebenen Keywords angezeigt.
 
@@ -33,7 +33,7 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach G
 
 In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren.
 
-Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach verschiedenen Kriterien filtern: Sie können festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
+Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können etwa festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
 
 Darüber hinaus können Sie einheitliche Tags verwenden, um eine Liste nach den einem Objekt zugewiesenen Tags zu filtern. Aktuell sind Tags für Journeys und Kampagnen verfügbar. [Erfahren Sie, wie Sie mit Tags arbeiten.](#tags)
 
@@ -41,7 +41,7 @@ Darüber hinaus können Sie einheitliche Tags verwenden, um eine Liste nach den 
 >
 >Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Die Personalisierung wird für jeden Benutzer individuell gespeichert.
 
-In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
+In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
 ![](assets/journey4.png)
 
@@ -67,7 +67,7 @@ Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. 
 * [Fragmente](../content-management/fragments.md)
 * [Journeys](../building-journeys/journey-properties.md)
 * [Landingpages](../landing-pages/create-lp.md)
-* [Abonnementlisten](../landing-pages/subscription-list.md)
+* [Abonnement-Listen](../landing-pages/subscription-list.md)
 * [Vorlagen](../content-management/content-templates.md)
 
 Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.

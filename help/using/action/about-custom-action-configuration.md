@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -139,11 +139,11 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Header werden gemäß den folgenden Parsing-Regeln validiert. Weitere Informationen finden Sie in [dieser Dokumentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Transportsicherheitsschicht {#tls}
+## Transport Security Layer {#tls}
 
-### Unterstützung des TLS-Protokolls {#tls-protocol-support}
+### TLS-Protokoll-Unterstützung {#tls-protocol-support}
 
-Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardmäßig TLS 1.3 . Wenn ein Client auch TLS 1.3 unterstützt, erfolgt die Kommunikation über TLS 1.3. Andernfalls kann der TLS-Verhandlungsprozess auf TLS 1.2 zurückfallen.
+Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardmäßig TLS 1.3. Wenn ein Client ebenfalls TLS 1.3 unterstützt, erfolgt die Kommunikation über TLS 1.3. Andernfalls kann der TLS-Aushandlungsprozess auf TLS 1.2 zurückfallen.
 
 ### mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
 

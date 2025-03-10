@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version Februar &#39;25]
+>[!TAB Version Februar 2025]
 
-Die Februarversion ist jetzt live! In den Versionshinweisen finden Sie neue Funktionen und Verbesserungen.
+Die Februar-Version ist jetzt live! Entdecken Sie neue Funktionen und Verbesserungen in den Versionshinweisen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB KI-Assistent]
 
-✨ Tauchen Sie mit unserer Live-Funktionsvorschau des [AI Assistant](../help/using/content-management/gs-generative.md) in eine praktische Erfahrung ein, damit Sie die Funktionen des Assistenten aus erster Hand kennenlernen und seine Möglichkeiten voll und ganz verstehen können.
+✨ Machen Sie sich über unsere Live-Funktionsvorschau auf praktische Weise mit dem [KI-Assistenten](../help/using/content-management/gs-generative.md) vertraut. Die Vorschau bietet Ihnen die Möglichkeit, die Funktionen des Assistenten selbst zu entdecken und seine Fähigkeiten vollständig zu verstehen.
 
 [![Weitere Informationen](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

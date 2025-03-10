@@ -10,13 +10,13 @@ level: Beginner, Intermediate
 keywords: vertikale Ausrichtung, E-Mail-Editor, Abstand
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Anpassen der senkrechten Ausrichtung und des Abstands {#alignment-and-padding}
+# Anpassen der vertikalen Ausrichtung und des Paddings {#alignment-and-padding}
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
