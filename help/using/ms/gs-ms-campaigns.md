@@ -5,10 +5,10 @@ title: Erste Schritte mit mehrstufigen Kampagnen
 description: Erfahren Sie, wie Sie mit mehrstufigen Kampagnen beginnen
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 27%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,12 @@ Mehrstufige Kampagnen verbessern Adobe Journey Optimizer durch die Einführung r
 
 **Inhaltsverzeichnis**
 
-* Erste Schritte mit mehrstufigen Kampagnen
-* [Grundprinzipien](gs-campaign-creation.md)
-* [Schutzmechanismen und Einschränkungen](guardrails.md)
-* [Erstellen der Kampagne](create-ms-campaign.md)
-* [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-* [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md)
+* [Grundprinzipien](gs-campaign-creation.md) - [Leitplanken und Einschränkungen](guardrails.md)
+* [Kampagne erstellen](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md)
 * [Starten und Überwachen von Kampagnen](start-monitor-campaigns.md)
-* [Ereignisvariablen in mehrstufigen Kampagnen](event-variables.md)
-* Arbeiten mit mehrstufigen Kampagnenaktivitäten
-   * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
-   * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
+* [Ereignisvariablen](event-variables.md)
+* [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten orchestrieren](orchestrate-activities.md)
+* Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
 
 >[!ENDSHADEBOX]
 
