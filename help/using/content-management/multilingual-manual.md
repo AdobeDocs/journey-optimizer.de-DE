@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
@@ -30,9 +30,9 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der ma
 
 1. [Fügen Sie Gebietsschemata hinzu (optional).](multilingual-locale.md)
 
-1. [Erstellen Sie Spracheinstellungen.](#create-language-settings)
+1. [Erstellen Sie Spracheinstellungen.](#language-settings)
 
-1. [Erstellen Sie einen mehrsprachigen Inhalt.](#create-a-multilingual-campaign)
+1. [Erstellen Sie einen mehrsprachigen Inhalt.](#create-multilingual-campaign)
 
 ## Erstellen Sie Spracheinstellungen. {#language-settings}
 
@@ -48,7 +48,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
 1. Wählen Sie die mit diesen Einstellungen verknüpften **[!UICONTROL Gebietsschemata]**. Sie können maximal 50 Gebietsschemata hinzufügen.
 
-   Wenn ein **[!UICONTROL Gebietsschema]** fehlt, können Sie es über das Menü **[!UICONTROL Übersetzung]** oder per API manuell im Voraus erstellen. Siehe [Erstellen eines neuen Gebietsschemas](#create-locale).
+   Wenn ein **[!UICONTROL Gebietsschema]** fehlt, können Sie es über das Menü **[!UICONTROL Übersetzung]** oder per API manuell im Voraus erstellen. Siehe [Erstellen eines neuen Gebietsschemas](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -155,7 +155,7 @@ Nach der Einrichtung Ihrer mehrsprachigen Inhalte können Sie Ihre Kampagne oder
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Klicken Sie auf **[!UICONTROL Sprachen hinzufügen]** und wählen Sie Ihre zuvor erstellten **[!UICONTROL Spracheinstellungen]** aus. [Weitere Informationen](#create-language-settings)
+1. Klicken Sie auf **[!UICONTROL Sprachen hinzufügen]** und wählen Sie Ihre zuvor erstellten **[!UICONTROL Spracheinstellungen]** aus. [Weitere Informationen](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
