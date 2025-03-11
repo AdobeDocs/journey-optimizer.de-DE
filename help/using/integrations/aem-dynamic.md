@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
+source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynamic Media-Ausgabedarstellungen in Journey Optimizer nahtlos auswählen und verwenden können. Änderungen an Assets in Adobe Experience Manager werden sofort in Ihren Journey Optimizer-Inhalten übernommen, sodass stets die aktuellen Versionen verwendet werden, ohne dass manuelle Aktualisierungen erforderlich sind.
 
-Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media).
+Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 ## Hinzufügen und Verwalten von Dynamic Media {#dynamic-media}
 
