@@ -6,20 +6,21 @@ description: Grundlegende Prinzipien mehrstufiger Kampagnen mit Adobe Journey Op
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 28%
+source-wordcount: '464'
+ht-degree: 25%
 
 ---
 
 # Grundlegende Prinzipien einer koordinierten Kampagne {#ms-campaign-creation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="Mehrstufige Kampagne"
+>abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der mehrstufigen Kampagnen zugreifen, ihren aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und eine neue mehrstufige Kampagne erstellen."
+
 Mit Adobe Journey Optimizer können Sie mehrstufige Kampagnen in eine visuelle Arbeitsfläche integrieren, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
-
-## Erstellen einer Abfrage
-
-## Personalization-Richtlinien
 
 ## Was verbirgt sich in einer mehrstufigen Kampagne? {#gs-ms-campaign-inside}
 
@@ -43,7 +44,23 @@ Die wichtigsten Schritte zum Erstellen einer mehrstufigen Kampagne sind:
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
 
-## Status und Lebenszyklus
+## Zugriff auf mehrstufige Kampagnen
+
+Navigieren **[!UICONTROL im Menü]** zur Registerkarte Mehrstufige Kampagnen, um auf die vollständige Liste der mehrstufigen Kampagnen zuzugreifen.
+
+Jede mehrstufige Kampagne in der Liste zeigt Informationen über ihren aktuellen [Status](#status), das letzte Mal, wann sie ausgeführt oder geändert wurde, sowie das Datum und die Uhrzeit der nächsten geplanten Ausführung an.
+
+Sie können die angezeigten Spalten anpassen, indem Sie auf das Symbol **[!UICONTROL Spalte für ein benutzerdefiniertes Layout konfigurieren]** in der oberen rechten Ecke der Liste klicken. Auf diese Weise können Sie zusätzliche Informationen zur Liste hinzufügen, z. B. die letzte fehlerhafte Aktivität für jede mehrstufige Kampagne oder die angewendete Zielgruppendimension.
+
+Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die mehrstufigen Kampagnen so filtern, dass nur die Kampagnen angezeigt werden, die zu einer Kampagne gehören oder innerhalb eines bestimmten Datumsbereichs verarbeitet wurden.
+
+Um eine mehrstufige Kampagne zu duplizieren oder zu löschen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Duplizieren]** oder **[!UICONTROL Löschen]**.
+
+>[!NOTE]
+>
+>Wenn eine mehrstufige Kampagne ausgeführt wird, können Sie sie duplizieren, jedoch nicht löschen.
+
+## Status und Lebenszyklus {#status}
 
 Kampagnen können mehrere Status aufweisen:
 
@@ -53,3 +70,7 @@ Kampagnen können mehrere Status aufweisen:
 * **[!UICONTROL Ausgesetzt]**: Die mehrstufige Kampagne wurde angehalten.
 * **[!UICONTROL Fehlerhaft]**: Bei der mehrstufigen Kampagne ist ein Fehler aufgetreten. Öffnen Sie die mehrstufige Kampagne und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben.
 
+
+## Erstellen einer Abfrage
+
+## Personalization-Richtlinien
