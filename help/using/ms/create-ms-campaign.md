@@ -1,25 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer mehrstufigen Kampagne mit Journey Optimizer
+title: Erstellen mehrstufiger Kampagnen mit Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer eine mehrstufige Kampagne erstellen
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 12%
+source-wordcount: '706'
+ht-degree: 13%
 
 ---
 
-
-# Erstellen der mehrstufigen Kampagne {#create-first-campaign}
+# Erstellen einer orchestrierten Kampagne {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Liste der mehrstufigen Kampagnen"
 >abstract="Die **mehrstufig**-Registerkarte listet alle mehrstufigen Kampagnen auf. Klicken Sie auf den Namen einer mehrstufigen Kampagne, um sie zu bearbeiten. Verwenden Sie die **Erstellen einer mehrstufigen Kampagne**, um eine neue mehrstufige Kampagne hinzuzufügen."
 
+## Voraussetzungen
+
+### Berechtigungen
+
+### Einstellungen
+
+Überblick über neue Admin-Einstellungen > Schemata, Ausführungsfelder, Zusammenführungsrichtlinie. [Weitere Informationen](ms-schemas.md)
+
+
+## Erstellungsetappen
 
 Gehen Sie wie folgt vor, um eine mehrstufige Kampagne zu erstellen:
 

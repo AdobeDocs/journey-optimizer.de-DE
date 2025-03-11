@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mehrstufige Kampagnenereignisvariablen
+title: Arbeiten mit Ereignisvariablen in mehrstufigen Kampagnen
 description: Erfahren Sie, wie Sie Ereignisvariablen in Ihren mehrstufigen Kampagnen nutzen können
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 64%
 
 ---
 
-# Mehrstufige Kampagnenereignisvariablen {#event-variables}
+# Arbeiten mit Ereignisvariablen {#event-variables}
 
 Einige mehrstufige Kampagnenaktivitäten ermöglichen es Ihnen, im Ausdruckseditor Skripte zu bearbeiten, um bestimmte Aktionen durchzuführen, z. B. das Abrufen von Daten aus vorherigen Aktivitäten, die Erstellung von Bedingungen oder die Berechnung von Dateinamen basierend auf Ereignisvariablen.
 

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Mehrstufige Kampagnen {#ms-campaigns}
    + [Erste Schritte mit mehrstufigen Kampagnen](using/ms/gs-ms-campaigns.md)
+   + [Grundprinzipien](using/ms/gs-campaign-creation.md)
+   + [Schutzmechanismen und Einschränkungen](using/ms/guardrails.md)
+   + Konfiguration {#ms-config}
+      + [Schemata](using/ms/ms-schemas.md)
+      + [Arbeiten mit Ereignisvariablen](using/ms/event-variables.md)
    + Erstellen Ihres ersten mehrstufigen {#create-ms-campaign}
-      + [Grundprinzipien](using/ms/gs-campaign-creation.md)
-      + [Schutzmechanismen und Einschränkungen](using/ms/guardrails.md)
-      + [Erstellen der Kampagne](using/ms/create-ms-campaign.md)
+      + [Erstellen einer orchestrierten Kampagne](using/ms/create-ms-campaign.md)
       + [Orchestrieren von Aktivitäten](using/ms/orchestrate-activities.md)
       + [Kampagneneinstellungen konfigurieren](using/ms/ms-campaign-settings.md)
       + [Starten und Überwachen von Kampagnen](using/ms/start-monitor-campaigns.md)
-      + [Ereignisvariablen in mehrstufigen Kampagnen](using/ms/event-variables.md)
+      + [Personalisierung verwalten](using/ms/ms-personalization.md)
    + Mehrstufige Kampagnenaktivitäten {#design-campaigns}
       + [Über mehrstufige Kampagnenaktivitäten](using/ms/activities/about-activities.md)
       + [Und-Verknüpfung](using/ms/activities/and-join.md)

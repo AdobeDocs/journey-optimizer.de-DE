@@ -5,10 +5,11 @@ title: Erstellen mehrstufiger Kampagnen mit Journey Optimizer
 description: Erfahren Sie, wie Sie mehrstufige Kampagnen mit Journey Optimizer erstellen
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 14%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -33,16 +34,6 @@ Um eine mehrstufige Kampagne zu duplizieren oder zu löschen, klicken Sie auf di
 >[!NOTE]
 >
 >Sie können eine laufende mehrstufige Kampagne duplizieren, sie jedoch nicht löschen.
-
-## Status von Workflows {#status}
-
-Workflows können mehrere Status aufweisen:
-
-* **[!UICONTROL Entwurf]**: Die mehrstufige Kampagne wurde erstellt und gespeichert.
-* **[!UICONTROL In Bearbeitung]**: Die mehrstufige Kampagne wird derzeit ausgeführt.
-* **[!UICONTROL Beendet]**: Die mehrstufige Kampagnenausführung ist abgeschlossen.
-* **[!UICONTROL Ausgesetzt]**: Die mehrstufige Kampagne wurde angehalten.
-* **[!UICONTROL Fehlerhaft]**: Bei der mehrstufigen Kampagne ist ein Fehler aufgetreten. Öffnen Sie die mehrstufige Kampagne und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben.
 
 
 ## Mehrstufige Kampagnenvorlagen {#templates}
