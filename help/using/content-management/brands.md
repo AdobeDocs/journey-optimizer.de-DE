@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 60%
+ht-degree: 73%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
 >title="Erste Schritte mit Marken"
->abstract="Erstellen und passen Sie Ihre eigenen Marken an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die dem Stil und der Stimme Ihrer Marke entsprechen."
+>abstract="Erstellen Ihre eigenen Marken und passen Sie diese an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die dem Stil und der Sprache Ihrer Marke entsprechen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
->title="Marke auswählen"
+>title="Auswählen Ihrer Marke"
 >abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
 
 >[!CONTEXTUALHELP]
@@ -34,7 +34,7 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Bewertung der Markenausrichtung"
+>title="Markenausrichtungswert"
 >abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 
@@ -79,7 +79,7 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="Erstellen Ihrer Marke"
->abstract="Geben Sie Ihren Markennamen ein und laden Sie Ihre Datei mit den Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Pflege der Identität Ihrer Marke erleichtert."
+>abstract="Geben Sie Ihren Markennamen ein und laden Sie die Datei mit Ihren Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Aufrechterhaltung der Identität Ihrer Marke erleichtert."
 
 Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details entweder selbst eingeben oder Ihr Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
 
