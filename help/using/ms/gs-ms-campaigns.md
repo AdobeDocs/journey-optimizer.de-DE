@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit mehrstufigen Kampagnen beginnen
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -19,8 +19,7 @@ ht-degree: 19%
 
 **Inhaltsverzeichnis**
 
-* Erste Schritte mit mehrstufigen Kampagnen
-* [Grundsätze](gs-campaign-creation.md)
+* Erste Schritte mit mehrstufigen Kampagnen - [Grundprinzipien](gs-campaign-creation.md)
 * Konfiguration: [Arbeiten mit Schemata](ms-schemas.md) - [Arbeiten mit Ereignisvariablen](event-variables.md)
 * Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Kampagnen starten und überwachen](start-monitor-campaigns.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten koordinieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
