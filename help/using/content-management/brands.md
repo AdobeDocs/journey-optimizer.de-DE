@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 73%
+source-wordcount: '640'
+ht-degree: 71%
 
 ---
 
@@ -37,6 +37,30 @@ ht-degree: 73%
 >title="Markenausrichtungswert"
 >abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Farbbewertung"
+>abstract="Farbbewertung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Schriftartenbewertung"
+>abstract="Schriftartenbewertung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Logos-Bewertung"
+>abstract="Logos-Bewertung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Bildbewertung"
+>abstract="Bildbewertung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Schreibstil-Bewertung"
+>abstract="Schreibstil-Bewertung"
 
 >[!AVAILABILITY]
 >
