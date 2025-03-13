@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 97%
+source-wordcount: '1134'
+ht-degree: 96%
 
 ---
 
@@ -20,8 +20,12 @@ ht-degree: 97%
 
 ## Journey-Dashboard {#dashboard-jo}
 
-Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="Tabellen- und Zeitleisten-Journey-Ansichten"
+>abstract="Tabellen- und Zeitleisten-Journey-Ansichten"
 
+Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
 
 * Auf der Registerkarte **[!UICONTROL Übersicht]** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt.
 
@@ -35,7 +39,6 @@ Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. 
   >[!NOTE]
   >
   >Dieses Dashboard berücksichtigt die Journeys mit Traffic in den letzten 24 Stunden. Es werden nur die Journeys angezeigt, auf die Sie zugreifen können. Metriken werden alle 30 Minuten aktualisiert, aber nur dann, wenn neue Daten verfügbar sind.
-
 
 * Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können nach Journeys suchen, Filter verwenden und für jedes Element grundlegende Aktionen ausführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 

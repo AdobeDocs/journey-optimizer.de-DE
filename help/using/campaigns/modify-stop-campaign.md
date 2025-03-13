@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,11 @@ Sobald eine Kampagne aktiviert wurde, kann sie jederzeit geändert oder gestoppt
 Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, wenn neue Kampagnen erstellt werden sollen, und gestoppte oder abgeschlossene Kampagnen archivieren.
 
 ## Zugriff auf Kampagnen {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Kampagnentabelle und Zeitleisten -Ansichten"
+>abstract="Tabellen- und Zeitleisten-Ansichten für Kampagnen"
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 
