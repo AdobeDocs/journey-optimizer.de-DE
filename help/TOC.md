@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '2274'
 ht-degree: 95%
@@ -317,10 +317,10 @@ ht-degree: 95%
          + [Verwalten von Code-basierten Erlebnissen](using/code-based/publish-code-based.md)
    + Inhaltskarten{#content-card}
       + [Erste Schritte mit Inhaltskarten](using/content-card/get-started-content-card.md)
-      + [Konfigurieren der Unterstützung für Inhaltskarten im Web SDK](using/content-card/content-card-lp.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}
          + [Voraussetzungen für Inhaltskarten](using/content-card/content-card-configuration-prereq.md)
          + [Konfigurieren eines Inhaltskartenkanals in Journey Optimizer](using/content-card/content-card-configuration.md)
+         + [Konfigurieren der Unterstützung für Inhaltskarten in Mobile SDK](using/content-card/content-card-lp.md)
          + [Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK](using/content-card/content-card-configuration-sdk.md)
       + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
       + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
