@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
-workflow-type: ht
-source-wordcount: '1723'
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
+workflow-type: tm+mt
+source-wordcount: '1682'
 ht-degree: 100%
 
 ---
@@ -157,9 +157,9 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_expiry-date.png)
 
-1. Definieren Sie im Abschnitt **[!UICONTROL Zusätzliche Daten]** einen oder mehrere Schlüssel und die zugehörigen Parameterwerte. Sie können diese Schlüssel im Inhalt Ihrer primären Seite und der Unterseiten mithilfe des [Personalisierungseditors](../personalization/personalization-build-expressions.md) verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Wenn Sie beim [Erstellen der Primärseite](design-lp.md) eine oder mehrere Abonnement-Listen ausgewählt haben, werden diese im Abschnitt **[!UICONTROL Abonnement-Liste]** angezeigt.
 
