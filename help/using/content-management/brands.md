@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
 >title="Erste Schritte mit Marken"
->abstract="Erstellen Ihre eigenen Marken und passen Sie diese an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die dem Stil und der Sprache Ihrer Marke entsprechen."
+>abstract="Erstellen Sie Ihre eigenen Marken und passen Sie diese an, um Ihre einzigartige visuelle und verbale Identität zu definieren. Gleichzeitig können Sie das Generieren von Content vereinfachen, der dem Stil und der Stimme Ihrer Marke entspricht."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="Auswählen Ihrer Marke"
->abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
+>abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass der gesamte KI-generierte Content auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="Markenauswahl"
->abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihre Inhalte in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Markenidentität erstellt werden und die Konsistenz und Markenintegrität gewahrt bleiben."
+>abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihr Content in Übereinstimmung mit deren spezifischen Richtlinien, Standards und Identität erstellt wird, sodass Konsistenz und Markenintegrität gewahrt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Markenausrichtungswert"
->abstract="Der Markenausrichtungswert misst, wie gut Ihre Inhalte den Richtlinien deiner Marke entsprechen, um die Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Der Markenausrichtungswert misst, wie gut Ihr Content den Richtlinien Ihrer Marke entspricht, um die Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -68,7 +68,7 @@ ht-degree: 88%
 
 Markenrichtlinien sind ein detaillierter Satz an Regeln und Standards, die die visuelle und sprachliche Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
 
-In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails manuell einzugeben und zu organisieren oder Dokumente zu Markenrichtlinien hochzuladen, um Informationen automatisch zu extrahieren.
+In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails manuell einzugeben und zu organisieren. Außerdem können Sie Dokumente zu Markenrichtlinien hochladen, um Informationen automatisch zu extrahieren.
 
 ## Zugriff auf Marken {#generative-access}
 
@@ -103,9 +103,9 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="Erstellen Ihrer Marke"
->abstract="Geben Sie Ihren Markennamen ein und laden Sie die Datei mit Ihren Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Aufrechterhaltung der Identität Ihrer Marke erleichtert."
+>abstract="Geben Sie Ihren Markennamen ein und laden Sie Ihre Datei mit den Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details und erleichtert so die Wahrung Ihrer Markenidentität."
 
-Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details entweder selbst eingeben oder Ihr Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
+Zum Erstellen und Verwalten Ihrer Markenrichtlinie können Sie die Details entweder selbst eingeben oder Ihr Dokument mit den Markenrichtlinien hochladen, damit die Informationen automatisch extrahiert werden:
 
 1. Klicken Sie im Menü **[!UICONTROL Marken]** auf **[!UICONTROL Marke erstellen]**.
 
@@ -113,9 +113,9 @@ Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihre Marke ein.
 
-1. Ziehen oder wählen Sie eine Datei, um Ihre Markenrichtlinien hochzuladen und automatisch relevante Markeninformationen zu extrahieren. Klicken Sie auf **[!UICONTROL Marke erstellen]**.
+1. Ziehen Sie Ihre Datei per Drag-and-Drop oder wählen Sie sie aus, um Ihre Markenrichtlinien hochzuladen und relevante Markeninformationen automatisch zu extrahieren. Klicken Sie auf **[!UICONTROL Marke erstellen]**.
 
-   Der Informationsextraktionsprozess beginnt jetzt. Beachten Sie, dass dieser Vorgang mehrere Minuten dauern kann.
+   Der Prozess zur Informationsextraktion beginnt jetzt. Beachten Sie, dass der Prozess mehrere Minuten in Anspruch nehmen kann.
 
    ![](assets/brands-2.png)
 
