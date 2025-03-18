@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Datei laden“
 description: Erfahren Sie, wie Sie die Aktivität „Datei laden“ in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -105,7 +106,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="Zieldatenbank"
->abstract="Wenn Sie auf eine **[!UICONTROL Datei laden]**-Aktivität zugreifen, die bereits eingerichtet wurde, ist ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** verfügbar, falls Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben."
+>abstract="Beim Zugreifen auf eine Aktivität **[!UICONTROL Datei laden]**, die bereits eingerichtet wurde, ist ein zusätzlicher Abschnitt **[!UICONTROL Zieldatenbank]** verfügbar, wenn Sie die Aktivität zum Hochladen der Datei in eine externe Datenbank konfiguriert haben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

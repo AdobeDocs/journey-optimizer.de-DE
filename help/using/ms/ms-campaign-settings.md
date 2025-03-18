@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren von mehrstufigen Kampagneneinstellungen
+title: Konfigurieren der Einstellungen für eine mehrstufige Kampagne
 description: Erfahren Sie, wie Sie mehrstufige Kampagneneinstellungen mit Adobe Journey Optimizer konfigurieren
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1082'
-ht-degree: 22%
+ht-degree: 41%
 
 ---
 
-
-# Konfigurieren von mehrstufigen Kampagneneinstellungen {#workflow-settings}
+# Konfigurieren der Einstellungen für eine mehrstufige Kampagne {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Mehrstufige Kampagneneigenschaften"
->abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zur Erstellung der mehrstufigen Kampagne verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt **Zusätzliche Optionen**, um weitere Einstellungen wie den internen Namen einer mehrstufigen Kampagne, ihren Ordner, ihre Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
+>title="Eigenschaften mehrstufiger Kampagnen"
+>abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen der Komposition verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt **Zusätzliche Optionen**, um weitere Einstellungen wie den internen Namen der mehrstufigen Kampagne, ihre Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
 Bei der Erstellung einer mehrstufigen Kampagne oder der Orchestrierung mehrstufiger Kampagnenaktivitäten auf der Arbeitsfläche können Sie auf die erweiterten Einstellungen für die mehrstufige Kampagne zugreifen. Sie können beispielsweise eine bestimmte Zeitzone für die mehrstufige Kampagne festlegen, verwalten, wie sich die mehrstufige Kampagne im Fehlerfall verhält, oder die Verzögerung verwalten, nach der der mehrstufige Kampagnenverlauf bereinigt werden soll.
 
@@ -26,12 +26,12 @@ Diese Einstellungen sind in der bei der Erstellung der mehrstufigen Kampagne aus
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Mehrstufige Kampagneneigenschaften {#properties}
+## Eigenschaften mehrstufiger Kampagnen {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Mehrstufige Kampagneneigenschaften"
->abstract="Dieser Abschnitt enthält allgemeine mehrstufige Kampagneneigenschaften, auf die auch bei der Erstellung der mehrstufigen Kampagne zugegriffen werden kann. Sie können die Vorlage auswählen, die zur Erstellung der mehrstufigen Kampagne verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt Zusätzliche Optionen , um bestimmte Einstellungen wie den mehrstufigen Kampagnenspeicherordner oder die Zeitzone zu konfigurieren."
+>title="Eigenschaften mehrstufiger Kampagnen"
+>abstract="Dieser Abschnitt enthält allgemeine Eigenschaften für mehrstufige Kampagnen, auf die auch beim Erstellen der mehrstufigen Kampagne zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen der mehrstufigen Kampagne verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt „zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem die mehrstufige Kampagne gespeichert wird, oder die Zeitzone."
 
 Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, die beim Erstellen einer mehrstufigen Kampagne konfiguriert werden können. Um auf die Eigenschaften einer bestehenden mehrstufigen Kampagne zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Einstellungen]**, die in der Aktionsleiste über der mehrstufigen Kampagnen-Arbeitsfläche verfügbar ist.
 
@@ -58,7 +58,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Segmentierungseinstellungen"
->abstract="In diesem Abschnitt können Sie die Zielgruppendimension auswählen, um Profile in der mehrstufigen Kampagne auszuwählen, und festlegen, dass die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden. Diese Option sollte nur zu Testzwecken verwendet werden und darf in einer mehrstufigen Produktionskampagne nie aktiviert werden."
+>abstract="In diesem Bereich können Sie die Zielgruppendimension auswählen, um Profile in der mehrstufigen Kampagne auszuwählen, und entscheiden, ob die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden sollen. Diese Option sollte nur zu Testzwecken verwendet werden und darf nie in einer mehrstufigen Produktionskampagne aktiviert werden."
 
 * **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
@@ -71,7 +71,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Ausführungseinstellungen"
->abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. die Anzahl der Tage, die der mehrstufige Kampagnenverlauf gespeichert wird."
+>abstract="In diesem Abschnitt können Sie die Einstellungen für die Ausführung des Workflows konfigurieren, beispielsweise für wie viele Tage der Verlauf der mehrstufigen Kampagne gespeichert wird."
 
 * **[!UICONTROL Verlauf in Tagen]**: Gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf enthält Elemente im Zusammenhang mit der mehrstufigen Kampagne: Protokolle, Aufgaben, Ereignisse (technische Objekte, die mit dem mehrstufigen Kampagnenvorgang verknüpft sind). Der Standardwert bei nativen mehrstufigen Kampagnenvorlagen beträgt 30 Tage. Die Bereinigung des Verlaufs erfolgt durch die mehrstufige technische Kampagne für die Datenbankbereinigung, die standardmäßig täglich ausgeführt wird
 
@@ -93,7 +93,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt können Sie festlegen, wie die mehrstufige Kampagne Fehler während ihrer Ausführung handhaben soll. Sie können den Prozess anhalten, eine bestimmte Anzahl von Fehlern ignorieren oder die mehrstufige Kampagnenausführung stoppen."
+>abstract="In diesem Abschnitt können Sie definieren, wie die mehrstufige Kampagne mit Fehlern während ihrer Ausführung umgehen soll. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der mehrstufigen Kampagne gestoppt werden soll."
 
 * **[!UICONTROL Umgang mit Fehlern]** In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine mehrstufige Kampagnenaufgabe Fehler aufweist. Es gibt drei mögliche Optionen:
 
@@ -106,4 +106,3 @@ Mögliche Werte sind:
 ## Initialisierungsskript {#initialization-script}
 
 Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie den auszuführenden Code-Ausschnitt ein. Das Skript wird aufgerufen, wenn die mehrstufige Kampagne ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](event-variables.md).
-

@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Aktivität Zielgruppe aufbauen in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 61%
+ht-degree: 79%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Mit **Aktivität „Zielgruppe aufbauen** können Sie die Zielgruppe definieren, die in die mehrstufige Kampagne eintreten wird. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert."
+>abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in die mehrstufige Kampagne aufgenommen wird. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert."
 
-Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Audience definieren, die in die mehrstufige Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert.
+Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Audience definieren, die in die mehrstufige Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 

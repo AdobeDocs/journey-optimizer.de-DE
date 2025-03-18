@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
 workflow-type: tm+mt
 source-wordcount: '1410'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -91,7 +91,7 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Automatisch vervollständigen"
->abstract="Durch Aktivieren dieser Option kann das System während der Eingabe automatisch Code vorschlagen und vervollständigen. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
+>abstract="Durch Aktivieren dieser Option kann das System während der Eingabe automatisch Code vorschlagen und vervollständigen. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn die Option deaktiviert ist, stellt der Editor stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
 Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+` , um es zum Ausdruck hinzuzufügen.
 
@@ -115,7 +115,7 @@ Verfügbare Optionen sind:
 
 1. **[!UICONTROL Suchen]**/**[!UICONTROL Suchen und Ersetzen]**: Durchsuchen Sie Ihren Ausdruck und ersetzen Sie automatisch Teile des Codes.
 1. **[!UICONTROL Rückgängig]**/**[!UICONTROL Wiederholen]**: Rückgängig/Wiederholen des letzten Vorgangs.
-1. **[!UICONTROL Automatisch vervollständigen]**: schlägt Code während der Eingabe automatisch vor und vervollständigt ihn. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit.
+1. **[!UICONTROL Automatisch vervollständigen]**: schlägt Code während der Eingabe automatisch vor und vervollständigt ihn. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn die Option deaktiviert ist, stellt der Editor stattdessen die automatische Vervollständigung von nativem HTML-Code bereit.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

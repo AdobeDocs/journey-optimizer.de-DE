@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität Verzweigung in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Speichern einer Zielgruppe"
->abstract="Verwenden Sie diese Aktivität, um eine vorhandene Audience zu aktualisieren oder eine neue Audience aus der Population zu erstellen, die im Vorfeld in der mehrstufigen Kampagne berechnet wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
+>abstract="Mit dieser Aktivität können Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der Population erstellen, die im Vorfeld in der mehrstufigen Kampagne ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

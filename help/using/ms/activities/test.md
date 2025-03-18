@@ -5,10 +5,11 @@ title: Verwenden der Testaktivität in mehrstufigen Kampagnen
 description: Erfahren Sie, wie Sie die Test -Aktivität verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 64%
+ht-degree: 80%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Bedingungen"
->abstract="Die Aktivität **Test** kann mehrere ausgehende Transitionen aufweisen. Während der mehrstufigen Kampagnenausführung wird jede Bedingung sequenziell getestet, bis eine davon erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird die mehrstufige Kampagne entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, stoppt die mehrstufige Kampagne an dieser Stelle."
+>abstract="Die Aktivität **Test** kann mehrere ausgehende Transitionen aufweisen. Während der Ausführung der mehrstufigen Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird die Kampagne entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, wird die mehrstufige Kampagne an dieser Stelle beendet."
 
 Die Aktivität **Test** ist eine Aktivität zur **Flusskontrolle**. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen.
 
@@ -42,7 +43,7 @@ Führen Sie diese Schritte aus, um die Aktivität **Test** zu konfigurieren:
 
 1. Sie können mehrere Ausgabe-Transitionen zu einer **[!UICONTROL Test]**-Aktivität hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie die Bezeichnung und die zugehörige Bedingung für jede Transition.
 v
-1. Während der mehrstufigen Kampagnenausführung wird jede Bedingung sequenziell getestet, bis eine davon erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die mehrstufigen Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle beendet.
+1. Während der Ausführung der mehrstufigen Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die mehrstufigen Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle beendet.
 
 ## Beispiel {#example}
 

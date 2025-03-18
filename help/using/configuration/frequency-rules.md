@@ -14,7 +14,7 @@ googlebot: noindex
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 100%
 
@@ -24,30 +24,30 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
->title="Verfahrensregeln"
+>title="Geschäftsregeln"
 >abstract="Regeln zur Nachrichtenhäufigkeit sind eine Art Geschäftsregel, die die Anzahl der Nachrichtenempfänge durch Benutzende bzw. ihre Eintritte in Journeys über einen oder mehrere Kanäle hinweg begrenzt. Diese kanalübergreifenden Regeln schließen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen aus."
 
 Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzende über einen oder mehrere Kanäle eine Nachricht erhalten oder in eine Journey eintreten. Regeln zur Nachrichtenhäufigkeit, mit denen Profile, die zu oft angesprochen wurden, automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
-Für eine Marke könnte eine Regel beispielsweise lauten, Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Hierfür können Sie eine Verfahrensregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+Für eine Marke könnte eine Regel beispielsweise lauten, Kundinnen und Kunden pro Monat maximal vier Marketing-Nachrichten zu senden. Hierfür können Sie eine Geschäftsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->Verfahrensregeln unterscheiden sich von der Opt-out-Verwaltung, die es den Benutzenden ermöglicht, sich vom Erhalt von Mitteilungen einer Marke abzumelden. [Weitere Informationen](../privacy/opt-out.md#opt-out-management)
+>Geschäftsregeln unterscheiden sich von der Opt-out-Verwaltung, die es den Benutzenden ermöglicht, sich vom Erhalt von Mitteilungen einer Marke abzumelden. [Weitere Informationen](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
-## Zugriff auf Verfahrensregeln {#access-rules}
+## Zugriff auf Geschäftsregeln {#access-rules}
 
-Verfahrensregeln sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Verfahrensregeln]** verfügbar. Alle Regeln werden sortiert nach Änderungsdatum aufgelistet. Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Nachrichtentitel suchen.
+Geschäftsregeln sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** verfügbar. Alle Regeln werden sortiert nach Änderungsdatum aufgelistet. Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Nachrichtentitel suchen.
 
 ![](assets/message-rules-filter.png)
 
 ### Berechtigungen{#permissions-frequency-rules}
 
-Um auf Verfahrensregeln für Nachrichten zuzugreifen oder welche anzulegen, zu bearbeiten oder zu löschen, benötigen Sie die Berechtigung **[!UICONTROL Häufigkeitsregeln verwalten]**.
+Um auf Geschäftsregeln für Nachrichten zuzugreifen oder welche anzulegen, zu bearbeiten oder zu löschen, benötigen Sie die Berechtigung **[!UICONTROL Häufigkeitsregeln verwalten]**.
 
 Benutzer*innen mit der Berechtigung **[!UICONTROL Anzeigen von Häufigkeitsregeln]** können Regeln anzeigen, sie jedoch nicht ändern oder löschen.
 
@@ -55,26 +55,26 @@ Benutzer*innen mit der Berechtigung **[!UICONTROL Anzeigen von Häufigkeitsregel
 
 Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
-## Erstellen einer Verfahrensregel {#create-new-rule}
+## Erstellen einer Geschäftsregel {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Wählen Sie die Kategorie der Nachrichtenregel aus"
->abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Verfahrensregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie „Marketing“ verfügbar."
+>abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Geschäftsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie „Marketing“ verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Festlegen der Begrenzung für Ihre Verfahrensregeln"
+>title="Festlegen der Begrenzung für Ihre Geschäftsregeln"
 >abstract="Geben Sie an, wie viele Nachrichten innerhalb des ausgewählten Zeitrahmens maximal an ein Kundenprofil gesendet werden sollen. Die Frequenzbegrenzung basiert auf dem ausgewählten Kalenderzeitraum und wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Definieren der Kanäle, für die die Verfahrensregeln gelten"
+>title="Definieren der Kanäle, für die die Geschäftsregeln gelten"
 >abstract="Wählen Sie mindestens einen Kanal aus. Die Begrenzung gilt als Gesamtanzahl für alle Kanäle."
 
-Gehen Sie wie folgt vor, um eine neue Verfahrensregel zu erstellen.
+Gehen Sie wie folgt vor, um eine neue Geschäftsregel zu erstellen.
 
-1. Rufen Sie die Liste **[!UICONTROL Verfahrensregeln]** auf und klicken Sie dann auf **[!UICONTROL Regel erstellen]**.
+1. Rufen Sie die Liste **[!UICONTROL Geschäftsregeln]** auf und klicken Sie dann auf **[!UICONTROL Regel erstellen]**.
 
    ![](assets/message-rules-create.png)
 
@@ -136,19 +136,19 @@ Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig
 >
 >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Aktivieren einer Verfahrensregel {#activate-rule}
+## Aktivieren einer Geschäftsregel {#activate-rule}
 
-Wenn eine Verfahrensregel erstellt wird, verfügt sie über den Status **[!UICONTROL Entwurf]** und hat noch keine Auswirkungen auf eine Nachricht. Um die Regel zu aktivieren, klicken Sie auf die Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Aktivieren]** aus.
+Wenn eine Geschäftsregel erstellt wird, verfügt sie über den Status **[!UICONTROL Entwurf]** und hat noch keine Auswirkungen auf eine Nachricht. Um die Regel zu aktivieren, klicken Sie auf die Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Aktivieren]** aus.
 
 ![](assets/message-rules-activate.png)
 
-Das Aktivieren einer Regel wirkt sich auf alle Nachrichten, für die sie gilt, bei ihrer nächsten Ausführung aus. Erfahren Sie, wie Sie [eine Verfahrensregel auf eine Nachricht anwenden](#apply-frequency-rule).
+Das Aktivieren einer Regel wirkt sich auf alle Nachrichten, für die sie gilt, bei ihrer nächsten Ausführung aus. Erfahren Sie, wie Sie [eine Geschäftsregel auf eine Nachricht anwenden](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >Es kann bis zu 10 Minuten dauern, bis eine Regel vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journeys erneut veröffentlichen, damit eine Regel wirksam wird.
 
-Um eine Verfahrensregel zu deaktivieren, klicken Sie auf die Auslassungspunkte neben der Regel und wählen Sie **[!UICONTROL Deaktivieren]**.
+Um eine Geschäftsregel zu deaktivieren, klicken Sie auf die Auslassungspunkte neben der Regel und wählen Sie **[!UICONTROL Deaktivieren]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -158,9 +158,9 @@ Der Status der Regel ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird
 >
 >Das Deaktivieren einer Regel wirkt sich weder auf die Zählung für einzelne Profile aus, noch wird die Zählung zurückgesetzt.
 
-## Anwenden einer Verfahrensregel auf eine Nachricht {#apply-frequency-rule}
+## Anwenden einer Geschäftsregel auf eine Nachricht {#apply-frequency-rule}
 
-Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
+Gehen Sie wie folgt vor, um eine Geschäftsregel auf eine Nachricht anzuwenden.
 
 1. Fügen Sie beim Erstellen einer [Journey](../building-journeys/journey-gs.md) eine Nachricht hinzu, indem Sie einen der Kanäle auswählen, die Sie für Ihre Regel definiert haben.
 
@@ -170,7 +170,7 @@ Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
 
    >[!NOTE]
    >
-   >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Verfahrensregeln verfügbar.
+   >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Geschäftsregeln verfügbar.
 
 1. Sie können auf den Link für die **[!UICONTROL Frequenzregel]** klicken, um den Bildschirm mit den Häufigkeitsregeln in einer neuen Registerkarte anzuzeigen. [Weitere Informationen](#access-rules)
 
@@ -180,7 +180,7 @@ Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
    >
    >Nachrichten, bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln ausgewertet.
 
-1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Verfahrensregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
+1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Geschäftsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
 
 >[!NOTE]
 >
@@ -188,9 +188,9 @@ Gehen Sie wie folgt vor, um eine Verfahrensregel auf eine Nachricht anzuwenden.
 
 ## Beispiel: Kombinieren mehrerer Regeln {#frequency-rule-example}
 
-Sie können mehrere Verfahrensregeln für Nachrichten kombinieren, wie im folgenden Beispiel beschrieben.
+Sie können mehrere Geschäftsregeln für Nachrichten kombinieren, wie im folgenden Beispiel beschrieben.
 
-1. [Erstellen Sie eine Verfahrensregel](#create-new-rule) mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
+1. [Erstellen Sie eine Geschäftsregel](#create-new-rule) mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
    * Wählen Sie alle Kanäle aus.
    * Legen Sie die Begrenzung auf 12 x monatlich fest.
@@ -206,7 +206,7 @@ Sie können mehrere Verfahrensregeln für Nachrichten kombinieren, wie im folgen
 
 1. Speichern und [aktivieren](#activate-rule) Sie die Regel.
 
-1. [Erstellen Sie eine Nachricht](../building-journeys/journeys-message.md) für jeden Kanal, über den Sie kommunizieren möchten, und wählen Sie für jede Nachricht die Kategorie **[!UICONTROL Marketing]** aus. [Erfahren Sie, wie Sie eine Verfahrensregel anwenden](#apply-frequency-rule)
+1. [Erstellen Sie eine Nachricht](../building-journeys/journeys-message.md) für jeden Kanal, über den Sie kommunizieren möchten, und wählen Sie für jede Nachricht die Kategorie **[!UICONTROL Marketing]** aus. [Erfahren Sie, wie Sie eine Geschäftsregel anwenden](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -233,10 +233,10 @@ In diesem Szenario kann ein einzelnes Profil:
 
 >[!NOTE]
 >
->Beim Testen von Verfahrensregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+>Beim Testen von Geschäftsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie Verfahrensregeln erstellen, aktivieren, testen und Berichte dazu erstellen.
+Erfahren Sie, wie Sie Geschäftsregeln erstellen, aktivieren, testen und Berichte dazu erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

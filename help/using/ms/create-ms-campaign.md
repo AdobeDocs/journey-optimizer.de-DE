@@ -9,7 +9,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Liste der mehrstufigen Kampagnen"
->abstract="Die **mehrstufig**-Registerkarte listet alle mehrstufigen Kampagnen auf. Klicken Sie auf den Namen einer mehrstufigen Kampagne, um sie zu bearbeiten. Verwenden Sie die **Erstellen einer mehrstufigen Kampagne**, um eine neue mehrstufige Kampagne hinzuzufügen."
+>abstract="Unter der Registerkarte **mehrstufig** werden alle mehrstufigen Kampagnen aufgelistet. Klicken Sie auf den Namen einer mehrstufigen Kampagne, um sie zu bearbeiten. Über die Schaltfläche **Mehrstufige Kampagne erstellen** können Sie eine neue mehrstufige Kampagne hinzufügen."
 
 ## Voraussetzungen
 
@@ -47,19 +47,19 @@ Gehen Sie wie folgt vor, um eine mehrstufige Kampagne zu erstellen:
 
 Ihre mehrstufige Kampagne ist jetzt erstellt und in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie mehrstufige Kampagnenaktivitäten ](orchestrate-activities.md).
 
-## Arbeiten mit mehrstufigen Kampagnenvorlagen {#campaign-templates}
+## Arbeiten mit Vorlagen für mehrstufige Kampagnen {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Mehrstufige Kampagnenvorlagen"
->abstract="Mehrstufige Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung einer neuen mehrstufigen Kampagne wiederverwendet werden können."
+>title="Vorlagen für mehrstufige Kampagnen"
+>abstract="Vorlagen für mehrstufige Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer mehrstufiger Kampagnen wiederverwendet werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Mehrstufige Kampagneneigenschaften"
->abstract="Mehrstufige Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer mehrstufiger Kampagnen wiederverwendet werden können. Geben Sie in diesem Bildschirm den Titel der mehrstufigen Kampagnenvorlage ein und konfigurieren Sie deren Einstellungen wie ihren internen Namen, den Ordner und die Ausführungsordner, die Zeitzone und die Gruppe der Verantwortlichen."
+>title="Eigenschaften mehrstufiger Kampagnen"
+>abstract="Vorlagen für mehrstufige Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer mehrstufiger Kampagnen wiederverwendet werden können. Geben Sie in diesem Bildschirm den Titel der Workflow-Vorlage ein und konfigurieren Sie die zugehörigen Einstellungen wie den internen Namen, den Ordner und die Ausführungsordner, die Zeitzone und die Gruppe der Verantwortlichen."
 
-Mehrstufige Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer mehrstufiger Kampagnen wiederverwendet werden können. Sie können bei der Erstellung einer mehrstufigen Kampagne die Vorlage Ihrer mehrstufigen Kampagne aus den Eigenschaften der mehrstufigen Kampagne auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
+Vorlagen für mehrstufige Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer mehrstufiger Kampagnen wiederverwendet werden können. Sie können bei der Erstellung einer mehrstufigen Kampagne die Vorlage Ihrer mehrstufigen Kampagne aus den Eigenschaften der mehrstufigen Kampagne auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
 
 Sie können eine Vorlage aus einer vorhandenen mehrstufigen Kampagne erstellen oder eine neue Vorlage von Grund auf neu erstellen. Beide Methoden werden nachfolgend beschrieben.
 

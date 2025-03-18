@@ -5,13 +5,13 @@ title: Arbeiten mit mehrstufigen Kampagnenaktivitäten
 description: Erfahren Sie, wie Sie mehrstufige Kampagnenaktivitäten erstellen
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
-
 
 # Über mehrstufige Kampagnenaktivitäten {#ms-campaign-activities}
 
@@ -54,7 +54,7 @@ Mit Adobe Journey Optimizer können Sie Marketing-Kampagnen über mehrere Kanäl
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
->abstract="Die **Ende**-Aktivität ermöglicht es Ihnen, das Ende einer mehrstufigen Kampagne grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+>abstract="Mit der **Endaktivität** können Sie das Ende einer mehrstufigen Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung mehrstufiger Kampagnen. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
 

@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Aktivität „Und-Verknüpfung“ in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 66%
+ht-degree: 78%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
->abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Zweige einer mehrstufigen Kampagne zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der mehrstufigen Kampagne fortfahren."
+>abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Verzweigungen einer mehrstufigen Kampagne zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der mehrstufigen Kampagne fortfahren."
 
 Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Dies ermöglicht es, die Ausführung verschiedener mehrstufiger Kampagnen zu synchronisieren.
 

@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 71%
+ht-degree: 88%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="Markenauswahl"
->abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihre Inhalte in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Identität erstellt werden, wobei Konsistenz und Markenintegrität gewahrt bleiben."
+>abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihre Inhalte in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Markenidentität erstellt werden und die Konsistenz und Markenintegrität gewahrt bleiben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Markenausrichtungswert"
->abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Der Markenausrichtungswert misst, wie gut Ihre Inhalte den Richtlinien deiner Marke entsprechen, um die Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -113,13 +113,13 @@ Um Ihre Markenrichtlinien zu erstellen und zu verwalten, können Sie die Details
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihre Marke ein.
 
-1. Datei per Drag-and-Drop ziehen oder auswählen, um Ihre Markenrichtlinien hochzuladen und automatisch relevante Markeninformationen zu extrahieren. Klicken Sie **[!UICONTROL Marke erstellen]**.
+1. Ziehen oder wählen Sie eine Datei, um Ihre Markenrichtlinien hochzuladen und automatisch relevante Markeninformationen zu extrahieren. Klicken Sie auf **[!UICONTROL Marke erstellen]**.
 
    Der Informationsextraktionsprozess beginnt jetzt. Beachten Sie, dass dieser Vorgang mehrere Minuten dauern kann.
 
    ![](assets/brands-2.png)
 
-1. Ihre Standards für Inhalt und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen.
+1. Ihre Standards für Content und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen.
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Schreibstil]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie oder einen Ausschluss einschließlich Beispielen hinzuzufügen.
 

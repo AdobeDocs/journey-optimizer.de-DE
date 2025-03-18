@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Planungsaktivität in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 35%
+ht-degree: 42%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planungsaktivität"
->abstract="Die **Planung**-Aktivität ermöglicht die Festlegung des Starts der mehrstufigen Kampagne. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der mehrstufigen Kampagne verwendet werden."
+>abstract="Mit der Aktivität **Planung** können Sie planen, wann die mehrstufige Kampagne gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der mehrstufigen Kampagne verwendet werden."
 
 
 Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie den Beginn der mehrstufigen Kampagne planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der mehrstufigen Kampagne verwendet werden.

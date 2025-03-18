@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Aktivität Abstimmung in einer mehrstufigen Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Die Aktivität **Abstimmung** ist eine **Zielgruppenbestimmungs**-Aktivität, mit der Sie die Relation zwischen Adobe Journey Optimizer und den Daten in einer Arbeitstabelle definieren können."
+>abstract="Die Aktivität **Abstimmung** ist eine Aktivität zur **Zielgruppenbestimmung**, mit der Sie die Verknüpfung zwischen den Daten in der Adobe Campaign-Datenbank und den Daten in einer Arbeitstabelle definieren können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -121,4 +122,3 @@ Er besteht aus den folgenden Aktivitäten:
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * Eine Aktivität [Zielgruppe speichern](save-audience.md), um eine neue Zielgruppe auf der Grundlage dieser Aktualisierungen zu erstellen. Sie können die Aktivität **Zielgruppe speichern** auch durch die Aktivität **Ende** ersetzen, wenn keine bestimmte Zielgruppe erstellt oder aktualisiert werden muss. Empfängerprofile werden in jedem Fall aktualisiert, wenn Sie die mehrstufige Kampagne ausführen.
-

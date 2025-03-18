@@ -5,10 +5,11 @@ title: Verwenden der Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
@@ -49,12 +50,12 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Anreicherungsdaten"
->abstract="Auswahl der Daten, die zur Anreicherung der mehrstufigen Kampagne verwendet werden sollen. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
+>abstract="Wählen Sie die zur Anreicherung Ihrer mehrstufigen Kampagne zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Aktivität „Anreicherung“"
->abstract="Nachdem Anreicherungsdaten zur mehrstufigen Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Anreicherungsaktivität hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
+>abstract="Nachdem Anreicherungsdaten zur mehrstufigen Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
@@ -73,9 +74,9 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="Verknüpfungsdefinition"
->abstract="Erstellen Sie eine Verknüpfung zwischen den Arbeitstabellendaten und Adobe Journey Optimizer. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung mit der Ländertabelle erzeugen, um die entsprechende Information im Empfängerprofil zu aktualisieren."
+>abstract="Erstellen Sie eine Verknüpfung zwischen den Arbeitstabellendaten und Adobe Journey Optimizer. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung mit der Ländertabelle erstellen, um die entsprechende Information im Empfängerprofil zu aktualisieren."
 
-Im **[!UICONTROL Link-Definition]** können Sie eine Verknüpfung zwischen den Arbeitstabellendaten und Adobe Journey Optimizer erstellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung mit der Ländertabelle erzeugen, um die entsprechende Information im Empfängerprofil zu aktualisieren.
+Im **[!UICONTROL Link-Definition]** können Sie eine Verknüpfung zwischen den Arbeitstabellendaten und Adobe Journey Optimizer erstellen. Wenn Sie beispielsweise Daten aus einer Datei laden, die die Kundennummer, das Land und die E-Mail-Adresse der Empfängerinnen und Empfänger enthält, müssen Sie eine Verknüpfung mit der Ländertabelle erstellen, um die entsprechende Information im Empfängerprofil zu aktualisieren.
 
 Es stehen verschiedene Relationstypen zur Verfügung:
 
@@ -108,9 +109,9 @@ Ein Workflow-Beispiel mit Relationen ist im Abschnitt [Beispiele](#link-example)
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="Abstimmung"
->abstract="Die Aktivität **Anreicherung** kann verwendet werden, um Daten aus dem Journey Optimizer-Schema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. Daten, die mithilfe einer Aktivität vom Typ Datei laden hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Journey Optimizer erstellt eine Relation zu einer Zieltabelle, indem es ihr einen Fremdschlüssel zum Speichern einer Referenz auf den eindeutigen Datensatz hinzufügt."
+>abstract="Die **Anreicherungsaktivität** kann verwendet werden, um Daten aus dem Journey Optimizer-Schema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Journey Optimizer erstellt einen Link zu einer Zieltabelle, indem ein Fremdschlüssel eingefügt wird, der eine Referenz zum eindeutigen Eintrag enthält."
 
-Die **Abstimmungsaktivität** kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Journey Optimizer erstellt eine Relation zu einer Zieltabelle, indem es ihr einen Fremdschlüssel zum Speichern einer Referenz auf den eindeutigen Datensatz hinzufügt.
+Die **Abstimmungsaktivität** kann verwendet werden, um Daten aus dem Campaign-Datenbankschema mit Daten aus einem anderen Schema oder mit Daten aus einem temporären Schema abzustimmen, z. B. mit Daten, die mithilfe der Aktivität „Datei laden“ hochgeladen wurden. Diese Art von Verknüpfung definiert einen Link zu einem eindeutigen Eintrag. Journey Optimizer erstellt einen Link zu einer Zieltabelle, indem ein Fremdschlüssel eingefügt wird, der eine Referenz zum eindeutigen Eintrag enthält.
 
 Mit dieser Option können Sie zum Beispiel das Land eines Profils, das in einer hochgeladenen Datei angegeben ist, mit einem der Länder abstimmen, die in der dedizierten Tabelle der Campaign-Datenbank verfügbar sind.
 
@@ -268,4 +269,3 @@ Das folgende Beispiel zeigt eine mehrstufige Kampagne, die so konfiguriert ist, 
 * Eine zweite Aktivität **Anreicherung** wird hinzugefügt, um Daten aus der mehrstufigen Kampagnentabelle mit den Kaufdaten aus der Aktivität **Datei laden** anzureichern. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kundinnen und Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
 
   ![](../assets/enrichment-uc-link-data.png)
-

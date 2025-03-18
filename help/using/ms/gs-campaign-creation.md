@@ -9,16 +9,16 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
-# Grundprinzipien {#ms-campaign-creation}
+# Grundlegende Prinzipien {#ms-campaign-creation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Mehrstufige Kampagne"
->abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der mehrstufigen Kampagnen zugreifen, ihren aktuellen Status sowie das letzte/nächste Ausführungsdatum überprüfen und eine neue mehrstufige Kampagne erstellen."
+>abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der mehrstufigen Kampagnen zugreifen, ihren aktuellen Status sowie das Datum der letzten/nächsten Ausführung überprüfen und eine neue mehrstufige Kampagne erstellen."
 
 Mit Adobe Journey Optimizer können Sie mehrstufige Kampagnen in eine visuelle Arbeitsfläche integrieren, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
