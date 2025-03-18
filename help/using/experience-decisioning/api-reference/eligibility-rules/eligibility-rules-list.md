@@ -1,22 +1,23 @@
 ---
-title: Eignungsregeln auflisten
-description: Mit Eignungsregeln können Sie die geeigneten Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Audiences.
+title: Auflisten von Eignungsregeln
+description: Mit Eignungsregeln können Sie die geeigneten Kandidatinnen und Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Zielgruppen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Eignungsregeln auflisten {#list-eligibilit-rules}
+# Auflisten von Eignungsregeln {#list-eligibilit-rules}
 
-Eine Eignungsregel besteht aus einem PQL-Regelausdruck, der definiert, wie sie die Eignungsregel definieren soll.
+Eine Eignungsregel besteht aus einem PQL-Regelausdruck, der festlegt, wie sie die Eignung definieren soll.
 
-Sie können eine Liste aller Eignungsregeln anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliotheks-API durchführen.
+Sie können eine Liste aller Eignungsregeln anzeigen, indem Sie eine einzelne GET-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?property=exdRul
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Eignungsregeln zurück, auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Eignungsregeln zurückgegeben, auf die Sie Zugriff haben.
 
 ```json
 {

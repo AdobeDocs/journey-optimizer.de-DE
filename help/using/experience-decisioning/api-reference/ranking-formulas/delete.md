@@ -1,20 +1,21 @@
 ---
-title: Löschen einer Rangfolgenformel
-description: Mithilfe von Rangfolgeformeln können Sie die Funktionen für die Bewertung definieren, die zum Sortieren von Elementen verwendet werden.
+title: Löschen einer Rangfolgeformel
+description: Mithilfe von Rangfolgenformeln können Sie die Funktionen für die Bewertung definieren, die zum Ordnen von Elementen verwendet werden.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
-# Löschen einer Rangfolgenformel {#delete-selection-strategy}
+# Löschen einer Rangfolgeformel {#delete-selection-strategy}
 
-Gelegentlich kann es erforderlich sein, (DELETE) eine Rangfolgenformel zu entfernen. Dies geschieht, indem eine DELETE-Anfrage an die Angebotsbibliotheks-API unter Verwendung der ID der Rangfolgenformel durchgeführt wird, die Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, eine Rangfolgenformel zu entfernen (DELETE). Richten Sie dazu mithilfe der ID der Rangfolgenformel, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API.
 
 **API-Format**
 
@@ -42,5 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 
 Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Suchanfrage (GET) an die Rangfolgenformel stellen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da die Rangfolgenformel entfernt wurde.
-
+Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) an die Rangfolgenformel richten. Sie sollten einen HTTP-Status 404 (Nicht gefunden) erhalten, da die Rangfolgenformel entfernt wurde.

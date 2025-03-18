@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,4 +167,4 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
 
    >[!NOTE]
    >
-   >Beachten Sie, dass nur Einzelpersonen mit dem **Realisiert**-Zielgruppenbeteiligungsstatus als Mitglieder der Zielgruppe betrachtet werden. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+   >Hinweis: Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.

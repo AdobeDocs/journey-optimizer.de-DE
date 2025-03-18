@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne 
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
-1. Wählen Sie den Kampagnentyp **Geplant - Marketing** aus.
+1. Wählen Sie den Kampagnentyp **Geplant – Marketing** aus.
 
 1. Führen Sie die Schritte zum Erstellen einer Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule). Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 

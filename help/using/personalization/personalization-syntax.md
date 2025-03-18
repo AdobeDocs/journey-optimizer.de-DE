@@ -10,15 +10,15 @@ level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Personalisierungssyntax {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax Handlebars. Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [Dokumentation zu HandlebarsJS](https://handlebarsjs.com/).
+Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax „Handlebars“. Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [Dokumentation zu HandlebarsJS](https://handlebarsjs.com/).
 
 Sie verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
 
@@ -57,7 +57,7 @@ Hier gilt:
 
   Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 
-  Weitere Informationen zur Verwendung von Profilattributen in Bedingungen finden Sie [diesem Abschnitt](functions/helpers.md#if-function).
+  Weitere Informationen zur Verwendung von Profilattributen in Bedingungen finden Sie in [diesem Abschnitt](functions/helpers.md#if-function).
 
   +++Beispielverweise
 
@@ -77,9 +77,9 @@ Hier gilt:
 
 * **Angebote**
 
-  Dieser Namespace ermöglicht die Referenzierung vorhandener Angebotsentscheidungen.
+  In diesem Namespace können Sie bestehende Entscheidungen referenzieren.
 
-  Um auf ein Angebot zu verweisen, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die ein Angebot definieren. Dieser Pfad weist die folgende Struktur auf:
+  Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die das Angebot definieren. Dieser Pfad weist die folgende Struktur auf:
 
   `offers.Type.[Placement Id].[Activity Id].Attribute`
 
@@ -90,7 +90,7 @@ Hier gilt:
    * `Placement Id` und `Activity Id` sind Platzierungs- und Aktivitätskennungen.
    * `Attributes` sind angebotsspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
 
-  Weitere Informationen zur Entscheidungs-API und zu Angebotsdarstellungen finden Sie auf [dieser Seite](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+  Weitere Informationen zur Entscheidungs-API und zu Angebotsdarstellungen finden Sie auf [dieser Seite](../offers/api-reference/offer-delivery-api/decisioning-api.md).
 
   Ein Validierungsmechanismus, der [auf dieser Seite](../personalization/personalization-build-expressions.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas.
 
@@ -118,11 +118,11 @@ Hier gilt:
 
 Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können. Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
-Diese Block-Helper werden durch einen `#` vor dem Helper-Namen identifiziert und erfordern eine entsprechende schließende `/` desselben Namens.
+Diese Block-Helper werden durch ein `#` am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden `/` am Ende des Namens.
 
 Blöcke sind Ausdrücke mit einer Blockeröffnung (`{{# }}`) und schließendem (`{{/}}`).
 
-Weitere Informationen zu Hilfsfunktionen finden Sie [diesem Abschnitt](functions/helpers.md).
+Weitere Informationen zu Helper-Funktionen finden Sie in [diesem Abschnitt](functions/helpers.md).
 
 ## Literaltypen {#literal-types}
 

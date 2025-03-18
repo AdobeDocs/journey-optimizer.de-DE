@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 
 >[!IMPORTANT]
 >
->Spezifische Empfehlungen für Code-basierte Erlebnisse finden Sie auf [dieser Seite](code-based-prerequisites.md).
+>Auf [dieser Seite](code-based-prerequisites.md) werden spezifische Empfehlungen für Code-basierte Erlebnisse ausführlich beschrieben.
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->

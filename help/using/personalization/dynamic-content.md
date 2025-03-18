@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

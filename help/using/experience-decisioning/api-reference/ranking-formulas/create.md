@@ -1,24 +1,25 @@
 ---
-title: Erstellen einer Rangfolgeformel
-description: Mithilfe von Rangfolgeformeln können Sie die Funktionen für die Bewertung definieren, die zum Sortieren von Elementen verwendet werden.
+title: Erstellen einer Rangfolgenformel
+description: Mithilfe von Rangfolgenformeln können Sie die Funktionen für die Bewertung definieren, die zum Ordnen von Elementen verwendet werden.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
-# Erstellen einer Rangfolgeformel {#create-ranking-formula}
+# Erstellen einer Rangfolgenformel {#create-ranking-formula}
 
-Sie können eine Rangfolgenformel erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
+Sie können eine Rangfolgenformel erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
 
-**Accept- und Content-Type-Kopfzeilen**
+**Header „Akzeptieren“ und „Content-Typ“**
 
-In der folgenden Tabelle sind die gültigen Werte aus den Feldern des Inhaltstyps im Anfrage-Header aufgeführt:
+Folgende Tabelle zeigt die gültigen Werte mit den Feldern „Content-Typ“ im Anfrage-Header:
 
 | Header-Name | Wert |
 | --------- | ----------- | 
@@ -74,7 +75,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/ranking-formulas' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der neu erstellten Rangfolgenformel zurück, einschließlich der `id`. Sie können die `id` in späteren Schritten verwenden, um Ihre Rangfolgenformel zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten Rangfolgenformel einschließlich der `id` zurückgegeben. Sie können die `id` in späteren Schritten verwenden, um Ihre Rangfolgenformel zu aktualisieren oder zu löschen. 
 
 ```json
 {

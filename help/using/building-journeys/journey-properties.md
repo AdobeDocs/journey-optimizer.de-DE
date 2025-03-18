@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,9 +279,9 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie Ihre Journey.
 
-1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Austrittskriterien anzeigen]** im oberen rechten Bereich der Journey-Arbeitsfläche.
+1. Klicken Sie oben rechts auf der Journey-Arbeitsfläche auf das Symbol ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Ausstiegskriterien anzeigen]**.
 
-1. Wählen Sie **[!UICONTROL Beendigungskriterien hinzufügen]** aus.
+1. Wählen Sie **[!UICONTROL Ausstiegskriterien hinzufügen]** aus.
 
 1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 

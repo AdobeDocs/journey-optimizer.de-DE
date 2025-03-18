@@ -1,29 +1,29 @@
 ---
 title: Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals
-description: Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals.
+description: Unterbreiten Sie Angebote mithilfe des Code-basierten Erlebniskanals.
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
 source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals {#deliver}
 
-Experience Decisioning ist heute über den Code-basierten Erlebniskanal verfügbar.
+Die Erlebnis-Entscheidung ist jetzt über den Code-basierten Erlebniskanal verfügbar.
 
-Code-basiertes Erlebnis unterstützt jede Art von Kundenimplementierung:
+Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung:
 
-* Wenn Sie über eine **Client-seitige Implementierung**, können Sie eines der AEP Client SDKs verwenden: AEP Web SDK oder AEP Mobile SDK.
-* Wenn Sie über eine **Server-seitige** Implementierung verfügen, können Sie eine der AEP Edge Network-API verwenden.
-* Wenn Sie über eine **Hybrid**-Implementierung verfügen, können Sie sowohl die Web-SDK- als auch die Edge Network-Server-API verwenden.
+* Bei einer **Client-seitigen** Implementierung kann eines der AEP-Client-SDKs verwendet werden: AEP Web SDK oder AEP Mobile SDK.
+* Bei einer **Server-seitigen** Implementierung, kann eine der AEP Edge Network-APIs verwendet werden.
+* Bei einer **Hybrid**-Implementierung, können das Web SDK und die Edge Network-API verwendet werden.
 
-Ausführliche Informationen zu den verschiedenen Implementierungsmethoden finden Sie im Code-basierten Kanalhandbuch. In diesem Handbuch finden Sie Details zu den einzelnen Implementierungsmethoden sowie Beispielimplementierungen für verschiedene Personalisierungs- und Experimentier-Anwendungsfälle.
+Detaillierte Informationen zu den verschiedenen Implementierungsmethoden finden Sie im Handbuch zu Code-basierten Kanälen. In diesem Handbuch finden Sie Details zu den einzelnen Implementierungsmethoden sowie Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente.
 
-➡️ [Erfahren Sie mehr über Code-basierte Implementierungsmethoden](../../code-based/code-based-implementation-samples.md)
+➡️ [Weitere Informationen zu Code-basierten Implementierungsmethoden](../../code-based/code-based-implementation-samples.md)
 

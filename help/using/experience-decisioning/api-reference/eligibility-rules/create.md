@@ -1,20 +1,21 @@
 ---
 title: Erstellen einer Eignungsregel
-description: Mit Eignungsregeln können Sie die geeigneten Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Audiences.
+description: Mit Eignungsregeln können Sie die geeigneten Kandidatinnen und Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Zielgruppen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer Eignungsregel {#create-eligibility-rule}
 
-Sie können eine Eignungsregel erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
+Sie können eine Eignungsregel erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -50,7 +51,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der neu erstellten Eignungsregel zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihre Eignungsregel zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten Eignungsregel einschließlich der ID zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihre Eignungsregel zu aktualisieren oder zu löschen. 
 
 ```json
 {

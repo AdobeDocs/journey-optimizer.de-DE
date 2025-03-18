@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,21 +35,21 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 ## Leitlinien für Datensätze {#datasets-guardrails}
 
-Ab Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) wie folgt für Journey Optimizer-systemgenerierte Datensätze in **neuen Sandboxes und neuen** bereitgestellt:
+Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze als Schutzmechanismen die folgenden Limits für die Time-to-Live (TTL) eingeführt:
 
-* 90 Tage für Daten im Profilspeicher,
-* 13 Monate für Daten im Data Lake.
+* 90 Tage für Daten im Profilspeicher,
+* 13 Monate für Daten im Data Lake.
 
-Diese Änderung wird in einer **Phase in bestehende Kunden** Sandboxes eingeführt. [Weitere Informationen zu Leitplanken für die Time-to-Live (TTL) von Datensätzen](../data/datasets-ttl.md)
+Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Weitere Informationen zum Limit der Time-to-Live (TTL) für Datensätze](../data/datasets-ttl.md)
 
-## Leitplanken für Kanäle {#channel-guardrails}
+## Leitlinien für Kanäle {#channel-guardrails}
 
-### E-Mail-Leitplanken {#message-guardrails}
+### Leitlinien für E-Mails {#message-guardrails}
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
-### SMS-Leitlinien {#sms-guardrails}
+### Leitlinien für SMS {#sms-guardrails}
 
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
@@ -61,9 +61,9 @@ Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor no
 
 Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
-### Code-basierte Kanal-Leitplanken {#code-based-guardrails}
+### Leitlinien für Code-basierte Kanäle {#code-based-guardrails}
 
-Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
+Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md) erfüllen:
 
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 
@@ -87,12 +87,12 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 
 Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
-## Leitplanken für Entscheidungs- und Entscheidungs-Management {#decisioning-guardrails}
+## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
-Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
+Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfindung oder dem Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten zur Entscheidungsfindung und dem Entscheidungs-Management beschrieben:
 
-* [Leitplanken und Einschränkungen bei Entscheidungen](../experience-decisioning/decisioning-guardrails.md)
-* [Leitplanken und Einschränkungen beim Entscheidungs-Management](../offers/decision-management-guardrails.md)
+* [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
+* [Leitlinien und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
 
 
 ## Leitlinien für Journeys {#journeys-guardrails}
@@ -220,4 +220,4 @@ Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanism
 Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
 
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
-* Kampagnenaktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karten-, Code-basierte Erlebnisse, E-Mail, Push, SMS, In-App-Nachrichten, Web.
+* Kampagnenaktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.

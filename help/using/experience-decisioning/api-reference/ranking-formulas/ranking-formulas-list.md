@@ -1,22 +1,23 @@
 ---
-title: Auflisten von Rangfolgeformeln
-description: Mithilfe von Rangfolgeformeln können Sie die Funktionen für die Bewertung definieren, die zum Sortieren von Elementen verwendet werden.
+title: Auflisten von Rangfolgenformeln
+description: Mithilfe von Rangfolgenformeln können Sie die Funktionen für die Bewertung definieren, die zum Ordnen von Elementen verwendet werden.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 8b07be08-b37c-4535-82d8-3304340cbcad
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Auflisten von Rangfolgeformeln {#list-ranking-formulas}
+# Auflisten von Rangfolgenformeln {#list-ranking-formulas}
 
-Eine Rangfolgeformel besteht aus einer Rangfolgefunktion, die definiert, wie sie sortiert werden soll.
+Eine Rangfolgeformel besteht aus einer Rangfolgenfunktion, die definiert, wie sortiert werden soll.
 
-Sie können eine Liste aller Rangfolgeformeln anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliotheks-API durchführen.
+Sie können Sie eine Liste Rangfolgenformeln anzeigen, indem Sie eine einzelne GET-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/ranking-formulas?property=e
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort wird eine Liste von Rangfolgeformeln zurückgegeben, auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Rangfolgenformeln zurückgegeben, auf die Sie Zugriff haben.
 
 ```json
 {

@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonf
 
 >[!NOTE]
 >
->Sie müssen erneut bereitstellen, wenn Sie eine bereits bereitgestellte Konfiguration aktualisieren.
+>Wenn Sie eine bereits bereitgestellte Konfiguration aktualisieren, müssen Sie diese erneut bereitstellen.
 
 1. list
 1. get

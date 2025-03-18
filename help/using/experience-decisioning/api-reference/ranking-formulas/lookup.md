@@ -1,20 +1,21 @@
 ---
-title: Rangfolgeformel nachschlagen
-description: Mithilfe von Rangfolgeformeln können Sie die Funktionen für die Bewertung definieren, die zum Sortieren von Elementen verwendet werden.
+title: Nachschlagen einer Rangfolgenformel
+description: Mithilfe von Rangfolgenformeln können Sie die Funktionen für die Bewertung definieren, die zum Ordnen von Elementen verwendet werden.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: f048b2d1-d26b-4987-8acb-3558df506ec2
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Lookup a  {#list-ranking-formula}
+# Nachschlagen einer  {#list-ranking-formula}
 
-Sie können eine bestimmte Rangfolgenformel nachschlagen, indem Sie eine GET-Anfrage an die Angebotsbibliotheks-API richten, die die ID im Anfragepfad enthält.
+Sie können nach einer bestimmten Rangfolgenformel suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas/{ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Die ID der Entität, die Sie suchen möchten. | `rankingFormula1234` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `rankingFormula1234` |
 
 **Anfrage**
 

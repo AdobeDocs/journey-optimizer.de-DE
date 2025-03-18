@@ -1,24 +1,24 @@
 ---
-title: Erstellen einer erweiterten Platzierung
-description: Ext-Strategien bestehen aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
+title: Erstellen einer ExD-Platzierung
+description: ExD-Strategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# Erstellen einer erweiterten Platzierung {#create-exd-placement}
+# Erstellen einer ExD-Platzierung {#create-exd-placement}
 
-Sie können eine neue Platzierung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
+Sie können eine ExD-Platzierung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
 
-**Accept- und Content-Type-Kopfzeilen**
+**Header „Akzeptieren“ und „Content-Typ“**
 
-In der folgenden Tabelle sind die gültigen Werte aus den Feldern des Inhaltstyps im Anfrage-Header aufgeführt:
+Folgende Tabelle zeigt die gültigen Werte mit den Feldern „Content-Typ“ im Anfrage-Header:
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
@@ -55,7 +55,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der neu erstellten exd-Platzierung zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihre kopierte Platzierung zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten ExD-Platzierung einschließlich der ID zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihre ExD-Platzierung zu aktualisieren oder zu löschen. 
 
 ```json
 {

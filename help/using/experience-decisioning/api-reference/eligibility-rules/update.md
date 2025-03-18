@@ -1,26 +1,27 @@
 ---
-title: Eignungsregeln aktualisieren
-description: Mit Eignungsregeln können Sie die geeigneten Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Audiences.
+title: Aktualisieren von Eignungsregeln
+description: Mit Eignungsregeln können Sie die geeigneten Kandidatinnen und Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Zielgruppen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Aktualisieren einer Eignungsregel {#update-eligibility-rule}
 
-Sie können eine Regel ändern oder aktualisieren, indem Sie eine PUT-Anfrage an die Angebotsbibliotheks-API richten.
+Sie können eine Regel ändern oder aktualisieren, indem Sie eine PUT-Anfrage an die Angebotsbibliothek-API richten.
 
-Weitere Informationen zu JSON PUT, einschließlich verfügbarer Vorgänge, finden Sie in der offiziellen [JSON PUT-Dokumentation](https://jsonpatch.com/).
+Weitere Informationen zu JSON PUT, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [Dokumentation zu JSON PUT](https://jsonpatch.com/).
 
-**Accept- und Content-Type-Kopfzeilen**
+**Header „Akzeptieren“ und „Content-Typ“**
 
-In der folgenden Tabelle sind die gültigen Werte aus den Feldern des Inhaltstyps im Anfrage-Header aufgeführt:
+Folgende Tabelle zeigt die gültigen Werte mit den Feldern „Content-Typ“ im Anfrage-Header:
 
 | Header-Name | Wert |
 | --------- | ----------- | 
@@ -88,7 +89,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Eignungsregel zurück, einschließlich der ID.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Eignungsregel einschließlich der ID zurückgegeben.
 
 ```json
 {

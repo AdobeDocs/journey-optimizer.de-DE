@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 ## März 2025 {#mar-2025}
 
 * Die Seite über Zielgruppen-Qualifizierungsereignisse wurde mit neuen Empfehlungen aktualisiert. [Weitere Informationen](../building-journeys/audience-qualification-events.md)
-* Die Fehlerbehebungsfunktion für benutzerdefinierte Aktionen ist jetzt für alle Kunden verfügbar (GA). [Weitere Informationen](../action/troubleshoot-custom-action.md)
+* Die Fehlerbehebungsfunktion für benutzerdefinierte Aktionen ist jetzt für alle Kundinnen und Kunden verfügbar (GA). [Weitere Informationen](../action/troubleshoot-custom-action.md)
 
 ## Februar 2025 {#feb-2025}
 
-* Die Leitplanken für die Aktivität „Zielgruppe lesen“ wurden aktualisiert und geben jetzt an, dass nur eine Aktivität auf einer Journey verwendet werden kann und dass sie nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
+* Die Leitlinien für die Aktivität „Zielgruppe lesen“ wurden aktualisiert. Sie geben jetzt vor, dass in einer Journey nur eine Aktivität verwendet werden und diese nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
 * Die Journey-Leitlinien bei der Verwendung von Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
 * Die Schritte zum Erstellen Ihrer ersten Journey wurden ausführlich beschrieben, und zum Dokumentationsabschnitt wurden Links hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
 * Es ist jetzt eine neue Seite verfügbar, auf der das Journey-Dashboard und die Benutzeroberfläche zum Filtern beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)

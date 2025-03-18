@@ -9,9 +9,9 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

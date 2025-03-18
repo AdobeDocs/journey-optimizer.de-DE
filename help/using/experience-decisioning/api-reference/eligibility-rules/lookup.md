@@ -1,20 +1,21 @@
 ---
-title: Suchen einer Eignungsregel
-description: Mit Eignungsregeln können Sie die geeigneten Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Audiences.
+title: Nachschlagen einer Eignungsregel
+description: Mit Eignungsregeln können Sie die geeigneten Kandidatinnen und Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Zielgruppen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
-# Suchen einer Eignungsregel {#list-eligibility-rule}
+# Nachschlagen einer Eignungsregel {#list-eligibility-rule}
 
-Sie können bestimmte Eignungsregeln suchen, indem Sie eine GET-Anfrage an die Angebotsbibliotheks-API richten, die die ID im Anfragepfad enthält.
+Sie können nach einer bestimmten Eignungsregel suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Die ID der Entität, die Sie suchen möchten. | `rule1234` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `rule1234` |
 
 **Anfrage**
 

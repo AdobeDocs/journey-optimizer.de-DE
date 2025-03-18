@@ -10,7 +10,7 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
 ht-degree: 100%
 

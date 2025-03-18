@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking von E-Mail-Nachrichten aktivieren, indem Sie die Optionen **[!UICONTROL Geöffnete E-Mails]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht auf einer Journey oder in einer Kampagne erstellen, wie in den folgenden Registerkarten dargestellt:
+Sie können das Tracking einer E-Mail-Nachricht aktivieren, indem Sie die Optionen **[!UICONTROL E-Mail-Öffnungen]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht in einer Journey oder Kampagne erstellen, wie auf den Registerkarten unten dargestellt.
 
 >[!BEGINTABS]
 
@@ -40,10 +40,10 @@ Sie können das Tracking von E-Mail-Nachrichten aktivieren, indem Sie die Option
 >
 >Beide Optionen sind standardmäßig aktiviert.
 
-Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfänger Ihrer Nachrichten:
+Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfangenden Ihrer Nachrichten:
 
 * Die Metrik **[!UICONTROL E-Mail-Öffnungen]** überprüft, wie viele Nachrichten geöffnet wurden.
-* Die Metrik **[!UICONTROL Klick in E]** Mail) berechnet die Anzahl der Klicks auf Links in einer E-Mail.
+* Die Metrik **[!UICONTROL Klick in E-Mail]** berechnet die Anzahl der Klicks auf Links in einer E-Mail.
 
 ## Links einfügen {#insert-links}
 
@@ -51,7 +51,7 @@ Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteni
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
-1. Wählen Sie ein Element (Text oder Bild) aus und klicken Sie **[!UICONTROL der kontextuellen Symbolleiste auf]** Link einfügen“.
+1. Wählen Sie ein Element (Text oder Bild) aus und klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -61,13 +61,13 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * Wählen Sie **[!UICONTROL Landingpage]** aus, um einen Link zu einer Landingpage einzufügen. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
-   * Wählen Sie **[!UICONTROL Opt-out mit einem Klick]**, um einen Link einzufügen, über den sich Benutzer schnell von Ihren Nachrichten abmelden können, ohne die Abmeldung bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
+   * Wählen Sie **[!UICONTROL Opt-out mit einem Klick]** aus, um einen Link einzufügen, über den die Benutzenden Ihre Nachrichten schnell kündigen können, ohne den Kündigungsvorgang bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 
-   * Wählen Sie **[!UICONTROL Externes Opt-in/Abonnement]** aus, um einen Link einzufügen, über den der Erhalt von Nachrichten von Ihrer Marke akzeptiert wird.
+   * Wählen Sie **[!UICONTROL Externes Opt-in/Anmeldung]** aus, um einen Link für das Akzeptieren des Erhalts von Nachrichten von Ihrer Marke einzufügen.
 
    * Wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus, um einen Link einzufügen, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](email-opt-out.md#opt-out-management).
 
-   * Wählen Sie **[!UICONTROL Mirrorseite]** aus, um der E-Mail-Mirrorseite einen Link hinzuzufügen. [Weitere Informationen](#mirror-page)
+   * Wählen Sie **[!UICONTROL Mirror-Seite]** aus, um der Mirror-Seite der E-Mail einen Link hinzuzufügen. [Weitere Informationen](#mirror-page)
 
 1. Geben Sie die gewünschte URL in das entsprechende Feld ein oder wählen Sie eine Landingpage aus und definieren Sie die Link-Einstellungen und -Stile. [Weitere Informationen](#adjust-links)
 
@@ -88,39 +88,39 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird beim Erstellen der Nachricht in der [Kanalkonfiguration](../configuration/channel-surfaces.md#email-type) definiert.
 
 
-## Link zu einer Mirrorseite {#mirror-page}
+## Link zu einer Mirror-Seite {#mirror-page}
 
-Die Mirrorseite ist eine Online-Version Ihrer E-Mail. Es empfiehlt sich, einen Link zur Mirrorseite hinzuzufügen, um E-Mail-Marketing zu ermöglichen. Benutzerinnen und Benutzer können die Mirrorseite einer E-Mail aufrufen, etwa wenn bei der Anzeige in ihrem Posteingang Rendering-Probleme auftreten oder Bilder beschädigt sind. Es wird außerdem empfohlen, aus Gründen der Barrierefreiheit oder um zum Social Sharing zu ermutigen, eine Online-Version bereitzustellen.
+Die Mirror-Seite ist eine Online-Version Ihrer E-Mail. Beim E-Mail-Marketing empfiehlt es sich, einen Link zur Mirror-Seite hinzuzufügen. Benutzerinnen und Benutzer können die Mirrorseite einer E-Mail aufrufen, etwa wenn bei der Anzeige in ihrem Posteingang Rendering-Probleme auftreten oder Bilder beschädigt sind. Es wird außerdem empfohlen, aus Gründen der Barrierefreiheit oder um zum Social Sharing zu ermutigen, eine Online-Version bereitzustellen.
 
-Die von Adobe Journey Optimizer generierte Mirrorseite enthält alle Personalisierungsdaten.
+Die von Adobe Journey Optimizer generierte Mirror-Seite enthält alle Personalisierungsdaten.
 
-Um Ihrer E-Mail einen Link zu einer Mirrorseite hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
+Um Ihrer E-Mail einen Link zu einer Mirror-Seite hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirror-Seite]** als Link-Typ aus.
 
 ![](assets/message-tracking-mirror-page.png)
 
-Die Mirrorseite wird automatisch erstellt. Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
+Die Mirror-Seite wird automatisch erstellt. Wenn die Empfänger nach dem Versand der E-Mail auf den Mirror-Seiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
 
-Die Beibehaltungsdauer für eine Mirrorseite beträgt **60 Tage**. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
+Die Beibehaltungsdauer für eine Mirror-Seite beträgt **60 Tage**. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
 
 >[!CAUTION]
 >
 >* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer begrenzten URL-Länge funktioniert.
 >
->* Im [Testversand](../content-management/proofs.md) an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er ist nur in den endgültigen Nachrichten aktiv.
+>* Im [Testversand](../content-management/proofs.md) an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiv.
 
-## Link-Erscheinungsbild und Ziel anpassen {#adjust-links}
+## Anpassen von Link-Erscheinungsbild und Ziel {#adjust-links}
 
-Sie können Ihre Links anpassen, z. B. unterstreichen, ihre Farbe ändern oder ihre Zielgruppe auswählen.  Diese Änderungen werden in den Bereichen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** im rechten Abschnitt des Inhaltseditors festgelegt.
+Sie Anpassungen Ihrer Links vornehmen, in dem Sie sie z. B. unterstreichen, ihre Farbe ändern oder ihr Ziel auswählen.  Diese Änderungen werden in den Bereichen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** im rechten Abschnitt des Inhaltseditors festgelegt.
 
 ### Target {#link-target}
 
-Das **target**-Attribut wird verwendet, um zu steuern, wo eine verknüpfte Seite geöffnet wird. Durch Hinzufügen eines Zielattributs in einem Anker-Tag kann angegeben werden, ob der Link in einer neuen Registerkarte, auf derselben Registerkarte oder in einem anderen Frame geöffnet werden soll.
+Mit dem Attribut **Ziel** lässt sich steuern, wo eine verknüpfte Seite geöffnet wird. Durch Hinzufügen des Attributs „Ziel“ in einem Anker-Tag kann angegeben werden, ob der Link auf einer neuen Registerkarte, auf derselben Registerkarte oder in einem anderen Frame geöffnet werden soll.
 
 Gehen Sie wie folgt vor, um das Ziel eines Links zu definieren:
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Wählen Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wo der Link geöffnet werden soll. Mögliche Werte sind unten aufgeführt:
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** im Dropdown-Menü **[!UICONTROL Ziel]** aus, wo der Link geöffnet wird. Nachfolgend sind mögliche Werte aufgeführt:
 
    * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
    * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
@@ -133,13 +133,13 @@ Gehen Sie wie folgt vor, um das Ziel eines Links zu definieren:
 1. Speichern Sie Ihre Änderungen.
 
 
-### Link unterstreichen {#link-underline}
+### Unterstreichen eines Links {#link-underline}
 
-Aktivieren Sie die **[!UICONTROL Link unterstreichen]**, um den Titel Ihres Links zu unterstreichen.
+Markieren Sie die Option **[!UICONTROL Link unterstreichen]**, damit das Label Ihres Links unterstrichen wird.
 
 ![](assets/link_1.png)
 
-### Link-Farbe {#link-color}
+### Farbe des Links {#link-color}
 
 Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** auf der Registerkarte **[!UICONTROL Stile]**.
 

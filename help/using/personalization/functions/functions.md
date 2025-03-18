@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#doesNotStartWith">Beginnt nicht mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge beginnt</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Codieren 64</a></td><td>Diese Funktion wird zum Codieren einer Zeichenfolge verwendet</td>
+        <td><a href="string.md#encode64">Codieren 64</a></td><td>Diese Funktion wird verwendet, um eine Zeichenfolge zu codieren.</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Endet mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet</td>

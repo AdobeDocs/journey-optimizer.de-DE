@@ -1,20 +1,20 @@
 ---
-title: Platzierungen auflisten
-description: Erweitert Platzierungen bestehen aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
+title: Auflisten von ExD-Platzierungen
+description: ExD-Platzierungen bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Platzierungen auflisten {#list-exd-placements}
+# Auflisten von ExD-Platzierungen {#list-exd-placements}
 
-Sie können eine Liste aller eXD-Platzierungen anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliotheks-API durchführen.
+Sie können Sie eine Liste aller ExD-Platzierungen anzeigen, indem Sie eine einzelne GET-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/exd-placements?{QUERY_PARAMS}
 
 ## Verwenden von Abfrageparametern {#using-query-parameters}
 
-Sie können beim Auflisten von Ressourcen Abfrageparameter zum Paging und Filtern von Ergebnissen verwenden. Sie können nach Status, Kanal und Kanalkonfiguration filtern.
+Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern. Sie können nach Status, Kanal und Kanalkonfiguration filtern.
 
 ### Paging {#paging}
 
@@ -54,7 +54,7 @@ curl --location --request GET 'https://platform-stage.adobe.io/data/core/dps/exd
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Excel-Platzierungen zurück, auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von ExD-Platzierungen zurückgegeben, auf die Sie Zugriff haben.
 
 ```json
 {

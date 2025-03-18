@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,5 +84,5 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
 
-   ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
+   ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Kanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md)

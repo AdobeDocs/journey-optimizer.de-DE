@@ -1,20 +1,20 @@
 ---
-title: Nachschlagen einer erweiterten Platzierung
-description: Die erweiterte Platzierung besteht aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
+title: Nachschlagen einer ExD-Platzierung
+description: Die ExD-Platzierung besteht aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
-# Nachschlagen einer erweiterten Platzierung {#list-exd-placement}
+# Nachschlagen einer ExD-Platzierung {#list-exd-placement}
 
-Sie können eine bestimmte Ersetzung nachschlagen, indem Sie eine GET-Anfrage an die Angebotsbibliotheks-API richten, die die ID im Anfragepfad enthält.
+Sie können nach einer bestimmten ExD-Platzierung suchen, indem Sie eine GET-Anfrage an die Angebotsbibliothek-API richten, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -40,7 +40,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements/dp
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der kopierten Platzierung zurück.
+Eine erfolgreiche Antwort gibt die Details der ExD-Platzierung zurück.
 
 ```json
 {

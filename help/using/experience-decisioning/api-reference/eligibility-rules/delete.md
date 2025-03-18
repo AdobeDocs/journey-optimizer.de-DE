@@ -1,20 +1,21 @@
 ---
 title: Löschen einer Eignungsregel
-description: Mit Eignungsregeln können Sie die geeigneten Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Audiences.
+description: Mit Eignungsregeln können Sie die geeigneten Kandidatinnen und Kandidaten basierend auf dem definieren, was Sie ansprechen möchten, z. B. Profilattribute und Zielgruppen.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 19baf888-23b7-46de-9d3c-9a0fa8ab2297
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 # Löschen einer Eignungsregel {#delete-eligibility-rule}
 
-Gelegentlich kann es erforderlich sein, eine Eignungsregel zu entfernen (DELETE). Dies geschieht, indem Sie eine DELETE-Anfrage an die Angebotsbibliotheks-API mit der ID der Eignungsregel ausführen, die Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, eine Eignungsregel zu entfernen (DELETE). Richten Sie dazu mithilfe der ID der Eignungsregel, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliothek-API.
 
 **API-Format**
 
@@ -42,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Suchanfrage (GET) an die Regel stellen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da die Regel entfernt wurde.
+Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für die Regel ausführen. Sie sollten einen HTTP-Status 404 (Nicht gefunden) erhalten, da die Regel entfernt wurde.
