@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Hinzufügen von Personalisierung
-description: Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten können, um Personalisierung hinzuzufügen.
+description: Erfahren Sie, wie Sie Personalisierungen mit dem Personalisierungseditor hinzufügen.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 52%
+source-wordcount: '1406'
+ht-degree: 94%
 
 ---
 
@@ -26,44 +26,48 @@ ht-degree: 52%
 
 Der Personalisierungseditor ist die Kernkomponente der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
 
-In der Benutzeroberfläche des Personalisierungseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
+In der Benutzeroberfläche des Personalisierungseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Content zu erstellen.
 
 ![](assets/perso_ee1.png)
 
-## Wo kann ich Personalisierung hinzufügen?
+## Wo kann ich eine Personalisierung hinzufügen?
 
-Mit dem Symbol „Personalisierung hinzufügen![ können Sie in allen Feldern **[!DNL Journey Optimizer]** Personalisierung ](assets/do-not-localize/add-perso-icon.svg).
+Mit dem Symbol „Personalisierung hinzufügen![ können Sie in allen Feldern **[!DNL Journey Optimizer]** Personalisierung ](assets/do-not-localize/add-perso-icon.svg). Erweitern Sie die folgenden Abschnitte, um weitere Details anzuzeigen.
 
-### Nachrichten
++++Nachrichten
 
-In Nachrichten kann die Personalisierung an verschiedenen Stellen in Ihren Nachrichten hinzugefügt werden, z. B. im Feld **[!UICONTROL Betreffzeile]**.
+Die Personalisierung kann an verschiedenen Stellen in Ihren Nachrichten hinzugefügt werden, z. B. im Feld **[!UICONTROL Betreffzeile]**.
 
 ![](assets/perso_subject.png)
 
-Sie können sie auch in anderen Abschnitten Ihres Inhalts hinzufügen. Für Push[Benachrichtigungen ](../push/push-gs.md) beispielsweise Personalisierung in den Feldern **Titel**, **Text**, **Benutzerdefinierter Ton**, **Badges** und **Benutzerdefinierte Daten**.
+Sie kann auch in anderen Abschnitten Ihres Contents hinzugefügt werden. Zum Beispiel kann eine Personalisierung für [Push-Benachrichtigungen](../push/push-gs.md) in den Feldern **Titel**, **Textkörper**, **Benutzerdefinierter Ton**, **Badges** und **Benutzerdefinierte Daten** hinzugefügt werden.
 
-### Email Designer
++++
 
-Designer Beim Bearbeiten von E-Mail[Inhalten in der E-Mail-](../email/get-started-email-design.md) können Sie mithilfe des Symbols in der kontextuellen Symbolleiste Personalisierungen in Textblöcken und in URLs hinzufügen.
++++E-Mail an Designer senden
+
+Beim Bearbeiten von E-Mail-Content im [E-Mail-Designer](../email/get-started-email-design.md) können Sie mithilfe des Symbols in der kontextuellen Symbolleiste Personalisierungen in Textblöcken und in URLs hinzufügen.
 
 ![](assets/perso_insert.png)
 
-### Angebote
++++
 
-Sie können eine Personalisierung hinzufügen, wenn Sie Textinhalte in Ihren **Angebotsdarstellungen“**. [Erfahren Sie, wie Sie personalisierte Angebote erstellen](../offers/offer-library/creating-personalized-offers.md)
++++Angebote
 
-### URLs
+Sie können eine Personalisierung hinzufügen, wenn Sie Textinhalte in Ihren **Angebotsdarstellungen** verwenden. [Informationen zum Erstellen von personalisierten Angeboten](../offers/offer-library/creating-personalized-offers.md)
 
-Mit Journey Optimizer können Sie auch **URLs** in Ihrer Nachricht personalisieren.  Personalisierte URLs führen Empfänger je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. Die URL-Personalisierung ist für folgende Arten von Links verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
++++
 
-+++Siehe Beispiele für personalisierte URLs
++++URLs
+
+Mit Journey Optimizer können Sie auch **URLs** in Ihrer Nachricht personalisieren.  Personalisierte URLs führen Empfangende je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. Die Personalisierung von URLs ist für diese Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Ausschluss**.
+
+Beispiele für personalisierte URLs:
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Mit Journey Optimizer können Sie auch **URLs** in Ihrer Nachricht personalisier
 >
 >Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.
 
-## Personalization-Quellen {#sources}
++++
 
-Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können. Verfügbare Quellen sind:
+## Personalisierungsquellen {#sources}
+
+Im Navigationsbereich können Sie die Quelle für die Personalisierung auswählen. Verfügbare Quellen sind:
 
 * **[!UICONTROL Profilattribute]**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} beschrieben wird.
 * **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
@@ -91,11 +97,11 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Automatisch vervollständigen"
->abstract="Durch Aktivieren dieser Option kann das System während der Eingabe automatisch Code vorschlagen und vervollständigen. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn die Option deaktiviert ist, stellt der Editor stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
+>abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code während Ihrer Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
-Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+` , um es zum Ausdruck hinzuzufügen.
+Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im Navigationsbereich und klicken Sie auf die Schaltfläche `+` , um es zum Ausdruck hinzuzufügen.
 
-Über das Menü mit den Auslassungspunkten neben dem Symbol `+` können Sie weitere Details für jedes Attribut abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. Zu Favoriten hinzugefügte Attribute sind über das Menü **[!UICONTROL Favoriten]** im linken Navigationsbereich zugänglich.
+Über das Menü mit den Auslassungspunkten neben dem Symbol `+` können Sie weitere Details für jedes Attribut abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. Zu Favoriten hinzugefügte Attribute sind über das Menü **[!UICONTROL Favoriten]** im Navigationsbereich zugänglich.
 
 Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
@@ -114,42 +120,42 @@ Der zentrale Arbeitsbereich bietet verschiedene Tools, mit denen Sie Ihren Perso
 Verfügbare Optionen sind:
 
 1. **[!UICONTROL Suchen]**/**[!UICONTROL Suchen und Ersetzen]**: Durchsuchen Sie Ihren Ausdruck und ersetzen Sie automatisch Teile des Codes.
-1. **[!UICONTROL Rückgängig]**/**[!UICONTROL Wiederholen]**: Rückgängig/Wiederholen des letzten Vorgangs.
-1. **[!UICONTROL Automatisch vervollständigen]**: schlägt Code während der Eingabe automatisch vor und vervollständigt ihn. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn die Option deaktiviert ist, stellt der Editor stattdessen die automatische Vervollständigung von nativem HTML-Code bereit.
+1. **[!UICONTROL Rückgängig machen]**/**[!UICONTROL Wiederholen]**: Machen Sie den letzten Vorgang rückgängig oder wiederholen Sie ihn.
+1. **[!UICONTROL Automatisch vervollständigen]**: Vervollständigt Code automatisch während der Eingabe und unterbreitet Vorschläge. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
 1. **[!UICONTROL HTML]**/**[!UICONTROL JSON]**/**[!UICONTROL Text]**: Identifizieren Sie das Format Ihres Codes. Dadurch kann das System die Funktion zur Validierung und automatischen Vervollständigung basierend auf der ausgewählten Sprache anpassen.
-1. **[!UICONTROL Validate]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
+1. **[!UICONTROL Validieren]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
 1. **[!UICONTROL Als Fragment speichern]**: Speichern Sie Ihren Ausdruck als Ausdrucksfragment. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content-management/save-fragments.md#save-as-expression-fragment).
-1. **[!UICONTROL Schriftgröße]**: Passt die Schriftgröße für die Inhalte im Editor an, um die Lesbarkeit zu verbessern.
-1. **[!UICONTROL Zeilenumbruch]**: Aktiviert oder deaktiviert den Zeilenumbruch, sodass lange Ausdrücke auf einer einzelnen Zeile angezeigt oder im Editor umgebrochen werden können. Zu den Optionen gehören:
-   * **Aus** (Standard) - Kein Zeilenumbruch. Lange Zeilen gehen über die Editor-Ansicht hinaus und erfordern einen horizontalen Bildlauf.
-   * **Ein** - Schließt Zeilen in die Breite des Editors ein.
-   * **Zeilenumbruchspalte** - Zeilenumbrüche, wenn eine Zeilenzeichenanzahl 80 Zeichen erreicht.
-   * **Begrenzt** - Bettet Zeilen entweder mit der Editor-Breite oder mit 80 Zeichen ein, je nachdem, welcher Wert kleiner ist.
+1. **[!UICONTROL Schriftgrad]**: Passt den Schriftgrad für den Content im Editor an, um die Lesbarkeit zu verbessern.
+1. **[!UICONTROL Zeilenumbruch]**: Aktiviert oder deaktiviert den Zeilenumbruch, sodass lange Ausdrücke in einer einzelnen Zeile angezeigt oder im Editor umgebrochen werden können. Zu den Optionen gehören:
+   * **Aus** (Standard): Kein Zeilenumbruch. Lange Zeilen gehen über die Ansicht des Editors hinaus und erfordern einen horizontalen Bildlauf.
+   * **Ein**: Passt Zeilen mit Umbrüchen an die Breite des Editors an.
+   * **Zeilenumbruchspalte**: Fügt Zeilenumbrüche ein, wenn eine Zeile 80 Zeichen erreicht.
+   * **Begrenzt**: Fügt Zeilenumbrüche angepasst an die Editor-Breite oder bei Erreichen von 80 Zeichen ein, je nachdem, welcher Wert kleiner ist.
 
 Im Navigationsbereich stehen zusätzliche Funktionen zur Verfügung, mit denen Sie Ihren Personalisierungsausdruck erstellen können.
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL Helper-Funktionen]** - Helper-Funktionen ermöglichen es Ihnen, Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen und Bedingungen durchzuführen und diese im Rahmen der Personalisierung zu bearbeiten. [Erfahren Sie mehr über die verfügbaren Hilfsfunktionen](functions/functions.md)
+* **[!UICONTROL Hilfsfunktionen]**: Listet alle Hilfsfunktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen, Bedingungen und die Bearbeitung von Daten im Rahmen der Personalisierung verfügbar sind. [Weitere Informationen zu den verfügbaren Hilfsfunktionen](functions/functions.md)
 
-* **[!UICONTROL Favoriten]** - Attribute, die Sie den Favoriten hinzugefügt haben, werden in dieser Liste angezeigt. Auf diese Weise können Sie schnell auf Ihre am häufigsten verwendeten Elemente zugreifen. Um ein Attribut zu Ihren Favoriten hinzuzufügen, klicken Sie auf das Menü mit den Auslassungspunkten und wählen Sie **[!UICONTROL Zu Favoriten hinzufügen]**.
+* **[!UICONTROL Favoriten]**: Attribute, die Sie den Favoriten hinzugefügt haben, werden in dieser Liste angezeigt. Auf diese Weise können Sie schnell auf Ihre am häufigsten verwendeten Elemente zugreifen. Um ein Attribut zu Ihren Favoriten hinzuzufügen, klicken Sie auf das Menü mit den Auslassungspunkten und wählen Sie **[!UICONTROL Zu Favoriten hinzufügen]** aus.
 
-* **[!UICONTROL Bedingungen]** - Nutzen Sie die in der Bibliothek erstellten bedingten Regeln, um Ihren Nachrichten dynamische Inhalte hinzuzufügen. Auf diese Weise können Sie basierend auf Bedingungen mehrere Varianten Ihrer Nachricht erstellen. [Erfahren Sie, wie Sie dynamische Inhalte erstellen](../personalization/get-started-dynamic-content.md)
+* **[!UICONTROL Bedingungen]**: Nutzen Sie die in der Bibliothek erstellten bedingten Regeln, um dynamischen Content in Ihre Nachrichten einzufügen. Auf diese Weise können Sie basierend auf Bedingungen mehrere Varianten Ihrer Nachricht erstellen. [Informationen zum Erstellen von dynamischem Content](../personalization/get-started-dynamic-content.md)
 
-* **[!UICONTROL Fragments]** - Nutzen Sie Ausdrucksfragmente, die erstellt oder in der aktuellen Sandbox gespeichert wurden. Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Erfahren Sie, wie Sie Ausdrucksfragmente für die Personalisierung verwenden](../personalization/use-expression-fragments.md)
+* **[!UICONTROL Fragmente]**: Nutzen Sie Ausdrucksfragmente, die in der aktuellen Sandbox erstellt oder gespeichert wurden. Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zur Verwendung von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
 
 Wenn Ihr Personalisierungsausdruck fertig ist, müssen Sie ihn vom Personalisierungseditor validieren lassen.  Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
 
 ## Mechanismen der Validierung {#validation-mechanisms}
 
-Die Überprüfung Ihres Ausdrucks wird automatisch ausgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, um das Editor-Fenster zu schließen. Sie können auch die Schaltfläche **Validieren** verwenden, um Ihre Personalisierungssyntax zu überprüfen.
+Die Validierung Ihres Ausdrucks wird automatisch durchgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, wodurch das Editorfenster geschlossen wird. Sie können Ihre Personalisierungssyntax auch mit der Schaltfläche **Validieren** überprüfen.
 
 ![](assets/perso_validation1.png)
 
-Erweitern Sie den folgenden Abschnitt, um häufige Fehler bei der Validierung der Personalisierung anzuzeigen.
+Erweitern Sie den folgenden Abschnitt, um Fehler anzuzeigen, die häufig bei der Validierung von Personalisierungen auftreten.
 
 +++Häufige Fehler
 
@@ -165,7 +171,7 @@ In diesem Fall ist **firstName1** nicht als Attribut im Profilschema definiert:
 
 * **Typ für Variable „XYZ“ stimmt nicht überein. Array erwartet, Zeichenfolge gefunden.**
 
-Beim Versuch, über eine Zeichenfolge statt über ein Array zu iterieren.
+Beim Versuch, über eine Zeichenfolge, statt über ein Array zu iterieren:
 
 In diesem Fall ist **product** kein Array:
 
@@ -193,7 +199,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 
 +++
 
-Bei Angeboten können spezifische Fehler auftreten. Erweitern Sie den folgenden Abschnitt, um weitere Details anzuzeigen:
+Bei Angeboten können spezifische Fehler auftreten. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
 +++ Spezifische Fehler im Zusammenhang mit Angeboten
 
