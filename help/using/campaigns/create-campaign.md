@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
-workflow-type: ht
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -169,7 +169,7 @@ Bei E-Mail-, SMS- und Push-Benachrichtigungs-Kampagnen können Sie festlegen, mi
 
 >[!NOTE]
 >
->Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen gemäß ihren Wiederholungsregeln auf das nächste verfügbare Zeitfenster verschoben.
+>Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen auf den nächsten verfügbaren Zeitschlitz gemäß ihren Wiederholungsregeln verschoben.
 
 ## Weitere Einstellungen {#settings}
 

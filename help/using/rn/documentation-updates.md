@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 * Die Seite über Zielgruppen-Qualifizierungsereignisse wurde mit neuen Empfehlungen aktualisiert. [Weitere Informationen](../building-journeys/audience-qualification-events.md)
 * Die Fehlerbehebungsfunktion für benutzerdefinierte Aktionen ist jetzt für alle Kundinnen und Kunden verfügbar (GA). [Weitere Informationen](../action/troubleshoot-custom-action.md)
+* Datenhygiene heißt jetzt Datenlebenszyklus in der Benutzeroberfläche des Produkts. Die Dokumentation wurde entsprechend dieser Änderung aktualisiert. [Weitere Informationen](../privacy/data-hygiene.md)
+* Die fehlenden integrierten Berechtigungen für die Landingpage wurden der Dokumentation hinzugefügt. [Weitere Informationen](../administration/ootb-permissions.md)
+* Es wurde ein Hinweis zur Planung wiederkehrender Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/create-campaign.md)
+* Der Abschnitt zum Einfügen von Links und Aktivieren des Trackings in einer E-Mail-Nachricht wurde aktualisiert und neu organisiert. [Weitere Informationen](../email/message-tracking.md)
+* Der Abschnitt über Personalisierungsfunktionen in Adobe Journey Optimizer wurde neu organisiert und verbessert. [Weitere Informationen](../personalization/personalize.md)
+* Die Entscheidungs-Management-API zur Liste personalisierter Angebote wurde mit einem Beispiel aktualisiert, um eine Paginierung durchzuführen, wenn mehrere personalisierte Angebote in der Antwort fehlen. [Weitere Informationen](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## Februar 2025 {#feb-2025}
 
-* Die Leitlinien für die Aktivität „Zielgruppe lesen“ wurden aktualisiert. Sie geben jetzt vor, dass in einer Journey nur eine Aktivität verwendet werden und diese nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
-* Die Journey-Leitlinien bei der Verwendung von Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
+* Die Leitplanken für die Aktivität „Zielgruppe lesen“ wurden aktualisiert und geben jetzt an, dass nur eine Aktivität auf einer Journey verwendet werden kann und dass sie nur eine Zielgruppe ansprechen kann. [Weitere Informationen](../building-journeys/read-audience.md)
+* Journey-Schutzmechanismen bei der Verwendung von Adobe Campaign-Aktivitäten wurden aktualisiert. [Weitere Informationen](../start/guardrails.md#ac-g)
 * Die Schritte zum Erstellen Ihrer ersten Journey wurden ausführlich beschrieben, und zum Dokumentationsabschnitt wurden Links hinzugefügt. [Weitere Informationen](../building-journeys/journey-gs.md)
 * Es ist jetzt eine neue Seite verfügbar, auf der das Journey-Dashboard und die Benutzeroberfläche zum Filtern beschrieben werden. [Weitere Informationen](../building-journeys/journey-ui.md)
 * Die Dokumentation zur **[!UICONTROL Optimierung des Versandzeitpunkts]** und die zugehörigen häufig gestellten Fragen wurden aktualisiert, verbessert und auf eine neue dedizierte Seite verschoben. [Weitere Informationen](../building-journeys/send-time-optimization.md)
