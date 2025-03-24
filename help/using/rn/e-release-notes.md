@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 38%
+source-wordcount: '738'
+ht-degree: 37%
 
 ---
 
@@ -171,3 +171,7 @@ Sie können jetzt Subdomains zuweisen, wobei DMARC von der übergeordneten Seite
 **Geschäftsregeln**
 
 Sie können jetzt die tägliche Frequenzlimitierung in Journey und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzlimitierung zu gewährleisten, müssen Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+
+**Content-Management**
+
+Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren.
