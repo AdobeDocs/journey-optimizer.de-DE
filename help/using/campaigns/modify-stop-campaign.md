@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführun
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Kampagnentabelle und Zeitleisten -Ansichten"
->abstract="Tabellen- und Zeitleisten-Ansichten für Kampagnen"
+>title="Ansichten von Kampagnentabellen und -Timelines"
+>abstract="Ansichten von Kampagnentabellen und -Timelines"
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 

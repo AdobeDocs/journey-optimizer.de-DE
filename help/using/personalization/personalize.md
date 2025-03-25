@@ -10,7 +10,7 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 

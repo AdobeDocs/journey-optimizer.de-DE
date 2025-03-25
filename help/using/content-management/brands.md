@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,28 +39,28 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
->title="Farbbewertung"
->abstract="Farbbewertung"
+>title="Farbwert"
+>abstract="Farbwert"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_fonts"
->title="Schriftartenbewertung"
->abstract="Schriftartenbewertung"
+>title="Schriftartenwert"
+>abstract="Schriftartenwert"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_logos"
->title="Logos-Bewertung"
->abstract="Logos-Bewertung"
+>title="Logowert"
+>abstract="Logowert"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="Bildbewertung"
->abstract="Bildbewertung"
+>title="Bildwert"
+>abstract="Bildwert"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Schreibstil-Bewertung"
->abstract="Schreibstil-Bewertung"
+>title="Schreibstilwert"
+>abstract="Schreibstilwert"
 
 >[!AVAILABILITY]
 >

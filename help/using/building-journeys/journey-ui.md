@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Tabellen- und Zeitleisten-Journey-Ansichten"
->abstract="Tabellen- und Zeitleisten-Journey-Ansichten"
+>title="Ansichten von Journey-Tabellen und -Timelines"
+>abstract="Ansichten von Journey-Tabellen und -Timelines"
 
 Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
 
