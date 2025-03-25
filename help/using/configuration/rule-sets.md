@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 90%
 
 ---
@@ -142,7 +142,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
    >[!AVAILABILITY]
    >
-   >Die Dauer „Täglich“ ist nur auf Anfrage verfügbar. Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+   >Die „tägliche“ Dauer ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
