@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
+source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 89%
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      >[!AVAILABILITY]
      >
-     >Die „tägliche“ Dauer ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+     >Die „tägliche“ Dauer ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
      In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
 
