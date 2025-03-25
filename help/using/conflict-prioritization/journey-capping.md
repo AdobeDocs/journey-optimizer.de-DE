@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,10 @@ Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an
 * **Begrenzung gleichzeitiger Journeys**: Beschränkt, an wie vielen Journeys ein Profil gleichzeitig teilnehmen kann.
 
 Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu steuern.
+
+>[!AVAILABILITY]
+>
+>**Journey** Domain-Regelsätze sind nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
@@ -41,7 +45,7 @@ Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu st
 
 Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
-1. Navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln (Beta)]**, um auf den Regelsatzbestand zuzugreifen.
+1. Navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]**, um auf das Regelsatzinventar zuzugreifen.
 
 1. Wählen Sie den Regelsatz aus, dem Sie die Begrenzungsregel hinzufügen möchten, oder erstellen Sie einen neuen Regelsatz:
 
@@ -73,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      >[!AVAILABILITY]
      >
-     >Die „Tägliche“ Dauer ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter.
+     >Die Dauer „Täglich“ ist nur auf Anfrage verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
      In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
 
@@ -120,7 +124,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 >[!IMPORTANT]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System Kundinnen und Kunden unterdrückt. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
 Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
 

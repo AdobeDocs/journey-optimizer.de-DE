@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
-workflow-type: ht
-source-wordcount: '1933'
-ht-degree: 100%
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+workflow-type: tm+mt
+source-wordcount: '2013'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ### Was sind Regelsätze? {#what}
 
-Zusätzlich zu den globalen Verfahrensregeln, die die Anzahl der Nachrichten einschränken, die Benutzende über einen oder mehrere Kanäle erhalten, können Sie mit Regelsätzen **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
+Zusätzlich zu den globalen Geschäftsregeln, die die Anzahl der Nachrichten einschränken, die Benutzende über einen oder mehrere Kanäle erhalten, können Sie mit Regelsätzen **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, mit der gesteuert wird, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
@@ -35,9 +35,9 @@ Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilu
 
 ### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
-Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Verfahrensregeln (Beta)]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
+Beim erstmaligen Zugriff auf Regelsätze über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** wird ein Standardregelsatz vorab erstellt und aktiv: **Globaler Standardregelsatz**.
 
-Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Verfahrensregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Verfahrensregeln arbeitet](../configuration/rule-sets.md)
+Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Geschäftsregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Geschäftsregeln arbeitet](../configuration/rule-sets.md)
 
 Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdefinierte Regelsätze** erstellen, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb dieser Kampagne gesendeten Nachrichten zu beschränken. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
 
@@ -55,6 +55,10 @@ Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz
 * **Kanal**-Domain: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * **Journey**-Domain: Wenden Sie Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
+>[!AVAILABILITY]
+>
+>Während **Channel**-Domain-Regelsätze für alle Benutzer verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+
 ## Erstellen Ihres ersten benutzerdefinierten Regelsatzes {#create-rule-set}
 
 ### Erstellen des Regelsatzes und Auswählen seiner Domain {#create}
@@ -62,6 +66,8 @@ Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
+>
+>Um einen Regelsatz zu erstellen, benötigen Sie die Berechtigung `Manage Messages Presets` . [Weitere Informationen zur Benutzerverwaltung](../administration/permissions-overview.md)
 >
 >Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
 
@@ -74,6 +80,10 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 1. Wählen Sie die Domain des Regelsatzes aus. Mithilfe der Domain können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journeys spezifisch sind. [Weitere Informationen zu Begrenzungsregeln für Kanäle und Journeys](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Während **Channel**-Domain-Regelsätze für alle Benutzer verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -208,7 +218,7 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Zugriff auf und Verwaltung von Regelsätzen {#access-rule-sets}
 
-Alle erstellten Regelsätze werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Verfahrensregeln (Beta)]** angezeigt. Sie werden nach dem Datum der letzten Änderung sortiert.
+Alle erstellten Regelsätze werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** angezeigt. Sie werden nach dem Datum der letzten Änderung sortiert.
 
 ![](assets/rule-sets-list.png)
 
@@ -246,7 +256,7 @@ Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausge
 
 1. Wenn Sie eine [Kampagne](../campaigns/create-campaign.md) erstellen, wählen Sie einen der Kanäle, die Sie für Ihren Regelsatz festgelegt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
-1. Klicken Sie im Bildschirm für die Bearbeitung von Inhalten auf die Schaltfläche **[!UICONTROL Verfahrensregel hinzufügen]**.
+1. Klicken Sie im Bildschirm für die Bearbeitung von Inhalten auf die Schaltfläche **[!UICONTROL Geschäftsregel hinzufügen]**.
 
 1. Wählen Sie den [Regelsatz, den Sie festgelegt haben](#create-rule-set).
 
@@ -260,7 +270,7 @@ Sie können einen Regelsatz je nach der bei der Erstellung des Regelsatzes ausge
 
 1. Bevor Sie Ihre Kampagne aktivieren, stellen Sie sicher, dass Sie die Ausführung mindestens 20 Minuten im Voraus planen.
 
-   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Verfahrensregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden angezeigt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt.
+   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden angezeigt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt.
 
    ![](assets/rule-set-schedule-campaign.png)
 
