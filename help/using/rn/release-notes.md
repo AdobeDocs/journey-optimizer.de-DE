@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <ul>
 <li>Zentrale Verwaltung von Assets mit Echtzeit-Updates</li>
 <li>Sofortiges Ändern von Asset-Einstellungen wie Breite und Höhe</li>
-<li>Personalisieren von Inhalten mit Bildern mit Textüberlagerungen</li>
 <li>Anpassen von Dynamic Media-Vorlagen durch Aktualisieren von Inhalten und Hinzufügen von Personalisierungsfeldern</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 **Personalization-Editor** (Verfügbarkeitsdatum: 12. März)
 
 Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweitert:
+
 * **Aktualisiertes Design für den Code-Editor**: Eine sauberere, moderne Benutzeroberfläche für verbesserte Benutzerfreundlichkeit und Fokus.
 * **Suchen und Ersetzen**: Es wurde eine Funktion hinzugefügt, mit der Content im Editor schnell gesucht und ersetzt werden kann.
 * **Unterstützung zum Rückgängigmachen und Wiederholen**: Ermöglicht das einfache Zurücksetzen oder erneute Anwenden von Änderungen.
@@ -174,7 +174,7 @@ Sie können jetzt die tägliche Frequenzlimitierung in Journey und Kampagnen mit
 
 **Content-Management**
 
-Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren.
+Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 
 ## Februar 2025 – Versionshinweise {#25-02-rn}
