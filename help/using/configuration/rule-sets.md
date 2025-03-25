@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 94%
 
 ---
@@ -32,6 +32,15 @@ Zusätzlich zu den globalen Geschäftsregeln, die die Anzahl der Nachrichten ein
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
+
+### Berechtigungen {#permissions-frequency-rules}
+
+Um mit Geschäftsregeln arbeiten zu können, benötigen Sie die folgenden Berechtigungen:
+
+* **[!UICONTROL Anzeigen von Häufigkeitsregeln]**: Zugreifen auf und Anzeigen von Geschäftsregeln.
+* **[!UICONTROL Häufigkeitsregeln verwalten]**: Erstellen, Bearbeiten oder Löschen von Geschäftsregeln.
+
+Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
@@ -66,8 +75,6 @@ Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
->
->Um einen Regelsatz zu erstellen, benötigen Sie die Berechtigung `Manage Messages Presets` . [Weitere Informationen zur Benutzerverwaltung](../administration/permissions-overview.md)
 >
 >Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
 
@@ -237,16 +244,6 @@ Für jede Regel im Regelsatz können Sie über die Schaltfläche **[!UICONTROL W
 * Löschen der Regel
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## Anwenden von Regelsätzen auf eine Nachricht oder Journey {#apply-frequency-rule}
 
