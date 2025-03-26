@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1150'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,9 @@ Journey-Versionen können einzeln angehalten werden. Alle Versionen einer Journe
 Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
 
 
+>[!NOTE]
+>
+>Für die Versionierung der Journey gelten spezifische Leitplanken und Einschränkungen. Weiterführende Informationen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
 

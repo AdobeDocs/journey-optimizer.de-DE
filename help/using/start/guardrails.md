@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: ht
-source-wordcount: '2346'
-ht-degree: 100%
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+workflow-type: tm+mt
+source-wordcount: '2471'
+ht-degree: 93%
 
 ---
 
@@ -22,12 +22,6 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 Berechtigungen, Produkteinschränkungen und die Performance betreffende Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
 Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
-
-
->[!NOTE]
->
->In seltenen Fällen können temporäre Ausfälle in einer bestimmten Region dazu führen, dass gültige Profile von Journeys ausgeschlossen werden oder dass E-Mails fälschlicherweise als Bounces markiert werden. Sobald die Services wiederhergestellt sind, überprüfen Sie die Journey-Protokolle erneut, verifizieren Sie die Einverständnisprofilfelder und veröffentlichen Sie die Journey bei Bedarf erneut. [In diesem Abschnitt](../configuration/manage-suppression-list.md#remove-from-suppression-list) erfahren Sie, wie Sie im Falle eines ISP-Ausfalls Profile aus der Unterdrückungsliste entfernen.
->
 
 ## Unterstützte Browser {#browsers}
 
@@ -44,12 +38,21 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 ## Leitlinien für Kanäle {#channel-guardrails}
 
+>[!NOTE]
+>
+>In seltenen Fällen können temporäre Ausfälle in einer bestimmten Region dazu führen, dass gültige Profile von Journeys ausgeschlossen werden oder dass E-Mails fälschlicherweise als Bounces markiert werden. Sobald die Services wiederhergestellt sind, überprüfen Sie die Journey-Protokolle erneut, verifizieren Sie die Einverständnisprofilfelder und veröffentlichen Sie die Journey bei Bedarf erneut. [In diesem Abschnitt](../configuration/manage-suppression-list.md#remove-from-suppression-list) erfahren Sie, wie Sie im Falle eines ISP-Ausfalls Profile aus der Unterdrückungsliste entfernen.
+>
+
 ### Leitlinien für E-Mails {#message-guardrails}
+
+Die folgenden Leitplanken gelten für den [E-Mail-Kanal](../email/get-started-email.md):
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
 ### Leitlinien für SMS {#sms-guardrails}
+
+Die folgenden Leitplanken gelten für den [SMS-Kanal](../sms/get-started-sms.md):
 
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
@@ -57,7 +60,7 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 ### Leitlinien für Web-Kanäle {#web-guardrails}
 
-Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
+[!DNL Journey Optimizer] [Web-Kampagnen](../web/get-started-web.md) zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
 
 Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
@@ -66,6 +69,8 @@ Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Prod
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md) erfüllen:
 
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
+
+Die folgenden Leitplanken gelten für die [Landingpages](../landing-pages/get-started-lp.md):
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
 * Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
@@ -78,7 +83,11 @@ Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt bis zu 10 Sub
 
 Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
+Weitere Informationen zur Domain-Delegierung finden Sie auf [dieser Seite](../configuration/delegate-subdomain.md).
+
 ## Fragmentleitlinien {#fragments-guardrails}
+
+Die folgenden Leitplanken gelten für die [Fragmente](../content-management/fragments.md):
 
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
@@ -86,6 +95,8 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 ## Leitlinien für Zielgruppen {#audience}
 
 Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+
+Weitere Informationen zu Audience-Kompositionen finden [ auf dieser Seite](../audience/get-started-audience-orchestration.md).
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
@@ -108,12 +119,16 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 
 ### Allgemeine Aktionen {#general-actions-g}
 
+Die folgenden Leitplanken gelten für die [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journey:
+
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 * Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
 
 ### Journey-Versionen {#journey-versions-g}
+
+Die folgenden Leitplanken gelten für die [Journey-Versionen](../start/user-interface.md):
 
 * Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Zielgruppen-Qualifizierungsereignis** beginnen.
 * Eine Journey, die in Version 1 mit einer Aktivität vom Typ **Zielgruppen-Qualifizierung** beginnt, muss in weiteren Versionen immer mit einer **Zielgruppen-Qualifizierung** beginnen.
@@ -123,6 +138,8 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 * Sie können keine neue Version einer „Zielgruppe lesen“-Journey mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
+
+Die folgenden Leitplanken gelten für die [benutzerdefinierten Aktionen](../action/action.md) in Ihren Journey:
 
 * Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
@@ -139,6 +156,8 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 
 ### Ereignisse {#events-g}
 
+Die folgenden Leitplanken gelten für die [Ereignisse](../event/about-events.md) in Ihren Journey:
+
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde.
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu 5 Minuten dauern, bis die erste Aktion in der Journey verarbeitet wird.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
@@ -146,7 +165,9 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Über Ereignisse, die in Batches aufgenommen werden, oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) kann eine Journey nicht ausgelöst werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
 
-### Datenquellen {#data-sources-g}
+### Datenquellen  {#data-sources-g}
+
+Die folgenden Leitplanken gelten für die [Datenquellen](../datasource/about-data-sources.md) in Ihren Journey:
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
@@ -173,7 +194,7 @@ Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Sch
 
 ### Lesen der Zielgruppe {#read-segment-g}
 
-Für die Aktivität **[!UICONTROL Zielgruppe lesen]** gelten die folgenden Schutzmechanismen:
+Die folgenden Leitplanken gelten für die Journey[Aktivität „Zielgruppe lesen](../building-journeys/read-audience.md):
 
 * Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.
 * Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Es werden zwar weitere Versuche vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder beginnend mit „so bald wie möglich“) exakt zur gleichen Zeit beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. im Abstand von 5 bis 10 Minuten.
@@ -185,15 +206,19 @@ Für die Aktivität **[!UICONTROL Zielgruppe lesen]** gelten die folgenden Schut
 
 ### Zielgruppen-Qualifizierung {#audience-qualif-g}
 
-Für die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** gilt der folgende Schutzmechanismus:
+Die folgende Schutzmaßnahme gilt für die Journey[Aktivität „Zielgruppen](../building-journeys/audience-qualification-events.md)Qualifizierung“:
 
 * Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 
 ### Ausdruckseditor {#expression-editor}
 
+Die folgende Schutzmaßnahme gilt für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md):
+
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
 
 ### In-App-Aktivität {#in-app-activity-limitations}
+
+Die folgenden Leitplanken gelten für die Aktion **[!UICONTROL In-App-Nachricht]**. Weitere Informationen zu In-App-Nachrichten finden Sie auf [dieser Seite](../in-app/create-in-app.md).
 
 * Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
 
