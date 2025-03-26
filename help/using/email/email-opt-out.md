@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 95%
 
 ---
 
@@ -41,51 +41,7 @@ Wenn eine Empfängerin oder ein Empfänger auf den Link zum Opt-out mit einem Kl
 
 ### URL zum Abmelden mit einem Klick in der E-Mail-Kopfzeile {#unsubscribe-header}
 
-<!--Do not modify - Legal Review Done -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="Hinzufügen einer Abmelde-URL zu Ihren E-Mails"
->abstract="Aktivieren Sie „Von der Liste abmelden“, um eine Abmelde-URL zur E-Mail-Kopfzeile hinzuzufügen. Sie können auch eine Abmelde-URL in einer Nachricht einrichten, indem Sie einen Ein-Klick-Ausschluss-Link in den Inhalt der E-Mail einfügen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Abmelden mit einem Klick über den E-Mail-Inhalt"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Option „Abmelden von der Liste aktivieren“ in der E-Mail-Konfiguration"
-
-Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. 
-
-Wenn in [!DNL Adobe Journey Optimizer] die Option **Abmelden von der Liste aktivieren** aktiviert ist, enthält die Kopfzeile der E-Mail standardmäßig sowohl einen Mailto-Link als auch eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.
-
-Der Schalter für [Abmelden von der Liste aktivieren](email-settings.md#list-unsubscribe) muss auf der Ebene der Kanalkonfiguration aktiviert sein, damit für E-Mails, die diese Konfiguration verwenden, die URL zum Abmelden mit einem Klick in die Kopfzeile der E-Mail aufgenommen wird.
-
->[!NOTE]
->
->Um die URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail anzuzeigen, muss der E-Mail-Client der Empfängerinnen und Empfänger diese Funktion unterstützen.
-
-
-Die URL zum Abmelden mit einem Klick zeigt beispielsweise in Gmail einen Abmelde-Link wie diesen an:
-
-![](assets/unsubscribe-header.png)
-
-
-<!--With Adobe Journey Optimizer, you can configure your email configuration settings with an auto-generated one-click unsubscribe URL and mailto address in the email header, or include a one-click opt-out URL in your email body: when a recipient clicks the one-click opt-out link, recipient's unsubscribe request is processed accordingly.-->
-
-<!--
->[!AVAILABILITY]
->
->One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
->
--->
-
-Je nach E-Mail-Client und den [Abmeldeeinstellungen der E-Mail-Konfiguration](email-settings.md#list-unsubscribe) hat das Klicken auf den Abmelde-Link in der Kopfzeile der E-Mail folgende Auswirkungen:
-
-* Wenn die Funktion **E-Mail an (abmelden)** aktiviert ist, wird die Abmeldeanfrage an die Standardadresse zur Abmeldung gesendet, die auf der von Ihnen konfigurierten Subdomain basiert.
-* Wenn die Funktion **URL zum Abmelden mit einem Klick** aktiviert ist – oder wenn Sie eine Abmelde-URL in den Inhalt Ihres E-Mail-Textkörpers eingefügt haben – werden Empfängerinnen und Empfänger direkt abgemeldet, und zwar entweder auf Kanal- oder ID-Ebene (je nach Einverständniseinstellungen), wenn sie auf die URL zum Abmelden mit einem Klick (basierend auf der von Ihnen konfigurierten Subdomain) klicken.
-
-![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-In beiden Fällen wird das entsprechende Profil für die Empfängerin bzw. den Empfänger sofort abgemeldet und diese Wahl in Experience Platform aktualisiert.  Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
-
-Wenn Sie die Option **[!UICONTROL Abmelden von der Liste aktivieren]** in den [E-Mail-Konfigurationseinstellungen](email-settings.md#list-unsubscribe) aktiviert haben, empfehlen wir, beide Methoden zu aktivieren – sowohl **E-Mail an (abmelden)** als auch **URL zum Abmelden mit einem Klick**. Nicht alle E-Mail-Clients unterstützen die HTTP-Methode. Indem wir Ihnen die Mailto-Funktion zum Abmelden von der Liste bereitstellen, die Sie als Alternative auswählen können, kann Ihr Ruf als Absenderin oder Absender besser geschützt werden und all Ihre Empfängerinnen und Empfänger können auf die Abmeldefunktion zugreifen. [Weitere Informationen](email-settings.md#list-unsubscribe)
-
+Die Abmelde-URL mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche neben den E-Mail-Absenderinformationen, über den bzw. die Empfänger Ihre Mailing-Listen sofort mit einem einzigen Klick abmelden können. In diesem Abschnitt erfahren Sie **[!UICONTROL wie Sie die Option]** Abmelden von einer Liste[ verwalten](list-unsubscribe.md).
 
 ### Abmelden mit einem Klick über den E-Mail-Inhalt {#one-click-opt-out}
 
@@ -100,7 +56,7 @@ Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen Link zum Abme
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **[!UICONTROL Von der Liste abmelden]** auf [Ebene der Kanalkonfiguration](email-settings.md#list-unsubscribe) aktiviert und die standardmäßige **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert haben, wird diese Landingpage ebenfalls verwendet, wenn Benutzende in der Kopfzeile der E-Mail auf den Abmelde-Link klicken. [Weitere Informationen](#unsubscribe-header)
+   >Wenn Sie die Option **[!UICONTROL Von der Liste abmelden]** auf [Ebene der Kanalkonfiguration](email-settings.md#list-unsubscribe) aktiviert und die standardmäßige **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert haben, wird diese Landingpage ebenfalls verwendet, wenn Benutzende in der Kopfzeile der E-Mail auf den Abmelde-Link klicken. [Weitere Informationen](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
