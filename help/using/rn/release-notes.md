@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
+source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1328'
 ht-degree: 64%
 
 ---
@@ -23,51 +23,66 @@ ht-degree: 64%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 
-## Frühzeitige Versionshinweise März 2025 {#25-3-rn}
-
-
-**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
-
-**Veröffentlichungsdatum**: 26.-27. März 2025
+## Versionshinweise März 2025 {#25-3-rn}
 
 
 ### Neue Funktionen {#25-03-features}
 
 Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Integration mit Adobe Express</strong><br/></th>
+<th><strong>Integration mit Adobe Express (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Durch die Adobe Express-Integration in Adobe Journey Optimizer können Sie die Bearbeitungs-Tools von Adobe Express direkt während der Inhaltserstellung verwenden, sodass Sie die Größe ändern, Hintergründe entfernen, Assets zuschneiden und in JPEG oder PNG konvertieren können.<p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Die Adobe Express-Integration in Adobe Journey Optimizer ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Es kann nicht für die Verwendung mit Healthcare Shield oder Privacy and Security Shield bereitgestellt werden.</p>
+<p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
+</br>
+<img src="assets/do-not-localize/express_resize.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderansicht für Journey (Eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey-Metriken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Eine Kalenderansicht ermöglicht es Ihnen jetzt, alle Journey-Aktivierungen zu visualisieren. Diese Funktion wird als eingeschränkte Verfügbarkeit für ausgewählte Kundengruppen veröffentlicht.<p>
-<p>Diese Änderung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Es sind jetzt Journey-Metriken verfügbar, mit denen Sie die Wirkung Ihrer Aktivitäten in allen Schlüsselmetriken Ihres Unternehmens messen und klarere Einblicke in Ihre Leistung erhalten können.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/success-metrics.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/success-metric.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
+<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
@@ -86,7 +101,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </ul>
 <p>
 <p>Diese Integration ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../integrations/aem-dynamic.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -105,28 +120,30 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten, können Sie jetzt GenStudio for Performance Marketing-Erlebnisse nahtlos in Journey Optimizer integrieren. Auf diese Weise können Sie die KI-gestützte Inhaltserstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Journey Optimizer nutzen.<p>
 <p>Die Verwendung der GenStudio-Integration in Journey Optimizer ist derzeit nicht für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar (eingeschränkte Verfügbarkeit).</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../integrations/genstudio.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+
+<!--table>
 <thead>
 <tr>
-<th><strong>LINE-Kanal (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>LINE channel (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer hat seine kanalübergreifenden Funktionen um die Unterstützung des LINE-Kanals erweitert. Diese Verbesserung ermöglicht es Ihnen, LINE-Erlebnisse zu erstellen, zu bearbeiten und in der Vorschau anzuzeigen, was eine stärker personalisierte und ansprechendere Interaktion ermöglicht. Mit LINE können Sie mit mehr Kunden in Kontakt treten, relevante Inhalte versenden und Ihre Interaktion verbessern.<p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 ### Verbesserungen {#25-03-improv}
@@ -134,7 +151,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 **Personalization-Editor** (Verfügbarkeitsdatum: 12. März)
 
 Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweitert:
-
 * **Aktualisiertes Design für den Code-Editor**: Eine sauberere, moderne Benutzeroberfläche für verbesserte Benutzerfreundlichkeit und Fokus.
 * **Suchen und Ersetzen**: Es wurde eine Funktion hinzugefügt, mit der Content im Editor schnell gesucht und ersetzt werden kann.
 * **Unterstützung zum Rückgängigmachen und Wiederholen**: Ermöglicht das einfache Zurücksetzen oder erneute Anwenden von Änderungen.
@@ -153,17 +169,25 @@ Beim Definieren der Bedingungen für eine Genehmigungsrichtlinie haben Sie jetzt
 
 **Konfiguration**
 
-* Sie können jetzt Kanalkonfigurationen einheitliche Adobe Experience Platform-Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern.
+* Sie können jetzt Kanalkonfigurationen einheitliche Adobe Experience Platform-Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. [Weitere Informationen](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Beim Einrichten oder Bearbeiten einer E-Mail-Subdomain in Journey Optimizer können Sie jetzt festlegen, dass der zugehörige DMARC-Eintrag eigenständig verwaltet wird, sofern er in der übergeordneten Domain verfügbar ist.
+* Beim Einrichten oder Bearbeiten einer E-Mail-Subdomain in Journey Optimizer können Sie jetzt festlegen, dass der zugehörige DMARC-Eintrag eigenständig verwaltet wird, sofern er in der übergeordneten Domain verfügbar ist. [Weitere Informationen](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Geschäftsregeln**
 
 Sie können jetzt die tägliche Frequenzlimitierung in Journey und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzlimitierung zu gewährleisten, müssen Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-**Content-Management**
+Zur Erinnerung: Die tägliche Frequenzlimitierung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+Weitere Informationen zu Geschäftsregeln finden Sie in der [ Dokumentation ](../configuration/rule-sets.md).
+
+<!--**Content management**
+
+To easily manage your fragments and your content templates, you can now use folders to organize them more effectively into a structured hierarchy. This improvement is only available for a set of organizations (Limited Availability). <!--To gain access, contact your Adobe representative.
+
+**Deliverability**
+
+You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
 
 
 ## Februar 2025 – Versionshinweise {#25-02-rn}
