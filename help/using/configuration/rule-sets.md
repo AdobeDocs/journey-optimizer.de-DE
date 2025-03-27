@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 89%
+source-wordcount: '2045'
+ht-degree: 88%
 
 ---
 
@@ -153,10 +153,8 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
    * **[!UICONTROL Täglich]**: Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
 
      >[!CAUTION]
-     >
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, ist die Verwendung der [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} obligatorisch. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
-     >
-     >Außerdem müssen Sie beim Verfassen einer Kampagne oder Journey sicherstellen, dass Sie den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     > 
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzlimitierung zu gewährleisten, müssen Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 
