@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 61%
+source-wordcount: '1389'
+ht-degree: 64%
 
 ---
 
@@ -146,15 +146,6 @@ Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweit
 ![Video mit der neuen Funktion im Personalization-Editor](assets/do-not-localize/personalization-editor.gif)
 
 Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../personalization/personalization-build-expressions.md).
-
-**Kampagnen**
-
-* Wenn Sie in der Kampagnenliste eine Kampagne auswählen, wird jetzt ein Bereich mit den zugehörigen Details geöffnet.
-* Sie können Ihre Kampagnen jetzt aus einer Sandbox in eine andere kopieren.
-
-**Personalisierung**
-
-Im Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert.
 
 **Genehmigungen**
 
