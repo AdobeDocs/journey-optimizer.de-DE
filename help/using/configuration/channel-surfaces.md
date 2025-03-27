@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
-source-wordcount: '1737'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '1800'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,19 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k�
 
 ![](assets/preset-activate.png)
 
+## Hinzufügen von Tags zu einer Kanalkonfiguration {#channel-config-tags}
+
+1. Rufen Sie die Liste der Kanalkonfigurationen auf.
+
+1. Klicken Sie für die aktive Konfiguration Ihrer Wahl auf die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
+
+1. Klicken Sie **[!UICONTROL Tags bearbeiten]**.
+
+1. Wählen Sie Adobe Experience Platform-Tags aus der Liste aus, um Ihre Kanalkonfiguration zu kategorisieren und so die Suche zu verbessern. [Informationen zum Arbeiten mit einheitlichen Tags](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. Nachdem Sie Ihren Kanalkonfigurationen Tags zugewiesen haben, können [ sie nach ](../start/search-filter-categorize.md#filter-on-tags) filtern.
 
 ## Anleitungsvideo{#video-presets}
 

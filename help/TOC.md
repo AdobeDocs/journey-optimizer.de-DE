@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 94%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 94%
    + Erstellen einer Journey{#create-journey}
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
+      + [Konfigurieren und Verfolgen der Journey-Metrik](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Simulieren der Journey](using/building-journeys/journey-simulation.md)
@@ -172,16 +173,16 @@ ht-degree: 94%
          + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Mehrstufige Kampagnen {#ms-campaigns}
    + [Erste Schritte mit mehrstufigen Kampagnen](using/ms/gs-ms-campaigns.md)
-   + [Grundprinzipien](using/ms/gs-campaign-creation.md)
+   + [Grundlegende Prinzipien](using/ms/gs-campaign-creation.md)
    + Konfiguration {#ms-config}
       + [Schemata](using/ms/ms-schemas.md)
       + [Arbeiten mit Ereignisvariablen](using/ms/event-variables.md)
-   + Erstellen Ihres ersten mehrstufigen {#create-ms-campaign}
+   + Erstellen Ihrer ersten mehrstufigen Kampagne {#create-ms-campaign}
       + [Erstellen einer orchestrierten Kampagne](using/ms/create-ms-campaign.md)
       + [Orchestrieren von Aktivitäten](using/ms/orchestrate-activities.md)
-      + [Kampagneneinstellungen konfigurieren](using/ms/ms-campaign-settings.md)
-      + [Starten und Überwachen von Kampagnen](using/ms/start-monitor-campaigns.md)
-      + [Personalisierung verwalten](using/ms/ms-personalization.md)
+      + [Konfigurieren der Kampagneneinstellungen](using/ms/ms-campaign-settings.md)
+      + [Starten und Überwachen Ihrer Kampagnen](using/ms/start-monitor-campaigns.md)
+      + [Verwalten der Personalisierung](using/ms/ms-personalization.md)
    + Mehrstufige Kampagnenaktivitäten {#design-campaigns}
       + [Über mehrstufige Kampagnenaktivitäten](using/ms/activities/about-activities.md)
       + [Und-Verknüpfung](using/ms/activities/and-join.md)
@@ -324,6 +325,11 @@ ht-degree: 94%
          + [Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK](using/content-card/content-card-configuration-sdk.md)
       + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
       + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [Erste Schritte mit WhatsApp-Nachrichten](using/whatsapp/get-started-whatsapp.md)
+      + [Konfigurieren des WhatsApp-Kanals in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Erstellen einer WhatsApp-Nachricht](using/whatsapp/create-whatsapp.md)
+      + [Überprüfen und Senden von WhatsApp-Nachrichten](using/whatsapp/send-whatsapp.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -338,7 +344,7 @@ ht-degree: 94%
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
 + Content Management {#content-management}
-   + KI-Assistent für die Inhaltserstellung{#ai-assistant}
+   + KI-Assistent für Inhaltsgenerierung{#ai-assistant}
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
       + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
       + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
@@ -366,7 +372,7 @@ ht-degree: 94%
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
       + [Wiederverwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/lookup-aep-data.md)
-      + Helper-Funktionen {#functions}
+      + Liste mit Hilfsfunktionen {#functions}
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
@@ -419,9 +425,11 @@ ht-degree: 94%
    + [Integration mit anderen Lösungen](using/integrations/ajo-integrations.md)
    + [Arbeiten mit Experience Manager Assets](using/integrations/assets.md)
    + [Arbeiten mit Adobe Stock](using/integrations/stock.md)
+   + [Arbeiten mit Adobe Express](using/integrations/express.md)
    + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
    + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
    + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Arbeiten mit GenStudio](using/integrations/genstudio.md)
 + Verfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
@@ -501,18 +509,18 @@ ht-degree: 94%
                + [Nachschlagen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Liste der Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Aktualisieren von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Rangfolgeformeln{#ranking-formulas}
+            + Rangfolgenformeln{#ranking-formulas}
                + [Erstellen von Ranglistenformeln](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [Rangfolgeformeln löschen](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Formeln für Lookup-Rankings](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Formeln für Auswahlrangfolgen](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [Rangfolgeformeln aktualisieren](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+               + [Löschen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+               + [Nachschlagen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [Auswahl von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [Aktualisieren von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + Eignungsregeln{#eligibility-rules}
-               + [Eignungsregeln erstellen](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Eignungsregeln löschen](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Eignungsregeln nachschlagen](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+               + [Erstellen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+               + [Löschen von Entscheidungsregeln](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Eignungsregeln aktualisieren](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+               + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals](using/experience-decisioning/api-reference/deliver.md)
       + Verwalten von Entscheidungselementen {#decision-items}
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)

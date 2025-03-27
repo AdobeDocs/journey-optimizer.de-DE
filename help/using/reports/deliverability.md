@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 91%
 
 ---
 
@@ -171,3 +171,13 @@ Alle Adobe-Kundinnen und -Kunden werden automatisch in die herkömmlichen FBLs d
 * Ziggo
 
 Adobe überprüft diese FBLs regelmäßig, um sicherzustellen, dass die neuesten verfügbaren FBLs hinzugefügt werden.
+
+## SMTP-Relais verwenden {#smtp-relay}
+
+[!DNL Journey Optimizer] verwendet Mail Transfer Agents (MTAs) und IPs von Adobe, um Ihre E-Mails an Internet Service Provider (ISPs) zu senden. In einigen Fällen möchten Sie jedoch möglicherweise die endgültigen E-Mail-Sendungen über Ihre eigenen MTAs und IPs routen oder endgültige Validierungen der E-Mails durchführen, bevor Sie sie an Ihre Empfänger senden.
+
+In diesem Fall können Sie festlegen, dass Ihre E-Mails an SMTP-Server in Ihrem Unternehmen weitergeleitet werden, anstatt direkt von Journey Optimizer an ISPs gesendet zu werden.
+
+>[!AVAILABILITY]
+>
+>Die SMTP-Relais-Kapazität ist nach Bedarf verfügbar. Wenden Sie sich an den Adobe-Support.

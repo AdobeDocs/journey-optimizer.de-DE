@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 97%
 
 ---
 
@@ -109,6 +109,14 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
     </tr>
     <tr>
     <td>Inhaltskarte</td>
+    </tr>
+    <tr>
+    <td>Tags</td>
+    <td>Name des Tags, mit dem Ihre Zielgruppen organisiert werden. </td>
+    </tr>
+    <tr>
+    <td>Objektname</td>
+    <td>Name Ihres Objekts.</td>
     </tr>
     <tr>
     <td>Benutzername der anfragenden Person</td>
