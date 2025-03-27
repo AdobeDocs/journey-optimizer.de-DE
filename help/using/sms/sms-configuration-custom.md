@@ -8,14 +8,34 @@ badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
 
 # Konfigurieren eines benutzerdefinierten Anbieters {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="Provider-URL"
+>abstract="Geben Sie die URL der externen API an, mit der Sie eine Verbindung herstellen möchten. Diese URL dient als Endpunkt für den Zugriff auf die Funktionen und Möglichkeiten der API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="Authentifizierungstyp"
+>abstract="Geben Sie die Authentifizierungsmethode an, die für den Zugriff auf die API erforderlich ist, z. B. OAuth- oder Bearer-Token. Dies gewährleistet eine sichere und autorisierte Kommunikation mit dem externen Service."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="Header-Parameter"
+>abstract="Geben Sie Beschriftung, Typ und Wert zusätzlicher Kopfzeilen an, um eine ordnungsgemäße Authentifizierung, Inhaltsformatierung und effektive API-Kommunikation zu ermöglichen. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="Provider-Payload"
+>abstract="Stellen Sie die Anfrage-Payload bereit, um sicherzustellen, dass die richtigen Daten zur Verarbeitung und Antworterstellung gesendet werden."
 
 >[!AVAILABILITY]
 >
