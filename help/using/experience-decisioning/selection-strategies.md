@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,11 @@ Wenn sie erstellt wurde, können Sie diese Formel in einer Auswahlstrategie verw
 
 ### KI-Rangfolge {#ai-ranking}
 
-Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](ranking.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
+Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](../offers/ranking/ai-models.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
 
 Wenn ein KI-Modell erstellt wurde, können Sie es in einer Auswahlstrategie verwenden. Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot für diese Auswahlstrategie zuerst gezeigt werden soll.
+
+>[!NOTE]
+>
+>Derzeit ist der [Lift Measurement](../offers/ranking/auto-optimization-model.md#lift) nur für das KI-Modell [Personalisierte ](../offers/ranking/personalized-optimization-model.md)&quot; verfügbar.
+

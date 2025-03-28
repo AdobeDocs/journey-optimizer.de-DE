@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: ht
-source-wordcount: '2636'
-ht-degree: 100%
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
+source-wordcount: '2719'
+ht-degree: 96%
 
 ---
 
@@ -258,9 +258,9 @@ Im Feld **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** können Sie festlegen
 >
 >Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern. Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
 
-+++ **Wichtige Information: Frequenzbegrenzung und Edge Decisioning-API**
++++ **Wichtige Informationen: Frequenzlimitierung und Entscheidungs-Management-APIs**
 
-Der Frequenzbegrenzungszähler wird in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt.
+Der Zähler für die Frequenzlimitierung wird aktualisiert und ist in einer Entscheidung der [Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge)API in weniger als 3 Sekunden verfügbar.
 
 Jede Hub-Region ist mit einer oder mehreren Edge-Regionen verbunden. Frequenzbegrenzungsregeln werden in jeder Hub-Region generiert und von dort aus in die zugehörigen Edge-Regionen exportiert. Immer wenn eine Entscheidung mithilfe der Edge Decisioning-API getroffen wird, setzt das System die Regeln durch, die in derselben Edge-Region verfügbar sind:
 
@@ -269,7 +269,17 @@ Jede Hub-Region ist mit einer oder mehreren Edge-Regionen verbunden. Frequenzbeg
 
 Nehmen wir beispielsweise an, die Hub-Region Ihres Unternehmens ist *NLD2* und Sie senden eine Entscheidungsanfrage aus Europa (Edge-Region *IRL1*). In diesem Szenario erhöht die Entscheidungsanfrage den Zähler des Profils, da die Regeln in der Region *IRL1* (Irland) verfügbar sind. Wenn die Entscheidungsanfrage jedoch aus einer Region wie Japan (*JPN3*) stammt, bei der es sich nicht um eine an die Hub-Region *NLD2* (Niederlande) gebundene Edge-Region handelt, wird kein Zähler erstellt und die Frequenzbegrenzungsregeln werden nicht durchgesetzt.
 
+>[!NOTE]
+>
+>Wenn Zähler von Edge zu Hub oder von Hub zu Edge-Bereichen übertragen werden, kann eine Verzögerung von einigen Minuten auftreten.
+
 Weitere Informationen darüber, welche Hub- und Edge-Regionen mit Ihrem Unternehmen verbunden sind, erhalten Sie vom Adobe-Support.
+
+Bei den anderen APIs wird der Zähler für die Frequenzlimitierung wie folgt aktualisiert:
+
+* Bei einer [Decisioning-](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning)) kann der Zähler für die Frequenzlimitierung je nach Traffic mit einer Verzögerung von einigen Minuten aktualisiert werden.
+
+* In einer [Batch Decisioning-API](../api-reference/offer-delivery-api/batch-decisioning-api.md)-Entscheidung werden Momentaufnahmen verwendet, bei denen der Zähler für die Frequenzlimitierung fest bleibt. Solange derselbe Schnappschuss verwendet wird, bleibt der Zähler unverändert.
 
 +++
 
