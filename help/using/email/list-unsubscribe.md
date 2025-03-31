@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 62%
+source-wordcount: '1371'
+ht-degree: 58%
 
 ---
 
@@ -43,11 +43,11 @@ Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann
 >
 >Wie Sie die Abmeldeeinstellungen verwalten, erfahren Sie in [diesem Abschnitt](#enable-list-unsubscribe) unten.
 
-In beiden Fällen wird das entsprechende Profil für den Empfänger sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
+Wenn ein Empfänger auf den Abmelde-Link klickt, wird in beiden Fällen seine Abmelde-Anfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
+>Gelegentlich kann es aufgrund der nachgelagerten Datenverarbeitung länger dauern, bis Ereignisse abgemeldet werden. Warten Sie etwas, bis das System aktualisiert wurde.
 
 ## Option „Abmelden von der Liste aktivieren“ {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum A
 
    * Wenn Sie keinen Ein-Klick-Ausschluss-Link in den Nachrichteninhalt einfügen und die standardmäßige **[!UICONTROL URL zum Abmelden mit einem Klick]** in den Einstellungen der Kanalkonfiguration deaktiviert ist, wird keine URL als Teil des Abmelde-Links in der Kopfzeile in die E-Mail-Kopfzeile übernommen.
 
-In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen innerhalb Ihrer Nachrichten.
+  >[!NOTE]
+  >
+  >In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen innerhalb Ihrer Nachrichten.
+
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
+
+Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse an, die durch die Abmeldefunktion für Listen ausgelöst werden. Wenn Sie Klicks zum Abmelden von einer Liste von anderen Abmeldeaktionen unterscheiden müssen, müssen Sie das benutzerdefinierte Tagging extern implementieren oder eine externe Landingpage für das Tracking nutzen.
 
 ## Externes Verwalten von Abmeldedaten {#custom-managed}
 
