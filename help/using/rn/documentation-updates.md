@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b7e3edff9191d1dab15376c70839f6e2b5a318aa
+source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 80%
 
 ---
@@ -30,8 +30,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Der Abschnitt über Personalisierungsfunktionen in Adobe Journey Optimizer wurde neu organisiert und verbessert. [Weitere Informationen](../personalization/personalize.md)
 * Die Entscheidungs-Management-API zur Liste personalisierter Angebote wurde mit einem Beispiel aktualisiert, um eine Paginierung durchzuführen, wenn mehrere personalisierte Angebote in der Antwort fehlen. [Weitere Informationen](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Zur besseren Übersichtlichkeit wurde eine neue Seite erstellt, die alle Informationen zur Abmeldefunktion für Listen enthält. [Weitere Informationen](../email/list-unsubscribe.md)
-* Der Abschnitt zur Frequenzlimitierung wurde mit Informationen darüber aktualisiert, wie der Frequenzlimitierungszähler für die Decisioning- und Batch Decisioning-APIs zusätzlich zur Edge Decisioning-API aktualisiert wird.
-
+* Der Abschnitt zur Frequenzlimitierung wurde mit Informationen darüber aktualisiert, wie der Frequenzlimitierungszähler für die Decisioning- und Batch Decisioning-APIs zusätzlich zur Edge Decisioning-API aktualisiert wird. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Februar 2025 {#feb-2025}
 
