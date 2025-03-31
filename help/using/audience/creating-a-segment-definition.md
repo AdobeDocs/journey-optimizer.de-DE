@@ -124,7 +124,7 @@ Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Z
 
 >[!AVAILABILITY]
 >
-Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Mit dem Zielgruppenportal von Adobe Experience Platform können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.
 
