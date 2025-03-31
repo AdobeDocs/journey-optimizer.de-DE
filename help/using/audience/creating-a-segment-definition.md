@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
-workflow-type: ht
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
@@ -81,6 +81,7 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 >[!IMPORTANT]
 >
 >Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von **Versand**- und **Öffnungsereignissen** aus Tracking- und Feedback-Datensätzen aus Journey Optimizer nicht mehr. 
+>
 >* Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen. 
 >* Nur Versand- und Öffnungsereignisse sind betroffen: Klicks und andere Tracking-Ereignisse bleiben für die Streaming-Segmentierung verfügbar.
 >* Diese Änderung gilt nur für die Streaming-Segmentierung. Versand- und Öffnungsereignisse können weiterhin in Batch-Segmenten verwendet werden. Sie werden jedoch auf Batch-Weise ausgewertet, wenn sie in einem Streaming-Segment enthalten sind. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
@@ -123,7 +124,7 @@ Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Z
 
 >[!AVAILABILITY]
 >
->Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Mit dem Zielgruppenportal von Adobe Experience Platform können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.
 

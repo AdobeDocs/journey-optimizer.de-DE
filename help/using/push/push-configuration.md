@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 100%
+source-wordcount: '1839'
+ht-degree: 92%
 
 ---
 
@@ -23,19 +23,7 @@ ht-degree: 100%
 >Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobile-Ereignisdaten und dem Senden von Mobile-Push-Benachrichtigungen beginnt. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden. [Weitere Informationen](mobile-onboarding-wf.md)
 >
 
-
-## Bevor Sie beginnen {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## Bevor Sie beginnen {#start-push}
 
 ### Berechtigungen einrichten {#setup-permissions}
 
@@ -109,6 +97,25 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
    >Wenn der Benutzer vorher noch nicht in der Admin Console erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
+
+
+### Datensätze überprüfen {#push-datasets}
+
+Die folgenden Schemata und Datensätze sind über den Kanal Push-Benachrichtigung verfügbar:
+
+| Schema <br>Datensatz | Feldergruppe | Vorgang |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM-Push-Profil-Schema <br>CJM-Push-Profil-Datensatz | Details zu Push-Benachrichtigungen<br>Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil<br>Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung<br>Anwendungsdetails<br>Umgebungsdetails | Push-Token registrieren |
+| CJM-Push-Tracking-Erlebnisereignis-Schema <br> CJM-Push-Tracking-Erlebnisereignis-Datensatz | Push-Benachrichtigungs-Tracking | Interaktionen verfolgen und Daten für die Reporting-Benutzeroberfläche bereitstellen |
+
+
+>[!NOTE]
+>
+>Wenn Push-Tracking-Ereignisse in den CJM-Push-Tracking-Erlebnisereignis-Datensatz aufgenommen werden, können einige Fehler auftreten, obwohl Daten teilweise erfolgreich aufgenommen werden. Dies kann vorkommen, wenn einige Felder in Ihrer Zuordnung nicht in eingehenden Ereignissen vorhanden sind: Das System protokolliert Warnungen, verhindert jedoch nicht die Aufnahme gültiger Teile der Daten. Diese Warnungen werden im Batch-Status als „Fehlgeschlagen“ angezeigt, spiegeln jedoch den teilweisen Erfolg der Aufnahme wider.
+>
+>Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+
+
 
 ### App konfigurieren {#configure-app}
 
