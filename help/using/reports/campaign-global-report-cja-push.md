@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 94%
 
 ---
 
@@ -25,15 +25,13 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 +++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Push-Benachrichtigungen eignen.
-
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der während der Analyse verarbeiteten Push-Benachrichtigungen.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für die Push-Benachrichtigung.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Push-Benachrichtigungen im Verhältnis zur Gesamtzahl der gesendeten Push-Benachrichtigungen
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der Push-Benachrichtigungen.
+* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der Profile, die mindestens eine Push-Benachrichtigung erfolgreich erhalten haben.
 
 * **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
@@ -51,18 +49,15 @@ Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Üb
 
 * **[!UICONTROL Durchklickrate]**: Prozentsatz der Benutzenden, die mit den Push-Benachrichtigungen interagiert haben.
 
-* **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der Push-Benachrichtigungen.
-
 * **[!UICONTROL Klicks]**: Gibt an, wie oft ein Inhalt in Ihren Push-Benachrichtigungen angeklickt wurde.
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Benutzerdefinierte Push-Aktionen]**: Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt werden.
+
 +++
 
-## Labels getrackter Links {#track-link-label-push}
+## Getrackte Labels {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 

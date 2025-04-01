@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
-workflow-type: ht
-source-wordcount: '1062'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -65,13 +65,13 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 +++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
-
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der während des Sendevorgangs verarbeiteten E-Mails.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
 
 * **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -99,12 +99,13 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 * **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Kampagne.
 
-* **[!UICONTROL Einzelne E-Mail-Öffnungen]**: Prozentsatz der geöffneten E-Mails.
+* **[!UICONTROL Eindeutige E-Mail-Öffnungen]**: Anzahl der Profile, die E-Mails geöffnet haben.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
 
+* **[!UICONTROL Eindeutige E-Mail-Abmeldungen]**: Anzahl der Profile, die sich von Ihren E-Mails abgemeldet haben.
 +++
 
 ## E-Mail-Domains {#email-domains}
@@ -119,13 +120,12 @@ Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüss
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Kampagne.
-
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
-
 * **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
+
 +++
 
 ## Labels getrackter Links {#track-link-label}
@@ -154,10 +154,6 @@ Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Ü
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der E-Mail.
-
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der E-Mail, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
-
 +++
 
 ## E-Mail-Betreff {#email-subjects}
@@ -168,8 +164,9 @@ Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick 
 
 +++ Weitere Informationen zu Metriken für den E-Mail-Betreff
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre E-Mails eignen.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
+* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der unterschiedlichen Profile, die mindestens eine E-Mail erfolgreich erhalten haben, wobei sichergestellt wird, dass Duplikate nicht gezählt werden.
 +++
 
 ## Gründe für Ausschluss {#excluded-reasons}

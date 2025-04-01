@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
@@ -18,6 +18,8 @@ ht-degree: 100%
 # Kampagnenbericht zu SMS-Daten {#campaign-global-report-cja-sms}
 
 ## Versand- vs. Klick-Trend {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren E-Mails und bietet wertvolle Erkenntnisse zur Interaktion verschiedener Profile mit Ihrem Inhalt.
 
@@ -30,6 +32,8 @@ Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Anal
 +++
 
 ## Versandstatus {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht über die Profilaktivitäten im Zusammenhang mit Ihren SMS-Kampagnen. Dazu gehören Metriken zu gesendeten SMS-Nachrichten, Klicks und andere relevante Interaktionsindikatoren, die einen umfassenden Überblick darüber bieten, wie Profile mit Ihrem SMS-Inhalt interagieren.
 

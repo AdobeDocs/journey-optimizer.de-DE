@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '887'
+ht-degree: 89%
 
 ---
 
@@ -43,8 +43,6 @@ Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumf
 
 * **[!UICONTROL Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
 
-* **[!UICONTROL Fehlgeschlagene Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
-
 +++
 
 ### Journey-Statistiken {#journey-stats}
@@ -54,6 +52,8 @@ Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumf
 Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusammenfassung wichtiger Daten zu Ihren Journeys. Sie enthält Schlüsselmetriken wie die Anzahl der Fehler und erfolgreichen Eintritte und bietet wertvolle Erkenntnisse zur Performance und Reichweite Ihrer E-Mails und Journeys.
 
 +++ Weitere Informationen zu den Journey-Statistik-Metriken
+
+* **[!UICONTROL Journey-Ausschluss]**: Gesamtzahl der Personen, die aufgrund vordefinierter Kriterien oder Unterdrückungsregeln von der Journey ausgeschlossen wurden.
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
@@ -70,6 +70,16 @@ Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusamm
 * **[!UICONTROL Eindeutige Journey-Fehler]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 +++
+
+## Journey-Ausschluss {#journey-exclusion}
+
+Die Tabelle **[!UICONTROL Journey-Ausschluss]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen geführt haben.
+
+## Aktionsfehler {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+Das **[!UICONTROL Aktionsfehler]**-Widget zeigt die verschiedenen Fehler an, die bei Ihren Journey-Aktionen aufgetreten sind.
 
 ## Journey-Arbeitsfläche {#journey-canvas}
 
@@ -106,9 +116,11 @@ Die Tabelle **[!UICONTROL Aktionsüberblick]** dient als umfassendes Dashboard, 
 
 +++ Weitere Informationen zu Aktionsüberblickmetriken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Aktionen eignen.
+* **[!UICONTROL Node enters]**: Gesamtzahl der Einzelpersonen, die einen bestimmten Knoten auf der Journey betreten haben.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Aktion interagiert haben.
+* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
+
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Aktion interagiert haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Aktionen.
 

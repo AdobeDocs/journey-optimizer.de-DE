@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 95%
 
 ---
 
@@ -65,17 +65,17 @@ Die Tabelle **[!UICONTROL Versandstatistikzn]** bietet einen klaren Überblick �
 
 +++ Weitere Informationen zu Metriken für Versandstatistiken
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
-
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der während des Sendevorgangs verarbeiteten E-Mails.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
@@ -97,19 +97,20 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 
-* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Journey.
+* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Kampagne.
 
-* **[!UICONTROL Eindeutige E-Mail-Öffnungen]**: Prozentsatz der geöffneten E-Mails.
+* **[!UICONTROL Eindeutige E-Mail-Öffnungen]**: Anzahl der Profile, die E-Mails geöffnet haben.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
 
+* **[!UICONTROL Eindeutige E-Mail-Abmeldungen]**: Anzahl der Profile, die sich von Ihren E-Mails abgemeldet haben.
 +++
 
 ## E-Mail-Domains {#email-domains}
 
-![](assets/cja-journey-email-domain.png)
+![](assets/cja-email-email-domains.png)
 
 Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüsselung der E-Mails nach Domain, die umfassende Erkenntnisse zu Performance-Metriken Ihrer E-Mail-Journeys bietet. Mit dieser umfassenden Analyse können Sie das Verhalten verschiedener Domains als Reaktion auf Ihre E-Mail-Inhalte nachvollziehen.
 
@@ -125,7 +126,10 @@ Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüss
 
 * **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtanzahl der während eines Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+
+* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
+
 +++
 
 ## Labels getrackter Links {#track-link-label}
@@ -154,31 +158,33 @@ Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Ü
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
-
-* **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
-
 +++
+
 
 ## E-Mail-Betreff {#email-subject}
 
-![](assets/cja-journey-email-subjects.png)
+![](assets/cja-email-subject.png)
 
 Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick über E-Mail-Betreffzeilen, die den höchsten Besucher-Traffic angezogen haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
 +++ Weitere Informationen zu Metriken für den E-Mail-Betreff
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre E-Mails eignen.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
+* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der unterschiedlichen Profile, die mindestens eine E-Mail erfolgreich erhalten haben, wobei sichergestellt wird, dass Duplikate nicht gezählt werden.
 +++
 
 ## Bounce-Gründe {#email-bounce-reasons}
+
+![](assets/cja-journey-email-bounce.png)
 
 Die Tabelle **[!UICONTROL Bounce-Gründe]** kompiliert die verfügbaren Daten zu nicht zugestellten Nachrichten und bietet detaillierte Einblicke in die spezifischen Ursachen von nicht zugestellten E-Mails.
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
 
 ## Gründe für Ausschluss {#email-excluded}
+
+![](assets/cja-journey-email-excluded.png)
 
 Die Tabelle **[!UICONTROL Gründe für Ausschluss]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass die Nachricht nicht empfangen wurde.
 

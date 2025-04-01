@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 99%
+source-wordcount: '1362'
+ht-degree: 59%
 
 ---
 
@@ -28,149 +29,181 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
  </thead> 
  <tbody> 
-  <tr> 
-   <td>Erfolgreich ausgeführte Aktionen<br/> </td> 
-   <td> Gesamtzahl der erfolgreich ausgeführten Aktionen für eine Journey<br/>. </td> 
+<tr> 
+<td>Journey-Interaktion</td> 
+<td>Gesamtzahl der eindeutigen Einzelpersonen, die über die Journey gesendete Nachrichten erhalten haben, d. h. verschiedene Profile, die einen bestimmten Aktionspunkt in der Journey erreicht haben.</td> 
 </tr> 
-  <tr> 
-   <td> Eingetretene Profile<br/> </td> 
-   <td> Gesamtzahl der Einzelanwendenden, die das Eintrittsereignis der Journey erreicht haben.<br/> </td> 
+<tr> 
+<td>Journey-Einträge</td> 
+<td>Gesamtzahl der Einzelanwendenden, die das Eintrittsereignis der Journey erreicht haben.</td> 
 </tr>
-  <tr> 
-   <td> Fehler bei Aktion<br/> </td> 
-   <td>Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Ausgestiegene Profile<br/> </td> 
-   <td> Gesamtzahl der Einzelanwendenden, die die Journey verlassen haben<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Fehlgeschlagene einzelne Journey<br/> </td> 
-   <td> Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.<br/> </td> 
-</tr> 
+<tr> 
+<td>Journey-Ausstiege</td> 
+<td>Gesamtzahl der Einzelanwendenden, die die Journey verlassen haben.</td> 
+</tr>
+<tr> 
+<td>Journey-Fehler</td> 
+<td>Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.</td> 
+</tr>
+<tr> 
+<td>Eindeutige Journey-Einträge</td> 
+<td>Gesamtzahl der Einzelpersonen, die das Eintrittsereignis der Journey erreicht haben, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+</tr>
+<tr> 
+<td>Eindeutige Journey-Austritte</td> 
+<td>Gesamtzahl der Einzelpersonen, die die Journey verlassen haben, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+</tr>
+<tr> 
+<td>Eindeutige Journey-Fehler</td> 
+<td>Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+</tr>
  </tbody> 
 </table>
 
-## Dimensionen und Metriken für E-Mail und SMS {#email-and-sms-metrics}
+## E-Mail-Metriken {#email-metrics}
 
 <table> 
  <thead> 
   <tr> 
    <th> Metrik<br/> </th> 
    <th> Definition<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
    <td> Summe der kumulierten Fehler während des Sendevorgang und der automatischen Rücksendeverarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
-   <td> Bounce-Rate<br/> </td> 
-   <td> Prozentsatz der Bounce-E-Mails im Vergleich zu den gesendeten E-Mails<br/> </td> 
-</tr>
+   <td> Clickthrough-Öffnungsrate (CTOR)<br/> </td> 
+   <td> Anzahl der Öffnungen der E-Mail.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Clickthrough-Rate (CTR)<br/> </td> 
+   <td> Prozentsatz der Benutzer, die mit der E-Mail interagiert haben.<br/> </td> 
+  </tr>
   <tr> 
    <td> Klicks<br/> </td> 
    <td> Anzahl der Klicks auf einen Inhalt in einer E-Mail.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Zugestellt <br/> </td> 
    <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/></td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Zustellungsrate<br/> </td> 
    <td> Prozentsatz der erfolgreich gesendeten Nachrichten<br/> </td> 
-</tr>
-  <tr> 
-   <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an die Profile verhindert haben.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Fehlerrate<br/> </td> 
-   <td> Prozentualer Anteil der Fehler, die während des Sendevorgangs aufgetreten sind und das Senden verhindert haben, im Vergleich zu den gesendeten E-Mails.<br/> </td> 
-</tr>
-</tr> 
+  </tr>
   <tr> 
    <td> Fehlerursache<br/> </td> 
    <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="exclusion-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
-</tr>
+  </tr>
   <tr> 
-   <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
-</tr>
+   <td> Klickrate des Angebots<br/> </td> 
+   <td> Prozentsatz der Benutzenden, die mit dem Angebot interagiert haben.<br/> </td> 
+  </tr>
   <tr> 
-   <td> Hardbounce<br/> </td> 
-   <td> Gesamtzahl der permanenten Fehler, wie beispielsweise eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.<br/> </td>
-</tr>
+   <td> Impressionsrate des Angebots<br/> </td> 
+   <td> Prozentsatz der geöffneten Angebote im Verhältnis zur Anzahl der gesendeten Angebote.<br/> </td> 
+  </tr>
   <tr> 
-   <td> Ignoriert<br/> </td> 
-   <td> Die Gesamtzahl der temporären Fehler, wie beispielsweise Abwesenheit oder technische Fehler, etwa wenn der Absendertyp Postmaster ist.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Klickrate des Angebots<br/> </td> 
-   <td>Prozentsatz der Benutzenden, die mit dem Angebot interagiert haben.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Impressionsrate des Angebots<br/> </td> 
-   <td>Prozentsatz der geöffneten Angebote im Verhältnis zur Anzahl der gesendeten Angebote.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Name des Angebots<br/> </td> 
+   <td> Name des Angebots<br/> </td> 
    <td> Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-personalized-offers.md">Seite</a>.<br/> </td> 
-</tr>
-   <tr> 
-   <td>Gesendetes Angebot<br/> </td> 
-   <td>Gesamtzahl der Sendevorgänge für das Angebot.<br/> </td> 
-</tr> 
-  <tr>
-   <td>Öffnungen<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Gesendetes Angebot<br/> </td> 
+   <td> Gesamtzahl der Sendevorgänge für das Angebot.<br/> </td> 
+  </tr> 
+  <tr> 
+   <td> Öffnungen<br/> </td> 
    <td> Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
-   <td> Öffnungsrate<br/> </td> 
-   <td> Gesamtzahl der geöffneten E-Mails im Vergleich zur Anzahl der zugestellten E-Mails.<br/> </td> 
-</tr>
+   <td> Ausgehende Fehler<br/> </td> 
+   <td> Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an die Profile verhindert haben.<br/> </td> 
+  </tr> 
   <tr> 
-   <td>Name der Platzierung<br/> </td> 
+   <td> Ausgehende Ausschlüsse<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+  </tr>
+  <tr> 
+   <td> Name der Platzierung<br/> </td> 
    <td> Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-placements.md">Seite</a>. </td> 
-</tr> 
-  <tr> 
-   <td> Weitere Zustellversuche<br/> </td> 
-   <td> Anzahl der E-Mails in der Warteschlange für weitere Zustellversuche.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Gesendet<br/> </td> 
-   <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
-</tr>
-  <tr> 
-   <td> Softbounce<br/> </td> 
-   <td> Gesamtzahl der temporären Fehler, beispielsweise einer vollen Inbox<br/> </td> 
-</tr>
+  </tr>
   <tr> 
    <td> Spam-Beschwerden<br/> </td> 
    <td> Anzahl der Fälle, in denen eine Nachricht als Spam oder Junk deklariert wurde.<br/> </td> 
-</tr>
+  </tr> 
   <tr> 
    <td> Zielgruppe<br/> </td> 
    <td> Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.<br/> </td> 
-</tr> 
+  </tr> 
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Die Anzahl der Empfängerinnen bzw. Empfänger, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
-</tr> 
+   <td> Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
+  </tr>
   <tr> 
-   <td>Einzelklickrate<br/> </td> 
-   <td> Prozentualer Anteil der Benutzenden, die mit dem Versand interagiert haben.<br/> </td> 
-</tr>
+   <td> Einzelne E-Mail-Abmeldungen<br/> </td> 
+   <td> Anzahl der Profile, die sich von Ihren E-Mails abgemeldet haben.<br/> </td> 
+  </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
-   <td>Zahl der Empfängerinnen bzw. Empfänger, die den Versand geöffnet haben. <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
-</tr> 
+   <td> Anzahl der Profile, die den Versand geöffnet haben <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
+  </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 
    <td> Gesamtanzahl der Klicks auf den Abmelde-Link.<br/> </td> 
-</tr> 
+  </tr> 
  </tbody> 
+</table>
+
+## SMS-Metriken
+
+<table> 
+  <thead> 
+    <tr> 
+      <th> SMS-Metrik </th> 
+      <th> Definition </th> 
+    </tr>
+  </thead> 
+  <tbody> 
+    <tr> 
+      <td>Zugestellt</td> 
+      <td>Zahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.</td> 
+    </tr>
+    <tr> 
+      <td>Klicks</td> 
+      <td>Anzahl der Klicks auf einen Link innerhalb einer SMS-Nachricht.</td> 
+    </tr>
+    <tr> 
+      <td>Bounces bei ausgehenden SMS-Nachrichten</td> 
+      <td>Gesamtzahl der kumulierten Fehler während des Sendevorgangs und der automatischen Rücksendung im Verhältnis zur Gesamtzahl der gesendeten SMS-Nachrichten.</td> 
+    </tr>
+    <tr> 
+      <td>Fehler bei ausgehenden SMS</td> 
+      <td>Gesamtzahl der aufgetretenen Fehler, die das Senden der SMS-Nachricht an Empfänger verhindert haben.</td> 
+    </tr>
+    <tr> 
+      <td>Ausgeschlossene SMS</td> 
+      <td>Anzahl der Profile, die vom Empfang von SMS-Nachrichten durch Adobe Journey Optimizer ausgeschlossen wurden.</td> 
+    </tr>
+    <tr> 
+      <td>Einzelklicks</td> 
+      <td>Die Anzahl der eindeutigen Empfängerinnen und Empfänger, die auf einen Link in einer SMS-Nachricht geklickt haben.</td> 
+    </tr>
+    <tr> 
+      <td>Anzeigen</td> 
+      <td>Anzahl der Anzeigen oder Öffnungen einer SMS-Nachricht.</td> 
+    </tr>
+    <tr> 
+      <td>Eindeutige Anzeigen</td> 
+      <td>Anzahl der eindeutigen Empfänger, die die SMS-Nachricht geöffnet haben, mit Ausnahme mehrerer Interaktionen desselben Benutzers.</td> 
+    </tr>
+    <tr> 
+      <td>People</td> 
+      <td>Anzahl der eindeutigen Benutzerprofile, die eine SMS-Nachricht erhalten oder mit ihr interagiert haben.</td> 
+    </tr>
+  </tbody> 
 </table>
 
 <!--
@@ -229,11 +262,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td>Unique email opens<br/> </td> 
-   <td>Number of recipients who opened the email.<br/> </td>
+   <td>Number of profiles who opened the email.<br/> </td>
 <tr>
   <tr> 
    <td>Unique email unsubscribes<br/> </td> 
-   <td>Number of recipients who clicked on the unsubscription link.<br/> </td>
+   <td>Number of profiles who clicked on the unsubscription link.<br/> </td>
 </tr>
   <tr> 
    <td>Unique installs<br/> </td> 
@@ -259,35 +292,70 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 -->
 
 ## In-App-Metriken {#inapp-metrics}
-
 <table> 
  <thead> 
   <tr> 
    <th> Metrik<br/> </th> 
    <th> Definition<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
- <tr> 
+  <tr> 
    <td>Klicks<br/> </td> 
-   <td>Gesamtzahl der Empfängerinnen und Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.<br/> </td> 
-</tr>
+   <td>Gesamtzahl der Profile, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.<br/> </td> 
+  </tr>
   <tr> 
    <td>Klickrate<br/> </td> 
    <td>Prozentualer Anteil der Benutzenden, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben, im Verhältnis zur Zahl der Benutzenden, die die Nachricht gesehen haben.<br/> </td> 
-</tr> 
+  </tr>
   <tr> 
    <td>Abbruchrate<br/> </td> 
-   <td> Prozentsatz der In-App-Nachrichten, die von Empfängerinnen und Empfängern verworfen wurden.<br/> </td> 
-</tr> 
+   <td>Prozentsatz der In-App-Nachrichten, die von Profilen verworfen wurden.<br/> </td> 
+  </tr>
   <tr> 
    <td>Impressions<br/> </td> 
-   <td> Gesamtzahl der an alle Benutzenden gesendeten In-App-Nachrichten.<br/> </td>
-</tr>
+   <td>Gesamtzahl der an alle Benutzenden gesendeten In-App-Nachrichten.<br/> </td>
+  </tr>
   <tr> 
    <td>Einzel-Impressions<br/> </td> 
    <td>Anzahl der eindeutigen Benutzenden, an die die In-App-Nachricht gesendet wurde.<br/> </td>
-</tr>
+  </tr>
+  <tr> 
+   <td>Displays<br/> </td>
+   <td>Anzahl der Öffnungen der In-App-Nachricht.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Eindeutige Anzeigen<br/> </td>
+   <td>Anzahl der Öffnungen der In-App-Nachricht, wobei mehrere Interaktionen aus demselben Profil ausgeschlossen sind.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Einzelklicks<br/> </td>
+   <td>Anzahl der Profile, die auf Inhalt in Ihren In-App-Nachrichten geklickt haben.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Klicks<br/> </td>
+   <td>Anzahl der Klicks auf Inhalt in den In-App-Nachrichten.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Clickthrough-Rate (CTR)<br/> </td>
+   <td>Prozentualer Anteil der Benutzenden, die mit den In-App-Nachrichten interagiert haben.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Clickthrough-Öffnungsrate (CTOR)<br/> </td>
+   <td>Anzahl der Öffnungen der In-App-Nachricht.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Sendungen<br/> </td>
+   <td>Gesamtzahl der gesendeten In-App-Nachrichten.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Eingehend ausgelöst<br/> </td>
+   <td>Anzahl der Fälle, in denen eine In-App-Nachricht durch eine Benutzerinteraktion oder ein vordefiniertes Ereignis ausgelöst wurde.<br/> </td>
+  </tr>
+  <tr> 
+   <td>Eingehende Abweisungen<br/> </td>
+   <td>Anzahl der Fälle, in denen Benutzende die In-App-Nachricht verworfen haben, ohne damit zu interagieren.<br/> </td>
+  </tr>
  </tbody> 
 </table>
 
@@ -352,7 +420,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <tr> 
    <td> Öffnungsrate<br/> </td> 
    <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Benutzerdefinierte Aktionen pushen<br/> </td> 
+   <td>Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt werden.<br/> </td> 
+</tr>
   <tr> 
    <td> Gesendet<br/> </td> 
    <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
@@ -409,15 +481,15 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
  <tr> 
    <td>Besuche insgesamt<br/> </td> 
-   <td> Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen stammen, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
+   <td> Gesamtzahl der Besuche auf einer Landingpage, die von Journey und externen Quellen stammen, einschließlich mehrerer Besuche eines Profils.<br/> </td> 
 </tr>
  <tr> 
    <td>Unique Visitors<br/> </td> 
-   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Empfängers nicht berücksichtigt werden.<br/> </td> 
+   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrere Besuche eines Profils nicht berücksichtigt werden.<br/> </td> 
 </tr>
  <tr> 
    <td>Besuche<br/> </td> 
-   <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrfacher Besuche eines Empfängers.<br/> </td> 
+   <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrerer Besuche eines Profils.<br/> </td> 
 </tr>
  </tbody> 
 </table>
