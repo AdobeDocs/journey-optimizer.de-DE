@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '880'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,9 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 >
 >Wenn das in der API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
 
-## Beschreibung der Drosselungs-API {#description}
+## Beschreibung der Drosselungs-API und Postman-Sammlung {#description}
+
+In der folgenden Tabelle sind die verfügbaren Befehle für die Einschränkungs-API aufgeführt. Detaillierte Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der Dokumentation zu den [Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
@@ -41,6 +43,15 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Aktualisieren einer Drosselungskonfiguration |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Drosselungskonfiguration |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Löschen einer Drosselungskonfiguration |
+
+Darüber hinaus ist eine Postman-Sammlung [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) verfügbar, die Sie bei Ihrer Testkonfiguration unterstützt.
+
+Diese Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über die Integrationen der __[Adobe I/O-Konsole](https://console.adobe.io/integrations) > Ausprobieren > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebungsdatei mit den ausgewählten Integrationswerten generiert.
+
+Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
+* `{JO_HOST}` : [!DNL Journey Optimizer] Gateway-URL.
+* `{BASE_PATH}` : Einstiegspunkt für die API.
+* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
 ## Drosselungskonfiguration{#configuration}
 
@@ -134,57 +145,6 @@ Beim Versuch, eine weitere Konfiguration zu erstellen:
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## Anwendungsfälle {#uc}
-
-Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
-
-Diese Postman-Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
-
-Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer]-Gateway-URL
-* `{BASE_PATH}` : Einstiegspunkt für die API.
-* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
-
-Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
-
-Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Drosselungskonfiguration**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Drosselungskonfiguration**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-Anwendungsfall 3: **Aufheben der Bereitstellung und Löschen einer bereitgestellten Drosselungskonfiguration**
-
-1. list
-1. undeploy
-1. delete
-
-Anwendungsfall 4: **Löschen einer bereitgestellten Drosselungskonfiguration**
-
-In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-
-1. list
-1. delete mit forceDelete-Parameter
-
-Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Drosselungskonfiguration**
-
->[!NOTE]
->
->Es ist nicht erforderlich, die Bereitstellung der Konfiguration vor der Aktualisierung aufzuheben
-
-1. list
-1. get
-1. update
 
 ## Lebenszyklus der Konfiguration auf Laufzeitebene {#config}
 
@@ -338,3 +298,67 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
     }
 }
 ```
+
+## Anwendungsszenarien {#uc}
+
+In diesem Abschnitt werden wichtige Anwendungsfälle für die Verwaltung von Drosselungskonfigurationen in [!DNL Journey Optimizer] und die zugehörigen API-Befehle aufgelistet, die zur Implementierung des Anwendungsfalls erforderlich sind.
+
+Details zu den einzelnen API-Befehlen finden Sie unter [API-Beschreibung und Postman-Sammlung](#description).
+
++++Erstellung und Bereitstellung einer neuen Drosselungskonfiguration
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`create`** - Erstellt eine neue Konfiguration.
+1. **`candeploy`** - Prüft, ob die Konfiguration bereitgestellt werden kann.
+1. **`deploy`** : Stellt die Konfiguration bereit.
+
++++
+
++++Aktualisieren und Bereitstellen einer Drosselungskonfiguration (noch nicht bereitgestellt)
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`get`** : Ruft Details zu einer bestimmten Konfiguration ab.
+1. **`update`** - Ändert die Konfiguration.
+1. **`candeploy`** - Überprüft die Bereitstellungseignung.
+1. **`deploy`** : Stellt die Konfiguration bereit.
+
++++
+
++++Bereitstellung einer bereitgestellten Drosselungskonfiguration aufheben und löschen
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`undeploy`** - Hebt die Bereitstellung der Konfiguration auf.
+1. **`delete`** - Entfernt die Konfiguration.
+
++++
+
++++Löschen einer bereitgestellten Drosselungskonfiguration
+
+In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des `forceDelete` löschen.
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`delete`(mit `forceDelete` Parameter)** Erzwingt das Löschen einer bereitgestellten Konfiguration in einem einzigen Schritt.
+
++++
+
++++Aktualisieren einer bereits bereitgestellten Drosselungskonfiguration
+
+>[!NOTE]
+>
+>Es ist nicht erforderlich, die Bereitstellung der Konfiguration vor der Aktualisierung aufzuheben
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`get`** : Ruft Details zu einer bestimmten Konfiguration ab.
+1. **`update`** - Ändert die Konfiguration.
+
++++

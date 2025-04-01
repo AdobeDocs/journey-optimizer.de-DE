@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,9 @@ Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurie
 
 In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Beschreibung der Capping-API
+## Beschreibung der Begrenzungs-API und Postman-Sammlung {#description}
+
+In der folgenden Tabelle sind die verfügbaren Befehle für die Begrenzungs-API aufgeführt. Detaillierte Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der Dokumentation zu den [Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
@@ -36,6 +38,15 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 
 Bei der Erstellung oder Aktualisierung einer Konfiguration wird automatisch eine Überprüfung durchgeführt, um die Syntax und Integrität der Payload sicherzustellen.
 Wenn Probleme auftreten, gibt der Vorgang eine Warnung oder Fehler zurück, die Ihnen beim Korrigieren der Konfiguration helfen.
+
+Darüber hinaus ist eine Postman-Sammlung [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) verfügbar, die Sie bei Ihrer Testkonfiguration unterstützt.
+
+Diese Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über die Integrationen der __[Adobe I/O-Konsole](https://console.adobe.io/integrations) > Ausprobieren > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebungsdatei mit den ausgewählten Integrationswerten generiert.
+
+Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
+* `{JO_HOST}` : [!DNL Journey Optimizer] Gateway-URL.
+* `{BASE_PATH}` : Einstiegspunkt für die API.
+* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
 ## Endpunktkonfiguration
 
@@ -66,7 +77,7 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 >
 >Wenn bei der Bereitstellung der Begrenzungskonfiguration kein Wert für „maxHttpConnection“ angegeben wurde, wird der bereitgestellten Konfiguration der Standardwert „maxHttpConnection = -1“ hinzugefügt, was bedeutet, dass Journey Optimizer den Standardwert des Systems verwendet.
 
-### Beispiel:
+Beispiel:
 
 ```
 `{
@@ -110,57 +121,68 @@ Die potenzielle Warnung lautet:
 
 **ERR_ENDPOINTCONFIG_106**: capping config: max HTTP connections not defined: no limitation by default
 
-## Anwendungsfälle
+## Anwendungsszenarien
 
-In diesem Abschnitt finden Sie die fünf Hauptanwendungsfälle für die Verwaltung Ihrer Begrenzungskonfiguration in [!DNL Journey Optimizer].
+In diesem Abschnitt werden wichtige Anwendungsfälle für die Verwaltung von Begrenzungskonfigurationen in [!DNL Journey Optimizer] und die zugehörigen API-Befehle aufgelistet, die zur Implementierung des Anwendungsfalls erforderlich sind.
 
-Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
+Details zu den einzelnen API-Befehlen finden Sie unter [API-Beschreibung und Postman-Sammlung](#description).
 
-Diese Postman-Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
++++Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration
 
-Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer]-Gateway-URL
-* `{BASE_PATH}` : Einstiegspunkt für die API.
-* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
+Zu verwendende API-Aufrufe:
 
-Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`create`** - Erstellt eine neue Konfiguration.
+1. **`candeploy`** - Prüft, ob die Konfiguration bereitgestellt werden kann.
+1. **`deploy`** : Stellt die Konfiguration bereit.
 
-Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++Aktualisieren und Bereitstellen einer Begrenzungskonfiguration (noch nicht bereitgestellt)
 
-Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgestellten Begrenzungskonfiguration**
+Zu verwendende API-Aufrufe:
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`get`** : Ruft Details zu einer bestimmten Konfiguration ab.
+1. **`update`** - Ändert die Konfiguration.
+1. **`candeploy`** - Überprüft die Bereitstellungseignung.
+1. **`deploy`** : Stellt die Konfiguration bereit.
 
-Anwendungsfall 3: **Aufheben einer Bereitstellung und Löschen einer bereitgestellten Begrenzungskonfiguration**
++++
 
-1. list
-1. undeploy
-1. delete
++++Bereitstellung einer bereitgestellten Begrenzungskonfiguration aufheben und löschen
 
-Anwendungsfall 4: **Löschen einer bereitgestellten Begrenzungskonfiguration.**
+Zu verwendende API-Aufrufe:
 
-In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des forceDelete-Parameters löschen.
-1. list
-1. delete mit forceDelete-Parameter
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`undeploy`** - Hebt die Bereitstellung der Konfiguration auf.
+1. **`delete`** - Entfernt die Konfiguration.
 
-Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration**
++++
+
++++Löschen einer bereitgestellten Begrenzungskonfiguration in einem Schritt
+
+In nur einem API-Aufruf können Sie die Bereitstellung aufheben und die Konfiguration mithilfe des `forceDelete` löschen.
+
+Zu verwendende API-Aufrufe:
+
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`delete`(mit `forceDelete` Parameter)** Erzwingt das Löschen einer bereitgestellten Konfiguration in einem einzigen Schritt.
+
++++
+
++++Aktualisieren einer bereits bereitgestellten Begrenzungskonfiguration
 
 >[!NOTE]
 >
->Wenn Sie eine bereits bereitgestellte Konfiguration aktualisieren, müssen Sie diese erneut bereitstellen.
+>Nach dem Aktualisieren einer bereits bereitgestellten Konfiguration ist eine erneute Bereitstellung erforderlich.
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+Zu verwendende API-Aufrufe:
+1. **`list`** - Ruft vorhandene Konfigurationen ab.
+1. **`get`** : Ruft Details zu einer bestimmten Konfiguration ab.
+1. **`update`** - Ändert die Konfiguration.
+1. **`undeploy`** - Hebt die Bereitstellung der Konfiguration auf, bevor Änderungen angewendet werden.
+1. **`candeploy`** - Überprüft die Bereitstellungseignung.
+1. **`deploy`** - Stellt die aktualisierte Konfiguration bereit.
+
++++
