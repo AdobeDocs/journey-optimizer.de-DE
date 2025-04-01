@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ In der Benutzeroberfläche des Personalisierungseditors können Sie alle Daten a
 
 ## Wo kann ich eine Personalisierung hinzufügen?
 
-Mit dem Symbol „Personalisierung hinzufügen![ können Sie in allen Feldern **[!DNL Journey Optimizer]** Personalisierung ](assets/do-not-localize/add-perso-icon.svg). Erweitern Sie die folgenden Abschnitte, um weitere Details anzuzeigen.
+Mit dem Symbol ![Symbol „Personalisierung hinzufügen“](assets/do-not-localize/add-perso-icon.svg) können Sie in jedem Feld in **[!DNL Journey Optimizer]** Personalisierungen hinzufügen. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
 +++Nachrichten
 
@@ -44,7 +44,7 @@ Sie kann auch in anderen Abschnitten Ihres Contents hinzugefügt werden. Zum Bei
 
 +++
 
-+++E-Mail an Designer senden
++++E-Mail-Designer
 
 Beim Bearbeiten von E-Mail-Content im [E-Mail-Designer](../email/get-started-email-design.md) können Sie mithilfe des Symbols in der kontextuellen Symbolleiste Personalisierungen in Textblöcken und in URLs hinzufügen.
 
@@ -99,7 +99,7 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 >title="Automatisch vervollständigen"
 >abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code während Ihrer Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
-Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im Navigationsbereich und klicken Sie auf die Schaltfläche `+` , um es zum Ausdruck hinzuzufügen.
+Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+`, um es zum Ausdruck hinzuzufügen.
 
 Über das Menü mit den Auslassungspunkten neben dem Symbol `+` können Sie weitere Details für jedes Attribut abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. Zu Favoriten hinzugefügte Attribute sind über das Menü **[!UICONTROL Favoriten]** im Navigationsbereich zugänglich.
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

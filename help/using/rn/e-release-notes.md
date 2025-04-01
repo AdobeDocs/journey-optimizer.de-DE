@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 36%
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
 
-**Veröffentlichungsdatum**: 26.-27. März 2025
+**Veröffentlichungsdatum**: 26.–27. März 2025
 
 
 ### Neue Funktionen {#25-03-features}
@@ -44,7 +44,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Durch die Adobe Express-Integration in Adobe Journey Optimizer können Sie die Bearbeitungs-Tools von Adobe Express direkt während der Inhaltserstellung verwenden, sodass Sie die Größe ändern, Hintergründe entfernen, Assets zuschneiden und in JPEG oder PNG konvertieren können.<p>
+<p>Durch die Integration von Adobe Express in Adobe Journey Optimizer können Sie die Bearbeitungs-Tools von Adobe Express direkt während der Erstellung von Inhalten verwenden – z. B., um die Größe zu ändern, Hintergründe zu entfernen, Assets zuzuschneiden und in JPEG oder PNG zu konvertieren.<p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -60,7 +60,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Journey-Metriken ermöglichen es Ihnen, die Wirkung Ihrer Aktivitäten in den für Ihr Unternehmen wichtigsten Metriken zu messen und bessere Einblicke in Ihre Leistung zu erhalten.</p>
+<p>Journey-Metriken ermöglichen es Ihnen, die Wirkung Ihrer Aktivitäten in den für Ihr Unternehmen wichtigsten Metriken zu messen und bessere Erkenntnisse zu Ihrer Leistung zu erhalten.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -70,14 +70,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderansicht für Journey (Eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Kalenderansicht für Journeys (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Eine Kalenderansicht ermöglicht es Ihnen jetzt, alle Journey-Aktivierungen zu visualisieren. Diese Funktion wird als eingeschränkte Verfügbarkeit für ausgewählte Kundengruppen veröffentlicht.<p>
-<p>Diese Änderung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Eine Kalenderansicht ermöglicht es Ihnen jetzt, alle Journey-Aktivierungen zu visualisieren. Diese Funktion wird eingeschränkt für eine begrenzte Anzahl von Kundinnen und Kunden verfügbar gemacht. <p>
+<p>Diese Neuerung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -93,7 +93,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media-Assets sind jetzt direkt in Journey Optimizer verfügbar und zugänglich. Diese Integration bietet folgende Möglichkeiten:
+<p>Dynamic Media-Assets sind jetzt direkt in Journey Optimizer verfügbar und zugänglich. Die Integration bietet folgende Möglichkeiten:
 <ul>
 <li>Zentrale Verwaltung von Assets mit Echtzeit-Updates</li>
 <li>Sofortiges Ändern von Asset-Einstellungen wie Breite und Höhe</li>
@@ -101,7 +101,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Anpassen von Dynamic Media-Vorlagen durch Aktualisieren von Inhalten und Hinzufügen von Personalisierungsfeldern</li>
 </ul>
 <p>
-<p>Diese Integration ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Diese Integration ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -119,7 +119,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten, können Sie jetzt GenStudio for Performance Marketing-Erlebnisse nahtlos in Journey Optimizer integrieren. Auf diese Weise können Sie die KI-gestützte Inhaltserstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Journey Optimizer nutzen.<p>
+<p>Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, können Sie jetzt GenStudio for Performance Marketing-Erlebnisse nahtlos mit Journey Optimizer integrieren. Nutzen Sie so die KI-gestützte Inhaltserstellung von GenStudio zusammen mit den erweiterten Orchestrierungsfunktionen von Journey Optimizer.<p>
 <p>Die Verwendung der GenStudio-Integration in Journey Optimizer ist derzeit nicht für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar (eingeschränkte Verfügbarkeit).</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
@@ -136,7 +136,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer hat seine kanalübergreifenden Funktionen um die Unterstützung des LINE-Kanals erweitert. Diese Verbesserung ermöglicht es Ihnen, LINE-Erlebnisse zu erstellen, zu bearbeiten und in der Vorschau anzuzeigen, was eine stärker personalisierte und ansprechendere Interaktion ermöglicht. Mit LINE können Sie mit mehr Kunden in Kontakt treten, relevante Inhalte versenden und Ihre Interaktion verbessern.<p>
+<p>Adobe Journey Optimizer hat seine kanalübergreifenden Funktionen um die Unterstützung des LINE-Kanals erweitert. Diese Verbesserung ermöglicht es Ihnen, LINE-Erlebnisse zu erstellen, zu bearbeiten und in der Vorschau anzuzeigen, was eine stärker personalisierte und ansprechendere Interaktion ermöglicht. Mit LINE können Sie mit mehr Kundinnen und Kunden in Kontakt treten, relevante Inhalte versenden und Ihre Interaktion verbessern.<p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
@@ -146,7 +146,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 ### Verbesserungen {#25-03-improv}
 
-**Personalization-Editor** (Verfügbarkeitsdatum: 12. März)
+**Personalisierungseditor** (Verfügbarkeitsdatum: 12. März)
 
 Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweitert:
 
@@ -158,7 +158,7 @@ Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweit
 * **Automatische Vervollständigung für Profil- und Kontextattribute**: Bietet intelligente Vorschläge zur Optimierung der Content-Erstellung.
 * **Verbesserte Syntaxhervorhebung**: Verbessert die Lesbarkeit, indem die Code-Struktur visuell stärker hervorgehoben wird.
 
-![Video mit der neuen Funktion im Personalization-Editor](assets/do-not-localize/personalization-editor.gif)
+![Video zur neuen Funktion im Personalisierungseditor](assets/do-not-localize/personalization-editor.gif)
 
 Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../personalization/personalization-build-expressions.md).
 
@@ -178,16 +178,16 @@ Beim Definieren der Bedingungen für eine Genehmigungsrichtlinie haben Sie jetzt
 
 **Kanalkonfiguration**
 
-Sie können jetzt Kanalkonfigurationen einheitliche Adobe Experience Platform-Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern.
+Sie können nun Ihren Kanalkonfigurationen einheitliche Adobe Experience Platform-Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern.
 
 **Zustellbarkeit**
 
-Sie können jetzt Subdomains zuweisen, wobei DMARC von der übergeordneten Seite aus verwaltet wird.
+Sie können jetzt Subdomains delegieren, wobei DMARC von der übergeordneten Seite aus verwaltet wird.
 
 **Geschäftsregeln**
 
-Sie können jetzt die tägliche Frequenzlimitierung in Journey und Kampagnen mit **Batch**-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzlimitierung zu gewährleisten, müssen Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit **Batch**-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zu Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 **Content-Management**
 
-Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren.
+Um die Verwaltung Ihrer Fragmente und Inhaltsvorlagen zu vereinfachen, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. 

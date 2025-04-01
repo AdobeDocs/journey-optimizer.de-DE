@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
    >
    >* Bedingte Inhalte werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der die Varianten angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
    >
-   >* Bei der Simulation oder dem Rendern von Korrekturabzügen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zum Testen von Inhalten finden Sie auf [dieser Seite](../content-management/preview-test.md).
+   >* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Auf [dieser Seite](../content-management/preview-test.md) erfahren Sie mehr über das Testen Ihrer Inhalte.
 
 
 1. Um eine Variante zu löschen, klicken Sie auf das Symbol „Mehr Aktionen“ neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]** aus.
