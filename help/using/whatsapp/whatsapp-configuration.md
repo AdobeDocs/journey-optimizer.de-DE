@@ -9,10 +9,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 46%
+source-wordcount: '461'
+ht-degree: 45%
 
 ---
 
@@ -42,7 +43,7 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 1. Konfigurieren Sie Ihre API-Anmeldeinformationen, wie unten beschrieben:
 
-   * **API-Token**: https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API-Token**: Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in [Meta-Dokumentation](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **Geschäftskonto-ID**: Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in [Meta-Dokumentation](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 1. Wählen Sie **[!UICONTROL Marketing-Aktion(en)]** aus, um den Nachrichten mithilfe dieser Konfiguration Einverständnisrichtlinien zuzuordnen. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. Weitere Informationen
 
-1. Wählen Sie die zuvor erstellte **[!UICONTROL WhatsApp-Konfiguration]** aus.
+1. Wählen Sie die zuvor erstellte **[!UICONTROL WhatsApp-API-Konfiguration]** aus.
 
    ![](assets/whatsapp-config-3.png)
 

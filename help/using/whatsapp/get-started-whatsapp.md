@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 21%
+source-wordcount: '293'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +43,22 @@ Sie können jetzt WhatsApp-Nachrichten direkt über Journey Optimizer senden. Di
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## Einschränkungen {#limitations}
+## Voraussetzungen {#prereq}
+
+Die Integration von WhatsApp mit Journey Optimizer erfordert Folgendes:
+
+* Meta Business Manager-Konto
+* WhatsApp Business-Konto
+* WhatsApp-Telefonnummer
+
+Sie müssen außerdem Folgendes bestätigen, bevor Sie mit der Integration fortfahren:
+
+* [WhatsApp-Inhaltsregeln](https://www.whatsapp.com/legal/messaging-guidelines)
+* [Einhaltung von Meta-Richtlinien](https://www.whatsapp.com/legal)
+* [24-Stunden-Konversationslimit](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Genehmigte Meta-Vorlagen](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Einschränkungen bei Beta {#limitations}
 
 Die folgenden Funktionen werden in dieser Beta-Version nicht enthalten sein:
 
@@ -51,3 +67,13 @@ Die folgenden Funktionen werden in dieser Beta-Version nicht enthalten sein:
 * **Opt-in-/Opt-out** Schlüsselwörter: In dieser Phase haben Benutzer keine Möglichkeit, sich mit bestimmten Schlüsselwörtern zu abonnieren oder abzumelden.
 
 * **Antwortnachrichten**: Automatisierte oder vordefinierte Antwortnachrichten werden in dieser Version nicht unterstützt.
+
+## Anleitungsvideo {#video}
+
+Das folgende Video zeigt, wie man einen Journey mit einer WhatsApp-Aktion erstellt.
+
++++ Siehe Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++

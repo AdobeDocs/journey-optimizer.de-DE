@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 35%
+source-wordcount: '613'
+ht-degree: 31%
 
 ---
 
@@ -31,8 +32,6 @@ ht-degree: 35%
 >[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie ansprechende Nachrichten auf WhatsApp entwerfen und versenden. Fügen Sie einfach eine WhatsApp-Aktion zu Ihrem Journey oder Ihrer Kampagne hinzu und erstellen Sie Ihren Nachrichteninhalt wie unten beschrieben. Mit Adobe Journey Optimizer können Sie Ihre WhatsApp-Nachrichten vor dem Versand testen, um ein perfektes Rendering, eine genaue Personalisierung und die ordnungsgemäße Konfiguration aller Einstellungen sicherzustellen.
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## Hinzufügen einer WhatsApp-Nachricht {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginn
 
 1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
-1. Wählen Sie aus dem Menü **[!UICONTROL Aktions-Trigger]** die **[!UICONTROL Häufigkeit]** Ihrer SMS-Nachricht:
+1. Wählen Sie im Menü **[!UICONTROL Action]** Trigger die **[!UICONTROL Häufigkeit]** Ihrer WhatsApp-Nachricht:
 
    * Einmal
    * Täglich
@@ -89,9 +88,13 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginn
 
 ## Definieren von WhatsApp-Inhalten{#whatsapp-content}
 
->[!IMPORTANT]
->
->Bevor Sie Ihre WhatsApp-Nachricht in Journey Optimizer erstellen, müssen Sie zunächst Ihre Vorlage in Meta erstellen. [Weitere Informationen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+Bevor Sie Ihre WhatsApp-Nachricht in Journey Optimizer entwerfen, müssen Sie zunächst Ihre Vorlage in Meta erstellen und gestalten. In Journey Optimizer werden nur ausgehende Nachrichtenelemente unterstützt. [Weitere Informationen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden muss, bevor sie in Journey Optimizer verwendet werden kann. Dieser Vorgang dauert in der Regel einige Stunden, kann aber bis zu 24 Stunden dauern. [Weitere Informationen](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. Klicken Sie auf dem Bildschirm zur Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der WhatsApp-Nachricht zu konfigurieren.
 
