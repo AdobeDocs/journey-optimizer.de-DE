@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + Konfigurieren des Inhaltskartenkanals {#configure}
          + [Voraussetzungen für Inhaltskarten](using/content-card/content-card-configuration-prereq.md)
          + [Konfigurieren eines Inhaltskartenkanals in Journey Optimizer](using/content-card/content-card-configuration.md)
-         + [Konfigurieren der Unterstützung für Inhaltskarten in Mobile SDK](using/content-card/content-card-lp.md)
+         + [Konfigurieren der Unterstützung für Inhaltskarten im Mobile SDK](using/content-card/content-card-lp.md)
          + [Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK](using/content-card/content-card-configuration-sdk.md)
       + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
       + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)

@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,16 +37,16 @@ Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilu
 
 Um mit Geschäftsregeln arbeiten zu können, benötigen Sie die folgenden Berechtigungen:
 
-* **[!UICONTROL Anzeigen von Häufigkeitsregeln]**: Zugreifen auf und Anzeigen von Geschäftsregeln.
+* **[!UICONTROL Häufigkeitsregeln anzeigen]**: Zugreifen auf und Anzeigen von Geschäftsregeln.
 * **[!UICONTROL Häufigkeitsregeln verwalten]**: Erstellen, Bearbeiten oder Löschen von Geschäftsregeln.
 
 Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
-Beim erstmaligen Zugriff auf Regelsätze über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** wird ein Standardregelsatz vorab erstellt und aktiv: **Globaler Standardregelsatz**.
+Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
 
-Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzer Nachrichten über einen oder mehrere Kanäle erhalten, ähnlich wie aktuelle Geschäftsregeln funktionieren. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Geschäftsregeln arbeitet](../configuration/rule-sets.md)
+Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Geschäftsregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Geschäftsregeln arbeitet](../configuration/rule-sets.md)
 
 Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdefinierte Regelsätze** erstellen, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb dieser Kampagne gesendeten Nachrichten zu beschränken. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
 
@@ -66,7 +66,7 @@ Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz
 
 >[!AVAILABILITY]
 >
->Während **Channel**-Domain-Regelsätze für alle Benutzer verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Während **Kanal**-Domain-Regelsätze für alle Benutzenden verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Erstellen Ihres ersten benutzerdefinierten Regelsatzes {#create-rule-set}
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    >[!AVAILABILITY]
    >
-   >Während **Channel**-Domain-Regelsätze für alle Benutzer verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+   >Während **Kanal**-Domain-Regelsätze für alle Benutzenden verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -142,23 +142,23 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
    >[!AVAILABILITY]
    >
-   >Die „tägliche“ Dauer ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+   >Die Dauer „Täglich“ ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
    * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
 
-   * **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum gilt unabhängig davon, wann die Regel erstellt wurde. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+   * **[!UICONTROL Wöchentlich]**: Die Frequenzbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum gilt unabhängig davon, wann die Regel erstellt wurde. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
 
    * **[!UICONTROL Täglich]**: Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
 
      >[!CAUTION]
      > 
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzlimitierung zu gewährleisten, müssen Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zu Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 
-   Dies ist wichtig, wenn eine Person zwei Mitteilungen kurz nacheinander erhält. Wir empfehlen, die Kommunikation um mindestens zwei Stunden voneinander zu trennen, um dem Empfänger genügend Zeit zu geben, die Nachricht zu erhalten und den Zählerwert entsprechend zu aktualisieren.
+   Dies ist wichtig, wenn eine Person zwei Mitteilungen kurz nacheinander erhält. Wir empfehlen, die Mitteilungen nach Möglichkeit im Abstand von mindestens zwei Stunden zu versenden, damit die Empfängerinnen und Empfänger genügend Zeit haben, die Mitteilung zu erhalten, und der Zählerwert entsprechend aktualisiert werden kann.
 
 1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat, Woche oder Tag – entsprechend Ihrer Auswahl oben – an ein individuelles Benutzerprofil gesendet werden können.
 
@@ -225,7 +225,7 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Zugriff auf und Verwaltung von Regelsätzen {#access-rule-sets}
 
-Alle erstellten Regelsätze werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** angezeigt. Sie werden nach dem Datum der letzten Änderung sortiert.
+Alle erstellten Regelsätze werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln (Beta)]** angezeigt. Sie werden nach dem Datum der letzten Änderung sortiert.
 
 ![](assets/rule-sets-list.png)
 
