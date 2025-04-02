@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 100%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer ermöglicht es, Inhalte in E-Mail-Vorlagen zu sperren, entwede
 
 >[!IMPORTANT]
 >
->Die Inhaltssperre ist eine Funktion auf Editorenebene für Autorinnen und Autoren und garantiert nicht, dass der Inhalt beim Importieren oder Erstellen über die API nicht bearbeitet wird.
+>Die Inhaltssperre ist eine Funktion auf Editor-Ebene für Autoren und garantiert nicht, dass der Inhalt nicht bearbeitet wird, wenn er importiert oder über die API erstellt wird.
 
 Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** angewendet werden. Im Folgenden werden die wichtigsten Prinzipien beschrieben, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten.
 
@@ -64,6 +64,8 @@ Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** ange
 >[!AVAILABILITY]
 >
 >Benutzende mit der Berechtigung zum Erstellen von Inhaltsvorlagen können die Inhaltssperre aktivieren.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Sperren einer E-Mail-Vorlage {#define}
 
@@ -190,3 +192,9 @@ Im Folgenden finden Sie einige Beispiele für die Bearbeitung von E-Mails und di
 | Gesperrte Struktur, die nicht gelöscht werden kann | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Komponente mit gesperrten Stilen, die nicht gelöscht werden können. Benutzende können nur den Inhalt ändern. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Bearbeitbare Komponente innerhalb einer gesperrten Struktur. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
