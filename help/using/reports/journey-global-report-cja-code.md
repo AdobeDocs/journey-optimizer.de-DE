@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 95%
 
 ---
 
 # Code-basierter Journey-Bericht {#journey-global-report}
 
+>[!INFO]
+>
+> Ihr Journey-Bericht kann Informationen von mehreren Journeys gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basiert) in mehreren Journeys angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journeys teilnimmt, was zu einer Datenüberlappung führen kann.
+
 >[!BEGINSHADEBOX]
 
-Ihr Journey-Bericht kann Informationen von mehreren Journeys gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basiert) in mehreren Journeys angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journeys teilnimmt, was zu einer Datenüberlappung führen kann.
+Sie können auf Ihren Code-basierten Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 

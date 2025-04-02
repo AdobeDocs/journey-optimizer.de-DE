@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 94%
+source-wordcount: '611'
+ht-degree: 86%
 
 ---
 
 # In-App-Journey-Bericht {#journey-global-report}
 
+>[!INFO]
+>
+>Ihr Journey-Bericht kann Informationen von mehreren Journeys gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basiert) in mehreren Journeys angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journeys teilnimmt, was zu einer Datenüberlappung führen kann.
+
 >[!BEGINSHADEBOX]
 
-Ihr Journey-Bericht kann Informationen von mehreren Journeys gleichzeitig anzeigen, da Benutzende an mehr als einer Journey gleichzeitig beteiligt sein können. Daher können eingehende Nachrichten (In-App-, Web- und Code-basiert) in mehreren Journeys angezeigt werden, wenn sie für eine Benutzerin oder einen Benutzer ausgelöst wurden, die bzw. der an simultan aktiven Journeys teilnimmt, was zu einer Datenüberlappung führen kann.
+Sie können auf Ihren In-App-Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Impression- und Klick-Trend {#impression-click-trend}
+## Anzeigen- und Klick-Trend {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren In-App-Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion von Profilen mit Ihren Inhalten.
+Das Diagramm **[!UICONTROL Display &amp; Click]** Trend“ bietet eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren In-App-Nachrichten und wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu den Metriken für „Impression- und Klick-Trend“
++++ Erfahren Sie mehr über Trendmetriken für Anzeigen und Klicken
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 

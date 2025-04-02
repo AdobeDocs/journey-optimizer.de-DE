@@ -9,14 +9,22 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 94%
+source-wordcount: '563'
+ht-degree: 90%
 
 ---
 
 # Kampagnenbericht zu In-App-Daten {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+Sie können auf Ihren In-App-Kampagnenbericht zugreifen, indem Sie in Ihrer Kampagne auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Anzeigen- und Klick-Trend {#impression-click-trend}
 

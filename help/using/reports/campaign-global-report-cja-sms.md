@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
 # Kampagnenbericht zu SMS-Daten {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+Sie können auf Ihren SMS-Kampagnenbericht zugreifen, indem Sie in Ihrer Kampagne auf **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Alle Zeitberichte anzeigen]** auswählen. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Versand- vs. Klick-Trend {#delivered-click-sms}
 

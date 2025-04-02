@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '542'
+ht-degree: 93%
 
 ---
 
 # Journey-Bericht zu Push-Benachrichtigungen {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Sie können auf den Bericht Ihrer Push-Benachrichtigungs-Journey zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Versandstatistiken {#sending-statistics-push}
 
@@ -57,9 +65,7 @@ Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Üb
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer Push-Benachrichtigung geklickt haben.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Benutzerdefinierte Push-Aktionen]**: Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt werden.
 +++
 
 ## Labels getrackter Links {#track-link-label-push}

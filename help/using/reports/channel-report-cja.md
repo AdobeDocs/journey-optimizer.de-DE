@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,11 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
+* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentsatz der Klicks in Ihren Nachrichten.
+
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für jede Kampagne.
+
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
@@ -107,9 +111,9 @@ Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung de
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
+* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentsatz der Klicks in Ihren Nachrichten.
 
-* **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für jede Kampagne.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 

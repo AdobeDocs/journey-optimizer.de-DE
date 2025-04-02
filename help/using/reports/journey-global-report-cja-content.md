@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 95%
 
 ---
 
 # Journey-Bericht zu Inhaltskarten {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Sie können auf Ihren Inhaltskarten-Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## Anzeigen und Klicken {#displays-content-card}
 

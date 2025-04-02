@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
 # Kampagnenbericht zu Direkt-Mail {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+Sie können auf den Kampagnenbericht für Briefpost zugreifen, indem Sie in Ihrer Kampagne auf **[!UICONTROL Berichte]** klicken und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Versandstatistiken {#sending-statistics-directmail}
 
