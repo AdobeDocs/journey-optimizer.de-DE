@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+workflow-type: tm+mt
+source-wordcount: '732'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,11 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 1. Es wird eine Vorschau des geänderten Code-basierten Erlebnisses angezeigt.
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie in [diesem Abschnitt](../content-management/preview.md).
+
+>[!NOTE]
+>
+>Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Code-basierten Erlebniskampagne oder einem Journey mit [Decisioning) ](../experience-decisioning/gs-experience-decisioning.md). Eine Problemumgehung finden Sie in [ Abschnitt ](../experience-decisioning/create-decision.md).
+
 
 ## Vorschau auf Gerät {#preview-on-device}
 
