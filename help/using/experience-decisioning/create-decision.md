@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 89%
+source-wordcount: '1756'
+ht-degree: 90%
 
 ---
 
@@ -227,27 +227,26 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
 Gehen Sie wie folgt vor, um Ihr Code-basiertes Erlebnis abzuschließen und Ihre Änderungen live zu schalten.
 
-1. Zeigen Sie vor der Veröffentlichung eine Vorschau Ihres Code-basierten Erlebnisses an, um es zu testen.
-
-   >[!CAUTION]
-   >
-   >Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einem [Code-basierten Erlebnis, einer Kampagne ](../code-based/create-code-based.md) einem Journey mithilfe von Entscheidungen simulieren.
-
-   Um die Entscheidungsfindung zu testen, können Sie die `dryRun`-Markierung zum XDM-Ereignis-`data`-Block in Ihrer Client-Implementierung hinzufügen:
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. Überprüfen und veröffentlichen Sie Ihre Code-basierte Erlebniskampagne oder Ihr Journey. [Weitere Informationen](../code-based/publish-code-based.md)
 
    Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
 
+1. Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einem [Code-basierten Erlebnis, einer Kampagne ](../code-based/create-code-based.md) einem Journey mithilfe von Entscheidungen simulieren.
+
+   Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die `dryRun`-Markierung zum XDM-`data` in Ihrer Client-Implementierung hinzufügen:
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie jetzt benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics erstellen](cja-reporting.md).
+
+
