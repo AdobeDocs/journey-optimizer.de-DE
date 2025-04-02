@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
+source-git-commit: ff722dd9f727a70fa3788f5e47a49e7a2fa7e952
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 39%
 
 ---
 
-# Liste von Komponenten {#list-of-components-global}
+# Liste der Metriken {#list-of-components-global}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
