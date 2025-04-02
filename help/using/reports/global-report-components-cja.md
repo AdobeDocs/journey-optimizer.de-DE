@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 59%
+source-wordcount: '1829'
+ht-degree: 39%
 
 ---
 
@@ -444,53 +444,214 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <tr> 
    <th> Metrik<br/> </th> 
    <th> Definition<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Bounces<br/> </td> 
-   <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
+   <td>Bounce-Rate<br/> </td> 
+   <td>Prozentualer Anteil der Personen, die sich die Landingpage angesehen, aber nicht interagiert oder sich nicht angemeldet haben, bezogen auf die Gesamtzahl der Besuche.<br/> </td> 
 </tr>
  <tr> 
-   <td>Bounce-Rate<br/> </td> 
-   <td>Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Abonnieren nicht abgeschlossen haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
-</tr>
- <tr>
-  <tr> 
    <td>Klicks<br/> </td> 
    <td>Anzahl der Klicks auf einen Inhalt der Landingpage.<br/> </td> 
 </tr>
- <tr> 
-   <td>Klickrate<br/> </td> 
-   <td>Prozentsatz der Klicks auf der Landingpage.<br/> </td>
-</tr>
-<tr>
-<td>Konversion<br/> </td> 
+
+<tr> 
+   <td>Konversion der Landingpage<br/> </td> 
    <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
-<tr>
+<tr> 
+   <td>Konversionsrate der Landingpage<br/> </td> 
+   <td>Prozentsatz der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular abonniert haben, bezogen auf die Gesamtzahl der Besuche.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Landingpage-Ansichten<br/> </td> 
+   <td>Gesamtzahl der Besuche auf einer Landingpage von Journey und externen Quellen, einschließlich mehrerer Besuche desselben Profils.<br/> </td> 
+</tr>
+<tr> 
+   <td>Eindeutige Landingpage-Konversionen<br/> </td> 
+   <td>Anzahl der eindeutigen Personen, die mit der Landingpage interagiert haben, wobei mehrere Interaktionen aus demselben Profil ausgeschlossen sind.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Eindeutige Landingpage-Ansichten<br/> </td> 
+   <td>Anzahl der eindeutigen Personen, die Ihre Landingpage besucht haben, mit Ausnahme mehrerer Besuche desselben Profils.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Direkt-Mail {#direct-mail}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Zugestellt<br/> </td> 
+   <td>Anzahl der Briefpostnachrichten, die erfolgreich an Empfänger gesendet wurden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Ausgehende Fehler<br/> </td> 
+   <td>Anzahl der Briefpostnachrichten, bei denen während der Verarbeitung oder des Versands Fehler aufgetreten sind und die einen erfolgreichen Versand verhindert haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Ausgehende Ausschlüsse<br/> </td> 
+   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Empfang von Briefpost ausgeschlossen sind.<br/> </td> 
+</tr>
+<tr> 
+   <td>Profile<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die als Zielgruppe für die Briefpostkampagne identifiziert wurden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Gesendet<br/> </td> 
+   <td>Gesamtzahl der Briefpostnachrichten, die im Rahmen der Kampagne erfolgreich gesendet wurden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Zielgruppe<br/> </td> 
+   <td>Gesamtzahl der für den Versand vorbereiteten und verarbeiteten Briefpostnachrichten.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+
+## Metriken der Inhaltskarte {#content-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Clickthrough-Rate (CTR)<br/> </td> 
+   <td>Prozentsatz der Benutzenden, die mit der Inhaltskarte interagiert haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Klicks<br/> </td> 
+   <td>Anzahl der Klicks auf einen Inhalt auf Ihrer Inhaltskarte.<br/> </td> 
+</tr>
+<tr> 
+   <td>Displays<br/> </td> 
+   <td>Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die sich als Zielprofile für Ihre Inhaltskarten eignen.<br/> </td> 
+</tr>
+<tr> 
+   <td>Einzelklicks<br/> </td> 
+   <td>Anzahl der Profile, die auf einen Inhalt in Ihrer Inhaltskarte geklickt haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Eindeutige Anzeigen<br/> </td> 
+   <td>Anzahl der Öffnungen der Nachricht. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Web-Seiten-Metriken {#web}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Klicks<br/> </td> 
+   <td>Anzahl der Klicks auf einen Inhalt Ihrer Web-Seiten.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clickthrough-Rate (CTR)<br/> </td> 
+   <td>Prozentsatz der Benutzer, die mit den Web-Seiten interagiert haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Displays<br/> </td> 
+   <td>Anzahl der Öffnungen der Web-Seite.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen<br/> </td> 
+   <td>Anzahl der Profile, die sich als Zielprofile für Ihre Web-Seiten qualifizieren.<br/> </td> 
+</tr>
+<tr> 
+   <td>Einzelklicks<br/> </td> 
+   <td>Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Eindeutige Anzeigen<br/> </td> 
+   <td>Anzahl der Öffnungen der Web-Seite. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Code-basierte Erlebnismetriken {#code-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Klicks<br/> </td> 
+   <td>Gesamtzahl der Klicks von Benutzern auf personalisierte Erlebnisse, die ihnen angezeigt wurden.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clickthrough-Rate (CTR)<br/> </td> 
+   <td>Prozentualer Anteil der Benutzenden, die auf einen Link, eine Anzeige oder eine Empfehlung klicken, im Vergleich zur Anzahl der angezeigten Klicks.<br/> </td> 
+</tr>
+<tr> 
    <td>Konversionsrate<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular abonniert haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
+   <td>Prozentualer Anteil der Anzeigen, die zu Benutzeraktionen geführt haben (z. B. Klicks), was den Erfolg des Modells bei der Interaktion mit Benutzern anzeigt.<br/> </td> 
 </tr>
- <tr> 
-   <td>Journey(s)<br/> </td> 
-   <td>Anzahl der Besuche auf einer Landingpage von einer Journey.<br/> </td> 
+<tr> 
+   <td>Leistung der Entscheidungselemente<br/> </td> 
+   <td>Wertet aus, wie gut jedes Element bei der Interaktion mit Benutzenden und der Förderung gewünschter Aktionen wie Käufe, Klicks oder anderer Antworten abschneidet.<br/> </td> 
 </tr>
- <tr> 
-   <td>Andere Quellen<br/> </td> 
-   <td>Anzahl der Besuche auf Ihrer Landingpage, die von einer externen Quelle anstelle einer Journey stammen.<br/> </td> 
+<tr> 
+   <td>Decisioning-KPIs<br/> </td> 
+   <td>Wichtige Einblicke in die Interaktion der Besucher mit Erlebnissen, einschließlich Gesamtelementen, Gesamtklicks, Gesamtanzeigen und Fallback-Rate.<br/> </td> 
 </tr>
- <tr> 
-   <td>Besuche insgesamt<br/> </td> 
-   <td> Gesamtzahl der Besuche auf einer Landingpage, die von Journey und externen Quellen stammen, einschließlich mehrerer Besuche eines Profils.<br/> </td> 
+<tr> 
+   <td>Displays<br/> </td> 
+   <td>Gesamtzahl der Fälle, in denen personalisierte Erlebnisse Benutzern über verschiedene Touchpoints hinweg angezeigt oder präsentiert wurden.<br/> </td> 
 </tr>
- <tr> 
-   <td>Unique Visitors<br/> </td> 
-   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrere Besuche eines Profils nicht berücksichtigt werden.<br/> </td> 
+<tr> 
+   <td>Verlobungstrichter<br/> </td> 
+   <td>Überwacht die Leistung personalisierter Erlebnisse, indem bewertet wird, wie effektiv jede Stufe des Trichters die Benutzerinteraktionen antreibt.<br/> </td> 
 </tr>
- <tr> 
-   <td>Besuche<br/> </td> 
-   <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrerer Besuche eines Profils.<br/> </td> 
+<tr> 
+   <td>Interaktionstrichter nach Auswahlstrategie<br/> </td> 
+   <td>Überwacht und analysiert, wie effektiv verschiedene Auswahlstrategien Benutzerinnen und Benutzer mit personalisierten Erlebnissen ansprechen.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personen<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Code-basierten Erlebnisse eignen.<br/> </td> 
+</tr>
+<tr> 
+   <td>Rangfolgestrategie<br/> </td> 
+   <td>Einblicke in die Leistung von KI-gesteuerten Ranking-Modellen, die zwei Traffic-Typen vergleichen: Modellgesteuert und Holdout.<br/> </td> 
+</tr>
+<tr> 
+   <td>Top-Entscheidungselemente nach CTR<br/> </td> 
+   <td>Hebt die Leistung einzelner Elemente basierend auf ihrer Clickthrough-Rate (CTR) hervor, um zu bewerten, welche Elemente am effektivsten für die Interaktion mit Benutzern sind.<br/> </td> 
+</tr>
+<tr> 
+   <td>Einzelklicks<br/> </td> 
+   <td>Anzahl der Profile, die in Ihren Code-basierten Erlebnissen auf einen Inhalt geklickt haben.<br/> </td> 
+</tr>
+<tr> 
+   <td>Eindeutige Anzeigen<br/> </td> 
+   <td>Anzahl der Öffnungen des Erlebnisses. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
 </tr>
  </tbody> 
 </table>
