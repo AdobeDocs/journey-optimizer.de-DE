@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 96%
@@ -107,7 +107,7 @@ Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein A
 
 >[!NOTE]
 >
->Standardmäßig werden im Attributbereich nur ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, wählen Sie die Schaltfläche ![](assets/do-not-localize/settings-icon.svg) oberhalb des Suchfelds und schalten Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** um.
+>Standardmäßig werden im Attributbereich nur ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, wählen Sie die Schaltfläche ![](assets/do-not-localize/settings-icon.svg) oberhalb des Suchfelds und schalten Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** aus.
 
 Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 

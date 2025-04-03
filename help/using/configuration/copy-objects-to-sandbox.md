@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
-workflow-type: ht
-source-wordcount: '1042'
-ht-degree: 100%
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 94%
 
 ---
 
@@ -50,6 +50,21 @@ Journey Optimizer ermöglicht den Export von Journey, Inhaltsvorlagen und Fragme
 * Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. So können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen.
 
 * Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
+
+### Kampagnen (#campaigns)
+
+Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert.
+
+Die folgenden Elemente werden jedoch **nicht** kopiert:
+
+* Mehrsprachige Varianten und Spracheinstellungen
+* Experimentvarianten
+* Entscheidungsrichtlinien und Entscheidungselemente
+* Geschäftsregeln
+* Tags
+* Kennzeichnungen zur Datennutzung und Durchsetzung von Daten (DULE)
+
+Nachdem Kampagnen kopiert wurden, müssen Kanalkonfigurationen manuell ausgewählt werden.
 
 ### Inhaltsvorlagen {#content-templates}
 
