@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+workflow-type: tm+mt
+source-wordcount: '1436'
+ht-degree: 96%
 
 ---
 
@@ -99,9 +99,15 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 >title="Automatisch vervollständigen"
 >abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code während Ihrer Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
-Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+`, um es zum Ausdruck hinzuzufügen.
+Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zum Personalisieren Ihrer Nachricht zu verwenden, suchen Sie es im Bereich Attribute und klicken Sie auf die Schaltfläche `+` , um es zum Ausdruck hinzuzufügen.
+
+![](assets/personalization-add-attribute.png)
 
 Über das Menü mit den Auslassungspunkten neben dem Symbol `+` können Sie weitere Details für jedes Attribut abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. Zu Favoriten hinzugefügte Attribute sind über das Menü **[!UICONTROL Favoriten]** im Navigationsbereich zugänglich.
+
+>[!NOTE]
+>
+>Standardmäßig werden im Attributbereich nur ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, wählen Sie die Schaltfläche ![](assets/do-not-localize/settings-icon.svg) oberhalb des Suchfelds und schalten Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** um.
 
 Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
