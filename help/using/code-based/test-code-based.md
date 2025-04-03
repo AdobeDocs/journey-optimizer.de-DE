@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 96%
@@ -40,7 +40,7 @@ Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres I
 
 >[!NOTE]
 >
->Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Code-basierten Erlebniskampagne oder einem Journey mit [Decisioning) ](../experience-decisioning/gs-experience-decisioning.md). Eine Problemumgehung finden Sie in [ Abschnitt ](../experience-decisioning/create-decision.md).
+>Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Code-basierten Erlebniskampagne oder einem Journey mit [Decisioning) ](../experience-decisioning/gs-experience-decisioning.md). Eine Problemumgehung finden Sie in [ Abschnitt ](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Vorschau auf Gerät {#preview-on-device}
