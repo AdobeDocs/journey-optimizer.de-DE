@@ -5,16 +5,25 @@ title: Starten und Überwachen mehrstufiger Kampagnen mit Adobe Journey Optimize
 description: Erfahren Sie, wie Sie mehrstufige Kampagnen mit Adobe Journey Optimizer starten und überwachen
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 49%
+source-wordcount: '579'
+ht-degree: 43%
 
 ---
 
-# Starten und Überwachen Ihrer mehrstufigen Kampagnen {#start-monitor}
+# Starten und Überwachen orchestrierter Kampagnen {#start-monitor}
 
-Sobald Sie Ihren Workflow erstellt und die Aufgaben in der Arbeitsfläche entworfen haben, können Sie ihn starten und seine Ausführung überwachen.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Ihr Browser unterstützt das Audioelement nicht.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Orchestrierte Kampagne veröffentlichen"
+>abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Warnungen vor der Veröffentlichung gelöscht wurden."
+
+
+Nachdem Sie Ihre koordinierten und entworfenen Aufgaben auf der Arbeitsfläche erstellt haben, können Sie sie veröffentlichen und ihre Ausführung überwachen.
 
 ## Starten einer mehrstufigen Kampagne {#start}
 
