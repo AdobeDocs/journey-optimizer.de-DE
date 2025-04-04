@@ -14,7 +14,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Integration mit Adobe Express"
->abstract="Beginnen Sie mit der Personalisierung Ihrer Assets mit der Adobe Express-Integration. Mit dieser Funktion können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren."
+>abstract="Beginnen Sie mit der Personalisierung Ihrer Assets mit der Integration von Adobe Express. Mit dieser Funktion können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren."
 
 >[!AVAILABILITY]
 >
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen den einfachen Zugriff auf die leistungsstarken Bearbeitungswerkzeuge von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
 
-Weitere Informationen zu Adobe Express finden Sie in [dieser Dokumentation](https://helpx.adobe.com/express/user-guide.html).
+Weitere Informationen zu Adobe Express finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/express/user-guide.html).
 
 Um auf das Menü &quot;**[!DNL Adobe Express]**&quot; zuzugreifen, rufen Sie **E-Mail** Designer Ihre Bildeinstellungen auf und klicken Sie auf **[!UICONTROL Bearbeiten in Adobe Express]**.
 

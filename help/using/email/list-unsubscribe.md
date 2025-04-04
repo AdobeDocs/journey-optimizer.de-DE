@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 58%
+ht-degree: 61%
 
 ---
 
@@ -54,8 +54,8 @@ Wenn ein Empfänger auf den Abmelde-Link klickt, wird in beiden Fällen seine Ab
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen einer Abmelde-URL zu Ihren E-Mails"
->abstract="Aktivieren Sie diese Option, um der E-Mail-Kopfzeile automatisch eine Abmelde-URL hinzuzufügen. Sie können auch eine Abmelde-URL in einer Nachricht einrichten, indem Sie einen Ein-Klick-Ausschluss-Link in den Inhalt der E-Mail einfügen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Opt-out mit einem Klick für den E-Mail-Inhalt festlegen"
+>abstract="Aktivieren Sie diese Option, um automatisch eine Abmelde-URL zur E-Mail-Kopfzeile hinzuzufügen. Sie können auch eine Abmelde-URL in einer Nachricht einrichten, indem Sie einen Ein-Klick-Ausschluss-Link in den Inhalt der E-Mail einfügen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Festlegen des Opt-outs mit einem Klick über den E-Mail-Inhalt"
 
 Wenn die Option **[!UICONTROL Abmelden von einer Liste aktivieren]** aktiviert ist und vom E-Mail-Client der Empfänger unterstützt wird, enthält die E-Mail-Kopfzeile standardmäßig sowohl ein Mailto als auch eine URL, die Empfänger verwenden können, um sich von Ihrer Mailing-Liste abzumelden.
 
@@ -106,7 +106,7 @@ Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="Geben Sie Ihre eigene Abmelde-URL mit einem Klick ein"
+>title="Eingeben der eigenen URL zum Abmelden mit einem Klick"
 >abstract="Die **URL zum Abmelden mit einem Klick** muss die POST-Anfragemethode verwenden."
 
 Wählen Sie im Falle einer Einverständnisverwaltung außerhalb von Adobe die Option **[!UICONTROL Kundenseitig verwaltet]** aus, um eine benutzerdefinierte Abmelde-E-Mail-Adresse und Ihre eigene URL zum Abmelden mit einem Klick einzugeben.

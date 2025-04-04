@@ -11,7 +11,7 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
 >title="Verwenden einer mit GenStudio erstellten Vorlage"
->abstract="Dank der nahtlosen Integration mit Adobe GenStudio for Performance Marketing können Sie eine GenStudio-Vorlage, die mit der Adobe-KI-Technologie erweitert wurde, einfach importieren."
+>abstract="Dank der nahtlosen Integration mit Adobe GenStudio for Performance Marketing können Sie eine mit KI-Technologie von Adobe erweiterte GenStudio-Vorlage einfach importieren."
 
 >[!AVAILABILITY]
 >
