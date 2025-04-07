@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 94%
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Journey Optimizer ermöglicht den Export von Journey, Inhaltsvorlagen und Fragme
 
 * Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
 
-### Kampagnen (#campaigns)
+### Kampagnen {#campaigns}
 
 Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert.
 
