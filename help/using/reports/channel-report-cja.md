@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 * [Kampagnen](#campaign)
 * [Kanäle](#channel)
 
-Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
+Weitere Informationen zu Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
 ## Highlights {#highlights}
 
@@ -35,7 +35,7 @@ Weitere Informationen zum Customer Journey Analytics-Workspace und zum Filtern u
 
 Die KPIs **[!UICONTROL Highlights]** dienen als umfassendes Dashboard, das eine detaillierte Aufschlüsselung der Schlüsselmetriken für alle Kampagnen und Journey in Ihrer Umgebung bietet und es Ihnen ermöglicht, die Performance schnell zu bewerten und Verbesserungsbereiche zu identifizieren.
 
-+++ Weitere Informationen zu Metriken für Highlights
++++ Weitere Informationen zu Metriken von Highlights
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
@@ -65,7 +65,7 @@ Die Tabelle **[!UICONTROL Journey]** dient als umfassendes Dashboard, das eine A
 
 Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Journey können Sie jede Journey problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Metriken für Journeys
++++ Weitere Informationen zu Journey-Metriken
 
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -83,7 +83,7 @@ Die Tabelle **[!UICONTROL Kampagne]** dient als allumfassendes Dashboard, das ei
 
 Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne können Sie jede Kampagne problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Metriken für Kampagnen
++++ Weitere Informationen zu Campaign-Metriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
@@ -107,7 +107,7 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung der Interaktion Ihrer Profile mit Ihren Nachrichten auf Kanalebene an. Auf diese Weise erhalten Sie genauere Erkenntnisse zur Performance verschiedener Kanäle.
 
-+++ Weitere Informationen zu Metriken für Kanäle
++++ Weitere Informationen zu Kanalmetriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 

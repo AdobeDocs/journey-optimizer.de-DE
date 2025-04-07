@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateOnly, Funktion, Ausdruck, Journey
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 90%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-Konvertiert ein Argument in einen Wert vom Typ dateOnly. Weiterführende Informationen zu Datentypen finden Sie in diesem [Abschnitt](../expression/data-types.md).
+Konvertiert ein Argument in einen Wert vom Typ dateOnly. Weitere Informationen zu Datentypen finden Sie in diesem [Abschnitt](../expression/data-types.md).
 
 ## Kategorie
 
