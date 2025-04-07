@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Um eine neue Kampagne zu erstellen, navigieren Sie zum Menü **[!UICONTROL Kampagnen]** in der linken Leiste und klicken Sie auf **[!UICONTROL Kampagne erstellen]**. Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate).
 
-Bevor Sie beginnen, lesen Sie die Kampagnenvoraussetzungen auf [dieser Seite](get-started-with-campaigns.md#before-starting-campaign-prerequisites) durch.
+Bevor Sie beginnen, lesen Sie die Voraussetzungen für die Kampagne auf [dieser Seite](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
 
 ## Auswählen des Kampagnentyps {#campaigntype}
 
@@ -49,7 +49,7 @@ Nach der Erstellung der Kampagne müssen Sie deren Eigenschaften definieren. Fü
 
 1. (optional) Über das Feld **Tags** können Sie der Kampagne einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags).
 
-1. (optional) Sie können den Zugriff auf diese Kampagne basierend auf Zugriffs-Labels einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **[!UICONTROL Zugriff verwalten]** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie über eine Berechtigung verfügen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. (optional) Sie können den Zugriff auf diese Kampagne basierend auf Zugriffs-Labels einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **[!UICONTROL Zugriff verwalten]** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie über eine Berechtigung verfügen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene](../administration/object-based-access.md).
 
 ## Definieren der Zielgruppe einer Kampagne {#audience}
 
@@ -65,7 +65,7 @@ Um die Zielgruppe der geplanten Marketing-Kampagne zu definieren, gehen Sie folg
 
 1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
-1. Wählen Sie im Feld **[!UICONTROL Identitätstyp]** den Schlüsseltyp aus, der zur Identifizierung der Kontakte in der ausgewählten Zielgruppe verwendet werden soll. Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit dem Identity Service einen neuen erstellen. Standardmäßige Identitäts-Namespaces werden auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} aufgeführt.
+1. Wählen Sie im Feld **[!UICONTROL Identitätstyp]** den Schlüsseltyp aus, der zur Identifizierung der Kontakte in der ausgewählten Zielgruppe verwendet werden soll. Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit dem Identity Service einen neuen erstellen. Standard-Identity-Namespaces sind auf [ Seite ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Pro Kampagne ist nur ein Identitätstyp zulässig. Kontakte, die zu einem Segment gehören, das den ausgewählten Identitätstyp nicht unter seinen verschiedenen Identitäten hat, können nicht in die Kampagne einbezogen werden.
 
@@ -135,7 +135,7 @@ Zusätzlich zum eigentlichen Nachrichteninhalt können Sie die folgenden Einstel
 
 1. Geben Sie im Bereich **[!UICONTROL Aktions-Tracking]** an, ob Sie verfolgen möchten, wie die Empfangenden auf Ihren Versand reagieren: Sie können Klicks und/oder Öffnungen verfolgen.
 
-   Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../reports/campaign-global-report-cja.md)
+   Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Erfahren Sie mehr über Kampagnenberichte](../reports/campaign-global-report-cja.md)
 
 ## Planen der Kampagne {#schedule}
 

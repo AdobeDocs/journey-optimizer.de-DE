@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können.  Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen zum Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-Als Admin können Sie Ihre benutzerdefinierten Aktionskonfigurationen auch testen, indem Sie echte API-Aufrufe direkt über die Benutzeroberfläche durchführen. Weiterführende Informationen finden Sie auf [dieser Seite](../action/troubleshoot-custom-action.md).
+Als Admin können Sie Ihre benutzerdefinierten Aktionskonfigurationen auch testen, indem Sie echte API-Aufrufe direkt über die Benutzeroberfläche durchführen. Weitere Informationen finden Sie auf [dieser Seite](../action/troubleshoot-custom-action.md).
 
 ## Fehlersuche vor dem Testen {#checking-for-errors-before-testing}
 

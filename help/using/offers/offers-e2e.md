@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
    >[!NOTE]
    >
-   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Weitere Informationen zu [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)
+   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Weitere Informationen zu [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Angebote konfigurieren {#configure-offers}
 
@@ -128,7 +128,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
    >
    >Ein Angebot kann an verschiedenen Stellen in einer Nachricht angezeigt werden, um mehr Möglichkeiten zur Nutzung des Angebots in verschiedenen Platzierungskontexten zu schaffen.
 
-   Weitere Informationen zu Darstellungen finden Sie in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Weitere Informationen zu Darstellungen finden [ in diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Wählen Sie ein passendes Bild für die ersten beiden Platzierungen aus. Geben Sie benutzerdefinierten Text für die Platzierung *Nicht digital – Text* ein.
 
@@ -225,6 +225,6 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung we
 
 ## Fügen Sie die Entscheidung in eine E-Mail ein. {#insert-decision-in-email}
 
-Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Befolgen Sie dazu die auf [dieser Seite](../../using/email/add-offers-email.md) beschriebenen Schritte.
+Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Folgen Sie dazu den Schritten auf [dieser Seite](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

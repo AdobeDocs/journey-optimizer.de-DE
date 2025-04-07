@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 89%
@@ -94,7 +94,7 @@ Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder
 
 >[!NOTE]
 >
->* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 >
 >* Standardmäßig wird die **[!UICONTROL Zeitbedingung]** stundenweise festgelegt, von 00:00 Uhr bis 12:00 Uhr.
 

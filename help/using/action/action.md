@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Aktionen sind Verbindungen, über die Sie Kundinnen und Kunden personalisierte E
 >
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Benutzenden** durchgeführt.
 
-Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benutzenden definiert und Marketing-Fachleuten zur Verfügung gestellt werden: Nach der Konfiguration erscheinen sie in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]**. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benutzenden definiert und Marketing-Fachleuten zur Verfügung gestellt werden: Nach der Konfiguration erscheinen sie in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]**. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Schnittstelle finden Sie auf [dieser Seite](../start/user-interface.md).
 

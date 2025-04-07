@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -39,17 +39,17 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
-Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass die [maximale globale Wartezeit](journey-properties.md#global_timeout) für Journeys 91 Tage beträgt, d. h., Profile werden immer spätestens 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weiterführende Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
+Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass die [maximale globale Wartezeit](journey-properties.md#global_timeout) für Journeys 91 Tage beträgt, d. h., Profile werden immer spätestens 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
 
 Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden.
 
 ### Warten und erneuter Eintritt {#wait-reentrance}
 
-Eine Best Practice, um keine Aktivitäten vom Typ **Warten** zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance).
+Eine Best Practice, um keine Aktivitäten vom Typ **Warten** zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance).
 
 ### Warten und Testmodus {#wait-test-modd}
 
-Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Aktivität vom Typ **Warten** festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Aktivität vom Typ **Warten** festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
 ## Konfiguration {#wait-configuration}
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -57,6 +57,6 @@ Ihre Nutzung von Textnachrichten- und MMS-Diensten unterliegt zusätzlichen Bedi
 
 >[!CAUTION]
 >
->Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weitere Informationen zu technischen Workflows finden Sie auf [dieser Seite](../administration/high-low-permissions.md#administration-permissions).
+>Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie auf [dieser Seite](../administration/high-low-permissions.md#administration-permissions).
 >
 

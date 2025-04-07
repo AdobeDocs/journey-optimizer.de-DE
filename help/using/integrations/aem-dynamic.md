@@ -8,10 +8,10 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Diese Integration ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Diese Integration ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynamic Media-Ausgabedarstellungen in Journey Optimizer nahtlos auswählen und verwenden können. Änderungen an Assets in Adobe Experience Manager werden sofort in Ihren Journey Optimizer-Inhalten übernommen, sodass stets die aktuellen Versionen verwendet werden, ohne dass manuelle Aktualisierungen erforderlich sind.
 
@@ -100,7 +100,7 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
-Weitere Informationen finden Sie unter [Dynamic Media-Vorlage](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Weitere Informationen zu [Dynamic Media-Vorlage](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
 ### Mit Bildkomponente {#image-component}
 
@@ -126,7 +126,7 @@ Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren 
 
 1. Füllen Sie die verschiedenen Felder aus und verwenden Sie den Personalisierungseditor, um personalisierte Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, z. B. den Profilnamen, die Stadt oder andere relevante Details, um ein benutzerfreundlicheres Erlebnis zu schaffen.
 
-   Weitere Informationen zur Personalisierung finden Sie auf [dieser Seite](../personalization/personalize.md).
+   Weitere Informationen zur Personalisierung finden [ auf dieser Seite](../personalization/personalize.md).
 
    ![](assets/do-not-localize/dynamic_media_template.gif)
 
@@ -209,7 +209,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 1. Choose your condition or create a new one if needed and click **[!UICONTROL Select]**.
 
-    [Learn more on conditions](../personalization/create-conditions.md)
+    [Learn more about conditions](../personalization/create-conditions.md)
 
 1. Select your **[!UICONTROL Component]** and access the **[!UICONTROL Settings]** menu.
 

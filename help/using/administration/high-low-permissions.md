@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 Jede Rolle besteht aus Berechtigungen, die Benutzenden den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [dieser Seite](ootb-permissions.md) näher beschrieben.
+* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [ Seite ](ootb-permissions.md).
 
 * **Berechtigungen auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 **Welche Schutzmechanismen gibt es, um zu verhindern, dass materialisierte Zielgruppen überlastet werden?**
 
-Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Adobe Experience Platform Weitere Informationen zu Zielgruppen finden Sie in der Dokumentation zum Segmentierungs-Service in [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 ## Erste Schritte mit Geschäftsereignissen {#gs-business-events}
 
@@ -106,7 +106,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    ![](assets/journey7-business.png)
 
-   Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weiterführende Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey.md).
+   Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definieren der Payload-Felder {#define-the-payload-fields}
 

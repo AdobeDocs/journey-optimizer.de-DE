@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 31%
+source-wordcount: '809'
+ht-degree: 23%
 
 ---
 
@@ -32,6 +32,35 @@ ht-degree: 31%
 >[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie ansprechende Nachrichten auf WhatsApp entwerfen und versenden. Fügen Sie einfach eine WhatsApp-Aktion zu Ihrem Journey oder Ihrer Kampagne hinzu und erstellen Sie Ihren Nachrichteninhalt wie unten beschrieben. Mit Adobe Journey Optimizer können Sie Ihre WhatsApp-Nachrichten vor dem Versand testen, um ein perfektes Rendering, eine genaue Personalisierung und die ordnungsgemäße Konfiguration aller Einstellungen sicherzustellen.
+
+Beachten Sie, dass in Journey Optimizer nur ausgehende Nachrichtenelemente unterstützt werden.
+
++++ Weitere Informationen zu unterstützten Nachrichtenelementen und Aktionsaufrufen
+
+Die folgenden Nachrichtentypen werden in WhatsApp unterstützt:
+
+| Nachrichtenfunktion | Beschreibung |
+|-|-|
+| Kopfzeilen | Optionaler Text, der über dem Nachrichtentext angezeigt wird. |
+| Text | Unterstützt dynamische Inhalte durch Parameter. |
+| Bilder (JPEG, PNG) | Muss im 8-Bit-RGB- oder RGBA-Format und kleiner als 5 MB sein. |
+| Videos | Muss 3GPP oder MP4 sein, unter 16 MB, und gehostet über URL. |
+| Audio | Nur für Antwortnachrichten verfügbar. Muss das Format AAC, AMR, MP3, MP4 Audio oder OGG haben, auf einer URL gehostet werden und weniger als 16 MB groß sein. |
+| Dokumente | Muss unter 100 MB groß sein, auf einer URL gehostet und in einem der folgenden Formate vorliegen: .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx oder .pdf. |
+| Textkörper | Unterstützt dynamische Inhalte durch Parameter. |
+| Fußzeilentext | Unterstützt dynamische Inhalte durch Parameter. |
+
+Für Ihre WhatsApp-Nachrichten stehen die folgenden Aktionsaufruf-Optionen zur Verfügung:
+
+| Aktionsaufruf | Beschreibung |
+|-|-|
+| Telefonnummer des Anrufs | Nur in Nachrichtenvorlagen verfügbar. Auf eine Schaltfläche beschränkt. |
+| Benutzerdefinierte Schnellantwort-Schaltflächen | Unterstützt bis zu drei Schaltflächen. |
+| Schaltfläche zum Marketing-Opt-out | Aktualisiert den Abonnementstatus nicht automatisch. |
+| Gutschein-Code-Nachrichtenvorlagen | Nur in Nachrichtenvorlagen verfügbar. |
+| CTA-Antwortnachrichten | Ermöglicht die Aufnahme einer Aktionsaufruf-Schaltfläche in eine Antwortnachricht. |
+
++++
 
 ## Hinzufügen einer WhatsApp-Nachricht {#create-whatsapp-journey-campaign}
 
@@ -67,7 +96,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginn
 
 1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL WhatsApp]** aus und wählen oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur WhatsApp-Konfiguration finden Sie auf [dieser Seite](whatsapp-configuration.md).
+   Erfahren Sie mehr über die WhatsApp-Konfiguration auf [dieser Seite](whatsapp-configuration.md).
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen und Abwandlungen zu erstellen, deren Performance zu messen und die beste Option für Ihre Zielgruppe zu ermitteln. [Weitere Informationen](../content-management/content-experiment.md)
 
@@ -90,7 +119,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginn
 
 >[!BEGINSHADEBOX]
 
-Bevor Sie Ihre WhatsApp-Nachricht in Journey Optimizer entwerfen, müssen Sie zunächst Ihre Vorlage in Meta erstellen und gestalten. In Journey Optimizer werden nur ausgehende Nachrichtenelemente unterstützt. [Weitere Informationen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Bevor Sie Ihre WhatsApp-Nachricht in Journey Optimizer entwerfen, müssen Sie zunächst Ihre Vorlage in Meta erstellen und gestalten. [Weitere Informationen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden muss, bevor sie in Journey Optimizer verwendet werden kann. Dieser Vorgang dauert in der Regel einige Stunden, kann aber bis zu 24 Stunden dauern. [Weitere Informationen](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -108,11 +137,11 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
    * Dienstprogramm
    * Authentifizierung
 
-   [Weitere Informationen zu Vorlagenkategorien](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Erfahren Sie mehr über Vorlagenkategorien](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
 1. Wählen Sie aus der **WhatsApp** Vorlage“ Ihre zuvor erstellte Vorlage aus, die in Meta entworfen wurde.
 
-   [Erfahren Sie mehr über das Erstellen Ihrer WhatsApp-Vorlagen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [Erfahren Sie mehr darüber, wie Sie Ihre WhatsApp-Vorlagen erstellen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 1. Verwenden Sie den Personalisierungseditor, um Ihrer Vorlage eine Personalisierung hinzuzufügen. Sie können jedes Attribut verwenden, z. B. den Profilnamen oder die Stadt.
 
@@ -120,7 +149,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um den Inhalt Ihrer WhatsApp-Nachricht, die gekürzten URLs und den personalisierten Inhalt in der Vorschau anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
-Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre WhatsApp-Nachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite](send-whatsapp.md) im Detail beschrieben.
+Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre WhatsApp-Nachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite) ](send-whatsapp.md)
 
 
 <!--
@@ -144,7 +173,7 @@ Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!TAB Response message]
 
@@ -158,7 +187,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!ENDTABS]
 -->

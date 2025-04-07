@@ -8,10 +8,10 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Um den Inhalt einer In-App-Nachricht zu bearbeiten, klicken Sie im Menü **[!UIC
 
 Der Umschalter **[!UICONTROL Erweiterte Formatierung]** aktiviert zusätzliche Optionen zum Anpassen des Erlebnisses.
 
-Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren. Die Benachrichtigungen werden dann entsprechend dem Zeitplan für die Kampagne gesendet. Weiterführende Informationen finden Sie auf [dieser Seite](send-in-app.md).
+Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren. Die Benachrichtigungen werden dann entsprechend dem Zeitplan für die Kampagne gesendet. Weitere Informationen finden Sie auf [dieser Seite](send-in-app.md).
 
 ## Nachrichten-Layout {#message-layout}
 

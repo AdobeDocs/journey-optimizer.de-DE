@@ -11,10 +11,10 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 hide: true
 hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um mit dem Tracking Ihrer Journey-Metrik zu beginnen:
 
 1. Klicken Sie im Menü **[!UICONTROL Journey]** auf **[!UICONTROL Journey erstellen]**.
 
-1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Informationen zum Festlegen der Eigenschaften Ihrer Journey finden Sie auf [dieser Seite](../building-journeys/journey-properties.md).
+1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Erfahren Sie auf dieser Seite , wie Sie die Eigenschaften [ Journey festlegen](../building-journeys/journey-properties.md).
 
 1. Wählen Sie Ihre **[!UICONTROL Journey-Metriken]** die zur Messung der Effektivität Ihres Journey verwendet werden.
 

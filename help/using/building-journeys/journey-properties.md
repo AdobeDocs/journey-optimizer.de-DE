@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -45,13 +45,13 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 
 Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, um dem Support-Team bei der Problembehebung zu helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-[Auf dieser Seite](expression/journey-properties.md) erfahren Sie mehr über technische Felder, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und wie Sie sie verwenden können.
+Erfahren Sie mehr über technische Felder, die sich auf eine Journey für ein bestimmtes Profil beziehen, und wie Sie diese verwenden [auf dieser Seite](expression/journey-properties.md).
 
 ## Eintritt und Wiedereintritt {#entrance}
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen erfahren Sie auf [dieser Seite](entry-management.md).
+Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -251,7 +251,7 @@ Adobe Journey Optimizer verwendet beim Abrufen von Profildaten aus Adobe Experie
 
 Adobe Journey Optimizer wendet die im gesamten Journey verwendete Zusammenführungsrichtlinie an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in „inAudience“-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
-Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

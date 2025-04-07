@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replaceAll, Funktion, Ausdruck, Journey
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | Zeichenfolge (RegExp) |
+| target | string (RegExp) |
 | replacement | string |
 
 ## Signatur und zurückgegebener Typ
@@ -48,4 +48,4 @@ Gibt eine Zeichenfolge zurück.
 
 Gibt „Hexxo Worxd“ zurück.
 
-Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe Beispiel auf [diese Seite](../functions/functionreplace.md#example_2).
+Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe Beispiel auf [dieser Seite](../functions/functionreplace.md#example_2).

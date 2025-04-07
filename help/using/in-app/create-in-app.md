@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL In-App-Benachrichtigung]** aus und wählen Sie eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Erfahren Sie mehr über In-App-Konfiguration auf [dieser Seite](inapp-configuration.md).
+   Weitere Informationen zur In-App-Konfiguration finden Sie auf [dieser Seite](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 

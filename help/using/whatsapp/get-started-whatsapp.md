@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 17%
 
 Sie können jetzt WhatsApp-Nachrichten direkt über Journey Optimizer senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp in Journey und Kampagnen und verbessert die Kommunikation und Interaktion mit den Empfängerinnen und Empfängern.
 
-* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine **WhatsApp**-Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen:]** App“, um den Inhalt für die WhatsApp-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine **WhatsApp**-Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen:]** App“, um den Inhalt für die WhatsApp-Nachricht zu erstellen. Auf dieser Seite erfahren Sie, wie Sie eine Journey [](../building-journeys/journey-gs.md).
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie **WhatsApp** als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende WhatsApp-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie **WhatsApp** als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende WhatsApp-Nachricht zu definieren. Auf [ Seite erfahren Sie, wie Sie eine Kampagne ](../campaigns/create-campaign.md#configure).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

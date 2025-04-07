@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
 1. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass diese gültig ist und keine Fehler vorliegen. Sie können keine fehlerhaften Journeys veröffentlichen.
 
-   * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
+   * Auf [ Seite erfahren Sie, wie Sie Ihren Journey testen ](testing-the-journey.md).
    * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
 
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.

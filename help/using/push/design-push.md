@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 98%
@@ -60,7 +60,7 @@ Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
 * Klicken Sie auf die Schaltfläche **[!UICONTROL Medien hinzufügen]**, um ein Asset in **[!DNL Adobe Experience Manager Assets]** auszuwählen.
 
-  Wie Sie **[!DNL Adobe Experience Manager Assets]** verwenden, erfahren Sie auf [dieser Seite](../integrations/assets.md).
+  Auf [ Seite erfahren Sie, wie Sie **[!DNL Adobe Experience Manager Assets]** verwenden](../integrations/assets.md).
 
 * Oder geben Sie die URL des Mediums im Feld **[!UICONTROL Medien hinzufügen]** ein. In diesem Fall können Sie die URL personalisieren.
 

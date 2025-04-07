@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,9 +21,9 @@ Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten (SMS/MMS) an die mobi
 
 Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für MMS und SMS verwenden Sie die SMS-Aktion.
 
-* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS/MMS-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS/MMS-Nachricht zu erstellen. Auf dieser Seite erfahren Sie, wie Sie eine Journey [](../building-journeys/journey-gs.md).
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende SMS/MMS-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende SMS/MMS-Nachricht zu definieren. Auf [ Seite erfahren Sie, wie Sie eine Kampagne ](../campaigns/create-campaign.md#configure).
 
 Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder SMS-Gateway-Anbieter). Bevor Sie Ihre SMS/MMS-Nachricht erstellen, konfigurieren Sie Ihren Dienstanbieter bezüglich Textnachrichten mit Journey Optimizer. [Weitere Informationen](sms-configuration.md).
 

@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Beachten Sie, dass über die Berechtigung „**[!DNL Manage Simulate Content]**�
 >
 >* Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](../personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
 >
->* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Auf [dieser Seite](../personalization/dynamic-content.md) erfahren Sie mehr über bedingten Inhalt.
+>* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zu bedingten Inhalten finden Sie auf [dieser Seite](../personalization/dynamic-content.md).
 
 
 ## Testen mit Testprofilen oder Beispieleingabedaten {#methods}

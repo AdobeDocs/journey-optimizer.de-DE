@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL In-SMS]** aus und wählen Sie eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Auf [dieser Seite](sms-configuration.md) erfahren Sie mehr über die SMS-Konfiguration.
+   Weitere Informationen zur SMS-Konfiguration finden Sie auf [dieser Seite](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -135,7 +135,7 @@ Sie können Ihre Kommunikation verbessern, indem Sie MMS-Nachrichten (Multimedia
 
 >[!NOTE]
 >
-> Der MMS-Kanal ist mit einigen Einschränkungen verbunden, die auf [dieser Seite](../start/guardrails.md#sms-guardrails) aufgeführt sind.
+> Der MMS-Kanal weist einige Einschränkungen auf, die auf [ Seite aufgeführt ](../start/guardrails.md#sms-guardrails).
 
 Gehen Sie wie folgt vor, um MMS-Inhalte zu erstellen:
 
@@ -161,7 +161,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vors
 
 ![](assets/sms-content-preview.png)
 
-Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Textnachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite](send-sms.md) im Detail beschrieben.
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Textnachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite) ](send-sms.md)
 
 Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-sms.md).
 

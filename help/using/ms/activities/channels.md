@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie eine Kanalaktivität in einer mehrstufigen Ka
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 70%
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Kanalaktivitäten {#channel}
 
-Adobe Journey Optimizer ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über eingehende und ausgehende Kanäle hinweg. Sie können Kanalaktivitäten in der mehrstufigen Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende mehrstufige Kampagnen zu erstellen, mit denen basierend auf dem Kundenverhalten und den Daten Trigger erstellt werden können. Unterstützte Kanäle sind auf [dieser Seite](../../channels/gs-channels.md) aufgeführt.
+Adobe Journey Optimizer ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über eingehende und ausgehende Kanäle hinweg. Sie können Kanalaktivitäten in der mehrstufigen Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende mehrstufige Kampagnen zu erstellen, mit denen basierend auf dem Kundenverhalten und den Daten Trigger erstellt werden können. Die unterstützten Kanäle sind auf [dieser Seite](../../channels/gs-channels.md) aufgeführt.
 
 Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und Briefpost enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
 

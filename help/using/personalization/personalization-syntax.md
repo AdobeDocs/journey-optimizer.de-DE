@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Hier gilt:
 
   Weitere Informationen zur Entscheidungs-API und zu Angebotsdarstellungen finden Sie auf [dieser Seite](../offers/api-reference/offer-delivery-api/decisioning-api.md).
 
-  Ein Validierungsmechanismus, der [auf dieser Seite](../personalization/personalization-build-expressions.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas.
+  Ein Validierungsmechanismus, der auf dieser Seite beschrieben wird, validiert alle Verweise anhand [ Angebotsschemas](../personalization/personalization-build-expressions.md)
 
   +++Beispielverweise
 

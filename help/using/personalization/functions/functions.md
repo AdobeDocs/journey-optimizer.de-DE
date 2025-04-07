@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '2388'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Erste Schritte mit Helper-Funktionen{#functions}
 
-Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
+Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden [ auf dieser Seite](../personalization-syntax.md).
 
 ➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
 
@@ -424,7 +424,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 
 ## Helper{#helper-helper}
 
-Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
+Helper werden auf [dieser Seite) ](helpers.md).
 
 
 <table>

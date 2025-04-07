@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für sys
 * 90 Tage für Daten im Profilspeicher,
 * 13 Monate für Daten im Data Lake.
 
-Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Weitere Informationen zum Limit der Time-to-Live (TTL) für Datensätze](../data/datasets-ttl.md)
+Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Erfahren Sie mehr über die Schutzmechanismen für die Time-to-Live (TTL) von Datensätzen](../data/datasets-ttl.md)
 
 ## Leitlinien für Kanäle {#channel-guardrails}
 
@@ -66,7 +66,7 @@ Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Prod
 
 ### Leitlinien für Code-basierte Kanäle {#code-based-guardrails}
 
-Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md) erfüllen:
+Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
 
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 
@@ -122,7 +122,7 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 Die folgenden Leitplanken gelten für die [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journey:
 
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
-* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
+* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 * Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
 
@@ -201,7 +201,7 @@ Die folgenden Leitplanken gelten für die Journey[Aktivität „Zielgruppe lesen
 * Die Aktivität **Zielgruppe lesen** kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 * Die Aktivität **Zielgruppe lesen** kann nur als erste Aktivität in einer Journey nach einer Aktivität vom Typ „Geschäftsereignis“ verwendet werden.
 * Eine Journey kann nur über eine Aktivität **Zielgruppe lesen** verfügen.
-* Zusätzliche Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** finden Sie auf [dieser Seite](../building-journeys/read-audience.md).
+* Siehe auch Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** auf [dieser Seite](../building-journeys/read-audience.md).
 * Beim Abrufen des Exportauftrags werden standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
 
 ### Zielgruppen-Qualifizierung {#audience-qualif-g}
@@ -218,7 +218,7 @@ Die folgende Schutzmaßnahme gilt für den [Journey-Ausdruckseditor](../building
 
 ### In-App-Aktivität {#in-app-activity-limitations}
 
-Die folgenden Leitplanken gelten für die Aktion **[!UICONTROL In-App-Nachricht]**. Weitere Informationen zu In-App-Nachrichten finden Sie auf [dieser Seite](../in-app/create-in-app.md).
+Die folgenden Leitplanken gelten für die Aktion **[!UICONTROL In-App-Nachricht]**. Weitere Informationen zu In-App-Nachrichten finden [ auf dieser Seite](../in-app/create-in-app.md).
 
 * Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
 
