@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ Sie können jetzt Kampagnen mithilfe von Package-Export- und -Import-Funktionen 
 
 Der Bereich Attribute im Personalisierungseditor zeigt jetzt standardmäßig nur noch ausgefüllte Attribute an. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** zu deaktivieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-**Content-Management**
+**Content-Management** - Verfügbarkeitsdatum: 2. April 2025
 
-Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren.
-
-Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
+Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
 
 >[!AVAILABILITY]
 >
