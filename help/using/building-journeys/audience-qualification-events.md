@@ -9,23 +9,23 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
-workflow-type: ht
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
+workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Zielgruppen-Qualifizierungsereignisse {#segment-qualification}
-
-## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Zielgruppen-Qualifizierungsereignisse"
 >abstract="Mit dieser Aktivität kann eine Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen überwachen, damit Personen in eine Journey eintreten oder damit fortfahren."
 
-Mit dieser Aktivität kann eine Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen überwachen, damit Personen in eine Journey eintreten oder damit fortfahren. Weitere Informationen zum Erstellen von Zielgruppen finden Sie in diesem [Abschnitt](../audience/about-audiences.md).
+## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
+
+Mit dieser Aktivität kann eine Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen überwachen, damit Personen in eine Journey eintreten oder damit fortfahren. Weiterführende Informationen zur Erstellung von Audiences finden Sie in diesem [Abschnitt](../audience/about-audiences.md).
 
 Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
 
