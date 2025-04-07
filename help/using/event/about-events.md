@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 85%
@@ -40,7 +40,7 @@ Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizi
 
 ## Geschäftsereignisse {#business-events}
 
-**Business**-Ereignisse sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis auf einer Journey ablegen, wird direkt im Anschluss automatisch eine Aktivität **Zielgruppe lesen** hinzugefügt. Erfahren Sie auf [ Seite , wie Sie ein Geschäftsereignis erstellen](../event/about-creating-business.md).
+**Business**-Ereignisse sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis auf einer Journey ablegen, wird direkt im Anschluss automatisch eine Aktivität **Zielgruppe lesen** hinzugefügt. Erfahren Sie auf [ Seite ](../event/about-creating-business.md), wie Sie ein Geschäftsereignis erstellen.
 
 ## Empfehlungen
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,8 +61,8 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 +++
 
-1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../audience/about-audiences.md).
-1. **Sie benötigen eine Kanalkonfiguration**. Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanalkonfigurationen finden Sie [auf dieser Seite](../configuration/channel-surfaces.md).
+1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zu Zielgruppen [auf dieser Seite](../audience/about-audiences.md).
+1. **Sie benötigen eine Kanalkonfiguration**. Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanalkonfigurationen [auf dieser Seite](../configuration/channel-surfaces.md).
 
 ## Anleitungsvideo {#video}
 
