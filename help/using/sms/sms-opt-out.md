@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 478706e893354d59be5d2010da84546aa4385d99
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 90%
 
 ---
 
@@ -42,6 +42,7 @@ Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktio
 
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
+Wenn ein Kunde auf eine Textnachricht antwortet, blockiert der Provider alle nachfolgenden SMS mit dieser spezifischen Absender-ID (Kurzwahlnummer oder lange Nummer), einschließlich Transaktionsnachrichten. Um den unterbrechungsfreien Versand von Transaktions-SMS sicherzustellen, verwenden Sie eine separate Absender-ID, die noch nicht abgemeldet wurde.
 
 ## Blockierungslisten {#sms-blocklists}
 
