@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 70%
+source-wordcount: '708'
+ht-degree: 69%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 ### Verbesserungen {#25-04-improv}
 
-**Sandbox-Werkzeuge**
+**Sandbox-Tools** - Verfügbarkeitsdatum: 3. April 2025
 
 Sie können jetzt Kampagnen mithilfe von Package-Export- und -Import-Funktionen über mehrere Sandboxes kopieren. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungsbeschriftungen und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-**Personalisierung**
+**Personalization** - Verfügbarkeitsdatum: 2. April 2025
 
 Der Bereich Attribute im Personalisierungseditor zeigt jetzt standardmäßig nur noch ausgefüllte Attribute an. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** zu deaktivieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
