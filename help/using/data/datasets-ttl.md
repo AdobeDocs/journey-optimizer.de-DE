@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen?
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden mit einer Real-Time CDP-Berechtigung können Daten über Ziele exportieren, um diese länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kunden können Daten über Ziele exportieren, um Daten länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank}. Darüber hinaus können Kundinnen und Kunden mit einer **[!DNL Data Distiller]** Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
