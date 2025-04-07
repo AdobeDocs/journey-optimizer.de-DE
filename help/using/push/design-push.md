@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '1365'
-ht-degree: 100%
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
+workflow-type: tm+mt
+source-wordcount: '1362'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 >title="Konfigurieren Sie benutzerdefinierte Daten für Ihre Push-Benachrichtigung."
 >abstract="Fügen Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzu."
 
-Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zu Adobe Launch finden Sie in [diesem Abschnitt](push-gs.md)
+Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weiterführende Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie [diesem Abschnitt](push-gs.md)
 
 ## Erweiterte Optionen {#advanced-options-push}
 
