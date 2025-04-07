@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="Erfahren Sie mehr über die obligatorische DMARC-Aktualisierung"
+>title="Weitere Informationen zum obligatorischen DMARC-Update"
 >abstract="Zur Einhaltung der Best Practices in der Branche verlangen Google und Yahoo ab dem **1. Februar 2024** einen **DMARC-Eintrag** für jede Domain, die Sie zum Senden von E-Mails an sie verwenden.<br>Daher müssen Sie unbedingt für alle Subdomains, die Sie in Journey Optimizer an Adobe delegiert haben, einen DMARC-Eintrag einrichten."
 
 Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) und ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Besitzende ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/ISPs verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
