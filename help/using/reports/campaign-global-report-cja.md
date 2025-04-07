@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,7 @@ Die KPIs (Key Performance Indicators) zur **[!UICONTROL Kampagne]** dienen als a
 
 Die KPIs variieren je nach den Kanälen, die in Ihrer Kampagne verwendeten werden.
 
-+++ Weitere Informationen zu den Metriken für Kampagnen-KPIs
++++ Weitere Informationen zu KPIs in Campaign
 
 * **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Nachricht interagiert haben.
 
@@ -53,7 +53,7 @@ Die Tabelle **[!UICONTROL Kampagnen-Überblick]** dient als umfassendes Dashboar
 
 Beachten Sie, dass die Metriken je nach den Kanälen variieren, die in Ihrer Kampagne verwendet werden.
 
-+++ Weitere Informationen zu den Kampagnenüberblicksmetriken
++++ Weitere Informationen zu Übersichtsmetriken von Campaign
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
@@ -83,7 +83,7 @@ Beachten Sie, dass die Metriken je nach den Kanälen variieren, die in Ihrer Kam
 
 Der Graph **[!UICONTROL Ergebnisse des Kampagnentrichters]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion verschiedener Profile mit Ihrem Inhalt.
 
-+++ Weitere Informationen zu den Metriken für die Ergebnisse des Kampagnentrichters
++++ Weitere Informationen zu Metriken der Ergebnisse von Campaign-Trichtern
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -96,7 +96,7 @@ Der Graph **[!UICONTROL Ergebnisse des Kampagnentrichters]** zeigt eine detailli
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet wichtige Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit den in Ihren Nachrichten enthaltenen URLs und liefert wertvolle Informationen darüber, welche Links die meisten Interaktionen hervorrufen.
 
-+++ Weitere Informationen zu den Metriken für Bezeichnungen für verfolgten Link
++++ Weitere Informationen zu Metriken für getrackte Link-Bezeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihrer Nachricht geklickt haben.
 

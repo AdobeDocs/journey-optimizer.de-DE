@@ -13,10 +13,10 @@ robots: noindex
 googlebot: noindex
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
 * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
 
-* **[!UICONTROL Wöchentlich]**: Die Häufigkeitsbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+* **[!UICONTROL Wöchentlich]**: Die Frequenzbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum ist unabhängig von der Regelerstellung. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
 
 ### Tägliche Frequenzbegrenzung {#daily-frequency-cap}
 
@@ -134,7 +134,7 @@ Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig
 
 >[!NOTE]
 >
->Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen über Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen zu Methoden zur Zielgruppenauswertung finden Sie [ (diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Geschäftsregel {#activate-rule}
 

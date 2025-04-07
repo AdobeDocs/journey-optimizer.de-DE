@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3712'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, na
 
 Die Key Performance Indicators (KPIs) **[!UICONTROL Journey-Statistiken]** fungieren als allumfassendes Dashboard, das eine Analyse der wichtigsten Metriken im Zusammenhang mit Ihrer Journey in den letzten 24 Stunden liefert. Dies umfasst Details wie die Anzahl der eingegebenen Profile und Instanzen fehlgeschlagener Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
 
-+++ Weitere Informationen zu den Metriken von Journey-Statistiken
++++ Weitere Informationen zu Metriken der Journey-Rolle
 
 * **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -88,7 +88,7 @@ Die Key Performance Indicators (KPIs) **[!UICONTROL Journey-Statistiken]** fungi
 
 Das Widget **[!UICONTROL In den letzten 24 Stunden ausgeführte Aktion]** stellt die erfolgreichste Aktion dar, die beim Auslösen Ihrer Aktionen stattgefunden hat.
 
-+++ Weitere Informationen zu den Metriken von „In den letzten 24 Stunden ausgeführte Aktion“
++++ Erfahren Sie mehr über die in den letzten 24 Stunden ausgeführte Aktion
 
 * **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der für eine Journey erfolgreich ausgeführten Aktionen.
 
@@ -107,7 +107,7 @@ Das Widget **[!UICONTROL In den letzten 24 Stunden ausgeführte Aktion]** stellt
 
 Das Widget **[!UICONTROL Ausgeführte Aktionen und Fehler]** stellt die erfolgreichste Aktion und die Fehler dar, die beim Auslösen Ihrer Aktionen in den letzten 24 Stunden aufgetreten sind.
 
-+++ Weitere Informationen zu den Metriken von ausgeführten Aktionen und Fehlern
++++ Weitere Informationen über ausgeführte Aktionen und Fehlermetriken
 
 * **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der für eine Journey erfolgreich ausgeführten Aktionen.
 
@@ -185,7 +185,7 @@ Im **[!UICONTROL Live-Bericht]** Ihrer Journey enthält die Registerkarte **[!UI
 
 Das Diagramm **[!UICONTROL E-Mail – Versandleistung]** bietet einen umfassenden Überblick über die Daten zu gesendeten E-Mails in Ihrer Journey und bietet Einblicke in Schlüsselmetriken wie zugestellte Nachrichten und Bounces, die in den letzten 24 Stunden aufgetreten sind. Dies ermöglicht eine detaillierte Analyse des E-Mail-Sendevorgangs und liefert wertvolle Informationen über die Effizienz und Performance Ihrer Journeys.
 
-+++ Weitere Informationen zu Metriken von „E-Mail – Versandleistung“
++++ Weitere Informationen über E-Mail - Leistungsmetriken für den Versand
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten E-Mails.
 
@@ -208,7 +208,7 @@ Das Diagramm **[!UICONTROL E-Mail – Versandleistung]** bietet einen umfassende
 
 Die Tabelle **[!UICONTROL E-Mail – Statistiken]** enthält eine umfassende Zusammenfassung der wichtigsten Daten zu E-Mails in Ihren Journeys in den letzten 24 Stunden. Sie enthält wichtige Metriken wie die Größe der Zielgruppe und die Anzahl der erfolgreich zugestellten E-Mails. Außerdem bietet sie wertvolle Einblicke in die Effektivität und Reichweite Ihrer E-Mails und Journeys.
 
-+++ Weitere Informationen zu Metriken für die E-Mail-Versandstatistiken
++++ Weitere Informationen über Metriken zur E-Mail-Versandstatistik
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Sendevorgang verarbeiteten Nachrichten.
 
@@ -245,7 +245,7 @@ Die Tabelle **[!UICONTROL E-Mail – Statistiken]** enthält eine umfassende Zus
 
 Das Widget **[!UICONTROL E-Mail – Leistung nach Datum]** bietet einen detaillierten Überblick über die wichtigsten Informationen zu Ihren E-Mails, die in einem Diagramm dargestellt werden und einen Einblick in die Leistungs-Trends über die letzten 24 Stunden geben.
 
-+++ Weitere Informationen über E-Mails – Metriken zur Leistung nach Datum
++++ Weitere Informationen zu E-Mail - Metriken zur Leistung nach Datum
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten E-Mails.
 
@@ -278,7 +278,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
 
-+++ Weitere Informationen zu Metriken für „E-Mail – Bounce-Kategorien und -Gründe“
++++ Weitere Informationen zu E-Mail - Bounce-Kategorien und Ursachen-Metriken
 
 * **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.
 
@@ -336,7 +336,7 @@ Der Graph und die Tabelle **[!UICONTROL E-Mail – beste Empfänger-Domain]** bi
 
 Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken im Zeitverlauf]** messen den Erfolg Ihres Angebots und dessen Wirkung auf Ihre Zielgruppe. Sie enthalten die wichtigsten Informationen zu Ihrer Nachricht in Form von KPIs.
 
-+++ Weitere Informationen über E-Mails – Angebotsmetriken
++++ Weitere Informationen über E-Mail - Angebotsmetriken
 
 * **[!UICONTROL Gesendete Angebote]**: Gibt an, wie oft das Angebot gesendet wurde.
 
@@ -361,7 +361,7 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 
 Die Widgets **[!UICONTROL Versandzeitoptimierung]** und **[!UICONTROL Optimiert vs. nicht optimiert]** zeigen den Erfolg Ihrer E-Mails in Abhängigkeit von der Versandmethode an: optimiert oder normal.
 
-+++ Mehr Informationen zur Versandzeitoptimierung und zu Metriken „Optimiert vs. nicht optimiert“
++++ Erfahren Sie mehr über die Versandzeitoptimierung und optimierte vs. nicht optimierte Metriken
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen, bezogen auf die Gesamtzahl der gesendeten Nachrichten.
@@ -389,7 +389,7 @@ Im **[!UICONTROL Live-Bericht]** Ihrer Journey finden Sie auf der Registerkarte 
 
 Das Diagramm **[!UICONTROL Versandleistung für Push-Benachrichtigungen]** bietet einen umfassenden Überblick über die Daten zu den in den letzten 24 Stunden versandten Push-Benachrichtigungen. Es bietet Einblicke in wichtige Metriken wie zugestellte Nachrichten und Bounces, sodass eine detaillierte Prüfung des Sendevorgangs für Push-Benachrichtigungen möglich ist.
 
-+++ Weitere Informationen zu Metriken von „Push-Benachrichtigung – Versandleistung“
++++ Weitere Informationen zu Leistungsmetriken für Push-Benachrichtigungen - Senden
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
@@ -410,7 +410,7 @@ Das Diagramm **[!UICONTROL Versandleistung für Push-Benachrichtigungen]** biete
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine übersichtliche Zusammenfassung der wichtigsten Daten im Zusammenhang mit Ihren Push-Benachrichtigungen, darunter wichtige Schlüsselmetriken wie die Anzahl der gezielten Nachrichten und die Anzahl der erfolgreich zugestellten Nachrichten innerhalb der letzten 24 Stunden.
 
-+++ Weitere Informationen zu Metriken für „Push-Benachrichtigungen – Statistiken“
++++ Weitere Informationen zu Metriken für Push-Benachrichtigungen - Statistiken
 
 * **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die bei einer Aktion wie etwa E-Mail- oder SMS-Versand angesprochen werden.
 
@@ -449,7 +449,7 @@ Der Graph und die Tabelle **[!UICONTROL Push-Benachrichtigung – Aufschlüsselu
 
 Der Graph **[!UICONTROL Zusammenfassung der Push-Benachrichtigungen]** bietet eine dynamische Darstellung, die eine Analyse Ihrer Push-Benachrichtigungsaktivitäten der letzten 24 Stunden anzeigt. Diese grafische Darstellung bietet eine umfassende Aufschlüsselung gesendeter Push-Benachrichtigungen.
 
-+++ Weitere Informationen zu Push-Benachrichtigungen – Metriken zur Sendezusammenfassung
++++ Weitere Informationen zu Zusammenfassungsmetriken von Push-Benachrichtigungen - Senden
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Push-Benachrichtigungen.
 
@@ -502,7 +502,7 @@ Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Aussc
 
 Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten. Dazu gehören wichtige Schlüsselmetriken wie die Anzahl der gezielten Nachrichten und die Anzahl der erfolgreich zugestellten Nachrichten der letzten 24 Stunden.
 
-+++ Weitere Informationen zu SMS – Metriken für Statistiken
++++ Weitere Informationen zu SMS - Statistikmetriken
 
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
@@ -529,7 +529,7 @@ Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zus
 
 Das Widget **[!UICONTROL SMS – Leistung nach Datum]** bietet einen detaillierten Überblick über die wichtigsten Informationen zu Ihren Nachrichten, die in einem Diagramm dargestellt werden und einen Einblick in die Leistungs-Trends über die letzten 24 Stunden geben.
 
-+++ Weitere Informationen zu SMS – Metriken zur Leistung nach Datum
++++ Weitere Informationen zu SMS - Metriken zur Leistung nach Datum
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten SMS-Nachrichten.
 
@@ -595,7 +595,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 Die KPIs **[!UICONTROL In-App-Leistung]** bieten wichtige Einblicke in die Interaktion Ihrer Profile mit In-App-Nachrichten in den letzten 24 Stunden. Sie liefern wichtige Metriken, um die Effektivität und Wirkung der In-App-Nachrichten in Ihrer Journey zu bewerten.
 
-+++ Weitere Informationen zu In-App – Leistungsmetriken
++++ Weitere Informationen zu In-App-Leistungsmetriken
 
 * **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzerinnen und Benutzer gesendeten In-App-Nachrichten.
 

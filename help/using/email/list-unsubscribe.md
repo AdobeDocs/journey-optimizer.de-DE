@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -91,7 +91,7 @@ Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum A
 
   >[!NOTE]
   >
-  >In [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header) erfahren Sie mehr über die Verwaltung von Abmeldefunktionen innerhalb Ihrer Nachrichten.
+  >Weitere Informationen zur Verwaltung der Abmeldefunktionen in Ihren Nachrichten finden Sie [ (diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header).
 
 In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
 

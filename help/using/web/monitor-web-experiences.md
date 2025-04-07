@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Sobald Ihr Web-Erlebnis live ist, können Sie auf der Registerkarte **[!UICONTROL Web]** des [Journey-Berichts](../reports/journey-global-report-cja-web.md) und des [Kampagnenberichts](../reports/campaign-global-report-cja-web.md) Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Zugriffe auf Ihre Web-Seite vergleichen.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Web-Berichten anzeigen. [Weitere Informationen](#use-click-tracing)
 

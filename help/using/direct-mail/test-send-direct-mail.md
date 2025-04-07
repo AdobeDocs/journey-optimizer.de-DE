@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -56,4 +56,4 @@ Um es erneut zu aktivieren, muss das Profilattribut wieder in `consents.marketin
 
 Um die Attribute eines Profils zu verwalten, gehen Sie zu Experience Platform und greifen Sie auf das Profil zu, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
-In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwaltung von Opt-outs in Journey Optimizer.
+Weitere Informationen zur Verwaltung des Opt-outs in Journey Optimizer finden [ in diesem Abschnitt](../privacy/opt-out.md).

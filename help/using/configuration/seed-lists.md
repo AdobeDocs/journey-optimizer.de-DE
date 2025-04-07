@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Um auf die bereits erstellten Testadressenlisten zuzugreifen, gehen Sie zu **[!U
 <!--
 >[!CAUTION]
 >
->Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Löschen]**, um einen Eintrag daue
 
 >[!CAUTION]
 >
->Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publishing-the-journey.md) verwendet wird. Sie müssen die Kampagne/Journey erst deaktivieren oder sie bearbeiten, um eine andere Konfiguration zu verwenden, für die die Testadressenliste nicht ausgewählt wurde. [Mehr erfahren über die Verwendung einer Testadressenliste](#use-seed-list)
+>Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publishing-the-journey.md) verwendet wird. Sie müssen die Kampagne/Journey erst deaktivieren oder sie bearbeiten, um eine andere Konfiguration zu verwenden, für die die Testadressenliste nicht ausgewählt wurde. [Weitere Informationen zur Verwendung einer Liste von Testadressen](#use-seed-list)
 
 Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 

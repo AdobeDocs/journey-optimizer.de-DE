@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 1. Wählen Sie die Aktion **[!UICONTROL Web]**.
 
-1. Wählen oder erstellen Sie die Web-Konfiguration. [Weitere Informationen zur Web-Konfiguration](web-configuration.md).
+1. Wählen oder erstellen Sie die Web-Konfiguration. [Weitere Informationen zur Web-Konfiguration](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -181,7 +181,7 @@ Gehen Sie wie folgt vor, um Ihr Web-Erlebnis von einer Journey live zu stellen.
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Veröffentlichen von Journeys finden Sie [in diesem Abschnitt](../building-journeys/publishing-the-journey.md).
+   >Weitere Informationen zum Veröffentlichen von Journey finden [ in diesem Abschnitt](../building-journeys/publishing-the-journey.md).
 
 Ihre Web-Journey erhält den Status **[!UICONTROL Live]** und ist jetzt schreibgeschützt. Alle Empfängerinnen und Empfänger Ihrer Journey können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
@@ -203,7 +203,7 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
 
    >[!NOTE]
    >
-   >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
+   >Weitere Informationen zur Aktivierung von Kampagnen finden [ in (diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
 Ihre Web-Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 

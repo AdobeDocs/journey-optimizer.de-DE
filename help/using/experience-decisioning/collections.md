@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 1. Geben Sie einen Namen und eine Beschreibung für die Sammlung ein.
 1. Eine oder mehrere Regeln hinzufügen, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Gehen Sie dazu folgendermaßen vor:
 
-   1. Ein Elementattribut auswählen, das als Kriterium verwendet werden soll. Die Attributliste enthält alle im Katalogschema definierten standardmäßigen und benutzerdefinierten Attribute. [Weitere Informationen zum Elementkatalog](catalogs.md)
+   1. Ein Elementattribut auswählen, das als Kriterium verwendet werden soll. Die Attributliste enthält alle im Katalogschema definierten standardmäßigen und benutzerdefinierten Attribute. [Erfahren Sie mehr über den Artikelkatalog](catalogs.md)
    1. Den gewünschten Operator auswählen und den Wert eingeben, nach dem gefiltert werden soll.
    1. Wiederholen Sie diese Schritte gegebenenfalls, bis Sie die gewünschte Anzahl an Regeln hinzugefügt haben. Wenn mehrere Regeln hinzugefügt werden, können Sie zwischen den Operatoren **Und** und **Oder** wählen, um die Regeln zu kombinieren. Klicken Sie dazu auf das Operatorzeichen, um zwischen den beiden Optionen zu wechseln.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Sammlung in der Vorschau anzeigen]**, um die Elemente anzuzeigen, die den von Ihnen definierten Regeln entsprechen.
@@ -53,4 +53,4 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
 >[!NOTE]
 >
->Jede Elementsammlung kann bis zu 500 Angebotselemente enthalten. [Weitere Informationen zu den Schutzmechanismen und Einschränkungen bei der Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
+>Jede Elementsammlung kann bis zu 500 Angebotselemente enthalten. [Erfahren Sie mehr über Leitplanken und Einschränkungen bei Decisioning](gs-experience-decisioning.md#guardrails)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Nachdem Sie Ihre Nachrichten erstellt und angepasst haben, können Sie Ihren Inh
 
    ![](assets/experiment-genai-3.png)
 
-1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zu Inhaltsexperimenten](../content-management/content-experiment.md)
+1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zum Inhaltsexperiment](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ Anhand der Tabelle **[!UICONTROL Versandstatistiken]** können Sie die Performan
 
 Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Push-Benachrichtigungen und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Push-Benachrichtigungen.
 
-+++ Weitere Informationen zu Metriken für „Tracking-Statistiken“
++++ Weitere Informationen zu Metriken für Tracking-Statistiken
 
 * **[!UICONTROL Durchklickrate]**: Prozentsatz der Benutzenden, die mit der Push-Benachrichtigung interagiert haben.
 
@@ -74,7 +74,7 @@ Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Üb
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren Push-Benachrichtigungen und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
++++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 
@@ -88,7 +88,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren Push-Benachrichtigungen, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Push-Benachrichtigungen verbessern.
 
-+++ Weitere Informationen zu den Metriken der getrackten Link-URLs
++++ Weitere Informationen zur Metrik „Getrackte Link-URLs“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 

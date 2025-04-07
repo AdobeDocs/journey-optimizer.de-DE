@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können auf Ihren Inhaltskarten-Journey-Bericht zugreifen, indem Sie auf die
 
 Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Inhaltskarten und liefern wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Anzeige- und Klick-Metriken
++++ Weitere Informationen zu Anzeigen- und Klicks-Metriken
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
@@ -49,7 +49,7 @@ Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Ana
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Erlebnissen.
 
-+++ Weitere Informationen zu Metriken für Tracking-Daten
++++ Weitere Informationen zu Tracking-Datenmetriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Inhaltskarten eignen.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblick über die Linklabels in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
++++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 

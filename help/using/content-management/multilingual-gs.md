@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 * Um die Übersetzungsfunktion in Journey Optimizer zu verwenden, müssen Sie die API der entsprechenden Rolle zuweisen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* Um mit der Erstellung mehrsprachiger Inhalte zu beginnen, muss Benutzenden die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** gewährt werden. Für einen automatisierten Fluss benötigen Benutzende außerdem Berechtigungen für die Funktion **[!UICONTROL Übersetzungsdienst]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+* Um mit der Erstellung mehrsprachiger Inhalte zu beginnen, muss Benutzenden die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** gewährt werden. Für einen automatisierten Fluss benötigen Benutzende außerdem Berechtigungen für die Funktion **[!UICONTROL Übersetzungsdienst]**. [Erfahren Sie mehr über Berechtigungen](../administration/permissions.md)
 
 +++ Informationen zur Zuweisung von Berechtigungen für mehrsprachige Inhalte
 

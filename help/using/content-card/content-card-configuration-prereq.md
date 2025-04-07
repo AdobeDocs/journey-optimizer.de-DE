@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die fol
 * **Adobe Experience Platform – Datenerfassung**
 
   [Erstellen Sie einen Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) und [fügen Sie den Dienst „Experience Platform“ hinzu](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure#aep). Aktivieren Sie die Optionen **[!UICONTROL Edge Segmentation]** und **[!UICONTROL Adobe Journey Optimizer]**. Dadurch wird sichergestellt, dass Ereignisse von Journey Optimizer vom Adobe Experience Platform Edge Network verarbeitet werden.
-Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** zu Ihrem Datensatz hinzu, um diese Daten in Ihre Berichte aufzunehmen. [Weitere Informationen zu Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
+Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** zu Ihrem Datensatz hinzu, um diese Daten in Ihre Berichte aufzunehmen. [Erfahren Sie mehr über Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

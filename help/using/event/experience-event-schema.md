@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definier
 
 >[!NOTE]
 >
->Weitere Informationen zu Schemabeziehungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
+>Weitere Informationen zu Schemabeziehungen finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
 
 In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen nutzen:
 

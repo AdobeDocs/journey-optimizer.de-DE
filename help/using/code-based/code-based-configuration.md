@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Sie können diese Konfiguration jetzt beim [Erstellen eines Code-basierten Erle
 
 >[!NOTE]
 >
->Ihr App-Implementierungs-Team ist dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten Code-basierten Erlebniskonfiguration definierten Oberflächen abzurufen. Weitere Informationen zu verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
+>Ihr App-Implementierungs-Team ist dafür verantwortlich, explizite API- oder SDK-Aufrufe durchzuführen, um Inhalte für die in der ausgewählten Code-basierten Erlebniskonfiguration definierten Oberflächen abzurufen. Weitere Informationen zu den verschiedenen Kundenimplementierungen finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
 ### Web-Plattformen {#web}
 

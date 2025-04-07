@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * Wählen Sie **[!UICONTROL Externes Opt-in/Anmeldung]** aus, um einen Link für das Akzeptieren des Erhalts von Nachrichten von Ihrer Marke einzufügen.
 
-   * Wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus, um einen Link einzufügen, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](email-opt-out.md#opt-out-management).
+   * Wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus, um einen Link einzufügen, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden [ in diesem Abschnitt](email-opt-out.md#opt-out-management).
 
    * Wählen Sie **[!UICONTROL Mirror-Seite]** aus, um der Mirror-Seite der E-Mail einen Link hinzuzufügen. [Weitere Informationen](#mirror-page)
 

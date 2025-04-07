@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 45%
@@ -63,7 +63,7 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
       * Gelb: Medium-Qualität
       * Rot: Geringe Qualität
 
-     Weitere Informationen zu [Qualitätsbewertung](https://www.facebook.com/business/help/766346674749731#)
+     Weitere Informationen über [Qualitätsbewertung](https://www.facebook.com/business/help/766346674749731#)
 
    * **Durchsatz**: Gibt die Rate an, mit der Ihre Telefonnummer Nachrichten senden kann.
 

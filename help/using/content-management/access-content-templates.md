@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -38,7 +38,7 @@ Inhaltsvorlagen können nach folgenden Kriterien sortiert werden:
 * Typ
 * Kanal
 * Erstellungs- oder Änderungsdatum
-* Tags – [Weitere Informationen zu Tags](../start/search-filter-categorize.md#tags)
+* Tags - [Erfahren Sie mehr über Tags](../start/search-filter-categorize.md#tags)
 
 Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden.
 

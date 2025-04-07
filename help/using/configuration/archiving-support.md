@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -113,13 +113,13 @@ Gehen Sie dazu wie folgt vor.
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"}.
+>Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target="_blank"}.
 
 ### BCC-Berichtsdaten {#bcc-reporting}
 
 Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]** gespeichert. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
 
-Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
+Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. Weitere Informationen zum Zugriff auf Datensätze finden Sie in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -232,7 +232,7 @@ Jede E-Mail-Nachricht enthält jetzt einen Header mit dem Namen `x-message-profi
 
 Der Header `x-message-profile-id` wird auch in den folgenden Systemdatensätzen gespeichert: [AJO-Nachrichten-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#message-feedback-event-dataset) (gesendete E-Mails) und [AJO-BCC-Feedback-Ereignisdatensatz](#bcc-reporting) (BCC-Kopien). Sie können diese Datensätze abfragen, um die BCC-Kopie und die entsprechende tatsächliche E-Mail abzugleichen.
 
-* Um über die Benutzeroberfläche auf diese Datensätze zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
+* Um über die Benutzeroberfläche auf diese Datensätze zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. Weitere Informationen zum Zugriff auf Datensätze finden Sie in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
 
 * Verwenden Sie den Abfrage-Editor, der vom [Abfragedienst von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de) bereitgestellt wird{target="_blank"}. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 

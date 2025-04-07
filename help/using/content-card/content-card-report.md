@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Der Inhaltskartenbericht kann direkt von Ihrer Kampagne aus über die Schaltflä
 
 Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der eindeutigen Profile zu verstehen, die mit der Nachricht interagieren.
 
-+++ Weitere Informationen zu Anzeige- und Klick-Metriken
++++ Weitere Informationen zu Anzeige- und Klickmetriken
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in der Inhaltskarte.
 
@@ -55,7 +55,7 @@ Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Inhaltskarten.
 
-+++ Weitere Informationen zu Metriken für Tracking-Daten
++++ Weitere Informationen zu Tracking-Datenmetriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten infrage kommen.
 
@@ -75,7 +75,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblick über die Linklabels in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu Metriken für getrackte Labels
++++ Weitere Informationen zu Metriken für getrackte Kennzeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 
@@ -91,7 +91,7 @@ Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblic
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren Inhaltskarten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren Inhaltskarten verbessern.
 
-+++ Weitere Informationen zu den Metriken der getrackten Link-URLs
++++ Weitere Informationen zur Metrik „Getrackte Link-URLs“
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 

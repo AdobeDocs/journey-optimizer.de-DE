@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können auf Ihren Code-basierten Kampagnenbericht zugreifen, indem Sie in Ih
 
 Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Code-basierten Erlebnissen und liefern wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu den Metriken für „Impressionen und Klicks“
++++ Weitere Informationen zu Impression- und Klick-Metriken
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Erlebnissen geklickt haben.
 
@@ -49,7 +49,7 @@ Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Ana
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivitäten, die mit Ihren Code-basierten Erlebnissen verbunden sind, und liefert wichtige Erkenntnisse über die Interaktion und die Wirksamkeit der Erlebnisse.
 
-+++ Weitere Informationen zu Metriken für Tracking-Daten
++++ Weitere Informationen zu Tracking-Datenmetriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Erlebnisse infrage kommen.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Labels getrackter Links]** bietet einen umfassenden Überblick über die Linklabels innerhalb Ihrer Code-basierten Erlebnisse und hebt diejenigen hervor, die den höchsten Besucher-Traffic erzeugen. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
++++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Code-basierten Erlebnissen geklickt haben.
 

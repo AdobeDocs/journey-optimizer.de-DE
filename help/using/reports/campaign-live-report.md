@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken f
 
 Die KPIs **[!UICONTROL Kampagnenstatistiken]** dienen als umfassendes Dashboard, das eine detaillierte Aufschlüsselung wichtiger Metriken aus den letzten 24 Stunden im Zusammenhang mit Ihrer Kampagne bietet. Dazu gehören wichtige Informationen wie die Anzahl der Profile und die durchgeführten Aktionen, die einen umfassenden Einblick in die Leistung und das Engagement Ihrer Kampagne ermöglichen.
 
-+++ Erfahren Sie mehr über Kampagnenstatistik-Metriken.
++++ Weitere Informationen zu Statistikmetriken von Campaign
 
 * **[!UICONTROL Zielgruppe]**: Anzahl der Zielgruppenprofile.
 
@@ -79,7 +79,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 **[!UICONTROL E-Mail – Versandleistung]** bietet einen umfassenden Überblick über die Daten zu E-Mails, die innerhalb der letzten 24 Stunden gesendet wurden. Sie erhalten Einblicke in wichtige Metriken wie „Zugestellt“ und „Bounces“, sodass eine detaillierte Prüfung des E-Mail-Sendevorgangs möglich ist.
 
-+++ Weitere Informationen zu Metriken für „E-Mail – Versandleistung“
++++ Weitere Informationen zu Leistungsmetriken für den E-Mail-Versand
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten E-Mails.
 
@@ -101,7 +101,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** bietet eine umfassende Zusammenfassung der Daten aus den letzten 24 Stunden. Sie enthält wichtige Metriken, einschließlich der Größe der Zielgruppe und der Anzahl der erfolgreich zugestellten E-Mails. Dadurch erhalten Sie wertvolle Einblicke in die Effektivität und Reichweite Ihrer E-Mail-Kampagnen.
 
-+++ Weitere Informationen zu Metriken für „E-Mail – Statistiken“
++++ Weitere Informationen zu E-Mail - Statistikmetriken
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
@@ -146,7 +146,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [Unterdrückungslisten](../reports/suppression-list.md).
 
-+++ Weitere Informationen zu Metriken für „E-Mail – Bounce-Kategorien und -Gründe“
++++ Weitere Informationen zu E-Mail - Bounce-Kategorien und Ursachen-Metriken
 
 * **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.
 
@@ -167,7 +167,7 @@ Weitere Informationen zu Bounces finden Sie auf der Seite [Unterdrückungslisten
 
 Das Widget **[!UICONTROL Email – Leistung nach Datum]** bietet einen detaillierten Überblick über die wichtigsten Informationen zu Ihren Nachrichten, die in einem Diagramm dargestellt werden und einen Einblick in die Leistungs-Trends über die letzten 24 Stunden geben.
 
-+++ Weitere Informationen zu Metriken für „Email – Leistung nach Datum und Gründen“
++++ Weitere Informationen zu E-Mail - Metriken zur Leistung nach Datum und Gründen
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -230,7 +230,7 @@ Die Graphen und die Tabelle **[!UICONTROL E-Mail – Beste Empfänger-Domain]** 
 
 Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken im Zeitverlauf]** messen den Erfolg Ihres Angebots und dessen Wirkung auf Ihre Zielgruppe. Sie enthalten die wichtigsten Informationen zu Ihrer Nachricht in Form von KPIs.
 
-+++ Weitere Informationen über E-Mails – Angebotsmetriken
++++ Weitere Informationen über E-Mail - Angebotsmetriken
 
 * **[!UICONTROL Gesendete Angebote]**: Gibt an, wie oft das Angebot gesendet wurde.
 
@@ -302,7 +302,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 Das Diagramm **[!UICONTROL Versandleistung für Push-Benachrichtigungen]** bietet einen umfassenden Überblick über die Daten zu den in den letzten 24 Stunden versandten Push-Benachrichtigungen. Es bietet Einblicke in wichtige Metriken wie zugestellte Nachrichten und Bounces, sodass eine detaillierte Prüfung des Sendevorgangs für Push-Benachrichtigungen möglich ist.
 
-+++ Weitere Informationen zu Metriken von „Push-Benachrichtigung – Versandleistung“
++++ Weitere Informationen zu Leistungsmetriken für Push-Benachrichtigungen - Senden
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
@@ -323,7 +323,7 @@ Das Diagramm **[!UICONTROL Versandleistung für Push-Benachrichtigungen]** biete
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine übersichtliche Zusammenfassung der wichtigsten Daten zu Ihren Push-Benachrichtigungen der letzten 24 Stunden, einschließlich wichtiger Schlüsselmetriken wie der Anzahl der gezielten Nachrichten und der Anzahl der erfolgreich zugestellten Nachrichten.
 
-+++ Weitere Informationen zu Metriken für „Push-Benachrichtigungen – Statistiken“
++++ Weitere Informationen zu Metriken für Push-Benachrichtigungen - Statistiken
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
@@ -352,7 +352,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine �
 
 Der Graph **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine dynamische Darstellung, die eine Analyse der Aktivität Ihrer Push-Benachrichtigungen in den letzten 24 Stunden anzeigt. Diese grafische Darstellung bietet eine umfassende Aufschlüsselung gesendeter Push-Benachrichtigungen.
 
-+++ Weitere Informationen zu Push-Benachrichtigungen – Metriken zur Sendezusammenfassung
++++ Weitere Informationen zu Zusammenfassungsmetriken von Push-Benachrichtigungen - Senden
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft Ihre Push-Benachrichtigung geöffnet wurde.
 
@@ -395,7 +395,7 @@ Die Tabelle und die Graphen **[!UICONTROL Fehlergründe]** bieten Ihnen die Mög
 
 Der Graph und die Tabelle **[!UICONTROL Push-Benachrichtigung – Aufschlüsselung nach Plattform]** bieten eine detaillierte Analyse des Erfolgs Ihrer Push-Benachrichtigungen in den letzten 24 Stunden und bieten Einblicke auf der Grundlage des Betriebssystems Ihres Profils. Diese Aufschlüsselung verbessert Ihr Verständnis der Leistung Ihrer Push-Benachrichtigungen auf verschiedenen Plattformen.
 
-+++ Weitere Informationen zu Push-Benachrichtigungen – Aufschlüsselung nach Plattformmetriken
++++ Weitere Informationen zu Push-Benachrichtigungen - Aufschlüsselung nach Plattformmetriken
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Analyse verarbeiteten Nachrichten.
 
@@ -428,7 +428,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten der letzten 24 Stunden, einschließlich wichtiger Schlüsselmetriken wie der Anzahl der gezielten Nachrichten und der Anzahl der erfolgreich zugestellten Nachrichten.
 
-+++ Weitere Informationen zu SMS – Metriken für Statistiken
++++ Weitere Informationen zu SMS - Statistikmetriken
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden SMS-Nachricht. Um nur eine oder mehrere wiederkehrende SMS-Nachrichten auszuwählen, wählen Sie die gewünschte Option in der Dropdown-Liste **[!UICONTROL Ausführungszeit]** aus.
 
@@ -457,7 +457,7 @@ Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zus
 
 Das Widget **[!UICONTROL SMS – Leistung nach Datum]** bietet einen detaillierten Überblick über die wichtigsten Informationen im Zusammenhang mit Ihren Nachrichten, die in einem Diagramm dargestellt werden und einen Einblick in die Leistungs-Trends der letzten 24 Stunden geben.
 
-+++ Weitere Informationen zu SMS – Metriken zur Leistung nach Datum
++++ Weitere Informationen zu SMS - Metriken zur Leistung nach Datum
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -513,7 +513,7 @@ Im **[!UICONTROL Live-Bericht]** Ihrer Kampagne werden auf der Registerkarte **[
 
 Die KPIs **[!UICONTROL Web-Performance]** bieten umfassende Einblicke in die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Seiten in den letzten 24 Stunden und umfassen wichtige Schlüsselmetriken wie Impressionen und Interaktionen.
 
-+++ Weitere Informationen über Web-Performance-Metriken
++++ Weitere Informationen zu Web-Leistungsmetriken
 
 * **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzerinnen und Benutzer bereitgestellten Web-Erlebnisse.
 
@@ -532,7 +532,7 @@ Die KPIs **[!UICONTROL Web-Performance]** bieten umfassende Einblicke in die Int
 
 Der Graph **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Interaktionen) für die letzten 24 Stunden.
 
-+++ Weitere Informationen über Web-Zusammenfassungs-Metriken
++++ Weitere Informationen zu Web-Zusammenfassungsmetriken
 
 * **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzerinnen und Benutzer bereitgestellten Web-Erlebnisse.
 
@@ -564,7 +564,7 @@ Im **[!UICONTROL Live-Bericht]** in Campaign werden auf der Registerkarte **[!UI
 
 Die Tabelle **[!UICONTROL Briefpost – Versandstatistiken]** bietet eine übersichtliche Zusammenfassung der wichtigsten Daten zu Ihren Briefpost-Nachrichten. Dazu gehören Schlüsselmetriken wie die Anzahl der gezielten Nachrichten und die Anzahl der erfolgreich zugestellten Nachrichten innerhalb der letzten 24 Stunden.
 
-+++ Weitere Informationen zu Metriken für „Briefpost – Versandstatistiken“
++++ Weitere Informationen über die Metriken Briefpost - Versandstatistik .
 
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 

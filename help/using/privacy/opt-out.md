@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Die Verwendung von berechtigungsbasierten Zugriffssteuerungskennzeichnungen erm�
 
 >[!NOTE]
 >
->Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC) finden Sie in [diesem Abschnitt](../administration/object-based-access.md).
+>Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC) finden Sie in [diesem Abschnitt](../administration/object-based-access.md).
 
 In [!DNL Journey Optimizer]-Kampagnen wird die Einverständnisrichtlinie wie folgt durchgesetzt:
 
@@ -137,7 +137,7 @@ Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die 
 
 Sie können einer Zielgruppe auch eine Einverständnisprüfung für die Personalisierung hinzufügen, indem Sie eine Aufteilungssaktivität zu einem Kompositions-Workflow hinzufügen.
 
-1. Erstellen Sie eine Zielgruppe mithilfe der Option **[!UICONTROL Zielgruppe erstellen]**. [Weitere Informationen zum Erstellen eines Kompositions-Workflows](../audience/get-started-audience-orchestration.md)
+1. Erstellen Sie eine Zielgruppe mithilfe der Option **[!UICONTROL Zielgruppe erstellen]**. [Erfahren Sie mehr über das Erstellen eines Kompositions-Workflows](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

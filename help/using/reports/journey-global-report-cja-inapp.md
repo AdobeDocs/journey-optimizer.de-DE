@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ Sie können auf Ihren In-App-Journey-Bericht zugreifen, indem Sie auf die Schalt
 
 Das Diagramm **[!UICONTROL Display &amp; Click]** Trend“ bietet eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren In-App-Nachrichten und wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Erfahren Sie mehr über Trendmetriken für Anzeigen und Klicken
++++ Weitere Informationen über Trendmetriken für Anzeigen und Klicken
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
 
@@ -47,7 +47,7 @@ Das Diagramm **[!UICONTROL Display &amp; Click]** Trend“ bietet eine detaillie
 
 Der Graph **[!UICONTROL Klicks]** zeigt Metriken für In-App-Klicks an, die sowohl die Gesamtanzahl der Klicks auf einen Inhalt als auch die Anzahl der einzelnen Profile darstellen, die auf den Inhalt geklickt haben.
 
-+++ Weitere Informationen zu Metriken für Klicks
++++ Weitere Informationen zu Klicks-Metriken
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
@@ -59,7 +59,7 @@ Der Graph **[!UICONTROL Klicks]** zeigt Metriken für In-App-Klicks an, die sowo
 
 Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der einzelnen Profile nachvollziehen, die mit der Nachricht interagieren.
 
-+++ Weitere Informationen zu Anzeigemetriken
++++ Weitere Informationen zu Anzeigenmetriken
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
@@ -71,7 +71,7 @@ Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichwe
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren In-App-Nachrichten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von In-App-Nachrichten.
 
-+++ Weitere Informationen zu Metriken für Tracking-Daten
++++ Weitere Informationen zu Tracking-Datenmetriken
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre In-App-Nachrichten eignen.
 
@@ -101,7 +101,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren In-App-Nachrichten und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu den Metriken der Bezeichnungen für verfolgte Links
++++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
@@ -119,7 +119,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren In-App-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren In-App-Nachrichten verbessern.
 
-+++ Weitere Informationen zu den Metriken der getrackten Link-URLs
++++ Weitere Informationen zur Metrik „Getrackte Link-URLs“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 

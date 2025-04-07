@@ -1,14 +1,14 @@
 ---
 title: Leitlinien und Einschränkungen für die Entscheidungsfindung
-description: Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung
+description: Erfahren Sie mehr über Leitplanken und Einschränkungen bei Decisioning.
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

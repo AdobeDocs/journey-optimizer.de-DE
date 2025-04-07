@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Damit Ihre Empfänger das Abonnement stornieren können, können Sie in Ihre E-M
 
 >[!NOTE]
 >
->In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwaltung des Einverständnisses Ihrer Empfänger und darüber, warum dies wichtig ist.
+>Weitere Informationen zur Verwaltung des Einverständnisses Ihrer Empfänger und dazu, warum dies wichtig ist, finden Sie [ (in diesem Abschnitt](../privacy/opt-out.md).
 
 ### Opt-out-Verwaltung {#opt-out-management}
 

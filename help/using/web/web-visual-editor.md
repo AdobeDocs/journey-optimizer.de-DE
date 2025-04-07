@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
 
 >[!NOTE]
 >
->Der Web-Content-Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Der Web-Content-Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen über [Erstellen von Inhalten mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Nachdem Sie Ihren Web-Inhalt bearbeitet haben, können Sie Ihre Änderungen verwalten. [Weitere Informationen](manage-web-modifications.md)
 

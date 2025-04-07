@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
    >
    >* Bei der Verwendung eines [KI-Modells](../ranking/ai-models.md) in einer Gruppe von Bewertungskriterien müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangfolgenmethode und dasselbe spezifische KI-Modell verwenden.
    >
-   >* Nur eine der Bewertungskriterien-Gruppen kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsumfangs müssen andere Ranglistenmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Rangfolgenmethoden](../offer-activities/configure-offer-selection.md)
+   >* Nur eine der Bewertungskriterien-Gruppen kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsumfangs müssen andere Ranglistenmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Ranking-Methoden](../offer-activities/configure-offer-selection.md)
 
 1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Neuer Umfang]**. Wiederholen Sie für jeden Entscheidungsumfang die obigen Schritte.
 
@@ -242,7 +242,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -253,7 +253,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -282,7 +282,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -294,7 +294,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
