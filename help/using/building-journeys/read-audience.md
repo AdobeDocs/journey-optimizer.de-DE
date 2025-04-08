@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 99%
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
 >abstract="Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu einer Adobe Experience Platform-Zielgruppe gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Startdatum/-zeit"
+>abstract="Legen Sie das Datum und die Uhrzeit für den Trigger dieser Journey fest."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Wiederholen bis"
+>abstract="Enddatum der Wiederholung definieren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Wiederholen alle"
+>abstract="Definieren Sie die Häufigkeit der wiederkehrenden Planung."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Inkrementelles Lesen"
+>abstract="Nur neuen Profilen seit dem letzten Lesen erlauben, die Journey zu betreten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Wiedereintritt erzwingen"
+>abstract="Alle Journey-Teilnehmer vor jedem Lesen der Zielgruppe ablegen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Synchronisieren der Journey-Ausführung mit dem Zielgruppenexport"
+>abstract="Schalten Sie diese Option ein, um den Journey-Trigger auszuführen, sobald ein neuer Export der Zielgruppe verfügbar ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Synchronisieren der Journey-Ausführung mit dem Zielgruppenexport"
+>abstract="Geben Sie die Dauer an, die die Journey warten soll, um sicherzustellen, dass ein neuer Export der Zielgruppe verfügbar ist."
 
 Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zielgruppe in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
@@ -46,7 +81,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 * Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
 
-Leitplanken für die Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
+Schutzmechanismen im Zusammenhang mit der Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
 
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
@@ -63,7 +98,7 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie auch Adobe Experience Platform-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. 
+   >Darüber hinaus können Sie auch Adobe Experience Platform-Zielgruppen auswählen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [aus einer CSV-Datei hochgeladen) erstellt ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
