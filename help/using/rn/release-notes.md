@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="Neue Funktionen"
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Updates April &#39;25
 
 ### Verbesserungen {#25-04-improv}
 
-**E-Mail-Designer**
 
-Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind in der E-Mail-Designer jetzt zwei neue Felder verfügbar: Sie entsprechen dem `<title>` und `lang` Attribut im `<html>` Element Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** im Abschnitt E-Mail **[!UICONTROL Textkörper]** definieren. [Weitere Informationen](../email/email-metadata.md)
+* **Sandbox-Tools** - Verfügbarkeitsdatum: 3. April 2025
 
-**Sandbox-Tools** - Verfügbarkeitsdatum: 3. April 2025
+  Sie können jetzt Kampagnen mithilfe von Package-Export- und -Import-Funktionen über mehrere Sandboxes kopieren. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungsbeschriftungen und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-Sie können jetzt Kampagnen mithilfe von Package-Export- und -Import-Funktionen über mehrere Sandboxes kopieren. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungsbeschriftungen und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** - Verfügbarkeitsdatum: 2. April 2025
 
-**Personalization** - Verfügbarkeitsdatum: 2. April 2025
+  Der Bereich Attribute im Personalisierungseditor zeigt jetzt standardmäßig nur noch ausgefüllte Attribute an. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** zu deaktivieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-Der Bereich Attribute im Personalisierungseditor zeigt jetzt standardmäßig nur noch ausgefüllte Attribute an. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** zu deaktivieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+* **Content-Management** - Verfügbarkeitsdatum: 2. April 2025
 
-**Content-Management** - Verfügbarkeitsdatum: 2. April 2025
+  Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
 
-Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
+  >[!AVAILABILITY]
+  >
+  >Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
 
->[!AVAILABILITY]
->
->Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
+* **Email Designer** - Verfügbarkeitsdatum: 1. April 2025
+
+  Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind in der E-Mail-Designer jetzt zwei neue Felder verfügbar: Sie entsprechen dem `<title>` und `lang` Attribut im `<html>` Element Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** im Abschnitt E-Mail **[!UICONTROL Textkörper]** definieren. [Weitere Informationen](../email/email-metadata.md)
+
 
 ## Versionshinweise März 2025 {#25-3-rn}
 
