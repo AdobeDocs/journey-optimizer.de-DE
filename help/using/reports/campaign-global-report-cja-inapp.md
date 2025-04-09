@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 84%
+source-wordcount: '584'
+ht-degree: 81%
 
 ---
 
 # Kampagnenbericht zu In-App-Daten {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>Bevor Sie Berichte zu In-App-Kampagnen und -Journey erstellen können, sollten Sie die Reporting-Voraussetzungen auf ([ Seite) ](../in-app/inapp-configuration.md#experiment-prerequisites).
 
 >[!BEGINSHADEBOX]
 
