@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 23%
+source-wordcount: '768'
+ht-degree: 25%
 
 ---
 
@@ -50,15 +50,12 @@ Die folgenden Nachrichtentypen werden in WhatsApp unterstützt:
 | Textkörper | Unterstützt dynamische Inhalte durch Parameter. |
 | Fußzeilentext | Unterstützt dynamische Inhalte durch Parameter. |
 
-Für Ihre WhatsApp-Nachrichten stehen die folgenden Aktionsaufruf-Optionen zur Verfügung:
+Die folgende call-to-action-Option ist für Ihre WhatsApp-Nachrichten verfügbar:
 
 | Aktionsaufruf | Beschreibung |
 |-|-|
-| Telefonnummer des Anrufs | Nur in Nachrichtenvorlagen verfügbar. Auf eine Schaltfläche beschränkt. |
-| Benutzerdefinierte Schnellantwort-Schaltflächen | Unterstützt bis zu drei Schaltflächen. |
-| Schaltfläche zum Marketing-Opt-out | Aktualisiert den Abonnementstatus nicht automatisch. |
-| Gutschein-Code-Nachrichtenvorlagen | Nur in Nachrichtenvorlagen verfügbar. |
-| CTA-Antwortnachrichten | Ermöglicht die Aufnahme einer Aktionsaufruf-Schaltfläche in eine Antwortnachricht. |
+| Website besuchen | Es ist nur eine Schaltfläche zulässig, einschließlich Variablenparameter. |
+
 
 +++
 
@@ -97,6 +94,8 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginn
 1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL WhatsApp]** aus und wählen oder erstellen Sie eine neue Konfiguration.
 
    Erfahren Sie mehr über die WhatsApp-Konfiguration auf [dieser Seite](whatsapp-configuration.md).
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen und Abwandlungen zu erstellen, deren Performance zu messen und die beste Option für Ihre Zielgruppe zu ermitteln. [Weitere Informationen](../content-management/content-experiment.md)
 
@@ -139,13 +138,19 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
    [Erfahren Sie mehr über Vorlagenkategorien](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
+   ![](assets/whatsapp-design-1.png)
+
 1. Wählen Sie aus der **WhatsApp** Vorlage“ Ihre zuvor erstellte Vorlage aus, die in Meta entworfen wurde.
 
    [Erfahren Sie mehr darüber, wie Sie Ihre WhatsApp-Vorlagen erstellen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
+   ![](assets/whatsapp-design-2.png)
+
 1. Verwenden Sie den Personalisierungseditor, um Ihrer Vorlage eine Personalisierung hinzuzufügen. Sie können jedes Attribut verwenden, z. B. den Profilnamen oder die Stadt.
 
    Auf der folgenden Seite erfahren Sie mehr über [Personalisierung](../personalization/personalize.md).
+
+   ![](assets/whatsapp-design-3.png)
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um den Inhalt Ihrer WhatsApp-Nachricht, die gekürzten URLs und den personalisierten Inhalt in der Vorschau anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
