@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
@@ -47,9 +47,9 @@ Wenn möglich, können Sie mithilfe der Schaltfläche **[!UICONTROL Erweiterter 
 
 >[!NOTE]
 >
->Bedingungen können im einfachen oder erweiterten Ausdruckseditor definiert werden. Sie geben immer einen booleschen Typ zurück.
+>* Bedingungen können im einfachen oder erweiterten Ausdruckseditor definiert werden. Sie geben immer einen booleschen Typ zurück.
 >
->Aktionsparameter können durch die Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben je nach Ausdruck einen bestimmten Datentyp zurück.
+>* Aktionsparameter können durch die Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben je nach Ausdruck einen bestimmten Datentyp zurück.
 
 Sie können auf verschiedene Weise auf den erweiterten Ausdruckseditor zugreifen:
 
@@ -83,6 +83,12 @@ Ein Mechanismus zur automatischen Vervollständigung zeigt kontextbezogene Vorsc
 Ein Mechanismus zur Syntax-Validierung überprüft die Integrität Ihres Codes. Fehler werden über dem Editor angezeigt.
 
 ![](../assets/journey69.png)
+
+
+>[!TIP]
+>
+>Stellen Sie beim Erstellen von Bedingungen im erweiterten Ausdruckseditor sicher, dass Ihre Ausdrücke keine ausgeblendeten oder nicht druckbaren Zeichen enthalten. Verwenden Sie außerdem einzeilige Ausdrücke, um Parsing-Fehler zu vermeiden.
+
 
 **Bedarf an Parametern beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor**
 
