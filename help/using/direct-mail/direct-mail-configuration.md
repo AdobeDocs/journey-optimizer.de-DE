@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 98%
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,14 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 1. [Eine Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll. Verschlüsseln Sie die Datei bei Bedarf.
 
-   >[!CAUTION]
-   >
-   >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [Eine Briefpost-Konfiguration](#direct-mail-configuration), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
+
+
+>[!CAUTION]
+>
+>* Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* Briefpostdateien werden nur zum Zeitpunkt des Exports generiert; ältere Exporte werden nicht unbegrenzt gespeichert. Für eine längere oder dauerhafte Sicherung konfigurieren Sie eine Datei-Routing-Option (SFTP oder Cloud-Speicher).
 
 ## Konfigurieren des Datei-Routings {#file-routing-configuration}
 

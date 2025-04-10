@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 97%
+source-wordcount: '445'
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampag
 
 Wenn Ihre Briefpost-Kampagne fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Aktivieren]**. Wenn die Kampagne startet, wird die Extraktionsdatei automatisch generiert und zu dem Server exportiert, der in Ihrer [Datei-Routing-Konfiguration](../direct-mail/direct-mail-configuration.md) festgelegt ist.
 
-Nach dem Versand können Sie die Wirkung Ihrer Briefpost-Kampagne in den Kampagnenberichten messen. Weiterführende Informationen zum Reporting finden Sie in diesem Abschnitt.
+Nach dem Versand können Sie die Wirkung Ihrer Briefpost-Kampagne in den Kampagnenberichten messen. Weiterführende Informationen zum Briefpost-Reporting finden Sie [diesem Abschnitt](../reports/campaign-global-report-cja-direct.md).
 
 ## Verwalten des Einverständnisses für Briefpost {#dm-consent-management}
 
