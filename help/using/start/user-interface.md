@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '1361'
-ht-degree: 100%
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch 
 
 >[!NOTE]
 >
->* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
+>* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen [ von Ihren ](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
@@ -90,7 +90,7 @@ Verwalten Sie Ihre Daten aus diesem Abschnitt.
 
 * **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](../data/get-started-queries.md)
 
-* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target="_blank"}
+* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target="_blank"}
 
 ### [!UICONTROL VERBINDUNGEN] {#left-nav-connections}
 
@@ -248,3 +248,10 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_exd_placements"
 >title="Platzierung"
 >abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung über verschiedene Platzierungen in Berichten hinweg verfolgen."
+
+<!-- Journey Dry Run - DOCAC-12459-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run"
+>title="Journey trocken ausführen"
+>abstract="Nachdem Sie Ihren Journey entworfen haben, führen Sie einen Probelauf aus, um zu bestätigen, dass er funktioniert, und um sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Kommunikation an ein Profil zu senden."
