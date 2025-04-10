@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version vom 25. März]
+>[!TAB Version März 2025]
 
-Die März-Version ist jetzt live! Lesen Sie die Versionshinweise , um neue Funktionen, Änderungen und Verbesserungen zu erfahren.
+Die Version März ist jetzt live! Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

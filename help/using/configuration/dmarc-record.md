@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,13 +98,13 @@ Um sicherzustellen, dass Sie den DMARC-Eintrag für alle Subdomains, die Sie in 
 
    >[!NOTE]
    >
-   >Je nachdem, ob ein DMARC-Eintrag mit der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder Adobe den DMARC-Eintrag verwalten lassen. [Weitere Informationen](#implement-dmarc)
+   >Je nachdem, ob ein DMARC-Eintrag bei der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder den DMARC-Eintrag von Adobe verwalten lassen. [Weitere Informationen](#implement-dmarc)
 
-1. Wenn Sie eine Subdomain bearbeiten:
+1. Wenn Sie eine Subdomain bearbeiten, die:
 
-   * [Vollständig delegiert](delegate-subdomain.md#full-subdomain-delegation) an Adobe ist keine weitere Aktion erforderlich.
+   * [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) wurde, ist keine weitere Aktion erforderlich,
 
-   * Bei der Einrichtung mit [CNAME](delegate-subdomain.md#cname-subdomain-delegation) müssen Sie den DNS-Eintrag für DMARC in Ihre Hosting-Lösung kopieren, um die entsprechenden DNS-Einträge zu generieren.
+   * mit [CNAME](delegate-subdomain.md#cname-subdomain-delegation) eingerichtet wurde, müssen Sie den DNS-Eintrag für DMARC in Ihre Hosting-Lösung kopieren, um die entsprechenden DNS-Einträge zu generieren.
 
      ![](assets/dmarc-record-edit-cname.png)
 
@@ -130,23 +130,23 @@ Beim Delegieren neuer Subdomains zu Adobe in [!DNL Journey Optimizer] wird für 
 
    ![](assets/dmarc-record-found.png)
 
-   * **[!UICONTROL Mit Adobe verwalten]**: Sie können Adobe den DMARC-Eintrag für Ihre Subdomain verwalten lassen. Befolgen Sie die in [diesem Abschnitt](#manage-dmarc-with-adobe) beschriebenen Schritte.
+   * **[!UICONTROL Mit Adobe verwalten]**: Sie können den DMARC-Eintrag für Ihre Subdomain von Adobe verwalten lassen. Befolgen Sie die in [diesem Abschnitt](#manage-dmarc-with-adobe) beschriebenen Schritte.
 
    * **[!UICONTROL Eigenständig verwalten]**: <!--This option is selected by default.-->Mit dieser Option können Sie den DMARC-Eintrag außerhalb von [!DNL Journey Optimizer] verwalten, indem Sie die Werte aus Ihrer übergeordneten Domain verwenden. Diese Werte werden in der Benutzeroberfläche angezeigt, können jedoch nicht bearbeitet werden.
 
      ![](assets/dmarc-record-found-own.png){width="80%"}
 
-1. Wenn in der übergeordneten Domain kein DMARC-Eintrag gefunden wird, ist nur die Option **[!UICONTROL Mit Adobe verwalten]** verfügbar. Gehen Sie wie [ vor](#manage-dmarc-with-adobe) um einen DMARC-Eintrag für Ihre Subdomain einzurichten.
+1. Wenn in der übergeordneten Domain kein DMARC-Eintrag gefunden wird, ist nur die Option **[!UICONTROL Mit Adobe verwalten]** verfügbar. Führen Sie die [nachstehenden](#manage-dmarc-with-adobe) Schritte durch, um einen DMARC-Eintrag für Ihre Subdomain einzurichten.
 
    ![](assets/dmarc-record-not-found.png){width="80%"}
 
 ### Verwalten von DMARC-Einträgen mit Adobe {#manage-dmarc-with-adobe}
 
-Damit Adobe den DMARC-Datensatz für Sie verwalten kann, wählen Sie die Option **[!UICONTROL Mit Adobe verwalten]** und führen Sie die folgenden Schritte aus.
+Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **[!UICONTROL Mit Adobe verwalten]** aus und führen Sie die nachfolgenden Schritte aus.
 
 >[!NOTE]
 >
->Wenn sie von [!DNL Journey Optimizer] abgerufen werden, können Sie dieselben Werte wie in der Benutzeroberfläche hervorgehoben verwenden oder sie nach Bedarf ändern.
+>Erfolgt der Abruf über [!DNL Journey Optimizer], können Sie dieselben Werte verwenden, die in der Benutzeroberfläche hervorgehoben sind, oder sie nach Bedarf ändern.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
 

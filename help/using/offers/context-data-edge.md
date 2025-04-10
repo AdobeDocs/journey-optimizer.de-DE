@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Dieser Abschnitt erläutert das Übergeben von Kontextdaten in Edge Decisioning-
 Dieser Anwendungsfall umfasst mehrere wichtige Schritte:
 
 1. [Einrichten der Voraussetzungen](#prerequisites): Stellen Sie sicher, dass alle erforderlichen Schritte ausgeführt wurden, um Kontextdaten in Ihren Anfragen zu übergeben.
-1. [Kontextdaten in Eignungsregeln verwenden](#rules): Erstellen Sie Regeln, die basierend auf dem Gerätetyp des Benutzers bestimmen, welche Angebote angezeigt werden sollen.
+1. [Verwenden von Kontextdaten in Eignungsregeln](#rules): Erstellen Sie Regeln, die basierend auf dem Gerätetyp der Benutzenden bestimmen, welche Angebote angezeigt werden sollen.
 1. [Entwerfen von gerätespezifischen Angeboten](#offers): Erstellen Sie für jeden Gerätetyp maßgeschneiderte Angebote und verknüpfen Sie sie mit den entsprechenden Regeln.
 1. [Erstellen einer Angebotssammlung](#collection): Gruppieren Sie alle Angebote in einer statischen Sammlung.
 1. [Konfigurieren einer Entscheidung](#decision) : Erstellen Sie eine neue Entscheidung, die die Angebotsentscheidungs-Engine nutzt, um basierend auf ihrem Gerätetyp das beste Angebot für Benutzerinnen und Benutzer auszuwählen.

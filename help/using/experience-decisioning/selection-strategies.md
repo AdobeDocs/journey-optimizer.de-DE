@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,5 +120,5 @@ Wenn ein KI-Modell erstellt wurde, können Sie es in einer Auswahlstrategie verw
 
 >[!NOTE]
 >
->Derzeit ist der [Lift Measurement](../offers/ranking/auto-optimization-model.md#lift) nur für das KI-Modell [Personalisierte ](../offers/ranking/personalized-optimization-model.md)&quot; verfügbar.
+>Derzeit ist der Bericht [Lift Measurement](../offers/ranking/auto-optimization-model.md#lift) nur für das KI-Modell zur [personalisierten Optimierung](../offers/ranking/personalized-optimization-model.md) verfügbar.
 

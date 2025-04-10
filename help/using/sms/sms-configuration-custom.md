@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -19,23 +19,23 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
->title="Provider-URL"
->abstract="Geben Sie die URL des externen API an, mit dem Sie eine Verbindung herstellen möchten. Diese URL dient als Endpunkt für den Zugriff auf die Funktionen und Möglichkeiten des API."
+>title="Anbieter-URL"
+>abstract="Geben Sie die URL des externen APIs an, zu dem eine Verbindung hergestellt werden soll. Diese URL dient als Endpunkt für den Zugriff auf die API-Funktionen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="Authentifizierungstyp"
->abstract="Geben Sie die Authentifizierungsmethode an, die für den Zugriff auf das API erforderlich ist, z. B. OAuth- oder Bearer-Token. Dies gewährleistet eine sichere und autorisierte Kommunikation mit dem externen Service."
+>abstract="Geben Sie die Authentifizierungsmethode an, die für den Zugriff auf das API erforderlich ist, z. B. OAuth- oder Bearer-Token. Dadurch wird eine sichere und autorisierte Kommunikation mit dem externen Service sichergestellt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
 >title="Header-Parameter"
->abstract="Geben Sie Label, Typ und Wert zusätzlicher Kopfzeilen an, um eine ordnungsgemäße Authentifizierung, Inhaltsformatierung und effektive API-Kommunikation zu ermöglichen. "
+>abstract="Geben Sie Label, Typ und Wert zusätzlicher Header an, um eine ordnungsgemäße Authentifizierung, Inhaltsformatierung und effektive API-Kommunikation zu ermöglichen. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="Provider-Payload"
->abstract="Geben Sie die Anfrage-Payload an, um sicherzustellen, dass die richtigen Daten zur Verarbeitung und Antworterstellung gesendet werden."
+>title="Anbieter-Payload"
+>abstract="Stellen Sie die Anfrage-Payload bereit, damit die korrekten Daten zur Verarbeitung und Antworterstellung gesendet werden."
 
 >[!AVAILABILITY]
 >

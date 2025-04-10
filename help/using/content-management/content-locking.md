@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer ermöglicht es, Inhalte in E-Mail-Vorlagen zu sperren, entwede
 
 >[!IMPORTANT]
 >
->Die Inhaltssperre ist eine Funktion auf Editor-Ebene für Autoren und garantiert nicht, dass der Inhalt nicht bearbeitet wird, wenn er importiert oder über die API erstellt wird.
+>Die Inhaltssperre ist eine Funktion auf Editorebene für Autorinnen und Autoren und garantiert nicht, dass der Inhalt beim Importieren oder Erstellen über das API nicht bearbeitet wird.
 
 Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** angewendet werden. Im Folgenden werden die wichtigsten Prinzipien beschrieben, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten.
 
