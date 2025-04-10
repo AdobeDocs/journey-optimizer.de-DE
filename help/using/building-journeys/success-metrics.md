@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -25,11 +23,11 @@ Durch Tracking dieser Metriken können Sie sehen, wie gut Ihre Journey funktioni
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie Ihre Journey-Metrik verwenden können, müssen Sie einen Datensatz hinzufügen, der die `Commerce Details`-, `Web`- und `Mobile`[Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthält.
+Bevor Sie Ihre Journey-Metrik verwenden können, müssen Sie einen Datensatz mit den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} `Commerce Details`, `Web` und `Mobile` hinzufügen.
 
 ## Verfügbare Metriken {#metrics}
 
-Die Liste der Metriken variiert je nach den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} die in Ihrem Datensatz enthalten sind.
+Die Liste der Metriken variiert abhängig von den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} in Ihrem Datensatz.
 
 Wenn Ihr Datensatz nicht konfiguriert ist, sind nur die folgenden Metriken verfügbar: **[!UICONTROL Klick]**, **[!UICONTROL Einzelklick]**, **[!UICONTROL Klickrate]** und **[!UICONTROL Öffnungsrate]**.
 
