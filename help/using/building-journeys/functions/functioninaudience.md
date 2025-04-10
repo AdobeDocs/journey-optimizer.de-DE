@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 
@@ -63,4 +63,9 @@ Gibt einen booleschen Wert zurück.
 
 Erklärung:
 
-Die Funktion gibt **[!UICONTROL true]** zurück, wenn die Person in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „men over 50“ (Herren über 50) ist. Andernfalls wird **[!UICONTROL false]** zurückgegeben.
+Die Funktion gibt &quot;**[!UICONTROL &quot; zurück]** wenn die Person in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „Männer über 50“ ist, **[!UICONTROL false]** andernfalls.
+
+
+>[!CAUTION]
+>
+>Wenn Sie den Namen einer bestehenden Zielgruppe ändern, werden in Ihren Journey-Ausdrücken nicht automatisch alle Verweise auf diese Zielgruppe aktualisiert. Wenn Ihr Bedingungsknoten inAudience(&#39;oldAudienceName&#39;) verwendet, müssen Sie den Ausdruck manuell bearbeiten, um den neuen Namen zu verwenden. Andernfalls wird der Journey-Zustand beschädigt.
