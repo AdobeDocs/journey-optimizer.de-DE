@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -27,11 +27,11 @@ Im Bereich auf der linken Seite können Sie Fragmente in Ordnern organisieren. S
 
 >[!NOTE]
 >
->Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise für eine größere Anzahl von Benutzern bereitgestellt.
+>Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
 ![](assets/fragment-list-folders.png)
 
-Um ein bestimmtes Element zu finden, geben Sie einen Namen in das Suchfeld ein. Wenn ein [Ordner](#folders) ausgewählt ist, gilt die Suche für alle Fragmente oder Ordner in der ersten Hierarchieebene dieses Ordners<!--(not nested items)-->.
+Um nach einem bestimmten Element zu suchen, geben Sie einen Namen in das Suchfeld ein. Wenn ein [Ordner](#folders) ausgewählt ist, gilt die Suche für alle Fragmente oder Ordner in der ersten Hierarchieebene dieses Ordners<!--(not nested items)-->.
 
 Fragmente können nach folgenden Kriterien gefiltert werden:
 
@@ -57,7 +57,7 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 
 ![](assets/fragment-list-more-actions.png)
 
-## Verwenden von Ordnern zum Verwalten von Fragmenten {#folders}
+## Verwalten von Fragmenten mithilfe von Ordnern {#folders}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_folders"
@@ -66,21 +66,21 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 
 >[!AVAILABILITY]
 >
->Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise für eine größere Anzahl von Benutzern bereitgestellt.
+>Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
-Um die Navigation in Fragmenten zu vereinfachen, können Sie Ordner verwenden, um diese effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihres Unternehmens kategorisieren und verwalten.
+Für eine einfache Fragmentnavigation können Sie Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihrer Organisation kategorisieren und verwalten.
 
 ![](assets/fragment-folders.png)
 
-1. Klicken Sie auf **[!UICONTROL Alle Fragmente]**, um alle zuvor erstellten Elemente ohne Ordnergruppierung anzuzeigen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Alle Fragmente]**, um alle zuvor erstellten Elemente ohne Ordnergruppierung anzuzeigen.
 
-1. Klicken Sie auf **[!UICONTROL Stammordner]**, um alle erstellten Ordner anzuzeigen.
+1. Klicken Sie auf den **[!UICONTROL Stammordner]**, um alle erstellten Ordner anzuzeigen.
 
    >[!NOTE]
    >
    >Wenn Sie noch keine Ordner erstellt haben, werden alle Fragmente angezeigt.
 
-1. Klicken Sie auf einen beliebigen Ordner innerhalb des **[!UICONTROL Stammordners]**, um dessen Inhalt anzuzeigen.
+1. Klicken Sie auf einen beliebigen Ordner im **[!UICONTROL Stammordner]**, um dessen Inhalt anzuzeigen.
 
 1. Wenn Sie auf den **[!UICONTROL Stammordner]** oder einen anderen Ordner klicken, wird die Schaltfläche **[!DNL Create folder]** angezeigt. Wählen Sie sie aus.
 
@@ -88,15 +88,15 @@ Um die Navigation in Fragmenten zu vereinfachen, können Sie Ordner verwenden, u
 
 1. Geben Sie einen Namen für den neuen Ordner ein und klicken Sie auf **[!UICONTROL Speichern]**. Der neue Ordner wird über der Fragmentliste im **[!UICONTROL Stammordner]** oder im aktuell ausgewählten Ordner angezeigt.
 
-1. Sie können auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** klicken, um den Ordner umzubenennen oder zu löschen.
+1. Sie können auf die Schaltfläche **[!UICONTROL Weitere Aktionen]** klicken, um den Ordner umzubenennen oder zu löschen.
 
    ![](assets/fragment-folder-more-actions.png)
 
-1. Mit der Schaltfläche **[!UICONTROL Mehr Aktionen]** können Sie das Fragment auch in einen anderen vorhandenen Ordner verschieben.
+1. Mit der Schaltfläche **[!UICONTROL Weitere Aktionen]** können Sie das Fragment auch in einen anderen vorhandenen Ordner verschieben.
 
    ![](assets/fragment-folder-moved.png)
 
-1. Jetzt können Sie zu dem Ordner navigieren, den Sie gerade erstellt haben. Jedes neue Fragment[ das Sie hier erstellen](create-fragments.md) wird im aktuellen Ordner gespeichert.
+1. Nun können Sie zu dem Ordner navigieren, den Sie gerade erstellt haben. Jedes neue Fragment, das Sie hier [erstellen](create-fragments.md), wird im aktuellen Ordner gespeichert.
 
    ![](assets/fragment-folder-create.png)
 

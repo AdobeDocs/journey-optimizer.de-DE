@@ -11,7 +11,7 @@ exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusamm
 
 +++ Weitere Informationen zu Metriken für Journey-Statistiken
 
-* **[!UICONTROL Journey-Ausschluss]**: Gesamtzahl der Personen, die aufgrund vordefinierter Kriterien oder Unterdrückungsregeln von der Journey ausgeschlossen wurden.
+* **[!UICONTROL Journey-Ausschluss]**: Gesamtzahl der Kontakte, die aufgrund vordefinierter Kriterien oder Unterdrückungsregeln von der Journey ausgeschlossen wurden.
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
@@ -79,7 +79,7 @@ Die Tabelle **[!UICONTROL Journey-Ausschluss]** bietet einen umfassenden Überbl
 
 ![](assets/cja-journey-action-error.png)
 
-Das **[!UICONTROL Aktionsfehler]**-Widget zeigt die verschiedenen Fehler an, die bei Ihren Journey-Aktionen aufgetreten sind.
+Das Widget **[!UICONTROL Aktionsfehler]** zeigt die verschiedenen Fehler an, die bei Ihren Journey-Aktionen aufgetreten sind.
 
 ## Journey-Arbeitsfläche {#journey-canvas}
 
@@ -116,11 +116,11 @@ Die Tabelle **[!UICONTROL Aktionsüberblick]** dient als umfassendes Dashboard, 
 
 +++ Weitere Informationen über Metriken der Aktionsübersicht
 
-* **[!UICONTROL Node enters]**: Gesamtzahl der Einzelpersonen, die einen bestimmten Knoten auf der Journey betreten haben.
+* **[!UICONTROL Knoteneintritte]**: Gesamtzahl der Kontakte, die in einen bestimmten Knoten der Journey eingetreten sind.
 
-* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Journey-Fehler]**: Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Aktion interagiert haben.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Aktion interagiert haben.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Aktionen.
 

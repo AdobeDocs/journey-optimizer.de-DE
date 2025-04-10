@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,7 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 >[!NOTE]
 >
->Für die Versionierung der Journey gelten spezifische Leitplanken und Einschränkungen. Weitere Informationen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-journey-versions-g).
+>Für die Versionierung der Journeys gelten bestimmte Schutzmechanismen und Einschränkungen. Weitere Informationen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
 

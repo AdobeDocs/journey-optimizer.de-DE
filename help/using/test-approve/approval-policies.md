@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -112,11 +112,11 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
     </tr>
     <tr>
     <td>Tags</td>
-    <td>Name des Tags, mit dem Ihre Zielgruppen organisiert werden. </td>
+    <td>Name des Tags zur Organisation Ihrer Zielgruppen </td>
     </tr>
     <tr>
     <td>Objektname</td>
-    <td>Name Ihres Objekts.</td>
+    <td>Name des Objekts</td>
     </tr>
     <tr>
     <td>Benutzername der anfragenden Person</td>

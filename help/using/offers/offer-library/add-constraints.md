@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -103,7 +103,7 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
 
   >[!CAUTION]
   >
-  >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
+  >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie in einem Angebot nicht nutzen.
 
 Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
@@ -191,7 +191,7 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis auswählen]** können Sie festleg
   >
   >Die Verwendung von Impressions als Begrenzungsereignisse ist nur für **eingehende Kanäle** verfügbar.
 
-* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis festlegen, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
+* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis festlegen, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerdefinierte Ereignisregel zu erstellen.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
@@ -258,9 +258,9 @@ Im Feld **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** können Sie festlegen
 >
 >Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern. Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
 
-+++ **Wichtige Informationen: Frequenzlimitierung und Entscheidungs-Management-APIs**
++++ **Wichtige Informationen: Frequenzbegrenzung und Entscheidungs-Management-APIs**
 
-Der Zähler für die Frequenzlimitierung wird aktualisiert und ist in einer Entscheidung der [Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge)API in weniger als 3 Sekunden verfügbar.
+Der Frequenzbegrenzungszähler wird in weniger als 3 Sekunden aktualisiert und in einer Entscheidung des [Edge Decisioning-APIs](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) zur Verfügung gestellt.
 
 Jede Hub-Region ist mit einer oder mehreren Edge-Regionen verbunden. Frequenzbegrenzungsregeln werden in jeder Hub-Region generiert und von dort aus in die zugehörigen Edge-Regionen exportiert. Immer wenn eine Entscheidung mithilfe der Edge Decisioning-API getroffen wird, setzt das System die Regeln durch, die in derselben Edge-Region verfügbar sind:
 
@@ -271,15 +271,15 @@ Nehmen wir beispielsweise an, die Hub-Region Ihres Unternehmens ist *NLD2* und S
 
 >[!NOTE]
 >
->Wenn Zähler von Edge zu Hub oder von Hub zu Edge-Bereichen übertragen werden, kann eine Verzögerung von einigen Minuten auftreten.
+>Wenn Zähler von Edge- zu Hub- oder von Hub- zu Edge-Regionen übertragen werden, kann eine Verzögerung von einigen Minuten auftreten.
 
 Weitere Informationen darüber, welche Hub- und Edge-Regionen mit Ihrem Unternehmen verbunden sind, erhalten Sie vom Adobe-Support.
 
-Bei den anderen APIs wird der Zähler für die Frequenzlimitierung wie folgt aktualisiert:
+Bei den anderen APIs wird der Frequenzbegrenzungszähler wie folgt aktualisiert:
 
-* Bei einer [Decisioning-](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning)) kann der Zähler für die Frequenzlimitierung je nach Traffic mit einer Verzögerung von einigen Minuten aktualisiert werden.
+* Bei einer Entscheidung des [Decisioning-APIs](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning) wird der Frequenzbegrenzungszähler je nach Traffic ggf. mit einer Verzögerung von einigen Minuten aktualisiert.
 
-* In einer [Batch Decisioning-API](../api-reference/offer-delivery-api/batch-decisioning-api.md)-Entscheidung werden Momentaufnahmen verwendet, bei denen der Zähler für die Frequenzlimitierung fest bleibt. Solange derselbe Schnappschuss verwendet wird, bleibt der Zähler unverändert.
+* Bei einer Entscheidung des [Batch Decisioning-APIs](../api-reference/offer-delivery-api/batch-decisioning-api.md) werden Momentaufnahmen verwendet, bei denen der Frequenzbegrenzungszähler nicht aktualisiert wird. Solange derselbe Schnappschuss verwendet wird, bleibt der Zähler unverändert.
 
 +++
 

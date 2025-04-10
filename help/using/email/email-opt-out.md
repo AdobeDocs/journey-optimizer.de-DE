@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -32,23 +32,23 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 * Fügen Sie einen **Link in eine Landingpage** ein.  [Informationen dazu, wie Sie eine Landingpage zum Abmelden hinzufügen](#opt-out-external-lp)
 
-Wenn ein Empfänger auf den Abmelde-Link klickt, wird seine Abmeldeanfrage entsprechend verarbeitet.
+Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. 
 
-Um sich zu vergewissern, dass die Aktualisierung des entsprechenden Profils erfolgt ist, navigieren Sie zu Experience Platform und [zu diesem Profil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Auf der Registerkarte **[!UICONTROL Attribute]** sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#attributes-tab). Auf der Registerkarte **[!UICONTROL Attribute]** sehen Sie, dass der Wert für **[!UICONTROL choice]** in **[!UICONTROL no]** geändert wurde. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->Gelegentlich kann es aufgrund der nachgelagerten Datenverarbeitung länger dauern, bis Ereignisse abgemeldet werden. Warten Sie etwas, bis das System aktualisiert wurde.
+>Mitunter kann es aufgrund der nachgelagerten Datenverarbeitung länger dauern, bis sich Abmeldevorgänge auf Profilebene widerspiegeln. Haben Sie ein wenig Geduld, bis das System aktualisiert wurde.
 
 ## Ausschluss in einem Schritt {#opt-out-one-step}
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Ihre [E-Mail-Konfigurationseinstellungen](email-settings.md#list-unsubscribe) mit einer automatisch generierten URL zum Abmelden mit einem Klick und der Mailto-Adresse in der E-Mail-Kopfzeile konfigurieren oder eine Ein-Klick-Abmelde-URL in Ihren E-Mail-Textkörper einfügen.
 
-### URL zum Abmelden mit einem Klick in der E-Mail-Kopfzeile {#unsubscribe-header}
+### URL zum Abmelden mit einem Klick im E-Mail-Header {#unsubscribe-header}
 
-Die Abmelde-URL mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche neben den E-Mail-Absenderinformationen, über den bzw. die Empfänger Ihre Mailing-Listen sofort mit einem einzigen Klick abmelden können. In diesem Abschnitt erfahren Sie **[!UICONTROL wie Sie die Option]** Abmelden von einer Liste[ verwalten](list-unsubscribe.md).
+Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. In [diesem Abschnitt](list-unsubscribe.md) erfahren Sie, wie Sie die Option **[!UICONTROL Abmelden von einer Liste]** verwalten.
 
 ### Abmelden mit einem Klick über den E-Mail-Inhalt {#one-click-opt-out}
 
@@ -97,7 +97,7 @@ Sie können auch eine externe Landingpage verwenden. Konfigurieren Sie in diesem
 
 +++ Erfahren Sie, wie Sie einen Opt-out-API-Aufruf implementieren
 
-Damit Ihre Empfangenden abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
+Damit Ihre Empfänger abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die Einstellungen der entsprechenden Profile zu aktualisieren.
 
 Dieser POST-Aufruf sieht wie folgt aus:
 
@@ -134,7 +134,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den [Adobe Developer](https://developer.adobe.com){target="_blank"}-API-Aufruf zu aktualisieren
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den API-Aufruf [Adobe Developer](https://developer.adobe.com){target="_blank"} zu aktualisieren.
 
 +++
 

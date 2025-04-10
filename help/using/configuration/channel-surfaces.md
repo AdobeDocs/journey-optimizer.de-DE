@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -143,7 +143,7 @@ Nach ihrer Erstellung können Kanalkonfigurationen die folgenden Status aufweise
 
 Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Kanalkonfiguration fehlschlägt.
 
-Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}, um Hilfe zu erhalten.
+Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html), um Hilfe zu erhalten.
 
 * **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. Ein SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die E-Mail-Anbieter verwendet werden.
 
@@ -277,13 +277,13 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k�
 
 1. Klicken Sie für die aktive Konfiguration Ihrer Wahl auf die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
 
-1. Klicken Sie **[!UICONTROL Tags bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Tags bearbeiten]**.
 
-1. Wählen Sie Adobe Experience Platform-Tags aus der Liste aus, um Ihre Kanalkonfiguration zu kategorisieren und so die Suche zu verbessern. [Informationen zum Arbeiten mit einheitlichen Tags](../start/search-filter-categorize.md#tags)
+1. Wählen Sie Adobe Experience Platform-Tags aus der Liste aus, um Ihre Kanalkonfiguration für eine verbesserte Suche zu kategorisieren. [Informationen zum Arbeiten mit einheitlichen Tags](../start/search-filter-categorize.md#tags)
 
    ![](assets/config-edit-tags.png)
 
-1. Nachdem Sie Ihren Kanalkonfigurationen Tags zugewiesen haben, können [ sie nach ](../start/search-filter-categorize.md#filter-on-tags) filtern.
+1. Nachdem Sie Ihren Kanalkonfigurationen Tags zugewiesen haben, können Sie sie nach Tags [filtern](../start/search-filter-categorize.md#filter-on-tags).
 
 ## Anleitungsvideo{#video-presets}
 

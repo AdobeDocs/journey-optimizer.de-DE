@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-Berechtigungen, Produkteinschränkungen und die Performance betreffende Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
+Berechtigungen, Produktbeschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
+Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} bevor Sie beginnen.
 
 ## Unterstützte Browser {#browsers}
 
@@ -36,23 +36,23 @@ Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für sys
 
 Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Erfahren Sie mehr über die Schutzmechanismen für die Time-to-Live (TTL) von Datensätzen](../data/datasets-ttl.md)
 
-## Leitlinien für Kanäle {#channel-guardrails}
+## Schutzmechanismen für Kanäle {#channel-guardrails}
 
 >[!NOTE]
 >
 >In seltenen Fällen können temporäre Ausfälle in einer bestimmten Region dazu führen, dass gültige Profile von Journeys ausgeschlossen werden oder dass E-Mails fälschlicherweise als Bounces markiert werden. Sobald die Services wiederhergestellt sind, überprüfen Sie die Journey-Protokolle erneut, verifizieren Sie die Einverständnisprofilfelder und veröffentlichen Sie die Journey bei Bedarf erneut. [In diesem Abschnitt](../configuration/manage-suppression-list.md#remove-from-suppression-list) erfahren Sie, wie Sie im Falle eines ISP-Ausfalls Profile aus der Unterdrückungsliste entfernen.
 >
 
-### Leitlinien für E-Mails {#message-guardrails}
+### Schutzmechanismen für E-Mails {#message-guardrails}
 
-Die folgenden Leitplanken gelten für den [E-Mail-Kanal](../email/get-started-email.md):
+Für den [E-Mail-Kanal](../email/get-started-email.md) gelten die folgenden Schutzmechanismen:
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
 ### Leitlinien für SMS {#sms-guardrails}
 
-Die folgenden Leitplanken gelten für den [SMS-Kanal](../sms/get-started-sms.md):
+Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmechanismen:
 
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
@@ -60,17 +60,17 @@ Die folgenden Leitplanken gelten für den [SMS-Kanal](../sms/get-started-sms.md)
 
 ### Leitlinien für Web-Kanäle {#web-guardrails}
 
-[!DNL Journey Optimizer] [Web-Kampagnen](../web/get-started-web.md) zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
+[!DNL Journey Optimizer]-[Web-Kampagnen](../web/get-started-web.md) zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
 
-Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Leitlinien für Code-basierte Kanäle {#code-based-guardrails}
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
 
-## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
+## Schutzmechanismen für Landingpages {#lp-guardrails}
 
-Die folgenden Leitplanken gelten für die [Landingpages](../landing-pages/get-started-lp.md):
+Für [Landingpages](../landing-pages/get-started-lp.md) gelten die folgenden Schutzmechanismen:
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
 * Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
@@ -85,9 +85,9 @@ Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains deleg
 
 Weitere Informationen zur Domain-Delegierung finden Sie auf [dieser Seite](../configuration/delegate-subdomain.md).
 
-## Fragmentleitlinien {#fragments-guardrails}
+## Schutzmechanismen für Fragmente {#fragments-guardrails}
 
-Die folgenden Leitplanken gelten für die [Fragmente](../content-management/fragments.md):
+Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutzmechanismen:
 
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
@@ -119,7 +119,7 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 
 ### Allgemeine Aktionen {#general-actions-g}
 
-Die folgenden Leitplanken gelten für die [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journey:
+Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
@@ -128,7 +128,7 @@ Die folgenden Leitplanken gelten für die [Aktionen](../building-journeys/about-
 
 ### Journey-Versionen {#journey-versions-g}
 
-Die folgenden Leitplanken gelten für die [Journey-Versionen](../start/user-interface.md):
+Für [Journey-Versionen](../start/user-interface.md) gelten die folgenden Schutzmechanismen:
 
 * Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Zielgruppen-Qualifizierungsereignis** beginnen.
 * Eine Journey, die in Version 1 mit einer Aktivität vom Typ **Zielgruppen-Qualifizierung** beginnt, muss in weiteren Versionen immer mit einer **Zielgruppen-Qualifizierung** beginnen.
@@ -139,7 +139,7 @@ Die folgenden Leitplanken gelten für die [Journey-Versionen](../start/user-inte
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
-Die folgenden Leitplanken gelten für die [benutzerdefinierten Aktionen](../action/action.md) in Ihren Journey:
+Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
 * Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
@@ -156,7 +156,7 @@ Die folgenden Leitplanken gelten für die [benutzerdefinierten Aktionen](../acti
 
 ### Ereignisse {#events-g}
 
-Die folgenden Leitplanken gelten für die [Ereignisse](../event/about-events.md) in Ihren Journey:
+Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde.
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu 5 Minuten dauern, bis die erste Aktion in der Journey verarbeitet wird.
@@ -167,7 +167,7 @@ Die folgenden Leitplanken gelten für die [Ereignisse](../event/about-events.md)
 
 ### Datenquellen  {#data-sources-g}
 
-Die folgenden Leitplanken gelten für die [Datenquellen](../datasource/about-data-sources.md) in Ihren Journey:
+Für [Datenquellen](../datasource/about-data-sources.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
@@ -194,7 +194,7 @@ Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Sch
 
 ### Lesen der Zielgruppe {#read-segment-g}
 
-Die folgenden Leitplanken gelten für die Journey[Aktivität „Zielgruppe lesen](../building-journeys/read-audience.md):
+Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) gelten die folgenden Schutzmechanismen:
 
 * Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.
 * Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Es werden zwar weitere Versuche vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder beginnend mit „so bald wie möglich“) exakt zur gleichen Zeit beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. im Abstand von 5 bis 10 Minuten.
@@ -206,19 +206,19 @@ Die folgenden Leitplanken gelten für die Journey[Aktivität „Zielgruppe lesen
 
 ### Zielgruppen-Qualifizierung {#audience-qualif-g}
 
-Die folgende Schutzmaßnahme gilt für die Journey[Aktivität „Zielgruppen](../building-journeys/audience-qualification-events.md)Qualifizierung“:
+Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md) gilt der folgende Schutzmechanismus:
 
 * Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 
 ### Ausdruckseditor {#expression-editor}
 
-Die folgende Schutzmaßnahme gilt für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md):
+Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gilt der folgende Schutzmechanismus:
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
 
 ### In-App-Aktivität {#in-app-activity-limitations}
 
-Die folgenden Leitplanken gelten für die Aktion **[!UICONTROL In-App-Nachricht]**. Weitere Informationen zu In-App-Nachrichten finden [ auf dieser Seite](../in-app/create-in-app.md).
+Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzmechanismen: Weitere Informationen zu In-App-Nachrichten finden [ auf dieser Seite](../in-app/create-in-app.md).
 
 * Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
 

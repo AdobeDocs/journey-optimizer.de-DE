@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 61%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates April &#39;25
+## Aktualisierungen April 2025
 
 ### Verbesserungen {#25-04-improv}
 
@@ -37,18 +37,18 @@ ht-degree: 61%
 
 * **Content-Management** - Verfügbarkeitsdatum: 2. April 2025
 
-  Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
+  Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie unter [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
-  >Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
+  >Diese Verbesserung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). 
 
 * **Email Designer** - Verfügbarkeitsdatum: 1. April 2025
 
   Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind in der E-Mail-Designer jetzt zwei neue Felder verfügbar: Sie entsprechen dem `<title>` und `lang` Attribut im `<html>` Element Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** im Abschnitt E-Mail **[!UICONTROL Textkörper]** definieren. [Weitere Informationen](../email/email-metadata.md)
 
 
-## Versionshinweise März 2025 {#25-3-rn}
+## März 2025 – Versionshinweise {#25-3-rn}
 
 
 ### Neue Funktionen {#25-03-features}
@@ -198,15 +198,15 @@ Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../test-a
 
 * Sie können nun Ihren Kanalkonfigurationen einheitliche Adobe Experience Platform-Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. [Weitere Informationen](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Beim Einrichten oder Bearbeiten einer E-Mail-Subdomain in Journey Optimizer können Sie jetzt festlegen, dass der zugehörige DMARC-Eintrag eigenständig verwaltet wird, sofern er in der übergeordneten Domain verfügbar ist. [Weitere Informationen](../configuration/dmarc-record.md#set-up-dmarc)
+* Beim Einrichten oder Bearbeiten einer E-Mail-Subdomain in Journey Optimizer können Sie nun festlegen, dass Sie den zugehörigen DMARC-Eintrag eigenständig verwalten, sofern er in der übergeordneten Domain verfügbar ist. [Weitere Informationen](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Geschäftsregeln**
 
 Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Zur Erinnerung: Die tägliche Frequenzlimitierung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Weitere Informationen zu Geschäftsregeln finden Sie in der [ Dokumentation ](../configuration/rule-sets.md).
+Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Dokumentation](../configuration/rule-sets.md).
 
 <!--**Deliverability**
 

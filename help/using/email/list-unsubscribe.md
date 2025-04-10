@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 60%
+ht-degree: 93%
 
 ---
 
@@ -20,68 +20,68 @@ ht-degree: 60%
 
 <!--Do not modify - Legal Review Done -->
 
-In [!DNL Adobe Journey Optimizer] wird beim Konfigurieren einer neuen E-Mail-Kanal-Konfiguration bei der [Auswahl einer Subdomain](email-settings.md#subdomains-and-ip-pools) aus der Liste die Option **[!UICONTROL Listen-Abonnement]** aktivieren) angezeigt. Diese ist standardmäßig aktiviert.
+Beim Konfigurieren einer neuen E-Mail-Kanalkonfiguration in [!DNL Adobe Journey Optimizer] wird bei [Auswahl einer Subdomain](email-settings.md#subdomains-and-ip-pools) aus der Liste die Option **[!UICONTROL Abmelden von der Liste aktivieren]** angezeigt. Diese ist standardmäßig aktiviert.
 
 ![](assets/preset-list-unsubscribe.png)
 
-Die Abmelde-URL mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche neben den E-Mail-Absenderinformationen, über den bzw. die Empfänger Ihre Mailing-Listen sofort mit einem einzigen Klick abmelden können.
+Die URL zum Abmelden von einer Liste mit einem Klick ist ein Abmelde-Link oder eine Schaltfläche, der bzw. die neben den Absenderinformationen der E-Mail angezeigt wird und es den Empfängerinnen und Empfängern ermöglicht, sich mit einem Klick von Ihren Mailing-Listen abzumelden. 
 
-Beispielsweise zeigt die URL zum Abmelden mit einem Klick einen Link wie unten in Gmail an:
+Die URL zum Abmelden mit einem Klick zeigt beispielsweise in Gmail einen Link wie diesen an:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
 >[!IMPORTANT]
 >
->Um die URL zum Abmelden mit einem Klick in der Kopfzeile der E-Mail anzuzeigen, muss der E-Mail-Client der Empfängerinnen und Empfänger diese Funktion unterstützen.
+>Um die URL zum Abmelden mit einem Klick im Header der E-Mail anzuzeigen, muss der E-Mail-Client der Empfängerinnen und Empfänger diese Funktion unterstützen.
 
-Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann das Klicken auf den Abmelde-Link in der E-Mail-Kopfzeile die folgenden Auswirkungen haben:
+Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann sich das Klicken auf den Abmelde-Link im Header der E-Mail wie folgt auswirken:
 
 * Wenn die Funktion **E-Mail an (abmelden)** aktiviert ist, wird die Abmeldeanfrage an die Standardadresse zur Abmeldung gesendet, die auf der von Ihnen konfigurierten Subdomain basiert.
 * Wenn die Funktion **URL zum Abmelden mit einem Klick** aktiviert ist – oder wenn Sie eine Abmelde-URL in den Inhalt Ihres E-Mail-Textkörpers eingefügt haben – werden Empfängerinnen und Empfänger direkt abgemeldet, und zwar entweder auf Kanal- oder ID-Ebene (je nach Einverständniseinstellungen), wenn sie auf die URL zum Abmelden mit einem Klick (basierend auf der von Ihnen konfigurierten Subdomain) klicken.
 
 >[!NOTE]
 >
->Wie Sie die Abmeldeeinstellungen verwalten, erfahren Sie in [diesem Abschnitt](#enable-list-unsubscribe) unten.
+>In [diesem nachstehenden Abschnitt](#enable-list-unsubscribe) erfahren Sie, wie Sie die Abmeldeeinstellungen verwalten.
 
-Wenn ein Empfänger auf den Abmelde-Link klickt, wird in beiden Fällen seine Abmelde-Anfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
+Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
->Gelegentlich kann es aufgrund der nachgelagerten Datenverarbeitung länger dauern, bis Ereignisse abgemeldet werden. Warten Sie etwas, bis das System aktualisiert wurde.
+>Mitunter kann es aufgrund der nachgelagerten Datenverarbeitung länger dauern, bis sich Abmeldevorgänge auf Profilebene widerspiegeln. Haben Sie ein wenig Geduld, bis das System aktualisiert wurde.
 
 ## Option „Abmelden von der Liste aktivieren“ {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen einer Abmelde-URL zu Ihren E-Mails"
->abstract="Aktivieren Sie diese Option, um automatisch eine Abmelde-URL zur E-Mail-Kopfzeile hinzuzufügen. Sie können auch eine Abmelde-URL in einer Nachricht einrichten, indem Sie einen Ein-Klick-Ausschluss-Link in den Inhalt der E-Mail einfügen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Festlegen des Opt-outs mit einem Klick über den E-Mail-Inhalt"
+>abstract="Aktivieren Sie diese Option, um eine Abmelde-URL automatisch zum E-Mail-Header hinzuzufügen. Sie können auch eine Abmelde-URL in einer Nachricht einrichten, indem Sie einen Ein-Klick-Ausschluss-Link in den Inhalt der E-Mail einfügen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Einrichten der Funktion zum Abmelden mit einem Klick über den E-Mail-Inhalt"
 
-Wenn die Option **[!UICONTROL Abmelden von einer Liste aktivieren]** aktiviert ist und vom E-Mail-Client der Empfänger unterstützt wird, enthält die E-Mail-Kopfzeile standardmäßig sowohl ein Mailto als auch eine URL, die Empfänger verwenden können, um sich von Ihrer Mailing-Liste abzumelden.
+Wenn die Option **[!UICONTROL Abmelden von der Liste aktivieren]** aktiviert ist und vom E-Mail-Client der Empfängerinnen und Empfänger unterstützt wird, enthält der Header der E-Mail standardmäßig einen Mailto-Link und/oder eine URL, über die sich Empfängerinnen und Empfänger von Ihrer Mailing-Liste abmelden können.
 
 >[!NOTE]
 >
->Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile keine URL zum Abmelden mit einem Klick angezeigt.
+>Wenn Sie diese Option deaktivieren, wird im E-Mail-Header keine URL zum Abmelden mit einem Klick angezeigt.
 
 Die Kopfzeile „Von der Liste abmelden“ bietet zwei Funktionen, die standardmäßig aktiviert sind, sofern Sie nicht eine oder beide Funktionen deaktivieren:
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* Eine **[!UICONTROL Mailto (unsubscribe)]**-Adresse, die die Zieladresse ist, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden. In [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig **[!UICONTROL Mailto (unsubscribe)]** Adresse, die in der Kanalkonfiguration angezeigt wird, basierend auf der [ausgewählten Subdomain](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+* Eine Adresse **[!UICONTROL E-Mail an (abmelden)]**, bei der es sich um die Zieladresse handelt, an die Abmeldeanfragen zur automatischen Verarbeitung weitergeleitet werden. In [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanalkonfiguration angezeigte Adresse unter **[!UICONTROL E-Mail an (abmelden)]**, basierend auf der [ausgewählten Subdomain](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* Die **[!UICONTROL 1-Klick-Abmelde-URL]**, die standardmäßig die Kopfzeile der mit einem Klick-Opt-out-URL generierten Liste zur Abmeldung ist, basierend auf der [ausgewählten Subdomain](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+* Die **[!UICONTROL URL zum Abmelden mit einem Klick]**, die standardmäßig die URL zum Opt-out mit einem Klick des Headers zum Abmelden von der Liste ist, basierend auf der [ausgewählten Subdomain](email-settings.md#subdomains). <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 Die Einverständnisstufe kann aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** ausgewählt werden. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in [!DNL Adobe Journey Optimizer] entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
-## Leitlinien und Empfehlungen {#list-unsubscribe-guardrails}
+## Schutzmechanismen und Empfehlungen {#list-unsubscribe-guardrails}
 
-Die Funktion Abmelde-URL mit einem Klick ermöglicht es Ihren Empfängern, sich ganz einfach von Ihrer Kommunikation abzumelden. Da jedoch nicht alle E-Mail-Clients diesen Link in der E-Mail-Kopfzeile unterstützen, empfiehlt Adobe, auch einen [Ein-Klick-Opt-out-Link](email-opt-out.md#one-click-opt-out) oder einen [Abmelde-Link](email-opt-out.md#add-unsubscribe-link) in den Textkörper Ihrer E-Mail einzufügen.
+Die Funktion „URL zum Abmelden mit einem Klick“ ermöglicht es Ihren Empfängerinnen und Empfängern, sich ganz einfach von Ihrer Kommunikation abzumelden. Da jedoch nicht alle E-Mail-Clients diesen Link im E-Mail-Header unterstützen, empfiehlt Adobe, auch einen [Ein-Klick-Opt-out-Link](email-opt-out.md#one-click-opt-out) oder einen [Abmelde-Link](email-opt-out.md#add-unsubscribe-link) in den Textkörper Ihrer E-Mail einzufügen.
 
 Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum Abmelden mit einem Klick]** sind optional. 
 
-* Wenn Sie die Option **[!UICONTROL Abmelden von der Liste aktivieren]** in den [E-Mail-Konfigurationseinstellungen](email-settings.md) aktiviert haben, empfehlen wir, beide Methoden zu aktivieren – sowohl **E-Mail an (abmelden)** als auch **URL zum Abmelden mit einem Klick**. Nicht alle E-Mail-Clients unterstützen die HTTP-Methode. Mit der Funktion Mailto list-unsubscribe , mit der Sie eine Alternative auswählen können, kann Ihre Reputation als Absender besser geschützt werden und alle Ihre Empfänger können auf die Abmeldefunktion zugreifen.
+* Wenn Sie die Option **[!UICONTROL Abmelden von der Liste aktivieren]** in den [E-Mail-Konfigurationseinstellungen](email-settings.md) aktiviert haben, empfehlen wir, beide Methoden zu aktivieren – sowohl **E-Mail an (abmelden)** als auch **URL zum Abmelden mit einem Klick**. Nicht alle E-Mail-Clients unterstützen die HTTP-Methode. Indem wir Ihnen die Mailto-Funktion zum Abmelden von der Liste bereitstellen, die Sie als Alternative auswählen können, kann Ihr Ruf als Absenderin oder Absender besser geschützt werden und all Ihre Empfängerinnen und Empfänger können auf die Abmeldefunktion zugreifen. 
 
-* Wenn Sie die standardmäßig generierte Ein-Klick-Abmelde-URL nicht verwenden möchten, können Sie die Funktion deaktivieren.
+* Wenn Sie die standardmäßig generierte URL zum Abmelden mit einem Klick nicht verwenden möchten, können Sie die Funktion deaktivieren. 
 
    * In einem Szenario, in dem die Option **[!UICONTROL Abmelden von der Liste aktivieren]** aktiviert ist und die Funktion **[!UICONTROL URL zum Abmelden mit einem Klick]** deaktiviert ist und ein [Ausschluss-Link mit einem Klick](../email/email-opt-out.md#one-click-opt-out) zu einer Nachricht hinzugefügt wird, die mit dieser Konfiguration erstellt wurde, nimmt die Option „Abmelde-Link in Kopfzeile“ den Link zum Abmelden mit einem Klick auf, den Sie im Textkörper der E-Mail eingefügt haben, und verwendet ihn als den URL-Wert zum Abmelden mit einem Klick.
 
@@ -93,9 +93,9 @@ Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum A
   >
   >Weitere Informationen zur Verwaltung der Abmeldefunktionen in Ihren Nachrichten finden Sie [ (diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das Experience Platform-[Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
 
-Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse an, die durch die Abmeldefunktion für Listen ausgelöst werden. Wenn Sie Klicks zum Abmelden von einer Liste von anderen Abmeldeaktionen unterscheiden müssen, müssen Sie das benutzerdefinierte Tagging extern implementieren oder eine externe Landingpage für das Tracking nutzen.
+Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse an, die durch die Funktion „Abmelden von Liste“ ausgelöst werden. Wenn eine Unterscheidung zwischen Klicks zum Abmelden von einer Liste und anderen Abmeldeaktionen erforderlich ist, müssen Sie das benutzerdefinierte Tagging extern implementieren oder eine externe Landingpage zum Tracking nutzen.
 
 ## Externes Verwalten von Abmeldedaten {#custom-managed}
 
@@ -106,14 +106,14 @@ Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="Eingeben der eigenen URL zum Abmelden mit einem Klick"
->abstract="Die **URL zum Abmelden mit einem Klick** muss die POST-Anfragemethode verwenden."
+>title="Eingeben Ihrer eigenen URL zum Abmelden mit einem Klick"
+>abstract="Für die **URL zum Abmelden mit einem Klick** muss die POST-Anfragemethode verwendet werden."
 
 Wählen Sie im Falle einer Einverständnisverwaltung außerhalb von Adobe die Option **[!UICONTROL Kundenseitig verwaltet]** aus, um eine benutzerdefinierte Abmelde-E-Mail-Adresse und Ihre eigene URL zum Abmelden mit einem Klick einzugeben.
 
 ![](assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-Die **[!UICONTROL Ein-Klick-Abmelde-URL]** muss eine POST-URL sein.
+Bei der **[!UICONTROL URL zum Abmelden mit einem Klick]** muss es sich um eine POST-URL handeln.
 
 >[!WARNING]
 >
@@ -121,9 +121,9 @@ Die **[!UICONTROL Ein-Klick-Abmelde-URL]** muss eine POST-URL sein.
 
 ### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
 
-Wenn Sie bei ausgewählter Option **[!UICONTROL Vom Kunden verwaltet]** benutzerdefinierte Endpunkte eingeben und in einer Kampagne oder auf einer Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an (<!--sent to the custom endpoint --> Ihre Empfänger auf den Abmelde-Link klicken).
+Sollten Sie bei ausgewählter Option **[!UICONTROL Kundenseitig verwaltet]** benutzerdefinierte Endpunkte eingeben und diese in einer Kampagne oder Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Ereignis zur Einverständnisaktualisierung an, <!--sent to the custom endpoint -->wenn die Empfängerinnen und Empfänger auf den Abmelde-Link klicken.
 
-Diese Parameter werden verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem eine bestimmte API über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die von Adobe gesendeten Parameter zu entschlüsseln.
+Diese Parameter werden verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem eine bestimmte API über [Adobe Developer implementieren](https://developer.adobe.com){target="_blank"} um die von Adobe gesendeten Parameter zu entschlüsseln.
 
 Der GET-Aufruf zum Abrufen dieser Parameter hängt von der von Ihnen verwendeten Option zum Abmelden von der Liste ab: **[!UICONTROL URL zum Abmelden mit einem Klick]** oder **[!UICONTROL E-Mail an (abmelden)]**.
 
@@ -154,8 +154,8 @@ Im Folgenden finden Sie Beispielparameter und die Einverständnisantwort:
 
 | Abfrageparameter | Beispiel-Payload |
 |---------|----------|
-| PID | {<br>„pid“ : „5142733041546020095851529937068211571“,<br>„pns“ : „CRMID“,<br>„e“    : &quot;john@google.com&quot;,<br>„ens“ : „email“,<br>} |
-| Parameter | {<br>„m“ : „messageExecutionId“,<br>„ci“ : „campaignId“,<br>„jv“ : „journeyVersionId“,<br>„ja“ : „journeyActionId“,<br>„s“ : „sandboxId“,<br>„us“ : „unsubscribeScope“<br>} |
+| pid | {<br>&quot;pid&quot;  : &quot;5142733041546020095851529937068211571&quot;,<br>&quot;pns&quot;  : &quot;CRMID&quot;,<br>&quot;e&quot;    : &quot;john@google.com&quot;,<br>&quot;ens&quot;  : &quot;Email&quot;,<br>} |
+| params | {<br>&quot;m&quot;  : &quot;messageExecutionId&quot;,<br>&quot;ci&quot;  : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;s&quot;  : &quot;sandboxId&quot;,<br>&quot;us&quot; : &quot;unsubscribeScope&quot;<br>} |
 
 Einverständnisantwort:
 
@@ -198,7 +198,7 @@ Im Folgenden finden Sie Beispielparameter und die Einverständnisantwort:
 
 | Abfrageparameter | Beispiel-Payload |
 |---------|----------|
-| emailParams | {<br>„p“ : „profileId“,<br>„pn“ : „profileNamespace“,<br>„en“ : „emailNamespace“,<br>„ci“ : „campaignId“,<br>„jv“ : „journeyVersionId“,<br>„ja“ : „journeyActionId“,<br>„si“ : „sandboxId“,<br>„us“: „unsubscribeScope“<br>} |
+| emailParams | {<br>&quot;p&quot;  : &quot;profileId&quot;,<br>&quot;pn&quot;  : &quot;profileNamespace&quot;,<br>&quot;en&quot;  : &quot;emailNamespace&quot;,<br>&quot;ci&quot;  : &quot;campaignId&quot;,<br>&quot;jv&quot; : &quot;journeyVersionId&quot;,<br>&quot;ja&quot; : &quot;journeyActionId&quot;,<br>&quot;si&quot;  : &quot;sandboxId&quot;,<br>&quot;us&quot;: &quot;unsubscribeScope&quot;<br>} |
 
 Einverständnisantwort:
 

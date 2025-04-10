@@ -11,7 +11,7 @@ exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Der Graph **[!UICONTROL Landingpage-Performance im Zeitverlauf]** misst den Erfo
 
 * **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 
-* **[!UICONTROL Landingpage-Konversion]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich über ein Formular angemeldet haben, bezogen auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Landingpage-Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular ausgefüllt haben, im Verhältnis zur Gesamtzahl der Besuche.
 
 ## Landingpage-Performance {#lp-performance}
 
@@ -79,7 +79,7 @@ Die Tabelle **[!UICONTROL Landingpage-Performance]** dient als umfassendes Dashb
 
 * **[!UICONTROL Eindeutige Landingpage-Ansichten]**: Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Konversion einer eindeutigen Landingpage]**: Anzahl der Personen, die mit der Landingpage interagiert haben, wobei mehrere Interaktionen eines Profils nicht berücksichtigt werden.
+* **[!UICONTROL Eindeutige Landingpage-Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert habe, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
 * **[!UICONTROL Landingpage-Ansichten]**: Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen ausgehen, einschließlich mehrfacher Besuche eines Profils.
 

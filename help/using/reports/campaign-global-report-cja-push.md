@@ -11,7 +11,7 @@ exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Push-Benachrichtigungen im Verhältnis zur Gesamtzahl der gesendeten Push-Benachrichtigungen
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der Profile, die mindestens eine Push-Benachrichtigung erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der Profile, die mindestens eine Push-Benachrichtigung erfolgreich erhalten haben.
 
 * **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
@@ -61,7 +61,7 @@ Die Tabelle **[!UICONTROL Tracking-Statistiken]** bietet einen detaillierten Üb
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Push-Benachrichtigungen geklickt haben.
 
-* **[!UICONTROL Benutzerdefinierte Push-Aktionen]**: Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt werden.
+* **[!UICONTROL Benutzerdefinierte Push-Aktionen]**: Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt wurden.
 
 +++
 

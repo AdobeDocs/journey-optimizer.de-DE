@@ -12,7 +12,7 @@ exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
 source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -96,9 +96,9 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre In-App-Nachrichten.
 
-* **[!UICONTROL Eingehend ausgelöst]**: Gibt an, wie oft eine In-App-Nachricht durch eine Benutzerinteraktion oder ein vordefiniertes Ereignis ausgelöst wurde.
+* **[!UICONTROL Eingehend ausgelöst]**: Anzahl, wie oft eine In-App-Nachricht durch eine Benutzerinteraktion oder ein vordefiniertes Ereignis ausgelöst wurde.
 
-* **[!UICONTROL Eingehende Abweisungen]**: Gibt an, wie oft Benutzer die In-App-Nachricht abgewiesen haben, ohne damit zu interagieren.
+* **[!UICONTROL Eingehende Abweisungen]**: Anzahl, wie oft Benutzende die In-App-Nachricht verworfen haben, ohne damit zu interagieren.
 
 
 +++

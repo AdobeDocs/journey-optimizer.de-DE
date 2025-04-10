@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 91%
 
 ### Berechtigungen einrichten {#setup-permissions}
 
-Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie für Tags in Adobe Experience Platform die richtigen Benutzerberechtigungen haben oder diese zuweisen. Weitere Informationen finden Sie in der [Dokumentation zu Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de){target="_blank"}.
+Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie für Tags in Adobe Experience Platform die richtigen Benutzerberechtigungen haben oder diese zuweisen. Weitere Informationen finden Sie in [Tags-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de).
 
 >[!CAUTION]
 >
->Die Konfiguration für Push-Benachrichtigungen muss von einem erfahrenen Benutzer durchgeführt werden. Abhängig von Ihrem Implementierungsmodell und den an dieser Implementierung beteiligten Rollen müssen Sie möglicherweise den gesamten Berechtigungssatz einem einzelnen Produktprofil zuweisen oder Berechtigungen zwischen dem App-Entwickler und dem **Adobe Journey Optimizer**-Administrator aufteilen. Weitere Informationen zu Berechtigungen für **Tags** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de){target="_blank"}.
+>Die Konfiguration für Push-Benachrichtigungen muss von einem erfahrenen Benutzer durchgeführt werden. Abhängig von Ihrem Implementierungsmodell und den an dieser Implementierung beteiligten Rollen müssen Sie möglicherweise den gesamten Berechtigungssatz einem einzelnen Produktprofil zuweisen oder Berechtigungen zwischen dem App-Entwickler und dem **Adobe Journey Optimizer**-Administrator aufteilen. Weitere Informationen zu Berechtigungen **Tags** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de).
 
 <!--ou need to your have access to perform following roles :
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
 
    ![](assets/push_product_1.png)
 
-1. Wählen Sie ein vorhandenes **[!UICONTROL Produktprofil]** aus oder erstellen Sie mit der Schaltfläche **[!UICONTROL Neues Profil]** ein neues. Wie Sie ein **[!UICONTROL neues Profil]** erstellen, erfahren Sie in der [Dokumentation zur Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=de#ui){target="_blank"}.
+1. Wählen Sie ein vorhandenes **[!UICONTROL Produktprofil]** aus oder erstellen Sie mit der Schaltfläche **[!UICONTROL Neues Profil]** ein neues. Wie Sie ein **[!UICONTROL neues Profil]** erstellen, erfahren Sie in der [Dokumentation zur Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=de#ui).
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Berechtigungen]** die Option **[!UICONTROL Eigenschaftenrechte]**.
 
@@ -99,21 +99,21 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
    ![](assets/push_product_7.png)
 
 
-### Datensätze überprüfen {#push-datasets}
+### Überprüfen Ihrer Datensätze {#push-datasets}
 
-Die folgenden Schemata und Datensätze sind über den Kanal Push-Benachrichtigung verfügbar:
+Die folgenden Schemata und Datensätze sind über den Push-Benachrichtigungskanal verfügbar:
 
-| Schema <br>Datensatz | Feldergruppe | Vorgang |
+| Schema <br>Datensatz | Liste der Felder | Vorgang |
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM-Push-Profil-Schema <br>CJM-Push-Profil-Datensatz | Details zu Push-Benachrichtigungen<br>Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil<br>Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung<br>Anwendungsdetails<br>Umgebungsdetails | Push-Token registrieren |
-| CJM-Push-Tracking-Erlebnisereignis-Schema <br> CJM-Push-Tracking-Erlebnisereignis-Datensatz | Push-Benachrichtigungs-Tracking | Interaktionen verfolgen und Daten für die Reporting-Benutzeroberfläche bereitstellen |
+| CJM-Push-Profilschema <br>CJM-Push-Profildatensatz | Details zu Push-Benachrichtigungen<br>Adobe CJM ExperienceEvent – Details zum Nachrichtenprofil<br>Adobe CJM ExperienceEvent – Details zur Nachrichtenausführung<br>Anwendungsdetails<br>Umgebungsdetails | Push-Token registrieren |
+| CJM-Push-Tracking-Erlebnisereignis-Schema<br>CJM-Push-Tracking-Erlebnisereignis-Datensatz | Tracking von Push-Benachrichtigungen | Interaktionen verfolgen und Daten für die Reporting-Benutzeroberfläche bereitstellen |
 
 
 >[!NOTE]
 >
->Wenn Push-Tracking-Ereignisse in den CJM-Push-Tracking-Erlebnisereignis-Datensatz aufgenommen werden, können einige Fehler auftreten, obwohl Daten teilweise erfolgreich aufgenommen werden. Dies kann vorkommen, wenn einige Felder in Ihrer Zuordnung nicht in eingehenden Ereignissen vorhanden sind: Das System protokolliert Warnungen, verhindert jedoch nicht die Aufnahme gültiger Teile der Daten. Diese Warnungen werden im Batch-Status als „Fehlgeschlagen“ angezeigt, spiegeln jedoch den teilweisen Erfolg der Aufnahme wider.
+>Wenn Push-Tracking-Ereignisse in den CJM-Push-Tracking-Erlebnisereignis-Datensatz aufgenommen werden, können Fehler auftreten, obwohl Daten teilweise erfolgreich aufgenommen werden. Hierzu kann es kommen, wenn einige Felder in Ihrer Zuordnung nicht in eingehenden Ereignissen vorhanden sind: Das System protokolliert Warnungen, verhindert jedoch nicht die Aufnahme gültiger Teile der Daten. Diese Warnungen werden im Batch-Status als „Fehlgeschlagen“ angezeigt, spiegeln jedoch den teilweisen Erfolg der Aufnahme wider.
 >
->Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+>Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im Schemawörterbuch zu [Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de).
 
 
 
@@ -123,14 +123,14 @@ Die technische Einrichtung erfordert eine enge Zusammenarbeit zwischen dem App-E
 
 Folgen Sie den Implementierungsschritten, die in den folgenden Links beschrieben werden:
 
-* Für **Apple iOS**: Erfahren Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}, wie Sie Ihre App mit APNs registrieren
-* Für **Google Android**: In der [Google-Dokumentation](https://firebase.google.com/docs/cloud-messaging/android/client)erfahren Sie, wie Sie eine Firebase Cloud Messaging-Client-App unter Android einrichten{target="_blank"}
+* Für **Apple iOS**: In der [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns) erfahren Sie, wie Sie Ihre App beim APNs registrieren.
+* Für **Google Android**: In der [Google-Dokumentation](https://firebase.google.com/docs/cloud-messaging/android/client)erfahren Sie, wie Sie eine Firebase Cloud Messaging-Client-App unter Android einrichten.
 
 ### Integrieren Ihrer Mobile App mit dem Adobe Experience Platform SDK {#integrate-mobile-app}
 
-Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Folgen Sie der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}, um die Einrichtung in Ihrer App mit Adobe Experience Platform Mobile SDKs durchzuführen.
+Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Folgen Sie der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/), um die Einrichtung in Ihrer App mit Adobe Experience Platform Mobile SDKs durchzuführen.
 
-Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
+Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der Dokumentation zu [Adobe Experience Platform Mobile SDK erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
@@ -171,7 +171,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
       1. Aktivieren sie die Schaltfläche **[!UICONTROL Push-Anmeldedaten manuell eingeben]**, um Ihre Anmeldedaten hinzuzufügen.
 
-      1. Legen Sie die FCM-Push-Anmeldedaten per Drag-and-Drop ab. Weitere Informationen zum Abrufen der Push-Anmeldedaten finden Sie in der [Google-Dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+      1. Legen Sie die FCM-Push-Anmeldedaten per Drag-and-Drop ab. Weitere Informationen zum Abrufen der Push-Anmeldedaten finden Sie in der [Google-Dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre App-Konfiguration zu erstellen.
@@ -229,7 +229,7 @@ Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigunge
 
 Die **Adobe Journey Optimizer-Erweiterung** für Adobe Experience Platform Mobile SDKs unterstützt Push-Benachrichtigungen für Ihre Mobile Apps und hilft Ihnen bei der Erfassung von Benutzer-Push-Token und der Verwaltung der Interaktionsmessung mit Adobe Experience Platform-Services.
 
-Wie Sie die Journey Optimizer-Erweiterung einrichten, erfahren Sie in der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Wie Sie die Journey Optimizer-Erweiterung einrichten, erfahren Sie in der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/).
 
 
 <!-- 
@@ -304,7 +304,7 @@ Nachdem Sie Ihre Mobile App sowohl in Adobe Experience Platform als auch in [!DN
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [Dokumentation zu XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#schemas-and-data-ingestion){target="_blank"}.
+Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [Dokumentation zu XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#schemas-and-data-ingestion).
 
 1. Klicken Sie im Menüabschnitt „DATEN-MANAGEMENT“ auf **[!UICONTROL Schemata]**.
    ![](assets/test_push_1.png)
@@ -314,7 +314,7 @@ Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere 
    ![](assets/test_push_3.png)
 1. Klicken Sie im Abschnitt **Feldergruppen** links auf **Hinzufügen** und dann auf **[!UICONTROL Neue Feldergruppe erstellen]**.
 
-1. Geben Sie einen **[!UICONTROL Anzeigenamen]** und eine **[!UICONTROL Beschreibung]** ein. Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**. Weitere Informationen zum Erstellen von Feldergruppen finden Sie in der [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}.
+1. Geben Sie einen **[!UICONTROL Anzeigenamen]** und eine **[!UICONTROL Beschreibung]** ein. Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**. Weitere Informationen zum Erstellen von Feldergruppen finden Sie in der [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de).
 
 
    ![](assets/test_push_4.png)

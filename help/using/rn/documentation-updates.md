@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Der Abschnitt zum Einfügen von Links und Aktivieren des Trackings in einer E-Mail-Nachricht wurde aktualisiert und neu organisiert. [Weitere Informationen](../email/message-tracking.md)
 * Der Abschnitt über Personalisierungsfunktionen in Adobe Journey Optimizer wurde neu organisiert und verbessert. [Weitere Informationen](../personalization/personalize.md)
 * Das Entscheidungs-Management-API zur Auflistung personalisierter Angebote wurde um ein Paginierungsbeispiel ergänzt, falls mehrere personalisierte Angebote in der Antwort fehlen. [Weitere Informationen](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* Zur besseren Übersichtlichkeit wurde eine neue Seite erstellt, die alle Informationen zur Abmeldefunktion für Listen enthält. [Weitere Informationen](../email/list-unsubscribe.md)
-* Der Abschnitt zur Frequenzlimitierung wurde mit Informationen darüber aktualisiert, wie der Frequenzlimitierungszähler für die Decisioning- und Batch Decisioning-APIs zusätzlich zur Edge Decisioning-API aktualisiert wird. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
+* Zur besseren Übersichtlichkeit wurde eine neue Seite erstellt, die alle Informationen zur Funktion „Abbestellung der Liste“ enthält. [Weitere Informationen](../email/list-unsubscribe.md)
+* Der Abschnitt „Frequenzbegrenzung“ wurde aktualisiert und beschreibt nun, wie der Frequenzbegrenzungszähler für die Decisioning- und Batch Decisioning-APIs zusätzlich zum Edge Decisioning-API aktualisiert wird. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Februar 2025 {#feb-2025}
 

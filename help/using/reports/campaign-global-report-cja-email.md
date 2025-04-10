@@ -11,7 +11,7 @@ exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -79,7 +79,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
 
 * **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -113,7 +113,7 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
 
-* **[!UICONTROL Eindeutige E-Mail-Abmeldungen]**: Anzahl der Profile, die sich von Ihren E-Mails abgemeldet haben.
+* **[!UICONTROL Eindeutige E-Mail-Abonnementkündigungen]**: Anzahl der Profile, die sich vom Erhalt Ihrer E-Mails abgemeldet haben.
 +++
 
 ## E-Mail-Domains {#email-domains}
@@ -174,7 +174,7 @@ Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick 
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der unterschiedlichen Profile, die mindestens eine E-Mail erfolgreich erhalten haben, wobei sichergestellt wird, dass Duplikate nicht gezählt werden.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der unterschiedlichen Profile, die mindestens eine E-Mail erfolgreich erhalten haben. Duplikate zählen dabei nicht.
 +++
 
 ## Gründe für Ausschluss {#excluded-reasons}

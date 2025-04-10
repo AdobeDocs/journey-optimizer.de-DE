@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste von Komponenten
-description: Erfahren Sie, wie Sie Daten aus Ihrem Bericht verwenden
+description: Erfahren Sie, wie Sie Daten aus Ihrem Bericht verwenden.
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1829'
-ht-degree: 38%
+ht-degree: 99%
 
 ---
 
@@ -31,31 +31,31 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody> 
 <tr> 
 <td>Journey-Interaktion</td> 
-<td>Gesamtzahl der eindeutigen Einzelpersonen, die über die Journey gesendete Nachrichten erhalten haben, d. h. verschiedene Profile, die einen bestimmten Aktionspunkt in der Journey erreicht haben.</td> 
+<td>Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.</td> 
 </tr> 
 <tr> 
-<td>Journey-Einträge</td> 
-<td>Gesamtzahl der Einzelanwendenden, die das Eintrittsereignis der Journey erreicht haben.</td> 
+<td>Journey-Eintritte</td> 
+<td>Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.</td> 
 </tr>
 <tr> 
-<td>Journey-Ausstiege</td> 
-<td>Gesamtzahl der Einzelanwendenden, die die Journey verlassen haben.</td> 
+<td>Journey-Austritte</td> 
+<td>Gesamtzahl der Kontakte, die die Journey verlassen haben.</td> 
 </tr>
 <tr> 
 <td>Journey-Fehler</td> 
 <td>Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.</td> 
 </tr>
 <tr> 
-<td>Eindeutige Journey-Einträge</td> 
-<td>Gesamtzahl der Einzelpersonen, die das Eintrittsereignis der Journey erreicht haben, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+<td>Eindeutige Journey-Eintritte</td> 
+<td>Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben, wobei mehrfache Interaktionen desselben Profils nicht gezählt werden.</td> 
 </tr>
 <tr> 
 <td>Eindeutige Journey-Austritte</td> 
-<td>Gesamtzahl der Einzelpersonen, die die Journey verlassen haben, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+<td>Gesamtzahl der Kontakte, die die Journey verlassen haben, wobei mehrfache Interaktionen desselben Profils nicht gezählt werden.</td> 
 </tr>
 <tr> 
 <td>Eindeutige Journey-Fehler</td> 
-<td>Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden, wobei mehrere Interaktionen desselben Profils nicht berücksichtigt wurden.</td> 
+<td>Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden, wobei mehrfache Interaktionen desselben Profils nicht gezählt werden.</td> 
 </tr>
  </tbody> 
 </table>
@@ -75,12 +75,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Summe der kumulierten Fehler während des Sendevorgang und der automatischen Rücksendeverarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clickthrough-Öffnungsrate (CTOR)<br/> </td> 
-   <td> Anzahl der Öffnungen der E-Mail.<br/> </td> 
+   <td> Klick-Öffnungsrate (CTOR)<br/> </td> 
+   <td> Die Anzahl, wie oft die E-Mail geöffnet wurde.<br/> </td> 
   </tr>
   <tr> 
-   <td> Clickthrough-Rate (CTR)<br/> </td> 
-   <td> Prozentsatz der Benutzer, die mit der E-Mail interagiert haben.<br/> </td> 
+   <td> Klickrate (CTR)<br/> </td> 
+   <td> Prozentsatz der Benutzenden, die mit der E-Mail interagiert haben.<br/> </td> 
   </tr>
   <tr> 
    <td> Klicks<br/> </td> 
@@ -140,15 +140,15 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
+   <td> Die Anzahl der Profile, die auf Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
   </tr>
   <tr> 
-   <td> Einzelne E-Mail-Abmeldungen<br/> </td> 
-   <td> Anzahl der Profile, die sich von Ihren E-Mails abgemeldet haben.<br/> </td> 
+   <td> Eindeutige E-Mail-Abo-Stornierungen<br/> </td> 
+   <td> Anzahl der Profile, die sich vom Erhalt Ihrer E-Mails abgemeldet haben.<br/> </td> 
   </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
-   <td> Anzahl der Profile, die den Versand geöffnet haben <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
+   <td> Anzahl der Profile, die den Versand geöffnet haben. <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
   </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 
@@ -169,7 +169,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <tbody> 
     <tr> 
       <td>Zugestellt</td> 
-      <td>Zahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.</td> 
+      <td>Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.</td> 
     </tr>
     <tr> 
       <td>Klicks</td> 
@@ -177,31 +177,31 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
     </tr>
     <tr> 
       <td>Bounces bei ausgehenden SMS-Nachrichten</td> 
-      <td>Gesamtzahl der kumulierten Fehler während des Sendevorgangs und der automatischen Rücksendung im Verhältnis zur Gesamtzahl der gesendeten SMS-Nachrichten.</td> 
+      <td>Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten SMS-Nachrichten.</td> 
     </tr>
     <tr> 
-      <td>Fehler bei ausgehenden SMS</td> 
-      <td>Gesamtzahl der aufgetretenen Fehler, die das Senden der SMS-Nachricht an Empfänger verhindert haben.</td> 
+      <td>Ausgehende SMS-Fehler</td> 
+      <td>Gesamtzahl der aufgetretenen Fehler, die den Versand der SMS-Nachricht an Empfängerinnen und Empfänger verhindert haben.</td> 
     </tr>
     <tr> 
-      <td>Ausgeschlossene SMS</td> 
+      <td>Ausgehende SMS-Ausschlüsse</td> 
       <td>Anzahl der Profile, die vom Empfang von SMS-Nachrichten durch Adobe Journey Optimizer ausgeschlossen wurden.</td> 
     </tr>
     <tr> 
       <td>Einzelklicks</td> 
-      <td>Die Anzahl der eindeutigen Empfängerinnen und Empfänger, die auf einen Link in einer SMS-Nachricht geklickt haben.</td> 
+      <td>Die Anzahl der eindeutigen Empfängerinnen und Empfänger, die auf Inhalt in einer E-Mail geklickt haben.</td> 
     </tr>
     <tr> 
       <td>Anzeigen</td> 
-      <td>Anzahl der Anzeigen oder Öffnungen einer SMS-Nachricht.</td> 
+      <td>Anzahl, wie oft eine SMS-Nachricht angezeigt oder geöffnet wurde.</td> 
     </tr>
     <tr> 
       <td>Eindeutige Anzeigen</td> 
-      <td>Anzahl der eindeutigen Empfänger, die die SMS-Nachricht geöffnet haben, mit Ausnahme mehrerer Interaktionen desselben Benutzers.</td> 
+      <td>Anzahl der eindeutigen Empfängerinnen und Empfänger, die die SMS-Nachricht geöffnet haben, wobei mehrfache Interaktionen derselben Person nicht gezählt werden.</td> 
     </tr>
     <tr> 
-      <td>People</td> 
-      <td>Anzahl der eindeutigen Benutzerprofile, die eine SMS-Nachricht erhalten oder mit ihr interagiert haben.</td> 
+      <td>Personen</td> 
+      <td>Anzahl eindeutiger Benutzerprofile, die eine SMS-Nachricht erhalten oder mit ihr interagiert haben.</td> 
     </tr>
   </tbody> 
 </table>
@@ -322,28 +322,28 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td>Anzahl der eindeutigen Benutzenden, an die die In-App-Nachricht gesendet wurde.<br/> </td>
   </tr>
   <tr> 
-   <td>Displays<br/> </td>
-   <td>Anzahl der Öffnungen der In-App-Nachricht.<br/> </td>
+   <td>Anzeigen<br/> </td>
+   <td>Anzahl, wie oft die In-App-Nachricht geöffnet wurde.<br/> </td>
   </tr>
   <tr> 
-   <td>Eindeutige Anzeigen<br/> </td>
-   <td>Anzahl der Öffnungen der In-App-Nachricht, wobei mehrere Interaktionen aus demselben Profil ausgeschlossen sind.<br/> </td>
+   <td>Einzelanzeigen<br/> </td>
+   <td>Anzahl, wie oft die In-App-Nachricht geöffnet wurde, wobei mehrfache Interaktionen desselben Profils nicht gezählt werden.<br/> </td>
   </tr>
   <tr> 
    <td>Einzelklicks<br/> </td>
-   <td>Anzahl der Profile, die auf Inhalt in Ihren In-App-Nachrichten geklickt haben.<br/> </td>
+   <td>Die Anzahl der Profile, die auf Inhalt in Ihren In-App-Nachrichten geklickt haben.<br/> </td>
   </tr>
   <tr> 
    <td>Klicks<br/> </td>
-   <td>Anzahl der Klicks auf Inhalt in den In-App-Nachrichten.<br/> </td>
+   <td>Anzahl der Klicks auf Inhalt in Ihren In-App-Nachrichten.<br/> </td>
   </tr>
   <tr> 
-   <td>Clickthrough-Rate (CTR)<br/> </td>
-   <td>Prozentualer Anteil der Benutzenden, die mit den In-App-Nachrichten interagiert haben.<br/> </td>
+   <td>Klickrate (CTR)<br/> </td>
+   <td>Prozentsatz der Benutzenden, die mit den In-App-Nachrichten interagiert haben.<br/> </td>
   </tr>
   <tr> 
-   <td>Clickthrough-Öffnungsrate (CTOR)<br/> </td>
-   <td>Anzahl der Öffnungen der In-App-Nachricht.<br/> </td>
+   <td>Klick-Öffnungsrate (CTOR)<br/> </td>
+   <td>Anzahl, wie oft die In-App-Nachricht geöffnet wurde.<br/> </td>
   </tr>
   <tr> 
    <td>Sendungen<br/> </td>
@@ -351,11 +351,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td>Eingehend ausgelöst<br/> </td>
-   <td>Anzahl der Fälle, in denen eine In-App-Nachricht durch eine Benutzerinteraktion oder ein vordefiniertes Ereignis ausgelöst wurde.<br/> </td>
+   <td>Anzahl, wie oft eine In-App-Nachricht durch eine Benutzerinteraktion oder ein vordefiniertes Ereignis ausgelöst wurde.<br/> </td>
   </tr>
   <tr> 
    <td>Eingehende Abweisungen<br/> </td>
-   <td>Anzahl der Fälle, in denen Benutzende die In-App-Nachricht verworfen haben, ohne damit zu interagieren.<br/> </td>
+   <td>Anzahl, wie oft Benutzende die In-App-Nachricht verworfen haben, ohne damit zu interagieren.<br/> </td>
   </tr>
  </tbody> 
 </table>
@@ -423,8 +423,8 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
 </tr>
   <tr> 
-   <td> Benutzerdefinierte Aktionen pushen<br/> </td> 
-   <td>Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt werden.<br/> </td> 
+   <td> Benutzerdefinierte Push-Aktionen<br/> </td> 
+   <td>Anzahl der benutzerdefinierten Aktionen, die von Profilen als Reaktion auf die Push-Benachrichtigungen ausgeführt wurden.<br/> </td> 
 </tr>
   <tr> 
    <td> Gesendet<br/> </td> 
@@ -449,7 +449,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
  <tr> 
    <td>Bounce-Rate<br/> </td> 
-   <td>Prozentualer Anteil der Personen, die sich die Landingpage angesehen, aber nicht interagiert oder sich nicht angemeldet haben, bezogen auf die Gesamtzahl der Besuche.<br/> </td> 
+   <td>Prozentualer Anteil der Personen, die die Landingpage angezeigt, aber nicht interagiert oder abonniert haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
 </tr>
  <tr> 
    <td>Klicks<br/> </td> 
@@ -457,24 +457,24 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
 
 <tr> 
-   <td>Konversion der Landingpage<br/> </td> 
+   <td>Landingpage-Konversionen<br/> </td> 
    <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
 <tr> 
-   <td>Konversionsrate der Landingpage<br/> </td> 
-   <td>Prozentsatz der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular abonniert haben, bezogen auf die Gesamtzahl der Besuche.<br/> </td> 
+   <td>Landingpage-Konversionsrate<br/> </td> 
+   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
 </tr>
  <tr> 
    <td>Landingpage-Ansichten<br/> </td> 
-   <td>Gesamtzahl der Besuche auf einer Landingpage von Journey und externen Quellen, einschließlich mehrerer Besuche desselben Profils.<br/> </td> 
+   <td>Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen stammen, einschließlich mehrfacher Besuche desselben Profils.<br/> </td> 
 </tr>
 <tr> 
    <td>Eindeutige Landingpage-Konversionen<br/> </td> 
-   <td>Anzahl der eindeutigen Personen, die mit der Landingpage interagiert haben, wobei mehrere Interaktionen aus demselben Profil ausgeschlossen sind.<br/> </td> 
+   <td>Anzahl eindeutiger Personen, die mit der Landingpage interagiert haben, wobei mehrfache Interaktionen desselben Profils nicht gezählt werden.<br/> </td> 
 </tr>
  <tr> 
-   <td>Eindeutige Landingpage-Ansichten<br/> </td> 
-   <td>Anzahl der eindeutigen Personen, die Ihre Landingpage besucht haben, mit Ausnahme mehrerer Besuche desselben Profils.<br/> </td> 
+   <td>Eindeutige Landingpage-Aufrufe<br/> </td> 
+   <td>Anzahl eindeutiger Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche desselben Profils nicht gezählt werden.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -491,33 +491,33 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
 <tr> 
    <td>Zugestellt<br/> </td> 
-   <td>Anzahl der Briefpostnachrichten, die erfolgreich an Empfänger gesendet wurden.<br/> </td> 
+   <td>Anzahl der Direkt-Mail-Nachrichten, die Empfängerinnen und Empfängern erfolgreich zugestellt wurden.<br/> </td> 
 </tr>
 <tr> 
    <td>Ausgehende Fehler<br/> </td> 
-   <td>Anzahl der Briefpostnachrichten, bei denen während der Verarbeitung oder des Versands Fehler aufgetreten sind und die einen erfolgreichen Versand verhindert haben.<br/> </td> 
+   <td>Anzahl der Diretk-Mail-Nachrichten, bei denen während der Verarbeitung oder des Versands Fehler aufgetreten sind, was einen erfolgreichen Versand verhindert hat.<br/> </td> 
 </tr>
 <tr> 
    <td>Ausgehende Ausschlüsse<br/> </td> 
-   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Empfang von Briefpost ausgeschlossen sind.<br/> </td> 
+   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Direkt-Mail-Empfang ausgeschlossen wurden.<br/> </td> 
 </tr>
 <tr> 
    <td>Profile<br/> </td> 
-   <td>Anzahl der Benutzerprofile, die als Zielgruppe für die Briefpostkampagne identifiziert wurden.<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die als Zielgruppe für die Direkt-Mail-Kampagne identifiziert wurden.<br/> </td> 
 </tr>
 <tr> 
    <td>Gesendet<br/> </td> 
-   <td>Gesamtzahl der Briefpostnachrichten, die im Rahmen der Kampagne erfolgreich gesendet wurden.<br/> </td> 
+   <td>Gesamtzahl der Direkt-Mail-Nachrichten, die im Rahmen der Kampagne erfolgreich gesendet wurden.<br/> </td> 
 </tr>
 <tr> 
    <td>Zielgruppe<br/> </td> 
-   <td>Gesamtzahl der für den Versand vorbereiteten und verarbeiteten Briefpostnachrichten.<br/> </td> 
+   <td>Gesamtzahl der für den Versand vorbereiteten und verarbeiteten Direkt-Mail-Nachrichten.<br/> </td> 
 </tr>
  </tbody> 
 </table>
 
 
-## Metriken der Inhaltskarte {#content-based}
+## Inhaltskarten-Metriken {#content-based}
 
 <table> 
  <thead> 
@@ -528,28 +528,28 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </thead> 
  <tbody>
 <tr> 
-   <td>Clickthrough-Rate (CTR)<br/> </td> 
+   <td>Klickrate (CTR)<br/> </td> 
    <td>Prozentsatz der Benutzenden, die mit der Inhaltskarte interagiert haben.<br/> </td> 
 </tr>
 <tr> 
    <td>Klicks<br/> </td> 
-   <td>Anzahl der Klicks auf einen Inhalt auf Ihrer Inhaltskarte.<br/> </td> 
+   <td>Anzahl der Klicks auf Inhalt auf Ihrer Inhaltskarte.<br/> </td> 
 </tr>
 <tr> 
-   <td>Displays<br/> </td> 
+   <td>Anzeigen<br/> </td> 
    <td>Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
 </tr>
 <tr> 
    <td>Personen<br/> </td> 
-   <td>Anzahl der Benutzerprofile, die sich als Zielprofile für Ihre Inhaltskarten eignen.<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Inhaltskarten eignen.<br/> </td> 
 </tr>
 <tr> 
    <td>Einzelklicks<br/> </td> 
-   <td>Anzahl der Profile, die auf einen Inhalt in Ihrer Inhaltskarte geklickt haben.<br/> </td> 
+   <td>Die Anzahl der Profile, die auf Inhalt auf Ihrer Inhaltskarte geklickt haben.<br/> </td> 
 </tr>
 <tr> 
-   <td>Eindeutige Anzeigen<br/> </td> 
-   <td>Anzahl der Öffnungen der Nachricht. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
+   <td>Einzelanzeigen<br/> </td> 
+   <td>Anzahl, wie oft die Nachricht geöffnet wurde, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -566,27 +566,27 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
 <tr> 
    <td>Klicks<br/> </td> 
-   <td>Anzahl der Klicks auf einen Inhalt Ihrer Web-Seiten.<br/> </td> 
+   <td>Anzahl der Klicks auf Inhalt auf Ihren Web-Seiten.<br/> </td> 
 </tr>
 <tr> 
-   <td>Clickthrough-Rate (CTR)<br/> </td> 
-   <td>Prozentsatz der Benutzer, die mit den Web-Seiten interagiert haben.<br/> </td> 
+   <td>Klickrate (CTR)<br/> </td> 
+   <td>Prozentsatz der Benutzenden, die mit den Web-Seiten interagiert haben.<br/> </td> 
 </tr>
 <tr> 
-   <td>Displays<br/> </td> 
-   <td>Anzahl der Öffnungen der Web-Seite.<br/> </td> 
+   <td>Anzeigen<br/> </td> 
+   <td>Anzahl, wie oft die Web-Seite geöffnet wurde.<br/> </td> 
 </tr>
 <tr> 
    <td>Personen<br/> </td> 
-   <td>Anzahl der Profile, die sich als Zielprofile für Ihre Web-Seiten qualifizieren.<br/> </td> 
+   <td>Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Web-Seiten eignen.<br/> </td> 
 </tr>
 <tr> 
    <td>Einzelklicks<br/> </td> 
-   <td>Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.<br/> </td> 
+   <td>Anzahl der Profile, die auf Inhalt auf Ihren Web-Seiten geklickt haben.<br/> </td> 
 </tr>
 <tr> 
-   <td>Eindeutige Anzeigen<br/> </td> 
-   <td>Anzahl der Öffnungen der Web-Seite. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
+   <td>Einzelanzeigen<br/> </td> 
+   <td>Anzahl, wie oft die Web-Seite geöffnet wurde, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -603,55 +603,55 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
 <tr> 
    <td>Klicks<br/> </td> 
-   <td>Gesamtzahl der Klicks von Benutzern auf personalisierte Erlebnisse, die ihnen angezeigt wurden.<br/> </td> 
+   <td>Anzahl, wie oft Benutzende auf personalisierte Erlebnisse geklickt haben, die ihnen angezeigt wurden.<br/> </td> 
 </tr>
 <tr> 
-   <td>Clickthrough-Rate (CTR)<br/> </td> 
-   <td>Prozentualer Anteil der Benutzenden, die auf einen Link, eine Anzeige oder eine Empfehlung klicken, im Vergleich zur Anzahl der angezeigten Klicks.<br/> </td> 
+   <td>Klickrate (CTR)<br/> </td> 
+   <td>Prozentualer Anteil der Benutzenden, die auf einen Link, eine Anzeige oder eine Empfehlung klicken, verglichen mit der Häufigkeit, mit der Links, Anzeigen oder Empfehlungen angezeigt wurden.<br/> </td> 
 </tr>
 <tr> 
    <td>Konversionsrate<br/> </td> 
-   <td>Prozentualer Anteil der Anzeigen, die zu Benutzeraktionen geführt haben (z. B. Klicks), was den Erfolg des Modells bei der Interaktion mit Benutzern anzeigt.<br/> </td> 
+   <td>Prozentsatz der Anzeigen, die zu Benutzeraktionen (z. B. Klicks) geführt haben. Gibt an, wie erfolgreich das Modell Benutzende angesprochen hat.<br/> </td> 
 </tr>
 <tr> 
-   <td>Leistung der Entscheidungselemente<br/> </td> 
-   <td>Wertet aus, wie gut jedes Element bei der Interaktion mit Benutzenden und der Förderung gewünschter Aktionen wie Käufe, Klicks oder anderer Antworten abschneidet.<br/> </td> 
+   <td>Leistung des Entscheidungselements<br/> </td> 
+   <td>Wertet aus, wie gut die einzelnen Elemente Benutzende ansprechen und die gewünschten Aktionen fördern, z. B. Käufe, Klicks oder andere Reaktionen.<br/> </td> 
 </tr>
 <tr> 
-   <td>Decisioning-KPIs<br/> </td> 
-   <td>Wichtige Einblicke in die Interaktion der Besucher mit Erlebnissen, einschließlich Gesamtelementen, Gesamtklicks, Gesamtanzeigen und Fallback-Rate.<br/> </td> 
+   <td>Entscheidungsfindungs-KPIs<br/> </td> 
+   <td>Wichtige Erkenntnisse zur Interaktion der Besuchenden mit Erlebnissen, einschließlich Gesamtelementen, Gesamtklicks, Gesamtanzeigen und Fallback-Rate.<br/> </td> 
 </tr>
 <tr> 
-   <td>Displays<br/> </td> 
-   <td>Gesamtzahl der Fälle, in denen personalisierte Erlebnisse Benutzern über verschiedene Touchpoints hinweg angezeigt oder präsentiert wurden.<br/> </td> 
+   <td>Anzeigen<br/> </td> 
+   <td>Anzahl, wie oft personalisierte Erlebnisse für Benutzende über verschiedene Touchpoints angezeigt oder präsentiert wurden.<br/> </td> 
 </tr>
 <tr> 
-   <td>Verlobungstrichter<br/> </td> 
-   <td>Überwacht die Leistung personalisierter Erlebnisse, indem bewertet wird, wie effektiv jede Stufe des Trichters die Benutzerinteraktionen antreibt.<br/> </td> 
+   <td>Interaktionstrichter<br/> </td> 
+   <td>Überwacht die Leistung personalisierter Erlebnisse, indem bewertet wird, wie effektiv jede Phase des Trichters Benutzerinteraktionen fördert.<br/> </td> 
 </tr>
 <tr> 
    <td>Interaktionstrichter nach Auswahlstrategie<br/> </td> 
-   <td>Überwacht und analysiert, wie effektiv verschiedene Auswahlstrategien Benutzerinnen und Benutzer mit personalisierten Erlebnissen ansprechen.<br/> </td> 
+   <td>Überwacht und analysiert, wie effektiv verschiedene Auswahlstrategien Benutzende mit personalisierten Erlebnissen ansprechen.<br/> </td> 
 </tr>
 <tr> 
    <td>Personen<br/> </td> 
    <td>Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Code-basierten Erlebnisse eignen.<br/> </td> 
 </tr>
 <tr> 
-   <td>Rangfolgestrategie<br/> </td> 
-   <td>Einblicke in die Leistung von KI-gesteuerten Ranking-Modellen, die zwei Traffic-Typen vergleichen: Modellgesteuert und Holdout.<br/> </td> 
+   <td>Ranking-Strategie<br/> </td> 
+   <td>Erkenntnisse zur Leistung von KI-gesteuerten Ranking-Modellen, die zwei Traffic-Typen vergleichen: „Modellgesteuert“ und „Holdout“.<br/> </td> 
 </tr>
 <tr> 
-   <td>Top-Entscheidungselemente nach CTR<br/> </td> 
-   <td>Hebt die Leistung einzelner Elemente basierend auf ihrer Clickthrough-Rate (CTR) hervor, um zu bewerten, welche Elemente am effektivsten für die Interaktion mit Benutzern sind.<br/> </td> 
+   <td>Top-Entscheidungselemente nach Klickrate<br/> </td> 
+   <td>Hebt die Leistung einzelner Elemente basierend auf ihrer Klickrate hervor, um zu bewerten, mit welchen Elementen Benutzende am effektivsten angesprochen werden.<br/> </td> 
 </tr>
 <tr> 
    <td>Einzelklicks<br/> </td> 
-   <td>Anzahl der Profile, die in Ihren Code-basierten Erlebnissen auf einen Inhalt geklickt haben.<br/> </td> 
+   <td>Anzahl der Profile, die auf Inhalt in Ihren Code-basierten Erlebnissen geklickt haben.<br/> </td> 
 </tr>
 <tr> 
-   <td>Eindeutige Anzeigen<br/> </td> 
-   <td>Anzahl der Öffnungen des Erlebnisses. Mehrere Interaktionen eines Profils werden nicht berücksichtigt.<br/> </td> 
+   <td>Einzelanzeigen<br/> </td> 
+   <td>Anzahl, wie oft das Erlebnis geöffnet wurde, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.<br/> </td> 
 </tr>
  </tbody> 
 </table>
