@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 99%
 
 ---
 
@@ -120,11 +120,7 @@ Wenn Sie wissen, welche Auswertungsmethode Sie verwenden möchten, wählen Sie d
 
 Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Zielgruppe hinzugefügt, wenn sie sich dafür qualifizieren. Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
 
-## [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Flexible Zielgruppenauswertung {#flexible}
-
->[!AVAILABILITY]
->
-Die flexible Zielgruppenauswertung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+## Flexible Zielgruppenauswertung {#flexible}
 
 Mit dem Zielgruppenportal von Adobe Experience Platform können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.
 
