@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 92%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Im Abschnitt `inAudience` wurde ein Warnhinweis zu Auswirkungen und Best Practices beim Umbenennen einer Zielgruppe hinzugefügt. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
 * Es wurde eine Empfehlung zur Verwendung nativer Keywords bei der Verwendung von bidirektionalen SMS hinzugefügt. [Weitere Informationen](../sms/sms-opt-out.md)
 * Die Journey-Testseite wurde mit einem Hinweis auf die Notwendigkeit aktualisiert, einen Identity-Namespace in das verwendete Ereignis einzuschließen. [Weitere Informationen](../building-journeys/testing-the-journey.md)
-
+* Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Abschnitte E-Mail, Landingpage, SMS und Web-Subdomain wurden mit diesen Informationen und den durchzuführenden Schritten aktualisiert, bevor Sie sich an Adobe wenden. [Weitere Informationen](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## März 2025 {#mar-2025}
 

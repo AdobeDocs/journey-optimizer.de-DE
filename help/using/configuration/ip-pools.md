@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Bei der Auswahl von IPs können Sie in der Liste die mit den IPs verknüpften PT
 
 >[!NOTE]
 >
->Wenn für eine IP kein PTR-Eintrag konfiguriert ist, können Sie diese IP nicht auswählen. Wenden Sie sich an den Adobe-Support, um den PTR-Eintrag dieser IP-Adresse zu konfigurieren.
+>Wenn für eine IP kein PTR-Eintrag konfiguriert ist, können Sie diese IP nicht auswählen. Wenden Sie sich an den Adobe-Support, um den PTR-Eintrag dieser IP-Adresse zu konfigurieren.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 Nachdem ein IP-Pool erstellt wurde, werden PTR-Informationen angezeigt, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unterhalb der Dropdown-Liste für IP-Pools angezeigt werden.
 
