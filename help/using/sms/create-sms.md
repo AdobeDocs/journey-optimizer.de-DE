@@ -20,7 +20,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer Textnachricht"
->abstract="Um eine Textnachricht (SMS/MMS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Personalisierungseditor zu personalisieren."
+>abstract="Zum Erstellen einer Textnachricht (SMS/MMS) eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und die Personalisierung mit dem Personalisierungseditor beginnen."
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
