@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '2317'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -328,7 +328,7 @@ ht-degree: 98%
       + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
    + WhatsApp{#whatsapp}
       + [Erste Schritte mit WhatsApp-Nachrichten](using/whatsapp/get-started-whatsapp.md)
-      + [Konfigurieren des WhatsApp-Kanals in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Konfigurieren eines WhatsApp-Kanals in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Erstellen einer WhatsApp-Nachricht](using/whatsapp/create-whatsapp.md)
       + [Überprüfen und Senden von WhatsApp-Nachrichten](using/whatsapp/send-whatsapp.md)
 + Landingpages {#landing-pages}
