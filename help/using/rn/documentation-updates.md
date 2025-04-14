@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Es wurde eine Empfehlung zur Verwendung nativer Keywords bei der Verwendung von bidirektionalen SMS hinzugefügt. [Weitere Informationen](../sms/sms-opt-out.md)
 * Die Journey-Testseite wurde mit einem Hinweis auf die Notwendigkeit aktualisiert, einen Identity-Namespace in das verwendete Ereignis einzuschließen. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 * Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Abschnitte E-Mail, Landingpage, SMS und Web-Subdomain wurden mit diesen Informationen und den durchzuführenden Schritten aktualisiert, bevor Sie sich an Adobe wenden. [Weitere Informationen](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* Es wurde eine Klarstellung zum optionalen `maxHttpConnections`-Parameter in der Journey-Begrenzungs-API hinzugefügt, einschließlich Anleitungen zu dessen Verwendung zusammen mit Drosselungskonfigurationen für denselben Endpunkt. [Weitere Informationen](../configuration/throttling.md)
 
 ## März 2025 {#mar-2025}
 
