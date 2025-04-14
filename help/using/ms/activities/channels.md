@@ -39,7 +39,7 @@ Beginnen Sie mit der Erstellung Ihrer mehrstufigen Kampagne mit den relevanten A
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS-Aktivität"
->abstract="Die SMS-Aktivität ermöglicht den Versand von SMS innerhalb der mehrstufigen Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von SMS an eine innerhalb derselben mehrstufigen Kampagne berechnete Zielgruppe zu automatisieren. Sie können Kanalaktivitäten in der mehrstufigen Kampagnenarbeitsfläche kombinieren, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die SMS-Aktivität ermöglicht den Versand von SMS innerhalb der mehrstufigen Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von SMS an eine innerhalb derselben mehrstufigen Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
@@ -49,12 +49,12 @@ Beginnen Sie mit der Erstellung Ihrer mehrstufigen Kampagne mit den relevanten A
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push-Android-Aktivität"
->abstract="Die Push-Android-Aktivität ermöglicht den Versand von Android-Push-Benachrichtungen innerhalb der mehrstufigen Kampagne. Dies ermöglicht den Versand einmaliger und wiederkehrender Nachrichten und automatisiert so den Versand von Android-Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben mehrstufigen Kampagne. Sie können Kanalaktivitäten in der mehrstufigen Kampagnenarbeitsfläche kombinieren, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Push-Android-Aktivität ermöglicht den Versand von Android-Push-Benachrichtungen innerhalb der mehrstufigen Kampagne. Dies ermöglicht den Versand einmaliger und wiederkehrender Nachrichten und automatisiert so den Versand von Android-Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben mehrstufigen Kampagne. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Aktivität „Direkt-Mail“"
->abstract="Die Aktivität „Direkt-Mail“ erleichtert den Direkt-Mail-Versand innerhalb der mehrstufigen Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Sie können Kanalaktivitäten in der mehrstufigen Kampagnenarbeitsfläche kombinieren, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Aktivität „Direkt-Mail“ erleichtert den Direkt-Mail-Versand innerhalb der mehrstufigen Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 Gehen Sie wie folgt vor, um einen Versand im Kontext einer mehrstufigen Kampagne einzurichten:
 
