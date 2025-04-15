@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 96%
+source-wordcount: '1179'
+ht-degree: 87%
 
 ---
 
@@ -30,7 +30,7 @@ Auf einer produktionsfremden Instanz, bei der Fehler auftreten können, stellt d
 
 Wenn die Zulassungsliste aktiv, aber leer ist, wird keine E-Mail gesendet. Wenn Sie also auf ein großes Problem stoßen, können Sie diese Funktion verwenden, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis Sie das Problem behoben haben. Weitere Informationen zur Logik der [Zulassungsliste ](#logic).
 
-Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
    >[!NOTE]
    >
-   >Nachdem Sie die Zulassungsliste aktiviert haben, ist sie in Ihren Journeys und Kampagnen nach einer Latenz von 5 Minuten aktiv.
+   >Nach der Aktivierung der Zulassungsliste dauert es 10 Minuten, bis sie in Ihren Journey und Kampagnen wirksam wird. Ebenso kann es bis zu 10 Minuten dauern, bis Aktualisierungen sowohl der Zulassungslisten- als auch der Unterdrückungsliste angezeigt werden.
 
 Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
    >[!NOTE]
    >
-   >Nach der Deaktivierung der Zulassungsliste gibt es eine 5-minütige Latenzzeit, bis dies in Ihren Journeys und Kampagnen wirksam wird.
+   >Nach der Deaktivierung der Zulassungsliste dauert es 10 Minuten, bis sie in Ihren Journey und Kampagnen wirksam wird. Ebenso kann es bis zu 10 Minuten dauern, bis Aktualisierungen sowohl der Zulassungslisten- als auch der Unterdrückungsliste angezeigt werden.
 
 Die Logik der Zulassungsliste gilt nicht, wenn die Funktion deaktiviert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
@@ -140,7 +140,7 @@ Gehen Sie dazu wie folgt vor.
 
    >[!NOTE]
    >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange){target="_blank"}.
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum [ auf ](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange){target="_blank"} Seite.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -207,7 +207,7 @@ Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list) ist, werden alle 
 
 ## Ausschlussberichte {#reporting}
 
-Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
+Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service} verwenden](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 
