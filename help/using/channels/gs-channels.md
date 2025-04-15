@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] -Kommunik
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
+source-git-commit: bebc2ac362603f56b3c386ec972f274f87fa662f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '406'
 ht-degree: 5%
 
 ---
@@ -17,42 +17,19 @@ ht-degree: 5%
 
 In der dynamischen Marketing-Landschaft von heute ist es für den Aufbau dauerhafter Beziehungen und die Förderung von Interaktionen unerlässlich, Ihre Zielgruppe über verschiedene Plattformen hinweg effektiv zu erreichen. Dieser Abschnitt bietet einen umfassenden Überblick über die in [!DNL Adobe Journey Optimizer] verfügbaren Kommunikationskanäle und hilft Ihnen zu verstehen, wie Sie die einzelnen Kanäle effektiv in Ihren Marketing-Strategien nutzen können.
 
-## Eingehende und ausgehende Kanäle {#inbound-outbound}
 
-Um Ihre Kommunikationsstrategie zu optimieren, ist es wichtig, den Unterschied zwischen eingehenden und ausgehenden Kanälen zu verstehen:
+Adobe Journey Optimizer bietet eine Vielzahl von Kommunikationskanälen, um effektiv mit Ihrer Zielgruppe zu interagieren. Sie können eingehende und ausgehende Kanäle kombinieren.
 
-* Eingehende Kanäle: Diese Kanäle ermöglichen es Kunden, Interaktionen zu initiieren. Beispiele sind In-App-Messaging und Web-basierte Interaktionen, bei denen Benutzende Inhalte zu ihren eigenen Bedingungen bearbeiten können.
+## Ausgehende Kanäle {#outbound-channels}
 
-* Ausgehende Kanäle: Hierbei handelt es sich um den Versand von Nachrichten an Kunden ohne vorherige Interaktion. Beispiele sind E-Mail-Kampagnen und Push-Benachrichtigungen, über die Sie proaktiv Ihre Audience erreichen.
+Dazu gehören das Senden von Nachrichten an Kunden ohne vorherige Interaktion. Beispiele sind E-Mail-Kampagnen und Push-Benachrichtigungen, über die Sie proaktiv Ihre Audience erreichen. In [!DNL Adobe Journey Optimizer] werden folgende ausgehende Kanäle unterstützt:
 
-Durch die effektive Nutzung beider Arten von Kanälen können Kundenerlebnisse verbessert und die Interaktion gefördert werden.
+* **E-**: Versand personalisierter Nachrichten direkt an die Posteingänge Ihrer Kunden.
+* **SMS/MMS**: Senden Sie Textnachrichten, um Benutzer auf ihren Mobilgeräten zu erreichen.
+* **Push-Benachrichtigung**: Interagieren Sie mit sofortigen Benachrichtigungen auf den Geräten Ihrer Benutzer, um sofortige Maßnahmen zu ergreifen.
+* **Briefpost**: Verwenden Sie physische Post, um eine greifbare Verbindung mit Ihrer Audience herzustellen.
 
-## Verfügbare Kanäle {#channels}
-
-Adobe Journey Optimizer bietet eine Vielzahl von Kommunikationskanälen, um effektiv mit Ihrer Zielgruppe zu interagieren. Im Folgenden finden Sie eine Liste der Kanäle, die Sie nutzen können:
-
-* Ausgehende Kanäle
-
-   * **E-**: Versand personalisierter Nachrichten direkt an die Posteingänge Ihrer Kunden.
-   * **SMS/MMS**: Senden Sie Textnachrichten, um Benutzer auf ihren Mobilgeräten zu erreichen.
-   * **Push-Benachrichtigung**: Interagieren Sie mit sofortigen Benachrichtigungen auf den Geräten Ihrer Benutzer, um sofortige Maßnahmen zu ergreifen.
-   * **Briefpost**: Verwenden Sie physische Post, um eine greifbare Verbindung mit Ihrer Audience herzustellen.
-
-* Eingehende Kanäle
-
-   * **In-App**: Kommunizieren Sie mit Benutzern in Ihren Mobile Apps oder Web-Anwendungen, um deren Erlebnis zu verbessern.
-   * **Web**: Verwenden Sie Web-basiertes Messaging, um mit Benutzern zu interagieren, die Ihre Site durchsuchen.
-   * **Code-basiertes Erlebnis**: Implementieren Sie benutzerdefinierte Erlebnisse durch Programmierung für einzigartige Interaktionsmöglichkeiten.
-   * **Inhaltskarten**: Geben Sie dynamische Inhalte direkt in Ihren Programmen oder Websites frei, um Benutzende auf dem Laufenden zu halten und zu interagieren.
-
-## Nutzung von Kanälen in Journey und Kampagnen {#leverage}
-
-In Adobe Journey Optimizer können Kommunikationskanäle in zwei Hauptkontexten genutzt werden:
-
-* **Journey**: Erstellen Sie nahtlose Kundenerlebnisse über mehrere Touchpoints hinweg. Automatisieren Sie Interaktionen auf der Grundlage des Benutzerverhaltens und der Präferenzen, um sicherzustellen, dass zeitnahe und relevante Kommunikation verfügbar ist, die den Benutzer durch das Journey mit Ihrer Marke führt.
-* **Kampagnen**: Stellen Sie spezifische Marketing-Kampagnen bereit, die einen bestimmten Kanal verwenden, um zielgerichtete Ziele zu erreichen. Ob Sie ein neues Produkt bewerben oder saisonale Umsätze steigern möchten, mit Kampagnen können Sie zielgerichtete Messaging-Strategien entwickeln, die auf Ihre Audience zugeschnitten sind.
-
-Fangen wir an! Klicken Sie auf die unten stehenden Kanäle, um tiefer in die einzelnen Kanäle einzutauchen und zu erfahren, wie Sie sie effektiv in Ihrer Marketing-Strategie nutzen können.
+Wählen Sie einen Kanal aus, um tiefer in die Materie einzutauchen und zu erfahren, wie Sie diese in Ihrer Marketing-Strategie effektiv nutzen können.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email.md"><img alt="E-Mail" src="assets/do-not-localize/email.png"></a>
@@ -65,6 +42,17 @@ Fangen wir an! Klicken Sie auf die unten stehenden Kanäle, um tiefer in die ein
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Direkt-Mail</strong></a></div></td>
 </tr></table>
 
+## Eingehende Kanäle {#inbound-channels}
+
+Diese Kanäle ermöglichen es Kunden, Interaktionen zu initiieren. Beispiele sind In-App-Messaging und Web-basierte Interaktionen, bei denen Benutzende Inhalte zu ihren eigenen Bedingungen bearbeiten können. In [!DNL Adobe Journey Optimizer] werden folgende eingehende Kanäle unterstützt:
+
+* **In-App**: Kommunizieren Sie mit Benutzern in Ihren Mobile Apps oder Web-Anwendungen, um deren Erlebnis zu verbessern.
+* **Web**: Verwenden Sie Web-basiertes Messaging, um mit Benutzern zu interagieren, die Ihre Site durchsuchen.
+* **Code-basiertes Erlebnis**: Implementieren Sie benutzerdefinierte Erlebnisse durch Programmierung für einzigartige Interaktionsmöglichkeiten.
+* **Inhaltskarten**: Geben Sie dynamische Inhalte direkt in Ihren Programmen oder Websites frei, um Benutzende auf dem Laufenden zu halten und zu interagieren.
+
+Wählen Sie einen Kanal aus, um tiefer in die Materie einzutauchen und zu erfahren, wie Sie diese in Ihrer Marketing-Strategie effektiv nutzen können.
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="In-App" src="assets/do-not-localize/inapp.jpg"></a>
 <div align="center"><a href="../in-app/get-started-in-app.md"><strong>In-App</strong></a></div></td>
@@ -75,3 +63,13 @@ Fangen wir an! Klicken Sie auf die unten stehenden Kanäle, um tiefer in die ein
 <td><a href="../content-card/get-started-content-card.md"><img alt="Inhaltskarten" src="assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/get-started-content-card.md"><strong>Inhaltskarten</strong></a></div></td>
 </tr></table>
+
+
+## Nutzung von Kanälen in Journey und Kampagnen {#leverage}
+
+In Adobe Journey Optimizer können Kommunikationskanäle in zwei Hauptkontexten genutzt werden:
+
+* **Journey**: Erstellen Sie nahtlose Kundenerlebnisse über mehrere Touchpoints hinweg. Automatisieren Sie Interaktionen auf der Grundlage des Benutzerverhaltens und der Präferenzen, um sicherzustellen, dass zeitnahe und relevante Kommunikation verfügbar ist, die den Benutzer durch das Journey mit Ihrer Marke führt. [Erfahren Sie, wie Sie eine Journey erstellen und ausführen](../building-journeys/journey-gs.md).
+
+* **Kampagnen**: Stellen Sie spezifische Marketing-Kampagnen bereit, die einen bestimmten Kanal verwenden, um zielgerichtete Ziele zu erreichen. Ob Sie ein neues Produkt bewerben oder saisonale Umsätze steigern möchten, mit Kampagnen können Sie zielgerichtete Messaging-Strategien entwickeln, die auf Ihre Audience zugeschnitten sind. [Erfahren Sie, wie Sie eine Kampagne erstellen und ](../campaigns/get-started-with-campaigns.md).
+
