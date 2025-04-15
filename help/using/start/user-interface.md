@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 95%
+source-wordcount: '1423'
+ht-degree: 94%
 
 ---
 
@@ -255,3 +255,12 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >id="ajo_journey_dry_run"
 >title="Journey trocken ausführen"
 >abstract="Nachdem Sie Ihren Journey entworfen haben, führen Sie einen Probelauf aus, um zu bestätigen, dass er funktioniert, und um sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Kommunikation an ein Profil zu senden."
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Definieren einer Entscheidungsrichtlinie"
+>abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und sie für die richtige Zielgruppe bereitstellen."
