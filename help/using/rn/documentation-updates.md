@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## April 2025 {#apr-2025}
 
+* Das Kapitel Konfiguration ist jetzt in drei Kapitel unterteilt: [Kanalkonfiguration](../configuration/get-started-configuration.md), [Journey-](../configuration/about-data-sources-events-actions.md) und [Verbinden Ihrer Systeme](../configuration/ajo-apis.md).
+* Es wurde ein Warnhinweis zur Verwendung von Erlebnisereignissen beim Journey von Ausdrücken und Bedingungen hinzugefügt. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* Die Schritte zum Aufheben der Delegierung einer Subdomain sind jetzt für [E](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [Web-](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) und [Landingpages](../landing-pages/lp-subdomains.md#undelegate-subdomain).
 * Es wurde ein Hinweis zur Direkt-Mail-Konfigurationsseite zum temporären Speichern der Ausgabedatei hinzugefügt. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 * Im Abschnitt zum Journey des erweiterten Ausdruckseditors wurde ein Tipp zu den Richtlinien für Bedingungsformate hinzugefügt. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
 * Im Abschnitt `inAudience` wurde ein Warnhinweis zu Auswirkungen und Best Practices beim Umbenennen einer Zielgruppe hinzugefügt. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
