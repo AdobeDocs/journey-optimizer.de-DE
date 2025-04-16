@@ -18,16 +18,16 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Speichern einer Zielgruppe"
->abstract="Use this activity to update an existing audience or create a new audience from the population computed upstream in the orchestrated campaign. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
+>abstract="Verwenden Sie diese Aktivität, um eine vorhandene Audience zu aktualisieren oder eine neue Audience aus der Population zu erstellen, die im Vorfeld in der orchestrierten Kampagne berechnet wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"
 >title="Ausgehende Transition generieren"
 >abstract="Verwenden Sie diese Option, wenn Sie eine Transition nach der Aktivität **Zielgruppe speichern** hinzufügen möchten."
 
-Die Aktivität **Zielgruppe speichern** ist eine Aktivität zur **Zielgruppenbestimmung**. This activity allows you to update an existing audience or create a new audience from the population computed upstream in an orchestrated campaign. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
+Die Aktivität **Zielgruppe speichern** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie eine vorhandene Audience aktualisieren oder eine neue Audience aus der Population erstellen, die in einer orchestrierten Kampagne im Upstream berechnet wird. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 
-This activity is essentially used to keep population groups computed in the same orchestrated campaign, by converting them into reusable audiences. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
+Diese Aktivität wird im Wesentlichen verwendet, um Populationen in derselben orchestrierten Kampagne zu berechnen, indem sie in wiederverwendbare Audiences umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“{#save-audience-configuration}
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 ![](../assets/workflow-save-audience.png)
 
-1. Add a **Save audience** activity to your orchestrated campaign.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität „Zielgruppe speichern“ hinzu.
 
 1. Wählen Sie im Dropdown-Menü **Modus** die Aktion aus, die Sie ausführen möchten:
 
@@ -51,9 +51,9 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 1. Markieren Sie die Option **Ausgehende Transition erzeugen**, wenn Sie eine Transition nach der Aktivität **Zielgruppe speichern** hinzufügen möchten.
 
-Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie im Menü **Zielgruppen** zugreifen können. The columns available from this view correspond to the columns of the inbound transition of the orchestrated campaign&#39;s **Save audience** activity.
+Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie im Menü **Zielgruppen** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der eingehenden Transition der Aktivität **Zielgruppe speichern** der orchestrierten Kampagne.
 
 
 ## Beispiel{#save-audience-example}
 
-Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung von der Zielgruppenbestimmung aus gezeigt. A scheduler is added to run the orchestrated campaign once a month. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungen angemeldet sind. The **Save audience** activity updates the audience by deleting profiles that have unsubscribed from the service since the last orchestrated campaign execution and by adding the newly subscribed profiles.
+Im folgenden Beispiel wird eine einfache Zielgruppenaktualisierung von der Zielgruppenbestimmung aus gezeigt. Es wird ein Planer hinzugefügt, um die orchestrierte Kampagne einmal monatlich auszuführen. Eine Abfrage ruft alle Profile ab, die für die verschiedenen verfügbaren Anwendungen angemeldet sind. Die Aktivität **Zielgruppe speichern** aktualisiert die Zielgruppe, indem sie Profile löscht, die sich seit der letzten orchestrierten Kampagnenausführung vom Service abgemeldet haben, und indem sie die neu abonnierten Profile hinzufügt.
