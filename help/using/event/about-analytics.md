@@ -9,16 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
 # Arbeiten mit Adobe Analytics-Daten {#analytics-data}
 
-Alle verhaltensbezogenen Ereignisdaten, die in Adobe Analytics bereits erfasst und an Adobe Experience Platform gestreamt werden, können zum Auslösen von Journeys und zum Automatisieren von Kundenerlebnissen genutzt werden.
+Sie können alle Ereignisdaten über das Verhalten im Web nutzen, die Sie bereits über Adobe Analytics oder Web SDK erfassen und an Adobe Experience Platform streamen, um Journey-Trigger zu erstellen und Erlebnisse für Ihre Kunden zu automatisieren.
 
 Damit dies mit Adobe Analytics funktioniert, müssen Sie:
 
@@ -61,7 +61,7 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](assets/ajo-aa_4.png)
 
-Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
 
 ## Aktivieren dieser Konfiguration {#activate-analytics-data}
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 1. [Eine Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll. Verschlüsseln Sie die Datei bei Bedarf.
 
-1. [Eine Briefpost-Konfiguration](#direct-mail-configuration), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
+1. [Eine Briefpost-Konfiguration](#direct-mail-configuration) die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
 
 
 >[!CAUTION]
