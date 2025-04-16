@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 96%
+source-wordcount: '734'
+ht-degree: 90%
 
 ---
 
@@ -69,6 +69,11 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 Auf der linken Bildschirmseite werden die verfügbaren Felder und Funktionen angezeigt:
 
 * **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextbezogen und variiert entsprechend den Ereignissen, die in der Journey hinzugefügt werden. [Weitere Informationen](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience` Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder aus, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey-Eigenschaften]**: Dieser Abschnitt gruppiert die technischen Felder neu, die mit der Journey für ein bestimmtes Profil verbunden sind. [Weitere Informationen](journey-properties.md)

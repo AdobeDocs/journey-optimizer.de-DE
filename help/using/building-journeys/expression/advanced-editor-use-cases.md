@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '535'
+ht-degree: 92%
 
 ---
 
@@ -19,13 +19,18 @@ ht-degree: 0%
 
 Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
 
->[!NOTE]
+>[!CAUTION]
 >
->Ereignisse beginnen mit @, Datenquellen mit #.
+>Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience` Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
+
 
 ## Erstellen von Bedingungen anhand von Erlebnisereignissen
 
 Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
+
+>[!NOTE]
+>
+>Ereignisse beginnen mit @, Datenquellen mit #.
 
 Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
 
@@ -40,7 +45,7 @@ Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in de
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
 

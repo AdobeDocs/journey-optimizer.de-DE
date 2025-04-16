@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 94%
 
 ---
 
@@ -72,6 +72,13 @@ Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdruck
 Beispielsweise können Sie von allen App-Benutzenden diejenigen abfragen, die iOS 13 nutzen (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
 
 In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können die Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../condition-activity.md#data_source_condition).
+
+
+## Beispiele
+
+>[!CAUTION]
+>
+>Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience` Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
 
 **Beispiel 1:**
 
