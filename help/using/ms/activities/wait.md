@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Aktivität Warten in mehrstufigen Kampagnen
-description: Erfahren Sie, wie Sie die Aktivität Warten in mehrstufigen Kampagnen verwenden
+title: Verwenden der Aktivität Warten in orchestrierten Kampagnen
+description: Erfahren Sie, wie Sie die Aktivität Warten in orchestrierten Kampagnen verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 85%
@@ -25,7 +26,7 @@ Die Aktivität **Warten** ist eine Aktivität zur **Flusskontrolle**. Sie wird v
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Warten** zu konfigurieren:
 
-1. Fügen Sie **mehrstufige Kampagne** Aktivität „Warten“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität „Warten“ hinzu.
 
 1. Geben Sie die **Dauer** der Wartezeit zwischen den eingehenden und ausgehenden Transitionen an.
 

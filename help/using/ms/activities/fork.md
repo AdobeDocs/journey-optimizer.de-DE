@@ -2,10 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Verzweigung“
-description: Erfahren Sie, wie Sie die Aktivität Verzweigung in einer mehrstufigen Kampagne verwenden
+description: Erfahren Sie, wie Sie die Aktivität Verzweigung in einer koordinierten Kampagne verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 88%
@@ -33,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Verzweigung** zu kon
 
 ![](../assets/workflow-fork.png)
 
-1. Fügen Sie **mehrstufigen Kampagne** Aktivität „Verzweigung“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität Verzweigung hinzu.
 1. Klicken Sie auf **Transition hinzufügen**, um eine neue ausgehende Transition hinzuzufügen. Standardmäßig sind zwei Transitionen definiert.
 1. Fügen Sie jeder Ihrer Transitionen einen Titel hinzu.
 

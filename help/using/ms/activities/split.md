@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Aufspaltung“
-description: Erfahren Sie, wie Sie die Aufspaltungsaktivität in einer mehrstufigen Kampagne verwenden
+description: Erfahren Sie, wie Sie die Aufspaltungsaktivität in einer orchestrierten Kampagne verwenden
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segmente für die Aktivität „Aufspaltung“"
->abstract="Es können beliebig viele Teilmengen hinzugefügt werden, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Vergewissern Sie sich vor dem Start deiner mehrstufigen Kampagne, dass Sie die Teilmengen mithilfe der Pfeilschaltflächen in der für Sie passenden Reihenfolge angeordnet haben."
+>abstract="Es können beliebig viele Teilmengen hinzugefügt werden, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Bevor Sie mit der orchestrierten Kampagne beginnen, stellen Sie sicher, dass Sie die Teilmengen mithilfe der Pfeilschaltflächen in der Ihren Anforderungen entsprechenden Reihenfolge sortiert haben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -66,7 +66,7 @@ Die Aktivität **Aufspaltung** ist eine Aktivität zur **Zielgruppenbestimmung**
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
-1. Fügen Sie **mehrstufigen Kampagne** Aktivität „Aufspaltung“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität „Aufspaltung“ hinzu.
 
 1. Der Konfigurationsbereich für die Aktivität wird mit einer standardmäßigen Teilmenge geöffnet. Klicken Sie auf die Schaltfläche **Segment hinzufügen**, um so viele Teilmengen wie gewünscht zum Segmentieren der eingehenden Population hinzuzufügen.
 
@@ -76,9 +76,9 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    >
    >Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
    >
-   >Bevor Sie mit Ihrer mehrstufigen Kampagne beginnen, stellen Sie sicher, dass Sie die Teilmengen in der Reihenfolge bestellt haben, die Ihren Anforderungen entspricht. Verwenden Sie dazu die Pfeilschaltflächen, um die Position einer Teilmenge zu ändern.
+   >Stellen Sie vor Beginn einer orchestrierten Kampagne sicher, dass Sie die Teilmengen in der Ihren Anforderungen entsprechenden Reihenfolge bestellt haben. Verwenden Sie dazu die Pfeilschaltflächen, um die Position einer Teilmenge zu ändern.
 
-1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Bezeichnung jeder Teilmenge zu ändern, um sie auf der mehrstufigen Kampagnen-Arbeitsfläche leicht identifizieren zu können.
+1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, den Titel jeder Teilmenge zu ändern, um sie auf der koordinierten Kampagnen-Arbeitsfläche leicht identifizieren zu können.
 
 1. Konfigurieren Sie, wie jede Teilmenge die eingehende Population filtern soll. Gehen Sie dazu wie folgt vor:
 
@@ -88,7 +88,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 
-   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**. Wenn kein Profil mit der Teilmenge übereinstimmt, wird die mehrstufige Kampagne nicht auf die nächste Aktivität umgestellt.
+   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**. Wenn kein Profil mit der Teilmenge übereinstimmt, wird die orchestrierte Kampagne nicht auf die nächste Aktivität umgestellt.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -105,7 +105,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    * Wenn diese Option deaktiviert ist, stellt die Aufspaltung sicher, dass ein Profil nur in einer Ergebnismenge enthalten ist, auch wenn es den Kriterien anderer Teilmengen entspricht. Das Profil ist in der ersten Teilmenge enthalten, dessen Kriterien es entspricht.
    * Wenn das Kästchen aktiviert ist, können die Empfangenden in mehreren Teilmengen gefunden werden, falls sie ihren Filterkriterien entsprechen. Best Practice ist die Verwendung exklusiver Kriterien.
 
-Der Aktivität ist jetzt konfiguriert. Bei der mehrstufigen Kampagnenausführung wird die Population in der Reihenfolge in die verschiedenen Teilmengen unterteilt, in der sie der Aktivität hinzugefügt wurden.
+Der Aktivität ist jetzt konfiguriert. Bei der orchestrierten Kampagnenausführung wird die Population in der Reihenfolge, in der sie der Aktivität hinzugefügt wurden, in die verschiedenen Untergruppen segmentiert.
 
 ## Beispiel{#split-example}
 

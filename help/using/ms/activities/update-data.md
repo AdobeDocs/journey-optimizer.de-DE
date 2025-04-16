@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Aktivität Daten-Update in mehrstufigen Kampagnen
+title: Verwenden der Aktivität Daten-Update in Ihren orchestrierten Kampagnen
 description: Erfahren Sie, wie Sie die Aktivität „Daten-Update“ verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 85%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Konfigurieren der Aktivität „Daten-Update“{#update-data-configuration}
 
-Um die Aktivität **Daten aktualisieren** zu konfigurieren, fügen Sie zunächst die Aktivität zu Ihrer mehrstufigen Kampagne hinzu und definieren Sie einen Titel.
+Um die Aktivität **Daten aktualisieren** zu konfigurieren, fügen Sie zunächst die Aktivität zu Ihrer orchestrierten Kampagne hinzu und definieren Sie einen Titel.
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ Wenn Sie den Vorgang **Einfügen oder aktualisieren** ausgewählt haben, können
 
 Mit diesen beiden letzten Optionen können Sie bestimmte Aktionen ausführen:
 
-* **Ausgehende Transition erzeugen**: Erstellt eine ausgehende Transition, die am Ende der Ausführung aktiviert wird. Eine Aktualisierung signalisiert in der Regel das Ende einer mehrstufigen Targeting-Kampagne, weshalb die Option nicht standardmäßig aktiviert ist.
+* **Ausgehende Transition erzeugen**: Erstellt eine ausgehende Transition, die am Ende der Ausführung aktiviert wird. Eine Aktualisierung signalisiert in der Regel das Ende einer durch Targeting orchestrierten Kampagne, weswegen die Option nicht standardmäßig aktiviert ist.
 
-* **Ausgehende Transition für die Zurückweisungen erzeugen**: Erstellt eine ausgehende Transition mit Einträgen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. wenn es eine Dublette gibt). Die Aktualisierung markiert im Allgemeinen das Ende einer mehrstufigen Targeting-Kampagne, weshalb die Option standardmäßig nicht aktiviert ist.
+* **Ausgehende Transition für die Zurückweisungen erzeugen**: Erstellt eine ausgehende Transition mit Einträgen, die nach der Aktualisierung nicht korrekt verarbeitet wurden (z. B. wenn es eine Dublette gibt). Die Aktualisierung markiert im Allgemeinen das Ende einer orchestrierten Zielgruppenkampagne, weshalb die Option standardmäßig nicht aktiviert ist.

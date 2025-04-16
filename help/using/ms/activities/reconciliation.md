@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Abstimmung“
-description: Erfahren Sie, wie Sie die Aktivität Abstimmung in einer mehrstufigen Kampagne verwenden
+description: Erfahren Sie, wie Sie die Aktivität Abstimmung in einer orchestrierten Kampagne verwenden
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 75%
@@ -39,7 +39,7 @@ Die Aktivität **Abstimmung** ist eine **Targeting**-Aktivität, mit der Sie die
 
 ## Best Practices {#reconciliation-best-practices}
 
-Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, die in Ihrer mehrstufigen Kampagne verarbeitet werden sollen. Mit der Aktivität **Anreicherung** können Sie Daten aus mehreren Datensätzen kombinieren oder Links zu einer temporären Ressource erstellen. **Abstimmung** ermöglicht Ihnen die Aktivität nicht identifizierte Daten mit vorhandenen Ressourcen zu verknüpfen.
+Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, die in einer orchestrierten Kampagne verarbeitet werden sollen. Mit der Aktivität **Anreicherung** können Sie Daten aus mehreren Datensätzen kombinieren oder Links zu einer temporären Ressource erstellen. Dagegen ermöglicht Ihnen die Aktivität **Abstimmung** die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen.
 
 >[!NOTE]
 >Der Abstimmungsvorgang setzt voraus, dass die Daten der verknüpften Dimensionen bereits in der Datenbank vorhanden sind. Wenn Sie beispielsweise eine Datei mit Kaufdaten importieren möchten, in der verzeichnet ist, welches Produkt wann von welcher Kundin und welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch die Person bereits in der Datenbank angelegt sein.
@@ -75,7 +75,7 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
-1. Fügen Sie **mehrstufige Kampagne** Aktivität „Abstimmung“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität „Abstimmung“ hinzu.
 
 1. Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw.
 
@@ -95,9 +95,9 @@ Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition bei
 
 ## Beispiel {#reconciliation-example}
 
-Im folgenden Beispiel wird eine mehrstufige Kampagne veranschaulicht, mit der eine Zielgruppe aus Profilen direkt aus einer importierten Datei mit neuen Clients erstellt wird. Er setzt sich aus folgenden Aktivitäten zusammen:
+Im folgenden Beispiel wird eine koordinierte Kampagne veranschaulicht, mit der eine Zielgruppe aus Profilen direkt aus einer importierten Datei mit neuen Clients erstellt wird. Er setzt sich aus folgenden Aktivitäten zusammen:
 
-Die mehrstufige Kampagne ist wie folgt aufgebaut:
+Die koordinierte Kampagne sieht wie folgt aus:
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -121,4 +121,4 @@ Er besteht aus den folgenden Aktivitäten:
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* Eine Aktivität [Zielgruppe speichern](save-audience.md), um eine neue Zielgruppe auf der Grundlage dieser Aktualisierungen zu erstellen. Sie können die Aktivität **Zielgruppe speichern** auch durch die Aktivität **Ende** ersetzen, wenn keine bestimmte Zielgruppe erstellt oder aktualisiert werden muss. Empfängerprofile werden in jedem Fall aktualisiert, wenn Sie die mehrstufige Kampagne ausführen.
+* Eine Aktivität [Zielgruppe speichern](save-audience.md), um eine neue Zielgruppe auf der Grundlage dieser Aktualisierungen zu erstellen. Sie können die Aktivität **Zielgruppe speichern** auch durch die Aktivität **Ende** ersetzen, wenn keine bestimmte Zielgruppe erstellt oder aktualisiert werden muss. Empfängerprofile werden in jedem Fall aktualisiert, wenn Sie die orchestrierte Kampagne ausführen.

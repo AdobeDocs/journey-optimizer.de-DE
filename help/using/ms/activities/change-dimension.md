@@ -5,7 +5,8 @@ title: Verwenden der Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verwenden
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 67%
@@ -24,9 +25,9 @@ ht-degree: 67%
 >title="Aktivität „Dimensionsänderung“"
 >abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
 
-Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Zielgruppendimension ändern, während Sie Ihre mehrstufige Kampagne erstellen. Die Achse wird je nach Datenvorlage und der Eingabedimension verschoben.
+Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Zielgruppendimension ändern, während Sie Ihre orchestrierte Kampagne erstellen. Die Achse wird je nach Datenvorlage und der Eingabedimension verschoben.
 
-Sie können beispielsweise die Zielgruppendimension einer mehrstufigen Kampagne von „Empfänger“ in „Abonnentenanwendung“ ändern, um Push-Benachrichtigungen an die Zielgruppenempfänger zu senden.
+Sie können beispielsweise die Zielgruppendimension einer orchestrierten Kampagne von „Empfänger“ auf „Abonnentenanwendung“ umschalten, um Push-Benachrichtigungen an die Zielgruppenempfänger zu senden.
 
 >[!IMPORTANT]
 >
@@ -36,18 +37,18 @@ Sie können beispielsweise die Zielgruppendimension einer mehrstufigen Kampagne 
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konfigurieren:
 
-1. Fügen Sie **mehrstufigen Kampagne** Aktivität „Dimension ändern“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne eine** Dimensionsänderung“ hinzu.
 
    ![](../assets/workflow-change-dimension.png)
 
 1. Definieren Sie die **neue Zielgruppendimension**. Bei einer Dimensionsänderung werden alle Einträge beibehalten. Andere Optionen sind noch nicht verfügbar.
 
-1. Führen Sie die mehrstufige Kampagne aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der mehrstufigen Kampagnentabellen.
+1. Führen Sie die orchestrierte Kampagne aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der orchestrierten Kampagnentabellen.
 
 ## Beispiel {#example}
 
 In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die einen Kauf getätigt haben. Dazu verwenden wir zunächst die Aktivität **[!UICONTROL Zielgruppe erstellen]**, die mit einer benutzerdefinierten Zielgruppendimension „Kauf“ verknüpft ist, um alle erfolgten Käufe auszuwählen.
 
-Anschließend verwenden wir die Aktivität **[!UICONTROL Dimensionsänderung]**, um die mehrstufige Zielgruppendimension der Kampagne in „Empfänger“ zu ändern. Auf diese Weise können wir die Empfängerinnen und Empfänger ansprechen, die der Abfrage entsprechen.
+Anschließend verwenden wir die Aktivität **[!UICONTROL Dimensionsänderung]**, um die Zielgruppendimension der orchestrierten Kampagne in „Empfänger“ zu ändern. Auf diese Weise können wir die Empfängerinnen und Empfänger ansprechen, die der Abfrage entsprechen.
 
 ![](../assets/workflow-change-dimension-example.png)

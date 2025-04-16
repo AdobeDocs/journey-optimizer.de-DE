@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit Ereignisvariablen in mehrstufigen Kampagnen
-description: Erfahren Sie, wie Sie Ereignisvariablen in Ihren mehrstufigen Kampagnen nutzen können
+title: Arbeiten mit Ereignisvariablen in koordinierten Kampagnen
+description: Erfahren Sie, wie Sie Ereignisvariablen in Ihren orchestrierten Kampagnen nutzen
 hide: true
 hidefromtoc: true
 exl-id: f86dd262-0209-42f6-a180-736f1de98d78
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
 # Arbeiten mit Ereignisvariablen {#event-variables}
 
-Einige mehrstufige Kampagnenaktivitäten ermöglichen es Ihnen, im Ausdruckseditor Skripte zu bearbeiten, um bestimmte Aktionen durchzuführen, z. B. das Abrufen von Daten aus vorherigen Aktivitäten, die Erstellung von Bedingungen oder die Berechnung von Dateinamen basierend auf Ereignisvariablen.
+Einige orchestrierte Kampagnenaktivitäten ermöglichen es Ihnen, im Ausdruckseditor Skripte zu bearbeiten, um bestimmte Aktionen durchzuführen, z. B. das Abrufen von Daten aus vorherigen Aktivitäten, die Erstellung von Bedingungen oder die Berechnung von Dateinamen basierend auf Ereignisvariablen.
 
 ## Was sind Ereignisvariablen? {#scripting}
 
-Skripte, die im Kontext einer mehrstufigen Kampagne ausgeführt werden, greifen auf eine Reihe zusätzlicher globaler **Objekte“**, z. B. die ausgeführte mehrstufige Kampagne selbst (`ìnstance`), ihre verschiedenen Aufgaben (`task`) oder die Ereignisse, die eine bestimmte Aufgabe aktiviert haben (`event`).
+Skripte, die im Kontext einer orchestrierten Kampagne ausgeführt werden, greifen auf eine Reihe zusätzlicher globaler **Objekte**, wie die orchestrierte Kampagne selbst, die ausgeführt wird (`ìnstance`), ihre verschiedenen Aufgaben (`task`) oder die Ereignisse, die eine bestimmte Aufgabe aktiviert haben (`event`).
 
 Jedem **Objekt**-Typ ist eine Kategorie von **Variablen** zugeordnet, die im Ausdruckseditor bei der Bearbeitung von Skripten in Aktivitäten wie **[!UICONTROL JavaScript-Code]** oder **[!UICONTROL Test]** verwendet werden können.
 
 * **Instanzvariablen** (`instance.vars.xxx`) sind mit globalen Variablen vergleichbar. Sie werden von allen Aktivitäten geteilt.
 * **Task-Variablen** (`task.vars.xxx`) sind vergleichbar mit lokalen Variablen. Sie werden nur von der aktuellen Aufgabe verwendet. Diese Variablen werden von persistenten Aktivitäten verwendet, um Daten aufzubewahren, und werden manchmal genutzt, um Daten zwischen den verschiedenen Skripten derselben Aktivität auszutauschen.
-* **Ereignisvariablen** (`vars.xxx`) ermöglichen den Datenaustausch zwischen den elementaren Aufgaben eines mehrstufigen Kampagnenprozesses. Diese Variablen werden von der Aufgabe übergeben, die die in Bearbeitung befindliche Aufgabe aktiviert hat. Sie werden dann an die folgenden Aktivitäten weitergeleitet. **Ereignisvariablen** sind die am häufigsten verwendeten Variablen und sind Instanzvariablen vorzuziehen.
+* **Ereignisvariablen** (`vars.xxx`) ermöglichen den Datenaustausch zwischen den elementaren Aufgaben eines koordinierten Kampagnenprozesses. Diese Variablen werden von der Aufgabe übergeben, die die in Bearbeitung befindliche Aufgabe aktiviert hat. Sie werden dann an die folgenden Aktivitäten weitergeleitet. **Ereignisvariablen** sind die am häufigsten verwendeten Variablen und sind Instanzvariablen vorzuziehen.
 
 ## Nutzung von Ereignisvariablen im Ausdruckseditor {#expression-editor}
 

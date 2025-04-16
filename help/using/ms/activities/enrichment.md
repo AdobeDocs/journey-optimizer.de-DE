@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ Die Aktivität der **Anreicherung** ist eine **Zielgruppenbestimmungs-Aktivität
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
-* **Aus derselben Arbeitstabelle** wie die Zielgruppe in Ihrer mehrstufigen Kampagne:
+* **Aus derselben Arbeitstabelle** wie die Zielgruppe in Ihrer orchestrierten Kampagne:
 
   *Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
@@ -33,9 +33,9 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
   *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
-Nachdem die Anreicherungsdaten zur mehrstufigen Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen.
+Nachdem die Anreicherungsdaten zur orchestrierten Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen.
 
-Sie können beispielsweise der mehrstufigen Kampagnen-Arbeitstabelle Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
+Sie können der orchestrierten Kampagnen-Arbeitstabelle beispielsweise Informationen zu Käufen von Kundinnen und Kunden hinzufügen und diese Daten verwenden, um E-Mails mit ihrem neuesten Kauf oder dem für diese Käufe ausgegebenen Betrag zu personalisieren.
 
 ## Hinzufügen einer Anreicherungsaktivität {#enrichment-configuration}
 
@@ -43,19 +43,19 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 1. Fügen Sie Aktivitäten wie **Zielgruppe erstellen** und **Kombinieren** hinzu.
 1. Fügen Sie eine Aktivität vom Typ **Anreicherung** hinzu.
-1. Wenn in Ihrer mehrstufigen Kampagne mehrere Transitionen konfiguriert wurden, können Sie im Feld **[!UICONTROL Primärer Satz]** definieren, welche Transition als Primärsatz zum Anreichern mit Daten verwendet werden soll.
+1. Wenn in Ihrer orchestrierten Kampagne mehrere Transitionen konfiguriert wurden, können Sie im Feld **[!UICONTROL Primärer Satz]** definieren, welche Transition als Primärsatz zur Anreicherung mit Daten verwendet werden soll.
 
 ## Hinzufügen von Anreicherungsdaten {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Anreicherungsdaten"
->abstract="Wählen Sie die zur Anreicherung Ihrer mehrstufigen Kampagne zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
+>abstract="Auswahl der Daten, die zur Anreicherung der orchestrierten Kampagne verwendet werden sollen. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Aktivität „Anreicherung“"
->abstract="Nachdem Anreicherungsdaten zur mehrstufigen Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität „Anreicherung“ hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
+>abstract="Nachdem Anreicherungsdaten zur orchestrierten Kampagne hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Anreicherungsaktivität hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Anforderungen in verschiedene Gruppen zu unterteilen oder um personalisierte Marketing-Nachrichten und -Kampagnen zu erstellen, die Ihre Zielgruppe mit größerer Wahrscheinlichkeit ansprechen."
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
@@ -121,7 +121,7 @@ Führen Sie die Schritte zum Konfigurieren einer **Anreicherungsaktivität** mit
 1. Identifizieren Sie die Daten, mit denen Sie einen Abstimm-Link erstellen möchten.
 
    * Um einen Abstimm-Link mit Daten aus der Campaign-Datenbank zu erstellen, wählen Sie **Datenbankschema** und dann das Schema aus, in dem die Zielgruppe gespeichert ist.
-   * Um einen Abstimmlink mit den Daten aus der eingehenden Transition zu erstellen, wählen Sie **Temporäres Schema** und wählen Sie die mehrstufige Kampagnentransition, in der die Zieldaten gespeichert werden.
+   * Um einen Abstimmlink mit den Daten aus der eingehenden Transition zu erstellen, wählen Sie **Temporäres Schema** und wählen Sie die orchestrierte Kampagnentransition, in der die Zieldaten gespeichert werden.
 
 1. Die Felder **Titel** und **Name** werden basierend auf dem ausgewählten Zielschema automatisch ausgefüllt. Ihre Werte können an dieser Stelle geändert werden.
 
@@ -135,7 +135,7 @@ Führen Sie die Schritte zum Konfigurieren einer **Anreicherungsaktivität** mit
 
    * **Erweiterter Join**: Konfigurieren Sie die Abstimmbedingungen mithilfe des Abfrage-Modelers.  Klicken Sie dazu auf die Schaltfläche **Bedingung erstellen** und definieren Sie dann Ihre Abstimmbedingungen, indem Sie Ihre eigene Regel mithilfe von UND- und ODER-Operationen erstellen.
 
-Das folgende Beispiel zeigt eine mehrstufige Kampagne, die so konfiguriert ist, dass sie eine Verknüpfung zwischen der Tabelle der Journey Optimizer-Profile und einer temporären Tabelle herstellt, die als Aktivität **Datei laden** generiert wurde. In diesem Beispiel werden mit der Aktivität **Anreicherung** beide Tabellen mithilfe der E-Mail-Adresse als Abstimmkriterium abgestimmt.
+Das folgende Beispiel zeigt eine orchestrierte Kampagne, die so konfiguriert wurde, dass eine Verknüpfung zwischen der Journey Optimizer-Profiltabelle und einer temporären Tabelle hergestellt wird, die die Aktivität **Datei laden** generiert. In diesem Beispiel werden mit der Aktivität **Anreicherung** beide Tabellen mithilfe der E-Mail-Adresse als Abstimmkriterium abgestimmt.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -170,7 +170,7 @@ Sie können das Angebot jetzt in der Versandaktivität verwenden.
 
 ### Verwenden der Angebote aus der Anreicherungsaktivität
 
-Wenn Sie in einer mehrstufigen Kampagne die Angebote verwenden möchten, die Sie aus einer Anreicherungsaktivität in Ihrem Versand erhalten, führen Sie die folgenden Schritte aus:
+Wenn Sie in einer orchestrierten Kampagne die Angebote verwenden möchten, die Sie aus einer Anreicherungsaktivität in Ihrem Versand erhalten, führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie die Versandaktivität und navigieren Sie zur Inhaltsbearbeitung. Klicken Sie auf die Schaltfläche **[!UICONTROL Angebotseinstellungen]** und wählen Sie in der Dropdown-Liste die Ihrem Angebot entsprechende **[!UICONTROL Platzierung]** aus.
 Wenn Sie nur Angebote aus der Anreicherungsaktivität anzeigen möchten, setzen Sie die Anzahl der **[!UICONTROL Vorschläge]** auf 0 und speichern Sie die Änderungen.
@@ -258,7 +258,7 @@ Jetzt müssen wir eine Sortierung anwenden, um die drei **letzten** Käufe abzur
 
 ### Anreicherung mit in Relation stehenden Daten {#link-example}
 
-Das folgende Beispiel zeigt eine mehrstufige Kampagne, die so konfiguriert ist, dass sie eine Verknüpfung zwischen zwei Transitionen herstellt. Die ersten Transitionen enthalten eine Aktivität zur **Abfrage** von Profildaten einer Zielgruppe, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, welche über die Aktivität „Datei laden“ geladen wurde.
+Das folgende Beispiel zeigt eine orchestrierte Kampagne, die so konfiguriert wurde, dass eine Verknüpfung zwischen zwei Transitionen hergestellt wird. Die ersten Transitionen enthalten eine Aktivität zur **Abfrage** von Profildaten einer Zielgruppe, während die zweite Transition Kaufdaten enthält, die in einer Datei gespeichert sind, welche über die Aktivität „Datei laden“ geladen wurde.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -266,6 +266,6 @@ Das folgende Beispiel zeigt eine mehrstufige Kampagne, die so konfiguriert ist, 
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Eine zweite Aktivität **Anreicherung** wird hinzugefügt, um Daten aus der mehrstufigen Kampagnentabelle mit den Kaufdaten aus der Aktivität **Datei laden** anzureichern. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kundinnen und Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
+* Eine zweite Aktivität **Anreicherung** wird hinzugefügt, um Daten aus der orchestrierten Kampagnentabelle mit den Kaufdaten aus der Aktivität **Datei laden** anzureichern. Auf diese Weise können wir diese Daten in weiteren Aktivitäten verwenden, um beispielsweise die an die Kundinnen und Kunden gesendeten Nachrichten mit Informationen zum Kauf zu personalisieren.
 
   ![](../assets/enrichment-uc-link-data.png)

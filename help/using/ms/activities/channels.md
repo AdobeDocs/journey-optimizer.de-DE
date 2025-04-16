@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie eine Kanalaktivität in einer mehrstufigen Ka
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 70%
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Kanalaktivitäten {#channel}
 
-Adobe Journey Optimizer ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über eingehende und ausgehende Kanäle hinweg. Sie können Kanalaktivitäten in der mehrstufigen Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende mehrstufige Kampagnen zu erstellen, mit denen basierend auf dem Kundenverhalten und den Daten Trigger erstellt werden können. Die unterstützten Kanäle sind auf [dieser Seite](../../channels/gs-channels.md) aufgeführt.
+Adobe Journey Optimizer ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über eingehende und ausgehende Kanäle hinweg. You can combine channel activities into the orchestrated campaign canvas to create cross-channel orchestrated campaigns that can trigger actions based on customer behavior and data. Die unterstützten Kanäle sind auf [dieser Seite](../../channels/gs-channels.md) aufgeführt.
 
 Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und Briefpost enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
 
@@ -23,11 +23,11 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 ## Voraussetzungen {#channel-activity-prereq}
 
-Beginnen Sie mit der Erstellung Ihrer mehrstufigen Kampagne mit den relevanten Aktivitäten:
+Start building your orchestrated campaign with the relevant activities:
 
 * Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Audience ist die Hauptzielgruppe Ihres Versands: die Profile, die die Nachrichten erhalten.
 
-* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihre mehrstufige Kampagne mit einer **Planung**-Aktivität. Sie können die Aktivität **Planung** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
+* To send a recurring delivery, start your orchestrated campaign with a **Scheduler** activity. Sie können die Aktivität **Planung** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
 
 ## Konfigurieren einer Kanalaktivität {#create-a-delivery-in-a-workflow}
 
@@ -56,14 +56,14 @@ Beginnen Sie mit der Erstellung Ihrer mehrstufigen Kampagne mit den relevanten A
 >title="Aktivität „Direkt-Mail“"
 >abstract="Die Aktivität „Direkt-Mail“ erleichtert den Direkt-Mail-Versand innerhalb der mehrstufigen Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-Gehen Sie wie folgt vor, um einen Versand im Kontext einer mehrstufigen Kampagne einzurichten:
+To set up a delivery in the context of an orchestrated campaign, follow the steps below:
 
 1. Fügen Sie eine Kanalaktivität hinzu: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung (Android)]**, **[!UICONTROL Push-Benachrichtigung (iOS)]** oder **[!UICONTROL Briefpost]**.
 
 1. Wählen Sie den **Versandtyp** aus: einmalig oder wiederkehrend.
 
    * Ein **Einzelversand** ist ein einmaliger Versand, der nur einmal verschickt wird, z. B. eine E-Mail zum „Black Friday“.
-   * Ein **Wiederkehrender Versand** wird entsprechend der Ausführungshäufigkeit, die in der Aktivität [Planung](scheduler.md) definiert ist, mehrfach verschickt. Bei jeder Ausführung der mehrstufigen Kampagne wird die Zielgruppe neu berechnet und der Versand an die aktualisierte Zielgruppe mit den aktualisierten Inhalten gesendet. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
+   * Ein **Wiederkehrender Versand** wird entsprechend der Ausführungshäufigkeit, die in der Aktivität [Planung](scheduler.md) definiert ist, mehrfach verschickt. Each time the orchestrated campaign runs, the audience is re-calculated and the delivery is sent to the updated audience, with the updated content. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
 
 1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist.
 
@@ -75,9 +75,9 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext einer mehrstufigen Kampagne
 
 1. Navigieren Sie zurück zu Ihrem Workflow. Entscheiden Sie, ob Sie den Workflow **Ausgehende Transition erzeugen** fortsetzen möchten, um eine Transition nach der Kanalaktivität hinzuzufügen.
 
-1. Klicken Sie **Starten** um Ihre mehrstufige Kampagne zu starten.
+1. Click **Start** to launch your orchestrated campaign.
 
-   Standardmäßig erfolgt der Trigger einer mehrstufigen Kampagne in die Vorbereitungsphase der Nachricht, ohne dass die Nachricht sofort gesendet wird.
+   By default, starting an orchestrated campaign triggers the message preparation stage, without immediately sending the message.
 
 1. Öffnen Sie die Kanalaktivität, um den Versand über die Schaltfläche **Überprüfen und senden** zu bestätigen.
 
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext einer mehrstufigen Kampagne
 
 ## Beispiele {#cross-channel-workflow-sample}
 
-Im Folgenden finden Sie ein Beispiel einer kanalübergreifenden mehrstufigen Kampagne mit einer Segmentierung und zwei Sendungen. Die mehrstufige Kampagne richtet sich an alle Kunden, die in Paris leben und sich für Kaffeemaschinen interessieren. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
+Here is a cross-channel orchestrated campaign example with a segmentation and two deliveries. The orchestrated campaign targets all customers who live in Paris and who are interested in coffee machines. Innerhalb dieser Population wird eine E-Mail an die regulären Kundinnen und Kunden und eine SMS an diejenigen mit VIP-Status gesendet.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -99,7 +99,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Sie können auch eine wiederkehrende mehrstufige Kampagne erstellen, um an jedem ersten Tag des Monats um 20 Uhr eine personalisierte SMS an alle in Paris lebenden Kunden zu senden.
+You can also create a recurring orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
 ![](../assets/workflow-channel-example2.png)
 

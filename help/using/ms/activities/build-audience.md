@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Zielgruppe erstellen“
-description: Erfahren Sie, wie Sie die Aktivität Zielgruppe aufbauen in einer mehrstufigen Kampagne verwenden
+description: Erfahren Sie, wie Sie die Aktivität Zielgruppe aufbauen in einer orchestrierten Kampagne verwenden
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in die mehrstufige Kampagne aufgenommen wird. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert."
+>abstract="Mit **Aktivität** Zielgruppe aufbauen“ können Sie die Zielgruppe definieren, die in die orchestrierte Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert."
 
-Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Audience definieren, die in die mehrstufige Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer mehrstufigen Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert.
+Die Aktivität **Zielgruppe erstellen** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Audience definieren, die in die orchestrierte Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
@@ -74,6 +74,6 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 ## Beispiele{#build-audience-examples}
 
-Im Folgenden finden Sie ein Beispiel für eine mehrstufige Kampagne mit zwei Aktivitäten **Zielgruppe aufbauen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
+Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne mit zwei Aktivitäten **Zielgruppe aufbauen**. Die erste Version richtet sich an die Zielgruppe derjenigen, die Poker spielen, gefolgt von einem E-Mail-Versand. Die zweite Version ist die Zielgruppe der VIP-Kundinnen und -Kunden, gefolgt von einem SMS-Versand.
 
 ![](../assets/workflow-audience-example.png)

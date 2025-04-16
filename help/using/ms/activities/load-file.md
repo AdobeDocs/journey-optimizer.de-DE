@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Datei laden“
-description: Erfahren Sie, wie Sie die Aktivität „Datei laden“ in einer mehrstufigen Kampagne verwenden
+description: Erfahren Sie, wie Sie die Aktivität „Datei laden“ in einer koordinierten Kampagne verwenden
 hide: true
 hidefromtoc: true
 exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 88%
@@ -63,7 +63,7 @@ Die Konfiguration der Aktivität **Datei laden** erfolgt in zwei Schritten. Defi
 
 Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der die erwartete Dateistruktur definiert wird:
 
-1. Fügen Sie **mehrstufige Kampagne** Aktivität „Datei laden“ hinzu.
+1. Fügen Sie **orchestrierte Kampagne die** „Datei laden“ hinzu.
 
 1. Wählen Sie die zu verwendende Beispieldatei aus, um die erwartete Dateistruktur zu definieren. Klicken Sie dazu im Abschnitt **[!UICONTROL Beispieldatei]** auf die Schaltfläche **Datei auswählen** und wählen Sie die zu verwendende lokale Datei aus.
 
@@ -115,7 +115,7 @@ Führen Sie diese Schritte aus, um die Beispieldatei zu konfigurieren, mit der d
 
 >[!CAUTION]
 >
->Bevor Sie die Zieldatei laden, stellen Sie sicher, dass sie wie die Beispieldatei formatiert ist. Abweichungen im Dateiformat, in der Spaltenstruktur oder in der Anzahl der Spalten können zu Fehlern während der mehrstufigen Kampagnenausführung führen.
+>Bevor Sie die Zieldatei laden, stellen Sie sicher, dass sie wie die Beispieldatei formatiert ist. Abweichungen im Dateiformat, in der Spaltenstruktur oder in der Anzahl der Spalten können zu Fehlern während der koordinierten Kampagnenausführung führen.
 
 Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
 
@@ -150,13 +150,13 @@ Gehen Sie wie folgt vor, um die hochzuladende Zieldatei zu definieren:
 
 1. Legen Sie im Abschnitt **Zurückweisungsverwaltung** fest, wie sich die Aktivität bei einem Fehler verhalten soll:
 
-   * Geben Sie im Feld **[!UICONTROL Erlaubte Fehleranzahl]** die maximale Anzahl der Fehler an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Wenn der Wert beispielsweise auf „20“ festgelegt ist, schlägt die mehrstufige Kampagnenausführung fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
+   * Geben Sie im Feld **[!UICONTROL Erlaubte Fehleranzahl]** die maximale Anzahl der Fehler an, die bei der Verarbeitung der zu ladenden Datei zulässig sind. Wenn der Wert beispielsweise auf „20“ festgelegt ist, schlägt die Ausführung der orchestrierten Kampagne fehl, wenn beim Laden der Datei mehr als 20 Fehler auftreten.
 
    * Um die beim Laden der Datei aufgetretenen Fehler beizubehalten, aktivieren Sie die Option **[!UICONTROL Zurückweisungen in einer Datei speichern]** und geben Sie den gewünschten Namen für die Datei im Feld **[!UICONTROL Zurückweisungsdatei]** an.
 
      Nach der Aktivierung dieser Option wird nach der Aktivität eine zusätzliche ausgehende Transition mit dem Namen „Komplement“ hinzugefügt. Fehler, die während des Imports auftreten, werden in der angegebenen Datei auf dem Server gespeichert.
 
-1. Um die hochgeladene Datei vom Server zu löschen, nachdem die mehrstufige Kampagne ausgeführt wurde, schalten Sie die Option **[!UICONTROL Datei nach Import löschen]** um.
+1. Um die hochgeladene Datei nach Ausführung der orchestrierten Kampagne vom Server zu löschen, schalten Sie die Option **[!UICONTROL Datei nach Import löschen]** um.
 
    ![](../assets/workflow-load-file-options.png)
 

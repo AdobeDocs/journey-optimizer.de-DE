@@ -5,7 +5,8 @@ title: Verwenden der Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Aktivität „Deduplizierung“ verwenden.
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 98%
@@ -42,7 +43,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 ![](../assets/workflow-deduplication.png)
 
-1. Fügen Sie **mehrstufigen Kampagne** Aktivität „Deduplizierung“ hinzu.
+1. Fügen Sie **orchestrierten Kampagne** Aktivität „Deduplizierung“ hinzu.
 
 1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 
