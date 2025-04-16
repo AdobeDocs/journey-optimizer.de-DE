@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 79%
+source-wordcount: '924'
+ht-degree: 74%
 
 ---
 
@@ -34,16 +34,14 @@ ht-degree: 79%
 >abstract="Um eine SMS-Konfiguration erstellen zu können, müssen Sie zuvor mindestens eine SMS-Subdomain konfiguriert haben, die aus der Liste der Subdomain-Namen ausgewählt werden kann."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Konfiguration"
 
-Um die URLs zu Ihren SMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie dann auswählen, wenn Sie [eine SMS-Konfiguration erstellen](sms-configuration.md#message-preset-sms).
+To be able to shorten URLs added to your SMS/MMS messages, you must set up the subdomain you will select when [creating an SMS configuration](sms-configuration.md#message-preset-sms).
 
 Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden [ in diesem Abschnitt](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->* Die Konfiguration von SMS-Subdomains ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
->
->* Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
->
+SMS subdomain configuration is **shared between all environments**. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
+
+Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
+
 
 ## Verwenden einer vorhandenen Subdomain {#sms-use-existing-subdomain}
 
@@ -61,15 +59,11 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
 1. Geben Sie das Präfix ein, das in Ihrer SMS-URL angezeigt werden soll.
 
-   >[!NOTE]
-   >
-   >Nur alphanumerische Zeichen und Bindestriche sind zulässig.
+   Nur alphanumerische Zeichen und Bindestriche sind zulässig.
 
 1. Wählen Sie aus der Liste eine delegierte Subdomain aus.
 
-   >[!NOTE]
-   >
-   >Sie können keine Subdomain auswählen, die bereits als SMS-Subdomain verwendet wird.
+   Sie können keine Subdomain auswählen, die bereits als SMS-Subdomain verwendet wird.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -120,9 +114,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
    Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
 
-   >[!NOTE]
-   >
-   >Es werden Subdomains mit mehreren Ebenen (derselben übergeordneten Domain) unterstützt. Sie können beispielsweise „sms.marketing.meinefirma.com“ verwenden.
+   Es werden Subdomains mit mehreren Ebenen (derselben übergeordneten Domain) unterstützt. Sie können beispielsweise „sms.marketing.meinefirma.com“ verwenden.
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diesen Datensatz oder laden Sie eine CSV-Datei herunter und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um den entsprechenden DNS-Eintrag zu generieren.
 
@@ -130,9 +122,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Wenn Sie eine neue SMS-Subdomain konfigurieren, verweist sie immer auf einen CNAME-Eintrag.
+   When you configure a new SMS subdomain, it always points to a CNAME record.
 
 1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 

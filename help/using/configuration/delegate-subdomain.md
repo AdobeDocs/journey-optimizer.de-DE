@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 87%
+source-wordcount: '2003'
+ht-degree: 81%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 87%
 
 Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. Weitere Informationen zur [Subdomain-Delegierung](about-subdomain-delegation.md)
 
->[!NOTE]
->
->Standardmäßig können Sie mit [!DNL Journey Optimizer] bis zu 10 Subdomains delegieren. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+Standardmäßig ermöglicht [!DNL Journey Optimizer] die Delegierung von **bis zu 10 Subdomains**. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
+Die vollständige Subdomain-Delegierung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
+
+Subdomain configuration is **common to all environments**. Therefore any modification to a subdomain also impacts the production sandboxes.
+
 >[!CAUTION]
 >
->Die vollständige Subdomain-Delegierung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
->
->Die Konfiguration von Subdomains ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
+>Parallel submission of subdomains is not supported in [!DNL Journey Optimizer]. If you try to submit a subdomain for delegation when another one has the **[!UICONTROL Processing]** status, you get an error message.
 
 ## Subdomain vollständig an Adobe delegieren {#full-subdomain-delegation}
 
@@ -87,9 +87,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
 
 1. Klicken Sie auf **[!UICONTROL Absenden]**.
 
-   >[!NOTE]
-   >
-   >Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+   Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
 1. Die Subdomain wird in der Liste mit dem Status **[!UICONTROL Bearbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#access-delegated-subdomains).
 
@@ -103,15 +101,10 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-   >[!NOTE]
-   >
-   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
+   Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
 
 Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. [Weitere Informationen](ptr-records.md)
 
->[!CAUTION]
->
->Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] derzeit nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während eine andere den Status **[!UICONTROL Verarbeitung läuft]** hat, erhalten Sie eine Fehlermeldung.
 
 ## Einrichten einer Subdomain mit CNAME {#cname-subdomain-delegation}
 
@@ -147,7 +140,7 @@ Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte au
 
    >[!CAUTION]
    >
-   >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
+   >You must not delegate an invalid subdomain to Adobe. Ensure to enter a valid subdomain which is **owned by your organization**, such as marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,9 +156,7 @@ Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte au
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   >[!NOTE]
-   >
-   >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Einträge später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+   Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Einträge später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
 1. Warten Sie, bis Adobe prüft, ob diese Einträge in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
 
@@ -185,23 +176,16 @@ Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte au
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden<!--i.e Adobe validates the record you created and installs it-->, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-   >[!NOTE]
-   >
-   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
+   Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
 
 Nach der Validierung des Datensatzes und der Installation des Zertifikats erstellt Adobe automatisch den PTR-Eintrag für die CNAME-Subdomain. [Weitere Informationen](ptr-records.md)
 
->[!CAUTION]
->
->Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] derzeit nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während eine andere den Status **[!UICONTROL Verarbeitung läuft]** hat, erhalten Sie eine Fehlermeldung.
 
 ## Subdomain-Validierung {#subdomain-validation}
 
-Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain verifiziert ist und zum Senden von Nachrichten verwendet werden kann.
+The checks and actions below are executed until the subdomain is verified and can be used to send messages.
 
->[!NOTE]
->
->Diese Schritte werden von Adobe ausgeführt, was bis zu drei Stunden dauern kann.
+These steps are performed by Adobe and can take **up to 3 hours**.
 
 1. **Vorab-Validierung**: Adobe überprüft, ob die Subdomain an das Adobe DNS delegiert wurde (NS-Eintrag, SOA-Eintrag, Zoneneinrichtung, Eigentümereintrag). Wenn der Vorab-Validierungsschritt fehlschlägt, wird ein Fehler zusammen mit dem entsprechenden Grund zurückgegeben. Andernfalls fährt Adobe mit dem nächsten Schritt fort.
 
@@ -241,9 +225,7 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
 1. Heben Sie die Delegierung von Landingpage-Subdomains, SMS-Subdomains und Web-Subdomains auf, die mit dieser Subdomain verknüpft sind.
 
-   >[!NOTE]
-   >
-   >Sie müssen für jede (Landingpage[ ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Sie müssen für jede (Landingpage[ ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Beenden Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,9 +233,7 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
 1. Zeigen Sie die [PTR-Einträge](ptr-records.md#edit-ptr-record) die mit der Subdomain verknüpft sind, auf eine andere Subdomain.
 
-   >[!NOTE]
-   >
-   >Wenn dies die einzige delegierte Subdomain ist, können Sie diesen Schritt überspringen.
+   Wenn dies die einzige delegierte Subdomain ist, können Sie diesen Schritt überspringen.
 
 Wenden Sie sich anschließend mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
 
