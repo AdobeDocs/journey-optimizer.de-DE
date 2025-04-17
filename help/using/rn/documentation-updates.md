@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Journey-Testseite wurde mit einem Hinweis auf die Notwendigkeit aktualisiert, einen Identity-Namespace in das verwendete Ereignis einzuschließen. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 * Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Abschnitte E-Mail, Landingpage, SMS und Web-Subdomain wurden mit diesen Informationen und den durchzuführenden Schritten aktualisiert, bevor Sie sich an Adobe wenden. [Weitere Informationen](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Es wurde eine Klarstellung zum optionalen `maxHttpConnections`-Parameter in der Journey-Begrenzungs-API hinzugefügt, einschließlich Anleitungen zu dessen Verwendung zusammen mit Drosselungskonfigurationen für denselben Endpunkt. [Weitere Informationen](../configuration/throttling.md)
+* Im Abschnitt Experience Decisioning wurden Anleitungen hinzugefügt, die erklären, dass genehmigte Angebotselemente nicht gelöscht werden können, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Es wurden Schritte zum Ändern des Status der Vorlage in „Entwurf“ mithilfe der Option **[!UICONTROL Genehmigung rückgängig machen]** beschrieben. [Weitere Informationen](../experience-decisioning/items.md#manage)
 
 ## März 2025 {#mar-2025}
 
