@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 81%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 81%
 >title="Delegieren von Subdomains"
 >abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
+## Erste Schritte mit E-Mail-Subdomains {#gs-delegate-subdomain}
+
 Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. Weitere Informationen zur [Subdomain-Delegierung](about-subdomain-delegation.md)
 
 Standardmäßig ermöglicht [!DNL Journey Optimizer] die Delegierung von **bis zu 10 Subdomains**. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
@@ -37,11 +39,11 @@ Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAME
 
 Die vollständige Subdomain-Delegierung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
 
-Subdomain configuration is **common to all environments**. Therefore any modification to a subdomain also impacts the production sandboxes.
+Die Konfiguration von Subdomains ist **in allen Umgebungen gleich**. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
 
 >[!CAUTION]
 >
->Parallel submission of subdomains is not supported in [!DNL Journey Optimizer]. If you try to submit a subdomain for delegation when another one has the **[!UICONTROL Processing]** status, you get an error message.
+>Die parallele Übermittlung von Subdomains wird in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während sich eine andere im Status **[!UICONTROL Verarbeitung läuft]** befindet, erhalten Sie eine Fehlermeldung.
 
 ## Subdomain vollständig an Adobe delegieren {#full-subdomain-delegation}
 
@@ -140,7 +142,7 @@ Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte au
 
    >[!CAUTION]
    >
-   >You must not delegate an invalid subdomain to Adobe. Ensure to enter a valid subdomain which is **owned by your organization**, such as marketing.yourcompany.com.
+   >Es darf keine ungültige Subdomain an Adobe delegiert werden. Stellen Sie sicher, dass Sie eine gültige Subdomain eingeben **die sich im Besitz Ihrer Organisation befindet** z. B. marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -183,9 +185,9 @@ Nach der Validierung des Datensatzes und der Installation des Zertifikats erstel
 
 ## Subdomain-Validierung {#subdomain-validation}
 
-The checks and actions below are executed until the subdomain is verified and can be used to send messages.
+Die folgenden Prüfungen und Aktionen werden ausgeführt, bis die Subdomain verifiziert ist und zum Senden von Nachrichten verwendet werden kann.
 
-These steps are performed by Adobe and can take **up to 3 hours**.
+Diese Schritte werden von Adobe ausgeführt und können **bis zu 3 Stunden)**.
 
 1. **Vorab-Validierung**: Adobe überprüft, ob die Subdomain an das Adobe DNS delegiert wurde (NS-Eintrag, SOA-Eintrag, Zoneneinrichtung, Eigentümereintrag). Wenn der Vorab-Validierungsschritt fehlschlägt, wird ein Fehler zusammen mit dem entsprechenden Grund zurückgegeben. Andernfalls fährt Adobe mit dem nächsten Schritt fort.
 
