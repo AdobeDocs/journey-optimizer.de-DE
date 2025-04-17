@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 91%
 
 ---
@@ -739,15 +739,15 @@ ht-degree: 91%
       + [Beheben von Fehlern bei einer benutzerdefinierten Aktion](using/action/troubleshoot-custom-action.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
 + Systeme {#connect-systems} verbinden“
-   + [Adobe Journey Optimizer-APIs](using/configuration/ajo-apis.md)
-   + Arbeiten mit Journey-APIs {#external-systems}
-      + [Journey-Integration in externe Systeme](using/configuration/external-systems.md)
+   + [Arbeiten mit Journey Optimizer-APIs](using/configuration/ajo-apis.md)
+   + Integrieren Ihrer Journey mit externen Systemen {#external-systems}
+      + [Journey-Integration mit externen Systemen](using/configuration/external-systems.md)
       + [Capping-API](using/configuration/capping.md)
       + [Drosselungs-API](using/configuration/throttling.md)
    + Mit Adobe-Lösungen versenden {#adobe-solutions}
-      + [Integration von Journey mit Adobe Campaign Standard](using/action/acs-action.md)
-      + [Integration von Journey mit Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Integration von Journey mit Marketo Engage](using/action/marketo-engage.md)
+      + [Journey-Integration mit Campaign Standard](using/action/acs-action.md)
+      + [Integration von Journey mit Campaign v7/v8](using/action/acc-action.md)
+      + [Journey-Integration mit Marketo Engage](using/action/marketo-engage.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
    + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Zugangssteuerung {#access-control}
