@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 91%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 91%
       + [Konfigurieren einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [Beheben von Fehlern bei einer benutzerdefinierten Aktion](using/action/troubleshoot-custom-action.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
-+ Systeme {#connect-systems} verbinden“
++ Systeme und Umgebungen verbinden {#connect-systems}
    + [Arbeiten mit Journey Optimizer-APIs](using/configuration/ajo-apis.md)
    + Integrieren Ihrer Journey mit externen Systemen {#external-systems}
       + [Journey-Integration mit externen Systemen](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 91%
       + [Journey-Integration mit Campaign Standard](using/action/acs-action.md)
       + [Integration von Journey mit Campaign v7/v8](using/action/acc-action.md)
       + [Journey-Integration mit Marketo Engage](using/action/marketo-engage.md)
+   + Sandbox-Verwaltung {#sandbox}
+      + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
+      + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
-   + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Zugangssteuerung {#access-control}
    + Zugangssteuerung – Übersicht {#privacy}
       + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 91%
    + [Verwalten von Benutzenden und Rollen](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
-   + [Sandbox-Verwaltung](using/administration/sandboxes.md)
 + Datenschutz    {#privacy}
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)

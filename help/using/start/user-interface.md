@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
@@ -134,7 +134,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Verwalten Sie Ihre Sandboxes in diesem Abschnitt. [Weitere Informationen](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Darüber hinaus können Sie mit [!DNL Journey Optimizer] Paketexport- und -importfunktionen verwenden, um Objekte wie Journeys, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes hinweg zu kopieren. [Weitere Informationen](../administration/sandboxes.md)
 
 * **[!UICONTROL Kanäle]**: Verwenden Sie diesen Abschnitt, um Ihre Kanäle, einschließlich Subdomains, Konfigurationen und Zustellbarkeitseinstellungen, zu konfigurieren. [Weitere Informationen](../configuration/get-started-configuration.md)
 
