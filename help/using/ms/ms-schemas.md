@@ -1,22 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit Schemata in orchestrierten Kampagnen
-description: Erfahren Sie, wie Sie Schemas in Ihren orchestrierten Kampagnen erstellen und verwalten
+title: Erstellen relationaler Schemata für orchestrierte Kampagnen
+description: Erfahren Sie, wie Sie relationale Schemata für Ihre orchestrierten Kampagnen erstellen und verwalten
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 5%
+source-wordcount: '72'
+ht-degree: 61%
 
 ---
 
-# Arbeiten mit Schemata {#ms-schemas}
+# Erstellen relationaler Schemata {#ms-schemas}
 
-Erläuterung der Grundprinzipien des relationalen Speichers vom Typ II, von der Datenschemamodellierung bis zur Datenaufnahme, wobei das Zusammenspiel zwischen UPS und relativem Modell hervorgehoben wird
+Ein Schema stellt die Struktur und das Format von Daten dar und validiert sie. Es bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und beschreibt, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtstag usw.).
 
-Pfad zum Erstellen relationaler Schemata anzeigen
-
-Pfad zur Aufnahme von Daten in relationalen Schemata anzeigen
+![Schaltfläche „Schema erstellen“ mit ausgewählter Option „Relational“](assets/create-relational-schema.png)
