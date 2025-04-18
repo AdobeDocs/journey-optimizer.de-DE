@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 68%
+source-wordcount: '288'
+ht-degree: 60%
 
 ---
 
@@ -28,11 +28,12 @@ ht-degree: 68%
 
 Die Aktivität **Dimensionsänderung** ist eine Aktivität zur **Zielgruppenbestimmung**. Mit dieser Aktivität können Sie die Zielgruppendimension ändern, während Sie Ihre orchestrierte Kampagne erstellen. Die Achse wird je nach Datenvorlage und der Eingabedimension verschoben.
 
-Sie können beispielsweise die Zielgruppendimension einer orchestrierten Kampagne von „Empfänger“ auf „Abonnentenanwendung“ umschalten, um Push-Benachrichtigungen an die Zielgruppenempfänger zu senden.
+Sie können beispielsweise die Zielgruppendimension einer orchestrierten Kampagne von „Profil“ in „Verträge“ ändern, um Nachrichten an den ausgewählten Vertragsinhaber zu senden.
 
+<!--
 >[!IMPORTANT]
 >
->Beachten Sie, dass die Aktivitäten **[!UICONTROL Dimension ändern]** und **[!UICONTROL Datenquelle ändern]** nicht in einer Zeile hinzugefügt werden sollten. Wenn Sie beide Aktivitäten nacheinander verwenden müssen, muss die Aktivität **[!UICONTROL Anreicherung]** zwischen ihnen enthalten sein. Dadurch wird eine ordnungsgemäße Ausführung sichergestellt und potenzielle Konflikte oder Fehler werden vermieden.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
@@ -40,9 +41,9 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konf
 
 1. Fügen Sie **orchestrierten Kampagne eine** Dimensionsänderung“ hinzu.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. Definieren Sie die **neue Zielgruppendimension**. Bei einer Dimensionsänderung werden alle Einträge beibehalten. Andere Optionen sind noch nicht verfügbar.
+1. Definieren Sie die **neue Zielgruppendimension**. Während der Dimensionsänderung werden alle Datensätze beibehalten.
 
 1. Führen Sie die orchestrierte Kampagne aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der orchestrierten Kampagnentabellen.
 
@@ -52,4 +53,4 @@ In diesem Beispiel möchten wir einen SMS-Versand an alle Profile senden, die ei
 
 Anschließend verwenden wir die Aktivität **[!UICONTROL Dimensionsänderung]**, um die Zielgruppendimension der orchestrierten Kampagne in „Empfänger“ zu ändern. Auf diese Weise können wir die Empfängerinnen und Empfänger ansprechen, die der Abfrage entsprechen.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
