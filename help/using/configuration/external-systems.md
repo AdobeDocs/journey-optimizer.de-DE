@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: ht
-source-wordcount: '1343'
-ht-degree: 100%
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
+workflow-type: tm+mt
+source-wordcount: '1374'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,11 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 1. Es werden Begrenzungs- und Einschränkungsregeln angewendet: Wenn die maximale Anzahl erreicht wird, werden die verbleibenden Aufrufe verworfen oder in die Warteschlange gestellt.
 
-2. Maximale Wartezeit und erneutes Versuchen: Wenn die Begrenzungs- oder Drosselungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf so lange auszuführen, bis die Zeitüberschreitungsgrenze erreicht ist.
+1. Maximale Wartezeit und erneutes Versuchen: Wenn die Begrenzungs- oder Drosselungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf so lange auszuführen, bis die Zeitüberschreitungsgrenze erreicht ist.
+
+>[!TIP]
+>
+>Es wird empfohlen, mindestens eine Minute zwischen dem Ablaufzeitraum des externen API-Tokens und Ihrer Journey Optimizer-[`cacheDuration`-Einstellung zu ](../datasource/external-data-sources.md#custom-authentication-access-token), insbesondere bei hoher Arbeitslast, um Abweichungen der Gültigkeit und 401-Fehler zu vermeiden.
 
 ## APIs für Begrenzung und Drosselung {#capping}
 
