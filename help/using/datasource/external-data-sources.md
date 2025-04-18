@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 99%
+source-wordcount: '1626'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,9 @@ Im Folgenden finden Sie zwei Beispiele für den API-Aufruf:
 
 Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_), zwei Parametersätzen („city“ für die Stadt und „lat/long“ für den Breiten- und Längengrad) und dem API-Schlüssel (appid).
 
+>[!TIP]
+>
+>Es wird empfohlen, mindestens eine Minute zwischen dem Ablaufzeitraum des externen API-Tokens und Ihrer Journey Optimizer-[`cacheDuration`-Einstellung zu ](#custom-authentication-access-token), insbesondere bei hoher Arbeitslast, um Abweichungen der Gültigkeit und 401-Fehler zu vermeiden.
 
 ## Erstellen und Konfigurieren einer externen Datenquelle {#create-ext-data-sources}
 
@@ -59,9 +62,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Erstellen und Konfigurieren
 
 1. Geben Sie einen Namen für Ihre Datenquelle ein.
 
-   >[!NOTE]
-   >
-   >Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.
+Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.
 
 1. Fügen Sie Ihrer Datenquelle eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Fügen Sie die URL des externen Dienstes hinzu. In unserem Beispiel: _https://api.adobeweather.org/weather_.
