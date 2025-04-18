@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2339'
 ht-degree: 91%
 
 ---
@@ -172,10 +172,12 @@ ht-degree: 91%
          + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
          + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Orchestrierte Kampagnen {#ms-campaigns}
++ Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit koordinierten Kampagnen](using/ms/gs-ms-campaigns.md)
+   + [Konfigurationsschritte](using/ms/gs-campaign-config.md)
    + [Grundlegende Prinzipien](using/ms/gs-campaign-creation.md)
    + Konfiguration {#ms-config}
+      + [Konfigurationsschritte](using/ms/gs-campaign-config.md)
       + [Schemata](using/ms/ms-schemas.md)
       + [Arbeiten mit Ereignisvariablen](using/ms/event-variables.md)
    + Erstellen der ersten orchestrierten Kampagne {#create-ms-campaign}

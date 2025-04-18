@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **Inhaltsverzeichnis**
 
 * Erste Schritte mit orchestrierten Kampagnen - [Grundprinzipien](gs-campaign-creation.md)
-* Konfiguration: [Arbeiten mit Schemata](ms-schemas.md) - [Arbeiten mit Ereignisvariablen](event-variables.md)
-* Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Kampagnen starten und überwachen](start-monitor-campaigns.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten koordinieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Konfiguration: [Konfigurieren Ihrer orchestrierten Kampagnen](gs-campaign-config.md) - [Arbeiten mit Schemata](ms-schemas.md) - [Arbeiten mit Ereignisvariablen](event-variables.md)
+* Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Kampagnen planen und starten](start-monitor-campaigns.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten koordinieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ In einer umfassenden grafischen Umgebung können Sie Prozesse wie Segmentierung,
 
 ## Journey-Orchestrierung und Kampagnenorchestrierung
 
-Journey vs. Kampagnen - Erläuterung der Unterschiede, Anwendungsfälle und Best Practices
+Die Kampagnenorchestrierung ist das führende Modul für das skalierte Entwerfen, Senden und Tracking von Markenkommunikation. Sie ermöglicht die automatisierte Verteilung von Marketing-Nachrichten an ausgewählte Zielgruppen und nutzt vorhandene Datensegmente für eine effektive Personalisierung, indem Profil- und Nicht-Profil-Entitäten kombiniert werden. Die Kampagnenorchestrierung ist ideal für die kampagnengesteuerte Reichweite und stellt einen konsistenten, effizienten und oft im Voraus geplanten Nachrichtenversand sicher, um die Kundeninteraktion zu fördern und wichtige Marketing-Ziele zu unterstützen.
 
+Die Kampagnenorchestrierung definiert die Zielgruppensegmentierung neu, indem sie die Integration mehrerer Entitäten in Adobe Journey Optimizer ermöglicht und zielgerichtetes Messaging erleichtert, das beispielsweise auf bestimmten Status, Ereignissen, Verträgen oder Buchungen basiert. Da Sie Nachrichten an andere Entitäten als Profile senden oder Abfragen zu einer beliebigen Entität erstellen können, können Sie eine ganzheitliche Sicht haben und eine große Bandbreite von Einblicken erfassen, um Ihre Zielgruppen zu erstellen.
+
+Für datengesteuerte Entscheidungen nutzt die Kampagnenorchestrierung mehrere Quellen für einen dynamisch angereicherten Datensatz.
 
 
 ## Tauchen wir tiefer in die Materie ein
@@ -55,7 +58,7 @@ Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign
 <img alt="Zugriff und Verwaltung von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>Grundprinzipien</strong></a>
+<a href="gs-campaign-creation.md"><strong>Konfigurationsschritte</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign
 <a href="create-ms-campaign.md">
 <img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>Erstellen einer mehrstufigen Kampagne</strong>
+<div><a href="create-ms-campaign.md"><strong>Erstellen einer orchestrierten Kampagne</strong>
 </div>
 <p>
 </td>
