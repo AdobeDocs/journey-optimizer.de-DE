@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 97%
+source-wordcount: '2301'
+ht-degree: 96%
 
 ---
 
@@ -249,7 +249,7 @@ Adobe Journey Optimizer verwendet Zusammenführungsrichtlinien beim Abrufen von 
 * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
 * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
-Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. in „inAudience“-Funktionen) und Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie entstehen, wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
+Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn mehrere Zielgruppen auf einer Journey verwendet werden (z. B. mithilfe der in [`inAudience`-Funktionen](functions/functioninaudience.md)), führt dies zu Inkonsistenzen mit der vom Journey verwendeten Zusammenführungsrichtlinie. Daher wird ein Fehler ausgelöst und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 

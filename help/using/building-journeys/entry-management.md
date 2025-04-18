@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,13 @@ Die Profileintrittsverwaltung hängt vom Typ der Journey ab.
 
 ## Journey-Typen {#types-of-journeys}
 
-In Adobe Journey Optimizer sind die folgenden Arten von Journeys verfügbar:
+Mit Adobe Journey Optimizer können Sie die folgenden Typen von Journeys erstellen:
 
-* **Unitäres Ereignis**-Journeys: Diese Journeys beginnen mit einem unitären Ereignis. Wenn das Ereignis empfangen wird, tritt das verknüpfte Profil in die Journey ein. [Weitere Informationen](#entry-unitary)
+* **Unitäres Ereignis** Journey: Diese Journey beginnen mit einem unitären Ereignis. Wenn das Ereignis empfangen wird, tritt das verknüpfte Profil in die Journey ein. [Weitere Informationen](#entry-unitary)
 
-* **Geschäftsereignis**-Journeys: Diese Journeys beginnen mit einem Geschäftsereignis, unmittelbar gefolgt von einer Aktivität **Zielgruppe lesen**. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
+* **Geschäftsereignis** Journey: Diese Journey beginnen mit einem Geschäftsereignis, auf das unmittelbar eine Aktivität **Zielgruppe lesen** folgt. Nach Empfang des Ereignisses treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein.  Für jedes Profil wird eine Instanz dieser Journey erstellt. [Weitere Informationen](#entry-business)
 
-* **Zielgruppe lesen**-Journeys: Diese Journeys beginnen mit einer Aktivität **Zielgruppe lesen**. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journeys können wiederkehrend oder einmalig sein. [Weitere Informationen](#entry-read-audience)
+* **Zielgruppe lesen** Journey: Diese Journey beginnen mit der Aktivität **Zielgruppe lesen**. Wenn die Journey ausgeführt wird, treten die der angegebenen Zielgruppe angehörenden Profile in die Journey ein. Für jedes Profil wird eine Instanz dieser Journey erstellt. Diese Journeys können wiederkehrend oder einmalig sein. [Weitere Informationen](#entry-read-audience)
 
 * **Zielgruppen-Qualifizierungs**-Journeys: Diese Journeys beginnen mit einem Zielgruppen-Qualifizierungsereignis. Diese Journeys überwachen die Ein- und Austritte von Profilen in Zielgruppen. In diesem Fall tritt das verknüpfte Profil die Journey ein. [Weitere Informationen](#entry-unitary)
 
