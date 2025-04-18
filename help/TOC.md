@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2344'
 ht-degree: 90%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 90%
       + [Erstellen einer orchestrierten Kampagne](using/ms/create-ms-campaign.md)
       + [Orchestrieren von Aktivitäten](using/ms/orchestrate-activities.md)
       + [Konfigurieren der Kampagneneinstellungen](using/ms/ms-campaign-settings.md)
+      + [Abfragen erstellen](using/ms/ms-query-modeler.md)
       + [Testen und Validieren von Nachrichten](using/ms/ms-proofs.md)
       + [Kampagnen planen und starten](using/ms/start-monitor-campaigns.md)
       + [Berichte zu orchestrierten Kampagnen](using/ms/reporting-campaigns.md)
