@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '529'
 ht-degree: 14%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 14%
 
 * Erste Schritte mit orchestrierten Kampagnen - [Grundprinzipien](gs-campaign-creation.md)
 * Konfiguration: [Konfigurieren Ihrer orchestrierten Kampagnen](gs-campaign-config.md) - [Arbeiten mit Schemata](ms-schemas.md) - [Arbeiten mit Ereignisvariablen](event-variables.md)
-* Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Kampagnen planen und starten](start-monitor-campaigns.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten koordinieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten orchestrieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
+* [Kampagnen planen und starten](start-monitor-campaigns.md)
+* [Überwachung und Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

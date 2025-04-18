@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Starten und Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
-description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagnen starten und überwachen
+title: Planen und Starten von orchestrierten Kampagnen mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagnen planen und starten
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
-# Starten und Überwachen von orchestrierten Kampagnen {#start-monitor}
+# Planen und Starten von koordinierten Kampagnen {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 47%
 >id="ajo_campaign_publication"
 >title="Veröffentlichen einer orchestrierten Kampagne"
 >abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Warnungen vor der Veröffentlichung gelöscht wurden."
-
 
 Nachdem Sie Ihre koordinierten und entworfenen Aufgaben auf der Arbeitsfläche erstellt haben, können Sie sie veröffentlichen und ihre Ausführung überwachen.
 
