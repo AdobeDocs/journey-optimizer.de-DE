@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kamp
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 36%
+source-wordcount: '1124'
+ht-degree: 35%
 
 ---
 
@@ -127,9 +127,15 @@ Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes er
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
-Die Überwachung von Workflow-Protokollen und -Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über das Symbol **[!UICONTROL Protokolle]** in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Protokolle und Aufgaben"
+>abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
+
+Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über das Symbol **[!UICONTROL Protokolle]** in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
 
 Das Menü **[!UICONTROL Protokolle und Aufgaben]** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Es stehen zwei Arten von Informationen zur Verfügung:
