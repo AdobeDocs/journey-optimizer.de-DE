@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 90%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 90%
          + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit koordinierten Kampagnen](using/ms/gs-ms-campaigns.md)
-   + [Grundlegende Prinzipien](using/ms/gs-campaign-creation.md)
    + Konfiguration {#ms-config}
       + [Konfigurationsschritte](using/ms/gs-campaign-config.md)
       + [Erstellen relationaler Schemata](using/ms/ms-schemas.md)
-      + [Arbeiten mit Ereignisvariablen](using/ms/event-variables.md)
    + Erstellen der ersten orchestrierten Kampagne {#create-ms-campaign}
+      + [Grundlegende Prinzipien](using/ms/gs-campaign-creation.md)
       + [Erstellen einer orchestrierten Kampagne](using/ms/create-ms-campaign.md)
       + [Orchestrieren von Aktivitäten](using/ms/orchestrate-activities.md)
       + [Konfigurieren der Kampagneneinstellungen](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 90%
       + [Datei laden ](using/ms/activities/load-file.md)
       + [Abstimmung](using/ms/activities/reconciliation.md)
       + [Zielgruppe speichern](using/ms/activities/save-audience.md)
-      + [Planung](using/ms/activities/scheduler.md)
       + [Aufspaltung](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
       + [Daten-Update](using/ms/activities/update-data.md)

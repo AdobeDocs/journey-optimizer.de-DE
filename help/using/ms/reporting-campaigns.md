@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
-description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer Berichte über orchestrierte Kampagnen überwachen und aufrufen können.
+title: Berichte für orchestrierte Kampagnen mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer auf Berichte zu orchestrierten Kampagnen zugreifen können
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 0%
+source-wordcount: '24'
+ht-degree: 4%
 
 ---
 
-# Berichterstellung und Überwachung für koordinierte Kampagnen {#report-ms}
+# Berichte zu orchestrierten Kampagnen {#report-ms}

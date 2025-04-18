@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit koordinierten Kampagnen
 description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 18%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **Inhaltsverzeichnis**
 
-* Erste Schritte mit orchestrierten Kampagnen - [Grundprinzipien](gs-campaign-creation.md)
-* Konfiguration: [Konfigurieren Ihrer orchestrierten Kampagnen](gs-campaign-config.md) - [Arbeiten mit Schemata](ms-schemas.md) - [Arbeiten mit Ereignisvariablen](event-variables.md)
-* Erste Schritte: [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md) - [Kampagneneinstellungen konfigurieren](ms-campaign-settings.md) - [Erste Schritte mit Aktivitäten](activities/about-activities.md) - [Aktivitäten orchestrieren](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung[Verzweigung](activities/load-file.md) - ](activities/channels.md)Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/scheduler.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - ZielgruppeSpeichern](activities/enrichment.md) -AktualisierenSie Ihre Daten[Warten](activities/fork.md)
+* Erste Schritte mit koordinierten Kampagnen
+* Konfiguration
+   * [Konfigurieren Sie Ihre orchestrierten Kampagnen](gs-campaign-config.md)
+   * [Erstellen relationaler Schemata](ms-schemas.md)
+* Erstellen der ersten orchestrierten Kampagne
+   * [Grundsätze](gs-campaign-creation.md)
+   * [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md)
+   * [Konfigurieren der Kampagneneinstellungen](ms-campaign-settings.md)
+   * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
+   * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
+* [Personalisierung](ms-personalization.md)
+* [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
-* [Überwachung und Reporting](reporting-campaigns.md)
+* Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - ](activities/channels.md)Abzweigung[](activities/load-file.md) Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - Zielgruppe speichern[ ->Daten aktualisierenWarten](activities/fork.md)
+* [Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
