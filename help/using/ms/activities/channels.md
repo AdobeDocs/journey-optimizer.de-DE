@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 71%
+source-wordcount: '892'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Beginnen Sie mit der Erstellung Ihrer orchestrierten Kampagne mit den relevanten
 
 * Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Audience ist die Hauptzielgruppe Ihres Versands: die Profile, die die Nachrichten erhalten.
 
-* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihre orchestrierte Kampagne mit einer **Planung**-Aktivität. Sie können die Aktivität **Planung** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. Weitere Informationen finden Sie in [diesem Abschnitt](scheduler.md).
+* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihre orchestrierte Kampagne mit einer **Planung**-Aktivität. Sie können die Aktivität **Planung** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden.
 
 ## Konfigurieren einer Kanalaktivität {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext einer orchestrierten Kampag
 1. Wählen Sie den **Versandtyp** aus: einmalig oder wiederkehrend.
 
    * Ein **Einzelversand** ist ein einmaliger Versand, der nur einmal verschickt wird, z. B. eine E-Mail zum „Black Friday“.
-   * Ein **Wiederkehrender Versand** wird entsprechend der Ausführungshäufigkeit, die in der Aktivität [Planung](scheduler.md) definiert ist, mehrfach verschickt. Bei jeder Ausführung der orchestrierten Kampagne wird die Audience neu berechnet und der Versand mit den aktualisierten Inhalten an die aktualisierte Audience gesendet. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
+   * Ein **wiederkehrender Versand** wird basierend auf seiner Ausführungshäufigkeit mehrmals gesendet. Bei jeder Ausführung der orchestrierten Kampagne wird die Audience neu berechnet und der Versand mit den aktualisierten Inhalten an die aktualisierte Audience gesendet. Dabei kann es sich um einen wöchentlichen Newsletter oder eine wiederkehrende Geburtstags-E-Mail handeln.
 
 1. Wählen Sie eine **Versandvorlage** aus. Vorlagen sind vorkonfigurierte, kanalspezifische Versandeinstellungen. Für jeden Kanal ist eine integrierte Vorlage verfügbar, die standardmäßig vorausgefüllt ist.
 
