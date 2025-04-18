@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '649'
+ht-degree: 89%
 
 ---
 
@@ -47,9 +47,13 @@ Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn noch
 
 Eine Best Practice, um keine Aktivitäten vom Typ **Warten** zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-properties.md#entrance).
 
-### Warten und Testmodus {#wait-test-modd}
+### Warten und Testmodus {#wait-test-mode}
 
 Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Aktivität vom Typ **Warten** festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+
+### Warte- und Mobile-Kanäle {#wait-mobile-channels}
+
+Wenn Sie eine In-[-Nachricht ](../in-app/create-in-app.md) kurz nach dem Senden einer [Push-Benachrichtigung](../push/get-started-push.md) anzeigen möchten, verwenden Sie eine **Warten**-Aktivität, damit die Payload-Zeit der In-App-Nachricht weitergegeben wird. Normalerweise wird eine Wartezeit von 5 bis 15 Minuten empfohlen. Die genauen Zeiten können jedoch je nach Payload-Komplexität und Personalisierungsanforderungen variieren.
 
 ## Konfiguration {#wait-configuration}
 

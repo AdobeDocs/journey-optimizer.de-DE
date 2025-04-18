@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 99%
+source-wordcount: '2056'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,10 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 1. Sobald Ihre In-App-Nachricht fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Sie Ihre Journey, um sie zu aktivieren.
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+
+>[!NOTE]
+>
+>Wenn Sie eine In-App-Nachricht kurz nach dem Senden einer Push-Benachrichtigung anzeigen möchten, verwenden Sie eine **Warten**-Aktivität, damit die Payload-Zeit der In-App-Nachricht weitergegeben wird. Normalerweise wird eine Wartezeit von 5 bis 15 Minuten empfohlen. Die genauen Zeiten können jedoch je nach Payload-Komplexität und Personalisierungsanforderungen variieren.
 
 >[!TAB Hinzufügen einer In-App-Nachricht zu einer Kampagne]
 
