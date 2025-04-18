@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 95%
+source-wordcount: '678'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für sys
 * 90 Tage für Daten im Profilspeicher,
 * 13 Monate für Daten im Data Lake.
 
-Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. 
+Diese Änderung wird in einer **Phase in** bestehenden Kunden-Sandboxes eingeführt.
 
 ## Betroffene Datensätze {#datasets}
 
@@ -75,13 +75,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target="_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=„_blank“}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen?
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kunden können Daten über Ziele exportieren, um Daten länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank}. Darüber hinaus können Kundinnen und Kunden mit einer **[!DNL Data Distiller]** Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kunden können Daten über Ziele exportieren, um Daten länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=„_blank“}. Darüber hinaus können Kundinnen und Kunden mit einer **[!DNL Data Distiller]** Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=„_blank“}
 
 +++
 
