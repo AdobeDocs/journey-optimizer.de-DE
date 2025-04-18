@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 18%
+source-wordcount: '535'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 18%
    * [Konfigurieren der Kampagneneinstellungen](ms-campaign-settings.md)
    * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
    * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-* [Personalisierung](ms-personalization.md)
+* [Personalisieren von Nachrichten](ms-personalization.md)*
+* [Erstellen von Abfragen](ms-query-modeler.md)
 * [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
 * Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - ](activities/channels.md)Abzweigung[](activities/load-file.md) Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/update-data.md) [ ](activities/wait.md) - Abstimmung[ - Zielgruppe speichern[ ->Daten aktualisierenWarten](activities/fork.md)
