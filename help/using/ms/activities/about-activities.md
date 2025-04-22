@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
@@ -24,13 +24,13 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 * [Kanalaktivitäten](#channel)
 * [Aktivitäten zur Flusssteuerung](#flow-control)
 
-![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/workflow-activities.png){width="70%" align="left"}
+![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## Aktivitäten zur Zielgruppenbestimmung {#targeting}
 
 Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-![Liste der Zielgruppenaktivitäten](../assets/targeting-activities.png){width="50%" align="left"}
+![Liste der Zielgruppenaktivitäten](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Sie können entweder eine bestehende Zielgruppe auswählen oder den Abfrage-Modeler verwenden, um Ihre eigene Abfrage zu definieren.
 * [Dimensionsänderung](change-dimension.md): Ändern Sie die Zielgruppendimension beim Erstellen Ihrer orchestrierten Kampagne.
@@ -51,7 +51,7 @@ Mit Adobe Journey Optimizer können Sie Marketing-Kampagnen über mehrere Kanäl
 >title="Endaktivität"
 >abstract="Die **Ende**-Aktivität ermöglicht es Ihnen, das Ende einer orchestrierten Kampagne grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
-![Liste der Flusssteuerungsaktivitäten](../assets/flow-control-activities.png){width="50%" align="left"}
+![Liste der Flusssteuerungsaktivitäten](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 Die folgenden Aktivitäten sind spezifisch für die Organisation und Ausführung orchestrierter Kampagnen. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
