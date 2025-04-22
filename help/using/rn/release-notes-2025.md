@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 89%
+source-wordcount: '674'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +40,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Sie können jetzt Geschäftsregeln mithilfe von Regelsätzen erstellen. Regelsätze sind Gruppen von Regeln, mit denen innerhalb von Kampagnen gesendete Nachrichten und kanalübergreifende Journey-Aktionen eingeschränkt sowie Profileintritte in Journeys gesteuert werden können.<p>
 <p><ul><li>Erstellen Sie Kanalregelsätze, um die Anzahl der Nachrichten zu beschränken, die über einen oder mehrere Kanäle gesendet werden. Wenden Sie sie auf Kampagnen- oder Journey-Aktionen an, um die im Regelsatz definierten Regeln durchzusetzen. Mit einem Kanalregelsatz können Sie Begrenzungsregeln basierend auf Kommunikationstypen anwenden. Legen Sie beispielsweise einen Regelsatz fest, um sich auf „Werbenachrichten“ zu begrenzen, und einen weiteren für „Newsletter“. Wenden Sie den entsprechenden Regelsatz in Ihrer Kampagnen- oder Journey-Aktion an, je nach dem Kommunikationstyp, den Sie verwenden.</li>
 <li> Erstellen Sie Journey-Regelsätze, um Profileintritte in Journeys zu steuern. Schränken Sie etwa ein, wie oft ein Profil innerhalb eines bestimmten Zeitraums auf eine Journey zugreifen kann oder für wie viele Journeys ein Profil gleichzeitig registriert sein kann. Wenden Sie diese Regeln auf der Journey-Ebene an, um eine ordnungsgemäße Eintrittsverwaltung sicherzustellen.</li></ul></p>
-<p>Bislang für eine Reihe von Organisationen (LA) verfügbar, stehen Geschäftsregeln jetzt für alle Benutzer (GA) zur Verfügung. Geschäftsregeln für Journey-Domains sind weiterhin nur für eine begrenzte Anzahl von Organisationen verfügbar.</p>
+<p>Geschäftsregeln, die zuvor nur für eine Reihe von Organisationen verfügbar waren (LA), stehen jetzt allen Benutzenden zur Verfügung (GA). Geschäftsregeln für Journey-Domains sind weiterhin nur für eine begrenzte Anzahl von Organisationen verfügbar (LA).</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/rule-sets.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -55,7 +56,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und personalisierter Visualisierungen.</p>
+<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und angepasster Visualisierungen.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Weitere Informationen finden Sie in der <a href="../content-management/generative-lp.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -67,7 +68,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Marken mit dem KI-Assistenten (Beta)</strong><br/></th>
+<th><strong>Marken mit KI-Assistent (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine benutzerdefinierte Aktionskonfiguration überprüfen, indem Sie echte API-Aufrufe direkt aus Adobe Journey Optimizer durchführen. Diese neue Funktion hilft Ihnen bei der Fehlerbehebung bei benutzerdefinierten Aktionen, bevor oder nachdem diese auf einer Journey verwendet werden. </p>
+<p>Sie können jetzt eine benutzerdefinierte Aktionskonfiguration validieren, indem Sie echte API-Aufrufe direkt aus Adobe Journey Optimizer durchführen. Mit dieser neuen Funktion können Sie Fehler bei benutzerdefinierten Aktionen beheben, bevor oder nachdem diese in einer Journey verwendet werden.  </p>
 <p>Weitere Informationen finden Sie in der <a href="../action/troubleshoot-custom-action.md">ausführlichen Dokumentation</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -149,4 +150,3 @@ Die folgenden Verbesserungen werden mit dem Februar-Update vorgenommen.
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **Entscheidungsfindung** (Verfügbarkeitsdatum: 28. Januar 2025): Bei der Entscheidungsfindung werden nun Objektdatentypen beim Bearbeiten des Schemas des Elementkatalogs unterstützt. [Weitere Informationen](../experience-decisioning/catalogs.md)
-

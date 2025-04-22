@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6785'
-ht-degree: 99%
+source-wordcount: '6783'
+ht-degree: 98%
 
 ---
 
@@ -441,7 +441,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sobald Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie die Inhalte mit dem KI-Assistenten in Adobe Journey Optimizer auf die nächste Stufe bringen. Sie können jetzt den KI-Assistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
+<p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, heben Sie Ihre Inhalte mit dem KI-Assistenten in Journey Optimizer auf die nächste Stufe. Sie können jetzt den KI-Assistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
 <p>Machen Sie sich mit <a href="https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator">unserer Live-Funktionsvorschau</a> auf praktische Weise vertraut, die Ihnen die Möglichkeit gibt, die Funktionen selbst zu entdecken und die entsprechenden Fähigkeiten vollständig zu verstehen.</a></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/gs-generative.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,10 +504,10 @@ Sie können jetzt Inhaltsvorlagen und Fragmente zwischen Sandboxes exportieren. 
 
 * **Campaign Simulation-API**: Verwenden Sie diese API, um einen Testversand für eine Kampagne auszulösen. Das Senden eines Kampagnen-Testversands ist ein asynchroner Prozess. Die API gibt eine proofJobId zurück, mit der der Status des Testversands überprüft werden kann. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (Verfügbarkeitsdatum: 10. September) Die [Adobe Journey Optimizer-API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Sie können die API-Endpunkte direkt auf den Dokumentationsseiten sondieren, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
+* (Verfügbarkeitsdatum: 10. September) Die [Adobe Journey Optimizer-API-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} ist jetzt interaktiv. Sie können die API-Endpunkte direkt auf den Dokumentationsseiten sondieren, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
 
-  Alle API-Referenzseiten verfügen jetzt über eine Funktion zum **Ausprobieren**, mit der Sie API-Aufrufe direkt auf der Dokumentationsseite der Website testen können. [Beschaffen Sie sich die erforderlichen Authentifizierungsberechtigungen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und nutzen Sie die Funktion, um die API-Endpunkte zu sondieren.
+  Alle API-Referenzseiten verfügen jetzt über eine Funktion zum **Ausprobieren**, mit der Sie API-Aufrufe direkt auf der Dokumentationsseite der Website testen können. [Erhalten Sie die erforderlichen Authentifizierungsdaten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} und verwenden Sie die -Funktion, um die API-Endpunkte zu untersuchen.
 
   Untersuchen Sie mithilfe dieser neuen Funktion die Anfragen an und Antworten von API-Endpunkten, um sofort Feedback zu erhalten und die technische Implementierung zu beschleunigen.
 
@@ -1081,7 +1081,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

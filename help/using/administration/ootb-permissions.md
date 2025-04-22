@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 
 | Funktion | Berechtigungen |
 |-|-|
-| KI-Assistent | **[!DNL Generate content]**: Zugriff auf den KI-Assistenten in Journey Optimizer |
+| KI-Assistent | **[!DNL Generate content]**: Zugriff auf den KI-Assistenten in Journey Optimizer. |
 | Kampagnen | **[!DNL Approve & publish Campaigns]**: Berechtigung zum Genehmigen und Veröffentlichen von Kampagnen, wenn eine Richtlinie angewendet ist. </br>**[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</br>**[!DNL Publish campaigns]**: Berechtigung zur Veröffentlichung von Kampagnen.</br>**[!DNL View campaigns]**: Nur-Lese-Zugriff auf Kampagnen.</br>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten. |
 | Kanalkonfigurationen | **[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</br>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</br> **[!DNL Manage file routing]**: Lesen, Erstellen, Bearbeiten und Löschen von Datei-Routing-Konfigurationen. </br> **[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools. </br>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</br> **[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</br>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</br>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen. </br>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</br>**[!DNL Manage SMS subdomains]**: Lesen, Erstellen, Bearbeiten und Löschen von SMS-Subdomains. </br> **[!DNL Manage Seedlist]**: Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten. </br> **[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen. </br>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</br> **[!DNL View channel surfaces]**: schreibgeschützter Zugriff auf Kanaloberflächen.</br>**[!DNL View file routing]**: schreibgeschützter Zugriff auf Datei-Routing-Konfigurationen.</br>**[!DNL View messages general settings]**: Nur-Lese-Zugriff auf allgemeine Nachrichteneinstellungen. </br> **[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen. </br> **[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</br>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste. |
 | Dashboards | **[!DNL View license usage dashboards]**: Nur-Lese-Zugriff auf das [Dashboard zur Lizenznutzung](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]**: Ermöglicht Ihnen, ein neues Dashboard zu erstellen oder ein vorhandenes Dashboard zu bearbeiten.</br>**[!DNL Manage standard dashboards]**: Ermöglicht Ihnen, benutzerdefinierte Widgets zu erstellen und das Widget-Schema über die Widget-Bibliothek zu bearbeiten.</br>**[!DNL View custom dashboards]**: schreibgeschützter Zugriff auf benutzerdefinierte Dashboards.</br>**[!DNL View standard dashboards]**: schreibgeschützter Zugriff auf die Dashboards „Profile“, „Ziele“ und „Zielgruppen“. |

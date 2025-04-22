@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Alle neuen Funktionen und Verbesserungen, die mit der Version September 2024 von [!DNL Journey Optimizer] eingeführt werden, sind in der Dokumentation ausführlich beschrieben. [Mehr dazu](release-notes.md)
 * Ein Abschnitt über die Verwaltung von Wiederholungsversuchen in Journey wurde hinzugefügt. [Mehr dazu](../building-journeys/read-audience.md#read-audience-retry)
 * Die häufig gestellten Fragen zur Begrenzungs-/Einschränkungsregel für benutzerdefinierte Aktionen wurden aktualisiert und erwähnen nun die standardmäßige Begrenzungsregel. [Mehr dazu](../configuration/external-systems.md#faq)
-* Der Abschnitt über die Zugriffskontrolle wurde mit Berechtigungen im Zusammenhang mit dem Inhaltsgenerator des KI-Assistenten aktualisiert. [Mehr dazu](../administration/high-low-permissions.md#ai-permission)
-* Es wurde ein Video über den Inhaltsgenerator des KI-Assistenten für die E-Mail-Erstellung hinzugefügt. [Weitere Informationen](../content-management/generative-email.md#video)
+* Der Abschnitt „Zugriff kontrollieren“ wurde mit Berechtigungen in Bezug auf den KI-Assistenten-Inhaltsgenerator aktualisiert. [Weitere Informationen](../administration/high-low-permissions.md#ai-permission)
+* Es wurde ein Video über AI Assistant Content Generator für die E-Mail-Generierung hinzugefügt. [Weitere Informationen](../content-management/generative-email.md#video)
 
 <!--
 

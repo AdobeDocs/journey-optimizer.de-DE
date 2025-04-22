@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
-workflow-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. Öffnen Sie den Abschnitt **[!UICONTROL KI-Assistent]**.
 
-1. Aktivieren Sie die Funktion **[!UICONTROL Originalinhalt verwenden]** im KI-Assistenten, um neue Inhalte entsprechend Ihren Kampagnendetails anzupassen, einschließlich des Kampagnennamens und der Zielgruppe.
+1. Aktivieren Sie die Funktion **[!UICONTROL Original-Inhalt verwenden]** im KI-Assistenten, um neue Inhalte an Ihre Kampagnendetails anzupassen, einschließlich des Kampagnennamens und der Zielgruppe.
 
 1. Passen Sie den Inhalt an, indem Sie Ihre Anforderung im Feld **[!UICONTROL Prompt]** angeben und die Einstellungen nach Bedarf anpassen.
 
@@ -57,13 +57,13 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die ausgewählte Variante dient als Referenz zum Generieren weiterer Inhalte.
 
-   * **[!UICONTROL Ausführlich]**: Lassen Sie den KI-Assistenten bestimmte Punkte näher untersuchen und bieten Sie tiefer gehende und detailliertere Informationen für eine bessere Interaktion.
+   * **[!UICONTROL Ausarbeiten]**: Lassen Sie den KI-Assistenten auf bestimmte Punkte eingehen und bieten Sie mehr Tiefe und Details für eine bessere Interaktion.
 
-   * **[!UICONTROL Zusammenfassen]**: Verwenden Sie den KI-Assistenten bei ausführlichen Informationen, um kurze Zusammenfassungen zu erstellen, die für Empfangende von E-Mails einfacher aufzunehmen sind.
+   * **[!UICONTROL Zusammenfassen]**: Für ausführliche Informationen verwenden Sie den KI-Assistenten, um knappe Zusammenfassungen zu erstellen, die E-Mail-Empfängern das Digest erleichtern.
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten darstellen und so dazu beitragen, den Inhalt für eine Vielzahl von Zielgruppen auf dem neuesten Stand zu halten.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht klar und für alle Lesenden zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Vereinfachen Sie die Sprache mit dem KI-Assistenten, um sicherzustellen, dass die Nachricht klar und für alle Leser zugänglich ist.
 
    Darüber hinaus können Sie den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Inhalts anpassen.
 
@@ -95,11 +95,11 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 1. Nachdem Sie Ihre E-Mail-Kampagne eingerichtet und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Wählen Sie das Asset aus, das Sie mit dem KI-Assistenten ändern möchten.
+1. Wählen Sie das Asset, das Sie mit dem KI-Assistenten ändern möchten.
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]**, damit der KI-Assistent neue Inhalte mithilfe des Referenzmaterials generieren kann.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** , damit der KI-Assistent mithilfe des Referenzmaterials neue Inhalte generieren kann.
 
 1. Klicken Sie auf **[!UICONTROL Bild hochladen]**, um ein Bild einzubeziehen, das Kontext zu Ihrer Variante hinzufügt.
 

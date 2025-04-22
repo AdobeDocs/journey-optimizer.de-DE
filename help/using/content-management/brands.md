@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 92%
 
 ---
 
@@ -131,7 +131,7 @@ Zum Erstellen und Verwalten Ihrer Markenrichtlinie können Sie die Details entwe
 
    ![](assets/brands-4.png)
 
-1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]** und dann auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
+1. Klicken Sie nach der Konfiguration **[!UICONTROL Speichern]** und anschließend **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
 
 1. Um Änderungen an Ihrer veröffentlichten Marke vorzunehmen, klicken Sie auf **[!UICONTROL Marke bearbeiten]**.
 
@@ -152,6 +152,6 @@ Zum Erstellen und Verwalten Ihrer Markenrichtlinie können Sie die Details entwe
 
    ![](assets/brands-6.png)
 
-Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü des KI-Assistenten verfügbar, sodass Inhalte und Assets generiert werden können, die Ihren Spezifikationen entsprechen. [Erfahren Sie mehr über den KI-Assistenten](gs-generative.md)
+Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar, sodass Inhalte und Assets generiert werden können, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](gs-generative.md)
 
 ![](assets/brands-7.png)

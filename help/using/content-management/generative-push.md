@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generierung von Push-Benachrichtigungen mit dem KI-Assistenten in Journey Optimizer
+title: Push-Generierung mit dem KI-Assistenten in Journey Optimizer
 description: Generieren von Push-Inhalten mit dem KI-Assistenten in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+workflow-type: tm+mt
+source-wordcount: '1608'
+ht-degree: 79%
 
 ---
 
-# Generierung von Push-Benachrichtigungen mit dem KI-Assistenten {#generative-push}
+# Push-Generierung mit dem KI-Assistenten {#generative-push}
 
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Sobald Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie den Inhalt Ihrer Push-Benachrichtigungen mithilfe des KI-Assistenten in Journey Optimizer auf die nächste Stufe bringen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, heben Sie Ihre Push-Benachrichtigungsinhalte mit dem KI-Assistenten in Journey Optimizer auf die nächste Stufe.
 
-Mithilfe der folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
@@ -48,9 +48,9 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Originalinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
-1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen. [Erfahren Sie mehr](brands.md) über Marken.
+1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
    Beachten Sie, dass die Marken-Funktion als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt wird.
 
@@ -66,7 +66,7 @@ Führen Sie folgende Schritte aus:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Die Sprachoptionen Spanisch, Italienisch, Schwedisch und Norwegisch werden als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt.
-   * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
 
@@ -80,7 +80,7 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
@@ -94,7 +94,7 @@ Führen Sie folgende Schritte aus:
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
@@ -110,7 +110,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
 >[!TAB Nur Textgenerierung]
 
-In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für bestimmte Inhalte nutzen können. Führen Sie folgende Schritte aus:
+In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer für bestimmte Inhalte verwenden. Führen Sie folgende Schritte aus:
 
 1. Nachdem Sie Ihre Push-Benachrichtigungs-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -124,7 +124,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
@@ -140,12 +140,12 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Die Sprachoptionen Spanisch, Italienisch, Schwedisch und Norwegisch werden als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt.
-   * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
@@ -157,11 +157,11 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    * **[!UICONTROL Weiter ausführen]**: Der KI-Assistent kann Ihnen dabei helfen, genauer auf bestimmte Themen einzugehen und zusätzliche Details zum besseren Verständnis und für mehr Interaktion zu liefern.
 
-   * **[!UICONTROL Zusammenfassen]**: Zu ausführliche Informationen können die Empfangenden überfordern. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+   * **[!UICONTROL Zusammenfassen]**: Zu ausführliche Informationen können die Empfangenden überfordern. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, knappen Zusammenfassungen zu verdichten, die Aufmerksamkeit erregen und sie zum weiteren Lesen ermutigen.
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
@@ -189,7 +189,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
@@ -209,7 +209,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 

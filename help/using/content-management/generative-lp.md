@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generierung von Landingpages mit dem KI-Assistenten in Journey Optimizer
-description: Generieren von Landingpage-Inhalten und Assets mit dem KI-Assistenten in Journey Optimizer
+title: Generieren von Landingpages mit dem KI-Assistenten in Journey Optimizer
+description: Generieren von Landingpage-Inhalten und -Assets mit dem KI-Assistenten in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
-source-wordcount: '1545'
-ht-degree: 100%
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+workflow-type: tm+mt
+source-wordcount: '1524'
+ht-degree: 75%
 
 ---
 
-# Generieren von Landingpages mit dem KI-Assistenten {#generative-lp}
+# Generieren von Landingpages mit KI-Assistenten {#generative-lp}
 
 >[!IMPORTANT]
 >
 >* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 >
 >
->* Sie müssen die [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akzeptieren, bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>* Sie müssen die [Benutzervereinbarung“ akzeptieren](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Transformieren Sie Ihre Landingpages mit dem KI-Assistenten in Journey Optimizer, der auf generativer KI basiert.
 
 Erstellen Sie mühelos wirkungsvolle Inhalte, einschließlich vollständiger Seiten, maßgeschneiderter Textausschnitte und benutzerdefinierter Visualisierungen, die Ihre Zielgruppe ansprechen und so mehr Interaktion fördern.
 
-Mithilfe der folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie den KI-Assistenten in Journey Optimizer verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Vollständige Landingpage-Generierung]
 
-Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingpage-Vorlage zu verfeinern.
+Im folgenden Beispiel verwenden wir den KI-Assistenten, um eine vorhandene Landingpage-Vorlage zu verfeinern.
 
 1. Nachdem Sie Ihre Landingpage erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -44,7 +44,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -56,7 +56,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Die Sprachoptionen Spanisch, Italienisch, Schwedisch und Norwegisch werden als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt.
-   * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
@@ -82,9 +82,9 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
-   * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
+   * **[!UICONTROL Umformulierungen]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihre Texte für verschiedene Zielgruppen interessant und ansprechend klingen.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
@@ -98,7 +98,7 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 >[!TAB Nur Textgenerierung]
 
-Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landingpage zu verbessern.
+Im folgenden Beispiel werden wir den KI-Assistenten nutzen, um den Inhalt unserer Landingpage zu verbessern.
 
 1. Nachdem Sie Ihre Landingpage erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -108,7 +108,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
+1. Aktivieren Sie die Option **[!UICONTROL Original-Inhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren möchten.
 
@@ -120,12 +120,12 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Die Sprachoptionen Spanisch, Italienisch, Schwedisch und Norwegisch werden als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt.
-   * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Je nachdem, ob Sie informativ, humorvoll oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
+   * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Egal, ob Sie informativ, spielerisch oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
@@ -141,11 +141,11 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    * **[!UICONTROL Weiter ausführen]**: Der KI-Assistent kann Ihnen dabei helfen, genauer auf bestimmte Themen einzugehen und zusätzliche Details zum besseren Verständnis und für mehr Interaktion zu liefern.
 
-   * **[!UICONTROL Zusammenfassen]**: Zu ausführliche Informationen können die Empfängerinnen und Empfänger einer Landingpage überfordern. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+   * **[!UICONTROL Zusammenfassen]**: Zu ausführliche Informationen können die Empfängerinnen und Empfänger einer Landingpage überfordern. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, knappen Zusammenfassungen zu verdichten, die Aufmerksamkeit erregen und sie zum weiteren Lesen ermutigen.
 
    * **[!UICONTROL Umformulieren]**: Der KI-Assistent kann Ihre Nachricht auf verschiedene Arten umformulieren, sodass Ihr Text frisch und für verschiedene Zielgruppen ansprechend bleibt.
 
-   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
+   * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihre Sprache zu vereinfachen und einer breiteren Zielgruppe Klarheit und Barrierefreiheit zu bieten.
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
@@ -159,7 +159,7 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 >[!TAB Nur Bildgenerierung]
 
-Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, um Ihre Assets zu optimieren und zu verbessern und so ein benutzerfreundlicheres Erlebnis zu gewährleisten.
+Im folgenden Beispiel erfahren Sie, wie Sie mit dem KI-Assistenten Ihre Assets optimieren und verbessern und so ein benutzerfreundlicheres Erlebnis gewährleisten können.
 
 1. Nachdem Sie Ihre Landingpage erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -171,7 +171,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
+1. Aktivieren Sie die Option **[!UICONTROL Referenzstil]** für den KI-Assistenten, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
 1. Passen Sie den Inhalt an, indem Sie im Feld **[!UICONTROL Prompt]** beschreiben, was Sie generieren lassen möchten.
 
@@ -190,7 +190,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um ein beliebiges Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext für den KI-Assistenten bieten können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können, oder ein zuvor hochgeladenes Asset auszuwählen.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
