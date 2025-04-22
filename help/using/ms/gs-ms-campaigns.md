@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 408e2264056c52c1d73bcd412e7a73f25812c224
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '529'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 * [Erstellen von Abfragen](ms-query-modeler.md)
 * [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
-* Aktivitäten : [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/enrichment.md) - [Abgleich[ ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) Abstimmung](activities/channels.md) - [Zielgruppe speichern](activities/fork.md) - -TestWait
+* Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/enrichment.md) - [](activities/fork.md) Form[ - Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) - WartenWarten](activities/channels.md) [
 * [Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]

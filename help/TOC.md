@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2336'
 ht-degree: 89%
 
 ---
@@ -198,7 +198,6 @@ ht-degree: 89%
       + [Anreicherung](using/ms/activities/enrichment.md)
       + [Verzweigung](using/ms/activities/fork.md)
       + [Abstimmung](using/ms/activities/reconciliation.md)
-      + [Zielgruppe speichern](using/ms/activities/save-audience.md)
       + [Aufspaltung](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
       + [Warten](using/ms/activities/wait.md)
