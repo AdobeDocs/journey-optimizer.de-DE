@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 54%
+source-wordcount: '401'
+ht-degree: 51%
 
 ---
 
@@ -38,12 +38,6 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 * [Abstimmung](reconciliation.md) Definieren Sie die Relation zwischen den Daten in Journey Optimizer und den Daten in einer Arbeitstabelle, z. B. Daten aus einer externen Datei.
 * [Audience speichern](save-audience.md): Aktualisieren Sie eine vorhandene Audience oder erstellen Sie eine neue Audience aus der Population, die in einer orchestrierten Kampagne im Upstream berechnet wird.
 * [Aufspaltung](split.md): Segmentieren Sie die eingehende Population in mehrere Teilmengen.
-
-## Daten-Management-Aktivitäten {#data}
-
-Diese Aktivitäten dienen der Manipulation und Anreicherung von Populationsdaten.
-
-* [Datei laden](load-file.md): Mit dieser Aktivität können Sie mit Profilen und Daten arbeiten, die in einer externen Datei gespeichert sind.
 
 ## Kanalaktivitäten {#channel}
 

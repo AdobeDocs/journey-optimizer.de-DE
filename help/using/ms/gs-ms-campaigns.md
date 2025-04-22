@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '531'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 * [Erstellen von Abfragen](ms-query-modeler.md)
 * [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
-* Aktivitäten : [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - [](activities/fork.md) Abzweigung[](activities/load-file.md) Datei laden[ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) - Abstimmung](activities/channels.md) - Zielgruppe speichern[ - -AufspaltungWartenWartenSie
+* Aktivitäten : [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/enrichment.md) - [Abgleich[ ](activities/reconciliation.md) - [](activities/save-audience.md) [ ](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) Abstimmung](activities/channels.md) - [Zielgruppe speichern](activities/fork.md) - -TestWait
 * [Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]

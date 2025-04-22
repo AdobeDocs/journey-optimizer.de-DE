@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 75%
+source-wordcount: '560'
+ht-degree: 76%
 
 ---
 
@@ -93,33 +93,3 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 1. Mithilfe der Schaltfläche **Filter erstellen** können Sie die abzustimmenden Daten filtern. Auf diese Weise können Sie mithilfe des Abfrage-Modelers eine benutzerdefinierte Bedingung erstellen.
 
 Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und stehen in der Arbeitstabelle zur zukünftigen Verwendung zur Verfügung. Um nicht abgestimmte Daten zu entfernen, deaktivieren Sie die Option **Nicht abgestimmte Daten beibehalten**.
-
-## Beispiel {#reconciliation-example}
-
-Im folgenden Beispiel wird eine koordinierte Kampagne veranschaulicht, mit der eine Zielgruppe aus Profilen direkt aus einer importierten Datei mit neuen Clients erstellt wird. Er setzt sich aus folgenden Aktivitäten zusammen:
-
-Die koordinierte Kampagne sieht wie folgt aus:
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Er besteht aus den folgenden Aktivitäten:
-
-* Eine [Datei laden](load-file.md)-Aktivität lädt eine Datei mit Profildaten hoch, die aus einem externen Tool extrahiert wurden.
-
-  z. B.:
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* Eine **Abstimmungsaktivität**, die die eingehenden Daten als Profile identifiziert, indem die Felder **E-Mail** und **Geburtsdatum** als Abstimmkriterien verwendet werden.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* Eine Aktivität [Zielgruppe speichern](save-audience.md), um eine neue Zielgruppe auf der Grundlage dieser Aktualisierungen zu erstellen. Sie können die Aktivität **Zielgruppe speichern** auch durch die Aktivität **Ende** ersetzen, wenn keine bestimmte Zielgruppe erstellt oder aktualisiert werden muss. Empfängerprofile werden in jedem Fall aktualisiert, wenn Sie die orchestrierte Kampagne ausführen.
