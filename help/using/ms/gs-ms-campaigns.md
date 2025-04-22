@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 18%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 18%
 
 **Inhaltsverzeichnis**
 
-* Erste Schritte mit koordinierten Kampagnen
-* Konfiguration
-   * [Konfigurieren Sie Ihre orchestrierten Kampagnen](gs-campaign-config.md)
-   * [Erstellen relationaler Schemata](ms-schemas.md)
-* Erstellen der ersten orchestrierten Kampagne
-   * [Grundsätze](gs-campaign-creation.md)
-   * [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md)
-   * [Konfigurieren der Kampagneneinstellungen](ms-campaign-settings.md)
-   * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
-   * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
+* Konfiguration: [Konfigurieren Sie Ihre orchestrierten Kampagnen](gs-campaign-config.md)
+* Konfiguration: [Erstellen von relationalen Schemata](ms-schemas.md)
+* Erstellen Sie Ihre erste orchestrierte Kampagne: [Grundprinzipien](gs-campaign-creation.md)
+* [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md)
+* [Konfigurieren der Kampagneneinstellungen](ms-campaign-settings.md)
 * [Nachrichten personalisieren](ms-personalization.md)
 * [Erstellen von Abfragen](ms-query-modeler.md)
 * [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
-* Liste der Aktivitäten: [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/enrichment.md) - [](activities/fork.md) Form[ - Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [ ](activities/test.md) [ ](activities/wait.md) - WartenWarten](activities/channels.md) [
-* [Reporting](reporting-campaigns.md)
+* Aktivitäten: [Erste Schritte mit Aktivitäten](activities/about-activities.md)
+* [Orchestrieren von Aktivitäten](orchestrate-activities.md)
+* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/channels.md) - [Anreicherung](activities/enrichment.md) [ ](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) &lt;!—[test](activities/test.md) —> [wait](activities/wait.md)
+* Monitoring: [Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
