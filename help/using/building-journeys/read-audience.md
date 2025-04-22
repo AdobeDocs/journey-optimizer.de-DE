@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 93%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Synchronisieren der Journey-Ausführung mit dem Zielgruppenexport"
->abstract="Schalten Sie diese Option ein, um den Journey-Trigger auszuführen, sobald ein neuer Export der Zielgruppe verfügbar ist."
+>title="Trigger nach der Batch-Zielgruppenbewertung"
+>abstract="Schalten Sie diese Option ein, um die Journey-Ausführung nach einer erneuten Auswertung der Batch-Zielgruppe als Trigger auszuführen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Synchronisieren der Journey-Ausführung mit dem Zielgruppenexport"
->abstract="Geben Sie die Dauer an, die die Journey warten soll, um sicherzustellen, dass ein neuer Export der Zielgruppe verfügbar ist."
+>title="Wartezeit für eine neue Zielgruppenbewertung"
+>abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet."
 
 Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zielgruppe in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
