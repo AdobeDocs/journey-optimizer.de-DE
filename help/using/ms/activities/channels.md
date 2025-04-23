@@ -35,7 +35,7 @@ Beginnen Sie mit der Erstellung Ihrer orchestrierten Kampagne mit den relevanten
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="E-Mail-Aktivität"
->abstract="Die E-Mail-Aktivität ermöglicht den Versand von E-Mails innerhalb der mehrstufigen Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von E-Mails an eine innerhalb derselben mehrstufigen Kampagne berechnete Zielgruppe zu automatisieren. Sie können Kanalaktivitäten in einer mehrstufigen Kampagnenarbeitsfläche kombinieren, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die E-Mail-Aktivität ermöglicht den Versand von E-Mails innerhalb der mehrstufigen Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von E-Mails an eine innerhalb derselben mehrstufigen Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in einer mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
