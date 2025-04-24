@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
 
 # Erste Schritte mit Inhaltsvorlagen {#content-templates}
+
+>[!NOTE]
+>
+>Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Journey Optimizer]-Kampagnen und -Journeys einfach wiederzuverwenden.
 

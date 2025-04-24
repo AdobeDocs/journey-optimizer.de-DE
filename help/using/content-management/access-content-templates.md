@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 94%
 
 ---
 
@@ -43,6 +43,10 @@ Inhaltsvorlagen können nach folgenden Kriterien sortiert werden:
 Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 ## Verwalten von Inhaltsvorlagen mit Ordnern {#folders}
 

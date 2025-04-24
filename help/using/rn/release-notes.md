@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b9c2daa61a13de2d0f1ce6174c80a16459b8b1
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 69%
+source-wordcount: '894'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="Neue Funktionen"
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Aktualisierungen April 2025
 
@@ -243,6 +243,11 @@ Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit
 Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Dokumentation](../configuration/rule-sets.md).
+
+**Inhaltsvorlagen**
+
+Inhaltsvorlagen vom Typ HTML werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Erfahren Sie mehr über Inhaltsvorlagen](../content-management/content-templates.md)
+
 
 <!--**Deliverability**
 

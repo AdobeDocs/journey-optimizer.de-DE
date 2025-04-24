@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
 
-* Erstellen Sie eine neue Inhaltsvorlage mithilfe des Menüs **[!UICONTROL Inhaltsvorlagen]** in der linken Leiste. [Weitere Informationen](#create-template-from-scratch)
+* Sie können eine neue Inhaltsvorlage mit dem Menü **[!UICONTROL Inhaltsvorlagen]** in der linken Leiste von Grund auf neu erstellen. [Weitere Informationen](#create-template-from-scratch)
 
 * Speichern Sie den Inhalt bei der Inhaltsgestaltung innerhalb einer Kampagne oder einer Journey als Vorlage. [Weitere Informationen](#save-as-template)
 
@@ -37,6 +37,10 @@ Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journeys verfü
 >* Wenn Vorlagen in einer Kampagne oder einer Journey verwendet werden, wirken sich Änderungen am Kampagnen- und Journey-Inhalt ebenso nicht auf die zuvor verwendete Inhaltsvorlage aus.
 
 ## Erstellen einer Vorlage von Grund auf {#create-template-from-scratch}
+
+>[!NOTE]
+>
+>Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
@@ -51,14 +55,6 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    >[!NOTE]
    >
    >Derzeit sind alle Kanäle außer Web verfügbar.
-
-1. Wählen Sie einen **[!UICONTROL Typ]** für den ausgewählten Kanal.
-
-   ![](assets/content-template-type.png)
-
-   * Wenn Sie für **[!UICONTROL E-Mail]** die Option **[!UICONTROL Inhalt]** auswählen, können Sie den [Betreff](../email/create-email.md#define-email-content) als Teil Ihrer Vorlage definieren. Wenn Sie **[!UICONTROL HTML]** auswählen, können Sie nur den Inhalt des E-Mail-Texts definieren.
-
-   * Für **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-App]** und **[!UICONTROL Briefpost]** ist nur der Standardtyp für den aktuellen Kanal verfügbar. Trotzdem müssen Sie ihn auswählen.
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags im Feld **[!UICONTROL Tags]**, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    * [Definieren von Briefpost-Inhalten](../direct-mail/create-direct-mail.md)
    * [Definieren von In-App-Inhalten](../in-app/design-in-app.md)
 
-1. Wenn Sie eine **[!UICONTROL E-Mail]**-Vorlage mit dem Typ **[!UICONTROL HTML]** erstellen, können Sie den Inhalt testen. [Weitere Informationen](#test-template)
+1. Sie können Ihre Inhalte testen. [Weitere Informationen](#test-template)
 
 1. Sobald Ihre Vorlage fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -110,7 +106,7 @@ Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen f�
 
    >[!NOTE]
    >
-   >Der aktuelle Kanal und der aktuelle Typ werden automatisch ausgefüllt und können nicht bearbeitet werden. Für E-Mail-Vorlagen, die mit [E-Mail-Designer](../email/get-started-email-design.md) erstellt wurden, wird der Typ **[!UICONTROL HTML]** automatisch ausgewählt.
+   >Der aktuelle Kanal wird automatisch ausgefüllt und kann nicht bearbeitet werden.
 
 1. Wählen oder erstellen Sie ein Adobe Experience Platform-Tag im Feld **Tags**, um Ihre Vorlage zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
