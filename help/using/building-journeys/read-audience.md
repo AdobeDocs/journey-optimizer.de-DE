@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
->title="Startdatum/-zeit"
->abstract="Legen Sie das Datum und die Uhrzeit für den Trigger dieser Journey fest."
+>title="Anfangsdatum/Uhrzeit"
+>abstract="Legen Sie das Datum und die Uhrzeit zum Auslösen dieser Journey fest."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Wiederholen bis"
->abstract="Enddatum der Wiederholung definieren."
+>abstract="Legen Sie das Enddatum der Wiederholung fest."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
@@ -43,12 +43,12 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="Inkrementelles Lesen"
->abstract="Nur neuen Profilen seit dem letzten Lesen erlauben, die Journey zu betreten."
+>abstract="Nur neuen Profilen seit dem letzten Lesen erlauben, in die Journey einzutreten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Wiedereintritt erzwingen"
->abstract="Alle Journey-Teilnehmer vor jedem Lesen der Zielgruppe ablegen."
+>abstract="Alle Journey-Teilnehmenden vor jedem Lesen der Zielgruppe entfernen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"

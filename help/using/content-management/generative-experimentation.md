@@ -11,7 +11,7 @@ exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 69%
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, erhöhen Sie Ihr
 
    ![](assets/experiment-genai-3.png)
 
-1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zum Inhaltsexperiment](../content-management/content-experiment.md)
+1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zu Inhaltsexperimenten](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 

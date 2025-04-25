@@ -9,7 +9,7 @@ exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 68%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 ## Reporting über codebasierte Kampagnen {#campaigns}
 
-Sobald Code-basierte Erlebnisse verfügbar sind, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) als umfassendes Dashboard zu überwachen und eine Analyse der mit Ihrer Kampagne verbundenen wesentlichen Metriken bereitzustellen.
+Sobald Code-basierte Erlebnisse live sind, können Sie auf dedizierte Berichte als allumfassendes Dashboard zugreifen, um Key Performance Indicators (KPIs) zu überwachen und so eine Analyse der wesentlichen Metriken bereitzustellen, die mit Ihrer Kampagne verknüpft sind.
 
 Diese umfasst Details zu den Leistungen der Entscheidungselemente und zur Interaktion der Benutzenden mit diesen. [Erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten arbeiten](../reports/campaign-global-report-cja-code.md)
 

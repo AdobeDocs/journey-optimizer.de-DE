@@ -23,7 +23,7 @@ ht-degree: 98%
 Jede Rolle besteht aus Berechtigungen, die Benutzenden den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [ Seite ](ootb-permissions.md).
+* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [dieser Seite](ootb-permissions.md) näher beschrieben.
 
 * **Berechtigungen auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 

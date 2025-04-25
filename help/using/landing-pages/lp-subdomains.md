@@ -11,7 +11,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 69%
 
 Um Landingpage[Voreinstellungen erstellen zu können](lp-presets.md) müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
 
-Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden [ in diesem Abschnitt](../configuration/delegate-subdomain.md).
+Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
 Die Konfiguration der Landingpage-Subdomain ist **in allen Umgebungen**. Daher gilt:
 

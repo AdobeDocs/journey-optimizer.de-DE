@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -90,13 +90,13 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Erei
 
 ### Voraussetzungen {#trigger-events-prerequisites}
 
-Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile im Journey zu.
+Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu.
 
 Das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
-Wenn Ihr Journey den Testmodus mit der `ERR_MODEL_RULES_16` nicht aktivieren kann, stellen Sie sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält, wenn Sie eine Kanalaktion verwenden.
+Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
-Der Identity-Namespace wird zur eindeutigen Identifizierung der Testprofile verwendet. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
+Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
 >[!NOTE]
 >

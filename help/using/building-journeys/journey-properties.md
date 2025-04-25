@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -45,13 +45,13 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 
 Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, um dem Support-Team bei der Problembehebung zu helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Erfahren Sie mehr über technische Felder, die sich auf eine Journey für ein bestimmtes Profil beziehen, und wie Sie diese verwenden [auf dieser Seite](expression/journey-properties.md).
+Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und dazu, wie Sie sie verwenden können, finden Sie [auf dieser Seite](expression/journey-properties.md).
 
 ## Eintritt und Wiedereintritt {#entrance}
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md).
+Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Weitere Informationen zur Verwaltung des Eintritts und Wiedereintritts von Profilen finden Sie auf [dieser Seite](entry-management.md).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -76,7 +76,7 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
+Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 

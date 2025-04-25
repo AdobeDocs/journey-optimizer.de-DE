@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 69%
 
 Um die URLs zu Ihren SMS-/MMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie auswählen, wenn Sie [eine SMS-Konfiguration erstellen](sms-configuration.md#message-preset-sms).
 
-Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden [ in diesem Abschnitt](../configuration/delegate-subdomain.md).
+Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
 Die Konfiguration von SMS-Subdomains wird **von allen Umgebungen gemeinsam genutzt**. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
 

@@ -11,7 +11,7 @@ exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags im Feld **[!UICONTROL Tags]**, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]** und gestalten Sie den Inhalt nach Bedarf so wie bei jedem Inhalt innerhalb einer Journey oder Kampagne, je nach ausgewähltem Kanal.
 

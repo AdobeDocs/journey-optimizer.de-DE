@@ -11,7 +11,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Mithilfe der Kampagnen- und Journey-Berichte können Sie mit einer Reihe von Ech
 * Die Anzahl der erfolgreich ausgeführten, gesendeten und zugestellten Nachrichten.
 * Die Anzahl der geöffneten Nachrichten und die Anzahl der Nachrichten/Links, auf die geklickt wurde.
 
-Erfahren Sie mehr über [Live](../reports/live-report.md)Bericht und [All-Time-Bericht](../reports/report-gs-cja.md)
+Erfahren Sie mehr über [Live-Berichte](../reports/live-report.md) und [Berichte für die gesamte Zeit](../reports/report-gs-cja.md).
 
 ## Anpassen des Nachrichteninhalts {#adapt-message-content}
 
@@ -94,7 +94,7 @@ Um das Risiko zu verringern, dass E-Mails als Spam gekennzeichnet oder abgelehnt
 
 Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung durch boshafte Akteure schützen können. 
 
-[Weitere Informationen zum DMARC-Datensatz](../configuration/dmarc-record.md)
+[Weitere Informationen zu DMARC-Einträgen](../configuration/dmarc-record.md)
 
 ## Informationen zu Feedback-Schleifen {#feedback-loops}
 
@@ -106,7 +106,7 @@ Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität 
 
 Eine Feedback-Schleife (Feedback Loop, FBL) ist ein von einigen ISPs angebotener Dienst, mit dem die Absenderin bzw. der Absender einer E-Mail automatisch benachrichtigt werden kann, wenn Benutzende, die eine E-Mail erhalten, diese als Spam kennzeichnen (auch als „Beschwerde“ bezeichnet).
 
-Nachdem eine Endbenutzerin oder ein Endbenutzer eine Beschwerde generiert hat, die vom ISP an Adobe zurückgesendet wurde, wird die E-Mail-Adresse automatisch zur [Unterdrückungsliste](../reports/suppression-list.md) hinzugefügt und von künftigen Sendungen ausgeschlossen. Der Versand von E-Mails an Benutzende, die sie als Spam gekennzeichnet haben, wirkt sich negativ auf die Reputation der Absenderin oder des Absenders aus und kann Probleme bei der Zustellbarkeit verursachen. [Erfahren Sie mehr über Spam-Beschwerden](../reports/suppression-list.md#spam-complaints)
+Nachdem eine Endbenutzerin oder ein Endbenutzer eine Beschwerde generiert hat, die vom ISP an Adobe zurückgesendet wurde, wird die E-Mail-Adresse automatisch zur [Unterdrückungsliste](../reports/suppression-list.md) hinzugefügt und von künftigen Sendungen ausgeschlossen. Der Versand von E-Mails an Benutzende, die sie als Spam gekennzeichnet haben, wirkt sich negativ auf die Reputation der Absenderin oder des Absenders aus und kann Probleme bei der Zustellbarkeit verursachen. [Weitere Informationen zu Spam-Beschwerden](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

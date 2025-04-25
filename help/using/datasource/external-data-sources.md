@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen h
 
 >[!NOTE]
 >
->* Schutzmechanismen bei der Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
+>* Leitlinien für die Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 >
 >* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -253,8 +253,8 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Journey trocken ausführen"
->abstract="Nachdem Sie Ihren Journey entworfen haben, führen Sie einen Probelauf aus, um zu bestätigen, dass er funktioniert, und um sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Kommunikation an ein Profil zu senden."
+>title="Durchführen eines Journey-Probelaufs"
+>abstract="Nachdem Sie Ihre Journey entworfen haben, führen Sie einen Probelauf aus, um deren Funktionalität zu bestätigen und sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Mitteilungen an ein Profil zu senden."
 
 
 

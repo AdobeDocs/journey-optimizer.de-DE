@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 72%
 
 Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adobe Experience Manager Assets](../integrations/assets.md) verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
 
-Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden [ in diesem Abschnitt](../configuration/delegate-subdomain.md).
+Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
 Die Konfiguration von Web-Subdomains ist **in allen Umgebungen**. Daher gilt:
 

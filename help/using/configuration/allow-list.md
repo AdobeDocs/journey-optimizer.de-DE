@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -28,9 +28,9 @@ Mit der Zulassungsliste können einzelne E-Mail-Adressen oder Domains angegeben 
 
 Auf einer produktionsfremden Instanz, bei der Fehler auftreten können, stellt die Zulassungsliste beispielsweise sicher, dass kein Risiko besteht, dass unerwünschte Nachrichten an reale Kundenadressen gesendet werden; dies ist daher eine sichere Umgebung für Testzwecke.
 
-Wenn die Zulassungsliste aktiv, aber leer ist, wird keine E-Mail gesendet. Wenn Sie also auf ein großes Problem stoßen, können Sie diese Funktion verwenden, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis Sie das Problem behoben haben. Weitere Informationen zur Logik der [Zulassungsliste ](#logic).
+Wenn die Zulassungsliste aktiv, aber leer ist, wird keine E-Mail gesendet. Wenn Sie also auf ein großes Problem stoßen, können Sie diese Funktion verwenden, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis Sie das Problem behoben haben. Erfahren Sie mehr über die [Logik der Zulassungsliste](#logic).
 
-Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Darüber hinaus können Sie über das **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
@@ -40,7 +40,7 @@ Um auf die detaillierte Liste der zugelassenen E-Mail-Adressen und Domains zuzug
 
 >[!CAUTION]
 >
->Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Zulassungsliste sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzer finden Sie [ diesem Abschnitt](../administration/permissions-overview.md).
+>Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Zulassungsliste sind auf [Journey-Admins](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 
 Um die Zulassungsliste als CSV-Datei zu exportieren, klicken Sie auf den Button **[!UICONTROL CSV herunterladen]**.
 

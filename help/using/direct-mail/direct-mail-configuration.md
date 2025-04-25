@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
 source-wordcount: '1343'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >
 >* Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 >
->* Briefpostdateien werden nur zum Zeitpunkt des Exports generiert; ältere Exporte werden nicht unbegrenzt gespeichert. Für eine längere oder dauerhafte Sicherung konfigurieren Sie eine Datei-Routing-Option (SFTP oder Cloud-Speicher).
+>* Briefpostdateien werden nur zum Zeitpunkt des Exports generiert; ältere Exporte werden vom System nicht unbegrenzt gespeichert. Für eine längere oder dauerhafte Sicherung konfigurieren Sie eine Datei-Routing-Option (SFTP oder Cloud-Speicher).
 
 ## Konfigurieren des Datei-Routings {#file-routing-configuration}
 
@@ -186,7 +186,7 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
 
 1. Wählen Sie den Kanal **[!UICONTROL Direkt-Mail]** aus.
 

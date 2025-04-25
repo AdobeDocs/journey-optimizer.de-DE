@@ -10,7 +10,7 @@ exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ Inhaltsvorlagen können nach folgenden Kriterien sortiert werden:
 * Typ
 * Kanal
 * Erstellungs- oder Änderungsdatum
-* Tags - [Erfahren Sie mehr über Tags](../start/search-filter-categorize.md#tags)
+* Tags – [Weitere Informationen zu Tags](../start/search-filter-categorize.md#tags)
 
 Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden.
 

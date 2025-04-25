@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 63%
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>Es sind jetzt Journey-Metriken verfügbar, mit denen Sie die Wirkung Ihrer Aktivitäten in allen Schlüsselmetriken Ihres Unternehmens messen und klarere Einblicke in Ihre Leistung erhalten können.</p>
+<p>Die jetzt verfügbaren Journey-Metriken ermöglichen es Ihnen, die Wirkung Ihrer Aktivitäten anhand der Schlüsselmetriken Ihres Unternehmens zu messen und bessere Erkenntnisse zu Ihrer Leistung zu erhalten.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/success-metrics.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 9. April 2025</p>
 </br>
@@ -56,7 +56,7 @@ ht-degree: 63%
 <td>
 <p>Es ist jetzt ein Personalisierungsspielplatz verfügbar, auf dem Sie mit Personalisierungsausdrücken experimentieren können. Damit können Sie Beispielvorlagen und Payloads untersuchen, um Ihre ersten Schritte zu unternehmen und Ihre eigenen Personalisierungsausdrücke auszuprobieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/personalize.md#playground">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 24. April 2025</p>
+<p>Verfügbarkeitsdatum: Freitag, 24. April 2025</p>
 </br>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
@@ -66,25 +66,25 @@ ht-degree: 63%
 
 ### Verbesserungen {#25-04-improv}
 
-* **Sandbox-Tools** - Verfügbarkeitsdatum: 3. April 2025
+* **Sandbox-Tools** – Verfügbarkeitsdatum: 3. April 2025
 
-  Sie können jetzt Kampagnen mithilfe von Package-Export- und -Import-Funktionen über mehrere Sandboxes kopieren. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungsbeschriftungen und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+  Sie können nun Kampagnen über mehrere Sandboxes hinweg kopieren, indem Sie die Funktionen für den Paketexport und -import verwenden. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungs-Labels und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Verfügbarkeitsdatum: 2. April 2025
+* **Personalisierung** – Verfügbarkeitsdatum: 2. April 2025
 
-  Der Bereich Attribute im Personalisierungseditor zeigt jetzt standardmäßig nur noch ausgefüllte Attribute an. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** zu deaktivieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+  Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** mithilfe der Schaltfläche „Einstellungen“. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-* **Content-Management** - Verfügbarkeitsdatum: 2. April 2025
+* **Content-Management** – Verfügbarkeitsdatum: 2. April 2025
 
-  Um Ihre Inhaltsvorlagen und Fragmente einfach zu verwalten, können Sie jetzt Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Weitere Informationen finden Sie unter [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders).
+  Um die Verwaltung Ihrer Inhaltsvorlagen und Fragmente zu vereinfachen, können Sie nun Ordner verwenden, die eine effektivere Organisation in einer strukturierten Hierarchie ermöglichen. Weitere Informationen finden Sie unter [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
   >Diese Verbesserung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). 
 
-* **Email Designer** - Verfügbarkeitsdatum: 1. April 2025
+* **E-Mail-Designer** – Verfügbarkeitsdatum: 1. April 2025
 
-  Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind in der E-Mail-Designer jetzt zwei neue Felder verfügbar: Sie entsprechen dem `<title>` und `lang` Attribut im `<html>` Element Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** im Abschnitt E-Mail **[!UICONTROL Textkörper]** definieren. [Weitere Informationen](../email/email-metadata.md)
+  Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind im E-Mail-Designer nun zwei neue Felder verfügbar: Sie entsprechen dem Element `<title>` und dem Attribut `lang` im Element `<html>` Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** auch im Abschnitt für den **[!UICONTROL E-Mail-Text]** definieren. [Weitere Informationen](../email/email-metadata.md)
 
 
 ## März 2025 – Versionshinweise {#25-3-rn}
@@ -194,13 +194,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Flexible Zielgruppenbewertung (GA)</strong><br/></th>
+<th><strong>Flexible Zielgruppenauswertung (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zuvor für eine Reihe von Organisationen (LA) verfügbar, ist jetzt eine flexible Zielgruppenbewertung für alle Benutzer (GA) verfügbar. Mit dieser Funktion können Sie einen Segmentierungsauftrag nach Bedarf für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journey und -Kampagnen aufnehmen.</p>
+<p>Die flexible Zielgruppenauswertung, die zuvor nur für eine Reihe von Organisationen verfügbar war (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Mit dieser Funktion können Sie nach Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die neuesten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen für das Targeting auswählen.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Weitere Informationen finden Sie in der <a href="../audience/creating-a-segment-definition.md#flexible">ausführlichen Dokumentation</a>.</p>
 </tr>

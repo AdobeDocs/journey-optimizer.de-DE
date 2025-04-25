@@ -10,7 +10,7 @@ exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als 
 
 >[!IMPORTANT]
 >
->Wenn Sie den Namen einer bestehenden Zielgruppe ändern, werden in Ihren Journey-Ausdrücken nicht automatisch alle Verweise auf diese Zielgruppe aktualisiert. Wenn Ihr Bedingungsknoten `inAudience('oldAudienceName')` verwendet, müssen Sie den Ausdruck manuell bearbeiten, um den neuen Namen zu verwenden. Andernfalls wird der Journey-Zustand beschädigt.
+>Wenn Sie den Namen einer bestehenden Zielgruppe ändern, werden nicht automatisch alle Verweise auf diese Zielgruppe in Ihren Journey-Ausdrücken aktualisiert. Wenn Ihr Bedingungsknoten `inAudience('oldAudienceName')` verwendet, müssen Sie den Ausdruck manuell bearbeiten, um den neuen Namen zu verwenden. Andernfalls wird die Journey-Bedingung aufgehoben.
 
 ## Kategorie
 
@@ -68,5 +68,5 @@ Gibt einen booleschen Wert zurück.
 
 Erklärung:
 
-Die Funktion gibt &quot;**[!UICONTROL &quot; zurück]** wenn die Person in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „Männer über 50“ ist, **[!UICONTROL false]** andernfalls.
+Die Funktion gibt **[!UICONTROL wahr]** zurück, wenn der Kontakt in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „Herren über 50“ ist. Andernfalls wird **[!UICONTROL falsch]** zurückgegeben.
 

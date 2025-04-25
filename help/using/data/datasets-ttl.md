@@ -11,7 +11,7 @@ exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen?
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kunden können Daten über Ziele exportieren, um Daten länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=„_blank“}. Darüber hinaus können Kundinnen und Kunden mit einer **[!DNL Data Distiller]** Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=„_blank“}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=„_blank“}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=„_blank“}
 
 +++
 
