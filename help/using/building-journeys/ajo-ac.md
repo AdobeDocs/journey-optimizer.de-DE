@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In diesem Anwendungsbeispiel werden alle Schritte vorgestellt, die zum Senden ei
 
 Zunächst wird in Campaign eine Transaktions-E-Mail-Vorlage erstellt. Anschließend werden in Journey Optimizer das Ereignis, die Aktion und die Journey erstellt.
 
-Weitere Informationen zur Campaign-Integration finden Sie auf den folgenden Seiten:
+Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Seiten:
 
 * [Erstellen einer Campaign-Aktion](../action/acc-action.md)
 * [Verwenden der Aktion in einer Journey](../building-journeys/using-adobe-campaign-v7-v8.md).

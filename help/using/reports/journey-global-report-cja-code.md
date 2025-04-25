@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Sie können auf Ihren Code-basierten Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können Ihren Code-basierten Journey-Bericht aufrufen, indem Sie in der Journey auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -35,7 +35,7 @@ Sie können auf Ihren Code-basierten Journey-Bericht zugreifen, indem Sie auf di
 
 Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Code-basierten Erlebnissen und liefern wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Impression- und Klick-Metriken
++++ Weitere Informationen zu den Metriken „Impression und Klicks“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Erlebnissen geklickt haben.
 
@@ -53,7 +53,7 @@ Die Diagramme **[!UICONTROL Anzeigen und Klicken]** bieten eine detaillierte Ana
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivitäten, die mit Ihren Code-basierten Erlebnissen verbunden sind, und liefert wichtige Erkenntnisse über die Interaktion und die Wirksamkeit der Erlebnisse.
 
-+++ Weitere Informationen zu Tracking-Datenmetriken
++++ Weitere Informationen zu den Metriken „Tracking-Daten“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Erlebnisse infrage kommen.
 
@@ -73,7 +73,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Labels getrackter Links]** bietet einen umfassenden Überblick über die Linklabels innerhalb Ihrer Code-basierten Erlebnisse und hebt diejenigen hervor, die den höchsten Besucher-Traffic erzeugen. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
++++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren Code-basierten Erlebnissen geklickt haben.
 

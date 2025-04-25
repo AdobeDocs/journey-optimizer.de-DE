@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1362'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
 * Klicken Sie auf die Schaltfläche **[!UICONTROL Medien hinzufügen]**, um ein Asset in **[!DNL Adobe Experience Manager Assets]** auszuwählen.
 
-  Auf [ Seite erfahren Sie, wie Sie **[!DNL Adobe Experience Manager Assets]** verwenden](../integrations/assets.md).
+  Wie Sie **[!DNL Adobe Experience Manager Assets]** verwenden, erfahren Sie auf [dieser Seite](../integrations/assets.md).
 
 * Oder geben Sie die URL des Mediums im Feld **[!UICONTROL Medien hinzufügen]** ein. In diesem Fall können Sie die URL personalisieren.
 
@@ -107,7 +107,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 >title="Konfigurieren Sie benutzerdefinierte Daten für Ihre Push-Benachrichtigung."
 >abstract="Fügen Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzu."
 
-Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weiterführende Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie [diesem Abschnitt](push-gs.md)
+Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie in [diesem Abschnitt](push-gs.md).
 
 ## Erweiterte Optionen {#advanced-options-push}
 

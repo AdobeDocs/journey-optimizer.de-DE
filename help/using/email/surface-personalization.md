@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um dynamische Subdomains in einer E-Mail-Kanalkonfigura
 
    ![](assets/surface-email-edit-condition.png)
 
-1. Wählen Sie die Subdomain aus, die Sie mit dieser Bedingung verknüpfen möchten. [Erfahren Sie mehr über Subdomains](../configuration/about-subdomain-delegation.md)
+1. Wählen Sie die Subdomain aus, die Sie mit dieser Bedingung verknüpfen möchten. [Weitere Informationen zu Subdomains](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
@@ -193,4 +193,4 @@ Um diesen Fehlertyp zu vermeiden, stellen Sie sicher, dass die von Ihnen definie
 
 >[!NOTE]
 >
->Weitere Informationen zur Zustellbarkeit finden [ in diesem Abschnitt](../reports/deliverability.md)
+>Weitere Informationen zur Zustellbarkeit finden Sie in [diesem Abschnitt](../reports/deliverability.md).

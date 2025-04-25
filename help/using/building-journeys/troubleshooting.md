@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, ric
 
 Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} nutzen.
 
-Wenn Ihr Journey den Testmodus mit der `ERR_MODEL_RULES_16` nicht aktivieren kann, stellen Sie sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält, wenn Sie eine Kanalaktion verwenden.
+Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
-Der Identity-Namespace wird zur eindeutigen Identifizierung der Testprofile verwendet. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
+Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
 ## Überprüfen, ob Personen in die Journey eintreten {#checking-if-people-enter-the-journey}
 

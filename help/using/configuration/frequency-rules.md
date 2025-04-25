@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig
 
 >[!NOTE]
 >
->Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen zu Methoden zur Zielgruppenauswertung finden Sie [ (diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen zu Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Geschäftsregel {#activate-rule}
 

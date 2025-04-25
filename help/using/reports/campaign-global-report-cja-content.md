@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-Sie können auf den Kampagnenbericht Ihrer Inhaltskarte zugreifen, indem Sie in Ihrer Kampagne auf **[!UICONTROL Berichte]** klicken und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können auf Ihren Kampagnenbericht für Inhaltskarten zugreifen, indem Sie in Ihrer Kampagne auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Bericht für gesamte Zeit anzeigen]** auswählen. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Anzeigen- und Klick-Trend {#display-click}
+## Anzeige- und Klick-Trend {#display-click}
 
 ![](assets/content-card-report-1.png)
 
 Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der eindeutigen Profile zu verstehen, die mit der Nachricht interagieren.
 
-+++ Weitere Informationen zu Anzeige- und Klickmetriken
++++ Weitere Informationen zu den Metriken „Anzeige- und Klick-Trend“
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in der Inhaltskarte.
 
@@ -47,7 +47,7 @@ Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Inhaltskarten.
 
-+++ Weitere Informationen zu Tracking-Datenmetriken
++++ Weitere Informationen zu den Metriken „Tracking-Daten“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die als Zielprofile für Ihre Inhaltskarten infrage kommen.
 
@@ -67,7 +67,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Getrackte Labels]** bietet einen umfassenden Überblick über die Linklabels in Ihren Inhaltskarten und hebt diejenigen hervor, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Weitere Informationen zu Metriken für getrackte Kennzeichnungen
++++ Weitere Informationen zu den Metriken „Nachverfolgte Labels“
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihren Inhaltskarten geklickt haben.
 

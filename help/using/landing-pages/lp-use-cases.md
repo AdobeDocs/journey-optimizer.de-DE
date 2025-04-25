@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ Alle Benutzer, die sich für Ihre Veranstaltung registriert haben, erhalten die 
 
 ## Landingpage zum Opt-out {#opt-out}
 
-Damit Ihre Empfänger das Abonnement stornieren können, können Sie in Ihre E-Mails einen Link zu einer Ausschluss-Landingpage einfügen.
+Damit Ihre Empfängerinnen und Empfänger das Abonnement stornieren können, können Sie in Ihre E-Mails einen Link zu einer Ausschluss-Landingpage einfügen.
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwaltung des Einverständnisses Ihrer Empfänger und dazu, warum dies wichtig ist, finden Sie [ (in diesem Abschnitt](../privacy/opt-out.md).
+>Weitere Informationen zur Verwaltung des Einverständnisses Ihrer Empfängerinnen und Empfänger und dazu, warum dies wichtig ist, finden Sie in [diesem Abschnitt](../privacy/opt-out.md).
 
 ### Opt-out-Verwaltung {#opt-out-management}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-Sie können auf Ihren Web-Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** auf Ihrer Journey klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können Ihren Web-Journey-Bericht aufrufen, indem Sie in der Journey auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -35,7 +35,7 @@ Sie können auf Ihren Web-Journey-Bericht zugreifen, indem Sie auf die Schaltfl�
 
 Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Web-Seiten und bietet wertvolle Erkenntnisse zur Interaktion von Profilen mit Ihren Inhalten.
 
-+++ Weitere Informationen zu Metriken von Impression- und Klick-Trends
++++ Weitere Informationen zu den Metriken „Impression- und Klick-Trend“
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf Ihren Web-Seiten.
 
@@ -49,7 +49,7 @@ Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte A
 
 Der Graph **[!UICONTROL Klicks]** zeigt Metriken für Klicks auf Web-Seiten an, die sowohl die Gesamtanzahl der Klicks auf Inhalte als auch die Anzahl der einzelnen Profile darstellen, die auf den Inhalt geklickt haben.
 
-+++ Weitere Informationen zu Klicks-Metriken
++++ Weitere Informationen zu den Metriken „Klicks“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
@@ -63,7 +63,7 @@ Der Graph **[!UICONTROL Klicks]** zeigt Metriken für Klicks auf Web-Seiten an, 
 
 Das Diagramm **[!UICONTROL Anzeigen]** hilft Ihnen, sowohl die Gesamtreichweite des Code-basierten Erlebnisses als auch die Anzahl der eindeutigen Profile, die mit der Nachricht interagieren, zu verstehen.
 
-+++ Weitere Informationen zu Anzeigenmetriken
++++ Weitere Informationen zu den Metriken „Anzeigen“
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen des Code-basierten Erlebnisses.
 
@@ -77,7 +77,7 @@ Das Diagramm **[!UICONTROL Anzeigen]** hilft Ihnen, sowohl die Gesamtreichweite 
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Web-Seiten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Web-Seiten.
 
-+++ Weitere Informationen zu Tracking-Datenmetriken
++++ Weitere Informationen zu den Metriken „Tracking-Daten“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Web-Seiten eignen.
 
@@ -99,7 +99,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels auf Ihren Web-Seiten und zeigt diejenigen an, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
++++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 
@@ -117,7 +117,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überblick über die URLs auf Ihren Web-Seiten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten auf Ihren Web-Seiten verbessern.
 
-+++ Weitere Informationen zur Metrik „Getrackte Link-URLs“
++++ Weitere Informationen zu den Metriken „Nachverfolgte Link-URLs“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt auf Ihren Web-Seiten geklickt haben.
 

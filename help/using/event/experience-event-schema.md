@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definier
 
 >[!NOTE]
 >
->Weitere Informationen zu Schemabeziehungen finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
+>Weitere Informationen zu Schemabeziehungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
 
 In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen nutzen:
 
@@ -87,7 +87,7 @@ Sie können eine Schemabeziehung für ein Zeichenfolgen-Array definieren, z. B. 
 
 ![](assets/schema15.png)
 
-Sie können auch eine Schemabeziehung mit einem Attribut innerhalb eines Arrays von Objekten definieren, z. B. eine Liste von Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journey (Bedingungen, benutzerdefinierte Aktionen usw.) und in der Nachrichtenpersonalisierung verfügbar.
+Sie können auch eine Schemabeziehung mit einem Attribut innerhalb eines Arrays von Objekten definieren, z. B. eine Liste von Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journeys (Bedingungen, benutzerdefinierte Aktionen) und der Personalisierung von Nachrichten verfügbar. 
 
 ![](assets/schema16.png)
 

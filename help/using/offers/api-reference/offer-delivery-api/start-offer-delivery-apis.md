@@ -1,19 +1,19 @@
 ---
 title: Erste Schritte mit APIs für den Angebotsversand
-description: Erfahren Sie mehr über die APIs, die zur Bereitstellung personalisierter Angebote verfügbar sind.
+description: Erfahren Sie mehr über die APIs, die für den Versand personalisierter Angebote verfügbar sind.
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit APIs für die Angebotsbereitstellung {#about-decisioning-apis}
+# Erste Schritte mit APIs für den Angebotsversand {#about-decisioning-apis}
 
 Sie können Angebote entweder mithilfe der **Decisioning**- oder **Edge Decisioning**-API bereitstellen. Darüber hinaus ermöglicht Ihnen die API zur **Batch-Entscheidungsfindung**, Angebote an alle Profile in einer bestimmten Zielgruppe durch einen einzigen Aufruf zu senden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einen Adobe Experience Platform-Datensatz platziert, über den er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
 

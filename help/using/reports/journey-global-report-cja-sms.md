@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Sie können auf Ihren SMS-Journey-Bericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** in Ihrem Journey klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können Ihren SMS-Journey-Bericht aufrufen, indem Sie in der Journey auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -29,7 +29,7 @@ Sie können auf Ihren SMS-Journey-Bericht zugreifen, indem Sie auf die Schaltfl�
 
 Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren SMS-Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion der Profile mit Ihrem Inhalt.
 
-+++ Erfahren Sie mehr über Metriken der Zustellungs- und Klicktrends
++++ Weitere Informationen zu den Metriken „Trend ‚Versandt vs. angeklickt‘“
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.
 
@@ -41,7 +41,7 @@ Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Anal
 
 Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht über die Profilaktivitäten im Zusammenhang mit Ihren SMS-Nachrichten. Dazu gehören Metriken zu gesendeten SMS-Nachrichten, Klicks und andere relevante Interaktionsindikatoren, die einen umfassenden Überblick darüber bieten, wie Profile mit Ihrem SMS-Inhalt interagieren.
 
-+++ Weitere Informationen zu Versandstatusmetriken
++++ Weitere Informationen zu den Metriken „Versandstatus“
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.
 
@@ -57,7 +57,7 @@ Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht �
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren SMS-Nachrichten, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
-+++ Erfahren Sie mehr über Metriken für getrackte Link-Kennzeichnungen
++++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
 
@@ -69,7 +69,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren SMS-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren SMS-Nachrichten verbessern.
 
-+++ Weitere Informationen zur Metrik „Getrackte Link-URLs“
++++ Weitere Informationen zu den Metriken „Nachverfolgte Link-URLs“
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
 
@@ -85,7 +85,7 @@ Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Ü
 
 Die Tabelle **[!UICONTROL Eingehende SMS-Nachricht]** bietet einen umfassenden Überblick über die SMS-Nachrichten, die den meisten Besucher-Traffic angezogen haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu Metriken eingehender SMS-Nachrichten
++++ Weitere Informationen zu Metriken für eingehende SMS-Nachrichten
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
@@ -95,7 +95,7 @@ Die Tabelle **[!UICONTROL Eingehende SMS-Nachricht]** bietet einen umfassenden �
 
 Die Tabelle **[!UICONTROL SMS-Nachrichtentyp]** bietet einen umfassenden Überblick darüber, welcher SMS-Nachrichtentyp den höchsten Besucher-Traffic angezogen hat. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu Metriken vom Typ SMS-Nachricht
++++ Weitere Informationen zu Metriken für den SMS-Nachrichtentyp
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 
@@ -105,7 +105,7 @@ Die Tabelle **[!UICONTROL SMS-Nachrichtentyp]** bietet einen umfassenden Überbl
 
 Die Tabelle **[!UICONTROL SMS-Anbieter]** bietet einen umfassenden Überblick über die SMS-Anbieter, die den höchsten Besucher-Traffic erzielt haben. Diese Ressource bietet wertvolle Erkenntnisse zur Interaktionsdynamik von Zielgruppen.
 
-+++ Weitere Informationen zu Metriken von SMS-Anbietern
++++ Weitere Informationen zu Metriken für SMS-Anbieter
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre SMS-Nachrichten eignen.
 

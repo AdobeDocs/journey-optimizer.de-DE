@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -300,7 +300,7 @@ Eine Ausführung kann folgende Status haben:
 
 ### Arbeiten mit Berichten {#reports}
 
-Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Performance Ihrer IP-Aufwärmkampagnen mithilfe der [!DNL Journey Optimizer]-Kampagnenberichte überprüfen. Dazu können Sie für jede abgeschlossene Ausführung auf die Schaltfläche **[!UICONTROL Berichte anzeigen]** klicken. Erfahren Sie mehr über den E-Mail[Live-](../reports/campaign-live-report.md#email-live) und den [Customer Journey Analytics-Bericht](../reports/campaign-global-report-cja-email.md).
+Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Performance Ihrer IP-Aufwärmkampagnen mithilfe der [!DNL Journey Optimizer]-Kampagnenberichte überprüfen. Dazu können Sie für jede abgeschlossene Ausführung auf die Schaltfläche **[!UICONTROL Berichte anzeigen]** klicken. Erfahren Sie mehr über den [Live-Bericht](../reports/campaign-live-report.md#email-live) und den [Customer Journey Analytics-Bericht](../reports/campaign-global-report-cja-email.md) zu Kampagnen-E-Mails.
 
 ![](assets/ip-warmup-plan-reports.png)
 

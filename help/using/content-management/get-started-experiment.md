@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Zielmetriken können in zwei Hauptklassen gruppiert werden:
 * Direkte Metriken, bei denen Benutzende direkt auf die Abwandlung reagieren, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
 * Indirekte oder „Trichterboden“-Metriken, die auftreten, nachdem Benutzende der Abwandlung ausgesetzt wurden.
 
-Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Abwandlungskennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Abwandlung ermöglicht. [Weitere Informationen zum Tracking](../email/message-tracking.md).
+Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Abwandlungskennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Abwandlung ermöglicht. [Erfahren Sie mehr über Tracking](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

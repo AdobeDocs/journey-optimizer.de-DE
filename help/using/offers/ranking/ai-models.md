@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
    >[!IMPORTANT]
    >
-   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Erfahren Sie mehr über die Datenerfassung beim Entscheidungs-Management](../data-collection/data-collection.md)
+   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung beim Entscheidungs-Management](../data-collection/data-collection.md)
 
 1. Weisen Sie das KI-Modell einer Platzierung in einer Entscheidung zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../offer-activities/configure-offer-selection.md)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 * Wenn Sie eine Journey oder Sendungen innerhalb einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]**.
 
-  In der Liste der vorhandenen Journeys können Sie auch **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Journey auswählen. [Erfahren Sie mehr über den Journey-Bericht](journey-global-report-cja.md)
+  In der Liste der vorhandenen Journeys können Sie auch **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Journey auswählen. [Weitere Informationen zum Journey-Bericht](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
 * Wenn Sie eine Kampagne als Ziel wählen möchten, wählen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne aus und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** und anschließend auf **[!UICONTROL Bericht für gesamte Zeit anzeigen]**.
 
-  In der Liste der vorhandenen Kampagnen können Sie auch **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Kampagne auswählen. [Erfahren Sie mehr über den Kampagnenbericht](campaign-global-report-cja.md)
+  In der Liste der vorhandenen Kampagnen können Sie auch **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Kampagne auswählen. [Weitere Informationen zum Kampagnen-Bericht](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* Wenn Sie Metriken für alle Kampagnen und Journeys in Ihrer Umgebung als Ziel auswählen möchten, navigieren Sie im Abschnitt **[!UICONTROL Journey-Management]** zum Menü **[!UICONTROL Berichte]** und greifen Sie auf den **Übersichtsbericht** zu. [Erfahren Sie mehr über den Übersichtsbericht](channel-report-cja.md)
+* Wenn Sie Metriken für alle Kampagnen und Journeys in Ihrer Umgebung als Ziel auswählen möchten, navigieren Sie im Abschnitt **[!UICONTROL Journey-Management]** zum Menü **[!UICONTROL Berichte]** und greifen Sie auf den **Übersichtsbericht** zu. [Weitere Informationen zum Übersichtsbericht](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
@@ -51,7 +51,7 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
    * Die Berechtigung **[!UICONTROL Profile verwalten]** für Adobe Journey Optimizer. [Weitere Informationen](../administration/permissions.md)
 
-* Ihre Customer Journey Analytics-Datenansichten müssen mit der folgenden Einstellung konfiguriert werden: **Als Standarddatenansicht in Adobe Journey Optimizer festlegen**. [Weitere Informationen zu Datenansichten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* Ihre Datenansichten in Customer Journey Analytics müssen mit der folgenden Einstellung konfiguriert werden: **Als Standard-Datenansicht in Adobe Journey Optimizer festlegen**. [Weitere Informationen zu Datenansichten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Anleitungsvideo{#video}
 

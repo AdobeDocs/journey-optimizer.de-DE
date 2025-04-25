@@ -10,9 +10,9 @@ level: Experienced
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Wenn die Zustellung einer E-Mai-Nachricht an eine bestimmte Adresse aufgrund ein
 
 >[!NOTE]
 >
->Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen ](../reports/suppression-list.md#delivery-failures)).
+>Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenem Versand](../reports/suppression-list.md#delivery-failures).
 
 In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
@@ -64,7 +64,7 @@ Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den F
 
    >[!CAUTION]
    >
-   >Ein Wert von mehr als 10 kann Zustellbarkeitsprobleme hinsichtlich der Reputation sowie eine IP-Drosselung oder eine Blockierungsauflistung durch ISPs verursachen. [Erfahren Sie mehr über die Zustellbarkeit](../reports/deliverability.md)
+   >Ein Wert von mehr als 10 kann Zustellbarkeitsprobleme hinsichtlich der Reputation sowie eine IP-Drosselung oder eine Blockierungsauflistung durch ISPs verursachen. [Weitere Informationen zur Zustellbarkeit](../reports/deliverability.md)
 
 ## Zeitraum für weitere Zustellversuche {#retry-duration}
 

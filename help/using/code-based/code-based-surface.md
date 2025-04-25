@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ In [!DNL Journey Optimizer] unterstützt der Code-basierte Erlebniskanal zwei Ar
 
 >[!NOTE]
 >
->Weitere Informationen zu den Implementierungsvoraussetzungen finden Sie [ (diesem Abschnitt](code-based-prerequisites.md#implementation-prerequisites).
+>Weitere Informationen zu Implementierungsvoraussetzungen finden Sie in [diesem Abschnitt](code-based-prerequisites.md#implementation-prerequisites).
 
 Mithilfe Code-basierter Erlebnisse können Sie Inhalte an granularen Speicherorten ändern, <!--(such as a specific location on a page, or inside a mobile native app)-->die [!DNL Journey Optimizer] anhand von [Oberflächen-URIs](#surface-uri) eindeutig identifiziert werden.
 
@@ -89,6 +89,6 @@ Diese Oberflächen-URIs werden je nach Implementierungsmethode zusammengestellt 
 
 Daher haben Sie beim Erstellen einer [Code-basierte Erlebniskanalkonfiguration](code-based-configuration.md) zwei Möglichkeiten, die Oberfläche entsprechend der ausgewählten Plattform anzugeben:
 
-* Bei den Plattformen **[!UICONTROL Web]**, **[!UICONTROL iOS]** und **[!UICONTROL Android]** müssen Sie die **URL/App-ID** und einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen. Erfahren Sie mehr über die Konfiguration von Code-basierten Erlebnissen für [Web](code-based-configuration.md#web) und [mobile](code-based-configuration.md#mobile) Plattformen
+* Bei den Plattformen **[!UICONTROL Web]**, **[!UICONTROL iOS]** und **[!UICONTROL Android]** müssen Sie die **URL/App-ID** und einen **Speicherort oder Pfad** eingeben, um die Oberfläche zusammenzustellen. Erfahren Sie mehr über die Konfiguration Code-basierter Erlebnisse für [Web](code-based-configuration.md#web)- und [Mobile](code-based-configuration.md#mobile)-Plattformen.
 
-* Wenn die Plattform unter **[!UICONTROL Sonstige]** fällt, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen [oben](#surface-uri) dargestellt. Erfahren Sie mehr über das Konfigurieren von Code-basierten Erlebnissen für [andere](code-based-configuration.md#other) Plattformen
+* Wenn die Plattform unter **[!UICONTROL Sonstige]** fällt, müssen Sie den vollständigen **Oberflächen-URI** eingeben, wie in den Beispielen [oben](#surface-uri) dargestellt. Erfahren Sie mehr über die Konfiguration Code-basierter Erlebnisse für [sonstige](code-based-configuration.md#other) Plattformen.

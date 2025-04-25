@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1065'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Opt-out-Verfahren in E-Mails 
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer] wird das Einverständnis durch das Experience Platform-[Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
+>In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} aufgeführten möglichen Werte ändern oder [Einverständnisrichtlinien](../action/consent.md) verwenden, um die Standardlogik außer Kraft zu setzen.
 
 ## Implementieren der Personalisierungszustimmung {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ Bei der Nutzung von Angeboten werden Personalisierungsvoreinstellungen nicht aut
 >
 >Entscheidungsbereiche, die von in [!DNL Journey Optimizer] verfassten Kanälen verwendet werden, erfüllen diese Anforderung der Journey oder Kampagne, zu der sie gehören.
 
-1. Erstellen Sie eine [Adobe Experience Platform](../audience/about-audiences.md)Zielgruppe mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Personalisierungsinhalt = Ja (Opt-in)]**, um Benutzerinnen und Benutzer anzusprechen, die der Personalisierung zugestimmt haben.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Inhalt personalisieren = Ja (Opt-in)]**, um Benutzende anzusprechen, die sich mit einer Personalisierung einverstanden erklärt haben.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -103,7 +103,7 @@ Die Verwendung von berechtigungsbasierten Zugriffssteuerungskennzeichnungen erm�
 
 >[!NOTE]
 >
->Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC) finden Sie in [diesem Abschnitt](../administration/object-based-access.md).
+>Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC) finden Sie in [diesem Abschnitt](../administration/object-based-access.md).
 
 In [!DNL Journey Optimizer]-Kampagnen wird die Einverständnisrichtlinie wie folgt durchgesetzt:
 
@@ -121,7 +121,7 @@ Um das Einverständnis zur Personalisierung in Kampagnen manuell durchzusetzen, 
 
 Sie können den Segment-Regel-Builder verwenden, um eine Zielgruppe mit Opt-out-Profilen zu erstellen.
 
-1. Erstellen Sie eine [Adobe Experience Platform](../audience/about-audiences.md)Zielgruppe mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,7 +137,7 @@ Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die 
 
 Sie können einer Zielgruppe auch eine Einverständnisprüfung für die Personalisierung hinzufügen, indem Sie eine Aufteilungssaktivität zu einem Kompositions-Workflow hinzufügen.
 
-1. Erstellen Sie eine Zielgruppe mithilfe der Option **[!UICONTROL Zielgruppe erstellen]**. [Erfahren Sie mehr über das Erstellen eines Kompositions-Workflows](../audience/get-started-audience-orchestration.md)
+1. Erstellen Sie eine Zielgruppe mithilfe der Option **[!UICONTROL Zielgruppe erstellen]**. [Weitere Informationen zum Erstellen eines Kompositions-Workflows](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

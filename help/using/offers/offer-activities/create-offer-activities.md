@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activities-name.png)
 
-1. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../../administration/object-based-access.md)
+1. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../../administration/object-based-access.md)
 
 ## Definieren von Entscheidungsumfängen {#add-decision-scopes}
 
@@ -148,7 +148,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
    >
    >* Bei der Verwendung eines [KI-Modells](../ranking/ai-models.md) in einer Gruppe von Bewertungskriterien müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangfolgenmethode und dasselbe spezifische KI-Modell verwenden.
    >
-   >* Nur eine der Bewertungskriterien-Gruppen kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsumfangs müssen andere Ranglistenmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Ranking-Methoden](../offer-activities/configure-offer-selection.md)
+   >* Nur eine der Bewertungskriterien-Gruppen kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsumfangs müssen andere Ranglistenmethoden verwenden (Priorität oder Formel). [Weitere Informationen zu Ranglistenmethoden](../offer-activities/configure-offer-selection.md)
 
 1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Neuer Umfang]**. Wiederholen Sie für jeden Entscheidungsumfang die obigen Schritte.
 
@@ -224,7 +224,7 @@ Wenn Sie einer Entscheidung mehrere Entscheidungsumfänge hinzufügen und keine 
 
 >[!NOTE]
 >
->Der Parameter **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** wird auf der Platzierungsebene festgelegt. Wenn die Duplizierung bei einer Platzierung in einer Entscheidungsanfrage auf „false“ gesetzt ist, übernehmen alle Platzierungen in der Anfrage die Einstellung „false“. [Erfahren Sie mehr über Duplizierungsparameter](../offer-library/creating-placements.md)
+>Der Parameter **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** wird auf der Platzierungsebene festgelegt. Wenn die Duplizierung bei einer Platzierung in einer Entscheidungsanfrage auf „false“ gesetzt ist, übernehmen alle Platzierungen in der Anfrage die Einstellung „false“. [Weitere Informationen zu Duplizierungsparametern](../offer-library/creating-placements.md)
 
 Nehmen wir ein Beispiel, in dem Sie zwei Entscheidungsumfänge hinzugefügt haben, z. B.:
 
@@ -242,7 +242,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -253,7 +253,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -264,7 +264,7 @@ Die findet folgendermaßen statt:
 
 **Wenn die Duplizierung aktiviert ist**
 
-Wenn Duplizierungen für alle Platzierungen zulässig sind, kann dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. [Erfahren Sie mehr über Duplizierungsparameter](../offer-library/creating-placements.md)
+Wenn Duplizierungen für alle Platzierungen zulässig sind, kann dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. [Weitere Informationen zu Duplizierungsparametern](../offer-library/creating-placements.md)
 
 Nehmen wir dasselbe Beispiel wie oben, in dem Sie zwei Entscheidungsumfänge hinzugefügt haben, z. B.:
 
@@ -282,7 +282,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -294,7 +294,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 

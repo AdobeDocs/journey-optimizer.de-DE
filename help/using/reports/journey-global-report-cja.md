@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Mit dem **[!UICONTROL Journey-Bericht]** erhalten Sie einen klaren Überblick ü
 
 Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumfassendes Dashboard und liefern eine Analyse der wichtigsten Metriken, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingegebenen Profile und die Anzahl der fehlgeschlagenen individuellen Journeys und bietet einen umfassenden Einblick in die Effektivität und den Grad der Interaktion Ihrer Journeys.
 
-+++ Weitere Informationen zu Journey-KPIs und Metriken
++++ Weitere Informationen zu den Metriken „Journey-KPIs“
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
@@ -51,7 +51,7 @@ Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumf
 
 Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusammenfassung wichtiger Daten zu Ihren Journeys. Sie enthält Schlüsselmetriken wie die Anzahl der Fehler und erfolgreichen Eintritte und bietet wertvolle Erkenntnisse zur Performance und Reichweite Ihrer E-Mails und Journeys.
 
-+++ Weitere Informationen zu Metriken für Journey-Statistiken
++++ Weitere Informationen zu den Metriken „Journey-Statistiken“
 
 * **[!UICONTROL Journey-Ausschluss]**: Gesamtzahl der Kontakte, die aufgrund vordefinierter Kriterien oder Unterdrückungsregeln von der Journey ausgeschlossen wurden.
 
@@ -114,7 +114,7 @@ Anhand des Graphs **[!UICONTROL Performance im Zeitverlauf]** können Sie die An
 
 Die Tabelle **[!UICONTROL Aktionsüberblick]** dient als umfassendes Dashboard, das eine Analyse der Schlüsselmetriken im Zusammenhang mit den Aktionen in Ihrer Journey bietet. Dazu gehören wichtige Details wie die Anzahl der Interaktionen und die Klickrate.
 
-+++ Weitere Informationen über Metriken der Aktionsübersicht
++++ Weitere Informationen zu den Metriken „Aktionsüberblick“
 
 * **[!UICONTROL Knoteneintritte]**: Gesamtzahl der Kontakte, die in einen bestimmten Knoten der Journey eingetreten sind.
 
@@ -142,7 +142,7 @@ Anhand des Graphen **[!UICONTROL Performance im Zeitverlauf]** können Sie die A
 
 Die Tabelle **[!UICONTROL Ereignisüberblick]** zeigt an, wie viele Profile im Zeitverlauf Ihren Ereigniskriterien entsprechen. Mit diesem Tool können Sie Muster in Qualifizierungsraten identifizieren, um Ihre Ereignisstrategie zu verfeinern.
 
-+++ Weitere Informationen zu Metriken für Journey-Statistiken
++++ Weitere Informationen zu den Metriken „Journey-Statistiken“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Ereignisse eignen.
 

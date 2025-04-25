@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln.
 
 Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** dienen als allumfassendes Dashboard und liefern eine Analyse der wesentlichen Metriken, die mit Ihren Experimenten verknüpft sind.
 
-+++ Weitere Informationen zu Experimentier-KPIs und Metriken
++++ Weitere Informationen zu den Metriken für Experiment-KPIs
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 
@@ -51,7 +51,7 @@ Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** diene
 Das Widget **[!UICONTROL Variante nach eingehenden Klicks]** liefert Details zur Performance der einzelnen Varianten.
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
-+++ Weitere Informationen zur Variante nach Metriken eingehender Klicks
++++ Weitere Informationen zu den Metriken „Varianten nach ,Eingehende Klicks‘“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 

@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres I
 
 >[!NOTE]
 >
->Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Code-basierten Erlebniskampagne oder einem Journey mit [Decisioning) ](../experience-decisioning/gs-experience-decisioning.md). Eine Problemumgehung finden Sie in [ Abschnitt ](../experience-decisioning/create-decision.md#test-and-publish).
+>Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Kampagne oder Journey mit Code-basiertem Erlebnis mithilfe der [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md) simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Vorschau auf Gerät {#preview-on-device}

@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch enthält Beispiel-API-Aufrufe für die Durchführung wichtiger Operationen mit der Decisioning-Engine.
 
-➡️ [Weitere Informationen zu den Komponenten des Entscheidungs-Managements finden Sie in diesem Video](#video)
+➡️ [Weitere Informationen zu den Komponenten des Entscheidungs-Managements finden Sie in diesem Video.](#video)
 
 ## Voraussetzungen {#prerequisites}
 

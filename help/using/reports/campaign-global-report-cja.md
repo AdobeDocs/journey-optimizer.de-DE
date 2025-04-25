@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Sie können auf Ihren Kampagnenbericht zugreifen, indem Sie in Ihrer Kampagne auf **[!UICONTROL Berichte]** klicken und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können auf Ihren Kampagnenbericht zugreifen, indem Sie in Ihrer Kampagne auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Bericht für gesamte Zeit anzeigen]** auswählen. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -33,7 +33,7 @@ Die KPIs (Key Performance Indicators) zur **[!UICONTROL Kampagne]** dienen als a
 
 Die KPIs variieren je nach den Kanälen, die in Ihrer Kampagne verwendeten werden.
 
-+++ Weitere Informationen zu KPIs in Campaign
++++ Weitere Informationen zu den Metriken „Kampagnen-KPIs“
 
 * **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Nachricht interagiert haben.
 
@@ -53,7 +53,7 @@ Die Tabelle **[!UICONTROL Kampagnen-Überblick]** dient als umfassendes Dashboar
 
 Beachten Sie, dass die Metriken je nach den Kanälen variieren, die in Ihrer Kampagne verwendet werden.
 
-+++ Weitere Informationen zu Übersichtsmetriken von Campaign
++++ Weitere Informationen zu den Metriken „Kampagnenüberblick“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
@@ -83,7 +83,7 @@ Beachten Sie, dass die Metriken je nach den Kanälen variieren, die in Ihrer Kam
 
 Der Graph **[!UICONTROL Ergebnisse des Kampagnentrichters]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren Nachrichten und bietet wertvolle Erkenntnisse zur Interaktion verschiedener Profile mit Ihrem Inhalt.
 
-+++ Weitere Informationen zu Metriken der Ergebnisse von Campaign-Trichtern
++++ Weitere Informationen zu den Metriken „Ergebnisse des Kampagnentrichters“
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -96,7 +96,7 @@ Der Graph **[!UICONTROL Ergebnisse des Kampagnentrichters]** zeigt eine detailli
 
 Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet wichtige Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit den in Ihren Nachrichten enthaltenen URLs und liefert wertvolle Informationen darüber, welche Links die meisten Interaktionen hervorrufen.
 
-+++ Weitere Informationen zu Metriken für getrackte Link-Bezeichnungen
++++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der Profile, die auf einen Inhalt in Ihrer Nachricht geklickt haben.
 

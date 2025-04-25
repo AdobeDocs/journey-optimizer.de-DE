@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Or
 
 Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute und Journey-Anwendende benötigen, um mehrstufige 1:1-Journeys kanalübergreifend zu orchestrieren. Dazu gehört eine intuitive Drag-and-Drop-Arbeitsfläche zum Orchestrieren aller Schritte der Journey, Definieren der Zielgruppe und kanalübergreifendem Einschließen der Nachrichten, Angebote und Inhalte, die die Mitglieder der Zielgruppe basierend auf ihrem Verhalten, kontextuellen Daten und Geschäftsereignissen zu sehen bekommen.
 
-Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [ gestalten ](journey-gs.md).
+Weitere Informationen zum Erstellen und Entwerfen Ihrer ersten Journey finden Sie auf [dieser Seite](journey-gs.md).
 
 ➡️ [Entdecken Sie Journey Optimizer im Video](#video)
 
@@ -50,7 +50,7 @@ In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys 
 
 >[!NOTE]
 >
->Journey-Schutzmechanismen und -Einschränkungen werden auf [ Seite beschrieben](../start/guardrails.md)
+>Leitlinien und Einschränkungen für Journeys werden auf [dieser Seite](../start/guardrails.md) beschrieben.
 
 ## Anleitungsvideo {#video}
 

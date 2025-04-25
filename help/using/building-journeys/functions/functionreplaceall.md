@@ -8,9 +8,9 @@ level: Experienced
 keywords: replaceAll, Funktion, Ausdruck, Journey
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,4 +48,4 @@ Gibt eine Zeichenfolge zurück.
 
 Gibt „Hexxo Worxd“ zurück.
 
-Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe Beispiel auf [dieser Seite](../functions/functionreplace.md#example_2).
+Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe das Beispiel auf [dieser Seite](../functions/functionreplace.md#example_2).

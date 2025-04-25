@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampag
 
 Wenn Ihre Briefpost-Kampagne fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Aktivieren]**. Wenn die Kampagne startet, wird die Extraktionsdatei automatisch generiert und zu dem Server exportiert, der in Ihrer [Datei-Routing-Konfiguration](../direct-mail/direct-mail-configuration.md) festgelegt ist.
 
-Nach dem Versand können Sie die Wirkung Ihrer Briefpost-Kampagne in den Kampagnenberichten messen. Weiterführende Informationen zum Briefpost-Reporting finden Sie [diesem Abschnitt](../reports/campaign-global-report-cja-direct.md).
+Nach dem Versand können Sie die Wirkung Ihrer Briefpost-Kampagne in den Kampagnenberichten messen. Weitere Informationen zu Direkt-Mail-Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-direct.md).
 
 ## Verwalten des Einverständnisses für Briefpost {#dm-consent-management}
 
@@ -56,4 +56,4 @@ Um es erneut zu aktivieren, muss das Profilattribut wieder in `consents.marketin
 
 Um die Attribute eines Profils zu verwalten, gehen Sie zu Experience Platform und greifen Sie auf das Profil zu, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
-Weitere Informationen zur Verwaltung des Opt-outs in Journey Optimizer finden [ in diesem Abschnitt](../privacy/opt-out.md).
+Weitere Informationen zur Verwaltung von Opt-outs in Journey Optimizer finden Sie in [diesem Abschnitt](../privacy/opt-out.md).

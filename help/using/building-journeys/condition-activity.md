@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bedingungsaktivität
+title: Aktivität „Bedingung“
 description: Erfahren Sie mehr über Bedingungsaktivitäten
 feature: Journeys, Activities
 topic: Content Management
@@ -10,26 +10,26 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Bedingungsaktivität {#condition-activity}
+# Aktivität „Bedingung“ {#condition-activity}
 
-## Bedingungsaktivität hinzufügen {#add-condition-activity}
+## Hinzufügen einer Aktivität „Bedingung“ {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
->title="Bedingungsaktivität"
->abstract="Mit **Aktivität „Bedingung** können Sie festlegen, wie Kontakte über Ihren Journey voranschreiten, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um Zeitüberschreitungen oder Fehler zu handhaben und so ein nahtloses Erlebnis sicherzustellen."
+>title="Aktivität „Bedingung“"
+>abstract="Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen."
 
-Mit **Aktivität „Bedingung** können Sie festlegen, wie Kontakte über Ihren Journey voranschreiten, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um Zeitüberschreitungen oder Fehler zu handhaben und so ein nahtloses Erlebnis sicherzustellen.
+Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 
 ![](assets/journey49.png)
 
-Die folgenden Bedingungstypen sind verfügbar:
+Folgende Bedingungstypen sind verfügbar:
 
 * [Bedingung der Datenquelle](#data_source_condition)
 * [Bedingung für die Uhrzeit](#time_condition)
@@ -54,7 +54,7 @@ Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen 
 
 Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
 
-Nehmen wir die Bedingung eines ersten Pfads „Die Person ist ein VIP&quot; und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
+Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist eine VIP“ und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
 ![](assets/journey48.png)
 
@@ -80,7 +80,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Verwenden Sie eine **[!UICONTROL Data Source-Bedingung]**, um eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
+Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Definition basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
 Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
 

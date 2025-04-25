@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,18 +53,18 @@ Journey Optimizer ermöglicht den Export von Journey, Inhaltsvorlagen und Fragme
 
 ### Kampagnen {#campaigns}
 
-Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert.
+Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. 
 
 Die folgenden Elemente werden jedoch **nicht** kopiert:
 
-* Mehrsprachige Varianten und Spracheinstellungen
+* mehrsprachige Varianten und Spracheinstellungen
 * Experimentvarianten
 * Entscheidungsrichtlinien und Entscheidungselemente
 * Geschäftsregeln
 * Tags
-* Kennzeichnungen zur Datennutzung und Durchsetzung von Daten (DULE)
+* Labels für Data Usage Labelling and Enforcement (DULE)
 
-Nachdem Kampagnen kopiert wurden, müssen Kanalkonfigurationen manuell ausgewählt werden.
+Nachdem die Kampagnen kopiert wurden, müssen die Kanalkonfigurationen manuell ausgewählt werden.
 
 ### Inhaltsvorlagen {#content-templates}
 

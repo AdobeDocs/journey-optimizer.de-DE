@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
 
-<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Ihr Ziel ist es, die besten Angebote für jedes Profil auszuwählen, während Sie beim Authoring mit Campaign/Journey angeben können, wie die ausgewählten Entscheidungselemente präsentiert werden sollen, einschließlich der in die Nachricht einzuschließenden Elementattribute.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-/Journey-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Eng
 Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Ihren Code-basierten Kampagnen lauten wie folgt:
 
 1. [Hinzufügen einer Entscheidungsrichtlinie zu einem Code-basierten Erlebnis](#add-decision)
-1. [Entscheidungsrichtlinie verwenden](#use-decision-policy)
+1. [Verwenden der Entscheidungsrichtlinie](#use-decision-policy)
 1. [Erstellen benutzerdefinierter Dashboards für das Reporting in Customer Journey Analytics](cja-reporting.md)
 
 ## Hinzufügen einer Entscheidungsrichtlinie zu einem Code-basierten Erlebnis {#add-decision}
@@ -52,9 +52,9 @@ Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Ihren Code-basiert
 >title="Was ist eine Strategie?"
 >abstract="Die Abfolge der Auswahlstrategie bestimmt, welche Strategie zuerst bewertet wird. Es ist mindestens eine Strategie erforderlich. Entscheidungspunkte in kombinierten Strategien werden gemeinsam bewertet."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Erstellen von Strategien"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Bewertungsreihenfolge"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Auswertungsreihenfolge"
 
-Um Ihren Besuchern auf Ihrer Website oder in Ihrer mobilen App das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie einer codebasierten Kampagne oder einem Journey eine Entscheidungsrichtlinie hinzu. Gehen Sie dazu wie folgt vor.
+Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer Code-basierten Kampagne oder Journey eine Entscheidungsrichtlinie hinzu. Gehen Sie dazu wie folgt vor.
 
 ### Erstellen der Entscheidungsrichtlinie {#add}
 
@@ -96,7 +96,7 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
 
    >[!NOTE]
    >
-   >Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Erfahren Sie mehr über Leitplanken und Einschränkungen bei Decisioning](gs-experience-decisioning.md#guardrails)
+   >Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
 1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet, dann das zweite usw.
 
@@ -204,7 +204,7 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
    >
    >Diese Sequenz wird so oft wiederholt, wie Sie die Entscheidungsrichtlinie zurückgeben möchten. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
 
-1. Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzufügen.  Die verfügbaren Attribute werden im Schema des Katalogs **[!UICONTROL Angebote]** gespeichert. Benutzerdefinierte Attribute werden im Ordner **`_<imsOrg`>** und Standardattribute im Ordner **`_experience`** gespeichert. [Erfahren Sie mehr über das Schema des Angebotskatalogs](catalogs.md)
+1. Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzufügen.  Die verfügbaren Attribute werden im Schema des Katalogs **[!UICONTROL Angebote]** gespeichert. Benutzerdefinierte Attribute werden im Ordner **`_<imsOrg`>** und Standardattribute im Ordner **`_experience`** gespeichert. [Weitere Informationen zum Schema des Angebotskatalogs](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
@@ -221,19 +221,19 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Speichern und schließen]**, um Ihre Änderungen zu bestätigen.
 
-## Testen und Veröffentlichen des Code-basierten Erlebnisses {#test-and-publish}
+## Testen und Veröffentlichen Code-basierter Erlebnisse {#test-and-publish}
 
 Gehen Sie wie folgt vor, um Ihr Code-basiertes Erlebnis abzuschließen und Ihre Änderungen live zu schalten.
 
-1. Überprüfen und veröffentlichen Sie Ihre Code-basierte Erlebniskampagne oder Ihr Journey. [Weitere Informationen](../code-based/publish-code-based.md)
+1. Überprüfen und veröffentlichen Sie Ihre Code-basierte Erlebniskampagne oder Journey. [Weitere Informationen](../code-based/publish-code-based.md)
 
-   Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
+   Sobald Ihre Entwickelnden nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
 
-1. Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einem [Code-basierten Erlebnis, einer Kampagne ](../code-based/create-code-based.md) einem Journey mithilfe von Entscheidungen simulieren.
+1. Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren.
 
-   Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die `dryRun`-Markierung zum XDM-`data` in Ihrer Client-Implementierung hinzufügen:
+   Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die Markierung `dryRun` zum XDM-Ereignisblock `data` in Ihrer Client-Implementierung hinzufügen:
 
    ```
    {
@@ -247,6 +247,6 @@ Gehen Sie wie folgt vor, um Ihr Code-basiertes Erlebnis abzuschließen und Ihre 
    }
    ```
 
-1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie jetzt benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics erstellen](cja-reporting.md).
+1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie nun benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 
 

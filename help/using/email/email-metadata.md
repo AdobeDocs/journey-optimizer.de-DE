@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hinzufügen von Metadaten zu Ihrem E-Mail-Inhalt
-description: Erfahren Sie, wie Sie die Lesbarkeit und Zugänglichkeit Ihrer E-Mail-Inhalte mit Metadaten in Journey Optimizer verbessern können
+title: Hinzufügen von Metadaten zu E-Mail-Inhalten
+description: Erfahren Sie, wie Sie die Lesbarkeit und Barrierefreiheit von E-Mail-Inhalten mit Metadaten in Journey Optimizer verbessern.
 feature: Email Design
 topic: Content Management
 role: User
@@ -10,44 +10,44 @@ level: Intermediate
 keywords: Preheader, Editor, Zusammenfassung, E-Mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
-# Hinzufügen von Metadaten zu Ihrem E-Mail-Inhalt {#email-metadata}
+# Hinzufügen von Metadaten zu E-Mail-Inhalten {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Hinzufügen eines Preheaders"
 >abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über einen E-Mail-Client der Betreffzeile folgt. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz."
 
-Beim Entwerfen Ihrer E-Mails können Sie zur besseren Lesbarkeit und Barrierefreiheit zusätzliche Metaattribute für Ihre Inhalte definieren. Mit [!DNL Journey Optimizer] [E-Mail-Designer](get-started-email-design.md) können Sie die folgenden Elemente angeben:
+Beim Entwerfen Ihrer E-Mails können Sie zusätzliche Meta-Attribute für Ihre Inhalte definieren, um die Lesbarkeit und Barrierefreiheit zu verbessern. Mit dem [E-Mail-Designer](get-started-email-design.md) von [!DNL Journey Optimizer] können Sie die folgenden Elemente angeben:
 
 ![](assets/email_body_settings_ex.png)
 
-* **[!UICONTROL Preheader]**: Ein Preheader ist ein kurzer zusammenfassender Text, der unter der Betreffzeile zu sehen ist, wenn Sie eine E-Mail in Ihrem E-Mail-Programm öffnen. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz.
+* **[!UICONTROL Preheader]**: Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Client anzeigen. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz.
 
   >[!NOTE]
   >
   >Preheader werden nicht von allen E-Mail-Clients unterstützt. Wird der Preheader nicht unterstützt, wird er nicht angezeigt.
 
-* **[!UICONTROL Dokumenttitel]**: Dieses Feld, das dem `<title>`-Element entspricht, enthält beschreibende Informationen zu Ihrem E-Mail-Inhalt, die normalerweise als QuickInfo beim Zeigen mit der Maus angezeigt werden. Es kann Benutzenden mit Behinderungen helfen, indem es zusätzlichen Kontext bietet, und kann zu einem besseren Verständnis Ihrer Inhalte durch Suchmaschinen beitragen.
+* **[!UICONTROL Dokumententitel]**: Dieses Feld, das dem Element `<title>` entspricht, enthält beschreibende Informationen zum E-Mail-Inhalt, die normalerweise als QuickInfo angezeigt werden, wenn der Mauszeiger darüber bewegt wird. Es kann Benutzenden mit Beeinträchtigungen durch Bereitstellung von zusätzlichem Kontext helfen und zu einem besseren Verständnis Ihrer Inhalte durch Suchmaschinen beitragen.
 
-* **[!UICONTROL Dokumentsprache]**: Um die Barrierefreiheit zu gewährleisten, können Sie die Sprache angeben, die Bildschirmlesehilfen verwenden werden, um Text und Bilder in Sprache oder Braille zu konvertieren - für Menschen mit Sehbehinderung oder Lernbehinderung. Diese Einstellung entspricht dem `lang` im `<html>`.
+* **[!UICONTROL Dokumentensprache]**: Um Barrierefreiheit sicherzustellen, können Sie die Sprache angeben, in der Bildschirmlesehilfen Text und Bilder für Menschen mit Seh- oder Lernbeeinträchtigungen in Sprache oder Blindenschrift konvertieren. Diese Einstellung entspricht dem Attribut `lang` im Element `<html>`.
 
 Gehen Sie wie folgt vor, um diese Einstellungen zu konfigurieren.
 
-1. Designer Fügen Sie in [E-Mail-](content-from-scratch.md)) mindestens eine **[!UICONTROL Strukturkomponente]** hinzu, um Ihre E-Mail zu entwerfen.
+1. Fügen Sie im [E-Mail-Designer](content-from-scratch.md) mindestens eine **[!UICONTROL Strukturkomponente]** hinzu, um mit der E-Mail-Gestaltung zu beginnen.
 
-1. Klicken Sie **[!UICONTROL Textkörper]** entweder über den **[!UICONTROL Navigationsbaum]** links oder oben im rechten Bereich.
+1. Klicken Sie entweder über dem **[!UICONTROL Navigationsbaum]** links oder oben im rechten Bereich auf **[!UICONTROL Hauptteil]**.
 
    ![](assets/email_body.png)
 
-1. Geben Sie auf **[!UICONTROL Registerkarte]** Text in die Felder **[!UICONTROL Preheader]**, **[!UICONTROL Dokumenttitel]** und/oder **[!UICONTROL Dokumentsprache]** ein.
+1. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]** Text in die Felder **[!UICONTROL Preheader]**, **[!UICONTROL Dokumententitel]** und/oder **[!UICONTROL Dokumentensprache]** ein.
 
-1. Sie können auch auf das Personalisierungssymbol neben jedem Feld klicken, um Ihren Inhalt anhand von Profilattributen, Zielgruppen, kontextuellen Attributen und mehr anzupassen. [Erfahren Sie mehr über Personalisierung](../personalization/personalization-build-expressions.md)
+1. Sie können auch auf das Personalisierungssymbol neben jedem Feld klicken, um den Inhalt anhand von Profilattributen, Zielgruppen, Kontextattributen usw. anzupassen. [Weitere Informationen zur Personalisierung](../personalization/personalization-build-expressions.md)
 
    ![](assets/email_body_settings.png)
 

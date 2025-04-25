@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Opt-out-Verwaltung für Textnachrichten {#sms-opt-out}
 
-In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfängerinnen und Empfänger enthalten, ihr Abo einfach zu kündigen. [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
+In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfängerinnen und Empfänger enthalten, ihr Abo einfach zu kündigen. [Weitere Informationen zu Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
@@ -42,12 +42,12 @@ Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktio
 
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
-Wenn ein Kunde auf eine Textnachricht antwortet, blockiert der Provider alle nachfolgenden SMS mit dieser spezifischen Absender-ID (Kurzwahlnummer oder lange Nummer), einschließlich Transaktionsnachrichten. Um den unterbrechungsfreien Versand von Transaktions-SMS sicherzustellen, verwenden Sie eine separate Absender-ID, die noch nicht abgemeldet wurde.
+Wenn eine Kundin oder ein Kunde mit STOP auf eine Textnachricht antwortet, blockiert der Anbieter alle nachfolgenden SMS von dieser Absender-ID (Kurzwahlnummer oder lange Nummer), einschließlich Transaktionsnachrichten. Um einen unterbrechungsfreien Versand von Transaktions-SMS sicherzustellen, verwenden Sie eine separate Absender-ID, für die noch kein Opt-out durchgeführt wurde.
 
 
 >[!NOTE]
 >
->Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Provider-Anmeldeinformationen verhindern, dass eingehende Keywords das Benutzerprofil aktualisieren, was zu fehlenden oder verzögerten Opt-out-Datensätzen führt.
+>Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Anbieter-Anmeldeinformationen verhindern, dass das Benutzerprofil durch eingehende Keywords aktualisiert wird. Dies führt zu fehlenden oder verzögerten Opt-out-Einträgen.
 
 
 ## Blockierungslisten {#sms-blocklists}

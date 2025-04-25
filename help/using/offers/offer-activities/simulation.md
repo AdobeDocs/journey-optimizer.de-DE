@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und anpassen, o
 
 >[!NOTE]
 >
->Diese Funktion simuliert eine einzelne Anfrage an die [!DNL Decisioning]-API. Weitere Informationen zu [Angebote mithilfe der Decisioning-API bereitstellen](../api-reference/offer-delivery-api/decisioning-api.md).
+>Diese Funktion simuliert eine einzelne Anfrage an die [!DNL Decisioning]-API. Weitere Informationen finden Sie unter [Unterbreiten von Angeboten mithilfe des Decisioning-API](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Simulation]** aus dem Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTROL Angebote]**.
 
@@ -100,7 +100,7 @@ Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile si
 1. Die verfügbaren Entscheidungen werden angezeigt.
 
    * Sie können das Suchfeld verwenden, um die Auswahl zu verfeinern.
-   * Sie können auf den Link **[!UICONTROL Angebotsentscheidungen öffnen]** klicken, um die von Ihnen erstellte Liste aller Entscheidungen zu öffnen. Weitere Informationen zu [Entscheidungen](create-offer-activities.md).
+   * Sie können auf den Link **[!UICONTROL Angebotsentscheidungen öffnen]** klicken, um die von Ihnen erstellte Liste aller Entscheidungen zu öffnen. Weitere Informationen über [Entscheidungen](create-offer-activities.md).
 
    Wählen Sie die gewünschte Entscheidung aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um die Standardeinstellungen für Ihre Simulationen zu 
 
    >[!NOTE]
    >
-   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisioning]-API-Anfragen finden Sie [ (diesem Abschnitt](../api-reference/offer-delivery-api/decisioning-api.md).
+   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisioning]-API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. Im Bereich **[!UICONTROL Antwortformat]** können Sie wählen, ob Metadaten in die Code-Ansicht aufgenommen werden sollen. Aktivieren Sie die entsprechende Option und wählen Sie die gewünschten Metadaten aus. Sie werden in den Anfrage- und Antwort-Payloads angezeigt, wenn Sie **[!UICONTROL Code anzeigen]** auswählen. Weitere Informationen finden Sie im Abschnitt [Anzeigen von Simulationsergebnissen](#simulation-results).
 

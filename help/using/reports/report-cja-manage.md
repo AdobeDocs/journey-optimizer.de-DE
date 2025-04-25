@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Verbessern Sie Ihr Datenanalyseerlebnis mit Ihrer **[!DNL Customer Journey Analy
 
 Diese leistungsstarke Option leitet Sie nahtlos zu Ihrer **[!DNL Customer Journey Analytics]**-Umgebung weiter, sodass Sie Ihre Berichte umfassend personalisieren können. Sie können Ihre Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichern, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen.
 
-[Erfahren Sie mehr über die Benutzeroberfläche von Customer Journey Analytics.](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Erfahren Sie mehr über die Oberfläche von Customer Journey Analytics.](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Definieren des Berichtszeitraums {#report-period}
 
@@ -221,7 +221,7 @@ Sie können jetzt die neu erstellte Zielgruppe mit einer Journey oder Kampagne v
 >
 > Die Funktionalität **Vorlage** wird schrittweise in Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit für Ende Januar geplant ist. Sie steht ausschließlich Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung.
 
-Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. [Weitere Informationen zur Customer Journey Analytics-Vorlage](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. [Weitere Informationen zu Vorlagen in Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Beim Zugriff auf Ihre Berichte können Sie im Dropdown-Menü **[!UICONTROL Vorlage auswählen]** zwischen zwei Vorlagentypen wählen:
 

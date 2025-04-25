@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Weitere Informationen zu Customer Journey Analytics Workspace und zum Filtern un
 
 Die KPIs **[!UICONTROL Highlights]** dienen als umfassendes Dashboard, das eine detaillierte Aufschlüsselung der Schlüsselmetriken für alle Kampagnen und Journey in Ihrer Umgebung bietet und es Ihnen ermöglicht, die Performance schnell zu bewerten und Verbesserungsbereiche zu identifizieren.
 
-+++ Weitere Informationen zu Metriken von Highlights
++++ Weitere Informationen zu den Metriken „Markierungen“
 
 * **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Kontakte, die über die Journey gesendete Nachrichten empfangen haben und bestimmte Profile repräsentieren, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
 
@@ -65,7 +65,7 @@ Die Tabelle **[!UICONTROL Journey]** dient als umfassendes Dashboard, das eine A
 
 Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Journey können Sie jede Journey problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Journey-Metriken
++++ Weitere Informationen zu den Metriken „Journey“
 
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -83,11 +83,11 @@ Die Tabelle **[!UICONTROL Kampagne]** dient als allumfassendes Dashboard, das ei
 
 Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne können Sie jede Kampagne problemlos einzeln erkunden und sofort auf ihren umfassenden Bericht auf einer neuen Registerkarte zugreifen.
 
-+++ Weitere Informationen zu Campaign-Metriken
++++ Weitere Informationen zu den Metriken „Kampagne“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentsatz der Klicks in Ihren Nachrichten.
+* **[!UICONTROL Durchklickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für jede Kampagne.
 
@@ -107,11 +107,11 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung der Interaktion Ihrer Profile mit Ihren Nachrichten auf Kanalebene an. Auf diese Weise erhalten Sie genauere Erkenntnisse zur Performance verschiedener Kanäle.
 
-+++ Weitere Informationen zu Kanalmetriken
++++ Weitere Informationen zu den Metriken „Kanäle“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
-* **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentsatz der Klicks in Ihren Nachrichten.
+* **[!UICONTROL Durchklickrate]**: Prozentsatz der Klicks in Ihren Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 

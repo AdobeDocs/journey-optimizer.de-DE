@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol *
 >
 >Die [Verarbeitung der Aktualisierung](#processing) kann bis zu drei Stunden dauern.
 
-Um die Details der PTR-Eintrag-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. Weitere Informationen zu den Status, die den verschiedenen Symbolen zugeordnet sind, finden [ in (diesem Abschnitt](#ptr-record-update-statuses).
+Um die Details der PTR-Eintrag-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. Weitere Informationen zu den Status, die den verschiedenen Symbolen zugeordnet sind, finden Sie in [diesem Abschnitt](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 

@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Als **Marketer** oder **Journey-Anwendender** sind Sie für die Erstellung von A
 
 Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angebote und Assets hinzufügen und Nachrichten versenden:
 
-1. **Erstellen von Zielgruppen**. Mit Journey Optimizer können Sie Zielgruppen durch Segmentdefinitionen direkt über das Menü **Zielgruppen** erstellen und in Ihren Journeys nutzen. Weitere Informationen zu Zielgruppen [auf dieser Seite](../../audience/about-audiences.md). [In diesem Beispiel](../../audience/creating-a-segment-definition.md) erfahren Sie, wie Sie Segmentdefinitionen erstellen.
+1. **Erstellen von Zielgruppen**. Mit Journey Optimizer können Sie Zielgruppen durch Segmentdefinitionen direkt über das Menü **Zielgruppen** erstellen und in Ihren Journeys nutzen. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../../audience/about-audiences.md). [In diesem Beispiel](../../audience/creating-a-segment-definition.md) erfahren Sie, wie Sie Segmentdefinitionen erstellen.
 
 1. **Hinzufügen von Personalisierung und dynamischen Inhalten**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Botschaft an Ihre Zielgruppe anzupassen. Erhalten Sie weitere Informationen über [Personalisierung](../../personalization/personalize.md) und [dynamische Inhalte](../../personalization/get-started-dynamic-content.md).
 

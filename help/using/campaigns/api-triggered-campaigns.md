@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Um eine API-ausgelöste Kampagne zu erstellen, gehen Sie wie folgt vor. Detailli
 
 1. Geben Sie im Abschnitt **[!UICONTROL Zielgruppe]** den Namespace an, der zur Identifizierung der Kontakte verwendet werden soll.
 
-   * Wenn Sie eine Kampagne des Typs **Transaktion** erstellen, müssen die Zielgruppenprofile im API-Aufruf definiert werden. Die Option **[!UICONTROL Erstellen neuer Profile]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
+   * Wenn Sie eine Kampagne des Typs **Transaktion** erstellen, müssen die Zielgruppenprofile im API-Aufruf definiert werden. Die Option **[!UICONTROL Neue Profile erstellen]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Weitere Informationen zur Profilerstellung bei der Kampagnenausführung](#profile-creation)
 
      >[!NOTE]
      >
