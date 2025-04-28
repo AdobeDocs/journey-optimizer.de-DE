@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '954'
+ht-degree: 16%
 
 ---
 
@@ -223,18 +223,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 **E-Mail-Kanal**
 
-- **Zusätzliche Felder zur Unterstützung der Barrierefreiheit**
+- **Personalisiertes URL-Tracking**
 
-  Dem E-Mail-Editor wurden zwei neue Felder hinzugefügt, um die Barrierefreiheit zu unterstützen: das `<title>` für Dokumenttitel und das `lang` für die Sprachspezifikation im `<html>`-Tag.
+  Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie jetzt alle URL-Tracking-Parameter gleichzeitig auf der Konfigurationsebene des E-Mail-Kanals personalisieren, anstatt dies für jeden Link in Ihrem Inhalt in Email Designer zu tun.
 
-- **Verbesserungen an der Personalization der E-Mail-Oberfläche - URL-Tracking**
+- **Email Designer Themes** (Beta) - Verfügbarkeitsdatum: 5. Mai 2025
 
-  Das URL-Tracking in der E-Mail-Personalisierung wurde verbessert, sodass das Tracking und die Berichterstellung detaillierter sind. Die Aktualisierungen beinhalten verbesserte Konfigurationsoptionen für personalisierte E-Mail-Einstellungen.
-
-
-- **[Beta] E-Mail-Editor-Verbesserungen mit Designs**
-
-  Eine neue Beta-Funktion führt Designs in den E-Mail-Editor ein, sodass Sie wiederverwendbare Stile definieren und E-Mails mithilfe vorkonfigurierter Module schneller erstellen können.
+  Sie können jetzt schnell vorab genehmigte Styling-Designs auf Ihren E-Mail-Inhalt anwenden, um die Markenkonsistenz über alle E-Mails hinweg sicherzustellen, den Prozess der Kampagnenerstellung zu beschleunigen und unabhängig hochwertige E-Mails zu erstellen, während Sie die Abhängigkeit von Design-Teams reduzieren.
 
 **Sandbox-Tools**
 
@@ -260,39 +255,29 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
   Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option Nur ausgefüllte Attribute anzeigen zu deaktivieren.
 
-- **Neue Systemkontextvariable**
+- **Neues kontextuelles Attribut**
 
-  Eine neue Systemkontextvariable wurde eingeführt, um jede Nachricht, die an ein Zielprofil gesendet wird, eindeutig zu identifizieren. Diese Variable kann für Tracking- und Personalisierungszwecke verwendet werden.
-
-
+  Ein neues Kontextattribut, **Nachrichtenprofil-ID**, kann jetzt aus dem Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfängern geöffneten oder angeklickten Link zu unterscheiden.
 
 **Entscheidungsfindung**
 
-- **KI-Modell - Ranking vereinheitlichen - Neuer Formel-Builder**
+- **Rangfolgeformeln**
 
-  Sie können jetzt Echtzeitbewertungen von Adobe Decisioning-KI-Modellen mit einem neuen Formel-Builder anpassen. Diese Funktion zentralisiert Ranking-Anpassungen für Prioritäten und Modellbewertungen.
+  Sie können jetzt spezifische Entscheidungsrangfolgeformeln erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Mithilfe von Rangfolgeformeln können Sie festlegen, welche Entscheidungselemente zuerst angezeigt werden sollen, anstatt die Prioritätswerte zu berücksichtigen.
 
 **Navigation**
 
-- **Ordner - Landingpages**
+- **Ordner für Inhaltsvorlagen und Fragmente** - Verfügbarkeitsdatum: 5. Mai 2025
 
-  Verbesserte Ordnerverwaltung für Landingpages in Adobe Journey Optimizer, einschließlich Änderungen an der Benutzeroberfläche, Flüssen und API-Aktualisierungen.
+  Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzern (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung. Mit Ordnern können Sie Ihre Inhaltsvorlagen und Fragmente einfacher und effektiver in einer strukturierten Hierarchie organisieren.
 
-- **Ordner - Vorlagen und Fragmente**
+- **Ordner für Landingpages** - Verfügbarkeitsdatum: 5. Mai 2025
 
-  Die Erwähnung der eingeschränkten Verfügbarkeit für Ordner in Vorlagen und Fragmenten wurde entfernt, was darauf hinweist, dass diese Funktion jetzt allgemein verfügbar ist.
+  Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt auch Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.
 
 - **Rechte Leiste in der Kampagnenliste**
 
   Die rechte Leiste wurde zur Kampagnenliste hinzugefügt und bietet detaillierte Informationen bei der Auswahl einer Kampagne.
-
-
-
-**Zustellbarkeit**
-
-- **Verbesserter Workflow für IP-Auffüllungen und Entfernen delegierter Subdomains**
-
-  Der Arbeitsablauf für die Verwaltung von Auffüllungs-IPs und delegierten Subdomains wurde verbessert, was den Prozess für Benutzer vereinfacht.
 
 **Playbooks**
 
