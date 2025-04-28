@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express-Integration (LA)</strong><br/></th>
+<th><strong>Adobe Express-Integration (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer kann jetzt mit Adobe Express integriert werden, sodass Benutzende ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der Kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
+<p>Adobe Journey Optimizer lässt sich jetzt mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der Kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar (LA)</strong><br/></th>
+<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für Kampagnen und Journey-Aktivierungen ist jetzt eine neue Kalenderansicht verfügbar. Diese Funktion bietet eine visuelle Darstellung geplanter Aktivitäten, sodass Benutzende ihre Kampagnen und Journey effektiver anzeigen und verwalten können. Wenn Sie ein Kalenderelement auswählen, wird eine rechte Leiste mit detaillierten Informationen geöffnet. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
+<p>Für Kampagnen und Journey-Aktivierungen ist jetzt eine neue Kalenderansicht verfügbar. Diese Funktion bietet eine visuelle Darstellung geplanter Aktivitäten, sodass Sie Ihre Kampagnen und Journey effektiver anzeigen und verwalten können. Wenn Sie ein Kalenderelement auswählen, wird eine rechte Leiste mit detaillierten Informationen geöffnet. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Experience League bietet jetzt einen interaktiven Personalization-Playground. Mit dieser Funktion können Benutzende die Personalisierungsfunktionen in Adobe Journey Optimizer erkunden und üben. Benutzer können Personalisierungs-Code schreiben, mit Beispiel-Payloads testen und reale Szenarien simulieren, um ihr Lernerlebnis zu verbessern.</p>
+<p>Experience League bietet jetzt einen interaktiven Personalization-Playground. Mit dieser Funktion können Sie die Personalisierungsfunktionen in Adobe Journey Optimizer erkunden und üben. Sie können Personalisierungs-Code schreiben, mit Beispiel-Payloads testen und reale Szenarien simulieren, um Ihr Lernerlebnis zu verbessern.</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Ausführung des Trigger-Journey nach der Batch-Zielgruppenbewertung (LA)</strong><br/></th>
+<th><strong>Tägliche Journey von Trigger wird nach Abschluss der Batch-Segmentierung ausgeführt (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Benutzende können jetzt ein Zeitfenster angeben, um im Knoten Zielgruppe lesen auf eine neue Auswertung von Batch-Zielgruppen zu warten. Wenn die Auswertung innerhalb des Fensters abgeschlossen wird, wird die Journey ausgelöst. Andernfalls wird sie übersprungen. Diese Funktion behebt Verzögerungen bei Batch-Segmentierungsvorgängen und ist derzeit nur eingeschränkt verfügbar.</p>
+<p>Für täglich geplante Journey können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass die Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind. Die Option Trigger nach Batch-Zielgruppenbewertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Proofing der nächsten Generation (GA)</strong><br/></th>
+<th><strong>Simulieren von Inhaltsvarianten (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Proofing-Funktion der nächsten Generation ist jetzt allgemein verfügbar. Diese Verbesserung unterstützt kontextuelle Attribute, mehrsprachige Inhalte, Experimente und Inhaltsvorlagen und bietet so ein robusteres und flexibleres Proofing-Erlebnis.</p>
+<p>Zuvor in der Beta-Version verfügbar, ist die Simulation von Inhaltsvarianten jetzt allgemein verfügbar (GA). Sie ermöglicht Ihnen die Vorschau verschiedener Varianten Ihres Inhalts anhand von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests verwendet werden, um mehrere Varianten zu erstellen.</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Eigener SMS-Anbieter (GA)</strong><br/></th>
+<th><strong>Bringen Sie Ihren eigenen SMS-Provider mit (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt benutzerdefinierte SMS-Anbieter, sodass Benutzende ihre bevorzugten SMS-Services integrieren können, um die Kommunikationsflexibilität zu verbessern.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt benutzerdefinierte SMS-Anbieter, sodass Sie Ihre bevorzugten SMS-Services integrieren können, um die Kommunikationsflexibilität zu verbessern.</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 - **Einschränkung für Anreicherungsattribute entfernen**
 
-  Kunden mit Healthcare und Privacy Shields können jetzt Anreicherungsattribute für die Zielgruppenzusammensetzung in Adobe Journey Optimizer-Kanälen verwenden, was die Datennutzungsfunktionen verbessert.
+  Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist jetzt für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar.
 
 **E-Mail-Kanal**
 
@@ -234,13 +234,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 - **[Beta] E-Mail-Editor-Verbesserungen mit Designs**
 
-  Eine neue Beta-Funktion führt Designs in den E-Mail-Editor ein, sodass Marketing-Experten wiederverwendbare Stile definieren und E-Mails mithilfe vorkonfigurierter Module schneller erstellen können.
+  Eine neue Beta-Funktion führt Designs in den E-Mail-Editor ein, sodass Sie wiederverwendbare Stile definieren und E-Mails mithilfe vorkonfigurierter Module schneller erstellen können.
 
 **Sandbox-Tools**
 
 - **Decisioning-Sandbox-Kopie**
 
-  Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. Ein dedizierter Unterabschnitt für Decisioning-Objekte wird der Dokumentation hinzugefügt.
+  Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden.
 
 - **Sandbox-Tools für benutzerdefinierte Aktionen**
 
@@ -254,11 +254,11 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 - **Personalization-Editor - Pillenaktivierung**
 
-  Eine neue Schaltfläche im Personalisierungseditor ermöglicht es Benutzenden, die Pillen ein- oder auszuschalten. Diese Funktion entschlüsselt den Editor und ermöglicht eine einfachere Bearbeitung von Dynamic Media-Bildparametern und Profilattributen.
+  Im Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert.
 
 - **Personalization - Observable-Schema**
 
-  Dem Personalisierungseditor wurde eine beobachtbare Schemaunterstützung hinzugefügt, die dynamische Aktualisierungen schemabasierter Attribute ermöglicht.
+  Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option Nur ausgefüllte Attribute anzeigen zu deaktivieren.
 
 - **Neue Systemkontextvariable**
 
@@ -270,7 +270,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 - **KI-Modell - Ranking vereinheitlichen - Neuer Formel-Builder**
 
-  Marketing-Experten können jetzt Echtzeitbewertungen von Adobe Decisioning-KI-Modellen mit einem neuen Formel-Builder anpassen. Diese Funktion zentralisiert Ranking-Anpassungen für Prioritäten und Modellbewertungen.
+  Sie können jetzt Echtzeitbewertungen von Adobe Decisioning-KI-Modellen mit einem neuen Formel-Builder anpassen. Diese Funktion zentralisiert Ranking-Anpassungen für Prioritäten und Modellbewertungen.
 
 **Navigation**
 
@@ -296,6 +296,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 **Playbooks**
 
-- **[Beta] Eigene Playbooks erstellen**
+- **Erstellen eigener Playbooks (Beta)**
 
-  Anwender können jetzt ihre eigenen Playbooks in Adobe Journey Optimizer erstellen, was eine bessere Anpassung und Flexibilität bei der Journey-Planung ermöglicht.
+  Sie können jetzt Ihre eigenen Playbooks in Adobe Journey Optimizer erstellen, um eine bessere Anpassung und Flexibilität bei der Journey-Planung zu ermöglichen.
