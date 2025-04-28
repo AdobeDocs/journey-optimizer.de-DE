@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express-Integration (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Adobe Express-Integration (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -52,7 +52,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar (Eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Bringen Sie Ihren eigenen SMS-Provider mit (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Bringen Sie Ihren eigenen SMS-Provider mit (Allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 **Zielgruppen**
 
-- **Einschränkung für Anreicherungsattribute entfernen**
+- **Einschränkung für Anreicherungsattribute der Zielgruppenkomposition wurde entfernt**
 
   Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist jetzt für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar.
 
@@ -247,11 +247,11 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 **Personalisierung**
 
-- **Personalization-Editor - Pillenaktivierung**
+- **Pillenaktivierung**
 
   Im Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert.
 
-- **Personalization - Observable-Schema**
+- **Ausgefüllte Attribute im Attributbereich**
 
   Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option Nur ausgefüllte Attribute anzeigen zu deaktivieren.
 
