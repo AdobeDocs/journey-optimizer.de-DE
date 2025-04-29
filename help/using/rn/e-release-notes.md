@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Zuvor in der Beta-Version verfügbar, ist die Simulation von Inhaltsvarianten jetzt allgemein verfügbar (GA). Sie ermöglicht Ihnen die Vorschau verschiedener Varianten Ihres Inhalts anhand von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests verwendet werden, um mehrere Varianten zu erstellen.</p>
+<p>Mit der allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 ### Verbesserungen {#25-04-improv}
 
-**Zielgruppen**
+<!--**Audiences**
 
-- **Einschränkung für Anreicherungsattribute der Zielgruppenkomposition wurde entfernt**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist jetzt für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **E-Mail-Kanal**
 
