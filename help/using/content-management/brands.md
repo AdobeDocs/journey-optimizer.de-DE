@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 92%
+source-wordcount: '1463'
+ht-degree: 33%
 
 ---
 
@@ -32,39 +32,10 @@ ht-degree: 92%
 >title="Markenauswahl"
 >abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihr Content in Übereinstimmung mit deren spezifischen Richtlinien, Standards und Identität erstellt wird, sodass Konsistenz und Markenintegrität gewahrt werden."
 
->[!CONTEXTUALHELP]
->id="ajo_brand_score"
->title="Markenausrichtungswert"
->abstract="Der Markenausrichtungswert misst, wie gut Ihr Content den Richtlinien Ihrer Marke entspricht, um die Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
-
->[!CONTEXTUALHELP]
->id="ajo_brand_colors"
->title="Farbwert"
->abstract="Farbwert"
-
->[!CONTEXTUALHELP]
->id="ajo_brand_fonts"
->title="Schriftartenwert"
->abstract="Schriftartenwert"
-
->[!CONTEXTUALHELP]
->id="ajo_brand_logos"
->title="Logowert"
->abstract="Logowert"
-
->[!CONTEXTUALHELP]
->id="ajo_brand_imagery"
->title="Bildwert"
->abstract="Bildwert"
-
->[!CONTEXTUALHELP]
->id="ajo_brand_writing_style"
->title="Schreibstilwert"
->abstract="Schreibstilwert"
-
 >[!AVAILABILITY]
 >
 >Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
+>Sie müssen der [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Markenrichtlinien sind ein detaillierter Satz an Regeln und Standards, die die visuelle und sprachliche Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
 
@@ -72,7 +43,7 @@ In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails
 
 ## Zugriff auf Marken {#generative-access}
 
-Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Verwaltetes Marken-Kit]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
+Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Markenkit verwalten]** oder **[!UICONTROL KI-Assistenten aktivieren]**. [Weitere Informationen](../administration/permissions.md)
 
 +++  Informationen zur Zuweisung von Markenberechtigungen
 
@@ -80,7 +51,7 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 
 1. Klicken Sie auf **Bearbeiten**, um die Berechtigungen zu ändern.
 
-1. Fügen Sie die Ressource **KI-Assistent** hinzu und wählen Sie dann aus dem Dropdown-Menü die Option **Verwaltetes Marken-Kit** oder **[!UICONTROL KI-Assistenten aktivieren]** aus.
+1. Fügen Sie die Ressource **KI** Assistent) hinzu und wählen Sie dann **Markenkit verwalten** oder **[!UICONTROL KI-Assistenten aktivieren]** aus dem Dropdown-Menü aus.
 
    Beachten Sie, dass die Berechtigung **[!UICONTROL KI-Assistenten aktivieren]** nur schreibgeschützten Zugriff auf das Menü **[!UICONTROL Marken]** bietet.
 
@@ -98,7 +69,7 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 
 +++
 
-## Erstellen Ihrer Marke {#create-brand-kit}
+## Marke erstellen und verwalten {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
@@ -119,17 +90,13 @@ Zum Erstellen und Verwalten Ihrer Markenrichtlinie können Sie die Details entwe
 
    ![](assets/brands-2.png)
 
-1. Ihre Standards für Content und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen.
+1. Ihre Standards für Content und visuelle Erstellung werden jetzt automatisch ausgefüllt. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen. [Weitere Informationen](#personalize)
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Schreibstil]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie oder einen Ausschluss einschließlich Beispielen hinzuzufügen.
+1. Im erweiterten Menü jedes Abschnitts oder jeder Kategorie können Sie Verweise hinzufügen, um relevante Markeninformationen automatisch zu extrahieren.
 
-   ![](assets/brands-3.png)
+   Um vorhandene Inhalte zu entfernen, verwenden Sie die Optionen **[!UICONTROL Abschnitt löschen]** oder **[!UICONTROL Kategorie löschen]**.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller Inhalt]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine weitere Richtlinie oder einen Ausschluss hinzuzufügen.
-
-1. Um ein Bild zum Veranschaulichen der korrekten Verwendung hinzuzufügen, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild zur Veranschaulichung der inkorrekten Verwendung als Ausschlussbeispiel hinzufügen.
-
-   ![](assets/brands-4.png)
+   ![](assets/brands-15.png)
 
 1. Klicken Sie nach der Konfiguration **[!UICONTROL Speichern]** und anschließend **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinie im KI-Assistenten verfügbar zu machen.
 
@@ -155,3 +122,231 @@ Zum Erstellen und Verwalten Ihrer Markenrichtlinie können Sie die Details entwe
 Ihre Markenrichtlinien sind jetzt über die Dropdown-Liste **[!UICONTROL Marke]** im Menü KI-Assistent verfügbar, sodass Inhalte und Assets generiert werden können, die mit Ihren Spezifikationen übereinstimmen. [Weitere Informationen zum KI-Assistenten](gs-generative.md)
 
 ![](assets/brands-7.png)
+
+### Festlegen einer Standardmarke {#default-brand}
+
+Sie können eine Standardmarke festlegen, die bei der Erstellung von Inhalten und der Berechnung der Alignment-Bewertungen während der Kampagnenerstellung automatisch angewendet wird.
+
+Um eine Standardmarke festzulegen, gehen Sie zum Dashboard **[!UICONTROL Marken]**. Öffnen Sie das erweiterte Menü, indem Sie auf das Symbol ![](assets/do-not-localize/Smock_More_18_N.svg) klicken und **[!UICONTROL Als Standardmarke markieren]** auswählen.
+
+![](assets/brands-9.png)
+
+## Marke personalisieren {#personalize}
+
+### Informationen zur Marke {#about-brand}
+
+Verwenden Sie die Registerkarte **[!UICONTROL Über die Marke]**, um die Kernidentität Ihrer Marke zu ermitteln und ihren Zweck, ihre Persönlichkeit, ihren Slogan und andere definierende Attribute zu umreißen.
+
+1. Füllen Sie zunächst die grundlegenden Informationen für Ihre Marke in der Kategorie **[!UICONTROL Hauptdetails]** aus:
+
+   * **[!UICONTROL Name des Brand Kits]**: Geben Sie den Namen Ihres Brand Kits ein.
+
+   * **[!UICONTROL Verwendungszweck]**: Geben Sie Szenarien oder Kontexte an, in denen dieses Marken-Kit verwendet werden soll.
+
+   * **[!UICONTROL Markenname]**: Geben Sie den offiziellen Namen der Marke ein.
+
+   * **[!UICONTROL Markenbeschreibung]**: Bieten Sie einen Überblick darüber, was diese Marke darstellt.
+
+   * **[!UICONTROL Standard-]**: Fügen Sie den primären Slogan hinzu, der der Marke zugeordnet ist.
+
+     ![](assets/brands-about-1.png)
+
+1. Klären **[!UICONTROL in der Kategorie]** Leitprinzipien“ die Kernausrichtung und Philosophie Ihrer Marke:
+
+   * **[!UICONTROL Mission]**: Beschreiben Sie den Zweck Ihrer Marke.
+
+   * **[!UICONTROL Vision]**: Beschreiben Sie Ihr langfristiges Ziel oder Ihren gewünschten zukünftigen Status.
+
+   * **[!UICONTROL Marktpositionierung]**: Erklären Sie, wie Ihre Marke auf dem Markt positioniert ist.
+
+     ![](assets/brands-about-2.png)
+
+1. Klicken Sie in der Kategorie **[!UICONTROL Markenwerte]** auf ![Bild in Alternativtext einblenden](assets/do-not-localize/Smock_Add_18_N.svg "Symbol hinzufügen"), um die Kernwerte der Marke hinzuzufügen und die Details auszufüllen:
+
+   * **[!UICONTROL Wert]**: Benennen Sie einen Kern-Markenwert.
+
+   * **[!UICONTROL Beschreibung]**: Erklären Sie, was dieser Wert für Ihre Marke bedeutet.
+
+   * **[!UICONTROL Verhalten]**: Beschreiben Sie die Aktionen oder Einstellungen, die diesen Wert in der Praxis widerspiegeln.
+
+   * **[!UICONTROL Manifestationen]**: Geben Sie Beispiele dafür, wie dieser Wert in der realen Markendarstellung ausgedrückt wird.
+
+     ![](assets/brands-12.png)
+
+1. Klicken Sie bei Bedarf auf das ![ALT-Text/Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg "-")-Symbol für das Tauchbild, um einen Ihrer Kernmarkenwerte zu aktualisieren oder zu löschen.
+
+   ![](assets/brands-10.png)
+
+Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentlichen](#create-brand-kit).
+
+### Schreibstil {#writing-style}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Bewertung der Stilausrichtung wird geschrieben"
+>abstract="Im Abschnitt Schreibstil werden Standards für Sprache, Formatierung und Struktur definiert, um klare, konsistente Inhalte sicherzustellen. Der Alignment Score, von hoch bis niedrig, zeigt, wie gut Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
+
+Im Abschnitt **[!UICONTROL Schreibstil]** werden die Standards für das Schreiben von Inhalten beschrieben. Außerdem wird erläutert, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
+
++++ Verfügbare Kategorie und Beispiele
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategorie</th>
+      <th>Unterkategorie</th>
+      <th>Beispiel für Richtlinien</th>
+      <th>Beispiel für Ausschlüsse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Standards für die Inhaltserstellung</td>
+      <td>Markenbotschaften - Standards</td>
+      <td>Heben Sie Innovation und Customer-First-Messaging hervor.</td>
+      <td>Versprechen Sie nicht zu viel Produktfunktionen.</td>
+    </tr>
+    <tr>
+      <td>Verwendung von Slogan</td>
+      <td>Platzieren Sie den Slogan unter dem Logo auf allen digitalen Marketing-Assets.</td>
+      <td>Ändern oder übersetzen Sie den Slogan nicht.</td>
+    </tr>
+    <tr>
+      <td>Kernbotschaft</td>
+      <td>Heben Sie die wichtigsten Vorteile hervor, z. B. die gesteigerte Produktivität.</td>
+      <td>Verwenden Sie keine nicht verwandten Wertvorschläge.</td>
+    </tr>
+    <tr>
+      <td>Benennungsstandards</td>
+      <td>Verwenden Sie einfache, beschreibende Namen wie „ProScheduler“.</td>
+      <td>Verwenden Sie keine komplexen Begriffe oder Sonderzeichen.</td>
+    </tr>
+    <tr>
+      <td rowspan="5">Markenkommunikationsstil</td>
+      <td>Merkmale der Markenpersönlichkeit</td>
+      <td>Freundlich und zugänglich.</td>
+      <td>Sei nicht defätistisch.</td>
+    </tr>
+    <tr>
+      <td>Schreibmechanik</td>
+      <td>Halten Sie Sätze kurz und wirkungsvoll.</td>
+      <td>Verwenden Sie keinen übermäßigen Jargon.</td>
+    </tr>
+    <tr>
+      <td>situativer Ton</td>
+      <td>Behalten Sie einen professionellen Ton in der Krisenkommunikation bei.</td>
+      <td>Seien Sie in der Support-Kommunikation nicht abweisend.</td>
+    </tr>
+    <tr>
+      <td>Word-Auswahlrichtlinien</td>
+      <td>Verwende Wörter wie „innovativ“ und „intelligent“.</td>
+      <td>Vermeide Wörter wie „billig“ oder „hack“.</td>
+    </tr>
+    <tr>
+      <td>Sprachstandards</td>
+      <td>Befolgen Sie die Konventionen für amerikanisches Englisch.</td>
+      <td>Keine englische und amerikanische Schreibweise vermischen.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Gesetzliche Compliance-Standards</td>
+      <td>Markenstandards</td>
+      <td>Verwenden Sie immer das ™- oder ®.</td>
+      <td>Lassen Sie bei Bedarf keine Rechtssymbole weg.</td>
+    </tr>
+    <tr>
+      <td>Urheberrechtsnormen</td>
+      <td>Copyright-Hinweise auf Marketingmaterial einschließen.</td>
+      <td>Verwenden Sie keine Inhalte von Drittanbietern ohne Erlaubnis.</td>
+    </tr>
+    <tr>
+      <td>Haftungsausschluss-Standards</td>
+      <td>Haftungsausschlüsse leserlich auf digitalen Assets anzeigen.</td>
+      <td>Ausblenden von Haftungsausschlüssen in nicht sichtbaren Bereichen.</td>
+    </tr>
+</table>
+
++++
+
+</br>
+
+So personalisieren Sie **[!UICONTROL Schreibstil]**:
+
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Schreibstil“ auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine Richtlinie, einen Ausnahmefehler oder einen Ausschluss hinzuzufügen.
+
+1. Geben Sie Richtlinie, Ausnahme oder Ausschluss ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+
+   ![](assets/brands-3.png)
+
+1. Wählen Sie eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
+
+1. Klicken Sie auf ![ALT-Text/](assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
+
+   ![](assets/brands-11.png)
+
+Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentlichen](#create-brand-kit).
+
+### Visueller Inhalt {#visual-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Bewertung der visuellen Inhaltsausrichtung"
+>abstract="Die Bewertung der visuellen Inhaltsausrichtung gibt an, wie gut Ihr Inhalt Ihren konfigurierten Markenrichtlinien entspricht. Mit dieser Bewertung von hoch bis niedrig können Sie die Ausrichtung auf einen Blick beurteilen. Erkunden Sie die verschiedenen Kategorien, um Bereiche für Verbesserungen zu identifizieren und Elemente zu identifizieren, die markenfremd sein könnten."
+
+Im Abschnitt **[!UICONTROL Visuelle Inhalte]** werden die Standards für Bilder und Design definiert. Darin werden die Spezifikationen detailliert beschrieben, die für die Aufrechterhaltung eines einheitlichen und konsistenten Markenlooks erforderlich sind.
+
++++ Verfügbare Kategorien und Beispiele
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategorie</th>
+      <th>Beispiel für Richtlinien</th>
+      <th>Beispiel für Ausschlüsse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fotografiestandards</td>
+      <td>Verwenden Sie natürliche Beleuchtung für Außenaufnahmen.</td>
+      <td>Vermeiden Sie übermäßig bearbeitete oder pixelige Bilder.</td>
+    </tr>
+    <tr>
+      <td>Illustrationsstandards</td>
+      <td>Verwenden Sie saubere, minimalistische Stile.</td>
+      <td>Vermeiden Sie übermäßig komplexe Inhalte.</td>
+    </tr>
+    <tr>
+      <td>Symbolstandards</td>
+      <td>Verwenden Sie ein konsistentes 24px-Rastersystem.</td>
+      <td>Keine Symbolabmessungen mischen, inkonsistente Strichgewichte verwenden oder von Rasterregeln abweichen.</td>
+    </tr>
+    <tr>
+      <td>Nutzungsrichtlinien</td>
+      <td>Wählen Sie Lifestyle-Bilder, die reale Kunden widerspiegeln, die das Produkt in professionellen Umgebungen verwenden.</td>
+      <td>Verwenden Sie keine Bilder, die dem Markenton widersprechen oder aus dem Kontext gerissen erscheinen.</td>
+    </tr>
+</table>
+
++++
+
+</br>
+
+So personalisieren Sie **[!UICONTROL visuelle Inhalte]**:
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller]**) auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um eine Richtlinie, einen Ausschluss oder ein Beispiel hinzuzufügen.
+
+1. Geben Sie Ihre Richtlinie, Ihren Ausschluss oder Ihr Beispiel ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+
+   ![](assets/brands-4.png)
+
+1. Um ein Bild zum Veranschaulichen der korrekten Verwendung hinzuzufügen, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild zur Veranschaulichung der inkorrekten Verwendung als Ausschlussbeispiel hinzufügen.
+
+   ![](assets/brands-13.png)
+
+1. Wählen Sie eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
+
+1. Wählen Sie eine Richtlinie oder einen Ausschluss aus, um sie zu aktualisieren. Klicken Sie auf das ![Tauchbild-Alternativtext](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")-Symbol, um es zu löschen.
+
+   ![](assets/brands-14.png)
+
+Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentlichen](#create-brand-kit).

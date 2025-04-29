@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 89%
+source-wordcount: '2364'
+ht-degree: 88%
 
 ---
 
@@ -358,7 +358,9 @@ ht-degree: 89%
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
       + [Landingpage mit KI](using/content-management/generative-lp.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
-      + [Erstellen und Verwalten Ihrer Marken (Beta)](using/content-management/brands.md)
+      + Marken (Betaversion){#brands}
+         + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
+         + [Bewertung der Markenausrichtung](using/content-management/brands-score.md)
    + Verwenden mehrsprachiger Inhalte{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen eines Gebietsschemas](using/content-management/multilingual-locale.md)

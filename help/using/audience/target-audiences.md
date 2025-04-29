@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die 
 ## Verzögerung der Zielgruppenaktivierung {#activation}
 
 Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in Journey Optimizer bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
+
+Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann die Aktivierung aufgrund von Schwankungen bei der Batch-Aufnahme verzögert sein. Für täglich geplante Journey mit Lesezugriff auf Zielgruppen können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind. Wenn der Segmentierungsauftrag nicht innerhalb des definierten Zeitfensters abgeschlossen wird, wird die Journey bis zum nächsten Auftreten übersprungen. [Erfahren Sie, wie Sie eine Journey mit Lesezugriff für Zielgruppen planen](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>Die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Benutzerdefinierter Upload und Komposition föderierter Zielgruppen
 

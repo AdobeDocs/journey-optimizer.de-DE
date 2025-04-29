@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 96%
+source-wordcount: '2195'
+ht-degree: 67%
 
 ---
 
 # Verwenden einer Zielgruppe in einer Journey {#segment-trigger-activity}
 
-## Hinzufügen der Aktivität „Zielgruppe lesen“ {#about-segment-trigger-actvitiy}
+## Über die Aktivität „Zielgruppe lesen“ {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -58,7 +58,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Wartezeit für eine neue Zielgruppenbewertung"
->abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet."
+>abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
 
 Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zielgruppe in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
@@ -80,13 +80,13 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 * Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
-
 Schutzmechanismen im Zusammenhang mit der Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
-
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
-So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
+Gehen Sie wie folgt vor, um die Aktivität „Zielgruppe lesen“ zu konfigurieren.
+
+### Fügen Sie die Aktivität Zielgruppe lesen hinzu und wählen Sie die Zielgruppe aus
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -120,33 +120,78 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
    >
    >Personen, die zu einer Zielgruppe ohne die ausgewählte Identität (den ausgewählten Namespace) gehören, können nicht in die Journey eintreten. Sie können nur einen personenbasierten Identity-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produktsuche), ist er nicht in der Dropdown-Liste **Namespace** verfügbar.
 
-1. Legen Sie die **[!UICONTROL Leserate]** fest. Dies ist die maximale Anzahl von Profilen, die pro Sekunde in die Journey eintreten können. Diese Rate gilt nur für diese und keine andere Aktivitäten in der Journey. Wenn Sie beispielsweise eine Einschränkungsrate für benutzerdefinierte Aktionen definieren möchten, müssen Sie die Einschränkungs-API verwenden. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/throttling.md).
+### Profileintrag in der Journey verwalten
 
-   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 5.000 Profile pro Sekunde. Sie können diesen Wert zwischen 500 und 20.000 Profile pro Sekunde variieren.
+Legen Sie die **[!UICONTROL Leserate]** fest. Dies ist die maximale Anzahl von Profilen, die pro Sekunde in die Journey eintreten können. Diese Rate gilt nur für diese und keine andere Aktivitäten in der Journey. Wenn Sie beispielsweise eine Einschränkungsrate für benutzerdefinierte Aktionen definieren möchten, müssen Sie die Einschränkungs-API verwenden. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/throttling.md).
 
-   >[!NOTE]
-   >
-   >Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern.
+Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 5.000 Profile pro Sekunde. Sie können diesen Wert zwischen 500 und 20.000 Profile pro Sekunde variieren.
 
-1. Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie den Zeitpunkt festlegen, zu dem die Zielgruppe in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
+>[!NOTE]
+>
+>Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern.
+
+### Journey planen {#schedule}
+
+Standardmäßig sind Journey so konfiguriert, dass sie nur einmal ausgeführt werden. Gehen Sie wie folgt vor, um ein bestimmtes Datum/eine bestimmte Uhrzeit und eine bestimmte Häufigkeit für die Ausführung der Journey festzulegen.
+
+>[!NOTE]
+>
+>Einmalige „Zielgruppe lesen“-Journeys wechseln 91 Tage nach der Ausführung der Journey in den Status **Beendet** ([maximale globale Wartezeit der Journey](journey-properties.md#global_timeout)).  Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 91 Tage nach dem letzten Auftreten beendet.
+
+1. Wählen Sie in den **[!UICONTROL Audience lesen]** Aktivitätseigenschaften pa, e **[!UICONTROL Journey-Zeitplan bearbeiten]**.
 
    ![](assets/read-segment-schedule.png)
 
-   Standardmäßig treten Zielgruppen **[!UICONTROL so früh wie möglich]** in die Journey ein. Wenn die Zielgruppe zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
-
-   >[!NOTE]
-   >
-   >Beachten Sie, dass der Bereich **[!UICONTROL Zeitplan]** nur verfügbar ist, wenn eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf der Arbeitsfläche abgelegt wurde.
+1. Die Eigenschaften der Journey werden angezeigt. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Planungstyp“ die Häufigkeit aus, mit der die Journey ausgeführt werden soll.
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Inkrementelles Lesen**: Wenn eine Journey mit einer wiederkehrenden Aktion vom Typ **Zielgruppe lesen** zum ersten Mal ausgeführt wird, treten alle Profile in der Zielgruppe in die Journey ein. Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Personen anzusprechen, die seit der letzten Journey-Ausführung in die Zielgruppe eingetreten sind.
+Für wiederkehrende Journey stehen spezifische Optionen zur Verfügung, mit denen Sie den Eintritt von Profilen in den Journey verwalten können. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu den einzelnen Optionen anzuzeigen.
 
-       >[!NOTE]
-       >
-       >Wenn Sie eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#segments-in-journey-optimizer) in Ihrer Journey ansprechen, werden Profile nur bei der ersten Wiederholung abgerufen, falls diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fest sind.
-   
-   **Erneuten Eintritt bei Wiederholung erzwingen**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. Wenn Sie beispielsweise eine Wartezeit von 2 Tagen in dieser wiederkehrenden Journey haben, werden Profile immer auf die nächste Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Zielgruppe der nächsten Ausführung befinden oder nicht. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL Inkrementelles Lesen]**
+
+Wenn eine Journey mit einem wiederkehrenden **Zielgruppe lesen** zum ersten Mal ausgeführt wird, treten alle Profile in der Zielgruppe in die Journey ein.
+
+Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Personen anzusprechen, die seit der letzten Journey-Ausführung in die Zielgruppe eingetreten sind.
+
+>[!NOTE]
+>
+>Wenn Sie auf eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#segments-in-journey-optimizer) in Ihrer Journey abzielen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
+
++++
+
++++**[!UICONTROL Erneuten Eintritt bei Wiederholung erzwingen]**
+
+Mit dieser Option können Sie alle noch auf der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen.
+
+Wenn Sie z. B. eine Wartezeit von 2 Tagen auf einer täglich wiederkehrenden Journey haben, werden durch Aktivierung dieser Option Profile immer auf die nächste Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Zielgruppe der nächsten Ausführung befinden oder nicht.
+
+Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+
++++
+
++++**[!UICONTROL Trigger nach der Batch-Zielgruppenauswertung]** (eingeschränkte Verfügbarkeit)
+
+>[!AVAILABILITY]
+>
+>Die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+
+Für täglich geplante Journey- und Batch-Zielgruppen können Sie ein Zeitfenster von bis zu 6 Stunden definieren, damit der Journey auf neue Zielgruppendaten aus Batch-Segmentierungsaufträgen warten kann. Wenn der Segmentierungsauftrag innerhalb des Zeitfensters abgeschlossen wird, werden die Journey-Trigger Andernfalls wird das Journey bis zum nächsten Auftreten übersprungen. Diese Option stellt sicher, dass Journey mit korrekten und aktuellen Zielgruppendaten ausgeführt werden.
+
+Wenn beispielsweise eine Journey für 18 Uhr täglich geplant ist, können Sie eine Anzahl von Minuten oder Stunden angeben, die gewartet werden soll, bevor die Journey ausgeführt wird. Wenn die Journey um 18 Uhr aufwacht, wird nach einer neuen Zielgruppe gesucht, d. h. nach einer Zielgruppe, die neuer ist als die in der vorherigen Journey-Ausführung verwendete. Während des angegebenen Zeitfensters wird die Journey ausgeführt, sobald die neue Audience erkannt wird. Wenn jedoch keine neue Zielgruppe erkannt wird, wird die Journey-Ausführung für diesen Tag übersprungen.
+
+**Lookback-Zeitraum für inkrementelle Lese-Journey**
+
+Wenn der Trigger **[!UICONTROL nach der Batch-]** ausgewählt ist, sucht [!DNL Journey Optimizer] nach einer neuen Zielgruppenauswertung. Zu Beginn der Lookback-Phase verwendet das System die Zeit der letzten erfolgreichen Journey-Ausführung, auch wenn diese mehr als 24 Stunden zurückliegt. Dies ist für inkrementelle Journey mit Lesezugriff von Bedeutung, die in der Regel eine 24-stündige Lookback-Periode haben.
+
+Beispiele für tägliche inkrementelle Lesevorgänge von Journey:
+
+* Bei aktivierter &quot;Trigger nach Batch-Zielgruppenbewertung“: Wenn seit dem Eintritt von inkrementellen Profilen in die Journey drei Tage vergangen sind, verlängert sich der Lookback-Zeitraum bei der Suche nach inkrementellen Profilen um drei Tage.
+* Mit &quot;Trigger nach Batch-Zielgruppenauswertung“ nicht aktiv: Wenn drei Tage vergangen sind, seit inkrementelle Profile in die Journey eingetreten sind, würde der Lookback-Zeitraum bei der Suche nach inkrementellen Profilen nur 24 Stunden zurückgehen.
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->Einmalige „Zielgruppe lesen“-Journeys wechseln 91 Tage nach der Ausführung der Journey in den Status **Beendet** ([maximale globale Wartezeit der Journey](journey-properties.md#global_timeout)).  Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 91 Tage nach dem letzten Auftreten beendet.
 
 ## Testen und Veröffentlichen der Journey {#testing-publishing}
 
@@ -213,6 +254,12 @@ Die Segmentierung kann basieren auf:
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>Bei Verwendung des Planungstyps „Täglich“ mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie ein Zeitfenster definieren, in dem der Journey auf neue Zielgruppendaten warten soll. Dadurch wird eine präzise Zielgruppenerfassung sichergestellt und Probleme vermieden, die durch Verzögerungen bei Batch-Segmentierungsvorgängen verursacht werden. [Erfahren Sie, wie Sie eine Journey planen](#schedule)
+>
+>Die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+
 **Ausschluss**
 
 Die selbe Aktivität **Bedingung**, die für die Segmentierung verwendet wird (siehe oben), ermöglicht es Ihnen auch, einen Teil der Population auszuschließen. Sie können beispielsweise VIP-Personen ausschließen, indem Sie diese in einen Zweig mit direkt anschließendem Beenden-Schritt führen.
@@ -223,16 +270,11 @@ Dieser Ausschluss kann unmittelbar nach Zielgruppenabruf, zu Zwecken der Populat
 
 **Vereinigung**
 
-Journeys erlauben das Erstellen von n Zweigen, die nach einer Segmentierung zusammengeführt werden.
+Mit Journey können Sie n Verzweigungen erstellen und nach einer Segmentierung verbinden. Daher können Sie zwei Zielgruppen zu einem gemeinsamen Erlebnis zurückkehren lassen.
 
-Daher können Sie zwei Zielgruppen zu einem gemeinsamen Erlebnis zurückkehren lassen.
-
-Ein Beispiel: Im Anschluss an ein zehntägiges differenziertes Erlebnis in einer Journey können VIP- und Nicht-VIP-Kunden zum selben Pfad zurückkehren.
-
-Nach einer Vereinigung können Sie die Zielgruppe erneut teilen, indem Sie eine Segmentierung oder einen Ausschluss durchführen.
+Wenn Sie beispielsweise zehn Tage lang auf einer Journey ein anderes Erlebnis verfolgt haben, können VIP- und Nicht-VIP-Kunden zum selben Pfad zurückkehren. Nach einer Vereinigung können Sie die Zielgruppe erneut teilen, indem Sie eine Segmentierung oder einen Ausschluss durchführen.
 
 ![](assets/read-segment-audience3.png)
-
 
 ## Weitere Zustellversuche {#read-audience-retry}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 98%
+source-wordcount: '2344'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,6 @@ Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die 
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
 
-
 ## Verwalten des Zugriffs {#manage-access}
 
 Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Jou
 Aufgrund der maximalen Journey-Wartezeit von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
 Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
-
 
 #### Häufig gestellte Fragen zur Time-to-Live (TTL) und zur Aufbewahrung von Daten {#timeout-faq}
 
@@ -301,6 +299,10 @@ Die folgenden Leitlinien und Einschränkungen gelten für die Ausstiegskriterien
 
 * Die Ausstiegskriterien sind nur im Entwurfsstadium definiert
 * Kohärenz des Journey-Namespace zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
+
+## Journey Zeitplan {#schedule}
+
+Der **[!UICONTROL Zeitplan]**-Abschnitt ist nur verfügbar, wenn eine **[!UICONTROL Zielgruppe lesen]**-Aktivität auf der Arbeitsfläche abgelegt wurde. Damit können Sie Datum, Uhrzeit und Häufigkeit für die Ausführung der Journey festlegen. [Erfahren Sie, wie Sie eine Journey mit Lesezugriff für Zielgruppen planen](../building-journeys/read-audience.md)
 
 ## Konflikt-Management {#conflict}
 

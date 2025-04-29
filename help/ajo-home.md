@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -20,11 +20,17 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version März 2025]
+>[!TAB Version April &#39;25]
 
-Die Version März ist jetzt live! Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
+Die April-Version ist jetzt live! Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Adobe Express-Integration]
+
+Adobe Journey Optimizer kann jetzt mit Adobe Express integriert werden, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können.
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB KI-Assistent]
 
@@ -38,11 +44,6 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Web-Erlebnisse in Journeys]
-
-Mit dem Webkanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.
-
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Preheader, Editor, Zusammenfassung, E-Mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
-workflow-type: ht
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Hinzufügen eines Preheaders"
+>title="Preheader definieren"
 >abstract="Ein Preheader ist ein kurzer Zusammenfassungstext, der beim Anzeigen einer E-Mail über einen E-Mail-Client der Betreffzeile folgt. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz."
 
 Beim Entwerfen Ihrer E-Mails können Sie zusätzliche Meta-Attribute für Ihre Inhalte definieren, um die Lesbarkeit und Barrierefreiheit zu verbessern. Mit dem [E-Mail-Designer](get-started-email-design.md) von [!DNL Journey Optimizer] können Sie die folgenden Elemente angeben:
