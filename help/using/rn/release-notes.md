@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- **Sandbox-Tools für benutzerdefinierte Aktionen**
+* **Sandbox-Tools für benutzerdefinierte Aktionen**
 
   Benutzerdefinierte Aktionen sind jetzt in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Tooling-Funktion kopiert werden können, wodurch Tests und die Bereitstellung optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-- **Sandbox-Tools für Kampagnen** - Verfügbarkeitsdatum: 3. April 2025
+* **Sandbox-Tools für Kampagnen** - Verfügbarkeitsdatum: 3. April 2025
 
   Sie können nun Kampagnen über mehrere Sandboxes hinweg kopieren, indem Sie die Funktionen für den Paketexport und -import verwenden. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungs-Labels und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **Ausgefüllte Attribute im Attributbereich** - Verfügbarkeitsdatum: 2. April 2025
+* **Ausgefüllte Attribute im Attributbereich** - Verfügbarkeitsdatum: 2. April 2025
 
   Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** mithilfe der Schaltfläche „Einstellungen“. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 
-- **Neues kontextuelles Attribut**
+* **Neues kontextuelles Attribut**
 
   Ein neues Kontextattribut, **Nachrichtenprofil-ID**, kann jetzt aus dem Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfängern geöffneten oder angeklickten Link zu unterscheiden.
 
