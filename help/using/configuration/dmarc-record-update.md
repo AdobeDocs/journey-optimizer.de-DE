@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -66,8 +66,8 @@ oder
 
 **Nützliche Links**
 
-* Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de#about){target="_blank"} erfahren Sie mehr über DMARC
-* Die [Google Gmail-Ankündigung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"} lesen
-* Die [Yahoo!- Ankündigung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"} lesen
+* Weitere Informationen zu DMARC finden Sie im [Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de#about){target="_blank"}
+* Lesen Sie die [Google Gmail-Ankündigung](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Die [Yahoo!- Mitteilung](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
