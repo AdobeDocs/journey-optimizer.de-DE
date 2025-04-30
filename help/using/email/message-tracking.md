@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1198'
-ht-degree: 100%
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+workflow-type: tm+mt
+source-wordcount: '1200'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    >[!NOTE]
    >
-   >Zum Interpretieren von URLs hält sich [!DNL Journey Optimizer] an die URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), sodass einige internationale Sonderzeichen in URLs unterbunden werden. Wenn beim Test- oder E-Mail-Versand ein Fehler im Zusammenhang mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie für die Zeichenfolge eine URL-Codierung durchführen und so das Problem umgehen.
+   >Zum Interpretieren von URLs hält sich [!DNL Journey Optimizer] an die URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), wodurch einige internationale Sonderzeichen in URLs deaktiviert werden. Wenn beim Test- oder E-Mail-Versand ein Fehler im Zusammenhang mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie für die Zeichenfolge eine URL-Codierung durchführen und so das Problem umgehen.
 
 1. Sie können Ihre Links personalisieren. [Weitere Informationen](../personalization/personalization-syntax.md#perso-urls)
 
@@ -171,9 +171,9 @@ Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.
 
 ## Personalisieren des URL-Trackings {#url-tracking}
 
-Normalerweise wird das [URL-Tracking](email-settings.md#url-tracking) auf Konfigurationsebene verwaltet, Profilattribute werden jedoch nicht unterstützt. Die einzige Möglichkeit hierfür besteht derzeit darin, URLs im E-Mail-Designer zu [personalisieren](../personalization/personalization-syntax.md#perso-urls).
+[URL-Tracking](email-settings.md#url-tracking) wird auf Konfigurationsebene verwaltet und gilt für alle im Nachrichteninhalt enthaltenen URLs.
 
-Gehen Sie wie folgt vor, um Ihren Links personalisierte URL-Tracking-Parameter hinzuzufügen.
+Sie können auch [einzelne URLs personalisieren](../personalization/personalization-syntax.md#perso-urls) im E-Mail-Designer. Gehen Sie wie folgt vor, um einem einzelnen Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
 
 1. Wählen Sie einen Link aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
