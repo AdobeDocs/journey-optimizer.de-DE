@@ -6,10 +6,9 @@ description: Erfahren Sie, wie Sie in Journey Optimizer eine LINE-Nachricht erst
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 71%
@@ -94,4 +93,3 @@ Gehen Sie wie folgt vor, um Ihren LINE-Inhalt zu konfigurieren.
 Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre LINE-Nachricht an Ihre Audience senden. Diese Schritte werden auf [dieser Seite](send-line.md) im Detail beschrieben.
 
 Nach dem Versand können Sie die Wirkung Ihrer LINE in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja.md).
-
