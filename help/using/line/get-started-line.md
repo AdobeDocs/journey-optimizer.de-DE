@@ -7,7 +7,7 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -18,10 +18,10 @@ ht-degree: 23%
 
 Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an Ihre Kunden über deren LINE-App zu senden. Sie können Nachrichten im LINE-Editor erstellen, personalisieren und in der Vorschau anzeigen.
 
-[!AVAILABILITY]
->>
-Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.
+>[!AVAILABILITY]
 >
+>Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.
+
 LINE-Nachrichten können in einer Journey oder einer Kampagne erstellt und gesendet werden:
 
 * In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine LINE -Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen]**, um den Inhalt für die LINE-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
