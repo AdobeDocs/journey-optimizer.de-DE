@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2816b5aefaa184949471c6b0d2ee1c6ec6de0ed0
+source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 51%
+source-wordcount: '906'
+ht-degree: 49%
 
 ---
 
@@ -269,7 +269,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 
 **E-Mail-Kanal**
 
-* **Personalized URL tracking** Availability date: April 30, 2025
+* **Personalisiertes URL-Tracking** Verfügbarkeitsdatum: 30. April 2025
 
   Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie jetzt alle URL-Tracking-Parameter gleichzeitig auf der Konfigurationsebene des E-Mail-Kanals personalisieren, anstatt dies für jeden Link in Ihrem Inhalt in Email Designer zu tun. [Weitere Informationen](../email/surface-personalization.md#personalize-url-tracking)
 
@@ -277,7 +277,9 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 
   Um die Barrierefreiheit in Journey Optimizer zu verbessern, sind im E-Mail-Designer nun zwei neue Felder verfügbar: Sie entsprechen dem Element `<title>` und dem Attribut `lang` im Element `<html>` Ihres E-Mail-Inhalts. Sie können diese Einstellungen zusätzlich zum Feld **[!UICONTROL Preheader]** auch im Abschnitt für den **[!UICONTROL E-Mail-Text]** definieren. [Weitere Informationen](../email/email-metadata.md)
 
+**Playbooks für Anwendungsfälle**
 
+* **Playbooks Authoring and Sharing (Beta)** - Sie können jetzt eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion steht derzeit allen Kunden als öffentliche Beta-Version zur Verfügung. [Weitere Informationen](../start/playbooks.md)
 
 **Navigation**
 
