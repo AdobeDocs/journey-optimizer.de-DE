@@ -7,10 +7,10 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
+source-git-commit: edd012bc8f2b840d211658782239003749e06df8
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 23%
+source-wordcount: '182'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an Ihre Kunden über
 
 >[!AVAILABILITY]
 >
->Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.
+>Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an den Adobe-Support, um die Funktion für Ihr Unternehmen zu aktivieren.
 
 LINE-Nachrichten können in einer Journey oder einer Kampagne erstellt und gesendet werden:
 
