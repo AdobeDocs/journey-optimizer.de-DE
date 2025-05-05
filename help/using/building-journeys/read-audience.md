@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
 ht-degree: 67%
@@ -24,41 +24,6 @@ ht-degree: 67%
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
 >abstract="Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu einer Adobe Experience Platform-Zielgruppe gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Anfangsdatum/Uhrzeit"
->abstract="Legen Sie das Datum und die Uhrzeit zum Auslösen dieser Journey fest."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Wiederholen bis"
->abstract="Legen Sie das Enddatum der Wiederholung fest."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Wiederholen alle"
->abstract="Definieren Sie die Häufigkeit der wiederkehrenden Planung."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Inkrementelles Lesen"
->abstract="Nur neuen Profilen seit dem letzten Lesen erlauben, in die Journey einzutreten."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Wiedereintritt erzwingen"
->abstract="Alle Journey-Teilnehmenden vor jedem Lesen der Zielgruppe entfernen."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Trigger nach der Batch-Zielgruppenbewertung"
->abstract="Schalten Sie diese Option ein, um die Journey-Ausführung nach einer erneuten Auswertung der Batch-Zielgruppe als Trigger auszuführen."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Wartezeit für eine neue Zielgruppenbewertung"
->abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
 
 Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zielgruppe in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
@@ -131,6 +96,41 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern.
 
 ### Journey planen {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Anfangsdatum/Uhrzeit"
+>abstract="Legen Sie das Datum und die Uhrzeit zum Auslösen dieser Journey fest."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Wiederholen bis"
+>abstract="Legen Sie das Enddatum der Wiederholung fest."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Wiederholen alle"
+>abstract="Definieren Sie die Häufigkeit der wiederkehrenden Planung."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Inkrementelles Lesen"
+>abstract="Nur neuen Profilen seit dem letzten Lesen erlauben, in die Journey einzutreten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Wiedereintritt erzwingen"
+>abstract="Alle Journey-Teilnehmenden vor jedem Lesen der Zielgruppe entfernen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Trigger nach der Batch-Zielgruppenbewertung"
+>abstract="Schalten Sie diese Option ein, um die Journey-Ausführung nach einer erneuten Auswertung der Batch-Zielgruppe als Trigger auszuführen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Wartezeit für eine neue Zielgruppenbewertung"
+>abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
 
 Standardmäßig sind Journey so konfiguriert, dass sie nur einmal ausgeführt werden. Gehen Sie wie folgt vor, um ein bestimmtes Datum/eine bestimmte Uhrzeit und eine bestimmte Häufigkeit für die Ausführung der Journey festzulegen.
 
