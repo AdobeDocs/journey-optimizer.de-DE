@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 96%
+source-wordcount: '2395'
+ht-degree: 84%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 96%
 
 Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie für bestehende Journeys auf das Stiftsymbol neben dem Journey-Namen, um sie zu öffnen.
 
-Über diesen Abschnitt haben Sie die Möglichkeit, den Namen der Journey festzulegen, eine Beschreibung hinzuzufügen und:
+Definieren Sie in diesem Abschnitt den Namen der Journey, fügen Sie eine Beschreibung hinzu und legen Sie Ihre globalen Eigenschaften für die Journey fest.
 
-* den [Eintritt und Wiedereintritt](#entrance) zu verwalten,
-* [Start- und Enddatum](#dates) anzugeben,
-* den [Zugriff auf Daten](#manage-access) zu verwalten,
-* eine [Dauer für die maximale Wartezeit](#timeout) in Journey-Aktivitäten zu definieren (nur für Admins),
-* [Zeitzonen](#timezone) für die Journey und das Profil auszuwählen,
-* Ihrer Journey Adobe Experience Platform Unified Tags zuzuweisen, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
-* Konflikte überwachen und Ihre Journeys mithilfe von [Konflikt-Management-Tools](#conflict) priorisieren.
+Sie haben folgende Möglichkeiten:
 
-![](assets/journey32.png)
+* Weisen Sie Ihrem Journey einheitliche Adobe Experience Platform-Tags zu, um sie einfach zu klassifizieren und die Suche über die Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+* Journey-Metriken auswählen. [Erfahren Sie, wie Sie Ihre Journey-Metriken konfigurieren und verfolgen](success-metrics.md)
+* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Details finden Sie auf [dieser Seite](entry-management.md)
+* Verwalten [Zugriff auf Daten](#manage-access)
+* Journey und Profil auswählen [Zeitzonen](#timezone)
+* Benutzerdefiniertes [Start- und Enddatum) ](#dates)
+* Definieren einer [Zeitüberschreitungsdauer](#timeout) in Journey-Aktivitäten (nur für Admin-Benutzer)
+* Konflikte überwachen und Journey mithilfe von [Tools für das Konfliktmanagement](#conflict) priorisieren
+
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
+Sie können den Zugriff auf eine Journey anhand von Zugriffsbeschriftungen einschränken.
 
-![](assets/journeys-manage-access.png)
+Um der Journey benutzerdefinierte Datennutzungskennzeichnungen zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Zugriffskennzeichnungen verwalten]** und wählen Sie eine oder mehrere Kennzeichnungen aus.
+
+[Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
 
 ## Zeitzonen von Journeys und Profilen {#timezone}
 
 Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen. Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
 
-Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+[Weitere Informationen zum Zeitzonen-Management](../building-journeys/timezone-management.md)
 
 ## Start- und Enddatum {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Startdatum"
->abstract="Wählen Sie das Datum, an dem der Eintritt in die Journey beginnen kann. Wenn kein Startdatum angegeben wird, wird automatisch der Zeitpunkt der Veröffentlichung festgelegt."
-
+>abstract="Wählen Sie das Datum aus, an dem Profile mit dem Eintritt in die Journey beginnen können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Wählen Sie das Enddatum der Journey aus. Wenn dieses Datum erreicht wird, treten die Profile in dieser Journey automatisch aus, und es können keine neuen mehr in sie eintreten."
+>abstract="Legen Sie das Enddatum der Journey fest. An diesem Datum beenden die aktiven Profile automatisch die Journey und es werden keine neuen Einträge zugelassen."
 
-Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
+Standardmäßig können Profile unmittelbar nach der Veröffentlichung auf Ihren Journey zugreifen und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn kein Enddatum angegeben ist, können Profile bis zum Ablauf der [maximalen globalen Wartezeit einer Journey](#global_timeout) verbleiben (in der Regel 91 Tage). Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Bei Bedarf können Sie benutzerdefinierte **Startdatum** und **Enddatum“**. Dadurch können Profile an einem bestimmten Datum auf Ihren Journey zugreifen und ihn automatisch beenden, wenn das Enddatum erreicht ist.
 
 ## Maximale Wartezeit {#timeout}
 
-### Zeitüberschreitung oder Fehler bei Journey-Aktivitäten {#timeout_and_error}
+### Timeout beim Journey von Aktivitäten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Maximale Wartezeit"
->abstract="Legen Sie fest, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung zu überprüfen, bevor dies als Zeitüberschreitung betrachtet wird."
-
+>title="Zeitüberschreitung oder Fehler"
+>abstract="Geben Sie an, wie lange der Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung auszuwerten, bevor sie als Zeitüberschreitung behandelt wird. Empfohlene Werte liegen zwischen 1 und 30 Sekunden."
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung der maximalen Wartezeit einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegte Dauer der maximalen Wartezeit der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
-Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
+Empfohlene Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Maximale Wartezeit oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 

@@ -2,32 +2,31 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Veröffentlichen der Journey
-description: Erfahren Sie, wie Sie über Ihre gewählte Journey-Metrik berichten können.
+description: Erfahren Sie, wie Sie Berichte zu Ihren Journey-Metriken erstellen
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 72%
 
 ---
 
-# Konfigurieren und Verfolgen der Journey-Metrik {#success-metrics}
+# Journey-Metriken konfigurieren und verfolgen {#success-metrics}
 
-Mit Journey-Metriken können Sie die Wirkung Ihrer Aktivitäten effektiv messen, indem Sie deren Leistung anhand vordefinierter Metriken verfolgen.
-Durch Tracking dieser Metriken können Sie sehen, wie gut Ihre Journey funktioniert, Bereiche identifizieren, in denen Verbesserungen möglich sind, und fundierte Entscheidungen treffen, um die Kundeninteraktion zu optimieren.
+Gewinnen Sie mit Journey-Metriken einen klaren Einblick in die Effektivität Ihrer Kunden-Journey. Mit dieser Funktion können Sie die Leistung anhand definierter KPIs verfolgen, Einblicke in die Funktionsweise erhalten und Bereiche für die Optimierung identifizieren. Durch die Messung der Wirkung in Echtzeit können Sie kontinuierliche Verbesserungen fördern und dateninformierte Entscheidungen treffen, die die Kundeninteraktion erhöhen.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie Ihre Journey-Metrik verwenden können, müssen Sie einen Datensatz mit den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} `Commerce Details`, `Web` und `Mobile` hinzufügen.
+Bevor Sie Ihre Journey-Metriken verwenden können, müssen Sie einen Datensatz hinzufügen, der die `Commerce Details`, `Web` und `Mobile`Feldergruppen[ enthält](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}.
 
 ## Verfügbare Metriken {#metrics}
 
-Die Liste der Metriken variiert abhängig von den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} in Ihrem Datensatz.
+Die Liste der Metriken variiert je nach den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} die in Ihrem Datensatz enthalten sind.
 
 Wenn Ihr Datensatz nicht konfiguriert ist, sind nur die folgenden Metriken verfügbar: **[!UICONTROL Klick]**, **[!UICONTROL Einzelklick]**, **[!UICONTROL Klickrate]** und **[!UICONTROL Öffnungsrate]**.
 
@@ -70,9 +69,9 @@ Jede Metrik enthält eine festgelegte Attribution, die bestimmt, welche Touchpoi
 
   Weitere Informationen zu [Attributionsmodellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Zuweisen der Journey-Metrik {#assign}
+## Zuweisen von Journey-Metriken {#assign}
 
-Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metrik zu beginnen:
+Gehen Sie wie folgt vor, um mit dem Tracking Ihrer Journey-Metriken zu beginnen:
 
 1. Klicken Sie im Menü **[!UICONTROL Journeys]** auf **[!UICONTROL Journey erstellen]**.
 
@@ -90,8 +89,8 @@ Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metrik zu
 
 1. Testen und veröffentlichen Sie Ihre Journey.
 
-1. Öffnen Sie den Journey-Bericht, um die Leistung der zugewiesenen Erfolgsmetrik zu verfolgen.
+1. Öffnen Sie den Journey-Bericht, um die Performance der Ihnen zugewiesenen Erfolgsmetriken zu verfolgen.
 
-   Die gewählte Metrik wird in der Tabelle mit den KPIs und Journey-Statistiken des Berichts angezeigt.
+   Die von Ihnen ausgewählten Metriken werden in der Tabelle KPIs des Berichts und Journey-Statistiken angezeigt.
 
    ![](assets/success_metric_2.png)

@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Labels zur Zugriffsverwaltung"
->abstract="Sie können den Zugriff auf diese Kampagne basierend auf Zugriffs-Labels einschränken. Um eine Zugriffsbeschränkung hinzuzufügen, navigieren Sie zur Schaltfläche **Zugriff verwalten** oben auf dieser Seite. Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie über eine Berechtigung verfügen."
+>abstract="Sie können den Zugriff auf ein Objekt anhand von Zugriffsbeschriftungen einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten. **Achten Sie darauf, nur Kennzeichnungen auszuwählen, für die Sie über die Berechtigung verfügen.**"
+
+Sie können den Zugriff auf ein Objekt anhand von Zugriffsbeschriftungen einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
 Mit der Funktion Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
 
@@ -36,7 +38,6 @@ Mit der Funktion Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigu
 * Kanalkonfiguration
 * IP-Aufwärmplan
 
-Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
 ## Voraussetzungen {#prereq-labels}
 
@@ -85,7 +86,7 @@ So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Core-B
 
 1. Wählen Sie im Fenster **[!UICONTROL Zugriff verwalten]** Ihre benutzerdefinierte(n) oder Core-Bezeichnungen(en) für die Datennutzung aus, um den Zugriff auf dieses Objekt zu verwalten.
 
-   Weitere Informationen zu Labels für die Kerndatennutzung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Core-Bezeichnungen für die Nutzungsdaten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de){target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -94,4 +95,4 @@ So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Core-B
 Um Zugriff auf dieses Objekt zu erhalten, muss die spezifische **[!UICONTROL Bezeichnung]** in den **[!UICONTROL Rollen]** der Benutzenden enthalten sein.
 Beispiel: Eine Benutzerin mit der Bezeichnung C1 hat nur Zugriff auf Objekte mit der Bezeichnung C1 oder ohne Bezeichnung.
 
-Weitere Informationen zur Zuweisung von **[!UICONTROL Labels]** zu einer **[!UICONTROL Rolle]** finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=de#manage-labels-for-a-role){target="_blank"}.
+Weitere Informationen zur Zuweisung von **[!UICONTROL Bezeichnungen]** zu **[!UICONTROL Rollen]** finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=de#manage-labels-for-a-role){target="_blank"}.
