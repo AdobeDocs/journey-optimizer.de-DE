@@ -31,4 +31,4 @@ Detaillierte Informationen zum Import von Zielgruppen finden Sie in der [Dokume
 
 Mehr zum Hochladen von Zielgruppen im CSV-Format erfahren Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423357?quality=12&captions=ger)

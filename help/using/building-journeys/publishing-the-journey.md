@@ -51,4 +51,4 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt: Alle Personen, die d
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427932?quality=12&captions=ger)

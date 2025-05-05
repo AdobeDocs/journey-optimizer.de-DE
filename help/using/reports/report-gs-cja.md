@@ -57,4 +57,4 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 Das folgende Video zeigt Ihnen, wie Sie das erweiterte Reporting in Journey Optimizer mit Customer Journey Analytics verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443160?captions=ger)

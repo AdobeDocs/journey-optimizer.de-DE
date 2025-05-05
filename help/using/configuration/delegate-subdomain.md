@@ -252,4 +252,4 @@ Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Doma
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)

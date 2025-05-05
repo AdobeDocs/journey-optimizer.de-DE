@@ -70,7 +70,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3422692?learn=on&captions=ger)
 
 +++
 
@@ -79,6 +79,6 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430371?quality=12&learn=on&captions=ger)
 
 +++

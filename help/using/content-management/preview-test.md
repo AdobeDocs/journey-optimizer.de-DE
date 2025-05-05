@@ -78,4 +78,4 @@ Sie können Ihre Inhalte wie folgt in der Vorschau anzeigen und testen:
 
 Erfahren Sie, wie Sie mit Testprofilen das E-Mail-Rendering über Postfächer hinweg testen, personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430337?quality=12&captions=ger)

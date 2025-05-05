@@ -83,4 +83,4 @@ Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nac
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443615?captions=ger)

@@ -136,4 +136,4 @@ Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zie
 
 Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Sie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430326?quality=12&captions=ger)

@@ -46,4 +46,4 @@ Wenn zwei Kampagnen die gleiche Priorität haben, wird die Kampagne angezeigt, d
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
