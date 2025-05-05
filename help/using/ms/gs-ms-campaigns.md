@@ -31,7 +31,7 @@ ht-degree: 16%
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
 * Aktivitäten: [Erste Schritte mit Aktivitäten](activities/about-activities.md)
 * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/channels.md) - [Anreicherung](activities/enrichment.md) [ ](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) &lt;!—[test](activities/test.md) —> [wait](activities/wait.md)
+* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/channels.md) - [Anreicherung](activities/enrichment.md) [&#128279;](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) &lt;!—[test](activities/test.md) —> [wait](activities/wait.md)
 * Monitoring: [Reporting](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]

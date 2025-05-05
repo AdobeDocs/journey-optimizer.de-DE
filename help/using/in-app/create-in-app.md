@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
       | Places | POI eingeben | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) aufrufen. |
       | Places | POI für Austritt | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) beenden. |
 
-+++
+      +++
 
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
       | Places | Zuletzt eingegebener POI | Wird vom Places-SDK ausgelöst, je nachdem, welcher Zielpunkt (Point of Interest, POI) zuletzt von Ihrer Kundin bzw. Ihrem Kunden eingegeben wurde. |
       | Places | Letzter verlassener POI | Wird vom Places-SDK ausgelöst, je nachdem, welcher Zielpunkt (Point of Interest, POI) von Ihrer Kundin bzw. Ihrem Kunden zuletzt verlassen wurde. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
       | Places | POI eingeben | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) aufrufen. |
       | Places | POI für Austritt | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) beenden. |
 
-+++
+      +++
 
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
 
@@ -205,7 +205,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
       | Places | Zuletzt eingegebener POI | Wird vom Places-SDK ausgelöst, je nachdem, welcher Zielpunkt (Point of Interest, POI) zuletzt von Ihrer Kundin bzw. Ihrem Kunden eingegeben wurde. |
       | Places | Letzter verlassener POI | Wird vom Places-SDK ausgelöst, je nachdem, welcher Zielpunkt (Point of Interest, POI) von Ihrer Kundin bzw. Ihrem Kunden zuletzt verlassen wurde. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * Informationen dazu, wie Inhaltsexperimente konfiguriert und analysiert werden können, um In-App-Nachrichten mit A/B-Tests zu testen, gibt es im folgenden Video.
 
@@ -246,7 +246,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * Das Video unten zeigt, wie eine In-App-Nachricht in einer Journey erstellt und wie die Journey getestet und veröffentlicht werden kann.
 
@@ -254,7 +254,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Verwandte Themen:**
 

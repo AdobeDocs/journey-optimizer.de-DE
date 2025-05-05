@@ -279,7 +279,7 @@ So personalisieren Sie **[!UICONTROL Schreibstil]**:
 
 1. Wählen Sie eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
 
-1. Klicken Sie auf ![ALT-Text/](assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
+1. Klicken Sie auf ![ALT-Text/] (assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
 
    ![](assets/brands-11.png)
 

@@ -122,6 +122,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
      **Beispiel:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Sprache**
+
      **Feld:** language
      **Titel:** Sprache
      **Beschreibung:** Die Sprache(n) der Ressource. \nLanguages werden im Sprachen-Code spezifiziert, wie in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) definiert, was Teil von BCP 47 ist, das an anderer Stelle in XDM verwendet wird.

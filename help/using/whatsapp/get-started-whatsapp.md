@@ -37,7 +37,7 @@ ht-degree: 11%
 
 Sie können jetzt WhatsApp-Nachrichten direkt über Journey Optimizer senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp in Journey und Kampagnen und verbessert die Kommunikation und Interaktion mit den Empfängerinnen und Empfängern.
 
-* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine **WhatsApp**-Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen:]** App“, um den Inhalt für die WhatsApp-Nachricht zu erstellen. Auf dieser Seite erfahren Sie, wie Sie eine Journey [](../building-journeys/journey-gs.md).
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine **WhatsApp**-Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen:]** App“, um den Inhalt für die WhatsApp-Nachricht zu erstellen. Auf dieser Seite erfahren Sie, wie Sie eine Journey [&#128279;](../building-journeys/journey-gs.md).
 
 * In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie **WhatsApp** als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende WhatsApp-Nachricht zu definieren. Auf [ Seite erfahren Sie, wie Sie eine Kampagne ](../campaigns/create-campaign.md#configure).
 

@@ -207,7 +207,7 @@ Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list) ist, werden alle 
 
 ## Ausschlussberichte {#reporting}
 
-Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service} verwenden](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} um die unten stehenden API-Aufrufe durchzuführen.
+Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service&rbrace; verwenden](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 
