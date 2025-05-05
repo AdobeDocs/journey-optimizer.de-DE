@@ -54,7 +54,7 @@ Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an 
 
 Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Kennzeichnungen, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
 
-Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 ## Zielgruppentypen {#types}
 

@@ -25,7 +25,7 @@ Der Asset-Wähler unterstützt jetzt Dynamic Media, sodass Sie genehmigte Dynami
 
 Beachten Sie, dass diese Integration nur für Kunden verfügbar ist, die Dynamic Media Manager as a Cloud Service verwenden.
 
-Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Service finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 ## Hinzufügen und Verwalten von Dynamic Media {#dynamic-media}
 
@@ -47,7 +47,7 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 
 1. Passen Sie die Bildparameter (z. B. Höhe, Breite, Drehen, Spiegeln, Helligkeit, Farbton usw.) nach Bedarf an Ihre Asset-Anforderungen an.
 
-   Eine umfassende Liste der Bildparameter, die der URL hinzugefügt werden können, finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+   Eine umfassende Liste der Bildparameter, die der URL hinzugefügt werden können, finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
 
    ![](assets/dynamic-media-3.png)
 
@@ -100,7 +100,7 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
-Weitere Informationen zu [Dynamic Media-Vorlage](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Weitere Informationen zu [Dynamic Media-Vorlage](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
 ### Mit Bildkomponente {#image-component}
 
@@ -120,7 +120,7 @@ Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren 
 
 1. Navigieren **in den** Bildeinstellungen“, um auf die Parameter Ihrer Dynamic Media-Vorlage zuzugreifen.
 
-   Die verfügbaren Felder hängen von den Parametern ab, die bei der [Vorlagenerstellung](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager hinzugefügt wurden.
+   Die verfügbaren Felder hängen von den Parametern ab, die bei der [Vorlagenerstellung](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) in Adobe Experience Manager hinzugefügt wurden.
 
    ![](assets/dynamic-media-template-3.png)
 

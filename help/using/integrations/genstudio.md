@@ -76,13 +76,13 @@ Zunächst können Sie eine [!DNL Journey Optimizer] HTML-Vorlage mit den Richtli
 
    >[!NOTE]
    >
-   >Im entsprechenden Abschnitt des [Adobe GenStudio for Performance Marketing-Benutzerhandbuchs erfahren Sie, wie Sie eine HTML-Vorlage in [!DNL GenStudio] hochladen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Im entsprechenden Abschnitt des [Adobe GenStudio for Performance Marketing-Benutzerhandbuchs erfahren Sie, wie Sie eine HTML-Vorlage in [!DNL GenStudio] hochladen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. Verwenden Sie in GenStudio diese Vorlage, um mehrere E-Mail-Varianten mit KI-Eingabeaufforderungen zu erstellen und zu speichern.
 
    >[!NOTE]
    >
-   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [ GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
+   >Wie Sie E-Mail-Erlebnisse erstellen, erfahren Sie im entsprechenden Abschnitt [ GenStudio](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}.
 
 ### GenStudio-Erlebnisse in Journey Optimizer nutzen {#leverage-genstudio-experiences}
 
