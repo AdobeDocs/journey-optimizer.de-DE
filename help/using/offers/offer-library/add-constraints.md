@@ -74,7 +74,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >id="od_offer_eligibility"
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
->additional-url="https://video.tv.adobe.com/v/329373?captions=ger" text="Demovideo ansehen"
+>additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Demovideo ansehen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
