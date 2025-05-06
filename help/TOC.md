@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 88%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 88%
       + [Konfigurieren des LINE-Kanals in Journey Optimizer](using/line/line-configuration.md)
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Prüfen und Senden von LINE-Nachrichten](using/line/send-line.md)
-+ Landingpages {#landing-pages}
-   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
-   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
-   + Inhaltserstellung {#landing-pages-design}
-      + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
-      + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
-      + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
-      + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
-   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
-   + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-   + Konfigurieren von Landingpages {#lp-configuration}
++ Content-Management {#content-management}
+   + Landingpages {#landing-pages}
+      + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
+      + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+      + Inhaltserstellung {#landing-pages-design}
+         + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
+         + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
+         + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
+         + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
+      + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
+      + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
+      + Konfigurieren von Landingpages {#lp-configuration}
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
-+ Content-Management {#content-management}
-   + KI-Assistent für die Inhaltsgenerierung{#ai-assistant}
-      + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
-      + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
-      + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
-      + [Generierung von SMS mit KI](using/content-management/generative-sms.md)
-      + [Generierung von Web-Seiten mit KI](using/content-management/generative-web.md)
-      + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
-      + [Landingpage mit KI](using/content-management/generative-lp.md)
-      + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
-      + Marken (Betaversion){#brands}
-         + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
-         + [Bewertung der Markenausrichtung](using/content-management/brands-score.md)
-   + Verwenden mehrsprachiger Inhalte{#content-multilingual}
-      + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
-      + [Erstellen eines Gebietsschemas](using/content-management/multilingual-locale.md)
-      + [Erstellen eines Sprachdienstleisters](using/content-management/multilingual-provider.md)
-      + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
-      + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
-   + Arbeiten mit einem Inhaltsexperiment {#content-experiment}
-      + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
-      + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
-      + Technotes {#technotes}
-         + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
-         + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
    + Personalisierung {#personalization}
       + [Erste Schritte mit der Personalisierung](using/personalization/personalize.md)
       + [Hinzufügen von Personalisierung](using/personalization/personalization-build-expressions.md)
@@ -412,6 +388,30 @@ ht-degree: 88%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
+   + KI-Assistent für die Inhaltsgenerierung{#ai-assistant}
+      + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
+      + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
+      + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
+      + [Generierung von SMS mit KI](using/content-management/generative-sms.md)
+      + [Generierung von Web-Seiten mit KI](using/content-management/generative-web.md)
+      + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
+      + [Landingpage mit KI](using/content-management/generative-lp.md)
+      + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
+      + Marken (Betaversion){#brands}
+         + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
+         + [Bewertung der Markenausrichtung](using/content-management/brands-score.md)
+   + Mehrsprachige Inhalte{#content-multilingual}
+      + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
+      + [Erstellen eines Gebietsschemas](using/content-management/multilingual-locale.md)
+      + [Erstellen eines Sprachdienstleisters](using/content-management/multilingual-provider.md)
+      + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
+      + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
+   + Inhaltsexperiment {#content-experiment}
+      + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
+      + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
+      + Technotes {#technotes}
+         + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
+         + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
