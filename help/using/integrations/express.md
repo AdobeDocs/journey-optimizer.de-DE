@@ -45,12 +45,12 @@ Mit einer Enterprise-Lizenz erhalten Benutzende vollen Zugriff auf den Adobe Exp
 
 +++Verfügbare Anwendungsfälle für Anwender mit einer Enterprise-Lizenz für Adobe Express
 
-* [Hintergrund entfernen](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [Objekte entfernen](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Löschen](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [Objekt einfügen](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Zuschneiden](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Effekte](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [Hintergrund entfernen](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/remove-background.html)
+* [Objekte entfernen](https://helpx.adobe.com/de/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Löschen](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/eraser.html)
+* [Objekt einfügen](https://helpx.adobe.com/de/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Zuschneiden](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [Effekte](https://helpx.adobe.com/de/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
