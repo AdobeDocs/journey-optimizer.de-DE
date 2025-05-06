@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 49%
+source-wordcount: '958'
+ht-degree: 48%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 49%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
+## Mai &#39;25 Updates {#25-5-rn}
+
+* **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
+
+  Im Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert. [Weitere Informationen](../personalization/personalization-build-expressions.md#options)
+
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wird in den nächsten 30 Tagen schrittweise für alle Umgebungen eingeführt.
 
 ## Versionshinweise April &#39;25 {#25-4-rn}
 
@@ -260,10 +269,6 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
   Sie können nun Kampagnen über mehrere Sandboxes hinweg kopieren, indem Sie die Funktionen für den Paketexport und -import verwenden. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungs-Labels und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **Personalisierung**
-
-<!--- **Pills activation**  
-
-  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
 * **Neues kontextuelles Attribut**
 

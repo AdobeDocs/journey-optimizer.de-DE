@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 97%
+source-wordcount: '1510'
+ht-degree: 93%
 
 ---
 
@@ -105,7 +105,7 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 >title="Automatisch vervollständigen"
 >abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code während Ihrer Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
-Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im Bereich „Attribute“ und klicken Sie auf die Schaltfläche `+`, um es zum Ausdruck hinzuzufügen.
+Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+`, um es zum Ausdruck hinzuzufügen.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ Im folgenden Beispiel können Sie mit dem Personalisierungseditor die Profile au
 
 ![](assets/perso_ee2.png)
 
-## Tools für die Ausdrucksbearbeitung
+## Optionen für die Ausdrucksbearbeitung {#options}
 
 Der zentrale Arbeitsbereich bietet verschiedene Tools, mit denen Sie Ihren Personalisierungsausdruck schreiben können.
 
@@ -146,6 +146,13 @@ Verfügbare Optionen sind:
    * **Ein**: Passt Zeilen mit Umbrüchen an die Breite des Editors an.
    * **Zeilenumbruchspalte**: Fügt Zeilenumbrüche ein, wenn eine Zeile 80 Zeichen erreicht.
    * **Begrenzt**: Fügt Zeilenumbrüche angepasst an die Editor-Breite oder bei Erreichen von 80 Zeichen ein, je nachdem, welcher Wert kleiner ist.
+1. **[!UICONTROL Pillen]**: Attribute werden als kompakte „Pillen“ angezeigt, um die Lesbarkeit zu verbessern, indem lange Attributpfade ausgeblendet werden. Klicken Sie auf ein Attribut, um dessen vollständigen Pfad anzuzeigen.
+
+   >[!NOTE]
+   >
+   >Die Pillenanzeige wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
+   >
+   >Diese Option ist nur für Profilattribute, kontextuelle Attribute und Dynamic Media verfügbar.
 
 Im Navigationsbereich stehen zusätzliche Funktionen zur Verfügung, mit denen Sie Ihren Personalisierungsausdruck erstellen können.
 
