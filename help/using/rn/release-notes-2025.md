@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Versionshinweise 2025
+title: Versionshinweise 2025
 description: Versionshinweise zu Journey Optimizer 2025
 feature: Release Notes
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../test-a
 
 **Geschäftsregeln**
 
-Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie [ Handbuch zu Platform Identity Service ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
 Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
@@ -196,7 +196,7 @@ Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Doku
 
 **Inhaltsvorlagen**
 
-Inhaltsvorlagen vom Typ HTML werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Erfahren Sie mehr über Inhaltsvorlagen](../content-management/content-templates.md)
+Inhaltsvorlagen vom Typ HTML werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Weitere Informationen zu Inhaltsvorlagen](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -243,7 +243,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und angepasster Visualisierungen.</p>
+<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und personalisierter Visualisierungen.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Weitere Informationen finden Sie in der <a href="../content-management/generative-lp.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -255,7 +255,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Marken mit KI-Assistent (Beta)</strong><br/></th>
+<th><strong>Marken mit dem KI-Assistenten (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

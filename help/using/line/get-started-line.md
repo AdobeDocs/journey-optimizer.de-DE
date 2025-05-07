@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit LINE
-description: Erfahren Sie, wie Sie LINE-Nachrichten in Journey Optimizer erstellen und senden
+description: Erfahren Sie, wie Sie in Journey Optimizer LINE-Nachrichten erstellen und versenden
 feature: Line
 topic: Content Management
 role: User
@@ -11,23 +11,23 @@ exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 15%
+ht-degree: 87%
 
 ---
 
 # Erste Schritte mit LINE {#get-started-line}
 
-Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an Ihre Kunden über deren LINE-App zu senden. Sie können Nachrichten im LINE-Editor erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an die LINE-App Ihrer Kundinnen und Kunden zu senden. Mithilfe des LINE-Editors können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
 >[!AVAILABILITY]
 >
 >Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an den Adobe-Support, um die Funktion für Ihr Unternehmen zu aktivieren.
 
-LINE-Nachrichten können in einer Journey oder einer Kampagne erstellt und gesendet werden:
+LINE-Nachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden:
 
-* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine LINE -Aktivität hinzu, definieren Sie die Grundeinstellungen und navigieren Sie dann zum rechten Bereich **[!UICONTROL Aktionen]**, um den Inhalt für die LINE-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
+* In einer **Journey**.  Erstellen Sie eine Journey, fügen Sie eine LINE-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: LINE]**, um den Inhalt für die LINE-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie LINE als Aktion aus und definieren Sie grundlegende Einstellungen, und bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende LINE-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie LINE als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende LINE-Nachricht zu definieren. Auf [dieser Seite](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
 
 Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit Journey Optimizer. [Weitere Informationen](line-configuration.md).
 
@@ -36,7 +36,7 @@ Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit 
 <a href="create-line.md">
 <img alt="Lead" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-line.md"><strong>Erstellen Sie Ihre LINE-Nachricht</strong>
+<div><a href="create-line.md"><strong>Erstellen Ihrer ersten LINE-Nachricht</strong>
 </div>
 </td>
 <td>

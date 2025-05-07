@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 85%
 
 ## Neue Funktionen
 
-Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](using/rn/release-notes.md). Besuchen Sie die [Seite Dokumentationsaktualisierungen](using/rn/documentation-updates.md), um über die neuesten Änderungen in der Produktdokumentation auf dem Laufenden zu bleiben.
+Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](using/rn/release-notes.md). Besuchen Sie die [Seite zu Dokumentationsaktualisierungen](using/rn/documentation-updates.md), um über die neuesten Änderungen in der Produktdokumentation auf dem Laufenden zu bleiben.
 
 >[!BEGINTABS]
 
->[!TAB Version April &#39;25]
+>[!TAB Version April 2025]
 
-Die April-Version ist jetzt live! Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
+Die Version April ist jetzt live. Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Adobe Express-Integration]
+>[!TAB Integration von Adobe Express]
 
 Adobe Journey Optimizer kann jetzt mit Adobe Express integriert werden, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können.
 
