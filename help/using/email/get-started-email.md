@@ -10,9 +10,9 @@ level: Beginner
 keywords: E-Mail, Start, Erstellung, Vorschau
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ E-Mail-Sendungen können erstellt werden:
 <a href="../content-management/generative-email.md">
 <img alt="KI-Assistent" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>KI-Assistent für die Inhaltserstellung</strong>
+<div><a href="../content-management/generative-email.md"><strong>KI-Assistent für die Inhaltsgenerierung</strong>
 </div>
 <p>
 </td>
@@ -95,7 +95,7 @@ E-Mail-Sendungen können erstellt werden:
 <img alt="Personalisieren von Inhalten" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personalisieren von E-Mail-Inhalt</strong></a>
+<a href="../personalization/personalize.md"><strong>Personalisieren des E-Mail-Inhalts</strong></a>
 </div>
 <p>
 </td>
@@ -104,7 +104,7 @@ E-Mail-Sendungen können erstellt werden:
 <img alt="Kombinieren von Lösungen" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
-<a href="../integrations/assets.md"><strong>Kombinieren von Adobe-Apps und -Lösungen</strong></a>
+<a href="../integrations/assets.md"><strong>Kombinieren von Adobe-Programmen und -Lösungen</strong></a>
 </div>
 <p>
 </td>

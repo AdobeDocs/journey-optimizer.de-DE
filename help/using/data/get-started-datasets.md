@@ -9,9 +9,9 @@ level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr die Verwendung von Send- und Open-Ereignissen aus Journey Optimizer-Tracking- und -Feedback-Datensätzen. Darüber hinaus wird ab Februar 2025 eine TTL-Schutzmaßnahme (Time-to-Live) für systemgenerierte Journey Optimizer-Datensätze eingeführt. [Weitere Informationen](datasets-ttl.md)
+>Ab dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von Sende- und Öffnungsereignissen aus Tracking- und Feedback-Datensätzen aus Journey Optimizer nicht mehr. Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Schutzmechanismus eingeführt. [Weitere Informationen](datasets-ttl.md)
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
@@ -64,7 +64,7 @@ Die Systemdatensätze für Adobe Journey Optimizer sind im Folgenden aufgeführt
 
 * _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabebewertungen der Journey-KI.
 
-Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im Schemawörterbuch zu [Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 
 ## Vorschau von Datensätzen{#preview-datasets}
 
@@ -93,19 +93,19 @@ Eine der Kernfunktionen von [!DNL Adobe Experience Platform] ist es, Daten aus v
 
 Mit [!DNL Adobe Experience Platform Data Governance] können Sie Kundendaten verwalten und bei der Verwendung von Daten die Einhaltung von relevanten Vorschriften, Einschränkungen und Richtlinien sicherstellen. Die Funktion spielt in Experience Platform auf verschiedenen Ebenen eine wichtige Rolle, wie z. B. bei Katalogisierung, Ermittlung der Datenherkunft, Datennutzungsbezeichnung, Datennutzungsrichtlinien und Steuerung der Nutzung von Daten für Marketing-Aktionen.
 
-Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden Sie in der Dokumentation zu [ Governance ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=de){target="_blank"}
+Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden Sie in der [Dokumentation zur Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=de){target="_blank"}.
 
 ## Beispiele und Anwendungsfälle{#uc-datasets}
 
 In diesem [vollständigen Beispiel](../audience/creating-test-profiles.md) erfahren Sie, wie Sie ein Schema und einen Datensatz erstellen und Daten aufnehmen, um Testprofile in Adobe Journey Optimizer hinzuzufügen.
 
-Weitere Informationen zur Erstellung von Datensätzen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}.
+Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}.
 
-Erfahren Sie in der Dokumentation zur Datenaufnahme [, wie Sie die Benutzeroberfläche für Datensätze ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
+Erfahren Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}, wie Sie die Benutzeroberfläche für Datensätze verwenden.
 
 Eine Liste der Anwendungsfälle mit Abfragebeispielen ist [hier](../data/datasets-query-examples.md) verfügbar.
 
 >[!MORELIKETHIS]
 >
->* [Streaming-Aufnahme - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"}
+>* [Streaming-Aufnahme – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"}
 >* [Aufnehmen von Daten in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target="_blank"}

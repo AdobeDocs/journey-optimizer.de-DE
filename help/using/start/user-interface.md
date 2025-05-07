@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch 
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen [ von Ihren ](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
+>* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
@@ -90,7 +90,7 @@ Verwalten Sie Ihre Daten aus diesem Abschnitt.
 
 * **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](../data/get-started-queries.md)
 
-* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target="_blank"}
+* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target="_blank"}.
 
 ### [!UICONTROL VERBINDUNGEN] {#left-nav-connections}
 
@@ -134,7 +134,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Darüber hinaus können Sie mit [!DNL Journey Optimizer] Paketexport- und -importfunktionen verwenden, um Objekte wie Journeys, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes hinweg zu kopieren. [Weitere Informationen](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** – Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. Darüber hinaus können Sie in [!DNL Journey Optimizer] Paketexport- und -importfunktionen verwenden, um Objekte wie Journeys, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes hinweg zu kopieren. [Weitere Informationen](../administration/sandboxes.md)
 
 * **[!UICONTROL Kanäle]**: Verwenden Sie diesen Abschnitt, um Ihre Kanäle, einschließlich Subdomains, Konfigurationen und Zustellbarkeitseinstellungen, zu konfigurieren. [Weitere Informationen](../configuration/get-started-configuration.md)
 
@@ -262,5 +262,5 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Definieren einer Entscheidungsrichtlinie"
->abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und sie für die richtige Zielgruppe bereitstellen."
+>title="Auswählen einer Entscheidungsrichtlinie"
+>abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für die richtige Zielgruppe bereitstellen."
