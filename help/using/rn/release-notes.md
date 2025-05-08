@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 48%
+source-wordcount: '985'
+ht-degree: 76%
 
 ---
 
@@ -24,6 +24,15 @@ ht-degree: 48%
 
 ## Mai &#39;25 Updates {#25-5-rn}
 
+* **Decisioning - New AI Formula Builder** - Verfügbarkeitsdatum: 7. Mai 2025
+
+  Sie können jetzt spezifische Ranking-Folgen für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Mithilfe von Ranking-Formeln lassen sich Regeln definieren, die festlegen, welche Entscheidungselemente zuerst präsentiert werden sollen, anstatt die Prioritätswerte des Elements zu berücksichtigen.
+
+  Weitere Informationen finden Sie in der [detaillierten Dokumentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
+
 * **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
   Dem Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert. [Weitere Informationen](../personalization/personalization-build-expressions.md#options)
@@ -32,9 +41,9 @@ ht-degree: 48%
   >
   >Diese Funktion wird in den nächsten 30 Tagen schrittweise für alle Umgebungen eingeführt.
 
-## Versionshinweise April &#39;25 {#25-4-rn}
+## Versionshinweise April 2025 {#25-4-rn}
 
-**Veröffentlichungsdatum**: 29. bis 30. April 2025
+**Veröffentlichungsdatum**: 29.–30. April 2025
 
 ### Neue Funktionen {#25-04-features}
 
@@ -43,15 +52,15 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <table>
 <thead>
 <tr>
-<th><strong>Personalization-Editor - Lernen durch praktische Anwendungen</strong><br/></th>
+<th><strong>Personalisierungseditor – Lernen durch praktische Anwendung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Es ist jetzt ein Personalisierungsspielplatz verfügbar, auf dem Sie mit Personalisierungsausdrücken experimentieren können. Damit können Sie Beispielvorlagen und Payloads untersuchen, um Ihre ersten Schritte zu unternehmen und Ihre eigenen Personalisierungsausdrücke auszuprobieren.</p>
+<p>Es ist jetzt ein Personalisierungs-Playground verfügbar, auf dem Sie mit Personalisierungsausdrücken experimentieren können. Damit können Sie Beispielvorlagen und Payloads untersuchen, um Ihre ersten Schritte zu unternehmen und Ihre eigenen Personalisierungsausdrücke auszuprobieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/personalize.md#playground">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 24. April 2025</p>
+<p>Verfügbarkeitsdatum: 24. April 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -170,7 +179,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer lässt sich jetzt mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der Kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. </p>
+<p>Adobe Journey Optimizer lässt sich jetzt mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. </p>
 <p>Diese Integration ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
@@ -182,13 +191,13 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <table>
 <thead>
 <tr>
-<th><strong>Tägliche Journey von Trigger wird nach Abschluss der Batch-Segmentierung ausgeführt (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Auslösen von täglichen Journey-Ausführungen nach Abschluss der Batch-Segmentierung (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für täglich geplante Journey können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass die Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind. Die Option Trigger nach Batch-Zielgruppenbewertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Für täglich geplante Journeys können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, in dem auf Zielgruppendaten aus Batch-Segmentierungsaufträgen gewartet wird. So wird sichergestellt, dass Journeys mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind. Die Option „Nach Auswertung der Batch-Zielgruppe auslösen“ ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <table>
 <thead>
 <tr>
-<th><strong>Bewertung der Markenausrichtung (Beta)</strong><br/></th>
+<th><strong>Markenausrichtungswert (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -266,19 +275,19 @@ Zusätzlich zu den vorhandenen Funktionen zum Testversand stehen neue APIs zur V
 
 * **Sandbox-Tools für benutzerdefinierte Aktionen**
 
-  Benutzerdefinierte Aktionen sind jetzt in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Tooling-Funktion kopiert werden können, wodurch Tests und die Bereitstellung optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+  Benutzerdefinierte Aktionen sind jetzt in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Tool-Funktion kopiert werden können, wodurch Tests und die Bereitstellung optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-* **Sandbox-Tools für Kampagnen** - Verfügbarkeitsdatum: 3. April 2025
+* **Sandbox-Tools für Kampagnen** – Verfügbarkeitsdatum: 3. April 2025
 
   Sie können nun Kampagnen über mehrere Sandboxes hinweg kopieren, indem Sie die Funktionen für den Paketexport und -import verwenden. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungs-Labels und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **Personalisierung**
 
-* **Neues kontextuelles Attribut**
+* **Neues Kontextattribut**
 
-  Ein neues Kontextattribut, **Nachrichtenprofil-ID**, kann jetzt aus dem Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfängern geöffneten oder angeklickten Link zu unterscheiden.
+  Ein neues Kontextattribut, **Nachrichtenprofilkennung**, kann jetzt im Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfangenden geöffneten oder angeklickten Link zu unterscheiden.
 
-* **Ausgefüllte Attribute im Attributbereich** - Verfügbarkeitsdatum: 2. April 2025
+* **Ausgefüllte Attribute im Attributbereich** – Verfügbarkeitsdatum: 2. April 2025
 
   Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** mithilfe der Schaltfläche „Einstellungen“. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 

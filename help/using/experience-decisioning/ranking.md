@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '639'
-ht-degree: 100%
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
 # Rangfolgenmethoden {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="Erstellen von Ranglistenformeln"
->abstract="Mithilfe von Formeln kann festgelegt werden, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen. Nachdem eine Rangfolgenmethode erstellt wurde, kann sie einer Entscheidungsstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen."
 
 Mit Rangfolgenmethoden können Elemente, die für ein bestimmtes Profil angezeigt werden sollen, nach Rang geordnet werden. Nachdem eine Rangfolgenmethode erstellt wurde, kann sie einer Entscheidungsstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen.
 
@@ -42,7 +37,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
    Detaillierte Informationen zum Erstellen von Rangfolgeformeln und KI-Modellen finden Sie in der Dokumentation zum Entscheidungs-Management:
 
-   * [Rangfolgeformeln](../offers/ranking/create-ranking-formulas.md)
+   * [Rangfolgeformeln](exd-ranking-formulas.md)
    * [KI-Modelle](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -63,7 +58,7 @@ Personalisierte Optimierungsmodelle sind ein KI-Modelltyp, mit dem Sie Geschäft
 
 Personalisierte Optimierungsmodelle verwenden standardmäßig **Angebot-Klicks** als Optimierungsmetrik. Wenn Sie mit [!DNL Customer Journey Analytics] arbeiten, können Sie mit [!DNL Decisioning] Ihre eigenen benutzerdefinierten Metriken verwenden, um Ihr Modell zu optimieren.
 
-Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. In der Liste werden alle Metriken aus Ihrer standardmäßigen Anzeige [Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in [!DNL Customer Journey Analytics] angezeigt. Wählen Sie die Metrik aus, mit der Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
+Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. Alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in der Liste angezeigt. Wählen Sie die Metrik aus, mit der Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -80,6 +75,10 @@ Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf 
 ## Nutzen von Entscheidungselementattributen in Formeln {#items}
 
 Rangfolgeformeln werden in **PQL-Syntax** ausgedrückt und können verschiedene Attribute wie Profilattribute, [Kontextdaten](context-data.md) und Attribute im Zusammenhang mit Ihren Entscheidungselementen nutzen.
+
+>[!NOTE]
+>
+>Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de)
 
 Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, befolgen Sie die unten stehende Syntax im Code Ihrer Rangfolgeformel. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 82%
+source-wordcount: '223'
+ht-degree: 57%
 
 ---
 
@@ -18,11 +18,19 @@ ht-degree: 82%
 
 ## Reporting über codebasierte Kampagnen {#campaigns}
 
-Sobald Code-basierte Erlebnisse live sind, können Sie auf dedizierte Berichte als allumfassendes Dashboard zugreifen, um Key Performance Indicators (KPIs) zu überwachen und so eine Analyse der wesentlichen Metriken bereitzustellen, die mit Ihrer Kampagne verknüpft sind.
+Sobald Code-basierte Erlebnisse verfügbar sind, können Sie auf dedizierte Berichte zugreifen, um KPIs (Decision Key Performance Indicators) zu überwachen.
 
-Diese umfasst Details zu den Leistungen der Entscheidungselemente und zur Interaktion der Benutzenden mit diesen. [Erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten arbeiten](../reports/campaign-global-report-cja-code.md)
+<!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
+
+This encompasses details related to the decision items performances and how users interacted with them. [Learn how to work with Code-based experience reports](../reports/campaign-global-report-cja-code.md)-->
+
+![](../reports/assets/cja-decisioning-kpis.png)
+
+Sie können auch auf Details zur Leistung von Entscheidungselementen und zur Art und Weise zugreifen, wie Benutzende mit ihnen interagiert haben, um eine Analyse der wichtigsten Metriken zu erhalten, die mit Ihrer Kampagne verbunden sind.
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
+
+In diesem Abschnitt erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten [ Entscheidungsfindung ](../reports/campaign-global-report-cja-code.md#decisioning-reporting).
 
 ## Reporting in Customer Journey Analytics {#cja}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 97%
+source-wordcount: '873'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,9 @@ Die Tabelle **[!UICONTROL Labels getrackter Links]** bietet einen umfassenden Ü
 
 +++
 
-## Entscheidungsfindungs-KPIs {#decisioning-kpis}
+## Reporting zu Entscheidungen {#decisioning-reporting}
+
+### Entscheidungsfindungs-KPIs {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ Die **Entscheidungsfindungs-KPIs** bieten wichtige Einblicke in die Interaktion 
 
 * **[!UICONTROL Fallback-Rate]**: Prozentsatz der Instanzen, bei denen keine Auswahlstrategien infrage kamen, was zur Anzeige einer generischen oder weniger spezifischen Option führte.
 
-## Interaktionstrichter {#engagement-funnel}
+### Interaktionstrichter {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ Die Tabelle **[!UICONTROL Interaktionstrichter]** überwacht die Leistung person
 
 * **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-## Wichtigste Entscheidungselemente nach Clickthrough-Rate {#top-decision}
+### Wichtigste Entscheidungselemente nach Clickthrough-Rate {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ Die Tabelle **[!UICONTROL Wichtigste Entscheidungselemente nach CTR]** zeigt die
 
 * **[!UICONTROL Clickthrough-Rate (CTR)]**: Prozentualer Anteil der Benutzenden, die auf einen Link, eine Werbeanzeige oder eine Empfehlung klicken, verglichen mit der Häufigkeit, mit der Links, Werbeanzeigen oder der Empfehlungen angezeigt wurden.
 
-## Interaktionstrichter nach Auswahlstrategie {#engagement-funnel-selection}
+### Interaktionstrichter nach Auswahlstrategie {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ Mithilfe der Tabelle **[!UICONTROL Interaktionsrichter nach Auswahlstrategie]** 
 
 * **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-## Leistung der Entscheidungselemente {#decision-items-performance}
+### Leistung der Entscheidungselemente {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ In der Tabelle **[!UICONTROL Leistung bei Entscheidungselementen]** wird ausgewe
 
 * **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
-## Rangfolgestrategie {#ranking-strategy}
+### Rangfolgestrategie {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ Zu den angezeigten Schlüsselmetriken gehören:
 
 * **[!UICONTROL Konversionsrate]**: Prozentsatz der Anzeigen, die zu Benutzeraktionen führten (z. B. Klicks). Er gibt an, wie erfolgreich das Modell bezüglich der Ansprache von Benutzenden war.
 
-## Konversionsrate für Holdout- und modellgesteuerten Traffic {#conversion-rate}
+### Konversionsrate für Holdout- und modellgesteuerten Traffic {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten T
 * **Modellgesteuert**: Benutzende erhalten für die Relevanz und Interaktion optimierte Inhalte, die vom KI-Modell nach Rang geordnet wurden.
 
 * **Holdout**: Benutzer erhalten Inhalte, die während der Explorationsphase des Modells nach dem Zufallsprinzip bereitgestellt werden.
+
+>[!CAUTION]
+>
+>Bei Verwendung eines KI-Modells, das in eine [Rangfolgenformel](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) integriert ist, werden die Daten nicht im Konversionsratenbericht angezeigt.
