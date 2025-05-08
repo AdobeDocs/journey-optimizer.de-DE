@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 76%
+source-wordcount: '1015'
+ht-degree: 75%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 76%
 
   ![](assets/do-not-localize/formula-builder.gif)
 
+
+* **Ordner für Landingpages** – Verfügbarkeitsdatum: Donnerstag, 7. Mai 2025
+
+  Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt auch Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.  [Weitere Informationen](../landing-pages/manage-lp.md)
 
 * **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
@@ -319,9 +323,7 @@ Zusätzlich zu den vorhandenen Funktionen zum Testversand stehen neue APIs zur V
 
   Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
-- **Folders for landing pages** - Availability date: May 5, 2025
 
-  To easily manage your landing pages, you can now also use folders to organize them more effectively into a streamlined hierarchy.  -->
 
 <!--- **Right rail in campaigns list**  
 

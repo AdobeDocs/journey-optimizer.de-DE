@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + Landingpages {#landing-pages}
       + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
       + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+      + [Verwalten von Landingpages](using/landing-pages/manage-lp.md)
       + Inhaltserstellung {#landing-pages-design}
          + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
          + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
       + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
       + Konfigurieren von Landingpages {#lp-configuration}
-      + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
-      + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
+         + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
+         + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
    + Personalisierung {#personalization}
       + [Erste Schritte mit der Personalisierung](using/personalization/personalize.md)
       + [Hinzufügen von Personalisierung](using/personalization/personalization-build-expressions.md)

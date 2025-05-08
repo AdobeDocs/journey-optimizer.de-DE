@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1682'
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
+workflow-type: tm+mt
+source-wordcount: '1524'
 ht-degree: 100%
 
 ---
@@ -23,35 +23,6 @@ Um Ihre Kundinnen und Kunden zu einer definierten Web-Seite zu leiten, die angez
 Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
 ![](assets/lp-creation-process.png)
-
-## Zugreifen auf Landingpages {#access-landing-pages}
-
-Um auf die Liste der Landingpages zuzugreifen, wählen Sie im Menü links **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]** aus.
-
-![](assets/lp_access-list.png)
-
-Die Liste der **[!UICONTROL Landingpages]** zeigt alle vorhandenen Landingpages an. Sie können sie nach Status, Änderungsdatum oder Tags filtern.
-
-![](assets/lp_access-list-filter.png)
-
-In dieser Liste können Sie außerdem Landingpages duplizieren, löschen und deren Veröffentlichung aufheben sowie auf Landingpage-Berichte zugreifen. Klicken Sie dafür auf die drei Punkte neben einer Landingpage und wählen Sie die gewünschte Aktion aus:
-
-![](assets/lp_access-list-actions.png)
-
-
-Sie haben folgende Möglichkeiten:
-
-* Greifen Sie auf folgende **Berichte** für veröffentliche Landingpages zu: [Landingpage-Bericht](../reports/lp-report-global-cja.md) und [Live-Bericht der letzten 24 Stunden](../reports/lp-report-live.md).
-
-* **Löschen** oder **duplizieren** Sie eine Landingpage. Sie können eine [veröffentlichte](#publish-landing-page) Landingpage nicht löschen. Um sie zu löschen, müssen Sie zunächst ihre **Veröffentlichung aufheben**.
-
-* **Heben Sie die Veröffentlichung** der Landingpage auf.
-
-  >[!CAUTION]
-  >
-  >Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr, und Benutzerinnen und Benutzern wird eine Fehlerseite angezeigt, wenn sie auf sie zugreifen versuchen.
-
-* Bearbeiten Sie die einer Landingpage zugeordneten [Tags](../start/search-filter-categorize.md#tags).
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
