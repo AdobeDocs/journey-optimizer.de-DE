@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 70%
@@ -26,13 +26,13 @@ ht-degree: 70%
 >id="ajo_admin_subdomain_lp"
 >title="Delegieren einer Subdomain der Landingpage"
 >abstract="Für Landingpages muss eine Subdomain konfiguriert werden, da diese Subdomain für die Erstellung einer Landingpage-Voreinstellung benötigt wird. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=de#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Erstellen einer Landingpage-Voreinstellung"
 >abstract="Um eine Landingpage-Voreinstellung erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=de#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
 ## Erste Schritte mit Landingpage-Subdomains {#gs-lp-subdomains}
 

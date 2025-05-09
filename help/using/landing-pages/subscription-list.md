@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
-workflow-type: ht
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >id="ajo_subscription_list"
 >title="Einrichten einer Abonnement-Liste"
 >abstract="Erstellen Sie eine Abonnement-Liste, um Profile zu erfassen, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=de#define-subscription-list" text="Erstellen einer Abonnement-Liste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="Erstellen einer Abonnement-Liste"
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
