@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 75%
+source-wordcount: '1022'
+ht-degree: 72%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 75%
 
 ## Mai &#39;25 Updates {#25-5-rn}
 
+* **Ordner für Landingpages** – Verfügbarkeitsdatum: Samstag, 9. Mai 2025
+
+  Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.  [Weitere Informationen](../landing-pages/manage-lp.md)
+
 * **Decisioning - New AI Formula Builder** - Verfügbarkeitsdatum: 7. Mai 2025
 
-  Sie können jetzt spezifische Ranking-Folgen für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Mithilfe von Ranking-Formeln lassen sich Regeln definieren, die festlegen, welche Entscheidungselemente zuerst präsentiert werden sollen, anstatt die Prioritätswerte des Elements zu berücksichtigen.
+  Sie können jetzt spezifische Ranking-Folgen für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie benutzerdefinierte Rangfolgeformeln definieren, die KI-Modellbewertungen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Oberfläche kombinieren.
 
   Weitere Informationen finden Sie in der [detaillierten Dokumentation](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Ordner für Landingpages** – Verfügbarkeitsdatum: Donnerstag, 7. Mai 2025
-
-  Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt auch Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.  [Weitere Informationen](../landing-pages/manage-lp.md)
 
 * **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
