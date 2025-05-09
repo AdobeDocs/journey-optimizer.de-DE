@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 100%
@@ -94,7 +94,7 @@ Für eine einfache Fragmentnavigation können Sie Ordner verwenden, um sie effek
 
 1. Mit der Schaltfläche **[!UICONTROL Weitere Aktionen]** können Sie das Fragment auch in einen anderen vorhandenen Ordner verschieben.
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. Nun können Sie zu dem Ordner navigieren, den Sie gerade erstellt haben. Jedes neue Fragment, das Sie hier [erstellen](create-fragments.md), wird im aktuellen Ordner gespeichert.
 
