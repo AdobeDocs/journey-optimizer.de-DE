@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1756'
-ht-degree: 100%
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+workflow-type: tm+mt
+source-wordcount: '1777'
+ht-degree: 98%
 
 ---
 
@@ -246,6 +246,10 @@ Gehen Sie wie folgt vor, um Ihr Code-basiertes Erlebnis abzuschließen und Ihre 
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >Wenn Sie Ihrer Anfrage das `dryRun`-Flag hinzufügen, wird verhindert, dass Feedback für Berichte erfasst und Häufigkeitszähler hinzugefügt werden.
 
 1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie nun benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 
