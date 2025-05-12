@@ -51,7 +51,7 @@ Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von P
 
 ![Personalisierungs-Playground](assets/playground.png)
 
-➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/de/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Tauchen wir tiefer in die Materie ein
 
