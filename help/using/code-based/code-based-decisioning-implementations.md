@@ -26,15 +26,15 @@ Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis]
 Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die Markierung `dryRun` zum XDM-Ereignisblock `data` in Ihrer Client-Implementierung hinzufügen:
 
     &quot;
-    {
-    „data“: {
-    „__adobe“: {
-    „ajo“: {
+    &lbrace;
+    „data“: &lbrace;
+    „__adobe“: &lbrace;
+    „ajo“: &lbrace;
     „dryRun“: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;
 
 >[!CAUTION]
