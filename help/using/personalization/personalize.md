@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 84%
+source-wordcount: '506'
+ht-degree: 81%
 
 ---
 
@@ -51,7 +51,7 @@ Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von P
 
 ![Personalisierungs-Playground](assets/playground.png)
 
-➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/de/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Tauchen wir tiefer in die Materie ein
 
@@ -97,9 +97,12 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+Erfahren Sie, wie Sie den Playground des Personalisierungseditors nutzen können, um Personalisierungscode mithilfe von Beispieldaten zu schreiben und zu testen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
