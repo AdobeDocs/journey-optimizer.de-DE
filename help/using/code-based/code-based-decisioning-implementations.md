@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 10%
@@ -19,22 +19,22 @@ ht-degree: 10%
 
 Wenn Sie in Code-basierten Erlebnissen Decisioning verwenden, sollten Sie in den unten beschriebenen Fällen die folgenden Flags zu Ihrer Client-Implementierung hinzufügen.
 
-## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen
+## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen {#code-based-test-decisions}
 
 Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren.
 
 Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die Markierung `dryRun` zum XDM-Ereignisblock `data` in Ihrer Client-Implementierung hinzufügen:
 
     &quot;
-    &lbrace;
-    „data“: &lbrace;
-    „__adobe“: &lbrace;
-    „ajo“: &lbrace;
+    {
+    „data“: {
+    „__adobe“: {
+    „ajo“: {
     „dryRun“: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 >[!CAUTION]
