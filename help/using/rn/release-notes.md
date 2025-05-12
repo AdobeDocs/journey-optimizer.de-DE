@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 75%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 72%
 * **Ordner für Landingpages** – Verfügbarkeitsdatum: Samstag, 9. Mai 2025
 
   Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.  [Weitere Informationen](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **Decisioning - New AI Formula Builder** - Verfügbarkeitsdatum: 7. Mai 2025
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  Sie können jetzt spezifische Ranking-Folgen für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie benutzerdefinierte Rangfolgeformeln definieren, die KI-Modellbewertungen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Oberfläche kombinieren.
-
-  Weitere Informationen finden Sie in der [detaillierten Dokumentation](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
