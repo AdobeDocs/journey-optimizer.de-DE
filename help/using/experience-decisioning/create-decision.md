@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1718'
 ht-degree: 98%
 
 ---
@@ -223,34 +223,14 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
 1. Klicken Sie auf **[!UICONTROL Speichern und schließen]**, um Ihre Änderungen zu bestätigen.
 
-## Testen und Veröffentlichen Code-basierter Erlebnisse {#test-and-publish}
-
-Gehen Sie wie folgt vor, um Ihr Code-basiertes Erlebnis abzuschließen und Ihre Änderungen live zu schalten.
-
 1. Überprüfen und veröffentlichen Sie Ihre Code-basierte Erlebniskampagne oder Journey. [Weitere Informationen](../code-based/publish-code-based.md)
 
    Sobald Ihre Entwickelnden nun einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf die Web-Seite oder App angewendet.
 
-1. Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren.
-
-   Als Problemumgehung können Sie die Entscheidungsfindung nach der Veröffentlichung Ihrer Kampagne testen, indem Sie die Markierung `dryRun` zum XDM-Ereignisblock `data` in Ihrer Client-Implementierung hinzufügen:
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Wenn Sie Ihrer Anfrage das `dryRun`-Flag hinzufügen, wird verhindert, dass Feedback für Berichte erfasst und Häufigkeitszähler hinzugefügt werden.
+   >Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einem [Code-basierten Erlebnis, einer Kampagne ](../code-based/create-code-based.md) einem Journey mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
 
-1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie nun benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
+1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics erstellen](cja-reporting.md).
 
 
