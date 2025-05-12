@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 83%
@@ -227,7 +227,7 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
 1. Heben Sie die Delegierung von Landingpage-Subdomains, SMS-Subdomains und Web-Subdomains auf, die mit dieser Subdomain verknüpft sind.
 
-   Sie müssen für jede (Landingpage[&#128279;](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Sie müssen für jede (Landingpage[ ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Beenden Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
 
@@ -252,4 +252,4 @@ Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Doma
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
