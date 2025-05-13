@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit koordinierten Kampagnen
+title: Erste Schritte mit orchestrierten Kampagnen
 description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
-# Erste Schritte mit koordinierten Kampagnen {#ms-camp}
+# Erste Schritte mit orchestrierten Kampagnen {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Inhaltsverzeichnis**
++++Inhaltsverzeichnis
 
-* Konfiguration: [Konfigurieren Sie Ihre orchestrierten Kampagnen](gs-campaign-config.md)
-* Konfiguration: [Erstellen von relationalen Schemata](ms-schemas.md)
-* Erstellen Sie Ihre erste orchestrierte Kampagne: [Grundprinzipien](gs-campaign-creation.md)
+Willkommen
+
+* Erste Schritte mit orchestrierten Kampagnen
+* [Grundsätze](gs-campaign-creation.md)
+* [Schritte zum Erstellen orchestrierter Kampagnen](gs-campaign-steps.md)
+
+
+Konfigurationsschritte
+
+* [Erstellen relationaler Schemata](ms-schemas.md)
+
+Erstellungsetappen
+
 * [Erstellen einer orchestrierten Kampagne](create-ms-campaign.md)
 * [Konfigurieren der Kampagneneinstellungen](ms-campaign-settings.md)
-* [Nachrichten personalisieren](ms-personalization.md)
-* [Erstellen von Abfragen](ms-query-modeler.md)
-* [Testen und Validieren von Nachrichten](ms-proofs.md)
 * [Kampagnen planen und starten](start-monitor-campaigns.md)
-* Aktivitäten: [Erste Schritte mit Aktivitäten](activities/about-activities.md)
+* [Erstellen von Abfragen](ms-query-modeler.md)
+
+Aktivitäten
+
+* [Erste Schritte mit Aktivitäten](activities/about-activities.md)
 * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Kanalaktionen](activities/channels.md) - [Anreicherung](activities/enrichment.md) [&#128279;](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) &lt;!—[test](activities/test.md) —> [wait](activities/wait.md)
-* Monitoring: [Reporting](reporting-campaigns.md)
+* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - [Verzweigung](activities/fork.md)](activities/reconciliation.md)[ - [Aufspaltung](activities/split.md) - <!--[Test](activities/test.md) --> [Warten](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-Orchestrierte Kampagnen verbessern Adobe Journey Optimizer durch die Einführung robuster, markeninitiierter Batch-Kampagnenfunktionen, mit denen Sie Cross-Channel-Kampagnen mit erweiterten Segmentierungsstrategien planen und koordinieren können.
+Nachrichten
+
+* [Kanalaktionen](activities/channels.md)
+* [Nachrichten personalisieren](ms-personalization.md)
+* [Testen und Validieren von Nachrichten](ms-proofs.md)
+
+Reporting und Überwachung
+
+* [Reporting](reporting-campaigns.md)
+
++++
+
 
 ## Was ist eine orchestrierte Kampagne?
+
+Orchestrierte Kampagnen verbessern Adobe Journey Optimizer durch die Einführung robuster, markeninitiierter Batch-Kampagnenfunktionen, mit denen Sie Cross-Channel-Kampagnen mit erweiterten Segmentierungsstrategien planen und koordinieren können.
 
 Kanalübergreifendes Marketing ist für jedes Unternehmen, das seine Kundinnen und Kunden effektiv erreichen möchte, von entscheidender Bedeutung. Adobe Journey Optimizer bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen bei der Verwaltung Ihrer Marketing-Kampagnen helfen. Mit orchestrierten Kampagnen können Sie das gesamte Spektrum an Prozessen und Aufgaben orchestrieren, die Geschwindigkeit und Skalierung Ihrer Marketing-Kampagnen steigern, von der Erstellung von Segmenten und der Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnen-Orchestrierung synchronisieren.
 

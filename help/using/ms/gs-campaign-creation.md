@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 26%
+source-wordcount: '437'
+ht-degree: 27%
 
 ---
 
@@ -21,29 +21,7 @@ ht-degree: 26%
 >title="Orchestrierte Kampagne"
 >abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der orchestrierten Kampagnen zugreifen, ihren aktuellen Status und das letzte/nächste Ausführungsdatum überprüfen und eine neue orchestrierte Kampagne erstellen."
 
-Mit Adobe Journey Optimizer können Sie orchestrierte Kampagnen in eine visuelle Arbeitsfläche integrieren, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
-
-## Was verbirgt sich in einer orchestrierten Kampagne? {#gs-ms-campaign-inside}
-
-Die orchestrierte Kampagnen-Arbeitsfläche ist eine Darstellung dessen, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
-
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
-
-Jede orchestrierte Kampagne enthält:
-
-* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
-
-  In einem orchestrierten Kampagnendiagramm kann eine bestimmte Aktivität mehrere Aufgaben hervorrufen, insbesondere wenn eine Schleife oder wiederkehrende Aktionen vorliegen.
-
-* **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
-
-* **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede koordinierte Kampagne verwendet mehrere Arbeitstabellen. Die in diesen Tabellen übermittelten Daten können während des gesamten Lebenszyklus der orchestrierten Kampagne verwendet werden.
-
-## Wichtige Schritte zum Erstellen einer orchestrierten Kampagne {#gs-ms-campaign-steps}
-
-Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne sind:
-
-![](assets/workflow-creation-process.png){zoomable="yes"}
+Sie können orchestrierte Kampagnen in eine visuelle Arbeitsfläche integrieren, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 
 ## Zugriff auf orchestrierte Kampagnen
 
@@ -61,6 +39,24 @@ Um eine orchestrierte Kampagne zu duplizieren oder zu löschen, klicken Sie auf 
 >
 >Wenn eine orchestrierte Kampagne in Bearbeitung ist, können Sie sie duplizieren, aber nicht löschen.
 
+
+## Was verbirgt sich in einer orchestrierten Kampagne? {#gs-ms-campaign-inside}
+
+Die orchestrierte Kampagnen-Arbeitsfläche ist eine Darstellung dessen, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
+
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+
+Jede orchestrierte Kampagne enthält:
+
+* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+
+  In einem orchestrierten Kampagnendiagramm kann eine bestimmte Aktivität mehrere Aufgaben hervorrufen, insbesondere wenn eine Schleife oder wiederkehrende Aktionen vorliegen.
+
+* **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
+
+* **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede koordinierte Kampagne verwendet mehrere Arbeitstabellen. Die in diesen Tabellen übermittelten Daten können während des gesamten Lebenszyklus der orchestrierten Kampagne verwendet werden.
+
+
 ## Status und Lebenszyklus {#status}
 
 Kampagnen können mehrere Status aufweisen:
@@ -70,8 +66,3 @@ Kampagnen können mehrere Status aufweisen:
 * **[!UICONTROL Beendet]**: Die orchestrierte Kampagnenausführung ist abgeschlossen.
 * **[!UICONTROL Ausgesetzt]**: Die orchestrierte Kampagne wurde angehalten.
 * **[!UICONTROL Fehlerhaft]**: Bei der koordinierten Kampagne ist ein Fehler aufgetreten. Öffnen Sie die orchestrierte Kampagne und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben.
-
-
-## Erstellen einer Abfrage
-
-## Personalization-Richtlinien

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+workflow-type: tm+mt
+source-wordcount: '1361'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personalisieren Sie Ihre Push-Benachrichtigung."
->abstract="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder „Titel“ und „Hauptteil“ ein. Um Personalisierungs-Token einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
+>abstract="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **Titel** und **Hauptteil** ein. Um Personalisierungs-Token einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
 
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Erfahren Sie mehr zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
@@ -71,7 +71,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Fügen Sie Schaltflächen hinzu, über die Benutzende mit Ihrer Push-Benachrichtigung interagieren können."
->abstract="In diesem Abschnitt können Sie Aktionsaufruf-Schaltflächen zu Ihrer Nachricht hinzufügen. Geben Sie für iOS eine Kennung der Benachrichtigungskategorie an. Für Android können Sie für jede Schaltfläche benutzerdefinierten Text und Ziele hinzufügen."
+>abstract="Fügen Sie Ihrer Nachricht in diesem Abschnitt call-to-action-Schaltflächen hinzu. Geben Sie für Apple iOS eine Kennung der Benachrichtigungskategorie an. Für Google Android können Sie für jede Schaltfläche benutzerdefinierten Text und Zielgruppen hinzufügen."
 
 Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
 
