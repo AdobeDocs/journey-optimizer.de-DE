@@ -41,7 +41,7 @@ Aktivitäten
 
 * [Erste Schritte mit Aktivitäten](activities/about-activities.md)
 * [Orchestrieren von Aktivitäten](orchestrate-activities.md)
-* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - [Verzweigung](activities/fork.md)](activities/reconciliation.md)[ - [Aufspaltung](activities/split.md) - <!--[Test](activities/test.md) --> [Warten](activities/wait.md)
+* [Und-Verknüpfung](activities/and-join.md) - [Zielgruppe ](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/deduplication.md) - [Anreicherung](activities/enrichment.md) - [Verzweigung](activities/fork.md) [&#128279;](activities/reconciliation.md) - [Aufspaltung](activities/split.md) - <!--[Test](activities/test.md) --> [Warten](activities/wait.md)
 
 
 Nachrichten
