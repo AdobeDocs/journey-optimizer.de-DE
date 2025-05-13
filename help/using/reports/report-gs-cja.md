@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: c59dc9e8ef33f861106276e91513a078404713fa
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit dem Bericht für die gesamte Zeit {#channel-report-gs-cja}
+
+>[!CONTEXTUALHELP]
+>id="cja_connections_enable_cja"
+>title="Customer Journey Analytics aktivieren"
+>abstract="Wenden Sie sich zur Analyse dieses Berichts in Customer Journey Analytics an Ihren Administrator, um sicherzustellen, dass Ihr Unternehmen Customer Journey Analytics erworben hat und die Integration ordnungsgemäß konfiguriert ist."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
 >[!IMPORTANT]
 >
@@ -57,4 +63,4 @@ Journey Optimizer Reporting verfügt über eine verbesserte Kompatibilität mit 
 
 Das folgende Video zeigt Ihnen, wie Sie das erweiterte Reporting in Journey Optimizer mit Customer Journey Analytics verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443160?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
