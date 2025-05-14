@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: E-Mail, Import, Inhalt, HTML, ZIP, CSS
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
    >
    > Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-1. Jetzt können Sie Ihre importierte Datei nach Bedarf mit den Funktionen des E-Mail-Designers personalisieren. [Weitere Informationen](content-from-scratch.md).
+1. Sie können jetzt Ihre importierte Datei nach Bedarf mit den Funktionen von E-Mail-Designer personalisieren. [Weitere Informationen](content-from-scratch.md)
 
 ## Anleitungsvideo {#video}
 

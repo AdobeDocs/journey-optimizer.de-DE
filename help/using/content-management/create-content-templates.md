@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 93%
+source-wordcount: '661'
+ht-degree: 90%
 
 ---
 
@@ -80,6 +80,10 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    ![](assets/content-template-back.png)
 
 Diese Vorlage kann nun beim Erstellen von Inhalten in [!DNL Journey Optimizer] verwendet werden. [Weitere Informationen](#use-content-templates)
+
+>[!NOTE]
+>
+>Um beim Erstellen einer E-Mail-Inhaltsvorlage schnell einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt, können Sie ein Design auf Ihren Inhalt anwenden. [Weitere Informationen](../email/apply-email-themes.md)
 
 ## Speichern von Inhalten als Inhaltsvorlage {#save-as-template}
 

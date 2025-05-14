@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](#video-fragments)
+➡️ [In diesen Videos erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](#video-fragments)
 
 So nutzen Sie Fragmente am besten:
 
-* **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](#create-fragments).  Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](create-fragments.md).  Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 * **Wiederverwenden eigener Fragmente:** Diese können beliebig oft in Ihren Inhalten verwendet werden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
 
 ## Bevor Sie beginnen {#fragment-prerequisites}
@@ -62,4 +62,4 @@ Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten*
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438927/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
