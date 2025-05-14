@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Das SDK ist keine Kombination dieser Bibliotheken und ist eine völlig neue Impl
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [Konfigurieren Sie Ihren Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=de) auf der Registerkarte „Datenerfassung“ in Ihrem Konto in Adobe Experience Cloud.
+1. [Konfigurieren Sie Ihren Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=de) auf der Registerkarte „Datenerfassung“ in Ihrem -Konto in Adobe Experience Cloud.
 
 1. Installieren Sie das SDK. Hierfür gibt es mehrere Methoden, die auf der Seite [Installieren des SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) erläutert werden. Im Folgenden werden alle verfügbaren Implementierungsmethoden beschrieben.
 

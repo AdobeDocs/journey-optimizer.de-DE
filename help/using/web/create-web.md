@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1363'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '1362'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
 
    >[!NOTE]
    >
-   >Da es sich bei **Web** um eine Aktivität für eingehende Nachrichten handelt, geht sie mit einer 3-tägigen-Aktivität **Warten** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+   >Da **Web** eine eingehende Erlebnisaktivität ist, verfügt sie über eine 3-tägige **Warten**-Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-➡️ [In diesem Video erfahren Sie, wie Sie eine Webkampagne erstellen](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne erstellen](#video)
 
 >[!ENDTABS]
 
@@ -241,4 +241,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
