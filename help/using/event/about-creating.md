@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 94%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 94%
 >id="ajo_journey_event_unitary"
 >title="Unitäre Ereignisse"
 >abstract="Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen Journey Optimizer als Ereignisse erhält. Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden. Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="Parameter"
+>abstract="Definieren Sie die Parameter des Ereignisses, z. B. das Schema und die Payload-Felder. Verwenden Sie für regelbasierte Ereignisse das Feld **[!UICONTROL Ereignis-ID]**, um die Bedingung zu definieren, anhand derer das System die Ereignisse identifiziert, die den Journey-Trigger verursachen. Fügen Sie einen Identitätstyp und eine Profilkennung hinzu, die für das Ereignis verwendet werden soll."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
