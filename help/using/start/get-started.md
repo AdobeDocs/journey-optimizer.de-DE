@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL Adobe Journey Optimizer], die Integrationspunkte und die Beziehung zwischen [!DNL Journey Optimizer] und [!DNL Experience Platform].
 
-Adobe Experience Platform ist eine leistungsstarke, flexible, offene und zentralisierte Datengrundlage, die Daten erfasst, standardisiert, steuert, auf KI-Einblicke anwendet und vereinheitlicht, um durchdachten und relevanten digitalen Kunden zu bieten
-Erlebnisse
+Adobe Experience Platform ist eine leistungsstarke, flexible, offene und zentralisierte Datengrundlage, die KI-Einblicke erfasst, standardisiert, steuert, auf KI-Einblicke anwendet und Daten vereinheitlicht, um durchdachte und relevante digitale Kundenerlebnisse anzubieten.
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Vier Programme basieren nativ auf Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics und Adobe Mix Modeler.
 
-Die Kernfunktionen und Services von Journey Optimizer basieren auf den grundlegenden Komponenten von Adobe Experience Platform, zu denen das Echtzeit-Kundenprofil gehört. Journey Optimizer funktioniert nahtlos und ist mit Real-Time CDP und Customer Journey Analytics kompatibel. Gleichzeitig bietet es folgende Möglichkeiten
-Funktioniert auch unabhängig als eigenständige Anwendung.
+Die Kernfunktionen und Services von Journey Optimizer basieren auf den grundlegenden Komponenten von Adobe Experience Platform, zu denen das Echtzeit-Kundenprofil gehört. Journey Optimizer funktioniert nahtlos und ist mit Real-Time CDP und Customer Journey Analytics kompatibel. Es kann aber auch unabhängig als eigenständige Anwendung funktionieren.
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
