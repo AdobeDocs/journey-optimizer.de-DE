@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
-workflow-type: ht
-source-wordcount: '744'
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 * Den Datensatz an die Nachrichtenversand-API des Anbieters exportieren
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=de) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | Die eindeutige Kennung der Entscheidung. |
 | `xdm:dataSetId` | Der Ausgabedatensatz, in den Entscheidungsereignisse geschrieben werden können. | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | Fügen Sie diesen Parameter hinzu und setzen Sie ihn auf „wahr“, wenn Sie eine CSV-Zielgruppe ansprechen. | `true` |
 | `xdm:includeContent` | Dies ist ein optionales Feld, für das standardmäßig `false` festgelegt ist. Wenn `true` festgelegt wird, wird der Angebotsinhalt in die Entscheidungsereignisse des Datensatzes eingeschlossen. | `false` |
 | `xdm:itemCount` | Dies ist ein optionales Feld, das die Anzahl der Elemente anzeigt, wie z. B. die für den Entscheidungsumfang angeforderten Optionen. Standardmäßig gibt die API eine Option pro Umfang zurück. Sie können jedoch durch Spezifizierung dieses Felds explizit zusätzliche Optionen anfordern. Pro Umfang können mindestens 1 und maximal 30 Optionen angefordert werden. | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | Die eindeutige Platzierungskennung. | `xcore:offer-placement:1410c4117306488a` |
