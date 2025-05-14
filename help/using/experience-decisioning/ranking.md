@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 93%
@@ -37,8 +37,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
    Detaillierte Informationen zum Erstellen von Rangfolgeformeln und KI-Modellen finden Sie in der Dokumentation zum Entscheidungs-Management:
 
-   <!--* [Ranking formulas](exd-ranking-formulas.md)-->
-   * [Rangfolgeformeln](../offers/ranking/create-ranking-formulas.md)
+   * [Rangfolgeformeln](exd-ranking-formulas.md)
    * [KI-Modelle](../offers/ranking/ai-models.md)
 
    >[!NOTE]
