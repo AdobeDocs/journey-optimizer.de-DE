@@ -62,4 +62,4 @@ Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten*
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438927/?quality=12&captions=ger)
