@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ Um Ihren Anwendungsfall zu implementieren, können Sie zu jedem Objekt navigiere
 
 Darüber hinaus können Sie die Playbook-Assets in andere Sandboxes importieren. Auf diese Weise können Sie die generierten Assets an Ihren vorhandenen Assets ausrichten und sicherstellen, dass sie mit Ihren Daten kompatibel sind, falls Sie bereits eigene Schemata, Felder und Feldergruppen eingerichtet haben. Diese Schritte werden in der Dokumentation zu Anwendungsfall-Playbooks beschrieben: [Veröffentlichen von Playbook-generierten Assets in anderen Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=de){target="_blank"}.
 
-## Erstellen eigener Playbooks (Beta) {#create}
+## Eigene Playbooks erstellen (private Betaversion) {#create}
 
 >[!AVAILABILITY]
 >
->Die Erstellung von Playbooks für Anwendungsfälle steht derzeit allen Kunden als öffentliche Beta-Version zur Verfügung.
+>Die Erstellung von Anwendungsfall-Playbooks ist derzeit nur für eine Reihe von Organisationen als private Beta-Version verfügbar. Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Zusätzlich zur Nutzung vordefinierter Playbooks können Sie Ihre eigenen Playbooks in Adobe Experience Platform erstellen und freigeben.
 
 Sie können Metadaten mithilfe von KI-Unterstützung oder manueller Eingabe definieren, technische Assets wie Schemata und Segmente verknüpfen und Ihre Playbooks für verschiedene IMS-Organisationen freigeben.
 
-Weitere Informationen zum Erstellen und Freigeben von Playbooks finden Sie in der Dokumentation zu Anwendungsfällen für Playbooks: [Erstellen und Freigeben eigener Playbooks mit dem KI-Assistenten](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=de#sharing-playbooks-sandboxes){target="_blank"}.
+Weitere Informationen zum Erstellen und Freigeben von Playbooks finden Sie in der Dokumentation zu Anwendungsfällen für Playbooks: [Erstellen und Freigeben eigener Playbooks mit dem KI-Assistenten](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.

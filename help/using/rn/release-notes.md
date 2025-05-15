@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 67%
 
 ---
@@ -318,9 +318,7 @@ Zusätzlich zu den vorhandenen Funktionen zum Testversand stehen neue APIs zur V
 
 **Playbooks für Anwendungsfälle**
 
-* **Playbooks Authoring and Sharing (Private Beta)** - Sie können jetzt eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als private Beta-Version verfügbar. Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
-
-Alle Kunden als öffentliche Beta-Version. [Weitere Informationen](../start/playbooks.md)
+* **Playbooks Authoring and Sharing (Private Beta)** - Sie können jetzt eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als private Beta-Version verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. [Weitere Informationen](../start/playbooks.md)
 
 **Navigation**
 
