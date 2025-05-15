@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 85%
+source-wordcount: '1284'
+ht-degree: 78%
 
 ---
 
@@ -61,18 +61,18 @@ Journey Optimizer ermöglicht den Export von Journey, benutzerdefinierten Aktion
 
 ### Kampagnen {#campaigns}
 
-Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. 
+Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Die folgenden Elemente werden jedoch **nicht** kopiert:
 
-Die folgenden Elemente werden jedoch **nicht** kopiert:
+* Mehrsprachige Varianten und Spracheinstellungen,
+* Geschäftsregeln,
+* Tags,
+* Kennzeichnungen zur Datennutzung und Durchsetzung von Daten (DULE).
 
-* mehrsprachige Varianten und Spracheinstellungen
-* Experimentvarianten
-* Entscheidungsrichtlinien und Entscheidungselemente
-* Geschäftsregeln
-* Tags
-* Labels für Data Usage Labelling and Enforcement (DULE)
+Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Objekte in der Ziel-Sandbox validiert werden, um Konfigurationsfehler zu vermeiden:
 
-Nachdem die Kampagnen kopiert wurden, müssen die Kanalkonfigurationen manuell ausgewählt werden.
+* **Kanalkonfigurationen**: Kanalkonfigurationen werden zusammen mit Kampagnen kopiert. Nachdem Kampagnen kopiert wurden, müssen Kanalkonfigurationen manuell in der Ziel-Sandbox ausgewählt werden.
+* **Experimentvarianten und Einstellungen**: Experimentvarianten und Einstellungen sind im Kampagnenkopierprozess enthalten. Überprüfen Sie diese Einstellungen nach dem Import in der Ziel-Sandbox.
+* **Einheitliche Entscheidungsfindung**: Entscheidungsrichtlinien und Entscheidungselemente werden für den Export und Import unterstützt. Stellen Sie sicher, dass entscheidungsbezogene Abhängigkeiten in der Ziel-Sandbox korrekt zugeordnet sind.
 
 ### Inhaltsvorlagen {#content-templates}
 
