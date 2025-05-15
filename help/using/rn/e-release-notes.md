@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cf80dbe76fc46cc965595fcc409e81e400983fd
+source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 27%
+source-wordcount: '1504'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Ändern Sie die Einstellungen der Assets wie Breite und Höhe sofort.</li>
 <li>Passen Sie Dynamic Media-Vorlagen an, indem Sie Ihre Inhalte aktualisieren und Personalisierungsfelder hinzufügen.</li>
 </ul>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Tools für das Konfliktmanagement und die Priorisierung an, die bisher nur für Organisationen mit eingeschränktem Zugriff (LA) verfügbar waren und jetzt allgemein verfügbar sind (GA).</p>
-<p>Mit dieser allgemeinen Verfügbarkeit wurden die folgenden Verbesserungen eingeführt:</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser Version zur allgemeinen Verfügbarkeit wurden die folgenden Verbesserungen eingeführt:</p>
 <ul>
 <li>Erweiterte Unterstützung: Konfliktverwaltungstools unterstützen jetzt neben der Funktion „Zielgruppen-Journey lesen“ auch Journey-Journey und Zielgruppen-Qualifizierungs-Tools.</li>
 <li>Verbesserte Fehlerbehebung: Im Abfrage-Service sind jetzt zwei neue Schrittereignisfelder verfügbar, mit denen Sie analysieren können, warum ein Profil von einer Journey oder Kampagne abgelehnt wurde.</li>
@@ -167,14 +167,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Simulieren von Inhaltsvarianten (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Inhaltsvarianten simulieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
-<p>Mit der allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Abwandlungen hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
 <img src="assets/do-not-localize/variants.gif">
 </td>
 </tr>
@@ -207,7 +207,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Mit Journey Optimizer können Sie jetzt über die Standardoptionen hinaus zusätzliche SMS-Anbieter konfigurieren: Sinch, Infobip und Twilio. Mit der Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um die Einhaltung der Vorgaben sicherzustellen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p></td>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -227,9 +227,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tr>
 </tbody>
 </table>
-
-
-
 
 
 ### Verbesserungen {#25-05-improv}
@@ -263,7 +260,7 @@ Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner v
 * **„Umleiten zur URL“-Unterstützung im Web-Kanal**\
   Mit dem Journey Optimizer-Webkanal können Sie Besuchende jetzt zu einer anderen bestehenden URL umleiten, anstatt im Visual Editor eine neue Variante zu erstellen. Mit dieser Funktion können Experimente durchgeführt werden, bei denen zwei völlig verschiedene Seiten verglichen werden, anstatt nur einige Elemente innerhalb einer Seite zu ändern.
 
-* **Sandbox-Tools - Unterstützung neuer Kampagnenobjekte (Phase 1)**\
+* **Sandbox-Tools - Neue Kampagnenobjekte unterstützen**\
   Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente.
 
 * **Rechte Leiste in der Kampagnenliste**\
