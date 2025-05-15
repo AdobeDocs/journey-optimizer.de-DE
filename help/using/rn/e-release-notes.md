@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: da76f1ba5717083791e894a545428b5ac71e7715
+source-git-commit: 7cf80dbe76fc46cc965595fcc409e81e400983fd
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 16%
+source-wordcount: '1481'
+ht-degree: 27%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 16%
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
 
-## Frühzeitige Versionshinweise April 2025 {#25-4-rn}
+## Frühzeitige Versionshinweise Mai &#39;25 {#25-5-rn}
 
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
 
-**Veröffentlichungsdatum**: 29. bis 30. April 2025
+**Veröffentlichungsdatum**: 20.-21. Mai 2025
 
 
 ### Neue Funktionen {#25-04-features}
@@ -37,13 +37,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express-Integration (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Synchronisieren des Lesens des Zielgruppen-Zeitplans mit dem Batch-Segmentierungsauftrag</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer lässt sich jetzt mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der Kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
+<p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +53,16 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar (Eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Decisioning - Neuer KI-Formelgenerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für Kampagnen und Journey-Aktivierungen ist jetzt eine neue Kalenderansicht verfügbar. Diese Funktion bietet eine visuelle Darstellung geplanter Aktivitäten, sodass Sie Ihre Kampagnen und Journey effektiver anzeigen und verwalten können. Wenn Sie ein Kalenderelement auswählen, wird eine rechte Leiste mit detaillierten Informationen geöffnet. Diese Funktion ist derzeit nur eingeschränkt verfügbar.</p>
+<p>Sie können jetzt spezifische Ranking-Folgen für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie benutzerdefinierte Rangfolgeformeln definieren, die KI-Modellbewertungen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Oberfläche kombinieren.</p>
+<img src="assets/do-not-localize/formula-builder.gif">
+<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/exd-ranking-formulas.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 14. Mai 2025</p>
 </td>
 </tr>
 </tbody>
@@ -67,13 +71,18 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager as a Cloud Service-Integration (GA)</strong><br/></th>
+<th><strong>Integration von Adobe Experience Manager-Inhaltsfragmenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Allgemeine Verfügbarkeit der Integration zwischen Adobe Journey Optimizer und Adobe Experience Manager as a Cloud Service. Diese Integration ermöglicht eine nahtlose Inhaltsbeschaffung und -verwaltung für personalisierte Kunden-Journey.</p>
+<p>Durch die Integration von Adobe Experience Manager und Adobe Journey Optimizer können Sie jetzt mühelos Adobe Experience Manager-Inhaltsfragmente in Ihren Journey Optimizer-Inhalten verwenden. Diese nahtlose Verbindung erleichtert den direkten Zugriff auf und die Verwendung Ihrer AEM-Inhalte in Journey Optimizer.</p>
+<p>Zuvor für eine begrenzte Anzahl von Organisationen (LA) verfügbar, ist diese Funktion jetzt allgemein verfügbar mit den folgenden Verbesserungen:</p>
+<ul>
+<li>Erstellen Sie Angebote durch direkte Auswahl eines AEM-Inhaltsfragments.</li>
+<li>Definieren Sie Platzhalter und Zuordnen von Personalisierungswerten in der Fragmentsignatur mithilfe des Editor-Modus.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -82,14 +91,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Personalization Playground in Experience League</strong><br/></th>
+<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience League bietet jetzt einen interaktiven Personalization-Playground. Mit dieser Funktion können Sie die Personalisierungsfunktionen in Adobe Journey Optimizer erkunden und üben. Sie können Personalisierungs-Code schreiben, mit Beispiel-Payloads testen und reale Szenarien simulieren, um Ihr Lernerlebnis zu verbessern.</p>
-<img src="assets/do-not-localize/templating-playground.gif">
+<p>Eine Kalenderansicht ist jetzt in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visuell darstellen.</p>
+<p>Diese Neuerung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -98,13 +107,58 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Tägliche Journey von Trigger wird nach Abschluss der Batch-Segmentierung ausgeführt (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Adobe Experience Manager Dynamic Media-Integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für täglich geplante Journey können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass die Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind. Die Option Trigger nach Batch-Zielgruppenbewertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dynamic Media-Assets sind jetzt direkt in Journey Optimizer verfügbar und zugänglich. Die Integration bietet folgende Möglichkeiten:</p>
+<ul>
+<li>Verwalten Sie Assets zentral mit Echtzeit-Updates.</li>
+<li>Ändern Sie die Einstellungen der Assets wie Breite und Höhe sofort.</li>
+<li>Passen Sie Dynamic Media-Vorlagen an, indem Sie Ihre Inhalte aktualisieren und Personalisierungsfelder hinzufügen.</li>
+</ul>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Designs in E-Mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt schnell vorab genehmigte Designs anwenden, um die Markenkonsistenz über alle E-Mails hinweg sicherzustellen, den Prozess der Kampagnenerstellung zu beschleunigen und unabhängig hochwertige E-Mails zu erstellen, während Sie gleichzeitig die Abhängigkeit von Design-Teams reduzieren.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 14. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Konflikt und Priorisierung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Tools für das Konfliktmanagement und die Priorisierung an, die bisher nur für Organisationen mit eingeschränktem Zugriff (LA) verfügbar waren und jetzt allgemein verfügbar sind (GA).</p>
+<p>Mit dieser allgemeinen Verfügbarkeit wurden die folgenden Verbesserungen eingeführt:</p>
+<ul>
+<li>Erweiterte Unterstützung: Konfliktverwaltungstools unterstützen jetzt neben der Funktion „Zielgruppen-Journey lesen“ auch Journey-Journey und Zielgruppen-Qualifizierungs-Tools.</li>
+<li>Verbesserte Fehlerbehebung: Im Abfrage-Service sind jetzt zwei neue Schrittereignisfelder verfügbar, mit denen Sie analysieren können, warum ein Profil von einer Journey oder Kampagne abgelehnt wurde.</li>
+<li>Erweiterte Berichterstellung: Berichte zeigen jetzt an, welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen hat, was für mehr Transparenz und umsetzbare Einblicke sorgt.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -119,8 +173,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Zuvor in der Beta-Version verfügbar, ist die Simulation von Inhaltsvarianten jetzt allgemein verfügbar (GA). Sie ermöglicht Ihnen die Vorschau verschiedener Varianten Ihres Inhalts anhand von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests verwendet werden, um mehrere Varianten zu erstellen.</p>
-<p>Mit der allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
+<p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
+<p>Mit der allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Abwandlungen hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
+<img src="assets/do-not-localize/variants.gif">
 </td>
 </tr>
 </tbody>
@@ -129,47 +184,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Bringen Sie Ihren eigenen SMS-Provider mit (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Skalieren Sie Ihren Experimentiersieger</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt benutzerdefinierte SMS-Anbieter, sodass Sie Ihre bevorzugten SMS-Services integrieren können, um die Kommunikationsflexibilität zu verbessern.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe Express</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A calendar view is now allows you to visualize all journeys activations. This capability is released as a Limited Availability to a select group of customers.<p>
-<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Mit Gewinner skalieren können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Audience einführen. Mit dieser Funktion wird sichergestellt, dass Sie nach der Identifizierung eines Leistungsträgers dessen Reichweite und Effektivität ohne ständige manuelle Aufsicht maximieren können.</p>
 </td>
 </tr>
 </tbody>
@@ -178,111 +199,87 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Integration with Dynamic Media (Limited Availability)</strong><br/></th>
+<th><strong>Benutzerdefinierter SMS-Anbieter</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:
-<ul>
-<li>Centrally manage assets with real-time updates</li>
-<li>Modify your assets settings such as width and height instantly</li>
-<li>Personalize your content using images with text overlays</li>
-<li>Customize Dynamic Media templates by updating your content and adding personalization fields</li>
-</ul>
-<p>
-<p>This integration is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Mit Journey Optimizer können Sie jetzt über die Standardoptionen hinaus zusätzliche SMS-Anbieter konfigurieren: Sinch, Infobip und Twilio. Mit der Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um die Einhaltung der Vorgaben sicherzustellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p></td>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhaltsentscheidungen in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können Ihren Journey jetzt über eine dedizierte Entscheidungsaktion auf der Journey-Arbeitsfläche Angebote hinzufügen und sie in Ihren benutzerdefinierten Aktionen verwenden.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>LINE channel (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
-### Verbesserungen {#25-04-improv}
 
-<!--**Audiences**
 
-- **Remove limitation for Audience Composition enrichment attributes** 
+### Verbesserungen {#25-05-improv}
 
-  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
+Im Folgenden finden Sie die Verbesserungen dieser Version.
 
-**E-Mail-Kanal**
+* **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
-- **Personalisiertes URL-Tracking**
+  Dem Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert. [Weitere Informationen](../personalization/personalization-build-expressions.md#options)
 
-  Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie jetzt alle URL-Tracking-Parameter gleichzeitig auf der Konfigurationsebene des E-Mail-Kanals personalisieren, anstatt dies für jeden Link in Ihrem Inhalt in Email Designer zu tun.
+  >[!AVAILABILITY]
+  >
+  >Diese Funktion wird in den nächsten 30 Tagen schrittweise für alle Umgebungen eingeführt.
 
-- **Email Designer Themes** (Beta) - Verfügbarkeitsdatum: 5. Mai 2025
+* **Ordner für Landingpages** - Verfügbarkeitsdatum: 9. Mai 2025
+Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner verwenden, um diese effektiver in einer strukturierten Hierarchie zu organisieren. [Weitere Informationen](../landing-pages/manage-lp.md)
 
-  Sie können jetzt schnell vorab genehmigte Styling-Designs auf Ihren E-Mail-Inhalt anwenden, um die Markenkonsistenz über alle E-Mails hinweg sicherzustellen, den Prozess der Kampagnenerstellung zu beschleunigen und unabhängig hochwertige E-Mails zu erstellen, während Sie die Abhängigkeit von Design-Teams reduzieren.
+* **Klick-Tracking in E-Mail-Vorlagen**\
+  Das Klick-Tracking für `<area>` Elemente in Imagemaps in E-Mail-Vorlagen wird jetzt nativ in Journey Optimizer unterstützt. Dadurch soll sichergestellt werden, dass Imagemap-Bereiche denselben Tracking-Umbruch, Tracking-Daten und angehängte Parameter wie Standard-Hyperlinks erhalten.
 
-**Sandbox-Tools**
+* **Decisioning - Adobe Experience Platform-Datensätze nutzen**\
+  Mit Journey Optimizer können Sie jetzt Adobe Experience Platform-Datensätze in den folgenden Decisioning-Objekten nutzen: Eignungsregeln, Rangfolgeformeln und Begrenzungsregeln.
 
-- **Decisioning-Sandbox-Kopie**
+* **Ordner in Vorlagen und Fragmenten (allgemeine Verfügbarkeit)**\
+  Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzenden (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung. Mit Ordnern können Sie Ihre Inhaltsvorlagen und Fragmente einfacher und effektiver in einer strukturierten Hierarchie organisieren.
 
-  Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden.
+* **Neue Kampagnenobjekte unterstützen die Sandbox-Kopie** <!-- - Availability date: -->
 
-- **Sandbox-Tools für benutzerdefinierte Aktionen**
+  Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-  Benutzerdefinierte Aktionen sind jetzt in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Tooling-Funktion kopiert werden können, wodurch Tests und die Bereitstellung optimiert werden.
+* **„Umleiten zur URL“-Unterstützung im Web-Kanal**\
+  Mit dem Journey Optimizer-Webkanal können Sie Besuchende jetzt zu einer anderen bestehenden URL umleiten, anstatt im Visual Editor eine neue Variante zu erstellen. Mit dieser Funktion können Experimente durchgeführt werden, bei denen zwei völlig verschiedene Seiten verglichen werden, anstatt nur einige Elemente innerhalb einer Seite zu ändern.
 
-- **Sandbox-Tools für Kampagnen**
+* **Sandbox-Tools - Unterstützung neuer Kampagnenobjekte (Phase 1)**\
+  Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente.
 
-  Kampagnen können jetzt mithilfe der Sandbox-Tooling-Funktion kopiert werden, was die Migration von Kampagnenobjekten zwischen Umgebungen vereinfacht.
+* **Rechte Leiste in der Kampagnenliste**\
+  Wenn Sie in der Kampagnenliste eine Kampagne auswählen, wird jetzt ein Bereich mit den zugehörigen Details geöffnet.
 
-**Personalisierung**
+* **Formularfelder in Code-basierten Erlebnisinhalten**\
+  In Inhaltsvorlagen können Sie jetzt bestimmte JSON- oder HTML-Felder definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in Code-basierten Erlebnissen einfach zu bearbeiten, ohne Code bearbeiten zu müssen.
 
-- **Pillenaktivierung**
+* **Unterstützung von Entscheidungselement-Attributen für Entscheidungsregeln**\
+  Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen.
 
-  Im Personalisierungseditor wurde eine neue Schaltfläche „Pillen“ hinzugefügt. Wenn diese Option aktiviert ist, werden Profil- und Kontextattribute als Pillen angezeigt, was die Lesbarkeit Ihres Codes verbessert.
+* **Mehrfacher Journey-Wiedereintritt**\
+  Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.
 
-- **Ausgefüllte Attribute im Attributbereich**
+* **Subdomains - Methode „Keine Delegierung“**\
+  Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Konfiguration von Subdomains verfügbar: die Methode der No-Delegierung, mit der Sie alle Aspekte des DNS, die für den Versand, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.
 
-  Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, verwenden Sie die Schaltfläche Einstellungen , um die Option Nur ausgefüllte Attribute anzeigen zu deaktivieren.
-
-- **Neues kontextuelles Attribut**
-
-  Ein neues Kontextattribut, **Nachrichtenprofil-ID**, kann jetzt aus dem Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfängern geöffneten oder angeklickten Link zu unterscheiden.
-
-**Entscheidungsfindung**
-
-- **Rangfolgeformeln**
-
-  Sie können jetzt spezifische Entscheidungsrangfolgeformeln erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Mithilfe von Rangfolgeformeln können Sie festlegen, welche Entscheidungselemente zuerst angezeigt werden sollen, anstatt die Prioritätswerte zu berücksichtigen.
-
-**Navigation**
-
-- **Ordner für Inhaltsvorlagen und Fragmente** - Verfügbarkeitsdatum: 5. Mai 2025
-
-  Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzern (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung. Mit Ordnern können Sie Ihre Inhaltsvorlagen und Fragmente einfacher und effektiver in einer strukturierten Hierarchie organisieren.
-
-- **Ordner für Landingpages** - Verfügbarkeitsdatum: 5. Mai 2025
-
-  Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt auch Ordner verwenden, um diese effektiver in einer optimierten Hierarchie zu organisieren.
-
-- **Rechte Leiste in der Kampagnenliste**
-
-  Die rechte Leiste wurde zur Kampagnenliste hinzugefügt und bietet detaillierte Informationen bei der Auswahl einer Kampagne.
-
-**Playbooks**
-
-- **Erstellen eigener Playbooks (Beta)**
-
-  Sie können jetzt Ihre eigenen Playbooks in Adobe Journey Optimizer erstellen, um eine bessere Anpassung und Flexibilität bei der Journey-Planung zu ermöglichen.
+* **Unterstützung für benutzerdefinierte Datenquellen in Personalization**\
+  Sie können jetzt eine Abfrage erstellen und Daten aus einer externen Quelle (d. h. nicht in Adobe Experience Platform gespeichert) abrufen, um sie in eingehenden und ausgehenden Journey Optimizer-Oberflächen für die Personalisierung und Journey-Orchestrierung zu verwenden.
