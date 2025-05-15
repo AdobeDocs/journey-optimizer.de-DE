@@ -227,7 +227,7 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
 1. Heben Sie die Delegierung von Landingpage-Subdomains, SMS-Subdomains und Web-Subdomains auf, die mit dieser Subdomain verknüpft sind.
 
-   Sie müssen für jede (Landingpage[ ](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Sie müssen für jede (Landingpage[&#128279;](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) oder [Web-Subdomain) eine dedizierte Anfrage ](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Beenden Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
 
