@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 14%
+ht-degree: 31%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Liste der koordinierten Kampagnen"
->abstract="Die Registerkarte **Mehrstufig** enthält alle orchestrierten Kampagnen. Klicken Sie auf den Namen einer koordinierten Kampagne, um sie zu bearbeiten. Verwenden Sie die Schaltfläche **Orchestrierte Kampagne erstellen**, um eine neue orchestrierte Kampagne hinzuzufügen."
+>title="Liste der orchestrierten Kampagnen"
+>abstract="Unter der Registerkarte **Mehrstufig** werden alle mehrstufigen Kampagnen aufgelistet. Klicken Sie auf den Namen einer orchestrierten Kampagne, um sie zu bearbeiten. Über die Schaltfläche **Orchestrierte Kampagne erstellen** können Sie eine neue orchestrierte Kampagne hinzufügen."
 
 ## Voraussetzungen
 
@@ -48,19 +48,19 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
 Ihre orchestrierte Kampagne wird jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie orchestrierte Kampagnenaktivitäten ](orchestrate-activities.md).
 
-## Arbeiten mit orchestrierten Kampagnenvorlagen {#campaign-templates}
+## Arbeiten mit Vorlagen für orchestrierte Kampagnen {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Orchestrierte Kampagnenvorlagen"
->abstract="Orchestrierte Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die für die Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können."
+>title="Vorlagen für orchestrierte Kampagnen"
+>abstract="Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Orchestrierte Kampagneneigenschaften"
->abstract="Orchestrierte Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die für die Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Geben Sie in diesem Bildschirm den Titel der orchestrierten Kampagnenvorlage ein und konfigurieren Sie deren Einstellungen wie ihren internen Namen, den Ordner und die Ausführungsordner, die Zeitzone und die Gruppe der Verantwortlichen."
+>title="Eigenschaften orchestrierter Kampagnen"
+>abstract="Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Geben Sie in diesem Bildschirm das Label der Vorlage für orchestrierte Kampagnen ein und konfigurieren Sie die zugehörigen Einstellungen wie den internen Namen, den Ordner und die Ausführungsordner, die Zeitzone und die Gruppe der Verantwortlichen."
 
-Orchestrierte Kampagnenvorlagen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die für die Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Sie können bei der Erstellung einer orchestrierten Kampagne die Vorlage der orchestrierten Kampagne in den Eigenschaften der orchestrierten Kampagne auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
+Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Sie können bei der Erstellung einer orchestrierten Kampagne die Vorlage der orchestrierten Kampagne in den Eigenschaften der orchestrierten Kampagne auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
 
 Sie können eine Vorlage aus einer vorhandenen orchestrierten Kampagne erstellen oder eine neue Vorlage von Grund auf neu erstellen. Beide Methoden werden nachfolgend beschrieben.
 

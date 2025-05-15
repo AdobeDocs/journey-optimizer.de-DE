@@ -9,7 +9,7 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Bewertung der Markenausrichtung"
->abstract="Ihre Bewertung für die Markenausrichtung misst, wie gut Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>title="Markenausrichtungswert"
+>abstract="Der Markenausrichtungswert misst, inwieweit Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um die Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"

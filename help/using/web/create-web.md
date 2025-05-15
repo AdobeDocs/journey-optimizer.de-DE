@@ -27,7 +27,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Erstellen einer Regel zum Seitenabgleich"
->abstract="Eine Regel zum Seitenabgleich macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn die Änderungen an einem Hero-Banner auf einer ganzen Website angewendet oder oben ein Bild hinzugefügt werden soll, das auf allen Produktseiten einer Website angezeigt wird."
+>abstract="Eine Regel zum Seitenabgleich macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn die Änderungen an einem Hero Banner auf einer ganzen Website angewendet oder oben ein Bild hinzugefügt werden soll, das auf allen Produktseiten einer Website angezeigt wird."
 
 Um mit dem Aufbau Ihres Web-Erlebnisses über eine Kampagne oder eine Journey zu beginnen, folgen Sie den nachstehenden Schritten.
 
@@ -241,4 +241,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

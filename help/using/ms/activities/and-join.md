@@ -10,7 +10,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 66%
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
->abstract="Die **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Kampagnenzweige zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren."
+>abstract="Mit der Aktivität **Und-Verknüpfung** können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren."
 
 Die Aktivität **Und-Verknüpfung** ist eine Aktivität zur **Flusskontrolle**. Dies ermöglicht es, die Ausführung verschiedener Kampagnenzweige zu synchronisieren.
 

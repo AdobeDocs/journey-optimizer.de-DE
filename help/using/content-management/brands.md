@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 33%
+ht-degree: 39%
 
 ---
 
@@ -69,7 +69,7 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 
 +++
 
-## Marke erstellen und verwalten {#create-brand-kit}
+## Erstellen und Verwalten Ihrer Marke {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
@@ -183,8 +183,8 @@ Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentl
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Bewertung der Stilausrichtung wird geschrieben"
->abstract="Im Abschnitt Schreibstil werden Standards für Sprache, Formatierung und Struktur definiert, um klare, konsistente Inhalte sicherzustellen. Der Alignment Score, von hoch bis niedrig, zeigt, wie gut Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
+>title="Ausrichtungswert für den Schreibstil"
+>abstract="Im Abschnitt „Schreibstil“ werden Standards für Sprache, Formatierung und Struktur definiert, um klare, konsistente Inhalte sicherzustellen. Der Ausrichtungswert (von hoch bis niedrig) zeigt, inwieweit Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
 
 Im Abschnitt **[!UICONTROL Schreibstil]** werden die Standards für das Schreiben von Inhalten beschrieben. Außerdem wird erläutert, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
 
@@ -279,7 +279,7 @@ So personalisieren Sie **[!UICONTROL Schreibstil]**:
 
 1. Wählen Sie eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
 
-1. Klicken Sie auf ![ALT-Text/] (assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
+1. Klicken Sie auf ![ALT-Text/](assets/do-not-localize/Smock_Edit_18_N.svg "), ") Ihr Beispiel zu bearbeiten, oder auf das ![Alternativtext für Tauchbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen")Symbol, um es zu löschen.
 
    ![](assets/brands-11.png)
 
@@ -289,8 +289,8 @@ Jetzt können Sie Ihre Marke weiter personalisieren oder [Ihre Marke veröffentl
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="Bewertung der visuellen Inhaltsausrichtung"
->abstract="Die Bewertung der visuellen Inhaltsausrichtung gibt an, wie gut Ihr Inhalt Ihren konfigurierten Markenrichtlinien entspricht. Mit dieser Bewertung von hoch bis niedrig können Sie die Ausrichtung auf einen Blick beurteilen. Erkunden Sie die verschiedenen Kategorien, um Bereiche für Verbesserungen zu identifizieren und Elemente zu identifizieren, die markenfremd sein könnten."
+>title="Ausrichtungswert für den visuellen Inhalt"
+>abstract="Der Ausrichtungswert für den visuellen Inhalt gibt an, inwieweit Ihr Inhalt Ihren konfigurierten Markenrichtlinien entspricht. Anhand dieses Werts (von hoch bis niedrig) können Sie die Ausrichtung auf einen Blick beurteilen. Sehen Sie sich die verschiedenen Kategorien an, um Bereiche mit Verbesserungspotenzial zu ermitteln und Elemente zu identifizieren, die möglicherweise nicht markenkonform sind."
 
 Im Abschnitt **[!UICONTROL Visuelle Inhalte]** werden die Standards für Bilder und Design definiert. Darin werden die Spezifikationen detailliert beschrieben, die für die Aufrechterhaltung eines einheitlichen und konsistenten Markenlooks erforderlich sind.
 

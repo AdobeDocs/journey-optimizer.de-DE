@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Orchestrierte Kampagne"
->abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der orchestrierten Kampagnen zugreifen, ihren aktuellen Status und das letzte/nächste Ausführungsdatum überprüfen und eine neue orchestrierte Kampagne erstellen."
+>abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der orchestrierten Kampagnen zugreifen, ihren aktuellen Status sowie das Datum der letzten/nächsten Ausführung überprüfen und eine neue orchestrierte Kampagne erstellen."
 
 Sie können orchestrierte Kampagnen in eine visuelle Arbeitsfläche integrieren, um kanalübergreifende Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung zu entwerfen.
 

@@ -10,11 +10,11 @@ exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 50%
+ht-degree: 55%
 
 ---
 
-# Über orchestrierte Kampagnenaktivitäten {#ms-campaign-activities}
+# Über Aktivitäten für orchestrierte Kampagnen {#ms-campaign-activities}
 
 Orchestrierte Kampagnenaktivitäten werden in drei Kategorien unterteilt. Je nach Kontext können die verfügbaren Aktivitäten unterschiedlich sein.
 
@@ -49,7 +49,7 @@ Mit Adobe Journey Optimizer können Sie Marketing-Kampagnen über mehrere Kanäl
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
->abstract="Die **Ende**-Aktivität ermöglicht es Ihnen, das Ende einer orchestrierten Kampagne grafisch zu markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+>abstract="Mit der Aktivität **Ende** können Sie das Ende einer orchestrierten Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
 ![Liste der Flusssteuerungsaktivitäten](../assets/flow-control-activities.png){width="30%" align="left"}
 

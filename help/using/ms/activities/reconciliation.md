@@ -54,7 +54,7 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
->title="Abstimmungsregeln"
+>title="Abstimmregeln"
 >abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mithilfe des Abfrage-Modelers eine eigene Abstimmbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
 >additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeiten mit dem Abfrage-Modeler"
 
@@ -71,7 +71,7 @@ Mit der Aktivität **Anreicherung** können Sie zusätzliche Daten definieren, d
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_attribute"
->title="Abstimmungsattribut"
+>title="Abstimmattribut"
 >abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und klicken Sie auf „Bestätigen“."
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:

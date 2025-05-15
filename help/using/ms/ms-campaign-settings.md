@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Einstellungen für koordinierte Kampagnen konfigurieren
+title: Konfigurieren der Einstellungen für eine orchestrierte Kampagne
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagneneinstellungen konfigurieren
 badge: label="Alpha"
 hide: true
@@ -10,16 +10,16 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 20%
+ht-degree: 40%
 
 ---
 
-# Einstellungen für koordinierte Kampagnen konfigurieren {#workflow-settings}
+# Konfigurieren der Einstellungen für eine orchestrierte Kampagne {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Orchestrierte Kampagneneigenschaften"
->abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zur Erstellung der orchestrierten Kampagne verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt **Zusätzliche Optionen**, um weitere Einstellungen wie den internen Namen der orchestrierten Kampagne, ihren Ordner, ihre Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
+>title="Eigenschaften orchestrierter Kampagnen"
+>abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen der orchestrierten Kampagne verwendet werden soll, und geben Sie ein Label an. Erweitern Sie den Abschnitt **Zusätzliche Optionen**, um weitere Einstellungen wie den internen Namen der orchestrierten Kampagne, ihre Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
 Bei der Erstellung einer orchestrierten Kampagne oder der Orchestrierung von Kampagnenaktivitäten auf der Arbeitsfläche können Sie auf erweiterte Einstellungen im Zusammenhang mit der orchestrierten Kampagne zugreifen. Sie können beispielsweise eine bestimmte Zeitzone für die orchestrierte Kampagne festlegen, verwalten, wie sich die orchestrierte Kampagne im Fehlerfall verhalten soll, oder die Verzögerung verwalten, nach der der orchestrierte Kampagnenverlauf bereinigt werden soll.
 
@@ -27,12 +27,12 @@ Diese Einstellungen sind in der bei der Erstellung der orchestrierten Kampagne a
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Orchestrierte Kampagneneigenschaften {#properties}
+## Eigenschaften orchestrierter Kampagnen {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Orchestrierte Kampagneneigenschaften"
->abstract="Dieser Abschnitt enthält allgemeine Eigenschaften zu orchestrierten Kampagnen, auf die auch bei der Erstellung der orchestrierten Kampagne zugegriffen werden kann. Sie können die Vorlage auswählen, die zur Erstellung der orchestrierten Kampagne verwendet werden soll, und einen Titel angeben. Erweitern Sie den Abschnitt Zusätzliche Optionen , um bestimmte Einstellungen wie den Ordner Orchestrierte Kampagnenspeicherung oder die Zeitzone zu konfigurieren."
+>title="Eigenschaften orchestrierter Kampagnen"
+>abstract="Dieser Abschnitt enthält allgemeine Eigenschaften für orchestrierte Kampagnen, auf die auch beim Erstellen der orchestrierten Kampagne zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen der orchestrierten Kampagne verwendet werden soll, und ein Label angeben. Erweitern Sie den Abschnitt „Zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem die orchestrierte Kampagne gespeichert wird, oder die Zeitzone."
 
 Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, die beim Erstellen einer orchestrierten Kampagne konfiguriert werden können. Um auf die Eigenschaften einer bestehenden orchestrierten Kampagne zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Einstellungen]**, die in der Aktionsleiste über der orchestrierten Kampagnen-Arbeitsfläche verfügbar ist.
 
@@ -59,7 +59,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Segmentierungseinstellungen"
->abstract="In diesem Abschnitt können Sie die Zielgruppendimension auswählen, um Profile in der orchestrierten Kampagne auszuwählen, und die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten. Diese Option sollte nur zu Testzwecken verwendet werden und darf in einer orchestrierten Produktionskampagne nie aktiviert werden."
+>abstract="In diesem Abschnitt können Sie die Zielgruppendimension auswählen, um Profile in der orchestrierten Kampagne auszuwählen, und entscheiden, ob die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden sollen. Diese Option sollte nur zu Testzwecken verwendet werden und darf nie in einer orchestrierten Produktionskampagne aktiviert werden."
 
 * **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
 
@@ -72,7 +72,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Ausführungseinstellungen"
->abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. die Anzahl der Tage, die der orchestrierte Kampagnenverlauf gespeichert wird."
+>abstract="In diesem Abschnitt können Sie die Einstellungen für die Ausführung des Workflows konfigurieren, beispielsweise für wie viele Tage der Verlauf der orchestrierten Kampagne gespeichert wird."
 
 * **[!UICONTROL Verlauf in Tagen]**: Gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf enthält Elemente, die mit der orchestrierten Kampagne in Verbindung stehen: Protokolle, Aufgaben, Ereignisse (technische Objekte, die mit dem orchestrierten Kampagnenvorgang verknüpft sind). Der Standardwert bei vorkonfigurierten orchestrierten Kampagnenvorlagen beträgt 30 Tage. Die Bereinigung des Verlaufs erfolgt durch die technisch orchestrierte Kampagne für die Datenbankbereinigung, die standardmäßig täglich ausgeführt wird
 
@@ -94,7 +94,7 @@ Mögliche Werte sind:
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt können Sie festlegen, wie die orchestrierte Kampagne Fehler während ihrer Ausführung handhaben soll. Sie können den Prozess anhalten, eine bestimmte Anzahl von Fehlern ignorieren oder die orchestrierte Kampagnenausführung stoppen."
+>abstract="In diesem Abschnitt können Sie definieren, wie die orchestrierte Kampagne mit Fehlern während ihrer Ausführung umgehen soll. Sie können festlegen, dass der Prozess angehalten, eine bestimmte Anzahl von Fehlern ignoriert oder die Ausführung der orchestrierten Kampagne gestoppt werden soll."
 
 * **[!UICONTROL Umgang mit Fehlern]** In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine orchestrierte Kampagnenaufgabe Fehler aufweist. Es gibt drei mögliche Optionen:
 

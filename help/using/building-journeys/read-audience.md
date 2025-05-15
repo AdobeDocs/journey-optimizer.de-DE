@@ -11,8 +11,8 @@ keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 67%
+source-wordcount: '2194'
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zie
 
 Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, die beim Anwendungsfall [Zielgruppen erstellen](../audience/about-audiences.md) erstellt wurde. Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu dieser Zielgruppe gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 ## Schutzmechanismen und Best Practices {#must-read}
 
@@ -124,13 +124,13 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Trigger nach der Batch-Zielgruppenbewertung"
->abstract="Schalten Sie diese Option ein, um die Journey-Ausführung nach einer erneuten Auswertung der Batch-Zielgruppe als Trigger auszuführen."
+>title="Nach Batch-Zielgruppenauswertung auslösen"
+>abstract="Schalten Sie diese Option ein, um die Journey-Ausführung nach einer erneuten Auswertung der Batch-Zielgruppe auszulösen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Wartezeit für eine neue Zielgruppenbewertung"
->abstract="Geben Sie die Zeitdauer an, während der die Journey auf die frische Auswertung der Batch-Zielgruppe wartet. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
+>title="Wartezeit für neue Zielgruppenauswertung"
+>abstract="Geben Sie die Zeitdauer an, während der die Journey auf eine erneute Auswertung der Batch-Zielgruppe wartet. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
 
 Standardmäßig sind Journey so konfiguriert, dass sie nur einmal ausgeführt werden. Gehen Sie wie folgt vor, um ein bestimmtes Datum/eine bestimmte Uhrzeit und eine bestimmte Häufigkeit für die Ausführung der Journey festzulegen.
 
@@ -286,4 +286,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

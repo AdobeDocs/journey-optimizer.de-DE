@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
-# Planen und Starten von koordinierten Kampagnen {#start-monitor}
+# Planen und Starten von orchestrierten Kampagnen {#start-monitor}
 
 
 
@@ -28,8 +28,8 @@ Nachdem Sie Ihre koordinierten und entworfenen Aufgaben auf der Arbeitsfläche e
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Planungsaktivität"
->abstract="Die Kampagne **Planung** ermöglicht es Ihnen, den Beginn der orchestrierten Kampagne zu planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der koordinierten Kampagne verwendet werden."
+>title="Aktivität „Planung“"
+>abstract="Im Rahmen der **Kampagnenplanung** können Sie festlegen, wann die orchestrierte Kampagne gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der orchestrierten Kampagne verwendet werden."
 
 Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, was einen präzisen Zeitpunkt und genaue Zielgruppendaten für Marketing-Nachrichten ermöglicht.
 
@@ -39,7 +39,7 @@ Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Ze
 * Wenn Sie eine einmalige Nachricht in Ihrer orchestrierten Kampagne senden möchten, können Sie sie auf „Einmal **&quot;**.
 * Wenn Sie in einer orchestrierten Kampagne eine wiederkehrende Nachricht senden möchten, müssen Sie eine **Planung**-Option verwenden und die Ausführungsfrequenz festlegen. Die Aktivität „Wiederkehrender Versand“ ermöglicht keine Festlegung eines Zeitplans.
 
-### Kampagnenzeitplan konfigurieren {#scheduler-configuration}
+### Konfigurieren des Kampagnenzeitplans {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -130,7 +130,7 @@ Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes er
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Protokolle und Aufgaben"
->abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
+>abstract="Der Bildschirm **Logs und Aufgaben** enthält einen Verlauf zur Ausführung der orchestrierten Kampagne, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. "
 
 Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über das Symbol **[!UICONTROL Protokolle]** in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
 

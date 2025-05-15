@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 48%
+ht-degree: 66%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Mit **Aktivität** Zielgruppe aufbauen“ können Sie die Zielgruppe definieren, die in die orchestrierte Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert."
+>abstract="Mit der Aktivität **Zielgruppe erstellen** können Sie die Zielgruppe definieren, die in die orchestrierte Kampagne aufgenommen wird. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert."
 
 Als Marketing-Experte können Sie mithilfe einer benutzerfreundlichen Oberfläche mühelos komplexe Abfragen erstellen, sodass ich Ihre Audience anhand einer Vielzahl von Kriterien und Verhaltensweisen segmentieren kann, um Ihre Kampagnen effektiver anzupassen.
 
-Verwenden Sie dazu die Zielgruppenbestimmungsaktivität **Zielgruppe aufbauen**. Mit dieser Aktivität können Sie die Audience definieren, die in die orchestrierte Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe aufbauen** definiert.
+Verwenden Sie dazu die Zielgruppenbestimmungsaktivität **Zielgruppe aufbauen**. Mit dieser Aktivität können Sie die Audience definieren, die in die orchestrierte Kampagne eintritt. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe erstellen** definiert.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
