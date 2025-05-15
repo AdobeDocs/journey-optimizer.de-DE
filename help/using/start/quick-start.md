@@ -41,4 +41,4 @@ Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsf�
 
 Machen Sie sich mit den wichtigsten Funktionen und Rollen von Journey Optimizer vertraut. Erfahren Sie, wie Sie je nach Rolle in der Benutzeroberfläche navigieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432377?quality=12&captions=ger)
