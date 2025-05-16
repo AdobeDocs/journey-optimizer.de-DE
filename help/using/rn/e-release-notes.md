@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1513'
 ht-degree: 23%
 
 ---
@@ -292,9 +292,6 @@ Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-
 
 * **Subdomains - Methode „Keine Delegierung“**\
   Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Konfiguration von Subdomains verfügbar: die Methode der No-Delegierung, mit der Sie alle Aspekte des DNS, die für den Versand, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.
-
-* **Unterstützung für benutzerdefinierte Datenquellen in Personalization**\
-  Sie können jetzt eine Abfrage erstellen und Daten aus einer externen Quelle (d. h. nicht in Adobe Experience Platform gespeichert) abrufen, um sie in eingehenden und ausgehenden Journey Optimizer-Oberflächen für die Personalisierung und Journey-Orchestrierung zu verwenden.
 
 * **Briefpost - SSH-Support**\
   Zusätzlich zu dem vorhandenen SFTP-Typ mit Passwortauthentifizierung können Sie jetzt Ihre Briefpostdatei an einen SFTP-Server mit SSH-Schlüsselauthentifizierung exportieren.
