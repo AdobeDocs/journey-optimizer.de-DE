@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 23%
+source-wordcount: '1485'
+ht-degree: 24%
 
 ---
 
@@ -216,22 +216,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsentscheidungen in Journey</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können Ihren Journey jetzt über eine dedizierte Entscheidungsaktion auf der Journey-Arbeitsfläche Angebote hinzufügen und sie in Ihren benutzerdefinierten Aktionen verwenden.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>Zusätzliche ID für ereignisausgelöste Journey</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-
   Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen.
 
 
-* **Subdomains - Methode „Keine Delegierung“**\
-  Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Konfiguration von Subdomains verfügbar: die Methode der No-Delegierung, mit der Sie alle Aspekte des DNS, die für den Versand, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.
+* **Subdomains - Methode „Benutzerdefinierte Delegierung“**\
+  Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.
 
 * **Briefpost - SSH-Support**\
   Zusätzlich zu dem vorhandenen SFTP-Typ mit Passwortauthentifizierung können Sie jetzt Ihre Briefpostdatei an einen SFTP-Server mit SSH-Schlüsselauthentifizierung exportieren.
