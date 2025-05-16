@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 67%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 67%
   >
   >Diese Funktion wird in den nächsten 30 Tagen schrittweise für alle Umgebungen eingeführt.
 
-* **Neue Kampagnenobjekte unterstützen die Sandbox-Kopie** <!-- - Availability date: -->
+* **Neue Kampagnenobjekte unterstützen die Sandbox-**. - Verfügbarkeitsdatum: 15. Mai 2025
 
   Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
