@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 78%
+source-wordcount: '1375'
+ht-degree: 73%
 
 ---
 
@@ -81,6 +81,18 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 * Der Export von Inhaltsvorlagen kann manchmal zu einer Duplizierung von Fragmenten führen. Wenn beispielsweise zwei Vorlagen das gleiche Fragment freigeben und in getrennten Paketen kopiert werden, müssen beide Vorlagen das gleiche Fragment in der Ziel-Sandbox wiederverwenden. Um Duplikate zu vermeiden, wählen Sie während des Importvorgangs die Option „Vorhandene verwenden“. [Erfahren Sie, wie man ein Paket importiert](#import)
 
 * Um Duplikate weiter zu vermeiden, wird empfohlen, Inhaltsvorlagen in einem einzigen Paket zu exportieren. Dadurch wird sichergestellt, dass das System Deduplizierungen effizient verwaltet.
+
+### Entscheidungsfindung {#decisioning}
+
+* Die folgenden Objekte müssen in der Ziel-Sandbox vorhanden sein, bevor Decisioning-Objekte kopiert werden können:
+
+   * In allen Decisioning-Objekten verwendete Profilattribute,
+   * Die Feldergruppe der benutzerdefinierten Angebotsattribute,
+   * Die Schemata von Datenströmen, die für Kontextattribute in Regeln, Rangfolge oder Begrenzung verwendet werden.
+
+* Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
+
+* Stellen Sie beim Kopieren von Entscheidungsentitäten sicher, dass Sie Entscheidungselemente (**)** andere Objekte kopieren. Wenn Sie beispielsweise zuerst eine Sammlung kopieren und in der neuen Sandbox keine Angebote vorhanden sind, bleibt diese neue Sammlung leer.
 
 ### Fragmente {#fragments}
 

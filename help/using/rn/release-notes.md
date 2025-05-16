@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 67%
+source-wordcount: '1157'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Mai &#39;25 Updates {#25-5-rn}
+## Aktualisierungen Mai 2025 {#25-5-rn}
 
 * **Themen in der E-Mail Designer (Beta)** - Verfügbarkeitsdatum: 14. Mai 2025
 
@@ -52,9 +52,15 @@ ht-degree: 67%
   >
   >Diese Funktion wird in den nächsten 30 Tagen schrittweise für alle Umgebungen eingeführt.
 
-* **Neue Kampagnenobjekte unterstützen die Sandbox-**. - Verfügbarkeitsdatum: 15. Mai 2025
+* **Neue Objektunterstützung für Sandbox Copy**
 
-  Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+   * **Kampagnen** - Verfügbarkeitsdatum: 15. Mai 2025
+
+     Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+
+   * **Decisioning** - Verfügbarkeitsdatum: 16. Mai 2025
+
+     Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## Versionshinweise April 2025 {#25-4-rn}
 
@@ -248,7 +254,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <tbody>
 <tr>
 <td>
-<p>Die Funktion zur Bewertung der Markenausrichtung bietet ein klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob Ihr Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in Beta verfügbar.</p>
+<p>Die Funktion zur Bewertung der Markenausrichtung bietet klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob der Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Beta-Version verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/brands-score.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 Zusätzlich zu den vorhandenen Funktionen zum Testversand stehen neue APIs zur Verfügung, um Kampagnen in der Vorschau anzuzeigen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Sandbox-Tools**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **Sandbox-Tools für benutzerdefinierte Aktionen**
 
