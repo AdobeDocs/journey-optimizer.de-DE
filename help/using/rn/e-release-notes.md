@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 25%
+source-wordcount: '1554'
+ht-degree: 23%
 
 ---
 
@@ -229,6 +229,24 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>Zusätzliche ID für ereignisausgelöste Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Verbesserungen {#25-05-improv}
 
 Im Folgenden finden Sie die Verbesserungen dieser Version.
@@ -250,12 +268,11 @@ Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner v
 * **Decisioning - Adobe Experience Platform-Datensätze nutzen**\
   Mit Journey Optimizer können Sie jetzt Adobe Experience Platform-Datensätze in den folgenden Decisioning-Objekten nutzen: Eignungsregeln, Rangfolgeformeln und Begrenzungsregeln.
 
-* **Ordner in Vorlagen und Fragmenten (allgemeine Verfügbarkeit)**\
-  Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzenden (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung. Mit Ordnern können Sie Ihre Inhaltsvorlagen und Fragmente einfacher und effektiver in einer strukturierten Hierarchie organisieren.
+* **Ordner in Vorlagen und Fragmenten**\
+  Mit Ordnern können Sie Ihre Inhaltsvorlagen und Fragmente einfacher und effektiver in einer strukturierten Hierarchie organisieren. Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzern (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung.
 
 * **Neue Kampagnenobjekte unterstützen die Sandbox-Kopie** <!-- - Availability date: -->
-
-  Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+Beim Kopieren von Kampagnen über mehrere Sandboxes hinweg mithilfe der Package-Export- und -Importfunktionen werden jetzt auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und Elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
 * **„Umleiten zur URL“-Unterstützung im Web-Kanal**\
   Mit dem Journey Optimizer-Webkanal können Sie Besuchende jetzt zu einer anderen bestehenden URL umleiten, anstatt im Visual Editor eine neue Variante zu erstellen. Mit dieser Funktion können Experimente durchgeführt werden, bei denen zwei völlig verschiedene Seiten verglichen werden, anstatt nur einige Elemente innerhalb einer Seite zu ändern.
@@ -272,11 +289,12 @@ Um die Verwaltung Ihrer Landingpages zu vereinfachen, können Sie jetzt Ordner v
 * **Unterstützung von Entscheidungselement-Attributen für Entscheidungsregeln**\
   Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen.
 
-* **Mehrfacher Journey-Wiedereintritt**\
-  Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.
 
 * **Subdomains - Methode „Keine Delegierung“**\
   Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Konfiguration von Subdomains verfügbar: die Methode der No-Delegierung, mit der Sie alle Aspekte des DNS, die für den Versand, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.
 
 * **Unterstützung für benutzerdefinierte Datenquellen in Personalization**\
   Sie können jetzt eine Abfrage erstellen und Daten aus einer externen Quelle (d. h. nicht in Adobe Experience Platform gespeichert) abrufen, um sie in eingehenden und ausgehenden Journey Optimizer-Oberflächen für die Personalisierung und Journey-Orchestrierung zu verwenden.
+
+* **Briefpost - SSH-Support**\
+  Zusätzlich zu dem vorhandenen SFTP-Typ mit Passwortauthentifizierung können Sie jetzt Ihre Briefpostdatei an einen SFTP-Server mit SSH-Schlüsselauthentifizierung exportieren.
