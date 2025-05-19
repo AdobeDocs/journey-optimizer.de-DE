@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 69%
+source-wordcount: '1184'
+ht-degree: 67%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 69%
    * **Decisioning** - Verfügbarkeitsdatum: 16. Mai 2025
 
      Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **Briefpost: SSH Key Support for SFTP Connections** - Verfügbarkeitsdatum: 5. Mai 2025
+
+  Die SSH-Schlüsselauthentifizierung wird jetzt für SFTP-Server-Verbindungen in der Routing-Konfiguration für Briefpostdateien unterstützt.
+
 
 ## Versionshinweise April 2025 {#25-4-rn}
 

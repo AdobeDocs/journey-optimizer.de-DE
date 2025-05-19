@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 98%
+source-wordcount: '1365'
+ht-degree: 95%
 
 ---
 
@@ -103,13 +103,15 @@ Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** ausgewählt 
 
 Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldedaten für Ihren Server ein:
 
-* **Konto**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
+* **[!UICONTROL Authentifizierungstyp]**: Wählen Sie den Authentifizierungstyp für die Verbindung mit dem Server aus (Kennwort oder SSH-Schlüssel).
 
-* **Server-Adresse**: URL des SFTP-Servers.
+* **[!UICONTROL Konto]**: Der für die Verbindung zum SFTP-Server verwendete Kontoname.
 
-* **Port**: Port-Nummer der FTP-Verbindung.
+* **[!UICONTROL Server-Adresse]**: URL des SFTP-Servers.
 
-* **Passwort**: Passwort, das für die Verbindung zum SFTP-Server verwendet wird.
+* **[!UICONTROL Port]**: Port-Nummer der SFTP-Verbindung.
+
+* **[!UICONTROL Kennwort]**/**[!UICONTROL SSH-Schlüssel]**:&#x200B; Kennwort oder SSH-Schlüssel für die Verbindung mit dem SFTP-Server.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
