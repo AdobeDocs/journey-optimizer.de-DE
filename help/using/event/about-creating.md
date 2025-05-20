@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_parameters"
 >title="Parameter"
->abstract="Definieren Sie die Parameter des Ereignisses, z. B. das Schema und die Payload-Felder. Verwenden Sie für regelbasierte Ereignisse das Feld **[!UICONTROL Ereignis-ID]**, um die Bedingung zu definieren, anhand derer das System die Ereignisse identifiziert, die den Journey-Trigger verursachen. Fügen Sie einen Identitätstyp und eine Profilkennung hinzu, die für das Ereignis verwendet werden soll."
+>abstract="Definieren Sie die Parameter des Ereignisses, z. B. das Schema und die Payload-Felder. Verwenden Sie für regelbasierte Ereignisse das Feld **[!UICONTROL Ereignis-ID-Bedingung]**, um die Bedingung zu definieren, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen. Fügen Sie einen Identitätstyp und eine Profilkennung hinzu, die für das Ereignis verwendet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
->title="Zusätzliche Kennung verwenden"
+>title="Verwenden einer zusätzlichen Kennung"
 >abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, wählen Sie das Feld aus, das als zusätzliche Kennung verwendet werden soll, und wählen Sie einen Namespace aus, der mit ihr verknüpft werden soll."
 
 Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein.  Mehr über unitäre Ereignisse erfahren Sie [in diesem Abschnitt](../event/about-events.md).

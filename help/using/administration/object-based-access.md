@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Labels zur Zugriffsverwaltung"
->abstract="Sie können den Zugriff auf ein Objekt anhand von Zugriffsbeschriftungen einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten. **Achten Sie darauf, nur Kennzeichnungen auszuwählen, für die Sie über die Berechtigung verfügen.**"
+>abstract="Sie können den Zugriff auf ein Objekt anhand von Zugriffs-Labels einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten. **Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie über eine Berechtigung verfügen.**"
 
-Sie können den Zugriff auf ein Objekt anhand von Zugriffsbeschriftungen einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
+Sie können den Zugriff auf ein Objekt anhand von Zugriffs-Labels einschränken. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
 Mit der Funktion Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
 

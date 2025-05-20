@@ -12,11 +12,11 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Anwenden von Designs auf E-Mail-Inhalte {#apply-email-themes}
+# Anwenden von Designs auf Ihren E-Mail-Inhalt {#apply-email-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"

@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Fügen Sie Schaltflächen hinzu, über die Benutzende mit Ihrer Push-Benachrichtigung interagieren können."
->abstract="Fügen Sie Ihrer Nachricht in diesem Abschnitt call-to-action-Schaltflächen hinzu. Geben Sie für Apple iOS eine Kennung der Benachrichtigungskategorie an. Für Google Android können Sie für jede Schaltfläche benutzerdefinierten Text und Zielgruppen hinzufügen."
+>abstract="Fügen Sie Ihrer Nachricht in diesem Abschnitt CTA-Schaltflächen hinzu. Geben Sie für Apple iOS eine Kennung der Benachrichtigungskategorie an. Für Google Android können Sie für jede Schaltfläche benutzerdefinierten Text und Ziele hinzufügen."
 
 Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
 

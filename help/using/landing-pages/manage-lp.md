@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Landing, Landingpage
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 40%
+ht-degree: 46%
 
 ---
 
@@ -53,12 +54,12 @@ In dieser Liste können Sie auf die drei Punkte neben einer Landingpage klicken 
 
 ![](assets/lp_access-list-actions.png)
 
-## Verwenden von Ordnern zur Verwaltung von Landingpages {#folders}
+## Verwenden von Ordnern zum Verwalten von Landingpages {#folders}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
 >title="Organisieren von Landingpages in Ordnern"
->abstract="Verwenden Sie Ordner, um Ihre Landingpages entsprechend den Anforderungen Ihres Unternehmens zu kategorisieren und zu verwalten."
+>abstract="Verwenden Sie Ordner, um Ihre Landingpages entsprechend den Anforderungen Ihrer Organisation zu kategorisieren und zu verwalten."
 
 Um die Navigation auf Ihren Landingpages zu vereinfachen, können Sie Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihrer Organisation kategorisieren und verwalten.
 

@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -95,12 +95,12 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Startdatum"
->abstract="Wählen Sie das Datum aus, an dem Profile mit dem Eintritt in die Journey beginnen können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
+>abstract="Wählen Sie das Datum aus, ab dem Profile in die Journey eintreten können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Legen Sie das Enddatum der Journey fest. An diesem Datum beenden die aktiven Profile automatisch die Journey und es werden keine neuen Einträge zugelassen."
+>abstract="Legen Sie das Enddatum der Journey fest. An diesem Datum verlassen aktive Profile automatisch die Journey entfernt und es werden keine neuen Eintritte mehr zugelassen."
 
 Standardmäßig können Profile unmittelbar nach der Veröffentlichung auf Ihren Journey zugreifen und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
@@ -108,16 +108,16 @@ Bei Bedarf können Sie benutzerdefinierte **Startdatum** und **Enddatum“**. Da
 
 ## Maximale Wartezeit {#timeout}
 
-### Timeout beim Journey von Aktivitäten {#timeout_and_error}
+### Timeout bei Journey-Aktivitäten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Zeitüberschreitung oder Fehler"
->abstract="Geben Sie an, wie lange der Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung auszuwerten, bevor sie als Zeitüberschreitung behandelt wird. Empfohlene Werte liegen zwischen 1 und 30 Sekunden."
+>title="Timeout oder Fehler"
+>abstract="Geben Sie an, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung zu bewerten, bevor sie als Zeitüberschreitung behandelt wird. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung der maximalen Wartezeit einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegte Dauer der maximalen Wartezeit der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
-Empfohlene Werte liegen zwischen 1 und 30 Sekunden.
+Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Maximale Wartezeit oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 

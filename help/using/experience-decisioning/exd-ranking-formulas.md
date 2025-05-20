@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer [Auswahlstra
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Erstellen von Ranglistenformeln"
->abstract="Mit Formeln können Sie Regeln definieren, die bestimmen, welches Entscheidungselement zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen. Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Auswahlstrategie zuweisen."
+>abstract="Mithilfe von Formeln kann festgelegt werden, welches Entscheidungselement zuerst angezeigt werden soll, anstatt die Prioritätswerte des Elements zu berücksichtigen. Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Auswahlstrategie zuweisen."
 
 Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen.
 
