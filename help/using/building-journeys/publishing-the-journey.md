@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '613'
+ht-degree: 82%
 
 ---
 
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass diese gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
+Um eine Journey zu aktivieren und neuen Profilen den Eintritt zu ermöglichen, müssen Sie sie veröffentlichen. Durch das Veröffentlichen wird die Journey live und funktionsfähig. Vor der Veröffentlichung müssen Sie sicherstellen, dass die Journey vollständig und gültig ist, und etwaige Fehler beheben, da eine Journey nicht veröffentlicht werden kann, wenn sie Fehler enthält.
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
+## Veröffentlichungsprozess {#journey-publication}
+
 Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
-1. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass diese gültig ist und keine Fehler vorliegen. Sie können keine fehlerhaften Journeys veröffentlichen.
+1. Bevor Sie Ihren Journey veröffentlichen, stellen Sie sicher, dass er gültig und fehlerfrei ist. Journey können nicht veröffentlicht werden, wenn sie Fehler enthalten.
 
    * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
    * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
@@ -33,7 +35,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
    >[!NOTE]
    >
-   > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
+   > Wenn für Ihren Journey eine Genehmigungsrichtlinie gilt, müssen Sie eine Genehmigung anfordern, bevor Sie ihn veröffentlichen können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
