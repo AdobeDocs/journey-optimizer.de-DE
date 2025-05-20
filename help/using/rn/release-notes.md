@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
+source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 27%
@@ -83,11 +83,12 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
 <p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -120,6 +121,8 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Eine Kalenderansicht ist jetzt in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visuell darstellen.</p>
 <p>Diese Neuerung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<img src="assets/do-not-localize/calendar.gif">
+<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -146,8 +149,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
@@ -162,8 +163,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <ul>
 <li>Erweiterte Unterstützung: Konfliktverwaltungstools unterstützen jetzt neben der Funktion „Zielgruppen-Journey lesen“ auch Journey-Journey und Zielgruppen-Qualifizierungs-Tools.</li>
 <li>Verbesserte Fehlerbehebung: Im Abfrage-Service sind jetzt zwei neue Schrittereignisfelder verfügbar, mit denen Sie analysieren können, warum ein Profil von einer Journey oder Kampagne abgelehnt wurde.</li>
-<li>Erweiterte Berichterstellung: Berichte zeigen jetzt an, welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen hat, was für mehr Transparenz und umsetzbare Einblicke sorgt.</li>
-</ul>
+<li>Erweiterte Berichterstellung: Berichte zeigen jetzt an, welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen hat, was für mehr Transparenz und umsetzbare Einblicke sorgt.</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -181,6 +183,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
 <p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
 <img src="assets/do-not-localize/variants.gif">
+<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
