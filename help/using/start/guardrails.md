@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2471'
-ht-degree: 100%
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+workflow-type: tm+mt
+source-wordcount: '2478'
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-Berechtigungen, Produkteinschränkungen und die Performance betreffende Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
+Berechtigungen, Produktbeschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
+Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} bevor Sie beginnen.
 
 ## Unterstützte Browser {#browsers}
 
@@ -62,7 +62,7 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
 [!DNL Journey Optimizer]-[Web-Kampagnen](../web/get-started-web.md) zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
 
-Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Leitlinien für Code-basierte Kanäle {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journ
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
+* Ein Profil kann nicht mehrmals zur gleichen Zeit auf derselben Journey für alle aktiven (Versionen [ Journey) ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
 
 ### Journey-Versionen {#journey-versions-g}
 

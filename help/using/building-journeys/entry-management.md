@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 87%
+source-wordcount: '573'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Mit Adobe Journey Optimizer können Sie die folgenden Typen von Journeys erstell
 
 * **Zielgruppen-Qualifizierungs**-Journeys: Diese Journeys beginnen mit einem Zielgruppen-Qualifizierungsereignis. Diese Journeys überwachen die Ein- und Austritte von Profilen in Zielgruppen. In diesem Fall tritt das verknüpfte Profil die Journey ein. [Weitere Informationen](#entry-unitary)
 
-Für alle Journey-Typen gilt, dass ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein kann. Um zu überprüfen, ob sich eine Person in einer Journey befindet, wird die Profilidentität als Schlüssel verwendet. Das System lässt nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel `CRMID=3224`, an verschiedenen Stellen in derselben Journey befindet.
+Bei allen Journey-Typen kann ein Profil nicht mehrmals gleichzeitig auf derselben Journey vorhanden sein - nicht bei allen aktiven [Versionen der Journey](publishing-the-journey.md#journey-versions-journey-versions). Um zu überprüfen, ob sich eine Person in einer Journey befindet, wird die Profilidentität als Schlüssel verwendet. Das System lässt nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel `CRMID=3224`, an verschiedenen Stellen in derselben Journey befindet.
 
 ## Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen{#entry-unitary}
 
