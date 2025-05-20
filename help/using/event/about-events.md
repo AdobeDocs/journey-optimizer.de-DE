@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
+workflow-type: tm+mt
+source-wordcount: '1088'
+ht-degree: 91%
 
 ---
 
@@ -27,10 +27,12 @@ Ereignisse ermöglichen es Ihnen, Journeys einzeln auszulösen und jeder Benutze
 
 In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden.
 
+Die Ereigniskonfiguration ist **obligatorisch** und muss vom Daten-Engineering durchgeführt werden.
+
 Sie können zwei Arten von Ereignissen konfigurieren: **unitäre Ereignisse** und **Geschäftsereignisse**.
 
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 ## Unitäre Ereignisse {#unitary-events}
 
@@ -42,11 +44,6 @@ Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizi
 
 **Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis in einer Journey ablegen, wird direkt danach eine Aktivität **Zielgruppe lesen** automatisch hinzugefügt. Informationen zum Erstellen eines Geschäftsereignisses finden Sie auf [dieser Seite](../event/about-creating-business.md).
 
-## Empfehlungen
-
-Die Ereigniskonfiguration ist **obligatorisch** und muss vom Daten-Engineering durchgeführt werden.
-
-Um Unterbrechungen vorhandener Journeys zu vermeiden, wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwendet wird, können Sie nur den Namen bzw. die Beschreibung ändern oder Payload-Felder hinzufügen. 
 
 ## Ereignis-ID-Typ {#event-id-type}
 
@@ -76,11 +73,17 @@ Nach dem Eingang über Streaming-Aufnahme-APIs fließen Ereignisse in einen inte
 
 Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, die eventIDs von [!DNL Journey Optimizer] enthalten (siehe den Ereigniserstellungsprozess unten), die von [!DNL Journey Optimizer] bereitgestellt werden und in der Ereignis-Payload enthalten sind. Regelbasierte Ereignisse: Das System identifiziert das Ereignis mit der eventID-Bedingung. Diese Ereignisse werden von [!DNL Journey Optimizer] überwacht und die entsprechende Journey wird ausgelöst.
 
+## Ereignis aktualisieren und löschen
+
+Um zu vermeiden, dass vorhandene Journey beschädigt werden, können Sie beim Bearbeiten eines Ereignisses, das in einer Entwurfs-, Live- oder geschlossenen Journey verwendet wird, nur den Namen, die Beschreibung ändern oder Payload-Felder hinzufügen.
+
+Ereignisse, die in Live-, Entwurfs- oder geschlossenen Journey verwendet werden, können nicht gelöscht werden. Um ein verwendetes Ereignis zu löschen, müssen Sie seine Verwendung durch die Journey unterbinden und/oder es aus den Journey des Entwurfs entfernen, in dem es verwendet wird. Sie können das Feld **[!UICONTROL Verwendet in]** überprüfen. Es wird die Anzahl der Journey angezeigt, die dieses bestimmte Ereignis verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 
