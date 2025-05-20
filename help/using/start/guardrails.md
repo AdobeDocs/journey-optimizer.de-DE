@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 96%
 
 ---
 
@@ -212,9 +212,11 @@ Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/au
 
 ### Ausdruckseditor {#expression-editor}
 
-Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gilt der folgende Schutzmechanismus:
+Die folgenden Leitplanken gelten für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md):
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
+* `timeSeriesEvents` Attribute können im Ausdruckseditor nicht verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`.
+
 
 ### In-App-Aktivität {#in-app-activity-limitations}
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: e435a4bf9d284845f27021b3d36c555def749fbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 50%
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können auch [Journey stoppen](#stop-journey) nur im Notfall und wenn die ge
 
 >[!IMPORTANT]
 >
->* Sie können eine [&#128279;](#stop-journey)geschlossene“ oder [gestoppte](#close-journey) Journey nicht  oder löschen. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren.
+>* Sie können eine [geschlossene“ oder [gestoppte](#close-journey) Journey nicht ](#stop-journey) oder löschen. Sie können [eine neue Version erstellen](publishing-the-journey.md#journey-versions-journey-versions) oder [duplizieren](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* Nur abgeschlossene Journeys können gelöscht werden.
 

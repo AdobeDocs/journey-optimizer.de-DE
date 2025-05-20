@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 89%
 
 ---
 
@@ -42,13 +42,18 @@ Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampag
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Wenn Ihre Briefpost-Kampagne fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Aktivieren]**. Wenn die Kampagne startet, wird die Extraktionsdatei automatisch generiert und zu dem Server exportiert, der in Ihrer [Datei-Routing-Konfiguration](../direct-mail/direct-mail-configuration.md) festgelegt ist.
+Wenn Ihre Briefpost-Kampagne fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Aktivieren]**. Wenn die Kampagne gestartet wird, wird die Extraktionsdatei automatisch generiert und zu dem Server exportiert, der in Ihrer [Datei-Routing-Konfiguration“ ](../direct-mail/direct-mail-configuration.md) ist.
+
+>[!NOTE]
+>
+>Die exportierte Datei endet standardmäßig mit einem Zeilenumbruch. Dadurch wird die Kompatibilität mit standardmäßigen Datenverarbeitungs-Tools sichergestellt.
+
 
 Nach dem Versand können Sie die Wirkung Ihrer Briefpost-Kampagne in den Kampagnenberichten messen. Weitere Informationen zu Direkt-Mail-Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-direct.md).
 
 ## Verwalten des Einverständnisses für Briefpost {#dm-consent-management}
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer, was als Einverständnis für den Empfang Ihrer Nachrichten gilt.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das Experience Platform-[Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer, was als Einverständnis für den Empfang Ihrer Nachrichten gilt.
 
 Wenn sich ein Profil vom Erhalt von Briefpost abgemeldet hat, wird in den entsprechenden Profilattributen der Wert für `consents.marketing.postalMail.val` auf `n` festgelegt und das entsprechende Profil von den folgenden Sendungen ausgeschlossen.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '935'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 
 Verwenden Sie in der Liste der Journeys verschiedene Filter zum Verfeinern dieser Liste.
 
-![](assets/filter-journeys.png)
+![Bildschirm mit einem Beispiel für die Journey-Filterung mit zwei ausgewählten Journey-Typen](assets/filter-journeys.png)
 
-Sie können Journeys nach [Status](#journey-statuses), [Typ](#journey-types), [Version](#journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Filtern für Status und Version]** filtern.
+Sie können Journeys nach [Status](#journey-statuses), [Typ](#journey-types), [Version](publishing-the-journey.md#journey-versions-journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Filtern für Status und Version]** filtern.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person, die sie erstellt hat, zu filtern.
 
