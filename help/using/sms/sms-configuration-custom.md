@@ -162,4 +162,4 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt haben, füllen Sie die Felder aus, di
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443615?captions=ger)
