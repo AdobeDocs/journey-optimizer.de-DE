@@ -27,7 +27,7 @@ Sie können auch [Journey stoppen](#stop-journey) nur im Notfall und wenn die ge
 
 >[!IMPORTANT]
 >
->* Sie können eine [geschlossene“ oder [gestoppte](#close-journey) Journey nicht ](#stop-journey) oder löschen. Sie können [eine neue Version erstellen](publishing-the-journey.md#journey-versions-journey-versions) oder [duplizieren](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
+>* Sie können eine [&#128279;](#stop-journey)geschlossene“ oder [gestoppte](#close-journey) Journey nicht  oder löschen. Sie können [eine neue Version erstellen](publishing-the-journey.md#journey-versions-journey-versions) oder [duplizieren](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* Nur abgeschlossene Journeys können gelöscht werden.
 
