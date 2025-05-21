@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 93%
@@ -362,7 +362,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit
 
 Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Dokumentation](../conflict-prioritization/rule-sets.md).
+Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Dokumentation](../configuration/rule-sets.md).
 
 **Inhaltsvorlagen**
 
@@ -517,7 +517,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p><ul><li>Erstellen Sie Kanalregelsätze, um die Anzahl der Nachrichten zu beschränken, die über einen oder mehrere Kanäle gesendet werden. Wenden Sie sie auf Kampagnen- oder Journey-Aktionen an, um die im Regelsatz definierten Regeln durchzusetzen. Mit einem Kanalregelsatz können Sie Begrenzungsregeln basierend auf Kommunikationstypen anwenden. Legen Sie beispielsweise einen Regelsatz fest, um sich auf „Werbenachrichten“ zu begrenzen, und einen weiteren für „Newsletter“. Wenden Sie den entsprechenden Regelsatz in Ihrer Kampagnen- oder Journey-Aktion an, je nach dem Kommunikationstyp, den Sie verwenden.</li>
 <li> Erstellen Sie Journey-Regelsätze, um Profileintritte in Journeys zu steuern. Schränken Sie etwa ein, wie oft ein Profil innerhalb eines bestimmten Zeitraums auf eine Journey zugreifen kann oder für wie viele Journeys ein Profil gleichzeitig registriert sein kann. Wenden Sie diese Regeln auf der Journey-Ebene an, um eine ordnungsgemäße Eintrittsverwaltung sicherzustellen.</li></ul></p>
 <p>Geschäftsregeln, die zuvor nur für eine Reihe von Organisationen verfügbar waren (LA), stehen jetzt allen Benutzenden zur Verfügung (GA). Geschäftsregeln für Journey-Domains sind weiterhin nur für eine begrenzte Anzahl von Organisationen verfügbar (LA).</p>
-<p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/rule-sets.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/rule-sets.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

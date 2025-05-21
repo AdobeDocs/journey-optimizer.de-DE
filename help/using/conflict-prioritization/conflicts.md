@@ -3,15 +3,20 @@ title: Identifizieren von potenziellen Konflikten in Journeys und Kampagnen
 description: Erfahren Sie, wie Sie potenzielle Konflikte in Journeys und Kampagnen identifizieren können.
 role: User
 level: Beginner
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 96%
+source-wordcount: '816'
+ht-degree: 98%
 
 ---
 
 # Erkennen von potenziellen Konflikten in Journeys und Kampagnen {#conflict}
+
+>[!AVAILABILITY]
+>
+>Funktionen für Konflikt-Management und Priorisierung sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Da Marketing-Fachleute das Volumen von Kampagnen und Journeys in Journey Optimizer erhöhen, wird es für sie immer schwieriger zu erfahren, ob sie Ihre Kundschaft mit zu vielen Marketing-Interaktionen bombardieren. Daher ist es wichtig, dass Sie leicht erkennen können, wann es zu Überschneidungen von Kampagnen und Journeys kommt, um sicherzustellen, das richtige Gleichgewicht in der Marketing-Kommunikation zu finden und gleichzeitig das Risiko einer Ermüdung der Kundschaft zu minimieren.
 
@@ -22,6 +27,10 @@ Wichtige Bereiche, die auf mögliche Überschneidungen hin überwacht werden sol
 * **Kanal**: Sind für denselben Zeitraum weitere Kommunikationsmaßnahmen geplant, und wenn ja, wie viele?
 * **Regelwerk für Begrenzungen**: Welche Arten von Journeys werden von mir begrenzt und kommt es innerhalb dieser zu Überschneidungen?
 * **Kanalkonfiguration**: Gibt es andere Journeys oder Kampagnen, die eine Kanalkonfiguration verwenden, die in derselben Journey oder Kampagne verwendet wird, was dazu führen könnte, dass die Journey oder Kampagne den Endbenutzenden nicht angezeigt wird?
+
+>[!NOTE]
+>
+>In Kampagnen ist der Prioritätswert nur für die Web-, In-App- und Code-basierten eingehenden Kanäle verfügbar.
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
@@ -65,7 +74,7 @@ Wenn Sie eine Journey oder Kampagne erstellen, können Sie mit Journey Optimizer
 
    >[!NOTE]
    >
-   >Aufgrund der implementierten Zwischenspeicherung kann es bis zu 3-7 Minuten dauern, bis neu veröffentlichte Journey und Kampagnen im Konflikt-Viewer angezeigt werden.
+   >Bei neu veröffentlichten Kampagnen kann es aufgrund der implementierten Zwischenspeicherung bis zu 5 Minuten dauern, bis sie in der Konfliktanzeige angezeigt werden
 
 Um die Suche nach potenziellen Überschneidungen weiter zu verfeinern, können Sie Ihre Liste der Kampagnen und Journeys nach den relevanten Feldern filtern. Wählen Sie dazu das Filtersymbol in der Ansicht „Sammlungsbestand“ aus. [Erfahren Sie, wie Sie mit Filtern arbeiten](../start/search-filter-categorize.md#filter-lists)
 

@@ -3,15 +3,20 @@ title: Journey-Begrenzung und -Steuerung
 description: Informationen zum Erstellen von Begrenzungsregeln für Ihre Journeys und zur Steuerung des Journey-Eintritts
 role: User
 level: Beginner
+badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 79%
+source-wordcount: '943'
+ht-degree: 92%
 
 ---
 
 # Journey-Begrenzung und -Steuerung {#journey-capping}
+
+>[!AVAILABILITY]
+>
+>Funktionen für Konflikt-Management und Priorisierung sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an denen ein Profil teilnehmen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
@@ -19,6 +24,10 @@ Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an
 * **Begrenzung gleichzeitiger Journeys**: Beschränkt, an wie vielen Journeys ein Profil gleichzeitig teilnehmen kann.
 
 Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu steuern.
+
+>[!AVAILABILITY]
+>
+>**Journey** Domain-Regelsätze sind nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
@@ -48,49 +57,59 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Klicken Sie im Bildschirm Regelsatz auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und geben Sie dann einen eindeutigen Namen für die Regel an.
-
-1. Geben Sie in der Dropdown-Liste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
-
-   * **[!UICONTROL Begrenzung für Journey-Eintritte]**: Beschränkt für ein Profil die Anzahl der Eintritte in die Journey über einen bestimmten Zeitraum.
-   * **[!UICONTROL Begrenzung gleichzeitiger Journeys]**: Beschränkt, an wie vielen Journeys ein Profil gleichzeitig teilnehmen kann.
+1. Klicken Sie auf dem Bildschirm „Regelsatz“ auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und konfigurieren Sie dann die Regel entsprechend Ihren Anforderungen:
 
    ![](assets/journey-capping-concurrency.png)
 
-1. Erweitern Sie die folgenden Abschnitte, um zu erfahren, wie jeder Begrenzungstyp konfiguriert wird:
+   * Geben Sie einen eindeutigen Namen für die Regel an.
 
-   +++Konfigurieren einer Begrenzungsregel für Journey-Eintritte
+   * Geben Sie in der Dropdown-Liste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
 
-   1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
-   1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
+      * **[!UICONTROL Begrenzung für Journey-Eintritte]**: Beschränkt für ein Profil die Anzahl der Eintritte in die Journey über einen bestimmten Zeitraum.
+      * **[!UICONTROL Begrenzung gleichzeitiger Journeys]**: Beschränkt, an wie vielen Journeys ein Profil gleichzeitig teilnehmen kann.
 
-   In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
+   * Erweitern Sie die folgenden Abschnitte, um zu erfahren, wie jeder Begrenzungstyp konfiguriert wird:
 
-   ![](assets/journey-capping-entry-example.png)
+     +++Konfigurieren einer Begrenzungsregel für Journey-Eintritte
 
-   >[!NOTE]
-   >
-   >Das System berücksichtigt die Priorität bevorstehender geplanter Journeys, auf die dieselbe Regel angewendet wird.
-   >
-   >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
+      1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
+      1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
 
-   +++
+     >[!AVAILABILITY]
+     >
+     >Die Dauer „Täglich“ ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
-   +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
+     In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
 
-   1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
+     ![](assets/journey-capping-entry-example.png)
 
-   1. Verwenden Sie das Feld **[!UICONTROL Vorschau der Priorisierung]**, um Journey-Eintritte basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu steuern. Dies hilft bei der Priorisierung des Eintritts in Journeys mit einem höheren Wert, wenn ein Profil für mehrere Journeys qualifiziert ist.
+     >[!NOTE]
+     >
+     >Das System berücksichtigt die Priorität bevorstehender geplanter Journeys, auf die dieselbe Regel angewendet wird.
+     >
+     >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-   In diesem Beispiel möchten wir Profile so einschränken, dass sie nicht in die Journey eintreten können, wenn sie bereits an einer Journey mit demselben Regelsatz teilnehmen. Wenn eine weitere Journey innerhalb der nächsten sieben Tage einen höheren Prioritätswert hat, tritt das Profil nicht in diese Journey ein.
++++
 
-   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+     +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
 
-   +++
+      1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
 
-1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
+      1. Verwenden Sie das Feld **[!UICONTROL Vorschau der Priorisierung]**, um Journey-Eintritte basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu steuern. Dies hilft bei der Priorisierung des Eintritts in Journeys mit einem höheren Wert, wenn ein Profil für mehrere Journeys qualifiziert ist.
 
-1. Wenn die Begrenzungsregel für die Anwendung auf Journey bereit ist, aktivieren Sie die Regel und den Regelsatz, in dem sie hinzugefügt wurde. [Erfahren Sie, wie Sie Regelsätze aktivieren](../conflict-prioritization/rule-sets.md#create)
+     In diesem Beispiel möchten wir Profile so einschränken, dass sie nicht in die Journey eintreten können, wenn sie bereits an einer Journey mit demselben Regelsatz teilnehmen. Wenn eine weitere Journey innerhalb der nächsten sieben Tage einen höheren Prioritätswert hat, tritt das Profil nicht in diese Journey ein.
+
+     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+
++++
+
+1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie sie, indem Sie auf die Schaltfläche mit Auslassungspunkten neben ihrem Namen klicken.
+
+   ![](assets/journey-capping-activate-rule.png)
+
+1. Aktivieren Sie den gesamten Regelsatz, indem Sie oben rechts im Bildschirm auf die Schaltfläche mit den Auslassungspunkten neben der Schaltfläche „Regel hinzufügen“ klicken.
+
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Anwenden von Begrenzungsregeln auf Journeys {#apply-capping}
 
@@ -103,18 +122,14 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ![](assets/journey-capping-apply.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 10 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Daher wird eine Meldung angezeigt, wenn Sie versuchen, eine Journey mit einer Startzeit von weniger als 10 Minuten zu veröffentlichen.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
-## Ausschlüsse von Regelsätzen überwachen {#monitor}
-
-Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse&rbrace; im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. Die Journey-Ausschlusstabelle enthält detaillierte Aufschlüsselungen der Ausschlüsse nach Regelsatz und Regelname, die Aufschluss darüber geben, warum Profile verworfen wurden. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
+Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie Adobe Experience Platform (Query **) nutzen** um Abfragen zu erstellen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht auf eine bestimmte Journey zugegriffen hat. Ein Abfragebeispiel ist in ([ Abschnitt) ](../reports/query-examples.md#common-queries).
-
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
