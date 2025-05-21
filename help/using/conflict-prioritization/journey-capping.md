@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
      >
      >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-+++
+     +++
 
      +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+     +++
 
 1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie sie, indem Sie auf die Schaltfläche mit Auslassungspunkten neben ihrem Namen klicken.
 
@@ -126,7 +126,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 >
 >Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
-Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
+Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse&rbrace; im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
