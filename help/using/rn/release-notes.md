@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 29%
 
 ---
@@ -257,7 +257,7 @@ Im Folgenden finden Sie die Verbesserungen dieser Version.
 
 * **Briefpost: SSH Key Support for SFTP Connections** - Verfügbarkeitsdatum: 5. Mai 2025
 
-  In der Briefpost-Datei-Routing-Konfiguration können Sie jetzt zusätzlich zum vorhandenen SFTP mit dem Authentifizierungstyp „Passwort“ Ihre Briefpostdatei an einen SFTP-Server mit SSH-Schlüsselauthentifizierung exportieren.
+  In der Briefpost-Datei-Routing-Konfiguration können Sie jetzt zusätzlich zum vorhandenen SFTP mit dem Authentifizierungstyp „Passwort“ Ihre Briefpostdatei an einen SFTP-Server mit SSH-Schlüsselauthentifizierung exportieren. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 
 * **Pillenaktivierung zur Personalisierung** - Verfügbarkeitsdatum: 5. Mai 2025
 
