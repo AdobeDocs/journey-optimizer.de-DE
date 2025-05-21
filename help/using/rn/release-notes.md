@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
+source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 29%
+source-wordcount: '667'
+ht-degree: 31%
 
 ---
 
@@ -146,27 +146,27 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Konflikt und Priorisierung</strong><br/></th>
+<th><strong>Conflict & prioritization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet jetzt mehrere Tools für das Konfliktmanagement und die Priorisierung an, die bisher nur für Organisationen mit eingeschränktem Zugriff (LA) verfügbar waren und jetzt allgemein verfügbar sind (GA).</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser Version zur allgemeinen Verfügbarkeit wurden die folgenden Verbesserungen eingeführt:</p>
+<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization - previously available only to limited-access (LA) organizations - that are now generally available (GA).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the following enhancements have been introduced:</p>
 <ul>
-<li>Erweiterte Unterstützung: Konfliktverwaltungstools unterstützen jetzt neben der Funktion „Zielgruppen-Journey lesen“ auch Journey-Journey und Zielgruppen-Qualifizierungs-Tools.</li>
-<li>Verbesserte Fehlerbehebung: Im Abfrage-Service sind jetzt zwei neue Schrittereignisfelder verfügbar, mit denen Sie analysieren können, warum ein Profil von einer Journey oder Kampagne abgelehnt wurde.</li>
-<li>Erweiterte Berichterstellung: Berichte zeigen jetzt an, welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen hat, was für mehr Transparenz und umsetzbare Einblicke sorgt.</li></ul>
+<li>Expanded Support: Conflict management tools now support both Unitary Journeys and Audience Qualification Journeys, in addition to Read audience journeys.</li>
+<li>Improved Troubleshooting: Two new step event fields are now available in the Query Service, enabling you to analyze why a profile was rejected from a journey or campaign.</li>
+<li>Enhanced Reporting: Reports now indicate which specific rule excluded a profile from a journey or campaign, providing greater transparency and actionable insights.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--<table>
 <thead>
