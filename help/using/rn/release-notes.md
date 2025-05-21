@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 31%
+source-wordcount: '757'
+ht-degree: 29%
 
 ---
 
@@ -67,23 +67,23 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Synchronize read audience schedule with batch segmentation job</strong><br/></th>
+<th><strong>Synchronisieren des Lesens des Zielgruppen-Zeitplans mit dem Batch-Segmentierungsauftrag</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger daily journey runs after batch segmentation completion. This option is now available in daily-scheduled journeys to all customers. It allows you to define for a time window of up to 6 hours to wait for audience data from batch segmentation jobs, ensuring journeys run with the most up-to-date data or are skipped if not ready.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--table>
 <thead>

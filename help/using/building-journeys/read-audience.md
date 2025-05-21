@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2168'
 ht-degree: 71%
 
 ---
@@ -172,11 +172,7 @@ Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit
 
 +++
 
-+++**[!UICONTROL Trigger nach der Batch-Zielgruppenauswertung]** (eingeschränkte Verfügbarkeit)
-
->[!AVAILABILITY]
->
->Die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
++++**[!UICONTROL Trigger nach der Batch-Zielgruppenauswertung]**
 
 Für täglich geplante Journey- und Batch-Zielgruppen können Sie ein Zeitfenster von bis zu 6 Stunden definieren, damit der Journey auf neue Zielgruppendaten aus Batch-Segmentierungsaufträgen warten kann. Wenn der Segmentierungsauftrag innerhalb des Zeitfensters abgeschlossen wird, werden die Journey-Trigger Andernfalls wird das Journey bis zum nächsten Auftreten übersprungen. Diese Option stellt sicher, dass Journey mit korrekten und aktuellen Zielgruppendaten ausgeführt werden.
 
@@ -286,4 +282,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
