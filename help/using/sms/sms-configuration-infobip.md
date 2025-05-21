@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 90%
 
 ---
 
 # Konfigurieren eines Infobip-Anbieters {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßige Einverständnisnachrichten verwendet, um den Datenschutz der Benutzenden zu berücksichtigen. Durch das Hinzufügen benutzerdefinierter Keywords werden die Standardwerte automatisch überschrieben.
+
+**Standard-Schlüsselwörter:**
+
+* **Opt-in**: ABONNIEREN, JA, UNSTOP, START, FORTSETZEN, FORTSETZEN, BEGINNEN
+* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NEIN
+* **Hilfe**: HILFE
+
+>[!ENDSHADEBOX]
 
 Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
@@ -26,7 +38,7 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
    * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Weitere Informationen finden Sie in [Dokumentation zu Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
    * **[!UICONTROL Opt-in-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **[!UICONTROL Opt-in-Nachricht]** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
 

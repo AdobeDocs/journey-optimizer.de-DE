@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL
 Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](#create-fragments) die Option [Als Fragment speichern](#save-as-fragment) erstellten Fragmente angezeigt. 
 
 Im Bereich auf der linken Seite können Sie Fragmente in Ordnern organisieren. Standardmäßig werden alle Fragmente angezeigt. Bei der Auswahl eines Ordners werden nur die Fragmente und Ordner angezeigt, die im ausgewählten Ordner enthalten sind. [Weitere Informationen](#folders)
-
->[!NOTE]
->
->Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 >id="ajo_fragments_folders"
 >title="Organisieren von Fragmenten in Ordnern"
 >abstract="Verwenden Sie Ordner, um Ihre Fragmente entsprechend den Anforderungen Ihrer Organisation zu kategorisieren und zu verwalten."
-
->[!AVAILABILITY]
->
->Fragmentordner sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
 Für eine einfache Fragmentnavigation können Sie Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihrer Organisation kategorisieren und verwalten.
 

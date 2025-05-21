@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 95%
 
 ---
@@ -25,10 +25,6 @@ Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie im linken Menü **
 Es werden alle Vorlagen angezeigt, die in der aktuellen Sandbox erstellt wurden (entweder aus einer Journey oder einer Kampagne mithilfe der Option **[!UICONTROL Als Vorlage speichern]**, oder aus dem Menü **[!UICONTROL Inhaltsvorlagen]**). [Erfahren Sie, wie Sie Vorlagen erstellen.](#create-content-templates)
 
 Im Bereich auf der linken Seite können Sie Inhaltsvorlagen in Ordnern organisieren. Standardmäßig werden alle Vorlagen angezeigt. Bei der Auswahl eines Ordners werden nur die Vorlagen und Ordner angezeigt, die im ausgewählten Ordner enthalten sind. [Weitere Informationen](#folders)
-
->[!NOTE]
->
->Ordner mit Inhaltsvorlagen sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten E
 >Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 ## Verwalten von Inhaltsvorlagen mit Ordnern {#folders}
-
->[!AVAILABILITY]
->
->Ordner mit Inhaltsvorlagen sind nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und werden schrittweise einer größeren Anzahl von Benutzenden bereitgestellt.
 
 Für eine einfache Navigation in Ihren Inhaltsvorlagen können Sie Ordner verwenden, um sie effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihrer Organisation kategorisieren und verwalten.
 

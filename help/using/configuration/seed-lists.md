@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um eine Testadressenliste zu erstellen.
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Testadressenliste erstellen]** aus.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. Füllen Sie die Details aus. Fügen Sie zunächst einen Namen hinzu.
 
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um eine Testadressenliste zu erstellen.
 
    >[!NOTE]
    >
-   >Sie können beide Optionen kombinieren, die Gesamtzahl der Adressen in einer Testadressenliste darf jedoch 50 nicht überschreiten.
+   >Sie können beide Optionen kombinieren, die Gesamtzahl der Adressen in einer Testadressenliste darf jedoch 300 nicht überschreiten.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um zu bestätigen. Die neu erstellte Testadressenliste wird im [Testadressenlisten-Bildschirm](#access-seed-lists) angezeigt.
 

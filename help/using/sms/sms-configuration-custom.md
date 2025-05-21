@@ -4,14 +4,13 @@ product: journey optimizer
 title: Konfigurieren eines benutzerdefinierten Anbieters
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten mit Journey Optimizer mit einem benutzerdefinierten Anbieter konfigurieren
 feature: SMS, Channel Configuration
-badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 38%
+source-wordcount: '1012'
+ht-degree: 21%
 
 ---
 
@@ -32,25 +31,22 @@ ht-degree: 38%
 >title="Anbieter-Payload"
 >abstract="Stellen Sie die Anfrage-Payload bereit, damit die korrekten Daten zur Verarbeitung und Antworterstellung gesendet werden."
 
->[!AVAILABILITY]
->
->Benutzerdefinierte Anbieter sind derzeit nur als Beta-Version für ausgewählte Benutzende verfügbar. Bitte wenden Sie sich an den Adobe-Support, um an der Beta teilzunehmen.
->Beachten Sie, dass diese Beta-Version keine eingehenden Nachrichten für die Verwaltung von Opt-in/Opt-out-Einverständnissen und Versandberichten unterstützt.
-
-
 Diese Funktion ermöglicht es Ihnen, Ihre eigenen SMS-Provider zu integrieren und zu konfigurieren und bietet Ihnen Flexibilität, die über die Standardanbieter (Sinch, Twilio und Infobip) hinausgeht. Dies ermöglicht nahtlose SMS-Erstellung, -Versand, -Berichterstellung und -Einverständnisverwaltung.
 
-Mit der benutzerdefinierten Provider-Konfiguration für SMS können Sie:
+Mit der benutzerdefinierten Anbieterkonfiguration für SMS können Sie benutzerdefinierte SMS-Anbieter direkt in Journey Optimizer konfigurieren, die erweiterte Payload-Anpassung für dynamisches Messaging verwenden und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um die Einhaltung der Vorgaben sicherzustellen.
 
-* Konfigurieren von benutzerdefinierten SMS-Anbietern direkt in Journey Optimizer.
-* Erweiterte Payload-Anpassung für dynamisches Messaging verwenden.
-* Verwalten Sie die Einverständnisvoreinstellungen (Opt-in/Opt-out), um die Einhaltung sicherzustellen.
+Gehen Sie wie folgt vor, um Ihren benutzerdefinierten SMS-Anbieter zu konfigurieren:
+
+1. [API-Anmeldedaten erstellen](#api-credential)
+1. [Webhook erstellen](#webhook)
+1. [Erstellen einer Kanalkonfiguration](sms-configuration-surface.md)
+1. [Erstellen von Journey oder Campaign mit SMS-Kanalaktion](create-sms.md)
 
 ## API-Anmeldedaten erstellen {#api-credential}
 
 Um Nachrichten in Journey Optimizer mit einem benutzerdefinierten Anbieter zu versenden, der nicht von Adobe bereitgestellt wird (z.B. Sinch, Infobip, Twilio), gehen Sie wie folgt vor:
 
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL API-Anmeldeinformationen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]**.
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL API-Anmeldeinformationen]** unter **[!UICONTROL SMS-Einstellungen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]**.
 
    ![](assets/sms_byo_1.png)
 
@@ -78,20 +74,9 @@ Um Nachrichten in Journey Optimizer mit einem benutzerdefinierten Anbieter zu ve
 
 1. Fügen Sie Ihre **[!UICONTROL Provider-Payload]** hinzu, um Ihre Anfrage-Payloads zu validieren und anzupassen.
 
-   Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
-<!--
-1. Add your **Inbound settings** to determine how your system handles incoming messages and subscriber preferences: 
-
-    * **[!UICONTROL Inbound Webhook URL]**: Specify the endpoint URL where inbound messages (e.g. replies or new messages from users) are sent.
-    * **[!UICONTROL Opt-in Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-In Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-in Message]**: Enter the custom response that is automatically sent as your Opt-In Message.
-    * **[!UICONTROL Opt-out Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-Out Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-out Message]**: Enter the custom response that is automatically sent as your Opt-Out Message.
--->
-
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-1. Klicken Sie im Menü **[!UICONTROL API-Anmeldedaten]** auf das Papierkorbsymbol, um Ihre API-Anmeldedaten zu löschen.
+1. Klicken Sie im Menü **[!UICONTROL API]** Anmeldedaten auf das ![bin-Symbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihre API-Anmeldedaten zu löschen.
 
    ![](assets/sms_byo_3.png)
 
@@ -99,9 +84,7 @@ Um Nachrichten in Journey Optimizer mit einem benutzerdefinierten Anbieter zu ve
 
    ![](assets/sms_byo_4.png)
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche für SMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
-
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt [die Einstellungen für den Webhook) für SMS-](#webhook) einrichten.
 
 ### Authentifizierungsoptionen für benutzerdefinierte SMS-Anbieter {#auth-options}
 
@@ -160,6 +143,59 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt haben, füllen Sie die Felder aus, di
 
 >[!ENDTABS]
 
-## Anleitungsvideo {#video}
+## Webhook erstellen {#webhook}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443615?captions=ger)
+>[!BEGINSHADEBOX]
+
+Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßige Einverständnisnachrichten verwendet, um den Datenschutz der Benutzenden zu berücksichtigen. Durch das Hinzufügen benutzerdefinierter Keywords werden die Standardwerte automatisch überschrieben.
+
+**Standard-Schlüsselwörter:**
+
+* **Opt-in**: ABONNIEREN, JA, UNSTOP, START, FORTSETZEN, FORTSETZEN, BEGINNEN
+* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NEIN
+* **Hilfe**: HILFE
+
+>[!ENDSHADEBOX]
+
+Nachdem Ihre API-Anmeldeinformationen erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren. Diese Konfiguration stellt sicher, dass Ihr System eingehende Daten oder Nachrichten ordnungsgemäß empfangen und verarbeiten kann.
+
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Konfigurieren Sie Ihre Webhook-Einstellungen, wie unten beschrieben:
+
+   * **[!UICONTROL Name]**: Geben Sie einen Namen für Ihren Webhook ein.
+
+   * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
+
+   * **[!UICONTROL API-Anmeldeinformationen auswählen]**: Wählen Sie aus der Dropdown-Liste, die Sie [zuvor konfigurierte API-Anmeldeinformationen](#api-credential).
+
+   * **[!UICONTROL Opt-in-Schlüsselwörter]**: Geben Sie die standardmäßigen oder benutzerdefinierten Schlüsselwörter ein, durch die Ihre Opt-in-Nachricht automatisch in einen Trigger umgewandelt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+
+   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-in-Nachricht gesendet wird.
+
+   * **[!UICONTROL Opt-out-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Opt-out-Nachricht automatisch in Trigger gesetzt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+
+   * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird.
+
+   ![](assets/sms_byo_6.png)
+
+1. Klicken Sie **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
+
+   Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
+
+1. Klicken Sie **[!UICONTROL Senden]** wenn Sie die Konfiguration Ihres Webhooks abgeschlossen haben.
+
+1. Klicken Sie im **[!UICONTROL Webhooks]** auf das ![bin-Symbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren Webhook zu löschen.
+
+1. Um die vorhandene Konfiguration zu ändern, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
+
+1. Greifen Sie auf Ihre neue (Webhook **[!UICONTROL URL zu und kopieren Sie]** von Ihrem zuvor gesendeten **[!UICONTROL Webhook]**.
+
+   ![](assets/sms_byo_7.png)
+
+Nachdem Sie die Einstellungen für den eingehenden Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen.
+
+Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2378'
-ht-degree: 98%
+source-wordcount: '2390'
+ht-degree: 97%
 
 ---
 
@@ -212,8 +212,11 @@ ht-degree: 98%
 + Konflikt-Management und Priorisierung {#conflict-prioritization}
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
-   + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
-   + [Journey-Begrenzung und Arbitration](using/conflict-prioritization/journey-capping.md)
+   + [Prioritätswerte zuweisen](using/conflict-prioritization/priority-scores.md)
+Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
+      + [Arbeiten mit Regelsätzen](using/conflict-prioritization/rule-sets.md)
+      + [Journey-Begrenzung und -Steuerung](using/conflict-prioritization/journey-capping.md)
+      + [Frequenzlimitierung nach Kanal und Kommunikationstyp](using/conflict-prioritization/channel-capping.md)
 + Testen und Genehmigen {#test}
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
@@ -730,7 +733,6 @@ ht-degree: 98%
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Geschäftsregeln](using/configuration/frequency-rules.md)
-   + [Arbeiten mit Regelsätzen](using/configuration/rule-sets.md)
 + Journey-Konfiguration {#configure-journeys}
    + [Konfigurieren von Datenquellen, Ereignissen und Aktionen](using/configuration/about-data-sources-events-actions.md)
    + Ereigniskonfiguration {#events-journeys}

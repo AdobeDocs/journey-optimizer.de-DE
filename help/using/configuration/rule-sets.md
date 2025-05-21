@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '2045'
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
+source-wordcount: '1960'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Zusätzlich zu den globalen Geschäftsregeln, die die Anzahl der Nachrichten ein
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 ### Berechtigungen {#permissions-frequency-rules}
 
@@ -46,7 +46,7 @@ Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt]
 
 Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
 
-Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Geschäftsregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Geschäftsregeln arbeitet](../configuration/rule-sets.md)
+Dieser Regelsatz enthält globale Regeln, die Sie anwenden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Dies ähnelt der Funktionsweise der aktuellen Geschäftsregeln. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. [Erfahren Sie, wie man mit Geschäftsregeln arbeitet](../conflict-prioritization/rule-sets.md)
 
 Zusätzlich zu diesem „Globalen Standardregelsatz“ können Sie **benutzerdefinierte Regelsätze** erstellen, die Sie auf jede Kampagne anwenden können, um die Anzahl der innerhalb dieser Kampagne gesendeten Nachrichten zu beschränken. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
 
@@ -63,10 +63,6 @@ Beim Erstellen eines Regelsatzes müssen Sie angeben, ob die Regeln im Regelsatz
 
 * **Kanal**-Domain: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * **Journey**-Domain: Wenden Sie Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
-
->[!AVAILABILITY]
->
->Während **Kanal**-Domain-Regelsätze für alle Benutzenden verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Erstellen Ihres ersten benutzerdefinierten Regelsatzes {#create-rule-set}
 
@@ -87,10 +83,6 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 1. Wählen Sie die Domain des Regelsatzes aus. Mithilfe der Domain können Sie festlegen, ob der Regelsatz Begrenzungsregeln enthält, die für Kommunikationskanäle oder Journeys spezifisch sind. [Weitere Informationen zu Begrenzungsregeln für Kanäle und Journeys](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >Während **Kanal**-Domain-Regelsätze für alle Benutzenden verfügbar sind, sind **Journey**-Domain-Regelsätze nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -139,10 +131,6 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 1. Legen Sie über die Dropdown-Liste **[!UICONTROL Dauer]** fest, ob die Begrenzung monatlich, wöchentlich oder täglich angewendet werden soll. Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
 
    ![](assets/rule-set-capping-duration.png)
-
-   >[!AVAILABILITY]
-   >
-   >Die Dauer „Täglich“ ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
@@ -324,4 +312,4 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
