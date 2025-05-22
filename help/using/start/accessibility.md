@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Erfahren Sie mehr über das Engagement von Adobe für Barrierefreiheit auf der Seite [Barrierefreiheit in Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Um die Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.[
+Um die Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer[&#128279;](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
 
 Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
