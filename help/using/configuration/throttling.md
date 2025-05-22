@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 82%
+source-wordcount: '1025'
+ht-degree: 81%
 
 ---
 
@@ -79,6 +79,10 @@ Beispiel:
   "maxThroughput": 4000
 }
 ```
+
+>[!IMPORTANT]
+>
+>Die Konfiguration ist erst aktiv, nachdem der Endpunkt **deploy“ aufgerufen**.
 
 ## Fehler
 
