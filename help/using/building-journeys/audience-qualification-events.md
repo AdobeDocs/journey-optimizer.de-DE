@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Ku
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 ### Wichtige Hinweise {#important-notes-segment-qualification}
 
@@ -127,7 +127,7 @@ Bei Verwendung der Zielgruppenqualifizierung für Streaming-Zielgruppen besteht 
 
 Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
+Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### So vermeiden Sie Überlastungen {#overloads-speed-segment-qualification}
 
@@ -137,9 +137,9 @@ Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizieru
 
 ![](assets/segment-error.png)
 
-Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target="_blank"}. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
+Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen zur [Journey Optimizer-Begrenzungs-API](../configuration/capping.md). Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-Bevor Sie die Zielgruppe in einer Produktions-Journey verwenden, sollten Sie immer zuerst die Anzahl der Personen auswerten, die sich für diese Zielgruppe täglich qualifizieren. Wählen Sie dazu das Menü **[!UICONTROL Zielgruppen]** aus, öffnen Sie die Zielgruppe und sehen Sie sich dann das Diagramm **[!UICONTROL Profile im Zeitverlauf]** an.
+Bevor Sie die Zielgruppe auf einer Journey verwenden, sollten Sie immer zuerst die Anzahl der Personen auswerten, die sich täglich für diese Zielgruppe qualifizieren. Wählen Sie dazu das Menü **[!UICONTROL Zielgruppen]** aus, öffnen Sie die Zielgruppe und sehen Sie sich dann das Diagramm **[!UICONTROL Profile im Zeitverlauf]** an.
 
 ![](assets/segment-overload.png)
 
@@ -147,4 +147,4 @@ Bevor Sie die Zielgruppe in einer Produktions-Journey verwenden, sollten Sie imm
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
