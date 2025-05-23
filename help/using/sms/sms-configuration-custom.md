@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 21%
 
 ---
@@ -198,4 +198,8 @@ Nachdem Ihre API-Anmeldeinformationen erfolgreich erstellt wurden, besteht der n
 Nachdem Sie die Einstellungen für den eingehenden Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen.
 
 Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+
+## Anleitungsvideo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
 
