@@ -30,7 +30,7 @@ Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Se
 
 Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, indem Sie dynamische Medien aus Adobe Experience Manager as a Cloud Service direkt in Ihre Journey Optimizer-Inhalte einfügen.  Anschließend können Sie bei Bedarf die Größe ändern, zuschneiden, Verbesserungen und andere Anpassungen vornehmen.
 
-Beachten Sie, dass Dynamic Media sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) als auch [mit OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) verfügbar ist.
+Beachten Sie, dass Dynamic Media sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7) als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) verfügbar ist.
 
 1. Ziehen Sie eine **[!UICONTROL HTML-Komponente]** per Drag-and-Drop in Ihren Inhalt.
 
@@ -64,7 +64,7 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 
 ![](assets/dynamic-media-layout-1.png)
 
-Beachten Sie, dass **Personalisierung von Textüberlagerung** ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) ist. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
+Beachten Sie, dass **Personalisierung von Textüberlagerung** ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7) ist. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
 
 1. Ziehen Sie eine **[!UICONTROL HTML-Komponente]** per Drag-and-Drop in Ihren Inhalt.
 
@@ -103,7 +103,7 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
-Beachten Sie, **„Dynamic Media-Vorlage** ausschließlich im Dynamic Media [Scene7-Modus“ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
+Beachten Sie, **„Dynamic Media-Vorlage** ausschließlich im Dynamic Media [Scene7-Modus“ ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
 
 Erfahren Sie mehr über [Dynamic Media-Vorlagen](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
 
