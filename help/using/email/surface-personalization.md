@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
+source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 90%
+source-wordcount: '1169'
+ht-degree: 99%
 
 ---
 
 # Personalisieren der Einstellungen der E-Mail-Konfiguration {#surface-personalization}
 
-Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie mit [!DNL Journey Optimizer] beim Erstellen von E-Mail-Konfigurationen personalisierte Werte für Subdomains, Header und URL-Tracking-Parameter definieren.
+Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglicht [!DNL Journey Optimizer] die Definition personalisierter Werte für Subdomains, Header und URL-Tracking-Parameter beim Erstellen von E-Mail-Konfigurationen.
 
 ## Hinzufügen von dynamischen Subdomains {#dynamic-subdomains}
 
@@ -124,19 +124,19 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 >
 >Wenn Sie Ihrer Konfiguration eine oder mehrere dynamische Subdomains hinzugefügt haben, werden die Suffixe **Von-E-Mail** und **Fehler-E-Mail** basierend auf der aufgelösten [dynamischen Subdomain](#dynamic-subdomains) gefüllt.
 
-## Personalisiertes URL-Tracking verwenden {#personalize-url-tracking}
+## Verwenden von personalisiertem URL-Tracking {#personalize-url-tracking}
 
 Gehen Sie wie folgt vor, um personalisierte URL-Tracking-Parameter zu verwenden.
 
-1. Gehen Sie zum Abschnitt **[!UICONTROL URL-Tracking]** Parameter Ihrer E-Mail-Kanalkonfiguration.
+1. Gehen Sie zum Abschnitt **[!UICONTROL URL-Tracking-Parameter]** Ihrer E-Mail-Kanalkonfiguration.
 
-1. Klicken Sie auf das Symbol Bearbeiten neben jedem Feld. Zusätzlich zu den kontextuellen Attributen können Sie Profilattribute auswählen.
+1. Klicken Sie auf das Symbol „Bearbeiten“ neben den einzelnen Feldern. Zusätzlich zu den kontextuellen Attributen können Sie Profilattribute auswählen.
 
-1. Wählen Sie im Personalisierungseditor das Profilattribut Ihrer [ aus](../personalization/personalization-build-expressions.md).
+1. Wählen Sie im [Personalisierungseditor](../personalization/personalization-build-expressions.md) das gewünschte Profilattribut aus.
 
-1. Wiederholen Sie die obigen Schritte für jeden Tracking-Parameter, den Sie personalisieren möchten.
+1. Wiederholen Sie die obigen Schritte für jeden Tracking-Parameter, der personalisiert werden soll.
 
-Wenn die E-Mail gesendet wird, wird der personalisierte Parameter nun automatisch an das Ende der URL angehängt. Sie können diesen Parameter dann in Web-Analysewerkzeugen oder in Performance-Berichten erfassen.
+Wenn die E-Mail gesendet wird, wird der personalisierte Parameter nun automatisch an das Ende der URL angehängt. Sie können diesen Parameter dann in Web-Analyse-Tools oder in Leistungsberichten erfassen.
 
 ## Anzeigen der Konfigurationsdetails {#view-surface-details}
 
@@ -166,7 +166,7 @@ Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können 
 
 >[!NOTE]
 >
->Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+>Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
 
 Gehen Sie wie folgt vor, um die Vorschau von Inhalten mithilfe von Testprofilen anzuzeigen:
 

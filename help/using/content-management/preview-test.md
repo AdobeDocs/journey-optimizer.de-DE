@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 65%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 100%
 >title="Überprüfen des Inhalt-Renderings"
 >abstract="Nachdem Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
-## Informationen zu Vorschau und Test {#about}
-
 Sobald der Inhalt der definiert wurde, können Sie ihn vor dem Senden der Nachricht in der Vorschau anzeigen. Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl im Inhalt als auch in den Personalisierungseinstellungen.
 
 Darüber hinaus können Sie auch Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen bzw. Empfänger oder Abonnentinnen bzw. Abonnenten zum Testen und Validieren senden sowie ihr Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients überprüfen.
@@ -34,48 +32,40 @@ Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simuliere
 
 ![](../email/assets/email-preview-button.png)
 
-Beachten Sie, dass über die Berechtigung „**[!DNL Manage Simulate Content]**“ im Produktprofil „**[!DNL Content Library Manager]**“ verfügen müssen. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
+## Testen mit Testprofildaten oder Beispieleingabedaten {#methods}
 
+Journey Optimizer bietet zwei Erlebnisse zum Testen von Inhalten:
 
->[!CAUTION]
->
->* Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](../personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
->
->* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zu bedingtem Inhalt finden Sie auf [dieser Seite](../personalization/dynamic-content.md).
+* **Testen von Inhalten mithilfe von Testprofildaten**
 
+  Sie können Testprofile verwenden, um eine Vorschau Ihres Inhalts anzuzeigen, E-Mail-Testsendungen durchzuführen und das E-Mail-Rendering zu überprüfen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese angezeigt werden. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-## Testen mit Testprofilen oder Beispieleingabedaten {#methods}
+  ➡️ [Testprofile auswählen](test-profiles.md)
+➡️ [Vorschau mit Testprofilen](preview.md)
+➡️ [E-Mail-Testsendungen durchführen](proofs.md)
+➡️ [Überprüfen des E-Mail-Renderings](rendering.md)
+➡️ [Vorschau und Testversand Ihrer E-Mail (Video)](#video-preview)
 
-Sie können Ihre Inhalte wie folgt in der Vorschau anzeigen und testen:
+* **Testen von Inhaltsvarianten mit Beispieleingabedaten**
 
-* **Testprofile**
-
-  Verwenden Sie Testprofile, um eine Vorschau Ihres Inhalts anzuzeigen, einen E-Mail-Testversand durchzuführen und das E-Mail-Rendering zu überprüfen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden. Weitere Informationen finden Sie in den folgenden Abschnitten:
-
-  ➡️ [Auswählen von Testprofilen](test-profiles.md)
-
-  ➡️ [Vorschau des Inhalts mithilfe von Testprofilen](preview.md)
-
-  ➡️ [Senden von E-Mail-Testsendungen](proofs.md)
-
-  ➡️ [Überprüfen von E-Mail-Rendering](rendering.md)
-
-  ➡️ [Vorschau und Durchführen eines Testversands einer E-Mail (Video)](#video-preview)
-
-* **Beispieleingabedaten**
-
-  Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden.
+  [!DNL Journey optimizer] können Sie Testsendungen für verschiedene Varianten Ihres Inhalts mithilfe von Beispieleingabedaten, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden, in der Vorschau anzeigen und senden.
 
   Alle Profilattribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.
 
-  ➡️ [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+  ➡️ [Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
 
-  >[!NOTE]
-  >
-  >Diese Funktionen stehen derzeit allen Kundinnen und Kunden als öffentliche Beta-Version nur für die Kanäle für E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.
+## Wichtige Informationen
+
+* **Erforderliche**: Die **[!DNL Manage Simulate Content]** Berechtigung muss im **[!DNL Content Library Manager]**-Produktprofil enthalten sein. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
+
+  Um Testsendungen durchführen zu können, benötigen Sie die Berechtigungen **Genehmigen und veröffentlichen** für die spezifische Ressource (Kampagne oder Journey), die mit der E-Mail verknüpft ist. Um Testsendungen in einer Journey durchzuführen, ist außerdem die Berechtigung **Journey veröffentlichen** erforderlich. [Erfahren Sie mehr über Berechtigungen](../administration/ootb-permissions.md).
+
+* **Personalization mit Kontextdaten** - Bei der Vorschau einer Nachricht oder dem Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. Weitere Informationen hierzu finden [ in diesem Anwendungsbeispiel](../personalization/personalization-use-case.md).
+
+* **Vorschau von Inhalten mit mehreren bedingten Varianten** - Bei der Simulation oder dem Rendern von Korrekturabzügen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zu bedingtem Inhalt finden Sie auf [dieser Seite](../personalization/dynamic-content.md).
 
 ## Anleitungsvideo {#video-preview}
 
 Erfahren Sie, wie Sie mit Testprofilen das E-Mail-Rendering über Postfächer hinweg testen, personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430337?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

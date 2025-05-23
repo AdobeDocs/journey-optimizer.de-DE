@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prüfen und Testen von WhatsApp-Nachrichten
-description: Erfahren Sie, wie Sie Ihre WhatsApp-Nachrichten in Journey Optimizer überprüfen und senden.
+title: Überprüfen und Testen Ihrer WhatsApp-Nachrichten
+description: Erfahren Sie, wie Sie Ihre WhatsApp-Nachrichten in Journey Optimizer überprüfen und senden können.
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -10,29 +10,30 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 75%
+source-wordcount: '266'
+ht-degree: 93%
 
 ---
 
-# Überprüfen und Senden von WhatsApp-Nachrichten {#send-whatsapp}
+# Überprüfen und Senden Ihrer WhatsApp-Nachrichten {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
 **Inhaltsverzeichnis**
 
 * [Erste Schritte mit WhatsApp-Nachrichten](get-started-whatsapp.md)
-* [Erste Schritte mit der WhatsApp-Konfiguration](whatsapp-configuration.md)
+* [Erste Schritte bei der WhatsApp-Konfiguration](whatsapp-configuration.md)
 * [Erstellen einer WhatsApp-Nachricht](create-whatsapp.md)
-* **[Überprüfen und senden Sie Ihre WhatsApp-Nachrichten](send-whatsapp.md)**
+* **[Überprüfen und Senden Ihrer WhatsApp-Nachrichten](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
-## Vorschau Ihrer WhatsApp-Nachricht {#preview-whatsapp}
+## Anzeigen einer Vorschau Ihrer WhatsApp-Nachricht {#preview-whatsapp}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
 
@@ -46,7 +47,7 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
 * **Fehler** hindern Sie daran, die Journey zu testen oder zu aktivieren oder die Kampagne zu veröffentlichen, bis sie behoben sind. Eine Fehlermeldung warnt Sie zum Beispiel, wenn die Betreffzeile fehlt.
 
-## Senden von WhatsApp-Nachrichten {#whatsapp-send}
+## Senden Ihrer WhatsApp-Nachrichten {#whatsapp-send}
 
 >[!IMPORTANT]
 >

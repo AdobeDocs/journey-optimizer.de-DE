@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
+source-git-commit: 81de8502ce061ee2d0bb97e4a35c3f76c4425a08
 workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 98%
@@ -46,7 +46,7 @@ ht-degree: 98%
    + Erstellen einer Journey{#create-journey}
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
-      + [Journey-Metriken konfigurieren und verfolgen](using/building-journeys/success-metrics.md)
+      + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Simulieren der Journey](using/building-journeys/journey-simulation.md)
@@ -77,7 +77,7 @@ ht-degree: 98%
       + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
       + [Arbeiten mit dem erweiterten Ausdruckseditor](using/building-journeys/expression/expressionadvanced.md)
-      + Aufbau {#syntax}
+      + Syntax {#syntax}
          + [Syntax des erweiterten Ausdruckseditors](using/building-journeys/expression/generalities.md)
          + [Bedingte Anweisung](using/building-journeys/expression/conditional-instruction.md)
          + [Datentypen](using/building-journeys/expression/data-types.md)
@@ -135,7 +135,7 @@ ht-degree: 98%
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
-         + Mathematisch {#math}
+         + Math {#math}
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + String {#string}
@@ -200,7 +200,7 @@ ht-degree: 98%
    + Nachrichten {#messages}
       + [Kanalaktionen](using/ms/activities/channels.md)
       + [Personalisieren von Inhalten](using/ms/ms-personalization.md)
-      + [Testen und Validieren von Nachrichten ](using/ms/ms-proofs.md)
+      + [Testen und Validieren von Nachrichten](using/ms/ms-proofs.md)
    + Reporting und Überwachung {#report}
       + [Reporting](using/ms/reporting-campaigns.md)
 + Kampagnen {#campaigns}
@@ -217,11 +217,11 @@ ht-degree: 98%
 + Testen und Genehmigen {#test}
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
-      + [Auswählen der Testprofile](using/content-management/test-profiles.md)
-      + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
-      + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
+      + [Auswählen von Testprofilen](using/content-management/test-profiles.md)
+      + [Vorschau mit Testprofilen](using/content-management/preview.md)
+      + [Durchführen von Testsendungen mithilfe von Testprofildaten](using/content-management/proofs.md)
       + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
-      + [Testen von Inhalten mit Beispieleingabedaten (Beta)](using/test-approve/simulate-sample-input.md)
+      + [Inhaltsvarianten simulieren](using/test-approve/simulate-sample-input.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
       + [Erste Schritte mit Genehmigungen](using/test-approve/gs-approval.md)
@@ -235,7 +235,7 @@ ht-degree: 98%
       + [Erstellen einer E-Mail](using/email/create-email.md)
       + Gestalten von E-Mail-Inhalten {#design-email}
          + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
-         + Erstellen von Inhalten {#start-creating-content}
+         + Beginnen mit dem Erstellen von Inhalten {#start-creating-content}
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
@@ -290,11 +290,11 @@ ht-degree: 98%
          + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
          + [Erstellen einer SMS-Konfiguration](using/sms/sms-configuration-surface.md)
-   + Direkt-Mail {#direct-mail}
+   + Briefpost {#direct-mail}
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
       + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
-      + [Konfigurieren von Direkt-Mail](using/direct-mail/direct-mail-configuration.md)
+      + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
    + Web-Kanal {#web}
       + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
       + Konfigurieren des Web-Kanals {#configure-web-channel}
@@ -333,7 +333,7 @@ ht-degree: 98%
       + [Erste Schritte mit WhatsApp-Nachrichten](using/whatsapp/get-started-whatsapp.md)
       + [Konfigurieren eines WhatsApp-Kanals in Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Erstellen einer WhatsApp-Nachricht](using/whatsapp/create-whatsapp.md)
-      + [Überprüfen und Senden von WhatsApp-Nachrichten](using/whatsapp/send-whatsapp.md)
+      + [Überprüfen und Senden Ihrer WhatsApp-Nachrichten](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [Erste Schritte mit dem LINE-Kanal](using/line/get-started-line.md)
       + [Konfigurieren eines LINE-Kanals in Journey Optimizer](using/line/line-configuration.md)
@@ -403,8 +403,8 @@ ht-degree: 98%
       + [Landingpage mit KI](using/content-management/generative-lp.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
       + Marken (Beta){#brands}
-         + [Erstellen und Verwalten Ihrer Marken](using/content-management/brands.md)
-         + [Bewertung der Markenausrichtung](using/content-management/brands-score.md)
+         + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
+         + [Auswerten des Markenausrichtungswerts](using/content-management/brands-score.md)
    + Mehrsprachige Inhalte{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Erstellen eines Gebietsschemas](using/content-management/multilingual-locale.md)
@@ -502,7 +502,7 @@ ht-degree: 98%
    + Entscheidungsfindung {#experience-decisioning}
       + [Erste Schritte mit der Entscheidungsfindung](using/experience-decisioning/gs-experience-decisioning.md)
       + [Leitlinien und Einschränkungen für die Entscheidungsfindung](using/experience-decisioning/decisioning-guardrails.md)
-      + API-Verweis{#api-reference}
+      + API-Referenz{#api-reference}
          + Erstellen und Verwalten von Angebotselementen {#create-manage}
             + Entscheidungselemente{#decision-items}
                + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -599,7 +599,7 @@ ht-degree: 98%
          + [Entscheidungsdatensatz](using/offers/export-catalog/export-decisions.md)
          + [Platzierungsdatensatz](using/offers/export-catalog/export-placements.md)
          + [Fallback-Datensatz](using/offers/export-catalog/export-fallback.md)
-      + API-Verweis {#api-reference}
+      + API-Referenz {#api-reference}
          + [Erste Schritte](using/offers/api-reference/getting-started.md)
          + Erstellen und Verwalten von Angeboten mit APIs {#offers-api}
             + Platzierungen {#placements}
@@ -614,7 +614,7 @@ ht-degree: 98%
                + [Erstellen einer Entscheidungsregel](using/offers/api-reference/offers-api/decision-rules/create.md)
                + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/update.md)
                + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/decision-rules/delete.md)
-            + Sammlungsqualifizierer {#tags}
+            + Sammlungskennzeichner {#tags}
                + [Auflisten von Sammlungskennzeichnern](using/offers/api-reference/offers-api/tags/tags-list.md)
                + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/lookup.md)
                + [Erstellen eines Sammlungskennzeichners](using/offers/api-reference/offers-api/tags/create.md)
@@ -658,7 +658,7 @@ ht-degree: 98%
                   + [Erstellen einer Entscheidungsregel](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + Sammlungsqualifizierer {#tags}
+               + Sammlungskennzeichner {#tags}
                   + [Auflisten von Sammlungskennzeichnern](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [Erstellen eines Sammlungskennzeichners](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
@@ -758,12 +758,12 @@ ht-degree: 98%
       + [Drosselungs-API](using/configuration/throttling.md)
    + Senden mit Adobe-Lösungen {#adobe-solutions}
       + [Journey-Integration mit Campaign Standard](using/action/acs-action.md)
-      + [Journey-Integration mit Campaign v7/v8](using/action/acc-action.md)
+      + [Journey-Integration mit Campaign v7/v8](using/action/acc-action.md)
       + [Journey-Integration mit Marketo Engage](using/action/marketo-engage.md)
    + Sandbox-Verwaltung {#sandbox}
       + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
-   + [Konfigurieren des Quellen-Connectors](using/start/get-started-sources.md)
+   + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
 + Zugangssteuerung {#access-control}
    + Zugangssteuerung – Übersicht {#privacy}
       + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
@@ -773,7 +773,7 @@ ht-degree: 98%
    + [Verwalten von Benutzenden und Rollen](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
-+ Datenschutz    {#privacy}
++ Datenschutz {#privacy}
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
