@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 7f035141092d12af8eac96cf43c9021939a55883
+source-git-commit: 7ce241ca8ae6d2be6152a1c393a8301ce2f397a3
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 99%
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 99%
 >id="ajo_exd_config_strategies"
 >title="Definieren von Auswahlstrategien"
 >abstract="Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer Entscheidungsrichtlinie ausgewählt sind."
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=de" text="Create decision policies"-->
+
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Create decision policies"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Eingrenzen der qualifizierten Profile"
 >abstract="Die Auswahl der Angebote für diese Auswahlstrategie kann eingeschränkt werden. Standardmäßig sind alle Profile qualifiziert. Man kann jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
-<!-->>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Use audiences"
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=„Entscheidungsregeln verwenden“—>
+
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Use decision rules"-->
 
 Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer [Entscheidungsrichtlinie](create-decision.md) ausgewählt sind.
 
