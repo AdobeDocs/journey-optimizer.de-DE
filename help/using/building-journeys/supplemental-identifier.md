@@ -2,9 +2,9 @@
 title: Zusätzliche Kennung in ereignisgesteuerten Journey
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in ereignisausgelösten Journey verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einem Journey zu verwen
 
 +++ Siehe Beispiele
 
-   In einem Objekt-Array mit der zusätzlichen ID „bookingNum“ und einem Attribut auf derselben Ebene mit der Bezeichnung „bookingCountry“ durchläuft die Journey das Array-Objekt auf der Grundlage der bookingNum und erstellt für jedes Objekt eine Journey-Instanz.
+   In einem Objekt-Array mit der zusätzlichen ID `bookingNum` und einem -Attribut auf derselben Ebene namens `bookingCountry` durchläuft die Journey das Array-Objekt auf der Grundlage der bookingNum und erstellt für jedes Objekt eine Journey-Instanz.
 
    * Der folgende Ausdruck in der Bedingungsaktivität durchläuft das Objekt-Array und prüft, ob der Wert von `bookingCountry` gleich „FR“ ist:
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einem Journey zu verwen
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * Der folgende Ausdruck im E-Mail-Personalisierungseditor durchläuft das Objekt-Array, ruft das „bookingCountry“ für die aktuelle Journey-Instanz ab und zeigt es im Inhalt an:
+   * Der folgende Ausdruck im E-Mail-Personalisierungseditor iteriert durch das Objekt-Array, ruft die `bookingCountry` für die aktuelle Journey-Instanz ab und zeigt sie im Inhalt an:
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
