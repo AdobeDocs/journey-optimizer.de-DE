@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
+source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 37%
+source-wordcount: '1151'
+ht-degree: 36%
 
 ---
 
@@ -225,23 +225,23 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for event-triggered journeys</strong><br/></th>
+<th><strong>Zusätzliche ID für ereignisausgelöste Journey</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/supplemental-identifier.md">ausführlichen Dokumentation</a>.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 ### Verbesserungen {#25-05-improv}
 
