@@ -145,7 +145,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
 
 
 
