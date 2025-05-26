@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 86%
+source-wordcount: '960'
+ht-degree: 85%
 
 ---
 
@@ -52,11 +52,14 @@ Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von **[!DNL Adobe 
 
 [![Weitere Informationen](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
->[!TAB AEM-Vorlagen]
+<!--
+>[!TAB AEM Templates]
 
-Mit Adobe Journey Optimizer können Sie über Adobe Experience Manager Sites benutzerdefinierte, auf sie zugeschnittene Nachrichten erstellen. Erstellen Sie zunächst Ihre Vorlagen mithilfe der Inhaltsquellen von Adobe Experience Manager und senden Sie sie dann an Adobe Journey Optimizer. Nach der Freigabe können Sie im E-Mail-Designer von Adobe Journey Optimizer auf diese Vorlagen zugreifen, um die Erstellung und den Versand von Nachrichten an Ihre gewünschte Zielgruppe zu vereinfachen.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[![Weitere Informationen](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+[![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+-->
 
 >[!TAB AEM Fragments]
 
@@ -118,7 +121,7 @@ Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-j
 
 Verwenden Sie die Adobe Journey Optimizer-Module in Adobe Workfront, um Einträge zu erstellen, zu lesen, zu aktualisieren, zu löschen oder führen Sie einen benutzerdefinierten API-Aufruf an die Adobe Journey Optimizer-API durch.
 
-Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=de){target="_blank"}.
+Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Weitere Informationen zu Journey Optimizer und Adobe Workfront finden Sie in der [Dokumentation zu Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=de){target="_blank"}.
 
