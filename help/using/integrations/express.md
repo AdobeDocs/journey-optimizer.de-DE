@@ -5,13 +5,14 @@ title: Bearbeiten von Assets mit Adobe Express in Journey Optimizer
 description: Erste Schritte mit Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
@@ -23,11 +24,14 @@ ht-degree: 100%
 >title="Adobe Express-Integration"
 >abstract="Beginnen Sie mit der Personalisierung Ihrer Assets mit der Integration von Adobe Express. Mit dieser Funktion können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren."
 
+Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
+
+<img src="../rn/assets/do-not-localize/express_resize.gif">
+
+
 >[!AVAILABILITY]
 >
 >Die Adobe Express-Integration in Adobe Journey Optimizer ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.
-
-Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
 
 Weitere Informationen zu Adobe Express finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/express/user-guide.html).
 
@@ -145,7 +149,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
