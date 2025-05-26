@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die 
 
 Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in Journey Optimizer bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
 
-Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann die Aktivierung aufgrund von Schwankungen bei der Batch-Aufnahme verzögert sein. Für täglich geplante Journey mit Lesezugriff auf Zielgruppen können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind. Wenn der Segmentierungsauftrag nicht innerhalb des definierten Zeitfensters abgeschlossen wird, wird die Journey bis zum nächsten Auftreten übersprungen. [Erfahren Sie, wie Sie eine Journey mit Lesezugriff für Zielgruppen planen](../building-journeys/read-audience.md)
+Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann sich die Aktivierung aufgrund von Variabilität bei der Batch-Aufnahme verzögern. Für täglich geplante Journeys vom Typ „Zielgruppe lesen“ können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind. Wenn der Segmentierungsauftrag nicht innerhalb des definierten Zeitfensters abgeschlossen wird, wird die Journey bis zum nächsten Auftreten übersprungen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](../building-journeys/read-audience.md)
 
 ## Benutzerdefinierter Upload und Komposition föderierter Zielgruppen
 

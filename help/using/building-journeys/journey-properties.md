@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2395'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 88%
 
 Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie für bestehende Journeys auf das Stiftsymbol neben dem Journey-Namen, um sie zu öffnen.
 
-Definieren Sie in diesem Abschnitt den Namen der Journey, fügen Sie eine Beschreibung hinzu und legen Sie Ihre globalen Eigenschaften für die Journey fest.
+Über diesen Abschnitt können Sie den Namen der Journey definieren, eine Beschreibung hinzufügen und globale Journey-Eigenschaften festlegen.
 
 Sie haben folgende Möglichkeiten:
 
-* Weisen Sie Ihrem Journey einheitliche Adobe Experience Platform-Tags zu, um sie einfach zu klassifizieren und die Suche über die Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
-* Journey-Metriken auswählen. [Erfahren Sie, wie Sie Ihre Journey-Metriken konfigurieren und verfolgen](success-metrics.md)
-* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Details finden Sie auf [dieser Seite](entry-management.md)
-* Verwalten [Zugriff auf Daten](#manage-access)
-* Journey und Profil auswählen [Zeitzonen](#timezone)
-* Benutzerdefiniertes [Start- und Enddatum) ](#dates)
-* Definieren einer [Zeitüberschreitungsdauer](#timeout) in Journey-Aktivitäten (nur für Admin-Benutzer)
-* Konflikte überwachen und Journey mithilfe von [Tools für das Konfliktmanagement](#conflict) priorisieren
+* Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+* Auswählen von Journey-Metriken. [Weitere Informationen zum Konfigurieren und Tracking von Journey-Metriken](success-metrics.md)
+* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
+* Verwalten des [Zugriffs auf Daten](#manage-access)
+* Auswählen der [Zeitzonen](#timezone) für die Journey und das Profil
+* Festlegen benutzerdefinierter [Start- und Enddaten](#dates)
+* Definieren einer [Timeout-Dauer](#timeout) in Journey-Aktivitäten (nur für Admins)
+* Überwachen von Konflikten und Priorisieren Ihrer Journeys mithilfe von [Konflikt-Management-Tools](#conflict)
 
 ![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
@@ -78,11 +78,11 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Sie können den Zugriff auf eine Journey anhand von Zugriffsbeschriftungen einschränken.
+Sie können den Zugriff auf eine Journey anhand von Zugriffs-Labels einschränken. 
 
-Um der Journey benutzerdefinierte Datennutzungskennzeichnungen zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Zugriffskennzeichnungen verwalten]** und wählen Sie eine oder mehrere Kennzeichnungen aus.
+Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Verwalten von Zugriffs-Labels]** und wählen Sie ein oder mehrere Labels aus.
 
-[Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
+[Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
 ## Zeitzonen von Journeys und Profilen {#timezone}
 
@@ -100,24 +100,24 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Legen Sie das Enddatum der Journey fest. An diesem Datum verlassen aktive Profile automatisch die Journey entfernt und es werden keine neuen Eintritte mehr zugelassen."
+>abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum verlassen aktive Profile automatisch die Journey und es werden keine neuen Eintritte zugelassen."
 
-Standardmäßig können Profile unmittelbar nach der Veröffentlichung auf Ihren Journey zugreifen und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Standardmäßig können Profile in eine Journey sofort nach ihrer Veröffentlichung eintreten und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
-Bei Bedarf können Sie benutzerdefinierte **Startdatum** und **Enddatum“**. Dadurch können Profile an einem bestimmten Datum auf Ihren Journey zugreifen und ihn automatisch beenden, wenn das Enddatum erreicht ist.
+Bei Bedarf können Sie ein benutzerdefiniertes **Start**- und **Enddatum** festlegen. Dadurch können Profile an einem bestimmten Datum in Ihre Journey eintreten und diese bei Erreichen des Enddatums wieder automatisch verlassen.
 
-## Maximale Wartezeit {#timeout}
+## Timeout {#timeout}
 
 ### Timeout bei Journey-Aktivitäten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="Timeout oder Fehler"
->abstract="Geben Sie an, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung zu bewerten, bevor sie als Zeitüberschreitung behandelt wird. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
+>abstract="Geben Sie an, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung auszuwerten, bevor sie als Timeout behandelt wird. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung der maximalen Wartezeit einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegte Dauer der maximalen Wartezeit der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
-Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden.
+Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Maximale Wartezeit oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
@@ -250,9 +250,9 @@ Adobe Journey Optimizer verwendet Zusammenführungsrichtlinien beim Abrufen von 
 * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
 * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
-Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn mehrere Zielgruppen auf einer Journey verwendet werden (z. B. mithilfe der in [`inAudience`-Funktionen](functions/functioninaudience.md)), führt dies zu Inkonsistenzen mit der vom Journey verwendeten Zusammenführungsrichtlinie. Daher wird ein Fehler ausgelöst und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
+Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
-Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -303,9 +303,9 @@ Die folgenden Leitlinien und Einschränkungen gelten für die Ausstiegskriterien
 * Die Ausstiegskriterien sind nur im Entwurfsstadium definiert
 * Kohärenz des Journey-Namespace zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
 
-## Journey Zeitplan {#schedule}
+## Journey-Zeitplan {#schedule}
 
-Der **[!UICONTROL Zeitplan]**-Abschnitt ist nur verfügbar, wenn eine **[!UICONTROL Zielgruppe lesen]**-Aktivität auf der Arbeitsfläche abgelegt wurde. Damit können Sie Datum, Uhrzeit und Häufigkeit für die Ausführung der Journey festlegen. [Erfahren Sie, wie Sie eine Journey mit Lesezugriff für Zielgruppen planen](../building-journeys/read-audience.md)
+Der Abschnitt **[!UICONTROL Zeitplan]** ist nur dann verfügbar, wenn eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf der Arbeitsfläche abgelegt wurde. Darin können Sie Datum, Uhrzeit und Häufigkeit für die Ausführung der Journey festlegen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](../building-journeys/read-audience.md)
 
 ## Konflikt-Management {#conflict}
 

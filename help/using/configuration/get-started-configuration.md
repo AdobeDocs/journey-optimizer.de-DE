@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Konfiguration  [!DNL Journey Optimizer]  Kanälen
-description: Weitere Informationen zur Konfiguration  [!DNL Journey Optimizer]  Kanälen
+title: 'Erste Schritte bei der Kanalkonfiguration mit [!DNL Journey Optimizer] '
+description: 'Erfahren Sie mehr über die Kanalkonfiguration mit [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -10,21 +10,21 @@ feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
-# Erste Schritte mit der Konfiguration von Kanälen {#start-optimizer-configuration}
+# Erste Schritte bei der Kanalkonfiguration {#start-optimizer-configuration}
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
 
-Um Nachrichten senden zu können, müssen Sie die unten aufgeführten Konfigurationsschritte durchlaufen:
+Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte durchlaufen:
 
-1. Definieren Sie als [Adobe Journey Optimizer-](../start/path/administrator.md) Ihre Kanalkonfigurationen. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
+1. Definieren Sie als [Adobe Journey Optimizer-Systemadmin](../start/path/administrator.md) Ihre Kanalkonfigurationen. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
@@ -50,9 +50,9 @@ Um Nachrichten senden zu können, müssen Sie die unten aufgeführten Konfigurat
 
 >[!NOTE]
 >
->Bei mobilen Kanälen erleichtert die [Einrichtung von ](set-mobile-config.md)) die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen sofort in Experience Platform, Journey Optimizer und der Datenerfassung verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
+>Bei Mobile-Kanälen erleichtert die [geführte Kanaleinrichtung](set-mobile-config.md) die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
-1. Anschließend müssen Sie **Kanalkonfigurationen** erstellen, um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Erfahren Sie mehr über Kanalkonfigurationen](channel-surfaces.md)
+1. Anschließend müssen Sie **Kanalkonfigurationen** erstellen, um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Weitere Informationen zu Kanalkonfigurationen](channel-surfaces.md)
 
 1. Alternativ können Sie auch folgendermaßen vorgehen:
 

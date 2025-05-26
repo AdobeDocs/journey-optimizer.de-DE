@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -36,19 +36,19 @@ ht-degree: 70%
 
 ## Erste Schritte mit Landingpage-Subdomains {#gs-lp-subdomains}
 
-Um Landingpage[Voreinstellungen erstellen zu können](lp-presets.md) müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
+Um [Landingpage-Voreinstellungen erstellen](lp-presets.md) zu können, müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
 
 Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
-Die Konfiguration der Landingpage-Subdomain ist **in allen Umgebungen**. Daher gilt:
+Die Konfiguration der Subdomain von Landingpages ist **in allen Umgebungen gleich**. Daher gilt:
 
 * Um auf Landingpage-Subdomains zuzugreifen und diese zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Landpingpage-Subdomains]** in der Produktions-Sandbox.
 
-* Jede Änderung an einer Landingpage-Subdomain wirkt sich auch auf die Produktions-Sandboxes aus.
+* Jede Änderung an einer Landingpage-Subdomain wirkt auch auf die Produktions-Sandboxes aus.
 
 ## Verwenden einer vorhandenen Subdomain {#lp-use-existing-subdomain}
 
-Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert ist:
+Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde:
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Subdomains der Landingpage]** aus.
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    ![](assets/lp_subdomain-processing.png)
 
-   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
@@ -127,25 +127,25 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Bevor Sie diese Subdomain für Ihre Landingpages verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden**.<!--Learn more in [this section](#subdomain-validation).-->
+   Bevor Sie diese Subdomain für Ihre Landingpages verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
    Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.
 
-## Delegierung einer Subdomain aufheben {#undelegate-subdomain}
+## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
 Wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
 
-Sie müssen jedoch mehrere Schritte in der Benutzeroberfläche ausführen, bevor Sie sich an Adobe wenden.
+Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
 
 >[!NOTE]
 >
->Die Delegierung von Subdomains kann nur mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
+>Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
 
 Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
-1. Machen Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages rückgängig. [Weitere Informationen](create-lp.md#access-landing-pages)
+1. Heben Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages auf. [Weitere Informationen](create-lp.md#access-landing-pages)
 
 1. Deaktivieren Sie alle Kanalkonfigurationen, die mit der Subdomain verknüpft sind. [Weitere Informationen](../configuration/channel-surfaces.md#deactivate-a-surface)
 
@@ -157,14 +157,14 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
 -->
 
-Wenden Sie sich anschließend mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
+Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
 
-Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Domain nicht mehr auf der Subdomain-Inventarseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
 
 >[!CAUTION]
 >
 >Nachdem die Delegierung einer Subdomain aufgehoben wurde:
 >
->   * Die Kanalkonfigurationen, die diese Subdomain verwendet haben, können nicht reaktiviert werden.
+>   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
 >
->   * Die exakte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter.
+>   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.
