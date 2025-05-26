@@ -143,7 +143,7 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 >id="ajo_decisioning_capping"
 >title="Verwenden der Begrenzung"
 >abstract="Um zu vermeiden, dass Ihre Kundinnen und Kunden zu oft umworben werden, legen Sie mit einer Begrenzung fest, wie oft ein Angebot maximal unterbreitet werden kann. Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot erstellen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
 
