@@ -9,23 +9,23 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 93%
+source-wordcount: '325'
+ht-degree: 36%
 
 ---
 
 # Integrieren mit Marketo Engage {#integrating-with-marketo-engage}
 
-In Ihren Journey ist eine spezifische benutzerdefinierte Aktion verfügbar, um Adobe Journey Optimizer und Marketo Engage zu integrieren.
+Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engage. In Ihren Journey ist eine spezifische benutzerdefinierte Aktion verfügbar, um Adobe Journey Optimizer und Marketo Engage zu integrieren. Diese benutzerdefinierte Aktion unterstützt die Aufnahme von zwei wichtigen Datentypen:
 
-Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engage. Diese spezifische benutzerdefinierte Aktion in Journey Optimizer unterstützt die Aufnahme von zwei wesentlichen Datentypen:
-
-* Personen (Profile): Marketo wandelt Profile in verwertbare Erkenntnisse um.
-* Benutzerdefinierte Objekte: Passen Sie Ihre Daten mit benutzerdefinierten Objekten (z. B. Produkten) für einen personalisierten Marketing-Ansatz an.
+* **Personen** (Profile): Marketo transformiert Profile in umsetzbare Einblicke.
+* **Benutzerdefinierte Objekte**: Passen Sie Ihre Daten mit benutzerdefinierten Objekten wie Produkten für einen personalisierten Marketing-Ansatz an.
 
 ## Voraussetzungen {#prerequisites}
+
+Für diese Integration gelten die folgenden Voraussetzungen:
 
 * Die Kundeninstanz von Marketo Engage muss IMS-fähig sein.
 * Die Marketo Engage-Instanz und Adobe Experience Platform/Journey Optimizer-Instanz müssen sich in derselben IMS-Organisation befinden.
@@ -33,26 +33,28 @@ Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engag
 
 ## Konfigurieren der Aktion {#configure-marketo-action}
 
-* Navigieren Sie zu „Administration“ > „Konfigurationen“ > „Aktionen“ und klicken Sie auf „Verwalten“.
-* Klicken Sie in der Liste „Aktionen“ auf die Aktion „Erstellen“. Weitere Informationen zu benutzerdefinierten Aktionen finden Sie [hier](../building-journeys/using-custom-actions.md){target="_blank"}.
-* Geben Sie den Namen und die Beschreibung ein und wählen Sie „Adobe Marketo Engage“ als Aktionstyp aus.
+
+In Journey Optimizer müssen Sie eine benutzerdefinierte Aktion für Marketo Engage konfigurieren. Führen Sie folgende Schritte aus:
+
+1. Wählen **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus.
+1. Klicken **[!UICONTROL Abschnitt „Aktionen]** auf **[!UICONTROL Aktion erstellen]**. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
+1. Geben Sie Namen und Beschreibung ein und wählen Sie **Adobe Marketo Engage** als **Aktionstyp**
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
-* Klicken Sie für Ihre Payloads **Anfrage** und **Antwort** auf „Payload bearbeiten“.
-* Erstellen Sie für beide Ihren Payload und fügen Sie ihn in das entsprechende Popup ein.
+1. Klicken Sie auf das **Payload bearbeiten**-Symbol für Ihre **Anfrage** und **Antwort**-Payloads.
+1. Erstellen Sie für beide Ihre Payload und fügen Sie sie in das entsprechende Popup ein.
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Überprüfen und Konfigurieren von Payload-Werten
+1. Überprüfen und Konfigurieren von Payload-Werten
 Hinweis: Um Werte dynamisch zu übergeben, ändern Sie für jedes Feld **Konstante** zu **Variable**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-* Klicken Sie im Fenster „Feldkonfiguration“ auf **Speichern** und dann für Ihre benutzerdefinierte Aktion auf **Speichern**.
+1. Klicken Sie **Konfigurationsbildschirm Feld auf** Speichern“ und dann **benutzerdefinierte Aktion** Speichern“.
 
-Sie können Ihre benutzerdefinierte Aktion jetzt auf Ihrer eigenen Arbeitsfläche verwenden.
-
+Sie können jetzt Ihre benutzerdefinierte Aktion auf der Journey-Arbeitsfläche verwenden.
 
 ## Payload-Syntax {#payload-syntax}
 
@@ -109,9 +111,16 @@ Sie können Ihre benutzerdefinierte Aktion jetzt auf Ihrer eigenen Arbeitsfläch
 ```
 
 
-## Verwenden der Aktion {#engage-using}
+## Aktion verwenden {#engage-using}
 
-* Ziehen Sie die benutzerdefinierte Aktion auf die Journey-Arbeitsfläche.
-* Klicken Sie unter **Anfrageparameter** für jeden Parameter mit dynamischen Werten, die Sie in der Payload konfiguriert haben, auf „Bearbeiten“.
+Für jede konfigurierte Aktion ist eine Marketo Engage-Aktionsaktivität in der Journey-Designer-Palette verfügbar.
+
+Gehen Sie wie folgt vor, um sie zu verwenden:
+
+1. Ziehen Sie die benutzerdefinierte Aktion auf die Journey-Arbeitsfläche.
+
+1. Geben Sie den Titel und die Beschreibung dieser Aktion ein.
+
+1. Klicken Sie **Abschnitt** auf das Symbol **Bearbeiten** für jeden Parameter und wählen Sie die dynamischen Werte aus, die Sie in der Payload konfiguriert haben.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

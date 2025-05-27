@@ -9,18 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 57%
 
 ---
 
 # Integration mit Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Wenn Sie über Adobe Campaign Standard verfügen, ist eine integrierte Aktion verfügbar, die die Verbindung zu Adobe Campaign Standard ermöglicht.
-
-Mit der Transaktionsnachrichten-Funktion von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
+Wenn Sie über Adobe Campaign Standard verfügen, ist eine integrierte Aktion verfügbar, um die Verbindung zu Adobe Campaign Standard zuzulassen. Mit der Transaktionsnachrichten-Funktion von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 
 Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Optimizer angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Optimizer angezeigt, sie kann jedoch nicht verwendet werden.
 
@@ -36,9 +34,11 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 ## Konfigurieren der Aktion {#configure-action}
 
-Im Folgenden werden die Konfigurationsschritte beschrieben:
+In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
 
-1. Wählen Sie **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt.
+1. Wählen **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus.
+
+1. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt.
 
 1. Wählen Sie die integrierte **[!UICONTROL AdobeCampaignStandard]**-Aktion aus. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
@@ -52,16 +52,22 @@ Im Folgenden werden die Konfigurationsschritte beschrieben:
    >
    >Dieser Test bestätigt Folgendes:
    >
-   >Der Host ist „.campaign.adobe.com“, „.campaign-sandbox.adobe.com“, „.campaign-demo.adobe.com“, „.ats.adobe.com“ oder „.adls.adobe.com“.
+   >* Der Host ist &quot;.campaign.adobe.com“, &quot;.campaign-sandbox.adobe.com“, &quot;.campaign-demo.adobe.com“, &quot;.ats.adobe.com“ oder &quot;.adobe.com“
    >
-   >Die URL beginnt mit https.
+   >* Die URL beginnt mit https
    >
-   >Die mit dieser Adobe Campaign Standard-Instanz verknüpfte ORG ist identisch mit der ORG von Journey Optimizer.
+   >* Die mit dieser Adobe Campaign Standard-Instanz verknüpfte Organisation ist dieselbe wie die OrganizationRG von Journey Optimizer
 
-Bei der Gestaltung Ihrer Journey stehen in der Kategorie **[!UICONTROL Aktion]** drei Aktionen zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (siehe [Verwenden von Adobe Campaign-Aktionen](../building-journeys/using-adobe-campaign-standard.md)).
+Sobald diese Konfiguration abgeschlossen ist, stehen in der Kategorie **[!UICONTROL Aktion]** beim Entwerfen einer Journey drei Aktionen zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]**. [Erfahren Sie, wie Sie sie verwenden](../building-journeys/using-adobe-campaign-standard.md).
 
 ![](assets/journey58.png)
 
-Sie können das Ereignis **Reaktionen** verwenden, um auf Tracking-Daten zu reagieren, die sich auf eine Campaign Standard-Nachricht beziehen, die innerhalb derselben Journey gesendet wird. Bei Push-Benachrichtigungen können Sie auf angeklickte, gesendete oder fehlgeschlagene Nachrichten reagieren. Bei SMS-Nachrichten können Sie auf gesendete oder fehlgeschlagene Nachrichten reagieren. Bei E-Mails können Sie auf angeklickte, gesendete, geöffnete oder fehlgeschlagene Nachrichten reagieren. Siehe [Reaktionsereignisse](../building-journeys/reaction-events.md).
+Verwenden Sie **Ereignis &quot;**&quot;, um auf Tracking-Daten zu reagieren, die sich auf eine Campaign Standard-Nachricht beziehen, die innerhalb derselben Journey gesendet wird:
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Siehe [Informationen zur Konfiguration einer benutzerdefinierten Aktion](../action/about-custom-action-configuration.md).
+* Bei Push-Benachrichtigungen können Journey auf angeklickte, gesendete oder fehlgeschlagene Nachrichten reagieren.
+
+* Bei SMS-Nachrichten können Journey auf gesendete oder fehlgeschlagene Nachrichten reagieren.
+
+* Bei E-Mails können Journey auf angeklickte, gesendete, geöffnete oder fehlgeschlagene Nachrichten reagieren. [Weitere Informationen zu Reaktionsereignissen](../building-journeys/reaction-events.md).
+
+Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. [Erfahren Sie mehr über die Konfiguration benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md).

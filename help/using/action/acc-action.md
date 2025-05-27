@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 96%
+source-wordcount: '553'
+ht-degree: 67%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 96%
 >title="Aktionen in Adobe Campaign v7/v8"
 >abstract="Diese Integration ist für Adobe Campaign v7 und v8 verfügbar. Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign. Die Verbindung zwischen der Journey Optimizer- und der Campaign-Instanz wird bei der Bereitstellung von Adobe hergestellt."
 
-In Ihren Journey ist eine spezifische benutzerdefinierte Aktion verfügbar, um Adobe Journey Optimizer und Adobe Campaign v7/v8 zu integrieren.
+Wenn Sie über Adobe Campaign Classic v7 oder Campaign v8 verfügen, steht in Ihren Journey eine spezifische benutzerdefinierte Aktion zur Verfügung, um Adobe Journey Optimizer und Adobe Campaign zu integrieren. Diese Integration ermöglicht den Versand von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichten-Funktion von Adobe Campaign. Weitere Informationen finden Sie [ diesem End-to-End-Anwendungsfall](../building-journeys/ajo-ac.md).
 
-Diese Integration ist für Adobe Campaign v7/v8 ab Version 7.1 und Adobe Campaign v8 verfügbar.  Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign.
+Für jede konfigurierte Aktion ist [Campaign-Aktionsaktivität](../building-journeys/using-adobe-campaign-v7-v8.md) in der Journey-Designer-Palette verfügbar.
 
-In diesem [Abschnitt](../building-journeys/ajo-ac.md) wird ein Anwendungsfall schrittweise beschrieben.
+## Activation {#access}
 
-Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designer-Palette verfügbar. Siehe diesen [Abschnitt](../building-journeys/using-adobe-campaign-v7-v8.md).
+Wenn angefordert, wird die Verbindung zwischen der Journey Optimizer- und der Adobe Campaign-Umgebung zum Zeitpunkt der Bereitstellung von Adobe eingerichtet. Wenn Sie die Verbindung zum Zeitpunkt der Bereitstellung nicht angefordert haben, wenden Sie sich an den Adobe Journey Optimizer-Support, um die Aktivierung anzufordern. Sie müssen die folgenden Details angeben:
 
-## Zugriff {#access}
+>[!BEGINTABS]
 
-Die Verbindung zwischen den Journey Optimizer- und Campaign-Instanzen wird von Adobe bei der Bereitstellung eingerichtet, falls gewünscht. Wenn Sie die Verbindung zum Bereitstellungszeitpunkt nicht angefordert haben, wenden Sie sich an den Adobe Journey Optimizer-Support und geben Sie die folgenden Informationen an, um die Aktivierung anzufordern:
-
-Was Adobe Journey Optimizer betrifft:
+>[!TAB Für Adobe Journey Optimizer]
 
 * Organisations-ID (Adobe OrgID)
-* Sandbox
+* Sandbox-Name
 
-Was Adobe Campaign betrifft:
+>[!TAB Für Adobe Campaign]
 
-* Campaign-URL
-* RT-URL
+* Campaign-Server-URL
+* Echtzeit-Server-URL
 * Campaign-Version
+
+>[!ENDTABS]
+
 
 ## Wichtige Hinweise {#important-notes}
 
@@ -60,13 +61,13 @@ Was Adobe Campaign betrifft:
 
 ## Voraussetzungen {#prerequisites}
 
-Sie müssen in Campaign eine Transaktionsnachricht und das zugehörige Ereignis erstellen und veröffentlichen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=de#transactional-messaging){target="_blank"}.
+In Adobe Campaign müssen Sie eine Transaktionsnachricht und das zugehörige Ereignis erstellen und veröffentlichen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
-Sie können Ihre JSON-Payload entsprechend jeder Nachricht nach dem folgenden Muster aufbauen. Sie fügen diese Payload dann beim Konfigurieren der Aktion in Journey Optimizer ein (siehe unten)
+Sie können Ihre JSON-Payload entsprechend jeder Nachricht nach dem folgenden Muster aufbauen. Sie fügen diese Payload dann beim Konfigurieren der Aktion in Journey Optimizer ein (siehe unten).
 
 Siehe folgendes Beispiel:
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -79,13 +80,13 @@ Siehe folgendes Beispiel:
 
 * **channel**: der für Ihre Campaign-Transaktionsvorlage definierte Kanal
 * **eventType**: der interne Namen Ihres Campaign-Ereignisses
-* **ctx**: Variable basierend auf der Personalisierung in Ihrer Nachricht.
+* **ctx**: Variable basierend auf der Personalisierung in Ihrer Nachricht
 
 ## Konfigurieren der Aktion {#configure-action}
 
 In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
 
-1. Erstellen Sie eine neue Aktion. Siehe diesen [Abschnitt](../action/action.md).
+1. Erstellen Sie eine neue Aktion. [Weitere Informationen zu benutzerdefinierten Aktionen](../action/action.md).
 1. Geben Sie einen Namen und eine Beschreibung ein.
 1. Wählen Sie im Feld **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 1. Klicken Sie in das Feld **Payload** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
