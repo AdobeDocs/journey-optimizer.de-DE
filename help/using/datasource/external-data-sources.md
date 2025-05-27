@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1626'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_),
 
 >[!TIP]
 >
->Es wird empfohlen, mindestens eine Minute zwischen dem Ablaufzeitraum des externen API-Tokens und Ihrer Journey Optimizer-[`cacheDuration`-Einstellung zu ](#custom-authentication-access-token), insbesondere bei hoher Arbeitslast, um Abweichungen der Gültigkeit und 401-Fehler zu vermeiden.
+>Wir empfehlen einen Puffer von mindestens einer Minute zwischen dem Gültigkeitszeitraum des externen API-Tokens und Ihrer [`cacheDuration`-Einstellung in Journey Optimizer](#custom-authentication-access-token). Die gilt insbesondere bei einer hohen Arbeitsauslastung, um Gültigkeitskonflikte und 401-Fehler zu vermeiden.
 
 ## Erstellen und Konfigurieren einer externen Datenquelle {#create-ext-data-sources}
 

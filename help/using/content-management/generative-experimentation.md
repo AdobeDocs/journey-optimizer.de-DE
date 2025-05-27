@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 71%
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
 ></br>
 >
->Sie müssen einer [Benutzervereinbarung“ zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, damit Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, erhöhen Sie Ihren Inhalt mit dem KI-Assistenten in Adobe Journey Optimizer, der die Funktion für Inhaltsexperimente enthält. Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
+Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihren Inhalt mithilfe des KI-Assistenten in Adobe Journey Optimizer, der die Inhaltsexperiment-Funktion umfasst, weiterentwickeln. Mit diesem Tool können Sie mehrere Versandabwandlungen mit unterschiedlichem Inhalt definieren, um deren Leistung für Ihre Zielgruppe zu messen.
 
-1. Erstellen Sie Ihre Kampagne und verwenden Sie den KI-Assistenten, um Ihre Varianten zu generieren.
+1. Erstellen Sie Ihre Kampagne und generieren Sie Varianten mit dem KI-Assistenten.
 
    In diesem Beispiel haben wir eine Bestätigungs-E-Mail für ein Abonnement mit einem Angebots-Code generiert.
 

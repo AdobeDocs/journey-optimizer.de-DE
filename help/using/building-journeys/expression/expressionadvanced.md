@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Auf der linken Bildschirmseite werden die verfügbaren Felder und Funktionen ang
 
   >[!CAUTION]
   >
-  >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience` Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
+  >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, aber nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) in Betracht ziehen oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience`-Ausdrücke](../../building-journeys/functions/functioninaudience.md) integrieren.
 
 * **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder aus, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../../datasource/about-data-sources.md)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Ab März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Journey Optimizer]-Kampagnen und -Journeys einfach wiederzuverwenden.
 

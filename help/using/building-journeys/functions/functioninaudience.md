@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als 
 
 `inAudience('audienceName') == true` bedeutet, dass Sie eine segmentMembership mit dem Status „eingetreten“ haben. 
 
-`inAudience('audienceName') == false` bedeutet, dass Sie über eine segmentMitgliedschaft mit dem Status „beendet“ haben.
+`inAudience('audienceName') == false` bedeutet, dass Sie über eine segmentMembership mit dem Status „beendet“ verfügen.
 
 
 >[!IMPORTANT]
 >
->Wenn Sie den Namen einer bestehenden Zielgruppe ändern, werden nicht automatisch alle Verweise auf diese Zielgruppe in Ihren Journey-Ausdrücken aktualisiert. Wenn Ihr Bedingungsknoten `inAudience('oldAudienceName')` verwendet, müssen Sie den Ausdruck manuell bearbeiten, um den neuen Namen zu verwenden. Andernfalls wird die Journey-Bedingung aufgehoben.
+>Wenn Sie den Namen einer bestehenden Zielgruppe ändern, werden die Verweise auf diese Zielgruppe in Ihren Journey-Ausdrücken nicht automatisch aktualisiert. Wenn Ihr Bedingungsknoten `inAudience('oldAudienceName')` verwendet, müssen Sie den Ausdruck manuell bearbeiten, damit der neue Name verwendet wird. Andernfalls wird die Journey-Bedingung aufgehoben.
 
 ## Kategorie
 

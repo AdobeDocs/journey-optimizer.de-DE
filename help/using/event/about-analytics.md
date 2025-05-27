@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics-Integration
-description: Erfahren Sie, wie Sie Adobe Analytics-Daten in Journey Optimizer nutzen
+description: Erfahren Sie, wie Sie Adobe Analytics-Daten in Journey Optimizer nutzen.
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,15 +10,15 @@ level: Intermediate, Experienced
 keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit Adobe Analytics-Daten {#analytics-data}
 
-Sie können alle Ereignisdaten über das Verhalten im Web nutzen, die Sie bereits über Adobe Analytics oder Web SDK erfassen und an Adobe Experience Platform streamen, um Journey-Trigger zu erstellen und Erlebnisse für Ihre Kunden zu automatisieren.
+Alle Ereignisdaten zum Web-Verhalten, die in Adobe Analytics oder durch das Web SDK bereits erfasst und an Adobe Experience Platform gestreamt werden, können zum Auslösen von Journeys und zum Automatisieren von Kundenerlebnissen genutzt werden.
 
 Damit dies mit Adobe Analytics funktioniert, müssen Sie:
 
@@ -65,7 +65,7 @@ Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dok
 
 ## Aktivieren dieser Konfiguration {#activate-analytics-data}
 
-Wenden Sie sich nach dieser Konfiguration an Adobe, um Ihre Journey Optimizer-Umgebung für die Verwendung dieser Datenquelle aktivieren zu lassen. Dieser Schritt ist nur für Adobe Analytics-Datenquellen erforderlich. Um dies durchzuführen:
+Wenden Sie sich nach dieser Konfiguration an Adobe, um Ihre Journey Optimizer-Umgebung für die Verwendung dieser Datenquelle aktivieren zu lassen. Dieser Schritt ist nur für Adobe Analytics-Datenquellen erforderlich. Gehen Sie hierfür wie folgt vor:
 
 1. Rufen Sie die Datenquellen-ID ab. Diese Informationen sind in der Benutzeroberfläche verfügbar: Navigieren Sie auf der Registerkarte **Datenflüsse** des Menüs **Quellen** zu der von Ihnen erstellten Datenquelle. Am einfachsten finden Sie sie durch Filtern nach Adobe Analytics-Quellen.
 1. Wenden Sie sich mit den folgenden Informationen an die Kundenunterstützung von Adobe:

@@ -9,9 +9,9 @@ level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der Bibliothek von [Adob
 
 Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
-Die Konfiguration von Web-Subdomains ist **in allen Umgebungen**. Daher gilt:
+Die Konfiguration von Web-Subdomains ist **in allen Umgebungen gleich**. Daher gilt:
 
 * Um auf Web-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Web-Subdomains]** auf der Produktions-Sandbox.
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um auf Subdomains für Web-Erlebnisse zuzugreifen:
 
 ## Verwenden einer vorhandenen Subdomain {#web-use-existing-subdomain}
 
-Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert ist:
+Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde:
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie **[!UICONTROL Web-Einstellungen]** > **[!UICONTROL Web-Subdomains]**.
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 >title="Erstellen des passenden DNS-Eintrags"
 >abstract="Um eine neue Web-Subdomain zu konfigurieren, müssen Sie die auf der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in die Domain-Hosting-Lösung einfügen, um den passenden DNS-Eintrag zu generieren. Sobald die Prüfungen erfolgreich waren, kann die Subdomain verwendet werden, um Inhalte aus der Bibliothek von Adobe Experience Manager Assets zu veröffentlichen."
 
-Standardmäßig ermöglicht [!DNL Journey Optimizer] die Delegierung von insgesamt **bis zu 10 Subdomains** (die sowohl E-Mail- als auch Webkanäle abdecken). Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+Standardmäßig können Sie mit [!DNL Journey Optimizer] insgesamt **bis zu 10 Subdomains** delegieren (die sowohl E-Mail- als auch Web-Kanäle abdecken). Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
 
 Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren:
 
@@ -139,7 +139,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren:
 
 1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Bevor Sie diese Subdomain zum Senden von Web-Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden)** kann.
+   Bevor Sie diese Subdomain zum Senden von Web-Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann zur Erstellung von Oberflächen für Web-Kanalkonfigurationen verwendet werden.
 
@@ -150,15 +150,15 @@ Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
 
-## Delegierung einer Subdomain aufheben {#undelegate-subdomain}
+## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
 Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
 
-Sie müssen jedoch mehrere Schritte in der Benutzeroberfläche ausführen, bevor Sie sich an Adobe wenden.
+Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
 
 >[!NOTE]
 >
->Die Delegierung von Subdomains kann nur mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
+>Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
 
 Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
@@ -167,20 +167,20 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 <!--
 1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 
-1. Beenden Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
+1. Stoppen Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
 
-1. Beenden Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
+1. Stoppen Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
 
-1. Wenn die Web-Subdomain eine [neue delegierte Subdomain](#web-configure-new-subdomain) war, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
+1. Wenn es sich bei der Web-Subdomain um eine [neue delegierte Subdomain](#web-configure-new-subdomain) handelte, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
 
-Wenden Sie sich anschließend mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
+Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
 
-Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Domain nicht mehr auf der Subdomain-Inventarseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
 
 >[!CAUTION]
 >
 >Nachdem die Delegierung einer Subdomain aufgehoben wurde:
 >
->   * Die Kanalkonfigurationen, die diese Subdomain verwendet haben, können nicht reaktiviert werden.
+>   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
 >
->   * Die exakte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter.
+>   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.

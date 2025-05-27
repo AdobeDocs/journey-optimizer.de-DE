@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Beispiele für personalisierte URLs:
 
 +++E-Mail-Konfiguration
 
-Beim Erstellen einer E-Mail-Kanal-Konfiguration können Sie personalisierte Werte für Subdomains, Header und URL-Tracking-Parameter definieren. [Weitere Informationen](../email/surface-personalization.md)
+Beim Erstellen einer E-Mail-Kanalkonfiguration können Sie personalisierte Werte für Subdomains, Header und URL-Tracking-Parameter definieren. [Weitere Informationen](../email/surface-personalization.md)
 
 +++
 
@@ -89,7 +89,7 @@ Beim Erstellen einer E-Mail-Kanal-Konfiguration können Sie personalisierte Wert
 
 Im Navigationsbereich können Sie die Quelle für die Personalisierung auswählen. Verfügbare Quellen sind:
 
-* **[!UICONTROL Profilattribute]** : Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der Dokumentation des [Adobe Experience Platform-Datenmodells (XDM) beschrieben ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+* **[!UICONTROL Profilattribute]**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, wie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} beschrieben.
 * **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 * **[!UICONTROL Angebotsentscheidungen]**: Listet alle Angebote auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung mit kontextuellen Attributen finden Sie in [diesem Abschnitt](personalization-use-case.md).
@@ -103,7 +103,7 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Automatisch vervollständigen"
->abstract="Wenn diese Option über den Umschalter aktivieret ist, kann das System den Code während der Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
+>abstract="Wenn Sie diese Option aktivieren, kann das System Ihren Code während Ihrer Eingabe automatisch vervollständigen und Vorschläge unterbreiten. Diese Funktion ist nur für HTML- und Textformate verfügbar und unterstützt Profil- und Kontextattribute. Wenn der Editor über den Umschalter deaktiviert ist, stellt er stattdessen die automatische Vervollständigung von nativem HTML-Code bereit."
 
 Im zentralen Arbeitsbereich erstellen Sie Ihre Personalisierungssyntax. Um ein Attribut zur Personalisierung Ihrer Nachricht zu verwenden, suchen Sie es im linken Navigationsbereich und klicken Sie auf die Schaltfläche `+`, um es zum Ausdruck hinzuzufügen.
 
@@ -150,9 +150,9 @@ Verfügbare Optionen sind:
 
    >[!NOTE]
    >
-   >Die Pillenanzeige wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
+   >Die Pillenanzeige wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
    >
-   >Diese Option ist nur für Profilattribute, kontextuelle Attribute und Dynamic Media verfügbar.
+   >Diese Option ist nur für Profilattribute, kontextuelle Attribute und dynamische Medien verfügbar.
 
 Im Navigationsbereich stehen zusätzliche Funktionen zur Verfügung, mit denen Sie Ihren Personalisierungsausdruck erstellen können.
 

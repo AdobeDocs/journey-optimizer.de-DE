@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
    Es gibt zwei verschiedene Berichte, die von ISPs generiert werden und die Absenderinnen und Absender über die RUA/RUF-Tags in ihrer DMARC-Richtlinie empfangen können:
 
    * **Aggregierte Berichte** (RUA): Sie enthalten keine personenbezogenen Daten (PII), bei denen es sich im Sinne der DSGVO um sensible Daten handeln könnte.
-   * **Forensische Fehlerberichte** (RUF): Sie enthalten E-Mail-Adressen, bei denen es sich im Sinne der DSGVO um sensible E-Mail-Adressen handelt. Bevor Sie verwenden, überprüfen Sie intern, wie Sie mit Informationen umgehen, die DSGVO-konform sein müssen.
+   * **Forensische Fehlerberichte** (RUF): Sie enthalten E-Mail-Adressen, bei denen es sich im Sinne der DSGVO um sensible E-Mail-Adressen handelt. Prüfen Sie vor der Verwendung intern, wie mit Informationen umgegangen werden soll, die DSGVO-konform sein müssen.
 
    >[!NOTE]
    >

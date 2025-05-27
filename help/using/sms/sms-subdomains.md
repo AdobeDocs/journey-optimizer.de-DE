@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 70%
 
 ## Erste Schritte mit SMS-Subdomains {#gs-sms-mms-subdomains}
 
-Um die URLs zu Ihren SMS-/MMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie auswählen, wenn Sie [eine SMS-Konfiguration erstellen](sms-configuration.md#message-preset-sms).
+Um die URLs zu Ihren SMS/MMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie beim [Erstellen einer SMS-Konfiguration](sms-configuration.md#message-preset-sms) auswählen.
 
 Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
-Die Konfiguration von SMS-Subdomains wird **von allen Umgebungen gemeinsam genutzt**. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
+Die Konfiguration von SMS-Subdomains ist **in allen Umgebungen gleich**. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
 
 Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
 1. Nach der Übermittlung wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann zur Erstellung von Kanälen für SMS-Konfigurationen verwendet werden.
 
@@ -129,15 +129,15 @@ Bevor Sie diese Subdomain zum Senden von SMS-Nachrichten verwenden, müssen Sie 
 
 Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.
 
-## Delegierung einer Subdomain aufheben {#undelegate-subdomain}
+## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
 Wenn Sie die Delegierung einer SMS-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
 
-Sie müssen jedoch mehrere Schritte in der Benutzeroberfläche ausführen, bevor Sie sich an Adobe wenden.
+Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
 
 >[!NOTE]
 >
->Die Delegierung von Subdomains kann nur mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
+>Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
 
 Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 
@@ -146,19 +146,19 @@ Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
 <!--
 1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 
-1. Beenden Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
+1. Stoppen Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
 
-1. Beenden Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
+1. Stoppen Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
 
-1. Wenn die SMS-Subdomain eine [neue delegierte Subdomain](#sms-configure-new-subdomain) war, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
+1. Wenn es sich bei der SMS-Subdomain um eine [neue delegierte Subdomain](#sms-configure-new-subdomain) handelte, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
 
-Wenden Sie sich anschließend mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
+Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
 
-Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Domain nicht mehr auf der Subdomain-Inventarseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
 
 >[!CAUTION]
 >
 >Nachdem die Delegierung einer Subdomain aufgehoben wurde:
 >
->   * Die Kanalkonfigurationen, die diese Subdomain verwendet haben, können nicht reaktiviert werden.
->   * Die exakte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter.
+>   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
+>   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.

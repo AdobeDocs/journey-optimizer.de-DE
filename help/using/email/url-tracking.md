@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,4 +74,4 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 
 >[!NOTE]
 >
->Sie können auch dynamische, personalisierte Tracking-Parameter zu den Links im E-Mail-Inhalt hinzufügen. [Weitere Informationen](surface-personalization.md#personalize-url-tracking)
+>Sie können auch dynamische personalisierte Tracking-Parameter zu den Links im E-Mail-Inhalt hinzufügen. [Weitere Informationen](surface-personalization.md#personalize-url-tracking)

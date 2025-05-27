@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 * Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
 * Beim Testen von Journeys, die mehrere Ereignisse enthalten, müssen Sie jedes Ereignis der Reihe nach auslösen. Wird ein Ereignis zu früh (vor Abschluss des ersten Warteknotens) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* Journey Stellen Sie sicher, dass das konfigurierte Fenster [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
+* Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
 
 <!--
 * Fields from related entities are hidden from the test mode.

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen einer LINE-Nachricht
-description: Erfahren Sie, wie Sie in Journey Optimizer eine LINE-Nachricht erstellen
+description: Erfahren Sie, wie Sie in Journey Optimizer eine LINE-Nachricht erstellen.
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 71%
 
 ## Hinzufügen einer LINE-Nachricht {#create-line-journey-campaign}
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie eine LINE-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
+Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine LINE-Nachricht in einer Kampagne oder Journey hinzufügen.
 
 >[!BEGINTABS]
 
->[!TAB Fügen Sie einer Journey eine LINE-Nachricht hinzu]
+>[!TAB Hinzufügen einer LINE-Nachricht zu einer Journey]
 
-1. Öffnen Sie Ihren Journey und ziehen Sie eine **LINE**-Aktivität aus dem Bereich **Aktionen** der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine Aktivität **LINE** per Drag-and-Drop aus dem Abschnitt **Aktionen** der Palette.
 
    ![](assets/jo-line-1.png)
 
@@ -53,9 +53,9 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen in der ausgewählten Zielgruppe verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
-1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL LINE]** und wählen oder erstellen Sie eine neue Konfiguration.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL LINE]** und dann eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur LINE-Konfiguration finden [ auf dieser Seite](line-configuration.md).
+   Auf [dieser Seite](line-configuration.md) erfahren Sie mehr über die LINE-Konfiguration.
 
    ![](assets/campaign-line-1.png)
 
@@ -76,20 +76,20 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 
 >[!ENDTABS]
 
-## Definieren des LINE-Inhalts{#line-content}
+## Definieren Ihrer LINE-Inhalte{#line-content}
 
-Gehen Sie wie folgt vor, um Ihren LINE-Inhalt zu konfigurieren.
+Gehen Sie wie folgt vor, um Ihren LINE-Inhalt zu konfigurieren. 
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Textnachricht zu konfigurieren.
 
-1. Klicken Sie **[!UICONTROL Code bearbeiten]**, um JSON-Inhalte zu bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Code bearbeiten]**, um JSON-Inhalte zu bearbeiten.
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um den Inhalt Ihrer LINE-Nachricht und den personalisierten Inhalt in der Vorschau anzuzeigen.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau des Inhalts Ihrer LINE-Nachricht und der personalisierten Inhalte anzuzeigen.
 
-Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre LINE-Nachricht an Ihre Audience senden. Diese Schritte werden auf [dieser Seite](send-line.md) im Detail beschrieben.
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre LINE-Nachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite](send-line.md) im Detail beschrieben.
 
-Nach dem Versand können Sie die Wirkung Ihrer LINE in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja.md).
+Nach dem Versand können Sie die Wirkung Ihrer LINE-Nachricht in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja.md).

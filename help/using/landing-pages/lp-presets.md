@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 57%
 
 ## Erste Schritte mit Landingpage-Voreinstellungen {#gs-lp-presets}
 
-Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können. Die Voreinstellung enthält die Subdomain, die für die auf dieser Voreinstellung basierenden Landingpages verwendet werden soll.
+Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können. Die Voreinstellung umfasst die Subdomain, die für die auf dieser Voreinstellung basierenden Landingpages verwendet werden soll.
 
-Bevor Sie eine Voreinstellung erstellen, stellen Sie sicher, dass Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Erfahren Sie, wie Sie eine Landingpage-Subdomain erstellen](lp-subdomains.md).
+Stellen Sie vor dem Festlegen einer Voreinstellung sicher, dass Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Erfahren Sie, wie Sie einen Landingpage-Subdomain erstellen](lp-subdomains.md).
 
 ## Zugriff auf Landingpage-Voreinstellungen {#access-lp-presets}
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um auf Landingpage-Voreinstellungen zuzugreifen:
 
 Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
-1. Durchsuchen Sie das **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie dann **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Landingpage-Voreinstellungen]**.
+1. Navigieren Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Landingpage-Einstellungen]** > **[!UICONTROL Landingpage-Voreinstellungen]** aus.
 
 1. Wählen Sie **[!UICONTROL Landingpage-Voreinstellung erstellen]** aus.
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
 1. Geben Sie einen Namen und eine Beschreibung für die Voreinstellung ein.
 
-   Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen, Unterstriche `_`, Punkte `.` Bindestriche `-`.
+   Namen müssen mit einem Buchstaben (A–Z) beginnen und dürfen nur alphanumerische Zeichen, Unterstriche `_`, Punkte`.` und Bindestriche `-` enthalten.
 
 1. Wählen Sie aus der Dropdown-Liste eine Landingpage-Subdomain aus.
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    Die der ausgewählten Subdomain entsprechenden Einstellungen werden angezeigt.
 
-1. Sie können die Landingpage-Subdomain für die Tracking-URL auswählen, indem Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]** aktivieren. [Weitere Informationen zum Tracking](../email/message-tracking.md)
+1. Sie können die Landingpage-Subdomain als Tracking-URL auswählen, indem Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]** aktivieren. [Weitere Informationen zum Tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

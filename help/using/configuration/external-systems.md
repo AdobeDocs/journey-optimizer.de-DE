@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 >[!TIP]
 >
->Es wird empfohlen, mindestens eine Minute zwischen dem Ablaufzeitraum des externen API-Tokens und Ihrer Journey Optimizer-[`cacheDuration`-Einstellung zu ](../datasource/external-data-sources.md#custom-authentication-access-token), insbesondere bei hoher Arbeitslast, um Abweichungen der Gültigkeit und 401-Fehler zu vermeiden.
+>Wir empfehlen einen Puffer von mindestens einer Minute zwischen dem Gültigkeitszeitraum des externen API-Tokens und Ihrer [`cacheDuration`-Einstellung in Journey Optimizer](../datasource/external-data-sources.md#custom-authentication-access-token). Die gilt insbesondere bei einer hohen Arbeitsauslastung, um Gültigkeitskonflikte und 401-Fehler zu vermeiden.
 
 ## APIs für Begrenzung und Drosselung {#capping}
 

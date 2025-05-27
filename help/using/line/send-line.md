@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Überprüfen und Testen Ihrer Textnachrichten
-description: Erfahren Sie, wie Sie Ihre LINE-Nachrichten in Journey Optimizer überprüfen und senden
+description: Erfahren Sie, wie Sie Ihre LINE-Nachrichten in Journey Optimizer überprüfen und senden können.
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
-workflow-type: tm+mt
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +31,12 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. So wird beispielsweise eine Warnmeldung angezeigt, wenn Ihre Textnachricht leer ist.
 
-* **Fehler** hindern Sie daran, die Journey zu testen oder zu aktivieren oder die Kampagne zu veröffentlichen, bis sie behoben sind. Beispielsweise werden Sie durch eine Fehlermeldung gewarnt, wenn die Betreffzeile fehlt.
+* **Fehler** hindern Sie daran, die Journey zu testen oder zu aktivieren oder die Kampagne zu veröffentlichen, bis sie behoben sind. Eine Fehlermeldung warnt Sie zum Beispiel, wenn die Betreffzeile fehlt.
 
-## Senden von LINE-Nachrichten {#line-send}
+## Senden Ihrer LINE-Nachrichten {#line-send}
 
 >[!IMPORTANT]
 >
 > Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Textnachrichten senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-Wenn Ihre LINE-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
-
+Wenn Ihre LINE-Nachricht fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab, um sie zu versenden.

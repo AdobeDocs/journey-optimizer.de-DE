@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

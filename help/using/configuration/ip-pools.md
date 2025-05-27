@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

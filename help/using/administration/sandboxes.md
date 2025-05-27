@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Verwenden von Sandboxes {#using-sandbox}
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
+[!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, sogenannte Sandboxes, zu unterteilen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden. Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden Sie im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target="_blank"}.
 

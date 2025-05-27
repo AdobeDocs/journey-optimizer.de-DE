@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1752'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
    * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
    * **[!UICONTROL Impression]** (nur eingehende Kanäle): Die maximale Häufigkeit, mit der das Angebot einer Person angezeigt werden kann.
    * **[!UICONTROL Klicks]**: Die maximale Anzahl der Klicks auf das Entscheidungselement durch eine Person.
-   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, das verwendet wird, um die Anzahl der Sendevorgänge des Elements zu begrenzen. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerdefinierte Ereignisregel zu erstellen.
+   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, das verwendet wird, um die Anzahl der Sendevorgänge des Elements zu begrenzen. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform-XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
 
    >[!NOTE]
    >
@@ -165,7 +165,7 @@ Wenn Sie ein Entscheidungselement auswählen oder auf die Schaltfläche mit den 
   >
   >Nach dem Löschen sind das Entscheidungselement und sein Inhalt nicht mehr verfügbar. Diese Aktion kann nicht rückgängig gemacht werden.
 
-  Genehmigte Angebotselemente können nicht gelöscht werden, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Um sie zu löschen, ändern Sie ihren Status in „Entwurf“. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Genehmigung rückgängig machen]**.
+  Genehmigte Angebotselemente können nicht gelöscht werden, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Um sie zu löschen, ändern Sie ihren Status in „Entwurf“. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Genehmigung rückgängig machen]** aus.
 
   ![](assets/item-undo.png)
 

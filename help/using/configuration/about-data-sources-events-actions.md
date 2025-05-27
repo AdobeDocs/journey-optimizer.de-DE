@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Konfiguration, Journey, Dashboard, Datenquellen, Ereignisse, Aktionen
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 85%
 >title="Über die Journey-Konfiguration"
 >abstract="Um Nachrichten mit Journeys zu senden, müssen Sie Datenquellen, Ereignisse und Aktionen konfigurieren. Mit Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Mit Ereignissen können Sie Ihre Journeys beim Empfang eines Ereignisses auslösen. Mit benutzerdefinierten Aktionen können Sie eine Verbindung zu einem Drittanbietersystem herstellen, um Ihre Nachrichten zu senden. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie keine Aktion konfigurieren."
 
-Für das Senden von Nachrichten mit Journey müssen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfiguriert werden.
+Zum Senden von Nachrichten mit Journeys müssen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfiguriert werden.
 
 ![](assets/admin-menu.png)
 
-Sie können Verbindungen zu externen Systemen auch über benutzerdefinierte Datenquellen und Aktionen konfigurieren. Auf diese Weise können Sie beispielsweise Ihre Journey mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden. Erfahren Sie, wie [Journey Optimizer mit externen Systemen integrieren](external-systems.md).
+Sie können auch über benutzerdefinierte Datenquellen und Aktionen Verbindungen zu externen Systemen konfigurieren. Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden. Erfahren Sie mehr über das [Integrieren von Journey Optimizer mit externen Systemen](external-systems.md).
 
 ## Datenquellen {#data-sources}
 

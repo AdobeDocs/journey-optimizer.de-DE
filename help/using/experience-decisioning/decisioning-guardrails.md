@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Code-basierte Erlebnis-API-Anfrage mit Entscheidungsrichtlinie unter Verwendung der Edge-Segmentierung | 1.500 |
-| Code-basierte Erlebnis-API-Anfrage mit Entscheidungsrichtlinie, die keine Edge-Segmentierung verwendet | 5.000 |
+| API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die Edge-Segmentierung verwendet | 1.500 |
+| API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die keine Edge-Segmentierung verwendet | 5.000 |
 
 ## Elementsammlung
 

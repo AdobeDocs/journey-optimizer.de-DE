@@ -9,9 +9,9 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überpr
 
 >[!CAUTION]
 >
->Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience` Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
+>Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, aber nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) in Betracht ziehen oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience`-Ausdrücke](../../building-journeys/functions/functioninaudience.md) integrieren.
 
 **Beispiel 1:**
 
