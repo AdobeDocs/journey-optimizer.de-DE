@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
 
@@ -263,4 +263,4 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Auswählen einer Entscheidungsrichtlinie"
->abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für die richtige Zielgruppe bereitstellen."
+>abstract="Mit einer Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und für die richtige Zielgruppe bereitgestellt werden."
