@@ -9,14 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 93%
 
 ---
 
 # Integrieren mit Marketo Engage {#integrating-with-marketo-engage}
+
+In Ihren Journey ist eine spezifische benutzerdefinierte Aktion verfügbar, um Adobe Journey Optimizer und Marketo Engage zu integrieren.
 
 Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engage. Diese spezifische benutzerdefinierte Aktion in Journey Optimizer unterstützt die Aufnahme von zwei wesentlichen Datentypen:
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 >id="ajo_journey_action_acc"
 >title="Aktionen in Adobe Campaign v7/v8"
 >abstract="Diese Integration ist für Adobe Campaign v7 und v8 verfügbar. Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign. Die Verbindung zwischen der Journey Optimizer- und der Campaign-Instanz wird bei der Bereitstellung von Adobe hergestellt."
+
+In Ihren Journey ist eine spezifische benutzerdefinierte Aktion verfügbar, um Adobe Journey Optimizer und Adobe Campaign v7/v8 zu integrieren.
 
 Diese Integration ist für Adobe Campaign v7/v8 ab Version 7.1 und Adobe Campaign v8 verfügbar.  Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign.
 

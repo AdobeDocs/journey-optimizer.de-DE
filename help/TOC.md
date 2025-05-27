@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2390'
 ht-degree: 96%
 
 ---
@@ -759,9 +759,9 @@ ht-degree: 96%
       + [Capping-API](using/configuration/capping.md)
       + [Drosselungs-API](using/configuration/throttling.md)
    + Senden mit Adobe-Lösungen {#adobe-solutions}
-      + [Journey-Integration mit Campaign Standard](using/action/acs-action.md)
-      + [Journey-Integration mit Campaign v7/v8](using/action/acc-action.md)
-      + [Journey-Integration mit Marketo Engage](using/action/marketo-engage.md)
+      + [Campaign Standard in Journey](using/action/acs-action.md)
+      + [Campaign v7/v8 in Journey](using/action/acc-action.md)
+      + [Marketo Engage in Journey](using/action/marketo-engage.md)
    + Sandbox-Verwaltung {#sandbox}
       + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
