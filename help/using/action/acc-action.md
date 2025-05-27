@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 58%
+source-wordcount: '545'
+ht-degree: 57%
 
 ---
 
@@ -36,16 +36,13 @@ Wenn angefordert, wird die Verbindung zwischen der Journey Optimizer- und der Ad
 >[!TAB Für Adobe Journey Optimizer]
 
 * Organisations-ID (Adobe OrgID)
-
 * Sandbox-Name
 
 >[!TAB Für Adobe Campaign]
 
 * Campaign-Server-URL
-
 * Echtzeit-Server-URL
-
-* Campaign-Version
+* Ihre Adobe Campaign-Version
 
 >[!ENDTABS]
 
