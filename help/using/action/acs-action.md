@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 57%
+source-wordcount: '437'
+ht-degree: 52%
 
 ---
 
@@ -22,19 +22,21 @@ Wenn Sie über Adobe Campaign Standard verfügen, ist eine integrierte Aktion ve
 
 Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Optimizer angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Optimizer angezeigt, sie kann jedoch nicht verwendet werden.
 
-## Wichtige Hinweise {#important-notes}
+## Schutzmechanismen und Einschränkungen {#important-notes}
 
-* Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 4.000 Aufrufen pro 5 Minuten definiert. Dies entspricht dem offiziellen Umfang von Transaktionsnachrichten in Adobe Campaign Standard. Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Für Adobe Campaign Standard-Aktionen wird automatisch eine Begrenzungsregel von 4.000 Aufrufen pro 5 Minuten definiert. Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * Die Adobe Campaign Standard-Integration wird über eine dedizierte integrierte Aktion in der Aktionsliste eingerichtet. Dies muss für jede Sandbox konfiguriert werden.
 
 * Sie können eine Campaign Standard-Aktion nicht mit den Aktivitäten „Zielgruppen-Qualifizierung“ oder „Zielgruppe lesen“ verwenden.
 
-* Eine Journey kann nicht sowohl Nachrichten als auch Campaign Standard-Aktionen verwenden.
+* Eine Journey kann nicht sowohl [integrierte Kanalaktionen) ](../building-journeys/journeys-message.md) [Campaign Standard-Aktionen](../building-journeys/using-adobe-campaign-standard.md) verwenden.
 
 ## Konfigurieren der Aktion {#configure-action}
 
-In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
+In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren.
+
+Gehen Sie wie folgt vor, um eine Campaign Standard-Aktion zu konfigurieren:
 
 1. Wählen **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus.
 

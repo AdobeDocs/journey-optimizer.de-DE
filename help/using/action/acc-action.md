@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 67%
+source-wordcount: '543'
+ht-degree: 58%
 
 ---
 
@@ -50,13 +50,13 @@ Wenn angefordert, wird die Verbindung zwischen der Journey Optimizer- und der Ad
 >[!ENDTABS]
 
 
-## Wichtige Hinweise {#important-notes}
+## Schutzmechanismen und Einschränkungen {#important-notes}
 
 * Es gibt keine Drosselung von Nachrichten. Auf der Basis des aktuellen Campaign-SLA begrenzt das System die Anzahl der Nachrichten, die gesendet werden können, auf 4.000 pro 5 Minuten. Aus diesem Grund sollte Journey Optimizer nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht für Zielgruppen) verwendet werden.
 
-* Sie müssen für jede Vorlage, die Sie verwenden möchten, eine Aktion auf der Arbeitsfläche konfigurieren. Sie müssen für jede Vorlage, die Sie von Adobe Campaign verwenden möchten, eine Aktion in Journey Optimizer konfigurieren.
+* Pro Vorlage muss auf der Arbeitsfläche eine Aktion konfiguriert werden. Sie müssen für jede Vorlage, die Sie von Adobe Campaign verwenden möchten, eine Aktion in Journey Optimizer konfigurieren.
 
-* Es wird empfohlen, eine dedizierte Message Center-Instanz zu verwenden, die für diese Integration gehostet wird, um zu vermeiden, dass andere Campaign-Vorgänge, die Sie vielleicht gerade ausführen, beeinträchtigt werden. Der Marketing-Server kann gehostet oder On-Premise bereitgestellt werden. Der erforderliche Build ist Release Candidate 21.1 oder höher.
+* Es wird empfohlen, für diese Integration eine dedizierte Message Center- oder Managed Services-Instanz zu verwenden, um zu vermeiden, dass andere Campaign-Vorgänge, die Sie möglicherweise gerade ausführen, beeinträchtigt werden. Der Marketing-Server kann gehostet oder On-Premise.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * Es wird nicht überprüft, ob die Payload oder Campaign-Nachricht korrekt ist.
 
@@ -70,7 +70,7 @@ Sie können Ihre JSON-Payload entsprechend jeder Nachricht nach dem folgenden Mu
 
 Siehe folgendes Beispiel:
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",

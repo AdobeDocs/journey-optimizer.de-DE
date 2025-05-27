@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 36%
+ht-degree: 29%
 
 ---
 
@@ -27,8 +27,8 @@ Begeben Sie sich auf eine Reise der nahtlosen Datenintegration mit Marketo Engag
 
 Für diese Integration gelten die folgenden Voraussetzungen:
 
-* Die Kundeninstanz von Marketo Engage muss IMS-fähig sein.
-* Die Marketo Engage-Instanz und Adobe Experience Platform/Journey Optimizer-Instanz müssen sich in derselben IMS-Organisation befinden.
+* Die Kundeninstanz von Marketo Engage muss IMS-fähig sein
+* Marketo Engage-Instanz und Adobe Experience Platform/Journey Optimizer-Instanz müssen sich in derselben Organisation befinden
 * Der Kundin bzw. dem Kunden muss Zugriff auf den **MktoSync: Ingestion Service** bereitgestellt werden.
 
 ## Konfigurieren der Aktion {#configure-marketo-action}
