@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 93%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2025 veröffentlicht wurden.
 
 
-## Versionshinweise April 2025 {#25-4-rn}
+## Versionshinweise April 2025 {#25-4-rn}
 
-**Veröffentlichungsdatum**: 29.–30. April 2025
+**Veröffentlichungsdatum**: 29.–30. April 2025
 
 ### Neue Funktionen {#25-04-features}
 
-Im Folgenden finden Sie neue Funktionen dieser Version.
+Im Folgenden sind die neuen Funktionen dieser Version aufgeführt.
 
 <table>
 <thead>
@@ -37,9 +37,9 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <tbody>
 <tr>
 <td>
-<p>Es ist jetzt ein Personalisierungs-Playground verfügbar, auf dem Sie mit Personalisierungsausdrücken experimentieren können. Damit können Sie Beispielvorlagen und Payloads untersuchen, um Ihre ersten Schritte zu unternehmen und Ihre eigenen Personalisierungsausdrücke auszuprobieren.</p>
+<p>Es ist jetzt ein Personalisierungs-Playground verfügbar, in dem Sie mit Personalisierungsausdrücken experimentieren können. So können Sie Beispielvorlagen und Payloads erkunden, um erste Schritte zu unternehmen und eigene Personalisierungsausdrücke auszuprobieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/personalize.md#playground">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 24. April 2025</p>
+<p>Verfügbarkeitsdatum: Freitag, 24. April 2025</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -82,14 +82,14 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <table>
 <thead>
 <tr>
-<th><strong>LINE-Kanal </strong><br/></th>
+<th><strong>LINE-Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Adobe Journey Optimizer hat seine kanalübergreifenden Funktionen um die Unterstützung des LINE-Kanals erweitert. Diese Verbesserung ermöglicht es Ihnen, LINE-Erlebnisse zu erstellen, zu bearbeiten und in der Vorschau anzuzeigen, was eine stärker personalisierte und ansprechendere Interaktion ermöglicht. Mit LINE können Sie mit mehr Kundinnen und Kunden in Kontakt treten, relevante Inhalte versenden und Ihre Interaktion verbessern.</p>
-<p>Der LINE-Kanal ist für Adobe Journey Optimizer-Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.</p>
+<p>Der LINE-Kanal wird für Adobe Journey Optimizer-Kundinnen und -Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.</p>
 <p>Weitere Informationen finden Sie in der <a href="../line/get-started-line.md">ausführlichen Dokumentation</a>.</p></td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer lässt sich jetzt mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht den Prozess der kampagnenübergreifenden Gestaltung und Bereitstellung personalisierter Inhalte. </p>
+<p>Adobe Journey Optimizer lässt sich nun mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht die kampagnenübergreifende Gestaltung und Bereitstellung personalisierter Inhalte. </p>
 <p>Diese Integration ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
@@ -170,13 +170,13 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <table>
 <thead>
 <tr>
-<th><strong>Auslösen von täglichen Journey-Ausführungen nach Abschluss der Batch-Segmentierung (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Auslösen täglicher Journey-Ausführungen nach Abschluss der Batch-Segmentierung (eingeschränkte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für täglich geplante Journeys können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, in dem auf Zielgruppendaten aus Batch-Segmentierungsaufträgen gewartet wird. So wird sichergestellt, dass Journeys mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind. Die Option „Nach Auswertung der Batch-Zielgruppe auslösen“ ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Für täglich geplante Journeys können Sie mit einer neuen Option ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsaufträgen zu warten. So wird sichergestellt, dass die Journeys mit den neuesten Daten ausgeführt oder übersprungen werden, falls sie noch nicht bereit sind. Die Option „Nach Auswertung der Batch-Zielgruppe auslösen“ ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -212,7 +212,7 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 <tbody>
 <tr>
 <td>
-<p>Die Funktion zur Bewertung der Markenausrichtung bietet klares Feedback direkt im E-Mail-Designer, sodass Sie sehen können, ob der Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Beta-Version verfügbar.</p>
+<p>Die Funktion „Markenausrichtungswert“ liefert direkt im E-Mail-Designer klares Feedback, sodass Sie sehen können, ob der Inhalt dem Ton, dem Stil und den Richtlinien Ihrer Marke entspricht. Diese Funktion ist in der Betaversion verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/brands-score.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -242,35 +242,35 @@ Im Folgenden finden Sie neue Funktionen dieser Version.
 
 ### Verbesserungen {#25-04-improv}
 
-**Vorschau-API für Kampagnen**
+**APIs zur Kampagnenvorschau**
 
-Zusätzlich zu den vorhandenen Funktionen zum Testversand stehen neue APIs zur Verfügung, um Kampagnen in der Vorschau anzuzeigen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
+Zusätzlich zu den vorhandenen Funktionen für den Testversand stehen neue APIs zur Verfügung, um Kampagnen in einer Vorschau anzuzeigen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
-**Sandbox-Tools**
+**Sandbox-Werkzeuge**
 
-* **Sandbox-Tools für benutzerdefinierte Aktionen**
+* **Sandbox-Werkzeuge für benutzerdefinierte Aktionen**
 
-  Benutzerdefinierte Aktionen sind jetzt in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Tool-Funktion kopiert werden können, wodurch Tests und die Bereitstellung optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
+  Benutzerdefinierte Aktionen sind nun in der Liste der Adobe Journey Optimizer-Objekte enthalten, die mithilfe der Sandbox-Werkzeuge-Funktion kopiert werden können. Tests und Bereitstellungen werden dadurch optimiert. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
-* **Sandbox-Tools für Kampagnen** – Verfügbarkeitsdatum: 3. April 2025
+* **Sandbox-Werkzeuge für Kampagnen** – Verfügbarkeitsdatum: 3. April 2025
 
   Sie können nun Kampagnen über mehrere Sandboxes hinweg kopieren, indem Sie die Funktionen für den Paketexport und -import verwenden. Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Einige Elemente werden nicht kopiert, z. B. Entscheidungselemente, Datennutzungs-Labels und Spracheinstellungen. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **Personalisierung**
 
-* **Neues Kontextattribut**
+* **Neues kontextuelles Attribut**
 
-  Ein neues Kontextattribut, **Nachrichtenprofilkennung**, kann jetzt im Personalisierungseditor ausgewählt werden. Dies ist ein nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfangenden geöffneten oder angeklickten Link zu unterscheiden.
+  Ein neues kontextuelles Attribut, **Nachrichtenprofil-ID**, kann nun im Personalisierungseditor ausgewählt werden. Hierbei handelt es sich um ein nachrichtenorientiertes Attribut, das jede Nachricht, die an die einzelnen Zielprofile in einem Versand gesendet wird, eindeutig identifiziert. Diese eindeutige Kennung kann beispielsweise als URL-Tracking-Parameter verwendet werden, um jeden von Empfängerinnen und Empfängern geöffneten oder angeklickten Link zu unterscheiden.
 
-* **Ausgefüllte Attribute im Attributbereich** – Verfügbarkeitsdatum: 2. April 2025
+* **Ausgefüllte Attribute im Bereich „Attribute“** – Verfügbarkeitsdatum: 2. April 2025
 
   Im Bereich „Attribute“ des Personalisierungseditors werden nun standardmäßig nur noch ausgefüllte Attribute angezeigt. Um alle Attribute anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Nur ausgefüllte Attribute anzeigen]** mithilfe der Schaltfläche „Einstellungen“. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 **E-Mail-Kanal**
 
-* **Personalisiertes URL-Tracking** - Verfügbarkeitsdatum: 30. April 2025
+* **Personalisiertes URL-Tracking** – Verfügbarkeitsdatum: 30. April 2025
 
-  Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie jetzt alle URL-Tracking-Parameter gleichzeitig auf der Konfigurationsebene des E-Mail-Kanals personalisieren, anstatt dies für jeden Link in Ihrem Inhalt in Email Designer zu tun. [Weitere Informationen](../email/surface-personalization.md#personalize-url-tracking)
+  Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie nun alle URL-Tracking-Parameter gleichzeitig auf E-Mail-Kanal-Konfigurationsebene personalisieren. Sie müssen diesen Schritt also nicht mehr für jeden einzelnen im Inhalt vorhandenen Link im E-Mail-Designer durchführen. [Weitere Informationen](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E-Mail-Designer** – Verfügbarkeitsdatum: 1. April 2025
 
@@ -384,7 +384,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Anpassen von Dynamic Media-Vorlagen durch Aktualisieren von Inhalten und Hinzufügen von Personalisierungsfeldern</li>
 </ul>
 <p>
-<p>Diese Integration ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Diese Integration ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../integrations/aem-dynamic.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -479,13 +479,13 @@ Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../test-a
 
 Sie können jetzt die tägliche Frequenzbegrenzung in Journeys und Kampagnen mit Batch-Segmentierung verwenden. Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
-Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+Zur Erinnerung: Die tägliche Frequenzbegrenzung in Regelsätzen ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Dokumentation](../configuration/rule-sets.md).
 
 **Inhaltsvorlagen**
 
-Inhaltsvorlagen vom Typ HTML werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Weitere Informationen zu Inhaltsvorlagen](../content-management/content-templates.md)
+HTML-Inhaltsvorlagen werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Weitere Informationen zu Inhaltsvorlagen](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -532,7 +532,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisiertem Text und personalisierter Visualisierungen.</p>
+<p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisierter Texte und benutzerdefinierter visueller Elemente.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Weitere Informationen finden Sie in der <a href="../content-management/generative-lp.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -587,7 +587,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Mit der flexiblen Zielgruppenauswertung können Sie nach Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die neuesten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Weitere Informationen finden Sie in der <a href="../audience/creating-a-segment-definition.md#flexible">ausführlichen Dokumentation</a>.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Verfügbarkeitsdatum: 28. Januar 2025</p>
 </tr>
 </tbody>

@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 1. [Eine Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll. Verschlüsseln Sie die Datei bei Bedarf.
 
-1. [Eine Briefpost-Konfiguration](#direct-mail-configuration) die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
+1. [Eine Direkt-Mail-Konfiguration](#direct-mail-configuration), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen.
 
 
 >[!CAUTION]
@@ -145,7 +145,7 @@ Wenn Sie **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server-Typ]** ausg
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
 
    ![](assets/direct-mail-config-2.png)
 
-1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Legen Sie die Direkt-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest.
 

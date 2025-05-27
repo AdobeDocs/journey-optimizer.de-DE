@@ -11,7 +11,7 @@ exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -147,7 +147,7 @@ Die Tabelle **[!UICONTROL Rangfolgestrategie]** bietet Einblicke in die Leistung
 
 * **Modellgesteuert**: Benutzende erhalten für die Relevanz und Interaktion optimierte Inhalte, die vom KI-Modell nach Rang geordnet wurden.
 
-* **Holdout**: Benutzer erhalten Inhalte, die während der Explorationsphase des Modells nach dem Zufallsprinzip bereitgestellt werden.
+* **Holdout**: Benutzende erhalten Inhalte, die während der Erkundungsphase des Modells nach dem Zufallsprinzip bereitgestellt werden.
 
 Zu den angezeigten Schlüsselmetriken gehören:
 
@@ -169,7 +169,7 @@ Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten T
 
 * **Modellgesteuert**: Benutzende erhalten für die Relevanz und Interaktion optimierte Inhalte, die vom KI-Modell nach Rang geordnet wurden.
 
-* **Holdout**: Benutzer erhalten Inhalte, die während der Explorationsphase des Modells nach dem Zufallsprinzip bereitgestellt werden.
+* **Holdout**: Benutzende erhalten Inhalte, die während der Erkundungsphase des Modells nach dem Zufallsprinzip bereitgestellt werden.
 
 >[!CAUTION]
 >

@@ -11,7 +11,7 @@ exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journeys verfü
 
 >[!NOTE]
 >
->Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Ab März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    * [Definieren von Briefpost-Inhalten](../direct-mail/create-direct-mail.md)
    * [Definieren von In-App-Inhalten](../in-app/design-in-app.md)
 
-1. Sie können Ihre Inhalte testen. [Weitere Informationen](#test-template)
+1. Sie können Ihren Inhalt testen. [Weitere Informationen](#test-template)
 
 1. Sobald Ihre Vorlage fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -110,7 +110,7 @@ Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen f�
 
    >[!NOTE]
    >
-   >Der aktuelle Kanal wird automatisch ausgefüllt und kann nicht bearbeitet werden.
+   >Der aktuelle Kanal wird automatisch ausgefüllt und kann nicht bearbeitet werden. 
 
 1. Wählen oder erstellen Sie ein Adobe Experience Platform-Tag im Feld **Tags**, um Ihre Vorlage zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 

@@ -8,7 +8,7 @@ exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->Funktionen für Konflikt-Management und Priorisierung sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
+>Konflikt- und Priorisierungsfunktionen sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Da Marketing-Fachleute das Volumen von Kampagnen und Journeys in Journey Optimizer erhöhen, wird es für sie immer schwieriger zu erfahren, ob sie Ihre Kundschaft mit zu vielen Marketing-Interaktionen bombardieren. Daher ist es wichtig, dass Sie leicht erkennen können, wann es zu Überschneidungen von Kampagnen und Journeys kommt, um sicherzustellen, das richtige Gleichgewicht in der Marketing-Kommunikation zu finden und gleichzeitig das Risiko einer Ermüdung der Kundschaft zu minimieren.
 
@@ -30,7 +30,7 @@ Wichtige Bereiche, die auf mögliche Überschneidungen hin überwacht werden sol
 
 >[!NOTE]
 >
->In Kampagnen ist der Prioritätswert nur für die Web-, In-App- und Code-basierten eingehenden Kanäle verfügbar.
+>In Kampagnen ist der Prioritätswert nur für eingehende Web-, In-App- und Code-basierte Kanäle verfügbar.
 
 ➡️ [Funktion im Video kennenlernen](#video).
 

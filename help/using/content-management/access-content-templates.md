@@ -10,7 +10,7 @@ exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten E
 
 >[!NOTE]
 >
->Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Ab März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 ## Verwalten von Inhaltsvorlagen mit Ordnern {#folders}
 

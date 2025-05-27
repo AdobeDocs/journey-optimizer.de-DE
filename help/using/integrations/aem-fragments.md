@@ -18,7 +18,7 @@ ht-degree: 23%
 
 Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe Journey Optimizer können Sie jetzt Ihre AEM-Inhaltsfragmente nahtlos in Ihre Journey Optimizer-Inhalte integrieren. Diese optimierte Verbindung vereinfacht den Zugriff auf und die Nutzung von AEM-Inhalten und ermöglicht die Erstellung personalisierter und dynamischer Kampagnen und Journeys.
 
-Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"} in der Dokumentation zu Experience Manager.
+Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"} in der Dokumentation zu Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -48,9 +48,9 @@ Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Ta
 
 1. Klicken Sie auf **Erstellen**.
 
-1. Definieren Sie Ihr Inhaltsfragmentmodell, wie in der [Experience Manager-Dokumentation beschrieben](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} und weisen Sie Ihr neu erstelltes Journey Optimizer-Tag zu.
+1. Definieren Sie Ihr Inhaltsfragmentmodell, wie in der [Experience Manager-Dokumentation beschrieben](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} und weisen Sie Ihr neu erstelltes Journey Optimizer-Tag zu.
 
-Sie können jetzt mit der Erstellung und Konfiguration Ihres Inhaltsfragments zur späteren Verwendung in Journey Optimizer beginnen. Weitere Informationen finden Sie in der Dokumentation zu [Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+Sie können jetzt mit der Erstellung und Konfiguration Ihres Inhaltsfragments zur späteren Verwendung in Journey Optimizer beginnen. Weitere Informationen finden Sie in der Dokumentation zu [Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Hinzufügen von Experience Manager-Inhaltsfragmenten {#aem-add}
 
@@ -105,7 +105,7 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
    1. **Statische Zeichenfolgenzuordnung** Weisen Sie einen festen Zeichenfolgenwert zu, indem Sie ihn in doppelte Anführungszeichen setzen, z. B. name = „John“.
 
    1. **Variablenzuordnung** Verweisen Sie auf eine Variable, die zuvor innerhalb derselben HTML deklariert wurde, z. B. name = &#39;variableName&#39;.
-Stellen Sie in diesem Fall sicher&#x200B;**_dass „variableName_** deklariert wird, bevor Sie die Fragment-ID mit der folgenden Syntax hinzufügen:
+Stellen Sie in diesem Fall sicher**_dass „variableName_** deklariert wird, bevor Sie die Fragment-ID mit der folgenden Syntax hinzufügen:
 
       ```html
       {% let variableName = attribute name %} 

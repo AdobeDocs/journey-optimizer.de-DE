@@ -11,7 +11,7 @@ exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 81%
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 
 ## Wichtige Informationen
 
-* **Eine Konfiguration pro Organisation:** Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (gegeben durch `x-sandbox-name` in den Kopfzeilen).
+* **Eine Konfiguration pro Organisation:** Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (in den Headern über `x-sandbox-name` angegeben).
 * **Anwendung auf Organisationsebene:** Eine Konfiguration wird auf Organisationsebene angewendet.
-* **API-Limitverarbeitung:** Wenn das in der API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
-* **`maxHttpConnections`:** Der Parameter „maxHttpConnections“ ist ein optionaler Parameter, der in der Begrenzungs-API nur verfügbar ist und mit dem Sie die Anzahl der Verbindungen einschränken können, die Journey Optimizer für das externe System öffnen wird. [Erfahren Sie, wie Sie mit der Begrenzungs-API arbeiten](../configuration/capping.md)
+* **Umgang mit dem API-Limit:** Wenn das im API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
+* **`maxHttpConnections`-Parameter:** Der Parameter „maxHttpConnections“ ist ein optionaler Parameter im Begrenzungs-API, mit dem Sie die Anzahl der Verbindungen einschränken können, die Journey Optimizer für das externe System öffnet. [Informationen zum Arbeiten mit dem Begrenzungs-API](../configuration/capping.md)
 
-  Wenn Sie die Anzahl der Verbindungen beschränken, aber auch diese externen Aufrufe drosseln möchten, können Sie zwei Konfigurationen, eine Drosselung und eine Begrenzung, für denselben Endpunkt konfigurieren. Beide Konfigurationen können für einen Endpunkt nebeneinander bestehen. Um „maxHttpConnections“ für einen gedrosselten Endpunkt festzulegen, verwenden Sie die Drosselungs-API, um den Drosselungsschwellenwert festzulegen, und die Begrenzungs-API, um „maxHttpConnections“ festzulegen. Beim Aufrufen der Begrenzungs-API können Sie den Begrenzungsschwellenwert auf einen Wert festlegen, der höher ist als der Drosselungsschwellenwert, sodass die Begrenzungsregel effektiv nie ins Spiel kommt.
+  Wenn Sie die Anzahl der Verbindungen beschränken, aber auch diese externen Aufrufe drosseln möchten, können Sie zwei Konfigurationen für denselben Endpunkt konfigurieren – eine zur Drosselung und eine zur Begrenzung. Beide Konfigurationen können für einen Endpunkt gleichzeitig bestehen. Um „maxHttpConnections“ für einen gedrosselten Endpunkt festzulegen, verwenden Sie das Drosselungs-API, um den Drosselungsschwellenwert festzulegen, und das Begrenzungs-API, um „maxHttpConnections“ festzulegen. Beim Aufrufen des Begrenzungs-APIs können Sie den Begrenzungsschwellenwert auf einen Wert festlegen, der höher ist als der Drosselungsschwellenwert, sodass die Begrenzungsregel tatsächlich nie zur Anwendung kommt.
 
 ## Beschreibung des Drosselungs-APIs und Postman-Sammlung {#description}
 

@@ -11,8 +11,8 @@ keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 81%
+source-wordcount: '505'
+ht-degree: 95%
 
 ---
 
@@ -37,17 +37,17 @@ Mit dieser Syntax können Sie Nachrichten über mehrere Felder hinweg personalis
 
 ## Für die Personalisierung verwendete Daten
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Profil für Einzelpersonen** verwaltet werden. Das Schema **XDM-Profil für Einzelpersonen** ist das einzige Schema, das Sie zum Personalisieren von Content in [!DNL Journey Optimizer] verwenden können. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Profil für Einzelpersonen** verwaltet werden. Das Schema **XDM-Profil für Einzelpersonen** ist das einzige Schema, das Sie zum Personalisieren von Content in [!DNL Journey Optimizer] verwenden können. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 Sie können auch **berechnete Attribute** nutzen, um Ihren Content zu personalisieren. Berechnete Attribute ermöglichen es Ihnen, einzelne Verhaltensereignisse in berechnete Profilattribute zusammenzufassen, die in Adobe Experience Platform verfügbar sind. [Informationen zum Arbeiten mit berechneten Attributen](../audience/computed-attributes.md)
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen zudem, Daten aus Adobe Experience Platform im Personalisierungseditor zu nutzen, um Ihren Content zu personalisieren. Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihren Content in Journey Optimizer zu personalisieren. Diese Funktion ist derzeit in der Betaversion verfügbar. [Weitere Informationen](../personalization/lookup-aep-data.md)
 
-## Lernen und Experimentieren mit Personalisierung {#playground}
+## Personalisierung – Lernen und Experimentieren {#playground}
 
-**[!DNL Adobe Journey Optimizer]** enthält ein interaktives Tool, mit dem Sie die Personalisierungsfunktionen erlernen und experimentieren können.
+**[!DNL Adobe Journey Optimizer]** enthält ein interaktives Tool, mit dem Sie die Personalisierungsfunktionen kennenlernen und mit diesen experimentieren können.
 
-Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von Personalisierungs-Code mithilfe von Beispieldaten, ohne dass Live-Datensätze erforderlich sind. Sie können vordefinierte Code-Beispiele nutzen, Platzhalter-Profil-Payloads bearbeiten und die Ausgabe Ihres Personalisierungs-Codes in Echtzeit in einer Vorschau anzeigen.
+Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von Personalisierungs-Code mithilfe von Beispieldaten, ohne dass Live-Datensätze erforderlich sind. Sie können vordefinierte Code-Beispiele nutzen, Platzhalterprofil-Payloads bearbeiten und eine Vorschau der Ausgabe des Personalisierungs-Codes in Echtzeit anzeigen.
 
 ![Personalisierungs-Playground](assets/playground.png)
 
@@ -97,7 +97,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 

@@ -8,7 +8,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Funktionen für Konflikt-Management und Priorisierung sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
+>Konflikt- und Priorisierungsfunktionen sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an denen ein Profil teilnehmen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
@@ -27,7 +27,7 @@ Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu st
 
 >[!AVAILABILITY]
 >
->**Journey** Domain-Regelsätze sind nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>**Journey**-Domain-Regelsätze sind nur für eine begrenzte Benutzergruppe verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
@@ -45,7 +45,7 @@ Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu st
 
 Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
-1. Navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]**, um auf das Regelsatzinventar zuzugreifen.
+1. Navigieren Sie zum Menü **[!UICONTROL Geschäftsregeln]**, um auf den Regelsatzbestand zuzugreifen.
 
 1. Wählen Sie den Regelsatz aus, dem Sie die Begrenzungsregel hinzufügen möchten, oder erstellen Sie einen neuen Regelsatz:
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      >[!AVAILABILITY]
      >
-     >Die Dauer „Täglich“ ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+     >Die Dauer „Täglich“ ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
      In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
      >
      >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-     +++
++++
 
      +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-     +++
++++
 
 1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie sie, indem Sie auf die Schaltfläche mit Auslassungspunkten neben ihrem Namen klicken.
 
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 >title="Anwenden des Regelsatzes auf Journeys"
 >abstract="Regelsatz anwenden, damit ein Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von dieser Journey ausgeschlossen wird."
 
-Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen **[!UICONTROL in der Dropdown]** Liste Begrenzungsregeln den entsprechenden Regelsatz aus. Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
+Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journey zu und öffnen Sie die zugehörigen Eigenschaften. Wählen Sie im Dropdown **[!UICONTROL Begrenzungsregeln]** den relevanten Regelsatz aus. Sobald die Journey aktiviert ist, werden die im Regelsatz definierten Begrenzungsregeln wirksam.
 
 ![](assets/journey-capping-apply.png)
 
@@ -126,10 +126,10 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 >
 >Wenn eine Journey sofort aktiviert wird, kann es bis zu 20 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Sie können Ihre Journey so planen, dass sie mindestens 20 Minuten in der Zukunft beginnt, um dies zu verhindern.
 
-Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse&rbrace; im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. [Erfahren Sie, wie Sie mit Journey-Berichten arbeiten](../reports/journey-global-report-cja.md)
+Sobald die Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse]** im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey geführt hat. [Informationen zum Arbeiten mit Journey-Berichten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
