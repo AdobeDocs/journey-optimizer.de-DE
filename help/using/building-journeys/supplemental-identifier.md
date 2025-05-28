@@ -3,9 +3,9 @@ title: Zusätzliche Kennung in ereignisgesteuerten Journey
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in ereignisausgelösten Journey verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einem Journey zu verwen
 
 ### **Abonnementverwaltung**
 
-* **Szenario**: Ein Abonnement-Service sendet für jedes Abonnement, das an ein Kundenprofil gebunden ist, maßgeschneiderte Nachrichten.
+* **Szenario**: Ein Abonnement-Service sendet für jedes Abonnement maßgeschneiderte Nachrichten, wenn ein Ereignis für dieses Abonnement ausgelöst wird.
 * **Ausführung**:
    * Profil: „Jane“.
-   * Zusätzliche IDs: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * Journey wird für jedes Abonnement separat mit personalisierten Verlängerungsangeboten ausgeführt.
+   * Zusätzliche IDs: `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Jedes Ereignis enthält eine Abonnement-ID und Details zu diesem Abonnement. Journey wird für jedes Ereignis/Abonnement separat ausgeführt, sodass pro Abonnement personalisierte Verlängerungsangebote unterbreitet werden können.
 
 ### **Produktempfehlungen**
 
