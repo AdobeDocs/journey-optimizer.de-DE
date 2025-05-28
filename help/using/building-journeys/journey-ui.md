@@ -9,40 +9,70 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 96%
+source-wordcount: '1179'
+ht-degree: 75%
 
 ---
 
 # Durchsuchen und Filtern von Journeys {#browse-journeys}
 
-## Journey-Dashboard {#dashboard-jo}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Ansichten von Journey-Tabellen und -Timelines"
->abstract="Ansichten von Journey-Tabellen und -Timelines"
+>title="Listen- und Kalenderansichten der Journey"
+>abstract="Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journey, die eine übersichtliche Darstellung ihrer Zeitpläne bietet. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
+
+## Journey-Dashboard {#dashboard-jo}
 
 Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
 
-* Auf der Registerkarte **[!UICONTROL Übersicht]** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt.
+### Übersicht über die Journey
 
-  ![Journey-Dashboard mit hervorgehobener Registerkarte „Übersicht“](assets/journeys-dashboard.png)
+Auf der Registerkarte **[!UICONTROL Übersicht]** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt.
 
-   * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
-   * **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Zielgruppe lesen).
-   * **Fehlerrate**: Verhältnis aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
-   * **Verwerfungsrate**: Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zum Eintritt in die Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
+![Journey-Dashboard mit hervorgehobener Registerkarte „Übersicht“](assets/journeys-dashboard.png)
 
-  >[!NOTE]
-  >
-  >Dieses Dashboard berücksichtigt die Journeys mit Traffic in den letzten 24 Stunden. Es werden nur die Journeys angezeigt, auf die Sie zugreifen können. Metriken werden alle 30 Minuten aktualisiert, aber nur dann, wenn neue Daten verfügbar sind.
+* **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
+* **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Zielgruppe lesen).
+* **Fehlerrate**: Verhältnis aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
+* **Verwerfungsrate**: Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zum Eintritt in die Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
 
-* Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können nach Journeys suchen, Filter verwenden und für jedes Element grundlegende Aktionen ausführen. Sie können ein Element beispielsweise duplizieren oder löschen.
+>[!NOTE]
+>
+>Dieses Dashboard berücksichtigt die Journeys mit Traffic in den letzten 24 Stunden. Es werden nur die Journeys angezeigt, auf die Sie zugreifen können. Metriken werden alle 30 Minuten aktualisiert, aber nur dann, wenn neue Daten verfügbar sind.
 
-  ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
+### Liste der Journey
+
+Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können nach Journeys suchen, Filter verwenden und für jedes Element grundlegende Aktionen ausführen. Sie können ein Element beispielsweise duplizieren oder löschen.
+
+![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
+
+### Journey-Kalender {#calendar}
+
+Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journey, die eine übersichtliche Darstellung ihrer Zeitpläne bietet.
+
+>[!AVAILABILITY]
+>
+>Die Kalenderansicht ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Eingaben und Anfragen über die Schaltfläche **[!UICONTROL Beta Feedback]** im oberen Menü.
+
+Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Liste Journey und klicken Sie auf das Symbol ![Kalendersymbol](assets/do-not-localize/timeline-icon.svg).
+
+Der Kalender zeigt alle für die aktuelle Woche geplanten Journey an. Verwenden Sie die Pfeiltasten über dem Kalender, um zwischen den Wochen zu navigieren.
+
+![Kalenderansicht mit Live-Journey ](assets/timeline-journeys.png)
+
+Darstellung der Journey:
+
+* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Journey für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und abgeschlossene Aktivierungen oder Aktivierungen anzeigen.
+* Journey- und Journey-Entwürfe werden im Testmodus nicht angezeigt.
+* Journey, die sich über mehrere Tage erstrecken, werden oben im Kalenderraster angezeigt.
+* Wenn keine Startzeit angegeben wird, wird die nächstgelegene manuelle Aktivierungszeit verwendet, um sie im Kalender zu positionieren.
+* Journey werden als Zeitspannen von einer Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
+
+Um weitere Informationen zu einer Journey zu erhalten, klicken Sie auf den entsprechenden Bildblock, um sie zu öffnen und die zugehörigen Details zu erkunden.
 
 In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Journey-Version wird auch oben in der Journey-Edition über der Arbeitsfläche angezeigt. Weitere Informationen zur [Journey-Versionsverwaltung](publishing-the-journey.md#journey-versions-journey-versions).
 
@@ -67,7 +97,6 @@ Um Journeys nach einem bestimmten Datumsbereich zu filtern, wählen Sie aus der 
 In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die das betreffende Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
 ![](assets/journey3bis.png)
-
 
 ## Journey-Typen {#journey-types}
 

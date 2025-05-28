@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+workflow-type: tm+mt
+source-wordcount: '868'
+ht-degree: 64%
 
 ---
 
@@ -26,8 +26,8 @@ Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführun
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Ansichten von Kampagnentabellen und -Timelines"
->abstract="Ansichten von Kampagnentabellen und -Timelines"
+>title="Listen- und Kalenderansichten für Kampagnen"
+>abstract="Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen, die eine klare visuelle Darstellung ihrer Zeitpläne bietet. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 
@@ -35,7 +35,35 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 ![](assets/create-campaign-list.png)
 
-Darüber hinaus können Sie die Liste nach Kampagnentyp und -kanal oder nach den Tags filtern, die den Kampagnen bei ihrer Erstellung zugewiesen wurden. [Erfahren Sie, wie Sie einer Kampagne Tags zuweisen](create-campaign.md#create)
+Sie können die Liste auch nach Kampagnentyp und -kanal oder nach den Tags filtern, die den Kampagnen bei ihrer Erstellung zugewiesen wurden. [Erfahren Sie, wie Sie einer Kampagne Tags zuweisen](create-campaign.md#create)
+
+## Kampagnenkalender {#calendar}
+
+Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen, die eine klare visuelle Darstellung ihrer Zeitpläne bietet.
+
+>[!AVAILABILITY]
+>
+>Die Kalenderansicht ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Eingaben und Anfragen über die Schaltfläche **[!UICONTROL Beta Feedback]** im oberen Menü.
+
+Der Kalender zeigt alle für die aktuelle Woche geplanten Kampagnen an. Verwenden Sie die Pfeiltasten über dem Kalender, um zwischen den Wochen zu navigieren.
+
+![Kalenderansicht mit Live-Kampagnen](assets/campaigns-timeline.png)
+
+Darstellung der Kampagnen:
+
+* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Kampagnen für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und abgeschlossene Aktivierungen oder Aktivierungen eines bestimmten Typs oder Kanals anzeigen.
+* Kampagnenentwürfe werden nicht angezeigt.
+* Kampagnen, die sich über mehrere Tage erstrecken, werden oben im Kalenderraster angezeigt.
+* Wenn keine Startzeit angegeben wird, wird die nächstgelegene manuelle Aktivierungszeit verwendet, um sie im Kalender zu positionieren.
+* Kampagnen werden als Zeiträume von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
+
+Um weitere Informationen zu einer Kampagne zu erhalten, klicken Sie auf den entsprechenden visuellen Block, um die entsprechenden Details zu öffnen.
+
+Um Details zu einer bestimmten Kampagne anzuzeigen, wählen Sie diese aus der Liste aus. Daraufhin wird ein Informationsfenster mit verschiedenen Informationen über die Kampagne geöffnet, z. B. über den Kampagnentyp, den Zugriff auf die Berichte oder die zugewiesenen Tags.
+
+![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
 
 ## Kampagnenstatus und Warnungen {#statuses}
 
