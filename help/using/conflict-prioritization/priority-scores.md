@@ -8,7 +8,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist wichtig, um eine Journey zu priorisieren, wenn eine auferlegte Einschränkung wie eine Frequenzlimitierung vorliegt. Geben Sie einen numerischen Wert ein (von 0-100). Bitte beachten Sie, je höher die Zahl, desto höher die Priorität."
+>abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine Journey zu priorisieren, wenn eine erzwungene Begrenzung vorliegt, z. B. eine Häufigkeitsbegrenzung. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher der Wert, desto höher die Priorität. "
 
 >[!AVAILABILITY]
 >
@@ -48,4 +48,4 @@ Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -153,12 +153,12 @@ Sie können sie auch im Standard-Browser öffnen oder die Test-URL kopieren, um 
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
-## Zu URL umleiten {#web-redirect-to-url}
+## Zur URL umleiten {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="Zu anderer URL umleiten"
->abstract="Geben Sie eine vorhandene URL ein, zu der die Besucher Ihrer Seite weitergeleitet werden sollen."
+>title="Umleiten zu einer anderen URL"
+>abstract="Geben Sie eine vorhandene URL ein, zu der die Besuchenden Ihrer Seite umgeleitet werden sollen."
 
 Beim Erstellen eines Web-Erlebnisses können Sie Besucher zu einer anderen vorhandenen URL umleiten, anstatt eine neue Variante im Web-Designer zu erstellen.
 
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

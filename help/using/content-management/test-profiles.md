@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Verwenden Sie Testprofile, um Ihre Inhalte zu überprüfen"
->abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese angezeigt werden."
+>abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden."
 
 Testprofile sind zusätzliche Empfängerinnen und Empfänger, die nicht den definierten Zielgruppenkriterien entsprechen. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
 
