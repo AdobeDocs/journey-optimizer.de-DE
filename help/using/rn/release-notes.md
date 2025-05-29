@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
+source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 35%
+source-wordcount: '1176'
+ht-degree: 32%
 
 ---
 
@@ -119,13 +119,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsvarianten simulieren</strong><br/></th>
+<th><strong>Simulieren von Inhaltsvarianten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
+<!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
 <p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>Weitere Informationen finden Sie in der <a href="../test-approve/simulate-sample-input.md">ausführlichen Dokumentation</a>.</p>
