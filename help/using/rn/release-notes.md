@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 951056d22975a34af50faa450859d635b542f90f
+source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 35%
 
 ---
@@ -59,10 +59,10 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Durch die Integration von Adobe Experience Manager und Adobe Journey Optimizer können Sie jetzt mühelos Adobe Experience Manager-Inhaltsfragmente in Ihren Journey Optimizer-Inhalten verwenden. Diese nahtlose Verbindung erleichtert den direkten Zugriff auf und die Verwendung Ihrer AEM-Inhalte in Journey Optimizer.</p>
-<p>Zuvor für eine begrenzte Anzahl von Organisationen (LA) verfügbar, ist diese Funktion jetzt allgemein verfügbar mit der folgenden Verbesserung:</p>
+<p>Diese Funktion war bisher nur für eine begrenzte Anzahl von Organisationen verfügbar und bietet jetzt folgende Verbesserung: Sie können jetzt im Editor-Modus Platzhalter definieren und Personalisierungswerte in der Fragmentsignatur zuordnen.</p>
 <ul>
-<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
-<li>Definieren Sie Platzhalter und Zuordnen von Personalisierungswerten in der Fragmentsignatur mithilfe des Editor-Modus.</li>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
