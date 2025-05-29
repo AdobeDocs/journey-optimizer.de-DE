@@ -5,8 +5,8 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 

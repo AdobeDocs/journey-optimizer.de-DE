@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 57%
+source-wordcount: '546'
+ht-degree: 46%
 
 ---
 
@@ -65,7 +65,7 @@ In Adobe Campaign müssen Sie eine Transaktionsnachricht und das zugehörige Ere
 
 Sie können Ihre JSON-Payload entsprechend jeder Nachricht nach dem folgenden Muster aufbauen. Sie fügen diese Payload dann beim Konfigurieren der Aktion in Journey Optimizer ein (siehe unten).
 
-Siehe folgendes Beispiel:
++++ Beispiel
 
 ```json
 {
@@ -82,15 +82,19 @@ Siehe folgendes Beispiel:
 * **eventType**: der interne Namen Ihres Campaign-Ereignisses
 * **ctx**: Variable basierend auf der Personalisierung in Ihrer Nachricht
 
++++
+
 ## Konfigurieren der Aktion {#configure-action}
 
-In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
+In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren.
 
-1. Erstellen Sie eine neue Aktion. [Weitere Informationen zu benutzerdefinierten Aktionen](../action/action.md).
+Gehen Sie wie folgt vor, um eine Campaign-Aktion zu erstellen:
+
+1. Erstellen Sie eine neue Aktion. [Erfahren Sie, wie Sie benutzerdefinierte Aktionen erstellen](../action/action.md).
 1. Geben Sie einen Namen und eine Beschreibung ein.
 1. Wählen Sie im Feld **Aktionstyp** die Option **Adobe Campaign Classic** aus.
+   ![](assets/accintegration1.png)
 1. Klicken Sie in das Feld **Payload** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
-1. Passen Sie die verschiedenen Felder je nach gewünschter Zuordnung auf der Journey-Arbeitsfläche als statisch oder variabel an. Bestimmte Felder, wie z. B. Kanalparameter für E-Mail-Adressen- und Personalisierungsfelder (ctx), sollten wahrscheinlich als Variablen für die Zuordnung im Kontext der Journey definiert werden.
+1. Legen Sie jedes Feld entweder als statisch oder als Variable fest, je nachdem, ob Sie möchten, dass es auf der Journey-Arbeitsfläche zugeordnet wird. Beispielsweise sollten Felder wie E-Mail-Kanalparameter und Personalisierungsfelder (`ctx`) normalerweise als Variablen festgelegt werden, damit sie sich innerhalb der Journey dynamisch anpassen können.
 1. Klicken Sie auf **Speichern**.
 
-![](assets/accintegration1.png)

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 36%
+source-wordcount: '1235'
+ht-degree: 35%
 
 ---
 
@@ -24,11 +24,30 @@ ht-degree: 36%
 
 ## Mai &#39;25 - Versionshinweise {#25-5-rn}
 
-**Veröffentlichungsdatum**: 20.-21. Mai 2025
+<!--**Release date**: May 20-21, 2025-->
 
 ### Neue Funktionen {#25-05-features}
 
 Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
+
+<table>
+<thead>
+<tr>
+<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine Kalenderansicht ist jetzt in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visuell darstellen.</p>
+<p>Diese Änderung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">dieses Formular</a>.</p>
+<img src="assets/do-not-localize/calendar.gif">
+<p>Weitere Informationen finden Sie in den folgenden Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern Ihrer Journey</a>, <a href="../campaigns/modify-stop-campaign.md">Zugreifen auf Kampagnen</a>.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 28. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -82,6 +101,80 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
+<th><strong>Zusätzliche ID für ereignisausgelöste Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/supplemental-identifier.md">ausführlichen Dokumentation</a>.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Verfügbarkeitsdatum: Samstag, 23. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhaltsvarianten simulieren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
+<img src="assets/do-not-localize/variants.gif">
+<p>Weitere Informationen finden Sie in der <a href="../test-approve/simulate-sample-input.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Samstag, 23. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Synchronisieren des Lesens des Zielgruppen-Zeitplans mit dem Batch-Segmentierungsauftrag</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 20. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierter SMS-Anbieter</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt über die Standardoptionen hinaus zusätzliche SMS-Anbieter konfigurieren: Sinch, Infobip und Twilio. Mit der Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um die Einhaltung der Vorgaben sicherzustellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p></td>
+<p>Verfügbarkeitsdatum: Mittwoch, 20. Mai 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Designs in E-Mail Designer</strong><br/></th>
 </tr>
 </thead>
@@ -116,44 +209,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Synchronisieren des Lesens des Zielgruppen-Zeitplans mit dem Batch-Segmentierungsauftrag</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt nach Abschluss der Batch-Segmentierung tägliche Journey-Ausführungen als Trigger ausführen. Diese Option ist jetzt in täglich geplanten Journey für alle Kunden verfügbar. Damit können Sie für ein Zeitfenster von bis zu 6 Stunden definieren, um auf Zielgruppendaten aus Batch-Segmentierungsvorgängen zu warten. So wird sichergestellt, dass Journey mit den aktuellsten Daten ausgeführt werden oder übersprungen werden, falls sie noch nicht bereit sind.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Kalenderansicht für Kampagnen- und Journey-Inventar</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Eine Kalenderansicht ist jetzt in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visuell darstellen.</p>
-<p>Diese Änderung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">dieses Formular</a>.</p>
-
-
-<img src="assets/do-not-localize/calendar.gif">
-<p>Weitere Informationen finden Sie in den folgenden Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern Ihrer Journey</a>, <a href="../campaigns/modify-stop-campaign.md">Zugreifen auf Kampagnen</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--<table>
 <thead>
 <tr>
@@ -176,24 +231,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Inhaltsvarianten simulieren</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die zuvor in der Beta-Version verfügbare Simulation von Inhaltsvarianten ist jetzt allgemein verfügbar (GA). Damit können Sie verschiedene Varianten Ihrer Inhalte in der Vorschau sehen, mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt Unterstützung für mehrsprachige Inhalte und Inhaltsexperimente, sodass Sie Varianten über verschiedene Sprachen und Varianten hinweg testen können. Darüber hinaus unterstützt sie jetzt kontextuelle Attribute (zusätzlich zu Profilattributen), was noch dynamischere und situationsbezogener Inhaltstests ermöglicht.</p>
-<img src="assets/do-not-localize/variants.gif">
-<p>Weitere Informationen finden Sie in der <a href="../test-approve/simulate-sample-input.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 23. Mai 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--table>
 <thead>
@@ -209,41 +246,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tr>
 </tbody>
 </table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Benutzerdefinierter SMS-Anbieter</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit Journey Optimizer können Sie jetzt über die Standardoptionen hinaus zusätzliche SMS-Anbieter konfigurieren: Sinch, Infobip und Twilio. Mit der Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um die Einhaltung der Vorgaben sicherzustellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p></td>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Zusätzliche ID für ereignisausgelöste Journey</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Journey-Trigger verwenden, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-ID, einer Abonnement-ID oder einer verschreibungspflichtigen ID verwenden, sodass sich dasselbe Profil mehrmals gleichzeitig auf derselben Journey befindet. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/supplemental-identifier.md">ausführlichen Dokumentation</a>.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Verfügbarkeitsdatum: Samstag, 23. Mai 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### Verbesserungen {#25-05-improv}
@@ -275,15 +277,15 @@ Im Folgenden finden Sie die Verbesserungen dieser Version.
   >
   >Diese Funktion wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
 
-* **„Umleiten zur URL“-Unterstützung im Web-Kanal**
+* **Umleitung zur URL-Unterstützung im Web-Kanal** - Verfügbarkeitsdatum: 20. Mai 2025
 
   Mit dem Journey Optimizer-Webkanal können Sie Besuchende jetzt zu einer anderen bestehenden URL umleiten, anstatt im Visual Editor eine neue Variante zu erstellen. Mit dieser Funktion können Experimente durchgeführt werden, bei denen zwei völlig verschiedene Seiten verglichen werden, anstatt nur einige Elemente innerhalb einer Seite zu ändern. [Weitere Informationen](../web/create-web.md#web-redirect-to-url)
 
-* **Ordner für Vorlagen und Fragmente**
+* **Ordner für Vorlagen und Fragmente** - Verfügbarkeitsdatum: 20. Mai 2025
 
   Mit Ordnern können Sie Ihre Objekte einfacher und effektiver in einer strukturierten Hierarchie organisieren. Ordner, die zuvor für eine Reihe von Organisationen (LA) verfügbar waren, stehen nun allen Benutzenden (GA) zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung. Weitere Informationen finden Sie in den [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmente](../content-management/manage-fragments.md#folders) Abschnitten.
 
-* **Klick-Tracking in E-Mail-Vorlagen**
+* **Klick-Tracking in E-**-Vorlagen - Verfügbarkeitsdatum: 20. Mai 2025
 
   Das Klick-Tracking für `<area>` Elemente in Imagemaps im E-Mail-Inhalt wird jetzt nativ in [!DNL Journey Optimizer] unterstützt. Dadurch soll sichergestellt werden, dass Imagemap-Bereiche denselben Tracking-Umbruch, Tracking-Daten und angehängte Parameter wie Standard-Hyperlinks erhalten. [Weitere Informationen zum Nachrichten-Tracking](../email/message-tracking.md#manage-tracking)
 
@@ -292,7 +294,7 @@ Im Folgenden finden Sie die Verbesserungen dieser Version.
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Rechte Leiste in der Kampagnenliste**
+* **Rechte Leiste in der Kampagnenliste** - Verfügbarkeitsdatum: 20. Mai 2025
 
   Wenn Sie in der Kampagnenliste eine Kampagne auswählen, wird jetzt ein Bereich mit den zugehörigen Details geöffnet.
 
