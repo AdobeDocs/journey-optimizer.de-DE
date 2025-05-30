@@ -37,9 +37,9 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass Dynamic Media mit OpenAPI in Adobe Experience Manager as a Cloud Service aktiviert ist. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+>Stellen Sie sicher, dass Dynamic Media mit OpenAPI in Adobe Experience Manager as a Cloud Service aktiviert ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-Die Dynamic Media-Integration mit Adobe Journey Optimizer ist sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als auch [mit OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar.
+Die Dynamic Media-Integration mit Adobe Journey Optimizer ist sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar.
 
 >[!AVAILABILITY]
 >
@@ -86,7 +86,7 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 
 >[!AVAILABILITY]
 >
->**Personalisierung von Textüberlagerung** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
+>**Personalisierung von Textüberlagerung** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
 
 Gehen Sie wie folgt vor, um Ihre Textüberlagerung zu personalisieren:
 
@@ -132,7 +132,7 @@ Erfahren Sie mehr über [Dynamic Media-Vorlagen](https://experienceleague.adobe.
 
 >[!AVAILABILITY]
 >
->**Dynamic Media-Vorlage** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
+>**Dynamic Media-Vorlage** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
 
 
 ### Mit Bildkomponente {#image-component}
