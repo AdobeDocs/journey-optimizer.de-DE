@@ -33,11 +33,11 @@ Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Se
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass Dynamic Media mit OpenAPI in Adobe Experience Manager as a Cloud Service aktiviert ist. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
+>Stellen Sie sicher, dass Dynamic Media mit OpenAPI in Adobe Experience Manager as a Cloud Service aktiviert ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
 
 Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, indem Sie dynamische Medien aus Adobe Experience Manager as a Cloud Service direkt in Ihre Journey Optimizer-Inhalte einfügen.  Anschließend können Sie bei Bedarf die Größe ändern, zuschneiden, Verbesserungen und andere Anpassungen vornehmen.
 
-Beachten Sie, dass Dynamic Media sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als auch [mit OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar ist.
+Beachten Sie, dass Dynamic Media sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar ist.
 
 >[!AVAILABILITY]
 >
@@ -82,7 +82,7 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 
 ![](assets/dynamic-media-layout-1.png)
 
-Beachten Sie, dass **Personalisierung von Textüberlagerung** ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} ist. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
+Beachten Sie, dass **Personalisierung von Textüberlagerung** ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} ist. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
 
 Gehen Sie wie folgt vor, um Ihre Textüberlagerung zu personalisieren:
 
@@ -123,7 +123,7 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
-Beachten Sie, **„Dynamic Media-Vorlage** ausschließlich im Dynamic Media [Scene7-Modus“ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
+Beachten Sie, **„Dynamic Media-Vorlage** ausschließlich im Dynamic Media [Scene7-Modus“ ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
 
 Erfahren Sie mehr über [Dynamic Media-Vorlagen](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
 
