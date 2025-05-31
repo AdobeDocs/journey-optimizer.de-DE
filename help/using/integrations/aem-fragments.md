@@ -18,7 +18,7 @@ ht-degree: 22%
 
 Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe Journey Optimizer können Sie jetzt Ihre AEM-Inhaltsfragmente nahtlos in Ihre Journey Optimizer-Inhalte integrieren. Diese optimierte Verbindung vereinfacht den Zugriff auf und die Nutzung von AEM-Inhalten und ermöglicht die Erstellung personalisierter und dynamischer Kampagnen und Journeys.
 
-Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Dokumentation zu Experience Manager.
+Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Dokumentation zu Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -122,4 +122,4 @@ Stellen Sie in diesem Fall sicher&#x200B;**_dass „variableName_** deklariert w
 
 Nachdem Sie die Tests und die Validierung des Inhalts durchgeführt haben, können Sie [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder [Ihre Journey veröffentlichen](../building-journeys/publishing-the-journey.md) an Ihre Zielgruppe senden.
 
-Mit Adobe Experience Manager können Sie die Journey Optimizer-Kampagnen oder Journey identifizieren, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Mit Adobe Experience Manager können Sie die Journey Optimizer-Kampagnen oder Journey identifizieren, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
