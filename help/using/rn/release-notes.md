@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 32%
+source-wordcount: '1239'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,26 @@ ht-degree: 32%
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Updates vom 25. Juni {#25-6-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Skalieren Sie Ihren Experimentiersieger</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem Gewinner des Experiments skalieren können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Audience einführen. Mit dieser Funktion wird sichergestellt, dass Sie nach der Identifizierung eines Leistungsträgers dessen Reichweite und Effektivität ohne ständige manuelle Aufsicht maximieren können.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content-management/content-experiment.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 2. Juni 2025</p></td>
+</tr>
+</tbody>
+</table>
+
 
 ## Mai &#39;25 - Versionshinweise {#25-5-rn}
 
@@ -232,21 +252,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tbody>
 </table>-->
 
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Scale your Experimentation winner</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 
 ### Verbesserungen {#25-05-improv}

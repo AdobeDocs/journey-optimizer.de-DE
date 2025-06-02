@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
-workflow-type: ht
-source-wordcount: '746'
-ht-degree: 100%
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 60%
 
 ---
 
@@ -42,7 +42,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ![](assets/content_experiment.png)
 
-➡️ In [diesem Anwendungsfall](../experience-decisioning/experience-decisioning-uc.md) erfahren Sie, wie Sie mithilfe von Inhaltsexperimenten Entscheidungen mit dem Code-basierten Erlebniskanal vergleichen.
+➡️ In diesem Anwendungsfall erfahren Sie, wie Sie mit Inhaltsexperimenten Entscheidungen mit dem Code-basierten [ vergleichen ](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 
@@ -102,6 +102,8 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_13.png)
 
+1. Aktivieren Sie das Experiment mit automatischer Skalierung, um automatisch die erfolgreichste Variante Ihres Experiments durchzuführen. [Erfahren Sie mehr über die Skalierung des Gewinners](#scale-winner)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, wenn Ihre Konfiguration festgelegt ist.
 
 ## Richten Sie das Design Ihrer Abwandlungen ein {#treatment-experiment}
@@ -127,4 +129,80 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 1. Sobald Sie den Inhalt Ihrer Nachricht definiert haben, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering Ihres Versands zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../content-management/preview-test.md)
 
 Nach der Konfiguration Ihrer Experimente können Sie mit dem Bericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report-cja-experimentation.md)
+
+## Skalieren Sie den Gewinner {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>Die Funktion „Gewinner skalieren“ wird derzeit für die folgenden Kanäle unterstützt:
+>
+>* Eingehende Kanäle (z. B. Web, In-App-Nachricht, Code-basiertes Erlebnis) auf einer beliebigen Journey oder Kampagne.
+>* Ausgehende Kanäle (z. B. E-Mail, Push-Benachrichtigung, SMS) in API-ausgelösten Transaktionskampagnen.
+
+Mit Gewinner skalieren können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Audience einführen. Diese Funktion stellt sicher, dass Sie, sobald ein Gewinner ermittelt wurde, seine Reichweite und Effektivität steigern können, ohne das Experiment ständig zu überwachen.
+
+Sie können zwischen zwei Modi wählen:
+
+* **Automatische Skalierung**: Konfigurieren Sie die Einstellungen für die automatische Skalierung beim Erstellen Ihres Experiments, indem Sie den Zeitpunkt und die Bedingungen für die Skalierung der erfolgreichsten Variante auswählen oder eine Ausweichoption auswählen, falls kein Gewinner ermittelt wird.
+
+* **Manuelle Skalierung** Überprüfen Sie die Experimentergebnisse manuell und starten Sie den Rollout der erfolgreichsten Varianten, wobei Sie die volle Kontrolle über den Zeitpunkt und die Entscheidungen behalten.
+
+
+### Automatische Skalierung {#autoscaling}
+
+Mit der automatischen Skalierung können Sie vordefinierte Regeln festlegen, nach denen basierend auf den Ergebnissen des Experiments die erfolgreichste Variante oder ein Fallback durchgeführt wird.
+
+Beachten Sie, dass nach der automatischen Skalierung die manuelle Skalierung nicht mehr verfügbar ist.
+
+So aktivieren Sie die automatische Skalierung in Ihren Experimenten:
+
+1. Richten Sie Ihre Kampagne oder Ihren Journey ein und konfigurieren Sie Ihr Experiment nach Bedarf. [Weitere Informationen](#configure-experiment)
+
+1. Aktivieren Sie bei der Einrichtung Ihres Experiments die Option „Automatische Skalierung“.
+
+   ![](assets/scale-winner-1.png)
+
+1. Wählen Sie aus, wann der Gewinner skaliert werden soll:
+
+   * Sobald der Gewinner gefunden ist.
+   * Nach dem Experiment ist zum ausgewählten Zeitpunkt live.
+
+     Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden. Wenn der Wert auf eine Zeit nach dem Enddatum eingestellt ist, wird eine Validierungswarnung angezeigt und die Kampagne oder die Journey wird nicht veröffentlicht.
+
+   ![](assets/scale-winner-2.png)
+
+1. Wählen Sie das Fallback-Verhalten, wenn nach Skalierungszeit kein Gewinner gefunden wird:
+
+   * Experiment bis zum Ende planmäßig fortsetzen.
+   * Skalieren Sie die alternative Abwandlung nach einer bestimmten Zeit.
+
+Sobald alle Parameter erfüllt sind, wird der Gewinner oder die alternative Behandlung an Ihre Audience gesendet.
+
+### Manuelle Skalierung {#manual-scaling}
+
+Mit der manuellen Skalierung können Sie die Experimentergebnisse überprüfen und entscheiden, wann die erfolgreichste Variante nach Ihrem eigenen Zeitplan eingeführt werden soll.
+
+Beachten Sie, dass die automatische Skalierung abgebrochen wird, wenn Sie den Gewinner vor der geplanten automatischen Skalierungszeit manuell skalieren.
+
+So skalieren Sie den Gewinner Ihrer Experimente manuell:
+
+1. Richten Sie Ihre Kampagne oder Ihren Journey ein und konfigurieren Sie Ihr Experiment nach Bedarf. [Weitere Informationen](#configure-experiment)
+
+1. Lassen Sie das Experiment laufen, bis ein Gewinner ermittelt oder statistische Signifikanz erreicht wird.
+
+1. Öffnen Sie Ihr Kampagnen-Dashboard oder wählen Sie Ihre Kanalaktivität auf Ihrer Journey aus.
+
+   Überprüfen Sie die Ergebnisse im Menü **[!UICONTROL Inhaltsexperiment]**, um die Abwandlung mit der besten Leistung zu ermitteln.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Klicken Sie **[!UICONTROL Abwandlung skalieren]**, um die erfolgreichste Abwandlung an die restliche Zielgruppe weiterzugeben.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Wählen Sie aus dem Dropdown-Menü die Behandlung aus, die Sie skalieren möchten, und klicken Sie auf **[!UICONTROL Skalieren]**.
+
+   ![](assets/scale-winner-3.png)
+
+Beachten Sie, dass die Skalierung der Behandlung bis zu einer Stunde dauern kann. Sie erhalten eine Benachrichtigung, sobald der manuelle Skalierungsprozess abgeschlossen ist.
 
