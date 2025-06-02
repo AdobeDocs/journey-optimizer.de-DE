@@ -38,7 +38,7 @@ Dieses Handbuch enthält eine schrittweise Anleitung zum Debuggen von Problemen 
 
 Bevor Sie mit der Fehlerbehebung beginnen können, stellen Sie Folgendes sicher:
 
-1. Richten Sie eine **Assurance**-Sitzung ein. Weitere Informationen hierzu finden Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Richten Sie eine **Assurance**-Sitzung ein. Weitere Informationen hierzu finden Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navigieren Sie zu der Journey mit der eingehenden Aktion, um den Journey-Namen und die Versions-ID abzurufen.
 
@@ -67,7 +67,7 @@ In diesem Szenario hat ein Profil die eingehende Aktion auf der Journey eingegeb
 
 2. **in Platform-Identitäten definierte Identität &#39;Joai&#39;**
 
-   Die eingehende Aktion verwendet den Namespace **&#39;joai** im `segmentMembership`, um das Profil für den eingehenden Schritt zu aktivieren. Stellen Sie sicher, dass dies in Platform-Identitäten für die Sandbox definiert wurde. Weitere Informationen zu [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
+   Die eingehende Aktion verwendet den Namespace **&#39;joai** im `segmentMembership`, um das Profil für den eingehenden Schritt zu aktivieren. Stellen Sie sicher, dass dies in Platform-Identitäten für die Sandbox definiert wurde. Weitere Informationen zu [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}
 
 ### Debugging-Schritte {#debugging-steps}
 
@@ -83,7 +83,7 @@ Das folgende Diagramm zeigt die Abfolge der Debugging-Schritte, die Sie ausführ
 
 >[!TAB In-App-Kanal]
 
-1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den **In-App-Nachrichten** aus.
+1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den **In-App-Nachrichten** aus.
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte Nachrichten auf]** auf die Dropdown-Liste **[!UICONTROL Nachrichten]** und suchen Sie nach einer Nachricht mit dem Journey-Namen gefolgt von &quot;- In-App-Nachricht“. Falls vorhanden, bedeutet dies, dass die In-App-Nachricht auf dem Gerät/Client vorhanden ist und das Problem möglicherweise mit dem In-App-Trigger zusammenhängt.
 
@@ -91,11 +91,11 @@ Das folgende Diagramm zeigt die Abfolge der Debugging-Schritte, die Sie ausführ
 
 >[!TAB Web-Kanal]
 
-Besuchen Sie die Seite und überprüfen Sie die Registerkarte „Netzwerk“ oder überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Besuchen Sie die Seite und überprüfen Sie die Registerkarte „Netzwerk“ oder überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der Sitzung [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Code-basierter Erlebniskanal]
 
-Führen Sie mit der API von [Adobe eine cURL](https://developer.adobe.com/data-collection-apis/docs/api/)Anfrage durch und überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Führen Sie mit der API von [Adobe eine cURL](https://developer.adobe.com/data-collection-apis/docs/api/)Anfrage durch und überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der Sitzung [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    Sie können überprüfen, ob das **joai**-Segment in der Profilansicht des Edge Network-Versand-Servers vorhanden ist, indem Sie das **segmentsMap**-Element des Profilabschnitts öffnen und nach dem Vorhandensein der **joai**-Segment-ID suchen.
 
-1. Wenn der Edge Network-Versandserver das Profil nicht als im entsprechenden **joai**-Segment ansieht, fahren Sie mit dem nächsten Schritt fort.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Wenn der Edge Network-Versandserver das Profil nicht als im entsprechenden **joai**-Segment ansieht, fahren Sie mit dem nächsten Schritt fort.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### Schritt 3: Überprüfen, ob die Joai-Zielgruppenzugehörigkeit auf die Edge Network übertragen wurde {#step-3}
 
@@ -222,9 +222,9 @@ Führen Sie dieselben Debugging-Schritte wie für [Szenario 1](#debugging-steps)
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de)
 
 ## Warnings and Notes {#warnings-and-notes}
 
