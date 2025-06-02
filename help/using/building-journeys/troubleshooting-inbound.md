@@ -83,7 +83,7 @@ Das folgende Diagramm zeigt die Abfolge der Debugging-Schritte, die Sie ausführ
 
 >[!TAB In-App-Kanal]
 
-1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den ]**In-App-Nachrichten**[!UICONTROL  aus.
+1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den **In-App-Nachrichten** aus.
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte Nachrichten auf]** auf die Dropdown-Liste **[!UICONTROL Nachrichten]** und suchen Sie nach einer Nachricht mit dem Journey-Namen gefolgt von &quot;- In-App-Nachricht“. Falls vorhanden, bedeutet dies, dass die In-App-Nachricht auf dem Gerät/Client vorhanden ist und das Problem möglicherweise mit dem In-App-Trigger zusammenhängt.
 
