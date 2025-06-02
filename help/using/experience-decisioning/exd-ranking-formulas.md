@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 21%
 
 ---
@@ -42,11 +42,17 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen.
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung Ihrer Rangfolgenformel verwendet wird. Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf einen Modellwert verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
+1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung Ihrer Rangfolgenformel verwendet wird.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Wenn Sie ein KI-Modell verwenden, das in eine Rangfolgenformel integriert ist, werden Daten nicht im Bericht [Konversionsrate für Holdout- und modellgesteuerten Traffic](../reports/campaign-global-report-cja-code.md#conversion-rate) angezeigt.
+   >[Personalisierte Optimierungsmodelle](../offers/ranking/personalized-optimization-model.md) die kontinuierliche Metriken verwenden, werden vom KI-Formel-Builder nicht unterstützt.
+
+Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf einen Modellwert verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
+
+    >[!CAUTION]
+    >
+    >Bei Verwendung eines KI-Modells, das in eine Rangfolgenformel integriert ist, werden die Daten nicht im Bericht [Konversionsrate für Holdout- und modellgesteuerten Traffic](../reports/campaign-global-report-cja-code.md#conversion-rate) dargestellt.
 
 1. Definieren Sie die Bedingungen, die die Rangfolgenbewertung für die übereinstimmenden Entscheidungselemente bestimmen. Sie haben folgende Möglichkeiten
 
