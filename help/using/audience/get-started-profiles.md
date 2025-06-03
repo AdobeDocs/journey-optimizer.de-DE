@@ -54,4 +54,4 @@ Sie können Datenfragmente aus verschiedenen Quellen zusammenführen und kombini
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31581?quality=12&captions=ger)
