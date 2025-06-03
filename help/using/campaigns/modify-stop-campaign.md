@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -26,8 +26,8 @@ Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführun
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Listen- und Kalenderansichten für Kampagnen"
->abstract="Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen, die eine klare visuelle Darstellung ihrer Zeitpläne bietet. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
+>title="Listen- und Kalenderansicht für Kampagnen"
+>abstract="Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen mit einer übersichtlichen Darstellung ihrer Zeitpläne. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 
