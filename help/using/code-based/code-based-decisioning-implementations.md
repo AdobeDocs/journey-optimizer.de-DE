@@ -5,17 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Entscheidungen bei Code-basierten Erlebnisimplementierungen
+# Entscheidungsfindung bei Code-basierten Erlebnisimplementierungen
 
 Wenn Sie in Code-basierten Erlebnissen Decisioning verwenden, sollten Sie in den unten beschriebenen Fällen die folgenden Flags zu Ihrer Client-Implementierung hinzufügen.
 
@@ -28,15 +26,15 @@ Beim Testen [code-basierten Erlebnisses](create-code-based.md) mit Decisioning k
 Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die `dryRun`-Markierung zum XDM-Ereignis-`data`-Block in Ihrer Client-Implementierung hinzu:
 
     &quot;
-    &lbrace;
-    „data“: &lbrace;
-    „__adobe“: &lbrace;
-    „ajo“: &lbrace;
+    {
+    „data“: {
+    „__adobe“: {
+    „ajo“: {
     „dryRun“: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;
 
 <!--
@@ -46,7 +44,7 @@ Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die `dryRun`-Markierung zum 
 
 ## Deduplizierung von Entscheidungselementen in Code-basierten Implementierungen {#code-based-decisioning-deduplication}
 
-Erfahren Sie[ wie Sie bei der Verwendung ](../experience-decisioning/create-decision.md)Entscheidungsrichtlinien“ in Ihren Code-basierten Erlebnissen eine Deduplizierung auf Ihre Entscheidungsanfragen in Ihrer Client-Implementierung anwenden.
+Bei Verwendung [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) in Ihren Code-basierten Erlebnissen können Sie Deduplizierung auf Ihre Entscheidungsanfragen in Ihrer Client-Implementierung anwenden.
 
 Entscheidungsanfragen (über Konductor) akzeptieren das Deduplizierungs-Flag, das die Eindeutigkeit von Entscheidungselementen in einer einzigen Anfrage behandelt, die aus mehreren Entscheidungsrichtlinien oder Platzierungen besteht.
 
