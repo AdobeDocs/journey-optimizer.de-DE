@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 63%
 
 ---
 
@@ -22,23 +22,23 @@ Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivit
 
 ## Ereignisaktivitäten {#event-activities}
 
-Personalisierte Journeys werden durch Ereignisse ausgelöst, z. B. durch einen Online-Kauf.  Wenn ein Profil in eine Journey eintritt, durchläuft es sie als Individuum. Jedes Individuum bewegt sich in einer anderen Geschwindigkeit und auf einem anderen Pfad. Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis eintritt. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Personalisierte Journeys werden durch Ereignisse ausgelöst, z. B. durch einen Online-Kauf.  Wenn ein Profil auf eine Journey gelangt, durchläuft es diese als Einzelperson. Keine Person bewegt sich im selben Tempo oder auf demselben Pfad. Wenn Sie Ihren Journey mit einem Ereignis starten, wird der Journey-Trigger ausgelöst, sobald das Ereignis eingeht. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
-Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
+Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Die folgenden Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
 * [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md)
 
-![](assets/journey43.png)
+![Palette „Ereignisaktivitäten“ im Journey-Designer](assets/journey43.png)
 
-Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie können auf diese auch doppelklicken.
+Ziehen Sie eine Ereignisaktivität per Drag-and-Drop, um Ihren Journey zu starten. Sie können auf diese auch doppelklicken.
 
-![](assets/journey44.png)
+![Ereignisaktivität per Drag-and-Drop in den Journey-Designer ziehen](assets/journey44.png)
 
 ## Orchestrierungsaktivitäten {#orchestration-activities}
 
-Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen. Beispiele hierfür sind ein offenes Supportticket, die Wettervorhersage am aktuellen Standort, der Abschluss eines Kaufs oder das Erreichen von 10.000 Treuepunkten.
+Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen. Zu diesen Bedingungen kann gehören, ob die Person an ihrem aktuellen Standort einen offenen Support-Fall hat, die Wettervorhersage hat, ob sie einen Kauf abgeschlossen hat oder ob sie 10.000 Treuepunkte erreicht hat.
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
@@ -46,11 +46,11 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 * [Warten](../building-journeys/wait-activity.md)
 * [Zielgruppe lesen](../building-journeys/read-audience.md)
 
-![](assets/journey49.png)
+![Palette „Orchestrierungsaktivitäten“ im Journey-Designer](assets/journey49.png)
 
 ## Aktionsaktivitäten {#action-activities}
 
-Aktionen sind das Ergebnis eines Auslösers, wie das Senden einer Nachricht. Sie sind die Teile der Journey, die der Kunde bzw. die Kundin wahrnimmt.
+Aktionen sind das Ergebnis eines Triggers, wie das Senden einer Nachricht. Es ist das Stück der Journey, das der Kunde erlebt.
 
 In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
@@ -58,15 +58,15 @@ In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTR
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
 * [Sprung](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![Palette „Aktionsaktivitäten“ im Journey-Designer](assets/journey58.png)
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
 <!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
+Sie können auch spezifische Aktionen zum Senden von Nachrichten einrichten:
 
-* Wenn Sie zum Versenden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine bestimmte benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
+* Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden, können Sie eine bestimmte benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
 
 * Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
 
@@ -77,7 +77,7 @@ Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
 ### Hinzufügen eines Titels
 
-Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]** zu definieren. Auf diese Weise können Sie dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird die Problembehebung bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
+Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]** zu definieren. Dadurch wird dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzugefügt. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird das Debugging bei Fehlern erleichtert und die Lesbarkeit von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
 ![](assets/journey-action-label.png)
 
