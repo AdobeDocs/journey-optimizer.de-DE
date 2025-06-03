@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 93%
+source-wordcount: '1375'
+ht-degree: 85%
 
 ---
 
@@ -72,7 +72,7 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 
 * **Kanalkonfigurationen**: Kanalkonfigurationen werden zusammen mit Kampagnen kopiert. Nachdem Kampagnen kopiert wurden, müssen Kanalkonfigurationen manuell in der Ziel-Sandbox ausgewählt werden.
 * **Experimentvarianten und Einstellungen**: Experimentvarianten und Einstellungen sind im Kampagnenkopierprozess enthalten. Überprüfen Sie diese Einstellungen nach dem Import in der Ziel-Sandbox.
-  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
+* **Einheitliche Entscheidungsfindung**: Entscheidungsrichtlinien und Entscheidungselemente werden für den Export und Import unterstützt. Stellen Sie sicher, dass entscheidungsbezogene Abhängigkeiten in der Ziel-Sandbox korrekt zugeordnet sind.
 
 ### Inhaltsvorlagen {#content-templates}
 
@@ -82,17 +82,17 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 
 * Um Duplikate weiter zu vermeiden, wird empfohlen, Inhaltsvorlagen in einem einzigen Paket zu exportieren. Dadurch wird sichergestellt, dass das System Deduplizierungen effizient verwaltet.
 
-<!--### Decisioning {#decisioning}
+### Entscheidungsfindung {#decisioning}
 
-* The objects below must be present in the destination sandbox before copying Decisioning objects:
+* Die folgenden Objekte müssen in der Ziel-Sandbox vorhanden sein, bevor Decisioning-Objekte kopiert werden können:
 
-   * Profile Attributes used across Decisioning objects,
-   * The field group of custom Offer Attributes,
-   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
+   * In allen Decisioning-Objekten verwendete Profilattribute,
+   * Die Feldergruppe der benutzerdefinierten Angebotsattribute,
+   * Die Schemata von Datenströmen, die für Kontextattribute in Regeln, Rangfolge oder Begrenzung verwendet werden.
 
-* Sandbox copy for ranking formulas with AI Models is currently not supported.
+* Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
 
-* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
+* Stellen Sie beim Kopieren von Entscheidungsentitäten sicher, dass Sie Entscheidungselemente (**)** andere Objekte kopieren. Wenn Sie beispielsweise zuerst eine Sammlung kopieren und in der neuen Sandbox keine Angebote vorhanden sind, bleibt diese neue Sammlung leer.
 
 ### Fragmente {#fragments}
 
