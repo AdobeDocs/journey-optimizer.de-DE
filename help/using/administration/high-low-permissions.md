@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berechtigungsstufen
-description: Erfahren Sie mehr über hohe und niedrige Berechtigungsstufen, mit denen Benutzende auf die verschiedenen Funktionen zugreifen können.
+description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 Jede Rolle besteht aus Berechtigungen, die Benutzenden den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [dieser Seite](ootb-permissions.md) näher beschrieben.
+* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [ Seite ](ootb-permissions.md).
 
-* **Berechtigungen auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
+* **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
 Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[!DNL Manage journeys]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es Journey-Admins ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 

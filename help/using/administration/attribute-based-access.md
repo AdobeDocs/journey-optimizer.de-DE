@@ -9,22 +9,22 @@ role: Admin,Leader
 level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: ht
-source-wordcount: '1025'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 43%
 
 ---
 
 # Attributbasierte Zugriffssteuerung {#attribute-based-access}
 
-Mit der Funktion der attributbasierten Zugriffssteuerung können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
+Mit der attributbasierten Zugriffssteuerungsfunktion können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und bietet so einen weiteren Schutz personenbezogener Daten.
 
 Verwenden Sie die attributbasierte Zuriffssteuerung in Adobe Journey Optimizer, um Daten zu schützen und spezifischen Zugriff auf bestimmte Feldelemente zu gewähren, darunter Experience-Datenmodell(XDM)-Schemata, Profilattribute und Zielgruppen.
 
-Eine detailliertere Liste der bei der attributbasierten Zugriffssteuerung verwendeten Begriffe finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=de){target="_blank"}.
+Eine detailliertere Liste der bei der attributbasierten Zugriffssteuerung verwendeten Terminologie finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=de){target="_blank"}.
 
-In diesem Beispiel möchten wir dem Schemafeld **Staatsangehörigkeit** einen Titel hinzufügen, um nicht autorisierte Benutzer an der Verwendung zu hindern. Damit dies funktioniert, gehen Sie wie folgt vor:
+In diesem Beispiel wird dem Schemafeld **Staatsangehörigkeit“ ein Titel hinzugefügt** um nicht autorisierte Benutzer an der Verwendung zu hindern. Führen Sie die folgenden Schritte aus, damit dies funktioniert:
 
 1. Erstellen Sie eine neue **[!UICONTROL Rolle]** und weisen Sie ihr den entsprechenden **[!UICONTROL Titel]** zu, damit Benutzer auf das Schemafeld zugreifen und es verwenden können.
 
@@ -32,22 +32,21 @@ In diesem Beispiel möchten wir dem Schemafeld **Staatsangehörigkeit** einen Ti
 
 1. Verwenden Sie das **[!UICONTROL Schemafeld]** in Adobe Journey Optimizer.
 
-Beachten Sie, dass der Zugriff auf **[!UICONTROL Rollen]**, **[!UICONTROL Richtlinien]** und **[!UICONTROL Produkte]** auch über die attributbasierte Zugriffssteuerungs-API möglich ist. Weitere Informationen hierzu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=de){target="_blank"}.
+Beachten Sie **[!UICONTROL dass]** Zugriff auf **[!UICONTROL Rollen]** und **[!UICONTROL Produkte]** auch über die attributbasierte Zugriffssteuerungs-API möglich ist. Weitere Informationen finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=de){target="_blank"}.
 
 ## Erstellen einer Rolle und Zuweisen von Titeln {#assign-role}
 
 >[!IMPORTANT]
 >
->Bevor Sie Berechtigungen für eine Rolle verwalten, müssen Sie zunächst eine Richtlinie erstellen. Weiterführende Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"}.
+>>Bevor Sie Berechtigungen für eine Rolle verwalten, erstellen Sie eine Richtlinie. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
 
-**[!UICONTROL Rollen]** sind eine Gruppe von Benutzern, die innerhalb Ihrer Organisation dieselben Berechtigungen, Titel und Sandboxes verwenden. Jeder Benutzer, der einer **[!UICONTROL Rolle]** angehört, hat die Berechtigung für die Adobe-Programme und -Services, die im Produkt enthalten sind.
-Sie können auch eigene **[!UICONTROL Rollen]** erstellen, wenn Sie den Zugriff Ihrer Benutzenden auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche präziser definieren möchten.
+**[!UICONTROL Rollen]** sind eine Gruppe von Benutzern, die innerhalb Ihrer Organisation dieselben Berechtigungen, Titel und Sandboxes verwenden. Jeder Benutzer, der einer **[!UICONTROL Rolle]** angehört, hat Anspruch auf die Adobe-Programme und -Services, die im Produkt enthalten sind. Sie können auch eigene &quot;**[!UICONTROL &quot; erstellen]** um den Zugriff von Benutzern auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche präziser festzulegen.
 
-Wir möchten ausgewählten Benutzern nun Zugriff auf das Feld **Staatsangehörigkeit** mit dem Titel „C2“ gewähren. Dazu müssen wir eine neue **[!UICONTROL Rolle]** mit einer bestimmten Benutzergruppe erstellen und ihr den Titel „C2“ zuweisen, sodass sie die **Staatsangehörigkeits**-Details in einer **[!UICONTROL Journey]** verwenden kann.
+Um ausgewählten Benutzern Zugriff auf das Feld **Staatsangehörigkeit** mit der Bezeichnung C2 zu gewähren, erstellen Sie eine neue **[!UICONTROL Rolle]** mit einer bestimmten Benutzergruppe und gewähren Sie ihnen die Bezeichnung C2, sodass sie die **Staatsangehörigkeit** Details auf einer **[!UICONTROL Journey verwenden können]**.
 
 1. Wählen Sie aus dem [!DNL Permissions]-Produkt im Menü des linken Fensterbereichs die Option **[!UICONTROL Rolle]** und klicken Sie auf **[!UICONTROL Rolle erstellen]**. Beachten Sie, dass Sie auch **[!UICONTROL Titel]** zu integrierten Rollen hinzufügen können.
 
-   ![](assets/role_1.png)
+   ![Erstellen Sie eine neue Rolle im Produkt „Berechtigungen“](assets/role_1.png)
 
 1. Fügen Sie hier einen **[!UICONTROL Namen]** und eine **[!UICONTROL Beschreibung]** zu Ihrer neuen **[!UICONTROL Rolle]** hinzu, hier: Eingeschränkte Rolle „Demografisch“.
 
@@ -75,24 +74,23 @@ Wir möchten ausgewählten Benutzern nun Zugriff auf das Feld **Staatsangehörig
 
    ![](assets/role_9.png)
 
-1. Wählen Sie den **[!UICONTROL Titel]** aus, den Sie Ihrer Rolle hinzufügen möchten, und klicken Sie auf **[!UICONTROL Speichern]**. In diesem Beispiel gewähren wir den Benutzern den Titel „C2“, damit sie Zugriff auf das zuvor eingeschränkte Feld des Schemas haben.
+1. Wählen Sie den **[!UICONTROL Titel]** aus, den Sie Ihrer Rolle hinzufügen möchten, und klicken Sie auf **[!UICONTROL Speichern]**. Gewähren Sie in diesem Beispiel Benutzern den Titel „C2“ für den Zugriff auf das zuvor eingeschränkte Schemafeld.
 
-   ![](assets/role_4.png)
+   ![Speichern Sie die Titelkonfiguration](assets/role_4.png)
 
-Die Benutzer in der **Eingeschränkten Rolle „Demografisch“** haben nun Zugriff auf die Objekte mit dem Titel „C2“.
+Die Benutzer in der Rolle **Eingeschränkte Rolle** Demografisch) haben jetzt Zugriff auf die Objekte mit dem Titel „C2“.
 
 ## Zuweisen von Titeln zu einem Objekt in Adobe Experience Platform {#assign-label}
 
 >[!WARNING]
 >
->Die falsche Verwendung von Titeln kann den Zugang zu Personen unterbrechen und zu Richtlinienverstößen führen.
+>Durch die falsche Verwendung von Kennzeichnungen kann der Zugriff für Personen- und Trigger-Richtlinienverletzungen unterbrochen werden.
 
-**[!UICONTROL Titel]** können verwendet werden, um bestimmte Funktionsbereiche mithilfe der attributbasierten Zugriffssteuerung zuzuweisen.
-In diesem Beispiel möchten wir den Zugriff auf das Feld **Staatsangehörigkeit** einschränken. Auf dieses Feld können nur Benutzer mit dem entsprechenden **[!UICONTROL Titel]** in ihrer **[!UICONTROL Rolle]** zugreifen.
+**[!UICONTROL Kennzeichnungen]** können verwendet werden, um bestimmte Funktionsbereiche mithilfe der attributbasierten Zugriffssteuerung zuzuweisen. In diesem Beispiel ist der Zugriff auf das Feld **Staatsangehörigkeit** eingeschränkt. Auf dieses Feld können nur Benutzer zugreifen, denen die entsprechende **[!UICONTROL Bezeichnung]** zugewiesen **[!UICONTROL Rolle]**.
 
 Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemata]**, **[!UICONTROL Datensätzen]** und **[!UICONTROL Zielgruppen]** hinzufügen können.
 
-1. Erstellen Sie Ihr **[!UICONTROL Schema]**. Weitere Informationen hierzu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}.
+1. Erstellen Sie Ihr **[!UICONTROL Schema]**. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -102,31 +100,33 @@ Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemata]**,
 
 1. Überprüfen Sie auf der Registerkarte **[!UICONTROL Titel]** den Namen des eingeschränkten Feldes, hier **Staatsangehörigkeit**. Wählen Sie dann im Menü des rechten Fensterbereichs die Option **[!UICONTROL Bearbeiten von Governance-Titeln]**.
 
-   ![](assets/label_3.png)
+   ![Bearbeiten von Governance-Kennzeichnungen für das Feld](assets/label_3.png)
 
 1. Wählen Sie die entsprechenden **[!UICONTROL Titel]** aus. In diesem Fall können die C2-Daten nicht an einen Drittanbieter exportiert werden. Eine detaillierte Liste der verfügbaren Titel finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalisieren Sie Ihr Schema bei Bedarf weiter und aktivieren Sie es dann. Die detaillierten Schritte zum Aktivieren Ihres Schemas finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#profile){target="_blank"}.
+1. Personalisieren Sie Ihr Schema bei Bedarf weiter und aktivieren Sie es dann. Ausführliche Anweisungen zum Aktivieren Ihres Schemas finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#profile){target="_blank"}.
 
-Das Feld Ihres Schemas ist nun nur noch für Benutzer sichtbar, die Teil eines Rollensets mit dem Titel „C2“ sind, und kann nur von diesen verwendet werden.
-Beachten Sie, dass der **[!UICONTROL Titel]** automatisch auf das Feld **Staatsangehörigkeit** in jedem erstellten Schema angewendet wird, wenn Sie Ihrem **[!UICONTROL Feldnamen]** einen **[!UICONTROL Titel]** zuweisen.
+Das Feld Ihres Schemas ist jetzt nur noch für Benutzer sichtbar und verwendbar, die Teil eines Rollensatzes mit der Kennzeichnung C2 sind. Wenn Sie Ihrem **[!UICONTROL Feldnamen]** ein **[!UICONTROL Label]** zuweisen, wird **[!UICONTROL Label]** automatisch auf das Feld **Staatsangehörigkeit** in jedem erstellten Schema angewendet.
 
 ![](assets/label_5.png)
 
 ## Zugriff auf Objekte mit Titeln in Adobe Journey Optimizer {#attribute-access-ajo}
 
-Nachdem wir den Namen unseres Feldes **Staatsangehörigkeit** in einem neuen Schema und unserer neuen Rolle angegeben haben, können wir nun die Auswirkungen dieser Einschränkung in Adobe Journey Optimizer sehen.
-In unserem Beispiel erstellt ein erster Benutzer X mit Zugriff auf Objekte mit dem Titel „C2“ eine Journey mit einer Bedingung, die auf den eingeschränkten **[!UICONTROL Feldnamen]** abzielt. Ein zweiter Benutzer Y ohne Zugriff auf Objekte mit dem Titel „C2“ muss dann die Journey veröffentlichen.
+Nachdem der Feldname **Staatsangehörigkeit** in einem neuen Schema und einer neuen Rolle angegeben wurde, kann die Auswirkung dieser Einschränkung in Adobe Journey Optimizer beobachtet werden. In diesem Beispiel:
 
-1. In Adobe Journey Optimizer müssen Sie zunächst die **[!UICONTROL Datenquelle]** mit Ihrem neuen Schema konfigurieren.
+* Benutzer X, der Zugriff auf Objekte mit dem Titel „C2“ hat, erstellt eine Journey mit einer Bedingung, die auf den eingeschränkten **[!UICONTROL Feldname“]**.
+* Benutzer Y versucht ohne Zugriff auf Objekte mit dem Titel „C2“, die Journey zu veröffentlichen.
 
-   ![](assets/journey_1.png)
+
+1. Konfigurieren Sie in Adobe Journey Optimizer die **[!UICONTROL Datenquelle]** mit Ihrem neuen Schema.
+
+   ![Konfigurieren der Datenquelle](assets/journey_1.png)
 
 1. Fügen Sie eine neue **[!UICONTROL Feldergruppe]** Ihres neu erstellten **[!UICONTROL Schemas]** zur integrierten **[!UICONTROL Datenquelle]** hinzu. Sie können auch eine neue externe **[!UICONTROL Datenquelle]** und zugehörige **[!UICONTROL Feldergruppen]** erstellen.
 
-   ![](assets/journey_2.png)
+   ![Hinzufügen einer Feldergruppe zur Datenquelle](assets/journey_2.png)
 
 1. Nach Auswahl des zuvor erstellten **[!UICONTROL Schemas]** klicken Sie in der Kategorie **[!UICONTROL Felder]** auf **[!UICONTROL Bearbeiten]**.
 
@@ -136,7 +136,7 @@ In unserem Beispiel erstellt ein erster Benutzer X mit Zugriff auf Objekte mit 
 
    ![](assets/journey_4.png)
 
-1. Erstellen Sie dann eine Journey, die Benutzern mit einer bestimmten Staatsangehörigkeit eine E-Mail sendet. Fügen Sie ein **[!UICONTROL Ereignis]** und dann eine **[!UICONTROL Bedingung]** hinzu.
+1. Erstellen Sie eine Journey, die eine E-Mail an Benutzende mit einer bestimmten Staatsangehörigkeit sendet. Fügen Sie ein **[!UICONTROL Ereignis]** und eine **[!UICONTROL Bedingung]** hinzu.
 
    ![](assets/journey_5.png)
 
@@ -150,16 +150,12 @@ In unserem Beispiel erstellt ein erster Benutzer X mit Zugriff auf Objekte mit 
 
 1. Personalisieren Sie Ihre Journey nach Bedarf. Hier fügen wir die Aktion **[!UICONTROL E-Mail]** hinzu.
 
-   ![](assets/journey_8.png)
+   ![Hinzufügen einer E-Mail-Aktion zur Journey](assets/journey_8.png)
 
-Wenn Benutzer Y ohne Zugriff auf Objekte mit dem Titel „C2“ auf diese Journey mit diesem eingeschränkten Feld zugreifen muss, geschieht Folgendes:
+Wenn Benutzer Y ohne Zugriff auf Objekte mit dem Titel „C2“ auf diese Journey mit dem eingeschränkten Feld zugreifen muss:
 
-* Benutzer Y kann den eingeschränkten Feldnamen nicht verwenden, da er nicht sichtbar ist.
-
-* Benutzer Y kann den Ausdruck mit dem eingeschränkten Feldnamen im erweiterten Modus nicht bearbeiten. Der folgende Fehler wird angezeigt `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
-
-* Benutzer Y kann den Ausdruck löschen.
-
+* Benutzer Y kann den eingeschränkten Feldnamen nicht verwenden, da er nicht sichtbar ist.
+* Benutzer Y kann den Ausdruck mit dem eingeschränkten Feldnamen im erweiterten Modus nicht bearbeiten. Der folgende Fehler wird angezeigt: `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* Benutzer Y kann den Ausdruck löschen.
 * Benutzer Y kann die Journey nicht testen.
-
-* Benutzer Y kann die Journey nicht veröffentlichen.
+* Benutzer Y kann die Journey nicht veröffentlichen.
