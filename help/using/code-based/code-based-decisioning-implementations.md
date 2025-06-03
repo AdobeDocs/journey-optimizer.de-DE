@@ -26,15 +26,15 @@ Beim Testen [code-basierten Erlebnisses](create-code-based.md) mit Decisioning k
 Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die `dryRun`-Markierung zum XDM-Ereignis-`data`-Block in Ihrer Client-Implementierung hinzu:
 
     &quot;
-    {
-    „data“: {
-    „__adobe“: {
-    „ajo“: {
+    &lbrace;
+    „data“: &lbrace;
+    „__adobe“: &lbrace;
+    „ajo“: &lbrace;
     „dryRun“: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;
 
 <!--
