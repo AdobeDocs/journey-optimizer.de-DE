@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 67%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 ## Erstellen einer Segmentdefinition {#create}
 
-In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle wohnen und nach 1980 geboren wurden. Alle diese Kundinnen und Kunden sollten außerdem innerhalb der letzten sieben Tage einen Kauf getätigt haben.
+In diesem Beispiel erstellen Sie eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden. Alle diese Kunden müssen innerhalb der letzten 7 Tage einen Kauf getätigt haben.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Audiences erstellen](#video-segment)
 
@@ -32,7 +32,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
    ![](assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Erfahren Sie in der Dokumentation zum Segmentierungs[Service , wie Sie Audiences ](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Erfahren Sie in der Dokumentation zum Segmentierungs[Service , wie Sie Audiences ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -66,7 +66,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
 1. Wenn die Zielgruppe fertig ist, klicken Sie auf **[!UICONTROL Speichern]**. Sie wird nun in der Liste der Adobe Experience Platform-Zielgruppen angezeigt. Mithilfe der Suchleiste können Sie nach einer bestimmten Zielgruppe in der Liste suchen.
 
-Die Zielgruppe kann nun in Ihren Journeys verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
+Die Zielgruppe kann jetzt in Ihren Journey verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
 ## Methoden zur Zielgruppenauswertung {#evaluation-method-in-journey-optimizer}
 
@@ -84,7 +84,7 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 >
 >* Diese Änderung gilt für alle Kunden-Sandboxes und Organisationen. 
 >* Nur Versand- und Öffnungsereignisse sind betroffen: Klicks und andere Tracking-Ereignisse bleiben für die Streaming-Segmentierung verfügbar.
->* Diese Änderung gilt nur für die Streaming-Segmentierung. Versand- und Öffnungsereignisse können weiterhin in Batch-Segmenten verwendet werden. Sie werden jedoch auf Batch-Weise ausgewertet, wenn sie in einem Streaming-Segment enthalten sind. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
+>* Diese Änderung gilt nur für die Streaming-Segmentierung. Senden- und Öffnen-Ereignisse können weiterhin in Batch-Segmenten verwendet werden, werden jedoch, wenn sie in einem Streaming-Segment enthalten sind, auf Batch-Weise ausgewertet. Darüber hinaus sind von dieser Änderung auch Ausschlussereignisse und Bounce-/Verzögerungsereignisse betroffen, die aus Sendeereignissen resultieren.
 >* Die Tracking-Datenerfassung ist nicht betroffen. Versand- und Öffnungsereignisse werden weiterhin wie gewohnt erfasst.
 >* Reaktionsereignisse in Journeys sind von dieser Änderung nicht betroffen.
 
@@ -94,7 +94,7 @@ Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre 
 
 Die Profilliste für die Zielgruppe wird alle 24 Stunden ausgewertet.
 
-Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Zielgruppe erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess in der Zielgruppe angezeigt. Bei dem Versuch, eine sofortige Aktualisierung zu erzwingen, wird der tägliche Zyklus nicht überschrieben. Für sofortige, inkrementelle Aktualisierungen sollten Sie die Verwendung von Streaming- oder On-Demand-Segmentierungsoptionen in Betracht ziehen.
+Die Batch-Segmentierung verarbeitet alle Profildaten gleichzeitig über Segmentdefinitionen und erstellt einen Schnappschuss der Audience, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Audience-Liste bei der Batch-Segmentierung nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst beim nächsten Batch-Prozess in der Zielgruppe angezeigt. Versuche, eine sofortige Aktualisierung zu erzwingen, überschreiben nicht den täglichen Zyklus. Für sofortige, inkrementelle Aktualisierungen sollten Sie die Verwendung von Streaming- oder On-Demand-Segmentierungsoptionen in Betracht ziehen.
 
 Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
 
@@ -106,7 +106,7 @@ Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort (
 
 +++
 
-Wenn Sie wissen, welche Auswertungsmethode Sie verwenden möchten, wählen Sie diese in der Dropdown-Liste aus. Sie können auch auf das Ordnersymbol mit dem Vergrößerungsglas klicken, um eine Liste der verfügbaren Auswertungsmethoden für die Segmentdefinition anzuzeigen. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#segment-properties){target="_blank"}
+Wenn Sie die gewünschte Auswertungsmethode kennen, wählen Sie sie aus der Dropdown-Liste aus. Sie können auch auf das Ordnersymbol mit dem Vergrößerungsglas klicken, um eine Liste der verfügbaren Auswertungsmethoden für die Segmentdefinition anzuzeigen. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -122,7 +122,7 @@ Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Z
 
 ## Flexible Zielgruppenauswertung {#flexible}
 
-Mit dem Zielgruppenportal von Adobe Experience Platform können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen aufnehmen.
+In Adobe Experience Platform Audience Portal können Sie bei Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die aktuellsten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journey und -Kampagnen auswählen.
 
 Mit der flexiblen Zielgruppenauswertung können Sie:
 
@@ -134,6 +134,6 @@ Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zie
 
 ## Anleitungsvideo{#video-segment}
 
-Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Sie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwenden können.
+Erfahren Sie, wie Journey Optimizer Regeln verwendet, um Zielgruppen zu generieren, und lernen Sie, wie Sie Attribute, Ereignisse und vorhandene Zielgruppen verwenden, um eine Zielgruppe zu erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430326?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
