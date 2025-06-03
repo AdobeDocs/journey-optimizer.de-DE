@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1175'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Integrierte Rollen sind eine Reihe von vereinheitlichten Rechten, die Benutzende
 
 Die Rolle **[!DNL Campaign Administrator]** ermöglicht den Zugriff auf die Administrationsmenüs mit der Möglichkeit, Kampagnen zu verwalten und zu veröffentlichen sowie das Entscheidungs-Management zu nutzen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -48,7 +48,7 @@ Die Rolle **[!DNL Campaign Approver]** ermöglicht es Benutzenden, Sendungen zu 
 
 Die Rolle **[!DNL Campaign Manager]** ermöglicht Benutzenden das Erstellen und Bearbeiten von **[!UICONTROL Kampagnen]** und gibt ihnen Zugriff auf alle Funktionen, die mit **[!UICONTROL Kampagnen]** verknüpft sind. Sie sind jedoch nicht in der Lage, diese zu veröffentlichen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -63,7 +63,7 @@ Die Rolle **[!DNL Campaign Viewer]** ermöglicht schreibgeschützten Zugriff auf
 
 Benutzende, denen diese Rolle zugewiesen wurde, können weder bearbeiten noch veröffentlichen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -74,7 +74,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 Die Rolle **[!DNL Journey Administrator]** ermöglicht den Zugriff auf die Administrationsmenüs mit der Möglichkeit, Journeys zu verwalten und zu veröffentlichen sowie das Entscheidungs-Management zu nutzen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -87,9 +87,9 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-Die Rolle **[!DNL Journey Approver]** ermöglicht es Benutzenden, Sendungen zu genehmigen und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen anhand der **[!DNL Journey]**-Berichte überprüfen.
+Die Rolle **[!DNL Journey Approver]** ermöglicht es Benutzenden, Sendungen zu genehmigen und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen anhand der Berichte **[!DNL Journey]** überprüfen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -102,7 +102,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 Die Rolle **[!DNL Journey Manager]** ermöglicht Benutzenden das Erstellen und Bearbeiten von **[!UICONTROL Journeys]** und Zugriff auf alle Funktionen, die mit **[!UICONTROL Journeys]** verknüpft sind. Sie sind jedoch nicht in der Lage, diese zu veröffentlichen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -117,7 +117,7 @@ Die Rolle **[!DNL Journey viewer]** ermöglicht schreibgeschützten Zugriff auf 
 
 Benutzende, denen diese Rolle zugewiesen wurde, können weder bearbeiten noch veröffentlichen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
@@ -128,7 +128,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 Die Rolle **[!DNL Decisioning manager]** ermöglicht nur den Zugriff auf das Menü **[!UICONTROL Entscheidungs-Management]**. Benutzende, denen diese Rolle zugewiesen wurde, können nur Entscheidungen verwalten, anzeigen und veröffentlichen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Funktion | Berechtigungen |
 |-|-|
@@ -138,7 +138,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 Die Rolle **[!DNL Content Library Manager]** ermöglicht nur den Zugriff auf das Menü **[!UICONTROL Inhaltsvorlagen]**. Benutzende, denen diese Rolle zugewiesen wurde, können nur auf die Vorlagenbibliothek zugreifen, um Inhalte zu erstellen, aber nicht auf die Journeys oder Kampagnen.
 
-Diese Rolle umfasst die folgenden Berechtigungen:
+Diese Berechtigung umfasst die folgenden Berechtigungen:
 
 | Funktion | Berechtigungen |
 |-|-|
