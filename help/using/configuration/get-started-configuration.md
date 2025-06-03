@@ -9,8 +9,8 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -60,6 +60,6 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
    * Aktivieren Sie die **BBC-E-Mail-Option**, um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
 
-   * Konfigurieren Sie **Geschäftsregeln**, um zu vermeiden, dass Ihre Empfängerinnen und Empfänger übermäßig viele Nachrichten erhalten. [Weitere Informationen](../configuration/rule-sets.md)
+   * Konfigurieren Sie **Geschäftsregeln**, um zu vermeiden, dass Ihre Empfängerinnen und Empfänger übermäßig viele Nachrichten erhalten. [Weitere Informationen](../conflict-prioritization/rule-sets.md)
 
    * Bestimmen Sie, welche E-Mail-Adresse und/oder Telefonnummer für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen/Nummern verfügbar sind. [Weitere Informationen](primary-email-addresses.md)

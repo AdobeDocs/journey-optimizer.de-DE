@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -65,7 +65,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >[Geschäftsregeln](../configuration/rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmpläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
+   >[Geschäftsregeln](../conflict-prioritization/rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmpläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
 
    Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 

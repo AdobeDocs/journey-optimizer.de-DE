@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch 
 
 >[!NOTE]
 >
->* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
+>* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder an den Adobe-Support.
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
@@ -130,7 +130,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
   Sie können auch auf den Abschnitt **Reporting** zugreifen, um das Reporting für das Experimentieren mit Kampagnen und für Web/Mobile zu konfigurieren. [Weitere Informationen](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Geschäftsregeln]**: Verwenden Sie diesen Abschnitt, um kanalübergreifende Geschäftsregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder in eine Journey eintreten. [Weitere Informationen](../configuration/rule-sets.md)
+* **[!UICONTROL Geschäftsregeln]**: Verwenden Sie diesen Abschnitt, um kanalübergreifende Geschäftsregeln zu erstellen, um zu steuern, wie oft Benutzerinnen und Benutzer eine Nachricht erhalten oder in eine Journey eintreten. [Weitere Informationen](../conflict-prioritization/rule-sets.md)
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](../reports/alerts.md)
 
@@ -263,4 +263,4 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Auswählen einer Entscheidungsrichtlinie"
->abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und für die richtige Zielgruppe bereitstellen."
+>abstract="Mit einer Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und für die richtige Zielgruppe bereitgestellt werden."

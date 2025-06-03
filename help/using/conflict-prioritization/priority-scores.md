@@ -3,12 +3,11 @@ title: Zuweisen von Prioritätswerten zu Journeys und Kampagnen
 description: Erfahren Sie, wie Sie Journeys und Kampagnen Prioritätswerte zuweisen.
 role: User
 level: Beginner
-badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -22,11 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine Journey zu priorisieren, wenn eine erzwungene Begrenzung vorliegt, z. B. eine Häufigkeitsbegrenzung. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher der Wert, desto höher die Priorität. "
-
->[!AVAILABILITY]
->
->Konflikt- und Priorisierungsfunktionen sind derzeit für eine ausgewählte Gruppe von Kundinnen und Kunden verfügbar (eingeschränkte Verfügbarkeit). Sie werden in Zukunft schrittweise für weitere Benutzende eingeführt. Wenden Sie sich an Ihr Accountteam, wenn Sie auf die Warteliste für diese Funktionen gesetzt werden möchten.
+>abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist wichtig, wenn eine Journey priorisiert werden soll, wenn eine erzwungene Einschränkung vorliegt, z. B. eine Frequenzbegrenzung. Geben Sie einen numerischen Wert ein (von 0 bis 100). Bitte beachten Sie: Je höher der Wert, desto höher die Priorität. "
 
 Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätswert zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeittsbegrenzung). In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mitteilungen infrage kommt und Sie selektiv auswählen möchten, welche sie betreten und erhalten soll, sollten Sie dieses Feld verwenden.
 
@@ -44,8 +39,8 @@ Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen
 
 >[!IMPORTANT]
 >
->Wenn zwei Kampagnen die gleiche Priorität haben, wird die Kampagne angezeigt, die zuerst aktiviert wurde.
+>Wenn zwei Journey oder Kampagnen denselben Prioritätswert aufweisen, verfügt das System nicht über einen zeitaufwendigen Mechanismus. Sicherstellen, dass Prioritätswerte eindeutig sind, um Konflikte zu vermeiden.
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
