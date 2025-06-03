@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 33%
 
 ---
@@ -36,7 +36,7 @@ Zum Konfigurieren der Zugriffssteuerung für Journey Optimizer benötigen Sie Sy
 
 Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf diesen Schlüsselkonzepten:
 
-* **[!UICONTROL Rolle]**: Rollen beziehen sich auf eine Sammlung von Benutzern, die dieselben Berechtigungen und Sandboxes verwenden. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen innerhalb Ihrer Organisation einfach verwalten. Eine Rolle verfügt über eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen.
+* **[!UICONTROL Rollen]**: Rollen beziehen sich auf eine Sammlung von Benutzern, die dieselben Berechtigungen und Sandboxes verwenden. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen innerhalb Ihrer Organisation einfach verwalten. Eine Rolle verfügt über eine Reihe von Einzelrechten (Berechtigungen), die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen.
 Mit [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** mit unterschiedlichen Berechtigungsebenen auswählen, die Sie Ihren Benutzenden zuweisen können. Weitere Informationen zu den verfügbaren **integrierten Rollen** finden Sie auf [dieser Seite](ootb-product-profiles.md).
 
 * **[!UICONTROL Berechtigungen]**: Berechtigungen sind Einzelrechte, mit denen Sie die Berechtigungen definieren können, die „Rollen **[!UICONTROL zugewiesen]**. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](high-low-permissions.md).

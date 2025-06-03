@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 65%
+source-wordcount: '710'
+ht-degree: 51%
 
 ---
 
 # Verwalten von Benutzenden und Rollen {#manage-permissions}
-
->[!IMPORTANT]
->
-> Die einzelnen im Folgenden beschriebenen Verfahren können nur von **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Admins durchgeführt werden.
 
 **[!UICONTROL Rollen]** beziehen sich auf eine Sammlung von Benutzenden mit denselben Berechtigungen und Sandboxes. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen in Ihrer Organisation einfach verwalten.
 
@@ -29,6 +25,12 @@ Mit dem [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener
 Wenn ein(e) Benutzende(r **[!UICONTROL zu einer]** Rolle) gehört, erhält er/sie Zugriff auf die Adobe-Apps und -Services, die im Produkt enthalten sind.
 
 Wenn die bereits vorhandenen Rollen nicht den spezifischen Anforderungen Ihrer Organisation entsprechen, können Sie auch benutzerdefinierte **[!UICONTROL Rollen]** erstellen, um eine Feinabstimmung für den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche vorzunehmen. Auf diese Weise stellen Sie sicher, dass jeder Benutzer nur Zugriff auf die Ressourcen und Tools hat, die er zur effizienten Ausführung seiner Aufgaben benötigt.
+
+
+>[!IMPORTANT]
+>
+>Die im Folgenden beschriebenen Schritte und Verfahren können nur von einem (Produkt **[!UICONTROL oder]** System ]**Administrator durchgeführt**[!UICONTROL .
+
 
 ## Zuweisen einer Rolle {#assigning-role}
 
@@ -62,13 +64,15 @@ Beim Zugriff auf die Instanz wird Ihren Benutzenden je nach den in der Rolle **[
 
 ## Bearbeiten einer vorhandenen Rolle {#edit-product-profile}
 
-Für vorkonfigurierte oder benutzerdefinierte **[!UICONTROL Rollen]** können Sie jederzeit Berechtigungen hinzufügen oder löschen.
+Für integrierte oder benutzerdefinierte **[!UICONTROL Rollen]** können Sie sich jederzeit entscheiden, Berechtigungen hinzuzufügen oder zu löschen.
 
-In diesem Beispiel sollen **[!UICONTROL Berechtigungen]** im Zusammenhang mit der Ressource **[!UICONTROL Journeys]** für Benutzende hinzugefügt werden, die der **[!UICONTROL Rolle]** „Journey-Viewer“ zugewiesen sind. Diese Benutzenden können dann Journeys veröffentlichen.
+Im folgenden Beispiel möchten wir „Berechtigungen **[!UICONTROL im Zusammenhang mit]** **[!UICONTROL Journey]**-Ressource für Benutzende hinzufügen, die der Journey-Viewer-Rolle **[!UICONTROL sind]**. Diese Benutzenden können dann Journeys veröffentlichen.
 
-Beachten Sie, dass sich die Änderung einer vorkonfigurierten oder benutzerdefinierten **[!UICONTROL Rolle]** auf alle Benutzenden auswirkt, die dieser **[!UICONTROL Rolle]** zugewiesen sind.
+>[!IMPORTANT]
+>
+>Änderungen an einer integrierten oder benutzerdefinierten Rolle wirken sich auf alle Benutzenden aus, die dieser Rolle zugewiesen sind.
 
-1. Um Benutzenden eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte Rolle aus (hier die **[!UICONTROL Rolle]** „Journey-Viewer“).
+1. Um eine Rolle im [!DNL Permissions] Produkt zu bearbeiten, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte Rolle aus, hier den Journey-Viewer **[!UICONTROL Rolle]**.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. Klicken Sie im Dashboard **[!UICONTROL Rolle]** auf **[!UICONTROL Bearbeiten]**.
@@ -85,7 +89,7 @@ Beachten Sie, dass sich die Änderung einer vorkonfigurierten oder benutzerdefin
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-Bei Bedarf können Sie auch eine neue Rolle mit bestimmten Berechtigungen erstellen. Weiterführende Informationen hierzu finden Sie unter [Erstellen einer neuen Rolle](#create-product-profile).
+Bei Bedarf können Sie auch eine neue Rolle mit bestimmten Berechtigungen erstellen.
 
 ## Erstellen einer neuen Rolle {#create-product-profile}
 
