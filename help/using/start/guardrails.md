@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 
 Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-Berechtigungen, Produktbeschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
+Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} bevor Sie beginnen.
+Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
 
 ## Unterstützte Browser {#browsers}
 
@@ -124,7 +124,7 @@ Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journ
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* Ein Profil kann nicht mehrmals zur gleichen Zeit auf derselben Journey für alle aktiven (Versionen [ Journey) ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
+* Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey für alle aktiven [Journey-Versionen](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version) vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
 
 ### Journey-Versionen {#journey-versions-g}
 
@@ -212,10 +212,10 @@ Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/au
 
 ### Ausdruckseditor {#expression-editor}
 
-Die folgenden Leitplanken gelten für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md):
+Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gelten die folgenden Leitlinien:
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
-* `timeSeriesEvents` Attribute können im Ausdruckseditor nicht verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`.
+* `timeSeriesEvents`-Attribute können nicht im Ausdruckseditor verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`-Schema.
 
 
 ### In-App-Aktivität {#in-app-activity-limitations}

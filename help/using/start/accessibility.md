@@ -8,17 +8,17 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
 
 # Barrierefreiheit in Journey Optimizer{#accessibility}
 
-Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Erfahren Sie mehr über das Engagement von Adobe für Barrierefreiheit auf der Seite [Barrierefreiheit in Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Mehr über das Engagement von Adobe für Barrierefreiheit erfahren Sie auf der [Adobe-Seite zu Barrierefreiheit](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Um die Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer[&#128279;](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
+Um Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten [Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
 
 Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
@@ -27,7 +27,7 @@ Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Ado
 * Farbkontrast
 * Validierung von Pflichtfeldern
 
-Funktionen zur Barrierefreiheit in Adobe Experience Platform werden [in dieser Dokumentation) ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target="_blank"}.
+Funktionen zur Barrierefreiheit in Adobe Experience Platform werden [in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target="_blank"} beschrieben.
 
 Die folgenden gängigen Tastaturbefehle sind in [!DNL Journey Optimizer] verfügbar:
 

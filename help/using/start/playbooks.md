@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Um Ihren Anwendungsfall zu implementieren, können Sie zu jedem Objekt navigiere
 
 Darüber hinaus können Sie die Playbook-Assets in andere Sandboxes importieren. Auf diese Weise können Sie die generierten Assets an Ihren vorhandenen Assets ausrichten und sicherstellen, dass sie mit Ihren Daten kompatibel sind, falls Sie bereits eigene Schemata, Felder und Feldergruppen eingerichtet haben. Diese Schritte werden in der Dokumentation zu den Playbooks für Anwendungsfälle beschrieben: [Veröffentlichen von Playbook-generierten Assets in anderen Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=de){target="_blank"}.
 
-## Eigene Playbooks erstellen (private Betaversion) {#create}
+## Erstellen eigener Playbooks (Private Beta) {#create}
 
 >[!AVAILABILITY]
 >
->Die Erstellung von Anwendungsfall-Playbooks ist derzeit nur für eine Reihe von Organisationen als private Beta-Version verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+>Die Erstellung von Anwendungsfall-Playbooks ist derzeit nur für eine Reihe von Organisationen als Private Beta verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Zusätzlich zu vordefinierten Playbooks können Sie eigene Playbooks in Adobe Experience Platform erstellen und freigeben.
 

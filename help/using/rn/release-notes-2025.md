@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Im Folgenden sind die neuen Funktionen dieser Version aufgeführt.
 <tr>
 <td>
 <p>Adobe Journey Optimizer lässt sich nun mit Adobe Express integrieren, sodass Sie Ihre Kreativ-Assets nahtlos mit der Journey-Orchestrierung verbinden können. Diese Integration vereinfacht die kampagnenübergreifende Gestaltung und Bereitstellung personalisierter Inhalte. </p>
-<p>Diese Integration ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.</p>
+<p>Die Integration ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -278,7 +278,7 @@ Zusätzlich zu den vorhandenen Funktionen für den Testversand stehen neue APIs 
 
 **Playbooks für Anwendungsfälle**
 
-* **Playbooks Authoring and Sharing (Private Beta)** - Sie können jetzt eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als private Beta-Version verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. [Weitere Informationen](../start/playbooks.md)
+* **Erstellung und Freigabe von Playbooks (Private Beta)** – Sie können nun eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als Private Beta verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. [Weitere Informationen](../start/playbooks.md)
 
 **Navigation**
 

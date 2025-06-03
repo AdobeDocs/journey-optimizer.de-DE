@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 94%
 
 In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet mehrere Tools zum Konflikt-Management und zur Priorisierung.
 
-Diese Tools sind für Kampagnen und unitäre, Zielgruppen-Qualifizierungs- und Lese-Zielgruppen-Journey verfügbar.
+Diese Tools sind für Kampagnen und für unitäre Journeys sowie Journeys vom Typ „Zielgruppen-Qualifizierung“ und „Zielgruppe lesen“ verfügbar.
 
-Durch die Nutzung dieser Tools können Sie sicherstellen, dass Ihre Marketing-Maßnahmen reibungsloser und zielgerichteter verlaufen, die richtige Botschaft zur richtigen Zeit bereitgestellt und Konflikte und Überlastungen vermieden werden.
+Mithilfe dieser Tools können Sie reibungslosere und zielgerichtetere Marketing-Maßnahmen gewährleisten und gleichzeitig die richtige Nachricht zur richtigen Zeit senden, wodurch Konflikte und Überlastungen vermieden werden.
 
 ## Tools für Konflikt-Management und Priorisierung {#tools}
 
