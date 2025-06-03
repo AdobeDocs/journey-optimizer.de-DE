@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 97%
+source-wordcount: '1236'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,10 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
-### Wichtige Hinweise {#important-notes-segment-qualification}
+### Schutzmechanismen und Empfehlungen {#important-notes-segment-qualification}
+
+Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die Zielgruppen-Qualifizierung zu erstellen. Siehe auch [Best Practices für die Zielgruppenqualifizierung](#best-practices-segments).
+
 
 * Journeys vom Typ „Zielgruppenqualifizierung“ sind in erster Linie für die Verwendung mit Streaming-Zielgruppen konzipiert: Diese Kombination sorgt für ein besseres Echtzeit-Erlebnis. Wir empfehlen Ihnen dringend, **Streaming-Zielgruppe** nur in Aktivitäten für die Zielgruppenqualifizierung zu verwenden.
 
@@ -55,7 +58,11 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 * Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
 
-Siehe auch [Best Practices für die Zielgruppenqualifizierung](#best-practices-segments) unten.
+>[!CAUTION]
+>
+>[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+
+
 
 ### Konfigurieren der Aktivität {#configure-segment-qualification}
 
@@ -127,7 +134,7 @@ Bei Verwendung der Zielgruppenqualifizierung für Streaming-Zielgruppen besteht 
 
 Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### So vermeiden Sie Überlastungen {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ Bevor Sie die Zielgruppe auf einer Journey verwenden, sollten Sie immer zuerst d
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
