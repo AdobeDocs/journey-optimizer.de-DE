@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -114,7 +114,7 @@ Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Butto
 
 >[!IMPORTANT]
 >
->Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits im Gange ist.
+>Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorfälle, wenn der Versand bereits im Gange ist.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
