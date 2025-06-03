@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 96%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 96%
       + [Live-Bericht in Ihrer Journey](using/building-journeys/report-journey.md)
    + Verwalten von Journeys{#manage-journey}
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
-      + [Profileintritt in Journey](using/building-journeys/entry-management.md)
-      + [Zusätzliche Kennung in ereignisgesteuerten Journey](using/building-journeys/supplemental-identifier.md)
+      + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
+      + [Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys](using/building-journeys/supplemental-identifier.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Versandzeitoptimierung](using/building-journeys/send-time-optimization.md)
       + [Beenden der Journey](using/building-journeys/end-journey.md)
@@ -180,10 +180,10 @@ ht-degree: 96%
    + [Schritte zum Erstellen orchestrierter Kampagnen](using/ms/gs-campaign-steps.md)
    + Konfigurationsschritte {#ms-config}
       + [Erstellen relationaler Schemata](using/ms/ms-schemas.md)
-   + Erstellungsetappen{#create-ms-campaign}
+   + Erstellungsschritte{#create-ms-campaign}
       + [Erstellen einer orchestrierten Kampagne](using/ms/create-ms-campaign.md)
       + [Konfigurieren der Kampagneneinstellungen](using/ms/ms-campaign-settings.md)
-      + [Kampagnen planen und starten](using/ms/start-monitor-campaigns.md)
+      + [Planen und Starten von Kampagnen](using/ms/start-monitor-campaigns.md)
       + [Erstellen von Abfragen](using/ms/ms-query-modeler.md)
    + Aktivitäten {#design-campaigns}
       + [Erste Schritte mit Aktivitäten](using/ms/activities/about-activities.md)
@@ -203,7 +203,7 @@ ht-degree: 96%
       + [Kanalaktionen](using/ms/activities/channels.md)
       + [Personalisieren von Inhalten](using/ms/ms-personalization.md)
       + [Testen und Validieren von Nachrichten](using/ms/ms-proofs.md)
-   + Reporting und Überwachung {#report}
+   + Reporting und Monitoring {#report}
       + [Reporting](using/ms/reporting-campaigns.md)
 + Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
@@ -221,8 +221,8 @@ ht-degree: 96%
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen von Testprofilen](using/content-management/test-profiles.md)
       + [Vorschau mit Testprofilen](using/content-management/preview.md)
-      + [Durchführen von Testsendungen mithilfe von Testprofildaten](using/content-management/proofs.md)
-      + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
+      + [Durchführen von Testsendungen mit Testprofildaten](using/content-management/proofs.md)
+      + [Testen des E-Mail-Renderings](using/content-management/rendering.md)
       + [Simulieren von Inhaltsvarianten](using/test-approve/simulate-sample-input.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
@@ -242,7 +242,7 @@ ht-degree: 96%
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
-            + [E-Mail-Designs nutzen](using/email/apply-email-themes.md)
+            + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
          + Gestalten von Inhalten {#add-content}
             + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
             + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
@@ -316,7 +316,7 @@ ht-degree: 96%
          + [Leitlinien und Voraussetzungen](using/code-based/code-based-prerequisites.md)
          + [Code-basierte Erlebnisoberflächen](using/code-based/code-based-surface.md)
          + [Beispiele für Implementierungsmethoden](using/code-based/code-based-implementation-samples.md)
-         + [Entscheidungen bei Code-basierten Erlebnisimplementierungen](using/code-based/code-based-decisioning-implementations.md)
+         + [Entscheidungsfindung bei Code-basierten Erlebnisimplementierungen](using/code-based/code-based-decisioning-implementations.md)
          + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
       + Erstellen von Code-basierten Erlebnissen {#create-code-based-experiences}
          + [Aufbauen und Entwerfen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
@@ -396,7 +396,7 @@ ht-degree: 96%
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
    + Lösungsübergreifende Anwendungsfälle {#combine}
-      + [Kombinieren Sie Lösungen zur Verwaltung Ihrer Inhalte](using/integrations/content-integrations.md)
+      + [Kombinieren von Lösungen zur Verwaltung von Inhalten](using/integrations/content-integrations.md)
       + [Arbeiten mit Experience Manager Assets](using/integrations/assets.md)
       + [Arbeiten mit Adobe Stock](using/integrations/stock.md)
       + [Arbeiten mit Adobe Express](using/integrations/express.md)
@@ -544,7 +544,7 @@ ht-degree: 96%
       + Konfigurieren der Elementauswahl {#selection}
          + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
          + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking.md)
-         + [Verwenden des KI-Formel-Builders](using/experience-decisioning/exd-ranking-formulas.md)
+         + [Verwenden des KI-Formel-Builder](using/experience-decisioning/exd-ranking-formulas.md)
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
       + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
@@ -753,7 +753,7 @@ ht-degree: 96%
       + [Beheben von Fehlern bei einer benutzerdefinierten Aktion](using/action/troubleshoot-custom-action.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
 + Verbinden von Systemen und Umgebungen {#connect-systems}
-   + [Integration mit anderen Lösungen](using/integrations/ajo-integrations.md)
+   + [Integrieren mit anderen Lösungen](using/integrations/ajo-integrations.md)
    + [Arbeiten mit Journey Optimizer-APIs](using/configuration/ajo-apis.md)
    + Integrieren von Journeys mit externen Systemen {#external-systems}
       + [Journey-Integration mit externen Systemen](using/configuration/external-systems.md)
@@ -768,12 +768,11 @@ ht-degree: 96%
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
 + Zugangssteuerung {#access-control}
-   + Zugangssteuerung – Übersicht {#privacy}
-      + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
-      + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
-      + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
-      + [Berechtigungsstufen](using/administration/high-low-permissions.md)
+   + [Erste Schritte mit der Zugriffskontrolle](using/administration/permissions-overview.md)
    + [Verwalten von Benutzenden und Rollen](using/administration/permissions.md)
+   + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
+   + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
+   + [Berechtigungsstufen](using/administration/high-low-permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
 + Datenschutz {#privacy}

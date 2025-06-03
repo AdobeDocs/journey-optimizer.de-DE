@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 65%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 100%
 
 **[!UICONTROL Rollen]** beziehen sich auf eine Sammlung von Benutzenden mit denselben Berechtigungen und Sandboxes. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen in Ihrer Organisation einfach verwalten.
 
-Mit [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** wählen, die über jeweils unterschiedliche Berechtigungen verfügen und die Sie Benutzenden zuweisen können. Weitere Informationen zu den verfügbaren **[!UICONTROL Rollen]** finden Sie auf dieser [Seite](ootb-product-profiles.md).
+Mit dem [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** mit unterschiedlichen Berechtigungsebenen auswählen, die Sie Ihren Benutzern zuweisen können. Weitere Informationen zu den verfügbaren **[!UICONTROL Rollen]** finden Sie auf dieser [Seite](ootb-product-profiles.md).
 
-Wenn Benutzende zu einer **[!UICONTROL Rolle]** gehören, erhalten sie Zugriff auf die im Produkt enthaltenen Adobe-Apps und -Services.
+Wenn ein(e) Benutzende(r **[!UICONTROL zu einer]** Rolle) gehört, erhält er/sie Zugriff auf die Adobe-Apps und -Services, die im Produkt enthalten sind.
 
-Wenn die bereits vorhandenen Rollen nicht den spezifischen Anforderungen Ihrer Organisation entsprechen, können Sie auch benutzerdefinierte **[!UICONTROL Rollen]** erstellen, um eine Feinabstimmung für den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche vorzunehmen. Auf diese Weise können Sie sicherstellen, dass Benutzende nur Zugriff auf die Ressourcen und Tools haben, die sie jeweils für eine effiziente Durchführung ihrer Aufgaben benötigen.
+Wenn die bereits vorhandenen Rollen nicht den spezifischen Anforderungen Ihrer Organisation entsprechen, können Sie auch benutzerdefinierte **[!UICONTROL Rollen]** erstellen, um eine Feinabstimmung für den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche vorzunehmen. Auf diese Weise stellen Sie sicher, dass jeder Benutzer nur Zugriff auf die Ressourcen und Tools hat, die er zur effizienten Ausführung seiner Aufgaben benötigt.
 
 ## Zuweisen einer Rolle {#assigning-role}
 
-Sie können festlegen, ob Benutzenden eine vorkonfigurierte oder eine benutzerdefinierte **[!UICONTROL Rolle]** zugewiesen wird.
+Sie können Ihren Benutzern eine vordefinierte oder benutzerdefinierte **[!UICONTROL Rolle]** zuweisen.
 
-Die Liste aller vorkonfigurierten Rollen mit zugewiesenen Berechtigungen finden Sie im Abschnitt [Integrierte Rollen](ootb-product-profiles.md).
+Die Liste aller vordefinierten Rollen mit zugewiesenen Berechtigungen ist im Abschnitt [Integrierte Rollen](ootb-product-profiles.md) verfügbar.
 
 So weisen Sie eine **[!UICONTROL Rolle]** zu:
 
@@ -46,17 +46,17 @@ So weisen Sie eine **[!UICONTROL Rolle]** zu:
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein oder wählen Sie den Benutzer in der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Wenn der Benutzer vorher noch nicht in der [!DNL Admin Console] erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=de).
+   Wenn der Benutzer vorher noch nicht in der [!DNL Admin Console] erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=de){target="_blank"}.
 
    ![](assets/do-not-localize/access_control_4.png)
 
-Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
+Ihr Benutzer erhält eine E-Mail, in der er zu Ihrer Instanz weitergeleitet wird.
 
-Weiterführende Informationen zur Benutzerverwaltung finden Sie in der [Dokumentation zur Zugriffssteuerung](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de).
+Weitere Informationen zur Benutzerverwaltung finden Sie in der [Dokumentation zur Zugriffssteuerung](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"}.
 
-Beim Zugriff auf die Instanz wird Ihren Benutzenden je nach den in der **[!UICONTROL Rolle]** zugewiesenen Berechtigungen eine bestimmte Ansicht angezeigt. Wenn die Person nicht den richtigen Zugriff auf eine Funktion hat, wird die folgende Meldung angezeigt:
+Beim Zugriff auf die Instanz wird Ihren Benutzenden je nach den in der Rolle **[!UICONTROL Berechtigungen eine bestimmte Ansicht]**. Wenn der/die Benutzende nicht den richtigen Zugriff auf eine Funktion hat, wird die folgende Meldung angezeigt:
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -75,17 +75,17 @@ Beachten Sie, dass sich die Änderung einer vorkonfigurierten oder benutzerdefin
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. Im Menü **[!UICONTROL Ressourcen]** wird die Liste der Ressourcen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud – von Platform unterstützte Anwendungen]** gelten. Legen Sie Ressourcen per Drag-and-drop ab, um Berechtigungen zuzuweisen.
+1. Im Menü **[!UICONTROL Ressourcen]** wird die Liste der Ressourcen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud – von Platform unterstützte Anwendungen]** gelten. Ziehen Sie Ressourcen per Drag-and-Drop, um Berechtigungen zuzuweisen.
 
    Wählen Sie nun aus dem Ressourcen-Dropdown **[!UICONTROL Journey]** die **[!UICONTROL Berechtigung]** zum Veröffentlichen von Journeys.
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. Klicken Sie bei Bedarf unter **[!UICONTROL Eingeschlossene Berechtigungsobjekte]** auf das X-Symbol, um Berechtigungen oder Ressourcen für die Rolle zu entfernen.
+1. Klicken Sie bei Bedarf unter **[!UICONTROL Eingeschlossene Berechtigungselemente]** auf das X-Symbol, um Berechtigungen oder Ressourcen aus Ihrer Rolle zu entfernen.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-Gegebenenfalls können Sie auch eine neue Rolle mit bestimmten Berechtigungen erstellen. Weiterführende Informationen hierzu finden Sie unter [Erstellen einer neuen Rolle](#create-product-profile).
+Bei Bedarf können Sie auch eine neue Rolle mit bestimmten Berechtigungen erstellen. Weiterführende Informationen hierzu finden Sie unter [Erstellen einer neuen Rolle](#create-product-profile).
 
 ## Erstellen einer neuen Rolle {#create-product-profile}
 
@@ -93,7 +93,7 @@ Gegebenenfalls können Sie auch eine neue Rolle mit bestimmten Berechtigungen er
 
 Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target="_blank"}.
 
-In diesem Beispiel soll eine Rolle mit dem Namen **Journeys nur lesen** erstellt werden, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzende können nur auf Journeys zugreifen und diese anzeigen, können aber nicht auf andere Funktionen wie **[!DNL  Decision management]** oder [!DNL Journey Optimizer] zugreifen.
+In diesem Beispiel erstellen wir eine Rolle mit dem Namen **Journey** schreibgeschützt, in der wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzende können nur auf Journeys zugreifen und diese anzeigen, können aber nicht auf andere Funktionen wie **[!DNL Decision management]** oder [!DNL Journey Optimizer] zugreifen.
 
 So erstellen Sie die **[!UICONTROL Rolle]** **Journeys nur lesen**:
 
@@ -109,7 +109,7 @@ So erstellen Sie die **[!UICONTROL Rolle]** **Journeys nur lesen**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Sie können zwischen verschiedenen Ressourcen wie **[!DNL Journeys]**, **[!DNL Segments]** oder **[!DNL Decision management]** wählen, die in [!DNL Journey Optimizer] im Menü links verfügbar sind.
+1. Wählen Sie aus den verschiedenen Ressourcen wie **[!DNL Journeys]**, **[!DNL Segments]** oder **[!DNL Decision management]** aus, die in [!DNL Journey Optimizer] im Menü links verfügbar sind.
 
    Wählen Sie hier die Ressource **[!UICONTROL Journeys]** aus.
 
@@ -125,4 +125,4 @@ So erstellen Sie die **[!UICONTROL Rolle]** **Journeys nur lesen**:
 
 Ihre **[!UICONTROL Rolle]** wurde nun erstellt und konfiguriert. Jetzt müssen Sie sie den Benutzenden zuweisen.
 
-Weitere Informationen zum Erstellen und Verwalten von Rollen finden Sie in der [Admin Console-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=de).
+Weitere Informationen zur Erstellung und Verwaltung von Rollen finden Sie in der [Dokumentation zu Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=de){target="_blank"}.
