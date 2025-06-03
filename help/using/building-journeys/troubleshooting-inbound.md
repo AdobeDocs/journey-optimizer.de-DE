@@ -83,7 +83,7 @@ Das folgende Diagramm zeigt die Abfolge der Debugging-Schritte, die Sie ausführ
 
 >[!TAB In-App-Kanal]
 
-1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den ]**In-App-Nachrichten**[!UICONTROL  aus.
+1. Wechseln Sie zur Sitzung [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} und wählen Sie im linken Bereich den **In-App-Nachrichten** aus.
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Nachrichten auf Gerät **[!UICONTROL auf die Dropdown-Liste]** Nachrichten“.
 
