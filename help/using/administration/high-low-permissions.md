@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 81%
+source-wordcount: '1087'
+ht-degree: 74%
 
 ---
 
@@ -156,7 +156,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Export suppression list]** auf hoher Ebene können Benutzende die Unterdrückungsliste als CSV-Datei herunterladen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * suppression_list.export
@@ -184,7 +184,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Publish campaigns]** auf hoher Ebene können Benutzende Kampagnen veröffentlichen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
 
@@ -334,7 +334,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Manage landing page settings]** auf höchster Ebene können Benutzende Landingpage-Subdomains und Voreinstellungen lesen, erstellen und bearbeiten.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
 
@@ -363,7 +363,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene können Benutzende Kanalkonfigurationen kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * messages_presets.read
@@ -379,7 +379,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Manage PTR records]** auf hoher Ebene können Benutzende PTR-Einträge, die basierend auf der Subdomain konfiguriert wurden, lesen und bearbeiten.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * PTR_records.read
@@ -390,7 +390,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Die Berechtigung **[!DNL Manage Seedlist]** auf hoher Ebene erlaubt Benutzenden das Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * seedlist.read
@@ -401,7 +401,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL Manage SMS subdomains]** auf hoher Ebene können Benutzende SMS-Subdomains lesen, erstellen, bearbeiten und löschen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * sms_subdomains.read
@@ -444,7 +444,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL View messages general settings]** auf hoher Ebene können Benutzende allgemeine Nachrichteneinstellungen wie Ausführungsadressen anzeigen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * messages_general_settings.read
@@ -456,7 +456,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL View messages presets]** auf hoher Ebene können Benutzende Nachrichtenvoreinstellungen anzeigen.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
       * messages_presets.read
@@ -470,7 +470,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 * Mit der Berechtigung **[!DNL View PTR records]** auf hoher Ebene können Benutzende PTR-Einträge anzeigen, die basierend auf der Subdomain konfiguriert wurden.
 
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
++++ Diese Berechtigung umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * Spezifisch für Journey Optimizer:
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## KI-Assistent-Ressource {#ai-permissions}
