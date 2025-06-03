@@ -7,10 +7,10 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
+source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 40%
 
 ---
 
@@ -21,12 +21,12 @@ Bei einer Identität handelt es sich um Daten, die für eine Entität eindeutig 
 * Der **Identity-Namespace** dient als Indikator für den Kontext, auf den sich eine Identität bezieht.
 * Der **Identitätswert** ist eine Zeichenfolge, die für eine Entität steht.
 
-Nehmen wir die Telefonnummer 555-555-1234 als Beispiel. Die Zeichenfolge „555-555-1234“ ist hier ein **Identitätswert**, der in einen **Identity-Namespace** „Telefon“ kategorisiert werden könnte.
+Nehmen wir zum Beispiel die Telefonnummer 555-555-1234. In diesem Fall ist die Zeichenfolge „555-555-1234“ ein **Identitätswert** der in einen „Telefon“-**(Identity-Namespace) kategorisiert** könnte.
 
-Über das Menü **Identitäten** in [!DNL Adobe Journey Optimizer] können Sie die verschiedenen Identifikatoren, mit denen die Kundinnen und Kunden in Ihrer Datenbank vorliegen, effizient durchsuchen.
+Das Menü **Identitäten** in [!DNL Adobe Journey Optimizer] ermöglicht es Benutzenden, effizient die verschiedenen Kennungen zu durchsuchen, aus denen die Kundinnen und Kunden in ihrer Datenbank bestehen.
 
 ![](assets/identities-home.png)
 
-In einem **Identitätsdiagramm** werden die Beziehungen zwischen den verschiedenen Identitäten einer Kundin oder eines Kunden zusammengefasst. Dort wird visuell veranschaulicht, wie die Kundin oder der Kunde auf unterschiedlichen Kanälen mit Ihrer Marke interagiert. Alle Identitätsdiagramme werden von Adobe Experience Platform Identity Service bei Kundenaktivität zusammen verwaltet und aktualisiert.
+Es bietet ein **Identitätsdiagramm**, eine Zusammenstellung der Beziehungen zwischen verschiedenen Identitäten für eine bestimmte Kundin oder einen bestimmten Kunden. Dieses Diagramm zeigt visuell, wie ein Kunde über verschiedene Kanäle hinweg mit einer Marke interagiert. Alle Diagramme zur Kundenidentität werden von Adobe Experience Platform Identity Service als Reaktion auf Kundenaktivität gemeinsam verwaltet und aktualisiert.
 
-Detaillierte Informationen zum Arbeiten mit Identitäten finden Sie in der [Identity Service-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
+Ausführliche Informationen zum Arbeiten mit Identitäten finden Sie in der [Identity Service-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
