@@ -32,7 +32,7 @@ In diesem Beispiel erstellen Sie eine Zielgruppe für alle Kundinnen und Kunden,
 
    ![](assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Erfahren Sie in der Dokumentation zum Segmentierungs[Service , wie Sie Audiences ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Erfahren Sie in der Dokumentation zum Segmentierungs[Service , wie Sie Audiences ](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
