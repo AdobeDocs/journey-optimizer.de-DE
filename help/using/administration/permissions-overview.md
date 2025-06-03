@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 38%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -36,13 +36,14 @@ Zum Konfigurieren der Zugriffssteuerung für Journey Optimizer benötigen Sie Sy
 
 Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf diesen Schlüsselkonzepten:
 
-* **[!UICONTROL Rolle]**: Rollen beziehen sich auf eine Sammlung von Benutzern, die dieselben Berechtigungen und Sandboxes verwenden. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen innerhalb Ihrer Organisation einfach verwalten. Eine Rolle verfügt über eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Mit [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** mit unterschiedlichen Berechtigungsebenen auswählen, die Sie Ihren Benutzenden zuweisen können. Weitere Informationen zu den verfügbaren **integrierten Rollen** finden Sie auf [dieser Seite](ootb-product-profiles.md).
+* **[!UICONTROL Rolle]**: Rollen beziehen sich auf eine Sammlung von Benutzern, die dieselben Berechtigungen und Sandboxes verwenden. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen innerhalb Ihrer Organisation einfach verwalten. Eine Rolle verfügt über eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen.
+Mit [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** mit unterschiedlichen Berechtigungsebenen auswählen, die Sie Ihren Benutzenden zuweisen können. Weitere Informationen zu den verfügbaren **integrierten Rollen** finden Sie auf [dieser Seite](ootb-product-profiles.md).
 
-* **[!UICONTROL Berechtigungen]**: Einzelrechte, mit denen Sie die Autorisierungen definieren können, die **[!UICONTROL Rollen]** zugewiesen sind. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](high-low-permissions.md).
+* **[!UICONTROL Berechtigungen]**: Berechtigungen sind Einzelrechte, mit denen Sie die Berechtigungen definieren können, die „Rollen **[!UICONTROL zugewiesen]**. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](high-low-permissions.md).
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. Weitere Informationen über [Verwendung von Sandboxes](sandboxes.md).
+* **[!UICONTROL Sandboxes]**: Virtuelle Sandboxes unterteilen Instanzen in separate, isolierte virtuelle Umgebungen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. Weitere Informationen über [Verwendung von Sandboxes](sandboxes.md).
 
 * **Objektbasierte Zugriffssteuerung**: Beschriftungen zur Einschränkung des Zugriffs auf ein Objekt. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Nutzern und sorgt für einen weiteren Schutz personenbezogener Daten. Erfahren Sie mehr über [objektbasierte Zugriffsverwaltung](object-based-access.md).
 
@@ -52,6 +53,7 @@ Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf diesen Schlüssel
 ## Tauchen wir tiefer in die Materie ein
 
 Nachdem Sie nun über ein Verständnis der Zugriffssteuerungskonzepte in **[!DNL Journey Optimizer]** verfügen, ist es an der Zeit, sich näher mit diesen Dokumentationsabschnitten zu befassen, um mit der Konfiguration von Berechtigungen zu beginnen.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -79,9 +81,7 @@ Nachdem Sie nun über ein Verständnis der Zugriffssteuerungskonzepte in **[!DNL
 <div>
 <a href="sandboxes.md"><strong>Verwalten von Sandboxes</strong></a>
 </div>
-<p>
-</td>
-<td>
+<p></td>
 <td>
 <a href="attribute-based-access.md">
 <img alt="Attributbasierte Zugriffssteuerung" src="assets/do-not-localize/data-access.jpeg">
@@ -91,5 +91,4 @@ Nachdem Sie nun über ein Verständnis der Zugriffssteuerungskonzepte in **[!DNL
 </div>
 <p>
 </td>
-<td>
 </tr></table>
