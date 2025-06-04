@@ -1,0 +1,47 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Schritte zum Erstellen von orchestrierten Kampagnen
+description: Wichtige Schritte zum Erstellen koordinierter Kampagnen mit Adobe Journey Optimizer
+badge: label="Alpha"
+hide: true
+hidefromtoc: true
+exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 3%
+
+---
+
+# Schritte zum Erstellen von orchestrierten Kampagnen {#orchestrated-campaign-steps}
+
++++ Inhaltsverzeichnis
+
+| Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
+|---|---|---|---|
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](orchestrated-query-modeler.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
+
+{style="table-layout:fixed"}
+
++++
+
+* Greifen Sie auf orchestrierte Kampagnen zu, durchsuchen Sie Ihre Kampagnenliste, fügen Sie Tags hinzu, entdecken Sie Schnellaktionen. Weitere Informationen
+* Schemata erstellen/erweitern, Datensätze einrichten, Datenaufnahme konfigurieren
+
+* Erstellen von Segmenten aus aufgenommenen Daten
+* Verwenden der Arbeitsflächen-Aktivitäten
+* Validieren des Lebenszyklus einer orchestrierten Kampagne
+
+* Senden von Nachrichten - E-Mail und SMS
+* Anreicherungsbasierte Personalisierung verwenden
+* Überprüfen von Reporting-Dashboards
+
+* Testen der direkten Personalisierung ohne Anreicherungsaktivität
+* Retargeting für Feedback-Ereignisse
+* Journey mit E-Mail und SMS erstellen (in Kürze Push-Benachrichtigungen)
+
+* Validieren von Beziehungen mit mehreren Entitäten bei Segmentierung, Personalisierung und Reporting
+
+
+
