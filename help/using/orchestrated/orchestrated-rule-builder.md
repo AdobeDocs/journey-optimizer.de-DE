@@ -1,0 +1,62 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Arbeiten mit dem Regel-Builder
+description: Erfahren Sie, wie Sie Regeln für Ihre koordinierten Kampagnen erstellen
+badge: label="Alpha"
+hide: true
+hidefromtoc: true
+exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
+source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 16%
+
+---
+
+
+# Arbeiten mit dem Regel-Builder {#orchestrated-rule-builder}
+
++++ Inhaltsverzeichnis
+
+| Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
+|---|---|---|---|
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
+
+Orchestrierte Kampagnen enthalten einen Regel-Builder, der den Prozess der Filterung der Datenbank anhand verschiedener Kriterien vereinfacht. Der Regel-Builder verwaltet sehr komplexe und lange Abfragen effizient und bietet somit mehr Flexibilität und Präzision.
+
+Außerdem werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos präzisieren und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppen-Targeting- und Segmentierungsstrategien nutzen können.
+
+## Zugriff auf den Regel-Builder
+
+Der Regel-Builder ist beim Erstellen einer Abfrage in einer Aktivität **[!UICONTROL Zielgruppe erstellen]** verfügbar, um eine Zielgruppe anzusprechen. Damit können Sie die Population angeben, die Sie ansprechen möchten, und mühelos neue Zielgruppen erstellen, die auf Ihre Bedürfnisse zugeschnitten sind.
+
+![Bild mit der Aktivität „Zielgruppe aufbauen“](assets/rule-builder-query.png)
+
+## Benutzeroberfläche des Regel-Builders {#interface}
+
+Der Regel-Builder bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, und einen Eigenschaftenbereich mit Informationen zur Regel.
+
+![Bild mit der Benutzeroberfläche des Regel-Builders](assets/rule-builder-interface.png)
+
+* Auf der **zentralen Arbeitsfläche** fügen Sie die verschiedenen Komponenten hinzu und kombinieren sie, um Ihre Regel zu erstellen. Eine Symbolleiste bietet Optionen zur einfachen Bearbeitung der Regelkomponenten:
+
+  | Symbolleistensymbol | Beschreibung |
+  |--- |--- |
+  | ![Auswahlsymbol „Nach oben“](assets/do-not-localize/rule-builder-icon-up.svg) | Verschieben Sie die Komponente in einer Zeile nach oben. |
+  | ![Auswahlsymbol „Nach unten“](assets/do-not-localize/rule-builder-icon-down.svg) | Verschieben der Komponente in einer Zeile nach unten. |
+  | ![Symbol für die Gruppenauswahl](assets/do-not-localize/rule-builder-icon-group.svg) | Fügen Sie zwei Komponenten in eine Gruppe ein. |
+  | ![Auswahlsymbol „Gruppierung aufheben](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Trennen Sie die Komponenten einer einzelnen Gruppe. |
+  | ![Symbol „Alle erweitern“](assets/do-not-localize/rule-builder-icon-expand.svg) | Erweitern Sie alle Gruppen. |
+  | ![Symbol „Alle reduzieren“](assets/do-not-localize/rule-builder-icon-collapse.svg) | Alle Gruppen reduzieren. |
+  | ![Symbol „Alle entfernen“](assets/do-not-localize/rule-builder-icon-delete.svg) | Entfernen Sie alle Gruppen und Komponenten. |
+
+* Der Bereich **[!UICONTROL Regeleigenschaften]** enthält Informationen zu Ihrer Regel. Damit können Sie verschiedene Vorgänge durchführen, um die Regel zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht.
+
+  Dieser Bereich wird angezeigt, wenn Sie eine Abfrage zum Erstellen einer Zielgruppe erstellen. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)
