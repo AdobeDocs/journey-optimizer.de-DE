@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 89%
+source-wordcount: '1441'
+ht-degree: 87%
 
 ---
 
@@ -69,6 +69,9 @@ ht-degree: 89%
 
   Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
+* **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** - Verfügbarkeitsdatum: 4. Juni 2025
+
+  Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
 
 ## Versionshinweise Mai 2025 {#25-5-rn}
 
@@ -306,13 +309,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 <!--* **Form fields in code-based experience content**
 
-  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.-->
 
-* **Decision item attribute support for decisioning rules**
-  
-  You can now leverage decision item attributes to create decisioning rules.
-
-* **Subdomains - 'Custom delegation' method**  
+<!--* **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
   -->
 
