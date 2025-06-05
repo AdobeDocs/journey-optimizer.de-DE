@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '273'
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+workflow-type: tm+mt
+source-wordcount: '274'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Benutzerdefinierte Aktionen"
->abstract="Aktionen sind Verbindungen, über die Sie Kundinnen und Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden."
+>abstract="Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden."
 
-Aktionen sind Verbindungen, über die Sie Kundinnen und Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden.
+Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Mit benutzerdefinierten Aktionen können Sie die Verbindung eines Drittanbietersystems konfigurieren, um Nachrichten oder API-Aufrufe zu senden. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
@@ -48,4 +48,4 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430275?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

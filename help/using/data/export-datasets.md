@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
@@ -34,12 +34,12 @@ Detaillierte Informationen zu den einzelnen Zielen finden Sie in der Adobe Exper
 * [Azure Data Lake Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=de){target="_blank"}
 * [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=de){target="_blank"}
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=de){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=de){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=de){target="_blank"}.
 
 
 ## Voraussetzungen {#prerequisites}
 
-Zum Exportieren von Datensätzen werden die unten aufgelisteten [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions){target="_blank"} benötigt. Lesen Sie die [Übersicht über die Zugriffssteuerung](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de){target="_blank"} oder wenden Sie sich an Ihre Produktadmins, um die erforderlichen Berechtigungen zu erhalten.
+Zum Exportieren von Datensätzen werden die unten aufgeführten [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions){target="_blank"} benötigt. Lesen Sie die [Übersicht über die Zugriffssteuerung](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de){target="_blank"} oder wenden Sie sich an Ihre Produktadmins, um die erforderlichen Berechtigungen zu erhalten.
 
 | Kategorie | Berechtigung |
 |--|--|
@@ -53,9 +53,9 @@ Die wichtigsten Schritte zum Exportieren eines Datensatzes in einen Cloud-Speich
 
 ![](assets/dataset-export-process.png)
 
-Detaillierte Informationen zu jedem Schritt finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}.
+Detaillierte Informationen zu den einzelnen Schritten finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}.
 
-1. **Einrichten des Cloud-Speicher-Ziels**. Falls Sie dies noch nicht getan haben, stellen Sie eine Verbindung zu einem Cloud-Speicher-Ziel aus dem Zielkatalog her. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de#setup){target="_blank"} erfahren Sie, wie Sie eine neue Zielverbindung erstellen.
+1. **Einrichten des Cloud-Speicher-Ziels**. Falls Sie dies noch nicht getan haben, stellen Sie eine Verbindung zu einem Cloud-Speicher-Ziel aus dem Zielkatalog her. Wie Sie eine neue Zielverbindung erstellen, erfahren Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Detaillierte Informationen zu jedem Schritt finden Sie in der [Adobe Experience
 
    <!--![](assets/dataset-export-review.png)-->
 
-Sobald der Export abgeschlossen ist, wird der Inhalt des Datensatzes gemäß dem konfigurierten Zeitplan am Cloud-Speicherort abgelegt. [Informationen zum erfolgreichen Überprüfen eines Datensatzexports](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de#verify){target="_blank"}.
+Sobald der Export abgeschlossen ist, wird der Inhalt des Datensatzes gemäß dem konfigurierten Zeitplan am Cloud-Speicherort abgelegt. [Erfahren Sie, wie Sie einen erfolgreichen Datensatzexport überprüfen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=de#verify){target="_blank"}.
 
 ## Verfügbare Datensätze für den Export {#datasets}
 
@@ -98,6 +98,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „expiryDate“ enthalten, die von „counter_id“ eingegeben wurden. |
 | Datensatz mit AJO-Push-Profilen | Speichert Push-Token eines Profils. |
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
+| AJO SMS-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den SMS-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema „Eingehende Journey Optimizer-Oberflächen“ |
 | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenzugehörigkeiten, die in UPS zurückgeschrieben werden sollen |
 | Profil-Datensatz der Zielgruppen-Orchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppenkompositions-Zielgruppen generiert. Enthält alle Zielgruppenkompositions-Zielgruppen, ihre Attribute und Anreicherungsdaten |
