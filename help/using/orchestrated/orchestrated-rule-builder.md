@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 16%
+source-wordcount: '303'
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 | Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -45,17 +45,7 @@ Der Regel-Builder bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage 
 
 ![Bild mit der Benutzeroberfläche des Regel-Builders](assets/rule-builder-interface.png)
 
-* Auf der **zentralen Arbeitsfläche** fügen Sie die verschiedenen Komponenten hinzu und kombinieren sie, um Ihre Regel zu erstellen. Eine Symbolleiste bietet Optionen zur einfachen Bearbeitung der Regelkomponenten:
-
-  | Symbolleistensymbol | Beschreibung |
-  |--- |--- |
-  | ![Auswahlsymbol „Nach oben“](assets/do-not-localize/rule-builder-icon-up.svg) | Verschieben Sie die Komponente in einer Zeile nach oben. |
-  | ![Auswahlsymbol „Nach unten“](assets/do-not-localize/rule-builder-icon-down.svg) | Verschieben der Komponente in einer Zeile nach unten. |
-  | ![Symbol für die Gruppenauswahl](assets/do-not-localize/rule-builder-icon-group.svg) | Fügen Sie zwei Komponenten in eine Gruppe ein. |
-  | ![Auswahlsymbol „Gruppierung aufheben](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Trennen Sie die Komponenten einer einzelnen Gruppe. |
-  | ![Symbol „Alle erweitern“](assets/do-not-localize/rule-builder-icon-expand.svg) | Erweitern Sie alle Gruppen. |
-  | ![Symbol „Alle reduzieren“](assets/do-not-localize/rule-builder-icon-collapse.svg) | Alle Gruppen reduzieren. |
-  | ![Symbol „Alle entfernen“](assets/do-not-localize/rule-builder-icon-delete.svg) | Entfernen Sie alle Gruppen und Komponenten. |
+* Auf der **zentralen Arbeitsfläche** fügen Sie die verschiedenen Komponenten hinzu und kombinieren sie, um Ihre Regel zu erstellen. [Erfahren Sie, wie Sie eine Regel erstellen](../orchestrated/build-query.md)
 
 * Der Bereich **[!UICONTROL Regeleigenschaften]** enthält Informationen zu Ihrer Regel. Damit können Sie verschiedene Vorgänge durchführen, um die Regel zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht.
 
