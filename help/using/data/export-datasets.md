@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a8e2118290566a4f6864cab0439615ee9720ee17
+source-git-commit: 98ddcbe1d4700341087538da3fb32db4ca9eb7c9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '883'
 ht-degree: 94%
 
 ---
@@ -94,7 +94,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | AJO-Entitäts-Datensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an die Endbenutzenden gesendet werden.  |
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse. |
 | Profildatensatz für interaktive AJO-Nachrichten | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen |
-| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Nachrichten-Versandlogs.  Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. Dieser Datensatz enthält Ereignisse für alle Kanäle SMS/MMS, Briefpost usw., mit Ausnahme von E-Mail. |
+| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Nachrichten-Versandlogs.  Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. Dieser Datensatz enthält Ereignisse für alle Kanäle: E-Mail, SMS/MMS, Briefpost usw. |
 | AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „expiryDate“ enthalten, die von „counter_id“ eingegeben wurden. |
 | Datensatz mit AJO-Push-Profilen | Speichert Push-Token eines Profils. |
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
