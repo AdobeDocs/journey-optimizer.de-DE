@@ -4,7 +4,6 @@ product: journey optimizer
 title: Journey Probelauf
 description: Erfahren Sie, wie Sie eine Journey im Probelauf-Modus veröffentlichen
 feature: Journeys
-topic: Content Management
 role: User
 level: Intermediate
 hide: true
@@ -12,7 +11,7 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
+source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 14%
