@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 14%
 
 ---
@@ -90,7 +90,7 @@ Für jede Aktivität können Sie Folgendes überprüfen:
 
 * **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
-* **[!UICONTROL Exited (Forced Exit)]**: Gesamtzahl der Einzelpersonen, die das Journey angehalten haben.
+* **[!UICONTROL Exited (Forced Exit)]**: Gesamtzahl der Einzelpersonen, die das Journey angehalten haben. Diese Metrik ist für Journey im Probelauf-Modus immer gleich null.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
 
