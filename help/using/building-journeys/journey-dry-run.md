@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 14%
 
 ---
@@ -70,7 +70,7 @@ Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgef
 * **Kanalaktion** Knoten mit E-Mail-, SMS- oder Push-Benachrichtigungen werden nicht ausgeführt.
 * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
 * **Warteknoten** werden während des Probelaufs umgangen.
-Sie können die Warteblock-Timeouts außer Kraft setzen. Wenn Sie Warteblockdauern haben, die länger sind als die zulässige Probelauf-Journey-Dauer, wird diese Verzweigung nicht vollständig ausgeführt.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **Externe**) werden standardmäßig ausgeführt.
 
 >[!NOTE]
@@ -90,7 +90,7 @@ Für jede Aktivität können Sie Folgendes überprüfen:
 
 * **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
-* **[!UICONTROL Ausgestiegen (erzwungener Ausstieg)]**: Gesamtzahl der Einzelpersonen, die den Ausstieg vollzogen haben.
+* **[!UICONTROL Exited (Forced Exit)]**: Gesamtzahl der Einzelpersonen, die das Journey angehalten haben.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
 
