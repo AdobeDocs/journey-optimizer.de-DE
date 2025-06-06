@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 52%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 | Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](create-orchestrated-campaign.md)<br/><br/>[Einstellungen für orchestrierte Kampagnen](orchestrated-campaign-settings.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/><b>[Erstellen Sie Ihre ersten ](build-query.md)</b><br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](create-orchestrated-campaign.md)<br/><br/>[Einstellungen für orchestrierte Kampagnen](orchestrated-campaign-settings.md)<br/><br/>[Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/><b>[Erstellen Sie Ihre ersten ](build-query.md)</b><br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -43,6 +43,8 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
 1. Klicken Sie auf **Schaltfläche „Bedingung hinzufügen**, um eine erste Bedingung für Ihre Abfrage zu erstellen.
 
    Sie können Ihre Abfrage auch mit einem vordefinierten Filter starten. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Vordefinierten Filter auswählen]**.
+
+   ![Bild mit dem Regel-Builder](assets/rule-builder-add.png)
 
 1. Identifizieren Sie das Attribut aus der Datenbank, das als Kriterium für Ihre Bedingung verwendet werden soll. Das Symbol „i“ neben einem Attribut zeigt Informationen über die Tabelle, in der es gespeichert ist, und seinen Datentyp an.
 
@@ -76,13 +78,11 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
 
 1. Klicken Sie **[!UICONTROL Bestätigen]**, um das ausgewählte Attribut zu Ihrer Bedingung hinzuzufügen.
 
-1. Es wird ein Eigenschaftenbereich angezeigt, in dem Sie die gewünschten Werte für das Attribut konfigurieren können.
+1. Es wird ein Eigenschaftenbereich angezeigt, in dem Sie den gewünschten Wert für das Attribut konfigurieren können.
 
    ![Bild, das den Regel-Builder mit einer hinzugefügten Bedingung zeigt](assets/rule-builder-condition.png)
 
-1. Wählen Sie **[!UICONTROL Operator]** aus der Dropdown-Liste aus.
-
-   Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
+1. Wählen Sie **[!UICONTROL Operator]** aus der Dropdown-Liste aus. Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
 
    +++Liste der verfügbaren Operatoren
 
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-   +++
++++
 
 1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können den Ausdruckseditor auch verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf das Symbol ![Bild mit dem Symbol für den Ausdruckseditor](assets/do-not-localize/rule-builder-icon-editor.svg). [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
 
    ![Bild, das die Voreinstellungsoption zeigt](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -220,8 +220,10 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
 * **Berechnen**: Aktualisiert und zeigt die Anzahl der Datensätze an, auf die die Regel abzielt.
 * **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus, oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung ab. 
 
-  >[!IMPORTANT]
-  >
-  >Wählen Sie einen vordefinierten Filter aus dem Bereich Regeleigenschaften aus und ersetzen Sie die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter.
+<br/>
+
+    >[!WICHTIG]
+    >
+    >Wählen Sie einen vordefinierten Filter aus dem Bereich Regeleigenschaften aus, um die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter zu ersetzen.
 
 Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** im , um sie zu speichern.
