@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 86%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** - Verfügbarkeitsdatum: 4. Juni 2025
 
   Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
+
+* **Aktualisierung der Interactive Message Execution API** - Verfügbarkeitsdatum: 6. Juni 2025
+
+  Mit der Interactive Message Execution API können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## Versionshinweise Mai 2025 {#25-5-rn}
 
