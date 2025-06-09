@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehme
 
 ## Wichtigste Vorteile {#journey-dry-run-benefits}
 
-Durch das Anhalten und Fortsetzen von Journey erhalten Marketing-Fachleute mehr Kontrolle und Flexibilität, da Live-Journey vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu beeinträchtigen. Wenn angehalten, werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.
+Durch das Anhalten und Fortsetzen von Journey erhalten Journey-Anwender mehr Kontrolle und Flexibilität, da Live-Journey vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu stören. Wenn angehalten, werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.
 
 Diese Funktion reduziert das Risiko des Versands unbeabsichtigter Nachrichten während Fehlern oder Updates (z. B. Änderung des Nachrichteninhalts), unterstützt ein sichereres Journey-Management und erhöht das Vertrauen der Anwender. Die Einblicke in pausierte Journey und deren Status direkt in der Benutzeroberfläche erhöhen die Transparenz und die betriebliche Agilität.
 
