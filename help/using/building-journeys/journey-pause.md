@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 6%
 
 ---
 
 # Journey anhalten {#journey-pause}
 
-Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. Eine Journey kann für maximal 14 Tage angehalten werden. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Die Journey wird nach Ablauf der Pausenzeit automatisch fortgesetzt. Sie können sie auch [manuell fortsetzen](#journey-resume-steps).
+Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Die Journey wird nach Ablauf der Pausenzeit automatisch fortgesetzt. Sie können sie auch [manuell fortsetzen](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Gehen Sie wie folgt vor, um den Journey anzuhalten:
 
 1. Klicken Sie zur Bestätigung auf **Pause**-Schaltfläche.
 
-Eine Journey kann für maximal 14 Tage angehalten werden.
-
 ## Fortsetzen pausierter Journey {#journey-resume-steps}
 
-Anhaltende Journey können jederzeit manuell wieder aufgenommen werden.
+Anhaltende Journey werden nach Ablauf der maximalen Pausenzeit von 14 Tagen automatisch wieder aufgenommen. Sie können jederzeit manuell fortgesetzt werden.
 
-Gehen Sie wie folgt vor, um die Journey-Pause zu beenden und erneut Journey-Ereignisse zu überwachen:
+Gehen Sie wie folgt vor, um eine pausierte Journey fortzusetzen und wieder Journey-Ereignisse zu überwachen:
 
 1. Öffnen Sie die Journey, die Sie fortsetzen möchten.
 1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche und wählen Sie **Fortsetzen**.
