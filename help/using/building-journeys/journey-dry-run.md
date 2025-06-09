@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 14%
@@ -113,4 +113,4 @@ Sie können auch auf die Berichte **Letzte 24-Stunden** und **Alle-Zeit** für d
 
 Dry Run-Journey müssen manuell angehalten werden. Klicken Sie auf **Schließen**, um den Test zu beenden, und bestätigen Sie den Vorgang.
 
-Nach 14 Tagen wechseln die Probelauf-Journey automatisch in den Entwurfsstatus.
+Nach 14 Tagen wechseln die Probelauf-Journey automatisch in den Status **Entwurf**.
