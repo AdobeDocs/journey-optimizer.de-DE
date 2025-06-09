@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
+source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '830'
 ht-degree: 14%
 
 ---
@@ -39,13 +39,39 @@ Journey Dry Run steigert das Vertrauen der Anwender und den Journey-Erfolg, inde
 
 Mit Journey Dry Run können Sie Probleme frühzeitig identifizieren, Zielgruppenbestimmungsstrategien optimieren und das Journey-Design basierend auf tatsächlichen Daten - und nicht auf Annahmen - verbessern. Dry Run ist direkt in die Journey-Arbeitsfläche integriert und bietet intuitive Berichte und Einblicke in wichtige Leistungsindikatoren, sodass Teams sicher iterieren und Genehmigungs-Workflows optimieren können. Dies erhöht die betriebliche Effizienz, verringert das Launch-Risiko und steigert die Kundeninteraktion.
 
-Letztlich verbessert diese Funktion die Amortisierungszeit, reduziert Journey-Fehler und stärkt die Position von Adobe als vertrauenswürdige Plattform für die Orchestrierung personalisierter, wirkungsvoller Journey.
+Diese Funktion verbessert letztendlich die Time-to-Value und reduziert Journey-Fehler.
 
 Journey Dry Run bringt:
 
 1. **Sichere Testumgebung**: Profile im Probelauf-Modus werden nicht kontaktiert, sodass kein Risiko besteht, dass Nachrichten gesendet werden oder Live-Daten beeinträchtigt werden.
-1. **Zielgruppeneinblicke**: Marketing-Experten können die Erreichbarkeit von Zielgruppen auf verschiedenen Journey-Knoten vorhersagen, einschließlich Opt-outs, Ausschlüssen und anderer Bedingungen.
+1. **Zielgruppeneinblicke**: Journey-Anwender können die Erreichbarkeit der Zielgruppe auf verschiedenen Journey-Knoten vorhersagen, einschließlich Opt-outs, Ausschlüssen und anderer Bedingungen.
 1. **Echtzeit-Feedback**: Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt, ähnlich wie bei Live-Berichten, sodass Marketing-Experten ihr Journey-Design verfeinern können.
+
+
+>[!CAUTION]
+>
+> Die Berechtigungen zum Starten des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Publish journeys]** hoher Ebene beschränkt. Die Berechtigungen zum Starten und Stoppen des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Manage journeys]** hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+
+
+## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
+
+* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten.
+* Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **Live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
+* Journey Dry Run generiert stepEvents. Diese stepEvents haben ein bestimmtes Flag und eine Probelauf-ID:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist, `false` andernfalls
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`Gibt die ID einer Probelauf-Instanz zurück.
+* Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
+
+   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
+   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
+   * **Warteknoten** werden während des Probelaufs umgangen.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt.
+
+>[!NOTE]
+>
+> * Profile im Dry-Run-Modus werden als ansprechbare Profile gezählt.
+> * Dry Run-Journey wirken sich nicht auf Geschäftsregeln aus.
 
 ## Probelauf starten {#journey-dry-run-start}
 
@@ -62,20 +88,7 @@ Gehen Sie wie folgt vor, um Probelauf zu aktivieren:
 
    Während der Transition wird die Statusmeldung **Probelauf aktivieren** angezeigt.
 
-1. Nach der Aktivierung wechselt die Journey in den Probelauf-Modus.
-
-Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
-
-* **Kanalaktion** Knoten mit E-Mail-, SMS- oder Push-Benachrichtigungen werden nicht ausgeführt.
-* **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
-* **Warteknoten** werden während des Probelaufs umgangen.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* **Externe**) werden standardmäßig ausgeführt.
-
->[!NOTE]
->
-> * Profile im Dry-Run-Modus werden als ansprechbare Profile gezählt.
-> * Dry Run-Journey wirken sich nicht auf Geschäftsregeln aus. Beispielsweise wird ein Profil auf einer Probelauf-Journey aufgrund von Regeln wie `1 journey per day` nicht aus anderen Journey ausgeschlossen.
+1. Nach der Aktivierung wechselt die Journey in den **Dry Run**-Modus.
 
 ## Überwachen eines Probelaufs {#journey-dry-monitor}
 
@@ -89,7 +102,7 @@ Für jede Aktivität können Sie Folgendes überprüfen:
 
 * **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
-* **[!UICONTROL Exited (Forced Exit)]**: Gesamtzahl der Einzelpersonen, die das Journey angehalten haben. Diese Metrik ist für Journey im Probelauf-Modus immer gleich null.
+* **[!UICONTROL Exited (Forced Exit)]**: Gesamtzahl der Personen, die die Journey verlassen haben, während sie aufgrund einer Journey-Practitioner-Konfiguration angehalten wurde. Diese Metrik ist für Journey im Probelauf-Modus immer gleich null.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
 
@@ -111,6 +124,6 @@ Sie können auch auf die Berichte **Letzte 24-Stunden** und **Alle-Zeit** für d
 
 ## Probelauf stoppen {#journey-dry-run-stop}
 
-Dry Run-Journey müssen manuell angehalten werden. Klicken Sie auf **Schließen**, um den Test zu beenden, und bestätigen Sie den Vorgang.
+Dry Run Journey **muss** manuell angehalten werden. Klicken Sie auf **Schließen**, um den Test zu beenden, und bestätigen Sie den Vorgang.
 
 Nach 14 Tagen wechseln die Probelauf-Journey automatisch in den Status **Entwurf**.
