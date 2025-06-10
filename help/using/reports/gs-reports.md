@@ -5,10 +5,10 @@ title: Erste Schritte mit Reporting- und Überwachungsfunktionen in [!DNL Adobe 
 description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] - und Überwachungsfunktionen arbeiten.
 role: User
 level: Beginner
-source-git-commit: 89141216428492ede9e540ad6a52e225e79f1abe
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
@@ -102,6 +102,7 @@ Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es
 
 ## Alle Zeitberichte pro Kanal
 
+### Ausgehende Kanäle
 
 Einen ausgehenden Kanal auswählen, um zugehörige globale Berichte zu ermitteln.
 
@@ -116,6 +117,7 @@ Einen ausgehenden Kanal auswählen, um zugehörige globale Berichte zu ermitteln
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Direkt-Mail</strong></a></div></td>
 </tr></table>
 
+### Eingehende Erlebnisse
 
 Ein eingehendes Erlebnis auswählen, um zugehörige globale Berichte zu ermitteln.
 
