@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Ende einer Live-Journey
 
-Journey werden geschlossen, wenn die globale Journey-Zeitüberschreitung erreicht wird oder nach dem letzten Auftreten einer wiederkehrenden zielgruppenbasierten Journey. [Erfahren Sie, wie Journeys geschlossen werden](#close-journey).
+Journeys werden geschlossen, wenn das globale Journey-Timeout erreicht wird, oder nach dem letzten Vorkommen einer wiederkehrenden zielgruppenbasierten Journey. [Erfahren Sie, wie Journeys geschlossen werden](#close-journey).
 
 Um eine Live-Journey zu beenden, empfehlen wir, sie manuell zu [schließen](#close-to-new-entrances). Der Eintritt neuer Kundinnen und Kunden in die Journey wird dann blockiert. Profile, die bereits in die Journey eingetreten sind, bleiben bis zu deren Ende darin.
 
@@ -27,7 +27,7 @@ Sie können nur im Notfall und wenn die gesamte Journey-Verarbeitung sofort been
 
 >[!IMPORTANT]
 >
->* Sie können eine [geschlossene](#close-journey) oder [gestoppte](#stop-journey) Journey weder neu starten noch löschen. Sie können [eine neue Version erstellen](publishing-the-journey.md#journey-versions-journey-versions) oder [duplizieren](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
+>* Sie können eine [geschlossene](#close-journey) oder [gestoppte](#stop-journey) Journey weder neu starten noch löschen. Sie können [eine neue Version](publishing-the-journey.md#journey-versions-journey-versions) von ihr erstellen oder [sie duplizieren](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
 >
 >* Nur abgeschlossene Journeys können gelöscht werden.
 

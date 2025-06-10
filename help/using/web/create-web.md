@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1543'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
 
    >[!NOTE]
    >
-   >Da **Web** eine eingehende Erlebnisaktivität ist, verfügt sie über eine 3-tägige **Warten**-Aktivität. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
+   >Da es sich bei **Web** um eine Aktivität für eingehende Erlebnisse handelt, geht sie mit einer 3-tägigen **Warteaktivität** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-➡️ [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne erstellen](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne erstellen.](#video)
 
 >[!ENDTABS]
 
@@ -153,30 +153,30 @@ Sie können sie auch im Standard-Browser öffnen oder die Test-URL kopieren, um 
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
-## Zur URL umleiten {#web-redirect-to-url}
+## Umleiten zu einer URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
 >title="Umleiten zu einer anderen URL"
->abstract="Geben Sie eine vorhandene URL ein, zu der die Besuchenden Ihrer Seite umgeleitet werden sollen."
+>abstract="Geben Sie eine vorhandene URL ein, zu der die Besuchenden Ihrer Seite weitergeleitet werden sollen."
 
-Beim Erstellen eines Web-Erlebnisses können Sie Besucher zu einer anderen vorhandenen URL umleiten, anstatt eine neue Variante im Web-Designer zu erstellen.
+Beim Erstellen eines Web-Erlebnisses können Sie Besuchende zu einer anderen vorhandenen URL umleiten, anstatt eine neue Variante im Web-Designer zu erstellen.
 
-Mit dieser Kapazität können Sie ein [Inhaltsexperiment“ ausführen, ](../content-management/content-experiment.md) zwei verschiedene Erlebnisse zu vergleichen, anstatt nur einige Elemente innerhalb einer Seite zu ändern.
+Mit dieser Kapazität können Sie ein [Inhaltsexperiment](../content-management/content-experiment.md) ausführen, bei dem zwei verschiedene Erlebnisse verglichen werden und nicht nur einige Elemente innerhalb einer Seite geändert werden.
 
-Erstellen Sie beispielsweise eine Web-Kampagne mit zwei Behandlungen:
+Erstellen Sie beispielsweise eine Web-Kampagne mit zwei Abwandlungen:
 
-* Erstellen **in Abwandlung A** ein Web-Erlebnis mit dem Web-Designer für die Hälfte Ihrer Zielpopulation.
+* Erstellen Sie in **Abwandlung A** ein Web-Erlebnis mit dem Web-Designer für die Hälfte Ihrer Zielpopulation.
 
-* Wählen **in Abwandlung** die Option **[!UICONTROL Umleiten zur URL]** für die andere Hälfte der Zielpopulation aus. Geben Sie die URL einer Seite mit einem alternativen Design ein, das Sie außerhalb von [!DNL Journey Optimizer] erstellt haben.
+* Wählen Sie in **Abwandlung B** die Option **[!UICONTROL Zu URL umleiten]** für die andere Hälfte der Zielpopulation aus. Geben Sie die URL einer Seite mit einem alternativen Design ein, das Sie außerhalb von [!DNL Journey Optimizer] erstellt haben.
 
   ![](assets/web-campaign-redirect-to-url.png)
 
   >[!NOTE]
   >
-  >Die Website-Vorschau wird nicht mehr angezeigt und die Umschaltfläche **[!UICONTROL Visual Editor]** ist deaktiviert.
+  >Die Website-Vorschau wird nicht mehr angezeigt und die Umschaltfläche **[!UICONTROL Visueller Editor]** ist deaktiviert.
 
-Sobald Ihre Web-Kampagne live ist, können Sie verfolgen, wie das von Ihnen in [!DNL Journey Optimizer] erstellte Web-Erlebnis für die Besucher Ihrer Seite im Vergleich zu denen funktioniert, die zur externen Landingpage weitergeleitet wurden. Erfahren Sie mehr über den [Experimentierkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md)
+Sobald Ihre Web-Kampagne live ist, können Sie verfolgen, wie das von Ihnen in [!DNL Journey Optimizer] erstellte Web-Erlebnis für die Besuchenden Ihrer Seite im Vergleich zu den Besuchenden funktioniert, die zur externen Landingpage weitergeleitet wurden. Erfahren Sie mehr dazu im [Experimentkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md)
 
 ## Live-Schalten Ihres Web-Erlebnisses {#web-experience-live}
 
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

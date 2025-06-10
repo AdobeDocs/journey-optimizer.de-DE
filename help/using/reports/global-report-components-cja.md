@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td> Bounce-Rate<br/> </td> 
-   <td> Prozentsatz der E-Mails, die zu einem Bounce geführt haben, im Verhältnis zur Gesamtzahl der gesendeten E-Mails.<br/> </td> 
+   <td> Prozentsatz der E-Mails, die nicht erfolgreich zugestellt wurden, im Verhältnis zur Gesamtzahl der gesendeten E-Mails.<br/> </td> 
   </tr> 
   <tr> 
    <td> Klick-Öffnungsrate (CTOR)<br/> </td> 
@@ -103,8 +103,8 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="exclusion-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
   </tr>
   <tr> 
-   <td>Geschätzte E-Mail-Öffnungen<br/> </td> 
-   <td>Geschätzte Gesamtzahl der Öffnungen von E-Mails, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigen. Diese Metrik gleicht Öffnungen an, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden, indem eine Öffnungsrate angewendet wird, die von Empfängern berechnet wird, die die E-Mail manuell geöffnet haben, auf Empfänger, deren E-Mails nur von E-Mail-Servern geöffnet wurden.<br/> </td> 
+   <td>Geschätzte Öffnungen von E-Mails<br/> </td> 
+   <td>Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.<br/> </td> 
   </tr>
   <tr> 
    <td> Klickrate des Angebots<br/> </td> 
@@ -127,11 +127,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Fehler senden<br/> </td> 
+   <td> Sendefehler<br/> </td> 
    <td> Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an die Profile verhindert haben.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Ausschlüsse senden<br/> </td> 
+   <td> Sendeausschlüsse<br/> </td> 
    <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
   </tr>
   <tr> 
@@ -148,26 +148,26 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td>Eindeutige Bounces<br/> </td> 
-   <td> Anzahl der eindeutigen Profile, bei denen mindestens eine E-Mail zu einem Bounce geführt hat.</td> 
+   <td> Anzahl der eindeutigen Profile, an die mindestens eine E-Mail nicht erfolgreich zugestellt wurde.</td> 
   </tr>
   <tr> 
    <td>Eindeutige Bounce-Rate<br/> </td> 
-   <td>Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal zurückgesendet wurde, basierend auf der Gesamtzahl der eindeutigen Sendungen.</td> 
+   <td>Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal nicht erfolgreich zugestellt wurde, im Verhältnis zur Gesamtzahl der eindeutigen Sendungen.</td> 
   </tr>
   <tr> 
    <td> Einzelklicks<br/> </td> 
    <td> Die Anzahl der Profile, die auf Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
   </tr>
   <tr> 
-   <td>Öffnungsrate für Einzelklicks<br/> </td> 
-   <td> Prozentsatz der eindeutigen Profile, die auf einen Link nach dem Öffnen der E-Mail geklickt haben, basierend auf den eindeutigen Öffnungen. </td> 
+   <td>Eindeutige Klick-Öffnungsrate<br/> </td> 
+   <td> Prozentsatz der eindeutigen Profile, die nach Öffnen der E-Mail auf einen Link geklickt haben, im Verhältnis zu den eindeutigen Öffnungen. </td> 
   </tr>
   <tr> 
-   <td> Rate der Einzelklicks<br/> </td> 
+   <td> Eindeutige Klickrate<br/> </td> 
    <td> Prozentsatz der eindeutigen Profile, die auf mindestens einen Link in der E-Mail geklickt haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails. </td> 
   </tr>
   <tr> 
-   <td> Eindeutig zugestellt<br/> </td> 
+   <td> Eindeutige Zustellungen<br/> </td> 
    <td> Anzahl der eindeutigen Profile, die mindestens eine E-Mail erfolgreich erhalten haben.</td> 
   </tr>
   <tr> 
@@ -175,8 +175,8 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Anzahl der Profile, die sich vom Erhalt Ihrer E-Mails abgemeldet haben.<br/> </td> 
   </tr>
   <tr> 
-   <td> Einzelne geschätzte E-Mail-Öffnungen<br/> </td> 
-   <td> Geschätzte Anzahl der eindeutigen E-Mail-Empfänger, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Zählung der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden, indem eine eindeutige Öffnungsrate angewendet wird, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, auf diejenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.<br/> </td> 
+   <td> Geschätzte Einzelöffnungen von E-Mails<br/> </td> 
+   <td> Geschätzte Anzahl der eindeutigen E-Mail-Empfangenden, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Anzahl der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden. Hierzu wird eine eindeutige Öffnungsrate angewendet, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, sowie denjenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.<br/> </td> 
   </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
@@ -188,12 +188,12 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td>Anzahl der eindeutigen Profile, für die mindestens eine E-Mail gesendet werden sollte.<br/> </td> 
   </tr>
   <tr> 
-   <td> Einzelne Versandfehler<br/> </td> 
-   <td>Anzahl der eindeutigen Profile, bei denen während des ausgehenden Prozesses mindestens ein Versandfehler aufgetreten ist.<br/> </td> 
+   <td> Eindeutige Sendefehler<br/> </td> 
+   <td>Anzahl der eindeutigen Profile, bei denen während des ausgehenden Prozesses mindestens ein Sendefehler aufgetreten ist.<br/> </td> 
   </tr>
   <tr> 
    <td> Eindeutige Sendeausschlüsse<br/> </td> 
-   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Empfang von Nachrichten ausgeschlossen sind.<br/> </td> 
+   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Nachrichtenempfang ausgeschlossen sind.<br/> </td> 
   </tr>
   <tr> 
    <td>Eindeutige Zielgruppe<br/> </td> 

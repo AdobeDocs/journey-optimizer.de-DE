@@ -10,23 +10,23 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
 
-Um eine Journey zu aktivieren und neuen Profilen den Eintritt zu ermöglichen, müssen Sie sie veröffentlichen. Durch das Veröffentlichen wird die Journey live und funktionsfähig. Vor der Veröffentlichung müssen Sie sicherstellen, dass die Journey vollständig und gültig ist, und etwaige Fehler beheben, da eine Journey nicht veröffentlicht werden kann, wenn sie Fehler enthält.
+Um eine Journey zu aktivieren und neuen Profilen den Eintritt zu ermöglichen, müssen Sie sie veröffentlichen. Durch die Veröffentlichung wird die Journey aktiviert und einsatzbereit. Vor der Veröffentlichung müssen Sie sicherstellen, dass die Journey vollständig und gültig ist, und etwaige Fehler beheben, da eine Journey nicht veröffentlicht werden kann, wenn sie Fehler enthält.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Veröffentlichungsprozess {#journey-publication}
 
 Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
-1. Bevor Sie Ihren Journey veröffentlichen, stellen Sie sicher, dass er gültig und fehlerfrei ist. Journey können nicht veröffentlicht werden, wenn sie Fehler enthalten.
+1. Bevor Sie Ihre Journey veröffentlichen, stellen Sie sicher, dass sie gültig und fehlerfrei ist. Journeys können nicht veröffentlicht werden, wenn sie Fehler enthalten.
 
    * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
    * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
@@ -35,7 +35,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
    >[!NOTE]
    >
-   > Wenn für Ihren Journey eine Genehmigungsrichtlinie gilt, müssen Sie eine Genehmigung anfordern, bevor Sie ihn veröffentlichen können. [Weitere Informationen](../test-approve/gs-approval.md)
+   > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um sie veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -58,7 +58,7 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 
 >[!NOTE]
 >
->Normalerweise kann ein Profil nicht mehrmals zur gleichen Zeit auf derselben Journey vorhanden sein, und zwar nicht für alle aktiven Versionen der Journey. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](entry-management.md).
+>In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey für alle aktiven Journey-Versionen vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](entry-management.md).
 
 ### Erstellen einer neuen Version einer Journey {#journey-create-new-version}
 
@@ -90,4 +90,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

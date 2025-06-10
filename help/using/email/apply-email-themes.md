@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verbesserte E-Mail-Authoring-Erfahrung
-description: Erfahren Sie, wie Sie die E-Mail-Erstellung mit wiederverwendbaren Designs und Modulen optimieren können, um die Konsistenz und Effizienz des Designs Ihrer Kampagnen sicherzustellen.
+title: Verbessertes Erlebnis bei der Erstellung von E-Mails
+description: Erfahren Sie, wie Sie die E-Mail-Erstellung mit wiederverwendbaren Designs und Modulen optimieren können, um die Konsistenz und Effizienz von Designs in Ihren Kampagnen sicherzustellen.
 feature: Email Design
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 Mit Designs können technisch nicht versierte Benutzende wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Designsprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen<!-- to achieve brand specific results-->.
 
-Diese Funktion ermöglicht es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und gleichzeitig erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
+Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und gleichzeitig erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
 
 <!--What is the Enhanced Email Authoring Experience?
 
@@ -50,7 +50,7 @@ Key Benefits:
 
 ## Schutzmechanismen und Einschränkungen {#themes-guardrails}
 
-* Wenn Sie eine E-Mail von Grund auf neu erstellen, können Sie mit der Erstellung Ihres Inhalts beginnen, indem Sie ein Design verwenden, um schnell einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt.
+* Wenn Sie eine E-Mail von Grund auf neu erstellen, können Sie die Erstellung Ihres Inhalts mit einem Design beginnen, um schnell einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt.
 
   Wenn Sie den klassischen Modus wählen, können Sie keine Designs anwenden, es sei denn, Sie setzen Ihre E-Mail zurück.
 
@@ -58,9 +58,9 @@ Key Benefits:
 
   Um ein Fragment in einem Inhalt verwenden zu können, auf den ein Design angewendet wird, muss dieses Fragment im Design-Modus erstellt werden.
 
-* Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und Sie können keine Designs auf diesen Inhalt anwenden.
+* Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und können keine Designs auf diesen Inhalt anwenden.
 
-  Um alle Funktionen der E-Mail-Designer, einschließlich Designs, vollständig zu nutzen, müssen Sie entweder einen neuen Inhalt im Design-Modus erstellen oder Ihren importierten HTML-Inhalt konvertieren. [Weitere Informationen](existing-content.md)
+  Um alle Funktionen von E-Mail-Designer, einschließlich Designs, vollständig nutzen zu können, müssen Sie entweder einen neuen Inhalt im Design-Modus erstellen oder Ihren importierten HTML-Inhalt konvertieren. [Weitere Informationen](existing-content.md)
 
 <!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um ein Design zu definieren, das Sie in künftigen E-Ma
 
 1. Erstellen Sie zunächst eine neue [Inhaltsvorlage](../content-management/create-content-templates.md).
 
-1. Wählen Sie die **[!UICONTROL Erstellen oder Bearbeiten von Designs]** aus.
+1. Wählen Sie die Option **[!UICONTROL Designs erstellen oder bearbeiten]** aus.
 
    ![](assets/theme-create.png)
 
@@ -80,53 +80,53 @@ Gehen Sie wie folgt vor, um ein Design zu definieren, das Sie in künftigen E-Ma
 
    ![](assets/theme-select.png)
 
-1. Beginnen Sie auf **[!UICONTROL Registerkarte]** Allgemeine Einstellungen“ mit der Definition Ihres Designs, indem Sie ihm einen bestimmten Namen für Ihre Marke geben. Sie können die Standardbreite für Ihre E-Mails anpassen und auch das aktuelle Design exportieren, um [es über Sandboxes hinweg freizugeben](../configuration/copy-objects-to-sandbox.md).
+1. Beginnen Sie auf der Registerkarte **[!UICONTROL Allgemeine Einstellungen]** mit der Definition Ihres Designs, indem Sie ihm einen bestimmten Namen für Ihre Marke geben. Sie können die Standardbreite für Ihre E-Mails anpassen und auch das aktuelle Design exportieren, um [es über Sandboxes hinweg freizugeben](../configuration/copy-objects-to-sandbox.md).
 
    <!--![](assets/theme-general-settings.png)-->
 
-1. Verwenden Sie die Leiste rechts, um durch die verschiedenen Registerkarten zu navigieren und Ihre Designeinstellungen zu aktualisieren.
+1. Verwenden Sie die Leiste auf der rechten Seite, um durch die verschiedenen Registerkarten zu navigieren und Ihre Designeinstellungen zu aktualisieren.
 
    ![](assets/theme-right-pane.png)
 
-1. Auf der Registerkarte **[!UICONTROL Farben]**:
+1. Führen Sie folgende Schritte auf der Registerkarte **[!UICONTROL Farben]** aus:
 
-   * Verwenden Sie die **[!UICONTROL Bearbeiten]**, um eine **[!UICONTROL Farbpalette]** mit Standardfarben für Ihre Marke einzurichten. Wählen Sie **[!UICONTROL Vorgabe]** aus, um schnell ein Farbschema zu erstellen oder jede Farbe Ihres Designs individuell anzupassen. Sie können auch eine Kombination aus beiden verwenden.
+   * Verwenden Sie die Schaltfläche **[!UICONTROL Bearbeiten]**, um eine **[!UICONTROL Farbpalette]** mit Standardfarben für Ihre Marke einzurichten. Wählen Sie eine **[!UICONTROL Voreinstellung]** aus, um schnell ein Farbschema zu erstellen oder jede Farbe Ihres Designs individuell anzupassen. Sie können auch eine Kombination aus beidem verwenden.
 
      ![](assets/theme-colors.gif)
 
-   * Klicken Sie **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten zu erstellen, z. B. den Hell- und Dunkelmodus, wobei jede Variante über eine eigene Farbpalette und Nuancensteuerelemente verfügt.
+   * Klicken Sie auf **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten zu erstellen, z. B. den hellen und dunklen Modus, wobei jede Variante über eine eigene Farbpalette und Steuerelemente für Nuancen verfügt.
 
      ![](assets/theme-colors-variant.png)
 
-   * Klicken Sie für jede Variante auf das Symbol Bearbeiten , um ein einzelnes Element zu bearbeiten. Sie können die von Ihnen erstellte Standardpalette oder beliebige benutzerdefinierte Farben verwenden.
+   * Klicken Sie für jede Variante auf das Symbol „Bearbeiten“, um ein einzelnes Element zu bearbeiten. Sie können die von Ihnen erstellte Standardpalette oder beliebige benutzerdefinierte Farben verwenden.
 
      ![](assets/theme-colors-edit-variant.gif)
 
-1. In den **[!UICONTROL Texteinstellungen]** können Sie die globale Schriftart festlegen, die Sie für Ihr gesamtes Design verwenden möchten. Für ein detaillierteres Steuerelement können Sie auch jede Überschrift und jeden Absatztyp bearbeiten, um die Schriftart, die Größe, den Stil usw. anzupassen.
+1. In den **[!UICONTROL Texteinstellungen]** können Sie die globale Schriftart festlegen, die Sie für Ihr gesamtes Design verwenden möchten. Für eine detailliertere Steuerung können Sie auch jede Überschrift und jeden Absatztyp bearbeiten, um die Schriftart, die Größe, den Stil usw. anzupassen.
 
    ![](assets/theme-text.png)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Abstand]** ein einzelnes Element aus der Liste aus, um es ordnungsgemäß zwischen den verschiedenen Komponenten aufzuteilen.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Abstand]** ein einzelnes Element aus der Liste aus, um es mit dem richtigen Abstand zwischen den verschiedenen Komponenten einzufügen.
 
    <!--![](assets/theme-spacing.png)-->
 
-1. Mit den anderen Registerkarten auf der rechten Seite können Sie jedes Schaltflächenelement, jede Trennlinie, zusätzliche Bildformatierung und den Rasterlayoutabstand für dieses Design separat verwalten.
+1. Mit den anderen Registerkarten auf der rechten Seite können Sie jedes Schaltflächenelement, jede Trennlinie, zusätzliche Bildformatierungen und den Abstand des Raster-Layouts für dieses Design separat verwalten.
 
    <!--![](assets/theme-buttons.png)-->
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um dieses Design für die zukünftige Verwendung zu speichern.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um dieses Design für die zukünftige Verwendung zu speichern.
 
 ## Anwenden von Designs auf eine E-Mail {#apply-themes}
 
-Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns auf eine E-Mail anzuwenden.
+Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stil-Designs auf eine E-Mail anzuwenden.
 
-1. Fügen Sie [!DNL Journey Optimizer] die Aktion [E-Mail hinzufügen](create-email.md) zu einer Journey oder Kampagne hinzu und [bearbeiten Sie den Textkörper Ihrer E-Mail](get-started-email-design.md#key-steps).
+1. Fügen Sie in [!DNL Journey Optimizer] [eine E-Mail-](create-email.md)Aktion zu einer Journey oder Kampagne hinzu und [bearbeiten Sie Ihren E-Mail-Text](get-started-email-design.md#key-steps).
 
 1. Sie können eine der folgenden Aktionen auswählen:
 
-   * Wählen Sie eine integrierte [E-Mail-Vorlage](use-email-templates.md) aus, um die E-Mail-Designer zu öffnen. Ein für jede Vorlage spezifisches Standarddesign wird automatisch angewendet.
+   * Wählen Sie eine integrierte [E-Mail-Vorlage](use-email-templates.md) aus, um E-Mail-Designer zu öffnen. Es wird automatisch ein für jede Vorlage spezifisches Standard-Design angewendet.
 
-   * Entwerfen Sie [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Design]**, um mit einem vordefinierten Stildesign zu beginnen.
+   * Entwerfen Sie einen [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Design]**, um mit einem vordefinierten Stil-Design zu beginnen.
 
      ![](assets/theme-from-scratch.png)
 
@@ -136,7 +136,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns
      >
      >Um ein [Fragment](../content-management/fragments.md) im Design-Modus zu verwenden, muss dieses Fragment selbst im Design-Modus erstellt worden sein.
 
-1. Klicken Sie in der E-Mail-Designer in der rechten Leiste auf **[!UICONTROL Designs]**-Schaltfläche. Das Standarddesign oder das Design der Vorlage wird angezeigt. Sie können zwischen den beiden Farbvarianten für dieses Design wechseln.
+1. Klicken Sie im E-Mail-Designer in der rechten Leiste auf die Schaltfläche **[!UICONTROL Designs]**. Es wird das Standard-Design oder das Design der Vorlage angezeigt. Sie können zwischen den beiden Farbvarianten für dieses Design wechseln.
 
    ![](assets/theme-default-hero.png)
 
@@ -144,11 +144,11 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns
 
    ![](assets/theme-hero-change.png)
 
-1. Klicken Sie **[!UICONTROL Benutzerdefinierte Designs]** und wählen Sie das von Ihnen erstellte Design aus.
+1. Klicken Sie auf **[!UICONTROL Benutzerdefinierte Designs]** und wählen Sie das von Ihnen erstellte Design aus.
 
    ![](assets/theme-select-custom.png)
 
-1. Klicken Sie außerhalb der Dropdown-Liste. Das neu ausgewählte benutzerdefinierte Design wendet seine Stile automatisch auf alle E-Mail-Komponenten an. Sie können zwischen den beiden Farbvarianten wechseln.
+1. Klicken Sie auf einen Bereich außerhalb der Dropdown-Liste. Das neu ausgewählte benutzerdefinierte Design wendet seine Stile automatisch auf alle E-Mail-Komponenten an. Sie können zwischen den beiden Farbvarianten wechseln.
 
 1. Wenn eine Komponente ausgewählt wird, können Sie ihren Stil immer noch über das entsprechende Symbol entsperren.
 

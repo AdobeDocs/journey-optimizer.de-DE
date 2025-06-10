@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
 
   >[!CAUTION]
   >
-  >Fragmente sind zwischen dem Design- und dem klassischen Modus nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Design-Modus erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
+  >Fragmente sind zwischen dem Design-Modus und dem klassischen Modus nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Design-Modus erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 
 * Verwenden Sie für Ausdrucksfragmente den Personalisierungseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Authoring-Funktionen zum Erstellen Ihres Fragmentinhalts. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 

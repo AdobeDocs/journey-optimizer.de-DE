@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 80%
 >title="Verwenden Sie Testprofile, um Ihre Inhalte zu überprüfen"
 >abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden."
 
-Testprofile sind zusätzliche Empfängerinnen und Empfänger, die nicht den definierten Zielgruppenkriterien entsprechen. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
+Testprofile sind zusätzliche Empfangende, die nicht den definierten Zielgruppenkriterien entsprechen. [Informationen zum Erstellen von Testprofilen](../audience/creating-test-profiles.md)
 
 Bevor Sie Testprofile zum Testen Ihres Inhalts verwenden, müssen Sie sie zunächst auswählen. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie auf dem Bildschirm Inhalt bearbeiten Ihrer Nachricht oder in der E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt summieren]**.
+1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt simulieren]** aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofile verwalten]** und wählen Sie den Namespace aus, der zur Identifizierung von Testprofilen verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identity-Namespace]** klicken. [Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform](../audience/get-started-identity.md).
 
@@ -47,4 +47,4 @@ Bevor Sie Testprofile zum Testen Ihres Inhalts verwenden, müssen Sie sie zunäc
 
 >[!NOTE]
 >
->Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
+>Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)

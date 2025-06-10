@@ -6,21 +6,21 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Durchführen eines Testversands mithilfe von Testprofildaten {#send-proofs}
+# Durchführen von Testsendungen mit Testprofildaten {#send-proofs}
 
 Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Zielgruppe gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 
 >[!NOTE]
 >
->Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
+>Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 
-Um E-Mail-Testsendungen mit Testprofildaten durchzuführen, müssen Sie zunächst [Testprofile“ ](test-profiles.md). Gehen Sie dann wie folgt vor:
+Um E-Mail-Testsendungen mithilfe von Testprofildaten durchzuführen, müssen Sie zunächst [Testprofile](test-profiles.md) auswählen. Gehen Sie dann wie folgt vor:
 
 1. Klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testversand durchführen]**.
 

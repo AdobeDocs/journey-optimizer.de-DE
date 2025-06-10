@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 ## Reporting über codebasierte Kampagnen {#campaigns}
 
-Sobald Code-basierte Erlebnisse verfügbar sind, können Sie auf dedizierte Berichte zugreifen, um KPIs (Decision Key Performance Indicators) zu überwachen.
+Sobald Code-basierte Erlebnisse live sind, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) zu überwachen.
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 
@@ -26,11 +26,11 @@ This encompasses details related to the decision items performances and how user
 
 ![](../reports/assets/cja-decisioning-kpis.png)
 
-Sie können auch auf Details zur Leistung von Entscheidungselementen und zur Art und Weise zugreifen, wie Benutzende mit ihnen interagiert haben, um eine Analyse der wichtigsten Metriken zu erhalten, die mit Ihrer Kampagne verbunden sind.
+Sie können auch auf Details zur Leistung von Entscheidungselementen und zur Art und Weise zugreifen, wie Benutzende mit ihnen interagiert haben, um eine Analyse der wesentlichen Metriken zu erhalten, die mit Ihrer Kampagne verknüpft sind.
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 
-In diesem Abschnitt erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten [ Entscheidungsfindung ](../reports/campaign-global-report-cja-code.md#decisioning-reporting).
+In [diesem Abschnitt](../reports/campaign-global-report-cja-code.md#decisioning-reporting) erfahren Sie, wie Sie mit Code-basierten Erlebnisberichten zur Entscheidungsfindung arbeiten.
 
 ## Reporting in Customer Journey Analytics {#cja}
 

@@ -11,7 +11,7 @@ level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Desig
 
 ![](assets/express_1.png)
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Adobe Express Enterprise-Lizenz {#licence}
 
@@ -149,7 +149,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

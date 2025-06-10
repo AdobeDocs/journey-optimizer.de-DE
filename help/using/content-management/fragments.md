@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [In diesen Videos erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](#video-fragments)
+➡️ [In diesen Videos erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](#video-fragments)
 
 So nutzen Sie Fragmente am besten:
 
@@ -62,4 +62,4 @@ Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten*
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438927/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

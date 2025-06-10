@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 35%
 >[!INFO]
 >
 >Da Apple neue Datenschutzfunktionen für seine native Mail-App eingeführt hat, einschließlich Mail Privacy Protection, können Absendende keine Tracking-Pixel mehr verwenden, um Daten von Profilen zu erfassen, die Mail Privacy Protection von Apple aktiviert haben. Daher kann die Fähigkeit von Adobe Journey Optimizer, E-Mail-Öffnungen mithilfe von Tracking-Pixeln zu verfolgen, beeinträchtigt werden. 
-> [Erfahren Sie mehr](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=de) über die Auswirkungen der Datenschutzänderungen unter Apple iOS auf das E-Mail-Marketing.
+>> [Erfahren Sie mehr](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=de) über die Auswirkungen der Datenschutzänderungen unter Apple iOS auf das E-Mail-Marketing.
 > 
 > Wir empfehlen, sich auf Klicks und Konversionsmetriken und nicht auf Öffnungsraten zu konzentrieren, um genauere Erkenntnisse zu erhalten.
 
@@ -37,48 +37,48 @@ Sie können auf Ihren E-Mail-Kampagnenbericht zugreifen, indem Sie in Ihrer Kamp
 
 ![](assets/cja-email-kpis-unique.png)
 
-Die **[!UICONTROL E]** Mail: Key Performance Indicators (KPIs) bieten ein fokussiertes Dashboard mit eindeutigen und aggregierten Metriken, die die Leistung und Interaktionsniveaus Ihrer E-Mail-Kampagnen widerspiegeln.
+Die **[!UICONTROL E-Mail]**-Key Performance Indicators (KPIs) bieten ein fokussiertes Dashboard mit eindeutigen und aggregierten Metriken, die die Leistung und Interaktionsniveaus Ihrer E-Mail-Kampagnen widerspiegeln.
 
-+++ Weitere Informationen zu E-Mail-KPIs und Metriken
++++ Weitere Informationen zu den Metriken für E-Mail-KPIs
 
-* **[!UICONTROL Rate eindeutiger Klicks]**: Prozentsatz der eindeutigen Profile, die auf mindestens einen Link in der E-Mail geklickt haben, bezogen auf die Anzahl der eindeutigen zugestellten E-Mails.
+* **[!UICONTROL Eindeutige Klickrate]**: Prozentsatz der eindeutigen Profile, die auf mindestens einen Link in der E-Mail geklickt haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
 
-* **[!UICONTROL Öffnungsrate für Klicks (CTOR)]**: Prozentsatz der Profile, die mit der Nachricht interagiert haben.
+* **[!UICONTROL Klick-Öffnungsrate (CTOR)]**: Prozentsatz der Profile, die mit der Nachricht interagiert haben.
 
-* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, bezogen auf die Anzahl der eindeutigen zugestellten E-Mails.
+* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
 
-* **[!UICONTROL Eindeutige Absprungrate]**: Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal zurückgesendet wurde, basierend auf der Gesamtzahl der eindeutigen Sendungen.
+* **[!UICONTROL Eindeutige Bounce-Rate]**: Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal nicht erfolgreich zugestellt wurde, im Verhältnis zur Gesamtzahl der eindeutigen Sendungen.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
 
-* **[!UICONTROL Geschätzte Öffnungen]**: Geschätzte Gesamtzahl der geöffneten E-Mails, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik gleicht Öffnungen an, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden, indem eine Öffnungsrate angewendet wird, die von Empfängern berechnet wird, die die E-Mail manuell geöffnet haben, auf Empfänger, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte Öffnungen]**: Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
-* **[!UICONTROL Geschätzte Einzelöffnungen]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfänger, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Zählung der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden, indem eine eindeutige Öffnungsrate angewendet wird, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, auf diejenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte Einzelöffnungen]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfangenden, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Anzahl der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden. Hierzu wird eine eindeutige Öffnungsrate angewendet, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, sowie denjenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
-* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf einen Link in der Nachricht, einschließlich mehrerer Klicks durch dasselbe Profil.
+* **[!UICONTROL Klicks]**: Gesamtzahl der Klicks auf Links in der Nachricht, einschließlich mehrerer Klicks durch dasselbe Profil.
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf einen Inhalt in Ihrer Nachricht geklickt haben.
 
 +++
 
 
-## Eindeutiger Klick-Trichter
+## Einzelklicktrichter
 
 ![](assets/cja-email-click-funnel.png)
 
-Das Diagramm **[!UICONTROL Klick]** Trichter) bietet eine detaillierte Analyse der Interaktion von Profilen mit Ihren E-Mail-Inhalten und bietet wertvolle Einblicke in jede Phase der Interaktion, vom Versand bis hin zu Klicks, sodass Sie verstehen können, wie effektiv Ihre Nachrichten die Benutzerinteraktion fördern.
+Der Graph **[!UICONTROL Klicktrichter]** bietet eine detaillierte Analyse der Interaktion von Profilen mit Ihren E-Mail-Inhalten und bietet wertvolle Erkenntnisse zu jeder Phase der Interaktion, vom Versand bis hin zu Klicks, sodass Sie verstehen können, wie effektiv Ihre Nachrichten die Benutzerinteraktion fördern.
 
-+++ Weitere Informationen zu Click Funnel-Metriken
++++ Weitere Informationen zu den Metriken für Klicktrichter
 
 * **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die während des Sendevorgangs angesprochen werden.
 
 * **[!UICONTROL Eindeutige Sendungen]**: Anzahl der eindeutigen Profile, für die mindestens eine E-Mail gesendet werden sollte.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
 
-* **[!UICONTROL Geschätzte Einzelöffnungen]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfänger, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Zählung der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden, indem eine eindeutige Öffnungsrate angewendet wird, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, auf diejenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte Einzelöffnungen]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfangenden, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Anzahl der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden. Hierzu wird eine eindeutige Öffnungsrate angewendet, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, sowie denjenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
 * **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf einen Inhalt in Ihrer Nachricht geklickt haben.
 
@@ -94,11 +94,11 @@ Der Graph **[!UICONTROL Versandstatus]** bietet einen umfassenden Überblick üb
 
 * **[!UICONTROL Eindeutige Sendefehler]**: Anzahl der eindeutigen Profile, bei denen während des ausgehenden Prozesses mindestens ein Sendefehler aufgetreten ist.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der eindeutigen Profile, die mindestens eine Nachricht erfolgreich erhalten haben.
 
 * **[!UICONTROL Eindeutige Sendeausschlüsse]**: Anzahl der eindeutigen Profile, die aufgrund vordefinierter Regeln oder Zielgruppenkriterien vom Empfang von Nachrichten ausgeschlossen sind.
 
-* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, bei denen mindestens eine Nachricht während des Sendevorgangs zurückgesendet wurde.
+* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, bei denen mindestens eine Nachricht während des Sendevorgangs nicht erfolgreich zugestellt wurde.
 
 +++
 
@@ -106,7 +106,7 @@ Der Graph **[!UICONTROL Versandstatus]** bietet einen umfassenden Überblick üb
 
 ![](assets/cja-email-delivered-click.png)
 
-Das Diagramm **[!UICONTROL Zugestellt vs. Klick]** enthält eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren E-Mails und bietet wertvolle Einblicke in die Interaktion von Profilen mit Ihren Inhalten. Das Diagramm verwendet zwei Achsen zur Anzeige der zugestellten E-Mails und Klicks nebeneinander, sodass im Vergleich zur Anzahl der gesendeten E-Mails ungewöhnliche Muster oder Interaktionsänderungen leichter erkannt werden können.
+Der Graph **[!UICONTROL Versand- vs. Klick-Trend]** zeigt eine detaillierte Analyse der Interaktion Ihrer Profile mit Ihren E-Mails und bietet wertvolle Erkenntnisse zur Interaktion verschiedener Profile mit Ihrem Inhalt. Das Diagramm verwendet zwei Achsen zur Anzeige der zugestellten E-Mails und Klicks nebeneinander, sodass im Vergleich zur Anzahl der gesendeten E-Mails ungewöhnliche Muster oder Veränderungen bei der Interaktion leichter erkannt werden können.
 
 +++ Weitere Informationen zu den Metriken „Trend ‚Versandt vs. angeklickt‘“
 
@@ -120,23 +120,23 @@ Das Diagramm **[!UICONTROL Zugestellt vs. Klick]** enthält eine detaillierte An
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-Die Tabelle **[!UICONTROL Eindeutige Versandstatistiken]** bietet einen detaillierten Überblick über eindeutige E-Mail-Leistungsmetriken in Ihren Kampagnen. Der Fokus liegt auf einzelnen Profilen, z. B. solchen, die eindeutig angesprochen, an zugestellt, zurückgewiesen oder ausgeschlossen werden. Sie bieten tiefere Einblicke in die Art und Weise, wie Ihre E-Mails Ihre Zielgruppe erreichen und ansprechen.
+Die Tabelle **[!UICONTROL Eindeutige Versandstatistiken]** bietet einen detaillierten Überblick über eindeutige E-Mail-Leistungsmetriken in Ihren Kampagnen. Der Fokus liegt auf einzelnen Profilen. Hierzu zählen Profile, die eindeutig angesprochen werden, an die zugestellt wird, an die nicht erfolgreich zugestellt wurde oder die ausgeschlossen werden. Sie bieten tiefere Erkenntnisse zu der Art und Weise, wie Ihre E-Mails Ihre Zielgruppe erreichen und ansprechen.
 
-+++ Weitere Informationen über eindeutige Metriken zur Versandstatistik
++++ Weitere Informationen zu den Metriken für eindeutige Versandstatistiken
 
 * **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die während des Sendevorgangs angesprochen werden.
 
 * **[!UICONTROL Eindeutige Sendungen]**: Anzahl der eindeutigen Profile, für die mindestens eine E-Mail gesendet werden sollte.
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der eindeutigen Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der eindeutigen Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
 
-* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, bei denen mindestens eine E-Mail zu einem Bounce geführt hat.
+* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, an die mindestens eine E-Mail nicht erfolgreich zugestellt wurde.
 
-* **[!UICONTROL Eindeutige Absprungrate]**: Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal zurückgesendet wurde, basierend auf der Gesamtzahl der eindeutigen Sendungen.
+* **[!UICONTROL Eindeutige Bounce-Rate]**: Prozentsatz der eindeutigen Profile, deren E-Mail mindestens einmal nicht erfolgreich zugestellt wurde, im Verhältnis zur Gesamtzahl der eindeutigen Sendungen.
 
 * **[!UICONTROL Eindeutige Sendefehler]**: Anzahl der eindeutigen Profile, bei denen während des ausgehenden Prozesses mindestens ein Sendefehler aufgetreten ist.
 
-* **[!UICONTROL Eindeutige Sendeausschlüsse]**: Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Empfang von Nachrichten ausgeschlossen sind.
+* **[!UICONTROL Eindeutige Sendeausschlüsse]**: Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Nachrichtenempfang ausgeschlossen sind.
 
 +++
 
@@ -144,21 +144,21 @@ Die Tabelle **[!UICONTROL Eindeutige Versandstatistiken]** bietet einen detailli
 
 ![](assets/cja-unique-email-track-stat.png)
 
-Die **[!UICONTROL Eindeutige Tracking-]**&quot; bietet eine fokussierte Ansicht der Interaktion auf Profilebene mit den E-Mails in Ihrer Kampagne. Es werden einzigartige Metriken hervorgehoben, die wertvolle Einblicke in die Interaktion einzelner Profile mit Ihren E-Mail-Inhalten in wichtigen Interaktionsstadien bieten.
+Die Tabelle **[!UICONTROL Eindeutige Tracking-Statistiken]** bietet eine fokussierte Ansicht der Interaktion auf Profilebene mit den E-Mails in Ihrer Kampagne. Sie hebt eindeutige Metriken hervor, die wertvolle Erkenntnisse zur Interaktion einzelner Profile mit Ihren E-Mail-Inhalten in wichtigen Interaktionsstadien bieten.
 
 +++ Weitere Informationen zu den Metriken „Tracking-Statistiken“
 
-* **[!UICONTROL Rate eindeutiger Klicks (Unique Clickthrough Rate, CTR)]**: Prozentsatz der eindeutigen Profile, die auf mindestens einen Link in der E-Mail geklickt haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
+* **[!UICONTROL Eindeutige Klickrate (CTR)]**: Prozentsatz der eindeutigen Profile, die auf mindestens einen Link in der E-Mail geklickt haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
 
-* **[!UICONTROL Rate der Einzelklicks (CTOR)]**: Prozentsatz der eindeutigen Profile, die auf einen Link nach dem Öffnen der E-Mail geklickt haben, basierend auf den Einzelöffnungen.
+* **[!UICONTROL Eindeutige Klick-Öffnungsrate (CTOR)]**: Prozentsatz der eindeutigen Profile, die nach Öffnen der E-Mail auf einen Link geklickt haben, basierend auf den eindeutigen Öffnungen.
 
-* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, bezogen auf die Anzahl der eindeutigen zugestellten E-Mails.
+* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Inhalt in der E-Mail geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der eindeutigen Profile, die auf mindestens einen Teil des Inhalts in der E-Mail geklickt haben.
 
-* **[!UICONTROL Geschätzte Einzelöffnungen von E-]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfänger, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Zählung der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden, indem eine eindeutige Öffnungsrate angewendet wird, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, auf diejenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte Einzelöffnungen von E-Mails]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfangenden, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Anzahl der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden. Hierzu wird eine eindeutige Öffnungsrate angewendet, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, sowie denjenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
-* **[!UICONTROL Eindeutige E-Mail-Abmeldungen]**: Anzahl der eindeutigen Profile, die auf den Abmelde-Link in Ihren E-Mails oder auf der zugehörigen Landingpage geklickt haben.
+* **[!UICONTROL Eindeutige E-Mail-Abmeldungen]**: Anzahl der eindeutigen Profile, die auf den Link zum Abmelden in Ihren E-Mails oder auf der zugehörigen Landingpage geklickt haben.
 
 +++
 
@@ -174,15 +174,15 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 
-* **[!UICONTROL Zugestellt]**: Gesamtzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Gesamtznzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Bounce-Rate]**: Prozentsatz der E-Mails, die zu einem Bounce geführt haben, im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
+* **[!UICONTROL Bounce-Rate]**: Prozentsatz der E-Mails, die nicht erfolgreich zugestellt wurden, im Verhältnis zur Gesamtzahl der gesendeten E-Mails.
 
-* **[!UICONTROL Fehler senden]**: Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an Profile verhindert haben.
+* **[!UICONTROL Sendefehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausschlüsse senden]**: Gesamtzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
+* **[!UICONTROL Sendeausschlüsse]**: Gesamtzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
@@ -198,13 +198,13 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 * **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der E-Mail.
 
-* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der geöffneten E-Mails, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik gleicht Öffnungen an, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden, indem eine Öffnungsrate angewendet wird, die von Empfängern berechnet wird, die die E-Mail manuell geöffnet haben, auf Empfänger, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
-* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link oder die zugehörige Landingpage.
+* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link oder auf die zugehörige Landingpage.
 
 +++
 
@@ -216,17 +216,17 @@ Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüss
 
 +++ Weitere Informationen zu den Metriken „E-Mail-Domains“
 
-* **[!UICONTROL Eindeutig zugestellt]**: Anzahl der eindeutigen Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
+* **[!UICONTROL Eindeutige Zustellungen]**: Anzahl der eindeutigen Profile, die mindestens eine E-Mail erfolgreich erhalten haben.
 
-* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der geöffneten E-Mails, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik gleicht Öffnungen an, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden, indem eine Öffnungsrate angewendet wird, die von Empfängern berechnet wird, die die E-Mail manuell geöffnet haben, auf Empfänger, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
-* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Inhalt in der E-Mail geklickt haben.
+* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Teil des Inhalts in der E-Mail geklickt haben.
 
-* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, bei denen mindestens eine E-Mail zu einem Bounce geführt hat.
+* **[!UICONTROL Eindeutige Bounces]**: Anzahl der eindeutigen Profile, an die mindestens eine E-Mail nicht erfolgreich zugestellt wurde.
 
 * **[!UICONTROL Eindeutige Sendefehler]**: Anzahl der eindeutigen Profile, bei denen während des ausgehenden Prozesses mindestens ein Sendefehler aufgetreten ist.
 
-* **[!UICONTROL Eindeutige Sendeausschlüsse]**: Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Empfang von Nachrichten ausgeschlossen sind.
+* **[!UICONTROL Eindeutige Sendeausschlüsse]**: Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Nachrichtenempfang ausgeschlossen sind.
 
 +++
 
@@ -266,13 +266,13 @@ Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick 
 
 +++ Weitere Informationen zu den Metriken „E-Mail-Betreff“
 
-* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, bezogen auf die Anzahl der eindeutigen zugestellten E-Mails.
+* **[!UICONTROL Rate der Einzelöffnungen]**: Prozentsatz der eindeutigen Profile, die die E-Mail mindestens einmal geöffnet haben, im Verhältnis zur Anzahl der eindeutigen zugestellten E-Mails.
 
-* **[!UICONTROL Geschätzte Einzelöffnungen von E-]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfänger, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Zählung der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden, indem eine eindeutige Öffnungsrate angewendet wird, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, auf diejenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte Einzelöffnungen von E-Mails]**: Geschätzte Anzahl der eindeutigen E-Mail-Empfangenden, die die E-Mail wahrscheinlich geöffnet haben. Diese Metrik zielt darauf ab, eine genauere Anzahl der individuellen Interaktionen bereitzustellen, die von E-Mail-Servern zur Datenschutz- oder Sicherheitsprüfung ausgelöst werden. Hierzu wird eine eindeutige Öffnungsrate angewendet, die anhand eindeutiger Profile berechnet wird, welche die E-Mail manuell geöffnet haben, sowie denjenigen, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
-* **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten E-Mails im Verhältnis zur Gesamtzahl der zugestellten E-Mails, einschließlich mehrerer Öffnungen durch dasselbe Profil.
+* **[!UICONTROL Öffnungsrate]**: Prozentsatz der E-Mail-Öffnungen im Verhältnis zur Gesamtzahl der zugestellten E-Mails, einschließlich mehrerer Öffnungen durch dasselbe Profil.
 
-* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der geöffneten E-Mails, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik gleicht Öffnungen an, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden, indem eine Öffnungsrate angewendet wird, die von Empfängern berechnet wird, die die E-Mail manuell geöffnet haben, auf Empfänger, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
 
 +++
 

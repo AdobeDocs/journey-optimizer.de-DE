@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 78%
+workflow-type: ht
+source-wordcount: '537'
+ht-degree: 100%
 
 ---
 
@@ -56,35 +56,35 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
-   ➡️ [Erfahren Sie, wie Sie den Elementkatalog konfigurieren](catalogs.md)
+   ➡️ [Informationen zum Konfigurieren des Elementkatalogs](catalogs.md)
 
 1. **Erstellen Sie Entscheidungselemente**, um die Zielgruppe anzuzeigen.
 
-   ➡️ [Erfahren Sie mehr über das Erstellen ](items.md) Entscheidungselementen“ in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/decisions-items/create.md))
+   ➡️ [Informationen zum Erstellen von Entscheidungselementen](items.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/decisions-items/create.md))
 
 1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 
-   ➡️ [Erfahren Sie in der Benutzeroberfläche ](collections.md)und in der [API-Dokumentation](api-reference/items-collections/create.md), wie Sie Elementauflistungen verwalten.
+   ➡️ [Informationen zum Verwalten von Elementsammlungen](collections.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/items-collections/create.md))
 
 1. **Entscheidungsregeln erstellen**: Entscheidungsregeln werden in Entscheidungselementen und/oder Auswahlstrategien verwendet, um zu bestimmen, wem ein Entscheidungselement angezeigt werden kann.
 
-   ➡️ [Erfahren Sie, wie Sie Entscheidungsregeln erstellen](rules.md)
+   ➡️ [Informationen zum Erstellen von Entscheidungsregeln](rules.md)
 
-1. **Rangfolgenmethoden implementieren**: Erstellen Sie Rangfolgenmethoden und wenden Sie sie in Auswahlstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen zu bestimmen.
+1. **Rangfolgemethoden implementieren**: Erstellen Sie Rangfolgemethoden und wenden Sie diese innerhalb von Auswahlstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen festzulegen.
 
-   ➡️ [Erfahren Sie, wie Sie Rangfolgemethoden erstellen](ranking.md)
+   ➡️ [Informationen zum Erstellen von Rangfolgemethoden](ranking.md)
 
 1. **Auswahlstrategien erstellen**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangfolgemethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 
-   ➡️ [Erfahren Sie, wie Sie Auswahlstrategien in der Benutzeroberfläche](selection-strategies.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/selection-strategies/create.md))
+   ➡️ [Informationen zum Erstellen von Auswahlstrategien in der Benutzeroberfläche](selection-strategies.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/selection-strategies/create.md))
 
 1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
 
-   ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
+   ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
 
-Ein vollständiger Anwendungsfall, der zeigt, wie Entscheidungen in einem Code-basierten Erlebnis verwendet werden, wird in [diesem Abschnitt) ](experience-decisioning-uc.md).
+In [diesem Abschnitt](experience-decisioning-uc.md) wird ein vollständiger End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Entscheidungen in einem Code-basierten Erlebnis verwendet werden.

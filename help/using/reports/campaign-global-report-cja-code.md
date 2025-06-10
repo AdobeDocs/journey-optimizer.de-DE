@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Die Tabelle **[!UICONTROL Labels getrackter Links]** bietet einen umfassenden Ü
 
 +++
 
-## Reporting zu Entscheidungen {#decisioning-reporting}
+## Reporting zur Entscheidungsfindung {#decisioning-reporting}
 
 ### Entscheidungsfindungs-KPIs {#decisioning-kpis}
 
@@ -173,4 +173,4 @@ Das Diagramm **[!UICONTROL Konversionsrate für Holdout- und modellgesteuerten T
 
 >[!CAUTION]
 >
->Bei Verwendung eines KI-Modells, das in eine [Rangfolgenformel](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) integriert ist, werden die Daten nicht im Konversionsratenbericht angezeigt.
+>Wenn Sie ein KI-Modell verwenden, das in eine [Rangfolgenformel](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) integriert ist, werden Daten nicht im Bericht zur Konversionsrate angezeigt.

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 >[!NOTE]
 >
->* Jede eingehende Erlebnisaktivität enthält eine 3-tägige **Warten**-Aktivität. [Weitere Informationen](wait-activity.md#auto-wait-node)
+>* Jede Aktivität für eingehende Erlebnisse geht mit einer 3-tägigen **Warteaktivität** einher. [Weitere Informationen](wait-activity.md#auto-wait-node)
 >
 >* Für E-Mails und Push-Benachrichtigungen können Sie die Versandzeitoptimierung aktivieren. [Weitere Informationen](send-time-optimization.md)
 

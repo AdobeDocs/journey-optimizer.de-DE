@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Weitere Informationen zu den verschiedenen Metriken und Widgets, die für die Ka
 
 Vor Beginn sollten Sie prüfen, ob Zugriff auf das Menü **[!UICONTROL Berichte]** besteht.
 
-Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie für Ihr Unternehmen Zugriff auf [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} von Adobe Experience Platform haben. Falls nicht, wenden Sie sich an Ihre Adobe Journey Optimizer-Admins.
+Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff auf die [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} in Adobe Experience Platform für Ihre Organisation haben. Falls nicht, wenden Sie sich an Ihre Adobe Journey Optimizer-Admins.
 
 +++Mehr Informationen zum Zuweisen von Berichtsberechtigungen
 

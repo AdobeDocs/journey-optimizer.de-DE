@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Personalisierte Optimierungsmodelle sind ein KI-Modelltyp, mit dem Sie Geschäft
 
 Personalisierte Optimierungsmodelle verwenden standardmäßig **Angebot-Klicks** als Optimierungsmetrik. Wenn Sie mit [!DNL Customer Journey Analytics] arbeiten, können Sie mit [!DNL Decisioning] Ihre eigenen benutzerdefinierten Metriken verwenden, um Ihr Modell zu optimieren.
 
-Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. Alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in der Liste angezeigt. Wählen Sie die Metrik aus, mit der Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
+Rufen Sie dazu den Bildschirm zum Erstellen des personalisierten KI-Modells auf und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. In der Liste werden alle Metriken aus Ihrer standardmäßigen [!DNL Customer Journey Analytics]-[Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} angezeigt. Wählen Sie die Metrik aus, mit der Sie Ihr Modell optimieren möchten, und schließen Sie dann die Erstellung des KI-Modells wie gewohnt ab.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -78,7 +78,7 @@ Rangfolgeformeln werden in **PQL-Syntax** ausgedrückt und können verschiedene 
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [ Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de)
+>Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
 
 Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, befolgen Sie die unten stehende Syntax im Code Ihrer Rangfolgeformel. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 

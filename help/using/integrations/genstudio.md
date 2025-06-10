@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Arbeiten mit GenStudio for Performance Marketing in Journey Optimizer
-description: Erfahren Sie, wie Sie in Journey Optimizer mit GenStudio for Performance Marketing arbeiten
+description: Informationen zur Arbeit mit GenStudio for Performance Marketing in Journey Optimizer
 feature: Content Assistant, Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 >
 >* Die GenStudio-Integration in [!DNL Adobe Journey Optimizer] ist derzeit nicht für die Verwendung mit den Add-ons **Healthcare Shield** oder **Privacy and Security Shield** verfügbar.
 >
->* Diese Funktion ist nur für den E-Mail-Kanal verfügbar.
+>* Diese Funktion steht nur für den E-Mail-Kanal zur Verfügung.
 
 Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, können Sie [!DNL **GenStudio for Performance Marketing**]-Erlebnisse nahtlos mit [!DNL **Adobe Journey Optimizer**] integrieren. Nutzen Sie so die KI-gestützte Inhaltserstellung von [!DNL GenStudio] zusammen mit den erweiterten Orchestrierungsfunktionen von [!DNL Journey Optimizer].
 
@@ -41,7 +41,7 @@ Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, k
 >
 >Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -60,7 +60,7 @@ See if guidelines/limitations such as the ones listed [here](gs-generative.md#ge
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
-## Verwenden von GenStudio-Funktionen in Journey Optimizer {#use-genstudio}
+## Verwenden der GenStudio-Funktionen in Journey Optimizer {#use-genstudio}
 
 Durch die Integration von [!DNL GenStudio for Performance Marketing] und [!DNL Journey Optimizer] können Marketing-Fachleute in Ihrem Unternehmen besser im Team arbeiten, um Prozesse zu optimieren.
 
@@ -138,6 +138,6 @@ Verfolgen Sie nach dem Ausführen des Experiments mit dem [Experimentkampagnenbe
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie eine E-Mail-Vorlage aus Journey Optimizer in GenStudio for Performance Marketing exportieren, markenkonforme E-Mails mit der Vorlage in GenStudio erstellen und diese dann nahtlos zurück in Journey Optimizer importieren.
+Erfahren Sie, wie Sie eine E-Mail-Vorlage aus Journey Optimizer in GenStudio for Performance Marketing exportieren, markenkonforme E-Mails mit der Vorlage in GenStudio erstellen und diese dann nahtlos wieder in Journey Optimizer importieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456058/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

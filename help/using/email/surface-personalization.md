@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können 
 
 >[!NOTE]
 >
->Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
+>Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 
 Gehen Sie wie folgt vor, um die Vorschau von Inhalten mithilfe von Testprofilen anzuzeigen:
 

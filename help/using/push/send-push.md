@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. 
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]**. Sie können den Typ des Geräts auswählen, auf dem Inhalte in der Vorschau angezeigt werden sollen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 

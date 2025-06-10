@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Integration, Standard, Kampagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können eine ereignisbasierte (d. h. Echtzeit-) oder eine profilbasierte Tra
 
 >[!NOTE]
 >
->Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten über eine benutzerdefinierte Aktion mit einem Drittanbietersystem weiterleiten, ist eine spezifische Einrichtung für die Verwaltung von Ermüdung, Blockierungsliste oder Abmeldung erforderlich. Wenn beispielsweise ein Attribut „unsubscribe“ in Adobe Experience Platform oder in einem Drittanbietersystem gespeichert ist, muss eine Bedingung vor dem Nachrichtenversand hinzugefügt werden, um diese Bedingung zu überprüfen.
+>Wenn wir Echtzeit-Transaktionsnachrichten (rtEvent) senden oder Nachrichten über eine benutzerdefinierte Aktion mit einem Drittanbietersystem weiterleiten, ist eine spezifische Einrichtung für die Verwaltung von Ermüdung, Blockierungsliste oder Abmeldung erforderlich. Wenn beispielsweise ein „unsubscribe“-Attribut in Adobe Experience Platform oder in einem Drittanbietersystem gespeichert ist, muss vor dem Senden der Nachricht eine Bedingung hinzugefügt werden, damit diese Bedingung überprüft werden kann.
 
 Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nachricht erwartet werden, im Konfigurationsbereich der Aktivität unter **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]** angezeigt. Sie müssen jedes dieser Felder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenmanipulationen an abgerufenen Informationen vorzunehmen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie „if, then, else“ zu verwenden. Weitere Informationen finden Sie auf [dieser Seite](expression/expressionadvanced.md).
 

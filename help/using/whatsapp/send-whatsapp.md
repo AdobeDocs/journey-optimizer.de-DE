@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 ## Anzeigen einer Vorschau Ihrer WhatsApp-Nachricht {#preview-whatsapp}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. 
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
 

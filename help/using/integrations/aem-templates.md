@@ -12,9 +12,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Mit Adobe Journey Optimizer können Sie über Adobe Experience Manager Sites ben
 >[!AVAILABILITY]
 >
 >Die Integration mit Adobe Experience Manager ist derzeit nur für ausgewählte Benutzerinnen und Benutzer als Beta-Version verfügbar.
->Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
+>>Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
 
 
 ### Voraussetzungen {#prerequisites}
@@ -44,7 +44,7 @@ Bevor Sie mit der Verwendung dieser Funktion beginnen, stellen Sie sicher, dass 
 
   Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen in Adobe Journey Optimizer benötigen Sie die Berechtigung **[!DNL Manage Library Items]**, die im **[!DNL Content Library Manager]**-Produktprofil enthalten ist. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
-### Leitlinien und Einschränkungen{#aem-templates-limitations}
+### Schutzmechanismen und Einschränkungen{#aem-templates-limitations}
 
 Um Ihre Nutzung von Adobe Experience Manager mit Adobe Journey Optimizer weiter zu optimieren, sollten Sie die folgenden zusätzlichen Leitlinien und Einschränkungen beachten:
 

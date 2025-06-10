@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -100,4 +100,4 @@ Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, könn
 >title="Über den automatischen Warteknoten"
 >abstract="Nach dieser Aktivität wird automatisch eine **Warteaktivität** hinzugefügt. Sie ist auf 3 Tage eingestellt. Sie können sie entfernen oder nach Bedarf konfigurieren."
 
-Jede eingehende Erlebnisaktivität (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) umfasst eine 3-tägige **Warten**-Aktivität. Da eingehende Nachrichten automatisch enden, wenn ein Profil das Ende der Journey erreicht, ist davon auszugehen, dass Sie möchten, dass Ihre Benutzenden sie mindestens 3 Tage lang sehen. Sie können bei Bedarf diese **Warteaktivität** entfernen oder ihre Konfiguration ändern.
+Jede Aktivität für eingehende Erlebnisse (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) geht mit einer 3-tägigen **Warteaktivität** einher. Da eingehende Nachrichten automatisch enden, wenn ein Profil das Ende der Journey erreicht, ist davon auszugehen, dass Sie möchten, dass Ihre Benutzenden sie mindestens 3 Tage lang sehen. Sie können bei Bedarf diese **Warteaktivität** entfernen oder ihre Konfiguration ändern.
