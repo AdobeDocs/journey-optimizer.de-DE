@@ -5,14 +5,14 @@ title: Erste Schritte mit Reporting- und Überwachungsfunktionen in [!DNL Adobe 
 description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] - und Überwachungsfunktionen arbeiten.
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 89141216428492ede9e540ad6a52e225e79f1abe
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 12%
 
 ---
 
-# Erste Schritte mit Reporting- und Überwachungsfunktionen {#get-started-report}
+# Erste Schritte mit Reporting-Funktionen {#get-started-report}
 
 Adobe Journey Optimizer bietet Ihnen durch seine leistungsstarken Berichtsfunktionen umsetzbare Einblicke. Berichte sind für Kampagnen, Journey, Landingpages, Abonnementlisten und mehr verfügbar. Die verfügbaren Berichte sind unten aufgeführt.
 
