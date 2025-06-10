@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5200004e027116416355a5374980edc224ec8ebb
+source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2423'
 ht-degree: 96%
 
 ---
@@ -179,10 +179,10 @@ ht-degree: 96%
 + Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Konfigurationsschritte](using/orchestrated/configuration-steps.md)
-   + [Wichtige Schritte zur orchestrierten Kampagnenerstellung](using/orchestrated/gs-campaign-creation.md)
+   + [Zugreifen auf und Verwalten von orchestrierten Kampagnen](using/orchestrated/gs-campaign-creation.md)
    + Starten der ersten orchestrierten Kampagne{#launch}
-      + [Erstellen einer orchestrierten Kampagne](using/orchestrated/create-orchestrated-campaign.md)
-      + [Einstellungen für koordinierte Kampagnen](using/orchestrated/orchestrated-campaign-settings.md)
+      + [Wichtige Schritte zur orchestrierten Kampagnenerstellung](using/orchestrated/gs-campaign-creation.md)
+      + [Erstellen und Konfigurieren der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
       + [Senden von Nachrichten mit orchestrierten Kampagnen](using/orchestrated/send-messages.md)
       + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
