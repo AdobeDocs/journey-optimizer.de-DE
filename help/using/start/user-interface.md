@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 100%
+source-wordcount: '1451'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,8 @@ Erstellen Sie Kampagnen und Journeys in diesem Abschnitt.
 * **[!UICONTROL Kampagnen]** - Erstellen, konfigurieren und orchestrieren Sie Kampagnen, um einmalige Inhalte mithilfe verschiedener Kanäle für eine bestimmte Zielgruppe bereitzustellen. [Weitere Informationen](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL Journey]** - Erstellen, konfigurieren und orchestrieren Sie Ihre Kunden-Journeys: kombinieren Sie die Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL Berichte]** - Die Journey Optimizer-Berichterstellung ist vollständig in die Customer Journey Analytics-Funktionen integriert, wodurch das Reporting auf beiden Plattformen standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert werden. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet eine klarere Übersicht über Leistungsmetriken, sodass Benutzerinnen und Benutzer fundiertere Entscheidungen treffen können. [Weitere Informationen](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL ENTSCHEIDUNGS-MANAGEMENT] {#left-nav-decision}
