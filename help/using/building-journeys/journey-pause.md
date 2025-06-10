@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 251335c183b23648aa280b0c8cb81824f353208c
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ Gehen Sie wie folgt vor, um beispielsweise alle französischen Kundinnen und Kun
    Bei der Wiederaufnahme werden alle Profile mit dem Länderattribut Frankreich automatisch von der Journey ausgeschlossen. Alle neuen Profile mit dem Länderattribut Frankreich, die versuchen, die Journey zu betreten, werden blockiert.
 
 Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit auf der Journey befinden, und für neue Profile nur auftreten, wenn sie einen Aktionsknoten erreichen.
+
+>[!CAUTION]
+>
+>* Sie können nur **einen** globalen Filter pro Journey festlegen.
+>
+>* Sie können einen globalen Filter nur in den Journey **Paused** erstellen, aktualisieren oder löschen.
