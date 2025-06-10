@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'Erste Schritte bei der Kanalkonfiguration mit [!DNL Journey Optimizer] '
+title: Erste Schritte mit der Konfiguration  [!DNL Journey Optimizer]  Kanälen
 description: 'Erfahren Sie mehr über die Kanalkonfiguration mit [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 71%
 
 ---
 
@@ -24,37 +24,43 @@ Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktion
 
 Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte durchlaufen:
 
-1. Definieren Sie als [Adobe Journey Optimizer-Systemadmin](../start/path/administrator.md) Ihre Kanalkonfigurationen. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
+1. Definieren Sie als [Adobe Journey Optimizer-](../start/path/administrator.md) Ihre kanalspezifischen Konfigurationen. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../email/get-started-email-config.md"><strong>E-Mail</strong></a></div></td>
-<td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
-<td><a href="../push/push-configuration.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../push/push-configuration.md"><strong>Push-Benachrichtigung</strong></a></div></td>
-<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Direkt-Mail</strong></a></div></td>
-</tr></table>
+   <table style="table-layout:fixed"><tr style="border: 0;">
+    <td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
+    <div align="center"><a href="../email/get-started-email-config.md"><strong>E-Mail</strong></a></div></td>
+    <td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+    <td><a href="../push/push-configuration.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
+    <div align="center"><a href="../push/push-configuration.md"><strong>Push-Benachrichtigung</strong></a></div></td>
+    <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+    <div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Direkt-Mail</strong></a></div></td>
+    </tr></table>
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/inapp-configuration.md"><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg"></a>
-<div align="center"><a href="../in-app/inapp-configuration.md"><strong>In-App</strong></a></div></td>
-<td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
-<td><a href="../code-based/code-based-configuration.md"><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png"></a>
-<div align="center"><a href="../code-based/code-based-configuration.md"><strong>Code-basiertes Erlebnis</strong></a></div></td>
-<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Inhaltskarten</strong></a></div></td>
-</tr></table>
+   <table style="table-layout:fixed"><tr style="border: 0;">
+    <td><a href="../in-app/inapp-configuration.md"><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+    <div align="center"><a href="../in-app/inapp-configuration.md"><strong>In-App</strong></a></div></td>
+    <td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+    <div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
+    <td><a href="../code-based/code-based-configuration.md"><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png"></a>
+    <div align="center"><a href="../code-based/code-based-configuration.md"><strong>Code-basiertes Erlebnis</strong></a></div></td>
+    <td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png"></a>
+    <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Inhaltskarten</strong></a></div></td>
+    </tr></table>
 
->[!NOTE]
->
->Bei Mobile-Kanälen erleichtert die [geführte Kanaleinrichtung](set-mobile-config.md) die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
+   >[!NOTE]
+   >
+   >Bei Mobile-Kanälen erleichtert die [geführte Kanaleinrichtung](set-mobile-config.md) die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
 
-1. Anschließend müssen Sie **Kanalkonfigurationen** erstellen, um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Weitere Informationen zu Kanalkonfigurationen](channel-surfaces.md)
+1. Anschließend müssen Sie alle technischen Parameter konfigurieren, die zum Versand von Nachrichten erforderlich sind, indem Sie **Kanalkonfigurationen** erstellen. [Weitere Informationen zu Kanalkonfigurationen](channel-surfaces.md)
 
-1. Alternativ können Sie auch folgendermaßen vorgehen:
+1. Je nach den von Ihnen verwendeten Kanälen, Ihren Umgebungen und Ihren Anforderungen müssen Sie auch die folgenden Schritte ausführen:
+
+   * Subdomain-Konfiguration und -Zuweisung für Ihre Kanäle wie [E](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [Landingpages](../landing-pages/lp-subdomains.md) und [Web-Erlebnisse](../web/web-delegated-subdomains.md).
+
+   * Richten Sie IP-Aufwärmpläne für eine optimale Zustellbarkeit ein. [Weitere Informationen](ip-warmup-gs.md)
+
+   * Definieren Sie eine Zulassungsliste für den E-Mail-Versand. [Weitere Informationen](allow-list.md)
 
    * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 

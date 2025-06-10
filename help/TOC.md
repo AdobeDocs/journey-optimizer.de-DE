@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2425'
 ht-degree: 96%
 
 ---
@@ -709,7 +709,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Integrierte Schemata >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
    + [Abfragen](using/data/get-started-queries.md)
 + Kanalkonfiguration {#configuration}
-   + [Konfigurieren von Kanälen](using/configuration/get-started-configuration.md)
+   + [Erste Schritte bei der Kanalkonfiguration](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
    + Anleitung zur Kanaleinrichtung {#guided-setup}
       + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)
