@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von orchestrierten Kampagnen mit Journey Optimizer
+title: Erstellen und Planen orchestrierter Kampagnen mit Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer eine koordinierte Kampagne erstellen
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 935ab0399da88c792104b7dc14793b69713951fc
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 32%
+source-wordcount: '342'
+ht-degree: 16%
 
 ---
 
 
-# Erstellen einer orchestrierten Kampagne {#create-first-campaign}
+# Erstellen und Planen einer orchestrierten Kampagne {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Liste der orchestrierten Kampagnen"
->abstract="Unter der Registerkarte **Mehrstufig** werden alle mehrstufigen Kampagnen aufgelistet. Klicken Sie auf den Namen einer orchestrierten Kampagne, um sie zu bearbeiten. Über die Schaltfläche **Orchestrierte Kampagne erstellen** können Sie eine neue orchestrierte Kampagne hinzufügen."
+>abstract="Auf **Registerkarte** Orchestrierung“ werden alle orchestrierten Kampagnen aufgelistet. Klicken Sie auf den Namen einer orchestrierten Kampagne, um sie zu bearbeiten. Über die Schaltfläche **Orchestrierte Kampagne erstellen** können Sie eine neue orchestrierte Kampagne hinzufügen."
 
 +++ Inhaltsverzeichnis
 
 | Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/><b>[Erstellen und konfigurieren Sie die ](create-orchestrated-campaign.md)</b><br/><br/>[-Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden Sie Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und überwachen Sie die Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/><b>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -34,158 +34,115 @@ ht-degree: 32%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Dokumentation in Bearbeitung
+
+>[!ENDSHADEBOX]
+
 ## Erstellen der Kampagne {#create}
 
 Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
-1. Navigieren Sie zum Menü **Kampagnen** .
+1. Navigieren Sie zum Menü **[!UICONTRO Kampagnen]**, wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** und wählen Sie **[!UICONTROL Kampagne erstellen]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Orchestrierte Kampagne erstellen]** in der oberen rechten Ecke des Bildschirms.
+   ![](assets/inventory-create.png)
 
-1. Wählen Sie im Dialogfeld **Eigenschaften** die Vorlage aus, die zur Erstellung der orchestrierten Kampagne verwendet werden soll (Sie können auch die standardmäßige integrierte Vorlage verwenden). [Erfahren Sie mehr über orchestrierte Kampagnenvorlagen](#campaign-templates).
+1. Geben Sie einen Namen für die orchestrierte Kampagne ein. Darüber hinaus empfehlen wir dringend, eine Beschreibung in das entsprechende Feld einzufügen.
 
-1. Geben Sie einen Titel für die orchestrierte Kampagne ein. Darüber hinaus empfehlen wir dringend, zu Ihrer orchestrierten Kampagne eine Beschreibung im entsprechenden Feld des Abschnitts „Zusätzliche **[!UICONTROL &quot;]** Bildschirms hinzuzufügen.
+1. (Optional) Verwenden Sie das Feld **Tags**, um Ihrer orchestrierten Kampagne einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags).
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Zusätzliche Optionen]**, um weitere Einstellungen für die orchestrierte Kampagne zu konfigurieren.
-
-1. Klicken Sie auf **[!UICONTROL Orchestrierte Kampagne erstellen]**, um die Erstellung Ihrer orchestrierten Kampagne zu bestätigen.
-
-Ihre orchestrierte Kampagne wird jetzt erstellt und ist in der Liste der Workflows verfügbar. Sie können jetzt auf die visuelle Arbeitsfläche zugreifen und mit dem Hinzufügen, Konfigurieren und Orchestrieren der Aufgaben beginnen, die ausgeführt werden sollen. [Erfahren Sie, wie Sie orchestrierte Kampagnenaktivitäten ](orchestrate-activities.md).
-
-## Kampagneneinstellungen konfigurieren {#settings}
-
-<!--Overview of new admin settings> schemas, execution fields, merge policy. [Learn more](configuration-steps.md)-->
-
-Bei der Erstellung einer orchestrierten Kampagne oder der Orchestrierung von Kampagnenaktivitäten auf der Arbeitsfläche können Sie auf erweiterte Einstellungen im Zusammenhang mit der orchestrierten Kampagne zugreifen. Sie können beispielsweise eine bestimmte Zeitzone für die orchestrierte Kampagne festlegen, verwalten, wie sich die orchestrierte Kampagne im Fehlerfall verhalten soll, oder die Verzögerung verwalten, nach der der orchestrierte Kampagnenverlauf bereinigt werden soll.
-
-Diese Einstellungen sind in der bei der Erstellung der orchestrierten Kampagne ausgewählten Vorlage vorkonfiguriert, können jedoch bei Bedarf für diese spezifische orchestrierte Kampagne bearbeitet werden.
-
-![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
-
-### Eigenschaften orchestrierter Kampagnen {#properties}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_properties"
->title="Eigenschaften orchestrierter Kampagnen"
->abstract="Dieser Abschnitt enthält allgemeine Eigenschaften für orchestrierte Kampagnen, auf die auch beim Erstellen der orchestrierten Kampagne zugegriffen werden kann. Sie können die Vorlage auswählen, die zum Erstellen der orchestrierten Kampagne verwendet werden soll, und ein Label angeben. Erweitern Sie den Abschnitt „Zusätzliche Optionen“, um bestimmte Einstellungen zu konfigurieren, z. B. den Ordner, in dem die orchestrierte Kampagne gespeichert wird, oder die Zeitzone."
-
-Der Abschnitt **[!UICONTROL Eigenschaften]** enthält allgemeine Einstellungen, die beim Erstellen einer orchestrierten Kampagne konfiguriert werden können. Um auf die Eigenschaften einer bestehenden orchestrierten Kampagne zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Einstellungen]**, die in der Aktionsleiste über der orchestrierten Kampagnen-Arbeitsfläche verfügbar ist.
-
-![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
-
-Diese Eigenschaften sind:
-
-* Der **[!UICONTROL Titel]** der orchestrierten Kampagne, der in der Liste angezeigt wird.
-* Der **[!UICONTROL Interne Name]** der orchestrierten Kampagne.
-* Der **[!UICONTROL Ordner]** in dem die orchestrierte Kampagne gespeichert werden soll.
-* Die **[!UICONTROL Zeitzone]**, die bei allen Aktivitäten der orchestrierten Kampagne verwendet wird. Standardmäßig ist die Zeitzone der orchestrierten Kampagne die für den aktuellen Campaign-Benutzer definierte Zeitzone.
-Mögliche Werte sind:
-   * **Server-Zeitzone**, um die Zeitzone Ihres Adobe Experience Platform-Unternehmens zu verwenden
-   * **Zeitzone des Benutzers** nutzt die Zeitzone des Benutzers, der die orchestrierte Kampagne ausführt
-   * **Zeitzone der Datenbank**, um die Zeitzone des Datenbank-Servers zu verwenden.
-   * Eine bestimmte Zeitzone
-* Wenn eine orchestrierte Kampagne fehlschlägt, werden die Benutzer, die zur Benutzergruppe gehören, die im Feld **[!UICONTROL Verantwortliche(r)) ausgewählt]**, per E-Mail benachrichtigt.
-* Sie können auch eine **[!UICONTROL Beschreibung]** Ihrer orchestrierten Kampagne eingeben.
-
-### Segmentierungseinstellungen  {#segmentation-settings}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_segmentation"
->title="Segmentierungseinstellungen"
->abstract="In diesem Abschnitt können Sie die Zielgruppendimension auswählen, um Profile in der orchestrierten Kampagne auszuwählen, und entscheiden, ob die Workflow-Ergebnisse zwischen zwei Ausführungen beibehalten werden sollen. Diese Option sollte nur zu Testzwecken verwendet werden und darf nie in einer orchestrierten Produktionskampagne aktiviert werden."
-
-* **[!UICONTROL Zielgruppendimension]**: Wählen Sie die Zielgruppendimension aus, die für die Zielgruppenbestimmung von Profilen verwendet werden soll: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.
-
-* **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung der orchestrierten Kampagne beibehalten. Arbeitstabellen früherer Ausführungen werden durch eine technisch orchestrierte Kampagne bereinigt, die täglich ausgeführt wird.
-
-  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung der orchestrierten Kampagne beibehalten. Sie können sie zu Testzwecken verwenden. Daher farf sie **nur** in Entwicklungs- oder Staging-Umgebungen genutzt werden. Sie darf nie in einer produktionsorientierten Kampagne aktiviert werden.
-
-### Ausführungseinstellungen  {#exec-settings}
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_execution"
->title="Ausführungseinstellungen"
->abstract="In diesem Abschnitt können Sie die Einstellungen für die Ausführung des Workflows konfigurieren, beispielsweise für wie viele Tage der Verlauf der orchestrierten Kampagne gespeichert wird."
-
-* **[!UICONTROL Verlauf in Tagen]**: Gibt die Anzahl der Tage an, nach denen der Verlauf bereinigt werden muss. Der Verlauf enthält Elemente, die mit der orchestrierten Kampagne in Verbindung stehen: Protokolle, Aufgaben, Ereignisse (technische Objekte, die mit dem orchestrierten Kampagnenvorgang verknüpft sind). Der Standardwert bei vorkonfigurierten orchestrierten Kampagnenvorlagen beträgt 30 Tage. Die Bereinigung des Verlaufs erfolgt durch die technisch orchestrierte Kampagne für die Datenbankbereinigung, die standardmäßig täglich ausgeführt wird
-
-  >[!IMPORTANT]
-  >
-  >Wenn das Feld **[!UICONTROL Verlauf in Tagen]** leer gelassen wird, wird sein Wert als „1“ betrachtet; der Verlauf wird also nach einem Tag bereinigt.
-
-* **[!UICONTROL Standardaffinität]**: Wenn Ihre Installation mehrere Server für orchestrierte Kampagnen umfasst, geben Sie in diesem Feld den Server an, auf dem die orchestrierte Kampagne ausgeführt werden soll. Dies erzwingt die Ausführung dieser orchestrierten Kampagne auf einem bestimmten Server. Sie können einen beliebigen vorhandenen Affinitätsnamen auswählen. Stellen Sie jedoch sicher, dass Sie keine Leerzeichen oder Satzzeichen verwenden. Wenn Sie verschiedene Server verwenden, geben Sie unterschiedliche Namen an, getrennt durch Kommas.
-
-  >[!IMPORTANT]
-  >
-  >Wenn der in diesem Feld definierte Wert auf keinem Server vorhanden ist, bleibt die orchestrierte Kampagne ausstehend.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Erstellen]**.
 
 
-* **[!UICONTROL SQL-Abfragen im Protokoll speichern]**: Aktivieren Sie diese Option, um die SQL-Abfragen aus der mehrstufigen Workflow-Kampagne jetzt in den Protokollen zu speichern. Diese Funktion ist erfahrenen Benutzerinnen und Benutzern vorbehalten. Dies gilt für orchestrierte Kampagnen, die Zielgruppenbestimmungsaktivitäten enthalten, wie **[!UICONTROL Zielgruppe aufbauen]**. Wenn diese Option aktiviert ist, werden die SQL-Abfragen, die während der Ausführung der orchestrierten Kampagne an die Datenbank gesendet werden, in den Protokollen der orchestrierten Kampagne angezeigt, sodass Sie sie analysieren können, um Abfragen zu optimieren oder Probleme zu diagnostizieren.
+Ihre orchestrierte Kampagne wird jetzt erstellt und ist in der Kampagnenliste verfügbar. Sie können diese Eigenschaften jederzeit ändern, indem Sie auf das Symbol ![Kampagneneinstellungen](assets/do-not-localize/campaign-settings.svg) auf der Kampagnenarbeitsfläche klicken.
 
-### Einstellungen für den Umgang mit Fehlern  {#error-settings}
 
->[!CONTEXTUALHELP]
->id="ajo_workflow_settings_error"
->title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt können Sie definieren, wie die orchestrierte Kampagne mit Fehlern während ihrer Ausführung umgehen soll. Sie können festlegen, dass der Prozess angehalten, eine bestimmte Anzahl von Fehlern ignoriert oder die Ausführung der orchestrierten Kampagne gestoppt werden soll."
+## Planen der Kampagne {#schedule}
 
-* **[!UICONTROL Umgang mit Fehlern]** In diesem Feld können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine orchestrierte Kampagnenaufgabe Fehler aufweist. Es gibt drei mögliche Optionen:
+Standardmäßig beginnen orchestrierte Kampagnen, sobald sie manuell aktiviert werden, und enden, sobald ihre Aktivitäten ausgeführt wurden.
 
-   * **[!UICONTROL Prozess aussetzen]**: Die orchestrierte Kampagne wird automatisch ausgesetzt und der Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, setzen Sie die orchestrierte Kampagne mit der Schaltfläche **[!UICONTROL Fortsetzen]** fort.
-   * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]** aber die orchestrierte Kampagne behält den **[!UICONTROL Gestartet]** Status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Vorgang abbrechen]**: Die orchestrierte Kampagne wird automatisch angehalten und der Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie die orchestrierte Kampagne mithilfe der Schaltflächen **[!UICONTROL Starten]** neu.
+Wenn Sie eine orchestrierte Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie ein Datum und eine Uhrzeit für die Ausführung angeben. Sie können die Kampagne auch in regelmäßigen Abständen ausführen, basierend auf verschiedenen Kriterien.
 
-* **[!UICONTROL Aufeinanderfolgende Fehler]**: Dieses Feld wird verfügbar, wenn im Feld **[!UICONTROL Im Fehlerfall]** der Wert **[!UICONTROL Ignorieren]** ausgewählt wurde. Sie können die Anzahl der Fehler angeben, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, ändert sich der Status der orchestrierten Kampagne in **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 ist, wird die orchestrierte Kampagne unabhängig von der Fehleranzahl nie angehalten.
+Um den Zeitplan der Kampagne zu konfigurieren, öffnen Sie die orchestrierte Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL So bald wie möglich]**.
 
-## Arbeiten mit Vorlagen für orchestrierte Kampagnen {#campaign-templates}
+![](assets/create-schedule.png)
+
+<!--In the Execution frequency field, select 
+
+time zone
+
+daily, weekly, monthly
+several times a day based on specific hours or periodically
+
+recurring frequencies (all except as soon and once)
+preview launch times
+validity period
+
+>[!NOTE]
+>
+>When scheduling campaigns in [!DNL Adobe Journey Optimizer], ensure your start date/time aligns with the desired first delivery. For recurring campaigns, if the initial scheduled time has already passed, the campaigns will roll over to the next available time slot according to their recurrence rules.
+
+## Work with orchestrated campaign templates {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Vorlagen für orchestrierte Kampagnen"
->abstract="Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können."
+>title="Orchestrated campaign templates"
+>abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaign."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Eigenschaften orchestrierter Kampagnen"
->abstract="Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Geben Sie in diesem Bildschirm das Label der Vorlage für orchestrierte Kampagnen ein und konfigurieren Sie die zugehörigen Einstellungen wie den internen Namen, den Ordner und die Ausführungsordner, die Zeitzone und die Gruppe der Verantwortlichen."
+>title="Orchestrated campaign properties"
+>abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. In this screen, enter the label of the orchestrated campaign template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
 
-Vorlagen für orchestrierte Kampagnen enthalten vorkonfigurierte Einstellungen und Aktivitäten, die zur Erstellung neuer orchestrierter Kampagnen wiederverwendet werden können. Sie können bei der Erstellung einer orchestrierten Kampagne die Vorlage der orchestrierten Kampagne in den Eigenschaften der orchestrierten Kampagne auswählen. Standardmäßig wird eine leere Vorlage bereitgestellt.
+Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. You can select the template of your orchestrated campaign from the orchestrated campaign properties, when creating an orchestrated campaign. An empty template is provided by default.
 
-Sie können eine Vorlage aus einer vorhandenen orchestrierten Kampagne erstellen oder eine neue Vorlage von Grund auf neu erstellen. Beide Methoden werden nachfolgend beschrieben.
+You can create a template from an existing orchestrated campaign, or create a new template from scratch. Both methods are detailed below.
 
 >[!BEGINTABS]
 
->[!TAB Erstellen Sie eine Vorlage aus einer vorhandenen orchestrierten Kampagne]
+>[!TAB Create a template from an existing orchestrated campaign]
 
-Gehen Sie wie folgt vor, um eine orchestrierte Kampagnenvorlage aus einer vorhandenen orchestrierten Kampagne zu erstellen:
+To create an orchestrated campaign template from an existing orchestrated campaign, follow these steps:
 
-1. Öffnen Sie das Menü **Kampagne** und navigieren Sie zur orchestrierten Kampagne, um sie als Vorlage zu speichern.
-1. Klicken Sie auf die drei Punkte rechts neben dem Namen der orchestrierten Kampagne und wählen Sie **Als Vorlage kopieren**.
-1. Bestätigen Sie im Popup-Fenster die Vorlagenerstellung.
-1. Markieren, fügen Sie die Aktivitäten auf der Arbeitsfläche der orchestrierten Kampagnenvorlage nach Bedarf hinzu und konfigurieren Sie sie.
-1. Navigieren Sie über die Schaltfläche **Einstellungen** zum Namen der orchestrierten Kampagnenvorlage und geben Sie eine Beschreibung ein.
-1. Wählen Sie den **Ordner** und den **Ausführungsordner** der Vorlage aus. Der Ordner ist der Speicherort, an dem die orchestrierte Kampagnenvorlage gespeichert wird. Der Ausführungsordner ist der Ordner, in dem die auf dieser Vorlage basierenden orchestrierten Kampagnen gespeichert werden.
-1. Speichern Sie Ihre Änderungen.
+1. Open to the **Campaign** menu and browse to the orchestrated campaign to save as a template.
+1. Click the three dots on the right of the name of the orchestrated campaign, and choose **Copy as template**.
+1. In the popup window, confirm the template creation.
+1. In the orchestrated campaign template canvas, check, add, and configure the activities as needed.
+1. Browse to the settings, from the **Settings** button, to change the name of the orchestrated campaign template, and enter a description.
+1. Select the **folder** and **execution folder** of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
+1. Save your changes. 
 
-Die orchestrierte Kampagnenvorlage ist jetzt in der Vorlagenliste verfügbar. Sie können eine auf dieser Vorlage basierende orchestrierte Kampagne erstellen. Diese orchestrierte Kampagne wird mit den in der Vorlage definierten Einstellungen und Aktivitäten vorkonfiguriert.
-
-
->[!TAB Erstellen einer Vorlage von Grund auf]
+The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
 
 
-Gehen Sie wie folgt vor, um eine neue orchestrierte Kampagnenvorlage zu erstellen:
+>[!TAB Create a template from scratch]
 
-1. Öffnen Sie das Menü **Kampagne** und navigieren Sie zur Registerkarte **Vorlagen**. Eine Liste der verfügbaren orchestrierten Kampagnenvorlagen wird angezeigt.
-1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]** in der rechten oberen Ecke des Bildschirms.
-1. Geben Sie den Titel ein und öffnen Sie die zusätzlichen Optionen, um eine Beschreibung Ihrer orchestrierten Kampagnenvorlage einzugeben.
-1. Wählen Sie den Ordner und den Ausführungsordner der Vorlage aus. Der Ordner ist der Speicherort, an dem die orchestrierte Kampagnenvorlage gespeichert wird. Der Ausführungsordner ist der Ordner, in dem die auf dieser Vorlage basierenden orchestrierten Kampagnen gespeichert werden.
-1. Klicken Sie anschließend auf die Schaltfläche **Erstellen**, um Ihre Einstellungen zu bestätigen.
-1. Fügen Sie auf der Arbeitsfläche für orchestrierte Kampagnenvorlagen die Aktivitäten nach Bedarf hinzu und konfigurieren Sie sie.
 
-   ![](assets/wf-template-activities.png){zoomable="yes"}
+To create an orchestrated campaign template from scratch, follow these steps:
 
-1. Speichern Sie Ihre Änderungen.
+1. Open to the **Campaign** menu and browse to the **Templates** tab. You can see the list of available orchestrated campaign templates.
+1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
+1. Enter the label and open the additional options to enter a description of your orchestrated campaign template.
+1. Select the folder and execution folder of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
+1. Click the **Create** button to confirm your settings.
+1. In the orchestrated campaign template canvas, add and configure the activities as needed.
 
-Die orchestrierte Kampagnenvorlage ist jetzt in der Vorlagenliste verfügbar. Sie können eine auf dieser Vorlage basierende orchestrierte Kampagne erstellen. Diese orchestrierte Kampagne wird mit den in der Vorlage definierten Einstellungen und Aktivitäten vorkonfiguriert.
+     ![](assets/wf-template-activities.png){zoomable="yes"}
+
+1. Save your changes. 
+
+The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
 
 >[!ENDTABS]
+
+
+
+
+
+
+## Next steps {#next}
+
+Once your campaign configuration and content are ready, you can review and activate it. [Learn more](review-activate-campaign.md)
+
+-->

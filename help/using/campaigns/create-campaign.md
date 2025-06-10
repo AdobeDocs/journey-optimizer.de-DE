@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,17 +61,17 @@ Jetzt können Sie die Zielgruppe Ihrer Kampagne auswählen. Eine Zielgruppe ist 
 >
 >* Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden.
 
-Um die Zielgruppe der geplanten Marketing-Kampagne zu definieren, gehen Sie folgendermaßen vor:
+Um die Zielpopulation der geplanten Marketing-Kampagne zu definieren, gehen Sie folgendermaßen vor:
 
 1. Klicken Sie im Abschnitt **Zielgruppe** auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
-1. Wählen Sie im Feld **[!UICONTROL Identitätstyp]** den Schlüsseltyp aus, der zur Identifizierung der Kontakte in der ausgewählten Zielgruppe verwendet werden soll. Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit dem Identity Service einen neuen erstellen. Standardmäßige Identity-Namespaces werden auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} aufgeführt.
+1. Wählen Sie im Feld **[!UICONTROL Identitätstyp]** den Schlüsseltyp aus, der zur Identifizierung der Kontakte in der ausgewählten Zielgruppe verwendet werden soll. Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit dem Identity Service einen neuen erstellen. Standard-Identity-Namespaces sind auf [ Seite ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Pro Kampagne ist nur ein Identitätstyp zulässig. Kontakte, die zu einem Segment gehören, das den ausgewählten Identitätstyp nicht unter seinen verschiedenen Identitäten hat, können nicht in die Kampagne einbezogen werden.
 
    ![](assets/create-campaign-namespace.png)
 
-   Weitere Informationen zu Identitätstypen und Namespaces finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Identitätstypen und Namespaces finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
