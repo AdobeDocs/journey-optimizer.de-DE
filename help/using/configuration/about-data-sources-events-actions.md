@@ -9,21 +9,22 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Journey, Dashboard, Datenquellen, Ereignisse, Aktionen
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 67%
 
 ---
 
-# Konfigurieren von Datenquellen, Ereignissen und Aktionen {#configure-journeys}
+# Erste Schritte mit der Konfiguration von Journeys {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Über die Journey-Konfiguration"
->abstract="Um Nachrichten mit Journeys zu senden, müssen Sie Datenquellen, Ereignisse und Aktionen konfigurieren. Mit Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Mit Ereignissen können Sie Ihre Journeys beim Empfang eines Ereignisses auslösen. Mit benutzerdefinierten Aktionen können Sie eine Verbindung zu einem Drittanbietersystem herstellen, um Ihre Nachrichten zu senden. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie keine Aktion konfigurieren."
+>abstract="Um Nachrichten mit Journeys zu senden, müssen Sie Datenquellen, Ereignisse und Aktionen konfigurieren. Mit Datenquellen können Sie eine Verbindung zu einem System herstellen, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z. B. in Bedingungen. Ereignisse ermöglichen das Auslösen Ihrer Journey beim Empfang eines Ereignisses. Benutzerdefinierte Aktionen erleichtern die Verbindung zu einem Drittanbietersystem zum Senden Ihrer Nachrichten. Wenn Sie die integrierten Messaging-Funktionen von Journey Optimizer verwenden, ist keine Konfiguration erforderlich."
 
-Zum Senden von Nachrichten mit Journeys müssen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfiguriert werden.
+Um Nachrichten mit Journeys zu senden, müssen **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfiguriert werden. Mit Datenquellen können Sie eine Verbindung zu einem System herstellen, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z. B. in Bedingungen. Ereignisse ermöglichen das Auslösen Ihrer Journey beim Empfang eines Ereignisses. Benutzerdefinierte Aktionen erleichtern die Verbindung zu einem Drittanbietersystem zum Senden Ihrer Nachrichten. Wenn Sie die integrierten Messaging-Funktionen von Journey Optimizer verwenden, ist keine Konfiguration erforderlich.
+
 
 ![](assets/admin-menu.png)
 
