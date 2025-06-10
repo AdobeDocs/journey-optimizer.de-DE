@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 251335c183b23648aa280b0c8cb81824f353208c
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 6%
+source-wordcount: '1025'
+ht-degree: 4%
 
 ---
 
 # Journey anhalten {#journey-pause}
 
-Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Die Journey wird nach Ablauf der Pausenzeit automatisch fortgesetzt. Sie können sie auch [manuell fortsetzen](#journey-resume-steps).
-
+Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [globale Filter anwenden](#journey-global-filters) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf der Pausenzeit automatisch fortgesetzt. Sie können sie auch [manuell fortsetzen](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Diese Funktion reduziert das Risiko des Versands unbeabsichtigter Nachrichten w�
 
 ## Anhalten einer Journey {#journey-pause-steps}
 
-Sie können jede Live-Journey anhalten.
+Sie können jede **Live**-Journey anhalten.
 
 Gehen Sie wie folgt vor, um den Journey anzuhalten:
 
 1. Öffnen Sie die Journey, die Sie anhalten möchten.
 1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche und wählen Sie **Pause**.
 
-   ![Pause der Journey-Taste](assets/pause-journey-button.png)
+   ![Pause der Journey-Taste](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Wählen Sie die Option Verwalten von Profilen aus, die sich derzeit auf der Journey befinden.
 
@@ -74,6 +73,11 @@ Gehen Sie wie folgt vor, um den Journey anzuhalten:
 
 1. Klicken Sie zur Bestätigung auf **Pause**-Schaltfläche.
 
+In der Liste Ihrer Journey können Sie eine oder mehrere **Live**-Journey anhalten. Um eine Gruppe von Journey anzuhalten (_Bulk Pause_), wählen Sie sie in der Liste aus und klicken Sie auf die Schaltfläche **Pause** in der blauen Leiste am unteren Bildschirmrand. Die **Pause**-Schaltfläche ist nur verfügbar, wenn **Live**-Journey ausgewählt sind.
+
+![Massenpause von zwei Live-Journey über die untere Leiste](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Fortsetzen pausierter Journey {#journey-resume-steps}
 
 Anhaltende Journey werden nach Ablauf der maximalen Pausenzeit von 14 Tagen automatisch wieder aufgenommen. Sie können jederzeit manuell fortgesetzt werden.
@@ -85,6 +89,29 @@ Gehen Sie wie folgt vor, um eine pausierte Journey fortzusetzen und wieder Journ
 
    Die Journey wechselt in den Status **Wiederaufnahme**. Der Übergang vom Status **Wiederaufnahme** zum Status **Live** kann einige Zeit dauern: Alle Profile müssen fortgesetzt werden, damit die Journey wieder **Live** werden kann.
 
+1. Klicken Sie zur Bestätigung auf **Fortsetzen**-Schaltfläche.
 
 
+Aus der Liste Ihrer Journey Journey können Sie eine oder mehrere (**)** fortsetzen. Um eine Gruppe von Journey fortzusetzen (_Bulk Resume_), wählen Sie sie aus und klicken Sie auf die **Fortsetzen**-Schaltfläche in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die **Fortsetzen**-Schaltfläche nur verfügbar ist, wenn **Paused** Journey ausgewählt sind.
 
+
+## Anwenden eines globalen Filters auf Profile in einem pausierten Journey  {#journey-global-filters}
+
+Wenn ein Journey angehalten wird, können Sie einen globalen Filter basierend auf Profilattributen anwenden. Dieser Filter ermöglicht den Ausschluss von Profilen, die zum Zeitpunkt der Wiederaufnahme dem definierten Ausdruck entsprechen. Profile, die den Kriterien entsprechen, die sich derzeit auf der Journey befinden, beenden die Seite und neue Profile, die versuchen einzutreten, werden blockiert.
+
+Gehen Sie wie folgt vor, um beispielsweise alle französischen Kundinnen und Kunden von der Marketing-Kommunikation nach Frankreich auszuschließen:
+
+
+1. Navigieren Sie zu der angehaltenen Journey, die Sie ändern möchten.
+
+1. Klicken Sie auf das Symbol **Ausstiegskriterien und globaler Filter** .
+
+1. Definieren Sie in den globalen Filtereinstellungen einen Filter basierend auf Profilattributen.
+
+1. Legen Sie den Ausdruck fest, um Profile auszuschließen, bei denen das Länderattribut Frankreich entspricht.
+
+1. Setzen Sie die Journey fort.
+
+   Bei der Wiederaufnahme werden alle Profile mit dem Länderattribut Frankreich automatisch von der Journey ausgeschlossen. Alle neuen Profile mit dem Länderattribut Frankreich, die versuchen, die Journey zu betreten, werden blockiert.
+
+Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit auf der Journey befinden, und für neue Profile nur auftreten, wenn sie einen Aktionsknoten erreichen.
