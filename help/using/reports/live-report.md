@@ -8,17 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Erste Schritte mit dem Live-Bericht {#live-report}
 
-Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
-Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
+Mit dem **[!UICONTROL Live-Bericht]** können Sie die Wirkung und Leistung Ihrer Journey und Nachrichten in Echtzeit in einem integrierten Dashboard messen und visualisieren. Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
 
 * Wenn Sie eine Journey im Kontext einer Journey ansprechen möchten, rufen Sie über das Menü **[!UICONTROL Journeys]** das Menü **[!UICONTROL Weitere Aktionen]** Ihrer Journey auf und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**.
 

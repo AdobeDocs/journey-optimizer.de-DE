@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ Erstellen Sie Kampagnen und Journeys in diesem Abschnitt.
 
 * **[!UICONTROL Journey]** - Erstellen, konfigurieren und orchestrieren Sie Ihre Kunden-Journeys: kombinieren Sie die Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landingpages]** - Landingpages erstellen, entwerfen, testen und veröffentlichen: Senden Sie Ihren Benutzenden Links zu Online-Formularen, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder spezifische Dienste abonnieren können. [Weitere Informationen](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL ENTSCHEIDUNGS-MANAGEMENT] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ Erstellen und verwalten Sie Inhalte aus diesem Abschnitt.
 * **[!UICONTROL Inhaltsvorlagen]** - Für einen beschleunigten und verbesserten Design-Prozess erstellen Sie eigenständige Vorlagen, um benutzerdefinierte Inhalte in Journey Optimizer-Kampagnen und -Journeys einfach wiederzuverwenden. [Weitere Informationen](../content-management/content-templates.md)
 
 * **[!UICONTROL Fragmente]** - Erstellen und verwalten Sie Fragmente, um den E-Mail-Design-Prozess reibungslos zu gestalten: Erstellen Sie benutzerdefinierte Inhaltsbausteine, die zur schnellen Zusammenstellung von E-Mail-Inhalten verwendet werden können. [Weitere Informationen](../content-management/fragments.md)
+
+* **[!UICONTROL Landingpages]** - Landingpages erstellen, entwerfen, testen und veröffentlichen: Senden Sie Ihren Benutzenden Links zu Online-Formularen, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder spezifische Dienste abonnieren können. [Weitere Informationen](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL DATEN-MANAGEMENT] {#left-nav-data}
 
