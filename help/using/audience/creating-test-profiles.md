@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Sie können eine JSON-Datei in einen vorhandenen Datensatz hochladen. Weitere In
 
 Beachten Sie, dass das Erstellen eines Testprofils dem Erstellen von Standardprofilen in Adobe Experience Platform ähnelt. Weitere Informationen finden Sie in der [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Testprofile erstellen](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie Testprofile erstellen.](#video)
 
 ## Voraussetzungen {#test-profile-prerequisites}
 

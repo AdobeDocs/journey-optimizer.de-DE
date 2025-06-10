@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 67%
+ht-degree: 75%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 67%
 
 In diesem Beispiel erstellen Sie eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden. Alle diese Kunden müssen innerhalb der letzten 7 Tage einen Kauf getätigt haben.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Audiences erstellen](#video-segment)
+➡️ [In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen.](#video-segment)
 
 1. Klicken Sie im Menü **[!UICONTROL Zielgruppen]** auf **[!UICONTROL Zielgruppe erstellen]** und wählen Sie **[!UICONTROL Regel erstellen]**.
 
    ![](assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Erfahren Sie in der Dokumentation zum Segmentierungs[Service , wie Sie Audiences ](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihre Zielgruppe zu definieren. Weitere Informationen zum Konfigurieren von Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ In diesem Beispiel erstellen Sie eine Zielgruppe für alle Kundinnen und Kunden,
 
 1. Ziehen Sie per Drag-and-Drop die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie sie dann entsprechend Ihren Anforderungen.
 
-   Die grundlegenden Bausteine von Segmentdefinitionen sind **Attribute** und **Ereignisse**. Darüber hinaus können die in bestehenden Zielgruppen enthaltenen Attribute und Ereignisse als Komponenten für neue Definitionen verwendet werden. [Weitere Informationen finden Sie in der Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   Die grundlegenden Bausteine von Segmentdefinitionen sind **Attribute** und **Ereignisse**. Darüber hinaus können die in bestehenden Zielgruppen enthaltenen Attribute und Ereignisse als Komponenten für neue Definitionen verwendet werden. [Weitere Informationen finden Sie in der Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}.
 
    >[!NOTE]
    >
@@ -96,13 +96,13 @@ Die Profilliste für die Zielgruppe wird alle 24 Stunden ausgewertet.
 
 Die Batch-Segmentierung verarbeitet alle Profildaten gleichzeitig über Segmentdefinitionen und erstellt einen Schnappschuss der Audience, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Audience-Liste bei der Batch-Segmentierung nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst beim nächsten Batch-Prozess in der Zielgruppe angezeigt. Versuche, eine sofortige Aktualisierung zu erzwingen, überschreiben nicht den täglichen Zyklus. Für sofortige, inkrementelle Aktualisierungen sollten Sie die Verwendung von Streaming- oder On-Demand-Segmentierungsoptionen in Betracht ziehen.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}
+Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#batch){target="_blank"}.
 
 +++
 
 +++ Edge-Segmentierung
 
-Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort ([ Edge) ausgewertet](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} was Anwendungsfälle für die Personalisierung derselben Seite und der nächsten Seite ermöglicht. Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. Weitere Informationen finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}
+Bei der Edge-Segmentierung werden Segmente in Adobe Experience Platform sofort [am Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ausgewertet, was Anwendungsfälle mit Personalisierung auf derselben Seite und auf der nächsten Seite ermöglicht. Derzeit können nur ausgewählte Abfragetypen mithilfe der Edge-Segmentierung ausgewertet werden. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=de#query-types){target="_blank"}.
 
 +++
 
@@ -136,4 +136,4 @@ Sie können bis zu 20 Zielgruppen gleichzeitig auswerten. Nicht auswählbare Zie
 
 Erfahren Sie, wie Journey Optimizer Regeln verwendet, um Zielgruppen zu generieren, und lernen Sie, wie Sie Attribute, Ereignisse und vorhandene Zielgruppen verwenden, um eine Zielgruppe zu erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430326?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

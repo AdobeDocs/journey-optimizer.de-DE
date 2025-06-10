@@ -9,33 +9,33 @@ exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 94%
 
 ---
 
-# Entscheidungsfindung bei Code-basierten Erlebnisimplementierungen
+# Entscheidungsfindung in Code-basierten Erlebnisimplementierungen
 
-Wenn Sie in Code-basierten Erlebnissen Decisioning verwenden, sollten Sie in den unten beschriebenen Fällen die folgenden Flags zu Ihrer Client-Implementierung hinzufügen.
+Wenn Sie die Entscheidungsfindung in Code-basierten Erlebnissen verwenden, sollten Sie in den nachfolgend beschriebenen Fällen die folgenden Markierungen zu Ihrer Client-Implementierung hinzufügen.
 
 ## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen {#code-based-test-decisions}
 
 <!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Beim Testen [code-basierten Erlebnisses](create-code-based.md) mit Decisioning kann das `dryRun`-Flag verwendet werden, um Feedback-Ereignisse für Reporting- und Begrenzungszähler zu unterdrücken.
+Beim Testen eines [Code-basierten Erlebnisses](create-code-based.md) mit der Entscheidungsfindung kann die Markierung `dryRun` verwendet werden, um Feedback-Ereignisse für Reporting- und Begrenzungszähler zu unterdrücken.
 
-Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die `dryRun`-Markierung zum XDM-Ereignis-`data`-Block in Ihrer Client-Implementierung hinzu:
+Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die Markierung `dryRun` zum XDM-Ereignis-Block `data` in Ihrer Client-Implementierung hinzu:
 
-    &quot;
-    &lbrace;
-    „data“: &lbrace;
-    „__adobe“: &lbrace;
-    „ajo“: &lbrace;
-    „dryRun“: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &quot;
+    ```
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
+    &quot;dryRun&quot;: true
+    }
+    }
+    }
+    }
+    ```
 
 <!--
 >[!CAUTION]
@@ -46,25 +46,25 @@ Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die `dryRun`-Markierung zum 
 
 Bei Verwendung [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) in Ihren Code-basierten Erlebnissen können Sie Deduplizierung auf Ihre Entscheidungsanfragen in Ihrer Client-Implementierung anwenden.
 
-Entscheidungsanfragen (über Konductor) akzeptieren das Deduplizierungs-Flag, das die Eindeutigkeit von Entscheidungselementen in einer einzigen Anfrage behandelt, die aus mehreren Entscheidungsrichtlinien oder Platzierungen besteht.
+Entscheidungsanfragen (über Konductor) akzeptieren die Deduplizierungsmarkierung, die die Eindeutigkeit von Entscheidungselementen in einer einzigen Anfrage handhabt, die aus mehreren Entscheidungsrichtlinien oder Platzierungen besteht.
 
 ### Deduplizierungslogik {#deduplication-logic}
 
 Für jede Entscheidungsanfrage können Sie je nach Einrichtung eine oder mehrere Entscheidungsrichtlinien/Platzierungen festlegen.
 
-* Bei einer **einzelnen** Entscheidungsrichtlinie und Platzierung in einer Anfrage sind alle Elemente in der Antwort eindeutig (standardmäßig). In einer einzigen Anfrage können nicht zwei Entscheidungselemente identisch sein.
+* Bei einer **einzelnen** Entscheidungsrichtlinie und Platzierung in einer Anfrage sind alle Elemente in der Antwort eindeutig (standardmäßig). In einer einzelnen Anfrage können zwei Entscheidungselemente nicht identisch sein.
 
-* Für **mehrere** Entscheidungsrichtlinien/Platzierungen in einer Anfrage:
+* Bei **mehreren** Entscheidungsrichtlinien/Platzierungen in einer Anfrage:
 
-   * Wenn `allowDuplicateDecisionItems` auf `false` gesetzt ist: Alle Elemente in der Antwort sind eindeutig (unabhängig davon, für welche Nachricht/Entscheidungsrichtlinie/Platzierung das Element bestimmt ist).
+   * Wenn `allowDuplicateDecisionItems` auf `false` festgelegt ist: Alle Elemente in der Antwort sind eindeutig (unabhängig davon, für welche Nachricht/Entscheidungsrichtlinie/Platzierung das Element bestimmt ist).
 
-   * Wenn `allowDuplicateDecisionItems` auf `true` (Standard) gesetzt ist: Elemente in der Antwort können dupliziert werden (wenn mehrere Nachrichten/Entscheidungsrichtlinien/Platzierungen für dasselbe Entscheidungselement für diese Anfrage qualifiziert sind).
+   * Wenn `allowDuplicateDecisionItems` auf `true` (Standard) festgelegt ist: Elemente in der Antwort können dupliziert werden (wenn mehrere Nachrichten/Entscheidungsrichtlinien/Platzierungen für dasselbe Entscheidungselement für diese Anfrage qualifiziert sind).
 
 ### Anwenden der Deduplizierung in einer Anfrage {#deduplication-in-request}
 
-Standardmäßig ist das Deduplizierungs-Flag auf `true` festgelegt.
+Die Deduplizierungsmarkierung ist standardmäßig auf `true` festgelegt.
 
-Bei einer Konductor-Anfrage können Sie das Deduplizierungs-Flag übergeben, wenn Sie eindeutige Elemente in der Antwort wünschen. Legen Sie in diesem Fall `false` fest.
+Bei einer Konductor-Anfrage können Sie die Deduplizierungsmarkierung übergeben, wenn die Antwort eindeutige Elemente enthalten soll. Legen Sie sie in diesem Fall auf `false` fest.
 
 ```
 {
@@ -78,7 +78,7 @@ Bei einer Konductor-Anfrage können Sie das Deduplizierungs-Flag übergeben, wen
 }
 ```
 
-+++Entscheidungs-Beispielanfrage
++++Beispiel-Entscheidungsanfrage
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -123,11 +123,11 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ### Deduplizierungsantwort {#deduplication-response}
 
-Angenommen, Sie haben dieselbe Entscheidungsrichtlinie mit Kopf- und Fußzeilenplatzierung in einer einzigen Anfrage.
+Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fußzeilenplatzierung in einer einzigen Anfrage.
 
-* Decisioning gibt zwei Vorschläge zurück.
+* Die Entscheidungsfindung gibt zwei Vorschläge zurück.
 
-* Wenn `itemId-X` das einzelne Entscheidungselement ist, das sowohl für die Kombination aus Entscheidungsrichtlinie und Platzierung geeignet ist:
+* Wenn `itemId-X` das einzelne Entscheidungselement ist, das für die Kombination aus Entscheidungsrichtlinie und Platzierung geeignet ist:
 
    * Wenn `allowDuplicateDecisionItems` `true` ist (Standard): `itemId-X` wird für beide Vorschläge in einer einzigen Antwort zurückgegeben.
 
@@ -137,7 +137,7 @@ Angenommen, Sie haben dieselbe Entscheidungsrichtlinie mit Kopf- und Fußzeilenp
 
       * Das Fallback-Entscheidungselement (auch eindeutig) oder ein leeres Entscheidungselement wird für den zweiten Vorschlag übergeben.
 
-+++Beispielantwort für Decisioning (`allowDuplicateDecisionItems` = `true`)
++++Beispiel-Entscheidungsantwort (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Angenommen, Sie haben dieselbe Entscheidungsrichtlinie mit Kopf- und Fußzeilenp
 
 +++
 
-+++Beispielantwort für Decisioning (`allowDuplicateDecisionItems` = `false`)
++++Beispiel-Entscheidungsantwort (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

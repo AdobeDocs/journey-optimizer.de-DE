@@ -31,7 +31,7 @@ Zusätzlich zu den globalen Geschäftsregeln, die die Anzahl der Nachrichten ein
 
 Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ### Berechtigungen {#permissions-frequency-rules}
 
@@ -312,4 +312,4 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

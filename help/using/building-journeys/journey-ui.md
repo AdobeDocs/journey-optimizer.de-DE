@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -74,7 +74,7 @@ Darstellung der Journey:
 
 Um weitere Informationen zu einer Journey zu erhalten, klicken Sie auf den entsprechenden Bildblock, um sie zu öffnen und die zugehörigen Details zu erkunden.
 
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Journey-Version wird auch oben in der Journey-Edition über der Arbeitsfläche angezeigt. Weitere Informationen zur [Journey-Versionsverwaltung](publishing-the-journey.md#journey-versions-journey-versions).
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt. Erfahren Sie mehr über die [Verwaltung von Journey-Versionen](publishing-the-journey.md#journey-versions-journey-versions).
 
 
 

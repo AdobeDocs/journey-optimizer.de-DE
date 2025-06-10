@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist wichtig, wenn eine Journey priorisiert werden soll, wenn eine erzwungene Einschränkung vorliegt, z. B. eine Frequenzbegrenzung. Geben Sie einen numerischen Wert ein (von 0 bis 100). Bitte beachten Sie: Je höher der Wert, desto höher die Priorität. "
+>abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist wichtig, wenn eine Journey priorisiert werden soll, wenn eine erzwungene Einschränkung vorliegt, z. B. eine Frequenzbegrenzung. Geben Sie einen numerischen Wert ein (von 0 bis 100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. "
 
 Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätswert zuweisen. Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeittsbegrenzung). In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mitteilungen infrage kommt und Sie selektiv auswählen möchten, welche sie betreten und erhalten soll, sollten Sie dieses Feld verwenden.
 
@@ -29,7 +29,7 @@ Mit Journey Optimizer können Sie einer Journey oder Kampagne einen Prioritätsw
 >
 >In Kampagnen ist der Prioritätswert nur für eingehende Web-, In-App- und Code-basierte Kanäle verfügbar.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 Die Zuweisung eines Prioritätswerts ist für eingehende Kommunikation wie Web, Mobile und In-App entscheidend. Wenn Sie mehrere Kampagnen haben, die dieselbe Kanalkonfiguration verwenden (z. B. ein Banner oben auf Ihrer Webseite), könnte dies problematisch sein, da nur Inhalte aus einer Kampagne angezeigt werden können. Bei dem Prioritätswert geben Sie an, welche Kampagne angezeigt werden soll, wenn die empfangende Person für mehr als eine Kampagne infrage kommt.
 
@@ -43,4 +43,4 @@ Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

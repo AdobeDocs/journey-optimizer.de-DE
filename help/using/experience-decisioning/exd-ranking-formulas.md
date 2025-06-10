@@ -9,34 +9,34 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 22%
+ht-degree: 97%
 
 ---
 
 # Verwenden des KI-Formel-Builder {#create-ranking-formulas}
 
-**Rangfolgeformeln** ermöglichen es Ihnen, Regeln zu definieren, die bestimmen, welches Angebot zuerst unterbreitet werden soll, anstatt die Prioritätswerte zu berücksichtigen.
+Mithilfe von **Rangfolgenformeln** lassen sich Regeln definieren, die festlegen, welches Angebot zuerst präsentiert werden soll, anstatt die Prioritätswerte zu berücksichtigen.
 
-Um diese Regeln zu erstellen, bietet der KI-Formel-Builder in **[!UICONTROL Adobe Journey Optimizer]** mehr Flexibilität und Kontrolle bei der Rangfolge von Angeboten. Statt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie jetzt benutzerdefinierte Rangfolgeformeln definieren, die KI-Modellbewertungen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Oberfläche kombinieren.
+Um diese Regeln zu erstellen, bietet der KI-Formel-Builder in **[!UICONTROL Adobe Journey Optimizer]** mehr Flexibilität und Kontrolle bei der Rangfolge von Angeboten. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie nun benutzerdefinierte Rangfolgenformeln definieren, die Werte von KI-Modellen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Benutzeroberfläche kombinieren.
 
-Dieser Ansatz ermöglicht es Ihnen, das Angebotsranking dynamisch auf der Grundlage einer beliebigen Kombination aus KI-gesteuerter Neigung, geschäftlichem Nutzen und Echtzeit-Kontext anzupassen, was die Abstimmung der Entscheidungsfindung auf Marketing-Ziele und Kundenanforderungen erleichtert. Der KI-Formel-Builder unterstützt einfache oder erweiterte Formeln, je nachdem, wie viel Kontrolle Sie anwenden möchten.
+Dieser Ansatz ermöglicht es Ihnen, die Angebotsrangfolge dynamisch auf der Grundlage einer beliebigen Kombination aus KI-gesteuerter Tendenz, geschäftlichem Nutzen und Echtzeit-Kontext anzupassen, was die Abstimmung der Entscheidungsfindung auf Marketing-Ziele und Kundenanforderungen erleichtert. Der KI-Formel-Builder unterstützt einfache oder erweiterte Formeln, je nachdem, wie viel Kontrolle Sie anwenden möchten.
 
-Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer [Auswahlstrategie“ ](selection-strategies.md). Wenn mehrere Angebote für die Präsentation bei dieser Auswahlstrategie geeignet sind, verwendet die Entscheidungs-Engine die ausgewählte Formel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
+Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer [Auswahlstrategie](selection-strategies.md) zuweisen. Wenn mit dieser Auswahlstrategie mehrere Angebote für diese Platzierung infrage kommen, verwendet die Entscheidungs-Engine die ausgewählte Formel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
 
 ## Erstellen einer Rangfolgenformel {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
->title="Erstellen von Ranglistenformeln"
+>title="Erstellen von Rangfolgenformeln"
 >abstract="Mithilfe von Formeln kann festgelegt werden, welches Entscheidungselement zuerst angezeigt werden soll, anstatt die Prioritätswerte des Elements zu berücksichtigen. Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Auswahlstrategie zuweisen."
 
-Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen.
+Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Strategie einrichten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgenformeln]** aus. Es wird die Liste der zuvor erstellten Rangfolgen angezeigt.
+1. Rufen Sie das Menü **[!UICONTROL Strategie-Setup]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgenformeln]** aus. Es wird die Liste der zuvor erstellten Rangfolgen angezeigt.
 
    ![](assets/ranking-formulas-list.png)
 
-1. Klicken Sie **[!UICONTROL Formel erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Formel erstellen]**.
 
 1. Geben Sie den Namen der Formel an und fügen Sie bei Bedarf eine Beschreibung hinzu.
 
@@ -48,16 +48,16 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen.
    >
    >[Personalisierte Optimierungsmodelle](../offers/ranking/personalized-optimization-model.md) die kontinuierliche Metriken verwenden, werden vom KI-Formel-Builder nicht unterstützt.
 
-   Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf einen Modellwert verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
+   Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf eine Modellbewertung verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
 
    >[!CAUTION]
    >
-   >Wenn Sie ein KI-Modell verwenden, das in eine Rangfolgenformel integriert ist, werden Daten nicht im Bericht [Konversionsrate für Holdout- und modellgesteuerten Traffic](../reports/campaign-global-report-cja-code.md#conversion-rate) angezeigt.
+   >Wenn Sie ein KI-Modell verwenden, das in eine Rangfolgenformel integriert ist, werden Daten nicht im Bericht [Konversionsrate für Holdout und modellgesteuerten Traffic](../reports/campaign-global-report-cja-code.md#conversion-rate) angezeigt.
 
-1. Definieren Sie die Bedingungen, die die Rangfolgenbewertung für die übereinstimmenden Entscheidungselemente bestimmen. Sie haben folgende Möglichkeiten
+1. Definieren Sie die Bedingungen, die den Rangfolgewert für die übereinstimmenden Entscheidungselemente bestimmen. Sie haben folgende Möglichkeiten:
 
-   * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** aus der [Benutzeroberfläche](#ranking-select-criteria),
-   * Oder wechseln Sie zum [Code-Editor](#ranking-code-editor).
+   * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** über die [Benutzeroberfläche](#ranking-select-criteria) aus,
+   * oder wechseln Sie zum [Code-Editor](#ranking-code-editor).
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -73,16 +73,16 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ## Definieren von Kriterien mithilfe des Formel-Builders {#ranking-select-criteria}
 
-Mit einer intuitiven Benutzeroberfläche können Sie Entscheidungen durch die Anpassung von KI-Bewertungen (Tendenz), Angebotswert (Priorität), kontextuellen Hebeln und externen Profilneigungen anpassen - einzeln oder in Kombination -, um jede Interaktion zu optimieren. <!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
+Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-Bewertungen (Tendenz), Angebotswert (Priorität), kontextuellen Hebeln und externen Profiltendenzen die Entscheidungsfindung einzeln oder in Kombination verfeinern, um jede Interaktion zu optimieren. <!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
 Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu definieren.
 
 <!--![](assets/ranking-formula-criteria.png){width="80%"}-->
 
-1. Geben Sie **[!UICONTROL Abschnitt]** Kriterium 1) die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
-   * Wählen Sie ein [Entscheidungselement-Attribut](items.md#attributes),
-   * einen logischen Operator auswählen,
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](context-data.md).
+1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
+   * Wählen Sie ein [Entscheidungselement-Attribut](items.md#attributes) aus,
+   * wählen Sie einen logischen Operator aus und
+   * fügen Sie eine übereinstimmende Bedingung hinzu. Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten](context-data.md) auswählen.
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -90,15 +90,15 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
 
-   Sie haben beispielsweise Kriterium 1 definiert, z. B. das benutzerdefinierte *Wetter*-Attribut *Gleich* die *warm*-Bedingung. Darüber hinaus können Sie eine weitere Bedingung hinzufügen, z. B. wenn die erste Bedingung erfüllt ist und wenn die Temperatur zum Zeitpunkt der Anfrage 75 Grad überschreitet, dann ist Kriterium 1 wahr.<!--Add a screenshot with the example-->
+   Sie haben beispielsweise Kriterium 1 so definiert: „Das benutzerdefinierte Attribut *Wetter* *ist gleich* der Bedingung *Warm*“. Darüber hinaus können Sie eine weitere Bedingung hinzufügen, z. B. wenn die erste Bedingung erfüllt ist und wenn die Temperatur zum Zeitpunkt der Anfrage 23 Grad überschreitet, dann ist Kriterium 1 wahr.<!--Add a screenshot with the example-->
 
-1. Erstellen Sie einen Ausdruck, der den Entscheidungselementen, die die oben definierte Bedingung erfüllen, einen Rangfolgenwert zuweist. Sie können auf eine der folgenden Optionen verweisen:
+1. Erstellen Sie einen Ausdruck, der den Entscheidungselementen, die die oben definierte Bedingung erfüllen, einen Rangfolgenwert zuweist. Sie können eine der folgenden Optionen referenzieren:
 
-   * die Punktzahl, die aus dem KI-Modell hervorgegangen ist, das Sie optional im Abschnitt **[!UICONTROL Details]** oben [ haben](#create-ranking-formula);
-   * Die Priorität des Entscheidungselements, die ein Wert ist, der beim [Erstellen eines Entscheidungselements](items.md#attributes) manuell zugewiesen wird<!--If a profile qualifies for multiple decision items, a higher priority grants the item precedence over others.-->
-   * alle Attribute, die im Profil vorhanden sein könnten, z. B. alle extern abgeleiteten Neigungspunktwerte;
-   * Ein statischer Wert, den Sie in einem freien Format zuweisen können.
-   * eine beliebige Kombination der oben genannten Möglichkeiten.
+   * die Punktzahl, die aus dem KI-Modell hervorgegangen ist, das Sie optional im Abschnitt **[!UICONTROL Details]** [oben](#create-ranking-formula) ausgewählt haben;
+   * die Priorität des Entscheidungselements, die ein Wert ist, der beim [Erstellen eines Entscheidungselements](items.md#attributes) manuell zugewiesen wird; <!--If a profile qualifies for multiple decision items, a higher priority grants the item precedence over others.-->
+   * alle Attribute, die im Profil live sein könnten, z. B. jede extern abgeleitete Tendenzbewertung;
+   * ein statischer Wert, den Sie in einem freien Format zuweisen können;
+   * jede Kombination der oben genannten Optionen
 
    ![](assets/ranking-formula-expression.png){width="70%"}
 
@@ -106,47 +106,47 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
    >
    >Klicken Sie auf das Symbol neben dem Feld, um vordefinierte Variablen hinzuzufügen.
 
-1. Klicken Sie **[!UICONTROL Kriterium hinzufügen]**, um ein oder mehrere Kriterien beliebig oft hinzuzufügen. Die Logik lautet wie folgt:
-   * Wenn das erste Kriterium für ein bestimmtes Entscheidungselement zutrifft, hat es Vorrang vor den nächsten.
+1. Klicken Sie auf **[!UICONTROL Kriterium hinzufügen]**, um ein oder mehrere Kriterien beliebig oft hinzuzufügen. Es gilt folgende Logik:
+   * Wenn das erste Kriterium für ein bestimmtes Entscheidungselement zutrifft, hat es Vorrang vor den nächsten Kriterien.
    * Wenn dies nicht der Fall ist, wechselt die Entscheidungs-Engine zum zweiten Kriterium usw.
 
 1. Im letzten Feld können Sie einen Ausdruck erstellen, der allen Entscheidungselementen zugewiesen wird, die die oben genannten Kriterien nicht erfüllen.
 
    ![](assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. Klicken Sie **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel abzuschließen. Sie können ihn jetzt aus der Liste auswählen, um seine Details anzuzeigen und ihn zu bearbeiten oder zu löschen. Sie kann in einer &quot;[&quot; verwendet werden](selection-strategies.md) um die geeigneten Entscheidungselemente zu reihen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel fertigzustellen. Sie können sie jetzt aus der Liste auswählen, um ihre Details anzuzeigen und sie zu bearbeiten oder zu löschen. Sie kann in einer [Auswahlstrategie](selection-strategies.md) verwendet werden, um die geeigneten Entscheidungselemente in einer Rangfolge zu ordnen.
 
-### Beispiel für eine Rangfolgenformel
+### Beispiel für Rangfolgenformeln
 
-Betrachten Sie das folgende Beispiel:
+Siehe das Beispiel unten:
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
-Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich der geografischen Beschriftung des Profils (Profilattribut) ist, wird der hier ausgedrückte Rangfolgenwert (eine Kombination aus der Priorität des Entscheidungselements, dem KI-Modellwert und einem statischen Wert) auf alle Entscheidungselemente angewendet, die diese Bedingung erfüllen.
+Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich dem geografischen Label des Profils (Profilattribut) ist, wird der hier ausgedrückte Rangfolgenwert (eine Kombination aus der Priorität des Entscheidungselements, dem Wert des KI-Modells und einem statischen Wert) auf alle Entscheidungselemente angewendet, die diese Bedingung erfüllen.
 
 ## Verwenden des Code-Editors {#ranking-code-editor}
 
-Um Rangfolgeformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
+Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
 
 >[!CAUTION]
 >
 >Diese Aktion verhindert ein Zurückkehren zur Standard-Builder-Ansicht für diese Formel.
 
-Anschließend können Profilattribute, [Kontextdaten](context-data.md) und [Entscheidungselementattribute“ ](items.md#attributes) werden.
+Anschließend können Sie Profilattribute, [Kontextdaten](context-data.md) und [Entscheidungselement-Attribute](items.md#attributes) nutzen.
 
-Sie möchten beispielsweise die Priorität aller Angebote mit dem Attribut „heiß“ erhöhen, wenn das tatsächliche Wetter heiß ist. Dazu wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. <!--[Learn how to work with context data](context-data.md)-->
+Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. <!--[Learn how to work with context data](context-data.md)-->
 
 ![](assets/ranking-formula-code-editor.png){width="80%"}
 
 >[!IMPORTANT]
 >
->Beim Erstellen einer Rangfolgenformel wird ein Rückblick auf einen früheren Zeitraum nicht unterstützt, z. B. das Hinzufügen eines Erlebnisereignisses, das innerhalb des letzten Monats als Komponente der Formel aufgetreten ist. Bei jedem Versuch, einen Rückblick-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
+>Beim Erstellen einer Rangfolgenformel wird ein Rückblick auf einen früheren Zeitraum nicht unterstützt, z. B. das Hinzufügen eines Erlebnisereignisses, das innerhalb des letzten Monats stattgefunden hat, als Komponente der Formel. Bei jedem Versuch, einen Rückblick-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
 
-### Beispiele für Rangfolgeformeln in PQL {#ranking-formula-examples}
+### Beispiele für Rangfolgenformel-PQLs {#ranking-formula-examples}
 
 Sie können je nach Bedarf viele verschiedene Rangfolgeformeln erstellen. Im Folgenden finden Sie einige Beispiele.
 
-+++Verstärken von Angeboten mit bestimmten Angebotsattributen basierend auf Profilattributen
++++Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Profilattributen
 
 Wenn das Profil in der Stadt lebt, die dem Angebot entspricht, verdoppeln Sie die Priorität für alle Angebote in dieser Stadt.
 
@@ -158,9 +158,9 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Verstärken von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
++++Verstärken von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
 
-**Rangfolgeformel:**
+**Rangfolgenformel:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
@@ -168,7 +168,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++Verstärken von Angeboten basierend auf der Neigung der Kunden, das angebotene Produkt zu kaufen
++++Verstärken von Angeboten entsprechend der Tendenz der Kundschaft, das angebotene Produkt zu kaufen
 
 Sie können die Punktzahl für ein Angebot basierend auf einem Tendenzwert für den Kunden erhöhen.
 
@@ -198,7 +198,7 @@ In diesem Fall für ein Profil wie:
 
 +++
 
-+++Verstärken von Angeboten basierend auf {#context-data}
++++Verstärken von Angeboten basierend auf Kontextdaten {#context-data}
 
 Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden. Detaillierte Informationen zum Übergeben von Kontextdaten mithilfe der **Edge Decisioning**- und der **Decisioning**-API finden Sie [diesem Abschnitt](context-data.md)
 

@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '1735'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -232,8 +232,8 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
    >[!NOTE]
    >
-   >Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einem [Code-basierten Erlebnis, einer Kampagne ](../code-based/create-code-based.md) einem Journey mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
+   >Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
 
-1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics erstellen](cja-reporting.md).
+1. Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 
 

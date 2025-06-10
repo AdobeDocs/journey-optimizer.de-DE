@@ -12,7 +12,7 @@ exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
 source-wordcount: '1375'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -63,15 +63,15 @@ Journey Optimizer ermöglicht den Export von Journeys, benutzerdefinierten Aktio
 
 Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Die folgenden Elemente werden jedoch **nicht** kopiert:
 
-* Mehrsprachige Varianten und Spracheinstellungen,
+* mehrsprachige Varianten und Spracheinstellungen,
 * Geschäftsregeln,
 * Tags,
-* Kennzeichnungen zur Datennutzung und Durchsetzung von Daten (DULE).
+* Labels für Data Usage Labelling and Enforcement (DULE).
 
-Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Objekte in der Ziel-Sandbox validiert werden, um Konfigurationsfehler zu vermeiden:
+Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Objekte in der Ziel-Sandbox validiert sind, um Konfigurationsfehler zu vermeiden:
 
-* **Kanalkonfigurationen**: Kanalkonfigurationen werden zusammen mit Kampagnen kopiert. Nachdem Kampagnen kopiert wurden, müssen Kanalkonfigurationen manuell in der Ziel-Sandbox ausgewählt werden.
-* **Experimentvarianten und Einstellungen**: Experimentvarianten und Einstellungen sind im Kampagnenkopierprozess enthalten. Überprüfen Sie diese Einstellungen nach dem Import in der Ziel-Sandbox.
+* **Kanalkonfigurationen**: Kanalkonfigurationen werden zusammen mit Kampagnen kopiert. Nachdem die Kampagnen kopiert wurden, müssen die Kanalkonfigurationen manuell in der Ziel-Sandbox ausgewählt werden.
+* **Experimentelle Varianten und Einstellungen**: Experimentelle Varianten und Einstellungen sind im Kampagnenkopierprozess enthalten. Validieren Sie diese Einstellungen nach dem Import in der Ziel-Sandbox.
 * **Einheitliche Entscheidungsfindung**: Entscheidungsrichtlinien und Entscheidungselemente werden für den Export und Import unterstützt. Stellen Sie sicher, dass entscheidungsbezogene Abhängigkeiten in der Ziel-Sandbox korrekt zugeordnet sind.
 
 ### Inhaltsvorlagen {#content-templates}
@@ -84,15 +84,15 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 
 ### Entscheidungsfindung {#decisioning}
 
-* Die folgenden Objekte müssen in der Ziel-Sandbox vorhanden sein, bevor Decisioning-Objekte kopiert werden können:
+* Die folgenden Objekte müssen in der Ziel-Sandbox vorhanden sein, bevor Entscheidungsfindungsobjekte kopiert werden können:
 
-   * In allen Decisioning-Objekten verwendete Profilattribute,
-   * Die Feldergruppe der benutzerdefinierten Angebotsattribute,
-   * Die Schemata von Datenströmen, die für Kontextattribute in Regeln, Rangfolge oder Begrenzung verwendet werden.
+   * In allen Entscheidungsfindungsobjekten verwendete Profilattribute,
+   * die Feldergruppe der benutzerdefinierten Angebotsattribute,
+   * die Schemata von Datenströmen, die für Kontextattribute in Regeln, Rangfolgen oder Begrenzungen verwendet werden.
 
-* Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
+* Die Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
 
-* Stellen Sie beim Kopieren von Entscheidungsentitäten sicher, dass Sie Entscheidungselemente (**)** andere Objekte kopieren. Wenn Sie beispielsweise zuerst eine Sammlung kopieren und in der neuen Sandbox keine Angebote vorhanden sind, bleibt diese neue Sammlung leer.
+* Stellen Sie beim Kopieren von Entscheidungsentitäten sicher, dass Sie Entscheidungselemente **vor** jedem anderen Objekt kopieren. Wenn Sie beispielsweise zuerst eine Sammlung kopieren und in der neuen Sandbox keine Angebote vorhanden sind, bleibt diese neue Sammlung leer.
 
 ### Fragmente {#fragments}
 

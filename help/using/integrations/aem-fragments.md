@@ -10,23 +10,23 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 22%
+ht-degree: 92%
 
 ---
 
 # Inhaltsfragmente in Adobe Experience Manager {#aem-fragments}
 
-Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe Journey Optimizer können Sie jetzt Ihre AEM-Inhaltsfragmente nahtlos in Ihre Journey Optimizer-Inhalte integrieren. Diese optimierte Verbindung vereinfacht den Zugriff auf und die Nutzung von AEM-Inhalten und ermöglicht die Erstellung personalisierter und dynamischer Kampagnen und Journeys.
+Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe Journey Optimizer können Sie jetzt Ihre AEM-Inhaltsfragmente nahtlos in Journey Optimizer in Ihre Inhalte integrieren. Diese optimierte Verbindung vereinfacht den Zugriff auf und die Nutzung von AEM-Inhalten und ermöglicht die Erstellung personalisierter und dynamischer Kampagnen und Journeys.
 
-Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Dokumentation zu Experience Manager.
+Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit Inhaltsfragmenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Dokumentation zu Experience Manager.
 
 >[!AVAILABILITY]
 >
->Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenz für die Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Enhanced Security aktiviert.
+>Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenzierung der Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Enhanced Security aktiviert.
 
 ## Einschränkungen {#limitations}
 
-* Es wird empfohlen, die Anzahl der Benutzer mit Zugriff auf die Veröffentlichung von Inhaltsfragmenten zu begrenzen, um das Risiko versehentlicher Fehler zu reduzieren.
+* Es wird empfohlen, die Anzahl der Benutzenden mit Zugriff auf die Veröffentlichung von Inhaltsfragmenten zu begrenzen, um das Risiko versehentlicher Fehler zu reduzieren.
 
 * Bei mehrsprachigen Inhalten wird nur der manuelle Fluss unterstützt.
 
@@ -44,23 +44,23 @@ Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Ta
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. Klicken Sie **Tag erstellen**.
+1. Klicken Sie auf **Tag erstellen**.
 
 1. Stellen Sie sicher, dass die ID der folgenden Syntax entspricht: `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
 
 1. Klicken Sie auf **Erstellen**.
 
-1. Definieren Sie Ihr Inhaltsfragmentmodell, wie in der [Experience Manager-Dokumentation beschrieben](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} und weisen Sie Ihr neu erstelltes Journey Optimizer-Tag zu.
+1. Definieren Sie Ihr Inhaltsfragmentmodell, wie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} beschrieben und weisen Sie Ihr neu erstelltes Journey Optimizer-Tag zu.
 
-Sie können jetzt mit der Erstellung und Konfiguration Ihres Inhaltsfragments zur späteren Verwendung in Journey Optimizer beginnen. Weitere Informationen finden Sie in der Dokumentation zu [Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+Sie können jetzt mit der Erstellung und Konfiguration Ihres Inhaltsfragments zur späteren Verwendung in Journey Optimizer beginnen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
 
 ## Hinzufügen von Experience Manager-Inhaltsfragmenten {#aem-add}
 
-Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können Sie sie jetzt in Ihre Journey Optimizer-Kampagne oder auf Ihre Journey importieren.
+Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können Sie sie in Ihre Journey Optimizer-Kampagne oder -Journey importieren.
 
-1. Erstellen Sie [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-gs.md).
+1. Erstellen Sie Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-gs.md).
 
-1. Um auf Ihr AEM-Inhaltsfragment zuzugreifen, klicken Sie auf das Symbol ![Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) in einem beliebigen Textfeld oder öffnen Sie den Quell-Code über eine HTML-Inhaltskomponente.
+1. Um auf Ihr AEM-Inhaltsfragment zuzugreifen, klicken Sie auf ![Personalisierungssymbol](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) in einem beliebigen Textfeld oder öffnen Sie den Quell-Code über eine HTML-Inhaltskomponente.
 
    ![](assets/aem_campaign_2.png)
 
@@ -80,16 +80,16 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
 
    ![](assets/aem_campaign_5.png)
 
-1. Klicken Sie **[!UICONTROL Fragment anzeigen]**, um Ihre Fragmentinformationen anzuzeigen. Beachten Sie, dass durch Öffnen **[!UICONTROL Menüs]** Fragmentinformationen“ der Editor in den schreibgeschützten Modus versetzt wird.
+1. Klicken Sie auf **[!UICONTROL Fragment anzeigen]**, um Ihre Fragmentinformationen anzuzeigen. Beachten Sie, dass durch Öffnen des Menüs **[!UICONTROL Fragmentinformationen]** der Editor in den schreibgeschützten Modus versetzt wird.
 
-   Wählen **[!UICONTROL im]** Menü aus, um Ihr Fragment in Adobe Experience Manager anzuzeigen.
+   Wählen Sie im Menü rechts **[!UICONTROL Vorschau]** aus, um Ihr Fragment in Adobe Experience Manager anzuzeigen.
 
    ![](assets/aem_campaign_7.png)
 
-1. Klicken Sie auf ![Symbol Mehr Aktionen](assets/do-not-localize/Smock_MoreSmallList_18_N.svg), um auf das erweiterte Menü Ihres Fragments zuzugreifen:
+1. Klicken Sie auf ![Symbol für weitere Aktionen](assets/do-not-localize/Smock_MoreSmallList_18_N.svg), um auf das erweiterte Menü Ihres Fragments zuzugreifen:
 
    * **[!UICONTROL Fragment austauschen]**
-   * **[!UICONTROL Verweise erkunden]**
+   * **[!UICONTROL Verweise durchsuchen]**
    * **[!UICONTROL In AEM öffnen]**
 
    ![](assets/aem_campaign_8.png)
@@ -100,14 +100,14 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
 
    ![](assets/aem_campaign_6.png)
 
-1. Um die Echtzeit-Personalisierung zu aktivieren, müssen alle Platzhalter, die in einem **[!UICONTROL Inhaltsfragment]** verwendet werden, vom Benutzer explizit als Parameter im Fragment-Helper-Tag deklariert werden. Sie können diese Platzhalter mit den folgenden Methoden Profilattributen, kontextuellen Attributen, statischen Zeichenfolgen oder vordefinierten Variablen zuordnen:
+1. Um die Echtzeit-Personalisierung zu aktivieren, müssen alle in einem **[!UICONTROL Inhaltsfragment]** verwendeten Platzhalter von der Benutzerin bzw. vom Benutzer explizit als Parameter im Fragment-Helfer-Tag deklariert werden. Sie können diese Platzhalter mit den folgenden Methoden Profilattributen, kontextuellen Attributen, statischen Zeichenfolgen oder vordefinierten Variablen zuordnen:
 
-   1. **Profil- oder kontextuelle Attributzuordnung**: Weisen Sie den Platzhalter einem Profil oder einem kontextuellen Attribut zu, z. B. name = profile.person.name.firstName.
+   1. **Zuordnung zu Profilen oder kontextuellen Attributen**: Weisen Sie den Platzhalter einem Profil oder einem kontextuellen Attribut zu, z. B. name = profile.person.name.firstName.
 
-   1. **Statische Zeichenfolgenzuordnung** Weisen Sie einen festen Zeichenfolgenwert zu, indem Sie ihn in doppelte Anführungszeichen setzen, z. B. name = „John“.
+   1. **Statische Zeichenfolgenzuordnung**: Weisen Sie einen festen Zeichenfolgenwert zu, indem Sie ihn in doppelte Anführungszeichen setzen, z. B. name = „John“.
 
-   1. **Variablenzuordnung** Verweisen Sie auf eine Variable, die zuvor innerhalb derselben HTML deklariert wurde, z. B. name = &#39;variableName&#39;.
-Stellen Sie in diesem Fall sicher&#x200B;**_dass „variableName_** deklariert wird, bevor Sie die Fragment-ID mit der folgenden Syntax hinzufügen:
+   1. **Variablenzuordnung**: Verweisen Sie auf eine Variable, die zuvor innerhalb derselben HTML deklariert wurde, z. B. name = &#39;variableName&#39;.
+Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName_** deklariert wird, bevor Sie die Fragment-ID hinzufügen:
 
       ```html
       {% let variableName = attribute name %} 
@@ -120,6 +120,6 @@ Stellen Sie in diesem Fall sicher&#x200B;**_dass „variableName_** deklariert w
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](../content-management/preview.md) beschrieben.
 
-Nachdem Sie die Tests und die Validierung des Inhalts durchgeführt haben, können Sie [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder [Ihre Journey veröffentlichen](../building-journeys/publishing-the-journey.md) an Ihre Zielgruppe senden.
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publishing-the-journey.md).
 
-Mit Adobe Experience Manager können Sie die Journey Optimizer-Kampagnen oder Journey identifizieren, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Mit Adobe Experience Manager können Sie die Journey Optimizer-Kampagnen oder Journey identifizieren, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).

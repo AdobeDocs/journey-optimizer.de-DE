@@ -31,7 +31,7 @@ Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Ku
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ### Schutzmechanismen und Empfehlungen {#important-notes-segment-qualification}
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    >[!NOTE]
    >
-   >**[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** entsprechen den **Realisiert** und **Ausgestiegen** Zielgruppenteilnahmestatus aus Adobe Experience Platform. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** entsprechen den **Realisiert** und **Ausgestiegen** Zielgruppenteilnahmestatus aus Adobe Experience Platform. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt.
 
@@ -155,4 +155,4 @@ Im Folgenden finden Sie Best Practices, um zu verhindern, dass Systeme, die in J
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

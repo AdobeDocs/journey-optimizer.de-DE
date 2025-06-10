@@ -20,7 +20,7 @@ Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an
 
 Beide Arten von Journey-Begrenzungen nutzen Prioritätswerte, um Eintritte zu steuern.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Erstellen einer Journey-Begrenzungsregel {#create-rule}
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
    >
    >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-   +++
++++
 
    +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-   +++
++++
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
@@ -109,7 +109,7 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ## Ausschlüsse von Regelsätzen überwachen {#monitor}
 
-Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse&rbrace; im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. Die Journey-Ausschlusstabelle enthält detaillierte Aufschlüsselungen der Ausschlüsse nach Regelsatz und Regelname, die Aufschluss darüber geben, warum Profile verworfen wurden. [Informationen zum Arbeiten mit Journey-Berichten](../reports/journey-global-report-cja.md)
+Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse} im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. Die Journey-Ausschlusstabelle enthält detaillierte Aufschlüsselungen der Ausschlüsse nach Regelsatz und Regelname, die Aufschluss darüber geben, warum Profile verworfen wurden. [Informationen zum Arbeiten mit Journey-Berichten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
@@ -117,4 +117,4 @@ Darüber hinaus können Sie Adobe Experience Platform (Query **) nutzen** um Abf
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
