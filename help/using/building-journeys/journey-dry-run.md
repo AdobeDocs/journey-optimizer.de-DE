@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 14%
 
 ---
@@ -123,6 +123,6 @@ Sie können auch auf die Berichte **Letzte 24-Stunden** und **Alle-Zeit** für d
 
 Dry Run Journey **muss** manuell angehalten werden.
 
-Klicken Sie auf **Schließen**, um den Test zu beenden, und bestätigen Sie den Vorgang.
+Klicken Sie auf **Schließen**, um den Test zu beenden, und klicken Sie zur Bestätigung **Zurück** Entwurf.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->

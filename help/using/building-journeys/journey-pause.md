@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 4%
+source-wordcount: '1078'
+ht-degree: 3%
 
 ---
 
@@ -68,8 +68,8 @@ Gehen Sie wie folgt vor, um den Journey anzuhalten:
 
    Sie haben folgende Möglichkeiten:
 
-   * Profile speichern - Profile warten, bis die Journey fortgesetzt wird
-   * Profile verwerfen - Profile werden beim nächsten Aktionsknoten vom Journey ausgeschlossen
+   * **Hold** Profile - Profile warten, bis die Journey fortgesetzt wird
+   * **Verwerfen** Profile - Profile werden beim nächsten Aktionsknoten von der Journey ausgeschlossen
 
 1. Klicken Sie zur Bestätigung auf **Pause**-Schaltfläche.
 
@@ -101,16 +101,21 @@ Wenn ein Journey angehalten wird, können Sie einen globalen Filter basierend au
 
 Gehen Sie wie folgt vor, um beispielsweise alle französischen Kundinnen und Kunden von der Marketing-Kommunikation nach Frankreich auszuschließen:
 
-
 1. Navigieren Sie zu der angehaltenen Journey, die Sie ändern möchten.
 
 1. Klicken Sie auf das Symbol **Ausstiegskriterien und globaler Filter** .
 
-1. Definieren Sie in den globalen Filtereinstellungen einen Filter basierend auf Profilattributen.
+   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-global-filter.png){width="50%" align="left"}
+
+1. Definieren **in den Einstellungen &quot;** und Globaler Filter“ einen Filter basierend auf Profilattributen.
 
 1. Legen Sie den Ausdruck fest, um Profile auszuschließen, bei denen das Länderattribut Frankreich entspricht.
 
-1. Setzen Sie die Journey fort.
+   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Speichern Sie den Filter und klicken Sie auf **Journey aktualisieren**, um Ihre Änderungen anzuwenden.
+
+1. [Setzen Sie die Journey fort](#journey-resume-steps).
 
    Bei der Wiederaufnahme werden alle Profile mit dem Länderattribut Frankreich automatisch von der Journey ausgeschlossen. Alle neuen Profile mit dem Länderattribut Frankreich, die versuchen, die Journey zu betreten, werden blockiert.
 
