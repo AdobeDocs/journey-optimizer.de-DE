@@ -5,10 +5,10 @@ title: Erste Schritte mit Reporting- und Überwachungsfunktionen in [!DNL Adobe 
 description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] - und Überwachungsfunktionen arbeiten.
 role: User
 level: Beginner
-source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
+source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 13%
+source-wordcount: '414'
+ht-degree: 17%
 
 ---
 
@@ -104,30 +104,30 @@ Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es
 
 ### Ausgehende Kanäle
 
-Einen ausgehenden Kanal auswählen, um zugehörige globale Berichte zu ermitteln.
+Wählen Sie einen ausgehenden Kanal aus, um zugehörige **globale Echtzeitberichte** zu ermitteln.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-email.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="campaign-global-report-cja-email.md"><strong>E-Mail</strong></a></div></td>
+<td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>E-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="campaign-global-report-cja-sms.md"><strong>SMS</strong></a></div></td>
+<div align="center"><p><strong>SMS-Kanal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="campaign-global-report-cja-push.md"><strong>Push-Benachrichtigung</strong></a></div></td>
+<div align="center"><p><strong>Push-Kanal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Direkt-Mail</strong></a></div></td>
+<div align="center"><p><strong>Direkt-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Journey-Bericht</strong></a></p></div></td>
 </tr></table>
 
 ### Eingehende Erlebnisse
 
-Ein eingehendes Erlebnis auswählen, um zugehörige globale Berichte zu ermitteln.
+Wählen Sie ein eingehendes Erlebnis aus, um zugehörige **globale Echtzeitberichte“ zu**.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="campaign-global-report-cja-inapp.md"><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<td><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg">
 <div align="center"><p><strong>In-App-Kanal</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><p><a href="campaign-global-report-cja-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a></p>
+<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Web-Kanal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-code.md"><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png"></a>
+<td>&lt;<img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Code-basierte Erlebnisse</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Kampagnenbericht</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="journey-global-report-cja-code.md"><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png"></a>
+<td><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Inhaltskarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Journey-Bericht</strong></a></p></div></td>
 </tr></table>
