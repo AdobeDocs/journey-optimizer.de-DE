@@ -5,15 +5,28 @@ title: Schritte zum Erstellen von orchestrierten Kampagnen
 description: Wichtige Schritte zum Erstellen koordinierter Kampagnen mit Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
+hidefromtoc: true
 exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '169'
 ht-degree: 3%
 
 ---
 
 # Schritte zum Erstellen von orchestrierten Kampagnen {#orchestrated-campaign-steps}
+
++++ Inhaltsverzeichnis
+
+| Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
+|---|---|---|---|
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md) | [Kampagnen erstellen und planen](create-orchestrated-campaign.md)<br/><br/>[ Aktivitäten orchestrieren](orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](send-messages.md)<br/><br/>[Kampagne starten und überwachen](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
 
 * Greifen Sie auf orchestrierte Kampagnen zu, durchsuchen Sie Ihre Kampagnenliste, fügen Sie Tags hinzu, entdecken Sie Schnellaktionen. Weitere Informationen
 * Schemata erstellen/erweitern, Datensätze einrichten, Datenaufnahme konfigurieren

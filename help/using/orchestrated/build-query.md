@@ -5,15 +5,28 @@ title: Erste Regel erstellen
 description: Erfahren Sie, wie Sie Regeln für Ihre koordinierten Kampagnen erstellen
 badge: label="Alpha"
 hide: true
+hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 54%
+source-wordcount: '1801'
+ht-degree: 52%
 
 ---
 
 # Erste Regel erstellen {#build-query}
+
++++ Inhaltsverzeichnis
+
+| Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
+|---|---|---|---|
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/><b>[Erstellen Sie Ihre ersten ](build-query.md)</b><br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
 
 Die wichtigsten Schritte zum Erstellen von Regeln für Ihre orchestrierten Kampagnen sind wie folgt:
 
@@ -92,7 +105,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-   +++
++++
 
 1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können den Ausdruckseditor auch verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf das Symbol ![Bild mit dem Symbol für den Ausdruckseditor](assets/do-not-localize/rule-builder-icon-editor.svg). [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
 
@@ -102,7 +115,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
 
    ![Bild, das die Voreinstellungsoption zeigt](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -209,7 +222,7 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
 
 <br/>
 
-    >[ !WICHTIG]
+    >[!WICHTIG]
     >
     >Wählen Sie einen vordefinierten Filter aus dem Bereich Regeleigenschaften aus, um die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter zu ersetzen.
 
