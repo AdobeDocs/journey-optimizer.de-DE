@@ -5,7 +5,7 @@ title: Erste Schritte mit Reporting- und Überwachungsfunktionen in [!DNL Adobe 
 description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] - und Überwachungsfunktionen arbeiten.
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Wählen Sie ein eingehendes Erlebnis aus, um zugehörige **globale Echtzeitberic
 <div align="center"><p><strong>In-App-Kanal</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Web-Kanal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td>&lt;<img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>Code-basierte Erlebnisse</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Kampagnenbericht</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Inhaltskarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Journey-Bericht</strong></a></p></div></td>
