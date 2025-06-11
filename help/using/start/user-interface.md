@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ Verwenden Sie auf jeder Seite kontextbezogene Hilfe-Schaltflächen, um mehr übe
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## KI-Assistent {#ai-assistant}
+
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
+
+Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts am Bildschirm angezeigt.
+
+Erfahren Sie auf dieser Seite , wie Sie auf [ KI-Assistenten zugreifen und ihn ](ai-assistant.md).
+
 ## Sprachvoreinstellungen {#language-pref}
 
 Die Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
@@ -199,13 +207,60 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
   ![](assets/select-language.png)
 
+
+## Weitere Informationen {#more}
+
+Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfahrener Benutzer, haben aber bestimmte Fragen? Sind Sie der Administrator Ihrer Unternehmensinstanz? [Nehmen Sie Ihren eigenen Weg, um schneller an Ihre Ziele zu kommen](quick-start.md)!
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="Kampagnen-Orchestrierung"
+>abstract="Relationale Datensätze aufteilen, kombinieren, anreichern und bearbeiten, um Ihre Audience zu definieren"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="Ad-hoc-Segmentierung und genaue Zählungen"
+>abstract="Erstellen Sie Ihr Segment Schritt für Schritt mit exakten Zahlen"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="Verfügbare Kanäle"
+>abstract="E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="Geführte Benutzeroberfläche zum Erstellen und Senden einer Kampagne"
+>abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie einen Inhalt fest, definieren Sie einen Zeitplan und Sie sind bereit zum Senden"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="Verfügbare Kanäle"
+>abstract="E-Mail, SMS, Push-Benachrichtigungen, In-App, Web, Code-basierte Erlebnisse"
 
 <!--APPROVAL POLICIES-->
 
