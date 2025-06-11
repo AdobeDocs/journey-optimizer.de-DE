@@ -5,10 +5,10 @@ title: Erste Schritte mit Reporting- und Überwachungsfunktionen in [!DNL Adobe 
 description: Erfahren Sie, wie Sie mit  [!DNL Adobe Journey Optimizer] - und Überwachungsfunktionen arbeiten.
 role: User
 level: Beginner
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 2%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -98,4 +98,37 @@ Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es
 <p>
 <p>
 </td>
+</tr></table>
+
+
+Globale Zeitberichte stehen für alle Kanäle zur Verfügung. Wählen Sie den Bericht für den Kanal aus, für den Sie weitere Details benötigen.
+
+### Berichte für ausgehende Kanäle
+
+Wählen Sie einen ausgehenden Kanal aus, um zugehörige **globale Echtzeitberichte** zu ermitteln.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>E-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><strong>SMS-Kanal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><strong>Push-Kanal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-direct.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><p><strong>Direkt-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Journey-Bericht</strong></a></p></div></td>
+</tr></table>
+
+### Berichte für eingehende Erlebnisse
+
+Wählen Sie ein eingehendes Erlebnis aus, um zugehörige **globale Echtzeitberichte“ zu**.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg">
+<div align="center"><p><strong>In-App-Kanal</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
+<div align="center"><p><strong>Web-Kanal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png">
+<div align="center"><p><strong>Code-basierte Erlebnisse</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Kampagnenbericht</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Journey-Bericht</strong></a></p></div></td>
+<td><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png">
+<div align="center"><p><strong>Inhaltskarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Journey-Bericht</strong></a></p></div></td>
 </tr></table>

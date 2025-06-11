@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 68%
 
 ---
 
@@ -60,42 +60,8 @@ Der Zugriff auf diese Reporting-Funktionen hängt vom Kontext und den Produktber
 * Ihre Datenansichten in Customer Journey Analytics müssen mit der folgenden Einstellung konfiguriert werden: **Als Standard-Datenansicht in Adobe Journey Optimizer festlegen**. [Weitere Informationen zu Datenansichten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
-## Alle Zeitberichte pro Kanal
-
-Globale Zeitberichte stehen für alle Kanäle zur Verfügung. Wählen Sie den Bericht für den Kanal aus, für den Sie weitere Details benötigen.
-
-### Ausgehende Kanäle
-
-Wählen Sie einen ausgehenden Kanal aus, um zugehörige **globale Echtzeitberichte** zu ermitteln.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>E-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>SMS-Kanal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>Push-Kanal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>Direkt-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Journey-Bericht</strong></a></p></div></td>
-</tr></table>
-
-### Eingehende Erlebnisse
-
-Wählen Sie ein eingehendes Erlebnis aus, um zugehörige **globale Echtzeitberichte“ zu**.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>In-App-Kanal</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Web-Kanal</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>Code-basierte Erlebnisse</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Kampagnenbericht</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Inhaltskarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Journey-Bericht</strong></a></p></div></td>
-</tr></table>
-
 ## Anleitungsvideo{#video}
 
 Das folgende Video zeigt Ihnen, wie Sie das erweiterte Reporting in Journey Optimizer mit Customer Journey Analytics verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443160?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
