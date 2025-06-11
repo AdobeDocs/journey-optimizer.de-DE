@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 </table>
 
 
-Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target="_blank"} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target="_blank"} für weitere Änderungen.
 
 ### Verbesserungen
 
@@ -111,8 +111,8 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Fehlerbehebungen
 
-* Es wurde ein Problem behoben, durch das die Journey-Liste, die Nachrichtenliste und E-Mail-Designer nicht angezeigt werden konnten, wenn die Browser-Sprache nicht Englisch war.
-* Es wurde ein Syntaxfehler behoben, der beim Hinzufügen einer Personalisierung mit Hilfe eines Ausdrucks in E-Mail-Designer auftrat, wodurch Zeichen fälschlicherweise maskiert wurden.
+* Fehlerkorrektur - Journey-Liste, Nachrichtenliste und E-Mail-Designer werden jetzt angezeigt, wenn die Browser-Sprache nicht Englisch ist.
+* Es wurde ein Syntaxfehler behoben, der beim Hinzufügen einer Personalisierung mithilfe eines Ausdrucks in der E-Mail-Designer auftrat: Zeichen wurden fälschlicherweise maskiert.
 * Es wurde ein Problem behoben, das zu einem 404-Fehler bei der Navigation im Menü **Administration** führte.
 * Es wurde ein Problem behoben, das beim Testen einer Journey mithilfe eines Geschäftsereignisses weitere Live-Journeys auslöste.
 
@@ -294,7 +294,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 ### Fehlerbehebungen
 
 * Fehlerkorrektur – Die Barrierefreiheit in der Navigation auf der Nachrichtenregisterkarte funktioniert jetzt fehlerfrei.
-* Fehlerkorrektur – Die Lokalisierung in den E-Mail-Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur - Die Lokalisierung in den Kennzeichnungen von E-Mail-Designer funktioniert jetzt problemlos.
 * Fehlerkorrektur – Die Auswahl von mehr als einem Knoten in einer Journey und anschließendem Klicken auf „Löschen“ im Eigenschaftsfenster funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Ein neuer Header kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
 * Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvoreinstellung fehlgeschlagen ist.
@@ -365,4 +365,4 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * Fehlerkorrektur – Im Bildschirm „PTR-Einträge“ fehlen jetzt keine IP-Informationen mehr.
 * Fehlerkorrektur – Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
 * Fehlerkorrektur – Der Abstand in Informations-Popups ist jetzt korrekt.
-* Fehlerkorrektur – Beim Hochladen einer HTML-Datei in E-Mail-Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.
+* Fehlerkorrektur - Beim Hochladen einer HTML-Datei in der E-Mail-Designer wird jetzt das interne Stylesheet mit `background-image` Eigenschaft unterstützt.

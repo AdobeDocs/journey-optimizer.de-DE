@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer] basiert das Erstellen visueller Web-Seiten auf der Chrome-Browser-Erweiterung **Adobe Experience Cloud Visual Helper**. [Weitere Informationen](web-prerequisites.md#visual-authoring-prerequisites)
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
 
 >[!CAUTION]
 >
->Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} muss in Ihre Webseite integriert sein. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
+>Die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} muss in Ihre Web-Seite aufgenommen werden. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
 
 1. Klicken Sie im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf **[!UICONTROL Webseite bearbeiten]**, um den Web-Designer zu öffnen.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
 
 >[!NOTE]
 >
->Der Web-Content-Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen zur [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Web Content Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen zur [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Nachdem Sie Ihren Web-Inhalt bearbeitet haben, können Sie Ihre Änderungen verwalten. [Weitere Informationen](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ Nachdem Sie Ihren Web-Inhalt bearbeitet haben, können Sie Ihre Änderungen verw
    * [Trennlinie](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Bild](../email/content-components.md#image)
-   * Überschrift – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
-   * Absatz – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Überschrift - die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]**-Komponente in E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Absatz - die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]**-Komponente in E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
    * Link
 
    ![](assets/web-designer-components.png)
@@ -170,4 +170,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

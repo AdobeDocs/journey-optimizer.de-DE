@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
 
    >[!CAUTION]
    >
-   >Die Web-Seite muss das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} enthalten. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
+   >Die Webseite muss die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} enthalten. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
 
 1. Klicken Sie auf **[!UICONTROL Web-Seite bearbeiten]**, um mit dem Erstellen zu beginnen. Der Web-Designer wird angezeigt.
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
 
 >[!NOTE]
 >
->Der Web-Content-Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Web Content Designer ähnelt größtenteils E-Mail-Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Verwenden von Komponenten {#content-components}
 
@@ -103,8 +103,8 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
    * [Trennlinie](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Bild](../email/content-components.md#image)
-   * Überschrift – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
-   * Absatz – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Überschrift - die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]**-Komponente in E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Absatz - die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]**-Komponente in E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
    * Link
 
    ![](assets/web-designer-components.png)
@@ -184,4 +184,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

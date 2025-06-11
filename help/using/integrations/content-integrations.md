@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d82e564833b15440bdf9b02bc646e3e46768dad8
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Erfahren Sie mehr über [Journey Optimizer und Adobe Experience Manager Assets](
 <!--
 ### Templates
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
@@ -65,13 +65,13 @@ Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und 
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Stock] in Ihre E-Mails hochladen und mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** zu Ihrem Ordner **[!UICONTROL Assets]** hinzufügen. Darüber hinaus hilft Ihnen die Option **[!UICONTROL Ähnliche Stockfotos suchen]**, Bilder zu finden, die in Inhalt, Farbe und Komposition dem in Ihrem Versand verwendeten Asset entsprechen.
 
-Erfahren Sie mehr über [Journey Optimizer + Stock](../integrations/stock.md).
+Erfahren Sie mehr über [Journey Optimizer und Stock](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
 Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
 
-Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Designer Ihre **Bildeinstellungen** auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
+Um auf das **[!DNL Adobe Express]** zuzugreifen, rufen Sie Ihre **Bildeinstellungen** über die E-Mail-Designer auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
 
 Mit einer Enterprise-Lizenz erhalten Benutzende vollen Zugriff auf den Adobe Express-Editor, mit dem sie Bilder ändern können, indem sie Farbe, Helligkeit, Schärfe, Kontrast, Abmessungen und zusätzliche Einstellungen anpassen.
 
