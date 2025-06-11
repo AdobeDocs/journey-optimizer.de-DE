@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2514'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,9 @@ Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der 
 
 >[!CAUTION]
 >
->[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>* [Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>
+>* Siehe auch [Leitplanken für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Unterstützte Browser {#browsers}
