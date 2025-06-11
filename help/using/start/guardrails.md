@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '2514'
-ht-degree: 99%
+source-wordcount: '2513'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der 
 >
 >* [Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten auch für Adobe Journey Optimizer.
 >
->* Siehe auch [Leitplanken für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Siehe auch [Leitplanken für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Unterstützte Browser {#browsers}
@@ -220,7 +220,7 @@ Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/au
 
 Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gelten die folgenden Leitlinien:
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inAudience-Bedingung in der Journey verwenden.
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine `inaudience` in der Journey verwenden.
 * `timeSeriesEvents`-Attribute können nicht im Ausdruckseditor verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`-Schema.
 
 

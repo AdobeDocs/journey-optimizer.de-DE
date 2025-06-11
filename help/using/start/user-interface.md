@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -226,7 +226,8 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >title="Verfügbare Kanäle"
 >abstract="E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Verfügbare Kanäle"
 >abstract="E-Mail, SMS, Push-Benachrichtigungen, In-App, Web, Code-basierte Erlebnisse"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="Von der Transaktions-API ausgelöste Kampagnen"
+>abstract="Trigger-Echtzeitnachrichten über API-Aufrufe"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="Marketing-Nachrichten"
+>abstract="Werbeinhalte (erfordert Opt-in, unterliegt Geschäftsregeln)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="Transaktionsnachrichten"
+>abstract="Service-bezogene Inhalte (Bestätigung, Warnhinweise, keine Marketing-Zustimmung erforderlich)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="Verfügbare Kanäle"
+>abstract="E-Mail, SMS, Push-Benachrichtigungen"
 
 <!--APPROVAL POLICIES-->
 

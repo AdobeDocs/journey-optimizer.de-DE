@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 52%
+source-wordcount: '1190'
+ht-degree: 50%
 
 ---
 
@@ -54,7 +54,7 @@ Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die
   >Aufgrund der Batch-Natur von Zielgruppen, die mit Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität vom Typ „Zielgruppen-Qualifizierung“ angesprochen werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, **Zielgruppen-Qualifizierung** oder **Geschäftsereignis** beginnen. 
+* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, einer **Zielgruppen-Qualifizierung** oder einem **Geschäftsereignis** beginnen.
 
 * Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
@@ -155,4 +155,4 @@ Im Folgenden finden Sie Best Practices, um zu verhindern, dass Systeme, die in J
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
