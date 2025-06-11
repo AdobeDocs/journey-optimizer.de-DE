@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 90%
+source-wordcount: '1657'
+ht-degree: 89%
 
 ---
 
@@ -149,12 +149,16 @@ Auf der [!DNL Adobe Journey Optimizer]-Startseite bieten Produktanwendungsfälle
 
 ![](assets/use-cases-home.png)
 
++++ **Verfügbare Anwendungsfälle**
+
 Verfügbare Anwendungsfälle:
 
 * **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](../audience/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie diesen Anwendungsfall implementieren.
 * **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
 * **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
+
++++
 
 Um mehr über die einzelnen Anwendungsfälle zu erfahren, klicken Sie auf den Link **[!UICONTROL Details anzeigen]**.
 
@@ -199,14 +203,17 @@ Die Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Profil angegeben haben.
 
++++ **So ändern Sie Ihre Sprache**
+
 Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
-* Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
-  ![](assets/preferences.png)
-* Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
-* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
-  ![](assets/select-language.png)
+1. Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
+   ![](assets/preferences.png)
+1. Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
+1. Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
+   ![](assets/select-language.png)
 
++++
 
 ## Weitere Informationen {#more}
 
