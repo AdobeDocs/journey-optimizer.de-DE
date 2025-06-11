@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-+++
+   +++
 
 1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können den Ausdruckseditor auch verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf das Symbol ![Bild mit dem Symbol für den Ausdruckseditor](assets/do-not-localize/rule-builder-icon-editor.svg). [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
 
    ![Bild, das die Voreinstellungsoption zeigt](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -209,7 +209,7 @@ Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie 
 
 <br/>
 
-    >[!WICHTIG]
+    >[ !WICHTIG]
     >
     >Wählen Sie einen vordefinierten Filter aus dem Bereich Regeleigenschaften aus, um die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter zu ersetzen.
 
