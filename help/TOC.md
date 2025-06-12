@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 95%
 
 ---
@@ -233,6 +233,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Erstellen und Verwalten von Genehmigungsrichtlinien](using/test-approve/approval-policies.md)
       + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
+   + [Systemwarnungen](using/reports/alerts.md)
 + Kommunikationskanäle {#channels}
    + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels.md)
    + E-Mail-Kanal {#email}
@@ -267,6 +268,10 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
+      + E-Mail-Zustellbarkeit {#deliverability}
+      + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
+      + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
+      + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
    + In-App-Kanal{#in-app}
       + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
       + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
@@ -448,7 +453,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
-+ Reporting und Monitoring {#reporting}
++ Reporting {#reporting}
    + [Erste Schritte mit Berichten](using/reports/gs-reports.md)
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
@@ -487,6 +492,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Übersichtsbericht](using/reports/channel-report-cja.md)
       + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
       + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
+      + [Ausschlussgründe](using/reports/exclusion-list.md)
    + Benutzerdefinierte Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
          + [Datenabruffelder](using/reports/sharing-fetch-fields.md)
          + [Identitätsfelder](using/reports/sharing-identity-fields.md)
       + [Beispiele für Abfragen](using/reports/query-examples.md)
-   + Zustellbarkeit {#deliverability}
-      + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
-      + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
-   + [Warnhinweise](using/reports/alerts.md)
-   + [Ausschlussgründe](using/reports/exclusion-list.md)
 + Entscheidungsfunktionen {#decisioning}
    + [Erste Schritte mit Entscheidungsfunktionen](using/experience-decisioning/gs-decision.md)
    + Entscheidungsfindung {#experience-decisioning}
