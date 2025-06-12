@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 3%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehme
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
 
 
 ## Wichtigste Vorteile {#journey-dry-run-benefits}
