@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
+source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 84%
 
 ---
@@ -46,7 +46,8 @@ Sofern zwischen diesen beiden E-Mails kein anderer Versand versucht wurde und er
 >id="ajo_admin_suppression_list_bounces"
 >title="Aktualisieren des Schwellenwerts für Wiederholungsversuche"
 >abstract="Wenn der Standardwert nicht den Anforderungen entspricht, kann die zulässige Anzahl aufeinander folgender Softbounces geändert werden. Wenn die Wiederholungsanzahl den Fehlerschwellenwert für eine bestimmte E-Mail-Adresse erreicht, wird diese Adresse der Unterdrückungsliste hinzugefügt."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=de" text="Weitere Infos zur Unterdrückungsliste"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie unten beschrieben ändern.
 
