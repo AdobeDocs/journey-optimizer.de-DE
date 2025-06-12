@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
       + E-Mail-Zustellbarkeit {#deliverability}
-      + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
-      + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
+         + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
+         + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
+         + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
    + In-App-Kanal{#in-app}
       + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
       + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Manuelles Konfigurieren von Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Verwalten Ihrer Berichte](using/reports/report-cja-manage.md)
       + [Reporting- und Experimentiervoraussetzungen](using/reports/reporting-configuration.md)
+      + [Ausschlussgründe](using/reports/exclusion-list.md)
       + Kampagnenberichte{#reporting}
          + [Kampagnenbericht](using/reports/campaign-global-report-cja.md)
          + [Code-basierter Kampagnenbericht](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Übersichtsbericht](using/reports/channel-report-cja.md)
       + [Landingpage-Bericht](using/reports/lp-report-global-cja.md)
       + [Abonnement-Listen-Bericht](using/reports/subscription-report-global-cja.md)
-      + [Ausschlussgründe](using/reports/exclusion-list.md)
    + Benutzerdefinierte Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
