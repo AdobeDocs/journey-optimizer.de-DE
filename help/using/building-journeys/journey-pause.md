@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2004'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um den Journey anzuhalten:
 
 In der Liste Ihrer Journey können Sie eine oder mehrere **Live**-Journey anhalten. Um eine Gruppe von Journey anzuhalten (_Bulk Pause_), wählen Sie sie in der Liste aus und klicken Sie auf die Schaltfläche **Pause** in der blauen Leiste am unteren Bildschirmrand. Die **Pause**-Schaltfläche ist nur verfügbar, wenn **Live**-Journey ausgewählt sind.
 
-![Massenpause von zwei Live-Journey über die untere Leiste](assets/bulk-pause-journeys.png){width="80%" align="left"}
+![Massenpause von zwei Live-Journey über die untere Leiste](assets/bulk-pause-journeys.png)
 
 ### Verhalten bei pausierten Journey
 
@@ -76,21 +76,20 @@ Wenn eine Journey angehalten wird, werden neue Eingänge unabhängig vom Halten-
 
 Die Profilverwaltung beim Anhalten einer Journey hängt von der Aktivität ab. Die Verhaltensweisen werden im Folgenden beschrieben. Ein vollständiges Verständnis finden Sie auch in diesem [End-to-End-Beispiel](#journey-pause-sample).
 
-| Journey-Aktivität | Profilverwaltung | Anmerkungen |
-|-------------------------|--------------------------------------------------|------------------------|
-| [Zielgruppen-Qualifizierung](audience-qualification-events.md) | Im 1. Knoten: Verworfene <br> In anderen Knoten: Dasselbe Verhalten wie in einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer Aktionsaktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. |          |
-| [Geschäftsereignis](general-events.md) | Verworfen |    |
-| [Unitäres Ereignis](general-events.md) | Im 1. Knoten: Verworfen <br>In anderen Knoten: Dasselbe Verhalten wie auf einer Live-Journey. Wenn das Ereignis jedoch nach einer Aktionsaktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. | Erstellen einer Nachricht |
-| [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten: <br> Wenn die Pause gedrückt wurde, nachdem die Aktivität „Zielgruppe lesen“ gestartet wurde, werden Profile, die auf die Journey zugegriffen haben, fortgesetzt (bis zur nächsten Aktionsaktivität). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen. | - Für einzelne Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert. <br>- Für inkrementelle Journey: <br> Wenn die Pause vor dem ersten Vorkommen eintritt, wird bei der Wiederaufnahme die gesamte Zielgruppe wiedergegeben. <br>Wenn die Pause beispielsweise am 4. Tag eines täglichen Wiederholungszeitraums stattfindet und das Journey bis zum 9. Tag angehalten bleibt, werden bei der Wiederaufnahme alle Profile einbezogen, die vom 4. bis 9. eingetreten sind |
+| Journey-Aktivität | Profilverwaltung |
+|-------------------------|--------------------------------------------------|
+| [Zielgruppen-Qualifizierung](audience-qualification-events.md) | Im 1. Knoten: Verworfene <br> In anderen Knoten: Dasselbe Verhalten wie in einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer Aktionsaktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. |
+| [Unitäres Ereignis](general-events.md) | Im 1. Knoten: Verworfen <br>In anderen Knoten: Dasselbe Verhalten wie auf einer Live-Journey. Wenn das Ereignis jedoch nach einer Aktionsaktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
+| [Zielgruppe lesen](read-audience.md) | Das gleiche Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<br>1.  Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.   <br>2. Bei einzelnen Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert. <br>3. Für inkrementelle Journey: <br>- Wenn die Pause vor dem ersten Vorkommen eintritt, wird bei der Wiederaufnahme die gesamte Zielgruppe wiedergegeben. <br>- Wenn das Anhalten beispielsweise am 4. Tag einer täglichen Wiederholung erfolgt und das Journey bis zum 9. Tag angehalten bleibt, werden beim Fortsetzen alle Profile einbezogen, die vom 4. bis 9. eingetreten sind |
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer Aktionsaktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
-| [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |           |
-| [Bedingung](condition-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |         |
-| Inhaltsentscheidung | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |            |
-| [Kanalaktion](journeys-message.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |          |
-| [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |            |
-| [Profil aktualisieren](update-profiles.md) und [springen](jump.md) |  |       |
-| [Externe Daten - Source](../datasource/external-data-sources.md) | Gleiches Verhalten wie bei einer Live-Journey |           |
-| [Ausstiegskriterien](journey-properties.md#exit-criteria) | Gleiches Verhalten wie bei einer Live-Journey |           |
+| [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
+| [Bedingung](condition-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
+| Inhaltsentscheidung | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Kanalaktion](journeys-message.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Profil aktualisieren](update-profiles.md) und [springen](jump.md) | Gleiches Verhalten wie bei einer Live-Journey |
+| [Externe Daten - Source](../datasource/external-data-sources.md) | Gleiches Verhalten wie bei einer Live-Journey |
+| [Ausstiegskriterien](journey-properties.md#exit-criteria) | Gleiches Verhalten wie bei einer Live-Journey |
 
 ## Fortsetzen pausierter Journey {#journey-resume-steps}
 
