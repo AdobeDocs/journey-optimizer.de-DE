@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -123,13 +123,13 @@ Gehen Sie wie folgt vor, um beispielsweise alle französischen Kunden von einer 
 
 1. Klicken Sie auf das Symbol **Ausstiegskriterien und globaler Filter** .
 
-   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-global-filter.png){width="50%" align="left"}
+   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-global-filter.png)
 
 1. Klicken Sie in den **Ausstiegskriterien und globaler Filter** Einstellungen auf **Globalen Filter hinzufügen** um einen Filter basierend auf Profilattributen zu definieren.
 
 1. Legen Sie den Ausdruck fest, um Profile auszuschließen, bei denen das Länderattribut Frankreich entspricht.
 
-   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-country-filter.png){width="50%" align="left"}
+   ![Globalen Filter zu einer pausierten Journey hinzufügen](assets/add-country-filter.png)
 
 1. Speichern Sie den Filter und klicken Sie auf **Journey aktualisieren**, um Ihre Änderungen anzuwenden.
 
