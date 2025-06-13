@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
+source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '2129'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,125 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates vom 25. Juni {#25-6-rn}
+
+
+## Frühzeitige Versionshinweise Juni 2025 {#25-6-rn}
+
+
+**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
+
+**Veröffentlichungsdatum**: 17.-18. Juni 2025
+
+
+### Neue Funktionen {#25-06-features}
+
+Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
+
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS Messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Rich Communication Services (RCS)-Messaging wird jetzt in Journey Optimizer unterstützt und ermöglicht die folgenden erweiterten Messaging-Funktionen, die der Provider- und Provider-Unterstützung unterliegen:</p>
+<ul>
+<li>Unterstützung für gebrandete und verifizierte Absender: Senden Sie Nachrichten mithilfe verifizierter Geschäftsprofile mit Branding-Elementen (Logo, Absendername usw.).</li>
+<li>Einblicke in den Nachrichtenversand: Sie erhalten detaillierte Versandberichte einschließlich Statusaktualisierungen der Nachricht (z. B. gesendet, zugestellt, gelesen).</li>
+<li>Linktracking: Einbetten und Verfolgen von URLs in RCS-Nachrichten für die Interaktionsanalyse.</li>
+<li>Fallback zu SMS: Automatischer Fallback zu SMS, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend nicht erreichbar ist.</li>
+<li>Grundlegende Nachrichtenkomposition: Senden Sie textbasierte RCS-Nachrichten mit optionalen Medien und Rich-Elementen, je nach Anbieter-Support.</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Formularfelder in Code-basierten Erlebnisinhalten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen. Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Methode zur Zuweisung von Subdomains</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.</p>
+<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Aktivität „Inhaltsentscheidung“ in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt personalisierte Angebote über eine dedizierte Aktivität zur Inhaltsentscheidung in Ihre Journey auf der Journey-Arbeitsfläche einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
+<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Probelauf</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Dry Run ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendern ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwender Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie es live veröffentlichen.</p>
+<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey pausieren und fortsetzen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie anhalten und Ihre Journey fortsetzen. Diese Funktion bietet Anwendern von Journey mehr Kontrolle und Flexibilität, da Live-Journey vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu beeinträchtigen. Wenn angehalten, werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.</p>
+<p>Sie können nur eine Journey anhalten und fortsetzen oder Massenpausierungs- und Wiederaufnahmevorgänge für eine Gruppe von Journeys durchführen.</p>
+<p>Darüber hinaus können Sie globale Filter auf pausierte Journey anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
+<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -63,7 +181,26 @@ ht-degree: 86%
 </tbody>
 </table>
 
-### Verbesserungen
+
+### Verbesserungen {#25-06-improv}
+
+Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
+
+* **Kanalregelsätze**
+
+   * **Benutzerdefiniertes Zeitfenster** für die Begrenzung - Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Wiederholungsanzahl** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer über mehrere Tage, Wochen oder Monate anwenden können.
+
+   * **Stündliche Dauer** - Sie können jetzt für Kanalregelsätze eine Begrenzung auf stündlicher Basis anwenden.
+
+* **Code-basierte Erlebnisse**
+
+  Entscheidungsrichtlinien sind jetzt in Code-basierten Erlebnis-Inhaltsvorlagen und in der rechten Leiste des Code-Editors verfügbar.
+
+* **E-Mail-Designer**
+
+   * **Unterstützung von benutzerdefiniertem CSS** - Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen.
+   * **Unterstützung des Dunkelmodus** - Der Journey Optimizer E-Mail-Designer bietet jetzt die Möglichkeit, in den Dunkelmodus zu wechseln, in dem Sie bestimmte Einstellungen definieren können.
+
 
 * **Decisioning** - Verfügbarkeitsdatum: 3. Juni 2025
 
