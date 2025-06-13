@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 96%
+source-wordcount: '549'
+ht-degree: 84%
 
 ---
 
@@ -41,26 +41,19 @@ Um auf das **[!DNL Adobe Express]** zuzugreifen, rufen Sie Ihre **Bildeinstellun
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Adobe Express Enterprise-Lizenz {#licence}
+## Verwenden von Adobe Express mit einer Enterprise-Lizenz {#licence}
 
 Die in den folgenden Abschnitten beschriebenen Funktionen sind für Benutzende ohne Adobe Express Enterprise-Lizenz verfügbar.
 
-Mit einer Enterprise-Lizenz erhalten Benutzende vollen Zugriff auf den Adobe Express-Editor, mit dem sie Bilder ändern können, indem sie Farbe, Helligkeit, Schärfe, Kontrast, Abmessungen und zusätzliche Einstellungen anpassen.
+Mit einer Enterprise-Lizenz haben Benutzer vollen Zugriff auf den Adobe Express Web Editor, mit dem sie Asset-Einstellungen anpassen, Inhalte mit Firefly generieren, Text hinzufügen und zusätzliche Anpassungen anwenden können.
 
 ![](assets/express-licence.png)
 
-+++Verfügbare Anwendungsfälle für Benutzende mit einer Enterprise-Lizenz für Adobe Express
+Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Adobe Express-Web-Dokumentation](https://helpx.adobe.com/express/web.html).
 
-* [Entfernen von Hintergründen](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/remove-background.html)
-* [Entfernen von Objekten](https://helpx.adobe.com/de/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Löschen](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/eraser.html)
-* [Einfügen von Objekten](https://helpx.adobe.com/de/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Zuschneiden](https://helpx.adobe.com/de/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Effekte](https://helpx.adobe.com/de/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
 
-+++
-
-## Ändern der Bildgröße {#resize}
+### Ändern der Bildgröße {#resize}
 
 1. Wählen Sie im Adobe Express-Menü die Option **[!UICONTROL Bildgröße ändern]** aus.
 
@@ -84,7 +77,7 @@ Mit einer Enterprise-Lizenz erhalten Benutzende vollen Zugriff auf den Adobe Exp
 
 Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
-## Entfernen von Hintergründen {#background}
+### Entfernen von Hintergründen {#background}
 
 1. Wählen Sie im Adobe Express-Menü die Option **[!UICONTROL Hintergrund entfernen]** aus.
 
@@ -104,7 +97,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
-## Zuschneiden von Bildern {#crop-image}
+### Zuschneiden von Bildern {#crop-image}
 
 1. Wählen Sie im Adobe Express-Menü die Option **[!UICONTROL Bild zuschneiden]** aus.
 
@@ -122,7 +115,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
-## Konvertieren in JPEG oder PNG {#convert}
+### Konvertieren in JPEG oder PNG {#convert}
 
 1. Wählen Sie im Adobe Express-Menü abhängig vom ursprünglichen Bildformat die Option **[!UICONTROL In JPEG konvertieren]** oder **[!UICONTROL In PNG konvertieren]** aus.
 
@@ -144,12 +137,11 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
-
 ## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
