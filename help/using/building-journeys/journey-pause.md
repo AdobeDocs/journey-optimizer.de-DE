@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -167,7 +167,7 @@ Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit auf der Jou
 
 Nehmen wir als Beispiel die folgende Journey:
 
-![Beispiel einer Journey](assets/pause-journey-sample.png){width="50%" align="left"}
+![Beispiel einer Journey](assets/pause-journey-sample.png)
 
 Wenn Sie diese Journey anhalten, wählen Sie aus, ob **Profile (verworfen** oder **gehalten** und dann die Profilverwaltung wie folgt aussieht:
 
