@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Diese Funktion reduziert das Risiko des Versands unbeabsichtigter Nachrichten w�
 >
 >* Die Berechtigungen zum Anhalten und Fortsetzen von Journey sind auf Benutzende mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 >
->* Bevor Sie mit der Pause-/Wiederaufnahmefunktion beginnen, lesen [ die Leitplanken und Einschränkungen ] (journey-pause-guardrails).
+>* Bevor Sie mit der Pause-/Wiederaufnahmefunktion beginnen, lesen [ die Leitplanken und Einschränkungen ](#journey-pause-guardrails).
 
 
 ## Anhalten einer Journey {#journey-pause-steps}
