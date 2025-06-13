@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
+source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2138'
 ht-degree: 62%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 62%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 
-
 ## Frühzeitige Versionshinweise Juni 2025 {#25-6-rn}
 
 
@@ -31,6 +30,7 @@ ht-degree: 62%
 
 **Veröffentlichungsdatum**: 17.-18. Juni 2025
 
+Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Neue Funktionen {#25-06-features}
 
