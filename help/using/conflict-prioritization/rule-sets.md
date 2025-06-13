@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 58%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können zwei Arten von Regelsätzen erstellen:
 * **Kanal** Regelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 * **Journey** Regelsätze wenden Begrenzungsregeln für Eintritte und Gleichzeitigkeit auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ### Berechtigungen {#permissions-frequency-rules}
 
@@ -55,7 +55,7 @@ Zusätzlich zu diesem Regelsatz „Globaler Standardregelsatz“ können Sie &qu
 
 ![](assets/rule-sets-default.png)
 
-## Regelsätze erstellen und aktivieren {#Create}
+## Erstellen und Aktivieren von Regelsätzen {#Create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -81,7 +81,7 @@ Zusätzlich zu diesem Regelsatz „Globaler Standardregelsatz“ können Sie &qu
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Regelbegrenzung"
->abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Abhängig von der Domain des Regelsatzes und der Auswahl im Feld Regeltyp kann dieses Feld die maximale Anzahl von Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl von Journey, in die das Profil gleichzeitig eintreten oder registriert sein kann."
+>abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Je nach Domain des Regelsatzes und Auswahl im Feld „Regeltyp“ lässt sich in diesem Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, bzw. die maximale Anzahl an Journeys, in die das Profil eintreten kann oder an denen es gleichzeitig teilnehmen kann."
 
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
@@ -164,4 +164,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

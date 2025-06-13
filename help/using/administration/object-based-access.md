@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 52%
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Labels zur Zugriffsverwaltung"
->abstract="Sie können den Zugriff auf ein Objekt anhand von Zugriffs-Labels einschränken. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Nutzern und sorgt für einen weiteren Schutz personenbezogener Daten. **Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie die Berechtigung haben.**"
+>abstract="Sie können den Zugriff auf ein Objekt anhand von Zugriffs-Labels einschränken. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Benutzenden und sorgt für einen weiteren Schutz personenbezogener Daten. **Stellen Sie sicher, dass Sie nur Labels auswählen, für die Sie die Berechtigung haben.**"
 
 Sie können den Zugriff auf ein Objekt anhand von Zugriffs-Labels einschränken. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Nutzern und sorgt für einen weiteren Schutz personenbezogener Daten.
 
