@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 33%
 
 ---
 
@@ -45,7 +45,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>RCS (Rich Communication Services)-Messaging wird jetzt in der Journey Optimizer unterstützt und ermöglicht die folgenden erweiterten Messaging-Funktionen, die der Provider- und Provider-Unterstützung unterliegen:</p>
+<p>Rich Communication Services (RCS)-Messaging wird jetzt in Journey Optimizer unterstützt und ermöglicht die folgenden erweiterten Messaging-Funktionen, die der Provider- und Provider-Unterstützung unterliegen:</p>
 <ul>
 <li>Unterstützung für gebrandete und verifizierte Absender: Senden Sie Nachrichten mithilfe verifizierter Geschäftsprofile mit Branding-Elementen (Logo, Absendername usw.).</li>
 <li>Einblicke in den Nachrichtenversand: Sie erhalten detaillierte Versandberichte einschließlich Statusaktualisierungen der Nachricht (z. B. gesendet, zugestellt, gelesen).</li>
@@ -83,8 +83,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in Code-basierten Erlebnissen einfach zu bearbeiten, ohne Code bearbeiten zu müssen.</p>
-<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen. Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +143,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Journey Probelauf</strong><br/></th>
+<th><strong>Journey-Probelauf</strong><br/></th>
 </tr>
 </thead>
 <tbody>
