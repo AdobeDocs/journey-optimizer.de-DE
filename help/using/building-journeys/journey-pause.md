@@ -41,7 +41,7 @@ Diese Funktion reduziert das Risiko des Versands unbeabsichtigter Nachrichten w�
 >
 >* Die Berechtigungen zum Anhalten und Fortsetzen von Journey sind auf Benutzende mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 >
->* Bevor Sie mit der Pause-/Wiederaufnahmefunktion beginnen, lesen [ die Leitplanken und Einschränkungen ](journey-pause-guardrails).
+>* Bevor Sie mit der Pause-/Wiederaufnahmefunktion beginnen, lesen [ die Leitplanken und Einschränkungen ] (journey-pause-guardrails).
 
 
 ## Anhalten einer Journey {#journey-pause-steps}
