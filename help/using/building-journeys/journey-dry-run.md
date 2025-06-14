@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 11%
 
 ---
@@ -56,25 +56,10 @@ Journey Dry Run bringt:
 
 >[!CAUTION]
 >
->Die Berechtigungen zum Starten des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Publish journeys]** hoher Ebene beschränkt. Die Berechtigungen zum Stoppen des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Manage journeys]** hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+>* Die Berechtigungen zum Starten des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Publish journeys]** hoher Ebene beschränkt. Die Berechtigungen zum Stoppen des Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Manage journeys]** hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+>
+>* Bevor Sie mit der Verwendung der Dry-Run-Funktion beginnen[ lesen Sie die Leitplanken und Einschränkungen ](#journey-dry-run-limitations).
 
-
-## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
-
-* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten.
-* Profile im Dry-Run-Modus werden als ansprechbare Profile gezählt.
-* Dry Run-Journey wirken sich nicht auf Geschäftsregeln aus.
-* Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **Live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
-* Journey Dry Run generiert stepEvents. Diese stepEvents haben ein bestimmtes Flag und eine Probelauf-ID:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist, `false` andernfalls
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelauf-Instanz zurück
-* Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
-
-   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
-   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
-   * **Warteknoten** werden während des Probelaufs umgangen.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt.
 
 ## Probelauf starten {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ Dry Run Journey **muss** manuell angehalten werden.
 Klicken Sie auf **Schließen**, um den Test zu beenden, und klicken Sie zur Bestätigung **Zurück** Entwurf.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
+
+* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten.
+* Profile im Dry-Run-Modus werden als ansprechbare Profile gezählt.
+* Dry Run-Journey wirken sich nicht auf Geschäftsregeln aus.
+* Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **Live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
+* Journey Dry Run generiert stepEvents. Diese stepEvents haben ein bestimmtes Flag und eine Probelauf-ID:
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist, `false` andernfalls
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelauf-Instanz zurück
+* Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
+
+   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
+   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
+   * **Warteknoten** werden während des Probelaufs umgangen.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt.

@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um eine pausierte Journey fortzusetzen und wieder Journ
 Aus der Liste Ihrer Journey Journey können Sie eine oder mehrere (**)** fortsetzen. Um eine Gruppe von Journey fortzusetzen (_Bulk Resume_), wählen Sie sie aus und klicken Sie auf die **Fortsetzen**-Schaltfläche in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die **Fortsetzen**-Schaltfläche nur verfügbar ist, wenn **Paused** Journey ausgewählt sind.
 
 
-## Anwenden eines globalen Filters auf Profile in einem pausierten Journey  {#journey-global-filters}
+## Anwenden eines globalen Filters auf Profile in einem pausierten Journey {#journey-global-filters}
 
 Wenn ein Journey angehalten wird, können Sie einen globalen Filter basierend auf Profilattributen anwenden. Dieser Filter ermöglicht den Ausschluss von Profilen, die zum Zeitpunkt der Wiederaufnahme dem definierten Ausdruck entsprechen. Sobald der globale Filter festgelegt ist, gilt er für Aktionsknoten, auch für den Eintritt neuer Profile. Profile, die den Kriterien entsprechen, und neue Profile, die versuchen einzutreten, werden von der Journey ausgeschlossen (**nächsten Aktionsknoten** auf den sie stoßen.
 

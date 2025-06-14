@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1202'
 ht-degree: 50%
 
 ---
@@ -33,39 +33,13 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-### Schutzmechanismen und Empfehlungen {#important-notes-segment-qualification}
-
-Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die Zielgruppen-Qualifizierung zu erstellen. Siehe auch [Best Practices für die Zielgruppenqualifizierung](#best-practices-segments).
-
-
-* Journey zur Zielgruppenqualifizierung wurden in erster Linie für die Verwendung mit Streaming-Zielgruppen entwickelt. Diese Kombination garantiert ein besseres Echtzeit-Erlebnis. Es wird dringend empfohlen, in **Aktivität Zielgruppenqualifizierung** Streaming-Zielgruppen“ zu verwenden.
-
-  Wenn Sie jedoch Batch-Aufnahme-basierte Attribute in Ihrer Streaming-Zielgruppe oder eine Batch-Zielgruppe für eine Zielgruppen-Qualifizierungs-Journey verwenden möchten, sollten Sie die Zeitspanne für die Zielgruppen-Evaluierung/-Aktivierung berücksichtigen. Eine Batch-Zielgruppe oder Streaming-Zielgruppe, die Batch-aufgenommene Attribute verwendet, ist ca. **2 Stunden nach Abschluss** Segmentierungsauftrags für die Verwendung in der Aktivität **Zielgruppen** bereit. Dieser Auftrag wird einmal täglich zu der von Ihrem Adobe-Organisationsadministrator definierten Zeit ausgeführt.
-
-* Adobe Experience Platform-Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (für **Streaming**-Zielgruppen mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet.
-
-   * Wenn die ausgewählte Zielgruppe gestreamt wird, können Personen, die zu dieser Zielgruppe gehören, in Echtzeit auf die Journey zugreifen.
-   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Personen in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
-
-  Verwenden Sie als Best Practice Streaming-Zielgruppen in einer Aktivität vom Typ **Zielgruppen-Qualifizierung** . Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
-
-  >[!NOTE]
-  >
-  >Aufgrund der Batch-Natur von Zielgruppen, die mit Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität vom Typ „Zielgruppen-Qualifizierung“ angesprochen werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
-
-
-* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, einer **Zielgruppen-Qualifizierung** oder einem **Geschäftsereignis** beginnen.
-
-* Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
-
 
 >[!CAUTION]
 >
->[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen[ lesen Sie die Leitplanken und Einschränkungen ](#audience-qualification-guardrails).
 
 
-
-### Konfigurieren der Aktivität {#configure-segment-qualification}
+## Konfigurieren der Aktivität {#configure-segment-qualification}
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** zu konfigurieren:
 
@@ -151,8 +125,40 @@ Im Folgenden finden Sie Best Practices, um zu verhindern, dass Systeme, die in J
 
   ![](assets/segment-overload.png)
 
+## Schutzmechanismen und Einschränkungen {#audience-qualification-guardrails}
+
+Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die Zielgruppen-Qualifizierung zu erstellen. Siehe auch [Best Practices für die Zielgruppenqualifizierung](#best-practices-segments).
+
+
+* Journey zur Zielgruppenqualifizierung wurden in erster Linie für die Verwendung mit Streaming-Zielgruppen entwickelt. Diese Kombination garantiert ein besseres Echtzeit-Erlebnis. Es wird dringend empfohlen, in **Aktivität Zielgruppenqualifizierung** Streaming-Zielgruppen“ zu verwenden.
+
+  Wenn Sie jedoch Batch-Aufnahme-basierte Attribute in Ihrer Streaming-Zielgruppe oder eine Batch-Zielgruppe für eine Zielgruppen-Qualifizierungs-Journey verwenden möchten, sollten Sie die Zeitspanne für die Zielgruppen-Evaluierung/-Aktivierung berücksichtigen. Eine Batch-Zielgruppe oder Streaming-Zielgruppe, die Batch-aufgenommene Attribute verwendet, ist ca. **2 Stunden nach Abschluss** Segmentierungsauftrags für die Verwendung in der Aktivität **Zielgruppen** bereit. Dieser Auftrag wird einmal täglich zu der von Ihrem Adobe-Organisationsadministrator definierten Zeit ausgeführt.
+
+* Adobe Experience Platform-Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (für **Streaming**-Zielgruppen mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet.
+
+   * Wenn die ausgewählte Zielgruppe gestreamt wird, können Personen, die zu dieser Zielgruppe gehören, in Echtzeit auf die Journey zugreifen.
+   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Personen in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+
+  Verwenden Sie als Best Practice Streaming-Zielgruppen in einer Aktivität vom Typ **Zielgruppen-Qualifizierung** . Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
+
+  >[!NOTE]
+  >
+  >Aufgrund der Batch-Natur von Zielgruppen, die mit Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität vom Typ „Zielgruppen-Qualifizierung“ angesprochen werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
+
+
+* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, einer **Zielgruppen-Qualifizierung** oder einem **Geschäftsereignis** beginnen.
+
+* Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
+
+
+>[!CAUTION]
+>
+>[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+
+
+
 ## Anleitungsvideo {#video}
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
