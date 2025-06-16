@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: f9cfe6758c33337f1798b6c95d344da73d0468f6
+source-git-commit: 60d3cbb1a95e347d6e727b79ccee8534453a55ab
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2019'
 ht-degree: 1%
 
 ---
@@ -80,16 +80,19 @@ Wenn ein Journey angehalten wird, hängt die Profilverwaltung und Aktivitätsaus
 |-------------------------|--------------------------------------------------|
 | [Zielgruppen-Qualifizierung](audience-qualification-events.md) | <ul> <li>Im ersten Knoten wird die Zielgruppe verworfen </li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. </li></ul> |
 | [Unitäres Ereignis](general-events.md) | <ul> <li>Im ersten Knoten: Das Ereignis wird verworfen</li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn das Ereignis jedoch nach einer <strong>Action</strong>-Aktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. </li></ul> |
-| [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<br><li>&lt;il> Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.&lt;/ol&lt;ol Für einzelne Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert.</ol><ol> Für inkrementelle Journey: <li>Wenn die Aktion vor dem ersten Vorkommen angehalten wird, wird bei der Wiederaufnahme die vollständige Audience abgespielt. </li><li> Wenn das Anhalten beispielsweise am 4. Tag eines täglichen Wiederholungszeitraums stattfindet und das Journey bis zum 9. Tag angehalten bleibt, werden bei der Wiederaufnahme alle Profile einbezogen, die vom 4. bis 9. eingetreten sind     </li></ol></ul> |
-| [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
-| [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
-| [Bedingung](condition-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
-| Inhaltsentscheidung | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
-| [Kanalaktion](journeys-message.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
-| [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
-| [Profil aktualisieren](update-profiles.md) und [springen](jump.md) | Gleiches Verhalten wie bei einer Live-Journey |
-| [Externe Daten - Source](../datasource/external-data-sources.md) | Gleiches Verhalten wie bei einer Live-Journey |
-| [Ausstiegskriterien](journey-properties.md#exit-criteria) | Gleiches Verhalten wie bei einer Live-Journey |
+| [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<ol> |
+<li> Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.</li>
+<li> Bei einzelnen Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert.</li>&lt;
+<li>Für inkrementelle Journey: <ul><li>Wenn die Aktion vor dem ersten Vorkommen angehalten wird, wird bei der Wiederaufnahme die vollständige Audience abgespielt. </li><li>Wenn das Anhalten beispielsweise am 4. Tag eines täglichen Wiederholungszeitraums stattfindet und das Journey bis zum 9. Tag angehalten bleibt, werden bei der Wiederaufnahme alle Profile einbezogen, die vom 4. bis 9. eingetreten sind  </li></ul></ol>   |
+| [Reaktion](response-events.md)      | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen.    |
+| [Warten](wait-activity.md)             | Gleiches Verhalten wie bei einer Live-Journey | 
+| [Bedingung](condition-activity.md)  | Gleiches Verhalten wie bei einer Live-Journey |
+| Inhaltsentscheidung  | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Kanalaktion](Journey-message.md)  | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Benutzerdefinierte Aktion](../action/action.md)   | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Profil aktualisieren](update-profiles.md) &amp; [Sprung](sprung.md) | Gleiches Verhalten wie bei einer Live-Journey  |
+| [External Data Source](../datasource/external-data-sources.md)  | Gleiches Verhalten wie bei einer Live-Journey |
+| [Beendigungskriterien](Journey-properties.md#exit-criteria)  | Gleiches Verhalten wie bei einer Live-Journey |
 
 ## Fortsetzen pausierter Journey {#journey-resume-steps}
 
