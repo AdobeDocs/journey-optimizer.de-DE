@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,9 @@ Journey Optimizer ermöglicht den Export von Journeys, benutzerdefinierten Aktio
 * Beim Kopieren eines Objekts werden alle Abhängigkeiten (z. B. verschachtelte Fragmente, Journey-Zielgruppen oder Aktionen) im übergeordneten Objekt korrekt aktualisiert, sodass eine korrekte Zuordnung in der Ziel-Sandbox gewährleistet ist.
 
 * Wenn ein exportiertes Objekt eine Profilpersonalisierung enthält, stellen Sie sicher, dass das entsprechende Schema in der Ziel-Sandbox vorhanden ist, um Probleme mit der Personalisierung zu vermeiden.
+
+* Landingpages werden derzeit nicht für die Migration zwischen Sandboxes unterstützt. Wenn Sie eine Journey in eine andere Sandbox kopieren, verweisen alle Verweise auf Landingpages in Ihrem Journey- oder E-Mail-Inhalt weiterhin auf die ursprünglichen (Quell-)Sandbox-Landingpage-IDs. Nach der Migration müssen Sie alle Verweise auf Landingpages in Ihrem Journey- und E-Mail-Inhalt manuell aktualisieren, um die richtigen Landingpage-IDs aus der Ziel-Sandbox zu verwenden. Siehe [Landingpages erstellen und veröffentlichen](../landing-pages/create-lp.md).
+
 
 ### Journeys {#journeys}
 
