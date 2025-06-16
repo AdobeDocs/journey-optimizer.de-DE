@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um den Journey anzuhalten:
 1. Öffnen Sie die Journey, die Sie anhalten möchten.
 1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche und wählen Sie **Pause**.
 
-   ![Pause der Journey-Taste](assets/pause-journey-button.png){width="80%" align="left"}
+   ![Pause der Journey-Taste](assets/pause-journey-button.png)
 
 1. Wählen Sie die Option Verwalten von Profilen aus, die sich derzeit auf der Journey befinden.
 
@@ -78,8 +78,8 @@ Die Profilverwaltung beim Anhalten einer Journey hängt von der Aktivität ab. D
 
 | Journey-Aktivität | Profilverwaltung |
 |-------------------------|--------------------------------------------------|
-| [Zielgruppen-Qualifizierung](audience-qualification-events.md) | Im ersten Knoten: Verworfene <br> In anderen Knoten: Dasselbe Verhalten wie in einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. |
-| [Unitäres Ereignis](general-events.md) | Im ersten Knoten: Verworfen <br>In anderen Knoten: Dasselbe Verhalten wie auf einer Live-Journey. Wenn das Ereignis jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
+| [Zielgruppen-Qualifizierung](audience-qualification-events.md) | <ul> <li>Im ersten Knoten: Profile werden verworfen </li><br><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. </li></ul> |
+| [Unitäres Ereignis](general-events.md) | - Im ersten Knoten: Profile werden verworfen <br>In anderen Knoten: Dasselbe Verhalten wie auf einer Live-Journey. Wenn das Ereignis jedoch nach einer <strong>Action</strong>-Aktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
 | [Zielgruppe lesen](read-audience.md) | Das gleiche Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<br>1.  Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.   <br>2. Bei einzelnen Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert. <br>3. Für inkrementelle Journey: <br>- Wenn die Pause vor dem ersten Vorkommen eintritt, wird bei der Wiederaufnahme die gesamte Zielgruppe wiedergegeben. <br>- Wenn das Anhalten beispielsweise am 4. Tag einer täglichen Wiederholung erfolgt und das Journey bis zum 9. Tag angehalten bleibt, werden beim Fortsetzen alle Profile einbezogen, die vom 4. bis 9. eingetreten sind |
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
 | [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
