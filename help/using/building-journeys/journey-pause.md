@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -185,5 +185,5 @@ Entsprechend diesem Verhalten können Sie sehen, dass die Profilnummern bei paus
 
 Wenn Sie diese Journey fortsetzen:
 
-1. Neue Journey-Eintritte beginnen innerhalb einer Minute
+1. Neue Journey-Eintritte beginnen innerhalb einer Minute.
 1. Profile, die derzeit auf der Journey auf **Action**-Aktivitäten warteten, werden mit einer 5.000-Bit-Rate wieder aufgenommen. Sie können dann die **Aktion**, auf die sie gewartet haben, eingeben und die Journey fortsetzen.
