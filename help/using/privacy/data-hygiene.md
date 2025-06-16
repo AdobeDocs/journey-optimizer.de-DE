@@ -7,10 +7,10 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: ht
-source-wordcount: '123'
-ht-degree: 100%
+source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 57%
 
 ---
 
@@ -25,6 +25,15 @@ Da Daten kontinuierlich in Adobe Experience Platform aufgenommen werden, ist es 
 Diese Aufgaben können mit dem Menü **[!UICONTROL Datenlebenszyklus]** durchgeführt werden, das die Konfiguration und Planung von Datenlebenszyklusvorgängen ermöglicht und sicherstellt, dass Ihre Einträge ordnungsgemäß gepflegt werden.
 
 ![](assets/data-hygiene.png)
+
+
+## Empfehlungen {#data-hygiene-recommendations}
+
+Beachten Sie bei der Durchführung von Datenhygiene (z. B. beim Löschen von Identitäten oder Datensätzen), dass historische Versandereignisse, die mit gelöschten Identitäten verknüpft sind, nicht mehr in standardmäßigen Reporting- oder DataLake-Abfragen angezeigt werden. Dies kann zu Diskrepanzen zwischen der Anzahl der als „Zugestellt **gemeldeten E-Mails** der Anzahl der E-Mails **Erhalten** in den Empfängerposteingängen führen, insbesondere bei älteren Journey.
+
+Validieren und exportieren Sie vor dem Ausführen umfangreicher Löschvorgänge alle erforderlichen Versand- oder Berichtsdaten. Wenn nach der Datenhygiene eine Abstimmung erforderlich ist, stimmen Sie sich mit der Adobe-Unterstützung ab, um auf archivierte Protokolle zuzugreifen, oder verwenden Sie Abfragen zum Message-Feedback-Ereignis-Datensatz für aktuelle Daten.
+
+## Weitere Informationen {#data-hygiene-learn-more}
 
 Weitere Informationen zum Privacy Service und zum Durchführen von Datenlebenszyklusvorgängen finden Sie in der Dokumentation zu Adobe Experience Platform:
 
