@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 79082cfa45680f9f53bc715800179aea8d251fc5
+source-git-commit: f9cfe6758c33337f1798b6c95d344da73d0468f6
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2010'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,8 @@ Wenn ein Journey angehalten wird, hängt die Profilverwaltung und Aktivitätsaus
 | Journey-Aktivität | Wirkung |
 |-------------------------|--------------------------------------------------|
 | [Zielgruppen-Qualifizierung](audience-qualification-events.md) | <ul> <li>Im ersten Knoten wird die Zielgruppe verworfen </li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird die Zielgruppen-Qualifizierung verworfen. </li></ul> |
-| [Unitäres Ereignis](general-events.md) | <ul> <li>Im ersten Knoten: Das Ereignis wird verworfen</li> <br><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn das Ereignis jedoch nach einer <strong>Action</strong>-Aktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. </li></ul> |
-| [Zielgruppe lesen](read-audience.md) | Das gleiche Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<br>1.  Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.   <br>2. Bei einzelnen Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert. <br>3. Für inkrementelle Journey: <br>- Wenn die Pause vor dem ersten Vorkommen eintritt, wird bei der Wiederaufnahme die gesamte Zielgruppe wiedergegeben. <br>- Wenn das Anhalten beispielsweise am 4. Tag einer täglichen Wiederholung erfolgt und das Journey bis zum 9. Tag angehalten bleibt, werden beim Fortsetzen alle Profile einbezogen, die vom 4. bis 9. eingetreten sind |
+| [Unitäres Ereignis](general-events.md) | <ul> <li>Im ersten Knoten: Das Ereignis wird verworfen</li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn das Ereignis jedoch nach einer <strong>Action</strong>-Aktivität eintritt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. </li></ul> |
+| [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten:<br><li><il> Wenn <strong>Pause</strong> nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> gedrückt wurde, werden Profile, die auf die Journey gelangt sind, fortgesetzt (bis zur nächsten Aktivität <strong>Aktion</strong>). Wenn Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest und die vollständige Zielgruppe noch nicht eingegeben wurde, werden die verbleibenden Profile in der Warteschlange verworfen.&lt;/ol&lt;ol Für einzelne Ausführungen: Zum Zeitpunkt der Wiederaufnahme werden keine Fehler angezeigt, wenn das geplante Datum vor dem Wiederaufnahme-Datum lag. Dieser Zeitplan würde ignoriert.</ol><ol> Für inkrementelle Journey: <li>Wenn die Aktion vor dem ersten Vorkommen angehalten wird, wird bei der Wiederaufnahme die vollständige Audience abgespielt. </li><li> Wenn das Anhalten beispielsweise am 4. Tag eines täglichen Wiederholungszeitraums stattfindet und das Journey bis zum 9. Tag angehalten bleibt, werden bei der Wiederaufnahme alle Profile einbezogen, die vom 4. bis 9. eingetreten sind     </li></ol></ul> |
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der/die Benutzende bei dieser Aktion angehalten wird, wird das Ereignis verworfen. |
 | [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
 | [Bedingung](condition-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
