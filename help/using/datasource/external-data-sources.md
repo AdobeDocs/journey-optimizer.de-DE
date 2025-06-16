@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+workflow-type: tm+mt
+source-wordcount: '1674'
+ht-degree: 97%
 
 ---
 
@@ -229,9 +229,9 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 >[!NOTE]
 >
->Das Authentifizierungs-Token wird pro Journey zwischengespeichert: Wenn zwei Journey dieselbe benutzerdefinierte Aktion verwenden, wird für jede Journey ein eigenes Token zwischengespeichert. Dieses Token wird zwischen diesen Journeys nicht geteilt.
+>* Das Authentifizierungs-Token wird pro Journey zwischengespeichert: Wenn zwei Journey dieselbe benutzerdefinierte Aktion verwenden, wird für jede Journey ein eigenes Token zwischengespeichert. Dieses Token wird zwischen diesen Journeys nicht geteilt.
 >
->Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
+>* Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
 >
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
@@ -269,3 +269,7 @@ Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) derzeit **nicht unterstützt**. Nur einfache Schlüssel-Wert-Paare werden in die endgültige Anfrage-Payload aufgenommen. Wenn Ihr Authentifizierungsendpunkt verschachtelte Objekte erfordert, kann dies zu fehlenden Feldern und Authentifizierungsfehlern führen.
