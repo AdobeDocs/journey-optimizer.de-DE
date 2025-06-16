@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 94%
@@ -146,6 +146,11 @@ Ständige Fehler, gruppiert nach Bounce-Code:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>In einigen Journey ist die `messageID` möglicherweise nicht für jeden Versand eindeutig. Wenn eine Journey dieselbe Aktion erneut an dasselbe Profil sendet, kann dieselbe `messageID` wiederverwendet werden. Um Ereignisse auf individueller Sendungsebene genau zu verfolgen oder zuzuordnen, kombinieren Sie daher die Felder `journeyVersionID`, `journeyActionID` und `batchInstanceID` (für Batch-Journey) oder `identityMap`, um eine präzisere Eindeutigkeit zu erzielen.
+
+
 ### Identifizieren Sie unter Quarantäne gestellte Adressen nach einem ISP-Ausfall{#isp-outage-query}
 
 Im Falle eines Ausfalls eines Internet Service Providers (ISP) müssen Sie die E-Mail-Adressen identifizieren, die für bestimmte Domains innerhalb eines bestimmten Zeitraums fälschlicherweise als Bounce (unter Quarantäne) eingestuft wurden. Um diese Adressen zu erhalten, verwenden Sie die folgende Abfrage:
@@ -169,9 +174,6 @@ Das Datumsformat lautet dabei: `YYYY-MM-DD HH:MM:SS`.
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 
->[!NOTE]
->
->In einigen Journey ist die `messageID` möglicherweise nicht für jeden Versand eindeutig. Wenn eine Journey dieselbe Aktion erneut an dasselbe Profil sendet, kann dieselbe `messageID` wiederverwendet werden. Um Ereignisse auf individueller Sendungsebene genau zu verfolgen oder zuzuordnen, kombinieren Sie daher die Felder `journeyVersionID`, `journeyActionID` und `batchInstanceID` (für Batch-Journey) oder `identityMap`, um eine präzisere Eindeutigkeit zu erzielen.
 
 
 ## Erlebnisereignisdatensatz beim Push-Tracking {#push-tracking-experience-event-dataset}
