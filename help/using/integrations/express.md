@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 84%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,6 +52,13 @@ Mit einer Enterprise-Lizenz haben Benutzer vollen Zugriff auf den Adobe Express 
 Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Adobe Express-Web-Dokumentation](https://helpx.adobe.com/express/web.html).
 
 ## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
+
+Ohne Enterprise-Lizenz haben Benutzer Zugriff auf die folgenden Anwendungsfälle, die mit Adobe Express verfügbar sind:
+
+* [Ändern der Bildgröße](#resize)
+* [Entfernen von Hintergründen](#background)
+* [Zuschneiden von Bildern](#crop-image)
+* [Konvertieren in JPEG oder PNG](#convert)
 
 ### Ändern der Bildgröße {#resize}
 
@@ -141,7 +148,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
