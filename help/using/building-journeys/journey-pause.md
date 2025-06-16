@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Diese Funktion reduziert das Risiko des Versands unbeabsichtigter Nachrichten w�
 >
 >* Die Berechtigungen zum Anhalten und Fortsetzen von Journey sind auf Benutzende mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 >
->* Bevor Sie mit der Pause-/Wiederaufnahmefunktion beginnen, lesen [ die Leitplanken und Einschränkungen ](#journey-pause-guardrails).
+>* Bevor Sie mit der Pause/Wiederaufnahme-Funktion beginnen[ lesen Sie die Leitplanken und Einschränkungen ](#journey-pause-guardrails).
 
 
 ## Anhalten einer Journey {#journey-pause-steps}
@@ -148,27 +148,30 @@ Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit auf der Jou
 
 ## Schutzmechanismen und Einschränkungen {#journey-pause-guardrails}
 
-* Eine Journey-Version kann für maximal 14 Tage angehalten werden.
-* Anhaltende Journey werden in allen Geschäftsregeln berücksichtigt, genauso wie wenn sie live wären.
-* Profile werden in einer pausierten Journey „verworfen“, wenn sie eine Aktionsaktivität erreichen. Wenn sie während der Zeit, in der eine Journey angehalten wird, auf Wartezeit bleiben und diese Wartezeit nach der Wiederaufnahme beenden, setzen sie die Journey fort und werden nicht verworfen.
-* Da weiterhin Ereignisse verarbeitet werden, werden diese Ereignisse auch nach der Pause auf die Anzahl der Journey-Ereignisse pro Sekunde angerechnet, nach denen eine Drosselung für unitäres Ereignis eintritt.
-* Profile, die auf Journey zugegriffen haben, aber während der Pause verworfen wurden, werden weiterhin als kontaktierbare Profile gezählt.
+* Eine Journey-Version kann für maximal 14 Tage angehalten werden
+* Anhaltende Journey werden auf das Live-Journey-Kontingent angerechnet
+* Profile, die auf Journey zugegriffen haben, aber während der Pause verworfen wurden, werden weiterhin als kontaktierbare Profile gezählt
+* Anhaltende Journey werden in allen Geschäftsregeln berücksichtigt, genauso wie wenn sie live wären
+* Das globale Journey-Timeout gilt weiterhin für pausierte Journey. Wenn sich beispielsweise ein Profil 90 Tage lang auf einer Journey befand und die Journey angehalten wurde, verlässt dieses Profil die Journey am 91. Tag weiterhin
+* Profile werden **angehaltenem Journey** verworfen), wenn sie eine Aktionsaktivität erreichen. Wenn sie während der Zeit, in der eine Journey angehalten wird, auf Wartezeit bleiben und diese Wartezeit nach der Wiederaufnahme beenden, setzen sie die Journey fort und werden nicht verworfen. [Siehe das End-to-End-Beispiel](#journey-pause-sample)
+* Da weiterhin Ereignisse verarbeitet werden, werden diese Ereignisse auch nach der Pause auf die Anzahl der Journey-Ereignisse pro Sekunde angerechnet, nach denen eine Drosselung für unitäres Ereignis eintreten kann
 * Wenn Profile auf einer pausierten Journey gespeichert werden, werden bei der Wiederaufnahme Profilattribute aktualisiert
-* In angehaltenen Journey werden weiterhin Bedingungen ausgeführt. Wenn ein Journey aufgrund von Datenqualitätsproblemen angehalten wurde, kann jede Bedingung vor einem Aktionsknoten mit falschen Daten ausgewertet werden.
-* Bei einer inkrementellen zielgruppenbasierten Journey mit „Zielgruppe lesen“ wird die Pausendauer berücksichtigt. Beispiel: Bei einem täglichen Journey, wenn es am 2. angehalten und am 5. des Monats fortgesetzt wurde, nimmt die Ausführung am 6. alle Profile auf, die sich vom 1. bis 6. qualifiziert haben. Dies ist nicht der Fall für die Zielgruppen-Qualifizierung oder ereignisbasierte Journey (wenn während einer Pause eine Zielgruppen-Qualifizierung oder ein Ereignis empfangen wird, werden diese Ereignisse verworfen).
-* Anhaltende Journey werden auf das Live-Journey-Kontingent angerechnet.
-* Das globale Journey-Timeout gilt weiterhin für pausierte Journey. Wenn sich beispielsweise ein Profil 90 Tage lang auf einer Journey befand und die Journey angehalten wurde, verlässt dieses Profil die Journey am 91. Tag weiterhin.
-* Wenn Profile auf einer Journey gespeichert werden und diese Journey nach einigen Tagen automatisch wieder aufgenommen wird, setzen Sie die Journey fort und werden nicht gelöscht. Wenn Sie sie fallen lassen wollen, müssen Sie die Journey stoppen.
-* In angehaltenen Journey werden Warnhinweise für Batch-Segmentwarnungen nicht ausgelöst.
-* Es gibt keine Auditprotokolle im System, wenn nach 14 Tagen der Pausenstatus der Journey beendet wird.
-* Einige verworfene Profile können im Journey-Schrittereignis, aber nicht im Bericht angezeigt werden. Beispiel: Geschäftsereignisse für „Zielgruppe lesen“ verwerfen, Aufträge für „Zielgruppe lesen“, die aufgrund eines pausierten Journey verworfen wurden, verworfene Ereignisse, wenn die Ereignisaktivität nach einer Aktion stattfand, bei der das Profil gewartet hat.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* In angehaltenen Journey werden weiterhin Bedingungen ausgeführt. Wenn ein Journey aufgrund von Datenqualitätsproblemen angehalten wurde, kann jede Bedingung vor einem Aktionsknoten mit falschen Daten ausgewertet werden
+* Bei Journey-**, die auf einer inkrementellen Zielgruppe** Zielgruppe lesen), wird die Pausendauer berücksichtigt. Beispiel: Bei einem täglichen Journey, wenn es am 2. angehalten und am 5. des Monats fortgesetzt wurde, nimmt die Ausführung am 6. alle Profile auf, die sich vom 1. bis 6. qualifiziert haben. Dies ist bei der Zielgruppen-Qualifizierung oder ereignisbasierten Journey nicht der Fall (wenn während einer Pause eine Zielgruppen-Qualifizierung oder ein Ereignis empfangen wird, werden diese Ereignisse verworfen)
+* Wenn Profile auf einer Journey gespeichert werden und diese Journey nach einigen Tagen automatisch wieder aufgenommen wird, setzen Sie die Journey fort und werden nicht gelöscht. Wenn Sie sie fallen lassen wollen, müssen Sie die Journey stoppen
+* In angehaltenen Journey werden Warnhinweise für Batch-Segmentwarnungen nicht ausgelöst
+* Es gibt keine Auditprotokolle im System, wenn nach 14 Tagen der Pausenstatus der Journey beendet wird
+* Einige verworfene Profile können im Journey-Schrittereignis, aber nicht im Bericht angezeigt werden. z. B.:
+   * Geschäftsereignisse für „Zielgruppe **&quot;**
+   * **Zielgruppe lesen** Aufträge werden aufgrund eines angehaltenen Journey verworfen
+   * Verworfene Ereignisse, wenn die **Ereignis**-Aktivität nach einer Aktion stattfand, bei der das Profil wartete
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
-## End to End-Beispiel {#journey-pause-sample}
+## End-to-End-Beispiel {#journey-pause-sample}
 
 Nehmen wir als Beispiel die folgende Journey:
 
-![Beispiel einer Journey](assets/pause-journey-sample.png)
+![Beispiel einer Journey](assets/pause-journey-sample.png){zoomable="yes"}
 
 Wenn Sie diese Journey anhalten, wählen Sie aus, ob **Profile (verworfen** oder **gehalten** und dann die Profilverwaltung wie folgt aussieht:
 
@@ -176,11 +179,11 @@ Wenn Sie diese Journey anhalten, wählen Sie aus, ob **Profile (verworfen** oder
 1. **Warten**-Aktivität: Profile warten weiterhin normal auf dem Knoten und werden ihn beenden, auch wenn die Journey angehalten wird.
 1. **Bedingung**: Profile durchlaufen weiterhin Bedingungen und wechseln je nach dem in der Bedingung definierten Ausdruck in den rechten Zweig.
 1. **Push**/**Email**-Aktivitäten: Während eines angehaltenen Journey beginnen Profile zu warten oder werden (basierend auf der Auswahl, die der Benutzer zum Zeitpunkt der Pause getroffen hat) auf dem nächsten Aktionsknoten verworfen. Profile warten also ab oder werden dort verworfen.
-1. **Ereignisse** nach Aktionsknoten: Wenn ein Profil auf einen Aktionsknoten wartet und danach ein Ereignis vorhanden ist, wird das Profil verworfen, wenn dieses Ereignis ausgelöst wird.
+1. **Ereignisse** nach **Action**-Knoten: Wenn ein Profil auf einem **Action**-Knoten wartet und danach eine **Event**-Aktivität vorhanden ist, wird das Profil verworfen, wenn dieses Ereignis ausgelöst wird.
 
-Entsprechend diesem Verhalten können Sie sehen, dass die Profilzahlen beim angehaltenen Journey zunehmen, hauptsächlich in Aktivitäten vor Aktionen. In diesem Beispiel wird zum Beispiel die Wartezeit ignoriert, was die Anzahl der Profile erhöht, die die Aktivität Bedingung durchlaufen.
+Entsprechend diesem Verhalten können Sie sehen, dass die Profilnummern bei pausiertem Journey zunehmen, hauptsächlich in Aktivitäten vor **Action**-Aktivitäten. In diesem Beispiel wird beispielsweise die Aktivität **Warten** ignoriert, was die Anzahl der Profile erhöht, die die Aktivität **Bedingung** durchlaufen.
 
 Wenn Sie diese Journey fortsetzen:
 
 1. Neue Journey-Eintritte beginnen innerhalb einer Minute
-1. Profile, die derzeit auf der Journey auf Aktionsaktivitäten warteten, werden mit einer Rate von 5.000 Punkten wieder aufgenommen. Sie treten dann in die Aktion ein, auf die sie gewartet haben, und setzen die Journey fort.
+1. Profile, die derzeit auf der Journey auf **Action**-Aktivitäten warteten, werden mit einer 5.000-Bit-Rate wieder aufgenommen. Sie können dann die **Aktion**, auf die sie gewartet haben, eingeben und die Journey fortsetzen.
