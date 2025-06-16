@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 77%
@@ -51,13 +51,11 @@ Dauer (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wi
 
 Typ: lang
 
->[!NOTE]
->
-> Das Feld `actionExecutionTime` gibt die Gesamtzeit (in Millisekunden) an, die für die Ausführung der Aktion benötigt wurde, einschließlich der Zeit, die die Anfrage in der Warteschlange verbracht hat (wenn die Drosselung konfiguriert ist und das Ratenlimit erreicht wurde), und der tatsächlichen Ausführungszeit (einschließlich Netzwerklatenz für den externen Endpunkt).
->
-> Das Feld `Timestamp` gibt die Endzeit der Aktionsausführung an. Um zu bestimmen, wann das Profil in den benutzerdefinierten Aktionsknoten eingetreten ist, ziehen Sie `actionExecutionTime` von `Timestamp` ab.
->
->Wenn `Timestamp` beispielsweise „2025-02-04 09:39:03 UTC“ lautet und `actionExecutionTime` 1.813.227 ms (~31 Minuten) beträgt, trat das Profil um etwa „2025-02-04 09.:08: UTC“ in den Knoten ein.
+Das Feld `actionExecutionTime` gibt die Gesamtzeit (in Millisekunden) an, die für die Ausführung der Aktion benötigt wurde, einschließlich der Zeit, die die Anfrage in der Warteschlange verbracht hat (wenn die Drosselung konfiguriert ist und das Ratenlimit erreicht wurde), und der tatsächlichen Ausführungszeit (einschließlich Netzwerklatenz für den externen Endpunkt).
+
+Das Feld `Timestamp` gibt die Endzeit der Aktionsausführung an. Um zu bestimmen, wann das Profil in den benutzerdefinierten Aktionsknoten eingetreten ist, ziehen Sie `actionExecutionTime` von `Timestamp` ab.
+
+Wenn `Timestamp` beispielsweise „2025-02-04 09:39:03 UTC“ lautet und `actionExecutionTime` 1.813.227 ms (~31 Minuten) beträgt, trat das Profil um etwa „2025-02-04 09.:08: UTC“ in den Knoten ein.
 
 
 
