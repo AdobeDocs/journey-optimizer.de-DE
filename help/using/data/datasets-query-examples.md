@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '843'
-ht-degree: 100%
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 Das Datumsformat lautet dabei: `YYYY-MM-DD HH:MM:SS`.
 
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+
+>[!NOTE]
+>
+>In einigen Journey ist die `messageID` möglicherweise nicht für jeden Versand eindeutig. Wenn eine Journey dieselbe Aktion erneut an dasselbe Profil sendet, kann dieselbe `messageID` wiederverwendet werden. Um Ereignisse auf individueller Sendungsebene genau zu verfolgen oder zuzuordnen, kombinieren Sie daher die Felder `journeyVersionID`, `journeyActionID` und `batchInstanceID` (für Batch-Journey) oder `identityMap`, um eine präzisere Eindeutigkeit zu erzielen.
+
 
 ## Erlebnisereignisdatensatz beim Push-Tracking {#push-tracking-experience-event-dataset}
 
