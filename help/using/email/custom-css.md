@@ -10,9 +10,9 @@ level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ Ihr benutzerdefiniertes CSS wird am Ende des `<head>` Abschnitts als Teil eines 
 
 Das benutzerdefinierte CSS wird vom Bereich „Einstellungen“ der E-Mail-**[!UICONTROL -Designer]** interpretiert oder überprüft. Sie ist völlig unabhängig und kann nur über die Option **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** geändert werden.
 
+Wenn für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist, wird das benutzerdefinierte CSS nicht angewendet. z. B.:
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### Importierter Inhalt
 
 Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in die E-Mail-Designer importiert wurden, sollten Sie Folgendes beachten:
@@ -216,7 +222,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Stellen Sie sicher, dass Ihr CSS gültig und frei von Syntaxfehlern (z. B. fehlende Klammern, falsche Eigenschaftsnamen) ist. [Weitere Informationen](#use-valid-css)
 
-* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"` hinzugefügt wird. [Weitere Informationen](#implementation)
+* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"`-Attribut hinzugefügt wird und dass `data-disabled` nicht auf `global-custom` angewendet wird. [Weitere Informationen](#implementation)
 
 * Stellen Sie sicher, dass Ihr CSS nicht durch andere CSS-Regeln überschrieben wird, einschließlich [Designs](apply-email-themes.md), die auf Ihren Inhalt angewendet werden.
 
@@ -229,16 +235,3 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
