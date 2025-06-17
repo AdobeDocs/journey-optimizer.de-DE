@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der 
 
 >[!CAUTION]
 >
->* [Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>* [Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten auch für Adobe Journey Optimizer.
 >
->* Siehe auch [Leitplanken für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Siehe auch [Leitplanken für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Unterstützte Browser {#browsers}

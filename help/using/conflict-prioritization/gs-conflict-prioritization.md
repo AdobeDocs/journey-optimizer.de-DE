@@ -7,7 +7,7 @@ exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 97%
 
 ---
 
@@ -21,50 +21,50 @@ Diese Tools sind für Kampagnen und für unitäre Journeys sowie Journeys vom Ty
 
 Mithilfe dieser Tools können Sie reibungslosere und zielgerichtetere Marketing-Maßnahmen gewährleisten und gleichzeitig die richtige Nachricht zur richtigen Zeit senden, wodurch Konflikte und Überlastungen vermieden werden.
 
-### Tool zur Konflikterkennung
+### Konflikt-Management-Tool
 
-Mit dem **Konflikterkennungs-Tool** können Sie potenzielle Überschneidungen in Journeys und Kampagnen identifizieren. Dies ist von entscheidender Bedeutung, da zu viele gleichzeitige Mitteilungen zu Kundenermüdung führen können. Mit Journey Optimizer können Sie Elemente wie Timelines, Zielgruppenüberschneidungen und Kanalkonfigurationen überwachen. Durch die frühzeitige Identifizierung von Konflikten können Sie Ihre Kampagnen verfeinern, um zu vermeiden, dass Kunden mit mehreren Nachrichten gleichzeitig bombardiert werden.
+Mit dem **Konflikterkennungs-Tool** können Sie potenzielle Überschneidungen in Journeys und Kampagnen identifizieren. Dies ist von entscheidender Bedeutung, da zu viele gleichzeitige Mitteilungen zu Kundenermüdung führen können. Mit Journey Optimizer können Sie Elemente wie Timelines, Zielgruppenüberschneidungen und Kanalkonfigurationen überwachen. Durch das frühzeitige Identifizieren von Konflikten können Sie Ihre Kampagnen verfeinern und verhindern, dass Kundinnen und Kunden mehrere Nachrichten gleichzeitig erhalten.
 
-➡️ [Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagnen erkennen](conflicts.md)
+➡️ [Informationen zum Erkennen potenzieller Konflikte in Journeys und Kampagnen](conflicts.md)
 
 ### Prioritätswerte
 
-**Prioritätswerte** helfen Ihnen zu steuern, welche Kampagnen oder Journey Vorrang haben, wenn ein Kunde für mehrere Kommunikationen qualifiziert ist. Dies ist insbesondere bei eingehenden Kanälen wie Web und Mobile nützlich, in denen immer nur eine Kampagne angezeigt werden kann. Indem Sie jeder Journey oder Kampagne einen Prioritätswert zuweisen, können Sie sicherstellen, dass die wichtigste Nachricht zuerst zugestellt wird.
+Mit den **Prioritätswerten** können Sie steuern, welche Kampagnen oder Journeys Vorrang haben, wenn sich eine Kundin oder ein Kunde für mehrere Mitteilungen qualifiziert. Dies ist insbesondere bei eingehenden Kanälen wie Web und Mobile nützlich, in denen immer nur eine Kampagne angezeigt werden kann. Durch Zuweisung eines Prioritätswertes zu jeder Journey oder Kampagne können Sie sicherstellen, dass die wichtigste Nachricht zuerst gesendet wird. 
 
-➡️ [Erfahren Sie, wie Sie Journey und Kampagnen Prioritätswerte zuweisen](priority-scores.md)
+➡️ [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](priority-scores.md)
 
 ### Regelsätze
 
-Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen gruppieren** und auf die gewünschten Journey und Kampagnen anwenden. Dies bietet eine verbesserte Granularität, um zu begrenzen, wie oft und wie viele Journey ein Kunde innerhalb eines bestimmten Zeitraums eingeben kann, oder zu steuern, wie oft Benutzer eine Nachricht je nach Kommunikationstyp erhalten.
+Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Journeys und Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, die begrenzt, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder die steuert, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 * **Journey-Begrenzung und -Steuerung**
 
-  Mit Regelsätzen können Sie einschränken, wie oft und wie viele Journey ein Kunde innerhalb eines bestimmten Zeitraums eingeben kann. Sie können auch Regeln einrichten, um die Anzahl der Journey-Einträge für ein Profil zu begrenzen oder die Anzahl der Journey zu begrenzen, in denen eine Kundin oder ein Kunde gleichzeitig angemeldet werden kann.
+  Mit Regelsätzen können Sie einschränken, wie oft und in wie viele Journeys eine Kundin bzw. ein Kunde innerhalb eines bestimmten Zeitrahmens eintreten kann. Sie können auch Regeln einrichten, um die Anzahl der Journey-Eintritte für ein Profil zu begrenzen oder die Anzahl der Journeys zu begrenzen, an denen eine Kundin bzw. ein Kunde gleichzeitig teilnehmen kann. 
 
-  Darüber hinaus können Sie mithilfe von Schlichtungseinstellungen entscheiden, welche Journey ein Kunde eingeben soll, wenn er für mehrere Journey qualifiziert ist. Dabei werden Prioritätswerte verwendet, um die beste Anpassung zu ermitteln.
+  Darüber hinaus können Sie mithilfe von Steuerungseinstellungen festlegen, in welche Journey eine Kundin bzw. ein Kunde eintreten soll, wenn sie bzw. er sich für mehrere Journeys qualifiziert, und mithilfe von Prioritätswerten die beste Wahl bestimmen. 
 
-  ➡️ [Erfahren Sie, wie Sie mit Journey-Begrenzung und Schlichtung arbeiten](journey-capping.md)
+  ➡️ [Informationen zum Arbeiten mit Journey-Begrenzungen und -Steuerung](journey-capping.md)
 
-* **Frequenzlimitierung nach Kanal und Kommunikationstyp**
+* **Frequenzbegrenzung nach Kanal und Kommunikationstyp**
 
-  Sie können auch Regelsätze verwenden, um die Frequenzlimitierung nach Kommunikationstyp festzulegen (z. B. Verkauf, Werbung), um zu verhindern, dass Kunden mit ähnlichen Nachrichten überlastet werden. Sie können die Frequenz über mehrere Kanäle hinweg steuern und automatisch Profile ausschließen, die zu oft angesprochen wurden, um ein besseres Kundenerlebnis sicherzustellen.
+  Sie können Regelsätze auch verwenden, um die Frequenzbegrenzung nach Kommunikationstyp (z. B. Vertrieb, Werbeaktionen) festzulegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. Sie können die Frequenz über mehrere Kanäle hinweg steuern und automatisch Profile ausschließen, die zu oft angesprochen wurden, um ein besseres Kundenerlebnis sicherzustellen.
 
-  ➡️ [Erfahren Sie, wie Sie die Frequenzlimitierung nach Kanal und Kommunikationstyp festlegen](../conflict-prioritization/channel-capping.md)
+  ➡️ [Erfahren Sie, wie Sie die Frequenzbegrenzung nach Kanal und Kommunikationstyp festlegen](../conflict-prioritization/channel-capping.md)
 
 ## Schutzmechanismen und Einschränkungen
 
-* **Kampagnen und Prioritätswerte** - In Kampagnen ist der Prioritätswert nur für die **Web**, **In-App** und **Code-basierten** eingehenden Kanäle verfügbar.
+* **Kampagnen und Prioritätswerte**: In Kampagnen ist der Prioritätswert nur für eingehende **Web-**, **In-App-** und **Code-basierte** Kanäle verfügbar.
 
 * **Aktualisierungslatenz des Profilzählers**
 
-  Es kann bis zu 20 Minuten dauern, nachdem ein Kunde eine Journey eingegeben hat, bis der Profilzählerwert aktualisiert wird.
+  Nachdem eine Kundin bzw. ein Kunde in eine Journey eingetreten ist, kann es bis zu 20 Minuten dauern, bis der Profilzählerwert aktualisiert wird.
 
-  Wenn ein Profil innerhalb eines kurzen Zeitfensters in zwei Journey eintritt, erkennt die zweite Journey möglicherweise nicht richtig, dass die Frequenzbegrenzung bereits erreicht wurde, sodass das Profil möglicherweise in beide Journey eintreten kann.
+  Wenn ein Profil innerhalb eines kurzen Zeitfensters in zwei Journeys eintritt, erkennt die zweite Journey möglicherweise nicht richtig, dass die Frequenzbegrenzung bereits erreicht wurde, sodass das Profil möglicherweise in beide Journeys eintreten kann.
 
-* **Namespace-Priorität für die Journey-Eintragsbegrenzung**
+* **Namespace-Priorität für die Begrenzung für Journey-Eintritte**
 
-  Die Begrenzung von Einträgen wird nur unterstützt, wenn der auf der Journey ausgewählte Namespace der Namespace mit der höchsten Priorität ist, der in der Sandbox definiert ist. Wenn die Namespace-Priorität nicht explizit konfiguriert wurde, ist die standardmäßige höchste Priorität E-Mail.
+  Die Begrenzung für Eintritte wird nur unterstützt, wenn der in der Journey ausgewählte Namespace der Namespace mit der höchsten Priorität ist, der in der Sandbox definiert ist. Wenn die Namespace-Priorität nicht explizit konfiguriert wurde, ist die standardmäßige höchste Priorität E-Mail.
 
-* **Simultane Aktivierungen in Journey zur Zielgruppenqualifizierung**
+* **Simultane Aktivierungen in Journeys zur Zielgruppenqualifizierung**
 
-  Wenn mehrere Zielgruppen-Qualifizierungs-Journeys durch dasselbe Zielgruppen-Qualifizierungsereignis aktiviert werden, sind die Zählungen für die Eintragsbegrenzung nicht korrekt. Wenn die Anzahl unter der Obergrenze liegt, schlichtet Journey weiterhin, aber es ist nicht in der Lage, die aktuellsten Zählungen mit gleichzeitigen Aktivierungen zu erhalten.
+  Wenn mehrere Journeys zur Zielgruppenqualifizierung durch dasselbe Ereignis zur Zielgruppenqualifizierung aktiviert werden, ist die Anzahl für die Eintrittsbegrenzung nicht korrekt. Wenn die Anzahl unter der Obergrenze liegt, steuert die Journey weiterhin, aber sie ist nicht in der Lage, die aktuellsten Zählungen mit gleichzeitigen Aktivierungen zu erhalten.

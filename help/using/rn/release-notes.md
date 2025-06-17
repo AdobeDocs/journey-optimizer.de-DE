@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **Veröffentlichungsdatum**: 17.-18. Juni 2025
 
-Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Neue Funktionen {#25-06-features}
 
@@ -151,7 +151,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mit dem Gewinner des Experiments skalieren können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Audience einführen. Dadurch wird sichergestellt, dass Sie die Reichweite und Effektivität einmal identifizierter Top-Performer ohne ständige manuelle Überwachung maximieren können.</p>
+<p>Mit der Funktion zum Skalieren des Gewinners von Experimenten können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Zielgruppe einführen. Dadurch wird sichergestellt, dass Sie die Reichweite und Effektivität einmal identifizierter Top-Performer ohne ständige manuelle Überwachung maximieren können.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/content-experiment.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 2. Juni 2025</p></td>
 </tr>
@@ -175,7 +175,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Erweitertes Reporting: Berichte zeigen jetzt an, durch welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen wurde, was für mehr Transparenz und verwertbare Erkenntnisse sorgt.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 3. Juni 2025</p>
+<p>Verfügbarkeitsdatum: 3. Juni 2025</p>
 </td>
 </tr>
 </tbody>
@@ -203,17 +203,17 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kampagnen** - Neue Registerkartennavigation für Aktionskampagnen. Dieses neue Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
 
-* **Decisioning** - Verfügbarkeitsdatum: 3. Juni 2025
+* **Entscheidungsfindung** – Verfügbarkeitsdatum: 3. Juni 2025
 
   Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** - Verfügbarkeitsdatum: 4. Juni 2025
+* **Unterstützung von Entscheidungselement-Attributen für Entscheidungsfindungs-Regeln** – Verfügbarkeitsdatum: 4. Juni 2025
 
-  Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
+  Sie können nun Entscheidungselement-Attribute nutzen, um Entscheidungsfindungs-Regeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
 
-* **Aktualisierung der Interactive Message Execution API** - Verfügbarkeitsdatum: 6. Juni 2025
+* **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
 
-  Mit der Interactive Message Execution API können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  Mit dem API für die Ausführung interaktiver Nachrichten können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## Versionshinweise Mai 2025 {#25-5-rn}
 
@@ -233,10 +233,10 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Eine Kalenderansicht ist nun in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visualisieren.</p>
-<p>Diese Änderung ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">dieses Formular</a>.</p>
+<p>Diese Änderung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie zum Anfordern des Zugriffs <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">dieses Formular</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Weitere Informationen finden Sie in den folgenden Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern Ihrer Journey</a>, <a href="../campaigns/modify-stop-campaign.md">Zugreifen auf Kampagnen</a>.</p>
-<p>Verfügbarkeitsdatum:Donnerstag, 28. Mai 2025</p>
+<p>Weitere Informationen finden Sie in diesen Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern von Journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Zugriff auf Kampagnen</a>.</p>
+<p>Verfügbarkeitsdatum: 28. Mai 2025</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +252,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Durch die Integration von Adobe Experience Manager und Adobe Journey Optimizer können Sie nun Adobe Experience Manager-Inhaltsfragmente mühelos in Ihren Journey Optimizer-Inhalten verwenden. Diese nahtlose Verbindung erleichtert den direkten Zugriff auf und die Verwendung von AEM-Inhalten in Journey Optimizer.</p>
-<p>Diese Funktion war bisher nur für eine begrenzte Anzahl von Organisationen verfügbar und bietet jetzt folgende Verbesserung: Sie können jetzt im Editor-Modus Platzhalter definieren und Personalisierungswerte in der Fragmentsignatur zuordnen.</p>
+<p>Diese Funktion, die zuvor nur für eine begrenzte Anzahl von Organisationen verfügbar war (LA), steht jetzt mit den folgenden Verbesserungen allgemein zur Verfügung (GA): Sie können jetzt im Editor-Modus Platzhalter definieren und Personalisierungswerte in der Fragmentsignatur zuordnen.</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
 <li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
@@ -341,7 +341,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum:Mittwoch, 20. Mai 2025</p>
+<p>Verfügbarkeitsdatum: 20. Mai 2025</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Mit Journey Optimizer können Sie nun zusätzliche SMS-Anbieter neben den Standardoptionen Sinch, Infobip und Twilio konfigurieren. Durch die Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um Compliance sicherzustellen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 <p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum:Mittwoch, 20. Mai 2025</p>
+<p>Verfügbarkeitsdatum: 20. Mai 2025</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 
-* **Neue Unterstützung von Kampagnenobjekten für Sandbox-Kopie** - Verfügbarkeitsdatum: 15. Mai 2025
+* **Unterstützung neuer Kampagnenobjekte für Sandbox-Kopien** – Verfügbarkeitsdatum: 15. Mai 2025
 
   Beim Kopieren von Kampagnen mithilfe der Paketexport- und Paketimportfunktionen über mehrere Sandboxes hinweg werden nun auch die folgenden Abhängigkeiten kopiert: Kanalkonfigurationen, Experimentvarianten und -einstellungen, Entscheidungsrichtlinien und -elemente. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,15 +428,15 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
   >
   >Diese Funktion wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
 
-* **Umleitung zur URL-Unterstützung im Web-Kanal** - Verfügbarkeitsdatum: 20. Mai 2025
+* **Unterstützung für „Zu URL umleiten“ im Web-Kanal** – Verfügbarkeitsdatum: 20. Mai 2025
 
   Mit dem Journey Optimizer-Web-Kanal können Sie nun Besuchende zu einer anderen bestehenden URL umleiten, anstatt im visuellen Editor eine neue Variante zu erstellen. Mit dieser Funktion können Experimente durchgeführt werden, bei denen zwei völlig verschiedene Seiten verglichen und nicht nur einige Elemente auf einer Seite geändert werden. [Weitere Informationen](../web/create-web.md#web-redirect-to-url)
 
-* **Ordner für Vorlagen und Fragmente** - Verfügbarkeitsdatum: 20. Mai 2025
+* **Ordner für Vorlagen und Fragmente** – Verfügbarkeitsdatum: 20. Mai 2025
 
   Mit Ordnern können Sie Ihre Objekte einfacher und effektiver in einer strukturierten Hierarchie organisieren. Ordner, die zuvor nur für eine Reihe von Organisationen verfügbar waren (LA), stehen nun allen Benutzenden zur Verwaltung ihrer Inhaltsvorlagen und Fragmente zur Verfügung (GA). Weitere Informationen finden Sie in den Abschnitten zu [Inhaltsvorlagen](../content-management/access-content-templates.md#folders) und [Fragmenten](../content-management/manage-fragments.md#folders).
 
-* **Klick-Tracking in E-**-Vorlagen - Verfügbarkeitsdatum: 20. Mai 2025
+* **Klick-Tracking in E-Mail-Vorlagen** – Verfügbarkeitsdatum: 20. Mai 2025
 
   Das Klick-Tracking für `<area>`-Elemente in Imagemaps im E-Mail-Inhalt wird jetzt nativ in [!DNL Journey Optimizer] unterstützt. Dadurch soll sichergestellt werden, dass Imagemap-Bereiche dasselbe Tracking-Wrapping sowie dieselben Tracking-Daten und angehängten Parameter wie Standard-Hyperlinks erhalten. [Weitere Informationen zum Tracking von Nachrichten](../email/message-tracking.md#manage-tracking)
 
@@ -445,7 +445,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Rechte Leiste in der Kampagnenliste** - Verfügbarkeitsdatum: 20. Mai 2025
+* **Rechte Leiste in der Kampagnenliste** – Verfügbarkeitsdatum: 20. Mai 2025
 
   Wenn Sie in der Kampagnenliste eine Kampagne auswählen, wird jetzt ein Bereich mit den zugehörigen Details geöffnet.
 

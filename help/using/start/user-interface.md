@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Erstellen Sie Kampagnen und Journeys in diesem Abschnitt.
 
 * **[!UICONTROL Journey]** - Erstellen, konfigurieren und orchestrieren Sie Ihre Kunden-Journeys: kombinieren Sie die Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Berichte]** - Die Journey Optimizer-Berichterstellung ist vollständig in die Customer Journey Analytics-Funktionen integriert, wodurch das Reporting auf beiden Plattformen standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert werden. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet eine klarere Übersicht über Leistungsmetriken, sodass Benutzerinnen und Benutzer fundiertere Entscheidungen treffen können. [Weitere Informationen](../reports/report-gs-cja.md)
+* **[!UICONTROL Berichte]** – Journey Optimizer Reporting ist vollständig mit Customer Journey Analytics-Funktionen integriert, wodurch das Reporting plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen. [Weitere Informationen](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL ENTSCHEIDUNGS-MANAGEMENT] {#left-nav-decision}
@@ -184,7 +184,7 @@ Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Ad
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts am Bildschirm angezeigt.
 
-Erfahren Sie auf dieser Seite , wie Sie auf [ KI-Assistenten zugreifen und ihn ](ai-assistant.md).
+[Auf dieser Seite](ai-assistant.md) erfahren Sie, wie Sie auf den KI-Assistenten zugreifen und ihn verwenden.
 
 ## Sprachvoreinstellungen {#language-pref}
 
@@ -217,7 +217,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 ## Weitere Informationen {#more}
 
-Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfahrener Benutzer, haben aber bestimmte Fragen? Sind Sie der Administrator Ihrer Unternehmensinstanz? [Nehmen Sie Ihren eigenen Weg, um schneller an Ihre Ziele zu kommen](quick-start.md)!
+Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfahrener Benutzer, haben aber bestimmte Fragen? Sind Sie der Administrator Ihrer Unternehmensinstanz? [Nehmen Sie Ihren eigenen Weg, um schneller an Ihr Ziel zu kommen.](quick-start.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -233,20 +233,20 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
 >title="Kampagnen-Orchestrierung"
->abstract="Relationale Datensätze aufteilen, kombinieren, anreichern und bearbeiten, um Ihre Audience zu definieren"
+>abstract="Definieren Sie Ihre Zielgruppe, indem Sie relationale Datensätze aufspalten, kombinieren, anreichern und bearbeiten."
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="Verwenden von Daten mit mehreren Entitäten"
->abstract="Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern"
+>title="Verwenden von Daten mehrerer Entitäten"
+>abstract="Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern."
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
->title="Ad-hoc-Segmentierung und genaue Zählungen"
+>title="Ad-hoc-Segmentierung und genaue Zahlen"
 >abstract="Erstellen Sie Ihr Segment Schritt für Schritt mit exakten Zahlen"
 
 
@@ -254,7 +254,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Verfügbare Kanäle"
->abstract="E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
+>abstract="E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -262,7 +262,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="Geführte Benutzeroberfläche zum Erstellen und Senden einer Kampagne"
->abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie einen Inhalt fest, definieren Sie einen Zeitplan und Sie sind bereit zum Senden"
+>abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie einen Inhalt fest, definieren Sie einen Zeitplan und Sie sind bereit zum Senden."
 
 
 >[!CONTEXTUALHELP]

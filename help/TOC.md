@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 95%
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Simulieren der Journey](using/building-journeys/journey-simulation.md)
-      + [Journey Probelauf](using/building-journeys/journey-dry-run.md)
+      + [Journey-Probelauf](using/building-journeys/journey-dry-run.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publishing-the-journey.md)
       + [Live-Bericht in Ihrer Journey](using/building-journeys/report-journey.md)
-      + [Journey anhalten](using/building-journeys/journey-pause.md)
+      + [Pausieren einer Journey](using/building-journeys/journey-pause.md)
    + Verwalten von Journeys{#manage-journey}
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
       + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
-      + [Fehlerbehebung bei eingehenden Aktionen in Journey](using/building-journeys/troubleshooting-inbound.md)
+      + [Fehlerbehebung bei eingehenden Aktionen in Journeys](using/building-journeys/troubleshooting-inbound.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Aktivitäten {#about-journey-building}
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
@@ -180,8 +180,8 @@ ht-degree: 95%
    + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Konfigurationsschritte](using/orchestrated/configuration-steps.md)
    + [Zugreifen auf und Verwalten von orchestrierten Kampagnen](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + Starten der ersten orchestrierten Kampagne{#launch}
-      + [Wichtige Schritte zur orchestrierten Kampagnenerstellung](using/orchestrated/gs-campaign-creation.md)
+   + Starten Ihrer ersten orchestrierten Kampagne{#launch}
+      + [Wichtige Schritte für die Erstellung von orchestrierten Kampagnen](using/orchestrated/gs-campaign-creation.md)
       + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
       + [Senden von Nachrichten mit orchestrierten Kampagnen](using/orchestrated/send-messages.md)
@@ -189,9 +189,9 @@ ht-degree: 95%
       + [Reporting](using/orchestrated/reporting-campaigns.md)
    + Abfragen der Datenbank {#query-database}
       + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
-      + [Erstellen Sie Ihre erste Regel](using/orchestrated/build-query.md)
-      + [Ausdrücke bearbeiten](using/orchestrated/edit-expressions.md)
-   + Orchestrierte Kampagnenaktivitäten {#design-campaigns}
+      + [Erstellen Ihrer ersten Regel](using/orchestrated/build-query.md)
+      + [Bearbeiten von Ausdrücken](using/orchestrated/edit-expressions.md)
+   + Aktivitäten für orchestrierte Kampagnen {#design-campaigns}
       + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
       + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
       + [Zielgruppe erstellen](using/orchestrated/activities/build-audience.md)
@@ -214,11 +214,11 @@ ht-degree: 95%
 + Konflikt-Management und Priorisierung {#conflict-prioritization}
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
-   + [Prioritätswerte zuweisen](using/conflict-prioritization/priority-scores.md)
-Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
+   + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
+Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Arbeiten mit Regelsätzen](using/conflict-prioritization/rule-sets.md)
       + [Journey-Begrenzung und -Steuerung](using/conflict-prioritization/journey-capping.md)
-      + [Frequenzlimitierung nach Kanal und Kommunikationstyp](using/conflict-prioritization/channel-capping.md)
+      + [Frequenzbegrenzung nach Kanal und Kommunikationstyp](using/conflict-prioritization/channel-capping.md)
 + Testen und Genehmigen {#test}
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
@@ -537,7 +537,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
                + [Aktualisieren von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/update.md)
             + Eignungsregeln{#eligibility-rules}
                + [Erstellen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Löschen von Entscheidungsregeln](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [Löschen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
@@ -738,7 +738,7 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Geschäftsregeln](using/configuration/frequency-rules.md)
 + Journey-Konfiguration {#configure-journeys}
-   + [Erste Schritte mit der Konfiguration von Journeys](using/configuration/about-data-sources-events-actions.md)
+   + [Erste Schritte bei der Journey-Konfiguration](using/configuration/about-data-sources-events-actions.md)
    + Ereigniskonfiguration {#events-journeys}
       + [Arbeiten mit Journey-Ereignissen](using/event/about-events.md)
       + [Konfigurieren eines unitären Ereignisses](using/event/about-creating.md)
@@ -764,15 +764,15 @@ Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
       + [Capping-API](using/configuration/capping.md)
       + [Drosselungs-API](using/configuration/throttling.md)
    + Senden mit Adobe-Lösungen {#adobe-solutions}
-      + [Campaign Standard-Aktion in Journey](using/action/acs-action.md)
-      + [Campaign v7/v8-Aktion in Journey](using/action/acc-action.md)
-      + [Marketo Engage-Aktion in Journey](using/action/marketo-engage.md)
+      + [Campaign Standard-Aktion in Journeys](using/action/acs-action.md)
+      + [Campaign v7/v8-Aktion in Journeys](using/action/acc-action.md)
+      + [Marketo Engage-Aktion in Journeys](using/action/marketo-engage.md)
    + Sandbox-Verwaltung {#sandbox}
       + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
-+ Zugangssteuerung {#access-control}
-   + [Erste Schritte mit der Zugriffskontrolle](using/administration/permissions-overview.md)
++ Zugriffssteuerung {#access-control}
+   + [Erste Schritte mit der Zugriffssteuerung](using/administration/permissions-overview.md)
    + [Verwalten von Benutzenden und Rollen](using/administration/permissions.md)
    + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
    + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
