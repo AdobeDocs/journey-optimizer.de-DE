@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die Version Mai ist jetzt live. Entdecken Sie neue Funktionen, Änderungen und V
 
 >[!TAB Konflikte und Priorisierung]
 
-Journey Optimizer bietet jetzt mehrere Tools für das Konfliktmanagement und die Priorisierung. Diese Tools sind für Ihre Kampagnen und Zielgruppen-Qualifizierung, „Zielgruppe lesen“ und „Unitäre Journey&quot; verfügbar.
+Journey Optimizer bietet nun mehrere Tools zum Konflikt-Management und zur Priorisierung. Diese Tools sind für Ihre Kampagnen und für Journeys vom Typ „Zielgruppenqualifizierung“ und „Zielgruppe lesen“ sowie unitäre Journeys verfügbar.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
@@ -43,7 +43,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM-Inhaltsfragment]
 
