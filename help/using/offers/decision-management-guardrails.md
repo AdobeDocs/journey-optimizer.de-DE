@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +24,9 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Decisioning-API-Anfragen pro Sekunde | 500 |
-| Edge Decisioning-API-Anfragen pro Sekunde mit Edge-Segmentierung | 1.500 |
-| Edge Decisioning-API-Anfragen pro Sekunde ohne Edge-Segmentierung | 5.000 |
+| Decisioning-API-Anfragen pro Sekunde | 500 pro Organisation |
+| Edge Decisioning-API-Anfragen pro Sekunde mit Edge-Segmentierung | 1.500 pro Organisation |
+| Edge Decisioning-API-Anfragen pro Sekunde ohne Edge-Segmentierung | 5.000 pro Organisation |
 | Pro Antwort zurückgegebene Angebote | Bis zu 30 pro Entscheidungsumfang oder insgesamt 100 |
 | Maximale Anzahl der pro Anfrage beteiligten Angebotsregeln | 100 |
 
