@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2143'
 ht-degree: 71%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 71%
 
 **Veröffentlichungsdatum**: 17.-18. Juni 2025
 
-Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 ### Neue Funktionen {#25-06-features}
 
@@ -69,7 +69,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen. Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
+<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen.<br />Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.</p>
-<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Code-basierte Erlebnisse**
 
-  Entscheidungsrichtlinien sind jetzt in Code-basierten Erlebnis-Inhaltsvorlagen und in der rechten Leiste des Code-Editors verfügbar.
+   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar.
 
-* **E-Mail-Designer**
+   * Auf dem Code-basierten Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen.
 
-   * **Unterstützung von benutzerdefiniertem CSS** - Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen.
-   * **Unterstützung des Dunkelmodus** - Der Journey Optimizer E-Mail-Designer bietet jetzt die Möglichkeit, in den Dunkelmodus zu wechseln, in dem Sie bestimmte Einstellungen definieren können.
+* **Benutzerdefinierte CSS-Unterstützung in der E-Mail-Designer**
 
-* **Kampagnen** - Neue Registerkartennavigation für Aktionskampagnen. Dieses neue Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
+  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen.
+
+* **Neue Registerkartennavigation für Kampagnen**
+
+  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
 
 * **Entscheidungsfindung** – Verfügbarkeitsdatum: 3. Juni 2025
 

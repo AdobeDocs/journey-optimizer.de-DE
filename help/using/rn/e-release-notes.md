@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 33%
+source-wordcount: '1022'
+ht-degree: 40%
 
 ---
 
@@ -83,7 +83,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen. Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
+<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen.<br />Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.</p>
-<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -184,7 +183,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Mit dem Gewinner des Experiments skalieren können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Audience einführen. Dadurch wird sichergestellt, dass Sie die Reichweite und Effektivität einmal identifizierter Top-Performer ohne ständige manuelle Überwachung maximieren können.</p>
+<p>Mit der Funktion zum Skalieren des Gewinners von Experimenten können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Zielgruppe einführen. Dadurch wird sichergestellt, dass Sie die Reichweite und Effektivität einmal identifizierter Top-Performer ohne ständige manuelle Überwachung maximieren können.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/content-experiment.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 2. Juni 2025</p></td>
 </tr>
@@ -208,7 +207,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Erweitertes Reporting: Berichte zeigen jetzt an, durch welche spezifische Regel ein Profil von einer Journey oder Kampagne ausgeschlossen wurde, was für mehr Transparenz und verwertbare Erkenntnisse sorgt.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 3. Juni 2025</p>
+<p>Verfügbarkeitsdatum: 3. Juni 2025</p>
 </td>
 </tr>
 </tbody>
@@ -227,22 +226,26 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Code-basierte Erlebnisse**
 
-  Entscheidungsrichtlinien sind jetzt in Code-basierten Erlebnis-Inhaltsvorlagen und in der rechten Leiste des Code-Editors verfügbar.
+   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar.
 
-* **E-Mail-Designer**
+   * Auf dem Code-basierten Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen.
 
-   * **Unterstützung von benutzerdefiniertem CSS** - Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen.
-   * **Unterstützung des Dunkelmodus** - Der Journey Optimizer E-Mail-Designer bietet jetzt die Möglichkeit, in den Dunkelmodus zu wechseln, in dem Sie bestimmte Einstellungen definieren können.
+* **Benutzerdefinierte CSS-Unterstützung in der E-Mail-Designer**
 
+  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen.
 
-* **Decisioning** - Verfügbarkeitsdatum: 3. Juni 2025
+* **Neue Registerkartennavigation für Kampagnen**
+
+  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
+
+* **Entscheidungsfindung** – Verfügbarkeitsdatum: 3. Juni 2025
 
   Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, wodurch Test- und Bereitstellungs-Workflows optimiert werden. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** - Verfügbarkeitsdatum: 4. Juni 2025
+* **Unterstützung von Entscheidungselement-Attributen für Entscheidungsfindungs-Regeln** – Verfügbarkeitsdatum: 4. Juni 2025
 
-  Sie können jetzt Entscheidungselement-Attribute nutzen, um Entscheidungsregeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
+  Sie können nun Entscheidungselement-Attribute nutzen, um Entscheidungsfindungs-Regeln zu erstellen. [Weitere Informationen](../experience-decisioning/rules.md#create)
 
-* **Aktualisierung der Interactive Message Execution API** - Verfügbarkeitsdatum: 6. Juni 2025
+* **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
 
-  Mit der Interactive Message Execution API können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  Mit dem API für die Ausführung interaktiver Nachrichten können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
