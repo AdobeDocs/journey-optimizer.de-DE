@@ -67,7 +67,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Zielgruppen den Segmentierungs-Service [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} von Adobe Experience Platform verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den Segmentierungs-Service [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} von Adobe Experience Platform verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]

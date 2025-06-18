@@ -29,7 +29,7 @@ Wenn die bereits vorhandenen Rollen nicht den spezifischen Anforderungen Ihrer O
 
 >[!IMPORTANT]
 >
->Die im Folgenden beschriebenen Schritte und Verfahren können nur von einem (Produkt **[!UICONTROL oder]** System ]**Administrator durchgeführt**[!UICONTROL .
+>Die im Folgenden beschriebenen Schritte und Verfahren können nur von einem (Produkt **[!UICONTROL oder]** System **Administrator durchgeführt**.
 
 
 ## Zuweisen einer Rolle {#assigning-role}

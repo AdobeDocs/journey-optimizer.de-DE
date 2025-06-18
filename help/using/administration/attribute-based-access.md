@@ -38,7 +38,7 @@ Beachten Sie **[!UICONTROL dass]** Zugriff auf **[!UICONTROL Rollen]** und **[!U
 
 >[!IMPORTANT]
 >
->>Bevor Sie Berechtigungen für eine Rolle verwalten, erstellen Sie eine Richtlinie. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
+>&#x200B;>Bevor Sie Berechtigungen für eine Rolle verwalten, erstellen Sie eine Richtlinie. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
 
 **[!UICONTROL Rollen]** sind eine Gruppe von Benutzern, die innerhalb Ihrer Organisation dieselben Berechtigungen, Titel und Sandboxes verwenden. Jeder Benutzer, der einer **[!UICONTROL Rolle]** angehört, hat Anspruch auf die Adobe-Programme und -Services, die im Produkt enthalten sind. Sie können auch eigene &quot;**[!UICONTROL &quot; erstellen]** um den Zugriff von Benutzern auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche präziser festzulegen.
 
