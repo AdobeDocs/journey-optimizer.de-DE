@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Gehen Sie wie folgt vor, um benutzerdefinierten CSS-Code zu Ihrem E-Mail-Inhalt 
    >
    >Der Abschnitt **[!UICONTROL CSS]** Stile“ ist nur verfügbar, wenn der Inhalt bereits im Editor vorhanden ist.
 
+1. Klicken Sie auf **[!UICONTROL Schaltfläche Benutzerdefiniertes CSS]**.
+
 1. Geben Sie Ihren CSS-Code in den entsprechenden Textbereich ein, der angezeigt wird. Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. [Weitere Informationen](#use-valid-css)
 
    ![Geben Sie benutzerdefiniertes CSS in den entsprechenden Textbereich ein](assets/email-body-custom-css.png){width="65%"}
@@ -45,6 +47,8 @@ Gehen Sie wie folgt vor, um benutzerdefinierten CSS-Code zu Ihrem E-Mail-Inhalt 
    >[!NOTE]
    >
    >Die Schaltfläche **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** ist nur verfügbar, wenn **[!UICONTROL Body]** ausgewählt ist. Sie können jedoch benutzerdefinierte CSS-Stile auf alle Komponenten in Ihrem Inhalt anwenden.
+   >
+   >Bei Verwendung einer [Vorlage mit gesperrtem Inhalt](../content-management/content-locking.md#use) können Sie keine benutzerdefinierte CSS zu Ihrem Inhalt hinzufügen. Die Schaltflächenbeschriftung ändert sich in **[!UICONTROL Benutzerdefiniertes CSS anzeigen]** und jedes bereits im Inhalt vorhandene benutzerdefinierte CSS ist schreibgeschützt.
 
 1. Speichern Sie das benutzerdefinierte CSS und überprüfen Sie, ob das benutzerdefinierte CSS korrekt auf Ihren Inhalt angewendet wird. Ist dies nicht der Fall, lesen Sie den Abschnitt [Fehlerbehebung](#troubleshooting).
 
