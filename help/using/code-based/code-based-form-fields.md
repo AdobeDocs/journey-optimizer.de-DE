@@ -245,5 +245,5 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Code-basierten Inhaltsvorlagen von Erlebniskanälen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464000/?learn=on&#x26;enablevpops&captions=ger)
 
