@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 95%
 
 ---
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragme
 
    | Aktion | Parameter | Beispiel |
    | ------- | ------- | ------- |
-   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Wenn Sie das Fragment zu Ihrem Inhalt hinzufügen, wird dieser Standardwert verwendet, sofern Sie keine Anpassung vornehmen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Beim Hinzufügen des Fragments zu Ihrem Inhalt wird dieser Standardwert verwendet, wenn Sie ihn nicht anpassen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Definieren eines **Titels** für das bearbeitbare Feld. Dieser Titel wird beim Bearbeiten von Fragmentfeldern im E-Mail-Designer angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **Bildquelle**, die veröffentlicht werden soll. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **URL**, die nachverfolgt werden soll.<br/>Beachten Sie, dass vordefinierte Bausteine vom Typ „Mirror-Seiten-URL“ und „Abmelde-Link“ nicht als bearbeitbare Felder festgelegt werden können. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -126,7 +126,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Deklarieren Sie eine „sport“-Variable mit der ID „sport“.
 
-   Wenn Benutzende den Wert der Variablen nicht ändern, nachdem sie das Fragment zu ihren Inhalten hinzugefügt haben, wird standardmäßig der zwischen den Tags `{{#inline}}` und `{{/inline}}` definierte Wert angezeigt, also „Sport“.
+   Wenn Benutzende den Wert der Variablen nach dem Hinzufügen des Fragments in ihrem Inhalt nicht ändern, wird standardmäßig der zwischen den Tags `{{#inline}}` und `{{/inline}}` definierte Wert angezeigt, d. h. „sports“.
 
 1. Fügen Sie die Syntax ``{{{sport}}}`` in dem Fragmentinhalt dort hinzu, wo der Variablenwert angezeigt werden soll, d. h. standardmäßig „Sport“ oder der benutzerseitig gewählte Wert.
 

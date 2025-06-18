@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 71%
+source-wordcount: '2050'
+ht-degree: 74%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 71%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 
-## Frühzeitige Versionshinweise Juni 2025 {#25-6-rn}
+## Versionshinweise Juni 2025 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
+**Veröffentlichungsdatum**: Donnerstag, 18. Juni 2025
 
-**Veröffentlichungsdatum**: 17.-18. Juni 2025
-
-Siehe auch [Adobe Experience Platform-Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 
@@ -70,26 +70,29 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen.<br />Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>Weitere Informationen finden Sie in der <a href="../code-based/code-based-form-fields.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierte Methode zur Zuweisung von Subdomains</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt personalisierte Angebote über eine dedizierte Aktivität zur Inhaltsentscheidung in Ihre Journey auf der Journey-Arbeitsfläche einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Journey Dry Run ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendern ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwender Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie es live veröffentlichen.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-dry-run.md">ausführlichen Dokumentation</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Jetzt können Sie anhalten und Ihre Journey fortsetzen. Diese Funktion bietet Anwendern von Journey mehr Kontrolle und Flexibilität, da Live-Journey vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu beeinträchtigen. Wenn angehalten, werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.</p>
 <p>Sie können nur eine Journey anhalten und fortsetzen oder Massenpausierungs- und Wiederaufnahmevorgänge für eine Gruppe von Journeys durchführen.</p>
 <p>Darüber hinaus können Sie globale Filter auf pausierte Journey anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-pause.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
-* **Kanalregelsätze**
+<!--* **Channel rule sets**
 
-   * **Benutzerdefiniertes Zeitfenster** für die Begrenzung - Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Wiederholungsanzahl** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer über mehrere Tage, Wochen oder Monate anwenden können.
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **Stündliche Dauer** - Sie können jetzt für Kanalregelsätze eine Begrenzung auf stündlicher Basis anwenden.
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **Code-basierte Erlebnisse**
 
-   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar.
+   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar, wo sie zur Nutzung von Angeboten in bearbeitbaren Formularfeldern verwendet werden kann. [Weitere Informationen](../code-based/code-based-form-fields.md)
 
-   * Auf dem Code-basierten Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen.
+   * Auf dem Code-basierten Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](../code-based/create-code-based.md#edit-code)
 
 * **Benutzerdefinierte CSS-Unterstützung in der E-Mail-Designer**
 
-  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen.
+  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen. [Weitere Informationen](../email/custom-css.md)
 
 * **Neue Registerkartennavigation für Kampagnen**
 
-  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
+  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen. [Weitere Informationen](../campaigns/create-campaign.md)
 
 * **Entscheidungsfindung** – Verfügbarkeitsdatum: 3. Juni 2025
 

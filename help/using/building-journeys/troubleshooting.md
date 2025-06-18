@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
-workflow-type: ht
-source-wordcount: '1057'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 93%
 
 ---
 
@@ -64,7 +64,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} nutzen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} Adobe Experience Platform aufrufen.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -74,7 +74,7 @@ Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. 
 
 Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
-Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
+Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt auf der Journey sehen, bedeutet dies, dass zwischen dem Ereignisversand und dem Ereignisempfang auf der Journey etwas schief läuft.
 
 Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
 
@@ -101,7 +101,7 @@ Prüfen Sie folgende Punkte:
 
 ## Überprüfen, ob Nachrichten erfolgreich gesendet werden {#checking-that-messages-are-sent-successfully}
 
-Wenn Personen zwar der Journey folgen, aber nicht die vorgesehen Nachrichten erhalten, können Sie Folgendes prüfen:
+Wenn Personen zwar den richtigen Weg zum Journey gehen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes überprüfen:
 
 * [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der letzten Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten eingegangenen API-Aufrufe/-Ereignisse prüfen.
 * [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. Überprüfen Sie die Journey-Berichte, um sicherzustellen, dass keine Fehler aufgetreten sind.

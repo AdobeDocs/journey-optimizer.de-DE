@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ In diesem Abschnitt erfahren Sie, wie Sie die Skalierung – mit den folgenden b
 
 Es gibt eine Reihe bewährter Methoden, die Sie anwenden können, um innerhalb der Grenzwerte zu bleiben und das System effizient zu nutzen.
 
-* Wenn Sie sich Ihrem Grenzwert für Live-Journeys nähern, sollten Sie als Erstes die Registerkarte **Übersicht** unter **Journey** öffnen, um zu sehen, wie viele Journeys in den letzten 24 Stunden aktiv waren (Journeys mit aktiven Profilen). Dazu können Sie in diesem Abschnitt die Anzahl der Profile überprüfen, die die Journey starten und beenden.
+* Wenn Sie sich Ihrem Limit an Live-Journey nähern, können Sie als Erstes die Registerkarte **Übersicht** unter **Journey** aufrufen, um zu sehen, wie viele Journey in den letzten 24 Stunden aktiv waren und über aktive Journey verfügten. Dazu können Sie in diesem Abschnitt die Anzahl der Profile überprüfen, die die Journey starten und beenden.
 
   ![](assets/journey-guardrails2.png)
 

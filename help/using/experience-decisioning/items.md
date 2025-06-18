@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1753'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Element für die gesamte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzenden. Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
-   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit einem „Platin-Kreditkartenangebot“ sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
 1. Geben Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** an, wie oft das Angebot allen Benutzenden oder pro Profil präsentiert werden kann, je nach gewählter Begrenzungsart. Der Wert muss eine Ganzzahl größer 0 sein.
 

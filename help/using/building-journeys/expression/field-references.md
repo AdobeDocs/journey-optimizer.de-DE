@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Ein Feldverweis kann an ein Ereignis oder eine Feldgruppe angehängt werden. Die einzigen aussagekräftigen Informationen sind der Name des Feldes und sein Pfad.
 
-Wenn Sie in einem Feld Sonderzeichen verwenden, müssen Sie doppelte oder einfache Anführungszeichen nutzen. In den folgenden Fällen sind Anführungszeichen erforderlich:
+Wenn Sie Sonderzeichen in einem Feld verwenden, müssen Sie doppelte oder einfache Anführungszeichen verwenden. In den folgenden Fällen sind Anführungszeichen erforderlich:
 
 * das Feld beginnt mit numerischen Zeichen;
 * das Feld beginnt mit dem Zeichen „-“;

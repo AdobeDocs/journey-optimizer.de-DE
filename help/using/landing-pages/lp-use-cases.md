@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 93%
 
 ---
 
@@ -98,7 +98,7 @@ Damit Ihre Empfängerinnen und Empfänger das Abonnement stornieren können, kö
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
-Es ist gesetzlich vorgeschrieben, eine Möglichkeit zur Kündigung des Abos einzurichten, damit Empfängerinnen und Empfänger keine Mitteilungen mehr von einer Marke erhalten. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
+Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
 
 Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
 
@@ -163,7 +163,7 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 
 >[!NOTE]
 >
->Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform-Profilzusammenführungsrichtlinie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}**** **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den Datensatz des **[!UICONTROL AJO-Einverständis-Service]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
+>Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}**[!UICONTROL Profiles]**-Zusammenführungsrichtlinie **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den **[!UICONTROL AJO Consent Service-Datensatz]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 

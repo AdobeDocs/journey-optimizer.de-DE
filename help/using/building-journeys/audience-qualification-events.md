@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 50%
+source-wordcount: '1203'
+ht-degree: 51%
 
 ---
 
@@ -153,7 +153,7 @@ Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die
 
 >[!CAUTION]
 >
->[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>[Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
 
 
 
@@ -161,4 +161,4 @@ Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

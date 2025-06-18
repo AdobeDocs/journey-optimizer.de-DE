@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um dynamische Subdomains in einer E-Mail-Kanalkonfigura
 
    >[!NOTE]
    >
-   >Bestimmte Subdomains sind aufgrund einer ausstehenden [Feedback-Schleifen](../reports/deliverability.md#feedback-loops)-Registrierung derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Bestimmte Subdomains sind aufgrund einer ausstehenden [Feedback-Schleifen](../reports/deliverability.md#feedback-loops)-Registrierung derzeit nicht zur Auswahl verfügbar. Dieser Vorgang kann bis zu 10 Werktage dauern. Nach Abschluss können Sie aus allen verfügbaren Subdomains auswählen. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

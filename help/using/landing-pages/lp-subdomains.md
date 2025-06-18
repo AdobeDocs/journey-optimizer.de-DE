@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 86%
 
 ---
 
@@ -63,6 +63,10 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 1. Geben Sie das Präfix ein, das in Ihrer Landingpage-URL angezeigt werden soll.
 
    Nur alphanumerische Zeichen und Bindestriche sind zulässig.
+
+   >[!CAUTION]
+   >
+   >Verwenden Sie keine `cdn` oder `data` Präfixe, da diese für die interne Verwendung reserviert sind. Andere eingeschränkte oder reservierte Präfixe wie `dmarc` oder `spf` sollten ebenfalls vermieden werden.
 
 1. Wählen Sie aus der Liste eine delegierte Subdomain aus.
 
@@ -135,36 +139,16 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
-Wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
+Wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten, führen Sie die folgenden Schritte aus.
 
-Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
+1. Heben Sie [!DNL Journey Optimizer] die Veröffentlichung aller mit der Subdomain verknüpften Landingpages auf. [Weitere Informationen](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
+1. Wenn die Landingpage-Subdomain auf einen CNAME-Eintrag verweist, können Sie den CNAME-DNS-Eintrag, den Sie für die Landingpage-Subdomain erstellt haben, aus Ihrer Hosting-Lösung löschen (aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 
-Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
+   >[!NOTE]
+   >
+   >Eine Landingpage-Subdomain kann auf einen CNAME-Eintrag verweisen, da es sich entweder um eine [vorhandene Subdomain](#lp-use-existing-subdomain) handelte, die mithilfe der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde, oder um eine [neue Landingpage-Subdomain](#lp-configure-new-subdomain), die Sie konfiguriert haben.
 
-1. Heben Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages auf. [Weitere Informationen](create-lp.md#access-landing-pages)
-
-1. Deaktivieren Sie alle Kanalkonfigurationen, die mit der Subdomain verknüpft sind. [Weitere Informationen](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
+1. Wenden Sie sich mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
 
 Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
-
->[!CAUTION]
->
->Nachdem die Delegierung einer Subdomain aufgehoben wurde:
->
->   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
->
->   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.

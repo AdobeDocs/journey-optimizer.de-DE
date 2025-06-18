@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 94%
 
 ---
 
@@ -152,35 +152,15 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
-Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
-
-Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
-
->[!NOTE]
->
->Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
-
-Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
-
-1. Deaktivieren Sie alle Kanalkonfigurationen, die mit der Subdomain verknüpft sind. [Weitere Informationen](../configuration/channel-surfaces.md#deactivate-a-surface)
+Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
 
 <!--
-1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
 
-1. Stoppen Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
-1. Stoppen Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-1. Wenn es sich bei der Web-Subdomain um eine [neue delegierte Subdomain](#web-configure-new-subdomain) handelte, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
-
-Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
+Wenn die Web-Subdomain eine [neue delegierte Subdomain](#web-configure-new-subdomain) war, können Sie den CNAME-DNS-Eintrag, den Sie für die Web-Subdomain erstellt haben, aus Ihrer Hosting-Lösung löschen (aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 
 Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
-
->[!CAUTION]
->
->Nachdem die Delegierung einer Subdomain aufgehoben wurde:
->
->   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
->
->   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.

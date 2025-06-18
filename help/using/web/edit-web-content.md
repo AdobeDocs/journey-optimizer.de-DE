@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 95%
+source-wordcount: '1069'
+ht-degree: 92%
 
 ---
 
@@ -184,4 +184,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

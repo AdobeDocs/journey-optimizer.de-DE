@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Or
 
 * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-* Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
+* Verwenden Sie die **integrierten Aktionen** um in [!DNL Journey Optimizer] entworfene Nachrichten zu senden oder **benutzerdefinierte Aktionen** zu erstellen, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
 * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
@@ -56,4 +56,4 @@ In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys 
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

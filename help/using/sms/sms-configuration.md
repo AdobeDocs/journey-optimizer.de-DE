@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 93%
+source-wordcount: '371'
+ht-degree: 81%
 
 ---
 
-# Erste Schritte bei der SMS-Konfiguration {#sms-configuration}
+# Erste Schritte mit der SMS-/MMS-/RCS-Konfiguration {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,7 +37,7 @@ ht-degree: 93%
 >title="Wählen Sie die Konfiguration des SMS-Anbieters aus."
 >abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldedaten aus."
 
-Bevor Sie eine SMS oder MMS versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Um dies durchzuführen:
+Vor dem Versand von SMS, MMS oder RCS müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
 1. Integrieren Sie die Provider-Einstellungen in Journey Optimizer.
 Die Schritte hängen von Ihrem SMS-Anbieter ab. Über die unten stehenden Links können Sie auf die detaillierte Dokumentation zugreifen:
@@ -51,7 +51,7 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 ## Voraussetzungen{#sms-prerequisites}
 
-Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten und MMS sind: **Sinch**, **Twilio** und **Infobip**.
+Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten und MMS sind: **Sinch**, **Twilio** und **Infobip**. Beachten Sie, dass Sie zusätzliche Messaging-Anbieter mit der [benutzerdefinierten Anbieterkonfiguration“ ](sms-configuration-custom.md) können.
 
 Vor der Konfiguration des SMS-Kanals müssen Sie bei einem dieser Anbieter ein Konto erstellen, um das **API-Token** und die **Service-ID** zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden Anbieter herstellen können.
 

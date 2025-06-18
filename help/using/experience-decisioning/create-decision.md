@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 98%
+source-wordcount: '1796'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 98%
 >id="ajo_code_based_decision"
 >title="Was ist eine Entscheidung?"
 >abstract="Entscheidungsrichtlinien enthalten die gesamte Auswahllogik, mit der die Entscheidungs-Engine den besten Inhalt auswählt. Entscheidungsrichtlinen sind kampagnenspezifisch. Ihr Ziel ist es, die besten Angebote für jedes Profil auszuwählen, während Sie bei der Kampagnenerstellung angeben können, wie die ausgewählten Entscheidungselemente dargestellt werden sollen, einschließlich der in die Nachricht aufzunehmenden Elemente."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Entscheidungsfindung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Entscheidungsrichtlinie definieren"
+>abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und sie für die richtige Zielgruppe bereitstellen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Entscheidungsfindung"
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
@@ -62,6 +68,10 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer App das beste
 1. Wählen Sie im [Code-Editor](../code-based/create-code-based.md#edit-code) die Option **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
    ![](assets/decision-code-based-create.png)
+
+   Auf dem Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie auch direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Decisioning]** anzuzeigen.
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. Erstellen Sie standardmäßig eine neue Richtlinie.
 

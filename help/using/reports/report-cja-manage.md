@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1353'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -147,7 +147,7 @@ Sie können benutzerdefiniert berechnete Metriken direkt in Ihren Berichten erst
 
 1. Sie können die Komponenten bei Bedarf neu anordnen.
 
-1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]**, um die neue Metrik abzuschließen.
+1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]**, um Ihre neue Metrik abzuschließen.
 
 1. Ihre neue Metrik wird neben den ursprünglichen Metriken in Ihrem Bericht angezeigt.
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
-> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
+>> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 89%
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 1. Erstellen Sie die Entscheidungsregel nach Ihren Bedürfnissen mit dem Adobe Experience Platform Segment Builder. Dazu können Sie verschiedene Datenquellen nutzen, z. B.:
    * Profil- und Entscheidungselementattribute,
    * Audiences,
-   * Kontextdaten aus Adobe Experience Platform. [Erfahren Sie, wie Sie Kontextdaten nutzen](#context-data).
+   * Kontextdaten aus Adobe Experience Platform. [Erfahren Sie, wie Sie Kontextdaten nutzen](context-data.md).
 
    ![](assets/decision-rules-build.png)
 

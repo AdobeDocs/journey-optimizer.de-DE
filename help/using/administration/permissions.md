@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 51%
@@ -29,7 +29,7 @@ Wenn die bereits vorhandenen Rollen nicht den spezifischen Anforderungen Ihrer O
 
 >[!IMPORTANT]
 >
->Die im Folgenden beschriebenen Schritte und Verfahren können nur von einem (Produkt **[!UICONTROL oder]** System **Administrator durchgeführt**.
+>Die im Folgenden beschriebenen Schritte und Verfahren können nur von einem (Produkt **[!UICONTROL oder]** System ]**Administrator durchgeführt**[!UICONTROL .
 
 
 ## Zuweisen einer Rolle {#assigning-role}
@@ -60,7 +60,7 @@ Weitere Informationen zur Benutzerverwaltung finden Sie in der [Dokumentation zu
 
 Beim Zugriff auf die Instanz wird Ihren Benutzenden je nach den in der Rolle **[!UICONTROL Berechtigungen eine bestimmte Ansicht]**. Wenn der/die Benutzende nicht den richtigen Zugriff auf eine Funktion hat, wird die folgende Meldung angezeigt:
 
-`You don't have permission to access this feature. Permission needed: XX.`
+`You do not have permission to access this feature. Permission needed: XX.`
 
 ## Bearbeiten einer vorhandenen Rolle {#edit-product-profile}
 

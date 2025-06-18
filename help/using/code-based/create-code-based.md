@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 87%
+source-wordcount: '785'
+ht-degree: 77%
 
 ---
 
@@ -99,9 +99,15 @@ Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Se
 >abstract="Fügen Sie den Code ein, den Sie als Teil dieser Code-basierten Erlebnisaktion bereitstellen möchten, und bearbeiten Sie ihn."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Arbeiten mit dem Personalisierungseditor"
 
+Gehen Sie wie folgt vor, um den Inhalt Ihres Code-basierten Erlebnisses zu bearbeiten.
+
 1. Wählen Sie in der Aktivität „Journey“ oder im Bildschirm „Kampagnenbearbeitung“ die Option **[!UICONTROL Code bearbeiten]** aus.
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie eine Code-basierte Erlebnis-Inhaltsvorlage mit vordefinierten bearbeitbaren Formularfeldern verwenden, können Sie den Inhalt dieser Felder verwalten, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](code-based-form-fields.md)
 
 1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
 
@@ -119,9 +125,17 @@ Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Se
 
    Sie können auch einen Teil Ihres Code-Inhalts als Fragment speichern. [Weitere Informationen](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Sie können die Entscheidungsfunktion in Code-basierten Erlebnissen verwenden.  Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md)
+1. Sie können die Entscheidungsfunktion in Code-basierten Erlebnissen verwenden.  Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   Auf dem Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie auch direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Decisioning]** anzuzeigen.
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   Die detaillierten Schritte zum Erstellen einer Entscheidungsrichtlinie werden in ([ Abschnitt) ](../experience-decisioning/create-decision.md#add-decision).
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
@@ -131,4 +145,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

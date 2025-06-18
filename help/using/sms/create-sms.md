@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1042'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 88%
 
 ---
 
-# Erstellen einer Textnachricht (SMS/MMS) {#create-sms}
+# Erstellen einer SMS-/MMS-/RCS-Nachricht {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer Textnachricht"
->abstract="Um eine Textnachricht (SMS/MMS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Personalisierungseditor zu personalisieren."
+>abstract="Um eine Textnachricht (SMS/MMS/RCS) zu erstellen, fügen Sie eine SMS-Aktion in einer Journey oder Kampagne hinzu und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
 
-Mit Adobe Journey Optimizer können Sie Text- (SMS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
+Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich-Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und senden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Mit Adobe Journey Optimizer können Sie Text- (SMS) und Multimedia-Nachrichten (
 
 ## Hinzufügen einer Textnachricht {#create-sms-journey-campaign}
 
-Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine Textnachricht (SMS/MMS) in einer Kampagne oder Journey hinzufügen können.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Textnachricht (SMS/MMS/RCS) in eine Kampagne oder eine Journey einfügen können.
 
 >[!BEGINTABS]
 
@@ -90,18 +90,20 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 
 >[!ENDTABS]
 
-## Definieren Ihres SMS-Inhalts{#sms-content}
+## Definieren von SMS-/RCS-Inhalten{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definieren Ihres SMS-Inhalts"
->abstract="Passen Sie Ihre Textnachrichten (SMS/MMS) mithilfe des Personalisierungseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
+>abstract="Passen Sie Ihre Textnachrichten (SMS/MMS/RCS) an und personalisieren Sie sie, indem Sie den Inhalt mit dem Personalisierungseditor definieren und dynamische Elemente integrieren."
 
-Gehen Sie wie folgt vor, um Ihren SMS-Inhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
+Gehen Sie wie folgt vor, um den Nachrichteninhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Textnachricht zu konfigurieren.
 
 1. Klicken Sie auf das Feld **[!UICONTROL Nachricht]**, um den Personalisierungseditor zu öffnen.
+
+   Fügen Sie für RCS-Messaging mit Infobip, Twilio oder anderen Drittanbietern die erforderliche JSON-Payload in Ihre benutzerdefinierte [-Konfiguration ein](sms-configuration-custom.md#api-credential).
 
    ![](assets/sms-content.png)
 

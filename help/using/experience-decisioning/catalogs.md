@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Um eine optimale Leistung und Konsistenz sicherzustellen, werden bei der Entsche
 
   Es werden maximal vier Verschachtelungsebenen unterstützt. Bilder werden auf der letzten Ebene nicht unterstützt.
 
-## Abrufen und Bearbeiten des Katalogschemas
+## Abrufen und Bearbeiten des Katalogschemas {#access-catalog-schema}
 
 Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in dem die Attribute der Entscheidungselemente gespeichert werden:
 

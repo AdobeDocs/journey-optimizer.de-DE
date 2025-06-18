@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 43%
@@ -38,7 +38,7 @@ Beachten Sie **[!UICONTROL dass]** Zugriff auf **[!UICONTROL Rollen]** und **[!U
 
 >[!IMPORTANT]
 >
->&#x200B;>Bevor Sie Berechtigungen für eine Rolle verwalten, erstellen Sie eine Richtlinie. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
+>>Bevor Sie Berechtigungen für eine Rolle verwalten, erstellen Sie eine Richtlinie. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
 
 **[!UICONTROL Rollen]** sind eine Gruppe von Benutzern, die innerhalb Ihrer Organisation dieselben Berechtigungen, Titel und Sandboxes verwenden. Jeder Benutzer, der einer **[!UICONTROL Rolle]** angehört, hat Anspruch auf die Adobe-Programme und -Services, die im Produkt enthalten sind. Sie können auch eigene &quot;**[!UICONTROL &quot; erstellen]** um den Zugriff von Benutzern auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche präziser festzulegen.
 
@@ -155,7 +155,7 @@ Nachdem der Feldname **Staatsangehörigkeit** in einem neuen Schema und einer ne
 Wenn Benutzer Y ohne Zugriff auf Objekte mit dem Titel „C2“ auf diese Journey mit dem eingeschränkten Feld zugreifen muss:
 
 * Benutzer Y kann den eingeschränkten Feldnamen nicht verwenden, da er nicht sichtbar ist.
-* Benutzer Y kann den Ausdruck mit dem eingeschränkten Feldnamen im erweiterten Modus nicht bearbeiten. Der folgende Fehler wird angezeigt: `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* Benutzer Y kann den Ausdruck mit dem eingeschränkten Feldnamen im erweiterten Modus nicht bearbeiten. Der folgende Fehler wird angezeigt: `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
 * Benutzer Y kann den Ausdruck löschen.
 * Benutzer Y kann die Journey nicht testen.
 * Benutzer Y kann die Journey nicht veröffentlichen.

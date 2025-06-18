@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ Die Verwendung von Modellen für die automatische Optimierung beim Entscheidungs
 
 Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
-* **Mehrarmiger Bandit**: Der Ansatz [Mehrarmiger Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target="_blank"} für die Optimierung bringt entdeckendes Lernen und die Nutzung des Erlernten miteinander in Einklang.
+* **Mehrarmiger Bandit**: Eine [Mehrarmiger Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target="_blank"}-Vorgehensweise für die Optimierung entspricht einem Balanceakt zwischen forschendem Lernen und der Verwertung des Gelernten.
 
 * **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Performance zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Performance verbessern können. [Weitere Informationen](#thompson-sampling)
 
@@ -39,7 +39,7 @@ Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
 Der Algorithmus, der der automatischen Optimierung zugrunde liegt, ist das **Thompson-Stichprobenverfahren**. In diesem Abschnitt besprechen wir die Idee hinter dem Thompson-Stichprobenverfahren.
 
-Beim [Thompson-Stichprobenverfahren](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, oder „Bayes&#39;sche Banditen“, handelt es sich um einen Bayes&#39;schen Ansatz für das Problem des mehrarmigen Banditen.  Die Grundidee besteht darin, die durchschnittliche Belohnung von jedem Angebot als **Zufallsvariable** zu behandeln und die bisher gesammelten Daten zu verwenden, um unsere „Überzeugung“ hinsichtlich der durchschnittlichen Belohnung zu aktualisieren. Diese „Überzeugung“ wird mathematisch durch eine **A-posteriori-Wahrscheinlichkeitsverteilung** dargestellt – im Prinzip ein Bereich von Werten für die durchschnittliche Belohnung gemeinsam mit der Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
+[Thompson-Stichprobenverfahren](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"} oder Bayes&#39;sche Banditen, ist ein Bayes&#39;scher Ansatz für das Problem des mehrarmigen Banditen.  Die Grundidee besteht darin, die durchschnittliche Belohnung 𝛍 jedes Angebots als &quot;**Variable“** behandeln und die bisher gesammelten Daten zu verwenden, um unsere „Überzeugung“ über die durchschnittliche Belohnung zu aktualisieren. Diese „Überzeugung“ wird mathematisch durch eine **A-posteriori-Wahrscheinlichkeitsverteilung** dargestellt – im Prinzip ein Bereich von Werten für die durchschnittliche Belohnung gemeinsam mit der Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
 
 Dieser Vorgang wird in der folgenden Abbildung veranschaulicht, in der wir drei verschiedene Angebote haben. Anfänglich haben wir keine Erkenntnisse aus den Daten und nehmen an, dass alle Angebote eine einheitliche A-posteriori-Belohnungsverteilung haben. Wir ziehen eine Stichprobe aus der A-posteriori-Belohnungsverteilung eines jeden Angebots. Die aus der Verteilung von Angebot 2 ausgewählte Stichprobe hat den höchsten Wert. Dies ist ein Beispiel für eine **Exploration**. Nach der Anzeige von Angebot 2 erfassen wir jede potenzielle Belohnung (z. B. Konversion/Keine Konversion) und aktualisieren die A-posteriori-Verteilung von Angebot 2 mithilfe des Satzes von Bayes, wie unten beschrieben.  Wir setzen diesen Prozess fort und aktualisieren die A-posteriori-Verteilungen jedes Mal, wenn ein Angebot angezeigt und die Belohnung erfasst wird. In der zweiten Abbildung wird Angebot 3 ausgewählt. Obwohl Angebot 1 die höchste durchschnittliche Belohnung hat (die A-posteriori-Belohnungsverteilung ist am weitesten rechts), hat der Prozess der Stichprobenziehung aus jeder Verteilung dazu geführt, dass wir das scheinbar suboptimale Angebot 3 ausgewählt haben. Damit geben wir uns die Möglichkeit, mehr über die wahre Belohnungsverteilung von Angebot 3 zu erfahren.
 
@@ -59,7 +59,7 @@ Wenn ein Angebot (z. B. Angebot 1) ein eindeutiger Gewinner ist, wird seine A-po
 
 +++**Technische Details**
 
-Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(??i | data)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert **??i** auf der Basis der bisher für dieses Angebot gesammelten Daten ist.
+Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | Daten)***, d. h. für jedes Angebot ***i*** wie wahrscheinlich ein Belohnungswert **𝛍i** angesichts der Daten ist, die wir bisher für dieses Angebot gesammelt haben.
 
 Nach dem Satz von Bayes:
 
@@ -85,12 +85,12 @@ Für die automatische Optimierung beginnen wir, wie im Beispiel oben gezeigt, mi
 **Verwandte Themen**:
 
 Um einen tieferen Einblick in das Thompson-Stichprobenverfahren zu erhalten, lesen Sie die folgenden Forschungsarbeiten:
-* [Eine empirische Auswertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Analyse des Thompson-Stichprobenverfahrens für das Mehrarmiger-Bandit-Problem](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Eine empirische Bewertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Analyse des Thompson-Stichprobenverfahrens für das Multi-Armed-Bandit-Problem](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## „Kaltstart“-Problem {#cold-start}
 
-Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne hinzugefügt wird und keine Daten zur Konversionsrate des neuen Angebots verfügbar sind. Während dieses Zeitraums müssen wir eine Strategie dafür entwickeln, wie oft dieses neue Angebot ausgewählt wird, damit der Performance-Abfall minimiert wird, während wir Informationen über die Konversionsrate dieses neuen Angebots sammeln. Es gibt mehrere Lösungen, um dieses Problem zu beheben. Wichtig dabei ist, ein Gleichgewicht zu finden, sodass die Exploration dieses neuen Angebots nicht zu stark auf Kosten der Exploitation geht. Derzeit verwenden wir als anfängliche Schätzung der Konversionsrate des neuen Angebots (A-priori-Verteilung) eine „einheitliche Verteilung“. Das bedeutet, dass wir allen Konversionsratenwerten die gleiche Wahrscheinlichkeit zuweisen aufzutreten.
+Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne hinzugefügt wird und keine Daten zur Konversionsrate des neuen Angebots verfügbar sind. Während dieses Zeitraums müssen wir eine Strategie dafür entwickeln, wie oft dieses neue Angebot ausgewählt wird, damit der Performance-Abfall minimiert wird, während wir Informationen über die Konversionsrate dieses neuen Angebots sammeln. Es gibt mehrere Lösungen, um dieses Problem zu beheben. Entscheidend ist, ein Gleichgewicht zwischen der Erkundung dieses neuen Angebots zu finden, ohne dabei die Nutzung zu opfern. Derzeit verwenden wir als anfängliche Schätzung der Konversionsrate des neuen Angebots (A-priori-Verteilung) eine „einheitliche Verteilung“. Das bedeutet, dass wir allen Konversionsratenwerten die gleiche Wahrscheinlichkeit zuweisen aufzutreten.
 
 
 ![](../assets/ai-ranking-cold-start-strategies.png)

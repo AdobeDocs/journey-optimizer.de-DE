@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 98%
@@ -69,7 +69,7 @@ Um die Zielpopulation der geplanten Marketing-Kampagne zu definieren, gehen Sie 
 
    Pro Kampagne ist nur ein Identitätstyp zulässig. Kontakte, die zu einem Segment gehören, das den ausgewählten Identitätstyp nicht unter seinen verschiedenen Identitäten hat, können nicht in die Kampagne einbezogen werden.
 
-   ![](assets/create-campaign-namespace.png)
+   ![](assets/create-campaign-namespace.png){width="80%"}
 
    Weitere Informationen zu Identitätstypen und Namespaces finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
 

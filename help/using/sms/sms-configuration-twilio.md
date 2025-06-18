@@ -7,20 +7,22 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 50%
 
 ---
 
 # Konfigurieren eines Twilio-Anbieters {#sms-configuration-twilio}
 
+## Konfigurieren der API-Anmeldeinformationen für SMS/MMS
+
 Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldedaten für Twilio erstellen:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** `>` **[!UICONTROL SMS-Einstellungen]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten, wie unten beschrieben.
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten wie unten beschrieben:
 
    * **[!UICONTROL SMS-Anbieter]**: Twilio.
 
@@ -28,7 +30,7 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
 
    * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Rufen Sie den Bereich mit den **Kontoinformationen** Ihrer Twilio Console-Dashboard-Seite auf. Dort finden Sie Ihre Anmeldedaten.
 
-   * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in der [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. Weitere Informationen finden Sie in [Twilio-Dokumentation](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl hinzu. Auf diese Weise können Sie dieselben API-Anmeldeinformationen für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl verfügt.
 
@@ -39,3 +41,30 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
 1. Um vorhandene Anmeldedaten zu ändern, suchen Sie die gewünschten API-Anmeldedaten und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
+
+## Konfigurieren der API-Anmeldedaten für RCS
+
+RCS-Messaging wird in Adobe Journey Optimizer über Twilio mithilfe der Funktion [Benutzerdefinierter SMS-Provider](sms-configuration-custom.md) unterstützt. Dies ermöglicht den Versand von umfangreichen, interaktiven Nachrichten über verifizierte Geschäftsprofile, die Elemente wie Karussells, Schaltflächen und Multimedia-Inhalte enthalten.
+
+Um RCS-Messaging mit Twilio zu aktivieren, müssen neue API-Anmeldedaten über einen benutzerdefinierten SMS-Provider konfiguriert werden. Vorhandene Twilio SMS-Anmeldedaten sind nicht kompatibel, da RCS ein eigenes Payload-Format erfordert.
+
+1. **Registrieren Sie sich für RCS Messaging in Twilio**
+
+   Beginnen Sie mit dem Abschluss des RCS-Registrierungsprozesses in der Twilio-Plattform. Dazu gehört die Einrichtung Ihres Geschäftsprofils und die Aktivierung der RCS-Funktionen für Ihr Konto.
+
+1. **Erstellen eines SMS-Webhooks**
+
+   [Konfigurieren eines SMS-Webhooks](sms-configuration-custom.md#webhook) der eingehende RCS-Nachrichtenantworten oder Versandaktualisierungen empfangen kann. Dieser Webhook muss ordnungsgemäß mit Ihrem Twilio-Setup für bidirektionale Kommunikation verknüpft sein.
+
+1. **Erstellen von API-Anmeldeinformationen mit „Benutzerdefiniert“ als SMS-Anbieter**
+
+   Journey Optimizer Definieren Sie in [neue API-Anmeldeinformationen](sms-configuration-custom.md#api-credential) speziell für RCS mit „Benutzerdefiniert“ als SMS-Anbieter. Verwenden Sie die entsprechende RCS-Endpunktauthentifizierungsmethode, Basis-URL und Header.
+
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanalkonfiguration für Ihre RCS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
+
+
+
+
+
+
+

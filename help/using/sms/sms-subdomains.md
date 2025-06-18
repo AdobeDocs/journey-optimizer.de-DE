@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 87%
 
 ---
 
@@ -61,6 +61,10 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 1. Geben Sie das Präfix ein, das in Ihrer SMS-URL angezeigt werden soll.
 
    Nur alphanumerische Zeichen und Bindestriche sind zulässig.
+
+   >[!CAUTION]
+   >
+   >Verwenden Sie keine `cdn` oder `data` Präfixe, da diese für die interne Verwendung reserviert sind. Andere eingeschränkte oder reservierte Präfixe wie `dmarc` oder `spf` sollten ebenfalls vermieden werden.
 
 1. Wählen Sie aus der Liste eine delegierte Subdomain aus.
 
@@ -131,34 +135,17 @@ Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wi
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
-Wenn Sie die Delegierung einer SMS-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support.
+Wenn Sie die Delegierung einer SMS-Subdomain aufheben möchten, wenden Sie sich mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
 
-Bevor Sie Adobe kontaktieren, müssen Sie jedoch verschiedene Schritte in der Benutzeroberfläche ausführen.
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+Wenn die SMS-Subdomain auf einen CNAME-Eintrag verweist, können Sie den CNAME-DNS-Eintrag, den Sie für die SMS-Subdomain erstellt haben, aus Ihrer Hosting-Lösung löschen (aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 
 >[!NOTE]
 >
->Eine Delegierung kann nur für Subdomains mit dem Status **[!UICONTROL Erfolg]** aufgehoben werden. Subdomains mit dem Status **[!UICONTROL Entwurf]** und **[!UICONTROL Fehlgeschlagen]** können einfach aus der Benutzeroberfläche gelöscht werden.
-
-Führen Sie zunächst die folgenden Schritte in [!DNL Journey Optimizer] aus:
-
-1. Deaktivieren Sie alle Kanalkonfigurationen, die mit der Subdomain verknüpft sind. [Weitere Informationen](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. Stoppen Sie die aktiven Kampagnen, die mit den Subdomains verknüpft sind. [Weitere Informationen](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stoppen Sie die aktiven Journey, die mit den Subdomains verknüpft sind. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
-
-1. Wenn es sich bei der SMS-Subdomain um eine [neue delegierte Subdomain](#sms-configure-new-subdomain) handelte, entfernen Sie die mit dieser Subdomain verknüpften DNS-Einträge.
-
-Wenden Sie sich anschließend an den Adobe-Support mit der Subdomain, für die die Delegierung aufgehoben werden soll.
+>Eine SMS-Subdomain kann auf einen CNAME-Eintrag verweisen, da es sich entweder um eine [vorhandene Subdomain](#sms-use-existing-subdomain) handelte, die mithilfe der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde, oder um eine [neue SMS-Subdomain](#sms-configure-new-subdomain), die Sie konfiguriert haben.
 
 Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
-
->[!CAUTION]
->
->Nachdem die Delegierung einer Subdomain aufgehoben wurde:
->
->   * können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
->   * kann diese bestimmte Subdomain kann nicht erneut über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.

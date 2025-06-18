@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## Erste Schritte mit Data Governance-Richtlinien {#gs}
 
-Mit dem Governance-Framework [Data Usage Labelling and Enforcement (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} ermöglicht Ihnen Adobe Experience Platform die Verwaltung und Durchsetzung kanalübergreifender Data-Governance-Richtlinien, indem Sie **Ihre Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
+Mit dem [ Governance-Framework Data Labeling and Enforcement (DULE) ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} Sie mit Adobe Experience Platform kanalübergreifend Data-Governance-Richtlinien verwalten und durchsetzen, indem Sie **Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
 
-Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#governance-policies)
+Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#policy)
 
 Nachdem Sie die Governance-Richtlinien erstellt haben, können Sie die Marketing-Aktionen auf Ihre Journeys/Kampagnen und benutzerdefinierten Journey-Aktionen anwenden.
 [Informationen zur Anwendung von Marketing-Aktionen in Journey Optimizer](#apply-marketing-actions)
@@ -44,7 +44,7 @@ Der erste Schritt zur Durchsetzung von Data Governance-Richtlinien besteht darin
 
 1. Legen Sie einen Namen und einen Anzeigenamen für das Label fest. Beispiel: _ePHI1_.
 
-1. Klicken Sie im linken Menü unter **Daten-Management** auf **Schemata** und dann auf die Schaltfläche **Anwenden von Zugriffs- und Data Governance-Beschriftungen**. Wählen Sie Ihr Schema und Ihr Feld (z. B. „Blutgruppe“) aus sowie das zuvor erstellte Label, in unserem Beispiel _ePHI1_.
+1. Klicken Sie im linken Menü unter **Daten-Management** auf **Schemata** und dann auf die Schaltfläche **Anwenden von Zugriffs- und Data-Governance-Labels**. Wählen Sie Ihr Schema und Ihr Feld (z. B. „Blutgruppe“) aus sowie das zuvor erstellte Label, in unserem Beispiel _ePHI1_.
 
    ![](assets/action-privacy3.png)
 
@@ -134,4 +134,4 @@ Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. K
 
 Dieses Dialogfeld weist darauf hin, dass die aktuelle Journey-/Kampagnenkonfiguration gegen eine bestehende Data Governance-Richtlinie verstößt. Verwenden Sie das Datenherkunftsdiagramm, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können.
 
-Detaillierte Informationen finden Sie in der [Dokumentation zu Verstößen gegen Datennutzungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Detaillierte Informationen finden Sie in der [Dokumentation zu Datennutzungsrichtlinienverletzungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

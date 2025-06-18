@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 97%
@@ -73,7 +73,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ## Definieren von Kriterien mithilfe des Formel-Builders {#ranking-select-criteria}
 
-Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-Bewertungen (Tendenz), Angebotswert (Priorität), kontextuellen Hebeln und externen Profiltendenzen die Entscheidungsfindung einzeln oder in Kombination verfeinern, um jede Interaktion zu optimieren. <!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
+Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-Bewertungen (Tendenz), Angebotswert (Priorität), kontextuellen Hebeln und externen Profiltendenzen die Entscheidungsfindung einzeln oder in Kombination verfeinern, um jede Interaktion zu optimieren. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
 Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu definieren.
 

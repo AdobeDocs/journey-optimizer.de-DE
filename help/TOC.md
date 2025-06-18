@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [Lesen der Zielgruppe](using/building-journeys/read-audience.md)
       + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
+      + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Sprung](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
          + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
-   + SMS-/MMS-Kanal{#sms}
+   + SMS-/MMS-/RCS-Kanal{#sms}
       + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
-      + [Erstellen einer Textnachricht (SMS/MMS)](using/sms/create-sms.md)
+      + [SMS-/MMS-/RCS-Nachricht erstellen](using/sms/create-sms.md)
       + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
       + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
-      + Konfigurieren des SMS-/MMS-Kanals{#configure-sms}
-         + [Erste Schritte bei der SMS-Konfiguration](using/sms/sms-configuration.md)
+      + SMS-/MMS-/RCS-Kanal konfigurieren{#configure-sms}
+         + [Erste Schritte mit der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
          + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
          + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
          + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
-         + [Erstellen einer SMS-Konfiguration](using/sms/sms-configuration-surface.md)
+         + [Erstellen einer SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
    + Briefpost {#direct-mail}
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Erstellen einer Konfiguration von Code-basierten Erlebnissen](using/code-based/code-based-configuration.md)
       + Erstellen von Code-basierten Erlebnissen {#create-code-based-experiences}
          + [Aufbauen und Entwerfen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
+         + [Verwenden bearbeitbarer Felder in Code-basierten Erlebnissen](using/code-based/code-based-form-fields.md)
          + [Testen von Code-basierten Erlebnissen](using/code-based/test-code-based.md)
          + [Verwalten von Code-basierten Erlebnissen](using/code-based/publish-code-based.md)
    + Inhaltskarten{#content-card}

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 97%
+source-wordcount: '1677'
+ht-degree: 92%
 
 ---
 
@@ -69,7 +69,7 @@ Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Lä
 
    >[!CAUTION]
    >
-   >Aus Sicherheitsgründen wird die Verwendung von HTTPS dringend empfohlen. Beachten Sie auch, dass wir die Verwendung von nicht öffentlich zugänglichen Adobe-Adressen und die Verwendung von IP-Adressen nicht zulassen.
+   >Aus Sicherheitsgründen wird die Verwendung von HTTPS dringend empfohlen. Beachten Sie außerdem, dass wir die Verwendung von nicht öffentlich verfügbaren Adobe-Adressen und die Verwendung von IP-Adressen nicht zulassen.
 
    ![](assets/journey27.png)
 

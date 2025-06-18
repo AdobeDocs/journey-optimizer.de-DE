@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -340,12 +340,3 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung über verschiedene Platzierungen in Berichten hinweg verfolgen."
 
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="ajo_journey_decision_policy"
->title="Auswählen einer Entscheidungsrichtlinie"
->abstract="Mit einer Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und für die richtige Zielgruppe bereitgestellt werden."

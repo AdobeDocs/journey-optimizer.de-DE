@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Hier gilt:
 
 * Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
-* In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie dreifache geschweifte Klammern („Triple-Stash“).
+* In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn ein Wert nicht mit einem Escape-Zeichen versehen werden soll, verwenden Sie den „Triple-Stash“.
 
 * Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
 

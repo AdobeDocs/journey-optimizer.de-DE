@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1542'
 ht-degree: 98%
 
 ---
@@ -67,12 +67,14 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} von Adobe Experience Platform verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den Segmentierungs-Service [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} von Adobe Experience Platform verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden.  Weitere Informationen finden Sie auf [dieser Seite](expression/expressionadvanced.md).
+
+
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 

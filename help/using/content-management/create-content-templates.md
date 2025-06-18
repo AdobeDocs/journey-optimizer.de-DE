@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
@@ -70,6 +70,12 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    * [Definieren von SMS-Inhalten](../sms/create-sms.md#sms-content)
    * [Definieren von Briefpost-Inhalten](../direct-mail/create-direct-mail.md)
    * [Definieren von In-App-Inhalten](../in-app/design-in-app.md)
+   * [Web-Inhalte definieren](../web/create-web.md#edit-web-content)
+   * [Definieren von Code-basierten Erlebnisinhalten](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >Sie können Entscheidungsrichtlinien zu Code-basierten Erlebnis-Inhaltsvorlagen hinzufügen. [Weitere Informationen](../experience-decisioning/create-decision.md#add-decision)
 
 1. Sie können Ihren Inhalt testen. [Weitere Informationen](#test-template)
 
