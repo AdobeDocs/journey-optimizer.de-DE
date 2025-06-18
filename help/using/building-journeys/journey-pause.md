@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Wenn ein Journey angehalten wird, hängt die Profilverwaltung und Aktivitätsaus
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Reaktion jedoch nach einer <strong>Action</strong>-Aktivität erfolgt und der Benutzer bei dieser Aktion angehalten wird, wird das Reaktionsereignis verworfen. |
 | [Warten](wait-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
 | [Bedingung](condition-activity.md) | Gleiches Verhalten wie bei einer Live-Journey |
-| Inhaltsentscheidung | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
+| [Inhaltsentscheidung](content-decision.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
 | [Kanalaktion](journeys-message.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
 | [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Anhalten des Journey geparkt oder verworfen |
 | [Profil aktualisieren](update-profiles.md) und [springen](jump.md) | Gleiches Verhalten wie bei einer Live-Journey |
