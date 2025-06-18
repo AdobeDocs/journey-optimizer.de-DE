@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
-source-wordcount: '1960'
-ht-degree: 100%
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+workflow-type: tm+mt
+source-wordcount: '1956'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
+>Sie können bis zu 10 aktive lokale Regelsätze für die Kanaldomäne und für die Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -312,4 +312,4 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

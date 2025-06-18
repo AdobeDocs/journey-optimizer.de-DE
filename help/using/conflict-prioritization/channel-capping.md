@@ -8,14 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 79%
 
 ---
 
-# Frequenzlimitierung nach Kanal und Kommunikationstyp {#rule-sets}
+# Frequenzbegrenzung nach Kanal und Kommunikationstyp {#rule-sets}
 
 **Kanal** Regelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 
@@ -32,7 +33,7 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
+>Sie können bis zu 10 aktive lokale Regelsätze für die Kanaldomäne und für die Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

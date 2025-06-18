@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 63%
+source-wordcount: '944'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 63%
 
 ### Was sind Regelsätze? {#what}
 
-Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen gruppieren** und auf die gewünschten Journey und Kampagnen anwenden. Dies bietet eine verbesserte Granularität, um zu begrenzen, wie oft und wie viele Journey ein Kunde innerhalb eines bestimmten Zeitraums eingeben kann, oder zu steuern, wie oft Benutzer eine Nachricht je nach Kommunikationstyp erhalten.
+Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Journeys und Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, die begrenzt, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder die steuert, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Sie können zwei Arten von Regelsätzen erstellen:
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 3 lokale Regelsätze der Kanal-Domain und bis zu 5 lokale Regelsätze der Journey-Domain erstellen.
+>Sie können bis zu 10 aktive lokale Regelsätze für die Kanaldomäne und für die Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -109,7 +109,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
    Detaillierte Informationen zum Konfigurieren von Journey- und Kanalbegrenzungsregeln finden Sie in den folgenden Abschnitten:
 
    * [Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
-   * [Frequenzlimitierung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
+   * [Frequenzbegrenzung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -164,4 +164,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
