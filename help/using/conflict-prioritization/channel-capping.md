@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 79%
+source-wordcount: '1251'
+ht-degree: 49%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 79%
 **Kanal** Regelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 
 Mithilfe von Kanalregelsätzen können Sie die Frequenzlimitierung nach Kommunikationstyp festlegen, um zu verhindern, dass Kunden mit ähnlichen Nachrichten überlastet werden. Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
+
+>[!IMPORTANT]
+>
+>Um sicherzustellen, dass die Begrenzung auf Kanalebene ordnungsgemäß funktioniert, stellen Sie sicher, dass Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
 ## Erstellen einer Kanalbegrenzungsregel
 
@@ -33,7 +37,7 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 10 aktive lokale Regelsätze für die Kanaldomäne und für die Journey-Domain erstellen.
+>Sie können bis zu 10 aktive lokale Regelsätze für jede Kanaldomäne und für die Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -55,25 +59,33 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
    ![](assets/rule-set-channels.png)
 
-1. Legen Sie über die Dropdown-Liste **[!UICONTROL Dauer]** fest, ob die Begrenzung monatlich, wöchentlich oder täglich angewendet werden soll. Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
+1. Legen Sie im Feld **[!UICONTROL Begrenzungsanzahl]** die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl von Nachrichten, die monatlich, wöchentlich, täglich oder stündlich an ein einzelnes Benutzerprofil gesendet werden können - je nach Ihrer Auswahl in den folgenden Feldern.
+
+1. Wählen Sie aus **[!UICONTROL Dropdown-Liste]** Begrenzungshäufigkeit zurücksetzen“ aus, ob die Begrenzung stündlich, täglich, wöchentlich oder monatlich angewendet werden soll. Die Häufigkeitsbegrenzung basiert auf dem ausgewählten Kalenderzeitraum. Sie wird am Anfang des entsprechenden Zeitrahmens zurückgesetzt.
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
-   * **[!UICONTROL Monatlich]**: Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
+   * **[!UICONTROL Stündlich]** - Die Häufigkeitsbegrenzung ist für die ausgewählte Anzahl von Stunden gültig (mindestens 3 Stunden). Der Zähler wird zu Beginn jedes Zeitfensters automatisch zurückgesetzt. Bei einer Häufigkeitsbegrenzung von 3 Stunden wird die Einstellung alle 3 Stunden zurückgesetzt, was mit dem Ende einer UTC-Stunde zusammenfällt.
 
-   * **[!UICONTROL Wöchentlich]**: Die Frequenzbegrenzung gilt bis Samstag 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum gilt unabhängig davon, wann die Regel erstellt wurde. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+     >[!AVAILABILITY]
+     >
+     >Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an die Kundenunterstützung, um sie zu aktivieren.
 
-   * **[!UICONTROL Täglich]**: Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+   * **[!UICONTROL Täglich]** - Die tägliche Häufigkeitsbegrenzung ist für den Tag bis 23::59: UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
+   * **[!UICONTROL Wöchentlich]** - Die Häufigkeitsbegrenzung ist bis zum 23. bis :59:. UTC der Woche gültig, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum gilt unabhängig davon, wann die Regel erstellt wurde. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
+   * **[!UICONTROL Monatlich]** - Die Häufigkeitsbegrenzung ist bis zum letzten Tag des Monats um 23::59: Uhr UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
 
-     >[!CAUTION]
-     > 
-     >Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung zu gewährleisten, müssen Sie beim Erstellen einer Kampagne oder Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
+   >[!IMPORTANT]
+   >
+   >* Um Genauigkeit zu gewährleisten, stellen Sie sicher, dass Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>.
+   >
+   >* Der Wert des Profilzählers wird aktualisiert, sobald die Kommunikation zugestellt wurde. Beachten Sie dies, wenn Sie große Mengen an Nachrichten senden, da der Durchsatz dazu führen könnte, dass der Empfänger die E-Mail Minuten oder sogar Stunden nach der Initiierung der Kommunikation erhält (in dem Fall, dass Sie Millionen von Nachrichten gleichzeitig senden). Dies ist wichtig, wenn eine Person zwei Mitteilungen kurz nacheinander erhält. Wir empfehlen, die Mitteilungen nach Möglichkeit im Abstand von mindestens zwei Stunden zu versenden, damit die Empfängerinnen und Empfänger genügend Zeit haben, die Mitteilung zu erhalten, und der Zählerwert entsprechend aktualisiert werden kann.
 
-   Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
+1. Mit dem Feld **[!UICONTROL Alle]** können Sie die Regeln zur Frequenzlimitierung je nach angegebener Dauer über mehrere Stunden, Tage, Wochen oder Monate hinweg wiederholen. Beispiel: Wenden Sie die Regel zur Frequenzlimitierung für 2 Wochen an.
 
-   Dies ist wichtig, wenn eine Person zwei Mitteilungen kurz nacheinander erhält. Wir empfehlen, die Mitteilungen nach Möglichkeit im Abstand von mindestens zwei Stunden zu versenden, damit die Empfängerinnen und Empfänger genügend Zeit haben, die Mitteilung zu erhalten, und der Zählerwert entsprechend aktualisiert werden kann.
+   Stellen Sie sicher, dass Sie einen Wert eingeben, der dem ausgewählten Dauertyp entspricht: 3-23 für stündlich, 1-30 für täglich, 1-4 für wöchentlich und 1-3 für monatlich.
 
-1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat, Woche oder Tag – entsprechend Ihrer Auswahl oben – an ein individuelles Benutzerprofil gesendet werden können.
+   Der Zähler wird automatisch auf 0 zurückgesetzt, wenn ein neues Zeitfenster beginnt. Bei einer Häufigkeitsbegrenzung von 2 Tagen erfolgt dieses Zurücksetzen alle zwei Tage um Mitternacht UTC.
 
 1. Wählen Sie den Kanal, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung]** oder **[!UICONTROL Briefpost]**.
 
@@ -107,9 +119,9 @@ Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Bevor Sie Ihren Journey oder Ihre Kampagne aktivieren, sollten Sie sicherstellen, dass die Ausführung mindestens 20 Minuten in der Zukunft liegt.
+1. Bevor Sie Ihren Journey oder Ihre Kampagne aktivieren, sollten Sie sicherstellen, dass die Ausführung mindestens 10 Minuten in der Zukunft liegt.
 
-   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden angezeigt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt.
+   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Werte der Zähler für den Regelsatz nicht in den Profilen der Empfänger angezeigt und die Nachricht wird nicht für die Regeln zur Frequenzlimitierung für die benutzerdefinierten Regelsätze gezählt. Darüber hinaus funktioniert die Begrenzung möglicherweise nicht richtig für Journey und Kampagnen, die sofort aktiviert werden, und für API-ausgelöste Kampagnen.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -120,6 +132,8 @@ Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 >Für denselben Kanal können mehrere Regeln angewendet werden, aber sobald die untere Begrenzung erreicht ist, wird das Profil von den nächsten Sendungen ausgeschlossen.
 
 Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zur nächsten Periode nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+
+<!--add a new section for default priority namespace.-->
 
 <!--
 ## Example: combine several rules {#frequency-rule-example}
@@ -152,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

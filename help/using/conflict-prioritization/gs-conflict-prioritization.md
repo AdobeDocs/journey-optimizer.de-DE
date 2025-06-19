@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Tools für Konflikt-Management und Priori
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** u
 
 * **Aktualisierungslatenz des Profilzählers**
 
-  Nachdem eine Kundin bzw. ein Kunde in eine Journey eingetreten ist, kann es bis zu 20 Minuten dauern, bis der Profilzählerwert aktualisiert wird.
+  Nachdem eine Kundin bzw. ein Kunde in eine Journey eingetreten ist, kann es bis zu 10 Minuten dauern, bis der Profilzählerwert aktualisiert wird.
 
   Wenn ein Profil innerhalb eines kurzen Zeitfensters in zwei Journeys eintritt, erkennt die zweite Journey möglicherweise nicht richtig, dass die Frequenzbegrenzung bereits erreicht wurde, sodass das Profil möglicherweise in beide Journeys eintreten kann.
 
