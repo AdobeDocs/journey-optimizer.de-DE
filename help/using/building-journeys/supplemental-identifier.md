@@ -3,10 +3,10 @@ title: Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in von einem Ereignis ausgelösten Journeys verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 95%
+source-wordcount: '928'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Dadurch werden die durch das Ereignis ausgelösten Journeys im Kontext der Profi
 
 Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Schutzmechanismen und Einschränkungen
+## Schutzmechanismen und Einschränkungen {#guardrails}
 
 * **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
 
@@ -61,7 +61,14 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 
 * **Datentyp und Schemastruktur**: Die zusätzliche Kennung muss vom Typ `string` sein. Dabei kann es sich um ein unabhängiges Zeichenfolgenattribut oder um ein Zeichenfolgenattribut in einem Array von Objekten handeln. Das unabhängige Zeichenfolgenattribut führt zu einer einzelnen Journey-Instanz, wohingegen das Zeichenfolgenattribut innerhalb eines Arrays von Objekten zu einer eindeutigen Journey-Instanz pro Iteration des Objekt-Arrays führt. Zeichenfolgen-Arrays und Zuordnungen werden nicht unterstützt.
 
-## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey
+* **Erneuten Eintritt von Journey**
+
+  Das Journey des erneuten Eintritts mit zusätzlichen Kennungen folgt der bestehenden Richtlinie für den erneuten Eintritt:
+
+   * Wenn die Journey nicht erneut eintritt, kann dieselbe Profilkennung + zusätzliche ID-Kombination nicht erneut auf die Journey zugreifen.
+   * Wenn die Journey mit einem Zeitfenster erneut eintritt, kann dieselbe Profilkennung + zusätzliche ID-Kombination nach dem definierten Zeitfenster erneut eingegeben werden.
+
+## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey {#add}
 
 Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwenden:
 
@@ -88,6 +95,10 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
       ![](assets/supplemental-ID-event.png)
 
    1. Verwenden Sie den Ausdruckseditor, um das Attribut auszuwählen, das Sie als zusätzliche ID markiert haben.
+
+      >[!NOTE]
+      >
+      >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL erweiterten Modus) verwenden]** um das Attribut auszuwählen.
 
    1. Nach Auswahl der zusätzlichen ID wird der zugehörige Namespace im Bildschirm „Ereigniskonfiguration“ als schreibgeschützt angezeigt.
 
