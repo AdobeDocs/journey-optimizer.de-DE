@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 11%
+source-wordcount: '941'
+ht-degree: 10%
 
 ---
 
@@ -118,17 +118,19 @@ Klicken Sie auf **Schließen**, um den Test zu beenden, und klicken Sie zur Best
 
 ## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
 
-* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten.
-* Profile im Dry-Run-Modus werden als ansprechbare Profile gezählt.
-* Dry Run-Journey wirken sich nicht auf Geschäftsregeln aus.
+* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten
+* Profile im Dry-Run-Modus werden als kontaktierbare Profile gezählt
+* Journey im Dry Run-Modus werden auf das Live Journey-Kontingent angerechnet
+* Probelauf-Journey wirken sich nicht auf Geschäftsregeln aus
 * Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **Live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
 * Journey Dry Run generiert stepEvents. Diese stepEvents haben ein bestimmtes Flag und eine Probelauf-ID:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist, `false` andernfalls
    * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelauf-Instanz zurück
+
 * Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
 
-   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
-   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
+   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt
+   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt
    * **Warteknoten** werden während des Probelaufs umgangen.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt.
+   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt
