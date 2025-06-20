@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: ht
-source-wordcount: '1463'
-ht-degree: 100%
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
+>Diese Funktion ist als private Betaversion verfügbar. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
+>
 >Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Markenrichtlinien sind ein detaillierter Satz an Regeln und Standards, die die visuelle und sprachliche Identität einer Marke festlegen. Sie dienen als Referenz, um eine konsistente Markendarstellung über alle Marketing- und Kommunikationsplattformen hinweg aufrechtzuerhalten.
@@ -46,6 +47,8 @@ In [!DNL Journey Optimizer] haben Sie jetzt die Möglichkeit, Ihre Markendetails
 Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugreifen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL Marken-Kit verwalten]** oder **[!UICONTROL KI-Assistenten aktivieren]** gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
 +++  Informationen zur Zuweisung von Markenberechtigungen
+
+Gehen Sie wie folgt vor, um Berechtigungen für Marken zuzuweisen:
 
 1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
