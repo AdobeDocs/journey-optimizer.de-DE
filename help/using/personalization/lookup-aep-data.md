@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 91%
 
 ---
 
@@ -44,6 +44,21 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 * **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung auf den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
 * **Data Usage Labelling and Enforcement** wird derzeit nicht für Datensätze erzwungen, die für die Suche aktiviert sind.
 * **Fragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten oder visuellen Fragmenten platziert werden.
+
+### Entscheidungsfindung {#decisioning}
+
+Die Möglichkeit, [!DNL Adobe Experience Platform] Datensätze in Ranking-Formeln und -Regeln für Experience Decisioning zu nutzen, wird in Kürze verfügbar sein.
+
+Überprüfen Sie in der Zwischenzeit die unten beschriebenen aktuellen Leitplanken:
+
+* Eine Entscheidungsrichtlinie ist auf drei Datensätze beschränkt.
+* Eine Entscheidungsregel kann drei Datensätze verwenden,
+* Eine Rangfolgenformel kann drei Datensätze verwenden,
+* Eine Entscheidungsrichtlinie ist auf 1.000 Datensatzabfragen beschränkt.
+
+>[!NOTE]
+>
+>Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff auf diese Funktion wünschen
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
@@ -117,11 +132,11 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    +++Wo kann ich eine Datensatz-ID abrufen?
 
-   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Erfahren Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}, wie Sie mit Datensätzen arbeiten können.
+   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Wie Sie mit Datensätzen arbeiten, erfahren Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
@@ -148,11 +163,11 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      +++Wo kann ich eine Feld-ID abrufen?
 
-     IDs für Felder können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} erfahren Sie, wie Sie eine Vorschau von Datensätzen erstellen können.
+     IDs für Felder können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Erfahren Sie in der Dokumentation zu [Adobe Experience Platform, wie Sie eine Vorschau von Datensätzen anzeigen können](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    In diesem Beispiel möchten wir Informationen über die Einstiegszeit und den Flugsteig der Fluggäste verwenden. Fügen Sie daher die beiden folgenden Zeilen hinzu:
 
