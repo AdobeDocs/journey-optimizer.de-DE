@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 61%
+source-wordcount: '622'
+ht-degree: 62%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 61%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Orchestrierte Kampagnenaktivitäten |
+| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](../create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](../orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](../send-messages.md)<br/><br/>[Kampagne starten und überwachen](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimensionsänderung](change-dimension.md) - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md) [&#128279;](wait.md) Warten[&#128279;](deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](../create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](../orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](../send-messages.md)<br/><br/>[Kampagne starten und überwachen](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimensionsänderung](change-dimension.md) - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md)[ ](wait.md) Warten](deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -50,9 +50,9 @@ ht-degree: 61%
 
 Die Aktivität **Abstimmung** ist eine **Targeting**-Aktivität, mit der Sie die Relation zwischen den Daten in Adobe Journey Optimizer und den Daten in einer Arbeitstabelle definieren können, z. B. Daten, die aus einer externen Datei geladen wurden.
 
-Die Aktivität Anreicherung ermöglicht das Hinzufügen zusätzlicher Daten zu einer orchestrierten Kampagne, z. B. durch Kombination von Daten aus mehreren Quellen oder durch Verknüpfung mit einer temporären Ressource. Die Aktivität Abstimmung wird dagegen verwendet, um nicht identifizierte oder externe Daten mit vorhandenen Ressourcen in der Datenbank abzugleichen.
+Die Aktivität **Anreicherung** ermöglicht das Hinzufügen zusätzlicher Daten zu einer orchestrierten Kampagne, z. B. durch Kombination von Daten aus mehreren Quellen oder durch Verknüpfung mit einer temporären Ressource. Dagegen werden mit der Aktivität **Abstimmung** nicht identifizierte oder externe Daten mit vorhandenen Ressourcen in der Datenbank abgeglichen.
 
-Die Abstimmung setzt voraus, dass die entsprechenden Datensätze bereits im System vorhanden sind. Wenn Sie beispielsweise eine Kaufdatei importieren, in der Produkte, Zeitstempel und Kundeninformationen aufgelistet sind, müssen sowohl die Produkte als auch die Kunden bereits in der Datenbank vorhanden sein, um den Link herzustellen.
+**Abstimmung** erfordert, dass die entsprechenden Datensätze bereits im System vorhanden sind. Wenn Sie beispielsweise eine Kaufdatei importieren, in der Produkte, Zeitstempel und Kundeninformationen aufgelistet sind, müssen sowohl die Produkte als auch die Kunden bereits in der Datenbank vorhanden sein, um den Link herzustellen.
 
 ## Konfigurieren der Abstimmungsaktivität {#reconciliation-configuration}
 
