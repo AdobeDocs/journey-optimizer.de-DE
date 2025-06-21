@@ -49,7 +49,7 @@ Mit einer Enterprise-Lizenz haben Benutzer vollen Zugriff auf den Adobe Express 
 
 ![](assets/express-licence.png)
 
-Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Adobe Express-Web-Dokumentation](https://helpx.adobe.com/express/web.html).
+Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Adobe Express-Web-Dokumentation](https://helpx.adobe.com/de/express/web.html).
 
 ## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
 
