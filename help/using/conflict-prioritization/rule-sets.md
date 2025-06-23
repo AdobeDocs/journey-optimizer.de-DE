@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 68%
 
 ### Was sind Regelsätze? {#what}
 
-Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Journeys und Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, die begrenzt, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder die steuert, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
+Mit Regelsätzen können **mehrere Regeln zu Regelsätzen gruppiert** und auf die gewünschten Journeys und Kampagnen angewendet werden. Dies bietet eine verbesserte Granularität, um zu begrenzen, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder mit der gesteuert wird, wie oft Benutzende je nach Kommunikationstyp eine Nachricht erhalten.
 
-Sie können zwei Arten von Regelsätzen erstellen:
+Es können zwei Arten von Regelsätzen erstellt werden:
 
-* **Kanal** Regelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
-* **Journey** Regelsätze wenden Begrenzungsregeln für Eintritte und Gleichzeitigkeit auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
+* **Kanal**-Regelsätze wenden Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+* **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -49,9 +49,9 @@ Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt]
 
 Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
 
-Dieser Regelsatz enthält globale Regeln, mit denen Sie steuern können, wie oft Benutzer Nachrichten über einen oder mehrere Kanäle erhalten. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden.
+Dieser Regelsatz enthält globale Regeln, die angewendet werden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. 
 
-Zusätzlich zu diesem Regelsatz „Globaler Standardregelsatz“ können Sie &quot;**&quot; erstellen** die Sie auf jede Journey oder Kampagne anwenden können, um bestimmte Begrenzungsregeln anzuwenden. [Erfahren Sie, wie Sie benutzerdefinierte Regelsätze erstellen](#create)
+Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** erstellt werden, die auf jede Journey oder Kampagne angewendet werden können, um bestimmte Begrenzungsregeln anzuwenden. [Weitere Informationen zum Erstellen benutzerdefinierter Regelsätze](#create)
 
 ![](assets/rule-sets-default.png)
 
@@ -81,7 +81,7 @@ Zusätzlich zu diesem Regelsatz „Globaler Standardregelsatz“ können Sie &qu
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Regelbegrenzung"
->abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Je nach Domain des Regelsatzes und Auswahl im Feld „Regeltyp“ lässt sich in diesem Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, bzw. die maximale Anzahl an Journeys, in die das Profil eintreten kann oder an denen es gleichzeitig teilnehmen kann."
+>abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Abhängig von der Regelsatz-Domain und der Auswahl im Feld „Regeltyp“ kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journeys, in die das Profil eintreten oder an denen das Profil gleichzeitig teilnehmen kann."
 
 Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
@@ -95,18 +95,18 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Legen Sie einen eindeutigen Namen für den Regelsatz fest und fügen Sie eine Beschreibung hinzu.
 
-1. Wählen Sie die Domain des Regelsatzes aus und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wählen Sie die Regelsatz-Domain aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   * **Kanal** Domäne: Wenden Sie Begrenzungsregeln für Kommunikationskanäle an.
-   * **Journey**-Domain: Wenden Sie Begrenzungsregeln für Einträge und gleichzeitige Zugriffe auf eine Journey an.
+   * **Kanal**-Domain: wendet Begrenzungsregeln für Kommunikationskanäle an. 
+   * **Journey**-Domain: wendet Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. 
 
    ![](assets/rule-sets-create.png)
 
-1. Definieren Sie die Regeln, die Sie diesem Regelsatz hinzufügen möchten. Rufen Sie dazu den Regelsatz auf und klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
+1. Definieren Sie die Regeln, die zu diesem Regelsatz hinzugefügt werden sollen. Greifen Sie dazu auf den Regelsatz zu und klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
 
-1. Konfigurieren Sie die Regelparameter entsprechend Ihren Anforderungen. Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatz-Domain ab.
+1. Konfigurieren Sie die Regelparameter nach Bedarf. Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatz-Domain ab.
 
-   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalbegrenzungsregeln finden Sie in den folgenden Abschnitten:
+   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalbegrenzungsregeln sind in den folgenden Abschnitten verfügbar:
 
    * [Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
    * [Frequenzbegrenzung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    ![](assets/rule-set-activate-rule.png)
 
-1. Aktivieren Sie den Regelsatz, um ihn auf Ihre Journey und Nachrichten anwenden zu können.
+1. Aktivieren Sie den Regelsatz, um ihn auf die Journeys und Nachrichten anwenden zu können.
 
    ![](assets/rule-set-activate-set.png)
 
@@ -131,9 +131,9 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
-1. Sie können einen Regelsatz auf eine Nachricht oder eine Journey anwenden, je nachdem, welche Domain Sie beim Erstellen des Regelsatzes ausgewählt haben.
+1. Ein Regelsatz kann je nach der bei der Erstellung des Regelsatzes ausgewählten Domain auf eine Nachricht oder eine Journey angewendet werden. 
 
-   Detaillierte Informationen über die Anwendung von Regelsätzen finden Sie in den folgenden Abschnitten:
+   Weitere Informationen zum Anwenden von Regelsätzen sind in den folgenden Abschnitten verfügbar:
 
    * [Anwenden eines Regelsatzes auf eine Journey](../conflict-prioritization/journey-capping.md#apply-capping)
    * [Anwenden von Begrenzungsregeln auf eine Nachricht](../conflict-prioritization/channel-capping.md#apply)
@@ -144,11 +144,11 @@ Alle erstellten Regelsätze werden im Menü **[!UICONTROL Administration]** > **
 
 ![](assets/rule-sets-list.png)
 
-Klicken Sie auf den Namen eines Regelsatzes, um dessen Inhalt anzuzeigen und zu bearbeiten. Alle Regeln, die in diesem Regelsatz enthalten sind, werden aufgelistet. Im Kontextmenü oben rechts können Sie den Namen und die Beschreibung des Regelsatzes bearbeiten, aktivieren und löschen.
+Klicken Sie auf den Namen eines Regelsatzes, um dessen Inhalt anzuzeigen und zu bearbeiten. Alle Regeln, die in diesem Regelsatz enthalten sind, werden aufgelistet. Im Kontextmenü oben rechts können der Name und die Beschreibung des Regelsatzes bearbeitet, aktiviert und gelöscht werden.
 
 ![](assets/rule-set-example.png)
 
-Für jede Regel im Regelsatz können Sie mit der Schaltfläche **[!UICONTROL Mehr Aktionen]** die Regel bearbeiten, aktivieren und löschen.
+Jede Regel im Regelsatz kann mithilfe der Schaltfläche **[!UICONTROL Weitere Aktionen]** bearbeitet, aktiviert und gelöscht werden.
 
 ![](assets/rule-set-example-rules.png)
 
@@ -164,4 +164,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

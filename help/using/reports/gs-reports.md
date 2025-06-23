@@ -5,50 +5,51 @@ title: Erste Schritte mit Reporting-Funktionen in [!DNL Adobe Journey Optimizer]
 description: Erfahren Sie, wie Sie auf Berichte zugreifen und mit  [!DNL Adobe Journey Optimizer]  arbeiten können.
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 89%
 
 ---
 
-# Erste Schritte mit Reporting-Funktionen {#get-started-report}
+# Erste Schritte mit den Reporting-Funktionen {#get-started-report}
 
-Adobe Journey Optimizer bietet Ihnen durch seine leistungsstarken Berichtsfunktionen umsetzbare Einblicke. Berichte sind für Kampagnen, Journey, Landingpages, Abonnementlisten und mehr verfügbar. Die verfügbaren Berichte sind unten aufgeführt.
+Adobe Journey Optimizer bietet durch seine zuverlässigen Reporting-Funktionen verwertbare Erkenntnisse. Berichte sind für Kampagnen, Journeys, Landingpages, Abonnement-Listen und mehr verfügbar. Die verfügbaren Berichte sind unten aufgeführt:
 
-Um die Zustellbarkeit Ihrer [!DNL Journey Optimizer]-Erlebnisse zu optimieren, empfehlen wir außerdem die Verwendung der [ diesem Abschnitt ](deliverability.md) Best Practices.
+Um die Zustellbarkeit der [!DNL Journey Optimizer]-Erlebnisse zu optimieren, wird die Verwendung der in [diesem Abschnitt aufgeführten](deliverability.md) Best Practices empfohlen.
 
 
 ## Berichtstypen {#reporting-types}
 
-* **Letzte 24-Stunden-Live-Berichte** - Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journey und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Stunden]** ausgeführt wurde. Weitere Informationen zu Live-Berichten [in diesem Abschnitt](live-report.md).
+* **Live-Berichte der letzten 24 Stunden** – Verwenden Sie den **[!UICONTROL Live-Bericht]**, um Auswirkung und Leistung der Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald der Versand erfolgt ist oder die Journey auf der Registerkarte **[!UICONTROL Letzte 24 Stunden]** ausgeführt wurde. Weitere Informationen zu Live-Berichten sind in [diesem Abschnitt](live-report.md) verfügbar.
 
   ![](assets/report_journey.png)
 
 
-* **Echtzeitberichte mit Customer Journey Analytics** - Journey Optimizer-Berichte sind vollständig in die Customer Journey Analytics-Funktionen integriert, standardisieren das Reporting auf beiden Plattformen und verbessern die Konsistenz und Zuverlässigkeit der Daten. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet eine klarere Übersicht über Leistungsmetriken, sodass Benutzerinnen und Benutzer fundiertere Entscheidungen treffen können. Weitere Informationen zu Echtzeitberichten finden Sie [ diesem Abschnitt](report-gs-cja.md).
+* **Berichte für die gesamte Zeit mit Customer Journey Analytics** – Journey Optimizer-Reporting ist vollständig mit Customer Journey Analytics-Funktionen integriert, wodurch das Reporting plattformübergreifend standardisiert und die Datenkonsistenz und -zuverlässigkeit verbessert wird. Diese nahtlose Integration zwischen Journey Optimizer und Customer Journey Analytics bietet einen klareren Überblick über Leistungsmetriken und ermöglicht es Benutzenden, fundiertere Entscheidungen zu treffen. Weitere Informationen zu Berichten für die gesamte Zeit sind in [diesem Abschnitt](report-gs-cja.md) verfügbar.
 
   ![](assets/gs-cja-report-1.png)
 
-  Wenn Sie über eine Adobe Customer Journey Analytics-Lizenz verfügen, können Sie Ihre Journey Optimizer-Berichte in Customer Journey Analytics analysieren. Diese leistungsstarke Option leitet Sie nahtlos zu Ihrer Customer Journey Analytics-Umgebung um und ermöglicht es Ihnen, Ihre Berichte umfassend zu personalisieren. Sie können Ihre Widgets mit speziellen Customer Journey Analytics-Metriken anreichern und Ihre Erkenntnisse auf eine ganz neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
+  Mit einer Adobe Customer Journey Analytics-Lizenz können Journey Optimizer-Berichte in Customer Journey Analytics analysiert werden. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets können mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
 
 
 ## Tauchen wir tiefer in die Materie ein
 
-Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es an der Zeit, sich näher mit diesen Dokumentationsabschnitten zu befassen, um zu erfahren, wie Sie auf die Reporting-Funktionen zugreifen und diese verstehen können.
+Da Sie nun über Kenntnissen zu den Berichtstypen in **[!DNL Journey Optimizer]** verfügen, können Sie sich umfassender mit diesen Dokumentationsabschnitte befassen, um weitere Information über Reporting-Funktionen und den Zugriff auf sie zu erhalten.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <img alt="Journey-Berichte" src="../assets/do-not-localize/start-journey.jpeg">
 <div>
-<p><strong>JOURNEY REPORTS</strong></p>
+<p><strong>JOURNEY-BERICHTE</strong></p>
 </div>
 <div>
 <a href="journey-live-report.md"><strong>Live-Bericht</strong></a>
 </div>
 <div>
-<a href="journey-global-report-cja.md"><strong>Echtzeitbericht</strong></a>
+<a href="journey-global-report-cja.md"><strong>Bericht für die gesamte Zeit</strong></a>
 </div>
 <div>
 <a href="sharing-overview.md"><strong>Erstellen von Journey-Berichten</strong></a>
@@ -65,7 +66,7 @@ Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es
 <a href="campaign-live-report.md"><strong>Live-Bericht</strong></a>
 </div>
 <div>
-<a href="campaign-global-report-cja.md"><strong>Echtzeitbericht</strong></a>
+<a href="campaign-global-report-cja.md"><strong>Bericht für die gesamte Zeit</strong></a>
 </div>
 <p>
 <p>
@@ -79,21 +80,21 @@ Nachdem Sie nun die Berichtstypen in **[!DNL Journey Optimizer]** kennen, ist es
 <a href="lp-report-live.md"><strong>Live-Bericht</strong></a>
 </div>
 <div>
-<a href="lp-report-global-cja.md"><strong>Echtzeitbericht</strong></a>
+<a href="lp-report-global-cja.md"><strong>Bericht für die gesamte Zeit</strong></a>
 </div>
 <p>
 <p>
 </td>
 <td>
-<img alt="Berichte zur Abonnement-Liste" src="../assets/do-not-localize/role.jpg">
+<img alt="Abonnement-Listen-Berichte" src="../assets/do-not-localize/role.jpg">
 <div>
-<p><strong>BERICHTE ZU ABONNEMENT-LISTEN</strong></p>
+<p><strong>ABONNEMENT-LISTEN-BERICHTE</strong></p>
 </div>
 <div>
 <a href="subscription-report-live.md"><strong>Live-Bericht</strong></a>
 </div>
 <div>
-<a href="subscription-report-global-cja.md"><strong>Echtzeitbericht</strong></a>
+<a href="subscription-report-global-cja.md"><strong>Bericht für die gesamte Zeit</strong></a>
 </div>
 <p>
 <p>
@@ -105,7 +106,7 @@ Globale Zeitberichte stehen für alle Kanäle zur Verfügung. Wählen Sie den Be
 
 ### Berichte für ausgehende Kanäle
 
-Wählen Sie einen ausgehenden Kanal aus, um zugehörige **globale Echtzeitberichte** zu ermitteln.
+Wählen Sie einen Outbound-Kanal aus, um zugeordnete **globale Berichte für die gesamte Zeit** zu finden.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
@@ -120,7 +121,7 @@ Wählen Sie einen ausgehenden Kanal aus, um zugehörige **globale Echtzeitberich
 
 ### Berichte für eingehende Erlebnisse
 
-Wählen Sie ein eingehendes Erlebnis aus, um zugehörige **globale Echtzeitberichte“ zu**.
+Wählen Sie ein eingehendes Erlebnis aus, um zugeordnete **globale Berichte für die gesamte Zeit** zu finden.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg">

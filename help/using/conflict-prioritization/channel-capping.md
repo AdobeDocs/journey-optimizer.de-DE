@@ -12,21 +12,21 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 49%
+ht-degree: 64%
 
 ---
 
 # Frequenzbegrenzung nach Kanal und Kommunikationstyp {#rule-sets}
 
-**Kanal** Regelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+**Kanal**-Regelsätze wenden Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 
-Mithilfe von Kanalregelsätzen können Sie die Frequenzlimitierung nach Kommunikationstyp festlegen, um zu verhindern, dass Kunden mit ähnlichen Nachrichten überlastet werden. Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
+Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. Sie können zum Beispiel eine Regel festlegen, um die Anzahl der **Werbemitteilungen** zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der **Newsletter** zu begrenzen, die an sie gesendet werden. Je nach Kampagnentyp, den Sie erstellen, können Sie dann entweder den Regelsatz für die Werbekommunikation oder den für den Newsletter anwenden.
 
 >[!IMPORTANT]
 >
 >Um sicherzustellen, dass die Begrenzung auf Kanalebene ordnungsgemäß funktioniert, stellen Sie sicher, dass Sie beim Verfassen einer Kampagne oder eines Journey den Namespace mit der höchsten Priorität auswählen. Weitere Informationen zur Namespace-Priorität finden Sie im [Handbuch zum Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
-## Erstellen einer Kanalbegrenzungsregel
+## Erstellen einer Kanal-Begrenzungsregel
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -49,11 +49,11 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
      ![](assets/journey-capping-list.png)
 
-   * Um die Begrenzungsregel in einem neuen Regelsatz zu erstellen, klicken Sie auf **[!UICONTROL Regelsatz erstellen]** geben Sie einen eindeutigen Namen für den Regelsatz an und wählen Sie „Kanal“ aus der Dropdown-Liste **[!UICONTROL Regelsatzdomäne]** aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
+   * Um die Begrenzungsregel in einem neuen Regelsatz zu erstellen, klicken Sie auf **[!UICONTROL Regelsatz erstellen]**, geben Sie einen eindeutigen Namen für den Regelsatz ein und wählen Sie in der Dropdown-Liste **[!UICONTROL Domain des Regelsatzes]** die Option „Kanal“ aus. Klicken Sie anschließend auf **[!UICONTROL Speichern]**.
 
      ![](assets/rule-sets-create.png)
 
-1. Klicken Sie im Bildschirm Regelsatz auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und definieren Sie einen eindeutigen Namen für die Regel.
+1. Klicken Sie im Bildschirm „Regelsatz“ auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und definieren Sie einen eindeutigen Namen für die Regel.
 
 1. Das Feld **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Im Moment ist dieses Feld schreibgeschützt, da nur die Kategorie **[!UICONTROL Marketing]** verfügbar ist.
 
@@ -99,17 +99,17 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
-1. Wenn die Begrenzungsregel für die Anwendung auf Nachrichten bereit ist, aktivieren Sie den Regelsatz und die Regel, in der er hinzugefügt wurde. [Erfahren Sie, wie Sie Regelsätze aktivieren](../conflict-prioritization/rule-sets.md#create)
+1. Wenn die Begrenzungsregel für die Anwendung auf Nachrichten bereit ist, aktivieren Sie den Regelsatz und die Regel, wo sie hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#create)
 
 ## Anwenden von Regelsätzen auf eine Nachricht {#apply-frequency-rule}
 
 Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 
-1. Wählen Sie beim Erstellen einer Journey- oder Kampagnennachricht einen der Kanäle aus, den Sie für Ihren Regelsatz definiert haben, und bearbeiten Sie den Inhalt Ihrer Nachricht
+1. Wählen Sie beim Erstellen einer Journey- oder Kampagnen-Nachricht einen der Kanäle aus, die für den Regelsatz festgelegt wurden, und bearbeiten Sie den Inhalt der Nachricht.
 
 1. Klicken Sie im Bildschirm für die Bearbeitung von Inhalten auf die Schaltfläche **[!UICONTROL Geschäftsregel hinzufügen]**.
 
-1. Wählen Sie den erstellten Regelsatz aus.
+1. Wählen Sie den festgelegten Regelsatz aus.
 
    ![](assets/rule-set-campaign-add-rule-button.png)
 
@@ -119,7 +119,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Bevor Sie Ihren Journey oder Ihre Kampagne aktivieren, sollten Sie sicherstellen, dass die Ausführung mindestens 10 Minuten in der Zukunft liegt.
+1. Stellen Sie vor dem Aktivieren der Journey oder Kampagne muss sicher, dass die Ausführung mindestens 10 Minuten im Voraus geplant ist.
 
    Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Werte der Zähler für den Regelsatz nicht in den Profilen der Empfänger angezeigt und die Nachricht wird nicht für die Regeln zur Frequenzlimitierung für die benutzerdefinierten Regelsätze gezählt. Darüber hinaus funktioniert die Begrenzung möglicherweise nicht richtig für Journey und Kampagnen, die sofort aktiviert werden, und für API-ausgelöste Kampagnen.
 
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -226,7 +226,7 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Personalisierungseditor
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Stellen Sie sicher, dass Sie die `#each` Schleife in ein Paar eckiger Klammern `[ ]` einschließen und direkt vor dem schließenden `/each` ein Komma einfügen.
+1. Die `#each`-Schleife muss in ein Paar eckige Klammern `[ ]` eingeschlossen sein und und direkt vor der schließenden `/each` muss ein Komma eingefügt werden.
 
    ![](assets/decision-code-based-wrap-code.png)
 

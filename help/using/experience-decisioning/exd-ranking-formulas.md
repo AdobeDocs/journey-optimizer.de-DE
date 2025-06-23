@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 
    ![](assets/create-formula.png){width="80%"}
 
-1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung Ihrer Rangfolgenformel verwendet wird.
+1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung der Rangfolgenformel verwendet wird. 
 
    >[!NOTE]
    >
-   >[Personalisierte Optimierungsmodelle](../offers/ranking/personalized-optimization-model.md) die kontinuierliche Metriken verwenden, werden vom KI-Formel-Builder nicht unterstützt.
+   >[Personalisierte Optimierungsmodelle](../offers/ranking/personalized-optimization-model.md), die kontinuierliche Metriken verwenden, werden vom KI-Formel-Builder nicht unterstützt.
 
    Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf eine Modellbewertung verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
 
