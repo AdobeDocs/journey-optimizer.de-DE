@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 81%
+source-wordcount: '996'
+ht-degree: 79%
 
 ---
 
@@ -91,7 +91,7 @@ Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt.
 
 ![Überwachen der Journey-Probelauf-Ausführung](assets/dry-run-metrics.png)
 
-Für jede Aktivität kann Folgendes überprüft werden:
+Für jede Aktivität können Sie in deren Aktivitätsfeld Folgendes aktivieren:
 
 * **[!UICONTROL Eingetreten]**: Gesamtzahl der Personen, die an dieser Aktivität teilgenommen haben. Bei **Action**-Aktivitäten gibt diese Metrik an, dass Profile durchlaufen, da sie nicht im Trockenlaufmodus ausgeführt werden.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
@@ -99,7 +99,7 @@ Für jede Aktivität kann Folgendes überprüft werden:
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
 
-Auf Journey-Ebene kann Folgendes überprüft werden:
+Auf der Journey-Ebene im linken oberen Bereich der Arbeitsfläche können Sie Folgendes überprüfen:
 
 * Die Gesamtzahl der **eingetretenen Profile**
 * Die Gesamtzahl der **ausgetretenen Profile**
