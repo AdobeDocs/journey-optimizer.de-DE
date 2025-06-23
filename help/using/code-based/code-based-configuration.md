@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Eine Code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die
 
 >[!NOTE]
 >
->Wenn Sie mehrere Code-basierte Erlebnisaktionen mit derselben Kanalkonfiguration haben (und daher auf derselben Oberfläche ausgeführt werden), bestimmt die Kampagne oder der Journey **[!UICONTROL Prioritätswert]** was an den Endbenutzer gesendet wird, wenn er für mehr als eine Aktion qualifiziert ist. [Erfahren Sie mehr über Prioritätswerte](../conflict-prioritization/priority-scores.md)
+>Wenn mehrere Code-basierte Erlebnisaktionen über dieselbe Kanalkonfiguration verfügen (und daher auf derselben Oberfläche ausgeführt werden), bestimmt der **[!UICONTROL Prioritätswert]** der Kampagne oder der Journey, was an Endbenutzende gesendet wird, wenn diese für mehr als eine Aktion qualifiziert sind. [Weitere Informationen zu Prioritätswerten](../conflict-prioritization/priority-scores.md)
 
 ## Definieren einer Konfiguration von Code-basierten Erlebnissen {#create-code-based-configuration}
 

@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Eine Oberfläche kann als Container auf jeder Hierarchieebene mit einer vorhande
 
 >[!NOTE]
 >
->Journey Wenn mehrere Code-basierte Erlebnisaktionen auf derselben Oberfläche ausgeführt werden, bestimmt die Kampagne oder **[!UICONTROL Prioritätswert]** was an den Endbenutzer gesendet wird, wenn er für mehr als eine Aktion qualifiziert ist. [Erfahren Sie mehr über Prioritätswerte](../conflict-prioritization/priority-scores.md)
+>Wenn mehrere Code-basierte Erlebnisaktionen auf derselben Oberfläche ausgeführt werden, bestimmt der **[!UICONTROL Prioritätswert]** der Kampagne oder der Journey, was an Endbenutzende gesendet wird, wenn diese für mehr als eine Aktion qualifiziert sind. [Weitere Informationen zu Prioritätswerten](../conflict-prioritization/priority-scores.md)
 
 ## Oberflächenkennung {#surface-uri}
 
@@ -76,7 +76,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 
 In [!DNL Journey Optimizer] unterstützt der Code-basierte Erlebniskanal zwei Arten von Kundenimplementierungen:
 
-* Basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder auf dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} für Ihre Mobile Apps;
+* Basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} für Ihre Apps;
 * Server-seitig oder hybrid mit [AEP Edge Network Server APIs](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"}.
 
 >[!NOTE]

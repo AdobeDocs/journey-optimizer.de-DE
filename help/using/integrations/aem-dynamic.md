@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 source-git-commit: 863d7c1d324e4f36afdb9673910c30b08182552f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -37,17 +37,17 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass Dynamic Media mit OpenAPI in Adobe Experience Manager as a Cloud Service aktiviert ist. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+>Dynamic Media mit OpenAPI muss in Adobe Experience Manager as a Cloud Service aktiviert sein. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-Die Dynamic Media-Integration mit Adobe Journey Optimizer ist sowohl für Dynamic Media ([7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar.
+Die Dynamic Media-Integration mit Adobe Journey Optimizer ist sowohl für den [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} von Dynamic Media als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar.
 
 >[!AVAILABILITY]
 >
->In älteren Versionen von Outlook (einschließlich 2016) wird das Rendern von Inhalten mit Dynamic Media nicht unterstützt.  Wir arbeiten aktiv an einer dauerhaften Lösung, um die Kompatibilität zu verbessern. Wenden Sie in der Zwischenzeit die folgenden Richtlinien an:
+>In älteren Versionen von Outlook (einschließlich 2016) wird das Rendern von Inhalten mit Dynamic Media nicht unterstützt.  Wir arbeiten aktiv an einer dauerhaften Lösung, um die Kompatibilität zu verbessern. In der Zwischenzeit gelten die folgenden Richtlinien:
 >
->* Für Dynamic Media Scene7-URLs: Hängen Sie `?bfc=on` an die Bild-URL an. Dies ermöglicht eine automatische Formataushandlung, um sicherzustellen, dass das kompatibelste Bildformat basierend auf den Funktionen des Clients bereitgestellt wird.
+>* Für Dynamic Media-Scene7-URLs: Hängen Sie `?bfc=on` an die Bild-URL an. Dies ermöglicht eine automatische Formataushandlung, um sicherzustellen, dass das kompatibelste Bildformat basierend auf den Funktionen des Clients bereitgestellt wird.
 >
->* Für Dynamic Media mit Open API: Verwenden Sie das `.avif`. Dieses Format verfügt über integrierte Ausweichmechanismen, mit denen bei Bedarf ein kompatibles Format bereitgestellt werden kann.
+>* Für Dynamic Media mit Open API: Verwenden Sie das Format `.avif`. Dieses Format verfügt über integrierte Fallback-Mechanismen, mit denen bei Bedarf ein kompatibles Format bereitgestellt werden kann.
 >
 
 Gehen Sie wie folgt vor, um ein Adobe Experience Manager-Asset zu Ihrem HTML-Inhalt hinzuzufügen:
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um ein Adobe Experience Manager-Asset zu Ihrem HTML-Inh
 
 Ihr Inhalt enthält jetzt dynamische Medien. Alle Aktualisierungen, die Sie in Experience Manager vornehmen, werden automatisch in Journey Optimizer angezeigt.
 
-## Textüberlagerung personalisieren {#text-overlay}
+## Personalisieren von Textüberlagerungen {#text-overlay}
 
 Passen Sie dynamische Medien einfach an, indem Sie die vorhandene Textüberlagerung durch neuen Text Ihrer Wahl ersetzen, was nahtlose Aktualisierungen und Personalisierungen ermöglicht.
 
@@ -86,7 +86,7 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 
 >[!AVAILABILITY]
 >
->**Personalisierung von Textüberlagerung** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
+>Die **Personalisierung von Textüberlagerungen** ist ausschließlich im [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} von Dynamic Media verfügbar. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich für weitere Informationen zu Ausnahmen an den Adobe-Support.
 
 Gehen Sie wie folgt vor, um Ihre Textüberlagerung zu personalisieren:
 
@@ -123,7 +123,7 @@ Ihr Inhalt enthält jetzt Ihre aktualisierte Textüberlagerung.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Hinzufügen und Verwalten Ihrer Dynamic Media-Vorlage {#dynamic-media-template}
+## Hinzufügen und Verwalten der Dynamic Media-Vorlage {#dynamic-media-template}
 
 Fügen Sie ganz einfach Ihre Dynamic Media-Vorlage in Journey Optimizer hinzu und aktualisieren Sie Ihre Medieninhalte bei Bedarf. Sie können jetzt Personalisierungsfelder in Ihre Medien integrieren, sodass Sie in Journey Optimizer benutzerfreundlichere und ansprechendere Inhalte erstellen können.
 
@@ -132,7 +132,7 @@ Erfahren Sie mehr über [Dynamic Media-Vorlagen](https://experienceleague.adobe.
 
 >[!AVAILABILITY]
 >
->**Dynamic Media-Vorlage** ist ausschließlich im Dynamic Media ([7-Modus) ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7). Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht zugänglich ist, wird der Inhalt nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
+>Die **Dynamic Media-Vorlage** ist ausschließlich im [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7) von Dynamic Media verfügbar. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte nicht gerendert. Wenden Sie sich bei Ausnahmen an den Experience Manager-Support.
 
 
 ### Mit Bildkomponente {#image-component}
@@ -252,9 +252,9 @@ Enable conditional content in your dynamic media to better target your audience 
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie Adobe Experience Manager Dynamic Media mit Adobe Journey Optimizer integrieren, um Inhaltsaktualisierungen und Personalisierung in Echtzeit zu ermöglichen.
+Erfahren Sie mehr darüber, wie Adobe Experience Manager Dynamic Media mit Adobe Journey Optimizer integriert werden kann, um eine Aktualisierung und Personalisierung von Inhalten in Echtzeit zu ermöglichen.
 
 In diesem Tutorial wird beschrieben, wie Sie Bilder direkt in AJO ändern, im HTML-Modus Textüberlagerungen hinzufügen, Dynamic Media-Vorlagen in AEM zur Hyperpersonalisierung erstellen und Kampagnen personalisieren, indem Sie Inhalte auf verschiedene Zielgruppensegmente zuschneiden. Diese Integration ermöglicht es Marketing-Fachleuten, ansprechende und personalisierte Kampagnen effizient zu erstellen, ohne zwischen Anwendungen wechseln zu müssen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?learn=on&enablevpops=&autoplay=true&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

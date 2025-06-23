@@ -10,7 +10,7 @@ level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Benutzerdefinierte Aktionen"
->abstract="Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden."
+>abstract="Aktionen sind Verbindungen, über die Sie Kundinnen und Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden."
 
-Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
+Aktionen sind Verbindungen, über die Sie Kundinnen und Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden.
 
 
 ➡️ [Funktion im Video kennenlernen](#video)
@@ -48,4 +48,4 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430275?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

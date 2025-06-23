@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die Markierung `dryRun` zum 
 
 ## Deduplizierung von Entscheidungselementen in Code-basierten Implementierungen {#code-based-decisioning-deduplication}
 
-Bei Verwendung [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) in Ihren Code-basierten Erlebnissen können Sie Deduplizierung auf Ihre Entscheidungsanfragen in Ihrer Client-Implementierung anwenden.
+Bei der Verwendung von [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) in den Code-basierten Erlebnissen können Sie eine Deduplizierung auf die Entscheidungsanfragen in der Client-Implementierung anwenden.
 
 Entscheidungsanfragen (über Konductor) akzeptieren die Deduplizierungsmarkierung, die die Eindeutigkeit von Entscheidungselementen in einer einzigen Anfrage handhabt, die aus mehreren Entscheidungsrichtlinien oder Platzierungen besteht.
 

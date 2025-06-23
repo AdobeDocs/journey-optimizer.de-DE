@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 
 * Varianten werden derzeit nicht unterstützt.
 
-* Der Korrekturabzug für veröffentlichte Kampagnen und Journey spiegelt Daten aus der neuesten Experience Manager-Inhaltsfragmentveröffentlichung wider.
+* Der Testversand für veröffentlichte Kampagnen und Journeys spiegelt Daten aus der neuesten Experience Manager-Inhaltsfragmentveröffentlichung wider.
 
 ## Erstellen und Zuweisen eines Tags in Experience Manager
 
@@ -122,4 +122,4 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publishing-the-journey.md).
 
-Mit Adobe Experience Manager können Sie die Journey Optimizer-Kampagnen oder Journey identifizieren, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references) verfügbar.

@@ -10,9 +10,9 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -35,33 +35,33 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 ![](assets/create-campaign-list.png)
 
-Sie können die Liste auch nach Kampagnentyp und -kanal oder nach den Tags filtern, die den Kampagnen bei ihrer Erstellung zugewiesen wurden. [Erfahren Sie, wie Sie einer Kampagne Tags zuweisen](create-campaign.md#create)
+Darüber hinaus kann die Liste nach Kampagnentyp und -kanal oder nach den Tags gefiltert werden, die den Kampagnen bei ihrer Erstellung zugewiesen wurden. [Weitere Informationen zum Zuweisen von Tags zu einer Kampagne ](create-campaign.md#create)
 
 ## Kampagnenkalender {#calendar}
 
-Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen, die eine klare visuelle Darstellung ihrer Zeitpläne bietet.
+Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht der Kampagnen mit einer übersichtlichen Darstellung der Zeitpläne. 
 
 >[!AVAILABILITY]
 >
->Die Kalenderansicht ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um den Zugriff anzufordern, verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>Die Kalenderansicht ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie zum Anfordern des Zugriffs [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
->Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Eingaben und Anfragen über die Schaltfläche **[!UICONTROL Beta Feedback]** im oberen Menü.
+>Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Rückmeldungen und Anfragen über die Schaltfläche **[!UICONTROL Beta-Feedback]** im oberen Menü.
 
-Der Kalender zeigt alle für die aktuelle Woche geplanten Kampagnen an. Verwenden Sie die Pfeiltasten über dem Kalender, um zwischen den Wochen zu navigieren.
+Der Kalender zeigt alle für die aktuelle Woche geplanten Kampagnen an. Navigieren Sie mit den Pfeiltasten über dem Kalender zwischen Wochen.
 
 ![Kalenderansicht mit Live-Kampagnen](assets/campaigns-timeline.png)
 
 Darstellung der Kampagnen:
 
-* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Kampagnen für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und abgeschlossene Aktivierungen oder Aktivierungen eines bestimmten Typs oder Kanals anzeigen.
+* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Kampagnen für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen eines bestimmten Typs oder Kanals anzeigen.
 * Kampagnenentwürfe werden nicht angezeigt.
 * Kampagnen, die sich über mehrere Tage erstrecken, werden oben im Kalenderraster angezeigt.
-* Wenn keine Startzeit angegeben wird, wird die nächstgelegene manuelle Aktivierungszeit verwendet, um sie im Kalender zu positionieren.
-* Kampagnen werden als Zeiträume von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
+* Wenn keine Startzeit angegeben ist, wird die nächste manuelle Aktivierungszeit zur Positionierung im Kalender verwendet.
+* Kampagnen werden als Zeitspannen von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
 
-Um weitere Informationen zu einer Kampagne zu erhalten, klicken Sie auf den entsprechenden visuellen Block, um die entsprechenden Details zu öffnen.
+Durch Klicken auf den visuellen Block einer Kampagne werden weitere Details geöffnet.
 
-Um Details zu einer bestimmten Kampagne anzuzeigen, wählen Sie diese aus der Liste aus. Daraufhin wird ein Informationsfenster mit verschiedenen Informationen über die Kampagne geöffnet, z. B. über den Kampagnentyp, den Zugriff auf die Berichte oder die zugewiesenen Tags.
+Wählen Sie eine Kampagne aus der Liste aus, um Details für diese spezifische Kampagne anzuzeigen. Dies öffnet einen Informationsbereich mit unterschiedlichen Informationen über die Kampagne, z. B. den Kampagnentyp, Zugriff auf die Berichte oder die zugewiesenen Tags.
 
 ![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
 
@@ -114,7 +114,7 @@ Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Butto
 
 >[!IMPORTANT]
 >
->Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorfälle, wenn der Versand bereits im Gange ist.
+>Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits im Gange ist.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 

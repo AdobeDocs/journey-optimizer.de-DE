@@ -10,21 +10,21 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Anwendungsfall: Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-In diesem Anwendungsbeispiel werden alle Schritte erläutert, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign v7 und Adobe Campaign v8 erforderlich sind.
+In diesem Anwendungsfall werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign v7 und Adobe Campaign v8 erforderlich sind.
 
 >[!NOTE]
 >
->Um diese Integration verwenden zu können, benötigen Sie Campaign v7/v8 Build 9125 oder höher.
+>Um diese Integration verwenden zu können, benötigen Sie Campaign v7/v8 Build 9125 oder höher.
 
-Erstellen Sie zunächst eine Transaktions-E-Mail-Vorlage in Campaign. Erstellen Sie dann in Journey Optimizer das Ereignis, die Aktion und entwerfen Sie die Journey.
+Erstellen Sie zunächst eine Transaktions-E-Mail-Vorlage in Campaign. Erstellen Sie anschließend in Journey Optimizer das Ereignis, die Aktion und die Journey.
 
 Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Seiten:
 
@@ -33,21 +33,21 @@ Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Sei
 
 **Adobe Campaign**
 
-Für diese Integration muss Ihre Campaign-Instanz bereitgestellt werden. Die Transaktionsnachrichten-Funktion muss konfiguriert sein.
+Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funktion für Transaktionsnachrichten muss konfiguriert sein.
 
 1. Melden Sie sich bei Ihrer Campaign-Kontrollinstanz an.
 
-1. Wählen Sie unter **Administration** > **Platform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie den internen Namen des Ereignistyps, wenn Sie die JSON-Datei später schreiben.
+1. Wählen Sie unter **Administration** > **Platform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie später beim Schreiben der JSON-Datei den internen Name des Ereignistyps.
 
    ![](assets/accintegration-uc-1.png)
 
-1. Trennen Sie die Verbindung zur Instanz und verbinden Sie sie erneut, damit die Erstellung wirksam wird.
+1. Trennen Sie die Verbindung zur Instanz und stellen Sie sie erneut her, damit die Erstellung wirksam wird.
 
 1. Erstellen Sie unter **Message Center** > **Transaktionsnachrichten-Vorlagen** eine neue E-Mail-Vorlage basierend auf dem zuvor erstellten Ereignistyp.
 
    ![](assets/accintegration-uc-2.png)
 
-1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird die Personalisierung auf den Vornamen des Profils und die Bestellnummer angewendet. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
+1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird eine Personalisierung auf den Vornamen und die Bestellnummer des Profils angewendet. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -55,7 +55,7 @@ Für diese Integration muss Ihre Campaign-Instanz bereitgestellt werden. Die Tra
 
    ![](assets/accintegration-uc-4.png)
 
-1. Schreiben Sie die JSON-Payload, die der Vorlage entspricht.
+1. Die JSON-Payload muss entsprechend der Vorlage geschrieben werden.
 
 ```
 {
@@ -75,15 +75,15 @@ Für diese Integration muss Ihre Campaign-Instanz bereitgestellt werden. Die Tra
 
 **Journey Optimizer**
 
-1. Erstellen Sie ein Ereignis. Fügen Sie das Feld „purchaseOrderNumber“ hinzu.
+1. Erstellen Sie ein Ereignis. Schließen Sie das Feld „purchaseOrderNumber“ ein.
 
    ![](assets/accintegration-uc-5.png)
 
-1. Erstellen Sie in Journey Optimizer eine Aktion, die Ihrer Kampagnenvorlage entspricht. Wählen Sie aus der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
+1. Erstellen Sie eine Aktion in Journey Optimizer, die der Kampagnenvorlage entspricht. Wählen Sie aus der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 
    ![](assets/accintegration-uc-6.png)
 
-1. Klicken Sie auf **Feld „Payload** und fügen Sie die zuvor erstellte JSON-Datei ein.
+1. Klicken Sie auf das Feld **Payload** und fügen Sie die zuvor erstellte JSON-Datei ein.
 
    ![](assets/accintegration-uc-7.png)
 

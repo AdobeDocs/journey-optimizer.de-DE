@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Klicken Sie im Bildschirm Regelsatz auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und geben Sie dann einen eindeutigen Namen für die Regel an.
+1. Klicken Sie Bildschirm „Regelsatz“ auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und geben Sie einen eindeutigen Namen für die Regel an.
 
 1. Geben Sie in der Dropdown-Liste **[!UICONTROL Regeltyp]** den Begrenzungstyp für die Regel an.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
    >
    >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-   +++
++++
 
    +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
 
@@ -86,11 +86,11 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-   +++
++++
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
-1. Wenn die Begrenzungsregel für die Anwendung auf Journey bereit ist, aktivieren Sie die Regel und den Regelsatz, in dem sie hinzugefügt wurde. [Erfahren Sie, wie Sie Regelsätze aktivieren](../conflict-prioritization/rule-sets.md#create)
+1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie die Regel und den Regelsatz, wo er hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#create)
 
 ## Anwenden von Begrenzungsregeln auf Journeys {#apply-capping}
 
@@ -105,16 +105,16 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 >[!NOTE]
 >
->Wenn eine Journey sofort aktiviert wird, kann es bis zu 10 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Daher wird eine Meldung angezeigt, wenn Sie versuchen, eine Journey mit einer Startzeit von weniger als 10 Minuten zu veröffentlichen.
+>Wenn eine Journey sofort aktiviert wird, kann es bis zu 10 Minuten dauern, bis das System beginnt, Kundinnen und Kunden zu unterdrücken. Daher wird eine Meldung angezeigt, wenn Sie versuchten, eine Journey mit einer Startzeit von weniger als 10 Minuten zu veröffentlichen.
 
-## Ausschlüsse von Regelsätzen überwachen {#monitor}
+## Überwachen von Regelsatzausschlüssen {#monitor}
 
-Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse&rbrace; im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey]**. Die Journey-Ausschlusstabelle enthält detaillierte Aufschlüsselungen der Ausschlüsse nach Regelsatz und Regelname, die Aufschluss darüber geben, warum Profile verworfen wurden. [Informationen zum Arbeiten mit Journey-Berichten](../reports/journey-global-report-cja.md)
+Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-Ausschlüsse]** im Journey-Bericht überprüfen, ob der Regelsatz zu einem Ausschluss von der Journey geführt hat. Die Tabelle „Journey-Ausschlüsse“ enthält detaillierte Aufschlüsselungen der Ausschlüsse nach Regelsatz und Regelname, die Einblicke in die Gründe geben, warum Profile verworfen wurden. [Informationen zum Arbeiten mit Journey-Berichten](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie Adobe Experience Platform (Query **) nutzen** um Abfragen zu erstellen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht auf eine bestimmte Journey zugegriffen hat. Ein Abfragebeispiel ist in ([ Abschnitt) ](../reports/query-examples.md#common-queries).
+Darüber hinaus können Sie auch den **Abfragedienst** in Adobe Experience Platform zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

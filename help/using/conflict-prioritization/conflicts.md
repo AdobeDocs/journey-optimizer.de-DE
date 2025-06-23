@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Wenn Sie eine Journey oder Kampagne erstellen, können Sie mit Journey Optimizer
 
    >[!NOTE]
    >
-   >Aufgrund der implementierten Zwischenspeicherung kann es bis zu 3-7 Minuten dauern, bis neu veröffentlichte Journey und Kampagnen im Konflikt-Viewer angezeigt werden.
+   >Bei neu veröffentlichten Journeys und Kampagnen kann es aufgrund dem implementiertem Caching 3 bis 7 Minuten dauern, bis sie im Konflikt-Viewer angezeigt werden
 
 Um die Suche nach potenziellen Überschneidungen weiter zu verfeinern, können Sie Ihre Liste der Kampagnen und Journeys nach den relevanten Feldern filtern. Wählen Sie dazu das Filtersymbol in der Ansicht „Sammlungsbestand“ aus. [Erfahren Sie, wie Sie mit Filtern arbeiten](../start/search-filter-categorize.md#filter-lists)
 

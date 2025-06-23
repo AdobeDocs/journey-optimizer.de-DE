@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 78%
 >title="Auswählen der Kampagnenzielgruppe"
 >abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
-Zielgruppen sind Sammlungen von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Sie wird mithilfe des Segmentierungs-Services von Adobe Experience Platform zentral in Adobe Experience Platform konfiguriert und gepflegt und steht in Journey Optimizer zur Verfügung, um in Ihren Journeys und Kampagnen aktiviert zu werden.
+Bei einer Zielgruppe handelt es sich um eine Sammlung von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Sie wird mithilfe des Segmentierungs-Services von Adobe Experience Platform zentral in Adobe Experience Platform konfiguriert und gepflegt und steht in Journey Optimizer zur Verfügung, um in Ihren Journeys und Kampagnen aktiviert zu werden.
 
 Adobe Journey Optimizer bietet zuverlässige Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um Ihre Marketing-Maßnahmen zu optimieren. In Verbindung mit Adobe Real-Time Customer Data Platform können Sie mit Journey Optimizer Zielgruppen für eine komplexere Segmentierung schichten und Zielgruppen bidirektional für andere Adobe Experience Cloud-Lösungen freigeben.
 
-Wenn Echtzeit-Datenströme oder Batch-Uploads stattfinden, werden Datensätze aktualisiert und Journey Optimizer verschiebt Personen dynamisch in Echtzeit in Zielgruppen und Journey und wieder heraus.
+Beim Hochladen von Echtzeit-Datenströmen oder Batch-Vorgängen werden Datensätze aktualisiert, und Journey Optimizer verschiebt Personen dynamisch in Echtzeit in Zielgruppen und Journeys und wieder aus diesen heraus.
 
 >[!BEGINSHADEBOX]
 
 Diese Dokumentation enthält Informationen zum Arbeiten mit Zielgruppen in [!DNL Adobe Journey Optimizer]. Detaillierte Informationen zum Zielgruppenportal und zu Zielgruppen finden Sie in der Dokumentation zum Segmentierungs-Service in Adobe Experience Platform. Weitere Informationen finden Sie in diesen Abschnitten:
 
-* [Handbuch zur Benutzeroberfläche des Segmentierungs-Services](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Handbuch zur Benutzeroberfläche des Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [Segmentierungs-Service - häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}
+* [Segmentierungs-Service – häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -48,13 +48,13 @@ Diese Dokumentation enthält Informationen zum Arbeiten mit Zielgruppen in [!DNL
 
 Sie können auf Zielgruppen über das Menü **[!UICONTROL Kunde]** > **[!UICONTROL Zielgruppen]** zugreifen.
 
-Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an und unterstützt das Untersuchen wertvoller Zielgruppentrends. Änderungen der Zielgruppengröße über einen bestimmten Zeitraum oder plötzliche Spitzen bei den Zielgruppen können beispielsweise Ereignisse oder Aktionen hervorheben, die eine Zielgruppe zum Verkleinern oder Wachsen gebracht haben, z. B. ein erfolgreiches Angebot.
+Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an und unterstützt das Untersuchen wertvoller Zielgruppen-Trends. Änderungen der Zielgruppengröße über einen bestimmten Zeitraum oder plötzliche Spitzen bei Zielgruppen können beispielsweise Ereignisse oder Aktionen hervorheben, die zum Schrumpfen einer Zielgruppe geführt haben, aber auch solche, die ein Zielgruppenwachstum nach sich gezogen haben, etwa ein erfolgreiches Angebot.
 
 ![](assets/audiences-overview.png)
 
-Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Kennzeichnungen, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
+Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Labels, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
 
-Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal finden Sie in der Dokumentation zum [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
+Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} verfügbar.
 
 ## Zielgruppentypen {#types}
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 52%
 
 ## Verwenden von Sandboxes {#using-sandbox}
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
+[!DNL Journey Optimizer] ermöglicht das Unterteilen von Instanzen in separate virtuelle Umgebungen, sogenannte Sandboxes. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] spiegelt die für eine bestimmte Organisation erstellten Adobe Experience Platform-Sandboxes wider. Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden Sie im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target="_blank"}.
+[!DNL Journey Optimizer] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden. Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden Sie im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target="_blank"}.
 
-Das Steuerelement „Sandbox-Schalter“ finden Sie oben rechts im Bildschirm neben dem Namen Ihrer Organisation. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Schalter auf die derzeit aktive Sandbox und wählen Sie dann in der Dropdown-Liste eine andere Sandbox aus.
+Das Steuerelement zum Wechseln zwischen Sandboxes befindet sich oben rechts auf dem Bildschirm neben dem Namen der Organisation. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Schalter auf die derzeit aktive Sandbox und wählen Sie dann in der Dropdown-Liste eine andere Sandbox aus.
 
 ![](assets/sandbox_5.png)
 
-➡️ [Weitere Informationen zu Sandboxes finden Sie in diesem Video](#video)
+➡️ [Weitere Informationen zu Sandboxes sind in diesem Video verfügbar](#video)
 
 ## Zuweisen von Sandboxes {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> Die Sandbox-Verwaltung kann nur von einem **[!UICONTROL Produkt-]**/**[!UICONTROL -]** ausgeführt werden.
+> Die Sandbox-Verwaltung kann nur von **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Administrierenden durchgeführt werden.
 
 Sie können vorkonfigurierten oder benutzerdefinierten **[!UICONTROL Rollen]** verschiedene Sandboxes zuweisen.
 
@@ -58,11 +58,11 @@ So weisen Sie Sandboxes zu:
 
 ## Zugriff auf Inhalte {#content-access}
 
-Um die Barrierefreiheit von Inhalten zu konfigurieren, weisen Sie jeder Ihrer Sandboxes einen Ordner mit freigegebenen Inhalten zu. Sie können freigegebene Ordner auf der Registerkarte **[!UICONTROL Speicher]**, die im [!DNL Admin Console] für Administratoren angezeigt wird, erstellen und konfigurieren. Wenn Sie als Systemadministrator Zugriff auf die [!DNL Admin Console] haben, können Sie freigegebene Ordner erstellen und Vertreter mit unterschiedlichen Zugriffsebenen zu Ihren freigegebenen Ordnern hinzufügen.
+Um die Barrierefreiheit von Inhalten zu konfigurieren, muss jeder Sandbox ein gemeinsamen Ordner für Inhalte zugewiesen werden. Der gemeinsame Ordner kann auf der Registerkarte **[!UICONTROL Datenspeicherung]**, die unter [!DNL Admin Console] für Administrierende angezeigt wird, erstellt und konfiguriert werden. Wenn Sie als Systemadmin Zugriff auf [!DNL Admin Console] haben, können Sie gemeinsame Ordner erstellen und Delegierte mit unterschiedlichen Zugriffsebenen zu den gemeinsamen Ordnern hinzugefügen.
 
 ![](assets/do-not-localize/content_access.png)
 
-Beachten Sie, dass Sie für die Synchronisierung Ihres Inhalts mit der richtigen Sandbox dieselbe Syntax verwenden müssen wie die Sandbox. Wenn Ihre Sandbox beispielsweise „Entwicklung“ heißt, sollte Ihr freigegebener Ordner denselben Namen haben.
+Für die Synchronisierung des Inhalts mit der richtigen Sandbox muss dieselbe Syntax verwendet werden wie für die Sandbox. Wenn die Sandbox beispielsweise „Entwicklung“ heißt, sollte Ihr gemeinsamer Ordner denselben Namen haben.
 
 [Erfahren Sie, wie Sie gemeinsame Ordner verwalten](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Konfiguration  [!DNL Journey Optimizer]  Kanälen
+title: Erste Schritte bei der [!DNL Journey Optimizer] Kanalkonfiguration
 description: 'Erfahren Sie mehr über die Kanalkonfiguration mit [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
 source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktion
 
 Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte durchlaufen:
 
-1. Definieren Sie als [Adobe Journey Optimizer-](../start/path/administrator.md) Ihre kanalspezifischen Konfigurationen. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
+1. [Adobe Journey Optimizer-Systemadministrierende](../start/path/administrator.md) können kanalspezifische Konfigurationen definieren. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
 
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
@@ -54,11 +54,11 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
 1. Anschließend müssen Sie alle technischen Parameter konfigurieren, die zum Versand von Nachrichten erforderlich sind, indem Sie **Kanalkonfigurationen** erstellen. [Weitere Informationen zu Kanalkonfigurationen](channel-surfaces.md)
 
-1. Je nach den von Ihnen verwendeten Kanälen, Ihren Umgebungen und Ihren Anforderungen müssen Sie auch die folgenden Schritte ausführen:
+1. Je nach den verwendeten Kanälen, Umgebungen und Anforderungen müssen auch die folgenden Schritte ausgeführt werden:
 
-   * Subdomain-Konfiguration und -Zuweisung für Ihre Kanäle wie [E](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [Landingpages](../landing-pages/lp-subdomains.md) und [Web-Erlebnisse](../web/web-delegated-subdomains.md).
+   * Nehmen sie Subdomain-Konfiguration und -Delegierung für Kanäle wie [E-Mails](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [Landingpages](../landing-pages/lp-subdomains.md) und [Web-Erlebnisse](../web/web-delegated-subdomains.md) vor.
 
-   * Richten Sie IP-Aufwärmpläne für eine optimale Zustellbarkeit ein. [Weitere Informationen](ip-warmup-gs.md)
+   * Richten Sie IP-Aufwärmplänen für eine optimale Zustellbarkeit ein. [Weitere Informationen](ip-warmup-gs.md)
 
    * Definieren Sie eine Zulassungsliste für den E-Mail-Versand. [Weitere Informationen](allow-list.md)
 
