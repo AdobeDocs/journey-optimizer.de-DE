@@ -234,7 +234,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Erstellen und Verwalten von Genehmigungsrichtlinien](using/test-approve/approval-policies.md)
       + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
-   + [Systemwarnungen](using/reports/alerts.md)
+   + [Systemwarnhinweise](using/reports/alerts.md)
 + Kommunikationskanäle {#channels}
    + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels.md)
    + E-Mail-Kanal {#email}
@@ -255,7 +255,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
             + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
             + [Generieren der Textversion](using/email/text-version-email.md)
             + [Hinzufügen von Metadaten](using/email/email-metadata.md)
-            + [Benutzerdefiniertes CSS hinzufügen](using/email/custom-css.md)
+            + [Hinzufügen von benutzerdefiniertem CSS](using/email/custom-css.md)
          + Bearbeiten des Stils {#edit-style}
             + [Erste Schritte mit E-Mail-Stilen](using/email/get-started-email-style.md)
             + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)

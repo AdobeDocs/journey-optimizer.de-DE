@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,13 +276,13 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
->title="Von der Transaktions-API ausgelöste Kampagnen"
->abstract="Trigger-Echtzeitnachrichten über API-Aufrufe"
+>title="Vom Transaktions-API ausgelöste Kampagnen"
+>abstract="Auslösen von Echtzeitnachrichten über API-Aufrufe"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Marketing-Nachrichten"
->abstract="Werbeinhalte (erfordert Opt-in, unterliegt Geschäftsregeln)"
+>abstract="Werbeinhalte (erfordern Opt-in, unterliegen Geschäftsregeln)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
@@ -292,7 +292,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="Verfügbare Kanäle"
->abstract="E-Mail, SMS, Push-Benachrichtigungen"
+>abstract="E-Mail-, SMS- und Push-Benachrichtigungen"
 
 <!--APPROVAL POLICIES-->
 

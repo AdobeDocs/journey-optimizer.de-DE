@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '3117'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -456,7 +456,7 @@ Im Folgenden sind die neuen Funktionen dieser Version aufgeführt.
 <tbody>
 <tr>
 <td>
-<p>Die Funktion zur Bewertung der Markenausrichtung bietet ein klares Feedback direkt in der E-Mail-Designer, sodass Sie sehen können, ob Ihr Inhalt mit dem Ton, dem Stil und den Richtlinien Ihrer Marke übereinstimmt. Diese Funktion ist in der Betaversion verfügbar.</p>
+<p>Die Funktion „Markenausrichtungswert“ liefert direkt im E-Mail-Designer klares Feedback, sodass Sie sehen können, ob der Inhalt dem Ton, dem Stil und den Richtlinien Ihrer Marke entspricht. Diese Funktion ist in der Betaversion verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/brands-score.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -514,7 +514,7 @@ Zusätzlich zu den vorhandenen Funktionen für den Testversand stehen neue APIs 
 
 * **Personalisiertes URL-Tracking** – Verfügbarkeitsdatum: 30. April 2025
 
-  Um mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhalten, können Sie jetzt alle URL-Tracking-Parameter gleichzeitig auf der Konfigurationsebene des E-Mail-Kanals personalisieren, anstatt dies für jeden Link in Ihrem Inhalt in der E-Mail-Designer zu tun. [Weitere Informationen](../email/surface-personalization.md#personalize-url-tracking)
+  Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen können Sie nun alle URL-Tracking-Parameter gleichzeitig auf E-Mail-Kanal-Konfigurationsebene personalisieren. Sie müssen diesen Schritt also nicht mehr für jeden einzelnen im Inhalt vorhandenen Link im E-Mail-Designer durchführen. [Weitere Informationen](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E-Mail-Designer** – Verfügbarkeitsdatum: 1. April 2025
 
