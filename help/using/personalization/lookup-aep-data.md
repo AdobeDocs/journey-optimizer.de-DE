@@ -10,14 +10,24 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+source-git-commit: baca603427ebba9ecb843b3c8d219c40354dde0f
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 91%
+source-wordcount: '1246'
+ht-degree: 82%
 
 ---
 
 # Verwenden von Adobe Experience Platform-Daten für die Personalisierung{#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_rules_dataset_lookup"
+>title="Datensatz-Suche"
+>abstract="Durch die Verwendung von Adobe Experience Platform-Daten in Entscheidungsregeln können Sie Eignungskriterien definieren, die auf dynamischen, externen Attributen basieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_formula_dataset_lookup"
+>title="Datensatz-Suche"
+>abstract="Rangfolgeformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung [!DNL Adobe Experience Platform] Datensatzattribute können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist"
 
 >[!AVAILABILITY]
 >
@@ -136,7 +146,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
@@ -167,7 +177,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    In diesem Beispiel möchten wir Informationen über die Einstiegszeit und den Flugsteig der Fluggäste verwenden. Fügen Sie daher die beiden folgenden Zeilen hinzu:
 
