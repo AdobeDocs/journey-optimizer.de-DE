@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 86%
+source-wordcount: '984'
+ht-degree: 81%
 
 ---
 
@@ -51,6 +51,13 @@ Der Journey-Probelauf bietet:
 1. **Zielgruppenerkenntnisse**: Journey-Anwendende können die Erreichbarkeit der Zielgruppe an verschiedenen Journey-Knoten vorhersagen, einschließlich Opt-outs, Ausschlüssen und anderer Bedingungen.
 1. **Echtzeit-Feedback**: Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt, ähnlich wie bei Live-Reporting, sodass Journey-Anwendende ihr Journey-Design optimieren können.
 
+Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
+
+* **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt
+* **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt
+* **Warteknoten** werden während des Probelaufs umgangen.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt.
 
 Für jede Aktivität kann Folgendes überprüft werden:
 
-* **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind.
+* **[!UICONTROL Eingetreten]**: Gesamtzahl der Personen, die an dieser Aktivität teilgenommen haben. Bei **Action**-Aktivitäten gibt diese Metrik an, dass Profile durchlaufen, da sie nicht im Trockenlaufmodus ausgeführt werden.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
 * **[!UICONTROL Ausgetreten (erzwungener Austritt)]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, während sie aufgrund einer Journey-Konfiguration durch Anwendende pausiert war. Diese Metrik ist für Journeys im Probelaufmodus immer gleich null.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
@@ -127,10 +134,4 @@ Klicken Sie auf die Schaltfläche **Schließen**, um den Test zu beenden, und da
    * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist und andernfalls `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelaufinstanz zurück
 
-* Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
-
-   * **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt
-   * **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt
-   * **Warteknoten** werden während des Probelaufs umgangen.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt
+* Bei der Analyse von Journey-Reporting-Metriken mit dem Adobe Experience Platform-Abfrage-Service müssen Dry-Run-generierte Schrittereignisse ausgeschlossen werden. Setzen Sie dazu das `inDryRun`-Flag auf `false`.
