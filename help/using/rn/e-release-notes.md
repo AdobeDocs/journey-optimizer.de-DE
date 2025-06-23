@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 40%
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
 
-## Frühzeitige Versionshinweise Juni 2025 {#25-6-rn}
+## Frühzeitige Versionshinweise Juni 2025 {#25-6-rn}
 
 
 **Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
 
-**Veröffentlichungsdatum**: Donnerstag, 18. Juni 2025
+**Veröffentlichungsdatum**: 18. Juni 2025
 
 
 ### Neue Funktionen {#25-06-features}
@@ -39,19 +39,19 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>RCS Messaging</strong><br/></th>
+<th><strong>RCS-Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Rich Communication Services (RCS)-Messaging wird jetzt in Journey Optimizer unterstützt und ermöglicht die folgenden erweiterten Messaging-Funktionen, die der Provider- und Provider-Unterstützung unterliegen:</p>
+<p>Das Messaging über Rich Communication Services (RCS) wird jetzt in Journey Optimizer unterstützt und ermöglicht die folgenden erweiterten Messaging-Funktionen, die der Anbieter- und Betreiberunterstützung unterliegen:</p>
 <ul>
-<li>Unterstützung für gebrandete und verifizierte Absender: Senden Sie Nachrichten mithilfe verifizierter Geschäftsprofile mit Branding-Elementen (Logo, Absendername usw.).</li>
-<li>Einblicke in den Nachrichtenversand: Sie erhalten detaillierte Versandberichte einschließlich Statusaktualisierungen der Nachricht (z. B. gesendet, zugestellt, gelesen).</li>
-<li>Linktracking: Einbetten und Verfolgen von URLs in RCS-Nachrichten für die Interaktionsanalyse.</li>
-<li>Fallback zu SMS: Automatischer Fallback zu SMS, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend nicht erreichbar ist.</li>
-<li>Grundlegende Nachrichtenkomposition: Senden Sie textbasierte RCS-Nachrichten mit optionalen Medien und Rich-Elementen, je nach Anbieter-Support.</li>
+<li>Unterstützung für Nachrichten mit Markenelementen von verifizierten Absendenden: Senden Sie Nachrichten mithilfe verifizierter Geschäftsprofile mit Markenelementen (Logo, Absendername usw.).</li>
+<li>Erkenntnisse bezüglich des Nachrichtenversands: Erhalten Sie detaillierte Versandberichte einschließlich Statusaktualisierungen der Nachricht (z. B. gesendet, zugestellt, gelesen).</li>
+<li>Linktracking: Betten Sie URLs ein und verfolgen Sie diese in RCS-Nachrichten für die Interaktionsanalyse.</li>
+<li>Fallback zu SMS: Automatischer Fallback zu SMS, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend unerreichbar ist.</li>
+<li>Grundlegende Nachrichtenkomposition: Senden Sie textbasierte RCS-Nachrichten mit optionalen Medien und umfangreichen Elementen, je nach Anbieter-Support.</li>
 </ul>
 <!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
 </td>
@@ -83,7 +83,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der codebasierten Erlebniskanalbearbeitung einfach zu bearbeiten, ohne Code bearbeiten zu müssen.<br />Darüber hinaus können Sie bei der Definition der Code-basierten Erlebnis-Inhaltsvorlagen jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
+<p>Sie können jetzt bestimmte bearbeitbare Felder in JSON- oder HTML-Inhaltsvorlagen definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in einer Formularansicht innerhalb der Code-basierten Erlebniskanalerstellung einfach und ohne Code-Änderungen zu bearbeiten.<br />Darüber hinaus können Sie bei der Definition der Inhaltsvorlagen für Code-basierte Erlebnisse jetzt Entscheidungsrichtlinien in die Vorlage einfügen, was die Wiederverwendbarkeit und Benutzerfreundlichkeit erhöht.</p>
 </td>
 </tr>
 </tbody>
@@ -92,13 +92,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierte Methode zur Zuweisung von Subdomains</strong><br/></th>
+<th><strong>Benutzerdefinierte Methode zur Delegierung von Subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zusätzlich zur vollständigen Delegierung und der CNAME-Methode ist jetzt eine neue Methode zur Subdomain-Konfiguration verfügbar: die Methode der benutzerdefinierten Delegierung , mit der Sie alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten können.</p>
+<p>Neben der vollständigen Delegierung und CNAME-Methode ist nun eine neue Methode zur Subdomain-Konfiguration verfügbar: die benutzerdefinierte Delegierung, mit der Sie alle Aspekte von DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.</p>
 </td>
 </tr>
 </tbody>
@@ -108,14 +108,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Aktivität „Inhaltsentscheidung“ in Journey</strong><br/></th>
+<th><strong>Aktivität „Inhaltsentscheidung“ in Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt personalisierte Angebote über eine dedizierte Aktivität zur Inhaltsentscheidung in Ihre Journey auf der Journey-Arbeitsfläche einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
-<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Sie können jetzt personalisierte Angebote über eine dedizierte Aktivität „Inhaltsentscheidung“ in Ihre Journeys auf der Journey-Arbeitsfläche einbeziehen und sie in Journey-Aktivitäten verwenden, einschließlich Bedingungen und benutzerdefinierter Aktionen.</p>
+<p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 </td>
 </tr>
 </tbody>
@@ -148,8 +148,8 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Journey Dry Run ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendern ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwender Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie es live veröffentlichen.</p>
-<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.</p>
+<p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 </td>
 </tr>
 </tbody>
@@ -159,16 +159,16 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Journey pausieren und fortsetzen</strong><br/></th>
+<th><strong>Pausieren und Fortsetzen von Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Jetzt können Sie anhalten und Ihre Journey fortsetzen. Diese Funktion bietet Anwendern von Journey mehr Kontrolle und Flexibilität, da Live-Journey vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu beeinträchtigen. Wenn angehalten, werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.</p>
-<p>Sie können nur eine Journey anhalten und fortsetzen oder Massenpausierungs- und Wiederaufnahmevorgänge für eine Gruppe von Journeys durchführen.</p>
-<p>Darüber hinaus können Sie globale Filter auf pausierte Journey anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
-<p>Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
+<p>Sie können Ihre Journeys jetzt pausieren und fortsetzen. Diese Funktion gibt Journey-Anwendenden mehr Kontrolle und Flexibilität, da Live-Journeys vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu stören. Während der Pause werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.</p>
+<p>Sie können nur eine Journey pausieren und fortsetzen oder Vorgänge zur Massenpause und -fortsetzung von einer Gruppe von Journeys durchführen.</p>
+<p>Darüber hinaus können Sie globale Filter auf pausierte Journeys anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
+<p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 </td>
 </tr>
 </tbody>
@@ -220,23 +220,23 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kanalregelsätze**
 
-   * **Benutzerdefiniertes Zeitfenster** für die Begrenzung - Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Wiederholungsanzahl** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer über mehrere Tage, Wochen oder Monate anwenden können.
+   * **Benutzerdefiniertes Zeitfenster** für die Begrenzung – Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Anzahl der Wiederholungen** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer über mehrere Tage, Wochen oder Monate anwenden können.
 
-   * **Stündliche Dauer** - Sie können jetzt für Kanalregelsätze eine Begrenzung auf stündlicher Basis anwenden.
+   * **Stündliche Dauer** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden.
 
 * **Code-basierte Erlebnisse**
 
-   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar.
+   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Inhaltsvorlagen für Code-basierte Erlebnisse verfügbar.
 
-   * Auf dem Code-basierten Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen.
+   * Auf dem Bearbeitungsbildschirm der Code-basierten Erlebnis-Journey oder -Kampagne können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen.
 
-* **Benutzerdefinierte CSS-Unterstützung in der E-Mail-Designer**
+* **Unterstützung für benutzerdefiniertes CSS im E-Mail-Designer**
 
-  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen.
+  Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen.
 
 * **Neue Registerkartennavigation für Kampagnen**
 
-  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf die Inhaltserstellung und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
+  Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf das Content-Authoring und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen.
 
 * **Entscheidungsfindung** – Verfügbarkeitsdatum: 3. Juni 2025
 

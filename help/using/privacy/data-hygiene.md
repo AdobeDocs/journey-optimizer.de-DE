@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Diese Aufgaben können mit dem Menü **[!UICONTROL Datenlebenszyklus]** durchgef
 
 ## Empfehlungen {#data-hygiene-recommendations}
 
-Beachten Sie bei der Durchführung von Datenhygiene (z. B. beim Löschen von Identitäten oder Datensätzen), dass historische Versandereignisse, die mit gelöschten Identitäten verknüpft sind, nicht mehr in standardmäßigen Reporting- oder DataLake-Abfragen angezeigt werden. Dies kann zu Diskrepanzen zwischen der Anzahl der als „Zugestellt **gemeldeten E-Mails** der Anzahl der E-Mails **Erhalten** in den Empfängerposteingängen führen, insbesondere bei älteren Journey.
+Beachten Sie bei der Durchführung von Datenhygienevorgängen (z. B. beim Löschen von Identitäten oder Datensätzen), dass historische Versandereignisse, die mit gelöschten Identitäten verknüpft sind, nicht mehr in standardmäßigen Reporting- oder DataLake-Abfragen angezeigt werden. Dies kann zu Diskrepanzen zwischen der Anzahl der als **Zugestellt** gemeldeten E-Mails und der Anzahl der **empfangenen** E-Mails in den Posteingängen der Empfangenden führen, insbesondere bei älteren Journeys.
 
-Validieren und exportieren Sie vor dem Ausführen umfangreicher Löschvorgänge alle erforderlichen Versand- oder Berichtsdaten. Wenn nach der Datenhygiene eine Abstimmung erforderlich ist, stimmen Sie sich mit der Adobe-Unterstützung ab, um auf archivierte Protokolle zuzugreifen, oder verwenden Sie Abfragen zum Message-Feedback-Ereignis-Datensatz für aktuelle Daten.
+Validieren und exportieren Sie vor dem Ausführen umfangreicher Löschvorgänge alle erforderlichen Versand- oder Berichtsdaten. Wenn nach der Datenhygiene eine Abstimmung erforderlich ist, stimmen Sie sich mit dem Adobe-Support ab, um auf archivierte Protokolle zuzugreifen, oder verwenden Sie Abfragen zum Ereignisdatensatz mit Feedback zu Nachrichten für aktuelle Daten.
 
 ## Weitere Informationen {#data-hygiene-learn-more}
 
