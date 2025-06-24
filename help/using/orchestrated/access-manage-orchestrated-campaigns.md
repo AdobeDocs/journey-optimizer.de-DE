@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 19%
+source-wordcount: '717'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 19%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/><b>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md)</b> | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/><b>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md)</b> | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -48,13 +48,11 @@ Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (
 
 Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die orchestrierten Kampagnen so filtern, dass nur die mit einem bestimmten Kanal oder Tag verknüpften oder die in einem bestimmten Datumsbereich erstellten Kampagnen angezeigt werden.
 
-
 Die ![Abbildung mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung der folgenden Vorgänge.
 
 ![Bild des Kampagnenbestands](assets/inventory-actions.png)
 
-* **[!UICONTROL Alle Zeitberichte anzeigen]** -
-* **[!UICONTROL Bericht zu den letzten 24 Stunden anzeigen]** -
+* **[!UICONTROL Alle Zeitberichte anzeigen]**/**[!UICONTROL Bericht zu letzten 24 Stunden anzeigen]** - Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren. [Erfahren Sie mehr über die Berichterstellung für orchestrierte Kampagnen](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die mit der Kampagne verknüpften Tags.
 * **[!UICONTROL Duplizieren]** - In einigen Fällen kann es erforderlich sein, eine orchestrierte Kampagne zu duplizieren, z. B. um eine gestoppte Kampagne auszuführen oder um die Ausführungshäufigkeit einer geplanten Kampagne zu ändern.
 * **[!UICONTROL Löschen]** - Löschen der Kampagne. Diese Aktion ist nur für Kampagnen **[!UICONTROL Entwurf]** verfügbar.
