@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 72%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 
@@ -201,7 +201,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Bislang für die Personalisierung verfügbar, können Adobe Experience Platform-Datensätze jetzt für die Entscheidungsfindung genutzt werden. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, ohne die Attribute einzeln manuell aktualisieren zu müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.</p>
-<p>Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff auf diese Funktion wünschen</p>
+<p>Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff wünschen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/aep-data-exd.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 20. Juni 2025</p>
 </td>

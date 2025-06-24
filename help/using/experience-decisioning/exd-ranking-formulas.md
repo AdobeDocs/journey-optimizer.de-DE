@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '1246'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,10 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 
    * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** über die [Benutzeroberfläche](#ranking-select-criteria) aus,
    * oder wechseln Sie zum [Code-Editor](#ranking-code-editor).
+
+   >[!NOTE]
+   >
+   >Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgelogik dynamisch anzupassen, um reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeit-Preisen. Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff wünschen. [Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Entscheidungsfindung verwenden](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
