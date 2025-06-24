@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 21%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/><b>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md)</b> | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/><b>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md)</b> | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -48,11 +48,23 @@ Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (
 
 Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise die orchestrierten Kampagnen so filtern, dass nur die mit einem bestimmten Kanal oder Tag verknüpften oder die in einem bestimmten Datumsbereich erstellten Kampagnen angezeigt werden.
 
+
+Die ![Abbildung mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung der folgenden Vorgänge.
+
+![Bild des Kampagnenbestands](assets/inventory-actions.png)
+
+* **[!UICONTROL Alle Zeitberichte anzeigen]** -
+* **[!UICONTROL Bericht zu den letzten 24 Stunden anzeigen]** -
+* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die mit der Kampagne verknüpften Tags.
+* **[!UICONTROL Duplizieren]** - In einigen Fällen kann es erforderlich sein, eine orchestrierte Kampagne zu duplizieren, z. B. um eine gestoppte Kampagne auszuführen oder um die Ausführungshäufigkeit einer geplanten Kampagne zu ändern.
+* **[!UICONTROL Löschen]** - Löschen der Kampagne. Diese Aktion ist nur für Kampagnen **[!UICONTROL Entwurf]** verfügbar.
+* **[!UICONTROL Archivieren]** - Archivieren Sie die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung neu geplant. Diese Aktion steht für alle Kampagnen mit Ausnahme von Kampagnen **[!UICONTROL Entwurf]** zur Verfügung.
+
 ## Was verbirgt sich in einer orchestrierten Kampagne? {#gs-ms-campaign-inside}
 
 Die orchestrierte Kampagnen-Arbeitsfläche ist eine Darstellung dessen, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
-![Bild mit einer orchestrierten Kampagnen-Arbeitsfläche](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![Bild mit einer orchestrierten Kampagnen-Arbeitsfläche](assets/canvas-example.png)
 
 Jede orchestrierte Kampagne enthält:
 
@@ -76,26 +88,6 @@ Wiederholter Beginn mit der Ausführung einer Abfrage . Klicken Sie auf „Schli
 * **[!UICONTROL Live]**: Die orchestrierte Kampagne wurde veröffentlicht und wird ausgeführt.
 * **[!UICONTROL Geplant]**: Die Ausführung der orchestrierten Kampagne wurde geplant.
 * **[!UICONTROL Abgeschlossen]**: Die orchestrierte Kampagnenausführung ist abgeschlossen. Der Status Abgeschlossen wird automatisch bis zu 3 Tage nach dem fehlerfreien Versand von Nachrichten durch eine Kampagne zugewiesen.
-* **[!UICONTROL Geschlossen]**: Dieser Status wird angezeigt, wenn eine wiederkehrende Kampagne gestoppt wurde.
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL Geschlossen]**: Dieser Status wird angezeigt, wenn eine wiederkehrende Kampagne geschlossen wurde. Die Kampagne wird ausgeführt, bis alle Aktivitäten abgeschlossen sind, aber es können keine weiteren Profile in die Kampagne eintreten.
 * **[!UICONTROL Archiviert]**: Die koordinierte Kampagne wurde archiviert. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem letzten Änderungsdatum neu geplant. Eine archivierte Kampagne kann bei Bedarf dupliziert werden, um sie weiter bearbeiten zu können.
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL Angehalten]**: Die orchestrierte Kampagnenausführung wurde angehalten. Um die Kampagne erneut zu starten, müssen Sie sie duplizieren. si erreur ,restera avec triangle
-
-## Duplizieren und Löschen von orchestrierten Kampagnen {#duplicate-delete}
-
-In einigen Fällen müssen Sie möglicherweise eine orchestrierte Kampagne duplizieren, z. B. um eine gestoppte Kampagne auszuführen oder um die Ausführungshäufigkeit einer geplanten Kampagne zu ändern. Klicken Sie dazu auf die Schaltfläche ![Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar und wählen Sie dann **[!UICONTROL Duplizieren]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-Um eine Kampagne zu löschen, klicken Sie auf ![Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie dann **[!UICONTROL Löschen]**.
-
->[!NOTE]
->
->Nur **[!UICONTROL Entwurf]**-Kampagnen können gelöscht werden.
