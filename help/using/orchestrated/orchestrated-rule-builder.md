@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 22%
+source-wordcount: '388'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | <b>[Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)</b><br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | <b>[Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)</b><br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -31,13 +31,17 @@ ht-degree: 22%
 
 Orchestrierte Kampagnen enthalten einen Regel-Builder, der den Prozess der Filterung der Datenbank anhand verschiedener Kriterien vereinfacht. Der Regel-Builder verwaltet sehr komplexe und lange Abfragen effizient und bietet somit mehr Flexibilität und Präzision.
 
-Außerdem werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos präzisieren und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppen-Targeting- und Segmentierungsstrategien nutzen können.
+Es unterstützt auch vordefinierte Filter innerhalb von Bedingungen und ermöglicht es Ihnen, Abfragen mühelos zu verfeinern und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppen-Targeting- und Segmentierungsstrategien zu verwenden.
 
 ## Zugriff auf den Regel-Builder
 
-Der Regel-Builder ist beim Erstellen einer Abfrage in einer Aktivität **[!UICONTROL Zielgruppe erstellen]** verfügbar, um eine Zielgruppe anzusprechen. Damit können Sie die Population angeben, die Sie ansprechen möchten, und mühelos neue Zielgruppen erstellen, die auf Ihre Bedürfnisse zugeschnitten sind.
+Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
-![Bild mit der Aktivität „Zielgruppe aufbauen“](assets/rule-builder-query.png)
+| Nutzung | Beispiel |
+|  ---  |  ---  |
+| **Zielgruppen erstellen**: Geben Sie mit der Aktivität Zielgruppe erstellen die Population an, die Sie in Ihren orchestrierten Kampagnen ansprechen möchten **[!UICONTROL und]** mühelos neue Zielgruppen erstellen, die auf Ihre Bedürfnisse zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../orchestrated/activities/build-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Bedingung auf der Kampagnen-Arbeitsfläche erstellen**: Wenden Sie Regeln auf der Kampagnen-Arbeitsfläche mithilfe einer **[!UICONTROL Aufspaltung]**-Aktivität an, um sie an Ihre spezifischen Anforderungen anzupassen. [Erfahren Sie, wie Sie eine Aufspaltungsaktivität verwenden](../orchestrated/activities/split.md) | ![Bild, das zeigt, wie auf Workflow-Anpassungsoptionen zugegriffen werden kann](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **Erweiterte Filter erstellen** Regeln erstellen, um die in Listen angezeigten Daten wie Workflow-Protokollen oder Zielgruppendimensionen zu filtern. | ![Bild, das zeigt, wie Listenfilter angepasst werden](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Benutzeroberfläche des Regel-Builders {#interface}
 
