@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 113940fe7c96eeeeedc743a51511bd09b9d2777e
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 97%
@@ -706,13 +706,13 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
 + Daten-Management {#data-management}
    + [Erste Schritte mit Daten-Management](using/data/gs-data.md)
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
-   + [Verwenden von Adobe Experience Platform-Daten in Journey Optimizer](using/data/lookup-aep-data.md)
    + Journey Optimizer-Datensätze {#datasets}
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
       + [Time-to-Live(TTL)-Limits für Datensätze](using/data/datasets-ttl.md)
       + [Exportieren von Journey Optimizer-Datensätzen](using/data/export-datasets.md)
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
       + [Integrierte Schemata >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+   + [Verwenden von Adobe Experience Platform-Daten in Journey Optimizer](using/data/lookup-aep-data.md)
    + [Abfragen](using/data/get-started-queries.md)
 + Kanalkonfiguration {#configuration}
    + [Erste Schritte bei der Kanalkonfiguration](using/configuration/get-started-configuration.md)
