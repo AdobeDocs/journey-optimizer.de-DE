@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 98%
@@ -41,7 +41,7 @@ Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experienc
 
 Sie können auch **berechnete Attribute** nutzen, um Ihren Content zu personalisieren. Berechnete Attribute ermöglichen es Ihnen, einzelne Verhaltensereignisse in berechnete Profilattribute zusammenzufassen, die in Adobe Experience Platform verfügbar sind. [Informationen zum Arbeiten mit berechneten Attributen](../audience/computed-attributes.md)
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen zudem, Daten aus Adobe Experience Platform im Personalisierungseditor zu nutzen, um Ihren Content zu personalisieren. Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihren Content in Journey Optimizer zu personalisieren. Diese Funktion ist derzeit in der Beta-Version verfügbar. [Weitere Informationen](../personalization/lookup-aep-data.md)
+[!DNL Journey Optimizer] ermöglicht es Ihnen zudem, Daten aus Adobe Experience Platform im Personalisierungseditor zu nutzen, um Ihren Content zu personalisieren. Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihren Content in Journey Optimizer zu personalisieren. Diese Funktion ist derzeit in der Beta-Version verfügbar. [Weitere Informationen](../personalization/aep-data-perso.md)
 
 ## Personalisierung – Lernen und Experimentieren {#playground}
 
@@ -97,7 +97,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
