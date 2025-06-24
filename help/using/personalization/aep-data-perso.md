@@ -88,7 +88,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
@@ -119,7 +119,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    In diesem Beispiel möchten wir Informationen über die Einstiegszeit und den Flugsteig der Fluggäste verwenden. Fügen Sie daher die beiden folgenden Zeilen hinzu:
 
