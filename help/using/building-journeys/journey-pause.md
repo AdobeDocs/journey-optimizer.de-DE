@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 32%
+source-wordcount: '2109'
+ht-degree: 30%
 
 ---
 
@@ -147,7 +147,11 @@ Profilausschlüsse für Profile, die sich derzeit in der Journey befinden, und f
 
 ## Schutzmechanismen und Einschränkungen {#journey-pause-guardrails}
 
-* Eine Journey-Version kann für maximal 14 Tage angehalten werden
+* Eine Journey-Version kann bis zu **14 Tage lang angehalten werden** wobei in pausierten Journey in Ihrem Unternehmen maximal **10 Millionen** zulässig sind.
+Diese Begrenzung wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System ihn jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.
+
+  Wenn Sie die Journey fortsetzen, um die Anzahl der gespeicherten Profile wieder unter das Limit zu bringen, wird die Journey sofort fortgesetzt - es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit kann das System diese Profile immer noch als angehalten betrachten.
+
 * Anhaltende Journey werden auf das Live-Journey-Kontingent angerechnet
 * Profile, die auf Journey zugegriffen haben, aber während der Pause verworfen wurden, werden weiterhin als kontaktierbare Profile gezählt
 * Anhaltende Journey werden in allen Geschäftsregeln berücksichtigt, genauso wie wenn sie live wären
