@@ -7,10 +7,10 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
@@ -69,4 +69,4 @@ Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wi
 
 >[!NOTE]
 >
->Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [ein KI-Modell erstellt wird] ().
+>Dieser Datensatz kann jetzt beim Erstellen eines KI-Modells ausgewählt werden, um Ereignisdaten zu erfassen<!--add link to Creat AI models section-->.
