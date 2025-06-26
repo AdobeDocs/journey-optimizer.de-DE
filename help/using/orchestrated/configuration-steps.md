@@ -179,7 +179,7 @@ Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quelle
 
    * Mit einem neuen Konto
 
-   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect).
+   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect).
 
    ![](assets/admin_sources_2.png)
 
