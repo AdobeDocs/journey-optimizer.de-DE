@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ Wenn eines der mit _ePHI1_ gekennzeichneten Felder (im vorliegenden Beispiel das
 
 Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion erkennt, wird ein Fehler angezeigt, der die Veröffentlichung verhindert.
 
-Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Klicken Sie auf den Fehler, um detaillierte Informationen zu den Verstößen gegen Data Governance-Richtlinien anzuzeigen.
+Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Wählen Sie den Fehler aus, um detaillierte Informationen über die aufgetretene Verletzung der Data-Governance-Richtlinien anzuzeigen.
 
 ![](assets/action-privacy8.png)
 

@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 79%
+source-wordcount: '995'
+ht-degree: 78%
 
 ---
 
@@ -73,7 +73,7 @@ Die Probelauf-Funktion kann in jeder fehlerfreien Entwurfs-Journey verwendet wer
 Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 1. Öffnen Sie die Journey, die getestet werden soll.
-1. Klicken Sie auf die Schaltfläche **Probelauf**.
+1. Klicken Sie auf **Schaltfläche „Probelauf**.
 
    ![Starten des Journey-Probelaufs](assets/dry-run-button.png)
 

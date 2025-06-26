@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 66%
 
 ---
 
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
 
-Um eine Journey zu aktivieren und neuen Profilen den Eintritt zu ermöglichen, müssen Sie sie veröffentlichen. Durch die Veröffentlichung wird die Journey aktiviert und einsatzbereit. Vor der Veröffentlichung müssen Sie sicherstellen, dass die Journey vollständig und gültig ist, und etwaige Fehler beheben, da eine Journey nicht veröffentlicht werden kann, wenn sie Fehler enthält.
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren, und sie für neue Profile verfügbar machen, damit diese auf die Journey zugreifen können. Überprüfen Sie vor dem Veröffentlichen Ihres Journey, ob er gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -26,29 +26,26 @@ Um eine Journey zu aktivieren und neuen Profilen den Eintritt zu ermöglichen, m
 
 Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
-1. Bevor Sie Ihre Journey veröffentlichen, stellen Sie sicher, dass sie gültig und fehlerfrei ist. Journeys können nicht veröffentlicht werden, wenn sie Fehler enthalten.
+1. Überprüfen Sie vor dem Veröffentlichen Ihres Journey, ob er gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
 
    * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
    * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
 
-1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
+1. Um die Journey zu veröffentlichen, klicken Sie auf die **[!UICONTROL Veröffentlichen]** Option im Dropdown-Menü oben rechts.
 
    >[!NOTE]
    >
-   > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um sie veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
-
+   > Wenn für Ihre Journey eine Genehmigungsrichtlinie gilt, müssen Sie eine Genehmigung zur Veröffentlichung Ihrer Journey anfordern. [Weitere Informationen](../test-approve/gs-approval.md)
 
    ![](assets/journeyuc1_18.png)
 
-Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Wenn eine Journey schreibgeschützt ist, können Sie nur die Titel und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [ eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
+Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Im schreibgeschützten Modus können Sie nur die Aktivitätsbeschriftungen und -beschreibungen, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie zusätzliche Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
 
-Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt: Alle Personen, die die Journey durchlaufen, werden dauerhaft gestoppt, und die Journey erlaubt keine neuen Eintritte mehr. Wenn Sie die Journey erneut ausführen müssen, müssen Sie sie duplizieren und die neue Journey veröffentlichen.
-
+Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt. Alle Personen, die die Journey durchlaufen, werden dauerhaft gestoppt, und die Journey erlaubt keine neuen Einträge mehr. Wenn Sie die Journey erneut ausführen müssen, duplizieren Sie sie und veröffentlichen Sie die neue Journey.
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey aufgenommen werden und die Nachricht den neuesten Aktualisierungen entspricht.
-
+>Wenn Änderungen an einer in einer Journey-Nachricht verwendeten Angebotsentscheidung vorgenommen werden, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen. Dadurch wird sichergestellt, dass die Änderungen in die Journey-Nachricht aufgenommen werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 ## Journey-Versionen {#journey-versions}
 
@@ -90,4 +87,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

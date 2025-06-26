@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 93%
+source-wordcount: '1058'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Als Admin können Sie Ihre benutzerdefinierten Aktionskonfigurationen auch teste
 
 ### Fehler in Aktivitäten {#activity-errors}
 
-Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Wenn Sie auf die Aktivität klicken, sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Zum Beispiel:
+Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Bei Auswahl der Aktivität sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Zum Beispiel:
 
 * wird ein Fehler angezeigt, wenn ein Pflichtfeld leer ist.
 

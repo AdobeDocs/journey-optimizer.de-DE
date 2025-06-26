@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerdefiniert
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Sie können eine Zeitzone in den [Eigenschaften](../building-journeys/journey-properties.md#timezone) Ihrer Journey festlegen.
 
-Um die Eigenschaften der Journey aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
+Um die Journey-Eigenschaften aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
 
 Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.:
 

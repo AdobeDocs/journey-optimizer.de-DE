@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Journey, Anwendungsfall, Nachricht, Abonnenten, Liste, Lesen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
@@ -46,8 +46,8 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
       | Funktion | Beschreibung | Beispiel |
       | --- | --- | --- |
-      | `entry` | Verweis auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnement-Liste |
-      | `firstEntryKey` | Abrufen des ersten Eintragsschlüssels einer Zuordnung | Abrufen der ersten E-Mail-Adresse der Abonnenten |
+      | `entry` | Bezieht sich auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnement-Liste |
+      | `firstEntryKey` | Ruft den ersten Eintragsschlüssel einer Zuordnung ab | Abrufen der ersten E-Mail-Adresse der Abonnenten |
 
       In diesem Beispiel erhält die Abonnement-Liste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnement-Liste verknüpft ist.
 

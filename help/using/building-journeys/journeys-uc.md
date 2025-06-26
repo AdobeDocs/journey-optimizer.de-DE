@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '725'
+ht-degree: 44%
 
 ---
 
@@ -24,56 +24,52 @@ In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der die Aktivität „Z
 
 ## Beschreibung des Anwendungsfalls
 
-Bei diesem Anwendungsfall möchten wir eine erste E-Mail-Nachricht an alle Kundinnen und Kunden senden, die zu einer bestimmten Zielgruppe gehören.
+In diesem Anwendungsfall besteht das Ziel darin, eine erste E-Mail-Nachricht an alle Kunden zu senden, die zu einer bestimmten Zielgruppe gehören.
 
-Abhängig von ihrer jeweiligen Reaktion auf die erste Nachricht möchten wir spezifische Nachrichten senden.
+Je nach Reaktion auf die erste Nachricht werden spezifische Folgenachrichten gesendet.
 
-Wenn die Kundin oder der Kunde die E-Mail öffnet, warten wir auf einen Kauf und senden eine Push-Nachricht, um der Kundin bzw. dem Kunden zu danken.
+Wenn der Kunde die E-Mail öffnet, wartet das System auf einen Kauf und sendet eine Push-Nachricht, um dem Kunden zu danken.
 
-Wenn keine Reaktion erfolgt, senden wir eine Folge-E-Mail.
+Wenn keine Reaktion erfolgt, wird eine Follow-up-E-Mail gesendet.
 
 ## Voraussetzungen
 
-Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
+Damit dieser Anwendungsfall funktioniert, konfigurieren Sie Folgendes:
 
-* eine Zielgruppe für alle Kundinnen und Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
-* ein Kaufereignis
+* Ein Publikum für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
+* Ein Kaufereignis
 
 ### Erstellen der Zielgruppe
 
-In unserer Journey möchten wir eine bestimmte Kundenzielgruppe verwenden. Alle dieser Zielgruppe angehörenden Personen treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel benötigen wir eine Zielgruppe, die alle Kundinnen und Kunden umfasst, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
+In diesem Journey wird eine bestimmte Zielgruppe von Kundinnen und Kunden genutzt. Alle dieser Zielgruppe angehörenden Personen treten in die Journey ein und folgen den verschiedenen Schritten. In diesem Beispiel bezieht sich die Zielgruppe auf alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
 
-Weitere Informationen zu Zielgruppen finden Sie auf dieser [Seite](../audience/about-audiences.md).
+Weitere Informationen zu Zielgruppen finden [ auf dieser Seite ](../audience/about-audiences.md).
 
 1. Wählen Sie im Menüabschnitt KUNDE die Option **[!UICONTROL Zielgruppen]** aus.
-
-1. Klicken Sie oben rechts in der Zielgruppenliste auf die Schaltfläche **[!UICONTROL Zielgruppe erstellen]**.
-
+1. Klicken Sie auf **[!UICONTROL Zielgruppe erstellen]** oben rechts in der Liste der Zielgruppen.
 1. Geben Sie im Bereich **[!UICONTROL Zielgruppeneigenschaften]** einen Namen für die Zielgruppe ein.
-
-1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie die Felder dann entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir die Attributfelder **Stadt** und **Geburtsjahr**.
-
+1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie sie entsprechend Ihren Anforderungen. Verwenden Sie in diesem Beispiel die Attributfelder **Stadt** und **Geburtsjahr** .
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/add-attributes.png)
 
-Die Zielgruppe ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit einer Aktivität vom Typ **Zielgruppe lesen** können Sie alle Personen, die der Zielgruppe angehören, in die Journey eintreten lassen.
+Die Zielgruppe ist jetzt erstellt und kann auf der Journey verwendet werden. Mit der Aktivität **Zielgruppe lesen** können alle Einzelpersonen der Zielgruppe die Journey eingeben.
 
 ### Konfigurieren des Ereignisses
 
-Sie müssen ein Ereignis konfigurieren, das an Ihre Journey gesendet wird, wenn ein Kunde einen Kauf tätigt. Wenn die Journey das Ereignis erhält, wird die Nachricht „Vielen Dank“ verschickt.
+Konfigurieren Sie ein Ereignis, das an den Journey gesendet wird, wenn ein Kunde einen Kauf tätigt. Wenn die Journey das Ereignis erhält, wird die Nachricht „Vielen Dank“ verschickt.
 
-Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Informationen zu Ereignissen finden Sie auf dieser [Seite](../event/about-events.md).
+Verwenden Sie dazu ein [regelbasiertes Ereignis](../event/about-events.md).
 
 1. Wählen Sie im Menüabschnitt ADMINISTRATION die Option **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Klicken Sie auf **[!UICONTROL Ereignis erstellen]**, um ein neues Ereignis zu erstellen.
 
-1. Geben Sie den Namen Ihres Ereignisses ein.
+1. Geben Sie den Namen des Ereignisses ein.
 
 1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** die Option **[!UICONTROL Regelbasiert]** aus.
 
-1. Definieren Sie die Felder **[!UICONTROL Schema]** und **[!UICONTROL Payload]**. Sie können mehrere Felder verwenden, beispielsweise das erworbene Produkt, das Kaufdatum und die Kauf-ID.
+1. Definieren Sie die Felder **[!UICONTROL Schema]** und **[!UICONTROL Payload]**. Verwenden Sie mehrere Felder, z. B. das gekaufte Produkt, das Kaufdatum und die Kauf-ID.
 
-1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die einen Trigger an Ihre Journey übermitteln. Sie können beispielsweise ein Feld `purchaseMessage` hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
+1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID]** Bedingung die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die den Journey-Trigger auslösen. Fügen Sie beispielsweise ein `purchaseMessage` hinzu und definieren Sie die folgende Regel: `purchaseMessage="thank you"`
 
 1. Definieren Sie den **[!UICONTROL Namespace]** und die **[!UICONTROL Profilkennung]**.
 
@@ -81,7 +77,7 @@ Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Inf
 
    ![](assets/jo-uc2.png)
 
-Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. Mit der entsprechenden Ereignisaktivität können Sie eine Aktion jedes Mal auslösen, wenn ein Kunde einen Einkauf tätigt.
+Das Ereignis ist jetzt konfiguriert und kann auf der Journey verwendet werden. Mithilfe der entsprechenden Ereignisaktivität kann eine Aktion jedes Mal ausgelöst werden, wenn ein Kunde einen Kauf tätigt.
 
 ## Entwerfen der Journey
 
@@ -89,15 +85,15 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
    ![](assets/jo-uc4.png)
 
-1. Legen Sie die Aktionsaktivität **E-Mail** im Arbeitsbereich ab und definieren Sie den Inhalt der „ersten Nachricht“. Diese Nachricht wird an alle Personen in der Journey gesendet. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
+1. Legen Sie **Aktionsaktivität „E** Mail“ im Arbeitsbereich ab und definieren Sie den Inhalt der „ersten Nachricht“. Diese Nachricht wird an alle Personen in der Journey gesendet. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
    ![](assets/jo-uc5.png)
 
 1. Fügen Sie ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald ein zur Zielgruppe gehörender Kontakt die E-Mail öffnet.
 
-1. Markieren Sie das Kästchen **Maximale Wartezeit für das Ereignis definieren**, definieren Sie eine Dauer (in unserem Beispiel 1 Tag) und markieren Sie **Pfad für maximale Wartezeit festlegen**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
+1. Markieren Sie das **Maximale Wartezeit für das Ereignis definieren**, definieren Sie die Dauer (in diesem Beispiel 1 Tag) und aktivieren Sie **Zeitüberschreitungspfad festlegen**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
-1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Benachrichtigung öffnen. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
+1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die die erste E-Mail- oder Push-Nachricht nicht innerhalb des nächsten Tages öffnen. [Erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten](../email/create-email.md).
 
 1. Fügen Sie im ersten Pfad das zuvor erstellte Kaufereignis hinzu. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
@@ -105,8 +101,8 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
 ## Testen und Veröffentlichen der Journey
 
-1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen.
+1. Stellen Sie vor dem Testen der Journey sicher, dass sie gültig ist und kein Fehler vorliegt.
 
-1. Klicken Sie auf den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. In diesem [Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie den Testmodus verwenden.
+1. Verwenden Sie den **Test**-Umschalter oben rechts, um den Testmodus zu aktivieren. In diesem [Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie den Testmodus verwenden.
 
 1. Wenn die Journey fertig ist, veröffentlichen Sie diese mit der Schaltfläche **Veröffentlichen** rechts oben.

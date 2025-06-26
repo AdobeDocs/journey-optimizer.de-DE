@@ -8,17 +8,17 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen. Sie können mehrstufige fortgeschrittene Szenarien mit den folgenden Funktionen entwerfen:
+Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen. Sie können mehrstufige erweiterte Szenarien mit den folgenden Funktionen entwerfen:
 
 * Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **als Batch** unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
@@ -56,4 +56,4 @@ In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys 
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

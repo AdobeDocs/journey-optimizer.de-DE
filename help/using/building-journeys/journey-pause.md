@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 30%
+source-wordcount: '2106'
+ht-degree: 28%
 
 ---
 
@@ -50,7 +50,7 @@ Jede **Live**-Journey kann pausiert werden.
 Gehen Sie wie folgt vor, um diese Journey zu pausieren:
 
 1. Öffnen Sie die zu pausierende Journey.
-1. Klicken Sie auf die Schaltfläche **… Mehr** im rechten oberen Bereich der Journey-Arbeitsfläche und wählen Sie **Anhalten** aus.
+1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche und wählen Sie **Pause**.
 
    ![Schaltfläche zum Pausieren der Journey](assets/pause-journey-button.png)
 
@@ -103,7 +103,7 @@ Pausierte Journeys werden nach Ablauf des maximalen Pausierungszeitraums von 14�
 Mit den folgenden Schritten wird eine pausierte Journey fortgesetzt und Journey-Ereignisse werden wieder überwacht:
 
 1. Öffnen Sie die Journey, die fortgesetzt werden soll.
-1. Klicken Sie auf die Schaltfläche **… Mehr** im rechten oberen Bereich der Journey-Arbeitsfläche und wählen Sie **Fortsetzen** aus.
+1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche und **Fortsetzen**.
 
    Die Journey wechselt in den Status **Wird fortgesetzt**. Wenn die Journey fortgesetzt wird, beginnen innerhalb einer Minute neue Eintritte. Das Fortsetzen von gespeicherten Profilen kann einige Zeit in Anspruch nehmen - Profile werden mit einer 5.000-Bit-Rate wieder aufgenommen.  Da alle Profile erneut aufgenommen werden müssen, damit die Journey wieder **Live** ist, kann der Übergang vom **Wiederaufnahme** zum **Live**-Status einige Zeit dauern.
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um beispielsweise alle französischen Kunden von einer 
 
 1. Navigieren Sie zur pausierten Journey, die geändert werden soll.
 
-1. Klicken Sie auf das Symbol **Ausstiegskriterien und globaler Filter**.
+1. Wählen Sie das Symbol **Ausstiegskriterien und globaler Filter** aus.
 
    ![Hinzufügen eines globalen Filters zu einer pausierten Journey](assets/add-global-filter.png)
 

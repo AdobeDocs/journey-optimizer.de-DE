@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Weitere Informationen zu Journey-Berechtigungen finden Sie in [diesem Abschnitt]
 Gehen Sie wie folgt vor, um eine benutzerdefinierte Aktion zu testen:
 
 1. Navigieren Sie zum Bildschirm **Aktionskonfiguration** und wählen Sie eine benutzerdefinierte Aktion aus.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testanfrage senden]** unten im Bildschirm „Aktionskonfiguration“.
+1. Klicken Sie auf **[!UICONTROL Testanfrage senden]** unten im Konfigurationsbildschirm für die Aktion.
    ![Schaltfläche „Testanfrage senden“ im Panel „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
 1. Im Popup-Fenster können Sie Anfrageparameter angeben:
 

@@ -8,10 +8,10 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 94%
+source-wordcount: '753'
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ Sie können diesen Wert von 500 bis 20.000 Instanzen pro Sekunde einstellen. Wen
 
 ![](assets/limit-throughput-2.png)
 
-Nehmen wir das Beispiel einer **durch Zielgruppen ausgelösten Journey** mit einer Population von **10.000 Profilen**, welche Daten an ein externes System sendet, das **100 Anfragen/Sekunde** unterstützt.
+Nehmen wir das Beispiel einer **zielgruppengesteuerten Journey** die mit einer Population von **10.000 Profilen arbeitet** Daten an ein externes System sendet, das **100 Anfragen/Sekunde** unterstützt.
 
 1. Sie können die Aktivität „Zielgruppe lesen“ definieren, um Profile mit einem Durchsatz von 500 Profilen/Sekunde zu lesen. Somit wird es 20 Sekunden dauern, um alle Ihre Profile zu lesen. Während der ersten Sekunde werden Sie 500 davon lesen, während der zweiten 500 weitere und so weiter.
 
