@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 98%
@@ -79,9 +79,9 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 
 +++
 
-* Um die Präsentation des Entscheidungselements auf die Mitglieder einer oder mehrerer Adobe Experience Platform-Zielgruppen zu beschränken, wählen Sie die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]** aus, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md).
+* Um die Präsentation des Entscheidungselements auf die Mitglieder einer oder mehrerer Adobe Experience Platform-Zielgruppen zu beschränken, wählen Sie die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]** aus, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
-* Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Weitere Informationen zu Entscheidungsregeln](rules.md)
+* Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Erfahren Sie mehr über Entscheidungsregeln](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
    >[!NOTE]
    >
    >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zum Entscheidungs-Management in Journey Optimizer:
-   >* [Datenerfassung für das Entscheidungs-Management](../offers/data-collection/data-collection.md)
-   >* [Konfigurieren der Datenerfassung](../offers/data-collection/schema-requirement.md)
+   >* [Datenerfassung für das Entscheidungs-Management](data-collection/data-collection.md)
+   >* [Konfigurieren der Datenerfassung](data-collection/schema-requirement.md)
 
 1. So wählen Sie den Begrenzungstyp:
 

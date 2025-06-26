@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2473'
 ht-degree: 98%
 
 ---
@@ -557,6 +557,10 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
       + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
       + [Anwendungsfall für die Entscheidungsfindung](using/experience-decisioning/experience-decisioning-uc.md)
+      + Erfassen von Ereignisdaten {#collect-event-data}
+         + [Erste Schritte mit der Datenerfassung](using/experience-decisioning/data-collection/data-collection.md)
+         + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/experience-decisioning/data-collection/create-dataset.md)
+         + [Konfigurieren der Ereigniserfassung](using/experience-decisioning/data-collection/schema-requirement.md)
    + Entscheidungs-Management {#offer-decisioning}
       + Erste Schritte mit dem Entscheidungs-Management {#get-started-decision}
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
