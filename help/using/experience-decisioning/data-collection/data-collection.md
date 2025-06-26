@@ -5,11 +5,10 @@ feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: fdf10ed61a4ea4c542c002e74276613be12cc331
+source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +20,7 @@ Sie können Feedback zu Angebotsentscheidungen in Adobe Experience Platform erfa
 
 * Erstellen [Entscheidungsberichten](../cja-reporting.md);
 * Verwenden von [Begrenzungs](../items.md#capping)Regeln;
-* Erstellen von [KI-Modellen](../ranking/create-ranking-strategies.md), die als Ranking-Methode verwendet werden können.
+* Erstellen von KI<!--add link-->Modellen, die als Ranking-Methode verwendet werden können.
 
 ## Ereignistypen
 
