@@ -6,11 +6,10 @@ description: Erfahren Sie, wie Sie einen Datensatz erstellen, um Ereignisse zu e
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +27,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
    >[!NOTE]
    >
-   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [XDM-Systemübersichtsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+   >Weitere Informationen zu XDM-Schemata und Feldergruppen sind in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} verfügbar.
 
 1. Geben Sie einen Namen und eine Beschreibung für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![](../assets/ai-ranking-xdm-event-2.png)
