@@ -69,4 +69,4 @@ Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wi
 
 >[!NOTE]
 >
->Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [ein KI-Modell erstellt wird]().
+>Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [ein KI-Modell erstellt wird] ().
