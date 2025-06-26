@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
-source-wordcount: '2395'
-ht-degree: 100%
+source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
+workflow-type: tm+mt
+source-wordcount: '2392'
+ht-degree: 95%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
+>abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, Ihren Berechtigungen und der Produktkonfiguration ab."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
-Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie für bestehende Journeys auf das Stiftsymbol neben dem Journey-Namen, um sie zu öffnen.
+Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie bei bestehenden Journey auf das Stiftsymbol neben dem Namen der Journey, um sie zu öffnen.
 
 Über diesen Abschnitt können Sie den Namen der Journey definieren, eine Beschreibung hinzufügen und globale Journey-Eigenschaften festlegen.
 
@@ -33,7 +33,7 @@ Sie haben folgende Möglichkeiten:
 
 * Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
 * Auswählen von Journey-Metriken. [Weitere Informationen zum Konfigurieren und Tracking von Journey-Metriken](success-metrics.md)
-* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
+* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Profileintritts hängt von der Art der Journey ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
 * Verwalten des [Zugriffs auf Daten](#manage-access)
 * Auswählen der [Zeitzonen](#timezone) für die Journey und das Profil
 * Festlegen benutzerdefinierter [Start- und Enddaten](#dates)
@@ -46,7 +46,7 @@ Sie haben folgende Möglichkeiten:
 >
 >Für Live-Journeys werden in diesem Bildschirm nur das Veröffentlichungsdatum und der Name der Person angezeigt, die die Journey veröffentlicht hat.
 
-Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, um dem Support-Team bei der Problembehebung zu helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+Mit **Option „Technische Details kopieren** können Sie technische Informationen über die Journey kopieren, die dem Supportteam bei der Fehlerbehebung helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und dazu, wie Sie sie verwenden können, finden Sie [auf dieser Seite](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bes
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Eintritts von Profilen hängt vom Typ der Journeys ab. Weitere Informationen zur Verwaltung des Eintritts und Wiedereintritts von Profilen finden Sie auf [dieser Seite](entry-management.md).
+Die Verwaltung des Profileintritts hängt von der Art der Journey ab. Weitere Informationen zur Verwaltung des Eintritts und Wiedereintritts von Profilen finden Sie auf [dieser Seite](entry-management.md).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -71,14 +71,14 @@ Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit bis zum erneuten Eintritt"
->abstract="Legen Sie die Wartezeit fest, bevor Sie einem Profil erlauben, bei unitären Journeys erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
+>abstract="Wartezeit einstellen, bevor einem Profil erlaubt wird, in unitären Journey erneut auf die Journey zuzugreifen. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Sie können den Zugriff auf eine Journey anhand von Zugriffs-Labels einschränken. 
+Sie können den Zugriff auf eine Journey anhand von Zugriffsbeschriftungen einschränken.
 
 Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Verwalten von Zugriffs-Labels]** und wählen Sie ein oder mehrere Labels aus.
 
@@ -100,7 +100,7 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum verlassen aktive Profile automatisch die Journey und es werden keine neuen Eintritte zugelassen."
+>abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum beenden aktive Profile automatisch die Journey, und es ist kein neuer Eintrag zulässig."
 
 Standardmäßig können Profile in eine Journey sofort nach ihrer Veröffentlichung eintreten und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
