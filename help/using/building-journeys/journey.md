@@ -56,4 +56,4 @@ In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys 
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
