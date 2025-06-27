@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Planen und Starten von orchestrierten Kampagnen mit Adobe Journey Optimizer
-description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagnen planen und starten
+title: Starten und Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kampagnen starten und überwachen.
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 36%
+source-wordcount: '677'
+ht-degree: 44%
 
 ---
 
-# Planen und Starten von orchestrierten Kampagnen {#start-monitor}
+# Starten und Überwachen von orchestrierten Kampagnen {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -24,7 +24,7 @@ ht-degree: 36%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/>&lt;br/[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/><b>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/>&lt;br/[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/><b>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -33,76 +33,6 @@ ht-degree: 36%
 <br/>
 
 Nachdem Sie Ihre koordinierten und entworfenen Aufgaben auf der Arbeitsfläche erstellt haben, können Sie sie veröffentlichen und ihre Ausführung überwachen.
-
-## Planen von orchestrierten Kampagnen {#schedule}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_scheduler"
->title="Planung"
->abstract="Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, was einen präzisen Zeitpunkt und genaue Zielgruppendaten für Marketing-Nachrichten ermöglicht."
-
-Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, was einen präzisen Zeitpunkt und genaue Zielgruppendaten für Marketing-Nachrichten ermöglicht.
-
-### Best Practices {#scheduler-best-practices}
-
-* Planen Sie keine orchestrierte Kampagne, die öfter als alle 15 Minuten ausgeführt wird, da die Gesamtleistung des Systems beeinträchtigt werden kann und Blockierungen in der Datenbank entstehen können.
-* Wenn Sie eine einmalige Nachricht in Ihrer orchestrierten Kampagne senden möchten, können Sie sie auf „Einmal **&quot;**.
-* Wenn Sie in einer orchestrierten Kampagne eine wiederkehrende Nachricht senden möchten, müssen Sie eine **Planung**-Option verwenden und die Ausführungsfrequenz festlegen. Die Aktivität „Wiederkehrender Versand“ ermöglicht keine Festlegung eines Zeitplans.
-
-### Konfigurieren des Kampagnenzeitplans {#scheduler-configuration}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_schedule_validity"
->title="Gültigkeit der Planung"
->abstract="Sie können einen Gültigkeitszeitraum für die Planung definieren. Er kann dauerhaft sein (Standard) oder bis zu einem bestimmten Datum gültig sein."
-
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_schedule_options"
->title="Planungsoptionen"
->abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
-
-![Planungsbildschirm mit monatlichen Optionen](assets/scheduler-screen.png)
-
-Führen Sie die folgenden Schritte aus, um den **Zeitplan für koordinierte Kampagnen** zu konfigurieren:
-
-1. Klicken Sie auf **Schaltfläche** So bald wie möglich“ oben auf der Arbeitsfläche Ihrer orchestrierten Kampagne.
-
-1. Konfigurieren Sie die **Ausführungshäufigkeit**:
-
-   * **Einmal**: Die orchestrierte Kampagne wird ein einziges Mal ausgeführt.
-
-   * **Täglich**: Die orchestrierte Kampagne wird zu einem bestimmten Zeitpunkt einmal täglich ausgeführt.
-
-   * **Mehrmals am Tag:** die orchestrierte Kampagne wird regelmäßig mehrmals am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
-
-   * **Wöchentlich**: Die orchestrierte Kampagne wird zu einem bestimmten Zeitpunkt, ein- oder mehrmals pro Woche ausgeführt.
-
-   * **Monatlich**: Die orchestrierte Kampagne wird zu einem bestimmten Zeitpunkt, ein- oder mehrmals im Monat ausgeführt. Sie können Monate auswählen, in denen die orchestrierte Kampagne ausgeführt werden soll. Sie können für die Ausführung von Workflows auch bestimmte Wochentage des Monats auswählen, z. B. am zweiten Dienstag des Monats.
-
-     ![Planer-Bildschirm mit Beispiel für die tägliche Ausführung](assets/scheduler-daily-sample.png){width="50%" align="left"}
-
-1. Definieren Sie die Ausführungsdetails. Die Detailfelder variieren je nach verwendeter Häufigkeit (Zeit, Wiederholungshäufigkeit, angegebene Tage usw.).
-
-1. Klicken Sie **Startzeiten in der Vorschau**, um den Zeitplan der nächsten zehn Ausführungen Ihrer orchestrierten Kampagne zu überprüfen.
-
-1. Definieren des Gültigkeitszeitraums des Zeitplans:
-
-   * **Dauerhaft (läuft nie ab)**: Die orchestrierte Kampagne wird entsprechend der angegebenen Häufigkeit ohne Begrenzung des Zeitrahmens oder der Anzahl der Iterationen ausgeführt.
-
-   * **Gültigkeitszeitraum**: Die orchestrierte Kampagne wird entsprechend der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Sie müssen Start- und Enddaten angeben.
-
-1. Klicken Sie **Bestätigen**, um Ihre Einstellungen zu speichern. Die Ausführungsfrequenz wird über der orchestrierten Kampagnen-Arbeitsfläche angezeigt.
-
->[!TIP]
->
->Wenn Sie die orchestrierte Kampagne sofort starten möchten, behalten Sie den Standardwert **So bald wie möglich** bei.
-
-### Beispiel {#scheduler-example}
-
-Im folgenden Beispiel wird die Aktivität so konfiguriert, dass die orchestrierte Kampagne zweimal täglich um 9 Uhr und um 12 Uhr täglich zwischen dem 1. Oktober 2025 und dem 1. Januar 2026 ausgeführt wird.
-
-![Planung konfiguriert, um die Kampagne zweimal täglich um 9 und 12 Uhr auszuführen](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## Starten einer orchestrierten Kampagne {#start}
 
