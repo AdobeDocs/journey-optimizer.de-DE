@@ -196,4 +196,4 @@ Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehöri
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
