@@ -1,26 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hinzufügen von benutzerdefiniertem CSS zu Ihrem E-Mail-Inhalt
+title: Hinzufügen von benutzerdefinierten CSS zu E-Mail-Inhalten
 description: Erfahren Sie, wie Sie Ihrem E-Mail-Inhalt direkt in der E-Mail-Designer in Journey Optimizer benutzerdefiniertes CSS hinzufügen.
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Hinzufügen von benutzerdefiniertem CSS zu Ihrem E-Mail-Inhalt {#email-metadata}
+# Hinzufügen von benutzerdefinierten CSS zu E-Mail-Inhalten {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
->title="Eigenes CSS eingeben"
->abstract="Für mehr Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte können Sie benutzerdefiniertes CSS direkt in der E-Mail-Designer hinzufügen, um erweiterte und spezifische Stile anzuwenden."
+>title="Eingeben eigener CSS"
+>abstract="Für mehr Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte können Sie benutzerdefinierte CSS direkt im E-Mail-Designer hinzufügen, um erweiterte und spezifische Stile anzuwenden."
 
 Beim Entwerfen Ihrer E-Mails können Sie Ihr eigenes benutzerdefiniertes CSS direkt in der [!DNL Journey Optimizer]E-[-Designer](get-started-email-design.md) hinzufügen. Mit dieser Funktion können Sie erweiterte und spezifische Stile anwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen.
 
