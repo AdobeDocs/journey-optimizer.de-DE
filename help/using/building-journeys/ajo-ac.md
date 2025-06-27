@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 98%
 
 ---
 
-# Anwendungsfall: Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
+# Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign v7 und Adobe Campaign v8 erforderlich sind.
 
