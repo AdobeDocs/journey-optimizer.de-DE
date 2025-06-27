@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="Best Practices für die Suche nach Erlebnisereignissen" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="Best Practices für die Suche nach Erlebnisereignissen" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Erfahren Sie mehr über gängige Muster und skalierbare Ansätze, mit denen Sie das Meiste aus Erlebnisereignissen in Adobe Journey Optimizer machen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
     </div>
       <div>
@@ -47,7 +47,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="Beispiele für Abfragen" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="Beispiele für Abfragen" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>Um Ihre Anwendungsfälle zu erstellen, müssen Sie die Adobe Journey Optimizer-Datensätze abfragen, z. B. Systemdatensätze für die Aufnahme von Tracking-Erlebnisereignissen, den Datensatz für die Aufnahme von Schrittereignissen in eine Journey, den Datensatz für die Aufnahme von Angebotsvorschlägen an die Benutzenden und mehr.
     </div>
       <div>
