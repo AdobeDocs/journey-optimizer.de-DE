@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 75%
+source-wordcount: '481'
+ht-degree: 74%
 
 ---
 
@@ -148,15 +148,6 @@ Dieser Ausdruck gibt das letzte Push-Benachrichtigungs-Token zurück, das mit Mo
 ```
 
 Das Ergebnis ist `token_2`.
-
->[!NOTE]
->
->Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
->
->* Die Funktion **[!UICONTROL first]** gibt das neueste Ereignis zurück.
->* Die Funktion **[!UICONTROL last]** gibt das älteste zurück.
-
-
 
 ## Die Funktion at(`<index>`)
 
