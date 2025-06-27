@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 97%
+source-wordcount: '626'
+ht-degree: 66%
 
 ---
 
@@ -28,19 +28,19 @@ Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
 
 * Speichern Sie den Inhalt bei der Inhaltsgestaltung innerhalb einer Kampagne oder einer Journey als Vorlage. [Weitere Informationen](#save-as-template)
 
-Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journeys verfügbar. Unabhängig davon, ob sie von Grund auf neu oder aus vorherigen Inhalten erstellt wurden, können Sie diese Vorlage jetzt beim Erstellen von Inhalten in [!DNL Journey Optimizer] verwenden. [Weitere Informationen](#use-content-templates)
+Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journeys verfügbar. Unabhängig davon, ob sie von Grund auf neu oder aus vorherigen Inhalten erstellt wurden, können Sie diese Vorlage beim Erstellen von Inhalten in [!DNL Journey Optimizer] verwenden. [Weitere Informationen](#use-content-templates)
 
 >[!NOTE]
 >
 >* Änderungen an Inhaltsvorlagen werden nicht an Kampagnen oder Journeys weitergegeben, unabhängig davon, ob sie live oder als Entwurf vorliegen.
 >
->* Wenn Vorlagen in einer Kampagne oder einer Journey verwendet werden, wirken sich Änderungen am Kampagnen- und Journey-Inhalt ebenso nicht auf die zuvor verwendete Inhaltsvorlage aus.
+>* Wenn Vorlagen in einer Kampagne oder auf einer Journey verwendet werden, wirken sich Änderungen an Kampagnen- und Journey-Inhalten ebenfalls nicht auf die zuvor verwendete Inhaltsvorlage aus.
 
 ## Erstellen einer Vorlage von Grund auf {#create-template-from-scratch}
 
 >[!NOTE]
 >
->Ab März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Vorhandene HTML-Inhaltsvorlagen, die zuvor in [!DNL Journey Optimizer] erstellt wurden, können weiterhin verwendet werden.
 
 Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
@@ -58,9 +58,9 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags im Feld **[!UICONTROL Tags]**, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
+1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]** und gestalten Sie den Inhalt nach Bedarf so wie bei jedem Inhalt innerhalb einer Journey oder Kampagne, je nach ausgewähltem Kanal.
+1. Klicken Sie **[!UICONTROL Erstellen]** und gestalten Sie Ihre Inhalte nach Bedarf auf die gleiche Weise wie für alle Inhalte in einer Journey oder einer Kampagne, je nach ausgewähltem Kanal.
 
    ![](assets/content-template-edition.png)
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Sobald Ihre Vorlage fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Klicken Sie auf den Pfeil neben dem Vorlagennamen, um zum Bildschirm **[!UICONTROL Details]** zurückzukehren.
+1. Klicken Sie auf den Pfeil neben dem Vorlagennamen, um zum Bildschirm &quot;**[!UICONTROL &quot;]**.
 
    ![](assets/content-template-back.png)
 
@@ -89,14 +89,9 @@ Diese Vorlage kann nun beim Erstellen von Inhalten in [!DNL Journey Optimizer] v
 
 >[!NOTE]
 >
->Um beim Erstellen einer E-Mail-Inhaltsvorlage schnell einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt, können Sie ein Design auf Ihren Inhalt anwenden. [Weitere Informationen](../email/apply-email-themes.md)
+>Beim Erstellen einer E-Mail-Inhaltsvorlage können Sie schnell einen bestimmten Stil anwenden, der zu Ihrer Marke und Ihrem Design passt, indem Sie ein Design auf Ihren Inhalt anwenden. [Weitere Informationen](../email/apply-email-themes.md)
 
 ## Speichern von Inhalten als Inhaltsvorlage {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
->abstract="Seit dem 25. Juli 2022 wird das Nachrichtenmenü nicht mehr angezeigt. Nachrichten werden nun direkt von einer Journey aus verfasst. Wenn Sie Ihre alten Nachrichten in Journeys wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 
 Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen für die spätere Wiederverwendung speichern. Gehen Sie dazu wie folgt vor.
 
@@ -106,7 +101,7 @@ Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen f�
 
    ![](assets/content-template-button-save.png)
 
-   In [E-Mail-Designer](../email/get-started-email-design.md) können Sie diese Option auch über die Dropdown-Liste **[!UICONTROL Mehr]** oben rechts auf dem Bildschirm auswählen.
+   Wenn Sie sich in [E-Mail-Designer](../email/get-started-email-design.md) befinden, können Sie diese Option auch aus der Dropdown-Liste **[!UICONTROL Mehr]** in der oberen rechten Ecke des Bildschirms auswählen.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -120,7 +115,7 @@ Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen f�
 
 1. Wählen oder erstellen Sie ein Adobe Experience Platform-Tag im Feld **Tags**, um Ihre Vorlage zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen](../administration/object-based-access.md).
+1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -130,4 +125,5 @@ Sie können diese Vorlage nun beim Erstellen von Inhalten in [!DNL Journey Optim
 
 >[!NOTE]
 >
->Änderungen an dieser neuen Vorlage werden nicht an den Inhalt weitergegeben, von dem sie stammen. Wenn der ursprüngliche Inhalt innerhalb dieses Inhalts bearbeitet wird, wird die neue Vorlage ebenfalls nicht geändert.
+>Änderungen an der neuen Vorlage werden nicht auf den Inhalt übertragen, aus dem sie stammen. Ebenso wird die neue Vorlage nicht geändert, wenn der ursprüngliche Inhalt bearbeitet wird.
+

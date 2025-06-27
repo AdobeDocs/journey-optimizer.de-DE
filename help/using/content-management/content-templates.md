@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 46%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Ab März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin vorhandene HTML-Inhaltsvorlagen verwenden, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
-Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Journey Optimizer]-Kampagnen und -Journeys einfach wiederzuverwenden.
+Für einen beschleunigten und verbesserten Design-Prozess erstellen Sie eigenständige Vorlagen, um benutzerdefinierte Inhalte in [!DNL Journey Optimizer] Kampagnen und Journey einfach wiederzuverwenden.
 
-Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlagen außerhalb von Kampagnen oder Journeys. Personen, die Marketing betreiben, können diese eigenständigen Inhaltsvorlagen dann in ihren eigenen Journeys oder Kampagnen wiederverwenden und anpassen.
+Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlagen außerhalb von Kampagnen oder Journey. Personen, die Marketing betreiben, können diese eigenständigen Inhaltsvorlagen dann in ihren eigenen Journeys oder Kampagnen wiederverwenden und anpassen.
 
 <!--![](../rn/assets/do-not-localize/content-template.gif)-->
 
-Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journeys. Diese Person kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
+Beispielsweise kann sich ein Anwender in Ihrem Unternehmen ausschließlich auf Inhalte konzentrieren und hat keinen Zugriff auf Kampagnen oder Journey. Dieser Benutzer kann eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihres Unternehmens als Ausgangspunkt für alle E-Mails auswählen können.
 
 Sie können Inhaltsvorlagen für die E-Mail-, Push-, In-App-, SMS- und Direkt-Mail-Kanäle erstellen.
 
@@ -36,13 +36,13 @@ Sie können Inhaltsvorlagen für die E-Mail-, Push-, In-App-, SMS- und Direkt-Ma
 >
 >Derzeit sind keine Inhaltsvorlagen für den Web-Kanal verfügbar.
 
-Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen benötigen Sie die Berechtigung **[!DNL Manage library items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+Um Inhaltsvorlagen zu erstellen, zu bearbeiten und zu löschen, stellen Sie sicher, dass Sie über die **[!DNL Manage library items]** Berechtigung im **[!DNL Content Library Manager]**-Produktprofil verfügen. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
-➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen definieren und verwenden](#video-templates)
+➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen erstellen und verwenden](#video-templates)
 
 >[!NOTE]
 >
->Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+>Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weitere Informationen finden Sie in der Dokumentation zu [Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Anleitungsvideo {#video-templates}
 

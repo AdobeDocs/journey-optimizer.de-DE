@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
-workflow-type: ht
-source-wordcount: '1285'
-ht-degree: 100%
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+workflow-type: tm+mt
+source-wordcount: '1276'
+ht-degree: 81%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Governance aktiviert"
->abstract="Die Inhaltssperre ist aktiviert und kann das Vornehmen von Änderungen verhindern."
+>abstract="Die Inhaltssperrung ist aktiviert und verhindert Änderungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Schreibgeschützt"
 >abstract="Dieser Inhalt ist schreibgeschützt und kann nicht geändert werden."
 
-Journey Optimizer ermöglicht es, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise können Sie unbeabsichtigte Bearbeitungen oder Löschungen verhindern, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.
+Mit Journey Optimizer können Sie Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Dadurch werden unbeabsichtigte Änderungen oder Löschungen verhindert, was Ihnen mehr Kontrolle über die Vorlagenanpassung gibt und die Effizienz und Zuverlässigkeit Ihrer E-Mail-Kampagnen verbessert.
 
 >[!IMPORTANT]
 >
->Die Inhaltssperre ist eine Funktion auf Editorebene für Autorinnen und Autoren und garantiert nicht, dass der Inhalt beim Importieren oder Erstellen über das API nicht bearbeitet wird.
+>Die Inhaltssperre ist eine Funktion auf Editor-Ebene für Autoren und garantiert nicht, dass der Inhalt beim Import oder bei der Erstellung über die API unbearbeitet bleibt.
 
-Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** angewendet werden. Im Folgenden werden die wichtigsten Prinzipien beschrieben, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten.
+Inhaltssperren können entweder auf der Ebene **Struktur** oder auf der Ebene **Komponente** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipien, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
 
 * Wenn eine Struktur gesperrt ist:
 
@@ -65,7 +65,7 @@ Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** ange
 >
 >Benutzende mit der Berechtigung zum Erstellen von Inhaltsvorlagen können die Inhaltssperre aktivieren.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Sperren einer E-Mail-Vorlage {#define}
 
@@ -95,9 +95,9 @@ Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt im E-Mail-Designer
    * [Erfahren Sie, wie Sie Strukturen sperren.](#lock-structures)
    * [Erfahren Sie, wie Sie Komponenten sperren.](#lock-components)
 
-   Wenn Sie den Modus **[!UICONTROL Schreibgeschützt]** auswählen, können Sie Ihre Vorlage wie gewohnt fertigstellen und speichern.
+   Wenn Sie den Modus **[!UICONTROL Schreibgeschützt]** ausgewählt haben, fahren Sie mit dem Fertigstellen und Speichern Ihrer Vorlage wie gewohnt fort.
 
-Sie können die Einstellungen für **[!UICONTROL Governance]** jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Hauptteil der Vorlage auswählen. Klicken Sie hierzu in der Navigationsleiste oben im rechten Fensterbereich auf den Link **[!UICONTROL Hauptteil]**.
+Sie können die Einstellungen für **[!UICONTROL Governance]** jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Hauptteil der Vorlage auswählen. Klicken Sie dazu auf den **[!UICONTROL Textkörper]** in der Navigationsleiste oben im rechten Bereich.
 
 ![](assets/template-lock-body.png)
 
@@ -156,7 +156,7 @@ So sperren Sie eine bestimmte Komponente in einer Struktur:
 
 ### Identifizieren gesperrter Inhalte {#identify}
 
-Verwenden Sie den **[!UICONTROL Navigationsbaum]** im Menü auf der linken Seite, um gesperrte Strukturen und Komponenten in Ihrer Vorlage einfach zu identifizieren. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, indem gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol markiert sind.
+Um gesperrte Strukturen und Komponenten in Ihrer Vorlage leicht zu identifizieren, verwenden Sie **[!UICONTROL Navigationsbaum]** im Menü links. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, indem gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol markiert sind.
 
 Im folgenden Beispiel ist „Governance“ für den Vorlagentext aktiviert. *Struktur 2* ist gesperrt, wobei *Komponente 1* bearbeitbar ist, während *Struktur 3* vollständig gesperrt ist.
 
@@ -173,17 +173,16 @@ Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich die M
 
 Je nachdem, welche Art der Sperrung auf die Vorlage angewendet ist, können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein.
 
-In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des obersten Bildes, das gesperrt wurde. Das bedeutet, dass Sie es weder bearbeiten noch entfernen können.
+In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des oberen Bildes, das gesperrt wurde, sodass Sie es nicht bearbeiten oder entfernen können.
 
 ![](assets/template-lock-highlight.png)
 
-Ausführliche Informationen zu den verschiedenen Arten der Sperrung, die angewendet werden können, finden Sie in diesen Abschnitten:
+Detaillierte Informationen zu den verschiedenen Sperrtypen, die angewendet werden können, finden Sie in den folgenden Abschnitten:
 
 * [Sperren von Strukturen](#lock-structures)
 * [Sperren von Komponenten](#lock-components)
 
-Im Folgenden finden Sie einige Beispiele für die Bearbeitung von E-Mails und die zugehörige Konfiguration für die Sperrung von Inhalten, die eingerichtet wurde:
-
+Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehörigen Konfigurationen zum Sperren von Inhalten, die eingerichtet wurden:
 
 | Art der Inhaltssperre | Vorlagenkonfiguration | Bearbeitung von E-Mails |
 | ------- | ------- | ------- |
@@ -197,4 +196,4 @@ Im Folgenden finden Sie einige Beispiele für die Bearbeitung von E-Mails und di
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

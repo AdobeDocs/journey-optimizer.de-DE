@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 96%
+source-wordcount: '286'
+ht-degree: 81%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 96%
 >[!AVAILABILITY]
 >
 >Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
->&#x200B;>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Die Funktion „Markenausrichtung“ soll Ihnen dabei helfen, Inhalte zu erstellen, zu überprüfen und zu verwalten, die Ihren Markenrichtlinien entsprechen. Sie sorgt für Konsistenz bei Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig zur Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
+Mit der Funktion „Markenausrichtung“ können Sie Inhalte erstellen, überprüfen und verwalten, die Ihren Markenrichtlinien entsprechen. Sie sorgt für Konsistenz bei Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig zur Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 
 ## Validieren von Inhalten mit Markenausrichtung {#validate-content}
 
@@ -50,7 +50,7 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 1. Öffnen Sie das Menü **[!UICONTROL Markenausrichtung]** in der E-Mail-Designer.
 
-   Ihre Inhalte werden automatisch anhand Ihrer Standardmarke ausgewertet. [Erfahren Sie, wie Sie eine Standardmarke zuweisen](brands.md).
+   Ihre Inhalte werden automatisch anhand Ihrer Standardmarke bewertet. [Erfahren Sie, wie Sie eine Standardmarke zuweisen](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 1. Gehen Sie den **Markenausrichtungswert** („Hoch“, „Mittel“, „Niedrig“) durch und prüfen Sie das detaillierte Feedback.
 
-1. Klicken Sie auf das Symbol ![Alternativtext für Detailbild](assets/do-not-localize/Smock_FullScreen_18_N.svg "Vollbild"), um weitere Erkenntnisse zu Ihrem Wert zu erhalten.
+1. Klicken Sie auf ![Vollbildsymbol für detaillierte Einblicke](assets/do-not-localize/Smock_FullScreen_18_N.svg "Vollbildsymbol"), um weitere Einblicke in Ihre Bewertung zu erhalten.
 
    ![](assets/brand-score-3.png)
 
