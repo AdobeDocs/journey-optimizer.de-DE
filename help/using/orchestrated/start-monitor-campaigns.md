@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 44%
+source-wordcount: '780'
+ht-degree: 35%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 44%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/>&lt;br/[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/><b>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/><b>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -34,17 +34,27 @@ ht-degree: 44%
 
 Nachdem Sie Ihre koordinierten und entworfenen Aufgaben auf der Arbeitsfläche erstellt haben, können Sie sie veröffentlichen und ihre Ausführung überwachen.
 
-## Starten einer orchestrierten Kampagne {#start}
+Sie können die Kampagne auch im Testmodus ausführen, um ihre Ausführung und das Ergebnis der verschiedenen Aktivitäten zu überprüfen.
 
-Um eine orchestrierte Kampagne zu starten, gehen Sie zur Registerkarte **[!UICONTROL Orchestrierung]** des Menüs **[!UICONTROL Kampagnen]** und wählen Sie die zu startende Kampagne aus und klicken Sie dann auf die **[!UICONTROL Play]**-Schaltfläche in der oberen rechten Ecke der Arbeitsfläche.
+## Testen und Veröffentlichen der orchestrierten Kampagne {#test}
+
+Mit Journey Optimizer können Sie Ihre orchestrierten Kampagnen testen, bevor Sie sie veröffentlichen. Auf diese Weise können Sie die Ausführung und das Ergebnis der verschiedenen Aufgaben überprüfen, aus denen die Kampagne besteht, und das hat keine funktionalen Auswirkungen: Alle Aktivitäten auf der Arbeitsfläche werden ausgeführt, mit Ausnahme der Aktivitäten, die eine Auswirkung haben **[!UICONTROL Audience speichern]** und Kanalaktivitäten.
+
+Um eine orchestrierte Kampagne im Testmodus zu starten, öffnen Sie die orchestrierte Kampagne und klicken Sie dann auf die Schaltfläche **[!UICONTROL Starten]**.
+
+![](assets/campaign-start.png){zoomable="yes"}
 
 Sobald die orchestrierte Kampagne ausgeführt wird, wird jede Aktivität auf der Arbeitsfläche in sequenzieller Reihenfolge ausgeführt, bis das Ende der orchestrierten Kampagne erreicht ist.
 
-Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
+Wenn Ihre Kampagne bereit für die Live-Schaltung ist, klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**. Der visuelle Fluss auf der Arbeitsfläche wird neu gestartet, sodass Sie den Fortschritt der Profile im Diagramm überprüfen können.
+
+## Orchestrierte Kampagnen - visueller Fluss
+
+Wenn eine orchestrierte Kampagne ausgeführt wird, entweder im Testmodus oder in der Produktion, können Sie den Fortschritt der Zielprofile durch die verschiedenen Aufgaben in Echtzeit mithilfe eines visuellen Flusses verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-In orchestrierten Kampagnen werden Daten, die über Transitionen von einer Aktivität zur anderen übertragen werden, in einer temporären Arbeitstabelle gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
+Daten, die über Transitionen von einer Aktivität zur anderen übertragen werden, werden in einer temporären Arbeitstabelle gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
@@ -55,7 +65,7 @@ In orchestrierten Kampagnen werden Daten, die über Transitionen von einer Aktiv
 
 ### Überwachen der Aktivitätsausführung {#activities}
 
-Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes ermöglichen es, die Ausführung zu überprüfen:
+Visuelle Indikatoren in jedem Aktivitätsfeld ermöglichen es, die Ausführung zu überprüfen:
 
 | Visueller Indikator | Beschreibung |
 |-----|------------|
