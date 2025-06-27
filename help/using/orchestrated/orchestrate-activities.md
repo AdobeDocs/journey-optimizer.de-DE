@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: ecb62dfc6a04754cb5d549615047cfb8e5e8f518
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 53%
+source-wordcount: '737'
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 53%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/><b>[Orchestrieren von Aktivitäten](orchestrate-activities.md)</b><br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md) [&#128279;](activities/wait.md) Warten[&#128279;](activities/deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagnen](create-orchestrated-campaign.md)<br/><br/><b>[Orchestrieren von Aktivitäten](orchestrate-activities.md)</b><br/><br/>[ Senden von Nachrichten mit orchestrierten Kampagnen](send-messages.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimensionsänderung](activities/change-dimension.md) - [Kombinieren](activities/combine.md) - [Deduplizierung](activities/enrichment.md) - [Verzweigung](activities/fork.md) - [Abstimmung](activities/reconciliation.md) - [Aufspaltung](activities/split.md)[ ](activities/wait.md) Warten](activities/deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 <br/>
 
-Sobald Sie [eine koordinierte Kampagne erstellt haben](gs-campaign-creation.md) sei es über das orchestrierte Kampagnenmenü oder innerhalb einer Kampagne, können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die sie ausführen soll. Dazu wird eine visuelle Arbeitsfläche bereitgestellt, mit der Sie ein orchestriertes Kampagnendiagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge verbinden.
+Sobald Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md) können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die sie ausführen soll. Dazu wird eine visuelle Arbeitsfläche bereitgestellt, mit der Sie ein orchestriertes Kampagnendiagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge verbinden.
 
 ## Hinzufügen von Aktivitäten {#add}
 
@@ -38,110 +38,69 @@ Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden k
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Bereich, in dem Sie die neu hinzugefügte Aktivität mit spezifischen Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
+Nachdem eine Aktivität zum Diagramm hinzugefügt wurde, wird ein rechter Bereich angezeigt, in dem Sie sie mit bestimmten Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Wiederholen Sie diesen Vorgang, um beliebig viele Aktivitäten hinzuzufügen, je nach den Aufgaben, die Ihre koordinierte Kampagne ausführen soll. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** an der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
-Um eine Aktivität zu entfernen, wählen Sie sie auf der Arbeitsfläche aus und klicken in den Eigenschaften der Aktivität auf das Symbol **Löschen**.
+Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten zu personalisieren. Wählen Sie dazu die Transition aus und ändern Sie die Bezeichnung im rechten Bereich.
 
->[!TIP]
->
->Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten zu personalisieren. Wählen Sie dazu die Transition aus und ändern Sie das Label im rechten Bereich.
+![](assets/canvas-transition.png)
 
-## Die Symbolleiste {#toolbar}
+## Die Arbeitsflächensymbolleiste {#toolbar}
 
-Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und Navigieren auf der Arbeitsfläche:
+Die Symbolleiste der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Aktivitäten und zum Navigieren auf der Arbeitsfläche:
 
-* **Mehrfachauswahl-Modus**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren/einzufügen. Weitere Informationen finden Sie in [diesem Abschnitt](#copy).
-* **Drehen**: Dreht die Arbeitsfläche vertikal.
-* **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
-* **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
-* **Karte anzeigen**: Öffnet einen Snapshot der Arbeitsfläche, in der Sie sich befinden.
+![](assets/orchestrated-toolbar.png)
 
-![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
+![Symbol für mehrere Auswahlmodi](assets/do-not-localize/canvas-multiple.svg) Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren und einzufügen. [Erfahren Sie, wie Sie Aktivitäten kopieren und einfügen](#copy)
+
+![Symbol „Drehen](assets/do-not-localize/canvas-rotate.svg) Wechseln Sie die Arbeitsfläche vertikal.
+
+![Am Bildschirmsymbol anpassen](assets/do-not-localize/canvas-fit.svg) Passen Sie den Zoom der Arbeitsfläche an Ihren Bildschirm an.
+
+![Auszoomen-Symbol](assets/do-not-localize/canvas-zoomout.svg) ![Einzoomen-Symbol](assets/do-not-localize/canvas-zoomin.svg) Auszoomen oder auf der Arbeitsfläche.
+
+![Symbol Kampagneneinstellungen](assets/do-not-localize/canvas-map.svg) Öffnet einen Schnappschuss der Arbeitsfläche, der Ihnen anzeigt, wo Sie sich befinden.
 
 ## Verwalten von Aktivitäten {#manage}
 
 Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. 
 
-![](assets/activity-action.png){zoomable="yes"}
+![](assets/activity-action.png)
 
-Sie haben folgende Möglichkeiten:
+![Löschsymbol](assets/do-not-localize/activity-delete.svg) Löschen der Aktivität auf der Arbeitsfläche.
 
-* **Löschen** der Aktivität von der Arbeitsfläche aus.
-* **Deaktivieren/Aktivieren** der Aktivität. Wenn die orchestrierte Kampagne ausgeführt wird, werden deaktivierte Aktivitäten und die folgenden Aktivitäten auf demselben Pfad nicht ausgeführt und die orchestrierte Kampagne wird gestoppt.
-* **Anhalten/Fortsetzen** der Aktivität. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
-* **Kopieren** der Aktivität. Weitere Informationen finden Sie in [diesem Abschnitt](#copy).
-* Greifen Sie auf die **Protokolle und Aufgaben** der Aktivität zu.
+![Symbol deaktivieren](assets/do-not-localize/activity-disable.svg) ![Symbol aktivieren](assets/do-not-localize/activity-enable.svg) Aktivität deaktivieren/aktivieren. Wenn die orchestrierte Kampagne ausgeführt wird, werden deaktivierte Aktivitäten und die folgenden Aktivitäten auf demselben Pfad nicht ausgeführt und die orchestrierte Kampagne wird gestoppt.
 
-Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder **Deduplizierung**, können Sie die verbleibende Population verarbeiten und in eine zusätzliche ausgehende Transition einschließen. Wenn Sie beispielsweise die Aktivität &quot;**&quot; verwenden** besteht das Komplement aus der Population, die keiner der zuvor definierten Teilmengen entsprach. Um diese Funktion zu verwenden, aktivieren Sie die Option **Komplement erzeugen**.
+![Pausensymbol](assets/do-not-localize/activity-pause.svg) ![Fortsetzungssymbol](assets/do-not-localize/activity-resume.svg) Aussetzen/Fortsetzen der Aktivität. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
+
+![Kopieren-Symbol](assets/do-not-localize/activity-copy.svg) Kopieren Sie die Aktivität. [Erfahren Sie, wie Sie Aktivitäten kopieren und einfügen](#copy)
+
+![Symbol „Protokolle und Aufgaben](assets/do-not-localize/activity-logs.svg) Greifen Sie auf die Protokolle und Aufgaben der Aktivität zu.
+
+Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder **Deduplizierung**, können Sie die verbleibende Population verarbeiten und in eine zusätzliche ausgehende Transition einschließen. Wenn Sie beispielsweise die Aktivität &quot;**&quot; verwenden** besteht das Komplement aus der Population, die keiner der zuvor definierten Teilmengen entsprach. Um diese Funktion zu verwenden, aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**.
 
 ## Verschieben oder Kopieren von Aktivitäten {#move-copy}
 
 ### Kopieren und Einfügen von Aktivitäten {#copy}
 
-Sie können orchestrierte Kampagnenaktivitäten kopieren und in einen beliebigen Workflow einfügen. Die orchestrierte Zielkampagne kann sich auf einer anderen Browser-Registerkarte befinden.
+Sie können Aktivitäten kopieren und in eine beliebige orchestrierte Kampagnen-Arbeitsfläche einfügen. Die Zielkampagne kann sich auf einer anderen Browser-Registerkarte befinden.
 
-Zum Kopieren von Aktivitäten haben Sie zwei Möglichkeiten:
+* Um eine Aktivität zu kopieren, klicken Sie auf ![ Schaltfläche ](assets/do-not-localize/activity-copy.svg)Symbol kopieren“ im Bereich mit den Eigenschaften der Aktivität.
+* Um mehrere Aktivitäten zu kopieren, klicken Sie auf das Symbol ![Mehrfachauswahlmodus](assets/do-not-localize/canvas-multiple.svg) in der Symbolleiste der Arbeitsfläche.
 
-* Kopieren Sie eine Aktivität mithilfe der Aktionsschaltfläche.
+| Eine Aktivität kopieren | Mehrere Aktivitäten kopieren |
+|  ---  |  ---  |
+|  |
+| ![](assets/orchestrated-copy-1.png){width="200" align="center" zoomable="yes"} | ![](assets/orchestrated-copy-2.png){width="200" align="center" zoomable="yes"} |
 
-  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
-
-* Kopieren Sie mehrere Aktivitäten mithilfe der Symbolleistenschaltfläche.
-
-  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
-
-Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+** auf einer Transition und wählen Sie „Aktivität X einfügen“ aus.
+Um die Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+** auf einer Transition und wählen Sie „x Aktivität einfügen“.
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--
-### Move activities and their child nodes {#move}
-
-Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
-
-This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
-
-To move an activity:
-
-1. Select the activity you wish to move.
-1. In the activity's properties pane, click the **Move** button.
-1. Select the transition where you want to place the activity and its outbound transition, then confirm.
-
-![](assets/activity-move.png)
-
-
-## Execution options {#execution}
-
-All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
-
-![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
-
-
-### Properties
-
-The **Execution** field allows you to define the action to be carried out when the task is started.
-
-The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
-
-The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
-
-**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
-
-The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
-
-### Error management
-
-The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
-
-### Initialization script
-
-The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
-
-## Example {#example}
+<!--## Example {#example}
 
 Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
@@ -162,5 +121,4 @@ To achieve this, activities below have been added:
 
 Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
--->
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
