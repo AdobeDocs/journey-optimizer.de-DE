@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="Best Practices für die Suche nach Erlebnisereignissen" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="Best Practices für die Suche nach Erlebnisereignissen" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Erfahren Sie mehr über gängige Muster und skalierbare Ansätze, mit denen Sie das Meiste aus Erlebnisereignissen in Adobe Journey Optimizer machen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
     </div>
       <div>
@@ -92,7 +92,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Sammlungen dynamisch mit benutzerdefinierten Aktionen übergeben</strong></a>
