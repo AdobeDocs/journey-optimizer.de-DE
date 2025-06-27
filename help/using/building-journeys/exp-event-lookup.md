@@ -51,9 +51,9 @@ Um Profile zu unterdrücken, die bestimmte Verhaltensweisen gezeigt haben, verwe
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ So verhindern Sie, dass Nachrichten an Profile gesendet werden, die innerhalb ei
 
 Weitere Informationen zur Verwendung von Audiences:
 
-* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ Um Profile in Abhängigkeit davon, ob sie eine bestimmte Nachricht erhalten habe
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ Weitere Informationen:
 
 So personalisieren Sie die Kommunikation basierend auf dem neuesten Warenkorb oder durchsuchen Ereignisse über mehrere Warenkorbtypen oder Produktansichten hinweg:
 
-* Wenn Sie Zugriff auf [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung zurück in einen profilaktivierten Datensatz zu schreiben.
-* Wenn die Verfallsdaten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen und dann auf diese Attribute in der Journey zu verweisen, um die Kommunikation zu erstellen. [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}.
+* Wenn Sie Zugriff auf [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung zurück in einen profilaktivierten Datensatz zu schreiben.
+* Wenn die Verfallsdaten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen und dann auf diese Attribute in der Journey zu verweisen, um die Kommunikation zu erstellen. [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}.
 
 
 ## Verhaltensbasierter Journey-Austritt
@@ -122,7 +122,7 @@ Um Journey anhand von Käufen Trigger und zu unterdrücken, wenn der Wert über 
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
