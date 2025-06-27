@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="Beispiele für Abfragen" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="Beispiele für Abfragen" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>Um Ihre Anwendungsfälle zu erstellen, müssen Sie die Adobe Journey Optimizer-Datensätze abfragen, z. B. Systemdatensätze für die Aufnahme von Tracking-Erlebnisereignissen, den Datensatz für die Aufnahme von Schrittereignissen in eine Journey, den Datensatz für die Aufnahme von Angebotsvorschlägen an die Benutzenden und mehr.
     </div>
       <div>
