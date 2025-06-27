@@ -7,9 +7,10 @@ feature: Journeys, Use Cases
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
-source-git-commit: 85b036ad8e06b10fc8c46b3ec03b7792491bd9b9
+exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
+source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 15%
 
 ---
@@ -72,7 +73,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
 <a href="ajo-ac.md">
 <img alt="Senden einer Nachricht mit Campaign" src="../assets/do-not-localize/start-interface.jpeg">
 </a>
-<div><a href="ajo-ac.md"><strong>Senden einer Nachricht mit Campaign v7/v8</strong>
+<div><a href="ajo-ac.md"><strong>Mit Campaign v7/v8 senden</strong>
 </div>
 <p>
 </td>
@@ -81,7 +82,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
 <img alt="Senden einer Nachricht an Abonnenten" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
-<a href="message-to-subscribers-uc.md"><strong>Senden einer Nachricht an Abonnenten</strong></a>
+<a href="message-to-subscribers-uc.md"><strong>An Abonnenten senden</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -107,6 +108,3 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
 <p>
 </td>
 </tr></table>
-
-
-
