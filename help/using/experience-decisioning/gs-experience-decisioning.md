@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/code-based-experience/get-started-code-based), der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
+Diese Entscheidungselemente werden über den neuen [Code-basierten Erlebniskanal“, auf den in Journey Optimizer-Kampagnen zugegriffen werden kann, nahtlos in eine Vielzahl ](../code-based/get-started-code-based.md) eingehenden Oberflächen integriert.
 
 >[!IMPORTANT]
 >
@@ -87,4 +87,3 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
    ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
 
-In [diesem Abschnitt](experience-decisioning-uc.md) wird ein vollständiger End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Entscheidungen in einem Code-basierten Erlebnis verwendet werden.

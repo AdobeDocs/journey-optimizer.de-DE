@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
+source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 72%
+source-wordcount: '1278'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,17 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 
+## Neueste Aktualisierungen {#latest-updates}
+
+### Veränderung der Journey-Bedingungen {#ee-change@}
+
+Ab dem 8. Juli wird das Erstellen von Ausdrücken mit Erlebnisereignissen in neuen Kundenorganisationen in dem in Journey-Bedingungen verwendeten Ausdruckseditor nicht mehr unterstützt. Daher können Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) nicht zum Erstellen von Ausdrücken verwendet werden. Alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logik mit Erlebnisereignissen werden [hier](../building-journeys/exp-event-lookup.md) referenziert.
+
+Der Zugriff auf Journey-Kontextereignisdaten in unitären Journey wird nicht geändert. In den Ausdrucks- und Personalisierungseditoren können Benutzende weiterhin auf Daten zugreifen, die mit dem ersten Journey-Ereignis übergeben wurden.
+
+Weitere Informationen [in dieser FAQ](../building-journeys/exp-event-lookup.md#faq-ee).
+
+
 ## Versionshinweise Juni 2025 {#25-6-rn}
 
 <!--
@@ -30,7 +41,7 @@ ht-degree: 72%
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 

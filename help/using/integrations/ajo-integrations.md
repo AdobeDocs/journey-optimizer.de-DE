@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
-source-wordcount: '960'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer basiert auf Adobe Experience Platform und ist nativ mit dem [Echtzeit-Kundenprofil von Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} verbunden. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (beispielsweise um zu überprüfen, ob die Person, die in eine Journey eingetreten ist, ein Kunde ist oder nicht). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. [Weitere Informationen](../datasource/adobe-experience-platform-data-source.md).
+> Adobe Journey Optimizer basiert auf Adobe Experience Platform und ist nativ mit dem [Echtzeit-Kundenprofil von Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} verbunden. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (beispielsweise um zu überprüfen, ob die Person, die in eine Journey eingetreten ist, ein Kunde ist oder nicht). Damit können Sie Profildaten verwenden. [Weitere Informationen](../datasource/adobe-experience-platform-data-source.md).
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -121,7 +121,7 @@ Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-j
 
 Verwenden Sie die Adobe Journey Optimizer-Module in Adobe Workfront, um Einträge zu erstellen, zu lesen, zu aktualisieren, zu löschen oder führen Sie einen benutzerdefinierten API-Aufruf an die Adobe Journey Optimizer-API durch.
 
-Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=de){target="_blank"}.
+Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Weitere Informationen zu Journey Optimizer und Adobe Workfront finden Sie in der [Dokumentation zu Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=de){target="_blank"}.
 

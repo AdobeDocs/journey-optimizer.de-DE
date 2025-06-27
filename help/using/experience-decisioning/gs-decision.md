@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 79%
 
 ---
 
@@ -31,12 +31,12 @@ Derzeit bietet [!DNL Journey Optimizer] die beiden unten beschriebenen Hauptlös
 
 Unser Entscheidungs-Framework der nächsten Generation, das dazu dient, bestehende Journey Optimizer-Workflows zu vereinheitlichen und die Grundlage für die Verwaltung zusätzlicher Inhaltskataloge zu schaffen. Die Entscheidungsfindung bietet:
 
-* Schemabasierte Verwaltung des Elementkatalogs: Erhöhen Sie die Flexibilität, indem Sie jedem Angebot benutzerdefinierte Metadaten zuordnen.
-* Flexible Sammlungsregeln: Gruppieren Sie Angebote einfach zur zukünftigen Auswertung anhand verschiedener Kriterien.
-* Aktualisierte Entscheidungsrichtlinie und Konfiguration der Auswahlstrategie: Lassen die Wiederverwendbarkeit von Entscheidungskomponenten zu.
-* Experimentfunktionen: Testen Sie die Entscheidungslogik anhand anderer Inhaltskomponenten, um die Leistung zu messen.
+* Schemabasierte Elementkatalogverwaltung: Erhöhen Sie die Flexibilität, indem Sie jedem Angebot benutzerdefinierte Metadaten zuordnen
+* Flexible Sammlungsregeln: Angebote für zukünftige Auswertungen anhand verschiedener Kriterien einfach gruppieren
+* Aktualisierte Konfiguration von Entscheidungsrichtlinien und Auswahlstrategien: Ermöglicht die Wiederverwendbarkeit von Entscheidungskomponenten
+* Experimentierfunktionen: Testen der Entscheidungslogik mit anderen Inhaltskomponenten, um die Leistung zu messen
 
-Vorerst wird die Erlebnis-Entscheidung im Code-basierten Erlebniskanal unterstützt.
+Experience Decisioning wird im Code-basierten Erlebniskanal unterstützt.
 
 ➡️ [Erste Schritte mit der Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md)
 

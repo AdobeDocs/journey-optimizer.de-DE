@@ -6,25 +6,36 @@ description: Erfahren Sie, wie Sie erweiterte Ausdrücke erstellen
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
+
 # Beispiele für erweiterte Ausdrücke{#advanced-expression-examples}
 
-Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
+Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Diese Bedingungen ermöglichen es, Benutzerinnen und Benutzer nach Zeit, Datum, Ort und Dauer anzusprechen, damit sie erneut auf die Journey zugreifen können.
 
 >[!CAUTION]
 >
->Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, aber nicht empfohlen. Wenn für Ihren Anwendungsfall Erlebnisereignisse verwendet werden müssen, sollten Sie alternative Methoden wie [berechnete Attribute](../../audience/computed-attributes.md) in Betracht ziehen oder ein Segment mithilfe der Ereignisse erstellen und dieses Segment in [`inAudience`-Ausdrücke integrieren](../../building-journeys/functions/functioninaudience.md).
+>Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht unterstützt. Wenn Ihr Anwendungsfall die Verwendung von Erlebnisereignissen erfordert, sollten Sie alternative Methoden in Betracht ziehen. [Weitere Informationen](../exp-event-lookup.md)
 
 
 ## Erstellen von Bedingungen anhand von Erlebnisereignissen
+
+
+>[!CAUTION]
+>
+>Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht unterstützt. Wenn Ihr Anwendungsfall die Verwendung von Erlebnisereignissen erfordert, sollten Sie alternative Methoden in Betracht ziehen. [Weitere Informationen](../exp-event-lookup.md)
+>
+
+
 
 Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
 
@@ -43,9 +54,9 @@ Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben
 
 Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in den letzten sieben Tagen keine Bestellung abgeschlossen haben.
 
-<!--**This expression looks for a specified value in a string value:**
+**Dieser Ausdruck sucht nach einem angegebenen Wert in einem Zeichenfolgenwert:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 Erläuterung: In diesem Beispiel werden die `substr`- und `lastIndexOf`-Funktionen verwendet, um geschweifte Klammern zu entfernen, die die CRM-ID einschließen, die bei einem App-Startereignis übergeben wurde.
+
 
 Weitere Informationen zur Verwendung des erweiterten Ausdruckseditors finden Sie in [diesem Video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=de).

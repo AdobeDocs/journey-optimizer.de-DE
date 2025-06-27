@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
+source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 98%
+source-wordcount: '2474'
+ht-degree: 97%
 
 ---
 
@@ -167,15 +167,15 @@ ht-degree: 98%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
-      + Geschäftliche Anwendungsfälle {#business-use-cases}
-         + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
-         + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
-         + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + Technische Anwendungsfälle {#technical-use-cases}
-         + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
-         + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
-         + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
+      + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
+      + [Suche nach Erlebnisereignissen](using/building-journeys/exp-event-lookup.md)
+      + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
+      + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
+      + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+      + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+      + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
+      + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Konfigurationsschritte](using/orchestrated/configuration-steps.md)
