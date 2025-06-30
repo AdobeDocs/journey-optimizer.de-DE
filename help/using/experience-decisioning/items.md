@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 7c806d138b97d57afa583e98a1356bd3811f2eb8
+source-git-commit: 3eafc1bcfcd332eb9bf262f9257a084604f60011
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 97%
+source-wordcount: '1746'
+ht-degree: 98%
 
 ---
 
@@ -65,8 +65,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >title="Hinzufügen von Zielgruppen oder Entscheidungsregeln"
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Use audiences"
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=„Entscheidungsregeln verwenden“—>
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Use decision rules"-->
 
 Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken, wobei die beiden Lösungen unterschiedlichen Verwendungszwecken entsprechen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
