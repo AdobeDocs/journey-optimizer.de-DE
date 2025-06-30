@@ -215,5 +215,5 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
    >[!NOTE]
    >
-   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der Dokumentation zu [Adobe Experience Platform-APIs} erfahren Sie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} wie Sie diese Werte abrufen können.
+   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der Dokumentation zu [Adobe Experience Platform-APIs&rbrace; erfahren Sie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} wie Sie diese Werte abrufen können.
 

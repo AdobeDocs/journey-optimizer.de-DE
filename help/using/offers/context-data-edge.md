@@ -146,7 +146,7 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage, die Kontextdaten übergi
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

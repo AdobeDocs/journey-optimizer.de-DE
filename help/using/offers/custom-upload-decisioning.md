@@ -31,6 +31,7 @@ Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden S
 * Diese Funktion wird nur beim **Entscheidungs-Management** unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
 * Sie ist ausschließlich über **Decisioning-API(Hub)**-Anfragen verfügbar und wird nicht vom **Edge Decisioning-API** oder **Batch-Entscheidungen** unterstützt.
  
+
 ## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Eignungskriterium {#eligibilty}
 
 Sie können eine benutzerdefinierte Upload-Zielgruppe als Eignungskriterium sowohl auf Angebots- als auch auf Entscheidungsebene verwenden. Nach dem Hinzufügen können Angebote oder Sammlungen von Angeboten anhand dieses Kriteriums von der Eignung ausgeschlossen werden. Hier erfahren Sie, wo Sie benutzerdefinierte Upload-Zielgruppen nutzen können, um die Eignung von Angeboten und Entscheidungen einzuschränken:
