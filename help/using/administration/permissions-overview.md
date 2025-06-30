@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ In [!DNL Journey Optimizer] besteht die Möglichkeit, aus einer Reihe bereits vo
 
 * **[!UICONTROL Sandboxes]**: Virtuelle Sandboxes unterteilen Instanzen in separate, isolierte virtuelle Umgebungen. Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. Weitere Informationen zur [Verwendung von Sandboxes](sandboxes.md).
 
-* **Objektbasierte Zugriffssteuerung**: Labels zur Einschränkung des Zugriffs auf ein Objekt. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten. Weitere Informationen zur [objektbasierten Zugriffsverwaltung](object-based-access.md).
+* **Objektbasierte Zugriffssteuerung**: Labels zur Einschränkung des Zugriffs auf ein Objekt. Dieser Ansatz schützt sensible digitale Assets vor unbefugten Nutzern und sorgt für einen weiteren Schutz personenbezogener Daten. Weitere Informationen zur [objektbasierten Zugriffsverwaltung](object-based-access.md).
 
 * **Attributbasierte Zugriffssteuerung**: Berechtigungen zum Verwalten des Datenzugriffs für bestimmte Teams oder Gruppen von Benutzenden. Die attributbasierte Zugriffssteuerung ermöglicht es Administrierenden, den Zugriff auf bestimmte Objekte und/oder Funktionen anhand von Attributen zu steuern. Attribute können Metadaten sein, die einem Objekt hinzugefügt werden, z. B. ein Label, das einem Schemafeld oder Segment hinzugefügt wird. Administrierende definieren Zugriffsrichtlinien, die Attribute zur Verwaltung von Zugriffsberechtigungen für Benutzende enthalten. Weitere Informationen zur [attributbasierten Zugriffsverwaltung](attribute-based-access.md).
 
