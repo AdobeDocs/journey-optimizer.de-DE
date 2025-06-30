@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 85%
@@ -70,4 +71,4 @@ Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wi
 
 >[!NOTE]
 >
->Dieser Datensatz kann jetzt beim Erstellen eines KI-Modells ausgewählt werden, um Ereignisdaten zu erfassen<!--add link to Creat AI models section-->.
+>Dieser Datensatz kann jetzt ausgewählt werden, um Ereignisdaten beim Erstellen eines [KI-Modells](../ranking/create-ai-models.md) zu erfassen.

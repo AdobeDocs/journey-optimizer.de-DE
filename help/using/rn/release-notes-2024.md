@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungsfindung**
 
-* Benutzende von [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) können nun bei der Einrichtung eines KI-Modells in der Entscheidungsfindung (zuvor Erlebnis-Entscheidung) benutzerdefinierte Modelle für die Optimierung auswählen. So können Sie z. B. anhand einer benutzerdefinierten „Einkaufstabelle“ und nicht auf Grundlage definierter Einschränkungen wie der Clickthrough-Rate optimieren.  [Weitere Informationen](../experience-decisioning/ranking.md)
+* Benutzende von [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) können nun bei der Einrichtung eines KI-Modells in der Entscheidungsfindung (zuvor Erlebnis-Entscheidung) benutzerdefinierte Modelle für die Optimierung auswählen. So können Sie z. B. anhand einer benutzerdefinierten „Einkaufstabelle“ und nicht auf Grundlage definierter Einschränkungen wie der Clickthrough-Rate optimieren.  [Weitere Informationen](../experience-decisioning/ranking/ranking.md)
 
 * Beim Hinzufügen einer Entscheidungsrichtlinie zu einer Code-basierten Kampagne mit der Entscheidungsfindung können Sie nun zusätzlich zu den Auswahlstrategien einzelne Entscheidungselemente manuell auswählen. Darüber hinaus können Sie jetzt mehr als ein Fallback-Angebot auswählen. Dadurch wird sichergestellt, dass eine bestimmte Anzahl von Entscheidungselementen zurückgegeben wird. [Weitere Informationen](../experience-decisioning/create-decision.md)
 

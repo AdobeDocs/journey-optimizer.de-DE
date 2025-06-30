@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 79%
@@ -36,7 +36,7 @@ Unser Entscheidungs-Framework der nächsten Generation, das dazu dient, bestehen
 * Aktualisierte Konfiguration von Entscheidungsrichtlinien und Auswahlstrategien: Ermöglicht die Wiederverwendbarkeit von Entscheidungskomponenten
 * Experimentierfunktionen: Testen der Entscheidungslogik mit anderen Inhaltskomponenten, um die Leistung zu messen
 
-Experience Decisioning wird im Code-basierten Erlebniskanal unterstützt.
+Die Entscheidungsfindung wird derzeit im Code-basierten Erlebniskanal unterstützt.
 
 ➡️ [Erste Schritte mit der Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md)
 

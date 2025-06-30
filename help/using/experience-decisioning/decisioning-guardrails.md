@@ -5,8 +5,8 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -18,28 +18,28 @@ Um eine optimale Nutzung der Entscheidungsfindung sicherzustellen, sollten Sie d
 
 Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](../start/guardrails.md).
 
-## Entscheidungsanfragen
+## Entscheidungsanfragen {#decision-requests}
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die Edge-Segmentierung verwendet | 1.500 |
 | API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die keine Edge-Segmentierung verwendet | 5.000 |
 
-## Elementsammlung
+## Elementsammlung {#item-collections}
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | Elementsammlungen | 10.000 |
 | Angebotselemente insgesamt pro Elementsammlung | 500 |
 
-## Entscheidungsrichtlinie
+## Entscheidungsrichtlinie {#decision-policy}
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | Anzahl der Auswahlstrategien und manuellen Elemente pro Entscheidungsrichtlinie | 10 |
 | Maximale Anzahl der zurückgegebenen Angebotselemente pro Entscheidungsrichtlinie | 30 |
 
-## Eignungsregeln
+## Eignungsregeln {#eligibility-rules}
 
 | Leitplanke | Limit |
 | ------- | ------- |
@@ -49,7 +49,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Maximale Größe der PQL-Regel | 15.000 (UTF-8) |
 | Maximale Anzahl an Verschachtelungsebenen | 30 |
 
-## Rangfolgeformeln
+## Rangfolgeformeln {#ranking-formulas}
 
 | Leitplanke | Limit |
 | ------- | ------- |
@@ -58,7 +58,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Maximale Anzahl an Kontextdatenattributen | 30 |
 | Maximale Anzahl an Verschachtelungsebenen | 30 |
 
-## Sonstige
+## Sonstige {#others}
 
 | Leitplanke | Limit |
 | ------- | ------- |

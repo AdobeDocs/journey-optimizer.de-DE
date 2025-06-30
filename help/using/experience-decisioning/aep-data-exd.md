@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 4%
 
 ---
 
-# Verwenden von Adobe Experience Platform-Daten für Entscheidungen {#aep-data}
+# Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -33,7 +33,7 @@ ht-degree: 4%
 >
 >Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff wünschen.
 
-[!DNL Journey Optimizer] ermöglicht die Nutzung von Daten aus [!DNL Adobe Experience Platform] zur Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, ohne die Attribute einzeln manuell aktualisieren zu müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
+[!DNL Journey Optimizer] ermöglicht die Nutzung von Daten aus [!DNL Adobe Experience Platform] für die Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, ohne die Attribute einzeln manuell aktualisieren zu müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
 
 ## Einschränkungen und Richtlinien der Beta-Version {#guidelines}
 
@@ -48,7 +48,7 @@ Bevor Sie beginnen, beachten Sie die folgenden Einschränkungen und Richtlinien:
 
 Um Daten aus einem [!DNL Adobe Experience Platform] Datensatz für die Entscheidungsfindung zu verwenden, müssen Sie ihn zunächst über einen API-Aufruf für die Suche aktivieren. Detaillierte Anweisungen finden Sie in diesem Abschnitt: [Nutzen von Adobe Experience Platform-Datensätzen in Journey Optimizer](../data/lookup-aep-data.md).
 
-## Verwenden von Adobe Experience Platform-Daten für Entscheidungen
+## Adobe Experience Platform-Daten nutzen {#leverage-aep-data}
 
 Sobald ein Datensatz für die Suche aktiviert ist, können Sie seine Attribute verwenden, um Ihre Entscheidungslogik mit externen Daten anzureichern. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeit-Preisen.
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Entscheidungsrege
 
    ![](assets/exd-lookup-menu.png)
 
-### Rangfolgeformeln
+### Rangfolgeformeln {#ranking-formulas}
 
 Rangfolgeformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung [!DNL Adobe Experience Platform] Datensatzattribute können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln.
 
@@ -107,6 +107,6 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Rangfolgeformeln 
    >
    >Sie können bis zu 3 Zuordnungen pro Rangfolgenformel erstellen.
 
-1. Verwenden Sie die Datensatzfelder, um Ihre Rangfolgenformel wie gewohnt zu erstellen. [Erfahren Sie, wie Sie eine Rangfolgenformel erstellen](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. Verwenden Sie die Datensatzfelder, um Ihre Rangfolgenformel wie gewohnt zu erstellen. [Erfahren Sie, wie Sie eine Rangfolgenformel erstellen](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 95%
@@ -56,7 +56,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
@@ -76,7 +76,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Rangfolgemethoden implementieren**: Erstellen Sie Rangfolgemethoden und wenden Sie diese innerhalb von Auswahlstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen festzulegen.
 
-   ➡️ [Informationen zum Erstellen von Rangfolgemethoden](ranking.md)
+   ➡️ [Informationen zum Erstellen von Rangfolgemethoden](ranking/ranking.md)
 
 1. **Auswahlstrategien erstellen**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangfolgemethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 

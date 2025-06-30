@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '3117'
 ht-degree: 100%
@@ -201,7 +201,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Sie können jetzt spezifische Rangfolgeformeln für die Entscheidungsfindung erstellen, indem Sie Kriterien in einer neuen, verbesserten Oberfläche definieren und kombinieren. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie benutzerdefinierte Rangfolgeformeln definieren, die KI-Modellbewertungen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Benutzeroberfläche kombinieren.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/exd-ranking-formulas.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/ranking/ranking-formulas.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum:14. Mai 2025</p>
 </td>
 </tr>

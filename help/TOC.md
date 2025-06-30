@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 97%
 
 ---
@@ -548,10 +548,16 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
          + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
          + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
-      + Konfigurieren der Elementauswahl {#selection}
-         + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
-         + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking.md)
-         + [Verwenden des KI-Formel-Builder](using/experience-decisioning/exd-ranking-formulas.md)
+      + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
+      + Erstellen von Rankings {#rankings}
+         + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking/ranking.md)
+         + [Verwenden des KI-Formel-Builder](using/experience-decisioning/ranking/ranking-formulas.md)
+         + KI-Modelle {#ai-models}
+            + [Über KI-Modelle](using/experience-decisioning/ranking/ai-models.md)
+            + [Modell für automatische Optimierung](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [Modell zur personalisierten Optimierung](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [Erstellen von KI-Modellen](using/experience-decisioning/ranking/create-ai-models.md)
+      + Verwenden von Adobe Experience Platform-Daten {#aep-data}
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
          + [Verwenden von Adobe Experience Platform für Entscheidungen](using/experience-decisioning/aep-data-exd.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
@@ -579,7 +585,6 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Rangfolgeformeln](using/offers/ranking/create-ranking-formulas.md)
          + KI-Modelle {#ai-models}
             + [Über KI-Modelle](using/offers/ranking/ai-models.md)
-            + KI-Modelltypen {#ai-model-types}
             + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
             + [Modell zur personalisierten Optimierung](using/offers/ranking/personalized-optimization-model.md)
             + [Erstellen von KI-Modellen](using/offers/ranking/create-ranking-strategies.md)

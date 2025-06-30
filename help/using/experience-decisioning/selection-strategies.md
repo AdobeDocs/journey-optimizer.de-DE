@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 96%
 
 ---
 
@@ -98,9 +98,9 @@ Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Si
 
 ### Angebotspriorität {#offer-priority}
 
-Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidungsrichtlinie infrage kommen, werden standardmäßig die Elemente mit der höchsten **Priorität** zuerst an die Kundschaft gesendet.
+Wenn in einer Entscheidungsrichtlinie mehrere Angebote geeignet sind, werden standardmäßig zuerst die Elemente mit der höchsten **Priorität** an die Kunden gesendet.
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 Die Prioritätswerte der Angebote werden beim Erstellen eines [Entscheidungselements](items.md) zugewiesen.
 
@@ -108,17 +108,17 @@ Die Prioritätswerte der Angebote werden beim Erstellen eines [Entscheidungselem
 
 Zusätzlich zur Angebotspriorität können Sie mit Journey Optimizer **Rangfolgenformeln** erstellen. Dabei handelt es sich um Formeln, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst präsentiert werden soll, anstatt die Prioritätswerte der Angebote zu berücksichtigen.
 
-Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatum weniger als 24 Stunden entfernt ist, oder die Priorität von Angeboten aus der Kategorie „Laufen“ erhöhen, wenn das Interesse eines Profils „Laufen“ ist. Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Abschnitt](exd-ranking-formulas.md).
+Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatum weniger als 24 Stunden entfernt ist, oder die Priorität von Angeboten aus der Kategorie „Laufen“ erhöhen, wenn das Interesse eines Profils „Laufen“ ist. Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Abschnitt](ranking/ranking-formulas.md).
 
 Wenn sie erstellt wurde, können Sie diese Formel in einer Auswahlstrategie verwenden. Wenn mit dieser Auswahlstrategie mehrere Angebote für diese Platzierung infrage kommen, verwendet die Entscheidung die ausgewählte Formel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
 
 ### KI-Rangfolge {#ai-ranking}
 
-Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](../offers/ranking/ai-models.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
+Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](ranking/create-ai-models.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
 
 Wenn ein KI-Modell erstellt wurde, können Sie es in einer Auswahlstrategie verwenden. Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot für diese Auswahlstrategie zuerst gezeigt werden soll.
 
 >[!NOTE]
 >
->Derzeit ist der Bericht [Lift Measurement](../offers/ranking/auto-optimization-model.md#lift) nur für das KI-Modell zur [personalisierten Optimierung](../offers/ranking/personalized-optimization-model.md) verfügbar.
+>Derzeit ist der Bericht [Lift Measurement](ranking/auto-optimization-model.md#lift) nur für das KI-Modell zur [personalisierten Optimierung](ranking/personalized-optimization-model.md) verfügbar.
 

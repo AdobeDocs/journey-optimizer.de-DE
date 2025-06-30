@@ -6,16 +6,18 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Verwendung von Kontextdaten bei der Entscheidungsfindung {#context}
 
-Mit der Entscheidungsfindung können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen auszuführen, wie z. B. die Erstellung von [Entscheidungsregeln](rules.md) oder [Rangfolgeformeln](ranking.md). Sie können zum Beispiel eine Entscheidungsregel entwerfen, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage  wärmer als 25 °C sein muss.
+Mit Decisioning können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen durchzuführen, z. B. [Entscheidungsregeln](rules.md) oder [Rangfolgeformeln](ranking/ranking.md).
+
+Sie können zum Beispiel eine Entscheidungsregel entwerfen, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage  wärmer als 25 °C sein muss.
 
 >[!NOTE]
 >
@@ -27,7 +29,7 @@ Für die Verwendung von Kontextdaten müssen Sie zunächst definieren, welche Da
 
 Hier erfahren Sie, wie Sie die Entscheidungsfindung mit Daten aus Adobe Experience Platform versorgen können:
 
-1. Erstellen Sie ein **Erlebnisereignis-Schema** in Adobe Experience Platform und den dazugehörigen **Datensatz**. [Lernen Sie, wie man Schemata erstellt](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Erstellen Sie ein **Erlebnisereignis-Schema** in Adobe Experience Platform und den dazugehörigen **Datensatz**. [Erfahren Sie, wie Sie Schemata erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. So erstellen Sie einen neuen Adobe Experience Platform-Datenstrom:
 
@@ -45,6 +47,6 @@ Sobald der Datenstrom gespeichert ist, werden die Informationen des ausgewählte
 
 Weitere Anleitungen für die Arbeit mit Adobe Experience Platform finden Sie in den folgenden Ressourcen:
 
-* [Schemata für das Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Experience-Datenmodell (XDM)-Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}
 * [Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview){target="_blank"}
 * [Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview){target="_blank"}
