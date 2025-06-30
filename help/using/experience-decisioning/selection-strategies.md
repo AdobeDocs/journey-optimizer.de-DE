@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 96%
@@ -26,7 +26,7 @@ ht-degree: 96%
 >title="Eingrenzen der qualifizierten Profile"
 >abstract="Die Auswahl der Angebote für diese Auswahlstrategie kann eingeschränkt werden. Standardmäßig sind alle Profile qualifiziert. Man kann jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Verwenden von Zielgruppen"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="Verwenden von Entscheidungsregeln"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Verwenden von Entscheidungsregeln"
 
 Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer [Entscheidungsrichtlinie](create-decision.md) ausgewählt sind.
 
