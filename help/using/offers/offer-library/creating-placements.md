@@ -86,5 +86,5 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Platzierungen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341384?quality=12&captions=ger)
 

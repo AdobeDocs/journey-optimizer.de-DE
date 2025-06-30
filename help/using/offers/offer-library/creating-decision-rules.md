@@ -74,4 +74,4 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341369?quality=12&captions=ger)
