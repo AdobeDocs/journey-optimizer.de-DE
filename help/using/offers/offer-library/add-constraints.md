@@ -1,14 +1,15 @@
 ---
 title: Hinzufügen von Einschränkungen zu Angeboten
 description: Erfahren Sie, wie Sie Bedingungen für ein anzuzeigendes Angebot definieren
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 98%
 
 ---
@@ -75,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -171,7 +172,7 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 
 >[!NOTE]
 >
->Die Begrenzungszähler werden zurückgesetzt, wenn das Angebot abgelaufen ist, oder 2 Jahre nach dem Anfangsdatum des Angebots, je nachdem, was zuerst eintritt. In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
+>Die Begrenzungszähler werden zurückgesetzt, wenn das Angebot abgelaufen ist, oder 2 Jahre nach dem Startdatum des Angebots, je nachdem, was zuerst eintritt. In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
 ### Begrenzungsereignis {#capping-event}
 
@@ -319,13 +320,13 @@ Wenn die Begrenzung für einzelne Profile festgelegt ist, wird für jedes Profil
 
 ![](../assets/offer-capping-change-date.png)
 
-Im Folgenden finden Sie die möglichen Szenarien für **das Ändern des Anfangsdatums eines Angebots**:
+Im Folgenden finden Sie die möglichen Szenarien für **das Ändern des Startdatums eines Angebots**:
 
 | Szenario:<br>Wenn ... | Was geschieht:<br>dann ... | Mögliche Auswirkungen auf den Begrenzungswert |
 |--- |--- |--- |
-| ... das Anfangsdatum des Angebots vor Beginn des ursprünglichen Angebotsstartdatums geändert wird, | ... beginnt der Begrenzungswert am neuen Anfangsdatum. | Nein |
-| ... das neue Anfangsdatum vor dem aktuellen Enddatum liegt, | ... wird die Begrenzung mit dem neuen Anfangsdatum fortgesetzt und der vorherige Begrenzungswert wird für jedes Profil übernommen. | Nein |
-| ... das neue Anfangsdatum hinter dem aktuellen Enddatum liegt, | ... läuft die aktuelle Begrenzung ab und der neue Begrenzungswert beginnt für alle Profile am neuen Anfangsdatum wieder bei 0. | Ja |
+| ... das Anfangsdatum des Angebots vor Beginn des ursprünglichen Angebotsstartdatums geändert wird, | ... beginnt der Begrenzungswert am neuen Startdatum. | Nein |
+| ... das neue Startdatum vor dem aktuellen Enddatum liegt, | ... wird die Begrenzung mit dem neuen Startdatum fortgesetzt und der vorherige Begrenzungswert wird für jedes Profil übernommen. | Nein |
+| ... das neue Startdatum hinter dem aktuellen Enddatum liegt, | ... läuft die aktuelle Begrenzung ab und der neue Begrenzungswert beginnt für alle Profile am neuen Startdatum wieder bei 0. | Ja |
 
 Im Folgenden finden Sie mögliche Szenarien für **die Verlängerung des Enddatums eines Angebots**:
 
@@ -336,7 +337,7 @@ Im Folgenden finden Sie mögliche Szenarien für **die Verlängerung des Enddatu
 
 **Beispiel**
 
-Angenommen, Sie haben ein Angebot mit dem ursprünglichen Anfangsdatum **1. Januar**, das am **31. Januar** abläuft.
+Angenommen, Sie haben ein Angebot mit dem ursprünglichen Startdatum **1. Januar**, das am **31. Januar** abläuft.
 
 1. Den Profilen X, Y und Z wird das Angebot gezeigt.
 1. Am **10. Januar** wird das Enddatum des Angebots in **15. Februar** geändert.

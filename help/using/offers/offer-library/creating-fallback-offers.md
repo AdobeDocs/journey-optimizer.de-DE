@@ -1,15 +1,16 @@
 ---
 title: Erstellen von Fallback-Angeboten
 description: Erfahren Sie, wie Sie Fallback-Angebote erstellen, die Kunden angezeigt werden, die für kein Angebot infrage kommen
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 Die Liste der Fallback-Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
@@ -57,5 +58,5 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341350?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

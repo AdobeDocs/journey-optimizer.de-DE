@@ -1,15 +1,16 @@
 ---
 title: Erstellen von Entscheidungsregeln
 description: Erfahren Sie, wie Sie Entscheidungsregeln erstellen, um zu definieren, wem Angebote angezeigt werden können
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +22,7 @@ Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie En
 
 Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für Frauen“ nur dann angezeigt werden soll, wenn (Geschlecht = „Weiblich“) und (Region = „Nordost“) zutrifft.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Funktion im Video kennenlernen](#video).
 
 Im Folgenden ist eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
 
@@ -73,4 +74,4 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

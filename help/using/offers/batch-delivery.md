@@ -1,14 +1,15 @@
 ---
 title: Batch-Entscheidungsfindung
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe senden.
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 99%
 
 ---
 

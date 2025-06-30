@@ -1,15 +1,16 @@
 ---
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen für Ihre Angebote erstellen
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 100%
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Platzierungen erstellen](#video)
+➡️ [Erfahren Sie in diesem Video, wie Sie Platzierungen erstellen](#video)
 
 Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 
@@ -85,5 +86,5 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Platzierungen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/341384?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

@@ -1,15 +1,16 @@
 ---
 title: Erstellen von Sammlungsqualifizierern
 description: Erfahren Sie, wie Sie Sammlungsqualifizierer für Ihre Angebote erstellen
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +25,7 @@ Die Zuordnung von Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) zu
 
 Sammlungsqualifizierer können auch dazu dienen, Angebote in Angebotssammlungen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video).
 
 Die Liste der erstellten Sammlungsqualifizierer ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
@@ -44,4 +45,4 @@ Gehen Sie wie folgt vor, um einen Sammlungsqualifizierer zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341368?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

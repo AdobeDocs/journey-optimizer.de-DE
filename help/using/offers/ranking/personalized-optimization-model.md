@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Modell zur personalisierten Optimierung
 description: Erfahren Sie mehr über Modelle zur personalisierten Optimierung
+badge: label="Veraltet" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
-workflow-type: ht
-source-wordcount: '806'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 

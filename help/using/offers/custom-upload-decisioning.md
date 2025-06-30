@@ -1,14 +1,15 @@
 ---
 title: Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 description: Erfahren Sie, wie Sie benutzerdefinierte Upload-Zielgruppen zur Entscheidungsfindung nutzen.
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +24,7 @@ Daten aus benutzerdefinierten Upload-Zielgruppen können beim Entscheidungs-Mana
 
 Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden Sie in den folgenden Abschnitten:
 * [Erste Schritte mit Zielgruppen und Journey Optimizer](../audience/about-audiences.md)
-* [Zugreifen auf eine Zielgruppe in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importieren einer Zielgruppe in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Wichtige Informationen {#must-read}
 

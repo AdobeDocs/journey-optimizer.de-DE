@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Erstellen von KI-Modellen
 description: Erfahren Sie, wie Sie KI-Modelle erstellen, um Angebote in Ranglisten zu sortieren
+badge: label="Veraltet" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -68,7 +69,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 1. Wenn Sie ein KI-Modell für die **[!UICONTROL personalisierte Optimierung]** erstellen, wählen Sie ein oder mehrere Segmente aus, die für das Training des KI-Modells verwendet werden sollen.
 
-   ➡️ [Entdecken Sie diese Funktion im Video](#video)
+   ➡️ [Funktion im Video kennenlernen](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
@@ -86,7 +87,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK erfasst werden.
+Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis - Vorschlagsinteraktionen]** mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK erfasst werden.
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. [Weitere Informationen dazu](../data-collection/schema-requirement.md)
 
@@ -94,4 +95,4 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Erfahren Sie, wie Sie ein personalisiertes Optimierungsmodell erstellen und es auf eine Entscheidung anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

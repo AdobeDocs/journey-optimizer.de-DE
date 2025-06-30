@@ -1,15 +1,16 @@
 ---
 title: Erstellen von Entscheidungen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -309,9 +310,9 @@ Die findet folgendermaßen statt:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Hinzufügen eines Fallback-Angebots"
->abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Regeln und Einschränkungen der Angebotseignung entsprechen."
+>abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen."
 
-Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Regeln und Einschränkungen der Angebotseignung entsprechen.
+Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen.
 
 Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -400,6 +401,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

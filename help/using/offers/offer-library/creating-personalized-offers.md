@@ -1,15 +1,16 @@
 ---
 title: Erstellen von personalisierten Angeboten
 description: Erfahren Sie, wie Sie Ihre Angebote erstellen, konfigurieren und verwalten können
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +22,7 @@ Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 * Wenn Sie eine Eignungsbedingung hinzufügen möchten: eine **Entscheidungsregel** definiert die Bedingung, unter der das Angebot unterbreitet wird. Weitere Informationen finden Sie unter [Erstellen von Entscheidungsregeln](../offer-library/creating-decision-rules.md).
 * Ein oder mehrere **Sammlungsqualifizierer** (ehemals als „Tags“ bezeichnet), die Sie möglicherweise mit dem Angebot verknüpfen möchten. Siehe [Erstellen von Sammlungsqualifizierern](../offer-library/creating-tags.md).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Funktion im Video kennenlernen](#video).
 
 Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
@@ -171,4 +172,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

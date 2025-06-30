@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Kontextdaten und Edge Decisioning-Anfragen
 description: Erfahren Sie, wie Sie Kontextdaten in Edge Decisioning-Anfragen übergeben.
+badge: label="Veraltet" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -50,11 +51,11 @@ Anstatt den Kontext in einem eher freien Format mithilfe der Decisioning-API zu 
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Im [Handbuch zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home){target="_blank"} erfahren Sie, wie Sie in Adobe Experience Platform mit Schemata arbeiten
+   Erfahren Sie im Handbuch zum Experience-Datenmodell ([) in Adobe Experience Platform, wie Sie mit Schemas arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Erstellen Sie einen Datensatz (hier „Angebotskontext“) und stellen Sie sicher, dass er für das Profil aktiviert ist.
 
-1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im [Handbuch zu Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"} erfahren Sie, wie Sie Datenströme in Adobe Experience Platform erstellen und konfigurieren
+1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im Handbuch zu Datenströmen in Adobe Experience Platform erfahren Sie[ wie Sie einen Datenstrom erstellen und ](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Hier wurde ein „Angebotskontext“-Datenstrom erstellt, in dem das Ereignisschema „Angebotsinhalt“ ausgewählt ist.
 
