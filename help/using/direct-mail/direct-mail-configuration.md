@@ -8,7 +8,7 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Datei-Routing-Konfiguration"
->abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Zielgruppe generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
+>abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Zielgruppe generiert und an einen Server exportiert. Die Server-Details müssen angegeben werden, damit der Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="Erstellen einer Briefpostnachricht"
 
 >[!CONTEXTUALHELP]
@@ -53,8 +53,8 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="Auswählen des Server-Typs für Ihre Datei"
->abstract="Wählen Sie den Server-Typ aus, der für den Export Ihrer Briefpostdateien verwendet werden soll: Amazon S3, SFTP, Azure oder Data Landing Zone."
+>title="Auswählen des Server-Typs für die Datei"
+>abstract="Den Server-Typ auswählen, der für den Export der Briefpostdateien verwendet werden soll: Amazon S3, SFTP, Azure oder Data Landing Zone."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"

@@ -337,7 +337,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="Platzierung"
->abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Sie können ihre Leistung über verschiedene Platzierungen in Berichten hinweg verfolgen."
+>abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Ihre Leistung kann in verschiedenen Berichten über verschiedene Platzierungen hinweg verfolgen."
 
 
 >[!CONTEXTUALHELP]
