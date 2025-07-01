@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 72%
+source-wordcount: '1510'
+ht-degree: 67%
 
 ---
 
 # Anpassbare Fragmente {#customizable-fragments}
 
-Wenn Fragmente in einer Journey- oder Kampagnenaktion verwendet werden, sind sie aus Gründen der Vererbung standardmäßig gesperrt. Das bedeutet, dass alle an einem Fragment vorgenommenen Änderungen automatisch an alle Kampagnen und Journeys weitergegeben werden, in denen das Fragment verwendet wird. Mit anpassbaren Fragmenten können bestimmte Felder in einem Fragment als bearbeitbar definiert werden, wenn das Fragment einer Journey- oder Kampagnenaktion hinzugefügt wird. Angenommen, Sie verfügen über ein Fragment mit einem Banner, etwas Text und einer Schaltfläche. Sie können bestimmte Felder wie das Bild oder die Ziel-URL der Schaltfläche als bearbeitbar festlegen. Auf diese Weise können Benutzende diese Elemente ändern, wenn sie das Fragment in ihre Kampagne oder Journey integrieren. So wird ein benutzerdefiniertes Erlebnis ermöglicht, ohne dass das ursprüngliche Fragment beeinträchtigt wird.
+Wenn Fragmente in einer Journey- oder Kampagnenaktion verwendet werden, sind sie aus Gründen der Vererbung standardmäßig gesperrt. Das bedeutet, dass alle an einem Fragment vorgenommenen Änderungen automatisch an alle Kampagnen und Journey weitergegeben werden, in denen das Fragment verwendet wird.
+
+Mit **anpassbaren Fragmenten** können bestimmte Felder innerhalb eines Fragments als bearbeitbar definiert werden, wenn das Fragment zu einer Kampagne oder Journey-Aktion hinzugefügt wird. Angenommen, Sie verfügen über ein Fragment mit einem Banner, etwas Text und einer Schaltfläche. Sie können bestimmte Felder wie das Bild oder die Ziel-URL der Schaltfläche als bearbeitbar festlegen. Auf diese Weise können Benutzende diese Elemente ändern, wenn sie das Fragment in ihre Kampagne oder Journey integrieren. So wird ein benutzerdefiniertes Erlebnis ermöglicht, ohne dass das ursprüngliche Fragment beeinträchtigt wird.
 
 Bei anpassbaren Fragmenten muss die Fragmentvererbung nicht mehr unterbrochen werden. Dadurch wurde nämlich bislang verhindert, dass zentrale Änderungen auf Fragmentebene an die Kampagnen und Journeys weitergegeben wurden. Dieser Ansatz ermöglicht es, Inhaltsabschnitte zum Zeitpunkt der Verwendung anzupassen, und bietet zudem die Flexibilität, Standardwerte mit kontextspezifischen Details überschreiben zu können.
 
@@ -39,7 +41,7 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 
 1. Wählen Sie die Komponente in Ihrem Fragment aus, für die Sie bearbeitbare Felder konfigurieren möchten.
 
-1. Der Bereich „Komponenteneigenschaften“ wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und schalten Sie dann die Option **Bearbeitung aktivieren** um.
+1. Der Bereich Komponenteneigenschaften wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und schalten Sie dann die Option **Bearbeitung aktivieren** um.
 
 1. Alle Felder, die für die ausgewählte Komponente bearbeitet werden können, werden im Bereich aufgelistet. Welche Felder zur Bearbeitung verfügbar sind, hängt vom ausgewählten Komponententyp ab.
 
@@ -110,7 +112,7 @@ Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragme
 
    ![](assets/fragment-call-variable.png)
 
-1. Speichern Sie Ihr Fragment.
+1. Speichern und veröffentlichen Sie Ihr Fragment.
 
 Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende nun die Standardwerte der Variablen mit den von ihnen gewählten Werten überschreiben:
 
@@ -118,7 +120,7 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende nun die
 
 * Für HTML-Komponenten wird die Variable in der Liste der bearbeitbaren Felder im E-Mail-Designer angezeigt. [Informationen dazu, wie Sie bearbeitbare Felder in einem visuellen Fragment anpassen](../email/use-visual-fragments.md#customize-fields)
 
-## Beispiel für ein bearbeitbares Ausdrucksfragment {#example}
+### Beispiel für ein bearbeitbares Ausdrucksfragment {#example}
 
 Im folgenden Beispiel wird ein Ausdrucksfragment zur Präsentation einer neuen Sportkollektion erstellt. Standardmäßig zeigt das Fragment diesen Inhalt an: *Sie wollen mehr? Dann sehen Sie sich unsere neueste Sportkollektion an!*
 
@@ -142,11 +144,11 @@ Gehen Sie dazu wie folgt vor:
 
 Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 
-➡️ [In diesem Video erfahren Sie, wie Sie einer HTML-Komponente in einem bearbeitbaren Fragment Rich-Text hinzufügen und verwenden](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie einem bearbeitbaren Fragment Rich-Text hinzufügen und verwenden](#video)
 
 ### Erstellen eines Fragments mit Rich-Text {#add-rich-text}
 
-1. Erstellen Sie ein visuelles Fragment und beginnen Sie mit dem Hinzufügen von Komponenten.
+1. Erstellen Sie ein visuelles [Fragment](create-fragments.md) und beginnen Sie mit dem Hinzufügen von Komponenten.
 
 1. Fügen Sie eine [HTML-](../email/content-components.md#HTML) hinzu und öffnen Sie den HTML-Editor.
 
@@ -154,7 +156,7 @@ Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponen
 
 1. Ersetzen Sie `"name"` durch die ID, die Sie für Ihren bearbeitbaren Inhalt verwenden möchten, z. B. „EditableContent“.
 
-1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten Standardinhalt entspricht.
+1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten standardmäßigen Rich-Content entspricht. Sie können fett, kursiv, Zeilenumbrüche, Aufzählungslisten usw. hinzufügen.
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -197,24 +199,28 @@ Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponen
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. Veröffentlichen Sie das Fragment.
+1. Speichern und [veröffentlichen](create-fragments.md#publish) Sie das Fragment.
 
 ### Verwenden von bearbeitbaren Rich-Text-Fragmenten {#use-rich-text}
 
-Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzerinnen und Benutzer jetzt den von Ihnen erstellten Rich-Text-Inhalt und die Formatierung bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente für einen Marketing-Experten zu verwenden.
+Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzerinnen und Benutzer jetzt den von Ihnen erstellten Rich-Text-Inhalt und die Formatierung bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente als Marketing-Experten zu verwenden.
 
-1. Erstellen Sie eine E-Mail in einer Kampagne oder einer Journey und fügen Sie dann das erstellte Fragment hinzu.
+1. [Erstellen Sie eine E](../email/create-email.md)Mail in einer Kampagne oder einer Journey und fügen Sie dann das Fragment mit dem zuvor [erstellten](#add-rich-text) Rich-Text hinzu.
 
-   Sie können die beiden bearbeitbaren Felder sehen, die im rechten Bereich erstellt wurden.
+   Sie können die beiden bearbeitbaren Felder sehen, die auf der rechten Seite erstellt wurden.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Sie können auf **[!UICONTROL Inhalt simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden.
+1. Sie können auf **[!UICONTROL Inhalt simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Erfahren Sie mehr über die Vorschau von Inhalten](preview-test.md)
 
-1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus und bearbeiten Sie CSS-Stile und/oder Inhalte nach Bedarf.
+1. Wählen Sie das **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus.
+
+1. Aktualisieren Sie im sich öffnenden Personalisierungseditor die <!--CSS-->Formatierung und/oder Inhalte nach Bedarf, indem Sie Elemente des bearbeitbaren Felds hinzufügen oder entfernen.
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Anleitungsvideo {#video}
 
 In diesem Video wird gezeigt, wie Sie HTML-Komponenten innerhalb eines Fragments bearbeitbar machen können, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
