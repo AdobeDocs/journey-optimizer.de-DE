@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 67%
@@ -159,35 +159,6 @@ Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponen
 1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten standardmäßigen Rich-Content entspricht. Sie können fett, kursiv, Zeilenumbrüche, Aufzählungslisten usw. hinzufügen.
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. Fügen Sie innerhalb derselben HTML-Komponente eine weitere **inline**-Hilfsfunktion für Ihre Stilelemente hinzu.
 
@@ -223,4 +194,4 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzerinnen und 
 
 In diesem Video wird gezeigt, wie Sie HTML-Komponenten innerhalb eines Fragments bearbeitbar machen können, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
