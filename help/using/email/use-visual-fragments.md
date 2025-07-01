@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in Journey Optimizer-Kampagnen, -Journeys oder -Inhaltsvorlagen referenziert werden kann.  Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zum Erstellen und Verwalten von Fragmenten](../content-management/fragments.md).
 
-➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
+➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](../content-management/fragments.md#video-fragments)
 
 ## Verwenden eines Fragments {#use-fragment}
 
@@ -85,11 +85,13 @@ Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, kö
 
 Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 
-1. Fügen Sie das Fragment zu Ihrem Inhalt hinzu und wählen Sie es aus, um den Bereich „Eigenschaften“ auf der rechten Seite zu öffnen.
+1. Fügen Sie das Fragment zu Ihrem Inhalt hinzu.
 
-1. Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **Einstellungen** im Abschnitt **Fragment** angezeigt.
+1. Wählen Sie diese Option aus, um den Eigenschaftenbereich auf der rechten Seite zu öffnen.
 
-   Bearbeitbare Felder werden im Vorschaufenster grün hervorgehoben, wenn sie im rechten Bereich ausgewählt wurden. So können Sie die Position der Felder in Ihrem Inhalt leicht identifizieren.
+   Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **Einstellungen** im Abschnitt **Fragment** angezeigt.
+
+1. Wenn Sie ein bearbeitbares Feld im rechten Bereich auswählen, wird es im zentralen Vorschaubereich grün hervorgehoben, sodass die Position des Felds im Inhalt leicht zu erkennen ist.
 
    Im folgenden Beispiel können die **Bildquelle** und der **alternative Text** sowie die **URL** der Schaltfläche „Hier klicken“ bearbeitet werden.
 

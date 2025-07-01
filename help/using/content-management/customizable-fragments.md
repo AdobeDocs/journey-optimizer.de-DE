@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 95%
+source-wordcount: '1478'
+ht-degree: 72%
 
 ---
 
@@ -27,19 +27,19 @@ Sowohl visuelle Fragmente als auch Ausdrucksfragmente können als anpassbar mark
 
 ![](../content-management/assets/do-not-localize/gif-fragments.gif)
 
-## Hinzufügen bearbeitbarer Felder in visuellen Fragmenten {#visual}
+## Hinzufügen bearbeitbarer Felder zu visuellen Fragmenten {#visual}
 
 Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar festzulegen:
 
 >[!NOTE]
 >
->Bearbeitbare Felder können zu **Bild**-, **Text**- und **Schaltflächenkomponenten** hinzugefügt werden. Für **HTML**-Komponenten werden bearbeitbare Felder ähnlich wie Ausdrucksfragmente mithilfe des Personalisierungseditors hinzugefügt. [Informationen dazu, wie Sie bearbeitbare Felder in HTML-Komponenten und Ausdrucksfragmenten hinzufügen](#expression)
+>Bearbeitbare Felder können zu **Bild**-, **Text**- und **Schaltflächenkomponenten** hinzugefügt werden. Für **HTML**-Komponenten werden bearbeitbare Felder ähnlich wie Ausdrucksfragmente mithilfe des Personalisierungseditors hinzugefügt. [Erfahren Sie, wie Sie in HTML-Komponenten und Ausdrucksfragmenten bearbeitbare Felder hinzufügen](#expression)
 
 1. Öffnen Sie den Bildschirm zur Inhaltsbearbeitung von Fragmenten.
 
 1. Wählen Sie die Komponente in Ihrem Fragment aus, für die Sie bearbeitbare Felder konfigurieren möchten.
 
-1. Der Bereich „Komponenteneigenschaften“ wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und aktivieren Sie die Option **Bearbeitung aktivieren**.
+1. Der Bereich „Komponenteneigenschaften“ wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und schalten Sie dann die Option **Bearbeitung aktivieren** um.
 
 1. Alle Felder, die für die ausgewählte Komponente bearbeitet werden können, werden im Bereich aufgelistet. Welche Felder zur Bearbeitung verfügbar sind, hängt vom ausgewählten Komponententyp ab.
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 
 1. Nach dem Hinzufügen des Fragments zu einer E-Mail können Benutzende alle im Fragment konfigurierten bearbeitbaren Felder anpassen. [Informationen dazu, wie Sie bearbeitbare Felder in einem visuellen Fragment anpassen](../email/use-visual-fragments.md#customize-fields)
 
-## Hinzufügen bearbeitbarer Felder in HTML-Komponenten und Ausdrucksfragmenten {#expression}
+## Hinzufügen bearbeitbarer Felder zu HTML-Komponenten und Ausdrucksfragmenten {#expression}
 
 Damit Teile einer HTML-Komponente oder eines Ausdrucksfragments bearbeitbar sind, müssen Sie im Ausdruckseditor eine bestimmte Syntax verwenden. Dazu gehört die Deklarierung einer **Variablen** mit einem Standardwert, den Benutzende überschreiben können, nachdem sie das Fragment zu ihrem Inhalt hinzugefügt haben.
 
@@ -70,8 +70,8 @@ Im Falle von HTML-Komponenten können nur bestimmte Elemente zu bearbeitbaren Fe
 Die folgenden Elemente können in einer HTML-Komponente zu bearbeitbaren Feldern gemacht werden:
 
 * Textteile
-* vollständige URLs für Links oder Bilder (funktioniert nicht mit einer Teil-URL)
-* gesamte CSS-Eigenschaft (funktioniert nicht mit einer Teileigenschaft)
+* Eine vollständige URL für einen Link oder ein Bild (funktioniert nicht bei Teilen einer URL)
+* Gesamte CSS-Eigenschaft (funktioniert nicht bei partieller Eigenschaft)
 
 Im folgenden Code kann beispielsweise jedes rot hervorgehobene Element zu einer Eigenschaft gemacht werden:
 
@@ -81,9 +81,11 @@ Im folgenden Code kann beispielsweise jedes rot hervorgehobene Element zu einer 
 
 Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragment zu verwenden:
 
-1. Öffnen Sie das Ausdrucksfragment und bearbeiten Sie seinen Inhalt im Personalisierungseditor. Wählen Sie für HTML-Komponenten die Komponente im Fragment aus und klicken Sie auf die Schaltfläche **Quell-Code anzeigen**.
+1. Öffnen Sie Ihr Ausdrucksfragment und bearbeiten Sie dann seinen Inhalt im Personalisierungseditor.
 
    ![](assets/fragment-html-edit.png)
+
+   Wählen Sie für HTML-Komponenten die Komponente im Fragment aus und klicken Sie auf die Schaltfläche **Quell-Code anzeigen**.
 
 1. Deklarieren Sie die Variable, die benutzerseitig bearbeitet werden soll. Navigieren Sie im linken Navigationsbereich zum Menü **Hilfsfunktionen** und wählen Sie die Hilfsfunktion **inline** aus. Die Syntax zum Deklarieren und Aufrufen der Variablen wird automatisch in Ihren Inhalt eingefügt.
 
@@ -135,3 +137,84 @@ Gehen Sie dazu wie folgt vor:
 1. Wenn die Benutzenden das Ausdrucksfragment zu ihrem Inhalt hinzufügen, können sie den Wert der Variablen direkt im Ausdruckseditor wie gewünscht ändern. [Informationen dazu, wie Sie bearbeitbare Felder in einem Ausdrucksfragment anpassen](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
+
+## Hinzufügen von Rich-Text zu einem anpassbaren Fragment {#rich-text}
+
+Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
+
+➡️ [In diesem Video erfahren Sie, wie Sie einer HTML-Komponente in einem bearbeitbaren Fragment Rich-Text hinzufügen und verwenden](#video)
+
+### Erstellen eines Fragments mit Rich-Text {#add-rich-text}
+
+1. Erstellen Sie ein visuelles Fragment und beginnen Sie mit dem Hinzufügen von Komponenten.
+
+1. Fügen Sie eine [HTML-](../email/content-components.md#HTML) hinzu und öffnen Sie den HTML-Editor.
+
+1. Navigieren Sie zum Menü **[!UICONTROL Hilfsfunktionen]** im linken Navigationsbereich und fügen Sie die Hilfsfunktion **inline** hinzu.
+
+1. Ersetzen Sie `"name"` durch die ID, die Sie für Ihren bearbeitbaren Inhalt verwenden möchten, z. B. „EditableContent“.
+
+1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten Standardinhalt entspricht.
+
+   ![](assets/fragment-rich-editable-content.png)
+<!--
+    +++For example:
+
+    ```html
+
+    <h1>Main title</h1>
+
+    <h2>Subtitle One</h2>
+    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
+
+    <p class="bold">This text is bold.</p>
+    <p class="italic">This text is italic.</p>
+    <p class="bold-italic">This text is bold and italic.</p>
+
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point with more text</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <hr>
+
+    <h2>Subtitle Two</h2>
+    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
+
+    ```
+
+    +++
+-->
+
+1. Fügen Sie innerhalb derselben HTML-Komponente eine weitere **inline**-Hilfsfunktion für Ihre Stilelemente hinzu.
+
+1. Ersetzen Sie `"name"` und `render_content` durch die ID und den HTML-Code, die dem gewünschten Standardstil entsprechen.
+
+   ![](assets/fragment-rich-editable-styling.png)
+
+1. Speichern Sie Ihre Inhalte. Die ausgewählten bearbeitbaren Felder werden auf der rechten Seite angezeigt.
+
+   ![](assets/fragment-rich-editable-fields.png)
+
+1. Veröffentlichen Sie das Fragment.
+
+### Verwenden von bearbeitbaren Rich-Text-Fragmenten {#use-rich-text}
+
+Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzerinnen und Benutzer jetzt den von Ihnen erstellten Rich-Text-Inhalt und die Formatierung bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente für einen Marketing-Experten zu verwenden.
+
+1. Erstellen Sie eine E-Mail in einer Kampagne oder einer Journey und fügen Sie dann das erstellte Fragment hinzu.
+
+   Sie können die beiden bearbeitbaren Felder sehen, die im rechten Bereich erstellt wurden.
+
+   ![](assets/fragment-use-rich-editable-fields.png)
+
+1. Sie können auf **[!UICONTROL Inhalt simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden.
+
+1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus und bearbeiten Sie CSS-Stile und/oder Inhalte nach Bedarf.
+
+## Anleitungsvideo {#video}
+
+In diesem Video wird gezeigt, wie Sie HTML-Komponenten innerhalb eines Fragments bearbeitbar machen können, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
