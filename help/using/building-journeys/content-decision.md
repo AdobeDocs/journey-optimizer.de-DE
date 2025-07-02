@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 5%
+source-wordcount: '1030'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
+>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
 
 Mit [!DNL Journey Optimizer] können Sie über die dedizierte Aktivität **Inhaltsentscheidung“ auf der Journey-** Angebote in Ihre Journey einbeziehen. Anschließend können Sie Ihren Journey weitere Aktivitäten (wie [benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md) hinzufügen, um Ihre Zielgruppen mit diesen personalisierten Angeboten anzusprechen.
 
