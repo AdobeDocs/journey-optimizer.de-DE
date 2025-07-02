@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
 source-wordcount: '2392'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, Ihren Berechtigungen und der Produktkonfiguration ab."
+>abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
@@ -71,7 +71,7 @@ Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit bis zum erneuten Eintritt"
->abstract="Wartezeit einstellen, bevor einem Profil erlaubt wird, in unitären Journey erneut auf die Journey zuzugreifen. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
+>abstract="Legen Sie die Wartezeit fest, bevor Sie in einheitlichen Journeys einem Profil erlauben, erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
@@ -100,7 +100,7 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum beenden aktive Profile automatisch die Journey, und es ist kein neuer Eintrag zulässig."
+>abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum verlassen aktive Profile automatisch die Journey und es wird kein neuer Eintritt mehr zugelassen."
 
 Standardmäßig können Profile in eine Journey sofort nach ihrer Veröffentlichung eintreten und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Erneuten Eintritt bei Wiederholung erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 

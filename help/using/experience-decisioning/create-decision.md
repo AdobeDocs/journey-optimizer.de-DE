@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
->title="Entscheidungsrichtlinie definieren"
->abstract="Mit einer Entscheidungsrichtlinie können Sie die besten Elemente aus der Entscheidungs-Engine auswählen und sie für die richtige Zielgruppe bereitstellen."
+>title="Festlegen einer Entscheidungsrichtlinie"
+>abstract="Mit einer Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und an die richtige Zielgruppe gesendet werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Entscheidungsfindung"
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.

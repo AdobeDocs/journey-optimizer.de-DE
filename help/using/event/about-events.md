@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Journey-Ereignisse"
->abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). Journey Optimizer überwacht unitäre Ereignisse in Journeys, um die nächsten besten Aktionen zu orchestrieren."
+>abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10.000 Treuepunkte erreicht). Journey Optimizer überwacht unitäre Ereignisse in Journeys, um die nächsten besten Aktionen zu orchestrieren."
 
 Ereignisse ermöglichen es, Journeys einzeln auszulösen und allen Benutzenden beim Eintritt in die Journey Nachrichten in Echtzeit zu senden.
 
@@ -83,7 +83,7 @@ Jedes Ereignis, das in Live-, Entwurfs- oder geschlossenen Journeys verwendet wi
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 

@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer Textnachricht"
->abstract="Um eine Textnachricht (SMS/MMS/RCS) zu erstellen, fügen Sie eine SMS-Aktion in einer Journey oder Kampagne hinzu und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
+>abstract="Um eine Textnachricht (SMS/MMS/RCS) zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Personalisierungseditor zu personalisieren."
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich-Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und senden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
@@ -90,12 +90,12 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 
 >[!ENDTABS]
 
-## Definieren von SMS-/RCS-Inhalten{#sms-content}
+## Definieren Ihres SMS-/RCS-Inhalts{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definieren Ihres SMS-Inhalts"
->abstract="Passen Sie Ihre Textnachrichten (SMS/MMS/RCS) an und personalisieren Sie sie, indem Sie den Inhalt mit dem Personalisierungseditor definieren und dynamische Elemente integrieren."
+>abstract="Passen Sie Ihre Textnachrichten (SMS/MMS/RCS) mithilfe des Personalisierungseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
 
 Gehen Sie wie folgt vor, um den Nachrichteninhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 

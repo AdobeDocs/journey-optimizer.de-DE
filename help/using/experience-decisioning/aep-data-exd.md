@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 4%
+ht-degree: 21%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
->title="Datensatz-Suche"
+>title="Datensatzsuche"
 >abstract="Durch die Verwendung von Adobe Experience Platform-Daten in Entscheidungsregeln können Sie Eignungskriterien definieren, die auf dynamischen, externen Attributen basieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
->title="Datensatz-Suche"
->abstract="Rangfolgeformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung [!DNL Adobe Experience Platform] Datensatzattribute können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist"
+>title="Datensatzsuche"
+>abstract="Rangfolgeformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung von Datensatzattributen aus [!DNL Adobe Experience Platform] können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist."
 
 >[!AVAILABILITY]
 >

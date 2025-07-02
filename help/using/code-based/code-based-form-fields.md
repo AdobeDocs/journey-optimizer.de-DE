@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +36,7 @@ Wenn Benutzende die Inhaltsvorlage auf ihren Inhalt anwenden, können sie die Fa
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="Überprüfen des Renderings der Formularfelder"
->abstract="In JSON- oder HTML-Inhaltsvorlagen können Sie bestimmte bearbeitbare Felder definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in Code-basierten Erlebnissen einfach zu bearbeiten, ohne Code bearbeiten zu müssen. Erstellen Sie diese Felder mit der dedizierten Syntax und zeigen Sie mithilfe dieser Schaltfläche eine Vorschau an."
+>abstract="In JSON- oder HTML-Inhaltsvorlagen können Sie bestimmte bearbeitbare Felder definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in Code-basierten Erlebnissen einfach und ohne Code-Änderungen zu bearbeiten. Erstellen Sie diese Felder mit der dedizierten Syntax und zeigen Sie sie mithilfe dieser Schaltfläche in der Vorschau an."
 
 Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie zunächst ein Code-basiertes Erlebnis [Inhaltsvorlage](../content-management/content-templates.md) in dem Sie bestimmte Formularfelder definieren können.
 
@@ -245,5 +246,4 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Code-basierten Inhaltsvorlagen von Erlebniskanälen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?learn=on&#x26;enablevpops&captions=ger)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
