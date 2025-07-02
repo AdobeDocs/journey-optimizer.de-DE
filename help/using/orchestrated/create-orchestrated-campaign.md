@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f7373eeb8967f00aa762a287d02379812ec87fa
+source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/><b>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Verzweigung](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/split.md) - Aufspaltung[Warten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/><b>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Verzweigung](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/split.md) - Aufspaltung[Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Datum]**: Wählen Sie das Datum aus, an dem die Kampagne ausgeführt werden soll.
    * **[!UICONTROL Time]**: Wählen Sie den Zeitpunkt aus, zu dem die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
    +++täglich
 
@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Definieren Sie die Zeit, zu der die Kampagne jeden Tag ausgeführt werden soll.
 
-   +++
++++
 
    +++Mehrmals täglich
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Ausgewählte Stunden]**: Wählen Sie die spezifischen Zeiten aus, zu denen die Kampagne ausgeführt werden soll, und konfigurieren Sie ihre tägliche Wiederholung (wird an jedem Wochentag oder an bestimmten Tagen ausgeführt).
    * **[!UICONTROL Periodisch]** Wählen Sie diese Option, um die Kampagne alle n Minuten oder Stunden auszuführen. Sie können auch den Zeitraum innerhalb des Tages definieren, an dem Ausführungen zulässig sind.
 
-   +++
++++
 
    +++Wöchentlich
 
@@ -126,7 +126,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
    * **[!UICONTROL Startzeit]** Legen Sie die Zeit fest, zu der die Kampagne an ausgewählten Tagen ausgeführt werden soll.
 
-   +++
++++
 
    +++Monatlich
 
@@ -142,7 +142,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
 1. Mit der Einstellung **[!UICONTROL Gültigkeitszeitraum]** können Sie ein bestimmtes Start- und Enddatum definieren und die Ausführung der Kampagne auf ein begrenztes Zeitfenster beschränken.
 
