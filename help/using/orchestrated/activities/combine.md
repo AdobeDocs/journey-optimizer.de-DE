@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
+source-git-commit: 01c9b947ce9459944c5c16ef177b55e889eb3634
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 78%
+source-wordcount: '1096'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](../create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](../orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](../send-messages.md)<br/><br/>[Kampagne starten und überwachen](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimensionsänderung](change-dimension.md) - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md) [&#128279;](wait.md) Warten[&#128279;](deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](../create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](../orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](../send-messages.md)<br/><br/>[Kampagne starten und überwachen](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimensionsänderung](change-dimension.md) - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md)[ ](wait.md) Warten](deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -62,7 +62,7 @@ Die folgenden Segmentierungsoptionen sind verfügbar:
 
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität **[!UICONTROL Kombinieren]** zu beginnen:
 
-![](../assets/orchestrated-combine.png)
+![](../assets/orchestrated-union.png)
 
 1. Fügen Sie mehrerer Aktivitäten wie **[!UICONTROL Zielgruppe erstellen]** hinzu, um mindestens zwei verschiedene Ausführungsverzweigungen zu bilden.
 1. Fügen Sie die Aktivität **[!UICONTROL Kombinieren]** zu einer der vorherigen Verzweigungen hinzu.
@@ -77,12 +77,13 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >title="Abstimmoptionen"
 >abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden. Die Option **Schlüssel** ist standardmäßig aktiviert. Das heißt, die Aktivität behält ein Element nur dann bei, wenn die Elemente der verschiedenen eingehenden Transitionen denselben Schlüssel aufweisen. Verwenden Sie die Option **Auswahl an Spalten**, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. "
 
-In der Aktivität **[!UICONTROL Kombinieren]** können Sie eine **[!UICONTROL Vereinigung]** konfigurieren. Für die Vereinigung müssen Sie den **[!UICONTROL Abstimmtyp]** auswählen, um festzulegen, wie Dubletten behandelt werden:
+Innerhalb der Aktivität **[!UICONTROL Kombinieren]** können Sie eine **[!UICONTROL Vereinigung]** konfigurieren, indem Sie einen **[!UICONTROL Abstimmtyp]** auswählen, um zu bestimmen, wie doppelte Datensätze verwaltet werden:
 
-* **[!UICONTROL Nur die Schlüssel]** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
-* **[!UICONTROL Auswahl an Spalten]** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
+* **[!UICONTROL Nur Schlüssel]** (Standard): Behält einen einzelnen Datensatz bei, wenn mehrere eingehende Transitionen denselben Schlüssel verwenden. Diese Option ist nur anwendbar, wenn die eingehenden Populationen homogen sind.
 
-Im folgenden Beispiel verwenden wir die Aktivität **[!UICONTROL Kombinieren]** und fügen eine **[!UICONTROL Vereinigung]** hinzu, um alle Profile der beiden Abfragen abzurufen: Mitglieder des Treueprogramms und Käufer, um eine größere Zielgruppe zu bilden.
+* **[!UICONTROL Auswahl von Spalten]**: Hier können Sie angeben, welche Spalten für die Datenabstimmung verwendet werden sollen. Wählen Sie **[!UICONTROL Attribut hinzufügen]** aus.
+
+Im folgenden Beispiel wird eine Aktivität **[!UICONTROL Kombinieren]** mit einer **[!UICONTROL Vereinigung]** verwendet, um die Ergebnisse zweier Abfragen, **Mitglieder des Treueprogramms** und **Käufer**, zu einer einzigen, größeren Zielgruppe zusammenzuführen, die alle Profile aus beiden Segmenten enthält.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -95,10 +96,15 @@ Im folgenden Beispiel verwenden wir die Aktivität **[!UICONTROL Kombinieren]** 
 
 In der Aktivität **[!UICONTROL Kombinieren]** können Sie eine **[!UICONTROL Schnittmenge]** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
-1. Wählen Sie den **[!UICONTROL Abstimmtyp]**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
-1. Sie können die Option **[!UICONTROL Komplement erzeugen]** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+1. Wählen Sie den **[!UICONTROL Abstimmtyp]**, um festzulegen, wie Duplikate behandelt werden:
 
-Das folgende Beispiel zeigt die **[!UICONTROL Schnittmenge]** zwischen zwei Abfrageaktivitäten. Sie wird hier zum Abrufen von Profilen mit einer Treueprogramm-Mitgliedschaft verwendet, deren letzter Kauf weniger als einen Monat zurückliegt.
+   * **[!UICONTROL Nur Schlüssel]** (Standard): Behält einen einzelnen Datensatz bei, wenn mehrere eingehende Transitionen denselben Schlüssel verwenden. Diese Option ist nur anwendbar, wenn die eingehenden Populationen homogen sind.
+
+   * **[!UICONTROL Auswahl von Spalten]**: Hier können Sie angeben, welche Spalten für die Datenabstimmung verwendet werden sollen. Wählen Sie **[!UICONTROL Attribut hinzufügen]** aus.
+
+1. Aktivieren Sie **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung aller eingehenden Aktivitätsergebnisse, mit Ausnahme der Schnittmenge. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+
+Das folgende Beispiel veranschaulicht die Verwendung der **[!UICONTROL Schnittmenge]** zwischen zwei Abfrageaktivitäten. Sie wird verwendet, um Profile zu identifizieren, die **Mitglieder des Treueprogramms** sind und innerhalb des letzten Monats einen Kauf getätigt haben.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -127,13 +133,13 @@ Das folgende Beispiel zeigt die **[!UICONTROL Schnittmenge]** zwischen zwei Abfr
 
 In der Aktivität **[!UICONTROL Kombinieren]** können Sie einen **[!UICONTROL Ausschluss]** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Zusammenzuführende Mengen]** die **[!UICONTROL Hauptmenge]** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
-1. Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **[!UICONTROL Ausschlussregeln]** auf **[!UICONTROL Regel hinzufügen]** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt.
-1. Sie können die Option **[!UICONTROL Komplement erzeugen]** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
+1. Wählen Sie im **[!UICONTROL Zusammenzufügende Sätze]** die **[!UICONTROL Primäre Gruppe]**, die die Hauptpopulation darstellt. Die in den anderen Sätzen gefundenen Datensätze werden aus dieser primären Gruppe ausgeschlossen.
+
+1. Bei Bedarf können Sie eingehende Tabellen anpassen, um Ziele aus verschiedenen Dimensionen auszurichten. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss sie zunächst in dieselbe Zielgruppendimension wie die Hauptpopulation aufgenommen werden. Klicken Sie dazu auf **[!UICONTROL Regel hinzufügen]** und definieren Sie die Bedingungen zum Ändern der Dimension. Die Abstimmung erfolgt dann entweder mit einem Attribut oder einem Join.
+
+1. Aktivieren Sie **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung aller eingehenden Aktivitätsergebnisse, mit Ausnahme der Schnittmenge. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
 
 Das folgende **[!UICONTROL Ausschluss]**-Beispiel zeigt zwei Abfragen, die zum Filtern von Profilen konfiguriert wurden, die ein Produkt gekauft haben. Die Profile, die keine Treueprogramm-Mitgliedschaft haben, werden dann aus dem ersten Satz ausgeschlossen.
-
-WARUM: Sie führen eine Treuekampagne durch, sodass Nicht-Mitglieder irrelevant sind.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
