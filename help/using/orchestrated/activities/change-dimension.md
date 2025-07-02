@@ -30,7 +30,7 @@ ht-degree: 32%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - **[Dimensionsänderung](change-dimension.md)** - [Kombinieren](combine.md) - [Deduplizierung](deduplication.md) - [Verzweigung](enrichment.md) - [Abstimmung](fork.md) - [Aufspaltung](reconciliation.md)[ ](split.md) Warten[ ](wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - **[Dimensionsänderung](change-dimension.md)** - [Kombinieren](combine.md) - [Deduplizierung](deduplication.md) - [Verzweigung](enrichment.md) - [Abstimmung](fork.md) - [Aufspaltung](reconciliation.md) [&#128279;](split.md) Warten[&#128279;](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -65,6 +65,6 @@ Dieser Anwendungsfall umfasst das Senden einer SMS an Profile, die im letzten Mo
 
 Beginnen Sie mit der Aktivität **[!UICONTROL Zielgruppe aufbauen]** , indem Sie die Zielgruppendimension **[!UICONTROL Wunschliste]** verwenden, um alle relevanten Wunschlisten auszuwählen.
 
-Fügen Sie als Nächstes eine Aktivität **[!UICONTROL Dimension ändern]** ein, um die Zielgruppendimension von **[!UICONTROL Wunschliste]** auf ***[!UICONTROL Empfänger] **. Dies ermöglicht es der orchestrierten Kampagne, die SMS an die mit diesen Wunschlisten verknüpften Profile zu senden.
+Fügen Sie als Nächstes eine Aktivität **[!UICONTROL Dimension ändern]** ein, um die Zielgruppendimension von **[!UICONTROL Wunschliste]** auf ***[!UICONTROL Empfänger] &#x200B;**. Dies ermöglicht es der orchestrierten Kampagne, die SMS an die mit diesen Wunschlisten verknüpften Profile zu senden.
 
 ![](../assets/change-dimension-example.png)
