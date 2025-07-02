@@ -7,42 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6a2b49d952408d6c9b0e147505f5112ada3f4967
+source-git-commit: 7842bd150b6c15f21a30b778d42520cc42237d82
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 29%
+source-wordcount: '1035'
+ht-degree: 21%
 
 ---
 
 # Kanalaktivitäten {#channel}
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - **[Kanalaktivitäten](channels.md)** - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - [Verzweigung](enrichment.md) - [Abstimmung](fork.md) [&#128279;](reconciliation.md) [&#128279;](split.md) - Aufspaltung[Warten](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
-[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über verschiedene Kanäle hinweg. Sie können Kanalaktivitäten in der orchestrierten Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifend orchestrierte Kampagnen zu erstellen, mit denen anhand des Kundenverhaltens und der Daten Trigger erstellt werden können.
-
-Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
-
-Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern. Unterstützte Kanäle sind E-Mail, SMS und Push.
-
-## Voraussetzungen {#channel-activity-prereq}
-
-Beginnen Sie mit der Erstellung Ihrer orchestrierten Kampagne mit den relevanten Aktivitäten:
-
-* Bevor Sie eine Kanalaktivität einfügen, müssen Sie die Zielgruppe definieren. Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe aufbauen“ verwenden](build-audience.md)
-
-* Um einen wiederkehrenden Versand durchzuführen, starten Sie Ihre orchestrierte Kampagne mit einer **[!UICONTROL Planung]**-Aktivität. Sie können die Aktivität **[!UICONTROL Planung]** auch für einmalige Einzelsendungen verwenden, um für diese Sendungen das Kontaktdatum festzulegen. Dieses Kontaktdatum kann auch in den Versandeinstellungen festgelegt werden. [Erfahren Sie, wie Sie eine orchestrierte Kampagne planen](../create-orchestrated-campaign.md#schedule)
-
-## Konfigurieren einer Kanalaktivität {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
@@ -79,9 +51,31 @@ UNUSED IDs in BJ
 >title="Aktivität „Direkt-Mail“"
 >abstract="Die Aktivität Briefpost erleichtert den Briefpostversand innerhalb Ihrer orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Sie können Kanalaktivitäten in der orchestrierten Kampagnen-Arbeitsfläche kombinieren, um Cross-Channel-Kampagnen zu erstellen, mit denen anhand des Kundenverhaltens und der Daten Trigger erstellt werden können."
 
++++ Inhaltsverzeichnis
+
+| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+|---|---|---|---|
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - **[Kanalaktivitäten](channels.md)** - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - [Verzweigung](enrichment.md) - [Abstimmung](fork.md) [ ](reconciliation.md) [ ](split.md) - Aufspaltung[Warten](wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
+
+[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über verschiedene Kanäle hinweg. Sie können Kanalaktivitäten in der orchestrierten Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifend orchestrierte Kampagnen zu erstellen, mit denen anhand des Kundenverhaltens und der Daten Trigger erstellt werden können.
+
+Sie können beispielsweise eine Begrüßungs-E-Mail-Kampagne erstellen, die eine Reihe von Nachrichten über verschiedene Kanäle wie E-Mail, SMS und Push-Benachrichtigungen enthält. Sie können auch eine Folge-E-Mail senden, nachdem eine Kundin oder ein Kunde einen Kauf getätigt hat, oder eine personalisierte Geburtstagsnachricht per SMS an eine Kundin bzw. einen Kunden senden.
+
+Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen und Konversionen fördern. Unterstützte Kanäle sind E-Mail, SMS und Push.
+
+>[!PREREQUISITES]
+>
+>Bevor Sie eine Kanalaktivität hinzufügen, müssen Sie die Audience definieren. Die Zielgruppe ist das hauptsächliche Ziel Ihres Versands: die Profile, die die Nachrichten erhalten. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe aufbauen“ verwenden](build-audience.md)
+
 Gehen Sie wie folgt vor, um einen Versand im Kontext einer orchestrierten Kampagne einzurichten.
 
-### Kanalaktivität hinzufügen und ihre Eigenschaften definieren {#add}
+## Kanalaktivität hinzufügen und ihre Eigenschaften definieren {#add}
 
 1. Fügen Sie der Arbeitsfläche eine Kanalaktivität hinzu. Verfügbare Kanalaktivitäten sind **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]** und **[!UICONTROL Push]**.
 
@@ -91,11 +85,11 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext einer orchestrierten Kampag
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 
-1. Geben **[!UICONTROL auf der]** „Eigenschaften“ eine Beschreibung für Ihre Kampagne ein.
+1. Geben Sie auf **[!UICONTROL Registerkarte]** eine Beschreibung für Ihre Kampagne ein und wechseln Sie dann zur Registerkarte **[!UICONTROL Aktionen]**, um die Aktivität zu konfigurieren.
 
-### Einrichten der Kanalkonfiguration und -einstellungen {#configuration}
+## Einrichten der Kanalkonfiguration und -einstellungen {#configuration}
 
-Über die Registerkarte **[!UICONTROL Aktionen]** können Sie eine Kanalkonfiguration für Ihre Nachricht auswählen und zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte konfigurieren.
+Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
 
 1. Wählen Sie die Kanalkonfiguration für Ihre Nachricht aus.
 
@@ -105,17 +99,21 @@ Gehen Sie wie folgt vor, um einen Versand im Kontext einer orchestrierten Kampag
 
 1. Verwenden Sie für E-Mail und SMS die Optionen im Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../../reports/campaign-global-report-cja.md)
 
-1. Verwenden Sie für Push-Benachrichtigungen die Option **[!UICONTROL Schnellversandmodus]**, um einen Nachrichtenversand mit hoher Geschwindigkeit über den Push-Kanal an eine Audience von weniger als 30 Millionen durchzuführen. Der Schnellversand-Modus ist ein Add-on für **[!DNL Journey Optimizer]**, das den sehr schnellen Versand großer Mengen von Push-Nachrichten ermöglicht. [Weitere Informationen](../../push/create-push.md#rapid-delivery)
+1. Verwenden Sie für Push-Benachrichtigungen die Option **[!UICONTROL Schnellversandmodus]**, um einen Nachrichtenversand mit hoher Geschwindigkeit über den Push-Kanal an eine Audience von weniger als 30 Millionen durchzuführen.
 
-1. Im Abschnitt **[!UICONTROL Inhaltsexperiment]** können Sie mehrere Versandmethoden definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Klicken Sie auf **[!UICONTROL Experiment erstellen]** und folgen Sie dann den Schritten, die in diesem Abschnitt beschrieben sind: [Erstellen eines Inhaltsexperiments](../../content-management/content-experiment.md).
+   Der Schnellversand-Modus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist oder wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzer, die Ihre Nachrichten-App installiert haben. Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
+
+1. Im Abschnitt **[!UICONTROL Inhaltsexperiment]** können Sie mehrere Versandmethoden definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Klicken Sie auf **[!UICONTROL Experiment erstellen]** und führen Sie dann die in diesem Abschnitt beschriebenen Schritte aus: [Erstellen eines Inhaltsexperiments](../../content-management/content-experiment.md).
 
    ![Bild mit dem Abschnitt „Inhaltsexperiment“](../assets/channel-experiment.png)
 
 1. Verwenden Sie den **[!UICONTROL Languages]**, um in Ihrer Kampagne Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in diesem Abschnitt: [Erste Schritte mit mehrsprachigen Inhalten](../../content-management/multilingual-gs.md)
 
-### Definieren des Inhalts {#content}
+Wenn Ihre Kanalaktivität konfiguriert wurde, wählen Sie die Registerkarte **[!UICONTROL Inhalt]** aus, um ihren Inhalt zu definieren.
 
-Verwenden Sie die **[!UICONTROL Inhalt]**, um den Inhalt der Nachricht zu definieren. Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
+## Definieren des Inhalts {#content}
+
+Verwenden Sie die **[!UICONTROL Inhalt]**, um den Inhalt der Nachricht zu definieren. Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="E-Mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>E-Mail</strong></a></td>
@@ -123,11 +121,11 @@ Verwenden Sie die **[!UICONTROL Inhalt]**, um den Inhalt der Nachricht zu defini
 <td><a href="../../push/create-push.md"><img alt="Push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Push-Benachrichtigung</strong></a></td>
 </tr></table>
 
-Nachdem der Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
+Wenn Ihr Inhalt definiert wurde, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und Ihren Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
 
 ## Nächste Schritte {#next}
 
-Navigieren Sie mithilfe des Pfeils **[!UICONTROL Zurück]** zurück zu Ihrer orchestrierten Kampagne.
+Wenn der Nachrichteninhalt fertig ist, navigieren Sie mit dem Pfeil „Zurück **[!UICONTROL zurück zu Ihrer]**.
 
 Sie können jetzt die Orchestrierung der Aktivitäten auf der Arbeitsfläche abschließen und die Kampagne veröffentlichen, um den Nachrichtenversand zu starten. [Erfahren Sie, wie Sie orchestrierte Kampagnen starten und überwachen](../start-monitor-campaigns.md)
 
