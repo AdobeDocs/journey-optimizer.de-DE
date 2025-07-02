@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7f7373eeb8967f00aa762a287d02379812ec87fa
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2487'
 ht-degree: 97%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 97%
       + [Wichtige Schritte für die Erstellung von orchestrierten Kampagnen](using/orchestrated/gs-campaign-creation.md)
       + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
-      + [Senden von Nachrichten mit orchestrierten Kampagnen](using/orchestrated/send-messages.md)
       + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
       + [Reporting](using/orchestrated/reporting-campaigns.md)
    + Abfragen der Datenbank {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 97%
       + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
       + [Zielgruppe erstellen](using/orchestrated/activities/build-audience.md)
       + [Dimensionsänderung](using/orchestrated/activities/change-dimension.md)
+      + [Kanalaktivitäten](using/orchestrated/activities/channels.md)
       + [Kombinieren](using/orchestrated/activities/combine.md)
       + [Deduplizierung](using/orchestrated/activities/deduplication.md)
       + [Anreicherung](using/orchestrated/activities/enrichment.md)

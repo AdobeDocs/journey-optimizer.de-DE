@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 7f7373eeb8967f00aa762a287d02379812ec87fa
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 26%
+source-wordcount: '392'
+ht-degree: 27%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 26%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Orchestrierte Kampagne erstellen](../create-orchestrated-campaign.md)<br/><br/>[Aktivitäten orchestrieren](../orchestrate-activities.md)<br/><br/>[ Nachrichten mit orchestrierten Kampagnen senden](../send-messages.md)<br/><br/>[Kampagne starten und überwachen](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimensionsänderung](change-dimension.md) - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md) [&#128279;](wait.md) Warten[&#128279;](deduplication.md)  |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](../configuration-steps.md)<br/><br/>[Schlüsselschritte für die orchestrierte Kampagnenerstellung](../gs-campaign-creation.md) | [Erstellen einer orchestrierten Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit der Abfrage Modeler](../orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](../build-query.md)<br/><br/>[-Bearbeitungsausdrücke](../edit-expressions.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - **[Dimensionsänderung](change-dimension.md)** - [Kombinieren](combine.md) - [Deduplizierung](enrichment.md) - [Verzweigung](fork.md) - [Abstimmung](reconciliation.md) - [Aufspaltung](split.md)[ ](wait.md) Warten](deduplication.md) [ |
 
 {style="table-layout:fixed"}
 
@@ -42,7 +42,7 @@ Als Marketing-Experte können Sie das Audience-Targeting einschränken, indem Si
 
 Verwenden Sie dazu die Aktivität **[!UICONTROL Dimensionsänderung]** . Auf diese Weise können Sie die Zielgruppendimension während der orchestrierten Kampagne ändern, basierend auf der Struktur Ihres Datenmodells und der Eingabedimension.
 
-Beispielsweise können Sie die Zielgruppendimension von **&#x200B;**&#x200B;[!UICONTROL Profile] **&#x200B; auf &#x200B;**&#x200B;**[!UICONTROL Contracts]** verschieben, um Nachrichten direkt an die Vertragsinhaber zu senden, die mit Ihrer ausgewählten Audience verknüpft sind.
+Beispielsweise können Sie die Zielgruppendimension von ****[!UICONTROL Profile]** auf ****[!UICONTROL Contracts]** verschieben, um Nachrichten direkt an die Vertragsinhaber zu senden, die mit Ihrer ausgewählten Audience verknüpft sind.
 
 <!--
 >[!IMPORTANT]
@@ -51,7 +51,7 @@ Beispielsweise können Sie die Zielgruppendimension von **&#x200B;**&#x200B;[!UI
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
-Führen Sie die folgenden Schritte aus, um die Aktivität **&#x200B;**&#x200B;[!UICONTROL Dimension ändern]** zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die Aktivität ****[!UICONTROL Dimension ändern]** zu konfigurieren:
 
 1. Fügen Sie Ihrer orchestrierten Kampagne **[!UICONTROL Aktivität]** Dimension ändern“ hinzu.
 
@@ -65,8 +65,8 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **&#x200B;**&#x200B;[!
 
 Dieser Anwendungsfall umfasst das Senden einer SMS an Profile, die im letzten Monat eine Wunschliste erstellt haben.
 
-Beginnen Sie mit der **[!UICONTROL Zielgruppe aufbauen]**-Aktivität unter Verwendung der Zielgruppendimension **&#x200B;**&#x200B;[!UICONTROL Wunschliste]**, um alle relevanten Wunschlisten auszuwählen.
+Beginnen Sie mit der **[!UICONTROL Zielgruppe aufbauen]**-Aktivität unter Verwendung der Zielgruppendimension ****[!UICONTROL Wunschliste]**, um alle relevanten Wunschlisten auszuwählen.
 
-Fügen Sie als Nächstes eine Aktivität **[!UICONTROL Dimension ändern]** ein, um die Zielgruppendimension von **&#x200B;**&#x200B;[!UICONTROL Wunschliste &#x200B;]&#x200B;**auf &#x200B;***[!UICONTROL Empfänger]**&#x200B;umzustellen. Dies ermöglicht es der orchestrierten Kampagne, die SMS an die mit diesen Wunschlisten verknüpften Profile zu senden.
+Fügen Sie als Nächstes eine Aktivität **[!UICONTROL Dimension ändern]** ein, um die Zielgruppendimension von ****[!UICONTROL Wunschliste ]**auf ***[!UICONTROL Empfänger]**umzustellen. Dies ermöglicht es der orchestrierten Kampagne, die SMS an die mit diesen Wunschlisten verknüpften Profile zu senden.
 
 ![](../assets/change-dimension-example.png)
