@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
+source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 97%
+source-wordcount: '2488'
+ht-degree: 98%
 
 ---
 
@@ -190,6 +190,7 @@ ht-degree: 97%
       + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
       + [Erstellen Ihrer ersten Regel](using/orchestrated/build-query.md)
       + [Bearbeiten von Ausdrücken](using/orchestrated/edit-expressions.md)
+      + [Retargeting](using/orchestrated/retarget)
    + Aktivitäten für orchestrierte Kampagnen {#design-campaigns}
       + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
       + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
@@ -202,6 +203,7 @@ ht-degree: 97%
       + [Verzweigung](using/orchestrated/activities/fork.md)
       + [Lesen der Zielgruppe](using/orchestrated/activities/read-audience.md)
       + [Abstimmung](using/orchestrated/activities/reconciliation.md)
+      + [Speichern einer Zielgruppe](using/orchestrated/activities/save-audience.md)
       + [Aufspaltung](using/orchestrated/activities/split.md)
       + [Test](using/orchestrated/activities/test.md)
       + [Warten](using/orchestrated/activities/wait.md)
@@ -295,7 +297,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
       + SMS-/MMS-/RCS-Kanal konfigurieren{#configure-sms}
-         + [Erste Schritte mit der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
+         + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
          + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
          + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
          + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)

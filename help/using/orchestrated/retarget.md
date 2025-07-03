@@ -1,30 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Aktivität „Verzweigung“
-description: Erfahren Sie, wie Sie die Aktivität Verzweigung in einer koordinierten Kampagne verwenden
-badge: label="Alpha"
+title: Starten und Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kampagnen starten und überwachen.
 hide: true
 hidefromtoc: true
-exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 34%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-# Verzweigung {#fork}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_fork"
->title="Aktivität „Verzweigung“"
->abstract="Die Aktivität **Verzweigung** ermöglicht es Ihnen, ausgehende Transitionen zu erstellen, um mehrere Aktivitäten parallel zu starten."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_fork_transitions"
->title="Transitionen von Verzweigungsaktivitäten"
->abstract="Standardmäßig werden zwei Transitionen mit einer **Verzweigungsaktivität** erstellt. Klicken Sie auf die Schaltfläche **Transition hinzufügen**, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie deren Titel ein."
+# Retargeting {#retarget}
 
 +++ Inhaltsverzeichnis
 
@@ -36,22 +24,8 @@ ht-degree: 34%
 
 +++
 
-<br/>
+>[!BEGINSHADEBOX]
 
-Die Aktivität **[!UICONTROL Verzweigung]** ist eine Komponente **[!UICONTROL Fluss-Steuerung]** mit der Sie mehrere ausgehende Transitionen erstellen können, sodass mehrere Aktivitäten parallel ausgeführt werden können.
+Dokumentation in Bearbeitung
 
-## Konfigurieren der Verzweigungsaktivität{#fork-configuration}
-
-Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Verzweigung]** zu konfigurieren:
-
-![](../assets/workflow-fork.png)
-
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität Verzweigung hinzu.
-
-1. Definieren Sie ein **[!UICONTROL label]**.
-
-1. Weisen Sie jeder ausgehenden Transition einen Titel zu. Standardmäßig werden zwei Transitionen bereitgestellt.
-
-1. Um eine Transition zu entfernen, klicken Sie auf das Symbol ![](../assets/do-not-localize/Smock_Delete_18_N.svg) .
-
-1. Klicken Sie bei Bedarf auf **[!UICONTROL Transition hinzufügen]**, um eine zusätzliche ausgehende Transition hinzuzufügen.
+>[!ENDSHADEBOX]
