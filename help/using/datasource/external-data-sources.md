@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -272,4 +272,4 @@ Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs
 
 >[!CAUTION]
 >
->Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) derzeit **nicht unterstützt**. Nur einfache Schlüssel-Wert-Paare werden in die endgültige Anfrage-Payload aufgenommen. Wenn Ihr Authentifizierungsendpunkt verschachtelte Objekte erfordert, kann dies zu fehlenden Feldern und Authentifizierungsfehlern führen.
+>Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) derzeit **nicht unterstützt** werden. Nur einfache Schlüssel-Wert-Paare werden in die endgültige Anfrage-Payload aufgenommen. Wenn Ihr Authentifizierungsendpunkt verschachtelte Objekte erfordert, kann dies zu fehlenden Feldern und Authentifizierungsfehlern führen.

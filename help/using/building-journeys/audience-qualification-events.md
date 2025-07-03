@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 >[!CAUTION]
 >
->Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen[ lesen Sie die Leitplanken und Einschränkungen ](#audience-qualification-guardrails).
+>Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen, [lesen Sie die Informationen zu Leitlinien und Einschränkungen](#audience-qualification-guardrails).
 
 
 ## Konfigurieren der Aktivität {#configure-segment-qualification}
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    >[!NOTE]
    >
-   >Sie können die in der Liste angezeigten Spalten anpassen und sortieren.
+   >Die in der Liste angezeigten Spalten können angepasst und sortiert werden.
 
    ![](assets/segment6.png)
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    >[!NOTE]
    >
-   >**[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** entsprechen den **Realisiert** und **Ausgestiegen** Zielgruppenteilnahmestatus aus Adobe Experience Platform. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Eintreten]** und **[!UICONTROL Aussteigen]** entsprechen den Zielgruppenzugehörigkeitsstatus **Realisiert** und **Ausgestiegen** von Adobe Experience Platform. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt.
 
@@ -89,66 +89,66 @@ Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_co
 
 ![](assets/segment8.png)
 
-Eine neue Journey mit einem **Zielgruppen-Qualifizierungsereignis** wird zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
+Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
-Die **[!UICONTROL Zielgruppen-]**) ermöglicht den sofortigen Eintritt in Journey von Kontakten, die von einer Adobe Experience Platform-Zielgruppe qualifiziert oder disqualifiziert werden.
+Mit der Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** wird der sofortige Eintritt in Journeys von Kontakten möglich, die über eine Adobe Experience Platform-Zielgruppe qualifiziert oder disqualifiziert werden.
 
-Die Empfangsgeschwindigkeit dieser Daten ist hoch. Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Daher sollten Sie wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihren Journey darauf vorbereiten können.
+Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Es ist daher wichtig zu wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihre Journey auf sie vorbereiten.
 
 ### Batch-Zielgruppen {#batch-speed-segment-qualification}
 
-Beachten Sie bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Die Größe der Spitze hängt von der Anzahl der Personen ab, die die Zielgruppe täglich betreten (oder verlassen).
+Bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe tritt zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auf. Der Umfang dieser Spitze hängt von der Zahl der Kontakte ab, die täglich in die Zielgruppe eintreten (bzw. aus ihr aussteigen).
 
-Wenn die Batch-Zielgruppe neu erstellt und sofort auf einer Journey verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Personen auf die Journey gelangen.
+Wenn die Batch-Zielgruppe neu erstellt und unmittelbar in einer Journey verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
 
 ### Streaming-Zielgruppen {#streamed-speed-segment-qualification}
 
-Bei Verwendung der Zielgruppen-Qualifizierung für gestreamte Zielgruppen besteht aufgrund der kontinuierlichen Auswertung der Zielgruppe ein geringeres Risiko großer Spitzen bei Ein-/Austritten. Wenn die Zielgruppendefinition dazu führt, dass eine große Anzahl von Kundinnen und Kunden sich gleichzeitig qualifiziert, kann dennoch eine Spitze auftreten.
+Bei Verwendung der Zielgruppen-Qualifizierung für Streaming-Zielgruppen besteht aufgrund der kontinuierlichen Auswertung der Zielgruppe ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Zielgruppendefinition jedoch dazu führt, dass eine große Anzahl von Kundinnen und Kunden sich gleichzeitig qualifiziert, sind ebenfalls Spitzen möglich.
 
 Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
 
 Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
-### So vermeiden Sie Überlastungen {#overloads-speed-segment-qualification}
+### Vermeiden von Überlastungen {#overloads-speed-segment-qualification}
 
-Im Folgenden finden Sie Best Practices, um zu verhindern, dass Systeme, die in Journey genutzt werden, überlastet werden (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten):
+Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten):
 
-* Verwenden Sie eine Batch-Zielgruppe nicht unmittelbar nach ihrer Erstellung in einer Aktivität vom Typ **[!UICONTROL Zielgruppenqualifizierung]**. Dadurch wird die erste Berechnungsspitze vermieden. Auf der Journey-Arbeitsfläche wird eine gelbe Warnung angezeigt, wenn Sie im Begriff sind, eine Zielgruppe zu verwenden, die noch nie berechnet wurde.
+* Verwenden Sie die Batch-Zielgruppe nicht unmittelbar nach ihrer Erstellung in einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]**. Dadurch wird die erste Berechnungsspitze vermieden. Auf der Journey-Arbeitsfläche wird eine gelbe Warnung angezeigt, wenn Sie im Begriff sind, eine Zielgruppe zu verwenden, die noch nie berechnet wurde.
 
   ![](assets/segment-error.png)
 
-* Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen finden Sie in der Dokumentation zu [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target="_blank"}. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Wenn Sie es erneut versuchen müssen, verwenden Sie einen alternativen Pfad auf der Journey, indem Sie das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** in Bedingungen oder Aktionen aktivieren.
+* Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen sind in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target="_blank"} verfügbar. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in den Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-* Bevor Sie die Zielgruppe auf einer Produktions-Journey verwenden, sollten Sie täglich die Anzahl der Personen auswerten, die sich für diese Zielgruppe qualifizieren. Überprüfen Sie dazu das Menü **[!UICONTROL Zielgruppe]**, öffnen Sie die Zielgruppe und sehen Sie sich das Diagramm **[!UICONTROL Profile im Zeitverlauf]** an.
+* Bevor Sie die Zielgruppe in einer Produktions-Journey verwenden, sollten Sie die Anzahl der Kontakte auswerten, die sich für diese Zielgruppe täglich qualifizieren. Wählen Sie dazu das Menü **[!UICONTROL Zielgruppe]** aus, öffnen Sie die Zielgruppe und sehen Sie sich das Diagramm **[!UICONTROL Profile im Verlauf der Zeit]** an.
 
   ![](assets/segment-overload.png)
 
-## Schutzmechanismen und Einschränkungen {#audience-qualification-guardrails}
+## Leitlinien und Einschränkungen {#audience-qualification-guardrails}
 
-Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die Zielgruppen-Qualifizierung zu erstellen. Siehe auch [Best Practices für die Zielgruppenqualifizierung](#best-practices-segments).
+Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um Journeys vom Typ „Zielgruppen-Qualifizierung“ zu erstellen. Siehe auch [Best Practices für die Zielgruppen-Qualifizierung](#best-practices-segments).
 
 
-* Journey zur Zielgruppenqualifizierung wurden in erster Linie für die Verwendung mit Streaming-Zielgruppen entwickelt. Diese Kombination garantiert ein besseres Echtzeit-Erlebnis. Es wird dringend empfohlen, in **Aktivität Zielgruppenqualifizierung** Streaming-Zielgruppen“ zu verwenden.
+* Journeys vom Typ „Zielgruppen-Qualifizierung“ wurden in erster Linie für die Verwendung mit Streaming-Zielgruppen entwickelt. Diese Kombination garantiert ein besseres Echtzeit-Erlebnis. Es wird dringend empfohlen, **Streaming-Zielgruppen** in der Aktivität „Zielgruppen-Qualifizierung“ zu verwenden.
 
-  Wenn Sie jedoch Batch-Aufnahme-basierte Attribute in Ihrer Streaming-Zielgruppe oder eine Batch-Zielgruppe für eine Zielgruppen-Qualifizierungs-Journey verwenden möchten, sollten Sie die Zeitspanne für die Zielgruppen-Evaluierung/-Aktivierung berücksichtigen. Eine Batch-Zielgruppe oder Streaming-Zielgruppe, die Batch-aufgenommene Attribute verwendet, ist ca. **2 Stunden nach Abschluss** Segmentierungsauftrags für die Verwendung in der Aktivität **Zielgruppen** bereit. Dieser Auftrag wird einmal täglich zu der von Ihrem Adobe-Organisationsadministrator definierten Zeit ausgeführt.
+  Wenn Sie jedoch auf der Batch-Aufnahme basierende Attribute in Ihrer Streaming-Zielgruppe verwenden möchten oder eine Batch-Zielgruppe für eine Journey vom Typ „Zielgruppen-Qualifizierung“, müssen Sie die Zeitspanne für die Zielgruppen-Auswertung/-Aktivierung berücksichtigen. Eine Batch-Zielgruppe oder Streaming-Zielgruppe, die auf der Batch-Aufnahme basierende Attribute verwendet, ist ungefähr **2 Stunden** nach Abschluss des Segmentierungsauftrags für die Verwendung in der Aktivität **Zielgruppen-Qualifizierung** bereit. Dieser Auftrag wird einmal täglich zu der Zeit ausgeführt, die von der bzw. dem Adobe-Organisationsadmin definiert wurde.
 
-* Adobe Experience Platform-Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (für **Streaming**-Zielgruppen mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet.
+* Adobe Experience Platform-Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (für **Streaming-Zielgruppen** mithilfe der Option „Hochfrequenz-Zielgruppen“ von Adobe Experience Platform) berechnet.
 
-   * Wenn die ausgewählte Zielgruppe gestreamt wird, können Personen, die zu dieser Zielgruppe gehören, in Echtzeit auf die Journey zugreifen.
-   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Personen in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+   * Wenn die ausgewählte Zielgruppe gestreamt wird, können die zu dieser Zielgruppe gehörenden Kontakte in Echtzeit in die Journey eintreten. 
+   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Kontakte in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
 
-  Verwenden Sie als Best Practice Streaming-Zielgruppen in einer Aktivität vom Typ **Zielgruppen-Qualifizierung** . Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
+  Als Best Practice wird empfohlen, Streaming-Zielgruppen für die Aktivität **Zielgruppen-Qualifizierung** zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
 
   >[!NOTE]
   >
-  >Aufgrund der Batch-Natur von Zielgruppen, die mit Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität vom Typ „Zielgruppen-Qualifizierung“ angesprochen werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
+  >Aufgrund der Batch-Beschaffenheit von Zielgruppen, die mithilfe von Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität „Zielgruppen-Qualifizierung“ ausgewählt werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, einer **Zielgruppen-Qualifizierung** oder einem **Geschäftsereignis** beginnen.
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, **Zielgruppen-Qualifizierung** oder **Geschäftsereignis** beginnen. 
 
-* Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
+* Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
 
 >[!CAUTION]
@@ -161,4 +161,4 @@ Befolgen Sie die nachstehenden Leitplanken und Empfehlungen, um Journey für die
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

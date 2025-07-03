@@ -9,7 +9,7 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 >[!AVAILABILITY]
 >
 >Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
->&#x200B;>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Mit der Funktion „Markenausrichtung“ können Sie Inhalte erstellen, überprüfen und verwalten, die Ihren Markenrichtlinien entsprechen. Sie sorgt für Konsistenz bei Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig zur Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 
@@ -48,7 +48,7 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 1. Erstellen Sie Ihre [E-Mail-Kampagne](../campaigns/create-campaign.md).
 
-1. Öffnen Sie das Menü **[!UICONTROL Markenausrichtung]** in der E-Mail-Designer.
+1. Öffnen Sie im E-Mail-Designer das Menü **[!UICONTROL Markenausrichtung]**.
 
    Ihre Inhalte werden automatisch anhand Ihrer Standardmarke bewertet. [Erfahren Sie, wie Sie eine Standardmarke zuweisen](brands.md).
 

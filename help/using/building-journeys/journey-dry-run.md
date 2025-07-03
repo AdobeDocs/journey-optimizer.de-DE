@@ -12,7 +12,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Probelaufmodus"
+>title="Probelauf-Modus"
 >abstract="Diese Journey befindet sich im Probelauf. Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
->title="Veröffentlichen einer Journey im Probelaufmodus"
->abstract="Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Nutzenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen. Nachdem Sie Ihre Journey entworfen haben, führen Sie einen Probelauf aus, um deren Funktionalität zu bestätigen und sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Mitteilungen an ein Profil zu senden."
+>title="Veröffentlichen einer Journey im Probelauf-Modus"
+>abstract="Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen. Nachdem Sie Ihre Journey entworfen haben, führen Sie einen Probelauf aus, um deren Funktionalität zu bestätigen und sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus können Sie eine Journey testen, ohne Mitteilungen an ein Profil zu senden."
 
 Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.
 
@@ -39,11 +39,11 @@ Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adob
 
 ## Wichtigste Vorteile {#journey-dry-run-benefits}
 
-Ein Journey-Probelauf steigert das Vertrauen der Anwendenden und den Journey-Erfolg, indem es sicheres, datengesteuertes Testen von Kunden-Journeys mit echten Produktionsdaten ermöglicht – ohne das Risiko, Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu ändern. Mit dieser Funktion können Journey-Anwendende die Reichweite ihrer Zielgruppe und die Verzweigungslogik vor der Live-Schaltung überprüfen und so sicherstellen, dass die Journeys ihren beabsichtigten Geschäftszielen entsprechen.
+Ein Journey-Probelauf steigert das Vertrauen der Anwendenden und den Journey-Erfolg, indem er sicheres, datengesteuertes Testen von Kunden-Journeys mit echten Produktionsdaten ermöglicht – ohne das Risiko, Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu ändern. Mit dieser Funktion können Journey-Anwendende die Reichweite ihrer Zielgruppe und die Verzweigungslogik vor der Live-Schaltung überprüfen und so sicherstellen, dass die Journeys ihren beabsichtigten Geschäftszielen entsprechen.
 
 Mit dem Journey-Probelauf können Sie Probleme frühzeitig identifizieren, Zielgruppenbestimmungsstrategien optimieren und das Journey-Design basierend auf tatsächlichen Daten – und nicht auf Annahmen – verbessern. Der Probelauf ist direkt in die Journey-Arbeitsfläche integriert und bietet intuitives Reporting und Sichtbarkeit wichtiger Key Performance Indicators, sodass Teams sicher iterieren und Genehmigungs-Workflows optimieren können. Dies erhöht die betriebliche Effizienz, verringert das Launch-Risiko und steigert die Kundeninteraktion.
 
-Diese Funktion verbessert letztendlich Time-to-Value und reduziert Journey-Fehler.
+Letztendlich verbessert diese Funktion Time-to-Value und reduziert Journey-Fehler.
 
 Der Journey-Probelauf bietet:
 
@@ -63,12 +63,12 @@ Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgef
 >
 >* Die Berechtigungen zum Starten des Probelaufs sind auf Benutzende mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene beschränkt. Die Berechtigungen zum Stoppen des Probelaufs sind auf Benutzende mit der Berechtigung **[!DNL Manage journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 >
->* Bevor Sie mit der Verwendung der Dry-Run-Funktion beginnen[ lesen Sie die Leitplanken und Einschränkungen ](#journey-dry-run-limitations).
+>* Bevor Sie mit der Verwendung der Probelauffunktion beginnen, [lesen Sie die Informationen zu Leitlinien und Einschränkungen](#journey-dry-run-limitations).
 
 
 ## Starten eines Probelaufs {#journey-dry-run-start}
 
-Die Probelauf-Funktion kann in jeder fehlerfreien Entwurfs-Journey verwendet werden.
+Die Probelauffunktion kann in jeder fehlerfreien Entwurfs-Journey verwendet werden.
 
 Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
@@ -95,14 +95,14 @@ Für jede Aktivität können Sie in deren Aktivitätsfeld Folgendes aktivieren:
 
 * **[!UICONTROL Eingetreten]**: Gesamtzahl der Personen, die an dieser Aktivität teilgenommen haben. Bei **Action**-Aktivitäten gibt diese Metrik an, dass Profile durchlaufen, da sie nicht im Trockenlaufmodus ausgeführt werden.
 * **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
-* **[!UICONTROL Ausgetreten (erzwungener Austritt)]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, während sie aufgrund einer Journey-Konfiguration durch Anwendende pausiert war. Diese Metrik ist für Journeys im Probelaufmodus immer gleich null.
+* **[!UICONTROL Ausgestiegen (erzwungener Ausstieg)]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, während sie aufgrund einer Konfiguration durch Anwendende pausiert war. Diese Metrik ist für Journeys im Probelaufmodus immer gleich null.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
 
 Auf der Journey-Ebene im linken oberen Bereich der Arbeitsfläche können Sie Folgendes überprüfen:
 
 * Die Gesamtzahl der **eingetretenen Profile**
-* Die Gesamtzahl der **ausgetretenen Profile**
+* Die Gesamtzahl der **ausgestiegenen Profile**
 * Die Gesamtzahl der **fehlerhaften Profile**
 * Die Gesamtzahl der **verworfenen Profile** in der Journey
 
@@ -123,7 +123,7 @@ Klicken Sie auf die Schaltfläche **Schließen**, um den Test zu beenden, und da
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
 
-## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
+## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
 * Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten
 * Profile im Dry-Run-Modus werden als kontaktierbare Profile gezählt
