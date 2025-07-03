@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
+source-git-commit: 08746d3689c7ad2db49b991db792cdc41c889f75
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/><b>[Reporting](reporting-campaigns.md)</b> | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Verzweigung](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/split.md) - Aufspaltung[Warten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](access-manage-orchestrated-campaigns.md) | [Wichtige Schritte für die orchestrierte Kampagnenerstellung](gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/><b>[Reporting](reporting-campaigns.md)</b> | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen Sie Ihre ersten ](build-query.md)<br/><br/>[-Bearbeitungsausdrücke](edit-expressions.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Verzweigung](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/split.md) - Aufspaltung[Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -54,11 +54,9 @@ Orchestrierte Kampagnen bieten Ihnen durch ihre leistungsstarken Berichtsfunktio
 
 ## Einblick in Kanalberichte
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>E-Mail-Kanal</strong></a></p></div></td>
-<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><a href="../reports/campaign-global-report-cja-sms.md"><strong>SMS-Kanal</strong></a></p></div></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>Push-Kanal</strong></p></a></div></td>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="E-Mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>E-Mail-Bericht</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>SMS-Bericht</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="Push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Push-Bericht</strong></a></td>
+</tr></table>
+
