@@ -190,7 +190,7 @@ ht-degree: 98%
       + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
       + [Erstellen Ihrer ersten Regel](using/orchestrated/build-query.md)
       + [Bearbeiten von Ausdrücken](using/orchestrated/edit-expressions.md)
-      + [Retargeting](using/orchestrated/retarget)
+      + [Retargeting] (using/orchestrated/retarget)
    + Aktivitäten für orchestrierte Kampagnen {#design-campaigns}
       + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
       + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
