@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden von Inhaltskomponenten von Email Designer
-description: Erfahren Sie, wie Sie Inhaltskomponenten in Ihren E-Mails verwenden
+title: Verwenden von Inhaltskomponenten von E-Mail-Designer
+description: Informationen zum Verwenden von Inhaltskomponenten in Ihren E-Mails
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: Komponenten, E-Mail, Designer, Editor, E-Mail
+keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

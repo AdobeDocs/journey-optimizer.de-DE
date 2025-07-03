@@ -2,14 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Reporting-Funktionen in [!DNL Adobe Journey Optimizer]
-description: Erfahren Sie, wie Sie auf Berichte zugreifen und mit  [!DNL Adobe Journey Optimizer]  arbeiten können.
+description: Erfahren Sie, wie Sie auf  [!DNL Adobe Journey Optimizer] -Berichte zugreifen und diese verwenden können.
 role: User
 level: Beginner
-exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
-workflow-type: tm+mt
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ Um die Zustellbarkeit der [!DNL Journey Optimizer]-Erlebnisse zu optimieren, wir
 
 ## Berichtstypen {#reporting-types}
 
-* **Live-Berichte der letzten 24 Stunden** – Verwenden Sie den **[!UICONTROL Live-Bericht]**, um Auswirkung und Leistung der Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald der Versand erfolgt ist oder die Journey auf der Registerkarte **[!UICONTROL Letzte 24 Stunden]** ausgeführt wurde. Weitere Informationen zu Live-Berichten sind in [diesem Abschnitt](live-report.md) verfügbar.
+* **Live-Berichte der letzten 24 Stunden** – Verwenden Sie den **[!UICONTROL Live-Bericht]**, um Auswirkung und Leistung der Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald der Versand erfolgt ist oder die Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde. Weitere Informationen zu Live-Berichten sind in [diesem Abschnitt](live-report.md) verfügbar.
 
   ![](assets/report_journey.png)
 
@@ -31,12 +30,12 @@ Um die Zustellbarkeit der [!DNL Journey Optimizer]-Erlebnisse zu optimieren, wir
 
   ![](assets/gs-cja-report-1.png)
 
-  Mit einer Adobe Customer Journey Analytics-Lizenz können Journey Optimizer-Berichte in Customer Journey Analytics analysiert werden. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets können mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
+  Mit einer Adobe Customer Journey Analytics-Lizenz können Journey Optimizer-Berichte in Customer Journey Analytics analysiert werden. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
 
 
 ## Tauchen wir tiefer in die Materie ein
 
-Da Sie nun über Kenntnissen zu den Berichtstypen in **[!DNL Journey Optimizer]** verfügen, können Sie sich umfassender mit diesen Dokumentationsabschnitte befassen, um weitere Information über Reporting-Funktionen und den Zugriff auf sie zu erhalten.
+Da Sie nun über Kenntnisse zu den Berichtstypen in **[!DNL Journey Optimizer]** verfügen, können Sie sich umfassender mit diesen Dokumentationsabschnitten befassen, um weitere Information über Reporting-Funktionen und den Zugriff auf sie zu erhalten.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -86,7 +85,7 @@ Da Sie nun über Kenntnissen zu den Berichtstypen in **[!DNL Journey Optimizer]*
 <p>
 </td>
 <td>
-<img alt="Abonnement-Listen-Berichte" src="../assets/do-not-localize/role.jpg">
+<img alt="Abonnement-Listen-Bericht" src="../assets/do-not-localize/role.jpg">
 <div>
 <p><strong>ABONNEMENT-LISTEN-BERICHTE</strong></p>
 </div>
@@ -102,9 +101,9 @@ Da Sie nun über Kenntnissen zu den Berichtstypen in **[!DNL Journey Optimizer]*
 </tr></table>
 
 
-Globale Zeitberichte stehen für alle Kanäle zur Verfügung. Wählen Sie den Bericht für den Kanal aus, für den Sie weitere Details benötigen.
+Alle Berichte für die gesamte Zeit stehen für alle Ihre Kanäle zur Verfügung. Wählen Sie den Bericht für den Kanal aus, für den Sie weitere Details benötigen.
 
-### Berichte für ausgehende Kanäle
+### Berichte für Outbound-Kanäle
 
 Wählen Sie einen Outbound-Kanal aus, um zugeordnete **globale Berichte für die gesamte Zeit** zu finden.
 

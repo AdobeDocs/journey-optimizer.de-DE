@@ -10,9 +10,9 @@ level: Beginner
 keywords: Assets, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
 
    ![](assets/media_library_12.png)
 
-1. Wählen Sie [!DNL Adobe Journey Optimizer] im linken Bereich der E **[!UICONTROL Mail-Designer]** Menü „Asset-Auswahl“ aus.
+1. Wählen Sie in [!DNL Adobe Journey Optimizer] im linken Bereich des E-Mail-Designers das Menü **[!UICONTROL Asset-Auswahl]** aus.
 
    ![](assets/media_library_5.png)
 
@@ -122,7 +122,7 @@ Wenn Sie über die Bereitstellung **[!DNL Adobe Experience Manager Assets as a C
 
 +++ Wie werden Assets verwaltet? Werden Änderungen bei Assets as a Cloud Service in Journey Optimizer berücksichtigt?
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** ist ähnlich wie **[!DNL Adobe Experience Manager Assets Essentials]** mit Journey Optimizer integriert. Wenn Änderungen an Assets vorgenommen werden, wird eine binäre Kopie erstellt. Beachten Sie, dass Aktualisierungen in **[!DNL Assets as a Cloud Service]** nicht automatisch auf Live-E-Mail-Kampagnen übertragen werden. Alle Änderungen müssen in der E-Mail-Designer manuell neu ausgewählt werden, um eine Synchronisierung zwischen den Assets und den laufenden E-Mail-Kampagnen sicherzustellen.
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** ist ähnlich wie **[!DNL Adobe Experience Manager Assets Essentials]** mit Journey Optimizer integriert. Wenn Änderungen an Assets vorgenommen werden, wird eine binäre Kopie erstellt. Beachten Sie, dass Aktualisierungen in **[!DNL Assets as a Cloud Service]** nicht automatisch auf Live-E-Mail-Kampagnen übertragen werden. Alle Änderungen müssen im E-Mail-Designer manuell neu ausgewählt werden, um die Synchronisation zwischen den Assets und den laufenden E-Mail-Kampagnen zu gewährleisten.
 
 +++
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -245,11 +245,11 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 >
 >Nachdem die Delegierung einer Subdomain aufgehoben wurde, gilt Folgendes:
 >
->* können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder reaktiviert werden,
->* Dieselbe Subdomain kann nicht mehr über die Benutzeroberfläche delegiert werden. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.
+>* Sie können die Kanalkonfigurationen, die diese Subdomain verwendet haben, nicht wieder aktivieren.
+>* Sie können dieselbe Subdomain nicht erneut über die Benutzeroberfläche delegieren. Ist dies gewünscht, wenden Sie sich bitte an den Adobe-Support.
 
 ## Anleitungsvideo{#video}
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

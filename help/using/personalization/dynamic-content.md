@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
 >[!CAUTION]
 >
->Wenn E-Mail-Designer nach dem Hinzufügen von bedingten Blöcken nicht ordnungsgemäß gerendert werden kann, überprüfen Sie, ob die Syntax jeder neuen Bedingung korrekt ist und ob keine doppelten oder widersprüchlichen Anweisungen vorhanden sind. Wenn die Probleme weiterhin bestehen, sollten Sie problematische Abschnitte in einer neuen Vorlage neu erstellen und jeden bedingten Block schrittweise testen.
+>Wenn der E-Mail-Designer nach dem Hinzufügen von bedingten Blöcken nicht ordnungsgemäß gerendert werden kann, überprüfen Sie, ob die Syntax jeder neuen Bedingung korrekt ist und dass keine doppelten oder widersprüchlichen Anweisungen vorhanden sind. Wenn die Probleme weiterhin bestehen, sollten Sie problematische Abschnitte in einer neuen Vorlage neu erstellen und jeden bedingten Block schrittweise testen.
 
 
 ## Hinzufügen dynamischer Inhalte in E-Mails {#emails}

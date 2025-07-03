@@ -11,9 +11,9 @@ level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Weitere Informationen zu Adobe Express finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/express/user-guide.html).
 
-Um auf das **[!DNL Adobe Express]** zuzugreifen, rufen Sie Ihre **Bildeinstellungen** über die E-Mail-Designer auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
+Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Designer Ihre **Bildeinstellungen** auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
 
 ![](assets/express_1.png)
 
@@ -45,15 +45,15 @@ Um auf das **[!DNL Adobe Express]** zuzugreifen, rufen Sie Ihre **Bildeinstellun
 
 Die in den folgenden Abschnitten beschriebenen Funktionen sind für Benutzende ohne Adobe Express Enterprise-Lizenz verfügbar.
 
-Mit einer Enterprise-Lizenz haben Benutzer vollen Zugriff auf den Adobe Express Web Editor, mit dem sie Asset-Einstellungen anpassen, Inhalte mit Firefly generieren, Text hinzufügen und zusätzliche Anpassungen anwenden können.
+Mit einer Enterprise-Lizenz haben Benutzende vollen Zugriff auf den Web-Editor von Adobe Express, mit dem sie Asset-Einstellungen anpassen, Inhalte mit Firefly generieren, Text hinzufügen und zusätzliche Anpassungen vornehmen können.
 
 ![](assets/express-licence.png)
 
-Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Adobe Express-Web-Dokumentation](https://helpx.adobe.com/de/express/web.html).
+Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Dokumentation zu Adobe Express Web](https://helpx.adobe.com/de/express/web.html).
 
-## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
+## Verwenden von Adobe Express ohne eine Enterprise-Lizenz  {#edit}
 
-Ohne Enterprise-Lizenz haben Benutzer Zugriff auf die folgenden Anwendungsfälle, die mit Adobe Express verfügbar sind:
+Ohne eine Enterprise-Lizenz haben Benutzende Zugriff auf die folgenden Anwendungsfälle, die mit Adobe Express verfügbar sind:
 
 * [Ändern der Bildgröße](#resize)
 * [Entfernen von Hintergründen](#background)
@@ -148,7 +148,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

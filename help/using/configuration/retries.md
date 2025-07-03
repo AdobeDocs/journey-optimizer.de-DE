@@ -10,9 +10,9 @@ level: Experienced
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
 Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich ist, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
 
-Zum Beispiel:
+Beispiel:
 
-* Am Montag senden Sie eine E-Mail mit einem Wiederholungszeitraum von 24 Stunden. Die `emma.jones@mail.com` kann nicht zugestellt werden. Die E-Mail-Zustellung wird bis zu dreimal wiederholt und nach Ablauf des 24-Stunden-Wiederholungszeitraums angehalten.
+* Am Montag senden Sie eine E-Mail mit einem Wiederholungszeitraum von 24 Stunden. Die Sendung kann der Adresse `emma.jones@mail.com` nicht zugestellt werden. Die E-Mail-Zustellung wird bis zu dreimal wiederholt und nach Ablauf des 24-Stunden-Wiederholungszeitraums angehalten.
 
-* Am Mittwoch senden Sie eine weitere E-Mail, Die `emma.jones@mail.com`, die bereits eine Zählung mit drei Fehlern aufweist, wird ebenfalls angesprochen und kann erneut nicht bereitgestellt werden - zweimal. Es kommen also zwei weitere Fehlversuche hinzu.
+* Am Mittwoch senden Sie eine weitere E-Mail, unter anderem wieder an die E-Mail-Adresse `emma.jones@mail.com`, bei der es bereits zu drei Fehlversuchen gekommen ist. Die Zustellung schlägt auch in diesem Fall zweimal fehl. Es kommen also zwei weitere Fehlversuche hinzu.
 
-Sofern zwischen diesen beiden E-Mails kein anderer Versand versucht wurde und erfolgreich war, wird die `emma.jones@mail.com` angesichts der kumulativen Auswirkung von 3 + 2 Fehlern zur Unterdrückungsliste hinzugefügt.
+Wenn zwischen diesen beiden E-Mails kein anderer Versand erfolgreich durchgeführt wurde, wird die Adresse `emma.jones@mail.com`, aufgrund der kumulativen Wirkung von 3 + 2 Fehlern, der Unterdrückungsliste hinzugefügt.
 
 ## Bearbeitung des Schwellenwerts für Wiederholungsversuche {#edit-retry-threshold}
 
@@ -47,7 +47,7 @@ Sofern zwischen diesen beiden E-Mails kein anderer Versand versucht wurde und er
 >title="Aktualisieren des Schwellenwerts für Wiederholungsversuche"
 >abstract="Wenn der Standardwert nicht den Anforderungen entspricht, kann die zulässige Anzahl aufeinander folgender Softbounces geändert werden. Wenn die Wiederholungsanzahl den Fehlerschwellenwert für eine bestimmte E-Mail-Adresse erreicht, wird diese Adresse der Unterdrückungsliste hinzugefügt."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=de" text="Understand the suppresion list"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie unten beschrieben ändern.
 
@@ -73,7 +73,7 @@ Der **Zeitraum für weitere Zustellversuche** ist der Zeitraum, in dem alle E-Ma
 
 Standardmäßig werden weitere Zustellversuche **3,5 Tage** (oder **84 Stunden**) lang ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
 
-Um jedoch sicherzustellen, dass Zustellversuche nur so lange durchgeführt werden, wie sie benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanalkonfiguration“ erstellen oder bearbeiten, ](channel-surfaces.md) auf den E-Mail-Kanal angewendet wird.
+Um jedoch sicherzustellen, dass keine weiteren Zustellversuche durchgeführt werden, wenn sie nicht mehr benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanalkonfiguration](channel-surfaces.md) erstellen oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
 
 Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Transaktions-E-Mail, die sich auf das Zurücksetzen eines Passworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Analog dazu könnten Sie für einen Midnight Sale den Zeitraum für weitere Zustellversuche auf 6 Stunden festlegen.
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: Assets, Integration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Erfahren Sie mehr über [Journey Optimizer und Stock](../integrations/stock.md).
 
 Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
 
-Um auf das **[!DNL Adobe Express]** zuzugreifen, rufen Sie Ihre **Bildeinstellungen** über die E-Mail-Designer auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
+Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Designer Ihre **Bildeinstellungen** auf und klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**.
 
 Mit einer Enterprise-Lizenz erhalten Benutzende vollen Zugriff auf den Adobe Express-Editor, mit dem sie Bilder ändern können, indem sie Farbe, Helligkeit, Schärfe, Kontrast, Abmessungen und zusätzliche Einstellungen anpassen.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Wenn es Bedingungsregeln gibt, die Sie häufig wiederverwenden, können Sie sie 
 
 >[!CAUTION]
 >
->Verwenden Sie beim Benennen bedingter Inhaltsvarianten nur alphanumerische Zeichen (A-Z, a-z, 0-9). Die Verwendung von Sonderzeichen (z. B. `<`, `>`, `=`, `{`, `}` usw.) in Variantennamen kann dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
+>Verwenden Sie beim Benennen bedingter Inhaltsvarianten nur alphanumerische Zeichen (A–Z, a–z, 0–9). Die Verwendung von Sonderzeichen (z. B. `<`, `>`, `=`, `{`, `}` usw.) in Variantennamen kann dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
 
 ## Bearbeiten und Löschen von gespeicherten bedingten Regeln {#edit-delete}
 

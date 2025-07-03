@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.
 
 Das [URL-Tracking](email-settings.md#url-tracking) wird auf Konfigurationsebene verwaltet und gilt für alle im Nachrichteninhalt vorhandenen URLs.
 
-Sie können auch [einzelne URLs personalisieren](../personalization/personalization-syntax.md#perso-urls) in der E-Mail-Designer. Gehen Sie wie folgt vor, um einem Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
+Im E-Mail-Designer können Sie auch [einzelne URLs personalisieren](../personalization/personalization-syntax.md#perso-urls). Gehen Sie wie folgt vor, um einem Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
 
 1. Wählen Sie einen Link aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
