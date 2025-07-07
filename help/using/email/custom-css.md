@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 85%
@@ -142,6 +142,7 @@ Im Folgenden finden Sie Beispiele für gültiges CSS.
 
 +++
 
+
 +++ Beispiele für ungültiges CSS
 
 Wenn ungültiges CSS eingegeben wird, wird eine Fehlermeldung mit dem Hinweis angezeigt, dass das CSS nicht gespeichert werden kann. Im Folgenden finden Sie Beispiele für ungültiges CSS.
@@ -209,6 +210,7 @@ Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines 
 ```
 
 +++
+
 
 Das benutzerdefinierte CSS wird nicht vom Bereich **[!UICONTROL Einstellungen]** des E-Mail-Designers interpretiert oder überprüft. Es ist vollkommen unabhängig und kann nur über die Option **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** geändert werden.
 
