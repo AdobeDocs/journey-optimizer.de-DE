@@ -139,6 +139,7 @@ Im Folgenden finden Sie Beispiele für gültiges CSS.
   }
 }
 ```
+
 +++
 
 +++ Beispiele für ungültiges CSS
@@ -165,6 +166,7 @@ Ungültige Syntax wie fehlende Klammern wird nicht akzeptiert:
 body {
   background: red;
 ```
+
 +++
 
 ## Technische Implementierung {#implementation}
@@ -205,6 +207,7 @@ Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines 
   </body>
 </html>
 ```
+
 +++
 
 Das benutzerdefinierte CSS wird nicht vom Bereich **[!UICONTROL Einstellungen]** des E-Mail-Designers interpretiert oder überprüft. Es ist vollkommen unabhängig und kann nur über die Option **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** geändert werden.
