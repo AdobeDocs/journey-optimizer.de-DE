@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 99%
+source-wordcount: '688'
+ht-degree: 90%
 
 ---
 
@@ -62,8 +62,6 @@ In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTR
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 Es können auch bestimmte Aktionen zum Senden von Nachrichten eingerichtet werden:
 
 * Wenn zum Versenden von Nachrichten ein Drittanbietersystem verwendet wird, kann eine bestimmte benutzerdefinierte Aktion erstellt werden. [Weitere Informationen](../action/action.md)
@@ -80,7 +78,7 @@ Es können auch bestimmte Aktionen zum Senden von Nachrichten eingerichtet werde
 
 Die meisten Aktivitäten ermöglichen es Ihnen, ein **[!UICONTROL Label]** zu definieren. Auf diese Weise wird dem Namen, der unter der Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzugefügt. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird das Debugging bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
-![](assets/journey-action-label.png)
+![Beschriftungs- und Beschreibungsfelder in den Eigenschaften der Journey-Aktivität](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ Die meisten Aktivitäten ermöglichen es Ihnen, ein **[!UICONTROL Label]** zu de
 
 Die meisten Aktivitäten zeigen eine Reihe erweiterter und/oder technischer Parameter an, die Sie nicht ändern können.
 
-![](assets/journey-advanced-parameters.png)
+![Erweiterte Parameterfelder in den Eigenschaften der Journey-Aktivität](assets/journey-advanced-parameters.png)
 
 Zur besseren Lesbarkeit können diese Parameter mithilfe der Schaltfläche **[!UICONTROL Schreibgeschützte Felder ausblenden]** ausgeblendet werden.
 
-![](assets/journey-hide-read-only-fields.png)
+![Symbol „Schreibgeschützte Felder“ in den Eigenschaften der Journey-Aktivität ausblenden](assets/journey-hide-read-only-fields.png)
 
 In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimmte Verwendung überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld anklicken. [Weitere Informationen](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![Option „Parameterüberschreibungen aktivieren“ in den Eigenschaften der E-Mail-Aktivität](assets/journey-enable-parameter-override.png)
 
 ### Hinzufügen eines alternativen Pfads
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![Option „Alternativen Pfad hinzufügen“ in den Eigenschaften der Bedingungsaktivität](assets/journey42.png)
+
+## Fehlerbehebung {#troubleshooting}
+
+Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
+
+Erfahren Sie auf dieser Seite , wie Sie Fehler in -Aktivitäten und [ Journey beheben ](troubleshooting.md).
