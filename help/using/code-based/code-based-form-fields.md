@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 18%
@@ -71,7 +71,7 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
    | Aktion | Parameter | Beispiel |
    | ------- | ------- | ------- |
    | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Beim Hinzufügen der Vorlage zu Ihrem Inhalt wird dieser Standardwert verwendet, wenn Sie ihn nicht anpassen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Definieren eines **Titels** für das bearbeitbare Feld. Diese Beschriftung wird im Code-Editor beim Bearbeiten der Vorlagenfelder angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Definieren eines **Labels** für das bearbeitbare Feld. Diese Beschriftung wird im Code-Editor beim Bearbeiten der Vorlagenfelder angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
    <!--
     | Action | Parameter| Example |
@@ -149,8 +149,8 @@ Im Folgenden finden Sie einige Beispiele für JSON- und HTML-Vorlagen, darunter 
 >
 >Beim Referenzieren der Inline-Felder in der JSON-Payload:
 >
->   * Felder vom Typ Zeichenfolge müssen in doppelte Anführungszeichen gesetzt werden.
->   * Ganzzahlen oder boolesche Werte dürfen NICHT in doppelte Anführungszeichen gesetzt werden. (Siehe das Feld `number_of_items` im obigen Beispiel.)
+>* Felder vom Typ Zeichenfolge müssen in doppelte Anführungszeichen gesetzt werden.
+>* Ganzzahlen oder boolesche Werte dürfen NICHT in doppelte Anführungszeichen gesetzt werden. (Siehe das Feld `number_of_items` im obigen Beispiel.)
 
 **JSON-Vorlage mit Decisioning:**
 
@@ -246,4 +246,4 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Code-basierten Inhaltsvorlagen von Erlebniskanälen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

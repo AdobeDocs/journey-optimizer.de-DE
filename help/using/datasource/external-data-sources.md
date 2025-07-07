@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 98%
@@ -108,11 +108,11 @@ Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Fe
 * die beim Zeitpunkt des Aufrufs zu übergebenden Parameter im Feld **[!UICONTROL Dynamische Werte]** auflisten (im Beispiel unten: „identifier“).
 * diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der unten stehenden Syntax:
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 Nach dem Speichern Ihrer Änderungen ist die Datenquelle konfiguriert und kann in Ihren Journeys verwendet werden, z. B. in Ihren Bedingungen oder zur Personalisierung einer E-Mail. Wenn die Temperatur über 30 °C liegt, können Sie eine bestimmte Mitteilung versenden.
