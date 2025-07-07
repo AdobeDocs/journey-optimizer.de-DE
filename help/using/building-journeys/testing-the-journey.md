@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 >[!NOTE]
 >
->Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md).
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
@@ -137,7 +137,7 @@ Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfigurati
 
 Nutzen Sie bei Verwendung von [Geschäftsereignis](../event/about-events.md) den Testmodus, um einen einzelnen Testprofileintritt in die Journey auszulösen, das Ereignis zu simulieren und die richtige Profil-ID zu übergeben. Sie müssen die Ereignisparameter und die Kennung des Testprofils übergeben, das während des Tests in die Journey eintritt. Im Testmodus ist kein Modus „Code-Ansicht“ für Journeys auf der Basis von Geschäftsereignissen verfügbar.
 
-Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Definition des Geschäftsereignisses nicht in derselben Testsitzung ändern können. Sie können nur festlegen, dass derselbe Kontakt oder eine andere Einzelperson in die Journey eintritt, die dieselbe oder eine andere Kennung übergibt. Wenn Sie die Geschäftsereignis-Parameter ändern möchten, müssen Sie den Testmodus beenden und erneut beginnen.
+Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Definition des Geschäftsereignisses nicht in derselben Testsitzung ändern können. Sie können nur festlegen, dass derselbe Kontakt oder eine andere Einzelperson in die Journey eintritt, die dieselbe oder eine andere Kennung übergibt. Wenn Sie die Geschäftsereignis-Parameter ändern möchten, müssen Sie den Testmodus stoppen und erneut beginnen.
 
 ## Anzeigen von Protokollen {#viewing_logs}
 
@@ -158,7 +158,7 @@ Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Tester
 Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Außerdem finden Sie hier nützliche Informationen zu jedem Kontakt:
 
 * _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
-* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel zu geben, damit Sie sie leichter identifizieren können.
+* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Labels zu geben, damit Sie sie leichter identifizieren können.
 * _currentstep_ > phase: der Status der Journey des Kontakts (Läuft, Abgeschlossen, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
 * _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextuelle Informationen.
 * _currentstep_ > _fetchErrors_: Informationen zu Datenfehlern beim Abrufen, die während dieses Schritts aufgetreten sind.
