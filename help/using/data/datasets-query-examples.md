@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,9 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 * [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+
+Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
+
 
 ## Erlebnisereignisdatensatz beim E-Mail-Tracking{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
+
+
 
 ## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
 

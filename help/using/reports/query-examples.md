@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -25,11 +25,11 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
 * instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
-* profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
+* profileID: Die Identität des Profils, die dem Journey-Namespace entspricht.
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.  Weitere Informationen über die Attribute von Journey-Eigenschaften finden Sie [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.  Weitere Informationen über die Attribute von Journey-Eigenschaften finden Sie [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 
