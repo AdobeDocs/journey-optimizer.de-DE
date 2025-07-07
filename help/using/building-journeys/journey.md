@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Vom Journey-Designer aus können Marketing-Fachleute in Echtzeit ausgelöste 1:1
 
 Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journeys-message.md), die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/MMS sowie eingehende Kanäle wie Apps, Websites und Code-basierte Erlebnisse unterstützen, die direkt in Journey Optimizer erstellt werden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten per E-Mail, Textnachricht oder über andere Kanäle zu senden. Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md), mit denen diese Systeme direkt über den Journey-Designer in Journeys integriert werden können.
 
-In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys erläutert:
-
-* [Senden von Multi-Channel-Nachrichten](journeys-uc.md)
-* [Senden einer Nachricht mit Campaign v7/v8](ajo-ac.md)
-* [Senden einer Nachricht an Abonnenten](message-to-subscribers-uc.md)
-* [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](collections.md)
-* [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
+Erfahren Sie (in [ End-to-End-Anwendungsfällen), wie Sie Journey ](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ In den folgenden End-to-End-Anwendungsszenarien wird das Erstellen von Journeys 
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
