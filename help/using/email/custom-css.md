@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 88%
+source-wordcount: '733'
+ht-degree: 85%
 
 ---
 
@@ -71,7 +71,7 @@ Sie können eine beliebige gültige CSS-Zeichenfolge im Textbereich **[!UICONTRO
 >
 >Vermeiden Sie die Verwendung von CSS, das unbeabsichtigt das Layout oder die Funktionalität des Inhalts beeinträchtigen könnte.
 
-### Gültiges CSS
++++ Beispiele für CSS
 
 Im Folgenden finden Sie Beispiele für gültiges CSS.
 
@@ -139,8 +139,9 @@ Im Folgenden finden Sie Beispiele für gültiges CSS.
   }
 }
 ```
++++
 
-### Ungültiges CSS
++++ Beispiele für ungültiges CSS
 
 Wenn ungültiges CSS eingegeben wird, wird eine Fehlermeldung mit dem Hinweis angezeigt, dass das CSS nicht gespeichert werden kann. Im Folgenden finden Sie Beispiele für ungültiges CSS.
 
@@ -164,10 +165,13 @@ Ungültige Syntax wie fehlende Klammern wird nicht akzeptiert:
 body {
   background: red;
 ```
++++
 
 ## Technische Implementierung {#implementation}
 
 Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines `<style>`-Tags mit dem Attribut `data-name="global-custom"` hinzugefügt, wie im folgenden Beispiel dargestellt. Dadurch wird sichergestellt, dass die benutzerdefinierten Stile global auf die Inhalte angewendet werden.
+
++++ Beispiel anzeigen
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines 
   </body>
 </html>
 ```
++++
 
 Das benutzerdefinierte CSS wird nicht vom Bereich **[!UICONTROL Einstellungen]** des E-Mail-Designers interpretiert oder überprüft. Es ist vollkommen unabhängig und kann nur über die Option **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** geändert werden.
 
-### Importierter Inhalt
+### Schutzmechanismen - Importierte Inhalte
 
 Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in den E-Mail-Designer importiert wurden, sollten Sie Folgendes beachten:
 
@@ -223,20 +228,28 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"` hinzugefügt wird.
 
-* Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet. Beispiel:
+* Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
+
++++ Beispiel:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * Stellen Sie sicher, dass Ihr CSS nicht durch andere CSS-Regeln überschrieben wird, einschließlich [Designs](apply-email-themes.md), die auf Ihren Inhalt angewendet werden.
 
    * Verwenden Sie die Entwickler-Tools Ihres Browsers, um den Inhalt zu überprüfen und sicherzustellen, dass Ihr CSS auf die richtige Auswahl abzielt.
 
-   * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben. Beispiel:
+   * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben.
+
++++ Beispiel:
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
