@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
+source-git-commit: ce4946047cefec759cf80e26f39f3f82c486c27e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 15%
+source-wordcount: '277'
+ht-degree: 14%
 
 ---
 
@@ -56,6 +56,9 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
   </td>
 </tr>
 </table>
+
+Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
+
 
 ## Geschäftliche Anwendungsfälle
 
