@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
-source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
+source-git-commit: b9db2b39629750ead953a229a46e3a75467fd203
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 11%
@@ -34,7 +34,7 @@ Auf den folgenden Seiten erfahren Sie mehr über bestimmte Fehlerbehebungsthemen
     <div><strong>Fehlerbehebung bei der Journey-</strong><br/>: Informationen zur Fehlerbehebung bei Journey-Ereignissen, zur Überprüfung, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden.</div>
     </td>
     <td>
-    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="../building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>Fehlerbehebung bei eingehenden Aktionen</strong><br/> Erfahren Sie, wie Sie Probleme im Zusammenhang mit eingehenden Aktionen auf einer Journey debuggen können, um sie selbst zu identifizieren und zu beheben.</div>
     </td>
     <td>
@@ -91,12 +91,12 @@ Auf den folgenden Seiten erfahren Sie mehr über bestimmte Fehlerbehebungsthemen
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Grundlegendes zu häufigen Fehlercodes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Darüber hinaus finden Sie in diesem Blogpost der Adobe-Community Details <strong>allgemeine </strong>) und wie Sie diese effektiv beheben können.
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de" target="_blank">Weitere Informationen</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">Weitere Informationen</a></div>
     </div>
   </td>
 </tr>
