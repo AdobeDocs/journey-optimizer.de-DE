@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Governance aktiviert"
->abstract="Die Inhaltssperrung ist aktiviert und verhindert Änderungen."
+>abstract="Die Inhaltssperre ist aktiviert und verhindert Änderungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Schreibgeschützt"
->abstract="Dieser Inhalt ist schreibgeschützt und kann nicht geändert werden."
+>abstract="Dieser Inhalt befindet sich im schreibgeschützten Modus und kann nicht geändert werden."
 
 Mit Journey Optimizer können Sie Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Dadurch werden unbeabsichtigte Änderungen oder Löschungen verhindert, was Ihnen mehr Kontrolle über die Vorlagenanpassung gibt und die Effizienz und Zuverlässigkeit Ihrer E-Mail-Kampagnen verbessert.
 
@@ -196,4 +196,4 @@ Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehöri
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
