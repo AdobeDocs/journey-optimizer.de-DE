@@ -50,4 +50,4 @@ Erfahren Sie (auf dieser speziellen Seite), wie [ eine benutzerdefinierte Aktion
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430275?quality=12&captions=ger)
