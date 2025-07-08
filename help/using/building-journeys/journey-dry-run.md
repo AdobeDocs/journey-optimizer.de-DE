@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '864'
 ht-degree: 84%
 
 ---
@@ -87,24 +87,10 @@ Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 Sobald die Veröffentlichung im Probelaufmodus gestartet wurde, können die Journey-Ausführung und der Fortschritt der Profile in den Journey-Verzweigungen und -Knoten visualisiert werden.
 
-Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt.
+Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt. Weitere Informationen zum Journey von Live-Berichten und Metriken finden Sie unter [Live-Bericht auf der Journey-Arbeitsfläche](report-journey.md).
 
 ![Überwachen der Journey-Probelauf-Ausführung](assets/dry-run-metrics.png)
 
-Für jede Aktivität können Sie in deren Aktivitätsfeld Folgendes aktivieren:
-
-* **[!UICONTROL Eingetreten]**: Gesamtzahl der Personen, die an dieser Aktivität teilgenommen haben. Bei **Action**-Aktivitäten gibt diese Metrik an, dass Profile durchlaufen, da sie nicht im Trockenlaufmodus ausgeführt werden.
-* **[!UICONTROL Ausgestiegen (erfüllte die Ausstiegskriterien)]**: Gesamtzahl der Kontakte, die aufgrund eines Ausstiegskriteriums die Journey aus dieser Aktivität verlassen haben.
-* **[!UICONTROL Ausgestiegen (erzwungener Ausstieg)]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, während sie aufgrund einer Konfiguration durch Anwendende pausiert war. Diese Metrik ist für Journeys im Probelaufmodus immer gleich null.
-* **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
-
-
-Auf der Journey-Ebene im linken oberen Bereich der Arbeitsfläche können Sie Folgendes überprüfen:
-
-* Die Gesamtzahl der **eingetretenen Profile**
-* Die Gesamtzahl der **ausgestiegenen Profile**
-* Die Gesamtzahl der **fehlerhaften Profile**
-* Die Gesamtzahl der **verworfenen Profile** in der Journey
 
 Für den Probelauf kann auch auf die Berichte der **letzten 24 Stunden** und der **gesamten Zeit** zugegriffen werden. Um auf diese Berichte zuzugreifen, klicken Sie auf die Schaltfläche **Bericht anzeigen** oben rechts auf der Journey-Arbeitsfläche.
 
