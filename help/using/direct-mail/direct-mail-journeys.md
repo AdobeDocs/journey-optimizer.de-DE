@@ -10,10 +10,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: Direkt-Mail, Nachricht, Kampagne
-source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
+source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 39%
+source-wordcount: '760'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,7 @@ Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalis
 
 Beim Erstellen einer Briefpostnachricht generiert [!DNL Journey Optimizer] automatisch eine Datei, die alle Zielgruppenprofile und die ausgewählten Daten enthält, z. B. Postanschriften und Profilattribute. Diese Datei wird an den Server Ihrer Wahl gesendet, sodass der von Ihnen gewählte Direkt-Mail-Anbieter darauf zugreifen kann, der den eigentlichen Mailing-Prozess für Sie übernimmt.
 
-Sie müssen ggf. mit Ihrem ausgewählten Direkt-Mail-Drittanbieter zusammenarbeiten, um die erforderliche Zustimmung von Ihren Kundinnen und Kunden zu erhalten, damit diese E-Mails von Ihnen erhalten können.
-
-Ihre Nutzung von Mailing-Services unterliegt zusätzlichen Bedingungen des jeweiligen Drittanbieters für Briefpost. Adobe hat keine Kontrolle über die Produkte von Drittanbietern und ist nicht für Ihre Nutzung dieser Produkte verantwortlich. Wenden Sie sich bei Problemen oder Anfragen zur Unterstützung im Zusammenhang mit dem Versand Ihrer Briefpostnachricht an Ihren ausgewählten Drittanbieter.
+Sie müssen mit Ihrem ausgewählten Drittanbieter für Direkt-Mail zusammenarbeiten, um ggf. die erforderlichen Einverständnisse von Ihren Kunden einzuholen, damit Ihre Kunden E-Mails von Ihnen erhalten können. Ihre Nutzung von Mailing-Services unterliegt zusätzlichen Bedingungen des jeweiligen Drittanbieters für Briefpost. Adobe hat keine Kontrolle über die Produkte von Drittanbietern und ist nicht für Ihre Nutzung dieser Produkte verantwortlich. Wenden Sie sich bei Problemen oder Anfragen zur Unterstützung im Zusammenhang mit dem Versand Ihrer Briefpostnachricht an Ihren ausgewählten Drittanbieter.
 
 >[!NOTE]
 >
@@ -58,11 +56,9 @@ Bevor Sie eine Briefpostnachricht erstellen, stellen Sie sicher, dass Sie eine D
 
 ## Erstellen einer Direkt-Mail-Konfiguration {#direct-mail-surface}
 
-Eine Direkt-Mail-Konfiguration enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Zielgruppe enthält und vom Direkt-Mail-Anbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus.
+Eine Direkt-Mail-Konfiguration enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Zielgruppe enthält und vom Direkt-Mail-Anbieter verwendet wird. Sie müssen auch definieren, wohin die Datei exportiert werden soll, indem Sie die Datei-Routing-Konfiguration auswählen. Detaillierte Informationen zum Erstellen einer Briefpostkonfiguration finden Sie im Abschnitt [Briefpostkonfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-Detaillierte Informationen zum Erstellen einer Briefpostkonfiguration finden Sie im Abschnitt [Briefpostkonfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
-
-Sobald Ihre Briefpost-Konfiguration fertig ist, können Sie eine Briefpost-Aktion erstellen und zu Ihrem Journey hinzufügen.
+Sobald Ihre Briefpost-Konfiguration fertig ist, können Sie eine Briefpost-Aktion zu Ihrem Journey hinzufügen.
 
 ## Hinzufügen einer Briefpost-Aktion zu Ihrem Journey
 
@@ -70,24 +66,20 @@ Gehen Sie wie folgt vor, um eine Briefpost-Aktion zu einer Journey hinzuzufügen
 
 1. Öffnen Sie den Journey und ziehen Sie eine Aktivität **[!UICONTROL Briefpost]** aus dem Bereich **Aktionen** der Palette.
 
-1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenkonfiguration aus. Das Feld **[!UICONTROL Konfiguration]** ist standardmäßig mit der letzten Konfiguration für den Kanal vorausgefüllt, den die Benutzerin oder der Benutzer verwendet hat.
+1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenkonfiguration aus. Das Feld **[!UICONTROL Konfiguration]** ist standardmäßig mit der letzten Konfiguration für diesen Kanal vorausgefüllt, die von den Benutzenden verwendet wurde. Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
-   Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
-
-1. Sie können jetzt die Extraktionsdatei konfigurieren, die an Ihren Briefpostanbieter gesendet werden soll. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+1. Konfigurieren Sie die Extraktionsdatei, die an Ihren Briefpostanbieter gesendet werden soll. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Passen Sie die Eigenschaften der Extraktionsdatei an, z. B. den Dateinamen oder die anzuzeigenden Spalten. Weitere Informationen zum Konfigurieren der Eigenschaften der Extraktionsdatei finden Sie in diesem Abschnitt. [Erstellen einer Briefpostnachricht](../direct-mail/create-direct-mail.md#extraction-file)
+1. Passen Sie die Eigenschaften der Extraktionsdatei an, z. B. den Dateinamen oder die anzuzeigenden Spalten. Weitere Informationen zum Konfigurieren der Eigenschaften der Extraktionsdatei finden Sie in diesem Abschnitt: [Erstellen einer Briefpostnachricht](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-   Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu überprüfen, wie die Extraktionsdatei mithilfe der Testprofildaten gerendert wird.
+   Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu überprüfen, wie die Extraktionsdatei mithilfe der Testprofildaten gerendert wird. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
-
-   Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 Wenn Ihre Extraktionsdatei bereit ist, schließen Sie zum Senden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
