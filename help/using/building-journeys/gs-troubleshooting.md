@@ -33,6 +33,6 @@ Hier erhalten Sie Hilfe bei der Diagnose von Problemen mit eingehenden Ereigniss
 * **[Fehlerbehebung bei einer benutzerdefinierten Aktion](../action/troubleshoot-custom-action.md)**
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen debuggen und validieren, einschließlich Datenverarbeitung, Antwortfehler und Integrationsfehler.
 
-Darüber hinaus finden Sie in diesem [Blogpost der Adobe-](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} Details **häufige Fehlercodes** und wie Sie diese effektiv beheben können.
+Darüber hinaus finden Sie in diesem [Blogpost der Adobe-](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"} Details **häufige Fehlercodes** und wie Sie diese effektiv beheben können.
 
 Diese Ressourcen helfen Ihnen, Probleme schnell zu isolieren, Ihr Setup zu validieren und Ihre Journey wieder reibungslos laufen zu lassen.
