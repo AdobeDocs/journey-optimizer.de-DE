@@ -10,7 +10,7 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 100%
 
@@ -33,8 +33,8 @@ Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="Zuweisen von Kennzeichnungen zu Ihrer Landingpage"
->abstract="Zum Schutz sensibler digitaler Assets können Sie mithilfe von Kennzeichnungen Berechtigungen definieren, um den Datenzugriff auf Ihre Landingpage zu verwalten."
+>title="Zuweisen von Labels zu Ihrer Landingpage"
+>abstract="Zum Schutz sensibler digitaler Assets können Sie mithilfe von Labels Berechtigungen definieren, um den Datenzugriff auf Ihre Landingpage zu verwalten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=de" text="Zugriffssteuerung auf Objektebene"
 
 
@@ -51,7 +51,7 @@ Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, da
 
    ![](assets/lp_create-lp-details.png)
 
-1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
+1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
 1. Wählen oder erstellen Sie Adobe Experience Platform-Tags aus dem Feld **[!UICONTROL Tags]**, um Ihre Landingpage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
@@ -82,7 +82,7 @@ Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#c
 >title="Definieren der primären Seiteneinstellungen"
 >abstract="Die primäre Seite erscheint den Benutzenden sofort, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, beispielsweise in einer E-Mail oder auf einer Website."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=de" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
