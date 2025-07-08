@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Überprüfen und Senden Ihrer LINE-Nachrichten](using/line/send-line.md)
 + Content-Management {#content-management}
-   + Landingpages {#landing-pages}
-      + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
-      + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
-      + [Verwalten von Landingpages](using/landing-pages/manage-lp.md)
-      + Inhaltserstellung {#landing-pages-design}
-         + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
-         + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
-         + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
-         + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
-      + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
-      + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-      + Konfigurieren von Landingpages {#lp-configuration}
-         + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
-         + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
    + Personalisierung {#personalization}
       + [Erste Schritte mit der Personalisierung](using/personalization/personalize.md)
       + [Hinzufügen von Personalisierung](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
          + [E-Mail mit den Rezepten eines Gesundheitsplans](using/personalization/perso-uc-plan-prescriptions.md)
+   + Landingpages {#landing-pages}
+      + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
+      + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+      + [Verwalten von Landingpages](using/landing-pages/manage-lp.md)
+      + Inhaltserstellung {#landing-pages-design}
+         + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
+         + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
+         + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
+         + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
+      + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
+      + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
+      + Konfigurieren von Landingpages {#lp-configuration}
+         + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
+         + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
    + Inhaltsvorlagen {#content-templates}
       + [Erste Schritte mit Inhaltsvorlagen](using/content-management/content-templates.md)
       + [Zugreifen auf und Verwalten von Vorlagen](using/content-management/access-content-templates.md)
