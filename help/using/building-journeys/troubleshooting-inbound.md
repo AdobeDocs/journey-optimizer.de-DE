@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Handbuch zur Fehlerbehebung bei eingehenden Aktionen in Journeys
-description: Erfahren Sie mehr zum Debugging und Beheben von Fehlern im Zusammenhang mit eingehenden Aktionen in Journeys in Adobe Journey Optimizer.
+description: Erfahren Sie, wie Sie Probleme im Zusammenhang mit eingehenden Aktionen in Journey Adobe Journey Optimizer debuggen und beheben.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, überprüfen, Fehler
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
-source-git-commit: 3376b4336fa8bd2691b788995be94f153e9a44bb
-workflow-type: ht
+source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
+workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    Sie können überprüfen, ob das **joai**-Segment in der Profilansicht des Edge Network-Versand-Servers vorhanden ist, indem Sie das **segmentsMap**-Element des Profilabschnitts öffnen und nach dem Vorhandensein der **joai**-Segment-ID suchen.
 
-1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Schritt 3: Überprüfen, ob die „joai“-Zielgruppen-Zugehörigkeit auf Edge Network übertragen wurde {#step-3}
 
@@ -215,8 +215,8 @@ Führen Sie dieselben Debugging-Schritte wie für [Szenario 1](#debugging-steps
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->
