@@ -91,12 +91,12 @@ Auf den folgenden Seiten erfahren Sie mehr über bestimmte Fehlerbehebungsthemen
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de">
     <img alt="Grundlegendes zu häufigen Fehlercodes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Darüber hinaus finden Sie in diesem Blogpost der Adobe-Community Details <strong>allgemeine </strong>) und wie Sie diese effektiv beheben können.
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">Weitere Informationen</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de" target="_blank">Weitere Informationen</a></div>
     </div>
   </td>
 </tr>
