@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 98%
 
 ---
@@ -127,7 +127,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
    ![](assets/journeyurlconfiguration2bis.png)
 
-1. Geben Sie die Bezeichnung oder den Namen des Felds ein.
+1. Geben Sie das Label oder den Namen des Felds ein.
 
 1. Wählen Sie einen Typ aus: **[!UICONTROL konstant]** oder **[!UICONTROL variabel]**. Wenn Sie **[!UICONTROL konstant]** gewählt haben, geben Sie den konstanten Wert ins **[!UICONTROL Wert]**-Feld ein. Wenn Sie **[!UICONTROL Variabel]** ausgewählt haben, geben Sie diese Variable an, wenn Sie die benutzerdefinierte Aktion zu einer Journey hinzufügen. [Weitere Informationen](../building-journeys/using-custom-actions.md).
 
@@ -178,7 +178,7 @@ Bei der Feldkonfiguration müssen Sie folgendermaßen vorgehen:
 
    * **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird den Marketing-Fachleuten nicht angezeigt, wenn sie die benutzerdefinierte Aktion während der Journey verwenden. Es kann sich beispielsweise um eine ID handeln, die das Drittanbietersystem erwartet. In diesem Fall wird der Wert für die Konstante im Feld rechts neben dem Umschalter „Konstante/Variable“ festgelegt.
 
-   * **Variabel** bedeutet, dass der Wert des Parameters variieren kann. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den die Marketing-Fachkraft in der Journey sieht, um diesen Parameter zu benennen.
+   * **Variabel** bedeutet, dass der Wert des Parameters variieren kann. Marketing-Fachleute, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder auch angeben, von wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable das Label, das der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
 
   Für optionale Parameter aktivieren Sie die Option **[!UICONTROL Ist optional]** am Ende der Zeile. Wenn Sie diese Option aktivieren, markieren Sie den Parameter als nicht obligatorisch und überlassen es den Journey-Anwenderinnen und -Anwendern, ob sie ihn bei der Erstellung dieser benutzerdefinierten Aktion in einer Journey ausfüllen oder nicht.
 
@@ -186,3 +186,8 @@ Bei der Feldkonfiguration müssen Sie folgendermaßen vorgehen:
 >
 >Wenn Sie optionale Parameter konfigurieren und dabei Nullwerte zulassen, werden Parameter, die von Journey-Anwenderinnen und -Anwendern nicht ausgefüllt werden, als Null gesendet.
 >
+
+
+## Fehlerbehebung
+
+Erfahren Sie (auf dieser speziellen Seite), wie [ eine benutzerdefinierte Aktion ](../action/troubleshoot-custom-action.md).

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 96%
 
 ---
 
@@ -44,8 +44,10 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 ![](assets/custom1.png)
 
+Erfahren Sie (auf dieser speziellen Seite), wie [ eine benutzerdefinierte Aktion ](../action/troubleshoot-custom-action.md).
+
 ## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430275?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Fehlerbehebung {#troubleshoot-journey}
+      + [Fehlerbehebung bei Journey](using/building-journeys/gs-troubleshooting.md)
       + [Fehlerbehebung bei Journey-Fehlern](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
       + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
+      + [Beheben von Fehlern bei einer benutzerdefinierten Aktion](using/action/troubleshoot-custom-action.md)
 + Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Konfigurationsschritte](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
    + Aktionskonfiguration {#action-journeys}
       + [Erste Schritte mit benutzerdefinierten Aktionen](using/action/action.md)
       + [Konfigurieren einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
-      + [Beheben von Fehlern bei einer benutzerdefinierten Aktion](using/action/troubleshoot-custom-action.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
 + Verbinden von Systemen und Umgebungen {#connect-systems}
    + [Integrieren mit anderen Lösungen](using/integrations/ajo-integrations.md)
