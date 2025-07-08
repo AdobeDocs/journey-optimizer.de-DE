@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 97%
+source-wordcount: '2502'
+ht-degree: 96%
 
 ---
 
@@ -313,6 +313,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
       + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
       + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
+      + [Senden von Briefpostnachrichten mit Journeys](using/direct-mail/direct-mail-journeys.md)
    + Web-Kanal {#web}
       + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
       + Konfigurieren des Web-Kanals {#configure-web-channel}

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
-workflow-type: ht
-source-wordcount: '751'
-ht-degree: 100%
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Um eine Briefpost-Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL Direkt-Mail]** aus.
 
-1. Wählen Sie eine **[!UICONTROL Direkt-Mail-Konfiguration]** aus oder erstellen Sie eine neue Konfiguration. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
+1. Wählen oder erstellen Sie eine **[!UICONTROL Briefpostkonfiguration]**, um sie zu verwenden. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
@@ -77,7 +77,7 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 
 Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden. Gehen Sie wie folgt vor, um die Konfiguration der Extraktionsdatei zu definieren:
 
-1. Klicken Sie zum Konfigurieren des Inhalts der Push-Benachrichtigung im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie zum Konfigurieren des Inhalts der Extraktionsdatei im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Passen Sie die Eigenschaften der Extraktionsdatei an:
 
@@ -97,11 +97,11 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um eine neue Spalte zu erstellen.
 
-   1. Der Bereich **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie einen **[!UICONTROL Titel]** für die Spalte an.
+   1. Der Bereich **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie ein **[!UICONTROL Label]** für die Spalte an.
 
    1. Wählen Sie im Feld **[!UICONTROL Daten]** mit dem [Personalisierungseditor](../personalization/personalization-build-expressions.md) die Profilattribute aus, die angezeigt werden sollen.
 
-   1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben der Spaltenbeschriftung im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
+   1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben dem Spalten-Label im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
 
       ![](assets/direct-mail-content.png){width="800" align="center"}
 
