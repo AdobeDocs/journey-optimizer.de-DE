@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '774'
 ht-degree: 30%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 30%
 >id="ajo_journey_direct_mail"
 >title="Endaktivität"
 >abstract="Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kunden und Kundinnen benötigen."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit).
 
 Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kunden und Kundinnen benötigen.
 
