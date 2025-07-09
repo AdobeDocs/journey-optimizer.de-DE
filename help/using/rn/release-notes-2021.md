@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hidefromtoc: true
+hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -162,7 +163,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 **Journeys**
 
 * Systemgenerierte Schemata und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um versehentliche Änderungen an kritischen Schemata zu verhindern. [Weitere Informationen](../reports/sharing-overview.md)
-* Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/about-journey-activities.md#best-practices)
+* Sie können die Aktivität **Warten** eindeutig mit einem Label benennen, die auf der Arbeitsfläche angezeigt wird. Das Label wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/about-journey-activities.md#best-practices)
 * Ihre Ereignisse und Aktionen sind jetzt schneller auffindbar, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](../building-journeys/using-the-journey-designer.md)
 * Beim Definieren einer Ereignis-ID-Bedingung in einem regelbasierten oder Geschäftsereignis ist jetzt der Operator „enthält“ für Felder vom Typ Zeichenfolge verfügbar. [Weitere Informationen](../event/about-creating.md)
 
