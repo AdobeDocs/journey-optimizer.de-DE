@@ -10,13 +10,13 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: Direkt-Mail, Nachricht, Kampagne
-source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
+exl-id: 44886355-ee3a-4323-899a-35d967487924
+source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 30%
 
 ---
-
 
 # Senden von Briefpostnachrichten mit Journeys {#direct-mail-journeys}
 
