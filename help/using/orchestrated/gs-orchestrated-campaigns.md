@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
+source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 15%
+source-wordcount: '492'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| <b>[Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)</b><br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| <b>[Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)</b><br/><br/>[Konfigurationsschritte](configuration-steps.md)<br/><br/>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -28,25 +28,46 @@ ht-degree: 15%
 
 <br/>
 
-## Was ist eine orchestrierte Kampagne?
+# Erste Schritte mit der Kampagnenorchestrierung {#gs}
 
-Orchestrierte Kampagnen verbessern Adobe Journey Optimizer durch die Einführung robuster, markeninitiierter Batch-Kampagnenfunktionen, mit denen Sie Cross-Channel-Kampagnen mit erweiterten Segmentierungsstrategien planen und koordinieren können.
+Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspruchsvolle, markeninitiierte Marketing-Kampagnen über alle Kanäle hinweg und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu steigern.
 
-Kanalübergreifendes Marketing ist für jedes Unternehmen, das seine Kundinnen und Kunden effektiv erreichen möchte, von entscheidender Bedeutung. Adobe Journey Optimizer bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse entwerfen können, die Ihnen bei der Verwaltung Ihrer Marketing-Kampagnen helfen. Mit orchestrierten Kampagnen können Sie das gesamte Spektrum an Prozessen und Aufgaben orchestrieren, die Geschwindigkeit und Skalierung Ihrer Marketing-Kampagnen steigern, von der Erstellung von Segmenten und der Vorbereitung von Nachrichten bis hin zum Versand. Außerdem können Sie Ihre Kanäle mit einer einzigen, benutzerfreundlichen Benutzeroberfläche für die Kampagnen-Orchestrierung synchronisieren.
+Obwohl Cross-Channel-Marketing unerlässlich ist, machen orchestrierte Kampagnen es nahtlos. Mit einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis zum Nachrichtenversand, über mehrere Kanäle entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
-Einer der wichtigsten Vorteile von orchestrierten Kampagnen besteht darin, dass es einfach wird, Ihren Kunden personalisierte Inhalte über alle Kanäle hinweg bereitzustellen. Unabhängig davon, ob Ihre Kundinnen und Kunden Nachrichten lieber per E-Mail oder auf einem Mobilgerät erhalten möchten, ermöglicht Ihnen Adobe Journey Optimizer, auf jedem beliebigen Kanal ein konsistentes und kontextuelles Erlebnis bereitzustellen und so den Journey jedes Kunden in ein einzigartiges Erlebnis zu verwandeln.
+Dieses Modul **Batch-Kampagnenorchestrierung** auf [!DNL Journey Optimizer], sodass Sie:
 
-Orchestrierte Kampagnen sind unglaublich vielseitig und können in verschiedenen Kontexten eingesetzt werden, einschließlich der Zielgruppenbestimmung zur Verwaltung von Zielgruppen oder zum Versand von Nachrichten, des Daten-Managements (ETL) zur Bearbeitung von Daten und des Imports von Daten.
+* Erstellen und Ausführen **mehrstufiger Kampagnen** (z. B. saisonale Werbeaktionen, neue Produkteinführungen),
+* Bereitstellen **personalisierten, konsistenten Messaging** über jeden Kanal hinweg,
+* Koordinieren Sie **Segmentierung, Dateiverarbeitung und** an einem Ort,
+* Zusammenarbeit durch Validierungen und Aufgabenzuweisungen fördern
 
-In einer umfassenden grafischen Umgebung können Sie Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung entwerfen. Orchestrierte Kampagnen können auch Benutzerinnen und Benutzer einbeziehen, indem sie ihnen Aufgaben zuweisen oder sie Aufgaben genehmigen lassen, was die Verwaltung Ihrer Team-Arbeit erleichtert und sicherstellt, dass alles korrekt ausgeführt wird.
+## Kernfunktionen
 
-## Journey-Orchestrierung und Kampagnenorchestrierung
+Die Kampagnenorchestrierung basiert auf vier zentralen Säulen:
 
-Die Kampagnenorchestrierung ist das führende Modul für das skalierte Entwerfen, Senden und Tracking von Markenkommunikation. Sie ermöglicht die automatisierte Verteilung von Marketing-Nachrichten an ausgewählte Zielgruppen und nutzt vorhandene Datensegmente für eine effektive Personalisierung, indem Profil- und Nicht-Profil-Entitäten kombiniert werden. Die Kampagnenorchestrierung ist ideal für die kampagnengesteuerte Reichweite und stellt einen konsistenten, effizienten und oft im Voraus geplanten Nachrichtenversand sicher, um die Kundeninteraktion zu fördern und wichtige Marketing-Ziele zu unterstützen.
+1. **On-Demand-Zielgruppen**
 
-Die Kampagnenorchestrierung definiert die Zielgruppensegmentierung neu, indem sie die Integration mehrerer Entitäten in Adobe Journey Optimizer ermöglicht und zielgerichtetes Messaging erleichtert, das beispielsweise auf bestimmten Status, Ereignissen, Verträgen oder Buchungen basiert. Da Sie Nachrichten an andere Entitäten als Profile senden oder Abfragen zu einer beliebigen Entität erstellen können, können Sie eine ganzheitliche Sicht haben und eine große Bandbreite von Einblicken erfassen, um Ihre Zielgruppen zu erstellen.
+   Sofortige Abfrage über Datensätze hinweg, um Zielgruppensegmente mithilfe einer beliebigen Kombination von Datentypen und Dimensionen zu erstellen.
 
-Für datengesteuerte Entscheidungen nutzt die Kampagnenorchestrierung mehrere Quellen für einen dynamisch angereicherten Datensatz.
+1. **Segmentierung und Versand mehrerer Entitäten**
+
+   Gehen Sie über personenbasierte Kampagnen hinaus und verwenden Sie Entitäten wie Produktkataloge, Speicherorte oder Service-Daten, um sie präzise anzusprechen.
+
+1. **Sichtbarkeit und Präzision vor dem Versand**
+
+   Erhalten Sie vor dem Start exakte Segmentierungszahlen und den gesamten Kampagnenumfang, um Genauigkeit und Konfidenz zu gewährleisten.
+
+1. **Mehrstufige Kampagnen-Workflows**
+
+   Entwerfen Sie mehrstufige Kampagnen, von täglichen Nachrichten bis hin zu komplexen Kampagnen wie saisonalen Werbeaktionen oder großen Produkteinführungen.
+
+## Orchestrierte Kampagnen und Journey
+
+Obwohl die koordinierte Kampagnenvisualisierung mit der von Journey-Kampagnen vergleichbar ist, werden damit verschiedene Zwecke und Anwendungsfälle gelöst:
+
+* **Journey** - 1 bis 1 Arbeitsfläche, auf der jedes Profil die verschiedenen Schritte in seinem eigenen Tempo durchläuft. Der Status jedes Kunden wird innerhalb seines Kontexts beibehalten, um Echtzeit-Aktionen für den Trigger zu ermöglichen.
+
+* **Orchestrierte Kampagnen** - Im Gegensatz zu Journeys verwenden orchestrierte Kampagnen eine Batch-Arbeitsfläche, die Segmente berechnet. Alle Profile werden gleichzeitig verarbeitet.
 
 ## Voraussetzungen
 
@@ -58,12 +79,12 @@ Wenn Sie nicht auf die Funktionen von orchestrierten Kampagnen zugreifen können
 
 ## Tauchen wir tiefer in die Materie ein
 
-Jetzt, da Sie wissen, was Workflows sind und was Sie mit ihnen in Adobe Campaign tun können, ist es an der Zeit, sich näher mit den Dokumentationsabschnitten zu befassen, um mit der Funktion zu arbeiten.
+Da Sie nun wissen, was koordinierte Kampagnen sind, ist es an der Zeit, sich näher mit den Dokumentationsabschnitten zu befassen, um mit der Funktion zu arbeiten.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="Zugriff und Verwaltung von Workflows" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Zugriff auf Workflows und deren Verwaltung" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>Konfigurationsschritte</strong></a>
