@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Ab dem 1. November 2024 unterstützt die Streaming-Segmentierung die Verwendung von Sende- und Öffnungsereignissen aus Tracking- und Feedback-Datensätzen aus Journey Optimizer nicht mehr. Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Schutzmechanismus eingeführt. [Weitere Informationen](datasets-ttl.md)
+>Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr das Senden und Öffnen von Ereignissen aus [!DNL Journey Optimizer] Tracking- und Feedback-Datensätzen. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzlimitierung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md) einschließlich einer Erklärung zu Anwendungsfällen für die tägliche Begrenzung [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>
+>Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Schutzmechanismus eingeführt. [Weitere Informationen](datasets-ttl.md)
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
