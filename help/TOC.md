@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
       + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
-      + [Suche nach Erlebnisereignissen](using/building-journeys/exp-event-lookup.md)
+      + [Suchen nach Erlebnisereignissen](using/building-journeys/exp-event-lookup.md)
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
@@ -176,7 +176,7 @@ ht-degree: 96%
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Fehlerbehebung {#troubleshoot-journey}
       + [Fehlerbehebung bei Journey](using/building-journeys/gs-troubleshooting.md)
-      + [Fehlerbehebung bei Journey-Fehlern](using/building-journeys/troubleshooting.md)
+      + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
       + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
       + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
@@ -297,17 +297,17 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
    + SMS-/MMS-/RCS-Kanal{#sms}
       + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
-      + [SMS-/MMS-/RCS-Nachricht erstellen](using/sms/create-sms.md)
+      + [Erstellen einer SMS-/MMS-/RCS-Nachricht](using/sms/create-sms.md)
       + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
       + [Verwalten der Abmeldung von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
-      + SMS-/MMS-/RCS-Kanal konfigurieren{#configure-sms}
+      + Konfigurieren des SMS-/MMS-/RCS-Kanals{#configure-sms}
          + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
          + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
          + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
          + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
-         + [Erstellen einer SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
+         + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
    + Briefpost {#direct-mail}
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
@@ -566,7 +566,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
             + [Erstellen von KI-Modellen](using/experience-decisioning/ranking/create-ai-models.md)
       + Verwenden von Adobe Experience Platform-Daten {#aep-data}
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
-         + [Verwenden von Adobe Experience Platform für Entscheidungen](using/experience-decisioning/aep-data-exd.md)
+         + [Verwenden von Adobe Experience Platform für die Entscheidungsfindung](using/experience-decisioning/aep-data-exd.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
       + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
       + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
