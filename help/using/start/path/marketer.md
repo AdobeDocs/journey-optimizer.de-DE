@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
    * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-   * Verwenden Sie die **integrierten Kanalaktionen** (E-Mail, SMS, Push, InApp) zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen** wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
+   * Verwenden Sie die **integrierten Kanalaktionen** (E-Mail, SMS, Push, InApp), um Nachrichten zu senden, die in [!DNL Journey Optimizer] entworfen wurden, oder erstellen Sie **benutzerdefinierte Aktionen**, wenn Sie ein Drittanbietersystem zum Senden Ihrer Nachrichten verwenden.
 
    * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 

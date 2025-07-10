@@ -10,9 +10,9 @@ level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Erste Schritte mit Data Governance-Richtlinien {#gs}
 
-Mit dem [ Governance-Framework Data Labeling and Enforcement (DULE) ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} Sie mit Adobe Experience Platform kanalübergreifend Data-Governance-Richtlinien verwalten und durchsetzen, indem Sie **Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
+Mit dem Governance-Framework [Data Usage Labelling and Enforcement (DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de){target="_blank"} ermöglicht Ihnen Adobe Experience Platform die Verwaltung und Durchsetzung kanalübergreifender Data-Governance-Richtlinien, indem Sie **Ihre Felder kennzeichnen** und **Marketing-Aktionen** für jeden Kanal erstellen.
 
 Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#policy)
 
@@ -128,10 +128,10 @@ Wenn eines der mit _ePHI1_ gekennzeichneten Felder (im vorliegenden Beispiel das
 
 Wenn das System ein eingeschränktes Feld in einer Journey/Kampagne oder eine benutzerdefinierte Aktion erkennt, wird ein Fehler angezeigt, der die Veröffentlichung verhindert.
 
-Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Wählen Sie den Fehler aus, um detaillierte Informationen über die aufgetretene Verletzung der Data-Governance-Richtlinien anzuzeigen.
+Fehler werden über die Schaltfläche **[!UICONTROL Warnhinweise]** angezeigt. Klicken Sie auf den Fehler, um detaillierte Informationen zu den Verstößen gegen Data-Governance-Richtlinien anzuzeigen.
 
 ![](assets/action-privacy8.png)
 
 Dieses Dialogfeld weist darauf hin, dass die aktuelle Journey-/Kampagnenkonfiguration gegen eine bestehende Data Governance-Richtlinie verstößt. Verwenden Sie das Datenherkunftsdiagramm, um zu verstehen, welche anderen Konfigurationsänderungen erforderlich sind, bevor Sie Ihre Journey oder Kampagne aktivieren können.
 
-Detaillierte Informationen finden Sie in der [Dokumentation zu Datennutzungsrichtlinienverletzungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Detaillierte Informationen finden Sie in der [Dokumentation zu Verstößen gegen Datennutzungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
