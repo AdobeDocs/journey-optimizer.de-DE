@@ -37,7 +37,7 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr das Senden und Öffnen von Ereignissen aus [!DNL Journey Optimizer] Tracking- und Feedback-Datensätzen. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzlimitierung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md) einschließlich einer Erklärung zu Anwendungsfällen für die tägliche Begrenzung [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr das Senden und Öffnen von Ereignissen aus [!DNL Journey Optimizer] Tracking- und Feedback-Datensätzen. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzlimitierung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md) einschließlich einer Erklärung zu Anwendungsfällen für die tägliche Begrenzung [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
 >
 >Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Schutzmechanismus eingeführt. [Weitere Informationen](datasets-ttl.md)
 
