@@ -9,18 +9,22 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 97%
 
 ---
 
 
 # Erste Schritte bei der Kanalkonfiguration {#start-optimizer-configuration}
 
-Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="Ratensteuerelemente für Kanäle"
+>abstract="Ratensteuerelemente für Kanäle"
 
+Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
 Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte durchlaufen:
 
