@@ -72,7 +72,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * Im folgenden Video erfahren Sie, welche Mobile-Funktionen Adobe Journey Optimizer Marketing-Fachleuten bietet.
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
 
 * Im folgenden Video erfahren Sie, wie Sie gebrandete interaktive RCS-Nachrichten in Adobe Journey Optimizer mithilfe eines benutzerdefinierten SMS-Anbieters konfigurieren und senden.
 
@@ -90,4 +90,4 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-+++
+  +++
