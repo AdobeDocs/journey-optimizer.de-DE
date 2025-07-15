@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 92%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422692?learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -79,6 +79,15 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430371?quality=12&learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+* Im folgenden Video erfahren Sie, wie Sie gebrandete interaktive RCS-Nachrichten in Adobe Journey Optimizer mithilfe eines benutzerdefinierten SMS-Anbieters konfigurieren und senden.
+
+
+  +++Siehe Video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
