@@ -10,21 +10,21 @@ exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
 # Konfigurieren eines Sinch-Anbieters {#sms-configuration-sinch}
 
-Bei Verwendung des Sinch-Anbieters mit Journey Optimizer stehen drei verschiedene Optionen zur Verfügung:
+Wenn Sie den Sinch-Anbieter mit Journey Optimizer verwenden, können Sie zwischen drei verschiedenen Optionen wählen:
 
 * **SMS-Konfiguration**: Richten Sie Ihre Sinch-API-Anmeldedaten ein, um nahtlos SMS-Nachrichten zu versenden.
 
 * **MMS-Konfiguration**: Konfigurieren Sie für Multimedia Messaging (MMS) Ihre Sinch-MMS-API-Anmeldedaten. Beachten Sie, dass das Tracking und Beantworten von eingehenden Nachrichten über die SMS-Konfiguration erfolgt. Die MMS-Einrichtung ist nur für den ausgehenden Versand der MMS-Nachricht vorgesehen.
 
-* **RCS-Konfiguration**: Richten Sie Ihre Sinch-API-Anmeldedaten ein, um RCS-Nachrichten nahtlos zu senden.
+* **RCS-Konfiguration**: Richten Sie Ihre Sinch-API-Anmeldedaten ein, um nahtlos RCS-Nachrichten zu versenden.
 
-## Konfigurieren von API-Anmeldeinformationen für SMS{#create-api}
+## Konfigurieren von API-Anmeldedaten für SMS{#create-api}
 
 >[!BEGINSHADEBOX]
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
    | Opt-out-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
    | Hilfe-Keywords | Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **Hilfenachricht** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
    | Hilfenachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird. |
-   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?learn=on&captions=ger). |
+   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Double-Opt-in-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird. |
    | Eingehende Nummer | Fügen Sie Ihre eindeutige eingehende Nummer oder Ihren eindeutigen Kurz-Code hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl oder einen eigenen Kurz-Code verfügt. |
    | Benutzerdefinierte eingehende Keywords | Definieren Sie eindeutige Keywords für bestimmte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Streaming-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können. |
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanalkonfiguration für SMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
 
-## Konfigurieren von API-Anmeldeinformationen für MMS{#sinch-mms}
+## Konfigurieren von API-Anmeldedaten für MMS{#sinch-mms}
 
 >[!IMPORTANT]
 >
@@ -107,23 +107,23 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
 
-RCS (Rich Communication Services)-Messaging wird in Journey Optimizer über Sinch unterstützt und ermöglicht den Versand von Basisnachrichten unter Verwendung verifizierter Geschäftsprofile mit Branding-Elementen wie Logos und Absendernamen.
+RCS-Messaging (Rich Communication Services) wird in Journey Optimizer über Sinch unterstützt und ermöglicht den Versand von einfachen Nachrichten unter Verwendung verifizierter Geschäftsprofile mit Branding-Elementen wie Logos und Absendenamen.
 
-Beachten Sie, dass Nachrichten automatisch auf SMS zurückgesetzt werden, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend nicht erreichbar ist.
+Beachten Sie, dass Nachrichten automatisch über SMS gesendet werden, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend unerreichbar ist.
 
 ➡️ [Erfahren Sie in der Sinch-Dokumentation, wie Sinch RCS unterstützt](https://sinch.com/blog/rcs-api-guide/)
 
-RCS mit Sinch konfigurieren:
+So konfigurieren Sie RCS mit Sinch:
 
-1. **Richten Sie den RCS Agenten Ihrer Marke ein**
+1. **Einrichten eines an Ihre Marke angepassten RCS-Agenten**
 
-   Wenden Sie sich an den Adobe-Kundenbetreuer, um einen RCS-Agenten der Marke einzurichten. [Weitere Informationen zum RCS Agenten mit Markenbezeichnung](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Wenden Sie sich an den Adobe-Support, um einen an Ihre Marke angepassten RCS-Agenten einzurichten. [Weitere Informationen zu an Marken angepassten RCS-Agenten](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
 1. **Einrichten Ihrer [Sinch-API-Anmeldedaten](#create-api)**
 
-   Nachdem der RCS Agent genehmigt wurde, müssen Sie Ihre Sinch-API-Anmeldedaten einrichten, die Ihren Zugriffsschlüssel, Ihr Geheimnis und die Dienstplan-ID enthalten. Diese Anmeldeinformationen werden von Journey Optimizer verwendet, um sich zu authentifizieren und Nachrichten über die Plattform von Sinch zu senden.
+   Nachdem der RCS-Agent genehmigt wurde, müssen Sie Ihre Sinch-API-Anmeldedaten einrichten, die Ihren Zugriffsschlüssel, Ihr Geheimnis und die Service-Plan-ID enthalten. Diese Anmeldedaten werden von Journey Optimizer zum Authentifizieren und Senden von Nachrichten über die Sinch-Plattform verwendet.
 
-1. **Erstellen Sie eine [Kanalkonfiguration](sms-configuration-surface.md) für Ihre RCS-Nachrichten**
+1. **Erstellen einer [Kanalkonfiguration](sms-configuration-surface.md) für Ihre RCS-Nachrichten**
 
-   Konfigurieren Sie eine Kanaloberfläche in Journey Optimizer, indem Sie Ihre Sinch-Anmeldedaten verknüpfen und die Messaging-Parameter definieren. Mit dieser Einstellung können Sie RCS-Nachrichten von Journey Optimizer aus erstellen und senden.
+   Konfigurieren Sie eine Kanaloberfläche in Journey Optimizer, indem Sie Ihre Sinch-Anmeldedaten verknüpfen und die Messaging-Parameter definieren. Mit diesem Setup können Sie RCS-Nachrichten in Journey Optimizer erstellen und von dort aus senden.
 

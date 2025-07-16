@@ -12,7 +12,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -53,11 +53,11 @@ Der Journey-Probelauf bietet:
 
 Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
 
-* **Kanalaktion** Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt
-* **Benutzerdefinierte Aktionen** werden während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt
+* **Kanalaktion**-Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
+* **Benutzerdefinierte Aktionen** sind während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
 * **Warteknoten** werden während des Probelaufs umgangen.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* **Datenquellen** einschließlich externer Datenquellen, werden standardmäßig ausgeführt
+* **Datenquellen** einschließlich externer Datenquellen werden standardmäßig ausgeführt.
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Die Probelauffunktion kann in jeder fehlerfreien Entwurfs-Journey verwendet werd
 Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 1. Öffnen Sie die Journey, die getestet werden soll.
-1. Klicken Sie auf **Schaltfläche „Probelauf**.
+1. Wählen Sie die Schaltfläche **Probelauf** aus.
 
    ![Starten des Journey-Probelaufs](assets/dry-run-button.png)
 
@@ -111,13 +111,13 @@ Klicken Sie auf die Schaltfläche **Schließen**, um den Test zu beenden, und da
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Der Dry Run-Modus ist nicht für Journey verfügbar, die Reaktionsereignisse enthalten
-* Profile im Dry-Run-Modus werden als kontaktierbare Profile gezählt
-* Journey im Dry Run-Modus werden auf das Live Journey-Kontingent angerechnet
-* Probelauf-Journey wirken sich nicht auf Geschäftsregeln aus
+* Der Probelaufmodus ist nicht für Journeys verfügbar, die Reaktionsereignisse enthalten.
+* Profile im Probelaufmodus werden als ansprechbare Profile gezählt.
+* Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
+* Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
 * Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
 * Der Journey-Probelauf generiert stepEvents. Diese stepEvents haben eine bestimmte Markierung und eine Probelauf-ID:
    * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist und andernfalls `false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelaufinstanz zurück
 
-* Bei der Analyse von Journey-Reporting-Metriken mit dem Adobe Experience Platform-Abfrage-Service müssen Dry-Run-generierte Schrittereignisse ausgeschlossen werden. Setzen Sie dazu das `inDryRun`-Flag auf `false`.
+* Bei der Analyse von Journey-Reporting-Metriken mit dem Abfrage-Service von Adobe Experience Platform müssen vom Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu das `inDryRun`-Flag auf `false` fest.
