@@ -1,5 +1,5 @@
 ---
-title: Senden von Briefpostnachrichten mit Journeys
+title: Senden von Direkt-Mail-Nachrichten mit Journeys
 description: Erfahren Sie, wie Sie mit Journey Briefpostnachrichten erstellen und senden.
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 30%
+ht-degree: 40%
 
 ---
 
-# Senden von Briefpostnachrichten mit Journeys {#direct-mail-journeys}
+# Senden von Direkt-Mail-Nachrichten mit Journeys {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
