@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 >[!CAUTION]
 >
->Sie können ein Web-Erlebnis mit einer bestimmten Gerätegröße bearbeiten. Solange die Selektoren identisch sind, gelten diese Änderungen für alle Größen und Geräte, nicht nur für die Gerätegröße, in der Sie arbeiten. Gleichermaßen werden bei der Bearbeitung eines Erlebnisses in der normalen Desktop-Ansicht die Änderungen auf alle Bildschirmgrößen angewendet, nicht nur auf die Desktop-Ansicht.
+>Sie können ein Web-Erlebnis mit einer bestimmten Gerätegröße bearbeiten. Solange die Selektoren identisch sind, gelten diese Änderungen für alle Größen und Geräte, nicht nur für die Gerätegröße, mit der Sie arbeiten. Gleichermaßen werden bei der Bearbeitung eines Erlebnisses in der normalen Desktop-Ansicht die Änderungen auf alle Bildschirmgrößen angewendet, nicht nur auf die Desktop-Ansicht.
 >
 >Zurzeit unterstützt [!DNL Journey Optimizer] keine Seitenänderungen für bestimmte Gerätegrößen. Wenn Sie also beispielsweise über eine separate mobile Web-Site mit einer separaten Site-Struktur verfügen, müssen Sie die für Ihre mobile Site spezifischen Änderungen in einer anderen Kampagne vornehmen.
 
@@ -184,4 +184,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

@@ -1,16 +1,16 @@
 ---
 title: Konfigurieren der Auswahl von Angeboten in Entscheidungen
 description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Ab
 
 Nachdem Sie eine Formel erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
@@ -61,13 +61,13 @@ Wenn mehrere Angebote für diese Platzierung infrage kommen, verwendet die Entsc
 
 ## KI-Rangfolge {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](../ranking/create-ranking-strategies.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
 
 Sobald ein KI-Modell erstellt wurde, können Sie dieses einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 

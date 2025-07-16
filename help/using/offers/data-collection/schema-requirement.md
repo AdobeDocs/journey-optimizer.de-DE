@@ -3,15 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Konfigurieren der Ereigniserfassung
 description: Erfahren Sie, wie Sie Ihr Angebotsschema zur Erfassung von Ereignissen konfigurieren
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -108,4 +108,4 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Wenn Sie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} oder [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.
+>Wenn Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} oder das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.

@@ -3,15 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Erstellen eines Datensatzes zum Erfassen von Ereignissen
 description: Erfahren Sie, wie Sie einen Datensatz erstellen, um Ereignisse zu erfassen.
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
+>Weitere Informationen zum Erstellen von Schemata finden Sie in den [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
 
-Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wie folgt vor:
+Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie aus dem Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus und navigieren Sie zur Registerkarte **[!UICONTROL Durchsuchen]**.
 

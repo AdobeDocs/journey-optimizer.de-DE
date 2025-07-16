@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Diese Seite hilft Ihnen, wichtige Services und Workflows einzurichten und zu ver
 
 >[!AVAILABILITY]
 >
->Der neue Schnellstart **Workflow für Mobile-Onboarding** jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobile-Ereignisdaten und dem Senden von Mobile-Push-Benachrichtigungen beginnt. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden. [Weitere Informationen](mobile-onboarding-wf.md)
+>Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobile-Ereignisdaten und dem Senden von Mobile-Push-Benachrichtigungen beginnt. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden. [Weitere Informationen](mobile-onboarding-wf.md)
 >
 
 Auf [dieser Seite](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.
@@ -62,7 +62,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
    * Erstellen der Client-seitigen Mobile-Eigenschaft und Hinzufügen von Erweiterungen Das SDK ist eng mit diesen Erweiterungen integriert, um eine nahtlose Datenerfassung zu ermöglichen.
    * Registrieren der Mobile-App-Bundle-ID und Mobile-App-Anmeldedaten
 
-* **Das Echtzeit-Kundenprofil von Adobe Experience Platform** bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Internet, Mobile, CRM und Drittanbietern, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer zentralen Ansicht zusammenführen, die eine aussagekräftige Darstellung jeder Kundeninteraktion mit Zeitstempel bietet. Das Push-Token für einen bestimmten Mobile-App-Benutzer wird im Profil des Benutzers als Eintragsdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Weitere Informationen zum Echtzeit-Kundenprofil von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
+* **Das Echtzeit-Kundenprofil von Adobe Experience Platform** bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Internet, Mobile, CRM und Drittanbietern, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer zentralen Ansicht zusammenführen, die eine aussagekräftige Darstellung jeder Kundeninteraktion mit Zeitstempel bietet. Das Push-Token für einen bestimmten Mobile-App-Benutzer wird im Profil des Benutzers als Eintragsdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Erfahren Sie mehr zum Echtzeit-Kundenprofil von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]**: Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet und Ihre Kundenprofile in Adobe Experience Platform vorhanden sind, können Sie zur Benutzerinteraktion Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] erstellen und koordinieren.
 

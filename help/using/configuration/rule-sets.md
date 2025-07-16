@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 10 aktive lokale Regelsätze für jede Kanaldomäne und für die Journey-Domain erstellen.
+>Sie können bis zu 10 aktive lokale Regelsätze für jede Kanal-Domain und für die Journey-Domain erstellen.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -146,7 +146,7 @@ Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung a
 
    Bitte beachten Sie, dass der Zählerwert des Profils nach Auslieferung der Mitteilung aktualisiert wird. Seien Sie sich dessen bewusst, wenn Sie große Mengen an Mitteilungen versenden, da der Durchsatz dazu führen kann, dass die Empfängerinnen und Empfänger die E-Mail erst Minuten oder sogar Stunden nach dem Beginn der Kommunikation erhalten (wenn Sie beispielsweise Millionen von Nachrichten gleichzeitig versenden).
 
-   Dies ist wichtig, wenn eine Person zwei Mitteilungen kurz nacheinander erhält. Wir empfehlen, die Mitteilungen nach Möglichkeit im Abstand von mindestens zwei Stunden zu versenden, damit die Empfängerinnen und Empfänger genügend Zeit haben, die Mitteilung zu erhalten, und der Zählerwert entsprechend aktualisiert werden kann.
+   Dies ist wichtig, wenn eine Person zwei Nachrichten kurz nacheinander erhält. Wir empfehlen, die Mitteilungen nach Möglichkeit im Abstand von mindestens zwei Stunden zu versenden, damit die Empfängerinnen und Empfänger genügend Zeit haben, die Mitteilung zu erhalten, und der Zählerwert entsprechend aktualisiert werden kann.
 
 1. Legen Sie die Begrenzung für Ihre Regel fest, d. h. die maximale Anzahl der Nachrichten, die pro Monat, Woche oder Tag – entsprechend Ihrer Auswahl oben – an ein individuelles Benutzerprofil gesendet werden können.
 
@@ -312,4 +312,4 @@ Um eine Begrenzungsregel auf eine Journey anzuwenden, greifen Sie auf die Journe
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

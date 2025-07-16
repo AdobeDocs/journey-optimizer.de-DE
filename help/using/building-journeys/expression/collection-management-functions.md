@@ -9,18 +9,18 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Funktionen zur Verwaltung von Sammlungen {#collection-management-functions}
 
 
-## Über die Funktionen der Abfrageerfassung
+## Informationen zu Funktionen zum Abfragen von Sammlungen
 
-Die Ausdruckssprache führt auch eine Reihe von Funktionen für die Abfrage von Sammlungen ein. Diese Funktionen werden nachfolgend erläutert.
+Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen. Diese Funktionen werden nachfolgend erläutert.
 
 Im folgenden Beispiel verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
 
@@ -64,7 +64,7 @@ Im folgenden Beispiel verwenden wir die Ereignis-Payload, die eine Sammlung enth
 }
 ```
 
-## Die Funktion all(`<condition>`)
+## Die Funktion „all(`<condition>`)“
 
 Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdrucks die Definition eines Filters für eine bestimmte Sammlung.
 
@@ -81,7 +81,7 @@ In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überpr
 >
 >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht unterstützt. Wenn Ihr Anwendungsfall die Verwendung von Erlebnisereignissen erfordert, sollten Sie alternative Methoden in Betracht ziehen. [Weitere Informationen](../exp-event-lookup.md)
 
-### Beispiel 1
+### Beispiel 1
 
 Wir möchten überprüfen, ob ein Anwender eine bestimmte Version einer App installiert hat. Zu diesem Zweck rufen wir alle Push-Benachrichtigungs-Token für Mobile Apps mit der Version 1.0 ab. Anschließend führen wir eine Bedingung mit der Funktion **[!UICONTROL Zählen]** aus, um zu überprüfen, ob die zurückgegebene Liste von Tokens mindestens ein Element enthält.
 
@@ -91,9 +91,9 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 Das Ergebnis ist wahr.
 
-### Beispiel 2
+### Beispiel 2
 
-Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungstoken vorhanden sind.
+Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungs-Token vorhanden sind.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -112,14 +112,14 @@ Das Ergebnis des Ausdrucks ist **3**.
 
 >[!NOTE]
 >
->* Wenn die Filterbedingung in der Funktion **all()** leer ist, gibt der Filter alle Elemente in der Liste zurück. **Um jedoch die Anzahl der Elemente einer Sammlung zu zählen, ist die Funktion all nicht erforderlich.
+>* Wenn die Filterbedingung in der Funktion **all()** leer ist, gibt der Filter alle Elemente in der Liste zurück. **Um jedoch die Anzahl der Elemente einer Sammlung zu zählen, ist die Funktion „all“ nicht erforderlich.
 >
->* `currentEventField` ist nur bei der Bearbeitung von Ereignisauflistungen verfügbar, `currentDataPackField` bei der Bearbeitung von Datenquellenauflistungen und `currentActionField` bei der Bearbeitung von Sammlungen benutzerdefinierter Aktionsantworten.
+>* `currentEventField` ist nur bei der Bearbeitung von Ereignissammlungen verfügbar, `currentDataPackField` bei der Bearbeitung von Datenquellensammlungen und `currentActionField` bei der Bearbeitung von benutzerdefinierten Aktionsantwortsammlungen.
 >
->  Bei der Verarbeitung von Sammlungen mit `all`, `first` und `last` wird jedes Element der Sammlung einzeln durchlaufen. `currentEventField`, `currentDataPackField` und `currentActionField` entsprechen dem Element, das in eine Schleife gesetzt wird.
+>  Bei der Verarbeitung von Sammlungen mit `all`, `first` und `last` wird nacheinander eine Schleife um jedes Element der Sammlung gebildet. `currentEventField`, `currentDataPackField` und `currentActionField` entsprechen dem Element, um das die Schleife gebildet wird.
 
 
-## Die Funktionen first(`<condition>`) und last(`<condition>`)
+## Die Funktionen „first(`<condition>`)“ und „last(`<condition>`)“
 
 Die Funktionen **[!UICONTROL first]** und **[!UICONTROL last]** ermöglichen auch die Definition eines Filters für die Sammlung, wobei das erste/letzte Element der Liste zurückgegeben wird, das dem Filter entspricht.
 
@@ -127,9 +127,9 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-### Beispiel 1
+### Beispiel 1
 
-Dieser Ausdruck gibt das erste Push-Benachrichtigungs-Token zurück, das mit Mobile Apps verknüpft ist, deren Version 1.0 ist.
+Dieser Ausdruck gibt das erste Push-Benachrichtigungs-Token zurück, das mit Apps verknüpft ist, deren Version 1.0 ist.
 
 
 ```json
@@ -138,9 +138,9 @@ Dieser Ausdruck gibt das erste Push-Benachrichtigungs-Token zurück, das mit Mob
 
 Das Ergebnis ist `token_1`.
 
-### Beispiel 2
+### Beispiel 2
 
-Dieser Ausdruck gibt das letzte Push-Benachrichtigungs-Token zurück, das mit Mobile Apps verknüpft ist, deren Version 1.0 ist.
+Dieser Ausdruck gibt das letzte Push-Benachrichtigungs-Token zurück, das mit Apps verknüpft ist, deren Version 1.0 ist.
 
 
 ```json
@@ -149,7 +149,7 @@ Dieser Ausdruck gibt das letzte Push-Benachrichtigungs-Token zurück, das mit Mo
 
 Das Ergebnis ist `token_2`.
 
-## Die Funktion at(`<index>`)
+## Die Funktion „at(`<index>`)“
 
 Mit der Funktion **[!UICONTROL at]** können Sie anhand eines Index auf ein bestimmtes Element in einer Sammlung verweisen.
 Der Index „0“ ist der erste Index der Sammlung.
@@ -158,7 +158,7 @@ _`<listExpression>`.at(`<index>`)_
 
 ### Beispiel
 
-Dieser Ausdruck gibt das zweite Push-Benachrichtigungstoken der Liste zurück.
+Dieser Ausdruck gibt das zweite Push-Benachrichtigungs-Token der Liste zurück.
 
 
 ```json

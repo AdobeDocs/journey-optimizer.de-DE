@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente werden über den neuen [Code-basierten Erlebniskanal“, auf den in Journey Optimizer-Kampagnen zugegriffen werden kann, nahtlos in eine Vielzahl ](../code-based/get-started-code-based.md) eingehenden Oberflächen integriert.
+Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](../code-based/get-started-code-based.md), der in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 

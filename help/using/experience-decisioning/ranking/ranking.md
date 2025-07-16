@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ Es stehen zwei Arten von Rangfolgemethoden zur Verfügung:
 
 Gehen Sie wie folgt vor, um eine Rangfolgenmethode zu erstellen:
 
-1. Navigieren Sie zum Menü **[!UICONTROL Strategie einrichten]** und wählen Sie dann das Menü **[!UICONTROL Formeln]** oder **[!UICONTROL KI-Modelle]** je nach der Art des Rangs aus, den Sie verwenden möchten.
+1. Navigieren Sie zum Menü **[!UICONTROL Strategie-Setup]** und wählen Sie dann das Menü **[!UICONTROL Formeln]** oder **[!UICONTROL KI-Modelle]** je nach dem Rangfolgentyp aus, den Sie verwenden möchten.
 
    ![](../assets/ranking-create.png)
 
 1. Klicken Sie oben rechts im Bildschirm auf die Schaltfläche **[!UICONTROL Formel erstellen]** oder **[!UICONTROL KI-Modell erstellen]**.
 
-   Detaillierte Informationen zum Erstellen von Rangfolgeformeln und KI-Modellen finden Sie in den folgenden Abschnitten:
+   Detaillierte Informationen zum Erstellen von Rangfolgenformeln und KI-Modellen finden Sie in den folgenden Abschnitten:
 
-   * [Rangfolgeformeln](ranking-formulas.md)
+   * [Rangfolgenformeln](ranking-formulas.md)
    * [KI-Modelle](ai-models.md)
 
-1. Konfigurieren Sie die Formel oder das KI-Modell entsprechend Ihren Anforderungen und speichern Sie sie dann.
+1. Konfigurieren Sie die Formel oder das KI-Modell entsprechend Ihren Anforderungen und speichern Sie die Formel bzw. das Modell dann.
 
-Ihre Ranking-Methode kann jetzt in einer &quot;[&quot; verwendet werden](../selection-strategies.md) um geeignete Entscheidungselemente zu reihen.
+Ihre Rangfolgenmethode kann nun in einer [Auswahlstrategie](../selection-strategies.md) verwendet werden, um die geeigneten Entscheidungselemente zu ordnen.
 
 

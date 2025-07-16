@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den But
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie in der Liste {**}Journeyauf die Journey, die Sie schließen möchten.**
+1. Klicken Sie in der Liste **[!UICONTROL Journeys]** auf die Journey, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
@@ -93,7 +93,7 @@ Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie in der Liste {**}Journeyauf die Journey, die Sie anhalten möchten.**
+1. Klicken Sie in der Liste **[!UICONTROL Journeys]** auf die Journey, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}

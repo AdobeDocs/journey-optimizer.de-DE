@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 82%
 >title="Schreibgeschützt"
 >abstract="Dieser Inhalt befindet sich im schreibgeschützten Modus und kann nicht geändert werden."
 
-Mit Journey Optimizer können Sie Inhalte in E-Mail-Vorlagen sperren, indem Sie entweder die gesamte Vorlage oder bestimmte Strukturen und Komponenten sperren. Dadurch werden unbeabsichtigte Änderungen oder Löschungen verhindert, was Ihnen mehr Kontrolle über die Vorlagenanpassung gibt und die Effizienz und Zuverlässigkeit Ihrer E-Mail-Kampagnen verbessert.
+Journey Optimizer ermöglicht es, Inhalte in E-Mail-Vorlagen zu sperren, entweder durch Sperren der gesamten Vorlage oder durch Sperren bestimmter Strukturen und Komponenten. Auf diese Weise werden unbeabsichtigte Bearbeitungen oder Löschungen verhindert, sodass Sie das Anpassen von Vorlagen besser steuern und die Effizienz sowie Zuverlässigkeit Ihrer E-Mail-Kampagnen optimieren können.
 
 >[!IMPORTANT]
 >
->Die Inhaltssperre ist eine Funktion auf Editor-Ebene für Autoren und garantiert nicht, dass der Inhalt beim Import oder bei der Erstellung über die API unbearbeitet bleibt.
+>Die Inhaltssperre ist eine Funktion auf Editor-Ebene für Autorinnen und Autoren und garantiert nicht, dass der Inhalt beim Importieren oder Erstellen über das API unbearbeitet bleibt.
 
-Inhaltssperren können entweder auf der Ebene **Struktur** oder auf der Ebene **Komponente** angewendet werden. Im Folgenden finden Sie die wichtigsten Prinzipien, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
+Die Inhaltssperre kann entweder auf **Struktur**- oder **Komponentenebene** angewendet werden. Im Folgenden werden die wichtigsten Prinzipien beschrieben, die auf Struktur- und Komponentenebene beim Sperren von Inhalten in Ihrer Vorlage gelten:
 
 * Wenn eine Struktur gesperrt ist:
 
@@ -95,9 +95,9 @@ Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt im E-Mail-Designer
    * [Erfahren Sie, wie Sie Strukturen sperren.](#lock-structures)
    * [Erfahren Sie, wie Sie Komponenten sperren.](#lock-components)
 
-   Wenn Sie den Modus **[!UICONTROL Schreibgeschützt]** ausgewählt haben, fahren Sie mit dem Fertigstellen und Speichern Ihrer Vorlage wie gewohnt fort.
+   Wenn Sie den Modus **[!UICONTROL Schreibgeschützt]** auswählen, stellen Sie Ihre Vorlage wie gewohnt fertig und speichern Sie sie.
 
-Sie können die Einstellungen für **[!UICONTROL Governance]** jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Hauptteil der Vorlage auswählen. Klicken Sie dazu auf den **[!UICONTROL Textkörper]** in der Navigationsleiste oben im rechten Bereich.
+Sie können die Einstellungen für **[!UICONTROL Governance]** jederzeit beim Entwerfen Ihrer Vorlage anpassen, indem Sie den Hauptteil der Vorlage auswählen. Klicken Sie dazu in der Navigationsleiste oben im rechten Bereich auf die Verknüpfung **[!UICONTROL Hauptteil]**.
 
 ![](assets/template-lock-body.png)
 
@@ -156,7 +156,7 @@ So sperren Sie eine bestimmte Komponente in einer Struktur:
 
 ### Identifizieren gesperrter Inhalte {#identify}
 
-Um gesperrte Strukturen und Komponenten in Ihrer Vorlage leicht zu identifizieren, verwenden Sie **[!UICONTROL Navigationsbaum]** im Menü links. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, indem gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol markiert sind.
+Verwenden Sie den **[!UICONTROL Navigationsbaum]** im Menü auf der linken Seite, um gesperrte Strukturen und Komponenten in Ihrer Vorlage einfach zu identifizieren. Dieses Menü bietet einen visuellen Überblick über alle Vorlagenelemente, indem gesperrte Elemente mit einem Sperrsymbol und bearbeitbare Elemente mit einem Bleistiftsymbol markiert sind.
 
 Im folgenden Beispiel ist „Governance“ für den Vorlagentext aktiviert. *Struktur 2* ist gesperrt, wobei *Komponente 1* bearbeitbar ist, während *Struktur 3* vollständig gesperrt ist.
 
@@ -173,16 +173,16 @@ Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich die M
 
 Je nachdem, welche Art der Sperrung auf die Vorlage angewendet ist, können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein.
 
-In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des oberen Bildes, das gesperrt wurde, sodass Sie es nicht bearbeiten oder entfernen können.
+In der folgenden Vorlage können beispielsweise alle Bereiche bearbeitet werden, mit Ausnahme des obersten Bildes, das gesperrt wurde. Das bedeutet, dass Sie es weder bearbeiten noch entfernen können.
 
 ![](assets/template-lock-highlight.png)
 
-Detaillierte Informationen zu den verschiedenen Sperrtypen, die angewendet werden können, finden Sie in den folgenden Abschnitten:
+Ausführliche Informationen zu den verschiedenen Arten von Sperren, die angewendet werden können, sind in diesen Abschnitten verfügbar:
 
 * [Sperren von Strukturen](#lock-structures)
 * [Sperren von Komponenten](#lock-components)
 
-Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehörigen Konfigurationen zum Sperren von Inhalten, die eingerichtet wurden:
+Hier finden Sie einige Beispiele für die Bearbeitung von E-Mails und die zugehörigen Konfigurationen für das Sperren von Inhalten, die eingerichtet wurden:
 
 | Art der Inhaltssperre | Vorlagenkonfiguration | Bearbeitung von E-Mails |
 | ------- | ------- | ------- |
@@ -196,4 +196,4 @@ Im Folgenden finden Sie einige Beispiele für E-Mail-Editionen und die zugehöri
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -8,10 +8,11 @@ role: Developer, Data Engineer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
-workflow-type: tm+mt
+exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
+source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -108,4 +109,4 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Wenn Sie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} oder [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.
+>Wenn Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} oder das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.

@@ -9,17 +9,17 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Anpassbare Fragmente {#customizable-fragments}
 
-Wenn Fragmente in einer Journey- oder Kampagnenaktion verwendet werden, sind sie aus Gründen der Vererbung standardmäßig gesperrt. Das bedeutet, dass alle an einem Fragment vorgenommenen Änderungen automatisch an alle Kampagnen und Journey weitergegeben werden, in denen das Fragment verwendet wird.
+Wenn Fragmente in einer Journey- oder Kampagnenaktion verwendet werden, sind sie aus Gründen der Vererbung standardmäßig gesperrt. Das bedeutet, dass alle an einem Fragment vorgenommenen Änderungen automatisch an alle Kampagnen und Journeys weitergegeben werden, in denen das Fragment verwendet wird.
 
-Mit **anpassbaren Fragmenten** können bestimmte Felder innerhalb eines Fragments als bearbeitbar definiert werden, wenn das Fragment zu einer Kampagne oder Journey-Aktion hinzugefügt wird. Angenommen, Sie verfügen über ein Fragment mit einem Banner, etwas Text und einer Schaltfläche. Sie können bestimmte Felder wie das Bild oder die Ziel-URL der Schaltfläche als bearbeitbar festlegen. Auf diese Weise können Benutzende diese Elemente ändern, wenn sie das Fragment in ihre Kampagne oder Journey integrieren. So wird ein benutzerdefiniertes Erlebnis ermöglicht, ohne dass das ursprüngliche Fragment beeinträchtigt wird.
+Mit **anpassbaren Fragmenten** können bestimmte Felder in einem Fragment als bearbeitbar definiert werden, wenn das Fragment einer Journey- oder Kampagnenaktion hinzugefügt wird. Angenommen, Sie verfügen über ein Fragment mit einem Banner, etwas Text und einer Schaltfläche. Sie können bestimmte Felder wie das Bild oder die Ziel-URL der Schaltfläche als bearbeitbar festlegen. Auf diese Weise können Benutzende diese Elemente ändern, wenn sie das Fragment in ihre Kampagne oder Journey integrieren. So wird ein benutzerdefiniertes Erlebnis ermöglicht, ohne dass das ursprüngliche Fragment beeinträchtigt wird.
 
 Bei anpassbaren Fragmenten muss die Fragmentvererbung nicht mehr unterbrochen werden. Dadurch wurde nämlich bislang verhindert, dass zentrale Änderungen auf Fragmentebene an die Kampagnen und Journeys weitergegeben wurden. Dieser Ansatz ermöglicht es, Inhaltsabschnitte zum Zeitpunkt der Verwendung anzupassen, und bietet zudem die Flexibilität, Standardwerte mit kontextspezifischen Details überschreiben zu können.
 
@@ -35,13 +35,13 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 
 >[!NOTE]
 >
->Bearbeitbare Felder können zu **Bild**-, **Text**- und **Schaltflächenkomponenten** hinzugefügt werden. Für **HTML**-Komponenten werden bearbeitbare Felder ähnlich wie Ausdrucksfragmente mithilfe des Personalisierungseditors hinzugefügt. [Erfahren Sie, wie Sie in HTML-Komponenten und Ausdrucksfragmenten bearbeitbare Felder hinzufügen](#expression)
+>Bearbeitbare Felder können zu **Bild**-, **Text**- und **Schaltflächenkomponenten** hinzugefügt werden. Für **HTML**-Komponenten werden bearbeitbare Felder ähnlich wie Ausdrucksfragmente mithilfe des Personalisierungseditors hinzugefügt. [Informationen zum Hinzufügen bearbeitbarer Felder in HTML-Komponenten und Ausdrucksfragmenten](#expression)
 
 1. Öffnen Sie den Bildschirm zur Inhaltsbearbeitung von Fragmenten.
 
 1. Wählen Sie die Komponente in Ihrem Fragment aus, für die Sie bearbeitbare Felder konfigurieren möchten.
 
-1. Der Bereich Komponenteneigenschaften wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und schalten Sie dann die Option **Bearbeitung aktivieren** um.
+1. Der Bereich der Komponenteneigenschaften wird auf der rechten Seite geöffnet. Wählen Sie die Registerkarte **Bearbeitbare Felder** aus und aktivieren Sie die Option **Bearbeitung aktivieren**.
 
 1. Alle Felder, die für die ausgewählte Komponente bearbeitet werden können, werden im Bereich aufgelistet. Welche Felder zur Bearbeitung verfügbar sind, hängt vom ausgewählten Komponententyp ab.
 
@@ -72,8 +72,8 @@ Im Falle von HTML-Komponenten können nur bestimmte Elemente zu bearbeitbaren Fe
 Die folgenden Elemente können in einer HTML-Komponente zu bearbeitbaren Feldern gemacht werden:
 
 * Textteile
-* Eine vollständige URL für einen Link oder ein Bild (funktioniert nicht bei Teilen einer URL)
-* Gesamte CSS-Eigenschaft (funktioniert nicht bei partieller Eigenschaft)
+* Eine vollständige URL für Links oder Bilder (funktioniert nicht mit einer Teil-URL)
+* Eine vollständige CSS-Eigenschaft (funktioniert nicht mit einer Teileigenschaft)
 
 Im folgenden Code kann beispielsweise jedes rot hervorgehobene Element zu einer Eigenschaft gemacht werden:
 
@@ -83,13 +83,13 @@ Im folgenden Code kann beispielsweise jedes rot hervorgehobene Element zu einer 
 
 Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragment zu verwenden:
 
-1. Öffnen Sie Ihr Ausdrucksfragment und bearbeiten Sie dann seinen Inhalt im Personalisierungseditor.
+1. Öffnen Sie das Ausdrucksfragment und bearbeiten Sie dann seinen Inhalt im Personalisierungseditor.
 
    ![](assets/fragment-html-edit.png)
 
    Wählen Sie für HTML-Komponenten die Komponente im Fragment aus und klicken Sie auf die Schaltfläche **Quell-Code anzeigen**.
 
-1. Deklarieren Sie die Variable, die benutzerseitig bearbeitet werden soll. Navigieren Sie im linken Navigationsbereich zum Menü **Hilfsfunktionen** und wählen Sie die Hilfsfunktion **inline** aus. Die Syntax zum Deklarieren und Aufrufen der Variablen wird automatisch in Ihren Inhalt eingefügt.
+1. Deklarieren Sie die Variable, die benutzerseitig bearbeitet werden soll. Navigieren Sie im linken Navigationsbereich zum Menü **Hilfsfunktionen** und wählen Sie die Hilfsfunktion **inline** aus. Die Syntax zum Deklarieren und Aufrufen der Variablen wird Ihrem Inhalt automatisch hinzugefügt.
 
    ![](assets/fragment-add-helper.png)
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragme
 
    | Aktion | Parameter | Beispiel |
    | ------- | ------- | ------- |
-   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Beim Hinzufügen des Fragments zu Ihrem Inhalt wird dieser Standardwert verwendet, wenn Sie ihn nicht anpassen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Wenn Sie das Fragment zu Ihrem Inhalt hinzufügen, wird dieser Standardwert verwendet, sofern Sie keine Anpassung vornehmen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Definieren eines **Titels** für das bearbeitbare Feld. Dieser Titel wird beim Bearbeiten von Fragmentfeldern im E-Mail-Designer angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **Bildquelle**, die veröffentlicht werden soll. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **URL**, die nachverfolgt werden soll.<br/>Beachten Sie, dass vordefinierte Bausteine vom Typ „Mirror-Seiten-URL“ und „Abmelde-Link“ nicht als bearbeitbare Felder festgelegt werden können. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -130,7 +130,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Deklarieren Sie eine „sport“-Variable mit der ID „sport“.
 
-   Wenn Benutzende den Wert der Variablen nach dem Hinzufügen des Fragments in ihrem Inhalt nicht ändern, wird standardmäßig der zwischen den Tags `{{#inline}}` und `{{/inline}}` definierte Wert angezeigt, d. h. „sports“.
+   Wenn Benutzende den Wert der Variablen nicht ändern, nachdem sie das Fragment zu ihren Inhalten hinzugefügt haben, wird standardmäßig der zwischen den Tags `{{#inline}}` und `{{/inline}}` definierte Wert angezeigt, d. h. „Sport“.
 
 1. Fügen Sie die Syntax ``{{{sport}}}`` in dem Fragmentinhalt dort hinzu, wo der Variablenwert angezeigt werden soll, d. h. standardmäßig „Sport“ oder der benutzerseitig gewählte Wert.
 
@@ -140,33 +140,33 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/fragment-expression-use.png)
 
-## Hinzufügen von Rich-Text zu einem anpassbaren Fragment {#rich-text}
+## Hinzufügen von Rich Text zu einem anpassbaren Fragment {#rich-text}
 
-Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
+Rich Text wie Zeilenumbrüche, fette oder kursive Formatierung usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 
-➡️ [In diesem Video erfahren Sie, wie Sie einem bearbeitbaren Fragment Rich-Text hinzufügen und verwenden](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie einem bearbeitbaren Fragment Rich Text hinzufügen und diesen verwenden](#video)
 
-### Erstellen eines Fragments mit Rich-Text {#add-rich-text}
+### Erstellen eines Fragments mit Rich Text {#add-rich-text}
 
 1. Erstellen Sie ein visuelles [Fragment](create-fragments.md) und beginnen Sie mit dem Hinzufügen von Komponenten.
 
-1. Fügen Sie eine [HTML-](../email/content-components.md#HTML) hinzu und öffnen Sie den HTML-Editor.
+1. Fügen Sie eine [HTML-Komponente](../email/content-components.md#HTML) hinzu und öffnen Sie den HTML-Editor.
 
-1. Navigieren Sie zum Menü **[!UICONTROL Hilfsfunktionen]** im linken Navigationsbereich und fügen Sie die Hilfsfunktion **inline** hinzu.
+1. Navigieren Sie im linken Navigationsbereich zum Menü **[!UICONTROL Hilfsfunktionen]** und wählen Sie die Hilfsfunktion **inline** aus.
 
-1. Ersetzen Sie `"name"` durch die ID, die Sie für Ihren bearbeitbaren Inhalt verwenden möchten, z. B. „EditableContent“.
+1. Ersetzen Sie `"name"` durch die ID, die Sie für Ihren bearbeitbaren Inhalt verwenden möchten, z. B. „EditableContent“.
 
-1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten standardmäßigen Rich-Content entspricht. Sie können fett, kursiv, Zeilenumbrüche, Aufzählungslisten usw. hinzufügen.
+1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten standardmäßigen Rich Content entspricht. Sie können fette oder kursive Formatierung, Zeilenumbrüche, Aufzählungslisten usw. hinzufügen.
 
    ![](assets/fragment-rich-editable-content.png)
 
-1. Fügen Sie innerhalb derselben HTML-Komponente eine weitere **inline**-Hilfsfunktion für Ihre Stilelemente hinzu.
+1. Fügen Sie innerhalb derselben HTML-Komponente eine weitere **Inline**-Hilfsfunktion für Ihre Stilelemente hinzu.
 
 1. Ersetzen Sie `"name"` und `render_content` durch die ID und den HTML-Code, die dem gewünschten Standardstil entsprechen.
 
    ![](assets/fragment-rich-editable-styling.png)
 
-1. Speichern Sie Ihre Inhalte. Die ausgewählten bearbeitbaren Felder werden auf der rechten Seite angezeigt.
+1. Speichern Sie Ihren Inhalt. Die ausgewählten bearbeitbaren Felder werden auf der rechten Seite angezeigt.
 
    ![](assets/fragment-rich-editable-fields.png)
 
@@ -174,24 +174,24 @@ Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponen
 
 ### Verwenden von bearbeitbaren Rich-Text-Fragmenten {#use-rich-text}
 
-Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzerinnen und Benutzer jetzt den von Ihnen erstellten Rich-Text-Inhalt und die Formatierung bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente als Marketing-Experten zu verwenden.
+Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt den von Ihnen erstellten Rich-Text-Inhalt und -Stil bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente als Marketing-Fachkraft zu verwenden.
 
-1. [Erstellen Sie eine E](../email/create-email.md)Mail in einer Kampagne oder einer Journey und fügen Sie dann das Fragment mit dem zuvor [erstellten](#add-rich-text) Rich-Text hinzu.
+1. [Erstellen Sie eine E-Mail](../email/create-email.md) in einer Kampagne oder einer Journey und fügen Sie dann das Fragment mit dem zuvor [erstellten](#add-rich-text) Rich Text hinzu.
 
    Sie können die beiden bearbeitbaren Felder sehen, die auf der rechten Seite erstellt wurden.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Sie können auf **[!UICONTROL Inhalt simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Erfahren Sie mehr über die Vorschau von Inhalten](preview-test.md)
+1. Sie können auf **[!UICONTROL Inhalte simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Informationen zur Vorschau von Inhalten](preview-test.md)
 
-1. Wählen Sie das **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus.
+1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus.
 
-1. Aktualisieren Sie im sich öffnenden Personalisierungseditor die <!--CSS-->Formatierung und/oder Inhalte nach Bedarf, indem Sie Elemente des bearbeitbaren Felds hinzufügen oder entfernen.
+1. Aktualisieren Sie im sich öffnenden Personalisierungseditor den <!--CSS-->Stil und/oder die Inhalte nach Bedarf, indem Sie Elemente des bearbeitbaren Felds hinzufügen oder entfernen.
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Anleitungsvideo {#video}
 
-In diesem Video wird gezeigt, wie Sie HTML-Komponenten innerhalb eines Fragments bearbeitbar machen können, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
+In diesem Video erfahren Sie, wie Sie HTML-Komponenten in einem Fragment bearbeitbar machen, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

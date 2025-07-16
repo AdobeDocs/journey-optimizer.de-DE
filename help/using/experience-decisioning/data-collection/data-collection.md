@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 86%
 
 Sie können Feedback zu Angebotsentscheidungen in Adobe Experience Platform erfassen, einschließlich der angezeigten Angebote und der Benutzerinteraktion mit ihnen. Diese Daten können für Folgendes verwendet werden:
 
-* Erstellen [Entscheidungsberichten](../cja-reporting.md);
-* Verwenden von [Begrenzungs](../items.md#capping)Regeln;
+* Erstellen von [Entscheidungsberichten](../cja-reporting.md);
+* Verwenden von Regeln zur [Begrenzung](../items.md#capping);
 * Erstellen von [KI-Modellen](../ranking/ai-models.md), die als Ranking-Methode verwendet werden können.
 
 ## Ereignistypen
@@ -31,7 +31,7 @@ Die Art der Datenerfassung variiert je nach Ereignistyp, der erfasst werden soll
 
 ### Entscheidungsereignisse
 
-Jedes Mal, wenn Decisioning eine Entscheidung trifft, werden Informationen zu diesem Entscheidungsereignis **automatisch** an Adobe Experience Platform gesendet. <!--TBC + link-->
+Jedes Mal, wenn die Entscheidungsfindung eine Entscheidung trifft, werden Informationen zu diesem Entscheidungsereignis **automatisch** an Adobe Experience Platform gesendet. <!--TBC + link-->
 
 ### Impressions- und Klickereignisse
 
@@ -47,9 +47,9 @@ Feedback zu Impressions und Klicks wird je nach verwendetem [!DNL Journey Optimi
 
 Allerdings müssen bei den **meisten Kanälen** Impressions- und Klick-Daten als ein **Erlebnisereignis** an Adobe Experience Platform gesendet werden. Dazu gehören:
 
-* Web-Seiten, die die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden
+* Web-Seiten, die das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden
 
-* Mobile Apps, die die [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden - [Weitere Informationen](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Apps, die das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} zum Rendern von Angeboten verwenden ([Weitere Informationen](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"})
 * Kiosks
 * Nachrichten, die über Anwendungen von Drittanbietern gesendet werden
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

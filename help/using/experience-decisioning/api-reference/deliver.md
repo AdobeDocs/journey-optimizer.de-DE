@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals {#deliver}
 
-Experience Decisioning ist heute über den Code-basierten Erlebniskanal verfügbar.
+Die Erlebnis-Entscheidung ist jetzt über den Code-basierten Erlebniskanal verfügbar.
 
 Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung:
 
@@ -25,5 +25,5 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung:
 
 Detaillierte Informationen zu den verschiedenen Implementierungsmethoden finden Sie im Handbuch zu Code-basierten Kanälen. In diesem Handbuch finden Sie Details zu den einzelnen Implementierungsmethoden sowie Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente.
 
-➡️ [Erfahren Sie mehr über Code-basierte Implementierungsmethoden](../../code-based/code-based-implementation-samples.md)
+➡️ [Weitere Informationen zu Code-basierten Implementierungsmethoden](../../code-based/code-based-implementation-samples.md)
 

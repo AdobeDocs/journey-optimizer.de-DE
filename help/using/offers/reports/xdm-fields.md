@@ -1,15 +1,15 @@
 ---
 title: Zugriff auf XDM-Felder von Ereignissen
 description: Erfahren Sie mehr über das DecisioningEvents-XDM-Schema.
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 role: User, Data Engineer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

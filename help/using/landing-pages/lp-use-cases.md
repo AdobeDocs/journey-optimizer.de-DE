@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Lan
 
 ![](assets/lp_subscription-uc.png)
 
-Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnement-Liste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
+Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfängerinnen und Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnement-Liste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
 
 ### Einrichten einer Landingpage {#set-up-lp}
 
@@ -157,13 +157,13 @@ Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolg
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-Auf der Registerkarte **[!UICONTROL Attribute]** können Sie sehen, dass der Wert für **[!UICONTROL Auswahl]** auf **[!UICONTROL Nein]** geändert wurde.
+Auf der Registerkarte **[!UICONTROL Attribute]** können Sie sehen, dass der Wert für **[!UICONTROL Auswahl]** in **[!UICONTROL Nein]** geändert wurde.
 
 Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeichert. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}**[!UICONTROL Profiles]**-Zusammenführungsrichtlinie **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den **[!UICONTROL AJO Consent Service-Datensatz]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
+>Wenn die Zusammenführungsmethode Ihrer standardmäßigen Zusammenführungsrichtlinie für [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}-**[!UICONTROL Profile]** **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den **[!UICONTROL AJO-Einverständnisdienst-Datensatz]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 

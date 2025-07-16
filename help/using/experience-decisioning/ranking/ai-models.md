@@ -6,10 +6,11 @@ description: Erfahren Sie mehr über KI-Modelle, mit denen Angebote nach Rang ge
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 07679823-2288-4528-b09a-12fd76a69482
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +42,7 @@ In [!DNL Journey Optimizer] sind zwei Arten von KI-Modellen verfügbar:
 
 ## Erstellen eines KI-Modells {#create-ai-model}
 
-Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
+Die wichtigsten Schritte, um KI-Modelle erstellen und verwenden zu können:
 
 1. Erstellen Sie einen Datensatz, in dem Konversions- und Impression-Ereignisse erfasst werden. [Weitere Informationen](../data-collection/create-dataset.md)
 
@@ -51,6 +52,6 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
    >[!IMPORTANT]
    >
-   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung bei Entscheidungen](../data-collection/data-collection.md)
+   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung bei der Entscheidungsfindung](../data-collection/data-collection.md)
 
-1. Weisen Sie das KI-Modell einer Auswahlstrategie zu, um die geeigneten Angebote zu reihen. [Weitere Informationen](../selection-strategies.md#select-ranking-method)
+1. Weisen Sie das KI-Modell einer Auswahlstrategie zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../selection-strategies.md#select-ranking-method)

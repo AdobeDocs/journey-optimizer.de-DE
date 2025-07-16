@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Eine wichtige Voraussetzung für das Einrichten von [!DNL Journey Optimizer]-Ere
 
 >[!CAUTION]
 >
->Die Suche nach Erlebnisereignissen in Journey-Bedingungen wird nicht mehr unterstützt. Hier finden Sie alternative Best Practices. Wenn Sie einen Journey-Anwendungsfall haben, der eine Suche nach Erlebnisereignissen erfordert und nicht durch eine der aufgelisteten Alternativen unterstützt werden kann, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Wir helfen Ihnen, Ihr Ziel zu erreichen.
+>Die Suche nach Erlebnisereignissen in Journey-Bedingungen wird nicht mehr unterstützt. Hier finden Sie alternative Best Practices. Wenn Ihnen ein durch ein Ereignis ausgelöster Journey-Anwendungsfall vorliegt, der immer noch die Suche nach Erlebnisereignissen erfordert und nicht durch eine der aufgelisteten Alternativen ausgeführt werden kann, wenden Sie sich an den Adobe-Support. Wir helfen Ihnen, Ihr Ziel zu erreichen.
 >
 >Der Zugriff auf den Kontext vom Startereignis einer Journey ist nicht betroffen.
 
@@ -49,7 +49,7 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
   ![](assets/schema4.png)
 
-* Wenn diese Daten für das Profil verfügbar sein sollen, markieren Sie das Schema und den Datensatz für das Profil. [Weitere Informationen](../data/lookup-aep-data.md)
+* Damit diese Daten später für ein Profil verfügbar sind, markieren Sie das Schema und den Datensatz für das Profil. [Weitere Informationen](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

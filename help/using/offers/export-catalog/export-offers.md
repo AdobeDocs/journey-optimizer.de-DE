@@ -1,16 +1,16 @@
 ---
 title: Datensatz für personalisierte Angebote
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Angebote verwendet werden
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1963'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,6 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
      **Beispiel:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Sprache**
-
      **Feld:** language
      **Titel:** Sprache
      **Beschreibung:** Die Sprache(n) der Ressource. \nLanguages werden im Sprachen-Code spezifiziert, wie in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) definiert, was Teil von BCP 47 ist, das an anderer Stelle in XDM verwendet wird.

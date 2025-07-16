@@ -9,9 +9,9 @@ level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
-Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
+Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich an den Adobe-Support mit der Subdomain, deren Delegierung Sie aufheben möchten.
 
 <!--
 1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
@@ -161,6 +161,6 @@ Wenn Sie die Delegierung einer Web-Subdomain aufheben möchten, wenden Sie sich 
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-Wenn die Web-Subdomain eine [neue delegierte Subdomain](#web-configure-new-subdomain) war, können Sie den CNAME-DNS-Eintrag, den Sie für die Web-Subdomain erstellt haben, aus Ihrer Hosting-Lösung löschen (aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
+Wenn die Web-Subdomain eine [neue delegierte Subdomain](#web-configure-new-subdomain) war, können Sie den für die Web-Subdomain erstellten CNAME-DNS-Eintrag aus Ihrer Hosting-Lösung löschen (löschen Sie aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 
-Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Inventarseite angezeigt.

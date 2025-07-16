@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    >[!CAUTION]
    >
-   >Verwenden Sie keine `cdn` oder `data` Präfixe, da diese für die interne Verwendung reserviert sind. Andere eingeschränkte oder reservierte Präfixe wie `dmarc` oder `spf` sollten ebenfalls vermieden werden.
+   >Verwenden Sie die Präfixe `cdn` und `data` nicht, da diese für die interne Verwendung reserviert sind. Andere eingeschränkte oder reservierte Präfixe wie `dmarc` oder `spf` sollten ebenfalls vermieden werden.
 
 1. Wählen Sie aus der Liste eine delegierte Subdomain aus.
 
@@ -139,16 +139,16 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
 
-Wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten, führen Sie die folgenden Schritte aus.
+Gehen Sie wie folgt vor, wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten.
 
-1. Heben Sie [!DNL Journey Optimizer] die Veröffentlichung aller mit der Subdomain verknüpften Landingpages auf. [Weitere Informationen](create-lp.md#access-landing-pages)
+1. Heben Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages in [!DNL Journey Optimizer] auf. [Weitere Informationen](create-lp.md#access-landing-pages)
 
-1. Wenn die Landingpage-Subdomain auf einen CNAME-Eintrag verweist, können Sie den CNAME-DNS-Eintrag, den Sie für die Landingpage-Subdomain erstellt haben, aus Ihrer Hosting-Lösung löschen (aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
+1. Wenn die Landingpage-Subdomain auf einen CNAME-Eintrag verweist, können Sie den für die Landingpage-Subdomain erstellten CNAME-DNS-Eintrag aus Ihrer Hosting-Lösung löschen (löschen Sie aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 
    >[!NOTE]
    >
    >Eine Landingpage-Subdomain kann auf einen CNAME-Eintrag verweisen, da es sich entweder um eine [vorhandene Subdomain](#lp-use-existing-subdomain) handelte, die mithilfe der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde, oder um eine [neue Landingpage-Subdomain](#lp-configure-new-subdomain), die Sie konfiguriert haben.
 
-1. Wenden Sie sich mit der Subdomain, deren Delegierung Sie aufheben möchten, an den Adobe-Support.
+1. Wenden Sie sich an den Adobe-Support mit der Subdomain, deren Delegierung Sie aufheben möchten.
 
-Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Inventarseite angezeigt.

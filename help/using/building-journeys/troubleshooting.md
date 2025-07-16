@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fehlerbehebung vor dem Testen oder Veröffentlichen des Journey
-description: Erfahren Sie, wie Sie Fehler beheben können, bevor Sie Ihren Journey testen oder veröffentlichen
+title: Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
+description: Informationen zum Beheben von Fehlern vor dem Testen oder Veröffentlichen der Journey
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,25 +10,25 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Fehlerbehebung vor dem Testen des Journey {#troubleshooting}
+# Fehlerbehebung vor dem Testen der Journey {#troubleshooting}
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können.  Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen zum Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-Erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, prüfen, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden [auf dieser Seite](troubleshooting-execution.md).
+[Auf dieser Seite](troubleshooting-execution.md) erfahren Sie, wie Sie Fehler bei Journey-Ereignissen beheben und wie Sie prüfen, ob Profile in Ihre Journey eingetreten sind, wie sie diese durchlaufen und ob Nachrichten gesendet werden.
 
-Wenn Sie eingehende Aktionen verwenden, erfahren Sie auf [ Seite ](troubleshooting-inbound.md), wie Sie diese beheben können.
+[Auf dieser Seite](troubleshooting-inbound.md) erfahren Sie, wie Sie Fehler bei eingehenden Aktionen beheben.
 
 ## Fehler in Aktivitäten {#activity-errors}
 
 Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
 
-Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Bei Auswahl der Aktivität sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Zum Beispiel:
+Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Wenn Sie die Aktivität auswählen, sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Beispiel:
 
 * wird ein Fehler angezeigt, wenn ein Pflichtfeld leer ist.
 

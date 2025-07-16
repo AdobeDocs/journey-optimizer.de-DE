@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1796'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Um den Besucherinnen und Besuchern auf Ihrer Website oder in Ihrer App das beste
 
    ![](assets/decision-code-based-create.png)
 
-   Auf dem Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie auch direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Decisioning]** anzuzeigen.
+   Auf dem Bearbeitungsbildschirm der Journey oder Kampagne können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Entscheidungsfindung]** anzuzeigen.
 
    ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 

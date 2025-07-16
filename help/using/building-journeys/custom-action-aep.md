@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Nachdem Sie Ihr Projekt in der Adobe Developer Console erstellt haben, müssen Sie Entwickelnden und der API die richtigen Zugriffsrechte erteilen. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Nachdem Sie Ihr Projekt in der Adobe Developer Console erstellt haben, müssen Sie Entwickelnden und der API die richtigen Zugriffsrechte erteilen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}.
 
-## Konfigurieren der Quelle mithilfe des HTTP-API-Inlets
+## Konfigurieren der Quelle mit dem HTTP-API-Inlet
 
 1. Erstellen Sie einen Endpunkt in Adobe Experience Platform, um die Daten aus Journeys zu schreiben.
 
@@ -49,7 +49,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. Wählen Sie **Neues Konto** aus und aktivieren Sie die Authentifizierung. Wählen Sie **Mit Source verbinden** aus.
+1. Wählen Sie **Neues Konto** aus und aktivieren Sie die Authentifizierung. Wählen Sie **Mit der Quelle verbinden** aus.
 
    ![](assets/custom-action-aep-4.png)
 

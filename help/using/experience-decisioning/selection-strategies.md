@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Si
 
 ### Angebotspriorität {#offer-priority}
 
-Wenn in einer Entscheidungsrichtlinie mehrere Angebote geeignet sind, werden standardmäßig zuerst die Elemente mit der höchsten **Priorität** an die Kunden gesendet.
+Wenn mehrere Angebote in einer Entscheidungsrichtlinie geeignet sind, werden standardmäßig zuerst die Elemente mit der höchsten **Priorität** an die Kundinnen und Kunden gesendet.
 
 ![](assets/item-priority.png){width=85%}
 

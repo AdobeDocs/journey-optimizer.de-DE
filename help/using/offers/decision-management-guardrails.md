@@ -1,15 +1,15 @@
 ---
 title: Leitlinien und Einschränkungen für das Entscheidungs-Management
 description: Erfahren Sie mehr über die Leitlinien und Einschränkungen für das Entscheidungs-Management.
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 | Maximale Größe der PQL-Regel | 15.000 (UTF-8) |
 | Maximale Anzahl an Verschachtelungsebenen | 30 |
 
-## Rangfolgeformeln
+## Rangfolgenformeln
 
 | Leitplanke | Limit |
 | ------- | ------- |

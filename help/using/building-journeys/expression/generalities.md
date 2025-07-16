@@ -9,15 +9,15 @@ level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Syntax des erweiterten Ausdruckseditors {#syntax}
 
-Die Syntaxgrundlagen bei Verwendung des [erweiterten Ausdruckseditors](expressionadvanced.md) sind unten aufgeführt. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
+Die Grundlagen der Syntax bei der Verwendung des [erweiterten Ausdruckseditors](expressionadvanced.md) sind nachfolgend aufgeführt. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Klammern und Priorität von Ausdrücken {#parentheses-and-expression-priority}
 

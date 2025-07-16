@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '711'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Er ist auch immer dann verfügbar, wenn Sie Aktionsparameter definieren müssen,
 ![](../assets/journey65.png)
 
 
-Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des externen Datenquellenparameters definieren und Zuordnungsfelder und Sammlungen bearbeiten.
+Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Sammlungen bearbeiten.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Auf der linken Bildschirmseite werden die verfügbaren Felder und Funktionen ang
 
   >[!CAUTION]
   >
-  >Das Erstellen von Ausdrücken mithilfe von Erlebnisereignissen wird nicht unterstützt. Alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logik mit Erlebnisereignissen werden [hier](../../building-journeys/exp-event-lookup.md)
+  >Das Erstellen von Ausdrücken mithilfe von Erlebnisereignissen wird nicht unterstützt. Alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logik mit Erlebnisereignissen sind [hier](../../building-journeys/exp-event-lookup.md) zu finden
 
 * **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder aus, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../../datasource/about-data-sources.md)

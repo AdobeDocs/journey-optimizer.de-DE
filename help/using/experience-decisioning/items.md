@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 
 * Um die Präsentation des Entscheidungselements auf die Mitglieder einer oder mehrerer Adobe Experience Platform-Zielgruppen zu beschränken, wählen Sie die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]** aus, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
-* Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Erfahren Sie mehr über Entscheidungsregeln](rules.md)
+* Um eine bestimmte Entscheidungsregel mit dem Entscheidungselement zu verknüpfen, wählen Sie **[!UICONTROL Nach Regel]** aus und ziehen Sie dann die gewünschte Regel aus dem linken Bereich in den zentralen Bereich. [Weitere Informationen zu Entscheidungsregeln](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -121,7 +121,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Element für die gesamte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzenden. Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
-   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Wenn Sie z. B. eine Bank mit einem „Platin-Kreditkartenangebot“ sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Ein Beispiel: Sie sind eine Bank, die eine Platin-Kreditkarte anbietet, und dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Es wird angenommen, dass Benutzende, die das Angebot fünfmal gesehen und nicht darauf reagiert haben, eher das nächste beste Angebot nutzen.
 
 1. Geben Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** an, wie oft das Angebot allen Benutzenden oder pro Profil präsentiert werden kann, je nach gewählter Begrenzungsart. Der Wert muss eine Ganzzahl größer 0 sein.
 

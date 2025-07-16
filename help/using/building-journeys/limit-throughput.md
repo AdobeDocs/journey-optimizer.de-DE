@@ -9,9 +9,9 @@ level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Dies kann auf folgende Arten erfolgen:
 >
 >Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
-Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journey und bis zu 20.000 Instanzen/Sekunde für zielgruppengesteuerte Instanzen.
+Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journeys und bis zu 20.000 Instanzen/Sekunde für durch Zielgruppen ausgelöste Journeys.
 
 Für benutzerdefinierte Aktionen sind Einschränkungsfunktionen auf Produktebene verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/external-systems.md#capping).
 
@@ -54,7 +54,7 @@ Sie können diesen Wert von 500 bis 20.000 Instanzen pro Sekunde einstellen. Wen
 
 ![](assets/limit-throughput-2.png)
 
-Nehmen wir das Beispiel einer **zielgruppengesteuerten Journey** die mit einer Population von **10.000 Profilen arbeitet** Daten an ein externes System sendet, das **100 Anfragen/Sekunde** unterstützt.
+Nehmen wir das Beispiel einer **durch Zielgruppen ausgelösten Journey** mit einer Population von **10.000 Profilen**, die Daten an ein externes System sendet, das **100 Anfragen/Sekunde** unterstützt.
 
 1. Sie können die Aktivität „Zielgruppe lesen“ definieren, um Profile mit einem Durchsatz von 500 Profilen/Sekunde zu lesen. Somit wird es 20 Sekunden dauern, um alle Ihre Profile zu lesen. Während der ersten Sekunde werden Sie 500 davon lesen, während der zweiten 500 weitere und so weiter.
 

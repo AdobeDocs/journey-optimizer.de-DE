@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
+>Weitere Informationen zum Erstellen von Schemata finden Sie in den [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
 
-Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wie folgt vor:
+Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie aus dem Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus und navigieren Sie zur Registerkarte **[!UICONTROL Durchsuchen]**.
 
@@ -71,4 +71,4 @@ Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wi
 
 >[!NOTE]
 >
->Dieser Datensatz kann jetzt ausgewählt werden, um Ereignisdaten beim Erstellen eines [KI-Modells](../ranking/create-ai-models.md) zu erfassen.
+>Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn ein [KI-Modell](../ranking/create-ai-models.md) erstellt wird.

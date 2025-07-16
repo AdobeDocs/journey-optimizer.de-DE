@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie im linken Menü **
 
 ![](assets/content-template-list.png)
 
-Alle in der aktuellen Sandbox erstellten Vorlagen - entweder von einer Journey oder einer Kampagne, die die Option **[!UICONTROL Als Vorlage speichern]** verwendet, oder über das Menü **[!UICONTROL Inhaltsvorlagen]** - werden angezeigt. [Erfahren Sie, wie Sie Vorlagen erstellen.](#create-content-templates)
+Es werden alle Vorlagen angezeigt, die in der aktuellen Sandbox erstellt wurden (entweder aus einer Journey oder einer Kampagne mithilfe der Option **[!UICONTROL Als Vorlage speichern]**, oder über das Menü **[!UICONTROL Inhaltsvorlagen]**). [Erfahren Sie, wie Sie Vorlagen erstellen.](#create-content-templates)
 
 Im Bereich auf der linken Seite können Sie Inhaltsvorlagen in Ordnern organisieren. Standardmäßig werden alle Vorlagen angezeigt. Bei der Auswahl eines Ordners werden nur die Vorlagen und Ordner angezeigt, die im ausgewählten Ordner enthalten sind. [Weitere Informationen](#folders)
 
@@ -37,21 +37,21 @@ Inhaltsvorlagen können nach folgenden Kriterien sortiert werden:
 * Erstellungs- oder Änderungsdatum
 * Tags – [Weitere Informationen zu Tags](../start/search-filter-categorize.md#tags)
 
-Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden sollen.
+Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden.
 
 ![](assets/content-template-list-filters.png)
 
 >[!NOTE]
 >
->Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
+>Seit März 2025 werden HTML-Inhaltsvorlagen nicht mehr unterstützt. Sie können weiterhin auf bestehende HTML-Inhaltsvorlagen zugreifen, die zuvor in [!DNL Journey Optimizer] erstellt wurden.
 
 ## Verwalten von Inhaltsvorlagen mit Ordnern {#folders}
 
-Verwenden Sie Ordner, um Ihre Inhaltsvorlagen einfach zu navigieren und sie effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihres Unternehmens kategorisieren und verwalten.
+Verwenden Sie zum einfachen Navigieren in Ihren Inhaltsvorlagen Ordner, um die Inhaltsvorlagen effektiver in einer strukturierten Hierarchie zu organisieren. Auf diese Weise können Sie die Elemente entsprechend den Anforderungen Ihrer Organisation kategorisieren und verwalten.
 
 ![](assets/content-template-folders.png)
 
-1. Klicken Sie auf **[!UICONTROL Alle Inhaltsvorlagen]**, um alle zuvor erstellten Elemente ohne Ordnergruppierung anzuzeigen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Alle Inhaltsvorlagen]**, um alle zuvor erstellten Elemente ohne Ordnergruppierung anzuzeigen.
 
 1. Klicken Sie auf den **[!UICONTROL Stammordner]**, um alle erstellten Ordner anzuzeigen.
 
@@ -75,7 +75,7 @@ Verwenden Sie Ordner, um Ihre Inhaltsvorlagen einfach zu navigieren und sie effe
 
    ![](assets/content-template-folder-moved.png)
 
-1. Navigieren Sie zu dem soeben erstellten Ordner . Jede neue Inhaltsvorlage, die Sie hier [erstellen](create-content-templates.md), wird im aktuellen Ordner gespeichert.
+1. Navigieren Sie zum Ordner, den Sie gerade erstellt haben. Jede neue Inhaltsvorlage, die Sie hier [erstellen](create-content-templates.md), wird im aktuellen Ordner gespeichert.
 
    ![](assets/content-template-folder-create.png)
 
@@ -105,13 +105,13 @@ Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorla
 
 >[!NOTE]
 >
->Richtige Miniaturen können nur für E-Mail-Inhaltsvorlagen vom Typ HTML generiert werden.
+>Richtige Miniaturansichten können nur für HTML-Inhaltsvorlagen von E-Mails generiert werden.
 
-Warten Sie beim Aktualisieren des Inhalts einige Sekunden, bis die Änderungen in der Miniaturansicht angezeigt werden.
+Warten Sie nach dem Aktualisieren des Inhalts einige Sekunden, bis die Änderungen in der Miniaturansicht angezeigt werden.
 
 ## Exportieren von Inhaltsvorlagen in eine andere Sandbox {#export}
 
 Mit Journey Optimizer können Sie eine Inhaltsvorlage von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Vorlage aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren.
 
-Der Kopiervorgang wird über einen **Package-Export und -Import** zwischen der Quell- und Ziel-Sandbox ausgeführt. Detaillierte Informationen zum Exportieren von Objekten und Importieren in eine Ziel-Sandbox finden Sie in diesem Abschnitt: [Objekte in eine andere Sandbox kopieren](../configuration/copy-objects-to-sandbox.md)
+Der Kopiervorgang wird über einen **Paket-Export und -Import** zwischen der Quell- und Ziel-Sandbox durchgeführt. Detaillierte Informationen darüber, wie Sie Objekte exportieren und in eine Ziel-Sandbox importieren, finden Sie in diesem Abschnitt: [Kopieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)
 

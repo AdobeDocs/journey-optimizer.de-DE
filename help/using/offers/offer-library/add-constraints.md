@@ -1,16 +1,16 @@
 ---
 title: Hinzufügen von Einschränkungen zu Angeboten
 description: Erfahren Sie, wie Sie Bedingungen für ein anzuzeigendes Angebot definieren
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2718'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -229,7 +229,7 @@ Sie können festlegen, ob die Begrenzung auf alle Benutzerinnen und Benutzer ode
 
 * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
 
-  Wenn Sie z. B. eine Bank mit einem „Platin-Kreditkartenangebot“ sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+  Ein Beispiel: Sie sind eine Bank, die eine Platin-Kreditkarte anbietet, und dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Es wird angenommen, dass Benutzende, die das Angebot fünfmal gesehen und nicht darauf reagiert haben, eher das nächste beste Angebot nutzen.
 
 ### Begrenzungsanzahl {#capping-count}
 
@@ -269,7 +269,7 @@ Jede Hub-Region ist mit einer oder mehreren Edge-Regionen verbunden. Frequenzbeg
 * Wenn es eine passende Regel gibt, wird der Frequenzbegrenzungszähler des Profils erhöht.
 * Andernfalls wird kein Zähler für das Profil erstellt und die Frequenzbegrenzungsregel gilt nicht. Folglich erhält das Profil auch dann weiterhin personalisierte Angebote, wenn die Begrenzungsschwelle überschritten wird.
 
-Betrachten wir beispielsweise die Hub-Region Ihres Unternehmens als *NLD2* und Sie senden eine Entscheidungsanfrage aus Europa (*IRL1* Edge-Region). In diesem Szenario erhöht die Entscheidungsanfrage den Zähler des Profils, da die Regeln in der Region *IRL1* (Irland) verfügbar sind. Wenn die Entscheidungsanfrage jedoch aus einer Region wie Japan (*JPN3*) stammt, bei der es sich nicht um eine an die Hub-Region *NLD2* (Niederlande) gebundene Edge-Region handelt, wird kein Zähler erstellt und die Frequenzbegrenzungsregeln werden nicht durchgesetzt.
+Nehmen wir beispielsweise an, die Hub-Region Ihres Unternehmens ist *NLD2* und Sie senden eine Entscheidungsanfrage aus Europa (Edge-Region *IRL1*). In diesem Szenario erhöht die Entscheidungsanfrage den Zähler des Profils, da die Regeln in der Region *IRL1* (Irland) verfügbar sind. Wenn die Entscheidungsanfrage jedoch aus einer Region wie Japan (*JPN3*) stammt, bei der es sich nicht um eine an die Hub-Region *NLD2* (Niederlande) gebundene Edge-Region handelt, wird kein Zähler erstellt und die Frequenzbegrenzungsregeln werden nicht durchgesetzt.
 
 >[!NOTE]
 >

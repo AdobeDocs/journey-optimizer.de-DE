@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** ke
 
      ![](assets/profileupdate4.png)
 
-   * Wenn Sie einen bestimmten Wert definieren oder erweiterte Funktionen nutzen möchten, wählen Sie **Erweiterter Modus**.
+   * Wenn Sie einen bestimmten Wert definieren oder erweiterte Funktionen nutzen möchten, wählen Sie **Erweiterter Modus** aus.
 
      ![](assets/profileupdate3.png)
 

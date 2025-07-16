@@ -1,16 +1,16 @@
 ---
 title: Erstellen von Simulationen
 description: Erfahren Sie, wie Sie simulieren können, welche Angebote für eine bestimmte Platzierung zugestellt werden, um Ihre Entscheidungslogik zu validieren
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -215,5 +215,5 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
    >[!NOTE]
    >
-   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der Dokumentation zu [Adobe Experience Platform-APIs&rbrace; erfahren Sie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} wie Sie diese Werte abrufen können.
+   >Wenn Sie die Anfrage- oder Antwort-Payloads in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der Dokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} erfahren Sie, wie Sie diese Werte abrufen können.
 

@@ -11,9 +11,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,37 +21,37 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung.
+>Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung.
 >
 >Um diese Funktion verwenden zu können, müssen Sie zunächst die Bedingungen der Beta-Version für Ihre Organisation akzeptieren, die beim Hinzufügen der neuen Hilfsfunktionen „datasetLookup“ im Personalisierungseditor angezeigt werden.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Dazu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
 
 ## Einschränkungen und Richtlinien der Beta-Version {#guidelines}
 
 Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
 
-* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung auf den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
+* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung bei den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
 * **Fragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten oder visuellen Fragmenten platziert werden.
 
 ### Entscheidungsfindung {#decisioning}
 
-Die Möglichkeit, [!DNL Adobe Experience Platform] Datensätze in Ranking-Formeln und -Regeln für Experience Decisioning zu nutzen, wird in Kürze verfügbar sein.
+Die Möglichkeit, [!DNL Adobe Experience Platform]-Datensätze in Rangfolgenformeln und Regeln für die Erlebnis-Entscheidung zu nutzen, ist in Kürze verfügbar.
 
-Überprüfen Sie in der Zwischenzeit die unten beschriebenen aktuellen Leitplanken:
+Beachten Sie in der Zwischenzeit die unten beschriebenen aktuellen Leitlinien:
 
 * Eine Entscheidungsrichtlinie ist auf drei Datensätze beschränkt.
-* Eine Entscheidungsregel kann drei Datensätze verwenden,
-* Eine Rangfolgenformel kann drei Datensätze verwenden,
-* Eine Entscheidungsrichtlinie ist auf 1.000 Datensatzabfragen beschränkt.
+* Eine Entscheidungsregel kann drei Datensätze verwenden.
+* Eine Rangfolgenformel kann drei Datensätze verwenden.
+* Eine Entscheidungsrichtlinie ist auf 1.000 Eintragsabfragen beschränkt.
 
 >[!NOTE]
 >
->Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff auf diese Funktion wünschen
+>Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff auf diese Funktion wünschen
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
-Um Daten aus Ihrem Datensatz für die Personalisierung zu nutzen, müssen Sie einen API-Aufruf verwenden, um den Status abzurufen und den Suchdienst zu aktivieren. Detaillierte Informationen finden Sie in diesem Abschnitt: [Nutzen Sie Adobe Experience Platform-Datensätze in [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
+Um Daten aus Ihrem Datensatz für die Personalisierung nutzen zu können, müssen Sie einen API-Aufruf verwenden, der den Status abruft und den Suchdienst aktiviert. Detaillierte Informationen finden Sie in diesem Abschnitt: [Nutzen von Adobe Experience Platform-Datensätzen in [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
 
 ## Verwenden eines Datensatzes für die Personalisierung {#leverage}
 
@@ -84,11 +84,11 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    +++Wo kann ich eine Datensatz-ID abrufen?
 
-   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Wie Sie mit Datensätzen arbeiten, erfahren Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} erfahren Sie, wie Sie mit Datensätzen arbeiten.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
@@ -115,11 +115,11 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      +++Wo kann ich eine Feld-ID abrufen?
 
-     IDs für Felder können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Erfahren Sie in der Dokumentation zu [Adobe Experience Platform, wie Sie eine Vorschau von Datensätzen anzeigen können](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     IDs für Felder können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} erfahren Sie, wie Sie eine Vorschau von Datensätzen anzeigen.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    In diesem Beispiel möchten wir Informationen über die Einstiegszeit und den Flugsteig der Fluggäste verwenden. Fügen Sie daher die beiden folgenden Zeilen hinzu:
 

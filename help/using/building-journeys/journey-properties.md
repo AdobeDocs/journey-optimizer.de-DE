@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
-Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie bei bestehenden Journey auf das Stiftsymbol neben dem Namen der Journey, um sie zu öffnen.
+Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie zum Öffnen bestehender Journeys auf das Stiftsymbol neben dem Journey-Namen.
 
 Über diesen Abschnitt können Sie den Namen der Journey definieren, eine Beschreibung hinzufügen und globale Journey-Eigenschaften festlegen.
 
@@ -33,7 +33,7 @@ Sie haben folgende Möglichkeiten:
 
 * Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Informationen dazu, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
 * Auswählen von Journey-Metriken. [Weitere Informationen zum Konfigurieren und Tracking von Journey-Metriken](success-metrics.md)
-* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Profileintritts hängt von der Art der Journey ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
+* Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
 * Verwalten des [Zugriffs auf Daten](#manage-access)
 * Auswählen der [Zeitzonen](#timezone) für die Journey und das Profil
 * Festlegen benutzerdefinierter [Start- und Enddaten](#dates)
@@ -46,7 +46,7 @@ Sie haben folgende Möglichkeiten:
 >
 >Für Live-Journeys werden in diesem Bildschirm nur das Veröffentlichungsdatum und der Name der Person angezeigt, die die Journey veröffentlicht hat.
 
-Mit **Option „Technische Details kopieren** können Sie technische Informationen über die Journey kopieren, die dem Supportteam bei der Fehlerbehebung helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+Mithilfe der Option **Technische Details kopieren** können Sie jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und dazu, wie Sie sie verwenden können, finden Sie [auf dieser Seite](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bes
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Profileintritts hängt von der Art der Journey ab. Weitere Informationen zur Verwaltung des Eintritts und Wiedereintritts von Profilen finden Sie auf [dieser Seite](entry-management.md).
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Eintritts und Wiedereintritts von Profilen finden Sie auf [dieser Seite](entry-management.md).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -78,7 +78,7 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Sie können den Zugriff auf eine Journey anhand von Zugriffsbeschriftungen einschränken.
+Sie können den Zugriff auf eine Journey basierend auf Zugriffs-Labels einschränken. 
 
 Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Verwalten von Zugriffs-Labels]** und wählen Sie ein oder mehrere Labels aus.
 

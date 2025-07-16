@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden von Adobe Experience Platform-Daten (Beta)
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in  [!DNL Journey Optimizer]  Decisioning- und Personalisierungsfunktionen verwenden.
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in  [!DNL Journey Optimizer] -Funktionen zur Entscheidungsfindung und Personalisierung verwenden.
 badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
@@ -11,9 +11,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 78%
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung.
+>Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung.
 >
->Um diese Funktion nutzen zu können, müssen Sie zunächst die Beta-Bedingungen für Ihre Organisation akzeptieren.
+>Um diese Funktion nutzen zu können, müssen Sie zunächst die Bedingungen für Beta-Versionen für Ihre Organisation akzeptieren.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform in [!DNL Journey Optimizer] nutzen. Hierzu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie deren Daten mit [!DNL Journey Optimizer] Personalisierungs- und Entscheidungsfunktionen verwenden.
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform in [!DNL Journey Optimizer] nutzen. Dazu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie deren Daten mit [!DNL Journey Optimizer]-Funktionen zur Personalisierung und Entscheidungsfindung verwenden.
 
 ## Einschränkungen und Richtlinien der Beta-Version {#guidelines}
 
@@ -78,7 +78,7 @@ Dabei gilt:
 >
 >```
 
-Sobald ein Datensatz mithilfe eines API-Aufrufs für die Suche aktiviert wurde, können Sie seine Daten mit [!DNL Journey Optimizer] Personalisierungs- und Entscheidungsfunktionen verwenden.
+Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Suche aktiviert wurde, können Sie seine Daten mit [!DNL Journey Optimizer]-Funktionen zur Personalisierung und Entscheidungsfindung verwenden.
 
 * [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](../personalization/aep-data-perso.md)
-* [Verwenden von Adobe Experience Platform-Daten für Entscheidungen](../experience-decisioning/aep-data-exd.md)
+* [Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)

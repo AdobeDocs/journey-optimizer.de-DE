@@ -1,16 +1,16 @@
 ---
 title: Verwenden personalisierter Angebote in einer E-Mail
 description: Hier finden Sie ein Beispiel, das alle notwendigen Schritte zur Konfiguration von Angeboten und deren Verwendung in einer E-Mail zeigt.
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

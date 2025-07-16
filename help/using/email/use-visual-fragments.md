@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 
    Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **Einstellungen** im Abschnitt **Fragment** angezeigt.
 
-1. Wenn Sie ein bearbeitbares Feld im rechten Bereich auswählen, wird es im zentralen Vorschaubereich grün hervorgehoben, sodass die Position des Felds im Inhalt leicht zu erkennen ist.
+1. Wenn Sie ein bearbeitbares Feld im rechten Bereich auswählen, wird es im Vorschaubereich in der Mitte grün hervorgehoben, sodass die Position des Feldes im Inhalt leicht zu finden ist.
 
    Im folgenden Beispiel können die **Bildquelle** und der **alternative Text** sowie die **URL** der Schaltfläche „Hier klicken“ bearbeitet werden.
 

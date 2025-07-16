@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Fehlerbehebung bei der Live-Journey-Ausführung
-description: Erfahren Sie, wie Sie Fehler bei der Live-Journey-Ausführung beheben können
+description: Informationen zum Beheben von Fehlern bei der Live-Journey-Ausführung
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Fehlerbehebung bei der Live-Journey-Ausführung {#troubleshooting-execution}
 
-In diesem Abschnitt erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, prüfen, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden.
+In diesem Abschnitt erfahren Sie, wie Sie Fehler bei Journey-Ereignissen beheben und wie Sie prüfen, ob Profile in Ihre Journey eingetreten sind, wie sie diese durchlaufen und ob Nachrichten gesendet werden.
 
-Sie können auch Fehler beheben, bevor Sie eine Journey testen oder veröffentlichen. Erfahren Sie mehr [auf dieser Seite](troubleshooting.md).
+Sie können auch Fehler beheben, bevor Sie eine Journey testen oder veröffentlichen. [Auf dieser Seite](troubleshooting.md) erfahren Sie mehr dazu.
 
-Wenn Sie eingehende Aktionen verwenden, erfahren Sie auf [ Seite ](troubleshooting-inbound.md), wie Sie diese beheben können.
+[Auf dieser Seite](troubleshooting-inbound.md) erfahren Sie, wie Sie Fehler bei eingehenden Aktionen beheben.
 
 ## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden {#checking-that-events-are-properly-sent}
 
@@ -29,7 +29,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} Adobe Experience Platform aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} nutzen.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -39,7 +39,7 @@ Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. 
 
 Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
-Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt auf der Journey sehen, bedeutet dies, dass zwischen dem Ereignisversand und dem Ereignisempfang auf der Journey etwas schief läuft.
+Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey sehen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
 Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
 
@@ -66,7 +66,7 @@ Prüfen Sie folgende Punkte:
 
 ## Überprüfen, ob Nachrichten erfolgreich gesendet werden {#checking-that-messages-are-sent-successfully}
 
-Wenn Personen zwar den richtigen Weg zum Journey gehen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes überprüfen:
+Wenn Personen die Journey zwar richtig durchlaufen, aber nicht die vorgesehenen Nachrichten erhalten, können Sie Folgendes prüfen:
 
 * [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der letzten Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten eingegangenen API-Aufrufe/-Ereignisse prüfen.
 * [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. Überprüfen Sie die Journey-Berichte, um sicherzustellen, dass keine Fehler aufgetreten sind.

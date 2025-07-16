@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 88%
 >title="Anbieter-Payload"
 >abstract="Stellen Sie die Anfrage-Payload bereit, damit die korrekten Daten zur Verarbeitung und Antworterstellung gesendet werden."
 
-Diese Funktion ermöglicht die Integration und Konfiguration eigener Messaging-Anbieter und bietet Ihnen mehr Flexibilität als die Standardoptionen (Sinch, Twilio und Infobip). Dies ermöglicht die nahtlose Erstellung, Bereitstellung, Berichterstellung und Einverständnisverwaltung für SMS- und RCS-Nachrichten.
+Diese Funktion ermöglicht es Ihnen, Ihre eigenen Messaging-Anbieter zu integrieren und zu konfigurieren, und bietet Flexibilität über die Standardanbieter (Sinch, Twilio und Infobip) hinaus. Dadurch werden Erstellung, Versand, Reporting und Einverständnisverwaltung für SMS- und RCS-Nachrichten nahtlos möglich.
 
-Mit der Konfiguration benutzerdefinierter Anbieter können Sie Messaging-Services von Drittanbietern direkt in Journey Optimizer verbinden, Nachrichten-Payloads für dynamische Inhalte anpassen und Opt-in-/Opt-out-Voreinstellungen verwalten, um die Einhaltung sowohl von SMS- als auch von RCS-Kanälen sicherzustellen.
+Über die Konfiguration benutzerdefinierter Anbieter können Sie Messaging-Services von Drittanbietern direkt in Journey Optimizer verbinden, Nachrichten-Payloads für dynamische Inhalte anpassen und Opt-in-/Opt-out-Voreinstellungen verwalten, um Compliance über SMS- und RCS-Kanäle hinweg sicherzustellen.
 
 Gehen Sie wie folgt vor, um Ihren benutzerdefinierten Anbieter zu konfigurieren:
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um Ihren benutzerdefinierten Anbieter zu konfigurieren:
 
 ## Erstellen von API-Anmeldedaten {#api-credential}
 
-Gehen Sie wie folgt vor, um SMS- und RCS-Nachrichten in Journey Optimizer mit einem benutzerdefinierten Provider zu senden, der von Adobe vorkonfiguriert nicht verfügbar ist (z. B. Sinch, Infobip, Twilio):
+Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit einem benutzerdefinierten Anbieter zu versenden, der nicht von Adobe vorkonfiguriert bereitgestellt wird (z. B. Sinch, Infobip, Twilio):
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um SMS- und RCS-Nachrichten in Journey Optimizer mit ei
 
 1. Fügen Sie Ihre **[!UICONTROL Anbieter-Payload]** hinzu, um Ihre Anfrage-Payloads zu validieren und anzupassen.
 
-   Bei RCS-Nachrichten wird diese Payload später beim [Content-Design](create-sms.md#sms-content) verwendet.
+   Bei RCS-Nachrichten wird diese Payload später beim [Gestalten des Inhalts](create-sms.md#sms-content) verwendet.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 

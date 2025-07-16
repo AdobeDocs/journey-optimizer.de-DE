@@ -1,16 +1,16 @@
 ---
 title: Erstellen von Entscheidungsregeln
 description: Erfahren Sie, wie Sie Entscheidungsregeln erstellen, um zu definieren, wem Angebote angezeigt werden können
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für 
 
 ➡️ [Funktion im Video kennenlernen](#video).
 
-Im Folgenden ist eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
+Im Folgenden finden Sie eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
 
 * Bei der Edge-Entscheidung wird das Edge-Profil verwendet, in dem keine Ereignisse gespeichert werden. Daher sind alle in einer Edge-Entscheidung verwendeten Regeln ungültig.
 * Beim Erstellen einer Entscheidungsregel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. So kann es beispielsweise sein, dass Sie als Bestandteil der Regel ein Erlebnisereignis angeben, das innerhalb des letzten Monats stattgefunden hat. Bei jedem Versuch, einen Rückblick-Zeitraum während der Regelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
@@ -72,6 +72,6 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 >
 >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
-## Anleitungsvideo {#video}
+## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

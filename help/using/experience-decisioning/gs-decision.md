@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,10 +31,10 @@ Derzeit bietet [!DNL Journey Optimizer] die beiden unten beschriebenen Hauptlös
 
 Unser Entscheidungs-Framework der nächsten Generation, das dazu dient, bestehende Journey Optimizer-Workflows zu vereinheitlichen und die Grundlage für die Verwaltung zusätzlicher Inhaltskataloge zu schaffen. Die Entscheidungsfindung bietet:
 
-* Schemabasierte Elementkatalogverwaltung: Erhöhen Sie die Flexibilität, indem Sie jedem Angebot benutzerdefinierte Metadaten zuordnen
-* Flexible Sammlungsregeln: Angebote für zukünftige Auswertungen anhand verschiedener Kriterien einfach gruppieren
-* Aktualisierte Konfiguration von Entscheidungsrichtlinien und Auswahlstrategien: Ermöglicht die Wiederverwendbarkeit von Entscheidungskomponenten
-* Experimentierfunktionen: Testen der Entscheidungslogik mit anderen Inhaltskomponenten, um die Leistung zu messen
+* Schemabasierte Verwaltung des Elementkatalogs: Erhöht die Flexibilität, indem jedem Angebot benutzerdefinierte Metadaten zugeordnet werden
+* Flexible Sammlungsregeln: Gruppieren Angebote einfach zur zukünftigen Auswertung anhand verschiedener Kriterien
+* Aktualisierte Entscheidungsrichtlinie und Konfiguration der Auswahlstrategie: Lassen die erneute Verwendung von Entscheidungskomponenten zu
+* Experimentfunktionen: Testen die Entscheidungslogik anhand anderer Inhaltskomponenten, um die Leistung zu messen
 
 Die Entscheidungsfindung wird derzeit im Code-basierten Erlebniskanal unterstützt.
 

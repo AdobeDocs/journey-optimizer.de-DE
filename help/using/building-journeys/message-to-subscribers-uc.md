@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Senden einer Nachricht an Abonnenten
+title: Senden einer Nachricht an Abonnierende
 description: Hier erfahren Sie, wie Sie eine Journey erstellen, um eine Nachricht an die Abonnenten auf einer Liste zu senden.
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Journey, Anwendungsfall, Nachricht, Abonnenten, Liste, Lesen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
       | Funktion | Beschreibung | Beispiel |
       | --- | --- | --- |
-      | `entry` | Bezieht sich auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnement-Liste |
+      | `entry` | Verweist auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnement-Liste |
       | `firstEntryKey` | Ruft den ersten Eintragsschlüssel einer Zuordnung ab | Abrufen der ersten E-Mail-Adresse der Abonnenten |
 
       In diesem Beispiel erhält die Abonnement-Liste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnement-Liste verknüpft ist.

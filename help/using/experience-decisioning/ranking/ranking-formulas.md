@@ -1,5 +1,5 @@
 ---
-title: Rangfolgeformeln
+title: Rangfolgenformeln
 description: Erfahren Sie, wie Sie Formeln erstellen, um Angebote zu ordnen
 feature: Ranking, Decisioning
 topic: Integrations
@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
    >
    >Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30  Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte). [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](../decisioning-guardrails.md#ranking-formulas)
 
-1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgelogik dynamisch anzupassen, um reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeit-Preisen.
+1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise.
 
-   Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Betaversion zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff wünschen. [Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Entscheidungsfindung verwenden](../aep-data-exd.md)
+   Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung. Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff wünschen. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -154,7 +154,7 @@ Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des At
 >
 >Beim Erstellen einer Rangfolgenformel wird ein Rückblick auf einen früheren Zeitraum nicht unterstützt, z. B. das Hinzufügen eines Erlebnisereignisses, das innerhalb des letzten Monats stattgefunden hat, als Komponente der Formel. Bei jedem Versuch, einen Rückblick-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
 
-Um Attribute zu nutzen, die sich auf Ihre Entscheidungselemente in Formeln beziehen, stellen Sie sicher, dass Sie die richtige Syntax im Code Ihrer Rangfolgenformel befolgen. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
+Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, stellen Sie sicher, dass Sie die korrekte Syntax im Code Ihrer Rangfolgenformel befolgen. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
 +++Verwenden von Standardattributen von Entscheidungselementen
 
@@ -226,13 +226,13 @@ In diesem Fall für ein Profil wie:
 
 +++Verstärken von Angeboten basierend auf Kontextdaten {#context-data}
 
-Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise der `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
+Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
 
 >[!NOTE]
 >
->Ausführliche Informationen zum Übergeben von Kontextdaten <!-- using the **Edge Decisioning** and **Decisioning** APIs--> Sie in [diesem Abschnitt](../context-data.md).
+>Weiterführende Informationen zum Übergeben von Kontextdaten<!-- using the **Edge Decisioning** and **Decisioning** APIs--> finden Sie in [diesem Abschnitt](../context-data.md).
 
-Beachten Sie, dass bei Verwendung der **Decisioning**-API die Kontextdaten im Anfrageinhalt zum Profilelement hinzugefügt werden, wie im folgenden Beispiel:
+Beachten Sie, dass bei Verwendung des **Decisioning**-API die Kontextdaten zum Profilelement im Anfragehauptteil hinzugefügt werden wie im folgenden Beispiel:
 
 ```
 "xdm:profiles": [

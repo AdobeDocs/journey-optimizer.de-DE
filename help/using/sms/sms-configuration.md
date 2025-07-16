@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 >title="Wählen Sie die Konfiguration des SMS-Anbieters aus."
 >abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldedaten aus."
 
-Vor dem Versand von SMS, MMS oder RCS müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
+Bevor Sie SMS, MMS oder RMC versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
 1. Integrieren Sie die Anbietereinstellungen mit Journey Optimizer.
 Die Schritte hängen von Ihrem SMS-Anbieter ab. Durchsuchen Sie die nachfolgenden Links, um auf ausführliche Dokumentation zuzugreifen:
@@ -51,7 +51,7 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 ## Voraussetzungen{#sms-prerequisites}
 
-Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten und MMS sind: **Sinch**, **Twilio** und **Infobip**. Beachten Sie, dass Sie zusätzliche Messaging-Anbieter mit der [benutzerdefinierten Anbieterkonfiguration“ ](sms-configuration-custom.md) können.
+Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten und MMS sind: **Sinch**, **Twilio** und **Infobip**. Beachten Sie, dass Sie mit der [benutzerdefinierten Anbieterkonfiguration](sms-configuration-custom.md) zusätzliche Messaging-Anbieter konfigurieren können.
 
 Vor der Konfiguration des SMS-Kanals müssen Sie bei einem dieser Anbieter ein Konto erstellen, um das **API-Token** und die **Service-ID** zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden Anbieter herstellen können.
 

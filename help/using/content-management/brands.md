@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist als private Betaversion verfügbar. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
+>Diese Funktion ist als Private Beta verfügbar. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
 >
 >Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -48,7 +48,7 @@ Um auf das Menü **[!UICONTROL Marken]** in [!DNL Adobe Journey Optimizer] zugre
 
 +++  Informationen zur Zuweisung von Markenberechtigungen
 
-Gehen Sie wie folgt vor, um Berechtigungen für Marken zuzuweisen:
+Gehen Sie wie folgt vor, um Marken Berechtigungen zuzuweisen:
 
 1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 

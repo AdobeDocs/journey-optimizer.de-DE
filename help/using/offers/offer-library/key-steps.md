@@ -1,16 +1,16 @@
 ---
 title: Wichtige Schritte zum Erstellen eines Angebots
 description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

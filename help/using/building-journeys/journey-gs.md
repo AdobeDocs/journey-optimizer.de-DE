@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite bes
 ![Schritte der Journey-Erstellung: Erstellen, Entwerfen, Testen und Veröffentlichen](assets/journey-creation-process.png)
 
 
-Erstellen Sie mehrstufige Journey für Kunden, um eine Abfolge von Interaktionen, Angeboten und Nachrichten kanalübergreifend in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird. Zielgruppen werden auf der Grundlage von Verhalten, kontextuellen Daten und Geschäftsereignissen definiert. Die Voraussetzungen hängen von Ihrem Anwendungsfall und dem [Typ von Journey](entry-management.md#types-of-journeys) ab, den Sie erstellen.
+Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird. Zielgruppen werden basierend auf Verhalten, kontextuellen Daten und Geschäftsereignissen definiert. Die Voraussetzungen hängen von Ihrem Anwendungsfall und dem [Typ der Journey](entry-management.md#types-of-journeys) ab, die Sie erstellen.
 
-Bevor Sie mit der Erstellung Ihres Journey beginnen, stellen Sie sicher, dass die entsprechenden Konfigurationsschritte abgeschlossen sind:
+Stellen Sie sicher, dass die entsprechenden Konfigurationsschritte ausgeführt wurden, bevor Sie mit dem Erstellen der Journey beginnen:
 
-* Wenn Sie Ihre Journey-Trigger beim Empfang eines Ereignisses einzeln testen möchten, **Sie ein Ereignis**. Definieren Sie die erwarteten Informationen und deren Verarbeitung. [Weitere Informationen](../event/about-events.md).
+* Wenn Sie Ihre Journeys beim Empfang eines Ereignisses individuell auslösen möchten, **konfigurieren Sie ein Ereignis**. Definieren Sie die erwarteten Informationen sowie deren Verarbeitungsmethode. [Weitere Informationen](../event/about-events.md).
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* Ihr Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten in Batches an einen bestimmten Profilsatz zu senden. Erstellen Sie dazu **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
+* Ihre Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten in Batches an einen bestimmten Satz von Profilen zu senden. Erstellen Sie dazu **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
 
 <!--   ![](assets/segment2.png)  -->
 
-* Definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden (z. B. in Ihren Bedingungen). Diese Verbindung beruht auf einer **Datenquelle**. [Weitere Informationen](../datasource/about-data-sources.md).
+* Definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Diese Verbindung beruht auf einer **Datenquelle**. [Weitere Informationen](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -90,17 +90,17 @@ Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Jou
 
    ![](assets/read-segment.png)
 
-1. Ziehen Sie zuerst ein Ereignis oder eine Aktivität **Zielgruppe lesen** aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie zuerst ein Ereignis oder eine Aktivität vom Typ **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
 ## Testen der Journey {#jo-test}
 
-Nachdem Sie Ihren Journey erstellt haben, testen Sie ihn vor dem Veröffentlichen. Journey Optimizer bietet einen **Testmodus** als Möglichkeit, Testprofile anzuzeigen, während sie sich auf der Journey bewegen, und potenzielle Fehler zu erkennen, bevor sie aktiviert werden. Durch das Ausführen von Schnelltests wird sichergestellt, dass die Journey ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können. Erfahren Sie in diesem Abschnitt, wie Sie [ Journey testen](testing-the-journey.md)
+Nachdem Sie Ihre Journey erstellt haben, testen Sie sie vor dem Veröffentlichen. Journey Optimizer bietet einen **Testmodus** als Möglichkeit, Testprofile anzuzeigen, die die Journey durchlaufen, um so potenzielle Fehler vor der Aktivierung zu erkennen. Das Ausführen von Schnelltests stellt sicher, dass die Journeys ordnungsgemäß funktionieren, sodass Sie sie zuversichtlich veröffentlichen können. [In diesem Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen.
 
-Sie können Ihre Journey auch in **Dry Run** ausführen. Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwender Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie es live veröffentlichen. Erfahren Sie (in diesem Abschnitt), wie Sie eine Journey im [ veröffentlichen](journey-dry-run.md).
+Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten. [In diesem Abschnitt](journey-dry-run.md) erfahren Sie, wie Sie eine Journey im Probelaufmodus veröffentlichen.
 
 ## Veröffentlichen der Journey {#jo-pub}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Überprüfen Sie vor dem Veröffentlichen Ihres Journey, ob er gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zum Journey von Veröffentlichungen finden Sie in [Abschnitt](publishing-the-journey.md).
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publishing-the-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -112,4 +112,4 @@ Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../r
 
 >[!NOTE]
 >
->Wenn Sie eine Live **-Journey ändern müssen** [ erstellen Sie eine neue ](journey-ui.md#journey-versions) Ihrer Journey.
+>Wenn Sie eine **Live**-Journey ändern müssen, [erstellen Sie eine neue Version](journey-ui.md#journey-versions) der Journey.

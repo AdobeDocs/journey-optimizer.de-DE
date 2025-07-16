@@ -1,7 +1,7 @@
 ---
-title: Rangfolgeformeln
+title: Rangfolgenformeln
 description: Erfahren Sie, wie Sie Formeln erstellen, um Angebote zu ordnen
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
@@ -9,13 +9,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Rangfolgeformeln {#create-ranking-formulas}
+# Rangfolgenformeln {#create-ranking-formulas}
 
 ## Grundlagen zu Rangfolgeformeln {#about-ranking-formulas}
 

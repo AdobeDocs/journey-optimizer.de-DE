@@ -11,16 +11,16 @@ hidefromtoc: true
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Beispiele für erweiterte Ausdrücke{#advanced-expression-examples}
 
-Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Diese Bedingungen ermöglichen es, Benutzerinnen und Benutzer nach Zeit, Datum, Ort und Dauer anzusprechen, damit sie erneut auf die Journey zugreifen können.
+Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzenden in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzende nach Uhrzeit, Datum, Ort oder Dauer ansprechen, damit diese in der Journey erneut angesprochen werden können.
 
 >[!CAUTION]
 >
@@ -54,7 +54,7 @@ Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben
 
 Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in den letzten sieben Tagen keine Bestellung abgeschlossen haben.
 
-**Dieser Ausdruck sucht nach einem angegebenen Wert in einem Zeichenfolgenwert:**
+**Dieser Ausdruck sucht nach einem angegebenen Wert in einem String-Wert:**
 
 `In ("addToCart", #{field reference from experience event})`
 

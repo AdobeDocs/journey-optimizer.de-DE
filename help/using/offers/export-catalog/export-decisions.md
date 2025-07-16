@@ -1,16 +1,16 @@
 ---
 title: Entscheidungsdatensatz
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Entscheidungen verwendet werden
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

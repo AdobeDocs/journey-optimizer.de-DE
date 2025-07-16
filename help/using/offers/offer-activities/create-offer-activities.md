@@ -1,16 +1,16 @@
 ---
 title: Erstellen von Entscheidungen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -401,6 +401,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

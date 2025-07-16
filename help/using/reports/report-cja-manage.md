@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Beim Zugriff auf einen Bericht können Sie einen Zeitraumfilter anwenden, der si
 
 Standardmäßig wird für den Filterzeitraum einer Kampagne oder Journey das Anfangs- und Enddatum herangezogen. Wenn kein Enddatum vorhanden ist, verwendet der Filter standardmäßig das aktuelle Datum.
 
-Um den Filter zu ändern, können Sie ein benutzerdefiniertes Anfangsdatum und eine benutzerdefinierte Dauer auswählen oder aus vordefinierten Optionen wie „Letzte Woche“ oder „Vor zwei Monaten“ wählen.
+Um den Filter zu ändern, können Sie ein benutzerdefiniertes Startdatum und eine benutzerdefinierte Dauer auswählen oder aus vordefinierten Optionen wie „Letzte Woche“ oder „Vor zwei Monaten“ wählen.
 
 Der Bericht wird automatisch aktualisiert, sobald ein Filter angewendet oder geändert wird.
 
@@ -147,7 +147,7 @@ Sie können benutzerdefiniert berechnete Metriken direkt in Ihren Berichten erst
 
 1. Sie können die Komponenten bei Bedarf neu anordnen.
 
-1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]**, um Ihre neue Metrik abzuschließen.
+1. Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Anwenden]**, um die neue Metrik fertigzustellen.
 
 1. Ihre neue Metrik wird neben den ursprünglichen Metriken in Ihrem Bericht angezeigt.
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
->&#x200B;> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
+>> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

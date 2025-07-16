@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihres Code-basierten Erlebnisses zu bearb
 
    >[!NOTE]
    >
-   >Wenn Sie eine Code-basierte Erlebnis-Inhaltsvorlage mit vordefinierten bearbeitbaren Formularfeldern verwenden, können Sie den Inhalt dieser Felder verwalten, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](code-based-form-fields.md)
+   >Wenn Sie eine Inhaltsvorlage für Code-basierte Erlebnisse mit vordefinierten bearbeitbaren Formularfeldern verwenden, können Sie den Inhalt dieser Felder verwalten, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](code-based-form-fields.md)
 
 1. Der [Personalisierungseditor](../personalization/personalization-build-expressions.md) wird geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Code erstellt werden kann.
 
@@ -131,11 +131,11 @@ Gehen Sie wie folgt vor, um den Inhalt Ihres Code-basierten Erlebnisses zu bearb
 
    <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
 
-   Auf dem Bildschirm zur Journey- oder Kampagnenbearbeitung können Sie auch direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Decisioning]** anzuzeigen.
+   Auf dem Bearbeitungsbildschirm der Journey oder Kampagne können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. Verwenden Sie das entsprechende Symbol in der rechten Leiste, um den Abschnitt **[!UICONTROL Entscheidungsfindung]** anzuzeigen.
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   Die detaillierten Schritte zum Erstellen einer Entscheidungsrichtlinie werden in ([ Abschnitt) ](../experience-decisioning/create-decision.md#add-decision).
+   Die detaillierten Schritte zum Erstellen einer Entscheidungsrichtlinie werden in [diesem Abschnitt](../experience-decisioning/create-decision.md#add-decision) beschrieben.
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
@@ -145,4 +145,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

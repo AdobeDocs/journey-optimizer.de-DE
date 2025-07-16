@@ -6,14 +6,15 @@ description: Erfahren Sie, wie Sie KI-Modelle erstellen, um Angebote in Ranglist
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# KI-Modelle erstellen {#create-ai-models}
+# Erstellen von KI-Modellen {#create-ai-models}
 
 [!DNL Journey Optimizer] ermöglicht Ihnen die Erstellung von **KI-Modellen**, um Angebote nach Ihren Geschäftszielen zu ordnen.
 
@@ -32,7 +33,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 1. Erstellen Sie einen Datensatz, in dem Konversionsereignisse erfasst werden. [Weitere Informationen](../data-collection/create-dataset.md)
 
-1. Navigieren Sie zum Menü **[!UICONTROL Decisioning]** > **[!UICONTROL Strategie-Setup]** und wählen Sie **[!UICONTROL KI-Modelle]** aus.
+1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsfindung]** > **[!UICONTROL Strategie-Setup]** und wählen Sie **[!UICONTROL KI-Modelle]** aus.
 
    ![](../assets/ai-model-list.png)
 
@@ -40,7 +41,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL KI-Modell erstellen]**.
 
-1. Geben Sie einen eindeutigen Namen und bei Bedarf eine Beschreibung für das KI-Modell an.
+1. Geben Sie einen eindeutigen Namen und gegebenenfalls eine Beschreibung für das KI-Modell an.
 
 1. Wählen Sie den Typ des KI-Modells aus, das Sie erstellen möchten:
 
@@ -55,7 +56,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    * **Impression-Ereignisse** (angezeigte Angebote)
    * **Konversionsereignisse** (Angebote per E-Mail oder im Web, die zu Klicks führen).
 
-   Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst. Weitere Informationen finden Sie in der Übersicht über [Adobe Experience Platform Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de)SDK.
+   Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst. Weitere Informationen finden Sie im Überblick über das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de).
 
 +++ Optimieren von Modellen für benutzerdefinierte Metriken in [!DNL Customer Journey Analytics]
 
@@ -65,11 +66,11 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >Bevor Sie beginnen, stellen Sie sicher, dass Sie Journey Optimizer mit Customer Journey Analytics integriert haben, um Journey Optimizer-Datensätze in Ihre Standard-Datenansichten zu exportieren.  [Informationen zum Verwenden von Daten aus  [!DNL Journey Optmizer]  in  [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)
 
-   **[!UICONTROL Personalisierte Optimierung]** sind eine Art von KI-Modell, mit dem Sie Geschäftsziele definieren und mithilfe von Kundendaten geschäftsorientierte Modelle trainieren können, um personalisierte Angebote bereitzustellen und KPIs zu maximieren.
+   **[!UICONTROL Personalisierte Optimierungsmodelle]** sind ein KI-Modelltyp, mit dem Sie Geschäftsziele definieren und mithilfe von Kundendaten geschäftsorientierte Modelle trainieren können, um personalisierte Angebote bereitzustellen und KPIs zu maximieren.
 
    Personalisierte Optimierungsmodelle verwenden standardmäßig **Angebot-Klicks** als Optimierungsmetrik. Wenn Sie mit [!DNL Customer Journey Analytics] arbeiten, können Sie mit [!DNL Decisioning] Ihre eigenen benutzerdefinierten Metriken verwenden, um Ihr Modell zu optimieren.
 
-   Wählen Sie dazu den Modelltyp **[!UICONTROL Personalisierte Optimierung]** und erweitern Sie die **[!UICONTROL Konversionsereignis]** Dropdown-Liste. In der Liste werden alle Metriken aus Ihrer standardmäßigen [!DNL Customer Journey Analytics]-[Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
+   Wählen Sie dazu den Modelltyp **[!UICONTROL Personalisierte Optimierung]** aus und erweitern Sie die Dropdown-Liste **[!UICONTROL Konversionsereignis]**. In der Liste werden alle Metriken aus Ihrer standardmäßigen [!DNL Customer Journey Analytics]-[Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -83,7 +84,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 +++
 
-1. Wählen Sie die Datensätze aus, in denen die Konversions- und Impression-Ereignisse erfasst werden. Wie Sie solche Datensätze erstellen, erfahren Sie in [diesem Abschnitt](../data-collection/create-dataset.md).
+1. Wählen Sie die Datensätze aus, in denen die Konversions- und Impression-Ereignisse erfasst werden. In [diesem Abschnitt](../data-collection/create-dataset.md) erfahren Sie, wie Sie solche Datensätze erstellen.
 
    ![](../assets/ai-model-datasets.png){width=85%}
 
@@ -107,7 +108,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis - Vorschlagsinteraktionen]** mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK erfasst werden.
+Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll nun das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK erfasst werden.
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. [Weitere Informationen dazu](../data-collection/schema-requirement.md)
 
@@ -116,4 +117,4 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?quality=12&captions=ger)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

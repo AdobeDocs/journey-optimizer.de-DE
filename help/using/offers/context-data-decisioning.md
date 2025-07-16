@@ -3,15 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Kontextdaten und Entscheidungsanfragen
 description: Erfahren Sie, wie Sie Kontextdaten in Entscheidungsanfragen übergeben.
-badge: label="Veraltet" type="Informative"
+badge: label="Legacy" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
