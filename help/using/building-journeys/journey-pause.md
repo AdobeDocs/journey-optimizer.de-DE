@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '2106'
-ht-degree: 100%
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+workflow-type: tm+mt
+source-wordcount: '2117'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Wenn eine Journey pausiert ist, hängen die Profilverwaltung und Aktivitätsausf
 | [Inhaltsentscheidung](content-decision.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Kanalaktion](journeys-message.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
-| [Profil aktualisieren](update-profiles.md) und [Springen](jump.md) | Dasselbe Verhalten wie bei einer Live-Journey |
+| [Profil aktualisieren](update-profiles.md) und [Springen](jump.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Externe Datenquelle](../datasource/external-data-sources.md) | Dasselbe Verhalten wie bei einer Live-Journey |
 | [Ausstiegskriterien](journey-properties.md#exit-criteria) | Dasselbe Verhalten wie bei einer Live-Journey |
 
@@ -182,7 +182,7 @@ Beim Pausieren dieser Journey wählen Sie aus, ob Profile **verworfen** oder **g
 1. Aktivität vom Typ **Warten**: Profile warten weiterhin normal auf dem Knoten und werden ihn verlassen, auch wenn die Journey pausiert wird.
 1. **Bedingung**: Profile durchlaufen weiterhin Bedingungen und wechseln je nach dem in der Bedingung definierten Ausdruck zur richtigen Verzweigung.
 1. Aktivitäten vom Typ **Push**/**Email**: Während einer pausierten Journey beginnen Profile zu warten oder werden (basierend auf der Auswahl, die die Benutzerin oder der Benutzer zum Zeitpunkt der Pause getroffen hat) am nächsten Aktionsknoten verworfen. Profile warten also ab oder werden dort verworfen.
-1. **Ereignisse** nach Knoten vom Typ **Aktion**: Wenn ein Profil auf einem Knoten vom Typ **Aktion** wartet und danach eine Aktivität vom Typ **Ereignis** vorhanden ist, wird das Profil verworfen, wenn dieses Ereignis ausgelöst wird.
+1. **Ereignisse** nach **Action**-Knoten: Wenn ein Profil auf einem **Action**-Knoten wartet und danach eine **Event**-Aktivität vorhanden ist, wird das Ereignis verworfen, wenn dieses Ereignis ausgelöst wird.
 
 Entsprechend diesem Verhalten können Sie sehen, dass die Profilanzahl bei der pausierten Journey steigt, und zwar hauptsächlich in Aktivitäten vor Aktivitäten vom Typ **Aktion**. In diesem Beispiel ist die Aktivität **Warten** weiterhin aktiviert, wodurch die Anzahl der Profile, die die Aktivität **Bedingung** durchlaufen, beim Verlassen dieser Aktivität steigt.
 
