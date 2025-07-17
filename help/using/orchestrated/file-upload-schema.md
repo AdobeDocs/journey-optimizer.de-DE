@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 26%
+source-wordcount: '176'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,119 +37,121 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Definieren Sie das relationale Datenmodell, das für orchestrierte Kampagnen erforderlich ist, indem Sie Schemata wie **Treueprogramm-**, **Treuetransaktionen** und **Treueprämien** erstellen. Jedes Schema muss einen Primärschlüssel, ein Versionierungsattribut und geeignete Beziehungen zu Referenzentitäten wie &quot;**&quot;** &quot;**&quot;**.
 
-Schemata können manuell über die Benutzeroberfläche erstellt oder stapelweise mithilfe einer DDL-Datei importiert werden.
+<!--
+Schemas can be created manually through the interface or imported in bulk using a DDL file.
 
-Dieser Abschnitt enthält eine schrittweise Anleitung zum Erstellen eines relationalen Schemas in Adobe Experience Platform durch Hochladen einer DDL-Datei (Data Definition Language). Durch die Verwendung einer DDL-Datei können Sie die Struktur Ihres Datenmodells vorab definieren, einschließlich Tabellen, Attributen, Schlüsseln und Beziehungen.
+This section provides step-by-step guidance on how to create a relational schema within Adobe Experience Platform by uploading a DDL (Data Definition Language) file. Using a DDL file allows you to define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-## DDL-Datei hochladen{#ddl-upload}
+## Upload a DDL file{#ddl-upload}
 
-Durch Hochladen einer DDL-Datei können Sie die Struktur Ihres Datenmodells vorab definieren, einschließlich Tabellen, Attributen, Schlüsseln und Beziehungen.
+By uploading a DDL file, you can define the structure of your data model in advance, including tables, attributes, keys, and relationships. 
 
-1. Melden Sie sich bei Adobe Experience Platform an.
+1. Log in to Adobe Experience Platform.
 
-1. Navigieren Sie zu **Daten-Management** > **Schema**.
+1. Navigate to the **Data Management** > **Schema**.
 
-1. Klicken Sie auf **Schema erstellen**.
+1. Click on **Create Schema**.
 
-1. Sie werden aufgefordert, zwischen zwei Schematypen auszuwählen:
+1. You will be prompted to select between two schema types:
 
-   * **Standard**
-   * **Relational**, wird speziell für orchestrierte Kampagnen verwendet
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. Wählen Sie **DDL-Datei hochladen**, um ein Entitätsbeziehungsdiagramm zu definieren und Schemata zu erstellen.
+1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
 
-   Die Tabellenstruktur muss Folgendes enthalten:
-   * Mindestens ein Primärschlüssel
-   * Eine Versionskennung, z. B. ein `lastmodified` Feld vom Typ `datetime` oder `number`.
+    The table structure must contain:
+    * At least one primary key
+    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
 
-1. Ziehen Sie Ihre DDL-Datei per Drag-and-Drop und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
 
-1. Geben Sie Ihren **[!UICONTROL Schemanamen]** ein.
+1. Type-in your **[!UICONTROL Schema name]**.
 
-1. Richten Sie jedes Schema und seine Spalten ein, wobei Sie sicherstellen, dass ein Primärschlüssel angegeben wird.
+1. Set up each schema and its columns, ensuring that a primary key is specified. 
 
-   Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor angegeben werden. Dieses Attribut, das normalerweise vom Typ `datetime`, `long` oder `int` ist, ist für Aufnahmeprozesse unverzichtbar, um sicherzustellen, dass der Datensatz mit der neuesten Datenversion aktualisiert wird.
+    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
 
-   ![](assets/admin_schema_2.png)
+    ![](assets/admin_schema_2.png)
 
-1. Klicken Sie **[!UICONTROL Fertig]**, sobald Sie fertig sind.
+1. Click **[!UICONTROL Done]** once done.
 
-Sie können jetzt die Tabellen- und Felddefinitionen auf der Arbeitsfläche überprüfen. [Weitere Informationen finden Sie im folgenden Abschnitt](#entities)
+You can now verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
 
-## Definieren von Beziehungen {#relationships}
+## Define relationships {#relationships}
 
-Gehen Sie wie folgt vor, um logische Verbindungen zwischen Tabellen innerhalb Ihres Schemas zu definieren.
+To define logical connections between tables within your schema, follow the steps below.
 
-1. Rufen Sie die Arbeitsfläche der Ansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten
+1. Access the canvas view of your data model and choose the two tables you want to link
 
-1. Klicken Sie auf die Schaltfläche ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben dem Quellen-Join und ziehen Sie den Pfeil in Richtung Ziel-Join, um die Verbindung herzustellen.
+1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
 
-   ![](assets/admin_schema_5.png)
+    ![](assets/admin_schema_5.png)
 
-1. Füllen Sie das angegebene Formular aus, um den Link zu definieren, und klicken Sie nach der Konfiguration auf **Anwenden**.
+1. Fill in the given form to define the link and click **Apply** once configured.
 
-   ![](assets/admin_schema_3.png)
+    ![](assets/admin_schema_3.png)
 
-   **Kardinalität**
+    **Cardinality**:
 
-   * **1:N**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-   * **N:1**: Eine Entität in der Zieltabelle kann mit mehreren Entitäten in der Quelltabelle in Beziehung stehen, aber eine Entität in der Quelltabelle kann nur maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
+    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-   * **1:1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
+    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-1. Alle in Ihrem Datenmodell definierten Links werden in der Arbeitsflächenansicht als Pfeile dargestellt. Klicken Sie auf einen Pfeil zwischen zwei Tabellen, um je nach Bedarf Details anzuzeigen, Änderungen vorzunehmen oder den Link zu entfernen.
+1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
 
-   ![](assets/admin_schema_6.png)
+    ![](assets/admin_schema_6.png)
 
-1. Verwenden Sie die Symbolleiste, um die Arbeitsfläche anzupassen.
+1. Use the toolbar to customize and adjust your canvas.
 
-   ![](assets/toolbar.png)
+    ![](assets/toolbar.png)
 
-   * **Vergrößern**: Vergrößert die Arbeitsfläche, um Details zu Ihrem Datenmodell deutlicher zu sehen.
+    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
 
-   * **Verkleinern**: Verkleinert die Arbeitsfläche, um eine erweiterte Ansicht Ihres Datenmodells zu erhalten.
+    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
 
-   * **Ansicht anpassen**: Passen Sie den Zoom an alle Schemata im sichtbaren Bereich an.
+    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
 
-   * **Filter**: Wählen Sie aus, welches Schema auf der Arbeitsfläche angezeigt werden soll.
+    * **Filter**: Choose which schema to display within the canvas.
 
-   * **Automatisches Layout erzwingen**: Automatische Anordnung von Schemata zur besseren Organisation.
+    * **Force auto layout**: Automatically arrange schemas for better organization.
 
-   * **Zuordnung anzeigen**: Schalten Sie eine Minizuordnungsüberlagerung um, um durch große oder komplexe Schema-Layouts leichter zu navigieren.
+    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
 
-1. Klicken **abschließend** Speichern“. Diese Aktion erstellt die Schemata und die zugehörigen Datensätze und ermöglicht die Verwendung des Datensatzes in orchestrierten Kampagnen.
+1. Click **Save** once done. This action creates the schemas and associated data sets and enables the data set for use in Orchestrated Campaigns.
 
-1. Klicken Sie **[!UICONTROL Aufträge öffnen]**, um den Fortschritt des Erstellungsauftrags zu überwachen. Dieser Vorgang kann je nach der Anzahl der in der DDL-Datei definierten Tabellen mehrere Minuten dauern.
+1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
 
-   ![](assets/admin_schema_4.png)
+    ![](assets/admin_schema_4.png)
 
-## Verknüpfungsschema {#link-schema}
+## Link schema {#link-schema}
 
-Stellen Sie eine Beziehung zwischen dem Schema **Treuetransaktionen** und dem Schema **Empfänger** her, um jede Transaktion mit dem richtigen Kundendatensatz zu verknüpfen.
+Establish a relationship between the **loyalty transactions** schema and the **Recipients** schema to associate each transaction with the correct customer record.
 
-1. Navigieren Sie zu **[!UICONTROL Schemata]** und öffnen Sie Ihre zuvor erstellten **Treuetransaktionen**.
+1. Navigate to **[!UICONTROL Schemas]** and open your previously create **loyalty transactions**.
 
-1. Klicken Sie **[!UICONTROL Beziehung hinzufügen]** in den „Kunden **[!UICONTROL Feldeigenschaften]**.
+1. Click **[!UICONTROL Add Relationship]** from the Customer **[!UICONTROL Field properties]**.
 
-   ![](assets/schema_1.png)
+    ![](assets/schema_1.png)
 
-1. Wählen Sie **[!UICONTROL Viele-zu-eins]** als Beziehung **[!UICONTROL Typ]**.
+1. Select **[!UICONTROL Many-to-One]** as the relationship **[!UICONTROL Type]**.
 
-1. Relation zum vorhandenen Schema **Empfänger**.
+1. Link to the existing **Recipients** schema.
 
-   ![](assets/schema_2.png)
+    ![](assets/schema_2.png)
 
-1. Geben Sie einen **[!UICONTROL Beziehungsnamen aus dem aktuellen Schema]** und **[!UICONTROL Beziehungsnamen aus dem Referenzschema]** ein.
+1. Enter a **[!UICONTROL Relationship name from current schema]** and **[!UICONTROL Relationship name from reference schema]**.
 
-1. Klicken Sie **[!UICONTROL Übernehmen]**, um Ihre Änderungen zu speichern.
+1. Click **[!UICONTROL Apply]** to save your changes.
 
-Erstellen Sie dann eine Beziehung zwischen dem Schema **Treueprämien** und dem Schema **Marken**, um jeden Prämieneintrag mit der entsprechenden Marke zu verknüpfen.
+Continue by creating a relationship between the **loyalty rewards** schema and the **Brands** schema to associate each reward entry with the appropriate brand.
 
 ![](assets/schema_3.png)
 
+-->
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
 If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
