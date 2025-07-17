@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
 + Orchestrierte Kampagnen {#orchestrated-campaigns}
    + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [Konfigurationsschritte](using/orchestrated/configuration-steps.md)
+   + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
+      + [Erste Schritte mit Schemata und Datensätzen](using/orchestrated/gs-schemas.md)
+      + [Manuelles Schema](using/orchestrated/manual-schema.md)
+      + [Datei-Upload-Schema](using/orchestrated/file-upload-schema.md)
+      + [Aufnehmen von Daten](using/orchestrated/ingest-data.md)
    + [Zugreifen auf und Verwalten von orchestrierten Kampagnen](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [Leitlinien und Einschränkungen](using/orchestrated/guardrails.md)
    + Starten Ihrer ersten orchestrierten Kampagne{#launch}
@@ -313,7 +317,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
       + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
       + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
-      + [Senden von Briefpostnachrichten mit Journeys](using/direct-mail/direct-mail-journeys.md)
+      + [Senden von Direkt-Mail-Nachrichten mit Journeys](using/direct-mail/direct-mail-journeys.md)
    + Web-Kanal {#web}
       + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
       + Konfigurieren des Web-Kanals {#configure-web-channel}
@@ -589,7 +593,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
          + [Erstellen von Sammlungsqualifizierern](using/offers/offer-library/creating-tags.md)
       + Erstellen von Rankings {#rankings}
          + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
-         + [Rangfolgeformeln](using/offers/ranking/create-ranking-formulas.md)
+         + [Rangfolgenformeln](using/offers/ranking/create-ranking-formulas.md)
          + KI-Modelle {#ai-models}
             + [Über KI-Modelle](using/offers/ranking/ai-models.md)
             + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
