@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1158'
 ht-degree: 16%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul><br/><br/>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | <b>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | <b>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 <br/>
 
 >[!BEGINSHADEBOX]
+
+</br>
 
 Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
@@ -97,7 +99,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Datum]**: Wählen Sie das Datum aus, an dem die Kampagne ausgeführt werden soll.
    * **[!UICONTROL Time]**: Wählen Sie den Zeitpunkt aus, zu dem die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
    +++täglich
 
@@ -111,7 +113,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Definieren Sie die Zeit, zu der die Kampagne jeden Tag ausgeführt werden soll.
 
-   +++
++++
 
    +++Mehrmals täglich
 
@@ -120,7 +122,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Ausgewählte Stunden]**: Wählen Sie die spezifischen Zeiten aus, zu denen die Kampagne ausgeführt werden soll, und konfigurieren Sie ihre tägliche Wiederholung (wird an jedem Wochentag oder an bestimmten Tagen ausgeführt).
    * **[!UICONTROL Periodisch]** Wählen Sie diese Option, um die Kampagne alle n Minuten oder Stunden auszuführen. Sie können auch den Zeitraum innerhalb des Tages definieren, an dem Ausführungen zulässig sind.
 
-   +++
++++
 
    +++Wöchentlich
 
@@ -131,7 +133,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
    * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
    * **[!UICONTROL Startzeit]** Legen Sie die Zeit fest, zu der die Kampagne an ausgewählten Tagen ausgeführt werden soll.
 
-   +++
++++
 
    +++Monatlich
 
@@ -147,7 +149,7 @@ Gehen Sie wie folgt vor, um den Kampagnenzeitplan zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
 1. Mit der Einstellung **[!UICONTROL Gültigkeitszeitraum]** können Sie ein bestimmtes Start- und Enddatum definieren und die Ausführung der Kampagne auf ein begrenztes Zeitfenster beschränken.
 
