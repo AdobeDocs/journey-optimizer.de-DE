@@ -7,20 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 4%
 
 ---
 
-# Manuelles Schema {#manual-schema}
+# Einrichten eines manuellen relationalen Schemas {#manual-schema}
 
 +++ Inhaltsverzeichnis
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br><ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br><ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,146 +38,123 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Relationale Schemata können direkt über die Benutzeroberfläche erstellt werden, was eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen ermöglicht.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+Im folgenden Beispiel wird das Schema **Treueprogramm-Zugehörigkeit** manuell definiert, um die erforderliche Struktur für orchestrierte Kampagnen zu veranschaulichen.
 
-1. Log in to Adobe Experience Platform.
+1. [Erstellen eines relationalen Schemas manuell](#schema) mithilfe der Adobe Experience Platform-Oberfläche.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Attribute hinzufügen](#schema-attributes) wie Kunden-ID, Mitgliedschaftsstufe und Statusfelder.
 
-1. Click on **Create Schema**.
+1. [Verknüpfen Sie Ihr ](#link-schema) mit integrierten Schemata, wie z. B. Empfangende für Kampagnen-Targeting.
 
-1. You will be prompted to select between two schema types:
+1. [Erstellen Sie einen ](#dataset) basierend auf Ihrem Schema und aktivieren Sie ihn für die Verwendung in orchestrierten Kampagnen.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [Aufnehmen von ](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz.
 
-    ![](assets/admin_schema_1.png)
+## Erstellen eines Schemas {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Erstellen Sie zunächst manuell ein neues relationales Schema in Adobe Experience Platform. Mit diesem Prozess können Sie die Schemastruktur von Grund auf neu definieren, einschließlich des Namens und Verhaltens.
 
-## Select entities and fields to import
+1. Melden Sie sich bei Adobe Experience Platform an.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. Navigieren Sie zum Menü **[!UICONTROL Daten]** > **[!UICONTROL Schema]** .
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. Klicken Sie **[!UICONTROL Schema erstellen]**.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. Wählen Sie **[!UICONTROL Relational]** als **Schematyp** aus.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. Wählen Sie **[!UICONTROL Manuell erstellen]**, um ein Schema durch manuelles Hinzufügen von Feldern zu erstellen.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. Geben Sie Ihren **[!UICONTROL Anzeigenamen des Schemas]** ein.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. Wählen Sie **[!UICONTROL Datensatz]** als **[!UICONTROL Schemaverhalten]** aus.
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. Klicken Sie **Beenden**, um mit der Schemaerstellung fortzufahren.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+Sie können jetzt mit dem Hinzufügen von Attributen zu Ihrem Schema beginnen, um dessen Struktur zu definieren.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## Hinzufügen von Attributen zu Ihrem Schema {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+Fügen Sie als Nächstes Attribute hinzu, um die Struktur Ihres Schemas zu definieren. Diese Felder stellen die wichtigsten Datenpunkte dar, die in orchestrierten Kampagnen verwendet werden, z. B. Kundenkennungen, Mitgliedschaftsdetails und Aktivitätsdaten. Sie genau zu definieren, stellt eine zuverlässige Personalisierung, Segmentierung und Verfolgung sicher.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. Klicken Sie auf der Arbeitsfläche auf ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben Ihrem **Schemanamen**, um Attribute hinzuzufügen.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. Geben Sie Ihr Attribut **[!UICONTROL Feldname]**, **[!UICONTROL Anzeigename]** und **[!UICONTROL Typ]** ein.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   In diesem Beispiel haben wir die in der folgenden Tabelle beschriebenen Attribute zum Schema **Treueprogramm-**&quot; hinzugefügt.
 
-1. Save the file as `.csv`.
++++ Beispiele für Attribute
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | Attributname | Datentyp | Zusätzliche Attribute |
+   |-|-|-|
+   | Kundin bzw. Kunde | ZEICHENFOLGE | Primärschlüssel |
+   | Membership_level | ZEICHENFOLGE | Erforderlich |
+   | points_balance | GANZZAHL | Erforderlich |
+   | enrollment_date | DATUM | Erforderlich |
+   | last_status_change | DATUM | Erforderlich |
+   | expiration_date | DATUM | – |
+   | is_active | BOOLEAN | Erforderlich |
+   | zuletzt geändert | DATETIME | Erforderlich |
 
++++
 
-## 9. Ingesting Data from S3
+1. Weisen Sie die entsprechenden Felder als **[!UICONTROL Primären Schlüssel]** und **[!UICONTROL Versionsdeskriptor)]**.
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   Der **[!UICONTROL Primäre Schlüssel]** stellt sicher, dass jeder Datensatz eindeutig identifiziert wird, während der **[!UICONTROL Versionsdeskriptor]** im Laufe der Zeit Aktualisierungen erfasst, was eine Änderungsdatenerfassung und eine unterstützende Datenspiegelung ermöglicht.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-### Field Mapping
+Nachdem Attribute erstellt wurden, müssen Sie Ihr neu erstelltes Schema mit einem integrierten Schema verknüpfen.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## Verknüpfen von Schemata {#link-schema}
 
-### Scheduling
+Wenn Sie eine Beziehung zwischen zwei Schemata erstellen, können Sie Ihre orchestrierten Kampagnen mit Daten anreichern, die außerhalb des primären Profilschemas gespeichert sind.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. Wählen Sie in Ihrem neu erstellten Schema das Attribut aus, das Sie als Link verwenden möchten, und klicken Sie auf **[!UICONTROL Beziehung hinzufügen]**.
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. Wählen Sie die **[!UICONTROL Referenzschema]** und **[!UICONTROL Referenzfeld]**, mit denen die Beziehung hergestellt werden soll.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   In diesem Beispiel ist das `customer` mit dem `recipients` verknüpft.
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. Geben Sie einen Beziehungsnamen aus dem aktuellen Schema und aus dem Referenzschema ein.
 
-- Every **15 minutes**, or
+1. Klicken Sie **[!UICONTROL der Konfiguration auf]**&#x200B;Übernehmen“.
 
-- If **Data Lake size exceeds 5MB**
+Nachdem die Beziehung hergestellt wurde, müssen Sie einen Datensatz basierend auf Ihrem Schema erstellen.
 
-This is a background replication process.
+## Erstellen eines Datensatzes für das Schema {#dataset}
 
+Nachdem Sie Ihr Schema definiert haben, besteht der nächste Schritt darin, einen Datensatz basierend darauf zu erstellen. Dieser Datensatz speichert Ihre aufgenommenen Daten und muss für orchestrierte Kampagnen aktiviert sein, damit sie in Adobe Journey Optimizer verfügbar sind. Durch Aktivierung dieser Option wird sichergestellt, dass der Datensatz für die Verwendung in Echtzeit-Orchestrierungs- und Personalisierungs-Workflows erkannt wird.
 
-## 12. Querying the Dataset
+1. Navigieren Sie zum Menü **[!UICONTROL Daten]** > **[!UICONTROL Datensätze]** und klicken Sie auf **[!UICONTROL Datensatz erstellen]**.
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
 
-1. Run the query.
+1. Wählen Sie Ihr zuvor erstelltes Schema hier **Treueprogramm-Mitgliedschaften** und klicken Sie auf **[!UICONTROL Weiter]**.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. Geben Sie einen **[!UICONTROL Namen]** für Ihren **[!UICONTROL Datensatz]** ein und klicken Sie auf **[!UICONTROL Beenden]**.
+
+1. Aktivieren Sie die Option **Orchestrierte Kampagnen**, um den Datensatz für die Verwendung in Ihren AJO-Kampagnen verfügbar zu machen.
+
+   Die Aktivierung kann einige Minuten dauern. Die Datenaufnahme ist erst möglich, nachdem die Option vollständig aktiviert wurde.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+Sie können jetzt mit der Aufnahme von Daten in Ihr Schema beginnen, indem Sie die Quelle Ihrer Wahl verwenden.
+
+➡️ [Informationen zur Datenaufnahme](ingest-data.md)

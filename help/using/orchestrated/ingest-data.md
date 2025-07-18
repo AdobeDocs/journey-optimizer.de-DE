@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cl
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 17%
+source-wordcount: '480'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 17%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [ ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,68 +38,65 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quellen und bietet Ihnen die Möglichkeit, die eingehenden Daten mithilfe von Experience Platform-Services zu strukturieren, zu kennzeichnen und anzureichern. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
 
-<!--
-## With Cloud storage {#ingest}
+## Mit Cloud-Speicher {#ingest}
 
 
 >[!IMPORTANT]
 >
->Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+>Jeder Datensatz in Adobe Experience Platform unterstützt jeweils nur einen aktiven Datenfluss. Detaillierte Einrichtungsanleitungen zum Wechseln von Datenquellen finden Sie in diesem [Abschnitt](#cdc-ingestion).
 
 
-You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+Sie können einen Datenfluss konfigurieren, um Daten aus einer Amazon S3-Quelle in Adobe Experience Platform aufzunehmen. Nach der Konfiguration ermöglicht der Datenfluss die automatisierte, geplante Aufnahme strukturierter Daten und unterstützt Echtzeit-Aktualisierungen.
 
-1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+1. Rufen Sie **[!UICONTROL Menü]** Verbindungen“ das Menü **[!UICONTROL Quellen]** auf.
 
-1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+1. Wählen Sie die Kategorie **[!UICONTROL Cloud-]**) und dann Amazon S3 aus und klicken Sie auf **[!UICONTROL Daten hinzufügen]**.
 
-    ![](assets/admin_sources_1.png)
+   ![](assets/admin_sources_1.png)
 
-1. Connect your S3 Account:
+1. Verbinden Sie Ihr S3-Konto:
 
-    * With an existing account
+   * Mit vorhandenem Konto
 
-    * With a new account
+   * Mit einem neuen Konto
 
-    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect).
 
-    ![](assets/admin_sources_2.png)
+   ![](assets/admin_sources_2.png)
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+1. Wählen Sie Ihren Ordner **[!UICONTROL Datenformat]**, **[!UICONTROL Trennzeichen]** und **[!UICONTROL Komprimierungstyp]**.
 
-1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+1. Navigieren Sie durch die verbundene S3-Quelle, bis Sie die gewünschten Ordner finden, z **B. „Treueprämien** und **Treuetransaktionen**.
 
-1. Select the folder that contains your data.
-    
-    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+1. Wählen Sie den Ordner aus, der Ihre Daten enthält.
 
-    ![](assets/S3_config_2.png)
+   Durch die Auswahl eines Ordners wird sichergestellt, dass alle aktuellen und zukünftigen Dateien mit derselben Struktur automatisch verarbeitet werden. Für die Auswahl einer einzelnen Datei muss jedoch jedes neue Dateninkrement manuell hochgeladen werden.
 
-1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+   ![](assets/S3_config_2.png)
 
-    ![](assets/S3_config_1.png)
+1. Wählen Sie Ihren Ordner **[!UICONTROL Datenformat]**, **[!UICONTROL Trennzeichen]** und **[!UICONTROL Komprimierungstyp]**. Überprüfen Sie Ihre Beispieldaten auf Genauigkeit und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
-1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+   ![](assets/S3_config_1.png)
 
-1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+1. Aktivieren **[!UICONTROL die Option &quot;]** ändern“, um aus Datensätzen auszuwählen, die relationalen Schemata zugeordnet sind und für die sowohl ein Primärschlüssel als auch ein Versionsdeskriptor definiert sind.
 
-    ![](assets/S3_config_3.png)
+1. Wählen Sie [ zuvor erstellten Datensatz aus ](#entities) klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+   ![](assets/S3_config_3.png)
 
-    Click **[!UICONTROL Next]** once done.
+1. Überprüfen Sie **[!UICONTROL Fenster]** Zuordnung“, ob jedes Quelldateiattribut den entsprechenden Feldern im Zielschema korrekt zugeordnet ist.
 
-    ![](assets/S3_config_4.png)
+   Klicken **[!UICONTROL abschließend]** Weiter“.
 
-1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+   ![](assets/S3_config_4.png)
 
-1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+1. Konfigurieren Sie den Datenfluss **[!UICONTROL Zeitplan]** basierend auf Ihrer gewünschten Häufigkeit.
 
-1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+1. Klicken Sie **[!UICONTROL Beenden]**, um den Datenfluss zu erstellen. Er wird automatisch nach dem festgelegten Zeitplan ausgeführt.
 
-    ![](assets/S3_config_5.png)
+1. Wählen Sie im Menü **[!UICONTROL Verbindungen]** die Option **[!UICONTROL Quellen]** und greifen Sie auf die Registerkarte **[!UICONTROL Datenflüsse]** zu, um die Flussausführung zu verfolgen, aufgenommene Datensätze zu überprüfen und Fehler zu beheben.
 
--->
+   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
