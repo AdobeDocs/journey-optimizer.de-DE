@@ -11,10 +11,10 @@ keywords: Subdomain, Delegierung, Domain, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 9%
+source-wordcount: '742'
+ht-degree: 14%
 
 ---
 
@@ -118,7 +118,15 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt.
+1. Klicken Sie **[!UICONTROL Weiter]** und warten Sie, bis Adobe überprüft, ob die Einträge in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
+
+   >[!NOTE]
+   >
+   >Alle fehlenden Einträge, also die noch nicht in Ihrer Hosting-Lösung erstellten Einträge, werden aufgelistet.
+
+   Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“.
+
+1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
 
 ## Fehlerbehebung - Checkliste {#check-list}
 
