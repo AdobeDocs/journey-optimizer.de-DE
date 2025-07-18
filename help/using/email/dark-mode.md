@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# Definieren von Inhalten für den Dunkelmodus {#dark-mode}
+# Verwalten von Inhalten im Dunkelmodus {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Gehen Sie wie folgt vor, um benutzerdefinierte Einstellungen für den Dunkelmodu
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. Nachdem alle Änderungen für den Dunkelmodus vorgenommen wurden, klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
+1. Sie können jederzeit **[!UICONTROL Zur Live-Ansicht wechseln]** um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden können. Wählen Sie in dieser Ansicht den Umschalter für den Dunkelmodus oben auf dem Bildschirm aus, um eine Vorschau der Dunkelmodusversion Ihres Inhalts auf den verschiedenen Geräten anzuzeigen.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >Die Live-Ansicht ist eine allgemeine Vorschau, die vergleicht, wie das Rendering über verschiedene Gerätegrößen hinweg aussehen könnte. Das endgültige Rendering kann je nach E-Mail-Client des Empfängers variieren.
+
+1. Wenn Sie mit den Änderungen für den Dunkelmodus zufrieden sind, klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Wählen Sie **[!UICONTROL E-Mail rendern]** und verbinden Sie sich mit Ihrem Litmus-Konto. Sie können das endgültige Rendering des Dunkelmodus für verschiedene E-Mail-Clients sehen.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. Wählen Sie **[!UICONTROL E-Mail rendern]** und verbinden Sie sich mit Ihrem Litmus-Konto. Sie können das endgültige Rendering des Dunkelmodus für verschiedene E-Mail-Clients sehen. Weitere Informationen zu [E-Mail-Rendering](../content-management/rendering.md).
 
    >[!WARNING]
    >
