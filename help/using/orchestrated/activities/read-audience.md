@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 40%
 
 | Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Ausdrücke bearbeiten](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - [Kanalaktivitäten](channels.md) - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - [Formulare](enrichment.md) - [Abstimmung](fork.md) [&#128279;](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) ->Zielgruppe speichern[ -AufspaltungWarten](wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Ausdrücke bearbeiten](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - [Kanalaktivitäten](channels.md) - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - [Formulare](enrichment.md) - [Abstimmung](fork.md) [ ](reconciliation.md) [ ](save-audience.md) [ ](split.md) ->Zielgruppe speichern[ -AufspaltungWarten](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,3 +43,36 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 >[!ENDSHADEBOX]
 
+Mit **[!UICONTROL Aktivität „Zielgruppe lesen]** können Sie eine vorhandene Zielgruppe abrufen - zuvor gespeichert oder importiert - und sie in einer orchestrierten Kampagne wiederverwenden. Diese Aktivität ist besonders nützlich, um einen vordefinierten Satz von Profilen anzusprechen, ohne dass ein neuer Segmentierungsprozess ausgeführt werden muss.
+
+Nachdem die Zielgruppe geladen wurde, können Sie sie optional einschränken, indem Sie ein Feld für eine eindeutige Identität auswählen und die Zielgruppe mit zusätzlichen Profilattributen für Targeting-, Personalisierungs- oder Berichtszwecke anreichern.
+
+## Konfigurieren der Aktivität „Zielgruppe lesen“ {#read-audience-configuration}
+
+Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgruppe lesen]** zu konfigurieren:
+
+1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Zielgruppe lesen“ hinzu.
+
+   ![](../assets/read-audience-1.png)
+
+1. Geben Sie **[!UICONTROL Aktivität einen]** Titel“ ein.
+
+1. Klicken Sie auf ![Ordnersuchsymbol](../assets/do-not-localize/folder-search.svg), um die Audience auszuwählen, die Sie für Ihre orchestrierte Kampagne ansprechen möchten.
+
+   ![](../assets/read-audience-2.png)
+
+1. Wählen Sie die **[!UICONTROL Entität]** aus, mit der Profile in Ihrer Audience eindeutig identifiziert werden.
+
+   ![](../assets/read-audience-3.png)
+
+1. Wählen Sie **[!UICONTROL Profilattribut hinzufügen]**, um Ihre ausgewählte Zielgruppe mit zusätzlichen Daten anzureichern. Die resultierende Audience enthält eine Liste von Empfängern, die jeweils mit den ausgewählten Profilattributen angereichert sind.
+
+1. Wählen Sie **[!UICONTROL Attribute]** aus, die Sie Ihrer Audience hinzufügen möchten.
+
+   ![](../assets/read-audience-4.png)
+
+## Beispiel
+
+Im folgenden Beispiel wird die Aktivität **[!UICONTROL Zielgruppe lesen]** verwendet, um eine zuvor erstellte und gespeicherte Zielgruppe von Profilen abzurufen, die sich für den Newsletter angemeldet haben. Die Zielgruppe wird dann mit dem Attribut **Treuemitgliedschaft** angereichert, um die Zielgruppenbestimmung für Benutzende zu ermöglichen, die registrierte Mitglieder des Treueprogramms sind.
+
+![](../assets/read-audience-5.png)
