@@ -12,7 +12,7 @@ keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_rate_controls"
->title="Ratensteuerelemente für Kanäle"
->abstract="Ratensteuerelemente für Kanäle"
+>title="Ratensteuerung für Kanäle"
+>abstract="Ratensteuerung für Kanäle"
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 

@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,12 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
    >
    >Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
-## DNS-Einträge erstellen {#create-dns-records}
+## Erstellen der DNS-Einträge {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="Erstellen der passenden DNS-Einträge"
->abstract="Um eine benutzerdefinierte Subdomain an Adobe zu delegieren, müssen Sie die in der Journey Optimizer-Benutzeroberfläche angezeigten Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die entsprechenden DNS-Einträge zu generieren."
+>abstract="Zum Delegieren einer benutzerdefinierten Subdomain an Adobe müssen die in der Journey Optimizer-Benutzeroberfläche angezeigten Nameserver-Informationen kopiert und in die Domain-Hosting-Lösung eingefügt werden, um die passenden DNS-Einträge zu generieren."
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei.
 
@@ -61,8 +61,8 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
->title="Certificate Signing Request generieren"
->abstract="Beim Einrichten einer neuen benutzerdefinierten Subdomain müssen Sie die Certificate Signing Request (CSR) generieren, ausfüllen und an die Zertifizierungsstelle senden, um das SSL-Zertifikat abzurufen, das Sie in Journey Optimizer hochladen müssen."
+>title="Generieren der Certificate Signing Request"
+>abstract="Beim Einrichten einer neuen benutzerdefinierten Subdomain müssen Sie die Certificate Signing Request (CSR) generieren, ausfüllen und an die Zertifizierungsstelle senden, um das SSL-Zertifikat zu erhalten, das Sie in Journey Optimizer hochladen müssen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -89,12 +89,12 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
 
 1. Klicken Sie nach dem Abrufen **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat in [!DNL Journey Optimizer] im .pem-Format hoch.
 
-## Schritte der Feedback-Schleife abschließen {#feedback-loop-steps}
+## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="Schritte der Feedback-Schleife abschließen"
->abstract="Geh auf die Yahoo! Sender Hub und füllen Sie das Formular aus, um den Domain-Besitz zu überprüfen. Geben Sie die unten aufgeführte FBL-Reporting-E-Mail-Adresse ein und verwenden Sie das OTP, das empfangen wird, um die Eigentümerschaft an der Yahoo! Sender Hub."
+>title="Abschließen der Schritte der Feedback-Schleife"
+>abstract="Rufen Sie das Yahoo! Sender Hub auf und füllen Sie das Formular aus, um zu überprüfen, wem die Domain gehört. Geben Sie die unten aufgeführte E-Mail-Adresse für das FBL-Reporting ein und verwenden Sie das daraufhin erhaltene OTP für die Verifizierung der Besitzverhältnisse im Yahoo! Sender Hub."
 
 1. Gehen Sie auf die [Yahoo! Sender Hub](https://senders.yahooinc.com/) Website und füllen Sie das erforderliche Formular aus, um Ihre Domain-Eigentümerschaft zu überprüfen.
 
