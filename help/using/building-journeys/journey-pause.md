@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 98%
+source-wordcount: '2169'
+ht-degree: 96%
 
 ---
 
@@ -152,6 +152,7 @@ Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schw
 
   Wenn Sie Journeys fortsetzen, um die Anzahl der zurückgehaltenen Profile wieder unter das Limit zu bringen, wird die jeweilige Journey sofort fortgesetzt. Es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit betrachtet das System diese Profile möglicherweise immer noch als pausiert.
 
+* Bei Journey[ die eingehende Aktivitäten ](../channels/gs-channels.md#mobile-app-and-web-experiences) (z. B. In-App, Web usw.) umfassen, wird durch das Anhalten des Journey die bereits ausgelöste Kommunikation nicht unterbrochen. Wenn sich ein Profil vor der Pause für eine eingehende Aktivität qualifiziert hat, wird die entsprechende Nachricht weiterhin zugestellt. Um alle eingehenden Kommunikationen zu stoppen, müssen Sie die Journey stoppen.
 * Pausierte Journeys werden auf das Live-Journey-Kontingent angerechnet.
 * In die Journey eingetretene Profile, die während der Pause verworfen wurden, werden weiterhin als ansprechbare Profile gezählt.
 * Pausierte Journeys werden genau wie Live-Journeys in allen Geschäftsregeln berücksichtigt.
