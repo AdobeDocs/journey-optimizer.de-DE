@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 98%
+source-wordcount: '1307'
+ht-degree: 95%
 
 ---
 
@@ -22,8 +22,11 @@ ht-degree: 98%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-
 ## Neueste Aktualisierungen {#latest-updates}
+
+### Getrennte Inventare für Kampagnen
+
+Aktionskampagnen und API-ausgelöste Kampagnen sind jetzt in verschiedene Registerkarten-Inventare unterteilt, damit Sie alle Kampagnen eines bestimmten Typs schnell anzeigen können.
 
 ### Änderung bei den Journey-Bedingungen {#ee-change@}
 
@@ -41,7 +44,7 @@ Weitere Informationen finden Sie [in diesen FAQ](../building-journeys/exp-event-
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 

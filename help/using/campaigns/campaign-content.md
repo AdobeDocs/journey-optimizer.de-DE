@@ -1,0 +1,62 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Bearbeiten des Inhalts der Aktionskampagne
+description: Erfahren Sie, wie Sie den Inhalt der Aktionskampagne bearbeiten.
+feature: Campaigns
+topic: Content Management
+role: User
+level: Beginner
+mini-toc-levels: 1
+keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 58%
+
+---
+
+
+# Bearbeiten des Inhalts der Aktionskampagne {#action-campaign-content}
+
+Um den Nachrichteninhalt zu konfigurieren, navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** oder klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+
+![](assets/campaign-content.png)
+
+## Inhaltserstellung
+
+Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>E-Mail</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>Push-Benachrichtigung</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>Direkt-Mail</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="In-App" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>In-App</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="Code-basiertes Erlebnis" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>Code-basiertes Erlebnis</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>Inhaltskarten</strong></a></div></td>
+</tr></table>
+
+## Testen und Überprüfen des Inhalts
+
+Nachdem der Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhalte in der Vorschau anzeigen und testen können](../content-management/preview-test.md)
+
+Klicken Sie auf den Linkspfeil, um zum Bildschirm der Kampagnenerstellung zurückzukehren.
+
+![](assets/create-campaign-design.png)
+
+## Nächste Schritte {#next}
+
+Sobald der Inhalt Ihrer Aktionskampagne fertig ist, können Sie die Kampagnenzielgruppe definieren. [Weitere Informationen](campaign-audience.md)
