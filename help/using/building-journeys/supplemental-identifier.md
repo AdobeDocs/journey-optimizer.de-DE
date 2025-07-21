@@ -3,10 +3,10 @@ title: Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in von einem Ereignis ausgelösten Journeys verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,8 @@ In diesem Beispiel haben wir eine Buchungs-ID als zusätzliche Kennung hinzugef�
 Dadurch werden die durch das Ereignis ausgelösten Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.
 
 Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Schutzmechanismen und Einschränkungen {#guardrails}
 
@@ -188,3 +190,9 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
    * Profil: „Alex“.
    * Zusätzliche IDs: `"productID1234", "productID5678"`.
    * Die Journey wird mit personalisierten Upsell-Optionen für jedes Produkt separat ausgeführt.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
