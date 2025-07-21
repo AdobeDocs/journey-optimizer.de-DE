@@ -39,4 +39,4 @@ Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch verse
 
 Erfahren Sie, wie Sie eine Aktionskampagne erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452734?quality=12&captions=ger)

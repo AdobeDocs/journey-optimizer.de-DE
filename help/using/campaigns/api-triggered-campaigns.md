@@ -43,4 +43,4 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie die REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452734?quality=12&captions=ger)
