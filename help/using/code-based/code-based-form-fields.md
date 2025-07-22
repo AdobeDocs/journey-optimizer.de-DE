@@ -1,15 +1,15 @@
 ---
 title: Verwenden bearbeitbarer Formularfelder in Code-basierten Erlebnissen
-description: Erfahren Sie, wie Sie bearbeitbare Felder zu Journey Optimizer-Code-basierten Erlebnis-Inhaltsvorlagen hinzufügen und wie Sie sie in Kampagnen oder Journey verwenden
+description: Informationen zum Hinzufügen bearbeitbarer Felder zu Inhaltsvorlagen für Code-basierte Erlebnisse in Journey Optimizer und zu ihrer Verwendung in Kampagnen oder Journeys
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 18%
 
 Um sowohl die Flexibilität zu erhöhen als auch die Kontrolle über die Code-basierten Erlebnisse zu verbessern, ermöglicht [!DNL Journey Optimizer] Ihrem Entwicklungs-Team die Erstellung von JSON- oder HTML-Inhaltsvorlagen mit bestimmten vordefinierten bearbeitbaren Feldern.
 
-Beim Erstellen eines Code-basierten Erlebnisses können Marketing-Experten, die nicht technisch sind, diese Felder direkt in der Benutzeroberfläche bearbeiten, ohne den Personalisierungseditor öffnen oder andere Code-Elemente in ihrem Journey oder ihrer Kampagne berühren zu müssen.
+Beim Erstellen eines Code-basierten Erlebnisses können Marketing-Experten ohne technisches Fachwissen diese Felder direkt in der Benutzeroberfläche bearbeiten, ohne den Personalisierungseditor öffnen oder andere Code-Elemente in ihrer Journey oder Kampagne bearbeiten zu müssen.
 
-Diese Funktion bietet Marketing-Benutzern ein vereinfachtes Erlebnis und ermöglicht Entwicklern gleichzeitig eine bessere Kontrolle über den Code-Inhalt, was zu weniger Spielraum für Fehler führt.
+Diese Funktion bietet Marketing-Fachleuten ein vereinfachtes Erlebnis und ermöglicht Entwickelnden gleichzeitig eine bessere Kontrolle über den Code-Inhalt, was die Fehlerquellen reduziert.
 
-## Verstehen der Formularfeldsyntax {#form-field-syntax}
+## Verstehen der Syntax von Formularfeldern {#form-field-syntax}
 
-Um Teile einer HTML- oder JSON-Code-Payload bearbeitbar zu machen, müssen Sie eine bestimmte Syntax im Ausdruckseditor verwenden. Dazu gehört das Deklarieren einer **Variablen** mit einem Standardwert, den Benutzer überschreiben können, nachdem sie die Inhaltsvorlage auf ihr Code-basiertes Erlebnis angewendet haben.
+Damit Teile einer HTML- oder JSON-Code-Payload bearbeitbar sind, müssen Sie im Ausdruckseditor eine bestimmte Syntax verwenden. Dazu gehört die Deklarierung einer **Variablen** mit einem Standardwert, den Benutzende überschreiben können, nachdem sie die Inhaltsvorlage auf ihr Code-basiertes Erlebnis angewendet haben.
 
-Angenommen, Sie möchten eine Inhaltsvorlage erstellen, um sie auf Ihre Code-basierten Erlebnisse anzuwenden und Benutzern die Möglichkeit zu geben, eine bestimmte Farbe anzupassen, die an verschiedenen Stellen verwendet wird, z. B. in den Hintergrundfarben von Frames oder Schaltflächen.
+Angenommen, Sie möchten eine Inhaltsvorlage erstellen, die auf Ihre Code-basierten Erlebnisse angewendet werden soll, und es Benutzenden ermöglichen, eine bestimmte Farbe anzupassen, die an verschiedenen Stellen verwendet wird, z. B. die Hintergrundfarbe von Rahmen oder Schaltflächen.
 
-Beim Erstellen Ihrer Inhaltsvorlage müssen Sie eine Variable mit einer **eindeutigen ID**, z. B. &quot;*color*, deklarieren und an den gewünschten Stellen im Inhalt aufrufen, an denen Sie diese Farbe anwenden möchten.
+Beim Erstellen der Inhaltsvorlage müssen Sie eine Variable mit einer **eindeutigen ID**, beispielsweise *Farbe*, deklarieren, und diese an den Stellen im Inhalt aufrufen, an denen diese Farbe angewendet werden soll.
 
-Wenn Benutzende die Inhaltsvorlage auf ihren Inhalt anwenden, können sie die Farbe anpassen, die dort verwendet wird, wo auf die Variable verwiesen wird.
+Beim Anwenden der Inhaltsvorlage auf den Inhalt können Benutzende die Farbe anpassen, die dann überall dort verwendet wird, wo auf die Variable verwiesen wird.
 
 ## Hinzufügen bearbeitbarer Felder zu HTML- oder JSON-Inhaltsvorlagen {#add-editable-fields}
 
@@ -38,13 +38,13 @@ Wenn Benutzende die Inhaltsvorlage auf ihren Inhalt anwenden, können sie die Fa
 >title="Überprüfen des Renderings der Formularfelder"
 >abstract="In JSON- oder HTML-Inhaltsvorlagen können Sie bestimmte bearbeitbare Felder definieren, die es technisch nicht versierten Benutzenden ermöglichen, Inhalte in Code-basierten Erlebnissen einfach und ohne Code-Änderungen zu bearbeiten. Erstellen Sie diese Felder mit der dedizierten Syntax und zeigen Sie sie mithilfe dieser Schaltfläche in der Vorschau an."
 
-Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie zunächst ein Code-basiertes Erlebnis [Inhaltsvorlage](../content-management/content-templates.md) in dem Sie bestimmte Formularfelder definieren können.
+Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitbar ist, erstellen Sie zunächst eine [Inhaltsvorlage](../content-management/content-templates.md) für ein Code-basiertes Erlebnis, in der Sie bestimmte Formularfelder definieren können.
 
 >[!NOTE]
 >
->Dieser Schritt wird in der Regel von einer Entwicklerrolle ausgeführt.
+>Dieser Schritt wird in der Regel von einer Persona im Entwicklungsbereich ausgeführt.
 
-➡️ [In diesem Video erfahren Sie, wie Sie bearbeitbare Felder zu Code-basierten Erlebnisvorlagen hinzufügen](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie bearbeitbare Felder zu Vorlagen Code-basierter Erlebnisse hinzufügen](#video)
 
 1. Erstellen Sie eine Inhaltsvorlage und wählen Sie den Kanal **[!UICONTROL Code-basiertes Erlebnis]** aus. [Erfahren Sie, wie Sie Vorlagen erstellen.](../content-management/create-content-templates.md)
 
@@ -52,11 +52,11 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
 
    >[!CAUTION]
    >
-   >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Die auf dieser Vorlage basierenden Code-basierten Erlebnisse müssen denselben Autorenmodus verwenden.
+   >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Die auf dieser Vorlage basierenden Code-basierten Erlebnisse müssen denselben Authoring-Modus verwenden.
 
 1. Öffnen Sie den [Personalisierungseditor](../personalization/personalization-build-expressions.md), um Ihren Code-Inhalt zu bearbeiten.
 
-1. Um ein bearbeitbares Formularfeld zu <!--To declare the variable you want users to edit-->, navigieren Sie zum Menü **[!UICONTROL Hilfsfunktionen]** im linken Navigationsbereich und fügen Sie das Attribut **inline** hinzu. Die Syntax zum Deklarieren und Aufrufen der Variablen wird automatisch in Ihren Inhalt eingefügt.
+1. Um ein bearbeitbares Formularfeld zu definieren<!--To declare the variable you want users to edit-->, navigieren Sie zum Menü **[!UICONTROL Hilfsfunktionen]** im linken Navigationsbereich und fügen Sie das Attribut **inline** hinzu. Die Syntax zum Deklarieren und Aufrufen der Variablen wird Ihrem Inhalt automatisch hinzugefügt.
 
    ![](assets/cbe-template-helper-inline.png){width="85%"}
 
@@ -70,8 +70,8 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
 
    | Aktion | Parameter | Beispiel |
    | ------- | ------- | ------- |
-   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Beim Hinzufügen der Vorlage zu Ihrem Inhalt wird dieser Standardwert verwendet, wenn Sie ihn nicht anpassen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Definieren eines **Labels** für das bearbeitbare Feld. Diese Beschriftung wird im Code-Editor beim Bearbeiten der Vorlagenfelder angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Wenn Sie die Vorlage zu Ihrem Inhalt hinzufügen, wird dieser Standardwert verwendet, sofern Sie keine Anpassung vornehmen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Definieren eines **Labels** für das bearbeitbare Feld. Dieses Label wird beim Bearbeiten von Vorlagenfeldern im Code-Editor angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
    <!--
     | Action | Parameter| Example |
@@ -80,7 +80,7 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
     -->
 
-1. Klicken Sie **[!UICONTROL Formularfelder in Vorschau anzeigen]**, um zu überprüfen, wie die bearbeitbaren Formularfelder in den Code-basierten Erlebnissen angezeigt werden, die diese Vorlage anwenden.
+1. Klicken Sie auf **[!UICONTROL Vorschau der Formularfelder anzeigen]**, um zu überprüfen, wie die bearbeitbaren Formularfelder in den Code-basierten Erlebnissen angezeigt werden, die diese Vorlage anwenden.
 
    ![](assets/cbe-template-form-field-preview.png){width="85%"}
 
@@ -88,7 +88,7 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
 
    ![](assets/cbe-template-call-variable.png){width="85%"}
 
-1. Gehen Sie ähnlich vor, um weitere bearbeitbare Felder hinzuzufügen, indem Sie sie jeweils mit den Tags `{{#inline}}` und `{{/inline}}` einschließen.
+1. Gehen Sie ähnlich vor, um weitere bearbeitbare Felder hinzuzufügen, und umschließen Sie sie jeweils mit den Tags `{{#inline}}` und `{{/inline}}`.
 
 1. Bearbeiten Sie den Rest Ihres Codes nach Bedarf, einschließlich der IDs, die den von Ihnen definierten bearbeitbaren Feldern entsprechen. [Weitere Informationen](create-code-based.md#edit-code)
 
@@ -98,27 +98,27 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitet werden kann, erstellen Sie
 
 ### Verwenden von Entscheidungsrichtlinien in bearbeitbaren Feldformularen {#decision-policy-in-form-fields}
 
-Beim Erstellen einer Code-basierten Erlebnis-Inhaltsvorlage können Sie eine Entscheidungsrichtlinie verwenden, um Angebote in Ihren bearbeitbaren Formularfeldern zu nutzen.
+Beim Erstellen einer Inhaltsvorlage für Code-basierte Erlebnisse können Sie eine Entscheidungsrichtlinie verwenden, um Angebote in Ihren bearbeitbaren Formularfeldern zu nutzen.
 
-1. Erstellen Sie eine Code-basierte Erlebnisvorlage wie oben [ beschrieben](#add-editable-fields).
+1. Erstellen Sie eine Vorlage für Code-basierte Erlebnisse wie [oben](#add-editable-fields) beschrieben.
 
-1. Klicken Sie **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** entweder über das Symbol **[!UICONTROL Entscheidungsrichtlinie anzeigen]** in der rechten Leiste des Bearbeitungsbildschirms oder im Abschnitt **[!UICONTROL Entscheidungsrichtlinie]** im linken Menü auf Ausdruckseditor.
+1. Klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** entweder über das Symbol **[!UICONTROL Entscheidungsfindung anzeigen]** in der rechten Leiste des Bearbeitungsbildschirms oder im Abschnitt **[!UICONTROL Entscheidungsrichtlinie]** im linken Menü im Ausdruckseditor.
 
-   Wie Sie eine Entscheidungsrichtlinie erstellen, erfahren Sie in [diesem Abschnitt](../experience-decisioning/create-decision.md#add-decision).
+   In [diesem Abschnitt](../experience-decisioning/create-decision.md#add-decision) erfahren Sie, wie Sie eine Entscheidungsrichtlinie erstellen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt.
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. Fügen Sie nach dem `{{#each}}`-Tag den Code ein, der den bearbeitbaren Formularfeldern entspricht, die Sie hinzufügen möchten, und verwenden Sie dabei die **inline**-Syntax [oben](#add-editable-fields). Ersetzen Sie `"name"` durch eine eindeutige ID, um Ihr bearbeitbares Feld zu identifizieren. Verwenden Sie in diesem Beispiel „title“.
+1. Fügen Sie nach dem `{{#each}}`-Tag den Code ein, der den bearbeitbaren Formularfeldern entspricht, die Sie hinzufügen möchten, und verwenden Sie dabei die [oben](#add-editable-fields) beschriebene **Inline**-Syntax. Ersetzen Sie `"name"` durch eine eindeutige ID, um das bearbeitbare Feld zu identifizieren. Verwenden Sie in diesem Beispiel „title“.
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
-1. Klicken Sie **[!UICONTROL Formularfelder in Vorschau anzeigen]**, um zu überprüfen, wie die bearbeitbaren Formularfelder in den Code-basierten Erlebnissen angezeigt werden, die diese Vorlage anwenden.
+1. Klicken Sie auf **[!UICONTROL Vorschau der Formularfelder anzeigen]**, um zu überprüfen, wie die bearbeitbaren Formularfelder in den Code-basierten Erlebnissen angezeigt werden, die diese Vorlage anwenden.
 
    ![](assets/cbe-template-policy-preview.png){width="70%"}
 
-1. Fügen Sie den Rest Ihres Codes über dem `{{/each}}`-Tag ein. Verwenden Sie die `{{{name}}}` in Ihrem Code an jeder Stelle, an der Sie den Wert Ihres bearbeitbaren Felds anzeigen möchten. Ersetzen Sie in diesem Beispiel `name` durch „title“.
+1. Fügen Sie den Rest Ihres Codes über dem `{{/each}}`-Tag ein. Verwenden Sie die `{{{name}}}`-Syntax in Ihrem Code überall dort, wo der Wert des bearbeitbaren Felds angezeigt werden soll. Ersetzen Sie in diesem Beispiel `name` durch „title“.
 
    ![](assets/cbe-template-policy-variable.png){width="85%"}
 
@@ -147,12 +147,12 @@ Im Folgenden finden Sie einige Beispiele für JSON- und HTML-Vorlagen, darunter 
 
 >[!NOTE]
 >
->Beim Referenzieren der Inline-Felder in der JSON-Payload:
+>Achten Sie beim Referenzieren der Inline-Felder in der JSON-Payload auf Folgendes:
 >
->* Felder vom Typ Zeichenfolge müssen in doppelte Anführungszeichen gesetzt werden.
+>* Felder vom Typ „String“ müssen in doppelte Anführungszeichen gesetzt werden.
 >* Ganzzahlen oder boolesche Werte dürfen NICHT in doppelte Anführungszeichen gesetzt werden. (Siehe das Feld `number_of_items` im obigen Beispiel.)
 
-**JSON-Vorlage mit Decisioning:**
+**JSON-Vorlage mit Entscheidungsfindung:**
 
 ```
 { 
@@ -173,7 +173,7 @@ Im Folgenden finden Sie einige Beispiele für JSON- und HTML-Vorlagen, darunter 
 
 >[!NOTE]
 >
->Inline-Felder, für die Sie Entscheidungselemente verwenden möchten, müssen innerhalb des Entscheidungsrichtlinienblocks zwischen den Tags `{{#each}}` und `{{/each}}` platziert werden.
+>Inline-Felder, für die Sie Entscheidungselemente verwenden möchten, müssen innerhalb des Entscheidungsrichtlinienblocks zwischen den `{{#each}}`- und `{{/each}}`-Tags platziert werden.
 
 **HTML-Vorlage:**
 
@@ -206,19 +206,19 @@ Im Folgenden finden Sie einige Beispiele für JSON- und HTML-Vorlagen, darunter 
 
 Nachdem die Inhaltsvorlage mit vordefinierten bearbeitbaren Formularfeldern erstellt wurde, können Sie mit dieser Inhaltsvorlage ein Code-basiertes Erlebnis erstellen.
 
-Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey oder Kampagne bearbeiten, ohne den Personalisierungseditor öffnen zu müssen.
+Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey oder -Kampagne bearbeiten, ohne den Personalisierungseditor öffnen zu müssen.
 
 >[!NOTE]
 >
->Dieser Schritt wird in der Regel von einer Marketing-Rolle ausgeführt.
+>Dieser Schritt wird von einer Persona im Marketing ausgeführt.
 
-1. Wählen Sie auf dem Bildschirm Journey-Aktivität oder Kampagnenbearbeitung die Inhaltsvorlage aus, die bearbeitbare Formularfelder enthält. [Informationen zur Verwendung von Inhaltsvorlagen](../content-management/use-content-templates.md)
+1. Wählen Sie am Bildschirm der Journey-Aktivität oder zur Kampagnenbearbeitung die Inhaltsvorlage mit bearbeitbaren Formularfeldern aus. [Informationen zur Verwendung von Inhaltsvorlagen](../content-management/use-content-templates.md)
 
    ![](assets/cbe-campaign-apply-template.png){width="60%"}
 
    >[!CAUTION]
    >
-   >Die verfügbaren Vorlagen werden je nach zuvor ausgewählter Kanalkonfiguration entweder auf HTML oder auf JSON angewendet. Es werden nur kompatible Vorlagen angezeigt.
+   >Die zur Auswahl stehenden Vorlagen sind je nach zuvor ausgewählter Kanalkonfiguration auf HTML oder JSON beschränkt. Es werden nur kompatible Vorlagen angezeigt.
 
 1. Die Felder, die in der ausgewählten Inhaltsvorlage vordefiniert waren, sind im rechten Bereich verfügbar. <!--The code preview is displayed with the rest of the code.-->
 
@@ -230,7 +230,7 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
    ![](assets/cbe-campaign-form-fields-edit.png){width="60%"}
 
-   * Klicken Sie auf das Personalisierungssymbol, um jedes Feld mit dem [Code-Editor“ ](../personalization/personalization-build-expressions.md) bearbeiten.
+   * Klicken Sie auf das Personalisierungssymbol, um jedes Feld mit dem [Code-Editor](../personalization/personalization-build-expressions.md) zu bearbeiten.
 
    ![](assets/cbe-campaign-form-fields-edit-perso.png){width="70%"}
 
@@ -238,12 +238,12 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
    >
    >In beiden Fällen können Sie jeweils nur ein Feld und nicht den Rest des Code-basierten Erlebnisinhalts bearbeiten.
 
-1. Wenn [ Inhaltsvorlage eine ](#decision-policy-in-form-fields)Entscheidungsrichtlinie“ hinzugefügt wurde, enthält sie alle im [Angebotskatalogschema“ verfügbaren Attribute](../experience-decisioning/catalogs.md). Sie können das Entscheidungselement inline oder mit dem Ausdruckseditor bearbeiten.
+1. Wenn einer Inhaltsvorlage eine [Entscheidungsrichtlinie](#decision-policy-in-form-fields) hinzugefügt wurde, enthält sie alle im [Angebotskatalogschema](../experience-decisioning/catalogs.md) verfügbaren Attribute. Sie können das Entscheidungselement inline oder mit dem Ausdruckseditor bearbeiten.
 
-1. Um den Rest des Codes zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Code bearbeiten]** und aktualisieren Sie Ihre gesamten Code-basierten Erlebnisinhalte, einschließlich der bearbeitbaren Formularfelder. [Weitere Informationen](create-code-based.md#edit-code)
+1. Um den Rest des Codes zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Code bearbeiten]** und aktualisieren Sie Ihren gesamten Code-basierten Erlebnisinhalt, einschließlich der bearbeitbaren Formularfelder. [Weitere Informationen](create-code-based.md#edit-code)
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie bearbeitbare Felder zu Code-basierten Inhaltsvorlagen von Erlebniskanälen hinzufügen.
+Erfahren Sie, wie Sie bearbeitbare Felder zu Inhaltsvorlagen für Code-basierte Erlebniskanäle hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
