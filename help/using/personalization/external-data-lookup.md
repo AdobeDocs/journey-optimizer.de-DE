@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
+source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Für beliebige Variablenkopfwerte, Abfrage-/Pfadparameter oder Anfrage-Payload-W
 
 Parameternamen:
 
-* Kopfzeilenparameter: „header.&lt;parameter-name>
+* Kopfzeilenparameter: `header.<parameter-name>`
 * Abfrageparameter: `query.<parameter-name>`
 * Payload-Parameter: `payload.<parameter-name>`
 * Pfadparameter: `dynamic_path.<parameter-name>`
