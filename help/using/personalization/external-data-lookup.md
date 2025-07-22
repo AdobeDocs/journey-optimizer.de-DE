@@ -95,7 +95,7 @@ Für beliebige Variablenkopfwerte, Abfrage-/Pfadparameter oder Anfrage-Payload-W
 
 Parameternamen:
 
-* Kopfzeilenparameter: „header.<parameter-name>
+* Kopfzeilenparameter: „header.&lt;parameter-name>
 * Abfrageparameter: `query.<parameter-name>`
 * Payload-Parameter: `payload.<parameter-name>`
 * Pfadparameter: `dynamic_path.<parameter-name>`
