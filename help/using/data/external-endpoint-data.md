@@ -197,10 +197,10 @@ Für beliebige Variablenkopfwerte, Abfrage-/Pfadparameter oder Anfrage-Payload-W
 
 Parameternamen:
 
-Kopfzeilenparameter: Kopfzeile.<parameter-name>
-Abfrageparameter: Abfrage.<parameter-name>
-Payload-Parameter: Payload.<parameter-name>
-Pfadparameter: dynamic_path.<parameter-name>
+Kopfzeilenparameter: Kopfzeile.&lt;parameter-name>
+Abfrageparameter: Abfrage.&lt;parameter-name>
+Payload-Parameter: Payload.&lt;parameter-name>
+Pfadparameter: dynamic_path.&lt;parameter-name>
 Beispiel:
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
