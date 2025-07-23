@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
+
 
 # Erstellen einer WhatsApp-Nachricht {#create-whatsapp}
 
@@ -71,7 +71,7 @@ Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie 
 
    ![](assets/whatsapp-create-jo.png)
 
-1. Geben Sie allgemeine Informationen (Titel, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
+1. Geben Sie allgemeine Informationen (Label, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
@@ -154,8 +154,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau des Inhalts Ihrer WhatsApp-Nachricht, der gekürzten URLs und der personalisierten Inhalte anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
-Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre WhatsApp-Nachricht an Ihre Zielgruppe senden. Diese Schritte werden auf [dieser Seite](send-whatsapp.md) im Detail beschrieben.
-
+Nachdem Sie Ihre Tests und den Inhalt validiert haben, können Sie [Ihre WhatsApp-Nachricht senden](send-whatsapp.md) an Ihre Zielgruppe senden und deren Leistung durch [Reporting](../reports/campaign-global-report-cja.md) überwachen.
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
