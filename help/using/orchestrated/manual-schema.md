@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br><ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br><ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -80,6 +80,21 @@ Sie können jetzt mit dem Hinzufügen von Attributen zu Ihrem Schema beginnen, u
 
 Fügen Sie als Nächstes Attribute hinzu, um die Struktur Ihres Schemas zu definieren. Diese Felder stellen die wichtigsten Datenpunkte dar, die in orchestrierten Kampagnen verwendet werden, z. B. Kundenkennungen, Mitgliedschaftsdetails und Aktivitätsdaten. Sie genau zu definieren, stellt eine zuverlässige Personalisierung, Segmentierung und Verfolgung sicher.
 
+Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens ein Identitätsfeld des Typs `String` mit einem zugehörigen Identity-Namespace enthalten. Dadurch wird die Kompatibilität mit den Targeting- und Identitätsauflösungsfunktionen von Adobe Journey Optimizer sichergestellt.
+
++++Beim Erstellen relationaler Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
+
+* **ENUM**\
+  ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
+
+* **Schemakennzeichnung für Data Governance**\
+  Die Kennzeichnung wird auf der Ebene der Schemafelder unterstützt, um Data-Governance-Richtlinien wie Zugriffskontrolle und Nutzungsbeschränkungen durchzusetzen. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verfügbar.
+
+* **Zusammengesetzter Schlüssel**\
+  Zusammengesetzte Primärschlüssel werden in relationalen Schemadefinitionen unterstützt, sodass mehrere Felder zusammen verwendet werden können, um Datensätze eindeutig zu identifizieren.
+
++++
+
 1. Klicken Sie auf der Arbeitsfläche auf ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben Ihrem **Schemanamen**, um Attribute hinzuzufügen.
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
@@ -105,7 +120,11 @@ Fügen Sie als Nächstes Attribute hinzu, um die Struktur Ihres Schemas zu defin
 
 1. Weisen Sie die entsprechenden Felder als **[!UICONTROL Primären Schlüssel]** und **[!UICONTROL Versionsdeskriptor)]**.
 
-   Der **[!UICONTROL Primäre Schlüssel]** stellt sicher, dass jeder Datensatz eindeutig identifiziert wird, während der **[!UICONTROL Versionsdeskriptor]** im Laufe der Zeit Aktualisierungen erfasst, was eine Änderungsdatenerfassung und eine unterstützende Datenspiegelung ermöglicht.
+   Stellen Sie beim Erstellen eines manuellen Schemas sicher, dass die folgenden wichtigen Felder enthalten sind:
+
+   * Mindestens einen Primärschlüssel,
+   * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
+   * Bei der Aufnahme von Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String` den Typ der Datenänderung an (z. B. Einfügen, Aktualisieren, Löschen) und ermöglicht die inkrementelle Verarbeitung.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -149,11 +168,19 @@ Nachdem Sie Ihr Schema definiert haben, besteht der nächste Schritt darin, eine
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihren **[!UICONTROL Datensatz]** ein und klicken Sie auf **[!UICONTROL Beenden]**.
 
-1. Aktivieren Sie die Option **Orchestrierte Kampagnen**, um den Datensatz für die Verwendung in Ihren AJO-Kampagnen verfügbar zu machen.
+Jetzt müssen Sie Ihren Datensatz für Kampagnen orchestrieren aktivieren.
 
-   Die Aktivierung kann einige Minuten dauern. Die Datenaufnahme ist erst möglich, nachdem die Option vollständig aktiviert wurde.
+## Datensatz für orchestrierte Kampagnen aktivieren {#enable}
+
+Nachdem Sie Ihren Datensatz erstellt haben, müssen Sie ihn explizit für orchestrierte Kampagnen aktivieren. Dadurch wird sichergestellt, dass Ihr Datensatz für die Echtzeit-Orchestrierung und -Personalisierung in Adobe Journey Optimizer verfügbar ist.
+
+1. Suchen Sie Ihren Datensatz in der **[!UICONTROL Datensätze]**-Liste.
+
+1. Aktivieren Sie in **[!UICONTROL Einstellungen]** Datensätze“ die Option **Orchestrierte Kampagnen**, um den Datensatz für die Verwendung in Ihren orchestrierten Kampagnen verfügbar zu machen.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
+
+1. Warten Sie einige Minuten, bis der Aktivierungsprozess abgeschlossen ist. Beachten Sie, dass die Datenaufnahme und Kampagnennutzung erst möglich sind, wenn diese Einstellung vollständig aktiviert ist.
 
 Sie können jetzt mit der Aufnahme von Daten in Ihr Schema beginnen, indem Sie die Quelle Ihrer Wahl verwenden.
 
