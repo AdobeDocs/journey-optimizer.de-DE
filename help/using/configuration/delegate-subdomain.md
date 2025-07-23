@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 100%
+source-wordcount: '1999'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
 
    >[!NOTE]
    >
-   >Alle fehlenden Einträge, also die noch nicht in Ihrer Hosting-Lösung erstellten Einträge, werden aufgelistet.
+   >Stellen Sie sicher, dass alle Datensätze ordnungsgemäß erstellt wurden, bevor Sie fortfahren.
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
@@ -164,7 +164,7 @@ Um eine Subdomain mit CNAMEs einzurichten, führen Sie die folgenden Schritte au
 
    >[!NOTE]
    >
-   >Alle fehlenden Einträge, also die noch nicht in Ihrer Hosting-Lösung erstellten Einträge, werden aufgelistet.
+   >Stellen Sie sicher, dass alle Datensätze ordnungsgemäß erstellt wurden, bevor Sie fortfahren.
 
 1. Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“ und klicken Sie dann auf **[!UICONTROL Senden]**.
 
@@ -252,4 +252,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
