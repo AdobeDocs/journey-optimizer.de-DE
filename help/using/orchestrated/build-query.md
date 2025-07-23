@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Regel erstellen
-description: Erfahren Sie, wie Sie Regeln für Ihre koordinierten Kampagnen erstellen
+title: Erstellen Ihrer ersten Regel
+description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,17 +10,17 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 51%
+ht-degree: 97%
 
 ---
 
-# Erste Regel erstellen {#build-query}
+# Erstellen Ihrer ersten Regel {#build-query}
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/><b>[Erstellen der ersten Abfrage](build-query.md)</b><br/><br/>[Ausdrücke bearbeiten](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/><b>[Erstellen der ersten Abfrage](build-query.md)</b><br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,61 +36,61 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 >[!ENDSHADEBOX]
 
-Die wichtigsten Schritte zum Erstellen von Regeln für Ihre orchestrierten Kampagnen sind wie folgt:
+Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen lauten wie folgt:
 
-1. **Bedingungen hinzufügen** - Erstellen Sie benutzerdefinierte Bedingungen, um Ihre Abfrage zu filtern, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
-1. **Bedingungen kombinieren** - Ordnen Sie die Bedingungen auf der Arbeitsfläche mithilfe von Gruppen und logischen Operatoren an.
-1. **Regel überprüfen und validieren** - Überprüfen Sie die resultierenden Daten Ihrer Regel, bevor Sie sie speichern.
+1. **Hinzufügen von Bedingungen**: Erstellen Sie benutzerdefinierte Bedingungen zum Filtern Ihrer Abfrage, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
+1. **Kombinieren von Bedingungen**: Ordnen Sie Bedingungen mithilfe von Gruppen und logischen Operatoren auf der Arbeitsfläche an.
+1. **Überprüfen und Validieren der Regel**: Überprüfen Sie die resultierenden Daten Ihrer Regel, bevor Sie sie speichern.
 
-## Bedingung hinzufügen {#conditions}
+## Hinzufügen einer Bedingung {#conditions}
 
-Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
+Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
-1. Greifen Sie über die Aktivität **[!UICONTROL Zielgruppe aufbauen]** auf den Regel-Builder zu.
+1. Greifen Sie über die Aktivität **[!UICONTROL Zielgruppe erstellen]** auf den Regel-Builder zu.
 
-1. Klicken Sie auf **Schaltfläche „Bedingung hinzufügen**, um eine erste Bedingung für Ihre Abfrage zu erstellen.
+1. Klicken Sie auf die Schaltfläche **Bedingung hinzufügen**, um eine erste Bedingung für Ihre Abfrage zu erstellen.
 
    Sie können Ihre Abfrage auch mit einem vordefinierten Filter starten. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Vordefinierten Filter auswählen]**.
 
-   ![Bild mit dem Regel-Builder](assets/rule-builder-add.png)
+   ![Bild, das den Regel-Builder zeigt](assets/rule-builder-add.png)
 
-1. Identifizieren Sie das Attribut aus der Datenbank, das als Kriterium für Ihre Bedingung verwendet werden soll. Das Symbol „i“ neben einem Attribut zeigt Informationen über die Tabelle, in der es gespeichert ist, und seinen Datentyp an.
+1. Identifizieren Sie das Attribut aus der Datenbank, das als Kriterium für Ihre Bedingung verwendet werden soll. Das Symbol „i“ neben einem Attribut gibt Auskunft über die Tabelle, in der das Attribut gespeichert ist, sowie über seinen Datentyp.
 
-   ![Bild, das die Auswahl eines Attributs anzeigt](assets/rule-builder-select-attribute.png)
+   ![Bild, das die Auswahl eines Attributs zeigt](assets/rule-builder-select-attribute.png)
 
    >[!NOTE]
    >
-   >Mit der Schaltfläche **Ausdruck bearbeiten** können Sie mit dem Ausdruckseditor einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
+   >Über die Schaltfläche **Ausdruck bearbeiten** können Sie den Ausdruckseditor starten, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
 
-1. Klicken Sie auf ![Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) neben einem Attribut, um auf diese zusätzlichen Optionen zuzugreifen:
+1. Klicken Sie auf die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) neben einem Attribut, um auf folgende zusätzliche Optionen zuzugreifen:
 
 +++ Werteverteilung
 
    Analysieren Sie die Verteilung der Werte für ein bestimmtes Attribut in der Tabelle. Diese Funktion ist nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
 
-   Bei Attributen mit einer großen Anzahl von Werten zeigt das Tool nur die ersten zwanzig an. In solchen Fällen wird die Benachrichtigung **[!UICONTROL Teilweise geladen]** angezeigt, um auf diese Einschränkung hinzuweisen. Sie können erweiterte Filter anwenden, um die angezeigten Ergebnisse zu verfeinern und sich auf bestimmte Werte oder Teilmengen von Daten zu konzentrieren.
+   Bei Attributen mit einer großen Anzahl von Werten zeigt das Tool nur die ersten zwanzig an. In solchen Fällen wird die Benachrichtigung **[!UICONTROL Teilweise geladen]** angezeigt, um auf diese Einschränkung hinzuweisen. Sie können erweiterte Filter anwenden, um die angezeigten Ergebnisse einzugrenzen und sich auf bestimmte Werte oder Teilmengen von Daten zu konzentrieren. 
 
-   ![Bild, das die Schnittstelle Verteilung der Werte zeigt](assets/rule-builder-distribution-values.png)
+   ![Bild, das die Oberfläche der Werteverteilung zeigt](assets/rule-builder-distribution-values.png)
 
 +++
 
 +++ Zu Favoriten hinzufügen
 
-   Durch das Hinzufügen von Attributen zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Attribute. Sie können bis zu 20 Attribute zu Favoriten hinzufügen. Allen Benutzenden in einer Organisation werden bevorzugte und zuletzt verwendete Attribute zugeordnet, um die Zugänglichkeit auf verschiedenen Computern und ein nahtloses Erlebnis auf allen Geräten sicherzustellen.
+   Durch das Hinzufügen von Attributen zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Attribute. Sie können bis zu 20 Attribute zu den Favoriten hinzufügen. Allen Benutzenden in einer Organisation werden bevorzugte und zuletzt verwendete Attribute zugeordnet, um die Barrierefreiheit auf verschiedenen Computern und ein nahtloses Erlebnis auf allen Geräten sicherzustellen.
 
-   Um auf die von Ihnen favorisierten Attribute zuzugreifen, verwenden Sie das Menü **[!UICONTROL Favoriten und Zuletzt verwendet]**. Favoritenattribute werden zuerst angezeigt, gefolgt von kürzlich verwendeten Attributen, damit Sie die erforderlichen Attribute leicht finden können. Um ein Attribut aus den Favoriten zu entfernen, klicken Sie erneut auf das Sternsymbol.
+   Um auf die von Ihnen zu den Favoriten hinzugefügten Attribute zuzugreifen, verwenden Sie das Menü **[!UICONTROL Favoriten und zuletzt ausgewertet]**. Als Favoriten markierte Attribute werden zuerst angezeigt, gefolgt von den zuletzt verwendeten Attributen, sodass die benötigten Attribute leicht gefunden werden können. Um ein Attribut aus den Favoriten zu entfernen, klicken Sie erneut auf das Sternsymbol.
 
-   ![Bild mit der Favoriten-Oberfläche](assets/rule-builder-favorites.png)
+   ![Bild, das die Favoritenoberfläche zeigt](assets/rule-builder-favorites.png)
 
 +++
 
-1. Klicken Sie **[!UICONTROL Bestätigen]**, um das ausgewählte Attribut zu Ihrer Bedingung hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um das ausgewählte Attribut zu Ihrer Bedingung hinzuzufügen.
 
 1. Es wird ein Eigenschaftenbereich angezeigt, in dem Sie den gewünschten Wert für das Attribut konfigurieren können.
 
    ![Bild, das den Regel-Builder mit einer hinzugefügten Bedingung zeigt](assets/rule-builder-condition.png)
 
-1. Wählen Sie **[!UICONTROL Operator]** aus der Dropdown-Liste aus. Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
+1. Wählen Sie in der Dropdown-Liste den anzuwendenden **[!UICONTROL Operator]** aus. Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
 
    +++Liste der verfügbaren Operatoren
 
@@ -113,17 +113,17 @@ Gehen Sie wie folgt vor, um Bedingungen in Ihrer Abfrage hinzuzufügen:
    | Ist wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Das Platzhalterzeichen dient als „Joker“, um Namen wie „Meier“ zu finden. |
    | Ist nicht wie | Dieser Operator ähnelt „Enthält“ und erlaubt das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, werden nicht ausgegeben. |
 
-   +++
++++
 
-1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können den Ausdruckseditor auch verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf das Symbol ![Bild mit dem Symbol für den Ausdruckseditor](assets/do-not-localize/rule-builder-icon-editor.svg). [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
+1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell einen Ausdruck zu definieren. Klicken Sie dazu auf das Symbol ![Bild mit dem Symbol für den Ausdruckseditor](assets/do-not-localize/rule-builder-icon-editor.svg). [Erfahren Sie, wie Sie Ausdrücke bearbeiten](../orchestrated/edit-expressions.md)
 
    Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
 
-   +++Siehe Beispiel
+   +++Beispiel
 
    ![Bild, das die Voreinstellungsoption zeigt](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -155,7 +155,7 @@ Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfr
 
 +++Abfragebeispiel
 
-Hier richtet sich die Abfrage an Empfängerinnen und Empfänger, die Käufe im Zusammenhang mit dem Brewmsaster-Produkt für mehr als 100 € getätigt haben.
+Hier zielt die Abfrage auf Empfangende ab, die im Zusammenhang mit dem Brewmaster-Produkt Käufe in der Höhe von mindestens 100 $ getätigt haben.
 
 1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
 
@@ -163,7 +163,7 @@ Hier richtet sich die Abfrage an Empfängerinnen und Empfänger, die Käufe im Z
 
    ![Screenshot der Tabelle „Käufe“](assets/rule-builder-1-n-purchase.png)
 
-1. Fügen Sie Ihren Anforderungen entsprechende Unterbedingungen hinzu.
+1. Fügen Sie Unterbedingungen hinzu, die Ihren Anforderungen entsprechen.
 
    ![Screenshot der Tabelle „Käufe“](assets/rule-builder-1-n-collection.png)
 
@@ -181,9 +181,9 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 ## Kombinieren von Bedingungen mithilfe von Operatoren {#operators}
 
-Jedes Mal, wenn Sie Ihrer Regel eine neue Bedingung hinzufügen, wird sie durch einen AND-Operator automatisch mit **vorhandenen Bedingung**. Dies bedeutet, dass Ergebnisse aus den beiden Bedingungen kombiniert werden.
+Jedes Mal, wenn Sie Ihrer Regel eine neue Bedingung hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der bestehenden Bedingung verknüpft. Dadurch werden die Ergebnisse der beiden Bedingungen kombiniert.
 
-Um den Operator zwischen den Bedingungen zu wechseln, klicken Sie darauf und wählen Sie den gewünschten Operator aus.
+Um den Operator zwischen den Bedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator aus.
 
 ![Abfragebeispiel](assets/rule-builder-change-operator.png)
 
@@ -191,47 +191,47 @@ Die folgenden Operatoren sind verfügbar:
 
 * **UND (Schnittmenge)**: Kombiniert Ergebnisse, die allen Filterkomponenten in den ausgehenden Transitionen entsprechen.
 * **ODER (Vereinigung)**: Umfasst Ergebnisse, die mindestens einer der Filterkomponenten in den ausgehenden Transitionen entsprechen.
-* **AUSNAHME (Ausschluss)**: Schließt Ergebnisse aus, die mit allen Filterkomponenten in der ausgehenden Transition übereinstimmen.
+* **AUSSER (Ausschluss)**: Schließt Ergebnisse aus, die allen Filterkomponenten in der ausgehenden Transition entsprechen.
 
-## Bedingungen bearbeiten {#manipulate}
+## Bearbeiten von Bedingungen {#manipulate}
 
 Die Symbolleiste der Arbeitsfläche des Regel-Builders bietet Optionen zum einfachen Bearbeiten der Bedingungen innerhalb Ihrer Regel:
 
-| Symbolleistensymbol | Beschreibung |
+| Symbol auf Symbolleiste | Beschreibung |
 |--- |--- |
-| ![Auswahlsymbol „Nach oben“](assets/do-not-localize/rule-builder-icon-up.svg) | Verschieben Sie die Komponente in einer Zeile nach oben. |
-| ![Auswahlsymbol „Nach unten“](assets/do-not-localize/rule-builder-icon-down.svg) | Verschieben der Komponente in einer Zeile nach unten. |
-| ![Symbol für die Gruppenauswahl](assets/do-not-localize/rule-builder-icon-group.svg) | Fügen Sie zwei Komponenten in eine Gruppe ein. |
-| ![Auswahlsymbol „Gruppierung aufheben](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Trennen Sie die Komponenten einer einzelnen Gruppe. |
-| ![Symbol „Alle erweitern“](assets/do-not-localize/rule-builder-icon-expand.svg) | Erweitern Sie alle Gruppen. |
-| ![Symbol „Alle reduzieren“](assets/do-not-localize/rule-builder-icon-collapse.svg) | Alle Gruppen reduzieren. |
-| ![Symbol „Alle entfernen“](assets/do-not-localize/rule-builder-icon-delete.svg) | Entfernen Sie alle Gruppen und Komponenten. |
+| ![Symbol „Auswahl nach oben“](assets/do-not-localize/rule-builder-icon-up.svg) | Verschiebt die Komponente eine Zeile nach oben. |
+| ![Symbol „Auswahl nach unten“](assets/do-not-localize/rule-builder-icon-down.svg) | Verschiebt die Komponente eine Zeile nach unten. |
+| ![Symbol „Auswahl gruppieren“](assets/do-not-localize/rule-builder-icon-group.svg) | Fügt zwei Komponenten zu einer Gruppe zusammen. |
+| ![Symbol „Gruppierung der Auswahl aufheben“](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Trennt die Komponenten einer einzelnen Gruppe. |
+| ![Symbol „Alle erweitern“](assets/do-not-localize/rule-builder-icon-expand.svg) | Erweitert alle Gruppen. |
+| ![Symbol „Alle reduzieren“](assets/do-not-localize/rule-builder-icon-collapse.svg) | Reduziert alle Gruppen. |
+| ![Symbol „Alle entfernen“](assets/do-not-localize/rule-builder-icon-delete.svg) | Entfernt alle Gruppen und Komponenten. |
 
-Je nach Bedarf müssen Sie möglicherweise Zwischengruppen von Komponenten erstellen, indem Sie Komponenten zu einer Gruppe gruppieren und miteinander verknüpfen.
+Abhängig von Ihren Anforderungen müssen Sie möglicherweise Zwischengruppen von Komponenten erstellen, indem Sie Komponenten zu einer Gruppe zusammenfassen und miteinander verknüpfen. 
 
-* Um zwei vorhandene Bedingungen zu gruppieren, wählen Sie eine der beiden Bedingungen aus und klicken Sie auf die Schaltfläche ![Auswahl nach oben](assets/do-not-localize/rule-builder-icon-up.svg) oder ![Auswahl nach unten](assets/do-not-localize/rule-builder-icon-down.svg), um sie mit der Bedingung oben oder unten zu gruppieren.
+* Um zwei vorhandene Bedingungen zu gruppieren, wählen Sie eine der beiden Bedingungen aus und klicken Sie auf die Schaltfläche ![Symbol „Auswahl nach oben“](assets/do-not-localize/rule-builder-icon-up.svg) oder ![Symbol „Auswahl nach unten“](assets/do-not-localize/rule-builder-icon-down.svg), um sie mit der Bedingung darüber oder darunter zu gruppieren.
 
-* Um eine vorhandene Bedingung mit einer neuen zu gruppieren, wählen Sie die Bedingung aus, klicken Sie auf die Schaltfläche ![Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Gruppe hinzufügen]**. Wählen Sie das neue Attribut aus, das der Gruppe hinzugefügt werden soll, und bestätigen Sie dann Ihre Auswahl.
+* Um eine vorhandene Bedingung mit einer neuen zu gruppieren, wählen Sie die Bedingung aus, klicken Sie auf die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Gruppe hinzufügen]**. Wählen Sie das neue Attribut aus, das der Gruppe hinzugefügt werden soll, und bestätigen Sie dann Ihre Auswahl.
 
   ![](assets/rule-builder-edit-groups.png)
 
-Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Kunden anzusprechen, die entweder das BrewMaster- oder das VanillaVelvet-Produkt gekauft haben.
+Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Kundinnen und Kunden anzusprechen, die entweder das BrewMaster- oder das VanillaVelvet-Produkt gekauft haben.
 
 ![](assets/rule-builder-groups.png)
 
 ## Überprüfen und Validieren einer Abfrage
 
-Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie mit dem Bereich **Regeleigenschaften** überprüfen. Verfügbare Vorgänge sind:
+Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese im Bereich **Regeleigenschaften** überprüfen. Verfügbare Vorgänge sind:
 
 * **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
-* **Berechnen**: Aktualisiert und zeigt die Anzahl der Datensätze an, auf die die Regel abzielt.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus, oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung ab. 
+* **Berechnen**: Aktualisiert die Anzahl der Einträge, auf die Ihre Regel abzielt, und zeigt diese an.
+* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung. 
 
 <br/>
 
-    >[ !WICHTIG]
+    >[!IMPORTANT]
     >
-    >Wählen Sie einen vordefinierten Filter aus dem Bereich Regeleigenschaften aus, um die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter zu ersetzen.
+    >Wählen Sie im Bereich „Regeleigenschaften“ einen vordefinierten Filter aus, der die in der Arbeitsfläche erstellte Regel ersetzt.
 
-Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** im , um sie zu speichern.
+Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um sie zu speichern.

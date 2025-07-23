@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 75%
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 75%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[ Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/><b>[Ausdrücke bearbeiten](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) - [Zielgruppe aufbauen](activities/build-audience.md) - [Dimension ändern](activities/change-dimension.md) - [Kanalaktivitäten](activities/channels.md) - [Kombinieren](activities/combine.md) - [Anreicherung](activities/deduplication.md) - [Formulare](activities/enrichment.md) - [Abstimmung](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) ->Zielgruppe speichern[ -AufspaltungWarten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/><b>[Bearbeiten von Ausdrücken](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,7 +42,7 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Dieser Modus bietet erweiterte Funktionen, mit denen Sie die Werte zur Durchführung bestimmter Abfragen ändern können, z. B. Bearbeitung von Daten, Strings, numerischen Feldern und Sortierungen.
 
-Der Ausdruckseditor ist über die Schaltfläche „Ausdruck bearbeiten **[!UICONTROL des Regel-Builders verfügbar]** die beim Konfigurieren einer benutzerdefinierten Bedingung für die Felder **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** verfügbar ist.
+Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Bedingung im Regel-Builder unter **[!UICONTROL Ausdruck bearbeiten]** für die Felder **[!UICONTROL Attribut]** und **[!UICONTROL Wert]** zur Verfügung.
 
 | Zugriff über das Feld **Attribut** | Zugriff über das Feld **Wert** |
 | --- | --- |
@@ -134,33 +134,33 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>AddDays</strong></td>
-<td>Fügt einem Datum eine Anzahl von Tagen hinzu</td>
-<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Tagen hinzu</td>
+<td>AddDays(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddHours</strong></td>
-<td>Fügt einem Datum mehrere Stunden hinzu</td>
-<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Stunden hinzu</td>
+<td>AddHours(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMinutes</strong></td>
-<td>Fügt einem Datum eine Anzahl von Minuten hinzu</td>
-<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Minuten hinzu</td>
+<td>AddMinutes(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMonths</strong></td>
-<td>Fügt einem Datum eine Anzahl von Monaten hinzu</td>
-<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Monaten hinzu</td>
+<td>AddMonths(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddSeconds</strong></td>
-<td>Fügt einem Datum eine Anzahl von Sekunden hinzu</td>
-<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Sekunden hinzu</td>
+<td>AddSeconds(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddYears</strong></td>
-<td>Fügt einem Datum mehrere Jahre hinzu</td>
-<td>AddYears(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Fügt dem Datum eine Anzahl an Jahren hinzu</td>
+<td>AddYears(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
@@ -174,13 +174,13 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
-<td>Gibt nur das Datum zurück (mit der Zeit um 00:00 Uhr)</td>
-<td>DateOnly(&lt;date&gt;)</td>
+<td>Gibt nur das Datum zurück (mit der Uhrzeit 00:00 Uhr)</td>
+<td>DateOnly(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>Tag</strong></td>
-<td>Gibt die Zahl zurück, die den Tag des Datums darstellt</td>
-<td>Tag(&lt;date&gt;)</td>
+<td>Gibt die Zahl zurück, die dem Tag des Datums entspricht</td>
+<td>Day(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>DayOfYear</strong></td>
@@ -204,53 +204,53 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>DaysOld</strong></td>
-<td>Gibt das Alter in Tagen eines Datums zurück.</td>
-<td>DaysOld(&lt;date&gt;)</td>
+<td>Gibt das Alter in Tagen in Bezug auf ein Datum zurück</td>
+<td>DaysOld(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>GetDate</strong></td>
-<td>Gibt das aktuelle Systemdatum des Servers aus</td>
+<td>Gibt das aktuelle Systemdatum des Servers zurück</td>
 <td>GetDate()</td>
 </tr>
 <tr>
 <td><strong>Stunde</strong></td>
-<td>Gibt die Stunde des Datums zurück.</td>
-<td>HOUR(&lt;date&gt;)</td>
+<td>Gibt die Stunde der im Datum angegebenen Uhrzeit zurück</td>
+<td>Hour(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>HoursDiff</strong></td>
-<td>Gibt die Anzahl der Stunden zwischen zwei Datumsangaben zurück.</td>
-<td>HoursDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+<td>Gibt die Anzahl von Stunden zwischen zwei Daten zurück</td>
+<td>HoursDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
 <td><strong>Minute</strong></td>
-<td>Gibt die Minuten des Datums zurück.</td>
-<td>Minute(&lt;date&gt;)</td>
+<td>Gibt die Minuten der im Datum angegebenen Uhrzeit zurück</td>
+<td>Minute(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>MinutesDiff</strong></td>
-<td>Gibt die Anzahl von Minuten zwischen zwei Datumsangaben zurück.</td>
-<td>MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+<td>Gibt die Anzahl von Minuten zwischen zwei Daten zurück</td>
+<td>MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
 <td><strong>Monat</strong></td>
-<td>Gibt die Zahl für den Monat des Datums zurück.</td>
-<td>MONTH(&lt;date&gt;)</td>
+<td>Gibt die Zahl zurück, die dem Monat des Datums entspricht</td>
+<td>Month(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsAgo</strong></td>
-<td>Gibt das Datum zurück, das dem aktuellen Datum abzüglich n Monaten entspricht.</td>
-<td>Vor Monaten(&lt;number&gt;)</td>
+<td>Gibt das Datum zurück, das dem aktuellen Datum abzüglich n Monate entspricht</td>
+<td>MonthsAgo(&lt;Zahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsDiff</strong></td>
-<td>Gibt die Anzahl der Monate zwischen zwei Datumsangaben zurück.</td>
-<td>MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+<td>Gibt die Anzahl von Monaten zwischen zwei Daten zurück</td>
+<td>MonthsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsOld</strong></td>
-<td>Gibt das Alter in Monaten eines Datums zurück.</td>
-<td>monthsOld(&lt;date&gt;)</td>
+<td>Gibt das Alter in Monaten in Bezug auf ein Datum zurück</td>
+<td>MonthsOld(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>Oldest</strong></td>
@@ -259,53 +259,53 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>Second</strong></td>
-<td>Gibt die Sekunden des Datums zurück.</td>
-<td>Second(&lt;date&gt;)</td>
+<td>Gibt die Sekunden der im Datum angegebenen Uhrzeit zurück</td>
+<td>Second(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>SecondsDiff</strong></td>
-<td>Gibt die Anzahl der Sekunden zwischen zwei Datumsangaben zurück.</td>
-<td>SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+<td>Gibt die Anzahl von Sekunden zwischen zwei Daten zurück</td>
+<td>SecondsDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubDays</strong></td>
-<td>Subtrahiert eine Anzahl von Tagen von einem Datum.</td>
-<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Tagen von einem Datum ab</td>
+<td>SubDays(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubHours</strong></td>
-<td>Subtrahiert eine Anzahl von Stunden von einem Datum</td>
-<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Stunden von einem Datum ab</td>
+<td>SubHours(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMinutes</strong></td>
-<td>Subtrahiert eine Anzahl von Minuten von einem Datum.</td>
-<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Minuten von einem Datum ab</td>
+<td>SubMinutes(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMonths</strong></td>
-<td>Zieht eine Anzahl von Monaten von einem Datum ab</td>
-<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Monaten von einem Datum ab</td>
+<td>SubMonths(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubSeconds</strong></td>
-<td>Subtrahiert eine Anzahl von Sekunden von einem Datum</td>
-<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Sekunden von einem Datum ab</td>
+<td>SubSeconds(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubYears</strong></td>
-<td>Zieht eine Anzahl von Jahren von einem Datum ab</td>
-<td>SubYears(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Zieht eine Anzahl an Jahren von einem Datum ab</td>
+<td>SubYears(&lt;Datum&gt;, &lt;Anzahl&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDate</strong></td>
-<td>Konvertiert ein Datum + die Uhrzeit in ein Datum</td>
-<td>ToDate(&lt;date + time&gt;)</td>
+<td>Konvertiert Datum und Uhrzeit in ein Datum</td>
+<td>ToDate(&lt;Datum + Uhrzeit&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDateTime</strong></td>
-<td>Konvertiert eine Zeichenfolge in Datum + Uhrzeit</td>
-<td>ToDateTime(&lt;string&gt;)</td>
+<td>Konvertiert einen String in Datum und Uhrzeit</td>
+<td>ToDateTime(&lt;String&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimestamp</strong></td>
@@ -324,28 +324,28 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
-<td>Rundet ein Datum + eine Uhrzeit auf eine bestimmte Genauigkeit, ausgedrückt in Sekunden</td>
-<td>TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)</td>
+<td>Rundet eine Uhrzeit und ein Datum auf eine Genauigkeit von Sekunden</td>
+<td>TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
-<td>Rundet ein Datum auf das Quartal ab</td>
-<td>truncQuarter(&lt;date&gt;)</td>
+<td>Rundet ein Datum auf das Quartal</td>
+<td>TruncQuarter(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncTime</strong></td>
-<td>Rundet den Zeitanteil auf die nächste Sekunde auf.</td>
-<td>TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)</td>
+<td>Rundet die Uhrzeit auf die nächste Sekunde auf</td>
+<td> TruncTime(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
-<td>Rundet ein Datum auf die Woche ab</td>
-<td>truncWeek(&lt;date&gt;)</td>
+<td>Rundet ein Datum auf die Woche</td>
+<td>TruncWeek(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncYear</strong></td>
-<td>Rundet ein Datum + die Uhrzeit auf den 1. Januar des Jahres auf.</td>
-<td>truncYear(&lt;date&gt;)</td>
+<td>Rundet ein Datum und eine Uhrzeit auf den ersten Januar des Jahres</td>
+<td>TruncYear(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>WeekDay</strong></td>
@@ -354,13 +354,13 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>Jahr</strong></td>
-<td>Gibt die Zahl zurück, die das Jahr des Datums darstellt</td>
-<td>Jahr(&lt;date&gt;)</td>
+<td>Gibt die Zahl zurück, die dem Jahr des Datums entspricht</td>
+<td>Year(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearAndMonth</strong></td>
-<td>Gibt die Zahl zurück, die das Jahr und den Monat des Datums darstellt</td>
-<td>YearAndMonth(&lt;date&gt;)</td>
+<td>Gibt die Zahl zurück, die dem Jahr und Monat des Datums entspricht</td>
+<td>YearAndMonth(&lt;Datum&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsAgo</strong></td>
@@ -374,8 +374,8 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 </tr>
 <tr>
 <td><strong>YearsOld</strong></td>
-<td>Gibt das Alter in Jahren eines Datums zurück.</td>
-<td>YearsOld(&lt;date&gt;)</td>
+<td>Gibt das Alter in Jahren in Bezug auf ein Datum zurück</td>
+<td>YearsOld(&lt;Datum&gt;)</td>
 </tr>
 </tbody>
 </table>

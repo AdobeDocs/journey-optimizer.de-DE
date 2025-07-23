@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 41%
+ht-degree: 92%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 41%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Ausdrücke bearbeiten](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - [Kanalaktivitäten](channels.md) - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - <b>[Formulare](enrichment.md)</b> - [Abstimmung](fork.md) [&#128279;](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) ->Zielgruppe speichern[ -AufspaltungWarten](wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte beim Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) – [Zielgruppe erstellen](build-audience.md) – [Dimensionsänderung](change-dimension.md) – [Kanalaktivitäten](channels.md) – [Kombinieren](combine.md) – [Deduplizierung](deduplication.md) – <b>[Anreicherung](enrichment.md)</b> – [Verzweigung](fork.md) – [Abstimmung](reconciliation.md) – [Zielgruppe speichern](save-audience.md) – [Aufspaltung](split.md) – [Warten](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -44,7 +44,7 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Die Aktivität **[!UICONTROL Anreicherung]** ist eine **[!UICONTROL Targeting]**-Aktivität, mit der Sie Ihre Zielgruppendaten um zusätzliche Attribute erweitern können.
 
-Sie können diese Informationen nutzen, um Ihre Audience präziser zu segmentieren, basierend auf Verhaltensweisen, Vorlieben oder Anforderungen, und um personalisierte Nachrichten zu erstellen, die besser mit jedem Profil verbunden sind.
+Sie können diese Informationen nutzen, um Ihre Zielgruppe basierend auf Verhaltensweisen, Vorlieben oder Anforderungen präziser zu segmentieren und um personalisierte Nachrichten zu erstellen, die die Profile besser ansprechen.
 
 ## Hinzufügen einer Anreicherungsaktivität {#enrichment-configuration}
 
@@ -75,13 +75,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
 ### Einzelnes Anreicherungsattribut {#single-attribute}
 
-In diesem Beispiel wird die Audience anhand einer einzigen Eigenschaft der aktuellen Zielgruppendimension angereichert, z. B. anhand des Geburtsdatums.
+In diesem Beispiel wird die Zielgruppe anhand eines einzigen Attributs der aktuellen Zielgruppendimension angereichert, z. B. anhand des Geburtsdatums.
 
 Gehen Sie dazu folgendermaßen vor:
 
 1. Klicken Sie auf **[!UICONTROL Anreicherungsdaten hinzufügen]**.
 
-1. Wählen Sie ein einfaches Feld aus **[!UICONTROL aktuellen Dimension aus, z]** B. „Geburtsdatum“.
+1. Wählen Sie ein einfaches Feld aus der aktuellen Dimension aus, z. B. **[!UICONTROL Geburtsdatum]**.
 
    ![](../assets/enrichment-2.png)
 
@@ -89,15 +89,15 @@ Gehen Sie dazu folgendermaßen vor:
 
 ### Sammlungsrelation {#collection-link}
 
-Dieser Anwendungsfall reichert Ihre Audience mit Daten aus einer verknüpften Tabelle an. Beispiel: Sie möchten die drei letzten Bestellungen unter 100 USD abrufen.
+Dieser Anwendungsfall reichert Ihre Zielgruppe mit Daten aus einer verknüpften Tabelle an. Nehmen wir an, Sie möchten die drei letzten Käufe unter 100 $ abrufen.
 
 Konfigurieren Sie dazu die Anreicherung wie folgt:
 
 * **Anreicherungsattribut**: **[!UICONTROL Preis]**
 
-* **Anzahl der abzurufenden Datensätze**: 3
+* **Anzahl der abzurufenden Einträge**: 3
 
-* **Filter**: Nur Käufe einbeziehen, bei denen **[!UICONTROL Preis]** weniger als 100 USD beträgt
+* **Filter**: Es sollen nur Käufe einbezogen werden, bei denen **[!UICONTROL Preis]** weniger als 100 $ beträgt
 
 #### Fügen Sie das Attribut hinzu. {#add-attribute}
 
@@ -105,29 +105,29 @@ Wählen Sie zunächst die Sammlungsrelation aus, die die Daten enthält, mit den
 
 1. Klicken Sie auf **[!UICONTROL Anreicherungsdaten hinzufügen]**.
 
-1. Wählen Sie in **[!UICONTROL Tabelle]** Bestellungen“ das Feld **[!UICONTROL Preis]** aus.
+1. Wählen Sie in der Tabelle **[!UICONTROL Käufe]** das Feld **[!UICONTROL Preis]** aus.
 
    ![](../assets/enrichment-2.png)
 
 #### Definieren Sie die Sammlungseinstellungen.{#collection-settings}
 
-Konfigurieren Sie anschließend, wie die Daten erfasst werden sollen und wie viele Einträge einbezogen werden sollen.
+Konfigurieren Sie anschließend, wie die Daten erfasst und wie viele Einträge einbezogen werden sollen.
 
-1. Wählen Sie in **[!UICONTROL Dropdown-Liste Art der Datenerhebung]** die Option **[!UICONTROL Daten sammeln]**.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Auswählen, wie die Daten erfasst werden]** die Option **[!UICONTROL Daten erfassen]**.
 
    ![](../assets/enrichment-4.png)
 
-1. Geben Sie im **[!UICONTROL Abzurufende Zeilen (Zu erstellende Spalten]** die `3` ein.
+1. Geben Sie im Feld **[!UICONTROL Abzurufende Zeilen (zu erstellende Spalten)]** `3` ein.
 
-1. Um eine Aggregation durchzuführen (z. B. durchschnittlicher Kaufbetrag), wählen Sie **[!UICONTROL Aggregierte Daten]** und dann **[!UICONTROL Durchschnitt]** aus der Dropdown-Liste **[!UICONTROL Aggregatfunktion]** aus.
+1. Um eine Aggregation durchzuführen (z. B. einen durchschnittlichen Kaufbetrag), wählen Sie **[!UICONTROL Aggregierte Daten]** und dann **[!UICONTROL Durchschnitt]** aus der Dropdown-Liste **[!UICONTROL Aggregatfunktion]** aus.
 
    ![](../assets/enrichment-5.png)
 
-1. Verwenden Sie die Felder **[!UICONTROL label]** und **[!UICONTROL alias]**, damit die angereicherten Attribute in nachfolgenden Aktivitäten leichter identifiziert werden können.
+1. Verwenden Sie die Felder **[!UICONTROL Label]** und **[!UICONTROL Alias]**, damit die angereicherten Attribute in nachfolgenden Aktivitäten leichter identifiziert werden können.
 
 #### Definieren von Filtern{#collection-filters}
 
-Wenden Sie schließlich Filter an, um sicherzustellen, dass nur relevante Datensätze enthalten sind:
+Wenden Sie abschließend Filter an, um sicherzustellen, dass nur relevante Einträge eingeschlossen werden:
 
 1. Klicken Sie auf **[!UICONTROL Filter erstellen]**.
 
@@ -135,7 +135,7 @@ Wenden Sie schließlich Filter an, um sicherzustellen, dass nur relevante Datens
 
    * **[!UICONTROL Preis]** existiert (um NULL auszuschließen)
 
-   * **[!UICONTROL Preis]** ist kleiner als 100
+   * **[!UICONTROL Preis]** ist kleiner als 100
 
    ![](../assets/enrichment-6.png)
 

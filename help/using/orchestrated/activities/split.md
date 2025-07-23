@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Aufspaltung“
-description: Erfahren Sie, wie Sie die Aufspaltungsaktivität in einer orchestrierten Kampagne verwenden
+description: Informationen zur Verwendung der Aktivität „Aufspaltung“ in einer orchestrierten Kampagne
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 52%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei koordinierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Ausdrücke bearbeiten](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) - [Zielgruppe aufbauen](build-audience.md) - [Dimension ändern](change-dimension.md) - [Kanalaktivitäten](channels.md) - [Kombinieren](combine.md) - [Anreicherung](deduplication.md) - [Formulare](enrichment.md) - [Abstimmung](fork.md) [&#128279;](reconciliation.md) [&#128279;](save-audience.md) <b>[&#128279;](split.md)</b> ->Zielgruppe speichern[ -AufspaltungWarten](wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](../gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](../gs-schemas.md)</li><li>[Manuelles Schema](../manual-schema.md)</li><li>[Datei-Upload-Schema](../file-upload-schema.md)</li><li>[Daten aufnehmen](../ingest-data.md)</li></ul>[Zugreifen auf und Verwalten von orchestrierten Kampagnen](../access-manage-orchestrated-campaigns.md) | [Wichtige Schritte beim Erstellen einer orchestrierten Kampagne](../gs-campaign-creation.md)<br/><br/>[Erstellen und Planen der Kampagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](../orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](../orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](../build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](../edit-expressions.md)<br/><br/>[Retargeting](../retarget.md) | [Erste Schritte mit Aktivitäten](about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](and-join.md) – [Zielgruppe erstellen](build-audience.md) – [Dimensionsänderung](change-dimension.md) – [Kanalaktivitäten](channels.md) – [Kombinieren](combine.md) – [Deduplizierung](deduplication.md) – [Anreicherung](enrichment.md) – [Verzweigung](fork.md) – [Abstimmung](reconciliation.md) – [Zielgruppe speichern](save-audience.md) – <b>[Aufspaltung](split.md)</b> – [Warten](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 >[!ENDSHADEBOX]
 
-Die **[!UICONTROL Aufspaltung]**-Aktivität ist eine **[!UICONTROL Targeting]**-Aktivität, die die eingehende Population basierend auf definierten Auswahlkriterien wie Filterregeln oder der Populationsgröße in mehrere Teilmengen unterteilt.
+Die Aktivität **[!UICONTROL Aufspaltung]** ist eine **[!UICONTROL Targeting]**-Aktivität, mit der Sie die eingehende Population basierend auf definierten Auswahlkriterien in mehrere Teilmengen segmentieren können, z. B. basierend auf Filterregeln oder Populationsgröße.
 
 ## Konfigurieren der Aufspaltungsaktivität {#split-configuration}
 
@@ -89,7 +89,7 @@ Die **[!UICONTROL Aufspaltung]**-Aktivität ist eine **[!UICONTROL Targeting]**-
 
 Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Aufspaltung“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Aufspaltung]** hinzu.
 
 1. Der Konfigurationsbereich für die Aktivität wird mit einer standardmäßigen Teilmenge geöffnet. Klicken Sie auf die Schaltfläche **[!UICONTROL Segment hinzufügen]**, um so viele Teilmengen wie gewünscht zum Segmentieren der eingehenden Population hinzuzufügen.
 
@@ -97,46 +97,46 @@ Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu k
 
    >[!IMPORTANT]
    >
-   >Die **Aufspaltung** verarbeitet Teilmengen in der Reihenfolge, in der sie hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Population erfasst, wendet die nächste Teilmenge ihre Kriterien auf die verbleibenden 30 % an.
+   >Die Aktivität **Aufspaltung** verarbeitet Teilmengen in der Reihenfolge, in der sie hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Population erfasst, wendet die nächste Teilmenge ihre Kriterien auf die verbleibenden 30 % an.
    >
    >Stellen Sie vor der Ausführung der orchestrierten Kampagne sicher, dass die Teilmengen wie vorgesehen sortiert sind. Verwenden Sie die Pfeiltasten, um ihre Position anzupassen.
 
-1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, den Titel jeder Teilmenge zu ändern, um sie auf der koordinierten Kampagnen-Arbeitsfläche leicht identifizieren zu können.
+1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Labels jeder Teilmenge zu ändern, um sie in der Arbeitsfläche der orchestrierten Kampagne leicht zu identifizieren.
 
 1. Konfigurieren Sie Filter für jede Teilmenge:
 
    1. Klicken Sie auf eine Teilmenge, um deren Einstellungen zu öffnen.
 
-   1. Klicken Sie **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Abfrage-Modellierers zu definieren, z. B. Profile mit einer gültigen E-Mail-Adresse.
+   1. Klicken Sie auf **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Abfrage-Modelers zu definieren, beispielsweise die Auswahl von Profilen mit einer gültigen E-Mail-Adresse.
 
       ![](../assets/orchestrated-split-1.png)
 
-   1. Um die Anzahl der ausgewählten Profile zu begrenzen, aktivieren Sie **[!UICONTROL Limit aktivieren]** und geben Sie eine Zahl oder einen Prozentsatz an.
+   1. Um die Anzahl der ausgewählten Profile zu begrenzen, aktivieren Sie **[!UICONTROL Grenzwert aktivieren]** und geben Sie eine Zahl oder einen Prozentsatz an.
 
    1. Um eine Transition zu überspringen, wenn die Teilmenge leer ist, aktivieren Sie **[!UICONTROL Leere Transition überspringen].**
 
-1. Um Profile einzuschließen, denen keine Teilmenge zugeordnet ist, aktivieren Sie **[!UICONTROL Komplement erzeugen]**. Dadurch wird eine zusätzliche ausgehende Transition für die verbleibende Population erstellt.
+1. Um Profile einzuschließen, die keiner Teilmenge entsprechen, aktivieren Sie **[!UICONTROL Komplement erzeugen]**. Dadurch wird eine zusätzliche ausgehende Transition für die verbleibende Population erstellt.
 
    >[!NOTE]
    >
-   >Aktivieren Sie **[!UICONTROL Alle Teilmengen in derselben Tabelle generieren]** um alle Teilmengen in einer Transition zu gruppieren.
+   >Aktivieren Sie **[!UICONTROL Alle Teilmengen in derselben Tabelle erzeugen]**, um alle Teilmengen in einer einzelnen Transition zu gruppieren.
 
-1. Verwenden Sie **[!UICONTROL Überlappung der Ausgabepopulationen aktivieren]** damit Profile in mehreren Teilmengen angezeigt werden:
+1. Verwenden Sie **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** damit Profile in mehreren Teilmengen angezeigt werden können:
 
-   * **Wenn diese Option** ist, wird jedes Profil nur einer Teilmenge zugewiesen, der ersten, deren Kriterien übereinstimmen, selbst wenn es für andere Teilmengen qualifiziert ist.
+   * **Wenn diese Option deaktiviert ist**, wird jedes Profil nur der ersten Teilmenge zugewiesen, deren Kriterien es entspricht, selbst wenn es für andere Teilmengen qualifiziert ist.
 
-   * **Wenn diese Option** ist, können Profile in mehrere Teilmengen aufgenommen werden, wenn sie die jeweiligen Kriterien erfüllen.
+   * **Wenn diese Option aktiviert ist**, können Profile in mehrere Teilmengen eingeschlossen werden, wenn sie die jeweiligen Kriterien erfüllen.
 
-Der Aktivität ist jetzt konfiguriert. Bei der orchestrierten Kampagnenausführung wird die Population in der Reihenfolge, in der sie der Aktivität hinzugefügt wurden, in die verschiedenen Untergruppen segmentiert.
+Der Aktivität ist jetzt konfiguriert. Bei der Ausführung orchestrierter Kampagnen wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese der Aktivität hinzugefügt wurden.
 
 ## Beispiel{#split-example}
 
 Im folgenden Beispiel wird die Aktivität **[!UICONTROL Aufspaltung]** verwendet, um eine Zielgruppe basierend auf dem Kommunikationskanal, den wir verwenden möchten, in verschiedene Teilmengen zu unterteilen:
 
-* **Untergruppe 1 „E-Mail**: enthält Profile, die eine Telefonnummer angegeben haben.
+* **Teilmenge 1 „email“**: Schließt Profile ein, die eine Telefonnummer angegeben haben.
 
-* **Teilmenge 2 „sms“**: Targeting von Profilen mit einer in der Datenbank gespeicherten Mobiltelefonnummer.
+* **Teilmenge 2 „sms“**: Spricht Profile mit einer in der Datenbank gespeicherten Mobiltelefonnummer an.
 
-* **Transition ergänzen**: Erfasst alle verbleibenden Profile, die die Kriterien für keine der Teilmengen erfüllen.
+* **Komplementtransition**: Erfasst alle verbleibenden Profile, die die Kriterien für keine der Teilmengen erfüllen.
 
 ![](../assets/orchestrated-split-3.png)
