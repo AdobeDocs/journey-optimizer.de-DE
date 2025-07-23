@@ -3,10 +3,10 @@ title: Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in von einem Ereignis ausgelösten Journeys verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 98%
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,10 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 
    * Wenn ein erneuter Eintritt in die Journey nicht möglich ist, kann dieselbe Kombination aus Profilkennung und zusätzlicher ID nicht erneut in die Journey eintreten.
    * Wenn ein erneuter Eintritt in die Journey möglich ist, kann dieselbe Kombination aus Profilkennung und zusätzlicher ID nach dem definierten Zeitfenster erneut eintreten.
+
+* **Konfiguration nachgelagerter Ereignisse**
+
+  Wenn Sie ein anderes nachgelagertes Ereignis auf der Journey verwenden, muss es dieselbe zusätzliche ID verwenden und denselben ID-Namespace haben.
 
 ## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey {#add}
 
@@ -195,4 +199,4 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
