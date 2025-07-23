@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 76%
@@ -115,8 +115,6 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
-
-   ![](assets/sms_byo_5.png)
 
 1. Geben Sie einen [!UICONTROL Namen] für Ihren Webhook ein.
 
