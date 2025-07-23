@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
+source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 76%
+source-wordcount: '654'
+ht-degree: 74%
 
 ---
 
@@ -112,7 +112,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 >
 >Ohne angegebene Opt-in- oder Opt-out-Schlüsselwörter sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
-Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren.
+Nachdem Ihre WhatsApp-API-Anmeldeinformationen und Ihre [Meta-Webhooks](https://developers.facebook.com/docs/whatsapp/webhooks/) erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -143,6 +143,8 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 1. Klicken Sie im **[!UICONTROL Webhooks]**-Menü auf das ![bin-Symbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren WhatsApp-Webhook zu löschen.
 
 1. Um vorhandene Konfigurationen zu ändern, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
+
+1. Greifen Sie auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie aus Ihrem zuvor gesendeten **[!UICONTROL WhatsApp-Webhook]**.
 
 Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
 
