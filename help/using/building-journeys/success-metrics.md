@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 98%
 
 ---
 
@@ -72,6 +72,10 @@ Jede Metrik enthält eine festgelegte Attribution, die bestimmt, welche Touchpoi
   Weitere Informationen zu [Attributionsmodellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Zuweisen der Journey-Metriken {#assign}
+
+>[!IMPORTANT]
+>
+>Pro Journey ist nur eine Journey-Metrik zulässig.
 
 Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metriken zu beginnen:
 
