@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: In den Dunkelmodus wechseln
+title: Wechseln zum dunklen Modus
 description: Erfahren Sie, wie Sie den Dunkelmodus in der E-Mail-Designer verwenden
 feature: Email Design
 topic: Content Management
@@ -14,26 +14,26 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
 source-wordcount: '1701'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Verwalten von Inhalten im Dunkelmodus {#dark-mode}
+# Verwalten von Inhalten für den dunklen Modus {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
->title="In den Dunkelmodus wechseln"
->abstract="Wechseln Sie in den Dunkelmodus, in dem Sie eine Vorschau des Renderings anzeigen und bestimmte benutzerdefinierte Einstellungen definieren können. <br>Achtung : Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten Dunkelmodus."
+>title="Wechseln zum dunklen Modus"
+>abstract="Wechseln Sie zum dunklen Modus, in dem Sie eine Vorschau des Renderings anzeigen und bestimmte benutzerdefinierte Einstellungen definieren können. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="Verwenden eines bestimmten Bildes für den Dunkelmodus"
->abstract="Sie können ein anderes Bild auswählen, das angezeigt wird, wenn der Dunkelmodus aktiviert ist. <br>Achtung : Das Hinzufügen eines bestimmten Bildes für den Dunkelmodus garantiert nicht, dass es in allen E-Mail-Clients korrekt gerendert wird. Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten Dunkelmodus."
+>title="Verwenden eines bestimmten Bildes für den dunklen Modus"
+>abstract="Sie können ein anderes Bild auswählen, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Vorsicht: Das Hinzufügen eines bestimmten Bildes für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
->title="In den Dunkelmodus wechseln"
->abstract="Wechseln Sie in den Dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Achtung : Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten Dunkelmodus."
+>title="Wechseln zum dunklen Modus"
+>abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
 
 Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) in den **[!UICONTROL Dunkelmodus“ wechseln]** in dem Sie bestimmte benutzerdefinierte Einstellungen definieren können. Wenn der Dunkelmodus aktiviert ist, zeigen die unterstützenden E-Mail-Clients die Einstellungen an, die Sie für diesen Modus definiert haben.
 
