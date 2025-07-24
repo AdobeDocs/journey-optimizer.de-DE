@@ -11,10 +11,10 @@ keywords: Dunkler Modus, E-Mail, Farbe, Editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## E-Mail-Clients, die den Dunkelmodus unterstützen {#supporting-email-clients}
 
-Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den Dunkelmodus unterstützen. Einige Versionen der aufgelisteten E-Mail-Clients unterstützen jedoch nicht den Dunkelmodus, sodass sie aus Gründen der Klarheit und Genauigkeit auch in dieser Tabelle aufgeführt werden.
+Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den Dunkelmodus unterstützen.
 
->[!WARNING]
+>[!NOTE]
 >
->Das endgültige Rendering im Dunkelmodus hängt von jedem E-Mail-Client ab, sodass die Ergebnisse von einem zum anderen variieren können. Um für jeden E-Mail-Client eine Simulation anzuzeigen, die dem Endergebnis möglichst nahe kommt, verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md).
+>Einige Versionen dieser E-Mail-Clients unterstützen den Dunkelmodus nicht. Aus Gründen der Klarheit werden sie daher auch in dieser Tabelle aufgeführt.
 
-| E-Mail-Clients, die den Dunkelmodus unterstützen | Kompatible Versionen | Nicht unterstützte Versionen |
+| E-Mail-Clients, die den Dunkelmodus unterstützen | Kompatible Versionen | *Nicht unterstützte Versionen* |
 |---------|----------|---------|
 | Apple Mail macOS | 12,4; 16,0 | *,3* |
 | Apple Mail iOS | 13,0, 16,1 | *,2* |
@@ -237,13 +237,17 @@ Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den Dunkel
 | WEB.DE (iOS und Android) | 2022-06 | Nicht zutreffend |
 | Free.fr | 2022-12 | Nicht zutreffend |
 
+>[!WARNING]
+>
+>Das endgültige Rendering im Dunkelmodus hängt von jedem E-Mail-Client ab, sodass die Ergebnisse von einem zum anderen variieren können.
+
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-## E-Mail-Clients, die den Dunkelmodus NICHT unterstützen {#non-supporting-email-clients}
+## E-Mail-Clients ohne Unterstützung für den Dunkelmodus {#non-supporting-email-clients}
 
 Einige E-Mail-Clients ermöglichen es Benutzenden, ihre Benutzeroberfläche in den Dunkelmodus zu wechseln. Diese Einstellung hat jedoch keinen Einfluss darauf, wie HTML-E-Mails angezeigt werden. Unabhängig davon, ob sich die Benutzeroberfläche im Hell- oder Dunkelmodus befindet, wird Ihre E-Mail unverändert dargestellt. Im Folgenden finden Sie eine Liste dieser Kunden:
 
