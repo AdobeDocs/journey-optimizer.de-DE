@@ -19,7 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="CAMPAIGN_OVERVIEW_ORCHESTERED"
->abstract="<b>Kampagnenorchestrierung</b><br/>Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/>
+>abstract="<b>Kampagnenorchestrierung</b><br/>Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/>"
 
 <b>Nutzen von Daten mehrerer Entitäten</b><br/> Erfahren Sie, wie orchestrierte Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Briefpost“
 
