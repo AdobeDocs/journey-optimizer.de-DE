@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # Externer Helper zur Datensuche
 
-Der `externalDataLookup`-Helper im [!DNL Journey Optmizer] Personalisierungseditor kann verwendet werden, um Daten dynamisch von einem externen Endpunkt abzurufen und sie für die Erstellung von Inhalten für eingehende Kanäle wie das Code-basierte Erlebnis, das Web und In-App-Nachrichten-Kanäle zu verwenden.
+Der `externalDataLookup`-Helper im [!DNL Journey Optimizer] Personalisierungseditor kann verwendet werden, um Daten dynamisch von einem externen Endpunkt abzurufen und sie für die Erstellung von Inhalten für eingehende Kanäle wie das Code-basierte Erlebnis, das Web und In-App-Nachrichten-Kanäle zu verwenden.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ Nachdem die Aktion definiert wurde, kann sie sowohl verwendet werden:
 
 Siehe auch Benutzerdefinierte Aktionen in [!DNL Journey Optimizer] Kampagnen und Journey für eingehende Kanäle #GuardrailsandGuidelines .
 
-* Standardmäßig verwendet [!DNL Journey Optimizer] beim Aufruf eines externen Endpunkts eine maximale Wartezeit von 300 ms. Wenden Sie sich an [!DNL Journey Optimizer] Engineering, um diese maximale Wartezeit für einen Endpunkt zu erhöhen.
-* Im Personalization-Editor können Sie mit [!DNL Journey Optimizer] das Schema der Endpunktantwort beim Einfügen von Ausdrücken nicht durchsuchen und es werden keine Verweise auf JSON-Attribute aus der in Ausdrücken verwendeten Antwort validiert.
-* Die unterstützten Datentypen für Payload-Variablenparameter, die über den externalDataLookup-Helper ersetzt werden sollen, sind „String“, „Integer“, „Decimal“, „Boolean“, „listString“, „listInt“, „listInteger“ und „listDecimal“.
-* Änderungen an einer Aktionskonfiguration werden nicht in den entsprechenden externalDataLookup-Aufrufen in Live-Kampagnen und Journey-Aufrufen übernommen. Damit eine Änderung übernommen wird, müssen Sie alle Live-Kampagnen oder Journey kopieren oder ändern, die die Aktion in einem externalDataLookup-Helper verwenden.
-* Die Verwendung von Variablen wird noch nicht innerhalb der Parameter der externen Datensuche unterstützt.
-* Dynamischer URL-Pfad wird derzeit nicht unterstützt.  - Verbesserungen bei eingehenden benutzerdefinierten Aktionen#DynamicPathSegments.
-* Multi-Pass-Rendering wird unterstützt.
-* Authentifizierungsoptionen in der Aktionskonfiguration werden derzeit nicht vom externalDataLookup-Helper unterstützt. In der Zwischenzeit können Sie bei der API-schlüsselbasierten Authentifizierung oder anderen Nur-Text-Autorisierungsschlüsseln diese als Header-Felder in der Aktionskonfiguration angeben.
+* **Standard-Zeitüberschreitung** - Beim Aufruf eines externen Endpunkts verwendet [!DNL Journey Optimizer] standardmäßig eine Zeitüberschreitung von 300 ms. Wenden Sie sich an den Adobe-Support-Mitarbeiter, um diese maximale Wartezeit für einen Endpunkt zu erhöhen.
+* **Durchsuchen des Antwortschemas und Validieren von**: Im Personalisierungseditor können Sie das Schema der Endpunktantwort nicht durchsuchen, wenn Sie Ausdrücke einfügen. [!DNL Journey Optimizer] validiert keine Verweise auf JSON-Attribute aus der in Ausdrücken verwendeten Antwort.
+* **Unterstützte Datentypen für Parameter** - Die unterstützten Datentypen für Payload-Variablenparameter, die über den externalDataLookup-Helper ersetzt werden sollen, sind `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* **Automatische Aktualisierung für aktualisierte Aktionen** - Änderungen an einer Aktionskonfiguration werden nicht in den entsprechenden externalDataLookup-Aufrufen in Live-Kampagnen und Journey-Aufrufen übernommen. Damit eine Änderung übernommen wird, müssen Sie alle Live-Kampagnen oder Journey kopieren oder ändern, die die Aktion in einem externalDataLookup-Helper verwenden.
+* **Variablenersetzung** - Derzeit wird die Verwendung von Variablen in den Parameter des externen DataLookup-Helpers nicht unterstützt.
+* **Dynamischer Pfad** - Derzeit wird der dynamische URL-Pfad nicht unterstützt.
+* **Multi-Pass-Rendering** - Multi-Pass-Rendering wird unterstützt.
+* **Authentifizierung** - Im Moment werden Authentifizierungsoptionen in der Aktionskonfiguration vom externalDataLookup-Helper nicht unterstützt. In der Zwischenzeit können Sie bei der API-schlüsselbasierten Authentifizierung oder anderen Nur-Text-Autorisierungsschlüsseln diese als Header-Felder in der Aktionskonfiguration angeben.
 
 ## Konfigurieren einer Aktion und Verwenden des Helpers
 
@@ -102,15 +102,21 @@ Parameternamen:
 
 Beispiel:
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 Parameterwerte können feste Werte sein oder durch Verweise auf Profilfelder oder andere kontextuelle Attribute personalisiert werden, z. B.:
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 Payload-Parameter können mit Punktnotation bereitgestellt werden, um auf verschachtelte JSON-Attribute zu verweisen, z. B.:
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### Zugriff auf das Ergebnis
 
@@ -174,7 +180,9 @@ Wenn Sie Zeitüberschreitungen oder Fehler eleganter handhaben möchten, indem S
 
 Sie können beispielsweise einen Fallback-Wert für ein einzelnes Attribut wie das folgende anzeigen:
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 Oder Sie können einen gesamten Inhaltsblock bedingt wie folgt rendern:
 
@@ -196,7 +204,7 @@ Beispiel:
 
 Im Abschnitt Edge Delivery des Assurance-Trace wurde im Rahmen der Ausführungsdetails ein neuer CustomActions-Block mit ähnlichen Anfrage- und Antwortdetails wie dem folgenden hinzugefügt. Der Abschnitt Fehler sollte beim Debuggen helfen, wenn beim Ausführen benutzerdefinierter Aktionen Probleme aufgetreten sind
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "Breite=50%")
 
 ## Häufig gestellte Fragen
 
@@ -204,7 +212,9 @@ Im Abschnitt Edge Delivery des Assurance-Trace wurde im Rahmen der Ausführungsd
 
   Verwenden Sie das Menü Kontextuelle Attribute > Datenstrom > Ereignis , um das von Ihnen verwendete Erlebnisereignisschema zu durchsuchen und das entsprechende Attribut als Parameterwert wie den folgenden einzufügen:
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * Macht [!DNL Journey Optimizer] eine Zwischenspeicherung von externen Endpunktantworten?
 
