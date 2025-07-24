@@ -10,15 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
 
 # Arbeiten mit Aktionskampagnen {#gs-action-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_action"
+>title="Aktionskampagnen"
+>abstract="**Geführte Benutzeroberfläche zum Erstellen und Senden einer Kampagne**<br/> Festlegen einer oder mehrerer Aktionen mit einem Kanal, Auswählen einer Zielgruppe, Festlegen eines Inhalts, Definieren eines Zeitplans und Sie sind bereit, <br/><br/>**zu senden**<br/> Verfügbare KanäleE-Mail, SMS, Push-Benachrichtigungen, In-App, Web, Code-basierte Erlebnisse"
 
 ## Über Aktionskampagnen {#about}
 

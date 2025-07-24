@@ -7,14 +7,21 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 20%
+source-wordcount: '540'
+ht-degree: 19%
 
 ---
 
 # Erste Schritte mit orchestrierten Kampagnen {#orchestrated-camp}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_orchestrated"
+>title="Orchestrierte Kampagnen"
+>abstract="**Kampagnenorchestrierung**<br/> Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/>
+
+**Nutzen von Daten mehrerer Entitäten**<br/> Erfahren Sie, wie orchestrierte Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern <br/><br/>**Ad-hoc-Segmentierung und genaue Zählungen**<br/> Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen <br/><br/>**Verfügbare Kanäle**<br/> E-Mail, SMS, Push-Benachrichtigungen, Briefpost“
 
 +++ Inhaltsverzeichnis
 

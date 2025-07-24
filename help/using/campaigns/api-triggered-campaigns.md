@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 30%
+source-wordcount: '233'
+ht-degree: 25%
 
 ---
 
 
 # Arbeiten mit API-ausgelösten Kampagnen {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="API-ausgelöste Kampagnen"
+>abstract="**Von der Transaktions-API ausgelöste Kampagnen**<br/> Echtzeit-Nachrichten von Triggern über API-Aufrufe <br/><br/>**Marketing-Nachrichten**<br/> Werbeinhalte (erfordert Opt-in, unterliegt Geschäftsregeln)<br/><br/>**Transaktionsnachrichten**<br/> Service-bezogene Inhalte (Bestätigung, Warnhinweise, nicht vorbehaltlich der Marketing-Zustimmung)<br/><br/>**Verfügbare Kanäle**<br/> E-Mail, SMS, Push-Benachrichtigungen"
 
 ## Über API-ausgelöste Kampagnen {#about}
 
@@ -43,4 +48,4 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie die REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
