@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 98%
@@ -100,3 +100,4 @@ Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metriken 
    Die gewählten Metriken werden in den KPIs und der Tabelle „Journey-Statistiken“ des Berichts angezeigt.
 
    ![](assets/success_metric_2.png)
+
