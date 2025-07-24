@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vorab veröffentlichte Versionshinweise für Journey Optimizer
-description: Vorab-Versionshinweise zu Journey Optimizer
+description: Vorab-Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 **Die unten stehenden Hinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
 
-## Frühzeitige Versionshinweise Juli &#39;25 {#25-7-rn}
+## Vorab-Versionshinweise Juli &#39;25 {#25-7-rn}
 
 
 **Die unten stehenden Hinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
@@ -118,6 +118,12 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Mit Journey Optimizer können Sie jetzt personalisierte und optimierte Inhalte für die Zielgruppen Ihrer Kampagnen bereitstellen, indem Sie Inhaltsexperimente durchführen, regelbasiertes Targeting erstellen und erweiterte Kombinationen aus beiden verwenden können, um die Effektivität Ihrer Kampagnen zu maximieren.</p>
+<p>Mit der Optimierung können Sie:</p>
+<ul>
+<li>Ausführen von Inhaltsexperimenten</li>
+<li>Verwenden von Zielgruppenbestimmungsregeln</li>
+<li>Erweiterte Kombinationen von Experimentieren und Targeting in einer einzigen Kampagne verwenden</li></ul>
+<P>Sobald die Kampagne live ist, werden Profile anhand der definierten Kriterien bewertet und auf der Grundlage übereinstimmender Kriterien mit dem entsprechenden Erlebnis oder Inhalt aus der Kampagne bereitgestellt.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Die Möglichkeit, Kampagnenentwürfe anzuzeigen, wenn Sie ein Start- und Enddatum festgelegt haben</li>
 <li>Eine neue Einstellung zum Ausblenden und Anzeigen von Kalenderelementen, die über einen langen Zeitraum ausgeführt werden</li>
 </ul>
-<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
