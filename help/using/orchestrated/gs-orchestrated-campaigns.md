@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4f881bfc32a5f168a93b51c9a69398881790050c
+source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 18%
@@ -19,9 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="CAMPAIGN_OVERVIEW_ORCHESTERED"
->abstract="<b>Kampagnenorchestrierung</b><br/>Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/>"
-
-<b>Nutzen von Daten mehrerer Entitäten</b><br/> Erfahren Sie, wie orchestrierte Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Briefpost“
+>abstract="<b>Kampagnenorchestrierung</b><br/>Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/> <b>Nutzen von Daten mehrerer Entitäten</b><br/> Erfahren Sie, wie orchestrierte Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
 
 +++ Inhaltsverzeichnis
 
