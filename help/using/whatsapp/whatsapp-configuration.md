@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 73%
+source-wordcount: '748'
+ht-degree: 65%
 
 ---
 
@@ -72,6 +72,26 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für WhatsApp-Nachrichten erstellen. [Weitere Informationen](#whatsapp-configuration)
 
 ## Erstellen eines Webhook {#WhatsApp-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="Kategorie eingehender Suchbegriffe"
+>abstract="<br/><b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer ein Abonnement abschließt. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer sein Abonnement beendet. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer Hilfe oder Support anfordert. <br/><b>Standard</b>: sendet Ihre automatische Fallback-Antwort, wenn keine Schlüsselwörter übereinstimmen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="Keywords eingeben"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" Callback-URL"
+>abstract="Die Validierungsanfrage und Webhook-Benachrichtigungen für dieses Objekt werden an die angegebene URL gesendet."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="Token überprüfen"
+>abstract="Das Token, das Meta zurückgibt, um die Callback-URL während des Verifizierungsprozesses zu bestätigen und zu überprüfen."
 
 >[!NOTE]
 >
