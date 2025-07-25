@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
+source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 63%
+source-wordcount: '2246'
+ht-degree: 66%
 
 ---
 
@@ -94,13 +94,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Aktivität „Inhaltsentscheidung“ </strong><br/></th>
+<th><strong>Aktivität „Inhaltsentscheidung“ in Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt personalisierte Angebote über eine dedizierte Inhaltsentscheidungsaktivität in Ihre Journey Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierten Aktionen, verwenden.</p>
+<p>Sie können jetzt personalisierte Angebote über eine dedizierte Aktivität „Inhaltsentscheidung“ in Ihre Journeys auf der Journey-Arbeitsfläche einbeziehen und sie in Journey-Aktivitäten verwenden, einschließlich Bedingungen und benutzerdefinierten Aktionen.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -142,6 +143,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -159,13 +161,14 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
+<p>Eine Kalenderansicht ist nun in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visualisieren.</p>
 <p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung. Mit dieser allgemeinen Verfügbarkeit umfasst die Funktion:</p>
 <ul>
 <li>Design-Verbesserungen für die Navigation in Datumsangaben</li>
 <li>Die Möglichkeit, Kampagnenentwürfe anzuzeigen, wenn Sie ein Start- und Enddatum festgelegt haben</li>
 <li>Eine neue Einstellung zum Ausblenden und Anzeigen von Kalenderelementen, die über einen langen Zeitraum ausgeführt werden</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<img src="assets/do-not-localize/calendar.gif">
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -175,12 +178,13 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Zusätzliche IDs in Journey</strong><br/></th>
+<th><strong>Zusätzliche ID für Journey</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Sie können nun Journeys auslösen, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-, Abonnement- oder Rezept-ID verwenden, sodass dasselbe Profil mehrmals in derselben Journey vorhanden sein kann. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
 <p>Die Verwendung zusätzlicher IDs in Journey wurde früher nur eingeschränkt verfügbar gemacht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeitsversion bietet die Funktion jetzt Unterstützung für Journey unter Zielgruppe lesen .</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -242,7 +246,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 
