@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 95%
+source-wordcount: '2160'
+ht-degree: 63%
 
 ---
 
@@ -22,11 +22,173 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Neueste Aktualisierungen {#latest-updates}
 
-### Getrennte Inventare für Kampagnen
+## Vorab-Versionshinweise Juli &#39;25 {#25-7-rn}
 
-Aktionskampagnen und API-ausgelöste Kampagnen sind jetzt in verschiedene Registerkarten-Inventare unterteilt, damit Sie alle Kampagnen eines bestimmten Typs schnell anzeigen können.
+**Die unten stehenden Hinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Screenshots und die aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
+
+Siehe auch [Adobe Experience Platform-Hinweise zur Vorabversion](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Veröffentlichungsdatum**: Mittwoch, 29. Juli 2025
+
+### Neue Funktionen {#25-7-features}
+
+Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
+
+#### Funktionen
+
+<table>
+<thead>
+<tr>
+<th><strong>WhatsApp-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer unterstützt jetzt WhatsApp-Direktnachrichten und ermöglicht so eine reibungslose Integration in Ihre Journey und Kampagnen zur Verbesserung der Empfängerkommunikation und -interaktion. Dieser native Kanal bietet vorkonfigurierte Integration von WhatsApp-Vorlagen, Nachrichtenvorschau, Personalisierung, Versandberichte, Webhooks, Opt-in- und Opt-out-Einverständnisverwaltung und mehr.</p>
+<p>Diese Funktion wurde bereits in Beta veröffentlicht und ist jetzt für alle Umgebungen verfügbar (allgemeine Verfügbarkeit).</p>
+<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Marken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Mit der Bewertung zur Markenausrichtung erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So bleiben Sie mit jeder gesendeten Nachricht konsequent auf dem Laufenden.</p>
+<p>Diese Funktion wurde bereits in Beta veröffentlicht und ist jetzt für alle Umgebungen verfügbar (allgemeine Verfügbarkeit).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden von Experience Decisioning im E-Mail-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Entscheidungsrichtlinien zu E-Mail-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch die besten Inhalte zurückzugeben, die für jedes Mitglied der Zielgruppe bereitgestellt werden können.</p>
+<p>Diese Funktion ist derzeit nicht für die Verwendung mit Healthcare Shield und Privacy and Security Shield verfügbar (eingeschränkte Verfügbarkeit).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aktivität „Inhaltsentscheidung“ </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt personalisierte Angebote über eine dedizierte Inhaltsentscheidungsaktivität in Ihre Journey Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierten Aktionen, verwenden.</p>
+<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimierung in Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt personalisierte und optimierte Inhalte für die Zielgruppen Ihrer Kampagnen bereitstellen, indem Sie Inhaltsexperimente durchführen, regelbasiertes Targeting erstellen und erweiterte Kombinationen aus beiden verwenden können, um die Effektivität Ihrer Kampagnen zu maximieren.</p>
+<p>Mit der Optimierung können Sie:</p>
+<ul>
+<li>Ausführen von Inhaltsexperimenten</li>
+<li>Verwenden von Zielgruppenbestimmungsregeln</li>
+<li>Erweiterte Kombinationen von Experimentieren und Targeting in einer einzigen Kampagne verwenden</li></ul>
+<P>Sobald die Kampagne live ist, werden Profile anhand der definierten Kriterien bewertet und auf der Grundlage übereinstimmender Kriterien mit dem entsprechenden Erlebnis oder Inhalt aus der Kampagne bereitgestellt.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Probelauf</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.</p>
+<p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Kalenderansicht</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung. Mit dieser allgemeinen Verfügbarkeit umfasst die Funktion:</p>
+<ul>
+<li>Design-Verbesserungen für die Navigation in Datumsangaben</li>
+<li>Die Möglichkeit, Kampagnenentwürfe anzuzeigen, wenn Sie ein Start- und Enddatum festgelegt haben</li>
+<li>Eine neue Einstellung zum Ausblenden und Anzeigen von Kalenderelementen, die über einen langen Zeitraum ausgeführt werden</li>
+</ul>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Zusätzliche IDs in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Verwendung zusätzlicher IDs in Journey wurde früher nur eingeschränkt verfügbar gemacht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeitsversion bietet die Funktion jetzt Unterstützung für Journey unter Zielgruppe lesen .</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### Änderung bei den Journey-Bedingungen {#ee-change@}
 
@@ -36,6 +198,42 @@ Der Zugriff auf Journey-Kontextereignisdaten in unitären Journeys wird nicht ge
 
 Weitere Informationen finden Sie [in diesen FAQ](../building-journeys/exp-event-lookup.md#faq-ee).
 
+### Verbesserungen {#25-7-improv}
+
+Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
+
+- **E-Mail-Designer**
+   - Die Journey Optimizer E-Mail-Designer bietet jetzt die Möglichkeit, in die Dunkelmodusansicht zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können. Beachten Sie, dass das endgültige Rendering vom E-Mail-Client des Empfängers abhängt. Darüber hinaus unterstützen nicht alle E-Mail-Clients den Dunkelmodus.
+  <!-- [Read more](../FILE.md) -->
+
+- **Kampagnen**
+   - **Regelbasierte Kampagnendisqualifizierung** - Bei Inhaltskarten wurde beim Bearbeiten zusätzlicher Versandregeln die Option Vorherige Versandregeln durch drei verschiedene Regeltypen ersetzt, um den Zeitpunkt und die Sichtbarkeit der Nachricht besser zu steuern:
+      - Nachricht anzeigen, wenn: Bedingungen, die bestimmen, wann die Inhaltskarte angezeigt wird.
+      - Nachricht schließen, wenn: Bedingungen, die die Inhaltskarte vorübergehend ausblenden. Sie kann erneut angezeigt werden, wenn die Anzeigebedingungen erneut erfüllt sind.
+      - Nachricht disqualifizieren, wenn: Bedingungen, die dauerhaft verhindern, dass die Inhaltskarte erneut angezeigt wird.
+  <!-- [Read more](../FILE.md) -->
+
+   - **Mehrere eingehende Aktionen in Kampagnen** - Um die Kampagnenorchestrierung zu vereinfachen, können jetzt mehrere eingehende Aktionen in einer einzelnen Kampagne definiert werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält.
+  <!-- [Read more](../FILE.md) -->
+
+   - **Neuorganisation des Kampagnenbestands** - Geplante und API-ausgelöste Kampagnen sind jetzt im Kampagneninventar in separate Registerkarten unterteilt, um die Navigation und Verwaltung zu erleichtern.
+  <!-- [Read more](../FILE.md) -->
+
+- **Daten-Management**
+   - **Aktualisierung der Systemdatensätze des Entscheidungs-Managements** - Die gelöschten personalisierten Angebote und Fallback-Angebote sind jetzt in den Datensätzen „decision_object_repository_personalized_offers“ und „decision_object_repository_fallback_offers“ als archiviert gekennzeichnet. Die vorhandenen Datensätze im Datensatz werden nicht geändert.
+  <!-- [Read more](../FILE.md) -->
+
+- **Journeys**
+   - **Verbesserungen beim Journey der Sandbox-Tools** - Beim Kopieren von Journeys über mehrere Sandboxes hinweg mithilfe der Paketexport- und -importfunktionen sind jetzt auch die folgenden Funktionen verfügbar:
+      - Auswählen eines vorhandenen Ereignisses am Ziel
+      - Kopieren eines Ereignisses unabhängig von einer Journey
+      - Erkennen von Feldergruppen-/Datenquellenbeziehungen, Verknüpfen mit ihnen am Ziel, wenn sie vorhanden sind, Erstellen von ihnen, wenn sie nicht vorhanden sind.
+  <!-- [Read more](../FILE.md) -->
+
+- **Kanal - InApp**
+   - **In-App-Schlüssel/Wert-Paare** - Bei In-App-Nachrichten können Sie Schlüssel- und Wert-Paare definieren, um benutzerdefinierte Variablen in die Nachrichten-Payload aufzunehmen. Diese Schlüssel-Wert-Paare ermöglichen es Ihnen, zusätzliche Daten basierend auf Ihrer spezifischen Konfiguration und Ihrem Anwendungsfall zu übergeben.
+  <!-- [Read more](../FILE.md) -->
+
 
 ## Versionshinweise für Juni 2025 {#25-6-rn}
 
@@ -44,7 +242,7 @@ Weitere Informationen finden Sie [in diesen FAQ](../building-journeys/exp-event-
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 
