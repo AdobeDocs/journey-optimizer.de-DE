@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 79%
@@ -109,7 +109,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Begrenzungsregeln anwenden**
 
-   Wählen **[!UICONTROL in der Dropdown]** Liste „Regelsatz“ einen Kanalregelsatz aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. [Informationen zum Arbeiten mit Regelsätzen](../conflict-prioritization/rule-sets.md)
+   Wählen **[!UICONTROL in der Dropdown]** Liste „Regelsatz“ einen Kanalregelsatz aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. [Informationen zum Arbeiten mit Regelsätzen](../../conflict-prioritization/rule-sets.md)
 
 1. **Interaktion verfolgen** (E-Mail und SMS)
 
