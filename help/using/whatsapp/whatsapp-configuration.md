@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 62%
+source-wordcount: '773'
+ht-degree: 63%
 
 ---
 
@@ -81,11 +81,11 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Keywords eingeben"
->abstract="Sie können Schlüsselwörter für Trigger-spezifische automatische Antworten definieren, z. B. für Opt-in, Opt-out, Hilfe oder Standard, je nachdem, was Benutzende texten. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden stop und STOP gleich behandelt."
+>abstract="Sie können Schlüsselwörter für benutzerspezifische automatische Antworten definieren, die davon abhängen, was Trigger schreiben. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden stop und STOP gleich behandelt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" Callback-URL"
+>title="Callback-URL"
 >abstract="Die Validierungsanfrage und Webhook-Benachrichtigungen für dieses Objekt werden an die angegebene URL gesendet."
 
 >[!CONTEXTUALHELP]
