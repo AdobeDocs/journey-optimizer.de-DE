@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 90%
 
 ---
@@ -21,7 +21,7 @@ Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhal
 
 >[!NOTE]
 >
->Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer E-Mail verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
+>Wenn das Tracking auf einer Journey oder einer Kampagne aktiviert ist, werden Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links, wenn sie in einem gespeicherten Fragment vorhanden sind und in einer E-Mail verwendet werden. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
 
 ## Speichern als visuelles Fragment {#save-as-visual-fragment}
 
