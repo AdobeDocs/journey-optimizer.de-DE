@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Geben Sie ein **[!UICONTROL Zielgruppen-Label]** ein, das die gespeicherte Zielgruppe identifiziert.
 
-1. Wählen Sie in **[!UICONTROL Zielgruppendimension]** Feld „Profilzuordnung&#x200B; aus.
+1. Wählen Sie ein **[!UICONTROL Profilzuordnungsfeld&#x200B; aus]** Zielgruppendimension Ihrer Kampagne aus.
 
    ➡️ [Führen Sie die auf dieser Seite beschriebenen Schritte aus, um Ihre Zielgruppendimension für Campaign zu erstellen](../target-dimension.md)
 
@@ -66,7 +66,10 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Schließen Sie die Einrichtung ab, indem Sie die orchestrierte Kampagne speichern und veröffentlichen. Dadurch wird Ihre Zielgruppe generiert und gespeichert.
 
-Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie über das Menü **[!UICONTROL Zielgruppen]** zugreifen können. 
+Der Inhalt der gespeicherten Zielgruppe ist dann in der Detailansicht der Zielgruppe verfügbar. Diese kann über das Menü **[!UICONTROL Zielgruppen]** aufgerufen oder bei der Zielgruppenbestimmung ausgewählt werden, z. B. mit der Aktivität **[!UICONTROL Zielgruppe lesen]**.
+
+![](../assets/save-audience-4.png)
+
 
 ## Beispiel {#save-audience-example}
 

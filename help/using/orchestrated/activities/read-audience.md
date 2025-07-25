@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
    ![](../assets/read-audience-2.png)
 
-1. Wählen Sie die **[!UICONTROL Entität]** aus, mit der Profile in Ihrer Audience eindeutig identifiziert werden.
+1. Wählen Sie eine **[!UICONTROL Entität&#x200B;]** Ihrer Zielgruppendimension aus.
+
+   ➡️ [Führen Sie die auf dieser Seite beschriebenen Schritte aus, um Ihre Zielgruppendimension für Campaign zu erstellen](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Wählen Sie **[!UICONTROL Profilattribut hinzufügen]**, um Ihre ausgewählte Zielgruppe mit zusätzlichen Daten anzureichern. Die resultierende Audience enthält eine Liste von Empfängern, die jeweils mit den ausgewählten Profilattributen angereichert sind.
+1. Wählen Sie **[!UICONTROL Attribut hinzufügen]** aus, um Ihre ausgewählte Zielgruppe mit zusätzlichen Daten anzureichern. Die resultierende Audience enthält eine Liste von Empfängern, die jeweils mit den ausgewählten Profilattributen angereichert sind.
 
 1. Wählen Sie **[!UICONTROL Attribute]** aus, die Sie Ihrer Audience hinzufügen möchten.
 
