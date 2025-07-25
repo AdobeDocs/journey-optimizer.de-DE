@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1796'
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+workflow-type: tm+mt
+source-wordcount: '1841'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,16 @@ ht-degree: 100%
 >title="Festlegen einer Entscheidungsrichtlinie"
 >abstract="Mit einer Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und an die richtige Zielgruppe gesendet werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Über Entscheidungsfindung"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Entscheidungsrichtlinie"
+>abstract="Mit der Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und an jede Zielgruppe gesendet werden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Platzierung"
+>abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Ihre Leistung kann in verschiedenen Berichten über verschiedene Platzierungen hinweg verfolgen."
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
 
