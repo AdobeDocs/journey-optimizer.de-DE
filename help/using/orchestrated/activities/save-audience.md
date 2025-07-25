@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Geben Sie ein **[!UICONTROL Zielgruppen-Label]** ein, das die gespeicherte Zielgruppe identifiziert.
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppenattribut hinzufügen]**, um zu definieren, wie die Zielgruppendaten strukturiert und für die zukünftige Wiederverwendung gespeichert werden.
+1. Wählen Sie in **[!UICONTROL Zielgruppendimension]** Feld „Profilzuordnung&#x200B; aus.
+
+   ➡️ [Führen Sie die auf dieser Seite beschriebenen Schritte aus, um Ihre Zielgruppendimension für Campaign zu erstellen](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Wählen Sie dann das entsprechende **[!UICONTROL Primäre Identitätsfeld]** und den **[!UICONTROL Identity-Namespace]** aus, um eine richtige Profilauflösung sicherzustellen.
+1. Klicken Sie **[!UICONTROL Zielgruppenzuordnungen hinzufügen]**, wenn Sie die gespeicherte Zielgruppe mit zusätzlichen Identitätsfeldern verknüpfen möchten.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie über das Menü **[!UICONTROL Zielgruppen]** zugreifen können. 
 
-![](../assets/save-audience-3.png)
-
 ## Beispiel {#save-audience-example}
 
-Im folgenden Beispiel wird veranschaulicht, wie eine einfache Zielgruppe mithilfe von Targeting erstellt wird. Eine Abfrage identifiziert alle Profile, die in den letzten 30 Tagen einen Kauf getätigt haben. Die Aktivität **[!UICONTROL Zielgruppe speichern]** erfasst dann diese Profile, um eine wiederverwendbare Zielgruppe aus aktuellen Käuferinnen und Käufern zu erstellen.
+Im folgenden Beispiel wird veranschaulicht, wie eine einfache Zielgruppe mithilfe von Targeting erstellt wird. Eine Abfrage identifiziert alle Empfängerinnen und Empfänger, die in den letzten 30 Tagen eine Reise gebucht haben, indem sie diese Population innerhalb Ihrer orchestrierten Kampagne filtert. Wenn Sie **Empfänger - CRMID** als **Zielgruppendimension** auswählen, richtet sich die Zielgruppe an jedes einzelne Buchungsereignis und nicht nur an den Empfänger als Ganzes. Die Aktivität **[!UICONTROL Zielgruppe speichern]** erfasst dann diese Profile, um eine wiederverwendbare Zielgruppe aus aktuellen Käuferinnen und Käufern zu erstellen.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)

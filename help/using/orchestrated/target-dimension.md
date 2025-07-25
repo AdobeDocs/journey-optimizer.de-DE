@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuor
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Richten Sie zunächst die Kampagnenorchestrierung ein, indem Sie dem Kundenprofi
 
    In diesem Beispiel ist das Kundenprofil mit mehreren Abonnements verknüpft, die jeweils durch eine eindeutige `crmID` im `Recipient` dargestellt werden. Wenn Sie die **[!UICONTROL Target Dimension]** auf die Verwendung des `Recipient` Schemas und dessen `crmID` festlegen, können Sie Nachrichten auf Abonnementebene und nicht an das Hauptkundenprofil senden, um sicherzustellen, dass jeder Vertrag oder jede Zeile eine eigene personalisierte Nachricht erhält.
 
-   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition#identity).
+   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ Nach der Einrichtung Ihrer **[!UICONTROL Target Dimension]** müssen Sie Ihre E-
 
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Senden]**.
 
-Ihr Kanal kann jetzt mit orchestrierten Kampagnen verwendet werden, und die Nachrichten werden entsprechend der ausgewählten Zieldimension zugestellt.
+Ihr Kanal kann jetzt mit &quot;**Kampagnen“ verwendet** und Nachrichten werden entsprechend der ausgewählten Zielgruppendimension zugestellt.
