@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1716'
+source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+workflow-type: tm+mt
+source-wordcount: '1671'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Verwalten Sie Ihre Zielgruppen und Profildaten aus diesem Abschnitt.
 
 In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern.
 
-* **[!UICONTROL Richtlinien]** – Adobe Experience Platform ermöglicht es Ihnen, Ihre Felder mit Bezeichnungen zu versehen und Marketing-Aktionen für jeden Kanal zu erstellen. Anschließend definieren Sie eine Governance-Richtlinie, die mit einer Bezeichnung und einer Marketing-Aktion verknüpft ist. [Weitere Informationen](../action/action-privacy.md)
+* **[!UICONTROL Richtlinien]** – Adobe Experience Platform ermöglicht es Ihnen, Ihre Felder mit Labels zu versehen und Marketing-Aktionen für jeden Kanal zu erstellen. Anschließend definieren Sie eine Governance-Richtlinie, die mit einer Bezeichnung und einer Marketing-Aktion verknüpft ist. [Weitere Informationen](../action/action-privacy.md)
 
 * **[!UICONTROL Anfragen]** – Datenschutzanfragen werden im Adobe Experience Platform Privacy Service verwaltet. Dieser bietet eine RESTful-API und eine Benutzeroberfläche, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. [Weitere Informationen](../privacy/requests.md)
 
@@ -328,17 +328,6 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >id="ajo_exd_decision_attribute"
 >title="Auswählen von Entscheidungsattributen aus dem Katalog"
 >abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie ein Attribut aus dem ausgewählten Katalog aus, das Sie hier verwenden möchten."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
->title="Entscheidungsrichtlinie"
->abstract="Mit der Entscheidungsrichtlinie können die besten Elemente aus der Entscheidungs-Engine ausgewählt und an jede Zielgruppe gesendet werden."
-
->[!CONTEXTUALHELP]
->id="ajo_exd_placements"
->title="Platzierung"
->abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Ihre Leistung kann in verschiedenen Berichten über verschiedene Platzierungen hinweg verfolgen."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
