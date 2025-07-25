@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
+source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 18%
+source-wordcount: '628'
+ht-degree: 16%
 
 ---
 
@@ -55,7 +55,8 @@ Die Kampagnenorchestrierung basiert auf vier zentralen Säulen:
 <tr style="border: 0;">
 <td><img alt="On-Demand-Zielgruppen" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>On-Demand-Zielgruppen</b><br/> Führen Sie sofort Abfragen für mehrere Datensätze durch, um Zielgruppensegmente mithilfe einer beliebigen Kombination von Datentypen und Dimensionen zu erstellen.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentierung mehrerer Entitäten und Versand" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentierung und Versand mehrerer Entitäten</b><br/>Gehen Sie über personenbasierte Kampagnen hinaus - verwenden Sie Entitäten wie Produktkataloge, Speicherorte oder Service-Daten, um sie präzise anzusprechen.</td></tr>
+<td><img alt="Segmentierung mehrerer Entitäten und Versand" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentierung und Versand mehrerer Entitäten</b><br/>Gehen Sie über personenbasierte Kampagnen hinaus - verwenden Sie Entitäten wie Produktkataloge, Speicherorte oder Service-Daten, um sie präzise anzusprechen.<br/><br/>
+Unterstützt den Versand auf mehreren Ebenen, bei dem pro Profil und zugehöriger sekundärer Entität eine Nachricht gesendet wird. Zu diesen sekundären Entitäten können Kontaktadressen, Buchungen, Abonnements, Verträge oder andere verknüpfte Daten gehören. Dies ermöglicht beispielsweise den Versand von Kampagnen an alle bekannten Adressen eines Profils oder für jede mit diesem Profil verknüpfte Buchung.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Sichtbarkeit und Präzision vor dem Versand" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Sichtbarkeit und Präzision vor dem Versand</b><br/> Erhalten Sie vor dem Start exakte Segmentierungszahlen und den vollständigen Kampagnenumfang, um Genauigkeit und Konfidenz sicherzustellen.</td></tr>
 <tr style="border: 0;">
@@ -69,6 +70,8 @@ Obwohl die koordinierte Kampagnenvisualisierung mit der von Journey-Kampagnen ve
 * **Journey** - 1 bis 1 Arbeitsfläche, auf der jedes Profil die verschiedenen Schritte in seinem eigenen Tempo durchläuft. Der Status jedes Kunden wird innerhalb seines Kontexts beibehalten, um Echtzeit-Aktionen für den Trigger zu ermöglichen.
 
 * **Orchestrierte Kampagnen** - Im Gegensatz zu Journeys verwenden orchestrierte Kampagnen eine Batch-Arbeitsfläche, die Segmente berechnet. Alle Profile werden gleichzeitig verarbeitet.
+
+Beide Arbeitsflächen sind für ihre jeweiligen Anwendungsfälle optimiert: Die Journey-Arbeitsfläche veröffentlicht Journey, die in der Regel länger leben, während die Campaign-Arbeitsfläche für iterative und inkrementelle Ausführungen einer Batch-Kampagne entwickelt wurde.
 
 ## Voraussetzungen
 
