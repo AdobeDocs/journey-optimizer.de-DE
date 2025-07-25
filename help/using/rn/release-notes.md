@@ -423,36 +423,36 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
-* **Kanalregelsätze**
+&#x200B;* **Kanalregelsätze**
 
-   * **Benutzerdefiniertes Zeitfenster** für die Begrenzung – Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Alle** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer für mehrere Tage, Wochen oder Monate anwenden können.
+   &#x200B;* **Benutzerdefiniertes Zeitfenster** für die Begrenzung – Im Konfigurationsbildschirm für Kanalregelsätze ist jetzt ein neues Feld **Alle** verfügbar, mit dem Sie Frequenzbegrenzungsregeln je nach angegebener Dauer für mehrere Tage, Wochen oder Monate anwenden können.
 
-   * **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an die Kundenunterstützung, um die Funktion aktivieren zu lassen.
+   &#x200B;* **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an die Kundenunterstützung, um die Funktion aktivieren zu lassen.
 
-   * **Tägliche Dauer** – Die zuvor nur eingeschränkt verfügbare Frequenzbegrenzung „Täglich“ ist in Kanalregelsätzen jetzt für alle Kundinnen und Kunden verfügbar.
+   &#x200B;* **Tägliche Dauer** – Die zuvor nur eingeschränkt verfügbare Frequenzbegrenzung „Täglich“ ist in Kanalregelsätzen jetzt für alle Kundinnen und Kunden verfügbar.
 
   Weitere Informationen finden Sie in der [ausführlichen Dokumentation](../conflict-prioritization/channel-capping.md).
 
-* **Code-basierte Erlebnisse**
+&#x200B;* **Code-basierte Erlebnisse**
 
-   * Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar. Dort kann sie zur Nutzung von Angeboten in bearbeitbaren Formularfeldern verwendet werden. [Weitere Informationen](../code-based/code-based-form-fields.md)
+   &#x200B;* Das Hinzufügen einer Entscheidungsrichtlinie ist jetzt in Code-basierten Erlebnis-Inhaltsvorlagen verfügbar. Dort kann sie zur Nutzung von Angeboten in bearbeitbaren Formularfeldern verwendet werden. [Weitere Informationen](../code-based/code-based-form-fields.md)
 
-   * Auf dem Bearbeitungsbildschirm der Code-basierten Erlebnis-Journey oder -Kampagne können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](../code-based/create-code-based.md#edit-code)
+   &#x200B;* Auf dem Bearbeitungsbildschirm der Code-basierten Erlebnis-Journey oder -Kampagne können Sie jetzt direkt eine Entscheidungsrichtlinie hinzufügen, ohne den Personalisierungseditor zu öffnen. [Weitere Informationen](../code-based/create-code-based.md#edit-code)
 
-* **Unterstützung für benutzerdefiniertes CSS im E-Mail-Designer**
+&#x200B;* **Unterstützung für benutzerdefiniertes CSS im E-Mail-Designer**
 
   Mit Journey Optimizer können Sie Ihrem E-Mail-Inhalt jetzt benutzerdefiniertes CSS direkt im E-Mail-Designer hinzufügen. [Weitere Informationen](../email/custom-css.md)
 
-* **Neue Registerkartennavigation für Kampagnen**
+&#x200B;* **Neue Registerkartennavigation für Kampagnen**
 
   Ein neues Navigationsmuster ermöglicht einen schnelleren Zugriff auf das Content-Authoring und unterstützt die weitere Erweiterung der Einstellungen in allen Kampagnen. [Weitere Informationen](../campaigns/create-campaign.md)
 
-* **Entscheidungsfindung**
+&#x200B;* **Entscheidungsfindung**
 
-   * **Sandbox – Kopien und Entscheidungsfindung** (Verfügbarkeitsdatum: 3. Juni 2025) – Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, um Test- und Bereitstellungs-Workflows zu optimieren. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
+   &#x200B;* **Sandbox – Kopien und Entscheidungsfindung** (Verfügbarkeitsdatum: 3. Juni 2025) – Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, um Test- und Bereitstellungs-Workflows zu optimieren. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** (Verfügbarkeitsdatum: 4. Juni 2025) – Sie können jetzt Entscheidungselementattribute für die Erstellung von Entscheidungsregeln verwenden. [Weitere Informationen](../experience-decisioning/rules.md#create)
+   &#x200B;* **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** (Verfügbarkeitsdatum: 4. Juni 2025) – Sie können jetzt Entscheidungselementattribute für die Erstellung von Entscheidungsregeln verwenden. [Weitere Informationen](../experience-decisioning/rules.md#create)
 
-* **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
+&#x200B;* **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
 
   Mit dem API für die Ausführung interaktiver Nachrichten können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
