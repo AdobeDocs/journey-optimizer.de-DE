@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1865'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 100%
 >id="ajo_exd_placements"
 >title="Platzierung"
 >abstract="Eine Platzierung bestimmt, wo zurückgegebene Elemente aus der Entscheidungs-Engine in einer Nachricht angezeigt werden. Ihre Leistung kann in verschiedenen Berichten über verschiedene Platzierungen hinweg verfolgen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Auswählen von Entscheidungsattributen aus dem Katalog"
+>abstract="Entscheidungsattribute werden im Schema des Katalogs gespeichert. Wählen Sie ein Attribut aus dem ausgewählten Katalog aus, das Sie hier verwenden möchten."
 
 Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um je nach Zielgruppe die besten bereitzustellenden Inhalte auszuwählen.
 
