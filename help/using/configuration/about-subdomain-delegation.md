@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 77%
+source-wordcount: '859'
+ht-degree: 88%
 
 ---
 
@@ -86,14 +86,6 @@ Mit der Einrichtung einer CNAME-Subdomain können Sie eine Subdomain erstellen u
 
 In diesem Abschnitt erfahren Sie, wie Sie eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge [ verweisen](delegate-subdomain.md#cname-subdomain-setup).
 
-### Verwenden einer benutzerdefinierten Subdomain {#custom-subdomain-delegation}
-
-Mit der benutzerdefinierten Delegierungsmethode können Sie alle DNS-Aspekte, die für die Zustellung, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten.
-
-In diesem Fall besitzen und verwalten Sie unsere eigenen Subdomains und haben die volle Kontrolle über die Zertifikate, die im Rahmen dieses Prozesses generiert werden.
-
-Erfahren Sie in ([ Abschnitt), wie Sie eine benutzerdefinierte Domain ](delegate-custom-subdomain.md).
-
 ## Vergleich der Konfigurationsmethoden
 
 Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
@@ -102,7 +94,13 @@ Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise di
 |---|---|---|
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
 | **CNAME-Methode** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
-| **Benutzerdefinierte Delegierungsmethode** | Subdomain- und Namespace-Eintrag erstellen - Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern platziert werden sollen. Laden Sie das von der Zertifizierungsstelle erhaltene SSL-Zertifikat hoch und führen Sie die Schritte der Feedback-Schleife durch Überprüfen der Domain-Eigentümerschaft und der Reporting-E-Mail-Adresse aus.<br/><br/>Bei diesem Setup sind Sie vollständig für die Pflege des DNS verantwortlich. | Sehr hoch |
+
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
+| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
 
 Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de){target="_blank"}.
 

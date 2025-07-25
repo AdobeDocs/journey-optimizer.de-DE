@@ -11,16 +11,16 @@ keywords: Subdomain, Delegierung, Domain, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '736'
 ht-degree: 30%
 
 ---
 
 # Einrichten einer benutzerdefinierten Subdomain {#delegate-custom-subdomain}
 
-Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [CNAME eingerichtet](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der **Benutzerdefinierte Delegierung** die Verantwortung für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren. [Weitere Informationen](about-subdomain-delegation.md#custom-subdomain-delegation)
+Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [CNAME eingerichtet](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der **Benutzerdefinierte Delegierung** die Verantwortung für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
 
 Im Rahmen dieses Prozesses muss Adobe sicherstellen, dass Ihr DNS entsprechend für die Zustellung, das Rendering und das Tracking von Nachrichten konfiguriert ist. Aus diesem Grund müssen Sie das von [ Zertifizierungsstelle ](#upload-ssl-certificate) SSL-Zertifikat hochladen und die [Schritte der Feedback-Schleife) ](#feedback-loop-steps), indem Sie Domain-Eigentümerschaft und Reporting-E-Mail-Adresse überprüfen.
 
