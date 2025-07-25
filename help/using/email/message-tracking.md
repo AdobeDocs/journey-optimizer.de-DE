@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfangenden
 ## Links einfügen {#insert-links}
 
 Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
+
+>[!NOTE]
+>
+>Links aus Fragmenten, die in einer E-Mail verwendet werden, werden ebenfalls verfolgt. [Weitere Informationen zu Fragmenten](../content-management/fragments.md)
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
