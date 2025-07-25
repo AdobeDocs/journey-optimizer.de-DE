@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 4461d3fdf6e61b7d2593027250dce65bba5fbd77
+source-git-commit: f1c86dd54e46e813b3b813c539df08d4a5ce5fa9
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 84%
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Datum]**: Wählen Sie das Datum aus, an dem die Kampagne ausgeführt werden soll.
    * **[!UICONTROL Zeit]**: Wählen Sie den bestimmten Zeitpunkt aus, zu dem die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
    +++Täglich
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Definieren Sie die Zeit, zu der die Kampagne jeden Tag ausgeführt werden soll.
 
-   +++
++++
 
    +++Mehrmals pro Tag
 
@@ -130,7 +130,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Ausgewählte Stunden]**: Wählen Sie die bestimmten Zeiten aus, zu denen die Kampagne ausgeführt werden soll, und konfigurieren Sie ihr tägliches Intervall (wird an jedem Wochentag oder an bestimmten Tagen ausgeführt).
    * **[!UICONTROL Periodisch]**: Wählen Sie diese Option, um die Kampagne alle n Minuten oder Stunden auszuführen. Sie können auch den Zeitraum an einem Tag definieren, an dem Ausführungen zulässig sind.
 
-   +++
++++
 
    +++Wöchentlich
 
@@ -141,7 +141,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne an ausgewählten Tagen ausgeführt werden soll.
 
-   +++
++++
 
    +++Monatlich
 
@@ -157,7 +157,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
 1. Mit der Einstellung **[!UICONTROL Gültigkeit]** können Sie ein bestimmtes Start- und Enddatum definieren und die Ausführung der Kampagne auf ein begrenztes Zeitfenster beschränken.
 
