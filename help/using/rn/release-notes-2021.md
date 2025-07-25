@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME-Eintrag bzw. Eintrag mit kanonischem Namen ist ein Eintrag, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
 <p>Diese Methode wird empfohlen, wenn Ihre Unternehmensrichtlinien die vollständige Subdomain-Delegierung nicht erlauben.</p>
-<p>Weitere Informationen zur Delegierung von CNAME-Subdomains erhalten Sie in der <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen zur Delegierung von CNAME-Subdomains erhalten Sie in der <a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Google, TXT, Eintrag, Gmail, Zustellbarkeit
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Für optimale Zustellbarkeit und einen erfolgreichen Versand von E-Mails an Gmai
 
 >[!CAUTION]
 >
-> Dieser Vorgang kann nur ausgeführt werden, wenn eine Subdomain den Status **[!UICONTROL Erfolg]** aufweist. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#access-delegated-subdomains).
+> Dieser Vorgang kann nur ausgeführt werden, wenn eine Subdomain den Status **[!UICONTROL Erfolg]** aufweist. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](delegate-subdomain.md#access-delegated-subdomains).
 
 Gehen Sie wie folgt vor, um Ihrer Subdomain einen Google TXT-Eintrag hinzuzufügen:
 

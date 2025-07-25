@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Adobe empfiehlt daher dringend, DMARC-Einträge für alle Subdomains einzurichte
 oder
    * Richten Sie DMARC in Ihren delegierten Subdomains **in der Konfigurations-Benutzeroberfläche von[!DNL Journey Optimizer]** ein – ohne zusätzliche Arbeit an Ihrer Hosting-Lösung. [Weitere Informationen](dmarc-record.md#implement-dmarc)
 
-* Wenn Sie Ihre Versand-Subdomains mit [CNAME](delegate-subdomain.md#cname-subdomain-delegation) eingerichtet haben, führen Sie eine der folgenden Optionen aus:
+* Wenn Sie Ihre Versand-Subdomains mit [CNAME](delegate-subdomain.md#cname-subdomain-setup) eingerichtet haben, führen Sie eine der folgenden Optionen aus:
 
    * Richten Sie DMARC auf Ihren Subdomains oder auf der übergeordneten Domain Ihrer Subdomains **in Ihrer Hosting-Lösung** ein.
 oder

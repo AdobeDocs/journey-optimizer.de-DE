@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
+source-wordcount: '982'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unte
 
 Wenn Sie eine einzige Domain für alle Aufgaben verwenden und diese gesperrt oder zur Blockierungsliste hinzugefügt wird, könnte dies Auswirkungen auf die Zustellung Ihrer betrieblichen E-Mails haben. Probleme mit der Reputation oder die Blockierung einer Domain, die nur für Ihre E-Mail-Marketing-Kommunikation verwendet sind, beeinträchtigen hingegen ausschließlich diesen E-Mail-Verkehr. Wenn Sie Ihre Haupt-Domain als Absenderadresse für mehrere E-Mail-Arten verwenden, kann dies auch die E-Mail-Authentifizierung behindern und dazu führen, dass Ihre Nachrichten blockiert oder in den Spam-Ordner verschoben werden.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
@@ -54,54 +54,58 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 
 ## Methoden der Subdomain-Konfiguration {#subdomain-delegation-methods}
 
-Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (technisch gesehen eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
+Mit der Subdomain-Konfiguration können Sie einen Unterabschnitt Ihrer Domain (technisch gesehen eine „DNS-Zone„) für die Verwendung mit Adobe Campaign konfigurieren.
 
-* **Vollständige Subdomain-Delegierung an Adobe** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann alle DNS-Aspekte steuern und verwalten, die für die Zustellung, das Rendering und das Tracking von Nachrichten erforderlich sind. [Weitere Informationen zur vollständigen Subdomain-Delegierung](delegate-subdomain.md#full-subdomain-delegation)
+Die verfügbaren Einrichtungsmethoden sind wie folgt.
 
-* **Verwenden von CNAMEs**: Erstellen einer Subdomain und Verwenden von CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Bei dieser Konfiguration sind sowohl Sie als auch Adobe gemeinsam für die Pflege des DNS verantwortlich. [Weitere Informationen zur Delegierung von CNAME-Subdomains](delegate-subdomain.md#cname-subdomain-delegation)
+### Subdomain vollständig an Adobe delegieren (empfohlen) {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] ermöglicht die vollständige Delegation Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
+
+<!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
+
+Adobe stellt sicher, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Zustellbarkeitsanforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für Ihre unternehmensinternen E-Mail-Domains.
+
+>[!IMPORTANT]
+>
+>Die vollständige Subdomain-Delegierung ist die bevorzugte Methode.
+
+Wie Sie eine Subdomain vollständig an Adobe delegieren, erfahren Sie in [diesem Abschnitt](delegate-subdomain.md#set-up-subdomain).
+
+### Einrichten einer Subdomain mit CNAMEs {#cname-subdomain-setup}
+
+Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass Adobe nur eine teilweise Kontrolle über den DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
+
+Mit der Einrichtung einer CNAME-Subdomain können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
 
 >[!CAUTION]
 >
->* Die vollständige Subdomain-Delegierung ist die bevorzugte Methode.
+>Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Dieser Ansatz erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten.
 >
->* Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
+>Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
+
+In diesem Abschnitt erfahren Sie, wie Sie eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge [ verweisen](delegate-subdomain.md#cname-subdomain-setup).
+
+### Verwenden einer benutzerdefinierten Subdomain {#custom-subdomain-delegation}
+
+Mit der benutzerdefinierten Delegierungsmethode können Sie alle DNS-Aspekte, die für die Zustellung, das Rendering und das Tracking von Nachrichten erforderlich sind, vollständig steuern und verwalten.
+
+In diesem Fall besitzen und verwalten Sie unsere eigenen Subdomains und haben die volle Kontrolle über die Zertifikate, die im Rahmen dieses Prozesses generiert werden.
+
+Erfahren Sie in ([ Abschnitt), wie Sie eine benutzerdefinierte Domain ](delegate-custom-subdomain.md).
+
+## Vergleich der Konfigurationsmethoden
 
 Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
 | Konfigurationsmethode | Funktionsweise | Aufwand |
 |---|---|---|
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
-| **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
+| **CNAME-Methode** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
+| **Benutzerdefinierte Delegierungsmethode** | Subdomain- und Namespace-Eintrag erstellen - Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern platziert werden sollen. Laden Sie das von der Zertifizierungsstelle erhaltene SSL-Zertifikat hoch und führen Sie die Schritte der Feedback-Schleife durch Überprüfen der Domain-Eigentümerschaft und der Reporting-E-Mail-Adresse aus.<br/><br/>Bei diesem Setup sind Sie vollständig für die Pflege des DNS verantwortlich. | Sehr hoch |
 
-Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de).
+Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de){target="_blank"}.
 
-Bei Fragen zu den Methoden der Subdomain-Konfiguration wenden Sie sich an Adobe oder die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
+Wenn Sie Fragen zu den Konfigurationsmethoden von Subdomains haben, wenden Sie sich an Adobe oder die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
 
-## Zugreifen auf delegierte Subdomains {#access-delegated-subdomains}
-
-Alle delegierten Subdomains werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste eingrenzen können (Datum der Zuweisung, Benutzer oder Status).
-
-![](assets/subdomain-list.png)
-
-Die Spalte **[!UICONTROL Status]** enthält Informationen zum Prozess der Zuweisung von Subdomains:
-
-* **[!UICONTROL Entwurf]**: Die Subdomain-Zuweisung wurde als Entwurf gespeichert. Klicken Sie auf den Namen der Subdomain, um den Zuweisungsprozess fortzusetzen.
-* **[!UICONTROL Verarbeitung läuft]**: Die Subdomain wird mehreren Konfigurationsprüfungen unterzogen, bevor sie verwendet werden kann.
-* **[!UICONTROL Erfolgreich]**: Die Subdomain hat die Prüfungen erfolgreich durchlaufen und bestanden und kann zum Versand von Nachrichten verwendet werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind fehlgeschlagen, nachdem die Subdomain-Zuweisung übermittelt wurde.
-
-Um auf detaillierte Informationen zu einer Subdomain mit dem Status **[!UICONTROL Erfolgreich]** zuzugreifen, öffnen Sie sie in der Liste.
-
-![](assets/subdomain-delegated.png)
-
-Sie haben folgende Möglichkeiten:
-
-* Rufen Sie den während des Zuweisungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirrorseite, Tracking-URLs) ab oder
-
-* Fügen Sie Ihrer Subdomain einen TXT-Eintrag für die Website-Überprüfung von Google hinzu, um sicherzustellen, dass er verifiziert ist (siehe [Hinzufügen eines Google TXT-Eintrags zu einer Subdomain](google-txt.md)).
-
-
->[!CAUTION]
->
->Die Konfiguration von Subdomains ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
 

@@ -8,8 +8,8 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web, Subdomains, Konfiguration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren:
 
    Wenn Sie eine neue Web-Subdomain konfigurieren, verweist sie immer auf einen CNAME-Eintrag.
 
-1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
    Bevor Sie diese Subdomain zum Senden von Web-Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.
 

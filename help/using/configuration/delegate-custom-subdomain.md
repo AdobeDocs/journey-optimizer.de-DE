@@ -11,16 +11,16 @@ keywords: Subdomain, Delegierung, Domain, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 30%
 
 ---
 
 # Einrichten einer benutzerdefinierten Subdomain {#delegate-custom-subdomain}
 
-Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [CNAME eingerichtet](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der **Benutzerdefinierte Delegierung** die Verantwortung für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
+Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [CNAME eingerichtet](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der **Benutzerdefinierte Delegierung** die Verantwortung für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren. [Weitere Informationen](about-subdomain-delegation.md#custom-subdomain-delegation)
 
 Im Rahmen dieses Prozesses muss Adobe sicherstellen, dass Ihr DNS entsprechend für die Zustellung, das Rendering und das Tracking von Nachrichten konfiguriert ist. Aus diesem Grund müssen Sie das von [ Zertifizierungsstelle ](#upload-ssl-certificate) SSL-Zertifikat hochladen und die [Schritte der Feedback-Schleife) ](#feedback-loop-steps), indem Sie Domain-Eigentümerschaft und Reporting-E-Mail-Adresse überprüfen.
 
@@ -124,10 +124,9 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
    >
    >Stellen Sie sicher, dass alle Datensätze ordnungsgemäß erstellt wurden, bevor Sie fortfahren.
 
-   Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“.
+1. Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“.
 
-1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
-
+1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](delegate-subdomain.md#submit-subdomain)
 
 ## Fehlerbehebung - Checkliste {#check-list}
 
@@ -138,4 +137,3 @@ Wenn beim Senden Ihrer benutzerdefinierten Subdomain Fehler auftreten, führen S
 * Vergewissern Sie sich vor dem Hochladen, dass Ihr Zertifikat alle technischen Anforderungen erfüllt.
 
 * Stellen Sie sicher, dass Ihr Zertifikat im richtigen Format hochgeladen wird.
-

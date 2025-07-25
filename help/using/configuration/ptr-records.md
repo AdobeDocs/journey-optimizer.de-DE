@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -82,13 +82,13 @@ Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Ado
 
 ### Delegierte Subdomains mit der CNAME-Methode {#edit-ptr-subdomains-cname}
 
-Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert ist.
+Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert ist.
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
    ![](assets/ptr-record-select.png)
 
-1. Wählen Sie in der Liste eine Subdomain aus, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde.
+1. Wählen Sie in der Liste eine Subdomain aus, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
