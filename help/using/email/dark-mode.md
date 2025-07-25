@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Wechseln zum dunklen Modus
 description: Erfahren Sie, wie Sie den Dunkelmodus in der E-Mail-Designer verwenden
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: Dunkler Modus, E-Mail, Farbe, Editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="Wechseln zum dunklen Modus"
 >abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.
 
 Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) in den **[!UICONTROL Dunkelmodus“ wechseln]** in dem Sie bestimmte benutzerdefinierte Einstellungen definieren können. Wenn der Dunkelmodus aktiviert ist, zeigen die unterstützenden E-Mail-Clients die Einstellungen an, die Sie für diesen Modus definiert haben.
 
@@ -91,9 +96,10 @@ Gehen Sie wie folgt vor, um auf den Dunkelmodus in der E-Mail-Designer zuzugreif
 
 1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus. [Weitere Informationen](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Derzeit können Sie möglicherweise nicht in den Dunkelmodus wechseln, wenn Sie eine [E-Mail-Vorlage](use-email-templates.md) auswählen oder ein [Design](apply-email-themes.md) anwenden.
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Fügen Sie [Strukturen](content-from-scratch.md) und [Inhaltskomponenten) ](content-components.md) Inhalt hinzu.
 
@@ -104,12 +110,8 @@ Gehen Sie wie folgt vor, um auf den Dunkelmodus in der E-Mail-Designer zuzugreif
 1. Die standardmäßige Vorschau des Dunkelmodus wird angezeigt.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-Standardmäßig wendet die Vorschau des Dunkelmodus-Modus von Email Designer das Farbschema „Vollfarbinvertierung“ auf alle Elemente außer Bildern und Symbolen an. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+Standardmäßig wendet die Vorschau des Dunkelmodus-Modus von Email Designer das Farbschema „Vollfarbinvertierung“ auf alle Elemente außer Bildern und Symbolen an.
 
 Das bedeutet, dass Bereiche mit hellen und dunklen Elementen erkannt und invertiert werden, sodass helle Hintergründe dunkel und dunkler Text hell werden, während dunkle Hintergründe hell und heller Text dunkel werden.
 
@@ -135,7 +137,7 @@ Um den benutzerdefinierten Dunkelmodus-Stil von E-Mail-Designer zu nutzen, verwe
 
 Gehen Sie wie folgt vor, um benutzerdefinierte Einstellungen für den Dunkelmodus zu definieren.
 
-1. Stellen Sie sicher **[!UICONTROL dass der]** Dunkelmodus“ in der E-Mail-Designer aktiviert ist. [Weitere Informationen](#preview-dark-mode)
+1. Stellen Sie sicher, dass Sie in der E **[!UICONTROL Mail-Designer in den]** Dunkelmodus“ wechseln. [Weitere Informationen](#preview-dark-mode)
 
 1. Bearbeiten Sie alle Stilattribute wie Text, Hintergrund, Schaltfläche usw.
 
