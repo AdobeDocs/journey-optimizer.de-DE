@@ -96,7 +96,7 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-+++
+   +++
 
 1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Audiences](../audience/about-audiences.md).
 
