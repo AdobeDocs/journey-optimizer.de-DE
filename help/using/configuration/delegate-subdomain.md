@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 79%
+source-wordcount: '1906'
+ht-degree: 76%
 
 ---
 
@@ -29,9 +29,11 @@ ht-degree: 79%
 >title="Delegieren von Subdomains"
 >abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
-Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. Erfahren Sie mehr über die [Subdomain-Delegierung](about-subdomain-delegation.md).
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie als Kunde die Zone „example.com“ verwalten, können Sie Adobe grundsätzlich die Unterzone „marketing.example.com“ zuweisen.
 
-Standardmäßig können Sie mit [!DNL Journey Optimizer] **bis zu 10 Subdomains** delegieren. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+>[!NOTE]
+>
+>Weitere Informationen zur Delegierung von Subdomains und den verschiedenen mit [!DNL Journey Optimizer] verfügbaren Methoden finden Sie [diesem Abschnitt](about-subdomain-delegation.md).
 
 Sie haben folgende Möglichkeiten:
 
@@ -40,9 +42,19 @@ Sie haben folgende Möglichkeiten:
 
 Die **vollständige Subdomain-Delegierung** ist die empfohlene Methode. Weitere Informationen zu den Unterschieden zwischen den verschiedenen Subdomain-Konfigurationsmethoden finden Sie [ (diesem Abschnitt](about-subdomain-delegation.md#subdomain-delegation-methods).
 
->[!CAUTION]
->
->Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Delegierung zu übermitteln, während eine andere Subdomain den Status **[!UICONTROL Verarbeitung läuft]** aufweist, erhalten Sie eine Fehlermeldung.
+## Leitlinien {#guardrails}
+
+Befolgen Sie beim Einrichten von Subdomains in [!DNL Journey Optimizer] die unten beschriebenen Leitplanken und Empfehlungen.
+
+* Standardmäßig ermöglicht [!DNL Journey Optimizer] die Delegierung von **maximal 10 Subdomains**. Abhängig von Ihrem Lizenzvertrag können Sie jedoch bis zu 100 Subdomains delegieren. Wenden Sie sich an Ihre Adobe-Kontaktperson, um die Anzahl der Subdomains zu erfahren, für die Sie berechtigt sind.
+
+* Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Delegierung zu übermitteln, während eine andere Subdomain den Status **[!UICONTROL Verarbeitung läuft]** aufweist, erhalten Sie eine Fehlermeldung.
+
+* Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
+
+* Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+
+* Das Delegieren sowohl einer übergeordneten als auch einer Subdomain wird nicht unterstützt. Wenn Sie beispielsweise subdomain.domain.com delegiert haben, können Sie email.subdomain.domain.com nicht delegieren. Wenn Sie email.subdomain.domain.com delegiert haben, können Sie auch subdomain.domain.com nicht delegieren.
 
 ## Zugreifen auf delegierte Subdomains {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ Sie haben folgende Möglichkeiten:
 
 >[!CAUTION]
 >
->Die Konfiguration von Subdomains ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
+>Die Konfiguration von Subdomains ist **in allen Umgebungen gleich**. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
 
 ## Einrichten einer Subdomain in Journey Optimizer {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ Sie haben folgende Möglichkeiten:
 >abstract="Um eine neue Subdomain vollständig an Adobe zu delegieren, müssen die in der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopiert und in die Domain-Hosting-Lösung eingefügt werden, um die passenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAMEs zu delegieren, muss auch der SSL-CDN-URL-Validierungeintrag kopiert und eingefügt werden. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
 
 Gehen Sie wie folgt vor, um eine neue Subdomain in [!DNL Journey Optimizer] einzurichten.
-
+<!--
 >[!NOTE]
 >
->In diesem Abschnitt wird beschrieben, wie Sie eine Subdomain mit den Methoden der vollständigen Delegierung oder CNAME einrichten. Die Methode der benutzerdefinierten Delegierung wird in ([ Abschnitt) ](#setup-custom-subdomain).
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]** auf und klicken Sie dann auf **[!UICONTROL Subdomain einrichten]**.
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >Die Konfiguration von Subdomains ist **in allen Umgebungen gleich**. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
 
 1. Wählen Sie im **[!UICONTROL Einrichtungsmethode]** entweder:
 
@@ -105,14 +112,14 @@ Gehen Sie wie folgt vor, um eine neue Subdomain in [!DNL Journey Optimizer] einz
 1. Geben Sie den Namen der zu delegierenden Subdomain an.
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
-   >
-   >Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
-
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. Richten Sie **[!UICONTROL den DMARC]** Eintrag im entsprechenden Abschnitt ein. Wenn die Subdomain über einen [DMARC-Eintrag](dmarc-record.md) verfügt und von [!DNL Journey Optimizer] abgerufen wird, können dieselben Werte verwendet oder nach Bedarf geändert werden. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Erfahren Sie, wie Sie DMARC-Einträge verwalten](dmarc-record.md#set-up-dmarc)
 
@@ -266,4 +273,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
