@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
+source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -133,7 +133,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten Dunkelmodus. Darüber hinaus wenden einige E-Mail-Clients nur für alle empfangenen E-Mails ihren eigenen standardmäßigen Dunkelmodus an. In beiden Fällen können die in der E-Mail-Designer definierten benutzerdefinierten Einstellungen nicht gerendert werden.</li>
 </ul>
 <P>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 
