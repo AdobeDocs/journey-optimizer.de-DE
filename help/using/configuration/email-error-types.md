@@ -10,7 +10,7 @@ level: Experienced
 keywords: weitere Zustellversuche, Bounce, Soft, Ignoriert, Hard, Optimizer, Fehler
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 19%
@@ -18,7 +18,7 @@ ht-degree: 19%
 ---
 
 
-# E-Mail-Fehlertypen
+# E-Mail-Fehlertypen {#email-error-types}
 
 Mögliche Ursachen für einen fehlgeschlagenen Versand sind mehrere. In der folgenden Tabelle sind alle Fehler, die beim Senden von E-Mail-Sendungen mit [!DNL Journey Optimizer] auftreten können, zusammen mit ihrer Beschreibung und dem Fehlertyp aufgeführt.
 
