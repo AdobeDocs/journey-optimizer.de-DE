@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 17%
 
 ---
@@ -216,9 +216,8 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 - **Journeys**
    - **Verbesserungen beim Journey der Sandbox-Tools** - Beim Kopieren von Journeys über mehrere Sandboxes hinweg mithilfe der Paketexport- und -importfunktionen sind jetzt auch die folgenden Funktionen verfügbar:
-      - Auswählen eines vorhandenen Ereignisses am Ziel
       - Kopieren eines Ereignisses unabhängig von einer Journey
-      - Erkennen von Feldergruppen-/Datenquellenbeziehungen, Verknüpfen mit ihnen am Ziel, wenn sie vorhanden sind, Erstellen von ihnen, wenn sie nicht vorhanden sind.
+      - Erkennen von Ereignissen, Feldergruppen und Datenquellen und Verknüpfen dieser Ereignisse mit dem Ziel (sofern vorhanden), andernfalls Erstellen der Ereignisse.
   <!-- [Read more](../FILE.md) -->
 
 - **Kanal - InApp**
