@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2592'
 ht-degree: 95%
 
 ---
@@ -772,6 +772,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Ausführen des IP-Aufwärmplans](using/configuration/ip-warmup-execution.md)
       + [Dateien für den IP-Aufwärmplan](using/configuration/ip-warmup-plan-files.md)
    + Überwachen von E-Mail-Adressen {#monitor-reputation}
+      + [E-Mail-Fehlertypen](using/configuration/email-error-types.md)
       + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
       + [Weitere Zustellversuche](using/configuration/retries.md)
       + [Zulassungsliste](using/configuration/allow-list.md)
