@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
-workflow-type: ht
-source-wordcount: '1450'
-ht-degree: 100%
+source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Sie können Objekte wie Journeys, benutzerdefinierte Aktionen, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes hinweg kopieren, indem Sie die Export- und Importfunktionen für Pakete verwenden. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
 
-Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion sind in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=de) verfügbar.
+Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion selbst finden Sie im Adobe Experience Platform-Handbuch [Sandbox-Tools](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=de#abobe-journey-optimizer-objects){target="_blank"}.
 
 >[!NOTE]
 >
@@ -28,12 +28,13 @@ Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Jo
 
 Der Kopiervorgang erfolgt über den Export und Import eines Pakets zwischen der Quell- und der Ziel-Sandbox. Nachfolgend erfahren Sie, wie Sie eine Journey von einer Sandbox in eine andere kopieren:
 
-1. Fügen Sie das zu exportierende Objekt als Paket in der Quell-Sandbox hinzu.
-1. Exportieren Sie das Paket in die Ziel-Sandbox.
+1. [Fügen Sie das -Objekt hinzu, das als Paket in die Quell-Sandbox exportiert werden soll](#export)
+1. [Paket veröffentlichen](#publish)
+1. [Importieren des Pakets in die Ziel-Sandbox](#import)
 
 ## Exportierte Objekte und Best Practices {#objects}
 
-Journey Optimizer ermöglicht den Export von Journeys, benutzerdefinierten Aktionen, Inhaltsvorlagen und Fragmenten in eine andere Sandbox. In den folgenden Abschnitten finden Sie Informationen und Best Practices für jede Art von Objekt.
+Journey Optimizer ermöglicht den Export von Journey, benutzerdefinierten Aktionen, Inhaltsvorlagen, Fragmenten und anderen Objekten in eine andere Sandbox. In den folgenden Abschnitten finden Sie Informationen und Best Practices für jede Art von Objekt.
 
 ### Allgemeine Best Practices {#global}
 
@@ -43,26 +44,34 @@ Journey Optimizer ermöglicht den Export von Journeys, benutzerdefinierten Aktio
 
 * Landingpages werden derzeit nicht für die Migration zwischen Sandboxes unterstützt. Wenn Sie eine Journey in eine andere Sandbox kopieren, verweisen alle Verweise auf Landingpages in Ihrem Journey- oder E-Mail-Inhalt weiterhin auf die ursprünglichen (Quell-)Sandbox-Landingpage-IDs. Nach der Migration müssen Sie alle Verweise auf Landingpages in Ihrem Journey- und E-Mail-Inhalt manuell aktualisieren, um die richtigen Landingpage-IDs aus der Ziel-Sandbox zu verwenden. Siehe [Erstellen und Veröffentlichen von Landingpages](../landing-pages/create-lp.md).
 
++++ Journeys
 
-### Journeys {#journeys}
+* **Kopierte Abhängigkeiten** - Beim Exportieren einer Journey kopiert Journey Optimizer neben der Journey selbst auch die meisten Objekte, von denen die Journey abhängig ist: Zielgruppen, benutzerdefinierte Aktionen, Schemata, Ereignisse und Aktionen. Weitere Informationen zu kopierten Objekten finden Sie im Adobe Experience Platform-Handbuch [Sandbox-Tools](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=de#abobe-journey-optimizer-objects){target="_blank"}.
 
-* Wenn Sie eine Journey exportieren, kopiert Journey Optimizer nicht nur die Journey selbst, sondern auch die meisten Objekte, von denen die Journey abhängt: Zielgruppen, benutzerdefinierte Aktionen, Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=de#abobe-journey-optimizer-objects).
+* **Manuelle Validierung empfohlen** - Wir garantieren nicht, dass alle verknüpften Elemente in die Ziel-Sandbox kopiert werden. Wir empfehlen Ihnen dringend, eine gründliche Prüfung durchzuführen, zum Beispiel vor der Veröffentlichung einer Journey. Auf diese Weise können Sie jedes potenziell fehlende Objekt identifizieren.
 
-* Wir können nicht garantieren, dass alle verknüpften Elemente in die Ziel-Sandbox kopiert werden. Wir empfehlen Ihnen dringend, eine gründliche Prüfung durchzuführen, zum Beispiel vor der Veröffentlichung einer Journey. Auf diese Weise können Sie jedes potenziell fehlende Objekt identifizieren.
+* **Entwurfsmodus und Eindeutigkeit** - Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. So können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen.
 
-* Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. So können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen.
+* **Metadaten** - Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
 
-* Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
+* **Benutzerdefinierte Aktionen**
 
-### Benutzerdefinierte Aktionen {#custom-actions}
+   * Beim Exportieren benutzerdefinierter Aktionen werden URL-Konfiguration und Payload-Parameter kopiert. Aus Sicherheitsgründen werden Authentifizierungsparameter jedoch nicht kopiert, sondern durch „INSERT SECRET HERE“ (Geheimnis hier einfügen) ersetzt. Konstante Parameterwerte für Anfrage-Header und Abfrage werden ebenfalls durch „INSERT SECRET HERE“ (Geheimnis hier einfügen) ersetzt.
 
-* Beim Exportieren benutzerdefinierter Aktionen werden URL-Konfiguration und Payload-Parameter kopiert. Aus Sicherheitsgründen werden Authentifizierungsparameter jedoch nicht kopiert, sondern durch „INSERT SECRET HERE“ (Geheimnis hier einfügen) ersetzt. Konstante Parameterwerte für Anfrage-Header und Abfrage werden ebenfalls durch „INSERT SECRET HERE“ (Geheimnis hier einfügen) ersetzt.
+     Dazu gehören die benutzerdefinierten Aktionen für spezielle Zwecke ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
 
-  Dazu gehören die benutzerdefinierten Aktionen für spezielle Zwecke ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+   * Wenn Sie beim Kopieren einer Journey in eine andere Sandbox für eine benutzerdefinierte Aktion während des Importvorgangs „Vorhandene verwenden“ auswählen, muss die ausgewählte benutzerdefinierte Aktion mit der benutzerdefinierten Quellaktion übereinstimmen (d. h. gleiche Konfiguration, Parameter usw.). Andernfalls weist die neue Journey-Kopie Fehler auf, die auf der Arbeitsfläche nicht korrigiert werden können.
 
-* Wenn Sie beim Kopieren einer Journey in eine andere Sandbox für eine benutzerdefinierte Aktion während des Importvorgangs „Vorhandene verwenden“ auswählen, muss die ausgewählte benutzerdefinierte Aktion mit der benutzerdefinierten Quellaktion übereinstimmen (d. h. gleiche Konfiguration, Parameter usw.). Andernfalls weist die neue Journey-Kopie Fehler auf, die auf der Arbeitsfläche nicht korrigiert werden können.
+<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
 
-### Kampagnen {#campaigns}
+   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
+   * If no match is found, the system creates new components.
+
+   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
+-->
++++
+
++++ Kampagnen
 
 Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Die folgenden Elemente werden jedoch **nicht** kopiert:
 
@@ -77,15 +86,9 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 * **Experimentelle Varianten und Einstellungen**: Experimentelle Varianten und Einstellungen sind im Kampagnenkopierprozess enthalten. Validieren Sie diese Einstellungen nach dem Import in der Ziel-Sandbox.
 * **Einheitliche Entscheidungsfindung**: Entscheidungsrichtlinien und Entscheidungselemente werden für den Export und Import unterstützt. Stellen Sie sicher, dass entscheidungsbezogene Abhängigkeiten in der Ziel-Sandbox korrekt zugeordnet sind.
 
-### Inhaltsvorlagen {#content-templates}
++++
 
-* Wenn Sie eine Inhaltsvorlage exportieren, werden auch alle verschachtelten Fragmente mitkopiert.
-
-* Der Export von Inhaltsvorlagen kann manchmal zu einer Duplizierung von Fragmenten führen. Wenn beispielsweise zwei Vorlagen das gleiche Fragment freigeben und in getrennten Paketen kopiert werden, müssen beide Vorlagen das gleiche Fragment in der Ziel-Sandbox wiederverwenden. Um Duplikate zu vermeiden, wählen Sie während des Importvorgangs die Option „Vorhandene verwenden“. [Erfahren Sie, wie man ein Paket importiert](#import)
-
-* Um Duplikate weiter zu vermeiden, wird empfohlen, Inhaltsvorlagen in einem einzigen Paket zu exportieren. Dadurch wird sichergestellt, dass das System Deduplizierungen effizient verwaltet.
-
-### Entscheidungsfindung {#decisioning}
++++ Entscheidungsfindung
 
 * Die folgenden Objekte müssen in der Ziel-Sandbox vorhanden sein, bevor Entscheidungsfindungsobjekte kopiert werden können:
 
@@ -95,15 +98,41 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 
 * Die Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
 
+* Beim Kopieren einer Kampagne werden Entscheidungselemente (Angebotselemente) nicht automatisch mitkopiert. Stellen Sie sicher, dass Sie sie einzeln mit der Option „Zu Paket hinzufügen“ kopieren.
+
+* Wenn eine Entscheidungsrichtlinie über eine Auswahlstrategie verfügt, müssen Entscheidungselemente separat hinzugefügt werden. Wenn es manuelle/Fallback-Entscheidungselemente hat, werden diese automatisch als direkte Abhängigkeiten hinzugefügt.
+
 * Stellen Sie beim Kopieren von Entscheidungsentitäten sicher, dass Sie Entscheidungselemente **vor** jedem anderen Objekt kopieren. Wenn Sie beispielsweise zuerst eine Sammlung kopieren und in der neuen Sandbox keine Angebote vorhanden sind, bleibt diese neue Sammlung leer.
 
-### Fragmente {#fragments}
+* Wenn Sie Entitäten mit Abhängigkeiten (z. B. Schema, Segmente) kopieren, klicken Sie auf „Neu erstellen“ für die Entität, um deren Auswahl aufzuheben und die Option „Vorhandene verwenden“ für abhängige Artefakte anzuzeigen. Für zusätzliche Abhängigkeiten kann es erforderlich sein, diesen Schritt in der Hierarchie weiter unten zu wiederholen.
+
+  Beispiel: Um beim Importieren einer Kampagne ein Datenstromschema in einer Regel wiederzuverwenden, klicken Sie auf „Neu erstellen“ für DECISIONING_STRATEGY und dann erneut auf DECISIONING_RULES, um die Option „Vorhandene verwenden“ für das Datenstromschema anzuzeigen.
+
+* Stellen Sie bei Entitäten, die von einem Datenstrom-Kontextschema abhängig sind, sicher, dass der Datenstrom zuvor erstellt wurde, und wählen Sie ein vorhandenes Schema für diesen Datenstrom aus.
+
+* Wenn Sie beim Importieren direkt auf „Beenden“ klicken, werden alle Abhängigkeiten neu erstellt.
+
++++
+
++++ Inhaltsvorlagen
+
+* Wenn Sie eine Inhaltsvorlage exportieren, werden auch alle verschachtelten Fragmente mitkopiert.
+
+* Der Export von Inhaltsvorlagen kann manchmal zu einer Duplizierung von Fragmenten führen. Wenn beispielsweise zwei Vorlagen das gleiche Fragment freigeben und in getrennten Paketen kopiert werden, müssen beide Vorlagen das gleiche Fragment in der Ziel-Sandbox wiederverwenden. Um Duplikate zu vermeiden, wählen Sie während des Importvorgangs die Option „Vorhandene verwenden“. [Erfahren Sie, wie man ein Paket importiert](#import)
+
+* Um Duplikate weiter zu vermeiden, wird empfohlen, Inhaltsvorlagen in einem einzigen Paket zu exportieren. Dadurch wird sichergestellt, dass das System Deduplizierungen effizient verwaltet.
+
++++
+
++++ Fragmente
 
 * Fragmente können über mehrere Status verfügen, z. B. „Live“, „Entwurf“ und „Live mit Entwurf in Bearbeitung“. Beim Exportieren eines Fragments wird sein letzter Entwurfsstatus in die Ziel-Sandbox kopiert.
 
 * Beim Exportieren eines Fragments werden auch alle verschachtelten Fragmente mitkopiert.
 
-## Hinzufügen von Objekten als Paket{#export}
++++
+
+## Hinzufügen von Objekten als Paket {#export}
 
 Um Objekte in eine andere Sandbox zu kopieren, müssen Sie sie zunächst als Paket in der Quell-Sandbox hinzufügen. Führen Sie folgende Schritte aus:
 
@@ -119,10 +148,6 @@ Um Objekte in eine andere Sandbox zu kopieren, müssen Sie sie zunächst als Pak
    * **Neues Paket erstellen**: Geben Sie den Paketnamen ein. Sie können auch eine Beschreibung hinzufügen.
 
 1. Wiederholen Sie diese Schritte, um alle Objekte hinzuzufügen, die Sie mit Ihrem Paket exportieren möchten.
-
->[!NOTE]
->
->Beim Export von Journeys kopiert Journey Optimizer neben der Journey selbst auch die meisten Objekte, von denen die Journey abhängt: Zielgruppen, Schemata, Ereignisse und Aktionen. Weitere Informationen zum Export von Journeys finden Sie [in diesem Abschnitt](../building-journeys/copy-to-sandbox.md).
 
 ## Veröffentlichen des Pakets zum Export {#publish}
 
