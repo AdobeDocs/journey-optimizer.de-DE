@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ Sie können die Kampagne auch im Testmodus ausführen, um ihre Ausführung und d
 
 Mit [!DNL Journey Optimizer] können Sie orchestrierte Kampagnen testen, bevor Sie live gehen. Wenn eine Kampagne erstellt wird, wechselt sie standardmäßig in **Status** Entwurf“. In diesem Zustand können Sie die Kampagne manuell ausführen, um den Fluss zu testen.
 
-Alle Aktivitäten auf der Arbeitsfläche werden ausgeführt, mit Ausnahme von **[!UICONTROL Zielgruppe speichern]** Aktivitäten und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Ihre Zielgruppe.
+>[!IMPORTANT]
+>
+>Alle Aktivitäten auf der Arbeitsfläche werden ausgeführt, mit Ausnahme von **[!UICONTROL Zielgruppe speichern]** Aktivitäten und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Zielgruppe.**
 
 So testen Sie eine Kampagne:
 
@@ -63,13 +65,19 @@ Während des Tests können Sie die Ausführung der Kampagne über die Aktionslei
 
 * **Stoppen** Sie die Ausführung jederzeit.
 * **Starten** Sie die Ausführung erneut.
-* **Setzen Sie die Ausführung fort**, wenn sie zuvor aufgrund eines Problems pausiert wurde.
+* **Fortsetzen** Die Ausführung, wenn sie zuvor angehalten wurde.
 
-Wenn während der Ausführung ein Fehler oder eine Warnung auftritt, werden Sie über das Symbol **[!UICONTROL Warnhinweise]** / **[!UICONTROL Warnung]** in der Symbolleiste der Arbeitsfläche benachrichtigt.
+Das Symbol **[!UICONTROL Warnhinweise]** / **[!UICONTROL Warnung]** in der Symbolleiste der Arbeitsfläche benachrichtigt Sie über Probleme, einschließlich Warnungen, die proaktiv vor der Ausführung angezeigt werden können, und Fehler, die während oder nach der Ausführung auftreten.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 Außerdem können Sie fehlgeschlagene Aktivitäten schnell mithilfe der [visuellen Statusindikatoren](#activities) erkennen, die direkt auf jeder Aktivität angezeigt werden. Eine ausführliche Fehlerbehebung finden Sie in den [Kampagnenprotokollen](#logs-tasks), die detaillierte Informationen zum Fehler und seinem Kontext enthalten.
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 Nach der Validierung kann die Kampagne veröffentlicht werden.
 

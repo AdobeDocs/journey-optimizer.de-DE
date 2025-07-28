@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 87%
+source-wordcount: '998'
+ht-degree: 86%
 
 ---
 
@@ -52,7 +52,7 @@ Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Ber
 
 Wiederholen Sie diesen Vorgang, um beliebig viele Aktivitäten hinzuzufügen, abhängig von den Aufgaben, die Ihre orchestrierte Kampagne ausführen soll. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** an der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
-Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten zu personalisieren. Wählen Sie dazu die Transition aus und ändern Sie die Bezeichnung im rechten Bereich.
+Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten anzupassen. Wählen Sie dazu die Transition aus und ändern Sie das Label im rechten Bereich.
 
 ![](assets/canvas-transition.png)
 
@@ -84,7 +84,7 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflä
 
 ![Symbol „Pausieren“](assets/do-not-localize/activity-pause.svg) ![Symbol „Fortsetzen“](assets/do-not-localize/activity-resume.svg) Pausiert die Aktivität bzw. setzt sie fort. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der pausierten Aktivität pausiert. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
 
-    Sie können jede Aktivität auf der Arbeitsfläche als Haltepunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und dann die Ausführung anhält. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie in diesem Abschnitt: [Visual Flow Monitoring](../orchestrated/start-monitor-campaigns.md#flow).
+Sie können jede Aktivität auf der Arbeitsfläche als Haltepunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und dann die Ausführung anhält. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie in diesem Abschnitt: [Visuelle Flussüberwachung](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Symbol „Kopieren“](assets/do-not-localize/activity-copy.svg) Kopiert die Aktivität. [Weitere Informationen zum Kopieren und Einfügen von Aktivitäten](#copy)
 
