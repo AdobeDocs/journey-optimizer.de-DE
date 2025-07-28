@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2589'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -201,17 +201,17 @@ ht-degree: 96%
       + [Kampagne überprüfen und aktivieren](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Trigger bei der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
-      + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Erste Schritte mit koordinierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
       + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
          + [Erste Schritte mit Schemata und Datensätzen](using/orchestrated/gs-schemas.md)
          + [Manuelles Schema](using/orchestrated/manual-schema.md)
          + [Datei-Upload-Schema](using/orchestrated/file-upload-schema.md)
          + [Aufnehmen von Daten](using/orchestrated/ingest-data.md)
-      + [Zugreifen auf und Verwalten von orchestrierten Kampagnen](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [Zugreifen auf und Verwalten von koordinierten Kampagnen](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Erstellen einer Zielgruppendimension](using/orchestrated/target-dimension.md)
       + [Leitlinien und Einschränkungen](using/orchestrated/guardrails.md)
-      + Starten Ihrer ersten orchestrierten Kampagne{#launch}
-         + [Wichtige Schritte beim Erstellen einer orchestrierten Kampagne](using/orchestrated/gs-campaign-creation.md)
+      + Starten der ersten orchestrierten Kampagne{#launch}
+         + [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](using/orchestrated/gs-campaign-creation.md)
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
          + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)

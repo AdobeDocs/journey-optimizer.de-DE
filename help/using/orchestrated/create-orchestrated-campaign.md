@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen und Planen orchestrierter Kampagnen mit Journey Optimizer
-description: Informationen zur Erstellung und Planung einer orchestrierten Kampagne mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer eine koordinierte Kampagne erstellen und planen
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 8738499dc20f8617d7b4f6d9cf456f1c9e31bd0f
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 82%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
 | [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | <b>[Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
@@ -36,14 +36,14 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 >[!ENDSHADEBOX]
 
-Erstellen Sie eine orchestrierte Kampagne in [!DNL Adobe Journey Optimizer] und konfigurieren Sie den Zeitplan ihrer Ausführung, um ihren Start und die Häufigkeit ihrer Ausführung zu steuern. Sie können die Kampagne entweder sofort, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend mit flexiblen Planungsoptionen wie täglich, wöchentlich oder monatlich starten.
+Erstellen Sie eine orchestrierte Kampagne in [!DNL Adobe Journey Optimizer] und konfigurieren Sie deren Ausführungsplanung, um den Zeitpunkt und die Häufigkeit des Starts zu steuern. Sie können die Kampagne entweder sofort, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend mit flexiblen Planungsoptionen wie täglich, wöchentlich oder monatlich starten.
 
 ## Erstellen der Kampagne {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Liste der orchestrierten Kampagnen"
->abstract="Auf der Registerkarte **Orchestrierung** werden alle orchestrierten Kampagnen aufgelistet. Klicken Sie auf den Namen einer orchestrierten Kampagne, um sie zu bearbeiten. Über die Schaltfläche **Orchestrierte Kampagne erstellen** können Sie eine neue orchestrierte Kampagne hinzufügen."
+>title="Liste der koordinierten Kampagnen"
+>abstract="Auf **Registerkarte** Orchestrierung“ werden alle orchestrierten Kampagnen aufgelistet. Klicken Sie auf den Namen einer orchestrierten Kampagne, um sie zu bearbeiten. Verwenden Sie die Schaltfläche **Orchestrierte Kampagne erstellen**, um eine neue orchestrierte Kampagne hinzuzufügen."
 
 Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
       [!DNL Adobe Experience Platform] ist jede Zielgruppe an eine bestimmte Zusammenführungsrichtlinie gebunden, die definiert, wie Profilinformationen zu einem zusammengeführten Profil kombiniert werden. Wenn Sie in der Aktivität Zielgruppe lesen eine Zusammenführungsrichtlinie auswählen, sind nur Zielgruppen verfügbar, die auf derselben Zusammenführungsrichtlinie basieren. Standardmäßig verwendet das System die standardmäßige Zusammenführungsrichtlinie, Sie können sie jedoch bei Bedarf ändern. Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
-   1. Verwenden Sie das Feld **[!UICONTROL Tags]**, um Ihrer Kampagne einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Liste der orchestrierten Kampagnen. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags).
+   1. Verwenden Sie das Feld **[!UICONTROL Tags]**, um Ihrer Kampagne einheitliche Adobe Experience Platform-Tags zuzuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche in der Liste „Orchestrierte Kampagnen“ verbessern. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags).
 
    1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -84,13 +84,13 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 >title="Planungsoptionen"
 >abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
-Standardmäßig starten orchestrierte Kampagnen, wenn sie manuell aktiviert werden, und enden, sobald die zugehörigen Aktivitäten ausgeführt wurden. Wenn Sie es vorziehen, die Ausführung zu verzögern oder die Kampagne wiederkehrend auszuführen, können Sie einen Zeitplan für die Kampagne definieren.
+Standardmäßig beginnen orchestrierte Kampagnen, wenn sie manuell aktiviert werden, und enden, sobald die zugehörigen Aktivitäten ausgeführt wurden. Wenn Sie es vorziehen, die Ausführung zu verzögern oder die Kampagne wiederkehrend auszuführen, können Sie einen Zeitplan für die Kampagne definieren.
 
 Beachten Sie bei der Planung orchestrierter Kampagnen die folgenden Best Practices, um eine optimale Leistung und das erwartete Verhalten sicherzustellen:
 
-* Planen Sie nicht, die orchestrierte Kampagne öfter als alle 15 Minuten auszuführen, da dies die Gesamtleistung des Systems beeinträchtigen und Blockierungen in der Datenbank verursachen könnte.
-* Wenn Sie einen einmaligen Versand in Ihrer orchestrierten Kampagne durchführen möchten, können Sie eine **einmalige** Ausführung festlegen.
-* Wenn Sie einen wiederkehrenden Versand in Ihrer orchestrierten Kampagne durchführen möchten, müssen Sie eine **Planungsoption** verwenden und die Ausführungshäufigkeit festlegen. Die Aktivität „Wiederkehrender Versand“ ermöglicht keine Festlegung eines Zeitplans.
+* Planen Sie keine orchestrierte Kampagne, die öfter als alle 15 Minuten ausgeführt wird, da die Gesamtleistung des Systems beeinträchtigt werden kann und Blockierungen in der Datenbank entstehen können.
+* Wenn Sie eine einmalige Nachricht in Ihrer orchestrierten Kampagne senden möchten, können Sie sie auf „Einmal **&quot;**.
+* Wenn Sie in Ihrer orchestrierten Kampagne eine wiederkehrende Nachricht senden möchten, müssen Sie eine **Planung**-Option verwenden und die Ausführungsfrequenz festlegen. Die Aktivität „Wiederkehrender Versand“ ermöglicht keine Festlegung eines Zeitplans.
 
 Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Datum]**: Wählen Sie das Datum aus, an dem die Kampagne ausgeführt werden soll.
    * **[!UICONTROL Zeit]**: Wählen Sie den bestimmten Zeitpunkt aus, zu dem die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
    +++Täglich
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Definieren Sie die Zeit, zu der die Kampagne jeden Tag ausgeführt werden soll.
 
-   +++
++++
 
    +++Mehrmals pro Tag
 
@@ -130,7 +130,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Ausgewählte Stunden]**: Wählen Sie die bestimmten Zeiten aus, zu denen die Kampagne ausgeführt werden soll, und konfigurieren Sie ihr tägliches Intervall (wird an jedem Wochentag oder an bestimmten Tagen ausgeführt).
    * **[!UICONTROL Periodisch]**: Wählen Sie diese Option, um die Kampagne alle n Minuten oder Stunden auszuführen. Sie können auch den Zeitraum an einem Tag definieren, an dem Ausführungen zulässig sind.
 
-   +++
++++
 
    +++Wöchentlich
 
@@ -141,7 +141,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
    * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne an ausgewählten Tagen ausgeführt werden soll.
 
-   +++
++++
 
    +++Monatlich
 
@@ -157,7 +157,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne ausgeführt werden soll.
 
-   +++
++++
 
 1. Mit der Einstellung **[!UICONTROL Gültigkeit]** können Sie ein bestimmtes Start- und Enddatum definieren und die Ausführung der Kampagne auf ein begrenztes Zeitfenster beschränken.
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 >
 >Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen gemäß ihren Intervallregeln auf das nächste verfügbare Zeitfenster verschoben.
 
-Im folgenden Beispiel wird die Aktivität so konfiguriert, dass die orchestrierte Kampagne zweimal am Tag um 9:00 Uhr und 12:00 Uhr ausgeführt wird, und zwar jeden Wochentag vom 1. Oktober 2025 bis zum 1. Januar 2026.
+Im folgenden Beispiel wird die Aktivität so konfiguriert, dass die orchestrierte Kampagne zweimal täglich um 9 und 12 Uhr am Wochentag vom 1. Oktober 2025 bis zum 1. Januar 2026 ausgeführt wird.
 
 ![Planung so konfiguriert, dass die Kampagne zweimal täglich um 9:00 Uhr und 12:00 Uhr ausgeführt wird](assets/scheduler-sample.png){width="50%" align="left"}
 

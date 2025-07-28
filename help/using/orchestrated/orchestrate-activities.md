@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen von orchestrierten Kampagnen mit Adobe Journey Optimizer
-description: Informationen zur Erstellung von orchestrierten Kampagnen mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagnen erstellen
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 86%
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 +++ Inhaltsverzeichnis
 
-| Willkommen bei orchestrierten Kampagnen | Starten Ihrer ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
+| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
 | [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/><b>[Orchestrieren von Aktivitäten](orchestrate-activities.md)</b><br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
@@ -36,13 +36,13 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md), können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die ausgeführt werden sollen. Zu diesem Zweck wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein Diagramm der orchestrierten Kampagne erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge verbinden.
+Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md) können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die sie ausführen soll. Dazu wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein orchestriertes Kampagnendiagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge verbinden.
 
 ## Hinzufügen von Aktivitäten {#add}
 
-In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Beginn Ihrer orchestrierten Kampagne darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
+In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihrer orchestrierten Kampagne darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
 
-Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Diagramm der orchestrierten Kampagne ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihre orchestrierte Kampagne starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Pfad Ihrer orchestrierten Kampagne aufspalten oder eine Aktivität vom Typ **Warten** zum Verzögern der Ausführung der orchestrierten Kampagne festlegen. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Targeting-Aktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Prozess der orchestrierten Kampagne mit Flusskontrollaktivitäten organisieren.
+Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Diagramm Orchestrierte Kampagne ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie beispielsweise Ihre orchestrierte Kampagne starten, indem Sie eine Audience ansprechen, den Pfad der orchestrierten Kampagne aufteilen oder eine **Warten**-Aktivität festlegen, um die Ausführung der orchestrierten Kampagne zu verzögern. Andererseits können Sie nach einer Aktivität **Zielgruppe aufbauen** Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den orchestrierten Kampagnenprozess mit Flusssteuerungsaktivitäten organisieren.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
@@ -50,7 +50,7 @@ Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Ber
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
-Wiederholen Sie diesen Vorgang, um beliebig viele Aktivitäten hinzuzufügen, abhängig von den Aufgaben, die Ihre orchestrierte Kampagne ausführen soll. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** an der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
+Wiederholen Sie diesen Vorgang, um je nach den Aufgaben, die Ihre orchestrierte Kampagne ausführen soll, beliebig viele Aktivitäten hinzuzufügen. Beachten Sie, dass Sie auch eine neue Aktivität zwischen zwei Aktivitäten einfügen können. Klicken Sie dazu auf die Schaltfläche **+** an der Transition zwischen den Aktivitäten, wählen Sie die gewünschte Aktivität aus und konfigurieren Sie sie im rechten Bereich.
 
 Sie haben die Möglichkeit, den Namen der Transitionen zwischen den einzelnen Aktivitäten anzupassen. Wählen Sie dazu die Transition aus und ändern Sie das Label im rechten Bereich.
 
@@ -80,9 +80,9 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflä
 
 ![Symbol „Löschen“](assets/do-not-localize/activity-delete.svg) Löscht die Aktivität von der Arbeitsfläche aus.
 
-![Symbol „Deaktivieren“](assets/do-not-localize/activity-disable.svg) ![Symbol „Aktivieren“](assets/do-not-localize/activity-enable.svg) Deaktiviert bzw. aktiviert die Aktivität. Wenn die orchestrierte Kampagne ausgeführt wird, werden deaktivierte Aktivitäten und auf demselben Pfad folgende Aktivitäten nicht ausgeführt und die orchestrierte Kampagne wird gestoppt.
+![Symbol „Deaktivieren“](assets/do-not-localize/activity-disable.svg) ![Symbol „Aktivieren“](assets/do-not-localize/activity-enable.svg) Deaktiviert bzw. aktiviert die Aktivität. Wenn die orchestrierte Kampagne ausgeführt wird, werden deaktivierte Aktivitäten und die folgenden Aktivitäten auf demselben Pfad nicht ausgeführt und die orchestrierte Kampagne wird gestoppt.
 
-![Symbol „Pausieren“](assets/do-not-localize/activity-pause.svg) ![Symbol „Fortsetzen“](assets/do-not-localize/activity-resume.svg) Pausiert die Aktivität bzw. setzt sie fort. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der pausierten Aktivität pausiert. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
+![Symbol „Pausieren“](assets/do-not-localize/activity-pause.svg) ![Symbol „Fortsetzen“](assets/do-not-localize/activity-resume.svg) Pausiert die Aktivität bzw. setzt sie fort. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
 
 Sie können jede Aktivität auf der Arbeitsfläche als Haltepunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und dann die Ausführung anhält. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie in diesem Abschnitt: [Visuelle Flussüberwachung](../orchestrated/start-monitor-campaigns.md#flow).
 
@@ -94,7 +94,7 @@ Bei mehreren **Zielgruppenbestimmungsaktivitäten**, z. B. **Kombinieren** oder
 
 ### Kopieren und Einfügen von Aktivitäten {#copy}
 
-Sie können Aktivitäten kopieren und in eine beliebige Arbeitsfläche für orchestrierte Kampagnen einfügen. Die Zielkampagne kann sich auf einem anderen Browser-Tab befinden.
+Sie können Aktivitäten kopieren und in eine beliebige orchestrierte Kampagnen-Arbeitsfläche einfügen. Die Zielkampagne kann sich auf einem anderen Browser-Tab befinden.
 
 * Um eine Aktivität zu kopieren, klicken Sie auf die Schaltfläche ![Symbol „Kopieren“](assets/do-not-localize/activity-copy.svg) im Bereich mit den Eigenschaften der Aktivität.
 * Um mehrere Aktivitäten zu kopieren, klicken Sie auf das Symbol ![Symbol „Mehrfachauswahlmodus“](assets/do-not-localize/canvas-multiple.svg) in der Symbolleiste der Arbeitsfläche.
@@ -109,13 +109,13 @@ Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+
 
 ## Beispiel für ein Diagramm {#example}
 
-Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne, die eine E-Mail an alle Kundinnen und Kunden senden soll, die einen Kauf in der Höhe von mindestens 100 $ getätigt haben. Gleichzeitig werden alle Kundinnen und Kunden ausgeschlossen, die über weniger als 50 Treuepunkte verfügen.
+Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne, die eine E-Mail an alle Kunden senden soll, die einen Kauf von mindestens 100 $ getätigt haben, während alle Kunden ausgeschlossen werden, die weniger als 50 Treuepunkte haben.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 
-* Eine Aktivität des Typs **[!UICONTROL Verzweigung]** unterteilt die orchestrierte Kampagne in drei Pfade.
+* Eine Aktivität **[!UICONTROL Verzweigung]** unterteilt die orchestrierte Kampagne in drei Pfade.
 * Aktivitäten des Typs **[!UICONTROL Zielgruppe erstellen]** sprechen die drei Kundengruppen an:
 
    * Kundinnen und Kunden mit einer E-Mail-Adresse,
@@ -128,4 +128,4 @@ Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 
 ## Nächste Schritte {#next}
 
-Nachdem Sie das Diagramm der orchestrierten Kampagne erfolgreich entworfen haben, können Sie die orchestrierte Kampagne ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Weitere Informationen zum Start einer orchestrierten Kampagne und zur Überwachung ihrer Ausführung](start-monitor-campaigns.md)
+Nachdem Sie das Diagramm für die orchestrierte Kampagne erfolgreich erstellt haben, können Sie die orchestrierte Kampagne ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Erfahren Sie, wie Sie eine orchestrierte Kampagne starten und ihre Ausführung überwachen](start-monitor-campaigns.md)
