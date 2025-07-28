@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 91%
@@ -81,7 +81,7 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
 
 >[!NOTE]
 >
->Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer E-Mail verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
+>Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer Nachricht verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
 
 Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
 
