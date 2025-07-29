@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragme
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zum Erstellen und Verwenden von Fragmenten](../content-management/fragments.md).
 
-➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
+➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](../content-management/fragments.md#video-fragments)
 
 ## Verwenden eines Ausdrucksfragments {#use-expression-fragment}
 
@@ -50,7 +50,7 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
    >[!CAUTION]
    >
-   >Sie können jeden **Entwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status „Entwurf“ darin verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
+   >Sie können jeden **Entwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn darin ein Fragment mit dem Status **Entwurf** verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
 
 1. Wenn die Fragment-ID einmal hinzugefügt worden ist, werden die Änderungen synchronisiert, sobald Sie das entsprechende Ausdrucksfragment öffnen und [bearbeiten](../content-management/fragments.md#edit-fragments). Sie werden automatisch an alle Entwürfe oder Live-Journeys/Kampagnen übertragen, die diese Fragment-ID enthalten.
 

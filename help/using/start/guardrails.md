@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 97%
+source-wordcount: '2639'
+ht-degree: 93%
 
 ---
 
@@ -91,8 +91,14 @@ Die Leitplanken und Einschränkungen für die Zuweisung von Subdomains in Journe
 
 Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutzmechanismen:
 
+* Zum Erstellen, Bearbeiten, Archivieren und Veröffentlichen von Fragmenten benötigen Sie die Berechtigungen **[!DNL Manage library items]** und **[Fragment veröffentlichen]**, die im Produktprofil des **[!DNL Content Library Manager]** enthalten sind. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
+* Visuelle Fragmente dürfen 100 KB nicht überschreiten. Ausdrucksfragmente dürfen 200 KB nicht überschreiten.
+* Um ein Fragment auf einer Journey oder in einer Kampagne verwenden zu können, muss es den Status **Live** aufweisen.
+* [Kontextattribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
+* Visuelle Fragmente sind zwischen den Modi Verwenden von Designs und Manueller Stil nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus Designs verwenden erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
+* Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer Nachricht verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
 
 ## Leitlinien für Zielgruppen {#audience}
 

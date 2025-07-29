@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 90%
+source-wordcount: '509'
+ht-degree: 88%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 90%
 Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhalt ganz oder teilweise als Fragment speichern, um ihn später wiederzuverwenden.  Sie können Inhalte entweder [über den E-Mail-Designer](#save-as-visual-fragment) oder [über den Ausdruckseditor](#save-as-expression-fragment) als Fragment speichern.
 
 >[!NOTE]
+>
+>[Kontextattribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
 >
 >Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist, werden Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links, wenn sie in einem gespeicherten Fragment vorhanden sind und in einer Nachricht verwendet werden. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ Gehen Sie wie folgt vor, um Inhalte aus dem E-Mail-Designer als Fragment zu spei
    >
    >Visuelle Fragmente dürfen 100 KB nicht überschreiten.
 
-1. Der Bildschirm **[!UICONTROL Als Fragment speichern]** wird angezeigt. Hier können Sie die Elemente auswählen, die Sie in Ihr Fragment aufnehmen möchten, darunter Personalisierungsfelder und dynamische Inhalte. Beachten Sie, dass kontextuelle Attribute in Fragmenten nicht unterstützt werden.
+1. Der Bildschirm **[!UICONTROL Als Fragment speichern]** wird angezeigt. Hier können Sie die Elemente auswählen, die in das Fragment aufgenommen werden sollen, einschließlich Personalisierungsfelder und dynamischer Inhalte.
 
    ![](assets/fragment-save-as-screen.png)
 

@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 82%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * Wenn Sie eine E-Mail von Grund auf neu erstellen, können Sie die Erstellung Ihres Inhalts mit einem Design beginnen, um schnell einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt.
 
-  Wenn Sie den klassischen Modus wählen, können Sie keine Designs anwenden, es sei denn, Sie setzen Ihre E-Mail zurück.
+  Wenn Sie den Modus Manuelle Formatierung wählen, können Sie keine Designs anwenden, es sei denn, Sie setzen Ihre E-Mail zurück.
 
-* [Fragmente](../content-management/fragments.md) sind zwischen dem Design-Modus und dem klassischen Modus nicht kreuzkompatibel.
+* [Fragmente](../content-management/fragments.md) sind zwischen den Modi Verwenden von Designs und Manueller Stil nicht kreuzkompatibel.
 
-  Um ein Fragment in einem Inhalt verwenden zu können, auf den ein Design angewendet wird, muss dieses Fragment im Design-Modus erstellt werden.
+  Um ein Fragment in einem Inhalt verwenden zu können, auf den ein Design angewendet wird, muss dieses Fragment im Modus Designs verwenden erstellt werden.
 
 * Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und können keine Designs auf diesen Inhalt anwenden.
 
-  Um alle Funktionen von E-Mail-Designer, einschließlich Designs, vollständig nutzen zu können, müssen Sie entweder einen neuen Inhalt im Design-Modus erstellen oder Ihren importierten HTML-Inhalt konvertieren. [Weitere Informationen](existing-content.md)
+  Um alle Funktionen der E-Mail-Designer, einschließlich Designs, vollständig zu nutzen, müssen Sie entweder einen neuen Inhalt im Modus Designs verwenden erstellen oder Ihren importierten HTML-Inhalt konvertieren. [Weitere Informationen](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## Erstellen eines Designs {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stil-Design
 
    * Wählen Sie eine integrierte [E-Mail-Vorlage](use-email-templates.md) aus, um E-Mail-Designer zu öffnen. Es wird automatisch ein für jede Vorlage spezifisches Standard-Design angewendet.
 
-   * Entwerfen Sie einen [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Design]**, um mit einem vordefinierten Stil-Design zu beginnen.
+   * Entwerfen Sie [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Design verwenden],** mit einem vordefinierten Stildesign zu beginnen.
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >Wenn Sie den klassischen Modus wählen, können Sie keine Designs anwenden, es sei denn, Sie setzen Ihre E-Mail zurück.
+     >Wenn Sie den Modus Manuelle Formatierung wählen, können Sie keine Designs anwenden, es sei denn, Sie setzen Ihre E-Mail zurück.
      >
-     >Um ein [Fragment](../content-management/fragments.md) im Design-Modus zu verwenden, muss dieses Fragment selbst im Design-Modus erstellt worden sein.
+     >Um ein [Fragment](../content-management/fragments.md) im Modus „Designs verwenden“ zu verwenden, muss dieses Fragment selbst mithilfe des Modus „Designs verwenden“ erstellt worden sein.
 
 1. Klicken Sie im E-Mail-Designer in der rechten Leiste auf die Schaltfläche **[!UICONTROL Designs]**. Es wird das Standard-Design oder das Design der Vorlage angezeigt. Sie können zwischen den beiden Farbvarianten für dieses Design wechseln.
 

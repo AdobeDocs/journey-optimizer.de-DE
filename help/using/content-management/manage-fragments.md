@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5c4d3f0b143313ecf761a93914150352e8a9f981
-workflow-type: ht
-source-wordcount: '1427'
-ht-degree: 100%
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Fragmente können mehrere Status aufweisen:
 
 >[!CAUTION]
 >
->Da die Status **Entwurf** und **Live** mit der Version Juni von Journey Optimizer eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den Status **Entwurf**. Dies gilt auch dann, wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) erforderlich.
+>Da **Entwurf**- und **Live**-Status mit der Journey Optimizer-Version vom Juni 2024 eingeführt wurden, haben alle Fragmente, die vor dieser Version erstellt wurden, den **Entwurf**-Status, auch wenn sie in einer Journey oder Kampagne verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie sie veröffentlichen, um sie **live zu schalten** und die Änderungen an die zugehörigen Kampagnen und Journeys weiterzugeben. Außerdem müssen Sie eine neue Journey-/Kampagnenversion erstellen und veröffentlichen. Für die Veröffentlichung ist die Benutzerberechtigung [Fragment veröffentlichen](../administration/ootb-product-profiles.md#content-library-manager) erforderlich.
 
 ## Bearbeiten eines Fragments {#edit-fragments}
 
@@ -198,7 +198,7 @@ Wählen Sie eine Registerkarte aus, um zwischen Journeys, Kampagnen und Vorlagen
 
 >[!NOTE]
 >
->Wenn das Fragment in einer Journey, einer Kampagne oder einer Vorlage verwendet wird, die mit einer Kennzeichnung versehen ist, die den Zugriff darauf verhindert, wird oben auf der ausgewählten Registerkarte eine Warnmeldung angezeigt. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
+>Wenn das Fragment in einer Journey, einer Kampagne oder einer Vorlage verwendet wird, die mit einem Label versehen ist, das den Zugriff darauf verhindert, wird oben auf der ausgewählten Registerkarte eine Warnmeldung angezeigt. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
 ## Archivieren von Fragmenten {#archive-fragments}
 

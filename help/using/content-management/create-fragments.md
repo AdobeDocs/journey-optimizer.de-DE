@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 91%
+source-wordcount: '765'
+ht-degree: 85%
 
 ---
 
@@ -63,6 +63,12 @@ Gehen Sie wie folgt vor, um ein Fragment zu erstellen:
 
 Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ des Fragments, das Sie erstellen, der E-Mail-Designer oder der Personalisierungseditor geöffnet.
 
+>[!NOTE]
+>
+>[Kontextattribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
+>
+>Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer Nachricht verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
+
 * Bearbeiten Sie die Inhalte Ihrer visuellen Fragmente nach Bedarf, so wie Sie es bei jeder E-Mail innerhalb einer Journey oder einer Kampagne tun würden.  [Weitere Informationen](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
 
   >[!CAUTION]
   >
-  >Fragmente sind zwischen dem Design-Modus und dem klassischen Modus nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Design-Modus erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
+  >Fragmente sind zwischen den Modi Verwenden von Designs und Manueller Stil nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus Designs verwenden erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 
 * Verwenden Sie für Ausdrucksfragmente den Personalisierungseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Authoring-Funktionen zum Erstellen Ihres Fragmentinhalts. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer Nachricht verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
 
 Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**.
 
