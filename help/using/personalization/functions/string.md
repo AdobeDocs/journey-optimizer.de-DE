@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 98%
 
 ---
 
@@ -660,7 +660,7 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 >
 > Wenn der als zweites Argument verwendete Ausdruck ein spezielles Regex-Zeichen ist, verwenden Sie einen doppelten umgekehrten Schrägstrich (`//`).  Spezielle Regex-Zeichen sind: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> Weitere Informationen finden Sie in der [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Weitere Informationen finden Sie in der Dokumentation zu [Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Rechts kürzen {#rightTrim}
@@ -672,6 +672,27 @@ Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entf
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+Die Funktion `SHA256` berechnet den sha256-Hash einer Zeichenfolge und gibt ihn zurück.
+
+**Syntax**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Beispiel**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+Gibt zurück: `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## Teilen {#split}
 

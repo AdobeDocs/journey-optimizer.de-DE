@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2388'
-ht-degree: 100%
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+workflow-type: tm+mt
+source-wordcount: '2399'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
 
-➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden](#video)
 
 Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Personalisierungseditors verfügbar sind, wie unten gezeigt:
 
@@ -376,6 +376,9 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     </tr>
     <tr>
         <td><a href="string.md#rightTrim">Rechts kürzen</a></td><td>Diese Funktion entfernt Leerzeichen am Ende einer Zeichenfolge </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Diese Funktion berechnet den SHA256-Hash einer Zeichenfolge und gibt ihn zurück.</td>
     </tr>
     <tr>
         <td><a href="string.md#split">Teilen</a></td><td>Mit dieser Funktion wird eine Zeichenfolge durch ein bestimmtes Zeichen aufgeteilt</td>
