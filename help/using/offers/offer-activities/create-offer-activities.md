@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '2511'
-ht-degree: 100%
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+workflow-type: tm+mt
+source-wordcount: '2549'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
 >title="Details zur Angebotsentscheidung"
->abstract="Geben Sie den Namen der Entscheidung ein und legen Sie bei Bedarf ein Start- und Enddatum fest. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**."
+>abstract="Geben Sie den Namen der Entscheidung ein und legen Sie bei Bedarf ein Start- und Enddatum fest. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**."
 
 1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
 
@@ -46,7 +46,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activities-name.png)
 
-1. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../../administration/object-based-access.md)
+1. Um der Entscheidung benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../../administration/object-based-access.md)
 
 ## Definieren von Entscheidungsumfängen {#add-decision-scopes}
 
@@ -310,17 +310,21 @@ Die findet folgendermaßen statt:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Hinzufügen eines Fallback-Angebots"
->abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen."
+>abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird."
 
-Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kundinnen und Kunden angezeigt wird, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen.
+Nachdem Sie die Entscheidungsumfänge definiert haben, definieren Sie das [Fallback-Angebot](../offer-library/creating-fallback-offers.md), das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, als letztes Mittel angezeigt wird.
 
-Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
+Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Sie können auf den Link **[!UICONTROL Angebotsbibliothek öffnen]** klicken, um die Liste der Angebote in einer neuen Registerkarte anzuzeigen.
+>Fallback-Angebote sollten alle in einer Entscheidung verwendeten Darstellungen enthalten. Wenn eine Entscheidung beispielsweise fünf Angebote umfasst und jedes davon eine andere Darstellung hat, sollten fünf Darstellungen in das Fallback-Angebot aufgenommen werden.
+
+Klicken Sie nach der Auswahl auf **[!UICONTROL Weiter]**.
+
+Sie können auf den Link **[!UICONTROL Angebotsbibliothek öffnen]** klicken, um die Liste der Angebote in einer neuen Registerkarte anzuzeigen.
 
 ## Entscheidung überprüfen und speichern {#review}
 
@@ -401,6 +405,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
