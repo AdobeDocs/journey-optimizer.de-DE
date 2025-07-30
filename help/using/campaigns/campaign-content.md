@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bearbeiten des Inhalts der Aktionskampagne
-description: Erfahren Sie, wie Sie den Inhalt der Aktionskampagne bearbeiten.
+title: Bearbeiten des Inhalts einer Aktionskampagne
+description: Informationen zum Bearbeiten des Inhalts einer Aktionskampagne.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-
-# Bearbeiten des Inhalts der Aktionskampagne {#action-campaign-content}
+# Bearbeiten des Inhalts einer Aktionskampagne {#action-campaign-content}
 
 Um den Nachrichteninhalt zu konfigurieren, navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** oder klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
 ![](assets/campaign-content.png)
 
-## Inhaltserstellung
+## Entwerfen des Inhalts
 
 Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>E-Mail</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Push-Benachrichtigung</strong></a></div></td>
@@ -49,7 +49,7 @@ Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den fol
 <div align="center"><a href="../content-card/create-content-card.md"><strong>Inhaltskarten</strong></a></div></td>
 </tr></table>
 
-## Testen und Überprüfen des Inhalts
+## Testen und Überprüfen Ihres Inhalts
 
 Nachdem der Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Inhalte in der Vorschau anzeigen und testen können](../content-management/preview-test.md)
 
@@ -59,4 +59,4 @@ Klicken Sie auf den Linkspfeil, um zum Bildschirm der Kampagnenerstellung zurüc
 
 ## Nächste Schritte {#next}
 
-Sobald der Inhalt Ihrer Aktionskampagne fertig ist, können Sie die Kampagnenzielgruppe definieren. [Weitere Informationen](campaign-audience.md)
+Sobald der Inhalt Ihrer Aktionskampagne fertiggestellt ist, können Sie die Zielgruppe der Kampagne definieren. [Weitere Informationen](campaign-audience.md)

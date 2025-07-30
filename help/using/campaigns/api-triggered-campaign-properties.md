@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definieren der API-ausgelösten Kampagneneigenschaften
-description: Erfahren Sie, wie Sie die Eigenschaften einer von einer API ausgelösten Kampagne definieren.
+title: Definieren der Eigenschaften einer Kampagne, die durch API ausgelöst wird
+description: Informationen zum Definieren der Eigenschaften einer Kampagne, die durch API ausgelöst wird.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
+# Definieren der Eigenschaften einer Kampagne, die durch API ausgelöst wird {#api-properties}
 
-# Definieren der API-ausgelösten Kampagneneigenschaften {#api-properties}
+Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen, die durch API ausgelöst wird:
 
-Gehen Sie wie folgt vor, um eine neue von einer API ausgelöste Kampagne zu erstellen:
+1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]** und wählen Sie die Registerkarte **[!UICONTROL Durch API ausgelöst]** aus.
 
-1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]** und wählen Sie die Registerkarte **[!UICONTROL API-ausgelöst]** aus.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne erstellen]** und wählen Sie den Kampagnentyp aus:
 
-1. Klicken Sie auf **[!UICONTROL Kampagne erstellen]** und wählen Sie den Kampagnentyp aus:
+   * **[!UICONTROL API-ausgelöst – Marketing]** – Wählen Sie diesen durch API ausgelösten Kampagnentyp aus, um personalisierte Marketing-Kommunikation an ausgewählte Zielgruppen zu senden.
 
-   * **[!UICONTROL API-ausgelöst - Marketing]** - Wählen Sie diese Art von API-ausgelöster Kampagne, um personalisierte Marketing-Nachrichten an ausgewählte Zielgruppen zu senden.
-
-   * **[!UICONTROL API-ausgelöst - Transaktion]** - Transaktionskampagnen dienen dem Versand von Transaktionsnachrichten, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion gesendet werden: Anforderung zum Zurücksetzen des Passworts, Warenkorbkauf usw.
+   * **[!UICONTROL API-ausgelöst – Transaktion]** – Transaktionskampagnen dienen dem Versand von Transaktionsnachrichten, d. h. Nachrichten, die aufgrund einer von einem Kontakt durchgeführten Aktion gesendet werden: Zurücksetzen des Passworts, Warenkorbkauf usw.
 
    ![](assets/api-triggered-modal.png)
 
-1. Geben Sie auf **[!UICONTROL Registerkarte]** einen Namen und eine Beschreibung für Ihre Kampagne ein.
+1. Geben Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** einen Namen und eine Beschreibung für Ihre Kampagne an.
 
    ![](assets/create-campaign-properties.png)
 
@@ -40,4 +40,4 @@ Gehen Sie wie folgt vor, um eine neue von einer API ausgelöste Kampagne zu erst
 
 ## Nächste Schritte {#next}
 
-Sobald Ihre Kampagnenkonfiguration und -inhalte fertig sind, können Sie die entsprechende Aktion konfigurieren. [Weitere Informationen](api-triggered-campaign-action.md)
+Sobald die Konfiguration und der Inhalt der Kampagne fertiggestellt sind, können Sie ihre Aktion konfigurieren. [Weitere Informationen](api-triggered-campaign-action.md)

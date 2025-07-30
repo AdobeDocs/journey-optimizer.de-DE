@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Planen einer von einer API ausgelösten Kampagne
-description: Erfahren Sie, wie Sie eine API-ausgelöste Kampagne planen.
+title: Planen einer Kampagne, die durch API ausgelöst wird
+description: Informationen zum Planen einer Kampagne, die durch API ausgelöst wird.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
+# Planen der Kampagne, die durch API ausgelöst wird {#api-schedule}
 
-# Planen der API-ausgelösten Kampagne {#api-schedule}
+Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 
-Definieren Sie **[!UICONTROL Kampagnenzeitplan auf]** Registerkarte „Planung“.
+Standardmäßig starten durch API ausgelöste Kampagnen, wenn sie ausgelöst werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Auslösung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
 
-Standardmäßig starten API-ausgelöste Kampagnen, sobald sie ausgelöst werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach dem Auslösen ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
-
-Mit **[!UICONTROL Option]** Kampagnenende“ können Sie angeben, wann die Ausführung einer Kampagne beendet werden soll. Außerhalb des angegebenen Zeitraums wird die Kampagne nicht ausgeführt.
+Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer Kampagne gestoppt werden soll. Außerhalb der angegebenen Daten wird die Kampagne nicht ausgeführt.
 
 ![](assets/api-triggered-schedule.png)
 

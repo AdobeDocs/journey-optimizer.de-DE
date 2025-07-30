@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definieren der Kampagneneigenschaften
-description: Erfahren Sie, wie Sie die Kampagneneigenschaften definieren
+description: Informationen zum Definieren der Eigenschaften einer Kampagne
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-
-# Definieren der Eigenschaften der Aktionskampagne {#action-campaign-properties}
+# Definieren der Eigenschaften einer Aktionskampagne {#action-campaign-properties}
 
 Gehen Sie wie folgt vor, um eine Aktionskampagne zu erstellen und ihre Eigenschaften zu definieren:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]** und wählen Sie die Registerkarte **[!UICONTROL Aktion]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Schaltfläche]** erstellen und wählen Sie den Kampagnentyp **[!UICONTROL Geplant - Marketing]** aus.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne erstellen]** und wählen Sie den Kampagnentyp **[!UICONTROL Geplant – Marketing]** aus.
 
    ![](assets/create-campaign-modal.png)
 
-1. Geben Sie auf **[!UICONTROL Registerkarte]** einen Namen und eine Beschreibung für Ihre Kampagne ein.
+1. Geben Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** einen Namen und eine Beschreibung für Ihre Kampagne ein.
 
    ![](assets/create-campaign-properties.png)
 
@@ -37,4 +37,4 @@ Gehen Sie wie folgt vor, um eine Aktionskampagne zu erstellen und ihre Eigenscha
 
 ## Nächste Schritte {#next}
 
-Nachdem Ihre Aktionskampagne erstellt und konfiguriert wurde, können Sie ihre Aktion konfigurieren. [Weitere Informationen](campaign-action.md)
+Sobald Ihre Aktionskampagne erstellt und konfiguriert ist, können Sie die Aktion konfigurieren. [Weitere Informationen](campaign-action.md)

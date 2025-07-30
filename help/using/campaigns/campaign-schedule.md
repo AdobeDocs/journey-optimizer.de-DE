@@ -2,28 +2,28 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Planen der Aktionskampagne
-description: Erfahren Sie, wie Sie die Aktionskampagne planen.
+description: Informationen zum Planen der Aktionskampagne.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: b183eeb8-606f-444d-9302-274f159c3847
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
-
 # Planen der Aktionskampagne {#action-campaign-schedule}
 
-Definieren Sie **[!UICONTROL Kampagnenzeitplan auf]** Registerkarte „Planung“.
+Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 
-Standardmäßig starten Aktionskampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
+Standardmäßig starten Aktionskampagnen, wenn sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
 
-Mit **[!UICONTROL Option]** Kampagnenende“ können Sie angeben, wann die Ausführung einer Kampagne beendet werden soll. Außerhalb des angegebenen Zeitraums wird die Kampagne nicht ausgeführt.
+Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer Kampagne gestoppt werden soll. Außerhalb der angegebenen Daten wird die Kampagne nicht ausgeführt.
 
 ![](assets/create-campaign-schedule.png)
 
@@ -39,8 +39,8 @@ Je nach Kampagnenkanal stehen zusätzliche Planungsoptionen zur Verfügung:
 
 * **Aktivierung des IP-Aufwärmplans** (E-Mail)
 
-  Für E-Mail-Kampagnen können Sie spezifische IP-Aufwärmplan-Aktivierungskampagnen erstellen. Der Kampagnenzeitplan wird durch den IP-Aufwärmplan gesteuert, mit dem er verknüpft wird. Der Zeitplan wird also nicht mehr in der Kampagne selbst definiert. [Erfahren Sie, wie Sie IP-Aufwärmkampagnen erstellen](../configuration/ip-warmup-campaign.md).
+  Für E-Mail-Kampagnen können Sie spezifische Kampagnen zur Aktivierung des IP-Aufwärmplans erstellen. Der Zeitplan der Kampagne wird von dem IP-Aufwärmplan bestimmt, mit dem er verknüpft ist. Dies bedeutet, dass der Zeitplan nicht mehr in der Kampagne selbst definiert ist. [Informationen zum Erstellen von IP-Aufwärmkampagnen](../configuration/ip-warmup-campaign.md).
 
 ## Nächste Schritte {#next}
 
-Sobald Ihr Kampagnenkalender fertig ist, können Sie die Kampagne überprüfen und aktivieren. [Weitere Informationen](review-activate-campaign.md)
+Sobald Ihr Kampagnenzeitplan fertiggestellt ist, können Sie die Kampagne überprüfen und aktivieren. [Weitere Informationen](review-activate-campaign.md)

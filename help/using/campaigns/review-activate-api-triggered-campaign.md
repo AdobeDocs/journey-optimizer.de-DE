@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Überprüfen und aktivieren Sie die API-ausgelöste Kampagne
-description: Erfahren Sie, wie Sie eine API-ausgelöste Kampagne überprüfen und aktivieren.
+title: Überprüfen und Aktivieren der Kampagne, die durch API ausgelöst wird
+description: Informationen zum Überprüfen und Aktivieren einer Kampagne, die durch API ausgelöst wird.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
+# Überprüfen und Aktivieren der Kampagne, die durch API ausgelöst wird {#api-review}
 
-# Überprüfen und aktivieren Sie die API-ausgelöste Kampagne {#api-review}
-
-Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
+Sobald Ihre Kampagne konfiguriert ist, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihre Parameter und 
 
    ![](assets/campaign-review.png)
 
-1. Es wird eine Zusammenfassung der Kampagnenkonfiguration angezeigt, anhand derer Sie überprüfen können, ob ein Parameter falsch ist oder fehlt, und Ihre Kampagne bei Bedarf ändern können.
+1. Anhand der angezeigten Zusammenfassung der Kampagnenkonfiguration können Sie überprüfen, ob ein Parameter falsch ist oder fehlt, und bei Bedarf Änderungen an Ihrer Kampagne vornehmen.
 
    Bei Fehlern können Sie die Kampagne nicht aktivieren. Beheben Sie die Fehler, bevor Sie fortfahren.
 
@@ -36,9 +36,9 @@ Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihre Parameter und 
 
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
-1. Die Kampagne ist aktiviert. Ihr Status lautet **[!UICONTROL Live]** oder **[!UICONTROL Geplant]**, wenn Sie ein Startdatum eingegeben haben.
+1. Die Kampagne ist aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**.
 
-   Der **[!UICONTROL Abgeschlossen]** wird der Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
+   Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch drei Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
 
    Wenn kein Enddatum angegeben wurde, behält die Kampagne den Status **[!UICONTROL Live]**. Um ihn zu ändern, müssen Sie die Kampagne manuell anhalten. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md)
 
@@ -51,4 +51,4 @@ Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihre Parameter und 
 
 ## Nächste Schritte {#next}
 
-Sobald die von der API ausgelöste Kampagne fertig ist, können Sie ihre Ausführung mithilfe von APIs mit einem Trigger versehen. [Weitere Informationen](trigger-campaigns.md)
+Sobald die durch API ausgelöste Kampagne fertiggestellt ist, können Sie ihre Ausführung mithilfe von APIs auslösen. [Weitere Informationen](trigger-campaigns.md)

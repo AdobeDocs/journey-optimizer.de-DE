@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Zugreifen auf und Verwalten von Kampagnen
-description: Erfahren Sie, wie Sie in Journey Optimizer auf Ihre Kampagnen zugreifen und diese verwalten können.
+description: Informationen zum Zugreifen auf und Verwalten von Kampagnen in Journey Optimizer.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden
 
 >[!TAB Aktionskampagnen]
 
-Wählen Sie die **[!UICONTROL Aktion]** aus, um auf die Liste der Aktionskampagnen zuzugreifen.
+Wählen Sie die Registerkarte **[!UICONTROL Aktion]** aus, um auf die Liste aller Aktionskampagnen zuzugreifen.
 
 Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt. Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
 ![](assets/create-campaign-list.png)
 
->[!TAB API-ausgelöste Kampagnen]
+>[!TAB Kampagnen, die durch API ausgelöst werden]
 
-Wählen Sie die Registerkarte **[!UICONTROL API-ausgelöst]**, um auf die Liste der von einer API ausgelösten Kampagnen zuzugreifen.
+Wählen Sie die Registerkarte **[!UICONTROL Durch API ausgelöst]** aus, um auf die Liste der Kampagnen zuzugreifen, die durch API ausgelöst werden.
 
 Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt. Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
@@ -47,7 +47,7 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 >[!ENDTABS]
 
-Sie können die Liste auch nach Kampagnentyp und -kanal oder nach den Tags filtern, die den Kampagnen bei ihrer Erstellung zugewiesen wurden.
+Darüber hinaus kann die Liste nach Kampagnentyp und -kanal oder nach den Tags gefiltert werden, die den Kampagnen bei ihrer Erstellung zugewiesen wurden.
 
 ## Kampagnenkalender {#calendar}
 
@@ -84,7 +84,7 @@ Kampagnen können mehrere Status aufweisen:
 * **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
 * **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
 * **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
-* **[!UICONTROL In Überprüfung]**: Die Kampagne wurde zur Genehmigung eingereicht, um veröffentlicht zu werden. [Erfahren Sie, wie Sie mit Genehmigungen arbeiten](../test-approve/gs-approval.md)
+* **[!UICONTROL Wird überprüft]**: Die Kampagne wurde zur Genehmigung eingereicht, damit sie veröffentlicht werden kann. [Informationen zum Arbeiten mit Genehmigungen](../test-approve/gs-approval.md)
 * **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)
 * **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
 * **[!UICONTROL Fehlgeschlagen]**: Die Ausführung der Kampagne ist fehlgeschlagen. Überprüfen Sie die Protokolle, um das Problem zu identifizieren.
@@ -98,13 +98,13 @@ Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagn
 
 ![](assets/campaign-alerts.png)
 
-## Ändern und Beenden wiederkehrender Aktionskampagnen {#modify}
+## Ändern und Stoppen wiederkehrender Aktionskampagnen {#modify}
 
 ### Ändern einer Aktionskampagne
 
-Gehen Sie wie folgt vor, um eine wiederkehrende Aktionskampagne zu ändern und eine neue Version zu erstellen:
+Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Aktionskampagne zu ändern und zu erstellen:
 
-1. Öffnen Sie die Aktionskampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
+1. Öffnen Sie die Kampagne und klicken Sie dann auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
 
 1. Eine neue Version der Kampagne wird erstellt. Sie können die Live-Version überprüfen, indem Sie auf **[!UICONTROL Live-Version öffnen]** klicken.
 
@@ -122,7 +122,7 @@ Gehen Sie wie folgt vor, um eine wiederkehrende Aktionskampagne zu ändern und e
 
 ### Stoppen einer Aktionskampagne {#stop}
 
-Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Button **[!UICONTROL Kampagne anhalten]** klicken.
+Zum Stoppen einer wiederkehrenden Kampagne, öffnen Sie diese und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne stoppen]**.
 
 ![](assets/create-campaign-stop.png)
 
@@ -132,7 +132,7 @@ Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Butto
 
 ## Duplizieren einer Kampagne {#duplicate}
 
-Sie können eine Kampagne duplizieren, um eine neue Kampagne zu erstellen. Dazu bitte die Kampagne öffnen und auf **[!UICONTROL Duplizieren]** klicken.
+Sie können eine Kampagne duplizieren, um eine neue zu erstellen. Dazu bitte die Kampagne öffnen und auf **[!UICONTROL Duplizieren]** klicken.
 
 ![](assets/create-campaign-duplicate.png)
 
