@@ -1,19 +1,18 @@
 ---
 title: Markenausrichtung
 description: Erfahren Sie, wie Sie markenkonforme Inhalte mithilfe des Markenwerts erstellen, validieren und verwalten.
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
-source-wordcount: '286'
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+workflow-type: tm+mt
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# Markenausrichtung (Beta){#brands-score}
+# Markenausrichtung {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Diese Funktion wird als Private Beta veröffentlicht. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
->>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Die Funktion „Markenausrichtung“ hilft Ihnen dabei, Inhalte zu erstellen, zu überprüfen und zu verwalten, die Ihren Markenrichtlinien entsprechen. Sie sorgt für Konsistenz bei Ton, Messaging und visueller Identität in all Ihren E-Mail-Kampagnen und dient gleichzeitig zur Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 

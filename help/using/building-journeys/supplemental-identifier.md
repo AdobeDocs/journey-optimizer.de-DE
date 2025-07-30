@@ -3,7 +3,7 @@ title: Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in von einem Ereignis ausgelösten Journeys verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 96%
@@ -199,4 +199,4 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
