@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -66,11 +66,11 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
 * **Aktionskampagnen**
 
-  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
+  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Zwecke wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
 
-* **API-ausgelöste Kampagnen**
+* **Kampagnen, die durch API ausgelöst werden**
 
-  API-ausgelöste Kampagnen ermöglichen es, dass Marketing-Nachrichten eine Zielgruppe zum richtigen Zeitpunkt ansprechen oder dass Transaktions-/Betriebsnachrichten an einen Kontakt gerichtet werden, z. B. zum Zurücksetzen des Kennworts. Dabei kann eine Personalisierung erforderlich sein, indem nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
+  Kampagnen, die durch API ausgelöst werden, ermöglichen den Versand von Marketing-Kommunikation an eine Zielgruppe zum richtigen Zeitpunkt oder den Versand von Transaktions-/Betriebsnachrichten an einen Kontakt, z. B. zum Zurücksetzen des Passworts. Dabei kann eine Personalisierung erforderlich sein, bei der nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
 
 <!--* **Orchestrated campaigns**
 
@@ -82,7 +82,7 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in [!DNL Journey Optimizer] beginnen:
 
-1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil) zur Verfügung]** beispielsweise Kampagnen-Admins, Kampagnen-Genehmigende, Kampagnen-Manager und/oder Kampagnen-Betrachtende. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung. Dazu gehören Kampagnen-Admins, genehmigende Personen für Kampagnen, Kampagnen-Managerin bzw. Kampagnen-Manager und/oder Kampagnen-Betrachtende. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
    +++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
 
@@ -96,19 +96,19 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
-1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Audiences](../audience/about-audiences.md).
+1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
 
 1. **Sie benötigen eine Kanalkonfiguration**. Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
 
 ## Tauchen wir tiefer in die Materie ein
 
-Nachdem Sie nun über ein Verständnis von Kampagnen in [!DNL Journey Optimizer] verfügen, ist es an der Zeit, diese Dokumentationsabschnitte zu vertiefen, um mit der Erstellung Ihrer ersten Kampagnen zu beginnen.
+Nachdem Sie sich mit Kampagnen in [!DNL Journey Optimizer] vertraut gemacht haben, ist jetzt der richtige Zeitpunkt, tiefer in diese Dokumentationsabschnitte einzusteigen und Ihre erste Kampagne zu erstellen.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="Aktionskampagnen" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Aktionskampagnen</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API-ausgelöste Kampagnen</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Kampagnen, die durch API ausgelöst werden</a></td>
 </tr></table>
 
 <!--
