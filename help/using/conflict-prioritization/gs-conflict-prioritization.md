@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Tools für Konflikt-Management und Priori
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Mit den **Prioritätswerten** können Sie steuern, welche Kampagnen oder Journey
 
 ### Regelsätze
 
-Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Journeys und Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, die begrenzt, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder die steuert, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
+Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** und diese auf die Journeys und Kampagnen Ihrer Wahl anwenden. Dies bietet eine verbesserte Granularität, um zu begrenzen, wie oft und wie viele Journey ein Kunde innerhalb eines bestimmten Zeitraums eingeben kann, oder zu steuern, wie oft Benutzer eine Nachricht je nach Kommunikationstyp erhalten. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../conflict-prioritization/rule-sets.md)
 
 * **Journey-Begrenzung und -Steuerung**
 
