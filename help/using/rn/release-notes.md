@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5eac1f0ce80d979766428d661addbeeb887cfac1
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Veröffentlichungsdatum**: Mittwoch, 29. Juli 2025
 
@@ -185,24 +185,23 @@ Weitere Informationen finden Sie in der <a href="../experience-decisioning/creat
 </table>
 -->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for journeys</strong><br/></th>
+<th><strong>Zusätzliche ID für Journey</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p>Sie können nun Journeys auslösen, indem Sie eine Profilkennung zusammen mit einer anderen Kennung wie einer Bestell-, Abonnement- oder Rezept-ID verwenden, sodass dasselbe Profil mehrmals in derselben Journey vorhanden sein kann. Dies ermöglicht Szenarien wie die parallele Verwaltung mehrerer Bestellungen oder Abonnements, wobei jede Instanz ihrem eigenen Pfad durch die Journey folgt.</p>
+<p>Die Verwendung zusätzlicher IDs in Journey wurde früher nur eingeschränkt verfügbar gemacht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeitsversion bietet die Funktion jetzt Unterstützung für Journey unter Zielgruppe lesen .</p>
 <p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/supplemental-identifier.md">detaillierten Dokumentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### Änderung bei den Journey-Bedingungen {#ee-change@}
 
@@ -265,7 +264,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 **Veröffentlichungsdatum**: 18. Juni 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#25-06-features}
 

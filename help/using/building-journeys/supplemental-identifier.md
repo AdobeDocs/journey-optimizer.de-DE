@@ -1,38 +1,35 @@
 ---
-title: Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys
-description: Erfahren Sie, wie Sie zusätzliche Kennungen in von einem Ereignis ausgelösten Journeys verwenden.
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+title: Verwenden zusätzlicher Kennungen in Journey
+description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '1157'
+ht-degree: 69%
 
 ---
 
-# Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys {#supplemental-id}
+# Verwenden zusätzlicher Kennungen in Journey {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Verwenden einer zusätzlichen Kennung"
 >abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, das Feld auswählen, das als zusätzliche Kennung verwendet werden soll, und einen Namespace auswählen, der mit ihr verknüpft werden soll."
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur für eine ausgewählte Gruppe an Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
-Standardmäßig werden von einem Ereignis ausgelöste Journeys im Kontext einer **Profilkennung** ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer zusätzlich zur Profilkennung eine **zusätzliche Kennung** in Ihren Ereignissen erfassen, z. B. eine Bestell-ID, Abonnement-ID, Rezept-ID.
+Standardmäßig werden Journey im Kontext einer (Profil **ID)**. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit [!DNL Journey Optimizer] zusätzlich zur Profil **ID eine**zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Rezept-ID.
 In diesem Beispiel haben wir eine Buchungs-ID als zusätzliche Kennung hinzugefügt.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-Dadurch werden die durch das Ereignis ausgelösten Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.
+Dabei werden Journey im Kontext der mit der zusätzlichen Kennung (hier die Buchungs-ID) verknüpften Profil-ID ausgeführt. Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.
 
 Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
 ## Schutzmechanismen und Einschränkungen {#guardrails}
+
+* **Unterstützte Journey**: Derzeit ist die Verwendung zusätzlicher IDs für Journeys vom Typ **ereignisausgelöst** und **Zielgruppe lesen** verfügbar. Sie ist nicht für Journey zur Zielgruppenqualifizierung verfügbar.
 
 * **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
 
@@ -59,7 +56,7 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 -->
 * **Ausstiegskriterien**: Ausgelöste Ausstiegskriterien würden zu einem Ausstieg aller Instanzen des Profils führen, die zu diesem Zeitpunkt in der Journey live sind. Sie wären nicht kontextuell für die Kombination aus Profilkennung und zusätzlicher Kennung.
 
-* **Häufigkeitsregeln**: Jede Journey-Instanz, die über die Nutzung der zusätzlichen Kennung erstellt wurde, zählt für die Frequenzbegrenzung, auch wenn ein einzelnes Ereignis zu mehreren Journey-Instanzen führt.
+* **Häufigkeitsregeln**: Jede Journey-Instanz, die aus der Nutzung zusätzlicher IDs erstellt wurde, zählt zur Frequenzlimitierung, auch wenn die Verwendung zusätzlicher IDs zu mehreren Journey-Instanzen führt.
 
 * **Datentyp und Schemastruktur**: Die zusätzliche Kennung muss vom Typ `string` sein. Dabei kann es sich um ein unabhängiges Zeichenfolgenattribut oder um ein Zeichenfolgenattribut in einem Array von Objekten handeln. Das unabhängige Zeichenfolgenattribut führt zu einer einzelnen Journey-Instanz, wohingegen das Zeichenfolgenattribut innerhalb eines Arrays von Objekten zu einer eindeutigen Journey-Instanz pro Iteration des Objekt-Arrays führt. Zeichenfolgen-Arrays und Zuordnungen werden nicht unterstützt.
 
@@ -74,9 +71,19 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 
   Wenn Sie ein anderes nachgelagertes Ereignis auf der Journey verwenden, muss es dieselbe zusätzliche ID verwenden und denselben ID-Namespace haben.
 
+* **Audience-Journey lesen**
+
+   * Die zusätzliche ID ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
+
+   * Die zusätzliche ID muss ein Feld aus dem Profil sein (d. h. kein Ereignis-/Kontextfeld).
+
 ## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey {#add}
 
-Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwenden:
+>[!BEGINTABS]
+
+>[!TAB Ereignisgesteuertes Journey]
+
+Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einem ereignisausgelösten Journey zu verwenden:
 
 1. **Markieren des Attributs als Kennung im Ereignisschema**
 
@@ -114,60 +121,98 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
 
    ![](assets/supplemental-ID-journey.png)
 
-1. **Nutzen der zusätzlichen ID-Attribute**
+>[!TAB Zielgruppen-Journey lesen]
 
-   Verwenden Sie den Ausdruckseditor und den Personalisierungseditor, um auf Attribute der zusätzlichen Kennung für Personalisierung oder bedingte Logik zu verweisen. Auf Attribute kann über das Menü **[!UICONTROL Kontextuelle Attribute]** zugegriffen werden.
+Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey mit dem Titel „Zielgruppe lesen“ zu verwenden:
 
-   ![](assets/supplemental-ID-perso.png)
+1. **Markieren Sie das Attribut als Kennung im Vereinigungs-/Profilschema**
 
-   >[!NOTE]
-   >
-   >Wenn Sie mit Arrays arbeiten (z. B. mehrere Rezepte oder Richtlinien), verwenden Sie eine Formel, um bestimmte Elemente zu extrahieren.
+   1. Greifen Sie auf das Vereinigungs-/Profilschema zu und suchen Sie das Attribut, das Sie als zusätzliche Kennung (z. B. Buchungs-ID, Abonnement-ID) verwenden möchten, und markieren Sie es als ID. [Informationen zur Arbeit mit Schemata](../data/get-started-schemas.md)
+
+   1. Markieren Sie die Kennung als **[!UICONTROL Identität]**.
+
+      ![](assets/supplemental-ID-schema-profile.png)
+
+      >[!IMPORTANT]
+      >
+      >Stellen Sie sicher, dass Sie das Attribut nicht als **Primäre Identität** markieren.
+
+   1. Wählen Sie den Namespace aus, der mit der zusätzlichen ID verknüpft werden soll. Dies muss ein Namespace ohne Personenkennung sein.
+
+<!--1. **Add the supplemental ID field to the data source**
+
+    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
+
+        ![](assets/supplemental-ID-data-source.png)
+
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+
+1. **Hinzufügen und Konfigurieren der Aktivität „Zielgruppe lesen“ auf der Journey**
+
+   1. Ziehen Sie eine Aktivität **[!UICONTROL Zielgruppe lesen]** in Ihren Journey.
+
+   1. Aktivieren Sie im Bereich Aktivitätseigenschaften die Option **[!UICONTROL Zusätzliche Kennung verwenden]**.
+
+      ![](assets/supplemental-ID-read-audience.png)
+
+   1. Wählen Sie im Feld **[!UICONTROL Ergänzungs]** ID“ im Ausdruckseditor das Attribut aus, das Sie als zusätzliche ID markiert haben.
+
+      >[!NOTE]
+      >
+      >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL erweiterten Modus]** verwenden, um das Attribut auszuwählen.
+
+   1. Nach Auswahl der zusätzlichen ID wird der verknüpfte Namespace im Feld **[!UICONTROL Ergänzender Namespace]** als schreibgeschützt angezeigt.
+
+>[!ENDTABS]
+
+## Nutzen zusätzlicher ID-Attribute
+
+Verwenden Sie den Ausdruckseditor und den Personalisierungseditor, um auf Attribute der zusätzlichen Kennung für Personalisierung oder bedingte Logik zu verweisen. Auf Attribute kann über das Menü **[!UICONTROL Kontextuelle Attribute]** zugegriffen werden.
+
+![](assets/supplemental-ID-perso.png)
+
+Verwenden Sie für ereignisausgelöste Journey, wenn Sie mit Arrays arbeiten (z. B. mehrere Rezepte oder Richtlinien), eine Formel, um bestimmte Elemente zu extrahieren.
 
 +++ Siehe Beispiele
 
-   In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attribut auf derselben Ebene namens `bookingCountry` iteriert die Journey durch das Array-Objekt auf der Grundlage der bookingNum und erstellt für jedes Objekt eine Journey-Instanz.
+In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attribut auf derselben Ebene namens `bookingCountry` iteriert die Journey durch das Array-Objekt auf der Grundlage der bookingNum und erstellt für jedes Objekt eine Journey-Instanz.
 
-   * Der folgende Ausdruck in der Bedingungsaktivität iteriert durch das Objekt-Array und prüft, ob der Wert von `bookingCountry` gleich „FR“ ist:
+* Der folgende Ausdruck in der Bedingungsaktivität iteriert durch das Objekt-Array und prüft, ob der Wert von `bookingCountry` gleich „FR“ ist:
 
-     ```
-     @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
-     ```
+  ```
+  @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
+  ```
 
-   * Der folgende Ausdruck im E-Mail-Personalisierungseditor iteriert durch das Objekt-Array, ruft das `bookingCountry` für die aktuelle Journey-Instanz ab und zeigt es im Inhalt an:
+* Der folgende Ausdruck im E-Mail-Personalisierungseditor iteriert durch das Objekt-Array, ruft das `bookingCountry` für die aktuelle Journey-Instanz ab und zeigt es im Inhalt an:
 
-     ```
-     {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
-     
-     {%#if l.<attribute_path>.bookingNum = context.journey.technicalProperties.supplementalId%} {{l.<attribute_path>.bookingCountry}}  {%/if%}
-     
-     {{/each}}
-     ```
+  ```
+  {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
+  
+  {%#if l.<attribute_path>.bookingNum = context.journey.technicalProperties.supplementalId%} {{l.<attribute_path>.bookingCountry}}  {%/if%}
+  
+  {{/each}}
+  ```
 
-   * Beispiel für das Ereignis, das zum Auslösen der Journey verwendet wird:
+* Beispiel für das Ereignis, das zum Auslösen der Journey verwendet wird:
 
-     ```
-     "bookingList": [
-           {
-               "bookingInfo": {
-                   "bookingNum": "x1",
-                         "bookingCountry": "US"
-               }
-           },
-           {
-               "bookingInfo": {
-                   "bookingNum": "x2",
-                   "bookingCountry": "FR"
-               }
-           }
-       ]
-     ```
+  ```
+  "bookingList": [
+        {
+            "bookingInfo": {
+                "bookingNum": "x1",
+                      "bookingCountry": "US"
+            }
+        },
+        {
+            "bookingInfo": {
+                "bookingNum": "x2",
+                "bookingCountry": "FR"
+            }
+        }
+    ]
+  ```
 
 +++
-
-1. **Veröffentlichen der Journey**
-
-   Veröffentlichen Sie nach der Konfiguration die Journey, um mit der Verwendung mehrerer gleichzeitiger Einträge auf der Grundlage zusätzlicher IDs zu beginnen.
 
 ## Beispielhafte Anwendungsfälle
 
@@ -199,4 +244,4 @@ Gehen Sie wie folgt vor, um eine zusätzlichen Kennung in einer Journey zu verwe
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
