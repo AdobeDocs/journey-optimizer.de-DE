@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
-workflow-type: ht
-source-wordcount: '265'
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
 
 # Überprüfen und Senden Ihrer WhatsApp-Nachrichten {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit WhatsApp-Nachrichten](get-started-whatsapp.md)
-* [Erste Schritte bei der WhatsApp-Konfiguration](whatsapp-configuration.md)
-* [Erstellen einer WhatsApp-Nachricht](create-whatsapp.md)
-* **[Überprüfen und Senden Ihrer WhatsApp-Nachrichten](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## Anzeigen einer Vorschau Ihrer WhatsApp-Nachricht {#preview-whatsapp}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
-workflow-type: ht
-source-wordcount: '2195'
-ht-degree: 100%
+source-git-commit: 4dfa87c56f088cee51fd8b95e4e75da0dac7c456
+workflow-type: tm+mt
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
    Die Aktivität muss als erster Schritt einer Journey positioniert werden.
 
-1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu (optional).
+1. Fügen Sie der Aktivität ein **[!UICONTROL Label]** hinzu (optional).
 
 1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
 
@@ -87,6 +87,12 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
 * Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
+* Concurrent Read Audience Limit pro Organisation: Jede Organisation kann bis zu fünf Instanzen des Typs „Zielgruppe lesen“ gleichzeitig ausführen. Dies umfasst sowohl geplante Ausführungen als auch solche, die durch Geschäftsereignisse ausgelöst werden, und zwar über alle Sandboxes und Journey hinweg. Diese Beschränkung wird durchgesetzt, um eine faire und ausgewogene Ressourcenallokation in allen Organisationen zu gewährleisten.
+
+* Sandbox-Durchsatzverwaltung: Das System verwaltet den Verarbeitungsdurchsatz pro Sandbox dynamisch mit einer maximalen Begrenzung von 20.000 Profilen pro Sekunde, die für alle Aktivitäten des Typs „Zielgruppe lesen“ freigegeben sind. Einzelne Aktivitäten vom Typ „Zielgruppe lesen“ können mit einer Mindestrate von 500 Profilen pro Sekunde konfiguriert werden. Aufträge können in die Warteschlange gestellt werden, wenn Durchsatzbeschränkungen auf Sandbox-Ebene erreicht werden, um eine faire Ressourcenzuweisung zu gewährleisten.
+
+* Maximale Wartezeit bei der Auftragsverarbeitung: Aufträge vom Typ „Zielgruppe lesen“, die aufgrund von Limits für Leitplanken nicht innerhalb von 12 Stunden verarbeitet werden können, werden automatisch bereinigt und nie ausgeführt. Dadurch wird eine Auftragsakkumulation verhindert und die Systemstabilität gewährleistet.
+
 Schutzmechanismen im Zusammenhang mit der Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
 
 
@@ -109,7 +115,7 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
->title="Anfangsdatum/Uhrzeit"
+>title="Startdatum/Uhrzeit"
 >abstract="Legen Sie das Datum und die Uhrzeit zum Auslösen dieser Journey fest."
 
 >[!CONTEXTUALHELP]
@@ -292,4 +298,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

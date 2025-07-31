@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Verwalten von Marken
 description: Erfahren Sie, wie Sie Markenrichtlinien erstellen und verwalten
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: ht
-source-wordcount: '1471'
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+workflow-type: tm+mt
+source-wordcount: '1451'
 ht-degree: 100%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 100%
 >abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihr Content in Übereinstimmung mit deren spezifischen Richtlinien, Standards und Identität erstellt wird, sodass Konsistenz und Markenintegrität gewahrt werden."
 
 >[!AVAILABILITY]
->
->Diese Funktion ist als Private Beta verfügbar. Sie wird in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
 >
 >Sie müssen der [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, damit Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 

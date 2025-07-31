@@ -7,10 +7,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+workflow-type: tm+mt
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 Bei jeder Änderung eines Angebots wird der automatisch erstellte Datensatz für personalisierte Inhaltsangebote aktualisiert.
 
-![](../assets/dataset-offers.png)
-
 Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
+
+![](../assets/dataset-offers.png)
 
 >[!NOTE]
 >
->In [diesem Abschnitt](../export-catalog/access-dataset.md) erfahren Sie, wie Sie für die einzelnen Objekte Ihrer Angebotsbibliothek auf die exportierten Datensätze zugreifen können.
+>Gelöschte personalisierte Angebote werden im Datensatz als archiviert markiert.
 
 Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL Entscheidungsobjekt-Repository – Personalisierte Angebote]** verwendet werden können.
 
@@ -97,7 +97,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++_experience > decisioning > contents > components
 
 **Feld:** components
-**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
+**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format&quot;, „dc:subject&quot; und „dc:language&quot; oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
 **Typ:** Array
 **Erforderlich:** „_type“, „_dc“ <!--TBC?-->
 
@@ -137,20 +137,20 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    * **id**
 
      **Feld:** id
-     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass eine zusätzliche Eigenschaft \„repo:resolveUrl\&quot; das Asset abruft.
      **Typ:** Zeichenfolge
      **Beispiel:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Feld:** name
-     **Beschreibung:** Einige Hinweise dazu, wo das Repository zu finden ist, in dem das externe Asset von der \&quot;repo:id\&quot; gespeichert wird.
+     **Beschreibung:** Einige Hinweise dazu, wo das Repository zu finden ist, in dem das externe Asset von \„repo:id\&quot; gespeichert wird.
      **Typ:** Zeichenfolge
 
    * **repositoryID**
 
      **Feld:** repositoryID
-     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass eine zusätzliche Eigenschaft \„repo:resolveUrl\&quot; das Asset abruft.
      **Typ:** Zeichenfolge
      **Beispiel:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

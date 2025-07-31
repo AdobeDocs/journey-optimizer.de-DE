@@ -6,14 +6,18 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 94%
 
 ---
 
 # Erstellen von Inhaltskarten {#create-content-card}
+
+>[!IMPORTANT]
+>
+>Standardmäßig wird die Karte durch Klicken auf die Schaltfläche Schließen ausgeblendet. Um weitere Funktionen hinzuzufügen, können Sie manuell Regeln für Abweisungen oder Disqualifikationen definieren.
 
 >[!BEGINTABS]
 
@@ -25,7 +29,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
    ![](assets/content-card-jo-1.png)
 
-1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+1. Geben Sie ein **[!UICONTROL Label]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
 1. Wählen Sie die [Inhaltskartenkonfiguration](content-card-configuration.md) aus, die verwendet werden soll.
 
@@ -33,7 +37,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
 1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-content-card.md)
 
-1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]**. Wählen Sie dann **[!UICONTROL Regeln bearbeiten]**, um die Ereignisse und die Kriterien auszuwählen, die Ihre Nachricht auslösen sollen. Mithilfe von Regel-Buildern können Benutzerinnen und Benutzer Kriterien und Werte angeben, die, wenn sie erfüllt sind, eine Reihe von Aktionen auslösen.
+1. Aktivieren Sie die **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
 
    ![](assets/content-card-jo-3.png)
 
@@ -116,11 +120,56 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
 
 1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Weitere Informationen zu Inhaltskomponenten](../content-management/content-experiment.md)
 
-1. Wenn zusätzliche Trigger erforderlich sind, verwenden Sie den Umschalter **[!UICONTROL Zusätzliche Versandregeln aktivieren]**. Zusätzliche Versandregeln sind nicht erforderlich.
+1. Aktivieren Sie die **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
 
-   Klicken Sie auf **[!UICONTROL Trigger bearbeiten]**, um die Ereignisse und Kriterien für den Nachrichtenversand auszuwählen. Mit dem Regel-Builder können Sie Bedingungen und Werte festlegen, die bei Erfüllung Aktionen auslösen.
+   Verwenden Sie den Regel-Builder, um bestimmte Bedingungen festzulegen, unter denen diese Aktionen Trigger haben.
 
-   ![](assets/content-card-create-3.png)
+   1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um Ihr Ereignis auszuwählen.
+
+      +++Siehe verfügbares Ereignis.
+
+      | Paket | Auslöser | Definition |
+      |---|---|---|
+      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
+      | Core-Tracking | Aktion nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
+      | Core-Tracking | Status nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
+      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
+      | Anwendungslebenszyklus | Anwendungsstart | Wird bei jeder Ausführung ausgelöst, einschließlich Abstürzen und Installationen. Wird auch bei einer Wiederaufnahme aus dem Hintergrund ausgelöst, wenn das Sitzungs-Timeout des Lebenszyklus überschritten wurde. |
+      | Anwendungslebenszyklus | Anwendungsinstallation | Wird beim ersten Ausführen nach einer Installation oder Neuinstallation ausgelöst. |
+      | Anwendungslebenszyklus | Anwendungsaktualisierung | Wird beim ersten Start nach einem Upgrade oder bei Änderung der Versionsnummer ausgelöst. |
+      | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
+      | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
+
++++
+
+   1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
+
+   1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
+
+      +++Sehen Sie sich die verfügbaren Merkmale an.
+
+      | Paket | Merkmale  | Definition |
+      |---|---|---|
+      | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
+      | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |
+      | Geräteinformationen | Gebietsschema | Wird ausgelöst, wenn eine der Sprachen aus der Liste vorliegt. |
+      | Geräteinformationen | Betriebssystemversion | Wird ausgelöst, wenn eine der angegebenen Betriebssystemversionen vorliegt. |
+      | Geräteinformationen | Vorherige Betriebssystemversion | Wird ausgelöst, wenn eine der angegebenen vorherigen Betriebssystemversionen vorliegt. |
+      | Geräteinformationen | Betriebsmodus | Wird ausgelöst, wenn der Betriebsmodus entweder eine Anwendung oder eine Erweiterung ist. |
+      | Anwendungslebenszyklus | App-ID | Wird ausgelöst, wenn die angegebene App-ID vorliegt. |
+      | Anwendungslebenszyklus | Wochentag | Wird ausgelöst, wenn der angegebene Wochentag vorliegt. |
+      | Anwendungslebenszyklus | Tag seit der ersten Verwendung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der ersten Verwendung erreicht ist. |
+      | Anwendungslebenszyklus | Tag seit der letzten Verwendung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der letzten Verwendung erreicht ist. |
+      | Anwendungslebenszyklus | Tage seit Aktualisierung | Wird ausgelöst, wenn die angegebene Anzahl von Tagen seit der letzten Aktualisierung erreicht ist. |
+      | Anwendungslebenszyklus | Installationsdatum | Wird ausgelöst, wenn das angegebene Installationsdatum erreicht ist. |
+      | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
+      | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
+
++++
+
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
+
+   ![](assets/content-card-rules.png)
 
 1. Sie können Ihre Kampagne auf ein bestimmtes Datum festlegen oder so einstellen, dass sie in regelmäßigen Abständen wiederholt werden. [Weitere Informationen](../campaigns/create-campaign.md#schedule)
 

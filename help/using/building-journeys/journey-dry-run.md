@@ -6,13 +6,12 @@ description: Informationen zum Veröffentlichen einer Journey im Probelaufmodus
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 97%
+source-wordcount: '1106'
+ht-degree: 58%
 
 ---
 
@@ -32,11 +31,6 @@ ht-degree: 97%
 Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.
 
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
-
-
 ## Wichtigste Vorteile {#journey-dry-run-benefits}
 
 Ein Journey-Probelauf steigert das Vertrauen der Anwendenden und den Journey-Erfolg, indem er sicheres, datengesteuertes Testen von Kunden-Journeys mit echten Produktionsdaten ermöglicht – ohne das Risiko, Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu ändern. Mit dieser Funktion können Journey-Anwendende die Reichweite ihrer Zielgruppe und die Verzweigungslogik vor der Live-Schaltung überprüfen und so sicherstellen, dass die Journeys ihren beabsichtigten Geschäftszielen entsprechen.
@@ -48,23 +42,31 @@ Letztendlich verbessert diese Funktion Time-to-Value und reduziert Journey-Fehle
 Der Journey-Probelauf bietet:
 
 1. **Sichere Testumgebung**: Profile im Probelaufmodus werden nicht kontaktiert, sodass kein Risiko besteht, dass Nachrichten gesendet werden oder Live-Daten beeinträchtigt werden.
-1. **Zielgruppenerkenntnisse**: Journey-Anwendende können die Erreichbarkeit der Zielgruppe an verschiedenen Journey-Knoten vorhersagen, einschließlich Opt-outs, Ausschlüssen und anderer Bedingungen.
+1. **Zielgruppeneinblicke**: Journey-Anwender können die Erreichbarkeit der Zielgruppe auf verschiedenen Journey-Knoten vorhersagen, einschließlich Opt-outs und Ausschlüssen auf der Grundlage von Journey-Bedingungen.
 1. **Echtzeit-Feedback**: Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt, ähnlich wie bei Live-Reporting, sodass Journey-Anwendende ihr Journey-Design optimieren können.
 
-Während des Probelaufs wird die Journey mit den folgenden Besonderheiten ausgeführt:
+## Dry-Run-Ausführungslogik {#journey-dry-run-exec}
+
+Während des Probelaufs wird das Journey im Simulationsmodus ausgeführt. Dabei werden die folgenden spezifischen Verhaltensweisen auf jede Journey-Aktivität angewendet, ohne dass echte Aktionen ausgelöst werden:
 
 * **Kanalaktion**-Knoten wie E-Mail, SMS oder Push-Benachrichtigungen werden nicht ausgeführt.
 * **Benutzerdefinierte Aktionen** sind während des Probelaufs deaktiviert und ihre Antworten sind auf null festgelegt.
-* **Warteknoten** werden während des Probelaufs umgangen.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* **Datenquellen** einschließlich externer Datenquellen werden standardmäßig ausgeführt.
+
+  Zur besseren Lesbarkeit werden benutzerdefinierte Aktionen und Kanalaktivitäten während der Ausführung eines Probelaufs ausgegraut angezeigt.
+
+  ![Ausgegraute Aktionsaktivitäten in einer Probelauf-Journey](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+
+* **Datenquellen** einschließlich externer Datenquellen, und **Warten**-Aktivitäten sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch ändern [beim Aktivieren des Dry Run-Modus](#journey-dry-run-start).
+
+* **Reaktion** Knoten werden nicht ausgeführt: Alle Profile, die darauf zugreifen, werden erfolgreich beendet. Es gelten jedoch die folgenden Prioritätsregeln:
+   * Wenn ein **Reaktion**-Knoten mit einem oder mehreren **unitären Ereignis**-Knoten parallel verwendet wird, durchlaufen Profile immer das Reaktionsereignis.
+   * Wenn ein **Reaktion**-Knoten mit einem oder mehreren **Reaktionsereignis**-Knoten parallel verwendet wird, durchlaufen Profile immer den ersten Knoten auf der Arbeitsfläche (den oben).
 
 >[!CAUTION]
 >
->* Die Berechtigungen zum Starten des Probelaufs sind auf Benutzende mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene beschränkt. Die Berechtigungen zum Stoppen des Probelaufs sind auf Benutzende mit der Berechtigung **[!DNL Manage journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+>* Die Berechtigungen zum Starten eines Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Publish journeys]** hoher Ebene beschränkt. Die Berechtigungen zum Stoppen eines Probelaufs sind auf Benutzer mit der Berechtigung **[!DNL Manage journeys]** hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 >
 >* Bevor Sie mit der Verwendung der Probelauffunktion beginnen, [lesen Sie die Informationen zu Leitlinien und Einschränkungen](#journey-dry-run-limitations).
-
 
 ## Starten eines Probelaufs {#journey-dry-run-start}
 
@@ -77,11 +79,14 @@ Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
    ![Starten des Journey-Probelaufs](assets/dry-run-button.png)
 
-1. Bestätigen Sie die Veröffentlichung.
+1. Wählen Sie die aus, wenn Sie **Warten**-Aktivitäten und **Externe Datenquellen**-Aufrufe aktivieren oder deaktivieren möchten, und bestätigen Sie die Probelauf-Veröffentlichung.
+
+   ![Bestätigen Sie die Veröffentlichung des Journey-Probelaufs](assets/dry-run-publish.png){width="50%" align="left"}
 
    Während des Übergangs wird die Statusmeldung **Probelauf wird aktiviert** angezeigt.
 
 1. Nach der Aktivierung wechselt die Journey in den Modus **Probelauf**.
+
 
 ## Überwachen eines Probelaufs {#journey-dry-monitor}
 
@@ -90,7 +95,6 @@ Sobald die Veröffentlichung im Probelaufmodus gestartet wurde, können die Jour
 Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt. Weitere Informationen zum Journey von Live-Berichten und Metriken finden Sie unter [Live-Bericht auf der Journey-Arbeitsfläche](report-journey.md).
 
 ![Überwachen der Journey-Probelauf-Ausführung](assets/dry-run-metrics.png)
-
 
 Für den Probelauf kann auch auf die Berichte der **letzten 24 Stunden** und der **gesamten Zeit** zugegriffen werden. Um auf diese Berichte zuzugreifen, klicken Sie auf die Schaltfläche **Bericht anzeigen** oben rechts auf der Journey-Arbeitsfläche.
 
@@ -103,21 +107,39 @@ Für den Probelauf kann auch auf die Berichte der **letzten 24 Stunden** und der
 
 ## Stoppen eines Probelaufs {#journey-dry-run-stop}
 
-Probelauf-Journeys **müssen** manuell gestoppt werden.
+Nach 14 Tagen wechseln die Probelauf-Journey automatisch in den Status **Entwurf**.
 
-Klicken Sie auf die Schaltfläche **Schließen**, um den Test zu beenden, und dann zur Bestätigung auf **Zurück zum Entwurf**.
+Dry Run-Journey können auch manuell angehalten werden. Gehen Sie wie folgt vor, um den Dry Run-Modus zu deaktivieren:
 
-<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+1. Öffnen Sie die Probelauf-Journey, die Sie stoppen möchten.
+1. Klicken Sie auf **Schließen**, um den Test zu beenden.
+Links zu den letzten 24 Stunden und allen Zeitberichten sind im Bestätigungsbildschirm verfügbar.
+
+   ![Beenden Sie die Journey-Probelauf-Ausführung](assets/dry-run-stop.png){width="50%" align="left"}
+
+1. Klicken Sie **Bestätigung auf „Zurück** Entwurf“.
+
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Der Probelaufmodus ist nicht für Journeys verfügbar, die Reaktionsereignisse enthalten.
 * Profile im Probelaufmodus werden als ansprechbare Profile gezählt.
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
-* Wenn beim Erstellen einer neuen Journey-Version eine vorherige Journey-Version **live** ist, ist die Probelauf-Aktivierung in der neuen Version nicht zulässig.
-* Der Journey-Probelauf generiert stepEvents. Diese stepEvents haben eine bestimmte Markierung und eine Probelauf-ID:
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist und andernfalls `false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelaufinstanz zurück
+  <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
+* **Sprung**-Aktionen sind in Probelauf nicht aktiviert.
+Wenn eine Quell-Journey ein **Jump**-Ereignis an eine Zielversion Trigger, wäre dieses Sprungereignis nicht auf eine Dry-Run-Journey-Version anwendbar. Wenn sich beispielsweise die neueste Journey-Version in Probelauf befindet und die vorherige Version **Live**, ignoriert das Sprungereignis die Probelauf-Version und gilt nur für die **Live**-Version.
 
-* Bei der Analyse von Journey-Reporting-Metriken mit dem Abfrage-Service von Adobe Experience Platform müssen vom Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu das `inDryRun`-Flag auf `false` fest.
+## Journey-Schrittereignisse und Probelauf {#journey-step-events}
+
+Journey Dry Run generiert **stepEvents**. Diese stepEvents haben ein bestimmtes Flag und eine Probelauf-ID: `inDryRun` und `dryRunID`.
+
+![Journey-Dry-Run-Schemaattribute](assets/dry-run-attributes.png)
+
+* `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist und andernfalls `false`
+* `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelaufinstanz zurück
+
+
+Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Dry Run-Ausführungen mit dem `inDryRun`-Flag filtern.
+
+Bei der Analyse von **Journey** Berichtsmetriken mithilfe des Abfrage-Service von Adobe Experience Platform müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu das `inDryRun`-Flag auf `false` fest.
+

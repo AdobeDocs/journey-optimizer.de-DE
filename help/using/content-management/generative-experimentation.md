@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
-></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, damit Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -44,9 +44,7 @@ Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihre
 
    ![](assets/experiment-genai-3.png)
 
-1. Greifen Sie im Fenster „Inhaltsexperiment“ auf die Schaltfläche **[!UICONTROL Experimenteinstellungen]** zu, um Ihr Experiment zu konfigurieren. [Weitere Informationen zu Inhaltsexperimenten](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. In Ihrem Inhaltsexperiment können Sie jetzt mit der Konfiguration Ihres Inhaltsexperiments beginnen. [Weitere Informationen zu Inhaltsexperimenten](../content-management/content-experiment.md)
 
 1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf der Seite mit der Kampagnenübersicht auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Es werden Warnhinweise angezeigt, wenn Parameter falsch sind oder fehlen.  [Weitere Informationen](../content-management/content-experiment.md#treatment-experiment)
 
