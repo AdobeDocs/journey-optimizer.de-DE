@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,21 +33,6 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung bei den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
 * **Fragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten oder visuellen Fragmenten platziert werden.
-
-### Entscheidungsfindung {#decisioning}
-
-Die Möglichkeit, [!DNL Adobe Experience Platform]-Datensätze in Rangfolgenformeln und Regeln für die Erlebnis-Entscheidung zu nutzen, ist in Kürze verfügbar.
-
-Beachten Sie in der Zwischenzeit die unten beschriebenen aktuellen Leitlinien:
-
-* Eine Entscheidungsrichtlinie ist auf drei Datensätze beschränkt.
-* Eine Entscheidungsregel kann drei Datensätze verwenden.
-* Eine Rangfolgenformel kann drei Datensätze verwenden.
-* Eine Entscheidungsrichtlinie ist auf 1.000 Eintragsabfragen beschränkt.
-
->[!NOTE]
->
->Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff auf diese Funktion wünschen
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
