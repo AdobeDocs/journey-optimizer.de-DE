@@ -118,7 +118,7 @@ Um den Empfängern und Besuchern Ihrer E-Mails auf Ihrer Website oder in Ihrer M
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++E-Mail-Designer **[!UICONTROL Decisioning]** Menü
 
@@ -128,7 +128,7 @@ Um den Empfängern und Besuchern Ihrer E-Mails auf Ihrer Website oder in Ihrer M
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Geben Sie einen Namen an und wählen Sie einen Katalog aus (derzeit beschränkt auf den Standardkatalog **[!UICONTROL Angebote]**).
 
@@ -236,7 +236,7 @@ Angebot 5 - 50
 
      Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1, Angebot 6.
 
-   +++
++++
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**
 
@@ -291,13 +291,13 @@ Nach der Erstellung können die Entscheidungsrichtlinie und die mit den zurückg
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Fügen Sie den Entscheidungsrichtlinien-Code in das Code-basierte Erlebnis ein.
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken`wie folgt für den Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klicken Sie auf den gewünschten Ordner, um ihn zu erweitern. Platzieren Sie den Cursor an der gewünschten Position und klicken Sie auf das Symbol „+“ neben dem Attribut, das Sie hinzufügen möchten. Sie können beliebig viele Attribute zum Code hinzufügen.
 
