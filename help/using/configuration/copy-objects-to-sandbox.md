@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 80%
+source-wordcount: '1701'
+ht-degree: 75%
 
 ---
 
@@ -62,13 +62,8 @@ Journey Optimizer ermöglicht den Export von Journey, benutzerdefinierten Aktion
 
    * Wenn Sie beim Kopieren einer Journey in eine andere Sandbox für eine benutzerdefinierte Aktion während des Importvorgangs „Vorhandene verwenden“ auswählen, muss die ausgewählte benutzerdefinierte Aktion mit der benutzerdefinierten Quellaktion übereinstimmen (d. h. gleiche Konfiguration, Parameter usw.). Andernfalls weist die neue Journey-Kopie Fehler auf, die auf der Arbeitsfläche nicht korrigiert werden können.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **Datenquellen, Feldergruppen und Ereignisse** - Beim Kopieren einer Journey, die Ereignisse, Datenquellen oder Feldergruppen verwendet, prüft der Importvorgang automatisch, ob in der Ziel-Sandbox bereits Komponenten mit demselben Namen und Typ vorhanden sind. Beispielsweise wird ein unitäres Ereignis durch ein unitäres Ereignis mit demselben Namen in der Ziel-Sandbox ersetzt. Dasselbe gilt für Geschäftsereignisse, benutzerdefinierte Datenquellen und sowohl API-basierte als auch schemabasierte Feldergruppen, die in Journey verwendet werden. Wenn ein unitäres Ereignis aus der Quell-Sandbox denselben Namen wie eine Geschäftsereignis-Ziel-Sandbox hat, wird sie weder kopiert noch erstellt. Dies gilt auch für alle anderen Komponenten.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ Kampagnen
