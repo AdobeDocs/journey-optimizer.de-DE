@@ -11,10 +11,10 @@ keywords: Subdomain, Delegierung, Domain, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 30%
+source-wordcount: '748'
+ht-degree: 29%
 
 ---
 
@@ -88,6 +88,10 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Subdomain einzurichten.
 1. Klicken Sie **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular auf Ihrem lokalen Computer. Senden Sie es an die Zertifizierungsstelle, um Ihr SSL-Zertifikat zu erhalten.
 
 1. Klicken Sie nach dem Abrufen **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat in [!DNL Journey Optimizer] im .pem-Format hoch.
+
+   >[!CAUTION]
+   >
+   >Sowohl Daten- als auch CDN-Subdomains müssen im selben Zertifikat enthalten sein.
 
 ## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
 
