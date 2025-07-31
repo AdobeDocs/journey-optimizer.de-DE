@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [Best Practices](using/start/best-practices.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
-   + Erstellen einer Journey{#create-journey}
+   + Erstellen einer Journey {#create-journey}
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publishing-the-journey.md)
       + [Pausieren einer Journey](using/building-journeys/journey-pause.md)
       + [Live-Bericht in Ihrer Journey](using/building-journeys/report-journey.md)
-   + Verwalten von Journeys{#manage-journey}
+   + Verwalten von Journeys {#manage-journey}
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
       + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
       + [Zusätzliche Kennung in von einem Ereignis ausgelösten Journeys](using/building-journeys/supplemental-identifier.md)
@@ -187,19 +187,19 @@ ht-degree: 95%
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/campaign-action.md)
-      + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
+      + [Bearbeiten des Inhalts einer Kampagne](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
       + [Überprüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
-   + API-ausgelöste Kampagnen {#api-triggered-campaigns}
-      + [Arbeiten mit API-ausgelösten Kampagnen](using/campaigns/api-triggered-campaigns.md)
+   + Kampagnen, die durch API ausgelöst werden {#api-triggered-campaigns}
+      + [Arbeiten mit Kampagnen, die durch API ausgelöst werden](using/campaigns/api-triggered-campaigns.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/api-triggered-campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/api-triggered-campaign-action.md)
-      + [Bearbeiten des Kampagneninhalts](using/campaigns/api-triggered-campaign-content.md)
+      + [Bearbeiten des Inhalts einer Kampagne](using/campaigns/api-triggered-campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/api-triggered-campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/api-triggered-campaign-schedule.md)
-      + [Kampagne überprüfen und aktivieren](using/campaigns/review-activate-api-triggered-campaign.md)
-      + [Trigger bei der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
+      + [Überprüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Erste Schritte mit koordinierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
       + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
@@ -452,7 +452,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
       + [Landingpage mit KI](using/content-management/generative-lp.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
-      + Marken (Beta){#brands}
+      + Marken {#brands}
          + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
          + [Auswerten des Markenausrichtungswerts](using/content-management/brands-score.md)
    + Mehrsprachige Inhalte{#content-multilingual}
@@ -585,6 +585,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
             + [Modell für automatische Optimierung](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modell zur personalisierten Optimierung](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Erstellen von KI-Modellen](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Arbeiten mit Platzierungen](using/experience-decisioning/placements.md)
       + Verwenden von Adobe Experience Platform-Daten {#aep-data}
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
          + [Verwenden von Adobe Experience Platform für die Entscheidungsfindung](using/experience-decisioning/aep-data-exd.md)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Um eine E-Mail in [!DNL Journey Optimizer] zu erstellen, fügen Sie eine **[!UIC
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL E-Mail]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
-1. Geben Sie allgemeine Informationen zu Ihrer Nachricht an (Titel, Beschreibung, Kategorie).
+1. Geben Sie allgemeine Informationen zu Ihrer Nachricht an (Label, Beschreibung, Kategorie).
 
 1. Wählen oder erstellen Sie die [E-Mail-Konfiguration](email-settings.md).
 
@@ -84,7 +84,17 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_campaign_edit_content.png)
 
-   Im Abschnitt **[!UICONTROL Kopfzeile]** des Bildschirms **[!UICONTROL Inhalt bearbeiten]** sind die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]** in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+1. Schalten Sie **[!UICONTROL Entscheidung aktivieren]** um, wenn Sie Ihrer E-Mail Entscheidungsrichtlinien hinzufügen möchten.
+
+   Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch die besten Inhalte zurückzugeben, die für jedes Mitglied der Zielgruppe bereitgestellt werden können. [Erfahren Sie, wie Sie einer E-Mail eine Entscheidungsrichtlinie hinzufügen](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Vorerst ist die Erstellung von Entscheidungsrichtlinien in E-Mails nicht für Organisationen verfügbar, die die Zusatzangebote Adobe Healthcare Shield oder Privacy and Security Shield erworben haben.
+
+1. Markieren Sie **[!UICONTROL Abschnitt]** die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]**. Sie werden in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    >[!NOTE]
    >
-   >* Die Betreffzeile ist obligatorisch.
-   >
-   >* Die Betreffzeile darf keine Zeilenumbrüche enthalten.
+   >Die Betreffzeile ist obligatorisch. Sie darf keine Zeilenumbrüche enthalten.
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um auf den E-Mail-Designer zugreifen und mit der Erstellung Ihres Inhalts zu beginnen. [Weitere Informationen](get-started-email-design.md)
 

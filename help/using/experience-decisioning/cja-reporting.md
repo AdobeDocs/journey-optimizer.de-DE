@@ -6,19 +6,19 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 90%
 
 ---
 
 
 # Berichten über Entscheidungsfindung {#decisioning-report}
 
-## Reporting über codebasierte Kampagnen {#campaigns}
+## Reporting zur Entscheidungsfindung {#campaigns}
 
-Sobald Code-basierte Erlebnisse live sind, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) zu überwachen.
+Sobald Code-basierte Erlebnisse oder E-Mails mit Auswahlstrategien verfügbar sind, können Sie auf dedizierte Berichte zugreifen, um KPIs (Decision Key Performance Indicators) zu überwachen.
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 

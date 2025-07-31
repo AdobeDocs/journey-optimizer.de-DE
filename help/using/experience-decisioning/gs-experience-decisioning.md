@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Informationen zum Erstellen von Auswahlstrategien in der Benutzeroberfläche](selection-strategies.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/selection-strategies/create.md))
 
-1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
+1. **Erstellen Sie eine Entscheidungsrichtlinie und betten Sie sie in Ihre Code-basierte oder E-Mail-Journey/Kampagne ein**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die geeigneten Entscheidungselemente zu bestimmen, die der gewünschten Zielgruppe angezeigt werden sollen.
 
    ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
