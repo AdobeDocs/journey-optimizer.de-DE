@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 97%
 
 ---
 
@@ -155,5 +155,7 @@ Nachdem Sie Ihre Testadressenliste erstellt haben, können Sie sie in jeder Kamp
 Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an Ihre Kundinnen und Kunden gesendet wird, erhalten die E-Mail-Adressen auf der ausgewählten Testadressenliste diese unter den gleichen Bedingungen, zur gleichen Zeit und mit demselben Inhalt wie die angesprochenen Empfängerinnen und Empfänger.
 
 >[!NOTE]
+>
+>[Testmodus](../building-journeys/testing-the-journey.md) Journey senden keine E-Mails an die Testadressenliste. Um Ihren E-Mail-Inhalt zu überprüfen, verwenden Sie die Funktion [Vorschau und Test](../content-management/preview-test.md), bevor Sie Ihre Nachricht senden.
 >
 >Bei wiederkehrenden Journeys wird der E-Mail-Versand bei jeder Ausführung der Journes an die Testadressen gesendet, sofern mindestens ein Profil den E-Mail-Knoten erreicht.
