@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge ber
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Abstimmregeln"
->abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mithilfe des Abfrage-Modelers eine eigene Abstimmbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
->additional-url="https://experienceleague.adobe.com/de/docs/campaign-web/v8/query-database/query-modeler-overview" text="Arbeiten mit dem Abfrage-Modeler"
+>abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mit dem Regel-Builder eine eigene Abstimmbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge ber
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Abstimmung]** zu konfigurieren:
 
-1. Fügen Sie Ihrem Workflow eine Aktivität des Typs **[!UICONTROL Abstimmung]** hinzu.
+1. Fügen Sie **[!UICONTROL Arbeitsfläche]** Aktivität „Abstimmung“ hinzu.
 
 1. Wählen Sie eine neue Zielgruppendimension aus, um zu definieren, wen Sie ansprechen möchten, z. B. Empfangende oder Abonnierende.
 
@@ -114,9 +113,9 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Abstimmung]** zu konfig
 
 1. Um weitere Regeln für den Abgleich hinzuzufügen, klicken Sie auf **[!UICONTROL Regel hinzufügen]**. Alle Bedingungen müssen erfüllt sein, damit eine Übereinstimmung auftritt.
 
-1. Für komplexere Bedingungen wählen Sie **[!UICONTROL Erweiterte Abstimmbedingungen]**. Verwenden Sie den [Abfrage-Modeler](../orchestrated-rule-builder.md), um benutzerdefinierte Logik zu definieren.
+1. Für komplexere Bedingungen wählen Sie **[!UICONTROL Erweiterte Abstimmbedingungen]**. Verwenden Sie den [Regel-Builder](../orchestrated-rule-builder.md) um benutzerdefinierte Logik zu definieren.
 
-1. Um zu filtern, welche Daten abgestimmt werden sollen, klicken Sie auf **[!UICONTROL Filter erstellen]** und definieren Sie Ihre Bedingung im Abfrage-Modeler.
+1. Um zu filtern, welche Daten abgeglichen werden sollen, klicken Sie auf **[!UICONTROL Filter erstellen]** und definieren Sie Ihre Bedingung im Regel-Builder.
 
 1. Standardmäßig werden nicht abgeglichene Einträge in der ausgehenden Transition beibehalten und in der Arbeitstabelle gespeichert. Um diese zu entfernen, aktivieren Sie die Option **[!UICONTROL Nicht abgestimmte Daten beibehalten]**.
 

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 68%
 
 ---
 
@@ -43,13 +43,13 @@ Außerdem unterstützt er vordefinierte Filter in Bedingungen, sodass Sie Ihre A
 
 ## Zugreifen auf den Regel-Builder
 
-Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
+Der Regel-Builder ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
 | Nutzung | Beispiel |
 |  ---  |  ---  |
 | **Zielgruppen erstellen**: Geben Sie mit der Aktivität Zielgruppe erstellen die Population an, die Sie in Ihren orchestrierten Kampagnen ansprechen möchten **[!UICONTROL und]** mühelos neue Zielgruppen erstellen, die auf Ihre Bedürfnisse zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../orchestrated/activities/build-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Erstellen einer Bedingung auf der Kampagnenarbeitsfläche**: Wenden Sie auf der Kampagnenarbeitsfläche mithilfe einer Aktivität des Typs **[!UICONTROL Aufspaltung]** Regeln an, um Anpassungen an Ihre bestimmten Anforderungen vorzunehmen. [Weitere Informationen zur Verwendung der Aktivität „Aufspaltung“](../orchestrated/activities/split.md) | ![Bild, das den Zugriff auf Optionen zur Workflow-Anpassung zeigt](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Erstellen erweiterter Filter**: Erstellen Sie Regeln, um die in Listen angezeigten Daten wie Workflow-Protokolle oder Zielgruppendimensionen zu filtern. | ![Bild, das die Anpassung von Listenfiltern zeigt](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Erweiterte Filter erstellen** Regeln erstellen, um die in Listen angezeigten Daten wie Kampagnenprotokolle oder Zielgruppendimensionen zu filtern. | ![Bild, das die Anpassung von Listenfiltern zeigt](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Oberfläche des Regel-Builders {#interface}
 

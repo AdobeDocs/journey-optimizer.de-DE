@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ Führen Sie diese Schritte aus, um die Aktivität **[!UICONTROL Test]** zu konfi
 
 1. Sie können mehrere Ausgabe-Transitionen zu einer **[!UICONTROL Test]**-Aktivität hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie das Label und die zugehörige Bedingung für jede Transition.
 v
-1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung sequenziell getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die orchestrierten Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung“]**. Wenn keine Standardbedingung aktiviert ist, werden die Workflows an dieser Stelle gestoppt.
+1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung sequenziell getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die orchestrierten Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung“]**. Wenn keine Standardbedingung aktiviert ist, stoppt die Kampagne an dieser Stelle.
 
 ## Beispiel {#example}
 
