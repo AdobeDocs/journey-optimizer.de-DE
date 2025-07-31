@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 27%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
->title="Audience-Aktivität speichern"
+>title="Aktivität „Zielgruppe speichern“"
 >abstract="Die Aktivität **Zielgruppe speichern** ist eine **Zielgruppenbestimmungs**-Aktivität, mit der Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der zuvor in der orchestrierten Kampagne generierten Population erstellen können. Nach der Erstellung werden diese Zielgruppen zur Liste der Anwendungszielgruppen hinzugefügt und können über das Menü **Zielgruppen** aufgerufen werden."
 
 
@@ -45,7 +45,7 @@ Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
 
 Die Aktivität **[!UICONTROL Zielgruppe speichern]** ist eine **[!UICONTROL Zielgruppenbestimmungs]**-Aktivität, mit der basierend auf der zuvor in der orchestrierten Kampagne generierten Population eine neue Zielgruppe erstellt oder eine vorhandene aktualisiert wird. Nach dem Speichern wird die Zielgruppe zur Liste der Anwendungszielgruppen hinzugefügt und kann über das Menü **[!UICONTROL Zielgruppen]** aufgerufen werden.
 
-Sie wird häufig verwendet, um Zielgruppensegmente zu erfassen, die innerhalb desselben Kampagnen-Workflows erstellt wurden, und sie so für die Wiederverwendung in zukünftigen Kampagnen verfügbar zu machen. Normalerweise ist dies mit anderen Zielgruppenbestimmungsaktivitäten verbunden, z. B. **[!UICONTROL Zielgruppe erstellen]** oder **[!UICONTROL Kombinieren]**, um die endgültige Zielpopulation zu speichern.
+Sie wird häufig verwendet, um Zielgruppensegmente zu erfassen, die in derselben Kampagne erstellt wurden, und sie so für die Wiederverwendung in zukünftigen Kampagnen verfügbar zu machen. Normalerweise ist dies mit anderen Zielgruppenbestimmungsaktivitäten verbunden, z. B. **[!UICONTROL Zielgruppe erstellen]** oder **[!UICONTROL Kombinieren]**, um die endgültige Zielpopulation zu speichern.
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 
