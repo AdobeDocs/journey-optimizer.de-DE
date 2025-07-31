@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 
 >[!IMPORTANT]
 >
->Derzeit werden Rangfolgemodelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
+>Derzeit werden KI-Modelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
 
 ## KI-Modelltypen {#ai-model-types}
 
@@ -53,6 +53,6 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
    >[!IMPORTANT]
    >
-   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung beim Entscheidungs-Management](../data-collection/data-collection.md)
+   >KI-Modelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung beim Entscheidungs-Management](../data-collection/data-collection.md)
 
 1. Weisen Sie das KI-Modell einer Platzierung in einer Entscheidung zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../offer-activities/configure-offer-selection.md)
