@@ -10,9 +10,9 @@ level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ Datensatz für die Aufnahme von Schritt-Ereignissen in der Journey.
 
 Das zugehörige Schema ist das Journey-Schritt-Ereignis-Schema zur Journey Orchestration.
 
-Diese Abfrage zeigt die Aufschlüsselung der Aktionserfolgszahlen nach Aktionsbezeichnung für eine bestimmte Journey:
+Diese Abfrage zeigt die Aufschlüsselung der Aktionserfolgszahlen nach Aktions-Label für eine bestimmte Journey:
 
 ```sql
 select

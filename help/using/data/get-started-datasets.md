@@ -9,9 +9,9 @@ level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 >[!NOTE]
 >
->Seit dem 1. November 2024 unterstützt die Streaming-Segmentierung nicht mehr das Senden und Öffnen von Ereignissen aus [!DNL Journey Optimizer] Tracking- und Feedback-Datensätzen. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzlimitierung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md) einschließlich einer Erklärung zu Anwendungsfällen für die tägliche Begrenzung [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
+>Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 >
 >Darüber hinaus wird ab Februar 2025 für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live(TTL)-Schutzmechanismus eingeführt. [Weitere Informationen](datasets-ttl.md)
 

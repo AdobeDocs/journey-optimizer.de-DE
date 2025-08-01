@@ -11,9 +11,9 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um eine Aktivität vom Typ **[!UICONTROL Inhaltsentsche
 
    ![Hinzufügen einer Inhaltsentscheidung zur Journey](assets/journey-content-decision.png){width=100%}
 
-1. Fügen Sie der Aktivität optional einen Titel und eine Beschreibung hinzu.
+1. Optional können Sie der Aktivität ein Label und eine Beschreibung hinzufügen.
 
 1. Klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen zu Entscheidungsrichtlinien](../experience-decisioning/create-decision.md)
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um eine Aktivität vom Typ **[!UICONTROL Inhaltsentsche
 
 1. Ordnen Sie die Auswertungsreihenfolge nach Bedarf an.
 
-   Beim Hinzufügen mehrerer Entscheidungselemente und/oder Strategien werden sie in sequenzieller Reihenfolge ausgewertet, wobei links von jedem Objekt oder jeder Gruppe von Objekten Zahlen angezeigt werden. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  [Weitere Informationen](../experience-decisioning/create-decision.md#evaluation-order)
+   Beim Hinzufügen mehrerer Entscheidungselemente und/oder Strategien werden diese in sequenzieller Reihenfolge ausgewertet, wobei die Reihenfolge mit Zahlen links von jedem Objekt oder jeder Objektgruppe angezeigt wird. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  [Weitere Informationen](../experience-decisioning/create-decision.md#evaluation-order)
 
 1. (Optional) Fügen Sie ein Fallback-Angebot hinzu. [Weitere Informationen](../experience-decisioning/create-decision.md#fallback)
 
@@ -85,7 +85,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
 1. Ziehen Sie aus der Kategorie **[!UICONTROL Orchestrierung]** eine Aktivität vom Typ **[!UICONTROL Bedingung]** auf Ihre Arbeitsfläche. [Weitere Informationen](condition-activity.md#add-condition-activity)
 
-1. (Optional) Benennen Sie **[!UICONTROL Path1]**, der dem ersten von Ihnen definierten Ausdruck entspricht, um eine relevantere Beschriftung zu erstellen.
+1. (Optional) Benennen Sie **[!UICONTROL Pfad1]**, der dem ersten von Ihnen definierten Ausdruck entspricht, in ein relevanteres Label um.
 
 1. Klicken Sie für diesen ersten Pfad in das Feld **[!UICONTROL Ausdruck]** oder verwenden Sie das Symbol „Bearbeiten“, um einen Ausdruck hinzuzufügen.
 
@@ -103,7 +103,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
    >[!NOTE]
    >
-   >Jede eingeschränkte Beschriftung, die für ein Attribut definiert wird, entweder in einem Journey-Erlebnisereignis, das in einer Entscheidungsregel (als Kontextdaten) oder im [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema) verwendet wird, führt zu einem Richtlinienverstoß für die DULE oder das Einverständnis. Weitere Informationen zu Data-Governance-Richtlinien finden Sie in [diesem Abschnitt](../action/action-privacy.md)
+   >Ein für ein Attribut definiertes eingeschränktes Label, ob in einem Journey-Erlebnisereignis, das in einer Entscheidungsregel (als Kontextdaten) verwendet wird, oder im [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema), führt nicht zu einem Richtlinienverstoß gemäß DULE oder Einverständnis. Weitere Informationen zu Data-Governance-Richtlinien finden Sie in [diesem Abschnitt](../action/action-privacy.md)
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/functionlistsize.md) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Testprofile sind zusätzliche Empfangende, die nicht den definierten Zielgruppen
 
 Bevor Sie Testprofile zum Testen Ihres Inhalts verwenden, müssen Sie sie zunächst auswählen. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie auf dem Bildschirm Inhalt bearbeiten Ihrer Nachricht oder in der E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt simulieren]**.
+1. Klicken Sie im Bildschirm „Inhalt bearbeiten“ oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt simulieren]** aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testprofile verwalten]** und wählen Sie den Namespace aus, der zur Identifizierung von Testprofilen verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identity-Namespace]** klicken. [Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform](../audience/get-started-identity.md).
 

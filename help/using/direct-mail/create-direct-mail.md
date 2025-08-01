@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Um eine Briefpost-Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL Direkt-Mail]** aus.
 
-1. Wählen oder erstellen Sie eine **[!UICONTROL Briefpostkonfiguration]**, um sie zu verwenden. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
+1. Wählen Sie eine **[!UICONTROL Direkt-Mail-Konfiguration]** aus oder erstellen Sie eine neue Konfiguration. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
 * instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
-* profileID: Die Identität des Profils, die dem Journey-Namespace entspricht.
+* profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
 
 >[!NOTE]
 >
@@ -662,7 +662,7 @@ Es werden alle Service-Ereignisse im Zusammenhang mit der angegebenen Journey-Ve
 Zusätzlich können Probleme identifiziert werden wie z. B.:
 
 * Fehler bei der Erstellung des Themas oder Exportvorgangs (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
-* Blockierte Exportvorgänge (wenn für eine bestimmte Journey-Version kein Ereignis zum Beenden des Exportvorgangs vorhanden ist)
+* Blockierte Exportaufträge (wenn für eine bestimmte Journey-Version kein Ereignis zur Beendigung des Exportauftrags vorhanden ist)
 * Worker-Probleme, wenn ein Beendigungsereignis zum Exportvorgang, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
 
 WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies einen der folgenden Gründe haben:

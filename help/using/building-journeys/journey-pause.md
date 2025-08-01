@@ -10,9 +10,9 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2169'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -145,14 +145,14 @@ Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit in der Jour
 >
 >* Sie können einen globalen Filter nur in **pausierten** Journeys erstellen, aktualisieren oder löschen.
 
-## Leitlinien und Einschränkungen {#journey-pause-guardrails}
+## Schutzmechanismen und Einschränkungen {#journey-pause-guardrails}
 
 * Eine Journey-Version kann bis zu **14 Tage** lang pausiert werden, wobei in pausierten Journeys in Ihrem Unternehmen insgesamt maximal **10 Millionen Profile** zulässig sind.
 Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System dies jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.
 
   Wenn Sie Journeys fortsetzen, um die Anzahl der zurückgehaltenen Profile wieder unter das Limit zu bringen, wird die jeweilige Journey sofort fortgesetzt. Es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit betrachtet das System diese Profile möglicherweise immer noch als pausiert.
 
-* Bei Journey[ die eingehende Aktivitäten ](../channels/gs-channels.md#mobile-app-and-web-experiences) (z. B. In-App, Web usw.) umfassen, wird durch das Anhalten des Journey die bereits ausgelöste Kommunikation nicht unterbrochen. Wenn sich ein Profil vor der Pause für eine eingehende Aktivität qualifiziert hat, wird die entsprechende Nachricht weiterhin zugestellt. Um alle eingehenden Kommunikationen zu stoppen, müssen Sie die Journey stoppen.
+* Bei Journeys mit [eingehenden Aktivitäten](../channels/gs-channels.md#mobile-app-and-web-experiences) (z. B. In-App, Web usw.) wird durch das Pausieren der Journey die bereits ausgelöste Kommunikation nicht unterbrochen. Wenn sich ein Profil vor dem Pausieren für eine eingehende Aktivität qualifiziert hat, wird die entsprechende Nachricht weiterhin zugestellt. Um alle eingehenden Kommunikationen zu stoppen, müssen Sie die Journey stoppen.
 * Pausierte Journeys werden auf das Live-Journey-Kontingent angerechnet.
 * In die Journey eingetretene Profile, die während der Pause verworfen wurden, werden weiterhin als ansprechbare Profile gezählt.
 * Pausierte Journeys werden genau wie Live-Journeys in allen Geschäftsregeln berücksichtigt.
@@ -183,7 +183,7 @@ Beim Pausieren dieser Journey wählen Sie aus, ob Profile **verworfen** oder **g
 1. Aktivität vom Typ **Warten**: Profile warten weiterhin normal auf dem Knoten und werden ihn verlassen, auch wenn die Journey pausiert wird.
 1. **Bedingung**: Profile durchlaufen weiterhin Bedingungen und wechseln je nach dem in der Bedingung definierten Ausdruck zur richtigen Verzweigung.
 1. Aktivitäten vom Typ **Push**/**Email**: Während einer pausierten Journey beginnen Profile zu warten oder werden (basierend auf der Auswahl, die die Benutzerin oder der Benutzer zum Zeitpunkt der Pause getroffen hat) am nächsten Aktionsknoten verworfen. Profile warten also ab oder werden dort verworfen.
-1. **Ereignisse** nach **Action**-Knoten: Wenn ein Profil auf einem **Action**-Knoten wartet und danach eine **Event**-Aktivität vorhanden ist, wird das Ereignis verworfen, wenn dieses Ereignis ausgelöst wird.
+1. **Ereignisse** nach Knoten vom Typ **Aktion**: Wenn ein Profil auf einen Knoten vom Typ **Aktion** wartet und danach eine Aktivität vom Typ **Ereignis** vorhanden ist, wird das Profil verworfen, wenn dieses Ereignis ausgelöst wird.
 
 Entsprechend diesem Verhalten können Sie sehen, dass die Profilanzahl bei der pausierten Journey steigt, und zwar hauptsächlich in Aktivitäten vor Aktivitäten vom Typ **Aktion**. In diesem Beispiel ist die Aktivität **Warten** weiterhin aktiviert, wodurch die Anzahl der Profile, die die Aktivität **Bedingung** durchlaufen, beim Verlassen dieser Aktivität steigt.
 

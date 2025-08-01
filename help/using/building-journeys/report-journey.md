@@ -10,15 +10,15 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # Live-Bericht auf der Journey-Arbeitsfläche {#report-journey}
 
-Nach der Veröffentlichung Ihres Journey liefert [Live-Reporting](journey-dry-run.md) unmittelbar auf der Journey-Arbeitsfläche Metriken aus den letzten 24 Stunden, sobald der **Dry-Run**-Modus aktiviert ist.
+Nach der Veröffentlichung Ihrer Journey stellt **Live-Reporting** Metriken aus den letzten 24 Stunden direkt auf der Journey-Arbeitsfläche bereit, sobald der [Probelauf-Modus](journey-dry-run.md) aktiviert wird.
 
 
 >[!AVAILABILITY]
@@ -30,7 +30,7 @@ Die angezeigten Ereignisse sind innerhalb der letzten 24 Stunden eingetreten, w
 
 ![](assets/journey_live_report.png)
 
-Für Journey im Live- oder [Dry Run](journey-dry-run.md)-Modus können Sie Folgendes überprüfen:
+Für Journeys im Live- oder [Probelauf-Modus](journey-dry-run.md) können Sie Folgendes überprüfen:
 
 * **[!UICONTROL Eingetretene Profile]**: Gesamtzahl der Kontakte, die in die Journey eingetreten sind.
 * **[!UICONTROL Ausgetretene Profile]**: Gesamtzahl der Kontakte, die die Journey verlassen haben (einschließlich Fehlern).
@@ -42,10 +42,10 @@ Für Journey im Live- oder [Dry Run](journey-dry-run.md)-Modus können Sie Folge
    * Bei **wiederkehrenden** Journeys wird bei jedem Intervall ein Verwerfen gezählt, wenn sich der Kontakt bereits in der Journey befindet und die Wiedereintrittsrichtlinie nicht auf „Wiedereintritt erzwingen“ eingestellt ist.
    * Bei Aktivitäten des Typs **Zielgruppe lesen** erfolgt ein Verwerfen, wenn für den exportierten Kontakt keine Identität festgelegt wurde oder wenn der empfangene Identity-Namespace nicht mit dem für die Journey erwarteten übereinstimmt.
 
-Für jede Aktivität auf jeder Journey im Live- oder [Dry Run](journey-dry-run.md)-Modus haben Sie Zugriff auf:
+Für jede Aktivität in jeder Journey im Live- oder [Probelauf-Modus](journey-dry-run.md) haben Sie Zugriff auf:
 
-* **[!UICONTROL Eingetreten]**: Gesamtzahl der Personen, die an dieser Aktivität teilgenommen haben. Bei **Action**-Aktivitäten gibt diese Metrik an, dass Profile durchlaufen, da sie nicht im Trockenlaufmodus ausgeführt werden.
-* **[!UICONTROL Verlassen (Ausstiegskriterien erfüllt)]**: Gesamtzahl der Einzelpersonen, die die Journey aufgrund eines Ausstiegskriteriums (einschließlich Fehlern) von dieser Aktivität verließen.
+* **[!UICONTROL Eingetreten]**: Gesamtzahl der Kontakte, die in diese Aktivität eingetreten sind. Bei **Aktionsaktivitäten**, die im Probelauf nicht ausgeführt werden, gibt diese Metrik durchlaufende Profile an.
+* **[!UICONTROL Ausgestiegen (Ausstiegskriterien erfüllt)]**: Gesamtzahl der Kontakte, die die Journey während dieser Aktivität aufgrund von Ausstiegskriterien (einschließlich Fehlern) verlassen haben.
 * **[!UICONTROL Ausgestiegen (erzwungener Ausstieg)]**: Gesamtzahl der Kontakte, die die Journey verlassen haben, während sie aufgrund einer Konfiguration durch Anwendende pausiert war. Diese Metrik ist für Journeys im Probelaufmodus immer gleich null.
 * **[!UICONTROL Fehler]**: Gesamtzahl der Kontakte, bei denen während dieser Aktivität ein Fehler aufgetreten ist.
 
@@ -53,7 +53,7 @@ Für jede Aktivität auf jeder Journey im Live- oder [Dry Run](journey-dry-run.m
 >[!MORELIKETHIS]
 >
 >* [Erste Schritte mit Reporting](../reports/gs-reports.md)
->* [Veröffentlichen Sie Ihren Journey](publishing-the-journey.md)
->* [Journey Probelauf](journey-dry-run.md)
->* [Konfigurieren und Verfolgen von Journey-Metriken](success-metrics.md)
+>* [Veröffentlichen einer Journey](publishing-the-journey.md)
+>* [Journey-Probelauf](journey-dry-run.md)
+>* [Konfigurieren und Verfolgen der Journey-Metriken](success-metrics.md)
 >* [Benutzerdefinierte Journey-Berichte](../reports/sharing-overview.md)

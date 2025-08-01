@@ -10,9 +10,9 @@ level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes CSS zu Ihren E-Mail-Inhalten hin
    >
    >Der Abschnitt **[!UICONTROL CSS-Stile]** ist nur verfügbar, wenn bereits Inhalt im Editor vorhanden ist.
 
-1. Klicken Sie auf **[!UICONTROL Schaltfläche Benutzerdefiniertes CSS]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]**.
 
    >[!NOTE]
    >
-   >Die Schaltfläche **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** ist nur verfügbar, wenn **[!UICONTROL Body]** ausgewählt ist. Sie können jedoch benutzerdefinierte CSS-Stile auf alle Komponenten in Ihrem Inhalt anwenden.
+   >Die Schaltfläche **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** ist nur verfügbar, wenn **[!UICONTROL Hauptteil]** ausgewählt ist. Sie können jedoch benutzerdefinierte CSS-Stile auf alle Komponenten in Ihrem Inhalt anwenden.
 
 1. Geben Sie Ihren CSS-Code in den entsprechenden Textbereich ein, der angezeigt wird. Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. [Weitere Informationen](#use-valid-css)
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um benutzerdefiniertes CSS zu Ihren E-Mail-Inhalten hin
 
    >[!NOTE]
    >
-   >Bei Verwendung einer [Vorlage mit gesperrtem Inhalt](../content-management/content-locking.md#use) können Sie keine benutzerdefinierte CSS zu Ihrem Inhalt hinzufügen. Die Schaltflächenbeschriftung ändert sich in **[!UICONTROL Benutzerdefiniertes CSS anzeigen]** und jedes bereits im Inhalt vorhandene benutzerdefinierte CSS ist schreibgeschützt.
+   >Bei Verwendung einer [Vorlage mit gesperrtem Inhalt](../content-management/content-locking.md#use) können Sie Ihrem Inhalt kein benutzerdefiniertes CSS hinzufügen. Das Label der Schaltfläche ändert sich in **[!UICONTROL Benutzerdefiniertes CSS anzeigen]** und bereits im Inhalt vorhandene benutzerdefinierte CSS sind schreibgeschützt.
 
 1. Speichern Sie das benutzerdefinierte CSS und überprüfen Sie, ob das benutzerdefinierte CSS korrekt auf Ihren Inhalt angewendet wird. Ist dies nicht der Fall, lesen Sie den Abschnitt [Fehlerbehebung](#troubleshooting).
 
@@ -174,7 +174,7 @@ body {
 
 Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines `<style>`-Tags mit dem Attribut `data-name="global-custom"` hinzugefügt, wie im folgenden Beispiel dargestellt. Dadurch wird sichergestellt, dass die benutzerdefinierten Stile global auf die Inhalte angewendet werden.
 
-+++ Beispiel anzeigen
++++ Siehe Beispiel
 
 ```html
 <!DOCTYPE html>
@@ -214,7 +214,7 @@ Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines 
 
 Das benutzerdefinierte CSS wird nicht vom Bereich **[!UICONTROL Einstellungen]** des E-Mail-Designers interpretiert oder überprüft. Es ist vollkommen unabhängig und kann nur über die Option **[!UICONTROL Benutzerdefiniertes CSS hinzufügen]** geändert werden.
 
-### Schutzmechanismen - Importierte Inhalte
+### Schutzmechanismen – Importierte Inhalte
 
 Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in den E-Mail-Designer importiert wurden, sollten Sie Folgendes beachten:
 
@@ -231,7 +231,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Stellen Sie sicher, dass Ihr CSS gültig und frei von Syntaxfehlern ist (z. B. fehlende Klammern, falsche Eigenschaftsnamen). [Weitere Informationen](#use-valid-css)
 
-* Stellen Sie sicher, dass Ihr CSS zum `<style>`-Tag mit dem `data-name="global-custom"` hinzugefügt wird.
+* Stellen Sie sicher, dass Ihr CSS dem `<style>`-Tag mit dem Attribut `data-name="global-custom"` hinzugefügt wird. 
 
 * Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
 

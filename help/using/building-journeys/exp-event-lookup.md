@@ -5,9 +5,9 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->Ab dem 8. Juli 2025 wird in neuen Kundenorganisationen das Erstellen von Ausdrücken mithilfe von Erlebnisereignissen im in Journey-Bedingungen verwendeten Ausdruckseditor nicht mehr unterstützt. Daher können Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) nicht zum Erstellen von Ausdrücken verwendet werden. Nachfolgend werden alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logiken mit Erlebnisereignissen beschrieben.
+>Seit dem 8. Juli 2025 wird in neuen Kundenorganisationen das Erstellen von Ausdrücken mit Erlebnisereignissen im in Journey-Bedingungen verwendeten Ausdruckseditor nicht mehr unterstützt. Daher können Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) nicht zum Erstellen von Ausdrücken verwendet werden. Nachfolgend werden alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logiken mit Erlebnisereignissen beschrieben.
 >
 >Sie würden gerne mehr erfahren? [Lesen Sie die häufig gestellten Fragen](#faq-ee).
 
@@ -152,7 +152,7 @@ Nur die Suche nach Erlebnisereignissen im Ausdruckseditor ist betroffen. Die fol
 
 +++Ist meine bestehende Adobe-Organisation von dieser Aktualisierung betroffen?
 
-Ihre Adobe-Organisation ist nur betroffen, wenn Sie die Suche nach Erlebnisereignissen nicht bereits verwendet haben. Wenn Sie bereits Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) verwenden, unterstützt Ihre Adobe-Organisation weiterhin die Suche nach Erlebnisereignissen.
+Ihre Adobe-Organisation ist nur betroffen, wenn Sie die Suche nach Erlebnisereignissen noch nicht verwenden. Wenn Sie bereits Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) verwenden, verfügt Ihre Adobe-Organisation weiterhin über Support für die Suche nach Erlebnisereignissen.
 
 +++
 

@@ -9,22 +9,22 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
-workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 87%
+workflow-type: ht
+source-wordcount: '385'
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen. Sie können mehrstufige erweiterte Szenarien mit den folgenden Funktionen entwerfen:
+Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen. Sie können mehrstufige fortgeschrittene Szenarien mit den folgenden Funktionen entwerfen:
 
 * Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **als Batch** unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
 * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-* Verwenden Sie die **integrierten Aktionen** um in [!DNL Journey Optimizer] entworfene Nachrichten zu senden oder **benutzerdefinierte Aktionen** zu erstellen, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
+* Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
 * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
@@ -32,15 +32,15 @@ Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute
 
 Weitere Informationen zum Erstellen und Entwerfen Ihrer ersten Journey finden Sie auf [dieser Seite](journey-gs.md).
 
-➡️ [Entdecken Sie Journey Optimizer im Video](#video)
+➡️ [Journey Optimizer entdecken (Video)](#video)
 
-## Anwendungsszenarien{#uc-journey}
+## Anwendungsfälle{#uc-journey}
 
 Vom Journey-Designer aus können Marketing-Fachleute in Echtzeit ausgelöste 1:1-Nachrichten über jeden Kanal senden, wenn ein Ereignis auftritt. Wenn Kundinnen oder Kunden beispielsweise einen Service abonnieren, kann dies [das Versenden einer Begrüßungs-E-Mail auslösen](message-to-subscribers-uc.md), in der sie aufgefordert werden, sich zum ersten Mal bei der App anzumelden und ihre Voreinstellungen festzulegen. Aktionen wie der Abschluss des Kaufs, das Öffnen der E-Mail und die Anmeldung bei der App können verwendet werden, damit neue Kundinnen und Kunden in ihrer Journey fortfahren.
 
 Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journeys-message.md), die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/MMS sowie eingehende Kanäle wie Apps, Websites und Code-basierte Erlebnisse unterstützen, die direkt in Journey Optimizer erstellt werden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten per E-Mail, Textnachricht oder über andere Kanäle zu senden. Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md), mit denen diese Systeme direkt über den Journey-Designer in Journeys integriert werden können.
 
-Erfahren Sie (in [ End-to-End-Anwendungsfällen), wie Sie Journey ](jo-use-cases.md).
+[Die folgenden End-to-End-Anwendungsfälle](jo-use-cases.md) demonstrieren die Erstellung von Journeys.
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Erfahren Sie (in [ End-to-End-Anwendungsfällen), wie Sie Journey ](jo-use-cases
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

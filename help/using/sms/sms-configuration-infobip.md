@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
    | Opt-out-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
    | Hilfe-Keywords | Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **Hilfenachricht** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
    | Hilfenachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird. |
-   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?learn=on&captions=ger). |
+   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Double-Opt-in-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird. |
    | Prinzipalentitäts-ID | Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein. |
    | Inhaltsvorlagen-ID | Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein. |
@@ -73,7 +73,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 
 RCS-Messaging wird in Adobe Journey Optimizer über Infobip mit der Funktion [Benutzerdefinierter SMS-Anbieter](sms-configuration-custom.md) unterstützt. Dies ermöglicht den Versand von umfangreichen, interaktiven Nachrichten über verifizierte Geschäftsprofile, die Elemente wie Karussells, Schaltflächen und Multimedia-Inhalte enthalten.
 
-➡️ [Erfahren Sie in der Infobip-Dokumentation, wie Infobip RCS unterstützt](https://www.infobip.com/docs/api/channels/rcs)
+➡️ [Erfahren Sie in der Infobip-Dokumentation, wie RCS von Infobip unterstützt wird](https://www.infobip.com/docs/api/channels/rcs)
 
 Um RCS-Messaging mit Infobip zu aktivieren, müssen neue API-Anmeldedaten über einen benutzerdefinierten SMS-Anbieter konfiguriert werden. Bestehende Infobip-SMS-Anmeldedaten sind nicht kompatibel, da RCS ein eigenes Payload-Format erfordert.
 
