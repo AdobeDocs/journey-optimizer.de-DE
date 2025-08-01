@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ Die Aktivität **[!UICONTROL Aufspaltung]** ist eine **[!UICONTROL Targeting]**-
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filter „Aufspaltungsaktivität“"
->abstract="Auf **[!UICONTROL Filter erstellen]** klicken und die gewünschte Filterregel mithilfe des Abfrage-Modelers konfigurieren, um eine Filterbedingung auf die Teilmenge anzuwenden. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
+>abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Regel-Builders. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu k
 
    1. Klicken Sie auf eine Teilmenge, um deren Einstellungen zu öffnen.
 
-   1. Klicken Sie auf **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Abfrage-Modelers zu definieren, beispielsweise die Auswahl von Profilen mit einer gültigen E-Mail-Adresse.
+   1. Klicken Sie **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Regel-Builders zu definieren, z. B. Profile mit einer gültigen E-Mail-Adresse.
 
       ![](../assets/orchestrated-split-1.png)
 
