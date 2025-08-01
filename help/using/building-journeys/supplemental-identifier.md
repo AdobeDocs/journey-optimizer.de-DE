@@ -5,7 +5,7 @@ exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 69%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 >title="Verwenden einer zusätzlichen Kennung"
 >abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, das Feld auswählen, das als zusätzliche Kennung verwendet werden soll, und einen Namespace auswählen, der mit ihr verknüpft werden soll."
 
-Standardmäßig werden Journey im Kontext einer (Profil **ID)**. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit [!DNL Journey Optimizer] zusätzlich zur Profil **ID eine**&#x200B;zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Rezept-ID.
+Standardmäßig werden Journey im Kontext einer (Profil **ID)**. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit [!DNL Journey Optimizer] zusätzlich zur Profil **ID eine**zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Rezept-ID.
 In diesem Beispiel haben wir eine Buchungs-ID als zusätzliche Kennung hinzugefügt.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -69,7 +69,7 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 
 * **Konfiguration nachgelagerter Ereignisse**
 
-  Wenn Sie ein anderes nachgelagertes Ereignis auf der Journey verwenden, muss es dieselbe zusätzliche ID verwenden und denselben ID-Namespace haben.
+  Wenn Sie ein weiteres Ereignis nachgelagert in der Journey verwenden, muss es dieselbe zusätzliche ID verwenden und denselben ID-Namespace haben.
 
 * **Audience-Journey lesen**
 
@@ -244,4 +244,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

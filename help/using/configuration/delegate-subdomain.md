@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ Sie haben folgende Möglichkeiten:
 
 Die **vollständige Subdomain-Delegierung** ist die empfohlene Methode. Weitere Informationen zu den Unterschieden zwischen den verschiedenen Subdomain-Konfigurationsmethoden finden Sie [ (diesem Abschnitt](about-subdomain-delegation.md#subdomain-delegation-methods).
 
-## Leitlinien {#guardrails}
+## Schutzmechanismen {#guardrails}
 
 Befolgen Sie beim Einrichten von Subdomains in [!DNL Journey Optimizer] die unten beschriebenen Leitplanken und Empfehlungen.
 
@@ -127,13 +127,13 @@ Gehen Sie wie folgt vor, um eine neue Subdomain in [!DNL Journey Optimizer] einz
 
 1. Im Abschnitt **[!UICONTROL DNS-Eintrag]** wird die Liste der Einträge angezeigt, die auf Ihren DNS-Servern platziert werden sollen. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
-1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige…“.
+1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige …“.
 
    ![](assets/subdomain-submit.png)
 
 1. Wenn Sie eine Subdomain mit **CNAMEs** einrichten, lesen Sie [diesen Abschnitt](#cname-subdomain-setup).
 
-1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
+1. Klicken Sie auf **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
 
 ## Einrichten einer Subdomain mit CNAMEs {#cname-subdomain-setup}
 
@@ -163,11 +163,11 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAMEs einzurichten.
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass alle Datensätze ordnungsgemäß erstellt wurden, bevor Sie fortfahren.
+   >Stellen Sie vor dem Fortfahren sicher, dass alle Einträge ordnungsgemäß erstellt wurden.
 
-1. Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“.
+1. Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie die Option „Ich bestätige …“.
 
-1. Klicken Sie **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
+1. Klicken Sie auf **[!UICONTROL Senden]**, damit Adobe die erforderlichen Prüfungen durchführt. [Weitere Informationen](#submit-subdomain)
 
 ➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.](#video)
 
@@ -196,7 +196,7 @@ Gehen Sie wie folgt vor, um die Zuweisung von Subdomains abzuschließen.
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass alle Datensätze ordnungsgemäß erstellt wurden, bevor Sie fortfahren.
+   >Stellen Sie vor dem Fortfahren sicher, dass alle Einträge ordnungsgemäß erstellt wurden.
 
 ### Subdomain-Validierung {#subdomain-validation}
 
@@ -273,4 +273,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

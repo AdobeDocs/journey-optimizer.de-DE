@@ -11,7 +11,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 Sobald die Veröffentlichung im Probelaufmodus gestartet wurde, können die Journey-Ausführung und der Fortschritt der Profile in den Journey-Verzweigungen und -Knoten visualisiert werden.
 
-Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt. Weitere Informationen zum Journey von Live-Berichten und Metriken finden Sie unter [Live-Bericht auf der Journey-Arbeitsfläche](report-journey.md).
+Metriken werden direkt auf der Journey-Arbeitsfläche angezeigt. Weitere Informationen zu Journey-Live-Berichten und -Metriken finden Sie unter [Live-Bericht in der Journey-Arbeitsfläche](report-journey.md).
 
 ![Überwachen der Journey-Probelauf-Ausführung](assets/dry-run-metrics.png)
 
@@ -120,7 +120,7 @@ Links zu den letzten 24 Stunden und allen Zeitberichten sind im Bestätigungsbil
 1. Klicken Sie **Bestätigung auf „Zurück** Entwurf“.
 
 
-## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
+## Schutzmechanismen und Einschränkungen {#journey-dry-run-limitations}
 
 * Profile im Probelaufmodus werden als ansprechbare Profile gezählt.
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.

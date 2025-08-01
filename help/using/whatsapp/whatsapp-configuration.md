@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 49%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 49%
 Bevor Sie Ihre WhatsApp-Nachricht senden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren und mit Ihrem WhatsApp-Konto verknüpfen. Gehen Sie hierfür wie folgt vor:
 
 1. [Erstellen Ihrer WhatsApp-API-Anmeldedaten](#WhatsApp-credentials)
-1. [Erstellen von WhatsApp-Webhooks](#WhatsApp-webhook)
+1. [Erstellen Ihrer WhatsApp-Webhooks](#WhatsApp-webhook)
 1. [Erstellen Ihrer WhatsApp-Konfiguration](#WhatsApp-configuration)
 
 Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/administrator.md) durchgeführt werden.
@@ -82,11 +82,11 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 >[!NOTE]
 >
->Ohne angegebene Opt-in- oder Opt-out-Schlüsselwörter sind standardmäßige Einverständnisnachrichten nicht aktiviert.
+>Ohne angegebene Opt-in- oder Opt-out-Keywords sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
 Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren.
 
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
    ![](assets/webhook-1.png)
 
@@ -98,9 +98,9 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 
 1. Wählen Sie Ihre Kategorie **[!UICONTROL Eingehendes Keyword]** aus, z. B.:
 
-   * **[!UICONTROL Opt-in-Schlüsselwörter]**
-   * **[!UICONTROL Opt-out-Schlüsselwörter]**
-   * **[!UICONTROL Hilfe-Schlüsselwörter]**
+   * **[!UICONTROL Opt-in-Keywords]**
+   * **[!UICONTROL Opt-out-Keywords]**
+   * **[!UICONTROL Hilfe-Keywords]**
 
 1. Geben Sie Ihre **[!UICONTROL Keywords]** ein und klicken Sie auf ![Hinzufügen](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
@@ -117,9 +117,9 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 -->
 1. Klicken Sie auf ![Hinzufügen](assets/do-not-localize/Smock_AddCircle_18_N.svg), um ein zusätzliches **[!UICONTROL Keyword für eingehende Nachrichten]** hinzuzufügen.
 
-1. Klicken Sie **[!UICONTROL Senden]** wenn Sie die Konfiguration Ihres WhatsApp-Webhooks abgeschlossen haben.
+1. Wenn Sie die Konfiguration Ihres WhatsApp-Webhooks abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-1. Klicken Sie im **[!UICONTROL Webhooks]**-Menü auf das ![bin-Symbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren WhatsApp-Webhook zu löschen.
+1. Klicken Sie im Menü **[!UICONTROL Webhooks]** auf ![Papierkorbsymbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren Webhook zu löschen.
 
    ![](assets/webhook-5.png)
 
@@ -129,7 +129,7 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 
    Ausführliche Anweisungen dazu, wie und wo dieses Verifizierungs-Token hinzugefügt werden kann, finden Sie unter [Meta-Dokumentation](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
-1. Greifen Sie auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie aus Ihrem zuvor gesendeten **[!UICONTROL WhatsApp-Webhook]**.
+1. Rufen Sie über Ihren zuvor gesendeten **[!UICONTROL WhatsApp-Webhook]** Ihre neue **[!UICONTROL Webhook-URL]** auf und kopieren Sie sie.
 
    ![](assets/webhook-6.png)
 
@@ -180,6 +180,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

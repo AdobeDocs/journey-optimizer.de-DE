@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
       + [2023](using/rn/release-notes-2023.md)
       + [2022](using/rn/release-notes-2022.md)
       + [2021](using/rn/release-notes-2021.md)
-   + [Dokumentationsaktualisierungen](using/rn/documentation-updates.md)
+   + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
    + [Verbesserte Journey-Arbeitsfläche](using/rn/new-canvas.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
@@ -36,7 +36,7 @@ ht-degree: 96%
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
-   + [Leitlinien](using/start/guardrails.md)
+   + [Schutzmechanismen](using/start/guardrails.md)
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
@@ -170,12 +170,12 @@ ht-degree: 96%
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+      + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Fehlerbehebung {#troubleshoot-journey}
-      + [Fehlerbehebung bei Journey](using/building-journeys/gs-troubleshooting.md)
+      + [Fehlerbehebung bei Journeys](using/building-journeys/gs-troubleshooting.md)
       + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
       + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
@@ -183,22 +183,22 @@ ht-degree: 96%
 + Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
-   + Aktionskampagnen {#action-campaigns}
+   + AJO-Kampagnen {#action-campaigns}
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/campaign-action.md)
-      + [Bearbeiten des Inhalts einer Kampagne](using/campaigns/campaign-content.md)
+      + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
-      + [Überprüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
-   + Kampagnen, die durch API ausgelöst werden {#api-triggered-campaigns}
-      + [Arbeiten mit Kampagnen, die durch API ausgelöst werden](using/campaigns/api-triggered-campaigns.md)
+      + [Prüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
+   + Durch API ausgelöste Kampagnen {#api-triggered-campaigns}
+      + [Arbeiten mit durch API ausgelösten Kampagnen](using/campaigns/api-triggered-campaigns.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/api-triggered-campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/api-triggered-campaign-action.md)
-      + [Bearbeiten des Inhalts einer Kampagne](using/campaigns/api-triggered-campaign-content.md)
+      + [Bearbeiten des Kampagneninhalts](using/campaigns/api-triggered-campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/api-triggered-campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/api-triggered-campaign-schedule.md)
-      + [Überprüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [Prüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Erste Schritte mit koordinierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -209,7 +209,7 @@ ht-degree: 96%
          + [Aufnehmen von Daten](using/orchestrated/ingest-data.md)
       + [Zugreifen auf und Verwalten von koordinierten Kampagnen](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Erstellen einer Zielgruppendimension](using/orchestrated/target-dimension.md)
-      + [Leitlinien und Einschränkungen](using/orchestrated/guardrails.md)
+      + [Schutzmechanismen und Einschränkungen](using/orchestrated/guardrails.md)
       + Starten der ersten orchestrierten Kampagne{#launch}
          + [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](using/orchestrated/gs-campaign-creation.md)
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
@@ -278,7 +278,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
             + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
             + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
-            + [Textversion generieren](using/email/text-version-email.md)
+            + [Erstellen der Textversion](using/email/text-version-email.md)
             + [Hinzufügen von Metadaten](using/email/email-metadata.md)
             + [Hinzufügen von benutzerdefiniertem CSS](using/email/custom-css.md)
          + Bearbeiten des Stils {#edit-style}
@@ -286,7 +286,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
             + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
             + [Anpassen der vertikalen Ausrichtung und des Paddings](using/email/alignment-and-padding.md)
             + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
-            + [Definieren von Inhalten für den Dunkelmodus](using/email/dark-mode.md)
+            + [Definieren von Inhalten für den dunklen Modus](using/email/dark-mode.md)
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
       + Konfigurieren des E-Mail-Kanals {#configure-email}
          + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
@@ -388,7 +388,7 @@ Festlegen von Nachrichten und Begrenzungsregeln für Journeys {#capping-rules}
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/aep-data-perso.md)
       + Liste mit Hilfsfunktionen {#functions}
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
-         + [Externer Helper zur Datensuche](using/personalization/external-data-lookup.md)
+         + [Helper zur Suche externer Daten](using/personalization/external-data-lookup.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
          + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)

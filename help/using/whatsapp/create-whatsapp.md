@@ -11,7 +11,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -146,7 +146,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau des Inhalts Ihrer WhatsApp-Nachricht, der gekürzten URLs und der personalisierten Inhalte anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
-Nachdem Sie Ihre Tests und den Inhalt validiert haben, können Sie [Ihre WhatsApp-Nachricht senden](send-whatsapp.md) an Ihre Zielgruppe senden und deren Leistung durch [Reporting](../reports/campaign-global-report-cja.md) überwachen.
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie [Ihre WhatsApp-Nachricht](send-whatsapp.md) an Ihre Zielgruppe senden und die Leistung mit [Reporting](../reports/campaign-global-report-cja.md) überwachen.
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -195,6 +195,6 @@ Das folgende Video zeigt, wie man eine mehrstufige WhatsApp-Journey mit Adobe Jo
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470291/?learn=on&captions=ger")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 ![](assets/custom1.png)
 
-Erfahren Sie (auf dieser speziellen Seite), wie [ eine benutzerdefinierte Aktion ](../action/troubleshoot-custom-action.md).
+Erfahren Sie [auf dieser speziellen Seite](../action/troubleshoot-custom-action.md) wie Sie Fehler bei einer benutzerdefinierten Aktion beheben.
 
 ## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430275?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
