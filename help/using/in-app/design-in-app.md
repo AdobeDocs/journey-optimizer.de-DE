@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -239,6 +239,22 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 * **[!UICONTROL Nachricht mit abgerundeter Ecke]**: Ermöglicht es Ihnen, Ihrer In-App-Benachrichtigung eine runde Ecke hinzuzufügen, indem Sie den **[!UICONTROL Eckenradius]** ändern.
 
 +++
+
+## Registerkarte „Daten“ {#data-tab}
+
+Auf der Registerkarte **Daten** können Sie einen **[!UICONTROL Schlüssel]**&#x200B; und **[!UICONTROL Wert]** definieren, um benutzerdefinierte Variablen in die Payload aufzunehmen. Diese Schlüssel/Wert-Paare ermöglichen es Ihnen, je nach Ihrer spezifischen Konfiguration zusätzliche Daten zu übergeben.
+
+Weitere Informationen finden Sie in der [Entwicklerdokumentation](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. Wählen Sie auf der **[!UICONTROL Daten]** die Option **[!UICONTROL Schlüssel/Wert-Paar hinzufügen]** aus.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Füllen Sie die Felder **[!UICONTROL Schlüssel]**&#x200B; und **[!UICONTROL Wert]** aus.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Klicken Sie auf ![](assets/do-not-localize/Smock_Delete_18_N.svg) , um alle erforderlichen Paare zu löschen.
 
 **Verwandte Themen:**
 

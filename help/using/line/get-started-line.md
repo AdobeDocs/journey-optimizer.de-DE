@@ -8,20 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
-workflow-type: ht
-source-wordcount: '182'
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit LINE {#get-started-line}
 
-Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an die LINE-App Ihrer Kundschaft zu senden. Mithilfe des LINE-Editors können Sie Nachrichten erstellen, personalisieren und in einer Vorschau anzeigen.
-
->[!AVAILABILITY]
->
->Der LINE-Kanal wird für Adobe Journey Optimizer-Kundinnen und -Kunden auf Anfrage aktiviert. Wenden Sie sich an den Adobe-Support, um diese Funktion für Ihre Organisation aktivieren zu lassen.
+Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an die LINE-App Ihrer Kundschaft zu senden. Mithilfe des LINE-Editors können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
 LINE-Nachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden:
 

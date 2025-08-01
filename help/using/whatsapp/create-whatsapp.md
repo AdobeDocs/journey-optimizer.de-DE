@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 96%
+source-wordcount: '842'
+ht-degree: 85%
 
 ---
 
 
 # Erstellen einer WhatsApp-Nachricht {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Inhaltsverzeichnis**
-
-* [Erste Schritte mit WhatsApp-Nachrichten](get-started-whatsapp.md)
-* [Erste Schritte bei der WhatsApp-Konfiguration](whatsapp-configuration.md)
-* **[Erstellen einer WhatsApp-Nachricht](create-whatsapp.md)**
-* [Überprüfen und Senden Ihrer WhatsApp-Nachrichten](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie ansprechende Nachrichten in WhatsApp entwerfen und versenden. Fügen Sie einfach eine WhatsApp-Aktion zu Ihrer Journey oder Ihrer Kampagne hinzu und erstellen Sie Ihren Nachrichteninhalt wie unten beschrieben. Mit Adobe Journey Optimizer können Sie Ihre WhatsApp-Nachrichten zudem vor dem Versand testen, um ein perfektes Rendering, eine genaue Personalisierung und ordnungsgemäße Konfiguration aller Einstellungen sicherzustellen.
 
@@ -55,7 +42,8 @@ Die folgende CTA-Option ist für Ihre WhatsApp-Nachrichten verfügbar:
 | CTA | Beschreibung |
 |-|-|
 | Besuchen einer Website | Es ist nur eine Schaltfläche zulässig, einschließlich Variablenparametern. |
-
+| WhatsApp-Aufruf | Stellt eine Schaltfläche bereit, mit der ein WhatsApp-Chat mit der angegebenen Telefonnummer direkt in der Nachricht geöffnet wird. |
+| Telefonnummer des Anrufs | Stellt eine Schaltfläche bereit, mit der ein Telefonanruf an die angegebene Nummer gestartet wird, wenn der Benutzer darauf tippt. |
 
 +++
 
@@ -146,11 +134,15 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
    ![](assets/whatsapp-design-2.png)
 
+1. Fügen Sie im Feld **[!UICONTROL Bild]**-URLs Medien-URLs hinzu, um alle Platzhalter in Ihrer Vorlage zu ersetzen. Die Vorlagenmedien von Meta sind nur Platzhalter. Um Bilder, Audio oder Video korrekt anzuzeigen, müssen Sie externe URLs aus Adobe Experience Manager oder anderen Quellen verwenden.
+
+   ![](assets/whatsapp-design-3.png)
+
 1. Verwenden Sie den Personalisierungseditor, um Ihrer Vorlage eine Personalisierung hinzuzufügen. Sie können ein beliebiges Attribut verwenden, wie Profilname oder Stadt.
 
    Auf der folgenden Seite erfahren Sie mehr über das Thema [Personalisierung](../personalization/personalize.md).
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau des Inhalts Ihrer WhatsApp-Nachricht, der gekürzten URLs und der personalisierten Inhalte anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## Anleitungsvideo {#video}
+
+Das folgende Video zeigt, wie man eine mehrstufige WhatsApp-Journey mit Adobe Journey Optimizer erstellt.
+
++++ Siehe Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++

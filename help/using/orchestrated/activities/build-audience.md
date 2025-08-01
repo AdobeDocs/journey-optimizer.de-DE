@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
-1. Definieren Sie mithilfe des Abfrage-Modelers Ihre Abfrage. [Weitere Informationen zum Abfrage-Modeler finden Sie in diesem Abschnitt](../orchestrated-rule-builder.md)
+1. Verwenden Sie den Regel-Builder, um Ihre Abfrage zu definieren. [ Weitere Informationen zum Regel-Builder finden Sie in diesem Abschnitt ](../orchestrated-rule-builder.md)
 
 1. Geben Sie an, ob eine ausgehende Transition erzeugt werden soll, wenn die Zielgruppe leer ist.
 
