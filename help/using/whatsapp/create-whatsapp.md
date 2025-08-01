@@ -195,6 +195,6 @@ Das folgende Video zeigt, wie man eine mehrstufige WhatsApp-Journey mit Adobe Jo
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470291/?learn=on&captions=ger")
 
 +++
