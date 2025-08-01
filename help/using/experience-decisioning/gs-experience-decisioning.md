@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 93%
+source-wordcount: '521'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](
 
 >[!IMPORTANT]
 >
->Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
+>Entscheidungsrichtlinien sind nur für die Verwendung in Code-basierten Erlebnis- und E-Mail-Kampagnen verfügbar.
 
 ➡️ In [diesem Abschnitt](experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Entscheidungen erstellt und in Inhaltsexperimenten mit dem Code-basierten Erlebniskanal verwendet werden können.
 
@@ -56,7 +56,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
