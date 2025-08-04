@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 55%
 
 ---
@@ -67,7 +67,7 @@ Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Ihren Nachr
 * **Typ Tracking und Links** - Zum Nachverfolgen von Links, die von Decisioning generiert wurden, definieren Sie sie im Schema als „Decisioning Assets&quot;. Attributbasierte Links sind nicht verfolgbar.
 * **Verschachtelung von Entscheidungsrichtlinien in E-Mails** - Sie können nicht mehrere Entscheidungsrichtlinien in einer übergeordneten E-Mail-Komponente verschachteln, die bereits über eine verknüpfte Entscheidungsrichtlinie verfügt.
 * **Duplizierte Journey oder Kampagnen mit Decisioning** - Wenn Sie eine Journey oder Kampagne duplizieren, die eine Entscheidungsrichtlinie enthält, verweist die duplizierte Version auf die ursprüngliche E-Mail oder das Code-basierte Erlebnis, was zu Fehlern führt. Die Entscheidungsrichtlinie muss nach der Duplizierung immer neu konfiguriert werden.
-* **Einverständnisrichtlinien** - Es kann bis zu 24 Stunden dauern, bis Aktualisierungen der Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
+* **Einverständnisrichtlinien** - Aktualisierungen von Einverständnisrichtlinien dauern bis zu 48 Stunden, bis sie wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
 
   Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerung vorüber ist.
 
@@ -118,7 +118,7 @@ Um den Empfängern und Besuchern Ihrer E-Mails auf Ihrer Website oder in Ihrer M
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++E-Mail-Designer **[!UICONTROL Decisioning]** Menü
 
@@ -128,7 +128,7 @@ Um den Empfängern und Besuchern Ihrer E-Mails auf Ihrer Website oder in Ihrer M
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Geben Sie einen Namen an und wählen Sie einen Katalog aus (derzeit beschränkt auf den Standardkatalog **[!UICONTROL Angebote]**).
 
@@ -236,7 +236,7 @@ Angebot 5 - 50
 
      Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1, Angebot 6.
 
-   +++
++++
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**
 
@@ -291,13 +291,13 @@ Nach der Erstellung können die Entscheidungsrichtlinie und die mit den zurückg
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Fügen Sie den Entscheidungsrichtlinien-Code in das Code-basierte Erlebnis ein.
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken`wie folgt für den Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klicken Sie auf den gewünschten Ordner, um ihn zu erweitern. Platzieren Sie den Cursor an der gewünschten Position und klicken Sie auf das Symbol „+“ neben dem Attribut, das Sie hinzufügen möchten. Sie können beliebig viele Attribute zum Code hinzufügen.
 
