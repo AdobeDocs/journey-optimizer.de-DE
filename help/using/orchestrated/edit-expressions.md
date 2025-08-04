@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
 |---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/><b>[Bearbeiten von Ausdrücken](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
+| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Aufnehmen von Daten](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/><b>[Bearbeiten von Ausdrücken](edit-expressions.md)</b><br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
+Der Inhalt dieser Seite ist nicht endgültig und kann sich ändern.
 
 >[!ENDSHADEBOX]
 
@@ -79,7 +79,7 @@ Aggregatfunktionen führen Berechnungen für eine Reihe von Werten durch.
 <td>Avg(&lt;Wert&gt;)</td>
 </tr>
 <tr>
-<td><strong>Anzahl</strong></td>
+<td><strong>Count</strong></td>
 <td>Zählt die Werte ungleich null einer Spalte</td>
 <td>Count(&lt;Wert&gt;)</td>
 </tr>
@@ -114,7 +114,7 @@ Aggregatfunktionen führen Berechnungen für eine Reihe von Werten durch.
 <td>StringAgg(&lt;Wert&gt;, &lt;String&gt;)</td>
 </tr>
 <tr>
-<td><strong>Summe</strong></td>
+<td><strong>Sum</strong></td>
 <td>Gibt die Summe der Werte einer Spalte vom Typ Zahl, String oder Datum aus</td>
 <td>Sum(&lt;Wert&gt;)</td>
 </tr>
@@ -165,7 +165,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <tr>
 <td><strong>ConvertNTZ</strong></td>
 <td>Konvertiert NTZ-Zeitstempel (Zeitstempel ohne Zeitzone) in TZ (Zeitstempel mit Zeitzone) unter Anwendung der definierten Sitzungszeitzone</td>
-<td>ConvertNTZ(&lt;Datum+Zeit&gt;)</td>
+<td>ConvertNTZ(&lt;Datum + Uhrzeit&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
@@ -178,7 +178,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <td>DateOnly(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Tag</strong></td>
+<td><strong>Day</strong></td>
 <td>Gibt die Zahl zurück, die dem Tag des Datums entspricht</td>
 <td>Day(&lt;Datum&gt;)</td>
 </tr>
@@ -213,7 +213,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <td>GetDate()</td>
 </tr>
 <tr>
-<td><strong>Stunde</strong></td>
+<td><strong>Hour</strong></td>
 <td>Gibt die Stunde der im Datum angegebenen Uhrzeit zurück</td>
 <td>Hour(&lt;Datum&gt;)</td>
 </tr>
@@ -233,7 +233,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <td>MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Monat</strong></td>
+<td><strong>Month</strong></td>
 <td>Gibt die Zahl zurück, die dem Monat des Datums entspricht</td>
 <td>Month(&lt;Datum&gt;)</td>
 </tr>
@@ -315,7 +315,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <tr>
 <td><strong>ToTimeZone</strong></td>
 <td>Konvertiert Datum und Uhrzeit in eine Zeitzone</td>
-<td>ToTimeZone(&lt;Datum&gt;, &lt;time zone&gt;)</td>
+<td>ToTimeZone(&lt;Datum&gt;, &lt;Zeitzone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
@@ -325,7 +325,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <tr>
 <td><strong>TruncDateTZ</strong></td>
 <td>Rundet eine Uhrzeit und ein Datum auf eine Genauigkeit von Sekunden</td>
-<td>TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;, &lt;time zone&gt;)</td>
+<td>TruncDateTZ(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;, &lt;Zeitzone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
@@ -353,7 +353,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <td>WeekDay(&lt;Datum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Jahr</strong></td>
+<td><strong>Year</strong></td>
 <td>Gibt die Zahl zurück, die dem Jahr des Datums entspricht</td>
 <td>Year(&lt;Datum&gt;)</td>
 </tr>
@@ -622,12 +622,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Gibt die Position von Zeichenfolge 2 in Zeichenfolge 1 zurück.<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Gibt die Größe der Zeichenfolge in Bytes zurück<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> dataLength(&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -652,7 +652,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -665,7 +665,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Length(&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Zeile</strong><br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
    <td> Extrahiert Zeile n aus dem String<br /> </td> 
    <td> Line(&lt;String&gt;,&lt;Zahl&gt;)<br /></td> 
   </tr>
@@ -677,7 +677,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
-   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -774,7 +774,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Ruft die als ersten Parameter eingegebene SQL-Funktion über die als zweiten Parameter eingegebenen Felder „Partition“ oder „Anordnen nach“ aus<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Wert&gt;, &lt;Wert&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
