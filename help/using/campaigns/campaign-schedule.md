@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Planen der Aktionskampagne
-description: Informationen zum Planen der Aktionskampagne.
+description: Erfahren Sie, wie Sie die Aktionskampagne planen.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 
-Standardmäßig starten Aktionskampagnen, wenn sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
+Standardmäßig starten Aktionskampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben.
 
 Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer Kampagne gestoppt werden soll. Außerhalb der angegebenen Daten wird die Kampagne nicht ausgeführt.
 

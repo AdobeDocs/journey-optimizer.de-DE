@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform importieren.
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 36%
+source-wordcount: '656'
+ht-degree: 23%
 
 ---
 
+
 # Aufnehmen von Daten {#ingest-data}
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-</br>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
-
->[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -58,33 +36,53 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
   <tbody>
     <tr>
       <td rowspan="3">Cloud-Speicherplatz</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Dateibasierte Uploads</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaler Datei-Upload<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaler Datei-Upload<a></td>
     </tr>
 
 </tbody>
 </table>
+
+## Richtlinien für die Datenhygiene von relationalen Schemata {#cdc}
+
+Bei Datensätzen, die mit **[!UICONTROL Datenerfassung ändern]** aktiviert sind, werden alle Datenänderungen, einschließlich Löschungen, automatisch vom Quellsystem in Adobe Experience Platform gespiegelt.
+
+Da für Adobe Journey Optimizer-Kampagnen alle integrierten Datensätze mit der **[!UICONTROL Datenerfassung für Änderungen]** aktiviert werden müssen, ist der Kunde dafür verantwortlich, Löschungen an der Quelle zu verwalten. Jeder aus dem Quellsystem gelöschte Datensatz wird automatisch aus dem entsprechenden Datensatz in Adobe Experience Platform entfernt.
+
+Um Datensätze über die dateibasierte Aufnahme zu löschen, sollte die Datendatei des Kunden den Datensatz mit einem `D` Wert im Feld `Change Request Type` markieren. Dies bedeutet, dass der Datensatz in Adobe Experience Platform gelöscht werden soll, was das Quellsystem widerspiegelt.
+
+Wenn der Kunde nur Datensätze aus Adobe Experience Platform löschen möchte, ohne die ursprünglichen Quelldaten zu beeinflussen, sind die folgenden Optionen verfügbar:
+
+* **Proxy- oder bereinigte Tabelle für die Replikation der Änderungsdatenerfassung**
+
+  Der Kunde kann einen Proxy oder eine bereinigte Quelltabelle erstellen, um zu steuern, welche Datensätze in Adobe Experience Platform repliziert werden. Löschungen können dann selektiv aus dieser Zwischentabelle verwaltet werden.
+
+* **Löschung über Data Distiller**
+
+  Sofern lizenziert, kann **Data Distiller** verwendet werden, um Löschvorgänge direkt in Adobe Experience Platform zu unterstützen, unabhängig vom Quellsystem.
+
+  [Weitere Informationen zu Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview)
 
 ## Datenfluss konfigurieren
 
@@ -105,6 +103,8 @@ Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte D
    ![](assets/S3_config_1.png)
 
 1. Aktivieren Sie auf der **[!UICONTROL Datensatzdetails]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die relationalen Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor enthalten.
+
+[Weitere Informationen zu Richtlinien für relationale Schemata und Datenhygiene](#cdc)
 
    >[!IMPORTANT]
    >
@@ -133,4 +133,5 @@ Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte D
 1. Wählen Sie im Menü **[!UICONTROL Verbindungen]** die Option **[!UICONTROL Quellen]** aus und greifen Sie auf die Registerkarte **[!UICONTROL Datenflüsse]** zu, um die Flussausführung zu verfolgen, aufgenommene Einträge zu überprüfen und Fehler zu beheben.
 
    ![](assets/S3_config_5.png)
+
 

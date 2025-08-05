@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 74%
 
 ---
 
@@ -72,48 +72,75 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
   Kampagnen, die durch API ausgelöst werden, ermöglichen den Versand von Marketing-Kommunikation an eine Zielgruppe zum richtigen Zeitpunkt oder den Versand von Transaktions-/Betriebsnachrichten an einen Kontakt, z. B. zum Zurücksetzen des Passworts. Dabei kann eine Personalisierung erforderlich sein, bei der nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
 
-<!--* **Orchestrated campaigns**
+* **Orchestrierte Kampagnen**
 
-    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+  Die Kampagnenorchestrierung in Adobe Journey Optimizer ermöglicht anspruchsvolle, markeninitiierte Marketing-Kampagnen kanalübergreifend und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu steigern.
 
-    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+  Obwohl Cross-Channel-Marketing unerlässlich ist, machen orchestrierte Kampagnen es nahtlos. Mit einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis zum Nachrichtenversand, über mehrere Kanäle entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
-## Bevor Sie beginnen {#campaign-prerequisites}
+## Voraussetzungen {#prerequisites}
 
-Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in [!DNL Journey Optimizer] beginnen:
+Bevor Sie Ihre Kampagne erstellen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen gelesen haben.
 
-1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung. Dazu gehören Kampagnen-Admins, genehmigende Personen für Kampagnen, Kampagnen-Managerin bzw. Kampagnen-Manager und/oder Kampagnen-Betrachtende. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden.
+### Berechtigungen
 
-   +++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
+Kampagnen stehen nur Benutzenden mit den entsprechenden unten aufgeführten Berechtigungen zur Verfügung. [Erfahren Sie mehr über die integrierten Journey Optimizer-Rollen](../administration/ootb-product-profiles.md)
 
-   1. Um einer Person eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der nativen kampagnenbezogenen **[!UICONTROL Rollen]** aus: Kampagnen-Admin, Kampagnen-Genehmigende, Kampagnen-Manager oder Kampagnen-Betrachtende.
+>[!BEGINTABS]
 
-   1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
+>[!TAB Aktionskampagnen]
 
-   1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+Campaign-Administrator
+Genehmigende Person für Kampagne
+Kampagnen-Manager
+Kampagnen-Betrachter
 
-      Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+>[!TAB Kampagnen, die durch API ausgelöst werden]
 
-   Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
+Campaign-Administrator
+Genehmigende Person für Kampagne
+Kampagnen-Manager
+Kampagnen-Betrachter
+
+>[!TAB Orchestrierte Kampagnen]
+
+Administrator einer orchestrierten Kampagne
+Genehmigende Person für orchestrierte Kampagne
+Orchestrierter Kampagnen-Manager
+Orchestrierter Kampagnen-Viewer
+
+>[!ENDTABS]
+
+Wenn Sie nicht auf die Campaign-Funktionen zugreifen können, wenden Sie sich an Ihren Administrator, um die erforderlichen Berechtigungen anzufordern.
+
++++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
+
+1. Um einem Benutzer im [!DNL Permissions] Produkt eine Rolle zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der integrierten kampagnenbezogenen **[!UICONTROL Rollen]** aus.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
+
+1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+   Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+
+Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
 +++
 
-1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
+### Zielgruppe
 
-1. **Sie benötigen eine Kanalkonfiguration**. Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
+Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
+
+### Kanalkonfiguration
+
+Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
 
 ## Tauchen wir tiefer in die Materie ein
 
 Nachdem Sie sich mit Kampagnen in [!DNL Journey Optimizer] vertraut gemacht haben, ist jetzt der richtige Zeitpunkt, tiefer in diese Dokumentationsabschnitte einzusteigen und Ihre erste Kampagne zu erstellen.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="Aktionskampagnen" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Aktionskampagnen</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Kampagnen, die durch API ausgelöst werden</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="Aktionskampagnen" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Aktionskampagnen</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">Kampagnen, die durch API ausgelöst werden</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrierte Kampagnen</a></td>
 </tr></table>
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
-</tr></table>-->

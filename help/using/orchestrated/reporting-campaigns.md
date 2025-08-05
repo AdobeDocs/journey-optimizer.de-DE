@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Berichterstellung für orchestrierte Kampagnen mit Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer auf Berichte zu orchestrierten Kampagnen zugreifen können
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 58%
+source-wordcount: '182'
+ht-degree: 64%
 
 ---
 
+
 # Berichte über orchestrierte Kampagnen {#report-campaigns}
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/><b>[Reporting](reporting-campaigns.md)<b> | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
-
->[!ENDSHADEBOX]
 
 Orchestrierte Kampagnen bieten Ihnen durch ihre zuverlässigen Reporting-Funktionen verwertbare Erkenntnisse. Diese Erkenntnisse helfen Ihnen, das Zielgruppenverhalten besser zu verstehen, die Leistung der einzelnen Schritte in Ihrer Customer Journey zu messen und datengestützte Entscheidungen zur Optimierung zukünftiger Kampagnen zu treffen. Mit detaillierten Metriken und Visualisierungen können Sie die Interaktion verfolgen und Ihre Targeting-Strategien so anpassen, dass sie maximale Wirkung erzielen.
 

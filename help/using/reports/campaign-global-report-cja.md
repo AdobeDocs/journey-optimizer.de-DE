@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,9 @@ Die KPIs variieren je nach den Kanälen, die in Ihrer Kampagne verwendeten werde
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 +++
+
+>[!AVAILABILITY]
+>Orchestrierte Kampagnen unterstützen nur die Kanäle SMS, E-Mail und Push. Andere Kanäle (In-App, Web, Briefpost usw.) sind in orchestrierten Kampagnen nicht verfügbar und werden nicht in Berichten angezeigt.
 
 ### Kampagnen-Überblick {#delivery-global}
 
@@ -90,11 +93,11 @@ Der Graph **[!UICONTROL Ergebnisse des Kampagnentrichters]** zeigt eine detailli
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht.
 +++
 
-### Bezeichnungen für verfolgten Link {#campaign-track}
+### Labels für verfolgten Link {#campaign-track}
 
 ![](assets/cja-campaign-tracked-link.png)
 
-Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet wichtige Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit den in Ihren Nachrichten enthaltenen URLs und liefert wertvolle Informationen darüber, welche Links die meisten Interaktionen hervorrufen.
+Die Tabelle **[!UICONTROL Labels für verfolgten Link]** bietet wichtige Erkenntnisse über die Interaktion Ihrer Besucherinnen und Besucher mit den in Ihren Nachrichten enthaltenen URLs und liefert wertvolle Informationen darüber, welche Links die meisten Interaktionen hervorrufen.
 
 +++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 

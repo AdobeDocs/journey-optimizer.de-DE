@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Starten und Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kampagnen starten und überwachen.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # Starten und Überwachen orchestrierter Kampagnen {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="Orchestrierte Kampagne veröffentlichen"
 >abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Fehler vor der Veröffentlichung gelöscht wurden."
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/><b>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
-
->[!ENDSHADEBOX]
 
 Sobald Sie Ihre orchestrierte Kampagne erstellt und die auszuführenden Aufgaben in der Arbeitsfläche entworfen haben, können Sie die Kampagne veröffentlichen und ihre Ausführung überwachen.
 
@@ -50,18 +29,13 @@ Mit [!DNL Journey Optimizer] können Sie orchestrierte Kampagnen vor der Live-Sc
 
 >[!IMPORTANT]
 >
->Alle Aktivitäten auf der Arbeitsfläche werden ausgeführt, mit Ausnahme von **[!UICONTROL Zielgruppe speichern]** Aktivitäten und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Zielgruppe.**
+>Alle Aktivitäten auf der Arbeitsfläche werden ausgeführt, mit Ausnahme von **[!UICONTROL Zielgruppe speichern]** Aktivitäten und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Ihre Zielgruppe.
 
-So testen Sie eine Kampagne:
-
-1. Öffnen Sie die orchestrierte Kampagne.
-2. Klicken Sie auf **[!UICONTROL Starten]**.
+Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]** aus.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende des Diagramms erreicht ist.
-
-Während des Tests können Sie die Ausführung der Kampagne über die Aktionsleiste auf der Arbeitsfläche steuern. Dort haben Sie folgende Möglichkeiten:
+Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende des Diagramms erreicht ist. Während des Tests können Sie die Ausführung der Kampagne über die Aktionsleiste auf der Arbeitsfläche steuern. Dort haben Sie folgende Möglichkeiten:
 
 * **Stoppen** Sie die Ausführung jederzeit.
 * **Starten** Sie die Ausführung erneut.
@@ -104,7 +78,7 @@ Die über Transitionen von einer Aktivität zu einer anderen übertragenen Daten
 1. Wählen Sie eine Transition aus.
 1. Klicken Sie im Eigenschaftenbereich auf **[!UICONTROL Vorschau für Schema anzeigen]**, um das Schema der Arbeitstabelle anzuzeigen. Wählen Sie **[!UICONTROL Vorschau der Ergebnisse]** aus, um die übertragenen Daten anzuzeigen.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### Indikatoren zur Aktivitätsausführung {#activities}
 
@@ -124,7 +98,9 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 >title="Logs und Aufgaben"
 >abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
 
-Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche oder im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
+Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Auf Protokolle und Aufgaben kann über die Schaltfläche **[!UICONTROL Protokolle]** zugegriffen werden, die in der Symbolleiste der Arbeitsfläche sowohl im Test- als auch im Live-Modus verfügbar ist.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 Der Bildschirm **[!UICONTROL Logs und Aufgaben]** enthält einen Verlauf der Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. 
 
@@ -136,3 +112,7 @@ Es stehen zwei Arten von Informationen zur Verfügung:
 * Auf der Registerkarte **[!UICONTROL Aufgaben]** wird die Ausführungssequenz der Aktivitäten Schritt für Schritt beschrieben.
 
 Auf beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
+
+## Nächste Schritte {#next}
+
+Nach dem Start des Diagramms für die koordinierte Kampagne können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Einblicke zu erhalten, z. B. das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte auf Ihrem Kunden-Journey zu messen. [Erfahren Sie mehr über die Berichterstellung für orchestrierte Kampagnen](../orchestrated/reporting-campaigns.md)

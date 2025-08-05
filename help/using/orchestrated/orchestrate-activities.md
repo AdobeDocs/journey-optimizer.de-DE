@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen von orchestrierten Kampagnen mit Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer koordinierte Kampagnen erstellen
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 55%
+source-wordcount: '882'
+ht-degree: 56%
 
 ---
 
+
 # Orchestrieren von Kampagnenaktivitäten {#orchestrate}
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/><b>[Orchestrieren von Aktivitäten](orchestrate-activities.md)</b><br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
-
->[!ENDSHADEBOX]
 
 Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md) können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die sie ausführen soll. Dazu wird eine visuelle Arbeitsfläche bereitgestellt, über die Sie ein orchestriertes Kampagnendiagramm erstellen können. Innerhalb dieses Diagramms können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequentiellen Reihenfolge verbinden.
 
@@ -84,7 +62,7 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflä
 
 ![Symbol „Pausieren“](assets/do-not-localize/activity-pause.svg) ![Symbol „Fortsetzen“](assets/do-not-localize/activity-resume.svg) Pausiert die Aktivität bzw. setzt sie fort. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
 
-Sie können jede Aktivität auf der Arbeitsfläche als Haltepunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und dann die Ausführung anhält. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie in diesem Abschnitt: [Visuelle Flussüberwachung](../orchestrated/start-monitor-campaigns.md#flow).
+Sie können jede Aktivität auf der Arbeitsfläche als Haltepunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und dann die Ausführung anhält. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie in diesem Abschnitt: [Visuelle Flussüberwachung](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![Symbol „Kopieren“](assets/do-not-localize/activity-copy.svg) Kopiert die Aktivität. [Weitere Informationen zum Kopieren und Einfügen von Aktivitäten](#copy)
 

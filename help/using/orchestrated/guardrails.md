@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Leitplanken und Einschränkungen für koordinierte Kampagnen
 description: Erfahren Sie mehr über Schutzmechanismen und Einschränkungen bei orchestrierten Kampagnen
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 10%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
-# Leitlinien und Einschränkungen {#guardrails}
 
-+++ Inhaltsverzeichnis
+# Schutzmechanismen und Einschränkungen {#guardrails}
 
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)<br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
+Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung orchestrierter Kampagnen.
 
-{style="table-layout:fixed"}
+## Einschränkungen beim Datenfluss
 
-+++
+### Datendesign und -speicherung
 
-## Einschränkungen von Datenfluss zu Datensatz
+* Der relationale Datenspeicher unterstützt **maximal 200 Tabellen** (Schemata).
 
-Jeder Datensatz in Adobe Experience Platform kann jeweils nur einem aktiven Datenfluss zugeordnet werden. Diese 1:1-Kardinalität wird von der Plattform streng durchgesetzt.
+* Bei orchestrierten Kampagnen darf die Gesamtgröße eines einzelnen Schemas (**100 GB) nicht**.
 
-Wenn Sie Datenquellen wechseln müssen (z. B. von Amazon S3 zu Salesforce):
+* Tägliche Aktualisierungen eines Schemas sollten **auf weniger als 20 %** Gesamtzahl der Einträge beschränkt sein, um Leistung und Stabilität zu gewährleisten.
 
-Sie müssen den vorhandenen Datenfluss löschen, der mit dem Datensatz verbunden ist.
+* Relationale Daten sind das primäre Modell, das für Anwendungsfälle der Aufnahme, Datenmodellierung und Segmentierung unterstützt wird.
 
-Erstellen Sie dann einen neuen Datenfluss, wobei die neue Quelle demselben Datensatz zugeordnet ist.
+* Zielgruppenschemata müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
 
-Dies stellt eine zuverlässige Datenaufnahme sicher und ist bei der Verwendung der Änderungsdatenerfassung (CDC), die für inkrementelle Aktualisierungen von einem definierten Primärschlüssel und Versionierungsattribut (z. B. lastModified) abhängt, von entscheidender Bedeutung.
-
-
-## Relationale Schemata/Einschränkungen bei der Datenaufnahme
-
-* Im relationalen Datenspeicher werden bis zu 200 relationale Schemata (Tabellen) unterstützt.
-
-* Die Gesamtgröße eines relationalen Schemas, das für die Kampagnenorchestrierung verwendet wird, sollte 100 GB nicht überschreiten.
-
-* Die Batch-Aufnahme für die Kampagnenorchestrierung sollte nicht öfter als einmal alle 15 Minuten erfolgen.
-
-* Tägliche Änderungen an einem relationalen Schema sollten unter 20 % der gesamten Datensatzanzahl bleiben.
-
-## Datenmodellierung
-
-* Der Versionsdeskriptor ist für alle Schemata obligatorisch, einschließlich Faktentabellen.
-
-* Für jede Tabelle ist ein Primärschlüssel erforderlich.
-
-* Der bei der Erstellung des Datensatzes zugewiesene Tabellenname wird in der Segmentierungs-Benutzeroberfläche und in den Personalisierungsfunktionen verwendet.
-
-  Dieser Name ist dauerhaft und kann nach der Erstellung nicht geändert werden.
-
-* Feldergruppen werden derzeit nicht unterstützt.
-
-## Datenaufnahme
+### Datenaufnahme
 
 * Profil + relationale Datenerfassung sind erforderlich.
 
-* Für die dateibasierte Aufnahme ist ein Feld vom Typ „Änderung“ erforderlich, während die Tabellenprotokollierung für die Cloud DB-Aufnahme aktiviert sein muss. Dies ist für die Change Data Capture (CDC) erforderlich.
+* Alle Aufnahmen müssen über **Change Data Capture)-** erfolgen:
 
-* Die Latenz von der Aufnahme bis zur Datenverfügbarkeit in Snowflake reicht von 15 Minuten bis zu 2 Stunden, je nach Datenvolumen, Gleichzeitigkeit und der Art der Vorgänge (Einfügungen sind schneller als Aktualisierungen).
+   * Für **dateibasiert** ist `change_type` Feld erforderlich.
 
-* Die Datenüberwachung in Snowflake ist in Entwicklung. Derzeit gibt es keine native Bestätigung für eine erfolgreiche Aufnahme.
+   * Für **Cloud-basiert** muss die Tabellenprotokollierung aktiviert sein.
 
-* Direkte Aktualisierungen an Snowflake oder dem Datensatz werden nicht unterstützt. Alle Änderungen müssen durch CDC-Quellen fließen.
+* **Direkte Aktualisierungen an Snowflake oder Datensätzen werden nicht unterstützt**. Das System ist schreibgeschützt. Alle Änderungen müssen über die Änderungsdatenerfassung angewendet werden.
 
-  Der Abfrage-Service ist schreibgeschützt.
+* **ETL-Prozesse werden nicht**. Die Daten müssen vor der Aufnahme vollständig in das erforderliche Format umgewandelt werden.
 
-* ETL wird nicht unterstützt - Kunden müssen Daten im erforderlichen Format bereitstellen.
+* **Teilaktualisierungen sind nicht zulässig** muss jede Zeile als vollständiger Datensatz angegeben werden.
 
-* Teilweise Aktualisierungen sind nicht zulässig. Jede Zeile muss als vollständiger Datensatz angegeben werden.
+* Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten)**.
 
-* Die Aufnahme beruht auf dem Abfrage-Service und dem Daten-Distiller.
+* Die Aufnahmelatenz, d. h. die Zeit von der Aufnahme bis zur Verfügbarkeit in Snowflake, **in der Regel zwischen 15 Minuten** 2 Stunden, abhängig von:
 
-## Segmentierung
+   * Datenvolumen
 
-* LOV (List of Values) und Auflistungen sind derzeit verfügbar.
+   * Systemparallelität
 
-* Gespeicherte Zielgruppen sind statische Listen, deren Inhalt die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten widerspiegelt.
+   * Art des Vorgangs, z. B. Einfügungen sind schneller als Aktualisierungen
 
-* Das Anhängen an eine gespeicherte Zielgruppe wird nicht unterstützt. Aktualisierungen müssen vollständig überschrieben werden.
+### Datenmodellierung
 
-* Zielgruppen dürfen nur aus Skalarattributen bestehen. Zuordnungen und Arrays werden nicht unterstützt.
+* Alle Schemata, einschließlich Faktentabellen, müssen **einen Versionsdeskriptor** enthalten, um eine ordnungsgemäße Versionskontrolle und Rückverfolgbarkeit zu gewährleisten.
 
-* Die Segmentierung unterstützt in erster Linie relationale Daten. Das Mischen mit Profildaten ist zwar zulässig, das Einbringen großer Profildatensätze kann jedoch die Leistung beeinträchtigen. So verhindern Sie dies:
+* Jede Tabelle muss über einen definierten **Primärschlüssel) verfügen** um die Datenintegrität und nachgelagerte Vorgänge zu unterstützen.
 
-* Es gibt Schutzmaßnahmen, z. B. die Begrenzung der Anzahl der im Batch oder in Streaming-Zielgruppen ausgewählten Profilattribute.
+* Die bei der Erstellung des Datensatzes zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
 
-* Gelesene Zielgruppen werden nicht zwischengespeichert - jede Kampagne führt Trigger einen vollständigen Lesevorgang aus.
+* **Feldergruppen werden im** Datenmodellierungs-Framework nicht unterstützt.
 
-  Für große oder komplexe Zielgruppen ist eine Optimierung erforderlich.
+## Einschränkungen bei Aktivitäten
+
+* In Zielgruppendefinitionen werden nur **Skalarattribute unterstützt** (**und Arrays sind nicht zulässig**.
+
+* **Segmentierungsaktivitäten basieren hauptsächlich auf relationalen Daten**. Es können zwar Profildaten enthalten sein, die Verwendung großer Profildatensätze kann jedoch die Leistung beeinträchtigen.
+
+* **Beschränkungen werden für die Anzahl der Profilattribute durchgesetzt** die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können, um die Systemeffizienz zu erhalten.
+
+* **Liste der Werte (LOVs** und **Auflistungen** werden vollständig unterstützt.
+
+* **Zielgruppen lesen wird nicht zwischengespeichert** Bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrunde liegenden Daten Trigger.
+
+* **Optimierung wird dringend empfohlen** wenn Sie mit Definitionen für große oder komplexe Zielgruppen arbeiten, um die Leistung sicherzustellen.
+
+* **Gespeicherte Zielgruppenaktivitäten sind statisch** sie spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
+
+* **Das Anhängen an eine Aktivität vom Typ Gespeicherte Zielgruppe wird nicht unterstützt**. Alle Änderungen erfordern eine vollständige Überschreibung der Zielgruppe.

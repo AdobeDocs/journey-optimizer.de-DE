@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Überprüfen und Aktivieren einer Aktionskampagne
-description: Informationen zum Überprüfen und Aktivieren von Aktionskampagnen finden Sie in  [!DNL Journey Optimizer].
+description: Erfahren Sie, wie Sie Aktionskampagnen in  [!DNL Journey Optimizer] überprüfen und aktivieren können.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: ht
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 
 # Überprüfen und Aktivieren der Aktionskampagne {#action-campaign-review}
 
-Sobald Ihre Kampagne konfiguriert ist, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
+Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihren Parameter und Inhalt überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 
 >[!IMPORTANT]
 >

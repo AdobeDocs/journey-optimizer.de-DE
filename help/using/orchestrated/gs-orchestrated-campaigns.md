@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit koordinierten Kampagnen
 description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '579'
+ht-degree: 14%
 
 ---
+
 
 # Erste Schritte mit koordinierten Kampagnen {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 10%
 >id="campaigns_overview_orchestrated"
 >title="CAMPAIGN_OVERVIEW_ORCHESTERED"
 >abstract="<b>Kampagnenorchestrierung</b><br/>Aufspaltung, Kombination, Anreicherung und Manipulation von relationalen Datensätzen, um Ihre Audience zu definieren<br/><br/> <b>Daten mit mehreren Entitäten nutzen</b><br/>Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
-
-+++ Inhaltsverzeichnis
-
-| Willkommen bei orchestrierten Kampagnen | Starten der ersten orchestrierten Kampagne | Abfragen der Datenbank | Aktivitäten für orchestrierte Kampagnen |
-|---|---|---|---|
-| <b>[Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)</b><br/><br/>Erstellen und Verwalten von relationalen Schemata und Datensätzen:</br> <ul><li>[Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)</li><li>[Manuelles Schema](manual-schema.md)</li><li>[Datei-Upload-Schema](file-upload-schema.md)</li><li>[Daten aufnehmen](ingest-data.md)</li></ul>[Zugriff und Verwaltung orchestrierter Kampagnen](access-manage-orchestrated-campaigns.md)<br/><br/>[Die wichtigsten Schritte zum Erstellen einer orchestrierten Kampagne](gs-campaign-creation.md) | [Erstellen und Planen der Kampagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrieren von Aktivitäten](orchestrate-activities.md)<br/><br/>[Starten und Überwachen der Kampagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Arbeiten mit dem Regel-Builder](orchestrated-rule-builder.md)<br/><br/>[Erstellen der ersten Abfrage](build-query.md)<br/><br/>[Bearbeiten von Ausdrücken](edit-expressions.md)<br/><br/>[Retargeting](retarget.md) | [Erste Schritte mit Aktivitäten](activities/about-activities.md)<br/><br/>Aktivitäten:<br/>[Und-Verknüpfung](activities/and-join.md) – [Zielgruppe erstellen](activities/build-audience.md) – [Dimensionsänderung](activities/change-dimension.md) – [Kanalaktivitäten](activities/channels.md) – [Kombinieren](activities/combine.md) – [Deduplizierung](activities/deduplication.md) – [Anreicherung](activities/enrichment.md) – [Verzweigung](activities/fork.md) – [Abstimmung](activities/reconciliation.md) – [Zielgruppe speichern](activities/save-audience.md) – [Aufspaltung](activities/split.md) – [Warten](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Der Inhalt dieser Seite ist nicht endgültig und kann geändert werden.
-
->[!ENDSHADEBOX]
 
 Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspruchsvolle, markeninitiierte Marketing-Kampagnen über alle Kanäle hinweg und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu steigern.
 
@@ -53,14 +31,14 @@ Die Kampagnenorchestrierung basiert auf vier zentralen Säulen:
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="On-Demand-Zielgruppen" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>On-Demand-Zielgruppen</b><br/> Führen Sie sofort Abfragen für mehrere Datensätze durch, um Zielgruppensegmente mithilfe einer beliebigen Kombination von Datentypen und Dimensionen zu erstellen.</td></tr>
+<td><img alt="On-Demand-Zielgruppen" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>On-Demand-Zielgruppen</b><br/> Führen Sie sofort Abfragen für mehrere Datensätze durch, um Zielgruppensegmente mithilfe einer beliebigen Kombination von Datentypen und Dimensionen zu erstellen.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentierung mehrerer Entitäten und Versand" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentierung und Versand mehrerer Entitäten</b><br/>Gehen Sie über personenbasierte Kampagnen hinaus - verwenden Sie Entitäten wie Produktkataloge, Speicherorte oder Service-Daten, um sie präzise anzusprechen.<br/><br/>
+<td><img alt="Segmentierung mehrerer Entitäten und Versand" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentierung und Versand mehrerer Entitäten</b><br/>Gehen Sie über personenbasierte Kampagnen hinaus - verwenden Sie Entitäten wie Produktkataloge, Speicherorte oder Service-Daten, um sie präzise anzusprechen.<br/><br/>
 Unterstützt den Versand auf mehreren Ebenen, bei dem pro Profil und zugehöriger sekundärer Entität eine Nachricht gesendet wird. Zu diesen sekundären Entitäten können Kontaktadressen, Buchungen, Abonnements, Verträge oder andere verknüpfte Daten gehören. Dies ermöglicht beispielsweise den Versand von Kampagnen an alle bekannten Adressen eines Profils oder für jede mit diesem Profil verknüpfte Buchung.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Sichtbarkeit und Präzision vor dem Versand" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Sichtbarkeit und Präzision vor dem Versand</b><br/> Erhalten Sie vor dem Start exakte Segmentierungszahlen und den vollständigen Kampagnenumfang, um Genauigkeit und Konfidenz sicherzustellen.</td></tr>
+<td><img alt="Sichtbarkeit und Präzision vor dem Versand" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Sichtbarkeit und Präzision vor dem Versand</b><br/> Erhalten Sie vor dem Start exakte Segmentierungszahlen und den vollständigen Kampagnenumfang, um Genauigkeit und Konfidenz sicherzustellen.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Mehrstufige Kampagnen-Workflows" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Mehrstufige Kampagnen-Workflows</b><br/> Entwerfen Sie mehrstufige Kampagnen, von täglichen Nachrichten bis hin zu komplexen Kampagnen wie saisonalen Werbeaktionen oder großen Produkteinführungen.</td></tr>
+<td><img alt="Mehrstufige Kampagnen-Workflows" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Mehrstufige Kampagnen-Workflows</b><br/> Entwerfen Sie mehrstufige Kampagnen, von täglichen Nachrichten bis hin zu komplexen Kampagnen wie saisonalen Werbeaktionen oder großen Produkteinführungen.</td></tr>
 </table>
 
 ## Orchestrierte Kampagnen und Journey
@@ -69,17 +47,25 @@ Obwohl die Visualisierung in „Orchestrierte Kampagnen“ mit der von Journey-K
 
 * **Journey** - 1 bis 1 Arbeitsfläche, auf der jedes Profil die verschiedenen Schritte in seinem eigenen Tempo durchläuft. Der Status jedes Kunden wird innerhalb seines Kontexts beibehalten, um Echtzeit-Aktionen für den Trigger zu ermöglichen.
 
-* **Orchestrierte Kampagnen** - Im Gegensatz zu Journeys verwenden orchestrierte Kampagnen eine Batch-Arbeitsfläche, die Segmente berechnet. Alle Profile werden gleichzeitig verarbeitet.
+* **Orchestrierte Kampagnen** - Im Gegensatz zu Journey verwenden orchestrierte Kampagnen eine Batch-Arbeitsfläche, die Segmente berechnet. Alle Profile werden gleichzeitig verarbeitet.
 
 Beide Arbeitsflächen sind für ihre jeweiligen Anwendungsfälle optimiert: Die Journey-Arbeitsfläche veröffentlicht Journey, die in der Regel länger leben, während die Campaign-Arbeitsfläche für iterative und inkrementelle Ausführungen einer Batch-Kampagne entwickelt wurde.
 
-## Voraussetzungen
+## Was verbirgt sich in einer orchestrierten Kampagne? {#gs-ms-campaign-inside}
 
-Bevor Sie mit orchestrierten Kampagnen arbeiten, müssen Sie unbedingt sicherstellen, dass Sie über die entsprechenden Berechtigungen verfügen. Der Zugriff auf orchestrierte Kampagnen ist auf Benutzer beschränkt, die einem relevanten **[!UICONTROL Produktprofil“ zugewiesen sind]** z. B. „Administrator für orchestrierte Kampagnen“, „Genehmigende Person für orchestrierte Kampagnen“, „Manager für orchestrierte Kampagnen“ oder „Betrachtende für orchestrierte Kampagnen“.
+Die Arbeitsfläche der orchestrierten Kampagne ist eine Darstellung dessen, was passieren soll. Sie beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
-Wenn Sie nicht auf die Funktionen von orchestrierten Kampagnen zugreifen können, wenden Sie sich an Ihren Administrator, um die erforderlichen Berechtigungen anzufordern.
+![Bild mit einer orchestrierten Kampagnen-Arbeitsfläche](assets/canvas-example.png)
 
-➡️ [Erfahren Sie mehr über Produktprofile im Zusammenhang mit orchestrierten Kampagnen](../administration/ootb-product-profiles.md)
+Jede orchestrierte Kampagne enthält:
+
+* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen verfügbaren Aktivitäten werden im Diagramm durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+
+  In einem orchestrierten Kampagnendiagramm kann eine bestimmte Aktivität mehrere Aufgaben hervorrufen, insbesondere wenn eine Schleife oder wiederkehrende Aktionen vorliegen.
+
+* **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
+
+* **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede koordinierte Kampagne verwendet mehrere Arbeitstabellen. Die in diesen Tabellen übermittelten Daten können während des gesamten Lebenszyklus der koordinierten Kampagne verwendet werden.
 
 ## Tauchen wir tiefer in die Materie ein
 
