@@ -254,7 +254,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Verfügbare Kanäle"
->abstract="E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail"
+>abstract="E-Mail, SMS, Push-Benachrichtigungen, Briefpost"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -276,7 +276,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
->title="Vom Transaktions-API ausgelöste Kampagnen"
+>title="Von der Transaktions-API ausgelöste Kampagnen"
 >abstract="Auslösen von Echtzeitnachrichten über API-Aufrufe"
 
 >[!CONTEXTUALHELP]
