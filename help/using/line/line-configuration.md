@@ -7,10 +7,10 @@ feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
-source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 78%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungs-Labels zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
 1. Wählen Sie den Kanal **LINE** aus.
 
@@ -52,3 +52,56 @@ ht-degree: 100%
 1. Senden Sie Ihre Änderungen ab.
 
 Sie können Ihre Konfiguration nun beim Erstellen Ihrer LINE-Nachricht auswählen.
+
+## Konfigurieren der LINE-Kanal-API-Einstellungen {#line-api}
+
+Diese API richtet Kanaleinstellungen ein, die die erforderlichen Autorisierungs- und Konfigurationsdetails für die Verbindung mit der LINE-Messaging-API speichern. Diese Einstellungen ermöglichen es Adobe Journey Optimizer, sich zu authentifizieren und Nachrichten über LINE mit den bereitgestellten Anmeldeinformationen zu senden.
+
+**Endpunkt**
+
+```
+POST https://platform.adobe.io/journey/imp/config/channel-settings
+```
+
+| Header-Name | Beschreibung |
+|-|-|
+| Autorisierung | Benutzer-Token Ihres technischen Kontos |
+| x-api-key | Client-ID aus Adobe Developer Console |
+| x-gw-ims-org-id | Ihre IMS-Organisations-ID |
+| x-sandbox-name | Sandbox-Name, z. B. prod |
+| Inhaltstyp | Muss application/json sein |
+
+
+**Anfragetext**
+
+```json
+{
+    "name": "your_defined_name",
+    "channelRegistryId": "line",
+    "channel": "line",
+    "channelSettings": {
+        "channelId": "your_line_channel_id",
+        "channelSecret": "your_line_channel_secret"
+    }
+}
+```
+
+**Antwort auf Kanaleinstellungen**
+
+```json
+{
+"id": "3603ed66-ae86-42b8-8a90-d4b4e54e7c3b",
+"name": "your_defined_name",
+"channelRegistryId": "line",
+"channel": "line",
+"channelSettings": {
+    "channelId": "your_line_channel_id",
+    "channelSecret": "your_line_channel_secret"
+    },
+    "channelPublicationId": "v1_line",
+    "createdAt": "2025-07-30T12:00:00.000Z",
+    "modifiedAt": "2025-07-30T12:00:00.000Z",
+    "isFromLatestVersion": true,
+    "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
+}
+```
