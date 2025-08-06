@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -178,9 +178,22 @@ Verwenden Sie auf jeder Seite kontextbezogene Hilfe-Schaltflächen, um mehr übe
 
 ![](assets/do-not-localize/Context-help.gif)
 
+
+## Warnhinweise im Produkt
+
+Sie können **E-Mail- und produktinterne Warnhinweise** für Journey Optimizer-Produktversionen abonnieren.
+
+Abonnieren:
+
+1. Zu **Adobe Experience Cloud-Voreinstellungen navigieren**
+1. Suchen **unter &quot;**&quot; nach **Journey Optimizer-Neuversionen**
+1. Aktivieren von In-App- und E-Mail-Benachrichtigungen
+
+![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
 ## KI-Assistent {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke für Ihre spezifische Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts am Bildschirm angezeigt.
 

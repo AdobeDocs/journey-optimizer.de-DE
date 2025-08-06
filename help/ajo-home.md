@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 99%
+source-wordcount: '394'
+ht-degree: 88%
 
 ---
 
@@ -22,15 +22,15 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!TAB Version Juli &#39;25]
 
-Die Version Juni ist jetzt live. Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
+Die Juli-Version ist jetzt live! Entdecken Sie neue Funktionen, Änderungen und Verbesserungen in den Versionshinweisen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Konflikte und Priorisierung]
+>[!TAB Kampagnenorchestrierung]
 
-Journey Optimizer bietet nun mehrere Tools zum Konflikt-Management und zur Priorisierung. Diese Tools sind für Ihre Kampagnen und für Journeys vom Typ „Zielgruppenqualifizierung“ und „Zielgruppe lesen“ sowie unitäre Journeys verfügbar.
+Journey Optimizer enthält jetzt **Kampagnenorchestrierung**, eine neue Funktion, die speziell für markeninitiierte Batch-Kampagnen entwickelt wurde. Diese Version führt eine Arbeitsfläche für die Kampagnenorchestrierung und eine verbesserte Datenmodellierung ein, die es Marketing-Experten ermöglichen, personalisierte Cross-Channel-Kampagnen zu planen, anzusprechen und bereitzustellen.
 
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Adobe Express]
 
@@ -43,7 +43,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM-Inhaltsfragment]
 
