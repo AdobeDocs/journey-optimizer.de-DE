@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 32%
+ht-degree: 36%
 
 ---
 
@@ -65,7 +65,7 @@ Eine brandneue visuelle Orchestrierungsschnittstelle, die speziell für Batch-Ka
 
 ### Relationale Schemata und Datensätze {#oc-relational}
 
-Adobe Experience Platform unterstützt jetzt relationale Entitäten (z. B. Produkte, Geschäfte, Buchungen, Verträge), die mit personenbasierten Profilen verknüpft sind. Dies ermöglicht die Segmentierung und Personalisierung über mehrdimensionale Datenstrukturen hinweg und ermöglicht Anwendungsfälle wie:
+Adobe Journey Optimizer unterstützt jetzt relationale Entitäten (z. B. Produkte, Geschäfte, Buchungen, Verträge), die mit personenbasierten Profilen verknüpft sind. Dies ermöglicht die Segmentierung und Personalisierung über mehrdimensionale Datenstrukturen hinweg und ermöglicht Anwendungsfälle wie:
 
 * Eine Nachricht pro Buchung, Abonnement oder Vertrag
 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie in der [Dokumentation zur Kampagnenorchestrieru
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -138,7 +138,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Mit der Bewertung zur Markenausrichtung erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So bleiben Sie mit jeder gesendeten Nachricht konsequent auf dem Laufenden.</p>
+<p>Sie können nun Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Über den Markenausrichtungswert erhalten Sie Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So können Sie sicherstellen, dass jede gesendete Nachricht markenkonform ist.</p>
 <p>Diese Funktion wurde bereits in Beta veröffentlicht und ist jetzt für alle Umgebungen verfügbar (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/brands.md">ausführlichen Dokumentation</a>.</p>
