@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -69,3 +69,13 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 1. Bearbeiten Sie Ihre Inhalte auf der Grundlage der Empfehlungen, um die Markenausrichtung zu verbessern.
 
 1. Werten Sie den Inhalt manuell neu aus, nachdem Sie Änderungen vorgenommen haben, um Ihren Ausrichtungswert zu aktualisieren.
+
+## Anleitungsvideo {#video}
+
+Das folgende Video zeigt, wie Sie Ihre eigenen Marken erstellen und anpassen können, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren.
+
++++ Siehe Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
