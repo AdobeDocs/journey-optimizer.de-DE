@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 57%
 
 ---
 
@@ -31,19 +31,25 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
    >
    >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
+   Wenn Sie einen eingehenden Kanal auswählen (Code-basiertes Erlebnis, In-App-Nachricht, Inhaltskarte oder Web-Aktion), können Sie weitere eingehende Aktionen hinzufügen - bis zu insgesamt 10 Aktionen in einer einzelnen Kampagne. [Weitere Informationen](#multi-action)
+
 1. **Auswählen einer Kanalkonfiguration**
 
    Eine Konfiguration wird durch [Systemadmins](../start/path/administrator.md) definiert. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Informationen zum Einrichten von Kanalkonfigurationen](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
-1. **Erstellen eines Inhaltsexperiments**
+1. **Optimierung**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Inhaltsexperiment]** zum Definieren mehrerer Versandabwandlungen, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Klicken Sie auf **[!UICONTROL Experiment erstellen]** und führen Sie dann die in diesem Abschnitt beschriebenen Schritte aus: [Erstellen eines Inhaltsexperiments](../content-management/content-experiment.md).
+   Verwenden Sie den Abschnitt **[!UICONTROL Nachrichtenoptimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in diesem Abschnitt beschrieben: [Optimierung in Kampagnen](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **Hinzufügen mehrsprachiger Inhalte**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um in Ihrer Kampagne Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zur Einrichtung und Verwendung mehrsprachiger Funktionen finden Sie in diesem Abschnitt: [Erste Schritte mit mehrsprachigen Inhalten](../content-management/multilingual-gs.md)
+   Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um in Ihrer Kampagne Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in diesem Abschnitt: [Erste Schritte mit mehrsprachigen Inhalten](../content-management/multilingual-gs.md).
 
 Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
@@ -82,6 +88,37 @@ Für Inhaltskartenkampagnen können Sie zusätzliche Versandregeln aktivieren, u
 Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigger bearbeiten]** die Ereignisse und Kriterien auswählen, die die Nachricht auslösen sollen. [Informationen zum Erstellen einer In-App-Nachricht](../in-app/create-in-app.md)
 
 +++
+
+## Mehrere eingehende Aktionen hinzufügen {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action"
+>title="Mehrere eingehende Aktionen hinzufügen"
+>abstract="Innerhalb einer Kampagne können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
+
+Um die Orchestrierung einer Kampagne zu vereinfachen, können Sie in einer Kampagne mehrere eingehende Aktionen definieren, wobei jede Aktion einen bestimmten Inhalt enthält.
+
+>[!NOTE]
+>
+>Diese Kapazität steht nur für eingehende Kanäle zur Verfügung. Derzeit werden ausgehende Kanäle wie E-Mail nicht unterstützt.
+
+Mit dieser Funktion können Sie verschiedene Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne mehrere Kampagnen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihrer Kampagne und ermöglicht ein reibungsloseres Reporting, indem alle Daten in einer einzigen Kampagne zusammengefasst werden.
+
+Sie können beispielsweise ein Code-basiertes Erlebnis an mehrere Endpunkte mit geringfügig unterschiedlichen Inhalten senden. Erstellen Sie dazu mehrere Code-basierte Aktionen innerhalb derselben Kampagne mit jeweils einer anderen Endpunktkonfiguration.
+
+Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einer Kampagne zu definieren.
+
+1. Wählen Sie eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-**, **Inhaltskarte** oder **Web**) im Abschnitt **[!UICONTROL Aktionen]** aus.
+
+1. Wählen Sie die Kanalkonfiguration aus und definieren Sie einen bestimmten Inhalt für diese Aktion.
+
+1. Verwenden Sie die **[!UICONTROL Aktion hinzufügen]**, um eine weitere eingehende Aktion aus der Dropdown-Liste auszuwählen.
+
+   ![](assets/create-campaign-multi-action.png){width="80%"}
+
+1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu 10 eingehende Aktionen zu einer Kampagne hinzufügen.
+
+Sobald die Kampagne [live](review-activate-campaign.md) ist, werden alle Aktionen gleichzeitig aktiviert.
 
 ## Nächste Schritte {#next}
 

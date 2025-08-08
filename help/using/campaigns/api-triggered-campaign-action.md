@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -38,9 +38,13 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    ![](assets/create-campaign-action.png)
 
-1. **Erstellen eines Inhaltsexperiments**
+1. **Optimierung**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Inhaltsexperiment]** zum Definieren mehrerer Versandabwandlungen, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Klicken Sie auf **[!UICONTROL Experiment erstellen]** und führen Sie dann die in diesem Abschnitt beschriebenen Schritte aus: [Erstellen eines Inhaltsexperiments](../content-management/content-experiment.md).
+   Verwenden Sie den Abschnitt **[!UICONTROL Nachrichtenoptimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in diesem Abschnitt beschrieben: [Optimierung in Kampagnen](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **Hinzufügen mehrsprachiger Inhalte**
 

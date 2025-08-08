@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
    + Verwalten von Journeys {#manage-journey}
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
       + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
-      + [Verwenden zusätzlicher Kennungen in Journey](using/building-journeys/supplemental-identifier.md)
+      + [Verwenden zusätzlicher Kennungen in Journeys](using/building-journeys/supplemental-identifier.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Versandzeitoptimierung](using/building-journeys/send-time-optimization.md)
       + [Beenden der Journey](using/building-journeys/end-journey.md)
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/campaign-action.md)
+      + [Nutzen der Nachrichtenoptimierung in einer Kampagne](using/campaigns/campaigns-message-optimization.md)
       + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
@@ -201,7 +202,7 @@ ht-degree: 98%
       + [Prüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
-      + [Erste Schritte mit koordinierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Schutzmechanismen und Einschränkungen](using/orchestrated/guardrails.md)
       + [Häufig gestellte Fragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Datenkonfiguration {#configuration}
