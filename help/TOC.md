@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2592'
 ht-degree: 98%
 
 ---
@@ -203,6 +203,7 @@ ht-degree: 98%
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Erste Schritte mit koordinierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Schutzmechanismen und Einschränkungen](using/orchestrated/guardrails.md)
+      + [Häufig gestellte Fragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Datenkonfiguration {#configuration}
          + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
             + [Erste Schritte mit Schemata und Datensätzen](using/orchestrated/gs-schemas.md)
