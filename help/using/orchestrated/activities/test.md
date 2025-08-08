@@ -7,7 +7,7 @@ exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 66%
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Bedingungen"
->abstract="Die Aktivität **Test** kann mehrere ausgehende Transitionen aufweisen. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung sequenziell getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, fährt die orchestrierte Kampagne mit dem Pfad der **[!UICONTROL Standardbedingung]** fort. Wenn keine Standardbedingung aktiviert ist, stoppt die orchestrierte Kampagne an dieser Stelle."
+>abstract="Die Aktivität **Test** kann mehrere ausgehende Transitionen aufweisen. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, wird die orchestrierte Kampagne entlang des Pfads der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, wird die orchestrierte Kampagne an dieser Stelle gestoppt."
 
 Die Aktivität **[!UICONTROL Test]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Sie ermöglicht die Aktivierung von Transitionen auf der Basis der angegebenen Bedingungen.
 
@@ -42,7 +42,7 @@ Führen Sie diese Schritte aus, um die Aktivität **[!UICONTROL Test]** zu konfi
 
 1. Sie können mehrere Ausgabe-Transitionen zu einer **[!UICONTROL Test]**-Aktivität hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie das Label und die zugehörige Bedingung für jede Transition.
 v
-1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung sequenziell getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die orchestrierten Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung“]**. Wenn keine Standardbedingung aktiviert ist, stoppt die Kampagne an dieser Stelle.
+1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die orchestrierten Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung“]**. Wenn keine Standardbedingung aktiviert ist, stoppt die Kampagne an dieser Stelle.
 
 ## Beispiel {#example}
 

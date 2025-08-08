@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 62%
+ht-degree: 75%
 
 ---
 
@@ -62,13 +62,13 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
->title="Kategorie eingehender Suchbegriffe"
->abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer ein Abonnement abschließt. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer sein Abonnement beendet. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn ein Benutzer Hilfe oder Support anfordert. <br/><b>Standard</b>: sendet Ihre automatische Fallback-Antwort, wenn keine Schlüsselwörter übereinstimmen."
+>title="Kategorie des eingehenden Keywords"
+>abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: Sendet Ihre automatische Fallback-Antwort, wenn keine Keywords übereinstimmen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Keywords eingeben"
->abstract="Sie können Schlüsselwörter für benutzerspezifische automatische Antworten definieren, die davon abhängen, was Trigger schreiben. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden stop und STOP gleich behandelt."
+>title="Eingeben von Keywords"
+>abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Keywords wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden „stop“ und „STOP“ gleich behandelt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -77,7 +77,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
->title="Token überprüfen"
+>title="Verifizierungs-Token"
 >abstract="Das Token, das Meta zurückgibt, um die Callback-URL während des Verifizierungsprozesses zu bestätigen und zu überprüfen."
 
 >[!NOTE]
@@ -180,6 +180,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

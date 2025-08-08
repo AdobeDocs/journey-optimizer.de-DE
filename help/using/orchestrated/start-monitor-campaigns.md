@@ -7,16 +7,16 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
 
-# Starten und Überwachen orchestrierter Kampagnen {#start-monitor}
+# Starten und Überwachen von orchestrierten Kampagnen {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Orchestrierte Kampagne veröffentlichen"
+>title="Veröffentlichen einer orchestrierten Kampagne"
 >abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Fehler vor der Veröffentlichung gelöscht wurden."
 
 Sobald Sie Ihre orchestrierte Kampagne erstellt und die auszuführenden Aufgaben in der Arbeitsfläche entworfen haben, können Sie die Kampagne veröffentlichen und ihre Ausführung überwachen.
@@ -96,7 +96,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs und Aufgaben"
->abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
+>abstract="Der Bildschirm **Logs und Aufgaben** enthält einen Verlauf der Ausführung der orchestrierten Kampagne, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. "
 
 Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Auf Protokolle und Aufgaben kann über die Schaltfläche **[!UICONTROL Protokolle]** zugegriffen werden, die in der Symbolleiste der Arbeitsfläche sowohl im Test- als auch im Live-Modus verfügbar ist.
 

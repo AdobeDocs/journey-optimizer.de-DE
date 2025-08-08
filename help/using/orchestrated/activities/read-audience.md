@@ -7,7 +7,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 6%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Mit **Aktivität „Zielgruppe lesen** können Sie die Zielgruppe auswählen, die in die orchestrierte Kampagne eintreten soll. Bei dieser Zielgruppe kann es sich um eine bestehende Adobe Experience Platform-Zielgruppe oder um eine aus einer CSV-Datei abgerufene Zielgruppe handeln. Beim Versand von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in einer Aktivität **Zielgruppe lesen** oder einer Aktivität **Zielgruppe erstellen** definiert."
+>abstract="Mit der Aktivität **Zielgruppe erstellen** können Sie die Zielgruppe auswählen, die in die orchestrierte Kampagne eintritt. Bei dieser Zielgruppe kann es sich um eine bestehende Adobe Experience Platform-Zielgruppe oder um eine aus einer CSV-Datei abgerufene Zielgruppe handeln. Beim Senden von Nachrichten im Rahmen einer orchestrierten Kampagne wird die Nachrichtenzielgruppe nicht in der Kanalaktivität, sondern in der Aktivität **Zielgruppe lesen** oder in der Aktivität **Zielgruppe erstellen** definiert."
 
 Mit **[!UICONTROL Aktivität „Zielgruppe lesen]** können Sie eine vorhandene Zielgruppe abrufen - zuvor gespeichert oder importiert - und sie in einer orchestrierten Kampagne wiederverwenden. Diese Aktivität ist besonders nützlich, um einen vordefinierten Satz von Profilen anzusprechen, ohne dass ein neuer Segmentierungsprozess ausgeführt werden muss.
 
