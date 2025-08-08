@@ -4,9 +4,9 @@ product: journey optimizer
 title: Leitplanken und Einschränkungen für koordinierte Kampagnen
 description: Erfahren Sie mehr über Schutzmechanismen und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendun
 * **Gespeicherte Zielgruppenaktivitäten sind statisch** sie spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
 
 * **Das Anhängen an eine Aktivität vom Typ Gespeicherte Zielgruppe wird nicht unterstützt**. Alle Änderungen erfordern eine vollständige Überschreibung der Zielgruppe.
+
+## Kanalbeschränkungen
+
+In orchestrierten Kampagnen werden nur die Kanäle SMS, Push und E-Mail unterstützt.

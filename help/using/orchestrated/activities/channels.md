@@ -4,9 +4,9 @@ product: journey optimizer
 title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1108'
 ht-degree: 63%
 
 ---
@@ -52,11 +52,17 @@ UNUSED IDs in BJ
 Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifend orchestrierte Kampagnen zu erstellen, mit denen basierend auf dem Kundenverhalten und den Kundendaten Trigger erstellt werden können.
 
 Beispiel:
+
 * Senden Sie eine Begrüßungsserie per E-Mail, SMS und Push.
 * Senden Sie nach einem Kauf eine Folge-E-Mail.
 * Senden Sie personalisierte Geburtstagsgrüße per SMS.
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
+
+
+>[!CAUTION]
+>
+>In orchestrierten Kampagnen werden nur die Kanäle SMS, Push und E-Mail unterstützt.
 
 >[!PREREQUISITES]
 >
