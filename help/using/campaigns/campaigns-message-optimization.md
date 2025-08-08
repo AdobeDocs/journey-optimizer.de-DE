@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Optimierung von Nachrichten
 description: Nutzen Sie die Optimierung von Nachrichten, um personalisierte und optimierte Marketing-Kampagnen zu erstellen.
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimentieren, Targeting, A/B-Tests
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 1%
