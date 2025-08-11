@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 98%
       + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
-      + [Überprüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
+      + [Prüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
    + Durch API ausgelöste Kampagnen {#api-triggered-campaigns}
       + [Arbeiten mit durch API ausgelösten Kampagnen](using/campaigns/api-triggered-campaigns.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/api-triggered-campaign-properties.md)
@@ -203,7 +203,7 @@ ht-degree: 98%
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
-      + [Schutzmechanismen und Einschränkungen](using/orchestrated/guardrails.md)
+      + [Leitlinien und Einschränkungen](using/orchestrated/guardrails.md)
       + [Häufig gestellte Fragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Datenkonfiguration {#configuration}
          + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
@@ -212,8 +212,8 @@ ht-degree: 98%
             + [Datei-Upload-Schema](using/orchestrated/file-upload-schema.md)
             + [Aufnehmen von Daten](using/orchestrated/ingest-data.md)
          + [Erstellen einer Zielgruppendimension](using/orchestrated/target-dimension.md)
-      + Starten der ersten orchestrierten Kampagne{#launch}
-         + [Wichtige Schritte zum Erstellen einer orchestrierten Kampagne](using/orchestrated/gs-campaign-creation.md)
+      + Starten Ihrer ersten orchestrierten Kampagne{#launch}
+         + [Wichtige Schritte beim Erstellen einer orchestrierten Kampagne](using/orchestrated/gs-campaign-creation.md)
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
          + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
@@ -226,7 +226,7 @@ ht-degree: 98%
       + Aktivitäten für orchestrierte Kampagnen {#design-campaigns}
          + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
          + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
-         + [Zielgruppe erstellen](using/orchestrated/activities/build-audience.md)
+         + [Erstellen einer Zielgruppe](using/orchestrated/activities/build-audience.md)
          + [Dimensionsänderung](using/orchestrated/activities/change-dimension.md)
          + [Kanalaktivitäten](using/orchestrated/activities/channels.md)
          + [Kombinieren](using/orchestrated/activities/combine.md)
