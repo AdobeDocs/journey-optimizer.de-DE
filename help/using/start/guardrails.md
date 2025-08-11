@@ -10,13 +10,13 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Schutzmechanismen und Einschränkungen {#limitations}
+# Leitlinien und Einschränkungen {#limitations}
 
 Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
@@ -86,7 +86,7 @@ Für [Landingpages](../landing-pages/get-started-lp.md) gelten die folgenden Sch
 
 ## Leitlinien für Subdomains {#subdomain-guardrails}
 
-Die Leitplanken und Einschränkungen für die Zuweisung von Subdomains in Journey Optimizer werden auf [dieser Seite](../configuration/delegate-subdomain.md#guardrails) beschrieben.
+Die Leitlinien und Einschränkungen für die Delegierung von Subdomains in Journey Optimizer werden auf [dieser Seite](../configuration/delegate-subdomain.md#guardrails) beschrieben.
 
 ## Schutzmechanismen für Fragmente {#fragments-guardrails}
 
@@ -95,11 +95,11 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Zum Erstellen, Bearbeiten, Archivieren und Veröffentlichen von Fragmenten benötigen Sie die Berechtigungen **[!DNL Manage library items]** und **[Fragment veröffentlichen]**, die im Produktprofil des **[!DNL Content Library Manager]** enthalten sind. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
-* Visuelle Fragmente dürfen 100 KB nicht überschreiten. Ausdrucksfragmente dürfen 200 KB nicht überschreiten.
-* Um ein Fragment auf einer Journey oder in einer Kampagne verwenden zu können, muss es den Status **Live** aufweisen.
-* [Kontextattribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
-* Visuelle Fragmente sind zwischen den Modi Verwenden von Designs und Manueller Stil nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus Designs verwenden erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
-* Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist und Sie Links zu einem Fragment hinzufügen und dieses Fragment in einer Nachricht verwendet wird, werden diese Links verfolgt, wie alle anderen in der Nachricht enthaltenen Links. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
+* Visuelle Fragmente dürfen 100 KB nicht überschreiten. Ausdrucksfragmente dürfen 200 KB nicht überschreiten.
+* Damit ein Fragment in einer Journey oder Kampagne verwendet werden kann, muss es sich im Status **Live** befinden. 
+* [Kontextuelle Attribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
+* Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
+* Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen zu Links und Tracking](../email/message-tracking.md)
 
 ## Leitlinien für Zielgruppen {#audience}
 
@@ -166,11 +166,11 @@ Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten
 
 Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
-* Journey Optimizer unterstützt für jedes Unternehmen ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde.
+* Journey Optimizer unterstützt für jede Organisation ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde.
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu 5 Minuten dauern, bis die erste Aktion in der Journey verarbeitet wird.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
-* Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn zum Beispiel ein Ereignis eine Journey mit 12% für :01 bestimmtes Profil Trigger und ein anderes mit 12:03 eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+* Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Über Ereignisse, die in Batches aufgenommen werden, oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) kann eine Journey nicht ausgelöst werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
 
 ### Datenquellen  {#data-sources-g}
@@ -260,6 +260,6 @@ Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
 * Kampagnenaktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
 
-## Leitplanken für die Kampagnenorchestrierung {#orchestration-guardrails}
+## Leitlinien für die Kampagnenorchestrierung {#orchestration-guardrails}
 
-Leitplanken und Einschränkungen, die bei der Arbeit mit der Campaign-Orchestrierung zu beachten sind, werden in diesem Abschnitt beschrieben: [Leitplanken und Einschränkungen für das Entscheidungs-Management](../orchestrated/guardrails.md).
+Die bei der Kampagnenorchestrierung zu beachtenden Leitlinien und Einschränkungen werden in diesem Abschnitt beschrieben: [Leitlinien und Einschränkungen für das Entscheidungs-Management](../orchestrated/guardrails.md).

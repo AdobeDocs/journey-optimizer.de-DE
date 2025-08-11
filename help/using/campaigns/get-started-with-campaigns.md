@@ -10,9 +10,9 @@ level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -74,48 +74,48 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
 * **Orchestrierte Kampagnen**
 
-  Die Kampagnenorchestrierung in Adobe Journey Optimizer ermöglicht anspruchsvolle, markeninitiierte Marketing-Kampagnen kanalübergreifend und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu steigern.
+  Die Kampagnenorchestrierung in Adobe Journey Optimizer ermöglicht kanalübergreifend anspruchsvolle, markeninitiierte Marketing-Kampagnen und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu fördern.
 
-  Obwohl Cross-Channel-Marketing unerlässlich ist, machen orchestrierte Kampagnen es nahtlos. Mit einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis zum Nachrichtenversand, über mehrere Kanäle entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
+  Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie Ihre Kampagne erstellen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen gelesen haben.
+Stellen Sie vor der Erstellung Ihrer Kampagne sicher, dass Sie die folgenden Voraussetzungen überprüft haben.
 
 ### Berechtigungen
 
-Kampagnen stehen nur Benutzenden mit den entsprechenden unten aufgeführten Berechtigungen zur Verfügung. [Erfahren Sie mehr über die integrierten Journey Optimizer-Rollen](../administration/ootb-product-profiles.md)
+Kampagnen stehen nur Benutzenden mit den entsprechenden Berechtigungen zur Verfügung, wie unten aufgeführt. [Weitere Informationen über native Rollen in Journey Optimizer](../administration/ootb-product-profiles.md)
 
 >[!BEGINTABS]
 
 >[!TAB Aktionskampagnen]
 
-Campaign-Administrator
-Genehmigende Person für Kampagne
-Kampagnen-Manager
-Kampagnen-Betrachter
+Admin einer Kampagne
+Genehmigende Person einer Kampagne
+Managerin bzw. Manager einer Kampagne
+Betrachterin bzw. Betrachter einer Kampagne
 
 >[!TAB Kampagnen, die durch API ausgelöst werden]
 
-Campaign-Administrator
-Genehmigende Person für Kampagne
-Kampagnen-Manager
-Kampagnen-Betrachter
+Admin einer Kampagne
+Genehmigende Person einer Kampagne
+Managerin bzw. Manager einer Kampagne
+Betrachterin bzw. Betrachter einer Kampagne
 
 >[!TAB Orchestrierte Kampagnen]
 
-Administrator einer orchestrierten Kampagne
-Genehmigende Person für orchestrierte Kampagne
-Orchestrierter Kampagnen-Manager
-Orchestrierter Kampagnen-Viewer
+Admin einer orchestrierten Kampagne
+Genehmigende Person einer orchestrierten Kampagne
+Managerin bzw. Manager einer orchestrierten Kampagne
+Betrachterin bzw. Betrachter einer orchestrierten Kampagne
 
 >[!ENDTABS]
 
-Wenn Sie nicht auf die Campaign-Funktionen zugreifen können, wenden Sie sich an Ihren Administrator, um die erforderlichen Berechtigungen anzufordern.
+Wenn Sie nicht auf bestimmte Kampagnenfunktionen zugreifen können, wenden Sie sich an Ihre bzw. Ihren Admin, um die erforderlichen Berechtigungen anzufordern.
 
 +++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
 
-1. Um einem Benutzer im [!DNL Permissions] Produkt eine Rolle zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der integrierten kampagnenbezogenen **[!UICONTROL Rollen]** aus.
+1. Um einer Person eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der oben beschriebenen nativen, kampagnenbezogenen **[!UICONTROL Rollen]** aus.
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
@@ -133,7 +133,7 @@ Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schr
 
 ### Kanalkonfiguration
 
-Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
+Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt worden sein und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
 
 ## Tauchen wir tiefer in die Materie ein
 

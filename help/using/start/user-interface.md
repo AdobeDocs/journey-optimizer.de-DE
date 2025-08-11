@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -181,19 +181,19 @@ Verwenden Sie auf jeder Seite kontextbezogene Hilfe-Schaltflächen, um mehr übe
 
 ## Warnhinweise im Produkt
 
-Sie können **E-Mail- und produktinterne Warnhinweise** für Journey Optimizer-Produktversionen abonnieren.
+Sie können **E-Mail- und Warnhinweise im Produkt** für Journey Optimizer-Produktversionen abonnieren.
 
-Abonnieren:
+So abonnieren Sie sie:
 
-1. Zu **Adobe Experience Cloud-Voreinstellungen navigieren**
-1. Suchen **unter &quot;**&quot; nach **Journey Optimizer-Neuversionen**
+1. Navigieren Sie zu den **Voreinstellungen für Adobe Experience Cloud**.
+1. Suchen Sie unter **Benachrichtigungen** nach **neuen Versionen von Journey Optimizer**
 1. Aktivieren von In-App- und E-Mail-Benachrichtigungen
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## KI-Assistent {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke für Ihre spezifische Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
+Der KI-Assistent ist eine Funktion auf der Benutzeroberfläche, mit der Sie durch die Adobe-Konzepte navigieren und diese verstehen sowie betriebliche Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, darunter Adobe Journey Optimizer.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts am Bildschirm angezeigt.
 
@@ -253,7 +253,7 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Verwenden von Daten mehrerer Entitäten"
->abstract="Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern"
+>abstract="Erfahren Sie, wie sich relationale Datensätze in orchestrierten Kampagnen nutzen lassen, um Daten für die Segmentierung und Personalisierung anzureichern"
 
 
 
