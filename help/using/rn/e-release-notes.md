@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
+<th><strong>Journey-Pfadoptimierung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Journey Optimizer können Sie jetzt benutzerdefinierte Formulare erstellen und in Landingpages nutzen, um Profilattribute in dem für jedes Formular definierten Datensatz zu erfassen.</p>
-<p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
+<p>Journey Optimizer bietet Ihnen jetzt die Tools zur Optimierung Ihrer Journey, indem Sie KI- und Experimentier-Frameworks nutzen und gleichzeitig eine nahtlose Benutzerfreundlichkeit und Unterscheidung zwischen Bedingungs- und Optimierungsfunktionen sicherstellen.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Optimierung</strong><br/></th>
+<th><strong>Aktionsaktivität in Journey</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer bietet Ihnen jetzt die Tools zur Optimierung Ihrer Journey, indem Sie KI- und Experimentier-Frameworks nutzen und gleichzeitig eine nahtlose Benutzerfreundlichkeit und Unterscheidung zwischen Bedingungs- und Optimierungsfunktionen sicherstellen.</p>
+<p>Journey Optimizer unterstützt eine neue allgemeine Aktionsaktivität, mit der Sie sowohl Einzelaktionen als auch ausgehende Mehrkanal-Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Mit dieser neuen Aktivität können Sie auch Zielgruppenoptimierung, Experimente und mehrsprachige Sprachvarianten zu jeder integrierten Kanalaktion hinzufügen.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt benutzerdefinierte Formulare erstellen und in Landingpages nutzen, um Profilattribute in dem für jedes Formular definierten Datensatz zu erfassen.</p>
+<p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
      Um Ihren Ein-Klick-Abmelde-Link weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden.
 
 - **Journeys**
-   - **Aktionsaktivität in Journey** - Journey Optimizer unterstützt eine neue generische Aktionsaktivität, mit der Sie sowohl ausgehende Einzel- als auch Mehrkanal-Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Mit dieser neuen Aktivität können Sie auch Zielgruppenoptimierung, Experimente und mehrsprachige Sprachvarianten zu jeder integrierten Kanalaktion hinzufügen.
    - **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
