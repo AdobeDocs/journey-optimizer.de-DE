@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 98%
+source-wordcount: '1460'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 98%
 **Verfügbarkeitsdatum**: 4. August 2025
 
 Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, die speziell für markeninitiierte Batch-Kampagnen entwickelt wurde. Diese Version führt eine Arbeitsfläche für die Kampagnenorchestrierung und eine verbesserte Datenmodellierung ein, was es Marketing-Fachleuten ermöglicht, personalisierte Cross-Channel-Kampagnen zu planen, auf eine Zielgruppe anzupassen und bereitzustellen.
+
+>[!IMPORTANT]
+>
+>Um auf die Kampagnenorchestrierung zugreifen zu können, muss die Lizenz entweder das Paket **Journey Optimizer - Kampagnen und Journey** oder das Paket **Journey Optimizer - Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
 
 ![GIF zur Kampagnenorchestrierung](assets/do-not-localize/release.gif)
 
@@ -86,7 +90,7 @@ Weitere Informationen finden Sie in der [Dokumentation zur Kampagnenorchestrieru
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
