@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
+source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1038'
 ht-degree: 47%
 
 ---
@@ -182,7 +182,8 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Mit Journey Optimizer können Sie jetzt benutzerdefinierte Formulare erstellen und in Landingpages nutzen, um Profilattribute in dem für jedes Formular definierten Datensatz zu erfassen.</p>
-<p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -216,4 +217,3 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 - **Journeys**
    - **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
-
