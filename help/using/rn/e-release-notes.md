@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 47%
+source-wordcount: '906'
+ht-degree: 35%
 
 ---
 
@@ -73,28 +73,28 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Dunkler Modus im E-Mail-Designer</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der E-Mail-Designer von Journey Optimizer bietet jetzt die Möglichkeit, in die Ansicht „Dunkler Modus“ zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können, die nur Empfängerinnen und Empfängern angezeigt werden, die ihre E-Mails im dunklen Modus lesen.</p>
-<p>Beachten Sie dabei Folgendes:</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>Das endgültige Rendern des dunklen Modus weicht möglicherweise ab und hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab.</li>
-<li>Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus. Darüber hinaus wenden einige E-Mail-Clients ausschließlich ihren eigenen standardmäßigen dunklen Modus auf alle empfangenen E-Mails an. In beiden Fällen können die im E-Mail-Designer definierten benutzerdefinierten Einstellungen nicht gerendert werden.</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.</p>
-<p><!--img src="assets/do-not-localize/dark-mode.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>--></p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -119,23 +119,23 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Verwenden der Entscheidungsfindung im E-Mail-Kanal</strong><br/></th>
+<th><strong>Use Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Entscheidungsrichtlinien zu E-Mail-Journeys und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -196,24 +196,36 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
-- **Administration**
-   - **Warnhinweise zur Kanalkonfigurationsüberwachung** - Sie können jetzt Systemwarnhinweise abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls eine Kanalkonfiguration fehlschlägt oder ein DNS-Eintrag fehlt.
+* **Administration**
 
-- **Kampagnen**
-   - **Ratenkontrolle in ausgehenden Kampagnen** - Sie können jetzt die Drosselungsratenkontrolle für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
-   - **Kampagnenplanung für Aktionen** - Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um die Granularität zu verbessern. Sie können jetzt beispielsweise die Anzahl der Wochen/Monate zwischen zwei Zeitplänen festlegen, den Tag der Ausführung definieren und entscheiden, nach einer bestimmten Anzahl von Vorfällen oder an einem bestimmten Datum zu stoppen.
+   * **Warnhinweise zur Kanalkonfigurationsüberwachung** - Sie können jetzt Systemwarnhinweise abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls eine Kanalkonfiguration fehlschlägt oder ein DNS-Eintrag fehlt.
 
-- **Kanal - Push**
-   - **Ablaufdatum der Push-Benachrichtigung** - Sie können jetzt für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. Black Friday Sale) nach einem bestimmten Datum gesendet werden, um so die Bereitstellung schlechter Erlebnisse für Ihre Kunden zu vermeiden.
+* **Kampagnen**
 
-- **Kanal - E-Mail**
-   - **PDF-Anhänge zu E-Mails** - Sie können jetzt statische PDF-Dateien an E-Mails anhängen, die mit Journey Optimizer gesendet werden.
+   * **Ratenkontrolle in ausgehenden Kampagnen** - Sie können jetzt die Drosselungsratenkontrolle für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
 
-- **Konfiguration**
-   - **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die Personalisierung bei der Verfolgung von URLs für vordefinierte Domains, die auf der Kanalkonfigurationsebene aufgeführt sind.
-   - **Unterstützung benutzerdefinierter Attribute mit einer Ein-Klick-Abmelde-URL** - Bei Journey Optimizer können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link in der E-Mail-Konfiguration definieren, wenn Sie das Einverständnis außerhalb von Adobe verwalten. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+   * **Kampagnenplanung für Aktionen** - Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um die Granularität zu verbessern. Sie können jetzt beispielsweise die Anzahl der Wochen/Monate zwischen zwei Zeitplänen festlegen, den Tag der Ausführung definieren und entscheiden, nach einer bestimmten Anzahl von Vorfällen oder an einem bestimmten Datum zu stoppen.
+
+* **Kanal - Push**
+
+   * **Ablaufdatum der Push-Benachrichtigung** - Sie können jetzt für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. Black Friday Sale) nach einem bestimmten Datum gesendet werden, um so die Bereitstellung schlechter Erlebnisse für Ihre Kunden zu vermeiden.
+
+* **Kanal - E-Mail**
+
+   * **PDF-Anhänge zu E-Mails** - Sie können jetzt statische PDF-Dateien an E-Mails anhängen, die mit Journey Optimizer gesendet werden.
+
+* **Kanal - SMS**
+
+   * **Ungefähres Opt-out** - Wenn diese Option aktiviert ist, erkennt **unscharfe Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht des Benutzers zu überprüfen. Wenn der/die Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigt, wird das Abonnement gekündigt.
+
+* **Konfiguration**
+
+   * **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die Personalisierung bei der Verfolgung von URLs für vordefinierte Domains, die auf der Kanalkonfigurationsebene aufgeführt sind.
+
+   * **Unterstützung benutzerdefinierter Attribute mit einer Ein-Klick-Abmelde-URL** - Bei Journey Optimizer können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link in der E-Mail-Konfiguration definieren, wenn Sie das Einverständnis außerhalb von Adobe verwalten. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
      Um Ihren Ein-Klick-Abmelde-Link weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden.
 
-- **Journeys**
-   - **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
+* **Journeys**
+
+   * **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
