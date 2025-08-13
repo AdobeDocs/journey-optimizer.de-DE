@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
    * **Ratenkontrolle in ausgehenden Kampagnen** - Sie können jetzt die Drosselungsratenkontrolle für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
 
    * **Kampagnenplanung für Aktionen** - Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um die Granularität zu verbessern. Sie können jetzt beispielsweise die Anzahl der Wochen/Monate zwischen zwei Zeitplänen festlegen, den Tag der Ausführung definieren und entscheiden, nach einer bestimmten Anzahl von Vorfällen oder an einem bestimmten Datum zu stoppen.
+
+   * **Geplante Transaktionsaktionskampagnen** - Geplante Transaktionsaktionskampagnen sind jetzt zum Senden von Batch-, zielgruppenbasierten Transaktionsnachrichten über E-Mail-, SMS- und Push-Kanäle verfügbar.
 
 * **Kanal - Push**
 
