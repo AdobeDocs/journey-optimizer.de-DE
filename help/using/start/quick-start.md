@@ -94,7 +94,7 @@ Klicken Sie unten auf Ihre Rolle, um auf spezifische Anleitungen zuzugreifen, di
 
 Weitere Informationen zu den wichtigsten Funktionen und Rollen von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt wichtige Funktionen hervor, die auf rollenspezifischen Workflows basieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432377?quality=12&captions=ger)
 
 ## Weitere Ressourcen
 
