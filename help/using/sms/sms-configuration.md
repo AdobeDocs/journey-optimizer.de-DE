@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 90%
@@ -40,7 +40,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="Unscharfe Abmeldung"
->abstract="„Wenn diese Option aktiviert ist, erkennt Fuzzy Opt-out eingehende Nachrichten, die bestimmten Opt-out-Keywords sehr ähnlich sind (z. B. „CANCIL„) und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht des Benutzers zu überprüfen. Wenn der/die Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigt, wird das Abonnement gekündigt."
+>abstract="Wenn diese Option aktiviert ist, erkennt Fuzzy Opt-out eingehende Nachrichten, die bestimmten Opt-out-Keywords sehr ähnlich sind (z. B. „CANCIL„) und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht des Benutzers zu überprüfen. Wenn der/die Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigt, wird das Abonnement gekündigt."
 
 Bevor Sie SMS, MMS oder RMC versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
