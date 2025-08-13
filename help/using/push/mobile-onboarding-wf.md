@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,7 @@ Navigieren Sie vom Lösungsumschalter aus zum neuen Schnellstart-Workflow für d
 Im Folgenden finden Sie einige zusätzliche Funktionen:
 
 * Einfacher, vierstufiger Workflow und Benutzeroberfläche.
-* Sie bietet eine grundlegende Einrichtung, um in Minutenschnelle mit der Erfassung von Mobile-Ereignisdaten über das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} zu beginnen.
+* Sie bietet eine grundlegende Einrichtung, um in Minutenschnelle mit der Erfassung von Mobile-Ereignisdaten über die [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} zu beginnen.
 * Möglichkeit zum Testen und Validieren eines einfachen mobilen Push-Ereignisses mithilfe von [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
 * Erstellt und konfiguriert automatisch alle erforderlichen Datenerfassungs- und Journey Optimizer-Assets.
 * In Produktanleitungen und QuickInfos.
@@ -72,7 +72,7 @@ Die automatisierte Einrichtung ist abgeschlossen. Sie können jetzt Ihre mobile 
 
 **Verwandte Themen**
 
-* [Erste Schritte mit Push-Benachrichtigungen](get-started-push.md)
+* [Erste Schritte mit Push-Benachrichtigungen](../../rp_landing_pages/push-landing-page.md)
 * [Datenfluss und Komponenten von Push-Benachrichtigungen](push-gs.md)
 * [Kanal der Push-Benachrichtigung konfigurieren](push-configuration.md)
 * [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md#push-global)

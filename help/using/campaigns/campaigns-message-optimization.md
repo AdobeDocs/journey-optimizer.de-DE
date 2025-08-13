@@ -6,10 +6,11 @@ description: Nutzen Sie die Optimierung von Nachrichten, um personalisierte und 
 role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimentieren, Targeting, A/B-Tests
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +24,7 @@ Mit der Optimierung können Sie:
 * Ausführen [Inhaltsexperimenten](#experimentation)
 * Verwenden [erweiterter Kombinationen](#combination) von Experimentieren und Targeting in einer einzigen Kampagne
 
-Sobald die Kampagne live ist, werden Profile anhand der definierten Kriterien bewertet und auf der Grundlage übereinstimmender Kriterien mit dem entsprechenden Erlebnis oder Inhalt aus der Kampagne bereitgestellt.
+Sobald die Kampagne live ist, werden die Profile anhand der definierten Kriterien bewertet, und basierend auf den passenden Kriterien wird ihnen das entsprechende Erlebnis oder der entsprechende Inhalt aus der Kampagne bereitgestellt.
 
 Der Unterschied zwischen Experimenten und Zielgruppenbestimmung lässt sich wie folgt umreißen:
 
@@ -98,7 +99,7 @@ Gehen Sie wie folgt vor, um ein Experiment einzurichten und zu bestimmen, welche
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. Wählen Sie auf **[!UICONTROL Registerkarte]** mindestens zwei eingehende Aktionen aus, z. B. [Code-basiertes Erlebnis](../code-based/get-started-code-based.md) und [In-App](../in-app/get-started-in-app.md).
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** mindestens zwei eingehende Aktionen aus, z. B. [Code-basiertes Erlebnis](../code-based/get-started-code-based.md) und [In-App](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Nachrichtenoptimierung“ **[!UICONTROL Experimentieren]** aus.
 
@@ -161,4 +162,3 @@ Sobald die Kampagne live ist, werden den Benutzern der einzelnen Zielgruppen nac
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

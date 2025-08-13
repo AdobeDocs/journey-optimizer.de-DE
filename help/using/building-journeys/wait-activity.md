@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** di
 
 ### Warte- und Mobile-Kanäle {#wait-mobile-channels}
 
-Wenn Sie eine [In-App-Nachricht](../in-app/create-in-app.md) nach dem Versand einer [Push-Benachrichtigung](../push/get-started-push.md) anzeigen möchten, verwenden Sie eine Aktivität **Warten**, damit die Payload-Zeit der In-App-Nachricht weitergegeben wird. Normalerweise wird eine Wartezeit von 5 bis 15 Minuten empfohlen. Die genauen Zeiten können jedoch je nach Payload-Komplexität und Personalisierungsanforderungen variieren.
+Wenn Sie eine [In-App-Nachricht](../in-app/create-in-app.md) nach dem Versand einer [Push-Benachrichtigung](../../rp_landing_pages/push-landing-page.md) anzeigen möchten, verwenden Sie eine Aktivität **Warten**, damit die Payload-Zeit der In-App-Nachricht weitergegeben wird. Normalerweise wird eine Wartezeit von 5 bis 15 Minuten empfohlen. Die genauen Zeiten können jedoch je nach Payload-Komplexität und Personalisierungsanforderungen variieren.
 
 ## Konfiguration {#wait-configuration}
 

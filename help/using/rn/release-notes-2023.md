@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -639,7 +639,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Entscheidungs-Management**
 
-* Sie können jetzt die Frequenzlimitierung bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie zuvor mit aktivierter Frequenzlimitierung veröffentlicht wurde. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
+* Sie können jetzt die Frequenzbegrenzung bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie zuvor mit aktivierter Frequenzbegrenzung veröffentlicht wurde. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalisierung**
 
@@ -746,7 +746,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Es können nun innerhalb einer Kampagne personalisierte In-App-Nachrichten an Benutzende Ihrer App gesendet werden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../../rp_landing_pages/in-app-landing-page.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>Es können nun innerhalb einer Kampagne personalisierte In-App-Nachrichten an Benutzende Ihrer App gesendet werden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
 <p><strong>Vorsicht</strong> – Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../../rp_landing_pages/in-app-landing-page.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

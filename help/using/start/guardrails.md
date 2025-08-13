@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 ### Schutzmechanismen für E-Mails {#message-guardrails}
 
-Für den [E-Mail-Kanal](../email/get-started-email.md) gelten die folgenden Schutzmechanismen:
+Für den [E-Mail-Kanal](../../rp_landing_pages/email-landing-page.md) gelten die folgenden Schutzmechanismen:
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anhänge zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
