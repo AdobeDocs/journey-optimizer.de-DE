@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer unterstützt eine neue allgemeine Aktionsaktivität, mit der Sie sowohl Einzelaktionen als auch ausgehende Mehrkanal-Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Mit dieser neuen Aktivität können Sie auch Zielgruppenoptimierung, Experimente und mehrsprachige Sprachvarianten zu jeder integrierten Kanalaktion hinzufügen.</p>
+<p>Journey Optimizer unterstützt eine neue allgemeine Aktionsaktivität, mit der Sie sowohl Einzelaktionen als auch ausgehende Mehrkanal-Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Diese neue Funktion ermöglicht insbesondere Folgendes:</p>
+<ul>
+<li>Eine vereinfachte native Aktionskonfiguration auf der Journey-Arbeitsfläche.</li>
+<li>Die Möglichkeit, eingehende Knoten mit mehreren Aktionen zu erstellen.</li>
+<li>Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen.</li>
+</ul>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
