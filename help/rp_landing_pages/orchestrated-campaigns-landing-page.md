@@ -20,7 +20,7 @@ Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspru
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in koordinierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Kernfunktionen, Komponenten und Unterschiede von orc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Schutzmechanismen und Einschränkungen
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Einschränkungen vertraut, die bei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Datenkonfiguration für koordinierte Kampagnen
 
@@ -50,7 +50,7 @@ Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Starten und Verwalten von orchestrierten Kampagnen
 
@@ -60,7 +60,7 @@ Eine schrittweise Anleitung zum Erstellen, Orchestrieren, Überwachen und Analys
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Abfrage der Datenbank nach orchestrierten Kampagnen
 
@@ -70,7 +70,7 @@ Meistern Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen effek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Umfassender Leitfaden zu Kampagnenaktivitäten
 

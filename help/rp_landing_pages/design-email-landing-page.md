@@ -20,7 +20,7 @@ Die Gestaltung Ihres E-Mail-Inhalts in Adobe Journey Optimizer ermöglicht es Ih
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte beim Gestalten von E-Mails
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen des E-Mail-Designs in Adobe Journey Optimizer kennen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 E-Mail-Inhalte erstellen und optimieren
 
@@ -40,7 +40,7 @@ Erfahren Sie mehr über die Methoden zum Entwerfen von E-Mail-Inhalten, Importie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Gestalten von Inhalten in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Entdecken Sie Tools und Best Practices für die Verwendung von Komponenten, visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Stil bearbeiten: E-Mail-Designs anpassen
 

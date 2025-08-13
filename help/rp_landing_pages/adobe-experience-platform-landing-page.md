@@ -20,7 +20,7 @@ Adobe Experience Platform ist die Grundlage für die Bereitstellung wirklich per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der inAudience-Funktion
 

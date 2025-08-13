@@ -20,7 +20,7 @@ Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, mit de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Analysieren von Journey-Berichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Journey-Leistung mithilfe von Metriken, visuellen Tool
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Codebasierte Journey-Berichte
 
@@ -40,7 +40,7 @@ Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Interaktion mit der Inhaltskarte
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Briefpost-Metriken
 
@@ -60,7 +60,7 @@ Analyse und Interpretation von Schlüsselmetriken für Briefpostkampagnen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
 
 E-Mail Journey Reporting
 
@@ -70,7 +70,7 @@ Gewinnen Sie Einblicke in die E-Mail-Leistung, Interaktion und Versandmetriken f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 In-App Messaging Insights
 

@@ -20,7 +20,7 @@ Helper-Funktionen in Adobe Journey Optimizer ermöglichen es Ihnen, Erlebnisse p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Helper-Funktionen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Hilfsfunktionen zur Datenbearbeitung und Personalisierung 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Bibliothek mit Aggregationsfunktionen
 
@@ -40,7 +40,7 @@ Erkunden Sie Funktionen, um mehrere Werte zur Personalisierung zu einem einzigen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bibliothek für arithmetische Funktionen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie arithmetische Funktionen Berechnungen wie Additionen, Subtrakt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zu Array- und Listenfunktionen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Arrays und Listen mit Funktionen wie Zählen, Abrufen unte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 Bibliothek mit Datums- und Uhrzeitfunktionen
 
@@ -70,7 +70,7 @@ Verwenden Sie Datums- und Uhrzeitfunktionen zum Bearbeiten und Formatieren von D
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bibliothek mit Booleschen und Vergleichsfunktionen
 

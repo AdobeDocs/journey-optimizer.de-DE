@@ -20,7 +20,7 @@ Die Versionshinweise von Adobe Journey Optimizer enthalten eine monatliche Über
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Versionshinweise zu Adobe Journey Optimizer 2025
 
@@ -30,7 +30,7 @@ Informieren Sie sich über alle Funktionen, Updates und Verbesserungen, die 2025
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Versionshinweise zu Adobe Journey Optimizer 2024
 

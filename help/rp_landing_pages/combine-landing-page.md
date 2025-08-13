@@ -20,7 +20,7 @@ Die lösungsübergreifenden Anwendungsfälle von Adobe Journey Optimizer ermögl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Kombinieren von Adobe-Lösungen zur Verwaltung von Inhalten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Adobe Journey Optimizer mit anderen Adobe-Lösungen wie Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden von Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Integrieren, Hochladen und Verwalten von Assets aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=de)
 
 Arbeiten mit Adobe Stock-Bildern
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Adobe Stock-Bilder für die Verwendung in E-Mail-Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=de)
 
 Assets mit Adobe Express bearbeiten
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mit in Adobe Journey Optimizer integrierter Adobe Express 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Arbeiten mit AEM-Inhaltsfragmenten
 
@@ -70,7 +70,7 @@ Schrittweise Anleitungen zur Integration von AEM-Inhaltsfragmenten in Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Arbeiten mit Dynamic Media
 

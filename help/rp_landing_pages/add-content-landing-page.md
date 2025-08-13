@@ -20,7 +20,7 @@ Bei der Gestaltung Ihrer Inhalte in Adobe Journey Optimizer geht es um die Erste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Verwenden von Inhaltskomponenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Komponenten wie Text, Schaltflächen, Bilder und mehr hinz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=de)
 
 Verwenden von visuellen Fragmenten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Desig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Links hinzufügen und Nachrichten verfolgen
 
@@ -50,7 +50,7 @@ Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie Link-Erscheinung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Einfügen personalisierter Angebote
 
@@ -60,7 +60,7 @@ Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=de)
 
 Textversion generieren
 
@@ -70,7 +70,7 @@ Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Hinzufügen von Metadaten
 

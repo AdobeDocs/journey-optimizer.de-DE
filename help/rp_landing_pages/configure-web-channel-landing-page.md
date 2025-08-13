@@ -20,7 +20,7 @@ Durch die Konfiguration des Web-Kanals in Adobe Journey Optimizer können Sie pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Voraussetzungen für den Webkanal
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Voraussetzungen für die Konfiguration und Verwendun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Web-Subdomains
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Einrichten, Verwalten und Aufheben der Zuweisung vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Konfigurieren eines Webkanals
 

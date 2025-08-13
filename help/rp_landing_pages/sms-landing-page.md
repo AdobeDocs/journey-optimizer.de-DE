@@ -20,7 +20,7 @@ Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, Kunden 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Textnachrichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten in Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von SMS-, MMS- und RCS-Nachrichten
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Entwerfen, Konfigurieren und Senden personalisierter 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Überprüfen und Senden von Textnachrichten
 
@@ -50,7 +50,7 @@ Sie können Nachrichten in der Vorschau anzeigen, validieren und senden und dabe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Verwalten von Textnachrichten-Opt-outs
 
@@ -60,7 +60,7 @@ Einhaltung von Branchenstandards durch die Verwaltung von Opt-out-Prozessen für
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Einrichten von SMS-Subdomains
 
@@ -70,7 +70,7 @@ Konfigurieren Sie SMS-Subdomains für den Nachrichtenversand, einschließlich Ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 SMS-/MMS-/RCS-Kanäle konfigurieren
 

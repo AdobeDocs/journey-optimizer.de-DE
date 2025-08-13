@@ -20,7 +20,7 @@ Veraltete Step-Ereignisfelder in Adobe Journey Optimizer sind für die Überwach
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Veraltete Felder verstehen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über alte Step-Ereignisfelder in Adobe Journey Optimizer, ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Journey-Felder - Übersicht
 
@@ -40,7 +40,7 @@ Entdecken Sie die Felder innerhalb des Journey-Schemas, ihre Typen und wie sie d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Häufige Felder für das Journey von Schrittereignissen
 
@@ -50,7 +50,7 @@ Wichtige Felder finden, die für journeyStepEvent und journeyStepProfileEvent fr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Aktionsausführungsfelder
 
@@ -60,7 +60,7 @@ Verstehen Sie Felder, die sich auf die Aktionsausführung in journeyStep-Ereigni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Datenabruffelder
 
@@ -70,7 +70,7 @@ Erfahren Sie mehr über die Felder, die mit dem Datenabruf während der Schrittv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 JourneyStep-Identitätsfelder
 

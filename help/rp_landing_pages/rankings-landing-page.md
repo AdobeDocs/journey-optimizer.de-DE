@@ -20,7 +20,7 @@ Mit Rankings in Adobe Journey Optimizer können Sie anpassen, welche Angebote zu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Erste Schritte mit Rankings
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Grundlagen von Rankings in Adobe Journey Optimizer, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Rangfolgeformeln erstellen und verwenden
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um Rangfolgeformeln mithilfe der PQL-S
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 KI-Modelle für das Angebots-Ranking
 

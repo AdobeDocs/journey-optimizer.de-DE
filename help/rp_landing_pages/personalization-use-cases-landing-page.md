@@ -20,7 +20,7 @@ Stellen Sie sich vor, Sie gestalten Ihre Kommunikation so auf Ihre Zielgruppe zu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Tutorial zu Personalization für Benachrichtigungen zum Bestellstatus
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mithilfe von Profil-, kontextuellen und Offer Decisioning-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 E-Mail zu Warenkorbabbruch - Personalization-Handbuch
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie E-Mails zu Warenkorbabbrüchen mithilfe von Hilfsfunktione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Beispiel für eine E-Mail mit Gesundheitsplan-Rezept an Personalization
 

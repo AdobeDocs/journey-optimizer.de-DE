@@ -20,7 +20,7 @@ Der Erfolg von Adobe Journey Optimizer hängt davon ab, dass ein Team von Fachle
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Überblick über Rollen und Zuständigkeiten
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die wichtigsten Rollen, Zuständigkeiten und Abhängigke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erste Schritte als Marketer
 
@@ -40,7 +40,7 @@ Eine schrittweise Anleitung für Marketing-Fachleute zum Erstellen von Zielgrupp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erste Schritte als Datentechniker
 
@@ -50,7 +50,7 @@ Detaillierte Anweisungen für Dateningenieure zum Vorbereiten von Schemata, Date
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erste Schritte als Systemadministrator
 

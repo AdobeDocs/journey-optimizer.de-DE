@@ -20,7 +20,7 @@ Die Einrichtung geführter Kanäle in Adobe Journey Optimizer vereinfacht die Ko
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Einrichten von Mobile- und Web-Kanälen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit der Einrichtung geführter Kanäle in Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Ändern von Kanalkonfigurationen
 

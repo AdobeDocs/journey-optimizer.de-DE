@@ -20,7 +20,7 @@ Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Unternehmen, s
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Konfiguration des SMS/MMS/RCS-Kanals
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Kanäle in Adobe Journey Optimizer konf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Konfigurieren des Sinch-Providers für SMS-/MMS-/RCS-Messaging
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Einrichten von Sinch-API-Anmeldeinformationen zur A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Konfigurieren von Infobip SMS, MMS und RCS Provider
 
@@ -50,7 +50,7 @@ Detaillierte Anleitung zur Integration von Infobip als Provider für SMS-, MMS- 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Twilio Provider für SMS/MMS/RCS Messaging konfigurieren
 
@@ -60,7 +60,7 @@ Anleitung zum Einrichten von Twilio API-Anmeldeinformationen und Aktivieren von 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren eines benutzerdefinierten SMS-Anbieters
 
@@ -70,7 +70,7 @@ Richten Sie benutzerdefinierte SMS-Anbieter ein, indem Sie API-Anmeldeinformatio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen einer SMS-/MMS-/RCS-Kanalkonfiguration
 

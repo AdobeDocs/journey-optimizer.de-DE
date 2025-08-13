@@ -20,7 +20,7 @@ Bei der Datenkonfiguration in Adobe Journey Optimizer geht es darum, durch die O
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwalten von relationalen Schemata und Datensätzen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie für koordinierte Kampagnen relationale Schemata erstellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Konfigurieren einer Zielgruppendimension
 

@@ -20,7 +20,7 @@ Bei der Zustellbarkeit von E-Mails geht es darum, sicherzustellen, dass Ihre E-M
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in die E-Mail-Zustellbarkeit
 
@@ -30,7 +30,7 @@ Lernen Sie die Konzepte, Best Practices und Tools zur Optimierung der E-Mail-Zus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Grundlegendes zu Unterdrückungslisten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Unterdrückungslisten die Reputation des Absenders schützen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Neue DMARC-Anforderungen erfüllen
 

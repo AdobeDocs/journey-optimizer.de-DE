@@ -20,7 +20,7 @@ Im Abschnitt zur API-Referenz in Adobe Journey Optimizer werden die Tools freige
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Angebotsbibliotheks-API
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Angebotsbibliotheks-API für das Entscheidungs-Managem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Unterbreiten von Angeboten mithilfe von Adobe Journey Optimizer-APIs
 

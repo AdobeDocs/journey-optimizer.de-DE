@@ -20,7 +20,7 @@ Bei der Verwaltung von Entscheidungselementen in Adobe Journey Optimizer geht es
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des Elementkatalogs
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Elementkatalog in der Entscheidungsfunktion von Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Entscheidungselemente erstellen und verwalten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Entscheidungselemente erstellen, konfigurieren und verwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Artikelsammlungen verwalten
 

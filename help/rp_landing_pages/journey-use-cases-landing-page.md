@@ -20,7 +20,7 @@ Mit den Anwendungsfällen von Adobe Journey Optimizer können Sie aussagekräfti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Lernen durch Anwendungsfälle
 
@@ -30,7 +30,7 @@ Hier finden Sie praktische Beispiele und Strategien zur Maximierung der Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Suchen nach Erlebnisereignissen
 
@@ -40,7 +40,7 @@ Verwenden Sie Erlebnisereignisse, um Opt-outs zu verwalten, Inhalte zu personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Senden von Multi-Channel-Nachrichten
 
@@ -50,7 +50,7 @@ Erstellen Sie Journey, die Zielgruppensegmentierung und Ereignis-Trigger nutzen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Senden einer Nachricht mit Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integration von Adobe Campaign mit Journey Optimizer zum Senden von E-Mail-Nachr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Senden einer Nachricht an Abonnierende
 
@@ -70,7 +70,7 @@ Richten Sie Journey ein, um Nachrichten basierend auf Voreinstellungen und dynam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 

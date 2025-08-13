@@ -20,7 +20,7 @@ Mit der Funktion „Live-Bericht“ in Adobe Journey Optimizer können Sie die E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit dem Live-Bericht
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Live-Berichte aufrufen, anpassen und exportieren können, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Liste der Metriken
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Definitionen und Kategorien von Metriken vertraut, die i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Journey Live-Bericht
 
@@ -50,7 +50,7 @@ Analysieren Sie die Performance der Journey und der zugehörigen Kommunikationsk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Campaign Live-Bericht
 
@@ -60,7 +60,7 @@ Die Kampagnenleistung über mehrere Kanäle wie E-Mail, Push, SMS, Web und Brief
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu Landingpages
 
@@ -70,7 +70,7 @@ Bewerten Sie die Leistung der Landingpage mit Echtzeitmetriken wie Besuche, Konv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu Abonnements
 

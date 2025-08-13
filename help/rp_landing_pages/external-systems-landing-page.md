@@ -20,7 +20,7 @@ Durch die Integration Ihrer Journey mit externen Systemen in Adobe Journey Optim
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Best Practices für die Integration externer Systeme
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Best Practices und technische Richtlinien zur Integratio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Übersicht über die Begrenzungs-API und Implementierungshandbuch
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mithilfe der Begrenzungs-API Begrenzungseinstellungen für
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Drosselungs-API: Konfigurations- und Verwaltungshandbuch
 

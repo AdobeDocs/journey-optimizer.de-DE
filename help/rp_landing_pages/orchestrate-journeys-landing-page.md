@@ -20,7 +20,7 @@ Mit den Journey-Programmen in Adobe Journey Optimizer können Sie personalisiert
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Adobe Journey Optimizer Journey
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit den intuitiven Drag-and-Drop-Tools und den kontextuell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Umfassende Anleitung zum Erstellen und Verwalten von Journey
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Umfassendes Handbuch zum Verwalten von Journey
 
@@ -50,7 +50,7 @@ Effizientes Verwalten von Kunden-Journey mit Tools für Filterung, Profilverwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Aktivitäten in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrupp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erstellen von Ausdrücken in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Erstellen von Masterausdrücken für dynamische Workflows, Datenmanipulationen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Praktische Anwendungsfälle für Adobe Journey Optimizer
 

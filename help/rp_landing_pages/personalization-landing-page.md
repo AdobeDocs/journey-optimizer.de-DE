@@ -20,7 +20,7 @@ Personalization in Adobe Journey Optimizer ermöglicht es Ihnen, maßgeschneider
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Personalization
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Personalisierung in Adobe Journey Optimizer kennen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Hinzufügen und Validieren von Personalization
 
@@ -40,7 +40,7 @@ Meistern Sie den Personalisierungseditor, um benutzerdefinierte Inhalte für E-M
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Grundlegendes zur Syntax von Personalization
 
@@ -50,7 +50,7 @@ Machen Sie sich mit den Regeln und Beispielen der Handlebars-basierten Personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Wiederverwenden von Ausdrucksfragmenten
 
@@ -60,7 +60,7 @@ Wiederverwendbare Ausdrucksfragmente für eine effiziente und konsistente Person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten für Personalization (Beta)
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie AEP-Datensätze mit der Hilfsfunktion „datasetLookup“ 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Referenzhandbuch zu Hilfsfunktionen
 

@@ -30,7 +30,7 @@ Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des LINE-Kanals
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um den LINE-Kanal manuell zu konfiguri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Konfigurieren von LINE-Nachrichten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Journey und Kampagnen LINE-Nachrichten hinzufügen, Inhalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Prüfen und Senden von LINE-Nachrichten
 

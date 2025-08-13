@@ -20,7 +20,7 @@ Durch die Erstellung von Entscheidungs-Management-Berichten in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Entscheidungs-Management-Ereignissen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Entscheidungs-Management-Ereignisdatensätze für die Beri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf und Erkunden von XDM-Feldern für Decisioning-Ereignisse
 

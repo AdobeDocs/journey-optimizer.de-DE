@@ -20,7 +20,7 @@ Mit dem Entscheidungs-Management in Adobe Journey Optimizer können Sie der rich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit dem Entscheidungs-Management
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen des Entscheidungs-Managements kennen, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungskomponenten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Platzierungen, Entscheidungsregeln und Sammlungsqualifizie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen und Optimieren von Rankings
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Angebote mithilfe von Formeln und KI-Modellen ordnen könn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Angebote erstellen und verwalten
 
@@ -60,7 +60,7 @@ Schrittweise Anleitungen zum Erstellen personalisierter Angebote, Fallback-Optio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Entscheidungen erstellen und verwalten
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie mithilfe der Offer Decisioning-Engine Entscheidungen für 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden von Batch Decisioning
 

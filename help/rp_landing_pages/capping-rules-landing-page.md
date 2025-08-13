@@ -20,7 +20,7 @@ Die Verwaltung von Begrenzungsregeln f체r Nachrichten und Journey in Adobe Journ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Arbeiten mit Regels채tzen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Regels채tze erstellen, verwalten und aktivieren, um die H�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Journey-Begrenzung und Schlichtung
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Ober- und Untergrenzen f체r Journey-Eintr채ge festlegen, J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Frequenzlimitierung nach Kanal
 

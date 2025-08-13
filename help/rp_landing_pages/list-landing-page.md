@@ -20,7 +20,7 @@ Mit den Listenfunktionen in Adobe Journey Optimizer können Sie Daten in Ihren W
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der „distinct“-Funktion in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit der Funktion „distinct“ Listen deduplizieren könn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 distinctWithNull-Funktion - Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit „distinctWithNull“ verschiedene Werte oder Objekte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der „filter“-Funktion in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie mithilfe der „filter“-Funktion Filter auf Objektlisten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der getListItem-Funktion in Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mit der Funktion „getListItem“ ein Element aus einer L
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der „in“-Funktion in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie mit der Funktion „in“ überprüfen können, ob ein Wer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überschneidungsfunktion in Adobe Journey Optimizer
 

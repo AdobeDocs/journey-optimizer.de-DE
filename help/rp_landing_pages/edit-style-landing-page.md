@@ -20,7 +20,7 @@ Die E-Mail-Designer von Adobe Journey Optimizer enthält leistungsstarke Styling
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 E-Mail-Stile anpassen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Stilparameter wie E-Mail-Textkörper, Struktur und Inhalts
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 E-Mail-Hintergrund personalisieren
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Email Designer Hintergrundfarbe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Vertikale Ausrichtung und Abstand anpassen
 
@@ -50,7 +50,7 @@ Schrittweise Anweisungen zum Ändern der vertikalen Ausrichtung und des Abstands
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Inline-Stilattribute hinzufügen
 

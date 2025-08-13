@@ -20,7 +20,7 @@ Der „All Time Report“ in Adobe Journey Optimizer ist Ihr Tor zu Informatione
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit All Time Reporting
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer auf die Funktion „All Time Re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Umfassende Liste der Metriken
 
@@ -40,7 +40,7 @@ Erkunden Sie detaillierte Definitionen von Metriken, die über verschiedene Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Manuelles Konfigurieren von Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Schrittweise Anleitung zur manuellen Konfiguration der Integration mit Customer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Berichte verwalten
 
@@ -60,7 +60,7 @@ In diesem Video erfahren Sie, wie Sie Berichte analysieren, anpassen, exportiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Konfigurieren von Berichtsdatenquellen
 
@@ -70,7 +70,7 @@ Richten Sie Datenquellen und Datensätze ein, um Experimente zu ermöglichen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Ausschlussgründe
 

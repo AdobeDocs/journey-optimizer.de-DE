@@ -20,7 +20,7 @@ Durch die Konfiguration von Landingpages in Adobe Journey Optimizer können Sie 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Landingpage-Subdomains
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Subdomains für das Hosten von Landingpages in Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Definieren von Landingpage-Voreinstellungen
 

@@ -20,7 +20,7 @@ Mit Kampagnenberichten in Adobe Journey Optimizer können Sie kanalübergreifend
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Kampagnenbericht - Übersicht
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Kampagnenleistung mithilfe von Schlüsselmetriken wie 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Code-basierter Kampagnenbericht
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie personalisierte Erlebnisse und KI-gesteuerte Entscheidungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Inhaltskarte - Kampagnenbericht
 
@@ -50,7 +50,7 @@ Analysieren Sie Inhaltskarten-Kampagnen mit Metriken wie Anzeige- und Klick-Tren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Bericht zu Briefpostkampagnen
 
@@ -60,7 +60,7 @@ Bewerten Sie die Effizienz von Briefpostkampagnen, indem Sie den Versandstatus, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=de)
 
 E-Mail-Kampagnenbericht
 
@@ -70,7 +70,7 @@ Gewinnen Sie Einblicke in E-Mail-Leistungsmetriken, Interaktionsraten und Tricht
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=de)
 
 Experimentier-Kampagnenbericht
 

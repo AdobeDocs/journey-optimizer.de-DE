@@ -20,7 +20,7 @@ Zielgruppen in Adobe Journey Optimizer helfen Ihnen, zum richtigen Zeitpunkt mit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Audiences
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Zielgruppenverwaltung, Segmentierung und Aktivieru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Audiences
 
@@ -40,7 +40,7 @@ Entdecken Sie erweiterte Workflows für die Erstellung, Komposition und Anreiche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Zielgruppen in Kampagnen und Journey aktivieren
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Audiences aktivieren und in Kampagnen und Journey effektiv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Anreicherungsattribute nutzen
 

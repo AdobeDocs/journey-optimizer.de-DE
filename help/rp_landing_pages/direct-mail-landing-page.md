@@ -20,7 +20,7 @@ Briefpost in Adobe Journey Optimizer ermöglicht es Ihnen, Kunden offline zu err
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Briefpostkampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Briefpostkampagnen in Adobe Journey Optimizer, einschlie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen einer Briefpostkampagne
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen von Briefpostkampagnen und zum Konfiguriere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 So überprüfen und senden Sie eine Briefpostkampagne
 
@@ -50,7 +50,7 @@ Effektive Vorschau, Validierung, Aktivierung und Verwaltung des Einverständniss
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des Briefpostkanals
 

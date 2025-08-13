@@ -20,7 +20,7 @@ Mit den Entscheidungsfunktionen in Journey Optimizer können Sie Ihren Kunden ü
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in die Entscheidungsfunktionen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Tools und Funktionen in Adobe Journey Optimizer, die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Decisioning in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie die Bereitstellung personalisierter Inhalte mithilfe von E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Entscheidungs-Management in Adobe Journey Optimizer
 

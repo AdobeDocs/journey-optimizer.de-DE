@@ -20,7 +20,7 @@ Codebasierte Erlebnisse in Adobe Journey Optimizer ermöglichen Ihnen die Erstel
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erstellen und Erstellen von Code-basierten Erlebnissen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Code-basierte Erlebnisse in Adobe Journey Optimizer erstel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwenden bearbeitbarer Felder in Code-basierten Erlebnissen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie bearbeitbare Felder zu Vorlagen hinzufügen können, damit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Testen von Code-basierten Erlebnissen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Code-basierte Erlebnisse mithilfe von Testprofilen und ger
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Veröffentlichen und Verwalten von Code-basierten Erlebnissen
 

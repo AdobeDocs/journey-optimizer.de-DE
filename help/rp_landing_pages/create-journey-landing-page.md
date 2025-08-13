@@ -20,7 +20,7 @@ Das Erstellen eines Journey in Adobe Journey Optimizer ermöglicht es Ihnen, per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 So erstellen Sie Ihre erste Kunden-Journey
 
@@ -30,7 +30,7 @@ Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie Ihre erste Kunden-Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
@@ -40,7 +40,7 @@ Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 So entwerfen Sie Ihren Journey
 
@@ -50,7 +50,7 @@ Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Testen des Journey
 
@@ -60,7 +60,7 @@ Testen Sie Ihre Journey mit simulierten Profilen und erkennen Sie Fehler, bevor 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Testen von Journey im Probelauf-Modus
 
@@ -70,7 +70,7 @@ Validieren Sie Ihre Journey mit echten Produktionsdaten, ohne sich an Kunden zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Veröffentlichen einer Journey
 

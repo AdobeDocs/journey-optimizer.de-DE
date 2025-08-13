@@ -20,7 +20,7 @@ Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Inhaltserstellun
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie auf die Funktion des KI-Assistenten zugreifen und sie konf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 E-Mail-Inhaltserstellung mit KI
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhalte mit Markenausrichtun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
 
 Inhaltserstellung für Push-Benachrichtigungen
 
@@ -50,7 +50,7 @@ Erstellen und personalisieren Sie Push-Benachrichtigungs-Inhalte mit KI, einschl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
 
 SMS-Inhaltserstellung mit KI
 
@@ -60,7 +60,7 @@ Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
 
 Erstellen von Web-Seiteninhalten und Assets
 
@@ -70,7 +70,7 @@ Verbessern Sie den Inhalt und die Visualisierung von Web-Seiten mit dem KI-Assis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=de)
 
 Generieren von Landingpages mit KI
 
