@@ -34,7 +34,7 @@ ht-degree: 4%
 
 Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] **AJO-Nachrichtenexportdatensatz**.
 
-Die Datensätze werden dann drei Kalendertage lang im AJO-**** aufbewahrt, um sie in ein externes System Ihrer Wahl zu exportieren.
+Die Datensätze werden dann drei Kalendertage lang im AJO-**&#x200B;** aufbewahrt, um sie in ein externes System Ihrer Wahl zu exportieren.
 <!--
 ## Terminology
 
