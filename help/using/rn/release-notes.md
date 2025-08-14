@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
+<th><strong>PDF-Anhänge zu E-Mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt statische PDF-Dateien an E-Mail-Nachrichten anhängen, die mit Journey Optimizer gesendet werden.</p>
+<ul>
+<li>Pro Profil und Jahr können bis zu 6 Nachrichten mit PDF-Anhängen hinzugefügt werden.</li>
+<li>Die maximal zulässige Dateigröße für jeden Anhang beträgt 5 MB.</li>
+<li>Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie ein Attachment Pack-Add-on erwerben. Weitere Informationen erhalten Sie vom Adobe-Support.</li>
+</ul>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Journey Optimizer können Sie jetzt benutzerdefinierte Formulare erstellen und in Landingpages nutzen, um Profilattribute in dem für jedes Formular definierten Datensatz zu erfassen.</p>
+<p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
+<p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
    * **Ablaufdatum der Push-Benachrichtigung** - Sie können jetzt für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. Black Friday Sale) nach einem bestimmten Datum gesendet werden, um so die Bereitstellung schlechter Erlebnisse für Ihre Kunden zu vermeiden.
 
-* **Kanal - E-Mail**
-
-   * **PDF-Anhänge zu E-Mails** - Sie können jetzt statische PDF-Dateien an E-Mails anhängen, die mit Journey Optimizer gesendet werden. Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
-
 * **Kanal - SMS**
 
    * **Ungefähres Opt-out** - Wenn diese Option aktiviert ist, erkennt **unscharfe Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht des Benutzers zu überprüfen. Wenn der/die Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigt, wird das Abonnement gekündigt.
@@ -276,7 +296,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
    * **Unterstützung benutzerdefinierter Attribute mit einer Ein-Klick-Abmelde-URL** - Bei Journey Optimizer können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link in der E-Mail-Konfiguration definieren, wenn Sie das Einverständnis außerhalb von Adobe verwalten. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
-     Um Ihren Ein-Klick-Abmelde-Link weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden.
+     Um Ihren Ein-Klick-Abmelde-Link weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden.
 
 * **Entscheidungsfindung**
 
