@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige Optionen hinzuzufügen.</li>
 </ul>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt statische PDF-Dateien an E-Mail-Nachrichten anhängen, die mit Journey Optimizer gesendet werden.</p>
+<p>Sie können jetzt eine statische PDF-Datei an eine mit Journey Optimizer gesendete E-Mail-Nachricht anhängen.</p>
 <ul>
-<li>Pro Profil und Jahr können bis zu 6 Nachrichten mit PDF-Anhängen hinzugefügt werden.</li>
+<li>Pro Profil können bis zu 6 Nachrichten mit einem PDF-Anhang pro Jahr gesendet werden.</li>
 <li>Die maximal zulässige Dateigröße für jeden Anhang beträgt 5 MB.</li>
 <li>Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie ein Attachment Pack-Add-on erwerben. Weitere Informationen erhalten Sie vom Adobe-Support.</li>
 </ul>
