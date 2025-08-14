@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
    * **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
 
    * **Unterstützung von Umleitungen (302) in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen können jetzt HTTP-302-Umleitungen pro Anfrage verarbeiten. Dadurch können Journey-Benutzerinnen und -Benutzer eine Integration mit APIs vornehmen, die Anfragen an lokalisierte oder regionsspezifische URLs umleiten. Weiterleitungen werden automatisch gefolgt, um sicherzustellen, dass der richtige Inhalt ohne zusätzliche Konfiguration bereitgestellt wird.
+
+* **Datensätze**
+
+   * **Experience Decisioning-Objekt-Repository - Personalisierte**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und Berichterstellung.
 
 ## Kampagnenorchestrierung
 
