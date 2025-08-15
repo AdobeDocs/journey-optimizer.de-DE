@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Nachdem die Aktion definiert wurde, kann sie wie folgt verwendet werden:
 
 Weitere Informationen finden Sie unter „Benutzerdefinierte Aktionen“ in [!DNL Journey Optimizer]-Inbound-Kanäle, Kampagnen und Journeys#Sicherheitsvorkehrungen und Richtlinien.
 
-* **Standard-Zeitüberschreitung** - Beim Aufruf eines externen Endpunkts verwendet [!DNL Journey Optimizer] standardmäßig eine Zeitüberschreitung von 300 ms. Wenden Sie sich an den Adobe-Support-Mitarbeiter, um diese maximale Wartezeit für einen Endpunkt zu erhöhen.
-* **Durchsuchen des Antwortschemas und Validieren von**: Im Personalisierungseditor können Sie das Schema der Endpunktantwort nicht durchsuchen, wenn Sie Ausdrücke einfügen. [!DNL Journey Optimizer] validiert keine Verweise auf JSON-Attribute aus der in Ausdrücken verwendeten Antwort.
-* **Unterstützte Datentypen für Parameter** - Die unterstützten Datentypen für Payload-Variablenparameter, die über den externalDataLookup-Helper ersetzt werden sollen, sind `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
-* **Automatische Aktualisierung für aktualisierte Aktionen** - Änderungen an einer Aktionskonfiguration werden nicht in den entsprechenden externalDataLookup-Aufrufen in Live-Kampagnen und Journey-Aufrufen übernommen. Damit eine Änderung übernommen wird, müssen Sie alle Live-Kampagnen oder Journeys kopieren oder ändern, die die Aktion in einem externalDataLookup-Helper verwenden.
-* **Variablenersetzung** - Derzeit wird die Verwendung von Variablen in den Parameter des externen DataLookup-Helpers nicht unterstützt.
-* **Dynamischer Pfad** - Derzeit wird der dynamische URL-Pfad nicht unterstützt.
-* **Multi-Pass-Rendering** - Multi-Pass-Rendering wird unterstützt.
-* **Authentifizierung** - Im Moment werden Authentifizierungsoptionen in der Aktionskonfiguration vom externalDataLookup-Helper nicht unterstützt. In der Zwischenzeit können Sie bei der API-schlüsselbasierten Authentifizierung oder anderen Nur-Text-Autorisierungsschlüsseln diese als Header-Felder in der Aktionskonfiguration angeben.
+* **Standard-Timeout**: Standardmäßig verwendet [!DNL Journey Optimizer] beim Aufruf eines externen Endpunkts ein Timeout von 300 ms. Wenden Sie sich an den Adobe-Support, um dieses Timeout für einen Endpunkt zu erhöhen.
+* **Durchsuchen des Antwortschemas und Ausdrucksvalidierung**: Im Personalisierungseditor können Sie beim Einfügen von Ausdrücken das Schema der Endpunktantwort nicht durchsuchen. [!DNL Journey Optimizer] validiert keine Verweise auf JSON-Attribute aus der in Ausdrücken verwendeten Antwort.
+* **Unterstützte Datentypen für Parameter**: Die unterstützten Datentypen für Payload-Variablenparameter, die über den externalDataLookup-Helper ersetzt werden sollen, sind `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* **Automatische Aktualisierung für aktualisierte Aktionen**: Änderungen an einer Aktionskonfiguration werden nicht in den entsprechenden externalDataLookup-Aufrufen in Live-Kampagnen und Journey-Aufrufen übernommen. Damit eine Änderung übernommen wird, müssen Sie alle Live-Kampagnen oder Journeys kopieren oder ändern, die die Aktion in einem externalDataLookup-Helper verwenden.
+* **Variablenersetzung**: Derzeit wird die Verwendung von Variablen in den Parameter des externalDataLookup-Helpers nicht unterstützt.
+* **Dynamischer Pfad**: Derzeit wird der dynamische URL-Pfad nicht unterstützt.
+* **Multi-Pass-Rendering**: Multi-Pass-Rendering wird unterstützt.
+* **Authentifizierung**: Derzeit werden Authentifizierungsoptionen in der Aktionskonfiguration vom externalDataLookup-Helper nicht unterstützt. In der Zwischenzeit können Sie bei der API-schlüsselbasierten Authentifizierung oder anderen Nur-Text-Autorisierungsschlüsseln diese als Header-Felder in der Aktionskonfiguration angeben.
 
 ## Konfigurieren einer Aktion und Verwenden des Helpers
 
@@ -204,7 +204,7 @@ Beispiel:
 
 Im Abschnitt „Edge Delivery“ des Assurance-Trace wurde den Ausführungsdetails ein neuer customActions-Block mit Anfrage- und Antwortdetails ähnlich dem folgenden hinzugefügt. Der Fehlerabschnitt sollte beim Debugging helfen, wenn beim Ausführen benutzerdefinierter Aktionen Probleme aufgetreten sind
 
-![](assets/external-data-troubleshoot.png "Breite=50%")
+![](assets/external-data-troubleshoot.png "width=50%")
 
 ## Häufig gestellte Fragen
 

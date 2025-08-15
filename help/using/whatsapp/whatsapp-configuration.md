@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
-1. Wählen Sie das **WhatsApp Business-Konto**, mit dem Sie eine Verbindung zu Ihren WhatsApp-API-Anmeldeinformationen herstellen möchten.
+1. Wählen Sie das **WhatsApp-Geschäftskonto**, das mit Ihren WhatsApp-API-Anmeldedaten verbunden werden soll.
 
    ![](assets/whatsapp-api-2.png)
 
@@ -56,19 +56,19 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt Ihren Webhook für WhatsApp-Nachrichten erstellen. [Weitere Informationen](#whatsapp-webhook)
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun einen Webhook für WhatsApp-Nachrichten erstellen. [Weitere Informationen](#whatsapp-webhook)
 
 ## Erstellen eines Webhook {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
->title="Kategorie des eingehenden Keywords"
->abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: Sendet Ihre automatische Fallback-Antwort, wenn keine Keywords übereinstimmen."
+>title="Kategorie für eingehende Keywords"
+>abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: sendet Ihre automatische Fallback-Antwort, wenn es keine passenden Keywords gibt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Eingeben von Keywords"
->abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Keywords wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden „stop“ und „STOP“ gleich behandelt."
+>title="Eingeben der Keywords"
+>abstract="Sie können Keywords definieren, um bestimmte automatische Antworten basierend auf den eingegebenen Nachrichten der Benutzenden auszulösen. Bei Keywords wird nicht zwischen Groß- und Kleinschreibung unterschieden, z. B. werden „stop“ und „STOP“ gleich behandelt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -84,7 +84,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 >
 >Ohne angegebene Opt-in- oder Opt-out-Keywords sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
-Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre eingehenden Einstellungen zu konfigurieren.
+Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre Einstellungen für „eingehend“ zu konfigurieren.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -92,11 +92,11 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihren Webhook ein.
 
-1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Konfiguration auswählen“ die [API-](#whatsapp-credentials) aus, die Sie zuvor erstellt haben.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Konfiguration auswählen]** die zuvor erstellten [API-Anmeldedaten](#whatsapp-credentials) aus.
 
    ![](assets/webhook-2.png)
 
-1. Wählen Sie Ihre Kategorie **[!UICONTROL Eingehendes Keyword]** aus, z. B.:
+1. Wählen Sie Ihre **[!UICONTROL Kategorie für eingehende Keywords]** aus, z. B.:
 
    * **[!UICONTROL Opt-in-Keywords]**
    * **[!UICONTROL Opt-out-Keywords]**
@@ -106,7 +106,7 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 
    ![](assets/webhook-3.png)
 
-1. Geben Sie im Feld **[!UICONTROL Antwortnachricht]** die Nachricht ein, die beim Empfang eines konfigurierten Keywords gesendet wird, oder wählen Sie eine vordefinierte Option aus dem Dropdown-Menü aus.
+1. Geben Sie im Feld **[!UICONTROL Antwortnachricht]** die Nachricht ein, die jeweils beim Empfang eines konfigurierten Keywords gesendet wird, oder wählen Sie eine vordefinierte Option aus dem Dropdown-Menü aus.
 
    ![](assets/webhook-4.png)
 
@@ -115,7 +115,7 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
-1. Klicken Sie auf ![Hinzufügen](assets/do-not-localize/Smock_AddCircle_18_N.svg), um ein zusätzliches **[!UICONTROL Keyword für eingehende Nachrichten]** hinzuzufügen.
+1. Klicken Sie auf ![Hinzufügen](assets/do-not-localize/Smock_AddCircle_18_N.svg), um ein zusätzliches **[!UICONTROL eingehendes Keyword]** hinzuzufügen.
 
 1. Wenn Sie die Konfiguration Ihres WhatsApp-Webhooks abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -123,11 +123,11 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, besteht der 
 
    ![](assets/webhook-5.png)
 
-1. Um die vorhandene Konfiguration zu ändern und auf Ihre **[!UICONTROL Webhook-URL]** oder **[!UICONTROL Webhook-Verifizierungs-Token]** zuzugreifen, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]** , um die erforderlichen Änderungen vorzunehmen.
+1. Um die vorhandene Konfiguration zu ändern und auf Ihre **[!UICONTROL Webhook-URL]** oder Ihr **[!UICONTROL Webhook-Verifizierungs-Token]** zuzugreifen, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
-1. Kopieren Sie **[!UICONTROL hier generierten]** Webhook-Verifizierungs-Token) und fügen Sie ihn dann im Rahmen Ihrer Webhook-Einrichtung in die Meta-Benutzeroberfläche ein.
+1. Kopieren Sie das hier generierte **[!UICONTROL Webhook-Verifizierungs-Token]** und fügen Sie es dann im Rahmen Ihrer Webhook-Einrichtung in die Meta-Benutzeroberfläche ein.
 
-   Ausführliche Anweisungen dazu, wie und wo dieses Verifizierungs-Token hinzugefügt werden kann, finden Sie unter [Meta-Dokumentation](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
+   Ausführliche Anweisungen dazu, wie und wo dieses Verifizierungs-Token hinzugefügt werden kann, finden Sie in der [Meta-Dokumentation](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
 1. Rufen Sie über Ihren zuvor gesendeten **[!UICONTROL WhatsApp-Webhook]** Ihre neue **[!UICONTROL Webhook-URL]** auf und kopieren Sie sie.
 
@@ -157,7 +157,7 @@ Nachdem Sie Ihren Webhook konfiguriert haben, können Sie Ihre WhatsApp-Konfigur
 
    ![](assets/whatsapp-config-3.png)
 
-1. Geben Sie den **[!UICONTROL Absendernamen]** ein&#x200B; den Sie für Ihre Kommunikation verwenden möchten.
+1. Geben Sie den **[!UICONTROL Absendernamen]** ein, den Sie für Ihre Kommunikation verwenden möchten.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
@@ -180,6 +180,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

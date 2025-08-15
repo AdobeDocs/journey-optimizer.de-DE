@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 ## Reporting zur Entscheidungsfindung {#campaigns}
 
-Sobald Code-basierte Erlebnisse oder E-Mails mit Auswahlstrategien verfügbar sind, können Sie auf dedizierte Berichte zugreifen, um KPIs (Decision Key Performance Indicators) zu überwachen.
+Sobald Code-basierte Erlebnisse oder E-Mails mit Auswahlstrategien live sind, können Sie auf dedizierte Berichte zugreifen, um Key Performance Indicators (KPIs) zu überwachen.
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 

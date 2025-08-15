@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
    >[!CAUTION]
    >
-   >Fallback-Angebote sollten alle Darstellungen enthalten, die in einer [Entscheidung](../offer-activities/create-offer-activities.md) verwendet werden. Wenn eine Entscheidung beispielsweise fünf Angebote umfasst und jedes davon eine andere Darstellung hat, sollten fünf Darstellungen in das Fallback-Angebot aufgenommen werden.
+   >Fallback-Angebote sollten alle Darstellungen enthalten, die in einer [Entscheidung](../offer-activities/create-offer-activities.md) verwendet werden. Wenn eine Entscheidung beispielsweise 5 Angebote umfasst und jedes davon eine andere Darstellung hat, sollten 5 Darstellungen in das Fallback-Angebot aufgenommen werden.
 
 1. Nachdem die Darstellungen des Fallback-Angebots hinzugefügt wurden, wird eine Zusammenfassung angezeigt. Wenn alles ordnungsgemäß konfiguriert ist und Ihr Fallback-Angebot bereit für den Versand an Kunden ist, klicken Sie auf **[!UICONTROL Beenden]** und wählen Sie **[!UICONTROL Speichern und genehmigen]**.
 
@@ -62,5 +62,5 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341350?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

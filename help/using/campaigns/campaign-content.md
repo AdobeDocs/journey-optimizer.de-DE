@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bearbeiten des Inhalts der Aktionskampagne
-description: Erfahren Sie, wie Sie den Inhalt der Aktionskampagne bearbeiten.
+title: Bearbeiten des Inhalts einer Aktionskampagne
+description: Erfahren Sie, wie Sie den Inhalt einer Aktionskampagne bearbeiten.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Bearbeiten des Inhalts der Aktionskampagne {#action-campaign-content}
+# Bearbeiten des Inhalts einer Aktionskampagne {#action-campaign-content}
 
 Um den Nachrichteninhalt zu konfigurieren, navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** oder klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -59,4 +59,4 @@ Klicken Sie auf den Linkspfeil, um zum Bildschirm der Kampagnenerstellung zurüc
 
 ## Nächste Schritte {#next}
 
-Sobald der Inhalt Ihrer Aktionskampagne fertig ist, können Sie die Kampagnenzielgruppe definieren. [Weitere Informationen](campaign-audience.md)
+Sobald der Inhalt Ihrer Aktionskampagne fertiggestellt ist, können Sie die Zielgruppe der Kampagne definieren. [Weitere Informationen](campaign-audience.md)

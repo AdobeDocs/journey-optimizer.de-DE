@@ -11,7 +11,7 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, sodass die Attribute nicht einzeln manuell aktualisiert werden müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
 
-## Schutzmechanismen und Einschränkungen {#guidelines}
+## Leitlinien und Einschränkungen {#guidelines}
 
 Bevor Sie beginnen, beachten Sie die folgenden Einschränkungen und Richtlinien:
 

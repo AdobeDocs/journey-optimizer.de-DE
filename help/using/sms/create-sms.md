@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
 1. Klicken Sie auf das Feld **[!UICONTROL Nachricht]**, um den Personalisierungseditor zu öffnen.
 
-   Für RCS-Messaging mit Infobip, Twilio oder anderen Drittanbietern fügen Sie die erforderliche JSON-Payload in Ihre [benutzerdefinierte SMS-Konfiguration](sms-configuration-custom.md#api-credential) ein.
+   Fügen Sie für RCS-Messaging mit Infobip, Twilio oder anderen Drittanbietern die erforderliche JSON-Payload in Ihre [benutzerdefinierte SMS-Konfiguration](sms-configuration-custom.md#api-credential) ein.
 
    ![](assets/sms-content.png)
 

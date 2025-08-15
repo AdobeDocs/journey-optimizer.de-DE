@@ -10,9 +10,9 @@ level: Experienced
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, Quarantäne
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Mögliche Ursachen für einen fehlgeschlagenen Versand sind:
 
 | Grund | Beschreibung | Kategorie |
 | --- | --- | --- |
-| **[!UICONTROL Ungültiger Empfänger]** | Die Empfängeradresse ist ungültig oder nicht vorhanden. | Hard |
+| **[!UICONTROL Ungültige Empfängerin bzw. ungültiger Empfänger]** | Die Empfängeradresse ist ungültig oder nicht vorhanden. | Hard |
 | **[!UICONTROL Soft-Bounce]** | Die Nachricht führte aus einem anderen Grund als den in dieser Tabelle aufgeführten Soft-Fehlern zu einem Softbounce, z. B. beim Senden über der von einem ISP empfohlenen zulässigen Rate. | Soft |
 | **[!UICONTROL DNS-Fehler]** | Die Nachricht führte aufgrund eines DNS-Fehlers zu einem Bounce. | Soft |
 | **[!UICONTROL Postfach voll]** | Die Nachricht führte zu einem Bounce, weil das Postfach des Empfängers voll ist und keine weiteren Nachrichten akzeptieren kann. | Soft |

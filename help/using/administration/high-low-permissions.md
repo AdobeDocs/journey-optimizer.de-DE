@@ -10,9 +10,9 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -523,17 +523,17 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-## Orchestrierte Kampagnenressource {#ai-orchestrated-campaign}
+## Ressource für orchestrierte Kampagnen {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** der Berechtigung auf hoher Ebene können Benutzende neue orchestrierte Kampagnen erstellen und bearbeiten/löschen.
+* Mit der Berechtigung **[!DNL Manage orchestrated campaigns]** auf hoher Ebene können Benutzende Kampagnen erstellen und orchestrierte Kampagnen bearbeiten/löschen.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 
    * Spezifisch für Journey Optimizer:
 
-      * orchestered_campaigns.read
-      * orchestered_campaigns.write
-      * orchestered_campaigns.delete
+      * orchestrated_campaigns.read
+      * orchestrated_campaigns.write
+      * orchestrated_campaigns.delete
       * cjm-web-subdomain.read
       * cjm-message.read
       * cjm-message.write
@@ -557,7 +557,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL Manage orchestrated campaigns admin]** der Berechtigung auf hoher Ebene können Benutzende neue Links und Abstimmungen zwischen Adobe Experience Platform-Profilen und Entitäten des relationalen Speichers erstellen und bearbeiten/löschen.
+* Mit der Berechtigung **[!DNL Manage orchestrated campaigns admin]** auf hoher Ebene können Benutzende neue Links und Abstimmungen zwischen Adobe Experience Platform-Profilen und Entitäten des relationalen Speichers erstellen und bearbeiten/löschen.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -569,7 +569,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL Publish orchestrated campaigns]** der Berechtigung auf hoher Ebene können Benutzende orchestrierte Kampagnen veröffentlichen.
+* Mit der Berechtigung **[!DNL Publish orchestrated campaigns]** auf hoher Ebene können Benutzende orchestrierte Kampagnen veröffentlichen.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -588,7 +588,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns]** der Berechtigung auf hoher Ebene können Benutzende orchestrierte Kampagnen und deren Inhalte anzeigen.
+* Mit der Berechtigung **[!DNL View orchestrated campaigns]** auf hoher Ebene können Benutzende orchestrierte Kampagnen und deren Inhalte anzeigen.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -609,7 +609,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns admin]** der Berechtigung auf hoher Ebene können Benutzende die Admin-Einstellungen anzeigen, aber keine Einstellungen bearbeiten.
+* Mit der Berechtigung **[!DNL View orchestrated campaigns admin]** auf hoher Ebene können Benutzende die Admin-Einstellungen anzeigen, aber keine Einstellungen bearbeiten.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -619,7 +619,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns report]** der Berechtigung auf hoher Ebene können Benutzende orchestrierte Kampagnenleistungen sowohl im Live- als auch im Geschäftsbericht anzeigen.
+* Mit der Berechtigung **[!DNL View orchestrated campaigns report]** auf hoher Ebene können Benutzende die Leistung der orchestrierten Kampagnen sowohl im Live- als auch im Geschäftsbericht anzeigen.
 
 +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:
 

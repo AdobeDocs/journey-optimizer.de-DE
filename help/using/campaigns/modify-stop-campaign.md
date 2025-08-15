@@ -11,9 +11,9 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="Orchestrierte Inventarkampagnen"
+>title="Inventar der orchestrierten Kampagnen"
 >abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der orchestrierten Kampagnen zugreifen, ihren aktuellen Status sowie das Datum der letzten/nächsten Ausführung überprüfen und eine neue orchestrierte Kampagne erstellen."
 
 >[!CONTEXTUALHELP]
@@ -42,7 +42,7 @@ Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden
 
 >[!TAB Aktionskampagnen]
 
-Wählen Sie die **[!UICONTROL Aktion]** aus, um auf die Liste der Aktionskampagnen zuzugreifen.
+Wählen Sie die Registerkarte **[!UICONTROL Aktion]** aus, um auf die Liste aller Aktionskampagnen zuzugreifen.
 
 Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt. Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
@@ -58,30 +58,30 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 >[!TAB Orchestrierte Kampagnen]
 
-Wählen Sie die **[!UICONTROL Orchestrierung]**, um auf die Liste der orchestrierten Kampagnen zuzugreifen.
+Wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** aus, um auf die Liste der orchestrierten Kampagnen zuzugreifen.
 
-![Bild mit dem Inventar der orchestrierten Kampagnen](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![Bild, das das Inventar der orchestrierten Kampagnen zeigt](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[ der Kampagne, ](#status) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
+Zu jeder orchestrierten Kampagne in der Liste werden Informationen angezeigt, beispielsweise der aktuelle [Status](#status) der Kampagne, der zugehörige Kanal und zugehörige Tags oder der Zeitpunkt der letzten Änderung. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
 
 >[!ENDTABS]
 
-Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können beispielsweise Kampagnen so filtern, dass nur die mit einem bestimmten Kanal oder Tag verknüpften oder die in einem bestimmten Datumsbereich erstellten Kampagnen angezeigt werden.
+Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können die Kampagnen beispielsweise so filtern, dass nur die einem bestimmten Kanal oder Tag angehörenden oder nur die während eines bestimmten Datumsbereichs erstellten Kampagnen angezeigt werden.
 
 Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung der folgenden Vorgänge.
 
-![Bild mit dem Kampagneninventar](assets/inventory-actions.png)
+![Bild, das das Kampagneninventar zeigt](assets/inventory-actions.png)
 
-* **[!UICONTROL Alle Zeitberichte anzeigen]**/**[!UICONTROL Bericht zu letzten 24 Stunden anzeigen]** - Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer Kampagnen zu messen und zu visualisieren.
+* **[!UICONTROL Bericht für gesamte Zeit anzeigen]**/**[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**: Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren.
 * **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags.
-* **[!UICONTROL Duplizieren]** - In einigen Fällen müssen Sie möglicherweise eine Kampagne duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde.
-* **[!UICONTROL Löschen]**: Löscht die Kampagne. Diese Aktion ist nur für Kampagnen **[!UICONTROL Entwurf]** verfügbar.
+* **[!UICONTROL Duplizieren]**: In einigen Fällen müssen Sie möglicherweise eine Kampagne duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde.
+* **[!UICONTROL Löschen]**: Löscht die Kampagne. Diese Aktion ist nur für Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
 * **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
 
-Für von einer Aktion und API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
+Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
 
-* **[!UICONTROL Zu Paket hinzufügen]** - Fügen Sie die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL Entwurfsversion öffnen]** - Wenn eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
+* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Exportieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
 ## Kampagnenstatus und Warnungen {#statuses}
 
@@ -102,9 +102,9 @@ Kampagnen können mehrere Status aufweisen:
 
 >[!NOTE]
 >
->Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version einer von einer Aktion oder API ausgelösten Kampagne erstellt wurde und noch nicht aktiviert wurde.
+>Das Symbol „Entwurfsversion öffnen“ neben einem Status des Typs **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Aktionskampagne bzw. der durch API ausgelösten Kampagne erstellt und noch nicht aktiviert wurde.
 
->[!TAB Kampagnen, die durch API ausgelöst werden]
+>[!TAB Durch API ausgelöste Kampagnen]
 
 * **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
 * **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
@@ -117,18 +117,18 @@ Kampagnen können mehrere Status aufweisen:
 
 >[!NOTE]
 >
->Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version einer von einer Aktion oder API ausgelösten Kampagne erstellt wurde und noch nicht aktiviert wurde.
+>Das Symbol „Entwurfsversion öffnen“ neben einem Status des Typs **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Aktionskampagne bzw. der durch API ausgelösten Kampagne erstellt und noch nicht aktiviert wurde.
 
 >[!TAB Orchestrierte Kampagnen]
 
 * **[!UICONTROL Entwurf]**: Die orchestrierte Kampagne wurde erstellt. Sie wurde noch nicht veröffentlicht.
-* **[!UICONTROL Veröffentlichen]**: Die orchestrierte Kampagne wird veröffentlicht.
+* **[!UICONTROL Wird veröffentlicht]**: Die orchestrierte Kampagne wird gerade veröffentlicht.
 * **[!UICONTROL Live]**: Die orchestrierte Kampagne wurde veröffentlicht und wird ausgeführt.
 * **[!UICONTROL Geplant]**: Die Ausführung der orchestrierten Kampagne wurde geplant.
 * **[!UICONTROL Abgeschlossen]**: Die Ausführung der orchestrierten Kampagne ist abgeschlossen. Der Status „Abgeschlossen“ wird einer Kampagne automatisch bis zu 3 Tage nach dem fehlerfreien Versand von Nachrichten zugewiesen.
 * **[!UICONTROL Geschlossen]**: Dieser Status wird angezeigt, wenn eine wiederkehrende Kampagne geschlossen wurde. Die Kampagne wird ausgeführt, bis alle Aktivitäten abgeschlossen sind, aber es können keine weiteren Profile in die Kampagne eintreten.
-* **[!UICONTROL Archiviert]**: Die koordinierte Kampagne wurde archiviert. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Sie können eine archivierte Kampagne bei Bedarf duplizieren, um sie weiter zu bearbeiten.
-* **[!UICONTROL Angehalten]**: Die Ausführung der orchestrierten Kampagne wurde angehalten. Um die Kampagne erneut zu starten, müssen Sie sie duplizieren.
+* **[!UICONTROL Archiviert]**: Die orchestrierte Kampagne wurde archiviert. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Sie können eine archivierte Kampagne bei Bedarf duplizieren, um sie weiter zu bearbeiten.
+* **[!UICONTROL Gestoppt]**: Die Ausführung der orchestrierten Kampagne wurde gestoppt. Um die Kampagne erneut zu starten, müssen Sie sie duplizieren.
 
 >[!ENDTABS]
 
@@ -142,7 +142,7 @@ Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansi
 
 >[!AVAILABILITY]
 >
->Die Kalenderansicht ist derzeit nur für von Aktionen und API ausgelöste Kampagnen für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”} zum Anfordern des Zugriffs.
+>Die Kalenderansicht ist derzeit nur für von Aktionen und API ausgelöste Kampagnen für bestimmte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”} zum Anfordern des Zugriffs.
 >
 >Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Rückmeldungen und Anfragen über die Schaltfläche **[!UICONTROL Beta-Feedback]** im oberen Menü.
 
@@ -164,13 +164,13 @@ Wählen Sie eine Kampagne aus der Liste aus, um Details für diese spezifische K
 
 ![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
 
-## Ändern und Beenden wiederkehrender Aktionskampagnen {#modify}
+## Ändern und Stoppen wiederkehrender Aktionskampagnen {#modify}
 
 ### Ändern einer Aktionskampagne
 
-Gehen Sie wie folgt vor, um eine wiederkehrende Aktionskampagne zu ändern und eine neue Version zu erstellen:
+Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Aktionskampagne zu ändern und zu erstellen:
 
-1. Öffnen Sie die Aktionskampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
+1. Öffnen Sie die Aktionskampagne und klicken Sie dann auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
 
 1. Eine neue Version der Kampagne wird erstellt. Sie können die Live-Version überprüfen, indem Sie auf **[!UICONTROL Live-Version öffnen]** klicken.
 

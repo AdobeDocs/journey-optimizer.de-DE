@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#replaceAll">Alle ersetzen</a></td><td>Diese Funktion ersetzt alle Teilzeichenfolgen eines Textes, die mit dem „Ziel“ übereinstimmen, durch die angegebene literale „Ersatz“-Zeichenfolge</td>
     </tr>
     <tr>
-        <td><a href="string.md#rightTrim">Rechts kürzen</a></td><td>Diese Funktion entfernt Leerzeichen am Ende einer Zeichenfolge </td>
+        <td><a href="string.md#rightTrim">Kürzung rechts</a></td><td>Diese Funktion entfernt Leerzeichen am Ende einer Zeichenfolge </td>
     </tr>
     <tr>
         <td><a href="string.md#sha256">SHA256</a></td><td>Diese Funktion berechnet den SHA256-Hash einer Zeichenfolge und gibt ihn zurück.</td>

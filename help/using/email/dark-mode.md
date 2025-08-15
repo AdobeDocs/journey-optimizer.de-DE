@@ -13,9 +13,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um auf den dunklen Modus im E-Mail-Designer zuzugreifen
 
    ![](assets/dark-mode-default.png)
 
-Standardmäßig wendet die Vorschau des Dunkelmodus-Modus von Email Designer das Farbschema „Vollfarbinvertierung“ auf alle Elemente außer Bildern und Symbolen an.
+Standardmäßig wendet die Vorschau des dunklen Modus im E-Mail-Designer das Farbschema „Vollfarbinvertierung“ auf alle Elemente außer auf Bilder und Symbole an. 
 
 Das bedeutet, dass Bereiche mit hellen und dunklen Elementen erkannt und invertiert werden, sodass helle Hintergründe dunkel und dunkler Text hell werden, während dunkle Hintergründe hell und heller Text dunkel werden.
 
@@ -137,7 +137,7 @@ Um den Stil des E-Mail-Designers für den benutzerdefinierten dunklen Modus zu n
 
 Gehen Sie wie folgt vor, um die Einstellungen für den benutzerdefinierten dunklen Modus zu definieren.
 
-1. Stellen Sie sicher, dass Sie in der E **[!UICONTROL Mail-Designer in den]** Dunkelmodus“ wechseln. [Weitere Informationen](#preview-dark-mode)
+1. Stellen Sie sicher, dass Sie im E-Mail-Designer in den **[!UICONTROL Dunklen Modus]** wechseln. [Weitere Informationen](#preview-dark-mode)
 
 1. Bearbeiten Sie alle Stilattribute wie Text, Hintergrund, Schaltflächen usw.
 
@@ -155,7 +155,7 @@ Gehen Sie wie folgt vor, um die Einstellungen für den benutzerdefinierten dunkl
    >
    >Die Live-Ansicht ist eine allgemeine Vorschau, die vergleicht, wie das Rendering über verschiedene Gerätegrößen hinweg aussehen könnte. Das endgültige Rendering kann je nach E-Mail-Client der Empfängerinnen und Empfänger variieren.
 
-1. Wenn Sie mit den Änderungen für den Dunkelmodus zufrieden sind, klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
+1. Wenn Sie mit den Änderungen für den dunklen Modus zufrieden sind, klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/dark-mode-simulate.png)
 
@@ -211,11 +211,11 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## E-Mail-Clients mit Unterstützung für den dunklen Modus  {#supporting-email-clients}
 
-Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den Dunkelmodus unterstützen.
+Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den dunklen Modus unterstützen. 
 
 >[!NOTE]
 >
->Einige Versionen dieser E-Mail-Clients unterstützen den Dunkelmodus nicht. Aus Gründen der Klarheit werden sie daher auch in dieser Tabelle aufgeführt.
+>Einige Versionen dieser E-Mail-Clients unterstützen den dunklen Modus jedoch nicht. Diese werden aus Gründen der Klarheit in dieser Tabelle aufgeführt.
 
 | E-Mail-Clients mit Unterstützung für den dunklen Modus  | Kompatible Versionen | *Nicht unterstützte Versionen* |
 |---------|----------|---------|
@@ -241,7 +241,7 @@ Nachfolgend finden Sie eine Liste der wichtigsten E-Mail-Clients, die den Dunkel
 
 >[!WARNING]
 >
->Das endgültige Rendering im Dunkelmodus hängt von jedem E-Mail-Client ab, sodass die Ergebnisse von einem zum anderen variieren können.
+>Das endgültige Rendering im dunklen Modus hängt vom individuellen E-Mail-Client ab, die Ergebnisse können daher variieren. 
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}

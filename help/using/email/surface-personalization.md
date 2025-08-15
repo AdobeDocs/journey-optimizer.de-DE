@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
 
 Gehen Sie wie folgt vor, um personalisierte URL-Tracking-Parameter zu verwenden.
 
-1. Gehen Sie zum Abschnitt **[!UICONTROL URL-Tracking]** Parameter Ihrer E-Mail-Kanalkonfiguration. [Weitere Informationen](url-tracking.md)
+1. Gehen Sie zum Abschnitt **[!UICONTROL URL-Tracking-Parameter]** Ihrer E-Mail-Kanalkonfiguration. [Weitere Informationen](url-tracking.md)
 
 1. Klicken Sie auf das Symbol „Bearbeiten“ neben den einzelnen Feldern. Zusätzlich zu den kontextuellen Attributen können Sie Profilattribute auswählen.
 

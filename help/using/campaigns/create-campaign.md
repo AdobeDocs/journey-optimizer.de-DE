@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -31,14 +31,14 @@ Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch verse
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Wichtige Schritte zur Erstellung von Aktionskampagnen {#steps}
+## Wichtige Schritte beim Erstellen einer Aktionskampagne {#steps}
 
-1. [Definieren der Eigenschaften der Aktionskampagne](campaign-properties.md)
+1. [Definieren der Eigenschaften einer Aktionskampagne](campaign-properties.md)
 1. [Konfigurieren der Kampagnenaktion](campaign-action.md)
-1. [Bearbeiten des Inhalts der Aktionskampagne](campaign-content.md)
-1. [Definieren der Aktionskampagnen-Audience](campaign-audience.md)
+1. [Bearbeiten des Inhalts einer Aktionskampagne](campaign-content.md)
+1. [Definieren der Zielgruppe einer Aktionskampagne](campaign-audience.md)
 1. [Planen der Aktionskampagne](campaign-schedule.md)
-1. [Kampagne „Aktion“ überprüfen und aktivieren](review-activate-campaign.md)
+1. [Überprüfen und Aktivieren der Aktionskampagne](review-activate-campaign.md)
 
 >[!IMPORTANT]
 >

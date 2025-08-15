@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2549'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -312,7 +312,7 @@ Die findet folgendermaßen statt:
 >title="Hinzufügen eines Fallback-Angebots"
 >abstract="Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das Fallback-Angebot fest, das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, angezeigt wird."
 
-Nachdem Sie die Entscheidungsumfänge definiert haben, definieren Sie das [Fallback-Angebot](../offer-library/creating-fallback-offers.md), das Kunden, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen, als letztes Mittel angezeigt wird.
+Nachdem Sie die Entscheidungsumfänge definiert haben, legen Sie das [Fallback-Angebot](../offer-library/creating-fallback-offers.md) fest, das den Kundinnen und Kunden angezeigt wird, die nicht den Eignungsregeln und Einschränkungen des Angebots entsprechen.
 
 Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus.
 
@@ -320,7 +320,7 @@ Wählen Sie dazu das Fallback-Angebot aus der Liste der verfügbaren Fallback-An
 
 >[!NOTE]
 >
->Fallback-Angebote sollten alle in einer Entscheidung verwendeten Darstellungen enthalten. Wenn eine Entscheidung beispielsweise fünf Angebote umfasst und jedes davon eine andere Darstellung hat, sollten fünf Darstellungen in das Fallback-Angebot aufgenommen werden.
+>Fallback-Angebote sollten alle in einer Entscheidung verwendeten Darstellungen enthalten. Wenn eine Entscheidung beispielsweise 5 Angebote umfasst und jedes davon eine andere Darstellung hat, sollten 5 Darstellungen in das Fallback-Angebot aufgenommen werden.
 
 Klicken Sie nach der Auswahl auf **[!UICONTROL Weiter]**.
 
@@ -405,6 +405,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

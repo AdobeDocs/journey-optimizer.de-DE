@@ -10,15 +10,15 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Überprüfen und Aktivieren der Kampagne, die durch API ausgelöst wird {#api-review}
 
-Nachdem Ihre Aktionskampagne konfiguriert wurde, müssen Sie ihren Parameter und Inhalt überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
+Sobald Ihre Aktionskampagne konfiguriert ist, müssen Sie deren Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 
 >[!IMPORTANT]
 >

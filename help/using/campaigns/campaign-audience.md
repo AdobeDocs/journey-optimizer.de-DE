@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definieren der Aktionskampagnen-Audience
-description: Erfahren Sie, wie Sie die Audience der Aktionskampagne definieren.
+title: Definieren der Zielgruppe einer Aktionskampagne
+description: Erfahren Sie, wie Sie die Zielgruppe der Aktionskampagne definieren.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 5635ef04-c69d-4397-9762-7a6f1265d453
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Definieren der Aktionskampagnen-Audience {#action-campaign-audience}
+# Definieren der Zielgruppe einer Aktionskampagne {#action-campaign-audience}
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zielgruppe]** die Zielgruppe der Kampagne.
 
@@ -39,4 +39,4 @@ Definieren Sie auf der Registerkarte **[!UICONTROL Zielgruppe]** die Zielgruppe 
 
 ## Nächste Schritte {#next}
 
-Sobald die Audience Ihrer Aktionskampagne fertig ist, können Sie die Kampagne planen. [Weitere Informationen](campaign-schedule.md)
+Sobald die Zielgruppe Ihrer Aktionskampagne fertiggestellt ist, können Sie die Kampagne planen. [Weitere Informationen](campaign-schedule.md)

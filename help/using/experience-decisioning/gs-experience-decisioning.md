@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](
 
 >[!IMPORTANT]
 >
->Entscheidungsrichtlinien sind nur für die Verwendung in Code-basierten Erlebnis- und E-Mail-Kampagnen verfügbar.
+>Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen und E-Mail-Kampagnen verfügbar.
 
 ➡️ In [diesem Abschnitt](experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Entscheidungen erstellt und in Inhaltsexperimenten mit dem Code-basierten Erlebniskanal verwendet werden können.
 
@@ -56,7 +56,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-   +++
++++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
@@ -82,7 +82,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Informationen zum Erstellen von Auswahlstrategien in der Benutzeroberfläche](selection-strategies.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/selection-strategies/create.md))
 
-1. **Erstellen Sie eine Entscheidungsrichtlinie und betten Sie sie in Ihre Code-basierte oder E-Mail-Journey/Kampagne ein**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die geeigneten Entscheidungselemente zu bestimmen, die der gewünschten Zielgruppe angezeigt werden sollen.
+1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte oder E-Mail-Journey/-Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
 
    ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).

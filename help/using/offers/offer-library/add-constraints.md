@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2752'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -123,7 +123,7 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 
 * **Zielgruppen**
 
-  Zielgruppen sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Jedoch wird beim Offer Decisioning-Prozess die Zielgruppe nicht neu berechnet, weshalb sie zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
+  Zielgruppen sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Jedoch wird bei der Angebotsverwaltung die Zielgruppe nicht neu berechnet, weshalb sie zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
 
   Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../../audience/about-audiences.md).
 
@@ -258,7 +258,7 @@ Im Feld **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** können Sie festlegen
 
 * Nach Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern. Sie können die Frequenzbegrenzung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzbegrenzung veröffentlicht wurde.
 
-* Es kann eine Pufferzeit von bis zu 15 Minuten geben, bevor Ereignisse auf die Frequenzlimitierung angerechnet werden. Dies kann der Fall sein, wenn ein Angebot genehmigt wird oder wenn die Begrenzung erstellt wird - je nachdem, was zuletzt eintritt.
+* Es kann eine Pufferzeit von bis zu 15 Minuten geben, bevor Ereignisse den Frequenzbegrenzungswerten angerechnet werden, entweder beim Genehmigen des Angebots oder beim Erstellen der Begrenzung – je nachdem, was zuletzt eintritt.
 
 +++ **Wichtige Informationen: Frequenzbegrenzung und Entscheidungs-Management-APIs**
 

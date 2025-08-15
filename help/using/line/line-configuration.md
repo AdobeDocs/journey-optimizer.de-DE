@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 78%
 
 Sie können Ihre Konfiguration nun beim Erstellen Ihrer LINE-Nachricht auswählen.
 
-## Konfigurieren der LINE-Kanal-API-Einstellungen {#line-api}
+## Konfigurieren der LINE-Kanal-Einstellungs-API {#line-api}
 
 Diese API richtet Kanaleinstellungen ein, die die erforderlichen Autorisierungs- und Konfigurationsdetails für die Verbindung mit der LINE-Messaging-API speichern. Diese Einstellungen ermöglichen es Adobe Journey Optimizer, sich zu authentifizieren und Nachrichten über LINE mit den bereitgestellten Anmeldeinformationen zu senden.
 
@@ -66,13 +66,13 @@ POST https://platform.adobe.io/journey/imp/config/channel-settings
 | Header-Name | Beschreibung |
 |-|-|
 | Autorisierung | Benutzer-Token Ihres technischen Kontos |
-| x-api-key | Client-ID aus Adobe Developer Console |
-| x-gw-ims-org-id | Ihre IMS-Organisations-ID |
-| x-sandbox-name | Sandbox-Name, z. B. prod |
-| Inhaltstyp | Muss application/json sein |
+| x-api-key | Client-ID aus der Adobe Developer Console |
+| x-gw-ims-org-id | Die ID Ihrer IMS-Organisation |
+| x-sandbox-name | Sandbox-Name, z. B. prod |
+| Content-Type | Muss „application“/„json“ sein |
 
 
-**Anfragetext**
+**Anfrageinhalt**
 
 ```json
 {

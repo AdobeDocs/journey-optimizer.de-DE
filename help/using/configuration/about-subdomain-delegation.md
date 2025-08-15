@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,11 +54,11 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 
 ## Methoden der Subdomain-Konfiguration {#subdomain-delegation-methods}
 
-Mit der Subdomain-Konfiguration können Sie einen Unterabschnitt Ihrer Domain (technisch gesehen eine „DNS-Zone„) für die Verwendung mit Adobe Campaign konfigurieren.
+Mithilfe einer Subdomain-Konfiguration können Sie einen Teilabschnitt Ihrer Domain (technisch eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren.
 
-Die verfügbaren Einrichtungsmethoden sind wie folgt.
+Die folgenden Methoden sind für die Einrichtung verfügbar:
 
-### Subdomain vollständig an Adobe delegieren (empfohlen) {#full-subdomain-delegation}
+### Vollständiges Delegieren einer Subdomain an Adobe (empfohlen) {#full-subdomain-delegation}
 
 [!DNL Journey Optimizer] ermöglicht die vollständige Delegation Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
@@ -70,7 +70,7 @@ Adobe stellt sicher, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die 
 >
 >Die vollständige Subdomain-Delegierung ist die bevorzugte Methode.
 
-Wie Sie eine Subdomain vollständig an Adobe delegieren, erfahren Sie in [diesem Abschnitt](delegate-subdomain.md#set-up-subdomain).
+In [diesem Abschnitt](delegate-subdomain.md#set-up-subdomain) erfahren Sie, wie Sie eine Subdomain vollständig an Adobe delegieren können.
 
 ### Einrichten einer Subdomain mit CNAMEs {#cname-subdomain-setup}
 
@@ -80,11 +80,11 @@ Mit der Einrichtung einer CNAME-Subdomain können Sie eine Subdomain erstellen u
 
 >[!CAUTION]
 >
->Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Dieser Ansatz erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten.
+>Die CNAME-Methode wird empfohlen, wenn die Richtlinien Ihrer Organisation die Methode der vollständigen Subdomain-Delegierung einschränken. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten.
 >
->Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
+>Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten von DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
-In diesem Abschnitt erfahren Sie, wie Sie eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge [ verweisen](delegate-subdomain.md#cname-subdomain-setup).
+In [diesem Abschnitt](delegate-subdomain.md#cname-subdomain-setup) erfahren Sie, wie Sie eine Subdomain mit CNAMEs erstellen, die auf Adobe-spezifische Einträge verweisen.
 
 ## Vergleich der Konfigurationsmethoden
 
@@ -104,6 +104,6 @@ Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise di
 
 Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de){target="_blank"}.
 
-Wenn Sie Fragen zu den Konfigurationsmethoden von Subdomains haben, wenden Sie sich an Adobe oder die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
+Bei Fragen zu den Methoden der Subdomain-Konfiguration wenden Sie sich an Adobe oder die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
 
 

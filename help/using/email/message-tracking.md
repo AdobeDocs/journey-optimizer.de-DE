@@ -10,21 +10,21 @@ level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen von Links und Verfolgen von Nachrichten {#tracking}
 
-Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen und die gesendeten Nachrichten zu verfolgen, um das Verhalten Ihrer Empfänger zu überwachen.
+Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen und die gesendeten Nachrichten zu verfolgen und so das Verhalten Ihrer Empfängerinnen und Empfänger zu überwachen.
 
 >[!NOTE]
 >
->Wenn Links in Ihrem Inhalt enthalten sind, laufen sie **25 Monate** nach dem Versand der Nachricht ab, mit Ausnahme von Links zu einer Mirrorseite, die nach **90 Tagen** ablaufen. Nach Ablauf dieser Verzögerung sind die Links nicht mehr verfügbar.
+>Wenn in Ihrem Inhalt Links enthalten sind, laufen sie **25 Monate** nach dem Versand der Nachricht ab, mit Ausnahme von Links zu einer Mirror-Seite, die nach **90 Tagen** ablaufen. Nach Ablauf dieser Dauer sind die Links nicht mehr verfügbar.
 
-## Tracking aktivieren {#enable-tracking}
+## Aktivieren von Tracking {#enable-tracking}
 
 Sie können das Tracking einer E-Mail-Nachricht aktivieren, indem Sie die Optionen **[!UICONTROL E-Mail-Öffnungen]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht in einer Journey oder Kampagne erstellen, wie auf den Registerkarten unten dargestellt.
 
@@ -51,11 +51,11 @@ Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfangenden
 
 ## Links einfügen {#insert-links}
 
-Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
+Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links nachverfolgt.
 
 >[!NOTE]
 >
->Links aus Fragmenten, die in einer E-Mail verwendet werden, werden ebenfalls verfolgt. [Weitere Informationen zu Fragmenten](../content-management/fragments.md)
+>Links aus Fragmenten, die in einer E-Mail verwendet werden, werden ebenfalls nachverfolgt. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird beim Erstellen der Nachricht in der [Kanalkonfiguration](../configuration/channel-surfaces.md#email-type) definiert.
 
-Nach dem Versand der Nachricht beträgt die Aufbewahrungsfrist für einen Link **25 Monate**. Nach dieser Verzögerung ist der Link nicht mehr verfügbar.
+Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **25 Monate**. Nach dieser Dauer ist der Link nicht mehr verfügbar.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 
@@ -109,7 +109,7 @@ Um Ihrer E-Mail einen Link zu einer Mirror-Seite hinzuzufügen, fügen Sie [eine
 
 Die Mirror-Seite wird automatisch erstellt. Wenn die Empfänger nach dem Versand der E-Mail auf den Mirror-Seiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
 
-Die Beibehaltungsdauer für eine Mirror-Seite beträgt **90 Tage**. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
+Die Gültigkeitsdauer für eine Mirror-Seite beträgt **90 Tage**. Nach dieser Verzögerung ist die Mirror-Seite nicht mehr verfügbar.
 
 >[!CAUTION]
 >
@@ -182,7 +182,7 @@ Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.
 
 Das [URL-Tracking](email-settings.md#url-tracking) wird auf Konfigurationsebene verwaltet und gilt für alle im Nachrichteninhalt vorhandenen URLs.
 
-Sie können auch einzelne URLs in der E-Mail-Designer personalisieren. Gehen Sie wie folgt vor, um einem Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
+Sie können im E-Mail-Designer auch einzelne URLs personalisieren. Gehen Sie wie folgt vor, um einem Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
 
 1. Wählen Sie einen Link aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
 
@@ -190,7 +190,7 @@ Sie können auch einzelne URLs in der E-Mail-Designer personalisieren. Gehen Sie
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor das gewünschte [ aus](../personalization/personalization-build-expressions.md).
+1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im [Personalisierungseditor](../personalization/personalization-build-expressions.md) das gewünschte Profilattribut aus.
 
    ![](assets/message-tracking-perso-parameter.png)
 

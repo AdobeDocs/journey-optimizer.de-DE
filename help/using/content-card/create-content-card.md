@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
 source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Standardmäßig wird die Karte durch Klicken auf die Schaltfläche Schließen ausgeblendet. Um weitere Funktionen hinzuzufügen, können Sie manuell Regeln für Abweisungen oder Disqualifikationen definieren.
+>Standardmäßig wird die Karte durch Klicken auf die Schaltfläche „Schließen“ ausgeblendet. Um weitere Funktionen hinzuzufügen, können Sie manuell Regeln für Abweisungen oder Disqualifikationen definieren.
 
 >[!BEGINTABS]
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
 1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-content-card.md)
 
-1. Aktivieren Sie die **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
+1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
 
    ![](assets/content-card-jo-3.png)
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
       | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
 
-      +++
++++
 
    1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
       | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
       | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
 
-      +++
++++
 
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 
@@ -120,9 +120,9 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
 
 1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Weitere Informationen zu Inhaltskomponenten](../content-management/content-experiment.md)
 
-1. Aktivieren Sie die **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
+1. Aktivieren Sie die Option **[!UICONTROL Zusätzliche Versandregeln aktivieren]** und wählen Sie dann **[!UICONTROL Regeln bearbeiten]** aus, um festzulegen, wann Ihre Nachricht angezeigt, verworfen oder dauerhaft ausgeblendet werden soll.
 
-   Verwenden Sie den Regel-Builder, um bestimmte Bedingungen festzulegen, unter denen diese Aktionen Trigger haben.
+   Verwenden Sie den Regel-Builder, um bestimmte Bedingungen festzulegen, die diese Aktionen auslösen.
 
    1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um Ihr Ereignis auszuwählen.
 
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
       | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
 
-      +++
++++
 
    1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
 
@@ -165,7 +165,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
       | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
       | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
 
-      +++
++++
 
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 

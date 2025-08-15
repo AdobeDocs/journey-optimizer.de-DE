@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++_experience > decisioning > contents > components
 
 **Feld:** components
-**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format&quot;, „dc:subject&quot; und „dc:language&quot; oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
+**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
 **Typ:** Array
 **Erforderlich:** „_type“, „_dc“ <!--TBC?-->
 
@@ -123,7 +123,6 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
      **Beispiel:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Sprache**
-
      **Feld:** language
      **Titel:** Sprache
      **Beschreibung:** Die Sprache(n) der Ressource. \nLanguages werden im Sprachen-Code spezifiziert, wie in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) definiert, was Teil von BCP 47 ist, das an anderer Stelle in XDM verwendet wird.
@@ -138,20 +137,20 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    * **id**
 
      **Feld:** id
-     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass eine zusätzliche Eigenschaft \„repo:resolveUrl\&quot; das Asset abruft.
-     **Typ:** Zeichenfolge
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Plattform-APIs für den Abruf der Darstellung verwendet werden, kann der Client eine weitere Eigenschaft „repo:resolveUrl“ erwarten, um das Asset abzurufen.
+     **Typ:** String
      **Beispiel:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Feld:** name
-     **Beschreibung:** Einige Hinweise dazu, wo das Repository zu finden ist, in dem das externe Asset von \„repo:id\&quot; gespeichert wird.
+     **Beschreibung:** Einige Hinweise zum Speicherort des Repositorys, in dem das externe Asset durch „repo:id“ gespeichert wird.
      **Typ:** Zeichenfolge
 
    * **repositoryID**
 
      **Feld:** repositoryID
-     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass eine zusätzliche Eigenschaft \„repo:resolveUrl\&quot; das Asset abruft.
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Plattform-APIs für den Abruf der Darstellung verwendet werden, kann der Client eine weitere Eigenschaft „repo:resolveUrl“ erwarten, um das Asset abzurufen.
      **Typ:** Zeichenfolge
      **Beispiel:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

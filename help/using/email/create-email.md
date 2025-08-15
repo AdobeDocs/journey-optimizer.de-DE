@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -84,17 +84,17 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_campaign_edit_content.png)
 
-1. Schalten Sie **[!UICONTROL Entscheidung aktivieren]** um, wenn Sie Ihrer E-Mail Entscheidungsrichtlinien hinzufügen möchten.
+1. Schalten Sie **[!UICONTROL Entscheidungsfindung aktivieren]** ein, wenn Sie Ihrer E-Mail Entscheidungsrichtlinien hinzufügen möchten.
 
-   Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch die besten Inhalte zurückzugeben, die für jedes Mitglied der Zielgruppe bereitgestellt werden können. [Erfahren Sie, wie Sie einer E-Mail eine Entscheidungsrichtlinie hinzufügen](../experience-decisioning/create-decision.md#add)
+   Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidungs-Engine nutzen, um dynamisch die besten Inhalte für jedes Zielgruppenmitglied zurückzugeben. [Infomationen zum Hinzufügen einer Entscheidungsrichtlinie in einer E-Mail](../experience-decisioning/create-decision.md#add)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
    >[!AVAILABILITY]
    >
-   >Vorerst ist die Erstellung von Entscheidungsrichtlinien in E-Mails nicht für Organisationen verfügbar, die die Zusatzangebote Adobe Healthcare Shield oder Privacy and Security Shield erworben haben.
+   >Derzeit ist die Erstellung von Entscheidungsrichtlinien in E-Mails für Unternehmen, die die Zusatzangebote „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ erworben haben, nicht verfügbar.
 
-1. Markieren Sie **[!UICONTROL Abschnitt]** die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]**. Sie werden in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+1. Überprüfen Sie im Abschnitt **[!UICONTROL Header]** die Felder **[!UICONTROL Name der Absenderin bzw. des Absenders]**, **[!UICONTROL Von E-Mail]** und **[!UICONTROL BCC]**. Sie werden in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
