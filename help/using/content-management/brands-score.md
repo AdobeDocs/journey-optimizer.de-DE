@@ -76,6 +76,6 @@ Das folgende Video zeigt, wie Sie Ihre eigenen Marken erstellen und anpassen kö
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470555/?learn=on&captions=ger)
 
 +++
