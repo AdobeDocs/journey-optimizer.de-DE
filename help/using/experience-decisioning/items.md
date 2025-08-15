@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
 workflow-type: tm+mt
 source-wordcount: '1778'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -131,7 +131,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    * Nach Veröffentlichung Ihres Entscheidungselements können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern. Sie können die Frequenzlbegrenzung auch dann bearbeiten, wenn das Element den Status **[!UICONTROL Entwurf]** aufweist und noch nie mit aktivierter Frequenzlimitierung veröffentlicht wurde.
 
-   * Es kann eine Pufferzeit von bis zu 15 Minuten geben, bevor Ereignisse für Frequenzlimitierungen gezählt werden, entweder beim Genehmigen des Entscheidungselements oder beim Erstellen der Begrenzung - je nachdem, was zuletzt eintritt.
+   * Es kann eine Pufferzeit von bis zu 15 Minuten geben, bevor Ereignisse den Frequenzbegrenzungswerten angerechnet werden, entweder beim Genehmigen des Entscheidungselements oder beim Erstellen der Begrenzung – je nachdem, was zuletzt eintritt.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Erstellung der Begrenzungsregel zu bestätigen. Sie können bis zu 10 Regeln für ein einziges Entscheidungselement erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und wiederholen Sie die oben beschriebenen Schritte.
 

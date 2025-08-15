@@ -11,7 +11,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ Die folgende CTA-Option ist für Ihre WhatsApp-Nachrichten verfügbar:
 | CTA | Beschreibung |
 |-|-|
 | Besuchen einer Website | Es ist nur eine Schaltfläche zulässig, einschließlich Variablenparametern. |
-| WhatsApp-Aufruf | Stellt eine Schaltfläche bereit, mit der ein WhatsApp-Chat mit der angegebenen Telefonnummer direkt in der Nachricht geöffnet wird. |
-| Telefonnummer des Anrufs | Stellt eine Schaltfläche bereit, mit der ein Telefonanruf an die angegebene Nummer gestartet wird, wenn der Benutzer darauf tippt. |
+| Anruf über WhatsApp | Stellt eine Schaltfläche bereit, mit der ein WhatsApp-Chat mit der angegebenen Telefonnummer direkt von der Nachricht aus geöffnet wird. |
+| Anrufen einer Telefonnummer | Stellt eine Schaltfläche bereit, mit der ein Telefonanruf an die angegebene Nummer gestartet wird, wenn die Benutzenden darauf tippen. |
 
 +++
 
@@ -134,7 +134,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
    ![](assets/whatsapp-design-2.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Bild]**-URLs Medien-URLs hinzu, um alle Platzhalter in Ihrer Vorlage zu ersetzen. Die Vorlagenmedien von Meta sind nur Platzhalter. Um Bilder, Audio oder Video korrekt anzuzeigen, müssen Sie externe URLs aus Adobe Experience Manager oder anderen Quellen verwenden.
+1. Fügen Sie im Feld **[!UICONTROL Bild-URL]** Medien-URLs hinzu, um eventuelle Platzhalter in Ihrer Vorlage zu ersetzen. Die Vorlagenmedien von Meta sind nur Platzhalter. Damit Bilder, Audio oder Video korrekt angezeigt werden, müssen Sie externe URLs aus Adobe Experience Manager oder anderen Quellen verwenden.
 
    ![](assets/whatsapp-design-3.png)
 
@@ -195,6 +195,6 @@ Das folgende Video zeigt, wie man mit Adobe Journey Optimizer eine mehrstufige W
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470291/?learn=on&captions=ger")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
