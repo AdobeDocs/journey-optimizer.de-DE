@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ Die Versandzeiten zum Ausprobieren werden zufällig aus den Versandzeiten ausgew
 
 ## Häufig gestellte Fragen {#faq-send-time}
 
-+++Wie lange muss ich warten, bevor ich die Versandzeitoptimierung verwenden kann?
++++Wie lange muss ich warten, bevor ich die Sendezeitoptimierung verwende?
 
 Ihre Organisation sollte vor Nutzung der Versandzeitoptimierung in E-Mails die E-Mail-Aktion in Journey Optimizer mindestens 30 Tage lang verwenden, um die Erfassung mehrerer E-Mail-bezogener Versand-, Öffnungs- und Klickereignisse zu ermöglichen.
 
@@ -108,14 +108,14 @@ Wenn Ihre Organisation bereits seit mindestens 30 Tagen die Aktionstypen „E-M
 
 +++
 
-+++Wie kann ich den Versandzeitpunkt sehen, zu dem eine bestimmte Person eine Nachricht erhält?
++++Wie kann ich den Versandzeitpunkt sehen, zu dem ein bestimmter Benutzer eine Nachricht erhält?
 
 Um die Auswirkungen des Modells auf den Profilumfang zu minimieren, werden Modellbewertungen in drei in `_experience.intelligentServices.journeyAI.sendTimeOptimization` gespeicherten Profilattributen komprimiert gespeichert und sind nicht darauf ausgelegt, für Menschen lesbar zu sein.
 
 +++
 
 
-+++Wie groß ist der durchschnittliche Vorteil der Versandzeitoptimierung?
++++Was ist der durchschnittliche Vorteil der Sendezeitoptimierung?
 
 Die Versandzeitoptimierung kann die E-Mail-Klickrate und die Push-Öffnungsrate in allen von einem Unternehmen optimierten Nachrichten in einem Bereich von etwa 2 % bis hin zu 10 % erhöhen.
 
@@ -132,7 +132,7 @@ Organisationen profitieren in den folgenden Fällen mit höherer Wahrscheinlichk
 
 +++
 
-+++Ich klicke immer um 12 Uhr auf E-Mails oder Push-Nachrichten. Warum hat mir der Algorithmus dann nicht um 12 Uhr eine Nachricht geschickt?
++++Ich klicke immer um 12 Uhr auf E-Mails oder Push-Nachrichten, warum hat mir der Algorithmus nicht um 12 Uhr eine Nachricht geschickt?
 
 
 Dies kann verschiedene Ursachen haben:
@@ -142,14 +142,14 @@ Dies kann verschiedene Ursachen haben:
 
 +++
 
-+++Wie erkennt die Versandzeitoptimierung die Zeitzone einer Person?
++++Wie erkennt die Sendezeitoptimierung die Zeitzone eines Benutzers?
 
 Die Versandzeitoptimierung verwendet das Profilfeld `timeZone`, um die Zeitzone einer Person zu bestimmen. Sofern für diese Person nicht verfügbar, versucht die Versandzeitoptimierung, die Zeitzone eine Person aus anderen geografischen Informationen im Profil der Person, z. B. Land und Bundesland, abzuleiten.
 
 +++
 
 
-+++Versendet die Versandzeitoptimierung nachts Push-Nachrichten an Benutzende in ihrer lokalen Zeitzone?
++++Wird bei der Sendezeitoptimierung nachts Push-Nachrichten an Benutzer in ihrer lokalen Zeitzone gesendet?
 
 Die Versandzeitoptimierung kann unter folgenden Umständen nachts Push-Nachrichten an Benutzende in ihrer lokalen Zeitzone senden:
 
