@@ -13,7 +13,7 @@ hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie zum dunklen Modus, in dem Sie eine Vorschau des Renderings anzeigen und bestimmte benutzerdefinierte Einstellungen definieren können. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Zum dunklen Modus wechseln, in dem eine Vorschau des Renderings angezeigt und bestimmte benutzerdefinierte Einstellungen definiert werden können. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Verwenden eines bestimmten Bildes für den dunklen Modus"
->abstract="Sie können ein anderes Bild auswählen, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Vorsicht: Das Hinzufügen eines bestimmten Bildes für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Es kann ein anderes Bild ausgewählt werden, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Vorsicht: Das Hinzufügen eines bestimmten Bildes für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
