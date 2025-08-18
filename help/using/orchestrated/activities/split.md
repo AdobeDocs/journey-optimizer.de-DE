@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -30,8 +30,8 @@ Die Aktivität **[!UICONTROL Aufspaltung]** ist eine **[!UICONTROL Targeting]**-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
->title="Filter „Aufspaltungsaktivität“"
->abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Regel-Builders. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
+>title="Filter für die Aufspaltungsaktivität"
+>abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Regel-Builders. Es können beispielsweise alle Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"

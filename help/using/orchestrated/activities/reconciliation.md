@@ -7,7 +7,7 @@ exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge ber
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Abstimmregeln"
->abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mit dem Regel-Builder eine eigene Abstimmbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
+>abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mit dem Regel-Builder Ihre eigene Abstimmungsbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"

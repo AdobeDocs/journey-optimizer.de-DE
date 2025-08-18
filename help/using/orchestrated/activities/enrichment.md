@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="Aktivität „Anreicherung“"
->abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird häufig in einer Kampagne nach Segmentierungsaktivitäten verwendet."
+>abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einer Kampagne häufig nach den Segmentierungsaktivitäten verwendet."
 
 Die Aktivität **[!UICONTROL Anreicherung]** ist eine **[!UICONTROL Targeting]**-Aktivität, mit der Sie Ihre Zielgruppendaten um zusätzliche Attribute erweitern können.
 
