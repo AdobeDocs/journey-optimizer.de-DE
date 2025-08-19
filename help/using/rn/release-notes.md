@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
 source-wordcount: '1749'
-ht-degree: 45%
+ht-degree: 98%
 
 ---
 
@@ -68,9 +68,9 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Eine Kalenderansicht ist nun in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visualisieren.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht nun aber für alle Umgebungen zur Verfügung. Im Rahmen dieser allgemein verfügbaren Version bietet die Funktion:</p>
 <ul>
-<li>Entwurfsverbesserungen für die Navigation in Datumsangaben,</li>
-<li>Die Möglichkeit, Kampagnenentwürfe anzuzeigen, wenn Sie ein Start- und Enddatum festgelegt haben.</li>
-<li>Eine neue Einstellung zum Ausblenden und Anzeigen von Kalenderelementen, die über einen langen Zeitraum ausgeführt werden.</li>
+<li>Design-Verbesserungen für die Datumsnavigation</li>
+<li>Die Möglichkeit, Kampagnenentwürfe anzuzeigen, wenn ein Start- und Enddatum festgelegt wurde</li>
+<li>Eine neue Einstellung zum Aus-/Einblenden von Kalenderelementen, die über einen langen Zeitraum ausgeführt werden</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -111,12 +111,12 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Nutzen Sie Daten aus [!DNL Adobe Experience Platform] im Personalisierungseditor, um Ihre Inhalte und Entscheidungsattribute zu personalisieren. Auf diese Weise können Sie insbesondere die Definition Ihrer Attribute auf zusätzliche Daten in Datensätzen erweitern, um Massenaktualisierungen zu ermöglichen, die sich regelmäßig ändern, ohne die Attribute einzeln manuell aktualisieren zu müssen.</p>
+<p>Nutzen Sie Daten aus [!DNL Adobe Experience Platform] im Personalisierungseditor, um Ihre Inhalte und Entscheidungsattribute zu personalisieren. So können Sie insbesondere die Definition Ihrer Attribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, sodass die Attribute nicht einzeln manuell aktualisiert werden müssen.</p>
 <p>Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
 <ul>
-<li>Unterstützung eingehender Kanäle,</li>
-<li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucken und visuellen Fragmenten verwendet werden, um Inhalte mithilfe von Daten aus Adobe Experience Platform-Datensätzen zu personalisieren.</li>
-<li>Mit einer Option im Datensatz können Sie jetzt Datensätze für die Lookup-Personalisierung aktivieren, ohne einen API-Aufruf durchführen zu müssen.</li>
+<li>Unterstützung eingehender Kanäle</li>
+<li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrücken und visuellen Fragmenten verwendet werden, um Inhalte mithilfe von Daten aus Adobe Experience Platform-Datensätzen zu personalisieren.</li>
+<li>Mit einer Option im Datensatz können Sie jetzt Datensätze für die Lookup-Personalisierung aktivieren, ohne dass ein API-Aufruf durchgeführt werden muss.</li>
 </ul>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -166,7 +166,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>Aktionsaktivität in Journey</strong><br/></th>
+<th><strong>Aktionsaktivität in Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -174,10 +174,10 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Journey Optimizer unterstützt eine neue generische Aktionsaktivität, mit der Sie sowohl einzelne als auch eingehende Aktionsgruppen mit mehreren Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Diese neue Funktion ermöglicht insbesondere Folgendes:</p>
 <ul>
-<li>Eine vereinfachte native Aktionskonfiguration auf der Journey-Arbeitsfläche.</li>
-<li>Die Möglichkeit, eingehende Knoten mit mehreren Aktionen zu erstellen.</li>
-<li>Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen.</li>
-<li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige Optionen hinzuzufügen.</li>
+<li>Eine vereinfachte, native Aktionskonfiguration auf der Journey-Arbeitsfläche</li>
+<li>Die Möglichkeit, eingehende Knoten mit mehreren Aktionen zu erstellen</li>
+<li>Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen</li>
+<li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige Optionen hinzuzufügen</li>
 </ul>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
@@ -190,17 +190,17 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <table>
 <thead>
 <tr>
-<th><strong>PDF-Anhänge zu E-Mails</strong><br/></th>
+<th><strong>PDF-Anhänge an E-Mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine statische PDF-Datei an eine mit Journey Optimizer gesendete E-Mail-Nachricht anhängen.</p>
+<p>Sie können jetzt eine statische PDF-Datei an eine mit Journey Optimizer gesendete E-Mail anhängen.</p>
 <ul>
-<li>Pro Profil können bis zu 6 Nachrichten mit einem PDF-Anhang pro Jahr gesendet werden.</li>
-<li>Die maximal zulässige Dateigröße für jeden Anhang beträgt 5 MB.</li>
-<li>Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie ein Attachment Pack-Add-on erwerben. Weitere Informationen erhalten Sie vom Adobe-Support.</li>
+<li>Pro Profil können pro Jahr bis zu 6 Nachrichten mit einem PDF-Anhang gesendet werden.</li>
+<li>Die maximale Dateigröße pro Anhang beträgt 5 MB.</li>
+<li>Für zusätzliche Größen oder Volumen können Sie ein Zusatzpaket erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.</li>
 </ul>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -263,55 +263,55 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Administration**
 
-   * **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnhinweise abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls <!--a channel configuration failure happens or if --> DNS-Eintrag fehlt.
+   * **Warnhinweise zur Überwachung der Kanalkonfiguration**: Sie können jetzt Systemwarnhinweise abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls <!--a channel configuration failure happens or if --> ein DNS-Eintrag fehlt.
 
 * **Kampagnen**
 
-   * **Ratenkontrolle in ausgehenden Kampagnen** - Sie können jetzt die Ratenkontrolle für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
+   * **Ratenkontrolle in ausgehenden Kampagnen**: Sie können jetzt die Ratenkontrolle für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
 
-   * **Kampagnenplanung für Aktionen** - Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um eine detailliertere Kontrolle über wiederkehrende Zeitpläne zu ermöglichen:
+   * **Kampagnenplanung für Aktionen**: Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um eine detailliertere Kontrolle über wiederkehrende Zeitpläne zu ermöglichen:
 
       * **Wöchentliches Intervall**: Sie können die Kampagne jetzt wöchentlich oder alle zwei Wochen wiederholen und die Wochentage auswählen, an denen sie ausgeführt werden soll.
 
       * **Monatliches Intervall**: Sie können die Kampagne jetzt jeden Monat oder jeden zweiten Monat wiederholen und den Tag des Monats auswählen, an dem sie ausgeführt werden soll.
 
-      * **Tägliche, wöchentliche oder monatliche Zeitpläne** Sie können angeben, ob der wiederkehrende Zeitplan an einem bestimmten Datum oder nach einer bestimmten Anzahl von Vorfällen beendet werden soll.
+      * **Tägliche, wöchentliche oder monatliche Zeitpläne**: Sie können angeben, ob der wiederkehrende Zeitplan an einem bestimmten Datum oder nach einer bestimmten Anzahl von Wiederholungen beendet werden soll.
 
-   * **Geplante Transaktionsaktionskampagnen** - Geplante Transaktionsaktionskampagnen sind jetzt zum Senden von Batch-, zielgruppenbasierten Transaktionsnachrichten über E-Mail-, SMS- und Push-Kanäle verfügbar.
+   * **Geplante Transaktionsaktionskampagnen** :Geplante Transaktionsaktionskampagnen sind jetzt zum Senden von zielgruppenbasierten Batch-Transaktionsnachrichten über E-Mail-, SMS- und Push-Kanäle verfügbar.
 
-* **Kanal - Push**
+* **Kanal – Push**
 
-   * **Ablaufdatum der Push-Benachrichtigung** - Sie können jetzt für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. Black Friday Sale) nach einem bestimmten Datum gesendet werden, um so die Bereitstellung schlechter Erlebnisse für Ihre Kunden zu vermeiden.
+   * **Ablaufdatum für Push-Benachrichtigungen**: Sie können nun für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. zum Black Friday Sale) nach einem bestimmten Datum gesendet werden, und somit eine schlechte Kundenerfahrung vermieden wird.
 
-* **Kanal - SMS**
+* **Kanal – SMS**
 
-   * **Ungefähres Opt-out** - Wenn diese Option aktiviert ist, erkennt **unscharfe Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht des Benutzers zu überprüfen. Wenn der/die Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigt, wird das Abonnement gekündigt.
+   * **Unpräzises Opt-out**: Wenn diese Option aktiviert ist, erkennt das **unpräzise Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „CANCIL“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn Benutzende die Anmeldung über den definierten Prompt bestätigen, wird das Abonnement gekündigt.
 
-     Beachten Sie, dass **Fuzzy-Opt-out** nur mit Sinch und Infobip verfügbar ist.
+     Beachten Sie, dass **Unpräzises Opt-out** nur mit Sinch und Infobip verfügbar ist.
 
-   * **SMS-Verbindung überprüfen** - Sie können jetzt Ihre SMS-API-Anmeldeinformationen in Adobe Journey Optimizer einfach testen und überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden.
+   * **SMS-Verbindung überprüfen**: Sie können nun SMS-API-Anmeldeinformationen in Adobe Journey Optimizer ganz einfach testen und überprüfen, indem eine Beispielnachricht an ein bestimmtes Gerät gesendet wird.
 
 * **Konfiguration**
 
-   * **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die Personalisierung bei der Verfolgung von URLs für vordefinierte Domains, die auf der Kanalkonfigurationsebene aufgeführt sind.
+   * **Unterstützung dynamischer Domains**: Journey Optimizer unterstützt jetzt die Personalisierung bei der Verfolgung von URLs für vordefinierte Domains, die auf der Kanalkonfigurationsebene aufgeführt sind.
 
-   * **Unterstützung benutzerdefinierter Attribute mit einer Ein-Klick-Abmelde-URL** - Bei Journey Optimizer können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link in der E-Mail-Konfiguration definieren, wenn Sie das Einverständnis außerhalb von Adobe verwalten. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+   * **Unterstützung benutzerdefinierter Attribute mit einer URL zum Abmelden mit einem Klick**: Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
-     Um Ihren Ein-Klick-Abmelde-Link weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden.
+     Um einen Link zum Abmelden mit einem Klick weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden.
 
 * **Entscheidungsfindung**
 
-   * **Anhängen von Fragmenten an Entscheidungselemente** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
+   * **Anhängen von Fragmenten an Entscheidungselemente**: Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
 * **Journeys**
 
-   * **Journey-Massenvorgänge** - Aus der Liste Ihrer Journeys können Sie jetzt mehrere Elemente auswählen. Nach der Auswahl können Sie bis zu 10 Journey gleichzeitig anhalten oder fortsetzen.
+   * **Journey-Massenvorgänge**: Sie können nun mehrere Elemente aus der Liste Ihrer Journeys auswählen. Nach der Auswahl können Sie bis zu 10 Journeys gleichzeitig anhalten oder fortsetzen.
 
-   * **Unterstützung von Umleitungen (302) in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen können jetzt HTTP-302-Umleitungen pro Anfrage verarbeiten. Dadurch können Journey-Benutzerinnen und -Benutzer eine Integration mit APIs vornehmen, die Anfragen an lokalisierte oder regionsspezifische URLs umleiten. Weiterleitungen werden automatisch gefolgt, um sicherzustellen, dass der richtige Inhalt ohne zusätzliche Konfiguration bereitgestellt wird.
+   * **Unterstützung von Umleitungen (302) in benutzerdefinierten Aktionen**: Benutzerdefinierte Aktionen können jetzt HTTP-302-Umleitungen jeweils pro Anfrage verarbeiten. Dadurch können Journeys mit APIs integriert werden, die Anfragen an lokalisierte oder regionsspezifische URLs umleiten. Umleitungen werden automatisch befolgt, damit sichergestellt ist, dass der richtige Inhalt ohne zusätzliche Konfiguration bereitgestellt wird.
 
 * **Datensätze**
 
-   * **Experience Decisioning-Objekt-Repository - Personalisierte**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und Berichterstellung.
+   * **Repository der Erlebnis-Entscheidungs-Objekte – personalisierte Angebotselemente**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und ein vollständiges Reporting.
 
 ## Kampagnenorchestrierung
 
@@ -321,7 +321,7 @@ Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, 
 
 >[!IMPORTANT]
 >
->Um auf die Kampagnenorchestrierung zugreifen zu können, muss die Lizenz entweder das Paket **Journey Optimizer - Kampagnen und Journey** oder das Paket **Journey Optimizer - Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
+>Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das Paket **Journey Optimizer – Kampagnen und Journeys** oder das Paket **Journey Optimizer – Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
 
 ![GIF zur Kampagnenorchestrierung](assets/do-not-localize/release.gif)
 
@@ -359,7 +359,7 @@ Eine brandneue visuelle Orchestrierungsoberfläche, die speziell für Batch-Kamp
 
 ### Relationale Schemata und Datensätze {#oc-relational}
 
-Adobe Journey Optimizer unterstützt jetzt relationale Entitäten (z. B. Produkte, Geschäfte, Buchungen, Verträge), die mit personenbasierten Profilen verknüpft sind. Dies ermöglicht die Segmentierung und Personalisierung über mehrdimensionale Datenstrukturen hinweg und ermöglicht Anwendungsfälle wie:
+Adobe Journey Optimizer unterstützt jetzt relationale Entitäten (z. B. Produkte, Ladengeschäfte, Buchungen, Verträge), die mit personenbasierten Profilen verknüpft sind. Dies ermöglicht die Segmentierung und Personalisierung über mehrdimensionale Datenstrukturen hinweg und ermöglicht Anwendungsfälle wie:
 
 * Eine Nachricht pro Buchung, Abonnement oder Vertrag
 
