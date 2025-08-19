@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
    + [Architektur](using/start/architecture-concepts-redpen.md)
    + [Grundlegende Konzepte](using/start/functional-areas-redpen.md)
    + [Wichtige Terminologie](using/start/terminology-md-redpen.md)
-   + Rollen und Zuständigkeiten {#quick-start}
+   + Rollen und Verantwortlichkeiten {#quick-start}
       + [Überblick](using/start/quick-start.md)
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
       + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
@@ -205,8 +205,8 @@ ht-degree: 98%
    + [Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
-   + AJO-Kampagnen {#action-campaigns}
-      + [AJO-Kampagnen](/help/rp_landing_pages/action-campaigns-landing-page.md)
+   + Aktionskampagnen {#action-campaigns}
+      + [Aktionskampagnen](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/campaign-action.md)
@@ -274,8 +274,8 @@ ht-degree: 98%
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
    + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
-   + Festlegen von Begrenzungsregeln für Nachrichten und Journey {#capping-rules}
-      + [Festlegen von Begrenzungsregeln für Nachrichten und Journey](/help/rp_landing_pages/capping-rules-landing-page.md)
+   + Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung {#capping-rules}
+      + [Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Arbeiten mit Regelsätzen](using/conflict-prioritization/rule-sets.md)
       + [Journey-Begrenzung und -Steuerung](using/conflict-prioritization/journey-capping.md)
       + [Frequenzbegrenzung nach Kanal und Kommunikationstyp](using/conflict-prioritization/channel-capping.md)
@@ -312,8 +312,8 @@ ht-degree: 98%
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
             + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
-         + Gestalten von Inhalten {#add-content}
-            + [Gestalten von Inhalten](/help/rp_landing_pages/add-content-landing-page.md)
+         + Gestalten Ihrer Inhalte {#add-content}
+            + [Gestalten Ihrer Inhalte](/help/rp_landing_pages/add-content-landing-page.md)
             + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
             + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
@@ -456,7 +456,7 @@ ht-degree: 98%
          + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
          + [Mathematische Funktionen](using/personalization/functions/math.md)
          + [Objektfunktionen](using/personalization/functions/objects.md)
-         + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
+         + [Zeichenfolgenfunktionen](using/personalization/functions/string.md)
       + Anwendungsfälle für die Personalisierung {#personalization-use-cases}
          + [Anwendungsfälle für die Personalisierung](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
@@ -467,8 +467,8 @@ ht-degree: 98%
       + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
       + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
       + [Verwalten von Landingpages](using/landing-pages/manage-lp.md)
-      + Inhaltserstellung {#landing-pages-design}
-         + [Inhaltserstellung](/help/rp_landing_pages/landing-pages-design-landing-page.md)
+      + Entwerfen von Inhalten {#landing-pages-design}
+         + [Entwerfen von Inhalten](/help/rp_landing_pages/landing-pages-design-landing-page.md)
          + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
          + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
          + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
@@ -608,8 +608,8 @@ ht-degree: 98%
       + [Benutzerdefinierte Journey-Berichte](/help/rp_landing_pages/reports-landing-page.md)
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
-      + Veraltete Felder für Step-Ereignisse {#legacy-step-event-fields}
-         + [Veraltete Felder für Step-Ereignisse](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
+      + Veraltete Schrittereignisfelder {#legacy-step-event-fields}
+         + [Veraltete Schrittereignisfelder](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [Über veraltete Felder](using/reports/sharing-legacy-fields.md)
          + [Journey-Felder](using/reports/sharing-journey-fields.md)
          + [Allgemeine Felder](using/reports/sharing-common-fields.md)
@@ -890,7 +890,7 @@ ht-degree: 98%
       + [Zulassungsliste](using/configuration/allow-list.md)
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
-   + [Nachrichteninhalt exportieren](using/configuration/message-export.md)
+   + [Exportieren von Nachrichteninhalten](using/configuration/message-export.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Geschäftsregeln](using/configuration/frequency-rules.md)
 + Journey-Konfiguration {#configure-journeys}
@@ -915,8 +915,8 @@ ht-degree: 98%
       + [Erste Schritte mit benutzerdefinierten Aktionen](using/action/action.md)
       + [Konfigurieren einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
-+ Verbinden von Systemen und Umgebungen {#connect-systems}
-   + [Verbinden von Systemen und Umgebungen](/help/rp_landing_pages/connect-systems-landing-page.md)
++ Verbinden Ihrer Systeme und Umgebungen {#connect-systems}
+   + [Verbinden Ihrer Systeme und Umgebungen](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrieren mit anderen Lösungen](using/integrations/ajo-integrations.md)
    + [Arbeiten mit Journey Optimizer-APIs](using/configuration/ajo-apis.md)
    + Integrieren von Journeys mit externen Systemen {#external-systems}
@@ -929,8 +929,8 @@ ht-degree: 98%
       + [Campaign Standard-Aktion in Journeys](using/action/acs-action.md)
       + [Campaign v7/v8-Aktion in Journeys](using/action/acc-action.md)
       + [Marketo Engage-Aktion in Journeys](using/action/marketo-engage.md)
-   + Sandbox-Verwaltung {#sandbox}
-      + [Sandbox-Verwaltung](/help/rp_landing_pages/sandbox-landing-page.md)
+   + Sandbox-Management {#sandbox}
+      + [Sandbox-Management](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)

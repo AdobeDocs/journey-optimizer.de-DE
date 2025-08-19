@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -37,31 +37,31 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
-Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, konfigurieren und senden, einschließlich erweiterter Optionen wie stille Benachrichtigungen und Schnellversand-Modus.
+Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, konfigurieren und senden können, einschließlich erweiterter Optionen wie stille Benachrichtigungen und Schnellversand-Modus.
 
 [Weitere Informationen zu Push-Benachrichtigungen](../../rp_landing_pages/push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
-Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transaktionszwecke erstellen, verwalten und konfigurieren, einschließlich Compliance und Personalisierung.
+Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transaktionszwecke erstellen, verwalten und konfigurieren können, einschließlich Compliance und Personalisierung.
 
-[Weitere Informationen zum SMS-/MMS-/RCS-Messaging](../../rp_landing_pages/sms-landing-page.md)
+[Weitere Informationen zu SMS-/MMS-/RCS-Nachrichten](../../rp_landing_pages/sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 
-Erfahren Sie, wie Sie Briefpost-Kampagnen erstellen und verwalten, einschließlich des Exports von Extraktionsdateien für Drittanbieter und der Sicherstellung der Einhaltung der Einwilligung der Benutzenden.
+Erfahren Sie, wie Sie Briefpostkampagnen erstellen und verwalten, einschließlich des Exports von Extraktionsdateien für Drittanbieter und Compliance bezüglich des Benutzereinverständnisses.
 
 [Weitere Informationen zu Briefpostkampagnen](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
@@ -75,41 +75,41 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-In-App-Messaging
+In-App-Nachrichten
 
 Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen konfigurieren, entwerfen und personalisieren können, um Zielgruppen in Programmen anzusprechen.
 
-[Weitere Informationen zu In-App-Messaging](../../rp_landing_pages/in-app-landing-page.md)
+[Weitere Informationen zu In-App-Nachrichten](../../rp_landing_pages/in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
-Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisieren und Web-Kanäle in Ausgangs-Marketing-Strategien integrieren.
+Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisieren sowie Web-Kanäle in Strategien für das ausgehende Marketing integrieren können.
 
-[Weitere Informationen zum Web-Kanal](../../rp_landing_pages/web-landing-page.md)
+[Weitere Informationen zu Web-Kanälen](../../rp_landing_pages/web-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
-Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs und APIs personalisierte Inhalte für digitale Plattformen bereitzustellen.
+Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs und APIs personalisierte Inhalte über digitale Plattformen hinweg bereitzustellen.
 
 [Weitere Informationen über Code-basierte Erlebnisse](../../rp_landing_pages/code-based-experience-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
-Erfahren Sie, wie Sie Inhaltskarten konfigurieren, erstellen und entwerfen, um mit Mobile Apps und Websites für interaktives und personalisiertes Messaging zu sorgen.
+Erfahren Sie, wie Sie Inhaltskarten für ansprechende und personalisierte Nachrichten in Mobile Apps und Websites konfigurieren, erstellen und entwerfen.
 
 [Weitere Informationen über Code-basierte Erlebnisse](../../rp_landing_pages/content-card-landing-page.md)
 :::
@@ -119,8 +119,8 @@ Erfahren Sie, wie Sie Inhaltskarten konfigurieren, erstellen und entwerfen, um m
 
 ## Weitere Ressourcen
 
-- **[WhatsApp Messaging](../../rp_landing_pages/whatsapp-landing-page.md)** - Erfahren Sie, wie Sie WhatsApp-Nachrichten über die Cloud-API von Meta für personalisierte und konforme Kommunikationskampagnen integrieren und verwenden können.
-- **[LINE-Messaging](../../rp_landing_pages/line-landing-page.md)** - Erfahren Sie, wie Sie LINE-Nachrichten für eine effektive Kommunikation in Kampagnen und Journey konfigurieren, erstellen und personalisieren.
+- **[WhatsApp-Nachrichten](../../rp_landing_pages/whatsapp-landing-page.md)**: Erfahren Sie, wie Sie WhatsApp-Nachrichten über die Cloud-API von Meta in personalisierten und richtlinienkonformen Kommunikationskampagnen integrieren und verwenden können.
+- **[LINE-Nachrichten](../../rp_landing_pages/line-landing-page.md)**: Erfahren Sie, wie Sie LINE-Nachrichten für effektive Kommunikation in Kampagnen und Journeys konfigurieren, erstellen und personalisieren können.
 
 ## Kanäle in Journeys und Kampagnen {#leverage}
 
