@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann
 >
 >In [diesem nachstehenden Abschnitt](#enable-list-unsubscribe) erfahren Sie, wie Sie die Abmeldeeinstellungen verwalten.
 
-Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"} aktualisiert.
+Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Die Funktionen **[!UICONTROL E-Mail an (abmelden)]** und **[!UICONTROL URL zum A
   >
   >Weitere Informationen zur Verwaltung von Abmeldefunktionen innerhalb Ihrer Nachrichten finden Sie in [diesem Abschnitt](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} aufgeführten möglichen Werte ändern oder [Einverständnisrichtlinien](../action/consent.md) verwenden, um die Standardlogik außer Kraft zu setzen.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen Werte ([) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"} oder verwenden [Einverständnisrichtlinien](../action/consent.md) um die Standardlogik zu überschreiben.
 
 Derzeit hängt [!DNL Journey Optimizer] kein bestimmtes Tag an Abmeldeereignisse an, die durch die Funktion „Abmelden von Liste“ ausgelöst werden. Wenn eine Unterscheidung zwischen Klicks zum Abmelden von einer Liste und anderen Abmeldeaktionen erforderlich ist, müssen Sie das benutzerdefinierte Tagging extern implementieren oder eine externe Landingpage zum Tracking nutzen.
 
@@ -119,11 +119,17 @@ Bei der **[!UICONTROL URL zum Abmelden mit einem Klick]** muss es sich um eine P
 >
 >Wenn Sie die Option **[!UICONTROL Kundenseitig verwaltet]** verwenden, speichert Adobe weder Abmelde- noch Einverständnisdaten. Mit der Option **[!UICONTROL Kundenseitig verwaltet]** entscheiden sich Organisationen für die Verwendung eines externen Systems und sind für die Verwaltung ihrer Einverständnisdaten in diesem externen System verantwortlich. Es erfolgt keine automatische Synchronisierung von Einverständnisdaten zwischen dem externen System und [!DNL Journey Optimizer]. Jede Synchronisierung von Einverständnisdaten, die zur Aktualisierung von Benutzereinverständnisdaten in [!DNL Journey Optimizer] aus dem externen System herangezogen werden, muss von der Organisation als Datenübertragung initiiert werden, um die Einverständnisdaten wieder in [!DNL Journey Optimizer] zu übertragen.
 
-### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
+### Anhängen von benutzerdefinierten Attributen an Ihre Endpunkte {#custom-attributes}
 
 Sollten Sie bei ausgewählter Option **[!UICONTROL Kundenseitig verwaltet]** benutzerdefinierte Endpunkte eingeben und diese in einer Kampagne oder Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Ereignis zur Einverständnisaktualisierung an, <!--sent to the custom endpoint -->wenn die Empfängerinnen und Empfänger auf den Abmelde-Link klicken.
 
-Diese Parameter werden verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem eine bestimmte API über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die von Adobe gesendeten Parameter zu entschlüsseln.
+Um Ihre benutzerdefinierte URL (**[!UICONTROL -Klick-Abmelde]** weiter zu personalisieren, können Sie benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden.
+
+Verwenden Sie dazu den Abschnitt **[!UICONTROL URL-Tracking]** Parameter . Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten 1-Klick-Abmelde-URL angehängt. [Erfahren Sie, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
+
+### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
+
+Wenn Ihre Empfänger auf einen benutzerdefinierten Abmelde-Link klicken, werden die an das Einverständnisaktualisierungsereignis angehängten Parameter verschlüsselt an den Endpunkt gesendet. Daher muss das externe Einverständnissystem eine bestimmte API über [Adobe Developer implementieren](https://developer.adobe.com){target="_blank"} um die von Adobe gesendeten Parameter zu entschlüsseln.
 
 Der GET-Aufruf zum Abrufen dieser Parameter hängt von der von Ihnen verwendeten Option zum Abmelden von der Liste ab: **[!UICONTROL URL zum Abmelden mit einem Klick]** oder **[!UICONTROL E-Mail an (abmelden)]**.
 
