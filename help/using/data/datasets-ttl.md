@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Entscheidungsobjekt-Repository – Fallback-Angebote | 13 Monate | k. A. |
 | Entscheidungsobjekt-Repository – Platzierungen | 13 Monate | k. A. |
 | Entscheidungsobjekt-Repository – Aktivitäten | 13 Monate | k. A. |
+| Experience Decisioning-Objekt-Repository - personalisierte Angebotselemente | 13 Monate | k. A. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | 13 Monate | k. A. |
 
 ## Häufig gestellte Fragen {#faq}
@@ -63,13 +64,13 @@ Die systemgenerierten Datensatzdaten im Profil werden nach 90 Tagen entfernt, a
 
 +++
 
-+++Wenn systemgenerierte Datensatzdaten per Push an [!DNL Customer Journey Analytics] (CJA) gesendet werden, wirkt sich die TTL dann auch auf die Daten in CJA aus?
++++Wenn systemgenerierte Datensatzdaten an [!DNL Customer Journey Analytics] (CJA) gesendet werden, wirkt sich die TTL auch auf die Daten in CJA aus?
 
 Daten in [!DNL Customer Journey Analytics] werden mit Experience Platform synchronisiert. Daher wirkt sich eine Entfernung von Daten aufgrund einer TTL für systemgenerierte Datensatzdaten auch auf die Daten in [!DNL Customer Journey Analytics] aus.
 
 +++
 
-+++ Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Profilspeicher erhöhen?
++++ Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Profilspeicher erhöhen? 
 
 TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den TTL-Prozess zu optimieren, damit diese Erweiterungsanfragen irgendwann ab der zweiten Jahreshälfte 2025 berücksichtigt werden können.
 
@@ -79,13 +80,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 +++
 
-+++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen?
++++Können Kunden die TTL für [!DNL Journey Optimizer] Systemdatensatzdaten im Data Lake erhöhen? 
 
 TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++Sind die folgenden Funktionen von den TTLs betroffen?
++++Sind die folgenden Funktionen von den TTLs betroffen? 
 
 * **Suchspeicher**: Nein
 * **Journey-Begrenzung**: Nein
@@ -105,7 +106,7 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden könne
 
 +++
 
-+++Welcher Zeitstempel wird für die Durchsetzung der TTL verwendet (z. B. für Anwendungsfälle zur Aufstockung)?
++++Welcher Zeitstempel wird für die TTL-Durchsetzung verwendet (z. B. für Aufstockungs-Anwendungsfälle)? 
 
 Es wird der Zeitstempel des Ereignisses verwendet (d. h. nicht das Aufnahmedatum).
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
-workflow-type: ht
-source-wordcount: '2495'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '2745'
+ht-degree: 89%
 
 ---
 
@@ -111,16 +111,16 @@ Um den Empfängerinnen und Empfängern Ihrer E-Mails sowie den Besucherinnen und
 
 1. Richtlinien können in E-Mail- und Code-basierten Erlebnissen mit dem Personalisierungseditor erstellt werden. Sie können auch in E-Mails über ein eigenes Menü im E-Mail-Designer erstellt werden. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
-   +++Personalisierungseditor
+   +++Personalization-Editor
 
    1. Öffnen Sie den Personalisierungseditor und wählen Sie **[!UICONTROL Entscheidungsrichtlinie]** aus.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**, um eine neue Richtlinie zu erstellen.
 
       ![](assets/decision-code-based-create.png)
 
-+++
+   +++
 
-   +++Menü **[!UICONTROL Entscheidungsfindung]** im E-Mail-Designer
+   +++E-Mail-Designer **[!UICONTROL Decisioning]** Menü
 
    1. Wählen Sie eine Komponente aus, klicken Sie auf das Symbol **[!UICONTROL Entscheidungsfindung]** in der Symbolleiste oder im Eigenschaftenbereich und wählen Sie dann **[!UICONTROL Neue Richtlinie hinzufügen]** aus.
 
@@ -128,7 +128,7 @@ Um den Empfängerinnen und Empfängern Ihrer E-Mails sowie den Besucherinnen und
 
       ![](assets/decision-policy-email-designer.png)
 
-+++
+   +++
 
 1. Geben Sie einen Namen an und wählen Sie einen Katalog aus (derzeit beschränkt auf den Standardkatalog **[!UICONTROL Angebote]**).
 
@@ -138,7 +138,7 @@ Um den Empfängerinnen und Empfängern Ihrer E-Mails sowie den Besucherinnen und
 
    Bei E-Mails können nur in einer Inhaltskomponente vom Typ **[!UICONTROL Wiederholungsraster]** mehrere Elemente zurückgegeben werden. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-+++ Zurückgeben mehrerer Entscheidungselemente in E-Mails
+   +++ Zurückgeben mehrerer Entscheidungselemente in E-Mails
 
    1. Ziehen Sie eine Komponente vom Typ **[!UICONTROL Wiederholungsraster]** auf die Arbeitsfläche und konfigurieren Sie sie wie gewünscht mithilfe des Bereichs **[!UICONTROL Einstellungen]**.
 
@@ -150,7 +150,7 @@ Um den Empfängerinnen und Empfängern Ihrer E-Mails sowie den Besucherinnen und
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -236,7 +236,7 @@ Angebot 5 - 50
 
      Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1, Angebot 6.
 
-+++
+   +++
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**
 
@@ -277,7 +277,7 @@ Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mi
 
 Nach der Erstellung können die Entscheidungsrichtlinie und die mit den zurückgegebenen Entscheidungselementen verknüpften Attribute in Ihrem Inhalt verwendet werden, um Ihren Inhalt zu personalisieren. Gehen Sie dazu wie folgt vor.
 
-### Einfügen des Entscheidungsrichtlinien-Codes {#insert-code}
+### Fügen Sie den Entscheidungsrichtlinien-Code ein {#insert-code}
 
 1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinie]** auf.
 
@@ -291,13 +291,13 @@ Nach der Erstellung können die Entscheidungsrichtlinie und die mit den zurückg
 
    ![](assets/decision-policy-placement.png)
 
-+++
+   +++
 
-   +++Einfügen des Entscheidungsrichtlinien-Codes in das Code-basierte Erlebnis
+   +++Einfügen von Entscheidungsrichtlinien-Code in ein Code-basiertes Erlebnis
 
    ![](assets/decision-code-based-add-decision.png)
 
-+++
+   +++
 
    >[!NOTE]
    >
@@ -327,6 +327,57 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 1. Sie können auch jedes beliebige Attribut hinzufügen, das im Personalisierungseditor verfügbar ist, z. B. Profilattribute.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### Verwenden von Fragmenten {#fragments}
+
+Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragmenten enthält, können Sie diese Fragmente im Entscheidungsrichtlinien-Code nutzen. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+
+Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+Anschließend können Sie eine der folgenden Methoden verwenden:
+
+>[!BEGINTABS]
+
+>[!TAB Code direkt einfügen]
+
+Kopieren Sie einfach den unten stehenden Code-Block in den Entscheidungsrichtlinien-Code. Ersetzen Sie `variable`mit der Fragment-ID und `placement` Sie mit dem Fragmentverweisschlüssel:
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB Führen Sie die detaillierten Schritte aus]
+
+1. Navigieren Sie zu **[!UICONTROL Hilfsfunktionen]** und fügen Sie die **** Let`{% let variable = expression %} {{variable}}` zum Codebereich hinzu, in dem Sie die Variable für Ihr Fragment deklarieren können.
+
+   ![](assets/decision-let-function.png)
+
+1. Verwenden Sie die **** Map **>** Get`{%= get(map, string) %}`, um Ihren Ausdruck zu erstellen. Die Zuordnung ist das Fragment, auf das im Entscheidungselement verwiesen wird, und die Zeichenfolge kann das Gerätemodell sein, das Sie im Entscheidungselement als **[!UICONTROL Fragmentverweisschlüssel)]** haben.
+
+   ![](assets/decision-map-function.png)
+
+1. Sie können auch ein kontextuelles Attribut verwenden, das diese Gerätemodell-ID enthält.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. Fügen Sie die Variable hinzu, die Sie für Ihr Fragment als Fragment-ID ausgewählt haben.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+Die Fragment-ID und der Referenzschlüssel werden aus dem Abschnitt **[!UICONTROL Fragmente]** des Entscheidungselements ausgewählt.
+
+>[!WARNING]
+>
+>Wenn der Fragmentschlüssel falsch ist oder der Fragmentinhalt ungültig ist, schlägt das Rendern fehl und verursacht einen Fehler im Edge-Aufruf.
 
 ## Letzte Schritte {#final-steps}
 

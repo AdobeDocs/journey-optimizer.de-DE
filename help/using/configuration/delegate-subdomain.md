@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
-workflow-type: ht
-source-wordcount: '1906'
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -176,11 +176,10 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAMEs einzurichten:
 Gehen Sie wie folgt vor, um die Subdomain-Delegierung abzuschließen. 
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
-
-   >[!NOTE]
-   >
-   >Wenn beim Versuch, eine benutzerdefinierte Subdomain zu übermitteln, ein Fehler auftritt, lesen Sie [diesen Abschnitt](#check-list).
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln.
 
@@ -273,4 +272,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

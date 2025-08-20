@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 100%
+source-wordcount: '1548'
+ht-degree: 89%
 
 ---
 
@@ -140,16 +140,6 @@ Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagn
 
 Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht der Kampagnen mit einer übersichtlichen Darstellung der Zeitpläne. 
 
->[!AVAILABILITY]
->
->Die Kalenderansicht ist derzeit nur für von Aktionen und API ausgelöste Kampagnen für bestimmte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”} zum Anfordern des Zugriffs.
->
->Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Rückmeldungen und Anfragen über die Schaltfläche **[!UICONTROL Beta-Feedback]** im oberen Menü.
-
-Der Kalender zeigt alle für die aktuelle Woche geplanten Kampagnen an. Navigieren Sie mit den Pfeiltasten über dem Kalender zwischen Wochen.
-
-![Kalenderansicht mit Live-Kampagnen](assets/campaigns-timeline.png)
-
 Darstellung der Kampagnen:
 
 * Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Kampagnen für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen eines bestimmten Typs oder Kanals anzeigen.
@@ -158,11 +148,43 @@ Darstellung der Kampagnen:
 * Wenn keine Startzeit angegeben ist, wird die nächste manuelle Aktivierungszeit zur Positionierung im Kalender verwendet.
 * Kampagnen werden als Zeitspannen von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
 
-Durch Klicken auf den visuellen Block einer Kampagne werden weitere Details geöffnet.
+So navigieren Sie in Ihrem Kampagnenkalender:
 
-Wählen Sie eine Kampagne aus der Liste aus, um Details für diese spezifische Kampagne anzuzeigen. Dies öffnet einen Informationsbereich mit unterschiedlichen Informationen über die Kampagne, z. B. den Kampagnentyp, Zugriff auf die Berichte oder die zugewiesenen Tags.
+1. Klicken Sie auf ![Kalender](assets/do-not-localize/Smock_Calendar_18_N.svg), um auf Ihren Kampagnenkalender zuzugreifen.
 
-![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
+1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
+
+   Der Kalender zeigt alle für die aktuelle Woche geplanten Kampagnen an.
+
+   ![Kalenderansicht mit Live-Kampagnen](assets/campaigns-timeline.png)
+
+1. Klicken Sie auf ![Zahnradsymbol](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
+
+   ![Kalenderansicht mit Live-Kampagnen](assets/campaign-long-term.png)
+
+1. Klicken Sie auf das ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)-Symbol, um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
+
+   ![Kalenderansicht mit externen Kalendern](assets/campaign-external-calendar.png)
+
+1. CSV-Dateien mit Ereignisnamen, Start- und Enddaten per Drag-and-Drop verschieben.
+
+   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und sowohl im Journey- als auch im Kampagnenkalender angezeigt.
+
+   +++Das CSV-Format sollte wie folgt lauten:
+
+   | Spalte 1 | Spalte 2 | Spalte 3 |
+   |-|-|-|
+   | Ereignisname | Startdatum im Format MM/TT/JJ | Enddatum im Format MM/TT/JJ |
+
+   +++
+
+1. Bei Bedarf können Sie hinzugefügte externe Kalender ausblenden, einblenden oder entfernen.
+
+   ![Kalenderansicht mit externen Kalendern](assets/campaign-manage-calendar.png)
+
+1. Um weitere Informationen zu einer Kampagne zu erhalten, klicken Sie auf den entsprechenden visuellen Block, um die entsprechenden Details zu öffnen. Dies öffnet einen Informationsbereich mit unterschiedlichen Informationen über die Kampagne, z. B. den Kampagnentyp, Zugriff auf die Berichte oder die zugewiesenen Tags.
+
+   ![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
 
 ## Ändern und Stoppen wiederkehrender Aktionskampagnen {#modify}
 

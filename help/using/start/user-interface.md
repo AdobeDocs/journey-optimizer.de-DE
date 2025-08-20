@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 94%
 
 ---
 
@@ -179,15 +179,19 @@ Verwenden Sie auf jeder Seite kontextbezogene Hilfe-Schaltflächen, um mehr übe
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## Warnhinweise im Produkt
+## Produktinterne Benachrichtigungen {#in-product-notifications}
 
-Sie können **E-Mail- und Warnhinweise im Produkt** für Journey Optimizer-Produktversionen abonnieren.
+Sie können **Warnhinweise im Produkt und per E-Mail** aktivieren, um über verschiedene Ereignisse benachrichtigt zu werden, die Sie möglicherweise interessieren: vom System erkannte Fehler, Genehmigungsanfragen und/oder [!DNL Journey Optimizer] Produktversionen.
 
-So abonnieren Sie sie:
+Gehen Sie wie folgt vor, um diese Benachrichtigungen zu aktivieren.
 
-1. Navigieren Sie zu den **Voreinstellungen für Adobe Experience Cloud**.
-1. Suchen Sie unter **Benachrichtigungen** nach **neuen Versionen von Journey Optimizer**
-1. Aktivieren von In-App- und E-Mail-Benachrichtigungen
+1. Navigieren Sie zu [!DNL Adobe Experience Cloud] **[!UICONTROL Voreinstellungen]**.
+1. Suchen Sie **[!UICONTROL Benachrichtigungen]** nach **[!UICONTROL Journey Optimizer]**.
+1. Aktivieren Sie In-App- und/oder E-Mail-Benachrichtigungen nach Bedarf:
+
+   * **[!UICONTROL Warnhinweise]**: Bei einem Fehler können Sie Systembenachrichtigungen für die Warnhinweise erhalten, die Sie abonniert haben. [Weitere Informationen](../reports/alerts.md)
+   * **[!UICONTROL Genehmigungen]**: Sie werden benachrichtigt, wenn jemand Sie auffordert, ein Objekt oder den Zugriff auf ein Objekt zu genehmigen.
+   * **[!UICONTROL Neue Versionen]**: Sie werden über alle neuen [!DNL Journey Optimizer] Produktversionen informiert.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1720'
+ht-degree: 99%
 
 ---
 
@@ -116,6 +116,8 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >[!NOTE]
    >
    > Die Methode **DELETE** wird nicht unterstützt. Wenn Sie eine vorhandene Ressource aktualisieren müssen, wählen Sie die Methode **PUT**.
+
+1. Verarbeiten Sie potenzielle Weiterleitungen (302 Antworten). **Benutzerdefinierte Aktionen** folgen HTTP 302-Weiterleitungen automatisch auf Anfrage.
 
 1. Definieren Sie die Header und Abfrageparameter:
 

@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 98ddcbe1d4700341087538da3fb32db4ca9eb7c9
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
 
@@ -105,6 +105,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp |
 | Entscheidungsobjekt-Repository – Platzierungen | Dies ist das Repository von Objekten, die die Stelle definieren, an der ein Angebot angezeigt werden soll. |
+| Experience Decisioning-Objekt-Repository - personalisierte Angebotselemente | Speichert alle personalisierten Angebotselemente, einschließlich aller Attribute und Lebenszyklusstatus, um die kanalübergreifende Personalisierung und Berichterstellung zu unterstützen. |
 | Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können.  |
 | Journeys | Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis |

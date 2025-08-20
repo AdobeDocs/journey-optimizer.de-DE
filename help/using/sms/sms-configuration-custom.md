@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 95%
 
 ---
 
@@ -85,6 +85,16 @@ Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit ei
 1. Um vorhandene Anmeldedaten zu ändern, suchen Sie die gewünschten API-Anmeldedaten und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
    ![](assets/sms_byo_4.png)
+
+1. Klicken Sie auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldeinformationen über eine Beispielnachricht an ein bestimmtes Gerät zu testen und zu überprüfen.
+
+1. Füllen Sie die Felder **Zahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
+
+   >[!IMPORTANT]
+   >
+   >Die Nachricht muss so strukturiert sein, dass sie mit dem Payload-Format des Anbieters übereinstimmt.
+
+   ![](assets/verify-connection.png)
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt [die eingehenden Webhook-Einstellungen](#webhook) für SMS-Nachrichten erstellen.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1175'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1391'
+ht-degree: 86%
 
 ---
 
@@ -48,34 +48,57 @@ Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhanden
 
 ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
 
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt. Erfahren Sie mehr über die [Verwaltung von Journey-Versionen](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### Journey-Kalender {#calendar}
 
 Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journeys mit einer übersichtlichen Darstellung ihrer Zeitpläne. 
 
->[!AVAILABILITY]
->
->Die Kalenderansicht ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie [dieses Formular](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"} zum Anfordern des Zugriffs.
->
->Diese Funktion befindet sich in der aktiven Entwicklung. Wir freuen uns über Ihre Rückmeldungen und Anfragen über die Schaltfläche **[!UICONTROL Beta-Feedback]** im oberen Menü.
-
-Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das Symbol ![Kalendersymbol](assets/do-not-localize/timeline-icon.svg).
-
-Der Kalender zeigt alle für die aktuelle Woche geplanten Journeys an. Navigieren Sie mit den Pfeiltasten über dem Kalender zwischen Wochen.
-
-![Kalenderansicht mit Live-Journeys](assets/timeline-journeys.png)
-
 Darstellung von Journeys:
 
-* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Journeys für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen anzeigen.
+* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Journey für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen anzeigen.
 * Journey-Entwürfe und Journeys im Testmodus werden nicht angezeigt.
 * Journeys, die sich über mehrere Tage erstrecken, werden oben im Kalenderraster angezeigt.
 * Wenn keine Startzeit angegeben ist, wird die nächste manuelle Aktivierungszeit zur Positionierung im Kalender verwendet.
 * Journeys werden als Zeitspannen von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
 
-Weitere Informationen zu einer Journey erhalten Sie, indem Sie auf ihren visuellen Block klicken, um die entsprechenden Details zu öffnen und zu erkunden.
+So navigieren Sie in Ihrem Journey-Kalender:
 
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt. Erfahren Sie mehr über die [Verwaltung von Journey-Versionen](publishing-the-journey.md#journey-versions-journey-versions).
+1. Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das Symbol ![Kalendersymbol](assets/do-not-localize/timeline-icon.svg).
 
+1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
+
+   Der Kalender zeigt alle für die aktuelle Woche geplanten Journey an.
+
+   ![Kalenderansicht mit Live-Journeys](assets/timeline-journeys.png)
+
+1. Klicken Sie auf ![Zahnradsymbol](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
+
+   ![Kalenderansicht mit Live-Kampagnen](assets/journey-calendar-1.png)
+
+1. Klicken Sie auf das ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)-Symbol, um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
+
+   ![Kalenderansicht mit externen Kalendern](assets/journey-calendar-2.png)
+
+1. CSV-Dateien mit Ereignisnamen, Start- und Enddaten per Drag-and-Drop verschieben.
+
+   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und sowohl im Journey- als auch im Kampagnenkalender angezeigt.
+
+   +++Das CSV-Format sollte wie folgt lauten:
+
+   | Spalte 1 | Spalte 2 | Spalte 3 |
+   |-|-|-|
+   | Ereignisname | Startdatum im Format MM/TT/JJ | Enddatum im Format MM/TT/JJ |
+
+   +++
+
+1. Bei Bedarf können Sie hinzugefügte externe Kalender ausblenden, einblenden oder entfernen.
+
+   ![Kalenderansicht mit externen Kalendern](assets/journey-calendar-3.png)
+
+1. Weitere Informationen zu einer Journey erhalten Sie, indem Sie auf ihren visuellen Block klicken, um die entsprechenden Details zu öffnen und zu erkunden.
+
+   ![Kampagnenliste mit geöffnetem Informationsbereich](assets/journey-calendar-4.png)
 
 
 ## Filtern von Journeys {#journey-filter}
@@ -144,3 +167,19 @@ Gehen Sie dazu wie folgt vor:
    ![](assets/duplicate-jo2.png)
 
 1. Die neue Journey wird erstellt und ist in der Journey-Liste verfügbar.
+
+
+## Massenvorgänge {#bulk-operations}
+
+In der Liste Ihrer Journey können Sie mehrere **Live**-Journey anhalten. Wählen Sie zum Pausieren einer Gruppe von Journeys (_Massenpause_) die Journeys in der Liste aus und klicken Sie auf die Schaltfläche **Anhalten** in der blauen Leiste am unteren Bildschirmrand. Die Schaltfläche **Anhalten** ist nur verfügbar, wenn **Live**-Journeys ausgewählt sind.
+
+![Massenpause von zwei Live-Journeys über die untere Leiste](assets/bulk-pause-journeys.png)
+
+Sie können auch ein oder mehrere (**) Journey**. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
+
+[Erfahren Sie mehr über Pause/Fortsetzen von Journey](journey-pause.md).
+
+>[!NOTE]
+>
+>Sie können bis zu 10 Journey pro Vorgang anhalten/fortsetzen.
+

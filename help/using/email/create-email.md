@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: ht
-source-wordcount: '1033'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    >[!AVAILABILITY]
    >
-   >Derzeit ist die Erstellung von Entscheidungsrichtlinien in E-Mails für Unternehmen, die die Zusatzangebote „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ erworben haben, nicht verfügbar.
+   >Derzeit ist die Erstellung von Entscheidungsrichtlinien in E-Mails nur in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 1. Überprüfen Sie im Abschnitt **[!UICONTROL Header]** die Felder **[!UICONTROL Name der Absenderin bzw. des Absenders]**, **[!UICONTROL Von E-Mail]** und **[!UICONTROL BCC]**. Sie werden in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 

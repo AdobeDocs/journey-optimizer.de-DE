@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Drosselungsratensteuerung"
->abstract="Drosselungsratensteuerung"
+>title="Tarifkontrolle"
+>abstract="Legen Sie die Ratenkontrolle für Ihre Kampagne fest, indem Sie die gewünschten Ratenbeschränkungen angeben. Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Systeme zu verhindern, z. B. Landingpages oder Kundenunterstützungsplattformen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Betrachterin bzw. Betrachter einer orchestrierten Kampagne
 
 Wenn Sie nicht auf bestimmte Kampagnenfunktionen zugreifen können, wenden Sie sich an Ihre bzw. Ihren Admin, um die erforderlichen Berechtigungen anzufordern.
 
-+++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
++++Erfahren Sie, wie Sie kampagnenbezogene Rollen zuweisen
 
 1. Um einer Person eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie eine der oben beschriebenen nativen, kampagnenbezogenen **[!UICONTROL Rollen]** aus.
 

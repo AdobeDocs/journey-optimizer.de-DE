@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 99%
+source-wordcount: '1907'
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,24 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
    >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
 
 1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+
+1. Verwenden Sie Fragmente , um dem Entscheidungselement mehrere Inhalte hinzuzufügen - beispielsweise, wenn Sie unterschiedliche Inhalte für mehrere Mobilgerätemodelle anzeigen möchten. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >Fragmente in Entscheidungselementen sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+
+   Wählen **[!UICONTROL im Abschnitt]** Fragmente“ die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   Sie können nur veröffentlichte Fragmente auswählen und bis zu sechs Fragmente zu einem Entscheidungselement hinzufügen.
+
+   >[!WARNING]
+   >
+   >Derzeit werden nur [Ausdrucksfragmente](../personalization/use-expression-fragments.md) unterstützt.
+   >
+   >Verschachtelte Fragmente (Fragmente, die auf andere Fragmente verweisen) können nicht verwendet werden. Die [Genehmigung“ des Entscheidungselements schlägt ](#approve), wenn Sie ein solches Fragment hinzufügen.
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
@@ -137,14 +155,16 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## Entscheidungselement überprüfen und genehmigen {#approve}
+
 1. Sobald die Eignungs- und Begrenzungsregeln für das Entscheidungselement definiert sind, klicken Sie auf **[!UICONTROL Weiter]**, um das Element zu überprüfen und zu speichern.
 
 1. Das Entscheidungselement wird jetzt in der Liste angezeigt und hat den Status **[!UICONTROL Entwurf]**. Wenn es bereit ist, in Profilen präsentiert zu werden, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen Sie **[!UICONTROL Genehmigen]** aus.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Verwalten von Entscheidungselementen {#manage}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
-workflow-type: ht
-source-wordcount: '2392'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '2733'
+ht-degree: 86%
 
 ---
 
@@ -262,10 +262,10 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumen
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Kriterien für den Journey-Austritt"
->abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Es können ein oder mehrere Austrittskriterien für eine Journey erstellt werden."
+>title="Ausstiegskriterien"
+>abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Sie können Regeln und Filter für ein oder mehrere Beendigungskriterien für Ihren Journey erstellen."
 
-### Beschreibung {#exit-criteria-desc}
+### Journey-Beendigungskriterien {#exit-criteria-desc}
 
 Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Journey verlassen, sobald ein Ereignis eintritt (z. B. ein Kauf) oder sie sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.
 
@@ -275,7 +275,7 @@ Sie können Profile aus einer Journey entfernen, wenn sie nicht mehr dem Zweck d
 
 Eine Marketing-Fachperson hat eine Werbe-Journey, die eine Reihe von Kommunikationsmaßnahmen umfasst. Jede dieser Kommunikationsmaßnahmen zielt darauf ab, die Kundschaft zum Kauf zu bewegen. Sobald der Kauf getätigt wurde, sollte die Kundin bzw. der Kunde die restlichen Nachrichten der Serie nicht mehr erhalten. Durch die Definition von Ausstiegskriterien werden alle Profile, die einen Kauf getätigt haben, aus der Journey entfernt.
 
-### Konfiguration und Verwendung {#exit-criteria-config}
+#### Konfiguration und Verwendung {#exit-criteria-config}
 
 Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Ausstiegskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR`-Logik. Wenn Sie also Ausstiegskriterien A und Ausstiegskriterien B haben, wird es als A **ODER** B ausgewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
 
@@ -287,7 +287,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 1. Wählen Sie **[!UICONTROL Ausstiegskriterien hinzufügen]** aus.
 
-1. Geben Sie einen **Titel** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
+1. Geben Sie ein **Label** ein und wählen Sie aus, ob Ihr Ausstiegskriterium auf einem **Ereignis** oder einer **Zielgruppe** basiert.
 
    * Für Ausstiegskriterien, die auf einem Ereignis basieren, wie z. B. das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, wählen Sie nur ein einziges Ereignis.
    * Für Ausstiegskriterien, die auf einer Zielgruppe basieren, wie z. B. eine Zielgruppe, die überprüft, ob eine Person in den letzten 24 Stunden einen Kauf getätigt hat, wählen Sie eine Zielgruppe. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
@@ -296,12 +296,39 @@ Sie können mehrere Ausstiegskriterien hinzufügen.
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Schutzmechanismen und Einschränkungen {#exit-criteria-guardrails}
 
-Die folgenden Leitlinien und Einschränkungen gelten für die Ausstiegskriterien der Journey:
+### Auf Profilattributen basierende Beendigungskriterien {#profile-exit-criteria}
+
+Die auf Profilattributen basierenden Beendigungskriterien geben Ihnen mehr Kontrolle über pausierte Journey, indem Sie Regeln definieren können, mit denen bestimmte Profile automatisch entfernt werden, bevor die Journey fortgesetzt wird. Sie können Beendigungsbedingungen basierend auf Profilattributen festlegen, z. B. Standort, Status oder Voreinstellungen, um sicherzustellen, dass nur relevante Profile in der Journey nach der Wiederaufnahme fortgesetzt werden.
+
+Sie können beispielsweise [Journey anhalten](journey-pause.md) eine Ausstiegsbedingung hinzufügen, um alle in Frankreich befindlichen Profile zu entfernen, und die Journey in dem Wissen fortsetzen, dass diese Profile im nächsten Aktionsschritt ausgeschlossen werden. Diese Logik gilt sowohl für Profile, die sich bereits auf der Journey befinden, als auch für neue Profile, die sich nach der Wiederaufnahme der Journey qualifizieren.
+
+Diese Funktion arbeitet mit der Funktion „Anhalten/Fortsetzen“ zusammen und hilft Ihnen, Journey sicherer und flexibler zu verwalten. Es minimiert manuelle Eingriffe, reduziert das Risiko des Versands irrelevanter oder nicht konformer Nachrichten und hält Ihre Journey-Logik mit den aktuellen Geschäftsanforderungen im Einklang.
+
+In diesem Abschnitt erfahren Sie, wie Sie [Beendigungskriterien für Profilattribute in pausierten Journey verwenden](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
+### Leitlinien und Einschränkungen {#exit-criteria-guardrails}
+
+Die folgenden Leitplanken und Einschränkungen gelten für die Funktion [Journey-](#exit-criteria-desc):
 
 * Die Ausstiegskriterien sind nur im Entwurfsstadium definiert
 * Kohärenz des Journey-Namespace zwischen Ereignissen und ereignisbasierten Ausstiegskriterien
+
+Die folgenden Leitplanken gelten für die Verwendung der Funktion [Profilattribut-basierte ](#profile-exit-criteria):
+
+* **Ausstiegskriterien gelten auf Aktionsebene**\
+  Die Beendigungskriterien „Profilattribut“ werden nur in Aktionsschritten ausgewertet. Im Gegensatz zu anderen Ausstiegskriterien gelten diese nicht global für die Journey.\
+  Wenn Sie eine Journey fortsetzen und einige Profile die Exitbedingung erfüllen, werden diese Profile beim nächsten Aktionsknoten ausgeschlossen.\
+  Neue Profile, die nach der Wiederaufnahme auf die Journey gelangen, werden ebenfalls bei ihrem ersten Aktionsknoten ausgewertet und ausgeschlossen, wenn sie die Bedingung erfüllen.
+
+* **Eine profilbasierte Exitregel pro Journey**\
+  Pro Journey kann nur ein Beendigungskriterium für „Profilattribut“ definiert werden. Diese Einschränkung hilft, die Klarheit zu bewahren und Konflikte in der Journey-Logik zu vermeiden.
+
+* **Nur in pausierten Journey verfügbar**\
+  Sie können nur dann Ausstiegskriterien für „Profilattribute“ hinzufügen oder bearbeiten, wenn die Journey angehalten wurde.
+
+   * Auf einer **Journey** erscheint die Option *Profilattribut* deaktiviert (schreibgeschützt), während die Optionen *Ereignis* und *Zielgruppe* aktiv bleiben.
+   * In einer **angehaltenen Journey** wird die Option *Profilattribut* bearbeitbar, und *Ereignis*- und *Zielgruppe*-Optionen werden schreibgeschützt.
 
 ## Journey-Zeitplan {#schedule}
 
