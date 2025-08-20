@@ -15,11 +15,11 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Nachrichteninhalt exportieren {#message-export}
+# Exportieren von Nachrichteninhalten {#message-export}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
@@ -34,15 +34,15 @@ ht-degree: 4%
 
 Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] **AJO-Nachrichtenexportdatensatz**.
 
-Die Datensätze werden dann drei Kalendertage lang im AJO-**&#x200B;** aufbewahrt, um sie in ein externes System Ihrer Wahl zu exportieren.
+Die Datensätze werden dann drei Kalendertage lang im AJO-**** aufbewahrt, um sie in ein externes System Ihrer Wahl zu exportieren.
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
-## Schutzmechanismen
+## Leitlinien
 
 * Diese Funktion unterstützt nur die Kanäle E-Mail und SMS.
 * Datensätze im AJO-Nachrichtenexport-Datensatz werden drei Kalendertage nach der Aufnahme aufbewahrt.
@@ -67,9 +67,9 @@ Bevor Sie Ihre Daten exportieren können, müssen Sie den Exportvorgang einricht
 >
 >Diese Einrichtung muss für jede Sandbox konfiguriert werden.
 
-1. Wählen Sie einen Experience Platform [Zieltyp](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/destination-types){target="_blank"}. Eine Liste der verfügbaren Zielplattformen, die für den Empfang von Daten bereit sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Wählen Sie einen Experience Platform [Zieltyp](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Eine Liste der verfügbaren Zielplattformen, die für den Empfang von Daten bereit sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. Konfigurieren Sie in [!DNL Experience Platform] Ihr Ziel, indem Sie Anmeldeinformationen, einen Bucket/Container, ein Pfadpräfix und Sicherheitsoptionen definieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. Konfigurieren Sie in [!DNL Experience Platform] Ihr Ziel, indem Sie Anmeldeinformationen, einen Bucket/Container, ein Pfadpräfix und Sicherheitsoptionen definieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Erstellen Sie einen Datensatz-Exportfluss mit den folgenden Daten:
 
