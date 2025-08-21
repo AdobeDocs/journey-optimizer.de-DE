@@ -7,7 +7,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planung"
->abstract="Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, was einen präzisen Zeitpunkt und genaue Zielgruppendaten für Marketing-Nachrichten ermöglicht."
+>abstract="Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, was einen präzisen Zeitpunkt und genaue Targeting-Daten für Marketing-Nachrichten ermöglicht."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    +++
 
-   +++Mehrmals pro Tag
+   +++Mehrmals täglich
 
    Die Kampagne wird mehrmals am selben Tag ausgeführt. Sie können bestimmte Zeiten auswählen oder eine periodische Häufigkeit festlegen.
 

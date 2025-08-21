@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -89,12 +89,12 @@ Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigge
 
 +++
 
-## Mehrere eingehende Aktionen hinzufügen {#multi-action}
+## Hinzufügen mehrerer eingehender Aktionen {#multi-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
->title="Mehrere eingehende Aktionen hinzufügen"
->abstract="Innerhalb einer Kampagne können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
+>title="Hinzufügen mehrerer eingehender Aktionen"
+>abstract="Innerhalb einer Kampagne können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion bestimmte Inhalte enthält."
 
 Um die Orchestrierung einer Kampagne zu vereinfachen, können Sie in einer Kampagne mehrere eingehende Aktionen definieren, wobei jede Aktion einen bestimmten Inhalt enthält.
 
