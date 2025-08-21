@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit orchestrierten Kampagnen
-description: Erfahren Sie, wie Sie mit koordinierten Kampagnen beginnen
-short-description: Entdecken Sie die wichtigsten Funktionen und Anwendungsfälle einer koordinierten Kampagne.
+description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
+short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle für orchestrierte Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspru
 
 >[!IMPORTANT]
 >
->Um auf die Kampagnenorchestrierung zugreifen zu können, muss die Lizenz entweder das Paket **Journey Optimizer - Kampagnen und Journey** oder das Paket **Journey Optimizer - Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
+>Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das Paket **Journey Optimizer – Kampagnen und Journeys** oder das Paket **Journey Optimizer – Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
 
 Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
