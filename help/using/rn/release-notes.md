@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -296,7 +296,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Konfiguration**
 
-   * **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) - Update vom 21. August: Waiting for eng. Zur Bestätigung bei Bereitstellung in Produktion.—>
 
    * **Unterstützung benutzerdefinierter Attribute mit einer URL zum Abmelden mit einem Klick**: Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
