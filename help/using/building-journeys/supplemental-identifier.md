@@ -2,10 +2,10 @@
 title: Verwenden zusätzlicher Kennungen in Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 93%
 
 ---
 
@@ -66,6 +66,8 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 
    * Wenn ein erneuter Eintritt in die Journey nicht möglich ist, kann dieselbe Kombination aus Profilkennung und zusätzlicher ID nicht erneut in die Journey eintreten.
    * Wenn ein erneuter Eintritt in die Journey möglich ist, kann dieselbe Kombination aus Profilkennung und zusätzlicher ID nach dem definierten Zeitfenster erneut eintreten.
+
+* **Data Use Labeling and Enforcement (DULE)** - Für die zusätzliche ID werden keine DULE-Validierungsprüfungen durchgeführt. Dies bedeutet, dass dieses Attribut nicht berücksichtigt wird, wenn der Journey nach Verstößen gegen Data-Governance-Richtlinien sucht.
 
 * **Konfiguration nachgelagerter Ereignisse**
 
@@ -138,6 +140,10 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
       >Stellen Sie sicher, dass Sie das Attribut nicht als **Primäre Identität** markieren.
 
    1. Wählen Sie den Namespace aus, der mit der zusätzlichen ID verknüpft werden soll. Dies muss ein Namespace ohne Personenkennung sein.
+
+      >[!NOTE]
+      >
+      >Nachdem Sie den Nicht-Personen-Identity-Namespace auf ein Schema angewendet haben, müssen Sie ein neues Ereignis (für ereignisausgelöste Journey) oder eine neue Feldergruppe (für Journey von Zielgruppen lesen) erstellen, um die zusätzliche Kennung verwenden zu können. Bestehende Entitäten können nicht aktualisiert werden, um die neue Kennung zu erkennen.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
