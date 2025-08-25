@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 94%
 
 ---
@@ -344,3 +344,9 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >title="Simulieren der Journey"
 >abstract="Eine Journey-Simulation ermöglicht es Ihnen, Ihre Journeys zu validieren und zu sehen, wie sie funktionieren, bevor sie aktiviert werden. Dabei werden Daten eines trainierten Modells verwendet, um Zahlen über die gesamte Journey hinweg bereitzustellen, um festzustellen, wie sich die Journey in einem realen Szenario verhalten wird."
 
+<!-- QUIET HOURS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="Regeltyp"
+>abstract="Regeltyp"
