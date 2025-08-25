@@ -4,9 +4,9 @@ product: journey optimizer
 title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie relationale Schemata direkt über die Benutzeroberfläche erstellen können.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
    In diesem Beispiel haben wir die in der folgenden Tabelle beschriebenen Attribute zum Schema **Treueprogramm-**&quot; hinzugefügt.
 
-+++ Beispiele für Attribute
+   +++ Beispiele für Attribute
 
    | Attributname | Datentyp | Zusätzliche Attribute |
    |-|-|-|
@@ -92,7 +92,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
    | is_active | BOOLEAN | Erforderlich |
    | zuletzt geändert | DATETIME | Erforderlich |
 
-+++
+   +++ 
 
 1. Weisen Sie die entsprechenden Felder als **[!UICONTROL Primären Schlüssel]** und **[!UICONTROL Versionsdeskriptor)]**.
 
@@ -100,7 +100,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
    * Mindestens einen Primärschlüssel,
    * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
-   * Bei der Aufnahme von Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String` den Typ der Datenänderung an (z. B. Einfügen, Aktualisieren, Löschen) und ermöglicht die inkrementelle Verarbeitung.
+   * Bei der Aufnahme von Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String` den Typ der Datenänderung an (z. B. Einfügen, Aktualisieren, Löschen) und ermöglicht die inkrementelle Verarbeitung. Beachten Sie, dass `_change_request_type` nicht Teil des Tabellenschemas sein sollte, sondern nur während der Aufnahme zur Datendatei hinzugefügt werden sollte.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
