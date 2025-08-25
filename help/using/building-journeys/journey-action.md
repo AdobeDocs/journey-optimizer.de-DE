@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 39%
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einem einzigen Journe
 
 1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** des Bildschirms Journey-Aktionskonfiguration weitergeleitet.
 
-   ![](assets/journey-multi-action-configuration.png)
+   ![](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Wählen Sie eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-**, **Inhaltskarte** oder **Web**) im Abschnitt **[!UICONTROL Aktionen]** aus.
 
