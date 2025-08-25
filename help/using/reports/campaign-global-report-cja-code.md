@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '895'
+ht-degree: 97%
 
 ---
 
@@ -156,6 +156,10 @@ Zu den angezeigten Schlüsselmetriken gehören:
 * **[!UICONTROL Klicks]**: Häufigkeit, mit der Benutzende Klicks auf personalisierte Erlebnisse ausgeführt haben, die ihnen angezeigt wurden.
 
 * **[!UICONTROL Konversionsrate]**: Prozentsatz der Anzeigen, die zu Benutzeraktionen führten (z. B. Klicks). Er gibt an, wie erfolgreich das Modell bezüglich der Ansprache von Benutzenden war.
+
+>[!NOTE]
+>
+>Derzeit ist der [Lift Measurement](../experience-decisioning/ranking/auto-optimization-model.md#lift) nur für das KI-Modell [Personalisierte ](../experience-decisioning/ranking/personalized-optimization-model.md)&quot; verfügbar. Wenn Sie Berichte zur Aufstiegsmessung benötigen, verwenden Sie stattdessen das Modell Personalisierte Optimierung .
 
 ### Konversionsrate für Holdout- und modellgesteuerten Traffic {#conversion-rate}
 

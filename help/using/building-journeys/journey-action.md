@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Dies ermöglicht Folgendes:
 
 >[!NOTE]
 >
->Sie können auch bestimmte Aktionen zum Senden von Nachrichten in [!DNL Journey Optimizer] einrichten. [Weitere Informationen](#recommendation)
+>Sie können auch benutzerdefinierte Aktionen einrichten, um Ihre Nachrichten in [!DNL Journey Optimizer] zu senden. [Weitere Informationen](#recommendation)
 
 ## Hinzufügen einer Aktion zu einer Journey  {#add-action}
 

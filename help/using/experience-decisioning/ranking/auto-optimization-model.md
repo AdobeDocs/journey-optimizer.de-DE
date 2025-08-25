@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
-source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1367'
+ht-degree: 98%
 
 ---
 
@@ -98,3 +98,7 @@ Mit der Metrik „Steigerung“ wird die Performance einer Strategie im Rangfolg
 Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahren) im Rangfolgen-Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die „Steigerung“ der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>Derzeit ist der Bericht „Aufstiegsmessung“ nur für das KI-Modell [Personalisierte Optimierung](personalized-optimization-model.md) verfügbar. [Weitere Informationen zum Reporting über Entscheidungen](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
