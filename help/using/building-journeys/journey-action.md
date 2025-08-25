@@ -1,0 +1,158 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Hinzufügen einer integrierten Kanalaktion zu einer Journey
+description: Erfahren Sie, wie Sie einer Journey eine integrierte Kanalaktion hinzufügen
+feature: Journeys, Activities, Channels Activity
+topic: Content Management
+role: User
+level: Intermediate
+keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 39%
+
+---
+
+# Verwenden der Aktionsaktivität {#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_action_activity"
+>title="Aktionsaktivität"
+>abstract="Die generische **Action**-Aktivität ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+
+[!DNL Journey Optimizer] verfügt über eine neue generische **Action**-Aktivität, mit der eine einzelne integrierte Kanalaktion und auch mehrere eingehende Aktivitäten konfiguriert werden können.
+
+Dies ermöglicht Folgendes:
+
+* Eine vereinfachte, native Aktionskonfiguration auf der Journey-Arbeitsfläche
+* Die Möglichkeit, eingehende Aktionsgruppen mit mehreren Aktionen zu erstellen.
+* Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen
+
+>[!NOTE]
+>
+>Sie können auch bestimmte Aktionen zum Senden von Nachrichten in [!DNL Journey Optimizer] einrichten. [Weitere Informationen](#recommendation)
+
+## Hinzufügen einer Aktion zu einer Journey  {#add-action}
+
+Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
+
+1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
+
+1. Ziehen Sie aus dem **[!UICONTROL Aktionen]** der Palette eine **[!UICONTROL Aktion]**-Aktivität auf die Arbeitsfläche.
+
+1. Wählen Sie die integrierte Kanalaktivität aus, die Sie in Ihrem Journey nutzen möchten.
+
+   ![](assets/journey-action-type-code-based.png)
+
+1. Fügen Sie Ihrer Aktion einen Titel hinzu und wählen Sie **[!UICONTROL Aktion konfigurieren]**.
+
+   ![](assets/journey-action-configure.png){width="80%"}
+
+1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** des Bildschirms Journey-Aktionskonfiguration weitergeleitet.
+
+   Wählen Sie die Konfiguration aus, die für den ausgewählten Kanal verwendet werden soll.
+
+   ![](assets/journey-action-actions-tab.png)
+
+1. Wenn Sie einen eingehenden Kanal ausgewählt haben, können Sie mehrere Aktionen hinzufügen. [Weitere Informationen](#multi-action)
+
+1. Konfigurieren Sie Ihre Aktivität entsprechend dem ausgewählten Kanal. Erfahren Sie in ([ Abschnitt), wie Sie integrierte Kanalaktionen ](journeys-message.md).
+
+1. Verwenden Sie den **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt) ](../campaigns/campaigns-message-optimization.md).
+
+1. Verwenden Sie den **[!UICONTROL Languages]**, um Inhalte in mehreren Sprachen innerhalb Ihrer Journey-Aktion zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in [diesem Abschnitt](../content-management/multilingual-gs.md).
+
+Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+
++++**Anwenden von Begrenzungsregeln** (E-Mail, Direkt-Mail, Push, SMS)
+
+Wählen **[!UICONTROL in der Dropdown]** Liste „Geschäftsregeln“ einen Regelsatz aus, um Begrenzungsregeln auf Ihre Journey-Aktion anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../conflict-prioritization/rule-sets.md)
+
++++
+
++++**Verfolgen von Interaktionen** (E-Mail, SMS).
+
+Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. Die Tracking-Ergebnisse sind vom Journey-Bericht aus abrufbar, sobald die Journey ausgeführt wurde. [Erfahren Sie mehr über das Journey von Berichten](../reports/journey-global-report-cja.md)
+
++++
+
++++**Aktivieren des Schnellversandmodus** (Push).
+
+Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben. Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
+
++++
+
++++**Zuweisen von Prioritätswerten** (Web, In-App, Code-basiert)
+
+Weisen Sie im **[!UICONTROL Konfliktmanagement]** der Journey-Aktion einen Prioritätswert zu, sodass Sie eine eingehende Aktion priorisieren können, wenn mehrere Journey-Aktionen oder -Kampagnen mit derselben Kanalkonfiguration vorhanden sind. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Standardmäßig wird der Prioritätswert für die Aktion vom Gesamtprioritätswert für die Journey übernommen. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](../conflict-prioritization/priority-scores.md)
+
++++
+
++++**Festlegen zusätzlicher Versandregeln** (Inhaltskarten)
+
+Für Journey von Inhaltskarten können Sie zusätzliche Versandregeln aktivieren, um die Ereignisse und Kriterien auszuwählen, die Ihre Nachricht Trigger haben. [Informationen zum Erstellen von Inhaltskarten](../content-card/create-content-card.md)
+
++++
+
++++**Definieren von Triggern** (In-App)
+
+Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigger bearbeiten]** die Ereignisse und Kriterien auswählen, die die Nachricht auslösen sollen. [Informationen zum Erstellen einer In-App-Nachricht](../in-app/create-in-app.md)
+
++++
+
+## Hinzufügen mehrerer eingehender Aktionen {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action_journey"
+>title="Hinzufügen mehrerer eingehender Aktionen"
+>abstract="Sie können mehrere eingehende Aktionen auf einer Journey auswählen. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion bestimmte Inhalte enthält."
+
+Um die Journey-Orchestrierung zu vereinfachen, können Sie in einer einzigen Journey-Aktion mehrere eingehende Aktionen definieren.
+
+>[!NOTE]
+>
+>Diese Kapazität steht nur für eingehende Kanäle zur Verfügung. Derzeit werden ausgehende Kanäle wie E-Mail nicht unterstützt.
+
+Mit dieser Funktion können Sie verschiedene Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne mehrere Journey-Aktionen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihres Journey und sorgt für ein reibungsloseres Reporting, bei dem alle Daten in einer einzigen Journey zusammengefasst werden.
+
+Sie können beispielsweise ein Code-basiertes Erlebnis an mehrere Endpunkte mit geringfügig unterschiedlichen Inhalten senden. Erstellen Sie dazu mehrere Code-basierte Aktionen innerhalb derselben Journey-Aktion mit jeweils einer anderen Endpunktkonfiguration.
+
+Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einem einzigen Journey-Aktionsknoten zu definieren.
+
+1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
+
+1. Ziehen Sie aus dem **[!UICONTROL Aktionen]** der Palette eine **[!UICONTROL Aktion]**-Aktivität auf die Arbeitsfläche.
+
+1. Wählen Sie **[!UICONTROL Aktionstyp]** Multi-Aktion“ aus.
+
+   ![](assets/journey-multi-action.png)
+
+1. Fügen Sie bei Bedarf einen Titel hinzu und wählen Sie **[!UICONTROL Aktion konfigurieren]**.
+
+   ![](assets/journey-multi-action-configure.png){width="60%"}
+
+1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** des Bildschirms Journey-Aktionskonfiguration weitergeleitet.
+
+   ![](assets/journey-multi-action-configuration.png)
+
+1. Wählen Sie eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-**, **Inhaltskarte** oder **Web**) im Abschnitt **[!UICONTROL Aktionen]** aus.
+
+1. Wählen Sie die Kanalkonfiguration aus und definieren Sie einen bestimmten Inhalt für diese Aktion.
+
+1. Verwenden Sie die **[!UICONTROL Aktion hinzufügen]**, um eine weitere eingehende Aktion aus der Dropdown-Liste auszuwählen.
+
+   ![](assets/journey-multi-action-add.png){width="80%"}
+
+1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu 10 eingehende Aktionen zu einer Journey-Aktionsgruppe hinzufügen.
+
+Sobald die Journey [live](publishing-the-journey.md) ist, werden alle Aktionen gleichzeitig aktiviert.
+<!--
+## Next steps {#next}
+
+Once your action is configured, you can design its content. [Learn more]-->

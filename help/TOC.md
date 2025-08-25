@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [Bedingung](using/building-journeys/condition-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Lesen der Zielgruppe](using/building-journeys/read-audience.md)
+      + [Aktionsaktivität](using/building-journeys/journey-action.md)
       + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/campaign-action.md)
-      + [Nutzen der Nachrichtenoptimierung in einer Kampagne](using/campaigns/campaigns-message-optimization.md)
       + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
+   + [Optimierung von Nachrichten nutzen](using/campaigns/campaigns-message-optimization.md)
 + Zielgruppen, Profile und Identität {#audiences-profiles-identities}
    + [Zielgruppen, Profile und Identität](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Zielgruppen {#audiences}

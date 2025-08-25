@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 63%
+source-wordcount: '799'
+ht-degree: 60%
 
 ---
 
@@ -41,7 +41,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Optimierung**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Nachrichtenoptimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in diesem Abschnitt beschrieben: [Optimierung in Kampagnen](campaigns-message-optimization.md).
+   Verwenden Sie den **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt) ](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Hinzufügen mehrsprachiger Inhalte**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um in Ihrer Kampagne Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in diesem Abschnitt: [Erste Schritte mit mehrsprachigen Inhalten](../content-management/multilingual-gs.md).
+   Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um in Ihrer Kampagne Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in [diesem Abschnitt](../content-management/multilingual-gs.md).
 
 Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
@@ -73,7 +73,7 @@ Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den se
 
 +++**Zuweisen von Prioritätswerten** (Web, In-App, Code-basiert)
 
-Wenn Sie der Kampagne einen Prioritätswert zuweisen, können Sie eine eingehende Kampagne bei erzwungenen Begrenzungen wie z. B. einer Frequenzbegrenzung priorisieren. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](../conflict-prioritization/priority-scores.md)
+Wenn Sie der Kampagne einen Prioritätswert zuweisen, können Sie die Priorität einer eingehenden Kampagne festlegen, wenn eine Einschränkung vorliegt, z. B. eine Häufigkeitsbegrenzung. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](../conflict-prioritization/priority-scores.md)
 
 +++
 
