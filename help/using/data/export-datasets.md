@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 97%
 
 ---
@@ -105,7 +105,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp |
 | Entscheidungsobjekt-Repository – Platzierungen | Dies ist das Repository von Objekten, die die Stelle definieren, an der ein Angebot angezeigt werden soll. |
-| Experience Decisioning-Objekt-Repository - personalisierte Angebotselemente | Speichert alle personalisierten Angebotselemente, einschließlich aller Attribute und Lebenszyklusstatus, um die kanalübergreifende Personalisierung und Berichterstellung zu unterstützen. |
+| Experience Decisioning-Objekt-Repository - personalisierte Angebotselemente | Speichert alle Angebotselemente, einschließlich aller Attribute und Lebenszyklusstatus, um kanalübergreifende Personalisierung und Berichte zu unterstützen. |
 | Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können.  |
 | Journeys | Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis |

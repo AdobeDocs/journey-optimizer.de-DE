@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1492'
+ht-degree: 75%
 
 ---
 
@@ -315,6 +315,8 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 * **Datensätze**
 
    * **Experience Decisioning-Objekt-Repository - Personalisierte**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und Berichterstellung. [Weitere Informationen](../data/export-datasets.md)
+
+   * Die Versionsüberprüfung über das Feld `etag` wurde eingeführt, um die Konsistenz zu verbessern und Änderungen zu verfolgen, sodass Elemente zuverlässiger angeboten werden können.
 
 ## Kampagnenorchestrierung
 
