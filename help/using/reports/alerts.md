@@ -40,7 +40,7 @@ Sie werden wie folgt aufgelistet und jede Warnmeldung wird nachfolgend beschrieb
 
 * Spezifische Warnhinweise für Journey:
 
-   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [&#128279;](#alert-custom-actions)Journey
+   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [](#alert-custom-actions)Journey
    * Warnhinweis [Zielgruppen-Trigger lesen ](#alert-read-audiences) nicht erfolgreich)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
@@ -71,7 +71,7 @@ Je nach den Voreinstellungen des Abonnenten werden Warnhinweise per E-Mail und/o
 >
 >Standardmäßig sind nur In-App-Warnungen aktiviert.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
 

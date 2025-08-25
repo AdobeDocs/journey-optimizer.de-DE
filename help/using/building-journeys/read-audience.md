@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4dfa87c56f088cee51fd8b95e4e75da0dac7c456
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 100%
 
@@ -298,4 +298,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

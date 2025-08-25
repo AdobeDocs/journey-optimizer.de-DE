@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * **Echtzeit-Kundeneinblicke und Interaktion**: Ein integriertes Profil verbindet Live-Daten aus allen Quellen auf allen Kunden-Kontaktpunkten, einschließlich Verhaltens-, Transaktions-, Finanz- und Betriebsdaten, um persönliche und kontextuelle Erlebnisse für Kunden zeitnah zu optimieren.
 
-* **Moderne Omnichannel-Orchestrierung und -Ausführung**: Über eine einzige Arbeitsfläche kann die Customer Journey durch 1:1-Kundeninteraktionen und Marketing-Maßnahmen harmonisiert und optimiert werden, um Marken dabei zu helfen, im gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an einen Kunde gesendet werden.
+* **Moderne Omnichannel-Orchestrierung und -Ausführung** - Eine einzige Arbeitsfläche, auf der die Kunden-Journey harmonisiert und optimiert werden kann, um 1:1 Kundeninteraktion und Marketing-Maßnahmen zu ermöglichen und Marken dabei zu helfen, im gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an einen Kunde gesendet werden.
 
 * **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe der Entscheidungsfindung auf allen Kanälen zentralisierte Angebote im großen Maßstab.
 

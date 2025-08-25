@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** componentType 
 **Titel:** Inhaltskomponententyp 
-**Beschreibung:** Ein Auflistungssatz von URIs, wobei jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
+**Beschreibung:** Ein Aufzählungssatz von URIs, wobei jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
 **Typ:** Zeichenfolge
 
 +++

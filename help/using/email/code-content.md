@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 keywords: Code, HTML, Editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '195'
+workflow-type: tm+mt
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode setzt HTML-Kenntnisse voraus.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video)
 
 >[!CAUTION]
 >

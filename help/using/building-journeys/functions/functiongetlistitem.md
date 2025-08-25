@@ -9,8 +9,8 @@ keywords: getListItem, Funktion, Ausdruck, Journey
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 

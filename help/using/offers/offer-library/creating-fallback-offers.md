@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -62,5 +62,5 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341350?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

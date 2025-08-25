@@ -11,8 +11,8 @@ keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
    ![](assets/email_designer_structure_components.png)
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+   Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Beschriftung]** ändern und **[!UICONTROL Tags]** hinzufügen. [Erfahren Sie mehr über Links und Tracking](message-tracking.md)
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder das **[!UICONTROL Label]** ändern und **[!UICONTROL Tags]** hinzufügen. [Erfahren Sie mehr über Links und Tracking](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 

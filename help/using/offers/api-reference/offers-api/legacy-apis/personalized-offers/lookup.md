@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | Der Container, in dem sich die personalisierten Angebote befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Definiert das Schema, das mit personalisierten Angeboten verknüpft ist. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter „id“ und „name“ können nicht zusammen verwendet werden. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Discount offer` |
+| `name` | Eine Zeichenfolge, die verwendet wird, um die xdm:name-Eigenschaft der Entitäten abzugleichen. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Discount offer` |
 
 **Anfrage**
 

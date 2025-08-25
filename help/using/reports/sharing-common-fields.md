@@ -11,7 +11,7 @@ exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Der Status kann wie folgt lauten:
 * transitions: Der Schritt wartet darauf, bis ein Ereignis durch Transition in einen anderen Schritt gelangt.
 * capped: Der Schritt ist aufgrund eines Begrenzungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
 * timedout: Der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
-* instanceTimedout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
+* instanceTimedout: Der Schritt hat die Verarbeitung gestoppt, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
 
 ## journeyID {#journeyid-field}
 

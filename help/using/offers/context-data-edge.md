@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,11 +142,11 @@ Im Folgenden finden Sie ein Beispiel für eine Anfrage, die Kontextdaten übergi
 * Informationen über den Gerätetyp werden im Knoten `xdm:ContextData` übergeben.
 * Kopieren Sie im Knoten `decisionScopes` den Entscheidungsumfang der zuvor konfigurierten [Angebotsentscheidung](#decision) und fügen Sie ihn ein.
 
-  +++Wo der Entscheidungsumfang abgerufen werden kann
+  +++Wo der Entscheidungsumfang abgerufen werden soll
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

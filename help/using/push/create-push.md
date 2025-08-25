@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
    ![](assets/push_create_1.png)
 
-1. Geben Sie allgemeine Informationen (Titel, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
+1. Geben Sie allgemeine Informationen (Label, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
 
    ![](assets/push_create_2.png)
 

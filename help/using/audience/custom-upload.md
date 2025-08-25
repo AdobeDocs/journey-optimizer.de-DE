@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ Geben Sie während des benutzerdefinierten Upload-Prozesses das CSV-Attribut, da
 
 ![](assets/import-audience.png)
 
-Detaillierte Informationen zum Import von Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} von Adobe Experience Platform.
+Detaillierte Informationen zum Importieren von Zielgruppen finden Sie in der Dokumentation zum [-Service in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
 
 Mehr zum Hochladen von Zielgruppen im CSV-Format erfahren Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3423357?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

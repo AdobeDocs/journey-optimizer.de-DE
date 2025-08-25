@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
@@ -140,4 +140,4 @@ Verfolgen Sie nach dem Ausführen des Experiments mit dem [Experimentkampagnenbe
 
 Erfahren Sie, wie Sie eine E-Mail-Vorlage aus Journey Optimizer in GenStudio for Performance Marketing exportieren, markenkonforme E-Mails mit der Vorlage in GenStudio erstellen und diese dann nahtlos wieder in Journey Optimizer importieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456058/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

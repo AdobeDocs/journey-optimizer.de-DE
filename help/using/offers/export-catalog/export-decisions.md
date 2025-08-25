@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1531'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** placements 
 **Titel:** Platzierungsbegrenzungen
-**Beschreibung:** Die Platzierungsbegrenzung gibt an, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede beabsichtigte Platzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
+**Beschreibung:** Die Platzierungsbegrenzung gibt an, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements&quot; ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
 **Typ:** Array
 
 * Platzierungskennung
@@ -213,7 +213,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Rangfolge (Priorität) Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
 **Typ: Objekt**
 
-+++
++++ 
 
 +++_experience > decisioning > criteria > ranking > order
 

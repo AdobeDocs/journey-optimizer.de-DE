@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Für jede Adresse werden der wesentliche Grund für die Unterdrückung und die U
 >
 >Die Profile mit dem Status **[!UICONTROL Unterdrückt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Zielgruppe lesen](../building-journeys/read-audience.md) und [Nachrichten](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden.
+>Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service} ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"}.
 
 ### Versandfehler {#delivery-failures}
 

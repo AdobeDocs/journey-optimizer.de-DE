@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 100%
+source-wordcount: '1364'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
-* **Name des AWS-Buckets**: Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
+* **AWS-Behältername:**:To Sie, wo Sie Ihren AWS-Behälternamen finden, finden Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **AWS-Zugriffsschlüssel**: Informationen dazu, wo Sie die ID Ihres AWS-Zugangsschlüssels finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 

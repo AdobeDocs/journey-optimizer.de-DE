@@ -10,7 +10,7 @@ level: Beginner
 keywords: Assets, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -63,13 +63,13 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
 
    ![](assets/media_library_4.png)
 
-+++ Erfahren Sie, wie zwischen Asset-Repositorys gewechselt werden kann.
+   +++ Erfahren Sie, wie zwischen Asset-Repositorys gewechselt werden kann.
 
    Um das Asset-Repository zu ändern, wählen Sie das Kontosymbol oben rechts aus und klicken Sie auf **[!UICONTROL Repository wählen]**.
 
    ![](assets/media_library_3.png)
 
-+++
+   +++
 
 1. Doppelklicken Sie im mittleren Bereich oder in der Baumansicht auf einen Ordner, um ihn zu öffnen.
 

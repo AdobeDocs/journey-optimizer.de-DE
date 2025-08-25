@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten*
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438927/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

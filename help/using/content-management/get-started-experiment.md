@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren 
 
 Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Abwandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
-➡️ In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
+➡️In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird vollständig ein Anwendungsfall vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
 
 ## Warum sollten Experimente durchgeführt werden?
 
@@ -75,33 +75,33 @@ Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die „
 
 Beim Durchführen von Experimenten ist es wichtig, bestimmte Best Practices zu befolgen. Im Folgenden finden Sie einige Tipps zum Durchführen dieser Experimente:
 
-+++ Isolieren Sie die Variablen, im Hinblick auf die Sie testen möchten
++++Isolieren Sie die Variablen, die Sie testen möchten
 
 Formulieren Sie einige Hypothesen, die Sie testen möchten, und beschränken Sie diese Hypothesen auf möglichst wenige Änderungen, um festzustellen, welche Auswirkungen dadurch beim Versand erzielt werden.
 
 Eine gute Hypothese kann beispielsweise sein, ob Personalisierung in E-Mail-Betreffzeilen zu besseren Öffnungsraten führt. Wenn Sie zusätzlich jedoch Änderungen am Nachrichteninhalt vornehmen oder Bilder hinzufügen, kann dies zu einer verwirrenden Schlussfolgerung führen.
 +++
 
-+++ Stellen Sie sicher, dass die richtige Metrik verwendet wird
++++Stellen Sie sicher, dass Sie die richtige Metrik verwenden
 
 Bestimmen Sie die Metrik, die Sie ins Visier nehmen möchten, und stellen Sie auch fest, ob die von Ihnen vorgenommenen Änderungen direkte Auswirkungen auf diese Metrik haben können.
 
 So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrichteninhalts auf die Öffnungsraten der E-Mail auswirkt.
 +++
 
-+++ Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
++++Führen Sie Ihren Test mit der richtigen Zielgruppengröße oder lange genug aus.
 
 Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Abwandlungen können Sie in der Zielmetrik erkennen. Wenn der Baseline-Wert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
 Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
-+++
++++ 
 
-+++ Verstehen Sie statistische Unsicherheiten
++++Verstehen der statistischen Unsicherheit
 
 Nehmen wir an, Sie haben ein Experiment durchgeführt, bei dem 1000 Benutzende eine Abwandlung gesehen haben, und die Konversionsrate liegt bei 5 %. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Was wäre die tatsächliche Konversionsrate?
 Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das Sie bei der Durchführung von Online-Experimenten verstehen müssen, ist, dass die beobachteten Konversionsraten mit einem Bereich zugrunde liegender realer Konversionsraten konsistent sind. Das bedeutet, dass Sie warten müssen, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
 +++
 
-+++ Formulieren Sie neue Hypothesen und testen Sie sie kontinuierlich
++++Formulieren Sie neue Hypothesen und testen Sie sie kontinuierlich
 
 Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experiment festhalten. Allerdings sollten Sie im Anschluss an diese Experimente neue Hypothesen formulieren, neue Tests mit unterschiedlichen Änderungen für verschiedene Zielsegmente durchführen und die Auswirkungen auf die verschiedenen Metriken untersuchen.
 +++
@@ -123,13 +123,13 @@ Beachten Sie, dass bei einer vollständigen Beschreibung der Ergebnisse alle ver
 
 Statistische Berechnungen werden auf dieser [Seite](../content-management/experiment-calculations.md) erläutert.
 
-### 1. Vergleichen normalisierter Metriken {#normalized-metrics}
+### &#x200B;1. Vergleichen normalisierter Metriken {#normalized-metrics}
 
 Wenn Sie die Performance von zwei Abwandlungen vergleichen, sollten Sie immer die normalisierten Metriken vergleichen, um Unterschiede in der Anzahl der Profile zu berücksichtigen, die jeder Abwandlung ausgesetzt sind.
 
 Wenn das Experimentziel beispielsweise **[!UICONTROL Einzelöffnungen]** sind und eine bestimmte Abwandlung 10.000 Profilen gezeigt wurde und zu 200 erfassten Einzelöffnungen führte, entspricht dies einer **[!UICONTROL Konversionsrate]** von 2 %. Bei nicht eindeutigen Metriken, z. B. der Öffnungs-Metrik, wird die normalisierte Metrik als **[!UICONTROL Anzahl pro Profil]** angezeigt, während bei kontinuierlichen Metriken wie „Preis gesamt“ die normalisierte Metrik als **[!UICONTROL Gesamt pro Profil]** angezeigt wird.
 
-### 2. Konzentration auf Konfidenzintervalle {#confidence-intervals}
+### &#x200B;2. Konzentration auf Konfidenzintervalle {#confidence-intervals}
 
 Wenn Sie Experimente mit Stichproben Ihrer Profile durchführen, stellt die für eine bestimmte Abwandlung beobachtete Konversionsrate eine Schätzung der tatsächlichen zugrunde liegenden Konversionsrate dar.
 
@@ -141,17 +141,17 @@ Wenn sich die Konfidenzintervalle für zwei Abwandlungen kaum überschneiden, be
 
 Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse zu jedem Zeitpunkt des Experiments sicher angezeigt werden können.
 
-### 3. Verstehen von Steigerungen {#understand-lift}
+### &#x200B;3. Verstehen von Steigerungen {#understand-lift}
 
 In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Baseline]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Abwandlung gegenüber der Baseline darstellt. Genauer gesagt handelt es sich um den Unterschied in der Performance zwischen einer bestimmten Abwandlung und der Baseline, geteilt durch die Performance der Baseline, ausgedrückt in Prozent.
 
-### 3. Verstehen von Konfidenz {#understand-confidence}
+### &#x200B;3. Verstehen von Konfidenz {#understand-confidence}
 
 Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Performance der einzelnen Abwandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Baseline- und die Nicht-Baseline-Abwandlung die gleiche Performance aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Abwandlung und der Baseline beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 
 Adobe verwendet „jederzeit gültige“ Konfidenz und „jederzeit gültige“ p-Werte, die mit den oben beschriebenen Konfidenzsequenzen übereinstimmen.
 
-### 4. Statistische Signifikanz
+### &#x200B;4. Statistische Signifikanz
 
 Bei der Durchführung von Experimenten wird ein Ergebnis als statistisch signifikant eingestuft, wenn es sehr unwahrscheinlich ist, dass es bei der Nullhypothese, dass eine bestimmte Abwandlung und die Baseline identische zugrunde liegende Konversionsraten/Performances aufweisen, beobachtet worden wäre.
 

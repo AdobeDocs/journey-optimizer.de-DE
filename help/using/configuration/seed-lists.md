@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -32,17 +32,17 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
   Zum Beispiel:
 
-+++ Wenn Sie Marketing-Fachkraft sind:
+  +++ Wenn Sie Marketing-Fachkraft sind:
 
   Sie möchten, dass alle Team-Mitglieder Kopien der gesendeten Nachrichten zur gleichen Zeit wie Ihre Kundinnen und Kunden erhalten. Auf diese Weise kann Ihr Team sicherstellen, dass Nachrichten mit dem erwarteten Layout, aktiven URLs, korrektem Text und Bildern gesendet werden – genau wie es vor der Ausführung geplant war.
 
-+++
+  +++
 
-+++ Wenn Sie für ein Produkt verantwortlich sind:
+  +++ Wenn Sie für ein Produkt verantwortlich sind:
 
   Sie müssen die tatsächlichen Nachrichten verfolgen, die an Kundinnen und Kunden gesendet werden. Ihr Team und Ihre Führungskräfte könnten sich für einige Kampagnen interessieren und müssen auf Ad-hoc-Basis hinzugefügt werden, damit sie zum Zeitpunkt des Versands Kopien von Nachrichten erhalten können.
 
-+++
+  +++
 
 * Ein weiterer Grund für die Verwendung von Testadressenlisten ist der Schutz Ihrer Mailing-Liste. Wenn Sie Testadressen in Ihre Mailing-Liste einfügen, können Sie feststellen, ob letztere von einem Drittanbieter verwendet wird. Die Testadressen, die darin enthalten sind, erhalten nämlich die Sendungen, die an Ihre Mailing-Liste gesendet werden.
 

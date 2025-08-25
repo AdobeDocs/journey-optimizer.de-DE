@@ -256,5 +256,5 @@ Erfahren Sie mehr darüber, wie Adobe Experience Manager Dynamic Media mit Adobe
 
 In diesem Tutorial wird beschrieben, wie Sie Bilder direkt in AJO ändern, im HTML-Modus Textüberlagerungen hinzufügen, Dynamic Media-Vorlagen in AEM zur Hyperpersonalisierung erstellen und Kampagnen personalisieren, indem Sie Inhalte auf verschiedene Zielgruppensegmente zuschneiden. Diese Integration ermöglicht es Marketing-Fachleuten, ansprechende und personalisierte Kampagnen effizient zu erstellen, ohne zwischen Anwendungen wechseln zu müssen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?learn=on&enablevpops=&autoplay=true&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

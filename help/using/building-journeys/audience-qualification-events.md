@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    ![](assets/segment5.png)
 
-1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
+1. Fügen Sie der Aktivität ein **[!UICONTROL Label]** hinzu. Dieser Schritt ist optional.
 
 1. Klicken Sie in das Feld **[!UICONTROL Zielgruppe]** und wählen Sie die gewünschten Zielgruppen aus.
 
@@ -161,4 +161,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

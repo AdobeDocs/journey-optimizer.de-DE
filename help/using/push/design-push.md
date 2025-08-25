@@ -81,7 +81,7 @@ In der Android-Version können Sie bis zu drei Schaltflächen hinzufügen.
 
 In der iOS-Version wird eine Kategoriekennung der Benachrichtigung angegeben. Benachrichtigungskategorien müssen in der iOS-App vorkonfiguriert werden. Dadurch werden die anzuzeigenden Schaltflächen und die durchgeführten Aktionen definiert. Weitere Informationen dazu finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types).
 
-1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Hinzufügen“]**, um die Einstellungen zu definieren: den Titel und die zugehörige Aktion. Mögliche Aktionen sind die gleichen wie für das [Verhalten bei Klick](#on-click-behavior).
+1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Hinzufügen“]**, um die Einstellungen zu definieren: das Label und die zugehörige Aktion. Mögliche Aktionen sind die gleichen wie für das [Verhalten bei Klick](#on-click-behavior).
 
 1. Verwenden Sie für eine Vorschau Ihrer personalisierten Schaltflächen das Symbol **[!UICONTROL Ansicht erweitern]** unter dem zentralen Vorschaubild.
 

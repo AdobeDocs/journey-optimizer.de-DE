@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -321,7 +321,7 @@ Zu verwendende API-Aufrufe:
 
 +++
 
-+++Aktualisieren und Bereitstellen einer (noch nicht bereitgestellten) Drosselungskonfiguration
++++Aktualisieren und Bereitstellen einer Drosselungskonfiguration (noch nicht bereitgestellt)
 
 Zu verwendende API-Aufrufe:
 

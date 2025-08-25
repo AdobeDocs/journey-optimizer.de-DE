@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Beim Gestalten von Inhalten in einer Kampagne oder Journey können Sie diesen f�
 
 1. Wählen oder erstellen Sie ein Adobe Experience Platform-Tag im Feld **Tags**, um Ihre Vorlage zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
-1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
+1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

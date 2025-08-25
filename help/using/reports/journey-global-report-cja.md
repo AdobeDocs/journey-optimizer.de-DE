@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Mit dem **[!UICONTROL Journey-Bericht]** erhalten Sie einen klaren Überblick ü
 
 ![](assets/cja-journey-kpis.png)
 
-Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumfassendes Dashboard und liefern eine Analyse der wichtigsten Metriken, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingegebenen Profile und die Anzahl der fehlgeschlagenen individuellen Journeys und bietet einen umfassenden Einblick in die Effektivität und den Grad der Interaktion Ihrer Journeys.
+Die **[!UICONTROL Journey-KPIs]** (Key Performance Indicators) dienen als allumfassendes Dashboard und liefern eine Analyse der wichtigsten Metriken, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingetretenen Profile und die Instanzen der fehlgeschlagenen einzelnen Journeys und bietet einen umfassenden Einblick in die Effektivität und den Grad der Interaktion Ihrer Journeys.
 
 +++ Weitere Informationen zu den Metriken „Journey-KPIs“
 

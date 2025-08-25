@@ -10,8 +10,8 @@ keywords: Ausdruck, Daten, Datentyp, Journey
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Kann in einer toDateTimeOnly-Funktion gekapselt sein.
 
 Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
 **Wörtliche Darstellung**
 

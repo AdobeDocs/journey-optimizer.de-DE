@@ -6,7 +6,7 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
@@ -65,11 +65,11 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
 
 1. Wählen Sie die entsprechende **[!UICONTROL Kategorie]**, **[!UICONTROL Übereinstimmungsregel]** und **[!UICONTROL Optionen]** aus.
 
-   Zum Beispiel „wenn Aktion mit Direktwerbung übereinstimmt“ oder „wenn Benutzername der anfragenden Person mit Max Mustermann übereinstimmt“.
+   Zum Beispiel „wenn Aktion mit Direkt-Mail übereinstimmt“ oder „wenn Benutzername der anfragenden Person mit Max Mustermann übereinstimmt“.
 
    ![](assets/policy_condition_1.png)
 
-+++ Weitere Informationen zu verfügbaren Kategorien und Optionen
+   +++ Weitere Informationen zu verfügbaren Kategorien und Optionen
    <table>
     <tr>
       <th>Kategorie</th>

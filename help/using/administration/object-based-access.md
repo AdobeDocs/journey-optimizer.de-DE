@@ -7,7 +7,7 @@ feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
 level: Experienced
-keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
+keywords: Objekt, Ebene, Zugriff, Kontrolle, Labels, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
@@ -73,11 +73,11 @@ Sie können **[!UICONTROL Labels]** auch direkt in Journey Optimizer erstellen. 
 
    ![Felder zur Label-Konfiguration](assets/olac_3.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre **[!UICONTROL Bezeichnung]** zu speichern.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihr **[!UICONTROL Label]** zu speichern.
 
-Ihre neu erstellte **[!UICONTROL Bezeichnung]** ist jetzt in der Liste verfügbar. Bei Bedarf können Sie sie im Produkt [!DNL Permissions] ändern.
+Ihr neu erstelltes **[!UICONTROL Label]** ist jetzt in der Liste verfügbar. Bei Bedarf können Sie sie im Produkt [!DNL Permissions] ändern.
 
-## Zuweisen von Bezeichnungen {#assign-labels}
+## Zuweisen von Labels {#assign-labels}
 
 So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Labels zur grundlegenden Datennutzung zu:
 
@@ -85,13 +85,13 @@ So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Labels
 
    ![Schaltfläche „Zugriff verwalten“ in Adobe Journey Optimizer](assets/olac_1.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Zugriff verwalten]** Ihre benutzerdefinierte(n) oder Core-Bezeichnungen(en) für die Datennutzung aus, um den Zugriff auf dieses Objekt zu verwalten.
+1. Wählen Sie im Fenster **[!UICONTROL Zugriff verwalten]** Ihre benutzerdefinierten oder Core-Labels für die Datennutzung aus, um den Zugriff auf dieses Objekt zu verwalten.
 
-   Weitere Informationen zu Core-Bezeichnungen für die Nutzungsdaten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de){target="_blank"}.
+   Weitere Informationen zu Core-Labels für die Nutzungsdaten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de){target="_blank"}.
 
    ![](assets/olac_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um diese Beschränkung für die Bezeichnung anzuwenden.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um diese Beschränkung für das Label anzuwenden.
 
 Auf dieses Objekt können nur Benutzende mit dem spezifischen **[!UICONTROL Label]** in ihren **[!UICONTROL Rollen]** zugreifen. Beispiel: Eine Benutzerin oder ein Benutzer mit dem Label „C1“ hat nur Zugriff auf Objekte mit dem Label „C1“ oder Objekte ohne Label.
 

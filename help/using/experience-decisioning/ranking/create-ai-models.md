@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
    Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst. Weitere Informationen finden Sie im Überblick über das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de).
 
-+++ Optimieren von Modellen für benutzerdefinierte Metriken in [!DNL Customer Journey Analytics]
+   +++ Optimieren von Modellen für benutzerdefinierte Metriken in [!DNL Customer Journey Analytics]
 
    >[!NOTE]
    >
@@ -76,13 +76,13 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
    >[!NOTE]
    >
-   >Standardmäßig verwenden Metriken in [!DNL Customer Journey Analytics] ein Attributionsmodell „Letztkontakt“, mit dem 100 % des Credits dem Touchpoint zugewiesen werden, der zuletzt vor der Konvertierung auftritt.
+   >Standardmäßig verwenden Metriken in [!DNL Customer Journey Analytics] ein Attributionsmodell „Letztkontakt“, mit dem 100 % des Credits dem Touchpoint zugewiesen werden, der zuletzt vor der Konversion auftritt.
    >
    >Es ist zwar möglich, das Attributionsmodell zu ändern, aber nicht alle Attributionsmodelle eignen sich ideal für die Optimierung von KI-Modellen.  Wir empfehlen, mit Sorgfalt ein Attributionsmodell auszuwählen, das Ihren Optimierungszielen entspricht, um die Genauigkeit und Leistung des Modells sicherzustellen.
    >
    >Weitere Informationen zu verfügbaren Attributionsmodellen und Anleitungen zu ihrer Verwendung finden Sie in der [[!DNL Customer Journey Analytics] Dokumentation](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
-+++
+   +++
 
 1. Wählen Sie die Datensätze aus, in denen die Konversions- und Impression-Ereignisse erfasst werden. In [diesem Abschnitt](../data-collection/create-dataset.md) erfahren Sie, wie Sie solche Datensätze erstellen.
 
@@ -117,4 +117,4 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?quality=12&captions=ger)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

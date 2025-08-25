@@ -3,7 +3,7 @@ title: Verwenden zusätzlicher Kennungen in Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 100%
 
@@ -244,4 +244,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

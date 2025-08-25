@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -97,7 +97,7 @@ Sie können auch eine externe Landingpage verwenden. Konfigurieren Sie in diesem
 
 +++ Erfahren Sie, wie Sie einen Opt-out-API-Aufruf implementieren
 
-Damit Ihre Empfangenden abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
+Damit Ihre Empfänger abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com){target="_blank"} implementieren, um die Einstellungen der entsprechenden Profile zu aktualisieren.
 
 Dieser POST-Aufruf sieht wie folgt aus:
 
@@ -134,7 +134,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den [Adobe Developer](https://developer.adobe.com){target="_blank"}-API-Aufruf zu aktualisieren
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den API-Aufruf [Adobe Developer](https://developer.adobe.com){target="_blank"} zu aktualisieren.
 
 +++
 

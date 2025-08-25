@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 
 1. Es wird eine Liste aller in der aktuellen Sandbox erstellten Fragmente angezeigt. Sie werden nach Erstellungsdatum sortiert, wobei die kürzlich hinzugefügten visuellen Fragmente zuerst in der Liste angezeigt werden.  Sie haben folgende Möglichkeiten:
 
-   * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe der zugehörigen Kennzeichnung beginnen.
+   * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe des zugehörigen Labels beginnen.
    * Sortieren Sie Fragmente in auf- oder absteigender Reihenfolge.
    * Ändern Sie die Anzeige der Fragmente (Karten- oder Listenansicht).
    * Aktualisieren Sie die Liste.

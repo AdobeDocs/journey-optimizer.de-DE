@@ -9,7 +9,7 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
    >
    >Das erste Objekt des Payload-Beispiels wird verwendet, um die Felder zu definieren.
 
-1. Definieren Sie für jedes Feld den Titel, der auf der Journey-Arbeitsfläche angezeigt werden soll.
+1. Definieren Sie für jedes Feld das Label, das auf der Journey-Arbeitsfläche angezeigt werden soll.
 
    ![](assets/uc-collection-2.png)
 

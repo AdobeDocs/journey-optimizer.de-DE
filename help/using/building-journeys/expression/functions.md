@@ -10,8 +10,8 @@ keywords: Funktion, Ausdrücke, Editor, Journey
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 

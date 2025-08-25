@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Maximale Größe der PQL-Regel | 15.000 (UTF-8) |
 | Maximale Anzahl an Verschachtelungsebenen | 30 |
 
-## Rangfolgeformeln {#ranking-formulas}
+## Rangfolgenformeln {#ranking-formulas}
 
 | Leitplanke | Limit |
 | ------- | ------- |

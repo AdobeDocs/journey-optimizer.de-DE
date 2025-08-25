@@ -9,7 +9,7 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 
 >[!NOTE]
 >
->Damit Ihre benutzerdefinierten Ereignisse bei der [Frequenzlimitierung](../offer-library/add-constraints.md#capping) berücksichtigt werden, müssen Sie das Erlebnisereignis mit Adobe Experience Platform-Endpunkten verbinden, indem Sie es an einen dieser beiden Edge-Datenerfassungsendpunkte senden:
+>Damit Ihre benutzerdefinierten Ereignisse bei der [Frequenzbegrenzung](../offer-library/add-constraints.md#capping) berücksichtigt werden, müssen Sie das Erlebnisereignis mit Adobe Experience Platform-Endpunkten verbinden, indem Sie es an einen dieser beiden Edge-Datenerfassungsendpunkte senden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect

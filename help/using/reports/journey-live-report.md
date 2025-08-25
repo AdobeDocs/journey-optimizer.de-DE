@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 100%
 
@@ -66,11 +66,11 @@ Beachten Sie, dass die Profilanzahl für einen Knoten erst aktualisiert wird, na
 
 ![](assets/journey_live_statistics.png)
 
-Die Key Performance Indicators (KPIs) **[!UICONTROL Journey-Statistiken]** fungieren als allumfassendes Dashboard, das eine Analyse der wichtigsten Metriken im Zusammenhang mit Ihrer Journey in den letzten 24 Stunden liefert. Dies umfasst Details wie die Anzahl der eingegebenen Profile und Instanzen fehlgeschlagener Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
+Die Key Performance Indicators (KPIs) **[!UICONTROL Journey-Statistiken]** fungieren als allumfassendes Dashboard, das eine Analyse der wichtigsten Metriken im Zusammenhang mit Ihrer Journey in den letzten 24 Stunden liefert. Dies umfasst Details wie die Anzahl der eingetretenen Profile und Instanzen fehlgeschlagener Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
 
 +++ Weitere Informationen zu den Metriken „Journey-Statistiken“
 
-* **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Eingetretene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
 * **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben.
 

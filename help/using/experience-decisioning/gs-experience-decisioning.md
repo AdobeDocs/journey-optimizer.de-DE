@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Zuweisen entsprechender Berechtigungen**. Die Entscheidungsfindung steht nur Benutzenden mit Zugriff auf eine Entscheidungfindungs-bezogene **[!UICONTROL Rolle]** zur Verfügung, z. B. Entscheidungsträgern. Wenn Sie nicht auf die Entscheidungsfindung zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
-   +++Erfahren Sie, wie Sie die Rolle „Entscheidungsträger“ zuweisen
+   +++Erfahren Sie, wie Sie die Rolle Entscheidungs-Manager zuweisen
 
    1. Um Benutzenden eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie „Entscheidungsträger“ aus.
 
@@ -56,7 +56,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    Ihre Benutzenden sollten dann eine E-Mail mit einer Umleitung zu Ihrer Instanz erhalten.
 
-+++
+   +++
 
 1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Elemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 

@@ -40,7 +40,7 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfänger zu identifizi
 
 1. Wählen Sie das **[!UICONTROL Feedback-Status]**-Attribut aus, um Versandereignisse für Nachrichten anzusprechen.
 
-+++ Detaillierte schrittweise Anleitungen
+   +++ Detaillierte schrittweise Anleitungen
 
    1. Fügen Sie eine weitere mit dem Attribut **[!UICONTROL Nachrichten-Feedback]** verknüpfte Bedingung hinzu.
 
@@ -52,11 +52,11 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfänger zu identifizi
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Wählen Sie das Attribut **[!UICONTROL Name der orchestrierten Kampagne]**, um eine bestimmte orchestrierte Kampagne auszuwählen.
 
-+++ Detaillierte schrittweise Anleitungen
+   +++ Detaillierte schrittweise Anleitungen
 
    1. Fügen Sie eine weitere mit dem Attribut **[!UICONTROL Nachrichten-Feedback]** verknüpfte Bedingung hinzu, suchen Sie nach **[!UICONTROL Entität]** und navigieren Sie zu:
 
@@ -68,11 +68,11 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfänger zu identifizi
 
    1. Geben Sie im **[!UICONTROL Benutzerdefinierte Bedingung]** den Namen der Kampagne im Feld **[!UICONTROL Wert]** an.
 
-+++
+   +++
 
 1. Wählen Sie das Attribut **[!UICONTROL Orchestrierte Kampagnenaktion - Name]**, um eine bestimmte Nachricht oder Aktivität in einer orchestrierten Kampagne auszuwählen.
 
-+++ Detaillierte schrittweise Anleitungen
+   +++ Detaillierte schrittweise Anleitungen
 
    1. Fügen Sie eine weitere mit dem Attribut **[!UICONTROL Nachrichten-Feedback]** verknüpfte Bedingung hinzu, suchen Sie nach **[!UICONTROL Entität]** und navigieren Sie zu:
 
@@ -86,7 +86,7 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfänger zu identifizi
 
       Aktionsnamen finden Sie, indem Sie auf das ![Informationssymbol](assets/do-not-localize/info-icon.svg) neben dem Feld Titel Ihrer Aktivität klicken.
 
-+++
+   +++
 
 1. Alternativ können Sie auch nach der **[!UICONTROL Kampagnen-ID]** (UUID) filtern, die Sie in Ihren Kampagneneigenschaften finden.
 

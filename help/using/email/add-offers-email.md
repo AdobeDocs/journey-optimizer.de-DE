@@ -10,8 +10,8 @@ level: Intermediate
 keywords: Angebote, Entscheidung, E-Mails, Personalisierung, Entscheidung
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '622'
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ei
 * Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
 * Ein **vollständiges Beispiel**, das zeigt, wie Angebote konfiguriert, in Entscheidungen verwendet und diese Entscheidungen in E-Mails eingesetzt werden, finden Sie in [diesem Abschnitt](../offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [In diesem Video erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen können](#video-offers).
+➡️ [In diesem Video erfahren Sie, wie Sie Angebote als Teil der Personalisierung hinzufügen](#video-offers)
 
 ## Einfügen einer Entscheidung in eine E-Mail {#insert-offers}
 

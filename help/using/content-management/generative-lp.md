@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
 source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 100%
 
@@ -150,7 +150,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
-1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 

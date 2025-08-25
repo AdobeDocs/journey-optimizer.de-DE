@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Hier gilt:
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **Zielgruppe**
 
@@ -112,7 +112,7 @@ Hier gilt:
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## Helper{#helpers-all}
 

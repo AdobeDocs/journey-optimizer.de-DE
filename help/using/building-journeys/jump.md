@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktiv
 
    ![](assets/jump1.png)
 
-1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie einen Titel und eine Beschreibung hinzu.
+1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie ein Label und eine Beschreibung hinzu.
 
    ![](assets/jump2.png)
 

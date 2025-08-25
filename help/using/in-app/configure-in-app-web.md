@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -122,9 +122,9 @@ ht-degree: 100%
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungs-Labels zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md).
 
-1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Wählen Sie den Kanal **In-App-Messaging** aus.
 
@@ -134,14 +134,14 @@ ht-degree: 100%
 
    * Sie können eine Regel erstellen, um mehrere URLs, die demselben Muster entsprechen, als Ziel festzulegen.
 
-+++ Erstellen einer Regel zum Seitenabgleich
+     +++ Erstellen einer Regel zum Seitenabgleich
 
       1. Wählen Sie **[!UICONTROL Regel zum Seitenabgleich]** als App-Konfiguration aus und geben Sie Ihre **[!UICONTROL Seiten-URL]** ein.
 
       1. Definieren Sie im Fenster **[!UICONTROL Konfigurationsregel bearbeiten]** die Kriterien für die Felder **[!UICONTROL Domain]** und **[!UICONTROL Seite]**.
       1. Personalisieren Sie Ihre Kriterien über die Dropdown-Listen für Bedingungen weiter.
 
-         Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Sales-Seiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
+         Wenn Sie beispielsweise Elemente bearbeiten möchten, die auf allen Vertriebs-Produktseiten Ihrer Luma-Website angezeigt werden, wählen Sie „Domain“ > „Beginnt mit“ > „luma und Seite“ > „Enthält“ > „Sales“ aus.
 
          ![](assets/in_app_web_surface_4.png)
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
       1. Speichern Sie Ihre Änderungen. Die Regel wird auf dem Bildschirm **[!UICONTROL Kampagne erstellen]** angezeigt.
 
-+++
+     +++
 
 1. Übermitteln Sie Ihre In-App-Web-Konfiguration.
 

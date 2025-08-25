@@ -9,8 +9,8 @@ keywords: Summe, Funktion, Ausdruck, Journey
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '57'
+ht-degree: 100%
 
 ---
 

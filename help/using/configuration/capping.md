@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 93%
 
 ---
 
@@ -112,7 +112,7 @@ Mögliche Fehler sind:
 
 * **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
 * **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
-* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
+* **ERR_ENDPOINTCONFIG_102**: Begrenzungskonfiguration: fehlerhafte URL: Platzhalter in URL im Host nicht zulässig:port
 * **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
 * **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
 * **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
@@ -142,7 +142,7 @@ Zu verwendende API-Aufrufe:
 
 +++
 
-+++Aktualisieren und Bereitstellen einer (noch nicht bereitgestellten) Begrenzungskonfiguration
++++Aktualisieren und Bereitstellen einer Begrenzungskonfiguration (noch nicht bereitgestellt)
 
 Zu verwendende API-Aufrufe:
 

@@ -195,6 +195,6 @@ Das folgende Video zeigt, wie man mit Adobe Journey Optimizer eine mehrstufige W
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470291/?learn=on&captions=ger")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

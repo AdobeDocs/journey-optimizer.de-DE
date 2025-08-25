@@ -10,7 +10,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
@@ -87,4 +87,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

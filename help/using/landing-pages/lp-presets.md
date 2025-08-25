@@ -9,7 +9,7 @@ level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um auf Landingpage-Voreinstellungen zuzugreifen:
 
    ![](assets/lp_presets-access.png)
 
-1. Klicken Sie auf eine beliebige Voreinstellungsbeschriftung, um auf die Voreinstellungsdetails der Landingpage zuzugreifen.
+1. Klicken Sie auf ein beliebiges Voreinstellungs-Label, um auf die Voreinstellungsdetails der Landingpage zuzugreifen.
 
    ![](assets/lp_preset-details.png)
 

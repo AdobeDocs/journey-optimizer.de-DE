@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -69,8 +69,8 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
 * Im folgenden Video erfahren Sie, wie Sie das Double-Opt-in für SMS konfigurieren.
 
-+++ Siehe Video
+  +++ Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440289/?learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

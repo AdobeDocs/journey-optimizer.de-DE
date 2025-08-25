@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 [!DNL Journey Optimizer] ermöglicht die Erstellung und den Entwurf von Landingpages, um deren Benutzende zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
-➡️ [Weitere Informationen zur Konfiguration von Abonnements und zur Erstellung von Landingpages finden Sie in diesem Video.](#video)
+➡️ [Weitere Informationen zum Konfigurieren von Abonnements und zum Erstellen von Landingpages finden Sie in diesem Video](#video)
 
 * Nutzen Sie [!DNL Journey Optimizer]Funktionen zur Inhaltserstellung zur mühelosen Gestaltung von **responsiven Landingpages**.
 * Richten Sie einfach und schnell **Opt-in- und Opt-out-Vorgänge** ein.
@@ -71,4 +71,4 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages einrichten, um An- oder Abmeldungen für einen Service zu ermöglichen, die Optionen zum Abonnieren oder Abbestellen in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

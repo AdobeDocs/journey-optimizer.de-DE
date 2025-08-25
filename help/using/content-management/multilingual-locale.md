@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](multilingual-manual.md#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Greifen Sie im Menü **[!UICONTROL Content Management]** auf **[!UICONTROL Übersetzung]** zu.
+1. Greifen Sie im Menü **[!UICONTROL Content-Management]** auf **[!UICONTROL Übersetzung]** zu.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 

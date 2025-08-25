@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und in [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden.
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
 
 **Beispiel**
 

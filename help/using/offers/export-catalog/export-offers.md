@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++ _experience > decisioning > calendarConstraints
++++ _experience > decisioning > calendarConstraints 
 
 **Feld:** calendarConstraints 
 **Titel:** Kalendereinschränkungsdetails 
@@ -151,7 +151,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
      **Feld:** repositoryID
      **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Plattform-APIs für den Abruf der Darstellung verwendet werden, kann der Client eine weitere Eigenschaft „repo:resolveUrl“ erwarten, um das Asset abzurufen.
-     **Typ:** Zeichenfolge
+     **Typ:** String
      **Beispiel:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
@@ -227,7 +227,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > profileConstraints > Eligibility Rule
++++_experience > decisioning > profileConstraints > Eignungsregel
 
 **Feld:** eligibilityRule
 **Titel:** Eignungsregel
@@ -329,7 +329,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > ranking > Priority
++++_experience > decisioning > ranking > priority
 
 **Feld:** priority 
 **Titel:** Priorität 
@@ -356,7 +356,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** _repo 
 **Typ:** Objekt
 
-+++
++++ 
 
 +++ _repo > Decision Option ETag
 

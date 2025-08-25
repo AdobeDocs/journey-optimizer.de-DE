@@ -9,8 +9,8 @@ keywords: sort, Funktion, Ausdruck, Journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
 

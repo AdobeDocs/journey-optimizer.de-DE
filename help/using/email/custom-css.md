@@ -10,7 +10,7 @@ level: Intermediate
 keywords: CSS, Editor, Zusammenfassung, E-Mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ body {
 
 Ihr benutzerdefiniertes CSS wird am Ende des Abschnitts `<head>` als Teil eines `<style>`-Tags mit dem Attribut `data-name="global-custom"` hinzugefügt, wie im folgenden Beispiel dargestellt. Dadurch wird sichergestellt, dass die benutzerdefinierten Stile global auf die Inhalte angewendet werden.
 
-+++ Siehe Beispiel
++++ Siehe Beispiel 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
 * Überprüfen Sie, ob für das `global-custom`-Stil-Tag das Attribut `data-disabled` auf `true` festgelegt ist. In diesem Fall wird das benutzerdefinierte CSS nicht angewendet.
 
-+++ Beispiel:
+  +++ Beispiel:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Stellen Sie sicher, dass Ihr CSS nicht durch andere CSS-Regeln überschrieben wird, einschließlich [Designs](apply-email-themes.md), die auf Ihren Inhalt angewendet werden.
 
@@ -249,7 +249,7 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
 
    * Erwägen Sie, Ihren Deklarationen `!important` hinzuzufügen, um sicherzustellen, dass sie Vorrang haben.
 
-+++ Beispiel:
+     +++ Beispiel:
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ Wenn Ihr benutzerdefiniertes CSS nicht angewendet wird, sollten Sie die folgende
      }
      ```
 
-+++
+     +++

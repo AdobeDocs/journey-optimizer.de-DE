@@ -9,9 +9,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -169,7 +169,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 >
 >Ersetzen Sie in den Beispielen für die Edge Decisioning-API `<OrgID>` durch Ihre Organisations-Mandanten-ID.
 
-+++Erhöhen Sie die Angebotspriorität um 10, wenn der Kanal aus den Kontextdaten mit dem bevorzugten Kanal der Kundin bzw. des Kunden übereinstimmt
++++Erhöhen Sie die Angebotspriorität um 10, wenn der Kanal aus den Kontextdaten mit dem bevorzugten Kanal des Kunden übereinstimmt.
 
 >[!BEGINTABS]
 
@@ -185,7 +185,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 
 +++
 
-+++Erhöhen Sie die Priorität aller Angebote mit „attribute=hot“, wenn „contextData.weather=hot“ im Aufruf übergeben wird.
++++Erhöhen Sie die Priorität aller Angebote mit „attribute=hot“, wenn beim Aufruf „contextData.weather=hot“ übergeben wird.
 
 >[!BEGINTABS]
 
@@ -201,7 +201,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 
 +++
 
-+++Inhaltsherkunftsverstärkung
++++Inhaltserstellungssteigerung
 
 >[!BEGINTABS]
 
@@ -217,7 +217,7 @@ Im Folgenden finden Sie Beispiele, die veranschaulichen, wie Kontextdaten in Ran
 
 +++
 
-+++Wetterverstärkung
++++Wetterauftrieb
 
 >[!BEGINTABS]
 

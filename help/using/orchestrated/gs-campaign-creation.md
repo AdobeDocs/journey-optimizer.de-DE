@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Wichtige Schritte zum Erstellen einer orchestrierten Kampagne
+title: Wichtige Schritte beim Erstellen einer orchestrierten Kampagne
 description: Grundlegende Prinzipien der koordinierten Kampagnenerstellung mit Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 62%
+ht-degree: 71%
 
 ---
 
 
-# Wichtige Schritte zum Erstellen einer orchestrierten Kampagne {#orchestrated-campaign-creation}
+# Wichtige Schritte beim Erstellen einer orchestrierten Kampagne {#orchestrated-campaign-creation}
 
 Diese Seite führt Sie durch die wichtigsten Schritte zum Erstellen und Starten einer orchestrierten Kampagne - von der Einrichtung und dem Design bis hin zur Überwachung und Berichterstellung.
 

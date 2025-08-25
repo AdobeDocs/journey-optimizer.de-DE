@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '951'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 96%
 
 ---
 
@@ -65,13 +65,13 @@ Dabei gilt:
 * `N` ist die Anzahl der Einheiten für diese Variante.
 * `σ` ist eine Stichprobenschätzung der Standardabweichung (wie oben definiert).
 * `α` ist die gewünschte Fehlerrate des Fehlers vom Typ I (oder der Wahrscheinlichkeit einer Fehlabdeckung). Diese ist immer auf 0,05 festgelegt.
-* p<sup>2</sup> ist eine Konstante, die die Stichprobengröße so anpasst, dass die CS möglichst dicht anliegt. Adobe hat den universellen Wert p<sup>2</sup> = 10<sup>-2,8</sup> gewählt, was für Konversationsraten geeignet ist, die in Online-Experimenten vorkommen.
+* p<sup>2</sup> ist eine Konstante, die die Stichprobengröße so anpasst, dass die CS möglichst dicht anliegt. Adobe hat den universellen Wert p<sup>2</sup> = 10<sup>-2,8</sup> gewählt, was für Konversionsraten geeignet ist, die in Online-Experimenten vorkommen.
 
 ## Konfidenz {#confidence}
 
 Die von Adobe verwendete Konfidenz ist eine „jederzeit gültige“ Konfidenz, die durch Umkehrung der Konfidenzsequenz für den durchschnittlichen Abwandlungseffekt erzielt wird.
 
-Genauer gesagt, gibt es in einem Test mit zwei Stichproben von *t*, bei dem auf den Unterschied zwischen den Mittelwerten zweier Varianten getestet wird, eine 1:1-Zuordnung zwischen dem *p*-Wert für diesen Test und das Konfidenzintervall für die Differenz der Mittelwerte. In Analogie dazu kann ein jederzeit gültiger *p*-Wert erlangt werden, indem die (jederzeit gültige) Konfidenzsequenz für die Schätzung des durchschnittlichen Abwandlungseffekts invertiert wird:
+Genauer gesagt, gibt es in einem Test mit zwei Stichproben *t*, bei dem auf den Unterschied der Mittelwerte zwischen zwei Varianten getestet wird, eine 1:1-Zuordnung zwischen dem *p*-Wert für diesen Test und das Konfidenzintervall für die Differenz der Mittelwerte. In Analogie dazu kann ein jederzeit gültiger *p*-Wert erlangt werden, indem die (jederzeit gültige) Konfidenzsequenz für die Schätzung des durchschnittlichen Abwandlungseffekts invertiert wird:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 

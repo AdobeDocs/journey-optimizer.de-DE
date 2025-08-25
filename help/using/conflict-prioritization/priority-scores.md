@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -43,4 +43,4 @@ Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

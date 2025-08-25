@@ -9,7 +9,7 @@ level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 

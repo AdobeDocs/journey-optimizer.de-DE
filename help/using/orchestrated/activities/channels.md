@@ -7,7 +7,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -136,7 +136,7 @@ Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugre
 
 * **[!UICONTROL Zielattribute]** (spezifisch für orchestrierte Kampagnen)
 
-  Dieser Ordner ist nur für orchestrierte Kampagnen verfügbar. Es enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. Es enthält zwei Unterordner:
+  Dieser Ordner ist nur für orchestrierte Kampagnen verfügbar. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. Es enthält zwei Unterordner:
 
    * **`<Targeting dimension>`** (z. B. „Empfänger“, „Käufe„): Enthält alle Attribute im Zusammenhang mit der Dimension, auf die sich Ihre Kampagne bezieht.
 

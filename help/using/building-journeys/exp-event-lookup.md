@@ -5,9 +5,9 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ Weitere Informationen:
 
 Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht mehr unterstützt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
 
-+++Welche spezifischen Funktionen sind betroffen?
++++Welche spezifischen Funktionen sind betroffen? 
 
 Nur die Suche nach Erlebnisereignissen im Ausdruckseditor ist betroffen. Die folgenden Funktionen sind **nicht** betroffen und funktionieren weiterhin unverändert:
 
@@ -150,13 +150,13 @@ Nur die Suche nach Erlebnisereignissen im Ausdruckseditor ist betroffen. Die fol
 
 +++
 
-+++Ist meine bestehende Adobe-Organisation von dieser Aktualisierung betroffen?
++++Ist meine bestehende Adobe-Organisation von dieser Aktualisierung betroffen? 
 
 Ihre Adobe-Organisation ist nur betroffen, wenn Sie die Suche nach Erlebnisereignissen noch nicht verwenden. Wenn Sie bereits Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) verwenden, verfügt Ihre Adobe-Organisation weiterhin über Support für die Suche nach Erlebnisereignissen.
 
 +++
 
-+++Ich habe eine neue Adobe-Organisation. Wie kann ich meinen Anwendungsfall lösen, der Erlebnisereignisdaten erfordert?
++++Ich habe eine neue Adobe-Organisation. Wie kann ich meinen Anwendungsfall lösen, der Erlebnisereignisdaten erfordert? 
 
 Alternative Ansätze und Best Practices für Erlebnisereignisse sind oben verfügbar. Mit diesen können Sie gewünschte Anwendungsfälle erreichen.
 

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
 1. Erweitern Sie die folgenden Abschnitte, um zu erfahren, wie jeder Begrenzungstyp konfiguriert wird:
 
-   +++Konfigurieren einer Begrenzungsregel für Journey-Eintritte
+   +++Konfigurieren einer Begrenzungsregel für Journey-Einträge
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
    1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
@@ -74,9 +74,9 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
    >
    >Wenn die Marketing-Fachkraft in diesem Beispiel bereits vier Journeys eingegeben hat und in diesem Monat eine weitere geplante Journey mit höherer Priorität ansteht, wird die Kundschaft daran gehindert, in die Journey mit der niedrigeren Priorität einzutreten.
 
-+++
+   +++
 
-   +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys
+   +++Konfigurieren einer Journey-Parallelitätsbegrenzungsregel 
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+   +++
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
@@ -117,4 +117,4 @@ Darüber hinaus können Sie auch den **Abfragedienst** in Adobe Experience Platf
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

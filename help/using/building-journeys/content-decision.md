@@ -13,7 +13,7 @@ exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -73,15 +73,15 @@ Gehen Sie wie folgt vor, um eine Aktivität vom Typ **[!UICONTROL Inhaltsentsche
 
 Sie können jetzt die Ausgabe dieser Aktivität vom Typ „Inhaltsentscheidung“ in Ihrer Journey nutzen.
 
-## Schutzmechanismen und Einschränkungen {#guardrails}
+## Leitlinien und Einschränkungen {#guardrails}
 
 **Einverständnisrichtlinien**
 
 Es kann bis zu 48 Stunden dauern, bis Aktualisierungen der Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
 
-Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerung vorüber ist.
+Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerungszeit vorüber ist.
 
-Einverständnisrichtlinien sind nur für Organisationen mit dem Adobe Healthcare Shield- oder Privacy and Security Shield-Add-on verfügbar.
+Einverständnisrichtlinien sind nur für Organisationen verfügbar, die über das Zusatzangebot „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ verfügen.
 
 ## Verwenden der Ausgabe der Aktivität „Inhaltsentscheidung“ {#use-content-decision-output}
 

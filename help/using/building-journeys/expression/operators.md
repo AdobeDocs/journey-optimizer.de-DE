@@ -10,8 +10,8 @@ keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '551'
+ht-degree: 100%
 
 ---
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
    ![](assets/multilingual-settings-6.png)
 
-   +++Voraussetzungen für die Verwendung kontextbezogener Ereignisse in Ihren Bedingungen
+   +++Voraussetzungen für die Verwendung kontextueller Ereignisse in Ihren Bedingungen
 
    Wenn Benutzende Ihren Inhalt anzeigen, wird eine Personalisierungsanfrage zusammen mit dem Erlebnisereignis gesendet. Um kontextbezogene Daten in Ihren Bedingungen zu nutzen, müssen Sie zusätzliche Daten an die Payload der Personalisierungsanfrage anhängen. Dafür müssen Sie eine Regel in der Datenerfassung in Adobe Experience Platform erstellen, um Folgendes anzugeben: WENN eine Personalisierungsanfrage gesendet wird, DANN werden der Anfrage zusätzliche Daten hinzugefügt, die das Attribut so definieren, dass es mit dem Sprachfeld in Ihrem Schema übereinstimmt.
 
@@ -166,7 +166,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
    1. Greifen Sie in der Datenerfassung von Adobe Experience Platform auf die Tag-Eigenschaften zu.
 
-   1. Greifen Sie auf das Menü **[!UICONTROL Regeln]** zu und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform][Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
+   1. Greifen Sie auf das Menü **[!UICONTROL Regeln]** zu und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform] [Datenerfassungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Fügen Sie im Abschnitt **[!UICONTROL WENN]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
 
@@ -199,7 +199,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
       * Klicken Sie auf die Schaltfläche **[!UICONTROL Änderungen beibehalten]**, um Ihre Regel zu bestätigen und zu speichern.
 
-+++
+   +++
 
 1. Verschieben Sie die Gebietsschemata per Drag-and-Drop in der Liste, um sie neu anzuordnen und ihre Priorität zu verwalten.
 

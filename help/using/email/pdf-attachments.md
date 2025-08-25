@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: E-Mail, Nachricht, Anhang, PDF, Editor
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 25%
@@ -40,7 +41,7 @@ Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
 1. Erstellen Sie eine E-Mail in einer Journey oder Kampagne. [Weitere Informationen](create-email.md)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne **&#x200B;**&#x200B;Abschnitt **[!UICONTROL Anlage]** aus.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne **** Abschnitt **[!UICONTROL Anlage]** aus.
 
    ![](assets/email-select-pdf.png)
 

@@ -314,7 +314,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken`wie folgt für den Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klicken Sie auf den gewünschten Ordner, um ihn zu erweitern. Platzieren Sie den Cursor an der gewünschten Position und klicken Sie auf das Symbol „+“ neben dem Attribut, das Sie hinzufügen möchten. Sie können beliebig viele Attribute zum Code hinzufügen.
 
@@ -355,11 +355,11 @@ Kopieren Sie einfach den unten stehenden Code-Block in den Entscheidungsrichtlin
 
 >[!TAB Führen Sie die detaillierten Schritte aus]
 
-1. Navigieren Sie zu **[!UICONTROL Hilfsfunktionen]** und fügen Sie die **&#x200B;**&#x200B;Let`{% let variable = expression %} {{variable}}` zum Codebereich hinzu, in dem Sie die Variable für Ihr Fragment deklarieren können.
+1. Navigieren Sie zu **[!UICONTROL Hilfsfunktionen]** und fügen Sie die **** Let`{% let variable = expression %} {{variable}}` zum Codebereich hinzu, in dem Sie die Variable für Ihr Fragment deklarieren können.
 
    ![](assets/decision-let-function.png)
 
-1. Verwenden Sie die **&#x200B;**&#x200B;Map **>** Get`{%= get(map, string) %}`, um Ihren Ausdruck zu erstellen. Die Zuordnung ist das Fragment, auf das im Entscheidungselement verwiesen wird, und die Zeichenfolge kann das Gerätemodell sein, das Sie im Entscheidungselement als **[!UICONTROL Fragmentverweisschlüssel)]** haben.
+1. Verwenden Sie die **** Map **>** Get`{%= get(map, string) %}`, um Ihren Ausdruck zu erstellen. Die Zuordnung ist das Fragment, auf das im Entscheidungselement verwiesen wird, und die Zeichenfolge kann das Gerätemodell sein, das Sie im Entscheidungselement als **[!UICONTROL Fragmentverweisschlüssel)]** haben.
 
    ![](assets/decision-map-function.png)
 

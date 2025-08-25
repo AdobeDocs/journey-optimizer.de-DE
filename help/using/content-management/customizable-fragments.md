@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um eine Variable zu deklarieren und sie in Ihrem Fragme
    | Aktion | Parameter | Beispiel |
    | ------- | ------- | ------- |
    | Deklarieren eines bearbeitbaren Felds mit einem **Standardwert**. Wenn Sie das Fragment zu Ihrem Inhalt hinzufügen, wird dieser Standardwert verwendet, sofern Sie keine Anpassung vornehmen. | Hinzufügen des Standardwerts zwischen den Inline-Tags. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Definieren eines **Titels** für das bearbeitbare Feld. Dieser Titel wird beim Bearbeiten von Fragmentfeldern im E-Mail-Designer angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Definieren eines **Labels** für das bearbeitbare Feld. Dieses Label wird beim Bearbeiten von Fragmentfeldern im E-Mail-Designer angezeigt. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **Bildquelle**, die veröffentlicht werden soll. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Deklarieren eines bearbeitbaren Felds mit einer **URL**, die nachverfolgt werden soll.<br/>Beachten Sie, dass vordefinierte Bausteine vom Typ „Mirror-Seiten-URL“ und „Abmelde-Link“ nicht als bearbeitbare Felder festgelegt werden können. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
 
@@ -194,4 +194,4 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt d
 
 In diesem Video erfahren Sie, wie Sie HTML-Komponenten in einem Fragment bearbeitbar machen, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

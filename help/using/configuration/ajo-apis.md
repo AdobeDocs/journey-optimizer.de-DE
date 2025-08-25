@@ -8,7 +8,7 @@ role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ Adobe Journey Optimizer basiert nativ auf Adobe Experience Platform und kombinie
 
 Befolgen Sie [dieses Tutorial](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}, um die erforderlichen Anmeldedaten für alle Journey Optimizer-APIs zu erfassen.
 
-Weitere Informationen finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Durchsuchen Sie das Menü **API-Referenzen**, um auf alle Journey Optimizer-APIs zuzugreifen, und probieren Sie sie aus.
+Weitere Informationen finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Durchsuchen Sie das Menü **API-Verweise**, um auf alle Journey Optimizer-APIs zuzugreifen, und probieren Sie sie aus.
 
 APIs sind auch für das Entscheidungs-Management in Adobe Journey Optimizer verfügbar. Weitere Informationen finden Sie im [Entwicklerhandbuch zum Entscheidungs-Management-API](../offers/api-reference/getting-started.md).

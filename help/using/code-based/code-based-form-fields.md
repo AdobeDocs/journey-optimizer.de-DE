@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -246,4 +246,4 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Inhaltsvorlagen für Code-basierte Erlebniskanäle hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Diese Informationen können zur Verbesserung des Benutzererlebnisses auf Ihrer W
 
    ![](assets/web-designer-click-track-pane.png)
 
-1. Fügen Sie eine aussagekräftige Bezeichnung hinzu, um alle verfolgten Elemente zu verwalten und sie in den Berichten leicht auffindbar zu machen. Das Feld **[!UICONTROL CSS-Auswahl]** zeigt Informationen zum Auffinden des ausgewählten Elements an.
+1. Fügen Sie ein aussagekräftiges Label hinzu, um alle verfolgten Elemente zu verwalten und sie in den Berichten leicht auffindbar zu machen. Das Feld **[!UICONTROL CSS-Auswahl]** zeigt Informationen zum Auffinden des ausgewählten Elements an.
 
 1. Wiederholen Sie die obigen Schritte, um nach Bedarf weitere Elemente für das Klick-Tracking auszuwählen. Die entsprechenden Aktionen werden alle im linken Bereich aufgelistet.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, darunter Adobe Journey Optimizer.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts am Bildschirm angezeigt.
 

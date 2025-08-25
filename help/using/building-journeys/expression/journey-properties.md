@@ -10,8 +10,8 @@ keywords: Journey, Ausdruck, Editor, Eigenschaften
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '589'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 
 ## Liste der Felder {#journey-properties-fields}
 
-| Kategorie | Feldname | Kennzeichnung | Beschreibung |
+| Kategorie | Feldname | Label | Beschreibung |
 |---|---|---|------------|
 | Journey-Version | journeyUID | Journey-Kennung | |
 | | journeyVersionUID | Versionskennung der Journey | |

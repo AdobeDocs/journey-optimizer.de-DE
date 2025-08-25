@@ -11,7 +11,7 @@ level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Ihr Bild kann jetzt in Ihrem Inhalt verwendet werden.
 
 Erfahren Sie, wie Sie Ihre Assets in Adobe Journey Optimizer mit Adobe Express-Tools bearbeiten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455532/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

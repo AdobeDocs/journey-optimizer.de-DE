@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 100%
 
@@ -243,7 +243,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzbegrenzungs-Limit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -254,7 +254,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzbegrenzungs-Limit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -283,7 +283,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 2**
 
-In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel erreichte Angebot 1 das Frequenzbegrenzungs-Limit. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -295,7 +295,7 @@ Die findet folgendermaßen statt:
 
 +++ **Beispiel 3**
 
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzbegrenzungs-Limit erreicht. [Weitere Informationen zur Frequenzbegrenzung](../offer-library/add-constraints.md#capping)
 
 Die findet folgendermaßen statt:
 
@@ -405,6 +405,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

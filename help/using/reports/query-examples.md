@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 
-+++Wie viele Profile sind in einem bestimmten Zeitrahmen in eine Journey eingetreten?
++++Wie viele Profile in einem bestimmten Zeitrahmen auf eine Journey zugegriffen haben
 
 Diese Abfrage gibt die Anzahl eindeutigen Profile an, die im angegebenen Zeitraum in die Journey eingetreten sind.
 
@@ -49,7 +49,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Welche Regel hat dazu geführt, dass ein Profil nicht in eine bestimmte Journey eingetreten ist?
++++Welche Regel hat dazu geführt, dass ein Profil nicht auf eine bestimmte Journey gelangt ist?
 
 _Beispiel_
 
@@ -72,7 +72,7 @@ AND
 
 +++
 
-+++Wie viele Fehler sind in einem bestimmten Zeitraum an jedem Knoten einer bestimmten Journey aufgetreten?
++++Wie viele Fehler sind in einem bestimmten Zeitraum an jedem Knoten einer bestimmten Journey aufgetreten
 
 _Data Lake-Abfrage_
 
@@ -110,7 +110,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Was geschieht mit einem bestimmten Profil in einer bestimmten Journey in einem bestimmten Zeitrahmen?
++++Was geschieht mit einem bestimmten Profil auf einer bestimmten Journey in einem bestimmten Zeitrahmen?
 
 _Data-Lake-Abfrage_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Wie viel Zeit ist zwischen zwei Knoten verstrichen?
++++Wie viel Zeit ist zwischen zwei Knoten verstrichen 
 
 Diese Abfragen können beispielsweise verwendet werden, um die mit einer Warteaktivität verbrachte Zeit zu schätzen. Dadurch können Sie sicherstellen, dass die Warteaktivität korrekt konfiguriert ist.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++Wie werden die Details eines serviceEvents überprüft?
++++Überprüfen der Details eines serviceEvents 
 
 Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, denn sie beziehen sich auf Aktivitäten (Ereignisse, Aktionen usw.) von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
 
@@ -396,7 +396,7 @@ Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für da
 
 +++
 
-+++Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat
++++Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat
 
 _Data-Lake-Abfrage_
 
@@ -424,7 +424,7 @@ Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für da
 
 +++
 
-+++Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist
++++Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist
 
 _Data-Lake-Abfrage_
 
@@ -478,7 +478,7 @@ Die Abfrage gibt für den definierten Zeitraum die Anzahl der Profile zurück, d
 
 ## Abfragen im Zusammenhang mit „Zielgruppe lesen“ {#read-segment-queries}
 
-+++Dauer bis zum Fertigstellen eines Zielgruppenexportauftrags
++++Dauer bis zum Fertigstellen eines Zielgruppen-Exportvorgangs
 
 _Data-Lake-Abfrage_
 
@@ -536,7 +536,7 @@ Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, 
 
 +++
 
-+++Anzahl der Profile, die von der Journey verworfen wurden, weil der Namespace ungültig war
++++Anzahl der Profile, die von der Journey aufgrund eines ungültigen Namespace verworfen wurden
 
 _Data-Lake-Abfrage_
 
@@ -608,7 +608,7 @@ Die Abfrage gibt alle Profil-IDs zurück, die von der Journey verworfen wurden, 
 
 +++
 
-+++Anzahl der Profile, die von der Journey verworfen wurden, weil ein interner Fehler vorlag
++++Anzahl der Profile, die von der Journey aufgrund eines internen Fehlers verworfen wurden
 
 _Data-Lake-Abfrage_
 
@@ -632,7 +632,7 @@ Die Abfrage gibt alle Profil-IDs zurück, die von der Journey aufgrund eines int
 
 +++
 
-+++Überblick über „Zielgruppe lesen“ für eine bestimmte Journey-Version
++++Übersicht über „Zielgruppe lesen“ für eine bestimmte Journey-Version
 
 _Data-Lake-Abfrage_
 
@@ -673,9 +673,9 @@ WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies ei
 +++
 
 
-+++Abrufen von „Zielgruppe lesen“-Fehlern für eine bestimmte Journey-Version
++++Abrufen von „Zielgruppenlesefehler“ für eine bestimmte Journey-Version
 
-_Data Lake-Abfrage_
+_Data-Lake-Abfrage_
 
 ```sql
 SELECT
@@ -701,7 +701,7 @@ WHERE
 
 +++
 
-+++Abrufen des Auftragsstatus für Exportvorgänge
++++Abrufen des Verarbeitungsstatus für Exportvorgänge
 
 _Data-Lake-Abfrage_
 
@@ -732,9 +732,9 @@ Wenn kein Eintrag zurückgegeben wird, bedeutet dies, dass
 
 +++
 
-+++Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportauftragsmetriken für die einzelnen Exportaufträge
++++Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportvorgangsmetriken für die einzelnen Exportvorgänge
 
-_Data Lake-Abfrage_
+_Data-Lake-Abfrage_
 
 ```sql
 WITH
@@ -794,7 +794,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Abrufen aggregierter Metriken (Zielgruppenexportaufträge und Verwerfen-Aktionen) für alle Exportaufträge
++++Abrufen aggregierter Metriken (Audience-Exportvorgänge und Verwerfen-Aktionen) für alle Exportvorgänge
 
 _Data-Lake-Abfrage_
 
@@ -861,7 +861,7 @@ Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben,
 
 ## Abfragen im Zusammenhang mit der Zielgruppen-Qualifizierung {#segment-qualification-queries}
 
-+++Profil verworfen, da eine andere als die konfigurierte Zielgruppe realisiert wurde
++++Profil wird verworfen, da eine andere Zielgruppe als die konfigurierte erstellt wurde
 
 _Data-Lake-Abfrage_
 
@@ -945,7 +945,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++Überprüfung, ob ein externes Ereignis eines Profils verworfen wurde, weil keine zugehörige Journey gefunden wurde
++++Überprüfung, ob ein externes Ereignis eines Profils verworfen wurde, weil keine zugehörige Journey gefunden wurde.
 
 _Data-Lake-Abfrage_
 

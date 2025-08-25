@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -30,14 +30,14 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 * Den Datensatz an die Nachrichtenversand-API des Anbieters exportieren
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=de) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
 >Batch-Entscheidungen können auch über die Journey Optimizer-Oberfläche getroffen werden. Weitere Informationen finden Sie in [diesem Abschnitt](../../batch-delivery.md), der globale Voraussetzungen und Einschränkungen enthält, die bei der Verwendung der Batch-Entscheidung zu berücksichtigen sind.
 
 * **Die Anzahl der ausgeführten Batch-Vorgänge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
-* **Frequenzlimitierung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
+* **Frequenzbegrenzung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
 
 ## Erste Schritte {#getting-started}
 

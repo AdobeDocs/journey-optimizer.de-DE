@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Code-basiertes Erlebnis** zu einer 
    >
    >Da es sich bei einem **Code-basiertes Erlebnis** um eine Aktivität für eingehende Nachrichten handelt, ist sie mit einer 3-tägigen **Warteaktivität** verbunden. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+1. Geben Sie ein **[!UICONTROL Label]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
 1. Wählen Sie die zu verwendende Code-basierte Erlebniskonfiguration aus oder erstellen Sie sie. [Weitere Informationen](code-based-configuration.md)
 
@@ -145,4 +145,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

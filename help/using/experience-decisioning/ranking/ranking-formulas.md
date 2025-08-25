@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -156,13 +156,13 @@ Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des At
 
 Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, stellen Sie sicher, dass Sie die korrekte Syntax im Code Ihrer Rangfolgenformel befolgen. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
-+++Verwenden von Standardattributen von Entscheidungselementen
++++Verwenden von Standardattributen für Entscheidungselemente
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Verwenden benutzerdefinierter Attribute von Entscheidungselementen
++++Verwenden von benutzerdefinierten Attributen für Entscheidungselemente
 
 ![](../assets/formula-attribute-custom.png)
 
@@ -184,9 +184,9 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Verstärken von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
++++Verstärken von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
 
-**Rangfolgenformel:**
+**Rangfolgeformel:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
@@ -194,7 +194,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++Verstärken von Angeboten entsprechend der Tendenz der Kundschaft, das angebotene Produkt zu kaufen
++++Verstärken von Angeboten entsprechend der Neigung der Kunden, das angebotene Produkt zu kaufen
 
 Sie können die Punktzahl für ein Angebot basierend auf einem Tendenzwert für den Kunden erhöhen.
 
@@ -224,7 +224,7 @@ In diesem Fall für ein Profil wie:
 
 +++
 
-+++Verstärken von Angeboten basierend auf Kontextdaten {#context-data}
++++Verstärken von Angeboten basierend auf {#context-data}
 
 Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** u
 
 * **Simultane Aktivierungen in Journeys zur Zielgruppenqualifizierung**
 
-  Wenn mehrere Journeys zur Zielgruppenqualifizierung durch dasselbe Ereignis zur Zielgruppenqualifizierung aktiviert werden, ist die Anzahl für die Eintrittsbegrenzung nicht korrekt. Wenn die Anzahl unter der Obergrenze liegt, steuert die Journey weiterhin, aber sie ist nicht in der Lage, die aktuellsten Zählungen mit gleichzeitigen Aktivierungen zu erhalten.
+  Wenn mehrere Journeys zur Zielgruppenqualifizierung durch dasselbe Ereignis zur Zielgruppenqualifizierung aktiviert werden, ist die Anzahl für die Eintrittsbegrenzung nicht korrekt. Wenn die Anzahl unter der Begrenzung liegt, steuert die Journey weiterhin, aber sie ist nicht in der Lage, die aktuellsten Zählungen mit gleichzeitigen Aktivierungen zu erhalten.

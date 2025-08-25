@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
    >
    >Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar. Sie hängen vom Datentyp ab. Beispielsweise können Sie für ein Feld vom Typ Zeichenfolge „enthält“ oder „ist gleich“ verwenden.
    >
-   >Wenn Sie Ihr Schema nach der Erstellung des Ereignisses durch neue Auflistungswerte ändern, müssen Sie die folgenden Schritte ausführen, um die Änderungen auf das vorhandene Ereignis anzuwenden: Deaktivieren Sie das Auflistungsfeld in den Ereignisfeldern, bestätigen Sie die Auswahl und wählen Sie das Auflistungsfeld erneut aus. Der neue Auflistungswert wird jetzt angezeigt.
+   >Wenn Sie Ihr Schema nach der Erstellung des Ereignisses durch neue Aufzählungswerte ändern, müssen Sie die folgenden Schritte ausführen, um die Änderungen auf das vorhandene Ereignis anzuwenden: Deaktivieren Sie das Aufzählungsfeld in den Ereignisfeldern, bestätigen Sie die Auswahl und wählen Sie das Aufzählungsfeld erneut aus. Der neue Aufzählungswert wird jetzt angezeigt.
 
 1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Identitätstyps es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Schlüsseltyp, den das Ereignis hat. Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
 

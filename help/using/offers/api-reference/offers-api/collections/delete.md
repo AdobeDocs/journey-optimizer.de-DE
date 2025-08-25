@@ -1,6 +1,6 @@
 ---
 title: Löschen von Sammlungen
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer

@@ -10,7 +10,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -24,4 +24,4 @@ In diesem Video erfahren Sie mehr über Quell-Connectoren und deren Konfiguratio
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Weitere Informationen zum Aufnehmen von Daten aus externen Quellen mit Quell-Connectoren finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de){target="_blank"}.
+Weitere Informationen zum Aufnehmen von Daten aus externen Quellen mit Source-Connectoren finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de){target="_blank"}.

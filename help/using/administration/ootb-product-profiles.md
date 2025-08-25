@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: Nur-Lese-Zugriff auf Schemata.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: Schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kanalkonfigurationen | <ul><li>**[!DNL View channel configurations]**: Nur-Lese-Zugriff auf Kanalkonfigurationen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Berichten und Verwenden von Aktionsfunktionen.</li></ul> |
 | Journeys | <ul><li>**[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**[!DNL Publish journey]**: Veröffentlichen von Journeys.</li><li>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li><li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul> |
@@ -130,7 +130,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: Nur-Lese-Zugriff auf Schemata.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: Schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kanalkonfigurationen | <ul><li>**[!DNL View channel configurations]**: Nur-Lese-Zugriff auf Kanalkonfigurationen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Berichten und Verwenden von Aktionsfunktionen.</li></ul> |
 | Journeys | <ul><li>**[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**[!DNL View journeys events]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li><li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul> |

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: bfa6e54673fc51d1bd6c253cc17a0018e3d7815b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
 
    ![](assets/text-genai-6.png){zoomable="yes"}
 
-1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 

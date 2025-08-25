@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
-workflow-type: ht
-source-wordcount: '344'
+workflow-type: tm+mt
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System de
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
 * [Definition von Zeitzonen](../building-journeys/timezone-management.md)
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Funktion im Video kennenlernen](#video)
 
 Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten von einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis besteht, gefolgt von einer Kanalaktionsaktivität, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an 
 
 Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Labels, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
 
-Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verfügbar.
+Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} verfügbar.
 
 ## Zielgruppentypen {#types}
 

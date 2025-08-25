@@ -1,6 +1,6 @@
 ---
 title: Sammlungen nachschlagen
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Sammlungen nachschlagen {#look-up-collection}
 
-Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
 Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die Sammlungs-`id` im Anfragepfad enthält.
 

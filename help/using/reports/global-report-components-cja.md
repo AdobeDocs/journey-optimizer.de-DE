@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 100%
 
@@ -544,7 +544,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
 <tr> 
    <td>Ausgehende Fehler<br/> </td> 
-   <td>Anzahl der Diretk-Mail-Nachrichten, bei denen während der Verarbeitung oder des Versands Fehler aufgetreten sind, was einen erfolgreichen Versand verhindert hat.<br/> </td> 
+   <td>Anzahl der Direkt-Mail-Nachrichten, bei denen während der Verarbeitung oder des Versands Fehler aufgetreten sind, was einen erfolgreichen Versand verhindert hat.<br/> </td> 
 </tr>
 <tr> 
    <td>Ausgehende Ausschlüsse<br/> </td> 

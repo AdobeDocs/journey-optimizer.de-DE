@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere 
 >title="Informationen zum einfachen Ausdruckseditor"
 >abstract="Im einfachen Ausdruckseditor können einfache Abfragen anhand einer Kombination von Feldern durchgeführt werden. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder per Drag-and-Drop in den Hauptbereich ziehen. Um die verschiedenen Elemente zu kombinieren, diese verschachteln, um Gruppen und/oder Gruppenebenen zu erstellen. Dann einen logischen Operator zwischen Elementen desselben Niveaus definieren."
 
-Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Titel definieren, um sie leichter zu identifizieren.
+Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Labels definieren, um sie leichter zu identifizieren.
 
 Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
@@ -98,7 +98,7 @@ Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder
 >
 >* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 >
->* Standardmäßig wird die **[!UICONTROL Zeitbedingung]** stundenweise festgelegt, von 00:00 Uhr bis 12:00 Uhr.
+>* Standardmäßig wird die **[!UICONTROL Bedingung]** von Stunde festgelegt, von 00 :00 12 :00.
 
 ![](assets/journey51.png)
 
@@ -136,7 +136,7 @@ Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen 
 
 >[!NOTE]
 >
->Es wird empfohlen, für die Profilbegrenzung einen hohen Wert zu definieren. Je höher diese Obergrenze angesetzt ist, desto höher ist auch die Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Obergrenze erreicht. Ist diese Anzahl niedrig (z. B. eine Obergrenze von 50), stimmen die Zahlen nicht immer überein, da die Obergrenze möglicherweise nicht erreicht wird, bevor die Profile einem anderen Pfad folgen.
+>Es wird empfohlen, für die Profilbegrenzung einen hohen Wert zu definieren. Je höher diese Begrenzung angesetzt ist, desto höher ist auch die Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Begrenzung erreicht. Ist diese Anzahl niedrig (z. B. eine Begrenzung von 50), stimmen die Zahlen nicht immer überein, da die Begrenzung möglicherweise nicht erreicht wird, bevor die Profile einem anderen Pfad folgen.
 
 <!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
@@ -150,8 +150,8 @@ Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alt
 
 Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
 
-* Bei einer Obergrenze von mehr als 10.000 muss die Anzahl unterschiedlicher Profile, die eingespeist werden sollen, mindestens dem 1,3-Fachen der Obergrenze entsprechen.
-* Bei einer Obergrenze unter 10.000 muss die Anzahl der eindeutigen Profile, die eingespeist werden sollen, den Wert der Obergrenze plus 1.000 haben.
+* Bei einer Begrenzung von mehr als 10.000 muss die Anzahl unterschiedlicher Profile, die eingespeist werden sollen, mindestens dem 1,3-Fachen der Begrenzung entsprechen.
+* Bei einer Begrenzung unter 10.000 muss die Anzahl der eindeutigen Profile, die eingespeist werden sollen, den Wert der Begrenzung plus 1.000 haben.
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 

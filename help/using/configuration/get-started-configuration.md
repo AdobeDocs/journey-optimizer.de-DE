@@ -10,7 +10,7 @@ feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-Mail</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+    <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
     <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Push-Benachrichtigung</strong></a></div></td>

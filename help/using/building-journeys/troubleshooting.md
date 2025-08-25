@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 

@@ -11,9 +11,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Passen Sie die Syntax an Ihre Anforderungen an. In diesem Beispiel möchten wir Daten zu Passagierflügen abrufen. Es gilt folgende Syntax:
 
@@ -104,7 +104,7 @@ Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der S
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    In diesem Beispiel möchten wir Informationen über die Einstiegszeit und den Flugsteig der Fluggäste verwenden. Fügen Sie daher die beiden folgenden Zeilen hinzu:
 

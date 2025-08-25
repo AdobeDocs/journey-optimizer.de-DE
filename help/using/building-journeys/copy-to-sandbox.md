@@ -11,8 +11,8 @@ keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 100%
 
 ---
 

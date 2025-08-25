@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >title="Verwenden Sie Testprofile, um Ihre Inhalte zu überprüfen"
 >abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden."
 
-Testprofile sind zusätzliche Empfangende, die nicht den definierten Zielgruppenkriterien entsprechen. [Informationen zum Erstellen von Testprofilen](../audience/creating-test-profiles.md)
+Testprofile sind zusätzliche Empfangende, die nicht den definierten Targeting-Kriterien entsprechen. [Informationen zum Erstellen von Testprofilen](../audience/creating-test-profiles.md)
 
 Bevor Sie Testprofile zum Testen Ihres Inhalts verwenden, müssen Sie sie zunächst auswählen. Gehen Sie dazu wie folgt vor:
 

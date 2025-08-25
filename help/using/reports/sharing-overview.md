@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -59,11 +59,11 @@ Die folgenden Datensätze werden übergeben:
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
 * [Liste für Schrittereignisfelder](../reports/sharing-field-list.md)
-* [Veraltete Felder für Step-Ereignisse](../reports/sharing-legacy-fields.md)
+* [Veraltete Schrittereignisfelder](../reports/sharing-legacy-fields.md)
 
 ## Integration mit Customer Journey Analytics {#integration-cja}
 
-Schrittereignisse von [!DNL Journey Optimizer] können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"} verknüpft werden.
+[!DNL Journey Optimizer] Schrittereignisse können mit anderen Datensätzen in [Adobe Customer Journey Analytics verknüpft ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"}.
 
 Der allgemeine Workflow ist:
 

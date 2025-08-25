@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 100%
 
@@ -196,4 +196,4 @@ Hier finden Sie einige Beispiele fÃ¼r die Bearbeitung von E-Mails und die zugehÃ
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

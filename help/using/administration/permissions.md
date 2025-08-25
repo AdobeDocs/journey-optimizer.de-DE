@@ -10,7 +10,7 @@ role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Beim Zugriff auf die Instanz wird den Benutzenden je nach den in der **[!UICONTR
 
 ## Bearbeiten einer vorhandenen Rolle {#edit-product-profile}
 
-Für vorkonfigurierte oder benutzerdefinierte **[!UICONTROL Rollen]** können Berechtigungen jederzeit hinzugefügt oder gelöscht werden.
+Für native oder benutzerdefinierte **[!UICONTROL Rollen]** können Berechtigungen jederzeit hinzugefügt oder gelöscht werden.
 
 In Beispiel unten sollen **[!UICONTROL Berechtigungen]** im Zusammenhang mit der Ressource **[!UICONTROL Journeys]** für Benutzende hinzugefügt werden, die der **[!UICONTROL Rolle]** „Journey-Betrachterin bzw. Journey-Betrachter“ zugewiesen sind. Diese Benutzenden können dann Journeys veröffentlichen.
 

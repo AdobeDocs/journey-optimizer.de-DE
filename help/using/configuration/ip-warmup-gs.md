@@ -11,8 +11,8 @@ keywords: IP, Zustellbarkeit
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benu
 
 Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe der IP-Aufwärmplan-Funktion schrittweise erhöhen. Mit dieser neuen Option im Menü **[!UICONTROL Administration]** können Sie dies einfach und konsolidiert tun, anstatt komplexe tägliche Journeys zu erstellen.
 
-➡️ [In diesem Video erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
+➡️ [Erfahren Sie in diesem Video, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453849/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

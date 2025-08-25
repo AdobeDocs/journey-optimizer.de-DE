@@ -9,8 +9,8 @@ keywords: lower, Funktion, Ausdruck, Journey
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '34'
+ht-degree: 100%
 
 ---
 

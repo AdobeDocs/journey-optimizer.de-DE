@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"

@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
 1. Klicken Sie auf die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) neben einem Attribut, um auf folgende zusätzliche Optionen zuzugreifen:
 
-+++ Werteverteilung
+   +++ Werteverteilung
 
    Analysieren Sie die Verteilung der Werte für ein bestimmtes Attribut in der Tabelle. Diese Funktion ist nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
 
@@ -50,9 +50,9 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    ![Bild, das die Oberfläche der Werteverteilung zeigt](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Zu Favoriten hinzufügen
+   +++ Zu Favoriten hinzufügen
 
    Durch das Hinzufügen von Attributen zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Attribute. Sie können bis zu 20 Attribute zu den Favoriten hinzufügen. Allen Benutzenden in einer Organisation werden bevorzugte und zuletzt verwendete Attribute zugeordnet, um die Barrierefreiheit auf verschiedenen Computern und ein nahtloses Erlebnis auf allen Geräten sicherzustellen.
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    ![Bild, das die Favoritenoberfläche zeigt](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. Klicken Sie auf **[!UICONTROL Bestätigen]**, um das ausgewählte Attribut zu Ihrer Bedingung hinzuzufügen.
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden **[!UICONTROL Operator]** aus. Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
 
-   +++Liste der verfügbaren Operatoren
+   +++Liste der verfügbaren Benutzer
 
    | Operator | Zweck | Beispiel |
    |---|---|---|
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
 
-   +++Beispiel
+   +++Siehe Beispiel
 
    ![Bild, das die Voreinstellungsoption zeigt](assets/rule-builder-attribute-preset.png)
 
@@ -127,7 +127,7 @@ Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewäh
 
 ![Screenshot der Tabelle „Marke“](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
 
@@ -145,7 +145,7 @@ Hier zielt die Abfrage auf Empfangende ab, die im Zusammenhang mit dem Brewmaste
 
    ![Screenshot der Tabelle „Käufe“](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Benutzerdefinierte Bedingungen mit aggregierten Daten {#aggregate}
 

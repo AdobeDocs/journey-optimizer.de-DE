@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Daten, Management, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Sie können die Datenflexibilität von [!DNL Journey Optimizer] nutzen, um Ihre 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=de){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in [!DNL Adobe Journey Optimizer] frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.

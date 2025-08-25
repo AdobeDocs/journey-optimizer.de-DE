@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ curl --location --request PUT 'https://platform-stage.adobe.io/data/core/dps/exd
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test` |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 

@@ -8,7 +8,7 @@ role: User, Data Engineer, Developer
 level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Sie können Feedback zu Angebotsentscheidungen in Adobe Experience Platform erfassen, einschließlich der angezeigten Angebote und der Benutzerinteraktion mit ihnen. Diese Daten können für Folgendes verwendet werden:
 * Erstellen von [Berichten über das Entscheidungs-Management](../reports/get-started-events.md);
-* Verwenden von Regeln zur [Frequenzlimitierung](../offer-library/add-constraints.md#capping);
+* Verwenden von Regeln zur [Frequenzbegrenzung](../offer-library/add-constraints.md#capping);
 * Erstellen von [KI-Modellen](../ranking/create-ranking-strategies.md), die als Ranking-Methode verwendet werden können.
 
 ## Ereignistypen

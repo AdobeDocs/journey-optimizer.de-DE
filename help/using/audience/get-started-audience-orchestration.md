@@ -112,7 +112,7 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 >
 >* Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht für die Verwendung mit Healthcare Shield oder Privacy and Security Shield verfügbar.
 >
->* Anreicherungsattribute sind noch nicht im Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Anreicherungsattribute anwenden, in Journey Optimizer-Kampagnen oder -Journeys nicht durchgesetzt.
+>* Anreicherungsattribute sind noch nicht im Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungs-Labels, die Sie auf Ihre Anreicherungsattribute anwenden, in Journey Optimizer-Kampagnen oder -Journeys nicht durchgesetzt.
 
 Die Zielgruppenkomposition ist über das Menü **[!UICONTROL Zielgruppen]** von Adobe Journey Optimizer erreichbar:
 
@@ -142,7 +142,7 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
 1. Öffnen Sie die Eigenschaften der Komposition, um einen Titel und eine Beschreibung anzugeben.
 
-   Wenn in den Eigenschaften kein Titel definiert ist, wird der Titel der Komposition auf „Komposition“ festgelegt, gefolgt vom Erstellungsdatum und der Uhrzeit.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird das Label der Komposition auf „Komposition“ festgelegt, gefolgt vom Erstellungsdatum und der Uhrzeit.
 
    ![](assets/audiences-properties.png)
 

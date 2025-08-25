@@ -46,7 +46,7 @@ Es werden zwei Arten von Implementierungen unterstützt, um die Erstellung und d
 >
 >Die nur Server-seitige Implementierung wird derzeit für den Web-Kanal nicht unterstützt.  Bei einer nur Server-seitigen Implementierung für Ihre Web-Seiten kann stattdessen der [Code-basierte Erlebniskanal](../code-based/get-started-code-based.md) verwendet werden.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Voraussetzungen für visuelles Authoring {#visual-authoring-prerequisites}
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[&#128279;](web-visual-editor.md)
+Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[](web-visual-editor.md)
 
 Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 
@@ -116,7 +116,7 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* Achten Sie darauf, dass in [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}Adobe Experience Platform bei einer der Zusammenführungsrichtlinien die Option **[!UICONTROL Active-On-Edge]** aktiviert ist. Wählen Sie dazu im Experience Platform-Menü **[!UICONTROL Kunde]** > **[!UICONTROL Profile]** > **[!UICONTROL Zusammenführungsrichtlinien]** eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
+* Achten Sie darauf, dass in [ ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}Adobe Experience Platform bei einer der Zusammenführungsrichtlinien die Option **[!UICONTROL Active-On-Edge]** aktiviert ist. Wählen Sie dazu im Experience Platform-Menü **[!UICONTROL Kunde]** > **[!UICONTROL Profile]** > **[!UICONTROL Zusammenführungsrichtlinien]** eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
 
   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
 

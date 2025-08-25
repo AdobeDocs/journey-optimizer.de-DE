@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie 
 
    ![](assets/jo-line-1.png)
 
-1. Geben Sie allgemeine Informationen (Titel, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
+1. Geben Sie allgemeine Informationen (Label, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus.
 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 

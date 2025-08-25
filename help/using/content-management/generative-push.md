@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1759'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/push-genai-full-4.png){zoomable="yes"}
 
-1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 
@@ -169,7 +169,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
-1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
+1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
    * **[!UICONTROL Als Referenzinhalt verwenden]**: Die gewählte Variante dient hierbei als Referenzinhalt für die Generierung anderer Ergebnisse.
 

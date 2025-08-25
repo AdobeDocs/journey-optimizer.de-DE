@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 
@@ -151,7 +151,7 @@ Die Funktion `ageInDays` berechnet das Alter eines bestimmten Datums in Tagen, d
 
 +++Beispiel
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 (Asien/Kolkata)
+currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
 
 * Eingabe: `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Ausgabe: `5`
@@ -170,7 +170,7 @@ Die Funktion `ageInMonths` berechnet das Alter eines bestimmten Datums in Monate
 
 +++Beispiel
 
-currentDate = 2025-01-07T12:22:46.993748+05:30 (Asien/Kolkata)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
 
 * Eingabe: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Ausgabe: `12`
@@ -410,7 +410,7 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, und der zweite Wert gibt an
 >
 > Wenn ein Datumsformat ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank} zusammengefasst sind.
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der Dokumentation zu [Oracle zusammengefasst sind](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Beispiel**
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Auf Tagesanfang kürzen {#truncate-day}
 
-Die Funktion `truncateToStartOfDay` wird verwendet, um eine bestimmte Uhrzeit-/Datumsangabe zu ändern, indem sie auf den Tagesanfang gesetzt wird, wobei die Zeit auf 00:00 Uhr eingestellt ist.
+Mit der `truncateToStartOfDay`-Funktion wird eine bestimmte Datums-/Uhrzeitangabe geändert, indem die Uhrzeit auf den Beginn des Tages mit der auf 00:00 gesetzten Uhrzeit festgelegt wird.
 
 **Syntax**
 
@@ -612,7 +612,7 @@ Die Funktion `truncateToStartOfDay` wird verwendet, um eine bestimmte Uhrzeit-/D
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-Die Funktion `truncateToStartOfQuarter` wird verwendet, um eine Uhrzeit-/Datumsangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 00:00 Uhr zu kürzen.
+Mit der Funktion `truncateToStartOfQuarter` wird eine Datums-/Uhrzeitangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 00 :00 gekürzt.
 
 **Syntax**
 
@@ -629,7 +629,7 @@ Die Funktion `truncateToStartOfQuarter` wird verwendet, um eine Uhrzeit-/Datumsa
 
 ## truncateToStartOfWeek {#truncate-week}
 
-Die Funktion `truncateToStartOfWeek` ändert eine bestimmte Uhrzeit-/Datumsangabe, indem sie auf den Wochenanfang (Montag um 00:00 Uhr) gesetzt wird.
+Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie sie auf den Beginn der Woche (Montag um 00 Uhr) :00.
 
 **Syntax**
 
@@ -646,7 +646,7 @@ Die Funktion `truncateToStartOfWeek` ändert eine bestimmte Uhrzeit-/Datumsangab
 
 ## truncateToStartOfYear {#truncate-year}
 
-Die Funktion `truncateToStartOfYear` wird zur Änderung einer bestimmten Uhrzeit-/Datumsangabe verwendet, indem sie auf den ersten Tag des Jahres (1. Januar) um 00:00 Uhr gekürzt wird.
+Mit der `truncateToStartOfYear`-Funktion wird eine bestimmte Datums-/Uhrzeitangabe geändert, indem sie auf 00 (1. Januar) auf den ersten Tag des Jahres :00.
 
 **Syntax**
 

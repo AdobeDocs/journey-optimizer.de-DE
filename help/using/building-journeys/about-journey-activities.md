@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Es können auch bestimmte Aktionen zum Senden von Nachrichten eingerichtet werde
 
 ## Best Practices {#best-practices}
 
-### Hinzufügen eines Titels
+### Hinzufügen eines Labels
 
 Die meisten Aktivitäten ermöglichen es Ihnen, ein **[!UICONTROL Label]** zu definieren. Auf diese Weise wird dem Namen, der unter der Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzugefügt. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird das Debugging bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
@@ -82,7 +82,7 @@ Die meisten Aktivitäten ermöglichen es Ihnen, ein **[!UICONTROL Label]** zu de
 
 >[!NOTE]
 >
->Bei einigen Aktivitäten ist ihre ID auch im Bereich sichtbar. Diese ID kann beim Reporting als stabilerer Schlüssel verwendet werden als die Bezeichnung, da letztere sich ändern kann.
+>Bei einigen Aktivitäten ist ihre ID auch im Bereich sichtbar. Diese ID kann beim Reporting als stabilerer Schlüssel verwendet werden als das Label, da letzteres sich ändern kann.
 
 ### Verwalten erweiterter Parameter {#advanced-parameters}
 

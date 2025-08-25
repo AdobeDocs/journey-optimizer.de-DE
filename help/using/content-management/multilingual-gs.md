@@ -10,7 +10,7 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 * Um mit der Erstellung mehrsprachiger Inhalte zu beginnen, muss Benutzenden die Berechtigung **[!UICONTROL Spracheinstellungen verwalten]** gewährt werden. Für einen automatisierten Fluss benötigen Benutzende außerdem Berechtigungen für die Funktion **[!UICONTROL Übersetzungsdienst]**. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-+++ Informationen zur Zuweisung von Berechtigungen für mehrsprachige Inhalte
+  +++ Informationen zur Zuweisung von Berechtigungen für mehrsprachige Inhalte
 
    1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
@@ -76,11 +76,11 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
    1. Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-+++
+  +++
 
 * Wenn Sie nicht auf die Seite „Übersetzung“ zugreifen können, müssen Sie die Übersetzungsfunktion aktivieren und Ihnen müssen die Berechtigungen für den **[!UICONTROL Übersetzungsdienst]** gewährt werden. [Weitere Informationen](../administration/ootb-permissions.md)
 
-+++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
+  +++ Erfahren Sie, wie Sie die Übersetzungsfunktion aktivieren
 
    1. Wenn die folgende Fehlerseite angezeigt wird, deutet dies darauf hin, dass die **[!UICONTROL Übersetzungsfunktion]** noch nicht aktiviert wurde. Wenden Sie sich an die Administratorin oder den Administrator Ihrer Organisation und Sandbox, um Zugriff anzufordern.
 
@@ -94,10 +94,10 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
    1. Wenn dieses Verfahren fehlgeschlagen ist, wird weiterhin dieselbe Fehlerseite angezeigt. Wenden Sie sich in diesem Fall an Ihren Adobe-Support-Mitarbeiter, um weitere Unterstützung zu erhalten.
 
-+++
+  +++
 
 ## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie im Rahmen einer einzelnen Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452122?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

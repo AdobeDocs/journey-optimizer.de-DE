@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
    >
    >Statische Sammlungen werden nicht automatisch aktualisiert. Um einer statischen Sammlung Angebote hinzuzufügen, müssen Sie sie bearbeiten und die Angebote manuell hinzufügen.
 
-1. Um einer statischen Sammlung benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../../administration/object-based-access.md)
+1. Um einer statischen Sammlung benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../../administration/object-based-access.md)
 
    >[!NOTE]
    >
@@ -89,6 +89,6 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3411812?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

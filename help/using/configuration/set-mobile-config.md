@@ -10,7 +10,7 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
   Im Folgenden finden Sie die Berechtigungen, die zum Ausführen der Anleitung zur Kanaleinrichtung erforderlich sind.
 
-+++ Erforderliche Berechtigungen
+  +++ Erforderliche Berechtigungen
 
   <table>
     <thead>
@@ -107,7 +107,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
     </tbody>
   </table>
 
-+++
+  +++
 
 * Wenn Sie die Option „Vorhandene Konfiguration“ verwenden, stellen Sie sicher, dass Sie die folgenden Adobe Experience Platform Mobile SDK-Erweiterungsversionen verwenden. Weitere Informationen zum SDK-Setup, einschließlich der erforderlichen Abhängigkeiten und des Initialisierungs-Codes, finden Sie in der [folgenden Dokumentation](https://experienceleague.adobe.com/de/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 

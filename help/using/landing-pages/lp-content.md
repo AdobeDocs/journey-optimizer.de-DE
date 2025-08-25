@@ -10,7 +10,7 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen u
 >
 >Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie beispielsweise ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
 
-Mit dem Inhaltseditor für Landingpages können auch kontextbezogene Daten aus der Primärseite einer Unterseite genutzt werden. [Weitere Informationen](#use-primary-page-context)
+Mit dem Inhalt-Designer für Landingpages können auch kontextbezogene Daten aus der Primärseite einer Unterseite genutzt werden. [Weitere Informationen](#use-primary-page-context)
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
@@ -65,7 +65,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
    >
    >Sie können jederzeit zur Registerkarte **[!UICONTROL Stile]** wechseln, um die Stile Ihrer Inhalte in der Formularkomponente zu bearbeiten. [Weitere Informationen](#define-lp-styles)
 
-1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
+1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie das Label bearbeiten, das diesem Kontrollkästchen entspricht.
 
 1. Definieren Sie, ob dieses Kontrollkästchen Benutzern die An- oder Abmeldung ermöglichen soll: Erklären sie sich damit einverstanden, Nachrichten zu erhalten, oder möchten sie nicht mehr kontaktiert werden?
 
@@ -97,7 +97,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-add-text-field.png)
 
-   * Geben Sie den **[!UICONTROL Titel]** ein, der über dem Feld im Formular angezeigt wird.
+   * Geben Sie das **[!UICONTROL Label]** ein, das über dem Feld im Formular angezeigt wird.
 
    * Geben Sie einen **[!UICONTROL Platzhalter]**-Text ein. Dieser wird innerhalb des Felds angezeigt, bevor die Benutzerin oder der Benutzer das Feld ausfüllt.
 
@@ -140,7 +140,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-style.png)
 
-1. Der Abschnitt **[!UICONTROL Felder]** ist standardmäßig erweitert und ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Schriftart für Titel und Platzhalter, die Position des Titels, die Hintergrundfarbe des Felds oder den Feldrand.
+1. Der Abschnitt **[!UICONTROL Felder]** ist standardmäßig erweitert und ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Schriftart für Label und Platzhalter, die Position des Labels, die Hintergrundfarbe des Felds oder den Feldrand.
 
    ![](assets/lp_designer-form-style-fields.png)
 
@@ -148,11 +148,11 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können etwa die Schriftart ändern, einen Rahmen hinzufügen, die Titelfarbe beim Bewegen des Mauszeigers über den Titel bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können etwa die Schriftart ändern, einen Rahmen hinzufügen, die Label-Farbe beim Bewegen des Mauszeigers über das Label bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen, z. B. die Farbe des Titels der Schaltfläche, wenn der Mauszeiger darüber bewegt wird, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
+   Sie können einige Ihrer Einstellungen, z. B. die Farbe des Labels der Schaltfläche, wenn der Mauszeiger darüber bewegt wird, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

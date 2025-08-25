@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgrup
 >
 >Um Anreicherungsattribute von Zielgruppen zu verwenden, die mithilfe von Kompositions-Workflows erstellt wurden, stellen Sie sicher, dass sie einer Feldgruppe innerhalb der Datenquelle „ExperiencePlatform“ hinzugefügt werden.
 >
->+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.>
+>+++ Erfahren Sie, wie Sie Anreicherungsattribute zu einer Feldergruppe hinzufügen.
 >
 >1. Navigieren Sie zu „Administration“ > „Konfiguration“ > „Datenquellen“.
 >1. Wählen Sie „Experience Platform“ aus und erstellen oder bearbeiten Sie eine Feldergruppe.

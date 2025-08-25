@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Gehen Sie wie folgt vor, um eine Web-Kanalkonfiguration zu erstellen.
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
+1. Um der Konfiguration benutzerdefinierte oder grundlegende Datennutzungs-Labels zuzuweisen, können Sie **[!UICONTROL Zugriff verwalten]** auswählen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
 1. Wählen Sie den **Web-Kanal** aus.
 
    ![](assets/web_config_2.png)
 
-1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Web-Einstellungen]** eine der folgenden Optionen aus:
 
@@ -63,7 +63,7 @@ Sie können diese Konfiguration jetzt beim Verwenden des Web-Kanals in Ihren Kam
 
 Beim Erstellen einer Konfiguration für ein Web- oder [Code-basiertes Erlebnis](../code-based/get-started-code-based.md) können Sie eine **[!UICONTROL Regel zum Seitenabgleich]** erstellen, um mehrere URLs als Ziel festzulegen, die derselben Regel entsprechen. Sie können daher dieselben Inhaltsänderungen auf mehrere Seiten gleichzeitig anwenden.
 
-Sie können beispielsweise die Änderungen an einem Hero-Banner auf einer gesamten Website anwenden oder oben ein Bild hinzufügen, das auf allen Produktseiten einer Website angezeigt wird
+Sie können beispielsweise die Änderungen an einem Hero Banner auf einer gesamten Website anwenden oder oben ein Bild hinzufügen, das auf allen Produktseiten einer Website angezeigt wird
 
 1. Wählen Sie beim Konfigurieren Ihres [Web](#web-configuration)- oder [Code-basierten Erlebnisses](../code-based/code-based-configuration.md) die Option **[!UICONTROL Regel zum Seitenabgleich]** aus.
 

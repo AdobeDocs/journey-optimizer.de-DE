@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** ein.
 
-1. Um der In-App-Nachricht benutzerdefinierte oder Core-Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugang verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
+1. Um der In-App-Nachricht benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugang verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen zu definieren. [Weitere Informationen](../audience/about-audiences.md).
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
       | Plattform | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
       | Manuell | Manueller Trigger | Zwei verknüpfte Datenelemente: ein Schlüssel, bei dem es sich um eine Konstante handelt, die den Datensatz definiert (beispielsweise Geschlecht, Farbe, Preis), und ein Wert, bei dem es sich um eine Variable handelt, die zum Datensatz gehört (z. B. männlich/weiblich, grün, 100). |
 
-+++
+      +++
 
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
 
@@ -75,14 +75,14 @@ Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie ein benutzerdefiniertes **[!UICONTROL Merkmal]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      +++Sehen Sie sich die verfügbaren Merkmale an.
+      +++Siehe verfügbare Eigenschaften.
 
       | Paket | Merkmal | Definition |
       |---|---|---|
       | Plattform | XDM-Ereignistyp | Wird ausgelöst, wenn der angegebene Ereignistyp vorliegt. |
       | Plattform | XDM-Wert | Wird ausgelöst, wenn der angegebene XDM-Wert vorliegt. |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

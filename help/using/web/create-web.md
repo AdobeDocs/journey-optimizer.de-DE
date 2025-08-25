@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
    >
    >Da es sich bei **Web** um eine Aktivität für eingehende Erlebnisse handelt, geht sie mit einer 3-tägigen **Warteaktivität** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+1. Geben Sie ein **[!UICONTROL Label]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
 1. Wählen oder erstellen Sie die [Web-Konfiguration](web-configuration.md), die Sie verwenden möchten.
 
@@ -174,7 +174,7 @@ Erstellen Sie beispielsweise eine Web-Kampagne mit zwei Abwandlungen:
 
   >[!NOTE]
   >
-  >Die Website-Vorschau wird nicht mehr angezeigt und die Umschaltfläche **[!UICONTROL Visueller Editor]** ist deaktiviert.
+  >Die Website-Vorschau wird nicht mehr angezeigt und der Umschalter **[!UICONTROL Visueller Editor]** ist deaktiviert.
 
 Sobald Ihre Web-Kampagne live ist, können Sie verfolgen, wie das von Ihnen in [!DNL Journey Optimizer] erstellte Web-Erlebnis für die Besuchenden Ihrer Seite im Vergleich zu den Besuchenden funktioniert, die zur externen Landingpage weitergeleitet wurden. Erfahren Sie mehr dazu im [Experimentkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md)
 
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

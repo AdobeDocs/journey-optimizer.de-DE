@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 100%
 
@@ -26,9 +26,9 @@ Eine detailliertere Liste der bei der attributbasierten Zugriffssteuerung verwen
 
 In diesem Beispiel wird dem Schemafeld **Staatsangehörigkeit** ein Label hinzugefügt, um nicht autorisierte Benutzende an der Verwendung zu hindern. Damit dies funktioniert, müssen die folgenden Schritte ausgeführt werden:
 
-1. Erstellen Sie eine neue **[!UICONTROL Rolle]** und weisen Sie ihr den entsprechenden **[!UICONTROL Titel]** zu, damit Benutzer auf das Schemafeld zugreifen und es verwenden können.
+1. Erstellen Sie eine neue **[!UICONTROL Rolle]** und weisen Sie ihr das entsprechenden **[!UICONTROL Label]** zu, damit Benutzer auf das Schemafeld zugreifen und es verwenden können.
 
-1. Weisen Sie dem Schemafeld **Staatsangehörigkeit** in Adobe Experience Platform einen **[!UICONTROL Titel]** zu.
+1. Weisen Sie dem Schemafeld **Staatsangehörigkeit** in Adobe Experience Platform ein **[!UICONTROL Label]** zu.
 
 1. Verwenden Sie das **[!UICONTROL Schemafeld]** in Adobe Journey Optimizer.
 
@@ -44,7 +44,7 @@ Beachten Sie, dass der Zugriff auf **[!UICONTROL Rollen]**, **[!UICONTROL Richtl
 
 Um ausgewählten Benutzenden Zugriff auf das Feld **Staatsangehörigkeit** mit der Bezeichnung „C2“ zu gewähren, muss eine neue **[!UICONTROL Rolle]** mit bestimmten Benutzenden erstellt werden, der das Label „C2“ zugewiesen wird. Dies ermöglicht den Benutzenden die Verwendung der **Staatsangehörigkeits**-Details in einer **[!UICONTROL Journey]**.
 
-1. Wählen Sie aus dem [!DNL Permissions]-Produkt im Menü des linken Fensterbereichs die Option **[!UICONTROL Rolle]** und klicken Sie auf **[!UICONTROL Rolle erstellen]**. Beachten Sie, dass Sie auch **[!UICONTROL Titel]** zu integrierten Rollen hinzufügen können.
+1. Wählen Sie aus dem [!DNL Permissions]-Produkt im Menü des linken Fensterbereichs die Option **[!UICONTROL Rolle]** und klicken Sie auf **[!UICONTROL Rolle erstellen]**. Beachten Sie, dass Sie auch **[!UICONTROL Labels]** zu integrierten Rollen hinzufügen können.
 
    ![Erstellen einer neuen Rolle im Produkt „Berechtigungen“](assets/role_1.png)
 
@@ -70,11 +70,11 @@ Um ausgewählten Benutzenden Zugriff auf das Feld **Staatsangehörigkeit** mit d
 
    ![](assets/role_8.png)
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Titel]** auf **[!UICONTROL Titel hinzufügen]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Labels]** auf **[!UICONTROL Label hinzufügen]**.
 
    ![](assets/role_9.png)
 
-1. Wählen Sie den **[!UICONTROL Titel]** aus, den Sie Ihrer Rolle hinzufügen möchten, und klicken Sie auf **[!UICONTROL Speichern]**. In diesem Beispiel wird den Benutzenden das Label „C2“ gewährt, damit sie Zugriff auf das zuvor eingeschränkte Feld des Schemas haben.
+1. Wählen Sie das **[!UICONTROL Label]** aus, das Sie Ihrer Rolle hinzufügen möchten, und klicken Sie auf **[!UICONTROL Speichern]**. In diesem Beispiel wird den Benutzenden das Label „C2“ gewährt, damit sie Zugriff auf das zuvor eingeschränkte Feld des Schemas haben.
 
    ![Speichern der Label-Konfiguration](assets/role_4.png)
 
@@ -88,7 +88,7 @@ Die Benutzenden in der **Eingeschränkten Rolle „Demografisch“** haben nun Z
 
 **[!UICONTROL Labels]** können verwendet werden, um bestimmte Funktionsbereiche mithilfe der attributbasierten Zugriffssteuerung zuzuweisen. In diesem Beispiel ist der Zugriff auf das Feld **Staatsangehörigkeit** eingeschränkt. Auf dieses Feld können nur Benutzende mit dem entsprechenden **[!UICONTROL Label]** in ihrer **[!UICONTROL Rolle]** zugreifen.
 
-Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemata]**, **[!UICONTROL Datensätzen]** und **[!UICONTROL Zielgruppen]** hinzufügen können.
+Beachten Sie, dass Sie **[!UICONTROL Label]** auch zu **[!UICONTROL Schemata]**, **[!UICONTROL Datensätzen]** und **[!UICONTROL Zielgruppen]** hinzufügen können.
 
 1. Erstellen Sie Ihr **[!UICONTROL Schema]**. Weitere Informationen sind in dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"} verfügbar.
 
@@ -98,11 +98,11 @@ Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemata]**,
 
    ![](assets/label_2.png)
 
-1. Überprüfen Sie auf der Registerkarte **[!UICONTROL Titel]** den Namen des eingeschränkten Feldes, hier **Staatsangehörigkeit**. Wählen Sie dann im Menü des rechten Fensterbereichs die Option **[!UICONTROL Bearbeiten von Governance-Titeln]**.
+1. Überprüfen Sie auf der Registerkarte **[!UICONTROL Label]** den Namen des eingeschränkten Feldes, hier **Staatsangehörigkeit**. Wählen Sie dann im Menü des rechten Fensterbereichs die Option **[!UICONTROL Bearbeiten von Governance-Titeln]**.
 
    ![Bearbeiten von Governance-Labels für ein Feld](assets/label_3.png)
 
-1. Wählen Sie die entsprechenden **[!UICONTROL Titel]** aus. In diesem Fall können die C2-Daten nicht an einen Drittanbieter exportiert werden. Eine detaillierte Liste der verfügbaren Titel finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de#contract-labels){target="_blank"}.
+1. Wählen Sie die entsprechenden **[!UICONTROL Labels]** aus. In diesem Fall können die C2-Daten nicht an einen Drittanbieter exportiert werden. Eine detaillierte Liste der verfügbaren Labels finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 

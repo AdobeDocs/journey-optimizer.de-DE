@@ -10,7 +10,7 @@ level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 100%
 

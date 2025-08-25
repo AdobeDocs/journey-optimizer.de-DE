@@ -10,7 +10,7 @@ level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Der erste Schritt zur Durchsetzung von Data Governance-Richtlinien besteht darin
 
 1. Klicken Sie im linken Menü unter **Datenschutz** auf **Richtlinien**.
 
-1. Wählen Sie die Registerkarte **Bezeichnungen** und klicken Sie auf **Bezeichnung erstellen**.
+1. Wählen Sie die Registerkarte **Labels** und klicken Sie auf **Label erstellen**.
 
 1. Legen Sie einen Namen und einen Anzeigenamen für das Label fest. Beispiel: _ePHI1_.
 
@@ -54,7 +54,7 @@ Der erste Schritt zur Durchsetzung von Data Governance-Richtlinien besteht darin
 
 ## Erstellen einer Data Governance-Richtlinie {#policy}
 
-Nachdem Labels und Marketing-Aktionen erstellt wurden, können Sie sie gemeinsam zu Data Governance-Richtlinien verknüpfen. Wählen Sie dazu die Registerkarte **Durchsuchen** aus, klicken Sie auf **Richtlinie erstellen** und wählen Sie **Data Governance-Richtlinie** aus. Wählen Sie Ihre Bezeichnung (_ePHI1_) und Marketing-Aktion (_Slack-Marketing-Aktion_) aus.
+Nachdem Labels und Marketing-Aktionen erstellt wurden, können Sie sie gemeinsam zu Data Governance-Richtlinien verknüpfen. Wählen Sie dazu die Registerkarte **Durchsuchen** aus, klicken Sie auf **Richtlinie erstellen** und wählen Sie **Data Governance-Richtlinie** aus. Wählen Sie Ihr Lanbel (_ePHI1_) und Marketing-Aktion (_Slack-Marketing-Aktion_) aus.
 
 ![](assets/action-privacy5.png)
 

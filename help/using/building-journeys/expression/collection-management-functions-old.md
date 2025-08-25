@@ -10,7 +10,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 source-git-commit: ff05675fb132becf092dc6b79bbbaa249f01af96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Das Ergebnis ist wahr.
 
 **Beispiel 2:**
 
-Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungstoken vorhanden sind.
+Hier verwenden wir die Funktion **[!UICONTROL count]**, um zu überprüfen, ob in der Sammlung Push-Benachrichtigungs-Token vorhanden sind.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -234,7 +234,7 @@ _`<listExpression>`.at(`<index>`)_
 
 **Beispiel:**
 
-Dieser Ausdruck gibt das zweite Push-Benachrichtigungstoken der Liste zurück.
+Dieser Ausdruck gibt das zweite Push-Benachrichtigungs-Token der Liste zurück.
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}

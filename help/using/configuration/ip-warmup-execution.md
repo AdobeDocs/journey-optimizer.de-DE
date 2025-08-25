@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
 
@@ -92,14 +92,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    1. Wählen Sie im Abschnitt **[!UICONTROL Journeys zum Ausschluss von Profilen]** die Journeys mit den Zielgruppen aus, die Sie aus der aktuellen Phase ausschließen möchten.
 
-+++ Um die Option „Journeys zum Ausschluss von Profilen“ zu verwenden, müssen Sie eine Beziehung zwischen den Schemata „AJO Message Feedback Event“ und „AJO Entity Record“ herstellen.
+      +++ Um die Option „Journeys zum Ausschluss von Profilen“ zu verwenden, müssen Sie eine Beziehung zwischen den Schemata „AJO Message Feedback Event“ und „AJO Entity Record“ herstellen.
 
       1. Erstellen Sie einen benutzerdefinierten **Namespace**, der als Identitätstyp für die folgenden Schritte dient.
 
       1. Greifen Sie über das Menü **Schemata** auf Adobe Experience Platform zu, wählen Sie das Schema **AJO Entity Record**, legen Sie das Feld **_id** als primäre Identität fest und wählen Sie den zuvor erstellten Namespace als **Identity-Namespace**.
 
       1. Wählen Sie im Menü **Schemata** das Schema **AJO Message Feedback Event** und navigieren Sie zum Feld **_messageID**. Wählen Sie **Beziehung hinzufügen** und wählen Sie das Schema **AJO Entity Record Schema** als **Referenzschema** und Ihren zuvor erstellten Namespace als **Referenz-Identity-Namespace**.
-+++
+      +++
 
    1. Im Abschnitt **[!UICONTROL In vorherigen Ausführungen angesprochene Profile]** können Sie sehen, dass die Profile aus den früheren Durchläufen dieser Phase immer ausgeschlossen werden. Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4.800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
 

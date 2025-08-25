@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ Die Registerkarte **[!UICONTROL Experimentieren]** bietet wichtige Einblicke in 
 
 Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln. Sie wird durch das Symbol ![](assets/experimentation_report_1.png) gekennzeichnet.
 
-+++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Experimentierbericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Experimentationsbericht verfügbar sind.
 
 Die Widget **[!UICONTROL Experimentergebnis]** liefert Details zur Performance der einzelnen Varianten. Sie können Ihre Baseline ändern, indem Sie eine der Abwandlungen aus der Dropdown-Liste **[!UICONTROL Baseline]** auswählen. Die beste Abwandlung wird mit einem Sternsymbol gekennzeichnet.
 

@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Melden Sie sich bei Ihrer Campaign-Kontrollinstanz an.
 
-1. Wählen Sie unter **Administration** > **Platform** > **Auflistungen** die Auflistung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie später beim Schreiben der JSON-Datei den internen Name des Ereignistyps.
+1. Wählen Sie unter **Administration** > **Platform** > **Aufzählungen** die Aufzählung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie später beim Schreiben der JSON-Datei den internen Name des Ereignistyps.
 
    ![](assets/accintegration-uc-1.png)
 
@@ -70,7 +70,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 * Beim Kanal geben Sie „E-Mail“ ein.
 * Verwenden Sie für eventType den internen Namen des zuvor erstellten Ereignistyps.
-* Die E-Mail-Adresse ist eine Variable, sodass Sie einen beliebigen Titel eingeben können.
+* Die E-Mail-Adresse ist eine Variable, sodass Sie ein beliebiges Label eingeben können.
 * Unter ctx sind die Personalisierungsfelder auch Variablen.
 
 **Journey Optimizer**

@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1267'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -37,11 +37,11 @@ Für eine Marke könnte eine Regel beispielsweise lauten, Kundinnen und Kunden p
 >
 >Geschäftsregeln unterscheiden sich von der Opt-out-Verwaltung, die es den Benutzenden ermöglicht, sich vom Erhalt von Mitteilungen einer Marke abzumelden. [Weitere Informationen](../privacy/opt-out.md#opt-out-management)
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Zugriff auf Geschäftsregeln {#access-rules}
 
-Geschäftsregeln sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** verfügbar. Alle Regeln werden sortiert nach Änderungsdatum aufgelistet. Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Nachrichtentitel suchen.
+Geschäftsregeln sind über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** verfügbar. Alle Regeln werden sortiert nach Änderungsdatum aufgelistet. Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Nachrichten-Label suchen.
 
 ![](assets/message-rules-filter.png)
 
@@ -134,7 +134,7 @@ Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 Uhr (UTC) gültig
 
 >[!NOTE]
 >
->Um die Genauigkeit der Regeln für die tägliche Frequenzbegrenzung sicherzustellen, wird eine [Streaming-Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"} empfohlen. Weitere Informationen zu Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Um die Genauigkeit der täglichen Frequenzlimitierungsregeln sicherzustellen, wird die Verwendung von [Streaming-](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/streaming-segmentation){target="_blank"}) empfohlen. Weitere Informationen zu Methoden zur Zielgruppenauswertung finden Sie in [diesem Abschnitt](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Aktivieren einer Geschäftsregel {#activate-rule}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Vor Beginn sollten Sie prüfen, ob Zugriff auf das Menü **[!UICONTROL Berichte]
 
 Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff auf die [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} in Adobe Experience Platform für Ihre Organisation haben. Falls nicht, wenden Sie sich an Ihre Adobe Journey Optimizer-Admins.
 
-+++Mehr Informationen zum Zuweisen von Berichtsberechtigungen
++++Erfahren Sie, wie Sie Berichtsberechtigungen zuweisen
 
 Hinweis: Diese Berechtigung ist in den folgenden integrierten **[!UICONTROL Rollen]** enthalten: Campaign Manager, Campaign Approver, Campaign Viewer und Campaign Administrator.
 

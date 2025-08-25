@@ -1,6 +1,6 @@
 ---
 title: Sammlungen nachschlagen
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 93%
 
 ---
 
 # Sammlungen nachschlagen {#look-up-collection}
 
-Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
 Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Sammlungs-`@id` oder den Namen der Sammlung im Anfragepfad enthält.
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
 | `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Mobile demo` |
+| `name` | Eine Zeichenfolge, die verwendet wird, um die xdm:name-Eigenschaft der Entitäten abzugleichen. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Mobile demo` |
 
 **Anfrage**
 

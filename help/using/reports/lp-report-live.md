@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht für letzte 
 
 Der **[!UICONTROL Live-Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht zur Landingpage verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht zur Landingpage verfügbar sind.
 
 Das Widget **[!UICONTROL Performance der Landingpage]** zeigt die wichtigsten Informationen in Form von KPIs an, die in den letzten 24 Stunden zu Ihrer Nachricht erfasst wurden:
 
