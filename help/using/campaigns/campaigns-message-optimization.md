@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Optimierung von Nachrichten
-description: Nutzen Sie die Optimierung von Nachrichten, um personalisierte und optimierte Marketing-Kampagnen zu erstellen.
+description: Nutzen Sie die Optimierung von Nachrichten, um personalisierte und optimierte Marketing-Journey und -Kampagnen zu erstellen.
 role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimentieren, Targeting, A/B-Tests
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
