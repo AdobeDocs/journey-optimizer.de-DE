@@ -172,7 +172,7 @@ Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Festlegen des Schwellenwerts zur Dateiaufspaltung"
->abstract="Für jede Datei, die Zielgruppen-Daten enthält, müssen Sie die maximale Anzahl von Datensätzen festlegen. Sie können eine beliebige Zahl zwischen 1 und 200.000 auswählen. Nachdem der festgelegte Schwellenwert erreicht wurde, wird eine neue Datei für die verbleibenden Datensätze erstellt."
+>abstract="Für jede Datei, die Zielgruppen-Daten enthält, müssen Sie die maximale Anzahl von Einträgen festlegen. Sie können eine beliebige Zahl zwischen 1 und 200.000 auswählen. Nachdem der festgelegte Schwellenwert erreicht wurde, wird eine neue Datei für die verbleibenden Einträge erstellt."
 
 Um über [!DNL Journey Optimizer] Direkt-Mail senden zu können, müssen Sie eine Kanalkonfiguration erstellen. Darin können Sie die Formatierungseinstellungen für die Datei festlegen, die vom Direkt-Mail-Anbieter verwendet werden soll.
 
