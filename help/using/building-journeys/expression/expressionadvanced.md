@@ -20,9 +20,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Informationen zum erweiterten Ausdruckseditor"
->abstract="Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Bedingung für die Datenquelle definieren."
+>abstract="Der erweiterte Ausdruckseditor kann verwendet werden, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Ausdrücke erstellt werden, wenn Journeys konfiguriert und verwendt werden oder eine Bedingung für die Datenquelle definiert wird."
 
-Verwenden Sie den erweiterten Journey-Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Bedingung für die Datenquelle definieren.
+Verwenden Sie den erweiterten Journey-Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Ausdrücke erstellt werden, wenn Journeys konfiguriert und verwendt werden oder eine Bedingung für die Datenquelle definiert wird.
 
 Er ist auch immer dann verfügbar, wenn Sie Aktionsparameter definieren müssen, die bestimmte Datenmanipulationen erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen aus der Datenquelle nutzen. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert entsprechend den Ereignissen, die in der Journey hinzugefügt werden.
 
