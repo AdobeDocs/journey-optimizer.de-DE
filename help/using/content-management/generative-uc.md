@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 90%
 
 ---
 
@@ -110,5 +110,23 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]**, um das bevorzugte Asset zu finden.
 
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um die ausgewählte Variante im Vollbildmodus anzuzeigen.
+
+1. Sobald Sie den richtigen Inhalt gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
+
+## Generieren von Inhalten in verschiedenen Sprachen {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. Sobald Ihre Kampagne eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
+
+1. Öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
+
+1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch eingeben.
+
+1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an und wählen Sie die gewünschten **[!UICONTROL Sprachen]** für Ihren generierten Inhalt aus.
+
+1. Personalisieren Sie Ihre Eingabeaufforderung nach Bedarf weiter und klicken Sie auf **[!UICONTROL Generieren]**.
+
+1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]** in Ihrer ausgewählten Sprache.
 
 1. Sobald Sie den richtigen Inhalt gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
