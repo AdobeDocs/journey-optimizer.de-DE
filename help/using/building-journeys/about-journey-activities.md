@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,12 @@ Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten S
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
-* [Bedingung](../building-journeys/condition-activity.md)
-* [Warten](../building-journeys/wait-activity.md)
-* [Zielgruppe lesen](../building-journeys/read-audience.md)
+* [Optimieren](optimize.md)
+* [Zielgruppe lesen](read-audience.md)
+* [Warten](wait-activity.md)
+* [Inhaltsentscheidung](content-decision.md)
 
-![Palette „Orchestrierungsaktivitäten“ im Journey-Designer](assets/journey49.png)
+![Palette „Orchestrierungsaktivitäten“ im Journey-Designer](assets/journey-orchestration-activities.png)
 
 ## Aktionsaktivitäten {#action-activities}
 

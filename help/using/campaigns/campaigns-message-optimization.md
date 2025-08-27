@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimentieren, Targeting, A/B-Tests
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um ein Experiment einzurichten und zu bestimmen, welche
    >
    >Wenn Sie sich auf einer Journey befinden, fügen Sie eine Aktivität **[!UICONTROL Aktion]** hinzu, wählen Sie eine Kanalaktivität aus und wählen Sie **[!UICONTROL Aktion konfigurieren]**. [Weitere Informationen](../building-journeys/journey-action.md#add-action)
 
-1. Wählen Sie auf **[!UICONTROL Registerkarte]** mindestens zwei eingehende Aktionen aus, z. B. [Code-basiertes Erlebnis](../code-based/get-started-code-based.md) und [In-App](../../rp_landing_pages/in-app-landing-page.md).
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Aktionen“ zwei eingehende Aktionen aus, beispielsweise [Code-basiertes Erlebnis](../code-based/get-started-code-based.md) und [In-App](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Optimierung“ **[!UICONTROL Experiment erstellen]** aus.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
