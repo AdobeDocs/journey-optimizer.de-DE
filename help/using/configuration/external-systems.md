@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 100%
+source-wordcount: '1499'
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,15 @@ Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen A
 >
 >Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
-## Zeitüberschreitung und erneute Versuche{#timeout}
+## Endpunkte mit langsamer Reaktionszeit {#response-time}
+
+Wenn ein Endpunkt eine Antwortzeit von mehr als 0,75 Sekunden hat, werden seine benutzerdefinierten Aktionsaufrufe über einen dedizierten **langsamen benutzerdefinierten Aktionsdienst** anstelle des Standarddienstes weitergeleitet.
+
+Dieser Service für langsame benutzerdefinierte Aktionen wendet eine Begrenzung von 150.000 Aufrufen alle 30 Sekunden an. Die Beschränkung wird mithilfe eines Schiebefensters erzwungen, das innerhalb dieses 30-Sekunden-Zeitraums um eine beliebige Millisekunde beginnen kann. Sobald das Fenster voll ist, werden zusätzliche Aufrufe mit Begrenzungsfehlern abgelehnt. Das System wartet nicht auf das nächste feste Intervall, sondern beginnt mit der Begrenzung sofort nach Erreichen des 30-Sekunden-Schwellenwerts.
+
+Da langsame Endpunkte zu Verzögerungen bei allen Aktionen in der Warteschlange in der Pipeline führen können, wird empfohlen, benutzerdefinierte Aktionen nicht mit Endpunkten zu konfigurieren, die langsame Antwortzeiten aufweisen. Das Routing solcher Aktionen zum langsamen Service trägt zum Schutz der gesamten Systemleistung bei und verhindert zusätzliche Latenzen für andere benutzerdefinierte Aktionen.
+
+## Zeitüberschreitung und erneute Versuche {#timeout}
 
 Wenn die Begrenzungs- oder Einschränkungsregel erfüllt ist, wird die Zeitüberschreitungsregel angewendet.
 
