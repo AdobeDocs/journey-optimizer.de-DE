@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -76,13 +76,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
 
 +++
 
 +++Können Kunden die TTL für [!DNL Journey Optimizer] Systemdatensatzdaten im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,7 +99,7 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden könne
   >
   >Es ist bereits eine TTL in der [!DNL Customer Journey Analytics]-Verbindung (CJA-Verbindung) implementiert, die den maximalen effektiven Lookback-Zeitraum der betroffenen Datensatzdaten auf 13 Monate reduziert.
 
-* **Datenquelle von Experience Platform**: Ja, der Abruf von Erlebnisereignissen unterliegt der 90-tägigen TTL.
+* **Experience Platform-Datenquelle**: Nicht anwendbar - Das Abrufen von Erlebnisereignissen wird nicht über Datenquellen unterstützt.
 * **Berechnete Attribute**: Ja, die anfängliche Aufstockungsberechnung ist auf die Daten der letzten 90 Tage beschränkt. Das berechnete Attribut wird basierend auf inkrementellen Ereignissen für nachfolgende Updates aktualisiert. Sobald die nachfolgenden Updates den Lookback-Zeitraum (max. 6 Monate) erreichen, wirkt sich die TTL im Wesentlichen nicht mehr auf das berechnete Attribut aus. Weitere Informationen.
 * **Segmentierung und Retargeting**: Ja, die Segmentierung hängt von den Daten im Profilspeicher ab. Daher ist der Lookback-Zeitraum der betroffenen Datensatzdaten auf 90 Tage beschränkt.
 * **Tracking**: Ja, es verringert den effektiven maximalen Lookback-Zeitraum der betroffenen Datensatzdaten auf 90 Tage. Daten aus betroffenen Datensätzen bleiben für 13 Monate im Data Lake.
