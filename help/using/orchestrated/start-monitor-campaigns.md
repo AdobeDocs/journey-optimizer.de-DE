@@ -4,10 +4,10 @@ product: journey optimizer
 title: Starten und Überwachen orchestrierter Kampagnen mit Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kampagnen starten und überwachen.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen S
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende des Diagramms erreicht ist. Während des Tests können Sie die Ausführung der Kampagne über die Aktionsleiste auf der Arbeitsfläche steuern. Dort haben Sie folgende Möglichkeiten:
+Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist. Während des Tests können Sie die Ausführung der Kampagne über die Aktionsleiste auf der Arbeitsfläche steuern. Dort haben Sie folgende Möglichkeiten:
 
 * **Stoppen** Sie die Ausführung jederzeit.
 * **Starten** Sie die Ausführung erneut.
@@ -115,4 +115,4 @@ Auf beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfol
 
 ## Nächste Schritte {#next}
 
-Nach dem Start des Diagramms für die koordinierte Kampagne können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Einblicke zu erhalten, z. B. das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte auf Ihrem Kunden-Journey zu messen. [Erfahren Sie mehr über die Berichterstellung für orchestrierte Kampagnen](../orchestrated/reporting-campaigns.md)
+Nach dem Start der Arbeitsfläche für orchestrierte Kampagnen können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Einblicke zu erhalten, z. B. das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte auf Ihrem Kunden-Journey zu messen. [Erfahren Sie mehr über die Berichterstellung für orchestrierte Kampagnen](../orchestrated/reporting-campaigns.md)
