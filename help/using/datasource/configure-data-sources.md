@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Daten, Quelle, Konfiguration, Feld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -60,14 +60,14 @@ Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICON
 
 Sie können Felder zu einer Feldergruppe hinzufügen oder daraus entfernen, die in keiner Entwurfs- oder Live-Journey verwendet wird.
 
-Einer Feldergruppe, die in einer oder mehreren Entwurfs- oder Live-Journeys verwendet wird, können Sie ein Feld hinzufügen. Sie können jedoch kein Feld daraus entfernen. Dadurch wird verhindert, dass Journeys unterbrochen werden.
+Wenn die Feldergruppe in einem oder mehreren Entwurfs- oder Live-Journey verwendet wird, können Sie inkrementell neue Felder aus dem ausgewählten Schema hinzufügen, aber nicht die Auswahl bereits ausgewählter Felder aufheben/entfernen/ändern. Aktualisierungen einer Feldergruppe sind nicht zulässig, wenn vorhandene Schemafelder, die bereits von Entwurfs- oder Live-Journey verwendet werden, geändert werden - z. B. durch Ändern des Datentyps eines Felds. Dadurch wird verhindert, dass Journey zerstört werden
 
-Gehen Sie wie folgt vor, um ein Feld aus einer Feldergruppe zu löschen, die für eine oder mehrere Journeys verwendet wird. Verwenden wir ein Beispiel für eine Feldergruppe namens „Feldergruppe A“.
+Gehen Sie wie folgt vor, um ein Feld aus einer Feldergruppe zu löschen, die für eine oder mehrere Journeys verwendet wird. Verwenden wir als Beispiel eine Feldergruppe namens „Feldergruppe A“.
 
 1. Platzieren Sie den Cursor in der Liste der Feldergruppen auf „Feldergruppe A“ und klicken Sie auf der rechten Seite auf das Symbol **[!UICONTROL Duplizieren]**. Benennen Sie die duplizierte Feldergruppe beispielsweise „Feldergruppe B“.
 1. Entfernen Sie die nicht mehr benötigten Felder aus „Feldergruppe B“.
 1. Überprüfen Sie in „Feldergruppe A“, wo diese Feldergruppe verwendet wird. Diese Informationen werden im Feld **[!UICONTROL Verwendet in]** angezeigt.
 1. Öffnen Sie alle Journeys, die „Feldergruppe A“ verwenden.
 1. Erstellen Sie neue Versionen jeder dieser Journeys. Bearbeiten Sie alle Aktivitäten mit „Feldergruppe A“ und wählen Sie „Feldergruppe B“ aus.
-1. Stoppen Sie alte Versionen von Journeys, die „Feldergruppe A“ verwenden. Sie sollten dann keine Journey mit „Feldergruppe A“ haben.
+1. Stoppen Sie alte Journey-Versionen, die „Feldergruppe A“ verwenden. Sie sollten dann keine Journeys mehr mit „Feldergruppe A“ haben.
 1. Entfernen Sie „Feldergruppe A“, da sie nicht mehr verwendet wird.
