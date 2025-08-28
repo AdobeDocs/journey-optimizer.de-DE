@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 60%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
    >
    >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
-   Wenn Sie einen eingehenden Kanal auswählen (Code-basiertes Erlebnis, In-App-Nachricht, Inhaltskarte oder Web-Aktion), können Sie weitere eingehende Aktionen hinzufügen - bis zu insgesamt 10 Aktionen in einer einzelnen Kampagne. [Weitere Informationen](#multi-action)
+   Wenn Sie einen eingehenden Kanal auswählen (Code-basiertes Erlebnis, In-App-Nachricht, Inhaltskarte oder Web-Aktion), können Sie weitere eingehende Aktionen hinzufügen – insgesamt bis zu 10 Aktionen in einer Kampagne. [Weitere Informationen](#multi-action)
 
 1. **Auswählen einer Kanalkonfiguration**
 
@@ -39,7 +39,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    ![](assets/create-campaign-action.png)
 
-1. **Optimierung**
+1. **Nutzen der Optimierung**
 
    Verwenden Sie den **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt) ](campaigns-message-optimization.md).
 <!--
@@ -89,34 +89,34 @@ Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigge
 
 +++
 
-## Hinzufügen mehrerer eingehender Aktionen {#multi-action}
+## Hinzufügen von mehreren eingehenden Aktionen {#multi-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
->title="Hinzufügen mehrerer eingehender Aktionen"
->abstract="Innerhalb einer Kampagne können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion bestimmte Inhalte enthält."
+>title="Hinzufügen von mehreren eingehenden Aktionen"
+>abstract="Innerhalb einer Kampagne können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
 
 Um die Orchestrierung einer Kampagne zu vereinfachen, können Sie in einer Kampagne mehrere eingehende Aktionen definieren, wobei jede Aktion einen bestimmten Inhalt enthält.
 
 >[!NOTE]
 >
->Diese Kapazität steht nur für eingehende Kanäle zur Verfügung. Derzeit werden ausgehende Kanäle wie E-Mail nicht unterstützt.
+>Diese Funktion ist nur für eingehende Kanäle verfügbar. Derzeit werden ausgehende Kanäle wie E-Mail nicht unterstützt.
 
-Mit dieser Funktion können Sie verschiedene Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne mehrere Kampagnen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihrer Kampagne und ermöglicht ein reibungsloseres Reporting, indem alle Daten in einer einzigen Kampagne zusammengefasst werden.
+Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne unterschiedliche Kampagnen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihrer Kampagne und ermöglicht ein reibungsloseres Reporting, indem alle Daten in einer einzigen Kampagne zusammengefasst werden.
 
-Sie können beispielsweise ein Code-basiertes Erlebnis an mehrere Endpunkte mit geringfügig unterschiedlichen Inhalten senden. Erstellen Sie dazu mehrere Code-basierte Aktionen innerhalb derselben Kampagne mit jeweils einer anderen Endpunktkonfiguration.
+Sie können beispielsweise ein Code-basiertes Erlebnis an mehrere Endpunkte mit geringfügig unterschiedlichen Inhalten senden. Erstellen Sie dazu verschiedene Code-basierte Aktionen innerhalb derselben Kampagne mit jeweils einer anderen Endpunktkonfiguration.
 
-Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einer Kampagne zu definieren.
+Gehen Sie wie folgt vor, um in einer Kampagne mehrere eingehende Aktionen zu definieren.
 
-1. Wählen Sie eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-**, **Inhaltskarte** oder **Web**) im Abschnitt **[!UICONTROL Aktionen]** aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-Nachricht**, **Inhaltskarte** oder **Web**) aus.
 
 1. Wählen Sie die Kanalkonfiguration aus und definieren Sie einen bestimmten Inhalt für diese Aktion.
 
-1. Verwenden Sie die **[!UICONTROL Aktion hinzufügen]**, um eine weitere eingehende Aktion aus der Dropdown-Liste auszuwählen.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Aktion hinzufügen]**, um eine weitere eingehende Aktion aus der Dropdown-Liste auszuwählen.
 
    ![](assets/create-campaign-multi-action.png){width="80%"}
 
-1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu 10 eingehende Aktionen zu einer Kampagne hinzufügen.
+1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu zehn eingehende Aktionen zu einer Kampagne hinzufügen.
 
 Sobald die Kampagne [live](review-activate-campaign.md) ist, werden alle Aktionen gleichzeitig aktiviert.
 

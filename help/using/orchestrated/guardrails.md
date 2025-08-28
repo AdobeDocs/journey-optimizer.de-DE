@@ -1,88 +1,88 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Leitplanken und Einschränkungen für koordinierte Kampagnen
-description: Erfahren Sie mehr über Schutzmechanismen und Einschränkungen bei orchestrierten Kampagnen
+title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
+description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Leitlinien und Einschränkungen {#guardrails}
 
-Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung orchestrierter Kampagnen.
+Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von orchestrierten Kampagnen.
 
 ## Einschränkungen beim Datenfluss
 
-### Datendesign und -speicherung
+### Daten-Design- und -Speicherung
 
 * Der relationale Datenspeicher unterstützt **maximal 200 Tabellen** (Schemata).
 
-* Bei orchestrierten Kampagnen darf die Gesamtgröße eines einzelnen Schemas (**100 GB) nicht**.
+* Bei orchestrierten Kampagnen darf die Gesamtgröße eines einzelnen Schemas **100 GB nicht überschreiten**.
 
-* Tägliche Aktualisierungen eines Schemas sollten **auf weniger als 20 %** Gesamtzahl der Einträge beschränkt sein, um Leistung und Stabilität zu gewährleisten.
+* Tägliche Aktualisierungen eines Schemas sollten auf **weniger als 20 %** der Gesamtzahl der Einträge beschränkt werden, um Leistung und Stabilität zu gewährleisten.
 
-* Relationale Daten sind das primäre Modell, das für Anwendungsfälle der Aufnahme, Datenmodellierung und Segmentierung unterstützt wird.
+* Relationale Daten sind das primäre Modell, das für die Anwendungsszenarien Aufnahme, Datenmodellierung und Segmentierung unterstützt wird.
 
-* Zielgruppenschemata müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
+* Schemata, die dem Targeting dienen, müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
 
 ### Datenaufnahme
 
-* Profil + relationale Datenerfassung sind erforderlich.
+* Profil und relationale Datenaufnahme sind erforderlich.
 
-* Alle Aufnahmen müssen über **Change Data Capture)-** erfolgen:
+* Alle Aufnahmen müssen über **Change Data Capture**-Quellen erfolgen:
 
-   * Für **dateibasiert** ist `_change_request_type` Feld erforderlich.
+   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich.
 
-   * Für **Cloud-basiert** muss die Tabellenprotokollierung aktiviert sein.
+   * Falls **Cloud-basiert**: Die Tabellenprotokollierung muss aktiviert sein.
 
-* **Direkte Aktualisierungen an Snowflake oder Datensätzen werden nicht unterstützt**. Das System ist schreibgeschützt. Alle Änderungen müssen über die Änderungsdatenerfassung angewendet werden.
+* **Direkte Aktualisierungen in Snowflake oder Datensätzen werden nicht unterstützt**. Das System ist schreibgeschützt. Alle Änderungen müssen über die Änderungsdatenerfassung (Change Data Capture) angewendet werden.
 
-* **ETL-Prozesse werden nicht**. Die Daten müssen vor der Aufnahme vollständig in das erforderliche Format umgewandelt werden.
+* **ETL-Prozesse werden nicht unterstützt**. Daten müssen vor der Aufnahme vollständig in das erforderliche Format umgewandelt werden.
 
-* **Teilaktualisierungen sind nicht zulässig** muss jede Zeile als vollständiger Datensatz angegeben werden.
+* **Teilaktualisierungen sind nicht zulässig**, sondern jede Zeile muss als vollständiger Eintrag angegeben werden.
 
-* Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten)**.
+* Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten** begrenzt.
 
-* Die Aufnahmelatenz, d. h. die Zeit von der Aufnahme bis zur Verfügbarkeit in Snowflake, **in der Regel zwischen 15 Minuten** 2 Stunden, abhängig von:
+* Die Aufnahmelatenz, d. h. die Zeit von der Aufnahme bis zur Verfügbarkeit in Snowflake, variiert in der Regel **zwischen 15 Minuten und 2 Stunden**, je nach:
 
    * Datenvolumen
 
-   * Systemparallelität
+   * System-Parallelität
 
-   * Art des Vorgangs, z. B. Einfügungen sind schneller als Aktualisierungen
+   * Art des Vorgangs (z. B. sind Einfügungen schneller als Aktualisierungen)
 
 ### Datenmodellierung
 
 * Alle Schemata, einschließlich Faktentabellen, müssen **einen Versionsdeskriptor** enthalten, um eine ordnungsgemäße Versionskontrolle und Rückverfolgbarkeit zu gewährleisten.
 
-* Jede Tabelle muss über einen definierten **Primärschlüssel) verfügen** um die Datenintegrität und nachgelagerte Vorgänge zu unterstützen.
+* Jede Tabelle muss über einen definierten **Primärschlüssel** verfügen, um Datenintegrität und nachgelagerte Vorgänge zu unterstützen.
 
-* Die bei der Erstellung des Datensatzes zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
+* Der bei der Erstellung des Datensatzes zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
 
-* **Feldergruppen werden im** Datenmodellierungs-Framework nicht unterstützt.
+* Im aktuellen Datenmodellierungs-Framework **werden Feldergruppen nicht unterstützt**.
 
 ## Einschränkungen bei Aktivitäten
 
-* In Zielgruppendefinitionen werden nur **Skalarattribute unterstützt** (**und Arrays sind nicht zulässig**.
+* In Zielgruppendefinitionen werden nur **Skalarattribute unterstützt** (**Zuordnungen und Arrays sind nicht zulässig**).
 
-* **Segmentierungsaktivitäten basieren hauptsächlich auf relationalen Daten**. Es können zwar Profildaten enthalten sein, die Verwendung großer Profildatensätze kann jedoch die Leistung beeinträchtigen.
+* **Segmentierungsaktivitäten basieren hauptsächlich auf relationalen Daten**. Es können zwar Profildaten enthalten sein, doch kann die Verwendung großer Profildatensätze die Leistung beeinträchtigen.
 
-* **Beschränkungen werden für die Anzahl der Profilattribute durchgesetzt** die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können, um die Systemeffizienz zu erhalten.
+* **Beschränkungen werden für die Anzahl der Profilattribute durchgesetzt**, die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können. Das dient der Wahrung der Systemeffizienz.
 
-* **Liste der Werte (LOVs** und **Auflistungen** werden vollständig unterstützt.
+* **Wertelisten (List of Values, LOV)** und **Aufzählungen** werden vollständig unterstützt.
 
-* **Zielgruppen lesen wird nicht zwischengespeichert** Bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrunde liegenden Daten Trigger.
+* **Gelesene Zielgruppen werden nicht zwischengespeichert**, sondern bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrundeliegenden Daten ausgelöst.
 
-* **Optimierung wird dringend empfohlen** wenn Sie mit Definitionen für große oder komplexe Zielgruppen arbeiten, um die Leistung sicherzustellen.
+* Eine **Optimierung wird dringend empfohlen**, wenn Sie mit Definitionen für große oder komplexe Zielgruppen arbeiten, um die Leistung zu wahren.
 
-* **Gespeicherte Zielgruppenaktivitäten sind statisch** sie spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
+* **Gespeicherte Zielgruppenaktivitäten sind statisch**. Sie spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
 
-* **Das Anhängen an eine Aktivität vom Typ Gespeicherte Zielgruppe wird nicht unterstützt**. Alle Änderungen erfordern eine vollständige Überschreibung der Zielgruppe.
+* **Das Anhängen an eine Aktivität vom Typ „Gespeicherte Zielgruppe“ wird nicht unterstützt**. Jede Änderung erfordert eine vollständige Überschreibung der Zielgruppe.
 
 ## Kanalbeschränkungen
 

@@ -85,7 +85,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 
 Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken, wobei die beiden Lösungen unterschiedlichen Verwendungszwecken entsprechen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-+++Verwenden von Zielgruppen vs. Entscheidungsregeln
++++Verwenden von Zielgruppen im Vergleich zu Entscheidungsregeln
 
 Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich bei einer Entscheidungsregel um eine Funktion handelt, die während des Entscheidungsprozesses bei Bedarf für ein einzelnes Profil ausgeführt wird.
 

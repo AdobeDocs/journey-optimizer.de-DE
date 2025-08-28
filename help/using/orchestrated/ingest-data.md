@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
-description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform importieren.
+description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform aufnehmen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 22%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 >
 >Um die Datenquelle für einen Datensatz zu ändern, müssen Sie zunächst den vorhandenen Datenfluss löschen, bevor Sie einen neuen erstellen, der auf denselben Datensatz und die neue Quelle verweist.
 >
->Adobe Experience Platform erzwingt eine strikte Eins-zu-eins-Beziehung zwischen Datenflüssen und Datensätzen. Auf diese Weise können Sie die Synchronisierung zwischen Quelle und Datensatz für eine genaue inkrementelle Aufnahme aufrechterhalten.
+>Adobe Experience Platform erzwingt eine strikte Eins-zu-eins-Beziehung zwischen Datenflüssen und Datensätzen. So können Sie die Synchronisierung zwischen Quelle und Datensatz für eine genaue inkrementelle Aufnahme aufrechterhalten.
 
 Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quellen und bietet spezielle Experience Platform-Services, mittels derer Sie eingehende Daten strukturieren, beschriften und erweitern können. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
 
@@ -46,7 +46,7 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
     <tr>
       <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
-      <td rowspan="4">Cloud Data Warehouses</td>
+      <td rowspan="4">Cloud-Data Warehouses</td>
       <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
@@ -60,43 +60,43 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
     </tr>
     <tr>
       <td rowspan="3">Dateibasierte Uploads</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaler Datei-Upload<a></td>
+      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Hochladen einer lokalen Datei<a></td>
     </tr>
 
 </tbody>
 </table>
 
-## Richtlinien für die Datenhygiene von relationalen Schemata {#cdc}
+## Richtlinien für die Datenhygiene bei relationalen Schemata {#cdc}
 
-Bei Datensätzen, die mit **[!UICONTROL Datenerfassung ändern]** aktiviert sind, werden alle Datenänderungen, einschließlich Löschungen, automatisch vom Quellsystem in Adobe Experience Platform gespiegelt.
+Bei Datensätzen, bei denen **[!UICONTROL Änderungsdatenerfassung]** aktiviert ist, werden alle Datenänderungen, einschließlich Löschungen, automatisch vom Quellsystem in Adobe Experience Platform gespiegelt.
 
-Da für Adobe Journey Optimizer-Kampagnen alle integrierten Datensätze mit der **[!UICONTROL Datenerfassung für Änderungen]** aktiviert werden müssen, ist der Kunde dafür verantwortlich, Löschungen an der Quelle zu verwalten. Jeder aus dem Quellsystem gelöschte Datensatz wird automatisch aus dem entsprechenden Datensatz in Adobe Experience Platform entfernt.
+Da für Adobe Journey Optimizer-Kampagnen alle integrierten Datensätze mit der **[!UICONTROL Änderungsdatenerfassung]** aktiviert werden müssen, ist die Kundin oder der Kunde dafür verantwortlich, Löschungen an der Quelle zu verwalten. Jeder aus dem Quellsystem gelöschte Eintrag wird automatisch aus dem entsprechenden Datensatz in Adobe Experience Platform entfernt.
 
-Um Datensätze über die dateibasierte Aufnahme zu löschen, sollte die Datendatei des Kunden den Datensatz mit einem `D` Wert im Feld `Change Request Type` markieren. Dies bedeutet, dass der Datensatz in Adobe Experience Platform gelöscht werden soll, was das Quellsystem widerspiegelt.
+Um Einträge über die dateibasierte Aufnahme zu löschen, sollte in der Datendatei der Kundin bzw. des Kunden der Eintrag mit einem `D`-Wert im Feld `Change Request Type` markiert werden. Dies bedeutet, dass der Eintrag in Adobe Experience Platform gelöscht werden sollte, sodass das Quellsystem gespiegelt wird.
 
-Wenn der Kunde nur Datensätze aus Adobe Experience Platform löschen möchte, ohne die ursprünglichen Quelldaten zu beeinflussen, sind die folgenden Optionen verfügbar:
+Wenn die Kundin bzw. der Kunde nur Einträge aus Adobe Experience Platform löschen möchte, ohne die ursprünglichen Quelldaten zu beeinflussen, stehen die folgenden Optionen zur Verfügung:
 
-* **Proxy- oder bereinigte Tabelle für die Replikation der Änderungsdatenerfassung**
+* **Proxy oder bereinigte Tabelle für die Replikation der Änderungsdatenerfassung**
 
-  Der Kunde kann einen Proxy oder eine bereinigte Quelltabelle erstellen, um zu steuern, welche Datensätze in Adobe Experience Platform repliziert werden. Löschungen können dann selektiv aus dieser Zwischentabelle verwaltet werden.
+  Die Kundin bzw. der Kunde kann einen Proxy oder eine bereinigte Quelltabelle erstellen, um zu steuern, welche Einträge in Adobe Experience Platform repliziert werden sollen. Löschungen können dann selektiv in dieser Zwischentabelle verwaltet werden.
 
-* **Löschung über Data Distiller**
+* **Löschen über Data Distiller**
 
-  Sofern lizenziert, kann **Data Distiller** verwendet werden, um Löschvorgänge direkt in Adobe Experience Platform zu unterstützen, unabhängig vom Quellsystem.
+  Sofern lizenziert, kann **Data Distiller** verwendet werden, um Löschvorgänge direkt in Adobe Experience Platform zu unterstützen, und zwar unabhängig vom Quellsystem.
 
   [Weitere Informationen zu Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview)
 
-## Datenfluss konfigurieren
+## Konfigurieren eines Datenflusses
 
-Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte Daten in Adobe Experience Platform aufnimmt. Der konfigurierte Datenfluss unterstützt eine automatisierte, geplante Aufnahme und ermöglicht Echtzeit-Aktualisierungen.
+Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der strukturierte Daten in Adobe Experience Platform aufnimmt. Der konfigurierte Datenfluss unterstützt eine automatisierte, geplante Aufnahme und ermöglicht Echtzeit-Aktualisierungen.
 
 1. Greifen Sie über das Menü **[!UICONTROL Verbindungen]** auf das Menü **[!UICONTROL Quellen]** zu.
 
-1. Wählen Sie Ihre Quelle abhängig von [Unterstützte Quellen für orchestrierte Kampagnen](#supported).
+1. Wählen Sie Ihre Quelle abhängig von den [unterstützten Quellen für orchestrierte Kampagnen](#supported).
 
    ![](assets/admin_sources_1.png)
 
-1. Verbinden Sie Ihr Cloud-Speicher- oder Google Cloud-Speicher-Konto, wenn Sie Cloud-basierte Quellen ausgewählt haben.
+1. Verbinden Sie Ihr Cloud-Speicher- oder Google Cloud-Speicher-Konto, falls Sie sich für Cloud-basierte Quellen entschieden haben.
 
    ![](assets/admin_sources_2.png)
 
@@ -104,23 +104,23 @@ Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte D
 
    ![](assets/S3_config_1.png)
 
-1. Aktivieren Sie auf der **[!UICONTROL Datensatzdetails]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die relationalen Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor enthalten.
+1. Aktivieren Sie auf der Seite **[!UICONTROL Datensatzdetails]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die relationalen Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor aufweisen.
 
 [Weitere Informationen zu Richtlinien für relationale Schemata und Datenhygiene](#cdc)
 
    >[!IMPORTANT]
    >
-   > Nur **dateibasierten Quellen** jede Zeile in der Datendatei eine `_change_request_type` Spalte mit den Werten `U` (upsert) oder `D` (delete) enthalten. Ohne diese Spalte erkennt das System die Daten nicht als unterstützendes Änderungs-Tracking, und der Umschalter Orchestrierte Kampagne wird nicht angezeigt, was verhindert, dass der Datensatz für die Zielgruppenbestimmung ausgewählt wird.
+   > **Nur dateibasierten Quellen**: Jede Zeile in der Datendatei muss eine Spalte `_change_request_type` mit den Werten `U` (upsert) oder `D` (delete) enthalten. Ohne diese Spalte erkennt das System nicht, dass die Daten die Änderungsverfolgung unterstützen, und der Umschalter für „orchestrierte Kampagne“ wird nicht angezeigt, sodass der Datensatz nicht für die Zielgruppenbestimmung ausgewählt werden kann.
 
    ![](assets/S3_config_6.png)
 
-1. Wählen Sie den zuvor erstellten Datensatz aus und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie Ihren zuvor erstellten Datensatz aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/S3_config_3.png)
 
 1. Wenn Sie nur dateibasierte Quellen verwenden, laden Sie über das Fenster **[!UICONTROL Daten auswählen]** Ihre lokalen Dateien hoch und zeigen Sie eine Vorschau ihrer Struktur und Inhalte an.
 
-   Beachten Sie, dass die maximal unterstützte Größe 100 MB beträgt.
+   Beachten Sie, dass die unterstützte Größe maximal 100 MB beträgt.
 
 1. Überprüfen Sie **[!UICONTROL Fenster]** Zuordnung“, ob jedes Quelldateiattribut den entsprechenden Feldern im Zielschema korrekt zugeordnet ist. [Erfahren Sie mehr über Zielgruppendimensionen](target-dimension.md)
 
