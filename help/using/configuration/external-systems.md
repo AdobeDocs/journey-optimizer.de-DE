@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 90%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -119,3 +119,14 @@ Pro Aufruf können nach dem ersten Aufruf maximal drei weitere Versuche durchgef
 **Wo kann ich die Zeitüberschreitung konfigurieren? Gibt es einen Maximalwert?**
 
 Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeitüberschreitungsdauer wird in den Eigenschaften einer Journey konfiguriert. Die Zeitüberschreitungsdauer muss zwischen 1 Sekunde und 30 Sekunden liegen. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout) und auf [dieser Seite](../building-journeys/journey-properties.md#timeout_and_error).
+
+**Wie viele Verbindungen werden von Journey Optimizer maximal geöffnet, wenn benutzerdefinierte Aktionen verwendet werden?**
+
+Wenn der IP-Proxy aktiviert ist und eine Drosselungskonfiguration für den Zielendpunkt definiert ist, basiert die Anzahl der Verbindungen auf der Rate (dies sind Schätzungen, keine garantierten Zahlen):
+
+* Zwischen 200 und 2000 C/s: 50 Anschlüsse
+* zwischen 2000 und 3000: 75 Anschlüsse
+* zwischen 3000 und 4000: 100 Anschlüsse
+* zwischen 4000 und 5000: 125 Anschlüsse
+
+Wenn für einen Endpunkt keine Drosselungskonfiguration definiert ist, ist die Journey Optimizer-Engine so konzipiert, dass sie hochskaliert wird und eine hohe Anzahl von Verbindungen (über 2.000) erreichen kann. Um eine begrenzte Anzahl von Verbindungen zu erhalten, müssen Kunden eine Drosselungskonfiguration verwenden.
