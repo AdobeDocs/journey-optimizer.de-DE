@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Aktivitäten für orchestrierte Kampagnen
-description: Aktivitäten für orchestrierte Kampagnen
+title: Orchestrierte Kampagnenaktivitäten
+description: Orchestrierte Kampagnenaktivitäten
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
-
-# Aktivitäten für orchestrierte Kampagnen{#section-overview}
+# Orchestrierte Kampagnenaktivitäten{#section-overview}
 
 Orchestrierte Kampagnenaktivitäten in Adobe Journey Optimizer ermöglichen es Ihnen, nahtlose, datengesteuerte Marketing-Journey zu entwerfen, die zum richtigen Zeitpunkt und über die richtigen Kanäle mit Ihrer Audience verbunden sind. Durch die Kombination von Zielgruppenbestimmungs-, Kanal- und Flusssteuerungsaktivitäten können Sie präzise Zielgruppensegmente definieren, Nachrichten personalisieren und komplexe Workflows automatisieren. Unabhängig davon, ob Sie Audiences erstellen, Kampagnenzweige synchronisieren oder Verzögerungen für ein perfektes Timing hinzufügen, diese Aktivitäten arbeiten zusammen, um die Ausführung Ihrer Kampagne zu optimieren. Mit Tools wie der Anreicherung zur Datenverbesserung oder der Aufspaltung zur Zielgruppensegmentierung verfügen Sie über ein flexibles Toolkit, um aussagekräftige, wirkungsvolle Kundenerlebnisse zu erstellen.
 
@@ -20,7 +20,7 @@ Orchestrierte Kampagnenaktivitäten in Adobe Journey Optimizer ermöglichen es I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Arbeiten mit orchestrierten Kampagnenaktivitäten
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Zielgruppenbestimmungs-, Kanal- und Flusssteuerungsaktiv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Und-Verknüpfung Aktivität
 
@@ -40,7 +40,7 @@ Synchronisieren Sie mehrere Ausführungszweige, indem Sie sicherstellen, dass di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aktivität „Zielgruppe aufbauen“
 
@@ -50,7 +50,7 @@ Definieren und konfigurieren Sie Zielgruppensegmente für Ihre Kampagnen mithilf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dimensionsaktivität ändern
 
@@ -60,7 +60,7 @@ Verbessern Sie das Targeting, indem Sie zwischen Datenentitäten innerhalb Ihrer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanalaktivitäten
 
@@ -70,7 +70,7 @@ Richten Sie E-Mail, SMS, Push-Benachrichtigungen und Briefpost für die kanalüb
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aktivität „Kombinieren“
 
