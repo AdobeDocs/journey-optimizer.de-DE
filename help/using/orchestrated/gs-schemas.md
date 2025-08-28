@@ -4,10 +4,10 @@ product: journey optimizer
 title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL hochladen
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '236'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 3%
 Dieses Handbuch führt Sie durch den Prozess der Erstellung eines relationalen Schemas, der Konfiguration eines Datensatzes für orchestrierte Kampagnen und der Aufnahme von Daten.
 
 ![](assets/do-not-localize/schema_admin.png)
+
+Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen werden, werden im Data Lake als Datensätze gespeichert.
+
+Ein Schema stellt die Struktur und das Format von Daten dar und validiert sie. Es bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und beschreibt, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtstag usw.).
+
 
 1. Erstellen [relationalen Schemas manuell](manual-schema.md) oder [mithilfe einer DDL-Datei](file-upload-schema.md)
 

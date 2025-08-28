@@ -4,17 +4,17 @@ product: journey optimizer
 title: Erstellen der Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 0%
+source-wordcount: '745'
+ht-degree: 3%
 
 ---
 
 
 # Konfigurieren einer Zielgruppendimension {#configuration}
 
-Mit **[!UICONTROL Orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene entwerfen und bereitstellen und dabei die relationalen Schemafunktionen von Adobe Experience Platform nutzen.
+Mit **[!UICONTROL Orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene entwerfen und bereitstellen und dabei die relationalen Schemafunktionen von Adobe Experience Platform nutzen. Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem XDM-Schema strukturiert.
 
 Obwohl die Segmentierung für **[!UICONTROL orchestrierte Kampagnen]** hauptsächlich auf relationalen Schemata erfolgt, erfolgt der tatsächliche Nachrichtenversand immer auf der Ebene **Profil**.
 
@@ -30,7 +30,7 @@ Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Asp
 
 * **Profilverknüpfung**
 
-  Das System muss verstehen, wie das Zielschema dem `Profile` zugeordnet wird. Dies wird durch ein gemeinsames Identitätsfeld erreicht, das sowohl im Zielschema als auch im `Profile` existiert und als Identity-Namespace konfiguriert ist.
+  Das System muss verstehen, wie das Zielschema dem `Profile` Schema zugeordnet wird. Dies wird durch ein gemeinsames Identitätsfeld erreicht, das sowohl im Zielschema als auch im `Profile` existiert und als Identity-Namespace konfiguriert ist.
 
 ## Erstellen der Zielgruppendimension {#targeting-dimension}
 
@@ -50,7 +50,7 @@ Richten Sie zunächst die Kampagnenorchestrierung ein, indem Sie dem Kundenprofi
 
    In diesem Beispiel ist das Kundenprofil mit mehreren Abonnements verknüpft, die jeweils durch eine eindeutige `crmID` im `Recipient` dargestellt werden. Wenn Sie die **[!UICONTROL Target Dimension]** auf die Verwendung des `Recipient` Schemas und dessen `crmID` festlegen, können Sie Nachrichten auf Abonnementebene und nicht an das Hauptkundenprofil senden, um sicherzustellen, dass jeder Vertrag oder jede Zeile eine eigene personalisierte Nachricht erhält.
 
-   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition#identity).
+   [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity).
 
    ![](assets/target-dimension-2.png)
 

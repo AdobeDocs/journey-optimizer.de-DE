@@ -4,10 +4,10 @@ product: journey optimizer
 title: Arbeiten mit orchestrierten Kampagnenaktivitäten
 description: Erfahren Sie, wie Sie Kampagnenaktivitäten koordinieren
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 68%
 
 ---
 
@@ -30,6 +30,8 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 
 ![Liste der Targeting-Aktivitäten](../assets/targeting-activities.png){width="40%" align="left"}
 
+Verfügbare Zielgruppenbestimmungsaktivitäten sind:
+
 * [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 * [Dimensionsänderung](change-dimension.md): Ändern Sie die Zielgruppendimension beim Erstellen Ihrer orchestrierten Kampagne.
 * [Kombinieren](combine.md): Mit dieser Aktivität segmentieren Sie Ihre eingehende Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
@@ -49,9 +51,11 @@ In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und ü
 >title="Endaktivität"
 >abstract="Mit der Aktivität **Ende** können Sie das Ende einer orchestrierten Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
 
-![Liste der Aktivitäten zur Flusskontrolle](../assets/flow-control-activities.png){width="30%" align="left"}
+Die folgenden Aktivitäten dienen der Organisation und Ausführung orchestrierter Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 
-Die folgenden Aktivitäten dienen der Organisation und Ausführung orchestrierter Kampagnen. Ihre Hauptaufgabe ist es, die anderen Aktivitäten zu koordinieren:
+![Liste der Aktivitäten zur Flusskontrolle](../assets/flow-control-activities.png){width="20%" align="left"}
+
+Verfügbare Flusssteuerungsaktivitäten sind:
 
 * [Und-Verknüpfung](and-join.md): Synchronisieren Sie mehrere Ausführungszweige einer orchestrierten Kampagne.
 * [Verzweigung](fork.md): Erstellen Sie ausgehende Transitionen, um mehrere Aktivitäten gleichzeitig zu starten.

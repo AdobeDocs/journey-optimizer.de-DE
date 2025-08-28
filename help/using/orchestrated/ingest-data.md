@@ -4,10 +4,10 @@ product: journey optimizer
 title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform importieren.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 23%
+source-wordcount: '699'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 23%
 >Adobe Experience Platform erzwingt eine strikte Eins-zu-eins-Beziehung zwischen Datenflüssen und Datensätzen. Auf diese Weise können Sie die Synchronisierung zwischen Quelle und Datensatz für eine genaue inkrementelle Aufnahme aufrechterhalten.
 
 Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quellen und bietet spezielle Experience Platform-Services, mittels derer Sie eingehende Daten strukturieren, beschriften und erweitern können. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
+
+Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen werden, werden im Data Lake als Datensätze gespeichert.
 
 ## Unterstützte Quellen für orchestrierte Kampagnen {#supported}
 
@@ -36,29 +38,29 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
   <tbody>
     <tr>
       <td rowspan="3">Cloud-Speicherplatz</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Dateibasierte Uploads</td>
-      <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaler Datei-Upload<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaler Datei-Upload<a></td>
     </tr>
 
 </tbody>
@@ -98,7 +100,7 @@ Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte D
 
    ![](assets/admin_sources_2.png)
 
-1. Wählen Sie die Daten aus, die Sie in Adobe Experience Platform aufnehmen möchten.
+1. Wählen Sie die Daten aus, die in Adobe Experience Platform aufgenommen werden sollen.
 
    ![](assets/S3_config_1.png)
 
@@ -120,7 +122,7 @@ Dieses Beispiel zeigt, wie ein Datenfluss konfiguriert wird, der strukturierte D
 
    Beachten Sie, dass die maximal unterstützte Größe 100 MB beträgt.
 
-1. Überprüfen Sie im Fenster **[!UICONTROL Zuordnung]**, ob jedes Quelldateiattribut den entsprechenden Feldern im Zielschema korrekt zugeordnet ist.
+1. Überprüfen Sie **[!UICONTROL Fenster]** Zuordnung“, ob jedes Quelldateiattribut den entsprechenden Feldern im Zielschema korrekt zugeordnet ist. [Erfahren Sie mehr über Zielgruppendimensionen](target-dimension.md)
 
    Klicken Sie auf **[!UICONTROL Weiter]**, sobald Sie fertig sind.
 
