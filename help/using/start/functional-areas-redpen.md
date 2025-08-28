@@ -10,182 +10,182 @@ redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
 source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Grundlegende Konzepte
 
-Adobe Journey Optimizer (AJO) umfasst mehrere wichtige Funktionsbereiche, die nahtlos zusammenarbeiten. In diesem Handbuch werden die einzelnen Bereiche erläutert und beschrieben, wie diese Bereiche kombiniert werden, um wirkungsvolle Kundenerlebnisse zu schaffen. Wenn Sie diese Funktionsbereiche verstehen, können Sie AJO nutzen, um personalisierte Omni-Channel-Erlebnisse effizient bereitzustellen.
+Adobe Journey Optimizer (AJO) umfasst mehrere wichtige Funktionsbereiche, die nahtlos zusammenarbeiten. In diesem Handbuch werden die einzelnen Bereiche erläutert und beschrieben, wie sich diese Bereiche zusammen nutzen lassen, um beeindruckende Kundenerlebnisse zu schaffen. Wenn Sie diese Funktionsbereiche verstehen, wird sichergestellt, dass Sie AJO nutzen können, um personalisierte Omnichannel-Erlebnisse effizient bereitzustellen.
 
-## Übersicht der Funktionsbereiche
+## Überblick über Funktionsbereiche
 
-| Funktionsbereich | Primärer Vorteil | Analogie |
+| Funktionsbereich | Primärer Vorteil  | Analogie |
 |-------------------------|--------------------------------------------------|------------------------|
 | Daten-Management | Organisieren der richtigen Kundendaten | Das Fundament |
-| Kunden-Management | Verstehen, wer Ihre Kunden sind | Kennen Sie Ihre Audience |
-| Content-Management | Konsistente, personalisierte Nachrichten erstellen und verwalten | Erstellen einer Nachricht |
-| Entscheidungs-Management | Die beste Nachricht/das beste Angebot in Echtzeit auswählen | Das Gehirn |
-| Journey Management | Nahtlose Kundenerlebnisse entwerfen und automatisieren | Dirigent |
-| Verbindungen | Verbinden von Datenquellen und Bereitstellen über Kundenkanäle | Die Pfeifen |
-| Administration und Datenschutz | Kontrollieren der Einrichtung, des Zugriffs und der Sicherstellung der Datenkonformität | Das Regelwerk |
+| Kunden-Management | Verstehen, wer Ihre Kundschaft ist | Kennen Sie Ihre Zielgruppe |
+| Content-Management | Erstellen und Verwalten konsistenter, personalisierter Nachrichten | Erstellen einer Nachricht |
+| Entscheidungs-Management | Auswählen der besten Nachricht/des besten Angebots in Echtzeit | Das Gehirn |
+| Journey-Management | Gestalten und Automatisieren von nahtlosen Kundenerlebnissen | Dirigentin bzw. Dirigent des Orchesters |
+| Verbindungen | Verbinden von Datenquellen und Bereitstellen über Kundenkanäle | Die Rohre |
+| Administration und Datenschutz | Kontrollieren von Einrichtung sowie Zugriff und Sicherstellen der Datenkonformität | Das Regelwerk |
 
 ## Detaillierte Funktionsbereiche
 
-### Daten-Management: The Foundation
+### Daten-Management: Das Fundament
 
-**Zweck**: Aufnehmen, Strukturieren und Verwalten der Daten, die der Personalisierung zugrunde liegen. Dieser Prozess umfasst die Definition von Datenstrukturen (Schemata), die Erstellung von Speicher-Containern (Datensätzen) und den Import von Daten aus verschiedenen Systemen.
+**Zweck**: Aufnehmen, Strukturieren und Verwalten der Daten, die die Personalisierung ermöglichen. Dieser Prozess umfasst die Definition von Datenstrukturen (Schemata), die Erstellung von Speicher-Containern (Datensätze) und den Import von Daten aus verschiedenen Systemen.
 
-Behandeln Sie das Daten-Management als Grundlage für alle Kundeninteraktionen. Eine gut strukturierte Datengrundlage stellt sicher, dass jede Entscheidung, jede Nachricht und jedes Journey präzise und organisierte Informationen verwendet.
+Behandeln Sie das Daten-Management als Grundlage für alle Kundeninteraktionen. Durch ein gut strukturiertes Datenfundament wird sichergestellt, dass jede Entscheidung, jede Nachricht und jede Journey präzise und organisierte Daten verwendet.
 
 **Schlüsselkomponenten**:
-- **Schemaerstellung und -verwaltung**: Definieren der Struktur von Kundendaten.
+- **Erstellung und Verwaltung von Schemata**: Definieren Sie die Struktur von Kundendaten.
    - Beispiel: Erstellen Sie ein Schema mit Feldern wie „Vorname“, „E-Mail-Adresse“ und „Kaufverlauf“.
-- **Datensatzkonfiguration**: Organisieren von Daten in logischen Containern.
-   - Beispiel: Gruppieren von Transaktionsdaten in einem Datensatz „Verkaufstransaktionen“ für eine einfachere Analyse.
+- **Datensatzkonfiguration**: Organisieren Sie Daten in logischen Containern.
+   - Beispiel: Gruppieren von Transaktionsdaten in einem Datensatz namens „Verkaufstransaktionen“ für eine einfachere Analyse.
 - **Datenaufnahme-Workflows**: Importieren Sie Daten effizient in die Plattform.
-   - Beispiel: Verwenden Sie vorgefertigte Source-Connectoren, um Kundendaten aus einem CRM-System (Customer Relationship Management) zu importieren.
-- **Datenqualitätstools**: Gewährleistung der Genauigkeit und Vollständigkeit der Daten.
+   - Beispiel: Verwenden Sie vorkonfigurierte Quell-Connectoren, um Kundendaten aus einem CRM-System (Customer Relationship Management) zu importieren.
+- **Datenqualitäts-Tools**: Gewährleisten Sie die Genauigkeit und Vollständigkeit der Daten.
 
-**Vorteil**: Stellt sicher, dass Kundendaten zuverlässig, organisiert und zugänglich sind, was die Grundlage für alle AJO-Aktivitäten bildet. Vorkonfigurierte Source-Connectoren optimieren die Datenaufnahme von gängigen Plattformen aus.
+**Vorteil**: Stellt sicher, dass Kundendaten zuverlässig, organisiert und zugänglich sind, was die Grundlage für alle AJO-Aktivitäten bildet. Vorkonfigurierte Quell-Connectoren optimieren die Datenaufnahme aus gängigen Plattformen.
 
 
 
-### Kundenmanagement: Kennen Sie Ihre Zielgruppe
+### Kunden-Management: Kennen Sie Ihre Zielgruppe
 
-**Zweck**: Aufbau und Pflege eines tiefen Verständnisses jedes Kunden. Dazu gehört die Verwendung des Echtzeit-Kundenprofils von Adobe Experience Platform (AEP) , um Daten aus allen Touchpoints in einer einheitlichen Ansicht zusammenzuführen. Es verwaltet auch Identitäten über Geräte und Kanäle hinweg und ermöglicht so die Gruppierung von Einzelpersonen in Zielgruppen basierend auf gemeinsamen Attributen oder Verhaltensweisen.
+**Zweck**: Aufbau und Pflege eines gründlichen Verständnisses einzelner Kundinnen und Kunden. Dazu gehört die Verwendung des Echtzeit-Kundenprofils von Adobe Experience Platform (AEP), mit dem sich Daten aus allen Touchpoints in einer einheitlichen Ansicht zusammenführen lassen. Zudem verwaltet es Identitäten über Geräte und Kanäle hinweg und ermöglicht so die Gruppierung von einzelnen Personen in Zielgruppen basierend auf gemeinsamen Attributen oder Verhaltensweisen.
 
-Customer-Management-Tools verbinden unterschiedliche Datenpunkte, um ein einheitliches Bild jedes Kunden zu liefern. Dadurch wird sichergestellt, dass Sie relevante und personalisierte Erlebnisse bereitstellen können.
+Kunden-Management-Tools verbinden unterschiedliche Datenpunkte, um ein einheitliches Bild jeder Kundin und jedes Kunden zu liefern. So wird sichergestellt, dass Sie für relevante und personalisierte Erlebnisse sorgen können.
 
 **Schlüsselkomponenten**:
-- **Echtzeit-Kundenprofil**: Einheitliche Ansicht jedes Kunden.
-   - Beispiel: Webbrowserverlauf, App-Interaktionen und Offline-Käufe in einem einzigen Profil kombinieren.
-- **Identitätsauflösung**: Verknüpfen von Kundendaten über Geräte und Kanäle hinweg.
-   - Beispiel: Abgleichen der E-Mail-Adresse eines Kunden mit seinen App-Nutzungsdaten mithilfe des Identitätsdiagramms.
+- **Echtzeit-Kundenprofil**: Einheitliche Ansicht einzelner Kundinnen und Kunden.
+   - Beispiel: Kombinieren von Webbrowser-Verlauf, App-Interaktionen und Offline-Käufe in einem einzigen Profil.
+- **Identitätsauflösung**: Verknüpfen von Kundendaten über verschiedene Geräte und Kanäle hinweg.
+   - Beispiel: Gleichen Sie mithilfe des Identitätsdiagramms die E-Mail-Adresse einer Person mit ihren App-Nutzungsdaten ab.
 - **Zielgruppenerstellung und -verwaltung**: Definieren von Gruppen basierend auf Attributen und Verhaltensweisen.
-   - Beispiel: Erstellen Sie eine Zielgruppe für „Treue Kunden“, die im letzten Jahr mehr als fünf Käufe getätigt haben.
-- **Segmentierung**: Regeln für die dynamische Zielgruppenzugehörigkeit anwenden.
-   - Beispiel: Richten Sie ein Segment für „Erstklassige Käufer“ ein, das automatisch aktualisiert wird, wenn Kunden mehr als 500 USD ausgeben.
+   - Beispiel: Erstellen Sie eine Zielgruppe für „Treue Kundschaft“, die im letzten Jahr mehr als fünf Käufe getätigt hat.
+- **Segmentierung**: Anwenden von Regeln für dynamische Zielgruppenzugehörigkeit.
+   - Beispiel: Richten Sie ein Segment für „Ausgabefreudige Käuferschaft“, das automatisch aktualisiert wird, wenn Kundinnen oder Kunden mehr als 500 € ausgeben.
 
-**Vorteil**: Ermöglicht präzise Zielgruppenbestimmung und Personalisierung durch ein dynamisches Verständnis individueller Vorlieben, Historie und Segmentzugehörigkeiten.
+**Vorteil**: Ermöglicht durch ein dynamisches Verständnis individueller Vorlieben, Historie und Segmentzugehörigkeiten eine präzise Zielgruppenbestimmung und Personalisierung.
 
 
 
-### Content-Management: Nachricht erstellen
+### Content-Management: Erstellen Ihrer Nachricht
 
-**Zweck**: Erstellen, verwalten, personalisieren und wiederverwenden von Marketing-Inhalten über mehrere Kanäle hinweg. Dazu gehören die Verwaltung digitaler Assets, die Erstellung von Nachrichten mit visuellen Editoren oder Code, die Nutzung wiederverwendbarer Inhaltsvorlagen und Fragmente, die Erstellung von Landingpages und die Verwendung künstlicher Intelligenz (KI) zur Inhaltserstellung.
+**Zweck**: Erstellen, Verwalten, Personalisieren und Wiederverwenden von Marketing-Inhalten über verschiedene Kanäle hinweg. Das umfasst die Verwaltung digitaler Assets, die Erstellung von Nachrichten mit visuellen Editoren oder Code, die Nutzung wiederverwendbarer Inhaltsvorlagen und Fragmente, die Einrichtung von Landingpages und die Verwendung künstlicher Intelligenz (KI) zur Inhaltserstellung.
 
-Content-Management-Tools stellen sicher, dass Teams effizient maßgeschneiderte Nachrichten erstellen und bereitstellen und dabei die Konsistenz und Relevanz an jedem Touchpoint gewährleisten.
+Content-Management-Tools stellen sicher, dass Teams effizient maßgeschneiderte Nachrichten definieren und bereitstellen und dabei an jedem Touchpoint für Konsistenz und Relevanz sorgen können.
 
 **Schlüsselkomponenten**:
-- **Inhaltseditoren**: Erstellen und formatieren Sie Nachrichten visuell oder mit Code.
-   - Beispiel: Verwenden Sie den visuellen Editor, um eine E-Mail-Kampagne zu entwerfen, mit der Verkäufe an Feiertagen beworben werden.
+- **Inhaltseditoren**: Erstellen und Formatieren von Nachrichten visuell oder mit Code.
+   - Beispiel: Verwenden Sie den visuellen Editor, um eine E-Mail-Kampagne zu entwerfen, mit der das Weihnachtsgeschäft beworben werden.
 - **Digital Asset Management**: Organisieren und Verwenden von Bildern und anderen Medien.
-   - Beispiel: Speichern Sie Produktbilder in einer zentralen Bibliothek, um sie in Kampagnen einfach wiederzuverwenden.
-- **Vorlagen und Fragmente**: Erstellen wiederverwendbarer Inhaltskomponenten.
-   - Beispiel: Erstellen Sie eine Vorlage „Willkommensnachricht“, die Kundennamen dynamisch einfügt.
-- **Personalization-Tools**: Dynamische Anpassung von Inhalten an individuelle Anforderungen.
-   - Beispiel: Zeigen Sie personalisierte Produktempfehlungen basierend auf dem Navigationsverlauf an.
+   - Beispiel: Speichern Sie Produktbilder in einer zentralen Bibliothek, um sie in Kampagnen bequem wiederverwenden zu können.
+- **Vorlagen und Fragmente**: Erstellen von wiederverwendbaren Inhaltskomponenten.
+   - Beispiel: Erstellen Sie eine Vorlage namens „Willkommensnachricht“, die Kundennamen dynamisch einfügt.
+- **Personalisierungs-Tools**: Dynamisches Anpassen von Inhalten für Einzelpersonen.
+   - Beispiel: Zeigen Sie basierend auf dem Navigationsverlauf personalisierte Produktempfehlungen an.
 - **Landingpage-Builder**: Erstellen von Web-Zielen für Kampagnen.
 
-**Vorteil**: Optimiert die Inhaltserstellung, stellt die Markenkonsistenz sicher und erleichtert die effiziente Bereitstellung hochgradig personalisierter Nachrichten.
+**Vorteil**: Optimiert die Inhaltserstellung, sorgt für Markenkonsistenz und erleichtert den effizienten Versand hochgradig personalisierter Nachrichten.
 
 
 
-### Entscheidungs-Management: Die Gehirne von Personalization
+### Entscheidungs-Management: Das Gehirn der Personalisierung
 
-**Zweck**: Wählen Sie für jede Kundin und jeden Kunden zum richtigen Zeitpunkt die beste Nachricht oder das beste Angebot aus. Dies geschieht auf der Grundlage ihres Echtzeit-Profils, Kontexts und vordefinierter Geschäftsregeln oder KI-Modelle. Entscheidungs-Management umfasst die Verwaltung einer zentralen Bibliothek mit Angeboten, die Definition von Eignungsregeln, die Anwendung von Einschränkungen (wie Frequenzlimitierung) und die Einrichtung einer Ranking-Logik.
+**Zweck**: Für jede Kundin und jeden Kunden zum richtigen Zeitpunkt die beste Nachricht oder das beste Angebot auswählen. Das geschieht anhand des Echtzeit-Profils der Person, des Kontexts und vordefinierter Geschäftsregeln oder KI-Modelle. Das Entscheidungs-Management umfasst das Verwalten einer zentralen Bibliothek mit Angeboten, das Definieren von Eignungsregeln, das Anwenden von Einschränkungen (wie Frequenzbegrenzung) und das Einrichten einer Ranking-Logik.
 
-Entscheidungs-Management stellt sicher, dass die Personalisierung skaliert funktioniert, indem durch intelligente Automatisierung ein maximaler Wert bereitgestellt wird.
+Das Entscheidungs-Management stellt sicher, dass die Personalisierung in großem Maßstab funktioniert, indem es durch intelligente Automatisierung einen maximalen Mehrwert liefert.
 
 **Schlüsselkomponenten**:
 - **Angebotsbibliothek**: Zentrales Repository für Marketing-Angebote.
-   - Beispiel: Angebote wie „20% Rabatt auf Gutschein“ oder „Kostenloser Versand“ in einer gemeinsamen Bibliothek speichern.
+   - Beispiel: Speichern Sie Angebote wie „Coupon für 20 % Rabatt“ oder „Kostenloser Versand“ in einer gemeinsamen Bibliothek.
 - **Entscheidungsregeln**: Logik für die Auswahl optimaler Inhalte.
-   - Beispiel: Zeigen Sie einen „Treuerabatt“ nur für Kunden im Segment „Treue Kunden“ an.
-- **Einschränkungen und**: Kontrollieren Sie, wer was und wann erhält.
-   - Beispiel: Wenden Sie eine Frequenzlimitierung an, um zu verhindern, dass ein Kunde dasselbe Angebot zweimal in einer Woche erhält.
-- **Rangfolgestrategien**: Priorisieren von Angeboten basierend auf Geschäftszielen oder KI.
+   - Beispiel: Zeigen Sie nur der Kundschaft im Segment „Treue Kundschaft“ einen „Treuerabatt“ an.
+- **Einschränkungen und Eignung**: Kontrollieren, wer was wann erhält.
+   - Beispiel: Wenden Sie eine Frequenzbegrenzung an, um zu verhindern, dass eine Kundin oder ein Kunde dasselbe Angebot zweimal in einer Woche erhält.
+- **Ranking-Strategien**: Priorisieren von Angeboten anhand von Geschäftszielen oder mithilfe von KI.
    - Beispiel: Angebote werden nach Rentabilität sortiert, wobei Produkte mit hoher Marge zuerst angezeigt werden.
-- **Simulationstools**: Testen und Validieren von Entscheidungsstrategien.
+- **Simulations-Tools**: Testen und Validieren von Entscheidungsstrategien.
 
-**Vorteil**: Automatisiert und optimiert die Personalisierung, um sicherzustellen, dass relevante und wirkungsvolle Erlebnisse an jedem Touchpoint bereitgestellt werden.
+**Vorteil**: Automatisiert und optimiert die Personalisierung, um sicherzustellen, dass an jedem Touchpoint relevante und effektive Erlebnisse bereitgestellt werden.
 
 
 
 ### Journey-Management: Der Dirigent des Orchesters
 
-**Zweck**: Entwerfen, orchestrieren und automatisieren Sie Kundenerlebnisse in mehreren Schritten und Kanälen. Journey reagieren auf Kundenverhalten und -ereignisse in Echtzeit und führen Personen durch personalisierte Pfade. AJO unterstützt auch Kampagnen zum Versand von geplanten, einmaligen Nachrichten an bestimmte Zielgruppen.
+**Zweck**: Entwerfen, Orchestrieren und Automatisieren von Kundenerlebnisse über mehrere Schritte und Kanäle hinweg. Journeys reagieren in Echtzeit auf Kundenverhalten und -ereignisse und leiten Personen durch personalisierte Pfade. AJO unterstützt zudem Kampagnen zum Versand von geplanten, einmaligen Nachrichten an bestimmte Zielgruppen.
 
-Journey-Management stellt sicher, dass Erlebnisse sich anpassungsfähig und nahtlos anfühlen und Einzelpersonen auf der Grundlage ihrer Vorlieben und Handlungen anleiten.
+Das Journey-Management stellt sicher, dass Erlebnisse sich adaptiv und nahtlos anfühlen, und leitet einzelne Personen auf der Grundlage ihrer Vorlieben und Handlungen an.
 
 **Schlüsselkomponenten**:
 - **Journey-Designer**: Visuelle Arbeitsfläche zum Erstellen von Kundenpfaden.
-   - Beispiel: Entwerfen Sie eine Journey, die eine Begrüßungs-E-Mail sendet, wenn sich ein Kunde anmeldet.
-- **Journey-Trigger**: Ereignisse, die Journey auslösen oder voranbringen.
-   - Beispiel: Trigger einer Folgenachricht, nachdem ein Kunde seinen Warenkorb verlassen hat.
-- **Bedingungsschritte**: Verwenden Sie eine logische Verzweigung.
-   - Beispiel: Senden Sie eine andere Nachricht, je nachdem, ob eine Kundin oder ein Kunde eine E-Mail öffnet.
-- **Warteaktivitäten**: Kontrollieren Sie den Fortschritt mit Zeitverzögerungen.
+   - Beispiel: Entwerfen Sie eine Journey, die eine Begrüßungs-E-Mail sendet, wenn sich eine Kundin oder ein Kunde anmeldet.
+- **Journey-Auslöser**: Ereignisse, die Journeys auslösen oder voranbringen.
+   - Beispiel: Auslösen einer Folgenachricht, nachdem eine Kundin oder ein Kunde ihren bzw. seinen Warenkorb abgebrochen hat.
+- **Bedingungsschritte**: Verwenden von logischen Verzweigungen.
+   - Beispiel: Senden Sie eine unterschiedliche Nachricht, je nachdem, ob jemand eine E-Mail öffnet oder nicht.
+- **Warteaktivitäten**: Kontrollieren des Fortschritts mit Zeitverzögerungen.
    - Beispiel: Drei Tage warten, bevor eine Erinnerungs-E-Mail gesendet wird.
 - **Kampagnenverwaltung**: Tools für geplante, einmalige Nachrichten.
 
-**Vorteil**: Erstellt nahtlose, vernetzte Erlebnisse, die sich an individuelle Interaktionen anpassen, Beziehungen pflegen und gewünschte Ergebnisse fördern.
+**Vorteil**: Erstellt nahtlose, vernetzte Erlebnisse, die sich an individuelle Interaktionen anpassen, was die Beziehungen pflegt und die gewünschten Ergebnisse fördert.
 
 
 
-### Anschlüsse: Die Rohre
+### Verbindungen: Die Rohre
 
-**Zweck**: Verwalten des Datenflusses in AJO (Quellen) und der Nachrichten- oder Datenbereitstellung aus AJO (Kanäle und Ziele). Datenquellen bringen Daten in Adobe Experience Platform (AEP) ein. Kanäle liefern Nachrichten (per E-Mail, SMS, Push, Web usw.). Ziele ermöglichen den Fluss von Zielgruppen- oder Datensatzinformationen zu externen Plattformen.
+**Zweck**: Verwalten des Datenflusses in AJO (Quellen) und des Nachrichten- oder Datenversands aus AJO (Kanäle und Ziele). Datenquellen speisen Daten in Adobe Experience Platform (AEP) ein. Kanäle stellen Nachrichten bereit (per E-Mail, SMS, Push, Web usw.). Ziele ermöglichen den Fluss von Zielgruppen- oder Datensatzinformationen zu externen Plattformen.
 
-Verbindungen stellen sicher, dass Daten effektiv in AJO eingehen und Kunden zuverlässig über die richtigen Touchpoints erreichen.
+Verbindungen sorgen dafür, dass Daten effektiv in AJO eingespeist werden und die Kundschaft über die richtigen Touchpoints zuverlässig erreichen.
 
 **Schlüsselkomponenten**:
-- **Source-Connectoren**: Importieren Sie Daten in Platform.
+- **Quell-Connectoren**: Dienen dem Importieren von Daten in die Plattform.
    - Beispiel: Verwenden Sie einen Connector, um Kaufdaten von einer E-Commerce-Plattform zu übertragen.
-- **Kanalkonfiguration**: Einrichten und Verwalten von Versandmechanismen.
-   - Beispiel: SMS-Versand für Werbenachrichten konfigurieren.
-- **Zieleinrichtung**: Verbindung zu externen Aktivierungssystemen herstellen.
-   - Beispiel: Freigabe von Zielgruppendaten über eine Social-Media-Werbeplattform.
-- **Datenflussverwaltung**: Verlagerung von Steuerinformationen.
+- **Kanalkonfiguration**: Konfigurieren und verwalten von Versandmechanismen.
+   - Beispiel: Konfigurieren Sie den SMS-Versand für Werbenachrichten.
+- **Zieleinrichtung**: Herstellen einer Verbindung zu externen Aktivierungssystemen.
+   - Beispiel: Freigeben von Zielgruppendaten über eine Social-Media-Werbeplattform.
+- **Datenflussverwaltung**: Verwaltung von Datenbewegungen.
 
-**Vorteil**: Sorgt für eine effiziente Datenaufnahme und einen zuverlässigen Nachrichtenversand über alle Kanäle hinweg und ermöglicht gleichzeitig die Aktivierung in externen Systemen.
+**Vorteil**: Sorgt für eine effiziente Datenaufnahme und einen zuverlässigen Nachrichtenversand über alle Kanäle hinweg und ermöglicht gleichzeitig eine Aktivierung in externen Systemen.
 
 
 
 ### Administration und Datenschutz: Das Regelwerk
 
-**Zweck**: Systemeinstellungen konfigurieren, Benutzerzugriff und Berechtigungen verwalten, Kommunikationskanäle einrichten, Journey-Parameter definieren und die Einhaltung von Datenschutz- und Governance-Richtlinien sicherstellen. Dazu gehören die Verwaltung des Einverständnisses, die Anwendung von Datennutzungsregeln und die Verarbeitung von Datenzugriffs- oder Löschanfragen.
+**Zweck**: Konfigurieren der Systemeinstellungen, Verwalten von Benutzerzugriff und Berechtigungen, Einrichten von Kommunikationskanälen, Definieren von Journey-Parametern und Sicherstellen der Einhaltung von Datenschutz- und Governance-Richtlinien. Dazu gehören die Einverständnisverwaltung, die Anwendung von Datennutzungsregeln und die Verarbeitung von Datenzugriffs- oder Löschanfragen.
 
-Administrations- und Datenschutz-Tools stellen sicher, dass die Datenintegrität geschützt ist und alle rechtlichen und organisatorischen Richtlinien eingehalten werden.
+Administrations- und Datenschutz-Tools stellen sicher, dass die Datenintegrität gewahrt bleibt und alle rechtlichen und organisatorischen Richtlinien eingehalten werden.
 
 **Schlüsselkomponenten**:
 - **Benutzer- und Zugriffsverwaltung**: Steuern von Zugriff und Berechtigungen.
-   - Beispiel: Marketing- und IT-Teams bestimmte Berechtigungen zuweisen.
+   - Beispiel: Weisen Sie Marketing- und IT-Teams bestimmte Berechtigungen zu.
 - **Sandbox-Konfiguration**: Separate Umgebungen für Entwicklung und Tests.
    - Beispiel: Verwenden Sie eine Sandbox, um neue Journey-Designs zu testen, bevor Sie sie live bereitstellen.
 - **Kanaleinrichtung**: Konfigurieren technischer Einstellungen für den Versand.
-   - Beispiel: Einrichten von E-Mail-Server-Details für Kampagnen-Messaging.
-- **Datenschutztools**: Einverständnis und Datenschutzeinstellungen verwalten.
-   - Beispiel: Anfragen zur Löschung von Daten gemäß DSGVO (Datenschutz-Grundverordnung) effizient bearbeiten.
-- **Governance-**: Durchsetzen von Datennutzungsrichtlinien.
+   - Beispiel: Richten Sie Details des E-Mail-Servers für Kampagnen-Messaging ein.
+- **Datenschutz-Tools**: Verwalten von Einverständnis und Datenschutz.
+   - Beispiel: Bearbeiten Sie Anfragen zur Löschung von Daten gemäß DSGVO (Datenschutz-Grundverordnung) effizient.
+- **Governance-Kontrollen**: Durchsetzen von Datennutzungsrichtlinien.
 
-**Vorteil**: Stellt einen sicheren Plattformbetrieb, die Einhaltung von Vorschriften und die Abstimmung mit den Richtlinien der Organisation sicher.
+**Vorteil**: Stellt einen sicheren Plattformbetrieb, die Einhaltung von Vorschriften und die Abstimmung mit den Richtlinien des Unternehmens sicher.
 
 
 
 ## Verbinden der Punkte: So funktioniert alles zusammen
 
-Diese Funktionsbereiche arbeiten in einem kontinuierlichen Zyklus, um personalisierte Kundenerlebnisse bereitzustellen und zu optimieren:
+All diese Funktionsbereiche arbeiten in einem kontinuierlichen Zyklus, um personalisierte Kundenerlebnisse bereitzustellen und zu optimieren:
 
-1. **Datenaufnahme**: Datenflüsse in AEP, strukturiert nach Daten-Management.
-2. **Kundenverständnis**: Echtzeit-Kundenprofile vereinheitlichen diese Daten, während Customer Management die Einblicke durch Profile und Zielgruppen verfeinert.
-3. **Content- und Angebotsstrategie**: Content-Management erstellt Nachrichten und Assets. Entscheidungs-Management definiert die Angebote und die Logik für die Auswahl der besten.
-4. **Orchestrierung**: Das Journey-Management ordnet Interaktionen kanalübergreifend zu und nutzt dabei Kundenverständnis, Inhalte und Entscheidungen.
+1. **Datenaufnahme**: Datenflüsse in AEP, strukturiert per Daten-Management.
+2. **Kundenverständnis**: Echtzeit-Kundenprofile vereinheitlichen diese Daten, während das Kunden-Management Einblicke durch Profile und Zielgruppen verfeinert.
+3. **Content- und Angebotsstrategie**: Das Content-Management erstellt Nachrichten und Assets. Das Entscheidungs-Management definiert die Angebote und die Logik für die Auswahl des besten Angebots.
+4. **Orchestrierung**: Journey-Management ordnet Interaktionen kanalübergreifend zu und nutzt dabei Kundenverständnis, Inhalte und Entscheidungen.
 5. **Versand**: Verbindungen erleichtern den Nachrichtenversand über ausgewählte Kanäle oder geben Daten an externe Systeme weiter.
-6. **Messung und Optimierung**: Leistungsdaten und Kundeninteraktionen geben Einblicke zurück in das System, um Zielgruppen, Inhalte, Entscheidungen und Journey zu verfeinern.
-7. **Governance**: Verwaltungs- und Datenschutzkontrollen stellen die Einhaltung von Vorschriften und eine ordnungsgemäße Systemkonfiguration sicher.
+6. **Messung und Optimierung**: Leistungsdaten und Kundeninteraktionen liefern Erkenntnisse, die in das System zurückgespeist werden, um Zielgruppen, Inhalte, Entscheidungen und Journeys zu verfeinern.
+7. **Governance**: Administrations- und Datenschutzkontrollen stellen die Einhaltung der Vorschriften und eine ordnungsgemäße Systemkonfiguration sicher.
 
 Dieser iterative Prozess ermöglicht es Unternehmen, ihre Strategien zur Kundeninteraktion kontinuierlich zu erlernen und zu verbessern.

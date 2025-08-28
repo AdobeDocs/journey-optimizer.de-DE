@@ -10,9 +10,9 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

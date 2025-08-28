@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Arbeiten mit dem Regel-Builder
-description: Erfahren Sie, wie Sie Regeln für Ihre koordinierten Kampagnen erstellen
+description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ Der Regel-Builder ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern
 
 | Nutzung | Beispiel |
 |  ---  |  ---  |
-| **Zielgruppen erstellen**: Geben Sie mit der Aktivität Zielgruppe erstellen die Population an, die Sie in Ihren orchestrierten Kampagnen ansprechen möchten **[!UICONTROL und]** mühelos neue Zielgruppen erstellen, die auf Ihre Bedürfnisse zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../orchestrated/activities/build-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Erstellen von Zielgruppen**: Geben Sie mithilfe einer Aktivität des Typs **[!UICONTROL Zielgruppe erstellen]** die Population an, die Sie in Ihren orchestrierten Kampagnen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. [Weitere Informationen zum Erstellen von Zielgruppen](../orchestrated/activities/build-audience.md) | ![Bild, das den Zugriff auf die Benutzeroberfläche zur Zielgruppenerstellung zeigt](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Erstellen einer Bedingung auf der Kampagnenarbeitsfläche**: Wenden Sie auf der Kampagnenarbeitsfläche mithilfe einer Aktivität des Typs **[!UICONTROL Aufspaltung]** Regeln an, um Anpassungen an Ihre bestimmten Anforderungen vorzunehmen. [Weitere Informationen zur Verwendung der Aktivität „Aufspaltung“](../orchestrated/activities/split.md) | ![Bild, das den Zugriff auf Optionen zur Workflow-Anpassung zeigt](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Erweiterte Filter erstellen** Regeln erstellen, um die in Listen angezeigten Daten wie Kampagnenprotokolle oder Zielgruppendimensionen zu filtern. | ![Bild, das die Anpassung von Listenfiltern zeigt](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Erstellen erweiterter Filter**: Erstellen Sie Regeln, um die in Listen angezeigten Daten wie Kampagnenprotokolle oder Zielgruppendimensionen zu filtern. | ![Bild, das die Anpassung von Listenfiltern zeigt](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Oberfläche des Regel-Builders {#interface}
 

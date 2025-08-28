@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Beispielsweise können Sie mithilfe der Experimentierfunktion die vorhandene Tex
 
 >[!AVAILABILITY]
 >
->Die **Personalisierung von Textüberlagerungen** ist ausschließlich im [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} von Dynamic Media verfügbar. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an Ihren Adobe-Support-Mitarbeiter.
+>Die **Personalisierung von Textüberlagerungen** ist ausschließlich im [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} von Dynamic Media verfügbar. Da der Scene7-Modus für Kundinnen und Kunden im Gesundheitswesen nicht verfügbar ist, werden Inhalte mithilfe einer Binärkopie des Bildes aus Journey Optimizer gerendert. Wenden Sie sich bei Ausnahmen an den Adobe-Support.
 
 Gehen Sie wie folgt vor, um Ihre Textüberlagerung zu personalisieren:
 
@@ -256,5 +256,5 @@ Erfahren Sie mehr darüber, wie Adobe Experience Manager Dynamic Media mit Adobe
 
 In diesem Tutorial wird beschrieben, wie Sie Bilder direkt in AJO ändern, im HTML-Modus Textüberlagerungen hinzufügen, Dynamic Media-Vorlagen in AEM zur Hyperpersonalisierung erstellen und Kampagnen personalisieren, indem Sie Inhalte auf verschiedene Zielgruppensegmente zuschneiden. Diese Integration ermöglicht es Marketing-Fachleuten, ansprechende und personalisierte Kampagnen effizient zu erstellen, ohne zwischen Anwendungen wechseln zu müssen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?learn=on&enablevpops=&autoplay=true&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

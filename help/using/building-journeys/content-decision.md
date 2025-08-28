@@ -11,9 +11,9 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Sie können jetzt die Ausgabe dieser Aktivität vom Typ „Inhaltsentscheidung�
 
 **Einverständnisrichtlinien**
 
-Es kann bis zu 48 Stunden dauern, bis Aktualisierungen der Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
+Es kann bis zu 48 Stunden dauern, bis aktualisierte Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
 
 Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerungszeit vorüber ist.
 

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Aufspaltung“
-description: Erfahren Sie, wie Sie die Aufspaltungsaktivität in einer orchestrierten Kampagne verwenden
+description: Informationen zur Verwendung der Aktivität „Aufspaltung“ in einer orchestrierten Kampagne
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Die Aktivität **[!UICONTROL Aufspaltung]** ist eine **[!UICONTROL Targeting]**-
 
 Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Aufspaltung“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Aufspaltung]** hinzu.
 
 1. Der Konfigurationsbereich für die Aktivität wird mit einer standardmäßigen Teilmenge geöffnet. Klicken Sie auf die Schaltfläche **[!UICONTROL Segment hinzufügen]**, um so viele Teilmengen wie gewünscht zum Segmentieren der eingehenden Population hinzuzufügen.
 
@@ -77,13 +77,13 @@ Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu k
    >
    >Stellen Sie vor der Ausführung der orchestrierten Kampagne sicher, dass die Teilmengen wie vorgesehen sortiert sind. Verwenden Sie die Pfeiltasten, um ihre Position anzupassen.
 
-1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Beschriftung jeder Teilmenge zu ändern, um sie auf der Arbeitsfläche für orchestrierte Kampagnen leicht identifizieren zu können.
+1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Labels jeder Teilmenge zu ändern, um sie in der Arbeitsfläche der orchestrierten Kampagne leicht identifizieren zu können.
 
 1. Konfigurieren Sie Filter für jede Teilmenge:
 
    1. Klicken Sie auf eine Teilmenge, um deren Einstellungen zu öffnen.
 
-   1. Klicken Sie **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Regel-Builders zu definieren, z. B. Profile mit einer gültigen E-Mail-Adresse.
+   1. Klicken Sie auf **[!UICONTROL Filter erstellen]**, um Filterregeln mithilfe des Abfrage-Modelers zu definieren, beispielsweise die Auswahl von Profilen mit einer gültigen E-Mail-Adresse.
 
       ![](../assets/orchestrated-split-1.png)
 
@@ -103,7 +103,7 @@ Folgen Sie diesen Schritten, um die Aktivität **[!UICONTROL Aufspaltung]** zu k
 
    * **Wenn diese Option aktiviert ist**, können Profile in mehrere Teilmengen eingeschlossen werden, wenn sie die jeweiligen Kriterien erfüllen.
 
-Der Aktivität ist jetzt konfiguriert. Bei der orchestrierten Kampagnenausführung wird die Population in der Reihenfolge in die verschiedenen Untergruppen segmentiert, in der sie der Aktivität hinzugefügt wurden.
+Der Aktivität ist jetzt konfiguriert. Bei der Ausführung orchestrierter Kampagnen wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese der Aktivität hinzugefügt wurden.
 
 ## Beispiel{#split-example}
 

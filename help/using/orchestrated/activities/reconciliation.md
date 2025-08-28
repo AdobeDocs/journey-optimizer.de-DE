@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Abstimmung“
-description: Erfahren Sie, wie Sie die Aktivität Abstimmung in einer orchestrierten Kampagne verwenden
+description: Informationen zur Verwendung der Aktivität „Abstimmung“ in einer orchestrierten Kampagne
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 
 Die Aktivität **[!UICONTROL Abstimmung]** ist eine **[!UICONTROL Targeting]**-Aktivität, mit der Sie die Verknüpfung zwischen den Daten in Adobe Journey Optimizer und den Daten in einer Arbeitstabelle definieren können, beispielsweise aus einer externen Datei geladene Daten. 
 
-Die Aktivität **[!UICONTROL Anreicherung]** ermöglicht das Hinzufügen zusätzlicher Daten zu einer orchestrierten Kampagne, z. B. durch Kombination von Daten aus mehreren Quellen oder durch Verknüpfung mit einer temporären Ressource. Dagegen werden mit der Aktivität **[!UICONTROL Abstimmung]** nicht identifizierte oder externe Daten mit vorhandenen Ressourcen in der Datenbank abgeglichen.
+Die Aktivität **[!UICONTROL Anreicherung]** ermöglicht das Hinzufügen zusätzlicher Daten zu einer orchestrierten Kampagne, beispielsweise durch das Kombinieren von Daten aus mehreren Quellen oder durch Verknüpfen mit einer temporären Ressource. Dagegen werden mit der Aktivität **[!UICONTROL Abstimmung]** nicht identifizierte oder externe Daten mit vorhandenen Ressourcen in der Datenbank abgeglichen.
 
 Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge bereits im System vorhanden sind. Wenn Sie beispielsweise eine Kaufdatei importieren, in der Produkte, Zeitstempel und Kundeninformationen aufgelistet sind, müssen sowohl die Produkte als auch die Kundinnen und Kunden bereits in der Datenbank vorhanden sein, um die Verknüpfung herzustellen.
 
@@ -70,7 +70,7 @@ Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge ber
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Abstimmung]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL Arbeitsfläche]** Aktivität „Abstimmung“ hinzu.
+1. Fügen Sie der Arbeitsfläche eine Aktivität des Typs **[!UICONTROL Abstimmung]** hinzu.
 
 1. Wählen Sie eine neue Zielgruppendimension aus, um zu definieren, wen Sie ansprechen möchten, z. B. Empfangende oder Abonnierende.
 
@@ -90,9 +90,9 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Abstimmung]** zu konfig
 
 1. Um weitere Regeln für den Abgleich hinzuzufügen, klicken Sie auf **[!UICONTROL Regel hinzufügen]**. Alle Bedingungen müssen erfüllt sein, damit eine Übereinstimmung auftritt.
 
-1. Für komplexere Bedingungen wählen Sie **[!UICONTROL Erweiterte Abstimmbedingungen]**. Verwenden Sie den [Regel-Builder](../orchestrated-rule-builder.md) um benutzerdefinierte Logik zu definieren.
+1. Für komplexere Bedingungen wählen Sie **[!UICONTROL Erweiterte Abstimmbedingungen]**. Verwenden Sie den [Regel-Builder](../orchestrated-rule-builder.md), um benutzerdefinierte Logik zu definieren.
 
-1. Um zu filtern, welche Daten abgeglichen werden sollen, klicken Sie auf **[!UICONTROL Filter erstellen]** und definieren Sie Ihre Bedingung im Regel-Builder.
+1. Um zu filtern, welche Daten abgestimmt werden sollen, klicken Sie auf **[!UICONTROL Filter erstellen]** und definieren Sie Ihre Bedingung im Regel-Builder.
 
 1. Standardmäßig werden nicht abgeglichene Einträge in der ausgehenden Transition beibehalten und in der Arbeitstabelle gespeichert. Um diese zu entfernen, aktivieren Sie die Option **[!UICONTROL Nicht abgestimmte Daten beibehalten]**.
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,10 +72,10 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 ## Anleitungsvideo {#video}
 
-Das folgende Video zeigt, wie Sie Ihre eigenen Marken erstellen und anpassen können, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren.
+Das folgende Video veranschaulicht, wie Sie Ihre eigenen Marken erstellen und anpassen können, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren.
 
-+++ Siehe Video
++++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470555/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

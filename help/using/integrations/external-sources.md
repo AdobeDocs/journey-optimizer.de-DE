@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Externe Integrationen aktivieren
-description: Integrieren Sie externe Integrationen in den Prozess der Kanalerstellung, um Inhalte mit personalisierten und dynamischen Informationen anzureichern
+title: Aktivieren von externen Integrationen
+description: Integrieren Sie externe Integrationen in den Prozess der Kanalerstellung, um Inhalte mit personalisierten und dynamischen Informationen anzureichern.
 feature: Integrations
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
 source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -22,90 +22,90 @@ ht-degree: 1%
 
 ## Überblick
 
-Die **Integrationen** ermöglicht die nahtlose Integration von Datenquellen von Drittanbietern in Adobe Journey Optimizer. Diese Funktion optimiert die Integration externer Daten und Inhaltsquellen in Ihre Kampagnen und ermöglicht es Ihnen, hochgradig personalisierte und dynamische Nachrichten über mehrere Kanäle hinweg bereitzustellen.
+Die Funktion **Integrationen** ermöglicht eine nahtlose Integration von externen Datenquellen in Adobe Journey Optimizer. Sie erleichtert somit die Integration externer Daten und Inhaltsquellen in Ihre Kampagnen und erlaubt es Ihnen, hochgradig personalisierte und dynamische Nachrichten über verschiedene Kanäle hinweg bereitzustellen.
 
-Sie können diese Funktion verwenden, um auf externe Daten zuzugreifen und Inhalte von Drittanbieter-Tools abzurufen, z. B.:
+Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbieter-Tools abzurufen, z. B.:
 
-* **Prämienpunkte** aus Treuesystemen
+* **Prämienpunkte** aus Treueprogrammsystemen.
 * **Preisinformationen** für Produkte.
-* **Produktempfehlungen** von Empfehlungs-Engines.
+* **Produktempfehlungen** aus Empfehlungs-Engines.
 * **Logistische Updates** wie Versandstatus.
 
-## Konfigurieren der Integration {#configure}
+## Konfigurieren Ihrer Integration {#configure}
 
-Als Administrator können Sie externe Integrationen einrichten, indem Sie die folgenden Schritte ausführen:
+Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden Schritte ausführen:
 
-1. Navigieren Sie zum Abschnitt **[!UICONTROL Konfigurationen]** im linken Menü und klicken Sie auf **[!UICONTROL Karte]** Integrationen **[!UICONTROL auf]**.
+1. Navigieren Sie im linken Menü zum Abschnitt **[!UICONTROL Konfigurationen]** und klicken Sie auf der Karte **[!UICONTROL Integrationen]** auf **[!UICONTROL Verwalten]**.
 
    Klicken Sie dann auf **[!UICONTROL Integration erstellen]**, um eine neue Konfiguration zu starten.
 
    ![](assets/external-integration-config-1.png)
 
-1. Geben Sie einen **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** für Ihre Integration an.
+1. Es müssen ein **[!UICONTROL Name]** und eine **[!UICONTROL Beschreibung]** für die Integration angegeben werden.
 
    >[!NOTE]
    >
    >Diese Felder dürfen keine Leerzeichen enthalten.
 
-1. Geben Sie den API-Endpunkt **[!UICONTROL URL]** ein, der Pfadparameter mit Variablen enthalten kann, die mithilfe von Kennzeichnungen und Standardwerten definiert werden können.
+1. Geben Sie die **[!UICONTROL URL]** des API-Endpunkts ein, der Pfadparameter mit Variablen enthalten kann, die sich mithilfe von Labels und Standardwerten definieren lassen.
 
-1. Konfigurieren Sie **[!UICONTROL Pfadvorlage]** mit **[!UICONTROL Name]** und **[!UICONTROL Standardwert]**.
+1. Konfigurieren Sie die **[!UICONTROL Pfadvorlage]** mit **[!UICONTROL Name]** und **[!UICONTROL Standardwert]**.
 
    ![](assets/external-integration-config-2.png)
 
 1. Wählen Sie die **[!UICONTROL HTTP-Methode]** zwischen GET und POST aus.
 
-1. Klicken Sie **[!UICONTROL Kopfzeile hinzufügen]** und/oder **[!UICONTROL Abfrageparameter hinzufügen]** wie für Ihre Integration erforderlich. Geben Sie für jeden Parameter die folgenden Details an:
+1. Klicken Sie je nach Bedarf für Ihre Integration auf **[!UICONTROL Header hinzufügen]** und/oder **[!UICONTROL Abfrageparameter hinzufügen]**. Geben Sie für jeden Parameter die folgenden Details an:
 
    * **[!UICONTROL Parameter]**: Eine eindeutige Kennung, die intern verwendet wird, um auf den Parameter zu verweisen.
 
    * **[!UICONTROL Name]**: Der tatsächliche Name des Parameters, wie von der API erwartet.
 
-   * **[!UICONTROL Typ]**: Wählen Sie **Konstante** für einen festen Wert oder **Variable** für die dynamische Eingabe.
+   * **[!UICONTROL Typ]**: Wählen Sie **Konstante** für einen festen Wert oder **Variable** für eine dynamische Eingabe.
 
-   * **[!UICONTROL Wert]**: Geben Sie den Wert direkt für Konstanten ein oder wählen Sie eine Variablenzuordnung aus.
+   * **[!UICONTROL Wert]**: Geben Sie für Konstanten den Wert direkt ein oder wählen Sie eine Variablenzuordnung aus.
 
-   * **[!UICONTROL Obligatorisch]**: Geben Sie an, ob dieser Parameter erforderlich ist.
+   * **[!UICONTROL Obligatorisch]**: Geben Sie an, ob dieser Parameter obligatorisch ist.
 
    ![](assets/external-integration-config-3.png)
 
 1. Wählen Sie einen **[!UICONTROL Authentifizierungstyp]**:
 
-   * **[!UICONTROL Keine Authentifizierung]**: Für offene APIs, für die keine Anmeldeinformationen erforderlich sind.
+   * **[!UICONTROL Keine Authentifizierung]**: Bei offenen APIs, für die keine Anmeldedaten erforderlich sind.
 
-   * **[!UICONTROL API-Schlüssel]**: Authentifizieren von Anfragen mithilfe eines statischen API-Schlüssels. Geben Sie den **[!UICONTROL API-Schlüsselnamen &#x200B;]**, **[!UICONTROL API-Schlüsselwert &#x200B;]** und geben Sie Ihren **[!UICONTROL Speicherort]** an.
+   * **[!UICONTROL API-Schlüssel]**: Authentifizieren von Anfragen mithilfe eines statischen API-Schlüssels. Geben Sie den **[!UICONTROL API-Schlüsselnamen]**, den **[!UICONTROL API-Schlüsselwert]** und den **[!UICONTROL Speicherort]** an.
 
-   * **[!UICONTROL Einfache Authentifizierung]**: Verwenden Sie die standardmäßige HTTP-Standardauthentifizierung. Geben Sie **[!UICONTROL Benutzername]** und **[!UICONTROL Kennwort]** ein.
+   * **[!UICONTROL Einfache Authentifizierung]**: Verwenden der einfachen HTTP-Standardauthentifizierung. Geben Sie **[!UICONTROL Benutzername]** und **[!UICONTROL Kennwort]** ein.
 
-   * **[!UICONTROL OAuth 2.0]**: Authentifizierung mit dem OAuth 2.0-Protokoll. Klicken Sie auf das ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg)-Symbol, um die **[!UICONTROL Payload“ zu konfigurieren oder]**.
+   * **[!UICONTROL OAuth 2.0]**: Authentifizieren mit dem OAuth 2.0-Protokoll. Klicken Sie auf das Symbol ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg), um die **[!UICONTROL Payload]** zu konfigurieren oder zu aktualisieren.
 
    ![](assets/external-integration-config-4.png)
 
-1. Legen Sie **[!UICONTROL Richtlinienkonfiguration]** wie **[!UICONTROL Timeout]** für API-Anfragen fest und wählen Sie die Aktivierung von Drosselung, Cache und/oder Wiederholung aus.
+1. Legen Sie die **[!UICONTROL Richtlinienkonfiguration]** fest, z. B. den **[!UICONTROL Timeout]** für API-Anfragen und die Möglichkeit, Drosselung, Cache und/oder Wiederholungsversuche zu aktivieren.
 
-1. Mit dem **[!UICONTROL Antwort-Payload]**-Feld können Sie entscheiden, welche Felder der Beispielausgabe für die Nachrichtenpersonalisierung verwendet werden müssen.
+1. Mit dem Feld **[!UICONTROL Antwort-Payload]** können Sie festlegen, welche Felder der Beispielausgabe für die Personalisierung von Nachrichten verwendet werden sollen.
 
-   Klicken Sie auf ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) und fügen Sie eine JSON-Beispiel-Antwort-Payload ein, um Datentypen automatisch zu erkennen.
+   Klicken Sie auf das Symbol ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) und fügen Sie eine beispielhafte JSON-Antwort-Payload ein, um Datentypen automatisch zu erkennen.
 
 1. Wählen Sie die Felder aus, die für die Personalisierung bereitgestellt werden sollen, und geben Sie die entsprechenden Datentypen an.
 
    ![](assets/external-integration-config-5.png)
 
-1. Verwenden Sie **[!UICONTROL Testverbindung senden]** um die Integration zu validieren.
+1. Verwenden Sie **[!UICONTROL Testverbindung senden]**, um die Integration zu validieren.
 
-   Klicken Sie nach der Validierung auf **[!UICONTROL Aktivieren]**.
+   Klicken Sie nach dem Validieren auf **[!UICONTROL Aktivieren]**.
 
 ## Verwenden externer Integrationen für die Personalisierung {#personalization}
 
-Als Marketing-Experte können Sie konfigurierte Integrationen verwenden, um Ihre Inhalte zu personalisieren. Führen Sie folgende Schritte aus:
+Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ihre Inhalte zu personalisieren. Führen Sie folgende Schritte aus:
 
-1. Greifen Sie auf Ihren Kampagneninhalt zu und klicken Sie auf **[!UICONTROL Personalisierung hinzufügen]** in Ihrem Text oder in HTML **[!UICONTROL Komponenten]**.
+1. Greifen Sie auf Ihren Kampagneninhalt zu und klicken Sie in Ihren Text- oder HTML-**[!UICONTROL Komponenten]** auf **[!UICONTROL Personalisierung hinzufügen]**.
 
 [Weitere Informationen zu Komponenten](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 
-1. Navigieren Sie zum Abschnitt **[!UICONTROL Integrationen]** und klicken Sie auf **[!UICONTROL Integrationen öffnen]** um alle aktiven Integrationen anzuzeigen.
+1. Navigieren Sie zum Abschnitt **[!UICONTROL Integrationen]** und klicken Sie auf **[!UICONTROL Integrationen öffnen]**, um alle aktiven Integrationen anzuzeigen.
 
    ![](assets/external-integration-content-2.png)
 
@@ -113,22 +113,22 @@ Als Marketing-Experte können Sie konfigurierte Integrationen verwenden, um Ihre
 
    ![](assets/external-integration-content-3.png)
 
-1. Aktivieren Sie den **[!UICONTROL Pillen]**-Modus, um das erweiterte Integrationsmenü zu entsperren.
+1. Aktivieren Sie den **[!UICONTROL Pillen-Modus]**, um das erweiterte Integrationsmenü zu entsperren.
 
    ![](assets/external-integration-content-4.png)
 
-1. Um die Einrichtung der Integration abzuschließen, definieren Sie die Integrationsattribute, die zuvor während der Konfiguration [ wurden](#configure).
+1. Um die Einrichtung der Integration abzuschließen, definieren Sie die Integrationsattribute, die zuvor bei der [Konfiguration](#configure) angegeben wurden.
 
-   Sie können diesen Attributen Werte zuweisen, entweder mithilfe statischer Werte, die konstant bleiben, oder mithilfe von Profilattributen, die Informationen dynamisch aus Benutzerprofilen abrufen.
+   Sie können diesen Attributen Werte zuweisen – entweder mithilfe statischer Werte, die konstant bleiben, oder mithilfe von Profilattributen, die Informationen dynamisch aus Benutzerprofilen abrufen.
 
    ![](assets/external-integration-content-5.png)
 
-1. Sobald Integrationsattribute definiert sind, können Sie jetzt die Integrationsfelder in Ihrem Inhalt für personalisierte Nachrichten verwenden, indem Sie auf das Symbol ![Hinzufügen](assets/do-not-localize/Smock_Add_18_N.svg) klicken.
+1. Sobald die Integrationsattribute definiert sind, können Sie die Integrationsfelder in Ihren Inhalten für personalisierte Nachrichten verwenden, indem Sie auf das Symbol ![Hinzufügen](assets/do-not-localize/Smock_Add_18_N.svg) klicken.
 
    ![](assets/external-integration-content-6.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Ihre Integrations-Personalisierung wird jetzt erfolgreich auf Ihre Inhalte angewendet, sodass jeder Empfänger ein maßgeschneidertes, relevantes Erlebnis erhält, das auf den von Ihnen konfigurierten Attributen basiert.
+Ihre Integrationspersonalisierung wird jetzt erfolgreich auf Ihre Inhalte angewendet, sodass alle Empfängerinnen und Empfänger ein maßgeschneidertes, relevantes Erlebnis erhalten, das auf den von Ihnen konfigurierten Attributen basiert.
 
 ![](assets/external-integration-content-7.png)

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Berichterstellung für orchestrierte Kampagnen mit Adobe Journey Optimizer
-description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer auf Berichte zu orchestrierten Kampagnen zugreifen können
+title: Reporting für orchestrierte Kampagnen mit Adobe Journey Optimizer
+description: Informationen zum Zugriff auf Berichte über orchestrierte Kampagnen mit Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Orchestrierte Kampagnen bieten Ihnen durch ihre zuverlässigen Reporting-Funktio
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Live-Bericht" src="assets/last-24hours.png"></a></td>
       <td>
-        Verwenden Sie den <b>Live-</b>), um die Wirkung und Leistung Ihrer orchestrierten Kampagnen in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im <b>Live-Bericht</b> verfügbar, sobald Ihre orchestrierte Kampagne im Menü <b>Letzte 24-Stunden-Bericht anzeigen</b> ausgeführt wird. Weitere Informationen zu Live-Berichten sind in <a href="../reports/live-report.md">diesem Abschnitt</a> verfügbar.
+        Verwenden Sie den <b>Live-Bericht</b>, um in einem integrierten Dashboard die Wirkung und Leistung Ihrer orchestrierten Kampagnen in Echtzeit zu messen und zu visualisieren. Die Daten sind im <b>Live-Bericht</b> über das Menü <b>Bericht für letzte 24 Stunden anzeigen</b> verfügbar, sobald Ihre orchestrierte Kampagne ausgeführt wird. Weitere Informationen zu Live-Berichten sind in <a href="../reports/live-report.md">diesem Abschnitt</a> verfügbar.
       </td>
         </br>
     </tr>

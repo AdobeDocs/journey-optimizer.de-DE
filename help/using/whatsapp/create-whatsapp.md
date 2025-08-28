@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -191,10 +191,10 @@ Once you have performed your tests and validated the content, you can send your 
 
 ## Anleitungsvideo {#video}
 
-Das folgende Video zeigt, wie man mit Adobe Journey Optimizer eine mehrstufige WhatsApp-Journey erstellt.
+Das folgende Video zeigt, wie sich mit Adobe Journey Optimizer eine mehrstufige WhatsApp-Journey erstellen lässt.
 
-+++ Siehe Video
++++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470291/?learn=on&captions=ger")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

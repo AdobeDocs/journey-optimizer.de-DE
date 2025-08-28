@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Verzweigung“
-description: Erfahren Sie, wie Sie die Aktivität Verzweigung in einer koordinierten Kampagne verwenden
+description: Informationen zur Verwendung der Aktivität „Verzweigung“ in einer orchestrierten Kampagne
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Verzweig
 
 ![](../assets/workflow-fork.png)
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität Verzweigung hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Verzweigung]** hinzu.
 
 1. Definieren Sie ein **[!UICONTROL Label]**.
 

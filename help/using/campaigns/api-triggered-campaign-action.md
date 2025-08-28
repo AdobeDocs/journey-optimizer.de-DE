@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    ![](assets/create-campaign-action.png)
 
-1. **Optimierung**
+1. **Nutzen der Optimierung**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Nachrichtenoptimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in diesem Abschnitt beschrieben: [Optimierung in Kampagnen](campaigns-message-optimization.md).
+   Verwenden Sie den Abschnitt **[!UICONTROL Nachrichtenoptimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. Diese verschiedenen Optionen und die jeweils zu befolgenden Schritte werden im Abschnitt [Optimierung in Kampagnen](campaigns-message-optimization.md) beschrieben.
 <!--
 1. **Create a content experiment**
 

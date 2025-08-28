@@ -5,9 +5,9 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1108'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Push-Aktivität"
->abstract="Die Push-Aktivität ermöglicht den Versand von Push-Benachrichtigungen innerhalb der orchestrierten Kampagne. Dies ermöglicht den Versand einmaliger und wiederkehrender orchestrierter Kampagnen und automatisiert so den Versand von Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben orchestrierten Kampagne. Kanalaktivitäten können in der Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Push-Aktivität ermöglicht den Versand von Push-Benachrichtigungen innerhalb der orchestrierten Kampagne. Dies ermöglicht den Versand einmaliger und wiederkehrender orchestrierter Kampagnen und automatisiert so den Versand von Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben orchestrierten Kampagne. Kanalaktivitäten können in der Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen sich basierend auf Kundenverhalten und Daten Aktionen auslösen lassen."
 
 <!--
 UNUSED IDs in BJ
@@ -49,7 +49,7 @@ UNUSED IDs in BJ
 >title="Direkt-Mail-Aktivität"
 >abstract="Die Direkt-Mail-Aktivität erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifend orchestrierte Kampagnen zu erstellen, mit denen basierend auf dem Kundenverhalten und den Kundendaten Trigger erstellt werden können.
+Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Arbeitsfläche für orchestrierte Kampagnen kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. 
 
 Beispiel:
 
@@ -90,15 +90,15 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    ![Bild, das den Abschnitt „Aktionen“ zeigt](../assets/channel-actions.png)
 
-1. **Begrenzungsregeln anwenden**
+1. **Anwenden von Begrenzungsregeln**
 
-   Wählen **[!UICONTROL in der Dropdown]** Liste „Regelsatz“ einen Kanalregelsatz aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../../conflict-prioritization/rule-sets.md)
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden mit ähnlichen Nachrichten überlastet werden. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../../conflict-prioritization/rule-sets.md)
 
-1. **Interaktion verfolgen** (E-Mail und SMS)
+1. **Verfolgen der Interaktion** (E-Mail und SMS)
 
    Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../../reports/campaign-global-report-cja.md)
 
-1. **Schnellversand-Modus aktivieren** (Push)
+1. **Aktivieren des Schnellversandmodus** (Push)
 
    Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben. Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
@@ -126,9 +126,9 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 
 ## Hinzufügen von Personalisierung
 
-Personalization in orchestrierten Kampagnen funktioniert ähnlich wie andere **[!UICONTROL Journey Optimizer]**-Kampagnen oder Journey-Kampagnen, hat aber einige wichtige Unterschiede speziell in Bezug auf die orchestrierte Arbeitsfläche.
+Die Personalisierung in orchestrierten Kampagnen funktioniert ähnlich wie in anderen **[!UICONTROL Journey Optimizer]**-Kampagnen oder -Journeys, weist aber einige wichtige Unterschiede speziell in Bezug auf die orchestrierte Arbeitsfläche auf.
 
-Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugreifen, enthalten zwei Hauptordner die unten beschriebenen für die Personalisierung verfügbaren Attribute.
+Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugreifen, enthalten zwei Hauptordner die für Personalisierung verfügbaren Attribute, wie unten beschrieben.
 
 * **[!UICONTROL Profilattribute]**
 
@@ -136,15 +136,15 @@ Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugre
 
 * **[!UICONTROL Zielattribute]** (spezifisch für orchestrierte Kampagnen)
 
-  Dieser Ordner ist nur für orchestrierte Kampagnen verfügbar. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. Es enthält zwei Unterordner:
+  Dieser Ordner ist nur bei orchestrierten Kampagnen verfügbar. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. Er enthält zwei Unterordner:
 
-   * **`<Targeting dimension>`** (z. B. „Empfänger“, „Käufe„): Enthält alle Attribute im Zusammenhang mit der Dimension, auf die sich Ihre Kampagne bezieht.
+   * **`<Targeting dimension>`** (z. B. „Empfänger“, „Käufe“): Enthält alle Attribute im Zusammenhang mit der Dimension, auf die sich Ihre Kampagne bezieht.
 
-   * **`Enrichment`**: Enthält Daten, die über Aktivitäten **[!UICONTROL Anreicherung]** auf der Arbeitsfläche hinzugefügt werden. Auf diese Weise können Sie Nachrichten basierend auf externen Datensätzen oder einer zusätzlichen Logik, die während der Orchestrierung integriert wurde, personalisieren. [Erfahren Sie, wie Sie eine Anreicherungsaktivität verwenden](../activities/enrichment.md)
+   * **`Enrichment`**: Enthält Daten, die über Aktivitäten vom Typ **[!UICONTROL Anreicherung]** auf der Arbeitsfläche hinzugefügt werden. So können Sie Nachrichten basierend auf externen Datensätzen oder einer zusätzlichen Logik, die während der Orchestrierung integriert wurde, personalisieren. [Wie Sie die Aktivität „Anreicherung“ verwenden](../activities/enrichment.md)
 
-Einen detaillierten Überblick über die Verwendung des Personalisierungseditors finden Sie unter [Erste Schritte mit der Personalisierung](../../personalization/personalize.md)
+Einen genauen Überblick über die Verwendung des Personalisierungseditors finden Sie unter [Erste Schritte mit Personalisierung](../../personalization/personalize.md).
 
-## Überprüfen und Testen von Inhalten
+## Überprüfen und Testen der Inhalte
 
 Sobald der Inhalt erstellt ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
 
@@ -152,7 +152,7 @@ Sobald der Inhalt erstellt ist, verwenden Sie die Schaltfläche **[!UICONTROL In
 
 ## Nächste Schritte {#next}
 
-Wenn der Nachrichteninhalt fertig ist, navigieren Sie mit dem Pfeil „Zurück **[!UICONTROL zurück zu Ihrer]**. Sie können dann die Orchestrierung der Aktivitäten auf der Arbeitsfläche abschließen und die Kampagne veröffentlichen, um den Nachrichtenversand zu starten. [Erfahren Sie, wie Sie orchestrierte Kampagnen starten und überwachen](../start-monitor-campaigns.md)
+Wenn der Nachrichteninhalt fertig ist, navigieren Sie mit dem Pfeil **[!UICONTROL Zurück]** zurück zu Ihrer orchestrierten Kampagne. Sie können dann die Orchestrierung der Aktivitäten auf der Arbeitsfläche abschließen und die Kampagne veröffentlichen, um den Nachrichtenversand zu starten. [Weitere Informationen zum Start und zur Überwachung orchestrierter Kampagnen](../start-monitor-campaigns.md)
 
 ![Bild, das die Schaltfläche „Zurück“ zeigt](../assets/channel-back.png)
 

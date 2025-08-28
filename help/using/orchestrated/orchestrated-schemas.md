@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen relationaler Schemata für orchestrierte Kampagnen
-description: Erfahren Sie, wie Sie relationale Schemata für Ihre orchestrierten Kampagnen erstellen und verwalten
+description: Informationen zum Erstellen und Verwalten relationaler Schemata für Ihre orchestrierten Kampagnen
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 

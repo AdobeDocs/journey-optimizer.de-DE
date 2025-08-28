@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen Ihrer ersten Regel
-description: Erfahren Sie, wie Sie Regeln für Ihre koordinierten Kampagnen erstellen
+description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen Ihrer ersten Regel {#build-query}
 
-Die wichtigsten Schritte zum Erstellen von Regeln für Ihre orchestrierten Kampagnen sind wie folgt:
+Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen lauten wie folgt:
 
 1. **Hinzufügen von Bedingungen**: Erstellen Sie benutzerdefinierte Bedingungen zum Filtern Ihrer Abfrage, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
 1. **Kombinieren von Bedingungen**: Ordnen Sie Bedingungen mithilfe von Gruppen und logischen Operatoren auf der Arbeitsfläche an.
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden **[!UICONTROL Operator]** aus. Es stehen verschiedene Operatoren zur Verfügung. Die in der Dropdown-Liste verfügbaren Operatoren hängen vom Datentyp des Attributs ab.
 
-   +++Liste der verfügbaren Benutzer
+   +++Liste der verfügbaren Operatoren
 
    | Operator | Zweck | Beispiel |
    |---|---|---|
@@ -212,5 +212,5 @@ Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Best
 
 >[!IMPORTANT]
 >
->Wenn Sie einen vordefinierten Filter im Bereich Regeleigenschaften auswählen, wird die auf der Arbeitsfläche erstellte Regel durch den ausgewählten Filter ersetzt.
+>Wenn Sie im Bereich „Regeleigenschaften“ einen vordefinierten Filter auswählen, wird die Regel, die im Arbeitsfläche erstellt wurde, durch den ausgewählten Filter ersetzt.
 

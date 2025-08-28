@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden der Aktivität „Und-Verknüpfung“
-description: Erfahren Sie, wie Sie die Aktivität „Und-Verknüpfung“ in einer orchestrierten Kampagne verwenden
+description: Informationen zur Verwendung der Aktivität „Und-Verknüpfung“ in einer orchestrierten Kampagne
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 84%
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
 >abstract="Mit der Aktivität **Und-Verknüpfung** können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren."
 
-Die Aktivität **[!UICONTROL Und-Verknüpfung]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Dies ermöglicht es, die Ausführung verschiedener Kampagnenzweige zu synchronisieren.
+Die Aktivität **[!UICONTROL Und-Verknüpfung]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Mit ihr können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. 
 
-Diese Aktivität löst ihre ausgehende Transition erst aus, wenn alle eingehenden Transitionen aktiviert sind, d. h. wenn alle vorangegangenen Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren.
+Diese Aktivität löst ihre ausgehende Transition erst aus, wenn alle eingehenden Transitionen aktiviert sind, d. h. wenn alle vorangegangenen Aktivitäten beendet sind. So können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen wurden, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren.
 
 ## Konfigurieren der Aktivität „Und-Verknüpfung“{#and-join-configuration}
 

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Aktivität Warten in orchestrierten Kampagnen
-description: Erfahren Sie, wie Sie die Aktivität Warten in orchestrierten Kampagnen verwenden
+title: Verwenden der Aktivität „Warten“ in orchestrierten Kampagnen
+description: Informationen zur Verwendung der Aktivität „Warten“ in orchestrierten Kampagnen
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 >title="Aktivität „Warten“"
 >abstract="Die Aktivität **Warten** wird verwendet, um die Transition von einer Aktivität zu einer anderen zu verzögern."
 
-Die **[!UICONTROL Warten]**-Aktivität ist eine **[!UICONTROL Fluss-Kontrolle]**-Komponente, die verwendet wird, um in einer orchestrierten Kampagne eine Verzögerung zwischen zwei Aktivitäten einzuführen. Dadurch können Sie sicherstellen, dass Ihre Folgeaktivitäten zeitlich besser abgestimmt und relevanter für die Benutzerinteraktion sind.
+Die Aktivität **[!UICONTROL Warten]** ist eine Komponente zur **[!UICONTROL Flusskontrolle]**, die verwendet wird, um in einer orchestrierten Kampagne eine Verzögerung zwischen zwei Aktivitäten einzuführen. Dadurch können Sie sicherstellen, dass Ihre Folgeaktivitäten zeitlich besser abgestimmt und relevanter für die Benutzerinteraktion sind.
 
 Sie können beispielsweise einige Tage nach einem E-Mail-Versand warten, um Öffnungen und Klicks zu verfolgen, bevor Sie eine Folgenachricht senden.
 
@@ -27,7 +27,7 @@ Sie können beispielsweise einige Tage nach einem E-Mail-Versand warten, um Öff
 
 Gehen Sie folgendermaßen vor, um die Aktivität **[!UICONTROL Warten]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL orchestrierte Kampagne]** Aktivität „Warten“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Warten]** hinzu.
 
 1. Wählen Sie den Wartetyp aus, der am besten Ihren Anforderungen entspricht:
 

@@ -5,9 +5,9 @@ title: Verwenden der Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verwenden
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 74%
 >title="Aktivität „Dimensionsänderung“"
 >abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
 
-Als Marketing-Experte können Sie die Audience-Zielgruppenbestimmung verbessern, indem Sie innerhalb einer orchestrierten Kampagne von einer Datenentität zu einer verwandten wechseln. Auf diese Weise können Sie über Benutzerprofile hinausgehen und sich auf bestimmte Verhaltensweisen wie Käufe, Buchungen oder andere Interaktionen konzentrieren.
+Als Marketing-Fachkraft können Sie das Zielgruppen-Targeting verbessern, indem Sie innerhalb einer orchestrierten Kampagne von einer Datenentität zu einer zugehörigen wechseln. Auf diese Weise können Sie über Benutzerprofile hinausgehen und sich auf bestimmte Verhaltensweisen wie Käufe, Buchungen oder andere Interaktionen konzentrieren.
 
-Verwenden Sie dazu die Aktivität **[!UICONTROL Dimensionsänderung]**. Damit können Sie die Zielgruppendimension während der orchestrierten Kampagne anpassen.
+Verwenden Sie dazu die Aktivität **[!UICONTROL Dimensionsänderung]**. So können Sie die Zielgruppendimension während der orchestrierten Kampagne anpassen.
 
 <!--
 >[!IMPORTANT]
@@ -37,7 +37,7 @@ Verwenden Sie dazu die Aktivität **[!UICONTROL Dimensionsänderung]**. Damit k�
 
 Gehen Sie folgendermaßen vor, um die Aktivität **[!UICONTROL Dimensionsänderung]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Dimension ändern“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Dimensionsänderung]** hinzu.
 
    ![](../assets/orchestrated-change-dimension.png)
 

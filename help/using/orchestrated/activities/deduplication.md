@@ -5,9 +5,9 @@ title: Verwenden der Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Aktivität „Deduplizierung“ verwenden.
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Die **[!UICONTROL Deduplizierungsaktivität]** ist eine **[!UICONTROL Zielgruppe
 Gehen Sie folgendermaßen vor, um die **[!UICONTROL Deduplizierungsaktivität]** zu konfigurieren:
 
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Deduplizierung“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Deduplizierung]** hinzu.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Duplikaten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 

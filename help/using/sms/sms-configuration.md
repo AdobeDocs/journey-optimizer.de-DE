@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="Unpräzises Opt-out"
->abstract="Wenn das unpräzise Opt-out aktiviert ist, werden eingehende Nachrichten erkannt, die definierten Opt-out-Keywords sehr ähnlich sind (z. B. ABMLDEN). Daraufhin wird automatisch eine Bestätigungsantwort gesendet, um zu überprüfen, ob sich die Person tatsächlich abmelden möchte. Wenn Benutzende die Anmeldung über den definierten Prompt bestätigen, wird das Abonnement gekündigt."
+>abstract="Wenn diese Option aktiviert ist, erkennt das unpräzise Opt-out eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „ABNELDEN“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigen, wird das Abonnement gekündigt."
 
 Bevor Sie SMS, MMS oder RMC versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 

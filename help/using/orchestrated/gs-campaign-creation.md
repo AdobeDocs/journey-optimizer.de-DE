@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Wichtige Schritte beim Erstellen einer orchestrierten Kampagne
-description: Grundlegende Prinzipien der koordinierten Kampagnenerstellung mit Adobe Journey Optimizer
+description: Informationen zu grundlegenden Prinzipien der Erstellung von orchestrierten Kampagnen mit Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # Wichtige Schritte beim Erstellen einer orchestrierten Kampagne {#orchestrated-campaign-creation}
 
-Diese Seite führt Sie durch die wichtigsten Schritte zum Erstellen und Starten einer orchestrierten Kampagne - von der Einrichtung und dem Design bis hin zur Überwachung und Berichterstellung.
+Diese Seite führt Sie durch die wichtigsten Schritte beim Erstellen und Starten einer orchestrierten Kampagne, angefangen von der Einrichtung und dem Design bis hin zur Überwachung und zum Reporting.
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
@@ -30,19 +30,19 @@ Diese Seite führt Sie durch die wichtigsten Schritte zum Erstellen und Starten 
 
 ## Schritt 1: Erstellen und Planen Ihrer Kampagne {#create}
 
-Vor allen anderen Aufgaben müssen Sie eine orchestrierte Kampagne erstellen und festlegen *wann* ausgeführt werden soll. Egal, ob es sich um eine einmalige Push-Benachrichtigung oder eine wiederkehrende Multi-Channel-Kampagne handelt, Sie haben die volle Kontrolle über Timing und Häufigkeit.
+Zuallererst müssen Sie Ihre orchestrierte Kampagne erstellen und festlegen, *wann* sie ausgeführt werden soll. Egal, ob es sich um eine einmalige Push-Benachrichtigung oder eine wiederkehrende Multi-Channel-Kampagne handelt, Sie haben die volle Kontrolle über Zeitplan und Häufigkeit.
 
 ➡️ [Weitere Informationen zur Erstellung und Planung einer Kampagne](../orchestrated/create-orchestrated-campaign.md)
 
 ## Schritt 2: Orchestrieren von Kampagnenaktivitäten {#orchestrate}
 
-Sobald die Kampagne erstellt ist, ist es an der Zeit, die Logik dahinter zu entwerfen. Auf einer visuellen Arbeitsfläche können Sie Targeting-, Versand- und Flusskontrollaktivitäten kombinieren, um Ihr Kundenerlebnis zu gestalten.
+Sobald die Kampagne erstellt ist, ist es an der Zeit, die dahinterstehende Logik zu entwerfen. Auf einer visuellen Arbeitsfläche können Sie Targeting-, Versand- und Flusskontrollaktivitäten kombinieren, um Ihr Kundenerlebnis zu gestalten.
 
 ➡️ [Weitere Informationen zur Orchestrierung von Aktivitäten](../orchestrated/orchestrate-activities.md)
 
 ## Schritt 3: Starten und Überwachen Ihrer Kampagne {#start}
 
-Du bist fast da! Führen Sie Ihre Kampagne zuerst im Testmodus aus, um etwaige Probleme zu ermitteln. Veröffentlichen Sie sie dann und überwachen Sie die Live-Ausführung in Echtzeit. Verfolgen Sie den Fortschritt, überprüfen Sie die Kampagne auf Fehler und sehen Sie sich an, wie Profile jeden Schritt durchlaufen.
+Sie sind fast fertig. Führen Sie Ihre Kampagne zuerst im Testmodus aus, um etwaige Probleme zu ermitteln. Veröffentlichen Sie sie dann und überwachen Sie die Live-Ausführung in Echtzeit. Verfolgen Sie den Fortschritt, überprüfen Sie die Kampagne auf Fehler und sehen Sie sich an, wie Profile jeden Schritt durchlaufen.
 
 ➡️ [Weitere Informationen zum Start und zur Überwachung einer Kampagne](../orchestrated/start-monitor-campaigns.md)
 

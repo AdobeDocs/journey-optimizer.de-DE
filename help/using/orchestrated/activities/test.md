@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Testaktivität in Ihren koordinierten Kampagnen
+title: Verwenden der Aktivität „Test“ in Ihren orchestrierten Kampagnen
 description: Informationen zur Verwendung der Aktivität „Test“
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Die Aktivität **[!UICONTROL Test]** ist eine Aktivität zur **[!UICONTROL Fluss
 
 Führen Sie diese Schritte aus, um die Aktivität **[!UICONTROL Test]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL orchestrierten Kampagne]** Aktivität „Test“ hinzu.
+1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Test]** hinzu.
 
 1. Standardmäßig stellt die Aktivität **[!UICONTROL Test]** einen einfachen booleschen Test dar. Wenn die in der Transition „True“ definierte Bedingung erfüllt ist, wird diese Transition aktiviert. Andernfalls wird die standardmäßige Transition „False“ aktiviert.
 
 1. Um die einer Transition zugeordnete Bedingung zu konfigurieren, klicken Sie auf das Symbol **[!UICONTROL Personalisierungsdialog öffnen]**. Definieren Sie mithilfe des Ausdruckseditors die Regeln, die zum Aktivieren dieser Transition erforderlich sind. Sie können auch Ereignisvariablen, Bedingungen und Datums-/Uhrzeitfunktionen nutzen.
 
-   Darüber hinaus können Sie das Feld **[!UICONTROL Beschriftung]** ändern, um den Namen der Transition auf der orchestrierten Kampagnen-Arbeitsfläche zu personalisieren.
+   Darüber hinaus können Sie das Feld **[!UICONTROL Label]** ändern, um den Namen der Transition auf der Arbeitsfläche der orchestrierten Kampagne zu personalisieren.
 
    ![](../assets/workflow-test-default.png)
 
 1. Sie können mehrere Ausgabe-Transitionen zu einer **[!UICONTROL Test]**-Aktivität hinzufügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]** und konfigurieren Sie das Label und die zugehörige Bedingung für jede Transition.
 v
-1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt ist, werden die orchestrierten Kampagnen entlang des Pfads der **[!UICONTROL Standardbedingung“]**. Wenn keine Standardbedingung aktiviert ist, stoppt die Kampagne an dieser Stelle.
+1. Während der Ausführung der orchestrierten Kampagne wird jede Bedingung nacheinander getestet, bis eine der Bedingungen erfüllt ist. Wenn keine der Bedingungen erfüllt wird, wird die orchestrierte Kampagne auf dem Pfad der **[!UICONTROL Standardbedingung]** fortgesetzt. Wenn keine Standardbedingung aktiviert ist, wird die Kampagne an dieser Stelle gestoppt.
 
 ## Beispiel {#example}
 
