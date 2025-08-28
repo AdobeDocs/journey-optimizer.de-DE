@@ -4,16 +4,15 @@ product: journey optimizer
 title: Verwenden der Aktivität „Zielgruppe lesen“
 description: Informationen zur Verwendung der Aktivität „Zielgruppe lesen“ in einer orchestrierten Kampagne
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 71%
 
 ---
 
 
 # Lesen der Zielgruppe {#read-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -23,6 +22,20 @@ ht-degree: 100%
 Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie eine vorhandene Zielgruppe (die zuvor gespeichert oder importiert wurde) abrufen und in einer orchestrierten Kampagne wiederverwenden. Diese Aktivität ist besonders nützlich, um einen vordefinierten Satz von Profilen anzusprechen, ohne dass ein neuer Segmentierungsprozess ausgeführt werden muss.
 
 Nachdem die Zielgruppe geladen wurde, können Sie sie optional verfeinern, indem Sie ein Feld für eine eindeutige Identität auswählen und die Zielgruppe mit zusätzlichen Profilattributen für Targeting-, Personalisierungs- oder Berichtszwecke anreichern.
+
+## Zielgruppen-Cache lesen {#cache}
+
+Beim Testen einer orchestrierten Kampagne dauert die Aktivität **[!UICONTROL Zielgruppe lesen]** normalerweise einige Zeit, um Daten abzurufen, was dazu führen kann, dass Testläufe länger dauern. Um dies zu beschleunigen, ist ein **[!UICONTROL Zielgruppe lesen]**-Cache verfügbar.
+
+Der Cache speichert die Zielgruppe zusammen mit den ausgewählten Attributen für **bis zu zwei Stunden**. Während dieser Zeit können alle nachfolgenden Testausführungen die zwischengespeicherten Ergebnisse verwenden, sodass die Daten nicht erneut abgerufen werden müssen. Nach Ablauf des **Zweistundenzeitraums** müssen die Daten neu abgerufen werden.
+
+Der Cache wird für jede orchestrierte Kampagne gespeichert, nicht für die Audience selbst. Wenn dieselbe Zielgruppe in einer Aktivität **[!UICONTROL Zielgruppe lesen]** innerhalb einer anderen orchestrierten Kampagne verwendet wird, muss das System die Daten dennoch erneut abrufen.
+
+Der Cache wird in den folgenden Fällen nicht beibehalten:
+
+* Wenn die Aktivität **[!UICONTROL Zielgruppe lesen]** mit neuen Attributen aktualisiert wird, wird der Cache mit den neuen Datenattributen aktualisiert. Daher dauert der erste Testlauf nach der Aktualisierung länger, da die Daten erneut abgerufen werden müssen.
+
+* Bei der Veröffentlichung der orchestrierten Kampagne werden die neuesten Daten abgerufen, wenn die orchestrierte Live-Kampagne ausgeführt wird.
 
 ## Konfigurieren der Aktivität „Zielgruppe lesen“ {#read-audience-configuration}
 
@@ -48,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
    ![](../assets/read-audience-3.png)
 
-1. Wählen Sie [!UICONTROL Attribut hinzufügen] aus, um Ihre ausgewählte Zielgruppe mit zusätzlichen Daten anzureichern. In diesem Schritt können Sie der Zielgruppe Profilattribute hinzufügen, was zu einer Liste von Empfängerinnen und Empfängern führt, die mit diesen Attributen erweitert werden.
+1. Wählen Sie **[!UICONTROL Attribut hinzufügen]** aus, um Ihre ausgewählte Zielgruppe mit zusätzlichen Daten anzureichern. In diesem Schritt können Sie der Zielgruppe Profilattribute hinzufügen, was zu einer Liste von Empfängerinnen und Empfängern führt, die mit diesen Attributen erweitert werden.
 
 1. Wählen Sie die **[!UICONTROL Attribute]** aus, die Sie Ihrer Zielgruppe hinzufügen möchten. Die Attributauswahl zeigt Felder aus dem **vereinigten Profilschema** an:
 
