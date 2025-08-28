@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 >title="Pausieren Ihrer Journey"
 >abstract="Pausieren Sie eine Live-Journey, um den Eintritt neuer Profile zu verhindern. Wählen Sie aus, ob Profile, die sich derzeit in der Journey befinden, verworfen oder beibehalten werden sollen. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
-Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-global-filters) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
+Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
 
 
 
@@ -113,7 +113,7 @@ Mit den folgenden Schritten wird eine pausierte Journey fortgesetzt und Journey-
 Aus der Liste der Journeys können eine oder mehrere **pausierte** Journeys fortgesetzt werden. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
 
 
-## Anwenden von Beendigungskriterien in einer angehaltenen Journey {#journey-global-filters}
+## Anwenden von Beendigungskriterien in einer angehaltenen Journey {#journey-exit-criteria}
 
 Wenn ein Journey angehalten wird, können Sie auf der Grundlage von Profilattributen ein Beendigungskriterium anwenden. Dieser Filter ermöglicht den Ausschluss von Profilen, die zum Zeitpunkt der Fortsetzung dem definierten Ausdruck entsprechen. Sobald die auf Profilattributen basierenden Beendigungskriterien festgelegt sind, werden sie auf Aktionsknoten erzwungen, auch für den Eintritt neuer Profile. Bestehende Profile, die den Kriterien entsprechen, und neue Profile, die in die Journey eintreten, werden **beim nächsten Aktionsknoten**, auf den Sie treffen, von der Journey ausgeschlossen.
 
@@ -123,7 +123,7 @@ Mit diesen Schritten werden z. B. alle französischen Kundinnen und Kunden von 
 
 1. Wählen Sie das Symbol **Beendigungskriterien** aus.
 
-   ![Kriterien für das Beenden eines Profilattributs zu einer angehaltenen Journey hinzufügen](assets/add-global-filter.png)
+   ![Kriterien für das Beenden eines Profilattributs zu einer angehaltenen Journey hinzufügen](assets/add-exit-criteria.png)
 
 1. Klicken Sie **den Einstellungen** Ausstiegskriterien hinzufügen **, um** Filter auf der Grundlage von Profilattributen zu definieren.
 
