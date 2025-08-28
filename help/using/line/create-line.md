@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 86%
 
 ---
 
@@ -77,6 +77,18 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 >[!ENDTABS]
 
 ## Definieren Ihrer LINE-Inhalte{#line-content}
+
+Adobe Journey Optimizer unterstützt die folgenden Nachrichtentypen für LINE:
+
+* **Text**: Senden von einfachen oder formatierten Textnachrichten.
+* **Aufkleber**: Integrieren Sie die nativen Aufkleber von LINE, um Charakter und Ausdruckskraft hinzuzufügen.
+* **Bilder**: Anhängen von Bildern, um die visuelle Attraktivität zu verbessern.
+* **Videos**: Geben Sie Videoinhalte für dynamische Kommunikation frei.
+* **Standorte**: Senden Sie Standortinformationen mit Karten.
+* **Vorlagen**: Verwenden vordefinierter Vorlagen für konsistentes Messaging.
+* **Flex-Nachrichten**: Erstellen Sie komplexe Layouts mit komplexen Inhalten mithilfe von JSON-basierten Flex-Nachrichten.
+
+Diese Nachrichtentypen können konfiguriert werden, indem der JSON-Inhalt direkt bearbeitet wird, was dynamische und personalisierte Messaging-Strategien ermöglicht.
 
 Gehen Sie wie folgt vor, um Ihren LINE-Inhalt zu konfigurieren. 
 
