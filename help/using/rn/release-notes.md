@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1702'
 ht-degree: 72%
 
 ---
@@ -283,7 +283,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kanal - Inhaltskarten**
 
-   * **Layoutvorlagen für Inhaltskarten** - Der Kanal für Inhaltskarten bietet jetzt vordefinierte Nachrichten-Layouts, die Ihr Authoring-Erlebnis optimieren. Diese Version umfasst Layout-Vorlagen für kleine Bilder, große Bilder und Nur-Bild.
+   * **Layoutvorlagen für Inhaltskarten** - Der Kanal für Inhaltskarten bietet jetzt vordefinierte Nachrichten-Layouts, die Ihr Authoring-Erlebnis optimieren. Diese Version umfasst Layout-Vorlagen für kleine Bilder, große Bilder und Nur-Bild. [Weitere Informationen](../content-card/design-content-card.md)
 
 * **Kanal – Push**
 

@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 74%
 
 ---
 
@@ -19,9 +19,43 @@ Das Authoring-Konstrukt für Karten bietet ein formularbasiertes Authoring-Erleb
 
 Sobald Ihr Inhalt definiert und personalisiert ist, können Sie ihn überprüfen und aktivieren. Ihre Kampagne wird entsprechend dem festgelegten Zeitplan gesendet. [Weitere Informationen finden Sie auf dieser Seite](../campaigns/review-activate-campaign.md).
 
+## Inhaltskarten-Layout
+
+![](assets/content-card-image.png)
+
+Wählen Sie **[!UICONTROL Abschnitt „Layout]** Inhaltskarte“ eine der drei Optionen für das Bild-Layout aus, die Ihren Messaging-Anforderungen entsprechen.
+
+* **[!UICONTROL Kleines Bild]**: Zeigt ein kompaktes Bild zusammen mit Text an, ideal für Nachrichten, bei denen Inhalt Vorrang vor Visualisierungen hat.
+
+* **[!UICONTROL Großes Bild]**: Ein hervorgehobenes Bild über oder neben dem Text, wodurch der visuelle Aspekt zum Hauptfokus Ihrer Nachricht wird.
+
+* **[!UICONTROL Nur Bild]**: Zeigt das Bild ohne begleitenden Text an, perfekt für visuell gesteuerte Nachrichten oder eigenständige Bilder.
+
 ## Registerkarte „Inhalt“ {#content-tab}
 
-Auf der Registerkarte **[!UICONTROL Inhalt]** können Sie die Inhaltskarten anpassen, indem Sie sowohl ihren Inhalt als auch das Design der Schaltfläche **[!UICONTROL Schließen]** definieren. Darüber hinaus können Sie Ihren Inhalt mit Medien erweitern und Aktionsschaltflächen direkt von dieser Registerkarte aus hinzufügen.
+Auf der Registerkarte **[!UICONTROL Inhalt]** können Sie Ihre Inhaltskarten anpassen, indem Sie Inhalte definieren und Medien- und Aktionsschaltflächen direkt auf dieser Registerkarte hinzufügen.
+
+### Textinhalt {#title-body}
+
+Um Ihre Nachricht zu erstellen, geben Sie Ihren Text in die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** ein.
+
+![](assets/content-card-design-2.png)
+
+Wenn Sie Ihre Nachricht weiter anpassen möchten, verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um personalisierte Elemente hinzuzufügen. Eine ausführliche Anleitung zur Verwendung der Personalisierungsfunktionen finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+
+### Medien {#add-media}
+
+Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen von Medien erweitern, wodurch Ihre Präsentation für Endnutzerinnen und -nutzer attraktiver wird.
+
+![](assets/content-card-design-3.png)
+
+Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../integrations/assets.md)
+
++++Weitere Optionen mit erweiterter Formatierung
+
+Wenn der **[!UICONTROL Modus Erweiterte Formatierung]** eingeschaltet ist, können Sie einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen und ein anderes Asset in das Feld **[!UICONTROL URL für dunkle Medien]** einfügen.
+
++++
 
 ### Schaltfläche „Schließen“ {#close-button}
 
@@ -35,13 +69,7 @@ Sie können aus den folgenden Optionen auswählen:
 * **[!UICONTROL Einfach]**
 * **[!UICONTROL Kreis]**
 
-### Inhalt {#title-body}
 
-Um Ihre Nachricht zu erstellen, geben Sie Ihren Text in die Felder **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** ein.
-
-![](assets/content-card-design-2.png)
-
-Wenn Sie Ihre Nachricht weiter anpassen möchten, verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um personalisierte Elemente hinzuzufügen. Eine ausführliche Anleitung zur Verwendung der Personalisierungsfunktionen finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Medien {#add-media}
 
-Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen von Medien erweitern, wodurch Ihre Präsentation für Endnutzerinnen und -nutzer attraktiver wird.
-
-![](assets/content-card-design-3.png)
-
-Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../integrations/assets.md)
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### Schaltflächen        {#add-buttons}
 
