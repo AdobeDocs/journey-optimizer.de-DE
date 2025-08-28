@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 64%
+source-wordcount: '437'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,14 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Um die Versandrate zu steuern, aktivieren Sie die Option **[!UICONTROL Versand drosseln]** im Abschnitt **[!UICONTROL Versandeinstellungen]** und geben Sie die gewünschte **[!UICONTROL Versandrate]** pro Sekunde an.
 
+* Unterstützte Mindestbereitstellungsrate: 1 pro Sekunde.
+* Maximal unterstützte Versandrate: 2.000 pro Sekunde, wenn die Option „Versand drosseln“ aktiviert ist.
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Bei der Festlegung einer Versandrate beträgt der maximale Zeitrahmen, für den die Audience einer Kampagne ausgeführt werden kann, 12 Stunden. Wenn die Versandrate auf einen Wert eingestellt ist, der es nicht ermöglicht, dass die gesamte Zielgruppe die Nachricht innerhalb des 12-Stunden-Zeitrahmens gesendet wird, werden die verbleibenden Profile aus der Kampagne ausgeschlossen. Die Anzahl dieser ausgeschlossenen Profile wird im Kampagnenbericht angezeigt.
 
 ## Ausführungshäufigkeit festlegen
 

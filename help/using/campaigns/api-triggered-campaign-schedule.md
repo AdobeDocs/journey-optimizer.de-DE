@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 64%
+source-wordcount: '315'
+ht-degree: 46%
 
 ---
 
@@ -38,9 +38,16 @@ Standardmäßig starten durch API ausgelöste Kampagnen, wenn sie ausgelöst wer
 
 Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Systeme zu verhindern, z. B. Landingpages oder Kundenunterstützungsplattformen. Beispielsweise können Sie eine Ratenbeschränkung von 165 Nachrichten pro Sekunde festlegen, um einen stabilen Versand sicherzustellen, ohne die nachgelagerten Systeme zu überfordern.
 
-Um die Versandrate zu steuern, aktivieren Sie die Option **[!UICONTROL Versand drosseln]** im Abschnitt **[!UICONTROL Versandeinstellungen]** und geben Sie die gewünschte **[!UICONTROL Versandrate]** an.
+Um die Versandrate zu steuern, aktivieren Sie die Option **[!UICONTROL Versand drosseln]** im Abschnitt **[!UICONTROL Versandeinstellungen]** und geben Sie die gewünschte **[!UICONTROL Versandrate]** pro Sekunde an.
+
+* Unterstützte Mindestbereitstellungsrate: 1 pro Sekunde.
+* Maximal unterstützte Versandrate: 2.000 pro Sekunde, wenn die Option „Versand drosseln“ aktiviert ist.
 
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Bei der Festlegung einer Versandrate beträgt der maximale Zeitrahmen, für den die Audience einer Kampagne ausgeführt werden kann, 12 Stunden. Wenn die Versandrate auf einen Wert eingestellt ist, der es nicht ermöglicht, dass die gesamte Zielgruppe die Nachricht innerhalb des 12-Stunden-Zeitrahmens gesendet wird, werden die verbleibenden Profile aus der Kampagne ausgeschlossen. Die Anzahl dieser ausgeschlossenen Profile wird im Kampagnenbericht angezeigt.
 
 ## Nächste Schritte {#next}
 
