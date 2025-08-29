@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
+source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 94%
@@ -45,9 +45,9 @@ In Journey Optimizer muss eine benutzerdefinierte Aktion für Marketo Engage kon
    ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. Überprüfen und Konfigurieren von Payload-Werten
 
-Hinweis: Um Werte dynamisch zu übergeben, ändern Sie für jedes Feld **Konstante** in **Variable**.
+   Hinweis: Um Werte dynamisch zu übergeben, ändern Sie für jedes Feld **Konstante** in **Variable**.
 
-![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 1. Klicken Sie im Bildschirm „Feldkonfiguration“ auf **Speichern** und **speichern** Sie dann die benutzerdefinierte Aktion.
 
