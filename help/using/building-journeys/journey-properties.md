@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '2733'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -263,7 +263,7 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumen
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Ausstiegskriterien"
->abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Sie können Regeln und Filter für ein oder mehrere Beendigungskriterien für Ihren Journey erstellen."
+>abstract="In diesem Abschnitt werden die Optionen für Austrittskriterien angezeigt. Sie können für die Journey ein oder mehrere Richtlinien und Filter für Ausstiegskriterien erstellen."
 
 ### Journey-Beendigungskriterien {#exit-criteria-desc}
 

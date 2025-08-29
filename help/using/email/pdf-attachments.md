@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: PDF-Datei an eine E-Mail anhängen
+title: Anhängen einer PDF-Datei an eine E-Mail
 description: Erfahren Sie, wie Sie statische PDF-Dateien an eine E-Mail anhängen
 feature: Email Design
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 25%
+ht-degree: 41%
 
 ---
 
-# PDF-Datei an eine E-Mail anhängen {#pdf-attachments}
+# Anhängen einer PDF-Datei an eine E-Mail {#pdf-attachments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="PDF-Anhang hinzufügen"
->abstract="Wählen Sie eine PDF-Datei aus, die an Ihre E-Mail angehängt werden soll.</br>Pro Profil können bis zu 6 Nachrichten mit einem PDF-Anhang pro Jahr gesendet werden. Die maximale Dateigröße pro Anhang beträgt 5 MB.</br>Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie ein Attachment Pack-Add-on erwerben. Weitere Informationen erhalten Sie beim Adobe-Support."
+>title="Hinzufügen eines PDF-Anhangs"
+>abstract="Wählen Sie eine PDF-Datei aus, die Sie an die E-Mail anhängen möchten.</br>Pro Profil können pro Jahr bis zu 6 Nachrichten mit einem PDF-Anhang gesendet werden. Die maximale Dateigröße pro Anhang beträgt 5 MB.</br>Für zusätzliche Größen oder Volumen können Sie ein Zusatzpaket für Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support."
 
 >[!AVAILABILITY]
 >
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
 1. Erstellen Sie eine E-Mail in einer Journey oder Kampagne. [Weitere Informationen](create-email.md)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne **&#x200B;**&#x200B;Abschnitt **[!UICONTROL Anlage]** aus.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne **** Abschnitt **[!UICONTROL Anlage]** aus.
 
    ![](assets/email-select-pdf.png)
 
