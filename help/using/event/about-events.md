@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,11 @@ Nach dem Eingang über Streaming-Aufnahme-APIs fließen Ereignisse in einen inte
 
 Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, die eventIDs von [!DNL Journey Optimizer] enthalten (siehe den Ereigniserstellungsprozess unten), die von [!DNL Journey Optimizer] bereitgestellt werden und in der Ereignis-Payload enthalten sind. Regelbasierte Ereignisse: Das System identifiziert das Ereignis mit der eventID-Bedingung. Diese Ereignisse werden von [!DNL Journey Optimizer] überwacht und die entsprechende Journey wird ausgelöst.
 
-## Aktualisieren und Löschen eines Ereignisses
+## Aktualisieren und Löschen eines Ereignisses {#update-event}
+
+
+## Aktualisieren und Löschen eines Ereignisses {#update-event}
+
 
 Um Unterbrechungen vorhandener Journeys zu vermeiden, wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs-, Live- oder geschlossenen Journey verwendet wird, können Sie nur den Namen bzw. die Beschreibung ändern oder Payload-Felder hinzufügen. 
 
@@ -83,7 +87,7 @@ Jedes Ereignis, das in Live-, Entwurfs- oder geschlossenen Journeys verwendet wi
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 
