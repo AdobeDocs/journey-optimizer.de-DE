@@ -5,10 +5,10 @@ title: Erste Schritte mit orchestrierten Kampagnen
 description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht kanal�
 Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [Entdecken Sie orchestrierte Kampagnen im Video](#video-oc)
 
 ## Kernfunktionen
 
@@ -71,6 +73,15 @@ Jede orchestrierte Kampagne enthält:
 * **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
 
 * **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede orchestrierte Kampagne nutzt mehrere Arbeitstabellen. Die in diesen Tabellen enthaltenen Daten können während des gesamten Lebenszyklus der orchestrierten Kampagne verwendet werden.
+
+
+## Einführungsvideo {#video-oc}
+
+Lernen Sie die wichtigsten Konzepte und Funktionen kennen, die mit orchestrierten Kampagnen verfügbar sind.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## Tauchen wir tiefer in die Materie ein
 
