@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,6 @@ In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwar
 Die Ereigniskonfiguration ist **obligatorisch** und muss vom Daten-Engineering durchgeführt werden.
 
 Sie können zwei Arten von Ereignissen konfigurieren: **unitäre Ereignisse** und **Geschäftsereignisse**.
-
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -76,15 +75,15 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 ## Aktualisieren und Löschen eines Ereignisses {#update-event}
 
 
-Um Unterbrechungen vorhandener Journeys zu vermeiden, wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs-, Live- oder geschlossenen Journey verwendet wird, können Sie nur den Namen bzw. die Beschreibung ändern oder Payload-Felder hinzufügen. 
+Um zu vermeiden, dass vorhandene Journey beschädigt werden, können Sie beim Bearbeiten eines Ereignisses, das in einer **Entwurf**-, **Live**- oder **Closed**-Journey verwendet wird, nur den Namen, die Beschreibung ändern oder Payload-Felder hinzufügen.
 
-Jedes Ereignis, das in Live-, Entwurfs- oder geschlossenen Journeys verwendet wird, kann nicht gelöscht werden. Um ein verwendetes Ereignis zu löschen, müssen Sie seine Verwendung durch Journeys unterbinden und/oder es aus den Entwurfs-Journeys entfernen, in denen es verwendet wird. Sie können das Feld **[!UICONTROL Verwendet in]** überprüfen. Es zeigt die Anzahl der Journeys an, die dieses bestimmte Ereignis verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+Alle Ereignisse, die in **Live**, **Draft** oder **Closed** Journey verwendet werden, können nicht gelöscht werden. Um ein verwendetes Ereignis zu löschen, müssen Sie seine Verwendung durch Journeys unterbinden und/oder es aus den Entwurfs-Journeys entfernen, in denen es verwendet wird. Sie können das Feld **[!UICONTROL Verwendet in]** überprüfen. Es zeigt die Anzahl der Journeys an, die dieses bestimmte Ereignis verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 

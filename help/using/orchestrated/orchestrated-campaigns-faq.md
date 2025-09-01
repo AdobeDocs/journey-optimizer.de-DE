@@ -6,10 +6,10 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 6%
+source-wordcount: '765'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,13 @@ Im Folgenden finden Sie häufig gestellte Fragen zu von Adobe Journey Optimizer 
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen.
 
-## Was sind orchestrierte Kampagnen?
+## Was sind orchestrierte Kampagnen? {#what-are-oc}
 
 Mithilfe von orchestrierten Kampagnen in Adobe Journey Optimizer können Marken komplexe, direkte Marketing-Kampagnen im benötigten Umfang durchführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
 
-## Was kann ich mit orchestrierten Kampagnen tun?
+Verglichen mit Einzelversand-Kampagnen ermöglichen sie **Orchestrierung und Sequenzierung** ausgehendes Marketing: Zielgruppen durchlaufen einen mehrstufigen Workflow gemeinsam, anstatt einen einmaligen Schlag zu erhalten.
+
+## Was kann ich mit orchestrierten Kampagnen tun? {#what-can-i-do}
 
 Die wichtigsten Funktionen ermöglichen Folgendes:
 
@@ -32,44 +34,130 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 * **Sichtbarkeit vor dem Versand**: Zur Optimierung der Zielgruppenbestimmung ist die genaue Anzahl der Zielgruppen vor dem Start anzuzeigen.
 * **Mehrstufige Workflows**: Führen Sie sequenzielle Kampagnen wie saisonale Werbeaktionen, Produkteinführungen oder Treueangebote aus.
 
+>[!BEGINSHADEBOX]
 
-## Welche Kanäle werden unterstützt?
+**Best Practices**
+
+* Definieren Sie ein **klares Kampagnenziel** bevor Sie Workflows entwerfen.
+* Beginnen Sie mit einer **Pilotzielgruppe**, um Zählungen und Logik vor der Skalierung zu überprüfen.
+* Halten Sie die Segmentierungsregeln **so einfach wie möglich**, um die Leistung und Transparenz zu optimieren.
+* Verwenden Sie **konsistente Benennungskonventionen** für Zielgruppen und Kampagnen, um die Verwaltung zu vereinfachen.
+
+>[!ENDSHADEBOX]
+
+
+## Welche Kanäle werden unterstützt? {#channels}
 
 Orchestrierte Kampagnen unterstützen **E-Mail, SMS und Push-Benachrichtigungen**.
 
-## Wie unterscheiden sich orchestrierte Kampagnen von Journey?
+>[!BEGINSHADEBOX]
+
+**Recommendations**
+
+* Passen Sie den Kanal an die **Art Ihrer Nachricht** an (z. B. Dringend = SMS, personalisierte Angebote = E-Mail, Kontextuell = Push).
+* Überprüfen Sie immer die Einverständnis- und Abonnementvoreinstellungen, bevor Sie einen Kanal aktivieren.
+* Testen Sie das Rendern von Nachrichten auf mehreren Geräten und Clients, um ein konsistentes Erlebnis zu gewährleisten.
+
+>[!ENDSHADEBOX]
+
+## Wie unterscheiden sich orchestrierte Kampagnen von Journey? {#oc-vs-journeys}
 
 * **Orchestrierte Kampagnen**: Optimiert für **Batch-Kampagnen, Eins-zu-Viele**. Ganze Zielgruppen durchlaufen die Kampagnen-Arbeitsfläche gemeinsam.
 * **Journey**: Am besten geeignet für **Echtzeit-, Eins-zu-eins-**-Interaktion. Jeder Kunde bewegt sich in seinem eigenen Tempo durch die Journey, ausgelöst durch Verhalten oder Ereignisse.
 
+>[!BEGINSHADEBOX]
 
-## Wie funktioniert das Datenmodell?
+**Tipp** - Viele Unternehmen verwenden **beides zusammen** Journey für ausgelöste, reaktive Erlebnisse und koordinierte Kampagnen für geplante, kalenderbasierte Initiativen.
 
-Kampagnen verwenden eine **relationale Datenbank**. Auf diese Weise können Sie Abfragen über verschiedene Datensätze hinweg durchführen (z. B. Kunden, Produkte, Abonnements) und sie flexibel verbinden, um eine erweiterte Segmentierung zu ermöglichen.
+>[!ENDSHADEBOX]
 
+## Wie funktioniert das Datenmodell? {#data-model}
 
-## Kann ich Nachrichten mit diesen Daten personalisieren?
+Kampagnen verwenden eine **relationale Datenbank**. Auf diese Weise können Sie Abfragen über verschiedene Datensätze hinweg durchführen (z. B. Kunden, Produkte, Abonnements) und sie für eine erweiterte Segmentierung flexibel verbinden.
+
+>[!BEGINSHADEBOX]
+
+**Best Practices**
+
+* Organisieren Sie Datensätze so, dass **Beziehungen (Joins** Geschäftslogik widerspiegeln.
+* Vermeiden Sie unnötige Joins, um die Leistung von Abfragen zu erhalten.
+* Validieren Sie die Beispielergebnisse, bevor Sie groß angelegte Extraktionen durchführen.
+
+>[!ENDSHADEBOX]
+
+## Kann ich Nachrichten mit diesen Daten personalisieren? {#personalization}
 
 Ja. Sie können Kundenprofile zusammen mit verknüpften Daten (wie Käufen oder Abonnements) verwenden, um Inhalte über alle unterstützten Kanäle hinweg zu personalisieren.
 
+>[!BEGINSHADEBOX]
 
-## Kann diese Lösung mit anderen Adobe-Lösungen integriert werden?
+**Recommendations**
+
+* Verwenden Sie **Transaktions- und Verhaltensdaten** um Angebote relevant zu machen.
+* Kombinieren Sie **statische Attribute** (z. B. Treuestufe) mit **dynamischen** (z. B. Datum des letzten Kaufs).
+* Personalisierung kurz halten - das Überladen von Nachrichten mit Daten kann die Lesbarkeit beeinträchtigen.
+
+>[!ENDSHADEBOX]
+
+
+## Kann diese Lösung mit anderen Adobe-Lösungen integriert werden? {#integrations}
 
 * **Customer Journey Analytics**: Berichte zur Kampagnenorchestrierung sind verfügbar.
 * **Real-Time CDP**: In Campaign integrierte Zielgruppen können in CDP gelesen werden.
 * **Federated Audience Composition (FAC)**: als Add-on verfügbar.
 
-
-## Was ist mit Berechtigungen und Einverständnis?
+## Was ist mit Berechtigungen und Einverständnis? {#permissions}
 
 Berechtigungen und Einverständnis werden in Adobe Experience Platform zentral verwaltet. Dieselben Regeln gelten für Journey- und Orchestrierte Kampagnen, um die Einhaltung von Vorschriften und ein konsistentes Kundenerlebnis sicherzustellen.
 
+>[!BEGINSHADEBOX]
 
-## Kann ich eine Ad-hoc-Segmentierung vornehmen?
+**Best Practices**
+
+* Wenden Sie **zentralisierte Governance** an und vermeiden Sie die separate Einverständnisverwaltung auf Kampagnenebene.
+* Prüfen Sie die Einverständnisdaten regelmäßig, um Inkonsistenzen zu erkennen.
+* Respekt **kanalspezifische Opt-outs** - gehen Sie nicht davon aus, dass die globale Zustimmung alle Kanäle abdeckt.
+
+>[!ENDSHADEBOX]
+
+## Kann ich eine Ad-hoc-Segmentierung vornehmen? {#ad-hoc}
 
 Ja. Mit **Live-Segmentierung** können Sie komplexe Abfragen direkt erstellen und sofort über ausgehende Kanäle hinweg aktivieren.
 
-## Unterstützt dies die Entscheidungsfindung?
+>[!BEGINSHADEBOX]
+
+**Tipps**
+
+* Ad-hoc-Segmentierung für **zeitkritische Anforderungen** (z. B. Flash-Werbeaktionen) verwenden.
+* Speichern und dokumentieren Sie nützliche Abfragen, damit sie in zukünftigen Kampagnen wiederverwendet werden können.
+* Überprüfen Sie vor der Aktivierung die Anzahl der Zielgruppen, um zu verhindern, dass der Versand zu hoch oder zu hoch ausfällt.
+
+>[!ENDSHADEBOX]
+
+## Unterstützt dies die Entscheidungsfindung? {#decisioning}
 
 Derzeit verwendet decisioning keine relationalen Daten aus orchestrierten Kampagnen.
 
+## Wie funktioniert die Bereitstellung in allen Umgebungen? {#deployment}
+
+Objekte, die in orchestrierten Kampagnen erstellt werden (z. B. Zielgruppen, Workflows), sind an die Sandbox gebunden, in der sie erstellt werden. Standardmäßige Verpackungs- und Bereitstellungs-Workflows in Umgebungen (Entwicklung, Staging, Produktion) sind derzeit nicht für orchestrierte Kampagnen verfügbar.
+
+>[!BEGINSHADEBOX]
+
+**Best Practices**
+
+* **separate Sandboxes** für Experimente, Qualitätssicherung und Produktion verwalten.
+* Dokumentenkonfigurationen sollten sorgfältig konfiguriert werden, um bei Bedarf eine manuelle Replikation zu ermöglichen.
+* Abstimmung mit Governance-Teams, um Konfigurationsabweichungen zwischen Umgebungen zu reduzieren
+
+>[!ENDSHADEBOX]
+
+## Gibt es empfohlene Vorgehensweisen zum Ausführen von Kampagnen in großem Umfang? {#scale}
+
+Ja, befolgen Sie die folgenden Best Practices:
+
+* **Planen Sie Kampagnen rund um Geschäftskalender** (Produkteinführungen, saisonale Spitzen), um Volumen und Ressourcen aufeinander abzustimmen.
+* Verwenden Sie **Zielgruppenvorschauen** vor dem Versand, um die erwartete Größe zu bestätigen und Überraschungen zu vermeiden.
+* Staffeln Sie **Sendezeiten** um zu vermeiden, dass nachgelagerte Systeme (z. B. Callcenter, Websites) überlastet werden.
+* Richten Sie eine **Überwachungsroutine** ein - verfolgen Sie Versandlogs, Fehlerquoten und Opt-outs nach jedem Versand.
+* Führen Sie **Analyse nach der Kampagne** in Customer Journey Analytics aus, um das Targeting und die Orchestrierung für den nächsten Zyklus zu verfeinern.
