@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 94%
 
 ---
 
@@ -91,13 +91,19 @@ Die meisten Aktivitäten zeigen eine Reihe erweiterter und/oder technischer Para
 
 ![Felder für erweiterte Parameter in den Eigenschaften der Journey-Aktivität](assets/journey-advanced-parameters.png)
 
-Zur besseren Lesbarkeit können diese Parameter mithilfe der Schaltfläche **[!UICONTROL Schreibgeschützte Felder ausblenden]** ausgeblendet werden.
+Zur besseren Lesbarkeit können Sie diese Parameter mithilfe der Schaltfläche **[!UICONTROL Schreibgeschützte Felder ausblenden]** oben im rechten Bereich ausblenden.
 
 ![Symbol „Schreibgeschützte Felder ausblenden“ in den Eigenschaften der Journey-Aktivität](assets/journey-hide-read-only-fields.png)
 
 In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimmte Verwendung überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld anklicken. [Weitere Informationen](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![Option „Parameterüberschreibung aktivieren“ in den Eigenschaften der E-Mail-Aktivität](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie auf **[!UICONTROL Schaltfläche Schreibgeschützte Felder anzeigen]**
+>
+>![Symbol „Schreibgeschützte Felder anzeigen“ in den Eigenschaften der Journey-Aktivität](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Hinzufügen eines alternativen Pfads
 

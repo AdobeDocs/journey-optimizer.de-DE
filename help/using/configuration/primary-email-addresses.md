@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 84%
 
 ---
 
@@ -68,6 +68,12 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 ## Überschreiben des Standard-Ausführungsfelds {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Benutzerdefinierten Wert definieren"
+>abstract="In bestimmten Fällen können Sie die standardmäßige Ausführungsadresse überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld, um eine benutzerdefinierte primäre Adresse zu definieren."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Über die Ausführungsadresse"
+
 Für bestimmte Anwendungsfälle können Sie das global gesetzte Ausführungsfeld überschreiben und einen anderen Wert auf der Ebene der E-Mail-Konfiguration oder der Journey definieren.
 
 Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
@@ -83,9 +89,9 @@ Wenn eine Ausführungsadresse in der E-Mail-Konfiguration definiert ist, wird si
 
 ### In den Journey-Parametern {#journey-parameters}
 
-Beim Hinzufügen einer **[!UICONTROL E-Mail]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
+Beim Hinzufügen einer **[!UICONTROL E-]**- oder **[!UICONTROL SMS]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
 
-In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem **[!UICONTROL Adresse]**-Feld überschreiben.
+In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld überschreiben.
 
 ![](assets/journey-enable-parameter-override.png)
 
