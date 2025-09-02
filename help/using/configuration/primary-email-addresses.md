@@ -72,7 +72,7 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 >id="ajo_journey_execution_address"
 >title="Benutzerdefinierten Wert definieren"
 >abstract="In bestimmten Fällen können Sie die standardmäßige Ausführungsadresse überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld, um eine benutzerdefinierte primäre Adresse zu definieren."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Über die Ausführungsadresse"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Über die Ausführungsadresse"
 
 Für bestimmte Anwendungsfälle können Sie das global gesetzte Ausführungsfeld überschreiben und einen anderen Wert auf der Ebene der E-Mail-Konfiguration oder der Journey definieren.
 
