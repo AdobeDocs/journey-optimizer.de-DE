@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,9 @@ Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Pr
 
 Um Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten [Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}.
 
+>[!NOTE]
+>
+>Richtlinien zum Entwerfen barrierefreier Inhalte für Ihre E-Mails und Landingpages finden Sie [ (diesem Abschnitt](../email/accessible-content.md).
 
 Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
 

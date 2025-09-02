@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie mit deren Daten eine Vorschau Ihres Inhalts anzeigen. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt simulieren]** aus.
+1. Klicken Sie im Bildschirm „Inhalt bearbeiten“ oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhalt simulieren]** aus.
 
 1. Wählen Sie ein Testprofil aus. Überprüfen Sie die in den Spalten aufgeführten Werte. Verwenden Sie die Pfeile nach rechts oder links, um Daten zu durchsuchen.
 
