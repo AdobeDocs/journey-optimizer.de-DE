@@ -31,7 +31,7 @@ Dementsprechend finden Sie im Folgenden die Best Practices für die Gestaltung b
 >
 >Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([ Abschnitt) ](../start/accessibility.md).
 > 
-## Textlesbarkeit sicherstellen {#text-readability}
+>## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
 
