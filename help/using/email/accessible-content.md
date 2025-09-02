@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 2%
 
 ---
 
 # Entwerfen barrierefreier Inhalte {#accessible-content}
 
+Der [Europäische Rechtsakt zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} ist eine Richtlinie, mit der der Binnenmarkt für barrierefreie Produkte und Dienstleistungen durch die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, verbessert werden soll.
+
+Diese Verordnung legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newsletter, PDFs und herunterladbare Inhalte, zugänglich sein sollten. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Richtlinien befolgen, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
+
+Mit [!DNL Journey Optimizer] [E-Mail-Designer](content-from-scratch.md), mit dem Marketing-Experten Inhalte sowohl für **E-** als auch **Landingpages** erstellen können, können Sie diese Richtlinie auf der Grundlage der Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, problemlos einhalten.
+
+Dementsprechend finden Sie im Folgenden die Best Practices für die Gestaltung barrierefreier Inhalte mit [!DNL Journey Optimizer].
+
 >[!NOTE]
 >
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Ihre Empfängerinnen und Empfänger zugänglich zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
->Die Barrierefreiheit der [!DNL Journey Optimizer] selbst wird in ([ Abschnitt) ](../start/accessibility.md).
-
-Der [Europäische Rechtsakt zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} ist eine Richtlinie, mit der der Binnenmarkt für barrierefreie Produkte und Dienstleistungen durch die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, verbessert werden soll.
-
-Beim Erstellen von Inhalten für Ihre **E** Mails **und Landingpages** in [!DNL Journey Optimizer] können die auf dieser Seite aufgeführten Best Practices für die Barrierefreiheit für E-Mail-Marketing-Fachleute Ihnen bei der Einhaltung dieser Richtlinie helfen. Sie basieren auf den Web Content Accessibility Guidelines (WCAG) 2.1, Level AA.
-
-Der European Accessibility Act (Europäischer Rechtsakt zur Barrierefreiheit) besagt, dass alle digitalen Kommunikationen, einschließlich E-Mails, Newsletter, PDFs und herunterladbare Inhalte, zugänglich sein sollten. Daher müssen Sie bestimmte Richtlinien befolgen, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
-
-Mit [!DNL Journey Optimizer] [E-Mail-Designer](content-from-scratch.md), mit dem Marketing-Experten Inhalte sowohl für E-Mails als auch für Landingpages erstellen können, können Sie diese Richtlinien einfach befolgen. Die Best Practices für die Gestaltung barrierefreier Inhalte mit [!DNL Journey Optimizer] sind unten aufgeführt.
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([ Abschnitt) ](../start/accessibility.md).
+> 
 ## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
@@ -83,7 +80,7 @@ Sie können beispielsweise den [Hintergrund](backgrounds.md) aktualisieren oder 
 
 Darüber hinaus können Sie mit der [!DNL Journey Optimizer] Email Designer das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit **[!UICONTROL Zur Live-Ansicht wechseln]** um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden können.
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -138,7 +135,7 @@ Um die Barrierefreiheit Ihrer Inhalte zu überprüfen, können Sie die von [!DNL
 
 Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig zugänglich sind, wählen Sie bestimmte externe Tools aus, z. B.:
 
-* Der [WebAim Kontrast Checker](https://webaim.org/resources/contrastchecker/){target="_blank"} und das [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){target="_blank"} um Kontrast und Compliance zu bewerten.
+* Der [WebAim Kontrast Checker](https://webaim.org/resources/contrastchecker/){target="_blank"} und das [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){target="_blank"} zur Bewertung von Kontrast und Compliance;
 
 * Hilfstechnologien wie Bildschirmlesehilfen (z. B. [NVDA](https://www.nvaccess.org/download/){target="_blank"} oder [VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} auf iPhone), um E-Mails aus der Perspektive sehbehinderter Benutzender zu erleben.
 
@@ -146,7 +143,7 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig zugänglich sind, 
 
 <!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
-Der Dunkelmodus verbessert die visuelle Barrierefreiheit für Benutzende mit Lichtempfindlichkeit oder Sehbehinderungen, um das Seherlebnis zu verbessern.
+Der Dunkelmodus verbessert die visuelle Barrierefreiheit für Benutzer mit Lichtempfindlichkeit oder Sehbehinderungen, um das Seherlebnis zu verbessern.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
@@ -154,11 +151,11 @@ Zu den Best Practices für die Erstellung von Inhalten im dunklen Modus gehören
 
 Detaillierte Best Practices für den Dunkelmodus, einschließlich Richtlinien zur Sicherstellung der Barrierefreiheit, finden Sie [diesem Abschnitt](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## Spezifische Attribute für barrierefreie E-Mails verwenden {#attributes}
+## Verwenden spezifischer Attribute für die Barrierefreiheit {#attributes}
 
-### `lang` und `dir` Attribute
+### Sprachattribute {#language}
 
-Fügen Sie beim Erstellen barrierefreier E-Mails die Attribute `lang` (Sprache) und `dir` (Textrichtung) in den Textkörper der E-Mail ein. Diese Attribute unterstützen Hilfstechnologien wie Bildschirmlesehilfen bei der Interpretation und Darstellung Ihrer Inhalte auf geeignete Weise.
+Fügen Sie beim Erstellen von Designs die Attribute `lang` (Sprache) und `dir` (Textrichtung) in den Inhaltshauptteil ein. Diese Attribute unterstützen Hilfstechnologien wie Bildschirmlesehilfen bei der Interpretation und Darstellung Ihrer Inhalte auf geeignete Weise.
 
 * Das Attribut `lang` gibt die Sprache der E-Mail für Hilfstechnologien an und stellt sicher, dass Wörter korrekt ausgesprochen werden.
 
@@ -202,13 +199,13 @@ Bildschirmlesehilfen verwenden das `lang`-Attribut, um die korrekten Ausspracher
 >
 >Wenn Ihre E-Mail mehrere Sprachen enthält, weisen Sie bestimmten Abschnitten (z. B. `<table>` oder `<td>`) die entsprechenden Sprachattribute zu, um sicherzustellen, dass jeder Teil korrekt gelesen wird.
 
-### Layouttabellen und -`role="presentation"`
+### Tabellen {#tables}
 
-In HTML-E-Mails werden Tabellen häufig für das Layout verwendet. Standardmäßig behandeln Bildschirmlesehilfen jede `<table>` als Datentabelle und geben Zeilen, Spalten und Strukturen aus. Dies kann verwirrend sein, wenn die Tabelle nur zur Formatierung verwendet wird.
+In HTML-Inhalten werden Tabellen häufig für das Layout verwendet. Standardmäßig behandeln Bildschirmlesehilfen jede `<table>` als Datentabelle und geben Zeilen, Spalten und Strukturen aus. Dies kann verwirrend sein, wenn die Tabelle nur zur Formatierung verwendet wird.
 
 Fügen Sie Layouttabellen `role="presentation"` (oder `role="none"`) hinzu, um sicherzustellen, dass Hilfstechnologien ihre Struktur überspringen und sich nur auf den tatsächlichen Inhalt konzentrieren.
 
-+++Beispiel - Layouttabelle (mit role=„presentation„): 
++++Beispiel - Layouttabelle (mit `role="presentation"`)
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -229,11 +226,11 @@ Fügen Sie Layouttabellen `role="presentation"` (oder `role="none"`) hinzu, um s
 ```
 
 Die Bildschirmlesehilfen lesen:
-„Hallo Welt. Willkommen zu unserem Newsletter.“ *(Zeilen, Spalten oder Tabellen werden nicht erwähnt.)*
+„Hallo Welt. Willkommen zu unserem Newsletter.“ *(Zeilen, Spalten oder Tabellen werden nicht erwähnt)*
 
 +++
 
-+++Beispiel - Datentabelle (ohne role=„presentation„): 
++++Beispiel - Datentabelle (ohne `role="presentation"`)
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,25 +265,21 @@ Die Bildschirmlesehilfen lesen:
 Die Bildschirmlesehilfen lesen:
 „Tabelle mit 2 Spalten und 3 Zeilen.“
 
-„Name, Alice.“
+„Name, Alice. Ergebnis, 95.“
 
-„Ergebnis, 95.“
-
-„Name, Bob.“
-
-„Score, 88.“
+„Name, Bob. Ergebnis, 88.“
 
 +++
 
 >[!TIP]
 >
->Verwenden Sie `role="presentation"` ausschließlich für Layouttabellen. Behalten Sie bei Datentabellen die semantische Struktur bei`<table>` damit Bildschirmlesehilfen Kopfzeilen und Beziehungen korrekt ausgeben können.
+>Verwenden Sie `role="presentation"` ausschließlich für Layouttabellen. Behalten Sie bei Datentabellen die semantische `<table>` bei, damit Bildschirmlesehilfen Kopfzeilen und Beziehungen korrekt ausgeben können.
 
-### Erkennbarer und beschreibender Text für Links
+### Text für Links {#links}
 
-Bildschirmlesehilfen lesen Links mithilfe ihres Textes aus. Wenn ein Link nur mit „Hier klicken“ oder „Weitere Informationen“ beschriftet ist, kennen Benutzer von Hilfstechnologien das Ziel nicht.
+Bildschirmlesehilfen lesen Links mithilfe ihres Textes aus. Wenn ein Link nur mit „Hier klicken“ oder „Weitere Informationen“ beschriftet ist, kennen Benutzer von Hilfstechnologien das Ziel nicht. Um die Barrierefreiheit zu gewährleisten, benötigen sie beschreibenden Text, der die Zielgruppe oder Aktion klar angibt.
 
-Um die Barrierefreiheit zu gewährleisten, schreiben Sie beschreibenden Text, der die Zielgruppe oder Aktion klar angibt. Verwenden Sie den E-Mail-Designer[ um einen ](message-tracking.md#insert-links) zu Ihrem Inhalt hinzuzufügen und die Kennzeichnung zu bearbeiten, damit sie erkennbar (sichtbar) und beschreibend (klar zu Ihrem Zweck) ist. Vermeiden Sie vage Bezeichnungen wie „hier“ oder „mehr“.
+Verwenden Sie den E-Mail-Designer[ um einen ](message-tracking.md#insert-links) zu Ihrem Inhalt hinzuzufügen und die Kennzeichnung zu bearbeiten, damit sie erkennbar (sichtbar) und beschreibend (klar zu Ihrem Zweck) ist. Vermeiden Sie vage Bezeichnungen wie „hier“ oder „mehr“.
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ Die Bildschirmlesehilfen lesen:
 
 +++
 
-+++Beispiel: Ungültiger Link (nicht beschreibend): 
++++Beispiel - Ungültiger Link (nicht beschreibend)
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ Die Bildschirmlesehilfen lesen:
 ```
 
 Die Bildschirmlesehilfen lesen:
-„Link, hier klicken.“ *(Bietet keinen Kontext außerhalb der Lesereihenfolge.)*
+„Link, hier klicken.“ *(Bietet keinen Kontext außerhalb der Lesereihenfolge)*
 
 +++
 
@@ -331,7 +324,7 @@ Die Bildschirmlesehilfen lesen:
 
 Durch die Unterstützung der Tastaturnavigation und des Fokus können Benutzende, die keine Maus verwenden können, umfassend auf Inhalte zugreifen und mit ihnen interagieren. Außerdem wird die Benutzerfreundlichkeit verbessert, da alle Benutzer eine klare und konsistente Möglichkeit haben, sich durch Informationen zu bewegen.
 
-* Aktivieren des Fokus über die Tastatur (Tabulatortaste/Pfeiltasten)
+* Fokus über Tastatur
 
    * Stellen Sie sicher, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen, Links) `tabindex="0"` sind, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
 
@@ -341,7 +334,7 @@ Durch die Unterstützung der Tastaturnavigation und des Fokus können Benutzende
 
    * Wenden Sie klare und unterscheidbare Stile an, um sich auf umsetzbare Elemente zu konzentrieren:
 
-     +++Beispiel (CSS):
+     +++Beispiel (CSS)
 
      ```
      [tabindex="0"] : focus { 
