@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Entwerfen barrierefreier Inhalte
 description: Erfahren Sie, wie Sie in Journey Optimizer barrierefreie Inhalte für Ihre E-Mails und Landingpages entwerfen
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 2%
 
 ---
 
 # Entwerfen barrierefreier Inhalte {#accessible-content}
 
+>[!NOTE]
+>
+>Auf dieser Seite geht es darum, Ihre Inhalte für alle Ihre Empfängerinnen und Empfänger zugänglich zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
+>
+>Die Barrierefreiheit der [!DNL Journey Optimizer] selbst wird in ([ Abschnitt) ](../start/accessibility.md).
+
 Der [Europäische Rechtsakt zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} ist eine Richtlinie, mit der der Binnenmarkt für barrierefreie Produkte und Dienstleistungen durch die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, verbessert werden soll.
 
 Beim Erstellen von Inhalten für Ihre **E** Mails **und Landingpages** in [!DNL Journey Optimizer] können die auf dieser Seite aufgeführten Best Practices für die Barrierefreiheit für E-Mail-Marketing-Fachleute Ihnen bei der Einhaltung dieser Richtlinie helfen. Sie basieren auf den Web Content Accessibility Guidelines (WCAG) 2.1, Level AA.
-
->[!NOTE]
->
->Die Funktionen zur Barrierefreiheit bei Verwendung der [!DNL Journey Optimizer] selbst werden in [diesem Abschnitt) ](../start/accessibility.md).
 
 Der European Accessibility Act (Europäischer Rechtsakt zur Barrierefreiheit) besagt, dass alle digitalen Kommunikationen, einschließlich E-Mails, Newsletter, PDFs und herunterladbare Inhalte, zugänglich sein sollten. Daher müssen Sie bestimmte Richtlinien befolgen, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
 
@@ -33,7 +33,6 @@ Mit [!DNL Journey Optimizer] [E-Mail-Designer](content-from-scratch.md), mit dem
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
