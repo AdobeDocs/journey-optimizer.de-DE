@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 2%
@@ -33,7 +33,6 @@ Mit [!DNL Journey Optimizer] [E-Mail-Designer](content-from-scratch.md), mit dem
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
@@ -325,7 +324,9 @@ Die Bildschirmlesehilfen lesen:
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Bereitstellen von Tastaturnavigation und Fokusunterstützung <!--for landing pages--> {#keyboard}
+## Bereitstellen von Tastaturnavigation und Fokusunterstützung {#keyboard}
+
+<!--for landing pages-->
 
 Durch die Unterstützung der Tastaturnavigation und des Fokus können Benutzende, die keine Maus verwenden können, umfassend auf Inhalte zugreifen und mit ihnen interagieren. Außerdem wird die Benutzerfreundlichkeit verbessert, da alle Benutzer eine klare und konsistente Möglichkeit haben, sich durch Informationen zu bewegen.
 
