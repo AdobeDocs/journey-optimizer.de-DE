@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 39508e605479344a42bff0e5ce82b714f6bcff48
+source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,7 +42,7 @@ Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und 
 
 Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
 
-<table style="table-layout:fixed"><table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
   <tr>
     <td><ul><li>Französisch</li><li>Spanisch</li><li>Deutsch</li><li>Italienisch</li></ul></td>
     <td><ul><li>Japanisch</li><li>Schwedisch</li><li>Niederländisch</li><li>Norwegisch</li></ul></td>
