@@ -6,10 +6,10 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 4%
+source-wordcount: '1091'
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,15 @@ Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer 
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen.
 
-## Was sind orchestrierte Kampagnen? {#what-are-oc}
+## Was ist eine Kampagnenorchestrierung? {#what-are-oc}
 
-Orchestrierte Kampagnen in Adobe Journey Optimizer helfen Marken dabei, skaliert komplexe, direkte Marketing-Kampagnen durchzuführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
+Die Kampagnenorchestrierung ist eine Funktion von Journey Optimizer, die ein- oder mehrstufige Workflows unterstützt, welche den relationalen Datenspeicher nutzen, um Zielgruppen für die Batch-Interaktion zu erstellen und zu segmentieren.
 
-Verglichen mit Einzelversand-Kampagnen ermöglichen sie **Orchestrierung und Sequenzierung** ausgehendes Marketing: Zielgruppen durchlaufen einen mehrstufigen Workflow gemeinsam, anstatt einen einmaligen Schlag zu erhalten.
+Damit steht Journey Optimizer ein neuer Kampagnentyp zur Verfügung: **Orchestrierte Kampagnen**. Mit orchestrierten Kampagnen können Marken komplexe, direkte Marketing-Kampagnen im benötigten Umfang durchführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
 
-## Was kann ich mit orchestrierten Kampagnen tun? {#what-can-i-do}
+Verglichen mit Einzelversand-/Aktionskampagnen ermöglichen sie **Orchestrierung und Sequenzierung** ausgehendem Marketing: Zielgruppen durchlaufen einen mehrstufigen Workflow gemeinsam, anstatt einen einmaligen Schuss zu erhalten.
+
+## Was kann ich mit einer orchestrierten Kampagne tun? {#what-can-i-do}
 
 Die wichtigsten Funktionen ermöglichen Folgendes:
 
@@ -45,10 +47,14 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 >[!ENDSHADEBOX]
 
+## Wie greife ich auf die Kampagnenorchestrierung zu? {#access-oc}
+
+Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das Paket **Journey Optimizer – Kampagnen und Journeys** oder das Paket **Journey Optimizer – Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
+
 
 ## Welche Kanäle werden unterstützt? {#channels}
 
-Orchestrierte Kampagnen unterstützen **E-Mail, SMS und Push-Benachrichtigungen**.
+Sie können orchestrierte Kampagnen erstellen, um (E **Mails**, **SMS** und **Push-Benachrichtigungen** zu senden.
 
 
 >[!BEGINSHADEBOX]
