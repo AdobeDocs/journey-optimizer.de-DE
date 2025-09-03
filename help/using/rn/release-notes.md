@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
+## Updates vom 25. September {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden von Adobe Experience Platform-Daten für Personalisierung und Entscheidungsfindung - Eingeschränkte Verfügbarkeit</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Diese Funktion wurde bereits in der öffentlichen Beta-Version veröffentlicht und steht nun allen Umgebungen mit eingeschränkter Verfügbarkeit zur Verfügung. Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
+<ul><li>Unterstützung für die Personalisierung der Datensatzsuche in eingehenden Kanälen.</li>
+<li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucksfragmenten verwendet werden.</li>
+<li>Eine Option in der Oberfläche zur Datensatzverwaltung ermöglicht es Ihnen jetzt, auf Datensätzen basierende Datensätze für die Lookup-Personalisierung zu aktivieren, ohne einen API-Aufruf durchführen zu müssen.</li>
+<li>Verbesserte Überwachung, um den Datenaufnahmestatus zu verfolgen und zu wissen, wann Datensätze für die Suche bereit sind.</li>
+<li>Aktualisierte Nutzungsrichtlinien und Leitplanken, um eine optimale Leistung und Zuverlässigkeit sicherzustellen.</li></ul></p>
+<p>Weitere Informationen finden Sie in der <a href="../data/lookup-aep-data.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versionshinweise August 2025 {#25-8-rn}
 
