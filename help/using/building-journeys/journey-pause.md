@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
->title="Pausieren Ihrer Journey"
+>title="Pausieren einer Journey"
 >abstract="Das Pausieren einer Live-Journey verhindert den Eintritt neuer Profile. Es besteht die Wahl, ob Profile, die sich derzeit in der Journey befinden, verworfen oder beibehalten werden sollen. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
 Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
