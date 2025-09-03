@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [Erstellen eines Sprachdienstleisters](using/content-management/multilingual-provider.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
+   + [Nachrichtenoptimierung](using/campaigns/campaigns-message-optimization.md)
    + Inhaltsexperiment {#content-experiment}
       + [Inhaltsexperiment](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
-   + [Optimierung von Nachrichten nutzen](using/campaigns/campaigns-message-optimization.md)
 + Zielgruppen, Profile und Identität {#audiences-profiles-identities}
    + [Zielgruppen, Profile und Identität](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Zielgruppen {#audiences}
