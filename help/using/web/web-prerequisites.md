@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 7bb8f1dfa6a1538017ac9632bf96a2f7e7b01085
+workflow-type: tm+mt
+source-wordcount: '1216'
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,14 @@ Es werden zwei Arten von Implementierungen unterstützt, um die Erstellung und d
 >
 >Die nur Server-seitige Implementierung wird derzeit für den Web-Kanal nicht unterstützt.  Bei einer nur Server-seitigen Implementierung für Ihre Web-Seiten kann stattdessen der [Code-basierte Erlebniskanal](../code-based/get-started-code-based.md) verwendet werden.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Voraussetzungen für visuelles Authoring {#visual-authoring-prerequisites}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_browser_extension"
+>title="Erstellen einer Regel zum Seitenabgleich"
+>abstract="Für den Zugriff auf den [!DNL Journey Optimizer]-Web-Designer muss eine bestimmte Browser-Erweiterung installiert sein: Adobe Experience Cloud Visual Editing Helper (nur in Google Chrome oder Microsoft Edge verfügbar)."
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
