@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)
+title: Verwenden von Adobe Experience Platform-Daten für die Personalisierung
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Personalisierung verwenden.
-badge: label="Beta" type="Informative"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 98%
+source-wordcount: '648'
+ht-degree: 86%
 
 ---
 
-# Verwenden von Adobe Experience Platform-Daten für die Personalisierung{#aep-data}
+# Verwenden von Adobe Experience Platform-Daten für die Personalisierung {#aep-data}
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung.
->
->Um diese Funktion verwenden zu können, müssen Sie zunächst die Bedingungen der Beta-Version für Ihre Organisation akzeptieren, die beim Hinzufügen der neuen Hilfsfunktionen „datasetLookup“ im Personalisierungseditor angezeigt werden.
+>Diese Funktion steht derzeit allen Kunden als eingeschränkte Verfügbarkeitsversion zur Verfügung.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Dazu müssen Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben über einen API-Aufruf aktiviert werden. Anschließend können Sie die Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Datensatzdatensätzen im Personalisierungseditor nutzen, um [Inhalte zu personalisieren](../personalization/personalize.md). Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
 
-## Einschränkungen und Richtlinien der Beta-Version {#guidelines}
-
-Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
-
-* **Unterstützte Kanäle**: Derzeit ist diese Funktion nur für die Verwendung bei den Kanälen „E-Mail“, „SMS“ und „Direkt-Mail“ verfügbar.
-* **Fragmente**: Die Personalisierung der Datensatzsuche kann derzeit nicht in Ausdrucksfragmenten oder visuellen Fragmenten platziert werden.
-
-## Aktivieren eines Datensatzes für Datensuchen {#enable}
-
-Um Daten aus Ihrem Datensatz für die Personalisierung nutzen zu können, müssen Sie einen API-Aufruf verwenden, der den Status abruft und den Suchdienst aktiviert. Detaillierte Informationen finden Sie in diesem Abschnitt: [Nutzen von Adobe Experience Platform-Datensätzen in [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
-
-## Verwenden eines Datensatzes für die Personalisierung {#leverage}
-
-Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Personalisierung der Suche aktiviert wurde, können Sie seine Daten verwenden, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
+Sobald ein Datensatz für die Lookup-Personalisierung aktiviert wurde, können Sie seine Daten verwenden, um Ihren Inhalt in [!DNL Journey Optimizer] zu personalisieren.
 
 1. Öffnen Sie den Personalisierungseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
 

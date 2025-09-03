@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung (Beta)
+title: Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Entscheidungsfindung verwenden.
-badge: label="Beta" type="Informative"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung. Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff wünschen.
+>Diese Funktion steht derzeit allen Kunden als eingeschränkte Verfügbarkeitsversion zur Verfügung.
 
 [!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, sodass die Attribute nicht einzeln manuell aktualisiert werden müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
+
+Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
 
 ## Leitlinien und Einschränkungen {#guidelines}
 
@@ -43,10 +45,6 @@ Bevor Sie beginnen, beachten Sie die folgenden Einschränkungen und Richtlinien:
 * Eine Entscheidungsregel kann drei Datensätze verwenden.
 * Eine Rangfolgenformel kann drei Datensätze verwenden.
 * Wenn eine Entscheidungsrichtlinie ausgewertet wird, führt das System insgesamt bis zu 1.000 Datensatzabfragen (Suchen) durch. Jede von einem Entscheidungselement verwendete Datensatzzuordnung zählt als eine Abfrage. Wenn beispielsweise ein Entscheidungselement zwei Datensätze verwendet, zählt die Auswertung dieses Angebots als zwei Abfragen hinsichtlich des Limits von 1.000 Abfragen.
-
-## Aktivieren eines Datensatzes für Datensuchen {#enable}
-
-Um Daten aus einem [!DNL Adobe Experience Platform]-Datensatz für die Entscheidungsfindung zu verwenden, müssen Sie ihn zunächst über einen API-Aufruf für die Suche aktivieren. Detaillierte Anweisungen finden Sie in diesem Abschnitt: [Nutzen von Adobe Experience Platform-Datensätzen in Journey Optimizer](../data/lookup-aep-data.md).
 
 ## Nutzen von Adobe Experience Platform-Daten {#leverage-aep-data}
 
