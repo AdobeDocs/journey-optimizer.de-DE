@@ -4,10 +4,10 @@ product: journey optimizer
 title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche relationale Schemata erstellen können.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 94%
+source-wordcount: '868'
+ht-degree: 92%
 
 ---
 
@@ -149,6 +149,8 @@ Jetzt müssen Sie Ihren Datensatz für orchestrierte Kampagnen aktivieren.
 ## Aktivieren eines Datensatzes für orchestrierte Kampagnen {#enable}
 
 Nachdem Sie Ihren Datensatz erstellt haben, müssen Sie ihn explizit für orchestrierte Kampagnen aktivieren. Dadurch wird sichergestellt, dass Ihr Datensatz in Adobe Journey Optimizer für Echtzeit-Orchestrierung und -Personalisierung verfügbar ist.
+
+Informationen zur Validierung oder Aktivierung der [-Erweiterung für den Datensatz finden Sie in der ](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Adobe Developer-Dokumentation.
 
 1. Suchen Sie Ihren Datensatz in der Liste **[!UICONTROL Datensätze]**.
 
