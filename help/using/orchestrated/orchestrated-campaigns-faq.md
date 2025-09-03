@@ -6,22 +6,22 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Häufig gestellte Fragen {#faq-oc}
 
-Im Folgenden finden Sie häufig gestellte Fragen zu von Adobe Journey Optimizer orchestrierten Kampagnen.
+Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen.
 
 ## Was sind orchestrierte Kampagnen? {#what-are-oc}
 
-Mithilfe von orchestrierten Kampagnen in Adobe Journey Optimizer können Marken komplexe, direkte Marketing-Kampagnen im benötigten Umfang durchführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
+Orchestrierte Kampagnen in Adobe Journey Optimizer helfen Marken dabei, skaliert komplexe, direkte Marketing-Kampagnen durchzuführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
 
 Verglichen mit Einzelversand-Kampagnen ermöglichen sie **Orchestrierung und Sequenzierung** ausgehendes Marketing: Zielgruppen durchlaufen einen mehrstufigen Workflow gemeinsam, anstatt einen einmaligen Schlag zu erhalten.
 
@@ -50,6 +50,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 Orchestrierte Kampagnen unterstützen **E-Mail, SMS und Push-Benachrichtigungen**.
 
+
 >[!BEGINSHADEBOX]
 
 **Recommendations**
@@ -60,9 +61,10 @@ Orchestrierte Kampagnen unterstützen **E-Mail, SMS und Push-Benachrichtigungen*
 
 >[!ENDSHADEBOX]
 
+
 ## Wie unterscheiden sich orchestrierte Kampagnen von Journey? {#oc-vs-journeys}
 
-* **Orchestrierte Kampagnen**: Optimiert für **Batch-Kampagnen, Eins-zu-Viele**. Ganze Zielgruppen durchlaufen die Kampagnen-Arbeitsfläche gemeinsam.
+* **Orchestrierte Kampagnen**: Optimiert für **Batch-, Eins-zu-Viele-**-Kampagnen. Ganze Zielgruppen durchlaufen die Kampagnen-Arbeitsfläche gemeinsam.
 * **Journey**: Am besten geeignet für **Echtzeit-, Eins-zu-eins-**-Interaktion. Jeder Kunde bewegt sich in seinem eigenen Tempo durch die Journey, ausgelöst durch Verhalten oder Ereignisse.
 
 >[!BEGINSHADEBOX]
@@ -151,11 +153,11 @@ In der Kampagnenorchestrierung wird die Ad-hoc-Segmentierung als „Live-Segment
 
 ## Unterstützt dies die Entscheidungsfindung? {#decisioning}
 
-Derzeit verwendet decisioning keine relationalen Daten aus orchestrierten Kampagnen.
+Derzeit verwendet Decisioning keine relationalen Daten aus orchestrierten Kampagnen.
 
 ## Wie funktioniert die Bereitstellung in allen Umgebungen? {#deployment}
 
-Objekte, die in orchestrierten Kampagnen erstellt werden (z. B. Zielgruppen, Workflows), sind an die Sandbox gebunden, in der sie erstellt werden. Standardmäßige Verpackungs- und Bereitstellungs-Workflows in Umgebungen (Entwicklung, Staging, Produktion) sind derzeit nicht für orchestrierte Kampagnen verfügbar.
+Objekte, die in orchestrierten Kampagnen erstellt werden (z. B. Zielgruppen, Workflows), sind an die Sandbox gebunden, in der sie erstellt werden. Standardmäßige Verpackungs- und Bereitstellungs-Workflows in Umgebungen (Entwicklung, Staging, Produktion) sind derzeit nicht für koordinierte Kampagnen verfügbar.
 
 >[!BEGINSHADEBOX]
 
