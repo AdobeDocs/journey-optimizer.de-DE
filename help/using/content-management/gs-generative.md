@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
+source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,12 +42,27 @@ Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und 
 
 Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
   <tr>
-    <td><ul><li>Französisch</li><li>Spanisch</li><li>Deutsch</li><li>Italienisch</li></ul></td>
-    <td><ul><li>Japanisch</li><li>Schwedisch</li><li>Niederländisch</li><li>Norwegisch</li></ul></td>
+    <td>
+      <ul>
+        <li>Französisch</li>
+        <li>Spanisch</li>
+        <li>Deutsch</li>
+        <li>Italienisch</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Japanisch</li>
+        <li>Schwedisch</li>
+        <li>Niederländisch</li>
+        <li>Norwegisch</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mithilfe des **Journey Optimizer** Inhaltsexperiments können Sie mehrere Nachrichtenbehandlungen definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
 
