@@ -6,7 +6,7 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
+source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 4%
@@ -80,7 +80,7 @@ Verfeinert.
 
 >[!BEGINSHADEBOX]
 
-**Beispiel** - Targeting aller Empfänger, deren Abonnements in den nächsten 3ad-h0 Tagen ablaufen: In der Kampagnenorchestrierung kann die Abfrage mit dem Abonnementschema beginnen, nur die Spalte mit dem Ablaufdatum dieses Schemas durchsuchen und alle abgelaufenen Abonnements zurückgeben. Anschließend wird zu den Empfängerdaten aggregiert, die mit diesen spezifischen Abonnement-IDs in Verbindung stehen und Ergebnisse schneller und effizienter zurückgeben als Datenmodelle, die jede Abfrage auf Empfängerebene starten.
+**Beispiel** - Targeting aller Empfänger, deren Abonnements in den nächsten 30 Tagen ablaufen. In der Kampagnenorchestrierung kann die Abfrage mit dem Abonnementschema beginnen, nur die Spalte mit dem Ablaufdatum dieses Schemas durchsuchen und alle abgelaufenen Abonnements zurückgeben. Anschließend kann ein Rollup zu den Empfängerdaten durchgeführt werden, die mit diesen spezifischen Abonnement-IDs verknüpft sind und schneller und effizienter Ergebnisse zurückgeben als Datenmodelle, die jede Abfrage auf Empfängerebene starten.
 
 >[!ENDSHADEBOX]
 
