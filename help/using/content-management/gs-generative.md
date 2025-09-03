@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 92%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,14 @@ ht-degree: 92%
 
 Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Diese neue Funktion bietet eine **Text- und Bildgenerierung**. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
 
-AI Assistant unterstützt Generationen **in mehreren Sprachen** einschließlich Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch, sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können.
+Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+  <tr>
+    <td><ul><li>Französisch</li><li>Spanisch</li><li>Deutsch</li><li>Italienisch</li></ul></td>
+    <td><ul><li>Japanisch</li><li>Schwedisch</li><li>Niederländisch</li><li>Norwegisch</li></ul></td>
+  </tr>
+</table>
 
 Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mithilfe des **Journey Optimizer** Inhaltsexperiments können Sie mehrere Nachrichtenbehandlungen definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
 
