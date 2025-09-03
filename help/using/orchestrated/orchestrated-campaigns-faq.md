@@ -6,10 +6,10 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 4%
+source-wordcount: '991'
+ht-degree: 3%
 
 ---
 
@@ -71,6 +71,18 @@ Orchestrierte Kampagnen unterstützen **E-Mail, SMS und Push-Benachrichtigungen*
 
 >[!ENDSHADEBOX]
 
+## Was ist Segmentierung mehrerer Entitäten? {#multi-entity}
+
+Die Kampagnenorchestrierung in Adobe Journey Optimizer verwendet eine relationale Datenbank. Dieser Typ von Datenmodell verfügt über separate Datenschemata, die über 1- :1 1:many-Beziehungen verbunden sind. Dadurch können Benutzer eine Abfrage für ein beliebiges Schema starten - nicht nur auf Empfängerebene - und dann hin und her zu anderen zugehörigen Schemas wechseln, z. B. Käufe, Produkte, Buchungen oder Empfängerdetails, was eine große Flexibilität bei der Erstellung von Segmenten und Audiences bietet.
+Verfeinert.
+
+>[!BEGINSHADEBOX]
+
+**Beispiel** - Targeting aller Empfänger, deren Abonnements in den nächsten 3ad-h0 Tagen ablaufen: In der Kampagnenorchestrierung kann die Abfrage mit dem Abonnementschema beginnen, nur die Spalte mit dem Ablaufdatum dieses Schemas durchsuchen und alle abgelaufenen Abonnements zurückgeben. Anschließend wird zu den Empfängerdaten aggregiert, die mit diesen spezifischen Abonnement-IDs in Verbindung stehen und Ergebnisse schneller und effizienter zurückgeben als Datenmodelle, die jede Abfrage auf Empfängerebene starten.
+
+>[!ENDSHADEBOX]
+
+
 ## Wie funktioniert das Datenmodell? {#data-model}
 
 Kampagnen verwenden eine **relationale Datenbank**. Auf diese Weise können Sie Abfragen über verschiedene Datensätze hinweg durchführen (z. B. Kunden, Produkte, Abonnements) und sie für eine erweiterte Segmentierung flexibel verbinden.
@@ -108,7 +120,7 @@ Ja. Sie können Kundenprofile zusammen mit verknüpften Daten (wie Käufen oder 
 
 ## Was ist mit Berechtigungen und Einverständnis? {#permissions}
 
-Berechtigungen und Einverständnis werden in Adobe Experience Platform zentral verwaltet. Dieselben Regeln gelten für Journey- und Orchestrierte Kampagnen, um die Einhaltung von Vorschriften und ein konsistentes Kundenerlebnis sicherzustellen.
+Berechtigungen und Einverständnis für orchestrierte Kampagnen und Journey werden in Adobe Experience Platform zentral verwaltet. Diese Einstellungen werden vor dem Versand für beide Lösungen auf jede Empfängerin und jeden Empfänger angewendet.
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ Berechtigungen und Einverständnis werden in Adobe Experience Platform zentral v
 
 * Wenden Sie **zentralisierte Governance** an und vermeiden Sie die separate Einverständnisverwaltung auf Kampagnenebene.
 * Prüfen Sie die Einverständnisdaten regelmäßig, um Inkonsistenzen zu erkennen.
-* Respekt **kanalspezifische Opt-outs** - gehen Sie nicht davon aus, dass die globale Zustimmung alle Kanäle abdeckt.
+* Respekt **kanalspezifische Opt-outs** — gehen Sie nicht davon aus, dass die globale Zustimmung alle Kanäle abdeckt.
 
 >[!ENDSHADEBOX]
 
 ## Kann ich eine Ad-hoc-Segmentierung vornehmen? {#ad-hoc}
 
-Ja. Mit **Live-Segmentierung** können Sie komplexe Abfragen direkt erstellen und sofort über ausgehende Kanäle hinweg aktivieren.
+In der Kampagnenorchestrierung wird die Ad-hoc-Segmentierung als „Live-Segmentierung“ bezeichnet, bei der Sie in Echtzeit auf alle im relationalen Speicher verfügbaren Daten zugreifen, eine komplexe Abfrage darauf erstellen und das Ergebnis für eine sofortige Aktivierung über ausgehende Kanäle erhalten können (z. B. E-Mail + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Ja. Mit **Live-Segmentierung** können Sie komplexe Abfragen direkt erstellen un
 * Überprüfen Sie vor der Aktivierung die Anzahl der Zielgruppen, um zu verhindern, dass der Versand zu hoch oder zu hoch ausfällt.
 
 >[!ENDSHADEBOX]
+
+## Können Daten aus der relationalen Datenbank für die Nachrichtenpersonalisierung verwendet werden? {#relational-personalization}
+
+Ja. In Campaign Orchestration kann ein als „Personenentität“ bekanntes Empfängerprofil aktualisiert werden und diese Daten können für die Personalisierung verwendet werden. Darüber hinaus können angereicherte Daten aus verknüpften Entitäten in der relationalen Datenbank auch für die Personalisierung verwendet werden.
+
 
 ## Unterstützt dies die Entscheidungsfindung? {#decisioning}
 
@@ -161,3 +178,4 @@ Ja, befolgen Sie die folgenden Best Practices:
 * Staffeln Sie **Sendezeiten** um zu vermeiden, dass nachgelagerte Systeme (z. B. Callcenter, Websites) überlastet werden.
 * Richten Sie eine **Überwachungsroutine** ein - verfolgen Sie Versandlogs, Fehlerquoten und Opt-outs nach jedem Versand.
 * Führen Sie **Analyse nach der Kampagne** in Customer Journey Analytics aus, um das Targeting und die Orchestrierung für den nächsten Zyklus zu verfeinern.
+
