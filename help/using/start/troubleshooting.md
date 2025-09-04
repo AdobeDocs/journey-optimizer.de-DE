@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
+source-git-commit: 0cc119d3e4c1ffa676f00fcedb93d8818f176689
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 2%
+source-wordcount: '2665'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie eine Liste von Artikeln zur Fehlerbehebung bei Adobe Journey Optimizer. Jeder Abschnitt zur Fehlerbehebung enthält Antworten auf häufig gestellte Fragen und Lösungen für Probleme.
 
-Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentation zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentation zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
 
 ## E-Mail-Kanal {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentat
 
 In Adobe Journey Optimizer (AJO) kann die Änderung der standardmäßigen CSS-Blöcke in der E-Mail-Kopfzeile zu unerwarteten Formatierungsproblemen führen - insbesondere nach dem Entfernen von Inhaltsfragmenten. Diese Probleme treten auf Mobilgeräten deutlicher zutage und können zu Layout-Verschiebungen oder Inkonsistenzen in der Formatierung führen. Um dies zu verhindern, verwenden Sie die Funktion „Designs“, um benutzerdefiniertes CSS sicher anzuwenden, ohne die vom System generierten CSS-Stile zu ändern.
 
-Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} unter „Problembehandlung“.
+Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} unter „Problembehandlung“.
 
 Weitere Informationen zur E-Mail-Formatierung [auf dieser Seite](../email/get-started-email-design.md).
 
@@ -47,6 +47,16 @@ Weitere Informationen zu anpassbaren Fragmenten [auf dieser Seite](../content-ma
 
 +++
 
++++ Warum werden HTML-Fragmente in E-Mails nicht korrekt angezeigt?
+
+HTML-Fragmente können möglicherweise nicht ordnungsgemäß in E-Mails gerendert werden, was oft als **Fragment-IDs** anstatt als tatsächlicher Inhalt erscheint. Im Gegensatz zu visuellen Fragmenten müssen HTML-Fragmente sorgfältig konfiguriert werden. Um dies zu beheben, befolgen Sie die Best Practices für die Verwendung von sowohl **visuellen als auch HTML** Ausdrucksfragmenten) in Ihren E-Mail-Kampagnen.
+
+Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-25441){target="_blank"} unter „Problembehandlung“.
+
+Weitere Informationen zu HTML-Fragmenten [auf dieser Seite](../content-management/fragments.md).
+
++++
+
 +++ Warum verschwinden E-Mail-Vorlagen und -Inhalte aus unveröffentlichten Journey?
 
 Beim Bearbeiten von E-Mail-Vorlagen auf einer unveröffentlichten Journey können Inhalt und Vorlagen bestimmter E-Mails unerwartet verschwinden. Dies kann zu Überarbeitungen und Verzögerungen führen. Um das Risiko dieses Problems zu verringern, vermeiden Sie gleichzeitige Bearbeitungen, begrenzen Sie die Anzahl der geöffneten Registerkarten und speichern Sie häufig Änderungen.
@@ -57,15 +67,26 @@ Weitere Informationen zu Vorlagen finden [ auf dieser Seite](../email/use-email-
 
 +++
 
-+++ Kann ein Profil mehrere Push-Token in Adobe Journey Optimizer haben?
++++ Warum wird das Feld „E-Mail-Preheader“ nicht im Modus „Eigenen Code erstellen“ angezeigt? 
 
-Bei der Implementierung von Push-Benachrichtigungen in Journey Optimizer kann einem einzelnen Profil tatsächlich mehrere Push-Token mit verschiedenen Geräten zugeordnet sein. Während einer Push-Benachrichtigungskampagne verwaltet Journey Optimizer diese Token und stellt sicher, dass das Zielgruppenprofil über alle zugehörigen Geräte hinweg erreicht werden kann.
+Im Modus **Eigenen Code erstellen** wird unter der Funktion **E-Mail-Text bearbeiten** das Eingabefeld Preheader nicht angezeigt. Um Preheader-Text einzuschließen, müssen **den Preheader in** benutzerdefinierten HTML-Inhalt manuell codieren.
 
-Weitere Informationen [ Verwaltung von Push-Token finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} in diesem Artikel zur Fehlerbehebung .
+Weitere Informationen [ Beheben dieses Problems finden Sie ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26174){target="_blank"} diesem Artikel zur Fehlerbehebung .
 
-Weitere Informationen zur Push-Konfiguration [auf dieser Seite](../push/push-configuration.md).
+Weitere Informationen zur Konfiguration von E-Mail-Preheadern [auf dieser Seite](../email/header-parameters.md).
 
 +++
+
++++ Warum gibt es eine Diskrepanz im Link-Verhalten bei der Verwendung einer HTML-Komponente in E-Mail-Vorlagen?  
+
+Beim Hinzufügen einer **HTML** Komponente zu einer E-Mail-Vorlage verhalten sich Links je nach E **Mail-Client**, **Anzeigemodus** oder **Gerät/Browser** unterschiedlich. Ankerlinks können beispielsweise in der Seitenansicht von **Outlook“ anders funktionieren als** Vollbildansicht. Beachten Sie diese Varianten beim Entwerfen von E-Mail-Vorlagen und beim Testen über mehrere Clients und Geräte hinweg.
+
+Weitere Informationen [ Beheben dieses Problems finden Sie ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26221){target="_blank"} diesem Artikel zur Fehlerbehebung .
+
+Siehe auch Best Practices für das Entwerfen von E-Mails [auf dieser Seite](../email/get-started-email-design.md).
+
++++
+
 
 ### E-Mail-Tracking und Reporting {#ajo-troubleshooting-tracking}
 
@@ -129,13 +150,31 @@ Weitere Informationen zur Opt-out-Konfiguration für SMS [auf dieser Seite](../s
 +++
 
 
+
+## In-App-Kanal
+
++++ Warum kann ich keine Berichte über den In-App-Kanal in Customer Journey Analytics erstellen?
+
+Probleme beim Reporting für den **In-App** Kanal) in Adobe Customer Journey Analytics stammen oft aus falsch konfigurierten **Datenansichten**, **Datensätzen** oder **Schemaaktualisierungen**. Stellen Sie sicher, dass diese Konfigurationen korrekt angewendet werden, um das Problem zu beheben.
+
+Weitere Informationen zu [ Problem finden Sie ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} diesem Artikel zur Fehlerbehebung .
+
+Weitere Informationen zur Integration von Journey Optimizer-Analysedaten in Customer Journey Analytics [ Sie auf dieser Seite](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+
+Siehe auch die Dokumentation zu [Journey Optimizer All-Time Reports](../reports/report-gs-cja.md)
+
++++
+
+
+
+
 ## Daten-Management {#ajo-troubleshooting-data-management}
 
 +++ Wie gelten TTL-Einstellungen (Time-to-Live) für Profil- und Data-Lake-Datensätze, wenn Sie eine neue Sandbox erstellen?
 
 Unternehmen, die neue Sandboxes in Adobe Journey Optimizer bereitstellen, haben Fragen darüber aufgeworfen, wie die TTL-Einstellungen (Time-to-Live) auf Profil- und Data-Lake-Datensätze angewendet werden. In diesem Artikel wird klargestellt, dass TTL-Einstellungen keine Auswirkungen auf bestehende Sandboxes haben und automatisch nur auf neu bereitgestellte angewendet werden.
 
-Informationen [ Umgang mit TTL finden Sie ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} diesem Artikel zur Fehlerbehebung .
+Informationen [ Umgang mit TTL finden Sie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} diesem Artikel zur Fehlerbehebung .
 
 Weitere Informationen zur Lebensdauer von Datensätzen finden Sie [auf dieser Seite](../data/datasets-ttl.md).
 
@@ -148,7 +187,7 @@ Weitere Informationen zur Lebensdauer von Datensätzen finden Sie [auf dieser Se
 
 Die Anzahl der verarbeiteten Einträge in der Funktion **Zielgruppe lesen** von Adobe Journey Optimizer kann niedriger sein als die erwartete Zielgruppenanzahl. Dieses Problem tritt häufig aufgrund falscher Namespace-Konfigurationen auf, was dazu führt, dass Profile aus Journey ausgeschlossen werden. Die Lösung umfasst das Überprüfen und Korrigieren von Namespace-Konfigurationen, das Überprüfen der entsprechenden Dokumentation und das Anpassen von Prioritäten, um einen reibungsloseren Betrieb in Adobe Journey Optimizer sicherzustellen.
 
-Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} unter „Problembehandlung“.
+Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} unter „Problembehandlung“.
 
 Siehe auch [diesen Artikel über veraltete Zielgruppenzahlen](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
@@ -164,7 +203,7 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zur Aktivität **Profil aktualisieren** in Journey finden Sie [ dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch die Dokumentation zu Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Siehe auch die Dokumentation zu Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -174,9 +213,9 @@ Die Diskrepanz kann auftreten, wenn der Journey den Profilschnappschuss eines vo
 
 Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Journey Optimizer-Community-Beitrag](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Journey Optimizer-Community-Beitrag](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Siehe auch die [Adobe Experience Platform-Zeitpläne-API](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
+Siehe auch die [Adobe Experience Platform-Zeitpläne-API](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
 +++
 
@@ -189,24 +228,78 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zur Aktivität **Profil aktualisieren** in Journey finden Sie [ dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch die [Adobe Real-Time CDP-Profildokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Siehe auch die [Adobe Real-Time CDP-Profildokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
-+++ Wie kann ich Probleme mit dem Journey-Trigger nach Zielgruppenänderungen in Adobe Journey Optimizer beheben? 
++++ Warum ist die Anzahl der aktivierbaren Profile in einem kurzen Zeitraum deutlich gestiegen? 
 
-Wenn ein Journey nach Änderungen an seiner zugehörigen Zielgruppe, z. B. Änderungen an der Zusammenführungsrichtlinie, nicht mehr ausgelöst wird, kann es zu unterbrochenen Kampagnenflüssen kommen. Um dies zu beheben, **duplizieren und veröffentlichen Sie die Journey erneut** mit den aktualisierten Zielgruppeneinstellungen, um sicherzustellen, dass die Trigger ordnungsgemäß funktionieren.
+Die **Engageable Profiles**-Metrik gibt die Anzahl der eindeutigen Profile an, die von Journey oder Kampagnen in den letzten 12 Monaten aktiviert wurden. Ein plötzlicher Anstieg kann auftreten, wenn große Zielgruppen angesprochen werden oder sich die Datensätze ändern. Um dies zu verwalten, überprüfen Sie die **Profilzählungslogik** untersuchen Sie Journey, die auf große Zielgruppen abzielen **filtern Sie Zielgruppen** auf Journey-Ebene, reduzieren Sie die **adressierbare Zielgruppengröße** und überwachen Sie **Datensatzänderungen**.
 
-Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Überwachen Sie die Lizenznutzung Ihres Unternehmens und ansprechbare Profile mithilfe des [Lizenznutzungs-Dashboards](../audience/license-usage.md)
+
+Siehe auch die [Übersicht über den Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}.
+
++++
+
++++ Warum werden E-Mails an Personen außerhalb der vorgesehenen Zielgruppe basierend auf Datumsfunktionen gesendet?
+
+E-Mails können an Empfängerinnen und Empfänger gesendet werden **die die angegebenen Zielgruppenkriterien nicht**. Beispielsweise können Mitglieder mit Einlösungsterminen **vor dem 4. Juli 2025** E-Mails erhalten, die nur für diejenigen nach diesem Datum bestimmt sind. Dieses Verhalten kann aus **falsch konfigurierten Zielgruppensegmentierung** oder **unerwarteten Änderungen in der Profilqualifikationslogik)**.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Weitere Informationen zu Datumsfunktionen [auf dieser Seite](../../rp_landing_pages/date-landing-page.md).
+
++++
+
++++ Wie kann ich beim Speichern von Journey Probleme bei der Zielgruppenauswahl und Chrome-Fehler beheben?
+
+Das Hinzufügen von Zielgruppen zu Journey-Bedingungen kann manchmal zu **Anwendungsabstürzen** oder einem „Aw **Snap-Fehler“** Chrome führen, einschließlich der Fehler beim Speichern von Journey. Diese Probleme stehen häufig im Zusammenhang mit **Chromium-Services**. Um sie zu beheben, wenden Sie ein **Browser-Update** an oder verwenden Sie eine geeignete **Problemumgehung**.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26145){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
++++
+
+## Journeys {#ajo-troubleshooting-journeys}
+
+### Journey-Versionen {#ajo-troubleshooting-journey-versions}
+
++++ Warum gehen Ausdrücke beim Erstellen einer neuen Journey-Version verloren?  
+
+Beim Erstellen einer neuen Journey-Version **Ausdrücke in bestimmten Schritten** verloren gehen, was zu Fehlern führen kann und eine erneute manuelle Eingabe erforderlich macht. Um dies zu beheben, **duplizieren Sie die Journey**, testen Sie auf Reproduzierbarkeit **vermeiden Sie Browser-** und verwenden Sie die **aktualisierte Arbeitsfläche** für ältere Journey.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
 
 Wie man eine Journey dupliziert ([ dieser Seite](../building-journeys/journey-ui.md#duplicate-a-journey).
 
 +++
 
+### Ein- und Ausstieg {#ajo-troubleshooting-journeys-exit}
 
-## Journeys
++++ Warum verlassen Profile Journey vorzeitig? 
 
-### Ereignisse
+Profile verlassen möglicherweise unerwartet eine Journey, ohne einen angegebenen Knoten zu durchlaufen, wenn die **Bedingung zur Überprüfung des Feedback-Status** der gesendeten Nachrichten falsch konfiguriert ist. Um dies zu beheben, überprüfen Sie die **Bedingungslogik**, implementieren Sie **alternative Logik** oder wenden Sie sich an Ihr **Implementierungs-Team**.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26127){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Siehe auch [Design-Richtlinien für Journey](../building-journeys/using-the-journey-designer.md).
+
++++
+
+
++++ Warum verlassen Profile unerwartet die Journey?
+
+Profile verlassen eine Journey möglicherweise unerwartet, wenn **Ereignisbegrenzung** auftritt, wodurch einige Profile verworfen werden, wenn die Anzahl der verarbeiteten Ereignisse die Systemkapazität überschreitet. Um Profilaustritte zu reduzieren, verstehen Sie die **Systembeschränkungen**, überwachen Sie **Ereignisspitzen** und optimieren Sie **Datenfluss**, um das Überschreiten von Schwellenwerten zu verhindern.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Siehe auch [Journey-Schutzmechanismen](../start/guardrails.md#journey-guardrails).
+
++++
+
+### Ereignisse {#ajo-troubleshooting-journey-events}
 
 +++ Warum löst mein Ereignis nicht die beabsichtigte Journey aus?  
 
@@ -217,6 +310,43 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 Weitere Informationen zu Ereignissen [auf dieser Seite](../event/about-events.md).
 
 Siehe auch [Schutzmechanismen für Journey-Ereignisse](../start/guardrails.md#events).
+
++++
+
+
++++ Wie kann ich Probleme mit dem Journey-Trigger nach Zielgruppenänderungen in Adobe Journey Optimizer beheben? 
+
+Wenn ein Journey nach Änderungen an seiner zugehörigen Zielgruppe, z. B. Änderungen an der Zusammenführungsrichtlinie, nicht mehr ausgelöst wird, kann es zu Unterbrechungen der Datenflüsse kommen. Um dies zu beheben, **duplizieren und veröffentlichen Sie die Journey erneut** mit den aktualisierten Zielgruppeneinstellungen, um sicherzustellen, dass die Trigger ordnungsgemäß funktionieren.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Wie man eine Journey dupliziert ([ dieser Seite](../building-journeys/journey-ui.md#duplicate-a-journey).
+
++++
+
+### Benutzerdefinierte Aktionen {#ajo-troubleshooting-journeys-actions}
+
++++ Warum tritt bei einer benutzerdefinierten Aktion, die einen externen Drittanbieter-Endpunkt aufruft, eine Zeitüberschreitung auf?
+
+Zeitüberschreitungsfehler können auftreten, wenn eine **benutzerdefinierte Aktion** einen externen Drittanbieter-Endpunkt aufruft. Um dies zu beheben, stellen Sie sicher, dass der **Endpunkt zugänglich ist**, überprüfen Sie **Serverprotokolle**, stellen Sie sicher, dass **keine Blockierung von Adobe** erfolgt, aktualisieren Sie die Endpunktkonfigurationen nach Bedarf und **Sie nach Aktualisierungen testen**. Achten Sie außerdem auf **API-Aufruf-Zeitüberschreitungsspezifikationen**.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Weitere Informationen zur Journey-Einschränkungs-API [auf dieser Seite](../configuration/throttling.md).
+
+Siehe auch die [Dokumentation zur Integration in externe Systeme](../configuration/external-systems.md).
+
++++
+
+## Regeln {#ajo-troubleshooting-rules}
+
++++ Warum funktioniert das Dropdown-Menü „Begrenzungsregeln“ nicht?
+
+Probleme mit dem **Dropdown „Begrenzungsregeln** treten häufig auf, wenn Regelsätze **falsch konfiguriert** oder nicht **werden**. Stellen Sie sicher, dass alle Regelsätze korrekt konfiguriert und verfügbar sind, um das Problem zu beheben.
+
+Weitere Informationen finden [ unter &quot;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"} zur Fehlerbehebung“.
+
+Erfahren Sie in [ Abschnitt, wie Sie Begrenzungsregeln ](../conflict-prioritization/rule-sets.md).
 
 +++
 
@@ -232,6 +362,17 @@ Weitere Informationen zu Angebotssammlungen [auf dieser Seite](../offers/offer-l
 
 +++
 
++++ Warum kann ich nicht auf Offer Decisioning zugreifen?  
+
+Bei der Integration von Adobe Target in eine Anwendung mithilfe von Adobe Journey Optimizer ist die Option **Offer Decisioning** möglicherweise nicht in der Datenstromkonfiguration verfügbar. Dies geschieht normalerweise aufgrund von **Berechtigungseinstellungen** oder **Bereitstellungsbeschränkungen**. Um das Problem zu beheben, überprüfen Sie die Benutzerberechtigungen und stellen Sie sicher, dass die erforderliche Bereitstellung vorhanden ist.
+
+Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+
+Weitere Informationen zu den erforderlichen Berechtigungen für Offer Decisioning finden [ auf dieser Seite ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management).
+
++++
+
+
 
 ## Mehrsprachig {#ajo-troubleshooting-multilingual}
 
@@ -243,7 +384,7 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zu mehrsprachigen Inhalten [ Sie auf dieser Seite](../content-management/multilingual-gs.md).
 
-++
++++
 
 
 ## Konfiguration {#ajo-troubleshooting-config}
@@ -269,4 +410,17 @@ In Adobe Journey Optimizer können Dashboards nicht direkt aus Abfragen erstellt
 
 Weitere Informationen finden [ unter &quot;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26201){target="_blank"} zur Fehlerbehebung“.
 
-++
++++
+
+## APIs {#ajo-troubleshooting-apis}
+
++++ Wie kann ich Zugriffsprobleme mit der Abfrage-Service-API beheben?  
+
+Zugriffsfehler bei Verwendung der **Abfrage-Service-API** über Postman oder ähnliche Tools werden in der Regel durch **unzureichende Berechtigungen** verursacht. Um dies zu beheben, überprüfen Sie Benutzerberechtigungen, überprüfen Sie die API-Anmeldeinformationen und geben Sie detaillierte Informationen an, um bei Bedarf zu unterstützen.
+
+Weitere Informationen finden [ unter &quot;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} zur Fehlerbehebung“.
+
+Siehe auch die Dokumentation [Verwalten von API-Anmeldeinformationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}.
+
++++
+
