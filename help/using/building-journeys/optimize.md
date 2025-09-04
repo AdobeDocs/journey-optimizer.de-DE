@@ -13,10 +13,10 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 8%
+source-wordcount: '1226'
+ht-degree: 7%
 
 ---
 
@@ -33,18 +33,13 @@ ht-degree: 8%
 
 Mit der Aktivität **Optimieren** können Sie festlegen, wie Kontakte über Ihren Journey voranschreiten, indem Sie mehrere **Pfade** basierend auf bestimmten Kriterien erstellen, einschließlich Experimentieren, Targeting und bestimmten Bedingungen. So stellen Sie ein Höchstmaß an Interaktion und Erfolg sicher, um hochgradig angepasste und effektive Journey zu erstellen.
 
-Ein **Journey-Pfad** kann aus einem der folgenden Elemente bestehen:
+Ein Journey **Pfad** kann aus einer der folgenden Variablen bestehen: Sequenzierung der Kommunikation, dazwischen liegende Zeit, Anzahl der Kommunikationen oder eine beliebige Kombination dieser drei Variablen.
 
-* Sequenzierung der Kommunikation;
-* Zeit zwischen ihnen;
-* Anzahl der Mitteilungen;
-* oder eine beliebige Kombination dieser drei Variablen.
-
-Ein Pfad kann beispielsweise eine E-Mail enthalten, ein anderer zwei SMS-Nachrichten und ein dritter eine E-Mail, einen [Warte](wait-activity.md)-Knoten mit zwei Stunden und dann eine SMS-Nachricht.
+Ein Pfad kann beispielsweise eine E-Mail enthalten, ein anderer zwei SMS-Nachrichten und ein dritter eine E-Mail, einen Warteknoten von zwei Stunden und dann eine SMS-Nachricht.
 
 <!--With this feature, [!DNL Journey Optimizer] empowers you with the tools to deliver personalized and optimized paths to your audience, ensuring maximum engagement and success to create highly customized and effective journeys.-->
 
-Mit der Aktivität **Optimieren** können Sie:
+Durch die Aktivität **Optimieren** können Sie die folgenden Aktionen für die resultierenden Pfade ausführen:
 
 * Ausführen [Pfadexperimenten](#experimentation)
 * Nutzen [Targeting](#targeting)-Regeln in jedem Journey-Pfad
@@ -85,20 +80,17 @@ Angenommen, Sie möchten drei Pfade vergleichen:
     Consider adding an example in this step: For this example, select this metric to test xxx.
     -->
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
-<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
-
-1. Sie können eine &quot;**[!UICONTROL &quot;-]** zu Ihrem Versand hinzufügen. Diese Gruppe erhält keine Inhalte aus diesem Experiment.
+1. Sie können eine &quot;**[!UICONTROL &quot;-]** zu Ihrem Versand hinzufügen. Diese Gruppe gibt keinen Pfad aus diesem Experiment ein.
 
    >[!NOTE]
    >
    >Wenn Sie den Umschalter aktivieren, werden automatisch 10 % Ihrer Population übernommen. Sie können diesen Prozentsatz bei Bedarf anpassen.
 
    <!--
-    [!IMPORTANT]
-    >
-    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    DOES THIS APPLY TO PATH EXPERIMENT?
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
 1. Sie können jeder **[!UICONTROL Variante“ einen bestimmten Prozentsatz zuweisen]** einfach den Umschalter **[!UICONTROL Gleichmäßig verteilen]** aktivieren.
 
@@ -122,7 +114,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
    ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
-1. Von dort aus können Sie mithilfe des linken Bereichs zwischen den verschiedenen Inhalten für jede Aktion in Ihrem Experiment navigieren. Entwerfen Sie alle Inhalte nach Bedarf.
+1. Von dort aus können Sie mithilfe des linken Bereichs zwischen den verschiedenen Inhalten für jede Aktion in Ihrem Experiment navigieren. Wählen Sie jeden Inhalt aus und entwerfen Sie ihn nach Bedarf.
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
@@ -130,7 +122,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten funktioniert, und liefert verwertbare Einblicke.
 
-Verfolgen Sie den Erfolg Ihres Journey mit dem Bericht Optimieren/Experiment [Journey](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Verfolgen Sie den Erfolg Ihres Journey mit dem Journey-Pfad-Experimentbericht.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Anwendungsfälle für Experimente {#uc-experiment}
 
@@ -140,17 +132,17 @@ Die folgenden Beispiele zeigen, wie Sie mit der Aktivität **[!UICONTROL Optimie
 
 Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder SMS zu höheren Konversionen führt.
 
-* Konversionsrate als Optimierungsmetrik verwenden (z. B.: Käufe, Anmeldungen).
+➡️ Konversionsrate als Optimierungsmetrik verwenden (z. B.: Käufe, Anmeldungen).
 
-<!--![](assets/journey-optimize-experiment-uc.png)-->
+![](assets/journey-optimize-experiment-uc.png)
 
 +++
 
 +++Nachrichtenfrequenz
 
-Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mail im Vergleich zu drei E-Mails pro Woche zu mehr Käufen führt.
+➡️ Führen Sie ein Experiment aus, um zu überprüfen, ob der Versand einer E-Mail im Vergleich zu drei E-Mails pro Woche zu mehr Käufen führt.
 
-* Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
+Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
 
 +++
 
@@ -158,13 +150,13 @@ Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mai
 
 Vergleich einer Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden vor einer Nachbeobachtung, um zu bestimmen, welcher Zeitpunkt die Interaktion maximiert.
 
-* Verwenden Sie die Clickthrough-Rate oder den Umsatz als Optimierungsmetrik.
+➡️ Verwenden Sie die Clickthrough-Rate oder den Umsatz als Optimierungsmetrik.
 
 +++
 
 ## Verwenden von Targeting {#targeting}
 
-Beim Targeting können Sie auf der Grundlage bestimmter Zielgruppensegmente bestimmte Regeln oder Qualifikationen festlegen, die erfüllt sein müssen, damit eine Kundin oder ein Kunde für den Eintritt in einen der Journey-Pfade berechtigt ist<!-- depending on profile attributes or contextual attributes-->.
+Mit Targeting-Regeln können Sie bestimmte Regeln oder Qualifikationen festlegen, die eine Kundin oder ein Kunde basierend auf bestimmten Zielgruppensegmenten erfüllen muss, um für den Eintritt in einen der Journey-Pfade berechtigt zu <!-- depending on profile attributes or contextual attributes-->.
 
 Im Gegensatz zu Experimenten, bei denen es sich um eine zufällige Zuweisung eines bestimmten Pfads handelt, ist die Zielgruppenbestimmung deterministisch, indem sichergestellt wird, dass die richtige Zielgruppe oder das richtige Profil in den angegebenen Pfad eintritt.
 
@@ -184,7 +176,7 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
 1. Wählen **[!UICONTROL Zielgruppenbestimmungsregel]** aus der Dropdown **[!UICONTROL Liste]** Methode“ aus.
 
-   ![](assets/journey-optimize-targeting.png){width=75%}
+   ![](assets/journey-optimize-targeting.png){width=70%}
 
 1. Klicken Sie **[!UICONTROL Zielgruppenregel erstellen]**.
 
@@ -194,7 +186,7 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
 1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe Standardinhalte empfangen, wenn keine Targeting-Regeln qualifiziert sind. Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine der oben definierten Zielgruppenbestimmungsregeln qualifiziert, keinen Fallback-Pfad ein.
 
-1. Speichern Sie Ihre Einstellungen für die Targeting-Regel.
+1. Klicken Sie **[!UICONTROL Erstellen]** um Ihre Einstellungen für die Zielgruppenregel zu speichern.
 
 1. Legen Sie bestimmte Aktionen auf der Journey ab, um jeden Pfad anzupassen. Erstellen Sie beispielsweise eine E-Mail mit personalisierten Angeboten für Mitglieder des Treueprogramms Gold und eine SMS-Erinnerung für alle anderen Mitglieder.
 
@@ -202,7 +194,7 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
 1. Verwenden Sie optional den **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** um eine Ausweichaktion zu definieren. [Weitere Informationen](using-the-journey-designer.md#paths)
 
-1. Entwerfen Sie für jede Aktion geeignete Inhalte, die einer durch Ihre Zielgruppenregeleinstellungen definierten Gruppe entsprechen. Sie können für jede Aktion nahtlos zwischen den verschiedenen Inhalten navigieren.
+1. Entwerfen Sie geeignete Inhalte für jede Aktion, die jeder durch Ihre Zielgruppenregeleinstellungen definierten Gruppe entspricht. Sie können für jede Aktion nahtlos zwischen den verschiedenen Inhalten navigieren.
 
    ![](assets/journey-targeting-design.png)
 
@@ -212,17 +204,19 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
 Sobald die Journey live ist, wird der für jedes Segment angegebene Pfad verarbeitet, sodass Gold-Mitglieder den Pfad mit den E-Mail-Angeboten eingeben, während die anderen Mitglieder den Pfad mit der SMS-Erinnerung eingeben.
 
-### Anwendungsfälle für Targeting {#uc-targeting}
+Folgen Sie dem Erfolg Ihres Journey mit dem Journey-Pfad-Targeting-Bericht.<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
-Die folgenden Beispiele zeigen, wie die Aktivität **[!UICONTROL Optimieren]** mit der Methode **[!UICONTROL Targeting]** verwendet wird, um Pfade für verschiedene Unterzielgruppen zu personalisieren.
+### Anwendungsfälle für Targeting-Regeln {#uc-targeting}
+
+Die folgenden Beispiele zeigen, wie die Aktivität **[!UICONTROL Optimieren]** mit der Methode **[!UICONTROL Targeting-Regel]** verwendet wird, um Pfade für verschiedene Unterzielgruppen zu personalisieren.
 
 +++Segmentspezifische Kanäle
 
 Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote per E-Mail erhalten, während alle anderen Mitglieder zu SMS-Erinnerungen weitergeleitet werden.
 
-* Verwenden Sie die Metrik Umsatz pro Profil oder Konversionsrate als Optimierungsmetrik.
+➡️ Verwenden Sie den Umsatz pro Profil oder die Konversionsrate als Optimierungsmetrik.
 
-<!--![](assets/journey-optimize-targeting-uc.png)-->
+![](assets/journey-optimize-targeting-uc.png)
 
 +++
 
@@ -230,7 +224,7 @@ Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote p
 
 Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-Benachrichtigung erhalten, während diejenigen, die überhaupt nicht geöffnet haben, eine SMS erhalten.
 
-* Verwenden Sie die Clickthrough-Rate oder nachgelagerte Konversionen als Optimierungsmetrik.
+➡️ Verwenden Sie die Clickthrough-Rate oder nachgelagerte Konversionen als Optimierungsmetrik.
 
 +++
 
@@ -238,7 +232,7 @@ Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-
 
 Kunden, die kürzlich gekauft haben, können einen kurzen „Danke + Crosssell“-Weg einschlagen, während Kunden ohne Kaufhistorie eine längere Pflege-Journey erhalten.
 
-* Verwenden Sie die Wiederholungskaufrate oder Interaktionsrate als Optimierungsmetrik.
+➡️ Verwenden Sie die Wiederholungskaufrate oder Interaktionsrate als Optimierungsmetrik.
 
 +++
 
