@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 87%
@@ -138,6 +138,7 @@ Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn noch genügend Zei
 Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde die maximale globale Wartezeit für Journeys von 30 auf 91 Tage umgestellt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
 
 **Für einheitliche Journeys**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
