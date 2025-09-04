@@ -4,13 +4,14 @@ product: Journey Optimizer
 title: Erstellen einer Journey
 description: Erstellen einer Journey
 redpen-status: CREATED_||_2025-08-11_20-07-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+version: Journey Orchestration
+exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Erstellen einer Journey{#section-overview}
 
@@ -20,7 +21,7 @@ Das Erstellen eines Journey in Adobe Journey Optimizer ermöglicht es Ihnen, per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 So erstellen Sie Ihre erste Kunden-Journey
 
@@ -30,7 +31,7 @@ Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie Ihre erste Kunden-Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
@@ -40,7 +41,7 @@ Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 So entwerfen Sie Ihren Journey
 
@@ -50,7 +51,7 @@ Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Testen des Journey
 
@@ -60,7 +61,7 @@ Testen Sie Ihre Journey mit simulierten Profilen und erkennen Sie Fehler, bevor 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Testen von Journey im Probelauf-Modus
 
@@ -70,7 +71,7 @@ Validieren Sie Ihre Journey mit echten Produktionsdaten, ohne sich an Kunden zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Veröffentlichen einer Journey
 
