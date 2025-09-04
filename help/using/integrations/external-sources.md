@@ -11,10 +11,10 @@ keywords: Integration
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 90%
 
 ---
 
@@ -30,6 +30,18 @@ Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbi
 * **Preisinformationen** für Produkte.
 * **Produktempfehlungen** aus Empfehlungs-Engines.
 * **Logistische Updates** wie Versandstatus.
+
+## Beta-Einschränkungen {#limitations}
+
+Die Beta-Version weist die folgenden Einschränkungen auf:
+
+* Ausgehende Kanäle werden nur unterstützt.
+
+* Für API-Aufrufantworten wird nur das JSON-Format unterstützt. HTML- und Raw-Binärbildausgaben sind nicht verfügbar.
+
+* Es werden nur Abruf-APIs unterstützt, die auf bestimmte Inhalte abzielen. Auflistungs-APIs sind nicht verfügbar.
+
+* Die Integrationsfunktion ist sowohl für Journey als auch für Kampagnen verfügbar, wird aber in Fragmenten nicht unterstützt.
 
 ## Konfigurieren Ihrer Integration {#configure}
 
