@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,6 @@ Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zue
 
 ## Hinzufügen eines alternativen Pfads {#canvas-add-path}
 
-Für den Fall eines Fehlers können Sie eine Ausweichaktion für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Bedingung]** und **[!UICONTROL Aktion]**.
+Für den Fall eines Fehlers können Sie eine Ausweichaktion für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Optimieren]** und **[!UICONTROL Action]**.
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zur Fortsetzung der Journey besteht in der Behebung des Problems. Um eine Unterbrechung der Journey zu vermeiden, können Sie auch die Option **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** in den Eigenschaften der Aktivität aktivieren. Weiterführende Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
