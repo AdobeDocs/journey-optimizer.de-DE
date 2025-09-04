@@ -164,7 +164,7 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zur Aktivität **Profil aktualisieren** in Journey finden Sie [ dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch die Dokumentation zu Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Siehe auch die Dokumentation zu Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
