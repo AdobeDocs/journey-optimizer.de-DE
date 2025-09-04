@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 79%
 
 ---
 
 # Einrichten einer benutzerdefinierten Subdomain {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [Einrichtung von CNAME](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der Methode **Benutzerdefinierte Delegierung** die Eigentümerschaft für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
 
@@ -66,8 +68,8 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="Schlüssellänge auswählen"
+>abstract="Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden."
 
 1. Klicken Sie im Abschnitt **[!UICONTROL SSL-Zertifikat]** auf **[!UICONTROL CSR generieren]**.
 
@@ -85,13 +87,35 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
    >
    >Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
 
-1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer. Senden Sie es an die Zertifizierungsstelle, um Ihr SSL-Zertifikat zu erhalten.
+1. Klicken Sie **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular auf Ihrem lokalen Computer.
 
-1. Klicken Sie nach dem Erhalt auf **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat im .pem-Format in [!DNL Journey Optimizer] hoch.
+1. Senden Sie es an die Zertifizierungsstelle, um Ihr SSL-Zertifikat zu erhalten. Bevor Sie diese CSR zur Unterzeichnung an Ihre Zertifizierungsstelle senden, sollten Sie einige wichtige Punkte beachten:
 
-   >[!CAUTION]
-   >
-   >Sowohl Daten- als auch CDN-Subdomains müssen im selben Zertifikat enthalten sein.
+   * Die heruntergeladene CSR aus Schritt 3 gilt nur für data.subdomain.com.
+
+   * Das Zertifikat sollte jedoch sowohl data.subdomain.com als auch cdn.subdomain.com als Subjekt-Alternativnamen (SAN) in einem einzigen Zertifikat abdecken. Wenn Sie beispielsweise example.adobe.com delegieren, entspricht data.subdomain.com data.example.adobe.com und cdn.subdomain.com cdn.example.adobe.com.
+
+   * Die Subdomains von Daten (data.example.adobe.com) und CDN (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden.
+
+   * Die meisten CAs ermöglichen es Ihnen, während des Signiervorgangs zusätzliche SANs hinzuzufügen (z. B. die CDN-Subdomain)
+
+      * Über das CA-Portal (empfohlen, falls verfügbar) oder
+      * Durch manuelles Anfragen beim Support-Team, wenn die Portaloption nicht verfügbar ist.
+
+   * Nach der Unterzeichnung stellt die Zertifizierungsstelle ein einziges Zertifikat aus, das sowohl die Data Domain als auch die CDN-Subdomain umfasst.
+
+1. Klicken Sie nach dem Abrufen **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat mit der vollständigen Zertifikatskette im .pem-Format in [!DNL Journey Optimizer] hoch. Im Folgenden finden Sie ein Beispiel für ein .pem-Dateiformat:
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
 

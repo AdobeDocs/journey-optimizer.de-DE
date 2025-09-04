@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 45e50b7d9fa93bd1b01c25afcb358f67a789f90c
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 68%
+source-wordcount: '1898'
+ht-degree: 69%
 
 ---
 
@@ -23,6 +23,44 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Updates vom 25. September {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Methode zur Delegierung von Subdomains</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Neben der vollständigen Delegierung und CNAME-Methode ist nun eine neue Methode zur Subdomain-Konfiguration verfügbar: die benutzerdefinierte Delegierung, mit der Sie alle Aspekte von DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/delegate-custom-subdomain.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 4. September 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journey path optimization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>-->
 
 <table>
 <thead>
@@ -160,25 +198,6 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 </tr>
 </tbody>
 </table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey path optimization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
-<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 <table>
 <thead>
