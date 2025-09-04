@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie eine Liste von Artikeln zur Fehlerbehebung bei Adobe Journey Optimizer. Jeder Abschnitt zur Fehlerbehebung enthält Antworten auf häufig gestellte Fragen und Lösungen für Probleme.
 
-Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentation zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
+Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentation zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}.
 
 ## E-Mail-Kanal {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ Siehe auch Häufig gestellte Fragen zu [Adobe Experience Platform und Dokumentat
 
 In Adobe Journey Optimizer (AJO) kann die Änderung der standardmäßigen CSS-Blöcke in der E-Mail-Kopfzeile zu unerwarteten Formatierungsproblemen führen - insbesondere nach dem Entfernen von Inhaltsfragmenten. Diese Probleme treten auf Mobilgeräten deutlicher zutage und können zu Layout-Verschiebungen oder Inkonsistenzen in der Formatierung führen. Um dies zu verhindern, verwenden Sie die Funktion „Designs“, um benutzerdefiniertes CSS sicher anzuwenden, ohne die vom System generierten CSS-Stile zu ändern.
 
-Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} unter „Problembehandlung“.
+Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} unter „Problembehandlung“.
 
 Weitere Informationen zur E-Mail-Formatierung [auf dieser Seite](../email/get-started-email-design.md).
 
@@ -135,7 +135,7 @@ Weitere Informationen zur Opt-out-Konfiguration für SMS [auf dieser Seite](../s
 
 Unternehmen, die neue Sandboxes in Adobe Journey Optimizer bereitstellen, haben Fragen darüber aufgeworfen, wie die TTL-Einstellungen (Time-to-Live) auf Profil- und Data-Lake-Datensätze angewendet werden. In diesem Artikel wird klargestellt, dass TTL-Einstellungen keine Auswirkungen auf bestehende Sandboxes haben und automatisch nur auf neu bereitgestellte angewendet werden.
 
-Informationen [ Umgang mit TTL finden Sie ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} diesem Artikel zur Fehlerbehebung .
+Informationen [ Umgang mit TTL finden Sie ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} diesem Artikel zur Fehlerbehebung .
 
 Weitere Informationen zur Lebensdauer von Datensätzen finden Sie [auf dieser Seite](../data/datasets-ttl.md).
 
@@ -148,7 +148,7 @@ Weitere Informationen zur Lebensdauer von Datensätzen finden Sie [auf dieser Se
 
 Die Anzahl der verarbeiteten Einträge in der Funktion **Zielgruppe lesen** von Adobe Journey Optimizer kann niedriger sein als die erwartete Zielgruppenanzahl. Dieses Problem tritt häufig aufgrund falscher Namespace-Konfigurationen auf, was dazu führt, dass Profile aus Journey ausgeschlossen werden. Die Lösung umfasst das Überprüfen und Korrigieren von Namespace-Konfigurationen, das Überprüfen der entsprechenden Dokumentation und das Anpassen von Prioritäten, um einen reibungsloseren Betrieb in Adobe Journey Optimizer sicherzustellen.
 
-Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} unter „Problembehandlung“.
+Weitere Informationen [ Beheben dieses Problems finden ](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} unter „Problembehandlung“.
 
 Siehe auch [diesen Artikel über veraltete Zielgruppenzahlen](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
@@ -164,7 +164,7 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zur Aktivität **Profil aktualisieren** in Journey finden Sie [ dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch die Dokumentation zu Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
+Siehe auch die Dokumentation zu Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}.
 
 +++
 
@@ -174,9 +174,9 @@ Die Diskrepanz kann auftreten, wenn der Journey den Profilschnappschuss eines vo
 
 Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Journey Optimizer-Community-Beitrag](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Journey Optimizer-Community-Beitrag](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
 
-Siehe auch die [Adobe Experience Platform-Zeitpläne-API](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
+Siehe auch die [Adobe Experience Platform-Zeitpläne-API](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"} um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
 +++
 
@@ -189,7 +189,7 @@ Unter [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/
 
 Weitere Informationen zur Aktivität **Profil aktualisieren** in Journey finden Sie [ dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch die [Adobe Real-Time CDP-Profildokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
+Siehe auch die [Adobe Real-Time CDP-Profildokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}.
 
 +++
 
