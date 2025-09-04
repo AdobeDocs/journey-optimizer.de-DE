@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
+source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1202'
 ht-degree: 7%
 
 ---
@@ -122,7 +122,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten funktioniert, und liefert verwertbare Einblicke.
 
-Verfolgen Sie den Erfolg Ihres Journey mit dem Journey-Pfad-Experimentbericht.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Anwendungsfälle für Experimente {#uc-experiment}
 
@@ -204,7 +204,7 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
 Sobald die Journey live ist, wird der für jedes Segment angegebene Pfad verarbeitet, sodass Gold-Mitglieder den Pfad mit den E-Mail-Angeboten eingeben, während die anderen Mitglieder den Pfad mit der SMS-Erinnerung eingeben.
 
-Folgen Sie dem Erfolg Ihres Journey mit dem Journey-Pfad-Targeting-Bericht.<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Anwendungsfälle für Targeting-Regeln {#uc-targeting}
 
