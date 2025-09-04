@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
@@ -161,4 +162,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifikation“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifikation erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
