@@ -4,8 +4,9 @@ product: journey optimizer
 title: Verwenden der Aktivität „Kombinieren“
 description: Erfahren Sie, wie Sie die Aktivität „Kombinieren“ verwenden.
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 100%
 

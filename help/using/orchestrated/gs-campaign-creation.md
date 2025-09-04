@@ -4,8 +4,9 @@ product: journey optimizer
 title: Wichtige Schritte beim Erstellen einer orchestrierten Kampagne
 description: Informationen zu grundlegenden Prinzipien der Erstellung von orchestrierten Kampagnen mit Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
