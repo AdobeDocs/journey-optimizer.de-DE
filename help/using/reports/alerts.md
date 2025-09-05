@@ -40,7 +40,7 @@ Sie werden wie folgt aufgelistet und jede Warnmeldung wird nachfolgend beschrieb
 
 * Spezifische Warnhinweise für Journey:
 
-   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [](#alert-custom-actions)Journey
+   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [&#128279;](#alert-custom-actions)Journey
    * Warnhinweis [Zielgruppen-Trigger lesen ](#alert-read-audiences) nicht erfolgreich)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
