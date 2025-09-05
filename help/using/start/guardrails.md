@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 064d060dcb939a633b423bf4414506d8e4320c99
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -211,7 +211,6 @@ Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audienc
 * Eine Journey kann nur über eine Aktivität **Zielgruppe lesen** verfügen.
 * Zusätzliche Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** finden Sie auf [dieser Seite](../building-journeys/read-audience.md).
 * Beim Abrufen des Exportauftrags werden standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
-
 
 Siehe auch [diese Seite](../building-journeys/read-audience.md#must-read).
 

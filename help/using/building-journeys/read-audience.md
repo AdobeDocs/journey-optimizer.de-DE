@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
-source-wordcount: '2333'
-ht-degree: 100%
+source-wordcount: '2400'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,10 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 * Sandbox-Durchsatzverwaltung: Das System verwaltet den Verarbeitungsdurchsatz pro Sandbox dynamisch, mit einer maximalen Begrenzung von 20.000 Profilen pro Sekunde, die zwischen allen Aktivitäten des Typs „Zielgruppe lesen“ geteilt werden. Einzelne Aktivitäten vom Typ „Zielgruppe lesen“ können mit einer Mindestrate von 500 Profilen pro Sekunde konfiguriert werden. Aufträge können in die Warteschlange gestellt werden, wenn Durchsatzbeschränkungen auf Sandbox-Ebene erreicht werden, um eine faire Ressourcenzuordnung zu gewährleisten.
 
 * Maximale Wartezeit bei der Auftragsverarbeitung: Aufträge vom Typ „Zielgruppe lesen“, die aufgrund von Begrenzungen von Leitlinien nicht innerhalb von 12 Stunden verarbeitet werden können, werden automatisch bereinigt und nie ausgeführt. Dadurch wird eine Akkumulation von Aufträgen verhindert und die Systemstabilität gewährleistet.
+
+* Stellen Sie bei der Verwendung von Batch-Segmenten sicher, dass Ihre Aufnahme und täglichen Snapshot-Updates lange vor dem Start des Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen werden. Wenn die sofortige Profilaktualisierung wichtig ist, sollten Sie einen ereignisbasierten oder Streaming-Anwendungsfall anstelle eines täglichen Batch-Ansatzes verwenden oder einen zusätzlichen Wartemechanismus einfügen, damit aktualisierte Daten vor der Journey-Auswertung propagiert werden können.
+
+
 
 Leitlinien im Zusammenhang mit der Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
 
