@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2063'
 ht-degree: 67%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 67%
 ### Verbesserungen {#Sep-25-improv}
 
 * **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
+
+  >[!NOTE]
+  >
+  >Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
 
 * **Administration**
 
