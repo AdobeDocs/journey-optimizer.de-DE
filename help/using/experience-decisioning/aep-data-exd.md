@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 95%
+source-wordcount: '1070'
+ht-degree: 50%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 95%
 
 [!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, sodass die Attribute nicht einzeln manuell aktualisiert werden müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
 
-Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]Unterstützt bis zu 1.000 Suchen für eine einzelne Entscheidungsrichtlinie.
 
-## Leitlinien und Einschränkungen {#guidelines}
+## Voraussetzungen
 
-Bevor Sie beginnen, beachten Sie die folgenden Einschränkungen und Richtlinien:
+### Aktivieren von Datensätzen für die Suche
 
-* Eine Entscheidungsrichtlinie kann für alle Entscheidungsregeln und Rangfolgenformeln zusammen auf bis zu drei Datensätze insgesamt verweisen. Wenn Ihre Regeln beispielsweise zwei Datensätze verwenden, können Ihre Formeln nur einen zusätzlichen Datensatz verwenden.
-* Eine Entscheidungsregel kann drei Datensätze verwenden.
-* Eine Rangfolgenformel kann drei Datensätze verwenden.
-* Wenn eine Entscheidungsrichtlinie ausgewertet wird, führt das System insgesamt bis zu 1.000 Datensatzabfragen (Suchen) durch. Jede von einem Entscheidungselement verwendete Datensatzzuordnung zählt als eine Abfrage. Wenn beispielsweise ein Entscheidungselement zwei Datensätze verwendet, zählt die Auswertung dieses Angebots als zwei Abfragen hinsichtlich des Limits von 1.000 Abfragen.
+Bevor Sie beginnen, müssen für die Entscheidungsfindung erforderliche Datensätze zunächst für die Suche aktiviert werden. Führen Sie die in diesem Abschnitt beschriebenen Schritte aus: [Verwenden von Adobe Experience Platform-Daten](../data/lookup-aep-data.md).
+
+### Erstellen von Zuordnungen
+
+Um Attribute aus Adobe Experience Platform für die Entscheidungsfindung zu verwenden, müssen Sie eine Zuordnung erstellen, um zu definieren, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Gehen Sie dazu wie folgt vor:
+
+1. Navigieren Sie zu **[!UICONTROL Kataloge]** / **[!UICONTROL Datensatzsuche]** und klicken Sie dann auf **[!UICONTROL Erstellen]**.
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. Konfigurieren Sie die Zuordnung:
+
+   1. Klicken Sie **[!UICONTROL Datensatz auswählen]**, um alle Adobe Experience Platform anzuzeigen, die für die Suche aktiviert wurden. Wählen Sie den Datensatz mit den benötigten Attributen aus.
+
+   1. Klicken Sie **[!UICONTROL Schlüssel auswählen]**, um einen Verbindungsschlüssel (z. B. Flugnummer oder Kunden-ID) auszuwählen, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist.
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Nutzen von Adobe Experience Platform-Daten {#leverage-aep-data}
 
-Sobald ein Datensatz für die Suche aktiviert ist, können Sie seine Attribute verwenden, um Ihre Entscheidungslogik mit externen Daten anzureichern. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise.
+Sobald ein Datensatz für die Suche aktiviert ist und Zuordnungen erstellt wurden, können Sie die Daten verwenden, um Ihre Entscheidungslogik mit externen Daten anzureichern. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise.
 
 Attribute aus Adobe Experience Platform-Datensätzen können in zwei Teilen der Entscheidungslogik verwendet werden:
 
 * **Entscheidungsregeln**: Definieren, ob ein Entscheidungselement angezeigt werden kann.
 * **Rangfolgenformeln**: Priorisieren Entscheidungselemente basierend auf externen Daten.
+* **Begrenzungsregeln**: Verwenden Sie externe Daten, um den Schwellenwert für Begrenzungsregeln zu berechnen.
 
-In den nächsten Abschnitten wird erläutert, wie Sie Adobe Experience Platform-Daten in beiden Kontexten verwenden.
+In den nächsten Abschnitten wird erläutert, wie Sie Adobe Experience Platform-Daten in diesen Kontexten verwenden.
 
 ### Entscheidungsregeln {#rules}
 
@@ -69,16 +87,9 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Entscheidungsrege
 
    ![](assets/exd-lookup-rule.png)
 
-1. Klicken Sie auf **[!UICONTROL Zuordnung erstellen]**, um zu definieren, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. 
+1. Klicken Sie **[!UICONTROL Datensatz hinzufügen]** und wählen Sie dann den Datensatz mit den benötigten Attributen aus.
 
-   * Wählen Sie den Datensatz mit den benötigten Attributen aus.
-   * Wählen Sie einen Verbindungsschlüssel aus (z. B. Produkt-ID oder Store-ID), der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist.
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >Sie können bis zu drei Zuordnungen pro Regel erstellen.
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**. Sie können jetzt im Menü **[!UICONTROL Datensatzsuche]** auf die Datensatzattribute zugreifen und sie in Ihren Regelbedingungen verwenden. [Erfahren Sie, wie Sie eine Entscheidungsregel erstellen können](../experience-decisioning/rules.md#create).
 
@@ -92,19 +103,54 @@ Nehmen wir beispielsweise an, eine Fluggesellschaft verwendet eine Rangfolgenfor
 
 Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Rangfolgenformeln zu verwenden:
 
-1. Erstellen oder bearbeiten Sie eine Rangfolgenformel. Klicken Sie im Abschnitt **[!UICONTROL Datensatzsuche]** auf **[!UICONTROL Zuordnung erstellen]**.
+1. Rangfolgenformel erstellen oder bearbeiten
 
-1. Definieren Sie die Datensatz-Zuordnung:
+1. Klicken **[!UICONTROL Abschnitt „Datensatzsuche]** auf **[!UICONTROL Datensatz hinzufügen]**.
 
-   * Wählen Sie den entsprechenden Datensatz aus (z. B. Sitzplatzverfügbarkeit nach Flug).
-   * Wählen Sie einen Verbindungsschlüssel aus (z. B. Flugnummer oder Kunden-ID), der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist.
+1. Wählen Sie den entsprechenden Datensatz aus.
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >Sie können bis zu drei Zuordnungen pro Rangfolgenformel erstellen.
+   >Wenn der gesuchte Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben. Weitere Informationen finden Sie im Abschnitt [Voraussetzungen](#prerequisites).
 
 1. Verwenden Sie die Datensatzfelder, um Ihre Rangfolgenformel wie gewohnt zu erstellen. [Weitere Informationen zum Erstellen einer Rangfolgenformel](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### Begrenzungsregeln {#capping-rules}
+
+Begrenzungsregeln dienen als Begrenzungen, um festzulegen, wie oft ein Entscheidungselement maximal angezeigt werden kann. Durch die Verwendung von Adobe Experience Platform-Daten in Begrenzungsregeln können Sie Begrenzungskriterien definieren, die auf dynamischen, externen Attributen basieren. Verwenden Sie dazu einen Ausdruck in Ihrer Begrenzungsregel, um den gewünschten Begrenzungsschwellenwert zu berechnen.
+
+Beispielsweise kann eine retailer ein Angebot auf der Grundlage des Echtzeit-Produktinventars begrenzen. Anstatt einen festen Schwellenwert von 500 festzulegen, verwenden sie einen Ausdruck, der aus einem Adobe Experience Platform-Datensatz auf das `inventory_count` verweist. Wenn der Datensatz zeigt, dass 275 Artikel noch auf Lager sind, wird das Angebot nur bis zu dieser Anzahl zugestellt.
+
+>[!NOTE]
+>
+>Begrenzungsregeln **Ausdrücke** sind derzeit für alle Benutzer als Funktion mit begrenzter Verfügbarkeit verfügbar und werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt.
+
+Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Begrenzungsregelausdrücke einzubeziehen:
+
+1. Erstellen oder bearbeiten Sie ein Entscheidungselement.
+
+1. Klicken Sie beim Definieren der Elementeignung auf **[!UICONTROL Datensatz hinzufügen]** und wählen Sie den entsprechenden Datensatz aus.
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >Wenn der gesuchte Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben. Weitere Informationen finden Sie im Abschnitt [Voraussetzungen](#prerequisites).
+
+1. Wählen Sie den Begrenzungstyp **[!UICONTROL Insgesamt]** und aktivieren Sie dann die Option **[!UICONTROL Ausdruck]**.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >Wenn der gesuchte Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben. Weitere Informationen finden Sie im Abschnitt [Voraussetzungen](#prerequisites).
+
+1. Bearbeiten Sie den Ausdruck und verwenden Sie die Datensatzfelder, um Ihren Ausdruck zu erstellen.
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. Schließen Sie die Konfiguration Ihres Begrenzungs- und Entscheidungsregelelements wie gewohnt ab. [Erfahren Sie, wie Sie Begrenzungsregeln festlegen](../experience-decisioning/items.md#capping)

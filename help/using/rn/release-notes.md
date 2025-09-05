@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Updates vom 25. September {#sep-updates}
+
+### Neue Funktionen {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 68%
 <li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucksfragmenten verwendet werden.</li>
 <li>Eine Option in der Oberfläche zur Datensatzverwaltung ermöglicht es Ihnen jetzt, auf Datensätzen basierende Datensätze für die Lookup-Personalisierung zu aktivieren, ohne einen API-Aufruf durchführen zu müssen.</li>
 <li>Verbesserte Überwachung, um den Datenaufnahmestatus zu verfolgen und zu wissen, wann Datensätze für die Suche bereit sind.</li>
-<li>Aktualisierte Nutzungsrichtlinien und Leitplanken, um eine optimale Leistung und Zuverlässigkeit sicherzustellen.</li></ul></p>
+<li>Aktualisierte Nutzungsrichtlinien und Leitplanken, um eine optimale Leistung und Zuverlässigkeit sicherzustellen.</li>
+<li>Adobe Experience Platform-Datensätze können jetzt in Entscheidungsbegrenzungsregeln genutzt werden.</li></ul></p>
 <p>Weitere Informationen finden Sie in der <a href="../data/lookup-aep-data.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 1. September 2025</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 68%
 </tbody>
 </table>
 
-### Verbesserungen {#Sept-25-8-improv}
+### Verbesserungen {#Sep-25-improv}
+
+* **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
 
 * **Administration**
 

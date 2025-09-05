@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 93%
+source-wordcount: '2125'
+ht-degree: 82%
 
 ---
 
@@ -109,7 +109,7 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informatio
 
 ## Festlegen von Begrenzungsregeln {#capping}
 
-Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
+Die Begrenzung wird als Einschränkung verwendet, um zu definieren, wie oft ein Angebotselement maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden ka
 >
 >Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen auf Ihrer Website ein Webbanner an, in dem ein Angebot vorgestellt wird. Wenn eine bestimmte Person in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diese Person nicht erhöht.
 
-Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie die folgenden Schritte aus:
+Beim Konfigurieren von Begrenzungsregeln können Sie auf Attribute verweisen, die in Adobe Experience Platform-Datensätzen gespeichert sind, um Schwellenwerte zu definieren. Um einen Datensatz zu verwenden, wählen Sie ihn im Abschnitt &quot;**[!UICONTROL &quot;]**.
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar. Detaillierte Informationen zur Verwendung finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
+
+Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie dann die folgenden Schritte aus.
+
+![](assets/item-capping-create.png)
 
 1. Legen Sie fest, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird.
 
@@ -139,9 +149,31 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft das Angebot derselben Person vorgeschlagen werden kann. Ein Beispiel: Sie sind eine Bank, die eine Platin-Kreditkarte anbietet, und dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Es wird angenommen, dass Benutzende, die das Angebot fünfmal gesehen und nicht darauf reagiert haben, eher das nächste beste Angebot nutzen.
 
-1. Geben Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** an, wie oft das Angebot allen Benutzenden oder pro Profil präsentiert werden kann, je nach gewählter Begrenzungsart. Der Wert muss eine Ganzzahl größer 0 sein.
+1. Definieren Sie den Begrenzungsschwellenwert. Dazu können Sie entweder einen statischen Wert eingeben oder den Schwellenwert mithilfe eines Ausdrucks berechnen. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+
+   +++Statischer Schwellenwert
+
+   Geben Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** an, wie oft das Angebot allen Benutzenden oder pro Profil präsentiert werden kann, je nach gewählter Begrenzungsart. Der Wert muss eine Ganzzahl größer 0 sein.
 
    Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Limit der Begrenzungsanzahl]** 10 eingeben, werden nach 10 Checkouts keine Angebote mehr gesendet.
+
+   +++
+
+   +++Schwellenwert für Ausdruck
+
+   Stattdessen können Sie mit einem statischen Wert für den Begrenzungsschwellenwert Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.
+
+   Beispielsweise kann ein Marketer beschließen, einen Multiplikator hinzuzufügen, um die Exposition anzupassen. Beispielsweise könnten sie den verfügbaren Bestand mit zwei multiplizieren, sodass das Angebot doppelt so vielen Kunden angezeigt wird wie die verfügbaren Einheiten. Dieser Ansatz geht davon aus, dass nicht alle Kunden konvertieren werden, um eine bessere Reichweite ohne Überverkäufe zu gewährleisten.
+
+   >[!NOTE]
+   >
+   >Begrenzungsregeln **Ausdrücke** sind derzeit nur in begrenztem Umfang für alle Benutzer verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt.
+
+   Um einen Ausdruck zu verwenden, aktivieren Sie die Option **[!UICONTROL Ausdruck]** und bearbeiten Sie dann den Ausdruck nach Bedarf.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. Legen Sie in der Dropdown-Liste **[!UICONTROL Begrenzungsfrequenz zurücksetzen]** die Frequenz fest, mit der der Begrenzungszähler zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an. Wenn Sie beispielsweise möchten, dass die Begrenzungsanzahl alle 2 Wochen zurückgesetzt wird, wählen Sie aus der entsprechenden Dropdown-Liste die Option **[!UICONTROL Wöchentlich]** aus und geben Sie in das andere Feld den Wert **2** ein.
 
@@ -188,3 +220,4 @@ Wenn Sie ein Entscheidungselement auswählen oder auf die Schaltfläche mit den 
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Archivieren]**: Setzt den Entscheidungsstatus auf **[!UICONTROL Archiviert]**. Das Entscheidungselement ist weiterhin in der Liste verfügbar, Sie können seinen Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können es nur duplizieren oder löschen.
+
