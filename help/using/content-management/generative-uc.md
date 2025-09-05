@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: ad22ee549241d9344b296d57ceed387d17a434e3
+source-git-commit: 16f6ccc83b357a1abf290244d3d4ab65b313b098
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 89%
@@ -113,7 +113,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 1. Sobald Sie den richtigen Inhalt gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
 
-## Generieren von Inhalten in allen unterstützten Sprachen {#languageS}
+## Generieren von Inhalten in allen unterstützten Sprachen{#languageS}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 
@@ -130,4 +130,3 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]** in Ihrer ausgewählten Sprache.
 
 1. Sobald Sie den richtigen Inhalt gefunden haben, klicken Sie auf **[!UICONTROL Auswählen]**.
-
