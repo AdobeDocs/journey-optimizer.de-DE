@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 43%
+source-wordcount: '1216'
+ht-degree: 34%
 
 ---
 
@@ -40,7 +40,7 @@ Sie werden wie folgt aufgelistet und jede Warnmeldung wird nachfolgend beschrieb
 
 * Spezifische Warnhinweise für Journey:
 
-   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [&#128279;](#alert-custom-actions)Journey
+   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [](#alert-custom-actions)Journey
    * Warnhinweis [Zielgruppen-Trigger lesen ](#alert-read-audiences) nicht erfolgreich)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
@@ -71,7 +71,7 @@ Je nach den Voreinstellungen des Abonnenten werden Warnhinweise per E-Mail und/o
 >
 >Standardmäßig sind nur In-App-Warnungen aktiviert.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
 
@@ -173,50 +173,50 @@ Der **AJO Domain-DNS-Eintrag fehlt** Warnhinweis wird ausgelöst, wenn das Syste
 
 Wenn das Problem durch die Änderungen nicht behoben wird, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### AJO-Kanalkonfigurationsfehler {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>Dieser Warnhinweis gilt nur für **E-Mail**-Kanalkonfigurationen, die den Delegierungstyp [benutzerdefinierte Subdomain](../configuration/delegate-custom-subdomain.md) verwenden. <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+Dieser Warnhinweis wird ausgelöst, wenn die Systemüberwachung Konfigurationsprobleme des E-Mail-Kanals erkennt. Zu diesen Problemen können falsch konfigurierte Kanaleinstellungen, eine ungültige DNS-Konfiguration, ein Problem mit der Unterdrückungsliste, IP-Inkonsistenzen oder andere Fehler gehören, die sich auf den E-Mail-Versand auswirken können.
 
-If you receive such an alert, the resolution steps are listed below:
+Wenn Sie einen solchen Warnhinweis erhalten, sind die Auflösungsschritte unten aufgeführt:
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. Klicken Sie auf den Warnhinweis, um zur betroffenen [E-Mail-Kanalkonfiguration](../email/get-started-email-config.md) in der [!DNL Journey Optimizer] weitergeleitet zu werden.
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   Anleitungen zum Bearbeiten von Kanalkonfigurationen finden Sie [diesem Abschnitt](../configuration/channel-surfaces.md#edit-channel-surface).
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. Überprüfen Sie die Konfigurationsdetails und Fehlermeldungen. Häufige Fehlerursachen sind:
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * SPF-Validierung fehlgeschlagen
+   * DKIM-Validierung fehlgeschlagen
+   * MX-Eintragsvalidierung fehlgeschlagen
+   * Ungültige DNS-Einträge
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >Die möglichen Ursachen für Konfigurationsfehler sind in [ Abschnitt ](../configuration/channel-surfaces.md).
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. Beheben Sie das Problem:
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * Aktualisieren Sie die Kanalkonfiguration nach Bedarf.
+   * Möglicherweise müssen Sie bestimmte DNS-Probleme beheben, die in dem Warnhinweis erwähnt werden.
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >Da eine einzelne Domain mit mehreren Kanalkonfigurationen verknüpft werden kann, können verwandte Probleme in mehreren Konfigurationen automatisch behoben werden, wenn DNS-Probleme für eine Kanalkonfiguration behoben werden.
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+Wenn die Änderung das Problem nicht behebt, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
+
+Beachten Sie beim Beheben von E-Mail-Konfigurationsproblemen die unten aufgeführten Best Practices:
+
+* Sofortiges Handeln - Beheben Sie Konfigurationsfehler, sobald sie erkannt werden, um Unterbrechungen beim E-Mail-Versand zu vermeiden.
+* Alle Konfigurationen überprüfen - Wenn der Warnhinweis mehrere betroffene E-Mail-Konfigurationen anzeigt, überprüfen und beheben Sie jede davon.
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
