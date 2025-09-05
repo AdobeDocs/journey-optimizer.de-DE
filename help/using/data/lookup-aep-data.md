@@ -11,9 +11,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -44,7 +44,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 ### Berechtigung für den Suchdienst
 
-| Funktionskomponente | Produktions-Sandbox-Limit | Anmerkungen |
+| Funktionskomponente | Beschränkungen | Anmerkungen |
 | ------- | ------- | ------- |
 | Datensätze für die Suche aktiviert | Max. 10 pro Organisation | Maximale Anzahl von Datensätzen, die jederzeit für die Suche konfiguriert werden können. Diese Begrenzung gilt für die Gesamtzahl der kombinierten Lookup-Datensätze in Produktions- und Entwicklungs-Sandboxes innerhalb der Kundeninstanz. |
 | Anzahl der Datensätze | Bis zu 2 Millionen Datensätze pro Datensatz | Maximal zulässige Anzahl von Datensätzen in einem einzelnen Datensatz, berechnet als Gesamtanzahl aller Batches innerhalb dieses Datensatzes. |
