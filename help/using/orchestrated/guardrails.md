@@ -5,10 +5,10 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 78%
 
 ---
 
@@ -31,31 +31,31 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * Schemata, die dem Targeting dienen, müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
 
+* Die durchschnittliche Anzahl von Attributen pro Schema **sollte 50 Spalten nicht überschreiten** um Verwaltbarkeit und Leistung zu gewährleisten.
+
 ### Datenaufnahme
 
 * Profil und relationale Datenaufnahme sind erforderlich.
 
 * Alle Aufnahmen müssen über **Change Data Capture**-Quellen erfolgen:
 
-   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich.
+   * Für **dateibasiert** ist `_change_request_type` Feld erforderlich. Unterstützte Werte sind `U` (upsert) oder `D` (delete).
 
    * Falls **Cloud-basiert**: Die Tabellenprotokollierung muss aktiviert sein.
 
-* **Direkte Aktualisierungen in Snowflake oder Datensätzen werden nicht unterstützt**. Das System ist schreibgeschützt. Alle Änderungen müssen über die Änderungsdatenerfassung (Change Data Capture) angewendet werden.
-
-* **ETL-Prozesse werden nicht unterstützt**. Daten müssen vor der Aufnahme vollständig in das erforderliche Format umgewandelt werden.
-
-* **Teilaktualisierungen sind nicht zulässig**, sondern jede Zeile muss als vollständiger Eintrag angegeben werden.
+* **Partielle Datensatzaktualisierungen sind nicht zulässig** muss jede Zeile als vollständiger Datensatz angegeben werden.
 
 * Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten** begrenzt.
 
-* Die Aufnahmelatenz, d. h. die Zeit von der Aufnahme bis zur Verfügbarkeit in Snowflake, variiert in der Regel **zwischen 15 Minuten und 2 Stunden**, je nach:
+* Die Aufnahmelatenz im relationalen Speicher beträgt in der Regel **15 Minuten bis 2 Stunden** abhängig von:
 
    * Datenvolumen
 
    * System-Parallelität
 
    * Art des Vorgangs (z. B. sind Einfügungen schneller als Aktualisierungen)
+
+* **Beziehung Datenfluss zu Datensatz ist 1-1**. Dies bedeutet, dass jeweils nur eine Quelle einen Datensatz befüllen kann. Um die Quelle zu wechseln, muss der vorhandene Datenfluss gelöscht und ein neuer Datenfluss mit der neuen Quelle erstellt werden.
 
 ### Datenmodellierung
 
@@ -75,7 +75,7 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * **Beschränkungen werden für die Anzahl der Profilattribute durchgesetzt**, die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können. Das dient der Wahrung der Systemeffizienz.
 
-* **Wertelisten (List of Values, LOV)** und **Aufzählungen** werden vollständig unterstützt.
+* **Auflistungen** werden vollständig unterstützt.
 
 * **Gelesene Zielgruppen werden nicht zwischengespeichert**, sondern bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrundeliegenden Daten ausgelöst.
 

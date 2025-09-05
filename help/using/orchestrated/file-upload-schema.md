@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 89%
 
 ---
 
@@ -39,6 +39,19 @@ Uploads von Excel-basierten Schemadateien werden unterstützt. Laden Sie die [be
 
 * **ENUM**\
   ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
+Siehe folgendes Beispiel:
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Schema-Label für Data Governance**\
   Label werden auf der Ebene der Schemafelder unterstützt, um Data-Governance-Richtlinien wie Zugriffskontrolle und Nutzungsbeschränkungen durchzusetzen. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verfügbar.
@@ -61,9 +74,10 @@ Uploads von Excel-basierten Schemadateien werden unterstützt. Laden Sie die [be
 1. Wählen Sie **[!UICONTROL Hochladen einer DDL-Datei]** aus, um ein Entitätsbeziehungsdiagramm zu definieren und Schemata zu erstellen.
 
    Die Tabellenstruktur muss Folgendes enthalten:
-   * Mindestens einen Primärschlüssel,
+   * Mindestens ein Primärschlüssel.
    * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
-   * Bei einer Aufnahme vom Typ Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht.
+   * Bei der Aufnahme mit Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht.
+   * Die DDL-Datei darf nicht mehr als 200 Tabellen definieren.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Uploads von Excel-basierten Schemadateien werden unterstützt. Laden Sie die [be
 
 1. Richten Sie jedes Schema und seine Spalten ein und stellen Sie dabei sicher, dass ein Primärschlüssel angegeben wird.
 
-   Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor angegeben werden. Dieses Attribut, das normalerweise vom Typ `datetime`, `long` oder `int` ist, ist für Aufnahmeprozesse unverzichtbar, da es sicherstellt, dass der Datensatz mit der neuesten Datenversion aktualisiert wird.
+   Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor (Typ `datetime`, `long` oder `int`) angegeben werden, um sicherzustellen, dass Datensätze mit den neuesten Daten aktualisiert werden. Benutzer können den Versionsdeskriptor ändern, der nach dem Festlegen obligatorisch wird. Ein Attribut kann nicht gleichzeitig ein Primärschlüssel (PK) und ein Versionsdeskriptor sein.
 
    ![](assets/admin_schema_2.png)
+
+1. Markieren Sie ein Attribut als `identity` und ordnen Sie es einem definierten Identity-Namespace zu.
+
+1. Umbenennen, Löschen oder Hinzufügen einer Beschreibung zu jeder Tabelle.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, sobald Sie fertig sind.
 
@@ -94,6 +112,10 @@ Gehen Sie wie folgt vor, um logische Verbindungen zwischen Tabellen innerhalb Ih
 1. Rufen Sie die Arbeitsflächenansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten.
 
 1. Klicken Sie auf die Schaltfläche ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben dem Quellen-Join und ziehen Sie den Pfeil in Richtung Ziel-Join, um die Verbindung herzustellen.
+
+   >[!NOTE]
+   >
+   >Zusammengesetzte Schlüssel werden unterstützt, wenn sie in der DDL-Datei definiert sind.
 
    ![](assets/admin_schema_5.png)
 
