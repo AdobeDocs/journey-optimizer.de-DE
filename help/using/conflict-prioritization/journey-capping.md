@@ -117,4 +117,4 @@ Darüber hinaus können Sie den [Adobe Experience Platform Query Service](https:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
