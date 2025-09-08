@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 50%
+source-wordcount: '1132'
+ht-degree: 36%
 
 ---
 
 # Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Datensatzsuche
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Datensatzsuche"
+>abstract="Wählen Sie unter allen Adobe Experience Platform-Datensätzen, die für die Suche aktiviert wurden, den Datensatz mit den benötigten Attributen aus und wählen Sie dann einen Zuordnungsschlüssel (z. B. Flugnummer oder Kunden-ID) aus, der sowohl in den Entscheidungselementattributen als auch im Datensatz vorhanden ist.“
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Datensatzsuche"
->abstract="Durch die Verwendung von Adobe Experience Platform-Daten in Entscheidungsregeln können Sie Eignungskriterien definieren, die auf dynamischen, externen Attributen basieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist."
+>abstract="Wählen Sie den Adobe Experience Platform-Datensatz mit den benötigten Attributen aus. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Datensatzsuche"
->abstract="Rangfolgenformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung von Datensatzattributen aus [!DNL Adobe Experience Platform] können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln. Erstellen Sie eine Zuordnung, um festzulegen, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird. Wählen Sie den Datensatz mit den erforderlichen Attributen und einen Verbindungsschlüssel aus, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist."
+>abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um die Rangfolgelogik dynamisch anzupassen und damit reale Bedingungen widerzuspiegeln. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Datensatz hinzufügen“
+>abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um Begrenzungskriterien zu definieren, die auf dynamischen, externen Attributen basieren. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben.“
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Um Attribute aus Adobe Experience Platform für die Entscheidungsfindung zu verw
 
 1. Konfigurieren Sie die Zuordnung:
 
-   1. Klicken Sie **[!UICONTROL Datensatz auswählen]**, um alle Adobe Experience Platform anzuzeigen, die für die Suche aktiviert wurden. Wählen Sie den Datensatz mit den benötigten Attributen aus.
+   1. Klicken Sie **[!UICONTROL Datensatz auswählen]**, um alle Adobe Experience Platform-Datensätze anzuzeigen, die für die Suche aktiviert wurden. Wählen Sie den Datensatz mit den benötigten Attributen aus.
 
    1. Klicken Sie **[!UICONTROL Schlüssel auswählen]**, um einen Verbindungsschlüssel (z. B. Flugnummer oder Kunden-ID) auszuwählen, der sowohl in den Attributen des Entscheidungselements als auch im Datensatz vorhanden ist.
 

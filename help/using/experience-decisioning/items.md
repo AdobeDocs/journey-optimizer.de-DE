@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 82%
+source-wordcount: '2186'
+ht-degree: 80%
 
 ---
 
@@ -108,6 +108,11 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informatio
 >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
 
 ## Festlegen von Begrenzungsregeln {#capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="Ausdruck"
+>abstract="Stattdessen können Sie mit einem statischen Wert für den Begrenzungsschwellenwert Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.<br/><br/>Begrenzungsregel **Ausdrücke** sind derzeit als eingeschränkte Verfügbarkeit für alle Benutzer verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt."
 
 Die Begrenzung wird als Einschränkung verwendet, um zu definieren, wie oft ein Angebotselement maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
 
