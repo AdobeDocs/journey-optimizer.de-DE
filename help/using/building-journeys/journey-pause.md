@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 89%
+source-wordcount: '2429'
+ht-degree: 82%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 89%
 >abstract="Das Pausieren einer Live-Journey verhindert den Eintritt neuer Profile. Es besteht die Wahl, ob Profile, die sich derzeit in der Journey befinden, verworfen oder beibehalten werden sollen. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
 Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
-
-
 
 ## Wichtigste Vorteile {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ Wenn eine Journey pausiert ist, hängen die Profilverwaltung und Aktivitätsausf
 | [Profil aktualisieren](update-profiles.md) und [Springen](jump.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Externe Datenquelle](../datasource/external-data-sources.md) | Dasselbe Verhalten wie bei einer Live-Journey |
 | [Ausstiegskriterien](journey-properties.md#exit-criteria) | Dasselbe Verhalten wie bei einer Live-Journey |
+
+
+Informationen zur Fehlerbehebung bei Verwerfen finden Sie [ diesem Abschnitt](#discards-troubleshoot).
 
 ## Fortsetzen pausierter Journeys {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ Wenn Sie diese Journey fortsetzen:
 
 1. Neue Journey-Eintritte beginnen innerhalb einer Minute.
 1. Profile, die zu dem Zeitpunkt in der Journey auf Aktivitäten vom Typ **Aktion** gewartet haben, werden mit einer Rate von 5.000 TPS fortgesetzt. Sie können dann in die **Aktion** eintreten, auf die sie gewartet haben, und die Journey fortsetzen.
+
+## Fehlerbehebung bei Profilverwerfen in pausierten Journey  {#discards-troubleshoot}
+
+Sie können den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Profilverwerfen enthalten können.
+
+* Verwenden Sie den folgenden Code für Verwerfungen, die vor dem Eintritt des Profils in die Journey erfolgen:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  Dadurch werden die Verwerfungen aufgelistet, die am Eintrittspunkt von Journey aufgetreten sind:
+
+   1. Wenn eine Zielgruppen-Journey ausgeführt wird und der erste Knoten noch verarbeitet wird, werden alle nicht verarbeiteten Profile verworfen, wenn die Journey angehalten wird.
+
+   1. Wenn ein neues unitäres Ereignis für den Startknoten eintrifft (um einen Eintritt zu Triggern), während die Journey angehalten wird, wird das Ereignis verworfen.
+
+* Verwenden Sie den folgenden Code für Verwerfungen, die auftreten, wenn sich das Profil bereits auf der Journey befindet:
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Dieser Befehl listet Verwerfungen auf, die beim Speichern von Profilen auf einer Journey aufgetreten sind:
+
+   1. Wenn der Journey angehalten und die Option Verwerfen aktiviert ist und vor dem Anhalten bereits ein Profil eingegeben wurde, wird dieses beim Erreichen des nächsten Aktionsknotens verworfen.
+
+   1. Wenn der Journey angehalten wurde und die Option Halten ausgewählt war, aber Profile aufgrund eines Überschreitens des 10-Millionen-Kontingents verworfen wurden, werden diese Profile auch dann verworfen, wenn sie den nächsten Aktionsknoten erreichen.
+
+
+

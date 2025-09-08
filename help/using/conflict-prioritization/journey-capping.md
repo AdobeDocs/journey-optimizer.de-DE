@@ -4,10 +4,10 @@ description: Informationen zum Erstellen von Begrenzungsregeln für Ihre Journey
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 98%
+source-wordcount: '911'
+ht-degree: 93%
 
 ---
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
    1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
 
-   In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als „5“ Journeys eintreten können.
+   In diesem Beispiel möchten wir verhindern, dass Profile in einem Monat mehr als „5“ Journey eingeben.
 
    ![](assets/journey-capping-entry-example.png)
 
@@ -113,8 +113,8 @@ Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-A
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie auch den **Abfragedienst** in Adobe Experience Platform zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
+Darüber hinaus können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Abfragen zu erstellen, um festzustellen, welche Regel dazu geführt hat, dass ein Profil nicht auf eine bestimmte Journey zugegriffen hat. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
