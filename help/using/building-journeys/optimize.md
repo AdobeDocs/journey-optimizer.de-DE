@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktivität optimieren
+title: Aktivität „Optimieren“
 description: Informationen zur Aktivität „Optimieren“
 feature: Journeys, Activities
 topic: Content Management
@@ -14,16 +14,16 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# Aktivität optimieren {#journey-path-optimization}
+# Aktivität „Optimieren“ {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="Aktivität optimieren"
->abstract="Mit **Aktivität „Optimieren** können Sie festlegen, wie Kontakte über Ihren Journey fortschreiten, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien wie Experimentieren, Targeting und bestimmter Bedingungen erstellen."
+>title="Aktivität „Optimieren“"
+>abstract="Mit der Aktivität **Optimieren** können Sie festlegen, wie Personen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen."
 
 >[!AVAILABILITY]
 >

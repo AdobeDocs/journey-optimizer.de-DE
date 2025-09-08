@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 32%
+ht-degree: 39%
 
 ---
 
-# Verwenden der Aktionsaktivität {#add-a-message-in-a-journey}
+# Verwenden der Aktivität „Aktion“ {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Aktionsaktivität"
->abstract="Die generische **Action**-Aktivität ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
+>title="Aktivität „Aktion“"
+>abstract="Die generische Aktivität **Aktion** ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
 
 >[!AVAILABILITY]
 >
@@ -137,7 +137,7 @@ Bei In-App-Nachrichten können Sie die Schaltfläche **[!UICONTROL Trigger bearb
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Hinzufügen von mehreren eingehenden Aktionen"
->abstract="Sie können mehrere eingehende Aktionen auf einer Journey auswählen. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
+>abstract="Innerhalb einer Journey können mehrere eingehende Aktionen ausgewählt werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
 
 Um die Journey-Orchestrierung zu vereinfachen, können Sie in einer einzigen Journey-Aktion mehrere eingehende Aktionen definieren.
 
