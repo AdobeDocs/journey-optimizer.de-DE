@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 79%
+source-wordcount: '1772'
+ht-degree: 77%
 
 ---
 
@@ -23,7 +23,7 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie die folgenden Voraussetzungen
 
 * **Zugriff auf Kampagnen**. Der Zugriff auf Kampagnen erfolgt entweder über die [Kampagnenliste](#access) oder über den [Kampagnenkalender](#calendar).
 
-* **Erstellen der Kampagne**. Die Erstellungsschritte hängen von der [Art der Kampagne](get-started-with-campaigns.md#get-started-with-campaigns) ab, die Sie erstellen. Erfahren Sie, wie Sie eine [Aktionskampagne](../campaigns/create-campaign.md) eine [API-ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) erstellen.
+* **Erstellen der Kampagne**. Die Erstellungsschritte hängen vom [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns) ab. Erfahren Sie, wie Sie eine [Aktionskampagne](../campaigns/create-campaign.md) eine [API-ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) erstellen.
 
 * **Definieren Sie die Kampagneneigenschaften**. Erfahren Sie, wie Sie Eigenschaften für eine [Aktionskampagne](../campaigns/campaign-properties.md) für eine [API-ausgelöste Kampagne](../campaigns/api-triggered-campaign-properties.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) festlegen.
 
@@ -53,7 +53,7 @@ Alle Kampagnenstatus und Warnhinweise anzeigen [in diesem Abschnitt](#statuses).
 >title="Aktion"
 >abstract="In diesem Abschnitt werden alle in der orchestrierten Kampagne verwendeten Aktionen aufgelistet."
 
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
+Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktion** Kampagnen, **API-ausgelöst** Kampagnen und **orchestrierte** Kampagnen. Erfahren Sie mehr über [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
 
 >[!BEGINTABS]
 
