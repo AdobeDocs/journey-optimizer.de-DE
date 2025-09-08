@@ -4,23 +4,17 @@ product: Journey Optimizer
 title: E-Mail-Kanal
 description: E-Mail-Kanal
 redpen-status: CREATED_||_2025-08-11_20-35-15
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
+exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 32%
+source-wordcount: '333'
+ht-degree: 27%
 
 ---
 
-
 # E-Mail-Kanal{#section-overview}
 
-Der E-Mail-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, wirkungsvolle E-Mail-Kampagnen präzise und kreativ zu entwerfen, zu konfigurieren und bereitzustellen. Ganz gleich, ob Sie personalisierte Nachrichten mit der intuitiven E-Mail-Designer erstellen, komplexe E-Mail-Journey und -Kampagnen konfigurieren oder Opt-outs zur Einhaltung von Vorschriften verwalten - dieser Kanal bringt alle Aspekte des E-Mail-Marketings unter einen Hut. Richten Sie zunächst den E-Mail-Kanal für optimale Zustellbarkeit und Personalisierung ein und erkunden Sie dann Tools, um dynamische Inhalte zu erstellen, die Ihre Audience ansprechen. Machen Sie sich mit fortgeschrittenen Themen wie der Verwaltung der Reputation von Absendern und der Einhaltung von DMARC-Richtlinien vertraut, um sicherzustellen, dass Ihre E-Mails dort landen, wo sie landen sollen. Von der nahtlosen Konfiguration bis hin zu effektivem Design und strategischem Versand bietet Ihnen der E-Mail-Kanal die Möglichkeit, Ihr E-Mail-Marketing in eine zuverlässige, datengesteuerte Engine für Kundeninteraktion umzuwandeln.
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="Entwerfen von E-Mails"
->abstract="Senden Sie mit **Adobe Journey Optimizer** E-Mail-Nachrichten an Ihre Kundinnen und Kunden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen."
+Der E-Mail-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, wirkungsvolle E-Mail-Kampagnen präzise und kreativ zu entwerfen, zu konfigurieren und bereitzustellen. Egal, ob Sie personalisierte Nachrichten mit der intuitiven E-Mail-Designer erstellen, komplexe E-Mail-Journey und -Kampagnen konfigurieren oder Opt-outs zur Einhaltung von Vorschriften verwalten - dieser Kanal bringt alle Aspekte des E-Mail-Marketings unter einen Hut. Richten Sie zunächst den E-Mail-Kanal für optimale Zustellbarkeit und Personalisierung ein und erkunden Sie dann Tools, um dynamische Inhalte zu erstellen, die Ihre Audience ansprechen. Machen Sie sich mit fortgeschrittenen Themen wie der Verwaltung der Reputation von Absendern und der Einhaltung von DMARC-Richtlinien vertraut, um sicherzustellen, dass Ihre E-Mails dort landen, wo sie landen sollen. Von der nahtlosen Konfiguration bis hin zu effektivem Design und strategischem Versand bietet Ihnen der E-Mail-Kanal die Möglichkeit, Ihr E-Mail-Marketing in eine zuverlässige, datengesteuerte Engine für Kundeninteraktion umzuwandeln.
 
 E-Mail-Sendungen können erstellt werden:
 
@@ -38,7 +32,7 @@ E-Mail-Sendungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen einer E-Mail
 
@@ -48,7 +42,7 @@ Schrittweise Anleitung zum Hinzufügen, Konfigurieren und Testen von E-Mail-Akti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entwerfen und Optimieren von E-Mail-Inhalten
 
@@ -58,7 +52,7 @@ Erfahren Sie mehr über Tools und Best Practices zum Entwerfen responsiver und p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verwalten von E-Mail-Opt-outs
 
@@ -68,7 +62,7 @@ Konfigurieren Sie Opt-out-Mechanismen mit einem Klick oder zwei Schritten, um Be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 E-Mail-Kanal konfigurieren
 
@@ -78,7 +72,7 @@ Einrichten und Verwalten von E-Mail-Konfigurationen wie der Zuweisung von Subdom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 E-Mail-Zustellbarkeit meistern
 
