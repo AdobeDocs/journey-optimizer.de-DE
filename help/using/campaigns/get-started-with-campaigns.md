@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 85%
+source-wordcount: '809'
+ht-degree: 69%
 
 ---
 
@@ -62,21 +62,21 @@ Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle ein
 
 ![](assets/gs-campaigns.png)
 
-In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
+In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen. Die unterstützten Kanäle und Anwendungsfälle hängen vom Kampagnentyp ab. Diese Typen sind unten aufgeführt.
 
 * **Aktionskampagnen**
 
-  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Folgende Kanäle werden unterstützt:
+  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Weitere Informationen zu den Funktionen, Anwendungsfällen und unterstützten Kanälen von Action-Kampagnen [auf dieser Seite](create-campaign.md).
 
-* **Kampagnen, die durch API ausgelöst werden**
+* **Durch API ausgelöste Kampagnen**
 
-  Kampagnen, die durch API ausgelöst werden, ermöglichen den Versand von Marketing-Kommunikation an eine Zielgruppe zum richtigen Zeitpunkt oder den Versand von Transaktions-/Betriebsnachrichten an einen Kontakt, z. B. zum Zurücksetzen des Passworts. Dabei kann eine Personalisierung erforderlich sein, bei der nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
+  API-ausgelöste Kampagnen ermöglichen es, dass Marketing-Nachrichten eine Zielgruppe zum richtigen Zeitpunkt ansprechen oder dass Transaktions-/Betriebsnachrichten an einen Kontakt gerichtet werden, z. B. zum Zurücksetzen des Kennworts. Dabei kann eine Personalisierung erforderlich sein, indem nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist. Weitere Informationen zu den Funktionen, Anwendungsfällen und unterstützten Kanälen von API-ausgelösten Kampagnen [auf dieser Seite](api-triggered-campaigns.md).
 
 * **Orchestrierte Kampagnen**
 
   Die Kampagnenorchestrierung in Adobe Journey Optimizer ermöglicht kanalübergreifend anspruchsvolle, markeninitiierte Marketing-Kampagnen und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu fördern.
 
-  Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
+  Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist. Erfahren Sie mehr über die Funktionen, Anwendungsfälle und unterstützten Kanäle [auf dieser Seite](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Voraussetzungen {#prerequisites}
 
