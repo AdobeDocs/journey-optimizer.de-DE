@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 36%
+source-wordcount: '1161'
+ht-degree: 35%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Datensatzsuche"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="Um Attribute aus Adobe Experience Platform für die Entscheidungsfindung zu verwenden, müssen Sie eine Zuordnung erstellen, um zu definieren, wie der Adobe Experience Platform-Datensatz mit Daten in [!DNL Journey Optimizer] verbunden wird."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Datensatzsuche"
->abstract="Wählen Sie unter allen Adobe Experience Platform-Datensätzen, die für die Suche aktiviert wurden, den Datensatz mit den benötigten Attributen aus und wählen Sie dann einen Zuordnungsschlüssel (z. B. Flugnummer oder Kunden-ID) aus, der sowohl in den Entscheidungselementattributen als auch im Datensatz vorhanden ist.“"
+>abstract="Wählen Sie unter allen Adobe Experience Platform-Datensätzen, die für die Suche aktiviert wurden, den Datensatz mit den erforderlichen Attributen aus und wählen Sie dann einen Zuordnungsschlüssel (z. B. Flugnummer oder Kunden-ID) aus, der sowohl in den Entscheidungselementattributen als auch im Datensatz vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Datensatz hinzufügen“"
->abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um Begrenzungskriterien zu definieren, die auf dynamischen, externen Attributen basieren. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben.“"
+>title="Datensatz hinzufügen"
+>abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um Begrenzungskriterien zu definieren, die auf dynamischen, externen Attributen basieren. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
 
 >[!AVAILABILITY]
 >
