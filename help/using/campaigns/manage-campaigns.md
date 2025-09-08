@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 77%
+source-wordcount: '1863'
+ht-degree: 69%
 
 ---
 
@@ -37,11 +37,6 @@ Alle Kampagnenstatus und Warnhinweise anzeigen [in diesem Abschnitt](#statuses).
 
 
 ## Zugriff auf Kampagnen {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Listen- und Kalenderansicht für Kampagnen"
->abstract="Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen mit einer übersichtlichen Darstellung ihrer Zeitpläne. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-no
 
 ![Bild, das das Kampagneninventar zeigt](assets/inventory-actions.png)
 
-* **[!UICONTROL Bericht für gesamte Zeit anzeigen]**/**[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**: Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren.
-* **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags.
-* **[!UICONTROL Duplizieren]**: In einigen Fällen müssen Sie möglicherweise eine Kampagne duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde.
-* **[!UICONTROL Löschen]**: Löscht die Kampagne. Diese Aktion ist nur für Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
-* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
+* **[!UICONTROL Alle Zeitberichte anzeigen]**/**[!UICONTROL Bericht zu letzten 24 Stunden anzeigen]** - Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer Kampagnen zu messen und zu visualisieren. Weitere Informationen zu [Kampagnenberichten](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die mit der Kampagne verknüpften Tags. Erfahren Sie, wie [ Tags in Ihren Kampagnen verwenden](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Duplizieren]** - Mit dieser Option können Sie eine Kampagne duplizieren, z. B. um eine gestoppte orchestrierte Kampagne auszuführen. [Weitere Informationen](#duplicate-a-campaign)
+* **[!UICONTROL Löschen]** - Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen](#delete-a-campaign)
+* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion steht für alle Kampagnen mit Ausnahme von Kampagnen **[!UICONTROL Entwurf]** zur Verfügung. Weitere Informationen über [Kampagnenarchivierung](#archive-a-campaign).
 
 Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
 
-* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Exportieren von Objekten in eine andere Sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [ Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
 ## Kampagnenlebenszyklus {#statuses}
@@ -154,6 +149,11 @@ Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagn
 ![](assets/campaign-alerts.png)
 
 ## Kampagnenkalender {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Listen- und Kalenderansicht für Kampagnen"
+>abstract="Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Kampagnen mit einer übersichtlichen Darstellung ihrer Zeitpläne. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
 
 Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht der Kampagnen mit einer übersichtlichen Darstellung der Zeitpläne. 
 
@@ -244,3 +244,23 @@ Um dies zu verhindern, können Sie abgeschlossene und gestoppte Kampagnen archiv
 ![](assets/create-campaign-archive.png)
 
 Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Liste abgerufen werden.
+
+
+## Löschen einer Kampagne {#delete}
+
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Diese Option ist nur für Kampagnen **[!UICONTROL Entwurf]** verfügbar.
+
+
+## Duplizieren einer Kampagne {#duplicate}
+
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+
+Geben Sie den Namen der Kampagne ein und bestätigen Sie.
+
+Die Kampagne wird erstellt und der Kampagnenliste hinzugefügt.
