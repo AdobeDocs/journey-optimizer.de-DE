@@ -10,10 +10,10 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 3%
 
 ---
 
@@ -119,7 +119,7 @@ Beispiel: _Wir glauben, dass die Änderung von X Y aufgrund von Z erhöht._
 
   Halten Sie klar fest, was getestet wurde, warum und was Sie gelernt haben. Das baut institutionelle Kenntnisse auf und verhindert Wiederholungsfehler.
 
-## Häufige Metriken und was sie anzeigen
+## Allgemeine Metriken
 
 | Metrik | Was IT misst | Verwendung |
 |-|-|-|
@@ -136,11 +136,11 @@ Beispiel: _Wir glauben, dass die Änderung von X Y aufgrund von Z erhöht._
 Ein gutes Experiment führt nicht nur zu einem Sieg, sondern auch zu einem klaren, umsetzbaren Lernen.
 Suchen Sie nach Folgendem:
 
-&check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
-&check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
-&check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
-&check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
-&check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
+&amp;check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
+&amp;check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
+&amp;check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
+&amp;check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
+&amp;check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
 
 Beim Experimentieren geht es nicht nur darum, die „beste“ Version zu finden, sondern auch darum, Wissen durch Tests und Iterationen aufzubauen. Gut durchgeführte Experimente liefern Einblicke, die zu intelligenteren Entscheidungen, besseren Anwendererlebnissen und verbesserten Ergebnissen führen.
 

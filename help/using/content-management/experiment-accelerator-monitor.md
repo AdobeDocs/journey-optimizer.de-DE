@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 6%
 
 ---
@@ -64,6 +64,8 @@ Die Seite mit den Experimentdetails ist in den folgenden Abschnitt unterteilt:
 
 ![](assets/experiment-monitor-outcome.png)
 
+Das **[!UICONTROL Experimentergebnis]** bietet Ihnen einen schnellen Überblick über die erfolgreichste Varianz in Ihrem Experiment.
+
 ### Einrichten {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ Unten im Widget finden Sie eine kurze Zusammenfassung Ihrer Experimentkonfigurat
 
 * **[!UICONTROL Audience]**: Die definierten Benutzersegmente, auf die sich das Experiment bezieht.
 
-## Opportunitys {#opportunities}
+### Opportunitys {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ Die **[!UICONTROL Ergebnisse]**-Tabelle bietet eine detaillierte Leistungsaufsch
 >Die Funktion Experiment Insights ist auf Experimente mit textbasierten Änderungen beschränkt.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL Experiment-Insights]** sind KI-generierte Lerninhalte, die aus diesem Experiment abgeleitet wurden. Diese Erkenntnisse werden verfügbar, sobald das Experiment statistische Signifikanz erreicht hat und bieten ein kontextuelles Verständnis dessen, was zu seinem Erfolg beigetragen hat. Sie heben die Schlüsselattribute hervor, die in der erfolgreichsten Abwandlung vorhanden sind und sich von der Kontrolle unterscheiden, die wahrscheinlich das Ergebnis beeinflusst hat.
 
