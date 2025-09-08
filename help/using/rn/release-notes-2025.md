@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
    * **Neuorganisation des Kampagneninventars**: Geplante und API-ausgelöste Kampagnen sind jetzt im Kampagneninventar zur leichteren Navigation und Verwaltung in separate Registerkarten unterteilt.
 
-[Mehr dazu](../campaigns/modify-stop-campaign.md)
+[Mehr dazu](../campaigns/manage-campaigns.md)
 
 * **Daten-Management**
    * **Aktualisierung der Systemdatensätze des Entscheidungs-Managements**: Die gelöschten personalisierten Angebote und Fallback-Angebote werden jetzt in den Datensätzen „decision_object_repository_personalized_offers“ und „decision_object_repository_fallback_offers“ als archiviert gekennzeichnet. Die vorhandenen Einträge im Datensatz werden nicht geändert.
@@ -423,7 +423,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Eine Kalenderansicht ist nun in den Journey- und Kampagnenlisten verfügbar. Damit können Sie alle Journey- und Kampagnenaktivierungen in den jeweiligen Listen visualisieren.</p>
 <p>Diese Änderung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Verwenden Sie zum Anfordern des Zugriffs <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">dieses Formular</a>.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>Weitere Informationen finden Sie in diesen Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern von Journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Zugriff auf Kampagnen</a>.</p>
+<p>Weitere Informationen finden Sie in diesen Abschnitten: <a href="../building-journeys/journey-ui.md">Durchsuchen und Filtern von Journeys</a>, <a href="../campaigns/manage-campaigns.md">Zugriff auf Kampagnen</a>.</p>
 <p>Verfügbarkeitsdatum: 28. Mai 2025</p>
 </td>
 </tr>

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
@@ -304,7 +304,7 @@ Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Perf
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Sie können auf die Berichte auch über das [Kampagnen-Menü](../campaigns/modify-stop-campaign.md#access) zugreifen, da Ihr Plan möglicherweise unterschiedliche Kampagnen beinhaltet.
+Sie können auf die Berichte auch über das [Kampagnen-Menü](../campaigns/manage-campaigns.md#access) zugreifen, da Ihr Plan möglicherweise unterschiedliche Kampagnen beinhaltet.
 
 
 ## Verwalten Ihres Plans {#manage-plan}

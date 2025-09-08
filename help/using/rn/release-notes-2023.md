@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -82,7 +82,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Kampagnen**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt. [Weitere Informationen](../campaigns/modify-stop-campaign.md#statuses)
+* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt. [Weitere Informationen](../campaigns/manage-campaigns.md#statuses)
 
 **Journeys**
 
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Kampagnen**
 
-* Jetzt ist es möglich, eine Kampagne über den Inventarbildschirm mithilfe des Aktionsmenüs (drei Punkte) zu duplizieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#duplicate)
+* Jetzt ist es möglich, eine Kampagne über den Inventarbildschirm mithilfe des Aktionsmenüs (drei Punkte) zu duplizieren. [Weitere Informationen](../campaigns/manage-campaigns.md#duplicate)
 * Sie können jetzt Entwürfe von Änderungen an einer Live-Kampagne löschen.
-* Die Schritte zur Aktivierung einer Kampagne sind jetzt optimiert. [Weitere Informationen](../campaigns/modify-stop-campaign.md)
+* Die Schritte zur Aktivierung einer Kampagne sind jetzt optimiert. [Weitere Informationen](../campaigns/manage-campaigns.md)
 
 **Entscheidungs-Management**
 
@@ -968,7 +968,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform bietet eine Reihe von Funktionen zur Datenhygiene, mit denen Sie Ihre gespeicherten Daten durch programmgesteuerte Löschungen der Aufzeichnungen und Datensätze von Kundinnen und Kunden verwalten können. Diese Funktion ist jetzt für Adobe Journey Optimizer verfügbar. </p>
+<p>Adobe Experience Platform bietet eine Reihe von Funktionen zur Datenhygiene, mit denen Sie Ihre gespeicherten Daten durch programmgesteuerte Löschungen der Einträge und Datensätze von Kundinnen und Kunden verwalten können. Diese Funktion ist jetzt für Adobe Journey Optimizer verfügbar. </p>
 <p>Sie können Ihre Datenspeicher verwalten, um sicherzustellen, dass Informationen erwartungsgemäß verwendet werden, dass sie aktualisiert werden, wenn falsche Daten korrigiert werden müssen, und dass sie gelöscht werden, wenn dies aufgrund von Richtlinien der Organisation erforderlich ist.</p>
 <p><strong>Achtung</strong> – Die Funktionen zur Datenhygiene stehen derzeit nur Organisationen zur Verfügung, die die Zusatzangebote <strong>Healthcare Shield</strong> und <strong>Privacy and Security Shield</strong> erworben haben.</p><p>Weitere Informationen finden Sie in der <a href="../privacy/data-hygiene.md">ausführlichen Dokumentation</a>.
 </td>

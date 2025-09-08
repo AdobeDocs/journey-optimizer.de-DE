@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Kampagnen**
 
-* Sie können jetzt abgeschlossene und gestoppte Kampagnen archivieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#archive)
+* Sie können jetzt abgeschlossene und gestoppte Kampagnen archivieren. [Weitere Informationen](../campaigns/manage-campaigns.md#archive)
 
 
 ## Version September 2022{#sept-2022-release}
