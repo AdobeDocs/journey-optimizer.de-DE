@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 89%
+source-wordcount: '753'
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen:
 
 * **Aktionskampagnen**
 
-  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Zwecke wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
+  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Folgende Kanäle werden unterstützt:
 
 * **Kampagnen, die durch API ausgelöst werden**
 

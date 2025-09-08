@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    >[!NOTE]
    >
-   >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
+   >Folgende Kanäle werden unterstützt: [E](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Push-Benachrichtigungen](../push/get-started-push.md).
    >
-   >Für Kampagnen, die durch API ausgelöst werden, sind nur die Kanäle „E-Mail“, „SMS“ und „Push-Benachrichtigung“ verfügbar.
+   >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
 1. **Auswählen einer Kanalkonfiguration**
 
