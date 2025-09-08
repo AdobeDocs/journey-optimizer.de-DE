@@ -136,11 +136,11 @@ Beispiel: _Wir glauben, dass die Änderung von X Y aufgrund von Z erhöht._
 Ein gutes Experiment führt nicht nur zu einem Sieg, sondern auch zu einem klaren, umsetzbaren Lernen.
 Suchen Sie nach Folgendem:
 
-&amp;check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
-&amp;check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
-&amp;check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
-&amp;check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
-&amp;check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
+&check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
+&check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
+&check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
+&check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
+&check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
 
 Beim Experimentieren geht es nicht nur darum, die „beste“ Version zu finden, sondern auch darum, Wissen durch Tests und Iterationen aufzubauen. Gut durchgeführte Experimente liefern Einblicke, die zu intelligenteren Entscheidungen, besseren Anwendererlebnissen und verbesserten Ergebnissen führen.
 
