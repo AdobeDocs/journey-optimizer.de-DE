@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 7%
 
 ---
@@ -71,12 +71,12 @@ Sie können orchestrierte Kampagnen erstellen, um (E **Mails**, **SMS** und **Pu
 
 ## Wie unterscheiden sich orchestrierte Kampagnen von Journey? {#oc-vs-journeys}
 
-* **Orchestrierte Kampagnen**: Optimiert für **Batch-, Eins-zu-Viele-**-Kampagnen. Ganze Zielgruppen durchlaufen die Kampagnen-Arbeitsfläche gemeinsam.
+* **Orchestrierte Kampagnen**: Optimiert für **Batch-, Eins-zu-Viele-**-Kampagnen. Zielgruppen werden in großen Mengen nach einem Zeitplan ausgeführt.
 * **Journey**: Am besten geeignet für **Echtzeit-, Eins-zu-eins-**-Interaktion. Jeder Kunde bewegt sich in seinem eigenen Tempo durch die Journey, ausgelöst durch Verhalten oder Ereignisse.
 
 >[!BEGINSHADEBOX]
 
-**Tipp** - Viele Unternehmen verwenden **beides zusammen** Journey für ausgelöste, reaktive Erlebnisse und koordinierte Kampagnen für geplante, kalenderbasierte Initiativen.
+**Best Practice**: Verwenden Sie sie zusammen - Journey für ausgelöste, reaktive Erlebnisse und koordinierte Kampagnen für geplante, kalenderbasierte Initiativen.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ In der Kampagnenorchestrierung wird die Ad-hoc-Segmentierung als „Live-Segment
 
 ## Unterstützt dies die Entscheidungsfindung? {#decisioning}
 
-Derzeit verwendet Decisioning keine relationalen Daten aus orchestrierten Kampagnen.
+Ja. Entscheidungsfindung kann relationale Daten aus orchestrierten Kampagnen verwenden. Sobald ein relationales Schema mit XDM-Schemata verbunden ist, können XDM-Daten bei der Entscheidungsfindung verwendet werden.
 
 ## Wie funktioniert die Bereitstellung in allen Umgebungen? {#deployment}
 
