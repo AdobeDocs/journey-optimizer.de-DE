@@ -45,7 +45,7 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
