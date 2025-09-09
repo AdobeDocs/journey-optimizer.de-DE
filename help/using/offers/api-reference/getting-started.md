@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 96%
+source-wordcount: '382'
+ht-degree: 89%
 
 ---
 
@@ -55,6 +55,10 @@ Bei allen Anfragen mit einer Payload (POST, PUT, PATCH) ist eine zusätzliche Ko
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>Berechtigungsprüfungen werden anhand der zugewiesenen Produktprofile erzwungen. Nur die im zugehörigen Produktprofil gewährten Berechtigungen bestimmen, auf welche Ressourcen über die API zugegriffen werden kann bzw. welche Ressourcen verwaltet werden können.
+
 ## Nächste Schritte {#next-steps}
 
 Dieses Dokument behandelt die erforderlichen Grundkenntnisse zum Aufrufen der [!DNL Offer Library]-API. Sie können nun mit den Beispielaufrufen in diesem Entwicklungshandbuch fortfahren und den entsprechenden Anweisungen folgen.
@@ -68,5 +72,5 @@ Dieses Dokument behandelt die erforderlichen Grundkenntnisse zum Aufrufen der [!
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/343541?quality=12&captions=ger) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
